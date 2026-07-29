@@ -127,7 +127,7 @@ const affiliationLabel = (item: Affiliation) =>
               profile.last_civilian_pre_service.map((item) => (
                 <article class="affiliation-card">
                   <h3>
-                    {item.canonical_organization ?? item.organization_name_as_found}
+                    {affiliationLabel(item)}
                   </h3>
                   <p>{item.role_title ?? item.occupation ?? "Employment"}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>

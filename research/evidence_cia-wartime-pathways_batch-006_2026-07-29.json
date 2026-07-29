@@ -1,0 +1,935 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-352-ortiz-peter-j",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 577",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 352; Ortiz, Peter J.; Maj; Box 577",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full service number; public citations and exports omit it."
+    },
+    {
+      "key": "nara-oss-index-page-218-howe-fisher",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 352",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 218; Howe, Fisher; Box 352",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No rank or service number appears in this row."
+    },
+    {
+      "key": "nara-oss-index-page-286-lussier-betty-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 467",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 286; Lussier, Betty A.; Box 467",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No rank or service number appears in this row."
+    },
+    {
+      "key": "nara-oss-index-page-120-dodson-cordelia",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 191",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 120; Dodson, Cordelia; Box 191",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No rank or service number appears in this row."
+    },
+    {
+      "key": "cia-glorious-amateurs-2021",
+      "stable_url": "https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/",
+      "title": "The \"Glorious Amateurs\" of OSS: A Diverse Group of Characters Who Helped Win a World War",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2021-12-03",
+      "locator": "War Hero and Actor: Peter Ortiz",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "cia-spymasters-assistant-2017",
+      "stable_url": "https://www.cia.gov/stories/story/the-spymasters-assistant/",
+      "title": "The Spymaster's Assistant",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2017-06-01",
+      "locator": "Coming of Age During the Great Depression; From Thread Salesman to OSS Officer",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history based in part on Fisher Howe's interviews. Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "cia-intrepid-woman-lussier-2019",
+      "stable_url": "https://www.cia.gov/stories/story/the-intrepid-woman-betty-ann-lussier/",
+      "title": "The Intrepid Woman: Betty Ann Lussier",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2019-03-26",
+      "locator": "Early life and Air Transport Auxiliary",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. The unnamed B-26 plant is not normalized to a guessed company."
+    },
+    {
+      "key": "cia-sisterhood-of-spies-2022",
+      "stable_url": "https://www.cia.gov/stories/story/glorious-amateurs-of-oss-sisterhood-of-spies/",
+      "title": "The \"Glorious Amateurs\" of OSS: A Sisterhood of Spies",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2022-04-06",
+      "locator": "A First Hand Witness to the Nazi Horror: Cordelia Dodson",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. The source's broad wording, U.S. Military intelligence, is preserved without assigning a narrower bureau."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-marine-corps",
+      "canonical_name": "United States Marine Corps",
+      "historical_name": "US Marine Corps",
+      "aliases": [
+        "U.S. Marine Corps",
+        "Marine Corps"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The Marine Corps is kept distinct from the U.S. Army because the reviewed biography identifies Ortiz's branch."
+    },
+    {
+      "key": "french-foreign-legion",
+      "canonical_name": "French Foreign Legion",
+      "historical_name": "French Foreign Legion",
+      "aliases": [
+        "Légion étrangère"
+      ],
+      "organization_type": "French Army corps",
+      "sector": "military",
+      "country": "France",
+      "normalization_notes": "The historical English name in the reviewed source is preserved."
+    },
+    {
+      "key": "coordinator-of-information",
+      "canonical_name": "Coordinator of Information",
+      "historical_name": "Coordinator of Information",
+      "aliases": [
+        "COI"
+      ],
+      "organization_type": "federal intelligence agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "COI is modeled separately from OSS while preserving its direct predecessor relationship in the evidence notes."
+    },
+    {
+      "key": "webb-school-claremont",
+      "canonical_name": "Webb School",
+      "historical_name": "Webb School",
+      "organization_type": "independent school",
+      "sector": "academia_and_research",
+      "city": "Claremont",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The name as given in the 2017 CIA history is retained; no modern successor name is substituted."
+    },
+    {
+      "key": "coats-and-clark-thread-company",
+      "canonical_name": "Coats and Clark Thread Company",
+      "historical_name": "Coats and Clark Thread Company",
+      "aliases": [
+        "Coats and Clark"
+      ],
+      "organization_type": "thread manufacturer",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "The historical company name in the reviewed source is preserved."
+    },
+    {
+      "key": "mr-turners-diplomatic-school",
+      "canonical_name": "Mr. Turner's Diplomatic School",
+      "historical_name": "Mr. Turner's Diplomatic School",
+      "organization_type": "Foreign Service examination school",
+      "sector": "academia_and_research",
+      "country": "United States",
+      "normalization_notes": "The informal historical name is retained exactly; no unidentified modern institution is inferred."
+    },
+    {
+      "key": "british-air-transport-auxiliary",
+      "canonical_name": "Air Transport Auxiliary",
+      "historical_name": "British Air Transport Auxiliary",
+      "aliases": [
+        "ATA"
+      ],
+      "organization_type": "civilian wartime air-transport auxiliary",
+      "sector": "unknown",
+      "country": "United Kingdom",
+      "active_dates": "1940-1945",
+      "normalization_notes": "The reviewed source explicitly describes the ATA as civilian and paid. It is not classified as military service."
+    },
+    {
+      "key": "united-states-military-intelligence",
+      "canonical_name": "U.S. Military Intelligence",
+      "historical_name": "US Military intelligence",
+      "organization_type": "military intelligence assignment",
+      "sector": "military",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The broad source wording is retained because the reviewed history does not identify a narrower Army bureau."
+    },
+    {
+      "key": "reed-college",
+      "canonical_name": "Reed College",
+      "historical_name": "Reed College",
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Portland",
+      "state_or_region": "Oregon",
+      "country": "United States",
+      "normalization_notes": "Student status is kept separate from employment."
+    },
+    {
+      "key": "university-of-maryland",
+      "canonical_name": "University of Maryland",
+      "historical_name": "University of Maryland",
+      "aliases": [
+        "UMD"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "normalization_notes": "Lussier's student affiliation is kept separate from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "peter-ortiz-us-marine-corps",
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "organization_key": "united-states-marine-corps",
+      "organization_name_as_found": "US Marine Corps",
+      "role_title": "Commissioned Marine officer",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "date_precision": "enlisted and commissioned before initial OSS association; joined OSS in January 1944",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA chronology places Marine Corps enlistment, commission, reconnaissance, and initial OSS association before Ortiz joined OSS in January 1944."
+    },
+    {
+      "key": "peter-ortiz-french-foreign-legion",
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "organization_key": "french-foreign-legion",
+      "organization_name_as_found": "French Foreign Legion",
+      "role_title": "Legionnaire",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "start_date": "1935",
+      "date_precision": "joined in 1935 and served for five years; exact end date not supplied",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Earlier foreign military service is documented but not conflated with Ortiz's immediate U.S. Marine Corps assignment."
+    },
+    {
+      "key": "fisher-howe-coordinator-of-information",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "organization_key": "coordinator-of-information",
+      "organization_name_as_found": "Coordinator of Information (COI)",
+      "role_title": "Special Assistant to the Director",
+      "occupation": "Government intelligence work",
+      "relationship_type": "government_assignment",
+      "date_precision": "joined COI four to five months before it became OSS",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "COI is the explicit organizational predecessor in Howe's chronology and is recorded as a government assignment, not a civilian employer."
+    },
+    {
+      "key": "fisher-howe-webb-school",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "organization_key": "webb-school-claremont",
+      "organization_name_as_found": "Webb School",
+      "role_title": "Teacher",
+      "occupation": "Teacher",
+      "relationship_type": "employment",
+      "date_precision": "taught while awaiting 1940 Foreign Service exam results; exact end date not supplied",
+      "city": "Claremont",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Webb School is the latest named civilian employer in the reviewed chronology, but the source does not say explicitly that Howe remained there until COI recruitment."
+    },
+    {
+      "key": "fisher-howe-coats-and-clark",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "organization_key": "coats-and-clark-thread-company",
+      "organization_name_as_found": "Coats and Clark Thread Company",
+      "role_title": "Thread salesman",
+      "occupation": "Sales",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1939",
+      "date_precision": "year precision supplied by the source",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The dated employer is earlier than Howe's diplomatic-school study and Webb School teaching."
+    },
+    {
+      "key": "fisher-howe-turners-diplomatic-school",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "organization_key": "mr-turners-diplomatic-school",
+      "organization_name_as_found": "Mr. Turner's Diplomatic School",
+      "role_title": "Foreign Service exam student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "date_precision": "six-month intensive course before the 1940 Foreign Service exam",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The school is recorded as education, not employment."
+    },
+    {
+      "key": "betty-lussier-air-transport-auxiliary",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "organization_key": "british-air-transport-auxiliary",
+      "organization_name_as_found": "British Air Transport Auxiliary (ATA)",
+      "role_title": "Civilian ferry pilot",
+      "occupation": "Pilot",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-10",
+      "date_precision": "arrived and was assigned in October 1942; resigned one month before joining OSS in May 1943",
+      "country": "United Kingdom",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The ATA is modeled as a paid civilian wartime government assignment, not a commissioned military posting or ordinary private employer."
+    },
+    {
+      "key": "betty-lussier-b26-plant",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "role_title": "Aircraft plant nightshift worker",
+      "occupation": "Aircraft manufacturing",
+      "relationship_type": "employment",
+      "date_precision": "after leaving college and before travel to England in 1942; plant name and exact dates not supplied",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The employer remains unnamed. The project does not infer a manufacturer from the B-26 aircraft type or the word nearby."
+    },
+    {
+      "key": "betty-lussier-university-of-maryland",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "organization_key": "university-of-maryland",
+      "organization_name_as_found": "University of Maryland (UMD)",
+      "role_title": "Student and civilian pilot trainee",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "date_precision": "before aircraft-plant work and travel to England; exact dates not supplied",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "University attendance and Civilian Pilot Training are recorded as student status, not employment."
+    },
+    {
+      "key": "cordelia-dodson-us-military-intelligence",
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "organization_key": "united-states-military-intelligence",
+      "organization_name_as_found": "US Military intelligence",
+      "role_title": "Air order-of-battle translator and analyst",
+      "occupation": "Intelligence analysis",
+      "relationship_type": "government_assignment",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA history says Dodson resigned from this Pentagon job and joined OSS. It is not relabeled as a private civilian employer."
+    },
+    {
+      "key": "cordelia-dodson-reed-college",
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "organization_key": "reed-college",
+      "organization_name_as_found": "Reed College",
+      "role_title": "Student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "graduated in 1941",
+      "city": "Portland",
+      "state_or_region": "Oregon",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Reed College is recorded as education, not employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "peter-ortiz-identity",
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Peter J. Ortiz is strongly matched to Pierre Julien Ortiz, whom the CIA identifies as a commissioned Marine officer and OSS member.",
+      "evidence_excerpt": "Colonel Peter J. Ortiz, the most decorated OSS officer of WWII",
+      "evidence_paraphrase": "The index supplies Peter J. Ortiz, Major, and Box 577; the CIA supplies his full birth name, matching middle initial, commissioned Marine chronology, and OSS service.",
+      "identity_match_assessment": "Exact distinctive first name, surname, and middle initial plus matching field-grade officer and OSS context.",
+      "temporal_assessment": "The CIA dates Foreign Legion entry to 1935, Marine service before OSS, and OSS entry to January 1944.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed Box 577 personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-352-ortiz-peter-j",
+          "support_type": "supports",
+          "locator_override": "PDF page 352; Major; Box 577",
+          "excerpt_override": "Ortiz Peter J Maj … Box 577"
+        },
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "War Hero and Actor: Peter Ortiz"
+        }
+      ]
+    },
+    {
+      "key": "peter-ortiz-immediate-marine-corps",
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "affiliation_key": "peter-ortiz-us-marine-corps",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Ortiz's immediate pre-OSS affiliation was the U.S. Marine Corps.",
+      "evidence_excerpt": "enlisted in the US Marine Corps and was quickly commissioned",
+      "evidence_paraphrase": "The CIA places Ortiz's Marine reconnaissance and initial OSS association before he formally joined OSS in January 1944.",
+      "identity_match_assessment": "High-confidence match from exact indexed name and middle initial, matching officer status, and institutional OSS chronology.",
+      "temporal_assessment": "Explicit immediate Marine-to-OSS sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Marine Corps is recorded as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "War Hero and Actor: Peter Ortiz"
+        }
+      ]
+    },
+    {
+      "key": "peter-ortiz-other-french-foreign-legion",
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "affiliation_key": "peter-ortiz-french-foreign-legion",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ortiz served in the French Foreign Legion for five years beginning in 1935.",
+      "evidence_excerpt": "joining the French Foreign Legion in 1935",
+      "evidence_paraphrase": "The CIA documents five years of Legion service before Ortiz returned to the United States and entered the Marine Corps.",
+      "identity_match_assessment": "High-confidence match from exact indexed name and middle initial, matching officer status, and institutional OSS chronology.",
+      "temporal_assessment": "Documented prewar military service; not the immediate pre-OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A Hollywood technical-adviser offer is not published as employment because the source does not say Ortiz accepted it.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "War Hero and Actor: Peter Ortiz"
+        }
+      ]
+    },
+    {
+      "key": "fisher-howe-identity",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fisher Howe is strongly matched to the Fisher Howe documented by the CIA as Donovan's COI and OSS special assistant.",
+      "evidence_excerpt": "Special Assistant to the Director, Mr. Wild Bill Donovan",
+      "evidence_paraphrase": "The index supplies the uncommon exact name and Box 352; the CIA supplies a detailed COI-to-OSS chronology for the same uncommon name.",
+      "identity_match_assessment": "Exact uncommon full name plus an authoritative institutional account of COI and OSS service.",
+      "temporal_assessment": "The CIA supplies a dated employment and education sequence from 1935 through COI and OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed Box 352 personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-218-howe-fisher",
+          "support_type": "supports",
+          "locator_override": "PDF page 218; Box 352",
+          "excerpt_override": "Howe Fisher … Box 352"
+        },
+        {
+          "source_key": "cia-spymasters-assistant-2017",
+          "support_type": "supports",
+          "locator_override": "From Thread Salesman to OSS Officer"
+        }
+      ]
+    },
+    {
+      "key": "fisher-howe-immediate-coi",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "affiliation_key": "fisher-howe-coordinator-of-information",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Howe's immediate pre-OSS affiliation was the Coordinator of Information, where he served as Donovan's special assistant.",
+      "evidence_excerpt": "at the time, it was still called the Coordinator of Information",
+      "evidence_paraphrase": "The CIA explains that Howe entered COI four to five months before the organization became OSS.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and detailed institutional chronology.",
+      "temporal_assessment": "Explicit immediate predecessor relationship.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "COI is treated as a government assignment rather than a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-spymasters-assistant-2017",
+          "support_type": "supports",
+          "locator_override": "From Thread Salesman to OSS Officer"
+        }
+      ]
+    },
+    {
+      "key": "fisher-howe-last-civilian-webb-school",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "affiliation_key": "fisher-howe-webb-school",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Webb School is the probable last named civilian employer before Howe's COI assignment.",
+      "evidence_excerpt": "taught at the Webb School in Claremont, California",
+      "evidence_paraphrase": "The CIA places Webb School teaching after Howe's 1940 Foreign Service exam and before his later exam and COI recruitment.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and detailed institutional chronology.",
+      "temporal_assessment": "Probable last civilian employer; the source does not explicitly date the end of Howe's teaching.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The claim remains visibly qualified and is excluded from confirmed/high default employer analytics.",
+      "sources": [
+        {
+          "source_key": "cia-spymasters-assistant-2017",
+          "support_type": "supports",
+          "locator_override": "Coming of Age During the Great Depression"
+        }
+      ]
+    },
+    {
+      "key": "fisher-howe-other-coats-and-clark",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "affiliation_key": "fisher-howe-coats-and-clark",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Howe worked for the Coats and Clark Thread Company from 1935 to 1939.",
+      "evidence_excerpt": "working for the Coats and Clark Thread Company in 1935",
+      "evidence_paraphrase": "The CIA dates Howe's national and overseas thread-sales work from 1935 until 1939.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and detailed institutional chronology.",
+      "temporal_assessment": "Documented prewar employment; earlier than diplomatic-school study, Webb School teaching, and COI.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This employer is not mislabeled as Howe's immediate affiliation or last civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-spymasters-assistant-2017",
+          "support_type": "supports",
+          "locator_override": "Coming of Age During the Great Depression"
+        }
+      ]
+    },
+    {
+      "key": "fisher-howe-other-diplomatic-school",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "affiliation_key": "fisher-howe-turners-diplomatic-school",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Howe attended a six-month Foreign Service examination course at Mr. Turner's Diplomatic School.",
+      "evidence_excerpt": "attend “Mr. Turner’s Diplomatic School”",
+      "evidence_paraphrase": "The CIA identifies Howe's six-month intensive course before his 1940 Foreign Service exam.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and detailed institutional chronology.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The school is explicitly classified as education rather than an employer.",
+      "sources": [
+        {
+          "source_key": "cia-spymasters-assistant-2017",
+          "support_type": "supports",
+          "locator_override": "Coming of Age During the Great Depression"
+        }
+      ]
+    },
+    {
+      "key": "betty-lussier-identity",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "claim_type": "identity",
+      "claim_text": "The indexed Betty A. Lussier is strongly matched to Betty Ann Lussier, whom the CIA documents as joining OSS in May 1943.",
+      "evidence_excerpt": "In May 1943 Betty joined the counterintelligence, X-2 branch of the OSS",
+      "evidence_paraphrase": "The index supplies exact first name, surname, middle initial, and Box 467; the CIA supplies the expanded middle name and a detailed OSS chronology.",
+      "identity_match_assessment": "Exact full name with matching middle initial plus an authoritative institutional OSS chronology.",
+      "temporal_assessment": "The CIA dates her University of Maryland, aircraft-plant, ATA, and May 1943 OSS sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed Box 467 personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-286-lussier-betty-a",
+          "support_type": "supports",
+          "locator_override": "PDF page 286; Box 467",
+          "excerpt_override": "Lussier Betty A … Box 467"
+        },
+        {
+          "source_key": "cia-intrepid-woman-lussier-2019",
+          "support_type": "supports",
+          "locator_override": "Air Transport Auxiliary; Enigma"
+        }
+      ]
+    },
+    {
+      "key": "betty-lussier-immediate-ata",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "affiliation_key": "betty-lussier-air-transport-auxiliary",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Lussier's immediate pre-OSS affiliation was the civilian British Air Transport Auxiliary.",
+      "evidence_excerpt": "A month after she resigned from the ATA Betty became a member of the OSS",
+      "evidence_paraphrase": "The CIA explicitly places Lussier's ATA resignation one month before OSS and describes ATA personnel as paid civilians.",
+      "identity_match_assessment": "High-confidence match from exact indexed name and middle initial plus institutional OSS chronology.",
+      "temporal_assessment": "Explicit immediate sequence with a one-month interval.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "ATA is not mislabeled as commissioned military service or an ordinary private employer.",
+      "sources": [
+        {
+          "source_key": "cia-intrepid-woman-lussier-2019",
+          "support_type": "supports",
+          "locator_override": "Air Transport Auxiliary"
+        }
+      ]
+    },
+    {
+      "key": "betty-lussier-last-civilian-b26-plant",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "affiliation_key": "betty-lussier-b26-plant",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Lussier's last identified civilian employment before British wartime service was nightshift work at an unnamed nearby B-26 plant.",
+      "evidence_excerpt": "working the nightshift at a nearby plant building B-26 bombers",
+      "evidence_paraphrase": "The CIA places the plant work after Lussier left college and immediately before her travel to England for war service.",
+      "identity_match_assessment": "High-confidence match from exact indexed name and middle initial plus institutional OSS chronology.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian job before ATA, but the employer's name is absent.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No aircraft manufacturer is inferred from the source's B-26 reference.",
+      "sources": [
+        {
+          "source_key": "cia-intrepid-woman-lussier-2019",
+          "support_type": "supports",
+          "locator_override": "Early life, University of Maryland and aircraft-plant work"
+        }
+      ]
+    },
+    {
+      "key": "betty-lussier-other-university-of-maryland",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "affiliation_key": "betty-lussier-university-of-maryland",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Lussier attended the University of Maryland and its Civilian Pilot Training Program before leaving for aircraft-plant work.",
+      "evidence_excerpt": "She enrolled at the University of Maryland",
+      "evidence_paraphrase": "The CIA documents university enrollment and civilian pilot training before Lussier left college.",
+      "identity_match_assessment": "High-confidence match from exact indexed name and middle initial plus institutional OSS chronology.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The university is not counted as an employer.",
+      "sources": [
+        {
+          "source_key": "cia-intrepid-woman-lussier-2019",
+          "support_type": "supports",
+          "locator_override": "Early life and University of Maryland"
+        }
+      ]
+    },
+    {
+      "key": "cordelia-dodson-identity",
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Cordelia Dodson is strongly matched to Cordelia Dodson Hood, whom the CIA documents as leaving U.S. Military Intelligence for OSS.",
+      "evidence_excerpt": "OSS and CIA officer Cordelia Dodson Hood",
+      "evidence_paraphrase": "The index supplies the distinctive exact name and Box 191; the CIA supplies the later surname and a direct pre-OSS employment chronology.",
+      "identity_match_assessment": "Exact distinctive full name plus an authoritative institutional OSS chronology and documented later surname.",
+      "temporal_assessment": "The CIA dates Reed graduation to 1941 and explicitly sequences Military Intelligence before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed Box 191 personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-120-dodson-cordelia",
+          "support_type": "supports",
+          "locator_override": "PDF page 120; Box 191",
+          "excerpt_override": "Dodson Cordelia … Box 191"
+        },
+        {
+          "source_key": "cia-sisterhood-of-spies-2022",
+          "support_type": "supports",
+          "locator_override": "A First Hand Witness to the Nazi Horror: Cordelia Dodson"
+        }
+      ]
+    },
+    {
+      "key": "cordelia-dodson-immediate-military-intelligence",
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "affiliation_key": "cordelia-dodson-us-military-intelligence",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Dodson's immediate pre-OSS affiliation was a Pentagon job with U.S. Military Intelligence.",
+      "evidence_excerpt": "she resigned and joined the OSS",
+      "evidence_paraphrase": "The CIA says Dodson translated and analyzed air order of battle at the Pentagon, then resigned after a denied transfer request and joined OSS.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed full name and direct institutional chronology.",
+      "temporal_assessment": "Explicit immediate employment-to-OSS sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source does not identify a narrower intelligence bureau, so none is inferred.",
+      "sources": [
+        {
+          "source_key": "cia-sisterhood-of-spies-2022",
+          "support_type": "supports",
+          "locator_override": "A First Hand Witness to the Nazi Horror: Cordelia Dodson"
+        }
+      ]
+    },
+    {
+      "key": "cordelia-dodson-other-reed-college",
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "affiliation_key": "cordelia-dodson-reed-college",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Dodson graduated from Reed College in 1941 before entering U.S. Military Intelligence.",
+      "evidence_excerpt": "graduating from Reed College in 1941",
+      "evidence_paraphrase": "The CIA documents Reed graduation before Dodson's Military Intelligence employment and OSS service.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed full name and direct institutional chronology.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Reed College is not counted as an employer.",
+      "sources": [
+        {
+          "source_key": "cia-sisterhood-of-spies-2022",
+          "support_type": "supports",
+          "locator_override": "A First Hand Witness to the Nazi Horror: Cordelia Dodson"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed Peter J. Ortiz name, middle initial, and Major rank, corroborated by a CIA biography naming Pierre Julien Ortiz and documenting commissioned Marine and OSS service.",
+      "name_variants": [
+        "Pierre Julien Ortiz",
+        "Pierre (Peter) Julien Ortiz",
+        "Colonel Peter J. Ortiz"
+      ],
+      "personnel_category": "commissioned_marine_corps_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 577 personnel file to establish the exact Marine-to-OSS transfer mechanism and whether Ortiz accepted the pre-service Hollywood adviser offer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon indexed name and Box 352, corroborated by a CIA institutional history documenting Fisher Howe's COI and OSS service.",
+      "name_variants": [
+        "Howe, Fisher"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 352 personnel file to verify Howe's Webb School end date and determine whether any employment intervened before COI.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed Betty A. Lussier name and middle initial, corroborated by a CIA biography expanding the middle name to Ann and documenting May 1943 OSS entry.",
+      "name_variants": [
+        "Betty Ann Lussier",
+        "Lussier, Betty Ann"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 467 personnel file and contemporary Maryland directories to identify the unnamed B-26 plant without guessing from aircraft type.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact distinctive indexed name and Box 191, corroborated by a CIA history identifying Cordelia Dodson Hood and a direct Military Intelligence-to-OSS sequence.",
+      "name_variants": [
+        "Cordelia Dodson Hood",
+        "Hood, Cordelia Dodson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 191 personnel file to identify Dodson's exact Military Intelligence bureau, grade, and employment dates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "reviewed-official-pathway-peter-ortiz-2026-07-29",
+      "person_id": "75964751-419e-529e-9fbf-4c755aa42091",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Peter J Ortiz\" Major OSS site:cia.gov",
+      "query_variant_type": "exact_name_rank_official_institutional",
+      "started_at": "2026-07-29T07:55:00+00:00",
+      "completed_at": "2026-07-29T08:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA institutional biography; corrected the generic Army classification to Marine Corps and rejected a Hollywood offer as proof of accepted employment.",
+      "next_action": "Review Box 577 for the exact transfer and pre-service civilian chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-fisher-howe-2026-07-29",
+      "person_id": "00580293-bf23-52eb-9a5b-352989863c88",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Fisher Howe\" OSS COI Webb School site:cia.gov",
+      "query_variant_type": "exact_name_employment_official_institutional",
+      "started_at": "2026-07-29T07:55:00+00:00",
+      "completed_at": "2026-07-29T08:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA biography; separated COI, probable last civilian teaching, earlier thread sales, and student status.",
+      "next_action": "Review Box 352 for Webb School end date and any intervening employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-betty-lussier-2026-07-29",
+      "person_id": "73b65df0-9cd0-5750-b796-ed8693999501",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Betty A Lussier\" OSS Air Transport Auxiliary site:cia.gov",
+      "query_variant_type": "exact_name_middle_initial_official_institutional",
+      "started_at": "2026-07-29T07:55:00+00:00",
+      "completed_at": "2026-07-29T08:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA biography; retained the B-26 plant as unnamed and classified ATA as paid civilian wartime service.",
+      "next_action": "Review Box 467 and contemporary Maryland directories for the plant identity.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-cordelia-dodson-2026-07-29",
+      "person_id": "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Cordelia Dodson\" OSS military intelligence site:cia.gov",
+      "query_variant_type": "exact_name_employment_official_institutional",
+      "started_at": "2026-07-29T07:55:00+00:00",
+      "completed_at": "2026-07-29T08:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA history; preserved the broad Military Intelligence label and kept Reed College as student status.",
+      "next_action": "Review Box 191 for the exact intelligence bureau, grade, and dates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    }
+  ]
+}

@@ -29,6 +29,7 @@ NAMESPACE_GENERIC = "ea902fca-8633-4872-bf40-3f97291e5065"
 
 PERSONNEL_CATEGORIES = {
     "commissioned_army_officer",
+    "commissioned_marine_corps_officer",
     "commissioned_naval_officer",
     "warrant_officer",
     "enlisted_army_personnel",

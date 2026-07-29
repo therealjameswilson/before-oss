@@ -423,6 +423,7 @@ def audit_profiles(
             or person["personnel_category"]
             in {
                 "commissioned_army_officer",
+                "commissioned_marine_corps_officer",
                 "commissioned_naval_officer",
                 "unknown_or_indeterminate",
             }

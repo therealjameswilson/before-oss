@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 54 / 54 browser cases.**
+**PASS - 57 / 57 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -41,6 +41,11 @@ the page titles while Rene Joyeuse, Taro Yashima, Mitsu Yashima, and Joseph
 Anthony Savoldi remain searchable documented variants. It verifies that
 unnamed student and occupational records display as “Art student” and
 “Professional wrestler,” rather than as generic relationship types.
+The wartime-pathways batch verifies Peter J Ortiz, Fisher Howe, Betty A
+Lussier, and Cordelia Dodson at all three viewport sizes. It tests the new
+commissioned Marine Corps classification, the distinction between government
+and military assignments, qualified last-civilian-employer evidence, and the
+role-title fallback used when a source names an occupation but not an employer.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the

@@ -318,3 +318,84 @@ test("the alias batch preserves indexed names, documented variants, and unnamed 
     }
   }
 });
+
+test("the wartime-pathways batch separates military, government, civilian, and student affiliations", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "75964751-419e-529e-9fbf-4c755aa42091",
+      name: "Peter J Ortiz",
+      immediate: "United States Marine Corps",
+      earlier: "French Foreign Legion",
+      source:
+        'The "Glorious Amateurs" of OSS: A Diverse Group of Characters Who Helped Win a World War',
+      category: "commissioned marine corps officer",
+      missingCivilian:
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    },
+    {
+      id: "00580293-bf23-52eb-9a5b-352989863c88",
+      name: "Fisher Howe",
+      immediate: "Coordinator of Information",
+      lastCivilian: "Webb School",
+      earlier: "Coats and Clark Thread Company",
+      source: "The Spymaster's Assistant",
+    },
+    {
+      id: "73b65df0-9cd0-5750-b796-ed8693999501",
+      name: "Betty A Lussier",
+      immediate: "Air Transport Auxiliary",
+      lastCivilian: "Aircraft plant nightshift worker",
+      earlier: "University of Maryland",
+      source: "The Intrepid Woman: Betty Ann Lussier",
+    },
+    {
+      id: "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",
+      name: "Cordelia Dodson",
+      immediate: "U.S. Military Intelligence",
+      earlier: "Reed College",
+      source: 'The "Glorious Amateurs" of OSS: A Sisterhood of Spies',
+      missingCivilian:
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.immediate, exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.earlier, exact: true }).first(),
+    ).toBeVisible();
+
+    const civilianSection = page.locator(
+      'section[aria-labelledby="civilian-employer"]',
+    );
+    if (profile.lastCivilian) {
+      await expect(
+        civilianSection.getByRole("heading", {
+          name: profile.lastCivilian,
+          exact: true,
+        }),
+      ).toBeVisible();
+    } else {
+      await expect(
+        civilianSection.getByText(profile.missingCivilian!, { exact: true }),
+      ).toBeVisible();
+    }
+
+    if (profile.category) {
+      await expect(
+        page.getByText(profile.category, { exact: true }).first(),
+      ).toBeVisible();
+    }
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toHaveAttribute("href", /cia\.gov/);
+  }
+});

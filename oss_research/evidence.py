@@ -229,6 +229,7 @@ class PersonUpdateInput(StrictModel):
     name_variants: list[str] | None = None
     personnel_category: Literal[
         "commissioned_army_officer",
+        "commissioned_marine_corps_officer",
         "commissioned_naval_officer",
         "warrant_officer",
         "enlisted_army_personnel",

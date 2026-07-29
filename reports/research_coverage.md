@@ -1,13 +1,13 @@
 # Research coverage
 
-Generated: 2026-07-29T07:49:05+00:00
+Generated: 2026-07-29T08:25:25+00:00
 
 ## Distinct coverage measures
 
 - Index coverage: **23,978 / 23,978** source rows linked (100.0000%).
-- Research-attempt coverage: **91 / 23,941** people (0.3801%).
-- Verified-employer coverage: **15 / 23,941** people (0.0627%).
-- Archival-review coverage: **17 / 23,941** people (0.0710%).
+- Research-attempt coverage: **95 / 23,941** people (0.3968%).
+- Verified-employer coverage: **19 / 23,941** people (0.0794%).
+- Archival-review coverage: **21 / 23,941** people (0.0877%).
 
 Automated extraction and identity-queue creation do not count as a historical research attempt.
 
@@ -16,12 +16,12 @@ Automated extraction and identity-queue creation do not count as a historical re
 - `candidate_found`: 1
 - `in_progress`: 73
 - `needs_identity_review`: 2
-- `not_started`: 23,850
+- `not_started`: 23,846
 - `occupation_only_found`: 1
-- `verified_employer_found`: 14
+- `verified_employer_found`: 18
 
 ## Claim confidence
 
 - `confirmed`: 28
-- `high`: 30
-- `medium`: 11
+- `high`: 44
+- `medium`: 12

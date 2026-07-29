@@ -229,6 +229,30 @@ class ReviewedEvidenceTests(unittest.TestCase):
         # expected; the assertion protects the import from inventing one.
         self.assertIsNone(link)
 
+    def test_review_can_correct_generic_rank_to_marine_corps_officer(self) -> None:
+        bundle = self._bundle()
+        bundle["person_updates"][0]["personnel_category"] = (
+            "commissioned_marine_corps_officer"
+        )
+        bundle["person_updates"][0]["commissioned_officer"] = True
+        path = Path(self.temp_dir.name) / "marine-officer-bundle.json"
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+
+        import_reviewed_evidence(self.connection, path)
+
+        person = self.connection.execute(
+            """
+            SELECT personnel_category, commissioned_officer
+            FROM person_entities
+            WHERE person_id = 'person-1'
+            """
+        ).fetchone()
+        self.assertEqual(
+            person["personnel_category"],
+            "commissioned_marine_corps_officer",
+        )
+        self.assertEqual(person["commissioned_officer"], 1)
+
     def test_public_claim_requires_source(self) -> None:
         bundle = self._bundle()
         bundle["claims"][0]["sources"] = []

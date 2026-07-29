@@ -91,6 +91,20 @@ The Library of Congress authority JSON was inspected in memory and discarded.
 The project retains only stable authority identifiers, source metadata, and
 project-authored identity assessments.
 
+The sixth reviewed evidence batch separated civilian, government, and military
+wartime pathways:
+
+| Indexed person | Official source | Decision |
+|---|---|---|
+| Peter J. Ortiz | <https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/> | U.S. Marine Corps recorded as the immediate military assignment; earlier French Foreign Legion service retained; an offered Hollywood job is not treated as accepted employment |
+| Fisher Howe | <https://www.cia.gov/stories/story/the-spymasters-assistant/> | COI recorded as the immediate government assignment; Webb School remains the qualified probable last civilian employer; earlier employment and student status stay separate |
+| Betty A. Lussier | <https://www.cia.gov/stories/story/the-intrepid-woman-betty-ann-lussier/> | Paid civilian Air Transport Auxiliary service separated from an unnamed B-26 plant; no aircraft manufacturer is guessed |
+| Cordelia Dodson | <https://www.cia.gov/stories/story/glorious-amateurs-of-oss-sisterhood-of-spies/> | U.S. Military Intelligence recorded as the immediate government assignment; Reed College retained only as student status |
+
+The Ortiz review also corrects the index-rank parser's generic Army category to
+a distinct commissioned Marine Corps officer category. A forward-only SQLite
+migration preserves the existing 23,978 source rows and 23,941 person entities.
+
 ## Official reference material
 
 - NARA OSS personnel records:

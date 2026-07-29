@@ -2,28 +2,24 @@
 
 Run: 2026-07-29 UTC
 
-- Python unit tests: **27 / 27 passed**
+- Python unit tests: **28 / 28 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **23,985 pages**
-- Internal link check: **23,985 HTML files passed**
-- Browser and accessibility suite: **54 / 54 passed**
+- Static production build: **23,995 pages**
+- Internal link check: **23,995 HTML files passed**
+- Browser and accessibility suite: **57 / 57 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **29**
-- Published, qualified affiliations: **46**
-- Published claims: **69**
-- GitHub Actions test workflow
-  [30433995649](https://github.com/therealjameswilson/before-oss/actions/runs/30433995649)
-  for research release `1bbb71c`: **passed**
-- GitHub Pages deployment workflow
-  [30433995714](https://github.com/therealjameswilson/before-oss/actions/runs/30433995714)
-  for research release `1bbb71c`: **passed**
-- Production route smoke tests: **11 / 11 returned HTTP 200**
+- Reviewed public sources: **36** records representing **35** unique documents
+- Published, qualified affiliations: **57**
+- Published claims: **84**
+- GitHub Actions test workflow: **pending for this release**
+- GitHub Pages deployment workflow: **pending for this release**
+- Production route smoke tests: **pending for this release**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
