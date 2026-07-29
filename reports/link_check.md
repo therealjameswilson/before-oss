@@ -32,23 +32,26 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Pages deployment
-[30427618940](https://github.com/therealjameswilson/before-oss/actions/runs/30427618940)
-for research release `c1fef9f` completed successfully.
+[30430203782](https://github.com/therealjameswilson/before-oss/actions/runs/30430203782)
+for research release `671dde7` completed successfully.
 
 Live checks returned HTTP 200 for all seven tested targets:
 
 - the home page;
-- the reviewed Ralph J. Bunche profile;
-- the reviewed William J. Casey profile;
-- the reviewed Arthur J. Goldberg profile;
-- the reviewed Sterling W. Hayden profile;
+- the reviewed Morris Berg profile;
+- the reviewed Virginia Hall profile;
+- the reviewed Richard M. Helms profile;
+- the reviewed William E. Colby profile;
 - `data/stats.json`; and
 - the public personnel CSV download.
 
 Each of the four new live profiles displays the expected immediate affiliation
-and direct NARA Catalog link. The live statistics report 23,978 source rows,
-23,941 person entities, 79 people with non-planned research attempts, 5
-verified-employer people, 35 published claims, and 8 public source documents.
+and direct CIA institutional citation. Profiles without a reviewed civilian
+employer display the approved unresolved wording. The live statistics report
+23,978 source rows, 23,941 person entities, 83 people with non-planned research
+attempts, 9 verified-employer people, 49 published claims, and 16 public source
+documents. The live CSV header contains `serial_masked` and no full
+service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.

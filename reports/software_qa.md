@@ -18,11 +18,11 @@ Run: 2026-07-29 UTC
 - Published, qualified affiliations: **35**
 - Published claims: **49**
 - GitHub Actions test workflow
-  [30427618983](https://github.com/therealjameswilson/before-oss/actions/runs/30427618983)
-  for research release `c1fef9f`: **passed**
+  [30430204898](https://github.com/therealjameswilson/before-oss/actions/runs/30430204898)
+  for research release `671dde7`: **passed**
 - GitHub Pages deployment workflow
-  [30427618940](https://github.com/therealjameswilson/before-oss/actions/runs/30427618940)
-  for research release `c1fef9f`: **passed**
+  [30430203782](https://github.com/therealjameswilson/before-oss/actions/runs/30430203782)
+  for research release `671dde7`: **passed**
 - Production route smoke tests: **7 / 7 returned HTTP 200**
 
 GitHub emitted a non-blocking annotation that several official actions still
