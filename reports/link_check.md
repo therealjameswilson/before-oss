@@ -4,15 +4,15 @@ Run: 2026-07-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,087 HTML files. Every relative
+**PASS.** The production build contains 24,089 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 138 organization profiles, and the
+The build includes 23,941 person profiles, 140 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,168 unique external URLs for separate live
+The checker inventoried 48,179 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -29,7 +29,7 @@ verification; external responses do not affect the internal-route pass.
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
 
-## Production deployment
+## Last verified production deployment
 
 GitHub Actions test workflow
 [30473438049](https://github.com/therealjameswilson/before-oss/actions/runs/30473438049)

@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/61 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/65 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 94 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 99 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1924,5 +1924,104 @@ test("Batch 020 separates student, civilian-employer, and government-assignment 
     page
       .locator('section[aria-labelledby="earlier-affiliations"]')
       .getByRole("heading", { name: "U.S. Department of Labor", exact: true }),
+  ).toBeVisible();
+});
+
+test("Batch 021 separates academic, Federal Reserve, NBER, and OPA pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/e6f133b8-bd4a-5796-978c-b91076896fef/");
+  await expect(
+    page.getByRole("heading", { name: "Geroid T Robinson", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Columbia University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/d633583e-637d-519b-a417-0eeb7ee8305b/");
+  await expect(
+    page.getByRole("heading", { name: "Barrington Moore", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText("No reviewed claim currently meets the publication threshold.", {
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Yale University", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/1d4ac037-dc29-51c0-81b4-c55b3b536f46/");
+  await expect(
+    page.getByRole("heading", { name: "Calvin B Hoover", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Duke University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/025318bc-bb51-5ebd-9d13-fb4c728dbfa8/");
+  await expect(
+    page.getByRole("heading", { name: "Chandler Morse", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "Board of Governors of the Federal Reserve System",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Federal Reserve Bank of New York", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/d38ec240-05df-5155-abc9-3ed54484ff5f/");
+  await expect(
+    page.getByRole("heading", { name: "Sidney S Alexander", exact: true }),
+  ).toBeVisible();
+  for (const organization of [
+    "National Bureau of Economic Research",
+    "United States Office of Price Administration",
+  ]) {
+    await expect(
+      page
+        .locator('section[aria-labelledby="immediate-affiliation"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "National Bureau of Economic Research",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
   ).toBeVisible();
 });
