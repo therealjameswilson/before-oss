@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:05:08+00:00",
+  "generated_at": "2026-07-29T22:23:49+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,13 +7,13 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 228,
-    "percent": 0.9523
+    "people_with_nonplanned_attempts": 233,
+    "percent": 0.9732
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_affiliation": 136,
-    "percent": 0.5681
+    "people_with_confirmed_or_high_published_affiliation": 141,
+    "percent": 0.5889
   },
   "verified_employer_coverage": {
     "person_entities": 23941,
@@ -22,39 +22,39 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 155,
-    "percent": 0.6474
+    "people_assessed": 160,
+    "percent": 0.6683
   },
   "research_status_counts": {
     "candidate_found": 1,
-    "completed": 6,
+    "completed": 9,
     "documented_prewar_employer_found": 11,
     "in_progress": 85,
     "needs_identity_review": 5,
-    "not_started": 23713,
+    "not_started": 23708,
     "occupation_only_found": 7,
-    "requires_archival_review": 15,
+    "requires_archival_review": 17,
     "verified_employer_found": 98
   },
   "claim_confidence_counts": {
-    "confirmed": 59,
-    "high": 347,
+    "confirmed": 64,
+    "high": 355,
     "low": 2,
-    "medium": 34
+    "medium": 35
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1449,
-    "commissioned_army_officer": 2056,
+    "commissioned_army_officer": 2058,
     "commissioned_marine_corps_officer": 5,
     "commissioned_naval_officer": 37,
-    "enlisted_army_personnel": 3455,
+    "enlisted_army_personnel": 3456,
     "enlisted_naval_personnel": 47,
     "foreign_or_allied_military_personnel": 242,
-    "unknown_or_indeterminate": 16646,
+    "unknown_or_indeterminate": 16643,
     "warrant_officer": 4
   },
   "possible_duplicate_groups": 204,
   "conflict_count": 0,
-  "citations": 363,
-  "unique_source_documents": 335
+  "citations": 370,
+  "unique_source_documents": 340
 }

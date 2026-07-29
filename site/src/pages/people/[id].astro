@@ -90,9 +90,15 @@ const affiliationLabel = (item: Affiliation) =>
           }
           {
             profile.immediate_pre_oss_affiliations.length === 0 &&
-              profile.last_civilian_pre_service.length === 0 && (
+                profile.last_civilian_pre_service.length === 0 && (
                 <div class="empty-state">
-                  <h3>No publishable pre-OSS affiliation is recorded yet</h3>
+                  <h3>
+                    {
+                      profile.other_pre_oss_affiliations.length > 0
+                        ? "No publishable immediate affiliation or civilian employer is recorded yet"
+                        : "No publishable pre-OSS affiliation is recorded yet"
+                    }
+                  </h3>
                   <p>
                     This is a statement about the current accessible evidence
                     and review state—not a claim that this person had no earlier

@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/90 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 136 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 141 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2868,6 +2868,111 @@ test("Batch 030 separates named employers, military and government paths, studen
   ).toHaveAttribute(
     "href",
     "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
+  );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 031 separates Area B military pathways from student and qualified athletic affiliations", async ({
+  page,
+}) => {
+  await page.goto("./people/a57ba5cd-7218-58e5-a325-6a9e70d925f5/");
+  await expect(
+    page.getByRole("heading", { name: "Albert Robinso Guay", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("American University");
+  await expect(
+    page.getByText("enlisted army personnel", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).toContainText(
+    "No publishable immediate affiliation or civilian employer is recorded yet",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/4626fb9d-f7ed-56b4-a7ec-492c76374b2b/");
+  await expect(
+    page.getByRole("heading", { name: "Arden W Dow", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Army lieutenant in Military Police");
+  await expect(page.locator("body")).toContainText("Washington State University");
+
+  await page.goto("./people/d0e64eee-71c2-58eb-bf99-0e98b74a880a/");
+  await expect(
+    page.getByRole("heading", { name: "Frank A Gleason", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Corps of Engineers",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Pennsylvania State University",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/832d939e-cbb0-5979-9c57-bb0c0e27113d/");
+  await expect(
+    page.getByRole("heading", { name: "Joseph Collart", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Washington State University");
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).toContainText(
+    "No publishable immediate affiliation or civilian employer is recorded yet",
+  );
+
+  await page.goto("./people/576aa158-a1be-56a6-96fc-c6c536de6381/");
+  await expect(
+    page.getByRole("heading", { name: "Rex Applegate", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("209th Military Police Company");
+  await expect(page.locator("body")).toContainText("University of Oregon");
+  await expect(page.locator("body")).toContainText("Oregon State University");
+  await expect(page.locator("body")).toContainText(
+    "exact nature and dates of that institutional association remain uncertain",
+  );
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Roll Call: Lieutenant Colonel Rex Applegate (1914-1998)",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.dvidshub.net/news/476096/roll-call-lieutenant-colonel-rex-applegate-1914-1998",
   );
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
