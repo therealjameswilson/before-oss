@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/53 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/57 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 84 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 89 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1740,4 +1740,89 @@ test("Batch 018 separates continuing academic employment, Army transitions, and 
         { exact: true },
       ),
   ).toBeVisible();
+});
+
+test("Batch 019 separates federal and academic employment, Army service, and doctoral study", async ({
+  page,
+}) => {
+  await page.goto("./people/5fc9dce9-664e-591d-bbed-c0d6b517c1e3/");
+  await expect(
+    page.getByRole("heading", { name: "Charles P Kindleberger", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", {
+          name: "Board of Governors of the Federal Reserve System",
+          exact: true,
+        }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Bank for International Settlements", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/2e169a05-3d86-50b7-b195-4e5bb9b7cf0d/");
+  await expect(
+    page.getByRole("heading", { name: "Abram Bergson", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "University of Texas at Austin", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/3afb0ff0-6fae-57d7-812e-3a6143a4db19/");
+  await expect(
+    page.getByRole("heading", { name: "Stuart H Hughes", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Brown University", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/d086f590-f86d-5535-8411-aa60aa252f01/");
+  await expect(
+    page.getByRole("heading", { name: "Carl E Schorske", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText("Doctoral student in German history", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText("No reviewed claim currently meets the publication threshold.", {
+        exact: true,
+      }),
+  ).toBeVisible();
+
+  await page.goto("./people/2ed25b69-80d3-5c7b-91cd-d70bca18cd2a/");
+  await expect(
+    page.getByRole("heading", { name: "Richard Hartshorne", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "University of Wisconsin-Madison", exact: true }),
+    ).toBeVisible();
+  }
 });
