@@ -31,10 +31,27 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Deployment and live route verification are pending for this release. The
-release candidate includes direct profiles for Peter J Ortiz, Fisher Howe,
-Betty A Lussier, and Cordelia Dodson, plus ten newly published organization
-routes. These routes are included in the complete internal-link pass above.
+GitHub Pages deployment
+[30437365696](https://github.com/therealjameswilson/before-oss/actions/runs/30437365696)
+for research release `a8e2adb` completed successfully.
+
+Live checks returned HTTP 200 for all twelve tested targets:
+
+- the home page and personnel directory;
+- the reviewed Peter J Ortiz, Fisher Howe, Betty A Lussier, and Cordelia
+  Dodson profiles;
+- the United States Marine Corps, Coordinator of Information, Air Transport
+  Auxiliary, and U.S. Military Intelligence organization profiles;
+- `data/stats.json`; and
+- the public personnel CSV download.
+
+The four live profiles preserve military, government, civilian-employment, and
+student distinctions, including the explicit role-title fallback for Betty A
+Lussier's unnamed aircraft plant. The live statistics report 23,978 source
+rows, 23,941 person entities, 95 people with non-planned research attempts, 19
+verified-affiliation people, 21 archival-review assessments, 84 published
+claims, and 36 public source records. The live CSV header contains
+`serial_masked` and no full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
