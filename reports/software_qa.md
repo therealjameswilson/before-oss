@@ -16,7 +16,7 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in
+  numbers at least six characters long: **0 full-number matches** in **24,205**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
 - Reviewed public sources: **369** public records representing **345** unique documents
@@ -29,11 +29,11 @@ Run: 2026-07-29 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30496617096](https://github.com/therealjameswilson/before-oss/actions/runs/30496617096)
-  for Batch 031 release `e46472b`: **passed**
+  [30497829515](https://github.com/therealjameswilson/before-oss/actions/runs/30497829515)
+  for Batch 032 release `bbd8fb6`: **passed**
 - GitHub Pages deployment workflow
-  [30496617043](https://github.com/therealjameswilson/before-oss/actions/runs/30496617043)
-  for Batch 031 release `e46472b`: **passed**
+  [30497829520](https://github.com/therealjameswilson/before-oss/actions/runs/30497829520)
+  for Batch 032 release `bbd8fb6`: **passed**
 - Production route and asset smoke tests: **22 / 22 returned HTTP 200 and the
   expected content marker or row count**
 
