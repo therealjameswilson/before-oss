@@ -1,0 +1,924 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-395-robinson-arthur-h",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 651",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 395; Robinson, Arthur H.; Capt; Box 651",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service number remains private and is masked in public data."
+    },
+    {
+      "key": "nara-oss-index-page-1-ackerman-edward-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 2",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 1; Ackerman, Edward A.; Box 2",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-115-despres-emile",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 183",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 115; Despres, Emile; Box 183",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-243-kaysen-carl",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 394",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 243; Kaysen, Carl; Box 394",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-299-mason-edward-s",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 490",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 299; Mason, Edward S.; PD; Box 490",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The unfamiliar grade is preserved rather than expanded speculatively."
+    },
+    {
+      "key": "cia-museum-oss-artifacts-arthur-robinson",
+      "stable_url": "https://www.cia.gov/static/cdfb671704c790a62fbbb6f0f9335042/InsideTheCollection_Digital_Mar2025.pdf",
+      "archival_identifier": "CIA Museum, Inside the Collection, March 2025",
+      "title": "Selections From CIA Museum's Artifact of the Week",
+      "author_creator": "Central Intelligence Agency Museum",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2025-03",
+      "locator": "PDF page 15, OSS 3D Plaster Maps",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Museum",
+      "rights_notes": "Official institutional history; used for the specific recruitment chronology, not as a personnel file."
+    },
+    {
+      "key": "uw-cartography-lab-arthur-robinson",
+      "stable_url": "https://geography.wisc.edu/cartography/people/",
+      "title": "History of the UW Cart Lab",
+      "author_creator": "University of Wisconsin-Madison Cartography Lab",
+      "repository_publisher": "University of Wisconsin-Madison Department of Geography",
+      "locator": "Arthur H. Robinson section",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Wisconsin Cartography Lab",
+      "rights_notes": "Institutional biography; concise project-authored paraphrases are retained."
+    },
+    {
+      "key": "barnes-crampton-mapping-intelligence-2011",
+      "stable_url": "https://blogs.ubc.ca/trevorbarnes/files/2015/09/proofs.pdf",
+      "archival_identifier": "Chapter 11 in Reconstructing Conflict: Integrating War and Post-War Geographies",
+      "title": "Mapping Intelligence: American Geographers and the Office of Strategic Services and GHQ/SCAP (Tokyo)",
+      "author_creator": "Trevor J. Barnes and Jeremy W. Crampton",
+      "repository_publisher": "Ashgate; author-hosted copy at the University of British Columbia",
+      "publication_record_date": "2011",
+      "locator": "Chapter pages 227-251; recruitment discussion at pages 230-231",
+      "access_date": "2026-07-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Reconstructing Conflict",
+      "rights_notes": "Author-hosted proof copy. No full text is retained or republished."
+    },
+    {
+      "key": "ahc-edward-ackerman-sustainability-pioneer",
+      "stable_url": "https://ahcwyo.org/2011/10/12/edward-ackerman-sustainability-pioneer/",
+      "archival_identifier": "Edward Ackerman Papers, Accession 05363",
+      "title": "Edward Ackerman: Sustainability Pioneer",
+      "author_creator": "American Heritage Center",
+      "repository_publisher": "American Heritage Center, University of Wyoming",
+      "publication_record_date": "2011-10-12",
+      "locator": "Biographical note",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "American Heritage Center Blog",
+      "rights_notes": "Institutional collection biography; only concise paraphrases are retained."
+    },
+    {
+      "key": "truman-library-emile-despres-papers",
+      "stable_url": "https://www.trumanlibrary.gov/library/personal-papers/emile-despres-papers",
+      "archival_identifier": "Emile Despres Papers, 1930-1973",
+      "title": "Despres, Emile Papers",
+      "author_creator": "Harry S. Truman Library and Museum",
+      "repository_publisher": "Harry S. Truman Library and Museum",
+      "publication_record_date": "2007",
+      "locator": "Biographical sketch, entries for 1939-1941 and 1941-1944",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Personal Papers",
+      "rights_notes": "Official archival finding aid; project stores only citation metadata and a concise chronology."
+    },
+    {
+      "key": "mit-news-carl-kaysen-obituary",
+      "stable_url": "https://news.mit.edu/2010/obit-kaysen",
+      "title": "Carl Kaysen, MIT professor emeritus and national security expert, dies at age 89",
+      "author_creator": "Peter Dizikes",
+      "repository_publisher": "MIT News",
+      "publication_record_date": "2010-02-08",
+      "locator": "Biographical chronology",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "MIT News",
+      "rights_notes": "Institutional obituary; only concise project-authored paraphrases are retained."
+    },
+    {
+      "key": "kaysen-interview-1988",
+      "stable_url": "https://www.files.ethz.ch/isn/126044/Kaysen%20working%20paper.pdf",
+      "archival_identifier": "Interview conducted at MIT in 1988; institutional copy",
+      "title": "An Interview with Carl Kaysen",
+      "author_creator": "Marc Trachtenberg, David Rosenberg, and Stephen Van Evera",
+      "repository_publisher": "Center for Security Studies, ETH Zurich",
+      "locator": "PDF pages 3-4; pre-OSS affiliations and May 1942 recruitment account",
+      "access_date": "2026-07-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "International Relations and Security Network",
+      "rights_notes": "First-person interview prepared from taped sessions; no full text is retained or republished."
+    },
+    {
+      "key": "truman-library-edward-mason-oral-history",
+      "stable_url": "https://www.trumanlibrary.gov/library/oral-histories/masones",
+      "archival_identifier": "Edward S. Mason Oral History Interview",
+      "title": "Edward S. Mason Oral History Interview",
+      "author_creator": "Richard D. McKinzie, interviewer",
+      "repository_publisher": "Harry S. Truman Library and Museum",
+      "publication_record_date": "1973-07-17",
+      "locator": "Interview transcript, hardcopy pages 1-4",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Oral History Interviews",
+      "rights_notes": "First-person archival interview; only concise paraphrases are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "ohio-state-university",
+      "canonical_name": "The Ohio State University",
+      "historical_name": "Ohio State University",
+      "aliases": [
+        "Ohio State",
+        "The Ohio State University"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "The historical source wording is preserved separately from the canonical form; student status is not employment."
+    },
+    {
+      "key": "harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Faculty employment and student relationships remain distinct at the affiliation level."
+    },
+    {
+      "key": "federal-reserve-board",
+      "canonical_name": "Board of Governors of the Federal Reserve System",
+      "historical_name": "Board of Governors of the Federal Reserve System",
+      "aliases": [
+        "Federal Reserve Board",
+        "Board of Governors"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The Board is kept distinct from the Federal Reserve Bank of New York."
+    },
+    {
+      "key": "columbia-university",
+      "canonical_name": "Columbia University",
+      "historical_name": "Columbia University",
+      "aliases": [
+        "Columbia"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Graduate study is modeled as student status, not employment."
+    },
+    {
+      "key": "national-bureau-economic-research",
+      "canonical_name": "National Bureau of Economic Research",
+      "historical_name": "National Bureau of Economic Research",
+      "aliases": [
+        "NBER",
+        "National Bureau"
+      ],
+      "organization_type": "nonprofit research organization",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The historical research-employment relationship is kept distinct from Kaysen's concurrent Columbia graduate study."
+    },
+    {
+      "key": "office-production-management",
+      "canonical_name": "U.S. Office of Production Management",
+      "historical_name": "Office of Production Management",
+      "aliases": [
+        "OPM"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "Historical wartime agency; not conflated with the modern U.S. Office of Personnel Management."
+    },
+    {
+      "key": "us-department-labor",
+      "canonical_name": "U.S. Department of Labor",
+      "historical_name": "U.S. Department of Labor",
+      "aliases": [
+        "Labor Department"
+      ],
+      "organization_type": "federal department",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "Mason's work was for Labor Department studies supporting the Temporary National Economic Committee."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "arthur-robinson-ohio-state-student",
+      "person_id": "e909510a-c0a7-53e3-adb2-4e0c29f8a601",
+      "organization_key": "ohio-state-university",
+      "organization_name_as_found": "Ohio State University",
+      "role_title": "Graduate student pursuing a Ph.D. in geography",
+      "occupation": "cartography graduate student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "year; start not established",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "CIA and scholarly accounts identify Robinson as a geography/cartography graduate student recruited in 1941. Ohio State is an institution attended, not an employer."
+    },
+    {
+      "key": "edward-ackerman-harvard",
+      "person_id": "79d464a9-2e5e-5f96-b326-e8bbb03d7a79",
+      "organization_key": "harvard-university",
+      "organization_name_as_found": "Harvard",
+      "role_title": "Instructor in geography",
+      "occupation": "geographer",
+      "relationship_type": "employment",
+      "start_date": "1940",
+      "end_date": "1948",
+      "date_precision": "year",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The scholarly recruitment history calls Ackerman a Harvard instructor when Hartshorne hired him; the American Heritage Center independently dates his Harvard faculty service to 1940-1948."
+    },
+    {
+      "key": "emile-despres-federal-reserve-board",
+      "person_id": "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
+      "organization_key": "federal-reserve-board",
+      "organization_name_as_found": "Board of Governors, Federal Reserve System",
+      "role_title": "Economic adviser to the chairman",
+      "occupation": "economist",
+      "relationship_type": "employment",
+      "start_date": "1939",
+      "end_date": "1941",
+      "date_precision": "year",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Truman Library chronology places Federal Reserve Board service in 1939-1941 and OSS/Joint Chiefs analytical service beginning in 1941, with no intervening affiliation identified."
+    },
+    {
+      "key": "carl-kaysen-nber",
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "organization_key": "national-bureau-economic-research",
+      "organization_name_as_found": "National Bureau of Economic Research",
+      "role_title": "Part-time research assistant",
+      "occupation": "economist",
+      "relationship_type": "employment",
+      "end_date": "1942-05",
+      "date_precision": "month; start not established",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Kaysen's first-person account says he finished his current National Bureau assignment before going to Washington in about May 1942."
+    },
+    {
+      "key": "carl-kaysen-columbia-student",
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "organization_key": "columbia-university",
+      "organization_name_as_found": "Columbia",
+      "role_title": "Graduate student",
+      "occupation": "economics graduate student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "year; start not established",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Kaysen directly described himself as a Columbia graduate student in early 1942. Columbia is not classified as his employer."
+    },
+    {
+      "key": "edward-mason-office-production-management",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "organization_key": "office-production-management",
+      "organization_name_as_found": "Office of Production Management",
+      "role_title": "Consultant on raw-material problems",
+      "occupation": "economist",
+      "relationship_type": "government_assignment",
+      "end_date": "1941",
+      "date_precision": "year; start not established",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Mason's first-person chronology identifies this consulting assignment immediately before his permanent 1941 move to Washington for OSS."
+    },
+    {
+      "key": "edward-mason-harvard",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "organization_key": "harvard-university",
+      "organization_name_as_found": "Harvard",
+      "role_title": "Professor of economics",
+      "occupation": "economist",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "date_precision": "year; end date not established",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The oral-history interviewer notes Mason was a Harvard full professor by 1937. No formal end date for this appointment is asserted."
+    },
+    {
+      "key": "edward-mason-labor-department",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "organization_key": "us-department-labor",
+      "organization_name_as_found": "Labor Department",
+      "role_title": "Co-director of studies for the Temporary National Economic Committee",
+      "occupation": "economist",
+      "relationship_type": "government_assignment",
+      "date_precision": "date not established",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Mason identified this as his first government assignment; the reviewed transcript did not supply exact dates."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-arthur-h-robinson",
+      "person_id": "e909510a-c0a7-53e3-adb2-4e0c29f8a601",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Arthur H. Robinson is the geographer recruited in 1941 who led the COI/OSS map unit.",
+      "evidence_paraphrase": "The exact name and initial, captain rank, Box 651 index entry, institutional chronology, and documented map leadership align.",
+      "identity_match_assessment": "High confidence.",
+      "temporal_assessment": "CIA and university accounts place his recruitment and cartographic work from 1941.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The multi-source role chronology is highly specific; the physical personnel file remains unreviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-395-robinson-arthur-h"
+        },
+        {
+          "source_key": "cia-museum-oss-artifacts-arthur-robinson"
+        },
+        {
+          "source_key": "uw-cartography-lab-arthur-robinson"
+        },
+        {
+          "source_key": "barnes-crampton-mapping-intelligence-2011"
+        }
+      ]
+    },
+    {
+      "key": "arthur-robinson-immediate-ohio-state",
+      "person_id": "e909510a-c0a7-53e3-adb2-4e0c29f8a601",
+      "affiliation_key": "arthur-robinson-ohio-state-student",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before his 1941 recruitment, Arthur H. Robinson was a geography/cartography graduate student at Ohio State University.",
+      "evidence_paraphrase": "The CIA Museum calls Robinson a graduate student pursuing a geography doctorate when the COI cartography section hired him.",
+      "identity_match_assessment": "High confidence based on exact name, discipline, date, OSS role, and index rank.",
+      "temporal_assessment": "Explicit immediate transition in 1941.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is student status. No reviewed source establishes Ohio State as his employer.",
+      "sources": [
+        {
+          "source_key": "cia-museum-oss-artifacts-arthur-robinson",
+          "locator_override": "PDF page 15"
+        },
+        {
+          "source_key": "barnes-crampton-mapping-intelligence-2011",
+          "locator_override": "Chapter pages 230-231"
+        },
+        {
+          "source_key": "uw-cartography-lab-arthur-robinson",
+          "locator_override": "Arthur H. Robinson section"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-a-ackerman",
+      "person_id": "79d464a9-2e5e-5f96-b326-e8bbb03d7a79",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward A. Ackerman is the Harvard geographer recruited into the COI/OSS geographic research organization.",
+      "evidence_paraphrase": "The exact name and middle initial, NARA index entry, Harvard chronology, specialty, and specific recruitment history align.",
+      "identity_match_assessment": "High confidence.",
+      "temporal_assessment": "Harvard service beginning in 1940 and COI recruitment in 1941 form a coherent wartime chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical Box 2 personnel file remains the best route to exact appointment paperwork.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-1-ackerman-edward-a"
+        },
+        {
+          "source_key": "ahc-edward-ackerman-sustainability-pioneer"
+        },
+        {
+          "source_key": "barnes-crampton-mapping-intelligence-2011"
+        }
+      ]
+    },
+    {
+      "key": "edward-ackerman-immediate-harvard",
+      "person_id": "79d464a9-2e5e-5f96-b326-e8bbb03d7a79",
+      "affiliation_key": "edward-ackerman-harvard",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Edward A. Ackerman was a Harvard geography instructor immediately before his recruitment into the COI/OSS organization.",
+      "evidence_paraphrase": "The recruitment history identifies Ackerman as a Harvard instructor; the American Heritage Center independently dates his Harvard faculty service to 1940-1948.",
+      "identity_match_assessment": "High confidence based on exact identity, discipline, employer, and specific recruitment sequence.",
+      "temporal_assessment": "Explicit immediate transition, with Harvard service continuing beyond the initial wartime recruitment date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The continuing faculty date is preserved and not silently truncated at OSS entry.",
+      "sources": [
+        {
+          "source_key": "barnes-crampton-mapping-intelligence-2011",
+          "locator_override": "Chapter pages 230-231"
+        },
+        {
+          "source_key": "ahc-edward-ackerman-sustainability-pioneer",
+          "locator_override": "Biographical note"
+        }
+      ]
+    },
+    {
+      "key": "identity-emile-despres",
+      "person_id": "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
+      "claim_type": "identity",
+      "claim_text": "The indexed Emile Despres is the economist whose official chronology records OSS and Joint Chiefs analytical service from 1941 to 1944.",
+      "evidence_paraphrase": "The exact distinctive name, Box 183 index entry, occupation, and official 1941-1944 wartime-service chronology align.",
+      "identity_match_assessment": "High confidence.",
+      "temporal_assessment": "The official chronology directly brackets Federal Reserve work and OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Truman Library finding aid is specific to Despres's papers and wartime appointments.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-115-despres-emile"
+        },
+        {
+          "source_key": "truman-library-emile-despres-papers"
+        }
+      ]
+    },
+    {
+      "key": "emile-despres-immediate-federal-reserve",
+      "person_id": "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
+      "affiliation_key": "emile-despres-federal-reserve-board",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Emile Despres's last documented civilian employer before OSS service was the Federal Reserve Board, where he advised the chairman.",
+      "evidence_paraphrase": "The Truman Library dates his Federal Reserve Board role to 1939-1941 and his OSS/Joint Chiefs analytical work to 1941-1944.",
+      "identity_match_assessment": "Confirmed by a person-specific official archival chronology and the exact NARA index name.",
+      "temporal_assessment": "Strongly date-bounded with no intervening affiliation identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The claim is limited to the sequence established by the official finding aid.",
+      "sources": [
+        {
+          "source_key": "truman-library-emile-despres-papers",
+          "locator_override": "Biographical sketch, 1939-1944"
+        }
+      ]
+    },
+    {
+      "key": "identity-carl-kaysen",
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl Kaysen is the economist who entered OSS in 1942 and later received an Army Air Forces commission.",
+      "evidence_paraphrase": "The exact distinctive name, Box 394 index entry, MIT biography, and detailed first-person OSS and military chronology align.",
+      "identity_match_assessment": "High confidence.",
+      "temporal_assessment": "The first-person account places his OSS move in about May 1942 and subsequent Army Air Forces intelligence service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical personnel file remains unreviewed, so the entity status remains high confidence rather than confirmed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-243-kaysen-carl"
+        },
+        {
+          "source_key": "mit-news-carl-kaysen-obituary"
+        },
+        {
+          "source_key": "kaysen-interview-1988"
+        }
+      ]
+    },
+    {
+      "key": "carl-kaysen-immediate-nber",
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "affiliation_key": "carl-kaysen-nber",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Carl Kaysen's last civilian employer before OSS was the National Bureau of Economic Research, where he was a part-time research assistant.",
+      "evidence_paraphrase": "Kaysen said he completed his National Bureau assignment before going to Washington for OSS in about May 1942.",
+      "identity_match_assessment": "High confidence based on a detailed first-person transition account and corroborating institutional biography.",
+      "temporal_assessment": "Explicit immediate transition in about May 1942.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source does not establish the start date, which remains blank.",
+      "sources": [
+        {
+          "source_key": "kaysen-interview-1988",
+          "locator_override": "PDF page 3"
+        },
+        {
+          "source_key": "mit-news-carl-kaysen-obituary",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "carl-kaysen-immediate-columbia",
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "affiliation_key": "carl-kaysen-columbia-student",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Carl Kaysen was also a Columbia graduate student immediately before his 1942 move to OSS.",
+      "evidence_paraphrase": "In his first-person account, Kaysen described concurrent Columbia graduate study and part-time National Bureau research before recruitment.",
+      "identity_match_assessment": "High confidence based on the same detailed first-person chronology.",
+      "temporal_assessment": "Explicit immediate student affiliation in early 1942.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Columbia is classified as an institution attended, not an employer.",
+      "sources": [
+        {
+          "source_key": "kaysen-interview-1988",
+          "locator_override": "PDF page 3"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-s-mason",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward S. Mason is the Harvard economist who said William Langer recruited him into OSS in 1941.",
+      "evidence_paraphrase": "The exact name and initial, Box 490 index entry, Harvard role, 1941 recruitment, and senior OSS economic position align.",
+      "identity_match_assessment": "High confidence.",
+      "temporal_assessment": "Mason's official oral history directly recounts his 1941 OSS recruitment and earlier assignments.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The source-row grade PD is preserved without speculative expansion.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-299-mason-edward-s"
+        },
+        {
+          "source_key": "truman-library-edward-mason-oral-history"
+        }
+      ]
+    },
+    {
+      "key": "edward-mason-immediate-opm",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "affiliation_key": "edward-mason-office-production-management",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Edward S. Mason's immediate pre-OSS government assignment was consulting for the Office of Production Management on raw-material problems.",
+      "evidence_paraphrase": "Mason placed this consulting work just before his permanent 1941 move to Washington for OSS.",
+      "identity_match_assessment": "Confirmed by Mason's first-person archival interview and exact index identity.",
+      "temporal_assessment": "Explicit immediate sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The relationship is classified as a government assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "truman-library-edward-mason-oral-history",
+          "locator_override": "Hardcopy page 3"
+        }
+      ]
+    },
+    {
+      "key": "edward-mason-last-civilian-harvard",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "affiliation_key": "edward-mason-harvard",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Edward S. Mason's last documented civilian employer before his permanent OSS move was Harvard University, where he was a professor of economics.",
+      "evidence_paraphrase": "The interview establishes a Harvard full professorship by 1937 and a permanent Washington move for OSS in 1941.",
+      "identity_match_assessment": "Confirmed by a first-person archival interview and exact index identity.",
+      "temporal_assessment": "Strongly date-bounded; the project does not claim that Harvard formally ended the appointment in 1941.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The claim separates civilian employment from the intervening production-management consulting assignment.",
+      "sources": [
+        {
+          "source_key": "truman-library-edward-mason-oral-history",
+          "locator_override": "Hardcopy pages 1-3"
+        }
+      ]
+    },
+    {
+      "key": "edward-mason-earlier-labor-department",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "affiliation_key": "edward-mason-labor-department",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before OSS, Edward S. Mason also co-directed Labor Department studies for the Temporary National Economic Committee.",
+      "evidence_paraphrase": "Mason called the Labor Department research his first government assignment but did not give exact dates in the reviewed passage.",
+      "identity_match_assessment": "Confirmed by Mason's first-person archival interview.",
+      "temporal_assessment": "Documented prewar; not presented as the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The earlier assignment remains separate from both Harvard employment and the later Office of Production Management consultancy.",
+      "sources": [
+        {
+          "source_key": "truman-library-edward-mason-oral-history",
+          "locator_override": "Hardcopy pages 1-2"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e909510a-c0a7-53e3-adb2-4e0c29f8a601",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and initial, captain rank, NARA Box 651 entry, and specific CIA, university, and scholarly map-division chronology align.",
+      "name_variants": [
+        "Arthur H Robinson",
+        "Arthur H. Robinson"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 651 for appointment paperwork and any civilian employment before graduate study.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "79d464a9-2e5e-5f96-b326-e8bbb03d7a79",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and initial, NARA Box 2 entry, Harvard affiliation, geography specialty, and specific 1941 COI recruitment account align.",
+      "name_variants": [
+        "Edward A Ackerman",
+        "Edward A. Ackerman",
+        "Edward Augustus Ackerman"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 2 for exact COI appointment date and civilian personnel status.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Distinctive exact name, NARA Box 183 entry, economist role, and official 1939-1944 Federal Reserve-to-OSS chronology align.",
+      "name_variants": [
+        "Emile Despres"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 183 for exact OSS appointment and personnel-status documentation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Distinctive exact name, NARA Box 394 entry, MIT biography, and detailed first-person 1942 OSS and Army Air Forces chronology align.",
+      "name_variants": [
+        "Carl Kaysen"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 394 for the civilian OSS appointment and subsequent commission dates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and initial, NARA Box 490 entry, Harvard professorship, and Mason's first-person account of his 1941 OSS recruitment align.",
+      "name_variants": [
+        "Edward S Mason",
+        "Edward S. Mason"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 490 to interpret the indexed PD grade and document exact OSS appointment dates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch020-arthur-robinson-cartography-student-review",
+      "person_id": "e909510a-c0a7-53e3-adb2-4e0c29f8a601",
+      "source_adapter": "web",
+      "query_text": "\"Arthur H Robinson\" OSS Ohio State employer 1941; NARA, CIA Reading Room/Museum, university, scholarly, newspaper, obituary, and archival-source review",
+      "query_variant_type": "full_name_official_student_to_oss_transition",
+      "started_at": "2026-07-29T16:35:00Z",
+      "completed_at": "2026-07-29T16:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Wikipedia and general cartography summaries were discovery-only; postwar Wisconsin employment was excluded from the pre-OSS employer field.",
+      "research_notes": "Verified Ohio State graduate study as the immediate pre-OSS affiliation. No reliable last civilian employer was established after the full protocol.",
+      "next_action": "Review Box 651 for appointment paperwork and any civilian employment before graduate study.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch020-edward-ackerman-harvard-review",
+      "person_id": "79d464a9-2e5e-5f96-b326-e8bbb03d7a79",
+      "source_adapter": "web",
+      "query_text": "\"Edward A Ackerman\" OSS Harvard employer 1941; NARA, CIA Reading Room, institutional archive, scholarly, newspaper, obituary, and archival-source review",
+      "query_variant_type": "full_name_academic_to_oss_transition",
+      "started_at": "2026-07-29T16:35:00Z",
+      "completed_at": "2026-07-29T16:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Wikipedia was discovery-only; postwar Chicago and Carnegie appointments were excluded; no name-specific CIA result added reliable pre-OSS employment evidence.",
+      "research_notes": "Verified Harvard faculty employment at recruitment and preserved its continuation beyond the initial COI/OSS transition.",
+      "next_action": "Review Box 2 for exact appointment date and civilian personnel status.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch020-emile-despres-federal-reserve-review",
+      "person_id": "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
+      "source_adapter": "web",
+      "query_text": "\"Emile Despres\" OSS Federal Reserve employer 1941; NARA, CIA Reading Room, Truman Library, institutional, scholarly, newspaper, obituary, and archival-source review",
+      "query_variant_type": "full_name_official_federal_to_oss_transition",
+      "started_at": "2026-07-29T16:35:00Z",
+      "completed_at": "2026-07-29T16:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Later State Department and academic positions were excluded; a CIA document mentioning Despres corroborated wartime context but did not improve the official employment chronology.",
+      "research_notes": "Verified the Federal Reserve Board as both immediate affiliation and last civilian employer before OSS.",
+      "next_action": "Review Box 183 for exact OSS appointment and personnel-status documentation.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch020-carl-kaysen-nber-columbia-review",
+      "person_id": "803386f6-0ee8-59b5-ae2a-4c0c086993a7",
+      "source_adapter": "web",
+      "query_text": "\"Carl Kaysen\" OSS NBER Columbia employer 1942; NARA, CIA Reading Room, MIT, institutional, scholarly, newspaper, obituary, and archival-source review",
+      "query_variant_type": "full_name_concurrent_student_employment_to_oss",
+      "started_at": "2026-07-29T16:35:00Z",
+      "completed_at": "2026-07-29T16:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Wikipedia supplied discovery chronology only; postwar Harvard and MIT roles were excluded; CIA search results about later policy work were not relevant to the pre-OSS transition.",
+      "research_notes": "Verified concurrent NBER employment and Columbia student status, keeping only NBER in the employer metric.",
+      "next_action": "Review Box 394 for the civilian appointment and subsequent Army Air Forces commission dates.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch020-edward-mason-government-harvard-review",
+      "person_id": "e3b15c03-9d62-5a59-8ac0-117fe8e68bef",
+      "source_adapter": "web",
+      "query_text": "\"Edward S Mason\" OSS Harvard Office of Production Management employer 1941; NARA, CIA Reading Room, Truman Library, institutional, scholarly, newspaper, obituary, and archival-source review",
+      "query_variant_type": "full_name_academic_government_to_oss_transition",
+      "started_at": "2026-07-29T16:35:00Z",
+      "completed_at": "2026-07-29T16:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unsourced biographies were rejected; postwar State Department and development appointments were excluded; CIA searches did not add a superior pre-OSS source.",
+      "research_notes": "Separated Harvard civilian employment, the immediate Office of Production Management assignment, and earlier Labor Department research.",
+      "next_action": "Review Box 490 to interpret the PD grade and document exact OSS appointment dates.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

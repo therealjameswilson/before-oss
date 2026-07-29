@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/57 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/61 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 89 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 94 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1825,4 +1825,104 @@ test("Batch 019 separates federal and academic employment, Army service, and doc
         .getByRole("heading", { name: "University of Wisconsin-Madison", exact: true }),
     ).toBeVisible();
   }
+});
+
+test("Batch 020 separates student, civilian-employer, and government-assignment pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/e909510a-c0a7-53e3-adb2-4e0c29f8a601/");
+  await expect(
+    page.getByRole("heading", { name: "Arthur H Robinson", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "The Ohio State University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText("Graduate student pursuing a Ph.D. in geography", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+
+  await page.goto("./people/79d464a9-2e5e-5f96-b326-e8bbb03d7a79/");
+  await expect(
+    page.getByRole("heading", { name: "Edward A Ackerman", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Harvard University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/ae91f5d4-44b6-5096-89e9-9f6debbf5a24/");
+  await expect(
+    page.getByRole("heading", { name: "Emile Despres", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", {
+          name: "Board of Governors of the Federal Reserve System",
+          exact: true,
+        }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/803386f6-0ee8-59b5-ae2a-4c0c086993a7/");
+  await expect(
+    page.getByRole("heading", { name: "Carl Kaysen", exact: true }),
+  ).toBeVisible();
+  for (const organization of [
+    "National Bureau of Economic Research",
+    "Columbia University",
+  ]) {
+    await expect(
+      page
+        .locator('section[aria-labelledby="immediate-affiliation"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "National Bureau of Economic Research",
+        exact: true,
+      }),
+  ).toBeVisible();
+
+  await page.goto("./people/e3b15c03-9d62-5a59-8ac0-117fe8e68bef/");
+  await expect(
+    page.getByRole("heading", { name: "Edward S Mason", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "U.S. Office of Production Management",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "U.S. Department of Labor", exact: true }),
+  ).toBeVisible();
 });

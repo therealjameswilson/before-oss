@@ -5,23 +5,23 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,084 pages**
-- Internal link check: **24,084 HTML files passed**
-- Browser and accessibility suite: **96 / 96 passed**
+- Static production build: **24,087 pages**
+- Internal link check: **24,087 HTML files passed**
+- Browser and accessibility suite: **99 / 99 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`93272ed087266728f692ccefef843ffc9e3ddbf8a4bcc65273100b4af84a3c08`)
+  (`6c2447cef01f68bf7107fbe2752d2acdc83d9cfbb641239cb5d0b8a7480fadb1`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **224** public records representing **212** unique documents
-- Published, qualified affiliations: **192**
-- Published claims: **298**
-- Verified-affiliation metric: **89** people with confirmed/high published
+- Reviewed public sources: **237** public records representing **223** unique documents
+- Published, qualified affiliations: **200**
+- Published claims: **311**
+- Verified-affiliation metric: **94** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **57** people with confirmed/high published
+- Verified-employer metric: **61** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -80,3 +80,7 @@ Batch 019 adds checks for a direct Federal Reserve-to-OSS transition, an
 earlier international-bank role kept out of the immediate field, an academic
 employer-to-Army-to-OSS sequence, doctoral study that remains non-employment,
 and a predecessor-agency appointment from a continuing university position.
+Batch 020 adds checks for student status at Ohio State and Columbia, distinct
+NBER and Federal Reserve employment, a production-management government
+assignment kept separate from Harvard employment, an earlier Labor Department
+assignment, and approved unresolved-employer wording for archival review.
