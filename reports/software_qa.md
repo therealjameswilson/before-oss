@@ -17,9 +17,13 @@ Run: 2026-07-29 UTC
 - Reviewed public sources: **4**
 - Published, qualified affiliations: **9**
 - Published claims: **12**
-- GitHub Actions test workflow for this release: **pending deployment**
-- GitHub Pages deployment workflow for this release: **pending deployment**
-- Production route smoke tests: **pending deployment**
+- GitHub Actions test workflow
+  [30424573455](https://github.com/therealjameswilson/before-oss/actions/runs/30424573455)
+  for research release `a3a707e`: **passed**
+- GitHub Pages deployment workflow
+  [30424573465](https://github.com/therealjameswilson/before-oss/actions/runs/30424573465)
+  for research release `a3a707e`: **passed**
+- Production route smoke tests: **5 / 5 returned HTTP 200**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It

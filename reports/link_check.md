@@ -31,9 +31,24 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-The current build is ready for GitHub Pages deployment. The release verification
-must confirm the home page, both researched profiles, `data/stats.json`, and the
-public downloads after the new commit reaches production.
+GitHub Pages deployment
+[30424573465](https://github.com/therealjameswilson/before-oss/actions/runs/30424573465)
+for research release `a3a707e` completed successfully.
+
+Live checks returned HTTP 200 for all five tested targets:
+
+- the home page;
+- the confirmed Julia C. McWilliams profile;
+- the reviewed Mort S. Bobrow profile;
+- `data/stats.json`; and
+- the public personnel CSV download.
+
+The live McWilliams page has the production canonical URL, a prefilled
+production correction URL, the direct NAID 2180661 Catalog link, and the
+separate immediate and last-civilian affiliations. The live statistics report
+23,978 source rows, 23,941 person entities, 75 people with non-planned research
+attempts, 1 verified-employer person, 12 published claims, and 4 public source
+documents.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
