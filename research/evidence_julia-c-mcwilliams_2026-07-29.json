@@ -1,0 +1,503 @@
+{
+  "bundle_version": "reviewed-personnel-file-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-314-mcwilliams-julia-c",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, indexed Box 513",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 314; McWilliams, Julia C.; indexed Box 513",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The source row remains preserved separately."
+    },
+    {
+      "key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+      "stable_url": "https://catalog.archives.gov/id/2180661",
+      "archival_identifier": "NAID 2180661; RG 226, Entry A1-224; digital object 14811860",
+      "title": "McWilliams, Julia C. — OSS Personnel File",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1942-1946",
+      "locator": "Complete digital file; PDF pages 1, 34, 38-39, and 65",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Personnel Files of the Office of Strategic Services, Record Group 226",
+      "document_number": "Digital object 14811860",
+      "rights_notes": "Reviewed from the complete 130-page public file. No medical material, addresses, full identifiers, or full-page images are republished. The index says Box 513, the Catalog lists preservation Box 513A, and the file introduction says Box 514."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "office-of-war-information",
+      "canonical_name": "Office of War Information",
+      "historical_name": "U.S. Information Center, O.W.I.",
+      "aliases": [
+        "OWI",
+        "O.W.I.",
+        "U.S. Information Center"
+      ],
+      "organization_type": "federal wartime information agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "The personnel history names the employing unit as the U.S. Information Center, O.W.I.; that historical wording is preserved on the affiliation."
+    },
+    {
+      "key": "w-and-j-sloane",
+      "canonical_name": "W. & J. Sloane",
+      "historical_name": "W. & J. Sloane",
+      "aliases": [
+        "W & J Sloane",
+        "W. and J. Sloane"
+      ],
+      "organization_type": "furniture retailer",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "New York and Beverly Hills positions remain distinct affiliation records under the same historical company."
+    },
+    {
+      "key": "the-coast-magazine",
+      "canonical_name": "The Coast Magazine",
+      "historical_name": "The Coast Magazine",
+      "aliases": [],
+      "organization_type": "magazine",
+      "sector": "journalism_and_media",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The personnel file says the magazine folded; no successor organization is inferred."
+    },
+    {
+      "key": "american-red-cross-pasadena-chapter",
+      "canonical_name": "American Red Cross, Pasadena Chapter",
+      "historical_name": "American Red Cross: Pasadena Chapter",
+      "aliases": [
+        "Pasadena Red Cross"
+      ],
+      "organization_type": "humanitarian nonprofit chapter",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "Pasadena",
+      "state_or_region": "California",
+      "country": "United States"
+    },
+    {
+      "key": "fourth-interceptor-command-aircraft-warning-service",
+      "canonical_name": "Fourth Interceptor Command, Aircraft Warning Service",
+      "historical_name": "Aircraft Warning Service, U.S. Army Interceptor Command",
+      "aliases": [
+        "4th Interceptor Command",
+        "Aircraft Warning Service"
+      ],
+      "organization_type": "military air-defense command",
+      "sector": "military",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The file describes unpaid Aircraft Warning Service work under the Fourth Interceptor Command; it is recorded as volunteer service, not civilian employment."
+    },
+    {
+      "key": "smith-college",
+      "canonical_name": "Smith College",
+      "historical_name": "Smith College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "julia-mcwilliams-office-of-war-information",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "office-of-war-information",
+      "organization_name_as_found": "U.S. Information Center, O.W.I.",
+      "role_title": "Senior typist, Executive Index File",
+      "occupation": "Senior typist",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-08-22",
+      "end_date": "1942-11-16",
+      "date_precision": "day",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Her personnel history says she requested transfer to OSS from this position; an OSS oath in the same file is dated November 18, 1942."
+    },
+    {
+      "key": "julia-mcwilliams-w-and-j-sloane-beverly-hills",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "w-and-j-sloane",
+      "organization_name_as_found": "W. & J. Sloane",
+      "role_title": "Advertising Manager",
+      "occupation": "Advertising manager",
+      "relationship_type": "employment",
+      "start_date": "1941-03-01",
+      "end_date": "1941-07-01",
+      "date_precision": "day",
+      "city": "Beverly Hills",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "This was the last paid private-sector employer listed before Red Cross, Aircraft Warning Service, OWI, and OSS work."
+    },
+    {
+      "key": "julia-mcwilliams-american-red-cross-pasadena",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "american-red-cross-pasadena-chapter",
+      "organization_name_as_found": "American Red Cross: Pasadena Chapter",
+      "role_title": "Supervisor of volunteer stenographic services",
+      "relationship_type": "volunteer",
+      "start_date": "1941-10-01",
+      "end_date": "1942-06-01",
+      "date_precision": "day",
+      "city": "Pasadena",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The application lists no salary and describes supervision of volunteer stenographic services; it is not treated as employment."
+    },
+    {
+      "key": "julia-mcwilliams-fourth-interceptor-command",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "fourth-interceptor-command-aircraft-warning-service",
+      "organization_name_as_found": "Aircraft Warning Service, U.S. Army Interceptor Command",
+      "role_title": "Plotter-filterer-clerk",
+      "relationship_type": "volunteer",
+      "start_date": "1942-03",
+      "end_date": "1942-06-01",
+      "date_precision": "month; source conflict on exact start day",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Two forms in the same personnel file give February 23 and March 8, 1942 as the start date. Both give June 1, 1942 as the end date and list no salary."
+    },
+    {
+      "key": "julia-mcwilliams-the-coast-magazine",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "the-coast-magazine",
+      "organization_name_as_found": "The Coast Magazine",
+      "role_title": "Southern California fashion editor/correspondent",
+      "occupation": "Fashion editor",
+      "relationship_type": "employment",
+      "start_date": "1937-11-01",
+      "end_date": "1939",
+      "date_precision": "day for start; year for end",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Two forms in the file call the role editor and correspondent and give May 1 and June 1, 1939 as the end date. The disagreement is preserved."
+    },
+    {
+      "key": "julia-mcwilliams-w-and-j-sloane-new-york",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "w-and-j-sloane",
+      "organization_name_as_found": "W. & J. Sloane",
+      "role_title": "Assistant to Advertising Manager",
+      "occupation": "Advertising assistant",
+      "relationship_type": "employment",
+      "start_date": "1935-10-01",
+      "end_date": "1937-05-01",
+      "date_precision": "day",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The personnel history says she left because of illness in her family and returned home."
+    },
+    {
+      "key": "julia-mcwilliams-smith-college-student",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "organization_key": "smith-college",
+      "organization_name_as_found": "Smith College",
+      "role_title": "Student",
+      "relationship_type": "student",
+      "end_date": "1934",
+      "date_precision": "year",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The file records a B.A. in 1934. Smith College is classified as education, not an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "julia-mcwilliams-identity-confirmed-by-personnel-file",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "claim_type": "identity",
+      "claim_text": "The indexed Julia C. McWilliams is confirmed as the person later known as Julia Child.",
+      "evidence_excerpt": "Name: Julia McWILLIAMS [CHILD] [complete file]",
+      "evidence_paraphrase": "The complete official personnel file uses the indexed maiden name and explicitly supplies the later surname Child.",
+      "identity_match_assessment": "Exact indexed full name, direct personnel-file linkage, matching OSS index context, and an explicit documented name variant.",
+      "temporal_assessment": "The file is a contemporaneous OSS personnel record with later archival identification of the surname Child.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The file is a direct identity source; no inference from fame or a namesake biography is used.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-314-mcwilliams-julia-c",
+          "support_type": "supports",
+          "locator_override": "PDF page 314; indexed Box 513",
+          "excerpt_override": "McWilliams Julia C ... 513"
+        },
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 1"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-immediate-pre-oss-office-of-war-information",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-office-of-war-information",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "McWilliams’s immediate pre-OSS affiliation was the U.S. Information Center in the Office of War Information, where she served as a senior typist.",
+      "evidence_excerpt": "Reason for leaving: typed over 10,000 little white cards and put in for a transfer to OSS.",
+      "evidence_paraphrase": "Her dated personnel history identifies OWI work through November 16, 1942 and explicitly says she requested transfer to OSS.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Explicitly immediate; an OSS oath in the same file is dated November 18, 1942.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "OWI is classified as a government assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF pages 34 and 39"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-last-civilian-employer-w-and-j-sloane-beverly-hills",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-w-and-j-sloane-beverly-hills",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "McWilliams’s last documented civilian employer before wartime volunteer and government service was W. & J. Sloane in Beverly Hills.",
+      "evidence_excerpt": "W. & J. Sloane ... Beverly Hills, Calif ... Advertising Manager",
+      "evidence_paraphrase": "The experience record dates this private-sector advertising job from March 1 to July 1, 1941, before later volunteer and federal roles.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Explicit dates establish it as the last paid private-sector job listed before wartime service affiliations.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The later Red Cross and Aircraft Warning Service entries were unpaid volunteer roles; OWI was a federal assignment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF pages 39 and 65"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-red-cross-volunteer-service",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-american-red-cross-pasadena",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "McWilliams supervised volunteer stenographic services for the American Red Cross’s Pasadena Chapter from October 1941 to June 1942.",
+      "evidence_excerpt": "AMERICAN RED CROSS: Pasadena Chapter. 10/1/41 to 6/1/42",
+      "evidence_paraphrase": "Two personnel-history entries agree on the organization, volunteer duties, and dates.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Explicitly dated before OWI and OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is published as volunteer service, not employment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF pages 39 and 65"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-aircraft-warning-service",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-fourth-interceptor-command",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "McWilliams performed unpaid plotter-filterer-clerk work for the Fourth Interceptor Command’s Aircraft Warning Service in 1942.",
+      "evidence_excerpt": "AIRCRAFT WARNING SERVICE, U. S. Army Interceptor Command, Los Angeles",
+      "evidence_paraphrase": "The personnel file identifies the organization, role, Los Angeles location, and June 1, 1942 end date.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Definitely pre-OSS, but two forms disagree on whether the work began February 23 or March 8, 1942.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The date disagreement is retained; the affiliation is classified as volunteer service because the application lists no salary.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF pages 39 and 65"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-the-coast-magazine",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-the-coast-magazine",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "McWilliams worked for The Coast Magazine as its Southern California fashion editor or correspondent beginning in November 1937.",
+      "evidence_excerpt": "THE COAST MAGAZINE, San Francisco, California ... Southern California Fashion Editor",
+      "evidence_paraphrase": "Two forms establish the magazine affiliation but differ slightly on the title and whether it ended in May or June 1939.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Documented prewar work; the exact 1939 end month remains conflicting.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The role-title and end-date variants are visible in the claim rather than silently normalized.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF pages 38 and 65"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-w-and-j-sloane-new-york",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-w-and-j-sloane-new-york",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "McWilliams worked at W. & J. Sloane in New York as assistant to the advertising manager from October 1935 to May 1937.",
+      "evidence_excerpt": "W. & J. SLOANE, 575 Fifth Avenue, New York City ... Assistant to Advertising Manager",
+      "evidence_paraphrase": "Her personnel history explicitly supplies the employer, role, location, and dates.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Explicitly dated prewar employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "This earlier New York position remains distinct from her later Beverly Hills advertising-manager job.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF pages 38 and 65"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-smith-college-student",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "affiliation_key": "julia-mcwilliams-smith-college-student",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "McWilliams graduated from Smith College with a B.A. in 1934.",
+      "evidence_excerpt": "Smith College, Northampton, Massachusetts. Graduated, B.A. 1934",
+      "evidence_paraphrase": "The personnel history documents the college, degree, and graduation year.",
+      "identity_match_assessment": "Confirmed by the indexed person’s complete personnel file.",
+      "temporal_assessment": "Explicitly prewar and pre-OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "Smith College is classified as student status and is not counted as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 38"
+        }
+      ]
+    },
+    {
+      "key": "julia-mcwilliams-archival-file-status",
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "claim_type": "archival_file_status",
+      "claim_text": "NARA’s complete digitized OSS personnel file for McWilliams, NAID 2180661, was reviewed for this profile.",
+      "evidence_excerpt": "Name: Julia McWILLIAMS [CHILD] [complete file]",
+      "evidence_paraphrase": "The 130-page public file is labeled complete and contains the personnel history and applications supporting the profile.",
+      "identity_match_assessment": "Direct file-unit linkage to the indexed exact name.",
+      "temporal_assessment": "Archival-status claim; not an employment chronology claim.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile preserves the index’s Box 513. NARA’s file introduction says Box 514, while the Catalog lists preservation Box 513A.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-mcwilliams-julia-c-naid-2180661",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 1 and Catalog record"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a417086c-3c99-5b5a-a198-35e1dc27f553",
+      "identity_status": "confirmed",
+      "identity_evidence": "The official NARA index record links directly to the complete personnel file NAID 2180661, which uses the exact indexed name Julia C. McWilliams and explicitly identifies the later surname Child.",
+      "name_variants": [
+        "McWilliams, Julia C.",
+        "Julia C. McWilliams",
+        "Julia Child"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "No additional archival review is required for the current employer questions; retain the differing official box references in provenance.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "nara_catalog_id": "2180661",
+      "archival_review_priority": "not_required"
+    }
+  ]
+}

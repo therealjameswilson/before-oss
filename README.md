@@ -18,9 +18,11 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 cautious person entities
 - 23,978 / 23,978 source rows linked to an entity
 - 202 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot selected
-- 1 live source attempt and 75 NARA dry-run plans recorded
-- 0 affiliation claims currently meet the public threshold
+- 75-person stratified research pilot with 1,064 source attempts or plans
+- 1 verified-employer profile and 1 individually assessed archival file
+- 9 published affiliations, 12 published claims, and 4 cited source documents
+- 23,866 people remain `not_started`; the public site reports this
+  incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
 [reports/research_coverage.md](reports/research_coverage.md) for exact current
@@ -56,7 +58,7 @@ python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 
 cd site
-npm install
+npm ci
 npm run dev
 ```
 

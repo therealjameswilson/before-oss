@@ -58,3 +58,24 @@ test("a researched profile displays claim-level citations", async ({ page }) => 
   );
   await expect(page.getByText("Accessed 2026-07-29.", { exact: false }).first()).toBeVisible();
 });
+
+test("the confirmed McWilliams profile separates immediate and civilian affiliations", async ({
+  page,
+}) => {
+  await page.goto(
+    "./people/a417086c-3c99-5b5a-a198-35e1dc27f553/",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Julia C McWilliams", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Julia Child", { exact: false }).first()).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Office of War Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "W. & J. Sloane", exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "NAID 2180661", exact: true }),
+  ).toHaveAttribute("href", "https://catalog.archives.gov/id/2180661");
+});

@@ -108,10 +108,19 @@ class ReviewedEvidenceTests(unittest.TestCase):
             "person_updates": [
                 {
                     "person_id": "person-1",
-                    "identity_status": "high_confidence",
+                    "identity_status": "confirmed",
                     "identity_evidence": "Exact full name and archival context.",
+                    "name_variants": ["Example A. Person"],
+                    "personnel_category": "civilian_professional_or_administrative_grade",
+                    "commissioned_officer": False,
+                    "allied_or_foreign_personnel": False,
+                    "manual_review_required": False,
                     "research_status": "verified_employer_found",
-                    "next_action": "Continue review for earlier affiliations.",
+                    "next_action": "No additional action is currently required.",
+                    "personnel_file_digitized": True,
+                    "personnel_file_reviewed": True,
+                    "nara_catalog_id": "12345",
+                    "archival_review_priority": "not_required",
                 }
             ],
         }
@@ -120,6 +129,9 @@ class ReviewedEvidenceTests(unittest.TestCase):
         path = Path(self.temp_dir.name) / "bundle.json"
         path.write_text(json.dumps(self._bundle()), encoding="utf-8")
         first = import_reviewed_evidence(self.connection, path)
+        first_completed_at = self.connection.execute(
+            "SELECT research_completed_at FROM person_entities"
+        ).fetchone()[0]
         second = import_reviewed_evidence(self.connection, path)
         self.assertEqual(first, second)
         self.assertEqual(
@@ -135,10 +147,43 @@ class ReviewedEvidenceTests(unittest.TestCase):
             1,
         )
         person = self.connection.execute(
-            "SELECT identity_status, research_status FROM person_entities"
+            """
+            SELECT identity_status, identity_evidence, name_variants_json,
+                   personnel_category, commissioned_officer,
+                   allied_or_foreign_personnel, manual_review_required,
+                   research_status, research_started_at, research_completed_at,
+                   personnel_file_digitized, personnel_file_reviewed,
+                   nara_catalog_id, archival_review_priority
+            FROM person_entities
+            """
         ).fetchone()
-        self.assertEqual(person["identity_status"], "high_confidence")
+        self.assertEqual(person["identity_status"], "confirmed")
+        self.assertEqual(
+            json.loads(person["name_variants_json"]),
+            ["Example A. Person"],
+        )
+        self.assertEqual(
+            person["personnel_category"],
+            "civilian_professional_or_administrative_grade",
+        )
+        self.assertEqual(person["commissioned_officer"], 0)
+        self.assertEqual(person["allied_or_foreign_personnel"], 0)
+        self.assertEqual(person["manual_review_required"], 0)
         self.assertEqual(person["research_status"], "verified_employer_found")
+        self.assertIsNotNone(person["research_started_at"])
+        self.assertIsNotNone(person["research_completed_at"])
+        self.assertEqual(person["research_completed_at"], first_completed_at)
+        self.assertEqual(person["personnel_file_digitized"], 1)
+        self.assertEqual(person["personnel_file_reviewed"], 1)
+        self.assertEqual(person["nara_catalog_id"], "12345")
+        self.assertEqual(person["archival_review_priority"], "not_required")
+
+        link = self.connection.execute(
+            "SELECT link_status, evidence, manual_review_required FROM person_source_links"
+        ).fetchone()
+        # This unit fixture does not create a person/source link, so no link is
+        # expected; the assertion protects the import from inventing one.
+        self.assertIsNone(link)
 
     def test_public_claim_requires_source(self) -> None:
         bundle = self._bundle()

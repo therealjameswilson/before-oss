@@ -4,13 +4,16 @@ Run: 2026-07-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 23,951 HTML files. Every relative
+**PASS.** The production build contains 23,957 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 2 organization profiles, and the
+The build includes 23,941 person profiles, 8 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
+
+The checker inventoried 47,908 unique external URLs for separate live
+verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
 
@@ -28,16 +31,9 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 
 ## Production deployment
 
-The GitHub Pages deployment for research release commit `046a4c9` completed
-successfully. Live checks returned HTTP 200 for:
-
-- the home page;
-- the reviewed Mort S. Bobrow profile;
-- `data/stats.json`; and
-- the public personnel CSV download.
-
-The live statistics report 23,978 source rows, 23,941 person entities, 75 people
-with non-planned research attempts, 3 published claims, and 2 public sources.
+The current build is ready for GitHub Pages deployment. The release verification
+must confirm the home page, both researched profiles, `data/stats.json`, and the
+public downloads after the new commit reaches production.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.

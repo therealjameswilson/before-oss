@@ -226,6 +226,21 @@ class PersonUpdateInput(StrictModel):
         "unresolved",
     ] | None = None
     identity_evidence: str | None = None
+    name_variants: list[str] | None = None
+    personnel_category: Literal[
+        "commissioned_army_officer",
+        "commissioned_naval_officer",
+        "warrant_officer",
+        "enlisted_army_personnel",
+        "enlisted_naval_personnel",
+        "civilian_professional_or_administrative_grade",
+        "foreign_or_allied_military_personnel",
+        "temporary_contract_or_special_personnel",
+        "unknown_or_indeterminate",
+    ] | None = None
+    commissioned_officer: bool | None = None
+    allied_or_foreign_personnel: bool | None = None
+    manual_review_required: bool | None = None
     research_status: Literal[
         "not_started",
         "in_progress",
@@ -242,6 +257,12 @@ class PersonUpdateInput(StrictModel):
         "completed",
     ] | None = None
     next_action: str | None = None
+    personnel_file_digitized: bool | None = None
+    personnel_file_reviewed: bool | None = None
+    nara_catalog_id: str | None = None
+    archival_review_priority: Literal[
+        "unassessed", "low", "medium", "high", "critical", "not_required"
+    ] | None = None
 
 
 class EvidenceBundle(StrictModel):
@@ -527,16 +548,50 @@ def import_reviewed_evidence(
         for update in bundle.person_updates:
             current = connection.execute(
                 """
-                SELECT identity_status, identity_evidence, research_status, next_action
+                SELECT identity_status, identity_evidence, name_variants_json,
+                       personnel_category, commissioned_officer,
+                       allied_or_foreign_personnel, manual_review_required,
+                       research_status, research_started_at, research_completed_at,
+                       next_action, personnel_file_digitized,
+                       personnel_file_reviewed, nara_catalog_id,
+                       archival_review_priority
                 FROM person_entities WHERE person_id = ?
                 """,
                 (update.person_id,),
             ).fetchone()
+            research_status = update.research_status or current["research_status"]
+            terminal_statuses = {
+                "verified_employer_found",
+                "documented_prewar_employer_found",
+                "occupation_only_found",
+                "conflicting_sources",
+                "no_reliable_result_after_protocol",
+                "blocked_by_source_access",
+                "requires_archival_review",
+                "completed",
+            }
+            current_variants = json.loads(current["name_variants_json"] or "[]")
+            name_variants = (
+                sorted(
+                    {
+                        *(str(value) for value in current_variants),
+                        *(str(value) for value in (update.name_variants or [])),
+                    },
+                    key=str.casefold,
+                )
+                if update.name_variants is not None
+                else current_variants
+            )
             connection.execute(
                 """
                 UPDATE person_entities
-                SET identity_status=?, identity_evidence=?, research_status=?,
-                    next_action=?, updated_at=?
+                SET identity_status=?, identity_evidence=?, name_variants_json=?,
+                    personnel_category=?, commissioned_officer=?,
+                    allied_or_foreign_personnel=?, manual_review_required=?,
+                    research_status=?, research_started_at=?,
+                    research_completed_at=?, next_action=?,
+                    personnel_file_digitized=?, personnel_file_reviewed=?,
+                    nara_catalog_id=?, archival_review_priority=?, updated_at=?
                 WHERE person_id=?
                 """,
                 (
@@ -546,16 +601,99 @@ def import_reviewed_evidence(
                         if update.identity_evidence is not None
                         else current["identity_evidence"]
                     ),
-                    update.research_status or current["research_status"],
+                    json.dumps(name_variants, ensure_ascii=False),
+                    update.personnel_category or current["personnel_category"],
+                    (
+                        int(update.commissioned_officer)
+                        if update.commissioned_officer is not None
+                        else current["commissioned_officer"]
+                    ),
+                    (
+                        int(update.allied_or_foreign_personnel)
+                        if update.allied_or_foreign_personnel is not None
+                        else current["allied_or_foreign_personnel"]
+                    ),
+                    (
+                        int(update.manual_review_required)
+                        if update.manual_review_required is not None
+                        else current["manual_review_required"]
+                    ),
+                    research_status,
+                    current["research_started_at"] or now,
+                    (
+                        current["research_completed_at"]
+                        or (now if research_status in terminal_statuses else None)
+                    ),
                     (
                         update.next_action
                         if update.next_action is not None
                         else current["next_action"]
                     ),
+                    (
+                        int(update.personnel_file_digitized)
+                        if update.personnel_file_digitized is not None
+                        else current["personnel_file_digitized"]
+                    ),
+                    (
+                        int(update.personnel_file_reviewed)
+                        if update.personnel_file_reviewed is not None
+                        else current["personnel_file_reviewed"]
+                    ),
+                    (
+                        update.nara_catalog_id
+                        if update.nara_catalog_id is not None
+                        else current["nara_catalog_id"]
+                    ),
+                    (
+                        update.archival_review_priority
+                        or current["archival_review_priority"]
+                    ),
                     now,
                     update.person_id,
                 ),
             )
+            if update.identity_status in {"confirmed", "high_confidence"}:
+                connection.execute(
+                    """
+                    UPDATE person_source_links
+                    SET link_status=?, evidence=?, manual_review_required=?
+                    WHERE person_id=?
+                    """,
+                    (
+                        update.identity_status,
+                        (
+                            update.identity_evidence
+                            if update.identity_evidence is not None
+                            else current["identity_evidence"]
+                        ),
+                        (
+                            int(update.manual_review_required)
+                            if update.manual_review_required is not None
+                            else current["manual_review_required"]
+                        ),
+                        update.person_id,
+                    ),
+                )
+                connection.execute(
+                    """
+                    UPDATE source_records
+                    SET entity_resolution_status='linked',
+                        entity_resolution_evidence=?
+                    WHERE source_record_id IN (
+                        SELECT source_record_id
+                        FROM person_source_links
+                        WHERE person_id=?
+                    )
+                    """,
+                    (
+                        (
+                            update.identity_evidence
+                            if update.identity_evidence is not None
+                            else current["identity_evidence"]
+                        ),
+                        update.person_id,
+                    ),
+                )
             connection.execute(
                 """
                 UPDATE research_queue
@@ -563,7 +701,7 @@ def import_reviewed_evidence(
                 WHERE person_id=?
                 """,
                 (
-                    update.research_status or current["research_status"],
+                    research_status,
                     (
                         update.next_action
                         if update.next_action is not None

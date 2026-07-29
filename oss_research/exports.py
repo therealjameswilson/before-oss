@@ -402,6 +402,7 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
                 """
                 SELECT COUNT(*) FROM person_entities
                 WHERE identity_status = 'high_confidence'
+                  AND identity_evidence LIKE 'Automatically linked%'
                   AND identity_evidence NOT LIKE
                       '%same non-empty service number%'
                 """

@@ -1,8 +1,11 @@
 from __future__ import annotations
 
+import tempfile
 import unittest
+from pathlib import Path
 
 from oss_research.public import (
+    _write_json,
     mask_serial,
     public_source_row,
     verified_affiliation_person_count,
@@ -15,6 +18,16 @@ class FakeRow(dict):
 
 
 class PublicProjectionTests(unittest.TestCase):
+    def test_json_gzip_is_deterministic(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "example.json"
+            _write_json(path, {"example": "value"})
+            first = path.with_suffix(".json.gz").read_bytes()
+            _write_json(path, {"example": "value"})
+            second = path.with_suffix(".json.gz").read_bytes()
+            self.assertEqual(first, second)
+            self.assertEqual(first[4:8], b"\x00\x00\x00\x00")
+
     def test_masks_service_number(self) -> None:
         self.assertEqual(mask_serial("RA3389449"), "••••9449")
         self.assertIsNone(mask_serial(None))

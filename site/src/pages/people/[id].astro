@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Badge from "../../components/Badge.astro";
 import peopleData from "../../data/generated/people.json";
-import type { PersonProfile } from "../../types";
+import type { Affiliation, PersonProfile } from "../../types";
 
 export function getStaticPaths() {
   return (peopleData as unknown as PersonProfile[]).map((profile) => ({
@@ -26,6 +26,26 @@ const issueBody = encodeURIComponent(
 );
 const correctionUrl =
   `https://github.com/therealjameswilson/before-oss/issues/new?title=${issueTitle}&body=${issueBody}`;
+const affiliationMeta = (item: Affiliation) => {
+  const dates =
+    item.start_date && item.end_date
+      ? `${item.start_date}–${item.end_date}`
+      : item.start_date
+        ? `From ${item.start_date}`
+        : item.end_date
+          ? `Through ${item.end_date}`
+          : "Dates not established";
+  const location = [item.city, item.state_or_region, item.country]
+    .filter(Boolean)
+    .join(", ");
+  return [
+    dates,
+    location || null,
+    item.relationship_type.replaceAll("_", " "),
+  ]
+    .filter(Boolean)
+    .join(" · ");
+};
 ---
 
 <BaseLayout
@@ -81,6 +101,7 @@ const correctionUrl =
                       item.relationship_type.replaceAll("_", " ")}
                   </h3>
                   <p>{item.role_title ?? item.occupation ?? item.relationship_type}</p>
+                  <p class="citation-meta">{affiliationMeta(item)}</p>
                   <p>
                     <Badge value={item.claim_confidence} />
                     {" "}
@@ -105,6 +126,7 @@ const correctionUrl =
                     {item.canonical_organization ?? item.organization_name_as_found}
                   </h3>
                   <p>{item.role_title ?? item.occupation ?? "Employment"}</p>
+                  <p class="citation-meta">{affiliationMeta(item)}</p>
                   <p>
                     <Badge value={item.claim_confidence} />
                     {" "}
@@ -131,6 +153,7 @@ const correctionUrl =
                       item.relationship_type}
                   </h3>
                   <p>{item.role_title ?? item.occupation}</p>
+                  <p class="citation-meta">{affiliationMeta(item)}</p>
                   <Badge value={item.claim_confidence} />
                 </article>
               ))}
@@ -260,6 +283,18 @@ const correctionUrl =
             <dd>{indexedNames.join("; ")}</dd>
           </div>
           <div>
+            <dt>Normalized form</dt>
+            <dd>{profile.display_name}</dd>
+          </div>
+          <div>
+            <dt>Documented variants</dt>
+            <dd>
+              {profile.name_variants.length
+                ? profile.name_variants.join("; ")
+                : "None documented beyond the indexed form"}
+            </dd>
+          </div>
+          <div>
             <dt>Personnel category</dt>
             <dd>{category}</dd>
           </div>
@@ -288,6 +323,10 @@ const correctionUrl =
             <dd><Badge value={profile.archival_file.digitized} /></dd>
           </div>
           <div>
+            <dt>Personnel file reviewed</dt>
+            <dd><Badge value={profile.archival_file.reviewed} /></dd>
+          </div>
+          <div>
             <dt>Archive box</dt>
             <dd>{profile.archival_file.box ?? "Not recorded"}</dd>
           </div>
@@ -299,6 +338,20 @@ const correctionUrl =
             <dt>Archival-review priority</dt>
             <dd><Badge value={profile.archival_file.review_priority} /></dd>
           </div>
+          {
+            profile.archival_file.nara_catalog_id && (
+              <div>
+                <dt>NARA Catalog</dt>
+                <dd>
+                  <a
+                    href={`https://catalog.archives.gov/id/${profile.archival_file.nara_catalog_id}`}
+                  >
+                    NAID {profile.archival_file.nara_catalog_id}
+                  </a>
+                </dd>
+              </div>
+            )
+          }
         </dl>
         <p>
           <a class="button button--ghost" href={correctionUrl}>

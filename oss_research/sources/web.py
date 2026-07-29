@@ -7,6 +7,7 @@ from ..config import Settings
 from .common import request_fingerprint
 
 ADAPTER_VERSION = "manual-web-discovery-v1"
+# Discovery results remain review tasks until a source is inspected and cited.
 
 
 class WebDiscoveryAdapter:

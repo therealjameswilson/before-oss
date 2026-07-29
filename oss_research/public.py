@@ -81,8 +81,16 @@ def _write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n"
     path.write_text(payload, encoding="utf-8")
-    with gzip.open(path.with_suffix(path.suffix + ".gz"), "wb", compresslevel=9) as handle:
-        handle.write(payload.encode("utf-8"))
+    compressed_path = path.with_suffix(path.suffix + ".gz")
+    with compressed_path.open("wb") as raw_handle:
+        with gzip.GzipFile(
+            filename="",
+            mode="wb",
+            compresslevel=9,
+            fileobj=raw_handle,
+            mtime=0,
+        ) as handle:
+            handle.write(payload.encode("utf-8"))
 
 
 def _write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
