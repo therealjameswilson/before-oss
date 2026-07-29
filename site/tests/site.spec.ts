@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/45 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/50 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 75 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 80 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1549,4 +1549,96 @@ test("Batch 016 preserves academic, design, military, government, alias, and occ
       ),
   ).toBeVisible();
   await expect(page.getByText(/school psychologist/i).first()).toBeVisible();
+});
+
+test("Batch 017 preserves membership, overlapping employment, qualified government pathways, and indexed variants", async ({
+  page,
+}) => {
+  await page.goto("./people/d5fddfcc-304b-5207-878a-e5231e647295/");
+  await expect(
+    page.getByRole("heading", { name: "Felix Gilbert", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Institute for Advanced Study", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText(/professional affiliation/i),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Scripps College", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/9d917a08-06a5-5ec3-bebf-5c43b422a5aa/");
+  await expect(
+    page.getByRole("heading", { name: "Franz L Neumann", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Board of Economic Warfare",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText("medium", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Institute for Social Research", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/690eab64-a21e-57dc-ae33-6dc576d5ea07/");
+  await expect(
+    page.getByRole("heading", { name: "Haje Holborn", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText(/Dr\. Hajo Holborn;.*Hajo Holborn/).first()).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Yale University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/1a923c3f-6b6e-5107-a470-9804a030c2bd/");
+  await expect(
+    page.getByRole("heading", { name: "Edward M Earle", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Institute for Advanced Study", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/4ebb85b3-0542-5281-b254-b36e810242bb/");
+  await expect(
+    page.getByRole("heading", { name: "Sigmund Neumann", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Wesleyan University", exact: true }),
+    ).toBeVisible();
+  }
 });

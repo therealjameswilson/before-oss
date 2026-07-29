@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 84 / 84 browser cases.**
+**PASS - 90 / 90 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-41-person employer measure is labeled separately from the 71-person broader
+50-person employer measure is labeled separately from the 80-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -106,6 +106,17 @@ separation of wartime government and military assignments from academic and
 fashion employment, keeps Harvard as Montgomery's student status, visibly
 qualifies Gardner's medium-confidence final academic employer, and preserves
 Conein's unnamed printing employer without guessing a company.
+Batch 016 verifies Henry A. Murray, Conyers Read, Donal McLaughlin, Oliver
+Lincoln Lundquist, and William James Morgan at all three viewport sizes. It
+checks academic, predecessor-intelligence, design-office, and War Department
+pathways, documented name variants, and an occupation-only result that does
+not invent an employer.
+Batch 017 verifies Felix Gilbert, Franz L. Neumann, Haje Holborn, Edward M.
+Earle, and Sigmund Neumann at all three viewport sizes. It checks that
+Institute for Advanced Study membership remains a professional affiliation,
+that overlapping academic employment is represented accurately, that the
+Board of Economic Warfare transition remains qualified, and that the indexed
+Haje spelling remains recoverable alongside the documented Hajo variant.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -114,8 +125,8 @@ on the tested routes and viewports.
 
 The Batch 010 regression run initially lost its local preview server between
 viewport projects under four-worker concurrency. All resulting failures were
-connection refusals. The complete Batch 015 suite ran against one isolated
-preview with four browser workers and passed 84 / 84; no assertion or axe
+connection refusals. The complete Batch 017 suite ran against one isolated
+preview with four browser workers and passed 90 / 90; no assertion or axe
 failure remained.
 
 The in-app browser review also confirmed the phone homepage and personnel

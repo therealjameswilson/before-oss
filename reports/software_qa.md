@@ -5,22 +5,23 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,069 pages**
-- Internal link check: **24,069 HTML files passed**
-- Browser and accessibility suite: **87 / 87 passed**
+- Static production build: **24,077 pages**
+- Internal link check: **24,077 HTML files passed**
+- Browser and accessibility suite: **90 / 90 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
+  (`64212e418603a70d5abb7de409e5ce31bd64d8777fbe875356811ec2ca2345ed`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **185** public records representing **178** unique documents
-- Published, qualified affiliations: **168**
-- Published claims: **256**
-- Verified-affiliation metric: **75** people with confirmed/high published
+- Reviewed public sources: **199** public records representing **190** unique documents
+- Published, qualified affiliations: **178**
+- Published claims: **274**
+- Verified-affiliation metric: **80** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **45** people with confirmed/high published
+- Verified-employer metric: **50** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -65,3 +66,8 @@ Batch 016 adds checks for an academic-to-Army pathway, a predecessor intelligenc
 agency, a design-office recruitment, a qualified War Department transition,
 government design assignments, documented name variants, and an occupation-only
 result that does not invent an employing school system.
+Batch 017 adds checks for an institutional membership that remains distinct
+from employment, overlapping academic appointments that are not silently ended
+at OSS entry, a visibly qualified Board of Economic Warfare transition, the
+Haje/Hajo Holborn indexed-name distinction, and a documented-prewar teaching
+history that does not invent a last civilian employer.
