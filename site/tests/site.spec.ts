@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/41 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/45 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 71 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 75 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1461,4 +1461,92 @@ test("Batch 015 preserves academic, fashion, military, student, and unnamed-empl
       })
       .first(),
   ).toHaveAttribute("href", /cia\.gov/);
+});
+
+test("Batch 016 preserves academic, design, military, government, alias, and occupation-only pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/039ff924-7560-5963-be0d-3e15c917d9d2/");
+  await expect(
+    page.getByRole("heading", { name: "Henry A Murray", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Harvard Psychological Clinic", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/d1b224f9-97fc-5bc8-8aac-088a4f139d48/");
+  await expect(
+    page.getByRole("heading", { name: "Conyers Read", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Pennsylvania", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "William F. Read and Sons Company", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/b716d0a6-b18c-55c9-addd-721ae710f134/");
+  await expect(
+    page.getByRole("heading", { name: "Donal McLaughlin", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Raymond Loewy industrial design office", exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "National Park Service", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/2c22bdd2-c625-51d7-b16d-10602a1770fa/");
+  await expect(
+    page.getByRole("heading", { name: "Lincoln Lundquist", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText(/Oliver Lincoln Lundquist/).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States War Department", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Raymond Loewy industrial design office", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/232b3c0e-0988-59b0-a34c-9984cc3170c8/");
+  await expect(
+    page.getByRole("heading", { name: "William J Morgan", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText(/Anthony J\. Mitrano/).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reviewed claim currently meets the publication threshold.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+  await expect(page.getByText(/school psychologist/i).first()).toBeVisible();
 });
