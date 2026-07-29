@@ -31,8 +31,32 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Batch 026 GitHub Actions, Pages deployment, and production smoke results will
-be recorded after the release commit is deployed.
+GitHub Actions test workflow
+[30487546293](https://github.com/therealjameswilson/before-oss/actions/runs/30487546293)
+and GitHub Pages deployment
+[30487547540](https://github.com/therealjameswilson/before-oss/actions/runs/30487547540)
+for women’s-pre-OSS-pathways Batch 026 release `016c893` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content marker for all 21
+tested targets:
+
+- the home, `/people/` personnel directory, organizations, analysis,
+  methodology, sources, and downloads pages;
+- Mary D. Bancroft, Stephanie Czech, Elizabeth P. MacDonald, Jane Foster, and
+  Stella T. Uzdawinis;
+- `data/stats.json`;
+- all four public CSV downloads;
+- the public personnel JSONL download;
+- `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 208
+people with non-planned research attempts, 120 verified-affiliation people, 83
+verified-employer people, 135 archival-review assessments, 386 published
+claims, and 315 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 155, 244, and 315 data rows
+respectively. The live personnel CSV header contains `serial_masked` and no
+full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
