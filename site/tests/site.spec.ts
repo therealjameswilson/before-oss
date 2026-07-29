@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/85 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/86 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 124 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 126 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2551,6 +2551,101 @@ test("Batch 027 separates employers, independent scholarship, military status, a
   ).toBeVisible();
   await expect(page.locator("body")).toContainText("Robert H. Ives Goddard");
   await expect(page.locator("body")).toContainText("professional affiliation");
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 028 separates government, business, military, fellowship, and student pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/78a869fb-aa25-5d6a-aca6-59feb5e38171/");
+  await expect(
+    page.getByRole("heading", { name: "Paul Baran", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "Office of Price Administration",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Brookings Institution research fellowship",
+  );
+  await expect(page.locator("body")).toContainText(
+    "his uncles' timber business",
+  );
+
+  await page.goto("./people/4004a23d-52bc-5ce6-b450-36238827b287/");
+  await expect(
+    page.getByRole("heading", { name: "G E Buxton", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", {
+          name: "B. B. & R. Knight Company",
+          exact: true,
+        }),
+    ).toBeVisible();
+  }
+  await expect(page.locator("body")).toContainText(
+    "exact B. B. & R. Knight departure date, 1939-1941 activities",
+  );
+
+  await page.goto("./people/30ddbc7e-f6fe-56ab-8651-8f743563cd7c/");
+  await expect(
+    page.getByRole("heading", { name: "James R Forgan", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText(
+    "No reviewed claim currently meets the publication threshold.",
+  );
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Glore, Forgan & Co.", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/0d2d73be-e7ba-5b98-8494-0e9b9adaa189/");
+  await expect(
+    page.getByRole("heading", { name: "Everette H Hunt Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Brown is not classified as his employer",
+  );
+
+  await page.goto("./people/ab9ab673-8090-56bf-9973-36b0edc77610/");
+  await expect(
+    page.getByRole("heading", { name: "Shaw Livermore Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Mercersburg Academy");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

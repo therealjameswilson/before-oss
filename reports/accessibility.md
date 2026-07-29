@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 123 / 123 browser cases.**
+**PASS - 126 / 126 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-85-person employer measure is labeled separately from the 124-person broader
+86-person employer measure is labeled separately from the 126-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -169,6 +169,16 @@ assignment, civilian-employer, earlier-employer, student-status, and
 archival-review boundaries; confirms claim-level source links; and ensures that
 the commissioned-officer classification remains visible without publishing a
 full service number.
+Batch 027 verifies Joseph R. Hayden, Wilmarth S. Lewis, Junius S. Morgan,
+William L. Rehm, and Robert H. Ives Goddard. It checks a direct university
+employment pathway, independent scholarship, a naval pathway separated from
+a bank employer, financial work whose employer remains unnamed, and a
+professional business-directory affiliation kept out of employer analytics.
+Batch 028 verifies Paul Baran, G. E. Buxton, James R. Forgan, Everette H.
+Hunt Jr., and Shaw Livermore Jr. It checks government, business, military,
+fellowship, and student pathways; the visible qualification of medium-
+confidence evidence; unresolved-employer wording; archival-review routing; and
+continued full-service-number masking at all three viewport sizes.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -194,6 +204,12 @@ checks cover Joseph R. Hayden, Wilmarth S. Lewis, Junius S. Morgan, William
 Lane Rehm, and Robert H. Ives Goddard at all three viewport sizes. The final
 isolated-preview suite passed 123 / 123 with no remaining assertion or axe
 failure.
+
+The Batch 028 regression run caught stale Batch 027 coverage counters and
+replaced two assertions for private review notes with the corresponding public
+profile language. New checks cover Paul Baran, G. E. Buxton, James R. Forgan,
+Everette H. Hunt Jr., and Shaw Livermore Jr. at all three viewport sizes. The
+final suite passed 126 / 126 with no remaining assertion or axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
