@@ -31,9 +31,31 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Batch 015 deployment verification will be recorded here after the release
-commit passes the GitHub Actions test and Pages workflows. The previously
-published Batch 014 site remained healthy during local release preparation.
+GitHub Actions test workflow
+[30463056993](https://github.com/therealjameswilson/before-oss/actions/runs/30463056993)
+and GitHub Pages deployment
+[30463056894](https://github.com/therealjameswilson/before-oss/actions/runs/30463056894)
+for official-institutional-pathways Batch 015 release `39c83f1` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content marker for all twenty
+tested targets:
+
+- the home, personnel, organizations, analysis, methodology, sources, and
+  downloads pages;
+- all five Batch 015 profiles: Gardner Ackley, Marie Aline Griffith, John W.
+  Gardner, Hugh Montgomery, and Lucien E. Conein;
+- `data/stats.json`;
+- all four public CSV downloads;
+- `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 154
+people with non-planned research attempts, 71 verified-affiliation people, 41
+verified-employer people, 80 archival-review assessments, 237 published claims,
+and 169 public source records. The live personnel, organizations, affiliations,
+and sources downloads contain 23,941, 112, 156, and 169 data rows respectively.
+The live personnel CSV header contains `serial_masked` and no full
+service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
