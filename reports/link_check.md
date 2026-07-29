@@ -31,27 +31,28 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Batch 011 deployment verification is pending the release commit. The preceding
-Batch 010 deployment remains live and passed its recorded production checks.
+GitHub Pages deployment
+[30451391332](https://github.com/therealjameswilson/before-oss/actions/runs/30451391332)
+for institutional-pathways Batch 011 release `827ac64` completed successfully.
 
 Live checks returned HTTP 200 for all twenty tested targets:
 
 - the home, personnel, organizations, analysis, methodology, sources, and
   downloads pages;
-- all ten Batch 010 profiles: Aaron Bank, Archimedes L. Patti, Arthur M.
-  Schlesinger Jr., John K. Singlaub, John King Fairbank, Walt W. Rostow, Roger
-  Hilsman Jr., Lyman B. Kirkpatrick Jr., Ray S. Cline, and Paul Mellon;
+- all five Batch 011 profiles: Carleton S. Coon, Norman H. Pearson, Philip E.
+  Mosely, Millard P. Goodfellow, and Whitney Shepardson;
 - `data/stats.json`;
-- the public personnel CSV download; and
-- the public affiliations CSV download.
+- all four public CSV downloads;
+- `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
 
-Each live profile contained its expected indexed heading. Patti's profile
-retained the explicit unresolved-employer wording and archival-review path. The
-live statistics report 23,978 source rows, 23,941 person entities, 130 people
-with non-planned research attempts, 48 verified-affiliation people, 24
-verified-employer people, 56 archival-review assessments, 155 published claims,
-and 103 public source records. The live affiliations and sources downloads
-contain 108 and 103 rows respectively. The live personnel CSV header contains
+Each live profile contained its expected indexed heading. Shepardson's profile
+retained the explicit archival-review path, and Goodfellow's profile displayed
+only the masked service-number suffix. The live statistics report 23,978 source
+rows, 23,941 person entities, 135 people with non-planned research attempts, 53
+verified-affiliation people, 28 verified-employer people, 61 archival-review
+assessments, 171 published claims, and 117 public source records. The live
+personnel, organizations, affiliations, and sources downloads contain 23,941,
+84, 117, and 117 data rows respectively. The live personnel CSV header contains
 `serial_masked` and no full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
