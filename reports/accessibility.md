@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 60 / 60 browser cases.**
+**PASS - 63 / 63 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,8 +24,8 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-10-person employer measure is labeled separately from the 24-person broader
-affiliation measure. The fifteen researched-profile cases verify that
+14-person employer measure is labeled separately from the 32-person broader
+affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
 employer, and that the reviewed Bunche, Casey, Goldberg, and Hayden profiles
@@ -53,6 +53,12 @@ Burrell, Edmund M. Burke, and Robert C. Broughton at all three viewport sizes.
 It checks that Army assignments remain distinct from civilian employment, that
 schools and college athletics are not presented as employers, and that neither
 a spouse's employer nor a postwar job fills an unresolved pre-OSS field.
+The official-pathways batch verifies Barbara J. Lauwers, Franklin P. Holcomb,
+Jeanne H. Taylor, Sherman Kent, Walter C. Langer, and William L. Langer at all
+three viewport sizes. It checks the separation of civilian employers, military
+and predecessor-agency assignments, student history, self-employment, and a
+provisional common-name identity. It also verifies Holcomb's corrected Marine
+Corps classification.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the

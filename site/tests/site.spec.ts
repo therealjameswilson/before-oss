@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/10 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/14 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 24 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 32 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -506,5 +506,102 @@ test("the education-and-service batch does not turn schools or a spouse's work i
     await expect(
       page.getByRole("link", { name: profile.source, exact: true }).first(),
     ).toHaveAttribute("href", /cia\.gov/);
+  }
+});
+
+test("the official-pathways batch preserves employers, military assignments, and provisional identities", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "7227c423-8f14-5430-9824-e79ccac87230",
+      name: "Barbara J Lauwers",
+      immediate: "Women's Army Corps",
+      lastCivilian: "Embassy of Czechoslovakia in Washington",
+      source: "Barbara Lauwers: Deceiving the Enemy",
+    },
+    {
+      id: "404292b8-801c-58f0-8f74-6fd447da6adf",
+      name: "Franklin P Holcomb",
+      immediate: "Office of Naval Intelligence",
+      earlier: "Georgetown University",
+      source: 'The "Scholastic" Marine Who Won a Secret War',
+      category: "commissioned marine corps officer",
+    },
+    {
+      id: "db23d265-0e22-5004-96ad-ab1762b43b92",
+      name: "Jeanne H Taylor",
+      earlier: "Works Progress Administration, Index of American Design",
+      source: 'The "Glorious Amateurs" of OSS: A Sisterhood of Spies',
+      needsIdentityReview: true,
+    },
+    {
+      id: "b78087f9-4898-5aae-bf3d-43dba862cb78",
+      name: "Sherman Kent",
+      immediate: "Coordinator of Information",
+      lastCivilian: "Yale University",
+      source: "Sherman Kent and the Profession of Intelligence Analysis",
+    },
+    {
+      id: "d94ecc56-f483-5cd6-8577-22447eb6a8d7",
+      name: "Walter C Langer",
+      immediate: "Self-employed",
+      lastCivilian: "Self-employed",
+      source: "Official OSS Exhibition Catalogue",
+    },
+    {
+      id: "e9aac0ee-0132-5166-b8ab-1e9e8d89fe93",
+      name: "William L Langer",
+      immediate: "Harvard University",
+      lastCivilian: "Harvard University",
+      earlier: "Clark University",
+      source: "The Historian-Autobiographers",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+
+    const immediateSection = page.locator(
+      'section[aria-labelledby="immediate-affiliation"]',
+    );
+    if (profile.immediate) {
+      await expect(
+        immediateSection.getByRole("heading", {
+          name: profile.immediate,
+          exact: true,
+        }),
+      ).toBeVisible();
+    }
+
+    const civilianSection = page.locator(
+      'section[aria-labelledby="civilian-employer"]',
+    );
+    if (profile.lastCivilian) {
+      await expect(
+        civilianSection.getByRole("heading", {
+          name: profile.lastCivilian,
+          exact: true,
+        }),
+      ).toBeVisible();
+    }
+
+    if (profile.earlier) {
+      await expect(
+        page.getByRole("heading", { name: profile.earlier, exact: true }).first(),
+      ).toBeVisible();
+    }
+    if (profile.category) {
+      await expect(page.getByText(profile.category, { exact: true }).first()).toBeVisible();
+    }
+    if (profile.needsIdentityReview) {
+      await expect(page.getByText("needs identity review", { exact: true })).toBeVisible();
+    }
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toBeVisible();
   }
 });
