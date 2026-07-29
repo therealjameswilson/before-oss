@@ -32,26 +32,26 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Pages deployment
-[30456078271](https://github.com/therealjameswilson/before-oss/actions/runs/30456078271)
-for official-pathways Batch 013 release `29d1afd` completed successfully.
+[30457973411](https://github.com/therealjameswilson/before-oss/actions/runs/30457973411)
+for institutional-pathways Batch 014 release `4804c5a` completed successfully.
 
 Live checks returned HTTP 200 for all twenty tested targets:
 
 - the home, personnel, organizations, analysis, methodology, sources, and
   downloads pages;
-- all five Batch 013 profiles: John Magruder, Donald C. Downes, Bruce C.
-  Hopper, Leopold Schwarsschild, and Paul C. Child;
+- all five Batch 014 profiles: Stewart J. Alsop, Ross Lee Finney, Doris A.
+  Sharrar, Chauncy D. Harris, and Stanley P. Lovell;
 - `data/stats.json`;
 - all four public CSV downloads;
 - `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
 
 Each live profile contained its expected indexed heading and reviewed
 organization or institution text. The live statistics report 23,978 source
-rows, 23,941 person entities, 145 people with non-planned research attempts, 61
-verified-affiliation people, 33 verified-employer people, 71 archival-review
-assessments, 201 published claims, and 146 public source records. The live
+rows, 23,941 person entities, 149 people with non-planned research attempts, 66
+verified-affiliation people, 37 verified-employer people, 75 archival-review
+assessments, 217 published claims, and 157 public source records. The live
 personnel, organizations, affiliations, and sources downloads contain 23,941,
-96, 134, and 146 data rows respectively. The live personnel CSV header contains
+103, 142, and 157 data rows respectively. The live personnel CSV header contains
 `serial_masked` and no full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
