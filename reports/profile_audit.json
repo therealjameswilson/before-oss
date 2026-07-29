@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T13:24:24+00:00",
+  "generated_at": "2026-07-29T13:44:27+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -12,8 +12,8 @@
     "commissioned_categories_consistent": true
   },
   "personnel_category_counts": {
-    "civilian_professional_or_administrative_grade": 24,
-    "commissioned_army_officer": 33,
+    "civilian_professional_or_administrative_grade": 23,
+    "commissioned_army_officer": 34,
     "commissioned_marine_corps_officer": 3,
     "commissioned_naval_officer": 5,
     "enlisted_army_personnel": 27,
@@ -23,8 +23,8 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 80,
-    "2": 53,
+    "1": 81,
+    "2": 52,
     "3": 27,
     "4": 40
   },
@@ -36,20 +36,20 @@
   },
   "research_status_counts": {
     "documented_prewar_employer_found": 3,
-    "in_progress": 7,
+    "in_progress": 6,
     "needs_identity_review": 2,
     "not_started": 174,
     "requires_archival_review": 1,
-    "verified_employer_found": 13
+    "verified_employer_found": 14
   },
   "special_strata_counts": {
-    "commissioned": 42,
-    "civilian": 24,
+    "commissioned": 43,
+    "civilian": 23,
     "enlisted": 31,
     "allied_or_foreign": 21,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 33,
-    "confirmed_or_high_published_claim": 18,
+    "confirmed_or_high_published_claim": 19,
     "medium_published_claim": 10,
     "conflicting_published_claim": 0,
     "unresolved_identity": 171
@@ -249,11 +249,11 @@
     "db23d265-0e22-5004-96ad-ab1762b43b92",
     "b6f213df-1110-5f54-8821-8787886a7633",
     "62745da7-0c09-58fa-be20-99a797c8d9aa",
-    "4f5707b0-a4d3-5fb1-940e-223b8d0e0d41",
     "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
     "21a6b6f2-5daa-5569-826e-6d193f387d4a",
     "221b804d-039b-5da1-ad65-c62ea650a63b",
     "66142cc6-36c6-519b-8765-986f995322e3",
+    "3566565e-bc22-57c6-945e-88a7c8983bfc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",

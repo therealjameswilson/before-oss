@@ -5,9 +5,9 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,045 pages**
-- Internal link check: **24,045 HTML files passed**
-- Browser and accessibility suite: **78 / 78 passed**
+- Static production build: **24,052 pages**
+- Internal link check: **24,052 HTML files passed**
+- Browser and accessibility suite: **81 / 81 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
 - Public redaction build: **passed**
@@ -15,12 +15,12 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **146** public records representing **142** unique documents
-- Published, qualified affiliations: **134**
-- Published claims: **201**
-- Verified-affiliation metric: **61** people with confirmed/high published
+- Reviewed public sources: **157** public records representing **152** unique documents
+- Published, qualified affiliations: **142**
+- Published claims: **217**
+- Verified-affiliation metric: **66** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **33** people with confirmed/high published
+- Verified-employer metric: **37** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -53,3 +53,7 @@ Batch 013 adds checks for a career-military pathway without an invented
 civilian employer, distinct civilian-cover and earlier academic employment,
 the indexed spelling of a probable identity, and medium-confidence employment
 that remains visibly qualified and excluded from default analytics.
+Batch 014 adds checks for an Allied military transfer, concurrent employers,
+student status without an employer inference, a government-to-OSS pathway
+separate from the last civilian employer, and an officially documented but
+deliberately unnamed self-employed business.

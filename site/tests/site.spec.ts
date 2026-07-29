@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/33 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/37 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 61 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 66 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1206,6 +1206,147 @@ test("Batch 013 preserves career-military, civilian-cover, academic, probable-id
         name: "Julia Child: Cooking Up Spy Ops for OSS",
         exact: true,
       })
+      .first(),
+  ).toBeVisible();
+});
+
+test("Batch 014 preserves Allied transfers, concurrent employers, student status, government pathways, and unnamed self-employment", async ({
+  page,
+}) => {
+  await page.goto("./people/b635033f-c426-5c5c-b55d-73c37acb9cd7/");
+  await expect(
+    page.getByRole("heading", { name: "Stewart J Alsop", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "King's Royal Rifle Corps, 60th Regiment",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Doubleday, Doran & Company", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Joseph Alsop and Stewart Alsop Papers",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/d5ef765f-15f7-5b73-bfa8-40b49281e265/");
+  await expect(
+    page.getByRole("heading", { name: "Ross Lee Finney", exact: true }),
+  ).toBeVisible();
+  for (const organization of ["Mount Holyoke College", "Hartt School of Music"]) {
+    await expect(
+      page
+        .locator('section[aria-labelledby="immediate-affiliation"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page
+        .locator('section[aria-labelledby="civilian-employer"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Smith College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", { name: "Ross Lee Finney Papers", exact: true })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/6cf300e3-bf39-5847-a2ab-50c7320d26cd/");
+  await expect(
+    page.getByRole("heading", { name: "Doris A Sharrar", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Montgomery Blair High School", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      "Review Box 700 for Sharrar's activity between 1940 graduation and post-Pearl Harbor OSS entry; no pre-OSS employer is documented online.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "The Glorious Amateurs of OSS: A Sisterhood of Spies",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/a908557f-c6ef-52b3-a94f-878cbf920f79/");
+  await expect(
+    page.getByRole("heading", { name: "Chauncy D Harris", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Department of State, Office of the Geographer",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Chicago", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Guide to the Chauncy D. Harris Papers 1893-2003",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/4f5707b0-a4d3-5fb1-940e-223b8d0e0d41/");
+  await expect(
+    page.getByRole("heading", { name: "Stanley P Lovell", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Self-employed", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Self-employed", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", {
+      name: "Lovell was running his own Massachusetts company when Donovan recruited him to lead OSS Research and Development.",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", { name: "OSS Exhibition Catalogue", exact: true })
       .first(),
   ).toBeVisible();
 });
