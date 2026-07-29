@@ -242,6 +242,7 @@ class PersonUpdateInput(StrictModel):
     commissioned_officer: bool | None = None
     allied_or_foreign_personnel: bool | None = None
     manual_review_required: bool | None = None
+    possible_duplicate_group: str | None = None
     research_status: Literal[
         "not_started",
         "in_progress",
@@ -637,6 +638,7 @@ def import_reviewed_evidence(
                 SELECT identity_status, identity_evidence, name_variants_json,
                        personnel_category, commissioned_officer,
                        allied_or_foreign_personnel, manual_review_required,
+                       possible_duplicate_group,
                        research_status, research_started_at, research_completed_at,
                        next_action, personnel_file_digitized,
                        personnel_file_reviewed, nara_catalog_id,
@@ -674,6 +676,7 @@ def import_reviewed_evidence(
                 SET identity_status=?, identity_evidence=?, name_variants_json=?,
                     personnel_category=?, commissioned_officer=?,
                     allied_or_foreign_personnel=?, manual_review_required=?,
+                    possible_duplicate_group=?,
                     research_status=?, research_started_at=?,
                     research_completed_at=?, next_action=?,
                     personnel_file_digitized=?, personnel_file_reviewed=?,
@@ -703,6 +706,11 @@ def import_reviewed_evidence(
                         int(update.manual_review_required)
                         if update.manual_review_required is not None
                         else current["manual_review_required"]
+                    ),
+                    (
+                        update.possible_duplicate_group
+                        if update.possible_duplicate_group is not None
+                        else current["possible_duplicate_group"]
                     ),
                     research_status,
                     current["research_started_at"] or now,

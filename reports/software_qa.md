@@ -5,21 +5,21 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,002 pages**
-- Internal link check: **24,002 HTML files passed**
-- Browser and accessibility suite: **60 / 60 passed**
+- Static production build: **24,020 pages**
+- Internal link check: **24,020 HTML files passed**
+- Browser and accessibility suite: **66 / 66 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **45** records representing **44** unique documents
-- Published, qualified affiliations: **67**
-- Published claims: **99**
-- Verified-affiliation metric: **24** people with confirmed/high published
+- Reviewed public sources: **81** records representing **80** unique documents
+- Published, qualified affiliations: **94**
+- Published claims: **131**
+- Verified-affiliation metric: **39** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **10** people with confirmed/high published
+- Verified-employer metric: **20** people with confirmed/high published
   employment or self-employment evidence
 - GitHub Actions test workflow
   [30440348982](https://github.com/therealjameswilson/before-oss/actions/runs/30440348982)

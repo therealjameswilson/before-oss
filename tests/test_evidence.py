@@ -115,6 +115,7 @@ class ReviewedEvidenceTests(unittest.TestCase):
                     "commissioned_officer": False,
                     "allied_or_foreign_personnel": False,
                     "manual_review_required": False,
+                    "possible_duplicate_group": "test-duplicate-group",
                     "research_status": "verified_employer_found",
                     "next_action": "No additional action is currently required.",
                     "personnel_file_digitized": True,
@@ -183,6 +184,7 @@ class ReviewedEvidenceTests(unittest.TestCase):
             SELECT identity_status, identity_evidence, name_variants_json,
                    personnel_category, commissioned_officer,
                    allied_or_foreign_personnel, manual_review_required,
+                   possible_duplicate_group,
                    research_status, research_started_at, research_completed_at,
                    personnel_file_digitized, personnel_file_reviewed,
                    nara_catalog_id, archival_review_priority
@@ -201,6 +203,10 @@ class ReviewedEvidenceTests(unittest.TestCase):
         self.assertEqual(person["commissioned_officer"], 0)
         self.assertEqual(person["allied_or_foreign_personnel"], 0)
         self.assertEqual(person["manual_review_required"], 0)
+        self.assertEqual(
+            person["possible_duplicate_group"],
+            "test-duplicate-group",
+        )
         self.assertEqual(person["research_status"], "verified_employer_found")
         self.assertIsNotNone(person["research_started_at"])
         self.assertIsNotNone(person["research_completed_at"])

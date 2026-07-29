@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/14 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/20 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 32 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 39 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -604,4 +604,102 @@ test("the official-pathways batch preserves employers, military assignments, and
       page.getByRole("link", { name: profile.source, exact: true }).first(),
     ).toBeVisible();
   }
+});
+
+test("Batch 009 preserves civilian, military, government, and duplicate-row boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "52aacf03-c330-5566-9091-7bc961b1266b",
+      name: "William J Donovan",
+      immediate: "Coordinator of Information",
+      lastCivilian: "Donovan, Leisure, Newton & Irvine",
+      source: "William Donovan: Spymaster, War Hero, and Columbia Law School Graduate",
+    },
+    {
+      id: "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      name: "Carl F Eifler",
+      immediate: "K Company, 35th Infantry Regiment",
+      lastCivilian: "United States Customs Service",
+      source: "Colonel Carl F. Eifler, US Army, Retired",
+    },
+    {
+      id: "c353768b-d393-5b1c-92ba-47d7cbfe28dc",
+      name: "David K Bruce",
+      immediate: "American Red Cross",
+      lastCivilian: "American Red Cross",
+      source: "David K. E. Bruce Oral History Interview",
+    },
+    {
+      id: "7ac0f4ab-1444-5819-9a43-ee750f6f5617",
+      name: "Frank G Wisner",
+      immediate: "Office of Naval Intelligence",
+      lastCivilian: "Carter, Ledyard & Milburn",
+      source: "General Walter Bedell Smith as Director of Central Intelligence, October 1950-February 1953, Volume II",
+    },
+    {
+      id: "fdfd99fd-2cdd-5f1e-a101-0d1a36440f06",
+      name: "John A Bross",
+      immediate: "United States Army Air Forces",
+      lastCivilian: "Self-employed legal practice",
+      source: "John Bross Receives Army Air Forces Commission (April 1942)",
+    },
+    {
+      id: "221b804d-039b-5da1-ad65-c62ea650a63b",
+      name: "Kermit Roosevelt Jr.",
+      immediate: "California Institute of Technology",
+      lastCivilian: "California Institute of Technology",
+      source: "Zendebad, Shah! The Central Intelligence Agency and the Fall of Iranian Prime Minister Mohammad Mossadeq, August 1953",
+    },
+    {
+      id: "8f01ec1e-7a03-5d7b-8ebd-8144fdfd6d85",
+      name: "Samson Lane Faison",
+      immediate: "United States Naval Reserve",
+      lastCivilian: "Williams College",
+      source: "Legendary Art History Teacher and Long-time Williams Faculty Member Lane Faison Dies",
+    },
+    {
+      id: "a2d66764-90d0-5d8d-8102-30c2e0b03ba1",
+      name: "Peter M F Sichel",
+      immediate: "United States Army Medical Corps",
+      source: "The Secrets of My Life: Vintner, Prisoner, Soldier, Spy",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page
+        .locator('section[aria-labelledby="immediate-affiliation"]')
+        .getByRole("heading", { name: profile.immediate, exact: true }),
+    ).toBeVisible();
+    if (profile.lastCivilian) {
+      await expect(
+        page
+          .locator('section[aria-labelledby="civilian-employer"]')
+          .getByRole("heading", { name: profile.lastCivilian, exact: true }),
+      ).toBeVisible();
+    }
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/1bf7bd5e-a790-51d0-9a46-e6046cab07f2/");
+  await expect(
+    page.getByRole("heading", { name: "Peter M Sichel", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true })).toBeVisible();
+  await expect(page.getByText("duplicate-1f825d1c2a6f", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText(
+      "The Peter M. Sichel row remains separate from the adjacent Peter M. F. Sichel row pending direct service-number linkage.",
+      { exact: true },
+    ),
+  ).toBeVisible();
 });
