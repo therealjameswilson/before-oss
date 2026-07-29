@@ -5,25 +5,25 @@ Run: 2026-07-29 UTC
 - Python unit tests: **30 / 30 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,129 pages**
-- Internal link check: **24,129 HTML files passed**
-- Browser and accessibility suite: **141 / 141 passed**
+- Static production build: **24,131 pages**
+- Internal link check: **24,131 HTML files passed**
+- Browser and accessibility suite: **144 / 144 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`17a585e2d9b59ffd9a6fb0471aa037ab67690c6b6dcb22b893bc072ac1ee40ce`)
+  (`d2b7a71d162dd50d238a11e26f216ccb8ec79ecc4141cb228720cfe38e2020fc`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,207**
+  numbers at least six characters long: **0 full-number matches** in **24,211**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **377** public records representing **352** unique documents
-- Published, qualified affiliations: **292**
-- Published claims: **475**
+- Reviewed public sources: **384** public records representing **358** unique documents
+- Published, qualified affiliations: **299**
+- Published claims: **488**
 - Withheld low-confidence identity candidates: **3**
-- Verified-affiliation metric: **147** people with confirmed/high published
+- Verified-affiliation metric: **152** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **91** people with confirmed/high published
   employment or self-employment evidence
@@ -166,3 +166,8 @@ employment and explicit Army pathway; Hans V. Tofte's distinct Army and British
 SOE assignments; Howard E. Manning's individual legal practice without
 assigning the separate Manning & Manning firm; and the occupation-only Navarro
 and Mero results without invented employers.
+Batch 034 adds checks for James F. Ranney's Signal Corps pathway and unnamed
+Youngstown radio-station occupation; Spyridon G. Kapponnis's Michigan State
+College, Navy, and direct USNR mission evidence; Arthur F. Reinhardt's Army Air
+Corps transition; Gail F. Donnalley's Ohio Wesleyan student status; and John W.
+Brunner's Army language course and deliberately unnamed pre-draft college.

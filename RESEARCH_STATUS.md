@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 243 people with a non-planned attempt | 23,941 person entities | 1.0150% |
-| Verified-affiliation coverage | 147 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.6140% |
+| Research-attempt coverage | 248 people with a non-planned attempt | 23,941 person entities | 1.0359% |
+| Verified-affiliation coverage | 152 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.6349% |
 | Verified-employer coverage | 91 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3801% |
-| Archival-review coverage | 170 people with an individual file-access/priority assessment | 23,941 person entities | 0.7101% |
+| Archival-review coverage | 175 people with an individual file-access/priority assessment | 23,941 person entities | 0.7310% |
 
 ## Extraction and identity
 
@@ -22,35 +22,35 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 8
-- Identity status `high_confidence`: 191
+- Identity status `high_confidence`: 196
 - Identity status `probable`: 5
 - Identity status `ambiguous`: 4
-- Identity status `unresolved`: 23,733
+- Identity status `unresolved`: 23,728
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,640
-- Enlisted Army personnel: 3,456
+- Unknown or indeterminate: 16,638
+- Enlisted Army personnel: 3,457
 - Commissioned Army officers: 2,061
 - Commissioned Marine Corps officers: 5
 - Civilian professional or administrative grades: 1,449
 - Foreign or Allied military personnel: 242
-- Enlisted naval personnel: 47
+- Enlisted naval personnel: 48
 - Commissioned naval officers: 37
 - Warrant officers: 4
 
-Commissioned classification: 2,106 yes; 4,961 no; 16,874 indeterminate.
+Commissioned classification: 2,106 yes; 4,963 no; 16,872 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,698
+- `not_started`: 23,693
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 6
 - `documented_prewar_employer_found`: 12
 - `occupation_only_found`: 10
 - `requires_archival_review`: 18
-- `completed`: 12
+- `completed`: 17
 - `verified_employer_found`: 99
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,12 +61,12 @@ Commissioned classification: 2,106 yes; 4,961 no; 16,874 indeterminate.
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 165 across 164 people; 10 additional
+- Saved `source_reviewed` outcomes: 170 across 169 people; 10 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,234
+- Total recorded attempts/plans: 1,239
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 170; 167 have at least one published
+- People with saved reviewed claims: 175; 172 have at least one published
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -112,12 +112,14 @@ Commissioned classification: 2,106 yes; 4,961 no; 16,874 indeterminate.
   Gleason, Joseph H. Collart, Rex Applegate, Ainsworth Blogg, the ambiguous
   Louise D. Cohen index entry, the probable Morris M. Kessler identity,
   Joseph E/M Lazarsky, Leopold Karwoski, George S. Wuchinich, Hans V. Tofte,
-  Howard E. Manning, John F. Navarro, and Peter G. Mero.
-- Published affiliations: 292
-- Database claims: 478; published claims: 475 (68 confirmed, 369 high, 38
+  Howard E. Manning, John F. Navarro, Peter G. Mero, James F. Ranney,
+  Spyridon G. Kapponnis, Arthur F. Reinhardt, Gail F. Donnalley, and John W.
+  Brunner.
+- Published affiliations: 299
+- Database claims: 491; published claims: 488 (73 confirmed, 377 high, 38
   medium); 3 low-confidence identity candidates are withheld
-- Citation records: 385; public source export: 377; unique source documents: 352
-- Canonical organizations: 181 private and 180 public
+- Citation records: 392; public source export: 384; unique source documents: 358
+- Canonical organizations: 183 private and 182 public
 - Conflicts: 0
 - NARA pull-list rows: 23,879
 
@@ -188,6 +190,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-instructors-a
 python3 -m oss_research import-reviewed-evidence research/evidence-area-b-instructors-and-student-pathways_batch-031_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-area-b-command-and-engineer-cadre_batch-032_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-area-c-and-special-operations-pathways_batch-033_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence-radio-and-cryptology-pathways_batch-034_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

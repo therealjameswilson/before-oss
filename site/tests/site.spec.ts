@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/91 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 147 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 152 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3215,5 +3215,107 @@ test("Batch 033 preserves civilian, Army, SOE, qualified-employer, and occupatio
     "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
   );
 
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 034 preserves radio, cryptology, military, student, and unnamed-institution boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/f4887f88-5b29-5975-beb5-09370cb58b0c/");
+  await expect(
+    page.getByRole("heading", { name: "James F Ranney", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Signal Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "engineer at an unnamed radio station in Youngstown",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/d0270e61-812f-5936-95cf-52fed2d3ec42/");
+  await expect(
+    page.getByRole("heading", {
+      name: "Spyridon G Kapponnis",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Spiro Cappony");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Navy", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Michigan State College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", { name: "Final Report of the Evros Mission", exact: true })
+      .first(),
+  ).toHaveAttribute("href", /elia\.org\.gr/);
+
+  await page.goto("./people/5b33ad31-3142-5f14-8cba-5742f5ed22de/");
+  await expect(
+    page.getByRole("heading", { name: "Arthur F Reinhardt", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Air Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("extract fr");
+  await expect(page.locator("body")).not.toContainText(
+    "family farm was his employer",
+  );
+
+  await page.goto("./people/481bfe0a-c476-5e72-9f85-02a45791f78e/");
+  await expect(
+    page.getByRole("heading", { name: "Gail F Donnalley", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Ohio Wesleyan University", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Sophomore student");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/f1f25aef-0f06-516c-ac04-4cc449634133/");
+  await expect(
+    page.getByRole("heading", { name: "John W Brunner", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "college (institution not identified)",
+  );
+  await expect(page.locator("body")).toContainText(
+    "NPS says the Army sent Brunner to study Chinese",
+  );
+  await expect(page.locator("body")).toContainText(
+    "The official history documents the subjects and student status but names no institution.",
+  );
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 141 / 141 browser cases.**
+**PASS - 144 / 144 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-91-person employer measure is labeled separately from the 147-person broader
+91-person employer measure is labeled separately from the 152-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -208,6 +208,12 @@ employer, explicit Army and earlier SOE pathways, individual legal practice
 without assigning a separate firm, two occupation-only outcomes without
 invented employers, claim-level source links, and serial-number masking at all
 three viewport sizes.
+Batch 034 verifies James F. Ranney, Spyridon G. Kapponnis, Arthur F. Reinhardt,
+Gail F. Donnalley, and John W. Brunner. It checks Signal Corps, Navy, Army Air
+Corps, and Army pathways; distinguishes Michigan State College and Ohio
+Wesleyan student status from employment; preserves an unnamed Youngstown radio
+station and unnamed college without guessing; exposes the direct Evros Mission
+citation; and confirms serial-number masking at all three viewport sizes.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -267,6 +273,12 @@ individual-practice evidence. The checks now require the public evidence and
 exclude the unassigned `Manning & Manning` firm. The complete desktop, phone,
 and tablet matrix then passed 141 / 141 with no remaining assertion or axe
 failure.
+
+The Batch 034 focused run caught one assertion aimed at a private review note
+rather than the rendered Army-language-course evidence. It was replaced with
+checks for the published Army and unnamed-college language. The complete
+desktop, phone, and tablet matrix then passed 144 / 144 with no remaining
+assertion or axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

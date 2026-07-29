@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:22:46+00:00",
+  "generated_at": "2026-07-29T23:49:37+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,13 +7,13 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 243,
-    "percent": 1.015
+    "people_with_nonplanned_attempts": 248,
+    "percent": 1.0359
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_affiliation": 147,
-    "percent": 0.614
+    "people_with_confirmed_or_high_published_affiliation": 152,
+    "percent": 0.6349
   },
   "verified_employer_coverage": {
     "person_entities": 23941,
@@ -22,23 +22,23 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 170,
-    "percent": 0.7101
+    "people_assessed": 175,
+    "percent": 0.731
   },
   "research_status_counts": {
     "candidate_found": 1,
-    "completed": 12,
+    "completed": 17,
     "documented_prewar_employer_found": 12,
     "in_progress": 85,
     "needs_identity_review": 6,
-    "not_started": 23698,
+    "not_started": 23693,
     "occupation_only_found": 10,
     "requires_archival_review": 18,
     "verified_employer_found": 99
   },
   "claim_confidence_counts": {
-    "confirmed": 68,
-    "high": 369,
+    "confirmed": 73,
+    "high": 377,
     "low": 3,
     "medium": 38
   },
@@ -47,14 +47,14 @@
     "commissioned_army_officer": 2061,
     "commissioned_marine_corps_officer": 5,
     "commissioned_naval_officer": 37,
-    "enlisted_army_personnel": 3456,
-    "enlisted_naval_personnel": 47,
+    "enlisted_army_personnel": 3457,
+    "enlisted_naval_personnel": 48,
     "foreign_or_allied_military_personnel": 242,
-    "unknown_or_indeterminate": 16640,
+    "unknown_or_indeterminate": 16638,
     "warrant_officer": 4
   },
   "possible_duplicate_groups": 204,
   "conflict_count": 0,
-  "citations": 385,
-  "unique_source_documents": 352
+  "citations": 392,
+  "unique_source_documents": 358
 }
