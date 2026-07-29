@@ -4,15 +4,15 @@ Run: 2026-07-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,119 HTML files. Every relative
+**PASS.** The production build contains 24,124 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 170 organization profiles, and the
+The build includes 23,941 person profiles, 175 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,266 unique external URLs for separate live
+The checker inventoried 48,271 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -31,35 +31,9 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-GitHub Actions test workflow
-[30493968537](https://github.com/therealjameswilson/before-oss/actions/runs/30493968537)
-and GitHub Pages deployment
-[30493968520](https://github.com/therealjameswilson/before-oss/actions/runs/30493968520)
-for training-and-communications-pathways Batch 029 release `adc57e6`
-completed successfully.
-
-Live checks returned HTTP 200 and the expected content marker for all 22
-tested targets:
-
-- the home, `/people/` personnel directory, organizations, analysis,
-  methodology, sources, and downloads pages;
-- William E. Fairbairn, Frank V. Huston, Edward E. Nicholas Jr., Vincent L.
-  Gonzalez Jr., and Roger L. Belanger;
-- `data/stats.json`;
-- all four public CSV downloads;
-- the public personnel JSONL download;
-- `data/sources.json`, `data/organizations.json`, `data/search-index.json`,
-  and the public build manifest;
-- the NARA attribution notice and full-service-number redaction on the five
-  new profiles.
-
-The live statistics report 23,978 source rows, 23,941 person entities, 223
-people with non-planned research attempts, 131 verified-affiliation people, 88
-verified-employer people, 150 archival-review assessments, 426 published
-claims, and 350 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 170, 266, and 350 data rows
-respectively. The live personnel CSV header contains `serial_masked` and no
-full service-number field.
+The Batch 030 GitHub Actions workflows and production smoke tests are pending
+the release commit. This report will be completed with immutable workflow and
+release identifiers after deployment.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.

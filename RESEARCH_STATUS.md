@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 223 people with a non-planned attempt | 23,941 person entities | 0.9315% |
-| Verified-affiliation coverage | 131 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.5472% |
-| Verified-employer coverage | 88 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3676% |
-| Archival-review coverage | 150 people with an individual file-access/priority assessment | 23,941 person entities | 0.6265% |
+| Research-attempt coverage | 228 people with a non-planned attempt | 23,941 person entities | 0.9523% |
+| Verified-affiliation coverage | 136 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.5681% |
+| Verified-employer coverage | 90 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3759% |
+| Archival-review coverage | 155 people with an individual file-access/priority assessment | 23,941 person entities | 0.6474% |
 
 ## Extraction and identity
 
@@ -22,51 +22,51 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 8
-- Identity status `high_confidence`: 173
+- Identity status `high_confidence`: 178
 - Identity status `probable`: 4
 - Identity status `ambiguous`: 3
-- Identity status `unresolved`: 23,753
+- Identity status `unresolved`: 23,748
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,647
+- Unknown or indeterminate: 16,646
 - Enlisted Army personnel: 3,455
 - Commissioned Army officers: 2,056
-- Commissioned Marine Corps officers: 4
+- Commissioned Marine Corps officers: 5
 - Civilian professional or administrative grades: 1,449
 - Foreign or Allied military personnel: 242
 - Enlisted naval personnel: 47
 - Commissioned naval officers: 37
 - Warrant officers: 4
 
-Commissioned classification: 2,100 yes; 4,960 no; 16,881 indeterminate.
+Commissioned classification: 2,101 yes; 4,960 no; 16,880 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,718
+- `not_started`: 23,713
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 5
 - `documented_prewar_employer_found`: 11
-- `occupation_only_found`: 6
+- `occupation_only_found`: 7
 - `requires_archival_review`: 15
-- `completed`: 4
-- `verified_employer_found`: 96
+- `completed`: 6
+- `verified_employer_found`: 98
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
-- Web-adapter attempts recorded: 601
+- Web-adapter attempts recorded: 606
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 145 across 144 people; 10 additional
+- Saved `source_reviewed` outcomes: 150 across 149 people; 10 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,214
+- Total recorded attempts/plans: 1,219
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 150; 148 have at least one published
+- People with saved reviewed claims: 155; 153 have at least one published
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -107,12 +107,13 @@ Commissioned classification: 2,100 yes; 4,960 no; 16,881 indeterminate.
   William Lane Rehm, Robert H. Ives Goddard, Paul Baran, G. E. Buxton, James
   R. Forgan, Everette H. Hunt Jr., Shaw Livermore Jr., William E. Fairbairn,
   Frank V. Huston, Edward E. Nicholas Jr., Vincent L. Gonzalez Jr., and Roger
-  L. Belanger.
-- Published affiliations: 266
-- Database claims: 428; published claims: 426 (55 confirmed, 337 high, 34
+  L. Belanger, Edgar A. Prichard, Jerry M. Sage, Elmer Harris, George H.
+  White, and Charles M. Parkin Jr.
+- Published affiliations: 274
+- Database claims: 442; published claims: 440 (59 confirmed, 347 high, 34
   medium); 2 low-confidence identity candidates are withheld
-- Citation records: 357; public source export: 350; unique source documents: 331
-- Canonical organizations: 171 private and 170 public
+- Citation records: 363; public source export: 356; unique source documents: 335
+- Canonical organizations: 176 private and 175 public
 - Conflicts: 0
 - NARA pull-list rows: 23,882
 
@@ -179,6 +180,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_women-pathway
 python3 -m oss_research import-reviewed-evidence research/evidence-early-coi-finance-and-scholarship_batch-027_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-government-business-and-student-pathways_batch-028_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-training-and-communications-pathways_batch-029_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence-instructors-and-fieldcraft-pathways_batch-030_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

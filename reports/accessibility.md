@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 129 / 129 browser cases.**
+**PASS - 132 / 132 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-88-person employer measure is labeled separately from the 131-person broader
+90-person employer measure is labeled separately from the 136-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -185,6 +185,11 @@ SOE, Shanghai police, U.S. military radio, university-student, and maritime
 pathways remain distinct; that a professional affiliation is not converted
 into a single employer; and that an officially documented but unnamed runner
 employer is not guessed.
+Batch 030 verifies Edgar A. Prichard, Jerry M. Sage, Elmer Harris, George H.
+White, and Charles M. Parkin Jr. It checks an unnamed journalism occupation,
+Procter & Gamble and General Petroleum employment, Army and Marine pathways, a
+qualified Federal Bureau of Narcotics predecessor, Corps of Engineers service,
+and Penn State student status without employer inflation.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -222,6 +227,10 @@ then found one assertion aimed at a private review note. The site was rebuilt,
 the assertion was changed to require the corresponding public evidence
 language, and the complete suite passed 129 / 129 with no remaining assertion
 or axe failure.
+
+The Batch 030 regression run passed first on the targeted desktop profile test
+and then across the complete desktop, phone, and tablet matrix. The final suite
+passed 132 / 132 with no assertion or axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
