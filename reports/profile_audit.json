@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:23:52+00:00",
+  "generated_at": "2026-07-29T22:51:04+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -23,25 +23,25 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 78,
-    "2": 53,
-    "3": 29,
+    "1": 80,
+    "2": 52,
+    "3": 28,
     "4": 40
   },
   "identity_status_counts": {
-    "high_confidence": 25,
-    "probable": 1,
+    "high_confidence": 24,
+    "probable": 2,
     "unresolved": 174
   },
   "research_status_counts": {
-    "completed": 2,
+    "completed": 3,
     "documented_prewar_employer_found": 3,
     "in_progress": 5,
     "needs_identity_review": 1,
     "not_started": 174,
-    "occupation_only_found": 2,
-    "requires_archival_review": 3,
-    "verified_employer_found": 10
+    "occupation_only_found": 1,
+    "requires_archival_review": 4,
+    "verified_employer_found": 9
   },
   "special_strata_counts": {
     "commissioned": 36,
@@ -50,7 +50,7 @@
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 21,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 21,
+    "confirmed_or_high_published_claim": 20,
     "medium_published_claim": 10,
     "conflicting_published_claim": 0,
     "unresolved_identity": 174
@@ -238,18 +238,18 @@
     "1147408f-3793-5ab4-9176-58a04dd8ad5f",
     "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
     "2f189352-aabb-5d3e-899c-ffaafef19aad",
+    "aaffd5ea-3b75-54a0-b333-ea7e962ed025",
     "7227c423-8f14-5430-9824-e79ccac87230",
     "fd719ab0-0e3d-56dd-b163-810da257da6e",
     "d633583e-637d-519b-a417-0eeb7ee8305b",
     "ab9ab673-8090-56bf-9973-36b0edc77610",
     "bd3c2c04-e39d-57a9-b1ed-6e01285235e3",
-    "690eab64-a21e-57dc-ae33-6dc576d5ea07",
+    "3049d936-8a0c-5bc3-9e6d-4024e9f59dd3",
     "fe8ec29a-718c-56f3-af64-d619600f4f0d",
     "4004a23d-52bc-5ce6-b450-36238827b287",
     "0d2d73be-e7ba-5b98-8494-0e9b9adaa189",
     "a9b1ec13-509a-57f2-bb04-d2453d49e908",
     "db23d265-0e22-5004-96ad-ab1762b43b92",
-    "232b3c0e-0988-59b0-a34c-9984cc3170c8",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",

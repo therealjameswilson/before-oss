@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/90 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 141 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 144 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2975,5 +2975,123 @@ test("Batch 031 separates Area B military pathways from student and qualified at
     "https://www.dvidshub.net/news/476096/roll-call-lieutenant-colonel-rex-applegate-1914-1998",
   );
 
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 032 preserves Area B command, engineer, occupation-only, and identity-review boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/c4b9c664-cdcf-56e7-8bd1-eaa7d5c13a4a/");
+  await expect(
+    page.getByRole("heading", { name: "Ainsworth Blogg", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Reserve infantry officer assigned to Military Police",
+  );
+  await expect(page.locator("body")).toContainText(
+    "insurance-company executive in Seattle",
+  );
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/17ca80e8-cf1a-59e0-b414-e4b748013fa3/");
+  await expect(
+    page.getByRole("heading", { name: "Louise D Cohen", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("needs identity review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Box 133");
+  await expect(page.locator("body")).toContainText(
+    "no reviewed service-number or file linkage establishes",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/3049d936-8a0c-5bc3-9e6d-4024e9f59dd3/");
+  await expect(
+    page.getByRole("heading", { name: "Morris M Kessler", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "probably is the psychiatrist and Captain Morris M. Kessler",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/aaffd5ea-3b75-54a0-b333-ea7e962ed025/");
+  await expect(
+    page.getByRole("heading", { name: "Joseph E/M Lazarsky", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Joseph E. Lazarsky");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Corps of Engineers",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Sergeant and demolitions instructor",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "The Office of Strategic Services (OSS) in World War II",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://coph.fullerton.edu/collections/OHP_18_OSS%20Finding%20Aid.pdf",
+  );
+
+  await page.goto("./people/c1fe22b5-0087-5440-9858-6484c72c46e6/");
+  await expect(
+    page.getByRole("heading", { name: "Leopold Karwoski", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Leopold Karwaski");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Corps of Engineers",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.getByText("Capt", { exact: true }).first()).toBeVisible();
+
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Instructing for Dangerous Missions",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
+  );
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

@@ -138,6 +138,26 @@ rows with the same printed name, box, and location but different service
 numbers. The public data omit those numbers, publish no employer candidate as a
 fact, and expose the duplicate-review status.
 
+## Reviewed Area B command and engineer cadre
+
+The thirty-second evidence batch used the [National Park Service's official
+training history](https://www.nps.gov/articles/instructing-for-dangerous-missions.htm),
+the NARA personnel index, and the [California State University, Fullerton OSS
+oral-history finding
+aid](https://coph.fullerton.edu/collections/OHP_18_OSS%20Finding%20Aid.pdf).
+No live NARA Catalog API request or retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Ainsworth Blogg | Active Army Military Police service is the immediate pre-OSS affiliation; the earlier Seattle insurance occupation is published without guessing the company |
+| Louise D. Cohen | Rendered PDF page 86 confirms `Louise`; the NPS Louis/Lewis Cohen candidate remains a withheld low-confidence lead pending Box 133 review |
+| Morris M. Kessler | The exact name supports a probable, visibly qualified Area B identity, but no pre-OSS employer or dated occupation is inferred |
+| Joseph E/M Lazarsky | Rendered page 269, the NPS Fort Belvoir chronology, and CSUF's Joseph E. Lazarsky oral-history entries support a high-confidence identity and immediate Army Engineer assignment |
+| Leopold Karwoski | Rendered page 241 confirms `Karwoski`; NPS uses `Karwaski`. Both forms remain visible, and Fort Belvoir Army Engineer service is the high-confidence immediate affiliation |
+
+The three rendered index pages showed no visual defects and confirmed the
+source spellings, ranks, boxes, and locations used in the evidence bundle.
+
 ## Official reference material
 
 - NARA OSS personnel records:

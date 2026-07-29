@@ -7,10 +7,10 @@ Run: 2026-07-29 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,128 pages**
 - Internal link check: **24,128 HTML files passed**
-- Browser and accessibility suite: **135 / 135 passed**
+- Browser and accessibility suite: **138 / 138 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`6104c41a3163b3be22a2c09a5796956946cc0661b421138848ddc5ce2f3c0372`)
+  (`ba6597e8cef8d77f935284d369527f14d0e6a06235ceddf1ccbb67b00d13ec07`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,11 +19,11 @@ Run: 2026-07-29 UTC
   numbers at least six characters long: **0 full-number matches** in
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **363** public records representing **340** unique documents
-- Published, qualified affiliations: **283**
-- Published claims: **454**
-- Withheld low-confidence identity candidates: **2**
-- Verified-affiliation metric: **141** people with confirmed/high published
+- Reviewed public sources: **369** public records representing **345** unique documents
+- Published, qualified affiliations: **286**
+- Published claims: **462**
+- Withheld low-confidence identity candidates: **3**
+- Verified-affiliation metric: **144** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **90** people with confirmed/high published
   employment or self-employment evidence
@@ -155,3 +155,9 @@ Washington State, Penn State, and University of Oregon student affiliations,
 and a qualified Oregon State athletic association. It preserves the indexed
 `Albert Robinso` form, does not invent civilian employers for any of the five
 people, and keeps Applegate's two Oregon institutional references distinct.
+Batch 032 adds checks for Ainsworth Blogg's Army Military Police pathway and
+unnamed Seattle insurance occupation; the visually confirmed Louise D. Cohen
+index row that remains unlinked from the Louis/Lewis Cohen candidate; Morris M.
+Kessler's qualified probable identity; and Joseph E/M Lazarsky and Leopold
+Karwoski's Fort Belvoir Army Engineer pathways. It also restores the manual-
+review flag on Edgar A. Prichard's pre-existing service-number conflict group.

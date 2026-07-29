@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 135 / 135 browser cases.**
+**PASS - 138 / 138 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-90-person employer measure is labeled separately from the 141-person broader
+90-person employer measure is labeled separately from the 144-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -196,6 +196,12 @@ Engineers pathways separately from student affiliations, keeps five unresolved
 civilian-employer questions explicit, preserves Guay's indexed spelling, and
 visibly qualifies Applegate's Oregon State athletic association alongside the
 separate University of Oregon graduation record.
+Batch 032 verifies Ainsworth Blogg, Louise D. Cohen, Morris M. Kessler, Joseph
+E/M Lazarsky, and Leopold Karwoski. It checks an occupation-only result without
+inventing Blogg's insurance company, keeps Cohen ambiguous and Kessler probable,
+preserves the visually checked indexed spellings, distinguishes later Captain
+grades from earlier Fort Belvoir sergeant assignments, and confirms citation
+links and serial-number masking at all three viewport sizes.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -243,6 +249,11 @@ display labels different from the site's normalized profile text. The checks
 were aligned to the rendered public labels and the complete desktop, phone,
 and tablet matrix then passed 135 / 135 with no remaining assertion or axe
 failure.
+
+The Batch 032 regression run caught two assertions aimed at a source-title
+variant and a private review note. They were replaced with the rendered source
+title and public rank evidence. The complete desktop, phone, and tablet matrix
+then passed 138 / 138 with no remaining assertion or axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
