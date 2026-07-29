@@ -32,8 +32,8 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Pages deployment
-[30439255172](https://github.com/therealjameswilson/before-oss/actions/runs/30439255172)
-for research release `a46ae1f` completed successfully.
+[30440348892](https://github.com/therealjameswilson/before-oss/actions/runs/30440348892)
+for metric-boundary release `935a299` completed successfully.
 
 Live checks returned HTTP 200 for all fourteen tested targets:
 
@@ -49,10 +49,10 @@ Live checks returned HTTP 200 for all fourteen tested targets:
 The five live profiles preserve education, professional affiliation, civilian
 employment, and military assignment as separate relationships. The live
 statistics report 23,978 source rows, 23,941 person entities, 100 people with
-non-planned research attempts, 24 verified-affiliation people, 26
-archival-review assessments, 99 published claims, and 45 public source
-records. The live CSV header contains `serial_masked` and no full
-service-number field.
+non-planned research attempts, 24 verified-affiliation people, 10
+verified-employer people, 26 archival-review assessments, 99 published claims,
+and 45 public source records. The live CSV header contains `serial_masked` and
+no full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.

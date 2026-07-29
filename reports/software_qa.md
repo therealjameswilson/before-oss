@@ -22,11 +22,11 @@ Run: 2026-07-29 UTC
 - Verified-employer metric: **10** people with confirmed/high published
   employment or self-employment evidence
 - GitHub Actions test workflow
-  [30439255152](https://github.com/therealjameswilson/before-oss/actions/runs/30439255152)
-  for research release `a46ae1f`: **passed**
+  [30440348982](https://github.com/therealjameswilson/before-oss/actions/runs/30440348982)
+  for metric-boundary release `935a299`: **passed**
 - GitHub Pages deployment workflow
-  [30439255172](https://github.com/therealjameswilson/before-oss/actions/runs/30439255172)
-  for research release `a46ae1f`: **passed**
+  [30440348892](https://github.com/therealjameswilson/before-oss/actions/runs/30440348892)
+  for metric-boundary release `935a299`: **passed**
 - Production route smoke tests: **14 / 14 returned HTTP 200**
 
 GitHub emitted a non-blocking annotation that several official actions still
