@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/37 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/41 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 66 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 71 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1349,4 +1349,116 @@ test("Batch 014 preserves Allied transfers, concurrent employers, student status
       .getByRole("link", { name: "OSS Exhibition Catalogue", exact: true })
       .first(),
   ).toBeVisible();
+});
+
+test("Batch 015 preserves academic, fashion, military, student, and unnamed-employer pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/c691c388-f4c1-51be-9047-eea867abc968/");
+  await expect(
+    page.getByRole("heading", { name: "Gardner Ackley", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Office of Price Administration",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Michigan", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "The Ohio State University", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/c1f57bc0-8b8e-5fbe-b4b8-1e146322c366/");
+  await expect(
+    page.getByRole("heading", { name: "Marie Aline Griffith", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Hattie Carnegie", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/0b96a6dd-4d77-53b2-aad5-e942aebe4d3a/");
+  await expect(
+    page.getByRole("heading", { name: "John W Gardner", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Marine Corps", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Mount Holyoke College", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/2dc32dd2-4124-5470-9c31-7fe64bfbb9f7/");
+  await expect(
+    page.getByRole("heading", { name: "Hugh Montgomery", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+
+  await page.goto("./people/5e7905c6-6565-5f51-8b37-03e0f57205a1/");
+  await expect(
+    page.getByRole("heading", { name: "Lucien E Conein", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Unidentified Kansas City printer",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "Kansas National Guard, Company G, 137th Infantry Regiment",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "\"No Boy Scout\": CIA Operations Officer Lucien Conein: A Study in Contrasts and Controversy",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", /cia\.gov/);
 });

@@ -5,9 +5,9 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,052 pages**
-- Internal link check: **24,052 HTML files passed**
-- Browser and accessibility suite: **81 / 81 passed**
+- Static production build: **24,061 pages**
+- Internal link check: **24,061 HTML files passed**
+- Browser and accessibility suite: **84 / 84 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
 - Public redaction build: **passed**
@@ -15,21 +15,17 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **157** public records representing **152** unique documents
-- Published, qualified affiliations: **142**
-- Published claims: **217**
-- Verified-affiliation metric: **66** people with confirmed/high published
+- Reviewed public sources: **169** public records representing **164** unique documents
+- Published, qualified affiliations: **156**
+- Published claims: **237**
+- Verified-affiliation metric: **71** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **37** people with confirmed/high published
+- Verified-employer metric: **41** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30457973391](https://github.com/therealjameswilson/before-oss/actions/runs/30457973391)
-  for Batch 014 release `4804c5a`: **passed**
-- GitHub Pages deployment workflow
-  [30457973411](https://github.com/therealjameswilson/before-oss/actions/runs/30457973411)
-  for Batch 014 release `4804c5a`: **passed**
-- Production route smoke tests: **20 / 20 returned HTTP 200**
+- Batch 015 GitHub Actions test workflow: **pending release push**
+- Batch 015 GitHub Pages deployment workflow: **pending release push**
+- Batch 015 production route smoke tests: **pending release deployment**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -57,3 +53,7 @@ Batch 014 adds checks for an Allied military transfer, concurrent employers,
 student status without an employer inference, a government-to-OSS pathway
 separate from the last civilian employer, and an officially documented but
 deliberately unnamed self-employed business.
+Batch 015 adds checks for an academic-to-government pathway, fashion employment,
+a medium-confidence academic predecessor, student status without an employer
+inference, and an unnamed printing business followed by three distinct military
+assignments.
