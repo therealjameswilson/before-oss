@@ -5,32 +5,28 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,094 pages**
-- Internal link check: **24,094 HTML files passed**
-- Browser and accessibility suite: **105 / 105 passed**
+- Static production build: **24,098 pages**
+- Internal link check: **24,098 HTML files passed**
+- Browser and accessibility suite: **108 / 108 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`df3d01bb9ac6b14b7d0fcc8bc00be9a4929df24ad1a6ceafe5a3ecf4930e49c2`)
+  (`83388bd4bda1044bb403a775b5b8288fb6a2753b197ecdda879cc0edb0380749`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **266** public records representing **248** unique documents
-- Published, qualified affiliations: **216**
-- Published claims: **337**
-- Verified-affiliation metric: **104** people with confirmed/high published
+- Reviewed public sources: **281** public records representing **263** unique documents
+- Published, qualified affiliations: **225**
+- Published claims: **351**
+- Verified-affiliation metric: **109** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **70** people with confirmed/high published
+- Verified-employer metric: **75** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30477191794](https://github.com/therealjameswilson/before-oss/actions/runs/30477191794)
-  for Batch 022 release `54908c5`: **passed**
-- GitHub Pages deployment workflow
-  [30477191779](https://github.com/therealjameswilson/before-oss/actions/runs/30477191779)
-  for Batch 022 release `54908c5`: **passed**
-- Production route smoke tests: **20 / 20 returned HTTP 200 and the expected content marker**
+- GitHub Actions test workflow for Batch 023: **pending release commit**
+- GitHub Pages deployment workflow for Batch 023: **pending release commit**
+- Production route smoke tests: **pending Batch 023 deployment**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -95,3 +91,8 @@ of Toronto employment kept distinct from an earlier University of Hawaii
 appointment, continuing Columbia and Yale faculty appointments, and Rhoda
 Métraux's National Research Council employment kept separate from her earlier
 Oxford University Press employment and Yale student status.
+Batch 023 adds checks for the COI-to-OSS institutional succession; college,
+museum, university, and federal employment; a government-to-Army-to-OSS
+sequence; student status that remains outside employer analytics; an unfamiliar
+grade that remains unclassified; and source-title discrepancies preserved
+rather than silently reconciled.

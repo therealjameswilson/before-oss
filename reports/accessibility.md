@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 105 / 105 browser cases.**
+**PASS - 108 / 108 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-70-person employer measure is labeled separately from the 104-person broader
+75-person employer measure is labeled separately from the 109-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -147,6 +147,11 @@ Métraux, and Raymond Kennedy at all three viewport sizes. It checks MoMA,
 University of Toronto, Columbia, National Research Council, and Yale
 employment; keeps an earlier University of Hawaii appointment distinct; and
 preserves Yale student status as education rather than employment.
+Batch 023 verifies James Phinney Baxter III, Saul K. Padover, C. Martin
+Wilbur, Charles F. Remer, and Morris Janowitz. It checks COI predecessor
+assignments, exact historical job titles, an unresolved unfamiliar grade,
+museum and university employment, a government-to-Army-to-OSS pathway, and
+student history kept outside employer analytics.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -155,8 +160,8 @@ on the tested routes and viewports.
 
 The Batch 010 regression run initially lost its local preview server between
 viewport projects under four-worker concurrency. All resulting failures were
-connection refusals. The complete Batch 022 suite ran against one isolated
-preview with four browser workers and passed 105 / 105; no assertion or axe
+connection refusals. The complete Batch 023 suite ran against one isolated
+preview with four browser workers and passed 108 / 108; no assertion or axe
 failure remained.
 
 The in-app browser review also confirmed the phone homepage and personnel

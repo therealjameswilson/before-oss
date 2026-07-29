@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 188 people with a non-planned attempt | 23,941 person entities | 0.7853% |
-| Verified-affiliation coverage | 104 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.4344% |
-| Verified-employer coverage | 70 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.2924% |
-| Archival-review coverage | 115 people with an individual file-access/priority assessment | 23,941 person entities | 0.4803% |
+| Research-attempt coverage | 193 people with a non-planned attempt | 23,941 person entities | 0.8061% |
+| Verified-affiliation coverage | 109 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.4553% |
+| Verified-employer coverage | 75 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3133% |
+| Archival-review coverage | 120 people with an individual file-access/priority assessment | 23,941 person entities | 0.5012% |
 
 ## Extraction and identity
 
@@ -21,11 +21,11 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Possible duplicate groups: 203
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 7
-- Identity status `high_confidence`: 141
+- Identity status `confirmed`: 8
+- Identity status `high_confidence`: 145
 - Identity status `probable`: 4
 - Identity status `ambiguous`: 1
-- Identity status `unresolved`: 23,788
+- Identity status `unresolved`: 23,783
 
 ## Personnel categories
 
@@ -43,14 +43,14 @@ Commissioned classification: 2,095 yes; 4,954 no; 16,892 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,753
+- `not_started`: 23,748
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 5
 - `documented_prewar_employer_found`: 7
 - `occupation_only_found`: 2
 - `requires_archival_review`: 8
-- `verified_employer_found`: 80
+- `verified_employer_found`: 85
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -59,12 +59,12 @@ Commissioned classification: 2,095 yes; 4,954 no; 16,892 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Source-reviewed official-web attempts: 107, including three identity resolutions
+- Source-reviewed official-web attempts: 112, including three identity resolutions
   supported by Library of Congress name-authority records
-- Total recorded attempts/plans: 1,179
+- Total recorded attempts/plans: 1,184
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- Reviewed people with published evidence: 115 (Mort S. Bobrow, Morris Berg,
+- Reviewed people with published evidence: 120 (Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
   Ford, Christian J. Lambertsen, Alfonso Rodriguez, Sidney L. Bartlett, Rene
@@ -94,13 +94,14 @@ Commissioned classification: 2,095 yes; 4,954 no; 16,892 indeterminate.
   Hartshorne, Arthur H. Robinson, Edward A. Ackerman, Emile Despres, Carl
   Kaysen, Edward S. Mason, Geroid T. Robinson, Barrington Moore Jr., Calvin B.
   Hoover, Chandler Morse, Sidney S. Alexander, Gregory Bateson, John F. Embree,
-  Ralph Linton, Rhoda Métraux, and Raymond Kennedy)
-- Published affiliations: 216
-- Published claims: 337 (48 confirmed, 261 high, 28 medium)
-- Citation records: 269; public source export: 266; unique source documents: 248
-- Canonical organizations: 146 private and 145 public
+  Ralph Linton, Rhoda Métraux, Raymond Kennedy, James Phinney Baxter III, Saul
+  K. Padover, C. Martin Wilbur, Charles F. Remer, and Morris Janowitz)
+- Published affiliations: 225
+- Published claims: 351 (50 confirmed, 273 high, 28 medium)
+- Citation records: 284; public source export: 281; unique source documents: 263
+- Canonical organizations: 150 private and 149 public
 - Conflicts: 0
-- NARA pull-list rows: 23,898
+- NARA pull-list rows: 23,893
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -154,6 +155,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_scholars-and-
 python3 -m oss_research import-reviewed-evidence research/evidence_economists-and-cartographers_batch-020_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_economic-and-historical-analysis_batch-021_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_anthropologists-and-wartime-analysis_batch-022_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_research-and-analysis-predecessor-pathways_batch-023_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

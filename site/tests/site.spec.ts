@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/70 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/75 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 104 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 109 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2100,4 +2100,94 @@ test("Batch 022 separates museum, university, research, and student pathways", a
         .getByRole("heading", { name: "Yale University", exact: true }),
     ).toBeVisible();
   }
+});
+
+test("Batch 023 separates civilian employers from COI and Army predecessor assignments", async ({
+  page,
+}) => {
+  await page.goto("./people/0481f178-4ac5-565a-8a7a-09733f86f6fa/");
+  await expect(
+    page.getByRole("heading", { name: "James P Baxter III", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Williams College", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("WO C", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText("unknown or indeterminate", { exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/6c04259d-0aaf-5c19-87e9-6fb1d7000112/");
+  await expect(
+    page.getByRole("heading", { name: "Saul K Padover", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", {
+          name: "United States Department of the Interior",
+          exact: true,
+        }),
+    ).toBeVisible();
+  }
+  await expect(page.getByText("Assistant to the Secretary", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/988b1615-a74b-5020-a82d-cbd8831f21c9/");
+  await expect(
+    page.getByRole("heading", { name: "C. Martin Wilbur", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Field Museum of Natural History", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/2da25f0d-1148-57f0-b356-810e445c281b/");
+  await expect(
+    page.getByRole("heading", { name: "Charles F Remer", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Michigan", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "NAID 2184121", exact: true })).toHaveAttribute(
+    "href",
+    "https://catalog.archives.gov/id/2184121",
+  );
+
+  await page.goto("./people/b5293d31-eab2-5557-a664-0c2097017949/");
+  await expect(
+    page.getByRole("heading", { name: "Morris Janowitz", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "United States Department of Justice", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "New York University", exact: true }),
+  ).toBeVisible();
 });
