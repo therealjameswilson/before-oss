@@ -79,3 +79,47 @@ test("the confirmed McWilliams profile separates immediate and civilian affiliat
     page.getByRole("link", { name: "NAID 2180661", exact: true }),
   ).toHaveAttribute("href", "https://catalog.archives.gov/id/2180661");
 });
+
+test("the reviewed NARA batch preserves each person's distinct pre-OSS pathway", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      name: "Ralph J Bunche",
+      immediate: "Howard University",
+      catalogId: "2168596",
+    },
+    {
+      id: "6e014675-a236-513e-94cc-fadb5d986aa9",
+      name: "William J Casey",
+      immediate: "Board of Economic Warfare",
+      catalogId: "2169187",
+    },
+    {
+      id: "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      name: "Arthur J Goldberg",
+      immediate: "Self-employed",
+      catalogId: "2174048",
+    },
+    {
+      id: "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      name: "Sterling W Hayden",
+      immediate: "United States Marine Corps Reserve",
+      catalogId: "2175283",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.immediate, exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: `NAID ${profile.catalogId}`, exact: true }),
+    ).toHaveAttribute("href", `https://catalog.archives.gov/id/${profile.catalogId}`);
+  }
+});

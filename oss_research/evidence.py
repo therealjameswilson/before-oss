@@ -265,6 +265,35 @@ class PersonUpdateInput(StrictModel):
     ] | None = None
 
 
+class ResearchAttemptInput(StrictModel):
+    key: str = Field(min_length=1)
+    person_id: str = Field(min_length=1)
+    source_adapter: str = Field(min_length=1)
+    query_text: str | None = None
+    query_variant_type: str | None = None
+    started_at: str = Field(min_length=1)
+    completed_at: str | None = None
+    outcome: Literal[
+        "planned",
+        "searched",
+        "candidate_found",
+        "source_reviewed",
+        "candidate_rejected",
+        "no_result",
+        "blocked",
+        "error",
+        "skipped_budget",
+    ]
+    sources_reviewed: int = Field(default=0, ge=0)
+    candidate_sources_rejected: int = Field(default=0, ge=0)
+    rejection_reasons: str | None = None
+    research_notes: str | None = None
+    next_action: str | None = None
+    last_error_redacted: str | None = None
+    attempt_number: int = Field(gt=0)
+    research_agent_version: str = Field(min_length=1)
+
+
 class EvidenceBundle(StrictModel):
     bundle_version: str = Field(min_length=1)
     reviewer: str = Field(min_length=1)
@@ -273,6 +302,7 @@ class EvidenceBundle(StrictModel):
     affiliations: list[AffiliationInput] = Field(default_factory=list)
     claims: list[ClaimInput] = Field(default_factory=list)
     person_updates: list[PersonUpdateInput] = Field(default_factory=list)
+    research_attempts: list[ResearchAttemptInput] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def validate_keys(self) -> EvidenceBundle:
@@ -281,6 +311,7 @@ class EvidenceBundle(StrictModel):
             ("organization", self.organizations),
             ("affiliation", self.affiliations),
             ("claim", self.claims),
+            ("research attempt", self.research_attempts),
         ):
             keys = [value.key for value in values]
             if len(keys) != len(set(keys)):
@@ -323,6 +354,7 @@ def import_reviewed_evidence(
         *(value.person_id for value in bundle.affiliations),
         *(value.person_id for value in bundle.claims),
         *(value.person_id for value in bundle.person_updates),
+        *(value.person_id for value in bundle.research_attempts),
     }
     referenced_people_params = tuple(sorted(referenced_people))
     people = {
@@ -545,6 +577,59 @@ def import_reviewed_evidence(
                         link.excerpt_override,
                     ),
                 )
+        for attempt in bundle.research_attempts:
+            attempt_id = _stable_id("research-attempt", attempt.key)
+            request_fingerprint = _stable_id(
+                "research-attempt-fingerprint",
+                attempt.key,
+            )
+            connection.execute(
+                """
+                INSERT INTO research_attempts(
+                    research_attempt_id, person_id, pipeline_run_id,
+                    source_adapter, query_text, query_variant_type,
+                    request_fingerprint, started_at, completed_at, outcome,
+                    sources_reviewed, candidate_sources_rejected,
+                    rejection_reasons, research_notes, next_action,
+                    last_error_redacted, attempt_number, research_agent_version
+                ) VALUES (?, ?, NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(research_attempt_id) DO UPDATE SET
+                    source_adapter=excluded.source_adapter,
+                    query_text=excluded.query_text,
+                    query_variant_type=excluded.query_variant_type,
+                    request_fingerprint=excluded.request_fingerprint,
+                    started_at=excluded.started_at,
+                    completed_at=excluded.completed_at,
+                    outcome=excluded.outcome,
+                    sources_reviewed=excluded.sources_reviewed,
+                    candidate_sources_rejected=excluded.candidate_sources_rejected,
+                    rejection_reasons=excluded.rejection_reasons,
+                    research_notes=excluded.research_notes,
+                    next_action=excluded.next_action,
+                    last_error_redacted=excluded.last_error_redacted,
+                    attempt_number=excluded.attempt_number,
+                    research_agent_version=excluded.research_agent_version
+                """,
+                (
+                    attempt_id,
+                    attempt.person_id,
+                    attempt.source_adapter,
+                    attempt.query_text,
+                    attempt.query_variant_type,
+                    request_fingerprint,
+                    attempt.started_at,
+                    attempt.completed_at,
+                    attempt.outcome,
+                    attempt.sources_reviewed,
+                    attempt.candidate_sources_rejected,
+                    attempt.rejection_reasons,
+                    attempt.research_notes,
+                    attempt.next_action,
+                    attempt.last_error_redacted,
+                    attempt.attempt_number,
+                    attempt.research_agent_version,
+                ),
+            )
         for update in bundle.person_updates:
             current = connection.execute(
                 """
@@ -711,6 +796,29 @@ def import_reviewed_evidence(
                     update.person_id,
                 ),
             )
+        for person_id in sorted(
+            {attempt.person_id for attempt in bundle.research_attempts}
+        ):
+            attempt_count = connection.execute(
+                "SELECT COUNT(*) FROM research_attempts WHERE person_id=?",
+                (person_id,),
+            ).fetchone()[0]
+            connection.execute(
+                """
+                UPDATE person_entities
+                SET research_attempt_number=?, updated_at=?
+                WHERE person_id=?
+                """,
+                (attempt_count, now, person_id),
+            )
+            connection.execute(
+                """
+                UPDATE research_queue
+                SET attempts=?, updated_at=?
+                WHERE person_id=?
+                """,
+                (attempt_count, now, person_id),
+            )
     return {
         "sources": len(bundle.sources),
         "organizations": len(bundle.organizations),
@@ -718,4 +826,5 @@ def import_reviewed_evidence(
         "claims": len(bundle.claims),
         "claim_source_links": sum(len(value.sources) for value in bundle.claims),
         "person_updates": len(bundle.person_updates),
+        "research_attempts": len(bundle.research_attempts),
     }

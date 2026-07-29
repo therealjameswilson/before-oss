@@ -123,6 +123,23 @@ class ReviewedEvidenceTests(unittest.TestCase):
                     "archival_review_priority": "not_required",
                 }
             ],
+            "research_attempts": [
+                {
+                    "key": "attempt-1",
+                    "person_id": "person-1",
+                    "source_adapter": "reviewed_archive",
+                    "query_text": "https://example.test/source",
+                    "query_variant_type": "direct_archival_file_review",
+                    "started_at": "2026-07-29T00:00:00+00:00",
+                    "completed_at": "2026-07-29T01:00:00+00:00",
+                    "outcome": "source_reviewed",
+                    "sources_reviewed": 1,
+                    "research_notes": "The complete file was reviewed.",
+                    "next_action": "No additional action is currently required.",
+                    "attempt_number": 1,
+                    "research_agent_version": "before-oss/test",
+                }
+            ],
         }
 
     def test_import_is_idempotent(self) -> None:
@@ -146,6 +163,21 @@ class ReviewedEvidenceTests(unittest.TestCase):
             self.connection.execute("SELECT COUNT(*) FROM claims").fetchone()[0],
             1,
         )
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT COUNT(*) FROM research_attempts"
+            ).fetchone()[0],
+            1,
+        )
+        attempt = self.connection.execute(
+            """
+            SELECT outcome, sources_reviewed, request_fingerprint
+            FROM research_attempts
+            """
+        ).fetchone()
+        self.assertEqual(attempt["outcome"], "source_reviewed")
+        self.assertEqual(attempt["sources_reviewed"], 1)
+        self.assertTrue(attempt["request_fingerprint"])
         person = self.connection.execute(
             """
             SELECT identity_status, identity_evidence, name_variants_json,
@@ -177,6 +209,18 @@ class ReviewedEvidenceTests(unittest.TestCase):
         self.assertEqual(person["personnel_file_reviewed"], 1)
         self.assertEqual(person["nara_catalog_id"], "12345")
         self.assertEqual(person["archival_review_priority"], "not_required")
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT research_attempt_number FROM person_entities"
+            ).fetchone()[0],
+            1,
+        )
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT attempts FROM research_queue"
+            ).fetchone()[0],
+            1,
+        )
 
         link = self.connection.execute(
             "SELECT link_status, evidence, manual_review_required FROM person_source_links"

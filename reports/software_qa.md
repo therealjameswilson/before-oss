@@ -5,18 +5,18 @@ Run: 2026-07-29 UTC
 - Python unit tests: **27 / 27 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **23,957 pages**
-- Internal link check: **23,957 HTML files passed**
-- Browser and accessibility suite: **42 / 42 passed**
+- Static production build: **23,972 pages**
+- Internal link check: **23,972 HTML files passed**
+- Browser and accessibility suite: **45 / 45 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **4**
-- Published, qualified affiliations: **9**
-- Published claims: **12**
+- Reviewed public sources: **8**
+- Published, qualified affiliations: **25**
+- Published claims: **35**
 - GitHub Actions test workflow
   [30424573455](https://github.com/therealjameswilson/before-oss/actions/runs/30424573455)
   for research release `a3a707e`: **passed**

@@ -1,0 +1,1241 @@
+{
+  "bundle_version": "reviewed-personnel-file-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+      "stable_url": "https://catalog.archives.gov/id/2168596",
+      "archival_identifier": "NAID 2168596; RG 226, Entry A1-224; Box 92",
+      "title": "Bunche, Ralph — OSS Personnel File",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1941-1945",
+      "locator": "Digitized personnel-file selection; PDF pages 1 and 24-27",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Personnel Files of the Office of Strategic Services, Record Group 226",
+      "document_number": "Bunche_Ralph.pdf",
+      "rights_notes": "NARA PDF https://nara-media-001.s3.amazonaws.com/arcmedia/oss/Bunche_Ralph.pdf; 51 pages; 78,234,310 bytes; SHA-256 b345c88840420b5235e7ba081e18864c55a0f6ed59bee31485cc409c0699df77. The PDF introduction labels the file complete, while NARA's collection page says only Julia Child's selected file is complete; this project treats it as digitized selected material."
+    },
+    {
+      "key": "nara-oss-personnel-file-casey-william-j-naid-2169187",
+      "stable_url": "https://catalog.archives.gov/id/2169187",
+      "archival_identifier": "NAID 2169187; RG 226, Entry A1-224; Box 112",
+      "title": "Casey, William J. — OSS Personnel File",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1941-1945",
+      "locator": "Digitized extract; PDF pages 1 and 8-11",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Personnel Files of the Office of Strategic Services, Record Group 226",
+      "document_number": "Casey_William_J.pdf",
+      "rights_notes": "NARA PDF https://nara-media-001.s3.amazonaws.com/arcmedia/oss/Casey_William_J.pdf; 46 pages; 138,445,287 bytes; SHA-256 12b3acf13d71503b1555f730b6b84bb699896cf2a46db0b93a8cc9a4c988f0a7. NARA labels this an extract from the personnel file."
+    },
+    {
+      "key": "nara-oss-personnel-file-goldberg-arthur-j-naid-2174048",
+      "stable_url": "https://catalog.archives.gov/id/2174048",
+      "archival_identifier": "NAID 2174048; RG 226, Entry A1-224; Box 279",
+      "title": "Goldberg, Arthur J. — OSS Personnel File",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1941-1945",
+      "locator": "Digitized personnel-file selection; PDF pages 1 and 21-22",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Personnel Files of the Office of Strategic Services, Record Group 226",
+      "document_number": "Goldberg_Arthur.pdf",
+      "rights_notes": "NARA PDF https://nara-media-001.s3.amazonaws.com/arcmedia/oss/Goldberg_Arthur.pdf; 46 pages; 46,920,770 bytes; SHA-256 dfda78854a11cbf1eb833a4caaff32ea69577872f32388996c299d8be690ec13. The PDF introduction labels the file complete, while NARA's collection page says only Julia Child's selected file is complete; this project treats it as digitized selected material."
+    },
+    {
+      "key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+      "stable_url": "https://catalog.archives.gov/id/2175283",
+      "archival_identifier": "NAID 2175283; RG 226, Entry A1-224; Boxes 308 and 320",
+      "title": "Hayden, Sterling [Hamilton, John] — OSS Personnel File",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1941-1945",
+      "locator": "Digitized personnel-file selection; PDF pages 1 and 9-12",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Personnel Files of the Office of Strategic Services, Record Group 226",
+      "document_number": "Hayden_Sterling_Hamilton_John_Capt.pdf",
+      "rights_notes": "NARA PDF https://nara-media-001.s3.amazonaws.com/arcmedia/oss/Hayden_Sterling_Hamilton_John_Capt.pdf; 87 pages; 150,098,541 bytes; SHA-256 4fd5ab152bd7c00c15d0152a7ee26c314aadd916f5916d9cdd239959af6416bd. The PDF introduction labels the file complete, while NARA's collection page says only Julia Child's selected file is complete; this project treats it as digitized selected material."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "howard-university",
+      "canonical_name": "Howard University",
+      "historical_name": "Howard University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The personnel application identifies Bunche as Professor and Head of the Department of Political Science and records several leave periods."
+    },
+    {
+      "key": "carnegie-corporation-of-new-york",
+      "canonical_name": "Carnegie Corporation of New York",
+      "historical_name": "Carnegie Corporation of N.Y.",
+      "aliases": [
+        "Carnegie Corporation of N.Y."
+      ],
+      "organization_type": "philanthropic foundation",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States"
+    },
+    {
+      "key": "social-science-research-council",
+      "canonical_name": "Social Science Research Council",
+      "historical_name": "Social Science Research Council",
+      "aliases": [
+        "SSRC"
+      ],
+      "organization_type": "research organization",
+      "sector": "academia_and_research",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States"
+    },
+    {
+      "key": "american-friends-service-committee",
+      "canonical_name": "American Friends Service Committee",
+      "historical_name": "American Friends Service Comm.",
+      "aliases": [
+        "AFSC"
+      ],
+      "organization_type": "religious service organization",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States"
+    },
+    {
+      "key": "julius-rosenwald-fund",
+      "canonical_name": "Julius Rosenwald Fund",
+      "historical_name": "Julius Rosenwald Fund",
+      "aliases": [
+        "Rosenwald Fund"
+      ],
+      "organization_type": "philanthropic foundation",
+      "sector": "labor_nonprofit_and_religion",
+      "country": "United States"
+    },
+    {
+      "key": "board-of-economic-warfare",
+      "canonical_name": "Board of Economic Warfare",
+      "historical_name": "Board of Economic Warfare",
+      "aliases": [
+        "BEW"
+      ],
+      "organization_type": "federal wartime agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1943"
+    },
+    {
+      "key": "research-institute-of-america",
+      "canonical_name": "Research Institute of America",
+      "historical_name": "Research Institute of America",
+      "aliases": [
+        "RIA"
+      ],
+      "organization_type": "business research and information service",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States"
+    },
+    {
+      "key": "united-states-naval-reserve",
+      "canonical_name": "United States Naval Reserve",
+      "historical_name": "U.S. Naval Reserve",
+      "aliases": [
+        "USNR"
+      ],
+      "organization_type": "naval reserve component",
+      "sector": "military",
+      "country": "United States"
+    },
+    {
+      "key": "baecker-casey-doran-and-siegel",
+      "canonical_name": "Baecker, Casey, Doran and Siegel",
+      "historical_name": "Baecker, Casey, Doran and Siegel",
+      "aliases": [],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Firm name is transcribed from Casey's typed personnel history; no successor relationship is inferred."
+    },
+    {
+      "key": "self-employed",
+      "canonical_name": "Self-employed",
+      "historical_name": "Self-employed",
+      "aliases": [
+        "Self"
+      ],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "country": "United States",
+      "normalization_notes": "Roles remain on person-specific affiliations; this record does not imply a shared employer."
+    },
+    {
+      "key": "pritzker-and-pritzker",
+      "canonical_name": "Pritzker & Pritzker",
+      "historical_name": "Pritzker & Pritzker",
+      "aliases": [
+        "Pritzker and Pritzker"
+      ],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States"
+    },
+    {
+      "key": "kamfner-and-halligan",
+      "canonical_name": "Kamfner & Halligan",
+      "historical_name": "Kamfner & Halligan",
+      "aliases": [
+        "Kamfner and Halligan"
+      ],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "Historical firm spelling is preserved exactly as typed in Goldberg's personnel application."
+    },
+    {
+      "key": "united-states-marine-corps-reserve",
+      "canonical_name": "United States Marine Corps Reserve",
+      "historical_name": "U.S.M.C.R.",
+      "aliases": [
+        "USMCR",
+        "Marine Corps Reserve"
+      ],
+      "organization_type": "military reserve component",
+      "sector": "military",
+      "country": "United States"
+    },
+    {
+      "key": "irving-johnson",
+      "canonical_name": "Irving Johnson",
+      "historical_name": "Irving Johnson",
+      "aliases": [],
+      "organization_type": "individual maritime employer",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "Recorded as Hayden's employer on the personnel form; no corporate entity is inferred."
+    },
+    {
+      "key": "w-b-robinson-jr",
+      "canonical_name": "W. B. Robinson, Jr.",
+      "historical_name": "W. B. Robinson, Jr.",
+      "aliases": [],
+      "organization_type": "individual maritime employer",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "Recorded as Hayden's employer on the personnel form; no corporate entity is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "ralph-bunche-howard-university",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "organization_key": "howard-university",
+      "organization_name_as_found": "Howard University",
+      "role_title": "Professor and Head of the Department of Political Science",
+      "occupation": "Professor of political science",
+      "relationship_type": "employment",
+      "start_date": "1928-09",
+      "end_date": null,
+      "date_precision": "month; source says present and lists several leave periods",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The application says Bunche remained a Howard professor while on leave in 1941; NARA says he joined COI before Pearl Harbor. The exact transfer date is not shown in the digitized selection."
+    },
+    {
+      "key": "ralph-bunche-carnegie-corporation",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "organization_key": "carnegie-corporation-of-new-york",
+      "organization_name_as_found": "Carnegie Corporation of N.Y.",
+      "role_title": "Staff member and research supervisor",
+      "occupation": "Research supervisor",
+      "relationship_type": "employment",
+      "start_date": "1939-06",
+      "end_date": "1940-09",
+      "date_precision": "month",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Bunche directed a survey staff and left when the survey was completed."
+    },
+    {
+      "key": "ralph-bunche-social-science-research-council",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "organization_key": "social-science-research-council",
+      "organization_name_as_found": "Social Science Research Council",
+      "role_title": "Postdoctoral Fellow",
+      "occupation": "Research fellow",
+      "relationship_type": "employment",
+      "start_date": "1936-09",
+      "end_date": "1938-09",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The file describes comparative colonial-administration research in Europe, Africa, Malaya, and the Netherlands East Indies."
+    },
+    {
+      "key": "ralph-bunche-american-friends-service-committee",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "organization_key": "american-friends-service-committee",
+      "organization_name_as_found": "American Friends Service Comm.",
+      "role_title": "Co-Director, Institute of Race Relations",
+      "occupation": "Institute co-director",
+      "relationship_type": "employment",
+      "start_date": "1936-05",
+      "end_date": "1936-08",
+      "date_precision": "month",
+      "city": "Swarthmore",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The application says the contract ended after the summer institute."
+    },
+    {
+      "key": "ralph-bunche-julius-rosenwald-fund",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "organization_key": "julius-rosenwald-fund",
+      "organization_name_as_found": "Julius Rosenwald Fund",
+      "role_title": "Travelling Fellow",
+      "occupation": "Research fellow",
+      "relationship_type": "employment",
+      "start_date": "1932-06",
+      "end_date": "1933-06",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The continuation sheet describes library and field research in Europe, West Africa, and North Africa."
+    },
+    {
+      "key": "william-casey-board-of-economic-warfare",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "organization_key": "board-of-economic-warfare",
+      "organization_name_as_found": "Board of Economic Warfare",
+      "role_title": "Acting Chief, Analysis Section, Air Transport Division",
+      "occupation": "Government research and planning official",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-02",
+      "end_date": "1943-01",
+      "date_precision": "month",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "NARA's file introduction says Casey joined OSS in 1943 and came from BEW; the personnel history says he completed this assignment."
+    },
+    {
+      "key": "william-casey-research-institute-of-america",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "organization_key": "research-institute-of-america",
+      "organization_name_as_found": "Research Institute of America",
+      "role_title": "Chairman, Board of Editors",
+      "occupation": "Editorial director",
+      "relationship_type": "employment",
+      "start_date": "1938-04",
+      "end_date": "1943-05",
+      "date_precision": "month",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The chronology says Casey left for military service. A financial section says the institute continued paying 20 percent of his salary during his government assignment."
+    },
+    {
+      "key": "william-casey-united-states-naval-reserve",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "organization_key": "united-states-naval-reserve",
+      "organization_name_as_found": "U.S. Naval Reserve",
+      "role_title": "Lieutenant (junior grade)",
+      "occupation": "Naval officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-06",
+      "end_date": null,
+      "date_precision": "month; end not supplied on the reviewed form",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The military-service section identifies Casey as a commissioned U.S. Naval Reserve lieutenant (junior grade)."
+    },
+    {
+      "key": "william-casey-baecker-casey-doran-siegel",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "organization_key": "baecker-casey-doran-and-siegel",
+      "organization_name_as_found": "Baecker, Casey, Doran and Siegel",
+      "role_title": "Law partner",
+      "occupation": "Attorney",
+      "relationship_type": "employment",
+      "start_date": "1938-01",
+      "end_date": "1942-01",
+      "date_precision": "month",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The form says Casey left the partnership to work full-time at the Research Institute of America."
+    },
+    {
+      "key": "arthur-goldberg-self-employed-law-practice",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "organization_key": "self-employed",
+      "organization_name_as_found": "Self-employed",
+      "role_title": "Counselor and attorney-at-law",
+      "occupation": "Attorney",
+      "relationship_type": "self_employment",
+      "start_date": "1933-11",
+      "end_date": "1942-05",
+      "date_precision": "month",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Goldberg's employment history explicitly gives his reason for leaving as joining OSS."
+    },
+    {
+      "key": "arthur-goldberg-pritzker-and-pritzker",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "organization_key": "pritzker-and-pritzker",
+      "organization_name_as_found": "Pritzker & Pritzker",
+      "role_title": "Counselor and attorney-at-law",
+      "occupation": "Attorney",
+      "relationship_type": "employment",
+      "start_date": "1931-05",
+      "end_date": "1933-11",
+      "date_precision": "month",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The personnel history says Goldberg left to open his own law office."
+    },
+    {
+      "key": "arthur-goldberg-kamfner-and-halligan",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "organization_key": "kamfner-and-halligan",
+      "organization_name_as_found": "Kamfner & Halligan",
+      "role_title": "Law clerk and lawyer",
+      "occupation": "Law clerk and attorney",
+      "relationship_type": "employment",
+      "start_date": "1927-08",
+      "end_date": "1931-05",
+      "date_precision": "month",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Goldberg worked first as a law clerk and then as a lawyer after admission to the bar in 1929."
+    },
+    {
+      "key": "sterling-hayden-united-states-marine-corps-reserve",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "organization_key": "united-states-marine-corps-reserve",
+      "organization_name_as_found": "U.S.M.C.R.",
+      "role_title": "First Lieutenant",
+      "occupation": "Marine Corps officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-10-26",
+      "end_date": null,
+      "date_precision": "day for start; end not supplied on the reviewed form",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "NARA's introduction says Hayden left the Marine Corps Reserve to join OSS anonymously as John Hamilton; his form gives the rank First Lieutenant."
+    },
+    {
+      "key": "sterling-hayden-self-employed-shipmaster",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "organization_key": "self-employed",
+      "organization_name_as_found": "Self",
+      "role_title": "Shipmaster",
+      "occupation": "Shipmaster",
+      "relationship_type": "self_employment",
+      "start_date": "1942-03",
+      "end_date": "1942-10",
+      "date_precision": "month",
+      "city": "South Norwalk",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Hayden's chronology says he operated a sailing vessel and left this self-employment to enlist in the Marine Corps Reserve."
+    },
+    {
+      "key": "sterling-hayden-irving-johnson",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "organization_key": "irving-johnson",
+      "organization_name_as_found": "Irving Johnson",
+      "role_title": "Mate",
+      "occupation": "Sailor",
+      "relationship_type": "employment",
+      "start_date": "1936-03",
+      "end_date": "1938-09",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The personnel history identifies maritime employment as mate and says Hayden left when the voyage ended."
+    },
+    {
+      "key": "sterling-hayden-w-b-robinson-jr",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "organization_key": "w-b-robinson-jr",
+      "organization_name_as_found": "W. B. Robinson, Jr.",
+      "role_title": "Shipmaster",
+      "occupation": "Shipmaster",
+      "relationship_type": "employment",
+      "start_date": "1938-09",
+      "end_date": "1939-04",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The personnel history identifies Hayden as a shipmaster and says he left when the voyage ended."
+    }
+  ],
+  "claims": [
+    {
+      "key": "ralph-bunche-identity",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Ralph J Bunche is Ralph Johnson Bunche, whose OSS personnel file is cataloged as NAID 2168596.",
+      "evidence_excerpt": "Name: Ralph BUNCHE",
+      "evidence_paraphrase": "The direct file has the same name and Box 92 as the index row and gives his full middle name as Johnson.",
+      "identity_match_assessment": "Exact indexed name, matching archive box, and direct personnel-file linkage.",
+      "temporal_assessment": "The file is contemporaneous OSS personnel documentation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "A direct file-unit linkage is sufficient to confirm the identity.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF pages 1 and 24"
+        }
+      ]
+    },
+    {
+      "key": "ralph-bunche-immediate-howard",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": "ralph-bunche-howard-university",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Ralph Bunche's best-supported immediate pre-COI/OSS civilian affiliation was Howard University, where he remained a professor while on leave.",
+      "evidence_excerpt": "Professor & Head of Dept. of Political Science",
+      "evidence_paraphrase": "His application lists Howard from September 1928 to present and records a 1941 leave; NARA says he joined COI before Pearl Harbor.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Strongly date-bounded but not an explicit transfer statement; the exact COI recruitment date is absent.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Howard is not inferred from education; it is explicitly listed as employment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF pages 1 and 25"
+        }
+      ]
+    },
+    {
+      "key": "ralph-bunche-last-civilian-howard",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": "ralph-bunche-howard-university",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Howard University is the last documented civilian employer in Ralph Bunche's chronology before his COI/OSS work.",
+      "evidence_excerpt": "From Sept. 1928 to present",
+      "evidence_paraphrase": "The employment record continued his Howard position through successive leaves, including one beginning in 1941.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Strongly date-bounded; no later private or academic employer appears before COI.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a civilian-employer claim distinct from the immediate wartime-affiliation question.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF page 25"
+        }
+      ]
+    },
+    {
+      "key": "ralph-bunche-carnegie-corporation-claim",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": "ralph-bunche-carnegie-corporation",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ralph Bunche served as a staff member and research supervisor for the Carnegie Corporation of New York from June 1939 to September 1940.",
+      "evidence_excerpt": "Staff member and research supervisor",
+      "evidence_paraphrase": "His personnel application names the organization, role, dates, duties, and completion of the survey as his reason for leaving.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly dated before COI/OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source directly identifies the employer rather than only a research topic.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF page 25"
+        }
+      ]
+    },
+    {
+      "key": "ralph-bunche-ssrc-claim",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": "ralph-bunche-social-science-research-council",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ralph Bunche was a postdoctoral fellow with the Social Science Research Council from September 1936 to September 1938.",
+      "evidence_excerpt": "Exact title of your position: Post Doctoral Fellow",
+      "evidence_paraphrase": "The direct employment history names the council, dates, title, and colonial-administration research.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly dated before COI/OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The fellowship is recorded as a documented affiliation, not silently converted from education.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF page 25"
+        }
+      ]
+    },
+    {
+      "key": "ralph-bunche-afsc-claim",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": "ralph-bunche-american-friends-service-committee",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ralph Bunche was co-director of the American Friends Service Committee's Institute of Race Relations from May through August 1936.",
+      "evidence_excerpt": "Co-Director, Institute of Race Relations",
+      "evidence_paraphrase": "The personnel history supplies the organization, role, dates, and end of contract.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly dated before COI/OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source directly states the institutional role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF page 25"
+        }
+      ]
+    },
+    {
+      "key": "ralph-bunche-rosenwald-claim",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "affiliation_key": "ralph-bunche-julius-rosenwald-fund",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ralph Bunche was a traveling fellow of the Julius Rosenwald Fund from June 1932 to June 1933.",
+      "evidence_excerpt": "Title: Travelling Fellow",
+      "evidence_paraphrase": "A typed continuation sheet identifies the fund, dates, title, duties, and completion of the project.",
+      "identity_match_assessment": "The sheet gives Bunche's full name and appears in his directly linked personnel file.",
+      "temporal_assessment": "Explicitly dated before COI/OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The date was visually checked because OCR initially misread 1933 as 1938.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-bunche-ralph-naid-2168596",
+          "locator_override": "PDF page 27"
+        }
+      ]
+    },
+    {
+      "key": "william-casey-identity",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed William J Casey is the person documented in OSS personnel file NAID 2169187.",
+      "evidence_excerpt": "Name: William J. CASEY",
+      "evidence_paraphrase": "The file introduction repeats the indexed name and Box 112.",
+      "identity_match_assessment": "Exact indexed name, matching archive box, and direct personnel-file linkage.",
+      "temporal_assessment": "The file is contemporaneous OSS personnel documentation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "A direct file-unit linkage is sufficient to confirm the identity.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-casey-william-j-naid-2169187",
+          "locator_override": "PDF page 1"
+        }
+      ]
+    },
+    {
+      "key": "william-casey-immediate-bew",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "affiliation_key": "william-casey-board-of-economic-warfare",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "William Casey came to OSS from the Board of Economic Warfare, where he was Acting Chief of the Analysis Section in its Air Transport Division.",
+      "evidence_excerpt": "Joined OSS in 1943; came from BEW",
+      "evidence_paraphrase": "NARA explicitly describes the transfer path, and Casey's chronology supplies his BEW title and dates.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicit immediate relationship in NARA's file introduction.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "BEW is recorded as a government assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-casey-william-j-naid-2169187",
+          "locator_override": "PDF pages 1 and 10"
+        }
+      ]
+    },
+    {
+      "key": "william-casey-last-civilian-ria",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "affiliation_key": "william-casey-research-institute-of-america",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The Research Institute of America was William Casey's last documented civilian employer before military service.",
+      "evidence_excerpt": "Reasons for leaving: Military service",
+      "evidence_paraphrase": "Casey's chronology lists him as Chairman of its Board of Editors from April 1938 through May 1943.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "The source explicitly links the end of this civilian employment to military service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is kept distinct from his immediate government affiliation at BEW.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-casey-william-j-naid-2169187",
+          "locator_override": "PDF pages 9-10"
+        }
+      ]
+    },
+    {
+      "key": "william-casey-naval-reserve-claim",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "affiliation_key": "william-casey-united-states-naval-reserve",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "William Casey served as a lieutenant (junior grade) in the U.S. Naval Reserve beginning in June 1942.",
+      "evidence_excerpt": "U.S.A. U.S.N.R. Lieutenant (jg.) June 1942-present",
+      "evidence_paraphrase": "The military-service section identifies his reserve branch, commissioned rank, and start date.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Documented before his 1943 OSS entry; not treated as the civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The public claim omits personal addresses and service identifiers from the same page.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-casey-william-j-naid-2169187",
+          "locator_override": "PDF page 8"
+        }
+      ]
+    },
+    {
+      "key": "william-casey-law-firm-claim",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "affiliation_key": "william-casey-baecker-casey-doran-siegel",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "William Casey was a law partner at Baecker, Casey, Doran and Siegel from January 1938 to January 1942.",
+      "evidence_excerpt": "Title of job: Law partner",
+      "evidence_paraphrase": "The personnel history gives the firm name, dates, legal work, and his reason for leaving.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly dated before OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical firm name is preserved without inferring a successor.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-casey-william-j-naid-2169187",
+          "locator_override": "PDF page 10"
+        }
+      ]
+    },
+    {
+      "key": "arthur-goldberg-identity",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur J Goldberg is the person documented in OSS personnel file NAID 2174048.",
+      "evidence_excerpt": "Name: Arthur J. GOLDBERG",
+      "evidence_paraphrase": "The file introduction repeats the indexed name and Box 279.",
+      "identity_match_assessment": "Exact indexed name, matching archive box, and direct personnel-file linkage.",
+      "temporal_assessment": "The file is contemporaneous OSS personnel documentation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "A direct file-unit linkage is sufficient to confirm the identity.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-goldberg-arthur-j-naid-2174048",
+          "locator_override": "PDF page 1"
+        }
+      ]
+    },
+    {
+      "key": "arthur-goldberg-immediate-self-employment",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "affiliation_key": "arthur-goldberg-self-employed-law-practice",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Arthur Goldberg left his self-employed Chicago law practice to join OSS in May 1942.",
+      "evidence_excerpt": "Reason for leaving: To join OSS",
+      "evidence_paraphrase": "Goldberg's personnel history explicitly links the end of his private practice to OSS entry.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicit immediate relationship.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The employer is recorded as self-employed rather than inventing a firm.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-goldberg-arthur-j-naid-2174048",
+          "locator_override": "PDF page 21"
+        }
+      ]
+    },
+    {
+      "key": "arthur-goldberg-last-civilian-self-employment",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "affiliation_key": "arthur-goldberg-self-employed-law-practice",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Arthur Goldberg's self-employed law practice was his last documented civilian work before OSS.",
+      "evidence_excerpt": "Name of employer: Self-employed",
+      "evidence_paraphrase": "The chronology dates the practice from November 1933 to May 1942 and directly connects its end to OSS.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly the final civilian role in the chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "Immediate affiliation and last civilian work are separate claims even though they refer to one affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-goldberg-arthur-j-naid-2174048",
+          "locator_override": "PDF page 21"
+        }
+      ]
+    },
+    {
+      "key": "arthur-goldberg-pritzker-claim",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "affiliation_key": "arthur-goldberg-pritzker-and-pritzker",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Arthur Goldberg worked as a counselor and attorney at Pritzker & Pritzker from May 1931 to November 1933.",
+      "evidence_excerpt": "Name of employer: Pritzker & Pritzker",
+      "evidence_paraphrase": "The personnel history gives the firm, role, dates, duties, and departure to open his own office.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly dated before OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical firm name is preserved.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-goldberg-arthur-j-naid-2174048",
+          "locator_override": "PDF page 21"
+        }
+      ]
+    },
+    {
+      "key": "arthur-goldberg-kamfner-claim",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "affiliation_key": "arthur-goldberg-kamfner-and-halligan",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Arthur Goldberg worked for Kamfner & Halligan as a law clerk and lawyer from August 1927 to May 1931.",
+      "evidence_excerpt": "Exact title of position: Law Clerk and Lawyer",
+      "evidence_paraphrase": "The personnel history gives the firm, dates, progression after bar admission, and departure for another law firm.",
+      "identity_match_assessment": "Direct personnel file matched by exact name and box.",
+      "temporal_assessment": "Explicitly dated before OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical firm spelling is preserved exactly as typed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-goldberg-arthur-j-naid-2174048",
+          "locator_override": "PDF page 22"
+        }
+      ]
+    },
+    {
+      "key": "sterling-hayden-identity",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sterling W Hayden is Sterling Hayden, who joined OSS under the name John Hamilton.",
+      "evidence_excerpt": "Sterling HAYDEN [aka Capt. John Hamilton]",
+      "evidence_paraphrase": "The NARA introduction gives the alias and cites Boxes 308 and 320; the index row cites Box 320.",
+      "identity_match_assessment": "Exact indexed name, matching archive box, and direct personnel-file linkage.",
+      "temporal_assessment": "The file is contemporaneous OSS personnel documentation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The alias is documented rather than inferred from a biography.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+          "locator_override": "PDF page 1"
+        }
+      ]
+    },
+    {
+      "key": "sterling-hayden-immediate-usmcr",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "affiliation_key": "sterling-hayden-united-states-marine-corps-reserve",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Sterling Hayden's immediate pre-OSS affiliation was the U.S. Marine Corps Reserve.",
+      "evidence_excerpt": "Hayden left the Marine Corps Reserve to join the OSS",
+      "evidence_paraphrase": "NARA explicitly states the transfer path; his personnel form identifies his rank as First Lieutenant.",
+      "identity_match_assessment": "Direct personnel file matched by exact name, alias, and box.",
+      "temporal_assessment": "Explicit immediate relationship.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The military assignment is not mislabeled as civilian employment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+          "locator_override": "PDF pages 1 and 9"
+        }
+      ]
+    },
+    {
+      "key": "sterling-hayden-last-civilian-self",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "affiliation_key": "sterling-hayden-self-employed-shipmaster",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Sterling Hayden's last documented civilian work before Marine Corps service was self-employment as a shipmaster.",
+      "evidence_excerpt": "Reason for leaving: To enlist in U.S.M.C.R.",
+      "evidence_paraphrase": "His chronology lists self-employment operating a sailing vessel from March through October 1942.",
+      "identity_match_assessment": "Direct personnel file matched by exact name, alias, and box.",
+      "temporal_assessment": "Explicitly the final civilian role before military service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "This claim does not infer a motion-picture studio as employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+          "locator_override": "PDF page 12"
+        }
+      ]
+    },
+    {
+      "key": "sterling-hayden-screen-actor-occupation",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "affiliation_key": null,
+      "claim_type": "occupation",
+      "claim_text": "Sterling Hayden was an established screen actor before OSS service.",
+      "evidence_excerpt": "As an established screen actor",
+      "evidence_paraphrase": "NARA's introduction identifies his occupation but does not name a film studio.",
+      "identity_match_assessment": "Direct personnel file matched by exact name, alias, and box.",
+      "temporal_assessment": "The official summary explicitly places the occupation before OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The project publishes the documented occupation without inferring an employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+          "locator_override": "PDF page 1"
+        }
+      ]
+    },
+    {
+      "key": "sterling-hayden-irving-johnson-claim",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "affiliation_key": "sterling-hayden-irving-johnson",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Sterling Hayden worked for Irving Johnson as a mate from March 1936 to September 1938.",
+      "evidence_excerpt": "Employer: Irving Johnson; Title of job: Mate",
+      "evidence_paraphrase": "The personnel chronology identifies the employer, maritime role, dates, and end of voyage.",
+      "identity_match_assessment": "Direct personnel file matched by exact name, alias, and box.",
+      "temporal_assessment": "Explicitly dated before OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The individual employer is preserved without inventing a company.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+          "locator_override": "PDF page 11"
+        }
+      ]
+    },
+    {
+      "key": "sterling-hayden-robinson-claim",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "affiliation_key": "sterling-hayden-w-b-robinson-jr",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Sterling Hayden worked for W. B. Robinson, Jr. as a shipmaster from September 1938 to April 1939.",
+      "evidence_excerpt": "Title of job: Shipmaster",
+      "evidence_paraphrase": "The personnel chronology identifies the employer, role, dates, and end of voyage.",
+      "identity_match_assessment": "Direct personnel file matched by exact name, alias, and box.",
+      "temporal_assessment": "Explicitly dated before OSS service; not presented as immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "publish_qualified",
+      "match_notes": "The individual employer is preserved without inventing a company.",
+      "sources": [
+        {
+          "source_key": "nara-oss-personnel-file-hayden-sterling-naid-2175283",
+          "locator_override": "PDF page 11"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact indexed name and Box 92 match direct OSS personnel file NAID 2168596; the file supplies the full middle name Johnson.",
+      "name_variants": [
+        "Ralph Bunche",
+        "Ralph Johnson Bunche"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the original personnel file if the exact COI recruitment date and Howard leave sequence are required.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "nara_catalog_id": "2168596",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact indexed name and Box 112 match direct OSS personnel file NAID 2169187.",
+      "name_variants": [
+        "William Casey",
+        "William J. Casey"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the full personnel file if exact OSS entry and overlapping Navy, BEW, and RIA dates are required.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "nara_catalog_id": "2169187",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact indexed name and Box 279 match direct OSS personnel file NAID 2174048.",
+      "name_variants": [
+        "Arthur Goldberg",
+        "Arthur J. Goldberg"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "No additional review is required for the immediate and last-civilian claims; consult the original file for broader biography.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "nara_catalog_id": "2174048",
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact indexed name and Box 320 match direct OSS personnel file NAID 2175283; NARA documents the John Hamilton alias.",
+      "name_variants": [
+        "Sterling Hayden",
+        "John Hamilton",
+        "Captain John Hamilton"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Seek institutional evidence for Hayden's 1939-1941 screen-acting employer and inspect the full file if necessary.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "nara_catalog_id": "2175283",
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch-002-ralph-bunche-reviewed-nara-file",
+      "person_id": "0cde0770-6d7d-5642-a1d3-d3e0b94c6dfc",
+      "source_adapter": "nara_digitized_personnel_file",
+      "query_text": "https://catalog.archives.gov/id/2168596",
+      "query_variant_type": "direct_archival_file_review",
+      "started_at": "2026-07-29T03:00:00+00:00",
+      "completed_at": "2026-07-29T05:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Reviewed the official 51-page digitized NARA selection, including all-page contact sheets and visual checks of the decisive employment pages.",
+      "next_action": "Review the original personnel file if the exact COI recruitment date and Howard leave sequence are required.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-personnel-file-evidence-v1"
+    },
+    {
+      "key": "batch-002-william-casey-reviewed-nara-file",
+      "person_id": "6e014675-a236-513e-94cc-fadb5d986aa9",
+      "source_adapter": "nara_digitized_personnel_file",
+      "query_text": "https://catalog.archives.gov/id/2169187",
+      "query_variant_type": "direct_archival_file_review",
+      "started_at": "2026-07-29T03:00:00+00:00",
+      "completed_at": "2026-07-29T05:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Reviewed the official 46-page digitized NARA extract, including all-page contact sheets and visual checks of military and employment pages.",
+      "next_action": "Review the full personnel file if exact OSS entry and overlapping Navy, BEW, and RIA dates are required.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-personnel-file-evidence-v1"
+    },
+    {
+      "key": "batch-002-arthur-goldberg-reviewed-nara-file",
+      "person_id": "604d1099-bc8e-526c-a002-eeaa723c44e3",
+      "source_adapter": "nara_digitized_personnel_file",
+      "query_text": "https://catalog.archives.gov/id/2174048",
+      "query_variant_type": "direct_archival_file_review",
+      "started_at": "2026-07-29T03:00:00+00:00",
+      "completed_at": "2026-07-29T05:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Reviewed the official 46-page digitized NARA selection, including all-page contact sheets and visual checks of the complete employment chronology.",
+      "next_action": "No additional review is required for the immediate and last-civilian claims; consult the original file for broader biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-personnel-file-evidence-v1"
+    },
+    {
+      "key": "batch-002-sterling-hayden-reviewed-nara-file",
+      "person_id": "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
+      "source_adapter": "nara_digitized_personnel_file",
+      "query_text": "https://catalog.archives.gov/id/2175283",
+      "query_variant_type": "direct_archival_file_review",
+      "started_at": "2026-07-29T03:00:00+00:00",
+      "completed_at": "2026-07-29T05:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Reviewed the official 87-page digitized NARA selection, including all-page contact sheets and enhanced visual checks of handwritten military and employment pages.",
+      "next_action": "Seek institutional evidence for Hayden's 1939-1941 screen-acting employer and inspect the full file if necessary.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-personnel-file-evidence-v1"
+    }
+  ]
+}

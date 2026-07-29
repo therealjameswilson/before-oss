@@ -23,6 +23,26 @@ part of public project downloads.
 The machine-readable manifest is
 `data/provenance/source_manifest.json`.
 
+## Reviewed digitized personnel-file sources
+
+The second reviewed evidence batch used NARA's public digitized personnel-file
+selections. The PDFs are not committed or republished. Their retrieval metadata
+is preserved in
+`research/evidence_selected-nara-personnel-files_batch-002_2026-07-29.json`:
+
+| Person | Catalog | Pages | Bytes | SHA-256 |
+|---|---|---:|---:|---|
+| Ralph Bunche | <https://catalog.archives.gov/id/2168596> | 51 | 78,234,310 | `b345c88840420b5235e7ba081e18864c55a0f6ed59bee31485cc409c0699df77` |
+| William J. Casey | <https://catalog.archives.gov/id/2169187> | 46 | 138,445,287 | `12b3acf13d71503b1555f730b6b84bb699896cf2a46db0b93a8cc9a4c988f0a7` |
+| Arthur J. Goldberg | <https://catalog.archives.gov/id/2174048> | 46 | 46,920,770 | `dfda78854a11cbf1eb833a4caaff32ea69577872f32388996c299d8be690ec13` |
+| Sterling Hayden / John Hamilton | <https://catalog.archives.gov/id/2175283> | 87 | 150,098,541 | `4fd5ab152bd7c00c15d0152a7ee26c314aadd916f5916d9cdd239959af6416bd` |
+
+NARA's collection page describes these public copies as extracts or selected
+highlights and says only Julia Child's copy is complete. Several PDF
+introduction sheets use the label “complete file.” The database preserves that
+disagreement and does not treat the four downloads as substitutes for the
+original archival files.
+
 ## Official reference material
 
 - NARA OSS personnel records:
