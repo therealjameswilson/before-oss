@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 126 / 126 browser cases.**
+**PASS - 129 / 129 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-86-person employer measure is labeled separately from the 126-person broader
+88-person employer measure is labeled separately from the 131-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -179,6 +179,12 @@ Hunt Jr., and Shaw Livermore Jr. It checks government, business, military,
 fellowship, and student pathways; the visible qualification of medium-
 confidence evidence; unresolved-employer wording; archival-review routing; and
 continued full-service-number masking at all three viewport sizes.
+Batch 029 verifies William E. Fairbairn, Frank V. Huston, Edward E. Nicholas
+Jr., Vincent L. Gonzalez Jr., and Roger L. Belanger. It checks that British
+SOE, Shanghai police, U.S. military radio, university-student, and maritime
+pathways remain distinct; that a professional affiliation is not converted
+into a single employer; and that an officially documented but unnamed runner
+employer is not guessed.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -210,6 +216,12 @@ replaced two assertions for private review notes with the corresponding public
 profile language. New checks cover Paul Baran, G. E. Buxton, James R. Forgan,
 Everette H. Hunt Jr., and Shaw Livermore Jr. at all three viewport sizes. The
 final suite passed 126 / 126 with no remaining assertion or axe failure.
+
+The Batch 029 regression run initially exercised a stale production build and
+then found one assertion aimed at a private review note. The site was rebuilt,
+the assertion was changed to require the corresponding public evidence
+language, and the complete suite passed 129 / 129 with no remaining assertion
+or axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

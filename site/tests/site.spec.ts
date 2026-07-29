@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/86 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/88 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 126 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 131 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2645,6 +2645,114 @@ test("Batch 028 separates government, business, military, fellowship, and studen
     page.locator('section[aria-labelledby="civilian-employer"]'),
   ).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 029 separates SOE, police, military, maritime, student, and unnamed work pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/44112d43-06b1-5114-aa17-91a6cffb1939/");
+  await expect(
+    page.getByRole("heading", { name: "William E Fairbairn", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Special Operations Executive", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Shanghai Municipal Police", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("British A");
+
+  await page.goto("./people/789afa1d-9778-5d84-904a-0f341884f736/");
+  await expect(
+    page.getByRole("heading", { name: "Frank V Huston", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Navy", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("United States Coast Guard");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/bd3c2c04-e39d-57a9-b1ed-6e01285235e3/");
+  await expect(
+    page.getByRole("heading", { name: "Edward E Nicholas Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Signal Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "University of Illinois Urbana-Champaign",
+  );
+  await expect(page.locator("body")).toContainText("University of Chicago");
+
+  await page.goto("./people/83cada86-f7bc-557c-a378-6b9af5a5f4a1/");
+  await expect(
+    page.getByRole("heading", {
+      name: "Vincent L Gonzalez Jr.",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Merchant Marine",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Runner");
+  await expect(page.locator("body")).toContainText("unnamed employer");
+  await expect(page.locator("body")).toContainText("professional affiliation");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/3e307074-39c7-5736-8318-0203a3a813b6/");
+  await expect(
+    page.getByRole("heading", { name: "Roger L Belanger", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Air Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Instructing for Dangerous Missions",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
   );
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);

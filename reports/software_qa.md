@@ -5,12 +5,12 @@ Run: 2026-07-29 UTC
 - Python unit tests: **30 / 30 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,112 pages**
-- Internal link check: **24,112 HTML files passed**
-- Browser and accessibility suite: **126 / 126 passed**
+- Static production build: **24,119 pages**
+- Internal link check: **24,119 HTML files passed**
+- Browser and accessibility suite: **129 / 129 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`22709eabcc878fc83a2d0f815231c19103324cb14a6404a9dfa7e1721c1053b4`)
+  (`171f76ab988a7b5741235e059ec74601544e923bb3f096e98efef7ddb514946d`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,23 +19,18 @@ Run: 2026-07-29 UTC
   numbers at least six characters long: **0 full-number matches** in
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **344** public records representing **326** unique documents
-- Published, qualified affiliations: **256**
-- Published claims: **411**
+- Reviewed public sources: **350** public records representing **331** unique documents
+- Published, qualified affiliations: **266**
+- Published claims: **426**
 - Withheld low-confidence identity candidates: **2**
-- Verified-affiliation metric: **126** people with confirmed/high published
+- Verified-affiliation metric: **131** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **86** people with confirmed/high published
+- Verified-employer metric: **88** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30492777822](https://github.com/therealjameswilson/before-oss/actions/runs/30492777822)
-  for Batch 028 release `66df689`: **passed**
-- GitHub Pages deployment workflow
-  [30492777821](https://github.com/therealjameswilson/before-oss/actions/runs/30492777821)
-  for Batch 028 release `66df689`: **passed**
-- Production route and asset smoke tests: **22 / 22 returned HTTP 200 and the
-  expected content marker or row count**
+- GitHub Actions test workflow: **pending Batch 029 release**
+- GitHub Pages deployment workflow: **pending Batch 029 release**
+- Production route and asset smoke tests: **pending Batch 029 release**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -139,3 +134,9 @@ employer with a documented chronology gap; a last civilian investment-bank
 employer that is not mislabeled immediate; an Army pathway and Brown student
 history without an invented civilian employer; and a wartime Mercersburg
 student affiliation that remains qualified and routed to archival review.
+Batch 029 adds checks for an explicit British Special Operations Executive
+assignment following Shanghai Municipal Police employment; U.S. Navy, Coast
+Guard, Signal Corps, and Army Air Corps radio pathways; university attendance
+modeled as student status rather than employment; merchant-marine service kept
+as a professional affiliation rather than a guessed single employer; and an
+officially documented runner occupation whose employer remains unnamed.
