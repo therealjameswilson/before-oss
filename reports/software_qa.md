@@ -22,12 +22,12 @@ Run: 2026-07-29 UTC
 - Verified-employer metric: **20** people with confirmed/high published
   employment or self-employment evidence
 - GitHub Actions test workflow
-  [30440348982](https://github.com/therealjameswilson/before-oss/actions/runs/30440348982)
-  for metric-boundary release `935a299`: **passed**
+  [30445559371](https://github.com/therealjameswilson/before-oss/actions/runs/30445559371)
+  for Batch 009 release `cdc9090`: **passed**
 - GitHub Pages deployment workflow
-  [30440348892](https://github.com/therealjameswilson/before-oss/actions/runs/30440348892)
-  for metric-boundary release `935a299`: **passed**
-- Production route smoke tests: **14 / 14 returned HTTP 200**
+  [30445559391](https://github.com/therealjameswilson/before-oss/actions/runs/30445559391)
+  for Batch 009 release `cdc9090`: **passed**
+- Production route smoke tests: **15 / 15 returned HTTP 200**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It

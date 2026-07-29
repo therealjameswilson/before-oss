@@ -32,26 +32,29 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Pages deployment
-[30442585434](https://github.com/therealjameswilson/before-oss/actions/runs/30442585434)
-for official-pathways Batch 008 release `205c319` completed successfully.
+[30445559391](https://github.com/therealjameswilson/before-oss/actions/runs/30445559391)
+for official-pathways Batch 009 release `cdc9090` completed successfully.
 
-Live checks returned HTTP 200 for all fourteen tested targets:
+Live checks returned HTTP 200 for all fifteen tested targets:
 
 - the home page and personnel directory;
-- all ten Batch 008 profiles: Barbara J. Lauwers, Conrad F. LaGueux, Cora Du
-  Bois, Franklin P. Holcomb, James C. Luce, Jeanne H. Taylor, Sherman Kent,
-  Stanley P. Lovell, Walter C. Langer, and William L. Langer;
-- `data/stats.json`; and
-- the public personnel CSV download.
+- all ten Batch 009 profiles: William J. Donovan, Carl F. Eifler, David K.
+  Bruce, Frank G. Wisner, Franklin A. Lindsay, John A. Bross, Kermit Roosevelt
+  Jr., Samson Lane Faison, Peter M. F. Sichel, and the separately preserved
+  Peter M. Sichel index row;
+- `data/stats.json`;
+- the public personnel CSV download; and
+- the public affiliations CSV download.
 
-The live profiles preserve civilian employment, self-employment, military
-assignments, government assignments, student status, unnamed occupations, and
-the Jeanne H. Taylor identity caution as distinct evidence states. The live
-statistics report 23,978 source rows, 23,941 person entities, 110 people with
-non-planned research attempts, 32 verified-affiliation people, 14
-verified-employer people, 36 archival-review assessments, 115 published claims,
-and 62 public source records. The live CSV header contains `serial_masked` and
-no full service-number field.
+The live profiles preserve civilian employment, military and government
+assignments, medium-confidence academic employment, archival-review status, and
+the two Sichel entities' duplicate-row caution as distinct evidence states.
+The live statistics report 23,978 source rows, 23,941 person entities, 120
+people with non-planned research attempts, 39 verified-affiliation people, 20
+verified-employer people, 46 archival-review assessments, 131 published claims,
+and 81 public source records. The live affiliations download contains 94 rows.
+The live personnel CSV header contains `serial_masked` and no full
+service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
