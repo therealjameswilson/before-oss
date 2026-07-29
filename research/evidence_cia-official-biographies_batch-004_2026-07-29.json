@@ -1,0 +1,622 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-150-ford-john",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 243",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 150; Ford, John; Commander, USNR; Box 243",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full source row; the public interface masks service identifiers."
+    },
+    {
+      "key": "cia-hollywood-and-oss-2024",
+      "stable_url": "https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/",
+      "title": "Hollywood and the Office of Strategic Services",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2024-03-08",
+      "locator": "John Ford - Academy Award Winning Director; Sidney Bartlett",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "nara-oss-index-page-264-lambertsen-christian-j",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 429",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 264; Lambertsen, Christian J.; Captain; Box 429",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full source row; the public interface masks the service number."
+    },
+    {
+      "key": "cia-christian-lambertsen-scuba-2017",
+      "stable_url": "https://www.cia.gov/stories/story/christian-lambertsen-and-the-secret-story-behind-scuba/",
+      "title": "Christian Lambertsen and the Secret Story Behind Scuba",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2017-07-24",
+      "locator": "Breathing Underwater from an Early Age; Covert Swimming; OSS Maritime Unit",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional biography. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "nara-oss-index-page-397-rodriguez-alfonso",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 654",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 397; Rodriguez, Alfonso; First Lieutenant; Box 654",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full source row; the public interface masks the service number."
+    },
+    {
+      "key": "cia-glorious-amateurs-2021",
+      "stable_url": "https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/",
+      "title": "The \"Glorious Amateurs\" of OSS: A Diverse Group of Characters Who Helped Win a World War",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2021-12-03",
+      "locator": "Founding Member of CIA: Alfonso Rodriguez",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "nara-oss-index-page-25-bartlett-sidney-l",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 40",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 25; Bartlett, Sidney L.; Box 40",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The immutable source row is preserved separately."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-naval-reserve",
+      "canonical_name": "United States Naval Reserve",
+      "historical_name": "U.S. Naval Reserve",
+      "aliases": [
+        "USNR",
+        "US Navy Reserve"
+      ],
+      "organization_type": "military reserve component",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The source uses U.S. Naval Reserve and the index uses USNR."
+    },
+    {
+      "key": "university-of-pennsylvania-school-of-medicine",
+      "canonical_name": "University of Pennsylvania School of Medicine",
+      "historical_name": "University of Pennsylvania School of Medicine",
+      "aliases": [
+        "Penn medical school"
+      ],
+      "organization_type": "medical school",
+      "sector": "academia_and_research",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "Recorded as a student affiliation, not as employment."
+    },
+    {
+      "key": "ohio-chemical-and-manufacturing-company",
+      "canonical_name": "Ohio Chemical and Manufacturing Company",
+      "historical_name": "Ohio Chemical and Manufacturing Company",
+      "aliases": [],
+      "organization_type": "medical-gas and equipment manufacturer",
+      "sector": "business_and_industry",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "Historical company name is preserved exactly as supplied by the CIA biography."
+    },
+    {
+      "key": "united-states-army-g2",
+      "canonical_name": "United States Army G-2",
+      "historical_name": "Army's G-2",
+      "aliases": [
+        "Army G-2",
+        "Military Intelligence Division"
+      ],
+      "organization_type": "military intelligence staff",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The source's historical Army G-2 wording is preserved; no modern successor name is substituted."
+    },
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": [
+        "Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is preserved in the affiliation record."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-ford-united-states-naval-reserve",
+      "person_id": "7d6735a8-041f-5f74-9a6b-d59f868201d8",
+      "organization_key": "united-states-naval-reserve",
+      "organization_name_as_found": "U.S. Naval Reserve",
+      "role_title": "Lieutenant commander; leader of a reserve filmmaking unit",
+      "occupation": "Naval filmmaker",
+      "relationship_type": "military_assignment",
+      "start_date": "1934",
+      "end_date": "1941",
+      "date_precision": "commission year and unit-transfer sequence; exact OSS transfer date not stated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA history says Ford formed a Naval Reserve filmmaking unit in 1940 and that the unit transferred into OSS as the Field Photographic Branch."
+    },
+    {
+      "key": "christian-lambertsen-penn-medical-school",
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "organization_key": "university-of-pennsylvania-school-of-medicine",
+      "organization_name_as_found": "University of Pennsylvania School of Medicine",
+      "role_title": "Senior medical student",
+      "occupation": "Medical student and respiratory-physiology researcher",
+      "relationship_type": "student",
+      "end_date": "1943",
+      "date_precision": "senior year when OSS work began; exact enrollment dates not supplied",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source explicitly says Lambertsen was in his senior year of medical school when he began working for OSS. The university is not classified as his employer."
+    },
+    {
+      "key": "christian-lambertsen-ohio-chemical",
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "organization_key": "ohio-chemical-and-manufacturing-company",
+      "organization_name_as_found": "Ohio Chemical and Manufacturing Company",
+      "role_title": "Underwater breathing-apparatus developer and tester",
+      "occupation": "Medical-device researcher",
+      "relationship_type": "employment",
+      "date_precision": "summer employment before return to medical school; exact year not supplied",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "This is the only named civilian employer in the reviewed chronology before OSS, but medical-school attendance intervened and the source does not call it his final civilian job."
+    },
+    {
+      "key": "alfonso-rodriguez-army-g2",
+      "person_id": "411028ea-e6ef-5d8e-b5c2-574d65e8da21",
+      "organization_key": "united-states-army-g2",
+      "organization_name_as_found": "Army's G-2",
+      "role_title": "Military intelligence officer",
+      "occupation": "Counterintelligence specialist",
+      "relationship_type": "military_assignment",
+      "date_precision": "before OSS recruitment; exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA history states that Rodriguez spent most of his career with Army G-2 before OSS recruited him as a counterintelligence specialist."
+    },
+    {
+      "key": "sidney-bartlett-united-states-army",
+      "person_id": "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Army servicemember",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "date_precision": "entry year only; exact OSS sequence not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The CIA history says Bartlett joined the Army in 1942 and that his military career drew him into OSS circles, but it does not document an explicit transfer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-ford-identity",
+      "person_id": "7d6735a8-041f-5f74-9a6b-d59f868201d8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Commander John Ford is strongly matched to filmmaker John Ford, whose Naval Reserve filmmaking unit transferred into OSS.",
+      "evidence_excerpt": "The unit eventually transferred into the OSS",
+      "evidence_paraphrase": "The index identifies John Ford as Commander, USNR, in Box 243; the CIA history supplies the matching Naval Reserve and OSS filmmaking-unit chronology.",
+      "identity_match_assessment": "Exact name plus matching senior Naval Reserve status, specialized filmmaking work, and direct unit transfer into OSS.",
+      "temporal_assessment": "The CIA history dates the Naval Reserve commission to 1934 and unit formation to 1940 before the OSS transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The military rank and specialized unit provide identifiers beyond the otherwise common name. The personnel file remains unreviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-150-ford-john",
+          "support_type": "supports",
+          "locator_override": "PDF page 150; Commander, USNR; Box 243",
+          "excerpt_override": "Ford John Cmdr USNR … Box 243"
+        },
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "John Ford - Academy Award Winning Director"
+        }
+      ]
+    },
+    {
+      "key": "john-ford-immediate-naval-reserve",
+      "person_id": "7d6735a8-041f-5f74-9a6b-d59f868201d8",
+      "affiliation_key": "john-ford-united-states-naval-reserve",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Ford's immediate pre-OSS affiliation was a U.S. Naval Reserve filmmaking unit that transferred into the OSS Field Photographic Branch.",
+      "evidence_excerpt": "The unit eventually transferred into the OSS",
+      "evidence_paraphrase": "The CIA history explicitly traces Ford's reserve unit into the OSS Field Photographic Branch.",
+      "identity_match_assessment": "High-confidence match from exact name, matching Commander/USNR status, filmmaking specialization, and OSS unit history.",
+      "temporal_assessment": "Explicit unit transfer into OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Naval Reserve is recorded as a military assignment. No studio employer is inferred from Ford's occupation as a filmmaker.",
+      "sources": [
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "John Ford - Academy Award Winning Director"
+        }
+      ]
+    },
+    {
+      "key": "christian-lambertsen-identity",
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Christian J. Lambertsen is strongly matched to the Army and OSS officer documented in the CIA biography.",
+      "evidence_excerpt": "Dr. Lambertsen was a US Army and OSS officer",
+      "evidence_paraphrase": "The index supplies the exact full name, middle initial, Captain rank, service-number pointer, and Box 429; the CIA supplies matching Army and OSS chronology.",
+      "identity_match_assessment": "Exact distinctive full name and middle initial plus matching commissioned Army status and specialized OSS Maritime Unit work.",
+      "temporal_assessment": "The CIA chronology places medical school, civilian device development, and Army/OSS service before 1946.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-264-lambertsen-christian-j",
+          "support_type": "supports",
+          "locator_override": "PDF page 264; Captain; Box 429",
+          "excerpt_override": "Lambertsen Christian J CAPT … Box 429"
+        },
+        {
+          "source_key": "cia-christian-lambertsen-scuba-2017",
+          "support_type": "supports",
+          "locator_override": "Covert Swimming; OSS Maritime Unit"
+        }
+      ]
+    },
+    {
+      "key": "christian-lambertsen-immediate-medical-student",
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "affiliation_key": "christian-lambertsen-penn-medical-school",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Lambertsen's immediate pre-OSS status was senior medical student at the University of Pennsylvania School of Medicine.",
+      "evidence_excerpt": "in his senior year of medical school when he began working for the OSS",
+      "evidence_paraphrase": "The CIA biography explicitly describes his student status when OSS work began.",
+      "identity_match_assessment": "High-confidence match from exact distinctive full name, middle initial, Army rank, and OSS technical specialty.",
+      "temporal_assessment": "Explicitly immediate, though the source does not supply exact enrollment or OSS-entry dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The school is classified as a student affiliation, not an employer.",
+      "sources": [
+        {
+          "source_key": "cia-christian-lambertsen-scuba-2017",
+          "support_type": "supports",
+          "locator_override": "Covert Swimming"
+        }
+      ]
+    },
+    {
+      "key": "christian-lambertsen-last-civilian-ohio-chemical",
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "affiliation_key": "christian-lambertsen-ohio-chemical",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Ohio Chemical and Manufacturing Company is the probable last named civilian employer documented before Lambertsen's OSS work.",
+      "evidence_excerpt": "Christian accepted the job and began testing his device",
+      "evidence_paraphrase": "The company hired Lambertsen to develop and test his breathing apparatus; he then returned to medical school before OSS work began.",
+      "identity_match_assessment": "High-confidence match from exact distinctive full name, middle initial, Army rank, and OSS technical specialty.",
+      "temporal_assessment": "Documented pre-OSS employment and the last named civilian employer in the reviewed source, with intervening student status and no explicit final-employer statement.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The claim is visibly qualified and excluded from confirmed/high default employer analytics.",
+      "sources": [
+        {
+          "source_key": "cia-christian-lambertsen-scuba-2017",
+          "support_type": "supports",
+          "locator_override": "Breathing Underwater from an Early Age"
+        }
+      ]
+    },
+    {
+      "key": "alfonso-rodriguez-identity",
+      "person_id": "411028ea-e6ef-5d8e-b5c2-574d65e8da21",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant Alfonso Rodriguez is strongly matched to the Army G-2 officer whom the CIA identifies as an OSS counterintelligence specialist.",
+      "evidence_excerpt": "Alfonso Rodriguez, who had spent most of his career with the Army's G-2",
+      "evidence_paraphrase": "The index supplies the exact distinctive name, officer rank, service-number pointer, and Box 654; the CIA supplies the matching Army-to-OSS chronology.",
+      "identity_match_assessment": "Exact distinctive name plus commissioned Army status and specific OSS counterintelligence role.",
+      "temporal_assessment": "The CIA history places the Army G-2 career before OSS recruitment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-397-rodriguez-alfonso",
+          "support_type": "supports",
+          "locator_override": "PDF page 397; First Lieutenant; Box 654",
+          "excerpt_override": "Rodriguez Alfonso 1st Lt … Box 654"
+        },
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Founding Member of CIA: Alfonso Rodriguez"
+        }
+      ]
+    },
+    {
+      "key": "alfonso-rodriguez-immediate-army-g2",
+      "person_id": "411028ea-e6ef-5d8e-b5c2-574d65e8da21",
+      "affiliation_key": "alfonso-rodriguez-army-g2",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Rodriguez's best-supported immediate pre-OSS affiliation was the U.S. Army's G-2 military intelligence staff.",
+      "evidence_excerpt": "had spent most of his career with the Army's G-2",
+      "evidence_paraphrase": "The CIA history describes Rodriguez's Army G-2 career immediately before explaining that OSS recruited him as a counterintelligence specialist.",
+      "identity_match_assessment": "High-confidence match from exact distinctive name, commissioned Army status, and specialized intelligence chronology.",
+      "temporal_assessment": "Strongly date-bounded but not an explicitly dated transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army G-2 is recorded as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Founding Member of CIA: Alfonso Rodriguez"
+        }
+      ]
+    },
+    {
+      "key": "sidney-bartlett-identity",
+      "person_id": "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sidney L. Bartlett is probably the screenwriter Sidney Bartlett whom the CIA places in the U.S. Army and OSS wartime context.",
+      "evidence_excerpt": "His military career drew him into OSS circles",
+      "evidence_paraphrase": "The uncommon first-and-last-name match and matching Army/OSS context support the identification, but the CIA page omits the index's middle initial.",
+      "identity_match_assessment": "Probable match based on uncommon name and matching wartime context; the middle initial and personnel file remain unchecked.",
+      "temporal_assessment": "The CIA history dates Army entry to 1942 but does not document an exact OSS transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile remains in identity review and is excluded from default employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-25-bartlett-sidney-l",
+          "support_type": "supports",
+          "locator_override": "PDF page 25; Box 40",
+          "excerpt_override": "Bartlett Sidney L … Box 40"
+        },
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "OSS Becomes 077 in 13 Rue Madeleine"
+        }
+      ]
+    },
+    {
+      "key": "sidney-bartlett-probable-immediate-army",
+      "person_id": "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      "affiliation_key": "sidney-bartlett-united-states-army",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The U.S. Army is the probable immediate pre-OSS affiliation for the Sidney Bartlett described by the CIA.",
+      "evidence_excerpt": "he joined the U.S. Army in 1942",
+      "evidence_paraphrase": "The CIA chronology places Army service after Bartlett's screenwriting career and says that military service drew him into OSS circles.",
+      "identity_match_assessment": "Probable match based on uncommon name and matching wartime context; the index middle initial is not corroborated.",
+      "temporal_assessment": "Probable immediate sequence; no explicit transfer or OSS-entry date is supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The claim is visibly qualified and excluded from default analytics.",
+      "sources": [
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "OSS Becomes 077 in 13 Rue Madeleine"
+        }
+      ]
+    },
+    {
+      "key": "sidney-bartlett-prewar-occupation",
+      "person_id": "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      "claim_type": "occupation",
+      "claim_text": "Before entering the Army, the Sidney Bartlett described by the CIA was a screenwriter with sixteen produced scripts.",
+      "evidence_excerpt": "He had 16 of his scripts produced before he joined the U.S. Army",
+      "evidence_paraphrase": "The CIA page documents the occupation and sequence but names no studio employer.",
+      "identity_match_assessment": "Probable match based on uncommon name and matching wartime context; the index middle initial is not corroborated.",
+      "temporal_assessment": "Explicitly before Army service, but no employer or exact dates are supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation is not converted into a named employer or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "OSS Becomes 077 in 13 Rue Madeleine"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "7d6735a8-041f-5f74-9a6b-d59f868201d8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name plus indexed Commander/USNR status, corroborated by a CIA history documenting filmmaker John Ford's Naval Reserve unit and its transfer into OSS.",
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 243 personnel file to confirm the unit's exact OSS transfer date and identify any last civilian employer before active wartime service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact distinctive full name and middle initial plus indexed Captain rank, corroborated by the CIA's Army and OSS Maritime Unit chronology.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 429 personnel file to confirm exact medical-school, company-employment, Army-commission, and OSS-entry dates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "411028ea-e6ef-5d8e-b5c2-574d65e8da21",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact distinctive name and indexed First Lieutenant rank, corroborated by the CIA's Army G-2 and OSS counterintelligence chronology.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 654 personnel file to establish exact Army G-2 and OSS assignment dates and any earlier civilian employment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      "identity_status": "probable",
+      "identity_evidence": "Uncommon first-and-last-name match and Army/OSS wartime context, but the CIA page omits the index's middle initial and gives no direct personnel-file link.",
+      "name_variants": [
+        "Sidney Bartlett",
+        "Sy Bartlett"
+      ],
+      "research_status": "needs_identity_review",
+      "next_action": "Review the indexed Box 40 personnel file to confirm the screenwriter identity, Army assignment, and OSS entry chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "reviewed-official-biography-john-ford-2026-07-29",
+      "person_id": "7d6735a8-041f-5f74-9a6b-d59f868201d8",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "John Ford Commander USNR site:cia.gov OSS",
+      "query_variant_type": "exact_name_rank_official_institutional",
+      "started_at": "2026-07-29T07:15:00+00:00",
+      "completed_at": "2026-07-29T07:24:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and CIA institutional history; recorded the Naval Reserve unit as a military assignment and did not infer a studio employer.",
+      "next_action": "Review the indexed Box 243 personnel file for transfer dates and civilian-employer evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-biography-christian-lambertsen-2026-07-29",
+      "person_id": "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Christian J Lambertsen site:cia.gov medical school employer OSS",
+      "query_variant_type": "exact_name_rank_official_institutional",
+      "started_at": "2026-07-29T07:15:00+00:00",
+      "completed_at": "2026-07-29T07:24:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and CIA institutional biography; kept medical-school student status separate from the named company employment.",
+      "next_action": "Review the indexed Box 429 personnel file for exact chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-biography-alfonso-rodriguez-2026-07-29",
+      "person_id": "411028ea-e6ef-5d8e-b5c2-574d65e8da21",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Alfonso Rodriguez Army G-2 site:cia.gov OSS",
+      "query_variant_type": "exact_name_rank_official_institutional",
+      "started_at": "2026-07-29T07:15:00+00:00",
+      "completed_at": "2026-07-29T07:24:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and CIA institutional history; treated Army G-2 as a military assignment.",
+      "next_action": "Review the indexed Box 654 personnel file for exact assignment dates and civilian-employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-biography-sidney-bartlett-2026-07-29",
+      "person_id": "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Sidney L Bartlett screenwriter Army OSS site:cia.gov",
+      "query_variant_type": "name_variant_official_institutional",
+      "started_at": "2026-07-29T07:15:00+00:00",
+      "completed_at": "2026-07-29T07:24:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the NARA row and CIA history. The screenwriter identification and Army-to-OSS sequence remain qualified because the institutional source omits the middle initial and direct transfer evidence.",
+      "next_action": "Review the indexed Box 40 personnel file to confirm identity and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    }
+  ]
+}

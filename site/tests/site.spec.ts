@@ -187,3 +187,73 @@ test("the reviewed CIA batch distinguishes military, government, and civilian pa
     ).toHaveAttribute("href", /cia\.gov/);
   }
 });
+
+test("the second reviewed CIA batch keeps student, military, employer, and identity-review evidence distinct", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "7d6735a8-041f-5f74-9a6b-d59f868201d8",
+      name: "John Ford",
+      immediate: "United States Naval Reserve",
+      source: "Hollywood and the Office of Strategic Services",
+      missingCivilian:
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    },
+    {
+      id: "3566565e-bc22-57c6-945e-88a7c8983bfc",
+      name: "Christian J Lambertsen",
+      immediate: "University of Pennsylvania School of Medicine",
+      lastCivilian: "Ohio Chemical and Manufacturing Company",
+      source: "Christian Lambertsen and the Secret Story Behind Scuba",
+    },
+    {
+      id: "411028ea-e6ef-5d8e-b5c2-574d65e8da21",
+      name: "Alfonso Rodriguez",
+      immediate: "United States Army G-2",
+      source:
+        'The "Glorious Amateurs" of OSS: A Diverse Group of Characters Who Helped Win a World War',
+      missingCivilian:
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    },
+    {
+      id: "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      name: "Sidney L Bartlett",
+      immediate: "United States Army",
+      source: "Hollywood and the Office of Strategic Services",
+      missingCivilian: "No reviewed claim currently meets the publication threshold.",
+      needsIdentityReview: true,
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.immediate, exact: true }).first(),
+    ).toBeVisible();
+    const civilianSection = page.locator(
+      'section[aria-labelledby="civilian-employer"]',
+    );
+    if (profile.lastCivilian) {
+      await expect(
+        civilianSection.getByRole("heading", {
+          name: profile.lastCivilian,
+          exact: true,
+        }),
+      ).toBeVisible();
+    } else {
+      await expect(
+        civilianSection.getByText(profile.missingCivilian!, { exact: true }),
+      ).toBeVisible();
+    }
+    if (profile.needsIdentityReview) {
+      await expect(page.getByText("needs identity review", { exact: true })).toBeVisible();
+    }
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toHaveAttribute("href", /cia\.gov/);
+  }
+});

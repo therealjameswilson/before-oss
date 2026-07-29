@@ -18,11 +18,11 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 cautious person entities
 - 23,978 / 23,978 source rows linked to an entity
 - 202 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 4
-  reviewed CIA institutional biographies, with 1,072 source attempts or plans
-- 9 verified-affiliation profiles and 9 individually assessed archival files
-- 35 published affiliations, 49 published claims, and 16 cited source records
-- 23,858 people remain `not_started`; the public site reports this
+- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 8
+  reviewed CIA institutional biographies, with 1,076 source attempts or plans
+- 12 verified-affiliation profiles and 13 individually assessed archival files
+- 40 published affiliations, 59 published claims, and 23 cited source records
+- 23,854 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

@@ -63,6 +63,20 @@ limits: no civilian employer is inferred for Colby, Hall's unnamed ambulance
 service is not reclassified as employment, and Berg's Red Sox last-employer
 claim remains visibly qualified because his law-firm end date is unstated.
 
+The fourth reviewed evidence batch extended the same official-source method:
+
+| Person | Official source | Decision |
+|---|---|---|
+| John Ford | <https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/> | Naval Reserve unit recorded as the immediate military assignment; no studio employer inferred |
+| Christian J. Lambertsen | <https://www.cia.gov/stories/story/christian-lambertsen-and-the-secret-story-behind-scuba/> | Medical-school student status separated from qualified Ohio Chemical employment |
+| Alfonso Rodriguez | <https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/> | Army G-2 recorded as a military assignment, not a civilian employer |
+| Sidney L. Bartlett | <https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/> | Identity and Army sequence remain medium-confidence pending Box 40 review; screenwriter occupation is not converted into an employer |
+
+The CIA pages were reviewed as live HTML. No page copy was stored. Sidney L.
+Bartlett remains outside default analytics because the institutional source
+omits the index's middle initial and does not document an explicit Army-to-OSS
+transfer.
+
 ## Official reference material
 
 - NARA OSS personnel records:
