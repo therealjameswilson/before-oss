@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 138 / 138 browser cases.**
+**PASS - 141 / 141 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-90-person employer measure is labeled separately from the 144-person broader
+91-person employer measure is labeled separately from the 147-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -202,6 +202,12 @@ inventing Blogg's insurance company, keeps Cohen ambiguous and Kessler probable,
 preserves the visually checked indexed spellings, distinguishes later Captain
 grades from earlier Fort Belvoir sergeant assignments, and confirms citation
 links and serial-number masking at all three viewport sizes.
+Batch 033 verifies George S. Wuchinich, Hans V. Tofte, Howard E. Manning, John
+F. Navarro, and Peter G. Mero. It checks a visibly qualified industrial
+employer, explicit Army and earlier SOE pathways, individual legal practice
+without assigning a separate firm, two occupation-only outcomes without
+invented employers, claim-level source links, and serial-number masking at all
+three viewport sizes.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -254,6 +260,13 @@ The Batch 032 regression run caught two assertions aimed at a source-title
 variant and a private review note. They were replaced with the rendered source
 title and public rank evidence. The complete desktop, phone, and tablet matrix
 then passed 138 / 138 with no remaining assertion or axe failure.
+
+The Batch 033 regression run caught three assertions aimed at earlier private
+review wording rather than the rendered qualification, transfer claim, and
+individual-practice evidence. The checks now require the public evidence and
+exclude the unassigned `Manning & Manning` firm. The complete desktop, phone,
+and tablet matrix then passed 141 / 141 with no remaining assertion or axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

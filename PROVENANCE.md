@@ -158,6 +158,31 @@ No live NARA Catalog API request or retained API response was involved.
 The three rendered index pages showed no visual defects and confirmed the
 source spellings, ranks, boxes, and locations used in the evidence bundle.
 
+## Reviewed Area C and special-operations pathways
+
+The thirty-third evidence batch used the [National Park Service's official
+training history](https://www.nps.gov/articles/instructing-for-dangerous-missions.htm),
+the NARA personnel index, a contemporary
+[Carnegie Institute of Technology alumni
+record](https://iiif.library.cmu.edu/file/ALU_1939_025_002_12001939/ALU_1939_025_002_12001939.pdf),
+and the [1940 Raleigh city
+directory](https://lib.digitalnc.org/record/25789?ln=en). No live NARA Catalog
+API request or retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| George S. Wuchinich | Army service is the explicit immediate pre-OSS affiliation; Fairbanks, Morse and Company is the best-supported last identified civilian employer, visibly qualified because a 1940–1941 intervening employer has not been ruled out |
+| Hans V. Tofte | U.S. Army service is the explicit immediate affiliation; earlier British Special Operations Executive service remains a distinct government assignment |
+| Howard E. Manning | Individual legal practice in Raleigh is the strongly date-bounded last civilian work; the separate `Manning & Manning` directory entry is not assigned to him; Army instructional service is a qualified probable immediate pathway |
+| John F. Navarro | The official history supports a pre-OSS New England restaurateur occupation, but it does not name a particular restaurant employer |
+| Peter G. Mero | The official history supports a pre-OSS Chicago investment-executive occupation, but it does not name a particular investment employer |
+
+The Carnegie alumni scan was visually checked at PDF page 17, printed page 15.
+The Raleigh directory was visually checked at full-PDF sequence page 596,
+printed page 596, and sequence page 754, printed page 770. Those pages support
+the employer and individual-practice decisions without republishing either
+source.
+
 ## Official reference material
 
 - NARA OSS personnel records:

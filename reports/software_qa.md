@@ -5,27 +5,27 @@ Run: 2026-07-29 UTC
 - Python unit tests: **30 / 30 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,128 pages**
-- Internal link check: **24,128 HTML files passed**
-- Browser and accessibility suite: **138 / 138 passed**
+- Static production build: **24,129 pages**
+- Internal link check: **24,129 HTML files passed**
+- Browser and accessibility suite: **141 / 141 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`ba6597e8cef8d77f935284d369527f14d0e6a06235ceddf1ccbb67b00d13ec07`)
+  (`17a585e2d9b59ffd9a6fb0471aa037ab67690c6b6dcb22b893bc072ac1ee40ce`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,205**
+  numbers at least six characters long: **0 full-number matches** in **24,207**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **369** public records representing **345** unique documents
-- Published, qualified affiliations: **286**
-- Published claims: **462**
+- Reviewed public sources: **377** public records representing **352** unique documents
+- Published, qualified affiliations: **292**
+- Published claims: **475**
 - Withheld low-confidence identity candidates: **3**
-- Verified-affiliation metric: **144** people with confirmed/high published
+- Verified-affiliation metric: **147** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **90** people with confirmed/high published
+- Verified-employer metric: **91** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -161,3 +161,8 @@ index row that remains unlinked from the Louis/Lewis Cohen candidate; Morris M.
 Kessler's qualified probable identity; and Joseph E/M Lazarsky and Leopold
 Karwoski's Fort Belvoir Army Engineer pathways. It also restores the manual-
 review flag on Edgar A. Prichard's pre-existing service-number conflict group.
+Batch 033 adds checks for George S. Wuchinich's qualified Fairbanks-Morse
+employment and explicit Army pathway; Hans V. Tofte's distinct Army and British
+SOE assignments; Howard E. Manning's individual legal practice without
+assigning the separate Manning & Manning firm; and the occupation-only Navarro
+and Mero results without invented employers.

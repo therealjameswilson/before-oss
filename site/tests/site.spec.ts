@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/90 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/91 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 144 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 147 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3093,5 +3093,127 @@ test("Batch 032 preserves Area B command, engineer, occupation-only, and identit
     "href",
     "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
   );
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 033 preserves civilian, Army, SOE, qualified-employer, and occupation-only boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/521c80ee-c975-552a-b41f-d565c60a921b/");
+  await expect(
+    page.getByRole("heading", { name: "George S Wuchinich", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Fairbanks, Morse and Company",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "determine whether Fairbanks, Morse and Company remained his employer until Army enlistment",
+  );
+  await expect(
+    page
+      .getByRole("link", { name: "Carnegie Alumnus", exact: true })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://iiif.library.cmu.edu/file/ALU_1939_025_002_12001939/ALU_1939_025_002_12001939.pdf",
+  );
+
+  await page.goto("./people/f28308b3-7c6e-5819-834d-62ec9ef7a65f/");
+  await expect(
+    page.getByRole("heading", { name: "Hans V Tofte", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "Special Operations Executive",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Tofte's immediate pre-OSS affiliation was United States Army service",
+  );
+
+  await page.goto("./people/43d0bb66-4c39-5627-85a1-3a85350d973d/");
+  await expect(
+    page.getByRole("heading", { name: "Howard E Manning", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Self-employed legal practice",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Manning's last documented civilian work before Army service was his individual legal practice in Raleigh",
+  );
+  await expect(page.locator("body")).not.toContainText("Manning & Manning");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Hill's Raleigh (Wake County, N.C.) City Directory [1940]",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", "https://lib.digitalnc.org/record/25789?ln=en");
+
+  await page.goto("./people/2bb10033-1c66-53cc-8c22-f465a0085b9d/");
+  await expect(
+    page.getByRole("heading", { name: "John F Navarro", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "restaurateur in New England",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/59b8e455-1c85-5ea4-a087-e756d4d1f5b3/");
+  await expect(
+    page.getByRole("heading", { name: "Peter G Mero", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "investment executive in Chicago",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Instructing for Dangerous Missions",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
+  );
+
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

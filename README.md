@@ -18,14 +18,14 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 cautious person entities
 - 23,978 / 23,978 source rows linked to an entity
 - 204 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 160
-  saved source-review outcomes, with 1,229 source attempts or plans
-- 144 verified-affiliation profiles, including 90 with verified employment or
-  self-employment, and 165 individually assessed archival files
-- 286 published affiliations, 462 published claims, 377 citation records, and
-  345 unique source documents; 3 additional low-confidence identity candidates
+- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 165
+  saved source-review outcomes, with 1,234 source attempts or plans
+- 147 verified-affiliation profiles, including 91 with verified employment or
+  self-employment, and 170 individually assessed archival files
+- 292 published affiliations, 475 published claims, 385 citation records, and
+  352 unique source documents; 3 additional low-confidence identity candidates
   remain withheld from public facts
-- 23,703 people remain `not_started`; the public site reports this
+- 23,698 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
