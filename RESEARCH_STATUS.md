@@ -7,9 +7,9 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 79 people with a non-planned attempt | 23,941 person entities | 0.3300% |
-| Verified-employer coverage | 5 people with a confirmed/high published affiliation | 23,941 person entities | 0.0209% |
-| Archival-review coverage | 5 people with an individual file-access/priority assessment | 23,941 person entities | 0.0209% |
+| Research-attempt coverage | 83 people with a non-planned attempt | 23,941 person entities | 0.3467% |
+| Verified-employer coverage | 9 people with a confirmed/high published affiliation | 23,941 person entities | 0.0376% |
+| Archival-review coverage | 9 people with an individual file-access/priority assessment | 23,941 person entities | 0.0376% |
 
 ## Extraction and identity
 
@@ -21,28 +21,28 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 5
-- Identity status `high_confidence`: 38
-- Identity status `unresolved`: 23,898
+- Identity status `high_confidence`: 42
+- Identity status `unresolved`: 23,894
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,691
+- Unknown or indeterminate: 16,688
 - Enlisted Army personnel: 3,455
-- Commissioned Army officers: 2,048
-- Civilian professional or administrative grades: 1,424
+- Commissioned Army officers: 2,049
+- Civilian professional or administrative grades: 1,425
 - Foreign or Allied military personnel: 241
 - Enlisted naval personnel: 47
-- Commissioned naval officers: 31
+- Commissioned naval officers: 32
 - Warrant officers: 4
 
-Commissioned classification: 2,081 yes; 4,937 no; 16,923 indeterminate.
+Commissioned classification: 2,083 yes; 4,938 no; 16,920 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,862
+- `not_started`: 23,858
 - `in_progress`: 73
 - `candidate_found`: 1
-- `verified_employer_found`: 5
+- `verified_employer_found`: 9
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -51,18 +51,19 @@ Commissioned classification: 2,081 yes; 4,937 no; 16,923 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Total recorded attempts/plans: 1,068
+- Reviewed CIA institutional-biography attempts: 4
+- Total recorded attempts/plans: 1,072
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- Reviewed people with published evidence: 6 (Mort S. Bobrow, Julia C.
-  McWilliams, Ralph J. Bunche, William J. Casey, Arthur J. Goldberg, and
-  Sterling W. Hayden)
-- Published affiliations: 25
-- Published claims: 35 (28 confirmed, 5 high, 2 medium)
-- Sources supporting public claims: 8
-- Canonical organizations: 23
+- Reviewed people with published evidence: 10 (Mort S. Bobrow, Morris Berg,
+  Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
+  Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, and Richard M. Helms)
+- Published affiliations: 35
+- Published claims: 49 (28 confirmed, 16 high, 5 medium)
+- Sources supporting public claims: 16
+- Canonical organizations: 30
 - Conflicts: 0
-- NARA pull-list rows: 23,973
+- NARA pull-list rows: 23,969
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence published affiliations do not count as verified-employer
@@ -95,6 +96,7 @@ python3 -m oss_research import-review-decisions review_decisions.csv
 python3 -m oss_research import-reviewed-evidence research/evidence_mort-s-bobrow_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_julia-c-mcwilliams_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_selected-nara-personnel-files_batch-002_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_cia-institutional-biographies_batch-003_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

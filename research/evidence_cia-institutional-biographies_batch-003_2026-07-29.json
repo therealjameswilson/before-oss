@@ -1,0 +1,876 @@
+{
+  "bundle_version": "reviewed-institutional-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-33-berg-morris",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 51",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 33; Berg, Morris; Box 51",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The immutable source row is preserved separately; no full service number is published."
+    },
+    {
+      "key": "cia-moe-berg-biography-2021",
+      "stable_url": "https://www.cia.gov/stories/story/moe-berg-baseball-player/",
+      "title": "Moe Berg: Baseball Player, Linguist, Lawyer, Intel Officer",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2021-07-27",
+      "locator": "The Brainiest Man in Baseball; Joining a Different Kind of Team",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional biography. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "nara-oss-index-page-189-hall-virginia",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 306",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 189; Hall, Virginia; Box 306",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The immutable source row is preserved separately."
+    },
+    {
+      "key": "cia-office-of-strategic-services-warner-2000",
+      "stable_url": "https://www.cia.gov/resources/csi/static/7851e16f9e100b6f9cc4ef002028ce2f/Office-of-Strategic-Services.pdf",
+      "title": "The Office of Strategic Services: America's First Intelligence Agency",
+      "author_creator": "Michael Warner, CIA History Staff",
+      "repository_publisher": "Central Intelligence Agency, Office of Public Affairs",
+      "publication_record_date": "2000-05",
+      "locator": "PDF page 11; Virginia Hall",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA historical publications",
+      "document_number": "ISBN 1-929667-07-8",
+      "rights_notes": "Official institutional history reviewed in text and rendered-page form. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "nara-oss-index-page-202-helms-richard-m",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 326",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 202; Helms, Richard M.; Lieutenant Commander; Box 326",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full source row; the public interface masks the service number."
+    },
+    {
+      "key": "cia-robarge-richard-helms-2002",
+      "stable_url": "https://www.cia.gov/resources/csi/static/Richard-Helms-Intel-Professional.pdf",
+      "title": "Richard Helms: The Intelligence Professional Personified",
+      "author_creator": "David S. Robarge",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2002",
+      "locator": "Studies in Intelligence 46, no. 4; PDF pages 3-4, Formative Years and Wartime with the OSS",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "Official institutional history reviewed in text and rendered-page form. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "nara-oss-index-page-86-colby-william-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 133",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 86; Colby, William E.; Box 133",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full source row; the public interface masks the service number."
+    },
+    {
+      "key": "cia-museum-oss-compass-colby",
+      "stable_url": "https://www.cia.gov/legacy/museum/artifact/office-of-strategic-services-compass/",
+      "title": "Office of Strategic Services Compass",
+      "author_creator": "Central Intelligence Agency Museum",
+      "repository_publisher": "Central Intelligence Agency",
+      "locator": "Artifact video transcript; William Colby",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Museum artifacts",
+      "rights_notes": "Official institutional artifact narrative. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "office-of-inter-american-affairs",
+      "canonical_name": "Office of Inter-American Affairs",
+      "historical_name": "Office of Inter-American Affairs",
+      "aliases": [
+        "OIAA"
+      ],
+      "organization_type": "federal wartime information agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "The CIA biography uses this historical name. No modern successor is substituted."
+    },
+    {
+      "key": "boston-red-sox",
+      "canonical_name": "Boston Red Sox",
+      "historical_name": "Boston Red Sox",
+      "aliases": [],
+      "organization_type": "professional baseball club",
+      "sector": "business_and_industry",
+      "city": "Boston",
+      "state_or_region": "Massachusetts",
+      "country": "United States"
+    },
+    {
+      "key": "satterlee-and-canfield",
+      "canonical_name": "Satterlee and Canfield",
+      "historical_name": "Satterlee and Canfield",
+      "aliases": [
+        "Satterlee & Canfield"
+      ],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical firm name is preserved exactly as supplied by the CIA biography."
+    },
+    {
+      "key": "special-operations-executive",
+      "canonical_name": "Special Operations Executive",
+      "historical_name": "Special Operations Executive",
+      "aliases": [
+        "SOE"
+      ],
+      "organization_type": "British wartime executive agency",
+      "sector": "federal_government",
+      "country": "United Kingdom",
+      "normalization_notes": "Recorded as a British government assignment, not a U.S. military assignment."
+    },
+    {
+      "key": "united-states-department-of-state",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": [
+        "U.S. Department of State",
+        "State Department"
+      ],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "country": "United States"
+    },
+    {
+      "key": "united-states-naval-reserve",
+      "canonical_name": "United States Naval Reserve",
+      "historical_name": "US Navy Reserve",
+      "aliases": [
+        "U.S. Naval Reserve",
+        "US Navy Reserve"
+      ],
+      "organization_type": "military reserve component",
+      "sector": "military",
+      "country": "United States"
+    },
+    {
+      "key": "the-indianapolis-times",
+      "canonical_name": "The Indianapolis Times",
+      "historical_name": "Indianapolis Times",
+      "aliases": [
+        "The Indianapolis Times"
+      ],
+      "organization_type": "newspaper",
+      "sector": "journalism_and_media",
+      "city": "Indianapolis",
+      "state_or_region": "Indiana",
+      "country": "United States"
+    },
+    {
+      "key": "united-press-international",
+      "canonical_name": "United Press",
+      "historical_name": "United Press",
+      "aliases": [
+        "United Press International",
+        "UPI"
+      ],
+      "organization_type": "wire service",
+      "sector": "journalism_and_media",
+      "country": "United States",
+      "normalization_notes": "The source uses United Press International for Helms's 1930s role; the historical name is preserved on the affiliation."
+    },
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "US Army",
+      "aliases": [
+        "U.S. Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is preserved in the affiliation record."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "morris-berg-office-of-inter-american-affairs",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "organization_key": "office-of-inter-american-affairs",
+      "organization_name_as_found": "Office of Inter-American Affairs",
+      "role_title": "Latin America tour participant",
+      "relationship_type": "government_assignment",
+      "date_precision": "after 1942 retirement and before 1943 recruitment; exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA chronology places this federal assignment shortly after Berg's 1942 baseball retirement and before OSS recruitment in 1943."
+    },
+    {
+      "key": "morris-berg-boston-red-sox",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "organization_key": "boston-red-sox",
+      "organization_name_as_found": "Boston Red Sox",
+      "role_title": "Player and coach",
+      "occupation": "Professional baseball player and coach",
+      "relationship_type": "employment",
+      "start_date": "1934",
+      "end_date": "1942",
+      "date_precision": "year",
+      "city": "Boston",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source's chronology makes this the best-supported last private-sector employer before the intervening federal assignment, but it does not give an end date for Berg's earlier law-firm role."
+    },
+    {
+      "key": "morris-berg-satterlee-and-canfield",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "organization_key": "satterlee-and-canfield",
+      "organization_name_as_found": "Satterlee and Canfield",
+      "role_title": "Lawyer",
+      "occupation": "Attorney",
+      "relationship_type": "employment",
+      "start_date": "1928",
+      "date_precision": "start year; end date not stated",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The biography says Berg joined the firm after his 1928 bar admission while continuing to play baseball."
+    },
+    {
+      "key": "virginia-hall-special-operations-executive",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "organization_key": "special-operations-executive",
+      "organization_name_as_found": "Special Operations Executive",
+      "role_title": "Clandestine field operative",
+      "relationship_type": "government_assignment",
+      "start_date": "1941",
+      "end_date": "1944-03",
+      "date_precision": "year for SOE entry; month for transfer to OSS",
+      "country": "United Kingdom",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA history explicitly places Hall's SOE service immediately before her March 1944 entry into the OSS Special Operations Branch."
+    },
+    {
+      "key": "virginia-hall-department-of-state",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "organization_key": "united-states-department-of-state",
+      "organization_name_as_found": "Department of State",
+      "role_title": "Consular Service clerk",
+      "occupation": "Clerk",
+      "relationship_type": "government_assignment",
+      "start_date": "1931",
+      "end_date": "1939",
+      "date_precision": "year",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is a documented civilian government assignment before wartime ambulance and SOE service. It is not reclassified as ordinary employment or presented as Hall's last civilian employer."
+    },
+    {
+      "key": "virginia-hall-ambulance-service",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "organization_name_as_found": "Ambulance Service",
+      "role_title": "Ambulance service member",
+      "relationship_type": "unknown",
+      "date_precision": "before the fall of France in 1940; exact organization, pay status, and dates not stated",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source establishes ambulance service before the fall of France but does not name the organization or establish employment versus volunteer status."
+    },
+    {
+      "key": "richard-helms-united-states-naval-reserve",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "organization_key": "united-states-naval-reserve",
+      "organization_name_as_found": "US Navy Reserve",
+      "role_title": "Lieutenant, Eastern Sea Frontier headquarters",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1943",
+      "date_precision": "year",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA history explicitly says the Navy transferred Helms to OSS in 1943. The index later lists him as Lieutenant Commander."
+    },
+    {
+      "key": "richard-helms-indianapolis-times",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "organization_key": "the-indianapolis-times",
+      "organization_name_as_found": "Indianapolis Times",
+      "role_title": "Advertising staff",
+      "occupation": "Newspaper advertising",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "date_precision": "start year; end date not stated",
+      "city": "Indianapolis",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The biography places this newspaper role before Helms joined the Navy in 1942 but does not explicitly state that no intervening civilian employer existed."
+    },
+    {
+      "key": "richard-helms-united-press",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "organization_key": "united-press-international",
+      "organization_name_as_found": "United Press International",
+      "role_title": "European correspondent",
+      "occupation": "Journalist",
+      "relationship_type": "employment",
+      "date_precision": "before 1937; exact start and end dates not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The biography identifies Helms as a European correspondent before his return to the United States in 1937."
+    },
+    {
+      "key": "william-colby-united-states-army",
+      "person_id": "7a26fb60-b1e2-5377-9092-f16406580dfd",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "Army",
+      "role_title": "Commissioned officer and parachute trainee",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "date_precision": "year; exact OSS transfer date requires personnel-file review",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA Museum narrative says Colby entered active Army service in 1941 and that parachute training and language skills led to OSS recruitment. The exact transfer date is not published here."
+    }
+  ],
+  "claims": [
+    {
+      "key": "morris-berg-identity",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "claim_type": "identity",
+      "claim_text": "The indexed Morris Berg is strongly matched to Morris “Moe” Berg, whom the CIA biography identifies as an OSS veteran.",
+      "evidence_excerpt": "Morris “Moe” Berg",
+      "evidence_paraphrase": "The official index supplies the exact uncommon name and Box 51 pointer; the CIA independently supplies the full name, nickname, and OSS service.",
+      "identity_match_assessment": "Exact uncommon full name plus an authoritative institutional account of OSS service.",
+      "temporal_assessment": "The CIA biography gives a sequential 1942 retirement, federal assignment, and 1943 OSS recruitment chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-33-berg-morris",
+          "support_type": "supports",
+          "locator_override": "PDF page 33; Box 51",
+          "excerpt_override": "Berg Morris … Box 51"
+        },
+        {
+          "source_key": "cia-moe-berg-biography-2021",
+          "support_type": "supports",
+          "locator_override": "Opening and Joining a Different Kind of Team"
+        }
+      ]
+    },
+    {
+      "key": "morris-berg-immediate-oiaa",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "affiliation_key": "morris-berg-office-of-inter-american-affairs",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Berg's best-supported immediate pre-OSS affiliation was a Latin America assignment with the Office of Inter-American Affairs.",
+      "evidence_excerpt": "Moe toured Latin America with the Office of Inter-American Affairs",
+      "evidence_paraphrase": "The CIA places the federal tour shortly after Berg's 1942 baseball retirement and immediately before his 1943 OSS recruitment.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and independently documented OSS service.",
+      "temporal_assessment": "Strongly date-bounded institutional chronology; exact appointment and transfer dates are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The agency is recorded as a government assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-moe-berg-biography-2021",
+          "support_type": "supports",
+          "locator_override": "Joining a Different Kind of Team"
+        }
+      ]
+    },
+    {
+      "key": "morris-berg-last-civilian-red-sox",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "affiliation_key": "morris-berg-boston-red-sox",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The Boston Red Sox are the best-supported last civilian employer identified before Berg's intervening federal assignment and OSS service.",
+      "evidence_excerpt": "played and coached for the Boston Red Sox until his retirement in 1942",
+      "evidence_paraphrase": "The CIA biography ends Berg's Red Sox player-coach work in 1942, then places him with a federal agency before OSS recruitment.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and independently documented OSS service.",
+      "temporal_assessment": "Probable last civilian employer; the institutional chronology supplies no later private-sector role, but the earlier law-firm end date is unstated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The qualified Red Sox claim is distinct from the immediate government assignment and excluded from confirmed/high default employer analytics.",
+      "sources": [
+        {
+          "source_key": "cia-moe-berg-biography-2021",
+          "support_type": "supports",
+          "locator_override": "Joining a Different Kind of Team"
+        }
+      ]
+    },
+    {
+      "key": "morris-berg-other-law-firm",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "affiliation_key": "morris-berg-satterlee-and-canfield",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Berg also worked for the New York law firm Satterlee and Canfield after his 1928 bar admission.",
+      "evidence_excerpt": "He joined the law firm of Satterlee and Canfield",
+      "evidence_paraphrase": "The CIA biography documents the law-firm affiliation while noting that Berg continued playing professional baseball.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and independently documented OSS service.",
+      "temporal_assessment": "Documented prewar employment; the source does not establish an end date or immediate relationship to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This earlier role is not mislabeled as the immediate affiliation or last civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-moe-berg-biography-2021",
+          "support_type": "supports",
+          "locator_override": "The Brainiest Man in Baseball"
+        }
+      ]
+    },
+    {
+      "key": "virginia-hall-identity",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Virginia Hall is strongly matched to the Virginia Hall documented by the CIA as joining the OSS Special Operations Branch in 1944.",
+      "evidence_excerpt": "Virginia Hall joined OSS's Special Operations Branch in March 1944",
+      "evidence_paraphrase": "The official index supplies the exact distinctive name and Box 306 pointer; the CIA history supplies exact OSS branch and entry chronology.",
+      "identity_match_assessment": "Exact distinctive full name plus an authoritative institutional OSS chronology.",
+      "temporal_assessment": "The CIA history provides a dated pre-OSS sequence from State to ambulance service to SOE and OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-189-hall-virginia",
+          "support_type": "supports",
+          "locator_override": "PDF page 189; Box 306",
+          "excerpt_override": "Hall Virginia … Box 306"
+        },
+        {
+          "source_key": "cia-office-of-strategic-services-warner-2000",
+          "support_type": "supports",
+          "locator_override": "PDF page 11; Virginia Hall"
+        }
+      ]
+    },
+    {
+      "key": "virginia-hall-immediate-soe",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "affiliation_key": "virginia-hall-special-operations-executive",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Hall's immediate pre-OSS affiliation was Britain's Special Operations Executive.",
+      "evidence_excerpt": "working secretly for British intelligence in Vichy France, she joined OSS",
+      "evidence_paraphrase": "The CIA history traces Hall's SOE work through Madrid and states that she joined the OSS Special Operations Branch in March 1944.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed name and detailed institutional OSS chronology.",
+      "temporal_assessment": "Explicit immediate sequence with month-level OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "SOE is classified as a British government assignment, not a civilian employer or U.S. military assignment.",
+      "sources": [
+        {
+          "source_key": "cia-office-of-strategic-services-warner-2000",
+          "support_type": "supports",
+          "locator_override": "PDF page 11; Virginia Hall"
+        }
+      ]
+    },
+    {
+      "key": "virginia-hall-other-state-department",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "affiliation_key": "virginia-hall-department-of-state",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hall worked as a Consular Service clerk for the U.S. Department of State before wartime ambulance and intelligence service.",
+      "evidence_excerpt": "she resigned from the Department of State in 1939",
+      "evidence_paraphrase": "The CIA history dates Hall's Consular Service clerk appointment from 1931 and her State Department resignation to 1939.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed name and detailed institutional OSS chronology.",
+      "temporal_assessment": "Documented before ambulance service, SOE, and OSS; State was not the immediate pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The government assignment is kept separate from the immediate SOE assignment and is not reclassified as an ordinary civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-office-of-strategic-services-warner-2000",
+          "support_type": "supports",
+          "locator_override": "PDF page 11; Virginia Hall"
+        }
+      ]
+    },
+    {
+      "key": "virginia-hall-other-ambulance-service",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "affiliation_key": "virginia-hall-ambulance-service",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hall served with an ambulance service in France before joining SOE, but the accessible source does not establish the organization or pay status.",
+      "evidence_excerpt": "She joined the Ambulance Service before the fall of France",
+      "evidence_paraphrase": "The institutional history documents the intervening wartime service but gives no organizational name or employment status.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed name and detailed institutional OSS chronology.",
+      "temporal_assessment": "Documented before SOE and OSS; exact dates and relationship type remain uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The role is published with qualification and is not counted as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-office-of-strategic-services-warner-2000",
+          "support_type": "supports",
+          "locator_override": "PDF page 11; Virginia Hall"
+        }
+      ]
+    },
+    {
+      "key": "richard-helms-identity",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Commander Richard M. Helms is strongly matched to Richard Helms, whom the CIA history documents as a commissioned Navy officer transferred to OSS.",
+      "evidence_excerpt": "In 1943, the Navy transferred Helms to OSS in Washington",
+      "evidence_paraphrase": "The index supplies exact name, middle initial, naval rank, service-number pointer, and Box 326; the CIA supplies the Navy-to-OSS transfer chronology.",
+      "identity_match_assessment": "Exact full name and middle initial plus matching commissioned naval status and direct OSS transfer evidence.",
+      "temporal_assessment": "The CIA history dates Navy entry to 1942 and transfer to OSS to 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Two identifiers beyond the name—naval status and OSS transfer—support the match. The personnel file remains unreviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-202-helms-richard-m",
+          "support_type": "supports",
+          "locator_override": "PDF page 202; Lieutenant Commander; Box 326",
+          "excerpt_override": "Helms Richard M Lt. Cmdr … Box 326"
+        },
+        {
+          "source_key": "cia-robarge-richard-helms-2002",
+          "support_type": "supports",
+          "locator_override": "PDF pages 3-4; Wartime with the OSS"
+        }
+      ]
+    },
+    {
+      "key": "richard-helms-immediate-navy",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "affiliation_key": "richard-helms-united-states-naval-reserve",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Helms's immediate pre-OSS affiliation was the U.S. Naval Reserve at Eastern Sea Frontier headquarters.",
+      "evidence_excerpt": "the Navy transferred Helms to OSS in Washington",
+      "evidence_paraphrase": "The CIA history explicitly describes a 1943 transfer from his commissioned Navy assignment to OSS.",
+      "identity_match_assessment": "High-confidence match from exact name and middle initial, matching naval status, and OSS chronology.",
+      "temporal_assessment": "Explicit immediate transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Navy is recorded as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-robarge-richard-helms-2002",
+          "support_type": "supports",
+          "locator_override": "PDF pages 3-4; Wartime with the OSS"
+        }
+      ]
+    },
+    {
+      "key": "richard-helms-last-civilian-indianapolis-times",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "affiliation_key": "richard-helms-indianapolis-times",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The Indianapolis Times is the probable last civilian employer documented before Helms entered the Navy.",
+      "evidence_excerpt": "working up through the advertising ranks at the Indianapolis Times",
+      "evidence_paraphrase": "The biography places this newspaper role after Helms returned to the United States in 1937 and before his 1942 Navy commission.",
+      "identity_match_assessment": "High-confidence match from exact name and middle initial, matching naval status, and OSS chronology.",
+      "temporal_assessment": "Probable immediate civilian predecessor; the source does not explicitly rule out an intervening employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The public claim is visibly qualified and excluded from confirmed/high default employer analytics.",
+      "sources": [
+        {
+          "source_key": "cia-robarge-richard-helms-2002",
+          "support_type": "supports",
+          "locator_override": "PDF page 3; Formative Years"
+        }
+      ]
+    },
+    {
+      "key": "richard-helms-other-united-press",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "affiliation_key": "richard-helms-united-press",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before joining the Indianapolis Times, Helms worked as a European correspondent for United Press.",
+      "evidence_excerpt": "was a European correspondent for United Press International",
+      "evidence_paraphrase": "The CIA history documents the wire-service role before Helms returned to the United States in 1937.",
+      "identity_match_assessment": "High-confidence match from exact name and middle initial, matching naval status, and OSS chronology.",
+      "temporal_assessment": "Documented prewar employment; not the immediate pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This earlier journalism role is kept separate from both the Navy transfer and probable last civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-robarge-richard-helms-2002",
+          "support_type": "supports",
+          "locator_override": "PDF page 3; Formative Years"
+        }
+      ]
+    },
+    {
+      "key": "william-colby-identity",
+      "person_id": "7a26fb60-b1e2-5377-9092-f16406580dfd",
+      "claim_type": "identity",
+      "claim_text": "The indexed William E. Colby is strongly matched to William Colby, whom the CIA Museum documents as an Army officer recruited into OSS.",
+      "evidence_excerpt": "A military lifestyle came second nature to William Colby",
+      "evidence_paraphrase": "The index supplies exact name and middle initial, a service-number pointer, and Box 133; the CIA supplies Army and OSS chronology.",
+      "identity_match_assessment": "Exact full name and middle initial plus matching Army-to-OSS service context.",
+      "temporal_assessment": "The CIA narrative places active Army duty before OSS recruitment following parachute training.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-86-colby-william-e",
+          "support_type": "supports",
+          "locator_override": "PDF page 86; Box 133",
+          "excerpt_override": "Colby William E … Box 133"
+        },
+        {
+          "source_key": "cia-museum-oss-compass-colby",
+          "support_type": "supports",
+          "locator_override": "Artifact video transcript; William Colby"
+        }
+      ]
+    },
+    {
+      "key": "william-colby-immediate-army",
+      "person_id": "7a26fb60-b1e2-5377-9092-f16406580dfd",
+      "affiliation_key": "william-colby-united-states-army",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Colby's immediate pre-OSS affiliation was the U.S. Army, where he had received parachute training.",
+      "evidence_excerpt": "parachute training ... and French language skills ... brought about his OSS recruitment",
+      "evidence_paraphrase": "The CIA Museum narrative dates Colby's commission and active duty to 1941 and directly connects later Army training to OSS recruitment.",
+      "identity_match_assessment": "High-confidence match from exact full name and middle initial plus matching Army-to-OSS service context.",
+      "temporal_assessment": "Strongly date-bounded Army-to-OSS sequence; exact transfer date remains for personnel-file review.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army is recorded as a military assignment. No civilian employer is inferred from his education.",
+      "sources": [
+        {
+          "source_key": "cia-museum-oss-compass-colby",
+          "support_type": "supports",
+          "locator_override": "Artifact video transcript; William Colby"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon name in the NARA index, corroborated by a CIA biography naming Morris “Moe” Berg and documenting his 1943 OSS recruitment.",
+      "name_variants": [
+        "Moe Berg",
+        "Morris “Moe” Berg"
+      ],
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 51 personnel file to confirm exact Office of Inter-American Affairs appointment and OSS entry dates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact distinctive name in the NARA index, corroborated by a CIA institutional history with detailed State, SOE, and OSS chronology.",
+      "name_variants": [
+        "Virginia Hall Goillot"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 306 personnel file for exact appointment dates, the named French ambulance organization, and any documented civilian employer before wartime service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full name and middle initial, NARA Lieutenant Commander listing, and a CIA history documenting his commissioned Navy service and 1943 transfer to OSS.",
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 326 personnel file to confirm the end date of Indianapolis Times employment and the exact Navy transfer paperwork.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "7a26fb60-b1e2-5377-9092-f16406580dfd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full name and middle initial in the NARA index, corroborated by a CIA Museum narrative documenting Army commission, active duty, and OSS recruitment.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 133 personnel file to resolve the exact OSS transfer date and determine whether any civilian employer preceded Army service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "reviewed-official-biography-morris-berg-2026-07-29",
+      "person_id": "491ada54-8954-5518-b03e-88e0ed92d573",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Morris Berg site:cia.gov OSS prewar employer",
+      "query_variant_type": "exact_name_official_institutional",
+      "started_at": "2026-07-29T06:22:00+00:00",
+      "completed_at": "2026-07-29T06:38:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and CIA institutional biography; separated the intervening federal assignment from the last civilian employer.",
+      "next_action": "Review the indexed Box 51 personnel file for exact dates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-biography-virginia-hall-2026-07-29",
+      "person_id": "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Virginia Hall site:cia.gov SOE OSS State Department",
+      "query_variant_type": "exact_name_official_institutional",
+      "started_at": "2026-07-29T06:22:00+00:00",
+      "completed_at": "2026-07-29T06:38:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and page-level CIA institutional history; separated SOE, State Department, and ambulance service.",
+      "next_action": "Review the indexed Box 306 personnel file for exact dates, the ambulance organization, and any documented civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-biography-richard-helms-2026-07-29",
+      "person_id": "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Richard M Helms site:cia.gov United Press Navy OSS",
+      "query_variant_type": "exact_name_rank_official_institutional",
+      "started_at": "2026-07-29T06:22:00+00:00",
+      "completed_at": "2026-07-29T06:38:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and page-level CIA history; preserved the Indianapolis Times last-employer claim as qualified.",
+      "next_action": "Review the indexed Box 326 personnel file for employment and transfer dates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-biography-william-colby-2026-07-29",
+      "person_id": "7a26fb60-b1e2-5377-9092-f16406580dfd",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "William E Colby site:cia.gov Army OSS recruitment",
+      "query_variant_type": "exact_name_official_institutional",
+      "started_at": "2026-07-29T06:22:00+00:00",
+      "completed_at": "2026-07-29T06:38:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and CIA Museum narrative. No civilian employer was inferred from education.",
+      "next_action": "Review the indexed Box 133 personnel file for transfer chronology and any civilian employment before Army service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    }
+  ]
+}

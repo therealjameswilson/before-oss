@@ -43,6 +43,26 @@ introduction sheets use the label “complete file.” The database preserves th
 disagreement and does not treat the four downloads as substitutes for the
 original archival files.
 
+## Reviewed CIA institutional histories
+
+The third reviewed evidence batch matched four exact index rows to official CIA
+histories. These are rated authoritative institutional sources, not direct
+personnel files; the resulting identities are therefore high confidence rather
+than confirmed. No full web page or PDF is committed or republished.
+
+| Person | Official source | Locator |
+|---|---|---|
+| Morris Berg | <https://www.cia.gov/stories/story/moe-berg-baseball-player/> | “The Brainiest Man in Baseball” and “Joining a Different Kind of Team” |
+| Virginia Hall | <https://www.cia.gov/resources/csi/static/7851e16f9e100b6f9cc4ef002028ce2f/Office-of-Strategic-Services.pdf> | PDF page 11, visually checked against the rendered page |
+| Richard M. Helms | <https://www.cia.gov/resources/csi/static/Richard-Helms-Intel-Professional.pdf> | PDF pages 3–4, visually checked against the rendered pages |
+| William E. Colby | <https://www.cia.gov/legacy/museum/artifact/office-of-strategic-services-compass/> | Artifact video transcript |
+
+The project stores citation metadata, project-authored paraphrases, and
+excerpts of no more than 25 words. It preserves the institutional histories'
+limits: no civilian employer is inferred for Colby, Hall's unnamed ambulance
+service is not reclassified as employment, and Berg's Red Sox last-employer
+claim remains visibly qualified because his law-firm end date is unstated.
+
 ## Official reference material
 
 - NARA OSS personnel records:

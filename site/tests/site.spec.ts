@@ -123,3 +123,67 @@ test("the reviewed NARA batch preserves each person's distinct pre-OSS pathway",
     ).toHaveAttribute("href", `https://catalog.archives.gov/id/${profile.catalogId}`);
   }
 });
+
+test("the reviewed CIA batch distinguishes military, government, and civilian pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "491ada54-8954-5518-b03e-88e0ed92d573",
+      name: "Morris Berg",
+      immediate: "Office of Inter-American Affairs",
+      lastCivilian: "Boston Red Sox",
+      source: "Moe Berg: Baseball Player, Linguist, Lawyer, Intel Officer",
+    },
+    {
+      id: "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4",
+      name: "Virginia Hall",
+      immediate: "Special Operations Executive",
+      source: "The Office of Strategic Services: America's First Intelligence Agency",
+    },
+    {
+      id: "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
+      name: "Richard M Helms",
+      immediate: "United States Naval Reserve",
+      lastCivilian: "The Indianapolis Times",
+      source: "Richard Helms: The Intelligence Professional Personified",
+    },
+    {
+      id: "7a26fb60-b1e2-5377-9092-f16406580dfd",
+      name: "William E Colby",
+      immediate: "United States Army",
+      source: "Office of Strategic Services Compass",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.immediate, exact: true }).first(),
+    ).toBeVisible();
+    const civilianSection = page.locator(
+      'section[aria-labelledby="civilian-employer"]',
+    );
+    if (profile.lastCivilian) {
+      await expect(
+        civilianSection.getByRole("heading", {
+          name: profile.lastCivilian,
+          exact: true,
+        }),
+      ).toBeVisible();
+    } else {
+      await expect(
+        civilianSection.getByText(
+          "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+          { exact: true },
+        ),
+      ).toBeVisible();
+    }
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toHaveAttribute("href", /cia\.gov/);
+  }
+});

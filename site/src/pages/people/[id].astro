@@ -135,7 +135,20 @@ const affiliationMeta = (item: Affiliation) => {
                 </article>
               ))
             ) : (
-              <p>No reviewed claim currently meets the publication threshold.</p>
+              <p>
+                {
+                  profile.research_status === "verified_employer_found" ||
+                  profile.research_status ===
+                    "documented_prewar_employer_found" ||
+                  profile.research_status ===
+                    "no_reliable_result_after_protocol" ||
+                  profile.research_status === "completed"
+                    ? "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+                    : profile.research_attempt_count > 0
+                      ? "No reviewed claim currently meets the publication threshold."
+                      : "The last-civilian-employer question has not yet been researched for this record."
+                }
+              </p>
             )
           }
         </section>
