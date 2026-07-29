@@ -28,8 +28,16 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 
 ## Production deployment
 
-Production deployment checks for this candidate release are pending its push to
-`main`. The local GitHub Pages base-path build and internal link check passed.
+The GitHub Pages deployment for research release commit `046a4c9` completed
+successfully. Live checks returned HTTP 200 for:
+
+- the home page;
+- the reviewed Mort S. Bobrow profile;
+- `data/stats.json`; and
+- the public personnel CSV download.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 75 people
+with non-planned research attempts, 3 published claims, and 2 public sources.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
