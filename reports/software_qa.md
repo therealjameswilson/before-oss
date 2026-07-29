@@ -2,7 +2,7 @@
 
 Run: 2026-07-29 UTC
 
-- Python unit tests: **28 / 28 passed**
+- Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,002 pages**
@@ -17,6 +17,10 @@ Run: 2026-07-29 UTC
 - Reviewed public sources: **45** records representing **44** unique documents
 - Published, qualified affiliations: **67**
 - Published claims: **99**
+- Verified-affiliation metric: **24** people with confirmed/high published
+  evidence of any modeled pre-OSS relationship
+- Verified-employer metric: **10** people with confirmed/high published
+  employment or self-employment evidence
 - GitHub Actions test workflow
   [30439255152](https://github.com/therealjameswilson/before-oss/actions/runs/30439255152)
   for research release `a46ae1f`: **passed**
@@ -32,3 +36,7 @@ did not affect either workflow result.
 The initial dependency range resolved to an older Astro major with current
 security advisories. The project was upgraded to Astro 7.1.5 and sharp 0.35.3;
 the production audit then passed.
+
+The metric regression test verifies that student, military, government,
+volunteer, and professional affiliations do not inflate verified-employer
+coverage.

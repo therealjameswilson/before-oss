@@ -70,10 +70,13 @@ const base = import.meta.env.BASE_URL;
           </p>
         </article>
         <article class="stat-card stat-card--olive">
-          <p class="stat-card__label">Verified affiliation found</p>
+          <p class="stat-card__label">Verified employer found</p>
           <p class="stat-card__value">{stats.verified_employer_percent.toFixed(4)}%</p>
           <p class="stat-card__detail">
-            Confirmed/high published immediate or last-civilian affiliations only.
+            {Number(stats.verified_employer_people).toLocaleString("en-US")} people
+            have confirmed/high published employment or self-employment evidence.
+            The broader verified-affiliation measure is{" "}
+            {Number(stats.verified_affiliation_people).toLocaleString("en-US")}.
           </p>
         </article>
         <article class="stat-card stat-card--muted">

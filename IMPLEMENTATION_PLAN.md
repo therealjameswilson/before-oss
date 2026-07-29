@@ -11,9 +11,11 @@ separate:
 1. index coverage - printed PDF rows preserved and validated;
 2. research-attempt coverage - people receiving the documented minimum
    research protocol;
-3. verified-employer coverage - people with published confirmed or
-   high-confidence claims;
-4. archival-review coverage - people whose indexed personnel file status and
+3. verified-affiliation coverage - people with any published confirmed or
+   high-confidence pre-OSS affiliation;
+4. verified-employer coverage - people with published confirmed or
+   high-confidence employment or self-employment evidence;
+5. archival-review coverage - people whose indexed personnel file status and
    physical-review need have been assessed.
 
 Extraction or an automated query never counts as completed historical research.

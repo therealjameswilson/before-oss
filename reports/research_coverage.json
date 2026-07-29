@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T09:11:55+00:00",
+  "generated_at": "2026-07-29T09:30:04+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -10,10 +10,15 @@
     "people_with_nonplanned_attempts": 100,
     "percent": 0.4177
   },
-  "verified_employer_coverage": {
+  "verified_affiliation_coverage": {
     "person_entities": 23941,
     "people_with_confirmed_or_high_published_affiliation": 24,
     "percent": 0.1002
+  },
+  "verified_employer_coverage": {
+    "person_entities": 23941,
+    "people_with_confirmed_or_high_published_employer": 10,
+    "percent": 0.0418
   },
   "archival_review_coverage": {
     "person_entities": 23941,

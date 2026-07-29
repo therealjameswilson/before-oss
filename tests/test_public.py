@@ -9,6 +9,7 @@ from oss_research.public import (
     mask_serial,
     public_source_row,
     verified_affiliation_person_count,
+    verified_employer_person_count,
 )
 
 
@@ -59,6 +60,7 @@ class PublicProjectionTests(unittest.TestCase):
                     {
                         "claim_confidence": "medium",
                         "publication_status": "publish_qualified",
+                        "relationship_type": "student",
                     }
                 ],
                 "last_civilian_pre_service": [],
@@ -70,12 +72,54 @@ class PublicProjectionTests(unittest.TestCase):
                     {
                         "claim_confidence": "high",
                         "publication_status": "publish_qualified",
+                        "relationship_type": "military_assignment",
                     }
                 ],
                 "other_pre_oss_affiliations": [],
             },
         ]
         self.assertEqual(verified_affiliation_person_count(profiles), 1)
+
+    def test_nonemployment_affiliation_does_not_count_as_verified_employer(
+        self,
+    ) -> None:
+        profiles = [
+            {
+                "immediate_pre_oss_affiliations": [
+                    {
+                        "claim_confidence": "high",
+                        "publication_status": "published",
+                        "relationship_type": "student",
+                    }
+                ],
+                "last_civilian_pre_service": [],
+                "other_pre_oss_affiliations": [],
+            },
+            {
+                "immediate_pre_oss_affiliations": [],
+                "last_civilian_pre_service": [
+                    {
+                        "claim_confidence": "confirmed",
+                        "publication_status": "published",
+                        "relationship_type": "employment",
+                    }
+                ],
+                "other_pre_oss_affiliations": [],
+            },
+            {
+                "immediate_pre_oss_affiliations": [],
+                "last_civilian_pre_service": [],
+                "other_pre_oss_affiliations": [
+                    {
+                        "claim_confidence": "high",
+                        "publication_status": "publish_qualified",
+                        "relationship_type": "self_employment",
+                    }
+                ],
+            },
+        ]
+        self.assertEqual(verified_affiliation_person_count(profiles), 3)
+        self.assertEqual(verified_employer_person_count(profiles), 2)
 
 
 if __name__ == "__main__":

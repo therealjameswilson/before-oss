@@ -20,7 +20,8 @@ is not complete, and the site reports that limitation explicitly.
 - 202 possible duplicate groups, including 37 narrow automatic consolidations
 - 75-person stratified research pilot, 4 reviewed NARA personnel files, and 21
   reviewed official-web profiles, with 1,089 source attempts or plans
-- 24 verified-affiliation profiles and 26 individually assessed archival files
+- 24 verified-affiliation profiles, including 10 with verified employment or
+  self-employment, and 26 individually assessed archival files
 - 67 published affiliations, 99 published claims, and 45 cited source records
 - 23,841 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research

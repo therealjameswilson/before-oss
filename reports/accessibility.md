@@ -23,7 +23,9 @@ Routes tested at all three sizes:
 Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
-2 A/AA and 2.1 A/AA axe rules. The fifteen researched-profile cases verify that
+2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
+10-person employer measure is labeled separately from the 24-person broader
+affiliation measure. The fifteen researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
 employer, and that the reviewed Bunche, Casey, Goldberg, and Hayden profiles

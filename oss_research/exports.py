@@ -210,12 +210,21 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         WHERE outcome NOT IN ('planned', 'skipped_budget')
         """
     )
-    verified_people = scalar(
+    verified_affiliation_people = scalar(
         """
         SELECT COUNT(DISTINCT person_id)
         FROM affiliations
         WHERE publication_status IN ('published', 'publish_qualified')
           AND claim_confidence IN ('confirmed', 'high')
+        """
+    )
+    verified_employer_people = scalar(
+        """
+        SELECT COUNT(DISTINCT person_id)
+        FROM affiliations
+        WHERE publication_status IN ('published', 'publish_qualified')
+          AND claim_confidence IN ('confirmed', 'high')
+          AND relationship_type IN ('employment', 'self_employment')
         """
     )
     archival_assessed = scalar(
@@ -273,10 +282,21 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
             "people_with_nonplanned_attempts": attempted_people,
             "percent": round(100 * attempted_people / people, 4) if people else 0,
         },
+        "verified_affiliation_coverage": {
+            "person_entities": people,
+            "people_with_confirmed_or_high_published_affiliation":
+                verified_affiliation_people,
+            "percent": round(
+                100 * verified_affiliation_people / people, 4
+            ) if people else 0,
+        },
         "verified_employer_coverage": {
             "person_entities": people,
-            "people_with_confirmed_or_high_published_affiliation": verified_people,
-            "percent": round(100 * verified_people / people, 4) if people else 0,
+            "people_with_confirmed_or_high_published_employer":
+                verified_employer_people,
+            "percent": round(
+                100 * verified_employer_people / people, 4
+            ) if people else 0,
         },
         "archival_review_coverage": {
             "person_entities": people,
@@ -327,7 +347,11 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         f"({report['index_coverage']['percent_linked']:.4f}%).",
         f"- Research-attempt coverage: **{attempted_people:,} / {people:,}** people "
         f"({report['research_attempt_coverage']['percent']:.4f}%).",
-        f"- Verified-employer coverage: **{verified_people:,} / {people:,}** people "
+        f"- Verified-affiliation coverage: "
+        f"**{verified_affiliation_people:,} / {people:,}** people "
+        f"({report['verified_affiliation_coverage']['percent']:.4f}%).",
+        f"- Verified-employer coverage: "
+        f"**{verified_employer_people:,} / {people:,}** people "
         f"({report['verified_employer_coverage']['percent']:.4f}%).",
         f"- Archival-review coverage: **{archival_assessed:,} / {people:,}** people "
         f"({report['archival_review_coverage']['percent']:.4f}%).",

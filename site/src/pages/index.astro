@@ -8,6 +8,7 @@ const attempted = Number(stats.research_attempted_people).toLocaleString("en-US"
 const people = Number(stats.person_entities).toLocaleString("en-US");
 const sourceRows = Number(stats.source_rows).toLocaleString("en-US");
 const verified = Number(stats.verified_employer_people).toLocaleString("en-US");
+const verifiedAffiliations = Number(stats.verified_affiliation_people).toLocaleString("en-US");
 const archival = Number(stats.archival_review_assessed_people).toLocaleString("en-US");
 const notStarted = Number(stats.research_status_counts.not_started ?? 0);
 ---
@@ -65,9 +66,10 @@ const notStarted = Number(stats.research_status_counts.not_started ?? 0);
       <p class="kicker">Coverage, not completion theater</p>
       <h2>Four measures. Four different questions.</h2>
       <p class="lede">
-        Index preservation, research attempts, verified affiliations, and
+        Index preservation, research attempts, verified employers, and
         archival review are reported independently. A successful extraction or
-        automated query never becomes an employer claim.
+        automated query never becomes an employer claim. The broader affiliation
+        measure currently covers {verifiedAffiliations} entities.
       </p>
       <div class="stat-grid">
         <StatCard
@@ -83,9 +85,9 @@ const notStarted = Number(stats.research_status_counts.not_started ?? 0);
           tone="rust"
         />
         <StatCard
-          label="Verified affiliation found"
+          label="Verified employer found"
           value={`${stats.verified_employer_percent.toFixed(2)}%`}
-          detail={`${verified} entities currently have a confirmed/high published immediate or last-civilian affiliation.`}
+          detail={`${verified} entities currently have confirmed/high published employment or self-employment evidence.`}
           tone="olive"
         />
         <StatCard

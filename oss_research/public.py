@@ -57,8 +57,9 @@ def verified_affiliation_person_count(
 ) -> int:
     """Count people with publishable confirmed/high affiliations.
 
-    Medium-confidence affiliations may be displayed with qualification, but
-    they must not inflate the default verified-employer coverage measure.
+    This intentionally includes non-employment relationships such as military
+    assignments and student status. It is a broader measure than verified
+    employer coverage.
     """
     count = 0
     for profile in profiles:
@@ -71,6 +72,29 @@ def verified_affiliation_person_count(
             affiliation["claim_confidence"] in {"confirmed", "high"}
             and affiliation["publication_status"]
             in {"published", "publish_qualified"}
+            for affiliation in affiliations
+        ):
+            count += 1
+    return count
+
+
+def verified_employer_person_count(
+    profiles: list[dict[str, object]],
+) -> int:
+    """Count people with publishable confirmed/high employment relationships."""
+    count = 0
+    for profile in profiles:
+        affiliations = [
+            *profile["immediate_pre_oss_affiliations"],
+            *profile["last_civilian_pre_service"],
+            *profile["other_pre_oss_affiliations"],
+        ]
+        if any(
+            affiliation["claim_confidence"] in {"confirmed", "high"}
+            and affiliation["publication_status"]
+            in {"published", "publish_qualified"}
+            and affiliation["relationship_type"]
+            in {"employment", "self_employment"}
             for affiliation in affiliations
         ):
             count += 1
@@ -429,7 +453,8 @@ def build_public_data(
         for profile in profiles
         if profile["research_attempt_count"] > 0
     )
-    verified_people = verified_affiliation_person_count(profiles)
+    verified_affiliation_people = verified_affiliation_person_count(profiles)
+    verified_employer_people = verified_employer_person_count(profiles)
     archival_assessed = sum(
         1
         for profile in profiles
@@ -456,9 +481,13 @@ def build_public_data(
         "research_attempt_percent": round(
             100 * attempted_people / people_count, 4
         ) if people_count else 0,
-        "verified_employer_people": verified_people,
+        "verified_affiliation_people": verified_affiliation_people,
+        "verified_affiliation_percent": round(
+            100 * verified_affiliation_people / people_count, 4
+        ) if people_count else 0,
+        "verified_employer_people": verified_employer_people,
         "verified_employer_percent": round(
-            100 * verified_people / people_count, 4
+            100 * verified_employer_people / people_count, 4
         ) if people_count else 0,
         "archival_review_assessed_people": archival_assessed,
         "archival_review_percent": round(
@@ -474,7 +503,10 @@ def build_public_data(
         "nara_api_attribution_required": bool(public_sources),
         "analytics_policy": (
             "Default employer analytics count unique person entities with "
-            "confirmed or high-confidence published affiliations only."
+            "confirmed or high-confidence published employment or "
+            "self-employment affiliations only. Verified-affiliation coverage "
+            "is reported separately and may include military, government, "
+            "student, volunteer, or professional relationships."
         ),
     }
 
@@ -628,7 +660,8 @@ def build_public_data(
         "published_claims": stats["published_claims"],
         "public_sources": len(public_sources),
         "research_attempted_people": attempted_people,
-        "verified_employer_people": verified_people,
+        "verified_affiliation_people": verified_affiliation_people,
+        "verified_employer_people": verified_employer_people,
         "archival_review_assessed_people": archival_assessed,
         "redaction_checks_passed": not leaked_tokens,
     }

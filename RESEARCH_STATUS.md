@@ -8,7 +8,8 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
 | Research-attempt coverage | 100 people with a non-planned attempt | 23,941 person entities | 0.4177% |
-| Verified-employer coverage | 24 people with a confirmed/high published affiliation | 23,941 person entities | 0.1002% |
+| Verified-affiliation coverage | 24 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.1002% |
+| Verified-employer coverage | 10 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.0418% |
 | Archival-review coverage | 26 people with an individual file-access/priority assessment | 23,941 person entities | 0.1086% |
 
 ## Extraction and identity
@@ -75,8 +76,9 @@ Commissioned classification: 2,084 yes; 4,939 no; 16,918 indeterminate.
 - NARA pull-list rows: 23,958
 
 Planned dry-run requests do not count as research-attempt coverage.
-Medium-confidence published affiliations do not count as verified-employer
-coverage.
+Medium-confidence evidence does not count toward either verified measure.
+Student, military, government, volunteer, and professional relationships count
+toward verified-affiliation coverage but not verified-employer coverage.
 
 ## Current blockers
 

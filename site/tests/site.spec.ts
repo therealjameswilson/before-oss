@@ -11,6 +11,11 @@ test("home reports the complete index and incomplete research honestly", async (
   await page.goto("./");
   await expect(page.getByRole("heading", { name: /Who were they before OSS/i })).toBeVisible();
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText(/10 entities currently have confirmed\/high published employment or self-employment evidence/i),
+  ).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 24 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
