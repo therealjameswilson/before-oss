@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 66 / 66 browser cases.**
+**PASS - 69 / 69 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-20-person employer measure is labeled separately from the 39-person broader
+24-person employer measure is labeled separately from the 48-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -65,11 +65,24 @@ Peter M. Sichel index rows at all three viewport sizes. It checks distinct
 civilian, government, and military pathways, qualified academic employment,
 claim-level official citations, and the visible duplicate-row caution that
 keeps the two Sichel entities separate.
+Batch 010 verifies Aaron Bank, Arthur M. Schlesinger Jr., John K. Singlaub,
+John King Fairbank, Walt W. Rostow, Roger Hilsman Jr., Lyman B. Kirkpatrick
+Jr., Ray S. Cline, Paul Mellon, and the unresolved Archimedes L. Patti profile
+at all three viewport sizes. It checks the separation of military and
+government assignments from civilian employment, the treatment of a fellowship
+as a professional affiliation rather than an employer, qualified earlier work,
+and the explicit archival-review path where accessible official sources do not
+establish the pre-OSS transition.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
 complete suite was rerun. Final result: zero serious or critical axe violations
 on the tested routes and viewports.
+
+The Batch 010 regression run initially lost its local preview server between
+viewport projects under four-worker concurrency. All resulting failures were
+connection refusals. The complete suite was rerun against one isolated preview
+with one browser worker and passed 69 / 69; no assertion or axe failure remained.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

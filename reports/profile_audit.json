@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:49:31+00:00",
+  "generated_at": "2026-07-29T11:21:47+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -12,46 +12,46 @@
     "commissioned_categories_consistent": true
   },
   "personnel_category_counts": {
-    "civilian_professional_or_administrative_grade": 22,
-    "commissioned_army_officer": 32,
+    "civilian_professional_or_administrative_grade": 23,
+    "commissioned_army_officer": 35,
     "commissioned_marine_corps_officer": 2,
-    "commissioned_naval_officer": 6,
-    "enlisted_army_personnel": 28,
+    "commissioned_naval_officer": 5,
+    "enlisted_army_personnel": 27,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 19,
-    "unknown_or_indeterminate": 83,
+    "unknown_or_indeterminate": 81,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 76,
-    "2": 57,
-    "3": 27,
+    "1": 78,
+    "2": 54,
+    "3": 28,
     "4": 40
   },
   "identity_status_counts": {
     "ambiguous": 1,
-    "confirmed": 2,
-    "high_confidence": 26,
+    "confirmed": 1,
+    "high_confidence": 27,
     "probable": 2,
     "unresolved": 169
   },
   "research_status_counts": {
-    "documented_prewar_employer_found": 1,
+    "documented_prewar_employer_found": 2,
     "in_progress": 8,
     "needs_identity_review": 3,
-    "not_started": 177,
-    "requires_archival_review": 1,
-    "verified_employer_found": 10
+    "not_started": 174,
+    "requires_archival_review": 2,
+    "verified_employer_found": 11
   },
   "special_strata_counts": {
-    "commissioned": 41,
-    "civilian": 22,
-    "enlisted": 32,
+    "commissioned": 43,
+    "civilian": 23,
+    "enlisted": 31,
     "allied_or_foreign": 21,
     "incomplete_or_initial_only_name": 20,
-    "possible_duplicate_group": 40,
-    "confirmed_or_high_published_claim": 13,
-    "medium_published_claim": 8,
+    "possible_duplicate_group": 37,
+    "confirmed_or_high_published_claim": 16,
+    "medium_published_claim": 10,
     "conflicting_published_claim": 0,
     "unresolved_identity": 169
   },
@@ -238,27 +238,27 @@
     "37fccf8f-54be-547d-b7a7-0b2edd06f719",
     "2f189352-aabb-5d3e-899c-ffaafef19aad",
     "7227c423-8f14-5430-9824-e79ccac87230",
+    "6dff4a3a-1141-5a4c-8a77-2ea2a7c99ab0",
     "ca5f3b27-4bb6-598b-af15-e7070a5c38a9",
     "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
     "f55e8419-afd7-5470-87df-4786454accba",
     "990ec032-d116-5a93-bace-517a5dbc9c6d",
+    "4ed9479d-32f1-5c48-9d6e-645d0405c42f",
     "2c99f3a1-3b85-543b-b2e0-0cb69b197ded",
+    "c490f753-bc95-59f6-8f99-7ab2d2455293",
     "b2850942-a685-52d7-bb47-43a368d1b665",
     "6b90e0e8-f17e-585f-8d21-ecde2a323f1b",
     "013a1f06-583e-5f24-900b-332459b484db",
     "f10209b9-429e-568b-aaec-7310078b0915",
-    "5bb9f08a-0dc5-5b05-bf5c-3501904dd704",
-    "e320d8b6-f26d-571e-8c55-cf3d3a467fd6",
-    "09d4744e-7bc4-50da-9706-b4965ff089f1",
-    "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
-    "c353768b-d393-5b1c-92ba-47d7cbfe28dc",
     "db23d265-0e22-5004-96ad-ab1762b43b92",
+    "b6f213df-1110-5f54-8821-8787886a7633",
     "4f5707b0-a4d3-5fb1-940e-223b8d0e0d41",
     "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
     "21a6b6f2-5daa-5569-826e-6d193f387d4a",
     "221b804d-039b-5da1-ad65-c62ea650a63b",
     "3566565e-bc22-57c6-945e-88a7c8983bfc",
     "8061a334-7c98-5f3e-9e20-d8771f19bd50",
-    "1bf7bd5e-a790-51d0-9a46-e6046cab07f2"
+    "1bf7bd5e-a790-51d0-9a46-e6046cab07f2",
+    "d66cd8d4-b1c4-5dff-9432-a69a90e7caa4"
   ]
 }

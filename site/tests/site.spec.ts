@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/20 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/24 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 39 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 48 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -701,5 +701,117 @@ test("Batch 009 preserves civilian, military, government, and duplicate-row boun
       "The Peter M. Sichel row remains separate from the adjacent Peter M. F. Sichel row pending direct service-number linkage.",
       { exact: true },
     ),
+  ).toBeVisible();
+});
+
+test("Batch 010 preserves military, government, civilian-employer, fellowship, and unresolved boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "b6f213df-1110-5f54-8821-8787886a7633",
+      name: "Aaron Bank",
+      immediate: "Unspecified Transportation Railroad Battalion",
+      earlier: "Unidentified resort in Biarritz",
+      source: "Colonel Aaron Bank: 1902-2004",
+    },
+    {
+      id: "7f111cc6-d046-5eac-93ab-63f6387c204b",
+      name: "Arthur M Schlesinger",
+      immediate: "United States Office of War Information",
+      earlier: "Harvard Society of Fellows",
+      source: "Schlesinger, Arthur Meier, Jr., 1917-2007",
+    },
+    {
+      id: "e972f0e6-54f0-5b2e-a07c-035c83718850",
+      name: "John K Singlaub",
+      immediate: "515th Parachute Infantry Regiment",
+      source: "Interview with Maj. Gen. John K. Singlaub, U.S. Army, Ret.",
+    },
+    {
+      id: "e091453b-28d3-5f35-a907-415c62dfc364",
+      name: "John King Fairbank",
+      lastCivilian: "Harvard University",
+      source: "John K. Fairbank: The Life of John King Fairbank",
+    },
+    {
+      id: "6dff4a3a-1141-5a4c-8a77-2ea2a7c99ab0",
+      name: "Walt W Rostow",
+      lastCivilian: "Columbia University",
+      source: "Walt Rostow, 86; Top Advisor on Vietnam",
+    },
+    {
+      id: "4ed9479d-32f1-5c48-9d6e-645d0405c42f",
+      name: "Roger Hilsman",
+      immediate: "5307th Composite Unit (Provisional)",
+      source: "Roger Hilsman, foreign policy adviser to JFK, dies at 94",
+    },
+    {
+      id: "a48e130d-4c6d-58b0-9257-bc88435ed84b",
+      name: "Lyman B Kirkpatrick",
+      immediate: "United States Army",
+      lastCivilian: "United States News",
+      source: "Lyman Bickford Kirkpatrick Jr. '38",
+    },
+    {
+      id: "d8754b27-3c32-5445-a5fe-063299aa869c",
+      name: "Ray S Cline",
+      immediate: "United States Department of the Navy",
+      earlier: "Harvard Society of Fellows",
+      source: "Ray S. Cline Papers",
+    },
+    {
+      id: "12930941-5301-558f-9ded-a45a0d6e4b82",
+      name: "Paul Mellon",
+      immediate: "United States Army",
+      earlier: "Mellon Bank (historical name as found)",
+      source: "Paul Mellon, Founder",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    if (profile.immediate) {
+      await expect(
+        page
+          .locator('section[aria-labelledby="immediate-affiliation"]')
+          .getByRole("heading", { name: profile.immediate, exact: true }),
+      ).toBeVisible();
+    }
+    if (profile.lastCivilian) {
+      await expect(
+        page
+          .locator('section[aria-labelledby="civilian-employer"]')
+          .getByRole("heading", { name: profile.lastCivilian, exact: true }),
+      ).toBeVisible();
+    }
+    if (profile.earlier) {
+      await expect(
+        page
+          .locator('section[aria-labelledby="earlier-affiliations"]')
+          .getByRole("heading", { name: profile.earlier, exact: true }),
+      ).toBeVisible();
+    }
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/c490f753-bc95-59f6-8f99-7ab2d2455293/");
+  await expect(
+    page.getByRole("heading", { name: "Archimedes L Patti", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText(
+      "Review Box 589 and Army personnel records to establish the immediate pre-OSS assignment and last civilian employer.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "OSS in Action: The Pacific and the Far East", exact: true }),
   ).toBeVisible();
 });
