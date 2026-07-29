@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/65 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/70 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 99 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 104 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2024,4 +2024,80 @@ test("Batch 021 separates academic, Federal Reserve, NBER, and OPA pathways", as
       .locator('section[aria-labelledby="earlier-affiliations"]')
       .getByRole("heading", { name: "Harvard University", exact: true }),
   ).toBeVisible();
+});
+
+test("Batch 022 separates museum, university, research, and student pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/1147408f-3793-5ab4-9176-58a04dd8ad5f/");
+  await expect(
+    page.getByRole("heading", { name: "Gregory Bateson", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "The Museum of Modern Art", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/ae597b0c-6982-5c47-8b87-f74cfb29b92c/");
+  await expect(
+    page.getByRole("heading", { name: "John F Embree", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "University of Toronto", exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "University of Hawaii", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/90b3258d-f890-5535-982f-6fd2b275caf9/");
+  await expect(
+    page.getByRole("heading", { name: "Ralph Linton", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Columbia University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/0c060ee9-da85-5446-94b6-77bc939fd231/");
+  await expect(
+    page.getByRole("heading", { name: "Rhoda Metraux", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "National Research Council", exact: true }),
+    ).toBeVisible();
+  }
+  for (const organization of ["Oxford University Press", "Yale University"]) {
+    await expect(
+      page
+        .locator('section[aria-labelledby="earlier-affiliations"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/59eb0f93-2dc1-51db-8fe3-100a43fef801/");
+  await expect(
+    page.getByRole("heading", { name: "Raymond Kennedy", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Yale University", exact: true }),
+    ).toBeVisible();
+  }
 });

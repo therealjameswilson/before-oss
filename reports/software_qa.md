@@ -5,23 +5,23 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,089 pages**
-- Internal link check: **24,089 HTML files passed**
-- Browser and accessibility suite: **102 / 102 passed**
+- Static production build: **24,094 pages**
+- Internal link check: **24,094 HTML files passed**
+- Browser and accessibility suite: **105 / 105 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`e50efb97b65ba703655b53bcd130311470f1deb0814a1e8b7ec9169ebfebd5f0`)
+  (`df3d01bb9ac6b14b7d0fcc8bc00be9a4929df24ad1a6ceafe5a3ecf4930e49c2`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **252** public records representing **236** unique documents
-- Published, qualified affiliations: **208**
-- Published claims: **324**
-- Verified-affiliation metric: **99** people with confirmed/high published
+- Reviewed public sources: **266** public records representing **248** unique documents
+- Published, qualified affiliations: **216**
+- Published claims: **337**
+- Verified-affiliation metric: **104** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **65** people with confirmed/high published
+- Verified-employer metric: **70** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -90,3 +90,8 @@ kept distinct from an earlier Federal Reserve Bank employer, overlapping NBER
 and OPA appointments, and approved unresolved-employer wording where Barrington
 Moore Jr.'s accessible institutional biography establishes student status but
 not a pre-OSS employer.
+Batch 022 adds checks for MoMA employment followed by OSS service, University
+of Toronto employment kept distinct from an earlier University of Hawaii
+appointment, continuing Columbia and Yale faculty appointments, and Rhoda
+Métraux's National Research Council employment kept separate from her earlier
+Oxford University Press employment and Yale student status.

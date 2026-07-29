@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:19:54+00:00",
+  "generated_at": "2026-07-29T17:48:56+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -12,8 +12,8 @@
     "commissioned_categories_consistent": true
   },
   "personnel_category_counts": {
-    "civilian_professional_or_administrative_grade": 24,
-    "commissioned_army_officer": 30,
+    "civilian_professional_or_administrative_grade": 25,
+    "commissioned_army_officer": 29,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 5,
     "enlisted_army_personnel": 26,
@@ -23,8 +23,8 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 79,
-    "2": 52,
+    "1": 78,
+    "2": 53,
     "3": 30,
     "4": 39
   },
@@ -38,19 +38,19 @@
     "documented_prewar_employer_found": 3,
     "in_progress": 7,
     "needs_identity_review": 2,
-    "not_started": 173,
+    "not_started": 172,
     "occupation_only_found": 1,
     "requires_archival_review": 1,
-    "verified_employer_found": 13
+    "verified_employer_found": 14
   },
   "special_strata_counts": {
-    "commissioned": 40,
-    "civilian": 24,
+    "commissioned": 38,
+    "civilian": 25,
     "enlisted": 30,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
-    "possible_duplicate_group": 31,
-    "confirmed_or_high_published_claim": 21,
+    "possible_duplicate_group": 30,
+    "confirmed_or_high_published_claim": 22,
     "medium_published_claim": 10,
     "conflicting_published_claim": 0,
     "unresolved_identity": 172
@@ -234,16 +234,16 @@
     "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
     "30f0d68c-d021-5e23-8f16-99496a0f99a5",
     "37fccf8f-54be-547d-b7a7-0b2edd06f719",
+    "1147408f-3793-5ab4-9176-58a04dd8ad5f",
     "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
     "2f189352-aabb-5d3e-899c-ffaafef19aad",
     "7227c423-8f14-5430-9824-e79ccac87230",
     "d633583e-637d-519b-a417-0eeb7ee8305b",
     "690eab64-a21e-57dc-ae33-6dc576d5ea07",
+    "59eb0f93-2dc1-51db-8fe3-100a43fef801",
     "c974e4f4-d9ea-5e9f-bcef-8bb019cb9f1f",
     "1adc6b42-2c4d-5611-ba6e-8cdbfd8ac6e0",
     "6dff4a3a-1141-5a4c-8a77-2ea2a7c99ab0",
-    "cae068be-d703-5d95-adc7-a645430834fd",
-    "ca5f3b27-4bb6-598b-af15-e7070a5c38a9",
     "a9b1ec13-509a-57f2-bb04-d2453d49e908",
     "db23d265-0e22-5004-96ad-ab1762b43b92",
     "232b3c0e-0988-59b0-a34c-9984cc3170c8",
