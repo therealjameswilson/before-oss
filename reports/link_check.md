@@ -32,23 +32,23 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Pages deployment
-[30424573465](https://github.com/therealjameswilson/before-oss/actions/runs/30424573465)
-for research release `a3a707e` completed successfully.
+[30427618940](https://github.com/therealjameswilson/before-oss/actions/runs/30427618940)
+for research release `c1fef9f` completed successfully.
 
-Live checks returned HTTP 200 for all five tested targets:
+Live checks returned HTTP 200 for all seven tested targets:
 
 - the home page;
-- the confirmed Julia C. McWilliams profile;
-- the reviewed Mort S. Bobrow profile;
+- the reviewed Ralph J. Bunche profile;
+- the reviewed William J. Casey profile;
+- the reviewed Arthur J. Goldberg profile;
+- the reviewed Sterling W. Hayden profile;
 - `data/stats.json`; and
 - the public personnel CSV download.
 
-The live McWilliams page has the production canonical URL, a prefilled
-production correction URL, the direct NAID 2180661 Catalog link, and the
-separate immediate and last-civilian affiliations. The live statistics report
-23,978 source rows, 23,941 person entities, 75 people with non-planned research
-attempts, 1 verified-employer person, 12 published claims, and 4 public source
-documents.
+Each of the four new live profiles displays the expected immediate affiliation
+and direct NARA Catalog link. The live statistics report 23,978 source rows,
+23,941 person entities, 79 people with non-planned research attempts, 5
+verified-employer people, 35 published claims, and 8 public source documents.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
