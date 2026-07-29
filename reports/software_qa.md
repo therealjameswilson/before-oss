@@ -5,9 +5,9 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,061 pages**
-- Internal link check: **24,061 HTML files passed**
-- Browser and accessibility suite: **84 / 84 passed**
+- Static production build: **24,069 pages**
+- Internal link check: **24,069 HTML files passed**
+- Browser and accessibility suite: **87 / 87 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
 - Public redaction build: **passed**
@@ -15,20 +15,20 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **169** public records representing **164** unique documents
-- Published, qualified affiliations: **156**
-- Published claims: **237**
-- Verified-affiliation metric: **71** people with confirmed/high published
+- Reviewed public sources: **185** public records representing **178** unique documents
+- Published, qualified affiliations: **168**
+- Published claims: **256**
+- Verified-affiliation metric: **75** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **41** people with confirmed/high published
+- Verified-employer metric: **45** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30463056993](https://github.com/therealjameswilson/before-oss/actions/runs/30463056993)
-  for Batch 015 release `39c83f1`: **passed**
+  [30465318840](https://github.com/therealjameswilson/before-oss/actions/runs/30465318840)
+  for Batch 016 release `c63a137`: **passed**
 - GitHub Pages deployment workflow
-  [30463056894](https://github.com/therealjameswilson/before-oss/actions/runs/30463056894)
-  for Batch 015 release `39c83f1`: **passed**
+  [30465318369](https://github.com/therealjameswilson/before-oss/actions/runs/30465318369)
+  for Batch 016 release `c63a137`: **passed**
 - Production route smoke tests: **20 / 20 returned HTTP 200 and the expected content marker**
 
 GitHub emitted a non-blocking annotation that several official actions still
@@ -61,3 +61,7 @@ Batch 015 adds checks for an academic-to-government pathway, fashion employment,
 a medium-confidence academic predecessor, student status without an employer
 inference, and an unnamed printing business followed by three distinct military
 assignments.
+Batch 016 adds checks for an academic-to-Army pathway, a predecessor intelligence
+agency, a design-office recruitment, a qualified War Department transition,
+government design assignments, documented name variants, and an occupation-only
+result that does not invent an employing school system.
