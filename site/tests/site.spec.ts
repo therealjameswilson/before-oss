@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/80 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/83 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 116 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 120 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2355,4 +2355,116 @@ test("Batch 025 keeps the two Paul M Sweezy rows separate and withholds the biog
     expect(await page.locator("article.claim-card").count()).toBe(0);
     expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
   }
+});
+
+test("Batch 026 separates civilian work, military assignment, and student status for five women", async ({
+  page,
+}) => {
+  await page.goto("./people/9b51ae67-0705-5366-84d1-75d1266f4e1e/");
+  await expect(
+    page.getByRole("heading", { name: "Mary D Bancroft", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Self-employed", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Self-employed", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Reminiscences of Mary Bancroft, 1979-1980",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://researchworks.oclc.org/archivegrid/archiveComponent/269253002",
+  );
+
+  await page.goto("./people/dce57294-738d-5a94-980d-df3821ed4b3e/");
+  await expect(
+    page.getByRole("heading", { name: "Stephanie Czech", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Women's Army Corps", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Texas Oil Company", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/16cc0420-e809-5938-bbb5-042b165dcfc4/");
+  await expect(
+    page.getByRole("heading", { name: "Elizabeth P MacDonald", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Scripps-Howard News Service", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Honolulu Advertiser", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/614cf208-c223-5a74-b23d-f4d3edd1bfda/");
+  await expect(
+    page.getByRole("heading", { name: "Jane Foster", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Mills College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("student");
+  await expect(page.locator("body")).toContainText(
+    "No reliable named pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Transitioning into CIA: The Strategic Services Unit in Indonesia",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/resources/csi/static/Transitioning-into-CIA.pdf",
+  );
+
+  await page.goto("./people/128fcc95-79fa-5d1f-8893-90ba9c5defb6/");
+  await expect(
+    page.getByRole("heading", { name: "Stella T Uzdawinis", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Stella Uzdawinis's Office of Strategic Services Pendant",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/legacy/museum/artifact/stella-uzdawiniss-office-of-strategic-services-pendant/",
+  );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 203 people with a non-planned attempt | 23,941 person entities | 0.8479% |
-| Verified-affiliation coverage | 116 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.4845% |
-| Verified-employer coverage | 80 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3342% |
-| Archival-review coverage | 130 people with an individual file-access/priority assessment | 23,941 person entities | 0.5430% |
+| Research-attempt coverage | 208 people with a non-planned attempt | 23,941 person entities | 0.8688% |
+| Verified-affiliation coverage | 120 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.5012% |
+| Verified-employer coverage | 83 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3467% |
+| Archival-review coverage | 135 people with an individual file-access/priority assessment | 23,941 person entities | 0.5639% |
 
 ## Extraction and identity
 
@@ -22,35 +22,35 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 8
-- Identity status `high_confidence`: 153
+- Identity status `high_confidence`: 158
 - Identity status `probable`: 4
 - Identity status `ambiguous`: 3
-- Identity status `unresolved`: 23,773
+- Identity status `unresolved`: 23,768
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,657
+- Unknown or indeterminate: 16,652
 - Enlisted Army personnel: 3,455
-- Commissioned Army officers: 2,054
+- Commissioned Army officers: 2,055
 - Commissioned Marine Corps officers: 4
-- Civilian professional or administrative grades: 1,443
+- Civilian professional or administrative grades: 1,447
 - Foreign or Allied military personnel: 241
 - Enlisted naval personnel: 47
 - Commissioned naval officers: 36
 - Warrant officers: 4
 
-Commissioned classification: 2,096 yes; 4,954 no; 16,891 indeterminate.
+Commissioned classification: 2,097 yes; 4,958 no; 16,886 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,738
+- `not_started`: 23,733
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 5
 - `documented_prewar_employer_found`: 7
-- `occupation_only_found`: 2
-- `requires_archival_review`: 13
-- `verified_employer_found`: 90
+- `occupation_only_found`: 3
+- `requires_archival_review`: 14
+- `verified_employer_found`: 93
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -59,12 +59,12 @@ Commissioned classification: 2,096 yes; 4,954 no; 16,891 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 126 across 125 people; 10 additional
+- Saved `source_reviewed` outcomes: 130 across 129 people; 10 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,194
+- Total recorded attempts/plans: 1,199
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 130; 116 have at least one published
+- People with saved reviewed claims: 135; 133 have at least one published
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -98,15 +98,16 @@ Commissioned classification: 2,096 yes; 4,954 no; 16,891 indeterminate.
   Ralph Linton, Rhoda Métraux, Raymond Kennedy, James Phinney Baxter III, Saul
   K. Padover, C. Martin Wilbur, Charles F. Remer, Morris Janowitz, Edward A.
   Shils, Sterling Dow, Donald C. McKay, John L. Clive, Robert L. Wolff,
-  Preston E. James, Norman O. Brown, Leonard Krieger, and the two separately
-  preserved ambiguous Paul M. Sweezy index rows.
-- Published affiliations: 238
-- Database claims: 374; published claims: 372 (50 confirmed, 293 high, 29
+  Preston E. James, Norman O. Brown, Leonard Krieger, the two separately
+  preserved ambiguous Paul M. Sweezy index rows, Mary D. Bancroft, Stephanie
+  Czech Rader, Elizabeth P. MacDonald, Jane Foster, and Stella T. Uzdawinis.
+- Published affiliations: 244
+- Database claims: 388; published claims: 386 (50 confirmed, 307 high, 29
   medium); 2 low-confidence identity candidates are withheld
-- Citation records: 309; public source export: 302; unique source documents: 287
-- Canonical organizations: 152 private and 151 public
+- Citation records: 322; public source export: 315; unique source documents: 299
+- Canonical organizations: 156 private and 155 public
 - Conflicts: 0
-- NARA pull-list rows: 23,888
+- NARA pull-list rows: 23,885
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -167,6 +168,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_anthropologis
 python3 -m oss_research import-reviewed-evidence research/evidence_research-and-analysis-predecessor-pathways_batch-023_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_academic-to-oss-pathways_batch-024_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_academic-military-transitions_batch-025_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_women-pathways_batch-026_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

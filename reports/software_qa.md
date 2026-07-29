@@ -5,33 +5,33 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,100 pages**
-- Internal link check: **24,100 HTML files passed**
-- Browser and accessibility suite: **117 / 117 passed**
+- Static production build: **24,104 pages**
+- Internal link check: **24,104 HTML files passed**
+- Browser and accessibility suite: **120 / 120 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`e722145aed4a0433ff1f6e1f11ea8a1b14acf7da50a727cfef1473b33a54956a`)
+  (`b490df6bdc2a9ea870f40f6ef12e83c63f0388862681234d0745e69f08b2a7e5`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
+- Boundary-aware scan of **12,799** distinct normalized private service
+  numbers at least six characters long: **0 full-number matches** in
+  uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **302** public records representing **287** unique documents
-- Published, qualified affiliations: **238**
-- Published claims: **372**
+- Reviewed public sources: **315** public records representing **299** unique documents
+- Published, qualified affiliations: **244**
+- Published claims: **386**
 - Withheld low-confidence identity candidates: **2**
-- Verified-affiliation metric: **116** people with confirmed/high published
+- Verified-affiliation metric: **120** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **80** people with confirmed/high published
+- Verified-employer metric: **83** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30484301413](https://github.com/therealjameswilson/before-oss/actions/runs/30484301413)
-  for Batch 025 release `d34c3a8`: **passed**
-- GitHub Pages deployment workflow
-  [30484310452](https://github.com/therealjameswilson/before-oss/actions/runs/30484310452)
-  for Batch 025 release `d34c3a8`: **passed**
-- Production route and asset smoke tests: **21 / 21 returned HTTP 200 and the expected content marker or row count**
+- Batch 026 GitHub Actions test and Pages deployment workflows: **pending
+  release push**
+- Batch 026 production route and asset smoke tests: **pending release
+  deployment**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -114,3 +114,9 @@ Army-to-OSS transfer without an invented civilian employer, and two same-name
 rows that retain distinct masked service numbers. It also publishes
 identity-resolution notes for reviewed non-unresolved profiles while keeping
 the low-confidence Paul Marlor Sweezy candidates out of public claims.
+Batch 026 adds checks for freelance work modeled as self-employment, a
+Women’s Army Corps assignment kept separate from a civilian oil-company job,
+two newspaper employers kept in chronological order, Mills College modeled as
+student status rather than employment, and an unresolved pre-OSS employer
+routed to archival review. The five profile checks also verify item-level
+citations and continued service-number masking.

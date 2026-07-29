@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 117 / 117 browser cases.**
+**PASS - 120 / 120 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-80-person employer measure is labeled separately from the 116-person broader
+83-person employer measure is labeled separately from the 120-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -163,6 +163,12 @@ assignments separately from civilian employment, keeps graduate study outside
 employer analytics, exposes the identity-resolution evidence for ambiguous
 profiles, preserves both same-name rows, masks both distinct service numbers,
 and withholds the unsupported biographical candidate.
+Batch 026 verifies Mary D. Bancroft, Stephanie Czech, Elizabeth P. MacDonald,
+Jane Foster, and Stella T. Uzdawinis. It checks self-employment, military
+assignment, civilian-employer, earlier-employer, student-status, and
+archival-review boundaries; confirms claim-level source links; and ensures that
+the commissioned-officer classification remains visible without publishing a
+full service number.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -174,6 +180,12 @@ viewport projects under four-worker concurrency. All resulting failures were
 connection refusals. The complete Batch 025 suite ran against one isolated
 preview with four browser workers and passed 117 / 117; no assertion or axe
 failure remained.
+
+The Batch 026 regression run initially exposed stale Batch 025 coverage-count
+expectations and two test locators that did not match the page’s normalized
+lowercase and combined metadata text. The assertions were corrected to the
+current public projection, and the complete isolated-preview suite then passed
+120 / 120 with no remaining assertion or axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
