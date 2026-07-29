@@ -100,7 +100,7 @@ on the tested routes and viewports.
 
 The Batch 010 regression run initially lost its local preview server between
 viewport projects under four-worker concurrency. All resulting failures were
-connection refusals. The complete Batch 012 suite was run against one isolated
+connection refusals. The complete Batch 013 suite was run against one isolated
 preview with one browser worker and passed 78 / 78; no assertion or axe failure
 remained.
 
