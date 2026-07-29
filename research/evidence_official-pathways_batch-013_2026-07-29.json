@@ -1,0 +1,951 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-290-magruder-john",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 475",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 290; Magruder, John; Brig Gen; Box 475",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service number remains private and is masked in public data."
+    },
+    {
+      "key": "nara-rg493-magruder-ammisca",
+      "stable_url": "https://www.archives.gov/research/guide-fed-records/groups/493.html",
+      "archival_identifier": "RG 493, section 493.3",
+      "title": "Records of U.S. Army Forces in the China-Burma-India Theaters of Operations",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Section 493.3, Records of the U.S. Military Mission to China, 1941-42",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Guide to Federal Records in the National Archives of the United States",
+      "rights_notes": "Official federal records guide; no Catalog API response was used or stored."
+    },
+    {
+      "key": "cia-origins-central-intelligence-magruder",
+      "stable_url": "https://www.cia.gov/resources/csi/static/Origins-of-Central-Intel.pdf",
+      "title": "Origins of Central Intelligence",
+      "author_creator": "Arthur B. Darling",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "1953; declassified edition",
+      "locator": "PDF page 16, Looking Ahead; Magruder's China assignment, return in summer 1942, and OSS invitation",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA historical publications",
+      "rights_notes": "Official institutional history is paraphrased; no raw API response or full document is stored."
+    },
+    {
+      "key": "nara-oss-index-page-123-downes-donald",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 197",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 123; Downes, Donald C.; Box 197",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Full service numbers, when present, remain private and are masked in public data."
+    },
+    {
+      "key": "yale-donald-downes-papers-ms1453",
+      "stable_url": "https://hdl.handle.net/10079/fa/mssa.ms.1453",
+      "archival_identifier": "MS 1453",
+      "title": "Guide to the Donald Chase Downes Papers",
+      "author_creator": "Diane E. Kaplan",
+      "repository_publisher": "Manuscripts and Archives, Yale University Library",
+      "publication_record_date": "1988; current finding-aid export",
+      "locator": "Biographical/Historical note, PDF page 3; 1935-1941 employment and intelligence chronology",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Donald Chase Downes Papers",
+      "rights_notes": "Institutional finding-aid metadata is cited; collection documents and sensitive later-life files are not reproduced."
+    },
+    {
+      "key": "nps-oss-europe-downes",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008; web edition",
+      "locator": "Note 15; Yale and preparatory-school background, ONI work, and transition to OSS",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Federal historical study based on archival records; only concise project-authored paraphrases are stored."
+    },
+    {
+      "key": "nara-oss-index-page-215-hopper-bruce",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 347",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 215; Hopper, Bruce C.; Box 347",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Full service numbers, when present, remain private and are masked in public data."
+    },
+    {
+      "key": "harvard-bruce-hopper-papers-hugfp27",
+      "stable_url": "https://hollisarchives.lib.harvard.edu/catalog/hua15022",
+      "archival_identifier": "HUGFP 27.xx",
+      "title": "Papers of Bruce Campbell Hopper, 1918-1971",
+      "author_creator": "Dominic P. Grandinetti",
+      "repository_publisher": "Harvard University Archives",
+      "publication_record_date": "2022-03; updated 2022-04-22",
+      "locator": "Biographical note; Harvard appointments and World War II OSS service in Stockholm",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Harvard University Archives faculty papers",
+      "rights_notes": "Institutional finding-aid metadata is cited under Harvard Library's stated reuse terms; no collection content is reproduced."
+    },
+    {
+      "key": "nara-oss-index-page-416-schwarsschild-leopold",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 690",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 416; Schwarsschild, Leopold; CAF-11; Box 690",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The indexed spelling is preserved exactly."
+    },
+    {
+      "key": "lbi-leopold-schwarzschild-ar7043",
+      "stable_url": "https://www.lbi.org/griffinger/record/210985",
+      "archival_identifier": "AR 7043",
+      "title": "Leopold Schwarzschild / Photograph by Fred Stein",
+      "author_creator": "Leo Baeck Institute",
+      "repository_publisher": "Leo Baeck Institute",
+      "locator": "Biographical/Historical Information; editorships, emigration chronology, and collection link",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Leopold Schwarzschild Collection",
+      "rights_notes": "Only catalog and biographical metadata are cited. The photograph is not reproduced."
+    },
+    {
+      "key": "nara-oss-index-page-79-child-paul",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 121",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 79; Child, Paul C.; Box 121",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Full service numbers, when present, remain private and are masked in public data."
+    },
+    {
+      "key": "harvard-julia-child-papers-sch00222",
+      "stable_url": "https://hollisarchives.lib.harvard.edu/repositories/8/resources/9746",
+      "archival_identifier": "MC 222",
+      "title": "Papers of Julia Child, 1925-1993",
+      "author_creator": "Schlesinger Library staff",
+      "repository_publisher": "Arthur and Elizabeth Schlesinger Library, Harvard University",
+      "locator": "Series I, Paul Child; government-service applications and OSS documents; wartime correspondence",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Julia Child Papers",
+      "rights_notes": "Institutional finding-aid metadata is cited; private correspondence and government applications are not reproduced."
+    },
+    {
+      "key": "cia-julia-child-paul-oss",
+      "stable_url": "https://www.cia.gov/stories/story/julia-child-cooking-up-spy-ops-for-oss/",
+      "title": "Julia Child: Cooking Up Spy Ops for OSS",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "locator": "Wartime-service section identifying Paul Child as an OSS officer",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history is paraphrased; images are not reproduced."
+    },
+    {
+      "key": "nps-oss-pacific-paul-child",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm",
+      "title": "OSS in Action: The Pacific and the Far East",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008; web edition",
+      "locator": "China Theater discussion identifying Paul Child as chief of the graphics and presentation branch",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Federal historical study based on archival records; only concise project-authored paraphrases are stored."
+    },
+    {
+      "key": "new-yorker-paul-child-teaching",
+      "stable_url": "https://www.newyorker.com/culture/photo-booth/portrait-of-a-marriage-julia-child-captured-in-paul-childs-shimmering-photographs",
+      "title": "Portrait of a Marriage: Julia Child Captured in Paul Child's Shimmering Photographs",
+      "author_creator": "Eren Orbey",
+      "repository_publisher": "The New Yorker",
+      "publication_record_date": "2017-10-24",
+      "locator": "Biographical discussion of Child's teaching at Shady Hill School and Avon Old Farms School before wartime service",
+      "access_date": "2026-07-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Photo Booth",
+      "rights_notes": "A short project-authored paraphrase is stored; article text and photographs are not reproduced."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-military-mission-china",
+      "canonical_name": "U.S. Military Mission to China",
+      "historical_name": "U.S. Military Mission to China",
+      "aliases": [
+        "American Military Mission to China",
+        "AMMISCA",
+        "American Mission to China"
+      ],
+      "organization_type": "military mission",
+      "sector": "military",
+      "city": "Chungking",
+      "country": "China",
+      "active_dates": "1941-1942",
+      "normalization_notes": "The official historical mission is retained separately from later China-Burma-India theater headquarters."
+    },
+    {
+      "key": "free-world-association",
+      "canonical_name": "Free World Association",
+      "historical_name": "Free World Association",
+      "aliases": [],
+      "organization_type": "internationalist nonprofit organization",
+      "sector": "labor_nonprofit_and_religion",
+      "country": "United States",
+      "normalization_notes": "The organization name is retained exactly as supplied by Yale; no modern successor is inferred."
+    },
+    {
+      "key": "robert-college",
+      "canonical_name": "Robert College",
+      "historical_name": "Robert College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "normalization_notes": "The historical institutional name is retained. The teaching job also served as cover for a separate intelligence assignment."
+    },
+    {
+      "key": "office-naval-intelligence",
+      "canonical_name": "Office of Naval Intelligence",
+      "historical_name": "Office of Naval Intelligence",
+      "aliases": [
+        "ONI"
+      ],
+      "organization_type": "naval intelligence agency",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "ONI is modeled as a military assignment, not a civilian employer."
+    },
+    {
+      "key": "harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "The university appointment remains distinct from Hopper's wartime government and military work."
+    },
+    {
+      "key": "das-neue-tage-buch",
+      "canonical_name": "Das Neue Tage-Buch",
+      "historical_name": "Das Neue Tage-Buch",
+      "aliases": [
+        "Das Neue Tagebuch"
+      ],
+      "organization_type": "German-language exile periodical",
+      "sector": "journalism_and_media",
+      "city": "Paris",
+      "country": "France",
+      "active_dates": "1933-1939",
+      "normalization_notes": "The exile periodical is distinct from the earlier Berlin publication Das Tage-Buch."
+    },
+    {
+      "key": "avon-old-farms-school",
+      "canonical_name": "Avon Old Farms School",
+      "historical_name": "Avon Old Farms School",
+      "aliases": [
+        "Avon Old Farms"
+      ],
+      "organization_type": "boarding school",
+      "sector": "academia_and_research",
+      "city": "Avon",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "normalization_notes": "The school is retained as a historical employer; the available source does not establish an exact end date."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-magruder-ammisca",
+      "person_id": "a93ac760-896e-50b9-9746-754d434a1200",
+      "organization_key": "us-military-mission-china",
+      "organization_name_as_found": "U.S. Military Mission to China",
+      "role_title": "chief of mission",
+      "occupation": "career Army officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1941-08-27",
+      "end_date": "1942-05",
+      "date_precision": "day for mission establishment; month for absorption into CBI headquarters",
+      "city": "Chungking",
+      "country": "China",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "NARA identifies Magruder as the mission head; CIA explicitly places this China assignment before his summer 1942 return and invitation to join OSS."
+    },
+    {
+      "key": "donald-downes-free-world-association",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "organization_key": "free-world-association",
+      "organization_name_as_found": "Free World Association",
+      "role_title": "employee",
+      "occupation": "intelligence researcher",
+      "relationship_type": "employment",
+      "start_date": "1941-03",
+      "end_date": "1941-12",
+      "date_precision": "start follows March return; end follows Pearl Harbor, exact dates not stated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Yale explicitly sequences this employment after Downes's ONI-directed return and immediately before he joined OSS; its intelligence function does not erase its status as civilian employment."
+    },
+    {
+      "key": "donald-downes-robert-college",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "organization_key": "robert-college",
+      "organization_name_as_found": "Robert College",
+      "role_title": "teacher of English",
+      "occupation": "teacher",
+      "relationship_type": "employment",
+      "start_date": "1940",
+      "end_date": "1941-03",
+      "date_precision": "year for start; month for end",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The teaching position is documented employment even though Yale states that it also served as cover for Downes's separate ONI work."
+    },
+    {
+      "key": "donald-downes-oni",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "organization_key": "office-naval-intelligence",
+      "organization_name_as_found": "Office of Naval Intelligence (ONI)",
+      "role_title": "reserve commissioned intelligence officer",
+      "occupation": "military intelligence officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1940",
+      "end_date": "1941",
+      "date_precision": "year; Yale specifies October 1940-March 1941 for Balkan activity",
+      "country": "Turkey",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The ONI relationship is modeled separately from Downes's concurrent Robert College cover employment."
+    },
+    {
+      "key": "bruce-hopper-harvard",
+      "person_id": "8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1",
+      "organization_key": "harvard-university",
+      "organization_name_as_found": "Harvard University",
+      "role_title": "associate professor of government",
+      "occupation": "political scientist and educator",
+      "relationship_type": "employment",
+      "start_date": "1930",
+      "end_date": "1961",
+      "date_precision": "year; appointment continued across wartime service",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Harvard's finding aid documents Hopper's continuing faculty appointment and his World War II OSS service in Stockholm; no intervening civilian employer is identified."
+    },
+    {
+      "key": "leopold-schwarzschild-neue-tage-buch",
+      "person_id": "62745da7-0c09-58fa-be20-99a797c8d9aa",
+      "organization_key": "das-neue-tage-buch",
+      "organization_name_as_found": "Das Neue Tagebuch",
+      "role_title": "editor",
+      "occupation": "journalist, economist, and editor",
+      "relationship_type": "employment",
+      "start_date": "1933",
+      "end_date": "1939",
+      "date_precision": "year",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The distinctive indexed name is likely the LBI-documented editor, but Box 690 is required to confirm that the index misspelling and CAF-11 record belong to this person."
+    },
+    {
+      "key": "paul-child-avon-old-farms",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "organization_key": "avon-old-farms-school",
+      "organization_name_as_found": "Avon Old Farms School",
+      "role_title": "teacher",
+      "occupation": "art and language teacher",
+      "relationship_type": "employment",
+      "start_date": "1930s",
+      "end_date": "1941",
+      "date_precision": "decade for start; last documented teaching year is 1941",
+      "city": "Avon",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The teaching job is well documented, but the accessible reviewed sources do not state Child's exact departure date or explicitly say he left the school to join OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-magruder-batch013",
+      "person_id": "a93ac760-896e-50b9-9746-754d434a1200",
+      "claim_type": "identity",
+      "claim_text": "The indexed Brigadier General John Magruder is the career Army officer who headed the U.S. Military Mission to China before joining OSS.",
+      "evidence_paraphrase": "The exact name and general-officer rank align with NARA's mission history and CIA's account of his China-to-OSS transition.",
+      "identity_match_assessment": "High confidence: exact name, distinctive brigadier-general rank, China mission leadership, and official OSS role align.",
+      "temporal_assessment": "Official records document mission leadership in 1941-1942 and the summer 1942 OSS invitation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full service number remains private and is masked on the public profile.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-290-magruder-john"
+        },
+        {
+          "source_key": "nara-rg493-magruder-ammisca"
+        },
+        {
+          "source_key": "cia-origins-central-intelligence-magruder"
+        }
+      ]
+    },
+    {
+      "key": "immediate-john-magruder-ammisca",
+      "person_id": "a93ac760-896e-50b9-9746-754d434a1200",
+      "affiliation_key": "john-magruder-ammisca",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Magruder's immediate pre-OSS assignment was leadership of the U.S. Military Mission to China.",
+      "evidence_paraphrase": "NARA identifies Magruder as mission head; CIA states that this China role preceded his return and Donovan's invitation to join OSS.",
+      "identity_match_assessment": "High confidence for the indexed brigadier general.",
+      "temporal_assessment": "Explicit immediate military-to-OSS sequence in official histories.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-rg493-magruder-ammisca"
+        },
+        {
+          "source_key": "cia-origins-central-intelligence-magruder"
+        }
+      ]
+    },
+    {
+      "key": "identity-donald-downes-batch013",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald C. Downes is Donald Chase Downes, whose pre-OSS employment and intelligence chronology is documented by Yale.",
+      "evidence_paraphrase": "The exact name and middle initial, Yale education, ONI work, and explicit OSS service align across the index and two institutional histories.",
+      "identity_match_assessment": "High confidence: distinctive exact name plus matching official wartime intelligence chronology.",
+      "temporal_assessment": "Yale supplies a continuous sequence from 1940 intelligence work through the post-Pearl Harbor OSS appointment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Postwar writing is used only for identity context and is not presented as pre-OSS employment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-123-downes-donald"
+        },
+        {
+          "source_key": "yale-donald-downes-papers-ms1453"
+        },
+        {
+          "source_key": "nps-oss-europe-downes"
+        }
+      ]
+    },
+    {
+      "key": "immediate-donald-downes-free-world",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "affiliation_key": "donald-downes-free-world-association",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Downes's immediate documented affiliation before OSS was employment by the Free World Association.",
+      "evidence_paraphrase": "Yale places the employment after his ONI-directed return and immediately before stating that he joined OSS after Pearl Harbor.",
+      "identity_match_assessment": "High confidence for Donald Chase Downes.",
+      "temporal_assessment": "Explicitly sequenced as the final role before OSS, although exact appointment dates are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The intelligence activity conducted from the position is noted without relabeling the organization as a government agency.",
+      "sources": [
+        {
+          "source_key": "yale-donald-downes-papers-ms1453"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-donald-downes-free-world",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "affiliation_key": "donald-downes-free-world-association",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The Free World Association is Downes's last documented civilian employer before OSS service.",
+      "evidence_paraphrase": "Yale explicitly calls Downes an employee and then places his OSS entry after the Japanese attack on Pearl Harbor.",
+      "identity_match_assessment": "High confidence for Donald Chase Downes.",
+      "temporal_assessment": "Explicit immediate sequence in the institutional biography.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Robert College remains an earlier employer because later Free World Association employment intervened.",
+      "sources": [
+        {
+          "source_key": "yale-donald-downes-papers-ms1453"
+        }
+      ]
+    },
+    {
+      "key": "other-donald-downes-robert-college",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "affiliation_key": "donald-downes-robert-college",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Downes taught English at Robert College in Turkey in 1940-1941.",
+      "evidence_paraphrase": "Yale identifies the institution, teaching role, and concurrent use of the job as cover for intelligence activity.",
+      "identity_match_assessment": "High confidence for Donald Chase Downes.",
+      "temporal_assessment": "Documented pre-OSS employment superseded by a later civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The cover function does not negate the documented employment relationship.",
+      "sources": [
+        {
+          "source_key": "yale-donald-downes-papers-ms1453"
+        }
+      ]
+    },
+    {
+      "key": "other-donald-downes-oni",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "affiliation_key": "donald-downes-oni",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Downes held a reserve commission associated with the Office of Naval Intelligence before OSS.",
+      "evidence_paraphrase": "Yale documents the reserve commission, Balkan intelligence work, and ONI order to return to the United States.",
+      "identity_match_assessment": "High confidence for Donald Chase Downes.",
+      "temporal_assessment": "Documented 1940-1941 military intelligence assignment before later civilian employment and OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The military assignment remains separate from the concurrent Robert College teaching job.",
+      "sources": [
+        {
+          "source_key": "yale-donald-downes-papers-ms1453"
+        },
+        {
+          "source_key": "nps-oss-europe-downes"
+        }
+      ]
+    },
+    {
+      "key": "identity-bruce-hopper-batch013",
+      "person_id": "8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bruce C. Hopper is Harvard political scientist Bruce Campbell Hopper, whose World War II OSS work is documented by Harvard.",
+      "evidence_paraphrase": "The exact name and middle initial, Harvard faculty career, Soviet expertise, and explicit OSS Stockholm service align.",
+      "identity_match_assessment": "High confidence: distinctive exact name plus an institutional biography explicitly documenting OSS service.",
+      "temporal_assessment": "Harvard documents his faculty appointment from 1930 through 1961 and wartime OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed record has no rank; no military commission is inferred from his World War I service or wartime attaché title.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-215-hopper-bruce"
+        },
+        {
+          "source_key": "harvard-bruce-hopper-papers-hugfp27"
+        }
+      ]
+    },
+    {
+      "key": "immediate-bruce-hopper-harvard",
+      "person_id": "8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1",
+      "affiliation_key": "bruce-hopper-harvard",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Hopper's best-supported immediate civilian affiliation before OSS was his Harvard University faculty appointment.",
+      "evidence_paraphrase": "Harvard's chronology places his continuing associate professorship before and across his World War II OSS assignment.",
+      "identity_match_assessment": "High confidence for Bruce Campbell Hopper.",
+      "temporal_assessment": "Strongly date-bounded; the finding aid does not give the exact date on which wartime leave began.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The continuing appointment is modeled as employment and kept separate from the later government assignment.",
+      "sources": [
+        {
+          "source_key": "harvard-bruce-hopper-papers-hugfp27"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-bruce-hopper-harvard",
+      "person_id": "8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1",
+      "affiliation_key": "bruce-hopper-harvard",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Harvard University is Hopper's documented last civilian employer before wartime OSS service.",
+      "evidence_paraphrase": "Harvard records the faculty career and OSS assignment without identifying an intervening civilian employer.",
+      "identity_match_assessment": "High confidence for Bruce Campbell Hopper.",
+      "temporal_assessment": "Strongly date-bounded institutional chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Later Air Force consulting work is postwar and excluded.",
+      "sources": [
+        {
+          "source_key": "harvard-bruce-hopper-papers-hugfp27"
+        }
+      ]
+    },
+    {
+      "key": "identity-leopold-schwarzschild-batch013",
+      "person_id": "62745da7-0c09-58fa-be20-99a797c8d9aa",
+      "claim_type": "identity",
+      "claim_text": "The indexed Leopold 'Schwarsschild' is probably journalist and editor Leopold Schwarzschild, but the identity has not yet been confirmed from Box 690.",
+      "evidence_paraphrase": "The name is highly distinctive, the spelling is a plausible index error, and the LBI chronology places Schwarzschild in the United States during the OSS period.",
+      "identity_match_assessment": "Probable: distinctive name and compatible chronology, but no second person-specific identifier appears in the index row.",
+      "temporal_assessment": "The LBI documents editorship through 1939 and U.S. emigration in 1940; the OSS personnel-file chronology remains unreviewed.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical spelling is added only as a documented candidate variant; the original indexed spelling remains the public heading.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-416-schwarsschild-leopold"
+        },
+        {
+          "source_key": "lbi-leopold-schwarzschild-ar7043"
+        }
+      ]
+    },
+    {
+      "key": "other-leopold-schwarzschild-neue-tage-buch",
+      "person_id": "62745da7-0c09-58fa-be20-99a797c8d9aa",
+      "affiliation_key": "leopold-schwarzschild-neue-tage-buch",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the identity match is confirmed, Schwarzschild edited Das Neue Tage-Buch in Paris from 1933 to 1939.",
+      "evidence_paraphrase": "The Leo Baeck Institute provides the periodical title, role, location, and dates.",
+      "identity_match_assessment": "Probable rather than settled until the indexed personnel file is examined.",
+      "temporal_assessment": "Documented prewar work, ending before 1940 U.S. emigration; not shown to be immediately pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The claim is visibly conditional and excluded from default employer analytics.",
+      "sources": [
+        {
+          "source_key": "lbi-leopold-schwarzschild-ar7043"
+        }
+      ]
+    },
+    {
+      "key": "identity-paul-child-batch013",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul C. Child is Paul Cushing Child, the OSS graphics and presentation officer documented by CIA, NPS, and Harvard.",
+      "evidence_paraphrase": "The exact name and middle initial, institutional wartime papers, official OSS identification, and China Theater role align.",
+      "identity_match_assessment": "High confidence: distinctive exact name plus multiple institutional sources explicitly documenting OSS service.",
+      "temporal_assessment": "Sources document prewar teaching and wartime OSS service, but not the exact appointment boundary.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The organizational word 'officer' is not treated as proof of a military commission.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-79-child-paul"
+        },
+        {
+          "source_key": "harvard-julia-child-papers-sch00222"
+        },
+        {
+          "source_key": "cia-julia-child-paul-oss"
+        },
+        {
+          "source_key": "nps-oss-pacific-paul-child"
+        }
+      ]
+    },
+    {
+      "key": "immediate-paul-child-avon-qualified",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "affiliation_key": "paul-child-avon-old-farms",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Avon Old Farms School is Child's probable immediate civilian affiliation before OSS.",
+      "evidence_paraphrase": "A reputable biographical account places his Avon teaching before wartime OSS service, but does not state a direct transfer.",
+      "identity_match_assessment": "High confidence for Paul Cushing Child.",
+      "temporal_assessment": "Probable immediate sequence; the exact school departure and OSS entry dates require archival review.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile uses qualified language and excludes this affiliation from default high-confidence analytics.",
+      "sources": [
+        {
+          "source_key": "new-yorker-paul-child-teaching"
+        },
+        {
+          "source_key": "cia-julia-child-paul-oss",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-paul-child-avon-qualified",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "affiliation_key": "paul-child-avon-old-farms",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Avon Old Farms School is Child's last currently documented civilian employer before OSS, with the chronology still requiring personnel-file confirmation.",
+      "evidence_paraphrase": "The reviewed biography identifies Avon as his later prewar school employer; no later civilian employer has been established.",
+      "identity_match_assessment": "High confidence for Paul Cushing Child.",
+      "temporal_assessment": "Probable last civilian employer, not yet explicit in a direct personnel or employment record.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This qualified claim is not counted as a verified employer in default analytics.",
+      "sources": [
+        {
+          "source_key": "new-yorker-paul-child-teaching"
+        },
+        {
+          "source_key": "harvard-julia-child-papers-sch00222",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a93ac760-896e-50b9-9746-754d434a1200",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name, distinctive brigadier-general rank, NARA-documented China mission leadership, and CIA-documented OSS transition align.",
+      "name_variants": [
+        "John Magruder",
+        "Brigadier General John Magruder",
+        "Brig. Gen. John Magruder"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Review Box 475 and Army personnel records for Magruder's full pre-1941 assignment history and to confirm the exact OSS appointment date.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and middle initial, Yale education, ONI work, and explicit OSS chronology align across the NARA index, Yale finding aid, and NPS history.",
+      "name_variants": [
+        "Donald C. Downes",
+        "Donald Chase Downes"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 197 and MS 1453 for precise Free World Association dates and the terms of the OSS appointment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Distinctive exact name and middle initial plus Harvard's explicit documentation of faculty and OSS service align.",
+      "name_variants": [
+        "Bruce C. Hopper",
+        "Bruce Campbell Hopper"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 347 and HUGFP 27.xx for the exact wartime leave and OSS appointment dates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "62745da7-0c09-58fa-be20-99a797c8d9aa",
+      "identity_status": "probable",
+      "identity_evidence": "The rare indexed name is a plausible misspelling of Leopold Schwarzschild and the LBI chronology is compatible, but no corroborating identifier appears in the source row.",
+      "name_variants": [
+        "Leopold Schwarsschild",
+        "Leopold Schwarzschild"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 690 to confirm the spelling, birth details, immigration history, and whether the CAF-11 record belongs to editor Leopold Schwarzschild.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and initial, Harvard's Paul Cushing Child materials, CIA's official OSS identification, and NPS's China role align.",
+      "name_variants": [
+        "Paul C. Child",
+        "Paul Cushing Child"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 121 and the government-service application in MC 222 to confirm Child's Avon departure date and immediate pre-OSS status.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch013-john-magruder-official-review",
+      "person_id": "a93ac760-896e-50b9-9746-754d434a1200",
+      "source_adapter": "web",
+      "query_text": "\"John Magruder\" OSS Brigadier General employer assignment China Lend-Lease; NARA, CIA, Army history, and exact-name review",
+      "query_variant_type": "exact_name_rank_official_military_pathway",
+      "started_at": "2026-07-29T13:12:00Z",
+      "completed_at": "2026-07-29T13:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Postwar SSU material was excluded from the pre-OSS claim; unsourced service-profile pages were rejected.",
+      "research_notes": "Confirmed the U.S. Military Mission to China as the explicit immediate military assignment before OSS; no civilian employer is applicable to the documented career-Army transition.",
+      "next_action": "Review Box 475 and Army personnel records.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch013-donald-downes-institutional-review",
+      "person_id": "f443009b-dd5f-542b-9a0c-3af2d21f8611",
+      "source_adapter": "web",
+      "query_text": "\"Donald C. Downes\" OSS employer occupation 1940 1941; NARA, CIA, NPS, Yale, obituary, and archival-source review",
+      "query_variant_type": "exact_name_official_employment_and_intelligence_pathway",
+      "started_at": "2026-07-29T13:18:00Z",
+      "completed_at": "2026-07-29T13:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Postwar novels and later correspondence were excluded; Spanish-language unsourced biography pages were treated as discovery only.",
+      "research_notes": "Verified Free World Association employment as the immediate and last civilian role, with Robert College and ONI preserved as separate earlier affiliations.",
+      "next_action": "Review Box 197 and MS 1453.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch013-bruce-hopper-institutional-review",
+      "person_id": "8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1",
+      "source_adapter": "web",
+      "query_text": "\"Bruce C. Hopper\" OSS employer Harvard professor; NARA, CIA, Harvard, obituary, and archival-source review",
+      "query_variant_type": "exact_name_official_academic_employment_pathway",
+      "started_at": "2026-07-29T13:25:00Z",
+      "completed_at": "2026-07-29T13:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Wikipedia was used only for discovery; postwar Air Force consulting work was excluded from pre-OSS employment.",
+      "research_notes": "Verified Harvard as the continuing and last civilian employer before wartime OSS service.",
+      "next_action": "Review Box 347 and HUGFP 27.xx.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch013-leopold-schwarzschild-identity-review",
+      "person_id": "62745da7-0c09-58fa-be20-99a797c8d9aa",
+      "source_adapter": "web",
+      "query_text": "\"Leopold Schwarsschild\" OSS CAF-11; \"Leopold Schwarzschild\" OSS employer occupation; NARA, CIA, LBI, German authority, newspaper, and archival-source review",
+      "query_variant_type": "indexed_spelling_variant_official_identity_and_employment",
+      "started_at": "2026-07-29T13:30:00Z",
+      "completed_at": "2026-07-29T13:46:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Search snippets mentioning Schwarzschild as the subject of OSS reports did not prove employment; Wikipedia and unsourced biographies were discovery only; no name-only match was treated as confirmed.",
+      "research_notes": "Recorded a probable identity and a qualified earlier editorship, while preserving the indexed spelling and requiring Box 690 for confirmation.",
+      "next_action": "Review Box 690 and the LBI collection.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch013-paul-child-temporal-review",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "source_adapter": "web",
+      "query_text": "\"Paul C. Child\" OSS employer teacher Avon Old Farms; NARA, CIA, NPS, Harvard, school history, obituary, and archival-source review",
+      "query_variant_type": "exact_name_official_identity_and_qualified_employment_pathway",
+      "started_at": "2026-07-29T13:36:00Z",
+      "completed_at": "2026-07-29T13:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Wikipedia and commercial biographies were discovery only; an obsolete school-handbook URL was not relied on as the sole final citation; postwar USIA employment was excluded.",
+      "research_notes": "Verified identity and documented Avon teaching, but kept both immediate and last-employer designations at medium confidence pending the government-service application and personnel file.",
+      "next_action": "Review Box 121 and MC 222 government-service application.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

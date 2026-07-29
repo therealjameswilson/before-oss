@@ -4,15 +4,15 @@ Run: 2026-07-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,039 HTML files. Every relative
+**PASS.** The production build contains 24,045 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 90 organization profiles, and the
+The build includes 23,941 person profiles, 96 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,057 unique external URLs for separate live
+The checker inventoried 48,072 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets

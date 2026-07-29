@@ -5,9 +5,9 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,039 pages**
-- Internal link check: **24,039 HTML files passed**
-- Browser and accessibility suite: **75 / 75 passed**
+- Static production build: **24,045 pages**
+- Internal link check: **24,045 HTML files passed**
+- Browser and accessibility suite: **78 / 78 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
 - Public redaction build: **passed**
@@ -15,12 +15,12 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **131** public records representing **128** unique documents
-- Published, qualified affiliations: **127**
-- Published claims: **186**
-- Verified-affiliation metric: **58** people with confirmed/high published
+- Reviewed public sources: **146** public records representing **142** unique documents
+- Published, qualified affiliations: **134**
+- Published claims: **201**
+- Verified-affiliation metric: **61** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **31** people with confirmed/high published
+- Verified-employer metric: **33** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -49,3 +49,7 @@ Batch 012 adds regression checks for qualified military transitions, unnamed
 newspaper employers, student history, expedition participation, and a
 documented earlier academic appointment that remains separate from the
 immediate pre-OSS field.
+Batch 013 adds checks for a career-military pathway without an invented
+civilian employer, distinct civilian-cover and earlier academic employment,
+the indexed spelling of a probable identity, and medium-confidence employment
+that remains visibly qualified and excluded from default analytics.

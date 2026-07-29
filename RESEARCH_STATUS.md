@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 140 people with a non-planned attempt | 23,941 person entities | 0.5848% |
-| Verified-affiliation coverage | 58 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.2423% |
-| Verified-employer coverage | 31 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.1295% |
-| Archival-review coverage | 66 people with an individual file-access/priority assessment | 23,941 person entities | 0.2757% |
+| Research-attempt coverage | 145 people with a non-planned attempt | 23,941 person entities | 0.6057% |
+| Verified-affiliation coverage | 61 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.2548% |
+| Verified-employer coverage | 33 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.1378% |
+| Archival-review coverage | 71 people with an individual file-access/priority assessment | 23,941 person entities | 0.2966% |
 
 ## Extraction and identity
 
@@ -22,35 +22,35 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 6
-- Identity status `high_confidence`: 94
-- Identity status `probable`: 3
+- Identity status `high_confidence`: 98
+- Identity status `probable`: 4
 - Identity status `ambiguous`: 1
-- Identity status `unresolved`: 23,837
+- Identity status `unresolved`: 23,832
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,668
+- Unknown or indeterminate: 16,666
 - Enlisted Army personnel: 3,455
 - Commissioned Army officers: 2,051
 - Commissioned Marine Corps officers: 3
-- Civilian professional or administrative grades: 1,436
+- Civilian professional or administrative grades: 1,438
 - Foreign or Allied military personnel: 241
 - Enlisted naval personnel: 47
 - Commissioned naval officers: 36
 - Warrant officers: 4
 
-Commissioned classification: 2,092 yes; 4,949 no; 16,900 indeterminate.
+Commissioned classification: 2,092 yes; 4,951 no; 16,898 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,801
-- `in_progress`: 83
+- `not_started`: 23,796
+- `in_progress`: 84
 - `candidate_found`: 1
-- `needs_identity_review`: 4
-- `documented_prewar_employer_found`: 4
+- `needs_identity_review`: 5
+- `documented_prewar_employer_found`: 5
 - `occupation_only_found`: 1
 - `requires_archival_review`: 4
-- `verified_employer_found`: 43
+- `verified_employer_found`: 45
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -59,12 +59,12 @@ Commissioned classification: 2,092 yes; 4,949 no; 16,900 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Reviewed official-web attempts: 61, including three identity resolutions
+- Reviewed official-web attempts: 66, including three identity resolutions
   supported by Library of Congress name-authority records
-- Total recorded attempts/plans: 1,129
+- Total recorded attempts/plans: 1,134
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- Reviewed people with published evidence: 66 (Mort S. Bobrow, Morris Berg,
+- Reviewed people with published evidence: 71 (Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
   Ford, Christian J. Lambertsen, Alfonso Rodriguez, Sidney L. Bartlett, Rene
@@ -81,13 +81,15 @@ Commissioned classification: 2,092 yes; 4,949 no; 16,900 indeterminate.
   Kirkpatrick Jr., Ray S. Cline, Paul Mellon, Carleton S. Coon, Norman Holmes
   Pearson, Philip E. Mosely, Millard Preston Goodfellow, Whitney H.
   Shepardson, William Alfred Eddy, Archibald Bulloch Roosevelt Jr., John Hadley
-  Nicanor Hemingway, Gertrude Sanford Legendre, and DeWitt Clinton Poole)
-- Published affiliations: 127
-- Published claims: 186 (30 confirmed, 136 high, 20 medium)
-- Citation records: 134; public source export: 131; unique source documents: 128
-- Canonical organizations: 90
+  Nicanor Hemingway, Gertrude Sanford Legendre, DeWitt Clinton Poole, John
+  Magruder, Donald Chase Downes, Bruce Campbell Hopper, the probable Leopold
+  Schwarzschild identity, and Paul Cushing Child)
+- Published affiliations: 134
+- Published claims: 201 (32 confirmed, 145 high, 24 medium)
+- Citation records: 149; public source export: 146; unique source documents: 142
+- Canonical organizations: 96
 - Conflicts: 0
-- NARA pull-list rows: 23,935
+- NARA pull-list rows: 23,933
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -131,6 +133,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_official-path
 python3 -m oss_research import-reviewed-evidence research/evidence_official-pathways_batch-010_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_institutional-pathways_batch-011_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_official-pathways_batch-012_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_official-pathways_batch-013_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/31 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/33 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 58 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 61 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1071,6 +1071,139 @@ test("Batch 012 preserves qualified military pathways, unnamed employers, studen
     page
       .getByRole("link", {
         name: "Donovan and the CIA: A History of the Establishment of the Central Intelligence Agency",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+});
+
+test("Batch 013 preserves career-military, civilian-cover, academic, probable-identity, and qualified-employer pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/a93ac760-896e-50b9-9746-754d434a1200/");
+  await expect(
+    page.getByRole("heading", { name: "John Magruder", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "U.S. Military Mission to China", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText("No reviewed claim currently meets the publication threshold.", {
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Origins of Central Intelligence",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/f443009b-dd5f-542b-9a0c-3af2d21f8611/");
+  await expect(
+    page.getByRole("heading", { name: "Donald C Downes", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Free World Association", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Free World Association", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Robert College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Guide to the Donald Chase Downes Papers",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/8dd153b1-fab9-5ab0-a015-3f2e6bcfaac1/");
+  await expect(
+    page.getByRole("heading", { name: "Bruce C Hopper", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Papers of Bruce Campbell Hopper, 1918-1971",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/62745da7-0c09-58fa-be20-99a797c8d9aa/");
+  await expect(
+    page.getByRole("heading", { name: "Leopold Schwarsschild", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Das Neue Tage-Buch", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      "Review Box 690 to confirm the spelling, birth details, immigration history, and whether the CAF-11 record belongs to editor Leopold Schwarzschild.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Leopold Schwarzschild / Photograph by Fred Stein",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/a9b1ec13-509a-57f2-bb04-d2453d49e908/");
+  await expect(
+    page.getByRole("heading", { name: "Paul C Child", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Avon Old Farms School", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Avon Old Farms School", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("medium", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Julia Child: Cooking Up Spy Ops for OSS",
         exact: true,
       })
       .first(),
