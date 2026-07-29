@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 108 / 108 browser cases.**
+**PASS - 111 / 111 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-75-person employer measure is labeled separately from the 109-person broader
+78-person employer measure is labeled separately from the 113-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -152,6 +152,11 @@ Wilbur, Charles F. Remer, and Morris Janowitz. It checks COI predecessor
 assignments, exact historical job titles, an unresolved unfamiliar grade,
 museum and university employment, a government-to-Army-to-OSS pathway, and
 student history kept outside employer analytics.
+Batch 024 verifies Edward A. Shils, Sterling Dow, Donald C. McKay, John L.
+Clive, and Robert L. Wolff. It checks academic, government, military, and
+student pathways; preserves an unresolved British-Army/OSS sequence; keeps a
+service number private; and makes Wolff's medium-confidence temporal
+uncertainty explicit on desktop, phone, and tablet.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the
@@ -160,8 +165,8 @@ on the tested routes and viewports.
 
 The Batch 010 regression run initially lost its local preview server between
 viewport projects under four-worker concurrency. All resulting failures were
-connection refusals. The complete Batch 023 suite ran against one isolated
-preview with four browser workers and passed 108 / 108; no assertion or axe
+connection refusals. The complete Batch 024 suite ran against one isolated
+preview with four browser workers and passed 111 / 111; no assertion or axe
 failure remained.
 
 The in-app browser review also confirmed the phone homepage and personnel

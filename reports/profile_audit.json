@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T18:15:47+00:00",
+  "generated_at": "2026-07-29T18:47:23+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -23,8 +23,8 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 78,
-    "2": 53,
+    "1": 77,
+    "2": 54,
     "3": 30,
     "4": 39
   },
@@ -36,11 +36,11 @@
   },
   "research_status_counts": {
     "documented_prewar_employer_found": 3,
-    "in_progress": 7,
+    "in_progress": 6,
     "needs_identity_review": 2,
     "not_started": 172,
     "occupation_only_found": 1,
-    "requires_archival_review": 1,
+    "requires_archival_review": 2,
     "verified_employer_found": 14
   },
   "special_strata_counts": {
@@ -244,13 +244,13 @@
     "c974e4f4-d9ea-5e9f-bcef-8bb019cb9f1f",
     "1adc6b42-2c4d-5611-ba6e-8cdbfd8ac6e0",
     "6dff4a3a-1141-5a4c-8a77-2ea2a7c99ab0",
+    "fe8ec29a-718c-56f3-af64-d619600f4f0d",
     "a9b1ec13-509a-57f2-bb04-d2453d49e908",
     "db23d265-0e22-5004-96ad-ab1762b43b92",
     "232b3c0e-0988-59b0-a34c-9984cc3170c8",
     "b6f213df-1110-5f54-8821-8787886a7633",
     "62745da7-0c09-58fa-be20-99a797c8d9aa",
     "0a1cbed6-2239-51a5-8ada-245100eb6fa0",
-    "21a6b6f2-5daa-5569-826e-6d193f387d4a",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",

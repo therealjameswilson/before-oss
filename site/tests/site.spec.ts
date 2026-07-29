@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/75 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/78 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 109 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 113 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2190,4 +2190,83 @@ test("Batch 023 separates civilian employers from COI and Army predecessor assig
       .locator('section[aria-labelledby="earlier-affiliations"]')
       .getByRole("heading", { name: "New York University", exact: true }),
   ).toBeVisible();
+});
+
+test("Batch 024 preserves academic, government, military, and uncertain pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/61638d98-2b07-50f1-b1fd-ee8f1254c3e6/");
+  await expect(
+    page.getByRole("heading", { name: "Edward A Shils", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Chicago", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable immediate", { exact: true })).toBeVisible();
+
+  await page.goto("./people/6885339c-afe2-5326-982a-6e0d6735c28c/");
+  await expect(
+    page.getByRole("heading", { name: "Sterling Dow", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Harvard University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/424a424a-9dbb-5ed8-a29c-69aa4c2e9831/");
+  await expect(
+    page.getByRole("heading", { name: "Donald C McKay", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/bc1757bd-9946-593f-8575-8c470dd6c61f/");
+  await expect(
+    page.getByRole("heading", { name: "John L Clive", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Hans Leo Kleyff");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "University of North Carolina at Chapel Hill",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS civilian employer has yet been identified",
+  );
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+
+  await page.goto("./people/fe8ec29a-718c-56f3-af64-d619600f4f0d/");
+  await expect(
+    page.getByRole("heading", { name: "Robert L Wolff", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("temporal relation uncertain", { exact: true })).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByText("medium", { exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "does not establish whether it preceded or followed OSS",
+  );
 });

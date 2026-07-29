@@ -170,7 +170,11 @@ const affiliationLabel = (item: Affiliation) =>
                   </h3>
                   <p>{item.role_title ?? item.occupation}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
-                  <Badge value={item.claim_confidence} />
+                  <p>
+                    <Badge value={item.claim_confidence} />
+                    {" "}
+                    <Badge value={item.temporal_basis} />
+                  </p>
                 </article>
               ))}
             </section>
