@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/28 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/31 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 53 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 58 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -929,6 +929,148 @@ test("Batch 011 preserves concurrent employment, predecessor agencies, military 
     page
       .getByRole("link", {
         name: "The Office of Strategic Services: America's First Intelligence Agency",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+});
+
+test("Batch 012 preserves qualified military pathways, unnamed employers, student status, and archival uncertainty", async ({
+  page,
+}) => {
+  await page.goto("./people/495e4e73-3aa2-5afa-b5b3-838e28cc7957/");
+  await expect(
+    page.getByRole("heading", { name: "William A Eddy", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Marine Corps", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Hobart and William Smith Colleges",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Presidents and Deans", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/66142cc6-36c6-519b-8765-986f995322e3/");
+  await expect(
+    page.getByRole("heading", { name: "Archibald B Roosevelt", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Unidentified Spokane and San Francisco newspapers",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "New York Herald Tribune", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", { name: "Archibald Roosevelt Jr. Papers", exact: true })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/01360217-ccc5-5754-a6d5-9d126bfc08f0/");
+  await expect(
+    page.getByRole("heading", { name: "John H Hemingway", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Dartmouth College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText("No reviewed claim currently meets the publication threshold.", {
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", { name: "The Son Also Rises: Jack Hemingway", exact: true })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/142be2db-06a1-51ef-8725-027388a3d15e/");
+  await expect(
+    page.getByRole("heading", { name: "Gertrude Legendre", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "American Museum of Natural History",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText(
+      "Review Box 443 and Mss 0182 wartime files to identify her immediate pre-OSS status and any civilian employer without converting property ownership or expedition participation into employment.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "The Gertrude Sanford Legendre papers",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/c9accc19-41c3-51ce-b173-2a51b4eea522/");
+  await expect(
+    page.getByRole("heading", { name: "DeWitt C Poole", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "Princeton University School of Public Affairs",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Donovan and the CIA: A History of the Establishment of the Central Intelligence Agency",
         exact: true,
       })
       .first(),
