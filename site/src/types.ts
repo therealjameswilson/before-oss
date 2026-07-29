@@ -37,6 +37,15 @@ export type PublicClaim = {
   claim_confidence: string;
   publication_status: string;
   match_notes: string;
+  sources: ClaimSourceLink[];
+};
+
+export type ClaimSourceLink = {
+  source_id: string;
+  support_type: string;
+  locator_override: string | null;
+  excerpt_override: string | null;
+  source: PublicSource;
 };
 
 export type SourceRow = {

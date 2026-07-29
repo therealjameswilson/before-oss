@@ -1,0 +1,177 @@
+{
+  "bundle_version": "reviewed-web-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-41-bobrow-mort-s",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 63",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 41; Bobrow, Mort S.; Box 63",
+      "access_date": "2026-07-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The source row remains preserved separately; no Catalog API response content is stored."
+    },
+    {
+      "key": "seattle-times-obituary-mort-s-bobrow-2019",
+      "stable_url": "https://www.legacy.com/us/obituaries/seattletimes/name/mort-bobrow-obituary?id=13198171",
+      "title": "Mort Bobrow Obituary (1923–2019)",
+      "repository_publisher": "The Seattle Times via Legacy.com",
+      "publication_record_date": "2019-10-13",
+      "locator": "Biographical narrative",
+      "access_date": "2026-07-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation, project-authored paraphrase, and short supporting excerpts only; no full page is stored or republished."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "US Army",
+      "aliases": [
+        "U.S. Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is preserved in the affiliation record."
+    },
+    {
+      "key": "university-of-washington",
+      "canonical_name": "University of Washington",
+      "historical_name": "University of Washington",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Seattle",
+      "state_or_region": "Washington",
+      "country": "United States"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "mort-s-bobrow-us-army-language-training",
+      "person_id": "21a6b6f2-5daa-5569-826e-6d193f387d4a",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "US Army",
+      "role_title": "Mandarin-language trainee at the University of Chicago",
+      "relationship_type": "military_assignment",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The obituary gives a sequential Army-language-training-to-OSS narrative, but the personnel file has not yet been reviewed to confirm exact transfer dates."
+    },
+    {
+      "key": "mort-s-bobrow-university-of-washington-student",
+      "person_id": "21a6b6f2-5daa-5569-826e-6d193f387d4a",
+      "organization_key": "university-of-washington",
+      "organization_name_as_found": "University of Washington",
+      "role_title": "Student",
+      "relationship_type": "student",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not treated as employment. The accessible source does not provide an exact graduation date."
+    }
+  ],
+  "claims": [
+    {
+      "key": "mort-s-bobrow-identity-oss-china",
+      "person_id": "21a6b6f2-5daa-5569-826e-6d193f387d4a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Mort S. Bobrow is strongly matched to the Mort S. Bobrow described as an Army Mandarin trainee later sent by OSS to China.",
+      "evidence_excerpt": "part of his role was outlined in the book, OSS in China",
+      "evidence_paraphrase": "The official index supplies the exact uncommon name and an OSS personnel-file pointer; the obituary independently describes OSS service in China.",
+      "identity_match_assessment": "Exact uncommon full name including middle initial, plus independent OSS-China service context.",
+      "temporal_assessment": "The obituary describes wartime service but does not supply exact transfer dates.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The match is strong but remains below confirmed until the indexed personnel file or a service-number-bearing record is reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-41-bobrow-mort-s",
+          "support_type": "supports",
+          "locator_override": "PDF page 41; Box 63",
+          "excerpt_override": "Bobrow Mort S … Box 63"
+        },
+        {
+          "source_key": "seattle-times-obituary-mort-s-bobrow-2019",
+          "support_type": "supports",
+          "locator_override": "Biographical narrative"
+        }
+      ]
+    },
+    {
+      "key": "mort-s-bobrow-immediate-pre-oss-us-army",
+      "person_id": "21a6b6f2-5daa-5569-826e-6d193f387d4a",
+      "affiliation_key": "mort-s-bobrow-us-army-language-training",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Available evidence indicates that Bobrow’s immediate pre-OSS affiliation was the U.S. Army, which sent him to Mandarin-language training at the University of Chicago.",
+      "evidence_excerpt": "joined the US Army where he was sent to the University of Chicago to study Mandarin Chinese",
+      "evidence_paraphrase": "The obituary places Army-sponsored Mandarin training immediately before describing his selection for an OSS mission to China.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and documented OSS-China service.",
+      "temporal_assessment": "Strongly date-bounded sequential narrative; exact transfer dates remain unverified.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with visible qualification. The Army is an immediate military affiliation, not a civilian employer; University of Chicago is identified as the training site.",
+      "sources": [
+        {
+          "source_key": "seattle-times-obituary-mort-s-bobrow-2019",
+          "support_type": "supports",
+          "locator_override": "Biographical narrative"
+        }
+      ]
+    },
+    {
+      "key": "mort-s-bobrow-university-of-washington-student",
+      "person_id": "21a6b6f2-5daa-5569-826e-6d193f387d4a",
+      "affiliation_key": "mort-s-bobrow-university-of-washington-student",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before entering the Army, Bobrow was a student at the University of Washington.",
+      "evidence_excerpt": "graduated from the University of Washington during WWII years and joined the US Army",
+      "evidence_paraphrase": "The obituary places University of Washington study before Army service and the later OSS mission.",
+      "identity_match_assessment": "High-confidence match to the uncommon indexed full name and documented OSS-China service.",
+      "temporal_assessment": "Documented before Army and OSS service, but the exact graduation year is not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "University attendance is recorded as student status and is not classified as employment.",
+      "sources": [
+        {
+          "source_key": "seattle-times-obituary-mort-s-bobrow-2019",
+          "support_type": "supports",
+          "locator_override": "Biographical narrative"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "21a6b6f2-5daa-5569-826e-6d193f387d4a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon full name including middle initial in the official NARA index, corroborated by an obituary describing OSS service in China.",
+      "research_status": "in_progress",
+      "next_action": "Review the indexed Box 63 personnel file and official military records to confirm transfer dates and identify any last civilian employer before Army service."
+    }
+  ]
+}

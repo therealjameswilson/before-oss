@@ -7,7 +7,7 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1 person with a non-planned attempt | 23,941 person entities | 0.0042% |
+| Research-attempt coverage | 75 people with a non-planned attempt | 23,941 person entities | 0.3133% |
 | Verified-employer coverage | 0 people with a confirmed/high published affiliation | 23,941 person entities | 0.0000% |
 | Archival-review coverage | 0 people with an individual file-access/priority assessment | 23,941 person entities | 0.0000% |
 
@@ -20,8 +20,8 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 - Possible duplicate groups: 202
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `high_confidence`: 37
-- Identity status `unresolved`: 23,904
+- Identity status `high_confidence`: 38
+- Identity status `unresolved`: 23,903
 
 ## Personnel categories
 
@@ -38,32 +38,42 @@ Commissioned classification: 2,079 yes; 4,934 no; 16,928 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,940
-- `in_progress`: 1
+- `not_started`: 23,866
+- `in_progress`: 74
+- `candidate_found`: 1
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
-- NARA dry-run plans recorded: 75
-- CIA dry-run plans recorded: 2
-- Manual web-discovery plans recorded: 2
+- NARA dry-run plans recorded: 111
+- Live CIA exact-name OSS attempts: 176
+- Live Library of Congress attempts: 301
+- Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
-- Live Library of Congress attempts: 1
-- Total recorded attempts/plans: 80
-- Published affiliation claims: 0
-- Sources supporting public claims: 0
+- Total recorded attempts/plans: 1,064
+- Library of Congress discovery candidates: 19 total; 17 rejected after
+  page-context review and 2 still unreviewed
+- Reviewed people with published evidence: 1 (Mort S. Bobrow)
+- Published affiliation claims: 2, both visibly qualified at medium confidence
+- Published identity claims: 1 at high confidence
+- Sources supporting public claims: 2
+- Canonical organizations: 2
 - Conflicts: 0
 - NARA pull-list rows: 23,978
 
 Planned dry-run requests do not count as research-attempt coverage.
+Medium-confidence published affiliations do not count as verified-employer
+coverage.
 
 ## Current blockers
 
-1. Live NARA research requires `NARA_API_KEY` and
-   `BEFORE_OSS_CONTACT_EMAIL`. The adapter correctly fails closed without them.
+1. Live NARA research requires the `NARA_API_KEY` GitHub Actions secret and
+   `BEFORE_OSS_CONTACT_EMAIL` Actions variable. They are not configured, so the
+   adapter correctly fails closed without making a request.
 2. A standard NARA key cannot cover this source population in one month. The
    default project soft stop is 9,000 of a 10,000-request allowance; later-month
    continuation or an approved higher quota is required.
-3. The CIA Reading Room currently returns a redirect loop in this environment.
-   The adapter records access failures and does not bypass the restriction.
+3. Two William P. Weiss Library of Congress candidates remain unreviewed
+   because the underlying page/full-text endpoints began returning access
+   errors. They remain candidates, not facts.
 4. Completing the minimum research protocol for tens of thousands of people and
    reviewing physical personnel files is continuing archival work, not a single
    automated build step.
@@ -72,11 +82,16 @@ Planned dry-run requests do not count as research-attempt coverage.
 
 ```bash
 python3 -m oss_research nara-check
-python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 75
-python3 -m oss_research research --source cia --batch pilot-v1 --max-queries 75
-python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75
+python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 111 --resume
+python3 -m oss_research research --source cia --batch pilot-v1 --max-queries 75 --resume
+python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75 --resume
 python3 -m oss_research export-review-queue
 python3 -m oss_research import-review-decisions review_decisions.csv
+python3 -m oss_research import-reviewed-evidence research/evidence_mort-s-bobrow_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
+
+The same bounded NARA run is available through the manually triggered GitHub
+Actions workflow, so local Terminal access is not required once the repository
+secret and contact variable are configured.

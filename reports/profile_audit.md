@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-07-29T00:41:52+00:00
+Generated: 2026-07-29T03:07:13+00:00
 
 Deterministic profiles audited: **200**.
 
@@ -16,17 +16,20 @@ Deterministic profiles audited: **200**.
 
 ## Special strata represented
 
-- commissioned: 31
+- commissioned: 34
 - civilian: 20
-- enlisted: 29
+- enlisted: 32
 - allied or foreign: 20
 - incomplete or initial only name: 20
-- possible duplicate group: 49
+- possible duplicate group: 46
+- confirmed or high published claim: 1
+- medium published claim: 1
+- conflicting published claim: 0
+- unresolved identity: 179
 
 ## Evidence-limited strata
 
 - women: The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research.
-- confirmed_or_medium_claims: No confirmed or medium-confidence employment claim currently exists.
 - conflicting_claims: No conflicting published claim currently exists.
 
 This is a data-integrity and publication-boundary audit, not a claim that the sampled people have completed historical research.

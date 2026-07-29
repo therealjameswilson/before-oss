@@ -191,6 +191,25 @@ class NaraAdapter:
                 remaining,
             )
         if dry_run:
+            planned = self.connection.execute(
+                """
+                SELECT 1 FROM research_attempts
+                WHERE source_adapter = 'nara'
+                  AND request_fingerprint = ?
+                  AND outcome = 'planned'
+                """,
+                (fingerprint,),
+            ).fetchone()
+            if planned:
+                return NaraSearchResult(
+                    None,
+                    fingerprint,
+                    query,
+                    False,
+                    True,
+                    (),
+                    remaining,
+                )
             return NaraSearchResult(
                 None, fingerprint, query, True, False, (), remaining
             )

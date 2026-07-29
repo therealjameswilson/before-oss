@@ -45,3 +45,16 @@ test("organizations, analysis, methodology, sources, and downloads are direct ro
   expect(download.ok()).toBeTruthy();
   expect((await download.text()).split("\n")[0]).toContain("serial_masked");
 });
+
+test("a researched profile displays claim-level citations", async ({ page }) => {
+  await page.goto(
+    "./people/21a6b6f2-5daa-5569-826e-6d193f387d4a/",
+  );
+  await expect(page.getByRole("heading", { name: "Evidence and citations" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Sources for this claim" }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: "Mort Bobrow Obituary (1923–2019)" }).first()).toHaveAttribute(
+    "href",
+    /legacy\.com/,
+  );
+  await expect(page.getByText("Accessed 2026-07-29.", { exact: false }).first()).toBeVisible();
+});

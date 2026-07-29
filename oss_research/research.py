@@ -126,12 +126,70 @@ def query_families(person: sqlite3.Row) -> dict[str, list[str]]:
     }
 
 
+def source_query_options(
+    source: str,
+    families: dict[str, list[str]],
+) -> list[tuple[str, str]]:
+    family_order = {
+        "nara": ["official"],
+        "cia": ["exact_oss"],
+        "loc": ["employment", "institutional"],
+        "web": ["exact_oss", "employment", "institutional"],
+    }[source]
+    options: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for family in family_order:
+        for query in families[family]:
+            if query in seen:
+                continue
+            seen.add(query)
+            options.append((family, query))
+    return options
+
+
+def candidate_aware_status(
+    candidate_count: int,
+    has_unreviewed_candidates: bool,
+) -> tuple[str, str, str]:
+    if candidate_count or has_unreviewed_candidates:
+        return (
+            "candidate_found",
+            "Review discovery candidates for identity and temporal relevance.",
+            "Review source candidates.",
+        )
+    return (
+        "in_progress",
+        "Continue the minimum research protocol with the next source family.",
+        "Continue staged research.",
+    )
+
+
+def has_unreviewed_research_candidate(
+    connection: sqlite3.Connection,
+    person_id: str,
+) -> bool:
+    return bool(
+        connection.execute(
+            """
+            SELECT 1
+            FROM candidate_matches
+            WHERE person_id = ?
+              AND candidate_type <> 'duplicate_person'
+              AND match_assessment = 'unreviewed'
+            LIMIT 1
+            """,
+            (person_id,),
+        ).fetchone()
+    )
+
+
 def _attempt(
     connection: sqlite3.Connection,
     *,
     person_id: str,
     source: str,
     query: str,
+    query_variant_type: str,
     fingerprint: str,
     outcome: str,
     notes: str,
@@ -148,10 +206,10 @@ def _attempt(
         """
         INSERT INTO research_attempts(
             research_attempt_id, person_id, source_adapter, query_text,
-            request_fingerprint, started_at, completed_at, outcome,
+            query_variant_type, request_fingerprint, started_at, completed_at, outcome,
             sources_reviewed, candidate_sources_rejected, research_notes,
             attempt_number, research_agent_version
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0, 0, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 0, ?, ?, ?)
         ON CONFLICT(research_attempt_id) DO UPDATE SET
             completed_at=excluded.completed_at,
             outcome=excluded.outcome,
@@ -162,6 +220,7 @@ def _attempt(
             person_id,
             source,
             query,
+            query_variant_type,
             fingerprint,
             now,
             now,
@@ -230,33 +289,51 @@ def run_research(
             break
         person_id_value = person["person_id"]
         families = query_families(person)
-        query = (
-            families["official"][0]
-            if source in {"nara", "cia"}
-            else families["employment"][0]
-        )
         try:
-            if source == "nara":
-                result = adapter.search(
-                    query, person_id=person_id_value, dry_run=dry_run
+            selected: tuple[
+                str, str, bool, int, str, int | None
+            ] | None = None
+            for query_variant_type, query in source_query_options(source, families):
+                if source == "nara":
+                    result = adapter.search(
+                        query, person_id=person_id_value, dry_run=dry_run
+                    )
+                    is_planned = result.planned
+                    is_duplicate = result.duplicate_request
+                    candidate_count = len(result.candidate_naids)
+                    fingerprint = result.fingerprint
+                    status = result.http_status
+                else:
+                    result = adapter.search(
+                        query, person_id=person_id_value, dry_run=dry_run
+                    )
+                    is_planned = bool(result["planned"])
+                    is_duplicate = bool(result["duplicate_request"])
+                    candidate_count = int(result["candidate_count"])
+                    fingerprint = str(result["fingerprint"])
+                    status = result["http_status"]
+                if is_duplicate:
+                    duplicates += 1
+                    continue
+                selected = (
+                    query_variant_type,
+                    query,
+                    is_planned,
+                    candidate_count,
+                    fingerprint,
+                    status,
                 )
-                is_planned = result.planned
-                is_duplicate = result.duplicate_request
-                candidate_count = len(result.candidate_naids)
-                fingerprint = result.fingerprint
-                status = result.http_status
-            else:
-                result = adapter.search(
-                    query, person_id=person_id_value, dry_run=dry_run
-                )
-                is_planned = bool(result["planned"])
-                is_duplicate = bool(result["duplicate_request"])
-                candidate_count = int(result["candidate_count"])
-                fingerprint = str(result["fingerprint"])
-                status = result["http_status"]
-            if is_duplicate:
-                duplicates += 1
+                break
+            if selected is None:
                 continue
+            (
+                query_variant_type,
+                query,
+                is_planned,
+                candidate_count,
+                fingerprint,
+                status,
+            ) = selected
             outcome = "planned" if is_planned else (
                 "candidate_found" if candidate_count else "no_result"
             )
@@ -275,12 +352,25 @@ def run_research(
                     person_id=person_id_value,
                     source=source,
                     query=query,
+                    query_variant_type=query_variant_type,
                     fingerprint=fingerprint,
                     outcome=outcome,
                     notes=notes,
                     attempt_number=attempt_number,
                 )
                 if not is_planned:
+                    has_unreviewed_candidates = has_unreviewed_research_candidate(
+                        connection,
+                        person_id_value,
+                    )
+                    (
+                        next_status,
+                        person_next_action,
+                        queue_next_action,
+                    ) = candidate_aware_status(
+                        candidate_count,
+                        has_unreviewed_candidates,
+                    )
                     connection.execute(
                         """
                         UPDATE person_entities
@@ -293,13 +383,9 @@ def run_research(
                         WHERE person_id = ?
                         """,
                         (
-                            "candidate_found" if candidate_count else "in_progress",
+                            next_status,
                             utc_now(),
-                            (
-                                "Review discovery candidates for identity and temporal relevance."
-                                if candidate_count
-                                else "Continue the minimum research protocol with the next source family."
-                            ),
+                            person_next_action,
                             f"before-oss/{__version__}",
                             utc_now(),
                             person_id_value,
@@ -313,12 +399,8 @@ def run_research(
                         WHERE person_id = ?
                         """,
                         (
-                            "candidate_found" if candidate_count else "in_progress",
-                            (
-                                "Review source candidates."
-                                if candidate_count
-                                else "Continue staged research."
-                            ),
+                            next_status,
+                            queue_next_action,
                             utc_now(),
                             person_id_value,
                         ),

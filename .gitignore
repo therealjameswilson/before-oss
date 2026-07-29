@@ -22,6 +22,7 @@ research/research.sqlite
 research/research.sqlite-*
 research/*.backup
 research/*.csv
+!research/*_review_decisions_*.csv
 data/private/
 data/api/
 data/source/*.pdf

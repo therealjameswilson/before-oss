@@ -52,6 +52,31 @@ def _initial(value: str) -> str:
     return initial if "A" <= initial <= "Z" else "other"
 
 
+def verified_affiliation_person_count(
+    profiles: list[dict[str, object]],
+) -> int:
+    """Count people with publishable confirmed/high affiliations.
+
+    Medium-confidence affiliations may be displayed with qualification, but
+    they must not inflate the default verified-employer coverage measure.
+    """
+    count = 0
+    for profile in profiles:
+        affiliations = [
+            *profile["immediate_pre_oss_affiliations"],
+            *profile["last_civilian_pre_service"],
+            *profile["other_pre_oss_affiliations"],
+        ]
+        if any(
+            affiliation["claim_confidence"] in {"confirmed", "high"}
+            and affiliation["publication_status"]
+            in {"published", "publish_qualified"}
+            for affiliation in affiliations
+        ):
+            count += 1
+    return count
+
+
 def _write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n"
@@ -163,6 +188,7 @@ def _claims_and_sources(
                 "support_type": link["support_type"],
                 "locator_override": link["locator_override"],
                 "excerpt_override": link["excerpt_override"],
+                "source": sources[link["source_id"]],
             }
             for link in connection.execute(
                 "SELECT * FROM claim_sources WHERE claim_id = ? ORDER BY source_id",
@@ -395,12 +421,7 @@ def build_public_data(
         for profile in profiles
         if profile["research_attempt_count"] > 0
     )
-    verified_people = sum(
-        1
-        for profile in profiles
-        if profile["immediate_pre_oss_affiliations"]
-        or profile["last_civilian_pre_service"]
-    )
+    verified_people = verified_affiliation_person_count(profiles)
     archival_assessed = sum(
         1
         for profile in profiles

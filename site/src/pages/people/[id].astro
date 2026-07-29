@@ -209,6 +209,42 @@ const correctionUrl =
                     {" "}
                     <Badge value={claim.source_quality} />
                   </p>
+                  <h4>Sources for this claim</h4>
+                  <ol class="citation-list">
+                    {claim.sources.map((link) => {
+                      const source = link.source;
+                      const locator = link.locator_override ?? source.locator;
+                      return (
+                        <li>
+                          <p>
+                            {source.stable_url ? (
+                              <a href={source.stable_url}>{source.title}</a>
+                            ) : (
+                              <strong>{source.title}</strong>
+                            )}
+                            {source.author_creator && ` — ${source.author_creator}`}
+                            {`. ${source.repository_publisher}.`}
+                            {source.publication_record_date &&
+                              ` ${source.publication_record_date}.`}
+                          </p>
+                          <p class="citation-meta">
+                            {source.archival_identifier &&
+                              `Archival identifier: ${source.archival_identifier}. `}
+                            {source.document_number &&
+                              `Document: ${source.document_number}. `}
+                            {locator && `Locator: ${locator}. `}
+                            {`Accessed ${source.access_date}.`}
+                          </p>
+                          {link.excerpt_override && (
+                            <blockquote>“{link.excerpt_override}”</blockquote>
+                          )}
+                          <p class="citation-meta">
+                            Support: {link.support_type.replaceAll("_", " ")}.
+                          </p>
+                        </li>
+                      );
+                    })}
+                  </ol>
                 </article>
               ))}
             </section>

@@ -18,6 +18,7 @@ from .config import get_settings
 from .sources.nara import NaraAdapter
 from .public import build_public_data
 from .review import import_review_decisions
+from .evidence import import_reviewed_evidence
 
 
 def _path(value: str) -> Path:
@@ -81,6 +82,8 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("export-review-queue")
     import_reviews = sub.add_parser("import-review-decisions")
     import_reviews.add_argument("review_csv", type=_path)
+    import_evidence = sub.add_parser("import-reviewed-evidence")
+    import_evidence.add_argument("evidence_json", type=_path)
     sub.add_parser("coverage-report")
     sub.add_parser("build-public-data")
     profile_audit = sub.add_parser("audit-profiles")
@@ -224,6 +227,27 @@ def main(argv: list[str] | None = None) -> int:
                 status="completed",
                 processed=result["rows_read"],
                 succeeded=result["decisions_imported"],
+            )
+        elif args.command == "import-reviewed-evidence":
+            result = import_reviewed_evidence(connection, args.evidence_json)
+            finish_run(
+                connection,
+                run,
+                status="completed",
+                processed=(
+                    result["sources"]
+                    + result["organizations"]
+                    + result["affiliations"]
+                    + result["claims"]
+                    + result["person_updates"]
+                ),
+                succeeded=(
+                    result["sources"]
+                    + result["organizations"]
+                    + result["affiliations"]
+                    + result["claims"]
+                    + result["person_updates"]
+                ),
             )
         elif args.command == "coverage-report":
             result = coverage_report(connection)

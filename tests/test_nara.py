@@ -66,6 +66,49 @@ class NaraAdapterTests(unittest.TestCase):
             0,
         )
 
+    def test_dry_run_resume_skips_an_existing_plan(self) -> None:
+        adapter = NaraAdapter(
+            self.connection,
+            settings(nara_api_key=None, contact_email=""),
+        )
+        first = adapter.search('"Jane Example" OSS', dry_run=True)
+        now = "2026-07-29T00:00:00+00:00"
+        with self.connection:
+            self.connection.execute(
+                """
+                INSERT INTO person_entities(
+                    person_id, display_name, normalized_name, identity_status,
+                    name_variants_json, personnel_category, difficulty_tier,
+                    manual_review_required, research_status,
+                    research_attempt_number, personnel_file_indexed,
+                    personnel_file_reviewed, archival_review_priority,
+                    created_at, updated_at
+                ) VALUES (
+                    'person-1', 'Jane Example', 'JANE EXAMPLE', 'unresolved',
+                    '[]', 'unknown_or_indeterminate', 1, 1, 'not_started',
+                    0, 1, 0, 'unassessed', ?, ?
+                )
+                """,
+                (now, now),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO research_attempts(
+                    research_attempt_id, person_id, source_adapter, query_text,
+                    query_variant_type, request_fingerprint, started_at,
+                    completed_at, outcome, attempt_number,
+                    research_agent_version
+                ) VALUES (
+                    'attempt-1', 'person-1', 'nara', '"Jane Example" OSS',
+                    'official', ?, ?, ?, 'planned', 1, 'test'
+                )
+                """,
+                (first.fingerprint, now, now),
+            )
+        resumed = adapter.search('"Jane Example" OSS', dry_run=True)
+        self.assertTrue(resumed.duplicate_request)
+        self.assertFalse(resumed.planned)
+
     def test_live_request_fails_closed_without_key(self) -> None:
         adapter = NaraAdapter(
             self.connection, settings(nara_api_key=None)

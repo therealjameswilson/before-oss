@@ -41,6 +41,13 @@ jobs:
             python -m oss_research build-identities
             python -m oss_research create-pilot --size 75 --batch-name pilot-v1
           fi
+      - name: Import committed reviewed evidence
+        run: |
+          for evidence_bundle in research/evidence_*.json; do
+            if [ -f "$evidence_bundle" ]; then
+              python -m oss_research import-reviewed-evidence "$evidence_bundle"
+            fi
+          done
       - name: Run a bounded NARA research batch
         env:
           NARA_API_KEY: ${{ secrets.NARA_API_KEY }}

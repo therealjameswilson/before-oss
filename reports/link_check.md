@@ -4,12 +4,13 @@ Run: 2026-07-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 23,949 HTML files. Every relative
+**PASS.** The production build contains 23,951 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles plus home, directory,
-organizations, analysis, methodology, sources, downloads, and 404 pages.
+The build includes 23,941 person profiles, 2 organization profiles, and the
+home, directory, organizations, analysis, methodology, sources, downloads, and
+404 pages.
 
 ## Representative external targets
 
@@ -27,14 +28,8 @@ organizations, analysis, methodology, sources, downloads, and 404 pages.
 
 ## Production deployment
 
-The GitHub Pages deployment for commit `967d613` completed successfully.
-Live checks returned HTTP 200 for:
-
-- the home page;
-- the personnel directory;
-- a direct person-profile URL;
-- `data/stats.json`; and
-- the 3.6 MB public personnel CSV download.
+Production deployment checks for this candidate release are pending its push to
+`main`. The local GitHub Pages base-path build and internal link check passed.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.

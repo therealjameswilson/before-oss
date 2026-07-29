@@ -299,8 +299,41 @@ def audit_profiles(
     ]
     for person in people:
         person["_order"] = hashlib.sha256(
-            f"profile-audit-v1:{person['person_id']}".encode()
+            f"profile-audit-v2:{person['person_id']}".encode()
         ).hexdigest()
+
+    published_claim_rows = list(
+        connection.execute(
+            """
+            SELECT DISTINCT person_id, claim_confidence
+            FROM claims
+            WHERE publication_status IN (
+                'publish_qualified', 'published', 'conflicting'
+            )
+            """
+        )
+    )
+    claim_people_by_confidence = {
+        confidence: {
+            str(row["person_id"])
+            for row in published_claim_rows
+            if row["claim_confidence"] == confidence
+        }
+        for confidence in (
+            "confirmed",
+            "high",
+            "medium",
+            "low",
+            "unresolved",
+            "conflicting",
+        )
+    }
+    confirmed_or_high_claim_people = (
+        claim_people_by_confidence["confirmed"]
+        | claim_people_by_confidence["high"]
+    )
+    medium_claim_people = claim_people_by_confidence["medium"]
+    conflicting_claim_people = claim_people_by_confidence["conflicting"]
 
     selected: dict[str, dict[str, object]] = {}
 
@@ -334,6 +367,20 @@ def audit_profiles(
     take(lambda person: int(person["incomplete_name_rows"]) > 0, 20)
     take(lambda person: person["possible_duplicate_group"] is not None, 30)
     take(lambda person: person["identity_status"] == "high_confidence", 20)
+    take(
+        lambda person: str(person["person_id"])
+        in confirmed_or_high_claim_people,
+        min(10, len(confirmed_or_high_claim_people)),
+    )
+    take(
+        lambda person: str(person["person_id"]) in medium_claim_people,
+        min(10, len(medium_claim_people)),
+    )
+    take(
+        lambda person: str(person["person_id"]) in conflicting_claim_people,
+        min(10, len(conflicting_claim_people)),
+    )
+    take(lambda person: person["identity_status"] == "unresolved", 25)
     for person in sorted(people, key=lambda item: str(item["_order"])):
         if len(selected) >= sample_size:
             break
@@ -412,20 +459,44 @@ def audit_profiles(
             person["possible_duplicate_group"] is not None
             for person in selected_rows
         ),
+        "confirmed_or_high_published_claim": sum(
+            str(person["person_id"]) in confirmed_or_high_claim_people
+            for person in selected_rows
+        ),
+        "medium_published_claim": sum(
+            str(person["person_id"]) in medium_claim_people
+            for person in selected_rows
+        ),
+        "conflicting_published_claim": sum(
+            str(person["person_id"]) in conflicting_claim_people
+            for person in selected_rows
+        ),
+        "unresolved_identity": sum(
+            person["identity_status"] == "unresolved"
+            for person in selected_rows
+        ),
     }
     unavailable_strata = {
         "women": (
             "The index has no sex/gender field; the project does not infer gender "
             "from names. This stratum requires sourced identity research."
         ),
-        "confirmed_or_medium_claims": (
-            "No confirmed or medium-confidence employment claim currently exists."
-        ),
-        "conflicting_claims": "No conflicting published claim currently exists.",
     }
+    if not confirmed_or_high_claim_people:
+        unavailable_strata["confirmed_or_high_claims"] = (
+            "No confirmed or high-confidence published claim currently exists."
+        )
+    if not medium_claim_people:
+        unavailable_strata["medium_claims"] = (
+            "No medium-confidence published claim currently exists."
+        )
+    if not conflicting_claim_people:
+        unavailable_strata["conflicting_claims"] = (
+            "No conflicting published claim currently exists."
+        )
     audit = {
         "generated_at": utc_now(),
-        "selection_version": "profile-audit-v1",
+        "selection_version": "profile-audit-v2",
         "sample_size": len(selected_rows),
         "checks": checks,
         "personnel_category_counts": dict(sorted(category_counts.items())),

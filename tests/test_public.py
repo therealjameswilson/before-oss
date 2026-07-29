@@ -2,7 +2,11 @@ from __future__ import annotations
 
 import unittest
 
-from oss_research.public import mask_serial, public_source_row
+from oss_research.public import (
+    mask_serial,
+    public_source_row,
+    verified_affiliation_person_count,
+)
 
 
 class FakeRow(dict):
@@ -34,6 +38,31 @@ class PublicProjectionTests(unittest.TestCase):
         self.assertNotIn("serial_number_normalized", public)
         self.assertNotIn("raw_row_text", public)
         self.assertNotIn("12345678", str(public))
+
+    def test_medium_affiliation_does_not_count_as_verified(self) -> None:
+        profiles = [
+            {
+                "immediate_pre_oss_affiliations": [
+                    {
+                        "claim_confidence": "medium",
+                        "publication_status": "publish_qualified",
+                    }
+                ],
+                "last_civilian_pre_service": [],
+                "other_pre_oss_affiliations": [],
+            },
+            {
+                "immediate_pre_oss_affiliations": [],
+                "last_civilian_pre_service": [
+                    {
+                        "claim_confidence": "high",
+                        "publication_status": "publish_qualified",
+                    }
+                ],
+                "other_pre_oss_affiliations": [],
+            },
+        ]
+        self.assertEqual(verified_affiliation_person_count(profiles), 1)
 
 
 if __name__ == "__main__":

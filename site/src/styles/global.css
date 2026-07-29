@@ -853,6 +853,20 @@ dd {
   padding-left: 1.2rem;
 }
 
+.citation-list li {
+  margin-block: 1rem;
+  padding-left: 0.35rem;
+}
+
+.citation-list p {
+  margin-block: 0.35rem;
+}
+
+.citation-meta {
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+}
+
 .chart {
   margin-block: 2rem;
 }
