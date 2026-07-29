@@ -31,9 +31,35 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-The Batch 030 GitHub Actions workflows and production smoke tests are pending
-the release commit. This report will be completed with immutable workflow and
-release identifiers after deployment.
+GitHub Actions test workflow
+[30495196981](https://github.com/therealjameswilson/before-oss/actions/runs/30495196981)
+and GitHub Pages deployment
+[30495197021](https://github.com/therealjameswilson/before-oss/actions/runs/30495197021)
+for instructors-and-fieldcraft-pathways Batch 030 release `06bbd16`
+completed successfully.
+
+Live checks returned HTTP 200 and the expected content marker for all 22
+tested targets:
+
+- the home, `/people/` personnel directory, organizations, analysis,
+  methodology, sources, and downloads pages;
+- Edgar A. Prichard, Jerry M. Sage, Elmer Harris, George H. White, and Charles
+  M. Parkin Jr.;
+- `data/stats.json`;
+- all four public CSV downloads;
+- the public personnel JSONL download;
+- `data/sources.json`, `data/organizations.json`, `data/search-index.json`,
+  and the public build manifest;
+- the NARA attribution notice and full-service-number redaction on the five
+  new profiles.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 228
+people with non-planned research attempts, 136 verified-affiliation people, 90
+verified-employer people, 155 archival-review assessments, 440 published
+claims, and 356 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 175, 274, and 356 data rows
+respectively. The live personnel CSV header contains `serial_masked` and no
+full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
