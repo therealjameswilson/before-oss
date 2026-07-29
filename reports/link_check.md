@@ -31,25 +31,30 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-The Batch 023 GitHub Actions test and Pages deployment are pending the release
-commit.
+GitHub Actions test workflow
+[30479499003](https://github.com/therealjameswilson/before-oss/actions/runs/30479499003)
+and GitHub Pages deployment
+[30479498970](https://github.com/therealjameswilson/before-oss/actions/runs/30479498970)
+for research-and-analysis-predecessor-pathways Batch 023 release `c28a7f6`
+completed successfully.
 
-After deployment, live checks will cover twenty tested targets:
+Live checks returned HTTP 200 and the expected content marker for all twenty
+tested targets:
 
-- the home, personnel, organizations, analysis, methodology, sources, and
-  downloads pages;
+- the home, `/people/` personnel directory, organizations, analysis,
+  methodology, sources, and downloads pages;
 - all five Batch 023 profiles: James Phinney Baxter III, Saul K. Padover,
   C. Martin Wilbur, Charles F. Remer, and Morris Janowitz;
 - `data/stats.json`;
 - all four public CSV downloads;
 - `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
 
-The release data report 23,978 source rows, 23,941 person entities, 193 people
+The live statistics report 23,978 source rows, 23,941 person entities, 193 people
 with non-planned research attempts, 109 verified-affiliation people, 75
 verified-employer people, 120 archival-review assessments, 351 published
-claims, and 281 public source records. The personnel, organizations,
+claims, and 281 public source records. The live personnel, organizations,
 affiliations, and sources downloads contain 23,941, 149, 225, and 281 data rows
-respectively. The personnel CSV header contains `serial_masked` and no full
+respectively. The live personnel CSV header contains `serial_masked` and no full
 service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
