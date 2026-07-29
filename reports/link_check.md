@@ -32,29 +32,32 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30487546293](https://github.com/therealjameswilson/before-oss/actions/runs/30487546293)
+[30490323559](https://github.com/therealjameswilson/before-oss/actions/runs/30490323559)
 and GitHub Pages deployment
-[30487547540](https://github.com/therealjameswilson/before-oss/actions/runs/30487547540)
-for women’s-pre-OSS-pathways Batch 026 release `016c893` completed
+[30490323551](https://github.com/therealjameswilson/before-oss/actions/runs/30490323551)
+for early-COI-finance-and-scholarship Batch 027 release `91d58ba` completed
 successfully.
 
-Live checks returned HTTP 200 and the expected content marker for all 21
+Live checks returned HTTP 200 and the expected content marker for all 24
 tested targets:
 
 - the home, `/people/` personnel directory, organizations, analysis,
   methodology, sources, and downloads pages;
-- Mary D. Bancroft, Stephanie Czech, Elizabeth P. MacDonald, Jane Foster, and
-  Stella T. Uzdawinis;
+- Joseph R. Hayden, Wilmarth S. Lewis, Junius S. Morgan, William L. Rehm, and
+  R. H. Goddard;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download;
-- `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
+- `data/sources.json`, `data/organizations.json`, `data/search-index.json`,
+  and the public build manifest;
+- the NARA attribution notice and full-service-number redaction on the five
+  new profiles.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 208
-people with non-planned research attempts, 120 verified-affiliation people, 83
-verified-employer people, 135 archival-review assessments, 386 published
-claims, and 315 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 155, 244, and 315 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 213
+people with non-planned research attempts, 124 verified-affiliation people, 85
+verified-employer people, 140 archival-review assessments, 397 published
+claims, and 327 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 158, 248, and 327 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
