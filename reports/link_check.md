@@ -32,26 +32,25 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Pages deployment
-[30430203782](https://github.com/therealjameswilson/before-oss/actions/runs/30430203782)
-for research release `671dde7` completed successfully.
+[30431906457](https://github.com/therealjameswilson/before-oss/actions/runs/30431906457)
+for research release `34bd889` completed successfully.
 
 Live checks returned HTTP 200 for all seven tested targets:
 
 - the home page;
-- the reviewed Morris Berg profile;
-- the reviewed Virginia Hall profile;
-- the reviewed Richard M. Helms profile;
-- the reviewed William E. Colby profile;
+- the reviewed John Ford profile;
+- the reviewed Christian J. Lambertsen profile;
+- the reviewed Alfonso Rodriguez profile;
+- the Sidney L. Bartlett identity-review profile;
 - `data/stats.json`; and
 - the public personnel CSV download.
 
-Each of the four new live profiles displays the expected immediate affiliation
-and direct CIA institutional citation. Profiles without a reviewed civilian
-employer display the approved unresolved wording. The live statistics report
-23,978 source rows, 23,941 person entities, 83 people with non-planned research
-attempts, 9 verified-employer people, 49 published claims, and 16 public source
-documents. The live CSV header contains `serial_masked` and no full
-service-number field.
+Each live profile displays the expected distinct student, military, employer,
+or identity-review treatment and a direct CIA institutional citation. The live
+statistics report 23,978 source rows, 23,941 person entities, 87 people with
+non-planned research attempts, 12 verified-employer people, 59 published
+claims, and 23 public source documents. The live CSV header contains
+`serial_masked` and no full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
