@@ -32,10 +32,10 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30465318840](https://github.com/therealjameswilson/before-oss/actions/runs/30465318840)
+[30468181646](https://github.com/therealjameswilson/before-oss/actions/runs/30468181646)
 and GitHub Pages deployment
-[30465318369](https://github.com/therealjameswilson/before-oss/actions/runs/30465318369)
-for official-institutional-pathways Batch 016 release `c63a137` completed
+[30468183502](https://github.com/therealjameswilson/before-oss/actions/runs/30468183502)
+for official-institutional-pathways Batch 017 release `26c5569` completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker for all twenty
@@ -43,17 +43,17 @@ tested targets:
 
 - the home, personnel, organizations, analysis, methodology, sources, and
   downloads pages;
-- all five Batch 016 profiles: Henry A. Murray, Conyers Read, Donal McLaughlin,
-  Oliver Lincoln Lundquist, and William James Morgan;
+- all five Batch 017 profiles: Felix Gilbert, Franz L. Neumann, Haje Holborn,
+  Edward M. Earle, and Sigmund Neumann;
 - `data/stats.json`;
 - all four public CSV downloads;
 - `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 159
-people with non-planned research attempts, 75 verified-affiliation people, 45
-verified-employer people, 85 archival-review assessments, 256 published claims,
-and 185 public source records. The live personnel, organizations, affiliations,
-and sources downloads contain 23,941, 120, 168, and 185 data rows respectively.
+The live statistics report 23,978 source rows, 23,941 person entities, 164
+people with non-planned research attempts, 80 verified-affiliation people, 50
+verified-employer people, 90 archival-review assessments, 274 published claims,
+and 199 public source records. The live personnel, organizations, affiliations,
+and sources downloads contain 23,941, 128, 178, and 199 data rows respectively.
 The live personnel CSV header contains `serial_masked` and no full
 service-number field.
 
