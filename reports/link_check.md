@@ -32,10 +32,10 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30479499003](https://github.com/therealjameswilson/before-oss/actions/runs/30479499003)
+[30481677007](https://github.com/therealjameswilson/before-oss/actions/runs/30481677007)
 and GitHub Pages deployment
-[30479498970](https://github.com/therealjameswilson/before-oss/actions/runs/30479498970)
-for research-and-analysis-predecessor-pathways Batch 023 release `c28a7f6`
+[30481677016](https://github.com/therealjameswilson/before-oss/actions/runs/30481677016)
+for academic-to-OSS-pathways Batch 024 release `6c6ec57`
 completed successfully.
 
 Live checks returned HTTP 200 and the expected content marker for all twenty
@@ -43,17 +43,17 @@ tested targets:
 
 - the home, `/people/` personnel directory, organizations, analysis,
   methodology, sources, and downloads pages;
-- all five Batch 023 profiles: James Phinney Baxter III, Saul K. Padover,
-  C. Martin Wilbur, Charles F. Remer, and Morris Janowitz;
+- all five Batch 024 profiles: Edward A. Shils, Sterling Dow, Donald C. McKay,
+  John L. Clive, and Robert L. Wolff;
 - `data/stats.json`;
 - all four public CSV downloads;
 - `data/sources.json`, `data/organizations.json`, and `data/search-index.json`.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 193 people
-with non-planned research attempts, 109 verified-affiliation people, 75
-verified-employer people, 120 archival-review assessments, 351 published
-claims, and 281 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 149, 225, and 281 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 198 people
+with non-planned research attempts, 113 verified-affiliation people, 78
+verified-employer people, 125 archival-review assessments, 363 published
+claims, and 293 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 150, 232, and 293 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no full
 service-number field.
 
