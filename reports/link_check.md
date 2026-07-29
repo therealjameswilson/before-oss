@@ -23,7 +23,18 @@ organizations, analysis, methodology, sources, downloads, and 404 pages.
 | Library of Congress APIs | HTTP 200 |
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
-| GitHub correction URL | Pending repository publication at the time of this report |
+| GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
+
+## Production deployment
+
+The GitHub Pages deployment for commit `967d613` completed successfully.
+Live checks returned HTTP 200 for:
+
+- the home page;
+- the personnel directory;
+- a direct person-profile URL;
+- `data/stats.json`; and
+- the 3.6 MB public personnel CSV download.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.

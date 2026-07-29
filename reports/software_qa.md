@@ -13,6 +13,9 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
+- GitHub Actions test workflow: **passed**
+- GitHub Pages deployment workflow: **passed**
+- Production route smoke tests: **5 / 5 returned HTTP 200**
 
 The initial dependency range resolved to an older Astro major with current
 security advisories. The project was upgraded to Astro 7.1.5 and sharp 0.35.3;
