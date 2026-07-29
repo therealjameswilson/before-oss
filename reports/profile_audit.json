@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T07:23:01+00:00",
+  "generated_at": "2026-07-29T07:49:25+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,15 +17,15 @@
     "commissioned_naval_officer": 7,
     "enlisted_army_personnel": 28,
     "enlisted_naval_personnel": 4,
-    "foreign_or_allied_military_personnel": 18,
-    "unknown_or_indeterminate": 88,
+    "foreign_or_allied_military_personnel": 19,
+    "unknown_or_indeterminate": 87,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
     "1": 71,
-    "2": 63,
+    "2": 62,
     "3": 27,
-    "4": 39
+    "4": 40
   },
   "identity_status_counts": {
     "confirmed": 3,
@@ -34,17 +34,17 @@
   },
   "research_status_counts": {
     "in_progress": 5,
-    "not_started": 189,
-    "verified_employer_found": 6
+    "not_started": 188,
+    "verified_employer_found": 7
   },
   "special_strata_counts": {
     "commissioned": 38,
     "civilian": 21,
     "enlisted": 32,
-    "allied_or_foreign": 20,
+    "allied_or_foreign": 21,
     "incomplete_or_initial_only_name": 20,
-    "possible_duplicate_group": 45,
-    "confirmed_or_high_published_claim": 7,
+    "possible_duplicate_group": 44,
+    "confirmed_or_high_published_claim": 8,
     "medium_published_claim": 3,
     "conflicting_published_claim": 0,
     "unresolved_identity": 174
@@ -233,6 +233,7 @@
     "30f0d68c-d021-5e23-8f16-99496a0f99a5",
     "37fccf8f-54be-547d-b7a7-0b2edd06f719",
     "ca5f3b27-4bb6-598b-af15-e7070a5c38a9",
+    "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
     "f55e8419-afd7-5470-87df-4786454accba",
     "2c99f3a1-3b85-543b-b2e0-0cb69b197ded",
     "b2850942-a685-52d7-bb47-43a368d1b665",
@@ -247,7 +248,6 @@
     "e2b1a895-4a09-517b-8c12-b8d190b35781",
     "a054c154-cd1d-5aa1-97c3-1ead473286d6",
     "ff71fb32-c140-52ec-8cd1-5c84550a20a8",
-    "512518ac-900f-5640-93cb-5da5cc084103",
     "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
     "a417086c-3c99-5b5a-a198-35e1dc27f553",
     "0a1cbed6-2239-51a5-8ada-245100eb6fa0",

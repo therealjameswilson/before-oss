@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 51 / 51 browser cases.**
+**PASS - 54 / 54 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -36,6 +36,11 @@ They additionally verify that the second CIA batch keeps John Ford's Naval
 Reserve assignment, Christian Lambertsen's medical-student status and qualified
 company employment, Alfonso Rodriguez's Army G-2 assignment, and Sidney
 Bartlett's identity-review status distinct.
+The aliases-and-variants batch additionally verifies that indexed forms remain
+the page titles while Rene Joyeuse, Taro Yashima, Mitsu Yashima, and Joseph
+Anthony Savoldi remain searchable documented variants. It verifies that
+unnamed student and occupational records display as “Art student” and
+“Professional wrestler,” rather than as generic relationship types.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the

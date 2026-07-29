@@ -7,9 +7,9 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 87 people with a non-planned attempt | 23,941 person entities | 0.3634% |
-| Verified-employer coverage | 12 people with a confirmed/high published affiliation | 23,941 person entities | 0.0501% |
-| Archival-review coverage | 13 people with an individual file-access/priority assessment | 23,941 person entities | 0.0543% |
+| Research-attempt coverage | 91 people with a non-planned attempt | 23,941 person entities | 0.3801% |
+| Verified-employer coverage | 15 people with a confirmed/high published affiliation | 23,941 person entities | 0.0627% |
+| Archival-review coverage | 17 people with an individual file-access/priority assessment | 23,941 person entities | 0.0710% |
 
 ## Extraction and identity
 
@@ -21,9 +21,9 @@ Generated from the current local SQLite database on 2026-07-28/29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 5
-- Identity status `high_confidence`: 45
-- Identity status `probable`: 1
-- Identity status `unresolved`: 23,890
+- Identity status `high_confidence`: 48
+- Identity status `probable`: 2
+- Identity status `unresolved`: 23,886
 
 ## Personnel categories
 
@@ -40,11 +40,12 @@ Commissioned classification: 2,084 yes; 4,938 no; 16,919 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,854
+- `not_started`: 23,850
 - `in_progress`: 73
 - `candidate_found`: 1
-- `needs_identity_review`: 1
-- `verified_employer_found`: 12
+- `needs_identity_review`: 2
+- `occupation_only_found`: 1
+- `verified_employer_found`: 14
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -53,20 +54,22 @@ Commissioned classification: 2,084 yes; 4,938 no; 16,919 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Reviewed CIA institutional-biography attempts: 8
-- Total recorded attempts/plans: 1,076
+- Reviewed official-web attempts: 12, including two identity resolutions
+  supported by Library of Congress name-authority records
+- Total recorded attempts/plans: 1,080
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- Reviewed people with published evidence: 14 (Mort S. Bobrow, Morris Berg,
+- Reviewed people with published evidence: 18 (Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
-  Ford, Christian J. Lambertsen, Alfonso Rodriguez, and Sidney L. Bartlett)
-- Published affiliations: 40
-- Published claims: 59 (28 confirmed, 22 high, 9 medium)
-- Sources supporting public claims: 23
-- Canonical organizations: 33
+  Ford, Christian J. Lambertsen, Alfonso Rodriguez, Sidney L. Bartlett, Rene
+  Veuve, Jun Atshushi Iwamatsu, Tomoe Iwamatsu, and Joseph Savoldi Jr.)
+- Published affiliations: 46
+- Published claims: 69 (28 confirmed, 30 high, 11 medium)
+- Sources supporting public claims: 29
+- Canonical organizations: 36
 - Conflicts: 0
-- NARA pull-list rows: 23,966
+- NARA pull-list rows: 23,964
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence published affiliations do not count as verified-employer
@@ -101,6 +104,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_julia-c-mcwil
 python3 -m oss_research import-reviewed-evidence research/evidence_selected-nara-personnel-files_batch-002_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_cia-institutional-biographies_batch-003_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_cia-official-biographies_batch-004_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_cia-loc-aliases_batch-005_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

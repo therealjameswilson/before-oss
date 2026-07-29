@@ -77,6 +77,20 @@ Bartlett remains outside default analytics because the institutional source
 omits the index's middle initial and does not document an explicit Army-to-OSS
 transfer.
 
+The fifth reviewed evidence batch tested aliases, variant spellings, unnamed
+occupations, and paired archival context:
+
+| Indexed person | Official sources | Decision |
+|---|---|---|
+| Rene Veuve | <https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/> | Exact birth-name and French S/Lt context support a high-confidence Rene Joyeuse match; French Resistance is the immediate affiliation, with formal relationship left unknown |
+| Jun Atshushi Iwamatsu | <https://id.loc.gov/authorities/names/n82056657> and [CIA institutional history](https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/) | Library of Congress variants bridge Jun and Atsushi Iwamatsu to Taro Yashima; OWI is recorded as the immediate government assignment and the index spelling remains visible |
+| Tomoe Iwamatsu | <https://id.loc.gov/authorities/names/n82056669> and [CIA institutional history](https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/) | Exact authority-file variant, shared Box 365, and spouse context support the Mitsu Yashima match; unnamed art study is retained without inventing a school or employer |
+| Joseph Savoldi Jr. | <https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/> | The distinctive match remains probable because the CIA history omits the index suffix; professional wrestler is an occupation, not a fabricated employer |
+
+The Library of Congress authority JSON was inspected in memory and discarded.
+The project retains only stable authority identifiers, source metadata, and
+project-authored identity assessments.
+
 ## Official reference material
 
 - NARA OSS personnel records:

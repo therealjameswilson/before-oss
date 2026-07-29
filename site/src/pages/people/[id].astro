@@ -46,6 +46,12 @@ const affiliationMeta = (item: Affiliation) => {
     .filter(Boolean)
     .join(" · ");
 };
+const affiliationLabel = (item: Affiliation) =>
+  item.canonical_organization ??
+  item.organization_name_as_found ??
+  item.role_title ??
+  item.occupation ??
+  item.relationship_type.replaceAll("_", " ");
 ---
 
 <BaseLayout
@@ -96,9 +102,7 @@ const affiliationMeta = (item: Affiliation) => {
               profile.immediate_pre_oss_affiliations.map((item) => (
                 <article class="affiliation-card">
                   <h3>
-                    {item.canonical_organization ??
-                      item.organization_name_as_found ??
-                      item.relationship_type.replaceAll("_", " ")}
+                    {affiliationLabel(item)}
                   </h3>
                   <p>{item.role_title ?? item.occupation ?? item.relationship_type}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
@@ -161,9 +165,7 @@ const affiliationMeta = (item: Affiliation) => {
               {profile.other_pre_oss_affiliations.map((item) => (
                 <article class="affiliation-card">
                   <h3>
-                    {item.canonical_organization ??
-                      item.organization_name_as_found ??
-                      item.relationship_type}
+                    {affiliationLabel(item)}
                   </h3>
                   <p>{item.role_title ?? item.occupation}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>

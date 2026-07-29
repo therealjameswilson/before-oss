@@ -257,3 +257,64 @@ test("the second reviewed CIA batch keeps student, military, employer, and ident
     ).toHaveAttribute("href", /cia\.gov/);
   }
 });
+
+test("the alias batch preserves indexed names, documented variants, and unnamed occupations", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      name: "Rene Veuve",
+      variant: "Rene Joyeuse",
+      affiliation: "French Resistance",
+    },
+    {
+      id: "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      name: "Jun Atshushi Iwamatsu",
+      variant: "Taro Yashima",
+      affiliation: "United States Office of War Information",
+      authorityId: "n82056657",
+    },
+    {
+      id: "1456d4d2-f29f-56ed-a26c-a9318ed40fab",
+      name: "Tomoe Iwamatsu",
+      variant: "Mitsu Yashima",
+      affiliation: "Art student",
+      authorityId: "n82056669",
+    },
+    {
+      id: "c10592a8-6d9e-5673-bf46-5296b828d186",
+      name: "Joseph Savoldi Jr.",
+      variant: "Joseph Anthony Savoldi",
+      affiliation: "Professional wrestler",
+      needsIdentityReview: true,
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(page.getByText(profile.variant, { exact: false }).first()).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.affiliation, exact: true }).first(),
+    ).toBeVisible();
+    if (profile.authorityId) {
+      await expect(
+        page.getByRole("link", { name: new RegExp(`Yashima, .+19`) }).first(),
+      ).toHaveAttribute(
+        "href",
+        `https://id.loc.gov/authorities/names/${profile.authorityId}`,
+      );
+    }
+    if (profile.needsIdentityReview) {
+      await expect(page.getByText("needs identity review", { exact: true })).toBeVisible();
+      await expect(
+        page.getByText("No reviewed claim currently meets the publication threshold.", {
+          exact: true,
+        }),
+      ).toBeVisible();
+    }
+  }
+});

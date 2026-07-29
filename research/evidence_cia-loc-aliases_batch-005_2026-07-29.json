@@ -1,0 +1,649 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-483-veuve-rene",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 804",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 483; Veuve, Rene; S/Lt; French; Box 804",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The private database preserves the full source row; no service number appears in this row."
+    },
+    {
+      "key": "nara-oss-index-page-226-iwamatsu-jun-atshushi",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 365",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 226; Iwamatsu, Jun Atshushi; Box 365",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The source spelling Atshushi is preserved rather than silently corrected."
+    },
+    {
+      "key": "nara-oss-index-page-226-iwamatsu-tomoe",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 365",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 226; Iwamatsu, Tomoe; Box 365",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. This row shares Box 365 with the indexed Jun Atshushi Iwamatsu row."
+    },
+    {
+      "key": "nara-oss-index-page-410-savoldi-joseph-jr",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 679",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 410; Savoldi, Joseph Jr.; Box 679",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The suffix is preserved because the institutional biography reviewed does not reproduce it."
+    },
+    {
+      "key": "cia-glorious-amateurs-2021",
+      "stable_url": "https://www.cia.gov/stories/story/the-glorious-amateurs-of-oss/",
+      "title": "The \"Glorious Amateurs\" of OSS: A Diverse Group of Characters Who Helped Win a World War",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2021-12-03",
+      "locator": "Children's Book Artists: Taro and Mitsu Yashima; Pro-Wrestler: Jumping Joe Savoldi; Surgeon and Inventor: Rene Joyeuse",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. Only citation metadata, project-authored paraphrases, and short excerpts are stored."
+    },
+    {
+      "key": "loc-name-authority-n82056657-taro-yashima",
+      "stable_url": "https://id.loc.gov/authorities/names/n82056657",
+      "archival_identifier": "Library of Congress Control Number n82056657",
+      "title": "Yashima, Tarō, 1908-1994",
+      "author_creator": "Library of Congress",
+      "repository_publisher": "Library of Congress",
+      "locator": "Library of Congress Name Authority File; authoritative label Yashima, Tarō; variant labels Iwamatsu, Jun and Iwamatsu, Atsushi",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Library of Congress Name Authority File",
+      "rights_notes": "Official authority metadata is used for identity resolution, not as evidence of employment chronology."
+    },
+    {
+      "key": "loc-name-authority-n82056669-mitsu-yashima",
+      "stable_url": "https://id.loc.gov/authorities/names/n82056669",
+      "archival_identifier": "Library of Congress Control Number n82056669",
+      "title": "Yashima, Mitsu, 1908-1988",
+      "author_creator": "Library of Congress",
+      "repository_publisher": "Library of Congress",
+      "locator": "Library of Congress Name Authority File; authoritative label Yashima, Mitsu; variant labels Iwamatsu, Tomoe and Sasako, Tomoe",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Library of Congress Name Authority File",
+      "rights_notes": "Official authority metadata is used for identity resolution, not as evidence of employment chronology."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "french-resistance",
+      "canonical_name": "French Resistance",
+      "historical_name": "French Resistance",
+      "aliases": [
+        "French underground"
+      ],
+      "organization_type": "wartime resistance networks",
+      "sector": "military",
+      "country": "France",
+      "normalization_notes": "A broad historical umbrella is retained because the reviewed source does not identify a specific resistance network."
+    },
+    {
+      "key": "free-french-forces",
+      "canonical_name": "Free French Forces",
+      "historical_name": "Free French Forces",
+      "aliases": [
+        "Forces françaises libres"
+      ],
+      "organization_type": "Allied military forces",
+      "sector": "military",
+      "country": "France",
+      "active_dates": "1940-1943",
+      "normalization_notes": "The historical name used by the CIA biography is preserved."
+    },
+    {
+      "key": "united-states-office-of-war-information",
+      "canonical_name": "United States Office of War Information",
+      "historical_name": "United States Office of War Information",
+      "aliases": [
+        "Office of War Information",
+        "OWI"
+      ],
+      "organization_type": "federal wartime information agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "The historical federal agency is kept separate from the OSS."
+    },
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": [
+        "Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is preserved in the affiliation record."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "rene-veuve-french-resistance",
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "organization_key": "french-resistance",
+      "organization_name_as_found": "French Resistance",
+      "role_title": "Resistance worker",
+      "occupation": "Resistance work",
+      "relationship_type": "unknown",
+      "date_precision": "before joining OSS; exact dates and formal status not supplied",
+      "country": "France",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA biography says Veuve continued working with the French Resistance and joined OSS. Relationship type remains unknown because the source does not specify formal, paid, or volunteer status."
+    },
+    {
+      "key": "rene-veuve-free-french-forces",
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "organization_key": "free-french-forces",
+      "organization_name_as_found": "Free French Forces",
+      "role_title": "Military servicemember",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "start_date": "1940",
+      "date_precision": "joined after the German invasion of France in 1940; exact dates not supplied",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This documented military service preceded the Resistance-to-OSS sequence. It is not labeled the immediate affiliation."
+    },
+    {
+      "key": "jun-iwamatsu-office-of-war-information",
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "organization_key": "united-states-office-of-war-information",
+      "organization_name_as_found": "United States Office of War Information (OWI)",
+      "role_title": "Artist",
+      "occupation": "Artist",
+      "relationship_type": "government_assignment",
+      "date_precision": "after Pearl Harbor and before later OSS work; exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA history states that Taro Yashima worked as an OWI artist and later for OSS. OWI is recorded as a government assignment, not a civilian employer."
+    },
+    {
+      "key": "jun-iwamatsu-united-states-army",
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "US Army",
+      "role_title": "Army servicemember",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "date_precision": "joined after Pearl Harbor; rank and exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army affiliation preceded OWI and OSS. No rank is inferred."
+    },
+    {
+      "key": "tomoe-iwamatsu-art-study",
+      "person_id": "1456d4d2-f29f-56ed-a26c-a9318ed40fab",
+      "role_title": "Art student",
+      "occupation": "Artist and art student",
+      "relationship_type": "student",
+      "date_precision": "before wartime OSS work; school and exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source documents study in the United States but names no institution or employer. No organization is attached."
+    },
+    {
+      "key": "joseph-savoldi-professional-wrestler",
+      "person_id": "c10592a8-6d9e-5673-bf46-5296b828d186",
+      "role_title": "Professional wrestler",
+      "occupation": "Professional wrestler",
+      "relationship_type": "unknown",
+      "date_precision": "professional career described before the 1942 OSS approach; employer and exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation is retained without inferring an employer or self-employment. The identity remains probable because the CIA biography omits the index suffix."
+    }
+  ],
+  "claims": [
+    {
+      "key": "rene-veuve-identity",
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "claim_type": "identity",
+      "claim_text": "The indexed French S/Lt Rene Veuve is strongly matched to Rene Joyeuse, whom the CIA identifies as born Rene Veuve and later assigned that OSS codename.",
+      "evidence_excerpt": "Born Rene Veuve in Switzerland",
+      "evidence_paraphrase": "The index supplies the exact birth name, French note, junior-officer rank, and Box 804; the CIA explicitly connects Veuve to the OSS name Joyeuse.",
+      "identity_match_assessment": "Exact distinctive birth name plus matching French wartime context, officer indication, and an explicit institutional birth-name-to-OSS-name linkage.",
+      "temporal_assessment": "The CIA places Free French and Resistance work after 1940 and before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed Box 804 personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-483-veuve-rene",
+          "support_type": "supports",
+          "locator_override": "PDF page 483; S/Lt; French; Box 804",
+          "excerpt_override": "Veuve Rene S/Lt … French … Box 804"
+        },
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Surgeon and Inventor: Rene Joyeuse"
+        }
+      ]
+    },
+    {
+      "key": "rene-veuve-immediate-french-resistance",
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "affiliation_key": "rene-veuve-french-resistance",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Veuve's best-supported immediate pre-OSS affiliation was work with the French Resistance.",
+      "evidence_excerpt": "continued working with the French Resistance and joined the OSS",
+      "evidence_paraphrase": "The CIA biography directly sequences Veuve's Resistance work before his OSS service.",
+      "identity_match_assessment": "High-confidence match from exact birth name, French index note, officer indication, and explicit OSS alias history.",
+      "temporal_assessment": "Explicitly immediate in sequence, though no transfer date or formal Resistance status is given.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The relationship is marked unknown rather than inferring employment, volunteering, or a formal military assignment.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Surgeon and Inventor: Rene Joyeuse"
+        }
+      ]
+    },
+    {
+      "key": "rene-veuve-earlier-free-french-forces",
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "affiliation_key": "rene-veuve-free-french-forces",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before OSS service, Veuve joined the Free French Forces after the 1940 invasion of France.",
+      "evidence_excerpt": "Veuve joined the Free French Forces",
+      "evidence_paraphrase": "The CIA biography documents the Free French affiliation before describing Resistance and OSS work.",
+      "identity_match_assessment": "High-confidence match from exact birth name, French index note, officer indication, and explicit OSS alias history.",
+      "temporal_assessment": "Documented before OSS but not treated as immediate because Resistance work intervened in the source chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is recorded as an earlier military affiliation, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Surgeon and Inventor: Rene Joyeuse"
+        }
+      ]
+    },
+    {
+      "key": "jun-iwamatsu-identity",
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jun Atshushi Iwamatsu is strongly matched to artist Taro Yashima.",
+      "evidence_excerpt": "Iwamatsu, Jun, 1908-1994",
+      "evidence_paraphrase": "The Library of Congress authority for Taro Yashima lists Iwamatsu, Jun and Iwamatsu, Atsushi as variants; the CIA documents Taro's OWI-to-OSS chronology.",
+      "identity_match_assessment": "The authority record bridges both indexed given-name elements to Taro Yashima, while the shared Box 365 with Tomoe Iwamatsu matches the CIA husband-and-wife context.",
+      "temporal_assessment": "The CIA chronology places Army and OWI service before later OSS work.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index spelling Atshushi remains visible. High confidence rather than confirmed because the indexed personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-226-iwamatsu-jun-atshushi",
+          "support_type": "supports",
+          "locator_override": "PDF page 226; Box 365",
+          "excerpt_override": "Iwamatsu Jun Atshushi … Box 365"
+        },
+        {
+          "source_key": "loc-name-authority-n82056657-taro-yashima",
+          "support_type": "supports",
+          "locator_override": "LCCN n82056657; authoritative and variant labels"
+        },
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Children's Book Artists: Taro and Mitsu Yashima"
+        }
+      ]
+    },
+    {
+      "key": "jun-iwamatsu-immediate-owi",
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "affiliation_key": "jun-iwamatsu-office-of-war-information",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Iwamatsu's best-supported immediate pre-OSS affiliation was work as an artist for the United States Office of War Information.",
+      "evidence_excerpt": "Office of War Information (OWI) and, later, the OSS",
+      "evidence_paraphrase": "The CIA institutional history explicitly places Taro Yashima's OWI artist assignment before his later OSS work.",
+      "identity_match_assessment": "High-confidence match through the Library of Congress authority bridge, shared archival box with Tomoe Iwamatsu, and CIA spouse-and-OSS context.",
+      "temporal_assessment": "Explicitly immediate in sequence, though exact assignment dates are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "OWI is classified as a government assignment, not as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Children's Book Artists: Taro and Mitsu Yashima"
+        }
+      ]
+    },
+    {
+      "key": "jun-iwamatsu-earlier-army",
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "affiliation_key": "jun-iwamatsu-united-states-army",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Iwamatsu joined the U.S. Army after Pearl Harbor, before his OWI and OSS assignments.",
+      "evidence_excerpt": "After Pearl Harbor, Taro joined the US Army",
+      "evidence_paraphrase": "The CIA chronology places Army service before OWI and OSS work.",
+      "identity_match_assessment": "High-confidence match through the Library of Congress authority bridge, shared archival box with Tomoe Iwamatsu, and CIA spouse-and-OSS context.",
+      "temporal_assessment": "Documented before OSS, with an intervening OWI assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No Army rank or commissioning status is inferred.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Children's Book Artists: Taro and Mitsu Yashima"
+        }
+      ]
+    },
+    {
+      "key": "tomoe-iwamatsu-identity",
+      "person_id": "1456d4d2-f29f-56ed-a26c-a9318ed40fab",
+      "claim_type": "identity",
+      "claim_text": "The indexed Tomoe Iwamatsu is strongly matched to artist Mitsu Yashima.",
+      "evidence_excerpt": "Iwamatsu, Tomoe, 1908-1988",
+      "evidence_paraphrase": "The Library of Congress authority for Mitsu Yashima lists Iwamatsu, Tomoe as a variant; the CIA identifies Mitsu and Taro as an OSS husband-and-wife team.",
+      "identity_match_assessment": "Exact authority-file name bridge plus the index's shared Box 365 with Jun Iwamatsu and the CIA's matching husband-and-wife OSS context.",
+      "temporal_assessment": "The CIA history documents art study before Mitsu's OSS work but gives no exact dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because the indexed Box 365 personnel file has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-226-iwamatsu-tomoe",
+          "support_type": "supports",
+          "locator_override": "PDF page 226; Box 365",
+          "excerpt_override": "Iwamatsu Tomoe … Box 365"
+        },
+        {
+          "source_key": "loc-name-authority-n82056669-mitsu-yashima",
+          "support_type": "supports",
+          "locator_override": "LCCN n82056669; authoritative and variant labels"
+        },
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Children's Book Artists: Taro and Mitsu Yashima"
+        }
+      ]
+    },
+    {
+      "key": "tomoe-iwamatsu-pre-oss-art-study",
+      "person_id": "1456d4d2-f29f-56ed-a26c-a9318ed40fab",
+      "affiliation_key": "tomoe-iwamatsu-art-study",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before OSS work, Tomoe Iwamatsu and her husband moved to the United States to study art.",
+      "evidence_excerpt": "Taro and his wife Mitsu moved to the US to study art",
+      "evidence_paraphrase": "The CIA history documents pre-OSS art study but names no school or employer.",
+      "identity_match_assessment": "High-confidence match through the exact Library of Congress authority bridge and matching shared-box spouse context.",
+      "temporal_assessment": "Documented before wartime OSS work, without exact dates or an identified institution.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is classified as student status; no educational institution or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Children's Book Artists: Taro and Mitsu Yashima"
+        }
+      ]
+    },
+    {
+      "key": "joseph-savoldi-probable-identity",
+      "person_id": "c10592a8-6d9e-5673-bf46-5296b828d186",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph Savoldi Jr. is probably professional wrestler and OSS member Joseph Anthony Savoldi.",
+      "evidence_excerpt": "Joseph Anthony “Jumping Joe” Savoldi",
+      "evidence_paraphrase": "The distinctive full-name match and OSS context support the identification, but the CIA biography does not reproduce the index suffix or a direct personnel-file pointer.",
+      "identity_match_assessment": "Probable based on distinctive name and matching OSS context; the missing suffix and lack of another index identifier require personnel-file review.",
+      "temporal_assessment": "The CIA dates the OSS approach to 1942 and service to 1943-1945.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This probable identity is visibly qualified and excluded from confirmed/high default analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-410-savoldi-joseph-jr",
+          "support_type": "supports",
+          "locator_override": "PDF page 410; Box 679",
+          "excerpt_override": "Savoldi Joseph Jr. … Box 679"
+        },
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Pro-Wrestler: Jumping Joe Savoldi"
+        }
+      ]
+    },
+    {
+      "key": "joseph-savoldi-probable-immediate-occupation",
+      "person_id": "c10592a8-6d9e-5673-bf46-5296b828d186",
+      "affiliation_key": "joseph-savoldi-professional-wrestler",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Professional wrestler is the probable immediate pre-OSS occupational status of the Joseph Savoldi described by the CIA; no employer is identified.",
+      "evidence_excerpt": "In 1942, the OSS approached Savoldi",
+      "evidence_paraphrase": "The CIA biography describes Savoldi's professional wrestling career immediately before its account of the 1942 OSS approach.",
+      "identity_match_assessment": "Probable identity based on distinctive name and matching OSS context; the index suffix is not corroborated.",
+      "temporal_assessment": "Probable immediate occupation, not a documented employer or an explicitly dated end to wrestling.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation is not converted into a named employer or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "cia-glorious-amateurs-2021",
+          "support_type": "supports",
+          "locator_override": "Pro-Wrestler: Jumping Joe Savoldi"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed birth name and French S/Lt context, corroborated by a CIA biography explicitly connecting Rene Veuve to the OSS name Rene Joyeuse.",
+      "name_variants": [
+        "Rene Joyeuse",
+        "Joyeuse, Rene"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 804 personnel file to establish exact Free French, Resistance, and OSS dates and determine whether any prewar civilian employer is documented.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Library of Congress authority for Taro Yashima supplies Iwamatsu, Jun and Iwamatsu, Atsushi as variants; the shared Box 365 and CIA spouse chronology add independent context.",
+      "name_variants": [
+        "Iwamatsu, Jun, 1908-1994",
+        "Iwamatsu, Atsushi, 1908-1994",
+        "Yashima, Tarō, 1908-1994",
+        "Taro Yashima"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the indexed Box 365 personnel file to confirm Army, OWI, and OSS assignment dates, rank, and any last civilian employer before military service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "1456d4d2-f29f-56ed-a26c-a9318ed40fab",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Library of Congress authority for Mitsu Yashima supplies Iwamatsu, Tomoe as an exact variant; the shared Box 365 and CIA husband-and-wife OSS chronology corroborate the match.",
+      "name_variants": [
+        "Iwamatsu, Tomoe, 1908-1988",
+        "Sasako, Tomoe, 1908-1988",
+        "Yashima, Mitsu, 1908-1988",
+        "Mitsu Yashima"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 365 personnel file to identify an immediate pre-OSS affiliation, an art school if documented, and any civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c10592a8-6d9e-5673-bf46-5296b828d186",
+      "identity_status": "probable",
+      "identity_evidence": "Distinctive Joseph Savoldi name and matching OSS context, but the CIA biography omits the index suffix Jr. and provides no direct Box 679 linkage.",
+      "name_variants": [
+        "Joseph Anthony Savoldi",
+        "Joe Savoldi",
+        "Jumping Joe Savoldi"
+      ],
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review the indexed Box 679 personnel file to confirm the professional-wrestler identity, suffix, 1942 recruitment chronology, and any named civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "reviewed-official-alias-rene-veuve-2026-07-29",
+      "person_id": "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Rene Veuve French S/Lt Rene Joyeuse site:cia.gov OSS",
+      "query_variant_type": "exact_name_rank_nationality_official_institutional",
+      "started_at": "2026-07-29T07:45:00+00:00",
+      "completed_at": "2026-07-29T08:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA index row and CIA institutional biography; retained Resistance work as an unknown relationship rather than inferring employment or volunteer status.",
+      "next_action": "Review the indexed Box 804 personnel file for exact chronology and civilian-employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-alias-jun-iwamatsu-2026-07-29",
+      "person_id": "aa60664e-da42-5dd7-a4d0-d8bbfb43368e",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Jun Atshushi Iwamatsu Taro Yashima OWI OSS Library of Congress",
+      "query_variant_type": "index_name_authority_variant_official_institutional",
+      "started_at": "2026-07-29T07:45:00+00:00",
+      "completed_at": "2026-07-29T08:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Reviewed the NARA row, Library of Congress authority graph, and CIA institutional history. Preserved the index spelling and separated OWI government service from Army service.",
+      "next_action": "Review the indexed Box 365 personnel file for exact dates, rank, and civilian-employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-alias-tomoe-iwamatsu-2026-07-29",
+      "person_id": "1456d4d2-f29f-56ed-a26c-a9318ed40fab",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Tomoe Iwamatsu Mitsu Yashima OSS Library of Congress employer",
+      "query_variant_type": "index_name_authority_variant_official_institutional",
+      "started_at": "2026-07-29T07:45:00+00:00",
+      "completed_at": "2026-07-29T08:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Reviewed the NARA row, Library of Congress authority graph, and CIA institutional history. The sources identify pre-OSS art study but no school or employer.",
+      "next_action": "Review the indexed Box 365 personnel file for an immediate affiliation, educational institution, or civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-alias-joseph-savoldi-2026-07-29",
+      "person_id": "c10592a8-6d9e-5673-bf46-5296b828d186",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "Joseph Savoldi Jr Jumping Joe site:cia.gov OSS professional wrestler",
+      "query_variant_type": "name_suffix_official_institutional",
+      "started_at": "2026-07-29T07:45:00+00:00",
+      "completed_at": "2026-07-29T08:05:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the NARA row and CIA institutional history. The probable identity and occupation remain qualified because the CIA source omits the index suffix and names no employer.",
+      "next_action": "Review the indexed Box 679 personnel file to confirm identity and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    }
+  ]
+}
