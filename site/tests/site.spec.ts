@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/50 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/53 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 80 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 84 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1641,4 +1641,103 @@ test("Batch 017 preserves membership, overlapping employment, qualified governme
         .getByRole("heading", { name: "Wesleyan University", exact: true }),
     ).toBeVisible();
   }
+});
+
+test("Batch 018 separates continuing academic employment, Army transitions, and student status", async ({
+  page,
+}) => {
+  await page.goto("./people/1adc6b42-2c4d-5611-ba6e-8cdbfd8ac6e0/");
+  await expect(
+    page.getByRole("heading", { name: "Crane Brinton", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Harvard University", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/b47e5c36-3250-5574-a213-c8902573806a/");
+  await expect(
+    page.getByRole("heading", { name: "Harold C Deutsch", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "University of Minnesota", exact: true }),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/c974e4f4-d9ea-5e9f-bcef-8bb019cb9f1f/");
+  await expect(
+    page.getByRole("heading", { name: "Perry G.E. Miller", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/78c03a2c-11e1-5f34-bf53-bc76c5f33817/");
+  await expect(
+    page.getByRole("heading", { name: "Franklin L Ford", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reviewed claim currently meets the publication threshold.",
+        { exact: true },
+      ),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Cornell University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByText("Graduate student", { exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/fb9b02f9-9dfb-5965-8514-fa5b73e3b2c9/");
+  await expect(
+    page.getByRole("heading", { name: "Gordon A Craig", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Princeton University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText("medium", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByText("Doctoral student", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByText(
+        "No reviewed claim currently meets the publication threshold.",
+        { exact: true },
+      ),
+  ).toBeVisible();
 });

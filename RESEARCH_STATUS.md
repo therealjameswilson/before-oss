@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 164 people with a non-planned attempt | 23,941 person entities | 0.6850% |
-| Verified-affiliation coverage | 80 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.3342% |
-| Verified-employer coverage | 50 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.2088% |
-| Archival-review coverage | 90 people with an individual file-access/priority assessment | 23,941 person entities | 0.3759% |
+| Research-attempt coverage | 169 people with a non-planned attempt | 23,941 person entities | 0.7059% |
+| Verified-affiliation coverage | 84 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.3509% |
+| Verified-employer coverage | 53 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.2214% |
+| Archival-review coverage | 95 people with an individual file-access/priority assessment | 23,941 person entities | 0.3968% |
 
 ## Extraction and identity
 
@@ -22,18 +22,18 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 6
-- Identity status `high_confidence`: 117
+- Identity status `high_confidence`: 122
 - Identity status `probable`: 4
 - Identity status `ambiguous`: 1
-- Identity status `unresolved`: 23,813
+- Identity status `unresolved`: 23,808
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,661
+- Unknown or indeterminate: 16,660
 - Enlisted Army personnel: 3,455
 - Commissioned Army officers: 2,052
 - Commissioned Marine Corps officers: 4
-- Civilian professional or administrative grades: 1,441
+- Civilian professional or administrative grades: 1,442
 - Foreign or Allied military personnel: 241
 - Enlisted naval personnel: 47
 - Commissioned naval officers: 36
@@ -43,14 +43,14 @@ Commissioned classification: 2,094 yes; 4,954 no; 16,893 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,777
-- `in_progress`: 83
+- `not_started`: 23,772
+- `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 5
 - `documented_prewar_employer_found`: 7
 - `occupation_only_found`: 2
 - `requires_archival_review`: 6
-- `verified_employer_found`: 60
+- `verified_employer_found`: 63
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -59,12 +59,12 @@ Commissioned classification: 2,094 yes; 4,954 no; 16,893 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Reviewed official-web attempts: 86, including three identity resolutions
+- Reviewed official-web attempts: 91, including three identity resolutions
   supported by Library of Congress name-authority records
-- Total recorded attempts/plans: 1,154
+- Total recorded attempts/plans: 1,159
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- Reviewed people with published evidence: 90 (Mort S. Bobrow, Morris Berg,
+- Reviewed people with published evidence: 95 (Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
   Ford, Christian J. Lambertsen, Alfonso Rodriguez, Sidney L. Bartlett, Rene
@@ -88,13 +88,14 @@ Commissioned classification: 2,094 yes; 4,954 no; 16,893 indeterminate.
   Ackley, Marie Aline Griffith, John William Gardner, Hugh Montgomery, Lucien E.
   Conein, Henry A. Murray, Conyers Read, Donal McLaughlin, Oliver Lincoln
   Lundquist, William James Morgan, Felix Gilbert, Franz L. Neumann, Hajo
-  Holborn, Edward Mead Earle, and Sigmund Neumann)
-- Published affiliations: 178
-- Published claims: 274 (32 confirmed, 215 high, 27 medium)
-- Citation records: 202; public source export: 199; unique source documents: 190
-- Canonical organizations: 129 private and 128 public
+  Holborn, Edward Mead Earle, Sigmund Neumann, Crane Brinton, Harold C.
+  Deutsch, Perry G.E. Miller, Franklin L. Ford, and Gordon A. Craig)
+- Published affiliations: 185
+- Published claims: 286 (32 confirmed, 226 high, 28 medium)
+- Citation records: 214; public source export: 211; unique source documents: 201
+- Canonical organizations: 131 private and 130 public
 - Conflicts: 0
-- NARA pull-list rows: 23,918
+- NARA pull-list rows: 23,915
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -143,6 +144,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_institutional
 python3 -m oss_research import-reviewed-evidence research/evidence_official-institutional-pathways_batch-015_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_official-institutional-pathways_batch-016_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_official-institutional-pathways_batch-017_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_academic-to-service-pathways_batch-018_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
