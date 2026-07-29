@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "before-oss"
+version = "0.1.0"
+description = "Auditable extraction and research pipeline for the NARA OSS personnel index"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.8,<3"]
+
+[project.scripts]
+before-oss = "oss_research.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["oss_research*"]

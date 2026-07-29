@@ -1,0 +1,26 @@
+{
+  "name": "before-oss-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "test:e2e": "playwright test",
+    "test:a11y": "playwright test tests/accessibility.spec.ts",
+    "check:links": "node scripts/check-links.mjs",
+    "test": "npm run build && npm run test:e2e && npm run check:links"
+  },
+  "dependencies": {
+    "astro": "^7.1.5",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.15",
+    "typescript": "^5.8.3"
+  }
+}

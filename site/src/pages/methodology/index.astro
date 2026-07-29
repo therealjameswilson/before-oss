@@ -1,0 +1,150 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import stats from "../../data/generated/stats.json";
+---
+
+<BaseLayout
+  title="Methodology and data quality"
+  description="Extraction, identity-resolution, historical-research, confidence, publication, and archival-review methods for Before OSS."
+  eyebrow="Methodology and data quality"
+>
+  <header class="page-hero">
+    <div class="container">
+      <h1>An auditable method for incomplete evidence</h1>
+      <p class="lede">
+        The project separates what the index prints, who a row may represent,
+        what sources document, and what the evidence can establish about sequence.
+      </p>
+    </div>
+  </header>
+
+  <article class="section">
+    <div class="narrow prose">
+      <h2>The source index</h2>
+      <p>
+        The starting source is the National Archives OSS personnel-file index for
+        Record Group 226, Entry A1-224. It is an index to personnel files, not a
+        roster of only commissioned officers, and it does not itself state a
+        previous employer for each row.
+      </p>
+      <p>
+        All 522 pages were processed. The pipeline preserved
+        <strong> {Number(stats.source_rows).toLocaleString("en-US")} printed rows</strong>
+        and linked them to
+        <strong> {Number(stats.person_entities).toLocaleString("en-US")} cautious person entities</strong>.
+        Repeated headers and page footers were excluded only after coordinate-level
+        checks; raw fields remain immutable beside normalized search fields.
+      </p>
+
+      <h2>Extraction and visual validation</h2>
+      <p>
+        Embedded text was extracted twice: once with layout preservation and once
+        as word coordinates. The two representations had to agree page by page.
+        Pages 1–521 contain 46 rows each; page 522 contains 12. The first five,
+        middle five, final five, and 50 deterministic random pages were rendered
+        and inspected. All parser-warning pages are always selected for review.
+      </p>
+
+      <h2>Source rows are not people</h2>
+      <p>
+        Every printed line is a <span class="code-term">source_record</span>.
+        A <span class="code-term">person_entity</span> may link one or more rows
+        only when evidence supports that resolution. Exact normalized names alone
+        never cause a merge. The automatic rule presently requires the same
+        non-empty normalized service number as well as the same normalized name.
+      </p>
+      <p>
+        A common name requires at least two corroborating identifiers beyond the
+        name. Conflicting serials remain separate. Possible duplicate clusters are
+        visible and retain a human-review requirement.
+      </p>
+
+      <h2>Three affiliation questions</h2>
+      <ol>
+        <li>
+          <strong>Immediate pre-OSS affiliation</strong>: the last organization,
+          military assignment, institutional status, or other documented
+          relationship directly before entry into OSS.
+        </li>
+        <li>
+          <strong>Last civilian employer before service</strong>: the last
+          identifiable civilian employer before military service or an intervening
+          wartime government assignment.
+        </li>
+        <li>
+          <strong>Other documented pre-OSS work</strong>: earlier work definitely
+          before OSS but not demonstrated to be the immediate predecessor.
+        </li>
+      </ol>
+
+      <h2>Identity, chronology, and confidence</h2>
+      <table>
+        <thead>
+          <tr><th>Dimension</th><th>Controlled assessment</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Identity</td>
+            <td>confirmed, high confidence, probable, ambiguous, conflicting, unresolved</td>
+          </tr>
+          <tr>
+            <td>Temporal basis</td>
+            <td>explicit immediate, strongly date-bounded, probable immediate, documented prewar, uncertain relation</td>
+          </tr>
+          <tr>
+            <td>Source quality</td>
+            <td>A direct official through E discovery-only</td>
+          </tr>
+          <tr>
+            <td>Claim confidence</td>
+            <td>confirmed, high, medium, low, unresolved, conflicting</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Confirmed and high claims may appear normally. Medium claims must remain
+        visibly qualified. Low candidates stay private to review. Conflicting
+        evidence is labeled and excluded from default aggregates.
+      </p>
+
+      <h2>Research completion</h2>
+      <p>
+        A query is not a completed biography. The minimum no-result protocol
+        requires an official index-context check, a CIA or equivalent official
+        check, meaningful exact-name OSS variants, employment or occupation
+        searches, an applicable institutional/newspaper/obituary/directory check,
+        recorded candidate rejections, and an archival-file recommendation.
+      </p>
+      <p>
+        Until that protocol is completed, a profile says research has not yet been
+        completed. After a completed protocol finds no reliable affiliation, it
+        uses the narrower statement: “No reliable pre-OSS employer has yet been
+        identified in the accessible sources reviewed.”
+      </p>
+
+      <h2>Archival review</h2>
+      <p>
+        Many indexed files are not digitized. Every unresolved record can flow to
+        a box-and-location pull list. Failure to locate online evidence is treated
+        as a reason to inspect the indexed personnel file, never as proof that the
+        person had no prior employment.
+      </p>
+
+      <h2>Privacy and corrections</h2>
+      <p>
+        Public data mask service numbers and omit private notes, credentials,
+        sensitive identifiers, and low-confidence candidates. Each profile links
+        to a prefilled correction form; proposed changes require a source and are
+        imported as review decisions rather than edited into generated data.
+      </p>
+
+      <h2>NARA API notice</h2>
+      <p>
+        This product uses the National Archives Catalog API but is not endorsed or
+        certified by the National Archives and Records Administration. API payloads
+        are processed in memory and are not preserved; only minimal stable pointers
+        and project-authored review notes may enter the research database.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

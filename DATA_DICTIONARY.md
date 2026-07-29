@@ -1,0 +1,69 @@
+# Data dictionary
+
+SQLite is the durable source of truth. CSV, JSONL, compressed JSON, and website
+assets are generated projections.
+
+## Core tables
+
+| Table | Unit | Purpose |
+|---|---|---|
+| `source_records` | One printed PDF row | Immutable source transcription plus separate normalized fields |
+| `person_entities` | One cautiously resolved person | Identity, personnel classification, research state, and archival state |
+| `person_source_links` | One entity-row link | Resolution assessment and evidence |
+| `organizations` | One canonical historical organization | Names, aliases, sector, location, parent/successor relationships |
+| `affiliations` | One person-organization/status relationship | Role, occupation, dates, immediate/last-civilian flags, confidence |
+| `claims` | One historical assertion | Claim text, evidence summary, identity and temporal assessments |
+| `sources` | One cited item or archival record | Stable URL/identifier, creator, repository, date, locator, quality |
+| `claim_sources` | One claim-source relationship | Support, contradiction, or context with locator overrides |
+| `research_queue` | One person | Resumable priority, tier, batch, attempts, and next action |
+| `research_attempts` | One planned or live source action | Query, outcome, rejections, notes, version, and timestamps |
+| `candidate_matches` | One unreviewed or reviewed lead | Identity, source, organization, affiliation, or duplicate candidate |
+| `review_decisions` | One append-only human decision | Target, decision, rationale, reviewer, and version |
+| `pipeline_runs` | One CLI stage invocation | Configuration, checkpoint, counts, status, and redacted error |
+| `request_audit` | One unique adapter fingerprint | Query audit without response body or credentials |
+| `api_usage_monthly` | One adapter-month | Persistent successful and failed request counts |
+| `page_qa` | One PDF page | Row counts, anomaly flags, render path, and visual review state |
+
+## Important `source_records` fields
+
+| Field | Meaning |
+|---|---|
+| `source_record_id` | Stable UUID derived from the frozen PDF and page-row coordinate |
+| `source_page`, `source_row_number` | Printed-row location |
+| `raw_row_text` | Immutable extracted row |
+| `*_raw` | Exact indexed field text |
+| `display_name`, `normalized_name` | Search/display projection; never overwrites raw spelling |
+| `rank_normalized` | Conservative rank normalization |
+| `serial_number_normalized` | Private identity-resolution value; masked in public data |
+| `personnel_category` | Transparent controlled classification |
+| `commissioned_officer` | True, false, or indeterminate |
+| `parser_confidence` | Parser assessment from 0 to 1 |
+| `requires_visual_review` | Parser-warning flag |
+| `entity_resolution_status` | Link/review state independent of the person entity |
+
+## Important `affiliations` fields
+
+| Field | Meaning |
+|---|---|
+| `organization_name_as_found` | Historical wording in the supporting source |
+| `relationship_type` | Employment, assignment, student status, and other controlled relationships |
+| `immediate_pre_oss` | Whether the claim answers research question A |
+| `last_civilian_pre_service` | Whether it answers research question B |
+| `pre_oss_temporal_basis` | How the chronology is established |
+| `identity_confidence` | Confidence that the evidence belongs to the indexed person |
+| `claim_confidence` | Confidence in the affiliation claim |
+| `source_quality` | Independent source-quality category |
+| `publication_status` | Draft/review/public/conflict/rejection state |
+
+## Public export fields
+
+`personnel_public.csv` and `.jsonl` contain identifiers, indexed/display names,
+identity and personnel states, research status, source-row count, page, box,
+location, and a masked serial suffix.
+
+`organizations_public.csv`, `affiliations_public.csv`, and
+`sources_public.csv` include only publication-qualified records. Headers remain
+present when there are zero rows so downstream consumers can validate schemas.
+
+The public build rejects forbidden field tokens including raw/full serial fields,
+raw row text, private research notes, error fields, and API-key markers.

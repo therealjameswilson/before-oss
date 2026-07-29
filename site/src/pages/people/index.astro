@@ -1,0 +1,392 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import stats from "../../data/generated/stats.json";
+const base = import.meta.env.BASE_URL;
+const categories = Object.keys(stats.personnel_category_counts).sort();
+const researchStatuses = Object.keys(stats.research_status_counts).sort();
+const identityStatuses = Object.keys(stats.identity_status_counts).sort();
+---
+
+<BaseLayout
+  title="Personnel directory"
+  description={`Search and filter ${Number(stats.person_entities).toLocaleString("en-US")} cautious person entities represented in the NARA OSS personnel index.`}
+  eyebrow="Personnel directory"
+>
+  <header class="page-hero">
+    <div class="container">
+      <h1>People in the OSS personnel index</h1>
+      <p class="lede">
+        Search preserves original spelling while recognizing punctuation,
+        initials, suffixes, and documented variants. Exact matches rank first;
+        fuzzy matches remain discovery aids.
+      </p>
+      <div class="page-hero__meta">
+        <span>{Number(stats.person_entities).toLocaleString("en-US")} person entities</span>
+        <span>{Number(stats.source_rows).toLocaleString("en-US")} source rows</span>
+        <span>Data version {stats.data_version}</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="directory-shell" data-base={base}>
+    <div class="az-nav" aria-label="Filter by last-name initial" id="az-nav">
+      <button type="button" data-letter="" aria-pressed="true">All</button>
+      {
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((letter) => (
+          <button type="button" data-letter={letter} aria-pressed="false">
+            {letter}
+          </button>
+        ))
+      }
+    </div>
+
+    <form class="directory-controls" id="directory-controls" role="search">
+      <label>
+        Search
+        <input id="q" name="q" type="search" autocomplete="off" />
+      </label>
+      <label>
+        Commissioned status
+        <select id="commissioned" name="commissioned">
+          <option value="">All or unknown</option>
+          <option value="true">Commissioned officers</option>
+          <option value="false">Not commissioned</option>
+          <option value="unknown">Indeterminate</option>
+        </select>
+      </label>
+      <label>
+        Personnel category
+        <select id="category" name="category">
+          <option value="">All categories</option>
+          {categories.map((category) => (
+            <option value={category}>{category.replaceAll("_", " ")}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        Rank or grade
+        <input id="rank" name="rank" type="search" placeholder="e.g. Capt, Caf-5" />
+      </label>
+      <label>
+        Employer or institution
+        <input id="employer" name="employer" type="search" />
+      </label>
+      <label>
+        Sector
+        <input id="sector" name="sector" type="search" />
+      </label>
+      <label>
+        Country
+        <input id="country" name="country" type="search" />
+      </label>
+      <label>
+        Identity confidence
+        <select id="confidence" name="confidence">
+          <option value="">All identity states</option>
+          {identityStatuses.map((status) => (
+            <option value={status}>{status.replaceAll("_", " ")}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        Research status
+        <select id="research_status" name="research_status">
+          <option value="">All research states</option>
+          {researchStatuses.map((status) => (
+            <option value={status}>{status.replaceAll("_", " ")}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        Archival review
+        <select id="archival" name="archival">
+          <option value="">All archival states</option>
+          <option value="unassessed">Unassessed</option>
+          <option value="low">Low priority</option>
+          <option value="medium">Medium priority</option>
+          <option value="high">High priority</option>
+          <option value="critical">Critical priority</option>
+          <option value="not_required">Not required</option>
+        </select>
+      </label>
+      <label>
+        Sort
+        <select id="sort" name="sort">
+          <option value="name_asc">Name A–Z</option>
+          <option value="name_desc">Name Z–A</option>
+          <option value="relevance">Search relevance</option>
+          <option value="status">Research status</option>
+        </select>
+      </label>
+    </form>
+
+    <div class="directory-toolbar">
+      <p id="result-summary" aria-live="polite">Loading directory…</p>
+      <div class="view-toggle" aria-label="Result display density">
+        <button type="button" data-view="compact" aria-pressed="true">Compact</button>
+        <button type="button" data-view="detailed" aria-pressed="false">Detailed</button>
+      </div>
+    </div>
+    <div class="person-results" id="person-results" aria-busy="true"></div>
+    <nav class="pagination" aria-label="Directory pages" id="pagination"></nav>
+    <noscript>
+      <p class="empty-state">
+        JavaScript is required for the client-side directory. Public CSV and
+        JSONL files remain available from the downloads page.
+      </p>
+    </noscript>
+  </div>
+
+  <script>
+    type SearchRow = {
+      id: string;
+      n: string;
+      nn: string;
+      v: string[];
+      e: string[];
+      r: string[];
+      c: string;
+      o: boolean | null;
+      s: string[];
+      g: string[];
+      i: string;
+      rs: string;
+      ar: string;
+      b: string[];
+    };
+
+    const shell = document.querySelector<HTMLElement>(".directory-shell")!;
+    const base = shell.dataset.base ?? "/";
+    const form = document.querySelector<HTMLFormElement>("#directory-controls")!;
+    const resultsNode = document.querySelector<HTMLElement>("#person-results")!;
+    const summaryNode = document.querySelector<HTMLElement>("#result-summary")!;
+    const paginationNode = document.querySelector<HTMLElement>("#pagination")!;
+    const azNode = document.querySelector<HTMLElement>("#az-nav")!;
+    const pageSize = 50;
+    let allRows: SearchRow[] = [];
+    let page = 1;
+    let letter = "";
+    let view = "compact";
+
+    const normalize = (value: string) =>
+      value
+        .normalize("NFKD")
+        .replace(/\p{Diacritic}/gu, "")
+        .toUpperCase()
+        .replace(/[^A-Z0-9]+/g, " ")
+        .trim();
+
+    const distance = (left: string, right: string, limit = 2) => {
+      if (Math.abs(left.length - right.length) > limit) return limit + 1;
+      const previous = Array.from({ length: right.length + 1 }, (_, index) => index);
+      for (let i = 1; i <= left.length; i++) {
+        const current = [i];
+        let rowMinimum = i;
+        for (let j = 1; j <= right.length; j++) {
+          current[j] = Math.min(
+            current[j - 1] + 1,
+            previous[j] + 1,
+            previous[j - 1] + (left[i - 1] === right[j - 1] ? 0 : 1),
+          );
+          rowMinimum = Math.min(rowMinimum, current[j]);
+        }
+        if (rowMinimum > limit) return limit + 1;
+        previous.splice(0, previous.length, ...current);
+      }
+      return previous[right.length];
+    };
+
+    const score = (row: SearchRow, query: string) => {
+      if (!query) return 0;
+      const names = [row.nn, ...row.v.map(normalize)];
+      if (names.some((name) => name === query)) return 1000;
+      if (names.some((name) => name.startsWith(query))) return 800;
+      if (names.some((name) => name.includes(query))) return 600;
+      const tokens = names.flatMap((name) => name.split(" "));
+      if (tokens.some((token) => distance(token, query) <= 1)) return 350;
+      const haystack = normalize(
+        [row.n, ...row.e, ...row.r, ...row.b].join(" "),
+      );
+      return haystack.includes(query) ? 250 : -1;
+    };
+
+    const value = (name: string) =>
+      (form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement).value;
+
+    const syncFromUrl = () => {
+      const params = new URLSearchParams(location.search);
+      for (const name of [
+        "q", "commissioned", "category", "rank", "employer", "sector",
+        "country", "confidence", "research_status", "archival", "sort",
+      ]) {
+        const control = form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement;
+        if (params.has(name)) control.value = params.get(name) ?? "";
+      }
+      letter = params.get("letter") ?? "";
+      page = Math.max(1, Number(params.get("page") ?? "1"));
+      view = params.get("view") === "detailed" ? "detailed" : "compact";
+    };
+
+    const syncUrl = () => {
+      const params = new URLSearchParams();
+      for (const name of [
+        "q", "commissioned", "category", "rank", "employer", "sector",
+        "country", "confidence", "research_status", "archival", "sort",
+      ]) {
+        const current = value(name);
+        if (current) params.set(name, current);
+      }
+      if (letter) params.set("letter", letter);
+      if (page > 1) params.set("page", String(page));
+      if (view !== "compact") params.set("view", view);
+      history.replaceState({}, "", `${location.pathname}${params.size ? `?${params}` : ""}`);
+    };
+
+    const escapeHtml = (value: string) =>
+      value.replace(/[&<>"']/g, (character) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;",
+      })[character]!);
+
+    const render = () => {
+      const query = normalize(value("q"));
+      const commissioned = value("commissioned");
+      const category = value("category");
+      const rank = normalize(value("rank"));
+      const employer = normalize(value("employer"));
+      const sector = normalize(value("sector"));
+      const country = normalize(value("country"));
+      const confidence = value("confidence");
+      const researchStatus = value("research_status");
+      const archival = value("archival");
+      const sort = value("sort");
+
+      let filtered = allRows
+        .map((row) => ({ row, relevance: score(row, query) }))
+        .filter(({ row, relevance }) => {
+          if (query && relevance < 0) return false;
+          if (letter && !row.nn.split(" ").at(-1)?.startsWith(letter)) return false;
+          if (commissioned === "true" && row.o !== true) return false;
+          if (commissioned === "false" && row.o !== false) return false;
+          if (commissioned === "unknown" && row.o !== null) return false;
+          if (category && row.c !== category) return false;
+          if (rank && !normalize(row.r.join(" ")).includes(rank)) return false;
+          if (employer && !normalize(row.e.join(" ")).includes(employer)) return false;
+          if (sector && !normalize(row.s.join(" ")).includes(sector)) return false;
+          if (country && !normalize(row.g.join(" ")).includes(country)) return false;
+          if (confidence && row.i !== confidence) return false;
+          if (researchStatus && row.rs !== researchStatus) return false;
+          if (archival && row.ar !== archival) return false;
+          return true;
+        });
+
+      filtered.sort((left, right) => {
+        if ((sort === "relevance" || (query && sort === "name_asc")) &&
+            left.relevance !== right.relevance) {
+          return right.relevance - left.relevance;
+        }
+        if (sort === "name_desc") return right.row.nn.localeCompare(left.row.nn);
+        if (sort === "status") {
+          return left.row.rs.localeCompare(right.row.rs) ||
+            left.row.nn.localeCompare(right.row.nn);
+        }
+        return left.row.nn.localeCompare(right.row.nn);
+      });
+
+      const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+      page = Math.min(page, totalPages);
+      const visible = filtered.slice((page - 1) * pageSize, page * pageSize);
+      summaryNode.textContent =
+        `${filtered.length.toLocaleString()} results · page ${page} of ${totalPages}`;
+      resultsNode.innerHTML = visible
+        .map(({ row }) => `
+          <article class="person-result ${view === "detailed" ? "person-result--detailed" : ""}">
+            <div class="person-result__primary">
+              <h2 class="person-result__name">
+                <a href="${base}people/${encodeURIComponent(row.id)}/">${escapeHtml(row.n)}</a>
+              </h2>
+              <div class="person-result__meta">
+                ${escapeHtml(row.r.join(", ") || "No rank or grade indexed")}
+                ${view === "detailed" && row.e.length ? ` · ${escapeHtml(row.e.join(", "))}` : ""}
+              </div>
+            </div>
+            <div>
+              <span class="badge">${escapeHtml(row.c.replaceAll("_", " "))}</span>
+            </div>
+            <div>
+              <span class="badge badge--${escapeHtml(row.i.replaceAll("_", "-"))}">
+                ${escapeHtml(row.i.replaceAll("_", " "))}
+              </span>
+            </div>
+            <div>
+              <span class="badge badge--${escapeHtml(row.rs.replaceAll("_", "-"))}">
+                ${escapeHtml(row.rs.replaceAll("_", " "))}
+              </span>
+            </div>
+          </article>
+        `)
+        .join("");
+      resultsNode.setAttribute("aria-busy", "false");
+      paginationNode.innerHTML = `
+        <button type="button" data-page="${page - 1}" ${page <= 1 ? "disabled" : ""}>Previous</button>
+        <span>Page ${page} of ${totalPages}</span>
+        <button type="button" data-page="${page + 1}" ${page >= totalPages ? "disabled" : ""}>Next</button>
+      `;
+      azNode.querySelectorAll("button").forEach((button) => {
+        button.setAttribute(
+          "aria-pressed",
+          String((button as HTMLButtonElement).dataset.letter === letter),
+        );
+      });
+      document.querySelectorAll(".view-toggle button").forEach((button) => {
+        button.setAttribute(
+          "aria-pressed",
+          String((button as HTMLButtonElement).dataset.view === view),
+        );
+      });
+      syncUrl();
+    };
+
+    syncFromUrl();
+    form.addEventListener("input", () => {
+      page = 1;
+      render();
+    });
+    form.addEventListener("submit", (event) => event.preventDefault());
+    azNode.addEventListener("click", (event) => {
+      const button = (event.target as HTMLElement).closest<HTMLButtonElement>("button");
+      if (!button) return;
+      letter = button.dataset.letter ?? "";
+      page = 1;
+      render();
+    });
+    paginationNode.addEventListener("click", (event) => {
+      const button = (event.target as HTMLElement).closest<HTMLButtonElement>("button[data-page]");
+      if (!button || button.disabled) return;
+      page = Number(button.dataset.page);
+      render();
+      document.querySelector("#result-summary")?.scrollIntoView({ block: "start" });
+    });
+    document.querySelector(".view-toggle")?.addEventListener("click", (event) => {
+      const button = (event.target as HTMLElement).closest<HTMLButtonElement>("button[data-view]");
+      if (!button) return;
+      view = button.dataset.view ?? "compact";
+      render();
+    });
+
+    fetch(`${base}data/search-index.json`)
+      .then((response) => {
+        if (!response.ok) throw new Error(`Directory data returned ${response.status}`);
+        return response.json();
+      })
+      .then((data: SearchRow[]) => {
+        allRows = data;
+        render();
+      })
+      .catch(() => {
+        summaryNode.textContent = "The directory data could not be loaded.";
+        resultsNode.innerHTML =
+          `<p class="empty-state">Use the public downloads while this error is investigated.</p>`;
+        resultsNode.setAttribute("aria-busy", "false");
+      });
+  </script>
+</BaseLayout>

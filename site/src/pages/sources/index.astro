@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import sourceData from "../../data/generated/sources.json";
+import type { PublicSource } from "../../types";
+
+const sources = sourceData as unknown as PublicSource[];
+---
+
+<BaseLayout
+  title="Sources"
+  description="Official collections, citation practice, and published item-level sources used by Before OSS."
+  eyebrow="Sources"
+>
+  <header class="page-hero">
+    <div class="container">
+      <h1>Collections, records, and claim-level citations</h1>
+      <p class="lede">
+        Collection pages aid discovery. Published historical claims require an
+        item-level citation or archival identifier that readers can inspect.
+      </p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="kicker">Authoritative starting points</p>
+      <div class="source-grid">
+        <article class="source-card">
+          <h2>National Archives</h2>
+          <p>Record Group 226 personnel index, personnel-files overview, Catalog, and API documentation.</p>
+          <ul>
+            <li><a href="https://www.archives.gov/iwg/declassified-records/rg-226-oss/personnel.html">OSS personnel records</a></li>
+            <li><a href="https://www.archives.gov/research/military/ww2/oss">OSS records overview</a></li>
+            <li><a href="https://catalog.archives.gov/">National Archives Catalog</a></li>
+            <li><a href="https://www.archives.gov/research/catalog/help/api">Catalog API guidance</a></li>
+          </ul>
+        </article>
+        <article class="source-card">
+          <h2>CIA Reading Room</h2>
+          <p>
+            The OSS Collection supports targeted document discovery. OCR name hits
+            remain unaccepted until document context and identity are inspected.
+          </p>
+          <a href="https://www.cia.gov/readingroom/collection/oss-collection">OSS Collection</a>
+        </article>
+        <article class="source-card">
+          <h2>Library of Congress</h2>
+          <p>
+            Chronicling America newspapers are searched through the current
+            loc.gov collection interface and API.
+          </p>
+          <ul>
+            <li><a href="https://www.loc.gov/collections/chronicling-america/">Chronicling America</a></li>
+            <li><a href="https://www.loc.gov/apis/">Library of Congress APIs</a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper-light">
+    <div class="container">
+      <p class="kicker">Published evidence register</p>
+      <h2>{sources.length.toLocaleString("en-US")} item-level sources currently published</h2>
+      {
+        sources.length ? (
+          <ol class="citation-list">
+            {sources.map((source) => (
+              <li>
+                {source.author_creator && <span>{source.author_creator}. </span>}
+                <cite>{source.title}</cite>. {source.repository_publisher}.
+                {source.publication_record_date && ` ${source.publication_record_date}.`}
+                {source.locator && ` ${source.locator}.`}
+                {source.stable_url && <a href={source.stable_url}> View source</a>}
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <div class="empty-state">
+            <p>
+              No item-level source has yet supported a public affiliation claim.
+              Official collection links above are research entry points, not
+              evidence for a particular person.
+            </p>
+          </div>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>

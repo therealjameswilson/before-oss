@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-29T00:42:53+00:00",
+  "index_coverage": {
+    "source_rows": 23978,
+    "source_rows_linked": 23978,
+    "percent_linked": 100.0
+  },
+  "research_attempt_coverage": {
+    "person_entities": 23941,
+    "people_with_nonplanned_attempts": 1,
+    "percent": 0.0042
+  },
+  "verified_employer_coverage": {
+    "person_entities": 23941,
+    "people_with_confirmed_or_high_published_affiliation": 0,
+    "percent": 0.0
+  },
+  "archival_review_coverage": {
+    "person_entities": 23941,
+    "people_assessed": 0,
+    "percent": 0.0
+  },
+  "research_status_counts": {
+    "in_progress": 1,
+    "not_started": 23940
+  },
+  "claim_confidence_counts": {},
+  "personnel_category_counts": {
+    "civilian_professional_or_administrative_grade": 1421,
+    "commissioned_army_officer": 2048,
+    "commissioned_naval_officer": 29,
+    "enlisted_army_personnel": 3455,
+    "enlisted_naval_personnel": 47,
+    "foreign_or_allied_military_personnel": 241,
+    "unknown_or_indeterminate": 16696,
+    "warrant_officer": 4
+  },
+  "possible_duplicate_groups": 202,
+  "conflict_count": 0,
+  "citations": 0,
+  "unique_source_documents": 0
+}

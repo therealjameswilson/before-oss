@@ -1,0 +1,58 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-07-28",
+  "sources": [
+    {
+      "source_id": "nara-oss-entry-a1-224-personnel-index",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "source_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "official_reference_page": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/personnel.html",
+      "retrieval_date": "2026-07-28",
+      "retrieval_method": "user-supplied attachment, verified byte-for-byte against official NARA URL",
+      "original_input_filename": "1-personnel-database.pdf",
+      "frozen_project_path": "data/source/personnel-database.pdf",
+      "file_size_bytes": 1799300,
+      "page_count": 522,
+      "sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+      "official_download_byte_for_byte_match": true,
+      "series": "Record Group 226, Entry A1-224",
+      "archive_location_note": "Location values are preserved per printed row."
+    }
+  ],
+  "official_documentation_accessed": [
+    {
+      "url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/personnel.html",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.archives.gov/research/military/ww2/oss",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.archives.gov/research/catalog/help/api",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.archives.gov/research/catalog/help/api-getting-started",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.cia.gov/readingroom/collection/oss-collection",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.loc.gov/collections/chronicling-america/",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.loc.gov/apis/",
+      "access_date": "2026-07-28"
+    },
+    {
+      "url": "https://www.loc.gov/apis/additional-apis/chronicling-america-api/",
+      "access_date": "2026-07-28"
+    }
+  ],
+  "manifest_sha256_before_checksum_field": "c0da7ceaa159c279623cc50b8afcd162c7bd8bbda9fb188030100341994e887c"
+}

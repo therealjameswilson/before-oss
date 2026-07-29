@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Page not found" noindex>
+  <section class="section">
+    <div class="narrow">
+      <p class="kicker">404</p>
+      <h1>That record is not here.</h1>
+      <p class="lede">
+        The link may refer to a superseded research entity or an unpublished
+        organization. Search the current directory instead.
+      </p>
+      <a class="button" href={`${base}people/`}>Search personnel</a>
+    </div>
+  </section>
+</BaseLayout>

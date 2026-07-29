@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import organizationData from "../../data/generated/organizations.json";
+import type { Organization } from "../../types";
+
+const base = import.meta.env.BASE_URL;
+const organizations = organizationData as unknown as Organization[];
+---
+
+<BaseLayout
+  title="Organizations"
+  description="Canonical and historical organizations linked to reviewed, publishable pre-OSS affiliation claims."
+  eyebrow="Organizations"
+>
+  <header class="page-hero">
+    <div class="container">
+      <h1>Employers and institutions</h1>
+      <p class="lede">
+        Organization pages are created only from reviewed affiliation claims.
+        Historical names remain distinct from modern successors, and a university
+        attended is never counted as an employer without employment evidence.
+      </p>
+      <div class="page-hero__meta">
+        <span>{organizations.length.toLocaleString("en-US")} published organizations</span>
+        <span>Counts use unique person entities</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      {
+        organizations.length ? (
+          <div class="organization-grid">
+            {organizations.map((organization) => (
+              <article class="organization-card">
+                <p class="kicker">
+                  {organization.sector?.replaceAll("_", " ") ?? "Sector under review"}
+                </p>
+                <h2>
+                  <a href={`${base}organizations/${organization.organization_id}/`}>
+                    {organization.canonical_name}
+                  </a>
+                </h2>
+                {organization.historical_name && (
+                  <p>Historical name: {organization.historical_name}</p>
+                )}
+                <p>
+                  {Number(organization.documented_person_count).toLocaleString("en-US")}
+                  {" "}documented person
+                  {Number(organization.documented_person_count) === 1 ? "" : "s"}
+                </p>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <div class="empty-state">
+            <h2>No organization has passed publication review yet</h2>
+            <p>
+              The empty directory is intentional. Discovery candidates and
+              low-confidence name matches do not become organizations or employer
+              statistics until identity, chronology, and source evidence are reviewed.
+            </p>
+            <a href={`${base}methodology/`}>See the publication policy</a>
+          </div>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>

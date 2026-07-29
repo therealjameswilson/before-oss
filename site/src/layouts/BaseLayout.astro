@@ -1,0 +1,98 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  eyebrow?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = "An auditable research directory documenting pre-OSS employers, institutions, occupations, and assignments.",
+  eyebrow,
+  noindex = false,
+} = Astro.props;
+const base = import.meta.env.BASE_URL;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const fullTitle = title === "Before OSS" ? title : `${title} | Before OSS`;
+const socialImage = new URL(`${base}og.png`, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#f1eee6" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-rule" aria-hidden="true"></div>
+      <div class="site-header__inner">
+        <a class="wordmark" href={base} aria-label="Before OSS home">
+          <span class="wordmark__before">Before</span>
+          <span class="wordmark__oss">OSS</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href={`${base}people/`}>Personnel</a>
+          <a href={`${base}organizations/`}>Organizations</a>
+          <a href={`${base}analysis/`}>Analysis</a>
+          <a href={`${base}methodology/`}>Methodology</a>
+          <a href={`${base}downloads/`}>Downloads</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      {eyebrow && <div class="page-eyebrow">{eyebrow}</div>}
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__grid">
+        <div>
+          <p class="footer-mark">Before OSS</p>
+          <p>
+            An independent historical-research project. People listed in the
+            index are described as OSS personnel, not presumed to have held any
+            particular intelligence role.
+          </p>
+        </div>
+        <div>
+          <p class="footer-heading">Research</p>
+          <a href={`${base}methodology/`}>Methodology and data quality</a>
+          <a href={`${base}sources/`}>Collections and citation practice</a>
+          <a href={`${base}downloads/`}>Public data</a>
+        </div>
+        <div>
+          <p class="footer-heading">Official context</p>
+          <a href="https://www.archives.gov/iwg/declassified-records/rg-226-oss/personnel.html">
+            NARA OSS personnel records
+          </a>
+          <a href="https://www.archives.gov/research/military/ww2/oss">
+            NARA OSS records overview
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>
+          This product uses the National Archives Catalog API but is not
+          endorsed or certified by the National Archives and Records Administration.
+        </span>
+        <span>No third-party tracking.</span>
+      </div>
+    </footer>
+  </body>
+</html>

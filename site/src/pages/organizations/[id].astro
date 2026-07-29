@@ -1,0 +1,85 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import organizationData from "../../data/generated/organizations.json";
+import type { Organization } from "../../types";
+
+export function getStaticPaths() {
+  return (organizationData as unknown as Organization[]).map((organization) => ({
+    params: { id: organization.organization_id },
+    props: { organization },
+  }));
+}
+
+const { organization } = Astro.props as { organization: Organization };
+---
+
+<BaseLayout
+  title={organization.canonical_name}
+  description={`Historical organization profile for ${organization.canonical_name} in the Before OSS research dataset.`}
+  eyebrow="Organization profile"
+>
+  <header class="page-hero">
+    <div class="container">
+      <p class="kicker">
+        {organization.sector?.replaceAll("_", " ") ?? "Sector under review"}
+      </p>
+      <h1>{organization.canonical_name}</h1>
+      <div class="page-hero__meta">
+        <span>{organization.organization_type ?? "Organization type under review"}</span>
+        <span>
+          {Number(organization.documented_person_count).toLocaleString("en-US")}
+          {" "}linked person entities
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container profile-grid">
+      <div class="prose">
+        <h2>Historical identity</h2>
+        <dl class="profile-facts">
+          <div>
+            <dt>Canonical name</dt>
+            <dd>{organization.canonical_name}</dd>
+          </div>
+          <div>
+            <dt>Name as historically documented</dt>
+            <dd>{organization.historical_name ?? "No separate historical form recorded"}</dd>
+          </div>
+          <div>
+            <dt>Aliases</dt>
+            <dd>{organization.aliases_json ?? "[]"}</dd>
+          </div>
+          <div>
+            <dt>Location</dt>
+            <dd>
+              {[organization.city, organization.state_or_region, organization.country]
+                .filter(Boolean)
+                .join(", ") || "Not recorded"}
+            </dd>
+          </div>
+          <div>
+            <dt>Active dates</dt>
+            <dd>{organization.active_dates ?? "Not recorded"}</dd>
+          </div>
+          <div>
+            <dt>Organization ID</dt>
+            <dd>{organization.organization_id}</dd>
+          </div>
+        </dl>
+
+        <h2>Normalization notes</h2>
+        <p>
+          {organization.normalization_notes ??
+            "No additional normalization note is currently published."}
+        </p>
+        <p class="chart-note">
+          Linked-person counts include unique person entities with confirmed,
+          high-, or visibly qualified medium-confidence published claims. They
+          do not measure the complete OSS workforce.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

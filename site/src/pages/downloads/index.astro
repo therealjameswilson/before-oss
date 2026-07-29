@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import stats from "../../data/generated/stats.json";
+
+const base = import.meta.env.BASE_URL;
+const downloads = [
+  {
+    name: "Personnel — CSV",
+    path: "personnel_public.csv",
+    detail: `${Number(stats.person_entities).toLocaleString("en-US")} public person-entity rows with masked serial suffixes.`,
+  },
+  {
+    name: "Personnel — JSONL",
+    path: "personnel_public.jsonl",
+    detail: "One redacted person-entity record per line for programmatic use.",
+  },
+  {
+    name: "Organizations — CSV",
+    path: "organizations_public.csv",
+    detail: "Canonical and historical organization fields for published claims.",
+  },
+  {
+    name: "Affiliations — CSV",
+    path: "affiliations_public.csv",
+    detail: "Published affiliations with immediate and last-civilian fields kept separate.",
+  },
+  {
+    name: "Sources — CSV",
+    path: "sources_public.csv",
+    detail: "Item-level source metadata used by published claims.",
+  },
+];
+---
+
+<BaseLayout
+  title="Downloads"
+  description="Versioned, redacted public data exports and documentation for Before OSS."
+  eyebrow="Downloads"
+>
+  <header class="page-hero">
+    <div class="container">
+      <h1>Public research data</h1>
+      <p class="lede">
+        These exports are generated from validated SQLite data. They are public
+        projections, not the authoritative research database.
+      </p>
+      <div class="page-hero__meta">
+        <span>Data version {stats.data_version}</span>
+        <span>Generated {stats.generated_at}</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="download-grid">
+        {
+          downloads.map((download) => (
+            <article class="download-card">
+              <p class="kicker">Version {stats.data_version}</p>
+              <h2>{download.name}</h2>
+              <p>{download.detail}</p>
+              <a class="button" href={`${base}downloads/${download.path}`} download>
+                Download
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper-light">
+    <div class="narrow prose">
+      <h2>What public exports exclude</h2>
+      <ul>
+        <li>API keys, environment variables, and credential material;</li>
+        <li>full service or serial numbers;</li>
+        <li>private research notes and rejected candidate details;</li>
+        <li>low-confidence speculative affiliations;</li>
+        <li>raw API response bodies or copyrighted source pages.</li>
+      </ul>
+      <p>
+        The build manifest publishes file sizes and SHA-256 checksums at
+        <a href={`${base}data/public_build_manifest.json`}> public_build_manifest.json</a>.
+        Field definitions and provenance are maintained with the project source.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,69 @@
+name: Bounded NARA research batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_queries:
+        description: Maximum live Catalog searches
+        required: true
+        default: "500"
+      batch:
+        description: Assigned research batch
+        required: true
+        default: "pilot-v1"
+
+permissions:
+  contents: read
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore the latest durable research database
+        uses: actions/cache/restore@v4
+        with:
+          path: research/research.sqlite
+          key: before-oss-research-${{ github.run_id }}
+          restore-keys: |
+            before-oss-research-
+      - name: Initialize source and queue when cache is empty
+        run: |
+          if [ ! -f research/research.sqlite ]; then
+            scripts/download-source.sh
+            python -m oss_research ingest --pdf data/source/personnel-database.pdf
+            python -m oss_research validate-ingest --pdf data/source/personnel-database.pdf
+            python -m oss_research build-identities
+            python -m oss_research create-pilot --size 75 --batch-name pilot-v1
+          fi
+      - name: Run a bounded NARA research batch
+        env:
+          NARA_API_KEY: ${{ secrets.NARA_API_KEY }}
+          BEFORE_OSS_CONTACT_EMAIL: ${{ vars.BEFORE_OSS_CONTACT_EMAIL }}
+        run: >-
+          python -m oss_research research
+          --source nara
+          --batch "${{ inputs.batch }}"
+          --max-queries "${{ inputs.max_queries }}"
+          --resume
+      - name: Build normalized derived reports
+        run: |
+          python -m oss_research export-derived
+          python -m oss_research coverage-report
+      - name: Save the resumable research database
+        uses: actions/cache/save@v4
+        with:
+          path: research/research.sqlite
+          key: before-oss-research-${{ github.run_id }}
+      - name: Publish normalized review outputs only
+        uses: actions/upload-artifact@v4
+        with:
+          name: before-oss-normalized-research-${{ github.run_id }}
+          path: |
+            research/review_queue.csv
+            research/research_attempts.csv
+            reports/research_coverage.*
+          if-no-files-found: error

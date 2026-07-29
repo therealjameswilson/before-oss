@@ -1,0 +1,26 @@
+---
+interface Props {
+  value: string | boolean | null;
+  label?: string;
+}
+const { value, label } = Astro.props;
+const normalized =
+  value === null
+    ? "unknown"
+    : typeof value === "boolean"
+      ? value
+        ? "yes"
+        : "no"
+      : value.toLowerCase().replaceAll("_", "-");
+const text =
+  label ??
+  (value === null
+    ? "Unknown"
+    : typeof value === "boolean"
+      ? value
+        ? "Yes"
+        : "No"
+      : value.replaceAll("_", " "));
+---
+
+<span class={`badge badge--${normalized}`}>{text}</span>

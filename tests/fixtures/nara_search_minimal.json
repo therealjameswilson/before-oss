@@ -1,0 +1,20 @@
+{
+  "body": {
+    "hits": {
+      "hits": [
+        {
+          "_source": {
+            "metadata": {
+              "controlGroup": {
+                "naId": 123456789
+              }
+            },
+            "record": {
+              "title": "Synthetic test record - not a live NARA payload"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

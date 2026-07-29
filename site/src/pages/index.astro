@@ -1,0 +1,197 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import StatCard from "../components/StatCard.astro";
+import stats from "../data/generated/stats.json";
+
+const base = import.meta.env.BASE_URL;
+const attempted = Number(stats.research_attempted_people).toLocaleString("en-US");
+const people = Number(stats.person_entities).toLocaleString("en-US");
+const sourceRows = Number(stats.source_rows).toLocaleString("en-US");
+const verified = Number(stats.verified_employer_people).toLocaleString("en-US");
+const archival = Number(stats.archival_review_assessed_people).toLocaleString("en-US");
+const notStarted = Number(stats.research_status_counts.not_started ?? 0);
+---
+
+<BaseLayout
+  title="Before OSS"
+  description="The employers, institutions, occupations, and military assignments behind the people listed in the National Archives OSS personnel index."
+>
+  <section class="hero">
+    <div class="hero__grid">
+      <div>
+        <p class="kicker">Record Group 226 · Entry A1-224</p>
+        <h1>Who were they <em>before</em> OSS?</h1>
+        <p class="hero__subtitle">
+          An auditable directory investigating the employers, institutions,
+          occupations, and military assignments immediately preceding wartime
+          service.
+        </p>
+        <div class="hero__actions">
+          <a class="button" href={`${base}people/`}>Explore the directory</a>
+          <a class="button button--ghost" href={`${base}methodology/`}>
+            Read the methodology
+          </a>
+        </div>
+      </div>
+      <aside class="hero__folio" aria-label="Index coverage">
+        <p class="folio-label">Printed index rows preserved</p>
+        <p class="folio-number">{sourceRows}</p>
+        <p class="folio-detail">
+          Every row from all 522 PDF pages is retained separately, including
+          duplicates and spelling variants.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="search-panel">
+    <form class="search-panel__inner" action={`${base}people/`} method="get">
+      <label for="home-search">Search people, employers, roles, ranks, or boxes</label>
+      <div class="search-panel__row">
+        <input
+          id="home-search"
+          name="q"
+          type="search"
+          autocomplete="off"
+          placeholder="Try a name, institution, rank, or archival identifier"
+        />
+        <button type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p class="kicker">Coverage, not completion theater</p>
+      <h2>Four measures. Four different questions.</h2>
+      <p class="lede">
+        Index preservation, research attempts, verified affiliations, and
+        archival review are reported independently. A successful extraction or
+        automated query never becomes an employer claim.
+      </p>
+      <div class="stat-grid">
+        <StatCard
+          label="Index coverage"
+          value={`${sourceRows}`}
+          detail={`${people} cautious person entities; 100% of printed rows linked.`}
+          tone="ink"
+        />
+        <StatCard
+          label="Research attempted"
+          value={`${stats.research_attempt_percent.toFixed(2)}%`}
+          detail={`${attempted} of ${people} entities have a live, non-planned source attempt.`}
+          tone="rust"
+        />
+        <StatCard
+          label="Verified affiliation found"
+          value={`${stats.verified_employer_percent.toFixed(2)}%`}
+          detail={`${verified} entities currently have a confirmed/high published immediate or last-civilian affiliation.`}
+          tone="olive"
+        />
+        <StatCard
+          label="Archival review assessed"
+          value={`${stats.archival_review_percent.toFixed(2)}%`}
+          detail={`${archival} entities have a documented file-access or pull-priority assessment.`}
+          tone="muted"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--ink">
+    <div class="container">
+      <p class="kicker">The central distinction</p>
+      <h2>“Previous employer” can mean two different things.</h2>
+      <div class="definition-grid">
+        <article class="definition-card">
+          <p class="definition-card__number">01</p>
+          <h3>Immediate pre-OSS affiliation</h3>
+          <p>
+            The last documented organization or status directly before OSS
+            recruitment, transfer, employment, or assignment. It may be a
+            company, university, government office, military unit, or another
+            relationship that is not civilian employment.
+          </p>
+        </article>
+        <article class="definition-card">
+          <p class="definition-card__number">02</p>
+          <h3>Last civilian employer before service</h3>
+          <p>
+            The last identifiable civilian employer before military service or
+            an intervening wartime government assignment. This field stays
+            separate even when the immediate pathway was a military unit.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper-light">
+    <div class="container">
+      <p class="kicker">Current publication state</p>
+      <h2>The directory is complete; the historical research is not.</h2>
+      <div class="feature-grid">
+        <div>
+          <p class="lede">
+            Every indexed person has a public research-status profile, including
+            unresolved and duplicate-candidate cases. The site presently has no
+            affiliation claim that meets its featured-profile threshold.
+          </p>
+          <p class="research-note">
+            <strong>{notStarted.toLocaleString("en-US")}</strong> entities remain
+            at <span class="code-term">not_started</span>. They are visible here
+            so incomplete coverage cannot disappear behind a polished interface.
+          </p>
+        </div>
+        <div class="empty-state">
+          <h3>Featured profiles will appear only after review</h3>
+          <p>
+            A profile must have a confirmed or high-confidence identity and a
+            published source-supported pre-OSS affiliation. No placeholder
+            biographies or famous-name matches are substituted.
+          </p>
+          <a href={`${base}people/?research_status=not_started`}>
+            Browse current research-status profiles
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="kicker">A source-first publication</p>
+      <h2>Claims remain inspectable down to the page and row.</h2>
+      <div class="method-grid">
+        <article class="method-card">
+          <h3>Original spelling preserved</h3>
+          <p>
+            Indexed names, ranks, notes, boxes, locations, and PDF page numbers
+            remain recoverable even when normalized search forms are added.
+          </p>
+        </article>
+        <article class="method-card">
+          <h3>Uncertainty is structured</h3>
+          <p>
+            Identity, source quality, chronology, claim confidence, and
+            publication state are separate assessments—not a single opaque score.
+          </p>
+        </article>
+        <article class="method-card">
+          <h3>Duplicates remain visible</h3>
+          <p>
+            Exact-name matches never trigger a merge by themselves. Possible
+            same-person and different-person records keep explicit review states.
+          </p>
+        </article>
+        <article class="method-card">
+          <h3>Physical files have a route</h3>
+          <p>
+            Online failure leads to a box-and-location pull list and an archival
+            question, not the false conclusion that no earlier employer existed.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
