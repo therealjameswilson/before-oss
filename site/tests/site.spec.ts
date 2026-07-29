@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/83 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/85 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 120 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 124 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -1544,7 +1544,7 @@ test("Batch 016 preserves academic, design, military, government, alias, and occ
     page
       .locator('section[aria-labelledby="civilian-employer"]')
       .getByText(
-        "No reviewed claim currently meets the publication threshold.",
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
         { exact: true },
       ),
   ).toBeVisible();
@@ -2465,6 +2465,92 @@ test("Batch 026 separates civilian work, military assignment, and student status
     "href",
     "https://www.cia.gov/legacy/museum/artifact/stella-uzdawiniss-office-of-strategic-services-pendant/",
   );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 027 separates employers, independent scholarship, military status, and unnamed financial work", async ({
+  page,
+}) => {
+  await page.goto("./people/5dd07840-484a-5a8d-be2c-4b1b16545ed6/");
+  await expect(
+    page.getByRole("heading", { name: "Joseph R Hayden", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "University of Michigan", exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Joseph Ralston Hayden Papers, 1854-1975",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://findingaids.lib.umich.edu/catalog/umich-bhl-851643",
+  );
+
+  await page.goto("./people/20cd1668-459e-529d-ac47-85b422f746e4/");
+  await expect(
+    page.getByRole("heading", { name: "Wilmarth S Lewis", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "Independent Horace Walpole scholarship and collecting",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).toContainText("professional affiliation");
+
+  await page.goto("./people/aaa83b52-5ab0-5c86-9146-db6dc477dd9e/");
+  await expect(
+    page.getByRole("heading", { name: "Junius S Morgan", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "J.P. Morgan & Co.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("commissioned naval officer", { exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/fd719ab0-0e3d-56dd-b163-810da257da6e/");
+  await expect(
+    page.getByRole("heading", { name: "William L Rehm", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "one of the largest investment trusts in the United States",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/dac80940-34d9-5545-8d3b-b3b509a69238/");
+  await expect(
+    page.getByRole("heading", { name: "R H Goddard", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Goddard Brothers", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Robert H. Ives Goddard");
+  await expect(page.locator("body")).toContainText("professional affiliation");
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

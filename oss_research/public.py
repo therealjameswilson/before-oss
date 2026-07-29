@@ -15,13 +15,23 @@ from .constants import (
     PUBLIC_DATA_VERSION,
     SOURCE_PDF_URL,
 )
-from .db import utc_now
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
 PUBLIC_ROOT = SITE_ROOT / "public"
 GENERATED_ROOT = SITE_ROOT / "src" / "data" / "generated"
 FULL_SERIAL_RE = re.compile(r"^[A-Z]{0,3}\d{5,10}$")
+PUBLIC_TIMESTAMP_COLUMNS = {
+    "source_records": ("ingested_at",),
+    "person_entities": ("created_at", "updated_at"),
+    "person_source_links": ("created_at",),
+    "organizations": ("created_at", "updated_at"),
+    "sources": ("created_at",),
+    "affiliations": ("created_at", "updated_at"),
+    "claims": ("created_at", "updated_at"),
+    "research_attempts": ("started_at", "completed_at"),
+    "research_queue": ("updated_at",),
+}
 
 
 def mask_serial(value: str | None) -> str | None:
@@ -50,6 +60,31 @@ def public_source_row(row: sqlite3.Row) -> dict[str, object]:
 def _initial(value: str) -> str:
     initial = value[:1].upper()
     return initial if "A" <= initial <= "Z" else "other"
+
+
+def public_snapshot_timestamp(connection: sqlite3.Connection) -> str:
+    """Return a reproducible timestamp derived from durable data changes."""
+    latest: str | None = None
+    for table, candidate_columns in PUBLIC_TIMESTAMP_COLUMNS.items():
+        columns = {
+            str(row[1])
+            for row in connection.execute(f'PRAGMA table_info("{table}")')
+        }
+        for column in candidate_columns:
+            if column not in columns:
+                continue
+            row = connection.execute(
+                f"""
+                SELECT MAX(
+                    strftime('%Y-%m-%dT%H:%M:%SZ', "{column}")
+                )
+                FROM "{table}"
+                """
+            ).fetchone()
+            value = row[0] if row else None
+            if value and (latest is None or value > latest):
+                latest = str(value)
+    return latest or "1970-01-01T00:00:00Z"
 
 
 def verified_affiliation_person_count(
@@ -465,7 +500,7 @@ def build_public_data(
     source_row_count = sum(len(value) for value in source_rows.values())
     stats = {
         "data_version": PUBLIC_DATA_VERSION,
-        "generated_at": utc_now(),
+        "generated_at": public_snapshot_timestamp(connection),
         "title": settings.site_title,
         "subtitle": settings.site_subtitle,
         "source_rows": source_row_count,
@@ -631,7 +666,10 @@ def build_public_data(
 
     manifest_entries = []
     for path in sorted((data_root).rglob("*")) + sorted(downloads.rglob("*")):
-        if path.is_file():
+        if path.is_file() and path.name not in {
+            "public_build_manifest.json",
+            "public_build_manifest.json.gz",
+        }:
             manifest_entries.append(
                 {
                     "path": str(path.relative_to(PUBLIC_ROOT)),

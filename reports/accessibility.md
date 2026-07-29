@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 120 / 120 browser cases.**
+**PASS - 123 / 123 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-83-person employer measure is labeled separately from the 120-person broader
+85-person employer measure is labeled separately from the 124-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -186,6 +186,14 @@ expectations and two test locators that did not match the page’s normalized
 lowercase and combined metadata text. The assertions were corrected to the
 current public projection, and the complete isolated-preview suite then passed
 120 / 120 with no remaining assertion or axe failure.
+
+The Batch 027 regression run caught stale Batch 026 coverage counters and an
+occupation-only assertion that still expected generic publication-threshold
+wording. The tests now require the explicit accessible-sources caveat. New
+checks cover Joseph R. Hayden, Wilmarth S. Lewis, Junius S. Morgan, William
+Lane Rehm, and Robert H. Ives Goddard at all three viewport sizes. The final
+isolated-preview suite passed 123 / 123 with no remaining assertion or axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

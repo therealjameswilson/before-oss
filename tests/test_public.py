@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
@@ -7,6 +8,7 @@ from pathlib import Path
 from oss_research.public import (
     _write_json,
     mask_serial,
+    public_snapshot_timestamp,
     public_source_row,
     verified_affiliation_person_count,
     verified_employer_person_count,
@@ -19,6 +21,33 @@ class FakeRow(dict):
 
 
 class PublicProjectionTests(unittest.TestCase):
+    def test_public_snapshot_timestamp_is_data_derived(self) -> None:
+        connection = sqlite3.connect(":memory:")
+        connection.executescript(
+            """
+            CREATE TABLE person_entities (
+                created_at TEXT NOT NULL,
+                updated_at TEXT NOT NULL
+            );
+            CREATE TABLE research_attempts (
+                started_at TEXT NOT NULL,
+                completed_at TEXT
+            );
+            INSERT INTO person_entities VALUES (
+                '2026-01-02T03:04:05+00:00',
+                '2026-01-03T03:04:05+00:00'
+            );
+            INSERT INTO research_attempts VALUES (
+                '2026-01-04T03:04:05Z',
+                '2026-01-05T03:04:05Z'
+            );
+            """
+        )
+        first = public_snapshot_timestamp(connection)
+        second = public_snapshot_timestamp(connection)
+        self.assertEqual(first, "2026-01-05T03:04:05Z")
+        self.assertEqual(first, second)
+
     def test_json_gzip_is_deterministic(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "example.json"

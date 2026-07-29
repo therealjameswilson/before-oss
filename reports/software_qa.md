@@ -2,15 +2,15 @@
 
 Run: 2026-07-29 UTC
 
-- Python unit tests: **29 / 29 passed**
+- Python unit tests: **30 / 30 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,104 pages**
-- Internal link check: **24,104 HTML files passed**
-- Browser and accessibility suite: **120 / 120 passed**
+- Static production build: **24,107 pages**
+- Internal link check: **24,107 HTML files passed**
+- Browser and accessibility suite: **123 / 123 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`b490df6bdc2a9ea870f40f6ef12e83c63f0388862681234d0745e69f08b2a7e5`)
+  (`a59dbc9297f1fbc88a449d2b28611846da10b7327d7f1108c5772bede75b952c`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,13 +19,13 @@ Run: 2026-07-29 UTC
   numbers at least six characters long: **0 full-number matches** in
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **315** public records representing **299** unique documents
-- Published, qualified affiliations: **244**
-- Published claims: **386**
+- Reviewed public sources: **327** public records representing **310** unique documents
+- Published, qualified affiliations: **248**
+- Published claims: **397**
 - Withheld low-confidence identity candidates: **2**
-- Verified-affiliation metric: **120** people with confirmed/high published
+- Verified-affiliation metric: **124** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **83** people with confirmed/high published
+- Verified-employer metric: **85** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -124,3 +124,11 @@ two newspaper employers kept in chronological order, Mills College modeled as
 student status rather than employment, and an unresolved pre-OSS employer
 routed to archival review. The five profile checks also verify item-level
 citations and continued service-number masking.
+Batch 027 adds checks for a direct university-employment pathway, independent
+scholarship modeled as a professional affiliation rather than an employer, a
+bank employer kept separate from a naval assignment, an officially documented
+finance occupation whose unnamed employer is not guessed, and a contemporary
+business-directory affiliation that is not converted into salaried
+employment. It also replaces runtime build timestamps with a durable
+data-snapshot timestamp and excludes the manifest from hashing itself, making
+consecutive public-data builds byte-for-byte identical.
