@@ -31,11 +31,29 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Batch 010 production deployment and live-route checks are pending publication.
-The local release candidate includes all ten new direct person routes, the
-updated statistics asset, and the regenerated public downloads. The personnel
-CSV header contains `serial_masked` and no full service-number field; the
-affiliations and sources downloads contain 108 and 103 rows respectively.
+GitHub Pages deployment
+[30448827010](https://github.com/therealjameswilson/before-oss/actions/runs/30448827010)
+for official-pathways Batch 010 release `48cdf48` completed successfully.
+
+Live checks returned HTTP 200 for all twenty tested targets:
+
+- the home, personnel, organizations, analysis, methodology, sources, and
+  downloads pages;
+- all ten Batch 010 profiles: Aaron Bank, Archimedes L. Patti, Arthur M.
+  Schlesinger Jr., John K. Singlaub, John King Fairbank, Walt W. Rostow, Roger
+  Hilsman Jr., Lyman B. Kirkpatrick Jr., Ray S. Cline, and Paul Mellon;
+- `data/stats.json`;
+- the public personnel CSV download; and
+- the public affiliations CSV download.
+
+Each live profile contained its expected indexed heading. Patti's profile
+retained the explicit unresolved-employer wording and archival-review path. The
+live statistics report 23,978 source rows, 23,941 person entities, 130 people
+with non-planned research attempts, 48 verified-affiliation people, 24
+verified-employer people, 56 archival-review assessments, 155 published claims,
+and 103 public source records. The live affiliations and sources downloads
+contain 108 and 103 rows respectively. The live personnel CSV header contains
+`serial_masked` and no full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
