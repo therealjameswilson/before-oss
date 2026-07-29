@@ -4,7 +4,7 @@ Run: 2026-07-29 UTC
 
 ## Result
 
-**PASS - 57 / 57 browser cases.**
+**PASS - 60 / 60 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -46,6 +46,11 @@ Lussier, and Cordelia Dodson at all three viewport sizes. It tests the new
 commissioned Marine Corps classification, the distinction between government
 and military assignments, qualified last-civilian-employer evidence, and the
 role-title fallback used when a source names an occupation but not an employer.
+The education-and-service batch verifies James Angleton, Edna W. Andrade, Jane
+Burrell, Edmund M. Burke, and Robert C. Broughton at all three viewport sizes.
+It checks that Army assignments remain distinct from civilian employment, that
+schools and college athletics are not presented as employers, and that neither
+a spouse's employer nor a postwar job fills an unresolved pre-OSS field.
 
 The first run found a contrast failure in the dark-section definition cards.
 The cards were changed to an opaque paper background with dark text and the

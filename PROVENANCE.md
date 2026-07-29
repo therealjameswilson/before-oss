@@ -105,6 +105,21 @@ The Ortiz review also corrects the index-rank parser's generic Army category to
 a distinct commissioned Marine Corps officer category. A forward-only SQLite
 migration preserves the existing 23,978 source rows and 23,941 person entities.
 
+The seventh reviewed evidence batch tested education-versus-employment
+boundaries and direct military transfer evidence:
+
+| Indexed person | Official source | Decision |
+|---|---|---|
+| James Angleton | <https://www.cia.gov/stories/story/agency-people-james-angleton-master-spy-hunter/> | Army training recorded as the immediate military assignment; Harvard Law and Yale retained only as student affiliations; adjacent James H. Angleton row remains separate |
+| Edna W. Andrade | <https://www.cia.gov/stories/story/edna-andrade-from-the-oss-to-op-art/> | Pennsylvania Academy of Fine Arts retained as student status; no employer inferred from her husband's Navy position or her postwar work |
+| Jane Burrell | <https://www.cia.gov/stories/story/the-mystery-of-jane-wallis-burrell-the-first-cia-officer-to-die-in-the-agencys-service> | Smith and Columbia retained as student affiliations; her husband's family business is not assigned as her employer |
+| Edmund M. Burke | <https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/> | Penn football retained as a non-employment affiliation; immediate assignment and employer remain unresolved |
+| Robert C. Broughton | <https://www.cia.gov/stories/story/from-walt-disney-to-war-movies-bob-broughton/> | U.S. Army recorded as the immediate military assignment and Walt Disney Studios as the explicit last civilian employer; UCLA remains student status |
+
+These cases leave three last-employer questions open for personnel-file and
+directory review. The public profiles describe that incompleteness directly
+rather than substituting a spouse's employer, a university, or a postwar job.
+
 ## Official reference material
 
 - NARA OSS personnel records:

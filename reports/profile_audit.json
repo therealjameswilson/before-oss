@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T08:51:27+00:00",
+  "generated_at": "2026-07-29T09:12:16+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -13,18 +13,18 @@
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 21,
-    "commissioned_army_officer": 29,
+    "commissioned_army_officer": 30,
     "commissioned_marine_corps_officer": 1,
     "commissioned_naval_officer": 7,
     "enlisted_army_personnel": 28,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 19,
-    "unknown_or_indeterminate": 87,
+    "unknown_or_indeterminate": 86,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 70,
-    "2": 63,
+    "1": 72,
+    "2": 61,
     "3": 27,
     "4": 40
   },
@@ -37,17 +37,17 @@
   "research_status_counts": {
     "in_progress": 5,
     "needs_identity_review": 1,
-    "not_started": 185,
-    "verified_employer_found": 9
+    "not_started": 183,
+    "verified_employer_found": 11
   },
   "special_strata_counts": {
-    "commissioned": 38,
+    "commissioned": 39,
     "civilian": 21,
     "enlisted": 32,
     "allied_or_foreign": 21,
     "incomplete_or_initial_only_name": 20,
-    "possible_duplicate_group": 43,
-    "confirmed_or_high_published_claim": 10,
+    "possible_duplicate_group": 41,
+    "confirmed_or_high_published_claim": 12,
     "medium_published_claim": 4,
     "conflicting_published_claim": 0,
     "unresolved_identity": 172
@@ -234,9 +234,11 @@
     "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
     "30f0d68c-d021-5e23-8f16-99496a0f99a5",
     "37fccf8f-54be-547d-b7a7-0b2edd06f719",
+    "2f189352-aabb-5d3e-899c-ffaafef19aad",
     "ca5f3b27-4bb6-598b-af15-e7070a5c38a9",
     "852fe132-4da7-54f3-8b43-9e496bb8bc4c",
     "f55e8419-afd7-5470-87df-4786454accba",
+    "990ec032-d116-5a93-bace-517a5dbc9c6d",
     "2c99f3a1-3b85-543b-b2e0-0cb69b197ded",
     "b2850942-a685-52d7-bb47-43a368d1b665",
     "013a1f06-583e-5f24-900b-332459b484db",
@@ -247,8 +249,6 @@
     "04f9bd64-030a-54eb-83e9-97c40d3f1e0d",
     "78208c94-db6b-5465-9eb2-138473818c10",
     "7a26fb60-b1e2-5377-9092-f16406580dfd",
-    "e2b1a895-4a09-517b-8c12-b8d190b35781",
-    "a054c154-cd1d-5aa1-97c3-1ead473286d6",
     "f02c5c3b-b8ff-5cb8-990d-3735dbbe0e19",
     "a417086c-3c99-5b5a-a198-35e1dc27f553",
     "0d9432b3-fbd7-5934-9e46-7dea8aab6cc3",

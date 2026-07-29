@@ -399,3 +399,107 @@ test("the wartime-pathways batch separates military, government, civilian, and s
     ).toHaveAttribute("href", /cia\.gov/);
   }
 });
+
+test("the education-and-service batch does not turn schools or a spouse's work into employers", async ({
+  page,
+}) => {
+  const profiles = [
+    {
+      id: "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      name: "James Angleton",
+      immediate: "United States Army",
+      earlier: "Harvard Law School",
+      source: "James Angleton: Master Spy Hunter",
+      terminalMissingCivilian: true,
+    },
+    {
+      id: "2201ee7c-3d64-5672-b519-0aad4625d185",
+      name: "Edna W Andrade",
+      earlier: "Pennsylvania Academy of the Fine Arts",
+      source: "Edna Andrade: From the OSS to Op Art",
+    },
+    {
+      id: "f87b5adb-6496-5f61-a50f-2b098032d189",
+      name: "Jane Burrell",
+      earlier: "Smith College",
+      secondEarlier: "Columbia University",
+      source:
+        "The Mystery of Jane Wallis Burrell: The First CIA Officer To Die in the Agency's Service",
+    },
+    {
+      id: "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
+      name: "Edmund M Burke",
+      earlier: "University of Pennsylvania",
+      source: "Hollywood and the Office of Strategic Services",
+    },
+    {
+      id: "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      name: "Robert C Broughton",
+      immediate: "United States Army",
+      lastCivilian: "Walt Disney Studios",
+      earlier: "University of California, Los Angeles",
+      source: "From Walt Disney to War Movies: Bob Broughton",
+    },
+  ];
+
+  for (const profile of profiles) {
+    await page.goto(`./people/${profile.id}/`);
+    await expect(
+      page.getByRole("heading", { name: profile.name, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: profile.earlier, exact: true }).first(),
+    ).toBeVisible();
+    if (profile.secondEarlier) {
+      await expect(
+        page
+          .getByRole("heading", { name: profile.secondEarlier, exact: true })
+          .first(),
+      ).toBeVisible();
+    }
+
+    const immediateSection = page.locator(
+      'section[aria-labelledby="immediate-affiliation"]',
+    );
+    if (profile.immediate) {
+      await expect(
+        immediateSection.getByRole("heading", {
+          name: profile.immediate,
+          exact: true,
+        }),
+      ).toBeVisible();
+    } else {
+      await expect(
+        immediateSection.getByText(
+          "No reviewed claim currently meets the publication threshold.",
+          { exact: true },
+        ),
+      ).toBeVisible();
+    }
+
+    const civilianSection = page.locator(
+      'section[aria-labelledby="civilian-employer"]',
+    );
+    if (profile.lastCivilian) {
+      await expect(
+        civilianSection.getByRole("heading", {
+          name: profile.lastCivilian,
+          exact: true,
+        }),
+      ).toBeVisible();
+    } else {
+      await expect(
+        civilianSection.getByText(
+          profile.terminalMissingCivilian
+            ? "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+            : "No reviewed claim currently meets the publication threshold.",
+          { exact: true },
+        ),
+      ).toBeVisible();
+    }
+
+    await expect(
+      page.getByRole("link", { name: profile.source, exact: true }).first(),
+    ).toHaveAttribute("href", /cia\.gov/);
+  }
+});

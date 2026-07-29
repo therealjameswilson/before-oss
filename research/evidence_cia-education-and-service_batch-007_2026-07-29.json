@@ -1,0 +1,997 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-11-angleton-james",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angleton, James; 1st Lt; Box 18",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The adjacent James H. Angleton row remains a separate person entity pending direct file review."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrade-edna-w",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 17",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrade, Edna W.; SP-7; Box 17",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No service number is printed in this row."
+    },
+    {
+      "key": "nara-oss-index-page-62-burrell-jane",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 95",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 62; Burrell, Jane; Box 95",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No rank or service number is printed in this row."
+    },
+    {
+      "key": "nara-oss-index-page-61-burke-edmund-m",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 93",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 61; Burke, Edmund M.; Box 93",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No rank or service number is printed in this row."
+    },
+    {
+      "key": "nara-oss-index-page-54-broughton-robert-c",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 83",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 54; Broughton, Robert C.; Box 83",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No rank or service number is printed in this row."
+    },
+    {
+      "key": "cia-james-angleton-2011",
+      "stable_url": "https://www.cia.gov/stories/story/agency-people-james-angleton-master-spy-hunter/",
+      "title": "James Angleton: Master Spy Hunter",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2011-03-25",
+      "locator": "James Angleton; War Effort",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. The father's full name helps keep the adjacent James H. Angleton index row separate."
+    },
+    {
+      "key": "cia-edna-andrade-2023",
+      "stable_url": "https://www.cia.gov/stories/story/edna-andrade-from-the-oss-to-op-art/",
+      "title": "Edna Andrade: From the OSS to Op Art",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2023-03-27",
+      "locator": "Destined for Design; OSS Recruits Visual Artists",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. It documents education but does not name a pre-OSS employer."
+    },
+    {
+      "key": "cia-jane-burrell-2016",
+      "stable_url": "https://www.cia.gov/stories/story/the-mystery-of-jane-wallis-burrell-the-first-cia-officer-to-die-in-the-agencys-service",
+      "title": "The Mystery of Jane Wallis Burrell: The First CIA Officer To Die in the Agency's Service",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2016-07-13",
+      "locator": "Family Background; Life at OSS",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. It does not identify employment between Burrell's studies and her March 1943 OSS appointment."
+    },
+    {
+      "key": "cia-hollywood-and-oss-2024",
+      "stable_url": "https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/",
+      "title": "Hollywood and the Office of Strategic Services",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2024-03-08",
+      "locator": "A Real-Life OSS Officer Lends His Advice to Cloak and Dagger",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history. The source documents a university football affiliation but no immediate pre-OSS employer."
+    },
+    {
+      "key": "cia-bob-broughton-2023",
+      "stable_url": "https://www.cia.gov/stories/story/from-walt-disney-to-war-movies-bob-broughton/",
+      "title": "From Walt Disney to War Movies: Bob Broughton",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2023-12-19",
+      "locator": "Creating Magic: Reinventing Animation; Oscar-Winning Espionage: OSS and WWII",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional history explicitly connecting Broughton's Disney work, Army service, and transfer to OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "US Army",
+      "aliases": [
+        "U.S. Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is preserved in each affiliation record."
+    },
+    {
+      "key": "harvard-law-school",
+      "canonical_name": "Harvard Law School",
+      "historical_name": "Harvard Law School",
+      "organization_type": "law school",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Angleton's student status is kept separate from employment."
+    },
+    {
+      "key": "yale-university",
+      "canonical_name": "Yale University",
+      "historical_name": "Yale",
+      "aliases": [
+        "Yale"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "normalization_notes": "Angleton's student status is kept separate from employment."
+    },
+    {
+      "key": "pennsylvania-academy-of-fine-arts",
+      "canonical_name": "Pennsylvania Academy of the Fine Arts",
+      "historical_name": "Pennsylvania Academy of Fine Arts",
+      "aliases": [
+        "PAFA"
+      ],
+      "organization_type": "art school and museum",
+      "sector": "academia_and_research",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "The source's historical wording is preserved; student status is not employment."
+    },
+    {
+      "key": "smith-college",
+      "canonical_name": "Smith College",
+      "historical_name": "Smith College",
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Burrell's student status is kept separate from employment."
+    },
+    {
+      "key": "columbia-university",
+      "canonical_name": "Columbia University",
+      "historical_name": "Columbia University",
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Burrell's 1936-1937 study is not treated as employment."
+    },
+    {
+      "key": "university-of-pennsylvania",
+      "canonical_name": "University of Pennsylvania",
+      "historical_name": "University of Pennsylvania",
+      "aliases": [
+        "Penn"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "Burke's football affiliation is modeled as a professional affiliation, not employment."
+    },
+    {
+      "key": "walt-disney-studios",
+      "canonical_name": "Walt Disney Studios",
+      "historical_name": "Walt Disney Studios",
+      "aliases": [
+        "Disney"
+      ],
+      "organization_type": "film studio",
+      "sector": "arts_and_culture",
+      "city": "Burbank",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The historical employer wording in the CIA source is retained."
+    },
+    {
+      "key": "university-of-california-los-angeles",
+      "canonical_name": "University of California, Los Angeles",
+      "historical_name": "UCLA",
+      "aliases": [
+        "UCLA"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Broughton's degree affiliation is kept separate from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "james-angleton-us-army",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Army trainee",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "date_precision": "drafted in March 1943; exact OSS transfer date not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The CIA biography explicitly places OSS recruitment during Army training."
+    },
+    {
+      "key": "james-angleton-harvard-law",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "organization_key": "harvard-law-school",
+      "organization_name_as_found": "Harvard Law School",
+      "role_title": "Law student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": "1941",
+      "end_date": "1943",
+      "date_precision": "enrolled after 1941 Yale graduation; left when drafted in March 1943",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Harvard is an educational affiliation, not a civilian employer."
+    },
+    {
+      "key": "james-angleton-yale",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "organization_key": "yale-university",
+      "organization_name_as_found": "Yale",
+      "role_title": "Student and literary-magazine editor",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "graduated in 1941; exact start date not supplied",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Yale is an earlier educational affiliation, not employment."
+    },
+    {
+      "key": "edna-andrade-pafa",
+      "person_id": "2201ee7c-3d64-5672-b519-0aad4625d185",
+      "organization_key": "pennsylvania-academy-of-fine-arts",
+      "organization_name_as_found": "Pennsylvania Academy of Fine Arts",
+      "role_title": "Art student and postgraduate student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "date_precision": "attended after high school and returned in 1938 for postgraduate study; exact end date not supplied",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The reviewed source does not establish that Andrade remained a student immediately before OSS."
+    },
+    {
+      "key": "jane-burrell-smith-college",
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "organization_key": "smith-college",
+      "organization_name_as_found": "Smith College",
+      "role_title": "French major",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1933",
+      "date_precision": "graduated in 1933; exact start date not supplied",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Smith College is an educational affiliation, not employment."
+    },
+    {
+      "key": "jane-burrell-columbia",
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "organization_key": "columbia-university",
+      "organization_name_as_found": "Columbia University",
+      "role_title": "French-language and English-literature student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": "1936",
+      "end_date": "1937",
+      "date_precision": "academic years 1936-1937",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source does not identify Burrell's employment between this study and her March 1943 OSS appointment."
+    },
+    {
+      "key": "edmund-burke-penn-football",
+      "person_id": "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
+      "organization_key": "university-of-pennsylvania",
+      "organization_name_as_found": "University of Pennsylvania",
+      "role_title": "Football player",
+      "occupation": "College football",
+      "relationship_type": "professional_affiliation",
+      "date_precision": "described as a former football star before OSS; exact years not supplied",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source does not call this employment or identify Burke's immediate pre-OSS occupation."
+    },
+    {
+      "key": "robert-broughton-us-army",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Army service member",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "date_precision": "joined after leaving Disney and was soon transferred to OSS; exact dates not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Army assignment is kept separate from Broughton's civilian Disney employment."
+    },
+    {
+      "key": "robert-broughton-disney",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "organization_key": "walt-disney-studios",
+      "organization_name_as_found": "Walt Disney Studios",
+      "role_title": "Supervisor of Special Photographic Effects",
+      "occupation": "Camera effects artist",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "date_precision": "started in 1937 and left for Army service after World War II began; exact end date not supplied",
+      "city": "Burbank",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source explicitly says Broughton left Disney, joined the Army, and was soon transferred to OSS."
+    },
+    {
+      "key": "robert-broughton-ucla",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "organization_key": "university-of-california-los-angeles",
+      "organization_name_as_found": "UCLA",
+      "role_title": "Undergraduate student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1937",
+      "date_precision": "BA earned before beginning at Disney in 1937",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "UCLA is an educational affiliation, not employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "james-angleton-identity",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant James Angleton is strongly matched to the CIA biography's James Angleton, an Army officer recruited into OSS.",
+      "evidence_excerpt": "Angleton did not finish law school because he was drafted into the U.S. Army in March 1943.",
+      "evidence_paraphrase": "The index supplies the exact distinctive name and First Lieutenant rank; the CIA supplies Army-to-OSS chronology and separately names his father James Hugh Angleton.",
+      "identity_match_assessment": "Exact distinctive indexed name plus matching commissioned Army and OSS context.",
+      "temporal_assessment": "The biography dates the draft to March 1943 and places OSS recruitment during Army training.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The adjacent James H. Angleton, Lieutenant Colonel, row is preserved separately and remains under manual review.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-11-angleton-james",
+          "support_type": "supports",
+          "locator_override": "PDF page 11; First Lieutenant; Box 18",
+          "excerpt_override": "Angleton James 1st Lt … Box 18"
+        },
+        {
+          "source_key": "cia-james-angleton-2011",
+          "support_type": "supports",
+          "locator_override": "James Angleton; War Effort"
+        }
+      ]
+    },
+    {
+      "key": "james-angleton-army-immediate",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "affiliation_key": "james-angleton-us-army",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Angleton's immediate pre-OSS affiliation was U.S. Army training.",
+      "evidence_excerpt": "During training he was singled out for an interview and offered the chance to work with the Office of Strategic Services",
+      "evidence_paraphrase": "The CIA chronology explicitly places OSS recruitment during Army training after Angleton's March 1943 draft.",
+      "identity_match_assessment": "Strong identity match to the indexed First Lieutenant James Angleton.",
+      "temporal_assessment": "Explicit immediate sequence: Army draft and training, then OSS offer and acceptance.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army service is modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-james-angleton-2011",
+          "support_type": "supports",
+          "locator_override": "War Effort"
+        }
+      ]
+    },
+    {
+      "key": "james-angleton-harvard-student",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "affiliation_key": "james-angleton-harvard-law",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Angleton attended Harvard Law School from after his 1941 Yale graduation until his March 1943 Army draft.",
+      "evidence_excerpt": "Angleton graduated from Yale in 1941 and enrolled at Harvard Law School.",
+      "evidence_paraphrase": "The CIA biography supplies the educational sequence and says the Army draft interrupted law school.",
+      "identity_match_assessment": "Strong identity match to the indexed James Angleton.",
+      "temporal_assessment": "Explicitly pre-OSS but separated from OSS by Army service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is not classified as an employer.",
+      "sources": [
+        {
+          "source_key": "cia-james-angleton-2011",
+          "support_type": "supports",
+          "locator_override": "James Angleton; War Effort"
+        }
+      ]
+    },
+    {
+      "key": "james-angleton-yale-student",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "affiliation_key": "james-angleton-yale",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Angleton studied at Yale and graduated in 1941.",
+      "evidence_excerpt": "Angleton graduated from Yale in 1941",
+      "evidence_paraphrase": "The biography documents Yale attendance and literary-magazine work before Harvard and Army service.",
+      "identity_match_assessment": "Strong identity match to the indexed James Angleton.",
+      "temporal_assessment": "Documented prewar education, not the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Yale is not classified as an employer.",
+      "sources": [
+        {
+          "source_key": "cia-james-angleton-2011",
+          "support_type": "supports",
+          "locator_override": "James Angleton"
+        }
+      ]
+    },
+    {
+      "key": "edna-andrade-identity",
+      "person_id": "2201ee7c-3d64-5672-b519-0aad4625d185",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edna W. Andrade is strongly matched to artist Edna Wright Andrade, whom the CIA documents as an OSS visual artist.",
+      "evidence_excerpt": "Born in Portsmouth, Virginia in 1917, Edna Wright",
+      "evidence_paraphrase": "The index's full name, middle initial, civilian SP-7 grade, and OSS context align with the CIA biography's birth name, married surname, and OSS art work.",
+      "identity_match_assessment": "Exact distinctive first and married surname plus matching middle initial and civilian creative role.",
+      "temporal_assessment": "The biography places her education before and design career within OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because Box 17 has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-10-andrade-edna-w",
+          "support_type": "supports",
+          "locator_override": "PDF page 10; SP-7; Box 17",
+          "excerpt_override": "Andrade Edna W SP-7 … Box 17"
+        },
+        {
+          "source_key": "cia-edna-andrade-2023",
+          "support_type": "supports",
+          "locator_override": "Destined for Design; OSS Recruits Visual Artists"
+        }
+      ]
+    },
+    {
+      "key": "edna-andrade-pafa-student",
+      "person_id": "2201ee7c-3d64-5672-b519-0aad4625d185",
+      "affiliation_key": "edna-andrade-pafa",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Andrade attended the Pennsylvania Academy of Fine Arts and returned in 1938 for postgraduate study.",
+      "evidence_excerpt": "Edna moved to Philadelphia and attended the Pennsylvania Academy of Fine Arts.",
+      "evidence_paraphrase": "The CIA biography documents art-school and postgraduate study before OSS.",
+      "identity_match_assessment": "Strong identity match to indexed Edna W. Andrade.",
+      "temporal_assessment": "Documented prewar education; the source does not establish it as immediately pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The academy is not classified as an employer.",
+      "sources": [
+        {
+          "source_key": "cia-edna-andrade-2023",
+          "support_type": "supports",
+          "locator_override": "Destined for Design"
+        }
+      ]
+    },
+    {
+      "key": "jane-burrell-identity",
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jane Burrell is strongly matched to Jane O'Neil Wallis Burrell, whom the CIA documents as an OSS civilian employee.",
+      "evidence_excerpt": "Jane Burrell was a CIA counterintelligence (CI) officer and had served as one in all of CIA's predecessor agencies",
+      "evidence_paraphrase": "The distinctive indexed married name and OSS context match the CIA biography's full birth and married names and documented OSS service.",
+      "identity_match_assessment": "Exact distinctive first and married surname plus direct OSS service.",
+      "temporal_assessment": "The biography dates her OSS appointment to March 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because Box 95 has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-62-burrell-jane",
+          "support_type": "supports",
+          "locator_override": "PDF page 62; Box 95",
+          "excerpt_override": "Burrell Jane … Box 95"
+        },
+        {
+          "source_key": "cia-jane-burrell-2016",
+          "support_type": "supports",
+          "locator_override": "Family Background; Life at OSS"
+        }
+      ]
+    },
+    {
+      "key": "jane-burrell-smith-student",
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "affiliation_key": "jane-burrell-smith-college",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Burrell was a French major at Smith College and graduated in 1933.",
+      "evidence_excerpt": "A French major at Smith College in Massachusetts",
+      "evidence_paraphrase": "The CIA biography documents the degree and her related French-language study.",
+      "identity_match_assessment": "Strong identity match to indexed Jane Burrell.",
+      "temporal_assessment": "Documented prewar education, not an employer or immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Smith College is classified only as a student affiliation.",
+      "sources": [
+        {
+          "source_key": "cia-jane-burrell-2016",
+          "support_type": "supports",
+          "locator_override": "Family Background"
+        }
+      ]
+    },
+    {
+      "key": "jane-burrell-columbia-student",
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "affiliation_key": "jane-burrell-columbia",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Burrell continued French-language and English-literature studies at Columbia University in 1936-1937.",
+      "evidence_excerpt": "In 1936-1937, Jane continued her French language and English literature studies at Columbia University",
+      "evidence_paraphrase": "The biography supplies the institution, subjects, and years.",
+      "identity_match_assessment": "Strong identity match to indexed Jane Burrell.",
+      "temporal_assessment": "Documented prewar education; the 1937-1943 employment interval remains unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Columbia is not classified as an employer.",
+      "sources": [
+        {
+          "source_key": "cia-jane-burrell-2016",
+          "support_type": "supports",
+          "locator_override": "Family Background"
+        }
+      ]
+    },
+    {
+      "key": "edmund-burke-identity",
+      "person_id": "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edmund M. Burke is strongly matched to Edmund Michael Burke, whom the CIA documents as an OSS officer.",
+      "evidence_excerpt": "Edmund Michael “Mike” Burke, a former University of Pennsylvania football star",
+      "evidence_paraphrase": "The index's exact first name, surname, and middle initial align with the CIA biography's full name and direct OSS service.",
+      "identity_match_assessment": "Exact distinctive full-name match, including expanded middle initial, plus OSS context.",
+      "temporal_assessment": "The source describes the Penn affiliation as former before OSS but gives no dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because Box 93 has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-61-burke-edmund-m",
+          "support_type": "supports",
+          "locator_override": "PDF page 61; Box 93",
+          "excerpt_override": "Burke Edmund M … Box 93"
+        },
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "A Real-Life OSS Officer Lends His Advice to Cloak and Dagger"
+        }
+      ]
+    },
+    {
+      "key": "edmund-burke-penn-affiliation",
+      "person_id": "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
+      "affiliation_key": "edmund-burke-penn-football",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before OSS, Burke had a documented University of Pennsylvania football affiliation.",
+      "evidence_excerpt": "a former University of Pennsylvania football star",
+      "evidence_paraphrase": "The CIA history identifies the institution and athletic role but does not call it employment.",
+      "identity_match_assessment": "Strong identity match to indexed Edmund M. Burke.",
+      "temporal_assessment": "Explicitly pre-OSS, but neither dates nor immediate sequence are supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a professional affiliation rather than employment or assumed student status.",
+      "sources": [
+        {
+          "source_key": "cia-hollywood-and-oss-2024",
+          "support_type": "supports",
+          "locator_override": "A Real-Life OSS Officer Lends His Advice to Cloak and Dagger"
+        }
+      ]
+    },
+    {
+      "key": "robert-broughton-identity",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert C. Broughton is strongly matched to Robert Carey Broughton, whom the CIA documents as a Disney employee, Army member, and OSS filmmaker.",
+      "evidence_excerpt": "Robert “Bob” Carey Broughton, who created award-winning films for both organizations",
+      "evidence_paraphrase": "The distinctive indexed name and middle initial match the CIA biography's full name, Disney career, Army service, and OSS transfer.",
+      "identity_match_assessment": "Exact distinctive first and surname plus expanded matching middle initial and direct OSS context.",
+      "temporal_assessment": "The biography supplies a continuous UCLA-to-Disney-to-Army-to-OSS chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because Box 83 has not been reviewed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-54-broughton-robert-c",
+          "support_type": "supports",
+          "locator_override": "PDF page 54; Box 83",
+          "excerpt_override": "Broughton Robert C … Box 83"
+        },
+        {
+          "source_key": "cia-bob-broughton-2023",
+          "support_type": "supports",
+          "locator_override": "Creating Magic; Oscar-Winning Espionage"
+        }
+      ]
+    },
+    {
+      "key": "robert-broughton-army-immediate",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "affiliation_key": "robert-broughton-us-army",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Broughton's immediate pre-OSS affiliation was the U.S. Army.",
+      "evidence_excerpt": "He was soon transferred to the OSS",
+      "evidence_paraphrase": "The biography explicitly says Broughton left Disney, joined the Army, and was soon transferred to OSS.",
+      "identity_match_assessment": "Strong identity match to indexed Robert C. Broughton.",
+      "temporal_assessment": "Explicit immediate Army-to-OSS transfer sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army service is modeled separately from the civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-bob-broughton-2023",
+          "support_type": "supports",
+          "locator_override": "Oscar-Winning Espionage: OSS and WWII"
+        }
+      ]
+    },
+    {
+      "key": "robert-broughton-disney-last-civilian",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "affiliation_key": "robert-broughton-disney",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Walt Disney Studios was Broughton's last documented civilian employer before Army service led to OSS.",
+      "evidence_excerpt": "leaving Disney and joining the U.S. Army",
+      "evidence_paraphrase": "The biography explicitly connects the end of Broughton's Disney work to Army entry and subsequent OSS transfer.",
+      "identity_match_assessment": "Strong identity match to indexed Robert C. Broughton.",
+      "temporal_assessment": "Explicit last-civilian-to-Army-to-OSS sequence; exact departure date is not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The latest documented Disney role is preserved without claiming it was his only prewar job.",
+      "sources": [
+        {
+          "source_key": "cia-bob-broughton-2023",
+          "support_type": "supports",
+          "locator_override": "Creating Magic; Oscar-Winning Espionage"
+        }
+      ]
+    },
+    {
+      "key": "robert-broughton-ucla-student",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "affiliation_key": "robert-broughton-ucla",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Broughton earned a bachelor's degree from UCLA before beginning at Disney in 1937.",
+      "evidence_excerpt": "after earning a BA from UCLA",
+      "evidence_paraphrase": "The biography documents the degree immediately before his Disney career.",
+      "identity_match_assessment": "Strong identity match to indexed Robert C. Broughton.",
+      "temporal_assessment": "Documented prewar education before civilian employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "UCLA is classified as student status, not employment.",
+      "sources": [
+        {
+          "source_key": "cia-bob-broughton-2023",
+          "support_type": "supports",
+          "locator_override": "Creating Magic: Reinventing Animation"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed James Angleton name and First Lieutenant rank corroborated by a CIA biography documenting his Army commission and OSS recruitment; the biography separately names his father James Hugh Angleton.",
+      "name_variants": [
+        "James Angleton"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 18 to confirm the exact Army-to-OSS transfer and keep the adjacent James H. Angleton file separate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2201ee7c-3d64-5672-b519-0aad4625d185",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed Edna W. Andrade name and civilian SP-7 grade align with the CIA biography of Edna Wright Andrade and her OSS design work.",
+      "name_variants": [
+        "Edna Wright",
+        "Edna Wright Andrade"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Review Box 17 and contemporary directories for Andrade's immediate pre-OSS status and any named civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact distinctive indexed Jane Burrell name corroborated by the CIA biography's full name, March 1943 OSS appointment, and civilian junior-clerk hiring record.",
+      "name_variants": [
+        "Jane O'Neil Wallis",
+        "Jane Wallis Burrell"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Review Box 95 and 1937-1943 directories for Burrell's last civilian employer before her March 1943 OSS appointment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed Edmund M. Burke name corroborated by the CIA history's expanded Edmund Michael Burke name and direct OSS service.",
+      "name_variants": [
+        "Edmund Michael Burke",
+        "E. Michael Burke",
+        "Mike Burke"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Review Box 93 and official service records to establish Burke's immediate assignment and last civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed Robert C. Broughton name and middle initial corroborated by the CIA biography's Robert Carey Broughton name and Disney-Army-OSS chronology.",
+      "name_variants": [
+        "Robert Carey Broughton",
+        "Bob Broughton"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 83 for the exact Army transfer date, grade, and Disney departure date.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "reviewed-official-pathway-james-angleton-2026-07-29",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"James Angleton\" OSS site:cia.gov",
+      "query_variant_type": "exact_name_rank_official_institutional",
+      "started_at": "2026-07-29T08:35:00+00:00",
+      "completed_at": "2026-07-29T09:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA institutional biography; preserved the adjacent James H. Angleton row as a separate unresolved entity.",
+      "next_action": "Review Box 18 for direct transfer evidence and enhanced disambiguation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-edna-andrade-2026-07-29",
+      "person_id": "2201ee7c-3d64-5672-b519-0aad4625d185",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Edna W Andrade\" OSS site:cia.gov",
+      "query_variant_type": "exact_name_grade_official_institutional",
+      "started_at": "2026-07-29T08:38:00+00:00",
+      "completed_at": "2026-07-29T09:01:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA biography. Published education only; no pre-OSS employer was inferred from her husband's Navy employment or her postwar career.",
+      "next_action": "Review Box 17 and contemporary directories for immediate pre-OSS employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-jane-burrell-2026-07-29",
+      "person_id": "f87b5adb-6496-5f61-a50f-2b098032d189",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Jane Burrell\" OSS site:cia.gov",
+      "query_variant_type": "exact_name_official_institutional",
+      "started_at": "2026-07-29T08:40:00+00:00",
+      "completed_at": "2026-07-29T09:02:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA biography. Published student affiliations only; did not assign her husband's family business as her employer.",
+      "next_action": "Review Box 95 and 1937-1943 directories for her own civilian employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-edmund-burke-2026-07-29",
+      "person_id": "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Edmund M Burke\" OSS site:cia.gov",
+      "query_variant_type": "exact_name_middle_variant_official_institutional",
+      "started_at": "2026-07-29T08:42:00+00:00",
+      "completed_at": "2026-07-29T09:03:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA institutional history. Kept the Penn football connection as a non-employment affiliation because the source names no employer.",
+      "next_action": "Review Box 93 and official service records for immediate affiliation and employer chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    },
+    {
+      "key": "reviewed-official-pathway-robert-broughton-2026-07-29",
+      "person_id": "990ec032-d116-5a93-bace-517a5dbc9c6d",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Robert C Broughton\" OSS site:cia.gov",
+      "query_variant_type": "exact_name_middle_variant_official_institutional",
+      "started_at": "2026-07-29T08:45:00+00:00",
+      "completed_at": "2026-07-29T09:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the exact NARA row and CIA institutional biography; separated UCLA study, Disney employment, Army service, and OSS transfer.",
+      "next_action": "Review Box 83 for exact dates and Army grade.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-evidence-v1"
+    }
+  ]
+}
