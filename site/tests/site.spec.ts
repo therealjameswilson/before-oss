@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/78 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/80 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 113 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 116 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -2269,4 +2269,90 @@ test("Batch 024 preserves academic, government, military, and uncertain pathways
   await expect(page.locator("body")).toContainText(
     "does not establish whether it preceded or followed OSS",
   );
+});
+
+test("Batch 025 separates academic employment, student status, and military or government predecessors", async ({
+  page,
+}) => {
+  await page.goto("./people/29a830f4-a1d4-5821-af64-d014e89c71da/");
+  await expect(
+    page.getByRole("heading", { name: "Preston E James", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "Coordinator of Information",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Michigan", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/08a92bff-7683-5a94-bd92-09a33ef5e667/");
+  await expect(
+    page.getByRole("heading", { name: "Norman O Brown", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Nebraska Wesleyan University",
+        exact: true,
+      }),
+  ).toBeVisible();
+
+  await page.goto("./people/56b8952b-c21c-5f0f-b653-22fb22980b15/");
+  await expect(
+    page.getByRole("heading", { name: "Leonard Krieger", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Yale University", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS civilian employer has yet been identified",
+  );
+});
+
+test("Batch 025 keeps the two Paul M Sweezy rows separate and withholds the biographical candidate", async ({
+  page,
+}) => {
+  const profiles = [
+    "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+    "8686bb8e-3b16-5aa2-bb72-bdd2e6a6f3aa",
+  ];
+  for (const personId of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: "Paul M Sweezy", exact: true }),
+    ).toBeVisible();
+    await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.getByText("critical", { exact: true })).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "accessible sources do not map either number",
+    );
+    await expect(page.locator("body")).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    expect(await page.locator("article.claim-card").count()).toBe(0);
+    expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+  }
 });

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 198 people with a non-planned attempt | 23,941 person entities | 0.8270% |
-| Verified-affiliation coverage | 113 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.4720% |
-| Verified-employer coverage | 78 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3258% |
-| Archival-review coverage | 125 people with an individual file-access/priority assessment | 23,941 person entities | 0.5221% |
+| Research-attempt coverage | 203 people with a non-planned attempt | 23,941 person entities | 0.8479% |
+| Verified-affiliation coverage | 116 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.4845% |
+| Verified-employer coverage | 80 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3342% |
+| Archival-review coverage | 130 people with an individual file-access/priority assessment | 23,941 person entities | 0.5430% |
 
 ## Extraction and identity
 
@@ -18,20 +18,20 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 203
+- Possible duplicate groups: 204
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 8
-- Identity status `high_confidence`: 150
+- Identity status `high_confidence`: 153
 - Identity status `probable`: 4
-- Identity status `ambiguous`: 1
-- Identity status `unresolved`: 23,778
+- Identity status `ambiguous`: 3
+- Identity status `unresolved`: 23,773
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,658
+- Unknown or indeterminate: 16,657
 - Enlisted Army personnel: 3,455
-- Commissioned Army officers: 2,053
+- Commissioned Army officers: 2,054
 - Commissioned Marine Corps officers: 4
 - Civilian professional or administrative grades: 1,443
 - Foreign or Allied military personnel: 241
@@ -39,18 +39,18 @@ Generated from the current local SQLite database on 2026-07-29 UTC.
 - Commissioned naval officers: 36
 - Warrant officers: 4
 
-Commissioned classification: 2,095 yes; 4,954 no; 16,892 indeterminate.
+Commissioned classification: 2,096 yes; 4,954 no; 16,891 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,743
+- `not_started`: 23,738
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 5
 - `documented_prewar_employer_found`: 7
 - `occupation_only_found`: 2
-- `requires_archival_review`: 10
-- `verified_employer_found`: 88
+- `requires_archival_review`: 13
+- `verified_employer_found`: 90
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -59,12 +59,13 @@ Commissioned classification: 2,095 yes; 4,954 no; 16,892 indeterminate.
 - Manual web-discovery plans recorded: 476
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Source-reviewed official-web attempts: 117, including three identity resolutions
-  supported by Library of Congress name-authority records
-- Total recorded attempts/plans: 1,189
+- Saved `source_reviewed` outcomes: 126 across 125 people; 10 additional
+  attempts have a saved `candidate_found` outcome
+- Total recorded attempts/plans: 1,194
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- Reviewed people with published evidence: 125 (Mort S. Bobrow, Morris Berg,
+- People with saved reviewed claims: 130; 116 have at least one published
+  claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
   Ford, Christian J. Lambertsen, Alfonso Rodriguez, Sidney L. Bartlett, Rene
@@ -96,13 +97,16 @@ Commissioned classification: 2,095 yes; 4,954 no; 16,892 indeterminate.
   Hoover, Chandler Morse, Sidney S. Alexander, Gregory Bateson, John F. Embree,
   Ralph Linton, Rhoda Métraux, Raymond Kennedy, James Phinney Baxter III, Saul
   K. Padover, C. Martin Wilbur, Charles F. Remer, Morris Janowitz, Edward A.
-  Shils, Sterling Dow, Donald C. McKay, John L. Clive, and Robert L. Wolff)
-- Published affiliations: 232
-- Published claims: 363 (50 confirmed, 284 high, 29 medium)
-- Citation records: 296; public source export: 293; unique source documents: 274
-- Canonical organizations: 151 private and 150 public
+  Shils, Sterling Dow, Donald C. McKay, John L. Clive, Robert L. Wolff,
+  Preston E. James, Norman O. Brown, Leonard Krieger, and the two separately
+  preserved ambiguous Paul M. Sweezy index rows.
+- Published affiliations: 238
+- Database claims: 374; published claims: 372 (50 confirmed, 293 high, 29
+  medium); 2 low-confidence identity candidates are withheld
+- Citation records: 309; public source export: 302; unique source documents: 287
+- Canonical organizations: 152 private and 151 public
 - Conflicts: 0
-- NARA pull-list rows: 23,890
+- NARA pull-list rows: 23,888
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -120,7 +124,11 @@ toward verified-affiliation coverage but not verified-employer coverage.
 3. Two William P. Weiss Library of Congress candidates remain unreviewed
    because the underlying page/full-text endpoints began returning access
    errors. They remain candidates, not facts.
-4. Completing the minimum research protocol for tens of thousands of people and
+4. The two Paul M. Sweezy rows share a name, middle initial, box, and archival
+   location but carry different private service numbers. No reviewed source
+   maps either number to economist Paul Marlor Sweezy. They remain separate,
+   ambiguous entities requiring Box 761 review.
+5. Completing the minimum research protocol for tens of thousands of people and
    reviewing physical personnel files is continuing archival work, not a single
    automated build step.
 
@@ -158,6 +166,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence_economic-and-
 python3 -m oss_research import-reviewed-evidence research/evidence_anthropologists-and-wartime-analysis_batch-022_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_research-and-analysis-predecessor-pathways_batch-023_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_academic-to-oss-pathways_batch-024_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence_academic-military-transitions_batch-025_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

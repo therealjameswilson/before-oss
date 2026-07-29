@@ -80,6 +80,15 @@ const affiliationLabel = (item: Affiliation) =>
           <h2 id="research-status">What the evidence currently supports</h2>
           <p class="research-note">{profile.research_status_message}</p>
           {
+            profile.identity_status !== "unresolved" &&
+              profile.identity_evidence && (
+                <div class="identity-note">
+                  <h3>Identity-resolution note</h3>
+                  <p>{profile.identity_evidence}</p>
+                </div>
+              )
+          }
+          {
             profile.immediate_pre_oss_affiliations.length === 0 &&
               profile.last_civilian_pre_service.length === 0 && (
                 <div class="empty-state">

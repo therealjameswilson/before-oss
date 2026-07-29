@@ -120,6 +120,24 @@ These cases leave three last-employer questions open for personnel-file and
 directory review. The public profiles describe that incompleteness directly
 rather than substituting a spouse's employer, a university, or a postwar job.
 
+## Reviewed academic and military transitions
+
+The twenty-fifth evidence batch tested immediate government and military
+predecessors, civilian employment separated from those assignments, student
+status, and an unresolved same-name pair:
+
+| Indexed record | Principal sources | Decision |
+|---|---|---|
+| Preston E. James | [Syracuse University Archives](https://library.syracuse.edu/digital/guides_sua/html/sua_james_pe_prt.htm), [U.S. Naval Institute Proceedings](https://www.usni.org/magazines/proceedings/1942/december/book-reviews), and NARA's RG 226 guide | COI is the immediate government affiliation; University of Michigan is the last documented civilian employer |
+| Norman O. Brown | [Online Archive of California](https://oac.cdlib.org/findaid/ark:/13030/kt6m3nd4kj/) and [Wesleyan University Magazine](https://magazine.blogs.wesleyan.edu/2003/01/04/celebrated-philosopher-norman-o-brown-dies/) | Army service is the immediate military predecessor; Nebraska Wesleyan is the last documented civilian employer |
+| Leonard Krieger | Barry M. Katz, *Foreign Intelligence* (DOI `10.4159/harvard.9780674181519`) and the [University of Chicago](https://college.uchicago.edu/news/perspective-difficult-times) | Army transfer is the immediate predecessor; Yale is retained as student status, not employment |
+| Two Paul M. Sweezy rows | [Harvard Houghton Library](https://id.lib.harvard.edu/ead/hou02824/catalog), [Harvard Crimson](https://www.thecrimson.com/article/1955/1/7/charges-connect-paul-sweezy-to-pro-communists/), and [Monthly Review](https://monthlyreview.org/articles/on-the-laws-of-capitalism/) | The biographical candidate is documented, but neither distinct private service number is mapped to him; both rows remain separate and ambiguous pending Box 761 review |
+
+PDF page 458 was rendered and visually checked. It contains two Paul M. Sweezy
+rows with the same printed name, box, and location but different service
+numbers. The public data omit those numbers, publish no employer candidate as a
+fact, and expose the duplicate-review status.
+
 ## Official reference material
 
 - NARA OSS personnel records:

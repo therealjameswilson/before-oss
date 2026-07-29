@@ -5,23 +5,24 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,099 pages**
-- Internal link check: **24,099 HTML files passed**
-- Browser and accessibility suite: **111 / 111 passed**
+- Static production build: **24,100 pages**
+- Internal link check: **24,100 HTML files passed**
+- Browser and accessibility suite: **117 / 117 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`df99deeac6ff6fc80825e3d673f206f3e71a991038c8d072b23673cb1b2c53f0`)
+  (`e722145aed4a0433ff1f6e1f11ea8a1b14acf7da50a727cfef1473b33a54956a`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **293** public records representing **274** unique documents
-- Published, qualified affiliations: **232**
-- Published claims: **363**
-- Verified-affiliation metric: **113** people with confirmed/high published
+- Reviewed public sources: **302** public records representing **287** unique documents
+- Published, qualified affiliations: **238**
+- Published claims: **372**
+- Withheld low-confidence identity candidates: **2**
+- Verified-affiliation metric: **116** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **78** people with confirmed/high published
+- Verified-employer metric: **80** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -107,3 +108,9 @@ Army service, private service-number redaction, and a medium-confidence
 teaching-assistant lead whose temporal uncertainty is visible and excluded
 from default analytics. It also adds the missing temporal-basis badge to all
 earlier-affiliation cards.
+Batch 025 adds checks for COI and Army predecessor assignments separated from
+civilian employment, graduate study modeled as student status, a documented
+Army-to-OSS transfer without an invented civilian employer, and two same-name
+rows that retain distinct masked service numbers. It also publishes
+identity-resolution notes for reviewed non-unresolved profiles while keeping
+the low-confidence Paul Marlor Sweezy candidates out of public claims.

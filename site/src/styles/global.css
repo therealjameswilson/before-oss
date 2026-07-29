@@ -550,6 +550,21 @@ h3 {
   color: var(--rust-dark);
 }
 
+.identity-note {
+  margin-block: 1rem;
+  padding: 1rem 1.25rem;
+  border-left: 0.3rem solid var(--blue);
+  background: rgb(44 79 95 / 8%);
+}
+
+.identity-note h3 {
+  margin-top: 0;
+}
+
+.identity-note p:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer {
   padding: 4rem 1rem 1.5rem;
   background: #101b22;
