@@ -31,8 +31,26 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Deployment verification is pending for this research release. The prior
-published release remains live until the GitHub Pages workflow completes.
+GitHub Pages deployment
+[30433995714](https://github.com/therealjameswilson/before-oss/actions/runs/30433995714)
+for research release `1bbb71c` completed successfully.
+
+Live checks returned HTTP 200 for all eleven tested targets:
+
+- the home page and personnel directory;
+- the reviewed Rene Veuve, Jun Atshushi Iwamatsu, and Tomoe Iwamatsu profiles;
+- the Joseph Savoldi Jr. identity-review profile;
+- the French Resistance and Office of War Information organization profiles;
+- `data/stats.json` and `data/sources.json`; and
+- the public personnel CSV download.
+
+The live profiles preserve the indexed forms, documented aliases, organization
+versus occupation distinctions, and direct CIA and Library of Congress
+citations. The live statistics report 23,978 source rows, 23,941 person
+entities, 91 people with non-planned research attempts, 15 verified-affiliation
+people, 17 archival-review assessments, 69 published claims, and 29 public
+source records. The live CSV header contains `serial_masked` and no full
+service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
