@@ -31,10 +31,35 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-The Batch 028 GitHub Actions and GitHub Pages workflows, production smoke
-tests, and live statistics verification are pending publication of the release
-commit. This section will be updated with the exact commit and workflow IDs
-after deployment.
+GitHub Actions test workflow
+[30492777822](https://github.com/therealjameswilson/before-oss/actions/runs/30492777822)
+and GitHub Pages deployment
+[30492777821](https://github.com/therealjameswilson/before-oss/actions/runs/30492777821)
+for government-business-and-student-pathways Batch 028 release `66df689`
+completed successfully.
+
+Live checks returned HTTP 200 and the expected content marker for all 22
+tested targets:
+
+- the home, `/people/` personnel directory, organizations, analysis,
+  methodology, sources, and downloads pages;
+- Paul Baran, G. E. Buxton, James R. Forgan, Everette H. Hunt Jr., and Shaw
+  Livermore Jr.;
+- `data/stats.json`;
+- all four public CSV downloads;
+- the public personnel JSONL download;
+- `data/sources.json`, `data/organizations.json`, `data/search-index.json`,
+  and the public build manifest;
+- the NARA attribution notice and full-service-number redaction on the five
+  new profiles.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 218
+people with non-planned research attempts, 126 verified-affiliation people, 86
+verified-employer people, 145 archival-review assessments, 411 published
+claims, and 344 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 163, 256, and 344 data rows
+respectively. The live personnel CSV header contains `serial_masked` and no
+full service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
