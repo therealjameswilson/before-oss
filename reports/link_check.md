@@ -31,11 +31,28 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-Deployment and live route verification are pending for this release. The
-release candidate includes direct profiles for James Angleton, Edna W.
-Andrade, Jane Burrell, Edmund M. Burke, and Robert C. Broughton, plus seven
-newly published organization routes. These routes are included in the complete
-internal-link pass above.
+GitHub Pages deployment
+[30439255172](https://github.com/therealjameswilson/before-oss/actions/runs/30439255172)
+for research release `a46ae1f` completed successfully.
+
+Live checks returned HTTP 200 for all fourteen tested targets:
+
+- the home page and personnel directory;
+- the reviewed James Angleton, Edna W. Andrade, Jane Burrell, Edmund M. Burke,
+  and Robert C. Broughton profiles;
+- the Harvard Law School, Pennsylvania Academy of the Fine Arts, Columbia
+  University, University of Pennsylvania, and Walt Disney Studios organization
+  profiles;
+- `data/stats.json`; and
+- the public personnel CSV download.
+
+The five live profiles preserve education, professional affiliation, civilian
+employment, and military assignment as separate relationships. The live
+statistics report 23,978 source rows, 23,941 person entities, 100 people with
+non-planned research attempts, 24 verified-affiliation people, 26
+archival-review assessments, 99 published claims, and 45 public source
+records. The live CSV header contains `serial_masked` and no full
+service-number field.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
