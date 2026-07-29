@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/24 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/28 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 48 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 53 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -813,5 +813,124 @@ test("Batch 010 preserves military, government, civilian-employer, fellowship, a
   ).toBeVisible();
   await expect(
     page.getByRole("link", { name: "OSS in Action: The Pacific and the Far East", exact: true }),
+  ).toBeVisible();
+});
+
+test("Batch 011 preserves concurrent employment, predecessor agencies, military pathways, and non-employer affiliations", async ({
+  page,
+}) => {
+  await page.goto("./people/928871ef-6c5b-54dd-8967-08e8afcd7efc/");
+  await expect(
+    page.getByRole("heading", { name: "Carleton S Coon", exact: true }),
+  ).toBeVisible();
+  for (const organization of [
+    "Harvard University",
+    "Peabody Museum of Archaeology and Ethnology",
+  ]) {
+    await expect(
+      page
+        .locator('section[aria-labelledby="immediate-affiliation"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page
+        .locator('section[aria-labelledby="civilian-employer"]')
+        .getByRole("heading", { name: organization, exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page.getByRole("link", { name: "Carleton Stevens Coon papers", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/9e161c56-f13d-52f7-bc8c-778fe6ff8677/");
+  await expect(
+    page.getByRole("heading", { name: "Norman H Pearson", exact: true }),
+  ).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page
+        .locator(`section[aria-labelledby="${section}"]`)
+        .getByRole("heading", { name: "Yale University", exact: true }),
+    ).toBeVisible();
+  }
+  await expect(
+    page.getByRole("link", { name: "History of the Department", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/86d85b71-ed82-5b7f-87dd-0d456d58ff3d/");
+  await expect(
+    page.getByRole("heading", { name: "Philip E Mosely", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Cornell University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "United States Department of State, Division of Special Research",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Cornell Alumni News", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/cae068be-d703-5d95-adc7-a645430834fd/");
+  await expect(
+    page.getByRole("heading", { name: "Millard P Goodfellow", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army G-2", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "M. Preston Goodfellow's unnamed business",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "OSS Training in the National Parks and Service Abroad in World War II: Chapter 1, Origins of the OSS",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+
+  await page.goto("./people/3f476b5c-bf12-532d-8879-1646130029e0/");
+  await expect(
+    page.getByRole("heading", { name: "Whitney Shepardson", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Council on Foreign Relations", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText(
+      "Review Box 703 and CFR archival records to identify Shepardson's immediate pre-OSS status and last civilian employer without treating his officer role as employment.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "The Office of Strategic Services: America's First Intelligence Agency",
+        exact: true,
+      })
+      .first(),
   ).toBeVisible();
 });

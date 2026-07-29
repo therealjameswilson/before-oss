@@ -4,15 +4,15 @@ Run: 2026-07-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,028 HTML files. Every relative
+**PASS.** The production build contains 24,033 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 79 organization profiles, and the
+The build includes 23,941 person profiles, 84 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,008 unique external URLs for separate live
+The checker inventoried 48,042 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -31,9 +31,8 @@ verification; external responses do not affect the internal-route pass.
 
 ## Production deployment
 
-GitHub Pages deployment
-[30448827010](https://github.com/therealjameswilson/before-oss/actions/runs/30448827010)
-for official-pathways Batch 010 release `48cdf48` completed successfully.
+Batch 011 deployment verification is pending the release commit. The preceding
+Batch 010 deployment remains live and passed its recorded production checks.
 
 Live checks returned HTTP 200 for all twenty tested targets:
 

@@ -5,9 +5,9 @@ Run: 2026-07-29 UTC
 - Python unit tests: **29 / 29 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,028 pages**
-- Internal link check: **24,028 HTML files passed**
-- Browser and accessibility suite: **69 / 69 passed**
+- Static production build: **24,033 pages**
+- Internal link check: **24,033 HTML files passed**
+- Browser and accessibility suite: **72 / 72 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
 - Public redaction build: **passed**
@@ -15,21 +15,16 @@ Run: 2026-07-29 UTC
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **103** public records representing **102** unique documents
-- Published, qualified affiliations: **108**
-- Published claims: **155**
-- Verified-affiliation metric: **48** people with confirmed/high published
+- Reviewed public sources: **117** public records representing **116** unique documents
+- Published, qualified affiliations: **117**
+- Published claims: **171**
+- Verified-affiliation metric: **53** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **24** people with confirmed/high published
+- Verified-employer metric: **28** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30448827000](https://github.com/therealjameswilson/before-oss/actions/runs/30448827000)
-  for Batch 010 release `48cdf48`: **passed**
-- GitHub Pages deployment workflow
-  [30448827010](https://github.com/therealjameswilson/before-oss/actions/runs/30448827010)
-  for Batch 010 release `48cdf48`: **passed**
-- Production route smoke tests: **20 / 20 returned HTTP 200**
+- Batch 011 GitHub Actions test and Pages deployment: **pending release commit**
+- Production route smoke tests: **pending Batch 011 deployment**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -41,6 +36,7 @@ the production audit then passed.
 
 The metric regression test verifies that student, military, government,
 volunteer, and professional affiliations do not inflate verified-employer
-coverage. Batch 010 adds explicit browser checks for military and government
-pathways, civilian employment, professional fellowships, and unresolved
-archival-review profiles.
+coverage. Batch 011 adds explicit browser checks for concurrent civilian
+appointments, predecessor-agency and military pathways, an unnamed business
+that was not guessed, and a documented professional affiliation that remains
+excluded from employer analytics.
