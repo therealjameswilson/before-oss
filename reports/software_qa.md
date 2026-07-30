@@ -5,23 +5,23 @@ Run: 2026-07-30 UTC
 - Python unit tests: **47 / 47 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,170 pages**
-- Internal link check: **24,170 HTML files passed**
-- Browser and accessibility suite: **219 / 219 passed**
+- Static production build: **24,171 pages**
+- Internal link check: **24,171 HTML files passed**
+- Browser and accessibility suite: **222 / 222 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`2a83ab415de6eb99d95f557ed3c4d878b58964aeee52a740d9a2b3bf410d213f`)
+  (`6ab48656531c5f66f0381b25978fd63dae4a4fd1bf7568fa5fef137aa0839727`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,209**
+  numbers at least six characters long: **0 full-number matches** in **24,211**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **529** public records representing **503** unique documents
-- Published, qualified affiliations: **374**
-- Published claims: **630**
+- Reviewed public sources: **533** public records representing **507** unique documents
+- Published, qualified affiliations: **375**
+- Published claims: **632**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
 - Verified-affiliation metric: **188** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -394,3 +394,13 @@ affiliations from wartime operational presence. Albert Hippolyte Agert remains
 a withheld low-confidence identity candidate pending comparison of NARA,
 British SOE, and French resistance files. The other six profiles route to Box
 5 without unsupported employer claims.
+Batch 059 completes the minimum online protocol for Pedgro J. Aguirre through
+Amedeo M. Aiello. It publishes Alvida Ahlstrom's probable identity and
+medium-confidence 1940 employment on the French faculty of La Crosse State
+Teachers College as documented prewar work only. The reviewed evidence does
+not establish that the college was her immediate pre-OSS affiliation or last
+civilian employer. Nine other profiles route to their indexed Box 5 or Box 6
+files, with common-name, spelling, later-career, and genealogy-only candidates
+rejected rather than promoted to facts. The regression checks all ten profiles,
+the new organization route, claim-level citations, confidence qualifications,
+and field-level service-number masking across three viewports.

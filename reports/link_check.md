@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,170 HTML files. Every relative
+**PASS.** The production build contains 24,171 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 221 organization profiles, and the
+The build includes 23,941 person profiles, 222 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,407 unique external URLs for separate live
+The checker inventoried 48,411 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -86,6 +86,9 @@ verification; external responses do not affect the internal-route pass.
 | Prince Albert *Daily Herald*, “Veteran of Lofoten Raid” | Text reviewed through the research browser; command-line image retrieval returned HTTP 403 |
 | Washington Post, “W. Scudder Georgia Dies” | Accessible through the research browser; command-line curl timed out |
 | NPS report mirror, *OSS Training in the National Parks and Service Abroad* | Accessible through the research browser; command-line curl returned HTTP 406 |
+| La Crosse State Teachers College, 1940 *La Crosse* yearbook, page 28 | Page-specific faculty entry reviewed directly |
+| University of Wisconsin-La Crosse historical timeline | HTTP 200 |
+| University of Wisconsin-La Crosse, Alvida Ahlstrom Honors Program | HTTP 200 |
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |

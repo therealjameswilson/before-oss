@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 409 people with a non-planned attempt | 23,941 person entities | 1.7084% |
+| Research-attempt coverage | 419 people with a non-planned attempt | 23,941 person entities | 1.7501% |
 | Verified-affiliation coverage | 188 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7853% |
 | Verified-employer coverage | 111 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4636% |
-| Archival-review coverage | 356 people with an individual file-access/priority assessment | 23,941 person entities | 1.4870% |
+| Archival-review coverage | 366 people with an individual file-access/priority assessment | 23,941 person entities | 1.5288% |
 
 ## Extraction and identity
 
@@ -23,9 +23,9 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 19
 - Identity status `high_confidence`: 232
-- Identity status `probable`: 11
+- Identity status `probable`: 12
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,665
+- Identity status `unresolved`: 23,664
 
 ## Personnel categories
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,532
+- `not_started`: 23,522
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 9
-- `documented_prewar_employer_found`: 18
+- `documented_prewar_employer_found`: 19
 - `occupation_only_found`: 20
-- `requires_archival_review`: 164
+- `requires_archival_review`: 173
 - `completed`: 32
 - `verified_employer_found`: 113
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 138
+- Reviewed-web terminal-protocol attempts recorded: 148
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 255 across 241 people; 15 additional
+- Saved `source_reviewed` outcomes: 256 across 242 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,433
+- Total recorded attempts/plans: 1,443
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 236; 224 have at least one public-eligible
+- People with saved reviewed claims: 237; 225 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -201,11 +201,20 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
   Albert Hippolyte Agert remains a withheld low-confidence French SOE and
   resistance-file candidate pending direct comparison with Box 5. The other
   six profiles route to Box 5 review.
-- Published affiliations: 374
-- Database claims: 645; public-eligible claims: 630 (94 confirmed, 481 high, 55
+  Batch 059 additionally reviewed Pedgro J. Aguirre, German Agustini,
+  Cornelius J. Ahearn, David Ahearn, Margaret Ahearn, Leonard Ahern, Alvida
+  Ahlstrom, Philston Ahn, Kenneth E. Ahola, and Amedeo M. Aiello. A
+  contemporaneous 1940 yearbook probably identifies Alvida M. Ahlstrom as
+  French faculty at La Crosse State Teachers College. The role is published
+  only as medium-confidence documented-prewar employment: it is not presented
+  as her immediate pre-OSS affiliation or last civilian employer. The other
+  nine profiles route to Box 5 or Box 6 review without unsupported employer
+  claims.
+- Published affiliations: 375
+- Database claims: 647; public-eligible claims: 632 (94 confirmed, 481 high, 57
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 667; public source export: 529; unique source documents: 503
-- Canonical organizations: 223 private and 221 public
+- Citation records: 680; public source export: 533; unique source documents: 507
+- Canonical organizations: 224 private and 222 public
 - Conflicts: 0
 - NARA pull-list rows: 23,865
 
@@ -311,6 +320,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-second-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-through-adeling-pathways_batch-055_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-adelman-through-adkisson-pathways_batch-056_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-adler-through-aga-ogla-pathways_batch-057_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-third-page-agee-through-agugliaro-pathways_batch-058_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-third-page-aguirre-through-aiello-pathways_batch-059_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

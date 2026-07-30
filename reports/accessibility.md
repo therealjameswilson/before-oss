@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 219 / 219 browser cases.**
+**PASS - 222 / 222 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -499,6 +499,16 @@ and Arthur J. Agoritsas. It confirms that no wartime roster entry is converted
 into an unsupported pre-OSS employer claim and verifies field-level serial
 masking. The complete desktop, phone, and tablet matrix passed 219 / 219 with
 no remaining assertion or serious/critical axe failure.
+
+The Batch 059 regression checks ten newly completed profiles from Pedgro J.
+Aguirre through Amedeo M. Aiello. It verifies nine Box 5 or Box 6 archival
+routes and Alvida Ahlstrom's qualified 1940 French-faculty role at La Crosse
+State Teachers College. It confirms that the role appears only among earlier
+documented affiliations and is not promoted to an immediate affiliation or
+last civilian employer. It also verifies claim-level citation access,
+confidence labeling, organization linkage, and field-level serial masking. The
+complete desktop, phone, and tablet matrix passed 222 / 222 with no remaining
+assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

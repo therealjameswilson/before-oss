@@ -5110,3 +5110,92 @@ test("Batch 058 publishes Aglione's Army pathway, confirms two roster identities
     page.locator(".index-record").first().locator("dd").nth(2),
   ).toHaveText(/^••••\d{4}$/);
 });
+
+test("Batch 059 publishes Ahlstrom's qualified prewar faculty role and preserves nine archival cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["c6d95182-4820-5a22-b650-b6e9c3be2f25", "Pedgro J Aguirre"],
+    ["47abd0de-8fa9-5285-8147-d02cb1c9578c", "German Agustini"],
+    ["5d9d660a-6d35-554e-b01f-81f002f029a4", "Cornelius J Ahearn"],
+    ["f7bdeada-d129-517f-b69d-dea4d5d9dbeb", "David Ahearn"],
+    ["dca8ac2c-3fb0-5b2d-a36d-9f3904e8c5ae", "Margaret Ahearn"],
+    ["153bb624-79ed-56ec-8b86-838f4059c4f8", "Leonard Ahern"],
+    ["53bbd21a-a7ec-53f6-bb7f-25b78ee59160", "Philston Ahn"],
+    ["d71ea9e1-88a5-58a6-b9da-4d9f73fa0cf9", "Kenneth E Ahola"],
+    ["9424dece-0e80-5f8c-9db8-f18512bdd3bd", "Amedeo M Aiello"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(/^[56]$/, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/dc625dce-f632-5092-9329-bee6db98b005/");
+  await expect(
+    page.getByRole("heading", { name: "Alvida Ahlstrom", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "La Crosse State Teachers College",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("French faculty");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page.getByRole("link", { name: "La Crosse", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.e-yearbook.com/yearbooks/University_Wisconsin_La_Crosse_La_Crosse_Yearbook/1940/Page_28.html",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^(Not printed|••••\d{4})$/);
+
+  await page.goto(
+    "./organizations/de9fc8b5-5d0a-5ca5-b39b-392da9358c3d/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "La Crosse State Teachers College",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Alvida Ahlstrom", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "other documented pre-OSS affiliation",
+  );
+  await expect(
+    page.getByText("medium", { exact: true }).first(),
+  ).toBeVisible();
+});
