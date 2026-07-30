@@ -93,40 +93,38 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30528067363](https://github.com/therealjameswilson/before-oss/actions/runs/30528067363)
+[30529586616](https://github.com/therealjameswilson/before-oss/actions/runs/30529586616)
 and GitHub Pages deployment
-[30528067383](https://github.com/therealjameswilson/before-oss/actions/runs/30528067383)
-for first-page economic, relief, and regimental-pathways Batch 048 release
-`3d9dc80`
+[30529586608](https://github.com/therealjameswilson/before-oss/actions/runs/30529586608)
+for incomplete- and common-name archival-pathways Batch 049 release
+`ab444b5`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 26
+count, or redaction state for all 20
 tested targets:
 
 - the home page;
-- Moses Abrahamovitz, Isaace L. Abrahams, Albert Abrahamson, John D. Abrahamson,
-  Allen Abrams, Leonard Abrams, Melville F. Abrams, Ruth B. Abrams, Vincent A.
-  Abrignani, and Hazel E. Abrogast;
-- the 71st Infantry Regiment, Bowdoin College, Marathon Corporation, National
-  Bureau of Economic Research, National Refugee Service, United States Army,
-  and War Production Board organization pages;
+- the personnel directory;
+- Caf-3 E Aaberg, Frank Abbote, John A. Abbote, Delbert H. Abbott, Floyd H.
+  Abbott, Frederick K. Abbott, James E. Abbott, James F. Abbott, Norman Abbott,
+  and Robert J. Abbott;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 309
+The live statistics report 23,978 source rows, 23,941 person entities, 319
 people with non-planned research attempts, 184 verified-affiliation people, 109
-verified-employer people, 256 archival-review assessments, 614 published
+verified-employer people, 266 archival-review assessments, 614 published
 claims, and 505 public source records. The live personnel, organizations,
 affiliations, and sources downloads contain 23,941, 220, 367, and 505 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field. A boundary-aware comparison of all 12,799 private
-normalized identifiers against the checked production artifacts returned zero
-matches.
+normalized identifiers against all live person-data shards, major public data
+assets, downloads, and the checked production pages returned zero matches.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
