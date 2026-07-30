@@ -259,3 +259,33 @@ qualification, the later 85th Infantry identity corroboration, and the visible
 unmerged James Kalexatos duplicate warning. The other nine profiles route to
 Box 9 review without unsupported claims. The complete local link checker
 passed all 24,184 HTML files and inventoried 48,454 unique external URLs.
+
+## Batch 068 production deployment
+
+GitHub Actions test workflow
+[30580392789](https://github.com/therealjameswilson/before-oss/actions/runs/30580392789)
+and GitHub Pages deployment
+[30580392710](https://github.com/therealjameswilson/before-oss/actions/runs/30580392710)
+for page-five Alexatos-through-Alger Batch 068 release `4d68797` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 17 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 068 person profiles, and the 122nd Infantry
+Battalion organization profile. Alexatos's live profile exposes the cited
+military pathway, its strongly date-bounded unit-level qualification, and the
+unmerged duplicate warning.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 507
+people with non-planned research attempts, 197 verified-affiliation people,
+118 verified-employer people, 454 archival-review assessments, 671 published
+claims, and 582 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 235, 395, and 582 data rows
+respectively, and the JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`f6b2cfa7bd5e246849dc8fa0a68b91ad49c1ee517992c29fb2d1fa30e4a53bbf`.
+A boundary-aware comparison of all 12,919 private normalized identifiers
+against 83 uncompressed live HTML, data, and download artifacts returned zero
+matches.
