@@ -41,38 +41,37 @@ verification; external responses do not affect the internal-route pass.
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
 
-## Last verified production deployment
+## Production deployment
 
 GitHub Actions test workflow
-[30506164931](https://github.com/therealjameswilson/before-oss/actions/runs/30506164931)
+[30508068264](https://github.com/therealjameswilson/before-oss/actions/runs/30508068264)
 and GitHub Pages deployment
-[30506164913](https://github.com/therealjameswilson/before-oss/actions/runs/30506164913)
-for Area B staff and Allied pathway Batch 037 release `902f449` completed
+[30508068298](https://github.com/therealjameswilson/before-oss/actions/runs/30508068298)
+for Area B enlisted staff and Velleman review Batch 038 release `5c1a2d7`
+completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 24
+count, or redaction state for all 22
 tested targets:
 
 - the home, `/people/` personnel directory, organizations, analysis,
   methodology, sources, and downloads pages;
-- Benton E. Bickham Jr., Milton W. Griffith, Louis Lostfogel, Edmund I.
-  Stromholt, James Herbert, and James E. Herbert;
-- the Norwegian Army organization page, including its linked-person profile
-  route and claim-level source citations;
+- Moritz Velleman, Arthur H. Velleman, George A. George, Howard C. Ressler, and
+  Raymond W. Deisher;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download;
 - `data/sources.json`, `data/organizations.json`, `data/search-index.json`,
   and the public build manifest;
-- the NARA attribution notice and full-service-number redaction on the six
+- the NARA attribution notice and full-service-number redaction on the five
   new profiles.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 264
-people with non-planned research attempts, 161 verified-affiliation people, 95
-verified-employer people, 191 archival-review assessments, 517 published
-claims, and 408 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 185, 311, and 408 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 269
+people with non-planned research attempts, 162 verified-affiliation people, 96
+verified-employer people, 196 archival-review assessments, 523 published
+claims, and 415 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 185, 314, and 415 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
