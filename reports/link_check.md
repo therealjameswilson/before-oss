@@ -339,3 +339,29 @@ D. Allen. Each profile preserves its printed page-six provenance, routes to
 Box 10, and states the unresolved employment outcome without promoting an
 uncorroborated namesake. The complete local link checker passed all 24,185 HTML
 files and inventoried 48,456 unique external URLs.
+
+## Batch 070 production deployment
+
+GitHub Actions test workflow
+[30587004656](https://github.com/therealjameswilson/before-oss/actions/runs/30587004656)
+and GitHub Pages deployment
+[30587004651](https://github.com/therealjameswilson/before-oss/actions/runs/30587004651)
+for the page-six Allen Batch 070 release `d8a9f29` completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 17 tested
+publication routes: the homepage, personnel directory, organizations
+directory, analysis, methodology, sources, downloads, and all ten Batch 070
+person profiles. The live statistics report 23,978 source rows, 23,941 person
+entities, 527 people with non-planned research attempts, 197
+verified-affiliation people, 118 verified-employer people, 474 archival-review
+assessments, 673 published claims, and 584 public source records. The live
+personnel, organizations, affiliations, and sources downloads contain 23,941,
+236, 396, and 584 data rows respectively, and the JSONL personnel download
+contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`f5c2737ed5fce4becf9ac3b8e74bdfc6e78bbf99df4b6e21e712ae58173da8e4`.
+A field-aware comparison of all 12,931 digit-bearing normalized private
+identifiers against 83 live HTML, data, compressed-mirror, and download
+artifacts returned zero unexpected full-number matches.
