@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 228 / 228 browser cases.**
+**PASS - 231 / 231 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -529,6 +529,15 @@ separate Army, last-civilian-employer, and qualified earlier maritime sections.
 It checks the NYU and Hoover source links, source-specific rank evidence, and
 field-level serial masking. The complete desktop, phone, and tablet matrix
 passed 228 / 228 with no remaining assertion or serious/critical axe failure.
+
+The Batch 062 regression checks the contiguous Adrien Albarranc-through-Paul
+Albertis page-four sequence. It verifies ten Box 7 archival-review routes,
+Albarranc's high-confidence identity section and French archival citations, and
+the absence of an unsupported employer claim. It also confirms that `Strone`
+remains the indexed spelling while `Stone` is not silently substituted, and
+checks field-level serial masking. The complete desktop, phone, and tablet
+matrix passed 231 / 231 with no remaining assertion or serious/critical axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

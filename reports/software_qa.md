@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,171 pages**
 - Internal link check: **24,171 HTML files passed**
-- Browser and accessibility suite: **228 / 228 passed**
+- Browser and accessibility suite: **231 / 231 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`7af2fe5d48d1ce0b070299547305328b1864e68a2625ef4843e2945c0465717b`)
+  (`428bd6f630334ee1fe9e4e6ae7068cb5c20c4e7d0800950dc353742dc6532257`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,9 +19,9 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,251**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **541** public records representing **510** unique documents
+- Reviewed public sources: **544** public records representing **512** unique documents
 - Published, qualified affiliations: **379**
-- Published claims: **641**
+- Published claims: **642**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
 - Verified-affiliation metric: **190** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -429,3 +429,13 @@ merchant-marine role. Six new profiles and the prior Akin profile route to Box
 7 review. The regression checks all ten profiles, claim-level source links,
 source-specific rank evidence, and field-level service-number masking across
 three viewports.
+Batch 062 completes the minimum online protocol for Adrien Albarranc through
+Paul Albertis. Two independent French archival or institutional sources support
+Adrien Albarranc as the person indexed, including the Service historique de la
+Défense finding aid for his CORVETTE network file; no civilian employer is
+published because the available employer lead remains discovery-only. The
+other nine profiles remain unresolved after official, exact-name,
+employment-focused, and archival searches and route to their indexed Box 7
+files. The regression checks all ten profiles, Albarranc's high-confidence
+identity evidence and French archival route, the preserved printed `Strone`
+spelling, and field-level service-number masking across three viewports.

@@ -5436,3 +5436,69 @@ test("Batch 061 publishes Alacevich's Army and civilian pathways while preservin
     page.locator(".index-record").first().locator("dd").nth(2),
   ).toHaveText(/^••••\d{4}$/);
 });
+
+test("Batch 062 publishes Albarranc's qualified identity evidence and preserves ten archival employer gaps", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["e5d72093-b123-55f9-aba8-d9af1c62bfdd", "Adrien Albarranc"],
+    ["d82519a0-b83e-5445-b0da-81dcecb34349", "Dorothy O Albaugh"],
+    ["06fb1712-7f09-5eb9-b12d-1afebc411f0b", "Esten E Albaugh"],
+    ["442cbb88-4bf5-59b7-afcd-a7535e88c8b1", "Louis G Albee"],
+    ["77e3312f-c038-5100-89b4-b92130d7e0b5", "Strone F Albee"],
+    ["0158c622-2129-5b00-aa5b-5b570e2acea7", "George E Albers"],
+    ["d91f908a-1172-53ec-95c8-d9ce69b92128", "Allen D Albert"],
+    ["3860d895-8a4d-5c8b-af05-6577c01b4a72", "Daniel L Albert"],
+    ["52ed887a-ca4c-5c60-946a-8a3e7787c0d0", "Joseph H Albert"],
+    ["252af520-cd0a-551a-8cf6-6109043a6275", "Paul Albertis"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("7", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/e5d72093-b123-55f9-aba8-d9af1c62bfdd/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "very likely the French resistance member",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Dossiers des agents des réseaux de renseignement et d'évasion de la France combattante",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2019-10/SHDGR_INV_28P4_DOSSIERS_DES_AGENTS_DES_RESEAUX_0.pdf",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Liste des membres des Forces françaises libres (18 juin 1940 - 31 juillet 1943)",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://genealomaniac.fr/wp-content/uploads/2022/12/Liste-des-membres-des-Forces-francaises-libres-18-juin-1940-31-juillet-1943-.pdf",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("Capt");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText("Not printed");
+});

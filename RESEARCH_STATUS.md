@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 438 people with a non-planned attempt | 23,941 person entities | 1.8295% |
+| Research-attempt coverage | 448 people with a non-planned attempt | 23,941 person entities | 1.8713% |
 | Verified-affiliation coverage | 190 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7936% |
 | Verified-employer coverage | 113 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4720% |
-| Archival-review coverage | 385 people with an individual file-access/priority assessment | 23,941 person entities | 1.6081% |
+| Archival-review coverage | 395 people with an individual file-access/priority assessment | 23,941 person entities | 1.6499% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 20
-- Identity status `high_confidence`: 233
+- Identity status `high_confidence`: 234
 - Identity status `probable`: 15
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,659
+- Identity status `unresolved`: 23,658
 
 ## Personnel categories
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,503
+- `not_started`: 23,493
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 20
-- `requires_archival_review`: 187
+- `requires_archival_review`: 197
 - `completed`: 32
 - `verified_employer_found`: 114
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 167
+- Reviewed-web terminal-protocol attempts recorded: 177
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 261 across 247 people; 15 additional
+- Saved `source_reviewed` outcomes: 262 across 248 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,462
+- Total recorded attempts/plans: 1,472
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 242; 230 have at least one public-eligible
+- People with saved reviewed claims: 243; 231 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -233,10 +233,20 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
   group despite an authoritative NYU finding aid for Karl Ichiro Akiya; no
   employment is copied to either row. Six newly researched profiles and the
   previously completed Billie F. Akin profile route to Box 7 review.
+  Batch 062 additionally reviewed Adrien Albarranc, Dorothy O. Albaugh, Esten
+  E. Albaugh, Louis G. Albee, Strone F. Albee, George E. Albers, Allen D.
+  Albert, Daniel L. Albert, Joseph H. Albert, and Paul Albertis. An official
+  French defence finding aid and a Fondation Charles de Gaulle list
+  independently support a high-confidence Adrien Albarranc identity in the
+  Corvette resistance-network context. They do not independently establish his
+  immediate pre-OSS affiliation or last civilian employer, so discovery-only
+  employer leads remain unpublished. All ten profiles route to Box 7 review;
+  the unusual printed name Strone is preserved, with Stone used only as a
+  rejected search alias.
 - Published affiliations: 379
-- Database claims: 656; public-eligible claims: 641 (95 confirmed, 485 high, 61
+- Database claims: 657; public-eligible claims: 642 (95 confirmed, 486 high, 61
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 702; public source export: 541; unique source documents: 510
+- Citation records: 714; public source export: 544; unique source documents: 512
 - Canonical organizations: 224 private and 222 public
 - Conflicts: 0
 - NARA pull-list rows: 23,864

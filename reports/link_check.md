@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 222 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,414 unique external URLs for separate live
+The checker inventoried 48,416 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -92,6 +92,8 @@ verification; external responses do not affect the internal-route pass.
 | University of Wisconsin-La Crosse, Alvida Ahlstrom Honors Program | HTTP 200 |
 | NYU Special Collections, Karl Ichiro Akiya Papers | Reviewed directly; institutional finding aid opened successfully |
 | Hoover Institution, OSS Board of Officers report, 4 May 1944 | Reviewed directly as a 77-page official wartime report |
+| Service historique de la Défense, CORVETTE network personnel-file finding aid | Reviewed directly; page 118 identifies Adrien Albarranc and the linked individual file |
+| Fondation Charles de Gaulle, Free French membership list | Reviewed directly; page 16 records Adrien Albarranc's resistance and CORVETTE association |
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
