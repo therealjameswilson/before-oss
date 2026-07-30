@@ -29,15 +29,16 @@ Run: 2026-07-30 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30546943515](https://github.com/therealjameswilson/before-oss/actions/runs/30546943515)
-  for Batch 056 release `5c2201c`: **passed**
+  [30549315878](https://github.com/therealjameswilson/before-oss/actions/runs/30549315878)
+  for Batch 057 release `cfa6c8b`: **passed**
 - GitHub Pages deployment workflow
-  [30546943506](https://github.com/therealjameswilson/before-oss/actions/runs/30546943506)
-  for Batch 056 release `5c2201c`: **passed**
+  [30549315722](https://github.com/therealjameswilson/before-oss/actions/runs/30549315722)
+  for Batch 057 release `cfa6c8b`: **passed**
 - Production route smoke tests: **21 / 21 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
-  and local SHA-256 values**
+  and local SHA-256 values**; the live and local manifest SHA-256 is
+  `384b05ac0ab56c729f0e0c4dd800b49bd56557d81e60ca0fa35f5fdd4d9248cf`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
