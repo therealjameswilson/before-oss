@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 186 / 186 browser cases.**
+**PASS - 189 / 189 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-107-person employer measure is labeled separately from the 181-person broader
+109-person employer measure is labeled separately from the 184-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -404,6 +404,17 @@ assignment is not treated as civilian employment, preserves the PVT/Pfc./Cpl
 source disagreement, checks both published citations, and continues
 full-service-number masking. The complete desktop, phone, and tablet matrix
 passed 186 / 186 with no remaining assertion or serious/critical axe failure.
+
+The Batch 048 regression updates both homepage coverage assertions and adds
+direct checks for Moses Abrahamovitz, Albert Abrahamson, Allen Abrams, and
+Vincent A. Abrignani. It verifies that Army assignments remain separate from
+the National Bureau of Economic Research and National Refugee Service civilian
+employers; preserves the indexed Abrahamovitz spelling alongside the documented
+Abramovitz variant; keeps Allen Abrams's probable, medium-confidence Marathon
+path visibly qualified; and publishes Abrignani's earlier 71st Infantry service
+without claiming it was immediately pre-OSS. The complete desktop, phone, and
+tablet matrix passed 189 / 189 with no remaining assertion or
+serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

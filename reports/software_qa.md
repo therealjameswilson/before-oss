@@ -5,27 +5,27 @@ Run: 2026-07-30 UTC
 - Python unit tests: **40 / 40 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,164 pages**
-- Internal link check: **24,164 HTML files passed**
-- Browser and accessibility suite: **186 / 186 passed**
+- Static production build: **24,169 pages**
+- Internal link check: **24,169 HTML files passed**
+- Browser and accessibility suite: **189 / 189 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`ad7a503d6901dee0050fbd24a1c9fe00337f1978742367c6c437190eb9259054`)
+  (`3f385c55506f0eef6f866d74a2815a491e24742c1e7c4172e1e3d8102e5af689`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,244**
+  numbers at least six characters long: **0 full-number matches** in **24,249**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **492** public records representing **472** unique documents
-- Published, qualified affiliations: **359**
-- Published claims: **601**
+- Reviewed public sources: **505** public records representing **481** unique documents
+- Published, qualified affiliations: **367**
+- Published claims: **614**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
-- Verified-affiliation metric: **181** people with confirmed/high published
+- Verified-affiliation metric: **184** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **107** people with confirmed/high published
+- Verified-employer metric: **109** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -270,3 +270,12 @@ newspaper, directory, obituary, and archival checks. The regression checks all
 ten profiles across three viewports, preserves the military/civilian-employer
 distinction, exposes the Denver Public Library and published-history
 citations, and verifies full service-number masking.
+Batch 048 adds Moses Abrahamovitz's first-person NBER-to-War Production
+Board-to-Army/OSS chronology; Albert Abrahamson's National Refugee Service,
+Army, and Bowdoin sequence; Allen Abrams's visibly qualified Marathon
+Corporation candidate; and Vincent Abrignani's confirmed earlier 71st Infantry
+service without promoting it to the immediate field. Six additional first-page
+rows receive terminal, box-specific archival-review outcomes after the minimum
+protocol. The regression checks the four published pathways across three
+viewports, preserves indexed spellings and confidence qualifications, and
+continues full service-number masking.

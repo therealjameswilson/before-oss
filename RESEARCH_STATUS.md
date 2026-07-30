@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 299 people with a non-planned attempt | 23,941 person entities | 1.2489% |
-| Verified-affiliation coverage | 181 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7560% |
-| Verified-employer coverage | 107 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4469% |
-| Archival-review coverage | 246 people with an individual file-access/priority assessment | 23,941 person entities | 1.0275% |
+| Research-attempt coverage | 309 people with a non-planned attempt | 23,941 person entities | 1.2907% |
+| Verified-affiliation coverage | 184 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7686% |
+| Verified-employer coverage | 109 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4553% |
+| Archival-review coverage | 256 people with an individual file-access/priority assessment | 23,941 person entities | 1.0693% |
 
 ## Extraction and identity
 
@@ -21,11 +21,11 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 208
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 14
-- Identity status `high_confidence`: 226
-- Identity status `probable`: 9
+- Identity status `confirmed`: 15
+- Identity status `high_confidence`: 228
+- Identity status `probable`: 10
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,678
+- Identity status `unresolved`: 23,674
 
 ## Personnel categories
 
@@ -45,15 +45,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,642
+- `not_started`: 23,632
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
-- `documented_prewar_employer_found`: 16
+- `documented_prewar_employer_found`: 17
 - `occupation_only_found`: 20
-- `requires_archival_review`: 64
+- `requires_archival_review`: 71
 - `completed`: 29
-- `verified_employer_found`: 109
+- `verified_employer_found`: 111
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 28
+- Reviewed-web terminal-protocol attempts recorded: 38
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 243 across 229 people; 12 additional
+- Saved `source_reviewed` outcomes: 247 across 233 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,323
+- Total recorded attempts/plans: 1,333
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 222; 212 have at least one public-eligible
+- People with saved reviewed claims: 226; 216 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -139,13 +139,16 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   Abbenante, Charles R. Abele, Herbert A. Abele Jr., Norman W. Abendschein,
   Michael K. Abraham, Alexander A. Abromaitis, Salvatore H. Acampora, and John
   Achelis.
-- Published affiliations: 359
-- Database claims: 614; public-eligible claims: 601 (89 confirmed, 463 high, 49
+  Batch 048 additionally reviewed Moses Abrahamovitz, Isaace L. Abrahams,
+  Albert Abrahamson, John D. Abrahamson, Allen Abrams, Leonard Abrams, Melville
+  F. Abrams, Ruth B. Abrams, Vincent A. Abrignani, and Hazel E. Abrogast.
+- Published affiliations: 367
+- Database claims: 627; public-eligible claims: 614 (90 confirmed, 472 high, 52
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 529; public source export: 492; unique source documents: 472
-- Canonical organizations: 216 private and 215 public
+- Citation records: 548; public source export: 505; unique source documents: 481
+- Canonical organizations: 221 private and 220 public
 - Conflicts: 0
-- NARA pull-list rows: 23,869
+- NARA pull-list rows: 23,867
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -237,6 +240,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-employment-tr
 python3 -m oss_research import-reviewed-evidence research/evidence-terminal-protocol-and-allied-pathways_batch-045_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-student-employment-and-terminal-protocol_batch-046_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-first-page-military-and-terminal-protocol_batch-047_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-first-page-economic-relief-and-regimental-pathways_batch-048_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

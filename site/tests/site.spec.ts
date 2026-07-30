@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/107 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/109 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 181 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 184 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4412,4 +4412,86 @@ test("Batch 047 publishes the 99th Infantry pathway and keeps nine names unresol
     );
     expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b/);
   }
+});
+
+test("Batch 048 separates immediate military pathways, civilian employers, and earlier affiliations", async ({
+  page,
+}) => {
+  await page.goto("./people/fe42994f-c24f-5ccd-877f-d4f19ce8339f/");
+  await expect(
+    page.getByRole("heading", { name: "Moses Abrahamovitz", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "National Bureau of Economic Research",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "War Production Board", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Moses Abramovitz", { exact: false }).first()).toBeVisible();
+
+  await page.goto("./people/d1d45462-bcb9-52d7-9744-8424b27d6480/");
+  await expect(
+    page.getByRole("heading", { name: "Albert Abrahamson", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "National Refugee Service", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Bowdoin College", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/06b73b73-212c-5b38-8b59-eea4cb7ee257/");
+  await expect(
+    page.getByRole("heading", { name: "Allen Abrams", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Marathon Corporation", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/38c62333-9630-5fe8-a014-401f8f1350a0/");
+  await expect(
+    page.getByRole("heading", { name: "Vincent A Abrignani", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText(
+    "No reviewed claim currently meets the publication threshold.",
+  );
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "71st Infantry Regiment, New York National Guard",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b/);
 });
