@@ -93,11 +93,11 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30531099578](https://github.com/therealjameswilson/before-oss/actions/runs/30531099578)
+[30534966173](https://github.com/therealjameswilson/before-oss/actions/runs/30534966173)
 and GitHub Pages deployment
-[30531099589](https://github.com/therealjameswilson/before-oss/actions/runs/30531099589)
-for Abbott-through-Achin archival-pathways Batch 050 release
-`1572530`
+[30534966224](https://github.com/therealjameswilson/before-oss/actions/runs/30534966224)
+for Ackelmire-through-Acord archival-pathways Batch 051 release
+`8c36046`
 completed
 successfully.
 
@@ -107,18 +107,18 @@ tested targets:
 
 - the home page;
 - the personnel directory;
-- Victor J. Abbott, Robert V. Abee, Arthur A. Abel, Calvin J. Abel, John C.
-  Abel, James D. Abernathy, James K. Abney, John H. Achenbach, Edward C.
-  Acheson, and Paul P. Achin;
+- John G. Ackelmire, Mignon S. Acker, Walter W. Acker, Eugene L. Ackerman,
+  Moris Ackerman, Benjamin R. Ackerson, Julia E. Ackert, Barbara H. Ackles,
+  Lester W. Ackley, and Joe F. Acord;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 329
+The live statistics report 23,978 source rows, 23,941 person entities, 339
 people with non-planned research attempts, 184 verified-affiliation people, 109
-verified-employer people, 276 archival-review assessments, 614 published
+verified-employer people, 286 archival-review assessments, 614 published
 claims, and 505 public source records. The live personnel, organizations,
 affiliations, and sources downloads contain 23,941, 220, 367, and 505 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
