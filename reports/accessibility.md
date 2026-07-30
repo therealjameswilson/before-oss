@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 210 / 210 browser cases.**
+**PASS - 213 / 213 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -471,6 +471,16 @@ pathway, including distinct immediate-affiliation and last-civilian-employer
 sections, claim-level citations, confidence qualifications, and field-level
 serial masking. The complete desktop, phone, and tablet matrix passed 210 / 210
 with no remaining assertion or serious/critical axe failure.
+
+The Batch 056 regression checks ten newly completed profiles from George W.
+Adelman through Carmen G. Adkisson. It verifies nine Box 4 archival routes,
+Sonia Adelson's corrected normalized name while preserving the printed `P-2`
+cell, and Burton Wilbur Adkinson's qualified University of Washington
+employment claim. The test confirms that the university is not presented as
+his immediate pre-OSS affiliation and that Dean J. Adinamis's low-confidence
+Fitzsimons lead remains outside published facts. The complete desktop, phone,
+and tablet matrix passed 213 / 213 with no remaining assertion or
+serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

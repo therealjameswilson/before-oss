@@ -24,6 +24,12 @@ assets are generated projections.
 | `api_usage_monthly` | One adapter-month | Persistent successful and failed request counts |
 | `page_qa` | One PDF page | Row counts, anomaly flags, render path, and visual review state |
 
+`research/parser_visual_review_decisions.json` is a versioned replay artifact
+for the 70 visually audited pages. It records 64 matching-page decisions and
+six row-specific normalized-field corrections, together with the frozen PDF
+hash, expected raw cells, reviewer, timestamps, and notes. Import refuses a
+correction if its page-row coordinate or raw values have changed.
+
 `research/adapter_attempt_checkpoints.json` is a versioned, sanitized replay
 projection rather than the authoritative database. Its column-oriented arrays
 preserve stable attempt/candidate IDs, request fingerprints, outcome metadata,
@@ -47,6 +53,7 @@ and then replays later evidence bundles in numeric order.
 | `commissioned_officer` | True, false, or indeterminate |
 | `parser_confidence` | Parser assessment from 0 to 1 |
 | `requires_visual_review` | Parser-warning flag |
+| `visual_review_status` | Not reviewed, matched, corrected, or unresolved visual decision |
 | `entity_resolution_status` | Link/review state independent of the person entity |
 
 Personnel categories distinguish Army, Navy, Coast Guard, and Marine Corps

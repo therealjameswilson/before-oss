@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 379 people with a non-planned attempt | 23,941 person entities | 1.5831% |
+| Research-attempt coverage | 389 people with a non-planned attempt | 23,941 person entities | 1.6248% |
 | Verified-affiliation coverage | 186 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7769% |
 | Verified-employer coverage | 111 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4636% |
-| Archival-review coverage | 326 people with an individual file-access/priority assessment | 23,941 person entities | 1.3617% |
+| Archival-review coverage | 336 people with an individual file-access/priority assessment | 23,941 person entities | 1.4035% |
 
 ## Extraction and identity
 
@@ -22,36 +22,36 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 15
-- Identity status `high_confidence`: 230
+- Identity status `high_confidence`: 231
 - Identity status `probable`: 10
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,672
+- Identity status `unresolved`: 23,671
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,628
+- Unknown or indeterminate: 16,622
 - Enlisted Army personnel: 3,459
 - Commissioned Army officers: 2,061
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 5
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,451
+- Civilian professional or administrative grades: 1,457
 - Foreign or Allied military personnel: 244
 - Enlisted naval personnel: 48
 - Commissioned naval officers: 39
 - Warrant officers: 4
 
-Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
+Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,562
+- `not_started`: 23,552
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
-- `documented_prewar_employer_found`: 17
+- `documented_prewar_employer_found`: 18
 - `occupation_only_found`: 20
-- `requires_archival_review`: 139
+- `requires_archival_review`: 148
 - `completed`: 29
 - `verified_employer_found`: 113
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 108
+- Reviewed-web terminal-protocol attempts recorded: 118
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 249 across 235 people; 12 additional
+- Saved `source_reviewed` outcomes: 250 across 236 people; 13 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,403
+- Total recorded attempts/plans: 1,413
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 228; 218 have at least one public-eligible
+- People with saved reviewed claims: 230; 219 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -173,11 +173,19 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   of Natural History documented as his last civilian employer before a 1944
   Army draft; the Army-to-OSS sequence remains medium-confidence pending Box 4.
   The other nine profiles remain unresolved and route to Box 4 review.
-- Published affiliations: 370
-- Database claims: 633; public-eligible claims: 620 (90 confirmed, 477 high, 53
-  medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 625; public source export: 514; unique source documents: 490
-- Canonical organizations: 221 private and 220 public
+  Batch 056 additionally reviewed George W. Adelman, Ivan J. Adels, Ruth M.
+  Adels, Sonia Adelson, Dean J. Adinamis, John C. Adison, Glenn J. Adkins,
+  Robert S. Adkins, Burton W. Adkinson, and Carmen G. Adkisson. Burton Wilbur
+  Adkinson is a high-confidence identity; the University of Washington is
+  published only as his medium-confidence last documented civilian employer,
+  not as an immediate pre-OSS affiliation. A wartime Fitzsimons General
+  Hospital roster remains a withheld low-confidence lead for Dean J. Adinamis.
+  The other nine profiles route to Box 4 review.
+- Published affiliations: 371
+- Database claims: 636; public-eligible claims: 622 (90 confirmed, 478 high, 54
+  medium); 14 low-confidence claims concerning 11 people are withheld
+- Citation records: 639; public source export: 518; unique source documents: 494
+- Canonical organizations: 222 private and 220 public
 - Conflicts: 0
 - NARA pull-list rows: 23,865
 
@@ -281,6 +289,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-second-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-and-duke-pathway_batch-053_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-archival-pathways_batch-054_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-through-adeling-pathways_batch-055_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-third-page-adelman-through-adkisson-pathways_batch-056_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

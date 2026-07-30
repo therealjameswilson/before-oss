@@ -2,15 +2,15 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **43 / 43 passed**
+- Python unit tests: **46 / 46 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **210 / 210 passed**
+- Browser and accessibility suite: **213 / 213 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`6babd7db474ad1c79695079d6dd59ef1cf3fe204943cde5ad702940a12849297`)
+  (`101fa2155712b5c92f37fe9b2bdba5540aae4b5784b0edaa3dbc2588212f4cc0`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,10 +19,10 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,249**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **514** public records representing **490** unique documents
-- Published, qualified affiliations: **370**
-- Published claims: **620**
-- Withheld low-confidence evidence: **13 claims concerning 10 people**
+- Reviewed public sources: **518** public records representing **494** unique documents
+- Published, qualified affiliations: **371**
+- Published claims: **622**
+- Withheld low-confidence evidence: **14 claims concerning 11 people**
 - Verified-affiliation metric: **186** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **111** people with confirmed/high published
@@ -53,6 +53,13 @@ response bodies, or private notes. Twenty-two tracked review decisions replay
 before later evidence bundles, so completed review outcomes supersede earlier
 discovery-stage decisions. A clean temporary checkout now produces the
 identical public content-tree hash recorded above.
+
+The Batch 056 parser audit identifies six rows whose civilian grade is printed
+in the source table's middle-initial column while the rank cell is blank. All
+six rendered pages were inspected at original detail. Raw cells remain
+unchanged; only normalized names, grades, and personnel categories are
+corrected. The tracked visual-review bundle replays 64 matching-page decisions
+and six row corrections and fails if any expected raw cell drifts.
 
 The metric regression test verifies that student, military, government,
 volunteer, and professional affiliations do not inflate verified-employer
@@ -348,3 +355,13 @@ Nine other common or incomplete-name profiles route to Box 4 review without
 unsupported employer claims. The regression checks all ten profiles across
 three viewports, preserves the immediate-affiliation/last-civilian-employer
 distinction, and confirms field-level service-number masking.
+Batch 056 completes the minimum online protocol for George W. Adelman through
+Carmen G. Adkisson. It publishes Burton Wilbur Adkinson as a high-confidence
+identity and the University of Washington as his medium-confidence last
+documented civilian employer, while explicitly declining to call it his
+immediate pre-OSS affiliation. A wartime Fitzsimons General Hospital roster is
+retained only as a withheld low-confidence lead for Dean J. Adinamis. The other
+nine profiles route to Box 4 review without unsupported employer claims. The
+parser regression also preserves six grades printed in the source table's
+middle-initial column while correcting only normalized names, ranks, and
+personnel categories.

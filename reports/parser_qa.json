@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T12:41:52+00:00",
+  "generated_at": "2026-07-30T13:23:15+00:00",
   "expected_source_rows": 23978,
   "actual_source_rows": 23978,
   "expected_pages": 522,
@@ -557,19 +557,62 @@
     "Z": 148
   },
   "category_counts": {
-    "civilian_professional_or_administrative_grade": 1421,
+    "civilian_professional_or_administrative_grade": 1427,
     "commissioned_army_officer": 2050,
     "commissioned_coast_guard_officer": 1,
     "commissioned_naval_officer": 29,
     "enlisted_army_personnel": 3467,
     "enlisted_naval_personnel": 47,
     "foreign_or_allied_military_personnel": 241,
-    "unknown_or_indeterminate": 16718,
+    "unknown_or_indeterminate": 16712,
     "warrant_officer": 4
   },
-  "warning_row_count": 0,
-  "warning_rows": [],
-  "selected_visual_qa_page_count": 65,
+  "warning_row_count": 6,
+  "warning_rows": [
+    {
+      "source_page": 3,
+      "source_row_number": 4,
+      "source_record_id": "ededb409-271a-504a-983f-651ca91cc02e",
+      "raw_row_text": "Adelson    Sonia          P-2                        4           230/86/26/03",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 28,
+      "source_row_number": 2,
+      "source_record_id": "878efb23-e519-5aa6-99b5-b90aeb19c6be",
+      "raw_row_text": "Beall      Elizabeth    P-1                         44            230/86/27/02",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 337,
+      "source_row_number": 20,
+      "source_record_id": "6d7b5ef3-28fe-5b60-b866-7d7319c4de4b",
+      "raw_row_text": "Nakamura    Chiyeko   Caf-5                     550     230/86/37/04",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 387,
+      "source_row_number": 2,
+      "source_record_id": "3d55ebd6-eb59-5367-9128-1a517b9904e6",
+      "raw_row_text": "Regan        John        P-5                         637            230/86/39/02",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 397,
+      "source_row_number": 23,
+      "source_record_id": "ec5e343c-beb1-54d7-9a91-a1d5effb9911",
+      "raw_row_text": "Rodnick      David     P-4                         654     230/86/39/05",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 398,
+      "source_row_number": 34,
+      "source_record_id": "40ad34e8-3198-55dc-adaf-6f7d23c41d47",
+      "raw_row_text": "Roland     Charlene    P-3                        657     230/86/39/05",
+      "parser_confidence": 0.88
+    }
+  ],
+  "selected_visual_qa_page_count": 70,
   "selected_visual_qa_pages": {
     "1": [
       "first_five"
@@ -578,13 +621,17 @@
       "first_five"
     ],
     "3": [
-      "first_five"
+      "first_five",
+      "parser_warning"
     ],
     "4": [
       "first_five"
     ],
     "5": [
       "first_five"
+    ],
+    "28": [
+      "parser_warning"
     ],
     "50": [
       "deterministic_random_50"
@@ -694,6 +741,9 @@
     "330": [
       "deterministic_random_50"
     ],
+    "337": [
+      "parser_warning"
+    ],
     "345": [
       "deterministic_random_50"
     ],
@@ -705,6 +755,15 @@
     ],
     "381": [
       "deterministic_random_50"
+    ],
+    "387": [
+      "parser_warning"
+    ],
+    "397": [
+      "parser_warning"
+    ],
+    "398": [
+      "parser_warning"
     ],
     "402": [
       "deterministic_random_50"
@@ -770,15 +829,23 @@
   },
   "rendered_page_count": 0,
   "visual_review_status_counts": {
-    "not_selected": 457,
-    "reviewed_matches": 65
+    "not_selected": 452,
+    "reviewed_after_correction": 6,
+    "reviewed_matches": 64
+  },
+  "source_record_visual_review_status_counts": {
+    "not_reviewed": 20792,
+    "reviewed_corrected": 6,
+    "reviewed_matches": 3180
   },
   "checks": {
     "exact_source_row_count": true,
     "all_pdf_pages_represented": true,
     "all_rows_have_location": true,
     "unique_page_row_coordinates": true,
-    "sqlite_integrity": true
+    "sqlite_integrity": true,
+    "all_selected_pages_visually_reviewed": true,
+    "all_warning_rows_visually_resolved": true
   },
   "integrity": {
     "quick_check": "ok",

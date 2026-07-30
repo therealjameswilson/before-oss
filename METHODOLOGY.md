@@ -36,9 +36,15 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-The 65 selected pages were rendered and visually inspected. Parser fixtures
-cover missing first names, initials, suffixes, apostrophes, hyphens, foreign
-notes, civilian grades, military ranks, column shifts, and unfamiliar values.
+The 70 selected pages were rendered and visually inspected. Six civilian-grade
+values are printed in the table's `M I` column while their rank cells are blank:
+Sonia Adelson (`P-2`), Elizabeth Beall (`P-1`), Chiyeko Nakamura (`Caf-5`),
+John Regan (`P-5`), David Rodnick (`P-4`), and Charlene Roland (`P-3`). Their
+raw cells remain unchanged. The normalized names omit the displaced grade, the
+normalized rank and personnel category use it, and every affected row carries a
+parser warning plus a replayable visual-review decision. Parser fixtures cover
+missing first names, initials, suffixes, apostrophes, hyphens, foreign notes,
+civilian grades, military ranks, column shifts, and unfamiliar values.
 
 ## Rows and entities
 
@@ -128,6 +134,12 @@ During a clean rebuild, adapter checkpoints are replayed first, followed by
 their contemporaneous human review decisions and then the reviewed evidence
 bundles in numeric batch order. This preserves chronology: a later completed
 review supersedes an earlier discovery-stage decision.
+
+Parser visual-review decisions are separately preserved in
+`research/parser_visual_review_decisions.json`. The rebuild replays those
+decisions after extraction and before the validation gate, verifies that every
+corrected coordinate still contains the expected raw cells, and then requires
+all selected pages and warning rows to have a terminal visual-review state.
 
 ## Organization normalization
 

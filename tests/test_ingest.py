@@ -2,7 +2,11 @@ from __future__ import annotations
 
 import unittest
 
-from oss_research.ingest import Word, _parse_bbox_row
+from oss_research.ingest import (
+    Word,
+    _normalization_name_middle_and_rank,
+    _parse_bbox_row,
+)
 
 
 class BboxParserTests(unittest.TestCase):
@@ -47,6 +51,25 @@ class BboxParserTests(unittest.TestCase):
         ]
         _, warnings = _parse_bbox_row(words)
         self.assertIn("nonnumeric_box", warnings)
+
+    def test_civilian_grade_printed_in_middle_column_is_normalized_separately(
+        self,
+    ) -> None:
+        words = [
+            Word("Adelson", 72.8, 100.0),
+            Word("Sonia", 141.1, 100.0),
+            Word("P-2", 210.0, 100.0),
+            Word("4", 361.1, 100.0),
+            Word("230/86/26/03", 410.4, 100.0),
+        ]
+        fields, warnings = _parse_bbox_row(words)
+        middle, rank, note = _normalization_name_middle_and_rank(fields)
+        self.assertEqual(fields["middle_initial_raw"], "P-2")
+        self.assertIsNone(fields["rank_raw"])
+        self.assertIsNone(middle)
+        self.assertEqual(rank, "P-2")
+        self.assertIn("raw cells are preserved", note or "")
+        self.assertIn("civilian_grade_printed_in_middle_column", warnings)
 
 
 if __name__ == "__main__":

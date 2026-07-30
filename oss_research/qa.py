@@ -199,6 +199,17 @@ def validate_ingest(
             """
         )
     }
+    source_review_status_counts = {
+        row["visual_review_status"]: row["count"]
+        for row in connection.execute(
+            """
+            SELECT visual_review_status, COUNT(*) AS count
+            FROM source_records
+            GROUP BY visual_review_status
+            ORDER BY visual_review_status
+            """
+        )
+    }
     checks = {
         "exact_source_row_count": total == EXPECTED_SOURCE_ROWS,
         "all_pdf_pages_represented": len(page_counts) == SOURCE_PDF_PAGES,
@@ -219,6 +230,26 @@ def validate_ingest(
         == 0,
         "sqlite_integrity": integrity["quick_check"] == "ok"
         and integrity["foreign_key_error_count"] == 0,
+        "all_selected_pages_visually_reviewed": connection.execute(
+            """
+            SELECT COUNT(*) FROM page_qa
+            WHERE selection_reason IS NOT NULL
+              AND visual_review_status NOT IN (
+                  'reviewed_matches', 'reviewed_after_correction'
+              )
+            """
+        ).fetchone()[0]
+        == 0,
+        "all_warning_rows_visually_resolved": connection.execute(
+            """
+            SELECT COUNT(*) FROM source_records
+            WHERE requires_visual_review = 1
+              AND visual_review_status NOT IN (
+                  'reviewed_matches', 'reviewed_corrected'
+              )
+            """
+        ).fetchone()[0]
+        == 0,
     }
     audit = {
         "generated_at": utc_now(),
@@ -237,6 +268,7 @@ def validate_ingest(
         },
         "rendered_page_count": len(rendered),
         "visual_review_status_counts": review_status_counts,
+        "source_record_visual_review_status_counts": source_review_status_counts,
         "checks": checks,
         "integrity": integrity,
     }
@@ -259,6 +291,10 @@ def validate_ingest(
         f"- Page images rendered in this run: **{len(rendered):,}**.",
         f"- Pages visually reviewed as matching: "
         f"**{review_status_counts.get('reviewed_matches', 0):,}**.",
+        f"- Pages visually reviewed after a normalized-field correction: "
+        f"**{review_status_counts.get('reviewed_after_correction', 0):,}**.",
+        f"- Parser-warning rows visually reviewed and corrected: "
+        f"**{source_review_status_counts.get('reviewed_corrected', 0):,}**.",
         "",
         "## Automated checks",
         "",

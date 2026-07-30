@@ -20,6 +20,7 @@ from .public import build_public_data
 from .review import import_review_decisions
 from .evidence import import_reviewed_evidence
 from .checkpoints import import_adapter_checkpoints
+from .page_reviews import import_page_reviews
 
 
 def _path(value: str) -> Path:
@@ -87,6 +88,8 @@ def parser() -> argparse.ArgumentParser:
     import_evidence.add_argument("evidence_json", type=_path)
     import_checkpoints = sub.add_parser("import-adapter-checkpoints")
     import_checkpoints.add_argument("checkpoint_json", type=_path)
+    import_page_review = sub.add_parser("import-page-reviews")
+    import_page_review.add_argument("review_json", type=_path)
     sub.add_parser("coverage-report")
     sub.add_parser("build-public-data")
     profile_audit = sub.add_parser("audit-profiles")
@@ -265,6 +268,15 @@ def main(argv: list[str] | None = None) -> int:
                 status="completed",
                 processed=total,
                 succeeded=total,
+            )
+        elif args.command == "import-page-reviews":
+            result = import_page_reviews(connection, args.review_json)
+            finish_run(
+                connection,
+                run,
+                status="completed",
+                processed=result["reviewed_pages"],
+                succeeded=result["reviewed_pages"],
             )
         elif args.command == "coverage-report":
             result = coverage_report(connection)

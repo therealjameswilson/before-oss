@@ -6,6 +6,8 @@ cd "$project_dir"
 
 python3 -m oss_research provenance
 python3 -m oss_research ingest --pdf data/source/personnel-database.pdf
+python3 -m oss_research import-page-reviews \
+  research/parser_visual_review_decisions.json
 python3 -m oss_research validate-ingest --pdf data/source/personnel-database.pdf
 python3 -m oss_research build-identities
 python3 -m oss_research create-pilot --size 75 --batch-name pilot-v1

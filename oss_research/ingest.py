@@ -20,7 +20,13 @@ from .constants import (
 )
 from .db import utc_now
 from .models import SourceRecordModel
-from .normalize import classify_personnel, clean, normalize_name, normalize_serial
+from .normalize import (
+    CIVILIAN_GRADE_RE,
+    classify_personnel,
+    clean,
+    normalize_name,
+    normalize_serial,
+)
 
 LOCATION_RE = re.compile(r"^230/\d{2,3}/\d{2}/\d{2}$")
 LOCATION_ANY_RE = re.compile(r"230/\d{2,3}/\d{2}/\d{2}")
@@ -153,7 +159,38 @@ def _parse_bbox_row(words: list[Word]) -> tuple[dict[str, str | None], list[str]
         warnings.append("nonnumeric_box")
     if len(buckets["archive_location_raw"]) != 1:
         warnings.append("location_token_count")
+    if (
+        not fields["rank_raw"]
+        and fields["middle_initial_raw"]
+        and CIVILIAN_GRADE_RE.fullmatch(fields["middle_initial_raw"])
+    ):
+        warnings.append("civilian_grade_printed_in_middle_column")
     return fields, warnings
+
+
+def _normalization_name_middle_and_rank(
+    fields: dict[str, str | None],
+) -> tuple[str | None, str | None, str | None]:
+    """Interpret a grade printed in the source table's M I column.
+
+    The six known affected rows keep their printed raw cells unchanged. Only
+    normalized name and rank fields are corrected, with an explicit audit note.
+    """
+    middle_raw = fields["middle_initial_raw"]
+    rank_raw = fields["rank_raw"]
+    if (
+        not rank_raw
+        and middle_raw
+        and CIVILIAN_GRADE_RE.fullmatch(middle_raw)
+    ):
+        return (
+            None,
+            middle_raw,
+            "The source table prints the civilian grade in the M I column and "
+            "leaves rank blank; raw cells are preserved, while normalized "
+            "fields treat the value as a grade rather than part of the name.",
+        )
+    return middle_raw, rank_raw, None
 
 
 def extract_rows(pdf_path: Path) -> tuple[list[ParsedRow], dict[str, object]]:
@@ -220,11 +257,18 @@ def _to_model(row: ParsedRow, pdf_path: Path, pdf_hash: str, ingested_at: str) -
     last_raw = row.fields["last_name_raw"] or ""
     first_raw = row.fields["first_name_raw"]
     middle_raw = row.fields["middle_initial_raw"]
-    name = normalize_name(last_raw, first_raw, middle_raw)
-    personnel = classify_personnel(
-        row.fields["rank_raw"], row.fields["notes_raw"]
+    name_middle, classification_rank, displaced_grade_note = (
+        _normalization_name_middle_and_rank(row.fields)
     )
-    notes = [value for value in (name.notes, personnel.note) if value]
+    name = normalize_name(last_raw, first_raw, name_middle)
+    personnel = classify_personnel(
+        classification_rank, row.fields["notes_raw"]
+    )
+    notes = [
+        value
+        for value in (name.notes, personnel.note, displaced_grade_note)
+        if value
+    ]
     box_raw = row.fields["box_raw"]
     stable_name = f"{pdf_hash}:{row.page}:{row.row}"
     source_id = str(uuid.uuid5(SOURCE_NAMESPACE, stable_name))

@@ -4840,3 +4840,88 @@ test("Batch 055 publishes Kenneth Addicott's qualified museum-to-Army pathway an
     page.locator(".index-record").first().locator("dd").nth(2),
   ).toHaveText(/^(Not printed|••••\d{4})$/);
 });
+
+test("Batch 056 publishes Burton Adkinson's qualified university role, corrects Sonia Adelson's normalized name, and preserves nine archival cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["7a02160d-6ed8-55ed-a161-b61b5d12a038", "George W Adelman"],
+    ["4210a353-de81-5116-aa10-f524e35f3289", "Ivan J Adels"],
+    ["190ca40e-d78b-52dc-94fe-09e8d4b0d525", "Ruth M Adels"],
+    ["4e7dd907-82f6-55be-aa57-fc8f83c4b856", "Sonia Adelson"],
+    ["edf8ab5d-3c41-56ef-a28b-3e1259e0f367", "Dean J Adinamis"],
+    ["9094f471-2cd5-563f-8616-94ad5d74e86c", "John C Adison"],
+    ["808803cf-80aa-525b-9c82-f9729760a582", "Glenn J Adkins"],
+    ["12715fea-b544-5d75-8d5f-ed81e21a7dd4", "Robert S Adkins"],
+    ["9242df8a-bd16-57ab-90be-9b5dc025ebbf", "Carmen G Adkisson"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("4", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/4e7dd907-82f6-55be-aa57-fc8f83c4b856/");
+  await expect(
+    page.getByRole("heading", { name: "Sonia Adelson", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".profile-aside")).toContainText(
+    "civilian professional or administrative grade",
+  );
+  await expect(page.locator(".index-record").first()).toContainText(
+    "Adelson | Sonia | P-2",
+  );
+
+  await page.goto("./people/a0aa49cd-76c2-53dd-ac35-1165231cd008/");
+  await expect(
+    page.getByRole("heading", { name: "Burton W Adkinson", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByText("documented prewar employer found", { exact: true })
+      .first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "University of Washington",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).toContainText(
+    "last documented civilian employer found before his wartime OSS service",
+  );
+  await expect(page.locator("body")).toContainText(
+    "University of Washington General Catalog, 1942-1943",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Assistant Chief of the Map Intelligence Section",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^(Not printed|••••\d{4})$/);
+
+  await page.goto("./people/edf8ab5d-3c41-56ef-a28b-3e1259e0f367/");
+  await expect(page.locator("body")).toContainText(
+    "whether the Fitzsimons T/5 is Dean J. Adinamis",
+  );
+  await expect(page.locator("body")).not.toContainText(
+    "T/5 Dean Adinamis",
+  );
+});
