@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **189 / 189 passed**
+- Browser and accessibility suite: **192 / 192 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`3f385c55506f0eef6f866d74a2815a491e24742c1e7c4172e1e3d8102e5af689`)
+  (`6138b13fc4daed4ca230d80a3a5fc4ee7c14d64d361c7de295621c004f339986`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -279,3 +279,10 @@ rows receive terminal, box-specific archival-review outcomes after the minimum
 protocol. The regression checks the four published pathways across three
 viewports, preserves indexed spellings and confidence qualifications, and
 continues full service-number masking.
+Batch 049 preserves the visually verified but incomplete `Caf-3 E Aaberg`
+index form and routes it to critical Box 1 review. Nine additional common-name
+or spelling-sensitive entries receive terminal archival-review outcomes after
+official, CIA, exact-name, employment, occupation, obituary, directory,
+newspaper, and archival checks. The regression checks all ten profiles across
+three viewports, keeps rejected namesakes out of public claims, and verifies
+field-level service-number masking.

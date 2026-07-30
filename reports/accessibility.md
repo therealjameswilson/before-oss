@@ -416,5 +416,14 @@ without claiming it was immediately pre-OSS. The complete desktop, phone, and
 tablet matrix passed 189 / 189 with no remaining assertion or
 serious/critical axe failure.
 
+The Batch 049 regression updates the research-attempt and archival-review
+assertions and checks the ten newly completed Box 1 profiles. It preserves the
+unusual printed `Caf-3 E Aaberg` form without inventing a given name, keeps
+rejected Frank, Floyd, Frederick, James, and Norman namesakes out of public
+claims, verifies the approved unresolved-employer wording, and reads the
+redaction state from each Serial field. The complete desktop, phone, and
+tablet matrix passed 192 / 192 with no remaining assertion or serious/critical
+axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

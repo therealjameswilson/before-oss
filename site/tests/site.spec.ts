@@ -4495,3 +4495,43 @@ test("Batch 048 separates immediate military pathways, civilian employers, and e
   ).toBeVisible();
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b/);
 });
+
+test("Batch 049 preserves an incomplete printed name and routes ten unresolved common-name cases to Box 1", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["611c81b3-54a7-5c1a-a233-6c6b9581ef5a", "Caf-3 E Aaberg"],
+    ["0a389c36-5a98-5e04-9053-d608250a5f56", "Frank Abbote"],
+    ["d315b651-4752-55ba-b732-6df89544609e", "John A Abbote"],
+    ["3ffe31e6-0f44-5270-b7cf-c688ebc7d1f2", "Delbert H Abbott"],
+    ["beec8347-ccd6-50df-87d9-07e07622fb7a", "Floyd H Abbott"],
+    ["05ec6d1d-2196-59b9-8a64-4dc15c0e2fcc", "Frederick K Abbott"],
+    ["324f3b70-e14c-5391-bc98-cff4f2605d7a", "James E Abbott"],
+    ["73e33700-fdae-5574-879a-17b36c017efc", "James F Abbott"],
+    ["29abc44d-1bd9-52be-a4ef-d32d07d3841c", "Norman Abbott"],
+    ["58e53125-1044-5ff9-937a-b0fc08fe8629", "Robert J Abbott"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(page.locator("body")).toContainText("Box 1");
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/611c81b3-54a7-5c1a-a233-6c6b9581ef5a/");
+  await expect(page.locator("body")).toContainText(
+    "Aaberg | Caf-3 | E",
+  );
+  await expect(
+    page.getByText("critical", { exact: true }).first(),
+  ).toBeVisible();
+});
