@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/113 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/114 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 190 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 191 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5498,6 +5498,108 @@ test("Batch 062 publishes Albarranc's qualified identity evidence and preserves 
   await expect(
     page.locator(".index-record").first().locator("dd").nth(1),
   ).toHaveText("Capt");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText("Not printed");
+});
+
+test("Batch 063 publishes Albrecht's documented law-firm role while preserving nine archival pathways", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["279b4039-5923-592a-b7b1-8d6ea1b473d6", "Cecil V Albertsen", "7"],
+    ["e962edf9-0d6e-54ae-97b8-280b423ba703", "Glen H Albertsen", "7"],
+    ["a18dbffe-b1eb-5a6d-9879-c3655ddfac9f", "Esther M Albertus", "7"],
+    ["22c74862-09a5-5164-83a5-cbef06415b6d", "Roy R Albin", "7"],
+    ["6d30ca3c-3d2c-5448-b977-ed5bf4b06237", "Marion L Albinson", "7"],
+    ["58432fd4-bec7-561d-a3a0-71fdf04f65e1", "Eric Albrecht", "7"],
+    ["823cb958-8c06-5f9a-bb58-0efe08212ca1", "William T Albrecht", "8"],
+    ["e7392c33-f858-5d66-b1c3-2c1a2e084ab7", "Walter B Albright", "8"],
+    ["200fa6cd-d394-5224-8583-44d8fddfcf15", "William D Albright", "8"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(terminalProfile[2], { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/279b4039-5923-592a-b7b1-8d6ea1b473d6/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "probably represents the man of that exact name listed on a Ritchie Boys roster",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "The Ritchie Boys: A-C (Surnames)",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.theritchieboys.com/complete-roster/a-c-surnames",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("T/Sgt");
+
+  await page.goto("./people/ba7fd863-ee1b-5753-b44f-c0df874bb178/");
+  await expect(
+    page.getByRole("heading", { name: "Ralph G Albrecht", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Peaslee, Brigham & Albrecht",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "Office of Naval Intelligence",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "does not resolve whether the ONI assignment preceded or overlapped OSS service",
+  );
+  await expect(
+    page.getByRole("link", { name: "In re Koch", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.leagle.com/decision/1940359116f2d2431297",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Radio Warfare: OSS and CIA Subversive Propaganda",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.worldradiohistory.com/BOOKSHELF-ARH/History/Radio-Warfare-L-Soley-1989.pdf",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("LT COM");
   await expect(
     page.locator(".index-record").first().locator("dd").nth(2),
   ).toHaveText("Not printed");

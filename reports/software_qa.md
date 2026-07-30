@@ -5,27 +5,33 @@ Run: 2026-07-30 UTC
 - Python unit tests: **47 / 47 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,171 pages**
-- Internal link check: **24,171 HTML files passed**
-- Browser and accessibility suite: **231 / 231 passed**
+- Static production build: **24,172 pages**
+- Internal link check: **24,172 HTML files passed**
+- Browser and accessibility suite: **234 / 234 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`428bd6f630334ee1fe9e4e6ae7068cb5c20c4e7d0800950dc353742dc6532257`)
+  (`af15c1cc1f9581a254c45dc6f19b4a773b8532dd0db6a87ba66a8510b46572f9`)
+- Clean-checkout replay: **byte-for-byte identical** public and generated data
+  after rebuilding the source PDF, page reviews, checkpoints, review decisions,
+  and all 63 evidence batches
 - Public redaction build: **passed**
+- Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
+  manifest SHA-256
+  `e366382afd6657d3ebe1bfb6acd293a52fa93c0872c4492320012769c28344cf`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,251**
+  numbers at least six characters long: **0 full-number matches** in **24,252**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **544** public records representing **512** unique documents
-- Published, qualified affiliations: **379**
-- Published claims: **642**
+- Reviewed public sources: **553** public records representing **520** unique documents
+- Published, qualified affiliations: **381**
+- Published claims: **646**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
-- Verified-affiliation metric: **190** people with confirmed/high published
+- Verified-affiliation metric: **191** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **113** people with confirmed/high published
+- Verified-employer metric: **114** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -439,3 +445,15 @@ employment-focused, and archival searches and route to their indexed Box 7
 files. The regression checks all ten profiles, Albarranc's high-confidence
 identity evidence and French archival route, the preserved printed `Strone`
 spelling, and field-level service-number masking across three viewports.
+Batch 063 completes the minimum online protocol for Cecil V. Albertsen through
+William D. Albright. It publishes a qualified probable identity for Cecil V.
+Albertsen without converting a Ritchie Boys roster entry into an employer.
+For Ralph G. Albrecht, a contemporary federal decision supports Peaslee,
+Brigham & Albrecht as the best-documented last civilian employer; a scholarly
+history supports an ONI pathway only with medium confidence and explicit
+uncertainty about whether ONI preceded or overlapped OSS. The profile also
+preserves the rank discrepancy for archival review. The other eight profiles
+remain unresolved or ambiguous, and nine of the ten batch profiles route to
+their indexed Box 7 or Box 8 files. The regression checks all ten profiles,
+source links, organization routing, rank preservation, and field-level
+service-number masking across three viewports.
