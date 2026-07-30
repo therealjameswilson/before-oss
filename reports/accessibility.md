@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 252 / 252 browser cases.**
+**PASS - 255 / 255 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -610,6 +610,14 @@ commissioned naval classification, rejects the inaccessible teaching lead as a
 public fact, and verifies field-level serial masking. The complete desktop,
 phone, and tablet matrix passed 252 / 252 with no remaining assertion or
 serious/critical axe failure.
+
+The Batch 070 regression checks the contiguous Carol F. Allen-through-Hanceford
+D. Allen sequence on PDF page six. It verifies ten dignified Box 10
+archival-review outcomes; commissioned, enlisted, civilian-grade, and
+indeterminate personnel classifications; the preserved unusual `Desrae`
+spelling; actionable file-review guidance; and field-level serial masking.
+The complete desktop, phone, and tablet matrix passed 255 / 255 with no
+remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

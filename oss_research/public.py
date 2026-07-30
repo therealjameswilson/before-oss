@@ -22,15 +22,12 @@ PUBLIC_ROOT = SITE_ROOT / "public"
 GENERATED_ROOT = SITE_ROOT / "src" / "data" / "generated"
 FULL_SERIAL_RE = re.compile(r"^[A-Z]{0,3}\d{5,10}$")
 PUBLIC_TIMESTAMP_COLUMNS = {
-    "source_records": ("ingested_at",),
-    "person_entities": ("created_at", "updated_at"),
-    "person_source_links": ("created_at",),
-    "organizations": ("created_at", "updated_at"),
-    "sources": ("created_at",),
-    "affiliations": ("created_at", "updated_at"),
-    "claims": ("created_at", "updated_at"),
+    # These dates come from reviewed evidence bundles and research attempts.
+    # Database bookkeeping timestamps such as created_at, updated_at, and
+    # ingested_at are intentionally excluded because a clean replay assigns
+    # them afresh even when the historical research content is unchanged.
+    "sources": ("access_date",),
     "research_attempts": ("started_at", "completed_at"),
-    "research_queue": ("updated_at",),
 }
 
 

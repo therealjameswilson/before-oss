@@ -6148,3 +6148,59 @@ test("Batch 069 publishes Algrant's qualified 1941 Kolynos evidence and routes n
     page.getByRole("link", { name: "Victor Algrant", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 070 routes the contiguous Carol F Allen through Hanceford D Allen sequence to Box 10 review", async ({
+  page,
+}) => {
+  const terminalProfiles = [
+    ["ac953480-aeef-5daa-b318-0ed49e90bfda", "Carol F Allen"],
+    ["6903433c-6412-51d1-8b84-88d7a6b269d1", "Charles L Allen"],
+    ["b51d7472-5509-59cb-96ee-a8a14e9ea496", "Desrae M Allen"],
+    ["cf662ef0-3af6-5ed1-92a6-41e27c53f901", "Edward W Allen"],
+    ["6e22c576-df04-58db-9715-43870771cbab", "Elisa M Allen"],
+    ["a6cad3a2-9054-5f90-886a-2c4da6ca6c61", "Everett T Allen"],
+    ["a1f013a2-738f-5583-91f5-33886216ca4b", "Franklin G Allen"],
+    ["0315f576-4256-5bef-b6e2-4e660f141d71", "Gilbert Allen"],
+    ["e0574e79-7c5f-5fda-aae2-f0f3ed1fe53f", "Guy D Allen"],
+    ["861237a0-e5a8-5de0-8bf6-cf6669844519", "Hanceford D Allen"],
+  ];
+
+  for (const [personId, displayName] of terminalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("10", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/a6cad3a2-9054-5f90-886a-2c4da6ca6c61/");
+  await expect(page.locator("body")).toContainText("commissioned army officer");
+  await expect(page.locator("body")).toContainText(
+    "official officer records for Everett T. Allen",
+  );
+
+  await page.goto("./people/a1f013a2-738f-5583-91f5-33886216ca4b/");
+  await expect(page.locator("body")).toContainText("commissioned army officer");
+  await expect(page.locator("body")).toContainText(
+    "test the 9th Infantry Division namesake",
+  );
+
+  await page.goto("./people/861237a0-e5a8-5de0-8bf6-cf6669844519/");
+  await expect(page.locator("body")).toContainText(
+    "distinguish the Florida namesakes",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
+});

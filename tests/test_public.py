@@ -30,13 +30,21 @@ class PublicProjectionTests(unittest.TestCase):
                 created_at TEXT NOT NULL,
                 updated_at TEXT NOT NULL
             );
+            CREATE TABLE sources (
+                access_date TEXT NOT NULL,
+                created_at TEXT NOT NULL
+            );
             CREATE TABLE research_attempts (
                 started_at TEXT NOT NULL,
                 completed_at TEXT
             );
             INSERT INTO person_entities VALUES (
                 '2026-01-02T03:04:05+00:00',
-                '2026-01-03T03:04:05+00:00'
+                '2026-02-03T03:04:05+00:00'
+            );
+            INSERT INTO sources VALUES (
+                '2026-01-04',
+                '2026-02-04T03:04:05+00:00'
             );
             INSERT INTO research_attempts VALUES (
                 '2026-01-04T03:04:05Z',

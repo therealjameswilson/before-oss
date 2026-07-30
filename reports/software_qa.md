@@ -7,18 +7,18 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,185 pages**
 - Internal link check: **24,185 HTML files passed**
-- Browser and accessibility suite: **252 / 252 passed**
+- Browser and accessibility suite: **255 / 255 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`0c810d23513928c94ce4e212f332c6349bb6c085ba1d62fd1d73c26e5dc53f9b`)
+  (`500a463eee644f69a49cc442001789a619b34db5adfde5a6a7d6de1998ec4f9b`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 70 evidence files: **75 / 75 tracked
+  checkpoints, review decisions, and all 71 evidence files: **75 / 75 tracked
   public and generated files matched**.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `6dec22f826361dadeff720c0f1f10ede98f058647fb6a4b8603fe14da68960e8`
+  `f5c2737ed5fce4becf9ac3b8e74bdfc6e78bbf99df4b6e21e712ae58173da8e4`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -531,3 +531,20 @@ regression checks all ten profiles, the Kolynos organization route, temporal
 qualification, commissioned/enlisted/civilian classification distinctions,
 citation access, archival routing, and field-level service-number masking
 across three viewports.
+Batch 070 completes the minimum online protocol for Carol F. Allen through
+Hanceford D. Allen on PDF page six. All ten profiles remain unresolved after
+the staged official, exact-name, employment, obituary, newspaper, directory,
+and archival protocol and route to Box 10 review. Rejected same-name candidates
+remain private review evidence rather than public facts. The regression checks
+the ten direct routes, dignified unresolved language, personnel
+classifications, actionable file-review guidance, preserved indexed spelling,
+and field-level service-number masking across three viewports.
+
+The Batch 070 clean replay also exposed that public snapshot timestamps were
+derived partly from database `created_at`, `updated_at`, and `ingested_at`
+bookkeeping fields. Those fields necessarily change during a fresh import even
+when the reviewed historical content is identical. Public snapshot time is now
+derived only from durable source-access and research-attempt dates. A
+regression test supplies later volatile bookkeeping timestamps and verifies
+that they do not affect the public value. Consecutive production builds and
+the complete clean-checkout replay are now byte-for-byte identical.

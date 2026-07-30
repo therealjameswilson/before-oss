@@ -329,3 +329,13 @@ local files byte-for-byte. The deployed and local manifest SHA-256 is
 A field-aware comparison of all 12,931 digit-bearing normalized private
 identifiers against 83 live HTML, data, compressed-mirror, and download
 artifacts returned zero unexpected full-number matches.
+
+## Batch 070 local release check
+
+The rebuilt site contains direct, internally resolved routes for Carol F.
+Allen, Charles L. Allen, Desrae M. Allen, Edward W. Allen, Elisa M. Allen,
+Everett T. Allen, Franklin G. Allen, Gilbert Allen, Guy D. Allen, and Hanceford
+D. Allen. Each profile preserves its printed page-six provenance, routes to
+Box 10, and states the unresolved employment outcome without promoting an
+uncorroborated namesake. The complete local link checker passed all 24,185 HTML
+files and inventoried 48,456 unique external URLs.
