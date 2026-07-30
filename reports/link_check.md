@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,163 HTML files. Every relative
+**PASS.** The production build contains 24,164 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 214 organization profiles, and the
+The build includes 23,941 person profiles, 215 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,373 unique external URLs for separate live
+The checker inventoried 48,376 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -69,6 +69,8 @@ verification; external responses do not affect the internal-route pass.
 | NARA JFK record 104-10104-10339, Marshall Wilson Houts | HTTP 200; all three pages rendered and visually inspected |
 | USC Shoah Foundation, “Women at Nuremberg: Jane Lester” | Reviewed through the research browser |
 | Wittman and Kinney, *The Devil's Diary* ebook preview | Reviewed through the research browser; short supporting excerpt only |
+| Denver Public Library, *10th Mountain Division Name Index* | HTTP 200; Aanonsen entry visually inspected on rendered PDF page 2 |
+| Casemate Publishers, *Among the Firsts* | HTTP 200; publisher landing page for the cited scholarly history |
 | Marine Corps University, “The ‘Scholastic’ Marine Who Won a Secret War” | Reviewed through the research browser; command-line request returned HTTP 403 |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |

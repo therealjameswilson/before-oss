@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 289 people with a non-planned attempt | 23,941 person entities | 1.2071% |
-| Verified-affiliation coverage | 180 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7518% |
+| Research-attempt coverage | 299 people with a non-planned attempt | 23,941 person entities | 1.2489% |
+| Verified-affiliation coverage | 181 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7560% |
 | Verified-employer coverage | 107 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4469% |
-| Archival-review coverage | 236 people with an individual file-access/priority assessment | 23,941 person entities | 0.9858% |
+| Archival-review coverage | 246 people with an individual file-access/priority assessment | 23,941 person entities | 1.0275% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 14
-- Identity status `high_confidence`: 225
+- Identity status `high_confidence`: 226
 - Identity status `probable`: 9
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,679
+- Identity status `unresolved`: 23,678
 
 ## Personnel categories
 
@@ -45,14 +45,14 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,652
+- `not_started`: 23,642
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 16
 - `occupation_only_found`: 20
-- `requires_archival_review`: 55
-- `completed`: 28
+- `requires_archival_review`: 64
+- `completed`: 29
 - `verified_employer_found`: 109
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 18
+- Reviewed-web terminal-protocol attempts recorded: 28
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 242 across 228 people; 12 additional
+- Saved `source_reviewed` outcomes: 243 across 229 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,313
+- Total recorded attempts/plans: 1,323
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 221; 211 have at least one public-eligible
+- People with saved reviewed claims: 222; 212 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -135,11 +135,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   Batch 046 additionally reviewed S. Douglass Cater Jr., Millard A. Copeland,
   Jacques Delmas, Grier Durant, Marshall W. Houts, Shigekata Ikeda, Jane Lester,
   Jackson E. Nordin, Lucille E. Temple, and Dorothy I. Tolley.
-- Published affiliations: 358
-- Database claims: 612; public-eligible claims: 599 (89 confirmed, 461 high, 49
+  Batch 047 additionally reviewed Sigurd J. Aalbu, Olaf H. Aanonsen, Helen G.
+  Abbenante, Charles R. Abele, Herbert A. Abele Jr., Norman W. Abendschein,
+  Michael K. Abraham, Alexander A. Abromaitis, Salvatore H. Acampora, and John
+  Achelis.
+- Published affiliations: 359
+- Database claims: 614; public-eligible claims: 601 (89 confirmed, 463 high, 49
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 517; public source export: 489; unique source documents: 469
-- Canonical organizations: 215 private and 214 public
+- Citation records: 529; public source export: 492; unique source documents: 472
+- Canonical organizations: 216 private and 215 public
 - Conflicts: 0
 - NARA pull-list rows: 23,869
 
@@ -232,6 +236,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-scholarship-m
 python3 -m oss_research import-reviewed-evidence research/evidence-employment-transitions-and-terminal-reviews_batch-044_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-terminal-protocol-and-allied-pathways_batch-045_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-student-employment-and-terminal-protocol_batch-046_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-first-page-military-and-terminal-protocol_batch-047_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

@@ -668,7 +668,7 @@ def import_reviewed_evidence(
                         *(str(value) for value in current_variants),
                         *(str(value) for value in (update.name_variants or [])),
                     },
-                    key=str.casefold,
+                    key=lambda value: (value.casefold(), value),
                 )
                 if update.name_variants is not None
                 else current_variants

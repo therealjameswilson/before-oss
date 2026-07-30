@@ -434,6 +434,55 @@ institutional biography dates Ancergues's BCRA volunteer entry to 1 February
 1944; the profile preserves that distinction and routes the formal
 BCRA/SIS/OSS administrative relationship to paired NARA and SHD file review.
 
+## Reviewed student, employment, and terminal protocols
+
+The forty-sixth evidence batch reviewed ten indexed people. The Congressional
+Record explicitly places S. Douglass Cater Jr. at Harvard before his education
+was interrupted for OSS service; Harvard is therefore modeled as student
+status, not employment. A reviewed NARA JFK record and contemporary timeline
+support Marshall W. Houts's FBI-to-unemployment-to-Eastern Air Lines-to-Army
+and OSS sequence. Jane Lester's institutional oral history and a short
+published-history excerpt support only the qualified historical wording “a
+brokerage in Buffalo”; no firm name is invented. Seven additional searches
+ended in box-specific archival review after unsupported candidates were
+rejected.
+
+Index PDF pages 74, 92, 112, 128, 217, 223, 274, 344, 462, and 470 were
+rendered and visually checked. The three-page NARA Houts record was also
+rendered and inspected. The evidence bundle stores citation metadata,
+project-authored paraphrases, and short excerpts; it does not retain a NARA API
+response or republish copyrighted pages.
+
+## Reviewed first-page military pathway and terminal protocols
+
+The forty-seventh evidence batch completed bounded protocols for ten records
+on the first printed index page. Denver Public Library's institutional
+*10th Mountain Division Name Index* supplies an exact private-identifier match
+for Olaf H. Aanonsen and places him in Company C, 99th Infantry. Matthew T.
+Bolland's published history independently names Aanonsen among the battalion
+members selected for OSS training. Together they support a high-confidence,
+explicitly immediate military pathway without inventing a civilian employer.
+The source disagreement among PVT, Pfc., and the NARA index's Cpl grade remains
+visible; the public affiliation uses the rank-neutral role “Company C soldier.”
+
+| Indexed record | Decision |
+|---|---|
+| Sigurd J. Aalbu | An aviation-index lead and unsourced genealogy references lacked direct identifiers, OSS context, and employment chronology. Box 1 is required. |
+| Olaf H. Aanonsen | High-confidence identity and immediate Company C, 99th Infantry Battalion assignment; Box 1 remains necessary for the grade sequence, exact transfer date, and last civilian employer. |
+| Helen G. Abbenante | Exact-name and source-specific searches produced no corroborating identity or pre-OSS affiliation. Box 1 is required. |
+| Charles R. Abele | Common-name and modern business candidates lacked direct wartime identifiers. Box 1 is required. |
+| Herbert A. Abele Jr. | A World War I namesake and unsuffixed candidates were rejected. Box 1 and suffix-specific service evidence are required. |
+| Norman W. Abendschein | Postwar Forest Service directories and a relative's 1940 death notice do not establish pre-OSS employment. Box 1 is required. |
+| Michael K. Abraham | Modern and common-name candidates lacked direct identifiers and wartime chronology. Box 1 is required. |
+| Alexander A. Abromaitis | No corroborating official, institutional, newspaper, directory, obituary, or archival source was found. Box 2 is required. |
+| Salvatore H. Acampora | A same-name ABMC record lacks the direct identifier and pre-OSS evidence needed for acceptance. Box 2 is required. |
+| John Achelis | John Fritz Achelis and another namesake lack direct linkage to the indexed enlisted record; Commercial Factors Corporation is not assigned. Box 2 is required. |
+
+The NARA index page 1 and Denver Public Library PDF page 2 were rendered and
+visually inspected. Full service identifiers remain private and are masked from
+public pages and downloads. No live NARA Catalog API request or cached API
+response was involved.
+
 ## Official reference material
 
 - NARA OSS personnel records:

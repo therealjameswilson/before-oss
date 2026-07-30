@@ -235,6 +235,27 @@ class ReviewedEvidenceTests(unittest.TestCase):
         # expected; the assertion protects the import from inventing one.
         self.assertIsNone(link)
 
+    def test_name_variant_order_has_a_deterministic_case_tiebreaker(self) -> None:
+        bundle = self._bundle()
+        bundle["person_updates"][0]["name_variants"] = [
+            "Dewitt Clinton Poole",
+            "DeWitt Clinton Poole",
+        ]
+        path = Path(self.temp_dir.name) / "variant-order-bundle.json"
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+
+        import_reviewed_evidence(self.connection, path)
+
+        variants = json.loads(
+            self.connection.execute(
+                "SELECT name_variants_json FROM person_entities"
+            ).fetchone()[0]
+        )
+        self.assertEqual(
+            variants,
+            ["DeWitt Clinton Poole", "Dewitt Clinton Poole"],
+        )
+
     def test_nara_catalog_id_omission_preserves_and_null_clears(self) -> None:
         original_path = Path(self.temp_dir.name) / "catalog-id-original.json"
         original_path.write_text(json.dumps(self._bundle()), encoding="utf-8")

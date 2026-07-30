@@ -32,5 +32,7 @@ python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 
 cd site
-npm ci
+before_oss_npm_cache="${BEFORE_OSS_NPM_CACHE:-${TMPDIR:-/tmp}/before-oss-npm-cache}"
+mkdir -p "$before_oss_npm_cache"
+npm ci --cache "$before_oss_npm_cache"
 npm run build

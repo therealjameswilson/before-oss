@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/107 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 180 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 181 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4348,5 +4348,68 @@ test("Batch 046 separates student status, a named employer, an earlier governmen
       "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
     );
     await expect(page.locator("body")).not.toContainText("14122318");
+  }
+});
+
+test("Batch 047 publishes the 99th Infantry pathway and keeps nine names unresolved", async ({
+  page,
+}) => {
+  await page.goto("./people/90851873-c347-5a03-a11f-fac184e844ae/");
+  await expect(
+    page.getByRole("heading", { name: "Olaf H Aanonsen", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army, 99th Infantry Battalion (Separate)",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page.getByRole("link", { name: "10th Mountain Division Name Index", exact: true }).first(),
+  ).toHaveAttribute("href", /denverlibrary\.org/);
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Among the Firsts: Lieutenant Colonel Gerhard L. Bolland's Unconventional War",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", /casematepublishers\.com/);
+  await expect(page.locator("body")).toContainText("PVT");
+  await expect(page.locator("body")).toContainText("Pfc.");
+  await expect(page.locator("body")).toContainText("Cpl");
+
+  for (const terminalProfile of [
+    ["f8b9fde8-b58d-5008-a43c-6306f5e79dd8", "Sigurd J Aalbu"],
+    ["c0207d96-2125-5ebe-ba47-1e1fba48c9f7", "Helen G Abbenante"],
+    ["271bfa40-ff5a-5ab2-8382-bc7e02036d7c", "Charles R Abele"],
+    ["ddd74408-e908-507d-b288-cd5cdf380b0e", "Herbert A Abele Jr."],
+    ["010bc8e2-5848-5363-ba32-80e5a119c703", "Norman W Abendschein"],
+    ["cb7a4651-b52c-5555-baee-f5a76dbd104c", "Michael K Abraham"],
+    ["c33df873-b7d9-5f77-aa01-ad5ae4effe3e", "Alexander A Abromaitis"],
+    ["24dc19da-1915-55b1-8331-e3f8b54d3c94", "Salvatore H Acampora"],
+    ["6042194f-2110-58d4-a4ff-0b7f5e9aa6df", "John Achelis"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b/);
   }
 });
