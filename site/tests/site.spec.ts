@@ -4571,3 +4571,45 @@ test("Batch 050 routes ten unresolved Abbott-through-Achin records to their inde
     ).toHaveText(/^(Not printed|••••\d{4})$/);
   }
 });
+
+test("Batch 051 preserves ten unresolved Ackelmire-through-Acord profiles and their Box 2 review paths", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["c1462464-a46c-5e24-b15a-b7b483ccabb7", "John G Ackelmire"],
+    ["90350c1a-b25a-58d4-b08d-32f7943e4f19", "Mignon S Acker"],
+    ["3d951ae3-0734-5e18-97b3-08f369b7db7a", "Walter W Acker"],
+    ["cc204427-a08d-543c-9daa-c325e4fb60cd", "Eugene L Ackerman"],
+    ["bf12e4f7-95bf-57a5-baad-f680ed96eaa3", "Moris Ackerman"],
+    ["c900291b-40fa-5219-adae-3fe78ff6abe9", "Benjamin R Ackerson"],
+    ["d7effc9c-3f36-5e02-ad1c-31d469214fe5", "Julia E Ackert"],
+    ["16ce1e2c-8ee1-520c-b134-da4ff94b747c", "Barbara H Ackles"],
+    ["3d1db48a-f080-5d35-82b1-8d1f8d7fc834", "Lester W Ackley"],
+    ["10010105-b843-5b2c-bd94-081b60bbccc2", "Joe F Acord"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("2", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/c1462464-a46c-5e24-b15a-b7b483ccabb7/");
+  await expect(page.locator("body")).toContainText(
+    "103d Infantry Division officer",
+  );
+  await expect(page.locator("body")).toContainText(
+    "may be treated as pre-OSS without dated linkage",
+  );
+});

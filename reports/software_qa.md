@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **195 / 195 passed**
+- Browser and accessibility suite: **198 / 198 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`35bd4264848adcdf2c2164674e5be345eaf1a2c066eaa5b93b9ca360e8a4f41e`)
+  (`9837af10e5ae86fb0c7491ebaa4d305742ae482e86ea56f57c93a9cd516f6081`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -294,3 +294,13 @@ better-known Achesons, and modern or OCR-only namesakes rather than assigning
 them to the index rows. The regression checks all ten profiles across three
 viewports, preserves the zero-claim outcome, verifies the approved unresolved-
 employer wording, and reads redaction state from each Serial field.
+Batch 051 completes the minimum online protocol for John G. Ackelmire through
+Joe F. Acord and routes all ten files to their indexed Box 2 location. The
+Ackelmire row has no printed rank or service identifier, so a documented
+103d Infantry Division officer and postwar Indianapolis journalist remains an
+unlinked candidate rather than an OSS identity match. The batch also rejects
+age-incompatible, common-name, postwar-only, genealogy-only, sensitive, and
+foreign namesakes without retaining their irrelevant private details. The
+regression checks all ten profiles across three viewports, preserves the
+zero-claim outcome, verifies the approved unresolved-employer wording, and
+reads redaction state from each Serial field.
