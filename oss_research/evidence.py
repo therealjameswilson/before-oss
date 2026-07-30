@@ -738,7 +738,7 @@ def import_reviewed_evidence(
                     ),
                     (
                         update.nara_catalog_id
-                        if update.nara_catalog_id is not None
+                        if "nara_catalog_id" in update.model_fields_set
                         else current["nara_catalog_id"]
                     ),
                     (

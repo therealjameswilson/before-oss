@@ -235,6 +235,40 @@ class ReviewedEvidenceTests(unittest.TestCase):
         # expected; the assertion protects the import from inventing one.
         self.assertIsNone(link)
 
+    def test_nara_catalog_id_omission_preserves_and_null_clears(self) -> None:
+        original_path = Path(self.temp_dir.name) / "catalog-id-original.json"
+        original_path.write_text(json.dumps(self._bundle()), encoding="utf-8")
+        import_reviewed_evidence(self.connection, original_path)
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT nara_catalog_id FROM person_entities"
+            ).fetchone()[0],
+            "12345",
+        )
+
+        omitted_bundle = self._bundle()
+        del omitted_bundle["person_updates"][0]["nara_catalog_id"]
+        omitted_path = Path(self.temp_dir.name) / "catalog-id-omitted.json"
+        omitted_path.write_text(json.dumps(omitted_bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, omitted_path)
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT nara_catalog_id FROM person_entities"
+            ).fetchone()[0],
+            "12345",
+        )
+
+        cleared_bundle = self._bundle()
+        cleared_bundle["person_updates"][0]["nara_catalog_id"] = None
+        cleared_path = Path(self.temp_dir.name) / "catalog-id-cleared.json"
+        cleared_path.write_text(json.dumps(cleared_bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, cleared_path)
+        self.assertIsNone(
+            self.connection.execute(
+                "SELECT nara_catalog_id FROM person_entities"
+            ).fetchone()[0]
+        )
+
     def test_review_can_correct_generic_rank_to_marine_corps_officer(self) -> None:
         bundle = self._bundle()
         bundle["person_updates"][0]["personnel_category"] = (

@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/106 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/107 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 178 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 180 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4255,5 +4255,98 @@ test("Batch 045 publishes the Allied pathway while routing unresolved cases to a
     await expect(
       page.locator(".index-record").first().locator("dd").nth(2),
     ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+});
+
+test("Batch 046 separates student status, a named employer, an earlier government assignment, and an unnamed employer", async ({
+  page,
+}) => {
+  await page.goto("./people/5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49/");
+  await expect(
+    page.getByRole("heading", { name: "S D Cater Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("student");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page
+      .getByRole("link", { name: "A Tribute to Douglass Cater", exact: true })
+      .first(),
+  ).toHaveAttribute("href", /congress\.gov/);
+
+  await page.goto("./people/0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6/");
+  await expect(
+    page.getByRole("heading", { name: "Marshall W Houts", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Eastern Air Lines", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Eastern Air Lines", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "Federal Bureau of Investigation",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Garrison Investigation of Kennedy Assassination: Marshall Wilson Houts",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", /archives\.gov/);
+
+  await page.goto("./people/5bc32ab9-22d4-5f2f-ada5-25ec431c6181/");
+  await expect(
+    page.getByRole("heading", { name: "Jane Lester", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("a brokerage in Buffalo");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("a brokerage in Buffalo");
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).not.toContainText("Merrill Lynch");
+
+  for (const terminalProfile of [
+    ["be18a8aa-49d3-5600-8d66-eae7b28afb78", "Millard A Copeland"],
+    ["86a952a7-c08e-50b9-be06-fbcdb2af8f37", "Jacques Delmas"],
+    ["83359650-6c9b-52c4-a60d-22de5ee4885e", "Grier Durant"],
+    ["a66a0f48-fda1-5169-84f6-77fa0fd2acfa", "Shigekata Ikeda"],
+    ["3c26f2a2-98c8-5a66-9455-ee7e70de8f83", "Jackson E Nordin"],
+    ["b2d1f2ba-8862-5b16-b620-3ffbbd9c67d6", "Lucille E Temple"],
+    ["2c5e78d0-84b4-5ccb-9604-40ebe233fc06", "Dorothy I Tolley"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(page.locator("body")).not.toContainText("14122318");
   }
 });

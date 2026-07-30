@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,159 HTML files. Every relative
+**PASS.** The production build contains 24,163 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 210 organization profiles, and the
+The build includes 23,941 person profiles, 214 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,360 unique external URLs for separate live
+The checker inventoried 48,373 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -65,6 +65,10 @@ verification; external responses do not affect the internal-route pass.
 | Fondation Charles de Gaulle, Free French members list | HTTP 200 |
 | France-Libre.net, Free French naval roster | HTTP 200 |
 | British Normandy Memorial, Étienne Ancergues | HTTP 200 |
+| Congressional Record, “A Tribute to Douglass Cater” PDF | Reviewed through the research browser; official three-page PDF opened successfully |
+| NARA JFK record 104-10104-10339, Marshall Wilson Houts | HTTP 200; all three pages rendered and visually inspected |
+| USC Shoah Foundation, “Women at Nuremberg: Jane Lester” | Reviewed through the research browser |
+| Wittman and Kinney, *The Devil's Diary* ebook preview | Reviewed through the research browser; short supporting excerpt only |
 | Marine Corps University, “The ‘Scholastic’ Marine Who Won a Secret War” | Reviewed through the research browser; command-line request returned HTTP 403 |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |

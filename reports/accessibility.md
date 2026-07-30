@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 180 / 180 browser cases.**
+**PASS - 183 / 183 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-106-person employer measure is labeled separately from the 178-person broader
+107-person employer measure is labeled separately from the 180-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -385,6 +385,17 @@ the corrected PDF page 8 / Box 14 provenance, and reads redaction state from
 the Serial field rather than mistaking UUID digits for service numbers. The
 complete desktop, phone, and tablet matrix passed 180 / 180 with no remaining
 assertion or serious/critical axe failure.
+
+The Batch 046 regression updates both homepage coverage measures and adds
+direct profile checks for S. Douglass Cater Jr., Marshall W. Houts, Jane
+Lester, and seven terminal archival-review cases. It verifies Harvard as
+student status rather than employment; Eastern Air Lines as both Houts's
+immediate affiliation and last civilian employer; the FBI as an earlier
+government assignment; and the Buffalo brokerage as a qualified, unnamed
+employer that is not silently normalized to a known firm. It also directly
+verifies that Copeland's full private service number is absent. The complete
+desktop, phone, and tablet matrix passed 183 / 183 with no remaining assertion
+or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

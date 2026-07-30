@@ -2,30 +2,30 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **38 / 38 passed**
+- Python unit tests: **39 / 39 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,161 pages**
-- Internal link check: **24,161 HTML files passed**
-- Browser and accessibility suite: **180 / 180 passed**
+- Static production build: **24,163 pages**
+- Internal link check: **24,163 HTML files passed**
+- Browser and accessibility suite: **183 / 183 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`64727796d6a7fc19ee02caef9e25fb20b74e322c80b496155c94ae5b488b9668`)
+  (`a8c9ac5f4744f94bde083fd9fefd6a68d4d1178d08ab48228bb206954f0f26d6`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,307**
+  numbers at least six characters long: **0 full-number matches** in **24,243**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **482** public records representing **456** unique documents
-- Published, qualified affiliations: **354**
-- Published claims: **590**
+- Reviewed public sources: **489** public records representing **469** unique documents
+- Published, qualified affiliations: **358**
+- Published claims: **599**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
-- Verified-affiliation metric: **178** people with confirmed/high published
+- Verified-affiliation metric: **180** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **106** people with confirmed/high published
+- Verified-employer metric: **107** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -252,3 +252,12 @@ specific box-level archival actions rather than unsupported namesake matches.
 The regression checks PDF page/box separation, terminal unresolved wording,
 claim citations, foreign commissioned classification, and field-level
 service-number masking.
+Batch 046 adds S. Douglass Cater Jr.'s explicit Harvard-student-to-OSS
+transition, Marshall W. Houts's month-level FBI-to-unemployment-to-Eastern Air
+Lines-to-Army/OSS chronology, and Jane Lester's qualified unnamed Buffalo
+brokerage employment. Seven additional people receive terminal, box-specific
+archival-review outcomes after candidate rejection rather than namesake
+assignment. The regression separates student, employment, government, and
+military relationships; preserves the unnamed brokerage; checks all ten
+profiles; and directly verifies that Copeland's full private service number is
+absent.

@@ -1,0 +1,813 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-74-cater-s-d-jr",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 113",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 74; Cater, S, Jr.; middle initial D; Box 113; archive location 230/86/28/05; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-92-copeland-millard-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 143",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 92; Copeland, Millard A.; serial number 14122318; Box 143; archive location 230/86/29/02; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index; full service number remains private and is masked in public data."
+    },
+    {
+      "key": "nara-oss-index-page-112-delmas-jacques",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 178",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 112; Delmas, Jacques; note French; Box 178; archive location 230/86/29/07; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-128-durant-grier",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 207",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 128; Durant, Grier; Box 207; archive location 230/86/30/04; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-217-houts-marshall-w",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 351",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 217; Houts, Marshall W.; Box 351; archive location 230/86/33/04; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-223-ikeda-shigekata",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 362",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 223; Ikeda, Shigekata; Box 362; archive location 230/86/33/05; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-274-lester-jane",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 447",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 274; Lester, Jane; Box 447; archive location 230/86/35/03; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-344-nordin-jackson-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 563",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 344; Nordin, Jackson E.; Box 563; archive location 230/86/37/06; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-462-temple-lucille-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 768",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 462; Temple, Lucille E.; Box 768; archive location 230/86/41/07; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-470-tolley-dorothy-i",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 781",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 470; Tolley, Dorothy I.; Box 781; archive location 230/86/42/02; visually checked against the rendered page",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "congressional-record-douglass-cater-tribute-1995",
+      "stable_url": "https://www.congress.gov/104/crec/1995/09/22/141/149/CREC-1995-09-22-pt1-PgS14129-2.pdf",
+      "archival_identifier": "Congressional Record, 104th Congress, 1st session, Senate pages S14129-S14131",
+      "title": "A Tribute to Douglass Cater",
+      "author_creator": "Daniel Patrick Moynihan",
+      "repository_publisher": "United States Congress",
+      "publication_record_date": "1995-09-22",
+      "locator": "Congressional Record page S14129; reprinted New York Times obituary on page S14130 gives full name and repeats the Harvard-to-OSS sequence",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Congressional Record",
+      "rights_notes": "Official public-domain congressional record."
+    },
+    {
+      "key": "nara-jfk-marshall-wilson-houts-104-10104-10339",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2018/104-10104-10339.pdf",
+      "archival_identifier": "JFK Assassination Records, record 104-10104-10339",
+      "title": "Garrison Investigation of Kennedy Assassination: Marshall Wilson Houts",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1968-04-23",
+      "locator": "PDF page 2, paragraph 2, biographic chronology supplied by Houts; release-list row 11661 identifies the three-page CIA memorandum",
+      "access_date": "2026-07-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10104-10339",
+      "rights_notes": "Official declassified federal record. Only the employment chronology relevant to this project is retained."
+    },
+    {
+      "key": "devils-diary-jane-lester-2016",
+      "stable_url": "https://www.everand.com/book/686568342/The-Devil-s-Diary-Alfred-Rosenberg-and-the-Stolen-Secrets-of-the-Third-Reich",
+      "archival_identifier": "ISBN 9780062319036",
+      "title": "The Devil's Diary: Alfred Rosenberg and the Stolen Secrets of the Third Reich",
+      "author_creator": "Robert K. Wittman and David Kinney",
+      "repository_publisher": "Open Road Integrated Media; ebook preview hosted by Everand",
+      "publication_record_date": "2016-03-29",
+      "locator": "Ebook preview, biographical passage on Jane Lester immediately before chapter 2",
+      "access_date": "2026-07-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation metadata, project-authored paraphrase and a short supporting excerpt only; no full copyrighted page is stored."
+    },
+    {
+      "key": "usc-shoah-foundation-jane-lester-2018",
+      "stable_url": "https://sfi.usc.edu/news/2018/03/21596-women-nuremberg-jane-lester",
+      "title": "Women at Nuremberg: Jane Lester",
+      "author_creator": "USC Shoah Foundation",
+      "repository_publisher": "USC Shoah Foundation",
+      "publication_record_date": "2018-03-26",
+      "locator": "Article paragraphs describing Lester as a 29-year-old native New Yorker with German fluency and as a Nuremberg research analyst; based on her 1996 testimony",
+      "access_date": "2026-07-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "USC Shoah Foundation Visual History Archive",
+      "rights_notes": "Institutional biographical context used to corroborate identity; it does not independently establish the pre-OSS brokerage."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Student and employment relationships are modeled separately; Cater's attendance is not treated as employment."
+    },
+    {
+      "key": "eastern-air-lines",
+      "canonical_name": "Eastern Air Lines",
+      "historical_name": "Eastern Air Lines",
+      "aliases": [
+        "Eastern Airlines"
+      ],
+      "organization_type": "airline",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "active_dates": "1926-1991",
+      "normalization_notes": "The 1968 CIA memorandum prints the historical name as Eastern Air Lines; that form is preserved."
+    },
+    {
+      "key": "federal-bureau-of-investigation",
+      "canonical_name": "Federal Bureau of Investigation",
+      "historical_name": "Federal Bureau of Investigation",
+      "aliases": [
+        "FBI"
+      ],
+      "organization_type": "federal law-enforcement agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Modeled as a government assignment, not a civilian employer for the site's employer-only analytics."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "silas-douglass-cater-harvard-student-immediate",
+      "person_id": "5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49",
+      "organization_key": "harvard-university",
+      "organization_name_as_found": "Harvard",
+      "role_title": "student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "World War II",
+      "date_precision": "sequence only",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Congressional Record explicitly says Cater interrupted his Harvard education to serve in OSS. Harvard is an institutional student affiliation, not an employer."
+    },
+    {
+      "key": "marshall-wilson-houts-eastern-air-lines",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "organization_key": "eastern-air-lines",
+      "organization_name_as_found": "Eastern Air Lines",
+      "role_title": "Operations Agent",
+      "occupation": "airline operations agent",
+      "relationship_type": "employment",
+      "start_date": "1944-02",
+      "end_date": "1944-03",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Houts supplied a continuous chronology placing Eastern Air Lines in February-March 1944 immediately before April 1944 Army entry and service with OSS."
+    },
+    {
+      "key": "marshall-wilson-houts-fbi-special-agent",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "organization_key": "federal-bureau-of-investigation",
+      "organization_name_as_found": "FBI",
+      "role_title": "Special Agent",
+      "occupation": "federal special agent",
+      "relationship_type": "government_assignment",
+      "start_date": "1941-10",
+      "end_date": "1943-12",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This earlier government assignment ended before a documented unemployment interval and the Eastern Air Lines job; it is not the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "jane-lester-unidentified-buffalo-brokerage",
+      "person_id": "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
+      "organization_name_as_found": "a brokerage in Buffalo",
+      "role_title": "brokerage employee",
+      "occupation": "brokerage employee",
+      "relationship_type": "employment",
+      "end_date": "before OSS service",
+      "date_precision": "sequence only",
+      "city": "Buffalo",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The reputable biographical source supplies the sequence but does not name the brokerage or identify Lester's exact title. No organization is invented."
+    }
+  ],
+  "claims": [
+    {
+      "key": "silas-douglass-cater-high-confidence-identity",
+      "person_id": "5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49",
+      "claim_type": "identity",
+      "claim_text": "The indexed S. D. Cater Jr. is strongly matched to Silas Douglass Cater Jr., the Harvard student who served as an OSS Russian specialist.",
+      "evidence_paraphrase": "The index supplies Cater, S., Jr., with middle initial D; the Congressional Record gives the full name and directly documents the Harvard-to-OSS sequence.",
+      "identity_match_assessment": "The uncommon surname, first and middle initials, suffix and explicit OSS service make a namesake collision unlikely.",
+      "temporal_assessment": "The official tribute places Cater at Harvard immediately before his education was interrupted for wartime OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The match is high-confidence rather than confirmed because the tribute does not print the Box 113 identifier.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-cater-s-d-jr",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "congressional-record-douglass-cater-tribute-1995"
+        }
+      ]
+    },
+    {
+      "key": "silas-douglass-cater-harvard-immediate-pre-oss",
+      "person_id": "5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49",
+      "affiliation_key": "silas-douglass-cater-harvard-student-immediate",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Cater's best-supported immediate pre-OSS affiliation was student status at Harvard University.",
+      "evidence_excerpt": "interrupting his education to serve as a Russian specialist in the Office of Strategic Services in World War II",
+      "evidence_paraphrase": "The Congressional Record says Cater attended Harvard and interrupted his education to serve as an OSS Russian specialist.",
+      "identity_match_assessment": "The initials, suffix and distinctive surname match the indexed record, and the source explicitly documents OSS service.",
+      "temporal_assessment": "The wording explicitly makes Harvard education the activity interrupted by OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is presented as an institutional affiliation and student status, not as an employer.",
+      "sources": [
+        {
+          "source_key": "congressional-record-douglass-cater-tribute-1995",
+          "locator_override": "Congressional Record page S14129"
+        }
+      ]
+    },
+    {
+      "key": "marshall-wilson-houts-high-confidence-identity",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Marshall W. Houts is strongly matched to Marshall Wilson Houts, whose official CIA chronology records U.S. Army service with OSS.",
+      "evidence_excerpt": "April 1944 -- March 1946, in U.S. Army (served with OSS).",
+      "evidence_paraphrase": "The NARA index and the declassified CIA memorandum share the exact first name, surname and middle initial; the memorandum expands the middle name and directly records OSS service.",
+      "identity_match_assessment": "The exact name pattern, uncommon surname and direct OSS statement support a high-confidence match.",
+      "temporal_assessment": "The memorandum dates Army service with OSS from April 1944 through March 1946.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The match remains high-confidence rather than confirmed because the memorandum does not print the NARA Box 351 identifier.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-217-houts-marshall-w",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-jfk-marshall-wilson-houts-104-10104-10339",
+          "locator_override": "PDF page 2, biographic chronology"
+        }
+      ]
+    },
+    {
+      "key": "marshall-wilson-houts-eastern-air-lines-immediate",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "affiliation_key": "marshall-wilson-houts-eastern-air-lines",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Houts's best-supported immediate pre-OSS affiliation was employment as an Operations Agent with Eastern Air Lines.",
+      "evidence_excerpt": "February 1944 -- March 1944, Operations Agent, Eastern Air Lines.",
+      "evidence_paraphrase": "Houts's self-supplied chronology places the Eastern Air Lines job immediately before April 1944 Army entry and OSS service.",
+      "identity_match_assessment": "The exact name pattern and explicit OSS service link the memorandum's subject to the indexed person with high confidence.",
+      "temporal_assessment": "The month-level chronology is continuous: Eastern Air Lines in February-March 1944, then Army service with OSS beginning April 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The source directly names the employer, role and dates; no intervening affiliation is shown.",
+      "sources": [
+        {
+          "source_key": "nara-jfk-marshall-wilson-houts-104-10104-10339",
+          "locator_override": "PDF page 2, biographic chronology"
+        }
+      ]
+    },
+    {
+      "key": "marshall-wilson-houts-eastern-air-lines-last-civilian",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "affiliation_key": "marshall-wilson-houts-eastern-air-lines",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Eastern Air Lines was Houts's last documented civilian employer before the Army service during which he served with OSS.",
+      "evidence_excerpt": "February 1944 -- March 1944, Operations Agent, Eastern Air Lines.",
+      "evidence_paraphrase": "The official chronology identifies Eastern Air Lines as the last employment entry before Houts entered the Army in April 1944.",
+      "identity_match_assessment": "The direct OSS statement and exact name pattern support the indexed-person match.",
+      "temporal_assessment": "Month-level dates show the employment ended one month before Army entry; no later civilian employer appears.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "This claim is kept distinct from the immediate-affiliation claim even though both refer to the same documented employment.",
+      "sources": [
+        {
+          "source_key": "nara-jfk-marshall-wilson-houts-104-10104-10339",
+          "locator_override": "PDF page 2, biographic chronology"
+        }
+      ]
+    },
+    {
+      "key": "marshall-wilson-houts-fbi-earlier-government-assignment",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "affiliation_key": "marshall-wilson-houts-fbi-special-agent",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Houts served as an FBI Special Agent from October 1941 through December 1943.",
+      "evidence_excerpt": "October 1941 -- December 1943, Special Agent, FBI",
+      "evidence_paraphrase": "The self-supplied chronology records Houts's FBI special-agent service, including assignments under newspaper cover in Rio de Janeiro and as an assistant legal attaché in Havana.",
+      "identity_match_assessment": "The exact name and OSS chronology strongly identify the indexed person.",
+      "temporal_assessment": "The FBI assignment is definitely pre-OSS but ended before a documented unemployment interval and Eastern Air Lines employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The FBI is modeled as an earlier government assignment, not as Houts's immediate employer.",
+      "sources": [
+        {
+          "source_key": "nara-jfk-marshall-wilson-houts-104-10104-10339",
+          "locator_override": "PDF page 2, biographic chronology"
+        }
+      ]
+    },
+    {
+      "key": "jane-lester-high-confidence-identity",
+      "person_id": "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jane Lester is strongly matched to the New York woman described as an OSS typist and later Nuremberg research analyst.",
+      "evidence_paraphrase": "A reputable biographical account directly names Jane Lester and says she became an OSS typist; the USC Shoah Foundation independently profiles a New York-born Jane Lester of the same wartime cohort and language background at Nuremberg.",
+      "identity_match_assessment": "The exact name, direct OSS role, New York background, German fluency and immediate postwar Nuremberg work form a specific, coherent match.",
+      "temporal_assessment": "The book gives a continuous prewar Germany-to-Buffalo-to-OSS sequence, followed by the 1945 Nuremberg assignment corroborated by USC.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is high-confidence rather than confirmed because neither external source prints the NARA Box 447 identifier.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-274-lester-jane",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "devils-diary-jane-lester-2016"
+        },
+        {
+          "source_key": "usc-shoah-foundation-jane-lester-2018"
+        }
+      ]
+    },
+    {
+      "key": "jane-lester-buffalo-brokerage-immediate",
+      "person_id": "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
+      "affiliation_key": "jane-lester-unidentified-buffalo-brokerage",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "A reputable biographical source indicates that Lester worked at an unidentified Buffalo brokerage immediately before becoming an OSS typist.",
+      "evidence_excerpt": "worked in a brokerage in Buffalo, then became a typist in Washington...for the Office of Strategic Services",
+      "evidence_paraphrase": "The account explicitly sequences a Buffalo brokerage job before Lester's move to Washington as an OSS typist.",
+      "identity_match_assessment": "The exact name, explicit OSS role and corroborating New York and German-language details support a high-confidence identity match.",
+      "temporal_assessment": "The word 'then' explicitly places the brokerage before the OSS role, but the source does not supply exact dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The employer remains unnamed and the role title is not reported; the public profile must keep those limits visible.",
+      "sources": [
+        {
+          "source_key": "devils-diary-jane-lester-2016",
+          "locator_override": "Ebook preview, Jane Lester biographical passage"
+        },
+        {
+          "source_key": "usc-shoah-foundation-jane-lester-2018",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "jane-lester-buffalo-brokerage-last-civilian",
+      "person_id": "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
+      "affiliation_key": "jane-lester-unidentified-buffalo-brokerage",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The unnamed Buffalo brokerage is Lester's last documented civilian employer before OSS service in the accessible source reviewed.",
+      "evidence_excerpt": "worked in a brokerage in Buffalo, then became a typist in Washington...for the Office of Strategic Services",
+      "evidence_paraphrase": "The biographical sequence identifies no intervening employer between the Buffalo brokerage and Lester's OSS typist role.",
+      "identity_match_assessment": "The direct OSS statement and corroborating biographical details support a high-confidence match to the indexed Jane Lester.",
+      "temporal_assessment": "The sequence is explicit, but exact employment and OSS start dates remain unavailable.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This remains a qualified claim because a single reputable secondary account supports the employment chronology and does not name the brokerage.",
+      "sources": [
+        {
+          "source_key": "devils-diary-jane-lester-2016",
+          "locator_override": "Ebook preview, Jane Lester biographical passage"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed surname, first and middle initials and Jr. suffix align with Silas Douglass Cater Jr.; the Congressional Record directly documents his Harvard-to-OSS sequence and Russian-specialist role.",
+      "name_variants": [
+        "S D Cater Jr.",
+        "S. D. Cater Jr.",
+        "S. Douglass Cater Jr.",
+        "Silas Douglass Cater Jr."
+      ],
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 113 to establish exact Harvard and OSS dates and determine whether any paid pre-OSS employment coexisted with Cater's student status. Harvard is not treated as an employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "be18a8aa-49d3-5600-8d66-eae7b28afb78",
+      "research_status": "requires_archival_review",
+      "manual_review_required": true,
+      "next_action": "Review Box 143 and Army enlistment records keyed to the private service number. A Brunswick, Georgia mayor and business figure with the same name was rejected because no service-number, OSS or birth-date evidence linked him to this record. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86a952a7-c08e-50b9-be06-fbcdb2af8f37",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index supplies only Jacques Delmas and the note French. Jacques Chaban-Delmas and a separate Toulouse-born Resistance figure named Jacques Delmas are plausible leads, but neither has enough record-specific evidence for assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 178 for birth date, alias, unit or mission identifiers and compare them with French Resistance files. Preserve both plausible alternatives until direct evidence distinguishes them. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "83359650-6c9b-52c4-a60d-22de5ee4885e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Livingston Grier DuRant is a plausible same-name lead, but the accessible official record is postwar and does not directly connect him to OSS or Box 207.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 207 for a full name, birth date or agency chronology before associating this record with Livingston Grier DuRant or any other namesake. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact Marshall W. Houts name pattern, uncommon surname and declassified CIA memorandum's direct statement that Marshall Wilson Houts served with OSS support a high-confidence match.",
+      "name_variants": [
+        "Marshall W Houts",
+        "Marshall W. Houts",
+        "Marshall Wilson Houts"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 351 to confirm the precise OSS assignment and reconcile it with Houts's April 1944 Army entry; the immediate Eastern Air Lines employment and earlier FBI assignment are already directly documented.",
+      "nara_catalog_id": null,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "a66a0f48-fda1-5169-84f6-77fa0fd2acfa",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Official War Relocation Authority records contain a same-name Japanese American, but a name match alone does not establish that he is the person indexed in OSS Box 362.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 362 for age, nationality, language role or other identifiers before linking this record to any War Relocation Authority namesake. Do not publish unrelated sensitive file details. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name, direct description as an OSS typist, New York background, German fluency and immediate postwar Nuremberg role align across the biographical account and USC Shoah Foundation profile.",
+      "name_variants": [
+        "Jane Lester"
+      ],
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 447 and Buffalo city directories to identify the brokerage and Lester's precise role and dates. Until then, publish only the qualified description 'a brokerage in Buffalo.'",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3c26f2a2-98c8-5a66-9455-ee7e70de8f83",
+      "research_status": "requires_archival_review",
+      "manual_review_required": true,
+      "next_action": "Review Box 563 for birth, hometown, education, branch or assignment identifiers; exact-name official, OSS, obituary, employment, directory and archival searches did not yield a reliable candidate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b2d1f2ba-8862-5b16-b620-3ffbbd9c67d6",
+      "research_status": "requires_archival_review",
+      "manual_review_required": true,
+      "next_action": "Review Box 768 for birth, hometown, occupation or assignment identifiers. A 1940 District of Columbia census-index namesake was rejected because it lacked an OSS or record-specific link. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2c5e78d0-84b4-5ccb-9604-40ebe233fc06",
+      "research_status": "requires_archival_review",
+      "manual_review_required": true,
+      "next_action": "Review Box 781 for birth, hometown, occupation or assignment identifiers; exact-name official, OSS, obituary, employment, directory and archival searches did not yield a reliable candidate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch046-silas-douglass-cater-reviewed-sources",
+      "person_id": "5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"S D Cater Jr\" OSS; \"S. Douglass Cater\" OSS; Harvard; Russian specialist; NARA index; CIA Reading Room; obituary; institutional and archival checks",
+      "query_variant_type": "initials_suffix_identity_student_affiliation",
+      "started_at": "2026-07-30T18:00:00Z",
+      "completed_at": "2026-07-30T18:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Postwar career sources that did not establish pre-OSS chronology were excluded from the affiliation claim.",
+      "research_notes": "The official Congressional Record supplies the full name and explicit Harvard-to-OSS sequence. The NARA index page was visually verified.",
+      "next_action": "Review Box 113 for exact dates and any separate paid employment.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-millard-copeland-terminal-protocol-review",
+      "person_id": "be18a8aa-49d3-5600-8d66-eae7b28afb78",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Millard A Copeland\" OSS; \"14122318\"; employer 1940; occupation; NARA index; CIA Reading Room; Army enlistment; obituary; Brunswick directories and archival checks",
+      "query_variant_type": "exact_name_service_number_terminal_protocol",
+      "started_at": "2026-07-30T18:18:00Z",
+      "completed_at": "2026-07-30T18:38:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Millard A. Copeland listed by the City of Brunswick as a later mayor and same-name business-directory entries lacked a matching service number, birth detail or OSS linkage; people-finder and genealogy results were also rejected.",
+      "research_notes": "The exact private service number produced no accessible independent record. The official AAD interface was unavailable to this research session, and the same-name Brunswick candidate remains unassigned.",
+      "next_action": "Review Box 143 and Army enlistment records keyed to the service number.",
+      "attempt_number": 15,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-jacques-delmas-terminal-protocol-review",
+      "person_id": "86a952a7-c08e-50b9-be06-fbcdb2af8f37",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Jacques Delmas\" OSS; French Resistance; BCRA; employer; occupation; NARA index; CIA Reading Room; Ordre de la Libération; obituary and archival checks",
+      "query_variant_type": "foreign_common_name_ambiguous_candidates_terminal_protocol",
+      "started_at": "2026-07-30T18:38:00Z",
+      "completed_at": "2026-07-30T18:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The Ordre de la Libération biography of Jacques Chaban-Delmas and a La Dépêche obituary for a separate Toulouse-born Resistance figure named Jacques Delmas both lacked a direct OSS, Box 178, birth-date or mission linkage to the index row.",
+      "research_notes": "The index supplies only the name and note French. A name match alone cannot choose among multiple Resistance-era candidates, so both plausible alternatives remain visible but unassigned.",
+      "next_action": "Review Box 178 and French Resistance personnel files for discriminating identifiers.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-grier-durant-terminal-protocol-review",
+      "person_id": "83359650-6c9b-52c4-a60d-22de5ee4885e",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Grier Durant\" OSS; \"L Grier DuRant\"; employer 1940; occupation; NARA index; CIA Reading Room; government manual; obituary and archival checks",
+      "query_variant_type": "short_name_variant_candidate_terminal_protocol",
+      "started_at": "2026-07-30T18:58:00Z",
+      "completed_at": "2026-07-30T19:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A postwar U.S. Government Manual entry for L. Grier DuRant and genealogy leads for Livingston Grier DuRant did not directly establish OSS service, a pre-OSS chronology or a Box 207 linkage.",
+      "research_notes": "The plausible expanded-name candidate remains unassigned because the accessible evidence is postwar and correlative only.",
+      "next_action": "Review Box 207 for a full name and record-specific identifiers.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-marshall-houts-reviewed-official-source",
+      "person_id": "0413c4b8-fd84-5f0f-b0b7-b6d0651b66a6",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Marshall W Houts\" OSS; \"Marshall Wilson Houts\"; Eastern Air Lines; FBI; NARA index; CIA Reading Room; obituary; university and archival checks",
+      "query_variant_type": "middle_name_variant_official_chronology",
+      "started_at": "2026-07-30T19:16:00Z",
+      "completed_at": "2026-07-30T19:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Later-career summaries and an obituary that compressed the FBI-to-OSS sequence were retained only as discovery context because the declassified official chronology was more specific.",
+      "research_notes": "NARA record 104-10104-10339 was downloaded from the official release page, all three pages were rendered, and the employment chronology on page 2 was visually inspected.",
+      "next_action": "Review Box 351 for the precise OSS assignment.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-shigekata-ikeda-terminal-protocol-review",
+      "person_id": "a66a0f48-fda1-5169-84f6-77fa0fd2acfa",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Shigekata Ikeda\" OSS; employer; occupation; NARA index; CIA Reading Room; Japanese American; Manzanar; WRA; newspaper, directory and archival checks",
+      "query_variant_type": "foreign_name_sensitive_candidate_terminal_protocol",
+      "started_at": "2026-07-30T19:40:00Z",
+      "completed_at": "2026-07-30T20:02:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Digitized War Relocation Authority rosters held by the University of California, Berkeley contain the same name but no direct OSS, Box 362 or corroborating identity link; genealogy and search-snippet leads were also rejected.",
+      "research_notes": "The WRA records were treated only as identity leads. Unrelated sensitive personal details were neither retained nor published.",
+      "next_action": "Review Box 362 for age, nationality, language or assignment identifiers.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-jane-lester-reviewed-sources",
+      "person_id": "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Jane Lester\" OSS; \"Office of Strategic Services\" typist; Buffalo brokerage; employer; NARA index; CIA Reading Room; Nuremberg; obituary, oral history and archival checks",
+      "query_variant_type": "exact_name_occupation_unnamed_employer",
+      "started_at": "2026-07-30T20:02:00Z",
+      "completed_at": "2026-07-30T20:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Postwar records that only established Lester's later Nuremberg work were not used as sole evidence for her pre-OSS employment; no brokerage name was inferred from Buffalo directories.",
+      "research_notes": "The biographical account directly supplies the brokerage-to-OSS sequence, while the USC Shoah Foundation profile independently corroborates the New York, German-language and Nuremberg identity context.",
+      "next_action": "Review Box 447 and Buffalo city directories to identify the brokerage.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-jackson-nordin-terminal-protocol-review",
+      "person_id": "3c26f2a2-98c8-5a66-9455-ee7e70de8f83",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Jackson E Nordin\" OSS; employer 1940; occupation; NARA index; CIA Reading Room; military; obituary; newspaper, directory, institutional and archival checks",
+      "query_variant_type": "exact_name_middle_initial_terminal_protocol",
+      "started_at": "2026-07-30T20:25:00Z",
+      "completed_at": "2026-07-30T20:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, bare search snippets and records without the middle initial, a pre-OSS date or an OSS connection were rejected.",
+      "research_notes": "The completed online protocol and visual index review did not identify a reliable external candidate or pre-OSS affiliation.",
+      "next_action": "Review Box 563 for discriminating identifiers.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-lucille-temple-terminal-protocol-review",
+      "person_id": "b2d1f2ba-8862-5b16-b620-3ffbbd9c67d6",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Lucille E Temple\" OSS; employer 1940; occupation; NARA index; CIA Reading Room; Washington DC; obituary; census, newspaper, directory and archival checks",
+      "query_variant_type": "exact_name_middle_initial_census_candidate_terminal_protocol",
+      "started_at": "2026-07-30T20:43:00Z",
+      "completed_at": "2026-07-30T21:02:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A 1940 District of Columbia census-index namesake lacked an OSS, employer or Box 768 link; modern namesakes, people-finder pages and bare snippets were rejected.",
+      "research_notes": "No accessible official or reputable source supplied the corroborating identifiers needed to assign the census namesake.",
+      "next_action": "Review Box 768 for birth, hometown, occupation or assignment identifiers.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch046-dorothy-tolley-terminal-protocol-review",
+      "person_id": "2c5e78d0-84b4-5ccb-9604-40ebe233fc06",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Dorothy I Tolley\" OSS; employer 1940; occupation; NARA index; CIA Reading Room; military; obituary; census, newspaper, directory and archival checks",
+      "query_variant_type": "exact_name_middle_initial_terminal_protocol",
+      "started_at": "2026-07-30T21:02:00Z",
+      "completed_at": "2026-07-30T21:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, genealogy trees, people-finder pages and records without an OSS connection or a supported pre-OSS date were rejected.",
+      "research_notes": "The completed online protocol and visual index review did not identify a reliable external candidate or pre-OSS affiliation.",
+      "next_action": "Review Box 781 for discriminating identifiers.",
+      "attempt_number": 14,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

@@ -8,9 +8,9 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
 | Research-attempt coverage | 289 people with a non-planned attempt | 23,941 person entities | 1.2071% |
-| Verified-affiliation coverage | 178 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7435% |
-| Verified-employer coverage | 106 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4428% |
-| Archival-review coverage | 226 people with an individual file-access/priority assessment | 23,941 person entities | 0.9440% |
+| Verified-affiliation coverage | 180 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7518% |
+| Verified-employer coverage | 107 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4469% |
+| Archival-review coverage | 236 people with an individual file-access/priority assessment | 23,941 person entities | 0.9858% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 14
-- Identity status `high_confidence`: 222
+- Identity status `high_confidence`: 225
 - Identity status `probable`: 9
-- Identity status `ambiguous`: 11
-- Identity status `unresolved`: 23,685
+- Identity status `ambiguous`: 14
+- Identity status `unresolved`: 23,679
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 ## Research queue and pilot
 
 - `not_started`: 23,652
-- `in_progress`: 62
+- `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 16
-- `occupation_only_found`: 18
-- `requires_archival_review`: 48
+- `occupation_only_found`: 20
+- `requires_archival_review`: 55
 - `completed`: 28
-- `verified_employer_found`: 108
+- `verified_employer_found`: 109
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 8
+- Reviewed-web terminal-protocol attempts recorded: 18
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 232 across 218 people; 12 additional
+- Saved `source_reviewed` outcomes: 242 across 228 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,303
+- Total recorded attempts/plans: 1,313
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 218; 208 have at least one public-eligible
+- People with saved reviewed claims: 221; 211 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -132,13 +132,16 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   Batch 045 additionally reviewed Billie F. Akin, Étienne Ancergues, Julia N.
   Barnhart, Philip H. Chadbourn Jr., Jacqueline M. Landry, Gus Macriyanni, Carl
   D. Marshall, Constantine Papadopoulos, and Lawrence N. Stevens.
-- Published affiliations: 354
-- Database claims: 603; public-eligible claims: 590 (86 confirmed, 457 high, 47
+  Batch 046 additionally reviewed S. Douglass Cater Jr., Millard A. Copeland,
+  Jacques Delmas, Grier Durant, Marshall W. Houts, Shigekata Ikeda, Jane Lester,
+  Jackson E. Nordin, Lucille E. Temple, and Dorothy I. Tolley.
+- Published affiliations: 358
+- Database claims: 612; public-eligible claims: 599 (89 confirmed, 461 high, 49
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 503; public source export: 482; unique source documents: 456
-- Canonical organizations: 213 private and 212 public
+- Citation records: 517; public source export: 489; unique source documents: 469
+- Canonical organizations: 215 private and 214 public
 - Conflicts: 0
-- NARA pull-list rows: 23,870
+- NARA pull-list rows: 23,869
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -228,6 +231,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-analysts-and-
 python3 -m oss_research import-reviewed-evidence research/evidence-scholarship-medicine-and-oni-review_batch-043_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-employment-transitions-and-terminal-reviews_batch-044_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-terminal-protocol-and-allied-pathways_batch-045_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-student-employment-and-terminal-protocol_batch-046_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
