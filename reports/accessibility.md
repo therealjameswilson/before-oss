@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 216 / 216 browser cases.**
+**PASS - 219 / 219 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-111-person employer measure is labeled separately from the 187-person broader
+111-person employer measure is labeled separately from the 188-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -489,7 +489,16 @@ Ady's American Presbyterian Mission affiliation. It confirms that neither
 relationship is counted or displayed as an employer, preserves the approved
 unresolved-employer wording for the other profiles, and verifies field-level
 serial masking. The complete desktop, phone, and tablet matrix passed 216 /
-216 with no remaining assertion or serious/critical axe failure.
+216 at the end of Batch 057 with no assertion or serious/critical axe failure.
+
+The Batch 058 regression checks ten newly completed profiles from Frederick B.
+Agee Jr. through Antonio Agugliaro. It verifies six unresolved Box 5 routes,
+Albert H. Agert's visibly qualified identity-review state, Peter M. Aglione's
+Army pathway, and the direct roster identities for Evangelo Ageloras/Agelopas
+and Arthur J. Agoritsas. It confirms that no wartime roster entry is converted
+into an unsupported pre-OSS employer claim and verifies field-level serial
+masking. The complete desktop, phone, and tablet matrix passed 219 / 219 with
+no remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

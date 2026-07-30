@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 221 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,405 unique external URLs for separate live
+The checker inventoried 48,407 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets

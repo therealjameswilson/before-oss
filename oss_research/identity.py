@@ -122,6 +122,7 @@ def build_identities(connection: sqlite3.Connection) -> dict[str, int]:
                     normalized_name=excluded.normalized_name,
                     identity_status=excluded.identity_status,
                     identity_evidence=excluded.identity_evidence,
+                    name_variants_json=excluded.name_variants_json,
                     personnel_category=excluded.personnel_category,
                     commissioned_officer=excluded.commissioned_officer,
                     allied_or_foreign_personnel=excluded.allied_or_foreign_personnel,

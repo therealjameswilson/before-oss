@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/111 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 187 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 188 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5012,4 +5012,101 @@ test("Batch 057 distinguishes student and religious affiliations from employers 
   await expect(page.locator("body")).toContainText(
     "Merrill S. Ady, of the American Presbyterian Mission",
   );
+});
+
+test("Batch 058 publishes Aglione's Army pathway, confirms two roster identities, and preserves seven review cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["6002e291-755d-5b83-879b-2e05c1439854", "Frederick B Agee Jr."],
+    ["303d483f-6fd7-5f76-9327-3d12020eaa33", "Susie W Agee"],
+    ["fc892342-811c-5b16-8bcc-27c6ebf7bd08", "Athanas Aggo"],
+    ["cbe852be-9d30-5eb2-b68f-58e3e3940c2c", "Cornelius R Agnew"],
+    ["a42c8e38-18b0-5d29-bea7-f2c54255eac4", "Joseph A Agrillo"],
+    ["e585e775-2188-5ece-b92c-123e15445a2d", "Antonio Agugliaro"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("5", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/931925ce-767a-5905-957c-7b1c32ba8d3f/");
+  await expect(
+    page.getByRole("heading", { name: "Albert H Agert", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("needs identity review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Albert Hippolyte Agert is a plausible candidate",
+  );
+  await expect(page.locator("body")).not.toContainText(
+    "Special Operations Executive personnel file: Albert",
+  );
+
+  await page.goto("./people/9d0ea528-05c0-505f-a982-b4cb416e3abf/");
+  await expect(
+    page.getByRole("heading", { name: "Evangelo Ageloras", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Evangelo Agelopas");
+  await expect(page.locator("body")).toContainText(
+    "confirms identity and OSS service but not a pre-OSS affiliation",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
+
+  await page.goto("./people/e96a1c0e-6b4f-5736-b1e0-42179955dc2f/");
+  await expect(
+    page.getByRole("heading", { name: "Arthur J Agoritsas", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Technical Grade 5 Arthur J. Agoritsas",
+  );
+  await expect(page.locator("body")).toContainText(
+    "sources print different enlisted-grade labels",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
+
+  await page.goto("./people/35afb022-93c2-532d-a08b-60ac54c81b9f/");
+  await expect(
+    page.getByRole("heading", { name: "Peter M Aglione", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("completed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "best-supported immediate pre-OSS affiliation was United States Army service",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Entered the Army January 1941. Was recruited by Captain Bonfiglio and Lieutenant Daddario",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
 });

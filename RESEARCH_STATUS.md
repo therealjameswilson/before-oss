@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 399 people with a non-planned attempt | 23,941 person entities | 1.6666% |
-| Verified-affiliation coverage | 187 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7811% |
+| Research-attempt coverage | 409 people with a non-planned attempt | 23,941 person entities | 1.7084% |
+| Verified-affiliation coverage | 188 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7853% |
 | Verified-employer coverage | 111 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4636% |
-| Archival-review coverage | 346 people with an individual file-access/priority assessment | 23,941 person entities | 1.4452% |
+| Archival-review coverage | 356 people with an individual file-access/priority assessment | 23,941 person entities | 1.4870% |
 
 ## Extraction and identity
 
@@ -21,11 +21,11 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 208
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 16
+- Identity status `confirmed`: 19
 - Identity status `high_confidence`: 232
-- Identity status `probable`: 10
+- Identity status `probable`: 11
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,669
+- Identity status `unresolved`: 23,665
 
 ## Personnel categories
 
@@ -45,14 +45,14 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,542
+- `not_started`: 23,532
 - `in_progress`: 52
 - `candidate_found`: 1
-- `needs_identity_review`: 8
+- `needs_identity_review`: 9
 - `documented_prewar_employer_found`: 18
 - `occupation_only_found`: 20
-- `requires_archival_review`: 156
-- `completed`: 31
+- `requires_archival_review`: 164
+- `completed`: 32
 - `verified_employer_found`: 113
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 128
+- Reviewed-web terminal-protocol attempts recorded: 138
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 252 across 238 people; 14 additional
+- Saved `source_reviewed` outcomes: 255 across 241 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,423
+- Total recorded attempts/plans: 1,433
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 232; 221 have at least one public-eligible
+- People with saved reviewed claims: 236; 224 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -190,10 +190,21 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
   Cornell student status, also not employment. The other eight profiles route
   to Box 4 or Box 5 review; Louis Duke Adlon and Mehmet Aga-Oglu remain
   unconfirmed spelling/name leads rather than published identities.
-- Published affiliations: 373
-- Database claims: 640; public-eligible claims: 626 (91 confirmed, 480 high, 55
-  medium); 14 low-confidence claims concerning 11 people are withheld
-- Citation records: 653; public source export: 524; unique source documents: 499
+  Batch 058 additionally reviewed Frederick B. Agee Jr., Susie W. Agee,
+  Evangelo Ageloras, Albert H. Agert, Athanas Aggo, Peter M. Aglione,
+  Cornelius R. Agnew, Arthur J. Agoritsas, Joseph A. Agrillo, and Antonio
+  Agugliaro. An original May 1944 OSS board report confirms Peter M. Aglione's
+  identity and high-confidence Army-to-OSS pathway without identifying his
+  last civilian employer. A declassified OSS roster confirms Evangelo
+  Agelopas as the documented variant of indexed Evangelo Ageloras and confirms
+  Arthur J. Agoritsas, but it supplies no pre-OSS affiliation for either man.
+  Albert Hippolyte Agert remains a withheld low-confidence French SOE and
+  resistance-file candidate pending direct comparison with Box 5. The other
+  six profiles route to Box 5 review.
+- Published affiliations: 374
+- Database claims: 645; public-eligible claims: 630 (94 confirmed, 481 high, 55
+  medium); 15 low-confidence claims concerning 12 people are withheld
+- Citation records: 667; public source export: 529; unique source documents: 503
 - Canonical organizations: 223 private and 221 public
 - Conflicts: 0
 - NARA pull-list rows: 23,865

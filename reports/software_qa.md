@@ -2,28 +2,28 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **46 / 46 passed**
+- Python unit tests: **47 / 47 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,170 pages**
 - Internal link check: **24,170 HTML files passed**
-- Browser and accessibility suite: **216 / 216 passed**
+- Browser and accessibility suite: **219 / 219 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`75caad8d20a985229554715d2cd7642ae70120c3ac1faa77dd0979f646e52eaa`)
+  (`2a83ab415de6eb99d95f557ed3c4d878b58964aeee52a740d9a2b3bf410d213f`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,250**
+  numbers at least six characters long: **0 full-number matches** in **24,209**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **524** public records representing **499** unique documents
-- Published, qualified affiliations: **373**
-- Published claims: **626**
-- Withheld low-confidence evidence: **14 claims concerning 11 people**
-- Verified-affiliation metric: **187** people with confirmed/high published
+- Reviewed public sources: **529** public records representing **503** unique documents
+- Published, qualified affiliations: **374**
+- Published claims: **630**
+- Withheld low-confidence evidence: **15 claims concerning 12 people**
+- Verified-affiliation metric: **188** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **111** people with confirmed/high published
   employment or self-employment evidence
@@ -63,6 +63,11 @@ six rendered pages were inspected at original detail. Raw cells remain
 unchanged; only normalized names, grades, and personnel categories are
 corrected. The tracked visual-review bundle replays 64 matching-page decisions
 and six row corrections and fails if any expected raw cell drifts.
+The Batch 058 clean-rebuild comparison additionally found six stale,
+parser-derived name variants from those corrected rows in the incremental
+database. The identity upsert now refreshes parser-derived variants before
+reviewed evidence is replayed. A regression test covers that path, and the
+incremental and clean public projections are byte-for-byte identical.
 
 The metric regression test verifies that student, military, government,
 volunteer, and professional affiliations do not inflate verified-employer
@@ -379,3 +384,13 @@ Box 4 or Box 5 files; plausible Adlon and Aga-Ogla namesakes remain qualified
 research leads rather than public identity or employer claims. The regression
 checks all ten profiles across three viewports and confirms field-level
 service-number masking.
+Batch 058 completes the minimum online protocol for Frederick B. Agee Jr.
+through Antonio Agugliaro. It publishes Peter M. Aglione's confirmed identity
+and high-confidence United States Army pathway without turning Army service
+into civilian employment. It confirms the Evangelo Agelopas spelling variant
+for indexed Evangelo Ageloras and confirms Arthur J. Agoritsas from a
+declassified OSS roster, while explicitly declining to infer pre-OSS
+affiliations from wartime operational presence. Albert Hippolyte Agert remains
+a withheld low-confidence identity candidate pending comparison of NARA,
+British SOE, and French resistance files. The other six profiles route to Box
+5 without unsupported employer claims.
