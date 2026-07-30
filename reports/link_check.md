@@ -218,3 +218,32 @@ an official NARA OSS transfer memorandum while making clear that the transfer
 does not establish a pre-OSS employer or affiliation. Sidney's earlier NBER
 and OPA evidence remains unchanged. The complete local link checker passed all
 24,183 HTML files and inventoried 48,450 unique external URLs.
+
+## Batch 067 production deployment
+
+GitHub Actions test workflow
+[30577602642](https://github.com/therealjameswilson/before-oss/actions/runs/30577602642)
+and GitHub Pages deployment
+[30577602632](https://github.com/therealjameswilson/before-oss/actions/runs/30577602632)
+for page-five Alexander Batch 067 release `3397a7b` completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 067 person profiles. Spencer L.
+Alexander's live profile exposes the official NARA source, high-confidence
+identity assessment, and explicit internal-OSS-assignment qualification;
+Sidney S. Alexander's live profile preserves the NBER and OPA evidence.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 497
+people with non-planned research attempts, 196 verified-affiliation people,
+118 verified-employer people, 444 archival-review assessments, 669 published
+claims, and 578 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 234, 394, and 578 data rows
+respectively, and the JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`1d5cfb538bb4e8f4c18372b632b32e7d44b1f0754d14c962c6da45bf4bdbc043`.
+A boundary-aware comparison of all 12,919 private normalized identifiers
+against 51 uncompressed live HTML, data, and download artifacts returned zero
+matches.
