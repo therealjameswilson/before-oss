@@ -48,6 +48,12 @@ verification; external responses do not affect the internal-route pass.
 | Harvard Crimson, Irving Goff Spanish Civil War report | Reviewed through the research browser |
 | NPS, “OSS in Action: The Mediterranean and European Theaters” | Reviewed through the research browser |
 | CIA, official OSS memorandum naming Serge Obolensky | Reviewed through the research browser |
+| University of Illinois Board minutes, Clarence A. Berdahl | Reviewed through the research browser |
+| University of Illinois Archives, Clarence A. Berdahl Papers | Reviewed through the research browser |
+| *Public Opinion Quarterly*, Hugh M. Beville Jr. | Reviewed through the research browser |
+| Museum of Broadcast Communications, Hugh Malcolm Beville | Reviewed through the research browser |
+| *London Gazette*, Richard Gaunt Arnold-Baker | Reviewed through the research browser |
+| CIA, “Guardian Spies: The US Coast Guard and OSS Maritime Operations” | Reviewed through the research browser |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |
 | Dartmouth Alumni Magazine, Budd Schulberg and Corey Ford articles | Reviewed through the research browser; command-line requests timed out |
@@ -62,31 +68,31 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30513195634](https://github.com/therealjameswilson/before-oss/actions/runs/30513195634)
+[30514553572](https://github.com/therealjameswilson/before-oss/actions/runs/30514553572)
 and GitHub Pages deployment
-[30513195629](https://github.com/therealjameswilson/before-oss/actions/runs/30513195629)
-for Mediterranean veterans and Obolensky review Batch 041 release `54924e1`
+[30514553590](https://github.com/therealjameswilson/before-oss/actions/runs/30514553590)
+for analysts and maritime officers Batch 042 release `289245f`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 12
+count, or redaction state for all 13
 tested targets:
 
 - the home page;
-- both adjacent Milton Felsen index rows, Irving Goff, Paul H. Gale, and Serge
-  Obolensky;
+- Richard G. Arnold-Baker, Everett J. Athens, Clarence A. Berdahl, Hugh M.
+  Beville, and John P. Booth;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the NARA attribution notice and full-service-number redaction on the five new
   profiles.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 284
-people with non-planned research attempts, 173 verified-affiliation people, 100
-verified-employer people, 211 archival-review assessments, 566 published
-claims, and 456 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 202, 340, and 456 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 289
+people with non-planned research attempts, 176 verified-affiliation people, 102
+verified-employer people, 216 archival-review assessments, 576 published
+claims, and 469 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 204, 344, and 469 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
