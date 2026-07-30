@@ -29,11 +29,11 @@ Run: 2026-07-30 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30501246333](https://github.com/therealjameswilson/before-oss/actions/runs/30501246333)
-  for Batch 034 release `238e269`: **passed**
+  [30502650887](https://github.com/therealjameswilson/before-oss/actions/runs/30502650887)
+  for Batch 035 release `390c830`: **passed**
 - GitHub Pages deployment workflow
-  [30501246289](https://github.com/therealjameswilson/before-oss/actions/runs/30501246289)
-  for Batch 034 release `238e269`: **passed**
+  [30502650962](https://github.com/therealjameswilson/before-oss/actions/runs/30502650962)
+  for Batch 035 release `390c830`: **passed**
 - Production route and asset smoke tests: **22 / 22 returned HTTP 200 and the
   expected content marker or row count**
 
