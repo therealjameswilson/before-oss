@@ -2,30 +2,30 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **37 / 37 passed**
+- Python unit tests: **38 / 38 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,153 pages**
-- Internal link check: **24,153 HTML files passed**
-- Browser and accessibility suite: **171 / 171 passed**
+- Static production build: **24,155 pages**
+- Internal link check: **24,155 HTML files passed**
+- Browser and accessibility suite: **174 / 174 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`1c595486369247948c7d6920c5eabbcc71ec0a1fb17f13d355ef992ea86a0fbd`)
+  (`64569d2547903bbc0e277c66424071fce7093b0468ff10c0ddeba8e184febd44`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,233**
+  numbers at least six characters long: **0 full-number matches** in **24,235**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **469** public records representing **437** unique documents
-- Published, qualified affiliations: **344**
-- Published claims: **576**
+- Reviewed public sources: **471** public records representing **439** unique documents
+- Published, qualified affiliations: **347**
+- Published claims: **579**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
 - Verified-affiliation metric: **176** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **102** people with confirmed/high published
+- Verified-employer metric: **104** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -228,3 +228,11 @@ Everett Athens's documented spelling variant and naval classification; and
 John Booth's Coast Guard-to-OSS assignment. It adds commissioned and enlisted
 Coast Guard categories through a forward-only migration, verifies the
 branch-note precedence rule, and continues service-number masking.
+Batch 043 adds checks for Franklin Holcomb's civilian ONI employment followed
+by an active-duty Marine Reserve assignment at the same institution; Cora Du
+Bois's earlier Hunter College employment and distinct Boston Psychopathic
+Hospital professional affiliation; and the terminal archival-review status of
+Carl Schorske, Franklin Ford, Gordon Craig, and James Luce without invented
+civilian employers. It also adds a fresh-database migration test covering every
+normalized personnel category in immutable source rows and verifies a complete
+from-source rebuild.

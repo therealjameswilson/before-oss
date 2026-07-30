@@ -342,6 +342,34 @@ The Booth review adds forward-only
 categories. The parser now gives a printed `Coast G` note precedence over a
 generic rank interpretation while retaining the raw rank and note unchanged.
 
+## Reviewed scholarship, medicine, and ONI chronology
+
+The forty-third evidence batch revisited six already partially researched
+profiles using rendered NARA index pages; official or institutional histories
+from Harvard, Hunter College, Princeton, Stanford, and the Marine Corps
+University; and a contemporary wartime medical report. It closed each open
+research attempt with a reviewable terminal outcome. No live NARA Catalog API
+request or retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Carl E. Schorske | Harvard doctoral study remains the high-confidence immediate pre-OSS affiliation and is not converted into employment. No reliable civilian employer was found; Box 687 review remains the next action. |
+| Cora Du Bois | Hunter College teaching is documented earlier employment. Work at Boston Psychopathic Hospital with Henry Murray is retained separately as a professional affiliation because the accessible biography does not establish an employment arrangement. Neither claim is promoted to immediate or last-civilian status. |
+| Franklin L. Ford | Cornell graduate study is student status; the United States Army is the explicit immediate military pathway. No civilian employer is inferred from education. |
+| Franklin P. Holcomb | Civilian Office of Naval Intelligence employment before Pearl Harbor is the last civilian employer. His subsequent active-duty Marine Reserve billet at ONI is the immediate military assignment before formal OSS entry in 1943. The shared institution does not collapse the two relationships. |
+| Gordon A. Craig | Princeton doctoral study is a qualified probable immediate affiliation, not employment. The profile remains routed to Box 151 review for the unresolved interval and civilian-employer question. |
+| James C. Luce | A wartime report supports the Navy Medical Corps-to-OSS Detachment 101 transfer. No pre-Navy civilian employer is inferred. |
+
+Index PDF pages 97, 125, 150, 212, 284, and 414 were rendered at 180 DPI and
+visually checked. They confirm all six printed rows, names, ranks, boxes, notes,
+and archival locations. Full service numbers remain private and are masked from
+every public page and download.
+
+Migration 008 aligns the immutable `source_records` personnel-category
+constraint with the person-entity constraint. It fixes a full-rebuild failure
+introduced when earlier forward-only migrations added Marine Corps and Coast
+Guard categories only to `person_entities`; it changes no raw PDF values.
+
 ## Official reference material
 
 - NARA OSS personnel records:

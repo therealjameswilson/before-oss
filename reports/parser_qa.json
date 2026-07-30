@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T02:05:16+00:00",
+  "generated_at": "2026-07-30T05:03:56+00:00",
   "expected_source_rows": 23978,
   "actual_source_rows": 23978,
   "expected_pages": 522,
@@ -558,7 +558,8 @@
   },
   "category_counts": {
     "civilian_professional_or_administrative_grade": 1421,
-    "commissioned_army_officer": 2051,
+    "commissioned_army_officer": 2050,
+    "commissioned_coast_guard_officer": 1,
     "commissioned_naval_officer": 29,
     "enlisted_army_personnel": 3467,
     "enlisted_naval_personnel": 47,

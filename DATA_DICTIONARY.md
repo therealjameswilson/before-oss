@@ -48,6 +48,11 @@ later from reviewed external evidence. Printed `Coast G` notes take precedence
 over generic Army or naval interpretations of ranks such as `Lt`. Unfamiliar
 grades remain `unknown_or_indeterminate` until supported.
 
+Migration 008 rebuilds the `source_records` table with the same complete
+personnel-category constraint used by `person_entities`. This keeps every
+printed row immutable while allowing later reviewed Marine Corps and Coast
+Guard classifications to survive a full from-source rebuild.
+
 ## Important `affiliations` fields
 
 | Field | Meaning |

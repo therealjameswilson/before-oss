@@ -13,7 +13,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/102 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/104 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
   await expect(page.getByText(/broader affiliation measure currently covers 176 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
@@ -1698,7 +1698,7 @@ test("Batch 018 separates continuing academic employment, Army transitions, and 
     page
       .locator('section[aria-labelledby="civilian-employer"]')
       .getByText(
-        "No reviewed claim currently meets the publication threshold.",
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
         { exact: true },
       ),
   ).toBeVisible();
@@ -1736,7 +1736,7 @@ test("Batch 018 separates continuing academic employment, Army transitions, and 
     page
       .locator('section[aria-labelledby="civilian-employer"]')
       .getByText(
-        "No reviewed claim currently meets the publication threshold.",
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
         { exact: true },
       ),
   ).toBeVisible();
@@ -1809,9 +1809,10 @@ test("Batch 019 separates federal and academic employment, Army service, and doc
   await expect(
     page
       .locator('section[aria-labelledby="civilian-employer"]')
-      .getByText("No reviewed claim currently meets the publication threshold.", {
-        exact: true,
-      }),
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
   ).toBeVisible();
 
   await page.goto("./people/2ed25b69-80d3-5c7b-91cd-d70bca18cd2a/");
@@ -3987,6 +3988,74 @@ test("Batch 042 preserves academic, broadcast, Allied, naval, and Coast Guard pa
       .getByRole("heading", { name: "United States Coast Guard", exact: true }),
   ).toBeVisible();
   await expect(page.locator("body")).toContainText("Operational Swimmer Group II");
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 043 separates students, earlier employment, and civilian and military ONI service", async ({
+  page,
+}) => {
+  await page.goto("./people/404292b8-801c-58f0-8f74-6fd447da6adf/");
+  await expect(
+    page.getByRole("heading", { name: "Franklin P Holcomb", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Office of Naval Intelligence", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Marine Reserve officer at ONI");
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Office of Naval Intelligence", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Western Hemisphere Division portfolio officer");
+
+  await page.goto("./people/bb6a423b-f07a-55b3-829a-492f44faf418/");
+  await expect(
+    page.getByRole("heading", { name: "Cora Dubois", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Hunter College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Boston Psychopathic Hospital");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("professional affiliation");
+
+  for (const profile of [
+    ["d086f590-f86d-5535-8411-aa60aa252f01", "Carl E Schorske"],
+    ["78c03a2c-11e1-5f34-bf53-bc76c5f33817", "Franklin L Ford"],
+    ["fb9b02f9-9dfb-5965-8514-fa5b73e3b2c9", "Gordon A Craig"],
+    ["813fb48c-b658-5cdf-a265-ce63acb776fc", "James C Luce"],
+  ]) {
+    await page.goto(`./people/${profile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: profile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+  }
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

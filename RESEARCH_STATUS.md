@@ -9,7 +9,7 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
 | Research-attempt coverage | 289 people with a non-planned attempt | 23,941 person entities | 1.2071% |
 | Verified-affiliation coverage | 176 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7351% |
-| Verified-employer coverage | 102 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4260% |
+| Verified-employer coverage | 104 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4344% |
 | Archival-review coverage | 216 people with an individual file-access/priority assessment | 23,941 person entities | 0.9022% |
 
 ## Extraction and identity
@@ -41,19 +41,19 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Commissioned naval officers: 39
 - Warrant officers: 4
 
-Commissioned classification: 2,111 yes; 4,968 no; 16,862 indeterminate.
+Commissioned classification: 2,111 yes; 4,969 no; 16,861 indeterminate.
 
 ## Research queue and pilot
 
 - `not_started`: 23,652
-- `in_progress`: 85
+- `in_progress`: 79
 - `candidate_found`: 1
 - `needs_identity_review`: 8
-- `documented_prewar_employer_found`: 15
+- `documented_prewar_employer_found`: 16
 - `occupation_only_found`: 18
-- `requires_archival_review`: 34
+- `requires_archival_review`: 38
 - `completed`: 23
-- `verified_employer_found`: 105
+- `verified_employer_found`: 106
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -63,9 +63,9 @@ Commissioned classification: 2,111 yes; 4,968 no; 16,862 indeterminate.
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 209 across 208 people; 12 additional
+- Saved `source_reviewed` outcomes: 215 across 208 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,280
+- Total recorded attempts/plans: 1,286
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 216; 206 have at least one public-eligible
@@ -128,13 +128,13 @@ Commissioned classification: 2,111 yes; 4,968 no; 16,862 indeterminate.
   Frederick Mayer rows, the two separately preserved Milton Felsen rows, Irving
   Goff, Paul H. Gale, Serge Obolensky, Richard G. Arnold-Baker, Everett J.
   Athens, Clarence A. Berdahl, Hugh M. Beville, and John P. Booth Jr.
-- Published affiliations: 344
-- Database claims: 589; public-eligible claims: 576 (86 confirmed, 443 high, 47
+- Published affiliations: 347
+- Database claims: 592; public-eligible claims: 579 (86 confirmed, 446 high, 47
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 483; public source export: 469; unique source documents: 437
-- Canonical organizations: 205 private and 204 public
+- Citation records: 485; public source export: 471; unique source documents: 439
+- Canonical organizations: 207 private and 206 public
 - Conflicts: 0
-- NARA pull-list rows: 23,873
+- NARA pull-list rows: 23,872
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -217,6 +217,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-field-photogr
 python3 -m oss_research import-reviewed-evidence research/evidence-field-officers-musicians-and-mayer-review_batch-040_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-mediterranean-veterans-and-obolensky-review_batch-041_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-analysts-and-maritime-officers_batch-042_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence-scholarship-medicine-and-oni-review_batch-043_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
