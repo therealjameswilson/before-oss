@@ -84,34 +84,35 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30519783276](https://github.com/therealjameswilson/before-oss/actions/runs/30519783276)
+[30523076636](https://github.com/therealjameswilson/before-oss/actions/runs/30523076636)
 and GitHub Pages deployment
-[30519783308](https://github.com/therealjameswilson/before-oss/actions/runs/30519783308)
-for terminal protocols and Allied pathways Batch 045 release `203d43b`
+[30523076615](https://github.com/therealjameswilson/before-oss/actions/runs/30523076615)
+for student, employment, and terminal-protocol Batch 046 release `4c60550`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 17
+count, or redaction state for all 18
 tested targets:
 
 - the home page;
-- Billie F. Akin, Étienne Ancergues, Julia N. Barnhart, Philip H. Chadbourn
-  Jr., Jacqueline M. Landry, Gus Macriyanni, Carl D. Marshall, Constantine
-  Papadopoulos, and Lawrence N. Stevens;
+- S. D. Cater Jr., Millard A. Copeland, Jacques Delmas, Grier Durant, Marshall
+  W. Houts, Shigekata Ikeda, Jane Lester, Jackson E. Nordin, Lucille E.
+  Temple, and Dorothy I. Tolley;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice and full-service-number redaction on
-  the nine reviewed profiles.
+  the ten reviewed profiles and downloads.
 
 The live statistics report 23,978 source rows, 23,941 person entities, 289
-people with non-planned research attempts, 178 verified-affiliation people, 106
-verified-employer people, 226 archival-review assessments, 590 published
-claims, and 482 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 212, 354, and 482 data rows
+people with non-planned research attempts, 180 verified-affiliation people, 107
+verified-employer people, 236 archival-review assessments, 599 published
+claims, and 489 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 214, 358, and 489 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
-full service-number field.
+full service-number field; Millard A. Copeland's full indexed number is absent
+from every downloaded or checked production artifact.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
