@@ -2,30 +2,30 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **35 / 35 passed**
+- Python unit tests: **36 / 36 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,134 pages**
-- Internal link check: **24,134 HTML files passed**
-- Browser and accessibility suite: **159 / 159 passed**
+- Static production build: **24,140 pages**
+- Internal link check: **24,140 HTML files passed**
+- Browser and accessibility suite: **162 / 162 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`259869cbf991a4388529011228d2b12d363a2ce32c0af01282b5c52ce5645da9`)
+  (`7cb313386ddfd41e87f03ab2d027001ff532fcc6d66829f97054c653e8850863`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,214**
+  numbers at least six characters long: **0 full-number matches** in **24,220**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **415** public records representing **387** unique documents
-- Published, qualified affiliations: **314**
-- Published claims: **523**
+- Reviewed public sources: **431** public records representing **400** unique documents
+- Published, qualified affiliations: **322**
+- Published claims: **538**
 - Withheld low-confidence evidence: **11 claims concerning 8 people**
-- Verified-affiliation metric: **162** people with confirmed/high published
+- Verified-affiliation metric: **165** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **96** people with confirmed/high published
+- Verified-employer metric: **98** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -199,3 +199,10 @@ ambiguous Howard C. Ressler and Raymond W. Deisher leads, for which no
 affiliation is published. It also regression-tests stable provenance dates and
 numeric replay ordering so later evidence batches deterministically supersede
 earlier decisions.
+Batch 039 adds checks for Seymour W. Schulberg's Naval Reserve pathway,
+qualified Columbia and RKO last-employer evidence, and earlier Selznick
+employment; Stuart H. Schulberg's Marine Corps pathway and Washington Daily
+News employment; Robert R. Parrish's and Sol Kaplan's occupation-only results;
+and Corey Ford's professional publication relationships. It also tests the new
+enlisted Marine Corps category without forcing unfamiliar grades or wartime
+creative work into unsupported personnel or employer classifications.

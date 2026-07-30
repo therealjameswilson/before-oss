@@ -231,6 +231,34 @@ Rochester directory was also rendered and rejected: the entry belongs to the
 preceding Deisinger listing. The rejected lead and reason are retained in the
 research audit trail; full service numbers remain private.
 
+## Reviewed Field Photographic and media pathways
+
+The thirty-ninth evidence batch used rendered NARA index pages, institutional
+archival authority records from Dartmouth, Indiana University, and the
+University of Wyoming, a near-contemporary Dartmouth alumni account, a
+Washington Post obituary, a Marine Corps Association history, a Library of
+Congress-hosted scholarly book, and the
+[CIA's Hollywood and OSS history](https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/).
+No live NARA Catalog API request or retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Seymour W. Schulberg | Dartmouth's authority record bridges the indexed name to Budd Wilson Schulberg. Naval Reserve service is the explicit immediate military pathway. Columbia and RKO are jointly documented immediately before enlistment, but neither is promoted above the other as chronologically last; earlier Selznick Pictures employment is published separately. |
+| Stuart H. Schulberg | Independent Marine, scholarly, and newspaper sources support the identity and correct the generic rank-based Army category to enlisted Marine Corps personnel. Marine service is the immediate pre-OSS affiliation; the Washington Daily News is the best-supported last civilian employer. |
+| Robert R. Parrish | Indiana University's finding aid and a film-institution biography support the Robert Reese Parrish identity and prewar assistant- and sound-editor occupations. No employing studio or adequately sourced immediate military pathway is inferred; `CSP P` remains unexpanded. |
+| Sol Kaplan | The American Heritage Center finding aid identifies a concert pianist and composer who worked for the Army Signal Corps and OSS. Because it does not establish the order or name a civilian employer, the profile publishes occupation only and sends the sequence to Box 390 review. |
+| Corey Ford | CIA and Dartmouth records support the former OSS member and Army Air Corps colonel identity. Vanity Fair and The Saturday Evening Post are modeled as prewar professional publication relationships, not employers; the immediate pre-OSS assignment remains unresolved. |
+
+Index PDF pages 150, 240, 358, and 415 were rendered at 180 DPI and visually
+checked. They confirm all five rows, including the two adjacent Schulberg
+records, raw ranks, boxes, and locations. Full service numbers remain private
+and are masked from every public page and download.
+
+The Stuart Schulberg review also adds a forward-only
+`enlisted_marine_corps_personnel` category. The migration rebuilds only the
+person-entity classification table, preserves all 23,978 immutable source rows,
+and leaves the raw printed `S/SGT` value unchanged.
+
 ## Official reference material
 
 - NARA OSS personnel records:

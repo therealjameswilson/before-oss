@@ -233,6 +233,7 @@ class PersonUpdateInput(StrictModel):
         "commissioned_naval_officer",
         "warrant_officer",
         "enlisted_army_personnel",
+        "enlisted_marine_corps_personnel",
         "enlisted_naval_personnel",
         "civilian_professional_or_administrative_grade",
         "foreign_or_allied_military_personnel",

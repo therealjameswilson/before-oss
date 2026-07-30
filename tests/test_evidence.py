@@ -259,6 +259,30 @@ class ReviewedEvidenceTests(unittest.TestCase):
         )
         self.assertEqual(person["commissioned_officer"], 1)
 
+    def test_review_can_correct_generic_rank_to_enlisted_marine(self) -> None:
+        bundle = self._bundle()
+        bundle["person_updates"][0]["personnel_category"] = (
+            "enlisted_marine_corps_personnel"
+        )
+        bundle["person_updates"][0]["commissioned_officer"] = False
+        path = Path(self.temp_dir.name) / "enlisted-marine-bundle.json"
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+
+        import_reviewed_evidence(self.connection, path)
+
+        person = self.connection.execute(
+            """
+            SELECT personnel_category, commissioned_officer
+            FROM person_entities
+            WHERE person_id = 'person-1'
+            """
+        ).fetchone()
+        self.assertEqual(
+            person["personnel_category"],
+            "enlisted_marine_corps_personnel",
+        )
+        self.assertEqual(person["commissioned_officer"], 0)
+
     def test_public_claim_requires_source(self) -> None:
         bundle = self._bundle()
         bundle["claims"][0]["sources"] = []

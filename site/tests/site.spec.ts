@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/96 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/98 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 162 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 165 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3714,6 +3714,67 @@ test("Batch 038 distinguishes the Velleman brothers and withholds incomplete Are
       page.locator('section[aria-labelledby="immediate-affiliation"]'),
     ).toContainText("No reviewed claim currently meets the publication threshold.");
   }
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 039 preserves film, media, military, and occupation-only boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/b7a8a36f-3f0e-54c1-a0ff-23c840498501/");
+  await expect(
+    page.getByRole("heading", { name: "Seymour W Schulberg", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Budd Wilson Schulberg");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Naval Reserve", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Columbia Pictures",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("RKO");
+  await expect(page.locator("body")).toContainText("Selznick Pictures");
+
+  await page.goto("./people/63d92813-94cd-578e-942a-c2bdc37a92d8/");
+  await expect(
+    page.getByRole("heading", { name: "Stuart H Schulberg", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("enlisted marine corps personnel");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Marine Corps");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Washington Daily News",
+  );
+
+  await page.goto("./people/47b86de9-0ac5-583a-9eae-707215c42f9f/");
+  await expect(
+    page.getByRole("heading", { name: "Robert R Parrish", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("assistant editor and sound editor");
+  await expect(page.locator("body")).toContainText("CSP P");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/92b2503f-4ea7-5399-8362-16f04547fe7d/");
+  await expect(page.getByRole("heading", { name: "Sol Kaplan", exact: true })).toBeVisible();
+  await expect(page.locator("body")).toContainText("pianist and composer");
+  await expect(page.locator("body")).toContainText("Army Signal Corps");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/cb463c42-75dd-58ee-8222-d192e2b2c684/");
+  await expect(page.getByRole("heading", { name: "Corey Ford", exact: true })).toBeVisible();
+  await expect(page.locator("body")).toContainText("commissioned army officer");
+  await expect(page.locator("body")).toContainText("Vanity Fair");
+  await expect(page.locator("body")).toContainText("The Saturday Evening Post");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,134 HTML files. Every relative
+**PASS.** The production build contains 24,140 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 185 organization profiles, and the
+The build includes 23,941 person profiles, 191 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,296 unique external URLs for separate live
+The checker inventoried 48,312 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -34,6 +34,15 @@ verification; external responses do not affect the internal-route pass.
 | CIA, *War of a Different Kind* PDF | HTTP 200 |
 | CIA, *Intelligence Operations of OSS Detachment 101* | HTTP 200 |
 | CIA, *A Memoir of Jed Team Frederick* PDF | HTTP 200 |
+| CIA, “Hollywood and the Office of Strategic Services” | HTTP 200 |
+| Dartmouth Libraries, Budd Schulberg authority record | HTTP 200 |
+| Dartmouth Libraries, Corey Ford authority record | HTTP 200 |
+| Marine Corps Association, “Marine on the Scene” PDF | HTTP 206 partial-content response |
+| Library of Congress-hosted, *Filming the End of the Holocaust* | HTTP 206 partial-content response |
+| Indiana University, Robert Parrish manuscripts | HTTP 200 |
+| American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |
+| Dartmouth Alumni Magazine, Budd Schulberg and Corey Ford articles | Reviewed through the research browser; command-line requests timed out |
+| Washington Post, Stuart Schulberg obituary | Reviewed through the research browser; command-line request timed out |
 | Prince Albert *Daily Herald*, “Veteran of Lofoten Raid” | Text reviewed through the research browser; command-line image retrieval returned HTTP 403 |
 | Washington Post, “W. Scudder Georgia Dies” | Accessible through the research browser; command-line curl timed out |
 | NPS report mirror, *OSS Training in the National Parks and Service Abroad* | Accessible through the research browser; command-line curl returned HTTP 406 |
