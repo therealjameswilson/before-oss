@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/118 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 196 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 197 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5970,4 +5970,99 @@ test("Batch 067 confirms Spencer Alexander's OSS identity while preserving eight
   await expect(page.locator("body")).toContainText(
     "United States Office of Price Administration",
   );
+});
+
+test("Batch 068 confirms Alexatos's qualified Greek Battalion pathway and routes nine unresolved profiles to Box 9", async ({
+  page,
+}) => {
+  const terminalProfiles = [
+    ["259061e7-af4d-55f4-8cc3-d642397cbfa9", "Indigo Alfalfa"],
+    ["e738b33c-db68-5d62-ad38-f22dcd32eb71", "Indalicico Alfaro"],
+    ["81059752-a755-5fd0-9c0e-1d44fa9ce75b", "Guiseppe Alfieri"],
+    ["de8da4dc-6d73-56bb-8b86-c6dd5e56ec12", "Marie L Alfonsi"],
+    ["e634d38f-7008-5ce7-bb64-1e21028adf6d", "Everett P Alford"],
+    ["5dbddf45-b7c6-52e1-a175-fd7cf633b3e1", "Howard Alford"],
+    ["d184456c-4cf2-5c17-9529-dac765f2045f", "Hudson Alford"],
+    ["84d4ff8a-59dd-5ab1-9a33-f982df196e08", "Mary I Alford"],
+    ["a3477668-6677-5bfc-899f-d0e58b532058", "Hugh S Alger"],
+  ];
+
+  for (const [personId, displayName] of terminalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("9", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/b966a9bd-4588-52ea-bee6-053c0b7ac1bb/");
+  await expect(
+    page.getByRole("heading", { name: "James K Alexatos", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "122nd Infantry Battalion (Separate)",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "best-supported immediate pre-OSS assignment",
+  );
+  await expect(page.locator("body")).toContainText(
+    "same-private-identifier James Kalexatos file in Box 388",
+  );
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS civilian employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "10th Mountain Division Name Index",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://history.denverlibrary.org/sites/history/files/10th%20Mountain%20Division%20Name%20Index%20%281%29.pdf",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "OSS Behind the Lines in Greece",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://dokumen.pub/after-the-battle-behind-the-scenes-with-the-oss-in-greece-186.html",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
+
+  await page.goto(
+    "./organizations/2405baa3-705e-5fce-9a65-25d343587817/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "122nd Infantry Battalion (Separate)",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Greek Battalion");
+  await expect(
+    page.getByRole("link", { name: "James K Alexatos", exact: true }),
+  ).toBeVisible();
 });

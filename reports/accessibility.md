@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 246 / 246 browser cases.**
+**PASS - 249 / 249 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-118-person employer measure is labeled separately from the 196-person broader
+118-person employer measure is labeled separately from the 197-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -587,6 +587,16 @@ affiliation. It also confirms Sidney's NBER and OPA evidence remains unchanged
 and checks field-level serial masking. The complete desktop, phone, and tablet
 matrix passed 246 / 246 with no remaining assertion or serious/critical axe
 failure.
+
+The Batch 068 regression checks the contiguous James K. Alexatos-through-Hugh
+S. Alger sequence on PDF page five. It verifies Alexatos's confirmed identity,
+the strongly date-bounded 122nd Infantry Battalion military pathway, its
+unit-level temporal qualification, the later 85th Infantry record's
+identity-only use, and the visible unmerged James Kalexatos duplicate warning.
+It also checks nine dignified Box 9 archival-review outcomes, preservation of
+the printed `Guiseppe` spelling and unfamiliar `Mayer` grade, citation access,
+and field-level serial masking. The complete desktop, phone, and tablet matrix
+passed 249 / 249 with no remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

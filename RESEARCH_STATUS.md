@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 497 people with a non-planned attempt | 23,941 person entities | 2.0759% |
-| Verified-affiliation coverage | 196 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8187% |
+| Research-attempt coverage | 507 people with a non-planned attempt | 23,941 person entities | 2.1177% |
+| Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 444 people with an individual file-access/priority assessment | 23,941 person entities | 1.8546% |
+| Archival-review coverage | 454 people with an individual file-access/priority assessment | 23,941 person entities | 1.8963% |
 
 ## Extraction and identity
 
@@ -21,11 +21,11 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 210
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 20
+- Identity status `confirmed`: 21
 - Identity status `high_confidence`: 244
 - Identity status `probable`: 16
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,646
+- Identity status `unresolved`: 23,645
 
 ## Personnel categories
 
@@ -45,15 +45,15 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,444
+- `not_started`: 23,434
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 21
-- `requires_archival_review`: 239
+- `requires_archival_review`: 248
 - `completed`: 33
-- `verified_employer_found`: 119
+- `verified_employer_found`: 120
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 226
+- Reviewed-web terminal-protocol attempts recorded: 236
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 273 across 259 people; 15 additional
+- Saved `source_reviewed` outcomes: 274 across 260 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,521
+- Total recorded attempts/plans: 1,531
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 254; 242 have at least one public-eligible
+- People with saved reviewed claims: 255; 243 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -301,13 +301,28 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
   transfer, not a pre-OSS affiliation. Eight other newly researched profiles
   remain unresolved, and all nine newly assessed files route to Box 9 without
   unsupported employer claims.
-- Published affiliations: 394
-- Database claims: 684; public-eligible claims: 669 (95 confirmed, 509 high, 65
+  Batch 068 continued through James K. Alexatos, Indigo Alfalfa, Indalicico
+  Alfaro, Guiseppe Alfieri, Marie L. Alfonsi, Everett P. Alford, Howard Alford,
+  Hudson Alford, Mary I. Alford, and Hugh S. Alger. Institutional and official
+  rosters confirm Alexatos's identity through his uncommon full name, grade,
+  and matching masked private identifier. The best-supported immediate pre-OSS
+  pathway is his assignment to the 122nd Infantry Battalion (Separate), Greek
+  Battalion, at Camp Carson; it is published as strongly date-bounded
+  unit-level evidence rather than as an explicitly documented personal
+  transfer. A later 85th Infantry record is used only to corroborate identity.
+  A separate `James Kalexatos` index row carries the same masked identifier and
+  remains a visible possible duplicate pending a direct Box 9/Box 388 file
+  comparison. The other nine profiles remain unresolved and route to their
+  indexed Box 9 files without unsupported employer claims. The printed
+  `Guiseppe` spelling and Indigo Alfalfa's unfamiliar `Mayer` grade are
+  preserved without silent correction or forced classification.
+- Published affiliations: 395
+- Database claims: 686; public-eligible claims: 671 (96 confirmed, 510 high, 65
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 786; public source export: 578; unique source documents: 535
-- Canonical organizations: 236 private and 234 public
+- Citation records: 799; public source export: 582; unique source documents: 538
+- Canonical organizations: 237 private and 235 public
 - Conflicts: 0
-- NARA pull-list rows: 23,859
+- NARA pull-list rows: 23,858
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

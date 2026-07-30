@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,183 HTML files. Every relative
+**PASS.** The production build contains 24,184 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 234 organization profiles, and the
+The build includes 23,941 person profiles, 235 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,450 unique external URLs for separate live
+The checker inventoried 48,454 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -247,3 +247,15 @@ local files byte-for-byte. The deployed and local manifest SHA-256 is
 A boundary-aware comparison of all 12,919 private normalized identifiers
 against 51 uncompressed live HTML, data, and download artifacts returned zero
 matches.
+
+## Batch 068 local release check
+
+The rebuilt site contains direct, internally resolved routes for James K.
+Alexatos, Indigo Alfalfa, Indalicico Alfaro, Guiseppe Alfieri, Marie L.
+Alfonsi, Everett P. Alford, Howard Alford, Hudson Alford, Mary I. Alford, and
+Hugh S. Alger. Alexatos's profile exposes the cited, strongly date-bounded
+122nd Infantry Battalion military pathway, its unit-level temporal
+qualification, the later 85th Infantry identity corroboration, and the visible
+unmerged James Kalexatos duplicate warning. The other nine profiles route to
+Box 9 review without unsupported claims. The complete local link checker
+passed all 24,184 HTML files and inventoried 48,454 unique external URLs.
