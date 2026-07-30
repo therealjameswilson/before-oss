@@ -126,23 +126,24 @@ HTML files and inventoried 48,449 unique external URLs.
 ## Production deployment
 
 GitHub Actions test workflow
-[30569694384](https://github.com/therealjameswilson/before-oss/actions/runs/30569694384)
+[30573046321](https://github.com/therealjameswilson/before-oss/actions/runs/30573046321)
 and GitHub Pages deployment
-[30569694861](https://github.com/therealjameswilson/before-oss/actions/runs/30569694861)
-for fourth-page Alchevesky-through-Aldrich Batch 064 release `20a16c4`
+[30573046371](https://github.com/therealjameswilson/before-oss/actions/runs/30573046371)
+for fourth-and-fifth-page Aldrich-through-Alexander Batch 065 release `3c0ca27`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 23
+count, or redaction state for all 25
 tested targets:
 
 - the home page;
 - the personnel directory;
-- Leonard Alchevesky, Romolo Alcini, Robert H. Alcorn, Carroll D. Alcott,
-  Maurina J. Aldecoa, Douglas W. Alden, Joseph E. Alderdice, James A. Alderman,
-  Graham Aldis, and Eleanor B. Aldrich;
-- the Station WLW organization profile;
+- Harry S. Aldrich, Mary Aldrich, Wilson H. Aldrich, Thomas J. Aldridge,
+  Arlene V. Ale, Janice H. Ale, Albert W. Alessi, Frank J. Alessi, Humbert
+  Alessi, and Alexander Alexander;
+- the United States Army, American Military Mission to China, and United States
+  Army Coast Artillery Corps organization profiles;
 - the analysis page;
 - the methodology page;
 - the sources page;
@@ -151,20 +152,20 @@ tested targets:
 - `data/public_build_manifest.json`;
 - and all four public CSV downloads.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 468
-people with non-planned research attempts, 195 verified-affiliation people, 118
-verified-employer people, 415 archival-review assessments, 663 published
-claims, and 572 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 231, 390, and 572 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 478
+people with non-planned research attempts, 196 verified-affiliation people, 118
+verified-employer people, 425 archival-review assessments, 668 published
+claims, and 576 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 234, 394, and 576 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
-full service-number field. A boundary-aware comparison of all 12,799 private
-normalized identifiers against 53 uncompressed live artifacts—all person-data
-shards, major public data assets, downloads, the checked Batch 064 profiles,
+full service-number field. A boundary-aware comparison of all 12,919 private
+normalized identifiers against 54 uncompressed live artifacts—all person-data
+shards, major public data assets, downloads, the checked Batch 065 profiles,
 and representative publication pages—returned
 zero matches. All 65 manifest-listed
 assets were downloaded and matched both the manifest and local SHA-256 values
 byte-for-byte. The deployed and local manifest files share SHA-256
-`acb92bf5b94ed841cb3fa223175c076338c93e01240b143703d093995939c367`.
+`42dd143b80baebc316cb0eb8f4b428aef56d7430711540f3de47d1811d5c9f25`.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
