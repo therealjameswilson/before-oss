@@ -75,31 +75,32 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30516252464](https://github.com/therealjameswilson/before-oss/actions/runs/30516252464)
+[30518039585](https://github.com/therealjameswilson/before-oss/actions/runs/30518039585)
 and GitHub Pages deployment
-[30516252437](https://github.com/therealjameswilson/before-oss/actions/runs/30516252437)
-for scholarship, medicine, and ONI chronology Batch 043 release `e123405`
+[30518039661](https://github.com/therealjameswilson/before-oss/actions/runs/30518039661)
+for employment transitions and terminal protocols Batch 044 release `54a2ae9`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 14
+count, or redaction state for all 17
 tested targets:
 
 - the home page;
-- Carl E. Schorske, Cora Du Bois, Franklin L. Ford, Franklin P. Holcomb,
-  Gordon A. Craig, and James C. Luce;
+- Edna W. Andrade, Mort S. Bobrow, Edmund M. Burke, Jane Burrell, John H.
+  Hemingway, Conrad F. LaGueux, John Magruder, Peter M. F. Sichel, and the
+  adjacent Peter M. Sichel row;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice and full-service-number redaction on
-  the six changed profiles.
+  the nine reviewed profiles.
 
 The live statistics report 23,978 source rows, 23,941 person entities, 289
-people with non-planned research attempts, 176 verified-affiliation people, 104
-verified-employer people, 216 archival-review assessments, 579 published
-claims, and 471 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 206, 347, and 471 data rows
+people with non-planned research attempts, 176 verified-affiliation people, 106
+verified-employer people, 217 archival-review assessments, 585 published
+claims, and 475 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 210, 351, and 475 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
