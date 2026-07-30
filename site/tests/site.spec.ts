@@ -4728,3 +4728,49 @@ test("Batch 053 publishes Donald Keith Adams's Duke pathway and preserves nine u
     "unlinked 1941 Dallas directory copywriter lead",
   );
 });
+
+test("Batch 054 preserves ten common-name Adams cases and their Box 3 or Box 4 archival routes", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["5cdfcf25-c06d-5dc6-a352-07307ebc2bff", "James T Adams", "3"],
+    ["93e94718-f1a9-5824-9887-1c0d601d79d7", "John H Adams", "3"],
+    ["f1a4c3b6-0d4b-519b-8fb7-4935911e56fd", "Lou A Adams", "3"],
+    ["6b352679-550a-5c4d-bd0e-9e4b85f2b2d4", "Paul Adams", "3"],
+    ["62a30117-937c-570d-99a4-dce86c19cc30", "Phillip Adams", "3"],
+    ["02eb8833-34f7-553c-857e-0fbb16dcd2fa", "Robert E Adams", "4"],
+    ["90ec5a1a-02e9-56fc-b9d7-ad8bd8d3a375", "Ruth D Adams", "4"],
+    ["cc1f026b-d636-56e9-a487-4f95aee46c92", "Sidney M Adams", "4"],
+    ["0d873fa4-51aa-5d01-9262-ca773bfe985e", "Thomas F Adams", "4"],
+    ["6b9e3edd-e0ce-5389-8798-4e10375db04e", "Willard A Adams", "4"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page
+        .locator(".profile-aside")
+        .getByText(terminalProfile[2], { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/0d873fa4-51aa-5d01-9262-ca773bfe985e/");
+  await expect(page.locator("body")).toContainText(
+    "Adams, McEntee & Co. photograph-file lead",
+  );
+
+  await page.goto("./people/02eb8833-34f7-553c-857e-0fbb16dcd2fa/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned army officer",
+  );
+});

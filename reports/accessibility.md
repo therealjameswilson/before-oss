@@ -455,5 +455,14 @@ affiliation and last-civilian-employer sections, institutional citations, and
 field-level serial masking. The complete desktop, phone, and tablet matrix
 passed 204 / 204 with no remaining assertion or serious/critical axe failure.
 
+The Batch 054 regression checks ten newly completed profiles from James T.
+Adams through Willard A. Adams. It verifies their Box 3 or Box 4 archival
+routes, terminal research state, approved unresolved-employer wording, and
+field-level serial masking. It keeps the same-rank James T. Adams lead and the
+Library of Congress Adams, McEntee & Co. lead for Thomas F. Adams qualified
+and unassigned, while preserving commissioned-Army classification for the
+three indexed captains. The complete desktop, phone, and tablet matrix passed
+207 / 207 with no remaining assertion or serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

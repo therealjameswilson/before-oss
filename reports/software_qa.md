@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **204 / 204 passed**
+- Browser and accessibility suite: **207 / 207 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`835d30231cddc1204a35fae5e3a1c64bc22643b8c383545f6d565f3641d1e77a`)
+  (`454998c8dfadb4cbec13e888381ae48d679455ed819665c6ca752b1ecefec763`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**

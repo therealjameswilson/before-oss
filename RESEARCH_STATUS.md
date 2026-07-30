@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 359 people with a non-planned attempt | 23,941 person entities | 1.4995% |
+| Research-attempt coverage | 369 people with a non-planned attempt | 23,941 person entities | 1.5413% |
 | Verified-affiliation coverage | 185 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7727% |
 | Verified-employer coverage | 110 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4595% |
-| Archival-review coverage | 306 people with an individual file-access/priority assessment | 23,941 person entities | 1.2781% |
+| Archival-review coverage | 316 people with an individual file-access/priority assessment | 23,941 person entities | 1.3199% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 15
-- Identity status `high_confidence`: 228
+- Identity status `high_confidence`: 229
 - Identity status `probable`: 10
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,674
+- Identity status `unresolved`: 23,673
 
 ## Personnel categories
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,582
+- `not_started`: 23,572
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 17
 - `occupation_only_found`: 20
-- `requires_archival_review`: 120
+- `requires_archival_review`: 130
 - `completed`: 29
 - `verified_employer_found`: 112
 - Stratified pilot size: 75
@@ -61,12 +61,12 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 88
+- Reviewed-web terminal-protocol attempts recorded: 98
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 248 across 234 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,383
+- Total recorded attempts/plans: 1,393
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 227; 217 have at least one public-eligible
@@ -160,10 +160,16 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   Adams, George K. Adams Jr., and Glenn D. Adams. Donald Keith Adams's
   immediate and last civilian employer is documented as Duke University;
   the other nine profiles route to Box 3 review.
+  Batch 054 additionally reviewed James T. Adams, John H. Adams, Lou A. Adams,
+  Paul Adams, Phillip Adams, Robert E. Adams, Ruth D. Adams, Sidney M. Adams,
+  Thomas F. Adams, and Willard A. Adams. All ten remain unresolved after the
+  minimum protocol and route to Box 3 or Box 4 review. A same-rank James T.
+  Adams lead and the Library of Congress Adams, McEntee & Co. lead for Thomas
+  F. Adams remain visible for file comparison but are not published as facts.
 - Published affiliations: 368
 - Database claims: 630; public-eligible claims: 617 (90 confirmed, 475 high, 52
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 600; public source export: 508; unique source documents: 484
+- Citation records: 610; public source export: 508; unique source documents: 485
 - Canonical organizations: 221 private and 220 public
 - Conflicts: 0
 - NARA pull-list rows: 23,866
@@ -264,6 +270,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-first-page-ab
 python3 -m oss_research import-reviewed-evidence research/evidence-first-and-second-page-ackelmire-through-acord-archival-pathways_batch-051_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-acosta-through-adams-archival-pathways_batch-052_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-and-duke-pathway_batch-053_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-archival-pathways_batch-054_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
