@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/94 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/95 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 156 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 160 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3441,6 +3441,133 @@ test("Batch 035 preserves communications, occupation-only, Army-pathway, and sel
   ).toHaveAttribute(
     "href",
     "https://www.cia.gov/resources/csi/static/OSS-and-Free-Thai.pdf",
+  );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 036 preserves communications pathways, unnamed employers, student status, and duplicate uncertainty", async ({
+  page,
+}) => {
+  await page.goto("./people/46e3bd6e-3f4a-59d4-b4e3-52a9aeb1a3a0/");
+  await expect(
+    page.getByRole("heading", { name: "Lawrence Hollander", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Lawyer", exact: true }),
+  ).toBeVisible();
+  const civilianEmployerSection = page.locator(
+    'section[aria-labelledby="civilian-employer"]',
+  );
+  await expect(civilianEmployerSection).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    civilianEmployerSection.getByRole("heading", {
+      name: "Self-employed",
+      exact: true,
+    }),
+  ).toHaveCount(0);
+  await expect(page.locator("body")).toContainText("duplicate-36fe462e632d");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "OSS Training in the National Parks and Service Abroad in World War II",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", /ossreborn\.com/);
+
+  await page.goto("./people/dfef5646-c18d-5421-b981-9b3f3b573cf8/");
+  await expect(
+    page.getByRole("heading", { name: "L L Hollander", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true })).toBeVisible();
+  await expect(page.locator("body")).toContainText("duplicate-36fe462e632d");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).not.toContainText(
+    "Hollander was a lawyer in Chicago immediately before OSS recruitment.",
+  );
+
+  await page.goto("./people/00a5d0a9-dc9b-5185-a142-b81a5395cbed/");
+  await expect(
+    page.getByRole("heading", { name: "Marvin S Flisser", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Brooklyn College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText(
+    "student",
+  );
+
+  await page.goto("./people/2d2a4f2a-652a-56f0-94f4-c7f0af234134/");
+  await expect(
+    page.getByRole("heading", { name: "Willis S Georgia Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("W. Scudder Georgia Jr.");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Navy", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "Hobart and William Smith Colleges",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/96468b14-dc3d-58df-b454-ba38f51d4cfe/");
+  await expect(
+    page.getByRole("heading", { name: "Robert R Kehoe", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Signal Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "a chemical plant (not named)",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "A Memoir of Jed Team Frederick: An Allied Team with the French Resistance, 1944",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/resources/csi/static/Allied-Team-French-Resistance.pdf",
   );
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);

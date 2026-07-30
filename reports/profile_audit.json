@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:22:15+00:00",
+  "generated_at": "2026-07-30T00:51:23+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -16,10 +16,10 @@
     "commissioned_army_officer": 30,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 26,
+    "enlisted_army_personnel": 25,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 18,
-    "unknown_or_indeterminate": 86,
+    "unknown_or_indeterminate": 87,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -29,30 +29,31 @@
     "4": 40
   },
   "identity_status_counts": {
+    "ambiguous": 1,
     "high_confidence": 25,
     "probable": 1,
-    "unresolved": 174
+    "unresolved": 173
   },
   "research_status_counts": {
     "completed": 2,
     "documented_prewar_employer_found": 3,
     "in_progress": 5,
-    "not_started": 174,
+    "not_started": 173,
     "occupation_only_found": 1,
-    "requires_archival_review": 4,
+    "requires_archival_review": 5,
     "verified_employer_found": 11
   },
   "special_strata_counts": {
     "commissioned": 38,
     "civilian": 24,
-    "enlisted": 30,
+    "enlisted": 29,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 21,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 21,
     "medium_published_claim": 10,
     "conflicting_published_claim": 0,
-    "unresolved_identity": 174
+    "unresolved_identity": 173
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research.",
@@ -233,7 +234,6 @@
     "234735bc-1884-5041-8a01-05d66854340c",
     "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
     "30f0d68c-d021-5e23-8f16-99496a0f99a5",
-    "37fccf8f-54be-547d-b7a7-0b2edd06f719",
     "1147408f-3793-5ab4-9176-58a04dd8ad5f",
     "f7687b71-e238-5390-a43c-2552d9e641d6",
     "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
@@ -258,6 +258,7 @@
     "b58f40d0-800d-5896-a000-739c99c91902",
     "0e775c55-4587-5dd5-a362-49e047ca33c3",
     "9c74bb04-6646-58e2-b695-57739805d6a3",
-    "2a494735-4d57-58f8-a815-4f23a947288f"
+    "2a494735-4d57-58f8-a815-4f23a947288f",
+    "df0a8e7e-1c96-5f93-a69e-186d90ee2a94"
   ]
 }

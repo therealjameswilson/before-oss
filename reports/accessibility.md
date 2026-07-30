@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 147 / 147 browser cases.**
+**PASS - 150 / 150 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -24,7 +24,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-94-person employer measure is labeled separately from the 156-person broader
+95-person employer measure is labeled separately from the 160-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -291,6 +291,12 @@ The Batch 035 focused run caught one assertion whose capitalization did not
 match the rendered probable-identity evidence. It was replaced with the exact
 public claim language. The complete desktop, phone, and tablet matrix then
 passed 147 / 147 with no remaining assertion or axe failure.
+
+The Batch 036 focused run replaced three assertions aimed at private explanatory
+notes with checks against the rendered unresolved-employer language, student
+relationship, and explicitly unnamed employer heading. The complete desktop,
+phone, and tablet matrix then passed 150 / 150 with no remaining assertion or
+axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

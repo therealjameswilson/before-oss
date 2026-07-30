@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,133 pages**
 - Internal link check: **24,133 HTML files passed**
-- Browser and accessibility suite: **147 / 147 passed**
+- Browser and accessibility suite: **150 / 150 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`c7efb59c15f002e7ee71405a6161be6d2969021fd25bc37a9bade7b26a5afe36`)
+  (`ce0abcb9972286dc6298bf0c170042699e1c19dd0d2b8ed52f148ff5ab485f7f`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,13 +19,13 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,213**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **394** public records representing **367** unique documents
-- Published, qualified affiliations: **304**
-- Published claims: **502**
-- Withheld low-confidence identity candidates: **3**
-- Verified-affiliation metric: **156** people with confirmed/high published
+- Reviewed public sources: **403** public records representing **375** unique documents
+- Published, qualified affiliations: **310**
+- Published claims: **512**
+- Withheld low-confidence identity candidates: **5**
+- Verified-affiliation metric: **160** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **94** people with confirmed/high published
+- Verified-employer metric: **95** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -177,3 +177,10 @@ operations leadership; John M. Balsamo's probable, occupation-only Wall Street
 telegrapher identification without a guessed firm; William R. Peers's qualified
 Army pathway without an invented civilian employer; and Nicol Smith's
 self-employed travel writing without assigning a publisher as employer.
+Batch 036 adds checks for Lawrence Hollander's documented lawyer occupation
+without inventing a firm or private practice; preserves the L. L. Hollander row
+as a separate ambiguous entity in the same duplicate-review group; keeps Marvin
+S. Flisser's Brooklyn College student affiliation outside employer analytics;
+separates Willis S. Georgia Jr.'s Navy assignment from student history; and
+records Robert R. Kehoe's Signal Corps pathway and unnamed chemical-plant work
+without guessing the company.
