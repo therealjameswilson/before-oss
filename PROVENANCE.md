@@ -401,6 +401,39 @@ The Smithsonian and other copyrighted sources are not copied into the
 repository. The evidence bundle retains citation metadata, project-authored
 paraphrases, and short excerpts within the project's 25-word limit.
 
+## Reviewed terminal protocols and Allied pathways
+
+The forty-fifth evidence batch completed nine bounded review protocols. It
+combined rendered NARA index rows with the French Service historique de la
+Défense personnel-file catalog, Fondation Charles de Gaulle and Free French
+naval rosters, a British Normandy Memorial research profile grounded in SHD
+records, and a reputable obituary. No live NARA Catalog API request or retained
+API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Billie F. Akin | Exact-name, employer, occupation, official-source, newspaper, directory, obituary, and archival searches did not establish an identity beyond the CAF-7 index row. Box 7 is required; no employer is invented. |
+| Étienne Ancergues | The French note, officer grade, SHD file pointer, full-name rosters, naval-radio rank, BCRA attachment, and Sussex mission support a high-confidence identity. His French Navy service is earlier military history; the BCRA assignment begun 1 February 1944 is the strongly date-bounded immediate pathway into joint OSS/SIS training, not a civilian employer. |
+| Julia N. Barnhart | The accessible protocol did not securely distinguish the SP-7 record from namesakes or identify an employer. Box 38 and contemporary personnel records are the next action. |
+| Philip H. Chadbourn Jr. | The uncommon name, suffix, Major rank, 1939 Harvard graduation, and OSS parachute service support a high-confidence identity. Harvard is published only as student status; Box 115 is required to resolve the 1939-to-wartime interval and immediate predecessor. |
+| Jacqueline M. Landry | Married-name and namesake candidates lacked corroborating OSS identifiers and prewar chronology. Box 430 remains necessary. |
+| Gus Macriyanni | A spelling-variant cemetery/genealogy lead lacked service-number or OSS linkage and was rejected. The private service number and Box 473 file are required for identity resolution. |
+| Carl D. Marshall | Wrong-initial and OCR-token candidates did not match the private service identifier or OSS context. Box 485 and Army records are required. |
+| Constantine Papadopoulos | The common name produced an unrelated Greek political figure and other unsupported namesakes. Box 583 and naval records are required before any affiliation can be published. |
+| Lawrence N. Stevens | Common-name and wrong-initial naval candidates lacked Ensign, OSS, or pre-service corroboration. Box 745 remains the archival next action. |
+
+Index PDF pages 4, 8, 23, 75, 264, 289, 296, 356, and 448 were rendered at
+180 DPI and visually checked. Page 8 confirms that `14` is Ancergues's box,
+not his PDF page. All nine rows, ranks or civilian grades, boxes, notes, and
+archival locations match the immutable source records. Full service numbers
+remain private and are masked from every public page and download.
+
+The French roster's January 1941 value is retained as Free French entry context
+and is not silently converted into a BCRA start date. The more specific
+institutional biography dates Ancergues's BCRA volunteer entry to 1 February
+1944; the profile preserves that distinction and routes the formal
+BCRA/SIS/OSS administrative relationship to paired NARA and SHD file review.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -8,9 +8,9 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
 | Research-attempt coverage | 289 people with a non-planned attempt | 23,941 person entities | 1.2071% |
-| Verified-affiliation coverage | 176 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7351% |
+| Verified-affiliation coverage | 178 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7435% |
 | Verified-employer coverage | 106 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4428% |
-| Archival-review coverage | 217 people with an individual file-access/priority assessment | 23,941 person entities | 0.9064% |
+| Archival-review coverage | 226 people with an individual file-access/priority assessment | 23,941 person entities | 0.9440% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 14
-- Identity status `high_confidence`: 220
+- Identity status `high_confidence`: 222
 - Identity status `probable`: 9
 - Identity status `ambiguous`: 11
-- Identity status `unresolved`: 23,687
+- Identity status `unresolved`: 23,685
 
 ## Personnel categories
 
@@ -41,18 +41,18 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Commissioned naval officers: 39
 - Warrant officers: 4
 
-Commissioned classification: 2,111 yes; 4,969 no; 16,861 indeterminate.
+Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
 - `not_started`: 23,652
-- `in_progress`: 71
+- `in_progress`: 62
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 16
 - `occupation_only_found`: 18
-- `requires_archival_review`: 40
-- `completed`: 27
+- `requires_archival_review`: 48
+- `completed`: 28
 - `verified_employer_found`: 108
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -60,16 +60,16 @@ Commissioned classification: 2,111 yes; 4,969 no; 16,861 indeterminate.
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
-- Reviewed-official-web attempts recorded: 28
-- Reviewed-web terminal-protocol attempts recorded: 1
+- Reviewed-official-web attempts recorded: 30
+- Reviewed-web terminal-protocol attempts recorded: 8
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 223 across 209 people; 12 additional
+- Saved `source_reviewed` outcomes: 232 across 218 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,294
+- Total recorded attempts/plans: 1,303
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 216; 206 have at least one public-eligible
+- People with saved reviewed claims: 218; 208 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -129,11 +129,14 @@ Commissioned classification: 2,111 yes; 4,969 no; 16,861 indeterminate.
   Frederick Mayer rows, the two separately preserved Milton Felsen rows, Irving
   Goff, Paul H. Gale, Serge Obolensky, Richard G. Arnold-Baker, Everett J.
   Athens, Clarence A. Berdahl, Hugh M. Beville, and John P. Booth Jr.
-- Published affiliations: 351
-- Database claims: 598; public-eligible claims: 585 (86 confirmed, 452 high, 47
+  Batch 045 additionally reviewed Billie F. Akin, Étienne Ancergues, Julia N.
+  Barnhart, Philip H. Chadbourn Jr., Jacqueline M. Landry, Gus Macriyanni, Carl
+  D. Marshall, Constantine Papadopoulos, and Lawrence N. Stevens.
+- Published affiliations: 354
+- Database claims: 603; public-eligible claims: 590 (86 confirmed, 457 high, 47
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 489; public source export: 475; unique source documents: 443
-- Canonical organizations: 211 private and 210 public
+- Citation records: 503; public source export: 482; unique source documents: 456
+- Canonical organizations: 213 private and 212 public
 - Conflicts: 0
 - NARA pull-list rows: 23,870
 
@@ -224,6 +227,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-mediterranean
 python3 -m oss_research import-reviewed-evidence research/evidence-analysts-and-maritime-officers_batch-042_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-scholarship-medicine-and-oni-review_batch-043_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-employment-transitions-and-terminal-reviews_batch-044_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-terminal-protocol-and-allied-pathways_batch-045_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

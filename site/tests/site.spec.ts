@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/106 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 176 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 178 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4175,5 +4175,85 @@ test("Batch 044 adds supported employers while preserving student, military, and
     await expect(
       page.getByText(terminalProfile[2], { exact: true }).first(),
     ).toBeVisible();
+  }
+});
+
+test("Batch 045 publishes the Allied pathway while routing unresolved cases to archival review", async ({
+  page,
+}) => {
+  await page.goto("./people/b9907bf8-4544-55fe-85a2-e99e9530df73/");
+  await expect(
+    page.getByRole("heading", { name: "Etienne Ancergues", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "Bureau Central de Renseignements et d'Action",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "French Navy", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Dossier individuel de personnel de ANCERGUES, ETIENNE ANDRÉ GEORGES",
+      exact: true,
+    }),
+  ).toHaveAttribute("href", /servicehistorique\.sga\.defense\.gouv\.fr/);
+  await expect(page.locator("body")).toContainText("PDF page 8");
+  await expect(page.locator("body")).toContainText("Box 14");
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+
+  await page.goto("./people/6ea50bee-54e9-54f1-91ca-b052afc98eda/");
+  await expect(
+    page.getByRole("heading", { name: "Philip H Chadbourn Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Harvard University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("student");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+
+  for (const terminalProfile of [
+    ["933cbc8e-758f-51de-90fc-afd7d32dba55", "Billie F Akin"],
+    ["c407e9fa-3a4c-5cfc-b5ec-d0664ab4133d", "Julia N Barnhart"],
+    ["64b5b181-046f-5037-8595-fcf2ea049259", "Jacqueline M Landry"],
+    ["329114e6-1dbc-5227-b149-74eb8d7468a1", "Gus Macriyanni"],
+    ["1c0bf216-76cf-5444-ba1a-ac373bc715ae", "Carl D Marshall"],
+    ["29281682-12ea-5516-9434-4cbc05741a99", "Constantine Papadopoulos"],
+    ["26117ce0-c1d9-5bf3-a036-63c23c6b868e", "Lawrence N Stevens"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
   }
 });

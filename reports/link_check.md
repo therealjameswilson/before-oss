@@ -60,6 +60,11 @@ verification; external responses do not affect the internal-route pass.
 | University of Rhode Island, Conrad LaGueux biography | Reviewed through the research browser |
 | Jancis Robinson, Peter Sichel profile | Reviewed through the research browser |
 | Washington Post, Peter Sichel obituary | Reviewed through the research browser |
+| Washington Post, Philip H. Chadbourn Jr. obituary | Reviewed through the research browser; command-line request timed out |
+| Service historique de la Défense, Ancergues file AC 21 P 7611 | HTTP 200 |
+| Fondation Charles de Gaulle, Free French members list | HTTP 200 |
+| France-Libre.net, Free French naval roster | HTTP 200 |
+| British Normandy Memorial, Étienne Ancergues | HTTP 200 |
 | Marine Corps University, “The ‘Scholastic’ Marine Who Won a Secret War” | Reviewed through the research browser; command-line request returned HTTP 403 |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |

@@ -5,25 +5,25 @@ Run: 2026-07-30 UTC
 - Python unit tests: **38 / 38 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,159 pages**
-- Internal link check: **24,159 HTML files passed**
-- Browser and accessibility suite: **177 / 177 passed**
+- Static production build: **24,161 pages**
+- Internal link check: **24,161 HTML files passed**
+- Browser and accessibility suite: **180 / 180 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`21e73e6b37701463032628a438a5bec55c1e47e02dafaa2fed1093c35e3a28bf`)
+  (`64727796d6a7fc19ee02caef9e25fb20b74e322c80b496155c94ae5b488b9668`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,239**
+  numbers at least six characters long: **0 full-number matches** in **24,307**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **475** public records representing **443** unique documents
-- Published, qualified affiliations: **351**
-- Published claims: **585**
+- Reviewed public sources: **482** public records representing **456** unique documents
+- Published, qualified affiliations: **354**
+- Published claims: **590**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
-- Verified-affiliation metric: **176** people with confirmed/high published
+- Verified-affiliation metric: **178** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **106** people with confirmed/high published
   employment or self-employment evidence
@@ -243,3 +243,12 @@ service; and terminal military, student, and archival-review outcomes for Mort
 Bobrow, Edmund Burke, Jane Burrell, John Hemingway, and John Magruder. It keeps
 the adjacent Peter M. Sichel row separate, withholds the H. Sichel Söhne claim
 from that ambiguous entity, and continues full service-number masking.
+Batch 045 adds a high-confidence Étienne Ancergues identity and a
+strongly date-bounded French Navy-to-BCRA-to-joint Sussex pathway without
+calling BCRA a civilian employer. It keeps Philip Chadbourn's 1939 Harvard
+graduation as student status while routing his missing 1939-to-wartime
+chronology to Box 115, and closes seven additional online protocols with
+specific box-level archival actions rather than unsupported namesake matches.
+The regression checks PDF page/box separation, terminal unresolved wording,
+claim citations, foreign commissioned classification, and field-level
+service-number masking.
