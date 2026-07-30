@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,172 HTML files. Every relative
+**PASS.** The production build contains 24,180 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 223 organization profiles, and the
+The build includes 23,941 person profiles, 231 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,424 unique external URLs for separate live
+The checker inventoried 48,443 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -101,6 +101,13 @@ verification; external responses do not affect the internal-route pass.
 | Harvard Nuremberg Trials Project, Report 33 | Institutional record reviewed directly; exact Ralph G. Albrecht form |
 | *In re Koch*, 116 F.2d 243 | Contemporary federal decision reviewed directly |
 | Lawrence C. Soley, *Radio Warfare* | Cited book page reviewed directly; only short evidence excerpts republished |
+| Dartmouth Alumni Magazine, Robert Hayden Alcorn obituary | Institutional obituary reviewed directly |
+| National Archives, Robert H. Alcorn JFK memorandum | Official digitized record reviewed directly |
+| *TIME*, Carroll Alcott profile | Contemporary magazine profile reviewed directly; only a short evidence excerpt republished |
+| Radio Heritage Foundation, Carroll Alcott radio history | Reviewed directly as corroborating broadcast-history evidence |
+| Texas Tech University, Douglas W. Alden obituary | Institutional newspaper obituary reviewed directly |
+| National Park Service, Joseph E. Alderdice history | Archival-based official history reviewed directly |
+| University of Chicago Library, Graham Aldis papers | Institutional collection description reviewed directly |
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |

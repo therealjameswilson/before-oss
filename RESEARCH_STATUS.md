@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 458 people with a non-planned attempt | 23,941 person entities | 1.9130% |
-| Verified-affiliation coverage | 191 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7978% |
-| Verified-employer coverage | 114 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4762% |
-| Archival-review coverage | 405 people with an individual file-access/priority assessment | 23,941 person entities | 1.6917% |
+| Research-attempt coverage | 468 people with a non-planned attempt | 23,941 person entities | 1.9548% |
+| Verified-affiliation coverage | 195 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8145% |
+| Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
+| Archival-review coverage | 415 people with an individual file-access/priority assessment | 23,941 person entities | 1.7334% |
 
 ## Extraction and identity
 
@@ -22,16 +22,16 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 20
-- Identity status `high_confidence`: 235
+- Identity status `high_confidence`: 242
 - Identity status `probable`: 16
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,655
+- Identity status `unresolved`: 23,648
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,621
+- Unknown or indeterminate: 16,620
 - Enlisted Army personnel: 3,459
-- Commissioned Army officers: 2,061
+- Commissioned Army officers: 2,062
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 5
 - Enlisted Marine Corps personnel: 1
@@ -41,19 +41,19 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Commissioned naval officers: 40
 - Warrant officers: 4
 
-Commissioned classification: 2,113 yes; 4,975 no; 16,853 indeterminate.
+Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,483
+- `not_started`: 23,473
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
-- `occupation_only_found`: 20
-- `requires_archival_review`: 206
+- `occupation_only_found`: 21
+- `requires_archival_review`: 211
 - `completed`: 32
-- `verified_employer_found`: 115
+- `verified_employer_found`: 119
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,113 yes; 4,975 no; 16,853 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 187
+- Reviewed-web terminal-protocol attempts recorded: 197
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 264 across 250 people; 15 additional
+- Saved `source_reviewed` outcomes: 271 across 257 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,482
+- Total recorded attempts/plans: 1,492
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 245; 233 have at least one public-eligible
+- People with saved reviewed claims: 252; 240 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -256,13 +256,25 @@ Commissioned classification: 2,113 yes; 4,975 no; 16,853 indeterminate.
   records support only a probable identity, not an employer. The other eight
   profiles remain unresolved or ambiguous and, with Albertsen, route to their
   indexed Box 7 or Box 8 files.
-- Published affiliations: 381
-- Database claims: 661; public-eligible claims: 646 (95 confirmed, 488 high, 63
+  Batch 064 additionally reviewed Leonard Alchevesky, Romolo Alcini, Robert H.
+  Alcorn, Carroll D. Alcott, Maurina J. Aldecoa, Douglas W. Alden, Joseph E.
+  Alderdice, James A. Alderman, Graham Aldis, and Eleanor B. Aldrich. Robert
+  Hayden Alcorn's last civilian employer is documented as the office of U.S.
+  Representative William Miller, with an earlier Westminster School teaching
+  role. Carroll Duard Alcott's last civilian employer is documented as
+  Cincinnati radio station WLW, with earlier China Press and XMHA work.
+  Douglas William Alden's Texas Technological College employment remains
+  separate from his immediate Army Air Corps intelligence pathway. Graham
+  Aldis's investment-firm employment is documented, while Maurina Aldecoa's
+  immediate pre-OSS occupation remains an unnamed high-school Spanish-teaching
+  role rather than an invented employer. Five profiles route to Box 8 review.
+- Published affiliations: 390
+- Database claims: 678; public-eligible claims: 663 (95 confirmed, 503 high, 65
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 731; public source export: 553; unique source documents: 520
-- Canonical organizations: 225 private and 223 public
+- Citation records: 753; public source export: 572; unique source documents: 531
+- Canonical organizations: 233 private and 231 public
 - Conflicts: 0
-- NARA pull-list rows: 23,863
+- NARA pull-list rows: 23,859
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -370,6 +382,9 @@ python3 -m oss_research import-reviewed-evidence research/evidence-third-page-ag
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-aguirre-through-aiello-pathways_batch-059_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-and-fourth-page-aiello-through-akeo-pathways_batch-060_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-akers-through-albala-pathways_batch-061_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-albarranc-through-albertis-pathways_batch-062_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-albertsen-through-albright-pathways_batch-063_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-alchevesky-through-aldrich-pathways_batch-064_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

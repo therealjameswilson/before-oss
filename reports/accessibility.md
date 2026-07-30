@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 234 / 234 browser cases.**
+**PASS - 237 / 237 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-114-person employer measure is labeled separately from the 191-person broader
+118-person employer measure is labeled separately from the 195-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -548,6 +548,17 @@ contemporary federal decision and scholarly history, preserves the printed
 `LT COM` rank while exposing the source discrepancy, and verifies field-level
 serial masking. The complete desktop, phone, and tablet matrix passed 234 /
 234 with no remaining assertion or serious/critical axe failure.
+
+The Batch 064 regression checks the contiguous Leonard Alchevesky-through-
+Eleanor B. Aldrich page-four sequence. It verifies the distinct civilian,
+military, and occupation-only pathways documented for Robert H. Alcorn,
+Carroll D. Alcott, Maurina J. Aldecoa, Douglas W. Alden, and Graham Aldis;
+five Box 8 archival-review routes; claim-level citations; and field-level
+serial masking. The test keeps Aldecoa's unnamed Spanish-teaching occupation
+from becoming a guessed school employer and leaves Graham Aldis's Army
+real-estate pathway visibly qualified. The complete desktop, phone, and tablet
+matrix passed 237 / 237 with no remaining assertion or serious/critical axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

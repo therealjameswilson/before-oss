@@ -5,33 +5,33 @@ Run: 2026-07-30 UTC
 - Python unit tests: **47 / 47 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,172 pages**
-- Internal link check: **24,172 HTML files passed**
-- Browser and accessibility suite: **234 / 234 passed**
+- Static production build: **24,180 pages**
+- Internal link check: **24,180 HTML files passed**
+- Browser and accessibility suite: **237 / 237 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`af15c1cc1f9581a254c45dc6f19b4a773b8532dd0db6a87ba66a8510b46572f9`)
+  (`608164928db10fc66ab76bd83cbc16cfc62104e1b5dd79497ddeed6d495d73d7`)
 - Clean-checkout replay: **byte-for-byte identical** public and generated data
   after rebuilding the source PDF, page reviews, checkpoints, review decisions,
-  and all 63 evidence batches
+  and all 64 evidence batches
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `e366382afd6657d3ebe1bfb6acd293a52fa93c0872c4492320012769c28344cf`
+  `acb92bf5b94ed841cb3fa223175c076338c93e01240b143703d093995939c367`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,252**
+  numbers at least six characters long: **0 full-number matches** in **24,258**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **553** public records representing **520** unique documents
-- Published, qualified affiliations: **381**
-- Published claims: **646**
+- Reviewed public sources: **572** public records representing **531** unique documents
+- Published, qualified affiliations: **390**
+- Published claims: **663**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
-- Verified-affiliation metric: **191** people with confirmed/high published
+- Verified-affiliation metric: **195** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **114** people with confirmed/high published
+- Verified-employer metric: **118** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -457,3 +457,14 @@ remain unresolved or ambiguous, and nine of the ten batch profiles route to
 their indexed Box 7 or Box 8 files. The regression checks all ten profiles,
 source links, organization routing, rank preservation, and field-level
 service-number masking across three viewports.
+Batch 064 completes the minimum online protocol for Leonard Alchevesky through
+Eleanor B. Aldrich. It documents Robert Hayden Alcorn's congressional-office
+employment, Carroll Duard Alcott's WLW broadcasting work, Douglas William
+Alden's Texas Technological College employment and separate Army Air Corps
+pathway, and Graham Aldis's investment-firm employment. Maurina Aldecoa remains
+an occupation-only result because the reviewed evidence names her Spanish-
+teaching work but not the high school. Romolo Alcini and Joseph E. Alderdice
+receive high-confidence identity evidence without unsupported employer claims;
+five profiles route to their Box 8 files. The regression checks all ten
+profiles, source links, organization routing, confidence qualifications, and
+field-level service-number masking across three viewports.

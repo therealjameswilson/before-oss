@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/114 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/118 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 191 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 195 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5603,4 +5603,164 @@ test("Batch 063 publishes Albrecht's documented law-firm role while preserving n
   await expect(
     page.locator(".index-record").first().locator("dd").nth(2),
   ).toHaveText("Not printed");
+});
+
+test("Batch 064 separates four named employers, one occupation-only result, and five archival pathways", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["78230ad0-b028-5893-84d5-645fe419c705", "Leonard Alchevesky"],
+    ["660601f4-86cc-5cba-97b5-636e35876491", "Romolo Alcini"],
+    ["4a5be002-d66a-5b68-9de1-623febe1f094", "Joseph E Alderdice"],
+    ["050102ea-9c92-5aa5-a46c-3cb55bb46692", "James A Alderman"],
+    ["ac33ddf0-ee04-562a-aacf-fabba483cf1e", "Eleanor B Aldrich"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("8", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/660601f4-86cc-5cba-97b5-636e35876491/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", {
+      name: "Romolo (Ray) Alcini January 13, 1915 – August 7, 2012",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://gilroydispatch.com/romolo-ray-alcini-january-13-1915-august-7-2012/",
+  );
+
+  await page.goto("./people/8da17ef3-ba34-5295-bd70-7b96c7be0d4f/");
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "Office of U.S. Representative William Miller",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Westminster School", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Deaths", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://archive.dartmouthalumnimagazine.com/article/1980/6/deaths",
+  );
+
+  await page.goto("./people/0454f7bb-99f3-53b8-9e60-b2b833da1e55/");
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Station WLW", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "China Press", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Station XMHA", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Radio: Radio and Asia", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://time.com/archive/6770516/radio-radio-and-asia/",
+  );
+
+  await page.goto("./people/1530dd3a-9413-5429-9812-2d4e51168aac/");
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "worked as a Spanish teacher at an unnamed high school",
+  );
+  await expect(
+    page.getByRole("link", { name: "Espías vascas", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.euskonews.eus/zbk/262/espias-vascas/ar-0262001001C/",
+  );
+
+  await page.goto("./people/13bce197-4080-5012-b684-8c7f98887102/");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army Air Corps", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Texas Technological College", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", {
+      name: "Scholar, War Hero Gets French Highest Honor",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1995/vp951022/10220065.htm",
+  );
+
+  await page.goto("./people/4a5be002-d66a-5b68-9de1-623febe1f094/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", {
+      name: "Instructing for Dangerous Missions",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
+  );
+
+  await page.goto("./people/fea7a8f5-e743-5408-b18d-d324e6c481ff/");
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Aldis and Company", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("medium", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", {
+      name: "Board of Trustees Portraits, University of Chicago",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://photoarchive.lib.uchicago.edu/db.xqy?show=browse9.xml%7C233",
+  );
 });
