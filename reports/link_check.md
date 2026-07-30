@@ -93,11 +93,11 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30537279812](https://github.com/therealjameswilson/before-oss/actions/runs/30537279812)
+[30538942119](https://github.com/therealjameswilson/before-oss/actions/runs/30538942119)
 and GitHub Pages deployment
-[30537279940](https://github.com/therealjameswilson/before-oss/actions/runs/30537279940)
-for Adams-and-Duke-pathway Batch 053 release
-`a076ea8`
+[30538942121](https://github.com/therealjameswilson/before-oss/actions/runs/30538942121)
+for second-page Adams archival-pathways Batch 054 release
+`f8d4c7c`
 completed
 successfully.
 
@@ -107,18 +107,18 @@ tested targets:
 
 - the home page;
 - the personnel directory;
-- Carl Adams Jr., Cleva L. Adams, Clyde J. Adams, Dean D. Adams, Diana M.
-  Adams, Donald K. Adams, Dorothea Adams, Eula Adams, George K. Adams Jr.,
-  and Glenn D. Adams;
+- James T. Adams, John H. Adams, Lou A. Adams, Paul Adams, Phillip Adams,
+  Robert E. Adams, Ruth D. Adams, Sidney M. Adams, Thomas F. Adams, and
+  Willard A. Adams;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 359
+The live statistics report 23,978 source rows, 23,941 person entities, 369
 people with non-planned research attempts, 185 verified-affiliation people, 110
-verified-employer people, 306 archival-review assessments, 617 published
+verified-employer people, 316 archival-review assessments, 617 published
 claims, and 508 public source records. The live personnel, organizations,
 affiliations, and sources downloads contain 23,941, 220, 368, and 508 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
