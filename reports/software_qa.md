@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **201 / 201 passed**
+- Browser and accessibility suite: **204 / 204 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`7c9fc0ef055f661e6963e75152809094161a48a04356a8ae44c3a209f16f8058`)
+  (`835d30231cddc1204a35fae5e3a1c64bc22643b8c383545f6d565f3641d1e77a`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,13 +19,13 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,249**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **505** public records representing **482** unique documents
-- Published, qualified affiliations: **367**
-- Published claims: **614**
+- Reviewed public sources: **508** public records representing **484** unique documents
+- Published, qualified affiliations: **368**
+- Published claims: **617**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
-- Verified-affiliation metric: **184** people with confirmed/high published
+- Verified-affiliation metric: **185** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **109** people with confirmed/high published
+- Verified-employer metric: **110** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -313,3 +313,14 @@ becoming identity or employment claims. The regression checks every profile
 across three viewports, verifies the commissioned Army and enlisted naval
 classifications printed for Allen and Alton Adams, preserves the zero-claim
 outcome, and confirms field-level service-number masking.
+Batch 053 completes the minimum online protocol for Carl Adams Jr. through
+Glenn D. Adams. Nine unresolved profiles route to their indexed Box 3 files.
+For Donald K. Adams, an institutional biography explicitly documents
+1943-1945 OSS assessment research on military leave from Duke University, and
+a contemporary December 1943 Black Mountain College catalogue independently
+documents his Duke psychology appointment. The profile therefore publishes
+Duke as both the immediate pre-OSS affiliation and last documented civilian
+employer at high confidence. A 1941 Dallas copywriter entry remains an
+unassigned lead for Glenn D. Adams because no reviewed evidence links it to the
+indexed Staff Sergeant. The regression checks all ten profiles across three
+viewports and confirms field-level service-number masking.

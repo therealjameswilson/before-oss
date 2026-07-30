@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/109 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/110 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 184 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 185 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4659,4 +4659,72 @@ test("Batch 052 preserves grade and rank distinctions while routing ten Acosta-t
 
   await page.goto("./people/41bc6be2-00a7-5149-9867-0922b5671da4/");
   await expect(page.locator("body")).toContainText("enlisted naval personnel");
+});
+
+test("Batch 053 publishes Donald Keith Adams's Duke pathway and preserves nine unresolved Adams profiles", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["acaa96ad-5242-565b-96e8-86f61e2966b7", "Carl Adams Jr."],
+    ["382c6ec0-2199-5de7-9dd5-84553b44d400", "Cleva L Adams"],
+    ["0fb0ed85-23e8-5e70-88e1-7e145efd917b", "Clyde J Adams"],
+    ["8d630b07-b0dd-5474-aa0c-51bc67a57aa3", "Dean D Adams"],
+    ["aea9b4ca-9944-502d-a468-92ce0430b349", "Diana M Adams"],
+    ["a5c16d60-21b2-5ab2-80de-87bdcca90154", "Dorothea Adams"],
+    ["bf16069b-79b0-5703-aae4-07478948d2aa", "Eula Adams"],
+    ["5cd66f1a-75bd-5035-af52-2cbfeecc8da8", "George K Adams Jr."],
+    ["8d137c21-161a-5c58-945c-9986b5e53331", "Glenn D Adams"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("3", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/c3eeda33-d44b-5791-9cb7-1a7f6953660e/");
+  await expect(
+    page.getByRole("heading", { name: "Donald K Adams", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Duke University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "Duke University", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Associate Professor of Psychology and Psychiatry",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Black Mountain College 1943 Catalogue",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Adams, Donald Keith",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^(Not printed|••••\d{4})$/);
+
+  await page.goto("./people/8d137c21-161a-5c58-945c-9986b5e53331/");
+  await expect(page.locator("body")).toContainText(
+    "unlinked 1941 Dallas directory copywriter lead",
+  );
 });

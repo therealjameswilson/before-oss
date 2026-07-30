@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 349 people with a non-planned attempt | 23,941 person entities | 1.4578% |
-| Verified-affiliation coverage | 184 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7686% |
-| Verified-employer coverage | 109 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4553% |
-| Archival-review coverage | 296 people with an individual file-access/priority assessment | 23,941 person entities | 1.2364% |
+| Research-attempt coverage | 359 people with a non-planned attempt | 23,941 person entities | 1.4995% |
+| Verified-affiliation coverage | 185 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7727% |
+| Verified-employer coverage | 110 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4595% |
+| Archival-review coverage | 306 people with an individual file-access/priority assessment | 23,941 person entities | 1.2781% |
 
 ## Extraction and identity
 
@@ -45,15 +45,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,592
+- `not_started`: 23,582
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 17
 - `occupation_only_found`: 20
-- `requires_archival_review`: 111
+- `requires_archival_review`: 120
 - `completed`: 29
-- `verified_employer_found`: 111
+- `verified_employer_found`: 112
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 78
+- Reviewed-web terminal-protocol attempts recorded: 88
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 247 across 233 people; 12 additional
+- Saved `source_reviewed` outcomes: 248 across 234 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,373
+- Total recorded attempts/plans: 1,383
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 226; 216 have at least one public-eligible
+- People with saved reviewed claims: 227; 217 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -155,13 +155,18 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   Batch 052 additionally reviewed Francis J. Acosta Jr., Gilmore J. Acosta,
   William L. Acree, Doris D. Adair, Milo J. Adair, Ben Adam, Allen G. Adams,
   Alton G. Adams, Andrew D. Adams, and Arthur F. Adams.
-- Published affiliations: 367
-- Database claims: 627; public-eligible claims: 614 (90 confirmed, 472 high, 52
+  Batch 053 additionally reviewed Carl Adams Jr., Cleva L. Adams, Clyde J.
+  Adams, Dean D. Adams, Diana M. Adams, Donald K. Adams, Dorothea Adams, Eula
+  Adams, George K. Adams Jr., and Glenn D. Adams. Donald Keith Adams's
+  immediate and last civilian employer is documented as Duke University;
+  the other nine profiles route to Box 3 review.
+- Published affiliations: 368
+- Database claims: 630; public-eligible claims: 617 (90 confirmed, 475 high, 52
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 588; public source export: 505; unique source documents: 482
+- Citation records: 600; public source export: 508; unique source documents: 484
 - Canonical organizations: 221 private and 220 public
 - Conflicts: 0
-- NARA pull-list rows: 23,867
+- NARA pull-list rows: 23,866
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -258,6 +263,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-first-page-in
 python3 -m oss_research import-reviewed-evidence research/evidence-first-page-abel-and-achenbach-archival-pathways_batch-050_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-first-and-second-page-ackelmire-through-acord-archival-pathways_batch-051_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-acosta-through-adams-archival-pathways_batch-052_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-and-duke-pathway_batch-053_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

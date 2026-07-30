@@ -448,5 +448,12 @@ Army and enlisted naval categories remain visible for Allen and Alton Adams.
 The complete desktop, phone, and tablet matrix passed 201 / 201 with no
 remaining assertion or serious/critical axe failure.
 
+The Batch 053 regression checks ten newly completed profiles from Carl Adams
+Jr. through Glenn D. Adams. It verifies nine Box 3 archival routes and the
+published Donald K. Adams Duke University pathway, including distinct immediate
+affiliation and last-civilian-employer sections, institutional citations, and
+field-level serial masking. The complete desktop, phone, and tablet matrix
+passed 204 / 204 with no remaining assertion or serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
