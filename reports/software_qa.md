@@ -7,18 +7,18 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,186 pages**
 - Internal link check: **24,186 HTML files passed**
-- Browser and accessibility suite: **258 / 258 passed**
+- Browser and accessibility suite: **261 / 261 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`382958408e4c1ff47312dee1b7227082aaa0fdfbff780e3ebb5dd686204b6973`)
+  (`c76bee06a65e27714e0a9faac214767643c99265b965978650b119bef2c80c5a`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 71 evidence files: **75 / 75 tracked
+  checkpoints, review decisions, and all 72 evidence files: **75 / 75 tracked
   public and generated files matched**.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `b53b109088155e4fc9e5d1a83f3848a22d7f16653482028b89bf2e60265612e7`
+  `5e9eeb52b10246a48d717be7874e3f38823352510d6908a104908c2b6a0439b9`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,6 +28,7 @@ Run: 2026-07-30 UTC
   HTML
 - Runtime authenticated API calls: **0**
 - Reviewed public sources: **592** public records representing **546** unique documents
+- Private citation records: **846**
 - Published, qualified affiliations: **397**
 - Published claims: **676**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
@@ -571,3 +572,13 @@ rows on 20 pages and 63 visually matching pages. Fifty-one Python tests, the
 258-case browser/accessibility matrix, a 200-profile stratified audit, two
 identical production content-tree hashes, and a complete clean replay with all
 75 tracked public/generated files matched passed.
+
+Batch 072 completes the minimum online protocol for Marian A. Allen through
+Thomas B. Allen on PDF page six. All ten profiles remain unresolved after the
+staged official, exact-name, employment, obituary, newspaper, directory,
+institutional, military where applicable, and archival protocol. Rejected
+namesakes remain project-authored private review notes and are not public
+claims. The regression checks all ten direct routes, four civilian grades,
+three enlisted classifications, one commissioned classification, two
+indeterminate statuses, Box 10 guidance, and field-level serial masking across
+three viewports.

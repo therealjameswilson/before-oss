@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 258 / 258 browser cases.**
+**PASS - 261 / 261 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -629,6 +629,13 @@ unsupported pre-OSS affiliation. Eight other profiles retain dignified Box 10
 archival-review guidance, and every applicable serial field remains masked.
 The complete desktop, phone, and tablet matrix passed 258 / 258 with no
 remaining assertion or serious/critical axe failure.
+
+The Batch 072 regression checks the contiguous Marian A. Allen-through-Thomas
+B. Allen sequence on PDF page six. It verifies ten dignified Box 10
+archival-review outcomes; civilian, enlisted, commissioned, and indeterminate
+personnel categories; direct profile routes; actionable next steps; and
+field-level serial masking. The complete desktop, phone, and tablet matrix
+passed 261 / 261 with no remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

@@ -406,3 +406,14 @@ A field-aware comparison of all 12,931 digit-bearing normalized private
 identifiers against 83 live HTML, data, compressed-mirror, manifest, and
 download artifacts returned zero unexpected full-identifier matches; all
 public serial fields were either masked or explicitly not printed.
+
+## Batch 072 local release check
+
+The rebuilt site contains direct, internally resolved routes for Marian A.
+Allen, Mary T. Allen, Mary P. Allen, Max R. Allen, Pauline R. Allen, Richard
+Allen, Robert A. Allen, Robert M. Allen, Terrell A. Allen, and Thomas B. Allen.
+Each profile retains a dignified Box 10 archival-review outcome, the applicable
+civilian, enlisted, commissioned, or indeterminate personnel classification,
+and masked or explicitly unprinted serial fields. The complete local link
+checker passed all 24,186 HTML files and inventoried 48,463 unique external
+URLs.

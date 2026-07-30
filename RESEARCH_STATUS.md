@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 537 people with a non-planned attempt | 23,941 person entities | 2.2430% |
+| Research-attempt coverage | 547 people with a non-planned attempt | 23,941 person entities | 2.2848% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 484 people with an individual file-access/priority assessment | 23,941 person entities | 2.0216% |
+| Archival-review coverage | 494 people with an individual file-access/priority assessment | 23,941 person entities | 2.0634% |
 
 ## Extraction and identity
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,404
+- `not_started`: 23,394
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 21
 - `occupation_only_found`: 21
-- `requires_archival_review`: 276
+- `requires_archival_review`: 286
 - `completed`: 34
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
@@ -61,12 +61,12 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 266
+- Reviewed-web terminal-protocol attempts recorded: 276
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 277 across 263 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,561
+- Total recorded attempts/plans: 1,571
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 258; 246 have at least one public-eligible
@@ -361,10 +361,23 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
   Box 10 review. The parser now recognizes all seventeen visually confirmed
   military grades displaced into the middle-initial column, preserves every raw
   cell, and replays two independent row corrections on page 117.
+  Batch 072 continued through Marian A. Allen, Mary T. Allen, Mary P. Allen,
+  Max R. Allen, Pauline R. Allen, Richard Allen, Robert A. Allen, Robert M.
+  Allen, Terrell A. Allen, and Thomas B. Allen on PDF page six. All ten remain
+  unresolved after the staged official-context, exact-name OSS,
+  employment/occupation, obituary, newspaper, directory, institutional,
+  military where applicable, and archival protocol, and all route to their
+  indexed Box 10 files. The review rejected a postwar educator and contractor,
+  a chronologically incompatible 1929 spouse record, a November 1945 enlistee,
+  unlinked veteran and officer records, modern people-finder results, and a
+  historian born too late for ordinary OSS wartime service. None was promoted
+  to an identity or employer claim. The batch preserves four civilian grades,
+  three enlisted Army classifications, one commissioned Army classification,
+  and two indeterminate personnel statuses without guessing from names.
 - Published affiliations: 397
 - Database claims: 691; public-eligible claims: 676 (96 confirmed, 512 high, 68
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 836; public source export: 592; unique source documents: 546
+- Citation records: 846; public source export: 592; unique source documents: 546
 - Canonical organizations: 239 private and 237 public
 - Conflicts: 0
 - NARA pull-list rows: 23,858
@@ -485,6 +498,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-al
 python3 -m oss_research import-reviewed-evidence research/evidence-page-five-six-algrant-through-amory-allen-pathways_batch-069_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-pathways_batch-070_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-identity-and-agency-pathways_batch-071_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-two-pathways_batch-072_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

@@ -6295,3 +6295,53 @@ test("Batch 071 publishes Hedvig Allen's qualified federal pathway and Keith All
     page.getByRole("link", { name: "Hedvig J Allen", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 072 preserves ten Marian Allen through Thomas Allen profiles as explicit Box 10 archival-review outcomes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2526e75c-ed1d-5c00-ba97-59f30697afaf", "Marian A Allen", "civilian professional or administrative grade"],
+    ["c5278a89-89e5-542c-b5eb-295fd1aeecdb", "Mary T Allen", "civilian professional or administrative grade"],
+    ["fe52d758-d6dd-5890-bf81-b66c092e7b5e", "Mary P Allen", "unknown or indeterminate"],
+    ["a1522ad7-e908-5254-919f-1e60db5e7f4b", "Max R Allen", "enlisted army personnel"],
+    ["896a06b3-4871-57d1-aad5-cfb6f3d48060", "Pauline R Allen", "civilian professional or administrative grade"],
+    ["71a249d3-1164-5ecb-8eac-1f3d8c940d7d", "Richard Allen", "enlisted army personnel"],
+    ["8ff69a04-8eeb-5413-8383-7de861620d5f", "Robert A Allen", "enlisted army personnel"],
+    ["495aa9af-662a-50d7-8666-cec55c81327d", "Robert M Allen", "commissioned army officer"],
+    ["bb6e1cc1-a1ea-59b0-ac73-d16052e61064", "Terrell A Allen", "civilian professional or administrative grade"],
+    ["3c626d49-6a3c-5a67-8f07-e00f296201ba", "Thomas B Allen", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(personnelCategory);
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("10", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/2526e75c-ed1d-5c00-ba97-59f30697afaf/");
+  await expect(page.locator("body")).toContainText("Atlanta educator");
+
+  await page.goto("./people/8ff69a04-8eeb-5413-8383-7de861620d5f/");
+  await expect(page.locator("body")).toContainText(
+    "Review Box 10 and official Army records",
+  );
+
+  await page.goto("./people/3c626d49-6a3c-5a67-8f07-e00f296201ba/");
+  await expect(page.locator("body")).toContainText(
+    "wartime personnel status",
+  );
+});

@@ -522,6 +522,27 @@ grade rows. Raw values remain immutable. The replay registry now records 23
 row corrections across 20 pages and supports multiple audited corrections on
 one page by validating unique page-row coordinates.
 
+## Page-six Allen continuation, Batch 072
+
+`research/evidence-page-six-allen-continuation-two-pathways_batch-072_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Marian A.
+Allen-through-Thomas B. Allen rows on PDF page six. The bundle contains ten
+visually checked official index citations, ten terminal research attempts, and
+ten person updates. It stores no live NARA Catalog response, credential,
+service identifier, full copyrighted page, or sensitive modern-person detail.
+
+The protocol reviewed official NARA index context, CIA Reading Room discovery,
+exact-name and punctuation variants, employment and occupation searches,
+obituaries, Library of Congress newspaper discovery, directories,
+institutional sources, military or officer sources where applicable, and
+archival leads. A 1945 Atlanta educator and later California contractor, a
+1929-born veteran's spouse, a late-1945 Army enlistee, generic veteran and
+officer records, modern people-finder results, and the historian Thomas Benton
+Allen were rejected because chronology or corroborating identifiers did not
+match. The bundle retains only project-authored rejection reasons and directs
+all ten profiles to Box 10. No employer, affiliation, or resolved identity was
+invented from these namesakes.
+
 ## Official reference material
 
 - NARA OSS personnel records:
