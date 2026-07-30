@@ -93,11 +93,11 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30529586616](https://github.com/therealjameswilson/before-oss/actions/runs/30529586616)
+[30531099578](https://github.com/therealjameswilson/before-oss/actions/runs/30531099578)
 and GitHub Pages deployment
-[30529586608](https://github.com/therealjameswilson/before-oss/actions/runs/30529586608)
-for incomplete- and common-name archival-pathways Batch 049 release
-`ab444b5`
+[30531099589](https://github.com/therealjameswilson/before-oss/actions/runs/30531099589)
+for Abbott-through-Achin archival-pathways Batch 050 release
+`1572530`
 completed
 successfully.
 
@@ -107,24 +107,25 @@ tested targets:
 
 - the home page;
 - the personnel directory;
-- Caf-3 E Aaberg, Frank Abbote, John A. Abbote, Delbert H. Abbott, Floyd H.
-  Abbott, Frederick K. Abbott, James E. Abbott, James F. Abbott, Norman Abbott,
-  and Robert J. Abbott;
+- Victor J. Abbott, Robert V. Abee, Arthur A. Abel, Calvin J. Abel, John C.
+  Abel, James D. Abernathy, James K. Abney, John H. Achenbach, Edward C.
+  Acheson, and Paul P. Achin;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 319
+The live statistics report 23,978 source rows, 23,941 person entities, 329
 people with non-planned research attempts, 184 verified-affiliation people, 109
-verified-employer people, 266 archival-review assessments, 614 published
+verified-employer people, 276 archival-review assessments, 614 published
 claims, and 505 public source records. The live personnel, organizations,
 affiliations, and sources downloads contain 23,941, 220, 367, and 505 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field. A boundary-aware comparison of all 12,799 private
-normalized identifiers against all live person-data shards, major public data
-assets, downloads, and the checked production pages returned zero matches.
+normalized identifiers against 48 live artifacts—all person-data shards, major
+public data assets, downloads, and the checked production pages—returned zero
+matches.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
