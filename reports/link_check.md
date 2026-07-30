@@ -115,44 +115,45 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30566455641](https://github.com/therealjameswilson/before-oss/actions/runs/30566455641)
+[30569694384](https://github.com/therealjameswilson/before-oss/actions/runs/30569694384)
 and GitHub Pages deployment
-[30566456053](https://github.com/therealjameswilson/before-oss/actions/runs/30566456053)
-for fourth-page Albertsen-through-Albright Batch 063 release `38669ae`
+[30569694861](https://github.com/therealjameswilson/before-oss/actions/runs/30569694861)
+for fourth-page Alchevesky-through-Aldrich Batch 064 release `20a16c4`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 22
+count, or redaction state for all 23
 tested targets:
 
 - the home page;
 - the personnel directory;
-- Cecil V. Albertsen, Glen H. Albertsen, Esther M. Albertus, Roy R. Albin,
-  Marion L. Albinson, Eric Albrecht, Ralph G. Albrecht, William T. Albrecht,
-  Walter B. Albright, and William D. Albright;
-- the Peaslee, Brigham & Albrecht organization profile;
+- Leonard Alchevesky, Romolo Alcini, Robert H. Alcorn, Carroll D. Alcott,
+  Maurina J. Aldecoa, Douglas W. Alden, Joseph E. Alderdice, James A. Alderman,
+  Graham Aldis, and Eleanor B. Aldrich;
+- the Station WLW organization profile;
 - the analysis page;
 - the methodology page;
 - the sources page;
+- the downloads page;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - and all four public CSV downloads.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 458
-people with non-planned research attempts, 191 verified-affiliation people, 114
-verified-employer people, 405 archival-review assessments, 646 published
-claims, and 553 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 223, 381, and 553 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 468
+people with non-planned research attempts, 195 verified-affiliation people, 118
+verified-employer people, 415 archival-review assessments, 663 published
+claims, and 572 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 231, 390, and 572 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field. A boundary-aware comparison of all 12,799 private
 normalized identifiers against 53 uncompressed live artifacts—all person-data
-shards, major public data assets, downloads, the checked Batch 063 profiles,
+shards, major public data assets, downloads, the checked Batch 064 profiles,
 and representative publication pages—returned
 zero matches. All 65 manifest-listed
 assets were downloaded and matched both the manifest and local SHA-256 values
 byte-for-byte. The deployed and local manifest files share SHA-256
-`e366382afd6657d3ebe1bfb6acd293a52fa93c0872c4492320012769c28344cf`.
+`acb92bf5b94ed841cb3fa223175c076338c93e01240b143703d093995939c367`.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
