@@ -2,30 +2,30 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **36 / 36 passed**
+- Python unit tests: **37 / 37 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,151 pages**
-- Internal link check: **24,151 HTML files passed**
-- Browser and accessibility suite: **168 / 168 passed**
+- Static production build: **24,153 pages**
+- Internal link check: **24,153 HTML files passed**
+- Browser and accessibility suite: **171 / 171 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`5bf272caef232136cdc55e1b96ad3bce2436c8152ff3d39c4a5d30698b6bf440`)
+  (`1c595486369247948c7d6920c5eabbcc71ec0a1fb17f13d355ef992ea86a0fbd`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,229**
+  numbers at least six characters long: **0 full-number matches** in **24,233**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **456** public records representing **424** unique documents
-- Published, qualified affiliations: **340**
-- Published claims: **566**
+- Reviewed public sources: **469** public records representing **437** unique documents
+- Published, qualified affiliations: **344**
+- Published claims: **576**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
-- Verified-affiliation metric: **173** people with confirmed/high published
+- Verified-affiliation metric: **176** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **100** people with confirmed/high published
+- Verified-employer metric: **102** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -221,3 +221,10 @@ Army chronology with earlier St. Regis work. It keeps the two adjacent Felsen
 rows separate, withholds the identifier-only row's candidate, does not turn
 veterans-organization offices into employment, and continues to mask all full
 service numbers.
+Batch 042 adds checks for Clarence Berdahl's explicit University of
+Illinois-to-OSS transition; Hugh Beville's NBC employment before Army service;
+Richard Arnold-Baker's qualified British Intelligence Corps affiliation;
+Everett Athens's documented spelling variant and naval classification; and
+John Booth's Coast Guard-to-OSS assignment. It adds commissioned and enlisted
+Coast Guard categories through a forward-only migration, verifies the
+branch-note precedence rule, and continues service-number masking.

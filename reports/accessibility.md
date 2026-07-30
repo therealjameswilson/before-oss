@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 168 / 168 browser cases.**
+**PASS - 171 / 171 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-100-person employer measure is labeled separately from the 173-person broader
+102-person employer measure is labeled separately from the 176-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -346,6 +346,16 @@ Felsen entities separate; withholds the identifier-only row's candidate; and
 continues service-number masking. The complete desktop, phone, and tablet
 matrix passed 168 / 168 with no remaining assertion or serious/critical axe
 failure.
+
+The Batch 042 regression updates the homepage coverage assertions and adds
+direct profile checks for Clarence A. Berdahl, Hugh M. Beville, Richard G.
+Arnold-Baker, Everett J. Athens, and John P. Booth. It verifies an explicit
+university-to-OSS transition, last civilian employment at NBC without
+conflating the intervening Army pathway, a qualified Allied wartime
+affiliation, a confirmed naval identity with unresolved pre-OSS chronology,
+and a distinct commissioned Coast Guard category. The complete desktop, phone,
+and tablet matrix passed 171 / 171 with no remaining assertion or
+serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

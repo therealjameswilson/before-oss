@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/100 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/102 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 173 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 176 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3918,6 +3918,75 @@ test("Batch 041 preserves Mediterranean military pathways, veterans affiliations
   ).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
   );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 042 preserves academic, broadcast, Allied, naval, and Coast Guard pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/b76c60a1-20b9-547e-a824-20217835f29b/");
+  await expect(
+    page.getByRole("heading", { name: "Clarence A Berdahl", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "University of Illinois Urbana-Champaign",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Illinois",
+  );
+
+  await page.goto("./people/a583532b-5750-5264-90a4-cbb5ca567a71/");
+  await expect(
+    page.getByRole("heading", { name: "Hugh M Beville", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "National Broadcasting Company",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/b5c889e5-13d7-5a47-bb1d-f8536f24be22/");
+  await expect(
+    page.getByRole("heading", { name: "Richard G Arnold-Baker", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("British Army Intelligence Corps");
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/1f9ace73-691d-5b96-8349-203d8c7594f4/");
+  await expect(
+    page.getByRole("heading", { name: "Everett J Athens", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Everette J. Athens");
+  await expect(page.locator("body")).toContainText("commissioned naval officer");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/19c983e0-37cb-5b11-8e40-1c4bd39b7103/");
+  await expect(
+    page.getByRole("heading", { name: "John P Booth", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("commissioned coast guard officer");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Coast Guard", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Operational Swimmer Group II");
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

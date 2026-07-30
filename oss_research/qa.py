@@ -24,6 +24,7 @@ QA_RANDOM_SEED = 226_224
 COMMISSIONED_COMPATIBLE_CATEGORIES = frozenset(
     {
         "commissioned_army_officer",
+        "commissioned_coast_guard_officer",
         "commissioned_marine_corps_officer",
         "commissioned_naval_officer",
         "foreign_or_allied_military_personnel",

@@ -47,6 +47,12 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(result.category, "foreign_or_allied_military_personnel")
         self.assertTrue(result.allied_or_foreign)
 
+    def test_coast_guard_note_overrides_generic_lieutenant_category(self) -> None:
+        result = classify_personnel("Lt", "Coast G")
+        self.assertEqual(result.category, "commissioned_coast_guard_officer")
+        self.assertTrue(result.commissioned_officer)
+        self.assertFalse(result.allied_or_foreign)
+
     def test_serial_normalization_preserves_prefix(self) -> None:
         self.assertEqual(normalize_serial("RA 3389449"), "RA3389449")
 

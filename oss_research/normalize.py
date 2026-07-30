@@ -186,6 +186,19 @@ def classify_personnel(rank_raw: str | None, notes_raw: str | None) -> Personnel
     notes = clean(notes_raw) or ""
     foreign = bool(FOREIGN_NOTE_RE.search(notes)) if notes else None
     note: str | None = None
+    if notes.upper().startswith("COAST G"):
+        if rank in ARMY_OFFICER_RANKS or rank in NAVAL_OFFICER_RANKS:
+            return PersonnelClassification(
+                rank, "commissioned_coast_guard_officer", True, False,
+                "Coast Guard branch is based on the printed notes field."
+            )
+        if rank in ARMY_ENLISTED_RANKS or (
+            rank and rank.startswith(NAVAL_ENLISTED_PREFIXES)
+        ):
+            return PersonnelClassification(
+                rank, "enlisted_coast_guard_personnel", False, False,
+                "Coast Guard branch is based on the printed notes field."
+            )
     if foreign and rank:
         return PersonnelClassification(
             rank, "foreign_or_allied_military_personnel", None, True,

@@ -41,11 +41,12 @@ assets are generated projections.
 | `requires_visual_review` | Parser-warning flag |
 | `entity_resolution_status` | Link/review state independent of the person entity |
 
-Personnel categories distinguish Army, Navy, and Marine Corps commissioned and
-enlisted service where the branch is documented. Raw rank abbreviations remain
-unchanged; a branch-specific category may be assigned later from reviewed
-external evidence, as in the separate `enlisted_marine_corps_personnel`
-category. Unfamiliar grades remain `unknown_or_indeterminate` until supported.
+Personnel categories distinguish Army, Navy, Coast Guard, and Marine Corps
+commissioned and enlisted service where the branch is documented. Raw rank
+abbreviations remain unchanged; a branch-specific category may be assigned
+later from reviewed external evidence. Printed `Coast G` notes take precedence
+over generic Army or naval interpretations of ranks such as `Lt`. Unfamiliar
+grades remain `unknown_or_indeterminate` until supported.
 
 ## Important `affiliations` fields
 

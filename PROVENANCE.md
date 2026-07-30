@@ -312,6 +312,36 @@ entries, their distinct rank/identifier layouts, raw notes, boxes, and archival
 locations. Full service numbers remain private and are masked from every public
 page and download.
 
+## Reviewed analysts and maritime officers
+
+The forty-second evidence batch used rendered NARA index pages; contemporaneous
+University of Illinois Board minutes and its archival finding aid; a
+contemporary *Public Opinion Quarterly* article and Museum of Broadcast
+Communications biography; an official *London Gazette* notice and a specialized
+British Army officer register; a visually checked 1944 Evros Mission report;
+the CIA Center for the Study of Intelligence's Coast Guard history; and a
+corroborating obituary. No live NARA Catalog API request or retained API
+response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Richard G. Arnold-Baker | The uncommon name, printed `British A` note, official expanded name, temporary-major rank, and Intelligence Corps branch support a high-confidence identity. British Army service is published only as a medium-confidence wartime affiliation because the OSS sequence remains unknown. |
+| Everett J. Athens | The visually checked Evros report confirms the indexed naval lieutenant as `Everette J. Athens`, USNR, second in command. The spelling is retained as a variant; Box 24 remains necessary for the pre-OSS assignment and civilian-employer questions. |
+| Clarence A. Berdahl | Contemporaneous Board minutes explicitly connect his University of Illinois professorship and chairmanship to departure for the OSS London staff. The university is both the confirmed immediate affiliation and last civilian employer. |
+| Hugh M. Beville | A 1940 article and institutional biography document NBC research employment from 1930 and a brief wartime Army interruption. NBC is the high-confidence last civilian employer, but is not mislabeled immediate pre-OSS because the Army sequence remains unresolved. |
+| John P. Booth | The CIA history identifies Coast Guard Lieutenant John Booth as an officer assigned to OSS duty and OSG II commander. Coast Guard service is the high-confidence immediate military pathway; no postwar occupation is repurposed as prewar evidence. |
+
+Index PDF pages 14, 15, 33, 35, and 44 were rendered at 180 DPI and visually
+checked. They confirm all five source rows, including the `British A`, `Doctor`,
+`Army`, and `Coast G` notes and the naval rank. The Evros report's personnel
+page was also rendered and checked. Full service numbers remain private and are
+masked from every public page and download.
+
+The Booth review adds forward-only
+`commissioned_coast_guard_officer` and `enlisted_coast_guard_personnel`
+categories. The parser now gives a printed `Coast G` note precedence over a
+generic rank interpretation while retaining the raw rank and note unchanged.
+
 ## Official reference material
 
 - NARA OSS personnel records:

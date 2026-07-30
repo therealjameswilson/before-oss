@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 284 people with a non-planned attempt | 23,941 person entities | 1.1862% |
-| Verified-affiliation coverage | 173 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7226% |
-| Verified-employer coverage | 100 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4177% |
-| Archival-review coverage | 211 people with an individual file-access/priority assessment | 23,941 person entities | 0.8813% |
+| Research-attempt coverage | 289 people with a non-planned attempt | 23,941 person entities | 1.2071% |
+| Verified-affiliation coverage | 176 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7351% |
+| Verified-employer coverage | 102 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4260% |
+| Archival-review coverage | 216 people with an individual file-access/priority assessment | 23,941 person entities | 0.9022% |
 
 ## Extraction and identity
 
@@ -21,38 +21,39 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 208
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 11
-- Identity status `high_confidence`: 218
+- Identity status `confirmed`: 13
+- Identity status `high_confidence`: 221
 - Identity status `probable`: 9
 - Identity status `ambiguous`: 11
-- Identity status `unresolved`: 23,692
+- Identity status `unresolved`: 23,687
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,630
+- Unknown or indeterminate: 16,628
 - Enlisted Army personnel: 3,459
-- Commissioned Army officers: 2,062
+- Commissioned Army officers: 2,061
+- Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 5
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,451
-- Foreign or Allied military personnel: 243
+- Foreign or Allied military personnel: 244
 - Enlisted naval personnel: 48
-- Commissioned naval officers: 38
+- Commissioned naval officers: 39
 - Warrant officers: 4
 
-Commissioned classification: 2,109 yes; 4,968 no; 16,864 indeterminate.
+Commissioned classification: 2,111 yes; 4,968 no; 16,862 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,657
+- `not_started`: 23,652
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 8
-- `documented_prewar_employer_found`: 14
+- `documented_prewar_employer_found`: 15
 - `occupation_only_found`: 18
-- `requires_archival_review`: 31
+- `requires_archival_review`: 34
 - `completed`: 23
-- `verified_employer_found`: 104
+- `verified_employer_found`: 105
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -62,12 +63,12 @@ Commissioned classification: 2,109 yes; 4,968 no; 16,864 indeterminate.
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 204 across 203 people; 12 additional
+- Saved `source_reviewed` outcomes: 209 across 208 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,275
+- Total recorded attempts/plans: 1,280
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 211; 201 have at least one public-eligible
+- People with saved reviewed claims: 216; 206 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -125,14 +126,15 @@ Commissioned classification: 2,109 yes; 4,968 no; 16,864 indeterminate.
   Stuart H. Schulberg, Robert R. Parrish, Sol Kaplan, Corey Ford, Roderick G.S.
   Hall, Miles A. Copeland, George S. Musolin, and the two separately preserved
   Frederick Mayer rows, the two separately preserved Milton Felsen rows, Irving
-  Goff, Paul H. Gale, and Serge Obolensky.
-- Published affiliations: 340
-- Database claims: 579; public-eligible claims: 566 (82 confirmed, 438 high, 46
+  Goff, Paul H. Gale, Serge Obolensky, Richard G. Arnold-Baker, Everett J.
+  Athens, Clarence A. Berdahl, Hugh M. Beville, and John P. Booth Jr.
+- Published affiliations: 344
+- Database claims: 589; public-eligible claims: 576 (86 confirmed, 443 high, 47
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 470; public source export: 456; unique source documents: 424
-- Canonical organizations: 203 private and 202 public
+- Citation records: 483; public source export: 469; unique source documents: 437
+- Canonical organizations: 205 private and 204 public
 - Conflicts: 0
-- NARA pull-list rows: 23,874
+- NARA pull-list rows: 23,873
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -214,6 +216,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-area-b-enlist
 python3 -m oss_research import-reviewed-evidence research/evidence-field-photographic-and-media_batch-039_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-field-officers-musicians-and-mayer-review_batch-040_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-mediterranean-veterans-and-obolensky-review_batch-041_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-analysts-and-maritime-officers_batch-042_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
