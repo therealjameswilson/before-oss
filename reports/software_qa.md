@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,171 pages**
 - Internal link check: **24,171 HTML files passed**
-- Browser and accessibility suite: **222 / 222 passed**
+- Browser and accessibility suite: **225 / 225 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`6ab48656531c5f66f0381b25978fd63dae4a4fd1bf7568fa5fef137aa0839727`)
+  (`4d9c7506ef41c8a34cd86f38cf482867df5fec299105625b37bf0e6d350a282a`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,13 +19,13 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,211**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **533** public records representing **507** unique documents
-- Published, qualified affiliations: **375**
-- Published claims: **632**
+- Reviewed public sources: **536** public records representing **508** unique documents
+- Published, qualified affiliations: **376**
+- Published claims: **635**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
-- Verified-affiliation metric: **188** people with confirmed/high published
+- Verified-affiliation metric: **189** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **111** people with confirmed/high published
+- Verified-employer metric: **112** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -404,3 +404,14 @@ files, with common-name, spelling, later-career, and genealogy-only candidates
 rejected rather than promoted to facts. The regression checks all ten profiles,
 the new organization route, claim-level citations, confidence qualifications,
 and field-level service-number masking across three viewports.
+Batch 060 completes the minimum online protocol for Salvatore Aiello through
+Christian Akeo Jr. It keeps the Box 6 Blogg Ainsworth row separate from the
+Box 62 Ainsworth Blogg row while placing both in one explicitly provisional
+duplicate group. No employer or affiliation is copied between the entities.
+It publishes Arthur Scott Aiton as a high-confidence identity and his
+University of Michigan faculty employment beginning in 1921 as documented
+prewar work only; neither an immediate pre-OSS affiliation nor a last civilian
+employer is asserted. Eight other profiles route to Box 6 or Box 7 archival
+review. The regression checks all eleven affected person profiles, the
+University of Michigan organization route, claim-level citations, raw `NR`
+preservation, and field-level service-number masking across three viewports.

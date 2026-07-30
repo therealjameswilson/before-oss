@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/111 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/112 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 188 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 189 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5197,5 +5197,135 @@ test("Batch 059 publishes Ahlstrom's qualified prewar faculty role and preserves
   );
   await expect(
     page.getByText("medium", { exact: true }).first(),
+  ).toBeVisible();
+});
+
+test("Batch 060 preserves a transposed-name duplicate, publishes Aiton's earlier university employment, and routes eight archival cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["7cf7b3d0-1260-59c3-8543-1a39da5f4b43", "Salvatore Aiello", "6"],
+    ["b9883af7-7ab7-5b23-b8c8-2dc9cf3ac401", "James A Aiken", "6"],
+    ["0e575e76-5d33-5e19-af3f-1526fa8a5db0", "Estella L Aikman", "6"],
+    ["766c0cd6-23f0-512e-a363-807eb7935812", "Alice Aird", "6"],
+    ["382fb70e-490e-5777-b264-f3dac5764df7", "Gilbert S Aitken", "6"],
+    ["69bee485-9cbc-5d03-a7a2-27bae3f5ab05", "Robert T Aitken", "6"],
+    ["d23a902b-bb0c-561c-a783-e5f47f3b03ac", "Belle B Aizen", "6"],
+    ["86d62ffb-cfba-560b-a832-82745d911dfd", "Christian Akeo Jr.", "7"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page
+        .locator(".profile-aside")
+        .getByText(terminalProfile[2], { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/00a094cd-16e2-50fa-9e0e-784a2a7af6e6/");
+  await expect(
+    page.getByRole("heading", { name: "Blogg Ainsworth", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("needs identity review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("duplicate-02ab1d7dcdda");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(
+    page.getByRole("link", {
+      name: "Instructing for Dangerous Missions",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText("Not printed");
+
+  await page.goto("./people/c4b9c664-cdcf-56e7-8bd1-eaa7d5c13a4a/");
+  await expect(
+    page.getByRole("heading", { name: "Ainsworth Blogg", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("duplicate-02ab1d7dcdda");
+
+  await page.goto("./people/05072153-d5a0-55b6-bac5-1137fdd9ed7b/");
+  await expect(
+    page.getByRole("heading", { name: "Arthur S Aiton", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByText("documented prewar employer found", { exact: true })
+      .first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "University of Michigan", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Instructor, later professor of Latin American history",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Arthur Scott Aiton papers, 1922-1959",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://findingaids.lib.umich.edu/catalog/umich-bhl-85852",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("NR");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText("Not printed");
+
+  await page.goto(
+    "./organizations/4ee8a858-3cd1-5a2d-94a7-0d3c7a3fdb3a/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "University of Michigan",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Arthur S Aiton", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "other documented pre-OSS affiliation",
+  );
+  await expect(
+    page.getByText("high", { exact: true }).first(),
   ).toBeVisible();
 });

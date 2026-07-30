@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 222 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,411 unique external URLs for separate live
+The checker inventoried 48,412 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -26,6 +26,7 @@ verification; external responses do not affect the internal-route pass.
 | Official personnel index PDF | HTTP 200 |
 | Library of Congress APIs | HTTP 200 |
 | NPS, *Instructing for Dangerous Missions* | HTTP 200 |
+| University of Michigan Bentley Historical Library, Arthur Scott Aiton papers | Reviewed through the research browser; command-line request returned HTTP 403 |
 | Digitaal Joods Monument, Moritz Velleman, “Emigration” | Reviewed through the research browser |
 | Port Washington Patch, Moritz Velleman obituary | Reviewed through the research browser |
 | NPS, *Daily Life in Camp, Park and Town* | HTTP 200 |

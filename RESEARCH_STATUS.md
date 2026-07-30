@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 419 people with a non-planned attempt | 23,941 person entities | 1.7501% |
-| Verified-affiliation coverage | 188 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7853% |
-| Verified-employer coverage | 111 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4636% |
-| Archival-review coverage | 366 people with an individual file-access/priority assessment | 23,941 person entities | 1.5288% |
+| Research-attempt coverage | 429 people with a non-planned attempt | 23,941 person entities | 1.7919% |
+| Verified-affiliation coverage | 189 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7894% |
+| Verified-employer coverage | 112 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4678% |
+| Archival-review coverage | 376 people with an individual file-access/priority assessment | 23,941 person entities | 1.5705% |
 
 ## Extraction and identity
 
@@ -18,14 +18,14 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 208
+- Possible duplicate groups: 209
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 19
-- Identity status `high_confidence`: 232
-- Identity status `probable`: 12
+- Identity status `high_confidence`: 233
+- Identity status `probable`: 13
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,664
+- Identity status `unresolved`: 23,662
 
 ## Personnel categories
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,522
+- `not_started`: 23,512
 - `in_progress`: 52
 - `candidate_found`: 1
-- `needs_identity_review`: 9
-- `documented_prewar_employer_found`: 19
+- `needs_identity_review`: 10
+- `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 20
-- `requires_archival_review`: 173
+- `requires_archival_review`: 181
 - `completed`: 32
 - `verified_employer_found`: 113
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 148
+- Reviewed-web terminal-protocol attempts recorded: 158
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 256 across 242 people; 15 additional
+- Saved `source_reviewed` outcomes: 258 across 244 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,443
+- Total recorded attempts/plans: 1,453
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 237; 225 have at least one public-eligible
+- People with saved reviewed claims: 239; 227 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -210,10 +210,20 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
   as her immediate pre-OSS affiliation or last civilian employer. The other
   nine profiles route to Box 5 or Box 6 review without unsupported employer
   claims.
-- Published affiliations: 375
-- Database claims: 647; public-eligible claims: 632 (94 confirmed, 481 high, 57
+  Batch 060 additionally reviewed Salvatore Aiello, James A. Aiken, Estella L.
+  Aikman, Blogg Ainsworth, Alice Aird, Gilbert S. Aitken, Robert T. Aitken,
+  Arthur S. Aiton, Belle B. Aizen, and Christian Akeo Jr. The source preserves
+  Blogg Ainsworth in Box 6 and Ainsworth Blogg in Box 62 as separate person
+  entities while flagging their transposed names as a possible duplicate
+  requiring manual comparison. Arthur Scott Aiton is a high-confidence
+  identity, and the University of Michigan is published as high-confidence
+  documented-prewar employment beginning in 1921. The accessible evidence does
+  not establish that it was his immediate pre-OSS affiliation or last civilian
+  employer. The remaining eight profiles route to Box 6 or Box 7 review.
+- Published affiliations: 376
+- Database claims: 650; public-eligible claims: 635 (94 confirmed, 483 high, 58
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 680; public source export: 533; unique source documents: 507
+- Citation records: 691; public source export: 536; unique source documents: 508
 - Canonical organizations: 224 private and 222 public
 - Conflicts: 0
 - NARA pull-list rows: 23,865
@@ -322,6 +332,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-third-page-ad
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-adler-through-aga-ogla-pathways_batch-057_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-agee-through-agugliaro-pathways_batch-058_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-aguirre-through-aiello-pathways_batch-059_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-third-and-fourth-page-aiello-through-akeo-pathways_batch-060_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
