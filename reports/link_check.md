@@ -330,20 +330,6 @@ A field-aware comparison of all 12,931 digit-bearing normalized private
 identifiers against 83 live HTML, data, compressed-mirror, and download
 artifacts returned zero unexpected full-number matches.
 
-## Batch 071 local release check
-
-The rebuilt site contains direct, internally resolved routes for Hedvig J.
-Allen, Helen E. Allen, Horace H. Allen, Howard Allen, James L. Allen, James T.
-Allen, Joel E. Allen, Katherine E. Allen, Keith Allen, and Laura D. Allen, plus
-the Bureau of Internal Revenue organization profile. Hedvig Allen's profile
-exposes a high-confidence identity and qualified immediate federal-government
-assignment while leaving her last civilian employer unresolved. Keith Allen's
-profile exposes the corrected commissioned classification and high-confidence
-official identity evidence while routing the still-unresolved pre-OSS pathway
-to Box 10. The other eight profiles retain dignified Box 10 review guidance.
-The complete local link checker passed all 24,186 HTML files and inventoried
-48,463 unique external URLs.
-
 ## Batch 070 local release check
 
 The rebuilt site contains direct, internally resolved routes for Carol F.
@@ -379,3 +365,44 @@ local files byte-for-byte. The deployed and local manifest SHA-256 is
 A field-aware comparison of all 12,931 digit-bearing normalized private
 identifiers against 83 live HTML, data, compressed-mirror, and download
 artifacts returned zero unexpected full-number matches.
+
+## Batch 071 local release check
+
+The rebuilt site contains direct, internally resolved routes for Hedvig J.
+Allen, Helen E. Allen, Horace H. Allen, Howard Allen, James L. Allen, James T.
+Allen, Joel E. Allen, Katherine E. Allen, Keith Allen, and Laura D. Allen, plus
+the Bureau of Internal Revenue organization profile. Hedvig Allen's profile
+exposes a high-confidence identity and qualified immediate federal-government
+assignment while leaving her last civilian employer unresolved. Keith Allen's
+profile exposes the corrected commissioned classification and high-confidence
+official identity evidence while routing the still-unresolved pre-OSS pathway
+to Box 10. The other eight profiles retain dignified Box 10 review guidance.
+The complete local link checker passed all 24,186 HTML files and inventoried
+48,463 unique external URLs.
+
+## Batch 071 production deployment
+
+GitHub Actions test workflow
+[30590072861](https://github.com/therealjameswilson/before-oss/actions/runs/30590072861)
+and GitHub Pages deployment
+[30590072866](https://github.com/therealjameswilson/before-oss/actions/runs/30590072866)
+for the page-six Allen Batch 071 release `760a954` completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 17 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 071 person profiles, and the Bureau of
+Internal Revenue organization profile. The live statistics report 23,978
+source rows, 23,941 person entities, 537 people with non-planned research
+attempts, 197 verified-affiliation people, 118 verified-employer people, 484
+archival-review assessments, 676 published claims, and 592 public source
+records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 237, 397, and 592 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`b53b109088155e4fc9e5d1a83f3848a22d7f16653482028b89bf2e60265612e7`.
+A field-aware comparison of all 12,931 digit-bearing normalized private
+identifiers against 83 live HTML, data, compressed-mirror, manifest, and
+download artifacts returned zero unexpected full-identifier matches; all
+public serial fields were either masked or explicitly not printed.
