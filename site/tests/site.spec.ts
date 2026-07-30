@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/95 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/96 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 161 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 162 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3661,6 +3661,59 @@ test("Batch 037 resolves an Allied pathway while preserving unknown staff backgr
     page.getByRole("heading", { name: "Norwegian Army", exact: true }),
   ).toBeVisible();
   await expect(page.getByRole("link", { name: "Edmund I Stromholt" })).toBeVisible();
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 038 distinguishes the Velleman brothers and withholds incomplete Area B identities", async ({
+  page,
+}) => {
+  await page.goto("./people/833cab1f-839d-5766-baf2-4bebff78cada/");
+  await expect(
+    page.getByRole("heading", { name: "Moritz Velleman", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "a friend's office in Lisbon (organization not named)",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/9a81eee3-9800-507c-b604-ef49aafc3da3/");
+  await expect(
+    page.getByRole("heading", { name: "Arthur H Velleman", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("OSS Documents Division");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/858dafc5-02bc-5660-a2f3-1027fdc6e0af/");
+  await expect(
+    page.getByRole("heading", { name: "George A George", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("Georges George");
+
+  for (const [personId, displayName] of [
+    ["abee3674-bf36-50b9-bf28-b28905129288", "Howard C Ressler"],
+    ["264a44a0-6a03-5451-a2aa-8fd8805c0cf0", "Raymond W Deisher"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold.");
+  }
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

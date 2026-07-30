@@ -2,15 +2,15 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **34 / 34 passed**
+- Python unit tests: **35 / 35 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,134 pages**
 - Internal link check: **24,134 HTML files passed**
-- Browser and accessibility suite: **156 / 156 passed**
+- Browser and accessibility suite: **159 / 159 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`3edc23b6789da38511a6b40fcd79148f2da642ac80d1334323bf02ff6cdf0f73`)
+  (`259869cbf991a4388529011228d2b12d363a2ce32c0af01282b5c52ce5645da9`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,23 +19,17 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,214**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **408** public records representing **380** unique documents
-- Published, qualified affiliations: **311**
-- Published claims: **517**
-- Withheld low-confidence evidence: **9 claims concerning 6 people**
-- Verified-affiliation metric: **161** people with confirmed/high published
+- Reviewed public sources: **415** public records representing **387** unique documents
+- Published, qualified affiliations: **314**
+- Published claims: **523**
+- Withheld low-confidence evidence: **11 claims concerning 8 people**
+- Verified-affiliation metric: **162** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **95** people with confirmed/high published
+- Verified-employer metric: **96** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30506164931](https://github.com/therealjameswilson/before-oss/actions/runs/30506164931)
-  for Batch 037 release `902f449`: **passed**
-- GitHub Pages deployment workflow
-  [30506164913](https://github.com/therealjameswilson/before-oss/actions/runs/30506164913)
-  for Batch 037 release `902f449`: **passed**
-- Production route and asset smoke tests: **24 / 24 returned HTTP 200 and the
-  expected content marker, data value, row count, or redaction state**
+- Batch 038 GitHub Actions and live-production verification: **pending release
+  commit**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -192,3 +186,10 @@ adjacent James Herbert rows, which remain separate ambiguous entities while
 their shared Navy candidate is withheld. It also makes organization pages
 auditable by listing reviewed linked personnel, relationship and temporal
 classification, profile links, and claim-level citations.
+Batch 038 adds checks for Moritz Velleman's Army-to-OSS pathway and separate
+French Army and unnamed Lisbon-office affiliations; Arthur H. Velleman's
+distinct, qualified identity; George A. George's probable identity; and the
+ambiguous Howard C. Ressler and Raymond W. Deisher leads, for which no
+affiliation is published. It also regression-tests stable provenance dates and
+numeric replay ordering so later evidence batches deterministically supersede
+earlier decisions.

@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 185 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,293 unique external URLs for separate live
+The checker inventoried 48,296 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -26,6 +26,8 @@ verification; external responses do not affect the internal-route pass.
 | Official personnel index PDF | HTTP 200 |
 | Library of Congress APIs | HTTP 200 |
 | NPS, *Instructing for Dangerous Missions* | HTTP 200 |
+| Digitaal Joods Monument, Moritz Velleman, “Emigration” | Reviewed through the research browser |
+| Port Washington Patch, Moritz Velleman obituary | Reviewed through the research browser |
 | NPS, *Daily Life in Camp, Park and Town* | HTTP 200 |
 | NPS, *A Wartime Organization for Unconventional Warfare* | HTTP 200 |
 | NPS, *OSS in Action: The Pacific and the Far East* | HTTP 200 |
@@ -39,7 +41,7 @@ verification; external responses do not affect the internal-route pass.
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
 
-## Production deployment
+## Last verified production deployment
 
 GitHub Actions test workflow
 [30506164931](https://github.com/therealjameswilson/before-oss/actions/runs/30506164931)

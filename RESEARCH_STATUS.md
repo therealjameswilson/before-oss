@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 264 people with a non-planned attempt | 23,941 person entities | 1.1027% |
-| Verified-affiliation coverage | 161 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.6725% |
-| Verified-employer coverage | 95 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3968% |
-| Archival-review coverage | 191 people with an individual file-access/priority assessment | 23,941 person entities | 0.7978% |
+| Research-attempt coverage | 269 people with a non-planned attempt | 23,941 person entities | 1.1236% |
+| Verified-affiliation coverage | 162 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.6767% |
+| Verified-employer coverage | 96 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4010% |
+| Archival-review coverage | 196 people with an individual file-access/priority assessment | 23,941 person entities | 0.8187% |
 
 ## Extraction and identity
 
@@ -22,15 +22,15 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 8
-- Identity status `high_confidence`: 207
-- Identity status `probable`: 7
-- Identity status `ambiguous`: 7
-- Identity status `unresolved`: 23,712
+- Identity status `high_confidence`: 208
+- Identity status `probable`: 9
+- Identity status `ambiguous`: 9
+- Identity status `unresolved`: 23,707
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,632
-- Enlisted Army personnel: 3,459
+- Unknown or indeterminate: 16,631
+- Enlisted Army personnel: 3,460
 - Commissioned Army officers: 2,061
 - Commissioned Marine Corps officers: 5
 - Civilian professional or administrative grades: 1,451
@@ -39,18 +39,18 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Commissioned naval officers: 38
 - Warrant officers: 4
 
-Commissioned classification: 2,108 yes; 4,967 no; 16,866 indeterminate.
+Commissioned classification: 2,108 yes; 4,968 no; 16,865 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,677
+- `not_started`: 23,672
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 6
 - `documented_prewar_employer_found`: 12
 - `occupation_only_found`: 12
-- `requires_archival_review`: 25
-- `completed`: 21
+- `requires_archival_review`: 29
+- `completed`: 22
 - `verified_employer_found`: 102
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,12 +61,12 @@ Commissioned classification: 2,108 yes; 4,967 no; 16,866 indeterminate.
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 186 across 185 people; 10 additional
+- Saved `source_reviewed` outcomes: 191 across 190 people; 10 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,255
+- Total recorded attempts/plans: 1,260
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 191; 185 have at least one public-eligible
+- People with saved reviewed claims: 196; 188 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -119,11 +119,12 @@ Commissioned classification: 2,108 yes; 4,967 no; 16,866 indeterminate.
   preserved ambiguous L. L. Hollander index row, Marvin S. Flisser, Willis S.
   Georgia Jr., Robert R. Kehoe, Benton E. Bickham Jr., Milton W. Griffith,
   Louis Lostfogel, Edmund I. Stromholt, and the two separately preserved
-  ambiguous James Herbert rows.
-- Published affiliations: 311
-- Database claims: 526; public-eligible claims: 517 (77 confirmed, 399 high, 41
-  medium); 9 low-confidence claims concerning 6 people are withheld
-- Citation records: 419; public source export: 408; unique source documents: 380
+  ambiguous James Herbert rows, Moritz Velleman, Arthur H. Velleman, George A.
+  George, Howard C. Ressler, and Raymond W. Deisher.
+- Published affiliations: 314
+- Database claims: 534; public-eligible claims: 523 (77 confirmed, 402 high, 44
+  medium); 11 low-confidence claims concerning 8 people are withheld
+- Citation records: 428; public source export: 415; unique source documents: 387
 - Canonical organizations: 186 private and 185 public
 - Conflicts: 0
 - NARA pull-list rows: 23,876
@@ -199,6 +200,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-radio-and-cry
 python3 -m oss_research import-reviewed-evidence research/evidence-communications-leadership-and-field-pathways_batch-035_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-communications-recruits-and-duplicate-review_batch-036_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-area-b-staff-and-herbert-review_batch-037_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence-area-b-enlisted-and-velleman-review_batch-038_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

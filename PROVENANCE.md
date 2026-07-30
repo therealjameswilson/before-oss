@@ -205,6 +205,32 @@ They confirm the source spellings, ranks, private service-number distinctions,
 boxes, and archival locations used in the evidence bundle. Full service
 numbers remain private and do not appear in public pages or downloads.
 
+## Reviewed Area B enlisted staff and Velleman identities
+
+The thirty-eighth evidence batch used the
+[National Park Service's official training history](https://www.nps.gov/articles/instructing-for-dangerous-missions.htm),
+the NARA personnel index, Moritz Velleman's first-person account at the
+[Digitaal Joods Monument](https://www.joodsmonument.nl/nl/page/617617/emigration),
+a family-supplied
+[Moritz Velleman obituary](https://patch.com/new-york/portwashington/moritz-velleman-longtime-port-washington-resident-dies),
+and a qualified secondary OSS document-production history. No live NARA
+Catalog API request or retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Moritz Velleman | The rare exact name, Dutch/Belgian background, arrival in the United States after France fell, Army enlistment, and Area B account support a high-confidence identity. U.S. Army service is the immediate military affiliation; earlier French Army service and work for an unnamed Lisbon office remain separate pre-OSS affiliations. The office is not promoted to last civilian employer because the source does not establish that chronology. |
+| Arthur H. Velleman | The adjacent index row is a separate person with a different private service number. Moritz's account identifies Arthur as his brother already in the United States after leaving Belgium in 1939. A secondary source's OSS Documents Division lead remains qualified and does not establish a pre-OSS affiliation. |
+| George A. George | NPS's `Georges George` Area B staff member is retained as a probable, visibly qualified match because the source omits the indexed middle initial, service number, and box. No pre-OSS affiliation is inferred. |
+| Howard C. Ressler | NPS's Corporal Ressler is a plausible Area B lead, but the common surname, different grade context, and missing middle initial leave the identity ambiguous. The lead remains withheld pending Box 640 review. |
+| Raymond W. Deisher | NPS's Corporal Deisher is a plausible rare-surname lead, but the official history says his first name and background were unknown. The identity remains ambiguous and no employer is inferred. |
+
+Index PDF pages 111, 165, 389, and 482 were rendered and visually checked.
+They confirm the five source rows and show Arthur and Moritz Velleman as
+adjacent but distinct records. A seeming Raymond W. Deisher hit in the 1943
+Rochester directory was also rendered and rejected: the entry belongs to the
+preceding Deisinger listing. The rejected lead and reason are retained in the
+research audit trail; full service numbers remain private.
+
 ## Official reference material
 
 - NARA OSS personnel records:

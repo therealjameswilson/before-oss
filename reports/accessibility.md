@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 156 / 156 browser cases.**
+**PASS - 159 / 159 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-95-person employer measure is labeled separately from the 161-person broader
+96-person employer measure is labeled separately from the 162-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -308,6 +308,15 @@ personnel, relationship and temporal distinctions, profile links, and claim-leve
 citations. The Norwegian Army detail route was added to the axe matrix. The
 complete desktop, phone, and tablet matrix then passed 156 / 156 with no
 remaining assertion or serious/critical axe failure.
+
+The Batch 038 regression updated the two homepage coverage assertions and adds
+direct profile checks for Moritz and Arthur Velleman, George A. George, Howard
+C. Ressler, and Raymond W. Deisher. It verifies the Army-to-OSS pathway,
+unnamed Lisbon employment, separate Velleman identities, qualified probable
+identities, withheld ambiguous candidates, unresolved-employer wording, and
+continued service-number masking. The complete desktop, phone, and tablet
+matrix passed 159 / 159 with no remaining assertion or serious/critical axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
