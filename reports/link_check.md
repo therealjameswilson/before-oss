@@ -80,10 +80,10 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30518039585](https://github.com/therealjameswilson/before-oss/actions/runs/30518039585)
+[30519783276](https://github.com/therealjameswilson/before-oss/actions/runs/30519783276)
 and GitHub Pages deployment
-[30518039661](https://github.com/therealjameswilson/before-oss/actions/runs/30518039661)
-for employment transitions and terminal protocols Batch 044 release `54a2ae9`
+[30519783308](https://github.com/therealjameswilson/before-oss/actions/runs/30519783308)
+for terminal protocols and Allied pathways Batch 045 release `203d43b`
 completed
 successfully.
 
@@ -92,9 +92,9 @@ count, or redaction state for all 17
 tested targets:
 
 - the home page;
-- Edna W. Andrade, Mort S. Bobrow, Edmund M. Burke, Jane Burrell, John H.
-  Hemingway, Conrad F. LaGueux, John Magruder, Peter M. F. Sichel, and the
-  adjacent Peter M. Sichel row;
+- Billie F. Akin, Étienne Ancergues, Julia N. Barnhart, Philip H. Chadbourn
+  Jr., Jacqueline M. Landry, Gus Macriyanni, Carl D. Marshall, Constantine
+  Papadopoulos, and Lawrence N. Stevens;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
@@ -102,10 +102,10 @@ tested targets:
   the nine reviewed profiles.
 
 The live statistics report 23,978 source rows, 23,941 person entities, 289
-people with non-planned research attempts, 176 verified-affiliation people, 106
-verified-employer people, 217 archival-review assessments, 585 published
-claims, and 475 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 210, 351, and 475 data rows
+people with non-planned research attempts, 178 verified-affiliation people, 106
+verified-employer people, 226 archival-review assessments, 590 published
+claims, and 482 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 212, 354, and 482 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
