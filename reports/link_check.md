@@ -169,3 +169,15 @@ byte-for-byte. The deployed and local manifest files share SHA-256
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
+
+## Batch 066 local release check
+
+The rebuilt site contains direct, internally resolved routes for Arthur
+Alexander, Charles T. Alexander, Cletus S. Alexander, Edna S. Alexander,
+Eileen Alexander, Guy Alexander, Hubert Alexander, Jean E. Alexander,
+Lawrence Alexander, and Leonard Alexander. Each profile preserves its printed
+page-five provenance, routes to Box 8 or Box 9, and states the unresolved
+employment outcome without promoting an uncorroborated namesake. Charles T.
+Alexander's route also exposes the corrected commissioned naval classification
+while preserving the printed `LT USN` rank. The complete local link checker
+passed all 24,183 HTML files and inventoried 48,449 unique external URLs.

@@ -53,6 +53,19 @@ class NormalizeTests(unittest.TestCase):
         self.assertTrue(result.commissioned_officer)
         self.assertFalse(result.allied_or_foreign)
 
+    def test_usn_suffix_classifies_lieutenant_as_naval_officer(self) -> None:
+        result = classify_personnel("LT USN", None)
+        self.assertEqual(result.rank_normalized, "LT USN")
+        self.assertEqual(result.category, "commissioned_naval_officer")
+        self.assertTrue(result.commissioned_officer)
+        self.assertIn("USN", result.note or "")
+
+    def test_usnr_suffix_classifies_lieutenant_as_naval_officer(self) -> None:
+        result = classify_personnel("Lt USNR", None)
+        self.assertEqual(result.rank_normalized, "LT USNR")
+        self.assertEqual(result.category, "commissioned_naval_officer")
+        self.assertTrue(result.commissioned_officer)
+
     def test_serial_normalization_preserves_prefix(self) -> None:
         self.assertEqual(normalize_serial("RA 3389449"), "RA3389449")
 

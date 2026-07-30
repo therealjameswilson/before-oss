@@ -569,5 +569,13 @@ archival-review profiles and field-level serial masking. The complete desktop,
 phone, and tablet matrix passed 240 / 240 with no remaining assertion or
 serious/critical axe failure.
 
+The Batch 066 regression checks the contiguous Arthur Alexander-through-
+Leonard Alexander sequence on PDF page five. It verifies ten dignified
+archival-review profiles, Box 8 and Box 9 routing, the visibly commissioned
+naval classification for the printed `LT USN` rank, the withheld Federal Works
+Agency and Texas-veteran namesake leads, and field-level serial masking. The
+complete desktop, phone, and tablet matrix passed 243 / 243 with no remaining
+assertion or serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

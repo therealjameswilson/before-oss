@@ -186,6 +186,12 @@ def classify_personnel(rank_raw: str | None, notes_raw: str | None) -> Personnel
     notes = clean(notes_raw) or ""
     foreign = bool(FOREIGN_NOTE_RE.search(notes)) if notes else None
     note: str | None = None
+    naval_rank = rank
+    if rank:
+        for suffix in (" USNR", " USN"):
+            if rank.endswith(suffix):
+                naval_rank = rank[: -len(suffix)].strip()
+                break
     if notes.upper().startswith("COAST G"):
         if rank in ARMY_OFFICER_RANKS or rank in NAVAL_OFFICER_RANKS:
             return PersonnelClassification(
@@ -203,6 +209,14 @@ def classify_personnel(rank_raw: str | None, notes_raw: str | None) -> Personnel
         return PersonnelClassification(
             rank, "foreign_or_allied_military_personnel", None, True,
             "Foreign or Allied classification is based on the printed notes field."
+        )
+    if naval_rank != rank and naval_rank in NAVAL_OFFICER_RANKS.union({"LT"}):
+        return PersonnelClassification(
+            rank,
+            "commissioned_naval_officer",
+            True,
+            foreign,
+            "Naval branch is based on the printed USN or USNR rank suffix.",
         )
     if rank in ARMY_OFFICER_RANKS:
         return PersonnelClassification(rank, "commissioned_army_officer", True, foreign)

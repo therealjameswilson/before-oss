@@ -19,13 +19,13 @@ is not complete, and the site reports that limitation explicitly.
 - 23,978 / 23,978 source rows linked to an entity
 - 210 possible duplicate groups, including 37 narrow automatic consolidations
 - 75-person stratified research pilot, 4 reviewed NARA personnel files, and 272
-  saved source-reviewed outcomes, with 1,502 source attempts or plans
+  saved source-reviewed outcomes, with 1,512 source attempts or plans
 - 196 verified-affiliation profiles, including 118 with verified employment or
-  self-employment, and 425 individually assessed archival files
-- 394 published affiliations, 668 published claims, 766 citation records, and
+  self-employment, and 435 individually assessed archival files
+- 394 published affiliations, 668 published claims, 776 citation records, and
   534 unique source documents; 15 low-confidence claims concerning 12 people
   remain withheld from public facts
-- 23,463 people remain `not_started`; the public site reports this
+- 23,453 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

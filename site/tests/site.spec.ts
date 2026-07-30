@@ -5847,3 +5847,58 @@ test("Batch 065 documents Aldrich's Army pathway and routes nine unresolved prof
     "https://www.govinfo.gov/content/pkg/GPO-CRECB-1940-pt8-v86/pdf/GPO-CRECB-1940-pt8-v86-12-1.pdf",
   );
 });
+
+test("Batch 066 routes the next ten Alexander profiles to Boxes 8 and 9 without promoting namesakes", async ({
+  page,
+}) => {
+  const terminalProfiles = [
+    ["a5a553a2-4f53-58c5-84f7-e19cdcb62526", "Arthur Alexander", "8"],
+    ["f3f07a74-be28-552f-bde2-6e8fa018e55f", "Charles T Alexander", "8"],
+    ["c2bf4f25-fb59-57de-a0b9-1d9e9e52683d", "Cletus S Alexander", "8"],
+    ["36722c7e-159f-5147-ad5a-fc69e9e2d796", "Edna S Alexander", "8"],
+    ["7d7f7acb-0ad1-5ef4-8c16-75dee09b3e03", "Eileen Alexander", "9"],
+    ["5cd72df8-2e4a-5463-9d6a-8bfb58cb7043", "Guy Alexander", "9"],
+    ["eb621a9e-cb52-590c-8562-80d19a9a0278", "Hubert Alexander", "9"],
+    ["15dd449d-9819-5e2a-91fb-5cecca9532e6", "Jean E Alexander", "9"],
+    ["0ebfbbc5-4711-5fd3-8ec5-46b5f2621f87", "Lawrence Alexander", "9"],
+    ["09730c59-5bee-5e27-8abd-0a58d0340232", "Leonard Alexander", "9"],
+  ];
+
+  for (const [personId, displayName, box] of terminalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/f3f07a74-be28-552f-bde2-6e8fa018e55f/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned naval officer",
+  );
+  await expect(page.locator("body")).toContainText("LT USN");
+
+  await page.goto("./people/c2bf4f25-fb59-57de-a0b9-1d9e9e52683d/");
+  await expect(page.locator("body")).toContainText(
+    "Federal Works Agency lead",
+  );
+  await expect(page.locator("body")).toContainText(
+    "before accepting or rejecting",
+  );
+
+  await page.goto("./people/09730c59-5bee-5e27-8abd-0a58d0340232/");
+  await expect(page.locator("body")).toContainText(
+    "test but do not assume the Texas candidate",
+  );
+});

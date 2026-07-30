@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 478 people with a non-planned attempt | 23,941 person entities | 1.9966% |
+| Research-attempt coverage | 488 people with a non-planned attempt | 23,941 person entities | 2.0383% |
 | Verified-affiliation coverage | 196 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8187% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 425 people with an individual file-access/priority assessment | 23,941 person entities | 1.7752% |
+| Archival-review coverage | 435 people with an individual file-access/priority assessment | 23,941 person entities | 1.8170% |
 
 ## Extraction and identity
 
@@ -29,7 +29,7 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,620
+- Unknown or indeterminate: 16,611
 - Enlisted Army personnel: 3,459
 - Commissioned Army officers: 2,062
 - Commissioned Coast Guard officers: 1
@@ -38,20 +38,20 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Civilian professional or administrative grades: 1,457
 - Foreign or Allied military personnel: 244
 - Enlisted naval personnel: 48
-- Commissioned naval officers: 40
+- Commissioned naval officers: 49
 - Warrant officers: 4
 
-Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
+Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,463
+- `not_started`: 23,453
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 21
-- `requires_archival_review`: 220
+- `requires_archival_review`: 230
 - `completed`: 33
 - `verified_employer_found`: 119
 - Stratified pilot size: 75
@@ -61,12 +61,12 @@ Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 207
+- Reviewed-web terminal-protocol attempts recorded: 217
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 272 across 258 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,502
+- Total recorded attempts/plans: 1,512
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 253; 241 have at least one public-eligible
@@ -278,10 +278,22 @@ Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
   remain military affiliations, not civilian employers. The other nine
   profiles have terminal no-result outcomes and route to Box 8 review without
   unsupported employer claims.
+  Batch 066 additionally reviewed Arthur Alexander, Charles T. Alexander,
+  Cletus S. Alexander, Edna S. Alexander, Eileen Alexander, Guy Alexander,
+  Hubert Alexander, Jean E. Alexander, Lawrence Alexander, and Leonard
+  Alexander. The common-name and incomplete-name protocol produced no
+  publishable employer claim. A 1940 draft-registration lead for Cletus Stephen
+  Alexander names the Federal Works Agency, but it remains unaccepted because
+  name and middle initial alone do not connect it to the indexed T-5. A Texas
+  farmer and Guadalcanal veteran likewise remains only an unconfirmed Leonard
+  Alexander namesake. All ten profiles route to Boxes 8 or 9. The batch also
+  repaired the parser rule for printed `LT USN` and `Lt USNR` ranks, correctly
+  classifying all ten such source rows and person entities as commissioned naval
+  officers while preserving the original rank strings.
 - Published affiliations: 394
 - Database claims: 683; public-eligible claims: 668 (95 confirmed, 508 high, 65
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 766; public source export: 576; unique source documents: 534
+- Citation records: 776; public source export: 576; unique source documents: 534
 - Canonical organizations: 236 private and 234 public
 - Conflicts: 0
 - NARA pull-list rows: 23,859
@@ -396,6 +408,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-albertsen-through-albright-pathways_batch-063_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-alchevesky-through-aldrich-pathways_batch-064_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-and-fifth-page-aldrich-through-alexander-pathways_batch-065_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexander-archival-pathways_batch-066_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

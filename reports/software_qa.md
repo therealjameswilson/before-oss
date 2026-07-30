@@ -2,28 +2,28 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **47 / 47 passed**
+- Python unit tests: **49 / 49 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,183 pages**
 - Internal link check: **24,183 HTML files passed**
-- Browser and accessibility suite: **240 / 240 passed**
+- Browser and accessibility suite: **243 / 243 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`a9e522e9dae7ffd4b25a9417ba26d23a29ed6e0f0b2aac372b700b0529fcebcf`)
+  (`463f682e9ced2f4c3bbea4c7ff8d323e109c680ac2add6e36c8604c94f73eb64`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 65 evidence batches. Six QA report
+  checkpoints, review decisions, and all 66 evidence batches. Six QA report
   files changed only in their explicit run-generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `42dd143b80baebc316cb0eb8f4b428aef56d7430711540f3de47d1811d5c9f25`
+  `c962ebc18df86c998294f684b45d79747e331fe1d675420ce9b507d691a45ea0`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,919** distinct normalized private service
-  numbers at least five characters long: **0 full-number matches** in **24,327**
+  numbers at least five characters long: **0 full-number matches** in **24,261**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
 - Reviewed public sources: **576** public records representing **534** unique documents
@@ -480,3 +480,15 @@ employment. The other nine profiles have terminal no-result outcomes and route
 to Box 8 review. The regression checks all ten profiles, temporal and
 relationship distinctions, source links, and field-level service-number
 masking across three viewports.
+Batch 066 completes the minimum online protocol for Arthur Alexander through
+Leonard Alexander on PDF page five. All ten profiles remain unresolved after
+official, exact-name, employment-focused, obituary, newspaper, directory, and
+archival searches and route to their indexed Box 8 or Box 9 files. The
+plausible Cletus S. Alexander Federal Works Agency and Leonard Alexander Texas
+veteran candidates remain explicitly rejected identity leads because the
+reviewed sources do not provide enough corroborating identifiers. The rank
+normalizer now recognizes `LT USN` and `Lt USNR` as commissioned naval ranks
+while preserving the printed rank strings; two unit tests and the clean replay
+cover the correction. The regression checks all ten profiles, rejected
+namesake notes, archival routing, commissioned status, and field-level
+service-number masking across three viewports.
