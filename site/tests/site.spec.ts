@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/98 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/99 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 165 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 169 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3775,6 +3775,73 @@ test("Batch 039 preserves film, media, military, and occupation-only boundaries"
   await expect(
     page.locator('section[aria-labelledby="immediate-affiliation"]'),
   ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 040 preserves field pathways, occupation boundaries, spelling variants, and separate Mayer rows", async ({
+  page,
+}) => {
+  await page.goto("./people/72ba8a20-2fdf-56be-b228-6dbb45dde0af/");
+  await expect(
+    page.getByRole("heading", { name: "Roderick G.S. Hall", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "270th Engineer Combat Battalion, United States Army",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Yale University");
+
+  await page.goto("./people/cde21206-1f2d-5241-82c6-7b30c8f95aa0/");
+  await expect(
+    page.getByRole("heading", { name: "Miles A Copeland", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("professional jazz musician");
+  await expect(page.locator("body")).not.toContainText("Benny Goodman");
+
+  await page.goto("./people/6df71376-3491-5715-91af-53606a60d0fd/");
+  await expect(
+    page.getByRole("heading", { name: "George S Musolin", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("George S. Musulin");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("115th Infantry Regiment");
+  await expect(page.locator("body")).toContainText("professional football");
+
+  await page.goto("./people/59f66a94-282a-5f09-b5d1-ea7cdeed4705/");
+  await expect(
+    page.getByRole("heading", { name: "Frederick Mayer", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(page.locator("body")).toContainText("Ford Motor Company");
+  await expect(page.locator("body")).toContainText("General Motors");
+  await expect(page.locator("body")).toContainText(/duplicate-[a-f0-9]{12}/);
+
+  await page.goto("./people/ed9e4da5-f917-555a-9fda-052036f02574/");
+  await expect(
+    page.getByRole("heading", { name: "Frederick Mayer", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText(/duplicate-[a-f0-9]{12}/);
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).not.toContainText("Ford Motor Company");
+  await expect(page.locator("body")).not.toContainText("General Motors");
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

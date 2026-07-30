@@ -5,35 +5,36 @@ Run: 2026-07-30 UTC
 - Python unit tests: **36 / 36 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,140 pages**
-- Internal link check: **24,140 HTML files passed**
-- Browser and accessibility suite: **162 / 162 passed**
+- Static production build: **24,145 pages**
+- Internal link check: **24,145 HTML files passed**
+- Browser and accessibility suite: **165 / 165 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`7cb313386ddfd41e87f03ab2d027001ff532fcc6d66829f97054c653e8850863`)
+  (`f1df09215566aa3468a0ba6cd2e36a6c7cae0983f40a343d127ee6d69cbbc8e3`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,220**
+  numbers at least six characters long: **0 full-number matches** in **24,223**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **431** public records representing **400** unique documents
-- Published, qualified affiliations: **322**
-- Published claims: **538**
-- Withheld low-confidence evidence: **11 claims concerning 8 people**
-- Verified-affiliation metric: **165** people with confirmed/high published
+- Reviewed public sources: **444** public records representing **412** unique documents
+- Published, qualified affiliations: **330**
+- Published claims: **552**
+- Withheld low-confidence evidence: **12 claims concerning 9 people**
+- Verified-affiliation metric: **169** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **98** people with confirmed/high published
+- Verified-employer metric: **99** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
+- Latest verified production GitHub Actions test workflow
   [30510643981](https://github.com/therealjameswilson/before-oss/actions/runs/30510643981)
   for Batch 039 release `3e6db00`: **passed**
-- GitHub Pages deployment workflow
+- Latest verified production GitHub Pages deployment workflow
   [30510644008](https://github.com/therealjameswilson/before-oss/actions/runs/30510644008)
   for Batch 039 release `3e6db00`: **passed**
+- Batch 040 release deployment: **pending**
 - Production route and asset smoke tests: **12 / 12 returned HTTP 200 and the
   expected content marker, data value, row count, or redaction state**
 
@@ -206,3 +207,10 @@ News employment; Robert R. Parrish's and Sol Kaplan's occupation-only results;
 and Corey Ford's professional publication relationships. It also tests the new
 enlisted Marine Corps category without forcing unfamiliar grades or wartime
 creative work into unsupported personnel or employer classifications.
+Batch 040 adds checks for Roderick G.S. Hall's Yale-student and Army pathway,
+Miles A. Copeland's professional-musician and Army-finance chronology, George
+S. Musolin's indexed spelling and documented Musulin variant, and Frederick
+Mayer's Army pathway and earlier automotive employment. It keeps the two
+adjacent Mayer rows separate because their private service identifiers differ,
+withholds the ambiguous row's low-confidence candidate, and continues to mask
+all full service numbers.

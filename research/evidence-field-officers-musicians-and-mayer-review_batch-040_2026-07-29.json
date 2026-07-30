@@ -1,0 +1,984 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-92-copeland-miles-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 143",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 92, row 30; Copeland, Miles A.; rank and serial blank; Box 143; location 230/86/29/02; visually checked against the rendered page",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226"
+    },
+    {
+      "key": "nara-oss-index-page-189-hall-roderick-g-s",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 306",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 189, row 15; Hall, Roderick G.S.; Capt.; Box 306; location 230/86/32/04; visually checked against the rendered page",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The full service number is retained only in the private database and is masked in public output."
+    },
+    {
+      "key": "nara-oss-index-page-302-mayer-frederick-second-lieutenant",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 494",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 302, row 12; Mayer, Frederick; 2nd Lt; Box 494; location 230/86/36/03; visually checked against the rendered page",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The full service number is retained only in the private database and is masked in public output."
+    },
+    {
+      "key": "nara-oss-index-page-302-mayer-frederick-blank-rank",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 494",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 302, row 13; Mayer, Frederick; rank blank; Box 494; location 230/86/36/03; visually checked against the rendered page",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "This adjacent row has a different full service number from the preceding commissioned row. Both values remain private; the records are not merged."
+    },
+    {
+      "key": "nara-oss-index-page-335-musolin-george-s",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 548",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 335, row 45; Musolin, George S.; Lt; Box 548; location 230/86/37/04; visually checked against the rendered page",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index spelling Musolin is preserved. The full service number is retained only in the private database and is masked in public output."
+    },
+    {
+      "key": "cia-roderick-stephen-hall-2017",
+      "stable_url": "https://www.cia.gov/stories/story/roderick-stephen-hall-the-saboteur-of-brenner-pass/",
+      "archival_identifier": "CIA story, Roderick Stephen Hall: The Saboteur of Brenner Pass",
+      "title": "Roderick Stephen Hall: The Saboteur of Brenner Pass",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2017-06-15",
+      "locator": "A Seasoned Traveler, Searching for Adventure, and A Bold Plan sections; includes Hall's fall 1943 letter signed R.S.G. Hall, 2nd Lt., 270 Engr. (c) Bn., Camp Adair",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Official institutional biography reproducing short portions of Hall's wartime letter; only a short excerpt and project-authored paraphrases are retained."
+    },
+    {
+      "key": "cia-miles-copeland-2023",
+      "stable_url": "https://www.cia.gov/stories/story/miles-copeland/",
+      "archival_identifier": "CIA story, Miles Copeland",
+      "title": "Jazz, Spies and Games: The Extraordinary Life of CIA Founding Member Miles Copeland",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2023-04-27",
+      "locator": "Man in a Suitcase and When the World is Running Down sections, identifying Miles Axe Copeland Jr., his jazz career, Army divisional Finance Office work, and Donovan's recruitment",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "nps-oss-mediterranean-europe-musulin",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "archival_identifier": "National Park Service article, OSS in Action: The Mediterranean and European Theaters",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "locator": "Amidst Warring Factions in Yugoslavia, paragraph identifying Captain George Musulin as an American of Serbian ancestry",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Official institutional history used to corroborate the corrected surname, rank, and OSS theater."
+    },
+    {
+      "key": "musulin-commission-testimony-reprint-1946",
+      "stable_url": "https://freerepublic.com/focus/news/2291097/posts",
+      "archival_identifier": "Commission of Inquiry testimony of George S. Musulin, 15 May 1946; online transcript reprint posted 12 July 2009",
+      "title": "Commanding Officer of the Halyard Mission, George Musulin, testifies before Commission of Inquiry",
+      "author_creator": "Commission of Inquiry in the Matter of Depositions of American and Allied Military Personnel",
+      "repository_publisher": "Free Republic, reprinting a 1946 Commission of Inquiry transcript",
+      "publication_record_date": "1946-05-15",
+      "locator": "Examination of George S. Musulin, testimony on birth, education, Army induction, 115th Regiment assignment, July 1942 OSS recruitment, and May 1943 commissioning",
+      "access_date": "2026-07-29",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Commission of Inquiry testimony reprint",
+      "rights_notes": "Near-primary sworn testimony in a non-archival online reprint. A private identifier printed elsewhere on the page matches the index, but the number is not retained in citations or public output."
+    },
+    {
+      "key": "los-angeles-times-george-musulin-obituary-1987",
+      "stable_url": "https://www.latimes.com/archives/la-xpm-1987-02-28-mn-6325-story.html",
+      "archival_identifier": "Los Angeles Times obituary, 28 February 1987",
+      "title": "George Musulin; Led Airlift That Rescued Fliers in World War II",
+      "author_creator": "From Times wire services",
+      "repository_publisher": "Los Angeles Times",
+      "publication_record_date": "1987-02-28",
+      "locator": "Obituary paragraphs identifying University of Pittsburgh graduation, professional football, and named teams",
+      "access_date": "2026-07-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Los Angeles Times archive",
+      "rights_notes": "Only a short excerpt and project-authored paraphrases are retained."
+    },
+    {
+      "key": "pro-football-archives-george-musulin",
+      "stable_url": "https://www.profootballarchives.com/players/m/musu00200.html",
+      "archival_identifier": "Pro Football Archives player record, George Samuel Musulin",
+      "title": "George Musulin Pro Football Stats, Position, College, Draft, Transactions",
+      "author_creator": "Pro Football Archives",
+      "repository_publisher": "Pro Football Archives",
+      "locator": "Player record for George Samuel Musulin, including birth date, University of Pittsburgh, 1938 Boston Shamrocks and St. Louis Gunners roster entries, and Army service",
+      "access_date": "2026-07-29",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Pro Football Archives",
+      "rights_notes": "Used as corroboration for occupation and chronology, not as sole identity evidence."
+    },
+    {
+      "key": "cia-oss-75th-frederick-mayer-2017",
+      "stable_url": "https://www.cia.gov/stories/story/director-pompeo-delivers-remarks-at-oss-75th-anniversary-ceremony/",
+      "archival_identifier": "CIA remarks at the OSS 75th Anniversary Ceremony",
+      "title": "Director Pompeo Delivers Remarks at OSS 75th Anniversary Ceremony",
+      "author_creator": "Michael R. Pompeo",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2017-06-16",
+      "locator": "Remarks paragraph identifying Frederick Mayer as a German Jewish refugee recruited into the OSS Special Intelligence Branch",
+      "access_date": "2026-07-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA Speeches and Transcripts",
+      "rights_notes": "Official institutional identification of Frederick Mayer's OSS service; it does not contain either private index service number."
+    },
+    {
+      "key": "washington-post-frederick-mayer-obituary-2016",
+      "stable_url": "https://www.washingtonpost.com/national/frederick-mayer-german-jew-who-returned-to-nazi-europe-as-us-spy-dies-at-94/2016/04/26/e5360cac-0af2-11e6-bfa1-4efa856caf2a_story.html",
+      "archival_identifier": "Washington Post obituary, 26 April 2016",
+      "title": "Frederick Mayer, German Jew who returned to Nazi Europe as U.S. spy, dies at 94",
+      "author_creator": "Emily Langer",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2016-04-26",
+      "locator": "Biographical paragraphs on Army enlistment and recommendation to OSS; later paragraph identifying pre-Army mechanic work at Ford and General Motors",
+      "access_date": "2026-07-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post obituaries",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained; unrelated personal and medical details are excluded."
+    },
+    {
+      "key": "national-wwii-museum-operation-greenup-2021",
+      "stable_url": "https://www.nationalww2museum.org/war/articles/operation-greenup-real-inglourious-basterds",
+      "archival_identifier": "National WWII Museum article, 3 May 2021",
+      "title": "Operation Greenup: The REAL Inglourious Basterds",
+      "author_creator": "Robert Citino",
+      "repository_publisher": "The National WWII Museum",
+      "publication_record_date": "2021-05-03",
+      "locator": "Opening account identifying 23-year-old Brooklyn resident Frederick Mayer and his OSS Operation Greenup service",
+      "access_date": "2026-07-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Jenny Craig Institute for the Study of War and Democracy",
+      "rights_notes": "Used with CIA and newspaper evidence for identity corroboration; only short excerpts and paraphrases are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Military assignment is not counted as civilian employment."
+    },
+    {
+      "key": "yale-university",
+      "canonical_name": "Yale University",
+      "historical_name": "Yale University",
+      "aliases": [
+        "Yale"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "normalization_notes": "Student status and faculty employment are modeled separately; graduate study alone is not counted as employment."
+    },
+    {
+      "key": "us-army-270th-engineer-combat-battalion",
+      "canonical_name": "270th Engineer Combat Battalion, United States Army",
+      "historical_name": "270 Engr. (c) Bn.",
+      "aliases": [
+        "270th Engineer Combat Battalion",
+        "270 Engr. (c) Bn."
+      ],
+      "organization_type": "Army engineer battalion",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Preserves the unit designation in Hall's 1943 letter. This military assignment is not counted as civilian employment."
+    },
+    {
+      "key": "us-army-115th-regiment-29th-infantry-division",
+      "canonical_name": "115th Infantry Regiment, 29th Infantry Division, United States Army",
+      "historical_name": "115th Regiment of the 29th Infantry Division",
+      "aliases": [
+        "115th Regiment",
+        "115th Infantry Regiment",
+        "29th Infantry Division"
+      ],
+      "organization_type": "Army infantry regiment",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Preserves Musulin's 1946 wording while making the Army hierarchy explicit. This military assignment is not counted as civilian employment."
+    },
+    {
+      "key": "university-of-pittsburgh",
+      "canonical_name": "University of Pittsburgh",
+      "historical_name": "University of Pittsburgh",
+      "aliases": [
+        "University of Pittsburg",
+        "Pitt"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Pittsburgh",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "The 1946 transcript alternates Pittsburg and Pittsburgh. Student and varsity-athlete status are not counted as employment."
+    },
+    {
+      "key": "ford-motor-company",
+      "canonical_name": "Ford Motor Company",
+      "historical_name": "Ford",
+      "aliases": [
+        "Ford"
+      ],
+      "organization_type": "automobile manufacturer",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "The source gives Ford but no plant, subsidiary, dates, or chronology relative to General Motors; none is inferred."
+    },
+    {
+      "key": "general-motors",
+      "canonical_name": "General Motors",
+      "historical_name": "General Motors",
+      "aliases": [
+        "GM"
+      ],
+      "organization_type": "automobile manufacturer",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "The source gives General Motors but no plant, division, dates, or chronology relative to Ford; none is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "roderick-hall-270th-engineer-combat-battalion",
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "organization_key": "us-army-270th-engineer-combat-battalion",
+      "organization_name_as_found": "270 Engr. (c) Bn.",
+      "role_title": "Second lieutenant and battalion intelligence officer",
+      "occupation": "Army officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1943",
+      "date_precision": "Hall signed his fall 1943 proposal as a second lieutenant in the 270th Engineer Combat Battalion at Camp Adair; OSS then ordered him to Washington",
+      "city": "Camp Adair",
+      "state_or_region": "Oregon",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Hall's letter directly supplies the unit, grade, location, and OSS response. The later Captain rank in the index is not projected backward."
+    },
+    {
+      "key": "roderick-hall-yale-student",
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "organization_key": "yale-university",
+      "organization_name_as_found": "Yale University",
+      "role_title": "Student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "CIA places enrollment after Hall returned from travel and says he left Yale to enlist after Pearl Harbor; exact enrollment and withdrawal dates are not stated",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Yale is a documented student affiliation, not an employer. No reliable named civilian employer has yet been identified."
+    },
+    {
+      "key": "miles-copeland-us-army-finance-office",
+      "person_id": "cde21206-1f2d-5241-82c6-7b30c8f95aa0",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Divisional Finance Office staff member",
+      "occupation": "Army finance staff",
+      "relationship_type": "military_assignment",
+      "end_date": "1942",
+      "date_precision": "CIA says Copeland joined the Army after Pearl Harbor, worked in a divisional Finance Office at a National Guard Armory, and then drew Donovan's attention through his classification-test result",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The source does not name the division, armory, city, or military grade; none is inferred."
+    },
+    {
+      "key": "george-musulin-115th-regiment-29th-division",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "organization_key": "us-army-115th-regiment-29th-infantry-division",
+      "organization_name_as_found": "115th Regiment of the 29th Infantry Division",
+      "role_title": "Private",
+      "occupation": "Army infantryman",
+      "relationship_type": "military_assignment",
+      "start_date": "1941-05",
+      "end_date": "1942-07",
+      "date_precision": "Musulin testified that he entered the Army in May 1941, was assigned to this regiment at Fort Meade, and was recruited for OSS in July 1942",
+      "city": "Fort Meade",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "published",
+      "research_notes": "The source is a reprint of sworn 1946 testimony and is corroborated by the official NPS identity and a private identifier match. The index Lieutenant rank reflects a later commissioned stage."
+    },
+    {
+      "key": "george-musulin-university-of-pittsburgh-student",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "organization_key": "university-of-pittsburgh",
+      "organization_name_as_found": "University of Pittsburg",
+      "role_title": "Student and varsity football player",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1934",
+      "end_date": "1938",
+      "date_precision": "Musulin testified that he played varsity football from 1934 through 1938 and graduated with a B.S. in physical education; the Los Angeles Times gives a 1939 graduation year",
+      "city": "Pittsburgh",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Student and varsity-athlete status are not counted as employment. The one-year graduation discrepancy is preserved in the date note."
+    },
+    {
+      "key": "frederick-mayer-us-army",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Enlisted soldier before OSS attachment",
+      "occupation": "Army soldier",
+      "relationship_type": "military_assignment",
+      "start_date": "1941-12",
+      "date_precision": "The Washington Post says Mayer enlisted after Pearl Harbor and that his Army superiors recommended him to OSS; exact unit, transfer date, and commissioning chronology remain unresolved",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "This affiliation is attached only to the high-confidence commissioned entity. The adjacent blank-rank index row remains separate and unresolved."
+    },
+    {
+      "key": "frederick-mayer-ford-mechanic",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "organization_key": "ford-motor-company",
+      "organization_name_as_found": "Ford",
+      "role_title": "Mechanic",
+      "occupation": "mechanic",
+      "relationship_type": "employment",
+      "end_date": "1941",
+      "date_precision": "The Washington Post places mechanic work at companies including Ford before Army enlistment but gives no dates or ordering relative to General Motors",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Documented pre-Army employment, but not labeled the final civilian employer because the source does not order Ford and General Motors."
+    },
+    {
+      "key": "frederick-mayer-general-motors-mechanic",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "organization_key": "general-motors",
+      "organization_name_as_found": "General Motors",
+      "role_title": "Mechanic",
+      "occupation": "mechanic",
+      "relationship_type": "employment",
+      "end_date": "1941",
+      "date_precision": "The Washington Post places mechanic work at companies including General Motors before Army enlistment but gives no dates or ordering relative to Ford",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Documented pre-Army employment, but not labeled the final civilian employer because the source does not order General Motors and Ford."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-roderick-g-s-hall",
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Roderick G.S. Hall is Roderick Stephen Hall, who signed his 1943 OSS proposal as R.S.G. Hall.",
+      "evidence_excerpt": "R.S.G. Hall / 2nd Lt. 270 Engr. (c) Bn.",
+      "evidence_paraphrase": "The full indexed name and initials align with an official biography reproducing Hall's signed proposal, Army unit, grade, location, and direct OSS response.",
+      "identity_match_assessment": "Confirmed by the exact initials and full name, compatible rank progression, Army unit, and direct official OSS correspondence.",
+      "temporal_assessment": "The official account dates the proposal to fall 1943 and places his Army engineer assignment immediately before OSS ordered him to Washington.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Stephen, Steve, and R.S.G. are preserved as documented variants; the indexed Roderick G.S. form remains primary.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-189-hall-roderick-g-s"
+        },
+        {
+          "source_key": "cia-roderick-stephen-hall-2017"
+        }
+      ]
+    },
+    {
+      "key": "immediate-roderick-hall-270th-engineer",
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "affiliation_key": "roderick-hall-270th-engineer-combat-battalion",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Hall's immediate pre-OSS affiliation was the U.S. Army's 270th Engineer Combat Battalion at Camp Adair.",
+      "evidence_excerpt": "2nd Lt. 270 Engr. (c) Bn. / Camp Adair, Oregon",
+      "evidence_paraphrase": "Hall's 1943 proposal supplies the unit and location; the official account says OSS answered by ordering him to Washington.",
+      "identity_match_assessment": "Confirmed within the same signed official correspondence.",
+      "temporal_assessment": "Explicit immediate military pathway.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The later Captain rank in the personnel index is preserved separately from the second-lieutenant grade in the 1943 letter.",
+      "sources": [
+        {
+          "source_key": "cia-roderick-stephen-hall-2017"
+        }
+      ]
+    },
+    {
+      "key": "prewar-roderick-hall-yale-student",
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "affiliation_key": "roderick-hall-yale-student",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hall was a Yale University student before he left school to enlist in the Army.",
+      "evidence_excerpt": "he dropped out to enlist as a private in the US Army",
+      "evidence_paraphrase": "CIA explicitly sequences Yale enrollment, withdrawal, and Army enlistment after Pearl Harbor.",
+      "identity_match_assessment": "Confirmed within the same exact-name official biography and signed-letter record.",
+      "temporal_assessment": "Strongly date-bounded before Army and OSS service; it is student status, not employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No reliable named civilian employer has yet been identified in the accessible sources reviewed.",
+      "sources": [
+        {
+          "source_key": "cia-roderick-stephen-hall-2017"
+        }
+      ]
+    },
+    {
+      "key": "identity-miles-a-copeland",
+      "person_id": "cde21206-1f2d-5241-82c6-7b30c8f95aa0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Miles A. Copeland is Miles Axe Copeland Jr., the jazz musician, Army finance staff member, OSS officer, and later CIA founding member.",
+      "evidence_excerpt": "Miles Axe Copeland Jr. was a highly intelligent, yet rambunctious founding member",
+      "evidence_paraphrase": "The uncommon exact first and surname, matching middle initial, and official Army-to-OSS biography align with the index.",
+      "identity_match_assessment": "High confidence based on the uncommon name, matching middle initial, direct OSS context, and detailed official service chronology.",
+      "temporal_assessment": "CIA sequences college, jazz work, Pearl Harbor, Army finance duty, and Donovan's recruitment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix and full middle name are documented variants; the indexed Miles A. form remains primary.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-92-copeland-miles-a"
+        },
+        {
+          "source_key": "cia-miles-copeland-2023"
+        }
+      ]
+    },
+    {
+      "key": "immediate-miles-copeland-us-army-finance",
+      "person_id": "cde21206-1f2d-5241-82c6-7b30c8f95aa0",
+      "affiliation_key": "miles-copeland-us-army-finance-office",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Copeland's immediate pre-OSS affiliation was U.S. Army work in a divisional Finance Office at a National Guard Armory.",
+      "evidence_excerpt": "Miles joined the U.S. Army working in the divisional Finance Office",
+      "evidence_paraphrase": "CIA says the Army classification test he took in that assignment drew Donovan's attention.",
+      "identity_match_assessment": "High confidence within the same uncommon-name official biography.",
+      "temporal_assessment": "Explicit immediate military pathway.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source does not name the division, armory, city, or grade; none is inferred.",
+      "sources": [
+        {
+          "source_key": "cia-miles-copeland-2023"
+        }
+      ]
+    },
+    {
+      "key": "occupation-miles-copeland-jazz-musician",
+      "person_id": "cde21206-1f2d-5241-82c6-7b30c8f95aa0",
+      "claim_type": "occupation",
+      "claim_text": "Before Army service, Copeland had a successful early career as a professional jazz musician.",
+      "evidence_excerpt": "he made a successful early career as a musician",
+      "evidence_paraphrase": "CIA identifies trumpet performance and composition gigs with several bandleaders but does not establish a single employing organization.",
+      "identity_match_assessment": "High confidence within the same uncommon-name official biography.",
+      "temporal_assessment": "Documented before Pearl Harbor and Army service; no named final civilian employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Bandleaders named as gigs are not silently converted into employers.",
+      "sources": [
+        {
+          "source_key": "cia-miles-copeland-2023"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-s-musolin-musulin",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant George S. Musolin is George S. Musulin, later a captain in OSS operations in Yugoslavia.",
+      "evidence_excerpt": "Captain George Musulin, an American of Serbian ancestry",
+      "evidence_paraphrase": "The exact first name and middle initial, near-identical surname, compatible rank progression, official Yugoslavia role, and a private identifier match establish the spelling variant.",
+      "identity_match_assessment": "Confirmed by a unique private identifier match, supported by name, rank progression, ancestry, and official OSS theater evidence.",
+      "temporal_assessment": "The 1946 testimony sequences Army induction, infantry assignment, OSS recruitment, commissioning, and overseas service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is not disclosed. Both Musolin and Musulin remain visible; the source spelling is not overwritten.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-335-musolin-george-s"
+        },
+        {
+          "source_key": "nps-oss-mediterranean-europe-musulin"
+        },
+        {
+          "source_key": "musulin-commission-testimony-reprint-1946"
+        }
+      ]
+    },
+    {
+      "key": "immediate-george-musulin-115th-regiment",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "affiliation_key": "george-musulin-115th-regiment-29th-division",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Musulin's immediate pre-OSS affiliation was the 115th Regiment of the U.S. Army's 29th Infantry Division at Fort Meade.",
+      "evidence_excerpt": "To the 115th Regiment of the 29th Infantry Division",
+      "evidence_paraphrase": "In sworn 1946 testimony, Musulin placed that assignment between May 1941 induction and July 1942 OSS recruitment.",
+      "identity_match_assessment": "Confirmed through the private identifier match and corroborating official identity evidence.",
+      "temporal_assessment": "Explicit immediate military pathway.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The transcript is an online reprint of near-primary testimony; Box 548 remains the preferred source for authoritative personnel chronology.",
+      "sources": [
+        {
+          "source_key": "musulin-commission-testimony-reprint-1946"
+        },
+        {
+          "source_key": "nps-oss-mediterranean-europe-musulin",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "prewar-george-musulin-pittsburgh-student",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "affiliation_key": "george-musulin-university-of-pittsburgh-student",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Musulin studied physical education and played varsity football at the University of Pittsburgh before Army service.",
+      "evidence_excerpt": "graduated with a B.S. degree in physical education",
+      "evidence_paraphrase": "Musulin's testimony supplies the degree and 1934-1938 varsity years; his obituary independently corroborates university attendance and graduation.",
+      "identity_match_assessment": "Confirmed through the private identifier match and corroborating official identity evidence.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The testimony and obituary differ by one year on graduation; the discrepancy is preserved in the affiliation date note.",
+      "sources": [
+        {
+          "source_key": "musulin-commission-testimony-reprint-1946"
+        },
+        {
+          "source_key": "los-angeles-times-george-musulin-obituary-1987"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-musulin-professional-football",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "claim_type": "occupation",
+      "claim_text": "Before Army service, Musulin played professional football.",
+      "evidence_excerpt": "played football there and professionally",
+      "evidence_paraphrase": "A contemporary obituary identifies professional play, and a historical football database records 1938 roster entries before his 1941 Army induction.",
+      "identity_match_assessment": "Confirmed through exact biographical details and the private identifier match.",
+      "temporal_assessment": "Documented prewar occupation, but no source reviewed establishes which team was his final civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Sources do not fully agree on the team list, so no specific club is labeled the last civilian employer.",
+      "sources": [
+        {
+          "source_key": "los-angeles-times-george-musulin-obituary-1987"
+        },
+        {
+          "source_key": "pro-football-archives-george-musulin"
+        }
+      ]
+    },
+    {
+      "key": "identity-frederick-mayer-second-lieutenant",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "claim_type": "identity",
+      "claim_text": "The indexed Second Lieutenant Frederick Mayer is the German Jewish refugee and Operation Greenup OSS officer.",
+      "evidence_excerpt": "Frederick Mayer, a German Jew who fled to the United States",
+      "evidence_paraphrase": "The exact name, indexed commissioned grade, official OSS identification, Army chronology, refugee history, age, and Operation Greenup context align.",
+      "identity_match_assessment": "High confidence based on multiple identifiers beyond the name, while the adjacent blank-rank row remains separately unresolved.",
+      "temporal_assessment": "Sources sequence pre-Army mechanic work, post-Pearl Harbor enlistment, Army recommendation, and OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This conclusion applies only to the commissioned row. It does not merge the adjacent row or assign its private identifier to the same person.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-302-mayer-frederick-second-lieutenant"
+        },
+        {
+          "source_key": "cia-oss-75th-frederick-mayer-2017"
+        },
+        {
+          "source_key": "washington-post-frederick-mayer-obituary-2016"
+        },
+        {
+          "source_key": "national-wwii-museum-operation-greenup-2021"
+        }
+      ]
+    },
+    {
+      "key": "immediate-frederick-mayer-us-army",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "affiliation_key": "frederick-mayer-us-army",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Mayer's immediate pre-OSS affiliation was the U.S. Army.",
+      "evidence_excerpt": "Mr. Mayer's superiors recommended him for the Office of Strategic Services",
+      "evidence_paraphrase": "The Washington Post explicitly places Army enlistment and an Army-superior recommendation before OSS attachment.",
+      "identity_match_assessment": "High confidence for the commissioned index entity based on name, grade, and independent OSS biographical evidence.",
+      "temporal_assessment": "Explicit immediate military pathway; exact unit and commissioning dates remain unresolved.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This military assignment is not counted as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "washington-post-frederick-mayer-obituary-2016"
+        },
+        {
+          "source_key": "cia-oss-75th-frederick-mayer-2017",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "prewar-frederick-mayer-ford",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "affiliation_key": "frederick-mayer-ford-mechanic",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before joining the Army, Mayer worked as a mechanic at Ford.",
+      "evidence_excerpt": "working as a mechanic at companies including Ford and General Motors",
+      "evidence_paraphrase": "The obituary explicitly identifies Ford mechanic work before Army enlistment but does not order it relative to General Motors.",
+      "identity_match_assessment": "High confidence for the commissioned index entity based on name, grade, and independent OSS biographical evidence.",
+      "temporal_assessment": "Documented prewar employment, not established as the final civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No plant, subsidiary, city, dates, or final-employer ordering is inferred.",
+      "sources": [
+        {
+          "source_key": "washington-post-frederick-mayer-obituary-2016"
+        }
+      ]
+    },
+    {
+      "key": "prewar-frederick-mayer-general-motors",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "affiliation_key": "frederick-mayer-general-motors-mechanic",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before joining the Army, Mayer worked as a mechanic at General Motors.",
+      "evidence_excerpt": "working as a mechanic at companies including Ford and General Motors",
+      "evidence_paraphrase": "The obituary explicitly identifies General Motors mechanic work before Army enlistment but does not order it relative to Ford.",
+      "identity_match_assessment": "High confidence for the commissioned index entity based on name, grade, and independent OSS biographical evidence.",
+      "temporal_assessment": "Documented prewar employment, not established as the final civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No plant, division, city, dates, or final-employer ordering is inferred.",
+      "sources": [
+        {
+          "source_key": "washington-post-frederick-mayer-obituary-2016"
+        }
+      ]
+    },
+    {
+      "key": "candidate-identity-frederick-mayer-blank-rank",
+      "person_id": "ed9e4da5-f917-555a-9fda-052036f02574",
+      "claim_type": "identity",
+      "claim_text": "The adjacent blank-rank Frederick Mayer row may represent the enlisted phase of the Operation Greenup officer, but the reviewed evidence does not establish that linkage.",
+      "evidence_paraphrase": "The rows share the exact name and Box 494, while biographical sources document Army enlistment before commissioning; however, the index prints different private service numbers.",
+      "identity_match_assessment": "Ambiguous. Same name and box are insufficient, and no reviewed authoritative source links the second private identifier to Operation Greenup.",
+      "temporal_assessment": "No pre-OSS affiliation or employment claim is assigned to this separate entity.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Keep both source records and person entities separate. Review both Box 494 files and authoritative service records before any merge.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-302-mayer-frederick-blank-rank"
+        },
+        {
+          "source_key": "nara-oss-index-page-302-mayer-frederick-second-lieutenant",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "washington-post-frederick-mayer-obituary-2016",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "identity_status": "confirmed",
+      "identity_evidence": "The indexed Roderick G.S. Hall aligns with CIA's Roderick Stephen Hall biography and its reproduced fall 1943 proposal signed R.S.G. Hall, 2nd Lt., 270 Engr. (c) Bn., at Camp Adair.",
+      "name_variants": [
+        "R.S.G. Hall",
+        "Roderick G.S. Hall",
+        "Roderick Stephen Hall",
+        "Steve Hall"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 306 for enlistment, promotion, transfer, and OSS attachment orders and for any named civilian employer before Yale or Army service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "cde21206-1f2d-5241-82c6-7b30c8f95aa0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact Miles Copeland name, matching A middle initial, and CIA's detailed Miles Axe Copeland Jr. jazz-to-Army-to-OSS chronology align with the index.",
+      "name_variants": [
+        "Miles A. Copeland",
+        "Miles Axe Copeland Jr.",
+        "Miles Copeland",
+        "Miles Copeland Jr."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 143 for Army grade, division and armory, OSS recruitment date, and any named civilian employer or contractual band arrangement.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "identity_status": "confirmed",
+      "identity_evidence": "The index's George S. Musolin spelling is linked to George S. Musulin by the exact first name and initial, near-identical surname, compatible rank progression, official OSS Yugoslavia role, and a unique private identifier match.",
+      "name_variants": [
+        "George S Musolin",
+        "George S. Musolin",
+        "George S. Musulin",
+        "George Samuel Musulin"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 548 for authoritative spelling, infantry and OSS orders, commissioning chronology, and evidence identifying the final pre-Army professional football employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed Second Lieutenant Frederick Mayer aligns through the exact name, commissioned grade, official OSS identification, Army recruitment chronology, German Jewish refugee history, and Operation Greenup service.",
+      "name_variants": [
+        "Fred Mayer",
+        "Frederick Mayer",
+        "Friedrich Mayer",
+        "Fritz Mayer"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "review-frederick-mayer-box494-distinct-service-numbers",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review both Box 494 files and authoritative Army service records to establish enlistment and commissioning identifiers, exact units, Ford and General Motors dates, and which employer was last.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ed9e4da5-f917-555a-9fda-052036f02574",
+      "identity_status": "ambiguous",
+      "identity_evidence": "This adjacent Box 494 row shares the Frederick Mayer name with a commissioned row but carries a different private service number. Reviewed public sources document an enlisted-to-officer path but do not link this specific identifier.",
+      "name_variants": [
+        "Frederick Mayer"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "review-frederick-mayer-box494-distinct-service-numbers",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 494 files and authoritative service-number records before merging this row or assigning Operation Greenup affiliations.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch040-roderick-g-s-hall-engineer-yale-review",
+      "person_id": "72ba8a20-2fdf-56be-b228-6dbb45dde0af",
+      "source_adapter": "web",
+      "query_text": "\"Roderick G.S. Hall\" OSS; \"Roderick Stephen Hall\"; \"R.S.G. Hall\"; 270 Engineer; Yale; employer 1940; occupation; obituary; NARA index context, CIA Reading Room, NPS, university, newspaper, and archival checks",
+      "query_variant_type": "signed_initials_yale_army_engineer_to_oss",
+      "started_at": "2026-07-30T02:44:00Z",
+      "completed_at": "2026-07-30T03:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Search snippets, derivative memorial pages, unsourced biographies, and sources that discussed the Brenner Pass mission without pre-OSS chronology were rejected as final employment evidence.",
+      "research_notes": "Confirmed identity through Hall's signed initials and unit, documented the immediate Army assignment and Yale student status, and found no reliable named civilian employer.",
+      "next_action": "Review Box 306 for exact chronology and any civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch040-miles-a-copeland-jazz-army-finance-review",
+      "person_id": "cde21206-1f2d-5241-82c6-7b30c8f95aa0",
+      "source_adapter": "web",
+      "query_text": "\"Miles A. Copeland\" OSS; \"Miles Axe Copeland\"; jazz musician; Army Finance Office; National Guard Armory; employer 1940; occupation; obituary; NARA index context, CIA Reading Room, NPS, newspaper, university, music, and archival checks",
+      "query_variant_type": "full_middle_name_jazz_to_army_finance_oss",
+      "started_at": "2026-07-30T02:44:00Z",
+      "completed_at": "2026-07-30T03:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Wikipedia, family summaries, commercial biography pages, search snippets, and sources naming musicians without defining an employer relationship were rejected as final employer evidence.",
+      "research_notes": "Resolved the full middle name, documented professional jazz occupation and the immediate Army finance pathway, and did not convert named gigs or bandleaders into employers.",
+      "next_action": "Review Box 143 for rank, division, armory, recruitment date, and any named civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch040-george-s-musolin-musulin-infantry-football-review",
+      "person_id": "6df71376-3491-5715-91af-53606a60d0fd",
+      "source_adapter": "web",
+      "query_text": "\"George S. Musolin\" OSS; \"George S. Musulin\"; Halyard; 115th Regiment; 29th Infantry Division; football; employer 1940; obituary; NARA index context, CIA Reading Room, NPS, newspaper, sports-roster, university, and archival checks",
+      "query_variant_type": "index_spelling_private_identifier_infantry_to_oss",
+      "started_at": "2026-07-30T02:44:00Z",
+      "completed_at": "2026-07-30T03:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Wikipedia, unsourced biographies, genealogy pages, search snippets, and derivative mission summaries without pre-OSS chronology were rejected as final evidence.",
+      "research_notes": "Confirmed the Musolin/Musulin spelling variant without exposing the matching private identifier, documented the immediate 115th Regiment pathway, and preserved uncertainty about the final professional football employer.",
+      "next_action": "Review Box 548 for authoritative chronology and final pre-Army employer evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch040-frederick-mayer-second-lieutenant-employment-review",
+      "person_id": "59f66a94-282a-5f09-b5d1-ea7cdeed4705",
+      "source_adapter": "web",
+      "query_text": "\"Frederick Mayer\" OSS; \"2nd Lt Frederick Mayer\"; Operation Greenup; Army corporal; Ford; General Motors; mechanic; employer 1940; obituary; NARA index context, CIA Reading Room, NPS, National WWII Museum, newspaper, military, and archival checks",
+      "query_variant_type": "commissioned_row_mechanic_to_army_oss",
+      "started_at": "2026-07-30T02:44:00Z",
+      "completed_at": "2026-07-30T03:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Wikipedia, commercial history pages, search snippets, unsourced biographies, modern retellings, and sources that did not distinguish pre-Army work from wartime cover employment were rejected as final evidence.",
+      "research_notes": "Linked the commissioned row at high confidence, documented Army as the immediate pathway and Ford and General Motors as earlier mechanic employers, and did not claim either company was chronologically last.",
+      "next_action": "Review both Box 494 files and Army records for identifiers, units, dates, and final-employer ordering.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch040-frederick-mayer-blank-rank-duplicate-review",
+      "person_id": "ed9e4da5-f917-555a-9fda-052036f02574",
+      "source_adapter": "web",
+      "query_text": "\"Frederick Mayer\" OSS service number; Army enlisted and commissioned records; Operation Greenup; Box 494; exact-name and rank variants; NARA index context, CIA Reading Room, NPS, National WWII Museum, newspaper, military, and archival checks",
+      "query_variant_type": "adjacent_same_name_distinct_private_identifiers",
+      "started_at": "2026-07-30T02:44:00Z",
+      "completed_at": "2026-07-30T03:32:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "No reviewed authoritative source linked the blank-rank row's private identifier to Operation Greenup. Name-only biographies, snippets, Wikipedia, and derivative retellings were rejected as insufficient.",
+      "research_notes": "The row may represent Mayer's enlisted phase, but identical name, shared box, and a compatible career sequence do not overcome the different private identifiers without direct linkage.",
+      "next_action": "Review both Box 494 files and authoritative Army service-number records; keep both entities separate meanwhile.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

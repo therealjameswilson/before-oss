@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 162 / 162 browser cases.**
+**PASS - 165 / 165 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-98-person employer measure is labeled separately from the 165-person broader
+99-person employer measure is labeled separately from the 169-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -327,6 +327,16 @@ occupation-only outcomes that do not invent an employer. It also checks the
 new enlisted Marine Corps category and continued service-number masking. The
 complete desktop, phone, and tablet matrix passed 162 / 162 with no remaining
 assertion or serious/critical axe failure.
+
+The Batch 040 regression updates the homepage coverage assertions and adds
+direct profile checks for Roderick G.S. Hall, Miles A. Copeland, George S.
+Musolin, and both adjacent Frederick Mayer index rows. It verifies the
+separation of student, military, professional, and civilian-employment
+relationships; preserves the Musolin/Musulin spelling distinction; keeps the
+two Mayer entities separate; withholds the ambiguous Mayer candidate; and
+continues service-number masking. The complete desktop, phone, and tablet
+matrix passed 165 / 165 with no remaining assertion or serious/critical axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

@@ -259,6 +259,35 @@ The Stuart Schulberg review also adds a forward-only
 person-entity classification table, preserves all 23,978 immutable source rows,
 and leaves the raw printed `S/SGT` value unchanged.
 
+## Reviewed field officers, musicians, and Mayer duplicate group
+
+The fortieth evidence batch used rendered NARA index pages, the CIA's official
+biographies of
+[Roderick Stephen Hall](https://www.cia.gov/stories/story/roderick-stephen-hall-the-saboteur-of-brenner-pass/)
+and
+[Miles Copeland](https://www.cia.gov/stories/story/miles-copeland/),
+the National Park Service's
+[Mediterranean and European theaters history](https://www.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm),
+a reprint of George Musulin's 1946 sworn testimony, contemporary newspaper
+obituaries, a historical football roster, and institutional and official
+Operation Greenup accounts. No live NARA Catalog API request or retained API
+response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Roderick G.S. Hall | Hall's exact initials, name, Army engineer unit, Camp Adair location, and signed 1943 OSS proposal support a confirmed identity. The 270th Engineer Combat Battalion is the explicit immediate military pathway. Yale is published separately as student status, not an employer. |
+| Miles A. Copeland | The uncommon name, matching middle initial, and CIA's jazz-to-Army-to-OSS chronology support a high-confidence Miles Axe Copeland Jr. identity. Divisional Army finance work is the immediate military affiliation; professional jazz musician is an occupation-only result because the reviewed source does not establish a single employing organization. |
+| George S. Musolin | The index spelling remains visible alongside the documented Musulin variant. A private identifier match, compatible rank progression, official Yugoslavia role, and 1946 testimony support a confirmed identity. The 115th Regiment of the 29th Infantry Division is the explicit immediate pathway. Professional football is published as an occupation, but conflicting team coverage prevents selection of a last civilian employer. |
+| Frederick Mayer, 2nd Lt | Exact name, commissioned grade, official OSS identification, refugee history, and Operation Greenup service support a high-confidence identity. Army service is the immediate pathway. Ford and General Motors mechanic work are documented as earlier prewar employment, but neither is labeled chronologically last. |
+| Frederick Mayer, rank blank | This adjacent Box 494 row remains a separate ambiguous entity. It has a different private service number from the commissioned row, and no reviewed authoritative record links that identifier to Mayer's documented enlisted phase. The candidate link is withheld pending review of both files and authoritative service records. |
+
+Index PDF pages 92, 189, 302, and 335 were rendered at 180 DPI and visually
+checked. They confirm all five rows, including the two adjacent Frederick Mayer
+records, the printed `Musolin` spelling, raw ranks, boxes, and archival
+locations. A private identifier on the Musulin testimony page was compared
+programmatically with the index value and recorded only as a match result; the
+number itself is absent from the evidence bundle and all public data.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T02:40:32+00:00",
+  "generated_at": "2026-07-30T03:37:44+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,39 +7,39 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 274,
-    "percent": 1.1445
+    "people_with_nonplanned_attempts": 279,
+    "percent": 1.1654
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_affiliation": 165,
-    "percent": 0.6892
+    "people_with_confirmed_or_high_published_affiliation": 169,
+    "percent": 0.7059
   },
   "verified_employer_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_employer": 98,
-    "percent": 0.4093
+    "people_with_confirmed_or_high_published_employer": 99,
+    "percent": 0.4135
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 201,
-    "percent": 0.8396
+    "people_assessed": 206,
+    "percent": 0.8604
   },
   "research_status_counts": {
     "candidate_found": 1,
-    "completed": 22,
-    "documented_prewar_employer_found": 12,
+    "completed": 23,
+    "documented_prewar_employer_found": 13,
     "in_progress": 85,
-    "needs_identity_review": 6,
-    "not_started": 23667,
-    "occupation_only_found": 15,
+    "needs_identity_review": 7,
+    "not_started": 23662,
+    "occupation_only_found": 17,
     "requires_archival_review": 29,
     "verified_employer_found": 104
   },
   "claim_confidence_counts": {
-    "confirmed": 77,
-    "high": 415,
-    "low": 11,
+    "confirmed": 80,
+    "high": 426,
+    "low": 12,
     "medium": 46
   },
   "personnel_category_counts": {
@@ -54,8 +54,8 @@
     "unknown_or_indeterminate": 16630,
     "warrant_officer": 4
   },
-  "possible_duplicate_groups": 206,
+  "possible_duplicate_groups": 207,
   "conflict_count": 0,
-  "citations": 444,
-  "unique_source_documents": 400
+  "citations": 458,
+  "unique_source_documents": 412
 }

@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,140 HTML files. Every relative
+**PASS.** The production build contains 24,145 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 191 organization profiles, and the
+The build includes 23,941 person profiles, 196 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,312 unique external URLs for separate live
+The checker inventoried 48,325 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -39,6 +39,10 @@ verification; external responses do not affect the internal-route pass.
 | Dartmouth Libraries, Corey Ford authority record | HTTP 200 |
 | Marine Corps Association, “Marine on the Scene” PDF | HTTP 206 partial-content response |
 | Library of Congress-hosted, *Filming the End of the Holocaust* | HTTP 206 partial-content response |
+| CIA, “Roderick Stephen Hall: The Saboteur of Brenner Pass” | Reviewed through the research browser |
+| CIA, “Miles Copeland” | Reviewed through the research browser |
+| NPS, “OSS in Action: The Mediterranean and European Theaters” | Reviewed through the research browser |
+| CIA, OSS 75th anniversary remarks on Frederick Mayer | Reviewed through the research browser |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |
 | Dartmouth Alumni Magazine, Budd Schulberg and Corey Ford articles | Reviewed through the research browser; command-line requests timed out |
@@ -51,6 +55,9 @@ verification; external responses do not affect the internal-route pass.
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
 
 ## Production deployment
+
+The latest verified production deployment remains Batch 039 while Batch 040
+awaits release.
 
 GitHub Actions test workflow
 [30510643981](https://github.com/therealjameswilson/before-oss/actions/runs/30510643981)
