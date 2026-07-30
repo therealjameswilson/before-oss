@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 389 people with a non-planned attempt | 23,941 person entities | 1.6248% |
-| Verified-affiliation coverage | 186 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7769% |
+| Research-attempt coverage | 399 people with a non-planned attempt | 23,941 person entities | 1.6666% |
+| Verified-affiliation coverage | 187 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7811% |
 | Verified-employer coverage | 111 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4636% |
-| Archival-review coverage | 336 people with an individual file-access/priority assessment | 23,941 person entities | 1.4035% |
+| Archival-review coverage | 346 people with an individual file-access/priority assessment | 23,941 person entities | 1.4452% |
 
 ## Extraction and identity
 
@@ -21,11 +21,11 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 208
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 15
-- Identity status `high_confidence`: 231
+- Identity status `confirmed`: 16
+- Identity status `high_confidence`: 232
 - Identity status `probable`: 10
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,671
+- Identity status `unresolved`: 23,669
 
 ## Personnel categories
 
@@ -45,14 +45,14 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,552
+- `not_started`: 23,542
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 18
 - `occupation_only_found`: 20
-- `requires_archival_review`: 148
-- `completed`: 29
+- `requires_archival_review`: 156
+- `completed`: 31
 - `verified_employer_found`: 113
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 118
+- Reviewed-web terminal-protocol attempts recorded: 128
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 250 across 236 people; 13 additional
+- Saved `source_reviewed` outcomes: 252 across 238 people; 14 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,413
+- Total recorded attempts/plans: 1,423
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 230; 219 have at least one public-eligible
+- People with saved reviewed claims: 232; 221 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -181,11 +181,20 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
   not as an immediate pre-OSS affiliation. A wartime Fitzsimons General
   Hospital roster remains a withheld low-confidence lead for Dean J. Adinamis.
   The other nine profiles route to Box 4 review.
-- Published affiliations: 371
-- Database claims: 636; public-eligible claims: 622 (90 confirmed, 478 high, 54
+  Batch 057 additionally reviewed F. P. Adler, Maxine Adler, Louis D. Adlon,
+  Ernest H. Adolph, Alex C. Adrian, Leonard Adrian, Merrill S. Ady, Demetra
+  Aeton, Percy C. Afferton, and Nehmet Aga-Ogla. Merrill Steele Ady is a
+  confirmed identity with American Presbyterian Mission work documented as his
+  high-confidence immediate pre-OSS affiliation, but not as a proven employer.
+  Ernest H. Adolph is a high-confidence identity with qualified pre-enlistment
+  Cornell student status, also not employment. The other eight profiles route
+  to Box 4 or Box 5 review; Louis Duke Adlon and Mehmet Aga-Oglu remain
+  unconfirmed spelling/name leads rather than published identities.
+- Published affiliations: 373
+- Database claims: 640; public-eligible claims: 626 (91 confirmed, 480 high, 55
   medium); 14 low-confidence claims concerning 11 people are withheld
-- Citation records: 639; public source export: 518; unique source documents: 494
-- Canonical organizations: 222 private and 220 public
+- Citation records: 653; public source export: 524; unique source documents: 499
+- Canonical organizations: 223 private and 221 public
 - Conflicts: 0
 - NARA pull-list rows: 23,865
 
@@ -290,6 +299,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-second-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-archival-pathways_batch-054_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-through-adeling-pathways_batch-055_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-adelman-through-adkisson-pathways_batch-056_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-third-page-adler-through-aga-ogla-pathways_batch-057_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

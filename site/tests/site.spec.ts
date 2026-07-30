@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/111 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 186 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 187 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4923,5 +4923,93 @@ test("Batch 056 publishes Burton Adkinson's qualified university role, corrects 
   );
   await expect(page.locator("body")).not.toContainText(
     "T/5 Dean Adinamis",
+  );
+});
+
+test("Batch 057 distinguishes student and religious affiliations from employers and preserves eight archival cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["01de5ef4-3268-54f6-a94a-2e9bd7b27656", "F P Adler", "4"],
+    ["1a769a5a-6e0f-5bef-9f4f-b078efd23f9f", "Maxine Adler", "4"],
+    ["a2ba8347-2109-5194-9137-5154419b1f37", "Louis D Adlon", "4"],
+    ["30c9db1e-d89a-5917-bfd6-8d9d94be411a", "Alex C Adrian", "4"],
+    ["ed266912-fe51-5dd7-b939-f2174a5debdc", "Leonard Adrian", "4"],
+    ["ba040b97-398e-5ce2-b5df-36e4dec1c596", "Demetra Aeton", "5"],
+    ["a5f8c0c0-32e0-50b1-abf3-1c780d395b08", "Percy C Afferton", "5"],
+    ["533cb41c-e235-5aa3-85f6-9ef0bc73f908", "Nehmet Aga-Ogla", "5"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page
+        .locator(".profile-aside")
+        .getByText(terminalProfile[2], { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/ae2ce160-ad06-54e0-9fa5-31809c7c80ea/");
+  await expect(
+    page.getByRole("heading", { name: "Ernest H Adolph", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("completed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Cornell University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).toContainText(
+    "this is a student affiliation, not an employer finding",
+  );
+  await expect(page.locator("body")).toContainText(
+    "served in the OSS (MO) from 1943 until 1945",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^(Not printed|••••\d{4})$/);
+
+  await page.goto("./people/d9b0c480-badf-50cc-9ba2-24f4d4b6e037/");
+  await expect(
+    page.getByRole("heading", { name: "Merrill S Ady", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("completed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "American Presbyterian Mission",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).toContainText(
+    "field agent in Secret Intelligence with U.S. Army Office of Strategic Services in China",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Merrill S. Ady, of the American Presbyterian Mission",
   );
 });

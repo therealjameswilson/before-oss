@@ -5,25 +5,25 @@ Run: 2026-07-30 UTC
 - Python unit tests: **46 / 46 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,169 pages**
-- Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **213 / 213 passed**
+- Static production build: **24,170 pages**
+- Internal link check: **24,170 HTML files passed**
+- Browser and accessibility suite: **216 / 216 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`101fa2155712b5c92f37fe9b2bdba5540aae4b5784b0edaa3dbc2588212f4cc0`)
+  (`75caad8d20a985229554715d2cd7642ae70120c3ac1faa77dd0979f646e52eaa`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,249**
+  numbers at least six characters long: **0 full-number matches** in **24,250**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **518** public records representing **494** unique documents
-- Published, qualified affiliations: **371**
-- Published claims: **622**
+- Reviewed public sources: **524** public records representing **499** unique documents
+- Published, qualified affiliations: **373**
+- Published claims: **626**
 - Withheld low-confidence evidence: **14 claims concerning 11 people**
-- Verified-affiliation metric: **186** people with confirmed/high published
+- Verified-affiliation metric: **187** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **111** people with confirmed/high published
   employment or self-employment evidence
@@ -367,3 +367,14 @@ nine profiles route to Box 4 review without unsupported employer claims. The
 parser regression also preserves six grades printed in the source table's
 middle-initial column while correcting only normalized names, ranks, and
 personnel categories.
+Batch 057 completes the minimum online protocol for F. P. Adler through Nehmet
+Aga-Ogla. It publishes Ernest H. Adolph's Cornell student affiliation at
+medium confidence without presenting Cornell as an employer or immediate
+pre-OSS affiliation. It also confirms Merrill Steele Ady's documented
+American Presbyterian Mission affiliation immediately before his OSS service
+while keeping that professional and religious relationship outside
+verified-employer analytics. Eight unresolved profiles route to their indexed
+Box 4 or Box 5 files; plausible Adlon and Aga-Ogla namesakes remain qualified
+research leads rather than public identity or employer claims. The regression
+checks all ten profiles across three viewports and confirms field-level
+service-number masking.
