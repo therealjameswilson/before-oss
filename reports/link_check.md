@@ -302,3 +302,30 @@ last civilian employer. The other nine profiles route to Box 9 or Box 10
 review without promoting rejected or inaccessible leads. The complete local
 link checker passed all 24,185 HTML files and inventoried 48,456 unique external
 URLs.
+
+## Batch 069 production deployment
+
+GitHub Actions test workflow
+[30583958538](https://github.com/therealjameswilson/before-oss/actions/runs/30583958538)
+and GitHub Pages deployment
+[30583958578](https://github.com/therealjameswilson/before-oss/actions/runs/30583958578)
+for the Algrant-through-Amory Allen Batch 069 release `9968e14` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 17 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 069 person profiles, and The Kolynos Company
+organization profile. The live statistics report 23,978 source rows, 23,941
+person entities, 517 people with non-planned research attempts, 197
+verified-affiliation people, 118 verified-employer people, 464 archival-review
+assessments, 673 published claims, and 584 public source records. The live
+personnel, organizations, affiliations, and sources downloads contain 23,941,
+236, 396, and 584 data rows respectively, and the JSONL personnel download
+contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`6dec22f826361dadeff720c0f1f10ede98f058647fb6a4b8603fe14da68960e8`.
+A field-aware comparison of all 12,931 digit-bearing normalized private
+identifiers against 83 live HTML, data, compressed-mirror, and download
+artifacts returned zero unexpected full-number matches.
