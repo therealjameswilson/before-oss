@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 527 people with a non-planned attempt | 23,941 person entities | 2.2012% |
+| Research-attempt coverage | 537 people with a non-planned attempt | 23,941 person entities | 2.2430% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 474 people with an individual file-access/priority assessment | 23,941 person entities | 1.9799% |
+| Archival-review coverage | 484 people with an individual file-access/priority assessment | 23,941 person entities | 2.0216% |
 
 ## Extraction and identity
 
@@ -22,37 +22,37 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 21
-- Identity status `high_confidence`: 244
+- Identity status `high_confidence`: 246
 - Identity status `probable`: 17
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,644
+- Identity status `unresolved`: 23,642
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,611
-- Enlisted Army personnel: 3,459
-- Commissioned Army officers: 2,062
+- Unknown or indeterminate: 16,594
+- Enlisted Army personnel: 3,468
+- Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 5
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,457
-- Foreign or Allied military personnel: 244
+- Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 48
 - Commissioned naval officers: 49
 - Warrant officers: 4
 
-Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
+Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,414
+- `not_started`: 23,404
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 21
 - `occupation_only_found`: 21
-- `requires_archival_review`: 267
-- `completed`: 33
+- `requires_archival_review`: 276
+- `completed`: 34
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,15 +61,15 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 256
+- Reviewed-web terminal-protocol attempts recorded: 266
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 275 across 261 people; 15 additional
+- Saved `source_reviewed` outcomes: 277 across 263 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,551
+- Total recorded attempts/plans: 1,561
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 256; 244 have at least one public-eligible
+- People with saved reviewed claims: 258; 246 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -343,11 +343,29 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
   commissioned Army classifications, five enlisted Army classifications, two
   civilian grades, and one indeterminate rank without inventing employers or
   silently correcting the index.
-- Published affiliations: 396
-- Database claims: 688; public-eligible claims: 673 (96 confirmed, 510 high, 67
+  Batch 071 continued through Hedvig J. Allen, Helen E. Allen, Horace H. Allen,
+  Howard Allen, James L. Allen, James T. Allen, Joel E. Allen, Katherine E.
+  Allen, Keith Allen, and Laura D. Allen on PDF page six. A descendant-authored
+  family history grounded in Hedvig Allen's wartime papers supports her
+  high-confidence identity and places her at the federal tax agency from July
+  1941 until she applied to OSS one week after Pearl Harbor. The profile
+  publishes this as a qualified medium-confidence immediate government
+  assignment, preserves the source's modern `Internal Revenue Service` wording,
+  and separately normalizes the 1941 agency to the Bureau of Internal Revenue
+  using the official IRS history. It does not invent a last civilian employer.
+  An official OSS September 1944 report and an independently transcribed award
+  citation support Colonel Keith Allen as Lieutenant Colonel Keith Nichols
+  Allen at high identity confidence, but neither source establishes his
+  pre-OSS military assignment or civilian employer. His Box 10 file remains
+  the next action. The other eight profiles remain unresolved and route to
+  Box 10 review. The parser now recognizes all seventeen visually confirmed
+  military grades displaced into the middle-initial column, preserves every raw
+  cell, and replays two independent row corrections on page 117.
+- Published affiliations: 397
+- Database claims: 691; public-eligible claims: 676 (96 confirmed, 512 high, 68
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 820; public source export: 584; unique source documents: 540
-- Canonical organizations: 238 private and 236 public
+- Citation records: 836; public source export: 592; unique source documents: 546
+- Canonical organizations: 239 private and 237 public
 - Conflicts: 0
 - NARA pull-list rows: 23,858
 
@@ -465,6 +483,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-al
 python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexander-continuation_batch-067_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexatos-through-alger-pathways_batch-068_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-five-six-algrant-through-amory-allen-pathways_batch-069_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-pathways_batch-070_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-identity-and-agency-pathways_batch-071_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

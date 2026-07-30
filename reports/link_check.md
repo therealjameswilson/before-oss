@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,185 HTML files. Every relative
+**PASS.** The production build contains 24,186 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 236 organization profiles, and the
+The build includes 23,941 person profiles, 237 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,456 unique external URLs for separate live
+The checker inventoried 48,463 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -329,6 +329,20 @@ local files byte-for-byte. The deployed and local manifest SHA-256 is
 A field-aware comparison of all 12,931 digit-bearing normalized private
 identifiers against 83 live HTML, data, compressed-mirror, and download
 artifacts returned zero unexpected full-number matches.
+
+## Batch 071 local release check
+
+The rebuilt site contains direct, internally resolved routes for Hedvig J.
+Allen, Helen E. Allen, Horace H. Allen, Howard Allen, James L. Allen, James T.
+Allen, Joel E. Allen, Katherine E. Allen, Keith Allen, and Laura D. Allen, plus
+the Bureau of Internal Revenue organization profile. Hedvig Allen's profile
+exposes a high-confidence identity and qualified immediate federal-government
+assignment while leaving her last civilian employer unresolved. Keith Allen's
+profile exposes the corrected commissioned classification and high-confidence
+official identity evidence while routing the still-unresolved pre-OSS pathway
+to Box 10. The other eight profiles retain dignified Box 10 review guidance.
+The complete local link checker passed all 24,186 HTML files and inventoried
+48,463 unique external URLs.
 
 ## Batch 070 local release check
 

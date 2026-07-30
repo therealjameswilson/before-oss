@@ -36,15 +36,19 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-The 70 selected pages were rendered and visually inspected. Six civilian-grade
-values are printed in the table's `M I` column while their rank cells are blank:
-Sonia Adelson (`P-2`), Elizabeth Beall (`P-1`), Chiyeko Nakamura (`Caf-5`),
-John Regan (`P-5`), David Rodnick (`P-4`), and Charlene Roland (`P-3`). Their
-raw cells remain unchanged. The normalized names omit the displaced grade, the
-normalized rank and personnel category use it, and every affected row carries a
-parser warning plus a replayable visual-review decision. Parser fixtures cover
-missing first names, initials, suffixes, apostrophes, hyphens, foreign notes,
-civilian grades, military ranks, column shifts, and unfamiliar values.
+The 83 selected pages were rendered and visually inspected. Twenty-three values
+are printed in the table's `M I` column while their rank cells are blank: six
+civilian grades and seventeen military grades. Their raw cells remain
+unchanged. The normalized names omit the displaced grade, the normalized rank
+and personnel category use it, and every affected row carries a parser warning
+plus a replayable row-specific visual-review decision. Page 117 contains two
+independently reviewed military-grade corrections; the importer therefore
+validates unique page-row coordinates rather than assuming one correction per
+page. The complete coordinates and expected raw values are retained in
+`research/parser_visual_review_decisions.json`. Parser fixtures cover missing
+first names, initials, suffixes, apostrophes, hyphens, foreign notes, civilian
+grades, military ranks, multiple column shifts on one page, and unfamiliar
+values.
 
 ## Rows and entities
 

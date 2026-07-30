@@ -25,7 +25,6 @@
     127,
     129,
     136,
-    153,
     170,
     207,
     215,
@@ -70,7 +69,7 @@
     521,
     522
   ],
-  "corrections_reviewed_at": "2026-07-30T12:15:00Z",
+  "corrections_reviewed_at": "2026-07-30T22:55:00Z",
   "correction_rows": [
     {
       "source_page": 3,
@@ -83,6 +82,26 @@
       "notes": "Rendered page reviewed at original detail. P-2 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat P-2 as a civilian grade."
     },
     {
+      "source_page": 6,
+      "source_row_number": 21,
+      "expected_last_name_raw": "Allen",
+      "expected_first_name_raw": "Keith",
+      "expected_middle_initial_raw": "Col",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Col is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Col as a commissioned Army rank."
+    },
+    {
+      "source_page": 9,
+      "source_row_number": 1,
+      "expected_last_name_raw": "Andersen",
+      "expected_first_name_raw": "Harold",
+      "expected_middle_initial_raw": "T-5",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. T-5 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat T-5 as an enlisted Army rank."
+    },
+    {
       "source_page": 28,
       "source_row_number": 2,
       "expected_last_name_raw": "Beall",
@@ -91,6 +110,106 @@
       "expected_rank_raw": null,
       "decision": "reviewed_corrected",
       "notes": "Rendered page reviewed at original detail. P-1 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat P-1 as a civilian grade."
+    },
+    {
+      "source_page": 32,
+      "source_row_number": 39,
+      "expected_last_name_raw": "Benucci",
+      "expected_first_name_raw": "Joseph",
+      "expected_middle_initial_raw": "Capt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Capt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Capt as a commissioned Army rank."
+    },
+    {
+      "source_page": 69,
+      "source_row_number": 24,
+      "expected_last_name_raw": "Carini",
+      "expected_first_name_raw": "Jim",
+      "expected_middle_initial_raw": "Maj",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Maj is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Maj as a commissioned Army rank."
+    },
+    {
+      "source_page": 117,
+      "source_row_number": 8,
+      "expected_last_name_raw": "Diament",
+      "expected_first_name_raw": "Goodhue",
+      "expected_middle_initial_raw": "T-4",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. T-4 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat T-4 as an enlisted Army rank."
+    },
+    {
+      "source_page": 117,
+      "source_row_number": 10,
+      "expected_last_name_raw": "Diamondes",
+      "expected_first_name_raw": "Damon",
+      "expected_middle_initial_raw": "T/Sgt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. T/Sgt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat T/Sgt as an enlisted Army rank."
+    },
+    {
+      "source_page": 151,
+      "source_row_number": 16,
+      "expected_last_name_raw": "Forman",
+      "expected_first_name_raw": "Jean",
+      "expected_middle_initial_raw": "Lt.",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Lt. is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Lt. as a commissioned military rank."
+    },
+    {
+      "source_page": 153,
+      "source_row_number": 39,
+      "expected_last_name_raw": "Frances",
+      "expected_first_name_raw": "Philip",
+      "expected_middle_initial_raw": "T-3",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. T-3 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat T-3 as an enlisted Army rank."
+    },
+    {
+      "source_page": 269,
+      "source_row_number": 44,
+      "expected_last_name_raw": "Leblanc",
+      "expected_first_name_raw": "Julius",
+      "expected_middle_initial_raw": "PFC",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. PFC is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat PFC as an enlisted Army rank."
+    },
+    {
+      "source_page": 308,
+      "source_row_number": 11,
+      "expected_last_name_raw": "McEntire",
+      "expected_first_name_raw": "Leroy",
+      "expected_middle_initial_raw": "Lt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Lt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Lt as a commissioned military rank."
+    },
+    {
+      "source_page": 312,
+      "source_row_number": 14,
+      "expected_last_name_raw": "McLeod",
+      "expected_first_name_raw": "Cyril",
+      "expected_middle_initial_raw": "PFC",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. PFC is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat PFC as an enlisted Army rank."
+    },
+    {
+      "source_page": 337,
+      "source_row_number": 14,
+      "expected_last_name_raw": "Nakada",
+      "expected_first_name_raw": "Yoshinao",
+      "expected_middle_initial_raw": "S/Sgt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. S/Sgt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat S/Sgt as an enlisted Army rank."
     },
     {
       "source_page": 337,
@@ -103,6 +222,26 @@
       "notes": "Rendered page reviewed at original detail. Caf-5 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Caf-5 as a civilian grade."
     },
     {
+      "source_page": 339,
+      "source_row_number": 4,
+      "expected_last_name_raw": "Negre",
+      "expected_first_name_raw": "Leonard",
+      "expected_middle_initial_raw": "Lt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Lt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Lt as a commissioned military rank."
+    },
+    {
+      "source_page": 358,
+      "source_row_number": 7,
+      "expected_last_name_raw": "Parkes",
+      "expected_first_name_raw": "Lester",
+      "expected_middle_initial_raw": "Pfc",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Pfc is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Pfc as an enlisted Army rank."
+    },
+    {
       "source_page": 387,
       "source_row_number": 2,
       "expected_last_name_raw": "Regan",
@@ -111,6 +250,36 @@
       "expected_rank_raw": null,
       "decision": "reviewed_corrected",
       "notes": "Rendered page reviewed at original detail. P-5 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat P-5 as a civilian grade."
+    },
+    {
+      "source_page": 387,
+      "source_row_number": 3,
+      "expected_last_name_raw": "Regan",
+      "expected_first_name_raw": "Raymond",
+      "expected_middle_initial_raw": "T-5",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. T-5 is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat T-5 as an enlisted Army rank."
+    },
+    {
+      "source_page": 389,
+      "source_row_number": 5,
+      "expected_last_name_raw": "Resio",
+      "expected_first_name_raw": "Carlo",
+      "expected_middle_initial_raw": "Capt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Capt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Capt as a commissioned Army rank."
+    },
+    {
+      "source_page": 396,
+      "source_row_number": 27,
+      "expected_last_name_raw": "Roch",
+      "expected_first_name_raw": "Alfred",
+      "expected_middle_initial_raw": "Capt",
+      "expected_rank_raw": null,
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. Capt is printed in the M I column while rank is blank; raw cells remain unchanged and normalized fields treat Capt as a commissioned Army rank."
     },
     {
       "source_page": 397,

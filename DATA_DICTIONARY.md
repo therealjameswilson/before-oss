@@ -25,10 +25,12 @@ assets are generated projections.
 | `page_qa` | One PDF page | Row counts, anomaly flags, render path, and visual review state |
 
 `research/parser_visual_review_decisions.json` is a versioned replay artifact
-for the 70 visually audited pages. It records 64 matching-page decisions and
-six row-specific normalized-field corrections, together with the frozen PDF
-hash, expected raw cells, reviewer, timestamps, and notes. Import refuses a
-correction if its page-row coordinate or raw values have changed.
+for the 83 visually audited pages. It records 63 matching-page decisions and
+23 row-specific normalized-field corrections across 20 pages, together with
+the frozen PDF hash, expected raw cells, reviewer, timestamps, and notes.
+Multiple corrections may occur on one page, but every page-row coordinate must
+be unique. Import refuses a correction if its coordinate or raw values have
+changed.
 
 `research/adapter_attempt_checkpoints.json` is a versioned, sanitized replay
 projection rather than the authoritative database. Its column-oriented arrays

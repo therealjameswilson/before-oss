@@ -71,6 +71,25 @@ class BboxParserTests(unittest.TestCase):
         self.assertIn("raw cells are preserved", note or "")
         self.assertIn("civilian_grade_printed_in_middle_column", warnings)
 
+    def test_military_rank_printed_in_middle_column_is_normalized_separately(
+        self,
+    ) -> None:
+        words = [
+            Word("Allen", 72.8, 100.0),
+            Word("Keith", 141.1, 100.0),
+            Word("Col", 210.0, 100.0),
+            Word("10", 361.1, 100.0),
+            Word("230/86/26/04", 410.4, 100.0),
+        ]
+        fields, warnings = _parse_bbox_row(words)
+        middle, rank, note = _normalization_name_middle_and_rank(fields)
+        self.assertEqual(fields["middle_initial_raw"], "Col")
+        self.assertIsNone(fields["rank_raw"])
+        self.assertIsNone(middle)
+        self.assertEqual(rank, "Col")
+        self.assertIn("raw cells are preserved", note or "")
+        self.assertIn("military_rank_printed_in_middle_column", warnings)
+
 
 if __name__ == "__main__":
     unittest.main()

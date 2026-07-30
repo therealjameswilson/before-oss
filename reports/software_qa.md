@@ -2,15 +2,15 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **49 / 49 passed**
+- Python unit tests: **51 / 51 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,185 pages**
-- Internal link check: **24,185 HTML files passed**
-- Browser and accessibility suite: **255 / 255 passed**
+- Static production build: **24,186 pages**
+- Internal link check: **24,186 HTML files passed**
+- Browser and accessibility suite: **258 / 258 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`500a463eee644f69a49cc442001789a619b34db5adfde5a6a7d6de1998ec4f9b`)
+  (`382958408e4c1ff47312dee1b7227082aaa0fdfbff780e3ebb5dd686204b6973`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 71 evidence files: **75 / 75 tracked
@@ -18,18 +18,18 @@ Run: 2026-07-30 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `f5c2737ed5fce4becf9ac3b8e74bdfc6e78bbf99df4b6e21e712ae58173da8e4`
+  `b53b109088155e4fc9e5d1a83f3848a22d7f16653482028b89bf2e60265612e7`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
-  private identifiers: **0 unexpected full-number matches** in **24,329**
+  private identifiers: **0 unexpected full-number matches** in **24,330**
   public text assets, generated site data, compressed mirrors, or production
   HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **584** public records representing **540** unique documents
-- Published, qualified affiliations: **396**
-- Published claims: **673**
+- Reviewed public sources: **592** public records representing **546** unique documents
+- Published, qualified affiliations: **397**
+- Published claims: **676**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
 - Verified-affiliation metric: **197** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -548,3 +548,26 @@ derived only from durable source-access and research-attempt dates. A
 regression test supplies later volatile bookkeeping timestamps and verifies
 that they do not affect the public value. Consecutive production builds and
 the complete clean-checkout replay are now byte-for-byte identical.
+
+Batch 071 completes the minimum online protocol for Hedvig J. Allen through
+Laura D. Allen on PDF page six. It publishes Hedvig Allen's high-confidence
+identity and qualified medium-confidence Bureau of Internal Revenue government
+assignment without inventing a last civilian employer. It publishes Keith
+Allen's high-confidence identity and corrected commissioned-Army
+classification from an official OSS report and corroborating award citation,
+while leaving his pre-OSS assignment and civilian employer unresolved. Eight
+other profiles route to Box 10 review. The browser regression checks all ten
+profiles, the historical organization route, temporal and relationship
+qualification, official citation access, and field-level serial masking across
+three viewports.
+
+The parser regression recognizes seventeen military grades printed in the
+middle-initial column while the rank cell is blank. All affected rows were
+rendered and visually inspected, including two separate corrections on page
+117. The review importer now accepts several corrections on one page while
+rejecting duplicate page-row coordinates and raw-cell drift. Together with six
+previous civilian-grade corrections, the replay bundle covers 23 corrected
+rows on 20 pages and 63 visually matching pages. Fifty-one Python tests, the
+258-case browser/accessibility matrix, a 200-profile stratified audit, two
+identical production content-tree hashes, and a complete clean replay with all
+75 tracked public/generated files matched passed.

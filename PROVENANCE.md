@@ -483,6 +483,45 @@ visually inspected. Full service identifiers remain private and are masked from
 public pages and downloads. No live NARA Catalog API request or cached API
 response was involved.
 
+## Reviewed page-six Allen identities and federal pathway
+
+The seventy-first evidence batch completed the bounded protocol for ten
+contiguous page-six records, Hedvig J. Allen through Laura D. Allen. It combines
+the frozen NARA index row, an official OSS monthly activity report, an official
+IRS agency-history timeline, an institutional museum exhibition, a
+descendant-authored family history grounded in wartime papers, and a
+transcription of a wartime award citation. It stores only citation metadata,
+project-authored paraphrases, and short evidence excerpts; it contains no NARA
+Catalog API response.
+
+The distinctive Hedvig J. Allen entry is published at high identity confidence
+as Hedvig Elizabeth Johnson Allen. The family chronology places her at the
+federal tax agency from July 1941 and says she applied to the newly organized
+OSS one week after Pearl Harbor. Because that source uses the later name
+“Internal Revenue Service,” the affiliation preserves the wording as found
+while the organization table separately uses the historically accurate Bureau
+of Internal Revenue, supported by the official agency timeline. The
+government-assignment claim is medium-confidence and visibly qualified; no
+last civilian employer is inferred.
+
+The NARA index prints `Col` in Keith Allen's middle-initial cell and leaves the
+rank cell blank. The row was rendered and visually reviewed before normalized
+rank and commissioned status were corrected. An official September 1944 OSS
+report names Lieutenant Colonel Keith Allen during an OSS-supported air
+operation over Norway, and the award-citation transcription independently
+expands the name to Keith Nichols Allen while matching rank, date, and Army Air
+Forces context. The identity is high-confidence, but neither source establishes
+his immediately pre-OSS assignment or last civilian employer. Box 10 remains
+required. The other eight people remain unresolved after the minimum online
+protocol and also route to Box 10.
+
+The parser-wide audit found sixteen additional military grades printed in the
+same displaced column pattern. All seventeen affected military rows were
+rendered and inspected at original detail, along with the six earlier civilian
+grade rows. Raw values remain immutable. The replay registry now records 23
+row corrections across 20 pages and supports multiple audited corrections on
+one page by validating unique page-row coordinates.
+
 ## Official reference material
 
 - NARA OSS personnel records:

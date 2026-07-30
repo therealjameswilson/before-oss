@@ -6204,3 +6204,94 @@ test("Batch 070 routes the contiguous Carol F Allen through Hanceford D Allen se
     page.locator(".index-record").first().locator("dd").nth(2),
   ).toHaveText(/^••••\d{4}$/);
 });
+
+test("Batch 071 publishes Hedvig Allen's qualified federal pathway and Keith Allen's corrected colonel identity while preserving eight archival cases", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["5b1182d0-87e7-5282-b1da-7d702acfd7cb", "Helen E Allen"],
+    ["7058c510-df1f-5437-8043-34e0cf7d52a1", "Horace H Allen"],
+    ["34ed1c86-e2d3-5d1f-a0cb-fdd1a11d682e", "Howard Allen"],
+    ["0d87a330-3b5e-5b9d-a627-bdf1b474f916", "James L Allen"],
+    ["cb6f0bb2-4361-5049-b9be-bfb375ee1560", "James T Allen"],
+    ["61b9fdd4-e8c1-5772-8989-26ba67ac28c6", "Joel E Allen"],
+    ["915fa417-f854-569a-87f1-53e37654247c", "Katherine E Allen"],
+    ["e32db7e9-2c51-5e5f-ac37-8c207bfe940e", "Laura D Allen"],
+  ];
+
+  for (const [personId, displayName] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("10", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/5e239791-b869-5a67-86b1-35b10b2819f6/");
+  await expect(
+    page.getByRole("heading", { name: "Hedvig J Allen", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Bureau of Internal Revenue", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("explicit immediate");
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "Washington DC", exact: true }),
+  ).toHaveAttribute(
+    "href",
+    "https://libertyladybook.com/2009/10/25/washington-dc/",
+  );
+
+  await page.goto("./people/5daf22ac-a7cf-520a-bdd4-c8a638b49ea8/");
+  await expect(
+    page.getByRole("heading", { name: "Keith Allen", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("commissioned army officer");
+  await expect(page.locator("body")).toContainText("Keith Nichols Allen");
+  await expect(page.locator("body")).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "OSS Monthly Activity Reports – September 1944",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100140011-7.pdf",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("Not printed");
+
+  await page.goto(
+    "./organizations/03e209a5-4ba3-5968-bce1-2f403d5b3458/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "Bureau of Internal Revenue",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Internal Revenue Service");
+  await expect(
+    page.getByRole("link", { name: "Hedvig J Allen", exact: true }),
+  ).toBeVisible();
+});

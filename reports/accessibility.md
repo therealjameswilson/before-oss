@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 255 / 255 browser cases.**
+**PASS - 258 / 258 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -617,6 +617,17 @@ archival-review outcomes; commissioned, enlisted, civilian-grade, and
 indeterminate personnel classifications; the preserved unusual `Desrae`
 spelling; actionable file-review guidance; and field-level serial masking.
 The complete desktop, phone, and tablet matrix passed 255 / 255 with no
+remaining assertion or serious/critical axe failure.
+
+The Batch 071 regression checks the contiguous Hedvig J. Allen-through-Laura
+D. Allen sequence on PDF page six. It verifies Hedvig Allen's high-confidence
+identity and visibly qualified Bureau of Internal Revenue government
+assignment while keeping her last civilian employer unresolved. It verifies
+Keith Allen's corrected commissioned-Army classification, documented
+Keith Nichols Allen variant, official OSS citation, and the absence of an
+unsupported pre-OSS affiliation. Eight other profiles retain dignified Box 10
+archival-review guidance, and every applicable serial field remains masked.
+The complete desktop, phone, and tablet matrix passed 258 / 258 with no
 remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel

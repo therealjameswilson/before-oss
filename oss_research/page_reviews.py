@@ -39,11 +39,15 @@ class PageReviewBundle(StrictModel):
             set(self.reviewed_matching_pages)
         ):
             raise ValueError("Reviewed matching pages must be unique.")
-        correction_pages = [row.source_page for row in self.correction_rows]
-        if len(correction_pages) != len(set(correction_pages)):
-            raise ValueError(
-                "Each correction page must occur once in this bundle."
-            )
+        correction_coordinates = [
+            (row.source_page, row.source_row_number)
+            for row in self.correction_rows
+        ]
+        if len(correction_coordinates) != len(set(correction_coordinates)):
+            raise ValueError("Correction row coordinates must be unique.")
+        correction_pages = {
+            row.source_page for row in self.correction_rows
+        }
         if set(self.reviewed_matching_pages) & set(correction_pages):
             raise ValueError(
                 "A page cannot be both a matching page and a correction page."
@@ -60,7 +64,7 @@ def import_page_reviews(
     )
     matching_pages = sorted(bundle.reviewed_matching_pages)
     correction_pages = sorted(
-        row.source_page for row in bundle.correction_rows
+        {row.source_page for row in bundle.correction_rows}
     )
     expected_pages = matching_pages + correction_pages
 
@@ -162,7 +166,12 @@ def import_page_reviews(
             """,
             (bundle.source_pdf_sha256, *correction_pages),
         )
-        for correction in bundle.correction_rows:
+        for correction_page in correction_pages:
+            page_notes = " | ".join(
+                correction.notes
+                for correction in bundle.correction_rows
+                if correction.source_page == correction_page
+            )
             connection.execute(
                 """
                 UPDATE page_qa
@@ -175,11 +184,12 @@ def import_page_reviews(
                 (
                     bundle.reviewer,
                     bundle.corrections_reviewed_at,
-                    correction.notes,
+                    page_notes,
                     bundle.source_pdf_sha256,
-                    correction.source_page,
+                    correction_page,
                 ),
             )
+        for correction in bundle.correction_rows:
             connection.execute(
                 """
                 UPDATE source_records

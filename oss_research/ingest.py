@@ -21,10 +21,15 @@ from .constants import (
 from .db import utc_now
 from .models import SourceRecordModel
 from .normalize import (
+    ARMY_ENLISTED_RANKS,
+    ARMY_OFFICER_RANKS,
     CIVILIAN_GRADE_RE,
+    NAVAL_OFFICER_RANKS,
+    WARRANT_RANKS,
     classify_personnel,
     clean,
     normalize_name,
+    normalize_rank,
     normalize_serial,
 )
 
@@ -159,21 +164,26 @@ def _parse_bbox_row(words: list[Word]) -> tuple[dict[str, str | None], list[str]
         warnings.append("nonnumeric_box")
     if len(buckets["archive_location_raw"]) != 1:
         warnings.append("location_token_count")
-    if (
-        not fields["rank_raw"]
-        and fields["middle_initial_raw"]
-        and CIVILIAN_GRADE_RE.fullmatch(fields["middle_initial_raw"])
-    ):
-        warnings.append("civilian_grade_printed_in_middle_column")
+    middle_value = fields["middle_initial_raw"]
+    if not fields["rank_raw"] and middle_value:
+        if CIVILIAN_GRADE_RE.fullmatch(middle_value):
+            warnings.append("civilian_grade_printed_in_middle_column")
+        elif normalize_rank(middle_value) in (
+            ARMY_OFFICER_RANKS
+            | NAVAL_OFFICER_RANKS
+            | WARRANT_RANKS
+            | ARMY_ENLISTED_RANKS
+        ):
+            warnings.append("military_rank_printed_in_middle_column")
     return fields, warnings
 
 
 def _normalization_name_middle_and_rank(
     fields: dict[str, str | None],
 ) -> tuple[str | None, str | None, str | None]:
-    """Interpret a grade printed in the source table's M I column.
+    """Interpret a grade or military rank printed in the table's M I column.
 
-    The six known affected rows keep their printed raw cells unchanged. Only
+    Known affected rows keep their printed raw cells unchanged. Only
     normalized name and rank fields are corrected, with an explicit audit note.
     """
     middle_raw = fields["middle_initial_raw"]
@@ -189,6 +199,26 @@ def _normalization_name_middle_and_rank(
             "The source table prints the civilian grade in the M I column and "
             "leaves rank blank; raw cells are preserved, while normalized "
             "fields treat the value as a grade rather than part of the name.",
+        )
+    normalized_middle_rank = normalize_rank(middle_raw)
+    if (
+        not rank_raw
+        and middle_raw
+        and normalized_middle_rank
+        in (
+            ARMY_OFFICER_RANKS
+            | NAVAL_OFFICER_RANKS
+            | WARRANT_RANKS
+            | ARMY_ENLISTED_RANKS
+        )
+    ):
+        return (
+            None,
+            middle_raw,
+            "The source table prints a recognized military rank in the M I "
+            "column and leaves rank blank; raw cells are preserved, while "
+            "normalized fields treat the value as a rank rather than part of "
+            "the name.",
         )
     return middle_raw, rank_raw, None
 
