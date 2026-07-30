@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,133 HTML files. Every relative
+**PASS.** The production build contains 24,134 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 184 organization profiles, and the
+The build includes 23,941 person profiles, 185 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,291 unique external URLs for separate live
+The checker inventoried 48,293 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -32,13 +32,14 @@ verification; external responses do not affect the internal-route pass.
 | CIA, *War of a Different Kind* PDF | HTTP 200 |
 | CIA, *Intelligence Operations of OSS Detachment 101* | HTTP 200 |
 | CIA, *A Memoir of Jed Team Frederick* PDF | HTTP 200 |
+| Prince Albert *Daily Herald*, “Veteran of Lofoten Raid” | Text reviewed through the research browser; command-line image retrieval returned HTTP 403 |
 | Washington Post, “W. Scudder Georgia Dies” | Accessible through the research browser; command-line curl timed out |
 | NPS report mirror, *OSS Training in the National Parks and Service Abroad* | Accessible through the research browser; command-line curl returned HTTP 406 |
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
 
-## Production deployment
+## Last verified production deployment
 
 GitHub Actions test workflow
 [30504300894](https://github.com/therealjameswilson/before-oss/actions/runs/30504300894)

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import Badge from "../../components/Badge.astro";
 import organizationData from "../../data/generated/organizations.json";
 import type { Organization } from "../../types";
 
@@ -11,6 +12,17 @@ export function getStaticPaths() {
 }
 
 const { organization } = Astro.props as { organization: Organization };
+const base = import.meta.env.BASE_URL;
+
+function affiliationDates(
+  startDate: string | null,
+  endDate: string | null,
+): string {
+  if (startDate && endDate) return `${startDate}–${endDate}`;
+  if (startDate) return `From ${startDate}`;
+  if (endDate) return `Through ${endDate}`;
+  return "Dates not established";
+}
 ---
 
 <BaseLayout
@@ -35,8 +47,7 @@ const { organization } = Astro.props as { organization: Organization };
   </header>
 
   <section class="section">
-    <div class="container profile-grid">
-      <div class="prose">
+    <div class="narrow prose">
         <h2>Historical identity</h2>
         <dl class="profile-facts">
           <div>
@@ -79,7 +90,97 @@ const { organization } = Astro.props as { organization: Organization };
           high-, or visibly qualified medium-confidence published claims. They
           do not measure the complete OSS workforce.
         </p>
-      </div>
+
+        <section class="profile-section" aria-labelledby="documented-personnel">
+          <h2 id="documented-personnel">Documented OSS personnel</h2>
+          <p>
+            Each link below reflects a reviewed, published affiliation claim.
+            Relationship types remain distinct: military or government service,
+            study, and professional affiliations are not recast as employment.
+          </p>
+          {
+            organization.linked_people.map((person) => (
+              <article class="affiliation-card">
+                <h3>
+                  <a href={`${base}people/${person.person_id}/`}>
+                    {person.display_name}
+                  </a>
+                </h3>
+                <p>
+                  <Badge value={person.identity_status} />
+                  {" "}
+                  <Badge value={person.research_status} />
+                </p>
+                {person.affiliations.map((affiliation) => (
+                  <div class="organization-affiliation">
+                    <p>
+                      <strong>
+                        {affiliation.role_title ??
+                          affiliation.occupation ??
+                          affiliation.relationship_type.replaceAll("_", " ")}
+                      </strong>
+                    </p>
+                    <p class="citation-meta">
+                      {affiliation.relationship_type.replaceAll("_", " ")}
+                      {" · "}
+                      {affiliationDates(
+                        affiliation.start_date,
+                        affiliation.end_date,
+                      )}
+                      {" · "}
+                      {affiliation.immediate_pre_oss
+                        ? "immediate pre-OSS affiliation"
+                        : affiliation.last_civilian_pre_service
+                          ? "last civilian employer before service"
+                          : "other documented pre-OSS affiliation"}
+                    </p>
+                    <p>
+                      <Badge value={affiliation.claim_confidence} />
+                      {" "}
+                      <Badge value={affiliation.temporal_basis} />
+                    </p>
+                  </div>
+                ))}
+                {person.claims.map((claim) => (
+                  <div class="organization-claim">
+                    <h4>{claim.claim_text}</h4>
+                    <p>{claim.evidence_paraphrase}</p>
+                    <ol class="citation-list">
+                      {claim.sources.map((link) => {
+                        const source = link.source;
+                        const locator = link.locator_override ?? source.locator;
+                        return (
+                          <li>
+                            <p>
+                              {source.stable_url ? (
+                                <a href={source.stable_url}>{source.title}</a>
+                              ) : (
+                                <strong>{source.title}</strong>
+                              )}
+                              {source.author_creator &&
+                                ` — ${source.author_creator}`}
+                              {`. ${source.repository_publisher}.`}
+                              {source.publication_record_date &&
+                                ` ${source.publication_record_date}.`}
+                            </p>
+                            <p class="citation-meta">
+                              {source.archival_identifier &&
+                                `Archival identifier: ${source.archival_identifier}. `}
+                              {source.document_number &&
+                                `Document: ${source.document_number}. `}
+                              {locator && `Locator: ${locator}. `}
+                              {`Accessed ${source.access_date}.`}
+                            </p>
+                          </li>
+                        );
+                      })}
+                    </ol>
+                  </div>
+                ))}
+              </article>
+            ))
+          }
+        </section>
     </div>
   </section>
 </BaseLayout>

@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 150 / 150 browser cases.**
+**PASS - 156 / 156 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -15,6 +15,8 @@ Routes tested at all three sizes:
 - personnel directory after its 23,941-row search index loaded;
 - a direct person profile;
 - organizations;
+- the Norwegian Army organization profile with linked-person and citation
+  evidence;
 - analysis;
 - methodology;
 - sources;
@@ -24,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-95-person employer measure is labeled separately from the 160-person broader
+95-person employer measure is labeled separately from the 161-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -297,6 +299,15 @@ notes with checks against the rendered unresolved-employer language, student
 relationship, and explicitly unnamed employer heading. The complete desktop,
 phone, and tablet matrix then passed 150 / 150 with no remaining assertion or
 axe failure.
+
+The Batch 037 regression first corrected two expectations that targeted private
+review wording rather than the rendered public caution. It then exposed that
+organization pages reported linked-person counts without listing the people.
+The public projection and organization template now publish reviewed linked
+personnel, relationship and temporal distinctions, profile links, and claim-level
+citations. The Norwegian Army detail route was added to the axe matrix. The
+complete desktop, phone, and tablet matrix then passed 156 / 156 with no
+remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

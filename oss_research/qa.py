@@ -21,6 +21,27 @@ from .db import integrity_report, utc_now
 
 QA_RANDOM_SEED = 226_224
 
+COMMISSIONED_COMPATIBLE_CATEGORIES = frozenset(
+    {
+        "commissioned_army_officer",
+        "commissioned_marine_corps_officer",
+        "commissioned_naval_officer",
+        "foreign_or_allied_military_personnel",
+        "unknown_or_indeterminate",
+    }
+)
+
+
+def commissioned_category_is_consistent(
+    commissioned_officer: object,
+    personnel_category: object,
+) -> bool:
+    """Allow sourced Allied officers without erasing their foreign category."""
+    return (
+        commissioned_officer != 1
+        or personnel_category in COMMISSIONED_COMPATIBLE_CATEGORIES
+    )
+
 
 def selected_pages(
     page_counts: dict[int, int],
@@ -419,14 +440,10 @@ def audit_profiles(
             for person in selected_rows
         ),
         "commissioned_categories_consistent": all(
-            person["commissioned_officer"] != 1
-            or person["personnel_category"]
-            in {
-                "commissioned_army_officer",
-                "commissioned_marine_corps_officer",
-                "commissioned_naval_officer",
-                "unknown_or_indeterminate",
-            }
+            commissioned_category_is_consistent(
+                person["commissioned_officer"],
+                person["personnel_category"],
+            )
             for person in selected_rows
         ),
     }

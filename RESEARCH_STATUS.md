@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 258 people with a non-planned attempt | 23,941 person entities | 1.0776% |
-| Verified-affiliation coverage | 160 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.6683% |
+| Research-attempt coverage | 264 people with a non-planned attempt | 23,941 person entities | 1.1027% |
+| Verified-affiliation coverage | 161 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.6725% |
 | Verified-employer coverage | 95 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.3968% |
-| Archival-review coverage | 185 people with an individual file-access/priority assessment | 23,941 person entities | 0.7727% |
+| Archival-review coverage | 191 people with an individual file-access/priority assessment | 23,941 person entities | 0.7978% |
 
 ## Extraction and identity
 
@@ -18,55 +18,55 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 205
+- Possible duplicate groups: 206
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 8
-- Identity status `high_confidence`: 204
-- Identity status `probable`: 6
-- Identity status `ambiguous`: 5
-- Identity status `unresolved`: 23,718
+- Identity status `high_confidence`: 207
+- Identity status `probable`: 7
+- Identity status `ambiguous`: 7
+- Identity status `unresolved`: 23,712
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,633
+- Unknown or indeterminate: 16,632
 - Enlisted Army personnel: 3,459
 - Commissioned Army officers: 2,061
 - Commissioned Marine Corps officers: 5
 - Civilian professional or administrative grades: 1,451
-- Foreign or Allied military personnel: 242
+- Foreign or Allied military personnel: 243
 - Enlisted naval personnel: 48
 - Commissioned naval officers: 38
 - Warrant officers: 4
 
-Commissioned classification: 2,107 yes; 4,967 no; 16,867 indeterminate.
+Commissioned classification: 2,108 yes; 4,967 no; 16,866 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,683
+- `not_started`: 23,677
 - `in_progress`: 85
 - `candidate_found`: 1
 - `needs_identity_review`: 6
 - `documented_prewar_employer_found`: 12
 - `occupation_only_found`: 12
-- `requires_archival_review`: 20
-- `completed`: 20
+- `requires_archival_review`: 25
+- `completed`: 21
 - `verified_employer_found`: 102
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
-- Web-adapter attempts recorded: 636
+- Web-adapter attempts recorded: 642
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 180 across 179 people; 10 additional
+- Saved `source_reviewed` outcomes: 186 across 185 people; 10 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,249
+- Total recorded attempts/plans: 1,255
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 185; 181 have at least one public-eligible
+- People with saved reviewed claims: 191; 185 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -117,12 +117,14 @@ Commissioned classification: 2,107 yes; 4,967 no; 16,867 indeterminate.
   Brunner, Timothy R. Marsh, Lawrence W. Lowman, the probable John M. Balsamo
   identity, William R. Peers, Nicol Smith, Lawrence Hollander, the separately
   preserved ambiguous L. L. Hollander index row, Marvin S. Flisser, Willis S.
-  Georgia Jr., and Robert R. Kehoe.
-- Published affiliations: 310
-- Database claims: 517; public-eligible claims: 512 (77 confirmed, 395 high, 40
-  medium); 5 low-confidence identity candidates are withheld
-- Citation records: 412; public source export: 403; unique source documents: 375
-- Canonical organizations: 185 private and 184 public
+  Georgia Jr., Robert R. Kehoe, Benton E. Bickham Jr., Milton W. Griffith,
+  Louis Lostfogel, Edmund I. Stromholt, and the two separately preserved
+  ambiguous James Herbert rows.
+- Published affiliations: 311
+- Database claims: 526; public-eligible claims: 517 (77 confirmed, 399 high, 41
+  medium); 9 low-confidence claims concerning 6 people are withheld
+- Citation records: 419; public source export: 408; unique source documents: 380
+- Canonical organizations: 186 private and 185 public
 - Conflicts: 0
 - NARA pull-list rows: 23,876
 
@@ -196,6 +198,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-area-c-and-sp
 python3 -m oss_research import-reviewed-evidence research/evidence-radio-and-cryptology-pathways_batch-034_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-communications-leadership-and-field-pathways_batch-035_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-communications-recruits-and-duplicate-review_batch-036_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence-area-b-staff-and-herbert-review_batch-037_2026-07-29.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

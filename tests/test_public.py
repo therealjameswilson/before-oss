@@ -8,6 +8,7 @@ from pathlib import Path
 from oss_research.public import (
     _write_json,
     mask_serial,
+    organization_linked_people,
     public_snapshot_timestamp,
     public_source_row,
     verified_affiliation_person_count,
@@ -149,6 +150,51 @@ class PublicProjectionTests(unittest.TestCase):
         ]
         self.assertEqual(verified_affiliation_person_count(profiles), 3)
         self.assertEqual(verified_employer_person_count(profiles), 2)
+
+    def test_organization_projection_links_people_and_affiliation_citations(
+        self,
+    ) -> None:
+        affiliation = {
+            "affiliation_id": "affiliation-1",
+            "organization_id": "organization-1",
+            "immediate_pre_oss": True,
+            "last_civilian_pre_service": False,
+            "start_date": "1941",
+        }
+        claim = {
+            "claim_id": "claim-1",
+            "affiliation_id": "affiliation-1",
+            "sources": [{"source_id": "source-1"}],
+        }
+        profiles = [
+            {
+                "person_id": "person-1",
+                "display_name": "Example Person",
+                "identity_status": "high_confidence",
+                "research_status": "completed",
+                "immediate_pre_oss_affiliations": [affiliation],
+                "last_civilian_pre_service": [],
+                "other_pre_oss_affiliations": [],
+                "claims": [claim],
+            }
+        ]
+
+        organizations = organization_linked_people(profiles)
+
+        self.assertEqual(
+            organizations["organization-1"][0]["display_name"],
+            "Example Person",
+        )
+        self.assertEqual(
+            organizations["organization-1"][0]["affiliations"],
+            [affiliation],
+        )
+        self.assertEqual(
+            organizations["organization-1"][0]["claims"][0]["sources"][0][
+                "source_id"
+            ],
+            "source-1",
+        )
 
 
 if __name__ == "__main__":

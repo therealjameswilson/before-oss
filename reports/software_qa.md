@@ -2,40 +2,34 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **30 / 30 passed**
+- Python unit tests: **34 / 34 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,133 pages**
-- Internal link check: **24,133 HTML files passed**
-- Browser and accessibility suite: **150 / 150 passed**
+- Static production build: **24,134 pages**
+- Internal link check: **24,134 HTML files passed**
+- Browser and accessibility suite: **156 / 156 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`ce0abcb9972286dc6298bf0c170042699e1c19dd0d2b8ed52f148ff5ab485f7f`)
+  (`3edc23b6789da38511a6b40fcd79148f2da642ac80d1334323bf02ff6cdf0f73`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,213**
+  numbers at least six characters long: **0 full-number matches** in **24,214**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **403** public records representing **375** unique documents
-- Published, qualified affiliations: **310**
-- Published claims: **512**
-- Withheld low-confidence identity candidates: **5**
-- Verified-affiliation metric: **160** people with confirmed/high published
+- Reviewed public sources: **408** public records representing **380** unique documents
+- Published, qualified affiliations: **311**
+- Published claims: **517**
+- Withheld low-confidence evidence: **9 claims concerning 6 people**
+- Verified-affiliation metric: **161** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **95** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30504300894](https://github.com/therealjameswilson/before-oss/actions/runs/30504300894)
-  for Batch 036 release `0b5f45a`: **passed**
-- GitHub Pages deployment workflow
-  [30504300872](https://github.com/therealjameswilson/before-oss/actions/runs/30504300872)
-  for Batch 036 release `0b5f45a`: **passed**
-- Production route and asset smoke tests: **22 / 22 returned HTTP 200 and the
-  expected content marker or row count**
+- Batch 037 GitHub Actions and live-production verification: **pending release
+  commit**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -184,3 +178,11 @@ S. Flisser's Brooklyn College student affiliation outside employer analytics;
 separates Willis S. Georgia Jr.'s Navy assignment from student history; and
 records Robert R. Kehoe's Signal Corps pathway and unnamed chemical-plant work
 without guessing the company.
+Batch 037 adds checks for Benton E. Bickham Jr.'s and Milton W. Griffith's
+documented Area B identities without inventing pre-OSS employers; Louis
+Lostfogel's physician and Medical Corps evidence without assigning a medical
+practice; Edmund I. Stromholt's immediate Norwegian Army pathway; and the two
+adjacent James Herbert rows, which remain separate ambiguous entities while
+their shared Navy candidate is withheld. It also makes organization pages
+auditable by listing reviewed linked personnel, relationship and temporal
+classification, profile links, and claim-level citations.

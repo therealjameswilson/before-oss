@@ -136,6 +136,67 @@ def verified_employer_person_count(
     return count
 
 
+def organization_linked_people(
+    profiles: list[dict[str, object]],
+) -> dict[str, list[dict[str, object]]]:
+    """Build the reviewed person-and-evidence projection for organization pages."""
+    grouped: dict[str, dict[str, dict[str, object]]] = defaultdict(dict)
+    for profile in profiles:
+        person_affiliations = [
+            *profile["immediate_pre_oss_affiliations"],
+            *profile["last_civilian_pre_service"],
+            *profile["other_pre_oss_affiliations"],
+        ]
+        claims_by_affiliation = defaultdict(list)
+        for claim in profile["claims"]:
+            affiliation_id = claim["affiliation_id"]
+            if affiliation_id:
+                claims_by_affiliation[affiliation_id].append(claim)
+
+        for affiliation in person_affiliations:
+            organization_id = affiliation["organization_id"]
+            if not organization_id:
+                continue
+            person_id = str(profile["person_id"])
+            linked_person = grouped[str(organization_id)].setdefault(
+                person_id,
+                {
+                    "person_id": person_id,
+                    "display_name": profile["display_name"],
+                    "identity_status": profile["identity_status"],
+                    "research_status": profile["research_status"],
+                    "affiliations": [],
+                    "claims": [],
+                },
+            )
+            linked_person["affiliations"].append(dict(affiliation))
+            linked_person["claims"].extend(
+                claims_by_affiliation.get(affiliation["affiliation_id"], [])
+            )
+
+    result: dict[str, list[dict[str, object]]] = {}
+    for organization_id, people in grouped.items():
+        linked_people = list(people.values())
+        for person in linked_people:
+            person["affiliations"].sort(
+                key=lambda item: (
+                    not item["immediate_pre_oss"],
+                    not item["last_civilian_pre_service"],
+                    str(item["start_date"] or ""),
+                    str(item["affiliation_id"]),
+                )
+            )
+            person["claims"].sort(key=lambda item: str(item["claim_id"]))
+        result[organization_id] = sorted(
+            linked_people,
+            key=lambda item: (
+                str(item["display_name"]).casefold(),
+                str(item["person_id"]),
+            ),
+        )
+    return result
+
+
 def _write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n"
@@ -562,8 +623,14 @@ def build_public_data(
     _write_json(GENERATED_ROOT / "stats.json", stats)
     _write_json(GENERATED_ROOT / "sources.json", public_sources)
 
+    linked_people_by_organization = organization_linked_people(profiles)
     organizations = [
-        dict(row)
+        {
+            **dict(row),
+            "linked_people": linked_people_by_organization.get(
+                str(row["organization_id"]), []
+            ),
+        }
         for row in connection.execute(
             """
             SELECT o.*,

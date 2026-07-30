@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:51:23+00:00",
+  "generated_at": "2026-07-30T01:18:35+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -12,48 +12,48 @@
     "commissioned_categories_consistent": true
   },
   "personnel_category_counts": {
-    "civilian_professional_or_administrative_grade": 24,
-    "commissioned_army_officer": 30,
+    "civilian_professional_or_administrative_grade": 23,
+    "commissioned_army_officer": 29,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 25,
+    "enlisted_army_personnel": 26,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 18,
-    "unknown_or_indeterminate": 87,
+    "unknown_or_indeterminate": 88,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 81,
+    "1": 82,
     "2": 52,
     "3": 27,
-    "4": 40
+    "4": 39
   },
   "identity_status_counts": {
     "ambiguous": 1,
     "high_confidence": 25,
-    "probable": 1,
-    "unresolved": 173
+    "probable": 2,
+    "unresolved": 172
   },
   "research_status_counts": {
-    "completed": 2,
-    "documented_prewar_employer_found": 3,
+    "completed": 3,
+    "documented_prewar_employer_found": 2,
     "in_progress": 5,
-    "not_started": 173,
+    "not_started": 172,
     "occupation_only_found": 1,
-    "requires_archival_review": 5,
+    "requires_archival_review": 6,
     "verified_employer_found": 11
   },
   "special_strata_counts": {
     "commissioned": 38,
-    "civilian": 24,
-    "enlisted": 29,
+    "civilian": 23,
+    "enlisted": 30,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 21,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 21,
     "medium_published_claim": 10,
     "conflicting_published_claim": 0,
-    "unresolved_identity": 173
+    "unresolved_identity": 172
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research.",
@@ -85,9 +85,9 @@
     "1a8af78c-0f00-5268-a07d-a4109341012f",
     "ffe506ac-7aa6-5586-808a-05d346e4a2a7",
     "7b429e28-209b-585b-ba26-88a3ea721249",
+    "638047fa-fbbe-53c7-96d4-77c794b814c2",
     "2998b40c-5285-58d6-bf7c-ae665d14182b",
     "000282d2-345f-5f0e-bc72-a9bdd37c2ea3",
-    "c8645131-9d3a-53d7-9d84-41ebfcc13082",
     "b1763bd5-7915-5240-83e1-2668f5a7cb64",
     "58dee0d5-c3fd-5bc2-8ee2-167c5c1aa76c",
     "2332bb8a-b5e4-53a7-99ab-280283049f83",
@@ -115,7 +115,6 @@
     "de4c2471-9a3a-54e7-8840-ff542b9a7d56",
     "1bf47b8e-87c1-5ff3-8ff4-6a4eab390d35",
     "6b6c809a-a23d-540a-9485-66e1aaf0267a",
-    "3373c334-5112-519f-9cd5-da94b1e2537e",
     "fe52d758-d6dd-5890-bf81-b66c092e7b5e",
     "77c4394e-748a-5cc8-944e-10fae7af4791",
     "d5ae5010-380a-5892-adb2-86b5396651aa",
@@ -144,6 +143,7 @@
     "dfef5646-c18d-5421-b981-9b3f3b573cf8",
     "73f3649a-d598-5791-bac4-e72405339859",
     "5d66834d-80cb-5ac2-9e90-7f1609c6befc",
+    "c8645131-9d3a-53d7-9d84-41ebfcc13082",
     "45afdcd6-9feb-55f0-af0e-17d7cbcdab1f",
     "3a568eb6-3241-5cf8-8af7-71492c81d1a0",
     "7cf591b5-9304-5bdd-b557-d624e7ada8a0",
@@ -170,7 +170,6 @@
     "03a82f33-431c-594c-a46b-d8718bfc4a1f",
     "eaf1cbb0-30ed-51a6-89b4-39ea1a7d3819",
     "0a5aedca-8ba4-5b4c-af49-53e324fb7dd0",
-    "5a21cbf5-5612-528c-8692-c1f34219643c",
     "41562bd4-211a-57fd-9a4e-3a3af7c83eb6",
     "17a8f2cd-1c27-5342-a669-dd2ce398161e",
     "116a72f3-6c9f-542d-8258-e6c39ddbbb56",
@@ -195,7 +194,6 @@
     "df0f68e1-bd53-58a8-879c-aea2d2006ad2",
     "90b1ac85-8eb7-5fdc-a5f0-b84cc0649461",
     "47425d8d-4099-5f1b-9655-2882ee2ffc4c",
-    "1a9335ac-cc01-53e7-b312-f524cd5372d7",
     "eb972ede-0d1f-5926-bc48-a9c19b8af5cf",
     "cd4cefc2-85f7-5b72-b512-7ab4630ecc85",
     "e494b964-f3c3-5612-904e-549d71d03302",
@@ -242,13 +240,13 @@
     "7227c423-8f14-5430-9824-e79ccac87230",
     "fd719ab0-0e3d-56dd-b163-810da257da6e",
     "d633583e-637d-519b-a417-0eeb7ee8305b",
-    "ab9ab673-8090-56bf-9973-36b0edc77610",
     "3049d936-8a0c-5bc3-9e6d-4024e9f59dd3",
+    "ab9ab673-8090-56bf-9973-36b0edc77610",
     "43d0bb66-4c39-5627-85a1-3a85350d973d",
     "fe8ec29a-718c-56f3-af64-d619600f4f0d",
+    "fae94705-43d9-5e0b-8567-70e624282604",
     "4004a23d-52bc-5ce6-b450-36238827b287",
     "0d2d73be-e7ba-5b98-8494-0e9b9adaa189",
-    "a9b1ec13-509a-57f2-bb04-d2453d49e908",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
@@ -258,7 +256,9 @@
     "b58f40d0-800d-5896-a000-739c99c91902",
     "0e775c55-4587-5dd5-a362-49e047ca33c3",
     "9c74bb04-6646-58e2-b695-57739805d6a3",
+    "3373c334-5112-519f-9cd5-da94b1e2537e",
     "2a494735-4d57-58f8-a815-4f23a947288f",
-    "df0a8e7e-1c96-5f93-a69e-186d90ee2a94"
+    "df0a8e7e-1c96-5f93-a69e-186d90ee2a94",
+    "70fbff69-8032-5457-9009-c1ad7ee0f6b7"
   ]
 }

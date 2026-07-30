@@ -14,6 +14,7 @@ for (const route of [
   "people/",
   `people/${firstPerson.person_id}/`,
   "organizations/",
+  "organizations/7fe1f71a-6ae9-5437-812e-946a18e377a4/",
   "analysis/",
   "methodology/",
   "sources/",

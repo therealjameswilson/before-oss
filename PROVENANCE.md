@@ -183,6 +183,28 @@ printed page 596, and sequence page 754, printed page 770. Those pages support
 the employer and individual-practice decisions without republishing either
 source.
 
+## Reviewed Area B staff and Allied pathway
+
+The thirty-seventh evidence batch used the
+[National Park Service's official training history](https://www.nps.gov/articles/instructing-for-dangerous-missions.htm),
+the NARA personnel index, and the contemporary Prince Albert *Daily Herald*
+article
+[“Veteran of Lofoten Raid”](https://princealbertlibrary.ca/padh/1941/October/Oct%2015%2C%201941.pdf).
+No live NARA Catalog API request or retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Benton E. Bickham Jr. | The uncommon exact name, middle initial, Louisiana origin, enlisted grade, and Area B staff context support a high-confidence identity; the accessible official history explicitly does not supply his earlier background, so no pre-OSS employer or occupation is inferred |
+| Milton W. Griffith | The NPS diary transcription first uses `Milton Giffith` and then Griffith for the Pittsburgh camp staff member; the match remains probable because it lacks the indexed middle initial, grade, and service number, and “bus driver” is not published as pre-OSS employment because it may describe camp duty |
+| Louis Lostfogel | The rare name, physician specialty, grade progression, and Areas B/A/C Medical Corps role support a high-confidence identity; physician and Philadelphia origin do not establish a named pre-OSS practice or employer |
+| Edmund I. Stromholt | The 1941 newspaper identifies Lieutenant Edmund Stromholt in the Norwegian Army after the Lofoten raid and serving with a Norwegian infantry company in England; NPS calls him Edward and sequences his English commando instruction into OSS training. The discrepancy remains visible, and Norwegian Army service is published as the immediate military affiliation, not a civilian employer |
+| James Herbert and James E. Herbert | The adjacent Box 329 rows remain separate ambiguous entities. NPS's 1943 James Herbert naval-officer and Chicago radio-instructor account lacks a middle initial, service number, or box reference, so both candidates and their Navy affiliations remain private and withheld pending review of both personnel files |
+
+Index PDF pages 36, 182, 204, 283, and 453 were rendered and visually checked.
+They confirm the source spellings, ranks, private service-number distinctions,
+boxes, and archival locations used in the evidence bundle. Full service
+numbers remain private and do not appear in public pages or downloads.
+
 ## Official reference material
 
 - NARA OSS personnel records:

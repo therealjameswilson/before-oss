@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/95 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 160 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 161 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3569,6 +3569,98 @@ test("Batch 036 preserves communications pathways, unnamed employers, student st
     "href",
     "https://www.cia.gov/resources/csi/static/Allied-Team-French-Resistance.pdf",
   );
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 037 resolves an Allied pathway while preserving unknown staff backgrounds and the two Herbert rows", async ({
+  page,
+}) => {
+  await page.goto("./people/8c8af948-dd3b-536e-8ba0-988f6cf3d97f/");
+  await expect(
+    page.getByRole("heading", { name: "Benton E Bickham Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Benton E. Bickham from Louisiana.");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/fae94705-43d9-5e0b-8567-70e624282604/");
+  await expect(
+    page.getByRole("heading", { name: "Milton W Griffith", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("Milton Giffith");
+  await expect(page.locator("body")).toContainText(
+    "whether 'bus driver' described camp duty or prewar employment",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+
+  await page.goto("./people/654e73f7-0645-5c3c-a3c8-529f5f049b7f/");
+  await expect(
+    page.getByRole("heading", { name: "Louis Lostfogel", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("physician");
+  await expect(page.locator("body")).toContainText(
+    "pre-OSS practice, employer, and Medical Corps entry chronology",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/638047fa-fbbe-53c7-96d4-77c794b814c2/");
+  await expect(
+    page.getByRole("heading", { name: "Edmund I Stromholt", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Edward Stromholt");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Norwegian Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Veteran of Lofoten Raid", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://princealbertlibrary.ca/padh/1941/October/Oct%2015%2C%201941.pdf",
+  );
+
+  await page.goto("./people/5ba837c6-75af-5db2-88f8-648243ded832/");
+  await expect(
+    page.getByRole("heading", { name: "James Herbert", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("duplicate-f6de91a0d711");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).not.toContainText("United States Navy");
+
+  await page.goto("./people/f91af878-e2dc-5144-80f5-76aae6e74d1b/");
+  await expect(
+    page.getByRole("heading", { name: "James E Herbert", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("duplicate-f6de91a0d711");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).not.toContainText("United States Navy");
+
+  await page.goto("./organizations/7fe1f71a-6ae9-5437-812e-946a18e377a4/");
+  await expect(
+    page.getByRole("heading", { name: "Norwegian Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Edmund I Stromholt" })).toBeVisible();
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

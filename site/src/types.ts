@@ -109,6 +109,16 @@ export type Organization = {
   active_dates: string | null;
   normalization_notes: string | null;
   documented_person_count: number;
+  linked_people: OrganizationLinkedPerson[];
+};
+
+export type OrganizationLinkedPerson = {
+  person_id: string;
+  display_name: string;
+  identity_status: string;
+  research_status: string;
+  affiliations: Affiliation[];
+  claims: PublicClaim[];
 };
 
 export type PublicSource = {
