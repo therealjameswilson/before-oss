@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:43:05+00:00",
+  "generated_at": "2026-07-30T16:30:55+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -13,20 +13,20 @@
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 22,
-    "commissioned_army_officer": 26,
+    "commissioned_army_officer": 25,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 5,
-    "enlisted_army_personnel": 24,
+    "enlisted_army_personnel": 23,
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 18,
-    "unknown_or_indeterminate": 91,
+    "unknown_or_indeterminate": 93,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 82,
-    "2": 54,
+    "1": 80,
+    "2": 56,
     "3": 26,
     "4": 38
   },
@@ -41,15 +41,16 @@
     "completed": 2,
     "documented_prewar_employer_found": 1,
     "in_progress": 3,
+    "needs_identity_review": 1,
     "not_started": 172,
     "occupation_only_found": 2,
-    "requires_archival_review": 8,
+    "requires_archival_review": 7,
     "verified_employer_found": 12
   },
   "special_strata_counts": {
-    "commissioned": 37,
+    "commissioned": 36,
     "civilian": 22,
-    "enlisted": 29,
+    "enlisted": 28,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
@@ -205,6 +206,7 @@
     "5657736e-f8ad-5314-b76a-6d377200c8ce",
     "dfec0fab-cfc9-511a-9ae0-29010e7bfa0b",
     "d7c03613-c5e1-5938-ba61-e2e48cd4941b",
+    "dd445e77-9239-566e-843e-1d3b6cd9a7dc",
     "8330aa69-f666-5dc6-bb18-01c3024fabf1",
     "266a1510-87a8-5103-bdc8-52ded6feeeb8",
     "017814e5-1414-5ebe-9bc9-7f13a45a30dd",
@@ -232,7 +234,6 @@
     "796ac649-d385-5910-b09e-b7be76b35d55",
     "234735bc-1884-5041-8a01-05d66854340c",
     "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
-    "30f0d68c-d021-5e23-8f16-99496a0f99a5",
     "1147408f-3793-5ab4-9176-58a04dd8ad5f",
     "f7687b71-e238-5390-a43c-2552d9e641d6",
     "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
@@ -244,7 +245,6 @@
     "43d0bb66-4c39-5627-85a1-3a85350d973d",
     "b7a8a36f-3f0e-54c1-a0ff-23c840498501",
     "fe8ec29a-718c-56f3-af64-d619600f4f0d",
-    "fae94705-43d9-5e0b-8567-70e624282604",
     "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
@@ -262,6 +262,7 @@
     "70fbff69-8032-5457-9009-c1ad7ee0f6b7",
     "46c4071e-393f-5689-816d-8ae8c29bbf31",
     "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6",
-    "a2d327c1-38bf-5e91-8762-d07ad0295d6c"
+    "a2d327c1-38bf-5e91-8762-d07ad0295d6c",
+    "ce77c56f-052f-511b-a375-ae9b026f1492"
   ]
 }

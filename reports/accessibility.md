@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 225 / 225 browser cases.**
+**PASS - 228 / 228 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-112-person employer measure is labeled separately from the 189-person broader
+113-person employer measure is labeled separately from the 190-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -520,6 +520,15 @@ University of Michigan employment only among earlier documented affiliations,
 the raw `NR` value, institutional citation access, organization linkage, and
 field-level serial masking. The complete desktop, phone, and tablet matrix
 passed 225 / 225 with no remaining assertion or serious/critical axe failure.
+
+The Batch 061 regression checks the contiguous Ralph L. Akers-through-Abraham
+A. Albala page-four sequence, including Billie F. Akin's earlier terminal
+review. It verifies seven archival-review profiles, two separate probable
+Akiya identities in one visible duplicate group, and Manlio Alacevich's
+separate Army, last-civilian-employer, and qualified earlier maritime sections.
+It checks the NYU and Hoover source links, source-specific rank evidence, and
+field-level serial masking. The complete desktop, phone, and tablet matrix
+passed 228 / 228 with no remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

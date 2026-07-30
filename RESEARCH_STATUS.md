@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 429 people with a non-planned attempt | 23,941 person entities | 1.7919% |
-| Verified-affiliation coverage | 189 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7894% |
-| Verified-employer coverage | 112 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4678% |
-| Archival-review coverage | 376 people with an individual file-access/priority assessment | 23,941 person entities | 1.5705% |
+| Research-attempt coverage | 438 people with a non-planned attempt | 23,941 person entities | 1.8295% |
+| Verified-affiliation coverage | 190 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7936% |
+| Verified-employer coverage | 113 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4720% |
+| Archival-review coverage | 385 people with an individual file-access/priority assessment | 23,941 person entities | 1.6081% |
 
 ## Extraction and identity
 
@@ -18,14 +18,14 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 209
+- Possible duplicate groups: 210
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 19
+- Identity status `confirmed`: 20
 - Identity status `high_confidence`: 233
-- Identity status `probable`: 13
+- Identity status `probable`: 15
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,662
+- Identity status `unresolved`: 23,659
 
 ## Personnel categories
 
@@ -45,15 +45,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,512
+- `not_started`: 23,503
 - `in_progress`: 52
 - `candidate_found`: 1
-- `needs_identity_review`: 10
+- `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 20
-- `requires_archival_review`: 181
+- `requires_archival_review`: 187
 - `completed`: 32
-- `verified_employer_found`: 113
+- `verified_employer_found`: 114
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 158
+- Reviewed-web terminal-protocol attempts recorded: 167
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 258 across 244 people; 15 additional
+- Saved `source_reviewed` outcomes: 261 across 247 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,453
+- Total recorded attempts/plans: 1,462
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 239; 227 have at least one public-eligible
+- People with saved reviewed claims: 242; 230 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -220,13 +220,26 @@ Commissioned classification: 2,112 yes; 4,975 no; 16,854 indeterminate.
   documented-prewar employment beginning in 1921. The accessible evidence does
   not establish that it was his immediate pre-OSS affiliation or last civilian
   employer. The remaining eight profiles route to Box 6 or Box 7 review.
-- Published affiliations: 376
-- Database claims: 650; public-eligible claims: 635 (94 confirmed, 483 high, 58
+  Batch 061 additionally reviewed Ralph L. Akers, James L. Akins, Ichiro Akiya,
+  Karl Akiya, Frank Akston, Manlio Alacevich, William A. Alaniva, Eveline
+  Alarie, and Abraham A. Albala while preserving Billie F. Akin's earlier
+  terminal review. A direct May 1944 OSS board report confirms Manlio
+  Alacevich, documents United States Army and Field Artillery service as his
+  immediate pre-OSS pathway, and identifies his best-supported last civilian
+  employer only as an unnamed New York plumbing concern where he was a clerk.
+  An earlier Italian merchant-marine purser role is published with medium
+  confidence and explicit temporal uncertainty. The adjacent Ichiro Akiya and
+  Karl Akiya rows remain separate probable identities in one possible-duplicate
+  group despite an authoritative NYU finding aid for Karl Ichiro Akiya; no
+  employment is copied to either row. Six newly researched profiles and the
+  previously completed Billie F. Akin profile route to Box 7 review.
+- Published affiliations: 379
+- Database claims: 656; public-eligible claims: 641 (95 confirmed, 485 high, 61
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 691; public source export: 536; unique source documents: 508
+- Citation records: 702; public source export: 541; unique source documents: 510
 - Canonical organizations: 224 private and 222 public
 - Conflicts: 0
-- NARA pull-list rows: 23,865
+- NARA pull-list rows: 23,864
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -333,6 +346,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-third-page-ad
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-agee-through-agugliaro-pathways_batch-058_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-page-aguirre-through-aiello-pathways_batch-059_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-third-and-fourth-page-aiello-through-akeo-pathways_batch-060_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-akers-through-albala-pathways_batch-061_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

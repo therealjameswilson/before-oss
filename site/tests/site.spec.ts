@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/112 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/113 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 189 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 190 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5328,4 +5328,111 @@ test("Batch 060 preserves a transposed-name duplicate, publishes Aiton's earlier
   await expect(
     page.getByText("high", { exact: true }).first(),
   ).toBeVisible();
+});
+
+test("Batch 061 publishes Alacevich's Army and civilian pathways while preserving Akiya duplicate uncertainty and seven archival cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["9b737137-cbf1-50c6-a510-f90762ccf59a", "Ralph L Akers"],
+    ["933cbc8e-758f-51de-90fc-afd7d32dba55", "Billie F Akin"],
+    ["2cbd8128-5fd8-5fdc-809f-11fcaf5ab1c4", "James L Akins"],
+    ["6d23abaa-4b18-5618-9894-f0f7c7a31be9", "Frank Akston"],
+    ["8c7da31b-0eba-5815-8ba5-fa63095e229c", "William A Alaniva"],
+    ["3f956b79-98aa-57e4-ab45-e5df31941bd6", "Eveline Alarie"],
+    ["a01ddc82-c9c8-5e8a-a217-4de50349c27f", "Abraham A Albala"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("7", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  for (const duplicateProfile of [
+    ["171a6449-3114-59a7-8611-b054d3676a0f", "Ichiro Akiya"],
+    ["dd445e77-9239-566e-843e-1d3b6cd9a7dc", "Karl Akiya"],
+  ]) {
+    await page.goto(`./people/${duplicateProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: duplicateProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("probable", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("needs identity review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText("duplicate-7202f7a67b62");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold.");
+    await expect(
+      page.getByRole("link", {
+        name: "Guide to the Karl Ichiro Akiya Papers",
+        exact: true,
+      }),
+    ).toHaveAttribute(
+      "href",
+      "https://findingaids.library.nyu.edu/tamwag/tam_236/",
+    );
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText("Not printed");
+  }
+
+  await page.goto("./people/75c1cabd-a7ee-5e01-ab6b-0c9f41b88fd3/");
+  await expect(
+    page.getByRole("heading", { name: "Manlio Alacevich", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "plumbing concern in New York",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Italian merchant marine", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", {
+      name: "OSS Board of Officers Report on OSS, Allied Armies in Italy",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("T-3");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
 });

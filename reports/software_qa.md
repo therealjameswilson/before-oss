@@ -7,25 +7,25 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,171 pages**
 - Internal link check: **24,171 HTML files passed**
-- Browser and accessibility suite: **225 / 225 passed**
+- Browser and accessibility suite: **228 / 228 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`4d9c7506ef41c8a34cd86f38cf482867df5fec299105625b37bf0e6d350a282a`)
+  (`7af2fe5d48d1ce0b070299547305328b1864e68a2625ef4843e2945c0465717b`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,211**
+  numbers at least six characters long: **0 full-number matches** in **24,251**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **536** public records representing **508** unique documents
-- Published, qualified affiliations: **376**
-- Published claims: **635**
+- Reviewed public sources: **541** public records representing **510** unique documents
+- Published, qualified affiliations: **379**
+- Published claims: **641**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
-- Verified-affiliation metric: **189** people with confirmed/high published
+- Verified-affiliation metric: **190** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **112** people with confirmed/high published
+- Verified-employer metric: **113** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -415,3 +415,15 @@ employer is asserted. Eight other profiles route to Box 6 or Box 7 archival
 review. The regression checks all eleven affected person profiles, the
 University of Michigan organization route, claim-level citations, raw `NR`
 preservation, and field-level service-number masking across three viewports.
+Batch 061 completes the minimum online protocol for Ralph L. Akers through
+Abraham A. Albala while preserving Billie F. Akin's prior terminal review in
+the contiguous page-four sequence. It keeps the adjacent Ichiro Akiya and Karl
+Akiya rows separate in one provisional duplicate group despite authoritative
+institutional evidence for Karl Ichiro Akiya, and it copies no employment to
+either entity. A direct May 1944 OSS report confirms Manlio Alacevich and
+supports his United States Army pathway, an unnamed New York plumbing concern
+as his best-supported last civilian employer, and a qualified earlier Italian
+merchant-marine role. Six new profiles and the prior Akin profile route to Box
+7 review. The regression checks all ten profiles, claim-level source links,
+source-specific rank evidence, and field-level service-number masking across
+three viewports.
