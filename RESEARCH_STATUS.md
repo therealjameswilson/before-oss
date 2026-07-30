@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 369 people with a non-planned attempt | 23,941 person entities | 1.5413% |
-| Verified-affiliation coverage | 185 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7727% |
-| Verified-employer coverage | 110 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4595% |
-| Archival-review coverage | 316 people with an individual file-access/priority assessment | 23,941 person entities | 1.3199% |
+| Research-attempt coverage | 379 people with a non-planned attempt | 23,941 person entities | 1.5831% |
+| Verified-affiliation coverage | 186 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7769% |
+| Verified-employer coverage | 111 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4636% |
+| Archival-review coverage | 326 people with an individual file-access/priority assessment | 23,941 person entities | 1.3617% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 15
-- Identity status `high_confidence`: 229
+- Identity status `high_confidence`: 230
 - Identity status `probable`: 10
 - Identity status `ambiguous`: 14
-- Identity status `unresolved`: 23,673
+- Identity status `unresolved`: 23,672
 
 ## Personnel categories
 
@@ -45,15 +45,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,572
+- `not_started`: 23,562
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 17
 - `occupation_only_found`: 20
-- `requires_archival_review`: 130
+- `requires_archival_review`: 139
 - `completed`: 29
-- `verified_employer_found`: 112
+- `verified_employer_found`: 113
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -61,15 +61,15 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 98
+- Reviewed-web terminal-protocol attempts recorded: 108
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 248 across 234 people; 12 additional
+- Saved `source_reviewed` outcomes: 249 across 235 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,393
+- Total recorded attempts/plans: 1,403
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 227; 217 have at least one public-eligible
+- People with saved reviewed claims: 228; 218 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -166,13 +166,20 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   minimum protocol and route to Box 3 or Box 4 review. A same-rank James T.
   Adams lead and the Library of Congress Adams, McEntee & Co. lead for Thomas
   F. Adams remain visible for file comparison but are not published as facts.
-- Published affiliations: 368
-- Database claims: 630; public-eligible claims: 617 (90 confirmed, 475 high, 52
+  Batch 055 additionally reviewed William T. Adams, William C. Adams, William
+  H. Adams, William M. Adams, William N. Adams, William S. Adams Jr., Pinckney
+  J. Adamson, Kenneth K. Addicott, Salvatore S. Adelfio, and Reginald Adeling.
+  Kenneth Klein Addicott is a high-confidence identity with the American Museum
+  of Natural History documented as his last civilian employer before a 1944
+  Army draft; the Army-to-OSS sequence remains medium-confidence pending Box 4.
+  The other nine profiles remain unresolved and route to Box 4 review.
+- Published affiliations: 370
+- Database claims: 633; public-eligible claims: 620 (90 confirmed, 477 high, 53
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 610; public source export: 508; unique source documents: 485
+- Citation records: 625; public source export: 514; unique source documents: 490
 - Canonical organizations: 221 private and 220 public
 - Conflicts: 0
-- NARA pull-list rows: 23,866
+- NARA pull-list rows: 23,865
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -215,7 +222,9 @@ python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 11
 python3 -m oss_research research --source cia --batch pilot-v1 --max-queries 75 --resume
 python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75 --resume
 python3 -m oss_research export-review-queue
+python3 -m oss_research import-adapter-checkpoints research/adapter_attempt_checkpoints.json
 python3 -m oss_research import-review-decisions review_decisions.csv
+python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-07-29.csv
 python3 -m oss_research import-reviewed-evidence research/evidence_mort-s-bobrow_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_julia-c-mcwilliams_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence_selected-nara-personnel-files_batch-002_2026-07-29.json
@@ -271,6 +280,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-first-and-sec
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-acosta-through-adams-archival-pathways_batch-052_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-and-duke-pathway_batch-053_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-archival-pathways_batch-054_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-second-page-adams-through-adeling-pathways_batch-055_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

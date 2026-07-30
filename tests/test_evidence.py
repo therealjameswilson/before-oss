@@ -235,6 +235,57 @@ class ReviewedEvidenceTests(unittest.TestCase):
         # expected; the assertion protects the import from inventing one.
         self.assertIsNone(link)
 
+    def test_sanitized_attempt_checkpoint_preserves_richer_local_fields(self) -> None:
+        attempt_id = "checkpoint-attempt-id"
+        fingerprint = "checkpoint-fingerprint"
+        self.connection.execute(
+            """
+            INSERT INTO research_attempts(
+                research_attempt_id, person_id, source_adapter, query_text,
+                query_variant_type, request_fingerprint, started_at,
+                completed_at, outcome, sources_reviewed,
+                candidate_sources_rejected, research_notes, attempt_number,
+                research_agent_version
+            ) VALUES (?, 'person-1', 'loc', 'private local query',
+                      'employment', ?, '2026-07-29T00:00:00+00:00',
+                      '2026-07-29T00:01:00+00:00', 'no_result', 0, 0,
+                      'Private local audit detail.', 1, 'before-oss/test')
+            """,
+            (attempt_id, fingerprint),
+        )
+        bundle = self._bundle()
+        bundle["research_attempts"] = [
+            {
+                "key": "sanitized-checkpoint",
+                "research_attempt_id": attempt_id,
+                "person_id": "person-1",
+                "source_adapter": "loc",
+                "query_variant_type": "employment",
+                "request_fingerprint": fingerprint,
+                "started_at": "2026-07-29T00:00:00+00:00",
+                "completed_at": "2026-07-29T00:01:00+00:00",
+                "outcome": "no_result",
+                "attempt_number": 1,
+                "research_agent_version": "before-oss/test",
+            }
+        ]
+        path = Path(self.temp_dir.name) / "checkpoint.json"
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+
+        import_reviewed_evidence(self.connection, path)
+
+        attempt = self.connection.execute(
+            """
+            SELECT research_attempt_id, request_fingerprint, query_text,
+                   research_notes
+            FROM research_attempts
+            """
+        ).fetchone()
+        self.assertEqual(attempt["research_attempt_id"], attempt_id)
+        self.assertEqual(attempt["request_fingerprint"], fingerprint)
+        self.assertEqual(attempt["query_text"], "private local query")
+        self.assertEqual(attempt["research_notes"], "Private local audit detail.")
+
     def test_name_variant_order_has_a_deterministic_case_tiebreaker(self) -> None:
         bundle = self._bundle()
         bundle["person_updates"][0]["name_variants"] = [

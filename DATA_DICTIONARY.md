@@ -24,6 +24,14 @@ assets are generated projections.
 | `api_usage_monthly` | One adapter-month | Persistent successful and failed request counts |
 | `page_qa` | One PDF page | Row counts, anomaly flags, render path, and visual review state |
 
+`research/adapter_attempt_checkpoints.json` is a versioned, sanitized replay
+projection rather than the authoritative database. Its column-oriented arrays
+preserve stable attempt/candidate IDs, request fingerprints, outcome metadata,
+timestamps, and the affected person research states. It excludes query text,
+service identifiers, credentials, response bodies, and private notes. The
+pipeline imports it first, applies its contemporaneous human review decisions,
+and then replays later evidence bundles in numeric order.
+
 ## Important `source_records` fields
 
 | Field | Meaning |

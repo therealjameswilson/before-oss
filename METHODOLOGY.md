@@ -119,6 +119,16 @@ collection API. CIA Reading Room HTML is parsed in memory for document links;
 access failures are logged without bypass attempts. General web searches are
 exported as reviewable discovery plans instead of scraping search-result pages.
 
+Adapter audit rows needed to reproduce aggregate coverage are exported to the
+tracked `research/adapter_attempt_checkpoints.json` file. This deliberately
+sanitized checkpoint retains stable attempt and candidate identifiers,
+fingerprints, outcomes, timestamps, and current queue state, but excludes query
+text, service identifiers, credentials, response bodies, and private notes.
+During a clean rebuild, adapter checkpoints are replayed first, followed by
+their contemporaneous human review decisions and then the reviewed evidence
+bundles in numeric batch order. This preserves chronology: a later completed
+review supersedes an earlier discovery-stage decision.
+
 ## Organization normalization
 
 Names as found are preserved. Canonical organizations are separate records with

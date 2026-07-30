@@ -272,10 +272,12 @@ class PersonUpdateInput(StrictModel):
 
 class ResearchAttemptInput(StrictModel):
     key: str = Field(min_length=1)
+    research_attempt_id: str | None = None
     person_id: str = Field(min_length=1)
     source_adapter: str = Field(min_length=1)
     query_text: str | None = None
     query_variant_type: str | None = None
+    request_fingerprint: str | None = None
     started_at: str = Field(min_length=1)
     completed_at: str | None = None
     outcome: Literal[
@@ -583,10 +585,11 @@ def import_reviewed_evidence(
                     ),
                 )
         for attempt in bundle.research_attempts:
-            attempt_id = _stable_id("research-attempt", attempt.key)
-            request_fingerprint = _stable_id(
-                "research-attempt-fingerprint",
-                attempt.key,
+            attempt_id = attempt.research_attempt_id or _stable_id(
+                "research-attempt", attempt.key
+            )
+            request_fingerprint = attempt.request_fingerprint or _stable_id(
+                "research-attempt-fingerprint", attempt.key
             )
             connection.execute(
                 """
@@ -600,18 +603,36 @@ def import_reviewed_evidence(
                 ) VALUES (?, ?, NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(research_attempt_id) DO UPDATE SET
                     source_adapter=excluded.source_adapter,
-                    query_text=excluded.query_text,
-                    query_variant_type=excluded.query_variant_type,
-                    request_fingerprint=excluded.request_fingerprint,
+                    query_text=COALESCE(
+                        excluded.query_text, research_attempts.query_text
+                    ),
+                    query_variant_type=COALESCE(
+                        excluded.query_variant_type,
+                        research_attempts.query_variant_type
+                    ),
+                    request_fingerprint=COALESCE(
+                        excluded.request_fingerprint,
+                        research_attempts.request_fingerprint
+                    ),
                     started_at=excluded.started_at,
                     completed_at=excluded.completed_at,
                     outcome=excluded.outcome,
                     sources_reviewed=excluded.sources_reviewed,
                     candidate_sources_rejected=excluded.candidate_sources_rejected,
-                    rejection_reasons=excluded.rejection_reasons,
-                    research_notes=excluded.research_notes,
-                    next_action=excluded.next_action,
-                    last_error_redacted=excluded.last_error_redacted,
+                    rejection_reasons=COALESCE(
+                        excluded.rejection_reasons,
+                        research_attempts.rejection_reasons
+                    ),
+                    research_notes=COALESCE(
+                        excluded.research_notes, research_attempts.research_notes
+                    ),
+                    next_action=COALESCE(
+                        excluded.next_action, research_attempts.next_action
+                    ),
+                    last_error_redacted=COALESCE(
+                        excluded.last_error_redacted,
+                        research_attempts.last_error_redacted
+                    ),
                     attempt_number=excluded.attempt_number,
                     research_agent_version=excluded.research_agent_version
                 """,

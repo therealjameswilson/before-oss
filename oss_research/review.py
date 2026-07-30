@@ -68,29 +68,29 @@ def import_review_decisions(
             "SELECT 1 FROM review_decisions WHERE review_decision_id = ?",
             (decision_id,),
         ).fetchone()
-        if exists:
-            skipped_existing += 1
-            continue
         with connection:
-            connection.execute(
-                """
-                INSERT INTO review_decisions(
-                    review_decision_id, target_type, target_id, decision,
-                    rationale, reviewer, decision_version, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                """,
-                (
-                    decision_id,
-                    values["target_type"],
-                    values["target_id"],
-                    values["decision"],
-                    values["rationale"],
-                    values["reviewer"],
-                    values["decision_version"],
-                    utc_now(),
-                ),
-            )
-            imported += 1
+            if exists:
+                skipped_existing += 1
+            else:
+                connection.execute(
+                    """
+                    INSERT INTO review_decisions(
+                        review_decision_id, target_type, target_id, decision,
+                        rationale, reviewer, decision_version, created_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    """,
+                    (
+                        decision_id,
+                        values["target_type"],
+                        values["target_id"],
+                        values["decision"],
+                        values["rationale"],
+                        values["reviewer"],
+                        values["decision_version"],
+                        utc_now(),
+                    ),
+                )
+                imported += 1
             if values["target_type"] == "candidate_match":
                 if values["decision"] not in {
                     "unreviewed",

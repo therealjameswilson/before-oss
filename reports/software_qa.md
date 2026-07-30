@@ -2,15 +2,15 @@
 
 Run: 2026-07-30 UTC
 
-- Python unit tests: **40 / 40 passed**
+- Python unit tests: **43 / 43 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **207 / 207 passed**
+- Browser and accessibility suite: **210 / 210 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`454998c8dfadb4cbec13e888381ae48d679455ed819665c6ca752b1ecefec763`)
+  (`6babd7db474ad1c79695079d6dd59ef1cf3fe204943cde5ad702940a12849297`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,13 +19,13 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,249**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **508** public records representing **484** unique documents
-- Published, qualified affiliations: **368**
-- Published claims: **617**
+- Reviewed public sources: **514** public records representing **490** unique documents
+- Published, qualified affiliations: **370**
+- Published claims: **620**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
-- Verified-affiliation metric: **185** people with confirmed/high published
+- Verified-affiliation metric: **186** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **110** people with confirmed/high published
+- Verified-employer metric: **111** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -44,6 +44,15 @@ did not affect either workflow result.
 The initial dependency range resolved to an older Astro major with current
 security advisories. The project was upgraded to Astro 7.1.5 and sharp 0.35.3;
 the production audit then passed.
+
+The Batch 055 release audit found that 1,064 earlier adapter attempts and 19
+Library of Congress candidates existed only in the private SQLite audit log.
+The new sanitized adapter checkpoint reproduces those rows and 54 affected
+person states without retaining query text, service identifiers, credentials,
+response bodies, or private notes. Twenty-two tracked review decisions replay
+before later evidence bundles, so completed review outcomes supersede earlier
+discovery-stage decisions. A clean temporary checkout now produces the
+identical public content-tree hash recorded above.
 
 The metric regression test verifies that student, military, government,
 volunteer, and professional affiliations do not inflate verified-employer
@@ -324,3 +333,18 @@ employer at high confidence. A 1941 Dallas copywriter entry remains an
 unassigned lead for Glenn D. Adams because no reviewed evidence links it to the
 indexed Staff Sergeant. The regression checks all ten profiles across three
 viewports and confirms field-level service-number masking.
+Batch 054 completes the minimum online protocol for James T. Adams through
+Willard A. Adams. All ten unresolved profiles route to their indexed Box 3 or
+Box 4 files. A same-rank James T. Adams candidate and a Library of Congress
+business-directory lead for Thomas F. Adams remain unassigned because the
+reviewed evidence does not link either namesake to the index person. The
+regression checks every profile across three viewports and confirms field-level
+service-number masking.
+Batch 055 completes the minimum online protocol for William T. Adams through
+Reginald Adeling. It publishes Kenneth Klein Addicott's American Museum of
+Natural History employment at high confidence and keeps his probable 1944
+Army-to-OSS sequence visibly medium-confidence and outside default analytics.
+Nine other common or incomplete-name profiles route to Box 4 review without
+unsupported employer claims. The regression checks all ten profiles across
+three viewports, preserves the immediate-affiliation/last-civilian-employer
+distinction, and confirms field-level service-number masking.

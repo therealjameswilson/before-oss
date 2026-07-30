@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 198 / 198 browser cases.**
+**PASS - 210 / 210 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-109-person employer measure is labeled separately from the 184-person broader
+111-person employer measure is labeled separately from the 186-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -463,6 +463,14 @@ Library of Congress Adams, McEntee & Co. lead for Thomas F. Adams qualified
 and unassigned, while preserving commissioned-Army classification for the
 three indexed captains. The complete desktop, phone, and tablet matrix passed
 207 / 207 with no remaining assertion or serious/critical axe failure.
+
+The Batch 055 regression checks ten newly completed profiles from William T.
+Adams through Reginald Adeling. It verifies nine Box 4 archival routes and
+Kenneth Klein Addicott's qualified American Museum of Natural History-to-Army
+pathway, including distinct immediate-affiliation and last-civilian-employer
+sections, claim-level citations, confidence qualifications, and field-level
+serial masking. The complete desktop, phone, and tablet matrix passed 210 / 210
+with no remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

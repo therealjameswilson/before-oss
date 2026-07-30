@@ -633,7 +633,11 @@ def build_public_data(
         }
         for row in connection.execute(
             """
-            SELECT o.*,
+            SELECT o.organization_id, o.canonical_name, o.historical_name,
+                   o.aliases_json, o.organization_type, o.sector, o.city,
+                   o.state_or_region, o.country, o.parent_organization_id,
+                   o.successor_organization_id, o.active_dates,
+                   o.normalization_notes,
                    COUNT(DISTINCT a.person_id) AS documented_person_count
             FROM organizations o
             JOIN affiliations a USING(organization_id)

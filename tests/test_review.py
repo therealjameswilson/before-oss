@@ -1,0 +1,116 @@
+from __future__ import annotations
+
+import tempfile
+import unittest
+from pathlib import Path
+
+from oss_research.db import connect, migrate
+from oss_research.review import import_review_decisions
+
+
+class ReviewDecisionTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.temp_dir = tempfile.TemporaryDirectory()
+        self.database = Path(self.temp_dir.name) / "test.sqlite"
+        self.connection = connect(self.database)
+        migrate(self.connection)
+        now = "2026-07-30T00:00:00+00:00"
+        with self.connection:
+            self.connection.execute(
+                """
+                INSERT INTO person_entities(
+                    person_id, display_name, normalized_name, identity_status,
+                    name_variants_json, personnel_category, difficulty_tier,
+                    manual_review_required, research_status,
+                    research_attempt_number, personnel_file_indexed,
+                    personnel_file_reviewed, archival_review_priority,
+                    created_at, updated_at
+                ) VALUES (
+                    'person-1', 'Example Person', 'EXAMPLE PERSON', 'unresolved',
+                    '[]', 'unknown_or_indeterminate', 1, 1, 'candidate_found',
+                    1, 1, 0, 'unassessed', ?, ?
+                )
+                """,
+                (now, now),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO research_queue(
+                    person_id, difficulty_tier, priority, research_status,
+                    attempts, protocol_version, updated_at
+                ) VALUES ('person-1', 1, 10, 'candidate_found', 1, 'test-v1', ?)
+                """,
+                (now,),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO candidate_matches(
+                    candidate_match_id, person_id, candidate_type,
+                    candidate_label, evidence_json, match_assessment,
+                    created_at, updated_at
+                ) VALUES (
+                    'candidate-1', 'person-1', 'source', 'Example candidate',
+                    '{}', 'unreviewed', ?, ?
+                )
+                """,
+                (now, now),
+            )
+
+    def tearDown(self) -> None:
+        self.connection.close()
+        self.temp_dir.cleanup()
+
+    def test_existing_decisions_reapply_authoritative_state(self) -> None:
+        decisions = Path(self.temp_dir.name) / "decisions.csv"
+        decisions.write_text(
+            "target_type,target_id,decision,rationale,reviewer,decision_version\n"
+            "candidate_match,candidate-1,rejected,Wrong person,Unit test,test-v1\n"
+            "research_status,person-1,in_progress,Continue research,Unit test,test-v1\n",
+            encoding="utf-8",
+        )
+        first = import_review_decisions(self.connection, decisions)
+        self.assertEqual(first["decisions_imported"], 2)
+        with self.connection:
+            self.connection.execute(
+                """
+                UPDATE candidate_matches
+                SET match_assessment = 'unreviewed', rejection_reason = NULL
+                WHERE candidate_match_id = 'candidate-1'
+                """
+            )
+            self.connection.execute(
+                """
+                UPDATE person_entities
+                SET research_status = 'candidate_found', next_action = NULL
+                WHERE person_id = 'person-1'
+                """
+            )
+            self.connection.execute(
+                """
+                UPDATE research_queue
+                SET research_status = 'candidate_found', next_action = NULL
+                WHERE person_id = 'person-1'
+                """
+            )
+
+        second = import_review_decisions(self.connection, decisions)
+
+        self.assertEqual(second["decisions_imported"], 0)
+        self.assertEqual(second["duplicates_skipped"], 2)
+        self.assertEqual(second["state_changes_applied"], 2)
+        candidate = self.connection.execute(
+            """
+            SELECT match_assessment, rejection_reason FROM candidate_matches
+            WHERE candidate_match_id = 'candidate-1'
+            """
+        ).fetchone()
+        self.assertEqual(candidate["match_assessment"], "rejected")
+        self.assertEqual(candidate["rejection_reason"], "Wrong person")
+        person = self.connection.execute(
+            """
+            SELECT research_status, next_action FROM person_entities
+            WHERE person_id = 'person-1'
+            """
+        ).fetchone()
+        self.assertEqual(person["research_status"], "in_progress")
+        self.assertEqual(person["next_action"], "Continue research")

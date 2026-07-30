@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/110 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/111 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 185 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 186 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -4773,4 +4773,70 @@ test("Batch 054 preserves ten common-name Adams cases and their Box 3 or Box 4 a
   await expect(page.locator("body")).toContainText(
     "commissioned army officer",
   );
+});
+
+test("Batch 055 publishes Kenneth Addicott's qualified museum-to-Army pathway and preserves nine archival cases", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["732a3de7-b0e6-55c8-bb90-cdfa67dd31e4", "William T Adams"],
+    ["3b303694-f915-5ce2-a751-deb3bd1e8141", "William C Adams"],
+    ["84dab33f-b0ca-5653-ad78-0bff0a4761db", "William H Adams"],
+    ["90f35664-6ee8-5d77-b53c-f021b8af6bd8", "William M Adams"],
+    ["fa18617b-bcc0-5bfc-bb68-32c32a3d1c31", "William N Adams"],
+    ["0578df03-5bbb-50e8-b779-d38f3ac1b463", "William S Adams Jr."],
+    ["9302c6da-895c-592a-bdf5-f9e6b1a15119", "Pinckney J Adamson"],
+    ["58350381-05c5-53d1-837c-fe5110f2e858", "Salvatore S Adelfio"],
+    ["c0440f07-59ab-552a-b50b-66d74c0e2c3d", "Reginald Adeling"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("4", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/35c4500e-4d99-5938-8cb2-e144a144161d/");
+  await expect(
+    page.getByRole("heading", { name: "Kenneth K Addicott", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", {
+        name: "American Museum of Natural History",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "transfer sequence remains unconfirmed",
+  );
+  await expect(page.locator("body")).toContainText(
+    "The Development of Pedagogical Authority Through Teacher Programs",
+  );
+  await expect(page.locator("body")).toContainText(
+    "CIA's Clandestine Services: Histories of Civil Air Transport",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^(Not printed|••••\d{4})$/);
 });

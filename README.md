@@ -18,14 +18,14 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 cautious person entities
 - 23,978 / 23,978 source rows linked to an entity
 - 208 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 248
-  saved source-review outcomes, with 1,393 source attempts or plans
-- 185 verified-affiliation profiles, including 110 with verified employment or
-  self-employment, and 316 individually assessed archival files
-- 368 published affiliations, 617 published claims, 610 citation records, and
-  485 unique source documents; 13 low-confidence claims concerning 10 people
+- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 249
+  saved source-review outcomes, with 1,403 source attempts or plans
+- 186 verified-affiliation profiles, including 111 with verified employment or
+  self-employment, and 326 individually assessed archival files
+- 370 published affiliations, 620 published claims, 625 citation records, and
+  490 unique source documents; 13 low-confidence claims concerning 10 people
   remain withheld from public facts
-- 23,572 people remain `not_started`; the public site reports this
+- 23,562 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
@@ -84,12 +84,22 @@ python3 -m oss_research research --source cia --batch pilot-v1 --max-queries 75
 python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75
 python3 -m oss_research research --source web --batch pilot-v1 --max-queries 75
 python3 -m oss_research export-review-queue
+python3 -m oss_research import-adapter-checkpoints research/adapter_attempt_checkpoints.json
 python3 -m oss_research import-review-decisions review_decisions.csv
 ```
 
 `--person-id PERSON_ID` rebuilds or researches one person. All stages are
 idempotent. API request fingerprints prevent a completed request from being
 repeated inadvertently.
+
+`research/adapter_attempt_checkpoints.json` is the tracked, sanitized replay
+surface for project-side adapter audits. It retains attempt identifiers,
+fingerprints, outcomes, timestamps, and review state while excluding query
+text, service identifiers, credentials, response bodies, and private notes.
+`scripts/rebuild-all.sh` imports that file, applies its contemporaneous human
+review decisions, and then replays later evidence bundles in numeric order so a
+clean checkout reproduces the public research-attempt measure without letting
+an older discovery decision override a later completed review.
 
 ## NARA credentials
 
