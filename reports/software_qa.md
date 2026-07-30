@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **198 / 198 passed**
+- Browser and accessibility suite: **201 / 201 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`9837af10e5ae86fb0c7491ebaa4d305742ae482e86ea56f57c93a9cd516f6081`)
+  (`7c9fc0ef055f661e6963e75152809094161a48a04356a8ae44c3a209f16f8058`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -19,7 +19,7 @@ Run: 2026-07-30 UTC
   numbers at least six characters long: **0 full-number matches** in **24,249**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **505** public records representing **481** unique documents
+- Reviewed public sources: **505** public records representing **482** unique documents
 - Published, qualified affiliations: **367**
 - Published claims: **614**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
@@ -304,3 +304,12 @@ foreign namesakes without retaining their irrelevant private details. The
 regression checks all ten profiles across three viewports, preserves the
 zero-claim outcome, verifies the approved unresolved-employer wording, and
 reads redaction state from each Serial field.
+Batch 052 completes the minimum online protocol for Francis J. Acosta Jr.
+through Arthur F. Adams and routes all ten files to their indexed Box 2 or
+Box 3 location. It preserves the index's unusual punctuation for Francis
+Acosta, rejects an uncorroborated Virginia Tech class lead for William Acree,
+and keeps age-compatible genealogy, obituary, and directory namesakes from
+becoming identity or employment claims. The regression checks every profile
+across three viewports, verifies the commissioned Army and enlisted naval
+classifications printed for Allen and Alton Adams, preserves the zero-claim
+outcome, and confirms field-level service-number masking.

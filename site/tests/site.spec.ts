@@ -4613,3 +4613,50 @@ test("Batch 051 preserves ten unresolved Ackelmire-through-Acord profiles and th
     "may be treated as pre-OSS without dated linkage",
   );
 });
+
+test("Batch 052 preserves grade and rank distinctions while routing ten Acosta-through-Adams profiles to archival review", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["ba724894-06f3-5fdc-b01a-c7e47c34e2bb", "Francis. J Acosta Jr.", "2"],
+    ["fe2e1bff-6cb4-5b19-a02f-eb7a6e1d0c58", "Gilmore J Acosta", "2"],
+    ["7e9a1132-887b-5fca-8377-31da1a7d4d87", "William L Acree", "2"],
+    ["4bce82dd-9a96-519f-9c3b-26a9a4766100", "Doris D Adair", "3"],
+    ["cf526949-0343-5e66-a95a-f69b08cb52c4", "Milo J Adair", "3"],
+    ["62a14599-d3a6-5556-b032-6266601d4def", "Ben Adam", "3"],
+    ["6fd2ad38-7b17-5ae0-9dc2-0e8861389bb0", "Allen G Adams", "3"],
+    ["41bc6be2-00a7-5149-9867-0922b5671da4", "Alton G Adams", "3"],
+    ["48ad393c-4ef0-55c2-ba41-fc67dc6e549f", "Andrew D Adams", "3"],
+    ["9fd314c5-4ada-5e1d-8ea0-a54d8ceffc70", "Arthur F Adams", "3"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page
+        .locator(".profile-aside")
+        .getByText(terminalProfile[2], { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/7e9a1132-887b-5fca-8377-31da1a7d4d87/");
+  await expect(page.locator("body")).toContainText(
+    "Virginia Tech class-of-1942 lead only if the file supplies corroborating education or hometown evidence",
+  );
+
+  await page.goto("./people/6fd2ad38-7b17-5ae0-9dc2-0e8861389bb0/");
+  await expect(page.locator("body")).toContainText("commissioned army officer");
+
+  await page.goto("./people/41bc6be2-00a7-5149-9867-0922b5671da4/");
+  await expect(page.locator("body")).toContainText("enlisted naval personnel");
+});

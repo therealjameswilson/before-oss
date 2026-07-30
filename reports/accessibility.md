@@ -440,5 +440,13 @@ then passed 66 / 66 with one worker, while the desktop and tablet projects had
 already passed. The complete desktop, phone, and tablet matrix therefore passed
 198 / 198 with no remaining assertion or serious/critical axe failure.
 
+The Batch 052 regression checks ten newly completed profiles from Francis J.
+Acosta Jr. through Arthur F. Adams and verifies their Box 2 or Box 3 archival
+route, terminal research state, approved unresolved-employer wording, and
+field-level serial masking. It also confirms that the indexed commissioned
+Army and enlisted naval categories remain visible for Allen and Alton Adams.
+The complete desktop, phone, and tablet matrix passed 201 / 201 with no
+remaining assertion or serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
