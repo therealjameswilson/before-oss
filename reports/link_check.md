@@ -97,41 +97,43 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30556468771](https://github.com/therealjameswilson/before-oss/actions/runs/30556468771)
+[30558682468](https://github.com/therealjameswilson/before-oss/actions/runs/30558682468)
 and GitHub Pages deployment
-[30556469204](https://github.com/therealjameswilson/before-oss/actions/runs/30556469204)
-for third-page Aguirre-through-Aiello Batch 059 release `a52a1a2` completed
+[30558682459](https://github.com/therealjameswilson/before-oss/actions/runs/30558682459)
+for third- and fourth-page Aiello-through-Akeo Batch 060 release `6da4cf6`
+completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 21
+count, or redaction state for all 22
 tested targets:
 
 - the home page;
 - the personnel directory;
-- Pedgro J. Aguirre, German Agustini, Cornelius J. Ahearn, David Ahearn,
-  Margaret Ahearn, Leonard Ahern, Alvida Ahlstrom, Philston Ahn, Kenneth E.
-  Ahola, and Amedeo M. Aiello;
-- the La Crosse State Teachers College organization page;
+- Salvatore Aiello, James A. Aiken, Estella L. Aikman, Blogg Ainsworth, the
+  previously researched Ainsworth Blogg profile, Alice Aird, Gilbert S. Aitken,
+  Robert T. Aitken, Arthur S. Aiton, Belle B. Aizen, and Christian Akeo Jr.;
+- the University of Michigan organization page;
 - the methodology page;
 - the sources page;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - and all four public CSV downloads.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 419
-people with non-planned research attempts, 188 verified-affiliation people, 111
-verified-employer people, 366 archival-review assessments, 632 published
-claims, and 533 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 222, 375, and 533 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 429
+people with non-planned research attempts, 189 verified-affiliation people, 112
+verified-employer people, 376 archival-review assessments, 635 published
+claims, and 536 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 222, 376, and 536 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field. A boundary-aware comparison of all 12,799 private
-normalized identifiers against 47 uncompressed live artifacts—all person-data
-shards, major public data assets, downloads, the checked Batch 059 profiles,
-and the checked organization page—returned zero matches. All 65 manifest-listed
+normalized identifiers against 48 uncompressed live artifacts—all person-data
+shards, major public data assets, downloads, the checked Batch 060 profiles,
+the related Ainsworth Blogg profile, and the checked organization page—returned
+zero matches. All 65 manifest-listed
 assets were downloaded and matched both the manifest and local SHA-256 values
 byte-for-byte. The deployed and local manifest files share SHA-256
-`149e9d917a0470cce5e21179e3fb8789785526cadf98f65954a8f24f706f8277`.
+`735754ded66c834b219b9bc44603033a567df77d6483d9cd8f8d76dadf32d7cf`.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
