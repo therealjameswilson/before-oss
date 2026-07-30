@@ -93,11 +93,11 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30536094394](https://github.com/therealjameswilson/before-oss/actions/runs/30536094394)
+[30537279812](https://github.com/therealjameswilson/before-oss/actions/runs/30537279812)
 and GitHub Pages deployment
-[30536094364](https://github.com/therealjameswilson/before-oss/actions/runs/30536094364)
-for Acosta-through-Adams archival-pathways Batch 052 release
-`c03fbf3`
+[30537279940](https://github.com/therealjameswilson/before-oss/actions/runs/30537279940)
+for Adams-and-Duke-pathway Batch 053 release
+`a076ea8`
 completed
 successfully.
 
@@ -107,20 +107,20 @@ tested targets:
 
 - the home page;
 - the personnel directory;
-- Francis J. Acosta Jr., Gilmore J. Acosta, William L. Acree, Doris D. Adair,
-  Milo J. Adair, Ben Adam, Allen G. Adams, Alton G. Adams, Andrew D. Adams,
-  and Arthur F. Adams;
+- Carl Adams Jr., Cleva L. Adams, Clyde J. Adams, Dean D. Adams, Diana M.
+  Adams, Donald K. Adams, Dorothea Adams, Eula Adams, George K. Adams Jr.,
+  and Glenn D. Adams;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 349
-people with non-planned research attempts, 184 verified-affiliation people, 109
-verified-employer people, 296 archival-review assessments, 614 published
-claims, and 505 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 220, 367, and 505 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 359
+people with non-planned research attempts, 185 verified-affiliation people, 110
+verified-employer people, 306 archival-review assessments, 617 published
+claims, and 508 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 220, 368, and 508 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field. A boundary-aware comparison of all 12,799 private
 normalized identifiers against 48 live artifacts—all person-data shards, major
