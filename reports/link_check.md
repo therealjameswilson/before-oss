@@ -62,10 +62,10 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30512076255](https://github.com/therealjameswilson/before-oss/actions/runs/30512076255)
+[30513195634](https://github.com/therealjameswilson/before-oss/actions/runs/30513195634)
 and GitHub Pages deployment
-[30512076239](https://github.com/therealjameswilson/before-oss/actions/runs/30512076239)
-for Field officers, musicians, and Mayer review Batch 040 release `fe3b082`
+[30513195629](https://github.com/therealjameswilson/before-oss/actions/runs/30513195629)
+for Mediterranean veterans and Obolensky review Batch 041 release `54924e1`
 completed
 successfully.
 
@@ -74,19 +74,19 @@ count, or redaction state for all 12
 tested targets:
 
 - the home page;
-- George S. Musolin, Roderick G.S. Hall, Miles A. Copeland, and both adjacent
-  Frederick Mayer index rows;
+- both adjacent Milton Felsen index rows, Irving Goff, Paul H. Gale, and Serge
+  Obolensky;
 - `data/stats.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the NARA attribution notice and full-service-number redaction on the five new
   profiles.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 279
-people with non-planned research attempts, 169 verified-affiliation people, 99
-verified-employer people, 206 archival-review assessments, 552 published
-claims, and 444 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 196, 330, and 444 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 284
+people with non-planned research attempts, 173 verified-affiliation people, 100
+verified-employer people, 211 archival-review assessments, 566 published
+claims, and 456 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 202, 340, and 456 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
