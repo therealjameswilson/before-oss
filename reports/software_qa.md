@@ -5,27 +5,27 @@ Run: 2026-07-30 UTC
 - Python unit tests: **38 / 38 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,155 pages**
-- Internal link check: **24,155 HTML files passed**
-- Browser and accessibility suite: **174 / 174 passed**
+- Static production build: **24,159 pages**
+- Internal link check: **24,159 HTML files passed**
+- Browser and accessibility suite: **177 / 177 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`64569d2547903bbc0e277c66424071fce7093b0468ff10c0ddeba8e184febd44`)
+  (`21e73e6b37701463032628a438a5bec55c1e47e02dafaa2fed1093c35e3a28bf`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,235**
+  numbers at least six characters long: **0 full-number matches** in **24,239**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **471** public records representing **439** unique documents
-- Published, qualified affiliations: **347**
-- Published claims: **579**
+- Reviewed public sources: **475** public records representing **443** unique documents
+- Published, qualified affiliations: **351**
+- Published claims: **585**
 - Withheld low-confidence evidence: **13 claims concerning 10 people**
 - Verified-affiliation metric: **176** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **104** people with confirmed/high published
+- Verified-employer metric: **106** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -236,3 +236,10 @@ Carl Schorske, Franklin Ford, Gordon Craig, and James Luce without invented
 civilian employers. It also adds a fresh-database migration test covering every
 normalized personnel category in immutable source rows and verifies a complete
 from-source rebuild.
+Batch 044 adds checks for Edna Andrade's Hecht Company transition and earlier
+Newcomb employment; Conrad LaGueux's student-to-Army pathway; Peter M. F.
+Sichel's qualified wine-business employment before internment and Army
+service; and terminal military, student, and archival-review outcomes for Mort
+Bobrow, Edmund Burke, Jane Burrell, John Hemingway, and John Magruder. It keeps
+the adjacent Peter M. Sichel row separate, withholds the H. Sichel Söhne claim
+from that ambiguous entity, and continues full service-number masking.

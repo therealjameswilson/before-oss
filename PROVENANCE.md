@@ -370,6 +370,37 @@ constraint with the person-entity constraint. It fixes a full-rebuild failure
 introduced when earlier forward-only migrations added Marine Corps and Coast
 Guard categories only to `person_entities`; it changes no raw PDF values.
 
+## Reviewed employment transitions and terminal protocols
+
+The forty-fourth evidence batch revisited eight already partially researched
+profiles. It combined rendered NARA index pages with an Archives of American
+Art oral history, a University of Rhode Island institutional biography,
+official CIA material already in the database, official 1941 *Foreign
+Relations* documentation, contemporary or reputable obituaries, and an
+interview-based professional profile. No live NARA Catalog API request or
+retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Edna W. Andrade | Andrade's Smithsonian oral history documents a three-month Hecht Company floor-manager job followed by government applications and appointment to an office that had become OSS. Hecht is therefore the high-confidence, strongly date-bounded immediate and last civilian employer; Newcomb College teaching from 1939 through spring 1941 is earlier employment. |
+| Mort S. Bobrow | The completed online protocol supports University of Washington student status, Army Mandarin training, and later OSS service in China. No reliable civilian employer was identified; Box 63 remains the archival next action. |
+| Edmund M. Burke | The available CIA source supports identity and the Penn football affiliation. An unreferenced tribute-page statement naming the Insurance Company of North America could not be corroborated and is not published as fact; Box 93 review is required. |
+| Jane Burrell | Smith and Columbia remain student affiliations. Her husband's family business and Navy assignment are not evidence of her employment, and the 1937-1943 interval remains an archival question for Box 95 and contemporary directories. |
+| John H. Hemingway | Dartmouth student status, Army entry, Military Police assignment, and the direct OSS transfer are supported. No civilian employer is inferred for the interval; the online protocol is terminal with Box 326 retained as a refinement step. |
+| Conrad F. LaGueux | URI documents a 1938-1943 chemical-engineering and ROTC path followed by commission, active duty, Infantry School, and immediate OSS assignment. The university is a student affiliation, not an employer. |
+| John Magruder | Official sources establish a continuous career-Army path through command of the U.S. Military Mission to China and into OSS. The profile is terminal; Box 475 is needed only to refine assignment dates. |
+| Peter M. F. Sichel | Independent reputable profiles support an apprenticeship with the Bordeaux branch of H. Sichel Söhne as the last civilian employment before internment, escape, 1941 U.S. Army enlistment, and OSS. The adjacent Peter M. Sichel row has a different private service number and remains a separate entity pending joint Box 709 review. |
+
+Index PDF pages 10, 41, 61, 62, 202, 263, 290, and 426 were rendered
+at 180 DPI and visually checked. They confirm all eight target rows, and page
+426 confirms the adjacent Sichel entries, distinct middle-initial layouts, and
+different service numbers. Full service numbers remain private and are masked
+from every public page and download.
+
+The Smithsonian and other copyrighted sources are not copied into the
+repository. The evidence bundle retains citation metadata, project-authored
+paraphrases, and short excerpts within the project's 25-word limit.
+
 ## Official reference material
 
 - NARA OSS personnel records:

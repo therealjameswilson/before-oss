@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,155 HTML files. Every relative
+**PASS.** The production build contains 24,159 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 206 organization profiles, and the
+The build includes 23,941 person profiles, 210 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,352 unique external URLs for separate live
+The checker inventoried 48,360 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -56,6 +56,10 @@ verification; external responses do not affect the internal-route pass.
 | CIA, “Guardian Spies: The US Coast Guard and OSS Maritime Operations” | Reviewed through the research browser |
 | Harvard Magazine, “Vita: Cora Du Bois” | HTTP 200 |
 | Hunter College, Department of Anthropology history | HTTP 200 |
+| Smithsonian Archives of American Art, Edna Andrade oral history | Reviewed through the research browser |
+| University of Rhode Island, Conrad LaGueux biography | Reviewed through the research browser |
+| Jancis Robinson, Peter Sichel profile | Reviewed through the research browser |
+| Washington Post, Peter Sichel obituary | Reviewed through the research browser |
 | Marine Corps University, “The ‘Scholastic’ Marine Who Won a Secret War” | Reviewed through the research browser; command-line request returned HTTP 403 |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |

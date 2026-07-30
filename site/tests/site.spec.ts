@@ -13,7 +13,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/104 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/106 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
   await expect(page.getByText(/broader affiliation measure currently covers 176 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
@@ -420,8 +420,12 @@ test("the education-and-service batch does not turn schools or a spouse's work i
     {
       id: "2201ee7c-3d64-5672-b519-0aad4625d185",
       name: "Edna W Andrade",
+      immediate: "The Hecht Company",
+      lastCivilian: "The Hecht Company",
       earlier: "Pennsylvania Academy of the Fine Arts",
+      secondEarlier: "H. Sophie Newcomb Memorial College",
       source: "Edna Andrade: From the OSS to Op Art",
+      secondSource: "Oral history interview with Edna Andrade, 1987 April 1-29",
     },
     {
       id: "f87b5adb-6496-5f61-a50f-2b098032d189",
@@ -430,12 +434,14 @@ test("the education-and-service batch does not turn schools or a spouse's work i
       secondEarlier: "Columbia University",
       source:
         "The Mystery of Jane Wallis Burrell: The First CIA Officer To Die in the Agency's Service",
+      terminalMissingCivilian: true,
     },
     {
       id: "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
       name: "Edmund M Burke",
       earlier: "University of Pennsylvania",
       source: "Hollywood and the Office of Strategic Services",
+      terminalMissingCivilian: true,
     },
     {
       id: "990ec032-d116-5a93-bace-517a5dbc9c6d",
@@ -506,6 +512,11 @@ test("the education-and-service batch does not turn schools or a spouse's work i
     await expect(
       page.getByRole("link", { name: profile.source, exact: true }).first(),
     ).toHaveAttribute("href", /cia\.gov/);
+    if (profile.secondSource) {
+      await expect(
+        page.getByRole("link", { name: profile.secondSource, exact: true }).first(),
+      ).toHaveAttribute("href", /aaa\.si\.edu/);
+    }
   }
 });
 
@@ -1004,9 +1015,10 @@ test("Batch 012 preserves qualified military pathways, unnamed employers, studen
   await expect(
     page
       .locator('section[aria-labelledby="civilian-employer"]')
-      .getByText("No reviewed claim currently meets the publication threshold.", {
-        exact: true,
-      }),
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
   ).toBeVisible();
   await expect(
     page
@@ -1092,9 +1104,10 @@ test("Batch 013 preserves career-military, civilian-cover, academic, probable-id
   await expect(
     page
       .locator('section[aria-labelledby="civilian-employer"]')
-      .getByText("No reviewed claim currently meets the publication threshold.", {
-        exact: true,
-      }),
+      .getByText(
+        "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        { exact: true },
+      ),
   ).toBeVisible();
   await expect(
     page
@@ -4058,4 +4071,109 @@ test("Batch 043 separates students, earlier employment, and civilian and militar
   }
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 044 adds supported employers while preserving student, military, and duplicate boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/2201ee7c-3d64-5672-b519-0aad4625d185/");
+  await expect(
+    page.getByRole("heading", { name: "Edna W Andrade", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "The Hecht Company", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "The Hecht Company", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "H. Sophie Newcomb Memorial College",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Oral history interview with Edna Andrade, 1987 April 1-29",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", /aaa\.si\.edu/);
+
+  await page.goto("./people/6b90e0e8-f17e-585f-8d21-ecde2a323f1b/");
+  await expect(
+    page.getByRole("heading", { name: "Conrad F Lagueux", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "University of Rhode Island", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("student");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/a2d66764-90d0-5d8d-8102-30c2e0b03ba1/");
+  await expect(
+    page.getByRole("heading", { name: "Peter M F Sichel", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Medical Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "H. Sichel Söhne", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "The adjacent Peter M. Sichel row has a different service number and remains separate.",
+  );
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+
+  await page.goto("./people/1bf7bd5e-a790-51d0-9a46-e6046cab07f2/");
+  await expect(
+    page.getByRole("heading", { name: "Peter M Sichel", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
+    "H. Sichel Söhne",
+  );
+  await expect(page.getByText("needs identity review", { exact: true })).toBeVisible();
+
+  for (const terminalProfile of [
+    ["21a6b6f2-5daa-5569-826e-6d193f387d4a", "Mort S Bobrow", "completed"],
+    ["697f0736-ba27-55b6-ae7a-6550dd87aa3c", "Edmund M Burke", "requires archival review"],
+    ["f87b5adb-6496-5f61-a50f-2b098032d189", "Jane Burrell", "requires archival review"],
+    ["01360217-ccc5-5754-a6d5-9d126bfc08f0", "John H Hemingway", "completed"],
+    ["a93ac760-896e-50b9-9746-754d434a1200", "John Magruder", "completed"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText(terminalProfile[2], { exact: true }).first(),
+    ).toBeVisible();
+  }
 });

@@ -9,8 +9,8 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
 | Research-attempt coverage | 289 people with a non-planned attempt | 23,941 person entities | 1.2071% |
 | Verified-affiliation coverage | 176 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7351% |
-| Verified-employer coverage | 104 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4344% |
-| Archival-review coverage | 216 people with an individual file-access/priority assessment | 23,941 person entities | 0.9022% |
+| Verified-employer coverage | 106 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4428% |
+| Archival-review coverage | 217 people with an individual file-access/priority assessment | 23,941 person entities | 0.9064% |
 
 ## Extraction and identity
 
@@ -21,8 +21,8 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 208
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 13
-- Identity status `high_confidence`: 221
+- Identity status `confirmed`: 14
+- Identity status `high_confidence`: 220
 - Identity status `probable`: 9
 - Identity status `ambiguous`: 11
 - Identity status `unresolved`: 23,687
@@ -46,26 +46,27 @@ Commissioned classification: 2,111 yes; 4,969 no; 16,861 indeterminate.
 ## Research queue and pilot
 
 - `not_started`: 23,652
-- `in_progress`: 79
+- `in_progress`: 71
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 16
 - `occupation_only_found`: 18
-- `requires_archival_review`: 38
-- `completed`: 23
-- `verified_employer_found`: 106
+- `requires_archival_review`: 40
+- `completed`: 27
+- `verified_employer_found`: 108
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
-- Web-adapter attempts recorded: 662
-- Reviewed-official-web attempts recorded: 21
+- Web-adapter attempts recorded: 673
+- Reviewed-official-web attempts recorded: 28
+- Reviewed-web terminal-protocol attempts recorded: 1
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 215 across 208 people; 12 additional
+- Saved `source_reviewed` outcomes: 223 across 209 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,286
+- Total recorded attempts/plans: 1,294
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 216; 206 have at least one public-eligible
@@ -128,13 +129,13 @@ Commissioned classification: 2,111 yes; 4,969 no; 16,861 indeterminate.
   Frederick Mayer rows, the two separately preserved Milton Felsen rows, Irving
   Goff, Paul H. Gale, Serge Obolensky, Richard G. Arnold-Baker, Everett J.
   Athens, Clarence A. Berdahl, Hugh M. Beville, and John P. Booth Jr.
-- Published affiliations: 347
-- Database claims: 592; public-eligible claims: 579 (86 confirmed, 446 high, 47
+- Published affiliations: 351
+- Database claims: 598; public-eligible claims: 585 (86 confirmed, 452 high, 47
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 485; public source export: 471; unique source documents: 439
-- Canonical organizations: 207 private and 206 public
+- Citation records: 489; public source export: 475; unique source documents: 443
+- Canonical organizations: 211 private and 210 public
 - Conflicts: 0
-- NARA pull-list rows: 23,872
+- NARA pull-list rows: 23,870
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -161,7 +162,11 @@ toward verified-affiliation coverage but not verified-employer coverage.
    match, but no reviewed authoritative record links the blank-rank row's
    identifier to Mayer's documented enlisted phase. The two entities remain
    separate pending file and service-record review.
-6. Completing the minimum research protocol for tens of thousands of people and
+6. The adjacent Peter M. F. Sichel and Peter M. Sichel rows in Box 709 carry
+   different private service numbers. Full-name evidence supports the M. F.
+   entity and its Bordeaux apprenticeship, but the rows remain separate until
+   the two personnel files and service records map the identifiers directly.
+7. Completing the minimum research protocol for tens of thousands of people and
    reviewing physical personnel files is continuing archival work, not a single
    automated build step.
 
@@ -218,6 +223,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-field-officer
 python3 -m oss_research import-reviewed-evidence research/evidence-mediterranean-veterans-and-obolensky-review_batch-041_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-analysts-and-maritime-officers_batch-042_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-scholarship-medicine-and-oni-review_batch-043_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-employment-transitions-and-terminal-reviews_batch-044_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
