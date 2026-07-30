@@ -53,34 +53,31 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30508068264](https://github.com/therealjameswilson/before-oss/actions/runs/30508068264)
+[30510643981](https://github.com/therealjameswilson/before-oss/actions/runs/30510643981)
 and GitHub Pages deployment
-[30508068298](https://github.com/therealjameswilson/before-oss/actions/runs/30508068298)
-for Area B enlisted staff and Velleman review Batch 038 release `5c1a2d7`
+[30510644008](https://github.com/therealjameswilson/before-oss/actions/runs/30510644008)
+for Field Photographic and media pathways Batch 039 release `3e6db00`
 completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
-count, or redaction state for all 22
+count, or redaction state for all 12
 tested targets:
 
-- the home, `/people/` personnel directory, organizations, analysis,
-  methodology, sources, and downloads pages;
-- Moritz Velleman, Arthur H. Velleman, George A. George, Howard C. Ressler, and
-  Raymond W. Deisher;
+- the home page;
+- Seymour W. Schulberg, Stuart H. Schulberg, Robert R. Parrish, Sol Kaplan, and
+  Corey Ford;
 - `data/stats.json`;
 - all four public CSV downloads;
-- the public personnel JSONL download;
-- `data/sources.json`, `data/organizations.json`, `data/search-index.json`,
-  and the public build manifest;
-- the NARA attribution notice and full-service-number redaction on the five
-  new profiles.
+- the public personnel JSONL download; and
+- the NARA attribution notice and full-service-number redaction on the five new
+  profiles.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 269
-people with non-planned research attempts, 162 verified-affiliation people, 96
-verified-employer people, 196 archival-review assessments, 523 published
-claims, and 415 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 185, 314, and 415 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 274
+people with non-planned research attempts, 165 verified-affiliation people, 98
+verified-employer people, 201 archival-review assessments, 538 published
+claims, and 431 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 191, 322, and 431 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field.
 
