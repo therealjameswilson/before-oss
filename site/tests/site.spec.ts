@@ -5902,3 +5902,72 @@ test("Batch 066 routes the next ten Alexander profiles to Boxes 8 and 9 without 
     "test but do not assume the Texas candidate",
   );
 });
+
+test("Batch 067 confirms Spencer Alexander's OSS identity while preserving eight archival cases and Sidney Alexander's earlier research", async ({
+  page,
+}) => {
+  const terminalProfiles = [
+    ["73bad0d2-a349-56c8-a7fd-ccd9a2ce7065", "Leroy W Alexander"],
+    ["130adbd1-17a1-517b-ab84-99b53681b2b7", "Leslie A Alexander"],
+    ["e4d69062-21d2-55f7-ad26-e37ca4c71c8f", "Lynford T Alexander"],
+    ["7d2032b6-01aa-5ed5-bea9-63ab7edc7698", "Michael R Alexander"],
+    ["7da810bf-2fa6-5788-9e3e-05ac5ec0ac06", "Paul J Alexander"],
+    ["46641654-7361-5500-bc78-0eaaed159310", "Peter Alexander"],
+    ["0df6c0b2-292f-5441-a920-f30f1c2e8e4e", "Phyllis E Alexander"],
+    ["eef40eb3-27c7-556d-8e20-afcd9b14e62f", "Thomas B Alexander"],
+  ];
+
+  for (const [personId, displayName] of terminalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("9", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/98755eac-69c3-5152-9878-3af3ebd73826/");
+  await expect(
+    page.getByRole("heading", { name: "Spencer L Alexander", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("high confidence");
+  await expect(page.locator("body")).toContainText(
+    "January 1945 OSS transfer request",
+  );
+  await expect(page.locator("body")).toContainText(
+    "internal OSS assignment but not a pre-OSS affiliation",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Request for Transfer of Personnel from SO-EF to SO-CBI",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.archives.gov/files/research/jfk/releases/104-10165-10134.pdf",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
+
+  await page.goto("./people/d38ec240-05df-5155-abc9-3ed54484ff5f/");
+  await expect(
+    page.getByRole("heading", { name: "Sidney S Alexander", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "National Bureau of Economic Research",
+  );
+  await expect(page.locator("body")).toContainText(
+    "United States Office of Price Administration",
+  );
+});

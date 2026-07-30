@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 234 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,449 unique external URLs for separate live
+The checker inventoried 48,450 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -205,3 +205,16 @@ local files byte-for-byte. The deployed and local manifest SHA-256 is
 The personnel CSV exposes only `serial_masked`; a boundary-aware comparison of
 all 12,919 private normalized identifiers against 51 uncompressed live HTML,
 data, and download artifacts returned zero matches.
+
+## Batch 067 local release check
+
+The rebuilt site contains direct, internally resolved routes for Leroy W.
+Alexander, Leslie A. Alexander, Lynford T. Alexander, Michael R. Alexander,
+Paul J. Alexander, Peter Alexander, Phyllis E. Alexander, Sidney S. Alexander,
+Spencer L. Alexander, and Thomas B. Alexander. Eight new profiles route to
+their indexed Box 9 files without promoting uncorroborated common-name
+candidates. Spencer's profile exposes high-confidence identity evidence from
+an official NARA OSS transfer memorandum while making clear that the transfer
+does not establish a pre-OSS employer or affiliation. Sidney's earlier NBER
+and OPA evidence remains unchanged. The complete local link checker passed all
+24,183 HTML files and inventoried 48,450 unique external URLs.

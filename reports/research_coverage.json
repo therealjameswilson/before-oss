@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T19:31:32+00:00",
+  "generated_at": "2026-07-30T19:51:57+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,8 +7,8 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 488,
-    "percent": 2.0383
+    "people_with_nonplanned_attempts": 497,
+    "percent": 2.0759
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
@@ -22,8 +22,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 435,
-    "percent": 1.817
+    "people_assessed": 444,
+    "percent": 1.8546
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -31,14 +31,14 @@
     "documented_prewar_employer_found": 20,
     "in_progress": 52,
     "needs_identity_review": 12,
-    "not_started": 23453,
+    "not_started": 23444,
     "occupation_only_found": 21,
-    "requires_archival_review": 230,
+    "requires_archival_review": 239,
     "verified_employer_found": 119
   },
   "claim_confidence_counts": {
     "confirmed": 95,
-    "high": 508,
+    "high": 509,
     "low": 15,
     "medium": 65
   },
@@ -57,6 +57,6 @@
   },
   "possible_duplicate_groups": 210,
   "conflict_count": 0,
-  "citations": 776,
-  "unique_source_documents": 534
+  "citations": 786,
+  "unique_source_documents": 535
 }

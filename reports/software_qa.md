@@ -7,18 +7,18 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,183 pages**
 - Internal link check: **24,183 HTML files passed**
-- Browser and accessibility suite: **243 / 243 passed**
+- Browser and accessibility suite: **246 / 246 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`463f682e9ced2f4c3bbea4c7ff8d323e109c680ac2add6e36c8604c94f73eb64`)
+  (`ec36d05ba818471e78077cc831f7291349340f4165834089f3891ace5e0ab27a`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 66 evidence batches. Six QA report
+  checkpoints, review decisions, and all 67 evidence batches. Six QA report
   files changed only in their explicit run-generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `c962ebc18df86c998294f684b45d79747e331fe1d675420ce9b507d691a45ea0`
+  `1d5cfb538bb4e8f4c18372b632b32e7d44b1f0754d14c962c6da45bf4bdbc043`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -26,9 +26,9 @@ Run: 2026-07-30 UTC
   numbers at least five characters long: **0 full-number matches** in **24,261**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **576** public records representing **534** unique documents
+- Reviewed public sources: **578** public records representing **535** unique documents
 - Published, qualified affiliations: **394**
-- Published claims: **668**
+- Published claims: **669**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
 - Verified-affiliation metric: **196** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -492,3 +492,14 @@ while preserving the printed rank strings; two unit tests and the clean replay
 cover the correction. The regression checks all ten profiles, rejected
 namesake notes, archival routing, commissioned status, and field-level
 service-number masking across three viewports.
+Batch 067 completes the minimum online protocol for Leroy W. Alexander through
+Thomas B. Alexander on PDF page five while preserving Sidney S. Alexander's
+earlier reviewed profile. An official NARA OSS transfer memorandum supports
+Spencer L. Alexander as the indexed first lieutenant at high identity
+confidence, but it documents an internal 1945 OSS assignment rather than a
+pre-OSS employer or affiliation. Eight other new profiles remain unresolved
+after official, exact-name, employment-focused, obituary, newspaper,
+directory, and archival searches and route to Box 9 review. The regression
+checks all ten contiguous profiles, Spencer's qualified identity evidence and
+official citation, Sidney's existing NBER and OPA evidence, archival routing,
+and field-level service-number masking across three viewports.

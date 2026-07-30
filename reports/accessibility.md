@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 237 / 237 browser cases.**
+**PASS - 246 / 246 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-118-person employer measure is labeled separately from the 195-person broader
+118-person employer measure is labeled separately from the 196-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -576,6 +576,17 @@ naval classification for the printed `LT USN` rank, the withheld Federal Works
 Agency and Texas-veteran namesake leads, and field-level serial masking. The
 complete desktop, phone, and tablet matrix passed 243 / 243 with no remaining
 assertion or serious/critical axe failure.
+
+The Batch 067 regression checks the contiguous Leroy W. Alexander-through-
+Thomas B. Alexander sequence on PDF page five while preserving Sidney S.
+Alexander's earlier reviewed profile. It verifies eight new Box 9
+archival-review outcomes, Spencer L. Alexander's high-confidence identity
+section and official NARA citation, and the explicit warning that the
+documented transfer is an internal OSS assignment rather than a pre-OSS
+affiliation. It also confirms Sidney's NBER and OPA evidence remains unchanged
+and checks field-level serial masking. The complete desktop, phone, and tablet
+matrix passed 246 / 246 with no remaining assertion or serious/critical axe
+failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 488 people with a non-planned attempt | 23,941 person entities | 2.0383% |
+| Research-attempt coverage | 497 people with a non-planned attempt | 23,941 person entities | 2.0759% |
 | Verified-affiliation coverage | 196 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8187% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 435 people with an individual file-access/priority assessment | 23,941 person entities | 1.8170% |
+| Archival-review coverage | 444 people with an individual file-access/priority assessment | 23,941 person entities | 1.8546% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 20
-- Identity status `high_confidence`: 243
+- Identity status `high_confidence`: 244
 - Identity status `probable`: 16
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,647
+- Identity status `unresolved`: 23,646
 
 ## Personnel categories
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,453
+- `not_started`: 23,444
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 21
-- `requires_archival_review`: 230
+- `requires_archival_review`: 239
 - `completed`: 33
 - `verified_employer_found`: 119
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 217
+- Reviewed-web terminal-protocol attempts recorded: 226
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 272 across 258 people; 15 additional
+- Saved `source_reviewed` outcomes: 273 across 259 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,512
+- Total recorded attempts/plans: 1,521
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 253; 241 have at least one public-eligible
+- People with saved reviewed claims: 254; 242 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -290,10 +290,21 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
   repaired the parser rule for printed `LT USN` and `Lt USNR` ranks, correctly
   classifying all ten such source rows and person entities as commissioned naval
   officers while preserving the original rank strings.
+  Batch 067 continued through Leroy W. Alexander, Leslie A. Alexander, Lynford
+  T. Alexander, Michael R. Alexander, Paul J. Alexander, Peter Alexander,
+  Phyllis E. Alexander, Sidney S. Alexander, Spencer L. Alexander, and Thomas
+  B. Alexander. Sidney Alexander's previously verified NBER, OPA, and Harvard
+  chronology remains unchanged. A NARA-released January 1945 transfer request
+  supports Spencer Alexander at high identity confidence through exact name,
+  middle initial, First Lieutenant grade, internal OSS context, and masked
+  private-identifier evidence. The source documents an internal SO-EF-to-SO-CBI
+  transfer, not a pre-OSS affiliation. Eight other newly researched profiles
+  remain unresolved, and all nine newly assessed files route to Box 9 without
+  unsupported employer claims.
 - Published affiliations: 394
-- Database claims: 683; public-eligible claims: 668 (95 confirmed, 508 high, 65
+- Database claims: 684; public-eligible claims: 669 (95 confirmed, 509 high, 65
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 776; public source export: 576; unique source documents: 534
+- Citation records: 786; public source export: 578; unique source documents: 535
 - Canonical organizations: 236 private and 234 public
 - Conflicts: 0
 - NARA pull-list rows: 23,859
@@ -409,6 +420,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-alchevesky-through-aldrich-pathways_batch-064_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-and-fifth-page-aldrich-through-alexander-pathways_batch-065_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexander-archival-pathways_batch-066_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexander-continuation_batch-067_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
