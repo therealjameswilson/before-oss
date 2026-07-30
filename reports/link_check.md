@@ -181,3 +181,27 @@ employment outcome without promoting an uncorroborated namesake. Charles T.
 Alexander's route also exposes the corrected commissioned naval classification
 while preserving the printed `LT USN` rank. The complete local link checker
 passed all 24,183 HTML files and inventoried 48,449 unique external URLs.
+
+## Batch 066 production deployment
+
+GitHub Actions test workflow
+[30575529275](https://github.com/therealjameswilson/before-oss/actions/runs/30575529275)
+and GitHub Pages deployment
+[30575529117](https://github.com/therealjameswilson/before-oss/actions/runs/30575529117)
+for page-five Alexander Batch 066 release `fcdef25` completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 066 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 488 people with non-planned
+research attempts, 196 verified-affiliation people, 118 verified-employer
+people, 435 archival-review assessments, 668 published claims, and 576 public
+source records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 234, 394, and 576 data rows respectively.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`c962ebc18df86c998294f684b45d79747e331fe1d675420ce9b507d691a45ea0`.
+The personnel CSV exposes only `serial_masked`; a boundary-aware comparison of
+all 12,919 private normalized identifiers against 51 uncompressed live HTML,
+data, and download artifacts returned zero matches.
