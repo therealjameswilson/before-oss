@@ -93,10 +93,10 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30549315878](https://github.com/therealjameswilson/before-oss/actions/runs/30549315878)
+[30552640021](https://github.com/therealjameswilson/before-oss/actions/runs/30552640021)
 and GitHub Pages deployment
-[30549315722](https://github.com/therealjameswilson/before-oss/actions/runs/30549315722)
-for third-page Adler-through-Aga-Ogla Batch 057 release `cfa6c8b` completed
+[30552640167](https://github.com/therealjameswilson/before-oss/actions/runs/30552640167)
+for third-page Agee-through-Agugliaro Batch 058 release `7c669ed` completed
 successfully.
 
 Live checks returned HTTP 200 and the expected content marker, data value, row
@@ -105,28 +105,29 @@ tested targets:
 
 - the home page;
 - the personnel directory;
-- F. P. Adler, Maxine Adler, Louis D. Adlon, Ernest H. Adolph, Alex C. Adrian,
-  Leonard Adrian, Merrill S. Ady, Demetra Aeton, Percy C. Afferton, and Nehmet
-  Aga-Ogla;
-- the Cornell University and American Presbyterian Mission organization pages;
+- Frederick B. Agee Jr., Susie W. Agee, Evangelo Ageloras, Albert H. Agert,
+  Athanas Aggo, Peter M. Aglione, Cornelius R. Agnew, Arthur J. Agoritsas,
+  Joseph A. Agrillo, and Antonio Agugliaro;
+- the United States Army organization page;
 - the methodology page;
+- the sources page;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - and all four public CSV downloads.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 399
-people with non-planned research attempts, 187 verified-affiliation people, 111
-verified-employer people, 346 archival-review assessments, 626 published
-claims, and 524 public source records. The live personnel, organizations,
-affiliations, and sources downloads contain 23,941, 221, 373, and 524 data rows
+The live statistics report 23,978 source rows, 23,941 person entities, 409
+people with non-planned research attempts, 188 verified-affiliation people, 111
+verified-employer people, 356 archival-review assessments, 630 published
+claims, and 529 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 221, 374, and 529 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
 full service-number field. A boundary-aware comparison of all 12,799 private
 normalized identifiers against 47 uncompressed live artifacts—all person-data
-shards, major public data assets, downloads, the checked Batch 057 profiles,
-and their organization pages—returned zero matches. All 65 manifest-listed
+shards, major public data assets, downloads, the checked Batch 058 profiles,
+and the checked organization page—returned zero matches. All 65 manifest-listed
 assets were downloaded and matched both the manifest and local SHA-256 values
 byte-for-byte. The deployed and local manifest files share SHA-256
-`384b05ac0ab56c729f0e0c4dd800b49bd56557d81e60ca0fa35f5fdd4d9248cf`.
+`fbd3ad7b8a74b32534599073c1e55bc222304d87f145da445712b654c8d31b03`.
 
 External link results are diagnostic and are not allowed to transform a source
 access problem into a historical no-result conclusion.
