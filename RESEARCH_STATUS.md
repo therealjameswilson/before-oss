@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 507 people with a non-planned attempt | 23,941 person entities | 2.1177% |
+| Research-attempt coverage | 517 people with a non-planned attempt | 23,941 person entities | 2.1595% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 454 people with an individual file-access/priority assessment | 23,941 person entities | 1.8963% |
+| Archival-review coverage | 464 people with an individual file-access/priority assessment | 23,941 person entities | 1.9381% |
 
 ## Extraction and identity
 
@@ -23,9 +23,9 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 21
 - Identity status `high_confidence`: 244
-- Identity status `probable`: 16
+- Identity status `probable`: 17
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,645
+- Identity status `unresolved`: 23,644
 
 ## Personnel categories
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,434
+- `not_started`: 23,424
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 20
+- `documented_prewar_employer_found`: 21
 - `occupation_only_found`: 21
-- `requires_archival_review`: 248
+- `requires_archival_review`: 257
 - `completed`: 33
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 236
+- Reviewed-web terminal-protocol attempts recorded: 246
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 274 across 260 people; 15 additional
+- Saved `source_reviewed` outcomes: 275 across 261 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,531
+- Total recorded attempts/plans: 1,541
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 255; 243 have at least one public-eligible
+- People with saved reviewed claims: 256; 244 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -316,11 +316,25 @@ Commissioned classification: 2,123 yes; 4,975 no; 16,843 indeterminate.
   indexed Box 9 files without unsupported employer claims. The printed
   `Guiseppe` spelling and Indigo Alfalfa's unfamiliar `Mayer` grade are
   preserved without silent correction or forced classification.
-- Published affiliations: 395
-- Database claims: 686; public-eligible claims: 671 (96 confirmed, 510 high, 65
+  Batch 069 continued through Victor Algrant, Emma L. Allan, Lorna A. Allan,
+  Willard Allan, William J. Allanson, Albert Allart, Lewis G. Allbee, Roy J.
+  Allemand, Alice L. Allen, and Amory L. Allen across PDF pages five and six.
+  A contemporary April 1941 issue of *Bohemia* identifies Victor Algrant as a
+  senior employee in The Kolynos Co. export department. Because the source
+  supplies the distinctive exact name but no second identifier, the profile
+  publishes this only as a probable identity and medium-confidence documented
+  prewar employment—not as an immediate pre-OSS affiliation or last civilian
+  employer. The other nine profiles remain unresolved and route to their Box 9
+  or Box 10 files. A 1938 teaching lead for Lewis G. Allbee remains rejected:
+  the official Arizona source was inaccessible and a search-result excerpt is
+  not final evidence. The batch preserves Allbee's commissioned naval status,
+  Allanson's civilian grade, Allemand's enlisted grade, and Lorna Allan's
+  unresolved `see also` note without silently linking it to a namesake.
+- Published affiliations: 396
+- Database claims: 688; public-eligible claims: 673 (96 confirmed, 510 high, 67
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 799; public source export: 582; unique source documents: 538
-- Canonical organizations: 237 private and 235 public
+- Citation records: 810; public source export: 584; unique source documents: 540
+- Canonical organizations: 238 private and 236 public
 - Conflicts: 0
 - NARA pull-list rows: 23,858
 
@@ -436,6 +450,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-and-fifth-page-aldrich-through-alexander-pathways_batch-065_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexander-archival-pathways_batch-066_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexander-continuation_batch-067_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fifth-page-alexatos-through-alger-pathways_batch-068_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-five-six-algrant-through-amory-allen-pathways_batch-069_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

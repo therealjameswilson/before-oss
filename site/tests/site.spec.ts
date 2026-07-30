@@ -6066,3 +6066,85 @@ test("Batch 068 confirms Alexatos's qualified Greek Battalion pathway and routes
     page.getByRole("link", { name: "James K Alexatos", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 069 publishes Algrant's qualified 1941 Kolynos evidence and routes nine profiles to archival review", async ({
+  page,
+}) => {
+  const terminalProfiles = [
+    ["5eabdf31-e4d4-5ce9-bd1d-f24631fd62c9", "Emma L Allan", "9"],
+    ["14a93520-0b1e-5ce4-b2f8-ec656b47741f", "Lorna A Allan", "9"],
+    ["4a9a5643-ea1d-5172-bf07-15d379ac9996", "Willard Allan", "9"],
+    ["b7013b65-d071-5302-a00a-c6462f3b9be3", "William J Allanson", "10"],
+    ["66d373cf-5524-5bfc-90a8-3246d7337423", "Albert Allart", "10"],
+    ["bc64e5ec-65bb-5106-8d84-ec5824990c0e", "Lewis G Allbee", "10"],
+    ["f1e663cc-0fa8-594c-a2f8-d19bd1a202a8", "Roy J Allemand", "10"],
+    ["4faac446-39d3-59a4-99c4-ee0184a290c3", "Alice L Allen", "10"],
+    ["24d61c71-72ab-503f-86a3-42b41395401f", "Amory L Allen", "10"],
+  ];
+
+  for (const [personId, displayName, box] of terminalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/14a93520-0b1e-5ce4-b2f8-ec656b47741f/");
+  await expect(page.locator("body")).toContainText(
+    "intended 'see also' cross-reference",
+  );
+
+  await page.goto("./people/bc64e5ec-65bb-5106-8d84-ec5824990c0e/");
+  await expect(page.locator("body")).toContainText("commissioned naval officer");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••\d{4}$/);
+
+  await page.goto("./people/5a520c84-b6d7-510a-ae97-8882b7fa8d4c/");
+  await expect(
+    page.getByRole("heading", { name: "Victor Algrant", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "The Kolynos Company", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "senior employee, export department",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Kolynos is not yet established as the immediate or last civilian pre-service employer",
+  );
+  await expect(
+    page
+      .getByRole("link", { name: "Bohemia, April 13, 1941", exact: true })
+      .first(),
+  ).toHaveAttribute("href", "https://ufdc.ufl.edu/UF00029010/00395");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText("Not printed");
+
+  await page.goto(
+    "./organizations/46c9d843-7983-5c67-9973-aa358dbb44d2/",
+  );
+  await expect(
+    page.getByRole("heading", { name: "The Kolynos Company", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("The Kolynos Co.");
+  await expect(
+    page.getByRole("link", { name: "Victor Algrant", exact: true }),
+  ).toBeVisible();
+});

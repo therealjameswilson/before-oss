@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 249 / 249 browser cases.**
+**PASS - 252 / 252 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -597,6 +597,19 @@ It also checks nine dignified Box 9 archival-review outcomes, preservation of
 the printed `Guiseppe` spelling and unfamiliar `Mayer` grade, citation access,
 and field-level serial masking. The complete desktop, phone, and tablet matrix
 passed 249 / 249 with no remaining assertion or serious/critical axe failure.
+
+The Batch 069 regression checks the contiguous Victor Algrant-through-Amory L.
+Allen sequence across PDF pages five and six. It verifies Victor Algrant's
+qualified 1941 Kolynos export-department employment, probable identity, and
+medium-confidence documented-prewar placement only among earlier affiliations.
+It confirms that the evidence is not promoted to either immediate pre-OSS
+affiliation or last civilian employer, and checks the cited *Bohemia* item and
+Kolynos organization route. The other nine profiles retain dignified Box 9 or
+Box 10 archival-review guidance; the test also preserves Lewis G. Allbee's
+commissioned naval classification, rejects the inaccessible teaching lead as a
+public fact, and verifies field-level serial masking. The complete desktop,
+phone, and tablet matrix passed 252 / 252 with no remaining assertion or
+serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

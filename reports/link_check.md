@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,184 HTML files. Every relative
+**PASS.** The production build contains 24,185 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 235 organization profiles, and the
+The build includes 23,941 person profiles, 236 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,454 unique external URLs for separate live
+The checker inventoried 48,456 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -289,3 +289,16 @@ local files byte-for-byte. The deployed and local manifest SHA-256 is
 A boundary-aware comparison of all 12,919 private normalized identifiers
 against 83 uncompressed live HTML, data, and download artifacts returned zero
 matches.
+
+## Batch 069 local release check
+
+The rebuilt site contains direct, internally resolved routes for Victor
+Algrant, Emma L. Allan, Lorna A. Allan, Willard Allan, William J. Allanson,
+Albert Allart, Lewis G. Allbee, Roy J. Allemand, Alice L. Allen, and Amory L.
+Allen, plus The Kolynos Company organization profile. Algrant's profile exposes
+the qualified 1941 export-department role only as medium-confidence documented
+prewar employment with probable identity, not as an immediate affiliation or
+last civilian employer. The other nine profiles route to Box 9 or Box 10
+review without promoting rejected or inaccessible leads. The complete local
+link checker passed all 24,185 HTML files and inventoried 48,456 unique external
+URLs.

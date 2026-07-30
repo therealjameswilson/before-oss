@@ -5,30 +5,31 @@ Run: 2026-07-30 UTC
 - Python unit tests: **49 / 49 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,184 pages**
-- Internal link check: **24,184 HTML files passed**
-- Browser and accessibility suite: **249 / 249 passed**
+- Static production build: **24,185 pages**
+- Internal link check: **24,185 HTML files passed**
+- Browser and accessibility suite: **252 / 252 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`73dc8b6eae1b61869d79b2d3611b394a41d4cfe348c818cdd648711f89a1661f`)
+  (`0c810d23513928c94ce4e212f332c6349bb6c085ba1d62fd1d73c26e5dc53f9b`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 69 evidence files: **75 / 75 tracked
+  checkpoints, review decisions, and all 70 evidence files: **75 / 75 tracked
   public and generated files matched**.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `f6b2cfa7bd5e246849dc8fa0a68b91ad49c1ee517992c29fb2d1fa30e4a53bbf`
+  `6dec22f826361dadeff720c0f1f10ede98f058647fb6a4b8603fe14da68960e8`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Boundary-aware scan of **12,919** distinct normalized private service
-  numbers at least five characters long: **0 full-number matches** in **24,262**
-  uncompressed public assets, generated site data, or production HTML
+- Field-aware boundary scan of **12,931** distinct digit-bearing normalized
+  private identifiers: **0 unexpected full-number matches** in **24,329**
+  public text assets, generated site data, compressed mirrors, or production
+  HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **582** public records representing **538** unique documents
-- Published, qualified affiliations: **395**
-- Published claims: **671**
+- Reviewed public sources: **584** public records representing **540** unique documents
+- Published, qualified affiliations: **396**
+- Published claims: **673**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
 - Verified-affiliation metric: **197** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -517,3 +518,16 @@ unresolved and route to Box 9 review. The regression checks all ten contiguous
 profiles, the qualified military pathway, duplicate warning, printed spellings,
 unfamiliar-grade preservation, citations, archival routing, and field-level
 service-number masking across three viewports.
+Batch 069 completes the minimum online protocol for Victor Algrant through
+Amory L. Allen across PDF pages five and six. A visually inspected April 1941
+issue of *Bohemia* supports Victor Algrant's senior export-department role at
+The Kolynos Co.; the exact but otherwise uncorroborated name match remains
+probable, so the site publishes the role only as medium-confidence documented
+prewar employment. It is not promoted to an immediate pre-OSS affiliation or
+last civilian employer. The other nine profiles route to Box 9 or Box 10
+archival review. An inaccessible official-page lead for Lewis G. Allbee is
+recorded as rejected discovery evidence rather than a public claim. The
+regression checks all ten profiles, the Kolynos organization route, temporal
+qualification, commissioned/enlisted/civilian classification distinctions,
+citation access, archival routing, and field-level service-number masking
+across three viewports.
