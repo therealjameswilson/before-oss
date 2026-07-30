@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 319 people with a non-planned attempt | 23,941 person entities | 1.3324% |
+| Research-attempt coverage | 329 people with a non-planned attempt | 23,941 person entities | 1.3742% |
 | Verified-affiliation coverage | 184 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7686% |
 | Verified-employer coverage | 109 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4553% |
-| Archival-review coverage | 266 people with an individual file-access/priority assessment | 23,941 person entities | 1.1111% |
+| Archival-review coverage | 276 people with an individual file-access/priority assessment | 23,941 person entities | 1.1528% |
 
 ## Extraction and identity
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,622
+- `not_started`: 23,612
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 8
 - `documented_prewar_employer_found`: 17
 - `occupation_only_found`: 20
-- `requires_archival_review`: 81
+- `requires_archival_review`: 91
 - `completed`: 29
 - `verified_employer_found`: 111
 - Stratified pilot size: 75
@@ -61,12 +61,12 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 48
+- Reviewed-web terminal-protocol attempts recorded: 58
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 247 across 233 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,343
+- Total recorded attempts/plans: 1,353
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 226; 216 have at least one public-eligible
@@ -146,10 +146,13 @@ Commissioned classification: 2,112 yes; 4,969 no; 16,860 indeterminate.
   Frank Abbote, John A. Abbote, Delbert H. Abbott, Floyd H. Abbott, Frederick
   K. Abbott, James E. Abbott, James F. Abbott, Norman Abbott, and Robert J.
   Abbott.
+  Batch 050 additionally reviewed Victor J. Abbott, Robert V. Abee, Arthur A.
+  Abel, Calvin J. Abel, John C. Abel, James D. Abernathy, James K. Abney, John
+  H. Achenbach, Edward C. Acheson, and Paul P. Achin.
 - Published affiliations: 367
 - Database claims: 627; public-eligible claims: 614 (90 confirmed, 472 high, 52
   medium); 13 low-confidence claims concerning 10 people are withheld
-- Citation records: 558; public source export: 505; unique source documents: 481
+- Citation records: 568; public source export: 505; unique source documents: 481
 - Canonical organizations: 221 private and 220 public
 - Conflicts: 0
 - NARA pull-list rows: 23,867
@@ -246,6 +249,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-student-emplo
 python3 -m oss_research import-reviewed-evidence research/evidence-first-page-military-and-terminal-protocol_batch-047_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-first-page-economic-relief-and-regimental-pathways_batch-048_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-first-page-incomplete-and-common-name-archival-pathways_batch-049_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-first-page-abel-and-achenbach-archival-pathways_batch-050_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

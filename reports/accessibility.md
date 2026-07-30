@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 189 / 189 browser cases.**
+**PASS - 195 / 195 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -424,6 +424,12 @@ claims, verifies the approved unresolved-employer wording, and reads the
 redaction state from each Serial field. The complete desktop, phone, and
 tablet matrix passed 192 / 192 with no remaining assertion or serious/critical
 axe failure.
+
+The Batch 050 regression checks ten newly completed profiles from Victor J.
+Abbott through Paul P. Achin and verifies their Box 1 or Box 2 archival route,
+terminal research state, approved unresolved-employer wording, and field-level
+serial masking. The complete desktop, phone, and tablet matrix passed 195 / 195
+with no remaining assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

@@ -7,10 +7,10 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,169 pages**
 - Internal link check: **24,169 HTML files passed**
-- Browser and accessibility suite: **192 / 192 passed**
+- Browser and accessibility suite: **195 / 195 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`6138b13fc4daed4ca230d80a3a5fc4ee7c14d64d361c7de295621c004f339986`)
+  (`35bd4264848adcdf2c2164674e5be345eaf1a2c066eaa5b93b9ca360e8a4f41e`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
@@ -286,3 +286,11 @@ official, CIA, exact-name, employment, occupation, obituary, directory,
 newspaper, and archival checks. The regression checks all ten profiles across
 three viewports, keeps rejected namesakes out of public claims, and verifies
 field-level service-number masking.
+Batch 050 completes the minimum online protocol for Victor J. Abbott through
+Paul P. Achin and routes all ten files to their indexed Box 1 or Box 2
+locations. It records and rejects a postwar retailer, chronologically
+incompatible obituaries, an age-compatible but unlinked cemetery record,
+better-known Achesons, and modern or OCR-only namesakes rather than assigning
+them to the index rows. The regression checks all ten profiles across three
+viewports, preserves the zero-claim outcome, verifies the approved unresolved-
+employer wording, and reads redaction state from each Serial field.

@@ -4535,3 +4535,39 @@ test("Batch 049 preserves an incomplete printed name and routes ten unresolved c
     page.getByText("critical", { exact: true }).first(),
   ).toBeVisible();
 });
+
+test("Batch 050 routes ten unresolved Abbott-through-Achin records to their indexed archival boxes", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["7088db2a-da18-5a1a-b0fa-058c50d4f7be", "Victor J Abbott", "1"],
+    ["9737ab8a-966a-5355-80ce-b0f97a19dcb1", "Robert V Abee", "1"],
+    ["89d29fd5-4bac-55f4-9510-622853453a8e", "Arthur A Abel", "1"],
+    ["f375230c-f337-5251-8d34-90c5b7dd72f0", "Calvin J Abel", "1"],
+    ["ed582713-c52c-5745-8971-a742fafa17db", "John C Abel", "1"],
+    ["bba65c39-e1b9-52a3-ad1b-8fa343f42104", "James D Abernathy", "1"],
+    ["2b3188cd-9595-57ac-a4e9-ca10cc4293a0", "James K Abney", "1"],
+    ["79a323b7-5075-5fb9-b98d-421a24460e07", "John H Achenbach", "2"],
+    ["3ca8fbd1-b6d1-5ecd-9cb8-f99c7a42c3d9", "Edward C Acheson", "2"],
+    ["c4771919-35b2-5e2c-9d5d-74a8c775cafe", "Paul P Achin", "2"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+    await expect(
+      page
+        .locator(".profile-aside")
+        .getByText(terminalProfile[2], { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+});
