@@ -288,6 +288,30 @@ locations. A private identifier on the Musulin testimony page was compared
 programmatically with the index value and recorded only as a match result; the
 number itself is absent from the evidence bundle and all public data.
 
+## Reviewed Mediterranean veterans and Obolensky duplicate group
+
+The forty-first evidence batch used rendered NARA index pages; two National
+Park Service chapters on OSS training and Mediterranean operations; a
+contemporary Veterans of the Abraham Lincoln Brigade bulletin; the NYU
+Tamiment Library's Milton Felsen finding aid; a 1939 *Harvard Crimson* report;
+a 1989 *Los Angeles Times* obituary; and an August 1943 OSS mission-personnel
+memorandum in the CIA Reading Room. No live NARA Catalog API request or
+retained API response was involved.
+
+| Indexed record | Decision |
+|---|---|
+| Milton Felsen, rank blank | This serial-only Box 231 row remains a separate ambiguous entity. Its adjacency, exact name, and box make it a plausible duplicate of the Sergeant row, but no reviewed source links the private identifier. The candidate is withheld pending joint file review. |
+| Milton Felsen, Sgt. | NPS and NYU records support a high-confidence identity. University of Iowa attendance is student status; Abraham Lincoln Battalion service is a foreign military assignment; and the 1941 veterans-organization office is a professional affiliation. None is converted into a civilian employer. |
+| Irving Goff | Official, contemporary, and obituary sources support a high-confidence identity and Captain rank progression. Lincoln Brigade service and the 1941 Veterans of the Abraham Lincoln Brigade office remain distinct affiliations. A contemporary report documents an adagio-dancer occupation but names no employer or self-employment arrangement. |
+| Paul H. Gale | NPS explicitly identifies Captain Paul Gale as a 1st Infantry Division staff officer whom Donovan later recruited. The index's middle initial and later Colonel grade make the identity high confidence; Box 258 review is still required for confirmation and any civilian predecessor. |
+| Serge Obolensky | The exact distinctive name and Lieutenant Colonel rank in an OSS memorandum confirm the identity. New York National Guard service is the explicit immediate military pathway. St. Regis Hotel consulting is documented earlier employment, but the source does not prove it was the last civilian role before Guard service. |
+
+Index PDF pages 143, 159, 172, and 346 were rendered at 180 DPI and visually
+checked. They confirm all five source rows, including the two adjacent Felsen
+entries, their distinct rank/identifier layouts, raw notes, boxes, and archival
+locations. Full service numbers remain private and are masked from every public
+page and download.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,145 HTML files. Every relative
+**PASS.** The production build contains 24,151 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 196 organization profiles, and the
+The build includes 23,941 person profiles, 202 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,325 unique external URLs for separate live
+The checker inventoried 48,338 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -43,6 +43,11 @@ verification; external responses do not affect the internal-route pass.
 | CIA, “Miles Copeland” | Reviewed through the research browser |
 | NPS, “OSS in Action: The Mediterranean and European Theaters” | Reviewed through the research browser |
 | CIA, OSS 75th anniversary remarks on Frederick Mayer | Reviewed through the research browser |
+| NYU finding aid, Milton Felsen papers | Reviewed through the research browser |
+| Veterans of the Abraham Lincoln Brigade, March 1941 newsletter | Reviewed through the research browser |
+| Harvard Crimson, Irving Goff Spanish Civil War report | Reviewed through the research browser |
+| NPS, “OSS in Action: The Mediterranean and European Theaters” | Reviewed through the research browser |
+| CIA, official OSS memorandum naming Serge Obolensky | Reviewed through the research browser |
 | Indiana University, Robert Parrish manuscripts | HTTP 200 |
 | American Heritage Center, Sol Kaplan papers | HTTP 206 partial-content response |
 | Dartmouth Alumni Magazine, Budd Schulberg and Corey Ford articles | Reviewed through the research browser; command-line requests timed out |

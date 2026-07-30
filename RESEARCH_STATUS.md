@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 279 people with a non-planned attempt | 23,941 person entities | 1.1654% |
-| Verified-affiliation coverage | 169 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7059% |
-| Verified-employer coverage | 99 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4135% |
-| Archival-review coverage | 206 people with an individual file-access/priority assessment | 23,941 person entities | 0.8604% |
+| Research-attempt coverage | 284 people with a non-planned attempt | 23,941 person entities | 1.1862% |
+| Verified-affiliation coverage | 173 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.7226% |
+| Verified-employer coverage | 100 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4177% |
+| Archival-review coverage | 211 people with an individual file-access/priority assessment | 23,941 person entities | 0.8813% |
 
 ## Extraction and identity
 
@@ -18,14 +18,14 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 207
+- Possible duplicate groups: 208
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 10
-- Identity status `high_confidence`: 215
+- Identity status `confirmed`: 11
+- Identity status `high_confidence`: 218
 - Identity status `probable`: 9
-- Identity status `ambiguous`: 10
-- Identity status `unresolved`: 23,697
+- Identity status `ambiguous`: 11
+- Identity status `unresolved`: 23,692
 
 ## Personnel categories
 
@@ -44,13 +44,13 @@ Commissioned classification: 2,109 yes; 4,968 no; 16,864 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,662
+- `not_started`: 23,657
 - `in_progress`: 85
 - `candidate_found`: 1
-- `needs_identity_review`: 7
-- `documented_prewar_employer_found`: 13
-- `occupation_only_found`: 17
-- `requires_archival_review`: 29
+- `needs_identity_review`: 8
+- `documented_prewar_employer_found`: 14
+- `occupation_only_found`: 18
+- `requires_archival_review`: 31
 - `completed`: 23
 - `verified_employer_found`: 104
 - Stratified pilot size: 75
@@ -58,16 +58,16 @@ Commissioned classification: 2,109 yes; 4,968 no; 16,864 indeterminate.
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
-- Web-adapter attempts recorded: 657
+- Web-adapter attempts recorded: 662
 - Reviewed-official-web attempts recorded: 21
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 200 across 199 people; 11 additional
+- Saved `source_reviewed` outcomes: 204 across 203 people; 12 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,270
+- Total recorded attempts/plans: 1,275
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 206; 197 have at least one public-eligible
+- People with saved reviewed claims: 211; 201 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -124,12 +124,13 @@ Commissioned classification: 2,109 yes; 4,968 no; 16,864 indeterminate.
   George, Howard C. Ressler, Raymond W. Deisher, Seymour W. (Budd) Schulberg,
   Stuart H. Schulberg, Robert R. Parrish, Sol Kaplan, Corey Ford, Roderick G.S.
   Hall, Miles A. Copeland, George S. Musolin, and the two separately preserved
-  Frederick Mayer rows.
-- Published affiliations: 330
-- Database claims: 564; public-eligible claims: 552 (80 confirmed, 426 high, 46
-  medium); 12 low-confidence claims concerning 9 people are withheld
-- Citation records: 458; public source export: 444; unique source documents: 412
-- Canonical organizations: 197 private and 196 public
+  Frederick Mayer rows, the two separately preserved Milton Felsen rows, Irving
+  Goff, Paul H. Gale, and Serge Obolensky.
+- Published affiliations: 340
+- Database claims: 579; public-eligible claims: 566 (82 confirmed, 438 high, 46
+  medium); 13 low-confidence claims concerning 10 people are withheld
+- Citation records: 470; public source export: 456; unique source documents: 424
+- Canonical organizations: 203 private and 202 public
 - Conflicts: 0
 - NARA pull-list rows: 23,874
 
@@ -212,6 +213,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-area-b-staff-
 python3 -m oss_research import-reviewed-evidence research/evidence-area-b-enlisted-and-velleman-review_batch-038_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-field-photographic-and-media_batch-039_2026-07-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-field-officers-musicians-and-mayer-review_batch-040_2026-07-29.json
+python3 -m oss_research import-reviewed-evidence research/evidence-mediterranean-veterans-and-obolensky-review_batch-041_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

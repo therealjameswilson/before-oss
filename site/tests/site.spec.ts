@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/99 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/100 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 169 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 173 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3842,6 +3842,82 @@ test("Batch 040 preserves field pathways, occupation boundaries, spelling varian
   ).toContainText("No reviewed claim currently meets the publication threshold.");
   await expect(page.locator("body")).not.toContainText("Ford Motor Company");
   await expect(page.locator("body")).not.toContainText("General Motors");
+
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 041 preserves Mediterranean military pathways, veterans affiliations, unnamed occupations, and separate Felsen rows", async ({
+  page,
+}) => {
+  await page.goto("./people/97b90b5c-774c-5d9c-8e52-ca3a4aaeaeec/");
+  await expect(
+    page.getByRole("heading", { name: "Milton Felsen", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("Abraham Lincoln Brigade");
+  await expect(page.locator("body")).toContainText("Recording Secretary");
+  await expect(page.locator("body")).toContainText("University of Iowa");
+  await expect(page.locator("body")).toContainText(/duplicate-[a-f0-9]{12}/);
+
+  await page.goto("./people/42f68c35-d165-58cf-9ad3-365a27b9cec0/");
+  await expect(
+    page.getByRole("heading", { name: "Milton Felsen", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText(/duplicate-[a-f0-9]{12}/);
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold.");
+  await expect(page.locator("body")).not.toContainText("University of Iowa");
+
+  await page.goto("./people/4b1fbe1c-9f20-51e5-ae9f-0ef466d3c5b8/");
+  await expect(
+    page.getByRole("heading", { name: "Irving Goff", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("National Executive Secretary");
+  await expect(page.locator("body")).toContainText("adagio dancer");
+  await expect(page.locator("body")).toContainText(
+    "Unnamed adagio-dance employer or engagement",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+
+  await page.goto("./people/af3332e4-4282-5f1d-8bd2-4dc0f8097b9a/");
+  await expect(
+    page.getByRole("heading", { name: "Paul H Gale", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "1st Infantry Division, United States Army",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Captain and staff officer");
+
+  await page.goto("./people/7bee69f7-b984-5850-96e1-38253676750e/");
+  await expect(
+    page.getByRole("heading", { name: "Serge Obolensky", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "New York National Guard", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("St. Regis Hotel");
+  await expect(page.locator("body")).toContainText(
+    "Unnamed New York banking and real-estate organizations",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
 
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

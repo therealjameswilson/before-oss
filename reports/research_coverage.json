@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T03:37:44+00:00",
+  "generated_at": "2026-07-30T04:01:36+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,39 +7,39 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 279,
-    "percent": 1.1654
+    "people_with_nonplanned_attempts": 284,
+    "percent": 1.1862
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_affiliation": 169,
-    "percent": 0.7059
+    "people_with_confirmed_or_high_published_affiliation": 173,
+    "percent": 0.7226
   },
   "verified_employer_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_employer": 99,
-    "percent": 0.4135
+    "people_with_confirmed_or_high_published_employer": 100,
+    "percent": 0.4177
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 206,
-    "percent": 0.8604
+    "people_assessed": 211,
+    "percent": 0.8813
   },
   "research_status_counts": {
     "candidate_found": 1,
     "completed": 23,
-    "documented_prewar_employer_found": 13,
+    "documented_prewar_employer_found": 14,
     "in_progress": 85,
-    "needs_identity_review": 7,
-    "not_started": 23662,
-    "occupation_only_found": 17,
-    "requires_archival_review": 29,
+    "needs_identity_review": 8,
+    "not_started": 23657,
+    "occupation_only_found": 18,
+    "requires_archival_review": 31,
     "verified_employer_found": 104
   },
   "claim_confidence_counts": {
-    "confirmed": 80,
-    "high": 426,
-    "low": 12,
+    "confirmed": 82,
+    "high": 438,
+    "low": 13,
     "medium": 46
   },
   "personnel_category_counts": {
@@ -54,8 +54,8 @@
     "unknown_or_indeterminate": 16630,
     "warrant_officer": 4
   },
-  "possible_duplicate_groups": 207,
+  "possible_duplicate_groups": 208,
   "conflict_count": 0,
-  "citations": 458,
-  "unique_source_documents": 412
+  "citations": 470,
+  "unique_source_documents": 424
 }
