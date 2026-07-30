@@ -1,18 +1,18 @@
 # Link check
 
-Run: 2026-07-29 UTC
+Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,131 HTML files. Every relative
+**PASS.** The production build contains 24,133 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 182 organization profiles, and the
+The build includes 23,941 person profiles, 184 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,283 unique external URLs for separate live
+The checker inventoried 48,287 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -25,6 +25,11 @@ verification; external responses do not affect the internal-route pass.
 | NARA Catalog API guidance | HTTP 200 |
 | Official personnel index PDF | HTTP 200 |
 | Library of Congress APIs | HTTP 200 |
+| NPS, *Instructing for Dangerous Missions* | HTTP 200 |
+| NPS, *A Wartime Organization for Unconventional Warfare* | HTTP 200 |
+| NPS, *OSS in Action: The Pacific and the Far East* | HTTP 200 |
+| CIA, *War of a Different Kind* PDF | HTTP 200 |
+| CIA, *Intelligence Operations of OSS Detachment 101* | HTTP 200 |
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |

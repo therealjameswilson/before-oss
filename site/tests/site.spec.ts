@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/91 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/94 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 152 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 156 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -3317,5 +3317,131 @@ test("Batch 034 preserves radio, cryptology, military, student, and unnamed-inst
   await expect(page.locator("body")).toContainText(
     "The official history documents the subjects and student status but names no institution.",
   );
+  expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
+});
+
+test("Batch 035 preserves communications, occupation-only, Army-pathway, and self-employment boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/50c70f7c-dfec-5a4e-9c02-5ca83112c7f3/");
+  await expect(
+    page.getByRole("heading", { name: "Timothy R Marsh", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "United States Army Signal Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("United States Army Signal Corps");
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", { name: "Coyne Radio School", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("civilian Signal Corps radio operator");
+
+  await page.goto("./people/f7687b71-e238-5390-a43c-2552d9e641d6/");
+  await expect(
+    page.getByRole("heading", { name: "Lawrence W Lowman", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", {
+        name: "Columbia Broadcasting System",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Columbia Broadcasting System");
+  await expect(page.locator("body")).toContainText("vice president in charge of operations");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "A Wartime Organization for Unconventional Warfare",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.nps.gov/articles/a-wartime-organization-for-unconventional-warfare.htm",
+  );
+
+  await page.goto("./people/2ae252cc-7164-560c-b4b9-d8e91d49e05d/");
+  await expect(
+    page.getByRole("heading", { name: "John M Balsamo", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "The indexed John M. Balsamo is probably",
+  );
+  await expect(page.locator("body")).toContainText("Wall Street telegrapher");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(page.locator("body")).not.toContainText("Western Union");
+
+  await page.goto("./people/6989c183-4a99-52c5-a208-5f7b95f354d7/");
+  await expect(
+    page.getByRole("heading", { name: "William R Peers", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "probably commissioned service in the United States Army",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Intelligence Operations of OSS Detachment 101",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-4-no-3/intelligence-operations-of-oss-detachment-101/",
+  );
+
+  await page.goto("./people/45f220f1-4668-5395-b0e4-f7a4921b254f/");
+  await expect(
+    page.getByRole("heading", { name: "Nicol Smith", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Nichol Smith");
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "Self-employed", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Self-employed");
+  await expect(page.locator("body")).toContainText("travel writer and author");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "War of a Different Kind: OSS and Free Thai Operations in World War II",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/resources/csi/static/OSS-and-Free-Thai.pdf",
+  );
+
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 });

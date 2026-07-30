@@ -1,31 +1,31 @@
 # Software QA
 
-Run: 2026-07-29 UTC
+Run: 2026-07-30 UTC
 
 - Python unit tests: **30 / 30 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,131 pages**
-- Internal link check: **24,131 HTML files passed**
-- Browser and accessibility suite: **144 / 144 passed**
+- Static production build: **24,133 pages**
+- Internal link check: **24,133 HTML files passed**
+- Browser and accessibility suite: **147 / 147 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`d2b7a71d162dd50d238a11e26f216ccb8ec79ecc4141cb228720cfe38e2020fc`)
+  (`c7efb59c15f002e7ee71405a6161be6d2969021fd25bc37a9bade7b26a5afe36`)
 - Public redaction build: **passed**
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,211**
+  numbers at least six characters long: **0 full-number matches** in **24,213**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **384** public records representing **358** unique documents
-- Published, qualified affiliations: **299**
-- Published claims: **488**
+- Reviewed public sources: **394** public records representing **367** unique documents
+- Published, qualified affiliations: **304**
+- Published claims: **502**
 - Withheld low-confidence identity candidates: **3**
-- Verified-affiliation metric: **152** people with confirmed/high published
+- Verified-affiliation metric: **156** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **91** people with confirmed/high published
+- Verified-employer metric: **94** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -171,3 +171,9 @@ Youngstown radio-station occupation; Spyridon G. Kapponnis's Michigan State
 College, Navy, and direct USNR mission evidence; Arthur F. Reinhardt's Army Air
 Corps transition; Gail F. Donnalley's Ohio Wesleyan student status; and John W.
 Brunner's Army language course and deliberately unnamed pre-draft college.
+Batch 035 adds checks for Timothy R. Marsh's explicitly civilian Signal Corps
+employment and earlier Coyne Radio School study; Lawrence W. Lowman's CBS
+operations leadership; John M. Balsamo's probable, occupation-only Wall Street
+telegrapher identification without a guessed firm; William R. Peers's qualified
+Army pathway without an invented civilian employer; and Nicol Smith's
+self-employed travel writing without assigning a publisher as employer.
