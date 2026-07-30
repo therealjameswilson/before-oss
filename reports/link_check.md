@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,180 HTML files. Every relative
+**PASS.** The production build contains 24,183 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 231 organization profiles, and the
+The build includes 23,941 person profiles, 234 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,443 unique external URLs for separate live
+The checker inventoried 48,449 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -111,6 +111,17 @@ verification; external responses do not affect the internal-route pass.
 | Chronicling America collection | HTTP 403 to the automated checker; accessible through the public web/API surface during research |
 | CIA Reading Room OSS collection | Redirect loop in this environment; logged as a source-access blocker |
 | GitHub correction URL | HTTP 200 after the expected GitHub sign-in redirect |
+
+## Batch 065 local release check
+
+The rebuilt site contains direct, internally resolved routes for Harry S.
+Aldrich, Mary Aldrich, Wilson H. Aldrich, Thomas J. Aldridge, Arlene V. Ale,
+Janice H. Ale, Albert W. Alessi, Frank J. Alessi, Humbert Alessi, and Alexander
+Alexander. Harry Aldrich's profile links to the Army institutional history,
+official Congressional Record, and Theodore Roosevelt Center item record, and
+the new American Military Mission to China and Coast Artillery Corps
+organization routes resolve. The complete local link checker passed all 24,183
+HTML files and inventoried 48,449 unique external URLs.
 
 ## Production deployment
 

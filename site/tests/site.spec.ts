@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/118 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 195 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 196 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -5762,5 +5762,88 @@ test("Batch 064 separates four named employers, one occupation-only result, and 
   ).toHaveAttribute(
     "href",
     "https://photoarchive.lib.uchicago.edu/db.xqy?show=browse9.xml%7C233",
+  );
+});
+
+test("Batch 065 documents Aldrich's Army pathway and routes nine unresolved profiles to Box 8", async ({
+  page,
+}) => {
+  for (const terminalProfile of [
+    ["8a2af14d-c52b-5f88-a566-314cccf7b638", "Mary Aldrich"],
+    ["5de49930-d55b-52cc-a7f5-316c7610083b", "Wilson H Aldrich"],
+    ["1c7e6e19-bcc5-5b33-9f54-e470c0701439", "Thomas J Aldridge"],
+    ["b2cce279-49d7-5a70-8bba-296a9287aaf6", "Arlene V Ale"],
+    ["4d805c52-0062-56a9-801c-3d0f91712eaf", "Janice H Ale"],
+    ["0e5e37d5-e2d7-58e9-a41c-83f604397785", "Albert W Alessi"],
+    ["40598a68-9418-5fc7-8227-5987ac471891", "Frank J Alessi"],
+    ["53b28c63-9a49-5ca2-a60d-bfe3e9042f05", "Humbert Alessi"],
+    ["84348760-0c46-58bd-bdb5-77ccd79ef645", "Alexander Alexander"],
+  ]) {
+    await page.goto(`./people/${terminalProfile[0]}/`);
+    await expect(
+      page.getByRole("heading", { name: terminalProfile[1], exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("8", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••\d{4})$/);
+  }
+
+  await page.goto("./people/40ae0d59-f11e-5df2-ad1f-3777571f3195/");
+  await expect(
+    page.getByRole("heading", { name: "Harry S Aldrich", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("completed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "American Military Mission to China",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="earlier-affiliations"]')
+      .getByRole("heading", {
+        name: "United States Army Coast Artillery Corps",
+        exact: true,
+      }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "served first in Army intelligence and then in the Office of Strategic Services in 1944",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "A Preliminary Who's Who of U.S. Army Military Intelligence",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.yumpu.com/en/document/view/30019693/a-preliminary-whos-who-of-us-army-military-intelligence",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Congressional Record, 76th Congress, 3d Session, Volume 86, Part 8",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.govinfo.gov/content/pkg/GPO-CRECB-1940-pt8-v86/pdf/GPO-CRECB-1940-pt8-v86-12-1.pdf",
   );
 });

@@ -560,5 +560,14 @@ real-estate pathway visibly qualified. The complete desktop, phone, and tablet
 matrix passed 237 / 237 with no remaining assertion or serious/critical axe
 failure.
 
+The Batch 065 regression checks the contiguous Harry S. Aldrich-through-
+Alexander Alexander sequence across PDF pages four and five. It verifies Harry
+Starkey Aldrich's high-confidence identity, immediate Army-intelligence
+pathway, three earlier military assignments, claim-level citations, and the
+absence of an invented civilian employer. It also verifies nine Box 8
+archival-review profiles and field-level serial masking. The complete desktop,
+phone, and tablet matrix passed 240 / 240 with no remaining assertion or
+serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 468 people with a non-planned attempt | 23,941 person entities | 1.9548% |
-| Verified-affiliation coverage | 195 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8145% |
+| Research-attempt coverage | 478 people with a non-planned attempt | 23,941 person entities | 1.9966% |
+| Verified-affiliation coverage | 196 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8187% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 415 people with an individual file-access/priority assessment | 23,941 person entities | 1.7334% |
+| Archival-review coverage | 425 people with an individual file-access/priority assessment | 23,941 person entities | 1.7752% |
 
 ## Extraction and identity
 
@@ -22,10 +22,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 20
-- Identity status `high_confidence`: 242
+- Identity status `high_confidence`: 243
 - Identity status `probable`: 16
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,648
+- Identity status `unresolved`: 23,647
 
 ## Personnel categories
 
@@ -45,14 +45,14 @@ Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,473
+- `not_started`: 23,463
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 20
 - `occupation_only_found`: 21
-- `requires_archival_review`: 211
-- `completed`: 32
+- `requires_archival_review`: 220
+- `completed`: 33
 - `verified_employer_found`: 119
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -61,15 +61,15 @@ Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 197
+- Reviewed-web terminal-protocol attempts recorded: 207
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 271 across 257 people; 15 additional
+- Saved `source_reviewed` outcomes: 272 across 258 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,492
+- Total recorded attempts/plans: 1,502
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 252; 240 have at least one public-eligible
+- People with saved reviewed claims: 253; 241 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -268,11 +268,21 @@ Commissioned classification: 2,114 yes; 4,975 no; 16,852 indeterminate.
   Aldis's investment-firm employment is documented, while Maurina Aldecoa's
   immediate pre-OSS occupation remains an unnamed high-school Spanish-teaching
   role rather than an invented employer. Five profiles route to Box 8 review.
-- Published affiliations: 390
-- Database claims: 678; public-eligible claims: 663 (95 confirmed, 503 high, 65
+  Batch 065 additionally reviewed Harry S. Aldrich, Mary Aldrich, Wilson H.
+  Aldrich, Thomas J. Aldridge, Arlene V. Ale, Janice H. Ale, Albert W. Alessi,
+  Frank J. Alessi, Humbert Alessi, and Alexander Alexander. Exact-name
+  institutional and official evidence supports Harry Starkey Aldrich at high
+  identity confidence and explicitly sequences his U.S. Army intelligence
+  assignment before OSS service in 1944. His earlier Coast Artillery Corps,
+  Peking language-officer, and American Military Mission to China assignments
+  remain military affiliations, not civilian employers. The other nine
+  profiles have terminal no-result outcomes and route to Box 8 review without
+  unsupported employer claims.
+- Published affiliations: 394
+- Database claims: 683; public-eligible claims: 668 (95 confirmed, 508 high, 65
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 753; public source export: 572; unique source documents: 531
-- Canonical organizations: 233 private and 231 public
+- Citation records: 766; public source export: 576; unique source documents: 534
+- Canonical organizations: 236 private and 234 public
 - Conflicts: 0
 - NARA pull-list rows: 23,859
 
@@ -385,6 +395,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-a
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-albarranc-through-albertis-pathways_batch-062_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-albertsen-through-albright-pathways_batch-063_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-fourth-page-alchevesky-through-aldrich-pathways_batch-064_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-fourth-and-fifth-page-aldrich-through-alexander-pathways_batch-065_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

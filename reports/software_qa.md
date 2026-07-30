@@ -5,31 +5,32 @@ Run: 2026-07-30 UTC
 - Python unit tests: **47 / 47 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,180 pages**
-- Internal link check: **24,180 HTML files passed**
-- Browser and accessibility suite: **237 / 237 passed**
+- Static production build: **24,183 pages**
+- Internal link check: **24,183 HTML files passed**
+- Browser and accessibility suite: **240 / 240 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`608164928db10fc66ab76bd83cbc16cfc62104e1b5dd79497ddeed6d495d73d7`)
-- Clean-checkout replay: **byte-for-byte identical** public and generated data
-  after rebuilding the source PDF, page reviews, checkpoints, review decisions,
-  and all 64 evidence batches
+  (`a9e522e9dae7ffd4b25a9417ba26d23a29ed6e0f0b2aac372b700b0529fcebcf`)
+- Clean-checkout replay: **byte-for-byte identical** tracked public and
+  generated site data after rebuilding the source PDF, page reviews,
+  checkpoints, review decisions, and all 65 evidence batches. Six QA report
+  files changed only in their explicit run-generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `acb92bf5b94ed841cb3fa223175c076338c93e01240b143703d093995939c367`
+  `42dd143b80baebc316cb0eb8f4b428aef56d7430711540f3de47d1811d5c9f25`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Boundary-aware scan of **12,799** distinct normalized private service
-  numbers at least six characters long: **0 full-number matches** in **24,258**
+- Boundary-aware scan of **12,919** distinct normalized private service
+  numbers at least five characters long: **0 full-number matches** in **24,327**
   uncompressed public assets, generated site data, or production HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **572** public records representing **531** unique documents
-- Published, qualified affiliations: **390**
-- Published claims: **663**
+- Reviewed public sources: **576** public records representing **534** unique documents
+- Published, qualified affiliations: **394**
+- Published claims: **668**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
-- Verified-affiliation metric: **195** people with confirmed/high published
+- Verified-affiliation metric: **196** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **118** people with confirmed/high published
   employment or self-employment evidence
@@ -468,3 +469,14 @@ receive high-confidence identity evidence without unsupported employer claims;
 five profiles route to their Box 8 files. The regression checks all ten
 profiles, source links, organization routing, confidence qualifications, and
 field-level service-number masking across three viewports.
+Batch 065 completes the minimum online protocol for Harry S. Aldrich through
+Alexander Alexander across the page-four/page-five boundary. Exact-name Army
+institutional history, an official 1940 Congressional Record entry, and an
+institutional 1918 item record support Harry Starkey Aldrich at high identity
+confidence. The evidence explicitly sequences Army intelligence before his
+1944 OSS service and keeps his Coast Artillery Corps, Peking language-officer,
+and American Military Mission to China assignments separate from civilian
+employment. The other nine profiles have terminal no-result outcomes and route
+to Box 8 review. The regression checks all ten profiles, temporal and
+relationship distinctions, source links, and field-level service-number
+masking across three viewports.
