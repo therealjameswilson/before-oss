@@ -93,11 +93,11 @@ verification; external responses do not affect the internal-route pass.
 ## Production deployment
 
 GitHub Actions test workflow
-[30534966173](https://github.com/therealjameswilson/before-oss/actions/runs/30534966173)
+[30536094394](https://github.com/therealjameswilson/before-oss/actions/runs/30536094394)
 and GitHub Pages deployment
-[30534966224](https://github.com/therealjameswilson/before-oss/actions/runs/30534966224)
-for Ackelmire-through-Acord archival-pathways Batch 051 release
-`8c36046`
+[30536094364](https://github.com/therealjameswilson/before-oss/actions/runs/30536094364)
+for Acosta-through-Adams archival-pathways Batch 052 release
+`c03fbf3`
 completed
 successfully.
 
@@ -107,18 +107,18 @@ tested targets:
 
 - the home page;
 - the personnel directory;
-- John G. Ackelmire, Mignon S. Acker, Walter W. Acker, Eugene L. Ackerman,
-  Moris Ackerman, Benjamin R. Ackerson, Julia E. Ackert, Barbara H. Ackles,
-  Lester W. Ackley, and Joe F. Acord;
+- Francis J. Acosta Jr., Gilmore J. Acosta, William L. Acree, Doris D. Adair,
+  Milo J. Adair, Ben Adam, Allen G. Adams, Alton G. Adams, Andrew D. Adams,
+  and Arthur F. Adams;
 - `data/stats.json`;
 - `data/public_build_manifest.json`;
 - all four public CSV downloads;
 - the public personnel JSONL download; and
 - the sources-page NARA attribution notice.
 
-The live statistics report 23,978 source rows, 23,941 person entities, 339
+The live statistics report 23,978 source rows, 23,941 person entities, 349
 people with non-planned research attempts, 184 verified-affiliation people, 109
-verified-employer people, 286 archival-review assessments, 614 published
+verified-employer people, 296 archival-review assessments, 614 published
 claims, and 505 public source records. The live personnel, organizations,
 affiliations, and sources downloads contain 23,941, 220, 367, and 505 data rows
 respectively. The live personnel CSV header contains `serial_masked` and no
