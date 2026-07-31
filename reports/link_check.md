@@ -1139,6 +1139,37 @@ identifier matches. Two consecutive static builds produced the identical
 site-tree SHA-256
 `b02198b9456ac3cd8d5aa20c04c7003c277dd28f30dd898d10762ea664228afe`.
 
+## Batch 100 production deployment
+
+GitHub Actions test workflow
+[30647900341](https://github.com/therealjameswilson/before-oss/actions/runs/30647900341)
+and GitHub Pages deployment
+[30647900218](https://github.com/therealjameswilson/before-oss/actions/runs/30647900218)
+for the page-thirteen James-H.-Armstrong-through-George-C.-Arnberg release
+`f495502` completed successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: seven core
+publication pages, all ten Batch 100 person profiles, and the United States
+Army Air Forces 19th Weather Squadron, Isham, Lincoln & Beale, and French Army
+organization profiles. After substituting both production and local plain and
+URL-encoded canonical hosts, every route matched the audited local HTML
+byte-for-byte.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 822
+people with non-planned research attempts, 223 verified-affiliation people,
+127 verified-employer people, 770 archival-review assessments, 782 published
+claims, and 738 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 261, 448, and 738 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`a2fd3c71b674be96ef2b2ba9f43b4f51ed5f5afc32e4587db68a6ee21bdf1fbb`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across the 85 audited live HTML and manifest-listed artifacts.
+
 ## Batch 099 local release check
 
 The rebuilt site contains direct, internally resolved routes for M. E.
