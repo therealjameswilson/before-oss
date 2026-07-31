@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,200 HTML files. Every relative
+**PASS.** The production build contains 24,205 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 251 organization profiles, and the
+The build includes 23,941 person profiles, 256 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,525 unique external URLs for separate live
+The checker inventoried 48,548 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1113,6 +1113,31 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 097 local release check
+
+The rebuilt site contains direct, internally resolved routes for Oliver W.
+Arden, Joseph F. Ardinger, John G. Ardon, Phillip J. Arengi, Conrad Arensberg,
+Julius Arensteim, Florence T. Arft, Christian A. Argyris, Lemonis J.
+Argyropais, and Edward Arida. Seven profiles visibly retain unresolved
+identity status, evidence-limited employer wording, and Box 20 or 21 archival
+guidance. Arengi's qualified Army path is separate from the absent civilian
+employer; Arensberg's Brooklyn College and MIT roles remain temporally
+distinct; Argyropais's two university relationships are labeled as student
+affiliations rather than employment.
+
+The complete local link checker passed all 24,205 HTML files and inventoried
+48,548 unique external URLs. The public downloads contain 23,941 person rows,
+256 organization rows, 438 affiliation rows, and 713 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in
+both the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`20864475d9572f30c923fbd073c0d29ea8d29f6ad52fe0e4f0eca2bf2429edae`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,244 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`98c04d4c35b3310b6e534d0aec5ef2dc59965a6bfedc853c33af3741a2767450`.
 
 ## Batch 096 local release check
 

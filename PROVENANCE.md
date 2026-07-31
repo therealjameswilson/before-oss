@@ -1429,6 +1429,61 @@ no live NARA API response was retained. The PDF page render used for visual
 inspection was removed after review. No full service identifier appears in
 the evidence bundle or public projection.
 
+## Page-twelve Arden-through-Arida pathways, Batch 097
+
+`research/evidence-page-twelve-arden-through-arida-pathways_batch-097_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-twelve rows from Oliver W.
+Arden through Edward Arida. The bundle contains ten person updates, ten
+durable research attempts, nineteen source records, five organizations, five
+affiliations, eight claims, and nineteen claim-source links.
+
+Phillip J. Arengi is confirmed through the exact indexed name and middle
+initial, matching Technical Sergeant rank, and an Italian Operational Group
+Simcol mission roster whose compiler identifies the underlying NARA RG 226,
+Entry 143, Box 9 reports. A Rochester *Democrat and Chronicle* obituary
+independently corroborates OSS service. A contributor-maintained Army
+directory supplies only a qualified 1940 Army starting point, so the immediate
+Army pathway is medium confidence and strongly date-bounded rather than a
+confirmed exact Army-to-OSS transfer. No civilian employer is asserted, and
+the underlying mission reports remain an archival-review target.
+
+Conrad Arensberg is a high-confidence identity. The Smithsonian National
+Anthropological Archives finding aid, based partly on his curriculum vitae,
+documents an MIT assistant professorship in 1938–1941, Brooklyn College
+associate professorship and department chairmanship in 1941–1946, and Army
+military-intelligence service in 1943–1946. Columbia University and the
+Association for Cultural Equity independently corroborate the academic and
+wartime chronology. Brooklyn College is therefore modeled as the
+strongly-date-bounded last civilian employer and MIT as earlier documented
+prewar employment. The exact significance of the indexed `WAE` grade and the
+administrative transition into OSS still require the Box 21 file.
+
+Lemonis J. Argyropais is high-confidence from two contemporary Clark
+University geography newsletters. The 1941 issue identifies a graduate
+student from Limni-Euboea who had graduated from the University of Athens; the
+1945 issue places the same uncommon name in the OSS Topographic Mapping
+Section. Clark is a qualified probable-immediate student affiliation, not an
+employer, and the University of Athens remains an earlier student
+relationship. The 1945 newsletter prints an M.A. date of 1942, while Clark's
+later thesis index places the thesis under 1943; the discrepancy is preserved
+rather than harmonized.
+
+Oliver W. Arden, Joseph F. Ardinger, John G. Ardon, Julius Arensteim, Florence
+T. Arft, Christian A. Argyris, and Edward Arida remain unresolved after the
+staged official-context, CIA, exact-name OSS, employment/occupation, obituary,
+institutional, newspaper, archival, and Library of Congress protocol. The
+printed Arensteim spelling and unfamiliar `SP PS 1/` grade remain unchanged;
+Arenstein and Arnstein are search aliases only. The well-known scholar Chris
+Argyris was rejected because Yale's biography describes a Signal Corps second
+lieutenant, conflicting with the indexed captain rank, and supplies no OSS or
+other indexed-identifier link. All seven unresolved profiles retain targeted
+Box 20 or Box 21 guidance.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. The PDF page render used for visual
+inspection was removed after review. No full service identifier appears in
+the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

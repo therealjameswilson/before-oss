@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/126 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/127 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 218 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 220 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8821,6 +8821,150 @@ test("Batch 096 separates Archbold's civilian livelihood from naval service and 
       "28a26f92-78af-5a1a-9c09-a843eb5975b4",
       "United States Army",
       "Anthony A Archuleta Jr.",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+  }
+});
+
+test("Batch 097 publishes Arensberg and Argyropais in distinct evidence lanes while preserving seven archival cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1d67bdcc-9f3f-509a-a3ef-b3863cbe4055", "Oliver W Arden", "20"],
+    ["2b0c15bf-22b1-5141-b5d1-3c175e8e87f9", "Joseph F Ardinger", "20"],
+    ["82d0c2da-14d4-5d90-b605-57da5a928978", "John G Ardon", "20"],
+    ["363c7ba5-99c0-548e-b1f5-eb1e8a57941f", "Phillip J Arengi", "21"],
+    ["97a70dce-399d-536b-bba9-efa7d76f42a1", "Conrad Arensberg", "21"],
+    ["bd0eb8e5-edf6-5a2b-9433-6395c59b8f50", "Julius Arensteim", "21"],
+    ["fba157a4-9abc-5fcf-99c0-655b5b1eaaaf", "Florence T Arft", "21"],
+    ["d6683ada-a492-5dc4-b546-cf39918ccdf8", "Christian A Argyris", "21"],
+    ["a21b2937-f993-5cb1-91e4-a7d85eef14ee", "Lemonis J Argyropais", "21"],
+    ["79f86e73-77b8-510e-803e-c963d7b83872", "Edward Arida", "21"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "1d67bdcc-9f3f-509a-a3ef-b3863cbe4055",
+    "2b0c15bf-22b1-5141-b5d1-3c175e8e87f9",
+    "82d0c2da-14d4-5d90-b605-57da5a928978",
+    "bd0eb8e5-edf6-5a2b-9433-6395c59b8f50",
+    "fba157a4-9abc-5fcf-99c0-655b5b1eaaaf",
+    "d6683ada-a492-5dc4-b546-cf39918ccdf8",
+    "79f86e73-77b8-510e-803e-c963d7b83872",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  await page.goto("./people/d6683ada-a492-5dc4-b546-cf39918ccdf8/");
+  await expect(page.locator("body")).toContainText(
+    "before reconsidering any namesake",
+  );
+  await expect(page.locator("body")).not.toContainText(
+    "authority on organizational behavior",
+  );
+
+  await page.goto("./people/363c7ba5-99c0-548e-b1f5-eb1e8a57941f/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("medium");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+
+  await page.goto("./people/97a70dce-399d-536b-bba9-efa7d76f42a1/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Brooklyn College");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Massachusetts Institute of Technology");
+  await expect(page.locator("body")).toContainText(
+    "dates Arensberg's Brooklyn College appointment from 1941 to 1946",
+  );
+
+  await page.goto("./people/a21b2937-f993-5cb1-91e4-a7d85eef14ee/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Clark University");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("student");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("University of Athens");
+  await expect(page.locator("body")).toContainText(
+    "disagree whether the master's degree was recorded in 1942 or 1943",
+  );
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "8f419f2a-9478-5d6d-944c-1949855cf8c5",
+      "Brooklyn College",
+      "Conrad Arensberg",
+    ],
+    [
+      "c254b90a-52af-5598-a9f9-9ac1d4406f16",
+      "Massachusetts Institute of Technology",
+      "Conrad Arensberg",
+    ],
+    [
+      "10d9d453-94cc-59e5-a1ca-c337fe5ddc76",
+      "Clark University",
+      "Lemonis J Argyropais",
+    ],
+    [
+      "31f32f7f-e7dc-5c4b-a43f-38432dbcca53",
+      "National and Kapodistrian University of Athens",
+      "Lemonis J Argyropais",
     ],
   ]) {
     await page.goto(`./organizations/${organizationId}/`);

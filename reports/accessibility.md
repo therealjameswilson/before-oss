@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 330 / 330 browser cases.**
+**PASS - 336 / 336 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-125-person employer measure is labeled separately from the 216-person broader
+127-person employer measure is labeled separately from the 220-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -984,3 +984,29 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 097 accessibility and responsive regression
+
+The Batch 097 regression checks the ten contiguous page-twelve profiles from
+Oliver W. Arden through Edward Arida. It verifies every direct profile, Box 20
+or 21, field-level serial masking, and the seven visibly unresolved
+identities. It also checks that Arensteim remains the indexed spelling, the
+unfamiliar `SP PS 1/` grade remains unexpanded, and the rejected Chris Argyris
+namesake does not become the indexed captain.
+
+Phillip J. Arengi's profile is tested for a qualified immediate Army pathway
+and no civilian employer. Conrad Arensberg's profile is tested for separate
+last-civilian Brooklyn College and earlier MIT employment sections, including
+relationship and temporal-basis labels. Lemonis J. Argyropais's profile is
+tested for distinct Clark and University of Athens student relationships, the
+preserved master's-date discrepancy, and the absence of either institution
+from employer analytics. Direct organization routes link back to the intended
+profiles.
+
+The first complete matrix found only three homepage totals left at Batch 096
+values while 330 checks passed; updating them to the generated Batch 097
+totals resolved the mismatch. The initial focused run then exposed two
+assertions against private research notes that are intentionally not rendered;
+those checks were aligned with visible evidence and archival guidance. The
+focused desktop, phone, and tablet rerun passed 6 / 6. The complete final
+matrix passed 336 / 336 with no assertion or serious/critical axe failure.
