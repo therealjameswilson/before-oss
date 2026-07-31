@@ -9389,3 +9389,110 @@ test("Batch 100 preserves qualified Armstrong pathways and the confirmed Arnault
     ).toBeVisible();
   }
 });
+
+test("Batch 101 confirms Arnesen's qualified Army pathway while preserving archival uncertainty", async ({
+  page,
+}) => {
+  const profiles = [
+    ["f8ad75b2-c1e6-5482-a266-7a616dc8dc91", "Clifford H Arndt"],
+    ["3e4999fa-bd44-5300-b1f0-ad2537af049a", "Miriam I Arndt"],
+    ["3156f1ce-ab52-5e4a-b2fd-35a79fe3e993", "Alf G Arnesen"],
+    ["15854cf9-9dc9-546f-9218-30618f650064", "Reider Arnesen"],
+    ["7c477047-2696-5bac-a1ea-d5c5b17e5b61", "Homer E Arnett"],
+    ["16cc3b9b-ec35-5204-baaf-f49e58a16d28", "Lucy V Arnett"],
+    ["fe87f961-64ba-5034-a271-0180451ed3ac", "Maynard C Arney"],
+    ["46bc841b-578f-5007-807a-7733295de70b", "George A Arnold"],
+    ["e3f8d84c-d5b1-5243-91bf-9f94cd68f3e0", "Glenn E Arnold"],
+    ["50cd9e33-505c-51de-a9f0-aed4ec096c72", "Harry K Arnold"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("22", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "f8ad75b2-c1e6-5482-a266-7a616dc8dc91",
+    "3e4999fa-bd44-5300-b1f0-ad2537af049a",
+    "15854cf9-9dc9-546f-9218-30618f650064",
+    "7c477047-2696-5bac-a1ea-d5c5b17e5b61",
+    "16cc3b9b-ec35-5204-baaf-f49e58a16d28",
+    "46bc841b-578f-5007-807a-7733295de70b",
+    "e3f8d84c-d5b1-5243-91bf-9f94cd68f3e0",
+    "50cd9e33-505c-51de-a9f0-aed4ec096c72",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/15854cf9-9dc9-546f-9218-30618f650064/");
+  await expect(page.locator(".index-record").first()).toContainText("possibly");
+  await expect(page.locator("main")).toContainText(
+    "conflicting 99th Infantry candidate",
+  );
+
+  await page.goto("./people/3156f1ce-ab52-5e4a-b2fd-35a79fe3e993/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army, 99th Infantry Battalion (Separate)");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("medium");
+  await expect(
+    page.getByRole("link", {
+      name: "Headquarters Operational Group Command, Special Orders Number 9",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /archives\.gov\/files\/research\/jfk\/releases/);
+
+  await page.goto("./people/fe87f961-64ba-5034-a271-0180451ed3ac/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+  await expect(page.locator("main")).toContainText("PFC. MAYNARD C. ARNEY");
+  await expect(
+    page.getByRole("link", {
+      name: "Honor Roll Album of Bayfield County Men and Women Who Served in World War II",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /worldwartwoveterans\.org/);
+
+  await page.goto("./organizations/a520c0e7-81d8-5aea-90d7-ddb0b2ce5eff/");
+  await expect(
+    page.getByRole("heading", {
+      name: "United States Army, 99th Infantry Battalion (Separate)",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.locator("h3").getByRole("link", { name: "Alf G Arnesen", exact: true }),
+  ).toBeVisible();
+});

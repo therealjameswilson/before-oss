@@ -1,0 +1,671 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex reviewed evidence batch 101",
+  "person_updates": [
+    {
+      "person_id": "f8ad75b2-c1e6-5482-a266-7a616dc8dc91",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Clifford H. Arndt, Technician Fourth Grade, and Box 22. Exact-name, rank, OSS, Army, employment, occupation, obituary, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches returned modern or insufficiently identified namesakes rather than evidence tied to the indexed soldier.",
+      "name_variants": [
+        "Clifford H Arndt",
+        "Clifford H. Arndt",
+        "Arndt, Clifford H"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 and official Army records to establish Clifford H. Arndt's full middle name, birth details, unit, occupation, last civilian employer, and OSS transfer chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3e4999fa-bd44-5300-b1f0-ad2537af049a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Miriam I. Arndt, civilian grade Caf-4, and Box 22. Exact-name, grade, OSS, federal-employment, employment, occupation, obituary, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches returned modern or unrelated namesakes without a second wartime identifier.",
+      "name_variants": [
+        "Miriam I Arndt",
+        "Miriam I. Arndt",
+        "Arndt, Miriam I"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 and federal personnel records to establish Miriam I. Arndt's full middle name, profession, employing agency, last civilian employer, and OSS entry chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3156f1ce-ab52-5e4a-b2fd-35a79fe3e993",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified NARA index, Denver Public Library's 10th Mountain Division name index, and an official OSS special order align on the exact full name and private identifier. The DPL index places Alf G. Arnesen in Company D, 99th Infantry; the 9 May 1945 OSS order names Technical Sergeant Alf G. Arnesen in an assignment to Company B, Special Reconnaissance Battalion. The identifier was compared privately and is not published.",
+      "name_variants": [
+        "Alf G Arnesen",
+        "Alf G. Arnesen",
+        "T Sgt Alf G Arnesen",
+        "Arnesen, Alf G"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 22 and the underlying 99th Infantry and OSS personnel records to confirm the exact transfer sequence, reconcile the corporal and technical-sergeant grades, and identify any last civilian employer before Army service. No reliable pre-service civilian employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "15854cf9-9dc9-546f-9218-30618f650064",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Reider Arnesen, Private, the printed note 'possibly,' and Box 22. Denver Public Library indexes a Reider W. Arnesen in Company A, 99th Infantry, but that candidate has an added middle initial and a private identifier that conflicts with the OSS index. The candidate therefore remains explicitly rejected rather than merged.",
+      "name_variants": [
+        "Reider Arnesen",
+        "Arnesen, Reider"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 to interpret the printed note 'possibly,' establish Reider Arnesen's full name and service history, and determine whether the conflicting 99th Infantry candidate is a different person or reflects an index error. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7c477047-2696-5bac-a1ea-d5c5b17e5b61",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Homer E. Arnett with no printed rank and Box 22. Exact-name, OSS, military, employment, occupation, obituary, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches found no candidate with corroborating wartime or archival identifiers.",
+      "name_variants": [
+        "Homer E Arnett",
+        "Homer E. Arnett",
+        "Arnett, Homer E"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 to establish Homer E. Arnett's personnel status, full middle name, birth details, occupation, last civilian employer or military assignment, and OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "16cc3b9b-ec35-5204-baaf-f49e58a16d28",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Lucy V. Arnett, civilian grade Caf-4, and Box 22. Exact-name, grade, OSS, federal-employment, employment, occupation, obituary, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches found no candidate linked to the grade, OSS, or another corroborating wartime identifier.",
+      "name_variants": [
+        "Lucy V Arnett",
+        "Lucy V. Arnett",
+        "Arnett, Lucy V"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 and federal personnel records to establish Lucy V. Arnett's full middle name, profession, employing agency, last civilian employer, and OSS entry chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fe87f961-64ba-5034-a271-0180451ed3ac",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified NARA row supplies the distinctive name Maynard C. Arney, Private, and Box 22. A contemporary Bayfield County honor-roll album depicts and names Pfc. Maynard C. Arney, gives Bayfield family and spouse details, dates his Army entry to 8 January 1943, and identifies the 61st Engineer Combat Battalion. The uncommon exact full name, compatible enlisted grade, and detailed wartime chronology support a probable match, but the honor roll lacks the private identifier and does not mention OSS.",
+      "name_variants": [
+        "Maynard C Arney",
+        "Maynard C. Arney",
+        "Pfc. Maynard C. Arney",
+        "Arney, Maynard C"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 and official Army records to compare the Bayfield County candidate's direct identifiers, establish whether the 61st Engineer Combat Battalion assignment preceded or followed OSS activity, and identify any last civilian employer before Army entry. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "46bc841b-578f-5007-807a-7733295de70b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies George A. Arnold, Technician Fourth Grade, and Box 22. Because the name is common, exact-name, rank, OSS, Army, employment, occupation, obituary, cemetery, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches were tested for multiple corroborating identifiers; none connected a candidate to this index record.",
+      "name_variants": [
+        "George A Arnold",
+        "George A. Arnold",
+        "Arnold, George A"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 and official Army records to establish George A. Arnold's full middle name, birth details, unit, occupation, last civilian employer, and OSS transfer chronology; require at least two identifiers beyond the common name. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e3f8d84c-d5b1-5243-91bf-9f94cd68f3e0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Glenn E. Arnold, Private, and Box 22. Exact-name, rank, OSS, Army, employment, occupation, obituary, cemetery, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches produced several same-name veterans and life records, but none supplied the multiple corroborating identifiers required for this common name.",
+      "name_variants": [
+        "Glenn E Arnold",
+        "Glenn E. Arnold",
+        "Arnold, Glenn E"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 and official Army records to establish Glenn E. Arnold's full middle name, birth details, unit, occupation, last civilian employer, and OSS transfer chronology; do not choose among same-name veterans without direct linkage. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "50cd9e33-505c-51de-a9f0-aed4ec096c72",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Harry K. Arnold with no printed rank and Box 22. Exact-name, OSS, military, employment, occupation, obituary, city-directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches found multiple commercial and residential namesakes but no candidate linked to OSS, Box 22, or another corroborating wartime identifier.",
+      "name_variants": [
+        "Harry K Arnold",
+        "Harry K. Arnold",
+        "Arnold, Harry K"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 22 to establish Harry K. Arnold's personnel status, full middle name, birth details, occupation, last civilian employer or military assignment, and OSS chronology before evaluating city-directory namesakes. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nara-oss-index-page-13-arndt-clifford-h",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 31; Arndt, Clifford H.; T-4; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Any full service identifier is retained only in private source rows and omitted from public evidence."
+    },
+    {
+      "key": "nara-oss-index-page-13-arndt-miriam-i",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 32; Arndt, Miriam I.; Caf-4; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Civilian grade Caf-4 is preserved exactly; any full service identifier is retained only in private source rows."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnesen-alf-g",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 33; Arnesen, Alf G.; T/Sgt; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnesen-reider",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 34; Arnesen, Reider; Pvt; note 'possibly'; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private; the printed note 'possibly' is preserved exactly."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnett-homer-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 35; Arnett, Homer E.; no rank printed; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No personnel category is inferred from the blank rank field."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnett-lucy-v",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 36; Arnett, Lucy V.; Caf-4; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Civilian grade Caf-4 is preserved exactly."
+    },
+    {
+      "key": "nara-oss-index-page-13-arney-maynard-c",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 37; Arney, Maynard C.; Pvt; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnold-george-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 38; Arnold, George A.; T-4; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnold-glenn-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 39; Arnold, Glenn E.; Pvt; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-13-arnold-harry-k",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 22",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 13, row 40; Arnold, Harry K.; no rank printed; Box 22; archive location 230/86/26/06; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. No personnel category is inferred from the blank rank field."
+    },
+    {
+      "key": "denver-public-library-10th-mountain-name-index-arnesen",
+      "stable_url": "https://history.denverlibrary.org/sites/history/files/10th%20Mountain%20Division%20Name%20Index%20%281%29.pdf",
+      "title": "10th Mountain Division Name Index",
+      "author_creator": "Keli Schmid",
+      "repository_publisher": "Denver Public Library, Western History and Genealogy",
+      "publication_record_date": "2023-05-03",
+      "locator": "PDF page 25; Alf G. Arnesen, CPL, Company D, 99th Infantry; Reider W. Arnesen, Pvt, Company A, 99th Infantry; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "10th Mountain Division Resource Center",
+      "rights_notes": "Institutional name index. Private identifiers were used for resolution and rejection but are omitted from public evidence."
+    },
+    {
+      "key": "nara-oss-operational-group-special-orders-9-1945-05-09",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10121.pdf",
+      "archival_identifier": "104-10165-10121",
+      "title": "Headquarters Operational Group Command, Special Orders Number 9",
+      "author_creator": "Office of Strategic Services, Headquarters Operational Group Command",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-05-09",
+      "locator": "PDF page 7, item 3; Technical Sergeant Alf G. Arnesen assigned to Company B, Special Reconnaissance Battalion; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Archives JFK Assassination Records release",
+      "document_number": "Special Orders Number 9",
+      "rights_notes": "Official record. The full private identifier is omitted from public evidence."
+    },
+    {
+      "key": "bolland-among-the-firsts-99th-oss-selection-2022",
+      "stable_url": "https://www.casematepublishers.com/9781636241210/among-the-firsts-lieutenant-colonel-gerhard-l-bollands-unconventional-war/",
+      "archival_identifier": "ISBN 9781636241210",
+      "title": "Among the Firsts: Lieutenant Colonel Gerhard L. Bolland's Unconventional War",
+      "author_creator": "Matthew T. Bolland",
+      "repository_publisher": "Casemate Publishers",
+      "publication_record_date": "2022",
+      "locator": "Pages 106-107; OSS interviews and selection of personnel from the 99th Infantry Battalion for OSS training",
+      "access_date": "2026-07-31",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Published scholarly history; only short excerpts are retained."
+    },
+    {
+      "key": "sheridan-bayfield-county-wwii-honor-roll-maynard-arney-1947",
+      "stable_url": "https://worldwartwoveterans.org/wp-content/uploads/2021/11/Bayfield-county-Wisconsin-PDF-Book-WM.pdf",
+      "archival_identifier": "OCLC 26477701",
+      "title": "Honor Roll Album of Bayfield County Men and Women Who Served in World War II",
+      "author_creator": "Charles M. Sheridan, compiler and editor",
+      "repository_publisher": "The Washburn Times, Washburn, Wisconsin",
+      "publication_record_date": "1947",
+      "locator": "PDF page 15; portrait and service note for Pfc. Maynard C. Arney; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Bayfield County World War II community honor roll",
+      "rights_notes": "Contemporary local honor roll; only a short excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-99th-infantry-battalion-separate",
+      "canonical_name": "United States Army, 99th Infantry Battalion (Separate)",
+      "historical_name": "99th Infantry Battalion (Separate)",
+      "aliases": [
+        "99th Infantry",
+        "99th Infantry Battalion"
+      ],
+      "organization_type": "military unit",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Modeled as a specific historical U.S. Army battalion; not merged into OSS or the later 474th Infantry Regiment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "alf-g-arnesen-99th-infantry-company-d-probable-immediate",
+      "person_id": "3156f1ce-ab52-5e4a-b2fd-35a79fe3e993",
+      "organization_key": "us-army-99th-infantry-battalion-separate",
+      "organization_name_as_found": "Company D, 99th Infantry",
+      "role_title": "Enlisted member",
+      "occupation": "Army soldier",
+      "relationship_type": "military_assignment",
+      "date_precision": "The DPL index documents Company D, 99th Infantry; published history documents OSS selection from the battalion, but Arnesen's individual transfer date is not established.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact full name and private identifier align across the OSS index, DPL index, and official OSS order. The 99th-to-OSS sequence is well documented at unit level but not stated explicitly for Arnesen, so the immediate-predecessor claim remains qualified. Rank variation is preserved rather than harmonized."
+    }
+  ],
+  "claims": [
+    {
+      "key": "alf-g-arnesen-confirmed-oss-identity",
+      "person_id": "3156f1ce-ab52-5e4a-b2fd-35a79fe3e993",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alf G. Arnesen is the 99th Infantry soldier named in the 9 May 1945 OSS Operational Group order.",
+      "evidence_excerpt": "T Sgt Alf G Arnesen",
+      "evidence_paraphrase": "The NARA index, DPL unit index, and official OSS order align on the exact full name and private identifier; the latter two add unit and OSS context.",
+      "identity_match_assessment": "Confirmed by exact full name and private identifier in three independently maintained records, compatible enlisted grades, a 99th Infantry assignment, and direct OSS Operational Group context.",
+      "temporal_assessment": "The official order documents Arnesen in an OSS reassignment on 9 May 1945; the DPL index documents his earlier 99th Infantry unit without a precise date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The DPL index lists corporal while the OSS records list technical sergeant. The identity is confirmed by the private identifier, but the grade chronology requires archival review.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-13-arnesen-alf-g",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "denver-public-library-10th-mountain-name-index-arnesen",
+          "locator_override": "PDF page 25; Alf G. Arnesen entry",
+          "excerpt_override": "ALF G | ARNESEN | D | 99TH INF"
+        },
+        {
+          "source_key": "nara-oss-operational-group-special-orders-9-1945-05-09",
+          "locator_override": "PDF page 7, item 3",
+          "excerpt_override": "T Sgt Alf G Arnesen"
+        }
+      ]
+    },
+    {
+      "key": "alf-g-arnesen-probable-immediate-99th-infantry",
+      "person_id": "3156f1ce-ab52-5e4a-b2fd-35a79fe3e993",
+      "affiliation_key": "alf-g-arnesen-99th-infantry-company-d-probable-immediate",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Alf G. Arnesen's best-supported immediate pre-OSS assignment is Company D, 99th Infantry Battalion (Separate).",
+      "evidence_excerpt": "ALF G | ARNESEN | D | 99TH INF",
+      "evidence_paraphrase": "DPL links the confirmed person to Company D, 99th Infantry; Bolland documents OSS selection from that battalion, and an official order later places Arnesen in OSS.",
+      "identity_match_assessment": "The person is confirmed by exact full name and private identifier across the index, DPL record, and official OSS order.",
+      "temporal_assessment": "Probable immediate pathway: the battalion supplied OSS recruits, but no reviewed source explicitly says Arnesen personally transferred directly from Company D.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a qualified unit-pathway conclusion, not an explicit transfer statement. It is excluded from high-confidence-only analytics unless medium-confidence claims are selected.",
+      "sources": [
+        {
+          "source_key": "denver-public-library-10th-mountain-name-index-arnesen",
+          "locator_override": "PDF page 25; Alf G. Arnesen entry",
+          "excerpt_override": "ALF G | ARNESEN | D | 99TH INF"
+        },
+        {
+          "source_key": "bolland-among-the-firsts-99th-oss-selection-2022",
+          "support_type": "context_only",
+          "excerpt_override": "the OSS conducted extensive interviews"
+        },
+        {
+          "source_key": "nara-oss-operational-group-special-orders-9-1945-05-09",
+          "support_type": "context_only",
+          "locator_override": "PDF page 7, item 3"
+        }
+      ]
+    },
+    {
+      "key": "maynard-c-arney-probable-bayfield-veteran-identity",
+      "person_id": "fe87f961-64ba-5034-a271-0180451ed3ac",
+      "claim_type": "identity",
+      "claim_text": "A probable match identifies the indexed Private Maynard C. Arney with the Bayfield County soldier of the same uncommon full name and compatible grade.",
+      "evidence_excerpt": "PFC. MAYNARD C. ARNEY",
+      "evidence_paraphrase": "The contemporary honor roll provides a portrait, exact full name, Bayfield family details, 1943 Army entry, training locations, overseas service, and 61st Engineer Combat Battalion assignment.",
+      "identity_match_assessment": "Probable from the distinctive exact full name, compatible enlisted grade, and detailed World War II service chronology; confirmation awaits a direct identifier comparison.",
+      "temporal_assessment": "The honor roll dates Army entry to 8 January 1943 and discharge to 24 January 1946 but does not mention OSS or establish where OSS fits in that chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source documents wartime Army service, not a pre-OSS employer or immediate predecessor. No affiliation is published because its temporal relation to OSS remains unresolved.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-13-arney-maynard-c",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "sheridan-bayfield-county-wwii-honor-roll-maynard-arney-1947",
+          "locator_override": "PDF page 15",
+          "excerpt_override": "PFC. MAYNARD C. ARNEY"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch101-clifford-h-arndt-no-reliable-result",
+      "person_id": "f8ad75b2-c1e6-5482-a266-7a616dc8dc91",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Clifford H Arndt\" OSS; \"Clifford H. Arndt\" Army WWII; T-4; employer occupation 1940; obituary; directory; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "exact_name_rank_army_oss_employment_archival",
+      "started_at": "2026-07-31T16:45:00Z",
+      "completed_at": "2026-07-31T17:08:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern people-search results and same-name references lacked compatible wartime service, T-4 rank, OSS context, or another corroborating identifier.",
+      "research_notes": "The minimum protocol covered the visually checked NARA row, official context, CIA Reading Room, exact-name and rank variants, employment and occupation, obituary, directory, newspaper, institutional, and Library of Congress stages. No affiliation is published.",
+      "next_action": "Review Box 22 and official Army records for identity, unit, service chronology, and pre-service employment.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-miriam-i-arndt-no-reliable-result",
+      "person_id": "3e4999fa-bd44-5300-b1f0-ad2537af049a",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Miriam I Arndt\" OSS; \"Miriam I. Arndt\" 1940; Caf-4; federal employee; employer occupation; obituary; directory; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "exact_name_civilian_grade_oss_federal_employment_archival",
+      "started_at": "2026-07-31T16:47:00Z",
+      "completed_at": "2026-07-31T17:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern and unrelated namesakes lacked Caf-4, OSS, federal-employment evidence, or another corroborating wartime identifier.",
+      "research_notes": "The minimum protocol covered the visually checked NARA row, official context, CIA Reading Room, exact-name and grade variants, employment and occupation, obituary, directory, newspaper, institutional, and Library of Congress stages. No affiliation is published.",
+      "next_action": "Review Box 22 and federal personnel records for identity, profession, employing agency, and prior employment.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-alf-g-arnesen-99th-infantry-oss-pathway",
+      "person_id": "3156f1ce-ab52-5e4a-b2fd-35a79fe3e993",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Alf G Arnesen\" OSS; \"Alf G. Arnesen\" 99th Infantry; NORSO; Operational Group; Special Reconnaissance Battalion; employer occupation 1940; obituary; unit history; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "exact_name_unit_official_order_identifier_aware_oss_employment_archival",
+      "started_at": "2026-07-31T16:49:00Z",
+      "completed_at": "2026-07-31T17:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "An obituary for a son and modern Norwegian namesakes were excluded; relatives were not used as the principal identity basis. The unit-to-OSS pathway remains qualified because no source explicitly states Arnesen's individual transfer sequence.",
+      "research_notes": "The NARA index, DPL unit index, and official OSS order were visually checked. The exact full name and private identifier align across all three, confirming identity. DPL places Arnesen in Company D, 99th Infantry; the later OSS order places him in an OSS unit. No civilian employer was established.",
+      "next_action": "Review Box 22 and original transfer records for the precise 99th Infantry-to-OSS sequence, grade chronology, and pre-service civilian employment.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-reider-arnesen-conflicting-99th-candidate",
+      "person_id": "15854cf9-9dc9-546f-9218-30618f650064",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Reider Arnesen\" OSS; Reider and Reidar spelling variants; 99th Infantry; NORSO; private identifier compared without publication; employer occupation; obituary; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "exact_name_spelling_variants_identifier_conflict_unit_oss_archival",
+      "started_at": "2026-07-31T16:51:00Z",
+      "completed_at": "2026-07-31T17:27:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Denver Public Library candidate adds middle initial W and has a private identifier that conflicts with the OSS index. Genealogy and modern namesakes lacked direct OSS linkage. The DPL candidate was not merged.",
+      "research_notes": "The printed note 'possibly' is preserved exactly without interpretation. Official, CIA, exact-name, spelling-variant, unit, occupation, employer, obituary, institutional, newspaper, and archival checks were completed. No affiliation is published.",
+      "next_action": "Review Box 22 to interpret the note, establish the full name, and resolve the conflicting 99th Infantry candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-homer-e-arnett-no-reliable-result",
+      "person_id": "7c477047-2696-5bac-a1ea-d5c5b17e5b61",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Homer E Arnett\" OSS; \"Homer E. Arnett\" WWII; employer occupation 1940; obituary; directory; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "exact_name_unknown_status_oss_employment_archival",
+      "started_at": "2026-07-31T16:53:00Z",
+      "completed_at": "2026-07-31T17:12:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A nineteenth-century marriage record for a near-name and unrelated same-surname records lacked the indexed spelling, compatible chronology, OSS context, or another identifier.",
+      "research_notes": "The minimum protocol covered official context, CIA Reading Room, exact-name variants, military status, employment and occupation, obituary, directory, newspaper, institutional, and Library of Congress stages. No rank or affiliation is inferred.",
+      "next_action": "Review Box 22 for personnel status, identity, service chronology, and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-lucy-v-arnett-no-reliable-result",
+      "person_id": "16cc3b9b-ec35-5204-baaf-f49e58a16d28",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Lucy V Arnett\" OSS; \"Lucy V. Arnett\" 1940; Caf-4; federal employee; employer occupation; obituary; directory; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "exact_name_civilian_grade_oss_federal_employment_archival",
+      "started_at": "2026-07-31T16:55:00Z",
+      "completed_at": "2026-07-31T17:14:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Same-name and near-name records lacked Caf-4, OSS, federal-employment evidence, or another corroborating wartime identifier.",
+      "research_notes": "The minimum protocol covered the visually checked NARA row, official context, CIA Reading Room, exact-name and grade variants, employment and occupation, obituary, directory, newspaper, institutional, and Library of Congress stages. No affiliation is published.",
+      "next_action": "Review Box 22 and federal personnel records for identity, profession, employing agency, and prior employment.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-maynard-c-arney-probable-veteran-match",
+      "person_id": "fe87f961-64ba-5034-a271-0180451ed3ac",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Maynard C Arney\" OSS; \"Maynard C. Arney\" Bayfield; Private and Pfc.; 61st Engineer Combat Battalion; employer occupation 1940; obituary; county honor roll; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "distinctive_exact_name_rank_unit_contemporary_honor_roll_oss_employment_archival",
+      "started_at": "2026-07-31T16:57:00Z",
+      "completed_at": "2026-07-31T17:32:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A modern Ohio obituary, people-search pages, and unrelated Arney records were excluded. The contemporary Bayfield honor roll was retained as a probable match, not confirmation, because it lacks the private identifier and does not mention OSS.",
+      "research_notes": "The honor-roll page and title page were visually checked. The exact uncommon full name, compatible rank, portrait, family details, Army-entry date, training, overseas chronology, and unit support a probable identity. The 61st Engineer assignment is not published as pre-OSS because its temporal relationship to OSS is unknown.",
+      "next_action": "Review Box 22 and official Army records for a direct identifier match, OSS chronology, and pre-service civilian employment.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-george-a-arnold-no-reliable-result",
+      "person_id": "46bc841b-578f-5007-807a-7733295de70b",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"George A Arnold\" OSS; \"George A. Arnold\" T-4 Army WWII; employer occupation 1940; obituary; cemetery; directory; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "common_name_exact_rank_army_oss_employment_archival",
+      "started_at": "2026-07-31T16:59:00Z",
+      "completed_at": "2026-07-31T17:18:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Same-name veterans, cemetery listings, and modern professional results lacked the indexed middle initial plus matching T-4 rank, OSS context, and a second corroborating identifier.",
+      "research_notes": "The common name received enhanced disambiguation across official, CIA, exact-name, rank, military, employment, occupation, obituary, cemetery, directory, newspaper, institutional, and Library of Congress stages. No affiliation is published.",
+      "next_action": "Review Box 22 and official Army records; require multiple direct identifiers before assigning any biography.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-glenn-e-arnold-no-reliable-result",
+      "person_id": "e3f8d84c-d5b1-5243-91bf-9f94cd68f3e0",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Glenn E Arnold\" OSS; \"Glenn E. Arnold\" Private Army WWII; employer occupation 1940; obituary; cemetery; directory; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "common_name_exact_rank_army_oss_employment_archival",
+      "started_at": "2026-07-31T17:01:00Z",
+      "completed_at": "2026-07-31T17:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Multiple cemetery, obituary, discovery-only genealogy, and people-search records shared the name but lacked matching wartime identifiers, Private rank, OSS context, or a second corroborating identifier.",
+      "research_notes": "The common name received enhanced disambiguation across official, CIA, exact-name, rank, military, employment, occupation, obituary, cemetery, directory, newspaper, institutional, and Library of Congress stages. No affiliation is published.",
+      "next_action": "Review Box 22 and official Army records; do not select among same-name veterans without direct linkage.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch101-harry-k-arnold-no-reliable-result",
+      "person_id": "50cd9e33-505c-51de-a9f0-aed4ec096c72",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Harry K Arnold\" OSS; \"Harry K. Arnold\" WWII; employer occupation 1940; city directory; obituary; military; newspaper; institutional archive; NARA OSS/index context; CIA Reading Room; Library of Congress",
+      "query_variant_type": "common_name_unknown_status_oss_employment_directory_archival",
+      "started_at": "2026-07-31T17:03:00Z",
+      "completed_at": "2026-07-31T17:22:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Ithaca and Cincinnati city-directory entries, obituary leads, and modern namesakes lacked OSS context, personnel status, or a second wartime identifier. No business was projected onto the indexed person.",
+      "research_notes": "The common name and blank rank field received enhanced official, CIA, exact-name, military, employment, occupation, obituary, city-directory, newspaper, institutional, and Library of Congress checks. No personnel category or affiliation is inferred.",
+      "next_action": "Review Box 22 for personnel status and direct identifiers before evaluating any city-directory candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
