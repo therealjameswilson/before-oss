@@ -1098,3 +1098,13 @@ six report files differed only in their expected `generated_at` timestamps.
 SQLite `quick_check` returned `ok`, the foreign-key check returned zero errors,
 and no substantive field, coverage count, public record, or generated site
 asset differed.
+
+The Batch 086 production audit followed successful GitHub test and Pages
+workflows. All 16 checked routes returned HTTP 200 with the expected content,
+all 65 deployed manifest assets matched their recorded and local byte sizes and
+SHA-256 values, all eight checked live statistics and all five public download
+row counts matched the release, and the field-aware exact-token scan found zero
+full private-identifier matches across 81 deployed artifacts. The live site
+preserves the occupation/employer distinction for Andreasen, the unchanged
+Hecht Company result for Andrade, and visible uncertainty for the unresolved,
+ambiguous, and probable Batch 086 identities.

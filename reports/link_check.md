@@ -1062,3 +1062,33 @@ and the manifest SHA-256 is
 A field-aware exact-token comparison of all 12,919 nontrivial normalized
 private identifiers against 24,232 production artifacts returned zero full
 identifier matches.
+
+## Batch 086 production deployment
+
+GitHub Actions test workflow
+[30613640879](https://github.com/therealjameswilson/before-oss/actions/runs/30613640879)
+and GitHub Pages deployment
+[30613640890](https://github.com/therealjameswilson/before-oss/actions/runs/30613640890)
+for the page-ten Anderson-through-Andreasen release `df6f557` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 086 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 684 people with non-planned
+research attempts, 200 verified-affiliation people, 120 verified-employer
+people, 632 archival-review assessments, 701 published claims, and 637 public
+source records. The live personnel CSV and JSONL downloads each contain 23,941
+rows; the organizations, affiliations, and sources downloads contain 245, 408,
+and 637 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`8b690021925795df06f646f8be5da379e8e5c654f972fb58b776f0d5ec2f5f66`.
+The deployed manifest's forbidden-field check passed. An exact-token,
+field-aware comparison of all 12,919 nontrivial normalized private identifiers
+against 81 live HTML, data, compressed-mirror, and download artifacts returned
+zero full-number matches. Andreasen's live profile publishes only the cited
+first-mate occupation, Andrade's two Hecht Company sections remain intact, and
+the unresolved or qualified Batch 086 leads remain visibly qualified.
