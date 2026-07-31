@@ -835,3 +835,13 @@ six report files differed only in their expected `generated_at` timestamps.
 SQLite `quick_check` returned `ok`, the foreign-key check returned zero
 errors, and no substantive field, coverage count, public record, or generated
 site asset differed.
+
+GitHub Actions test workflow
+[30605222909](https://github.com/therealjameswilson/before-oss/actions/runs/30605222909)
+and Pages workflow
+[30605222902](https://github.com/therealjameswilson/before-oss/actions/runs/30605222902)
+passed for Batch 080 release `3569ade`. The live audit passed all 16 route and
+content checks, all 65 deployed manifest assets matched the local release, all
+eight checked statistics and the five public download row counts matched, and
+the field-aware scan found zero unexpected full private-identifier matches
+across 81 deployed artifacts.
