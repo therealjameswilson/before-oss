@@ -1114,6 +1114,36 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 092 production deployment
+
+GitHub Actions test workflow
+[30627384526](https://github.com/therealjameswilson/before-oss/actions/runs/30627384526)
+and GitHub Pages deployment
+[30627384467](https://github.com/therealjameswilson/before-oss/actions/runs/30627384467)
+for the page-eleven Anthony-through-Antonakis release `8706b4e` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 17 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 092 person profiles, and the 122nd Infantry
+Battalion organization profile. The live statistics report 23,978 source rows,
+23,941 person entities, 743 people with non-planned research attempts, 209
+verified-affiliation people, 123 verified-employer people, 691 archival-review
+assessments, 726 published claims, and 665 public source records. The live
+personnel CSV and JSONL downloads each contain 23,941 rows; the organizations,
+affiliations, and sources downloads contain 249, 421, and 665 data rows
+respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`2c9d9e2092753ccff6054ce07746a261883a7cfce015ab41be1300241d3210d7`.
+The deployed manifest's forbidden-field check passed. A bounded, field-aware
+exact-token comparison of all 12,919 nontrivial normalized private identifiers
+against 82 live HTML, data, compressed-mirror, and download artifacts returned
+zero full-number matches. All ten profile-specific content checks and the
+organization linkage check passed.
+
 ## Batch 092 local release check
 
 The rebuilt site contains direct, internally resolved routes for Robert

@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30625331610](https://github.com/therealjameswilson/before-oss/actions/runs/30625331610)
-  for Batch 091 release `89051b8`: **passed**
+  [30627384526](https://github.com/therealjameswilson/before-oss/actions/runs/30627384526)
+  for Batch 092 release `8706b4e`: **passed**
 - GitHub Pages deployment workflow
-  [30625331511](https://github.com/therealjameswilson/before-oss/actions/runs/30625331511)
-  for Batch 091 release `89051b8`: **passed**
-- Production route smoke tests: **18 / 18 returned HTTP 200 and the expected
+  [30627384467](https://github.com/therealjameswilson/before-oss/actions/runs/30627384467)
+  for Batch 092 release `8706b4e`: **passed**
+- Production route smoke tests: **17 / 17 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
-- Production redaction scan: **0 full private-identifier matches across 83 live
+- Production redaction scan: **0 full private-identifier matches across 82 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `47d6b6f4e9824d23b6babaf0e142d4cbb06f4beb5d2fea9e50cf9e2c707242eb`
+  `2c9d9e2092753ccff6054ce07746a261883a7cfce015ab41be1300241d3210d7`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1392,3 +1392,14 @@ claims. Coverage distinguishes 743 people with a non-planned research attempt,
 209 people with verified affiliation evidence, 123 people with verified
 employment or self-employment evidence, and 691 people whose archival-review
 need has been assessed. No authenticated NARA Catalog request was made.
+
+The Batch 092 production audit followed successful GitHub test and Pages
+workflows. All 17 deployed routes returned HTTP 200 and passed semantic content
+checks, all 65 deployed manifest assets matched their recorded and local byte
+sizes and SHA-256 values, all live statistics and all five public download row
+counts matched the release, and all ten new person routes plus the organization
+route passed. The initial smoke script used capitalized status markers and a
+generic `postwar` marker; aligning it with the page's rendered lowercase
+statuses and the exact qualified AFI evidence wording produced a clean 17 / 17
+result without a production change. The bounded field-aware exact-token scan
+found zero full private-identifier matches across 82 deployed artifacts.
