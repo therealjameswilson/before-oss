@@ -5,12 +5,12 @@ Run: 2026-07-31 UTC
 - Python unit tests: **52 / 52 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,194 pages**
-- Internal link check: **24,194 HTML files passed**
-- Browser and accessibility suite: **312 / 312 passed**
+- Static production build: **24,196 pages**
+- Internal link check: **24,196 HTML files passed**
+- Browser and accessibility suite: **315 / 315 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`598feaeb3f17f1a04f93ed072e6391de48a46657d73e00c2f0c0b86a3f656143`)
+  (`21fe9f5d7d463cab2d8efebcc13f5fe12bcbba1c2130816fa3988bd58bd9bfce`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,38 +19,38 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `32666f151ff271eb974cf614ca17c0d4f04e9229478061baff40333107a52f81`
+  `1cb31266d3e1fe8cb9c68e0d4aef4d460816a8a97306c83f02d8dd73ceda2b54`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** formatting-equivalent comparison
-  tokens: **0 unexpected full-number matches** in **24,233** non-gzip
+  tokens: **0 unexpected full-number matches** in **24,235** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **644** public records representing **600** unique documents
-- Private citation records: **1,065**
-- Published, qualified affiliations: **412**
-- Published claims: **708**
+- Reviewed public sources: **651** public records representing **605** unique documents
+- Private citation records: **1,080**
+- Published, qualified affiliations: **416**
+- Published claims: **715**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
-- Verified-affiliation metric: **203** people with confirmed/high published
+- Verified-affiliation metric: **205** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **121** people with confirmed/high published
+- Verified-employer metric: **122** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30611898607](https://github.com/therealjameswilson/before-oss/actions/runs/30611898607)
-  for Batch 085 release `ed97743`: **passed**
+  [30622490311](https://github.com/therealjameswilson/before-oss/actions/runs/30622490311)
+  for Batch 090 release `7c70c9e`: **passed**
 - GitHub Pages deployment workflow
-  [30611898697](https://github.com/therealjameswilson/before-oss/actions/runs/30611898697)
-  for Batch 085 release `ed97743`: **passed**
+  [30622490383](https://github.com/therealjameswilson/before-oss/actions/runs/30622490383)
+  for Batch 090 release `7c70c9e`: **passed**
 - Production route smoke tests: **16 / 16 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
 - Production redaction scan: **0 full private-identifier matches across 81 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `2d906ccf762fdbf005c74ebd871990c3e367ed573f716baf2107e962681cf38f`
+  `1cb31266d3e1fe8cb9c68e0d4aef4d460816a8a97306c83f02d8dd73ceda2b54`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1247,3 +1247,55 @@ SHA-256 values, all eight checked live statistics and all five public download
 row counts matched the release, and all ten profile-specific archival-status
 checks passed. The bounded field-aware exact-token scan found zero full
 private-identifier matches across 81 deployed artifacts.
+
+Batch 090 completes the minimum online protocol for Michael T. Angelos through
+Manuel R. Angulo on PDF page eleven. The release publishes Michael T. Angelos's
+high-confidence identity without inventing an employer, Damiano Angione's
+confirmed Army-to-OSS pathway, and James H. Angleton's confirmed National Cash
+Register Company employment, Army School of Military Government predecessor,
+and American Chamber of Commerce for Italy affiliation. James Angleton's
+existing Army and student evidence remains distinct from employment. Nicholas
+A. Angelos, Carlos J. Angulo, and Manuel R. Angulo remain unresolved; Bert W.
+Anger and Frank E. Anglim retain qualified identity candidates without
+published affiliations. Peter M. Anglione remains a separate ambiguous entity
+in a visible possible-duplicate group with Peter M. Aglione.
+
+The targeted desktop, phone, and tablet regression passed 6 / 6. Its first
+run produced one test-only false positive because an eight-digit UUID substring
+was treated as a service-number field; the assertion was narrowed to the
+rendered serial field and all cases passed. The uncontended full browser and
+accessibility matrix passed 315 / 315. Fifty-two Python tests, the 200-profile
+stratified audit, and the 24,196-page link check passed. The link checker
+inventoried 48,507 unique external URLs, and `npm audit` reported zero
+vulnerabilities.
+
+Two production builds produced the identical
+`21fe9f5d7d463cab2d8efebcc13f5fe12bcbba1c2130816fa3988bd58bd9bfce`
+content-tree hash using sorted path-and-content SHA-256 input. All 65 public
+manifest assets matched their recorded sizes and SHA-256 values, the
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`1cb31266d3e1fe8cb9c68e0d4aef4d460816a8a97306c83f02d8dd73ceda2b54`.
+A bounded, field-aware exact-token comparison of 12,919 normalized private
+identifiers across 24,235 non-gzip production artifacts found zero full-number
+matches. SQLite `quick_check` returned `ok`, and the foreign-key check returned
+zero errors.
+
+The Batch 090 database contains 1,750 durable research attempts, 1,080 private
+citation records, 420 affiliations, and 734 claims: 102 confirmed, 536 high,
+77 medium, and 19 low confidence. The reviewed public projection contains 651
+source records representing 605 unique documents, 416 affiliations, and 715
+claims. Coverage distinguishes 723 people with a non-planned research attempt,
+205 people with verified affiliation evidence, 122 people with verified
+employment or self-employment evidence, and 671 people whose archival-review
+need has been assessed. No authenticated NARA Catalog request was made.
+
+The Batch 090 production audit followed successful GitHub test and Pages
+workflows. All 16 corrected route assertions returned HTTP 200 with the
+expected content, all 65 deployed manifest assets matched their recorded and
+local byte sizes and SHA-256 values, all eight live statistics and all five
+public download row counts matched the release, and all ten profile checks plus
+the two new organization routes passed. The initial audit used two stale
+presentation-sensitive markers and one case-sensitive HTML assertion; replacing
+them with content-semantic checks revealed no production defect. The bounded
+field-aware exact-token scan found zero full private-identifier matches across
+81 deployed artifacts.

@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,194 HTML files. Every relative
+**PASS.** The production build contains 24,196 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 245 organization profiles, and the
+The build includes 23,941 person profiles, 247 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,503 unique external URLs for separate live
+The checker inventoried 48,507 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1113,6 +1113,43 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 090 production deployment and local release check
+
+GitHub Actions test workflow
+[30622490311](https://github.com/therealjameswilson/before-oss/actions/runs/30622490311)
+and GitHub Pages deployment
+[30622490383](https://github.com/therealjameswilson/before-oss/actions/runs/30622490383)
+for the page-eleven Angelos-through-Angulo release `7c70c9e` completed
+successfully.
+
+The complete local link checker passed all 24,196 HTML files and inventoried
+48,507 unique external URLs. The public downloads contain 23,941 person rows,
+247 organization rows, 416 affiliation rows, and 651 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values, the
+manifest forbidden-field check passed, and the local manifest SHA-256 is
+`1cb31266d3e1fe8cb9c68e0d4aef4d460816a8a97306c83f02d8dd73ceda2b54`.
+A bounded, field-aware exact-token comparison of all 12,919 nontrivial
+normalized private identifiers against 24,235 non-gzip production artifacts
+returned zero full identifier matches.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes. The live statistics report 23,978 source rows, 23,941
+person entities, 723 people with non-planned research attempts, 205
+verified-affiliation people, 122 verified-employer people, 671 archival-review
+assessments, 715 published claims, and 651 public source records. The live
+personnel CSV and JSONL downloads each contain 23,941 rows; the organizations,
+affiliations, and sources downloads contain 247, 416, and 651 data rows
+respectively.
+
+All 65 manifest-listed live assets matched their recorded and local byte sizes
+and SHA-256 values. The deployed and local manifest SHA-256 values match. The
+bounded field-aware exact-token comparison found zero private-identifier
+matches across 81 deployed artifacts. All ten Batch 090 person routes and the
+National Cash Register Company and American Chamber of Commerce for Italy
+organization routes passed their content checks. The initial audit's stale
+markup-sensitive and case-sensitive markers were replaced by semantic content
+assertions; the corrected 16 / 16 audit revealed no production defect.
 
 ## Batch 089 production deployment
 
