@@ -39,14 +39,14 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30627384526](https://github.com/therealjameswilson/before-oss/actions/runs/30627384526)
-  for Batch 092 release `8706b4e`: **passed**
+  [30629383414](https://github.com/therealjameswilson/before-oss/actions/runs/30629383414)
+  for Batch 093 release `01bf2b6`: **passed**
 - GitHub Pages deployment workflow
-  [30627384467](https://github.com/therealjameswilson/before-oss/actions/runs/30627384467)
-  for Batch 092 release `8706b4e`: **passed**
-- Production route smoke tests: **17 / 17 returned HTTP 200 and the expected
+  [30629383302](https://github.com/therealjameswilson/before-oss/actions/runs/30629383302)
+  for Batch 093 release `01bf2b6`: **passed**
+- Production route smoke tests: **18 / 18 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
-- Production redaction scan: **0 full private-identifier matches across 82 live
+- Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
@@ -1447,3 +1447,11 @@ claims. Coverage distinguishes 753 people with a non-planned research attempt,
 211 people with verified affiliation evidence, 123 people with verified
 employment or self-employment evidence, and 701 people whose archival-review
 need has been assessed. No authenticated NARA Catalog request was made.
+
+The Batch 093 production audit followed successful GitHub test and Pages
+workflows. All 18 deployed routes returned HTTP 200 and passed semantic content
+checks, all 65 deployed manifest assets matched their recorded and local byte
+sizes and SHA-256 values, all live statistics and all five public download row
+counts matched the release, and all ten new person routes plus both new
+organization routes passed. The bounded field-aware exact-token scan found
+zero full private-identifier matches across 83 deployed artifacts.

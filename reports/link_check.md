@@ -1137,6 +1137,34 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,239 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 093 production deployment
+
+GitHub Actions test workflow
+[30629383414](https://github.com/therealjameswilson/before-oss/actions/runs/30629383414)
+and GitHub Pages deployment
+[30629383302](https://github.com/therealjameswilson/before-oss/actions/runs/30629383302)
+for the Antonelli-through-Apkarian release `01bf2b6` completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 18 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 093 person profiles, and both new
+organization profiles. The live statistics report 23,978 source rows, 23,941
+person entities, 753 people with non-planned research attempts, 211
+verified-affiliation people, 123 verified-employer people, 701 archival-review
+assessments, 737 published claims, and 678 public source records. The live
+personnel CSV and JSONL downloads each contain 23,941 rows; the organizations,
+affiliations, and sources downloads contain 251, 424, and 678 data rows
+respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`4f8d05e9686f174d1c2642a229c68486f39ab2be8de3feb5b4b9cbf898fdbbca`.
+The deployed manifest's forbidden-field check passed. A bounded, field-aware
+exact-token comparison of all 12,919 nontrivial normalized private identifiers
+against 83 live HTML, data, compressed-mirror, and download artifacts returned
+zero full-number matches.
+
 ## Batch 092 production deployment
 
 GitHub Actions test workflow
