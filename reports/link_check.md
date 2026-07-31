@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,210 HTML files. Every relative
+**PASS.** The production build contains 24,211 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 261 organization profiles, and the
+The build includes 23,941 person profiles, 262 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,571 unique external URLs for separate live
+The checker inventoried 48,575 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1113,6 +1113,37 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 102 local release check
+
+The rebuilt site contains direct, internally resolved routes for Howard W.
+Arnold, James S. Arnold, Paul B. Arnold, Robert W. Arnold, Virginia W. Arnold,
+Wilfred Arnold Jr., William E. Arnold, Richard G. Arnold-Baker, Francis N.
+Arnoldy, and Raymond Arnone. Eight profiles visibly retain unresolved identity
+status, evidence-limited employer wording, and Box 22 or Box 23 archival
+guidance. Arnoldy's qualified Army Film Branch pathway remains distinct from
+the absent civilian-employer evidence; Arnold-Baker's previously reviewed
+Intelligence Corps pathway is unchanged. The new Film Branch organization
+route resolves and links back to Arnoldy.
+
+The complete local link checker passed all 24,211 HTML files and inventoried
+48,575 unique external URLs. The public downloads contain 23,941 person rows,
+262 organization rows, 450 affiliation rows, and 748 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,250 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`fc3da38b85ee5ced1658b9c806eda6e351d887dd87a7011b6d1e1c6d7f4835d4`.
+
+The official personnel index and YANK PDFs returned HTTP 200. The Library and
+Archives Canada dissertation returned HTTP 200 while streaming before the
+bounded command-line request timed out. The Hoover document was reviewed in
+the research browser; its direct media endpoint returned HTTP 403 to the
+command-line checker.
 
 ## Batch 101 local release check
 

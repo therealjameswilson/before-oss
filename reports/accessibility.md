@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 348 / 348 browser cases.**
+**PASS - 351 / 351 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,26 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 102 accessibility and responsive regression
+
+The Batch 102 regression checks the ten contiguous page-thirteen-and-fourteen
+profiles from Howard W. Arnold through Raymond Arnone. It verifies every
+direct profile, Box 22 or Box 23 provenance, field-level serial masking, the
+eight visibly unresolved identities, Francis N. Arnoldy's high-confidence
+identity, and Richard G. Arnold-Baker's already reviewed Allied identity. It
+also checks Wilfred Arnold Jr.'s printed suffix, Arnold-Baker's hyphenated
+surname and British note, and the source's blank-rank cases.
+
+Arnoldy's profile is tested for a visibly qualified U.S. Army Film Branch
+pathway, three claim-level citations, and explicit absence of a supported
+civilian employer. The direct Film Branch organization route links back to
+Arnoldy. Unsupported Wilfred Arnold and William E. Arnold military namesakes
+remain rejected leads rather than profile facts.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, and accessibility matrix passed 351 / 351 with no assertion or
+serious/critical axe failure.
 
 ## Batch 101 accessibility and responsive regression
 

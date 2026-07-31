@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 832 people with a non-planned attempt | 23,941 person entities | 3.4752% |
+| Research-attempt coverage | 841 people with a non-planned attempt | 23,941 person entities | 3.5128% |
 | Verified-affiliation coverage | 223 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9315% |
 | Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 780 people with an individual file-access/priority assessment | 23,941 person entities | 3.2580% |
+| Archival-review coverage | 789 people with an individual file-access/priority assessment | 23,941 person entities | 3.2956% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 40
-- Identity status `high_confidence`: 271
+- Identity status `high_confidence`: 272
 - Identity status `probable`: 29
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,576
+- Identity status `unresolved`: 23,575
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,109
+- `not_started`: 23,100
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 26
 - `occupation_only_found`: 28
-- `requires_archival_review`: 533
-- `completed`: 47
+- `requires_archival_review`: 541
+- `completed`: 48
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -65,17 +65,17 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 95
+- Reviewed-web-and-official-source attempts recorded: 125
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 321 across 304 people; 26 additional
+- Saved `source_reviewed` outcomes: 328 across 310 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,840
+- Total recorded attempts/plans: 1,870
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 309; 293 have at least one public-eligible
+- People with saved reviewed claims: 315; 299 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -810,11 +810,30 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
   Miriam I. Arndt, Reider Arnesen, Homer E. and Lucy V. Arnett, and George A.,
   Glenn E., and Harry K. Arnold remain unresolved after the full online
   protocol. All ten profiles retain explicit Box 22 archival guidance.
-- Published affiliations: 449
-- Database claims: 804; public-eligible claims: 785 (112 confirmed, 579 high, 94
+  Batch 102 completes page thirteen and enters page fourteen with Howard W.
+  Arnold through Raymond Arnone. Francis N. Arnoldy is high-confidence from
+  the uncommon exact name, Major rank, a contemporary Army article, an
+  archival OSS theater-interview index, and an independently documented OSS
+  Bari chronology. The Army article places him in the Film Branch, Special
+  Service Division, as technical adviser on Russian films in March 1943; a
+  University of Toronto dissertation places him in charge of the OSS Yugoslav
+  Desk by December 1943. The Film Branch is therefore published only as a
+  medium-confidence probable-immediate military assignment: the nine-month
+  sequence is strong, but no reviewed source states a direct transfer or rules
+  out an intervening assignment. It is not presented as a civilian employer.
+  Richard G. Arnold-Baker's hyphenated surname, blank rank, and literal
+  `British A` note were visually rechecked; his existing high-confidence
+  British Intelligence Corps identity and qualified wartime affiliation remain
+  unchanged. Howard W., James S., Paul B., Robert W., Virginia W., Wilfred Jr.,
+  and William E. Arnold and Raymond Arnone remain unresolved. A later Colonel
+  Wilfred Arnold Jr. and a same-name Army Air Forces lieutenant were preserved
+  as rejected candidates rather than merged. The unresolved profiles route to
+  Box 22 or 23 with targeted archival questions.
+- Published affiliations: 450
+- Database claims: 806; public-eligible claims: 787 (112 confirmed, 580 high, 95
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,250; public source export: 744; unique source documents: 659
-- Canonical organizations: 263 private and 261 public
+- Citation records: 1,262; public source export: 748; unique source documents: 663
+- Canonical organizations: 264 private and 262 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844
 
@@ -962,6 +981,9 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-a
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-arden-through-arida-pathways_batch-097_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-arlotta-through-armer-pathways_batch-098_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-armistead-through-howard-armstrong-pathways_batch-099_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-armstrong-through-arnberg-pathways_batch-100_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-arndt-through-arnold-pathways_batch-101_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-fourteen-arnold-through-arnone-pathways_batch-102_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

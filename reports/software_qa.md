@@ -5,12 +5,12 @@ Run: 2026-07-31 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,210 pages**
-- Internal link check: **24,210 HTML files passed**
-- Browser and accessibility suite: **348 / 348 passed**
+- Static production build: **24,211 pages**
+- Internal link check: **24,211 HTML files passed**
+- Browser and accessibility suite: **351 / 351 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`620fe136394c59a13c9d6906606b9e5ba6848cd7ed9a4f22ebc766bf33387598`)
+  (`fc3da38b85ee5ced1658b9c806eda6e351d887dd87a7011b6d1e1c6d7f4835d4`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,19 +19,19 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`
+  `8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Field-aware boundary scan of **12,931** distinct digit-bearing normalized
+- Field-aware boundary scan of **12,932** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** formatting-equivalent comparison
-  tokens: **0 unexpected full-number matches** in **24,249** non-gzip
+  tokens: **0 unexpected full-number matches** in **24,250** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **744** public records representing **659** unique documents
-- Private citation records: **1,250**
-- Published, qualified affiliations: **449**
-- Published claims: **785**
+- Reviewed public sources: **748** public records representing **663** unique documents
+- Private citation records: **1,262**
+- Published, qualified affiliations: **450**
+- Published claims: **787**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
 - Verified-affiliation metric: **223** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1520,6 +1520,59 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 102 local release QA
+
+Batch 102 adds ten visually checked page-thirteen-and-fourteen people from
+Howard W. Arnold through Raymond Arnone. The reviewed bundle imports ten
+durable research attempts, thirteen sources, one organization, one
+affiliation, two claims, and seven claim-source links. It preserves Wilfred
+Arnold Jr.'s printed suffix, Richard G. Arnold-Baker's hyphenated surname and
+British note, the blank rank cells, and the transition from Box 22 to Box 23.
+
+Francis N. Arnoldy is resolved at high confidence through exact-name, rank,
+Army Film Branch, Yugoslav Desk, and Bari evidence. His probable-immediate
+U.S. Army Film Branch assignment is published at medium confidence because
+the accessible sources date the sequence but do not explicitly document his
+transfer into OSS. It remains outside confirmed/high default analytics, and
+no civilian employer is invented. Richard G. Arnold-Baker's earlier reviewed
+Allied pathway remains unchanged. Eight common-name identities remain
+unresolved and route to their indexed boxes; unsupported colonel and Army Air
+Forces namesakes remain rejected leads.
+
+The evidence import replayed idempotently and passed Pydantic validation.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The full Python suite passed 54 / 54. The static build completed
+24,211 pages with zero Astro errors, warnings, or hints. The focused Batch 102
+regression passed 3 / 3 across desktop, phone, and tablet, and the complete
+browser, responsive, and accessibility matrix passed 351 / 351. The internal
+link checker passed all 24,211 HTML pages and inventoried 48,575 unique
+external URLs. The personnel-index and YANK PDFs returned HTTP 200; the
+Library and Archives Canada PDF streamed with HTTP 200 before the bounded
+command-line check timed out, while Hoover's browser-reviewed document rejects
+unauthenticated command-line requests with HTTP 403. The production dependency
+audit reported zero vulnerabilities.
+
+Two consecutive static builds produced the identical
+`fc3da38b85ee5ced1658b9c806eda6e351d887dd87a7011b6d1e1c6d7f4835d4`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`.
+A boundary-aware comparison of 12,919 nontrivial normalized private
+identifiers across 24,250 non-gzip production artifacts found zero full
+matches. No local credential file, nonblank API-key assignment, or tracked
+secret-like literal was present, and no authenticated NARA Catalog request
+was made.
+
+The Batch 102 database contains 1,870 durable research attempts, 1,262 private
+citation records, 454 affiliations, and 806 claims: 112 confirmed, 580 high,
+95 medium, and 19 low confidence. The reviewed public projection contains 748
+source records representing 663 unique documents, 450 affiliations, and 787
+claims. Coverage distinguishes 841 people with a non-planned research attempt,
+223 people with verified affiliation evidence, 127 people with verified
+employment or self-employment evidence, and 789 people whose archival-review
+need has been assessed.
 
 ## Batch 101 local release QA
 

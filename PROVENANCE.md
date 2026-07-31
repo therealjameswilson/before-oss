@@ -1580,6 +1580,68 @@ no live NARA API response was retained. The PDF page render used for visual
 inspection was removed after review. No full service identifier appears in the
 evidence bundle or public projection.
 
+## Page-thirteen Armstrong-through-Arnberg pathways, Batch 100
+
+`research/evidence-page-thirteen-armstrong-through-arnberg-pathways_batch-100_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-thirteen rows from James H.
+Armstrong through George C. Arnberg. James H. Armstrong's 19th Weather
+Squadron is published as a qualified immediate military pathway; Sinclair
+Armstrong's 1941 Isham, Lincoln & Beale work is documented earlier employment;
+and Claude G. Arnault's French Army connection is a high-confidence immediate
+military affiliation. The remaining names route to Box 21 or 22. The bundle
+retains the printed naval grade and rejects a plausible Arnberg bomber-group
+namesake because direct OSS linkage is absent.
+
+## Page-thirteen Arndt-through-Arnold pathways, Batch 101
+
+`research/evidence-page-thirteen-arndt-through-arnold-pathways_batch-101_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-thirteen rows from Clifford
+H. Arndt through Harry K. Arnold. Alf G. Arnesen is confirmed across the NARA
+index, Denver Public Library unit index, and an official OSS special order;
+his Company D, 99th Infantry pathway remains medium-confidence because the
+individual transfer sequence is not explicit. Maynard C. Arney is a probable
+identity without a promoted affiliation. Reider Arnesen's conflicting unit
+candidate remains rejected, and the printed `possibly` note remains literal.
+All unresolved profiles route to Box 22.
+
+## Page-thirteen/fourteen Arnold-through-Arnone pathways, Batch 102
+
+`research/evidence-page-thirteen-fourteen-arnold-through-arnone-pathways_batch-102_2026-07-31.json`
+records ten visually checked, contiguous rows from Howard W. Arnold on PDF page
+13 through Raymond Arnone on PDF page 14. The suffix in `Wilfred, Jr.`, the
+hyphenated Arnold-Baker surname, the literal `British A` note, blank rank
+fields, and the Box 22-to-23 transition were checked against rendered source
+pages. The bundle contains ten person updates, thirteen source records, one
+organization, one affiliation, two claims, seven claim-source links, and ten
+durable research attempts.
+
+A 5 March 1943 issue of *YANK, The Army Weekly* was inspected at its cover,
+article title page, and printed page 21. Sgt. Bill Davidson's “They Fight with
+Film” places Major Francis Arnoldy in the Army Film Branch, Special Service
+Division, as technical adviser on Russian films. The article does not state
+that Arnoldy belonged to the 834th Signal Company, so the project does not
+merge his assignment into that unit. Nikolina Kurtovic's 2010 University of
+Toronto dissertation was inspected at printed page 35, PDF page 53; it dates
+Arnoldy's OSS Yugoslav Desk leadership from December 1943 to July 1944. A
+Hoover Institution archival index independently aligns the exact name, Major
+rank, and Bari station. These sources support a high-confidence identity and a
+medium-confidence probable-immediate Army Film Branch pathway, not an explicit
+transfer and not a civilian-employer claim.
+
+The other newly attempted Arnold and Arnone rows remain unresolved after
+official-context, CIA Reading Room, exact-name OSS, employment/occupation,
+obituary, directory, newspaper, institutional, archival, and Library of
+Congress checks. A later Colonel Wilfred Arnold Jr. and a same-name Army Air
+Forces lieutenant were rejected pending direct identifiers. Richard G.
+Arnold-Baker's existing evidence was sequentially re-audited without changing
+his high-confidence identity or qualified Intelligence Corps affiliation.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. Temporary source PDFs, text
+extractions, and page renders were used only for inspection and removed after
+review. No full service identifier appears in the evidence bundle or public
+projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -9496,3 +9496,104 @@ test("Batch 101 confirms Arnesen's qualified Army pathway while preserving archi
     page.locator("h3").getByRole("link", { name: "Alf G Arnesen", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 102 qualifies Arnoldy's Army film pathway and preserves common-name uncertainty", async ({
+  page,
+}) => {
+  const profiles = [
+    ["a877ba31-3831-5c65-ac31-def45df2b8e3", "Howard W Arnold", "22"],
+    ["cada8583-a8fa-513f-90ff-e0517b94b62a", "James S Arnold", "22"],
+    ["0c66ae1c-cd45-5cf9-9396-1bb966c11add", "Paul B Arnold", "22"],
+    ["9a8d55a2-19fc-59bc-8622-63c39e306da2", "Robert W Arnold", "22"],
+    ["33e7124a-106f-590b-89bc-c40e80c9e60d", "Virginia W Arnold", "22"],
+    ["2a3a5ee1-91e8-5948-b2d8-3fa793923110", "Wilfred Arnold Jr.", "22"],
+    ["04aa0bcc-f27f-5182-a2a1-bac4f1e3485f", "William E Arnold", "22"],
+    ["b5c889e5-13d7-5a47-bb1d-f8536f24be22", "Richard G Arnold-Baker", "22"],
+    ["f0fb97e4-95f9-5646-99e9-0dc750846d89", "Francis N Arnoldy", "22"],
+    ["d8336ef8-0a06-5a0d-ae03-4472b62d8ed3", "Raymond Arnone", "23"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "a877ba31-3831-5c65-ac31-def45df2b8e3",
+    "cada8583-a8fa-513f-90ff-e0517b94b62a",
+    "0c66ae1c-cd45-5cf9-9396-1bb966c11add",
+    "9a8d55a2-19fc-59bc-8622-63c39e306da2",
+    "33e7124a-106f-590b-89bc-c40e80c9e60d",
+    "2a3a5ee1-91e8-5948-b2d8-3fa793923110",
+    "04aa0bcc-f27f-5182-a2a1-bac4f1e3485f",
+    "d8336ef8-0a06-5a0d-ae03-4472b62d8ed3",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/f0fb97e4-95f9-5646-99e9-0dc750846d89/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army, Film Branch, Special Service Division");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Technical adviser on Russian films");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("medium");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.getByRole("link", { name: "They Fight with Film", exact: true }).first(),
+  ).toHaveAttribute("href", /indianamilitary\.org/);
+  await expect(
+    page.getByRole("link", {
+      name: "Communist Stardom in the Cold War: Josip Broz Tito in Western and Yugoslav Photography, 1943-1980",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /bac-lac\.gc\.ca/);
+
+  await page.goto("./people/b5c889e5-13d7-5a47-bb1d-f8536f24be22/");
+  await expect(page.locator("main")).toContainText("British A");
+  await expect(page.locator("main")).toContainText("Intelligence Corps");
+  await expect(page.locator("main")).toContainText("temporal relation uncertain");
+
+  await page.goto("./organizations/f67d5945-8f5b-5ad6-b7f1-cd4d7a80fccc/");
+  await expect(
+    page.getByRole("heading", {
+      name: "United States Army, Film Branch, Special Service Division",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.locator("h3").getByRole("link", { name: "Francis N Arnoldy", exact: true }),
+  ).toBeVisible();
+});
