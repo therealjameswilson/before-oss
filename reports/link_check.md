@@ -1114,6 +1114,31 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 099 local release check
+
+The rebuilt site contains direct, internally resolved routes for M. E.
+Armistead, Stanley N. Armitage, Lester Armour, Albert L. Armstrong, Claude C.
+Armstrong Jr., Delton V. Armstrong, Elizabeth H. Armstrong, Frank E.
+Armstrong, Herbert E. Armstrong Jr., and Howard H. Armstrong. Nine profiles
+visibly retain unresolved identity status, evidence-limited employer wording,
+and Box 21 archival guidance. Armour's strongly date-bounded Navy pathway is
+separate from the absent last civilian employer; earlier Armour & Co.
+employment is qualified, and three board or trustee roles remain
+professional affiliations.
+
+The complete local link checker passed all 24,208 HTML files and inventoried
+48,561 unique external URLs. The public downloads contain 23,941 person rows,
+259 organization rows, 445 affiliation rows, and 729 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in
+both the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`63c90766b82b8efec8218fe0cda011d63d0ea15a685c6de46059d37c7ca5dacb`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,247 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`6377c164e20e139ebd26395e7d948e75906f41f05cc1cd33e7b055ec2d29df85`.
+
 ## Batch 098 local release check
 
 The rebuilt site contains direct, internally resolved routes for Salvatoroe

@@ -5,12 +5,12 @@ Run: 2026-07-31 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,205 pages**
-- Internal link check: **24,205 HTML files passed**
-- Browser and accessibility suite: **339 / 339 passed**
+- Static production build: **24,208 pages**
+- Internal link check: **24,208 HTML files passed**
+- Browser and accessibility suite: **342 / 342 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`78409396384e3397cf835d690ba8914c3d9a7be995ae3100b5ec495b4f32680b`)
+  (`6377c164e20e139ebd26395e7d948e75906f41f05cc1cd33e7b055ec2d29df85`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,21 +19,21 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `a1eafeec2e3cd157a33e4524b46ab1c721be82e39487782d8f61be9d680c582a`
+  `63c90766b82b8efec8218fe0cda011d63d0ea15a685c6de46059d37c7ca5dacb`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** formatting-equivalent comparison
-  tokens: **0 unexpected full-number matches** in **24,244** non-gzip
+  tokens: **0 unexpected full-number matches** in **24,247** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **724** public records representing **647** unique documents
-- Private citation records: **1,206**
-- Published, qualified affiliations: **440**
-- Published claims: **770**
+- Reviewed public sources: **729** public records representing **651** unique documents
+- Private citation records: **1,220**
+- Published, qualified affiliations: **445**
+- Published claims: **776**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
-- Verified-affiliation metric: **221** people with confirmed/high published
+- Verified-affiliation metric: **222** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **127** people with confirmed/high published
   employment or self-employment evidence
@@ -1520,6 +1520,52 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 099 local release QA
+
+Batch 099 adds ten visually checked page-thirteen people from M. E. Armistead
+through Howard H. Armstrong. The reviewed bundle imports ten durable research
+attempts, fourteen sources, five organizations, five affiliations, six claims,
+and ten claim-source links. It confirms Lester Armour's United States Navy
+pathway, publishes earlier Armour & Co. employment as medium-confidence
+documented-prewar work, and keeps three board or trustee roles outside
+employment analytics. Nine identities remain unresolved and route to Box 21.
+
+The import was replayed idempotently. A duplicate Field Museum authority
+candidate created during initial normalization had no dependent affiliations;
+the bundle now reuses the established historical organization key, both
+affiliations resolve to the existing authority record, and the redundant row
+was removed in a checked transaction. SQLite `quick_check` returned `ok`, the
+foreign-key check returned zero errors, and exactly one Field Museum authority
+record remains.
+
+The full Python suite passed 54 / 54. The static build completed 24,208 pages
+with zero Astro errors, warnings, or hints. After two test-label assumptions
+were aligned with the rendered lowercase category and established section ID,
+the focused Batch 099 regression passed 3 / 3 across desktop, phone, and
+tablet. The complete browser, responsive, and accessibility matrix passed
+342 / 342. The internal-link checker passed all 24,208 HTML pages and
+inventoried 48,561 unique external URLs. `npm audit --audit-level=high`
+reported zero vulnerabilities.
+
+Two consecutive static builds produced the identical
+`6377c164e20e139ebd26395e7d948e75906f41f05cc1cd33e7b055ec2d29df85`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`63c90766b82b8efec8218fe0cda011d63d0ea15a685c6de46059d37c7ca5dacb`.
+A boundary-aware comparison of 12,919 nontrivial normalized private
+identifiers across 24,247 non-gzip production artifacts found zero full
+matches. No authenticated NARA Catalog request was made.
+
+The Batch 099 database contains 1,840 durable research attempts, 1,220 private
+citation records, 449 affiliations, and 795 claims: 110 confirmed, 576 high,
+90 medium, and 19 low confidence. The reviewed public projection contains 729
+source records representing 651 unique documents, 445 affiliations, and 776
+claims. Coverage distinguishes 812 people with a non-planned research attempt,
+222 people with verified affiliation evidence, 127 people with verified
+employment or self-employment evidence, and 760 people whose archival-review
+need has been assessed.
 
 ## Batch 098 local release QA
 

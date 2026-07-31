@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 802 people with a non-planned attempt | 23,941 person entities | 3.3499% |
-| Verified-affiliation coverage | 221 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9231% |
+| Research-attempt coverage | 812 people with a non-planned attempt | 23,941 person entities | 3.3917% |
+| Verified-affiliation coverage | 222 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9273% |
 | Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 750 people with an individual file-access/priority assessment | 23,941 person entities | 3.1327% |
+| Archival-review coverage | 760 people with an individual file-access/priority assessment | 23,941 person entities | 3.1745% |
 
 ## Extraction and identity
 
@@ -21,38 +21,38 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 37
+- Identity status `confirmed`: 38
 - Identity status `high_confidence`: 269
 - Identity status `probable`: 28
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,582
+- Identity status `unresolved`: 23,581
 
 ## Personnel categories
 
 - Unknown or indeterminate: 16,556
 - Enlisted Army personnel: 3,477
-- Commissioned Army officers: 2,069
+- Commissioned Army officers: 2,068
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,459
 - Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 50
-- Commissioned naval officers: 73
+- Commissioned naval officers: 74
 - Warrant officers: 4
 
 Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,139
+- `not_started`: 23,129
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 24
+- `documented_prewar_employer_found`: 25
 - `occupation_only_found`: 28
-- `requires_archival_review`: 508
+- `requires_archival_review`: 517
 - `completed`: 44
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
@@ -72,10 +72,10 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 321 across 304 people; 26 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,830
+- Total recorded attempts/plans: 1,840
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 308; 292 have at least one public-eligible
+- People with saved reviewed claims: 309; 293 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -769,11 +769,21 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
   E. Armbruster remain unresolved and route to Box 21. Salvatoroe, Armandariz,
   Armband, and the printed `cPL` string remain exactly recoverable; Salvatore
   and Armendariz were search aliases only.
-- Published affiliations: 440
-- Database claims: 789; public-eligible claims: 770 (110 confirmed, 573 high, 87
+  Batch 099 continues page thirteen with M. E. Armistead through Howard H.
+  Armstrong. Lester Armour is confirmed by an exact uncommon name, Captain
+  rank, direct OSS award citation, and independent Navy intelligence-training
+  records. His early-1942 Navy recall is the strongly date-bounded immediate
+  pathway. Armour & Co. is published only as medium-confidence earlier
+  employment, while General Stockyards, City National, and the Field Museum
+  remain professional affiliations rather than invented employers. The other
+  nine profiles remain unresolved after the full online protocol and route to
+  Box 21; common-name and inventor candidates were rejected rather than
+  promoted.
+- Published affiliations: 445
+- Database claims: 795; public-eligible claims: 776 (110 confirmed, 576 high, 90
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,206; public source export: 724; unique source documents: 647
-- Canonical organizations: 258 private and 256 public
+- Citation records: 1,220; public source export: 729; unique source documents: 651
+- Canonical organizations: 261 private and 259 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844
 
@@ -917,6 +927,10 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-a
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-twelve-antonelli-through-apkarian-pathways_batch-093_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-apolito-through-applebaum-pathways_batch-094_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-appleton-through-arbucci-pathways_batch-095_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-arcaro-through-archuleta-pathways_batch-096_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-arden-through-arida-pathways_batch-097_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-arlotta-through-armer-pathways_batch-098_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-armistead-through-howard-armstrong-pathways_batch-099_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

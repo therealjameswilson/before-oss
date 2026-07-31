@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 339 / 339 browser cases.**
+**PASS - 342 / 342 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-127-person employer measure is labeled separately from the 221-person broader
+127-person employer measure is labeled separately from the 222-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,3 +1046,27 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 099 accessibility and responsive regression
+
+The Batch 099 regression checks the ten contiguous page-thirteen profiles from
+M. E. Armistead through Howard H. Armstrong. It verifies every direct profile,
+Box 21, field-level serial masking, the nine visibly unresolved identities,
+and the printed `Lt`, `CPC-6`, and `P-3` strings. It also checks that initials,
+suffixes, and the printed seven-digit identifier are preserved without
+publishing a full private identifier.
+
+Lester Armour's profile is tested for a confirmed commissioned-naval identity,
+a strongly date-bounded United States Navy pathway, and explicit absence of a
+supported last civilian employer. Armour & Co. appears only as
+medium-confidence earlier employment. General Stockyards, City National, and
+the Field Museum remain professional affiliations rather than employment
+claims. Direct routes for the Navy and all four civilian institutions link
+back to Armour.
+
+The first two focused runs exposed only assertion-label mismatches: the site
+renders personnel categories in lowercase and uses the established
+`earlier-affiliations` section identifier. After aligning the test to the
+visible page semantics, the focused desktop, phone, and tablet run passed
+3 / 3. The complete browser, responsive, and accessibility matrix passed
+342 / 342 with no assertion or serious/critical axe failure.

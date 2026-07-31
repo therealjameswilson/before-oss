@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/127 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 221 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 222 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -9114,6 +9114,132 @@ test("Batch 098 publishes Arluck and Armandi pathways while preserving six archi
     ).toBeVisible();
     await expect(
       page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+  }
+});
+
+test("Batch 099 publishes Lester Armour's naval pathway without turning board roles into employment", async ({
+  page,
+}) => {
+  const profiles = [
+    ["96940f0e-3817-5c23-b36e-28ef8a5dacc5", "M E Armistead"],
+    ["45dcedfa-2833-5535-8c73-9880621609ae", "Stanley N Armitage"],
+    ["bac8222f-9ef3-5981-a1a8-b36529eb55f3", "Lester Armour"],
+    ["bb7abead-a3d2-58b0-bb3e-9e37d2719b73", "Albert L Armstrong"],
+    ["0744050f-188a-59da-8e6d-d2e019389c6d", "Claude C Armstrong Jr."],
+    ["4546300f-0612-5e26-96be-a87a7fd69ac2", "Delton V Armstrong"],
+    ["59c80068-e66f-5767-a1d8-b828597e4d55", "Elizabeth H Armstrong"],
+    ["be4a7e93-66f9-546d-9111-e8154477a0ec", "Frank E Armstrong"],
+    ["c96b4cd7-046d-52e2-9f8e-56e2fe968896", "Herbert E Armstrong Jr."],
+    ["a89a1112-c099-54e1-b5e4-638e089d6cf1", "Howard H Armstrong"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("21", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "96940f0e-3817-5c23-b36e-28ef8a5dacc5",
+    "45dcedfa-2833-5535-8c73-9880621609ae",
+    "bb7abead-a3d2-58b0-bb3e-9e37d2719b73",
+    "0744050f-188a-59da-8e6d-d2e019389c6d",
+    "4546300f-0612-5e26-96be-a87a7fd69ac2",
+    "59c80068-e66f-5767-a1d8-b828597e4d55",
+    "be4a7e93-66f9-546d-9111-e8154477a0ec",
+    "c96b4cd7-046d-52e2-9f8e-56e2fe968896",
+    "a89a1112-c099-54e1-b5e4-638e089d6cf1",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/96940f0e-3817-5c23-b36e-28ef8a5dacc5/");
+  await expect(
+    page.getByRole("heading", { name: "M E Armistead", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("Lt");
+
+  await page.goto("./people/bb7abead-a3d2-58b0-bb3e-9e37d2719b73/");
+  await expect(page.locator(".index-record").first()).toContainText("CPC-6");
+
+  await page.goto("./people/59c80068-e66f-5767-a1d8-b828597e4d55/");
+  await expect(page.locator(".index-record").first()).toContainText("P-3");
+
+  await page.goto("./people/bac8222f-9ef3-5981-a1a8-b36529eb55f3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator(".profile-aside")).toContainText(
+    "commissioned naval officer",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Navy");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("strongly date bounded");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  const earlier = page.locator('section[aria-labelledby="earlier-affiliations"]');
+  await expect(earlier).toContainText("Field Museum of Natural History");
+  await expect(earlier).toContainText("Armour and Company");
+  await expect(earlier).toContainText("General Stockyards Corporation");
+  await expect(earlier).toContainText(
+    "City National Bank and Trust Company of Chicago",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).not.toContainText("General Stockyards");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).not.toContainText("City National");
+  await expect(
+    page.getByRole("link", { name: "Lester Armour papers", exact: true }).first(),
+  ).toHaveAttribute("href", /digitalcollections\.hoover\.org/);
+  await expect(
+    page
+      .getByRole("link", { name: "Lester Armour: Legion of Merit", exact: true })
+      .first(),
+  ).toHaveAttribute("href", /valor\.militarytimes\.com/);
+
+  for (const [organizationId, organizationName] of [
+    ["3960fa8e-a551-56cf-8305-b2b9e4961b9d", "United States Navy"],
+    ["d2fa6694-018a-5667-84e1-103802fdc3a6", "Armour and Company"],
+    ["50a938e5-be9b-54d4-b30e-5a200218ab3c", "General Stockyards Corporation"],
+    [
+      "45cc7128-6b61-5b9a-9d5a-fcf0f56956ae",
+      "City National Bank and Trust Company of Chicago",
+    ],
+    ["34f0b784-e740-56ea-aa08-2bc0f41a722f", "Field Museum of Natural History"],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: "Lester Armour", exact: true }),
     ).toBeVisible();
   }
 });

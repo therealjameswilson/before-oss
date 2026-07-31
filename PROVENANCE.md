@@ -1539,6 +1539,47 @@ no live NARA API response was retained. The PDF page render used for visual
 inspection was removed after review. No full service identifier appears in
 the evidence bundle or public projection.
 
+## Page-thirteen Armistead-through-Howard-Armstrong pathways, Batch 099
+
+`research/evidence-page-thirteen-armistead-through-howard-armstrong-pathways_batch-099_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-thirteen rows from M. E.
+Armistead through Howard H. Armstrong. The bundle contains ten person updates,
+ten durable research attempts, fourteen source records, five organizations,
+five affiliations, six claims, and ten claim-source links.
+
+Lester Armour is confirmed by the uncommon exact name, indexed Captain rank,
+a reproduced War Department award citation naming him as a United States Navy
+captain serving with OSS in the European Theater, and Hoover Institution
+records documenting his 1942-1943 naval intelligence training. A contemporary
+Field Museum report records his imminent early-1942 return to active service
+under a Navy reserve commission. The United States Navy is therefore modeled
+as the strongly date-bounded immediate pathway, not as a civilian employer.
+
+A FRASER copy of a 1963 banking-industry career retrospective documents Armour
+& Co. employment from 1918 through 1934, General Stockyards chairmanship from
+1935 through 1940, and a City National directorship beginning in 1937. The
+company employment is medium-confidence documented-prewar work rather than a
+last-civilian-employer claim. The chairmanship and directorship remain
+professional affiliations because the source does not establish salaried
+employment. The Field Museum's own 1941 report documents Armour's trusteeship,
+which is likewise modeled as a professional affiliation. The pre-existing Field
+Museum authority record is reused, preserving the institution's 1943-1966
+historical name without creating a duplicate organization.
+
+M. E. Armistead, Stanley N. Armitage, Albert L. Armstrong, Claude C. Armstrong
+Jr., Delton V. Armstrong, Elizabeth H. Armstrong, Frank E. Armstrong, Herbert
+E. Armstrong Jr., and Howard H. Armstrong remain unresolved after staged
+official-context, CIA, exact-name OSS, employment/occupation, obituary,
+institutional, newspaper, archival, and Library of Congress checks. Common-name
+biographical and inventor candidates lacked the corroborating indexed
+identifiers required for publication. All nine profiles retain targeted Box 21
+guidance.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. The PDF page render used for visual
+inspection was removed after review. No full service identifier appears in the
+evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:
