@@ -1114,6 +1114,30 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 095 local release check
+
+The rebuilt site contains direct, internally resolved routes for Rex Applegate,
+John B. Appleton, Margaret E. Appleton, Sabri Appolini, Carlo E. Aprato,
+Helene A. Apt, Samuel P. Aquilina, Joseph J. Aquino Jr., Pedro J. Aquirre, and
+Louis F. Arbucci. Nine profiles visibly retain unresolved identity status,
+evidence-limited employer wording, and high-priority Box 20 archival guidance.
+Rex Applegate's existing United States Army Military Police pathway remains
+intact. The index spelling Aquirre remains the public profile title while
+Aguirre is a search variant, unfamiliar `Sgt USM` remains indeterminate, and
+rejected sensitive lead details are absent from the public build.
+
+The complete local link checker passed all 24,202 HTML files and inventoried
+48,532 unique external URLs. The public downloads contain 23,941 person rows,
+253 organization rows, 430 affiliation rows, and 695 source rows. All 65
+manifest-listed assets have recorded sizes and SHA-256 values, the manifest
+forbidden-field check passed, and the manifest SHA-256 is
+`4423c0c99f2bfcfe20d553e9de74a51c8a5a12d74bc736b53b704b888984f31c`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,241 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`23a6aa7b00dd32d829d898e559b275f44aee5fe991f61c8f24acd945c66c4f89`.
+
 ## Batch 094 local release check
 
 The rebuilt site contains direct, internally resolved routes for George F.

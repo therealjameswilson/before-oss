@@ -1356,6 +1356,31 @@ review. No authenticated NARA Catalog request was made, no API key was
 accessed, and no live NARA API content was retained. Temporary source
 downloads used for page-level inspection were not committed.
 
+## Page-twelve Applegate-through-Arbucci pathways, Batch 095
+
+`research/evidence-page-twelve-appleton-through-arbucci-pathways_batch-095_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-twelve rows from Rex
+Applegate through Louis F. Arbucci. The bundle contains nine person updates,
+ten durable research attempts, and nine official personnel-index citations.
+It adds no organization, affiliation, or employment claim.
+
+Rex Applegate's already published high-confidence United States Army Military
+Police pathway received a new integrity review and remains unchanged. John B.
+Appleton, Margaret E. Appleton, Sabri Appolini, Carlo E. Aprato, Helene A.
+Apt, Samuel P. Aquilina, Joseph J. Aquino Jr., Pedro J. Aquirre, and Louis F.
+Arbucci remain unresolved after the minimum online protocol and route to the
+indexed Box 20 files. A rare-name wartime candidate was inspected in direct
+source context and rejected because it did not establish that it described
+the indexed OSS person or a pre-OSS employer; sensitive, irrelevant details
+from that lead were not published.
+
+The printed `Caf-3`, `Sgt USM`, `Pvt`, `2nd Lt`, and `T-5` strings remain
+recoverable. `Sgt USM` is not expanded or forced into a category without
+support. The index spelling Aquirre is preserved, while Aguirre is recorded
+only as a search variant. No authenticated NARA Catalog request was made, no
+API key was accessed, and no live NARA API content was retained. Temporary
+source downloads and PDF inspection crops were not committed or republished.
+
 ## Official reference material
 
 - NARA OSS personnel records:

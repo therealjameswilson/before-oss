@@ -8558,3 +8558,108 @@ test("Batch 094 preserves indexed names while separating military, civilian, and
     }
   }
 });
+
+test("Batch 095 preserves printed grades and routes unsupported Appleton-through-Arbucci identities to archival review", async ({
+  page,
+}) => {
+  const profiles = [
+    ["576aa158-a1be-56a6-96fc-c6c536de6381", "Rex Applegate"],
+    ["2be8dce7-b974-5b11-b996-57dc46527584", "John B Appleton"],
+    ["f036030a-6d1f-5c89-8e55-2854b46ed497", "Margaret E Appleton"],
+    ["a7636e46-c351-511c-bf45-a0f41b0c69e4", "Sabri Appolini"],
+    ["b63ca3f5-ca5f-532c-bb7d-0addd15a29b9", "Carlo E Aprato"],
+    ["ebabf95c-780b-53e5-b149-6b6def8dee4a", "Helene A Apt"],
+    ["60c19781-302d-5f8a-8cde-853fcde15540", "Samuel P Aquilina"],
+    ["11b358de-dab6-5ef5-875e-2abea9e9402e", "Joseph J Aquino Jr."],
+    ["9e8a4cda-76de-5785-a59c-30458ebd585d", "Pedro J Aquirre"],
+    ["caa2dfb6-d8bb-566b-bc98-5992b7049b05", "Louis F Arbucci"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("20", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of profiles.slice(1).map(([personId]) => personId)) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const [personId, rankText, categoryText] of [
+    [
+      "ebabf95c-780b-53e5-b149-6b6def8dee4a",
+      "Caf-3",
+      "civilian professional or administrative grade",
+    ],
+    [
+      "60c19781-302d-5f8a-8cde-853fcde15540",
+      "Sgt USM",
+      "unknown or indeterminate",
+    ],
+    [
+      "11b358de-dab6-5ef5-875e-2abea9e9402e",
+      "Pvt",
+      "enlisted army personnel",
+    ],
+    [
+      "9e8a4cda-76de-5785-a59c-30458ebd585d",
+      "2nd Lt",
+      "commissioned army officer",
+    ],
+    [
+      "caa2dfb6-d8bb-566b-bc98-5992b7049b05",
+      "T-5",
+      "enlisted army personnel",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(rankText);
+    await expect(page.locator("body")).toContainText(categoryText);
+  }
+
+  await page.goto("./people/9e8a4cda-76de-5785-a59c-30458ebd585d/");
+  await expect(
+    page.getByRole("heading", { name: "Pedro J Aquirre", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Pedro J Aguirre (search variant only)",
+  );
+
+  await page.goto("./people/a7636e46-c351-511c-bf45-a0f41b0c69e4/");
+  await expect(page.locator("body")).toContainText(
+    "basis for inclusion in the personnel index",
+  );
+  await expect(page.locator("body")).not.toContainText("Espionage");
+  await expect(page.locator("body")).not.toContainText("Vittorio");
+
+  await page.goto("./people/576aa158-a1be-56a6-96fc-c6c536de6381/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+});

@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 324 / 324 browser cases.**
+**PASS - 330 / 330 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-123-person employer measure is labeled separately from the 211-person broader
+125-person employer measure is labeled separately from the 216-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -927,3 +927,20 @@ GitHub test workflow
 [30631501006](https://github.com/therealjameswilson/before-oss/actions/runs/30631501006)
 repeated the complete build, responsive-browser, and accessibility matrix for
 release `a0d2de3` and completed successfully.
+
+## Batch 095 accessibility and responsive regression
+
+The Batch 095 regression checks the ten contiguous page-twelve profiles from
+Rex Applegate through Louis F. Arbucci. It verifies Box 20 guidance,
+field-level serial masking, the nine unresolved identities, the absence of
+unsupported affiliation and employer claims, and the printed `Caf-3`, `Sgt
+USM`, `Pvt`, `2nd Lt`, and `T-5` strings. It also verifies that the indexed
+Aquirre spelling remains the public title while Aguirre works only as a search
+variant; that rejected sensitive lead details do not appear publicly; and that
+Rex Applegate's carried-forward United States Army pathway remains intact.
+
+The first two focused runs corrected test assumptions about the site's
+standard no-claim wording and the proper omission of private identity-review
+notes; neither exposed a production defect. The final targeted desktop, phone,
+and tablet run passed 3 / 3. The complete final matrix passed 330 / 330 with no
+assertion or serious/critical axe failure.

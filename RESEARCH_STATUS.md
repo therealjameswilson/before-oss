@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 763 people with a non-planned attempt | 23,941 person entities | 3.1870% |
+| Research-attempt coverage | 772 people with a non-planned attempt | 23,941 person entities | 3.2246% |
 | Verified-affiliation coverage | 216 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9022% |
 | Verified-employer coverage | 125 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5221% |
-| Archival-review coverage | 711 people with an individual file-access/priority assessment | 23,941 person entities | 2.9698% |
+| Archival-review coverage | 720 people with an individual file-access/priority assessment | 23,941 person entities | 3.0074% |
 
 ## Extraction and identity
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,178
+- `not_started`: 23,169
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 28
-- `requires_archival_review`: 478
+- `requires_archival_review`: 487
 - `completed`: 37
 - `verified_employer_found`: 132
 - Stratified pilot size: 75
@@ -64,15 +64,15 @@ Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
-- Reviewed-evidence carry-forward/integrity attempts recorded: 2
-- Reviewed-web-and-official-source attempts recorded: 46
+- Reviewed-evidence carry-forward/integrity attempts recorded: 3
+- Reviewed-web-and-official-source attempts recorded: 55
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 311 across 295 people; 26 additional
+- Saved `source_reviewed` outcomes: 312 across 295 people; 26 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,790
+- Total recorded attempts/plans: 1,800
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 299; 283 have at least one public-eligible
@@ -709,10 +709,21 @@ Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
   The same official proceeding adds occupation-only evidence that Ivo
   Antunovic immediately preceded OSS as a Yugoslav merchant-marine captain
   without naming an employer.
+  Batch 095 continued page twelve from Rex Applegate through Louis F. Arbucci.
+  Rex Applegate's existing high-confidence United States Army Military Police
+  pathway underwent an integrity review and remains unchanged. John B.
+  Appleton, Margaret E. Appleton, Sabri Appolini, Carlo E. Aprato, Helene A.
+  Apt, Samuel P. Aquilina, Joseph J. Aquino Jr., Pedro J. Aquirre, and Louis
+  F. Arbucci remain unresolved after the minimum online protocol and route to
+  Box 20 review. The printed `Caf-3`, `Sgt USM`, `Pvt`, `2nd Lt`, and `T-5`
+  strings remain recoverable. `Sgt USM` remains indeterminate rather than
+  being forced into a personnel category, and Aquirre remains the indexed
+  spelling while Aguirre is a search-only variant. Rejected candidates were
+  not promoted, and the batch adds no employer claim.
 - Published affiliations: 430
 - Database claims: 770; public-eligible claims: 751 (109 confirmed, 558 high, 84
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,147; public source export: 695; unique source documents: 627
+- Citation records: 1,156; public source export: 695; unique source documents: 627
 - Canonical organizations: 255 private and 253 public
 - Conflicts: 1
 - NARA pull-list rows: 23,846
@@ -856,6 +867,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-a
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-anthony-through-antonakis-pathways_batch-092_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-twelve-antonelli-through-apkarian-pathways_batch-093_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-apolito-through-applebaum-pathways_batch-094_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-appleton-through-arbucci-pathways_batch-095_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
