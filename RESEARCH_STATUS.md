@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 655 people with a non-planned attempt | 23,941 person entities | 2.7359% |
+| Research-attempt coverage | 665 people with a non-planned attempt | 23,941 person entities | 2.7777% |
 | Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
 | Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 603 people with an individual file-access/priority assessment | 23,941 person entities | 2.5187% |
+| Archival-review coverage | 613 people with an individual file-access/priority assessment | 23,941 person entities | 2.5605% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 210
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 22
+- Identity status `confirmed`: 23
 - Identity status `high_confidence`: 254
 - Identity status `probable`: 19
 - Identity status `ambiguous`: 22
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,623
+- Identity status `unresolved`: 23,622
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,286
+- `not_started`: 23,276
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 23
 - `occupation_only_found`: 26
-- `requires_archival_review`: 387
+- `requires_archival_review`: 397
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -62,15 +62,15 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 385
+- Reviewed-web terminal-protocol attempts recorded: 395
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 288 across 273 people; 15 additional
+- Saved `source_reviewed` outcomes: 289 across 274 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,680
+- Total recorded attempts/plans: 1,690
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 273; 257 have at least one public-eligible
+- People with saved reviewed claims: 274; 258 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -537,11 +537,28 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   Loma J. Anderson's row remains preserved exactly and unexpanded. No
   namesake employer, military unit, or occupation from this batch is published
   as fact.
-- Published affiliations: 407
-- Database claims: 716; public-eligible claims: 697 (97 confirmed, 524 high, 76
+  Batch 084 completed the last two page-nine rows and continued through the
+  first eight page-ten rows: Margaret M. Anderson, Marie J. Anderson, Marvin
+  Anderson, Merle G. Anderson, Naomi Anderson, Neal B. Anderson, Noel L.
+  Anderson, Norbert P. Anderson, Odd A. Anderson, and Orval W. Anderson.
+  Nine common-name identities remain unresolved after the minimum online
+  protocol and route to Box 16 review. A published Operation Rype roster's
+  exact name, middle initial, enlisted context, and matching private service
+  identifier confirm Odd A. Anderson's identity. Contemporary 1941 and 1942
+  sources place the uncommon Odd Anderson of Evanston at Purdue, and a
+  reprinted 1987 interview says OSS recruited him during his freshman year.
+  Purdue is therefore published as a medium-confidence, probably immediate
+  student affiliation—not as employment. The accessible official history says
+  NORSO drew from the 99th Infantry Battalion, but because it does not name
+  Anderson individually, that possible intervening assignment remains an
+  archival question rather than a public affiliation claim. Namesake military,
+  banking, cemetery, legislative, and obituary leads for the other nine rows
+  were rejected and are not published as facts.
+- Published affiliations: 408
+- Database claims: 718; public-eligible claims: 699 (97 confirmed, 525 high, 77
   medium); 19 low-confidence claims are withheld
-- Citation records: 993; public source export: 629; unique source documents: 587
-- Canonical organizations: 246 private and 244 public
+- Citation records: 1,008; public source export: 635; unique source documents: 592
+- Canonical organizations: 247 private and 245 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
 
@@ -673,6 +690,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-and
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-continuation-archival-pathways_batch-081_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-james-and-john-archival-pathways_batch-082_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-john-through-margaret-archival-pathways_batch-083_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-ten-anderson-margaret-through-orval-pathways_batch-084_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

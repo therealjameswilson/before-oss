@@ -7343,3 +7343,99 @@ test("Batch 083 preserves ten Anderson records, unfamiliar grade text, and rejec
     );
   }
 });
+
+test("Batch 084 confirms Odd A Anderson while preserving nine unresolved common-name records", async ({
+  page,
+}) => {
+  const unresolvedProfiles = [
+    ["c4ca578f-411e-5804-8e5f-84c80eea84da", "Margaret M Anderson"],
+    ["462f8ecf-692d-54d6-ae28-cab34d6c6a3e", "Marie J Anderson"],
+    ["17b153ea-9da3-531e-b84d-85f78b47c508", "Marvin Anderson"],
+    ["e350b6a5-8138-511f-a483-465c60e8e13b", "Merle G Anderson"],
+    ["88d2b8a3-dba7-5b36-8b94-60b378a89385", "Naomi Anderson"],
+    ["4132f822-0f77-5836-8fcb-205c2e97ad36", "Neal B Anderson"],
+    ["4519ec54-2651-56c8-997d-ea0f49e34d0b", "Noel L Anderson"],
+    ["97f1eefa-e5b6-53b4-889e-84bc86ad31b0", "Norbert P Anderson"],
+    ["56964077-e79f-5d1e-9496-96661cf2d3f5", "Orval W Anderson"],
+  ];
+
+  for (const [personId, displayName] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("16", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/4132f822-0f77-5836-8fcb-205c2e97ad36/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned army officer",
+  );
+
+  for (const personId of [
+    "e350b6a5-8138-511f-a483-465c60e8e13b",
+    "88d2b8a3-dba7-5b36-8b94-60b378a89385",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "civilian professional or administrative grade",
+    );
+  }
+
+  await page.goto("./people/255119c1-5c15-56f2-9d06-2681e1b2bfe3/");
+  await expect(
+    page.getByRole("heading", { name: "Odd A Anderson", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  const immediateSection = page.locator(
+    'section[aria-labelledby="immediate-affiliation"]',
+  );
+  await expect(immediateSection).toContainText("Purdue University");
+  await expect(immediateSection).toContainText("engineering student");
+  await expect(immediateSection).toContainText("medium");
+  await expect(immediateSection).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Purdue is an educational affiliation, not an employer",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Masked serial suffixes assist orientation without publishing full service numbers",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••[A-Z0-9]{4}$/);
+
+  for (const [personId, rejectedOrganization] of [
+    ["17b153ea-9da3-531e-b84d-85f78b47c508", "Minnesota Legislature"],
+    ["88d2b8a3-dba7-5b36-8b94-60b378a89385", "Fidelity National Bank"],
+    ["4132f822-0f77-5836-8fcb-205c2e97ad36", "Fort Snelling"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).not.toContainText(
+      rejectedOrganization,
+    );
+  }
+});

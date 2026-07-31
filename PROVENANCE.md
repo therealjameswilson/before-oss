@@ -923,6 +923,44 @@ yet been identified in the accessible sources reviewed; none implies that the
 person had no prior employment. Full service identifiers and sensitive
 modern-person details remain private.
 
+## Page-nine/ten Anderson Margaret-through-Orval pathways, Batch 084
+
+`research/evidence-page-nine-ten-anderson-margaret-through-orval-pathways_batch-084_2026-07-30.json`
+records the minimum online research protocol for the final two rows on PDF page
+nine and the first eight rows on page ten, from Margaret M. Anderson through
+Orval W. Anderson. It contains ten visually checked official-index citations,
+ten terminal research attempts, ten person updates, fifteen citation records,
+one organization, one affiliation, and two claims. It stores no live NARA
+Catalog response, credential, full service identifier, full copyrighted page,
+or sensitive modern-person detail.
+
+Nine common-name identities remain unresolved and retain high-priority Box 16
+review guidance. The staged searches rejected military, banking, cemetery,
+legislative, obituary, institutional, and modern namesakes that lacked the
+indexed private identifier, compatible rank or surname chronology, an OSS
+connection, or the additional identifiers required for a common-name match.
+No rejected employer or assignment is promoted to a public claim.
+
+Odd A. Anderson is the exception. Matthew T. Bolland's published Operation
+Rype roster matches the indexed uncommon name, middle initial, enlisted
+context, and private service identifier exactly. The identifier was compared
+in the private database and is not reproduced in the evidence bundle or public
+exports. Contemporary 1941 and 1942 publications independently place Odd
+Anderson of Evanston at Purdue, and a Dartmouth alumni newsletter preserves a
+family account and transcript of Tony Gordon's August 6, 1987 *Wilmette Life*
+interview. In that interview Anderson said OSS recruited him during his
+freshman year at Purdue.
+
+The public result preserves the distinction the project is designed to make:
+Purdue University is a medium-confidence, probably immediate student
+affiliation, not an employer. The 1987 recollection is explicit about the
+freshman-year timing, but the accessible evidence does not rule out a short
+Army reception or unit assignment before formal OSS entry. A current official
+Army history says NORSO was recruited from the 99th Infantry Battalion, but it
+does not individually identify Anderson. The possible 99th pathway and any
+last civilian employer therefore remain questions for Box 16 rather than
+settled public facts.
+
 ## Official reference material
 
 - NARA OSS personnel records:
