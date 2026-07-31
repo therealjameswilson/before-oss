@@ -72,6 +72,17 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(result.category, "enlisted_naval_personnel")
         self.assertFalse(result.commissioned_officer)
 
+    def test_lieutenant_commander_variants_are_naval_officers(self) -> None:
+        for printed_rank, normalized_rank in (
+            ("Lt CMD", "LT CMD"),
+            ("Lt Cmdr", "LT CMDR"),
+        ):
+            with self.subTest(printed_rank=printed_rank):
+                result = classify_personnel(printed_rank, None)
+                self.assertEqual(result.rank_normalized, normalized_rank)
+                self.assertEqual(result.category, "commissioned_naval_officer")
+                self.assertTrue(result.commissioned_officer)
+
     def test_serial_normalization_preserves_prefix(self) -> None:
         self.assertEqual(normalize_serial("RA 3389449"), "RA3389449")
 

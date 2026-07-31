@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 723 people with a non-planned attempt | 23,941 person entities | 3.0199% |
-| Verified-affiliation coverage | 205 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8563% |
-| Verified-employer coverage | 122 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5096% |
-| Archival-review coverage | 671 people with an individual file-access/priority assessment | 23,941 person entities | 2.8027% |
+| Research-attempt coverage | 733 people with a non-planned attempt | 23,941 person entities | 3.0617% |
+| Verified-affiliation coverage | 206 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8604% |
+| Verified-employer coverage | 123 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5138% |
+| Archival-review coverage | 681 people with an individual file-access/priority assessment | 23,941 person entities | 2.8445% |
 
 ## Extraction and identity
 
@@ -21,16 +21,16 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 26
-- Identity status `high_confidence`: 258
-- Identity status `probable`: 22
+- Identity status `confirmed`: 27
+- Identity status `high_confidence`: 259
+- Identity status `probable`: 23
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,610
+- Identity status `unresolved`: 23,607
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,592
+- Unknown or indeterminate: 16,567
 - Enlisted Army personnel: 3,468
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
@@ -38,23 +38,23 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,458
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 49
-- Commissioned naval officers: 49
+- Enlisted naval personnel: 50
+- Commissioned naval officers: 73
 - Warrant officers: 4
 
-Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
+Commissioned classification: 2,154 yes; 4,987 no; 16,800 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,218
+- `not_started`: 23,208
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 27
-- `requires_archival_review`: 450
+- `requires_archival_review`: 459
 - `completed`: 37
-- `verified_employer_found`: 121
+- `verified_employer_found`: 122
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,17 +65,17 @@ Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 2
-- Reviewed-web-and-official-source attempts recorded: 6
+- Reviewed-web-and-official-source attempts recorded: 16
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 298 across 282 people; 20 additional
+- Saved `source_reviewed` outcomes: 300 across 284 people; 21 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,750
+- Total recorded attempts/plans: 1,760
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 281; 265 have at least one public-eligible
+- People with saved reviewed claims: 283; 267 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -663,13 +663,29 @@ Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
   direct file comparison. Nicholas A. Angelos, Carlos J. Angulo, and Manuel R.
   Angulo remain unresolved. Six profiles route to Box 18 review, while the
   better-supported profiles retain targeted archival questions.
-- Published affiliations: 416
-- Database claims: 734; public-eligible claims: 715 (102 confirmed, 536 high, 77
+  Batch 091 continued page eleven from Richard J. Ankeny through Kelly
+  Anthony. A direct declassified OSS order confirms Robert M. Anstett's
+  identity through exact name, compatible rank, branch, and a private
+  identifier, but it does not establish a predecessor assignment or civilian
+  employer. Contemporary Cornell notices and a Cornell institutional history
+  support Bertel W. Antell as a high-confidence identity. Chemical
+  Construction Company is published as his strongly date-bounded last civilian
+  employer before Naval service, while the U.S. Naval Training School at
+  Cornell is separately and visibly qualified as his probable immediate
+  pre-OSS military assignment. The accessible sources do not state the exact
+  employment end date or exclude intervening Naval duty. Charles S. Annell
+  remains a probable postwar USGS identity candidate without a wartime link or
+  public employment claim; the other seven identities remain unresolved. Nine
+  profiles route to Box 18 or 19 review. The printed `Lt CMD` rank is preserved
+  while the documented normalization now recognizes it, and `Lt Cmdr`, as a
+  commissioned naval-officer abbreviation.
+- Published affiliations: 418
+- Database claims: 738; public-eligible claims: 719 (103 confirmed, 538 high, 78
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,080; public source export: 651; unique source documents: 605
-- Canonical organizations: 249 private and 247 public
+- Citation records: 1,095; public source export: 657; unique source documents: 611
+- Canonical organizations: 251 private and 249 public
 - Conflicts: 1
-- NARA pull-list rows: 23,857
+- NARA pull-list rows: 23,856
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -805,6 +821,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-ande
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-andreopoulos-through-andrews-archival-pathways_batch-087_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-eleven-andrews-through-andros-pathways_batch-088_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-andros-through-angelos-archival-pathways_batch-089_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-angelos-through-angulo-pathways_batch-090_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-ankeny-through-anthony-pathways_batch-091_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

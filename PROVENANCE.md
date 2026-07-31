@@ -1221,6 +1221,61 @@ No authenticated NARA Catalog request was made, no API key was accessed, and
 no live NARA API content was retained. The direct OSS personnel-file download
 used for visual review remained temporary and is not a repository artifact.
 
+## Page-eleven Ankeny-through-Anthony pathways, Batch 091
+
+`research/evidence-page-eleven-ankeny-through-anthony-pathways_batch-091_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from Richard J.
+Ankeny through Kelly Anthony on PDF page eleven. The bundle contains ten person
+updates, ten durable research attempts, fifteen sources, two normalized
+organizations, two published affiliations, four published claims, and ten
+claim-source links.
+
+All ten index citations were checked against the rendered PDF page. The
+research protocol covered NARA and CIA context, exact-name and meaningful
+initial, rank, spelling, and punctuation variants, employment and occupation
+searches, Library of Congress and other contemporary newspaper paths,
+institutional records, obituaries, directories, military records, and archival
+checks as applicable. Incomplete and common-name records were not resolved from
+name matches alone.
+
+An official declassified OSS European Theater order confirms Robert M.
+Anstett's identity through exact name, compatible first-lieutenant rank, branch,
+and a unique service identifier retained only in the private database. The
+order confirms wartime OSS context but does not document his transfer
+chronology or civilian employment. The Coast Artillery Corps entry is therefore
+used for identity resolution only and is not published as an immediate pre-OSS
+affiliation.
+
+Two contemporary 1943 Cornell Alumni News notices and a Cornell institutional
+alumni history support Bertel W. Antell as a high-confidence identity. The
+January notice directly names The Chemical Construction Co. and describes his
+personnel-director role in the past tense while documenting his then-current
+Naval officer training. Chemical Construction Company is published as the
+strongly date-bounded last civilian employer, without inventing an employment
+end date or substituting its parent company as the employer. The Naval Training
+School at Cornell is separately published as a medium-confidence, probable
+immediate pre-OSS military assignment because the accessible sources do not
+give the exact Navy-to-OSS transfer date or exclude intervening duty.
+
+A 1952 official U.S. Geological Survey report names a postwar scientist Charles
+Annell and supports a probable identity lead for the indexed Charles S. Annell.
+It does not supply a wartime identifier, Box 19 link, OSS chronology, or
+pre-OSS employment evidence, so no public affiliation claim is created.
+Richard J. Ankeny, Dorothy S. Annan, Jayne L. Annis, Juliet K. Ansperry, Earl
+K. Anthony, Fred D. Anthony, and Kelly Anthony remain unresolved after the
+minimum protocol. All nine profiles other than Antell route to targeted Box 18
+or Box 19 review.
+
+The printed `Lt CMD` value for Antell remains unchanged in the immutable source
+record. The tested normalization vocabulary now recognizes both `Lt CMD` and
+`Lt Cmdr` as lieutenant-commander variants and classifies those rows as
+commissioned naval officers. This classification change does not itself resolve
+an identity or establish an affiliation.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API content was retained. Temporary source downloads used for
+page-level verification were deleted and were not committed.
+
 ## Official reference material
 
 - NARA OSS personnel records:

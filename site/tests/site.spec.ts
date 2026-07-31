@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/122 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/123 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 205 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 206 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8024,5 +8024,112 @@ test("Batch 090 publishes direct pathways, corrects status semantics, and preser
   ).toBeVisible();
   await expect(
     page.getByRole("link", { name: "James H Angleton", exact: true }),
+  ).toBeVisible();
+});
+
+test("Batch 091 publishes Antell's bounded civilian and naval pathways while preserving nine archival cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8b09a2fc-7f0f-5197-b6dc-c91b68a6ba46", "Richard J Ankeny"],
+    ["ffe784de-054b-5f9e-a6ed-832e3cb842c6", "Dorothy S Annan"],
+    ["60d51c45-8202-5610-8b88-1d95ba6ff8a7", "Charles S Annell"],
+    ["b549b41b-2786-57b4-a7c8-0b31393c67e2", "Jayne L Annis"],
+    ["988dc29a-ccd4-51ee-b414-3362f507597e", "Juliet K Ansperry"],
+    ["de6c72ba-ecff-5855-be19-29ea41e6f610", "Robert M Anstett"],
+    ["af17890d-d914-590b-b814-a325f9c28525", "Bertel W Antell"],
+    ["69ac8c22-d653-5010-b3cf-a3b256a33f86", "Earl K Anthony"],
+    ["ed6e70be-3f3b-5e3e-8f0e-7c11884b9d7d", "Fred D Anthony"],
+    ["e058c0a8-6c57-58a0-a3c3-98a6127677ae", "Kelly Anthony"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(/^(18|19)$/, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b/);
+  }
+
+  await page.goto("./people/af17890d-d914-590b-b814-a325f9c28525/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "commissioned naval officer",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("U.S. Naval Training School at Cornell University");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Chemical Construction Company");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Personnel director");
+  await expect(page.locator("body")).toContainText(
+    "the exact employment end date is not stated",
+  );
+  await expect(page.locator("body")).not.toContainText(
+    "Chemical Construction Corporation",
+  );
+
+  await page.goto("./people/de6c72ba-ecff-5855-be19-29ea41e6f610/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Coast Artillery Corps officer",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+
+  await page.goto("./people/60d51c45-8202-5610-8b88-1d95ba6ff8a7/");
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "8b09a2fc-7f0f-5197-b6dc-c91b68a6ba46",
+    "ffe784de-054b-5f9e-a6ed-832e3cb842c6",
+    "60d51c45-8202-5610-8b88-1d95ba6ff8a7",
+    "b549b41b-2786-57b4-a7c8-0b31393c67e2",
+    "988dc29a-ccd4-51ee-b414-3362f507597e",
+    "de6c72ba-ecff-5855-be19-29ea41e6f610",
+    "69ac8c22-d653-5010-b3cf-a3b256a33f86",
+    "ed6e70be-3f3b-5e3e-8f0e-7c11884b9d7d",
+    "e058c0a8-6c57-58a0-a3c3-98a6127677ae",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./organizations/bfee0756-c3ee-5d48-a001-8d70a14ccc46/");
+  await expect(
+    page.getByRole("heading", { name: "Chemical Construction Company", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Bertel W Antell", exact: true }),
   ).toBeVisible();
 });
