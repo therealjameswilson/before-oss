@@ -712,3 +712,22 @@ of all 12,931 digit-bearing normalized private identifiers, represented by
 12,919 formatting-equivalent tokens, against 84 live HTML, data,
 compressed-mirror, and download artifacts returned zero unexpected full-number
 matches.
+
+## Batch 079 local release check
+
+The rebuilt site contains direct, internally resolved routes for Calhoun
+Ancrum Jr., James T. Ander, Donald E. Anderegg, Frederick C. Anderegg, Ora V.
+Anders, Erik J. Andersen, Harold Andersen, Jorgen F. Andersen, Robert E.
+Andersen, and Albert C. Anderson. It also contains direct Duke University and
+Willamette University organization routes. Both institutions appear only as
+qualified student affiliations; neither is counted as an employer or
+immediate predecessor. The Harold and Jorgen Andersen roster matches remain
+visibly probable, the James Ander and Robert Andersen namesake leads remain
+withheld, and all ten profiles retain Box 14 guidance and masked or explicitly
+unprinted serial fields.
+
+The complete local link checker passed all 24,193 HTML files and inventoried
+48,493 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`1e27b30df54323584b0453be25843eb39ec6dfbb7ddb8fc985670302f5d9a345`.

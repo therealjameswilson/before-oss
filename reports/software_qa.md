@@ -754,3 +754,38 @@ field-aware scan found zero unexpected full private-identifier matches across
 84 deployed artifacts. GitHub's Node 20 deprecation annotations concern the
 internal runtime of official actions forced onto Node 24 and did not affect
 either workflow result.
+
+Batch 079 completes the minimum online protocol for Calhoun Ancrum Jr. through
+Albert C. Anderson across PDF pages eight and nine. Calhoun Ancrum Jr. and
+Donald E. Anderegg now have high-confidence identities and qualified,
+medium-confidence student affiliations at Duke University and Willamette
+University respectively. Neither institution is classified as an employer,
+immediate pre-OSS affiliation, or last civilian employer. Harold Andersen and
+Jorgen F. Andersen retain probable, medium-confidence Norwegian Operations
+roster matches because the specialist secondary roster lacks complete
+identifiers and item-level primary citations. Two low-confidence namesake
+leads remain withheld, four other identities remain unresolved, and all ten
+profiles retain Box 14 archival-review guidance.
+
+Fifty-one Python tests, all 282 browser and accessibility cases, the
+200-profile stratified audit, and the 24,193-page link check passed. The link
+checker inventoried 48,493 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`52c69dd665ab2f8585099b54ee7429d623379bd528110eb3d1b56edfba26a386`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`1e27b30df54323584b0453be25843eb39ec6dfbb7ddb8fc985670302f5d9a345`.
+A field-aware local scan assessed 12,931 distinct digit-bearing normalized
+private identifiers and found zero unexpected full-number matches across
+24,335 public text, compressed-mirror, and production HTML assets.
+
+A clean-archive Batch 079 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,640 research attempts, replayed all 78 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,193-page static-site
+build. Across all 264 tracked files, 258 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero
+errors, and no substantive field, coverage count, public record, or generated
+site asset differed.

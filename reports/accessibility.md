@@ -711,5 +711,18 @@ field-level serial masking. The complete desktop, phone, and tablet matrix
 passed 279 / 279 with no remaining assertion or serious/critical axe failure;
 the targeted Batch 078 test passed a separate 3 / 3 three-viewport rerun.
 
+The Batch 079 regression checks the contiguous Calhoun Ancrum Jr.-through-
+Albert C. Anderson sequence across PDF pages eight and nine. It verifies that
+Calhoun Ancrum Jr.'s Duke University and Donald E. Anderegg's Willamette
+University records appear only as qualified student affiliations, never as
+employers or immediate predecessors. It also checks the probable, visibly
+qualified Norwegian Operations roster matches for Harold Andersen and Jorgen
+F. Andersen, withholds the low-confidence James Ander and Robert Andersen
+namesake leads, and preserves six additional unresolved or ambiguous Box 14
+profiles with direct routes and field-level serial masking. Direct Duke and
+Willamette organization routes retain the student relationship label. The
+complete desktop, phone, and tablet matrix passed 282 / 282 with no remaining
+assertion or serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
