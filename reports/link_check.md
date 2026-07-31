@@ -1114,6 +1114,36 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 089 production deployment
+
+GitHub Actions test workflow
+[30620073423](https://github.com/therealjameswilson/before-oss/actions/runs/30620073423)
+and GitHub Pages deployment
+[30620073082](https://github.com/therealjameswilson/before-oss/actions/runs/30620073082)
+for the page-eleven Andros-through-Angelos release `d2479c4` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 089 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 714 people with non-planned
+research attempts, 203 verified-affiliation people, 121 verified-employer
+people, 662 archival-review assessments, 708 published claims, and 644 public
+source records. The live personnel CSV and JSONL downloads each contain 23,941
+rows; the organizations, affiliations, and sources downloads contain 245, 412,
+and 644 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`32666f151ff271eb974cf614ca17c0d4f04e9229478061baff40333107a52f81`.
+The deployed manifest's forbidden-field check passed. A bounded, field-aware
+exact-token comparison of all 12,919 nontrivial normalized private identifiers
+against 81 live HTML, data, compressed-mirror, and download artifacts returned
+zero full-number matches. All ten profile-specific unresolved and
+archival-review checks passed; Anthony G. Angelos's live profile preserves the
+printed `S2 C` value and the reviewed enlisted-naval classification.
+
 ## Batch 089 local release check
 
 The rebuilt site contains direct, internally resolved routes for James H.
