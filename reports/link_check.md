@@ -823,3 +823,32 @@ The complete local link checker passed all 24,193 HTML files and inventoried
 recorded sizes and SHA-256 values, the manifest redaction check passed, and the
 manifest SHA-256 is
 `fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`.
+
+## Batch 081 production deployment
+
+GitHub Actions test workflow
+[30606273067](https://github.com/therealjameswilson/before-oss/actions/runs/30606273067)
+and GitHub Pages deployment
+[30606273062](https://github.com/therealjameswilson/before-oss/actions/runs/30606273062)
+for the page-nine Anderson continuation release `8088bae` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 081 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 636 people with non-planned
+research attempts, 200 verified-affiliation people, 120 verified-employer
+people, 583 archival-review assessments, 697 published claims, and 629 public
+source records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 244, 407, and 629 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`.
+The deployed manifest's forbidden-field check passed. A field-aware comparison
+of all 12,931 digit-bearing normalized private identifiers, represented by
+12,919 formatting-equivalent comparison tokens, against 81 live HTML, data,
+compressed-mirror, and download artifacts returned zero unexpected
+full-number matches.

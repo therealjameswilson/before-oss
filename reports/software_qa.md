@@ -40,18 +40,18 @@ Run: 2026-07-30 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30591555486](https://github.com/therealjameswilson/before-oss/actions/runs/30591555486)
-  for Batch 072 release `f472fe0`: **passed**
+  [30606273067](https://github.com/therealjameswilson/before-oss/actions/runs/30606273067)
+  for Batch 081 release `8088bae`: **passed**
 - GitHub Pages deployment workflow
-  [30591555503](https://github.com/therealjameswilson/before-oss/actions/runs/30591555503)
-  for Batch 072 release `f472fe0`: **passed**
+  [30606273062](https://github.com/therealjameswilson/before-oss/actions/runs/30606273062)
+  for Batch 081 release `8088bae`: **passed**
 - Production route smoke tests: **16 / 16 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
 - Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `5e9eeb52b10246a48d717be7874e3f38823352510d6908a104908c2b6a0439b9`
+  `fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -880,3 +880,13 @@ six report files differed only in their expected `generated_at` timestamps.
 SQLite `quick_check` returned `ok`, the foreign-key check returned zero
 errors, and no substantive field, coverage count, public record, or generated
 site asset differed.
+
+GitHub Actions test workflow
+[30606273067](https://github.com/therealjameswilson/before-oss/actions/runs/30606273067)
+and Pages workflow
+[30606273062](https://github.com/therealjameswilson/before-oss/actions/runs/30606273062)
+passed for Batch 081 release `8088bae`. The live audit passed all 16 route and
+content checks, all 65 deployed manifest assets matched the local release, all
+eight checked statistics and the five public download row counts matched, and
+the field-aware scan found zero unexpected full private-identifier matches
+across 81 deployed artifacts.
