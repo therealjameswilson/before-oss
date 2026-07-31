@@ -1068,6 +1068,13 @@ The focused desktop, phone, and tablet run passed 3 / 3. The complete desktop,
 phone, tablet, responsive, direct-route, search, and axe matrix passed 366 / 366
 with no assertion failure or serious/critical accessibility violation.
 
+GitHub test workflow
+[30672071154](https://github.com/therealjameswilson/before-oss/actions/runs/30672071154)
+repeated the complete research and site matrix for release `54e86a1` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.
+
 ## Batch 106 accessibility and responsive regression
 
 The Batch 106 regression checks the ten contiguous page-fourteen profiles from

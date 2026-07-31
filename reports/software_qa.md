@@ -39,14 +39,14 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30669019885](https://github.com/therealjameswilson/before-oss/actions/runs/30669019885)
-  for Batch 106 release `d0c954f`: **passed**
+  [30672071154](https://github.com/therealjameswilson/before-oss/actions/runs/30672071154)
+  for Batch 107 release `54e86a1`: **passed**
 - GitHub Pages deployment workflow
-  [30669019860](https://github.com/therealjameswilson/before-oss/actions/runs/30669019860)
-  for Batch 106 release `d0c954f`: **passed**
-- Production route smoke tests: **21 / 21 returned HTTP 200 and matched the
+  [30672071201](https://github.com/therealjameswilson/before-oss/actions/runs/30672071201)
+  for Batch 107 release `54e86a1`: **passed**
+- Production route smoke tests: **19 / 19 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 86 live
+- Production redaction scan: **0 full private-identifier matches across 85 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
@@ -1572,6 +1572,18 @@ timestamps. The rebuilt SQLite database passed `quick_check` and the
 foreign-key check, and the independently rebuilt site produced the same
 `3062b729811a52bda8f03133295298058d6bf3d9678072f3449735a26f96c39f`
 content-tree hash.
+
+The Batch 107 production audit followed successful GitHub test workflow
+[30672071154](https://github.com/therealjameswilson/before-oss/actions/runs/30672071154)
+and Pages workflow
+[30672071201](https://github.com/therealjameswilson/before-oss/actions/runs/30672071201)
+for release `54e86a1`. All 19 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The boundary-aware scan found zero full private-identifier
+matches across 85 live artifacts, and all four unique Batch 107 source URLs
+returned HTTP 200.
 
 ## Batch 106 local release QA
 
