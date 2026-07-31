@@ -977,3 +977,10 @@ and tablet rerun passed 3 / 3. The first complete matrix then found only two
 stale Batch 095 homepage totals while 330 other checks passed. After updating
 those expected counts to the generated Batch 096 totals, the complete final
 matrix passed 333 / 333 with no assertion or serious/critical axe failure.
+
+GitHub test workflow
+[30637654099](https://github.com/therealjameswilson/before-oss/actions/runs/30637654099)
+repeated the complete research and site matrix for release `816ce56` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.

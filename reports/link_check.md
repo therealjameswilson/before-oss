@@ -1139,6 +1139,38 @@ identifier matches. Two consecutive static builds produced the identical
 site-tree SHA-256
 `ea095e7f83c1cef26f0c2ea66703418128ae444c41b5cf4238ecaafe21392787`.
 
+## Batch 096 production deployment
+
+GitHub Actions test workflow
+[30637654099](https://github.com/therealjameswilson/before-oss/actions/runs/30637654099)
+and GitHub Pages deployment
+[30637654043](https://github.com/therealjameswilson/before-oss/actions/runs/30637654043)
+for the page-twelve Arcaro-through-Archuleta release `816ce56` completed
+successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: the
+homepage, personnel directory, organization directory, analysis, methodology,
+sources, downloads, all ten Batch 096 person profiles, and the United States
+Naval Reserve, Springfield Plantation, and United States Army organization
+profiles. After substituting both plain and URL-encoded production canonical
+hosts, every route matched the audited local HTML byte-for-byte.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 782
+people with non-planned research attempts, 218 verified-affiliation people,
+126 verified-employer people, 730 archival-review assessments, 756 published
+claims, and 701 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 254, 433, and 701 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`2f629d9e9dab039739eef577356053d49364e780369221f1b2f367d2812dc9ee`.
+The deployed manifest's forbidden-field check passed. The 85 audited live HTML
+and manifest-listed artifacts therefore inherit the local boundary-aware
+result: zero full matches among all 12,919 nontrivial normalized private
+identifiers.
+
 ## Batch 095 local release check
 
 The rebuilt site contains direct, internally resolved routes for Rex Applegate,

@@ -1568,3 +1568,19 @@ attempt, 218 people with verified affiliation evidence, 126 people with
 verified employment or self-employment evidence, and 730 people whose
 archival-review need has been assessed. No authenticated NARA Catalog request
 was made.
+
+The Batch 096 production audit followed successful GitHub test workflow
+[30637654099](https://github.com/therealjameswilson/before-oss/actions/runs/30637654099)
+and Pages workflow
+[30637654043](https://github.com/therealjameswilson/before-oss/actions/runs/30637654043)
+for release `816ce56`. All 20 deployed routes returned HTTP 200 and matched
+the audited local HTML after plain and URL-encoded canonical-host
+normalization. All 65 deployed manifest assets matched recorded and local
+sizes, hashes, and bytes; all eight live statistics and all five public
+download row counts matched the release. The 85 audited live artifacts inherit
+the zero-match private-identifier result.
+
+The workflows emitted one non-failing platform annotation: several pinned
+GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
+by the runner to Node.js 24. The repository's test job explicitly uses Node.js
+24, and the annotation did not affect the successful build or test results.
