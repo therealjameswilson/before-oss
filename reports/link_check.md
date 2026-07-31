@@ -586,3 +586,29 @@ The complete local link checker passed all 24,188 HTML files and inventoried
 recorded sizes and SHA-256 values, the manifest redaction check passed, and the
 manifest SHA-256 is
 `bd9d8567cf38f1cd6f2b3a7f22b211901b755d85cce1ed520fe27b73cf05f7ce`.
+
+## Batch 076 production deployment
+
+GitHub Actions test workflow
+[30597498374](https://github.com/therealjameswilson/before-oss/actions/runs/30597498374)
+and GitHub Pages deployment
+[30597498367](https://github.com/therealjameswilson/before-oss/actions/runs/30597498367)
+for the page-eight Ames-through-Amon release `f6cae1a` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 076 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 587 people with non-planned
+research attempts, 197 verified-affiliation people, 118 verified-employer
+people, 534 archival-review assessments, 683 published claims, and 608 public
+source records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 239, 400, and 608 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`bd9d8567cf38f1cd6f2b3a7f22b211901b755d85cce1ed520fe27b73cf05f7ce`.
+The deployed manifest's forbidden-field check passed, and the live profile
+pages preserve masked or explicitly unprinted serial fields.
