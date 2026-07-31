@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30652531902](https://github.com/therealjameswilson/before-oss/actions/runs/30652531902)
-  for Batch 101 release `f137eed`: **passed**
+  [30656253117](https://github.com/therealjameswilson/before-oss/actions/runs/30656253117)
+  for Batch 102 release `390e568`: **passed**
 - GitHub Pages deployment workflow
-  [30652531643](https://github.com/therealjameswilson/before-oss/actions/runs/30652531643)
-  for Batch 101 release `f137eed`: **passed**
+  [30656253266](https://github.com/therealjameswilson/before-oss/actions/runs/30656253266)
+  for Batch 102 release `390e568`: **passed**
 - Production route smoke tests: **20 / 20 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 85 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`
+  `8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1573,6 +1573,22 @@ claims. Coverage distinguishes 841 people with a non-planned research attempt,
 223 people with verified affiliation evidence, 127 people with verified
 employment or self-employment evidence, and 789 people whose archival-review
 need has been assessed.
+
+The Batch 102 production audit followed successful GitHub test workflow
+[30656253117](https://github.com/therealjameswilson/before-oss/actions/runs/30656253117)
+and Pages workflow
+[30656253266](https://github.com/therealjameswilson/before-oss/actions/runs/30656253266)
+for release `390e568`. All 20 deployed routes returned HTTP 200 and matched the
+audited local HTML after production and local canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The boundary-aware exact-token scan found zero full
+private-identifier matches across 85 deployed artifacts.
+
+The workflows emitted one non-failing platform annotation: several pinned
+GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
+by the runner to Node.js 24. The repository's own test job explicitly uses
+Node.js 24, and the annotation did not affect the successful build or tests.
 
 ## Batch 101 local release QA
 

@@ -1145,6 +1145,37 @@ bounded command-line request timed out. The Hoover document was reviewed in
 the research browser; its direct media endpoint returned HTTP 403 to the
 command-line checker.
 
+## Batch 102 production deployment
+
+GitHub Actions test workflow
+[30656253117](https://github.com/therealjameswilson/before-oss/actions/runs/30656253117)
+and GitHub Pages deployment
+[30656253266](https://github.com/therealjameswilson/before-oss/actions/runs/30656253266)
+for the page-thirteen-and-fourteen Howard-W.-Arnold-through-Raymond-Arnone
+release `390e568` completed successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: seven core
+publication URLs, all ten Batch 102 person profiles, the Film Branch
+organization profile, a shareable Arnoldy directory-search URL, and the live
+statistics asset. After substituting the production and local plain and
+URL-encoded canonical hosts, every route or asset matched the audited local
+bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 841
+people with non-planned research attempts, 223 verified-affiliation people,
+127 verified-employer people, 789 archival-review assessments, 787 published
+claims, and 748 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 262, 450, and 748 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across the 85 audited live HTML and manifest-listed artifacts.
+
 ## Batch 101 local release check
 
 The rebuilt site contains direct, internally resolved routes for Clifford H.
