@@ -853,6 +853,24 @@ of all 12,931 digit-bearing normalized private identifiers, represented by
 compressed-mirror, and download artifacts returned zero unexpected
 full-number matches.
 
+## Batch 083 local release check
+
+The rebuilt site contains direct, internally resolved routes for John K.
+Anderson, Karl A. Anderson, Katherine G. Anderson, Kenneth A. Anderson, Kermit
+W. Anderson, Kirk T. Anderson, Lawrence A. Anderson Jr., Leonard W. Anderson,
+Loma J. Anderson, and Margaret J. Anderson. All ten profiles visibly retain
+unresolved identity status, Box 15 or Box 16 archival-review guidance, the
+standard evidence-limited employer statement, and masked or explicitly
+unprinted serial fields. The `WAE` index text remains visible without a forced
+expansion, and rejected common-name employers, military units, and occupations
+do not appear as attributed public facts.
+
+The complete local link checker passed all 24,193 HTML files and inventoried
+48,493 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`9e9dd520623527e5505e0670abe5010b48e776285d29667a76fe06aa9fac6618`.
+
 ## Batch 082 local release check
 
 The rebuilt site contains direct, internally resolved routes for Howell W.

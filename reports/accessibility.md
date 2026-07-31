@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 291 / 291 browser cases.**
+**PASS - 294 / 294 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -759,3 +759,15 @@ armored-division, photographic-reconnaissance, and other common-name leads do
 not appear as attributed public facts. The complete desktop, phone, and tablet
 matrix passed 291 / 291 with no remaining assertion or serious/critical axe
 failure.
+
+The Batch 083 regression checks the next contiguous sequence from John K.
+Anderson through Margaret J. Anderson on PDF page nine. It verifies ten
+distinct, dignified Box 15 or Box 16 archival-review profiles; masked or
+explicitly unprinted serial fields; warrant-officer, civilian
+professional-grade, enlisted Army, commissioned Army, and indeterminate
+personnel classifications; and the evidence-limited employer statement. It
+also confirms that the unfamiliar `WAE` text remains visible without a forced
+expansion and that rejected civilian-employer, shipyard, and military-roster
+namesake leads do not appear as attributed public facts. The complete desktop,
+phone, and tablet matrix passed 294 / 294 with no remaining assertion or
+serious/critical axe failure.
