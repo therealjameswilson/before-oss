@@ -631,3 +631,33 @@ The complete local link checker passed all 24,189 HTML files and inventoried
 recorded sizes and SHA-256 values, the manifest redaction check passed, and the
 manifest SHA-256 is
 `495248772e183760324c50ea6767a5f7137bdbcf0c74bdc8f1ccc259a48f39bc`.
+
+## Batch 077 production deployment
+
+GitHub Actions test workflow
+[30599525265](https://github.com/therealjameswilson/before-oss/actions/runs/30599525265)
+and GitHub Pages deployment
+[30599525443](https://github.com/therealjameswilson/before-oss/actions/runs/30599525443)
+for the page-eight Amoruso-through-Amunrud release `98e38af` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 18 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 077 person profiles, and the Coordinator of
+Information and Gramtrade International Corporation organization profiles.
+The live statistics report 23,978 source rows, 23,941 person entities, 597
+people with non-planned research attempts, 198 verified-affiliation people,
+119 verified-employer people, 544 archival-review assessments, 686 published
+claims, and 612 public source records. The live personnel, organizations,
+affiliations, and sources downloads contain 23,941, 240, 402, and 612 data rows
+respectively, and the JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`495248772e183760324c50ea6767a5f7137bdbcf0c74bdc8f1ccc259a48f39bc`.
+The deployed manifest's forbidden-field check passed. A field-aware comparison
+of all 12,931 digit-bearing normalized private identifiers against 83 live
+HTML, data, compressed-mirror, and download artifacts returned zero unexpected
+full-number matches; four-character lexical collisions were limited to
+permitted masked suffixes or unrelated public values.
