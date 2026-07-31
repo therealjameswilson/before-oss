@@ -40,18 +40,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30606273067](https://github.com/therealjameswilson/before-oss/actions/runs/30606273067)
-  for Batch 081 release `8088bae`: **passed**
+  [30607415273](https://github.com/therealjameswilson/before-oss/actions/runs/30607415273)
+  for Batch 082 release `f0e180d`: **passed**
 - GitHub Pages deployment workflow
-  [30606273062](https://github.com/therealjameswilson/before-oss/actions/runs/30606273062)
-  for Batch 081 release `8088bae`: **passed**
+  [30607415299](https://github.com/therealjameswilson/before-oss/actions/runs/30607415299)
+  for Batch 082 release `f0e180d`: **passed**
 - Production route smoke tests: **16 / 16 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
 - Production redaction scan: **0 full private-identifier matches across 81 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`
+  `283c9409705fb35253856ec5d15e06a715b2d137a83bf2ba474ef737a0f82186`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -791,6 +791,16 @@ six report files differed only in their expected `generated_at` timestamps.
 SQLite `quick_check` returned `ok`, the foreign-key check returned zero
 errors, and no substantive field, coverage count, public record, or generated
 site asset differed.
+
+GitHub Actions test workflow
+[30607415273](https://github.com/therealjameswilson/before-oss/actions/runs/30607415273)
+and Pages workflow
+[30607415299](https://github.com/therealjameswilson/before-oss/actions/runs/30607415299)
+passed for Batch 082 release `f0e180d`. The live audit passed all 16 route and
+content checks, all 65 deployed manifest assets matched the local release, all
+eight checked statistics and the five public download row counts matched, and
+the field-aware scan found zero unexpected full private-identifier matches
+across 81 deployed artifacts.
 
 GitHub Actions test workflow
 [30603934696](https://github.com/therealjameswilson/before-oss/actions/runs/30603934696)
