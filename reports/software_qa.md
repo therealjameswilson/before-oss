@@ -742,3 +742,15 @@ files differed only in their expected `generated_at` timestamps. SQLite
 `quick_check` returned `ok`, the foreign-key check returned zero errors, and
 no substantive field, coverage count, public record, or generated site asset
 differed.
+
+GitHub Actions test workflow
+[30601564168](https://github.com/therealjameswilson/before-oss/actions/runs/30601564168)
+and Pages workflow
+[30601564142](https://github.com/therealjameswilson/before-oss/actions/runs/30601564142)
+passed for Batch 078 release `454edbc`. The live audit passed all 19 route and
+content checks, all 65 deployed manifest assets matched the local release, the
+five public downloads reproduced their expected row counts, and the
+field-aware scan found zero unexpected full private-identifier matches across
+84 deployed artifacts. GitHub's Node 20 deprecation annotations concern the
+internal runtime of official actions forced onto Node 24 and did not affect
+either workflow result.

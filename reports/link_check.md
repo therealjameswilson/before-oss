@@ -681,3 +681,34 @@ The complete local link checker passed all 24,192 HTML files and inventoried
 recorded sizes and SHA-256 values, the manifest redaction check passed, and the
 manifest SHA-256 is
 `e1cebdc90ae320758e7983cd532443239015c5b2765fa413b3a6515037ec9ba1`.
+
+## Batch 078 production deployment
+
+GitHub Actions test workflow
+[30601564168](https://github.com/therealjameswilson/before-oss/actions/runs/30601564168)
+and GitHub Pages deployment
+[30601564142](https://github.com/therealjameswilson/before-oss/actions/runs/30601564142)
+for the page-eight Amy-through-Ancergues release `454edbc` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 19 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 078 person profiles, and the Dumbarton Oaks,
+Harvard Divinity School Library, and Office of Maurice Sugar organization
+profiles. The live statistics report 23,978 source rows, 23,941 person
+entities, 606 people with non-planned research attempts, 200
+verified-affiliation people, 120 verified-employer people, 553 archival-review
+assessments, 691 published claims, and 620 public source records. The live
+personnel, organizations, affiliations, and sources downloads contain 23,941,
+243, 405, and 620 data rows respectively, and the JSONL personnel download
+contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`e1cebdc90ae320758e7983cd532443239015c5b2765fa413b3a6515037ec9ba1`.
+The deployed manifest's forbidden-field check passed. A field-aware comparison
+of all 12,931 digit-bearing normalized private identifiers, represented by
+12,919 formatting-equivalent tokens, against 84 live HTML, data,
+compressed-mirror, and download artifacts returned zero unexpected full-number
+matches.
