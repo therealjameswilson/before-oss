@@ -726,3 +726,15 @@ assertion or serious/critical axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
+
+The Batch 080 regression checks the contiguous Allen A. Anderson-through-Erik
+J. Anderson sequence on PDF page nine. It verifies ten distinct, dignified
+archival-review profiles, the correct Box 14 or Box 15 routing, and masked or
+explicitly unprinted serial fields. It also confirms that the unfamiliar
+`C8M` text remains visible without a forced personnel classification, David F.
+Anderson remains a commissioned Army officer without promotion of the
+underidentified officer-candidate roster, and Dorothy M. Anderson's
+underidentified correspondence lead remains unpublished. The complete
+desktop, phone, and tablet matrix passed 285 / 285 with no remaining assertion
+or serious/critical axe failure; the targeted Batch 080 test passed a separate
+3 / 3 three-viewport rerun.

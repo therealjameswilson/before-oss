@@ -760,3 +760,21 @@ The deployed manifest's forbidden-field check passed. A field-aware comparison
 of all digit-bearing normalized private identifiers against 83 live HTML,
 data, compressed-mirror, and download artifacts returned zero unexpected
 full-number matches.
+
+## Batch 080 local release check
+
+The rebuilt site contains direct, internally resolved routes for Allen A.
+Anderson, Alvina S. Anderson, Beatrice M. Anderson, Betty A. Anderson, Bruce
+I. Anderson, David F. Anderson, Donald Anderson, Dorothy M. Anderson, Duane M.
+Anderson, and Erik J. Anderson. All ten profiles visibly retain unresolved
+identity status, Box 14 or Box 15 archival-review guidance, the standard
+evidence-limited employer statement, and masked or explicitly unprinted serial
+fields. The `C8M` index text remains visible without a forced expansion. The
+rejected David F. Anderson and Dorothy M. Anderson namesake leads do not appear
+as public citations or claims.
+
+The complete local link checker passed all 24,193 HTML files and inventoried
+48,493 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`5fcc22e81be36708740cadc82374a8a246f7636e355d4d19d25b81bed5ec6d44`.
