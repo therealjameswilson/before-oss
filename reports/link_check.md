@@ -1114,6 +1114,31 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 096 local release check
+
+The rebuilt site contains direct, internally resolved routes for Carmela E.
+Arcaro, John D. Archbold, Alford Archer, Flton W. Archer, Harold F. Archer,
+Raymond Archer, William L. Archer, Robert Archibald, Anthony A. Archuleta Jr.,
+and Eugene F. Archuleta. Eight profiles visibly retain unresolved identity
+status, evidence-limited employer wording, and Box 20 archival guidance. John
+D. Archbold's Naval Reserve pathway remains distinct from his last civilian
+self-employment at Springfield Plantation. Anthony A. Archuleta Jr.'s Army
+pathway does not convert the enlistment category `Civil Life` into an
+employer.
+
+The complete local link checker passed all 24,203 HTML files and inventoried
+48,537 unique external URLs. The public downloads contain 23,941 person rows,
+254 organization rows, 433 affiliation rows, and 701 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in
+both the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`2f629d9e9dab039739eef577356053d49364e780369221f1b2f367d2812dc9ee`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,242 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`ea095e7f83c1cef26f0c2ea66703418128ae444c41b5cf4238ecaafe21392787`.
+
 ## Batch 095 local release check
 
 The rebuilt site contains direct, internally resolved routes for Rex Applegate,

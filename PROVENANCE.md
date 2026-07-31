@@ -1381,6 +1381,54 @@ only as a search variant. No authenticated NARA Catalog request was made, no
 API key was accessed, and no live NARA API content was retained. Temporary
 source downloads and PDF inspection crops were not committed or republished.
 
+## Page-twelve Arcaro-through-Archuleta pathways, Batch 096
+
+`research/evidence-page-twelve-arcaro-through-archuleta-pathways_batch-096_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-twelve rows from Carmela E.
+Arcaro through Eugene F. Archuleta. The bundle contains ten person updates,
+ten durable research attempts, fourteen source records, three organizations,
+three affiliations, five claims, and eleven claim-source links.
+
+John D. Archbold is confirmed by the uncommon name, matching middle initial
+and lieutenant-junior-grade rank, Naval Reserve status, and direct OSS
+Maritime Unit evidence in U.S. Army Special Operations history. Clemson
+University Libraries' John D. Archbold Papers finding aid independently
+expands the middle name to Dana, documents his Navy and OSS service, and
+records his purchase and agricultural operation of Springfield Plantation in
+Dominica beginning in 1935. The public model therefore keeps United States
+Naval Reserve service as a strongly date-bounded immediate military pathway
+and Springfield as a separate, strongly date-bounded last civilian
+self-employment affiliation. Neither source supplies the exact Navy entry or
+OSS attachment date, so the temporal claims remain high rather than
+confirmed.
+
+Anthony A. Archuleta Jr. is confirmed by the exact indexed name, suffix, and a
+unique service identifier retained only in the private database. A
+NARA-derived Army-enlistment transcription records entry from `Civil Life` in
+1942, and a separate Fort Bliss National Cemetery transcription corroborates
+the expanded middle name Aaron and World War II Army service. The Army
+pathway is published as strongly date-bounded; `Civil Life` remains a source
+status and is not converted into an employer, occupation, or organization.
+The exact Army-to-OSS transition date and civilian livelihood still require
+Box 20 review.
+
+Carmela E. Arcaro, Alford Archer, Flton W. Archer, Harold F. Archer, Raymond
+Archer, William L. Archer, Robert Archibald, and Eugene F. Archuleta remain
+unresolved after the staged official-context, CIA, exact-name OSS,
+employment/occupation, obituary, institutional, newspaper, archival, and
+Library of Congress protocol. The same-name Ohio State geography candidate
+for Alford Archer was rejected because a name match alone does not link that
+person to OSS. `Flton` was visually confirmed as the printed index form;
+Fulton and Elton were tested only as search expansions and were not accepted
+as corrections. An incompatible Canadian naval namesake for William L.
+Archer was also rejected. All eight profiles retain dignified unresolved
+pages and targeted Box 20 guidance.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. The PDF page render used for visual
+inspection was removed after review. No full service identifier appears in
+the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

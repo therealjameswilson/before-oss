@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 772 people with a non-planned attempt | 23,941 person entities | 3.2246% |
-| Verified-affiliation coverage | 216 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9022% |
-| Verified-employer coverage | 125 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5221% |
-| Archival-review coverage | 720 people with an individual file-access/priority assessment | 23,941 person entities | 3.0074% |
+| Research-attempt coverage | 782 people with a non-planned attempt | 23,941 person entities | 3.2664% |
+| Verified-affiliation coverage | 218 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9106% |
+| Verified-employer coverage | 126 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5263% |
+| Archival-review coverage | 730 people with an individual file-access/priority assessment | 23,941 person entities | 3.0492% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 32
+- Identity status `confirmed`: 34
 - Identity status `high_confidence`: 265
 - Identity status `probable`: 28
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,591
+- Identity status `unresolved`: 23,589
 
 ## Personnel categories
 
@@ -46,15 +46,15 @@ Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,169
+- `not_started`: 23,159
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 28
-- `requires_archival_review`: 487
-- `completed`: 37
-- `verified_employer_found`: 132
+- `requires_archival_review`: 495
+- `completed`: 38
+- `verified_employer_found`: 133
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,17 +65,17 @@ Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 55
+- Reviewed-web-and-official-source attempts recorded: 65
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 312 across 295 people; 26 additional
+- Saved `source_reviewed` outcomes: 314 across 297 people; 26 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,800
+- Total recorded attempts/plans: 1,810
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 299; 283 have at least one public-eligible
+- People with saved reviewed claims: 301; 285 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -720,13 +720,27 @@ Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
   being forced into a personnel category, and Aquirre remains the indexed
   spelling while Aguirre is a search-only variant. Rejected candidates were
   not promoted, and the batch adds no employer claim.
-- Published affiliations: 430
-- Database claims: 770; public-eligible claims: 751 (109 confirmed, 558 high, 84
+  Batch 096 continued page twelve from Carmela E. Arcaro through Eugene F.
+  Archuleta. John D. Archbold is confirmed from matching name, lieutenant
+  junior grade, Naval Reserve, and direct OSS Maritime Unit evidence. His
+  immediate military pathway is modeled separately from his last documented
+  civilian livelihood as owner and agricultural producer at Springfield
+  Plantation in Dominica. Anthony A. Archuleta Jr. is confirmed through an
+  exact private-identifier match and a separately corroborated World War II
+  Army record; his Army pathway is published, while the enlistment category
+  `Civil Life` is not converted into an employer. Carmela E. Arcaro, Alford
+  Archer, Flton W. Archer, Harold F. Archer, Raymond Archer, William L.
+  Archer, Robert Archibald, and Eugene F. Archuleta remain unresolved and
+  route to Box 20 review. The printed `Flton` form remains unchanged, and a
+  same-name Ohio State employment candidate for Alford Archer is withheld
+  because no source links that person to OSS or another indexed identifier.
+- Published affiliations: 433
+- Database claims: 775; public-eligible claims: 756 (110 confirmed, 562 high, 84
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,156; public source export: 695; unique source documents: 627
-- Canonical organizations: 255 private and 253 public
+- Citation records: 1,170; public source export: 701; unique source documents: 631
+- Canonical organizations: 256 private and 254 public
 - Conflicts: 1
-- NARA pull-list rows: 23,846
+- NARA pull-list rows: 23,845
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+import inspect
 import unittest
 
-from oss_research.qa import commissioned_category_is_consistent
+from oss_research.qa import commissioned_category_is_consistent, validate_ingest
 
 
 class ProfileQaTests(unittest.TestCase):
@@ -31,6 +32,15 @@ class ProfileQaTests(unittest.TestCase):
                 "enlisted_naval_personnel",
             )
         )
+
+    def test_parser_warning_report_does_not_select_raw_source_rows(self) -> None:
+        source = inspect.getsource(validate_ingest)
+        warning_query = source.split("warnings = list(", maxsplit=1)[1].split(
+            "reasons = selected_pages",
+            maxsplit=1,
+        )[0]
+        self.assertNotIn("raw_row_text", warning_query)
+        self.assertIn("source_record_id", warning_query)
 
 
 if __name__ == "__main__":

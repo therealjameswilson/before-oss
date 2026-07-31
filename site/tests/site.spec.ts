@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/125 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/126 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 216 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 218 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8662,4 +8662,173 @@ test("Batch 095 preserves printed grades and routes unsupported Appleton-through
   await expect(
     page.locator('section[aria-labelledby="immediate-affiliation"]'),
   ).toContainText("military assignment");
+});
+
+test("Batch 096 separates Archbold's civilian livelihood from naval service and preserves unresolved Archer identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["20c1c1ab-1d97-5f48-9665-e1d1b64b53e8", "Carmela E Arcaro"],
+    ["4527b433-85d2-5b00-817b-d16b85609454", "John D Archbold"],
+    ["7db33a77-adc9-58d0-9132-9ebe72aa3297", "Alford Archer"],
+    ["6afd61a6-8ad0-5e90-8547-d2148cf57141", "Flton W Archer"],
+    ["ddab11a7-066e-52d9-960f-469c451d128b", "Harold F Archer"],
+    ["7898f2ba-7a38-5945-9f27-a675d85ec097", "Raymond Archer"],
+    ["8e4882b1-598a-5731-a290-3bd4083409f6", "William L Archer"],
+    ["e6017cc9-1539-556c-abc6-7cd9952efcd1", "Robert Archibald"],
+    ["77a9350e-8c58-5229-8660-04e1f08a087c", "Anthony A Archuleta Jr."],
+    ["d9dd5779-296e-5bdf-a05a-b7a653e0b991", "Eugene F Archuleta"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("20", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "20c1c1ab-1d97-5f48-9665-e1d1b64b53e8",
+    "7db33a77-adc9-58d0-9132-9ebe72aa3297",
+    "6afd61a6-8ad0-5e90-8547-d2148cf57141",
+    "ddab11a7-066e-52d9-960f-469c451d128b",
+    "7898f2ba-7a38-5945-9f27-a675d85ec097",
+    "8e4882b1-598a-5731-a290-3bd4083409f6",
+    "e6017cc9-1539-556c-abc6-7cd9952efcd1",
+    "d9dd5779-296e-5bdf-a05a-b7a653e0b991",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const [personId, rankText, categoryText] of [
+    [
+      "20c1c1ab-1d97-5f48-9665-e1d1b64b53e8",
+      "Caf-5",
+      "civilian professional or administrative grade",
+    ],
+    [
+      "6afd61a6-8ad0-5e90-8547-d2148cf57141",
+      "1st Lt",
+      "commissioned army officer",
+    ],
+    [
+      "ddab11a7-066e-52d9-960f-469c451d128b",
+      "Sgt",
+      "enlisted army personnel",
+    ],
+    [
+      "8e4882b1-598a-5731-a290-3bd4083409f6",
+      "Capt",
+      "commissioned army officer",
+    ],
+    [
+      "d9dd5779-296e-5bdf-a05a-b7a653e0b991",
+      "S/Sgt",
+      "enlisted army personnel",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(rankText);
+    await expect(page.locator("body")).toContainText(categoryText);
+  }
+
+  await page.goto("./people/6afd61a6-8ad0-5e90-8547-d2148cf57141/");
+  await expect(
+    page.getByRole("heading", { name: "Flton W Archer", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).not.toContainText("Fulton W Archer");
+  await expect(page.locator("body")).not.toContainText("Elton W Archer");
+
+  await page.goto("./people/7db33a77-adc9-58d0-9132-9ebe72aa3297/");
+  await expect(page.locator("body")).toContainText(
+    "before evaluating the Ohio State namesake",
+  );
+
+  await page.goto("./people/4527b433-85d2-5b00-817b-d16b85609454/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Naval Reserve");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("strongly date bounded");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Springfield Plantation");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("self employment");
+  await expect(page.locator("body")).toContainText(
+    "last documented civilian livelihood",
+  );
+
+  await page.goto("./people/77a9350e-8c58-5229-8660-04e1f08a087c/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(page.locator("body")).toContainText(
+    "Civil Life is a status, not an employer",
+  );
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "1b90fcf6-604d-588b-8a30-7bb08c930c6f",
+      "United States Naval Reserve",
+      "John D Archbold",
+    ],
+    [
+      "4d5e1a65-d52f-563c-baba-ee4a0ac2b3b4",
+      "Springfield Plantation",
+      "John D Archbold",
+    ],
+    [
+      "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "United States Army",
+      "Anthony A Archuleta Jr.",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+  }
 });

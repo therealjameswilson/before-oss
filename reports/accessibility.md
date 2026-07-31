@@ -951,3 +951,29 @@ repeated the complete build, responsive-browser, and accessibility matrix for
 release `ebcd671` and completed successfully. GitHub reported a non-blocking
 runner annotation that version 4/5 setup actions still declare Node.js 20 and
 are currently forced to Node.js 24; no project test or build step failed.
+
+## Batch 096 accessibility and responsive regression
+
+The Batch 096 regression checks the ten contiguous page-twelve profiles from
+Carmela E. Arcaro through Eugene F. Archuleta. It verifies every direct
+profile, Box 20, field-level serial masking, the eight visibly unresolved
+identities, and the printed `Caf-5`, `1st Lt`, `Sgt`, `Capt`, and `S/Sgt`
+strings. It also checks that `Flton` remains the indexed title without
+silently publishing Fulton or Elton, and that the rejected Ohio State
+namesake does not become Alford Archer's employer.
+
+John D. Archbold's profile is tested for separate immediate United States
+Naval Reserve and last-civilian Springfield Plantation sections, including the
+military-assignment, self-employment, and strongly-date-bounded labels.
+Anthony A. Archuleta Jr.'s profile is tested for a published Army pathway and
+the absence of a civilian employer; the source category `Civil Life` remains
+explicitly non-employer evidence. Direct Naval Reserve, Springfield, and Army
+organization routes link back to the intended profiles.
+
+The initial focused run exposed two assertions against private identity notes
+that are intentionally not rendered; those assertions were aligned with
+visible archival guidance and variant behavior. The focused desktop, phone,
+and tablet rerun passed 3 / 3. The first complete matrix then found only two
+stale Batch 095 homepage totals while 330 other checks passed. After updating
+those expected counts to the generated Batch 096 totals, the complete final
+matrix passed 333 / 333 with no assertion or serious/critical axe failure.

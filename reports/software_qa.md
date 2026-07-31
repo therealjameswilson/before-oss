@@ -1520,3 +1520,51 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 096 local release QA
+
+Batch 096 adds ten visually checked page-twelve people from Carmela E. Arcaro
+through Eugene F. Archuleta. The reviewed bundle imports ten durable research
+attempts, fourteen sources, three organizations, three affiliations, five
+claims, and eleven claim-source links. It publishes John D. Archbold's
+distinct Naval Reserve and Springfield Plantation pathways and Anthony A.
+Archuleta Jr.'s Army pathway. Eight identities remain unresolved and route to
+Box 20; no unsupported Ohio State, Canadian naval, or other namesake
+employment is promoted.
+
+The full Python suite passed 54 / 54. The static build completed 24,203 pages
+with zero Astro errors, warnings, or hints. The focused Batch 096 regression
+passed 3 / 3 across desktop, phone, and tablet. After one stale homepage-count
+assertion was updated from Batch 095 values, the complete browser,
+responsive, and accessibility matrix passed 333 / 333. The internal-link
+checker passed all 24,203 HTML pages and inventoried 48,537 unique external
+URLs. `npm audit --audit-level=high` reported zero vulnerabilities.
+
+Two consecutive static builds produced the identical
+`ea095e7f83c1cef26f0c2ea66703418128ae444c41b5cf4238ecaafe21392787`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`2f629d9e9dab039739eef577356053d49364e780369221f1b2f367d2812dc9ee`.
+A boundary-aware comparison of 12,919 nontrivial normalized private
+identifiers across 24,242 non-gzip production artifacts found zero full
+matches. No local `.env` file or nonblank API-key assignment was present.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors.
+
+The parser QA report now omits raw warning-row text from its structured output
+and retains only page, row, source-record ID, and confidence pointers. Full raw
+rows remain available in the private SQLite source of truth for authorized
+review. This prevents rebuild logs and tracked QA reports from repeating full
+service identifiers without weakening the visual-audit trail. A dedicated
+unit test enforces that boundary.
+
+The Batch 096 database contains 1,810 durable research attempts, 1,170 private
+citation records, 437 affiliations, and 775 claims: 110 confirmed, 562 high,
+84 medium, and 19 low confidence. The reviewed public projection contains 701
+source records representing 631 unique documents, 433 affiliations, and 756
+claims. Coverage distinguishes 782 people with a non-planned research
+attempt, 218 people with verified affiliation evidence, 126 people with
+verified employment or self-employment evidence, and 730 people whose
+archival-review need has been assessed. No authenticated NARA Catalog request
+was made.

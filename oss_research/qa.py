@@ -138,7 +138,7 @@ def validate_ingest(
         connection.execute(
             """
             SELECT source_page, source_row_number, source_record_id,
-                   raw_row_text, parser_confidence
+                   parser_confidence
             FROM source_records
             WHERE requires_visual_review = 1
             ORDER BY source_page, source_row_number
