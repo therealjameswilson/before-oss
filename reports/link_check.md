@@ -541,3 +541,30 @@ The complete local link checker passed all 24,188 HTML files and inventoried
 recorded sizes and SHA-256 values, the manifest redaction check passed, and the
 manifest SHA-256 is
 `37532862bbb4965a66fdd0288b3f249179d8e5d497a9bd24d3fad9fca987bf2a`.
+
+## Batch 075 production deployment
+
+GitHub Actions test workflow
+[30596018694](https://github.com/therealjameswilson/before-oss/actions/runs/30596018694)
+and GitHub Pages deployment
+[30596018710](https://github.com/therealjameswilson/before-oss/actions/runs/30596018710)
+for the page-eight Ambrose-through-Ames release `25001a4` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 18 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 075 person profiles, and the Brown University
+and Weir High School organization profiles. The live statistics report 23,978
+source rows, 23,941 person entities, 577 people with non-planned research
+attempts, 197 verified-affiliation people, 118 verified-employer people, 524
+archival-review assessments, 682 published claims, and 605 public source
+records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 239, 400, and 605 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`37532862bbb4965a66fdd0288b3f249179d8e5d497a9bd24d3fad9fca987bf2a`.
+The deployed manifest's forbidden-field check passed, and the live profile
+pages preserve masked or explicitly unprinted serial fields.
