@@ -1068,6 +1068,13 @@ The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
 responsive, and accessibility matrix passed 357 / 357 with no assertion or
 serious/critical axe failure.
 
+The production test workflow
+[30663326568](https://github.com/therealjameswilson/before-oss/actions/runs/30663326568)
+completed successfully for release `6598614`. GitHub emitted the same
+non-blocking annotation that version 4/5 setup actions still declare Node.js
+20 and are currently forced to Node.js 24; no project test or build step
+failed.
+
 ## Batch 103 accessibility and responsive regression
 
 The Batch 103 regression checks the ten contiguous page-fourteen profiles from

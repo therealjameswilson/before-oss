@@ -1151,6 +1151,36 @@ command-line client; each had been inspected in the research browser and is
 retained as a stable citation with the access restriction documented rather
 than replaced by a search result.
 
+## Batch 104 production deployment
+
+GitHub Actions test workflow
+[30663326568](https://github.com/therealjameswilson/before-oss/actions/runs/30663326568)
+and GitHub Pages deployment
+[30663326615](https://github.com/therealjameswilson/before-oss/actions/runs/30663326615)
+for the page-fourteen Arrington-through-Aserinsky release `6598614` completed
+successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: seven core
+publication URLs, all ten Batch 104 person profiles, the USAFIME and Standard
+Oil organization profiles, and a shareable Buford B. Arrowood directory-search
+URL. After substituting the production and local plain and URL-encoded canonical
+hosts, every route matched the audited local HTML bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 861
+people with non-planned research attempts, 226 verified-affiliation people,
+129 verified-employer people, 809 archival-review assessments, 800 published
+claims, and 766 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 264, 457, and 766 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`5e6f12a57ead715ca27f7a2b4327f33a8f2bc253a824a2c0d73ceb93ff411910`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across 85 deployed artifacts.
+
 ## Batch 103 local release check
 
 The rebuilt site contains direct, internally resolved routes for Anetta S.
