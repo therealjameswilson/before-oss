@@ -818,6 +818,40 @@ archival-review guidance. Each profile states that no reliable pre-OSS
 employer has yet been identified in the accessible sources reviewed; none
 implies that the person had no prior employment.
 
+## Page-nine Anderson continuation archival pathways, Batch 081
+
+`research/evidence-page-nine-anderson-continuation-archival-pathways_batch-081_2026-07-30.json`
+records the minimum online research protocol for ten contiguous rows from
+Eugene N. Anderson through Howard B. Anderson on PDF page nine. It contains
+ten visually checked official-index citations, ten terminal research attempts,
+and ten person updates. It adds no organization, affiliation, or employment
+claim because no candidate met the project's identity and temporal standards.
+It stores no live NARA Catalog response, credential, full service identifier,
+full copyrighted page, or sensitive modern-person detail.
+
+The reviewed rows preserve the distinctions among civilian professional-grade
+employees Eugene N. Anderson and Howard M. Anderson; enlisted Army personnel
+George W. Anderson, George H. Anderson, Harold Anderson, Henry A. Anderson,
+and Howard B. Anderson; commissioned Naval Reserve officer Henry J. Anderson;
+and Frederick F. Anderson and Gordon Anderson, whose personnel categories
+remain indeterminate.
+
+An exact-name Eugene N. Anderson appears as a State Department official in the
+1945 Official Register. The record is later than the relevant recruitment
+period and supplies no OSS connection, P-7 link, recruitment chronology, or
+second corroborating identifier, so it remains a rejected lead rather than an
+identity or employment claim. Searches also rejected an exact-name Army
+private without sufficient identifier agreement, multiple incompatible Harold
+Anderson military and occupational biographies, underidentified Naval Reserve
+and cemetery entries for Henry J. Anderson, and unrelated domestic, foreign,
+genealogy, directory, obituary, and modern namesakes.
+
+All ten identities remain unresolved and retain dignified Box 15 archival
+guidance. Each profile states that no reliable pre-OSS employer has yet been
+identified in the accessible sources reviewed; none implies that the person
+had no prior employment. Full service identifiers and sensitive modern-person
+details remain private.
+
 ## Official reference material
 
 - NARA OSS personnel records:

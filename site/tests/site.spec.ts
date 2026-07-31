@@ -7125,3 +7125,59 @@ test("Batch 080 preserves ten Anderson records as distinct archival-review profi
   await page.goto("./people/2a96a2c2-bd5c-5bc2-bebb-e31e0e9b7acc/");
   await expect(page.locator("body")).not.toContainText("Artigas");
 });
+
+test("Batch 081 preserves the next ten Anderson records, classifications, and rejected namesakes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["7b34674e-5b92-5b2e-9094-9a2f1824462b", "Eugene N Anderson"],
+    ["2eaca631-8c19-5cc8-bc2b-ab158c650ebb", "Frederick F Anderson"],
+    ["aa3d6bce-9b02-5c22-a4e6-3ba5b8518e9a", "George W Anderson"],
+    ["49498285-8dcd-55af-b982-6a4638c5542d", "George H Anderson"],
+    ["ad75ca9b-bf15-5822-9caa-dffa5a54b821", "Gordon Anderson"],
+    ["9ee20707-4b4c-58c9-938c-2fecebb8c295", "Harold Anderson"],
+    ["0933c1a8-4969-5651-9aec-779c495fdac7", "Henry A Anderson"],
+    ["c19deb55-c954-579b-8c49-b6adcaec1617", "Henry J Anderson"],
+    ["ed7968ad-9146-5129-b5ae-71257711b993", "Howard M Anderson"],
+    ["1906df50-2028-51c5-b243-a6feaee8b94c", "Howard B Anderson"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("15", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/7b34674e-5b92-5b2e-9094-9a2f1824462b/");
+  await expect(page.locator("body")).toContainText(
+    "civilian professional or administrative grade",
+  );
+  await expect(page.locator("body")).not.toContainText(
+    "Division of Cultural Cooperation",
+  );
+
+  await page.goto("./people/c19deb55-c954-579b-8c49-b6adcaec1617/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned naval officer",
+  );
+  await expect(page.locator("body")).toContainText("Lt USNR");
+
+  await page.goto("./people/9ee20707-4b4c-58c9-938c-2fecebb8c295/");
+  await expect(page.locator("body")).not.toContainText("Ghost Army");
+});
