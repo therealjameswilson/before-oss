@@ -886,6 +886,43 @@ identified in the accessible sources reviewed; none implies that the person
 had no prior employment. Full service identifiers and sensitive modern-person
 details remain private.
 
+## Page-nine Anderson John-through-Margaret archival pathways, Batch 083
+
+`research/evidence-page-nine-anderson-john-through-margaret-archival-pathways_batch-083_2026-07-30.json`
+records the minimum online research protocol for ten contiguous rows from
+John K. Anderson through Margaret J. Anderson on PDF page nine. It contains
+ten visually checked official-index citations, ten terminal research attempts,
+and ten person updates. It adds no organization, affiliation, or employment
+claim because no candidate met the project's identity and temporal standards.
+It stores no live NARA Catalog response, credential, full service identifier,
+full copyrighted page, or sensitive modern-person detail.
+
+The reviewed rows preserve the distinctions among Chief Warrant Officer John
+K. Anderson; civilian-grade employees Karl A. Anderson and Katherine G.
+Anderson; enlisted Army personnel Kenneth A. Anderson, Kirk T. Anderson,
+Lawrence A. Anderson Jr., and Leonard W. Anderson; commissioned Army officer
+Kermit W. Anderson; and Loma J. Anderson and Margaret J. Anderson, whose
+personnel categories remain indeterminate. Loma J. Anderson's unfamiliar
+printed `WAE` text remains unexpanded and unclassified pending file review.
+
+The staged searches rejected several namesake pathways rather than silently
+attaching them to these common-name index rows. The rejected candidates
+included a young Army veteran with a later civilian career, a British merchant
+seaman killed in 1942, a national-cemetery corporal, a discovery-only shipyard
+employment lead, underidentified military roster and city-directory
+occurrences, and later or rank-incompatible cemetery records. Each lacked some
+combination of a matching private identifier, an OSS connection, compatible
+rank and chronology, and a second corroborating historical identifier.
+People-finder results and results exposing sensitive identifiers were excluded;
+the rejected organizations and occupations were not promoted to claims or
+public citations.
+
+All ten identities remain unresolved and retain dignified Box 15 or Box 16
+archival guidance. Each profile states that no reliable pre-OSS employer has
+yet been identified in the accessible sources reviewed; none implies that the
+person had no prior employment. Full service identifiers and sensitive
+modern-person details remain private.
+
 ## Official reference material
 
 - NARA OSS personnel records:

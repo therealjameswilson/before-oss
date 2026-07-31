@@ -7256,3 +7256,90 @@ test("Batch 082 preserves ten common-name Anderson records without promoting rej
     );
   }
 });
+
+test("Batch 083 preserves ten Anderson records, unfamiliar grade text, and rejected namesake pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["6724f419-1447-57f7-957c-fcfc21ec1f5d", "John K Anderson", "15"],
+    ["b0e1a78b-9d87-5b75-b4e2-a7000d81b2c5", "Karl A Anderson", "15"],
+    ["faa2bc5d-1631-57f6-acdd-13bbd1483775", "Katherine G Anderson", "15"],
+    ["21bfae21-b3c8-5506-8a35-99e942a2de3e", "Kenneth A Anderson", "16"],
+    ["b7895528-b8ff-5e9e-a1c4-02c9ddba82be", "Kermit W Anderson", "16"],
+    ["baf854d8-3dab-54bf-8829-af5b98ca9def", "Kirk T Anderson", "16"],
+    [
+      "f9c40101-eaf0-523c-9782-45ef1ea7b997",
+      "Lawrence A Anderson Jr.",
+      "16",
+    ],
+    ["f5687802-0385-5e7a-82de-d0927d9c3a0d", "Leonard W Anderson", "16"],
+    ["25b3753c-8804-50fc-a130-3c7c54e9f3db", "Loma J Anderson", "16"],
+    ["241ec312-97e4-5ede-b096-311373b91d6a", "Margaret J Anderson", "16"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/6724f419-1447-57f7-957c-fcfc21ec1f5d/");
+  await expect(page.locator("body")).toContainText("warrant officer");
+
+  for (const personId of [
+    "b0e1a78b-9d87-5b75-b4e2-a7000d81b2c5",
+    "faa2bc5d-1631-57f6-acdd-13bbd1483775",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "civilian professional or administrative grade",
+    );
+  }
+
+  await page.goto("./people/b7895528-b8ff-5e9e-a1c4-02c9ddba82be/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned army officer",
+  );
+
+  await page.goto("./people/25b3753c-8804-50fc-a130-3c7c54e9f3db/");
+  await expect(page.locator("body")).toContainText("WAE");
+  await expect(page.locator("body")).toContainText(
+    "unknown or indeterminate",
+  );
+
+  for (const [personId, rejectedOrganization] of [
+    [
+      "6724f419-1447-57f7-957c-fcfc21ec1f5d",
+      "Polaroid Corporation",
+    ],
+    [
+      "21bfae21-b3c8-5506-8a35-99e942a2de3e",
+      "Seattle-Tacoma Shipbuilding",
+    ],
+    [
+      "f5687802-0385-5e7a-82de-d0927d9c3a0d",
+      "90th Infantry",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).not.toContainText(
+      rejectedOrganization,
+    );
+  }
+});
