@@ -944,3 +944,10 @@ standard no-claim wording and the proper omission of private identity-review
 notes; neither exposed a production defect. The final targeted desktop, phone,
 and tablet run passed 3 / 3. The complete final matrix passed 330 / 330 with no
 assertion or serious/critical axe failure.
+
+GitHub test workflow
+[30633892989](https://github.com/therealjameswilson/before-oss/actions/runs/30633892989)
+repeated the complete build, responsive-browser, and accessibility matrix for
+release `ebcd671` and completed successfully. GitHub reported a non-blocking
+runner annotation that version 4/5 setup actions still declare Node.js 20 and
+are currently forced to Node.js 24; no project test or build step failed.

@@ -1138,6 +1138,37 @@ identifier matches. Two consecutive static builds produced the identical
 site-tree SHA-256
 `23a6aa7b00dd32d829d898e559b275f44aee5fe991f61c8f24acd945c66c4f89`.
 
+## Batch 095 production deployment
+
+GitHub Actions test workflow
+[30633892989](https://github.com/therealjameswilson/before-oss/actions/runs/30633892989)
+and GitHub Pages deployment
+[30633892929](https://github.com/therealjameswilson/before-oss/actions/runs/30633892929)
+for the page-twelve Applegate-through-Arbucci release `ebcd671` completed
+successfully.
+
+Live checks returned HTTP 200 for all 19 tested publication routes: the
+homepage, personnel directory, analysis, methodology, sources, downloads,
+organization directory, all ten Batch 095 person profiles, and the United
+States Army and Oregon State University organization profiles linked from Rex
+Applegate's page. After substituting the configured production canonical host,
+every route matched the audited local HTML byte-for-byte. The live statistics
+report 23,978 source rows, 23,941 person entities, 772 people with non-planned
+research attempts, 216 verified-affiliation people, 125 verified-employer
+people, 720 archival-review assessments, 751 published claims, and 695 public
+source records. The live personnel CSV and JSONL downloads each contain 23,941
+data rows; the organizations, affiliations, and sources downloads contain 253,
+430, and 695 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`4423c0c99f2bfcfe20d553e9de74a51c8a5a12d74bc736b53b704b888984f31c`.
+The deployed manifest's forbidden-field check passed. The 84 audited live HTML
+and manifest-listed artifacts therefore inherit the local boundary-aware
+result: zero full matches among all 12,919 nontrivial normalized private
+identifiers.
+
 ## Batch 094 local release check
 
 The rebuilt site contains direct, internally resolved routes for George F.
