@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 714 people with a non-planned attempt | 23,941 person entities | 2.9823% |
-| Verified-affiliation coverage | 203 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8479% |
-| Verified-employer coverage | 121 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5054% |
-| Archival-review coverage | 662 people with an individual file-access/priority assessment | 23,941 person entities | 2.7651% |
+| Research-attempt coverage | 723 people with a non-planned attempt | 23,941 person entities | 3.0199% |
+| Verified-affiliation coverage | 205 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8563% |
+| Verified-employer coverage | 122 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5096% |
+| Archival-review coverage | 671 people with an individual file-access/priority assessment | 23,941 person entities | 2.8027% |
 
 ## Extraction and identity
 
@@ -18,15 +18,15 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 210
+- Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 24
-- Identity status `high_confidence`: 257
-- Identity status `probable`: 20
-- Identity status `ambiguous`: 23
+- Identity status `confirmed`: 26
+- Identity status `high_confidence`: 258
+- Identity status `probable`: 22
+- Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,616
+- Identity status `unresolved`: 23,610
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,227
+- `not_started`: 23,218
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 27
-- `requires_archival_review`: 444
-- `completed`: 34
+- `requires_archival_review`: 450
+- `completed`: 37
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -64,15 +64,18 @@ Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
-- Reviewed-evidence carry-forward attempts recorded: 1
+- Reviewed-evidence carry-forward/integrity attempts recorded: 2
+- Reviewed-web-and-official-source attempts recorded: 6
+- Reviewed-entity-resolution attempts recorded: 1
+- Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 294 across 279 people; 17 additional
+- Saved `source_reviewed` outcomes: 298 across 282 people; 20 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,740
+- Total recorded attempts/plans: 1,750
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 278; 262 have at least one public-eligible
+- People with saved reviewed claims: 281; 265 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -637,11 +640,34 @@ Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
   additional corroborating identifiers. The famous James B. Angell died in
   1916 and is explicitly rejected as a namesake. No candidate employer,
   occupation, organization, or assignment is published as fact.
-- Published affiliations: 412
-- Database claims: 727; public-eligible claims: 708 (97 confirmed, 534 high, 77
+  Batch 090 continued page eleven from Michael T. Angelos through Manuel R.
+  Angulo. A National Park Service history supports Michael T. Angelos as a
+  high-confidence Navy petty-officer identity but supplies no pre-OSS
+  employer. A direct May 1944 OSS board report confirms that the indexed
+  `Damiamo Angione` is the Private Damiano Angione in the report through the
+  unique private identifier and documents United States Army service as his
+  immediate pre-OSS pathway. The original index spelling remains unchanged.
+  A digitized direct personnel file confirms Lieutenant Colonel James H.
+  Angleton as James Hugh Angleton, National Cash Register Company as his last
+  civilian employer, the Army School of Military Government as his immediate
+  pre-OSS assignment, and the American Chamber of Commerce for Italy as a
+  separate professional affiliation. The adjacent First Lieutenant James
+  Angleton remains a distinct high-confidence entity; his status was corrected
+  from `verified_employer_found` to `completed` because the existing evidence
+  documents Army and student affiliations, not employment.
+  Bert W. Anger's exact-name 10th Mountain Division roster entry and Frank E.
+  Anglim's exact-name 1929 Bureau of Prohibition listing remain probable
+  private review candidates without published affiliation claims. The Box 18
+  Peter M. Anglione row and the confirmed Box 5 Peter M. Aglione row now share
+  a visible possible-duplicate group but remain separate entities pending
+  direct file comparison. Nicholas A. Angelos, Carlos J. Angulo, and Manuel R.
+  Angulo remain unresolved. Six profiles route to Box 18 review, while the
+  better-supported profiles retain targeted archival questions.
+- Published affiliations: 416
+- Database claims: 734; public-eligible claims: 715 (102 confirmed, 536 high, 77
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,065; public source export: 644; unique source documents: 600
-- Canonical organizations: 247 private and 245 public
+- Citation records: 1,080; public source export: 651; unique source documents: 605
+- Canonical organizations: 249 private and 247 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
 

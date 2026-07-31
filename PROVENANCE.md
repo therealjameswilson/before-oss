@@ -1156,6 +1156,71 @@ identifiers required by the project rules. Privacy-sensitive modern data were
 not retained. No rejected employer, occupation, organization, or assignment
 is promoted to a public fact, and full service identifiers remain private.
 
+## Page-eleven Angelos-through-Angulo pathways, Batch 090
+
+`research/evidence-page-eleven-angelos-through-angulo-pathways_batch-090_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from Michael T.
+Angelos through Manuel R. Angulo on PDF page eleven. It also updates the
+confirmed page-three Peter M. Aglione entity solely to expose a possible
+duplicate relationship with the newly reviewed Peter M. Anglione row. The
+bundle contains eleven person updates, ten durable research attempts, sixteen
+sources, three normalized organizations, four published affiliations, seven
+published claims, and eleven claim-source links.
+
+All ten page-eleven index citations were visually checked against the rendered
+PDF. A National Park Service institutional history identifies Petty Officer
+Michael Angelos of Chicago as a Navy demolitions specialist trained for OSS
+service. The uncommon name, naval petty-officer status, and direct OSS context
+support a high-confidence identity, but the source does not print the index
+middle initial or private identifier and does not establish a pre-OSS
+affiliation. A Denver Public Library 10th Mountain Division name index lists
+the exact uncommon name Bert W. Anger, and a 1929 official Senate document
+lists Frank E. Anglim among Bureau of Prohibition field personnel. Both remain
+probable review candidates: neither source supplies an OSS or Box 18 link,
+matching identifier, or chronology sufficient for a public affiliation claim.
+
+The May 4, 1944 OSS board report held by the Hoover Institution identifies
+Private Damiano Angione with the unique private identifier printed for
+`Damiamo Angione` in the NARA index. The project preserves `Damiamo` as the
+immutable indexed spelling and adds `Damiano` only as a documented variant.
+The same direct report records Army entry and infantry training before explicit
+OSS recruitment, so United States Army service is published as the immediate
+military affiliation. The report does not identify a civilian employer.
+
+A 78-page digitized direct OSS personnel file for James Hugh Angleton was
+reviewed page by page where relevant. The official employment history records
+continuous National Cash Register Company employment from February 1922 and
+senior responsibility in Italy; NCR is therefore published as the confirmed
+last civilian employer before military service. An official personnel-history
+card records release from the Army School of Military Government in
+Charlottesville and assignment to OSS Washington on July 26, 1943, establishing
+the immediate pre-OSS military assignment. The American Chamber of Commerce
+for Italy is separately modeled as a professional affiliation, not employment.
+The digitized file is cited through its stable Internet Archive item page; the
+PDF itself is not committed or republished, and private identifiers remain
+excluded from all public claims and downloads.
+
+The adjacent First Lieutenant James Angleton profile passed a carry-forward
+integrity review. Its prior `verified_employer_found` status was incorrect
+because the published record documents Army and student affiliations rather
+than employment; the status is now `completed` without changing or removing
+the supported claims. James Angleton and James H. Angleton remain distinct
+person entities.
+
+The Box 18 Peter M. Anglione row is not silently merged with the confirmed Box
+5 Peter M. Aglione row. Both now carry the same review-only possible-duplicate
+group, while the public projection replaces the private group label with an
+opaque value. The rows retain their different indexed spelling, rank,
+identifier, box, source-record ID, and archival instructions. Nicholas A.
+Angelos, Carlos J. Angulo, and Manuel R. Angulo remain unresolved after
+official/NARA context, CIA Reading Room discovery, exact-name and meaningful
+variant, employment/occupation, obituary/directory/newspaper, institutional,
+and archival searches.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API content was retained. The direct OSS personnel-file download
+used for visual review remained temporary and is not a repository artifact.
+
 ## Official reference material
 
 - NARA OSS personnel records:

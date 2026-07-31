@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/121 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/122 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 203 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 205 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -7902,4 +7902,127 @@ test("Batch 089 preserves ten unresolved Box 18 records and recognizes the print
   await expect(page.locator("body")).toContainText(
     "enlisted naval personnel",
   );
+});
+
+test("Batch 090 publishes direct pathways, corrects status semantics, and preserves the Aglione duplicate review", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e9a2525c-92be-5beb-a273-9ba91c872305", "Michael T Angelos"],
+    ["700951e0-9c87-5832-bea6-1c36099236bb", "Nicholas A Angelos"],
+    ["b45249d9-d982-5010-9ef8-7186544935f9", "Bert W Anger"],
+    ["c7c7786a-a6e7-5f23-acd0-4223b21a94af", "Damiamo Angione"],
+    ["2f189352-aabb-5d3e-899c-ffaafef19aad", "James Angleton"],
+    ["577a8037-dac8-53f1-80ff-b79b4c9519c6", "James H Angleton"],
+    ["858188bc-468f-5032-a857-b8575690d4db", "Frank E Anglim"],
+    ["894a80ae-3c80-53da-b217-9599c8b524f6", "Peter M Anglione"],
+    ["14964895-e765-57e5-a4e9-5269c341c49e", "Carlos J Angulo"],
+    ["8d41903e-c9de-5390-8945-0be696dc465f", "Manuel R Angulo"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("18", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/e9a2525c-92be-5beb-a273-9ba91c872305/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("Petty Officer Michael Angelos");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+
+  await page.goto("./people/c7c7786a-a6e7-5f23-acd0-4223b21a94af/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("Damiano Angione");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+
+  await page.goto("./people/2f189352-aabb-5d3e-899c-ffaafef19aad/");
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).not.toContainText("verified employer found");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+
+  await page.goto("./people/577a8037-dac8-53f1-80ff-b79b4c9519c6/");
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("National Cash Register Company");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("School of Military Government");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("American Chamber of Commerce in Italy");
+  await expect(page.locator("body")).toContainText(
+    "Have been connected with the National Cash Register Company",
+  );
+
+  for (const personId of [
+    "700951e0-9c87-5832-bea6-1c36099236bb",
+    "14964895-e765-57e5-a4e9-5269c341c49e",
+    "8d41903e-c9de-5390-8945-0be696dc465f",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  for (const personId of [
+    "b45249d9-d982-5010-9ef8-7186544935f9",
+    "858188bc-468f-5032-a857-b8575690d4db",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const personId of [
+    "35afb022-93c2-532d-a08b-60ac54c81b9f",
+    "894a80ae-3c80-53da-b217-9599c8b524f6",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.locator(".profile-aside").getByText(/^duplicate-/),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/894a80ae-3c80-53da-b217-9599c8b524f6/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Preserve both source records",
+  );
+
+  await page.goto("./organizations/35f60594-c068-5fe5-8fbb-2f356b7b7df4/");
+  await expect(
+    page.getByRole("heading", { name: "National Cash Register Company", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "James H Angleton", exact: true }),
+  ).toBeVisible();
 });

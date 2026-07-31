@@ -1,0 +1,898 @@
+{
+  "reviewer": "Codex reviewed evidence protocol",
+  "bundle_version": "reviewed-evidence-v1",
+  "person_updates": [
+    {
+      "person_id": "e9a2525c-92be-5beb-a273-9ba91c872305",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified NARA row supplies Michael T. Angelos, Specialist First Class, a private naval identifier, and Box 18. A National Park Service history identifies Petty Officer Michael Angelos of Chicago as a Navy demolitions specialist trained for OSS service at Areas A and B and sent into Greece in early 1944. The uncommon exact first and last name, naval petty-officer status, specialty, and direct OSS context make this a high-confidence match; the NPS account does not print the middle initial or private identifier.",
+      "name_variants": [
+        "Michael T Angelos",
+        "Michael T. Angelos",
+        "Michael Angelos",
+        "Angelos, Michael T"
+      ],
+      "personnel_category": "enlisted_naval_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 18 and official Navy records to confirm Michael T. Angelos's full identity, rating chronology, last civilian employer, and affiliation immediately before OSS training. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "700951e0-9c87-5832-bea6-1c36099236bb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Nicholas A. Angelos, Sergeant, a private Army identifier, and Box 18. Exact-name, rank, Army, OSS, employment, occupation, obituary, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches did not find a historical candidate with the indexed identifier, an OSS or Box 18 connection, and another corroborating identifier. The National Park Service account of Michael Angelos concerns a different indexed person.",
+      "name_variants": [
+        "Nicholas A Angelos",
+        "Nicholas A. Angelos",
+        "Nick A Angelos",
+        "Angelos, Nicholas A"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 and official Army records for Nicholas A. Angelos's full identity, unit, occupation, last civilian employer, and OSS transfer chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b45249d9-d982-5010-9ef8-7186544935f9",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified NARA row supplies Bert W. Anger, Sergeant, no printed private identifier, and Box 18. The Denver Public Library's official 10th Mountain Division name index lists the uncommon exact name Bert W. Anger in Company B, 86th Infantry. The exact uncommon name and Army context make the roster subject a probable identity candidate, but the roster does not give rank, an OSS or Box 18 link, or chronology establishing that assignment as pre-OSS.",
+      "name_variants": [
+        "Bert W Anger",
+        "Bert W. Anger",
+        "Anger, Bert W"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare Box 18 and official Army records with the 10th Mountain Division file for Bert W. Anger before accepting the roster identity or assigning Company B, 86th Infantry as a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c7c7786a-a6e7-5f23-acd0-4223b21a94af",
+      "identity_status": "confirmed",
+      "identity_evidence": "The NARA index prints Damiamo Angione, Private First Class, a private Army identifier, and Box 18. A direct May 1944 OSS board report identifies Private Damiano Angione with the same unique identifier retained only in the private database, records his February 1943 Army entry, and describes his OSS recruitment. Damiano is preserved as a documented variant while the original indexed spelling Damiamo remains unchanged.",
+      "name_variants": [
+        "Damiamo Angione",
+        "Damiano Angione",
+        "Angione, Damiamo",
+        "Angione, Damiano"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 18 to identify Damiano Angione's last civilian employer and the exact date and mechanism of his Army-to-OSS transfer. His immediate Army pathway is documented; Army service is not a civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Carry-forward integrity review confirms that the indexed First Lieutenant James Angleton is best matched to James Jesus Angleton through his distinctive name, Army rank, wartime OSS chronology, and separation from the adjacent Lieutenant Colonel James H. Angleton row. Existing published evidence documents Harvard student status before Army service, Army entry in March 1943, and OSS recruitment during training; it does not document employment or self-employment.",
+      "name_variants": [
+        "James Angleton",
+        "James J Angleton",
+        "James J. Angleton",
+        "James Jesus Angleton",
+        "Angleton, James"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 18 to confirm the exact Army-to-OSS transfer and identify any last civilian employer; current evidence documents Harvard student status before Army service, not employment. Keep the adjacent James H. Angleton file separate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified NARA row supplies Lieutenant Colonel James H. Angleton, a private identifier, and Box 18. A digitized direct OSS personnel file identifies Lieutenant Colonel James Hugh Angleton, contains matching official service documentation, records his July 26, 1943 assignment from the Army School of Military Government to OSS Washington, and includes his signed employment history. The exact name, rank, and private identifier match confirm the identity; the private identifier is not published.",
+      "name_variants": [
+        "James H Angleton",
+        "James H. Angleton",
+        "James Hugh Angleton",
+        "Angleton, James H"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "The reviewed digitized personnel file confirms National Cash Register Company as the last civilian employer and the Army School of Military Government as the immediate pre-OSS assignment. Review Box 18 only to reconcile the physical-file arrangement and refine dates for his Chamber of Commerce service.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "858188bc-468f-5032-a857-b8575690d4db",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified NARA row supplies Frank E. Anglim, civilian grade CAF-11, no printed private identifier, and Box 18. A 1929 official Senate document listing Bureau of Prohibition field personnel includes the uncommon exact name Frank E. Anglim among agents, inspectors, investigators, and chemists. The exact name and compatible federal-service context make this a probable candidate, but the fourteen-year gap, lack of OSS or Box 18 linkage, and absence of another identifier prevent publication as this person's employment.",
+      "name_variants": [
+        "Frank E Anglim",
+        "Frank E. Anglim",
+        "Anglim, Frank E"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare Box 18 and federal personnel records with the 1929 Bureau of Prohibition candidate before accepting that identity or reconstructing intervening employment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "894a80ae-3c80-53da-b217-9599c8b524f6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified NARA row supplies Peter M. Anglione, no printed rank or private identifier, and Box 18. A separate page 3 row indexes Peter M. Aglione, Private First Class, a private identifier, and Box 5; a direct OSS board report confirms that second row's identity and Army pathway. The one-letter surname difference may be a variant or cross-reference, but name similarity alone cannot establish that the Box 18 and Box 5 rows represent one person.",
+      "name_variants": [
+        "Peter M Anglione",
+        "Peter M. Anglione",
+        "Anglione, Peter M",
+        "Peter M Aglione (possible search variant; unconfirmed duplicate)"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": "peter-m-aglione-anglione-box-5-box-18",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare the Box 18 Peter M. Anglione file with the separate Box 5 Peter M. Aglione file before linking or merging the rows. Preserve both source records and their different spelling, rank, identifier, and box evidence. No reliable pre-OSS employer has yet been identified for the Box 18 row.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "35afb022-93c2-532d-a08b-60ac54c81b9f",
+      "identity_status": "confirmed",
+      "identity_evidence": "Existing direct evidence confirms the page 3 Peter M. Aglione row through the exact name, PFC grade, unique private identifier, and May 1944 OSS board report. Batch 090 flags the separately indexed Box 18 Peter M. Anglione row as a possible variant or cross-reference, but does not merge it because the second row lacks rank and identifier evidence.",
+      "name_variants": [
+        "Peter M Aglione",
+        "Peter M. Aglione",
+        "Aglione, Peter M",
+        "Peter M Anglione (possible search variant; unconfirmed duplicate)"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "peter-m-aglione-anglione-box-5-box-18",
+      "research_status": "completed",
+      "next_action": "Compare Box 5 with the separately indexed Box 18 Peter M. Anglione file before linking or merging the source rows. The Box 5 Aglione identity and immediate Army pathway remain confirmed; no reliable last civilian employer has yet been identified.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "14964895-e765-57e5-a4e9-5269c341c49e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Carlos J. Angulo, no printed rank, a private identifier, and Box 18. Exact-name, punctuation, OSS, military, employment, occupation, obituary, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches did not find a historical candidate with the indexed identifier, an OSS or Box 18 connection, and another corroborating identifier. Modern people-finder material was rejected and not retained.",
+      "name_variants": [
+        "Carlos J Angulo",
+        "Carlos J. Angulo",
+        "Angulo, Carlos J"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 for Carlos J. Angulo's full identity, personnel status, occupation, employer, and OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8d41903e-c9de-5390-8945-0be696dc465f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Manuel R. Angulo, no printed rank or private identifier, and Box 18. Exact-name, punctuation, OSS, military, employment, occupation, obituary, directory, newspaper, institutional, NARA, CIA Reading Room, and Library of Congress searches did not find a historical candidate with an OSS or Box 18 connection plus two corroborating identifiers. Unrelated early and modern namesakes were rejected.",
+      "name_variants": [
+        "Manuel R Angulo",
+        "Manuel R. Angulo",
+        "Angulo, Manuel R"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 for Manuel R. Angulo's full identity, personnel status, occupation, employer, and OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nara-oss-index-page-11-angelos-michael-t",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angelos, Michael T.; SP 1/c; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-11-angelos-nicholas-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angelos, Nicholas A.; Sgt; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-11-anger-bert-w",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Anger, Bert W.; Sgt; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-11-angione-damiamo",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angione, Damiamo; Pfc; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The original spelling Damiamo is preserved and the full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-11-angleton-james",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angleton, James; 1st Lt; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-11-angleton-james-h",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angleton, James H.; Lt Col; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-11-anglim-frank-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Anglim, Frank E.; Caf-11; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-11-anglione-peter-m",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Anglione, Peter M.; no rank printed; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. This row remains separate from the page 3 Peter M. Aglione row."
+    },
+    {
+      "key": "nara-oss-index-page-11-angulo-carlos-j",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angulo, Carlos J.; no rank printed; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-11-angulo-manuel-r",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Angulo, Manuel R.; no rank printed; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nps-oss-mediterranean-michael-angelos",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008; web edition",
+      "locator": "Section on the Greek Operational Group; Petty Officer Michael Angelos of Chicago, Navy demolitions training, Areas A and B, and early-1944 mission",
+      "access_date": "2026-07-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Federal historical study based on archival records; only a concise evidence excerpt and project-authored paraphrase are stored."
+    },
+    {
+      "key": "denver-public-library-10th-mountain-name-index-bert-w-anger",
+      "stable_url": "https://history.denverlibrary.org/sites/history/files/10th_mountain_index_2021.pdf",
+      "archival_identifier": "10th Mountain Division Resource Center name index",
+      "title": "10th Mountain Division Name Index",
+      "author_creator": "Denver Public Library",
+      "repository_publisher": "Denver Public Library, 10th Mountain Division Resource Center",
+      "publication_record_date": "2021",
+      "locator": "PDF page 20; Anger, Bert W.; Company B, 86th Infantry",
+      "access_date": "2026-07-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "10th Mountain Division Records",
+      "rights_notes": "Institutional name index retained as a review candidate only; it does not establish a pre-OSS chronology."
+    },
+    {
+      "key": "hoover-oss-board-report-1944-05-04-damiano-angione",
+      "stable_url": "https://digitalcollections.hoover.org/objects/73271/oss-board-of-officers-report-on-examination-of-personnel",
+      "archival_identifier": "Hoover Institution Archives ID 69085.147",
+      "title": "OSS board of officers report on examination of personnel",
+      "author_creator": "Office of Strategic Services Board of Officers",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04",
+      "locator": "Printed page 75; scanned PDF page 72; entry XXXVIII, Private Damiano Angione",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services",
+      "document_number": "69085.147",
+      "rights_notes": "Digitized direct OSS report. The unique service identifier was used privately for identity resolution and is excluded from public text and downloads."
+    },
+    {
+      "key": "internet-archive-james-hugh-angleton-oss-personnel-file",
+      "stable_url": "https://archive.org/details/JamesHughAngletonOSSPersonnelFile",
+      "archival_identifier": "Internet Archive identifier JamesHughAngletonOSSPersonnelFile; ark:/13960/t1rf9gz9g",
+      "title": "James Hugh Angleton OSS Personnel File",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Internet Archive",
+      "publication_record_date": "1942-1945; digitized copy",
+      "locator": "Scanned PDF pages 1, 69, and 76; official qualification, Army-to-OSS assignment, and employment-history records",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Office of Strategic Services personnel records",
+      "rights_notes": "Digitized direct official personnel file marked Public Domain. Only concise excerpts and project-authored metadata are retained; private identifiers are excluded from public outputs."
+    },
+    {
+      "key": "nara-entry-210-james-hugh-angleton",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/entry-210.pdf",
+      "archival_identifier": "RG 226, Entry 210, James Hugh Angleton biographical and personal-appraisal material",
+      "title": "Entry 210: Records of the Office of Strategic Services",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "PDF page 137; James Hugh Angleton; biographical and personal appraisal information dated August 12, 1943",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official archival series inventory used as a stable supporting pointer."
+    },
+    {
+      "key": "govinfo-senate-document-267-frank-e-anglim",
+      "stable_url": "https://www.govinfo.gov/content/pkg/SERIALSET-09000_00_00-083-0267-0000/pdf/SERIALSET-09000_00_00-083-0267-0000.pdf",
+      "archival_identifier": "S. Doc. 70-267; United States Congressional Serial Set 9000",
+      "title": "Field Service of the Bureau of Prohibition",
+      "author_creator": "United States Department of the Treasury and United States Civil Service Commission",
+      "repository_publisher": "United States Government Publishing Office",
+      "publication_record_date": "1929-03-02",
+      "locator": "District No. 2; agents, inspectors, investigators, and chemists; Anglim, Frank E.",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "United States Congressional Serial Set",
+      "document_number": "Senate Document No. 267, 70th Congress",
+      "rights_notes": "Official federal personnel list retained as a probable identity candidate only; it does not establish an OSS link or immediate pre-OSS chronology."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment."
+    },
+    {
+      "key": "national-cash-register-company",
+      "canonical_name": "National Cash Register Company",
+      "historical_name": "National Cash Register Company",
+      "aliases": [
+        "National Cash Register Co.",
+        "NCR"
+      ],
+      "organization_type": "business corporation",
+      "sector": "business_and_industry",
+      "city": "Dayton",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "1884-present; historical name preserved for the 1922-1941 affiliation",
+      "normalization_notes": "The historical employer name is preserved. No modern successor name is substituted."
+    },
+    {
+      "key": "american-chamber-of-commerce-in-italy",
+      "canonical_name": "American Chamber of Commerce in Italy",
+      "historical_name": "American Chamber of Commerce for Italy",
+      "aliases": [
+        "American Chamber of Commerce for Italy",
+        "American Chamber of Commerce in Italy"
+      ],
+      "organization_type": "business association",
+      "sector": "business_and_industry",
+      "city": "Milan",
+      "country": "Italy",
+      "normalization_notes": "This is modeled as a professional affiliation, not an employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "damiano-angione-united-states-army-before-oss",
+      "person_id": "c7c7786a-a6e7-5f23-acd0-4223b21a94af",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "Army",
+      "role_title": "Infantry soldier recruited for OSS duty",
+      "occupation": "Army soldier",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-02",
+      "date_precision": "entered the Army in February 1943; the report states that he was recruited during wartime service but does not give the exact transfer date",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The direct OSS report identifies Angione, records his Army entry and infantry basic training, and explicitly states that he was recruited for OSS work. It does not name a civilian employer."
+    },
+    {
+      "key": "james-hugh-angleton-national-cash-register-last-civilian",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "organization_key": "national-cash-register-company",
+      "organization_name_as_found": "National Cash Register Co.",
+      "role_title": "General sales agent and executive for Italy and colonies",
+      "occupation": "Business executive",
+      "relationship_type": "employment",
+      "start_date": "1922-02-01",
+      "end_date": "1941",
+      "date_precision": "employment began exactly February 1, 1922; Italy assignment began September 22, 1933; the file documents continuous NCR connection through the period before wartime recall",
+      "city": "Milan",
+      "country": "Italy",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Angleton's direct personnel file states that he had been connected with NCR continuously since February 1922 and documents his senior Italian sales responsibilities before military service. An intervening Army assignment preceded OSS."
+    },
+    {
+      "key": "james-hugh-angleton-army-school-of-military-government-before-oss",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "The School of Military Government, Charlottesville, Va.",
+      "role_title": "Officer assigned to the School of Military Government",
+      "occupation": "Army officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1943-07-26",
+      "date_precision": "official personnel-history card gives July 26, 1943 as the date assigned from the School of Military Government to OSS Washington",
+      "city": "Charlottesville",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The official personnel-history card explicitly records release from the School of Military Government and assignment to OSS Washington on July 26, 1943."
+    },
+    {
+      "key": "james-hugh-angleton-american-chamber-commerce-italy",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "organization_key": "american-chamber-of-commerce-in-italy",
+      "organization_name_as_found": "American Chamber of Commerce for Italy",
+      "role_title": "Officer and president",
+      "relationship_type": "professional_affiliation",
+      "end_date": "1941-12-08",
+      "date_precision": "the personnel history documents active membership and offices through December 8, 1941; the precise starting date and sequence of offices require further review",
+      "city": "Milan",
+      "country": "Italy",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is a documented prewar professional affiliation and is not treated as employment. National Cash Register Company remains the last civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "michael-t-angelos-high-confidence-identity",
+      "person_id": "e9a2525c-92be-5beb-a273-9ba91c872305",
+      "claim_type": "identity",
+      "claim_text": "The indexed Michael T. Angelos is best matched to the Navy petty officer and OSS demolitions specialist described by the National Park Service.",
+      "evidence_excerpt": "Petty Officer Michael Angelos of Chicago was a Navy man specializing in demolitions",
+      "evidence_paraphrase": "The index and NPS history share the uncommon name, naval petty-officer status, and direct OSS context; the history also gives a demolitions specialty and Chicago connection.",
+      "identity_match_assessment": "High-confidence match based on the uncommon exact first and last name, naval petty-officer status, specialized wartime role, and direct OSS context. The NPS account does not print the middle initial or private identifier.",
+      "temporal_assessment": "The institutional history documents Angelos's wartime OSS training and Greek mission, not his affiliation before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim establishes identity only. It does not infer a pre-OSS employer from naval or OSS service.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-11-angelos-michael-t",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nps-oss-mediterranean-michael-angelos",
+          "excerpt_override": "Petty Officer Michael Angelos of Chicago was a Navy man specializing in demolitions"
+        }
+      ]
+    },
+    {
+      "key": "damiano-angione-confirmed-identity",
+      "person_id": "c7c7786a-a6e7-5f23-acd0-4223b21a94af",
+      "claim_type": "identity",
+      "claim_text": "The indexed Damiamo Angione is the Private Damiano Angione examined by an OSS board in Italy in May 1944.",
+      "evidence_excerpt": "PVT Damiano Angione. Entered the Army in February 1943",
+      "evidence_paraphrase": "The NARA row and direct OSS report share the surname, PFC or private enlisted status, and a unique service identifier retained only in the private database.",
+      "identity_match_assessment": "Confirmed by the near-exact uncommon name, compatible enlisted grade, unique service-identifier match, and direct OSS document context.",
+      "temporal_assessment": "The board report was created May 4, 1944 and retrospectively describes Angione's Army entry, training, and OSS recruitment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Damiano is a documented variant, not a silent correction to the index's Damiamo. The private identifier is excluded from public text and downloads.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-11-angione-damiamo",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "hoover-oss-board-report-1944-05-04-damiano-angione",
+          "excerpt_override": "PVT Damiano Angione. Entered the Army in February 1943"
+        }
+      ]
+    },
+    {
+      "key": "damiano-angione-immediate-pre-oss-army",
+      "person_id": "c7c7786a-a6e7-5f23-acd0-4223b21a94af",
+      "affiliation_key": "damiano-angione-united-states-army-before-oss",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Damiano Angione's best-supported immediate pre-OSS affiliation was United States Army service.",
+      "evidence_excerpt": "Entered the Army in February 1943 and received infantry basic training.",
+      "evidence_paraphrase": "A direct OSS board report records Angione's Army entry and infantry training and explicitly states that he was then recruited for OSS work.",
+      "identity_match_assessment": "Confirmed by the uncommon name, compatible enlisted grade, and unique private identifier shared by the NARA index and direct OSS report.",
+      "temporal_assessment": "Explicit immediate pathway. The report directly places Army service and infantry training before OSS recruitment, though it does not give the exact transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Army service is an immediate military affiliation, not a civilian employer. No reliable last civilian employer has yet been identified.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-report-1944-05-04-damiano-angione",
+          "excerpt_override": "Entered the Army in February 1943 and received infantry basic training."
+        }
+      ]
+    },
+    {
+      "key": "james-hugh-angleton-confirmed-identity",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Colonel James H. Angleton is James Hugh Angleton, the subject of a digitized direct OSS personnel file.",
+      "evidence_excerpt": "QUALIFICATION CARD ON LT. COL. JAMES H. ANGLETON",
+      "evidence_paraphrase": "The index and official personnel file share the exact name and lieutenant-colonel rank plus a unique service identifier retained only in the private database.",
+      "identity_match_assessment": "Confirmed by the exact full name and middle initial, matching lieutenant-colonel rank, unique private identifier, and direct OSS personnel-file context.",
+      "temporal_assessment": "The file spans Angleton's prewar employment, Army service, OSS assignment, and 1945 qualification review.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "This is James Hugh Angleton, the father of the separately indexed First Lieutenant James Angleton. The two person entities remain distinct.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-11-angleton-james-h",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "internet-archive-james-hugh-angleton-oss-personnel-file",
+          "locator_override": "Scanned PDF page 1; official qualification-card memorandum",
+          "excerpt_override": "QUALIFICATION CARD ON LT. COL. JAMES H. ANGLETON"
+        },
+        {
+          "source_key": "nara-entry-210-james-hugh-angleton",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "james-hugh-angleton-national-cash-register-last-civilian",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "affiliation_key": "james-hugh-angleton-national-cash-register-last-civilian",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "James Hugh Angleton's last documented civilian employer before wartime military service was the National Cash Register Company.",
+      "evidence_excerpt": "Have been connected with the National Cash Register Company in some capacity or other ever since Feb. 1922.",
+      "evidence_paraphrase": "Angleton's direct personnel history records continuous NCR employment from February 1922, including senior sales responsibility in Italy before his wartime recall.",
+      "identity_match_assessment": "Confirmed by the direct personnel file of the exact indexed Lieutenant Colonel James H. Angleton.",
+      "temporal_assessment": "Strongly date-bounded last civilian employment. The file documents continuous NCR connection before military recall; an Army assignment intervened before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "National Cash Register is the last civilian employer, not the immediate pre-OSS affiliation. The latter was an Army School of Military Government assignment.",
+      "sources": [
+        {
+          "source_key": "internet-archive-james-hugh-angleton-oss-personnel-file",
+          "locator_override": "Scanned PDF page 76; official employment-history record",
+          "excerpt_override": "Have been connected with the National Cash Register Company in some capacity or other ever since Feb. 1922."
+        }
+      ]
+    },
+    {
+      "key": "james-hugh-angleton-immediate-pre-oss-army-school",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "affiliation_key": "james-hugh-angleton-army-school-of-military-government-before-oss",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "James Hugh Angleton's immediate pre-OSS assignment was the United States Army School of Military Government in Charlottesville, Virginia.",
+      "evidence_excerpt": "Released from assignment and duty, The School of Military Government, Charlottesville, Va., and assigned to OSS Washington, D.C.",
+      "evidence_paraphrase": "An official personnel-history card directly records Angleton's release from the Army school and assignment to OSS Washington on July 26, 1943.",
+      "identity_match_assessment": "Confirmed by the direct personnel file of the exact indexed Lieutenant Colonel James H. Angleton.",
+      "temporal_assessment": "Explicit immediate affiliation. The official card records the predecessor Army assignment and OSS destination in the same dated entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army school assignment is modeled as military service, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "internet-archive-james-hugh-angleton-oss-personnel-file",
+          "locator_override": "Scanned PDF page 69; official personnel-history card; July 26, 1943 entry",
+          "excerpt_override": "Released from assignment and duty, The School of Military Government, Charlottesville, Va., and assigned to OSS Washington, D.C."
+        }
+      ]
+    },
+    {
+      "key": "james-hugh-angleton-american-chamber-commerce-italy",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "affiliation_key": "james-hugh-angleton-american-chamber-commerce-italy",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "James Hugh Angleton held documented leadership roles in the American Chamber of Commerce for Italy before wartime service.",
+      "evidence_excerpt": "American Chamber of Commerce for Italy",
+      "evidence_paraphrase": "Angleton's official personnel history records active membership and leadership offices in the Chamber through December 8, 1941.",
+      "identity_match_assessment": "Confirmed by the direct personnel file of the exact indexed Lieutenant Colonel James H. Angleton.",
+      "temporal_assessment": "Documented prewar professional affiliation. It is not treated as the immediate pre-OSS assignment or as civilian employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Chamber is modeled as a professional affiliation. National Cash Register Company remains the documented civilian employer.",
+      "sources": [
+        {
+          "source_key": "internet-archive-james-hugh-angleton-oss-personnel-file",
+          "locator_override": "Scanned PDF page 76; professional-affiliation entry",
+          "excerpt_override": "American Chamber of Commerce for Italy"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch090-michael-t-angelos-high-confidence-identity",
+      "person_id": "e9a2525c-92be-5beb-a273-9ba91c872305",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Michael T Angelos\" OSS; \"Michael Angelos\" Navy OSS Greece; rank and identifier variants; NARA OSS/index context; CIA Reading Room; Library of Congress; employer occupation 1940; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "exact_name_rank_navy_oss_employment_institutional_archival",
+      "started_at": "2026-07-31T00:00:00Z",
+      "completed_at": "2026-07-31T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern people-finder results and a possible postwar state-police namesake lacked direct pre-OSS evidence and were not retained. The NPS subject was accepted only as a high-confidence identity match, not as employer evidence.",
+      "research_notes": "The NPS history supplies an uncommon exact name, Navy petty-officer status, Chicago connection, demolitions specialty, OSS training, and Greek mission. It does not identify a pre-OSS employer or immediate predecessor.",
+      "next_action": "Review Box 18 and Navy records for the remaining identity and pre-OSS chronology questions.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-nicholas-a-angelos-no-reliable-result",
+      "person_id": "700951e0-9c87-5832-bea6-1c36099236bb",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Nicholas A Angelos\" OSS; \"Nicholas A. Angelos\" Army Sergeant; rank and identifier variants; NARA OSS/index context; CIA Reading Room; Library of Congress; employer occupation 1940; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "exact_name_rank_army_oss_employment_institutional_archival",
+      "started_at": "2026-07-31T00:15:00Z",
+      "completed_at": "2026-07-31T00:27:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Common-name and modern results lacked the indexed private identifier, OSS or Box 18 connection, and corroborating historical identifiers. Michael Angelos in the NPS history is a different indexed person.",
+      "research_notes": "The minimum completed-research protocol was run without finding a defensible identity or employer.",
+      "next_action": "Review Box 18 and official Army records.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-bert-w-anger-probable-10th-mountain-candidate",
+      "person_id": "b45249d9-d982-5010-9ef8-7186544935f9",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Bert W Anger\" OSS; \"Bert W. Anger\" Army; Sergeant; NARA OSS/index context; CIA Reading Room; Library of Congress; 10th Mountain Division; employer occupation 1940; obituary; newspaper; institutional and archival searches",
+      "query_variant_type": "exact_name_rank_army_unit_employment_archival",
+      "started_at": "2026-07-31T00:27:00Z",
+      "completed_at": "2026-07-31T00:40:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unrelated surname matches and modern results were rejected. The 10th Mountain roster remains a private review candidate because it lacks rank, OSS linkage, and transfer chronology.",
+      "research_notes": "Exact uncommon name and Army context support a probable identity candidate, but no affiliation claim is published.",
+      "next_action": "Compare Box 18 with the Denver Public Library 10th Mountain Division records and official Army files.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-damiano-angione-confirmed-army-pathway",
+      "person_id": "c7c7786a-a6e7-5f23-acd0-4223b21a94af",
+      "source_adapter": "reviewed_primary_archival_source",
+      "query_text": "\"Damiamo Angione\" OSS; \"Damiano Angione\" OSS; exact private identifier; PFC; NARA OSS/index context; CIA Reading Room; Hoover OSS board report; Army; employer occupation 1940; obituary; institutional and archival searches",
+      "query_variant_type": "index_spelling_documented_variant_identifier_primary_record",
+      "started_at": "2026-07-31T00:40:00Z",
+      "completed_at": "2026-07-31T00:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Name-only results without identifier or OSS context were rejected. The direct board report was accepted because its private identifier matches the index.",
+      "research_notes": "The direct report confirms the Damiano spelling, Army entry in February 1943, infantry training, and OSS recruitment. It does not name a civilian employer.",
+      "next_action": "Review Box 18 for the last civilian employer and exact Army-to-OSS transfer date.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-james-angleton-status-integrity-review",
+      "person_id": "2f189352-aabb-5d3e-899c-ffaafef19aad",
+      "source_adapter": "reviewed_evidence_integrity",
+      "query_text": "Carry-forward review of Batch 007 CIA biography, published affiliations, claim types, and adjacent James H. Angleton identity",
+      "query_variant_type": "status_semantics_and_entity_separation",
+      "started_at": "2026-07-31T00:58:00Z",
+      "completed_at": "2026-07-31T01:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Existing evidence supports Army as the immediate pre-OSS military affiliation and Harvard and Yale as student affiliations. Because no employment or self-employment affiliation is documented, verified_employer_found was corrected to completed without changing the claims.",
+      "next_action": "Review Box 18 for a last civilian employer and exact Army-to-OSS transfer; keep James H. Angleton separate.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-james-hugh-angleton-confirmed-ncr-and-army-pathway",
+      "person_id": "577a8037-dac8-53f1-80ff-b79b4c9519c6",
+      "source_adapter": "reviewed_primary_personnel_file",
+      "query_text": "\"James H Angleton\" OSS; \"James Hugh Angleton\" National Cash Register; NARA OSS/index context; Entry 210; CIA Reading Room; exact rank and identifier; personnel file; employment history; School of Military Government; archival searches",
+      "query_variant_type": "exact_name_rank_identifier_primary_personnel_file",
+      "started_at": "2026-07-31T01:05:00Z",
+      "completed_at": "2026-07-31T01:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Sources about his son James Jesus Angleton were not used as the principal identity evidence. Secondary summaries were superseded by the direct personnel file.",
+      "research_notes": "The direct file confirms identity, National Cash Register employment from February 1922 through the prewar period, Chamber leadership, and the July 26, 1943 Army School of Military Government-to-OSS assignment.",
+      "next_action": "Use Box 18 only to reconcile physical-file arrangement and refine Chamber dates; the central employer and immediate-affiliation questions are answered.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-frank-e-anglim-probable-prohibition-candidate",
+      "person_id": "858188bc-468f-5032-a857-b8575690d4db",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Frank E Anglim\" OSS; \"Frank E. Anglim\" federal employment; CAF-11; NARA OSS/index context; CIA Reading Room; Library of Congress; Bureau of Prohibition; employer occupation 1940; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "exact_name_civilian_grade_federal_employment_archival",
+      "started_at": "2026-07-31T01:40:00Z",
+      "completed_at": "2026-07-31T01:55:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Namesakes without a federal or OSS connection were rejected. The 1929 Bureau of Prohibition listing remains a candidate because it lacks a second identifier and leaves a fourteen-year chronology gap.",
+      "research_notes": "No employment claim is published. The official federal listing is retained only to focus Box 18 and federal-personnel review.",
+      "next_action": "Compare Box 18 with Bureau of Prohibition and later federal personnel records.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-peter-m-anglione-possible-aglione-duplicate",
+      "person_id": "894a80ae-3c80-53da-b217-9599c8b524f6",
+      "source_adapter": "reviewed_entity_resolution",
+      "query_text": "\"Peter M Anglione\" OSS; \"Peter M. Anglione\" Army; \"Peter M Aglione\" OSS; NARA OSS/index context; CIA Reading Room; Hoover OSS board report; employer occupation 1940; obituary; newspaper; institutional and archival searches",
+      "query_variant_type": "exact_name_one_letter_variant_cross_box_duplicate_review",
+      "started_at": "2026-07-31T01:55:00Z",
+      "completed_at": "2026-07-31T02:08:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "No independent Peter M. Anglione candidate was found. The confirmed Peter M. Aglione evidence cannot be transferred to the Box 18 row solely from a one-letter name similarity.",
+      "research_notes": "Both source rows are preserved. A visible possible-duplicate group now links them for review without merging the person entities.",
+      "next_action": "Compare Box 18 and Box 5 personnel files.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-carlos-j-angulo-no-reliable-result",
+      "person_id": "14964895-e765-57e5-a4e9-5269c341c49e",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Carlos J Angulo\" OSS; \"Carlos J. Angulo\" military; exact private identifier; NARA OSS/index context; CIA Reading Room; Library of Congress; employer occupation 1940; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "exact_name_identifier_oss_employment_institutional_archival",
+      "started_at": "2026-07-31T02:08:00Z",
+      "completed_at": "2026-07-31T02:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name and modern people-finder results lacked the private identifier, OSS or Box 18 connection, and corroborating historical identifiers; sensitive modern details were not retained.",
+      "research_notes": "The minimum completed-research protocol was run without finding a defensible identity or employer.",
+      "next_action": "Review Box 18.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch090-manuel-r-angulo-no-reliable-result",
+      "person_id": "8d41903e-c9de-5390-8945-0be696dc465f",
+      "source_adapter": "reviewed_web_and_official_sources",
+      "query_text": "\"Manuel R Angulo\" OSS; \"Manuel R. Angulo\" military; NARA OSS/index context; CIA Reading Room; Library of Congress; employer occupation 1940; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "exact_name_oss_employment_institutional_archival",
+      "started_at": "2026-07-31T02:20:00Z",
+      "completed_at": "2026-07-31T02:32:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unrelated early records and modern namesakes lacked an OSS or Box 18 connection plus two corroborating identifiers.",
+      "research_notes": "The minimum completed-research protocol was run without finding a defensible identity or employer.",
+      "next_action": "Review Box 18.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
