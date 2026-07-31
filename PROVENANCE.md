@@ -739,6 +739,51 @@ Anagnostis, Ettore Anamia, Angelo Anastasio, Peter Anastasio, and Stella
 Anastos retain Box 14 archival-review guidance. Etienne Ancergues's previously
 reviewed Allied pathway remains unchanged.
 
+## Page-eight and page-nine Ancrum-through-Anderson continuation, Batch 079
+
+`research/evidence-page-eight-ancrum-through-page-nine-anderson-pathways_batch-079_2026-07-30.json`
+records the minimum online research protocol for ten contiguous rows from
+Calhoun Ancrum Jr. on PDF page eight through Albert C. Anderson on page nine.
+It contains ten visually checked official-index citations, ten terminal
+research attempts, ten person updates, two organizations, two student
+affiliations, and eight claims supported by seventeen source records. It
+stores no live NARA Catalog response, credential, full service identifier,
+full copyrighted page, or sensitive modern-person detail.
+
+An official Department of Defense Distinguished Service Cross list repeats
+Calhoun Ancrum Jr.'s distinctive name, suffix, no-middle-initial form, and
+First Lieutenant grade. A Military Times profile directly documents his OSS
+service, while Duke's contemporary 1935 yearbook documents his student status.
+Together they support a high-confidence identity resolution and a qualified
+student affiliation. The evidence does not establish employment, an immediate
+pre-OSS predecessor, or a last civilian employer. A published lead concerning
+later writing and editing was not promoted because the cited book page could
+not be inspected in an accessible lawful copy.
+
+A Seattle Times obituary identifies Donald E. Anderegg as a Willamette
+University graduate who studied radio communications before Army and OSS
+radio service in the Burma-India theater. The uncommon exact name, middle
+initial, technical field, and explicit OSS service support a high-confidence
+identity resolution. Willamette is published only as a medium-confidence
+student affiliation, not an employer or immediate predecessor.
+
+A specialist OSS Operational Groups roster lists T/5 Harold Andersen and T/5
+Jorgen Andersen under Norwegian Operations. The exact names, grades, and OSS
+context support probable identities, but the roster omits a complete
+identifier and does not item-cite its underlying primary records. Both claims
+therefore remain visibly qualified at medium confidence. Harold Andersen's
+printed `T-5` remains preserved in the raw middle-initial cell while the
+reviewed normalized record transparently classifies it as the displaced rank.
+
+Discovery-only or later-career namesakes for James T. Ander and Robert E.
+Andersen remain withheld at low confidence. Searches also rejected an
+unrelated former FBI employee named Harold E. Andersen, a Camp Shelby
+Frederick Anderegg without a matching middle identifier, and a physician with
+the wrong middle initial. Frederick C. Anderegg, Ora V. Anders, Erik J.
+Andersen, and Albert C. Anderson remain unresolved. All ten profiles retain
+Box 14 archival guidance for the immediate pre-OSS affiliation and last
+civilian employer.
+
 ## Official reference material
 
 - NARA OSS personnel records:

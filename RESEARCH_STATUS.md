@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 606 people with a non-planned attempt | 23,941 person entities | 2.5312% |
+| Research-attempt coverage | 616 people with a non-planned attempt | 23,941 person entities | 2.5730% |
 | Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
 | Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 553 people with an individual file-access/priority assessment | 23,941 person entities | 2.3098% |
+| Archival-review coverage | 563 people with an individual file-access/priority assessment | 23,941 person entities | 2.3516% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 22
-- Identity status `high_confidence`: 252
-- Identity status `probable`: 17
-- Identity status `ambiguous`: 20
+- Identity status `high_confidence`: 254
+- Identity status `probable`: 19
+- Identity status `ambiguous`: 22
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,629
+- Identity status `unresolved`: 23,623
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,335
+- `not_started`: 23,325
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 23
-- `occupation_only_found`: 24
-- `requires_archival_review`: 339
+- `occupation_only_found`: 26
+- `requires_archival_review`: 347
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -65,12 +65,12 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Reviewed-web terminal-protocol attempts recorded: 335
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 284 across 270 people; 15 additional
+- Saved `source_reviewed` outcomes: 288 across 273 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,630
+- Total recorded attempts/plans: 1,640
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 267; 253 have at least one public-eligible
+- People with saved reviewed claims: 273; 257 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -472,11 +472,27 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   identities remain unresolved. Seven profiles route to high-priority Box 14
   review and the two high-confidence profiles remain at medium archival
   priority for their unresolved immediate pathways.
-- Published affiliations: 405
-- Database claims: 708; public-eligible claims: 691 (97 confirmed, 522 high, 72
-  medium); 17 low-confidence claims concerning 14 people are withheld
-- Citation records: 936; public source export: 620; unique source documents: 578
-- Canonical organizations: 245 private and 243 public
+  Batch 079 continued through Calhoun Ancrum Jr., James T. Ander, Donald E.
+  Anderegg, Frederick C. Anderegg, Ora V. Anders, Erik J. Andersen, Harold
+  Andersen, Jorgen F. Andersen, Robert E. Andersen, and Albert C. Anderson
+  across PDF pages eight and nine. The official Defense Department
+  Distinguished Service Cross list, a Military Times OSS profile, and Duke's
+  1935 yearbook resolve Calhoun Ancrum Jr. at high identity confidence; Duke is
+  published only as a medium-confidence student affiliation. A Seattle Times
+  obituary resolves Donald E. Anderegg at high identity confidence and
+  documents his Willamette radio-communications studies before Army and OSS
+  service; Willamette likewise remains a student affiliation rather than an
+  employer. A specialist Norwegian Operations roster supports only probable
+  identities for Harold Andersen and Jorgen F. Andersen because it lacks
+  item-level primary citations and complete identifiers. Low-confidence
+  namesake leads for James Ander and Robert Andersen remain private. The other
+  four identities remain unresolved. All ten profiles retain Box 14 review
+  guidance for their still-unknown immediate pre-OSS pathways.
+- Published affiliations: 407
+- Database claims: 716; public-eligible claims: 697 (97 confirmed, 524 high, 76
+  medium); 19 low-confidence claims are withheld
+- Citation records: 953; public source export: 629; unique source documents: 585
+- Canonical organizations: 246 private and 244 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
 
@@ -603,6 +619,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-am
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ames-through-amon-pathways_batch-076_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amoruso-through-amunrud-pathways_batch-077_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amy-through-ancergues-pathways_batch-078_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ancrum-through-page-nine-anderson-pathways_batch-079_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

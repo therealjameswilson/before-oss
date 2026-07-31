@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:12:44+00:00",
+  "generated_at": "2026-07-31T04:04:36+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -13,7 +13,7 @@
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 22,
-    "commissioned_army_officer": 25,
+    "commissioned_army_officer": 24,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 5,
@@ -21,7 +21,7 @@
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 18,
-    "unknown_or_indeterminate": 93,
+    "unknown_or_indeterminate": 94,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -33,31 +33,31 @@
   "identity_status_counts": {
     "ambiguous": 2,
     "confirmed": 1,
-    "high_confidence": 24,
+    "high_confidence": 23,
     "probable": 2,
-    "unresolved": 171
+    "unresolved": 172
   },
   "research_status_counts": {
-    "completed": 2,
+    "completed": 1,
     "documented_prewar_employer_found": 1,
     "in_progress": 3,
     "needs_identity_review": 1,
-    "not_started": 170,
-    "occupation_only_found": 2,
-    "requires_archival_review": 9,
+    "not_started": 171,
+    "occupation_only_found": 3,
+    "requires_archival_review": 8,
     "verified_employer_found": 12
   },
   "special_strata_counts": {
-    "commissioned": 36,
+    "commissioned": 35,
     "civilian": 22,
     "enlisted": 28,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 21,
+    "confirmed_or_high_published_claim": 20,
     "medium_published_claim": 10,
     "conflicting_published_claim": 0,
-    "unresolved_identity": 171
+    "unresolved_identity": 172
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research.",
@@ -239,12 +239,10 @@
     "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
     "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
     "2f189352-aabb-5d3e-899c-ffaafef19aad",
-    "aaffd5ea-3b75-54a0-b333-ea7e962ed025",
     "3049d936-8a0c-5bc3-9e6d-4024e9f59dd3",
     "ab9ab673-8090-56bf-9973-36b0edc77610",
     "43d0bb66-4c39-5627-85a1-3a85350d973d",
     "b7a8a36f-3f0e-54c1-a0ff-23c840498501",
-    "fe8ec29a-718c-56f3-af64-d619600f4f0d",
     "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
@@ -263,6 +261,8 @@
     "46c4071e-393f-5689-816d-8ae8c29bbf31",
     "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6",
     "a2d327c1-38bf-5e91-8762-d07ad0295d6c",
-    "ce77c56f-052f-511b-a375-ae9b026f1492"
+    "ce77c56f-052f-511b-a375-ae9b026f1492",
+    "eace424d-a9d1-53c2-ba18-d81c2393eff3",
+    "bda8dff2-e4ea-5625-9eef-5034cc86608d"
   ]
 }

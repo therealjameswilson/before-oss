@@ -6953,3 +6953,125 @@ test("Batch 078 publishes Anastos and Anbender's bounded pre-OSS evidence withou
     page.getByText("completed", { exact: true }).first(),
   ).toBeVisible();
 });
+
+test("Batch 079 keeps student affiliations, probable roster matches, and unresolved names in their evidentiary lanes", async ({
+  page,
+}) => {
+  await page.goto("./people/f587a8be-f249-5625-8a4a-3f59fa90fefc/");
+  await expect(
+    page.getByRole("heading", { name: "Calhoun Ancrum Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Duke University");
+  await expect(page.locator("body")).toContainText("student");
+  await expect(page.locator("body")).toContainText(
+    "No publishable immediate affiliation or civilian employer is recorded yet",
+  );
+  await expect(
+    page.getByRole("link", { name: "The Chanticleer, 1935", exact: true }).first(),
+  ).toHaveAttribute("href", "https://lib.digitalnc.org/record/28578?ln=en");
+
+  await page.goto("./people/0e45834f-eb80-5260-86f9-f290b7f429f9/");
+  await expect(
+    page.getByRole("heading", { name: "Donald E Anderegg", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Willamette University");
+  await expect(page.locator("body")).toContainText("student");
+  await expect(page.locator("body")).toContainText(
+    "No publishable immediate affiliation or civilian employer is recorded yet",
+  );
+  await expect(
+    page.getByRole("link", { name: "Donald Anderegg Obituary", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.legacy.com/us/obituaries/seattletimes/name/donald-anderegg-obituary?id=28968382",
+  );
+
+  for (const [personId, displayName] of [
+    ["672032f6-d1a1-5c3c-81a0-ad2ebf130713", "Harold Andersen"],
+    ["720428a0-4b35-5db9-9be3-272eefce5c36", "Jorgen F Andersen"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("body")).toContainText("Norwegian Operations");
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const unresolvedProfiles = [
+    ["e58d345c-cd2d-52f8-931b-165e4b07e824", "James T Ander", "ambiguous"],
+    [
+      "ea113558-ec12-5cd4-b403-b25235b4fb2e",
+      "Frederick C Anderegg",
+      "unresolved",
+    ],
+    ["edaa58b1-c9e6-5fcf-970b-94f1d1125ea4", "Ora V Anders", "unresolved"],
+    ["930c290f-a194-5a8b-a2ae-d68e665e297e", "Erik J Andersen", "unresolved"],
+    ["20129c34-8eef-5eb5-9160-3fc5666ce7d0", "Robert E Andersen", "ambiguous"],
+    ["bfe9c69e-8a22-54c1-a855-b7baf79b2859", "Albert C Anderson", "unresolved"],
+  ];
+
+  for (const [personId, displayName, identityStatus] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("14", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/e58d345c-cd2d-52f8-931b-165e4b07e824/");
+  await expect(page.locator("body")).not.toContainText("AncientFaces");
+  await page.goto("./people/20129c34-8eef-5eb5-9160-3fc5666ce7d0/");
+  await expect(page.locator("body")).not.toContainText("Embassy Stockholm");
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "9b16d4bc-f90d-511c-b531-b39122733efe",
+      "Duke University",
+      "Calhoun Ancrum Jr.",
+    ],
+    [
+      "58906d40-c25a-52a9-9459-2f09267c1857",
+      "Willamette University",
+      "Donald E Anderegg",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText("student");
+  }
+});
