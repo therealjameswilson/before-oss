@@ -820,3 +820,17 @@ assertion was repaired to test the visible archival guidance instead. The
 targeted three-viewport run then passed 3 / 3. The complete desktop, phone, and
 tablet matrix passed 306 / 306 with no remaining assertion or
 serious/critical axe failure.
+
+The Batch 088 regression checks the contiguous sequence from May E. Andrews
+through Anthony N. Andros across PDF pages ten and eleven. It verifies seven
+dignified unresolved profiles, Schofield Andrews Jr.'s qualified Army-to-OSS
+pathway and separately labeled Harvard student status, Mortimer Andron's
+documented earlier University of Illinois employment, and Nicholas
+Andronovitch's qualified Army G-2 predecessor assignment. It also checks Box
+17 or 18 guidance and field-level serial masking. The first targeted run used
+an incorrect section identifier for the earlier-affiliations region; the
+assertion was aligned with the page's existing accessible label and the
+targeted three-viewport rerun passed 3 / 3. The first complete run then exposed
+two stale homepage coverage expectations, which were updated from the
+generated statistics. The complete desktop, phone, and tablet matrix passed
+309 / 309 with no remaining assertion or serious/critical axe failure.

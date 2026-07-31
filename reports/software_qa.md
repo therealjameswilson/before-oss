@@ -1153,3 +1153,45 @@ six report files differed only in their expected `generated_at` timestamps.
 SQLite `quick_check` returned `ok`, the foreign-key check returned zero errors,
 and no substantive field, coverage count, public record, or generated site
 asset differed.
+
+Batch 088 completes the minimum online protocol for May E. Andrews through
+Anthony N. Andros across PDF pages ten and eleven. Seven common-name identities
+remain unresolved and route to Box 17 or 18 review. Schofield Andrews Jr. is a
+high-confidence identity supported by an institutional memorial; his immediate
+United States Army assignment remains distinct from Harvard student status.
+Mortimer Andron's high-confidence University of Illinois employment is
+published only as documented prewar employment because the accessible
+chronology does not establish it as immediate. Nicholas Andronovitch's
+high-confidence Army G-2 predecessor assignment is published as military
+service, not as a civilian employer. Rejected namesakes remain absent from
+public facts.
+
+The first targeted browser run used a nonexistent section identifier for
+earlier affiliations. After aligning the test with the existing accessible
+label, the targeted desktop, phone, and tablet run passed 3 / 3. The first
+complete run then correctly exposed stale homepage expectations for the
+verified-employer and verified-affiliation totals; those expectations were
+updated from the generated release statistics. Fifty-one Python tests, all 309
+browser and accessibility cases, the 200-profile stratified audit, and the
+24,194-page link check passed. The link checker inventoried 48,503 unique
+external URLs, and `npm audit` reported zero vulnerabilities.
+
+Two production builds produced the identical
+`188ed1ae3f2ae1de7b4eea1a911ccea94e2226e90cf9fd3204e0eab0fb51443b`
+content-tree hash under the current path-and-content hashing procedure. The
+public manifest contains 65 size- and SHA-256-verified assets, its
+forbidden-field redaction check passed, and its SHA-256 is
+`7cc4f06f64a728d24653a0874879ebdec2a41fbaf03823e63eebe0e6f4f6e09d`.
+A bounded, field-aware exact-token comparison of 12,919 nontrivial normalized
+private identifiers across 24,233 non-gzip production artifacts found zero
+full-number matches. SQLite `quick_check` returned `ok`, and the foreign-key
+check returned zero errors.
+
+The Batch 088 database contains 1,730 durable research attempts, 1,055 private
+citation records, 416 affiliations, and 727 claims: 97 confirmed, 534 high, 77
+medium, and 19 low confidence. The reviewed public projection contains 644
+source records representing 600 unique documents, 412 affiliations, and 708
+claims. Coverage now distinguishes 704 people with a non-planned research
+attempt, 203 people with verified affiliation evidence, 121 people with
+verified employment or self-employment evidence, and 652 people whose archival
+review need has been assessed. No authenticated NARA Catalog request was made.

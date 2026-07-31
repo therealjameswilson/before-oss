@@ -1143,3 +1143,25 @@ identifiers against 81 live HTML, data, compressed-mirror, and download
 artifacts returned zero full-number matches. All ten profiles retain
 high-priority Box 17 guidance, and Andreu's live profile preserves the printed
 French note and `S/Lt` string without a forced expansion.
+
+## Batch 088 local release check
+
+The rebuilt site contains direct, internally resolved routes for May E.
+Andrews, Reuben K. Andrews, Robert A. Andrews, Schofield Andrews Jr., Thomas
+K. Andrews, Virgil Andrews, William C. Andrews, Mortimer Andron, Nicholas
+Andronovitch, and Anthony N. Andros. Seven profiles visibly retain unresolved
+identity status and Box 17 or 18 archival guidance. Schofield Andrews Jr.'s
+profile separates an immediate United States Army assignment from Harvard
+student status; Mortimer Andron's profile publishes only the date-bounded
+University of Illinois employment; Nicholas Andronovitch's profile identifies
+Army G-2 as a military predecessor rather than a civilian employer.
+
+The complete local link checker passed all 24,194 HTML files and inventoried
+48,503 unique external URLs. The public downloads contain 23,941 person rows,
+245 organization rows, 412 affiliation rows, and 644 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values, the
+manifest forbidden-field check passed, and the manifest SHA-256 is
+`7cc4f06f64a728d24653a0874879ebdec2a41fbaf03823e63eebe0e6f4f6e09d`.
+A bounded, field-aware exact-token comparison of all 12,919 nontrivial
+normalized private identifiers against 24,233 non-gzip production artifacts
+returned zero full identifier matches.
