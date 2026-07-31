@@ -1099,6 +1099,16 @@ SQLite `quick_check` returned `ok`, the foreign-key check returned zero errors,
 and no substantive field, coverage count, public record, or generated site
 asset differed.
 
+The Batch 087 production audit followed successful GitHub test and Pages
+workflows. All 16 checked routes returned HTTP 200 with the expected content,
+all 65 deployed manifest assets matched their recorded and local byte sizes and
+SHA-256 values, all eight checked live statistics and all five public download
+row counts matched the release, and the bounded field-aware exact-token scan
+found zero full private-identifier matches across 81 deployed artifacts. The
+ten live profiles preserve visible unresolved status, the intended personnel
+category distinctions, high-priority Box 17 guidance, and the unfamiliar
+French `S/Lt` string without an unsupported expansion.
+
 The Batch 086 production audit followed successful GitHub test and Pages
 workflows. All 16 checked routes returned HTTP 200 with the expected content,
 all 65 deployed manifest assets matched their recorded and local byte sizes and

@@ -1113,3 +1113,33 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 087 production deployment
+
+GitHub Actions test workflow
+[30615453759](https://github.com/therealjameswilson/before-oss/actions/runs/30615453759)
+and GitHub Pages deployment
+[30615453831](https://github.com/therealjameswilson/before-oss/actions/runs/30615453831)
+for the page-ten Andreopoulos-through-Andrews release `63fc548` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 087 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 694 people with non-planned
+research attempts, 200 verified-affiliation people, 120 verified-employer
+people, 642 archival-review assessments, 701 published claims, and 637 public
+source records. The live personnel CSV and JSONL downloads each contain 23,941
+rows; the organizations, affiliations, and sources downloads contain 245, 408,
+and 637 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`bb402dfe8054785ad4a07ad9af9fb8f4c63ef38550e8649255a51e7e14d6c3d5`.
+The deployed manifest's forbidden-field check passed. A bounded,
+field-aware exact-token comparison of all 12,919 nontrivial normalized private
+identifiers against 81 live HTML, data, compressed-mirror, and download
+artifacts returned zero full-number matches. All ten profiles retain
+high-priority Box 17 guidance, and Andreu's live profile preserves the printed
+French note and `S/Lt` string without a forced expansion.
