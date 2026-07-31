@@ -684,5 +684,18 @@ complete desktop, phone, and tablet matrix passed 273 / 273 with no remaining
 assertion or serious/critical axe failure; the targeted Batch 076 test passed a
 separate 3 / 3 three-viewport rerun.
 
+The Batch 077 regression checks the contiguous Vittorio Amoruso-through-Sever
+B. Amunrud sequence on PDF page eight. It verifies Ulius Louis Amoss's
+high-confidence identity, his immediate Coordinator of Information government
+assignment, his distinct last civilian employer at Gramtrade International
+Corporation, visible relationship and temporal qualifications, and claim-level
+citations. It preserves the indexed `Uliuss` spelling and documents the
+normalized name without silently altering the source row. It also checks nine
+dignified Box 13 or Box 14 archival-review outcomes, the two visibly ambiguous
+identity candidates, civilian, enlisted, commissioned, and indeterminate
+personnel categories, direct person and organization routes, and field-level
+serial masking. The complete desktop, phone, and tablet matrix passed 276 /
+276 with no remaining assertion or serious/critical axe failure.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

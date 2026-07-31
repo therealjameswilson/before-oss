@@ -678,3 +678,24 @@ datasets, and completed the static-site build. Across all 261 tracked files,
 255 matched byte-for-byte; the remaining six report files differed only in
 their expected `generated_at` timestamps. No substantive field, coverage
 count, public record, or generated site asset differed.
+
+Batch 077 completes the minimum online protocol for Vittorio Amoruso through
+Sever B. Amunrud on PDF page eight. The ten source rows were checked against
+the rendered page. Ulius Louis Amoss now has a high-confidence identity
+resolution supported by a visually inspected 1944 OSS memorandum and an
+independent University of Oregon finding aid. The memorandum documents
+Coordinator of Information as his immediate pre-OSS government assignment and
+Gramtrade International Corporation as his last civilian employer. Those
+relationships remain distinct, and no unsupported Gramtrade separation date is
+published. Vittorio Amoruso and Earl S. Amspacher retain ambiguous candidates;
+seven other identities remain unresolved. All nine route to Box 13 or Box 14
+review without namesake promotion.
+
+Fifty-one Python tests, all 276 browser and accessibility cases, the
+200-profile stratified audit, and the 24,189-page link check passed. The link
+checker inventoried 48,479 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`0abbffd3939a2f37b472e8b0831458518fdda1b4f2c99da4cf16705ecd431bda`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its redaction check passed, and its SHA-256 is
+`495248772e183760324c50ea6767a5f7137bdbcf0c74bdc8f1ccc259a48f39bc`.

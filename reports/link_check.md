@@ -612,3 +612,22 @@ local manifest SHA-256 is
 `bd9d8567cf38f1cd6f2b3a7f22b211901b755d85cce1ed520fe27b73cf05f7ce`.
 The deployed manifest's forbidden-field check passed, and the live profile
 pages preserve masked or explicitly unprinted serial fields.
+
+## Batch 077 local release check
+
+The rebuilt site contains direct, internally resolved routes for Vittorio
+Amoruso, the incomplete Amory row, John F. Amory, Harry A. Amos, Ulius Louis
+Amoss, Joseph D. Amott, Emille W. Amram, Earl S. Amspacher, Millicent V.
+Amstrutz, and Sever B. Amunrud, plus Coordinator of Information and Gramtrade
+International Corporation organization profiles. Amoss's immediate government
+assignment and distinct last civilian employer appear with high-confidence,
+explicit-immediate evidence and direct citation links. The other nine profiles
+retain Box 13 or Box 14 guidance and masked or explicitly unprinted serial
+fields; low-confidence Amoruso and Amspacher candidates are not published as
+facts.
+
+The complete local link checker passed all 24,189 HTML files and inventoried
+48,479 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`495248772e183760324c50ea6767a5f7137bdbcf0c74bdc8f1ccc259a48f39bc`.

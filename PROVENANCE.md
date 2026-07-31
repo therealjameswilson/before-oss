@@ -670,6 +670,39 @@ searches did not establish reliable identities or predecessor affiliations.
 All ten profiles therefore route to Box 13 review, with Nick's wartime identity
 published separately from the still-unresolved employer questions.
 
+## Page-eight Amoruso-through-Amunrud continuation, Batch 077
+
+`research/evidence-page-eight-amoruso-through-amunrud-pathways_batch-077_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Vittorio
+Amoruso-through-Sever B. Amunrud rows on PDF page eight. The bundle contains
+ten visually checked official index citations, ten terminal research attempts,
+ten person updates, two normalized organizations, two affiliations, and four
+claims supported by sixteen source records. It stores no live NARA Catalog
+response, credential, full service identifier, full copyrighted page, or
+sensitive modern-person detail.
+
+A visually inspected October 1944 OSS memorandum identifies the indexed
+Uliuss L. Amoss as Ulius L. Amoss and states that he was president of
+Gramtrade International Corporation when approached about joining the
+Coordinator of Information in November 1941. The memorandum documents his
+subsequent COI assignment. NARA's OSS history establishes the institutional
+transition from COI to OSS in June 1942, and a University of Oregon finding
+aid independently expands his name to Ulius Louis Amoss and corroborates his
+OSS role. These sources support a high-confidence identity resolution,
+Coordinator of Information as the immediate pre-OSS government assignment,
+and Gramtrade as the last civilian employer. The evidence does not establish a
+formal Gramtrade separation date, so none is asserted.
+
+An OSS Operational Groups roster contains a Vittorio Amoruso at a different
+printed grade, and a cemetery transcription contains an Earl S. Amspacher with
+World War II Army service but no unique OSS link. Those candidates remain
+low-confidence identity leads and are withheld from public facts. The
+incomplete Amory row and the remaining six people yield no reliable identity
+or pre-OSS affiliation after the official, exact-name, employment,
+newspaper/directory/obituary, institutional, and archival stages. All nine
+non-Amoss profiles retain actionable Box 13 or Box 14 archival-review
+guidance.
+
 ## Official reference material
 
 - NARA OSS personnel records:

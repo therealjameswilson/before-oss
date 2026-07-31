@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/118 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/119 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 197 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 198 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -6689,4 +6689,108 @@ test("Batch 076 preserves the Amigdalitis spelling variant and keeps all ten Ame
   await expect(page.locator("body")).toContainText(
     "Do not publish the diner chronology without a unique linkage",
   );
+});
+
+test("Batch 077 separates Amoss's COI assignment from his last civilian employer and keeps weaker candidates qualified", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["aec91c5a-3a6d-5639-9278-6d2f0ae83254", "Vittorio Amoruso", "13", "ambiguous"],
+    ["021dc894-630c-58fb-b4c8-0bab2db0e2ad", "[fnu] Amory", "13", "unresolved"],
+    ["2c20b6e1-a163-5748-8e6d-9b5296f7645b", "John F Amory", "13", "unresolved"],
+    ["215cd073-9134-567d-9f20-9d62baec8a59", "Harry A Amos", "13", "unresolved"],
+    ["95330480-b981-5dc4-bd07-6953abe0b294", "Joseph D Amott", "13", "unresolved"],
+    ["c2493a28-346b-5c4b-b6c9-6b53974f273e", "Emille W Amram", "14", "unresolved"],
+    ["496f2f82-b44d-5d63-b04e-f9d71087d649", "Earl S Amspacher", "14", "ambiguous"],
+    ["80353f69-feb0-54ca-b21f-daafb1dcb125", "Millicent V Amstrutz", "14", "unresolved"],
+    ["8aaa698b-e4a7-56f8-b303-4ac0f06af8e2", "Sever B Amunrud", "14", "unresolved"],
+  ];
+
+  for (const [personId, displayName, box, identityStatus] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/aec91c5a-3a6d-5639-9278-6d2f0ae83254/");
+  await expect(page.locator("body")).toContainText(
+    "different grade",
+  );
+  await expect(page.locator("body")).not.toContainText("Ginny I working party");
+
+  await page.goto("./people/2c0d50b2-1dfe-54fe-9310-cac56094b7a4/");
+  await expect(
+    page.getByRole("heading", { name: "Uliuss L Amoss", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Ulius Louis Amoss");
+  await expect(page.locator("body")).toContainText(
+    "Coordinator of Information",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Gramtrade International Corporation",
+  );
+  await expect(page.locator("body")).toContainText("government assignment");
+  await expect(page.locator("body")).toContainText(
+    "Last civilian employer before service",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "South Eastern European Section SA/B - SI: Review of Period December 1941 - March 1943",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /elia\.org\.gr\/userfiles\/pdf_archieve\//);
+  await expect(
+    page.getByRole("link", { name: "OSS Records", exact: true }),
+  ).toHaveAttribute("href", "https://www.archives.gov/research/military/ww2/oss");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••[A-Z0-9]{4}$/);
+
+  await page.goto(
+    "./organizations/7717ee63-f94b-59b6-a06e-5b0f44350338/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "Coordinator of Information",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Uliuss L Amoss", exact: true }),
+  ).toBeVisible();
+
+  await page.goto(
+    "./organizations/e7cfb64d-3379-5091-99c2-537478ef7726/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "Gramtrade International Corporation",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Uliuss L Amoss", exact: true }),
+  ).toBeVisible();
 });

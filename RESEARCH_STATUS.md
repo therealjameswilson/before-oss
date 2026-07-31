@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 587 people with a non-planned attempt | 23,941 person entities | 2.4519% |
-| Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
-| Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 534 people with an individual file-access/priority assessment | 23,941 person entities | 2.2305% |
+| Research-attempt coverage | 597 people with a non-planned attempt | 23,941 person entities | 2.4936% |
+| Verified-affiliation coverage | 198 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8270% |
+| Verified-employer coverage | 119 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4971% |
+| Archival-review coverage | 544 people with an individual file-access/priority assessment | 23,941 person entities | 2.2723% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 22
-- Identity status `high_confidence`: 249
+- Identity status `high_confidence`: 250
 - Identity status `probable`: 17
-- Identity status `ambiguous`: 17
+- Identity status `ambiguous`: 19
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,635
+- Identity status `unresolved`: 23,632
 
 ## Personnel categories
 
@@ -46,15 +46,15 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,354
+- `not_started`: 23,344
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 22
 - `occupation_only_found`: 23
-- `requires_archival_review`: 323
+- `requires_archival_review`: 332
 - `completed`: 34
-- `verified_employer_found`: 120
+- `verified_employer_found`: 121
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -62,15 +62,15 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 316
+- Reviewed-web terminal-protocol attempts recorded: 326
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 281 across 267 people; 15 additional
+- Saved `source_reviewed` outcomes: 282 across 268 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,611
+- Total recorded attempts/plans: 1,621
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 262; 250 have at least one public-eligible
+- People with saved reviewed claims: 264; 251 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -438,13 +438,28 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   ambiguous. The other eight identities remain unresolved. All ten profiles
   route to Box 13 review, and no namesake, postwar career, or unit-level
   chronology is promoted to a pre-OSS affiliation.
-- Published affiliations: 400
-- Database claims: 698; public-eligible claims: 683 (97 confirmed, 515 high, 71
-  medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 904; public source export: 608; unique source documents: 565
-- Canonical organizations: 241 private and 239 public
+  Batch 077 continued through Vittorio Amoruso, the incomplete Amory row, John
+  F. Amory, Harry A. Amos, Uliuss L. Amoss, Joseph D. Amott, Emille W. Amram,
+  Earl S. Amspacher, Millicent V. Amstrutz, and Sever B. Amunrud on PDF page
+  eight. A visually inspected 1944 OSS memorandum and a corroborative
+  University of Oregon finding aid establish the indexed Amoss as Ulius Louis
+  Amoss at high identity confidence. The memorandum documents his transition
+  from the presidency of Gramtrade International Corporation into the
+  Coordinator of Information in November 1941. The site therefore presents
+  the Coordinator of Information as his immediate pre-OSS government
+  assignment and Gramtrade as his last civilian employer, without inventing a
+  formal separation date. Specialist-roster and cemetery candidates for
+  Vittorio Amoruso and Earl S. Amspacher lack the unique linkage needed for
+  publication and remain ambiguous. The other seven identities remain
+  unresolved. Nine profiles route to Box 13 or Box 14 review without namesake
+  promotion.
+- Published affiliations: 402
+- Database claims: 702; public-eligible claims: 686 (97 confirmed, 518 high, 71
+  medium); 16 low-confidence claims concerning 13 people are withheld
+- Citation records: 920; public source export: 612; unique source documents: 571
+- Canonical organizations: 242 private and 240 public
 - Conflicts: 1
-- NARA pull-list rows: 23,858
+- NARA pull-list rows: 23,857
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -567,6 +582,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-six-alle
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-seven-alley-through-allison-pathways_batch-074_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ambrose-through-ames-pathways_batch-075_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ames-through-amon-pathways_batch-076_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amoruso-through-amunrud-pathways_batch-077_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
