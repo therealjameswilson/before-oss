@@ -1139,6 +1139,39 @@ identifier matches. Two consecutive static builds produced the identical
 site-tree SHA-256
 `98c04d4c35b3310b6e534d0aec5ef2dc59965a6bfedc853c33af3741a2767450`.
 
+## Batch 097 production deployment
+
+GitHub Actions test workflow
+[30640638824](https://github.com/therealjameswilson/before-oss/actions/runs/30640638824)
+and GitHub Pages deployment
+[30640637581](https://github.com/therealjameswilson/before-oss/actions/runs/30640637581)
+for the page-twelve Arden-through-Arida release `4119aa3` completed
+successfully.
+
+Live checks returned HTTP 200 for all 22 tested publication routes: the
+homepage, personnel directory, organization directory, analysis, methodology,
+sources, downloads, all ten Batch 097 person profiles, and the United States
+Army, Brooklyn College, Massachusetts Institute of Technology, Clark
+University, and National and Kapodistrian University of Athens organization
+profiles. After substituting both plain and URL-encoded production canonical
+hosts, every route matched the audited local HTML byte-for-byte.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 792
+people with non-planned research attempts, 220 verified-affiliation people,
+127 verified-employer people, 740 archival-review assessments, 764 published
+claims, and 713 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 256, 438, and 713 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`20864475d9572f30c923fbd073c0d29ea8d29f6ad52fe0e4f0eca2bf2429edae`.
+The deployed manifest's forbidden-field check passed. The 87 audited live
+HTML and manifest-listed artifacts therefore inherit the local
+boundary-aware result: zero full matches among all 12,919 nontrivial
+normalized private identifiers.
+
 ## Batch 096 local release check
 
 The rebuilt site contains direct, internally resolved routes for Carmela E.

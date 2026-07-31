@@ -1010,3 +1010,10 @@ assertions against private research notes that are intentionally not rendered;
 those checks were aligned with visible evidence and archival guidance. The
 focused desktop, phone, and tablet rerun passed 6 / 6. The complete final
 matrix passed 336 / 336 with no assertion or serious/critical axe failure.
+
+GitHub test workflow
+[30640638824](https://github.com/therealjameswilson/before-oss/actions/runs/30640638824)
+repeated the complete research and site matrix for release `4119aa3` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.

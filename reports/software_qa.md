@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30629383414](https://github.com/therealjameswilson/before-oss/actions/runs/30629383414)
-  for Batch 093 release `01bf2b6`: **passed**
+  [30640638824](https://github.com/therealjameswilson/before-oss/actions/runs/30640638824)
+  for Batch 097 release `4119aa3`: **passed**
 - GitHub Pages deployment workflow
-  [30629383302](https://github.com/therealjameswilson/before-oss/actions/runs/30629383302)
-  for Batch 093 release `01bf2b6`: **passed**
-- Production route smoke tests: **18 / 18 returned HTTP 200 and the expected
-  content marker, data value, row count, or redaction state**
-- Production redaction scan: **0 full private-identifier matches across 83 live
+  [30640637581](https://github.com/therealjameswilson/before-oss/actions/runs/30640637581)
+  for Batch 097 release `4119aa3`: **passed**
+- Production route smoke tests: **22 / 22 returned HTTP 200 and matched the
+  audited local HTML after canonical-host normalization**
+- Production redaction scan: **0 full private-identifier matches across 87 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `2c9d9e2092753ccff6054ce07746a261883a7cfce015ab41be1300241d3210d7`
+  `20864475d9572f30c923fbd073c0d29ea8d29f6ad52fe0e4f0eca2bf2429edae`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1561,6 +1561,22 @@ claims. Coverage distinguishes 792 people with a non-planned research attempt,
 220 people with verified affiliation evidence, 127 people with verified
 employment or self-employment evidence, and 740 people whose archival-review
 need has been assessed. No authenticated NARA Catalog request was made.
+
+The Batch 097 production audit followed successful GitHub test workflow
+[30640638824](https://github.com/therealjameswilson/before-oss/actions/runs/30640638824)
+and Pages workflow
+[30640637581](https://github.com/therealjameswilson/before-oss/actions/runs/30640637581)
+for release `4119aa3`. All 22 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The 87 audited live artifacts therefore inherit the
+zero-match result from the exhaustive local private-identifier scan.
+
+The workflows emitted one non-failing platform annotation: several pinned
+GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
+by the runner to Node.js 24. The repository's test job explicitly uses Node.js
+24, and the annotation did not affect the successful build or test results.
 
 ## Batch 096 local release QA
 
