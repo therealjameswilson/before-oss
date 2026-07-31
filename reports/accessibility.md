@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 264 / 264 browser cases.**
+**PASS - 288 / 288 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-118-person employer measure is labeled separately from the 197-person broader
+120-person employer measure is labeled separately from the 200-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -738,3 +738,13 @@ underidentified correspondence lead remains unpublished. The complete
 desktop, phone, and tablet matrix passed 285 / 285 with no remaining assertion
 or serious/critical axe failure; the targeted Batch 080 test passed a separate
 3 / 3 three-viewport rerun.
+
+The Batch 081 regression checks the next contiguous sequence from Eugene N.
+Anderson through Howard B. Anderson on PDF page nine. It verifies ten distinct,
+dignified Box 15 archival-review profiles; masked or explicitly unprinted
+serial fields; civilian professional-grade, enlisted Army, and commissioned
+Naval Reserve classifications; and the visible printed rank text. It also
+confirms that the underidentified 1945 State Department, specialist-unit, and
+other namesake leads remain absent from public facts and citations. The
+complete desktop, phone, and tablet matrix passed 288 / 288 with no remaining
+assertion or serious/critical axe failure.

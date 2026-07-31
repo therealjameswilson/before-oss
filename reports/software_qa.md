@@ -5,36 +5,38 @@ Run: 2026-07-30 UTC
 - Python unit tests: **51 / 51 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,186 pages**
-- Internal link check: **24,186 HTML files passed**
-- Browser and accessibility suite: **264 / 264 passed**
+- Static production build: **24,193 pages**
+- Internal link check: **24,193 HTML files passed**
+- Browser and accessibility suite: **288 / 288 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`68d057827c5cb90b40df7ddeec0a7ea6897f089ad7299cc0e685e75841ea332d`)
+  (`9b8e7c56e93bae326ad881d4cf3ec83e7b35f276c89f0465146dc1046062d2d7`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 73 evidence files: **75 / 75 tracked
-  public and generated files matched**.
+  checkpoints, review decisions, and all 82 evidence files: **260 / 266
+  tracked files matched**; the other six report files differed only in their
+  expected generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `d59eca66aeb1f17ecc609fd85e280a3638dc8fa2f758db3f9b3739c5cb2e86df`
+  `fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
-  private identifiers: **0 unexpected full-number matches** in **24,330**
+  private identifiers, reduced to **12,919** formatting-equivalent comparison
+  tokens: **0 unexpected full-number matches** in **24,337**
   public text assets, generated site data, compressed mirrors, or production
   HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **592** public records representing **547** unique documents
-- Private citation records: **856**
-- Published, qualified affiliations: **397**
-- Published claims: **676**
-- Withheld low-confidence evidence: **15 claims concerning 12 people**
-- Verified-affiliation metric: **197** people with confirmed/high published
+- Reviewed public sources: **629** public records representing **586** unique documents
+- Private citation records: **973**
+- Published, qualified affiliations: **407**
+- Published claims: **697**
+- Withheld low-confidence evidence: **19 claims concerning 16 people**
+- Verified-affiliation metric: **200** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **118** people with confirmed/high published
+- Verified-employer metric: **120** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -845,3 +847,36 @@ content checks, all 65 deployed manifest assets matched the local release, all
 eight checked statistics and the five public download row counts matched, and
 the field-aware scan found zero unexpected full private-identifier matches
 across 81 deployed artifacts.
+
+Batch 081 completes the minimum online protocol for Eugene N. Anderson through
+Howard B. Anderson on PDF page nine. All ten identities remain unresolved and
+route to Box 15 review. A later exact-name State Department record for Eugene
+N. Anderson and Army, Naval Reserve, veteran, obituary, directory, and
+institutional namesakes for the other common names remain rejected because
+they do not meet the enhanced identity threshold. No namesake employer,
+occupation, organization, affiliation, or claim from this batch was promoted
+to a public fact.
+
+Fifty-one Python tests, all 288 browser and accessibility cases, the
+200-profile stratified audit, and the 24,193-page link check passed. The link
+checker inventoried 48,493 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`9b8e7c56e93bae326ad881d4cf3ec83e7b35f276c89f0465146dc1046062d2d7`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`.
+A field-aware local scan assessed 12,931 distinct digit-bearing normalized
+private identifiers, reduced them to 12,919 formatting-equivalent comparison
+tokens, and found zero unexpected full-number matches across 24,337 public
+text, compressed-mirror, generated-data, and production HTML assets.
+
+A clean-archive Batch 081 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,660 research attempts, replayed all 80 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,193-page static-site
+build. Across all 266 tracked files, 260 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero
+errors, and no substantive field, coverage count, public record, or generated
+site asset differed.

@@ -4,15 +4,15 @@ Run: 2026-07-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,186 HTML files. Every relative
+**PASS.** The production build contains 24,193 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 237 organization profiles, and the
+The build includes 23,941 person profiles, 244 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,463 unique external URLs for separate live
+The checker inventoried 48,493 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -806,3 +806,20 @@ The deployed manifest's forbidden-field check passed. A field-aware comparison
 of all digit-bearing normalized private identifiers against 81 live HTML,
 data, compressed-mirror, and download artifacts returned zero unexpected
 full-number matches.
+
+## Batch 081 local release check
+
+The rebuilt site contains direct, internally resolved routes for Eugene N.
+Anderson, Frederick F. Anderson, George W. Anderson, George H. Anderson,
+Gordon Anderson, Harold Anderson, Henry A. Anderson, Henry J. Anderson, Howard
+M. Anderson, and Howard B. Anderson. All ten profiles visibly retain
+unresolved identity status, Box 15 archival-review guidance, the standard
+evidence-limited employer statement, and masked or explicitly unprinted serial
+fields. The rejected 1945 State Department and other underidentified namesake
+leads do not appear as public citations or claims.
+
+The complete local link checker passed all 24,193 HTML files and inventoried
+48,493 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`.
