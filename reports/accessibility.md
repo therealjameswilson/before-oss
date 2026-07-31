@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 321 / 321 browser cases.**
+**PASS - 324 / 324 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-123-person employer measure is labeled separately from the 209-person broader
+123-person employer measure is labeled separately from the 211-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -890,3 +890,16 @@ Peter G. Anton, and James Antonakis profiles label the strongly date-bounded
 organization route links all three people. The targeted desktop, phone, and
 tablet run passed 6 / 6. The complete final matrix passed 321 / 321 with no
 assertion or serious/critical axe failure.
+
+The Batch 093 regression checks the next contiguous sequence from Charlote
+Antonelli through Antranig Apkarian across PDF pages eleven and twelve. It
+verifies all ten direct profiles, Box 19 or 20 archival guidance, field-level
+serial masking, and four visibly unresolved identities. It also verifies that
+the three probable identity candidates remain qualified without invented
+employers; that Anargyros Antonopoulos and Rudolf Anzbock have separate,
+date-bounded military pathways; and that Ivo Antunovic's merchant-sea
+occupation and professional affiliation do not become a named civilian
+employer. The two organization routes link the intended people without
+collapsing military and professional relationships. The targeted desktop,
+phone, and tablet run passed 6 / 6. The complete final matrix passed 324 / 324
+with no assertion or serious/critical axe failure.

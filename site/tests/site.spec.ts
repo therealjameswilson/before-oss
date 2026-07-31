@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/123 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 209 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 211 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8238,6 +8238,145 @@ test("Batch 092 publishes three bounded Greek Battalion pathways and preserves s
   ]) {
     await expect(
       page.getByRole("link", { name: displayName, exact: true }),
+    ).toBeVisible();
+  }
+});
+
+test("Batch 093 separates confirmed, qualified, occupational, military, and unresolved pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["18861fa8-e7c8-5515-a8cc-7d61204107ca", "Charlote Antonelli", "19"],
+    ["fef6c271-c8c8-5687-abd8-711bab4e3e71", "Anargyros Antonopoulos", "19"],
+    ["231d2f77-05bb-59d4-b074-3dfb7730d1f6", "Anthony Antony", "19"],
+    ["923a5ed8-6d70-58d7-8452-cbf3fbd05dc0", "Ivo Antunovic", "19"],
+    ["038cb77b-0343-5a08-a616-7351308cd4ba", "Rudolf Anzbock", "19"],
+    ["7611975b-3f56-50cf-929e-99252df7490f", "Dominic J Anzevino", "19"],
+    ["eeffff8e-eb5b-5cc0-8636-70d7475fad63", "Kukuji Aoki", "20"],
+    ["55597bcd-bb94-5723-b3de-1799e59ab107", "Harry E Apaar", "20"],
+    ["af0b35d6-5d84-5a83-856e-357eb126d1a5", "Zumruth Apcar", "20"],
+    ["3c406464-880e-58ad-8078-c1448ce0e41d", "Antranig Apkarian", "20"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b(?!-)/);
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "18861fa8-e7c8-5515-a8cc-7d61204107ca",
+    "231d2f77-05bb-59d4-b074-3dfb7730d1f6",
+    "eeffff8e-eb5b-5cc0-8636-70d7475fad63",
+    "55597bcd-bb94-5723-b3de-1799e59ab107",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  for (const [personId, evidenceText] of [
+    [
+      "7611975b-3f56-50cf-929e-99252df7490f",
+      "probably the Army veteran and OSS member described in a Vindicator family-history article",
+    ],
+    [
+      "af0b35d6-5d84-5a83-856e-357eb126d1a5",
+      "probably Ruth (Zumruth) Apcar",
+    ],
+    [
+      "3c406464-880e-58ad-8078-c1448ce0e41d",
+      "probably the military-age Fresno registrant",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("probable", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(evidenceText);
+  }
+
+  await page.goto("./people/038cb77b-0343-5a08-a616-7351308cd4ba/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("85th Mountain Infantry Regiment");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("strongly date bounded");
+  await expect(page.locator("body")).toContainText(
+    "busboy, screw-factory machinist, and hatmaker",
+  );
+
+  await page.goto("./people/fef6c271-c8c8-5687-abd8-711bab4e3e71/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("122nd Infantry Battalion (Separate)");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+
+  await page.goto("./people/923a5ed8-6d70-58d7-8452-cbf3fbd05dc0/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "merchant sea captain commanding the steamship Sveti Duje",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Yugoslav Seamen's Club (New York)");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("professional affiliation");
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "03496176-10b8-5ed6-bd73-d96782f0107f",
+      "85th Mountain Infantry Regiment",
+      "Rudolf Anzbock",
+    ],
+    [
+      "a2c18964-b826-5795-9ce3-1119c9b4e939",
+      "Yugoslav Seamen's Club (New York)",
+      "Ivo Antunovic",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
     ).toBeVisible();
   }
 });
