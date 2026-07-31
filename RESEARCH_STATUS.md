@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 636 people with a non-planned attempt | 23,941 person entities | 2.6565% |
+| Research-attempt coverage | 646 people with a non-planned attempt | 23,941 person entities | 2.6983% |
 | Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
 | Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 583 people with an individual file-access/priority assessment | 23,941 person entities | 2.4352% |
+| Archival-review coverage | 593 people with an individual file-access/priority assessment | 23,941 person entities | 2.4769% |
 
 ## Extraction and identity
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,305
+- `not_started`: 23,295
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 23
 - `occupation_only_found`: 26
-- `requires_archival_review`: 367
+- `requires_archival_review`: 377
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -62,12 +62,12 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 365
+- Reviewed-web terminal-protocol attempts recorded: 375
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 288 across 273 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,660
+- Total recorded attempts/plans: 1,670
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 273; 257 have at least one public-eligible
@@ -512,10 +512,23 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   obituary, veteran, institutional, and directory namesakes for the remaining
   common names likewise failed the enhanced disambiguation rule. No namesake
   occupation, employer, or affiliation from this batch is published as fact.
+  Batch 082 continued through Howell W. Anderson, Jack W. Anderson, James F.
+  Anderson, James R. Anderson, James T. Anderson, James W. Anderson, Jean R.
+  Anderson, Jean C. Anderson, John W. Anderson, and John H. Anderson on PDF
+  page nine. All ten identities remain unresolved after the minimum online
+  protocol and route to Box 15 review. Exact-name military, veteran, casualty,
+  obituary, institutional, and occupational candidates failed the enhanced
+  common-name standard because they lacked matching private identifiers, OSS
+  links, compatible rank chronology, or a second corroborating identifier.
+  The rejected leads include a postwar Tennessee engineer, a World War II
+  infantry officer, an armored-division veteran, an Air Force photographic-
+  reconnaissance commander, and a Tenth Air Force captain. None of their
+  employers, organizations, assignments, or occupations is published as a
+  fact about the indexed people.
 - Published affiliations: 407
 - Database claims: 716; public-eligible claims: 697 (97 confirmed, 524 high, 76
   medium); 19 low-confidence claims are withheld
-- Citation records: 973; public source export: 629; unique source documents: 586
+- Citation records: 983; public source export: 629; unique source documents: 586
 - Canonical organizations: 246 private and 244 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
@@ -646,6 +659,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-am
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ancrum-through-page-nine-anderson-pathways_batch-079_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-archival-pathways_batch-080_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-continuation-archival-pathways_batch-081_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-james-and-john-archival-pathways_batch-082_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

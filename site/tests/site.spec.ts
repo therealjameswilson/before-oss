@@ -7181,3 +7181,78 @@ test("Batch 081 preserves the next ten Anderson records, classifications, and re
   await page.goto("./people/9ee20707-4b4c-58c9-938c-2fecebb8c295/");
   await expect(page.locator("body")).not.toContainText("Ghost Army");
 });
+
+test("Batch 082 preserves ten common-name Anderson records without promoting rejected candidates", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8fd5567f-d023-5d87-8b4c-7338aab9d14b", "Howell W Anderson"],
+    ["a58cabcc-6d90-588c-985c-fc4356bdab32", "Jack W Anderson"],
+    ["4b7f7799-a20f-5d06-a781-2f4fd2c45c71", "James F Anderson"],
+    ["fc8904c4-0d17-5edc-aa9f-91571f7b0d67", "James R Anderson"],
+    ["22bd3dcb-04fe-56b9-acb5-cff3962bb26d", "James T Anderson"],
+    ["3a635a7a-518c-5a72-97dd-22a48b363316", "James W Anderson"],
+    ["770688b5-266e-55bc-9999-6ad5edbc0cbe", "Jean R Anderson"],
+    ["146c2532-3009-5bb8-ac4f-a2bcdd79c021", "Jean C Anderson"],
+    ["c32c4c59-ef99-5d11-ad08-39d31af01d20", "John W Anderson"],
+    ["3da80bac-7b92-5894-a711-94fb3c1c6151", "John H Anderson"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("15", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/4b7f7799-a20f-5d06-a781-2f4fd2c45c71/");
+  await expect(page.locator("body")).toContainText(
+    "civilian professional or administrative grade",
+  );
+
+  for (const personId of [
+    "22bd3dcb-04fe-56b9-acb5-cff3962bb26d",
+    "c32c4c59-ef99-5d11-ad08-39d31af01d20",
+    "3da80bac-7b92-5894-a711-94fb3c1c6151",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "commissioned army officer",
+    );
+  }
+
+  for (const [personId, rejectedOrganization] of [
+    [
+      "a58cabcc-6d90-588c-985c-fc4356bdab32",
+      "Tennessee Valley Authority",
+    ],
+    [
+      "fc8904c4-0d17-5edc-aa9f-91571f7b0d67",
+      "1st Armored Division",
+    ],
+    [
+      "3a635a7a-518c-5a72-97dd-22a48b363316",
+      "8th Photographic Reconnaissance Group",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).not.toContainText(
+      rejectedOrganization,
+    );
+  }
+});

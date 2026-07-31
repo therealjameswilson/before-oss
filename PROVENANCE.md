@@ -852,6 +852,40 @@ identified in the accessible sources reviewed; none implies that the person
 had no prior employment. Full service identifiers and sensitive modern-person
 details remain private.
 
+## Page-nine Anderson James-and-John archival pathways, Batch 082
+
+`research/evidence-page-nine-anderson-james-and-john-archival-pathways_batch-082_2026-07-30.json`
+records the minimum online research protocol for ten contiguous rows from
+Howell W. Anderson through John H. Anderson on PDF page nine. It contains ten
+visually checked official-index citations, ten terminal research attempts, and
+ten person updates. It adds no organization, affiliation, or employment claim
+because no candidate met the project's identity and temporal standards. It
+stores no live NARA Catalog response, credential, full service identifier,
+full copyrighted page, or sensitive modern-person detail.
+
+The reviewed rows preserve the distinctions among civilian professional-grade
+employees James F. Anderson and Jean C. Anderson; enlisted Army personnel Jack
+W. Anderson and James R. Anderson; commissioned Army officers James T.
+Anderson, John W. Anderson, and John H. Anderson; and Howell W. Anderson,
+James W. Anderson, and Jean R. Anderson, whose personnel categories remain
+indeterminate.
+
+The staged searches rejected several exact-name candidates rather than
+silently attaching their careers to common-name index rows. These included a
+postwar Tennessee electrical engineer, a World War II infantry officer, an
+armored-division veteran, an Air Force photographic-reconnaissance commander,
+a Tenth Air Force captain, and later-war or foreign military namesakes. Each
+candidate lacked some combination of a matching private identifier, OSS
+connection, compatible rank chronology, and a second corroborating historical
+identifier. The rejected organizations and occupations were not promoted to
+claims or public citations.
+
+All ten identities remain unresolved and retain dignified Box 15 archival
+guidance. Each profile states that no reliable pre-OSS employer has yet been
+identified in the accessible sources reviewed; none implies that the person
+had no prior employment. Full service identifiers and sensitive modern-person
+details remain private.
+
 ## Official reference material
 
 - NARA OSS personnel records:
