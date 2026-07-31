@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 547 people with a non-planned attempt | 23,941 person entities | 2.2848% |
+| Research-attempt coverage | 557 people with a non-planned attempt | 23,941 person entities | 2.3266% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 494 people with an individual file-access/priority assessment | 23,941 person entities | 2.0634% |
+| Archival-review coverage | 504 people with an individual file-access/priority assessment | 23,941 person entities | 2.1052% |
 
 ## Extraction and identity
 
@@ -45,13 +45,13 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,394
+- `not_started`: 23,384
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 21
 - `occupation_only_found`: 21
-- `requires_archival_review`: 286
+- `requires_archival_review`: 296
 - `completed`: 34
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
@@ -61,12 +61,12 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 276
+- Reviewed-web terminal-protocol attempts recorded: 286
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 277 across 263 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,571
+- Total recorded attempts/plans: 1,581
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 258; 246 have at least one public-eligible
@@ -374,10 +374,24 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
   to an identity or employer claim. The batch preserves four civilian grades,
   three enlisted Army classifications, one commissioned Army classification,
   and two indeterminate personnel statuses without guessing from names.
+  Batch 073 continued through Vernon C. Allen, Walter P. Allen, William H.
+  Allen, Carey W. Allender, Josephine S. Allenovitch, Clifford O. Allenson,
+  Richard M. Allenson, Arthur J. Alley, Dorothy G. Alley, and John N. Alley on
+  PDF page six. All ten remain unresolved after the staged official-context,
+  exact-name OSS, employment/occupation, obituary, newspaper, directory,
+  institutional, military where applicable, and archival protocol. Vernon,
+  Walter, and William route to Box 10; the remaining seven route to Box 11.
+  The review preserves but does not promote plausible career-Army,
+  Pennsylvania obituary-index, West Virginia family, Texas
+  medical-technologist, ambiguous naval-OCR, cemetery, and directory
+  namesakes. The batch preserves five enlisted Army classifications, two
+  civilian grades, one commissioned Army classification, and two
+  indeterminate personnel statuses without inferring postwar work, military
+  service, or a pre-OSS employer from an uncorroborated name.
 - Published affiliations: 397
 - Database claims: 691; public-eligible claims: 676 (96 confirmed, 512 high, 68
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 846; public source export: 592; unique source documents: 546
+- Citation records: 856; public source export: 592; unique source documents: 547
 - Canonical organizations: 239 private and 237 public
 - Conflicts: 0
 - NARA pull-list rows: 23,858
@@ -499,6 +513,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-five-six
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-pathways_batch-070_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-identity-and-agency-pathways_batch-071_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-two-pathways_batch-072_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-through-alley-pathways_batch-073_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

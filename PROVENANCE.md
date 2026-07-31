@@ -543,6 +543,29 @@ match. The bundle retains only project-authored rejection reasons and directs
 all ten profiles to Box 10. No employer, affiliation, or resolved identity was
 invented from these namesakes.
 
+## Page-six Allen-through-Alley continuation, Batch 073
+
+`research/evidence-page-six-allen-through-alley-pathways_batch-073_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Vernon C.
+Allen-through-John N. Alley rows on PDF page six. The bundle contains ten
+visually checked official index citations, ten terminal research attempts, and
+ten person updates. It stores no live NARA Catalog response, credential, full
+service identifier, copyrighted page, or sensitive modern-person detail.
+
+The protocol reviewed official NARA index context, CIA Reading Room discovery,
+exact-name and punctuation variants, employment and occupation searches,
+obituaries, Library of Congress newspaper discovery, directories,
+institutional sources, military or officer sources where applicable, and
+archival leads. A career-Army Walter Paul Allen, a West Virginia Carey
+Allender, a Pennsylvania Josephine Allenovitch Smutny, a Texas medical
+technologist named Clifford O. Allenson, ambiguous newspaper OCR concerning
+Richard M. Allenson, and generic military, cemetery, and directory namesakes
+were withheld because none supplied the required OSS link and corroborating
+historical identifiers. The bundle directs the first three profiles to Box 10
+and the remaining seven to Box 11. No postwar occupation, ambiguous military
+status, employer, affiliation, or resolved identity was inferred from these
+leads.
+
 ## Official reference material
 
 - NARA OSS personnel records:

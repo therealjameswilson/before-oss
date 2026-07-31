@@ -4,7 +4,7 @@ Run: 2026-07-30 UTC
 
 ## Result
 
-**PASS - 261 / 261 browser cases.**
+**PASS - 264 / 264 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -636,6 +636,14 @@ archival-review outcomes; civilian, enlisted, commissioned, and indeterminate
 personnel categories; direct profile routes; actionable next steps; and
 field-level serial masking. The complete desktop, phone, and tablet matrix
 passed 261 / 261 with no remaining assertion or serious/critical axe failure.
+
+The Batch 073 regression checks the contiguous Vernon C. Allen-through-John N.
+Alley sequence on PDF page six. It verifies ten dignified Box 10 or Box 11
+archival-review outcomes; enlisted, civilian, commissioned, and indeterminate
+personnel categories; direct profile routes; cautious candidate-comparison
+guidance; and field-level serial masking. The complete desktop, phone, and
+tablet matrix passed 264 / 264 with no remaining assertion or serious/critical
+axe failure.
 
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

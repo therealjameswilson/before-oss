@@ -7,18 +7,18 @@ Run: 2026-07-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,186 pages**
 - Internal link check: **24,186 HTML files passed**
-- Browser and accessibility suite: **261 / 261 passed**
+- Browser and accessibility suite: **264 / 264 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`c76bee06a65e27714e0a9faac214767643c99265b965978650b119bef2c80c5a`)
+  (`68d057827c5cb90b40df7ddeec0a7ea6897f089ad7299cc0e685e75841ea332d`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 72 evidence files: **75 / 75 tracked
+  checkpoints, review decisions, and all 73 evidence files: **75 / 75 tracked
   public and generated files matched**.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `5e9eeb52b10246a48d717be7874e3f38823352510d6908a104908c2b6a0439b9`
+  `d59eca66aeb1f17ecc609fd85e280a3638dc8fa2f758db3f9b3739c5cb2e86df`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -27,8 +27,8 @@ Run: 2026-07-30 UTC
   public text assets, generated site data, compressed mirrors, or production
   HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **592** public records representing **546** unique documents
-- Private citation records: **846**
+- Reviewed public sources: **592** public records representing **547** unique documents
+- Private citation records: **856**
 - Published, qualified affiliations: **397**
 - Published claims: **676**
 - Withheld low-confidence evidence: **15 claims concerning 12 people**
@@ -38,18 +38,18 @@ Run: 2026-07-30 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30590072861](https://github.com/therealjameswilson/before-oss/actions/runs/30590072861)
-  for Batch 071 release `760a954`: **passed**
+  [30591555486](https://github.com/therealjameswilson/before-oss/actions/runs/30591555486)
+  for Batch 072 release `f472fe0`: **passed**
 - GitHub Pages deployment workflow
-  [30590072866](https://github.com/therealjameswilson/before-oss/actions/runs/30590072866)
-  for Batch 071 release `760a954`: **passed**
-- Production route smoke tests: **17 / 17 returned HTTP 200 and the expected
+  [30591555503](https://github.com/therealjameswilson/before-oss/actions/runs/30591555503)
+  for Batch 072 release `f472fe0`: **passed**
+- Production route smoke tests: **16 / 16 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
 - Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `b53b109088155e4fc9e5d1a83f3848a22d7f16653482028b89bf2e60265612e7`
+  `5e9eeb52b10246a48d717be7874e3f38823352510d6908a104908c2b6a0439b9`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -582,3 +582,14 @@ claims. The regression checks all ten direct routes, four civilian grades,
 three enlisted classifications, one commissioned classification, two
 indeterminate statuses, Box 10 guidance, and field-level serial masking across
 three viewports.
+
+Batch 073 completes the minimum online protocol for Vernon C. Allen through
+John N. Alley on PDF page six. All ten profiles remain unresolved after the
+staged official, exact-name, employment, obituary, newspaper, directory,
+institutional, military where applicable, and archival protocol. Plausible
+career-Army, obituary-index, family, medical-technologist, ambiguous newspaper,
+cemetery, and directory namesakes remain project-authored private review notes
+and are not public claims. The regression checks all ten direct routes, five
+enlisted classifications, two civilian grades, one commissioned
+classification, two indeterminate statuses, Box 10 or Box 11 guidance, and
+field-level serial masking across three viewports.

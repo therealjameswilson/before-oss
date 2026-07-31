@@ -6345,3 +6345,60 @@ test("Batch 072 preserves ten Marian Allen through Thomas Allen profiles as expl
     "wartime personnel status",
   );
 });
+
+test("Batch 073 preserves ten Vernon Allen through John Alley profiles as explicit Box 10 or Box 11 archival-review outcomes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1486f9df-c968-5690-bd5e-a662996aa5a2", "Vernon C Allen", "enlisted army personnel", "10"],
+    ["a4d21520-3273-5bfa-87ab-e220a9409e22", "Walter P Allen", "enlisted army personnel", "10"],
+    ["066f8af2-ba44-5e37-9593-9af30d53a1ec", "William H Allen", "enlisted army personnel", "10"],
+    ["78096fef-2ff5-5b78-8027-fe72cdbd854d", "Carey W Allender", "enlisted army personnel", "11"],
+    ["2b0d3006-83c8-5ff4-9b0b-3ab105391217", "Josephine S Allenovitch", "civilian professional or administrative grade", "11"],
+    ["340937e8-bf68-502d-ae29-e5d0ea2388fe", "Clifford O Allenson", "unknown or indeterminate", "11"],
+    ["a4672508-2a68-52eb-95f5-2e12b7284dcf", "Richard M Allenson", "unknown or indeterminate", "11"],
+    ["434a8e57-51d1-5039-ac23-18e740e0486a", "Arthur J Alley", "enlisted army personnel", "11"],
+    ["b3aeac1f-0def-5a9d-bcfd-7320be81696c", "Dorothy G Alley", "civilian professional or administrative grade", "11"],
+    ["ef113512-d2aa-561b-a723-3e601295dd76", "John N Alley", "commissioned army officer", "11"],
+  ];
+
+  for (const [personId, displayName, personnelCategory, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(personnelCategory);
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/a4d21520-3273-5bfa-87ab-e220a9409e22/");
+  await expect(page.locator("body")).toContainText(
+    "compare the Walter Paul Allen candidate only",
+  );
+
+  await page.goto("./people/2b0d3006-83c8-5ff4-9b0b-3ab105391217/");
+  await expect(page.locator("body")).toContainText(
+    "compare the Pennsylvania namesake only",
+  );
+
+  await page.goto("./people/a4672508-2a68-52eb-95f5-2e12b7284dcf/");
+  await expect(page.locator("body")).toContainText(
+    "inspect the 1946 newspaper image only",
+  );
+
+  await page.goto("./people/ef113512-d2aa-561b-a723-3e601295dd76/");
+  await expect(page.locator("body")).toContainText(
+    "official officer records",
+  );
+});

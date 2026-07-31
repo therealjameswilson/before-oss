@@ -417,3 +417,41 @@ civilian, enlisted, commissioned, or indeterminate personnel classification,
 and masked or explicitly unprinted serial fields. The complete local link
 checker passed all 24,186 HTML files and inventoried 48,463 unique external
 URLs.
+
+## Batch 072 production deployment
+
+GitHub Actions test workflow
+[30591555486](https://github.com/therealjameswilson/before-oss/actions/runs/30591555486)
+and GitHub Pages deployment
+[30591555503](https://github.com/therealjameswilson/before-oss/actions/runs/30591555503)
+for the page-six Allen Batch 072 release `f472fe0` completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 072 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 547 people with non-planned
+research attempts, 197 verified-affiliation people, 118 verified-employer
+people, 494 archival-review assessments, 676 published claims, and 592 public
+source records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 237, 397, and 592 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256 and the
+local files byte-for-byte. The deployed and local manifest SHA-256 is
+`5e9eeb52b10246a48d717be7874e3f38823352510d6908a104908c2b6a0439b9`.
+A field-aware comparison of all 12,931 digit-bearing normalized private
+identifiers against 83 live HTML, data, compressed-mirror, manifest, and
+download artifacts returned zero unexpected full-identifier matches; all
+public serial fields were either masked or explicitly not printed.
+
+## Batch 073 local release check
+
+The rebuilt site contains direct, internally resolved routes for Vernon C.
+Allen, Walter P. Allen, William H. Allen, Carey W. Allender, Josephine S.
+Allenovitch, Clifford O. Allenson, Richard M. Allenson, Arthur J. Alley,
+Dorothy G. Alley, and John N. Alley. Each profile retains a dignified Box 10 or
+Box 11 archival-review outcome, the applicable enlisted, civilian,
+commissioned, or indeterminate personnel classification, candidate-comparison
+guidance that requires corroborating file evidence, and masked or explicitly
+unprinted serial fields. The complete local link checker passed all 24,186 HTML
+files and inventoried 48,463 unique external URLs.
