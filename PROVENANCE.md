@@ -961,6 +961,43 @@ does not individually identify Anderson. The possible 99th pathway and any
 last civilian employer therefore remain questions for Box 16 rather than
 settled public facts.
 
+## Page-ten Anderson Otto-through-Shirley archival pathways, Batch 085
+
+`research/evidence-page-ten-anderson-otto-through-shirley-archival-pathways_batch-085_2026-07-30.json`
+records the minimum online research protocol for ten contiguous rows from Otto
+E. Anderson through Shirley J. Anderson on PDF page ten. It contains ten
+visually checked official-index citations, ten terminal research attempts, and
+ten person updates. It adds no organization, affiliation, or employment claim
+because no candidate met the project's identity and temporal standards. It
+stores no live NARA Catalog response, credential, full service identifier, full
+copyrighted page, or sensitive modern-person detail.
+
+The reviewed rows preserve Otto E. Anderson and Paul R. Anderson as enlisted
+Army personnel; Pauline M. Anderson and Shirley J. Anderson as civilian-grade
+personnel; Richard F. Anderson as a commissioned Army officer; Robert N.
+Anderson and Robert E. Anderson Jr. as enlisted Army personnel; and Ralph J.
+Anderson as indeterminate. Most importantly, two adjacent Robert J. Anderson
+rows remain separate: the Master Sergeant and Technical Sergeant have
+different private identifiers and therefore are not merged.
+
+The staged searches exposed two particularly persuasive false-positive risks.
+A 2019 first-person account by a Paul R. Anderson describes believed OSS work
+but also describes commissioning as a second lieutenant, while the indexed
+person is a Technical Sergeant; without a matching private identifier or
+another corroborating identifier, the account remains a rejected identity
+candidate. A declassified 1944 OSS-related travel order names a Technical
+Sergeant Robert J. Anderson, but the order's private identifier differs from
+both adjacent Box 16 records. It therefore establishes a third same-name person
+rather than either index row.
+
+Mount Rushmore employment, DPAA, cemetery, obituary, unit-roster, directory,
+and modern namesake leads for the remaining rows likewise lacked a matching
+private identifier, compatible rank and chronology, an OSS connection, or the
+additional identifiers required for common names. No rejected employer,
+occupation, unit, or institution is promoted to a public claim. All ten
+identities remain unresolved with high-priority Box 16 guidance and the
+evidence-limited employer statement.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -7439,3 +7439,96 @@ test("Batch 084 confirms Odd A Anderson while preserving nine unresolved common-
     );
   }
 });
+
+test("Batch 085 keeps ten Anderson identities unresolved and separates the two Robert J records", async ({
+  page,
+}) => {
+  const profiles = [
+    ["62f6a3cb-412a-596f-9f6a-e63358164d1c", "Otto E Anderson"],
+    ["c57f322a-e173-5676-a59d-37414758707d", "Paul R Anderson"],
+    ["790ea751-912f-588a-86b3-778909cb1232", "Pauline M Anderson"],
+    ["5623a296-5f1f-50e0-9c7b-d0fd24031f71", "Ralph J Anderson"],
+    ["cdb32c7c-0d49-5bba-973b-d7626961584f", "Richard F Anderson"],
+    ["8ad974bf-1e49-5978-b01a-6ddde5995bed", "Robert J Anderson"],
+    ["7053bcc8-262c-5ad1-b723-c34a44759e66", "Robert J Anderson"],
+    ["8d30ac3c-8f49-527f-8fa5-45bc86dda44c", "Robert N Anderson"],
+    ["ec0021ac-0d33-5ca5-b5b7-281fcd2ea799", "Robert E Anderson Jr."],
+    ["8761a4bd-4465-5796-bc7b-e4563a84bd69", "Shirley J Anderson"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("16", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/cdb32c7c-0d49-5bba-973b-d7626961584f/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned army officer",
+  );
+
+  for (const personId of [
+    "790ea751-912f-588a-86b3-778909cb1232",
+    "8761a4bd-4465-5796-bc7b-e4563a84bd69",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "civilian professional or administrative grade",
+    );
+  }
+
+  await page.goto("./people/5623a296-5f1f-50e0-9c7b-d0fd24031f71/");
+  await expect(page.locator("body")).toContainText(
+    "unknown or indeterminate",
+  );
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(2),
+  ).toHaveText(/^••••[A-Z0-9]{4}$/);
+
+  await page.goto("./people/8ad974bf-1e49-5978-b01a-6ddde5995bed/");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("M/Sgt");
+  await expect(page.locator("body")).toContainText(
+    "separately from the adjacent Technical Sergeant file",
+  );
+
+  await page.goto("./people/7053bcc8-262c-5ad1-b723-c34a44759e66/");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("T/Sgt");
+  await expect(page.locator("body")).toContainText(
+    "separately from the adjacent Master Sergeant file",
+  );
+
+  await page.goto("./people/c57f322a-e173-5676-a59d-37414758707d/");
+  await expect(page.locator("body")).toContainText(
+    "later second-lieutenant OSS claimant",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

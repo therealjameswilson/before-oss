@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 665 people with a non-planned attempt | 23,941 person entities | 2.7777% |
+| Research-attempt coverage | 675 people with a non-planned attempt | 23,941 person entities | 2.8194% |
 | Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
 | Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 613 people with an individual file-access/priority assessment | 23,941 person entities | 2.5605% |
+| Archival-review coverage | 623 people with an individual file-access/priority assessment | 23,941 person entities | 2.6022% |
 
 ## Extraction and identity
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,276
+- `not_started`: 23,266
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 23
 - `occupation_only_found`: 26
-- `requires_archival_review`: 397
+- `requires_archival_review`: 407
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -62,12 +62,12 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 395
+- Reviewed-web terminal-protocol attempts recorded: 405
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 289 across 274 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,690
+- Total recorded attempts/plans: 1,700
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 274; 258 have at least one public-eligible
@@ -554,10 +554,24 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   archival question rather than a public affiliation claim. Namesake military,
   banking, cemetery, legislative, and obituary leads for the other nine rows
   were rejected and are not published as facts.
+  Batch 085 continued page ten from Otto E. Anderson through Shirley J.
+  Anderson. All ten identities remain unresolved and route to high-priority
+  Box 16 review. The two adjacent Robert J. Anderson rows remain separate
+  because the printed Master Sergeant and Technical Sergeant ranks accompany
+  different private identifiers. A declassified OSS-related 1944 travel order
+  names a third Technical Sergeant Robert J. Anderson, but its identifier
+  differs from both index rows and therefore confirms neither. A first-person
+  2019 account by a Paul R. Anderson describes believed OSS work but also
+  describes his commissioning as a second lieutenant; the indexed person is a
+  Technical Sergeant, and no matching private identifier or second
+  corroborating identifier was found. Mount Rushmore, DPAA, cemetery,
+  obituary, unit-roster, directory, and institutional namesakes for the other
+  rows were also rejected. No candidate employer, occupation, assignment, or
+  institution from this batch is published as fact.
 - Published affiliations: 408
 - Database claims: 718; public-eligible claims: 699 (97 confirmed, 525 high, 77
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,008; public source export: 635; unique source documents: 592
+- Citation records: 1,018; public source export: 635; unique source documents: 592
 - Canonical organizations: 247 private and 245 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
@@ -691,6 +705,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-and
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-james-and-john-archival-pathways_batch-082_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-john-through-margaret-archival-pathways_batch-083_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-ten-anderson-margaret-through-orval-pathways_batch-084_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-anderson-otto-through-shirley-archival-pathways_batch-085_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
