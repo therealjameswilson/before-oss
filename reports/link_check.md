@@ -1149,6 +1149,37 @@ were reviewed through current official-domain search results; their direct
 command-line probes returned HTTP 404 and are recorded as a link-maintenance
 issue rather than silently replaced by a discovery-only source.
 
+## Batch 103 production deployment
+
+GitHub Actions test workflow
+[30659296580](https://github.com/therealjameswilson/before-oss/actions/runs/30659296580)
+and GitHub Pages deployment
+[30659296505](https://github.com/therealjameswilson/before-oss/actions/runs/30659296505)
+for the page-fourteen Arnston-through-Arrington release `b78e40d` completed
+successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: seven core
+publication URLs, all ten Batch 103 person profiles, the United States Navy
+organization profile, a shareable Bernard Aronson directory-search URL, and
+the live statistics asset. After substituting the production and local plain
+and URL-encoded canonical hosts, every route or asset matched the audited local
+bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 851
+people with non-planned research attempts, 223 verified-affiliation people,
+127 verified-employer people, 799 archival-review assessments, 790 published
+claims, and 754 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 262, 451, and 754 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`3129ac6d4fbedc24389605f7d21f5799f61805ff0fb58eef87884ddbb1ebf59c`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across the 85 audited live HTML, data, and download artifacts.
+
 ## Batch 102 local release check
 
 The rebuilt site contains direct, internally resolved routes for Howard W.

@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30656253117](https://github.com/therealjameswilson/before-oss/actions/runs/30656253117)
-  for Batch 102 release `390e568`: **passed**
+  [30659296580](https://github.com/therealjameswilson/before-oss/actions/runs/30659296580)
+  for Batch 103 release `b78e40d`: **passed**
 - GitHub Pages deployment workflow
-  [30656253266](https://github.com/therealjameswilson/before-oss/actions/runs/30656253266)
-  for Batch 102 release `390e568`: **passed**
+  [30659296505](https://github.com/therealjameswilson/before-oss/actions/runs/30659296505)
+  for Batch 103 release `b78e40d`: **passed**
 - Production route smoke tests: **20 / 20 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 85 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`
+  `3129ac6d4fbedc24389605f7d21f5799f61805ff0fb58eef87884ddbb1ebf59c`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1575,6 +1575,17 @@ claims. Coverage distinguishes 851 people with a non-planned research attempt,
 223 people with verified affiliation evidence, 127 people with verified
 employment or self-employment evidence, and 799 people whose archival-review
 need has been assessed.
+
+The Batch 103 production audit followed successful GitHub test workflow
+[30659296580](https://github.com/therealjameswilson/before-oss/actions/runs/30659296580)
+and Pages workflow
+[30659296505](https://github.com/therealjameswilson/before-oss/actions/runs/30659296505)
+for release `b78e40d`. All 20 deployed routes returned HTTP 200 and matched the
+audited local HTML or data after production and local canonical-host
+normalization. All 65 deployed manifest assets matched recorded and local
+sizes, hashes, and bytes; all eight live statistics and all five public-download
+row counts matched the release. The boundary-aware exact-token scan found zero
+full private-identifier matches across 85 deployed artifacts.
 
 ## Batch 102 local release QA
 
