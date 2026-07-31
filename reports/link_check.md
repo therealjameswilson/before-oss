@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,213 HTML files. Every relative
+**PASS.** The production build contains 24,216 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 264 organization profiles, and the
+The build includes 23,941 person profiles, 267 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,589 unique external URLs for separate live
+The checker inventoried 48,601 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1116,6 +1116,34 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 107 local release check
+
+The rebuilt site contains direct, internally resolved routes for Leo G. Askew,
+Milton C. Askew, Monroe P. Askins, A. W. Asmuth Jr., Lea T. Aspinwall, James D.
+Assaf, Gerard R. Asselin, Graziella Asselin, Jean R. Assemat, and John Aste.
+Seven profiles visibly retain unresolved identity status and Box 24 archival
+guidance. Askins's profile does not turn an OSS unit into a predecessor;
+Asselin's page qualifies earlier H. P. Hood & Sons employment; and Assemat's
+page models BCRA as an immediate military assignment.
+
+The complete local link checker passed all 24,216 HTML files and inventoried
+48,601 unique external URLs. The public downloads contain 23,941 person rows,
+267 organization rows, 464 affiliation rows, and 780 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`dadc1e03f0883598c829fcc50dbe05f9901d3c3d67128b27d66f5b2d42e968f9`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers, including 121 formatted raw variants, across 24,286
+production artifacts returned zero full matches. Consecutive static builds
+produced the identical site-tree SHA-256
+`3062b729811a52bda8f03133295298058d6bf3d9678072f3449735a26f96c39f`.
+
+The official French military, American Society of Cinematographers, and Gerard
+Asselin obituary targets are retained as item-level sources. No search-results
+page, genealogy candidate, or rejected namesake was promoted to a public
+employer claim.
 
 ## Batch 106 local release check
 

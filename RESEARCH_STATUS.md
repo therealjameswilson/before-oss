@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 881 people with a non-planned attempt | 23,941 person entities | 3.6799% |
-| Verified-affiliation coverage | 227 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9482% |
+| Research-attempt coverage | 891 people with a non-planned attempt | 23,941 person entities | 3.7216% |
+| Verified-affiliation coverage | 228 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9523% |
 | Verified-employer coverage | 130 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5430% |
-| Archival-review coverage | 829 people with an individual file-access/priority assessment | 23,941 person entities | 3.4627% |
+| Archival-review coverage | 839 people with an individual file-access/priority assessment | 23,941 person entities | 3.5044% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 42
-- Identity status `high_confidence`: 277
-- Identity status `probable`: 30
+- Identity status `confirmed`: 43
+- Identity status `high_confidence`: 278
+- Identity status `probable`: 31
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,566
+- Identity status `unresolved`: 23,563
 
 ## Personnel categories
 
@@ -42,18 +42,18 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
+Commissioned classification: 2,157 yes; 4,999 no; 16,785 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,060
+- `not_started`: 23,050
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 28
-- `occupation_only_found`: 28
-- `requires_archival_review`: 575
-- `completed`: 51
+- `documented_prewar_employer_found`: 29
+- `occupation_only_found`: 29
+- `requires_archival_review`: 582
+- `completed`: 52
 - `verified_employer_found`: 135
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -65,17 +65,17 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 165
+- Reviewed-web-and-official-source attempts recorded: 175
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 336 across 318 people; 27 additional
+- Saved `source_reviewed` outcomes: 339 across 321 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,910
+- Total recorded attempts/plans: 1,920
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 324; 307 have at least one public-eligible
+- People with saved reviewed claims: 327; 310 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -896,11 +896,24 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
   Ashworth remain unresolved after the terminal protocol and route to Box 23 or
   24. William is retained only as a marked search alias for Wiliam, not adopted
   as a correction.
-- Published affiliations: 462
-- Database claims: 827; public-eligible claims: 807 (115 confirmed, 591 high, 101
+  Batch 107 spans pages fourteen and fifteen from Leo G. Askew through John
+  Aste. Monroe P. Askins is high-confidence through the exact name, matching
+  Chief Photographer's Mate rating, and contemporary Field Photo evidence,
+  but that unit was part of OSS and is not modeled as a pre-OSS predecessor.
+  Gerard R. Asselin remains probable: his obituary supports earlier work at
+  H. P. Hood & Sons, but two other undated jobs and an unknown Army-entry date
+  prevent either an immediate or last-civilian designation. Jean R. Assemat is
+  confirmed by official French military evidence linking the indexed identity
+  and documented Jacques Bauer alias to a BCRA-to-OSS Jedburgh pathway; BCRA
+  is published as an explicit immediate military assignment, not a civilian
+  employer. Leo G. Askew, Milton C. Askew, A. W. Asmuth Jr., Lea T. Aspinwall,
+  James D. Assaf, Graziella Asselin, and John Aste remain unresolved and route
+  to Box 24. No unsupported namesake employment is promoted.
+- Published affiliations: 464
+- Database claims: 832; public-eligible claims: 812 (117 confirmed, 592 high, 103
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,322; public source export: 774; unique source documents: 683
-- Canonical organizations: 268 private and 266 public
+- Citation records: 1,335; public source export: 780; unique source documents: 686
+- Canonical organizations: 269 private and 267 public
 - Conflicts: 1
 - NARA pull-list rows: 23,843
 
@@ -1055,6 +1068,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-arrington-through-aserinsky-pathways_batch-104_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ash-through-ashcraft-pathways_batch-105_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ashcraft-through-ashworth-pathways_batch-106_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-and-fifteen-askew-through-aste-pathways_batch-107_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

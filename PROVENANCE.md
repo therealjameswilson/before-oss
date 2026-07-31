@@ -1815,6 +1815,38 @@ response was retained. Temporary PDFs, text extractions, and page renders were
 used only for inspection and removed after review. No full service identifier
 appears in the evidence bundle or public projection.
 
+## Page-fourteen-and-fifteen Askew-through-Aste pathways, Batch 107
+
+`research/evidence-page-fourteen-and-fifteen-askew-through-aste-pathways_batch-107_2026-07-31.json`
+records ten visually checked, contiguous rows from Leo G. Askew through John
+Aste across PDF pages fourteen and fifteen. Raw spellings, initials, suffix,
+ranks, Box 24, blank fields, and the page transition were checked against the
+rendered source pages. The bundle contains ten person updates, thirteen
+sources, two organizations, two affiliations, five claims, and ten durable
+research attempts.
+
+Monroe P. Askins is high-confidence through the exact name, matching Chief
+Photographer's Mate rating, and contemporary evidence placing him in John
+Ford's Field Photo unit. Because that unit was already part of OSS, it supports
+identity and occupation but is not modeled as a pre-OSS predecessor. Gerard R.
+Asselin remains probable. His obituary documents earlier H. P. Hood & Sons
+employment, but it also names two other undated jobs and supplies no Army-entry
+date; Hood therefore appears only as qualified earlier employment, not as the
+immediate affiliation or last civilian employer.
+
+Jean R. Assemat is confirmed by the official French military record that links
+his indexed identity, documented Jacques Bauer alias, BCRA service, and
+Jedburgh assignment. The Bureau Central de Renseignements et d'Action is
+published as an explicit immediate military assignment rather than a civilian
+employer. Leo G. Askew, Milton C. Askew, A. W. Asmuth Jr., Lea T. Aspinwall,
+James D. Assaf, Graziella Asselin, and John Aste remain unresolved after the
+terminal protocol and route to Box 24 review.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. Temporary PDFs, page renders, and text
+extracts were used only for inspection and removed after review. No full
+service identifier appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -5,12 +5,12 @@ Run: 2026-07-31 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,215 pages**
-- Internal link check: **24,215 HTML files passed**
-- Browser and accessibility suite: **363 / 363 passed**
+- Static production build: **24,216 pages**
+- Internal link check: **24,216 HTML files passed**
+- Browser and accessibility suite: **366 / 366 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`a440e3f1576435ea21db9a8310e80c9d0b58b9be16971bd1ae6a6c737313a370`)
+  (`3062b729811a52bda8f03133295298058d6bf3d9678072f3449735a26f96c39f`)
 - Latest clean-checkout replay (Batch 106): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 106 evidence batches: **78 / 84
@@ -19,21 +19,21 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`
+  `dadc1e03f0883598c829fcc50dbe05f9901d3c3d67128b27d66f5b2d42e968f9`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,932** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** nontrivial comparison
-  tokens: **0 unexpected full-number matches** in **24,254** non-gzip
-  production artifacts
+  tokens: **0 unexpected full-number matches** in **24,286** production
+  artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **774** public records representing **683** unique documents
-- Private citation records: **1,322**
-- Published, qualified affiliations: **462**
-- Published claims: **807**
+- Reviewed public sources: **780** public records representing **686** unique documents
+- Private citation records: **1,335**
+- Published, qualified affiliations: **464**
+- Published claims: **812**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
-- Verified-affiliation metric: **227** people with confirmed/high published
+- Verified-affiliation metric: **228** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **130** people with confirmed/high published
   employment or self-employment evidence
@@ -1520,6 +1520,49 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 107 local release QA
+
+Batch 107 adds ten visually checked rows from Leo G. Askew through John Aste
+across PDF pages fourteen and fifteen. The reviewed bundle imports ten durable
+terminal research attempts, thirteen sources, two organizations, two
+affiliations, five claims, and ten claim-source links. It publishes Jean R.
+Assemat's BCRA predecessor as a military assignment, retains Gerard R.
+Asselin's H. P. Hood & Sons work only as qualified earlier employment, and
+uses Monroe P. Askins's Field Photo evidence for identity and occupation
+without treating the OSS unit as a predecessor. Seven profiles remain
+unresolved and route to Box 24.
+
+The evidence import replayed idempotently and passed Pydantic validation.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The full Python suite passed 54 / 54. The static build completed 24,216
+pages with zero Astro errors, warnings, or hints. The focused Batch 107
+regression passed 3 / 3, and the complete browser, responsive, and accessibility
+matrix passed 366 / 366. The internal link checker passed all 24,216 HTML pages
+and inventoried 48,601 unique external URLs. The production dependency audit
+reported zero vulnerabilities. The deterministic stratified profile audit
+passed all checks for 200 profiles.
+
+Consecutive static builds produced the identical
+`3062b729811a52bda8f03133295298058d6bf3d9678072f3449735a26f96c39f`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The manifest
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`dadc1e03f0883598c829fcc50dbe05f9901d3c3d67128b27d66f5b2d42e968f9`.
+A boundary-aware exact-token comparison assessed 12,919 nontrivial normalized
+private identifiers and 121 formatted raw variants across 24,286 production
+artifacts and found zero full matches. No local credential file, nonblank
+API-key assignment, authenticated NARA Catalog request, or raw Catalog response
+was used.
+
+The Batch 107 database contains 1,920 durable research attempts, 1,335 private
+citation records, 468 affiliations, and 832 claims: 117 confirmed, 592 high,
+103 medium, and 20 low confidence. The reviewed public projection contains 780
+source records representing 686 unique documents, 464 affiliations, and 812
+claims. Coverage distinguishes 891 people with a non-planned research attempt,
+228 people with verified affiliation evidence, 130 people with verified
+employment or self-employment evidence, and 839 people whose archival-review
+need has been assessed.
 
 ## Batch 106 local release QA
 

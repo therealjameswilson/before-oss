@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/130 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 227 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 228 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10024,6 +10024,131 @@ test("Batch 106 separates Ashin and Ashley pathways from unresolved namesakes", 
     ["d37718c1-1acf-5c35-9d9d-2be5a1de1dd6", "Stage Door Canteen (CBS radio program)", "Ira Ashley"],
     ["f2c878b0-ee44-573d-ab30-7e4282bc85e5", "University of Chicago", "Mark Ashin"],
     ["24ac156d-62e6-5107-a412-646391d990a2", "Michigan State College", "Mark Ashin"],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+  }
+});
+
+test("Batch 107 preserves Askew-through-Aste identity and temporal boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["5f9bafc9-adbc-5a7d-a7cb-3ada6e844f5c", "Leo G Askew", "unknown or indeterminate"],
+    ["ccc8941b-2ab3-5fc7-9a73-2936da041412", "Milton C Askew", "enlisted army personnel"],
+    ["1031ef2c-9d05-53e4-8ea8-b8f55296bcd5", "Monroe P Askins", "enlisted naval personnel"],
+    ["894e1ad1-74cc-583f-b464-8a0d26800f33", "A. W Asmuth Jr.", "unknown or indeterminate"],
+    ["4b71c845-36d9-5fa9-85eb-e3a12ae242c0", "Lea T Aspinwall", "unknown or indeterminate"],
+    ["ceaf422b-0462-55b6-9990-09f49474aa30", "James D Assaf", "commissioned army officer"],
+    ["27f3030a-180b-51b3-b463-a6ae1cebd003", "Gerard R Asselin", "enlisted army personnel"],
+    ["dee9b236-903d-5235-aac8-3301657a4eaf", "Graziella Asselin", "civilian professional or administrative grade"],
+    ["fee6be23-0065-5712-901a-aac10a8b02f3", "Jean R Assemat", "foreign or allied military personnel"],
+    ["a0f44de1-fa6c-52ed-aa23-9b27672ad9d9", "John Aste", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("24", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "5f9bafc9-adbc-5a7d-a7cb-3ada6e844f5c",
+    "ccc8941b-2ab3-5fc7-9a73-2936da041412",
+    "894e1ad1-74cc-583f-b464-8a0d26800f33",
+    "4b71c845-36d9-5fa9-85eb-e3a12ae242c0",
+    "ceaf422b-0462-55b6-9990-09f49474aa30",
+    "dee9b236-903d-5235-aac8-3301657a4eaf",
+    "a0f44de1-fa6c-52ed-aa23-9b27672ad9d9",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/1031ef2c-9d05-53e4-8ea8-b8f55296bcd5/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("John Ford Field Photo Unit");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.getByRole("link", { name: "Thanks to ASC Veterans", exact: true }).first(),
+  ).toHaveAttribute("href", /normalexposure\.com/);
+
+  await page.goto("./people/27f3030a-180b-51b3-b463-a6ae1cebd003/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("H. P. Hood & Sons");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("documented prewar");
+  await expect(
+    page.getByRole("link", { name: "Gerard R. Asselin Obituary", exact: true }).first(),
+  ).toHaveAttribute("href", /tylunasfuneralhome\.com/);
+
+  await page.goto("./people/fee6be23-0065-5712-901a-aac10a8b02f3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jean Assémat");
+  await expect(page.locator("main")).toContainText("Jacques Bauer");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Bureau Central de Renseignements et d'Action");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("explicit immediate");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.getByRole("link", {
+      name: "Archives photographiques du capitaine Jean Assémat (1919-2003). Le 1er régiment de chasseurs parachutistes en 1956",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /imagesdefense\.gouv\.fr/);
+
+  for (const [organizationId, organizationName, personName] of [
+    ["06f143a6-5bea-50f7-88c0-b1af2708abd1", "H. P. Hood & Sons", "Gerard R Asselin"],
+    ["3056684e-4315-514a-b18b-27462862a489", "Bureau Central de Renseignements et d'Action", "Jean R Assemat"],
   ]) {
     await page.goto(`./organizations/${organizationId}/`);
     await expect(

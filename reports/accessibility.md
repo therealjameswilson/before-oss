@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 360 / 360 browser cases.**
+**PASS - 366 / 366 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-129-person employer measure is labeled separately from the 226-person broader
+130-person employer measure is labeled separately from the 228-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,27 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 107 accessibility and responsive regression
+
+The Batch 107 regression checks the ten contiguous page-fourteen-and-fifteen
+profiles from Leo G. Askew through John Aste. It verifies every direct profile,
+Box 24 provenance, field-level serial masking, the seven visibly unresolved
+identities, Monroe P. Askins's high-confidence identity, Gerard R. Asselin's
+probable identity, and Jean R. Assemat's confirmed identity and Jacques Bauer
+variant.
+
+Askins's page is tested for its Field Photo identity and occupation evidence
+without mislabeling the OSS unit as a pre-OSS affiliation. Asselin's page keeps
+H. P. Hood & Sons in qualified earlier employment and leaves both immediate and
+last-civilian sections unresolved. Assemat's page identifies BCRA as an
+explicit immediate military assignment, not a civilian employer. Both new
+organization routes link to the intended profiles and expose claim-level
+citations.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete desktop,
+phone, tablet, responsive, direct-route, search, and axe matrix passed 366 / 366
+with no assertion failure or serious/critical accessibility violation.
 
 ## Batch 106 accessibility and responsive regression
 
