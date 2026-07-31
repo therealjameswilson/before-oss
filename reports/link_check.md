@@ -1117,6 +1117,35 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 105 local release check
+
+The rebuilt site contains direct, internally resolved routes for Charles H.
+Ash, Frank S. Ash, Gladys Ash, Mckinley Ash, Nelson E. Ash, Loris W. Ashby,
+Lylie H. Ashby, Mary J. Ashby, Harold F. Ashcraft, and John J. Ashcraft Jr.
+Every profile visibly retains unresolved identity status, a terminal Box 23
+archival-review route, and explicit no-reliable-employer wording. The indexed
+grades, blank cells, name spellings, suffix, and masked or absent service
+identifiers remain distinct.
+
+The complete local link checker passed all 24,213 HTML files and inventoried
+48,589 unique external URLs. The public downloads contain 23,941 person rows,
+264 organization rows, 457 affiliation rows, and 766 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`fedbd87508da66aacae625d84e2efc033ec60bd40c51adfca777f6fca68a7d46`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers against 24,252 non-gzip production artifacts returned zero
+unexpected full matches after one numeric manifest byte-size coincidence was
+classified. Consecutive static builds produced the identical site-tree
+SHA-256
+`65bbeb49928accf6b057af2bf4f83df7118a68b0eda33068eaacd00fb9fb51f4`.
+
+The only new external citation target is the official NARA personnel-index PDF,
+which was already included in the bounded external-source inventory and
+returned HTTP 200. The two rejected namesakes remain research notes rather than
+public employer claims or new public source records.
+
 ## Batch 104 local release check
 
 The rebuilt site contains direct, internally resolved routes for Mable O.

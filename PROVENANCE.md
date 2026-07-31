@@ -1729,6 +1729,40 @@ extractions, and page renders were used only for inspection and removed after
 review. No full service identifier appears in the evidence bundle or public
 projection.
 
+## Page-fourteen Ash-through-Ashcraft pathways, Batch 105
+
+`research/evidence-page-fourteen-ash-through-ashcraft-pathways_batch-105_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-fourteen rows from Charles H.
+Ash through John J. Ashcraft Jr. The literal `Caf-6`, `T-4`, `Caf-4`, `Maj`,
+`Pfc`, `Pvt`, `1st Lt`, and blank rank cells, together with Box 23 and the
+printed archive locations, were checked against the rendered source page. The
+unusual printed `Ashcraft, John, Jr., J.` field order and `Mckinley`
+capitalization remain recoverable. The bundle contains ten person updates, ten
+official index sources, no organizations, affiliations, or claims, and ten
+durable research attempts.
+
+All ten people remain unresolved after the complete terminal research protocol.
+The searches covered official NARA context, CIA Reading Room, exact indexed
+spellings and meaningful variants, military or civilian-grade clues,
+employment and occupation, obituaries, directories, newspapers, institutional
+archives, and Library of Congress discovery. The public profiles therefore say
+that no reliable pre-OSS employer has yet been identified in the accessible
+sources reviewed and direct researchers to Box 23; they do not imply that no
+prior employment existed.
+
+Two especially tempting namesakes were rejected rather than merged. The
+dentist Major McKinley Ash Jr. has Major as his documented given name,
+McKinley as his middle name, and an enlisted World War II grade incompatible
+with the indexed given name Mckinley and rank Major. John W. Ashcraft Jr. has a
+different middle initial and died in 1929; John Marion Ashcraft Jr. also has a
+different middle name. Lyle, Lylle, and Lillie were used only as marked search
+aliases for Lylie H. Ashby and were not treated as corrections.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. Temporary text extracts and the page
+render were used only for inspection and removed after review. No full service
+identifier appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

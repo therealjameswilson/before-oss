@@ -9854,3 +9854,53 @@ test("Batch 104 distinguishes Arrowood, Asbury, and Aserinsky pathways", async (
     page.locator("h3").getByRole("link", { name: "Willard C Asbury", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 105 preserves the ten Ash-through-Ashcraft unresolved pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["0172547d-eef7-50aa-85c4-474feec785c6", "Charles H Ash", "civilian professional or administrative grade"],
+    ["853f570e-b590-59b3-95dc-175f9b349416", "Frank S Ash", "enlisted army personnel"],
+    ["3aeccd2e-4fd3-53f3-bfe2-e5a819f980a1", "Gladys Ash", "civilian professional or administrative grade"],
+    ["34f72504-8550-58a9-b411-31b1ee60ad30", "Mckinley Ash", "commissioned army officer"],
+    ["c6f75eab-e145-5a6b-9ee3-01aabdf5d39c", "Nelson E Ash", "enlisted army personnel"],
+    ["06919b70-a83a-511f-a8f7-8d52f3e40fbe", "Loris W Ashby", "enlisted army personnel"],
+    ["e94b9aca-5a70-5cd8-a004-e13e48378139", "Lylie H Ashby", "unknown or indeterminate"],
+    ["7f8c75e4-e3b7-5af9-83d4-e3d52c077724", "Mary J Ashby", "civilian professional or administrative grade"],
+    ["c205acb5-4610-54a1-9362-3f85d6629a4f", "Harold F Ashcraft", "unknown or indeterminate"],
+    ["26520e38-3b27-51af-882c-aa5f467f7d56", "John J Ashcraft Jr.", "commissioned army officer"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("23", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/34f72504-8550-58a9-b411-31b1ee60ad30/");
+  await expect(page.locator("main")).toContainText("Major McKinley Ash Jr.");
+
+  await page.goto("./people/26520e38-3b27-51af-882c-aa5f467f7d56/");
+  await expect(page.locator("main")).toContainText("John W. Ashcraft Jr.");
+  await expect(page.locator("main")).toContainText("died in 1929");
+});

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 861 people with a non-planned attempt | 23,941 person entities | 3.5963% |
+| Research-attempt coverage | 871 people with a non-planned attempt | 23,941 person entities | 3.6381% |
 | Verified-affiliation coverage | 226 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9440% |
 | Verified-employer coverage | 129 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5388% |
-| Archival-review coverage | 809 people with an individual file-access/priority assessment | 23,941 person entities | 3.3791% |
+| Archival-review coverage | 819 people with an individual file-access/priority assessment | 23,941 person entities | 3.4209% |
 
 ## Extraction and identity
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,080
+- `not_started`: 23,070
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 27
 - `occupation_only_found`: 28
-- `requires_archival_review`: 557
+- `requires_archival_review`: 567
 - `completed`: 51
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
@@ -65,14 +65,14 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 145
+- Reviewed-web-and-official-source attempts recorded: 155
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 334 across 316 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,890
+- Total recorded attempts/plans: 1,900
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 322; 305 have at least one public-eligible
@@ -864,10 +864,23 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
   Leonard J. Arsenault, Paul Artisst, and Carmelo Aruta remain unresolved; the
   plausible Anita Arrow Summers candidate is withheld pending an OSS or federal
   employment bridge. All unresolved questions route to Box 23.
+  Batch 105 continues page fourteen with Charles H. Ash through John J.
+  Ashcraft Jr. All ten rows were visually checked and received the terminal
+  official-context, CIA Reading Room, exact-name, employment/occupation,
+  obituary, directory, newspaper, institutional, NARA, and Library of Congress
+  protocol. No accessible source supplied enough identity and temporal evidence
+  to publish a predecessor affiliation. Major McKinley Ash Jr., the dentist,
+  was rejected as the indexed Mckinley Ash because his documented given-name
+  order and wartime enlisted grade conflict with the index's given name and
+  Major rank. John W. Ashcraft Jr., who died in 1929, and John Marion Ashcraft
+  Jr. were likewise rejected for the indexed First Lieutenant. Lyle, Lylle, and
+  Lillie remain search aliases rather than silent corrections of the printed
+  Lylie H. Ashby row. All ten profiles remain unresolved and route to Box 23
+  with record-specific questions.
 - Published affiliations: 457
 - Database claims: 820; public-eligible claims: 800 (114 confirmed, 589 high, 97
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,296; public source export: 766; unique source documents: 677
+- Citation records: 1,306; public source export: 766; unique source documents: 677
 - Canonical organizations: 266 private and 264 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844

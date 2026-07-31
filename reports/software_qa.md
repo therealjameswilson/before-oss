@@ -7,10 +7,10 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,213 pages**
 - Internal link check: **24,213 HTML files passed**
-- Browser and accessibility suite: **357 / 357 passed**
+- Browser and accessibility suite: **360 / 360 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`e8fec5f1814519805d9360774e4be0314f9226346e4a0f1fdd07d1cff9752ebc`)
+  (`65bbeb49928accf6b057af2bf4f83df7118a68b0eda33068eaacd00fb9fb51f4`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,7 +19,7 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `5e6f12a57ead715ca27f7a2b4327f33a8f2bc253a824a2c0d73ceb93ff411910`
+  `fedbd87508da66aacae625d84e2efc033ec60bd40c51adfca777f6fca68a7d46`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -29,7 +29,7 @@ Run: 2026-07-31 UTC
   production artifacts
 - Runtime authenticated API calls: **0**
 - Reviewed public sources: **766** public records representing **677** unique documents
-- Private citation records: **1,296**
+- Private citation records: **1,306**
 - Published, qualified affiliations: **457**
 - Published claims: **800**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
@@ -1520,6 +1520,55 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 105 local release QA
+
+Batch 105 adds ten visually checked page-fourteen people from Charles H. Ash
+through John J. Ashcraft Jr. The reviewed bundle imports ten durable terminal
+research attempts and ten official index citations without adding any
+organization, affiliation, or claim unsupported by the accessible evidence.
+It preserves four civilian or blank-grade rows, four Army enlisted rows, two
+commissioned Army officers, Box 23, the unusual printed John Ashcraft suffix
+order, and the printed `Mckinley` capitalization.
+
+All ten identities remain unresolved and route to Box 23. Major McKinley Ash
+Jr., the dentist, was not merged because his documented given-name order and
+wartime enlisted grade conflict with the indexed given name and Major rank.
+John W. Ashcraft Jr. and John Marion Ashcraft Jr. were rejected because of
+incompatible middle names, chronology, and service details. Lyle, Lylle, and
+Lillie remain marked search aliases rather than corrections of Lylie H. Ashby.
+
+The evidence import replayed idempotently and passed Pydantic validation.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The full Python suite passed 54 / 54 plus two subtests. The static build
+completed 24,213 pages with zero Astro errors, warnings, or hints. The focused
+Batch 105 regression passed 3 / 3 across desktop, phone, and tablet, and the
+complete browser, responsive, and accessibility matrix passed 360 / 360. The
+internal link checker passed all 24,213 HTML pages and inventoried 48,589
+unique external URLs. The production dependency audit reported zero
+vulnerabilities. The deterministic stratified audit passed all checks for 200
+profiles.
+
+Consecutive static builds produced the identical
+`65bbeb49928accf6b057af2bf4f83df7118a68b0eda33068eaacd00fb9fb51f4`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The manifest
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`fedbd87508da66aacae625d84e2efc033ec60bd40c51adfca777f6fca68a7d46`.
+A boundary-aware exact-token comparison of 12,919 nontrivial normalized
+private identifiers across 24,252 non-gzip production artifacts found zero
+unexpected full matches after classifying one exact numeric overlap as the
+manifest's public byte-size metadata. No local credential file, nonblank
+API-key assignment, or authenticated NARA Catalog request was used.
+
+The Batch 105 database contains 1,900 durable research attempts, 1,306 private
+citation records, 461 affiliations, and 820 claims: 114 confirmed, 589 high,
+97 medium, and 20 low confidence. The reviewed public projection contains 766
+source records representing 677 unique documents, 457 affiliations, and 800
+claims. Coverage distinguishes 871 people with a non-planned research attempt,
+226 people with verified affiliation evidence, 129 people with verified
+employment or self-employment evidence, and 819 people whose archival-review
+need has been assessed.
 
 ## Batch 104 local release QA
 

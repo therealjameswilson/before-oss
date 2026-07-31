@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 357 / 357 browser cases.**
+**PASS - 360 / 360 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,22 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 105 accessibility and responsive regression
+
+The Batch 105 regression checks the ten contiguous page-fourteen profiles from
+Charles H. Ash through John J. Ashcraft Jr. It verifies every direct profile,
+Box 23 provenance, field-level serial masking or explicit `Not printed`
+display, the four personnel-category lanes represented in the batch, visibly
+unresolved identity status, terminal archival-review status, and explicit
+no-reliable-employer wording.
+
+The regression also verifies that the Mckinley Ash profile keeps the prominent
+Major McKinley Ash Jr. namesake separate and that John J. Ashcraft Jr. is not
+merged with the incompatible John W. or John Marion namesakes. The focused
+desktop, phone, and tablet run passed 3 / 3. The complete browser, responsive,
+and accessibility matrix passed 360 / 360 with no assertion or
+serious/critical axe failure.
 
 ## Batch 104 accessibility and responsive regression
 
