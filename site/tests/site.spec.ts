@@ -10159,3 +10159,126 @@ test("Batch 107 preserves Askew-through-Aste identity and temporal boundaries", 
     ).toBeVisible();
   }
 });
+
+test("Batch 108 preserves Aston-through-Athens identity and predecessor boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["a9de39d3-7bcc-5f88-afb7-8b63923bd322", "Stanley C Aston", "enlisted army personnel"],
+    ["26e8b192-660c-5f34-8856-b0956a386c6e", "Theodore F Astrella", "commissioned army officer"],
+    ["70b03b39-e056-5bf4-a522-d4e37bc27f94", "James B Aswell", "civilian professional or administrative grade"],
+    ["54a3eb06-95fb-5acb-83db-0bfe5cef57e8", "Prayoon Atachinda", "unknown or indeterminate"],
+    ["ee7e6786-ebb2-5d2b-992d-b4157add9114", "Ethel M Atchison", "civilian professional or administrative grade"],
+    ["717a5917-0ebb-5f76-8cfa-8479c808baf6", "James J Atchison", "enlisted army personnel"],
+    ["e452475b-d5cf-51a5-94a3-327d30d10260", "Peter S Athanasakos", "enlisted army personnel"],
+    ["c1e3483a-6cd2-5058-b916-bcb1571d3295", "Peter J Atheneos", "enlisted army personnel"],
+    ["1f9ace73-691d-5b96-8349-203d8c7594f4", "Everett J Athens", "commissioned naval officer"],
+    ["808ca937-d656-5ca0-a005-d75ffd68364e", "John S Athens", "civilian professional or administrative grade"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("24", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "a9de39d3-7bcc-5f88-afb7-8b63923bd322",
+    "ee7e6786-ebb2-5d2b-992d-b4157add9114",
+    "717a5917-0ebb-5f76-8cfa-8479c808baf6",
+    "e452475b-d5cf-51a5-94a3-327d30d10260",
+    "c1e3483a-6cd2-5058-b916-bcb1571d3295",
+    "808ca937-d656-5ca0-a005-d75ffd68364e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/26e8b192-660c-5f34-8856-b0956a386c6e/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Theodore Fox Astrella");
+  await expect(page.locator("main")).toContainText("Fort Belvoir");
+  await expect(
+    page.getByRole("link", { name: "Congressional Record—Senate", exact: true }).first(),
+  ).toHaveAttribute("href", /govinfo\.gov/);
+
+  await page.goto("./people/70b03b39-e056-5bf4-a522-d4e37bc27f94/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("James Benjamin Aswell Jr.");
+  await expect(page.locator("main")).toContainText("World War II: OSS, head of Morale Operations");
+  await expect(
+    page.getByRole("link", {
+      name: "Dictionary of Louisiana Biography: Aswell, James Benjamin, Jr.",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /lahistory\.org/);
+
+  await page.goto("./people/54a3eb06-95fb-5acb-83db-0bfe5cef57e8/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Free Th");
+  await expect(page.locator("main")).toContainText("Prayun Atthachinda");
+  await expect(
+    page.getByRole("link", {
+      name: "Thailand's Secret War: The Free Thai, OSS, and SOE during World War II — Index",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /cambridge\.org/);
+
+  await page.goto("./people/1f9ace73-691d-5b96-8349-203d8c7594f4/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Everette J. Athens");
+  await expect(page.locator("main")).toContainText("Chicago Mission");
+  await expect(
+    page.getByRole("link", { name: "Final Report of the Evros Mission", exact: true }).first(),
+  ).toHaveAttribute("href", /elia\.org\.gr/);
+
+  for (const personId of [
+    "26e8b192-660c-5f34-8856-b0956a386c6e",
+    "70b03b39-e056-5bf4-a522-d4e37bc27f94",
+    "54a3eb06-95fb-5acb-83db-0bfe5cef57e8",
+    "1f9ace73-691d-5b96-8349-203d8c7594f4",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+});

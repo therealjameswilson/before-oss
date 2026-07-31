@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 891 people with a non-planned attempt | 23,941 person entities | 3.7216% |
+| Research-attempt coverage | 900 people with a non-planned attempt | 23,941 person entities | 3.7592% |
 | Verified-affiliation coverage | 228 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9523% |
 | Verified-employer coverage | 130 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5430% |
-| Archival-review coverage | 839 people with an individual file-access/priority assessment | 23,941 person entities | 3.5044% |
+| Archival-review coverage | 848 people with an individual file-access/priority assessment | 23,941 person entities | 3.5420% |
 
 ## Extraction and identity
 
@@ -21,38 +21,38 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 43
-- Identity status `high_confidence`: 278
+- Identity status `confirmed`: 44
+- Identity status `high_confidence`: 280
 - Identity status `probable`: 31
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,563
+- Identity status `unresolved`: 23,560
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,554
+- Unknown or indeterminate: 16,552
 - Enlisted Army personnel: 3,477
-- Commissioned Army officers: 2,068
+- Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,459
+- Civilian professional or administrative grades: 1,460
 - Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 52
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,157 yes; 4,999 no; 16,785 indeterminate.
+Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,050
+- `not_started`: 23,041
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 29
-- `occupation_only_found`: 29
-- `requires_archival_review`: 582
+- `occupation_only_found`: 31
+- `requires_archival_review`: 589
 - `completed`: 52
 - `verified_employer_found`: 135
 - Stratified pilot size: 75
@@ -65,17 +65,17 @@ Commissioned classification: 2,157 yes; 4,999 no; 16,785 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 175
+- Reviewed-web-and-official-source attempts recorded: 185
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 339 across 321 people; 27 additional
+- Saved `source_reviewed` outcomes: 343 across 324 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,920
+- Total recorded attempts/plans: 1,930
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 327; 310 have at least one public-eligible
+- People with saved reviewed claims: 330; 313 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -909,10 +909,27 @@ Commissioned classification: 2,157 yes; 4,999 no; 16,785 indeterminate.
   employer. Leo G. Askew, Milton C. Askew, A. W. Asmuth Jr., Lea T. Aspinwall,
   James D. Assaf, Graziella Asselin, and John Aste remain unresolved and route
   to Box 24. No unsupported namesake employment is promoted.
+  Batch 108 continues page fifteen from Stanley C. Aston through John S.
+  Athens. Theodore F. Astrella is high-confidence from an uncommon exact name,
+  Army-officer context, a contemporary engineer-unit history, and an official
+  record expanding his middle name; the Fort Belvoir evidence is identity and
+  occupation context only because his OSS-entry date remains unknown. James B.
+  Aswell is confirmed as Louisiana writer James Benjamin Aswell Jr. by an
+  institutional biography explicitly identifying him as head of OSS Morale
+  Operations, but his immediate and last-civilian predecessors remain
+  unresolved. Prayoon Atachinda is a high-confidence match to the documented
+  Prayun (Prayoon) Atthachinda spelling in a scholarly Free Thai/OSS history;
+  the index's literal `Free Th` note remains unexpanded and the unreviewed book
+  pages are not used to infer a role. Everett J. Athens is confirmed by direct
+  OSS records as a USNR officer of the Chicago/Evros Mission, which is an OSS
+  assignment rather than a pre-OSS predecessor. Stanley C. Aston, Ethel M.
+  Atchison, James J. Atchison, Peter S. Athanasakos, Peter J. Atheneos, and
+  John S. Athens remain unresolved. All ten retain Box 24 review paths; no
+  unsupported employer is promoted.
 - Published affiliations: 464
-- Database claims: 832; public-eligible claims: 812 (117 confirmed, 592 high, 103
+- Database claims: 836; public-eligible claims: 816 (119 confirmed, 594 high, 103
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,335; public source export: 780; unique source documents: 686
+- Citation records: 1,350; public source export: 789; unique source documents: 691
 - Canonical organizations: 269 private and 267 public
 - Conflicts: 1
 - NARA pull-list rows: 23,843
@@ -1069,6 +1086,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ash-through-ashcraft-pathways_batch-105_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ashcraft-through-ashworth-pathways_batch-106_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-and-fifteen-askew-through-aste-pathways_batch-107_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-aston-through-athens-pathways_batch-108_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

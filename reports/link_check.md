@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 267 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,601 unique external URLs for separate live
+The checker inventoried 48,606 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -24,6 +24,13 @@ verification; external responses do not affect the internal-route pass.
 | National Archives Catalog | HTTP 200 |
 | NARA Catalog API guidance | HTTP 200 |
 | Official personnel index PDF | HTTP 200 |
+| GPO, *Congressional Record*, Theodore Fox Astrella | HTTP 200 |
+| 90th Division Association, 315th Engineer Combat Battalion history | HTTP 200 |
+| Louisiana Historical Association, James Benjamin Aswell Jr. | HTTP 200 |
+| LSU Libraries, James B. Aswell Jr. Family Papers finding aid | HTTP 403 to the command-line client; institutional PDF retained with review note |
+| Cambridge University Press, *Thailand's Secret War* index | HTTP 200 |
+| CIA Reading Room, OSS awards and commendations report | HTTP 302 followed by a current redirect loop to the Reading Room landing page |
+| ELIA, Final Report of the Evros Mission | HTTP 200 |
 | University of Genoa, Matteo Paglia OSS thesis | Title page and pages 139-140 downloaded, rendered, and visually inspected; later bounded range probe timed out |
 | *Journal News*, Bernard Aronson obituary | HTTP 206 partial-content response; wartime paragraph reviewed in the research browser |
 | Naval History and Heritage Command enlisted-rating references | Reviewed through current official-domain search results; direct command-line probes returned HTTP 404 |
@@ -1116,6 +1123,40 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 108 local release check
+
+The rebuilt site contains direct, internally resolved routes for Stanley C.
+Aston, Theodore F. Astrella, James B. Aswell, Prayoon Atachinda, Ethel M.
+Atchison, James J. Atchison, Peter S. Athanasakos, Peter J. Atheneos, Everett
+J. Athens, and John S. Athens. Six profiles visibly retain unresolved identity
+status. Astrella's page uses the Fort Belvoir and official Army evidence for
+identity and occupation only; Aswell's page confirms his OSS Morale Operations
+identity without guessing a predecessor; Atachinda's page preserves the
+literal `Free Th` note and documented name variants; and Athens's page treats
+Chicago/Evros as an OSS assignment rather than a pre-OSS affiliation.
+
+The complete local link checker passed all 24,216 HTML files and inventoried
+48,606 unique external URLs. The public downloads contain 23,941 person rows,
+267 organization rows, 464 affiliation rows, and 789 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`c037db2ff7d8d9e116000560f00f86f7cd144f96d9ad285f88093e356e011f1c`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers and 121 formatted raw variants across 24,286 production
+artifacts returned zero full matches. Consecutive static builds produced the
+identical site-tree SHA-256
+`1d68c153aaee3eebbe0f8b5ba0c78b743d7d297148b30d77c13ef042267bcf31`.
+
+Direct checks returned HTTP 200 for the NARA index, GPO, 90th Division
+Association, Louisiana Historical Association, Cambridge University Press,
+and ELIA Evros-report targets. The LSU finding aid returned HTTP 403 to the
+command-line client, and the CIA PDF entered the Reading Room's current
+redirect loop after an HTTP 302. Both remain stable institutional or archival
+citation targets previously reviewed through accessible indexed context; the
+access behavior does not replace source review with a search-results page, and
+no rejected namesake was promoted to a public employer claim.
 
 ## Batch 107 local release check
 

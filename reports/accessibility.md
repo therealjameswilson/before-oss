@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 366 / 366 browser cases.**
+**PASS - 369 / 369 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,28 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 108 accessibility and responsive regression
+
+The Batch 108 regression checks the ten contiguous page-fifteen profiles from
+Stanley C. Aston through John S. Athens. It verifies every direct profile, Box
+24 provenance, field-level serial masking, the six visibly unresolved
+identities, Theodore F. Astrella and Prayoon Atachinda's high-confidence
+identity labels, and James B. Aswell and Everett J. Athens's confirmed
+identities.
+
+The assertions keep Fort Belvoir engineer context, OSS Morale Operations, the
+Free Thai scholarly locator, and the Chicago/Evros Mission in their stated
+identity or occupation lanes. All four profiles continue to show unresolved
+immediate-affiliation and last-civilian-employer sections rather than turning
+those sources into unsupported predecessor claims. The test also verifies the
+literal `Free Th` note, documented spelling variants, citation links, all ten
+personnel classifications, and masked or explicitly unprinted service
+identifiers.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete desktop,
+phone, tablet, responsive, direct-route, search, and axe matrix passed 369 /
+369 with no assertion failure or serious/critical accessibility violation.
 
 ## Batch 107 accessibility and responsive regression
 
