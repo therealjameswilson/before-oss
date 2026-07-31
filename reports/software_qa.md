@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30643121592](https://github.com/therealjameswilson/before-oss/actions/runs/30643121592)
-  for Batch 098 release `55fc2b5`: **passed**
+  [30645521000](https://github.com/therealjameswilson/before-oss/actions/runs/30645521000)
+  for Batch 099 release `7d8bef1`: **passed**
 - GitHub Pages deployment workflow
-  [30643121609](https://github.com/therealjameswilson/before-oss/actions/runs/30643121609)
-  for Batch 098 release `55fc2b5`: **passed**
-- Production route smoke tests: **19 / 19 returned HTTP 200 and matched the
+  [30645521003](https://github.com/therealjameswilson/before-oss/actions/runs/30645521003)
+  for Batch 099 release `7d8bef1`: **passed**
+- Production route smoke tests: **22 / 22 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 84 live
+- Production redaction scan: **0 full private-identifier matches across 87 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `a1eafeec2e3cd157a33e4524b46ab1c721be82e39487782d8f61be9d680c582a`
+  `63c90766b82b8efec8218fe0cda011d63d0ea15a685c6de46059d37c7ca5dacb`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1566,6 +1566,17 @@ claims. Coverage distinguishes 812 people with a non-planned research attempt,
 222 people with verified affiliation evidence, 127 people with verified
 employment or self-employment evidence, and 760 people whose archival-review
 need has been assessed.
+
+The Batch 099 production audit followed successful GitHub test workflow
+[30645521000](https://github.com/therealjameswilson/before-oss/actions/runs/30645521000)
+and Pages workflow
+[30645521003](https://github.com/therealjameswilson/before-oss/actions/runs/30645521003)
+for release `7d8bef1`. All 22 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The boundary-aware exact-token scan found zero full
+private-identifier matches across 87 deployed artifacts.
 
 ## Batch 098 local release QA
 

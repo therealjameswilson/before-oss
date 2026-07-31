@@ -1070,3 +1070,10 @@ renders personnel categories in lowercase and uses the established
 visible page semantics, the focused desktop, phone, and tablet run passed
 3 / 3. The complete browser, responsive, and accessibility matrix passed
 342 / 342 with no assertion or serious/critical axe failure.
+
+GitHub test workflow
+[30645521000](https://github.com/therealjameswilson/before-oss/actions/runs/30645521000)
+repeated the complete research and site matrix for release `7d8bef1` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.

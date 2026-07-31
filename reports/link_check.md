@@ -1139,6 +1139,37 @@ identifier matches. Two consecutive static builds produced the identical
 site-tree SHA-256
 `6377c164e20e139ebd26395e7d948e75906f41f05cc1cd33e7b055ec2d29df85`.
 
+## Batch 099 production deployment
+
+GitHub Actions test workflow
+[30645521000](https://github.com/therealjameswilson/before-oss/actions/runs/30645521000)
+and GitHub Pages deployment
+[30645521003](https://github.com/therealjameswilson/before-oss/actions/runs/30645521003)
+for the page-thirteen Armistead-through-Howard-Armstrong release `7d8bef1`
+completed successfully.
+
+Live checks returned HTTP 200 for all 22 tested publication routes: seven core
+publication pages, all ten Batch 099 person profiles, and the United States
+Navy, Armour and Company, General Stockyards Corporation, City National Bank
+and Trust Company of Chicago, and Field Museum of Natural History organization
+profiles. After substituting both plain and URL-encoded production canonical
+hosts, every route matched the audited local HTML byte-for-byte.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 812
+people with non-planned research attempts, 222 verified-affiliation people,
+127 verified-employer people, 760 archival-review assessments, 776 published
+claims, and 729 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 259, 445, and 729 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`63c90766b82b8efec8218fe0cda011d63d0ea15a685c6de46059d37c7ca5dacb`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across the 87 audited live HTML and manifest-listed artifacts.
+
 ## Batch 098 local release check
 
 The rebuilt site contains direct, internally resolved routes for Salvatoroe
