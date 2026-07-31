@@ -703,6 +703,42 @@ newspaper/directory/obituary, institutional, and archival stages. All nine
 non-Amoss profiles retain actionable Box 13 or Box 14 archival-review
 guidance.
 
+## Page-eight Amy-through-Ancergues continuation, Batch 078
+
+`research/evidence-page-eight-amy-through-ancergues-pathways_batch-078_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Richard P.
+Amy-through-Etienne Ancergues rows on PDF page eight. Etienne Ancergues already
+had a completed Batch 045 outcome, so the new bundle does not repeat or alter
+his research. It contains nine visually checked official index citations, nine
+terminal research attempts, nine person updates, three normalized
+organizations, three affiliations, and six claims supported by sixteen source
+records. It stores no live NARA Catalog response, credential, full service
+identifier, full copyrighted page, or sensitive modern-person detail.
+
+Harvard Divinity School Library's institutional history documents Milton V.
+Anastos as its librarian from 1936 through 1939. A Harvard finding aid and
+Dumbarton Oaks source independently identify the same Byzantine scholar; the
+latter documents his 1941–1943 Junior Fellowship. The librarian role is
+published as high-confidence documented pre-OSS employment. The fellowship is
+published as a visibly qualified, medium-confidence professional affiliation,
+not employment and not an immediate predecessor to OSS.
+
+A contemporary Library of Congress newspaper image identifies Harry H.
+Anbender as an attorney working from United Auto Workers counsel Maurice
+Sugar's office in May 1941. A later institutional newspaper obituary
+corroborates his legal identity and World War II Air Force service. The record
+supports a high-confidence professional affiliation with Sugar's office, but
+does not establish formal employment, immediacy, or the last civilian employer;
+the public profile therefore remains occupation-only.
+
+Searches for Angelo Anastasio produced a plausible but underidentified
+contemporary lieutenant, while `Anacap` and `Anania` were tested only as search
+aliases for the clearly printed Anacab and Anamia rows. None was adopted as a
+name correction or public fact. Richard Amy, John Anacab, Christian
+Anagnostis, Ettore Anamia, Angelo Anastasio, Peter Anastasio, and Stella
+Anastos retain Box 14 archival-review guidance. Etienne Ancergues's previously
+reviewed Allied pathway remains unchanged.
+
 ## Official reference material
 
 - NARA OSS personnel records:

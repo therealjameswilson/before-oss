@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/119 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/120 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 198 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 200 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -6792,5 +6792,164 @@ test("Batch 077 separates Amoss's COI assignment from his last civilian employer
   ).toBeVisible();
   await expect(
     page.getByRole("link", { name: "Uliuss L Amoss", exact: true }),
+  ).toBeVisible();
+});
+
+test("Batch 078 publishes Anastos and Anbender's bounded pre-OSS evidence without promoting unresolved candidates", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["d8209b92-fafd-5c8a-a1e4-7639f4f1d114", "Richard P Amy", "unresolved"],
+    ["50c86aa3-171d-5a70-b8d5-1d785ebfabb9", "John S Anacab", "unresolved"],
+    [
+      "48254a06-bcc0-52f8-b133-9790596ee101",
+      "Christian B Anagnostis",
+      "unresolved",
+    ],
+    ["8c55cdf4-03d1-5280-ab5b-30cca64404ef", "Ettore Anamia", "unresolved"],
+    ["837eb17f-fd7d-57af-bd7b-f1b9e098e841", "Angelo Anastasio", "ambiguous"],
+    ["654b9db0-c854-5423-8a0e-10c1a57b6de3", "Peter J Anastasio", "unresolved"],
+    ["add9ec59-1846-5dbb-8f81-f680e774cd7a", "Stella Anastos", "unresolved"],
+  ];
+
+  for (const [personId, displayName, identityStatus] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("14", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/837eb17f-fd7d-57af-bd7b-f1b9e098e841/");
+  await expect(page.locator("body")).not.toContainText("Camp Shelby");
+
+  await page.goto("./people/831906a8-758d-5b32-b486-89321efda28e/");
+  await expect(
+    page.getByRole("heading", { name: "Milton V Anastos", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Harvard Divinity School Library",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Dumbarton Oaks Research Library and Collection",
+  );
+  await expect(page.locator("body")).toContainText("professional affiliation");
+  await expect(
+    page.getByRole("link", { name: "Librarians", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://library.hds.harvard.edu/about/mission-and-history/librarians",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Saving the World, Part I: Dumbarton Oaks to Monuments Men",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://icfadumbartonoaks.wordpress.com/2014/02/10/saving-the-world-part-i-dumbarton-oaks-to-monuments-men/",
+  );
+
+  await page.goto("./people/c1e004f0-a1bb-5b4a-ad5a-83fbb0e6c883/");
+  await expect(
+    page.getByRole("heading", { name: "Harry H Anbender", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Office of Maurice Sugar, UAW counsel",
+  );
+  await expect(page.locator("body")).toContainText("professional affiliation");
+  await expect(page.locator("body")).toContainText(
+    "No publishable immediate affiliation or civilian employer is recorded yet",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "United automobile worker (Detroit, Mich.), May 15, 1941",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.loc.gov/resource/42047197/1941-05-15/ed-1/?sp=5",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Harry H. Anbender, Attorney, Dies at 46",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://digital.bentley.umich.edu/djnews/djn.1962.06.22.001/30",
+  );
+
+  await page.goto(
+    "./organizations/4bdfb9fb-0342-504d-b2be-884706acd53a/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "Harvard Divinity School Library",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Milton V Anastos", exact: true }),
+  ).toBeVisible();
+
+  await page.goto(
+    "./organizations/0fea8763-a2e6-5c1e-8fde-79545d8629b5/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "Dumbarton Oaks Research Library and Collection",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Milton V Anastos", exact: true }),
+  ).toBeVisible();
+
+  await page.goto(
+    "./organizations/91537f19-0c8c-5805-a655-8a90cf625b43/",
+  );
+  await expect(
+    page.getByRole("heading", {
+      name: "Office of Maurice Sugar, UAW counsel",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Harry H Anbender", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./people/b9907bf8-4544-55fe-85a2-e99e9530df73/");
+  await expect(
+    page.getByRole("heading", { name: "Etienne Ancergues", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("completed", { exact: true }).first(),
   ).toBeVisible();
 });

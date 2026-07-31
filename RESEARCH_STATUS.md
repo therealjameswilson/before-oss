@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 597 people with a non-planned attempt | 23,941 person entities | 2.4936% |
-| Verified-affiliation coverage | 198 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8270% |
-| Verified-employer coverage | 119 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4971% |
-| Archival-review coverage | 544 people with an individual file-access/priority assessment | 23,941 person entities | 2.2723% |
+| Research-attempt coverage | 606 people with a non-planned attempt | 23,941 person entities | 2.5312% |
+| Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
+| Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
+| Archival-review coverage | 553 people with an individual file-access/priority assessment | 23,941 person entities | 2.3098% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 22
-- Identity status `high_confidence`: 250
+- Identity status `high_confidence`: 252
 - Identity status `probable`: 17
-- Identity status `ambiguous`: 19
+- Identity status `ambiguous`: 20
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,632
+- Identity status `unresolved`: 23,629
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,344
+- `not_started`: 23,335
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 22
-- `occupation_only_found`: 23
-- `requires_archival_review`: 332
+- `documented_prewar_employer_found`: 23
+- `occupation_only_found`: 24
+- `requires_archival_review`: 339
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -62,15 +62,15 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 326
+- Reviewed-web terminal-protocol attempts recorded: 335
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 282 across 268 people; 15 additional
+- Saved `source_reviewed` outcomes: 284 across 270 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,621
+- Total recorded attempts/plans: 1,630
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 264; 251 have at least one public-eligible
+- People with saved reviewed claims: 267; 253 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -453,11 +453,30 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   publication and remain ambiguous. The other seven identities remain
   unresolved. Nine profiles route to Box 13 or Box 14 review without namesake
   promotion.
-- Published affiliations: 402
-- Database claims: 702; public-eligible claims: 686 (97 confirmed, 518 high, 71
-  medium); 16 low-confidence claims concerning 13 people are withheld
-- Citation records: 920; public source export: 612; unique source documents: 571
-- Canonical organizations: 242 private and 240 public
+  Batch 078 continued through Richard P. Amy, John S. Anacab, Christian B.
+  Anagnostis, Ettore Anamia, Angelo Anastasio, Peter J. Anastasio, Milton V.
+  Anastos, Stella Anastos, and Harry H. Anbender on PDF page eight while
+  preserving Etienne Ancergues's completed Batch 045 review. Harvard
+  institutional records and a contemporary Foreign Service Journal byline
+  resolve Milton V. Anastos at high identity confidence. His 1936-1939
+  Harvard Divinity School Library directorship is published as earlier
+  documented employment, and his 1941-1943 Dumbarton Oaks Junior Fellowship
+  is kept separate as a qualified professional affiliation; neither is
+  promoted to immediate affiliation or last civilian employer. A May 1941
+  Library of Congress newspaper page and a Bentley Historical Library
+  obituary resolve Harry H. Anbender at high confidence as a Detroit attorney
+  and World War II Air Force veteran. His relationship to UAW counsel Maurice
+  Sugar's office is published as a professional affiliation, not employment.
+  A same-name commissioned-lieutenant lead for Angelo Anastasio lacks a unique
+  identifier and remains withheld at low confidence. The other six new
+  identities remain unresolved. Seven profiles route to high-priority Box 14
+  review and the two high-confidence profiles remain at medium archival
+  priority for their unresolved immediate pathways.
+- Published affiliations: 405
+- Database claims: 708; public-eligible claims: 691 (97 confirmed, 522 high, 72
+  medium); 17 low-confidence claims concerning 14 people are withheld
+- Citation records: 936; public source export: 620; unique source documents: 578
+- Canonical organizations: 245 private and 243 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
 
@@ -583,6 +602,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-six-seve
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ambrose-through-ames-pathways_batch-075_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ames-through-amon-pathways_batch-076_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amoruso-through-amunrud-pathways_batch-077_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amy-through-ancergues-pathways_batch-078_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
