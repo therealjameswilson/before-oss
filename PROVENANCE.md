@@ -1763,6 +1763,58 @@ no live NARA API response was retained. Temporary text extracts and the page
 render were used only for inspection and removed after review. No full service
 identifier appears in the evidence bundle or public projection.
 
+## Page-fourteen Ashcraft-through-Ashworth pathways, Batch 106
+
+`research/evidence-page-fourteen-ashcraft-through-ashworth-pathways_batch-106_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-fourteen rows from Wanda T.
+Ashcraft through James M. Ashworth. The two adjacent Ashcraft rows, the printed
+single-`l` spelling `Wiliam B. Asher`, Army ranks, civilian `P-1` grade, blank
+rank and identifier cells, Box 23-to-24 transition, and archive location were
+checked against the rendered source page. The bundle contains ten person
+updates, sixteen sources, five organizations, five affiliations, seven claims,
+twenty claim-source links, and ten durable research attempts.
+
+Ira Ashley is confirmed through three mutually reinforcing contemporary or
+near-contemporary sources. *Broadcasting* records his resignation as a
+Lambert & Feasley producer-director effective 1 November 1942, later identifies
+him as a private completing Army basic training at Keesler Field, and reports
+his return from OSS duties in London in December 1945. Egon Larsen's 1985
+eyewitness account identifies Second Lieutenant Ira Ashley as his OSS contact
+in London in April 1944. The Army pathway is therefore published only as a
+medium-confidence probable-immediate military assignment: the chronology is
+strong, but no transfer order was found. Lambert & Feasley is the last named
+civilian employer. Ashley's later Stage Door Canteen producing work is retained
+separately as a professional affiliation because the source names a program,
+not an employing organization.
+
+Mark Ashin remains a probable identity. University of Chicago's institutional
+obituary states that he joined its faculty in 1942 and left shortly afterward
+for wartime service. Official Michigan State Board minutes appoint Mark Ashin
+as an English instructor effective 1 September 1939. The uncommon exact name
+and compatible chronology support qualified medium-confidence claims, but no
+reviewed source directly links the institutional biography to the OSS index
+row. University of Chicago is modeled as the strongly date-bounded last
+civilian employer before military service; Michigan State College remains
+earlier documented employment. Both are excluded from default verified-
+employer analytics because the identity is probable rather than confirmed or
+high confidence.
+
+Wanda T. Ashcraft, William C. Ashcraft, Wiliam B. Asher, Alfred B. Ashley,
+Belva L. Ashley, Richard Ashley, Margaret Ashton, and James M. Ashworth remain
+unresolved after official-context, CIA Reading Room, exact-name OSS,
+employment/occupation, obituary, directory, newspaper, institutional,
+archival, NARA, and Library of Congress checks. An Alfred Ashley Silver Star
+namesake, an unsourced Belva Lorraine Ashley genealogy candidate, and a
+Margaret Ashton suffragist who died in 1937 were rejected rather than merged.
+`William B. Asher` remains only a marked search alias and is not adopted as a
+correction of the index.
+
+All cited PDF pages were rendered and visually inspected. No authenticated
+NARA Catalog request was made, no API key was accessed, and no live NARA API
+response was retained. Temporary PDFs, text extractions, and page renders were
+used only for inspection and removed after review. No full service identifier
+appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

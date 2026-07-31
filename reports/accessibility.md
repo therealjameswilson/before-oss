@@ -1047,6 +1047,28 @@ completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
 
+## Batch 106 accessibility and responsive regression
+
+The Batch 106 regression checks the ten contiguous page-fourteen profiles from
+Wanda T. Ashcraft through James M. Ashworth. It verifies every direct profile,
+Box 23 or 24 provenance, field-level serial masking, the eight visibly
+unresolved identities, Mark Ashin's probable identity, and Ira Ashley's
+confirmed identity. The printed single-`l` Wiliam B. Asher spelling remains
+primary while William is labeled only as a search alias.
+
+Ashin's page is tested for qualified University of Chicago and Michigan State
+College employment and the absence of an unsupported immediate OSS predecessor.
+Ashley's page is tested for a probable-immediate Army pathway, a distinct last
+named civilian employer, and Stage Door Canteen activity modeled as a
+professional affiliation rather than an employer. The four new organization
+routes link to the intended profiles and expose claim-level citations.
+
+The first complete run passed 360 tests and exposed three viewport instances
+of one stale homepage-count assertion. After updating that assertion from the
+Batch 105 totals to the generated Batch 106 totals, the complete desktop,
+phone, tablet, responsive, direct-route, search, and axe matrix passed 363 / 363
+with no assertion failure or serious/critical accessibility violation.
+
 ## Batch 105 accessibility and responsive regression
 
 The Batch 105 regression checks the ten contiguous page-fourteen profiles from

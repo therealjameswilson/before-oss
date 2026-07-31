@@ -1521,6 +1521,57 @@ by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
 
+## Batch 106 local release QA
+
+Batch 106 adds ten visually checked page-fourteen people from Wanda T.
+Ashcraft through James M. Ashworth. The reviewed bundle imports ten durable
+terminal research attempts, sixteen sources, five organizations, five
+affiliations, seven claims, and twenty claim-source links. It confirms Ira
+Ashley's OSS identity and keeps his Army pathway, last named civilian employer,
+and Stage Door Canteen professional work in separate evidence lanes. Mark
+Ashin's University of Chicago and Michigan State College employment remains
+visibly qualified because the identity is probable. Eight profiles remain
+unresolved and route to Box 23 or 24.
+
+The evidence import replayed idempotently and passed Pydantic validation.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The full Python suite passed 54 / 54. The static build completed 24,215
+pages with zero Astro errors, warnings, or hints. After the homepage assertion
+was updated from the Batch 105 coverage totals, the focused Batch 106 regression
+and complete browser, responsive, and accessibility matrix passed 363 / 363.
+The internal link checker passed all 24,215 HTML pages and inventoried 48,597
+unique external URLs. The production dependency audit reported zero
+vulnerabilities. The deterministic stratified profile audit passed all checks
+for 200 profiles.
+
+Consecutive static builds produced the identical
+`a440e3f1576435ea21db9a8310e80c9d0b58b9be16971bd1ae6a6c737313a370`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The manifest
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`.
+A boundary-aware exact-token comparison reduced 12,932 distinct private values
+to 12,919 nontrivial normalized identifiers and found zero unexpected full
+matches across 24,254 non-gzip production artifacts. One numeric overlap in
+the public manifest is file-size metadata, not an identifier. No local
+credential file, nonblank API-key assignment, authenticated NARA Catalog
+request, or raw Catalog response was used.
+
+The Batch 106 database contains 1,910 durable research attempts, 1,322 private
+citation records, 466 affiliations, and 827 claims: 115 confirmed, 591 high,
+101 medium, and 20 low confidence. The reviewed public projection contains 774
+source records representing 683 unique documents, 462 affiliations, and 807
+claims. Coverage distinguishes 881 people with a non-planned research attempt,
+227 people with verified affiliation evidence, 130 people with verified
+employment or self-employment evidence, and 829 people whose archival-review
+need has been assessed.
+
+A fresh checkout of the Batch 106 release tree rebuilt the frozen PDF, all page
+reviews, adapter checkpoints, review decisions, and 106 evidence batches.
+Seventy-eight of 84 tracked generated/public and QA artifacts matched the
+commit byte for byte; the other six differed only in expected report-generation
+timestamps. No unexpected replay difference remained.
+
 ## Batch 105 local release QA
 
 Batch 105 adds ten visually checked page-fourteen people from Charles H. Ash

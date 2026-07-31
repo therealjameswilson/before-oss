@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 871 people with a non-planned attempt | 23,941 person entities | 3.6381% |
-| Verified-affiliation coverage | 226 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9440% |
-| Verified-employer coverage | 129 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5388% |
-| Archival-review coverage | 819 people with an individual file-access/priority assessment | 23,941 person entities | 3.4209% |
+| Research-attempt coverage | 881 people with a non-planned attempt | 23,941 person entities | 3.6799% |
+| Verified-affiliation coverage | 227 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9482% |
+| Verified-employer coverage | 130 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5430% |
+| Archival-review coverage | 829 people with an individual file-access/priority assessment | 23,941 person entities | 3.4627% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 41
+- Identity status `confirmed`: 42
 - Identity status `high_confidence`: 277
-- Identity status `probable`: 29
+- Identity status `probable`: 30
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,568
+- Identity status `unresolved`: 23,566
 
 ## Personnel categories
 
@@ -46,15 +46,15 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,070
+- `not_started`: 23,060
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 27
+- `documented_prewar_employer_found`: 28
 - `occupation_only_found`: 28
-- `requires_archival_review`: 567
+- `requires_archival_review`: 575
 - `completed`: 51
-- `verified_employer_found`: 134
+- `verified_employer_found`: 135
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,17 +65,17 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 155
+- Reviewed-web-and-official-source attempts recorded: 165
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 334 across 316 people; 27 additional
+- Saved `source_reviewed` outcomes: 336 across 318 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,900
+- Total recorded attempts/plans: 1,910
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 322; 305 have at least one public-eligible
+- People with saved reviewed claims: 324; 307 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -877,13 +877,32 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
   Lillie remain search aliases rather than silent corrections of the printed
   Lylie H. Ashby row. All ten profiles remain unresolved and route to Box 23
   with record-specific questions.
-- Published affiliations: 457
-- Database claims: 820; public-eligible claims: 800 (114 confirmed, 589 high, 97
+  Batch 106 continues page fourteen with Wanda T. Ashcraft through James M.
+  Ashworth. Ira Ashley is confirmed by the exact name and Second Lieutenant
+  rank in an eyewitness OSS London account, contemporary reporting of Army
+  basic training at Keesler Field in October 1943, and a December 1945 notice
+  that he had returned from OSS duties in London. The Army pathway is published
+  only as medium-confidence probable-immediate because no transfer order was
+  found. Lambert & Feasley is his last named civilian employer, ending November
+  1, 1942; a later Stage Door Canteen producer role is preserved separately as
+  a professional affiliation because the employing organization is not stated.
+  Mark Ashin remains a probable identity: official Michigan State minutes
+  appoint him as an English instructor in 1939, and a University of Chicago
+  obituary says he joined its faculty in 1942 and left shortly afterward for
+  wartime military service. Those employers publish with medium-confidence
+  identity qualification and remain outside default employer analytics. Wanda
+  T. Ashcraft, William C. Ashcraft, the printed Wiliam B. Asher, Alfred B.
+  Ashley, Belva L. Ashley, Richard Ashley, Margaret Ashton, and James M.
+  Ashworth remain unresolved after the terminal protocol and route to Box 23 or
+  24. William is retained only as a marked search alias for Wiliam, not adopted
+  as a correction.
+- Published affiliations: 462
+- Database claims: 827; public-eligible claims: 807 (115 confirmed, 591 high, 101
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,306; public source export: 766; unique source documents: 677
-- Canonical organizations: 266 private and 264 public
+- Citation records: 1,322; public source export: 774; unique source documents: 683
+- Canonical organizations: 268 private and 266 public
 - Conflicts: 1
-- NARA pull-list rows: 23,844
+- NARA pull-list rows: 23,843
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1035,6 +1054,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-arnston-through-arrington-pathways_batch-103_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-arrington-through-aserinsky-pathways_batch-104_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ash-through-ashcraft-pathways_batch-105_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ashcraft-through-ashworth-pathways_batch-106_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

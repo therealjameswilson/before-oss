@@ -1117,6 +1117,35 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 106 local release check
+
+The rebuilt site contains direct, internally resolved routes for Wanda T.
+Ashcraft, William C. Ashcraft, Wiliam B. Asher, Mark Ashin, Alfred B. Ashley,
+Belva L. Ashley, Ira Ashley, Richard Ashley, Margaret Ashton, and James M.
+Ashworth. Eight profiles visibly retain unresolved identity status and Box 23
+or 24 archival guidance. Ashin's profile qualifies two academic employers;
+Ashley's profile separates Army service, Lambert & Feasley employment, and
+Stage Door Canteen professional activity.
+
+The complete local link checker passed all 24,215 HTML files and inventoried
+48,597 unique external URLs. The public downloads contain 23,941 person rows,
+266 organization rows, 462 affiliation rows, and 774 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers against 24,254 non-gzip production artifacts returned zero
+unexpected full matches after one numeric manifest byte-size coincidence was
+classified. Consecutive static builds produced the identical site-tree
+SHA-256
+`a440e3f1576435ea21db9a8310e80c9d0b58b9be16971bd1ae6a6c737313a370`.
+
+The newly cited University of Chicago, Michigan State, *Broadcasting*, and
+American Journalism Review targets are retained as item-level sources. No
+search-results page, genealogy candidate, or rejected namesake was promoted to
+a public employer claim.
+
 ## Batch 105 local release check
 
 The rebuilt site contains direct, internally resolved routes for Charles H.

@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/129 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/130 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 226 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 227 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -9903,4 +9903,134 @@ test("Batch 105 preserves the ten Ash-through-Ashcraft unresolved pathways", asy
   await page.goto("./people/26520e38-3b27-51af-882c-aa5f467f7d56/");
   await expect(page.locator("main")).toContainText("John W. Ashcraft Jr.");
   await expect(page.locator("main")).toContainText("died in 1929");
+});
+
+test("Batch 106 separates Ashin and Ashley pathways from unresolved namesakes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["7382ae26-2e40-524e-a919-0bfc6bdeee35", "Wanda T Ashcraft", "23", "unknown or indeterminate"],
+    ["97a55104-5418-54cc-9edb-dcdc8761048d", "William C Ashcraft", "24", "commissioned army officer"],
+    ["e5940ac0-eb51-59dc-ab83-ceb1b99e0058", "Wiliam B Asher", "24", "enlisted army personnel"],
+    ["4f5db04d-52d3-588c-ba4b-11735775169f", "Mark Ashin", "24", "commissioned army officer"],
+    ["68115a33-d5b9-5f8f-bff7-2005b1f457d0", "Alfred B Ashley", "24", "unknown or indeterminate"],
+    ["ec559cf3-d57b-59ad-bb97-a99305a4fe6f", "Belva L Ashley", "24", "unknown or indeterminate"],
+    ["be29e9b1-fea8-5401-b4bd-4b894241487f", "Ira Ashley", "24", "commissioned army officer"],
+    ["a61918bd-cd62-5871-bd12-f130ebdef75a", "Richard Ashley", "24", "enlisted army personnel"],
+    ["f4177419-d9b3-5ebf-907e-a45e48e85c07", "Margaret Ashton", "24", "civilian professional or administrative grade"],
+    ["01e5ee6c-bf6e-53c6-bd7c-249d6bc4e938", "James M Ashworth", "24", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, box, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "7382ae26-2e40-524e-a919-0bfc6bdeee35",
+    "97a55104-5418-54cc-9edb-dcdc8761048d",
+    "e5940ac0-eb51-59dc-ab83-ceb1b99e0058",
+    "68115a33-d5b9-5f8f-bff7-2005b1f457d0",
+    "ec559cf3-d57b-59ad-bb97-a99305a4fe6f",
+    "a61918bd-cd62-5871-bd12-f130ebdef75a",
+    "f4177419-d9b3-5ebf-907e-a45e48e85c07",
+    "01e5ee6c-bf6e-53c6-bd7c-249d6bc4e938",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/e5940ac0-eb51-59dc-ab83-ceb1b99e0058/");
+  await expect(page.locator("main")).toContainText(
+    "William B Asher (search alias; not a correction)",
+  );
+
+  await page.goto("./people/4f5db04d-52d3-588c-ba4b-11735775169f/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("University of Chicago");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("strongly date bounded");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Michigan State College");
+  await expect(
+    page.getByRole("link", { name: "Obituary: Mark Ashin", exact: true }).first(),
+  ).toHaveAttribute("href", /chronicle\.uchicago\.edu/);
+  await expect(
+    page.getByRole("link", {
+      name: "Minutes of the Meeting of the State Board of Agriculture, September 15, 1939",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /onthebanks\.msu\.edu/);
+
+  await page.goto("./people/be29e9b1-fea8-5401-b4bd-4b894241487f/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Lambert & Feasley");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("documented prewar");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Stage Door Canteen (CBS radio program)");
+  await expect(
+    page.getByRole("link", {
+      name: "Now It Can Be Told: The Story of the Soldatensender",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /ajr\.org\.uk/);
+  await expect(
+    page.getByRole("link", { name: "Producer in the Army", exact: true }).first(),
+  ).toHaveAttribute("href", /worldradiohistory\.com/);
+
+  for (const [organizationId, organizationName, personName] of [
+    ["6d308576-4b9f-581f-b5fd-7f63d742e1e3", "Lambert & Feasley", "Ira Ashley"],
+    ["d37718c1-1acf-5c35-9d9d-2be5a1de1dd6", "Stage Door Canteen (CBS radio program)", "Ira Ashley"],
+    ["f2c878b0-ee44-573d-ab30-7e4282bc85e5", "University of Chicago", "Mark Ashin"],
+    ["24ac156d-62e6-5107-a412-646391d990a2", "Michigan State College", "Mark Ashin"],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+  }
 });
