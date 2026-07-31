@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/123 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 206 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 209 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8132,4 +8132,112 @@ test("Batch 091 publishes Antell's bounded civilian and naval pathways while pre
   await expect(
     page.getByRole("link", { name: "Bertel W Antell", exact: true }),
   ).toBeVisible();
+});
+
+test("Batch 092 publishes three bounded Greek Battalion pathways and preserves seven identity or archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["65677c39-0808-5010-96e3-32ddc1f55523", "Robert Anthony"],
+    ["734d742c-a97a-5a3f-9e48-c86f97448d9d", "Ante E Antic"],
+    ["5b905dae-587e-5d02-b97a-f7ae0ec69f81", "John F Antico"],
+    ["52960160-a468-5dec-9c53-adc1d1e0272b", "Alan A Antik"],
+    ["ee32afee-f301-5e06-aacd-fce55cf1f4b9", "Charles P Antinopoulos"],
+    ["706754b3-4c4c-5357-8058-459a43e950cf", "Laurens L Antley"],
+    ["51229779-a805-5c45-af79-06beb3d2ba25", "Grace R Antoinette"],
+    ["192a8818-01c8-53a2-9e61-cf2e26a3fe5a", "Hannah Antolik"],
+    ["36a2a3c0-7c97-5b0b-81f6-8cf59d53862f", "Peter G Anton"],
+    ["1db6492d-92d0-552b-bf67-68a481339b9b", "James Antonakis"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("19", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b(?!-)/);
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "65677c39-0808-5010-96e3-32ddc1f55523",
+    "734d742c-a97a-5a3f-9e48-c86f97448d9d",
+    "5b905dae-587e-5d02-b97a-f7ae0ec69f81",
+    "706754b3-4c4c-5357-8058-459a43e950cf",
+    "51229779-a805-5c45-af79-06beb3d2ba25",
+    "192a8818-01c8-53a2-9e61-cf2e26a3fe5a",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/52960160-a468-5dec-9c53-adc1d1e0272b/");
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "probably the film technician credited by the American Film Institute",
+  );
+  await expect(page.locator("body")).toContainText(
+    "do not supply the middle initial, an OSS personnel-file link, or a pre-OSS chronology",
+  );
+
+  for (const [personId, identityStatus] of [
+    ["ee32afee-f301-5e06-aacd-fce55cf1f4b9", "confirmed"],
+    ["36a2a3c0-7c97-5b0b-81f6-8cf59d53862f", "high confidence"],
+    ["1db6492d-92d0-552b-bf67-68a481339b9b", "confirmed"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("verified employer found", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "enlisted army personnel",
+    );
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("122nd Infantry Battalion (Separate)");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("military assignment");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("strongly date bounded");
+    await expect(page.locator("body")).toContainText(
+      "does not state his personal transfer date",
+    );
+  }
+
+  await page.goto("./organizations/2405baa3-705e-5fce-9a65-25d343587817/");
+  await expect(
+    page.getByRole("heading", { name: "122nd Infantry Battalion (Separate)", exact: true }),
+  ).toBeVisible();
+  for (const displayName of [
+    "Charles P Antinopoulos",
+    "Peter G Anton",
+    "James Antonakis",
+  ]) {
+    await expect(
+      page.getByRole("link", { name: displayName, exact: true }),
+    ).toBeVisible();
+  }
 });

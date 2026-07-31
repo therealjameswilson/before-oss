@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 249 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,513 unique external URLs for separate live
+The checker inventoried 48,516 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1112,6 +1112,26 @@ manifest SHA-256 is
 `bb402dfe8054785ad4a07ad9af9fb8f4c63ef38550e8649255a51e7e14d6c3d5`.
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
+returned zero full identifier matches.
+
+## Batch 092 local release check
+
+The rebuilt site contains direct, internally resolved routes for Robert
+Anthony, Ante E. Antic, John F. Antico, Alan A. Antik, Charles P.
+Antinopoulos, Laurens L. Antley, Grace R. Antoinette, Hannah Antolik, Peter G.
+Anton, and James Antonakis. Six profiles visibly retain unresolved identity
+status, Alan A. Antik retains a qualified postwar identity lead without a
+pre-OSS employer claim, and the three published 122nd Infantry Battalion
+pathways remain military assignments rather than civilian employment.
+
+The complete local link checker passed all 24,198 HTML files and inventoried
+48,516 unique external URLs. The public downloads contain 23,941 person rows,
+249 organization rows, 421 affiliation rows, and 665 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values, the
+manifest forbidden-field check passed, and the manifest SHA-256 is
+`2c9d9e2092753ccff6054ce07746a261883a7cfce015ab41be1300241d3210d7`.
+A bounded, field-aware exact-token comparison of all 12,919 nontrivial
+normalized private identifiers against 24,237 non-gzip production artifacts
 returned zero full identifier matches.
 
 ## Batch 091 production deployment and local release check

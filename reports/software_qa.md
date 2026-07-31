@@ -7,10 +7,10 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,198 pages**
 - Internal link check: **24,198 HTML files passed**
-- Browser and accessibility suite: **318 / 318 passed**
+- Browser and accessibility suite: **321 / 321 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`0e97dc7aa9ba15d983c1241e70eba019caf34ae0b8e4a4577ac5da35e5f03408`)
+  (`0c8b5442c8ced9357cdd41613119977f79f8c2a15f7c4398b0d777a3f374add2`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,7 +19,7 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `47d6b6f4e9824d23b6babaf0e142d4cbb06f4beb5d2fea9e50cf9e2c707242eb`
+  `2c9d9e2092753ccff6054ce07746a261883a7cfce015ab41be1300241d3210d7`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,12 +28,12 @@ Run: 2026-07-31 UTC
   tokens: **0 unexpected full-number matches** in **24,237** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **657** public records representing **611** unique documents
-- Private citation records: **1,095**
-- Published, qualified affiliations: **418**
-- Published claims: **719**
+- Reviewed public sources: **665** public records representing **614** unique documents
+- Private citation records: **1,109**
+- Published, qualified affiliations: **421**
+- Published claims: **726**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
-- Verified-affiliation metric: **206** people with confirmed/high published
+- Verified-affiliation metric: **209** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **123** people with confirmed/high published
   employment or self-employment evidence
@@ -1353,3 +1353,42 @@ plus both organization routes passed. The first homepage check compared raw
 markup rather than rendered heading text; the semantic heading check passed
 without a production change. The bounded field-aware exact-token scan found
 zero full private-identifier matches across 83 deployed artifacts.
+
+Batch 092 completes the minimum online protocol for Robert Anthony through
+James Antonakis on PDF page eleven. Charles P. Antinopoulos and James
+Antonakis have confirmed identity matches to an official OSS roster; Peter G.
+Anton has a high-confidence match supported by the roster and independent
+unit histories. All three are published with strongly date-bounded 122nd
+Infantry Battalion military pathways, not civilian-employer claims. Alan A.
+Antik remains a probable postwar identity lead whose film credits do not
+establish a pre-OSS employer. The other six identities remain unresolved.
+Seven profiles route to archival review, and no civilian employer is invented
+for any of the ten people.
+
+The targeted desktop, phone, and tablet regression passed 6 / 6, including
+the ten direct profiles and the linked organization route. The final full
+browser and accessibility matrix passed 321 / 321. Fifty-three Python tests,
+the 200-profile stratified audit, and the 24,198-page link check passed. The
+link checker inventoried 48,516 unique external URLs, and `npm audit` reported
+zero vulnerabilities.
+
+Two production builds produced the identical
+`0c8b5442c8ced9357cdd41613119977f79f8c2a15f7c4398b0d777a3f374add2`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values, the forbidden-field redaction check passed, and the
+manifest SHA-256 is
+`2c9d9e2092753ccff6054ce07746a261883a7cfce015ab41be1300241d3210d7`.
+A bounded, field-aware exact-token comparison of 12,919 normalized private
+identifiers across 24,237 non-gzip production artifacts found zero full-number
+matches. No local `.env` file or nonblank API-key assignment was present.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors.
+
+The Batch 092 database contains 1,770 durable research attempts, 1,109 private
+citation records, 425 affiliations, and 745 claims: 105 confirmed, 542 high,
+79 medium, and 19 low confidence. The reviewed public projection contains 665
+source records representing 614 unique documents, 421 affiliations, and 726
+claims. Coverage distinguishes 743 people with a non-planned research attempt,
+209 people with verified affiliation evidence, 123 people with verified
+employment or self-employment evidence, and 691 people whose archival-review
+need has been assessed. No authenticated NARA Catalog request was made.
