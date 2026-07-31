@@ -1137,6 +1137,36 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,241 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 094 production deployment
+
+GitHub Actions test workflow
+[30631501006](https://github.com/therealjameswilson/before-oss/actions/runs/30631501006)
+and GitHub Pages deployment
+[30631501002](https://github.com/therealjameswilson/before-oss/actions/runs/30631501002)
+for the page-twelve Apolito-through-Applebaum release `a0d2de3` completed
+successfully.
+
+Live checks returned HTTP 200 for all 19 tested publication routes: the
+homepage, personnel directory, analysis, methodology, sources, downloads, all
+ten Batch 094 person profiles, the updated Ivo Antunovic profile, and both new
+organization routes. Normalized semantic text on every route matched the
+audited local build. The live statistics report 23,978 source rows, 23,941
+person entities, 763 people with non-planned research attempts, 216
+verified-affiliation people, 125 verified-employer people, 711 archival-review
+assessments, 751 published claims, and 695 public source records. The live
+personnel CSV and JSONL downloads each contain 23,941 data rows; the
+organizations, affiliations, and sources downloads contain 253, 430, and 695
+data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`555e7e76d5929c2056a576c7ff980004c07ae0d3deb9ce8f45a5fad0b9556002`.
+The deployed manifest's forbidden-field check passed. A bounded, field-aware
+exact-token comparison of all 12,919 nontrivial normalized private identifiers
+against 84 live HTML, data, compressed-mirror, and download artifacts returned
+zero full-number matches.
+
 ## Batch 093 local release check
 
 The rebuilt site contains direct, internally resolved routes for Charlote

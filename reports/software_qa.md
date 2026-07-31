@@ -1502,3 +1502,21 @@ claims. Coverage distinguishes 763 people with a non-planned research attempt,
 216 people with verified affiliation evidence, 125 people with verified
 employment or self-employment evidence, and 711 people whose archival-review
 need has been assessed. No authenticated NARA Catalog request was made.
+
+The Batch 094 production audit followed successful GitHub test workflow
+[30631501006](https://github.com/therealjameswilson/before-oss/actions/runs/30631501006)
+and Pages workflow
+[30631501002](https://github.com/therealjameswilson/before-oss/actions/runs/30631501002)
+for release `a0d2de3`. All 19 deployed routes returned HTTP 200 and their
+normalized semantic text matched the audited local pages. All 65 deployed
+manifest assets matched their recorded hashes and local bytes, all eight live
+statistics and all five public-download row counts matched the release, and
+the ten new profiles, two organization routes, and updated Ivo Antunovic
+profile passed. The bounded field-aware exact-token scan found zero full
+private-identifier matches across 84 deployed artifacts.
+
+The workflows emitted one non-failing platform annotation: several pinned
+GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
+by the runner to Node.js 24. The repository's own test job explicitly uses
+Node.js 24, and the annotation did not affect the successful build or test
+results.

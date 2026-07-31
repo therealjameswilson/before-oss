@@ -922,3 +922,8 @@ about a public archival identifier and a private claim note; neither exposed a
 production data defect. The final targeted desktop, phone, and tablet run
 passed 3 / 3. The complete final matrix passed 327 / 327 with no assertion or
 serious/critical axe failure.
+
+GitHub test workflow
+[30631501006](https://github.com/therealjameswilson/before-oss/actions/runs/30631501006)
+repeated the complete build, responsive-browser, and accessibility matrix for
+release `a0d2de3` and completed successfully.
