@@ -1017,3 +1017,25 @@ repeated the complete research and site matrix for release `4119aa3` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 098 accessibility and responsive regression
+
+The Batch 098 regression checks the ten contiguous page-thirteen profiles from
+Salvatoroe Arlotta through John E. Armer. It verifies every direct profile,
+Box 21, field-level serial masking, and the six visibly unresolved identities.
+It also checks that `Salvatoroe`, `Armandariz`, `Armband`, and the printed
+`cPL` and `Caf-11` strings remain recoverable without silently publishing
+Salvatore or Armendariz as corrections.
+
+Edward W. Arluck's profile is tested for a qualified Columbia University
+student relationship, medium confidence, probable-immediate timing, and no
+civilian employer. Raymond Armandi's profile is tested for an explicit
+immediate Army pathway and for the exclusion of undated International Paper
+work from the civilian-employer section. Andrew Roy Armentor and John E. Armer
+are tested as completed identity outcomes without unsupported pre-OSS
+affiliations. Direct Columbia University and United States Army organization
+routes link back to the intended profiles.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, and accessibility matrix passed 339 / 339 with no assertion or
+serious/critical axe failure.

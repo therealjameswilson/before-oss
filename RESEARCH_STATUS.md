@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 792 people with a non-planned attempt | 23,941 person entities | 3.3081% |
-| Verified-affiliation coverage | 220 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9189% |
+| Research-attempt coverage | 802 people with a non-planned attempt | 23,941 person entities | 3.3499% |
+| Verified-affiliation coverage | 221 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9231% |
 | Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 740 people with an individual file-access/priority assessment | 23,941 person entities | 3.0909% |
+| Archival-review coverage | 750 people with an individual file-access/priority assessment | 23,941 person entities | 3.1327% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 35
-- Identity status `high_confidence`: 267
+- Identity status `confirmed`: 37
+- Identity status `high_confidence`: 269
 - Identity status `probable`: 28
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,586
+- Identity status `unresolved`: 23,582
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,149
+- `not_started`: 23,139
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 28
-- `requires_archival_review`: 502
-- `completed`: 40
+- `requires_archival_review`: 508
+- `completed`: 44
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -65,17 +65,17 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 65
+- Reviewed-web-and-official-source attempts recorded: 85
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 317 across 300 people; 26 additional
+- Saved `source_reviewed` outcomes: 321 across 304 people; 26 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,820
+- Total recorded attempts/plans: 1,830
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 304; 288 have at least one public-eligible
+- People with saved reviewed claims: 308; 292 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -752,10 +752,27 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
   and route to Box 20 or 21 review. The famous Chris Argyris candidate is
   rejected because his documented Signal Corps second-lieutenant service
   conflicts with the indexed captain rank and no source links him to OSS.
-- Published affiliations: 438
-- Database claims: 783; public-eligible claims: 764 (110 confirmed, 568 high, 86
+  Batch 098 begins page thirteen with the ten rows from Salvatoroe Arlotta
+  through John E. Armer. Edward W. Arluck is high-confidence from a
+  peer-reviewed OSS Psychology Division history and institutional
+  bibliographies. His 1941 Columbia dissertation is a qualified
+  probable-immediate student affiliation, not an employer. Raymond Armandi is
+  confirmed from a local-news obituary and matching Technician Fifth Grade
+  Spokane roster; the Army is his explicit immediate pathway, while his
+  undated International Paper career is not moved into the pre-OSS chronology.
+  Andrew Roy Armentor is confirmed from the exact uncommon full name, matching
+  Staff Sergeant obituary, and PEG roster; the roster's T/3 rank discrepancy
+  remains visible. Corporal John E. Armer is high-confidence from matching
+  initials, uncommon surname, rank, and BANANA roster, but neither identity
+  receives an unsupported pre-OSS affiliation. Salvatoroe Arlotta, Joseph O.
+  Armandariz, Virgile C. Armaos, Mary C. Armato, William E. Armband, and George
+  E. Armbruster remain unresolved and route to Box 21. Salvatoroe, Armandariz,
+  Armband, and the printed `cPL` string remain exactly recoverable; Salvatore
+  and Armendariz were search aliases only.
+- Published affiliations: 440
+- Database claims: 789; public-eligible claims: 770 (110 confirmed, 573 high, 87
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,189; public source export: 713; unique source documents: 641
+- Citation records: 1,206; public source export: 724; unique source documents: 647
 - Canonical organizations: 258 private and 256 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844

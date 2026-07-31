@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/127 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 220 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 221 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8965,6 +8965,147 @@ test("Batch 097 publishes Arensberg and Argyropais in distinct evidence lanes wh
       "31f32f7f-e7dc-5c4b-a43f-38432dbcca53",
       "National and Kapodistrian University of Athens",
       "Lemonis J Argyropais",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+  }
+});
+
+test("Batch 098 publishes Arluck and Armandi pathways while preserving six archival cases and two identity-only outcomes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2fc6b15e-a70b-53b1-8cb7-fccc6576f305", "Salvatoroe Arlotta"],
+    ["3711f377-5ab5-54da-8599-2ead535e07fb", "Edward W Arluck"],
+    ["6fc5aae3-7381-5bb2-b9fa-641901a94657", "Joseph O Armandariz"],
+    ["c2d19474-9028-5b38-bcac-8d3824b65a70", "Raymond Armandi"],
+    ["a0776531-ae02-50b1-acb7-1e4246a300f0", "Virgile C Armaos"],
+    ["aef22be7-52c9-53ae-ba5a-5a411501b82b", "Mary C Armato"],
+    ["9858d093-e0b6-53b7-9130-c42e4cd4990b", "William E Armband"],
+    ["95768589-c254-58da-8083-3867a475c528", "George E Armbruster"],
+    ["a6c677da-8464-557d-ba74-5731563db6da", "Andrew R Armentor"],
+    ["9ca18abd-a751-549e-9a03-b9b9a9759179", "John E Armer"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("21", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "2fc6b15e-a70b-53b1-8cb7-fccc6576f305",
+    "6fc5aae3-7381-5bb2-b9fa-641901a94657",
+    "a0776531-ae02-50b1-acb7-1e4246a300f0",
+    "aef22be7-52c9-53ae-ba5a-5a411501b82b",
+    "9858d093-e0b6-53b7-9130-c42e4cd4990b",
+    "95768589-c254-58da-8083-3867a475c528",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/2fc6b15e-a70b-53b1-8cb7-fccc6576f305/");
+  await expect(
+    page.getByRole("heading", { name: "Salvatoroe Arlotta", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).not.toContainText("Salvatore Arlotta");
+
+  await page.goto("./people/9858d093-e0b6-53b7-9130-c42e4cd4990b/");
+  await expect(
+    page.getByRole("heading", { name: "William E Armband", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("Caf-11");
+
+  await page.goto("./people/3711f377-5ab5-54da-8599-2ead535e07fb/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Columbia University");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("student");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+
+  await page.goto("./people/c2d19474-9028-5b38-bcac-8d3824b65a70/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("explicit immediate");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).not.toContainText("International Paper");
+
+  for (const [personId, identityText] of [
+    [
+      "a6c677da-8464-557d-ba74-5731563db6da",
+      "The indexed Staff Sergeant Andrew R. Armentor",
+    ],
+    [
+      "9ca18abd-a751-549e-9a03-b9b9a9759179",
+      "The indexed Corporal John E. Armer",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("body")).toContainText(identityText);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "87e3d52a-9ace-512a-9677-e966b7fbd5e5",
+      "Columbia University",
+      "Edward W Arluck",
+    ],
+    [
+      "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "United States Army",
+      "Raymond Armandi",
     ],
   ]) {
     await page.goto(`./organizations/${organizationId}/`);

@@ -1484,6 +1484,61 @@ no live NARA API response was retained. The PDF page render used for visual
 inspection was removed after review. No full service identifier appears in
 the evidence bundle or public projection.
 
+## Page-thirteen Arlotta-through-Armer pathways, Batch 098
+
+`research/evidence-page-thirteen-arlotta-through-armer-pathways_batch-098_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-thirteen rows from
+Salvatoroe Arlotta through John E. Armer. The bundle contains ten person
+updates, ten durable research attempts, seventeen source records, two
+organizations, two affiliations, six claims, and seventeen claim-source
+links.
+
+Edward W. Arluck is a high-confidence identity. Louise E. Hoffman's
+peer-reviewed history of the OSS Psychology Division names Edward W. Arluck
+among its psychologists by autumn 1941. The University of Bern's Rorschach
+Archives bibliography expands the rare name as Edward Wiltcher Arluck and
+records a 1941 Columbia University psychology study; the University of
+Pennsylvania Libraries' Online Books Page classifies the work as a
+dissertation. Columbia is therefore modeled only as a medium-confidence,
+probable-immediate student affiliation. It is not an employer claim, and the
+file must still confirm the full name, indexed enlisted rank, and transition
+into OSS.
+
+Raymond Armandi is confirmed through an exact uncommon-name, matching-rank,
+and direct-OSS convergence. A *Daily Bulldog* obituary explicitly states that
+he joined the Army in March 1943 and was then selected for OSS because of his
+French and Italian; a veteran-compiled Spokane/Sewanee roster independently
+lists Technician Fifth Grade Raymond Armandi. The Army is modeled as his
+explicit immediate military pathway. The same obituary gives a 43-year
+International Paper career without dates, so that company is not classified
+as pre-OSS employment.
+
+Andrew Roy Armentor is confirmed by the exact uncommon expanded name, the
+indexed middle initial, a funeral-home obituary identifying an Army Staff
+Sergeant in OSS commandos, and an Operational Groups PEG roster. The roster
+prints T/3 rather than Staff Sergeant; the difference is preserved for
+archival review and is not silently harmonized. The obituary's undated
+Armentor's Service Center ownership is not converted into a pre-OSS employer.
+John E. Armer is high-confidence from an exact initials, uncommon-surname,
+Corporal-rank, and direct-OSS roster match in the Chinese Operational Group's
+BANANA commando. The roster does not expand his first name or reproduce the
+private identifier, so the match remains short of confirmed. Neither Armentor
+nor Armer receives a pre-OSS affiliation claim from sources that document
+only OSS service.
+
+Salvatoroe Arlotta, Joseph O. Armandariz, Virgile C. Armaos, Mary C. Armato,
+William E. Armband, and George E. Armbruster remain unresolved after the
+staged official-context, CIA, exact-name OSS, employment/occupation, obituary,
+institutional, newspaper, archival, and Library of Congress protocol. The
+visually verified `Salvatoroe`, `Armandariz`, `Armband`, and `cPL` forms remain
+unchanged; Salvatore and Armendariz were used only as search aliases. All six
+profiles retain targeted Box 21 guidance.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. The PDF page render used for visual
+inspection was removed after review. No full service identifier appears in
+the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

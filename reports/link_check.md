@@ -1114,6 +1114,31 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 098 local release check
+
+The rebuilt site contains direct, internally resolved routes for Salvatoroe
+Arlotta, Edward W. Arluck, Joseph O. Armandariz, Raymond Armandi, Virgile C.
+Armaos, Mary C. Armato, William E. Armband, George E. Armbruster, Andrew R.
+Armentor, and John E. Armer. Six profiles visibly retain unresolved identity
+status, evidence-limited employer wording, and Box 21 archival guidance.
+Arluck's qualified Columbia student relationship is separate from the absent
+civilian employer; Armandi's explicit Army pathway does not convert his
+undated International Paper career into a pre-OSS claim. Armentor and Armer
+publish identity evidence without adding an unsupported immediate affiliation.
+
+The complete local link checker passed all 24,205 HTML files and inventoried
+48,554 unique external URLs. The public downloads contain 23,941 person rows,
+256 organization rows, 440 affiliation rows, and 724 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in
+both the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`a1eafeec2e3cd157a33e4524b46ab1c721be82e39487782d8f61be9d680c582a`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,244 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`78409396384e3397cf835d690ba8914c3d9a7be995ae3100b5ec495b4f32680b`.
+
 ## Batch 097 local release check
 
 The rebuilt site contains direct, internally resolved routes for Oliver W.

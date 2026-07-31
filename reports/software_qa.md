@@ -7,10 +7,10 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,205 pages**
 - Internal link check: **24,205 HTML files passed**
-- Browser and accessibility suite: **336 / 336 passed**
+- Browser and accessibility suite: **339 / 339 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`98c04d4c35b3310b6e534d0aec5ef2dc59965a6bfedc853c33af3741a2767450`)
+  (`78409396384e3397cf835d690ba8914c3d9a7be995ae3100b5ec495b4f32680b`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,7 +19,7 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `20864475d9572f30c923fbd073c0d29ea8d29f6ad52fe0e4f0eca2bf2429edae`
+  `a1eafeec2e3cd157a33e4524b46ab1c721be82e39487782d8f61be9d680c582a`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,12 +28,12 @@ Run: 2026-07-31 UTC
   tokens: **0 unexpected full-number matches** in **24,244** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **713** public records representing **641** unique documents
-- Private citation records: **1,189**
-- Published, qualified affiliations: **438**
-- Published claims: **764**
+- Reviewed public sources: **724** public records representing **647** unique documents
+- Private citation records: **1,206**
+- Published, qualified affiliations: **440**
+- Published claims: **770**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
-- Verified-affiliation metric: **220** people with confirmed/high published
+- Verified-affiliation metric: **221** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **127** people with confirmed/high published
   employment or self-employment evidence
@@ -1520,6 +1520,46 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 098 local release QA
+
+Batch 098 adds ten visually checked page-thirteen people from Salvatoroe
+Arlotta through John E. Armer. The reviewed bundle imports ten durable
+research attempts, seventeen sources, two organizations, two affiliations,
+six claims, and seventeen claim-source links. It publishes Edward W. Arluck's
+qualified Columbia student pathway and Raymond Armandi's explicit Army
+pathway. Andrew Roy Armentor and John E. Armer receive supported identity
+claims without unsupported pre-OSS affiliations. Six identities remain
+unresolved and route to Box 21.
+
+The full Python suite passed 54 / 54. The static build completed 24,205 pages
+with zero Astro errors, warnings, or hints. The focused Batch 098 regression
+passed 3 / 3 across desktop, phone, and tablet. The complete browser,
+responsive, and accessibility matrix passed 339 / 339 with no assertion or
+serious/critical axe failure. The internal-link checker passed all 24,205 HTML
+pages and inventoried 48,554 unique external URLs. `npm audit
+--audit-level=high` reported zero vulnerabilities.
+
+Two consecutive static builds produced the identical
+`78409396384e3397cf835d690ba8914c3d9a7be995ae3100b5ec495b4f32680b`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`a1eafeec2e3cd157a33e4524b46ab1c721be82e39487782d8f61be9d680c582a`.
+A boundary-aware comparison of 12,919 nontrivial normalized private
+identifiers across 24,244 non-gzip production artifacts found zero full
+matches. No local `.env` file or nonblank API-key assignment was present.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors.
+
+The Batch 098 database contains 1,830 durable research attempts, 1,206 private
+citation records, 444 affiliations, and 789 claims: 110 confirmed, 573 high,
+87 medium, and 19 low confidence. The reviewed public projection contains 724
+source records representing 647 unique documents, 440 affiliations, and 770
+claims. Coverage distinguishes 802 people with a non-planned research attempt,
+221 people with verified affiliation evidence, 127 people with verified
+employment or self-employment evidence, and 750 people whose archival-review
+need has been assessed. No authenticated NARA Catalog request was made.
 
 ## Batch 097 local release QA
 
