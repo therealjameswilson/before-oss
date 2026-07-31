@@ -7075,3 +7075,53 @@ test("Batch 079 keeps student affiliations, probable roster matches, and unresol
     await expect(page.locator("body")).toContainText("student");
   }
 });
+
+test("Batch 080 preserves ten Anderson records as distinct archival-review profiles without promoting namesakes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["5911bece-15bb-53b4-9d5f-ef215827baf6", "Allen A Anderson", "14"],
+    ["60ba20fe-adbd-56a4-83c2-01c0153ec7fd", "Alvina S Anderson", "14"],
+    ["0819b0b8-6531-5e6b-9f1f-3c7a868d81c0", "Beatrice M Anderson", "14"],
+    ["4cb42fa5-db79-55f3-ad4b-892d5cb31293", "Betty A Anderson", "14"],
+    ["344df1b5-5f03-5c5f-914d-90ce51d3f02c", "Bruce I Anderson", "14"],
+    ["636a515b-f1f4-52ed-9de5-b8152b7d0eba", "David F Anderson", "14"],
+    ["86872e9e-9a0c-5c5d-933d-2b3a6a9d7d5d", "Donald Anderson", "15"],
+    ["2a96a2c2-bd5c-5bc2-bebb-e31e0e9b7acc", "Dorothy M Anderson", "15"],
+    ["86259d38-bb5c-5614-adc1-eb5972f21530", "Duane M Anderson", "15"],
+    ["fe1acd6f-492c-5131-a843-b23aa7179ca8", "Erik J Anderson", "15"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/86259d38-bb5c-5614-adc1-eb5972f21530/");
+  await expect(page.locator("body")).toContainText("C8M");
+  await expect(page.locator("body")).toContainText("unknown or indeterminate");
+
+  await page.goto("./people/636a515b-f1f4-52ed-9de5-b8152b7d0eba/");
+  await expect(page.locator("body")).toContainText("commissioned army officer");
+  await expect(page.locator("body")).not.toContainText("Army Service Forces");
+
+  await page.goto("./people/2a96a2c2-bd5c-5bc2-bebb-e31e0e9b7acc/");
+  await expect(page.locator("body")).not.toContainText("Artigas");
+});

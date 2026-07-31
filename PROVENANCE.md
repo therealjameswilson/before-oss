@@ -784,6 +784,40 @@ Andersen, and Albert C. Anderson remain unresolved. All ten profiles retain
 Box 14 archival guidance for the immediate pre-OSS affiliation and last
 civilian employer.
 
+## Page-nine Anderson archival pathways, Batch 080
+
+`research/evidence-page-nine-anderson-archival-pathways_batch-080_2026-07-30.json`
+records the minimum online research protocol for ten contiguous rows from
+Allen A. Anderson through Erik J. Anderson on PDF page nine. It contains ten
+visually checked official-index citations, ten terminal research attempts,
+and ten person updates. It adds no organization, affiliation, or employment
+claim because no candidate met the project's identity and temporal standards.
+It stores no live NARA Catalog response, credential, full service identifier,
+full copyrighted page, or sensitive modern-person detail.
+
+The visually checked rows preserve the distinctions among Corporal Allen A.
+Anderson, civilian-grade employees Alvina S. Anderson and Beatrice M.
+Anderson, Captain David F. Anderson, professional-grade employee Dorothy M.
+Anderson, and five rows whose personnel category remains indeterminate.
+Duane M. Anderson's unfamiliar printed `C8M` text is preserved without
+expansion or forced classification.
+
+An official Army Service Forces booklet lists a David F. Anderson in an
+officer-candidate class, but the common name, absent private-identifier match,
+and missing OSS and later-captain chronology do not meet the enhanced
+disambiguation rule. A 1941 archival-correspondence result for Dorothy M.
+Anderson similarly lacks an OSS link, P-3 grade connection, geography,
+profession, or second corroborating identifier. Both leads remain rejected
+for attribution. Obituary, veteran, genealogy, directory, newspaper,
+institutional, CIA Reading Room, NARA Catalog-context, and Library of Congress
+searches produced only unrelated, modern, or underidentified namesakes for
+the remaining people.
+
+All ten identities remain unresolved and retain dignified Box 14 or Box 15
+archival-review guidance. Each profile states that no reliable pre-OSS
+employer has yet been identified in the accessible sources reviewed; none
+implies that the person had no prior employment.
+
 ## Official reference material
 
 - NARA OSS personnel records:

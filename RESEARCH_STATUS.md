@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 616 people with a non-planned attempt | 23,941 person entities | 2.5730% |
+| Research-attempt coverage | 626 people with a non-planned attempt | 23,941 person entities | 2.6148% |
 | Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
 | Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 563 people with an individual file-access/priority assessment | 23,941 person entities | 2.3516% |
+| Archival-review coverage | 573 people with an individual file-access/priority assessment | 23,941 person entities | 2.3934% |
 
 ## Extraction and identity
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,325
+- `not_started`: 23,315
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 23
 - `occupation_only_found`: 26
-- `requires_archival_review`: 347
+- `requires_archival_review`: 357
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -62,12 +62,12 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 335
+- Reviewed-web terminal-protocol attempts recorded: 355
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 288 across 273 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,640
+- Total recorded attempts/plans: 1,650
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 273; 257 have at least one public-eligible
@@ -488,10 +488,23 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   namesake leads for James Ander and Robert Andersen remain private. The other
   four identities remain unresolved. All ten profiles retain Box 14 review
   guidance for their still-unknown immediate pre-OSS pathways.
+  Batch 080 continued through Allen A. Anderson, Alvina S. Anderson, Beatrice
+  M. Anderson, Betty A. Anderson, Bruce I. Anderson, David F. Anderson,
+  Donald Anderson, Dorothy M. Anderson, Duane M. Anderson, and Erik J.
+  Anderson on PDF page nine. All ten identities remain unresolved after the
+  minimum online protocol and route to Box 14 or Box 15 review. An official
+  Army Service Forces booklet lists a David F. Anderson in an
+  officer-candidate class, but it lacks an OSS connection, matching private
+  identifier, later captain chronology, or second specific identifier and was
+  not assigned to the indexed captain. A 1941 archival-correspondence
+  namesake for Dorothy M. Anderson likewise remains unassigned. The unfamiliar
+  `C8M` text in Duane M. Anderson's row is preserved exactly and remains
+  unclassified pending file review. No namesake, occupation, employer, or
+  affiliation candidate from this batch is published as fact.
 - Published affiliations: 407
 - Database claims: 716; public-eligible claims: 697 (97 confirmed, 524 high, 76
   medium); 19 low-confidence claims are withheld
-- Citation records: 953; public source export: 629; unique source documents: 585
+- Citation records: 963; public source export: 629; unique source documents: 586
 - Canonical organizations: 246 private and 244 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
@@ -620,6 +633,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-am
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amoruso-through-amunrud-pathways_batch-077_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-amy-through-ancergues-pathways_batch-078_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ancrum-through-page-nine-anderson-pathways_batch-079_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-archival-pathways_batch-080_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
