@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 261 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,569 unique external URLs for separate live
+The checker inventoried 48,571 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1113,6 +1113,65 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 101 local release check
+
+The rebuilt site contains direct, internally resolved routes for Clifford H.
+Arndt, Miriam I. Arndt, Alf G. Arnesen, Reider Arnesen, Homer E. Arnett, Lucy
+V. Arnett, Maynard C. Arney, George A. Arnold, Glenn E. Arnold, and Harry K.
+Arnold. Eight profiles visibly retain unresolved identity status,
+evidence-limited employer wording, and Box 22 archival guidance. Maynard C.
+Arney's probable identity does not promote an affiliation without OSS timing.
+Alf G. Arnesen's confirmed identity and qualified 99th Infantry pathway remain
+distinct from the absent civilian-employer evidence. Reider Arnesen's
+conflicting roster candidate remains withheld.
+
+The complete local link checker passed all 24,210 HTML files and inventoried
+48,571 unique external URLs. The public downloads contain 23,941 person rows,
+261 organization rows, 449 affiliation rows, and 744 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,249 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`620fe136394c59a13c9d6906606b9e5ba6848cd7ed9a4f22ebc766bf33387598`.
+
+The new NARA special-orders PDF, Denver Public Library index, Casemate
+publisher page, Bayfield County honor-roll PDF, and WorldCat record each
+returned HTTP 200 during the release audit.
+
+## Batch 101 production deployment
+
+GitHub Actions test workflow
+[30652531902](https://github.com/therealjameswilson/before-oss/actions/runs/30652531902)
+and GitHub Pages deployment
+[30652531643](https://github.com/therealjameswilson/before-oss/actions/runs/30652531643)
+for the page-thirteen Clifford-H.-Arndt-through-Harry-K.-Arnold release
+`f137eed` completed successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: eight core
+publication URLs, all ten Batch 101 person profiles, the 99th Infantry
+Battalion organization profile, and a shareable Arnesen directory-search URL.
+After substituting the production and local plain and URL-encoded canonical
+hosts, every route matched the audited local HTML byte-for-byte.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 832
+people with non-planned research attempts, 223 verified-affiliation people,
+127 verified-employer people, 780 archival-review assessments, 785 published
+claims, and 744 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 261, 449, and 744 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across the 85 audited live HTML and manifest-listed artifacts.
 
 ## Batch 100 local release check
 

@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 345 / 345 browser cases.**
+**PASS - 348 / 348 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1043,6 +1043,35 @@ serious/critical axe failure.
 GitHub test workflow
 [30643121592](https://github.com/therealjameswilson/before-oss/actions/runs/30643121592)
 repeated the complete research and site matrix for release `55fc2b5` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.
+
+## Batch 101 accessibility and responsive regression
+
+The Batch 101 regression checks the ten contiguous page-thirteen profiles from
+Clifford H. Arndt through Harry K. Arnold. It verifies every direct profile,
+Box 22 provenance, field-level serial masking, the eight visibly unresolved
+identities, the probable Maynard C. Arney identity, the confirmed Alf G.
+Arnesen identity, and the printed `possibly` note without interpreting it.
+
+Arnesen's profile is tested for the medium-confidence, probable-immediate
+99th Infantry Battalion pathway, its direct official and institutional
+citations, and the absence of a supported civilian employer. Arney's profile
+is tested for the contemporary Bayfield County identity evidence while both
+affiliation sections remain unresolved. Reider Arnesen's conflicting 99th
+Infantry candidate remains a rejected lead rather than a merge. The direct
+99th Infantry organization route links back to the intended Arnesen profile.
+
+The focused desktop, phone, and tablet run passed 3 / 3. After the local
+runner was made explicitly headless, GPU-disabled, and single-worker to avoid
+macOS display-link teardown failures in unrelated legacy cases, the complete
+browser, responsive, and accessibility matrix passed 348 / 348 with no retry,
+assertion, or serious/critical axe failure.
+
+GitHub test workflow
+[30652531902](https://github.com/therealjameswilson/before-oss/actions/runs/30652531902)
+repeated the complete research and site matrix for release `f137eed` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.

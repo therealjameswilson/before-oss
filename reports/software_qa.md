@@ -7,10 +7,10 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,210 pages**
 - Internal link check: **24,210 HTML files passed**
-- Browser and accessibility suite: **345 / 345 passed**
+- Browser and accessibility suite: **348 / 348 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`b02198b9456ac3cd8d5aa20c04c7003c277dd28f30dd898d10762ea664228afe`)
+  (`620fe136394c59a13c9d6906606b9e5ba6848cd7ed9a4f22ebc766bf33387598`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,7 +19,7 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `a2fd3c71b674be96ef2b2ba9f43b4f51ed5f5afc32e4587db68a6ee21bdf1fbb`
+  `381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,10 +28,10 @@ Run: 2026-07-31 UTC
   tokens: **0 unexpected full-number matches** in **24,249** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **738** public records representing **657** unique documents
-- Private citation records: **1,236**
-- Published, qualified affiliations: **448**
-- Published claims: **782**
+- Reviewed public sources: **744** public records representing **659** unique documents
+- Private citation records: **1,250**
+- Published, qualified affiliations: **449**
+- Published claims: **785**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
 - Verified-affiliation metric: **223** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30647900341](https://github.com/therealjameswilson/before-oss/actions/runs/30647900341)
-  for Batch 100 release `f495502`: **passed**
+  [30652531902](https://github.com/therealjameswilson/before-oss/actions/runs/30652531902)
+  for Batch 101 release `f137eed`: **passed**
 - GitHub Pages deployment workflow
-  [30647900218](https://github.com/therealjameswilson/before-oss/actions/runs/30647900218)
-  for Batch 100 release `f495502`: **passed**
+  [30652531643](https://github.com/therealjameswilson/before-oss/actions/runs/30652531643)
+  for Batch 101 release `f137eed`: **passed**
 - Production route smoke tests: **20 / 20 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 85 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `a2fd3c71b674be96ef2b2ba9f43b4f51ed5f5afc32e4587db68a6ee21bdf1fbb`
+  `381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1520,6 +1520,75 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 101 local release QA
+
+Batch 101 adds ten visually checked page-thirteen people from Clifford H.
+Arndt through Harry K. Arnold. The reviewed bundle imports ten durable
+research attempts, fourteen sources, one organization, one affiliation, three
+claims, and eight claim-source links. All ten index rows preserve Box 22 and
+their printed rank, grade, note, or blank-rank state. Eight identities remain
+unresolved; Maynard C. Arney is probable on contemporary county evidence; and
+Alf G. Arnesen is confirmed through exact official and institutional records.
+
+Arnesen's Company D, 99th Infantry Battalion path is published only as a
+medium-confidence, probable-immediate military assignment. The transfer
+sequence is explicitly qualified and remains outside confirmed/high default
+analytics. Arney's contemporary honor-roll entry supports identity and Army
+service but not the temporal relation to OSS, so no affiliation is promoted.
+Reider Arnesen's conflicting 99th Infantry candidate is rejected and the
+printed `possibly` note remains uninterpreted. The other unsupported
+common-name candidates remain withheld and all ten files retain an explicit
+Box 22 archival path.
+
+The evidence import replayed idempotently. Pydantic validation and all eight
+evidence-schema tests passed. SQLite `quick_check` returned `ok`, and the
+foreign-key check returned zero errors. The full Python suite passed 54 / 54.
+The static build completed 24,210 pages with zero Astro errors, warnings, or
+hints. The focused Batch 101 regression passed 3 / 3 across desktop, phone,
+and tablet, and the complete browser, responsive, and accessibility matrix
+passed 348 / 348. The internal-link checker passed all 24,210 HTML pages and
+inventoried 48,571 unique external URLs. The five newly cited external targets
+returned HTTP 200. The production dependency audit reported zero
+vulnerabilities.
+
+Two consecutive static builds produced the identical
+`620fe136394c59a13c9d6906606b9e5ba6848cd7ed9a4f22ebc766bf33387598`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`381b544135ff8d5f643c2981caa4852bc2ca6059026a19745910929c6b751932`.
+A boundary-aware comparison of 12,919 nontrivial normalized private
+identifiers across 24,249 non-gzip production artifacts found zero full
+matches. No local credential file or nonblank API-key assignment was present,
+and no authenticated NARA Catalog request was made.
+
+The Batch 101 database contains 1,860 durable research attempts, 1,250 private
+citation records, 453 affiliations, and 804 claims: 112 confirmed, 579 high,
+94 medium, and 19 low confidence. The reviewed public projection contains 744
+source records representing 659 unique documents, 449 affiliations, and 785
+claims. Coverage distinguishes 832 people with a non-planned research attempt,
+223 people with verified affiliation evidence, 127 people with verified
+employment or self-employment evidence, and 780 people whose archival-review
+need has been assessed.
+
+The Batch 101 production audit followed successful GitHub test workflow
+[30652531902](https://github.com/therealjameswilson/before-oss/actions/runs/30652531902)
+and Pages workflow
+[30652531643](https://github.com/therealjameswilson/before-oss/actions/runs/30652531643)
+for release `f137eed`. All 20 deployed routes returned HTTP 200 and matched the
+audited local HTML after production and local canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The boundary-aware exact-token scan found zero full
+private-identifier matches across 85 deployed artifacts.
+
+The initial local parallel matrix exposed intermittent macOS headless Chromium
+display-link teardown failures in unrelated legacy cases. Every affected case
+passed immediately in isolation. The Playwright configuration now runs one
+explicitly headless, GPU-disabled worker; the subsequent complete local matrix
+and the clean Linux GitHub Actions matrix both passed without a retry or
+assertion failure.
 
 ## Batch 100 local release QA
 

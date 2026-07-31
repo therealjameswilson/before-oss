@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 822 people with a non-planned attempt | 23,941 person entities | 3.4334% |
+| Research-attempt coverage | 832 people with a non-planned attempt | 23,941 person entities | 3.4752% |
 | Verified-affiliation coverage | 223 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9315% |
 | Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 770 people with an individual file-access/priority assessment | 23,941 person entities | 3.2162% |
+| Archival-review coverage | 780 people with an individual file-access/priority assessment | 23,941 person entities | 3.2580% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 39
+- Identity status `confirmed`: 40
 - Identity status `high_confidence`: 271
-- Identity status `probable`: 28
+- Identity status `probable`: 29
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,578
+- Identity status `unresolved`: 23,576
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,119
+- `not_started`: 23,109
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 26
 - `occupation_only_found`: 28
-- `requires_archival_review`: 524
-- `completed`: 46
+- `requires_archival_review`: 533
+- `completed`: 47
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -795,10 +795,25 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
   route to Box 21 or 22. A plausible 386th Bomb Group Arnberg candidate and
   other namesakes remain rejected leads. Robert P. Armstrong's RM2/c grade is
   normalized to enlisted naval personnel without resolving his identity.
-- Published affiliations: 448
-- Database claims: 801; public-eligible claims: 782 (111 confirmed, 579 high, 92
+  Batch 101 continues page thirteen with Clifford H. Arndt through Harry K.
+  Arnold. Alf G. Arnesen is confirmed by the exact name, technician-sergeant
+  rank, private identifier, official OSS special order, and Denver Public
+  Library 10th Mountain Division index. Company D, 99th Infantry Battalion is
+  published only as a medium-confidence probable-immediate military pathway:
+  the roster is person-specific, but the transfer sequence relies on scholarly
+  unit context and remains outside default confirmed/high analytics. Maynard C.
+  Arney is probable from the exact uncommon name and a contemporary Bayfield
+  County honor-roll profile; its Army chronology does not establish the
+  relation to OSS, so no employer or immediate affiliation is promoted. Reider
+  Arnesen's conflicting 99th Infantry candidate remains rejected, and the
+  printed `possibly` note is preserved without interpretation. Clifford H. and
+  Miriam I. Arndt, Reider Arnesen, Homer E. and Lucy V. Arnett, and George A.,
+  Glenn E., and Harry K. Arnold remain unresolved after the full online
+  protocol. All ten profiles retain explicit Box 22 archival guidance.
+- Published affiliations: 449
+- Database claims: 804; public-eligible claims: 785 (112 confirmed, 579 high, 94
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,236; public source export: 738; unique source documents: 657
+- Citation records: 1,250; public source export: 744; unique source documents: 659
 - Canonical organizations: 263 private and 261 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844
