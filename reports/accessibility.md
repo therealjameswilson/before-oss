@@ -771,3 +771,14 @@ expansion and that rejected civilian-employer, shipyard, and military-roster
 namesake leads do not appear as attributed public facts. The complete desktop,
 phone, and tablet matrix passed 294 / 294 with no remaining assertion or
 serious/critical axe failure.
+
+The Batch 084 regression checks the next contiguous sequence from Margaret M.
+Anderson through Orval W. Anderson across PDF pages nine and ten. It verifies
+nine dignified unresolved Box 16 profiles, Odd A. Anderson's confirmed identity
+and qualified Purdue University student affiliation, the continued absence of
+a documented civilian employer, and field-level serial masking. It also checks
+that Purdue is labeled as a student relationship rather than employment and
+that rejected namesake organizations do not appear as attributed public facts.
+The complete desktop, phone, and tablet matrix passed 297 / 297 with no
+remaining assertion or serious/critical axe failure; the targeted Batch 084
+test passed a separate 3 / 3 three-viewport rerun.

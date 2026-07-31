@@ -944,3 +944,21 @@ The deployed manifest's forbidden-field check passed. An exact-token,
 field-aware comparison of all 12,919 nontrivial digit-bearing normalized
 private identifiers against 81 live HTML, data, compressed-mirror, and download
 artifacts returned zero full-number matches.
+
+## Batch 084 local release check
+
+The rebuilt site contains direct, internally resolved routes for Margaret M.
+Anderson, Marie J. Anderson, Marvin Anderson, Merle G. Anderson, Naomi
+Anderson, Neal B. Anderson, Noel L. Anderson, Norbert P. Anderson, Odd A.
+Anderson, and Orval W. Anderson. Nine profiles visibly retain unresolved
+identity status, Box 16 archival-review guidance, the standard evidence-limited
+employer statement, and masked or explicitly unprinted serial fields. Odd A.
+Anderson's route displays a qualified Purdue University student affiliation,
+keeps the last-civilian-employer section unresolved, and does not publish
+rejected namesake organizations as facts.
+
+The complete local link checker passed all 24,194 HTML files and inventoried
+48,498 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`bfcd15ab0e0aafcca34c91aa2ca5794615468e1f85e6e7a63a92d5a3a448e02e`.

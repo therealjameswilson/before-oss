@@ -5,34 +5,34 @@ Run: 2026-07-31 UTC
 - Python unit tests: **51 / 51 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,193 pages**
-- Internal link check: **24,193 HTML files passed**
-- Browser and accessibility suite: **294 / 294 passed**
+- Static production build: **24,194 pages**
+- Internal link check: **24,194 HTML files passed**
+- Browser and accessibility suite: **297 / 297 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`78bb3147d091a28aea080708eb0631bcf500e6b9b8b1c0732fd337154cf47e5b`)
+  (`706107ebc2b3f94956cf527f8065ca1e531543f87d142509f480809e74010aec`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 84 evidence files: **262 / 268
+  checkpoints, review decisions, and all 85 evidence files: **263 / 269
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `9e9dd520623527e5505e0670abe5010b48e776285d29667a76fe06aa9fac6618`
+  `bfcd15ab0e0aafcca34c91aa2ca5794615468e1f85e6e7a63a92d5a3a448e02e`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** formatting-equivalent comparison
-  tokens: **0 unexpected full-number matches** in **24,337**
+  tokens: **0 unexpected full-number matches** in **24,338**
   public text assets, generated site data, compressed mirrors, or production
   HTML
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **629** public records representing **587** unique documents
-- Private citation records: **993**
-- Published, qualified affiliations: **407**
-- Published claims: **697**
+- Reviewed public sources: **635** public records representing **592** unique documents
+- Private citation records: **1,008**
+- Published, qualified affiliations: **408**
+- Published claims: **699**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
 - Verified-affiliation metric: **200** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -971,3 +971,39 @@ all 65 deployed manifest assets matched their recorded and local byte sizes and
 SHA-256 values, all eight checked live statistics and all five public download
 row counts matched the release, and the exact-token scan found zero full
 private-identifier matches across 81 deployed artifacts.
+
+Batch 084 completes the minimum online protocol for Margaret M. Anderson
+through Orval W. Anderson across PDF pages nine and ten. Nine common-name
+identities remain unresolved and route to Box 16 review; rejected military,
+banking, cemetery, legislative, obituary, and institutional namesakes remain
+absent from public facts. Odd A. Anderson is confirmed by an uncommon-name,
+middle-initial, enlisted-context, and private-identifier match to a published
+Operation Rype roster. Independent contemporary and later evidence supports a
+visibly qualified, medium-confidence Purdue University student affiliation.
+The site does not misclassify Purdue as an employer, and it leaves a possible
+intervening Army assignment and any last civilian employer for archival
+review.
+
+Fifty-one Python tests, all 297 browser and accessibility cases, the
+200-profile stratified audit, and the 24,194-page link check passed. The link
+checker inventoried 48,498 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`706107ebc2b3f94956cf527f8065ca1e531543f87d142509f480809e74010aec`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`bfcd15ab0e0aafcca34c91aa2ca5794615468e1f85e6e7a63a92d5a3a448e02e`.
+The public projection contains no full service-number field or forbidden-field
+token. A field-aware comparison of 12,919 nontrivial normalized private
+identifier tokens across 24,338 public text assets returned zero full-number
+matches.
+
+A clean-archive Batch 084 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,690 research attempts, replayed all 83 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,194-page static-site
+build. Across all 269 tracked files, 263 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero
+errors, and no substantive field, coverage count, public record, or generated
+site asset differed.
