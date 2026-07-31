@@ -522,3 +522,22 @@ manifest SHA-256 is
 `5d021fdb9fa4f3222b8fa2ad0120dee42cd69b27fedc8db27162bde8349fb1b6`.
 The deployed manifest's forbidden-field check passed, and public serial fields
 remained masked or explicitly unprinted.
+
+## Batch 075 local release check
+
+The rebuilt site contains direct, internally resolved routes for Dadus I.
+Ambrose, Peter Ambrose, Charles J. Amedia, Ruth G. Amende, Harry T. Ameredes,
+Ben Ames, Carlisle B. Ames, Mary F. Ames, Robert Ames, and Robert L. Ames,
+plus Brown University and Weir High School organization profiles. Ruth
+Amende's and Harry Ameredes's student affiliations appear with visible
+medium-confidence and documented-prewar qualifications, and neither is
+promoted to employment, immediate affiliation, last civilian employer, or
+default verified analytics. Peter Ambrose's identity conflict, Ben Ames's
+ambiguity, and the six unresolved identities remain visible with Box 12 or Box
+13 guidance and masked or explicitly unprinted serial fields.
+
+The complete local link checker passed all 24,188 HTML files and inventoried
+48,474 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`37532862bbb4965a66fdd0288b3f249179d8e5d497a9bd24d3fad9fca987bf2a`.

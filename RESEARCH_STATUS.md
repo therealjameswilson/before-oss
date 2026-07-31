@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 567 people with a non-planned attempt | 23,941 person entities | 2.3683% |
+| Research-attempt coverage | 577 people with a non-planned attempt | 23,941 person entities | 2.4101% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 514 people with an individual file-access/priority assessment | 23,941 person entities | 2.1469% |
+| Archival-review coverage | 524 people with an individual file-access/priority assessment | 23,941 person entities | 2.1887% |
 
 ## Extraction and identity
 
@@ -22,10 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 22
-- Identity status `high_confidence`: 246
+- Identity status `high_confidence`: 248
 - Identity status `probable`: 17
-- Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,641
+- Identity status `ambiguous`: 16
+- Identity status `conflicting`: 1
+- Identity status `unresolved`: 23,637
 
 ## Personnel categories
 
@@ -45,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,374
+- `not_started`: 23,364
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 22
-- `occupation_only_found`: 21
-- `requires_archival_review`: 305
+- `occupation_only_found`: 23
+- `requires_archival_review`: 313
 - `completed`: 34
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
@@ -61,15 +62,15 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 296
+- Reviewed-web terminal-protocol attempts recorded: 306
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 278 across 264 people; 15 additional
+- Saved `source_reviewed` outcomes: 280 across 266 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,591
+- Total recorded attempts/plans: 1,601
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 259; 247 have at least one public-eligible
+- People with saved reviewed claims: 261; 249 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -405,12 +406,31 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   uncorroborated namesakes remain private rejection evidence. Jack Allin's
   unfamiliar printed `CSP P T` abbreviation is preserved without forced
   expansion.
-- Published affiliations: 398
-- Database claims: 693; public-eligible claims: 678 (97 confirmed, 512 high, 69
+  Batch 075 continued through Dadus I. Ambrose, Peter Ambrose, Charles J.
+  Amedia, Ruth G. Amende, Harry T. Ameredes, Ben Ames, Carlisle B. Ames, Mary
+  F. Ames, Robert Ames, and Robert L. Ames on PDF page eight. Contemporary
+  scholarly, official diplomatic, Brown institutional, and city-directory
+  evidence supports Ruth Amende at high identity confidence and publishes her
+  1941 Brown/Providence student status only as medium-confidence documented
+  prewar affiliation. An OSS Operational Groups roster, a corroborative
+  memorial record, and an independent Weirton newspaper account support Harry
+  Theodore Ameredes at high identity confidence and publish his 1939 Weir High
+  School student status on the same qualified basis. Neither school is treated
+  as an employer, and neither profile gains an immediate-affiliation or
+  last-civilian-employer claim. An official May 1944 OSS board record names a
+  Private Peter Ambrose, but its private identifier conflicts with the Box 12
+  index row, so Peter's identity is marked conflicting and the records remain
+  separate. The same record names a Ben Ames in Cairo, but the blank-rank Box
+  13 row lacks corroborating identifiers and remains ambiguous. The remaining
+  six identities are unresolved; all eight non-published cases route to Box 12
+  or Box 13 review without promoting discovery-only or chronologically
+  incompatible namesakes.
+- Published affiliations: 400
+- Database claims: 697; public-eligible claims: 682 (97 confirmed, 514 high, 71
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 869; public source export: 596; unique source documents: 549
-- Canonical organizations: 240 private and 238 public
-- Conflicts: 0
+- Citation records: 887; public source export: 605; unique source documents: 558
+- Canonical organizations: 241 private and 239 public
+- Conflicts: 1
 - NARA pull-list rows: 23,858
 
 Planned dry-run requests do not count as research-attempt coverage.
@@ -532,6 +552,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-six-alle
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-two-pathways_batch-072_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-through-alley-pathways_batch-073_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-seven-alley-through-allison-pathways_batch-074_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ambrose-through-ames-pathways_batch-075_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

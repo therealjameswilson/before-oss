@@ -600,6 +600,43 @@ printed `CSP P T` abbreviation remains unexpanded and unclassified. Full
 private identifiers were used only for comparison and are absent from the
 evidence bundle and public output.
 
+## Page-eight Ambrose-through-Ames continuation, Batch 075
+
+`research/evidence-page-eight-ambrose-through-ames-pathways_batch-075_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Dadus I.
+Ambrose-through-Robert L. Ames rows on PDF page eight. The bundle contains ten
+visually checked official index citations, ten terminal research attempts, ten
+person updates, two normalized organizations, two qualified student
+affiliations, and four public claims. It stores no live NARA Catalog response,
+credential, full service identifier, full copyrighted page, or sensitive
+modern-person detail.
+
+A contemporary *World Politics* contributor note records Ruth Amende Rosa's
+OSS service from 1942 through 1946. Brown University's Pembroke Center
+identifies Ruth Amende with the class of 1941, a 1941 Providence directory
+records Ruth G. Amende as a student, and an official 1945 diplomatic record
+corroborates her wartime identity. The project therefore publishes Brown
+University only as a medium-confidence, documented-prewar student affiliation.
+It is not classified as employment, immediate pre-OSS affiliation, or the last
+civilian employer.
+
+An OSS Operational Groups roster records Harry T. Ameredes as a Technician
+Fifth Grade in Greek Group V. An independent Weirton newspaper account states
+that Harry Ameredes served with OSS, and a memorial record supplies the
+Theodore middle name. The newspaper documents his 1939 graduation from Weir
+High School, which is published only as a medium-confidence, documented-prewar
+student affiliation. Its undated reference to a later Weirton Steel career is
+not used to infer pre-OSS employment.
+
+An official May 1944 OSS board record names a Private Peter Ambrose, but the
+record's private identifier materially conflicts with the indexed Box 12 row.
+The project preserves that conflict and does not merge the records. The same
+document names a Ben Ames in Cairo, but the blank-rank Box 13 index row lacks
+the corroborating identifiers required for a match and remains ambiguous. The
+remaining six identities are unresolved. All eight cases route to Box 12 or
+Box 13 review without promoting discovery-only, common-name, or
+chronologically incompatible candidates.
+
 ## Official reference material
 
 - NARA OSS personnel records:

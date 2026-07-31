@@ -620,3 +620,24 @@ and completed the static-site build. Across 94 tracked report, provenance, and
 public/generated files, 88 matched byte-for-byte; the remaining six differed
 only in their expected `generated_at` timestamps. No substantive field,
 coverage count, public record, or generated site asset differed.
+
+Batch 075 completes the minimum online protocol for Dadus I. Ambrose through
+Robert L. Ames on PDF page eight. The ten source rows were checked against the
+rendered page. Ruth G. Amende and Harry T. Ameredes now have high-confidence
+identity resolutions and medium-confidence documented-prewar student
+affiliations at Brown University and Weir High School respectively. Neither
+student relationship is classified as employment, immediate pre-OSS
+affiliation, or last civilian employer. Peter Ambrose retains a material
+private-identifier conflict with an official OSS candidate, Ben Ames remains
+ambiguous, and six additional identities remain unresolved. All eight route
+to Box 12 or Box 13 review without namesake promotion.
+
+Fifty-one Python tests, all 270 browser and accessibility cases, a targeted
+three-viewport Batch 075 rerun, the 200-profile stratified audit, and the
+24,188-page link check passed. The link checker inventoried 48,474 unique
+external URLs, and `npm audit` reported zero vulnerabilities. Two production
+builds produced the identical
+`4237a5fe96fd07d1bed1df07ccb2a76b99c00466a7062a4a5200e583759db8f6`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its redaction check passed, and its SHA-256 is
+`37532862bbb4965a66fdd0288b3f249179d8e5d497a9bd24d3fad9fca987bf2a`.

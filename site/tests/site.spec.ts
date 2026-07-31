@@ -6492,3 +6492,121 @@ test("Batch 074 confirms Harry B Allinsmith's OSS identity and qualified Bell Sy
     "does not silently merge or sequence the subsidiaries",
   );
 });
+
+test("Batch 075 publishes two qualified student pathways while preserving conflicting, ambiguous, and unresolved Ames-area identities", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["dd877ae4-0ab2-58d9-9fbc-a3339fdf278a", "Dadus I Ambrose", "unresolved", "12"],
+    ["86b5d7e1-81bb-50c2-8cb3-c2f1096893b6", "Peter Ambrose", "conflicting", "12"],
+    ["0c2bb8b9-2238-5808-ad7d-bcc97bf6657b", "Charles J Amedia", "unresolved", "12"],
+    ["9d245ea6-597a-502f-8d66-2ffd2f624e4b", "Ben Ames", "ambiguous", "13"],
+    ["6c0947f8-3912-5967-84a4-c6d6d1bd1fa2", "Carlisle B Ames", "unresolved", "13"],
+    ["94f06424-a050-5e59-ae18-6df7dfd717b8", "Mary F Ames", "unresolved", "13"],
+    ["bcc28a15-416e-58b9-afb6-cf431cc454d9", "Robert Ames", "unresolved", "13"],
+    ["5f372a4f-8d9e-5d63-834b-84c7fb9d770e", "Robert L Ames", "unresolved", "13"],
+  ];
+
+  for (const [personId, displayName, identityStatus, box] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/86b5d7e1-81bb-50c2-8cb3-c2f1096893b6/");
+  await expect(page.locator("body")).toContainText(
+    "private identifiers conflict",
+  );
+  await expect(page.locator("body")).toContainText(
+    "do not merge",
+  );
+
+  await page.goto("./people/9d245ea6-597a-502f-8d66-2ffd2f624e4b/");
+  await expect(page.locator("body")).toContainText(
+    "common-name candidate cannot be linked without additional evidence",
+  );
+
+  await page.goto("./people/9edc4107-39d3-548a-bef0-71190419c03a/");
+  await expect(
+    page.getByRole("heading", { name: "Ruth G Amende", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Ruth Amende Rosa");
+  await expect(page.locator("body")).toContainText("Brown University");
+  await expect(page.locator("body")).toContainText("documented prewar");
+  await expect(page.locator("body")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "World Politics, Volume I, Number 4: The Contributors",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F68D0AEA3780085C3F7F6B7D3F935D26/S0043887100006493a.pdf/wpo_volume_1_issue_4_front_matter.pdf",
+  );
+
+  await page.goto("./people/f7bc5d97-4adb-513b-a38a-0c8c31c90588/");
+  await expect(
+    page.getByRole("heading", { name: "Harry T Ameredes", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Harry Theodore Ameredes");
+  await expect(page.locator("body")).toContainText("Weir High School");
+  await expect(page.locator("body")).toContainText(
+    "undated start of his Weirton Steel career is not treated as pre-OSS employment",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Harry Ameredes among 2014 inductees",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.weirtondailytimes.com/news/local-news/2014/04/harry-ameredes-among-2014-inductees/",
+  );
+
+  await page.goto(
+    "./organizations/08d9f092-ff0b-5e6b-89d8-61c35e4ae90b/",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Weir High School", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Harry T Ameredes", exact: true }),
+  ).toBeVisible();
+
+  await page.goto(
+    "./organizations/dfc9e35b-88f9-593d-874e-01edd9a69d7a/",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Brown University", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Ruth G Amende", exact: true }),
+  ).toBeVisible();
+});

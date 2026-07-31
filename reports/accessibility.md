@@ -657,5 +657,19 @@ serial masking. The complete desktop, phone, and tablet matrix passed 267 /
 267 with no remaining assertion or serious/critical axe failure; the expanded
 Batch 074 test then passed a separate 3 / 3 three-viewport rerun.
 
+The Batch 075 regression checks the contiguous Dadus I. Ambrose-through-Robert
+L. Ames sequence on PDF page eight. It verifies Ruth G. Amende's and Harry T.
+Ameredes's high-confidence identities and visibly qualified,
+medium-confidence student affiliations at Brown University and Weir High
+School. It confirms that neither institution appears as an employer,
+immediate pre-OSS affiliation, or last civilian employer. It also preserves
+Peter Ambrose's conflicting identity evidence, Ben Ames's ambiguous identity,
+six unresolved identities, actionable Box 12 or Box 13 review guidance,
+commissioned, enlisted, civilian-grade, and indeterminate personnel
+classifications, direct person and organization routes, and field-level serial
+masking. The complete desktop, phone, and tablet matrix passed 270 / 270 with
+no remaining assertion or serious/critical axe failure; the expanded Batch 075
+test then passed a separate 3 / 3 three-viewport rerun.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.
