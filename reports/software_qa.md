@@ -2,16 +2,16 @@
 
 Run: 2026-07-31 UTC
 
-- Python unit tests: **51 / 51 passed**
+- Python unit tests: **52 / 52 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,194 pages**
 - Internal link check: **24,194 HTML files passed**
-- Browser and accessibility suite: **300 / 300 passed**
+- Browser and accessibility suite: **312 / 312 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`5393b508b312a71da27185f2cb7916e708a46766114fe7b4a1ffaa8f6f8f28e1`)
-- Clean-checkout replay: **byte-for-byte identical** tracked public and
+  (`598feaeb3f17f1a04f93ed072e6391de48a46657d73e00c2f0c0b86a3f656143`)
+- Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
   tracked files matched**; the other six report files differed only in their
@@ -19,24 +19,23 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `2d906ccf762fdbf005c74ebd871990c3e367ed573f716baf2107e962681cf38f`
+  `32666f151ff271eb974cf614ca17c0d4f04e9229478061baff40333107a52f81`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** formatting-equivalent comparison
-  tokens: **0 unexpected full-number matches** in **24,338**
-  public text assets, generated site data, compressed mirrors, or production
-  HTML
+  tokens: **0 unexpected full-number matches** in **24,233** non-gzip
+  production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **635** public records representing **592** unique documents
-- Private citation records: **1,018**
-- Published, qualified affiliations: **408**
-- Published claims: **699**
+- Reviewed public sources: **644** public records representing **600** unique documents
+- Private citation records: **1,065**
+- Published, qualified affiliations: **412**
+- Published claims: **708**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
-- Verified-affiliation metric: **200** people with confirmed/high published
+- Verified-affiliation metric: **203** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **120** people with confirmed/high published
+- Verified-employer metric: **121** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -1203,3 +1202,40 @@ SHA-256 values, all eight checked live statistics and all five public download
 row counts matched the release, and all ten profile-specific pathway or
 archival-status checks passed. The bounded field-aware exact-token scan found
 zero full private-identifier matches across 81 deployed artifacts.
+
+Batch 089 completes the minimum online protocol for James H. Andros through
+Anthony G. Angelos on PDF page eleven. All ten identities remain unresolved
+and route to high-priority Box 18 review; no candidate organization,
+affiliation, or claim was published. The raw `S2 C` rank for Anthony G. Angelos
+remains unchanged, while a tested normalization rule recognizes the
+established Seaman Second Class spacing variant and classifies the personnel
+row as naval enlisted without resolving the person's identity.
+
+The targeted desktop, phone, and tablet regression passed 3 / 3. A first full
+matrix run was deliberately concurrent with other resource-intensive release
+checks and completed 309 cases while three older tests timed out; those three
+passed immediately in an isolated rerun. The uncontended full matrix then
+passed 312 / 312 with no assertion or serious/critical accessibility failure.
+Fifty-two Python tests, the 200-profile stratified audit, and the 24,194-page
+link check passed. The link checker inventoried 48,503 unique external URLs,
+and `npm audit` reported zero vulnerabilities.
+
+Two production builds produced the identical
+`598feaeb3f17f1a04f93ed072e6391de48a46657d73e00c2f0c0b86a3f656143`
+content-tree hash using sorted path-and-content SHA-256 input. All 65 public
+manifest assets matched their recorded sizes and SHA-256 values, the
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`32666f151ff271eb974cf614ca17c0d4f04e9229478061baff40333107a52f81`.
+A bounded, field-aware exact-token comparison of 12,919 nontrivial normalized
+private identifiers across 24,233 non-gzip production artifacts found zero
+full-number matches. SQLite `quick_check` returned `ok`, and the foreign-key
+check returned zero errors.
+
+The Batch 089 database contains 1,740 durable research attempts, 1,065 private
+citation records, 416 affiliations, and 727 claims: 97 confirmed, 534 high, 77
+medium, and 19 low confidence. The reviewed public projection contains 644
+source records representing 600 unique documents, 412 affiliations, and 708
+claims. Coverage distinguishes 714 people with a non-planned research attempt,
+203 people with verified affiliation evidence, 121 people with verified
+employment or self-employment evidence, and 662 people whose archival-review
+need has been assessed. No authenticated NARA Catalog request was made.

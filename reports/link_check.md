@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,193 HTML files. Every relative
+**PASS.** The production build contains 24,194 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 244 organization profiles, and the
+The build includes 23,941 person profiles, 245 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,493 unique external URLs for separate live
+The checker inventoried 48,503 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1110,6 +1110,27 @@ The complete local link checker passed all 24,194 HTML files and inventoried
 and SHA-256 values, the manifest forbidden-field check passed, and the
 manifest SHA-256 is
 `bb402dfe8054785ad4a07ad9af9fb8f4c63ef38550e8649255a51e7e14d6c3d5`.
+A bounded, field-aware exact-token comparison of all 12,919 nontrivial
+normalized private identifiers against 24,233 non-gzip production artifacts
+returned zero full identifier matches.
+
+## Batch 089 local release check
+
+The rebuilt site contains direct, internally resolved routes for James H.
+Andros, Frank J. Androvich, Victor L. Anduso, Andrew A. Anganes, Charles F.
+Angell, James B. Angell, Joseph Angello, Anthony G. Angelo, Nick Angelo, and
+Anthony G. Angelos. All ten profiles visibly retain unresolved identity status,
+high-priority Box 18 guidance, the evidence-limited employer statement, and a
+masked or explicitly unprinted service identifier. Anthony G. Angelos's page
+preserves the printed `S2 C` rank and displays the reviewed enlisted-naval
+classification without claiming a resolved identity.
+
+The complete local link checker passed all 24,194 HTML files and inventoried
+48,503 unique external URLs. The public downloads contain 23,941 person rows,
+245 organization rows, 412 affiliation rows, and 644 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values, the
+manifest forbidden-field check passed, and the manifest SHA-256 is
+`32666f151ff271eb974cf614ca17c0d4f04e9229478061baff40333107a52f81`.
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.

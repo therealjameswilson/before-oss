@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 294 / 294 browser cases.**
+**PASS - 312 / 312 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-120-person employer measure is labeled separately from the 200-person broader
+121-person employer measure is labeled separately from the 203-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -834,3 +834,16 @@ targeted three-viewport rerun passed 3 / 3. The first complete run then exposed
 two stale homepage coverage expectations, which were updated from the
 generated statistics. The complete desktop, phone, and tablet matrix passed
 309 / 309 with no remaining assertion or serious/critical axe failure.
+
+The Batch 089 regression checks the next contiguous sequence from James H.
+Andros through Anthony G. Angelos on PDF page eleven. It verifies ten dignified
+unresolved Box 18 profiles; Army-enlisted, commissioned-Army, civilian-grade,
+indeterminate, and naval-enlisted personnel categories; and field-level serial
+masking. It also confirms that Anthony G. Angelos's printed `S2 C` value remains
+visible while the normalized personnel category recognizes the established
+Seaman Second Class spacing variant. The targeted desktop, phone, and tablet
+run passed 3 / 3. A first complete run executed concurrently with the link
+checker and other release jobs and produced three timeout-only failures in
+older tests; all three passed immediately in isolation. The uncontended
+complete desktop, phone, and tablet rerun passed 312 / 312 with no assertion or
+serious/critical axe failure.
