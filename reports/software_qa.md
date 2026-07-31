@@ -1108,3 +1108,38 @@ full private-identifier matches across 81 deployed artifacts. The live site
 preserves the occupation/employer distinction for Andreasen, the unchanged
 Hecht Company result for Andrade, and visible uncertainty for the unresolved,
 ambiguous, and probable Batch 086 identities.
+
+Batch 087 completes the minimum online protocol for Antony Andreopoulos
+through Lewis W. Andrews Jr. on PDF page ten. All ten identities remain
+unresolved and route to high-priority Box 17 review. The source classifications
+remain explicit, including the French note and unexpanded `S/Lt` string for
+Andre Andreu, CAF-3 status for Ethel N. Andrew, commissioned naval and Army
+officer categories, enlisted Army categories, and indeterminate no-rank rows.
+Rejected printer, publishing, insurance, carpet-industry, obituary, cemetery,
+genealogical, and modern people-finder namesakes are not promoted to public
+facts.
+
+Fifty-one Python tests, all 306 browser and accessibility cases, the
+200-profile stratified audit, and the 24,194-page link check passed. The link
+checker inventoried 48,499 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`8e5c0dc750f69d5cfdb9b91a6edafe24987b6b8ddc8297df327ef9d9ade468fa`
+content-tree hash under the current path-and-content hashing procedure. The
+public manifest contains 65 size- and SHA-256-described assets, its
+forbidden-field redaction check passed, and its SHA-256 is
+`bb402dfe8054785ad4a07ad9af9fb8f4c63ef38550e8649255a51e7e14d6c3d5`.
+A bounded, field-aware exact-token comparison of 12,919 nontrivial normalized
+private identifiers across 24,233 non-gzip production artifacts found zero
+full-number matches. SQLite `quick_check` returned `ok`, and the foreign-key
+check returned zero errors.
+
+A clean-archive Batch 087 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,720 research attempts, replayed all 86 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,194-page static-site
+build. Across all 272 tracked files, 266 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero errors,
+and no substantive field, coverage count, public record, or generated site
+asset differed.

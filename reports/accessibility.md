@@ -806,3 +806,17 @@ an invented employer for Andreasen, and the continued absence of a published
 employer claim for the Anderton lead. The targeted three-viewport run passed
 3 / 3. The complete desktop, phone, and tablet matrix passed 303 / 303 with no
 remaining assertion or serious/critical axe failure.
+
+The Batch 087 regression checks the next contiguous sequence from Antony
+Andreopoulos through Lewis W. Andrews Jr. on PDF page ten. It verifies ten
+dignified unresolved Box 17 profiles; foreign or Allied military,
+civilian-grade, naval-officer, Army-officer, enlisted, and indeterminate
+classifications; and field-level serial masking. It also verifies that Andre
+Andreu's printed French note and unfamiliar `S/Lt` abbreviation remain visible
+without forcing a U.S. rank expansion. The first targeted run previewed the
+prior static build; after the current data were built, a second run correctly
+showed that private identity-evidence prose is not rendered publicly. The
+assertion was repaired to test the visible archival guidance instead. The
+targeted three-viewport run then passed 3 / 3. The complete desktop, phone, and
+tablet matrix passed 306 / 306 with no remaining assertion or
+serious/critical axe failure.

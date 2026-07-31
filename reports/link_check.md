@@ -1092,3 +1092,24 @@ against 81 live HTML, data, compressed-mirror, and download artifacts returned
 zero full-number matches. Andreasen's live profile publishes only the cited
 first-mate occupation, Andrade's two Hecht Company sections remain intact, and
 the unresolved or qualified Batch 086 leads remain visibly qualified.
+
+## Batch 087 local release check
+
+The rebuilt site contains direct, internally resolved routes for Antony
+Andreopoulos, Andre Andreu, Ethel N. Andrew, Edward W. Andrews, Ernest F.
+Andrews, Evelyn Andrews, George H. Andrews, Graydon L. Andrews, Horace
+Andrews, and Lewis W. Andrews Jr. All ten profiles visibly retain unresolved
+identity status, high-priority Box 17 guidance, and the evidence-limited
+employer statement. Andreu's profile preserves the printed French note and
+`S/Lt` rank string without expanding the unfamiliar abbreviation. The
+civilian, naval-officer, Army-officer, enlisted, foreign or Allied, and
+indeterminate classifications remain distinct.
+
+The complete local link checker passed all 24,194 HTML files and inventoried
+48,499 unique external URLs. All 65 manifest-listed assets have recorded sizes
+and SHA-256 values, the manifest forbidden-field check passed, and the
+manifest SHA-256 is
+`bb402dfe8054785ad4a07ad9af9fb8f4c63ef38550e8649255a51e7e14d6c3d5`.
+A bounded, field-aware exact-token comparison of all 12,919 nontrivial
+normalized private identifiers against 24,233 non-gzip production artifacts
+returned zero full identifier matches.
