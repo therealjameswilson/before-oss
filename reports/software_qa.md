@@ -1063,3 +1063,38 @@ row counts matched the release, and the field-aware exact-token scan found zero
 full private-identifier matches across 81 deployed artifacts. The ten live
 profiles preserve high-priority Box 16 guidance, and the two Robert J. Anderson
 source rows remain distinct.
+
+Batch 086 completes the minimum online protocol for Stanley E. Anderson
+through Knut Andreasen on PDF page ten. Six identities remain unresolved,
+Russell W. Anderton remains ambiguous, and Jean J. Andoire remains probable;
+their attractive namesake or rare-name leads are retained as qualified review
+evidence rather than promoted to employer facts. Edna W. Andrade's existing
+Hecht Company immediate and last-civilian-employer result passed an in-place
+integrity review without duplicate claims. Knut Andreasen is confirmed through
+an uncommon-name and exact private-identifier match to an Operation Rype
+profile, independently corroborated by Matthew T. Bolland's published
+history. Bolland documents that he had been a first mate. The site publishes
+that occupation only and leaves the vessel, employer, immediate affiliation,
+and Army-to-OSS sequence unresolved.
+
+Fifty-one Python tests, all 303 browser and accessibility cases, the
+200-profile stratified audit, and the 24,194-page link check passed. The link
+checker inventoried 48,499 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`cc76e6d5d611ae08df17a4fe545cbd83300494da769500737de418015b8e5c60`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`8b690021925795df06f646f8be5da379e8e5c654f972fb58b776f0d5ec2f5f66`.
+A field-aware exact-token comparison of 12,919 nontrivial normalized private
+identifiers across 24,232 production artifacts found zero full-number matches.
+
+A clean-archive Batch 086 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,710 research attempts, replayed all 85 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,194-page static-site
+build. Across all 271 tracked files, 265 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero errors,
+and no substantive field, coverage count, public record, or generated site
+asset differed.

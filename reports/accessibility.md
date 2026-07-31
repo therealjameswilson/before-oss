@@ -795,3 +795,14 @@ identifier; after the evidence note and test were repaired, the targeted
 three-viewport rerun passed 3 / 3. The complete desktop, phone, and tablet
 matrix passed 300 / 300 with no remaining assertion or serious/critical axe
 failure.
+
+The Batch 086 regression checks the next contiguous sequence from Stanley E.
+Anderson through Knut Andreasen on PDF page ten. It verifies six dignified
+unresolved profiles, Russell W. Anderton's visibly ambiguous identity, Jean J.
+Andoire's visibly probable identity, Edna W. Andrade's unchanged Hecht Company
+employer sections, and Knut Andreasen's confirmed occupation-only result. It
+also verifies Box 16 or 17 guidance, field-level serial masking, the absence of
+an invented employer for Andreasen, and the continued absence of a published
+employer claim for the Anderton lead. The targeted three-viewport run passed
+3 / 3. The complete desktop, phone, and tablet matrix passed 303 / 303 with no
+remaining assertion or serious/critical axe failure.

@@ -1039,3 +1039,26 @@ private identifiers against 81 live HTML, data, compressed-mirror, and download
 artifacts returned zero full-number matches. The two same-name Robert J.
 Anderson records remain distinct, and all ten profiles retain high-priority Box
 16 archival-review guidance.
+
+## Batch 086 local release check
+
+The rebuilt site contains direct, internally resolved routes for Stanley E.
+Anderson, Tom L. Anderson, Walter Anderson, William M. Anderson, Russell W.
+Anderton, Anna B. Andes, Jean J. Andoire, Edna W. Andrade, George Andreas, and
+Knut Andreasen. The six unresolved profiles visibly retain Box 16 or 17
+archival guidance and the evidence-limited employer statement. Anderton's
+identity is labeled ambiguous and does not publish the gem-industry lead as an
+employer claim. Andoire's identity is labeled probable and does not convert
+postwar publishing into pre-OSS employment. Andrade's Hecht Company employer
+sections remain intact. Andreasen's profile displays a confirmed identity and
+the cited first-mate occupation while leaving both affiliation and employer
+sections unresolved.
+
+The complete local link checker passed all 24,194 HTML files and inventoried
+48,499 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest forbidden-field check passed,
+and the manifest SHA-256 is
+`8b690021925795df06f646f8be5da379e8e5c654f972fb58b776f0d5ec2f5f66`.
+A field-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers against 24,232 production artifacts returned zero full
+identifier matches.
