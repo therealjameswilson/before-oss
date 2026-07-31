@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 694 people with a non-planned attempt | 23,941 person entities | 2.8988% |
-| Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
-| Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 642 people with an individual file-access/priority assessment | 23,941 person entities | 2.6816% |
+| Research-attempt coverage | 704 people with a non-planned attempt | 23,941 person entities | 2.9406% |
+| Verified-affiliation coverage | 203 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8479% |
+| Verified-employer coverage | 121 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5054% |
+| Archival-review coverage | 652 people with an individual file-access/priority assessment | 23,941 person entities | 2.7234% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 24
-- Identity status `high_confidence`: 254
+- Identity status `high_confidence`: 257
 - Identity status `probable`: 20
 - Identity status `ambiguous`: 23
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,619
+- Identity status `unresolved`: 23,616
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,247
+- `not_started`: 23,237
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 23
+- `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 27
-- `requires_archival_review`: 425
+- `requires_archival_review`: 434
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -61,17 +61,18 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
-- Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 424
+- Reviewed-official-web attempts recorded: 31
+- Reviewed-institutional-web attempts recorded: 2
+- Reviewed-web terminal-protocol attempts recorded: 431
 - Reviewed-evidence carry-forward attempts recorded: 1
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 291 across 276 people; 17 additional
+- Saved `source_reviewed` outcomes: 294 across 279 people; 17 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,720
+- Total recorded attempts/plans: 1,730
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 275; 259 have at least one public-eligible
+- People with saved reviewed claims: 278; 262 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -599,10 +600,31 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   namesakes lacked the indexed private identifiers, OSS links, compatible
   chronology, or additional corroborating identifiers. No namesake employer,
   occupation, organization, or assignment is published as fact.
-- Published affiliations: 408
-- Database claims: 720; public-eligible claims: 701 (97 confirmed, 527 high, 77
+  Batch 088 completed the next ten contiguous rows from May E. Andrews through
+  Anthony N. Andros across PDF pages ten and eleven. Schofield Andrews Jr. is a
+  high-confidence identity: the St. Paul's School alumni memorial documents
+  Harvard graduation, Army enlistment in 1943, and an explicit transfer to OSS
+  X-2. The Army is published as his immediate military affiliation, while
+  Harvard is correctly published as student status rather than employment.
+  Mortimer Andron is also high-confidence because his obituary explicitly
+  documents OSS service in Washington and India. Official University of
+  Illinois records place him as an Assistant in Economics in 1941-42; that role
+  is published only as documented prewar employment because the accessible
+  chronology does not prove immediacy or last-civilian-employer status.
+  Nicholas Andronovitch is high-confidence from the exact distinctive name,
+  compatible Army rank progression, and a CIA historical paper that says SSU
+  acquired him late in 1945 from his Army G-2 liaison assignment in Jerusalem.
+  Army G-2 is a military assignment, not a civilian employer.
+  The remaining seven records stay unresolved and route to Box 17 or 18 review.
+  A later Reuben K. Andrews Jr. directory entry, a 1940 William and Mary
+  baseball player named Virgil Andrews, a Chicago genealogy candidate for
+  Anthony N. Andros, and common-name military, obituary, business, and
+  professional results lacked the indexed private identifiers, OSS links, or
+  additional corroborating identifiers required for publication.
+- Published affiliations: 412
+- Database claims: 727; public-eligible claims: 708 (97 confirmed, 534 high, 77
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,041; public source export: 637; unique source documents: 596
+- Citation records: 1,055; public source export: 644; unique source documents: 600
 - Canonical organizations: 247 private and 245 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
@@ -739,6 +761,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-ten
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-anderson-otto-through-shirley-archival-pathways_batch-085_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-anderson-through-andreasen-pathways_batch-086_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-andreopoulos-through-andrews-archival-pathways_batch-087_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-eleven-andrews-through-andros-pathways_batch-088_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

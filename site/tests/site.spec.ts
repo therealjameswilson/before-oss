@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/120 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/121 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 200 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 203 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -7716,4 +7716,110 @@ test("Batch 087 preserves ten unresolved Andrews-area records and the French ran
       "unknown or indeterminate",
     );
   }
+});
+
+test("Batch 088 separates Army pathways, student status, documented employment, and unresolved Andrews records", async ({
+  page,
+}) => {
+  const profiles = [
+    ["dcf4c9e2-e6fd-593b-904e-bb04214b46bf", "May E Andrews"],
+    ["6acb10b5-d6dc-55fb-b237-eca5823d2a7f", "Reuben K Andrews"],
+    ["a2f71631-f97a-52d5-a5cc-81dd5949053e", "Robert A Andrews"],
+    ["ced21977-cb09-5555-9c9f-7fd3dea2735c", "Schofield Andrews Jr."],
+    ["89894fa3-c88b-503e-bb1b-622eaad54beb", "Thomas K Andrews"],
+    ["e313514c-a222-5bfd-bd94-44c6a33b341e", "Virgil Andrews"],
+    ["33d953c6-10f0-51d6-ad3f-aa23c5fb7599", "William C Andrews"],
+    ["600c12c5-1644-584c-a4ca-494bbaafc50e", "Mortimer Andron"],
+    ["00af6aea-fe0a-5eb4-aedc-0cba4eb7c365", "Nicholas Andronovitch"],
+    ["53933f8b-20ec-5302-9e84-66d324dbf69b", "Anthony N Andros"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(/^(17|18)$/, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "dcf4c9e2-e6fd-593b-904e-bb04214b46bf",
+    "6acb10b5-d6dc-55fb-b237-eca5823d2a7f",
+    "a2f71631-f97a-52d5-a5cc-81dd5949053e",
+    "89894fa3-c88b-503e-bb1b-622eaad54beb",
+    "e313514c-a222-5bfd-bd94-44c6a33b341e",
+    "33d953c6-10f0-51d6-ad3f-aa23c5fb7599",
+    "53933f8b-20ec-5302-9e84-66d324dbf69b",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ced21977-cb09-5555-9c9f-7fd3dea2735c/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Harvard University");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("student");
+  await expect(page.locator("body")).toContainText(
+    "Harvard is not classified as his employer",
+  );
+
+  await page.goto("./people/600c12c5-1644-584c-a4ca-494bbaafc50e/");
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("University of Illinois Urbana-Champaign");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Assistant in Economics");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/00af6aea-fe0a-5eb4-aedc-0cba4eb7c365/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army G-2");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Military Liaison Officer in Jerusalem");
+  await expect(page.locator("body")).toContainText(
+    "military assignment, not a civilian employer",
+  );
 });

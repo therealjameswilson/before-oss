@@ -1076,6 +1076,48 @@ living-person details were excluded. No rejected employer, occupation,
 organization, or assignment is promoted to a public claim, and full service
 identifiers remain private.
 
+## Page-ten/eleven Andrews-through-Andros pathways, Batch 088
+
+`research/evidence-page-ten-eleven-andrews-through-andros-pathways_batch-088_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from May E.
+Andrews through Anthony N. Andros across PDF pages ten and eleven. The bundle
+contains ten person updates, ten terminal research attempts, fourteen sources,
+four normalized organizations, four published affiliations, seven published
+claims, and twelve claim-source links.
+
+All ten index rows were visually checked against the rendered PDF pages. The
+seven unresolved records received official/NARA context, CIA discovery,
+exact-name and meaningful punctuation, suffix, rank, and spelling variants,
+employment and occupation searches, Library of Congress or regional newspaper
+paths, obituary or directory checks, institutional research, and archival
+searches. A Reuben K. Andrews Jr. directory entry, a William and Mary baseball
+player named Virgil Andrews, a Chicago genealogy candidate for Anthony N.
+Andros, and numerous common-name military, professional, obituary, and business
+results lacked the indexed private identifier where one exists, an OSS or Box
+17/18 connection, and the additional corroborating identifiers required for
+publication. They remain rejected leads, not public claims.
+
+Three high-confidence identities produce qualified historical pathways.
+St. Paul's School's alumni memorial documents that Schofield Andrews Jr.
+graduated from Harvard, enlisted in the Army in 1943, and was transferred to
+OSS X-2. The Army is modeled as the immediate military affiliation; Harvard is
+student status and is excluded from employer analytics. The Santa Barbara
+News-Press obituary explicitly identifies Mortimer Andron's wartime OSS
+service, while University of Illinois Board of Trustees records document his
+1941-42 appointment as Assistant in Economics. That university role remains
+`documented_prewar`, not immediate or last civilian, because the accessible
+sources do not close the chronology. A CIA institutional historical paper says
+SSU acquired Nicholas Andronovitch late in 1945 from his Army G-2 Military
+Liaison Officer assignment in Jerusalem. Army G-2 is modeled as a military
+assignment rather than a civilian employer.
+
+The University of Illinois minutes' OCR misreads the counselor start year as
+1947. The project does not silently reproduce that error: the 1941 meeting
+date, June 1942 end date, surrounding appointments, and the separate 1941-42
+staff register establish the academic-year context. No authenticated NARA
+Catalog request was made, no API key was accessed, and no live NARA response
+content was retained.
+
 ## Official reference material
 
 - NARA OSS personnel records:

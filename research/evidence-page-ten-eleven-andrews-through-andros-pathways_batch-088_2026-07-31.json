@@ -1,0 +1,859 @@
+{
+  "reviewer": "Codex reviewed evidence protocol",
+  "bundle_version": "reviewed-evidence-v1",
+  "person_updates": [
+    {
+      "person_id": "dcf4c9e2-e6fd-593b-904e-bb04214b46bf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies May E. Andrews, civilian grade CAF-5, and Box 17. Exact-name, punctuation-variant, grade, OSS, government-employment, occupation, obituary, newspaper, institutional, and archival searches returned an earlier Texas county treasurer and later social notices but no candidate with the CAF-5 grade, an OSS or Box 17 connection, and another corroborating identifier.",
+      "name_variants": [
+        "May E Andrews",
+        "May E. Andrews",
+        "Andrews, May E"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 17 for May E. Andrews's full identity, CAF-5 duties, occupation, employer, and OSS recruitment chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6acb10b5-d6dc-55fb-b237-eca5823d2a7f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Reuben K. Andrews, Technician Fourth Grade, a private identifier, and Box 17. Exact-name, punctuation, rank, Army, OSS, employment, obituary, directory, newspaper, institutional, and archival searches returned a later Reuben K. Andrews Jr. directory listing but no candidate matching the private identifier plus an OSS or Box 17 connection. The suffixless index row was not merged with that namesake.",
+      "name_variants": [
+        "Reuben K Andrews",
+        "Reuben K. Andrews",
+        "Andrews, Reuben K"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 17 and official Army records for Reuben K. Andrews's full identity, suffix evidence, unit, occupation, last civilian employer, and OSS transfer chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a2f71631-f97a-52d5-a5cc-81dd5949053e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Robert A. Andrews, Captain, a private identifier, and Box 17. Exact-name, rank, Army, OSS, employment, obituary, institutional, military-history, newspaper, and archival searches produced many unrelated people, including modern military and professional namesakes, but none matched the private identifier and an OSS or Box 17 connection.",
+      "name_variants": [
+        "Robert A Andrews",
+        "Robert A. Andrews",
+        "Andrews, Robert A"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 17 and official Army officer records for Robert A. Andrews's full identity, branch or unit, occupation, last civilian employer, and OSS transfer chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact uncommon name and suffix, compatible Army service, 1943 chronology, and explicit OSS X-2 service in the St. Paul's School alumni memorial strongly identify the indexed First Lieutenant as Schofield Andrews Jr. The index's private identifier was not found in the institutional source, so the match remains high-confidence rather than confirmed.",
+      "name_variants": [
+        "Schofield Andrews Jr",
+        "Schofield Andrews, Jr.",
+        "Schofield Andrews Jr.",
+        "Andrews, Schofield Jr"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 17 to confirm the private identifier, rank progression, exact Army-to-OSS transfer date, X-2 assignment, and whether any civilian employment intervened between Harvard graduation and Army enlistment. Harvard is documented as student status, not employment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "89894fa3-c88b-503e-bb1b-622eaad54beb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Thomas K. Andrews, Staff Sergeant, a private identifier, and Box 17. Exact-name, rank, Army, OSS, employment, obituary, newspaper, institutional, and archival searches returned modern professional and genealogical namesakes without the indexed identifier or an OSS connection.",
+      "name_variants": [
+        "Thomas K Andrews",
+        "Thomas K. Andrews",
+        "Andrews, Thomas K"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 17 and official Army records for Thomas K. Andrews's full identity, unit, occupation, last civilian employer, and OSS transfer chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e313514c-a222-5bfd-bd94-44c6a33b341e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Virgil Andrews, Corporal, no private identifier, and Box 18. Exact-name, rank, Army, OSS, employment, obituary, directory, newspaper, institutional, and archival searches returned numerous namesakes. A 1940 William and Mary baseball player has a plausible chronology but no OSS or Box 18 connection and no second corroborating identifier, so that education lead was not assigned.",
+      "name_variants": [
+        "Virgil Andrews",
+        "Andrews, Virgil"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 and official Army records for Virgil Andrews's full identity, unit, occupation, last civilian employer, and any education evidence needed to evaluate the William and Mary namesake. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33d953c6-10f0-51d6-ad3f-aa23c5fb7599",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies William C. Andrews, Captain, a private identifier, and Box 18. Exact-name, rank, Army, OSS, employment, obituary, university, military-history, newspaper, and archival searches returned many unrelated namesakes but none matched the private identifier and an OSS or Box 18 connection.",
+      "name_variants": [
+        "William C Andrews",
+        "William C. Andrews",
+        "Andrews, William C"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 and official Army officer records for William C. Andrews's full identity, branch or unit, occupation, last civilian employer, and OSS transfer chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "600c12c5-1644-584c-a4ca-494bbaafc50e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact distinctive name in the NARA index and the Santa Barbara News-Press obituary's explicit statement that Mortimer Andron served in the OSS in Washington and India strongly identify the same person. The University of Illinois's contemporary records document the same distinctive name immediately before the wartime period. With no private identifier or direct personnel-file linkage in the accessible sources, the match remains high-confidence.",
+      "name_variants": [
+        "Mortimer Andron",
+        "Andron, Mortimer"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 18 to establish Mortimer Andron's personnel status, OSS entry date, and whether his 1941-42 University of Illinois economics appointment was his immediate affiliation or last civilian employer before OSS service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "00af6aea-fe0a-5eb4-aedc-0cba4eb7c365",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact highly distinctive name, compatible Army rank progression, explicit Army G-2 and SSU chronology, and service in Jerusalem strongly identify the indexed First Lieutenant as Nicholas Andronovitch. The CIA historical paper says he entered the Army as an officer in 1943, was a Captain when SSU acquired him late in 1945, and later rose higher; the index's earlier First Lieutenant grade is compatible. Because the index supplies no private identifier and the physical file was not reviewed, the match is high-confidence rather than confirmed.",
+      "name_variants": [
+        "Nicholas Andronovitch",
+        "Andronovitch, Nicholas"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 to confirm Nicholas Andronovitch's full Army and OSS/SSU chronology and identify his last civilian occupation or employer before joining the Army in 1943. The Army G-2 liaison role is a military assignment, not a civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "53933f8b-20ec-5302-9e84-66d324dbf69b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified NARA row supplies Anthony N. Andros, First Lieutenant, a private identifier, and Box 18. Exact-name, rank, Army, OSS, employment, obituary, newspaper, institutional, genealogical, and archival searches returned a plausible Chicago family member born in 1924 but no OSS connection, matching private identifier, or second corroborating service fact. The genealogy lead was discovery-only and was not accepted.",
+      "name_variants": [
+        "Anthony N Andros",
+        "Anthony N. Andros",
+        "Andros, Anthony N"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 18 and official Army officer records for Anthony N. Andros's full identity, birth information, branch or unit, occupation, last civilian employer, and OSS transfer chronology. Compare rather than assume the Chicago genealogy candidate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nara-oss-index-page-10-andrews-may-e",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 17",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, May E.; Caf-5; Box 17; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrews-reuben-k",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 17",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, Reuben K.; T-4; Box 17; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrews-robert-a",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 17",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, Robert A.; Capt; Box 17; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrews-schofield-jr",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 17",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, Schofield, Jr.; 1st Lt; Box 17; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrews-thomas-k",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 17",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, Thomas K.; S/Sgt; Box 17; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrews-virgil",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, Virgil; Cpl; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-10-andrews-william-c",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andrews, William C.; Capt; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "nara-oss-index-page-10-andron-mortimer",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 10; Andron, Mortimer; no rank printed; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-11-andronovitch-nicholas",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Andronovitch, Nicholas; 1st Lt; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index."
+    },
+    {
+      "key": "nara-oss-index-page-11-andros-anthony-n",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 18",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 11; Andros, Anthony N.; 1st Lt; Box 18; archive location 230/86/26/05; visually checked against the rendered page",
+      "access_date": "2026-07-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. The full service identifier remains private."
+    },
+    {
+      "key": "st-pauls-school-alumni-horae-schofield-andrews-jr-2020",
+      "stable_url": "https://www.spshorae.com/springsummer-2020/2020/6/25/in-memoriam",
+      "title": "In Memoriam: 1940 Schofield Andrews, Jr.",
+      "repository_publisher": "St. Paul's School Alumni Horae",
+      "publication_record_date": "2020-06-25",
+      "locator": "1940 Schofield Andrews, Jr. entry; paragraphs on Harvard graduation, 1943 Army enlistment, transfer to OSS X-2, and MI6 Section 5 service",
+      "access_date": "2026-07-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "St. Paul's School Alumni Horae, Spring/Summer 2020",
+      "rights_notes": "Institutional alumni memorial. Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "santa-barbara-news-press-mortimer-andron-obituary-2014",
+      "stable_url": "https://www.legacy.com/us/obituaries/newspress/name/mortimer-andron-obituary?id=7386047",
+      "title": "Mortimer Andron Obituary",
+      "repository_publisher": "Santa Barbara News-Press, reproduced by Legacy.com",
+      "publication_record_date": "2014-02-12",
+      "locator": "Opening paragraph identifying OSS service in Washington and India during World War II and subsequent UCSB appointment",
+      "access_date": "2026-07-31",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Santa Barbara News-Press obituaries",
+      "rights_notes": "Published obituary used for identity and OSS-service chronology. Only a short excerpt and project-authored paraphrases are retained."
+    },
+    {
+      "key": "university-illinois-board-trustees-mortimer-andron-1941",
+      "stable_url": "https://www.trustees.uillinois.edu/trustees/minutes/1941/1941-09-26-uibot.pdf",
+      "archival_identifier": "University of Illinois Board of Trustees minutes, September 26, 1941",
+      "title": "September 26, 1941, Minutes",
+      "author_creator": "University of Illinois Board of Trustees",
+      "repository_publisher": "University of Illinois Board of Trustees",
+      "publication_record_date": "1941-09-26",
+      "locator": "PDF p. 37, printed p. 640; Mortimer Andron residence-hall counselor entry noting his additional appointment as Assistant in Economics",
+      "access_date": "2026-07-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Illinois Board of Trustees Minutes",
+      "rights_notes": "Official university minutes. The OCR misreads the counselor start year as 1947; the 1941 meeting date, June 1942 end date, surrounding entries, and separate 1941-42 staff register establish the period. The project does not silently reproduce the OCR error."
+    },
+    {
+      "key": "cia-nazi-war-criminals-chapters-11-21-andronovitch",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA%20AND%20NAZI%20WAR%20CRIM.%20AND%20COL.%20CHAP.%2011-21%2C%20DRAFT%20WORKING%20PAPER_0001.pdf",
+      "archival_identifier": "CIA Reading Room file: CIA and Nazi War Criminals and Collaborators, Chapters 11-21, Draft Working Paper, segment 1",
+      "title": "CIA and Nazi War Criminals and Collaborators, Chapters 11-21, Draft Working Paper",
+      "author_creator": "Central Intelligence Agency History Staff",
+      "repository_publisher": "Central Intelligence Agency Reading Room",
+      "locator": "First PDF segment, Clandestine Services Historical Paper, internal p. 8, note 16; Nicholas Andronovitch paragraph",
+      "access_date": "2026-07-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Freedom of Information Act Electronic Reading Room",
+      "rights_notes": "Officially released institutional historical paper. Citation metadata, brief excerpts, and project-authored paraphrases are retained; the PDF body is not stored."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment; source-specific units and wording remain on each affiliation."
+    },
+    {
+      "key": "harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Student and employment relationships are modeled separately. Schofield Andrews Jr.'s undergraduate attendance is student status, not employment."
+    },
+    {
+      "key": "university-of-illinois-urbana-champaign",
+      "canonical_name": "University of Illinois Urbana-Champaign",
+      "historical_name": "University of Illinois",
+      "aliases": [
+        "University of Illinois",
+        "UIUC"
+      ],
+      "organization_type": "public university",
+      "sector": "academia_and_research",
+      "city": "Urbana and Champaign",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "The historical University of Illinois name is preserved. Relationship type distinguishes Mortimer Andron's documented employment from student attendance by other people."
+    },
+    {
+      "key": "united-states-army-g2",
+      "canonical_name": "United States Army G-2",
+      "historical_name": "Army's G-2",
+      "aliases": [
+        "Army G-2",
+        "Military Intelligence Division"
+      ],
+      "organization_type": "military intelligence staff",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The source's historical Army G-2 wording is preserved; no modern successor name is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "schofield-andrews-jr-us-army-immediate-pre-oss",
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "enlisted soldier; later indexed as First Lieutenant",
+      "occupation": "Army service",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "end_date": "1943",
+      "date_precision": "The institutional memorial states that Andrews enlisted after Harvard graduation in 1943 and was transferred to OSS X-2; exact dates and rank progression are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army is an immediate military affiliation, not a civilian employer. The source says he enlisted before the transfer; the NARA index's later First Lieutenant grade remains separately visible."
+    },
+    {
+      "key": "schofield-andrews-jr-harvard-student-pre-army",
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "organization_key": "harvard-university",
+      "organization_name_as_found": "Harvard",
+      "role_title": "undergraduate student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943",
+      "date_precision": "graduated before Army enlistment in 1943; exact graduation and enlistment dates not supplied",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Harvard is recorded as student status and is not counted as an employer. Army service intervened before the OSS transfer."
+    },
+    {
+      "key": "mortimer-andron-university-illinois-economics-1941-42",
+      "person_id": "600c12c5-1644-584c-a4ca-494bbaafc50e",
+      "organization_key": "university-of-illinois-urbana-champaign",
+      "organization_name_as_found": "University of Illinois",
+      "role_title": "Assistant in Economics",
+      "occupation": "economics assistant",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "1941-42 academic-year staff record; the reviewed sources do not establish the exact employment end date or OSS entry date",
+      "city": "Urbana and Champaign",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The employment is definitely documented before Andron's wartime OSS service, but the accessible chronology does not prove it was the immediate affiliation or last civilian employer before OSS."
+    },
+    {
+      "key": "nicholas-andronovitch-army-g2-jerusalem-immediate",
+      "person_id": "00af6aea-fe0a-5eb4-aedc-0cba4eb7c365",
+      "organization_key": "united-states-army-g2",
+      "organization_name_as_found": "Army G-2",
+      "role_title": "Military Liaison Officer in Jerusalem",
+      "occupation": "Army intelligence officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1945",
+      "date_precision": "The CIA historical paper states that SSU acquired Captain Andronovitch late in 1945 from the Army G-2 liaison assignment; exact dates are not supplied",
+      "city": "Jerusalem",
+      "country": "Mandatory Palestine",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source explicitly states that SSU acquired Andronovitch from Army G-2. This is a military assignment, not a civilian employer. The index's OSS personnel file may include successor-agency service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "schofield-andrews-jr-high-confidence-identity",
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant Schofield Andrews Jr. is strongly identified as the Harvard graduate who entered the Army in 1943 and served in OSS X-2.",
+      "evidence_excerpt": "transferred to the Office of Strategic Services, X-2 (counterespionage)",
+      "evidence_paraphrase": "The St. Paul's School memorial supplies the same uncommon full name and suffix, a compatible 1943 Army chronology, and explicit OSS X-2 service.",
+      "identity_match_assessment": "High confidence from the exact uncommon name and suffix, compatible Army service and rank progression, and explicit OSS branch. No external source exposed the private identifier.",
+      "temporal_assessment": "The memorial places Harvard graduation, Army enlistment, and OSS transfer in sequence beginning in 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical Box 17 file remains necessary to confirm the private identifier and exact rank dates.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-10-andrews-schofield-jr",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "st-pauls-school-alumni-horae-schofield-andrews-jr-2020",
+          "support_type": "supports",
+          "excerpt_override": "transferred to the Office of Strategic Services, X-2 (counterespionage)"
+        }
+      ]
+    },
+    {
+      "key": "schofield-andrews-jr-immediate-us-army",
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "affiliation_key": "schofield-andrews-jr-us-army-immediate-pre-oss",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Schofield Andrews Jr.'s immediate pre-OSS affiliation was the U.S. Army, from which he was transferred to OSS X-2 in 1943.",
+      "evidence_excerpt": "After graduating from Harvard, Mr. Andrews enlisted in the U.S. Army in 1943.",
+      "evidence_paraphrase": "The institutional memorial explicitly sequences Harvard graduation, Army enlistment, and transfer to OSS X-2.",
+      "identity_match_assessment": "High-confidence match based on the exact uncommon name and suffix plus compatible Army and OSS service.",
+      "temporal_assessment": "Explicit immediate military pathway; exact enlistment and transfer dates are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army service is not counted as civilian employment. The physical file is needed for the precise unit, dates, and rank progression.",
+      "sources": [
+        {
+          "source_key": "st-pauls-school-alumni-horae-schofield-andrews-jr-2020",
+          "support_type": "supports",
+          "excerpt_override": "After graduating from Harvard, Mr. Andrews enlisted in the U.S. Army in 1943."
+        }
+      ]
+    },
+    {
+      "key": "schofield-andrews-jr-harvard-student",
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "affiliation_key": "schofield-andrews-jr-harvard-student-pre-army",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before Army and OSS service, Schofield Andrews Jr. was a Harvard student; Harvard is not classified as his employer.",
+      "evidence_excerpt": "graduating from Harvard",
+      "evidence_paraphrase": "The institutional memorial says Andrews graduated from Harvard before enlisting in the Army in 1943.",
+      "identity_match_assessment": "High-confidence match based on the exact uncommon name and suffix plus the same Army-to-OSS chronology.",
+      "temporal_assessment": "Documented before Army service and therefore before OSS, but not immediately before OSS because Army service intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is student status, not employment, and is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "st-pauls-school-alumni-horae-schofield-andrews-jr-2020",
+          "support_type": "supports",
+          "excerpt_override": "graduating from Harvard"
+        }
+      ]
+    },
+    {
+      "key": "mortimer-andron-high-confidence-identity",
+      "person_id": "600c12c5-1644-584c-a4ca-494bbaafc50e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Mortimer Andron is strongly identified as the economist whose obituary documents wartime OSS service in Washington and India.",
+      "evidence_excerpt": "After serving in the OSS in Washington DC and India during World War II",
+      "evidence_paraphrase": "The published obituary gives the same distinctive name and explicitly documents OSS service before Andron's postwar UCSB appointment.",
+      "identity_match_assessment": "High confidence from the exact distinctive name and explicit OSS service, corroborated by a compatible contemporary University of Illinois record. The index has no rank or private identifier.",
+      "temporal_assessment": "The obituary places OSS service during World War II and the university record places employment in 1941-42.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 18 remains necessary for direct personnel-file confirmation and exact entry chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-10-andron-mortimer",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "santa-barbara-news-press-mortimer-andron-obituary-2014",
+          "support_type": "supports",
+          "excerpt_override": "After serving in the OSS in Washington DC and India during World War II"
+        },
+        {
+          "source_key": "university-illinois-board-trustees-mortimer-andron-1941",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "mortimer-andron-university-illinois-documented-prewar",
+      "person_id": "600c12c5-1644-584c-a4ca-494bbaafc50e",
+      "affiliation_key": "mortimer-andron-university-illinois-economics-1941-42",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Mortimer Andron was employed by the University of Illinois as an Assistant in Economics during the 1941-42 academic year.",
+      "evidence_excerpt": "in addition to his appointment as Assistant in Economics",
+      "evidence_paraphrase": "Official university minutes identify Andron's economics appointment while recording his related 1941-42 residence-hall counseling duty.",
+      "identity_match_assessment": "High confidence from the exact distinctive name, compatible economics career, and the obituary's independent OSS identification.",
+      "temporal_assessment": "Definitely documented before wartime OSS service, but the accessible sources do not prove this was the immediate affiliation or last civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published only as other documented pre-OSS employment. It is excluded from immediate-affiliation and last-civilian-employer analytics unless later evidence closes the chronology.",
+      "sources": [
+        {
+          "source_key": "university-illinois-board-trustees-mortimer-andron-1941",
+          "support_type": "supports",
+          "excerpt_override": "in addition to his appointment as Assistant in Economics"
+        },
+        {
+          "source_key": "santa-barbara-news-press-mortimer-andron-obituary-2014",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "nicholas-andronovitch-high-confidence-identity",
+      "person_id": "00af6aea-fe0a-5eb4-aedc-0cba4eb7c365",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant Nicholas Andronovitch is strongly identified as the Army officer later acquired by SSU for service in Palestine.",
+      "evidence_excerpt": "Late in 1945, SSU acquired Capt. Nicholas Andronovitch",
+      "evidence_paraphrase": "The CIA historical paper supplies the same highly distinctive name, Army-officer status, rank progression, and an explicit SSU role in Palestine.",
+      "identity_match_assessment": "High confidence from the exact highly distinctive name, compatible First Lieutenant-to-Captain progression, Army service, and explicit OSS-successor chronology. The index has no private identifier.",
+      "temporal_assessment": "The source says Andronovitch joined the Army as an officer in 1943 and SSU acquired him late in 1945.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed file may span OSS and successor-agency service. Box 18 remains necessary to align the exact grade and transfer dates.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-11-andronovitch-nicholas",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "cia-nazi-war-criminals-chapters-11-21-andronovitch",
+          "support_type": "supports",
+          "excerpt_override": "Late in 1945, SSU acquired Capt. Nicholas Andronovitch"
+        }
+      ]
+    },
+    {
+      "key": "nicholas-andronovitch-immediate-army-g2",
+      "person_id": "00af6aea-fe0a-5eb4-aedc-0cba4eb7c365",
+      "affiliation_key": "nicholas-andronovitch-army-g2-jerusalem-immediate",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Nicholas Andronovitch's immediate pre-SSU affiliation was Army G-2, where he served as Military Liaison Officer in Jerusalem.",
+      "evidence_excerpt": "who had been the Army G-2's Military Liaison Officer in Jerusalem",
+      "evidence_paraphrase": "The CIA historical paper explicitly states that SSU acquired Andronovitch from the Army G-2 liaison role late in 1945.",
+      "identity_match_assessment": "High-confidence match based on the exact distinctive name, compatible Army rank progression, location, and explicit successor-service chronology.",
+      "temporal_assessment": "Explicit immediate military pathway from Army G-2 to SSU in late 1945.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army G-2 is modeled as a military assignment, not a civilian employer. The last civilian employer before his 1943 Army entry remains unresolved.",
+      "sources": [
+        {
+          "source_key": "cia-nazi-war-criminals-chapters-11-21-andronovitch",
+          "support_type": "supports",
+          "excerpt_override": "who had been the Army G-2's Military Liaison Officer in Jerusalem"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch088-may-e-andrews-terminal-protocol",
+      "person_id": "dcf4c9e2-e6fd-593b-904e-bb04214b46bf",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"May E Andrews\" OSS; \"May E. Andrews\" \"Office of Strategic Services\"; CAF-5; government employee; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress and regional newspapers; obituary; institutional and archival searches",
+      "query_variant_type": "common-name-civilian-grade-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:05:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "An earlier Texas county treasurer and later social notices supplied no CAF-5 grade, OSS or Box 17 connection, and corroborating identity evidence.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, punctuation, grade, OSS, government-employment and occupation, obituary, Library of Congress and regional newspaper, institutional, and archival checks were completed.",
+      "next_action": "Review Box 17 for identity, CAF-5 duties, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-reuben-k-andrews-terminal-protocol",
+      "person_id": "6acb10b5-d6dc-55fb-b237-eca5823d2a7f",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Reuben K Andrews\" OSS; \"Reuben K. Andrews\" \"Office of Strategic Services\"; T-4; Technician Fourth Grade; Army; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; obituary; directory; institutional and archival searches",
+      "query_variant_type": "distinctive-middle-initial-private-identifier-rank-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:05:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A later directory entry for Reuben K. Andrews Jr. lacked the indexed private identifier, rank, OSS connection, and wartime chronology; the suffix was not silently added to the index record.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, punctuation, rank, OSS, employment and occupation, obituary, directory, Library of Congress newspaper, institutional, and archival checks were completed.",
+      "next_action": "Review Box 17 and official Army records for identity, suffix evidence, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-robert-a-andrews-terminal-protocol",
+      "person_id": "a2f71631-f97a-52d5-a5cc-81dd5949053e",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Robert A Andrews\" OSS; \"Robert A. Andrews\" \"Office of Strategic Services\"; Captain; Army; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; obituary; institutional, military-history, and archival searches",
+      "query_variant_type": "common-name-private-identifier-officer-rank-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:06:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Modern military, obituary, professional, and archival namesakes lacked the indexed private identifier plus an OSS or Box 17 connection.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, punctuation, rank, Army, OSS, employment and occupation, obituary, Library of Congress newspaper, institutional, military-history, and archival checks were completed.",
+      "next_action": "Review Box 17 and official Army officer records for identity, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-schofield-andrews-jr-reviewed-institutional",
+      "person_id": "ced21977-cb09-5555-9c9f-7fd3dea2735c",
+      "source_adapter": "reviewed_institutional_web",
+      "query_text": "\"Schofield Andrews Jr\" OSS; \"Schofield Andrews, Jr.\" \"Office of Strategic Services\"; Army; First Lieutenant; X-2; MI6; Harvard 1943; obituary; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; St. Paul's School and Harvard institutional searches",
+      "query_variant_type": "distinctive-name-suffix-private-identifier-rank-student-military-and-oss",
+      "started_at": "2026-07-31T08:06:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern people-search results, an unsourced social-history profile, and a spouse's obituary were not used as principal evidence. Postwar Harvard material corroborated the name but did not establish the pre-OSS pathway.",
+      "research_notes": "The NARA row was visually checked. The St. Paul's School alumni memorial establishes Harvard graduation, 1943 Army enlistment, transfer to OSS X-2, and MI6 Section 5 service. Harvard is modeled as student status and the Army as the immediate military affiliation; no civilian employer was inferred.",
+      "next_action": "Review Box 17 for the private identifier, rank progression, exact transfer date, X-2 assignment, and any last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-thomas-k-andrews-terminal-protocol",
+      "person_id": "89894fa3-c88b-503e-bb1b-622eaad54beb",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Thomas K Andrews\" OSS; \"Thomas K. Andrews\" \"Office of Strategic Services\"; S/Sgt; Staff Sergeant; Army; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; obituary; institutional and archival searches",
+      "query_variant_type": "common-name-private-identifier-rank-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:07:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Modern professional, obituary, and genealogical namesakes lacked the indexed private identifier, OSS connection, and another corroborating service fact.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, punctuation, rank, Army, OSS, employment and occupation, obituary, Library of Congress newspaper, institutional, and archival checks were completed.",
+      "next_action": "Review Box 17 and official Army records for identity, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-virgil-andrews-terminal-protocol",
+      "person_id": "e313514c-a222-5bfd-bd94-44c6a33b341e",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Virgil Andrews\" OSS; \"Virgil Andrews\" \"Office of Strategic Services\"; Corporal; Army; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress and regional newspapers; obituary; directory; William and Mary; institutional and archival searches",
+      "query_variant_type": "common-name-no-private-identifier-rank-education-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:07:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Numerous obituaries and modern namesakes lacked an OSS or Box 18 connection. A 1940 William and Mary baseball player had only a name and plausible age chronology, with no corroborating OSS or service evidence.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, rank, Army, OSS, employment and occupation, obituary, directory, Library of Congress and regional newspaper, William and Mary institutional, and archival checks were completed.",
+      "next_action": "Review Box 18 and official Army records for identity, unit, employment chronology, and evidence capable of accepting or rejecting the William and Mary candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-william-c-andrews-terminal-protocol",
+      "person_id": "33d953c6-10f0-51d6-ad3f-aa23c5fb7599",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"William C Andrews\" OSS; \"William C. Andrews\" \"Office of Strategic Services\"; Captain; Army; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; obituary; university; military-history and archival searches",
+      "query_variant_type": "common-name-private-identifier-officer-rank-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:08:00Z",
+      "completed_at": "2026-07-31T08:22:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Obituary, business, university, and military namesakes lacked the indexed private identifier plus an OSS or Box 18 connection.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, punctuation, rank, Army, OSS, employment and occupation, obituary, Library of Congress newspaper, university, military-history, and archival checks were completed.",
+      "next_action": "Review Box 18 and official Army officer records for identity, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-mortimer-andron-reviewed-employment",
+      "person_id": "600c12c5-1644-584c-a4ca-494bbaafc50e",
+      "source_adapter": "reviewed_institutional_web",
+      "query_text": "\"Mortimer Andron\" OSS; \"Mortimer Andron\" \"Office of Strategic Services\"; economics; University of Illinois; employer 1940; obituary; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; UCSB, University of Illinois, and archival searches",
+      "query_variant_type": "distinctive-name-no-rank-employment-oss-and-institutional-chronology",
+      "started_at": "2026-07-31T08:08:00Z",
+      "completed_at": "2026-07-31T08:23:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Postwar UCSB donor and faculty material was useful only for identity context and did not establish pre-OSS employment. People-search results were excluded as irrelevant and privacy-sensitive.",
+      "research_notes": "The NARA row was visually checked. The obituary explicitly identifies wartime OSS service, while official University of Illinois minutes and a contemporary staff register document Andron as an Assistant in Economics in 1941-42. The employment is published as documented prewar only because the accessible sources do not close the chronology to OSS entry.",
+      "next_action": "Review Box 18 for personnel status, OSS entry date, and evidence establishing whether the University of Illinois was immediate or the last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-nicholas-andronovitch-reviewed-army-g2",
+      "person_id": "00af6aea-fe0a-5eb4-aedc-0cba4eb7c365",
+      "source_adapter": "reviewed_official_web",
+      "query_text": "\"Nicholas Andronovitch\" OSS; \"Nicholas Andronovitch\" SSU; Army G-2; Military Liaison Officer Jerusalem; employer 1940; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; obituary; military-award, State Department, and archival searches",
+      "query_variant_type": "highly-distinctive-name-officer-rank-official-military-pathway-and-terminal-protocol",
+      "started_at": "2026-07-31T08:09:00Z",
+      "completed_at": "2026-07-31T08:23:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A military-award aggregator and later Foreign Service appointment corroborated the name and Army career but did not establish pre-Army civilian employment; genealogy pages were not used as evidence.",
+      "research_notes": "The NARA row was visually checked. An official CIA historical paper identifies the exact distinctive name, Army officer entry in 1943, Army G-2 liaison role in Jerusalem, and explicit late-1945 transfer to SSU. Army G-2 is modeled as the immediate military affiliation; no civilian employer was inferred.",
+      "next_action": "Review Box 18 for the full Army and OSS/SSU chronology and the last civilian employer before 1943 Army service.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch088-anthony-n-andros-terminal-protocol",
+      "person_id": "53933f8b-20ec-5302-9e84-66d324dbf69b",
+      "source_adapter": "reviewed_web",
+      "query_text": "\"Anthony N Andros\" OSS; \"Anthony N. Andros\" \"Office of Strategic Services\"; First Lieutenant; Army; employer; occupation 1940; NARA and Catalog context; CIA Reading Room; Library of Congress newspapers; obituary; Chicago; institutional, genealogy, and archival searches",
+      "query_variant_type": "moderately-distinctive-name-private-identifier-officer-rank-employment-and-terminal-protocol",
+      "started_at": "2026-07-31T08:09:00Z",
+      "completed_at": "2026-07-31T08:23:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A Chicago genealogy candidate born in 1924 lacked an OSS connection, matching private identifier, rank evidence, and a second corroborating service fact. Discovery-only family-tree data was not accepted.",
+      "research_notes": "The NARA row was visually checked. Official/NARA context, CIA Reading Room discovery, exact-name, punctuation, rank, Army, OSS, employment and occupation, obituary, Library of Congress newspaper, Chicago, institutional, genealogy, and archival checks were completed.",
+      "next_action": "Review Box 18 and official Army officer records for identity, birth information, unit, and employment chronology; compare the Chicago candidate only if primary identifiers align.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
