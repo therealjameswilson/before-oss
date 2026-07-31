@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 342 / 342 browser cases.**
+**PASS - 345 / 345 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-127-person employer measure is labeled separately from the 222-person broader
+127-person employer measure is labeled separately from the 223-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,29 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 100 accessibility and responsive regression
+
+The Batch 100 regression checks the ten contiguous page-thirteen profiles from
+James H. Armstrong through George C. Arnberg. It verifies every direct
+profile, Box 21 or 22 provenance, field-level serial masking, the seven visibly
+unresolved identities, and the printed `Capt`, `Sgt`, `Caf-4`, `Caf-2`,
+`RM2/c`, `T-5`, `P-6`, `Lt`, and blank rank values.
+
+James H. Armstrong's profile is tested for a qualified, explicitly immediate
+19th Weather Squadron pathway; Sinclair Armstrong's profile keeps his
+documented 1941 law-firm employment in the earlier-affiliations section rather
+than calling it immediate; and Claude G. Arnault's profile preserves his
+confirmed French identity, French Army attachment, and OSS/SOE distinctions.
+Robert P. Armstrong is tested as enlisted naval personnel without a resolved
+identity, and George C. Arnberg's unsupported 386th Bomb Group candidate
+remains withheld. Direct routes for the 19th Weather Squadron, Isham, Lincoln
+& Beale, and French Army resolve to their intended profiles.
+
+After one assertion label was aligned with the rendered temporal-basis badge,
+the focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, and accessibility matrix passed 345 / 345 with no assertion or
+serious/critical axe failure.
 
 ## Batch 099 accessibility and responsive regression
 

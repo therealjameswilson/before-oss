@@ -17,15 +17,15 @@ is not complete, and the site reports that limitation explicitly.
 - 23,978 immutable source rows
 - 23,941 cautious person entities
 - 23,978 / 23,978 source rows linked to an entity
-- 210 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot, 4 reviewed NARA personnel files, and 282
-  saved source-reviewed outcomes, with 1,621 source attempts or plans
-- 198 verified-affiliation profiles, including 119 with verified employment or
-  self-employment, and 544 individually assessed archival files
-- 402 published affiliations, 686 published claims, 920 citation records, and
-  571 unique source documents; 16 low-confidence claims concerning 13 people
-  remain withheld from public facts
-- 23,344 people remain `not_started`; the public site reports this
+- 211 possible duplicate groups, including 37 narrow automatic consolidations
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, and 325
+  saved source-reviewed outcomes, with 1,850 durable research attempts or plans
+- 223 verified-affiliation profiles, including 127 with verified employment or
+  self-employment, and 770 individually assessed archival files
+- 448 published affiliations, 782 published claims, 1,236 private citation
+  records, 738 public source records, and 657 unique source documents; 19
+  low-confidence claims concerning 16 people remain withheld from public facts
+- 23,119 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

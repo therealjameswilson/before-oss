@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/127 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 222 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 223 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -9240,6 +9240,152 @@ test("Batch 099 publishes Lester Armour's naval pathway without turning board ro
     ).toBeVisible();
     await expect(
       page.locator("h3").getByRole("link", { name: "Lester Armour", exact: true }),
+    ).toBeVisible();
+  }
+});
+
+test("Batch 100 preserves qualified Armstrong pathways and the confirmed Arnault attachment", async ({
+  page,
+}) => {
+  const profiles = [
+    ["bd592469-9834-589c-82ee-c27b210672e1", "James H Armstrong", "21"],
+    ["2cf0ea26-a270-5523-b4f1-bf9d70948273", "Jay W Armstrong", "21"],
+    ["49f8525e-c07b-5adf-a0ea-ee03273a7c9f", "Lena V Armstrong", "22"],
+    ["d4066095-526a-5228-9ae8-cf7ff378b08c", "Mary H Armstrong", "22"],
+    ["fa355673-ac0b-50d9-a7d6-b0285c311725", "Raymond A Armstrong", "22"],
+    ["865541d6-c404-58ed-ab40-0ee67a7971da", "Robert P Armstrong", "22"],
+    ["22e0ef05-0a08-5bfb-90a6-472bfdd22135", "Robert W Armstrong Jr.", "22"],
+    ["8db28d8f-76bc-57d4-b99f-c745ba6c7d52", "Sinclair Armstrong", "22"],
+    ["5d6ed3b0-1984-5ca3-8aa1-6ea7aea622ea", "Claude G Arnault", "22"],
+    ["86ef493c-62ff-59b6-87b3-4fec4552975f", "George C Arnberg", "22"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "2cf0ea26-a270-5523-b4f1-bf9d70948273",
+    "49f8525e-c07b-5adf-a0ea-ee03273a7c9f",
+    "d4066095-526a-5228-9ae8-cf7ff378b08c",
+    "fa355673-ac0b-50d9-a7d6-b0285c311725",
+    "865541d6-c404-58ed-ab40-0ee67a7971da",
+    "22e0ef05-0a08-5bfb-90a6-472bfdd22135",
+    "86ef493c-62ff-59b6-87b3-4fec4552975f",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/865541d6-c404-58ed-ab40-0ee67a7971da/");
+  await expect(page.locator(".profile-aside")).toContainText(
+    "enlisted naval personnel",
+  );
+  await expect(page.locator(".index-record").first()).toContainText("RM2/c");
+
+  await page.goto("./people/bd592469-9834-589c-82ee-c27b210672e1/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army Air Forces, 19th Weather Squadron");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("explicit immediate");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("medium");
+  await expect(
+    page.getByRole("link", { name: "The Yugoslavia Caper", exact: true }).first(),
+  ).toHaveAttribute("href", "https://greyberet.org/hight");
+
+  await page.goto("./people/8db28d8f-76bc-57d4-b99f-c745ba6c7d52/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Isham, Lincoln & Beale");
+  await expect(
+    page.getByRole("link", {
+      name: "A Sense of Securities: J. Sinclair Armstrong '41",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /hls\.harvard\.edu/);
+
+  await page.goto("./people/5d6ed3b0-1984-5ca3-8aa1-6ea7aea622ea/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".profile-aside")).toContainText(
+    "foreign or allied military personnel",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("French Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("explicit immediate");
+  await expect(
+    page.getByRole("link", {
+      name: "Claude Arnault: Distinguished Service Cross",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /valor\.militarytimes\.com/);
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "122fdabe-af12-596c-9c76-b3c09a522887",
+      "United States Army Air Forces, 19th Weather Squadron",
+      "James H Armstrong",
+    ],
+    [
+      "902e4135-6c35-56e5-aa62-c2129e2c8361",
+      "Isham, Lincoln & Beale",
+      "Sinclair Armstrong",
+    ],
+    [
+      "f61aed47-47ad-5e11-82be-3835d1bc4365",
+      "French Army",
+      "Claude G Arnault",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
     ).toBeVisible();
   }
 });

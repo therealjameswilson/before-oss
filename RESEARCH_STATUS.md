@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 812 people with a non-planned attempt | 23,941 person entities | 3.3917% |
-| Verified-affiliation coverage | 222 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9273% |
+| Research-attempt coverage | 822 people with a non-planned attempt | 23,941 person entities | 3.4334% |
+| Verified-affiliation coverage | 223 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9315% |
 | Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 760 people with an individual file-access/priority assessment | 23,941 person entities | 3.1745% |
+| Archival-review coverage | 770 people with an individual file-access/priority assessment | 23,941 person entities | 3.2162% |
 
 ## Extraction and identity
 
@@ -21,16 +21,16 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 38
-- Identity status `high_confidence`: 269
+- Identity status `confirmed`: 39
+- Identity status `high_confidence`: 271
 - Identity status `probable`: 28
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,581
+- Identity status `unresolved`: 23,578
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,556
+- Unknown or indeterminate: 16,555
 - Enlisted Army personnel: 3,477
 - Commissioned Army officers: 2,068
 - Commissioned Coast Guard officers: 1
@@ -38,22 +38,22 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,459
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 50
+- Enlisted naval personnel: 51
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
+Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,129
+- `not_started`: 23,119
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 25
+- `documented_prewar_employer_found`: 26
 - `occupation_only_found`: 28
-- `requires_archival_review`: 517
-- `completed`: 44
+- `requires_archival_review`: 524
+- `completed`: 46
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -65,7 +65,7 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 85
+- Reviewed-web-and-official-source attempts recorded: 95
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
@@ -779,11 +779,27 @@ Commissioned classification: 2,155 yes; 4,997 no; 16,789 indeterminate.
   nine profiles remain unresolved after the full online protocol and route to
   Box 21; common-name and inventor candidates were rejected rather than
   promoted.
-- Published affiliations: 445
-- Database claims: 795; public-eligible claims: 776 (110 confirmed, 576 high, 90
+  Batch 100 continues page thirteen with James H. Armstrong through George C.
+  Arnberg. James H. Armstrong is high-confidence from matching middle initial,
+  Captain rank, the 19th Weather Squadron, direct OSS weather-project context,
+  Yugoslavia, and 1944 chronology; the squadron is a medium-confidence,
+  explicitly immediate military pathway pending the original order. Sinclair
+  Armstrong is high-confidence in OSS Research and Analysis, and Harvard
+  documents his 1941 employment as an associate at Isham, Lincoln & Beale, but
+  the law firm remains qualified earlier employment because no transition date
+  establishes immediacy. Claude G. Arnault is confirmed by exact name and
+  initial, Lieutenant rank, French nationality, OSS attachment, Wheelwright
+  network, alias Néron, and 1944 dates; the French Army is his high-confidence
+  immediate military affiliation. Jay W., Lena V., Mary H., Raymond A., Robert
+  P., and Robert W. Jr. Armstrong and George C. Arnberg remain unresolved and
+  route to Box 21 or 22. A plausible 386th Bomb Group Arnberg candidate and
+  other namesakes remain rejected leads. Robert P. Armstrong's RM2/c grade is
+  normalized to enlisted naval personnel without resolving his identity.
+- Published affiliations: 448
+- Database claims: 801; public-eligible claims: 782 (111 confirmed, 579 high, 92
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,220; public source export: 729; unique source documents: 651
-- Canonical organizations: 261 private and 259 public
+- Citation records: 1,236; public source export: 738; unique source documents: 657
+- Canonical organizations: 263 private and 261 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844
 

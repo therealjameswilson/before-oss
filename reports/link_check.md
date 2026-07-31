@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,205 HTML files. Every relative
+**PASS.** The production build contains 24,210 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 256 organization profiles, and the
+The build includes 23,941 person profiles, 261 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,548 unique external URLs for separate live
+The checker inventoried 48,569 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1113,6 +1113,31 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 100 local release check
+
+The rebuilt site contains direct, internally resolved routes for James H.
+Armstrong, Jay W. Armstrong, Lena V. Armstrong, Mary H. Armstrong, Raymond A.
+Armstrong, Robert P. Armstrong, Robert W. Armstrong Jr., Sinclair Armstrong,
+Claude G. Arnault, and George C. Arnberg. Seven profiles visibly retain
+unresolved identity status, evidence-limited employer wording, and Box 21 or
+22 archival guidance. James H. Armstrong's qualified 19th Weather Squadron
+pathway, Sinclair Armstrong's earlier law-firm employment, and Claude G.
+Arnault's confirmed French Army attachment remain in distinct evidentiary
+lanes.
+
+The complete local link checker passed all 24,210 HTML files and inventoried
+48,569 unique external URLs. The public downloads contain 23,941 person rows,
+261 organization rows, 448 affiliation rows, and 738 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`a2fd3c71b674be96ef2b2ba9f43b4f51ed5f5afc32e4587db68a6ee21bdf1fbb`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,249 non-gzip production artifacts returned zero full
+identifier matches. Two consecutive static builds produced the identical
+site-tree SHA-256
+`b02198b9456ac3cd8d5aa20c04c7003c277dd28f30dd898d10762ea664228afe`.
 
 ## Batch 099 local release check
 
