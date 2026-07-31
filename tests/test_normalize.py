@@ -66,6 +66,12 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(result.category, "commissioned_naval_officer")
         self.assertTrue(result.commissioned_officer)
 
+    def test_spaced_seaman_second_class_variant_is_naval_enlisted(self) -> None:
+        result = classify_personnel("S2 C", None)
+        self.assertEqual(result.rank_normalized, "S 2/C")
+        self.assertEqual(result.category, "enlisted_naval_personnel")
+        self.assertFalse(result.commissioned_officer)
+
     def test_serial_normalization_preserves_prefix(self) -> None:
         self.assertEqual(normalize_serial("RA 3389449"), "RA3389449")
 

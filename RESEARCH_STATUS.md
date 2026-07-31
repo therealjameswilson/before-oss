@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 704 people with a non-planned attempt | 23,941 person entities | 2.9406% |
+| Research-attempt coverage | 714 people with a non-planned attempt | 23,941 person entities | 2.9823% |
 | Verified-affiliation coverage | 203 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8479% |
 | Verified-employer coverage | 121 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5054% |
-| Archival-review coverage | 652 people with an individual file-access/priority assessment | 23,941 person entities | 2.7234% |
+| Archival-review coverage | 662 people with an individual file-access/priority assessment | 23,941 person entities | 2.7651% |
 
 ## Extraction and identity
 
@@ -30,7 +30,7 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,593
+- Unknown or indeterminate: 16,592
 - Enlisted Army personnel: 3,468
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
@@ -38,21 +38,21 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,458
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 48
+- Enlisted naval personnel: 49
 - Commissioned naval officers: 49
 - Warrant officers: 4
 
-Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
+Commissioned classification: 2,130 yes; 4,986 no; 16,825 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,237
+- `not_started`: 23,227
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
 - `occupation_only_found`: 27
-- `requires_archival_review`: 434
+- `requires_archival_review`: 444
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -63,13 +63,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 431
+- Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward attempts recorded: 1
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 294 across 279 people; 17 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,730
+- Total recorded attempts/plans: 1,740
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 278; 262 have at least one public-eligible
@@ -621,10 +621,26 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   Anthony N. Andros, and common-name military, obituary, business, and
   professional results lacked the indexed private identifiers, OSS links, or
   additional corroborating identifiers required for publication.
+  Batch 089 continued page eleven from James H. Andros through Anthony G.
+  Angelos. All ten identities remain unresolved after the minimum online
+  protocol and route to high-priority Box 18 review. James H. Andros, Frank J.
+  Androvich, Andrew A. Anganes, Anthony G. Angelo, and Nick Angelo remain
+  enlisted Army personnel; Joseph Angello remains a commissioned Army officer;
+  James B. Angell remains a P-7 civilian; Victor L. Anduso and Charles F.
+  Angell remain indeterminate; and Anthony G. Angelos is transparently
+  classified as enlisted naval personnel from the printed `S2 C` spacing
+  variant of Seaman Second Class. The raw rank remains unchanged.
+  A cemetery candidate for Frank J. Androvich, a postwar Ford directory entry
+  for Andrew A. Anganes, a railroad-magazine staff sergeant named Nick Angelo
+  Jr., and numerous common-name, genealogical, professional, and modern
+  candidates lacked the indexed private identifier, OSS or Box 18 linkage, or
+  additional corroborating identifiers. The famous James B. Angell died in
+  1916 and is explicitly rejected as a namesake. No candidate employer,
+  occupation, organization, or assignment is published as fact.
 - Published affiliations: 412
 - Database claims: 727; public-eligible claims: 708 (97 confirmed, 534 high, 77
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,055; public source export: 644; unique source documents: 600
+- Citation records: 1,065; public source export: 644; unique source documents: 600
 - Canonical organizations: 247 private and 245 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
@@ -762,6 +778,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-ande
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-anderson-through-andreasen-pathways_batch-086_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-andreopoulos-through-andrews-archival-pathways_batch-087_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-eleven-andrews-through-andros-pathways_batch-088_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-andros-through-angelos-archival-pathways_batch-089_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

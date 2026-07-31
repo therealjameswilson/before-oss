@@ -7823,3 +7823,83 @@ test("Batch 088 separates Army pathways, student status, documented employment, 
     "military assignment, not a civilian employer",
   );
 });
+
+test("Batch 089 preserves ten unresolved Box 18 records and recognizes the printed S2 C naval grade", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c0864814-5041-5f39-9df7-a1e2b8124362", "James H Andros"],
+    ["e2fb1057-fef4-50a9-9ef9-2719b13a6ba8", "Frank J Androvich"],
+    ["e308f5f9-02c2-5edc-b810-e22f98ef7bda", "Victor L Anduso"],
+    ["370fb3f1-322a-5b56-b546-6ff48bd4b8c6", "Andrew A Anganes"],
+    ["ad826d3d-a9aa-59eb-87fa-df13acc5b2ba", "Charles F Angell"],
+    ["6801930e-1a9a-5b64-9175-d6ccc5463b48", "James B Angell"],
+    ["c303f8d2-0b12-51f1-b619-2b2869f1ca5b", "Joseph Angello"],
+    ["0772e56b-5951-5ad2-8a81-b202c4169bda", "Anthony G Angelo"],
+    ["b309c520-72fe-570c-9380-419c077ca31d", "Nick Angelo"],
+    ["2f0f6e2e-0ecf-5993-bb96-7a362c526e26", "Anthony G Angelos"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("18", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "c0864814-5041-5f39-9df7-a1e2b8124362",
+    "e2fb1057-fef4-50a9-9ef9-2719b13a6ba8",
+    "370fb3f1-322a-5b56-b546-6ff48bd4b8c6",
+    "0772e56b-5951-5ad2-8a81-b202c4169bda",
+    "b309c520-72fe-570c-9380-419c077ca31d",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "enlisted army personnel",
+    );
+  }
+
+  await page.goto("./people/6801930e-1a9a-5b64-9175-d6ccc5463b48/");
+  await expect(page.locator("body")).toContainText(
+    "civilian professional or administrative grade",
+  );
+
+  await page.goto("./people/c303f8d2-0b12-51f1-b619-2b2869f1ca5b/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned army officer",
+  );
+
+  for (const personId of [
+    "e308f5f9-02c2-5edc-b810-e22f98ef7bda",
+    "ad826d3d-a9aa-59eb-87fa-df13acc5b2ba",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "unknown or indeterminate",
+    );
+  }
+
+  await page.goto("./people/2f0f6e2e-0ecf-5993-bb96-7a362c526e26/");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("S2 C");
+  await expect(page.locator("body")).toContainText(
+    "enlisted naval personnel",
+  );
+});

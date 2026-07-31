@@ -1118,6 +1118,44 @@ staff register establish the academic-year context. No authenticated NARA
 Catalog request was made, no API key was accessed, and no live NARA response
 content was retained.
 
+## Page-eleven Andros-through-Angelos archival pathways, Batch 089
+
+`research/evidence-page-eleven-andros-through-angelos-archival-pathways_batch-089_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from James H.
+Andros through Anthony G. Angelos on PDF page eleven. The bundle contains ten
+person updates, ten terminal research attempts, and ten official index
+citations. It creates no organization, affiliation, claim, or claim-source
+link because none of the reviewed candidates meets the identity and temporal
+publication rules.
+
+All ten index citations were visually checked against the rendered page. The
+research protocol covered official/NARA context, CIA discovery, exact-name and
+meaningful punctuation, middle-name, rank, and formal-given-name variants,
+employment and occupation searches, Library of Congress or other contemporary
+newspaper paths, obituary, cemetery, directory, military, institutional, and
+archival checks where applicable. Common-name and no-rank cases were held to
+the enhanced disambiguation rule. No authenticated NARA Catalog request was
+made, no API key was accessed, and no live API content was retained.
+
+Personnel categories remain separate from identity findings. Five rows remain
+enlisted Army personnel, Joseph Angello remains a commissioned Army officer,
+James B. Angell remains a P-7 civilian, and two blank-rank rows remain
+indeterminate. Anthony G. Angelos's printed `S2 C` value is preserved in the
+immutable source row while the documented normalization rule recognizes it as
+the spacing variant `S 2/C`, classifying the row as enlisted naval personnel.
+This rank normalization does not resolve his identity.
+
+Rejected leads remain private research notes rather than public claims. They
+include a World War II Army cemetery candidate for Frank J. Androvich, a 1956
+Ford Motor Company directory entry for Andrew A. Anganes, a 1945
+railroad-magazine reference to a staff sergeant Nick Angelo Jr., and the
+University of Michigan president James B. Angell, who died in 1916. Each
+lacked the indexed private identifier where one is printed, an OSS or Box 18
+connection, compatible pre-OSS chronology, or the additional corroborating
+identifiers required by the project rules. Privacy-sensitive modern data were
+not retained. No rejected employer, occupation, organization, or assignment
+is promoted to a public fact, and full service identifiers remain private.
+
 ## Official reference material
 
 - NARA OSS personnel records:

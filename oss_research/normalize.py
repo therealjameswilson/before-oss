@@ -170,6 +170,7 @@ def normalize_rank(value: str | None) -> str | None:
     normalized = value.upper().replace(".", "")
     normalized = SPACE_RE.sub(" ", normalized).strip()
     normalized = normalized.replace("1STLT", "1ST LT").replace("2NDLT", "2ND LT")
+    normalized = re.sub(r"^S([123])\s+C$", r"S \1/C", normalized)
     return normalized
 
 
