@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/123 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/125 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 211 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 216 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -8269,7 +8269,6 @@ test("Batch 093 separates confirmed, qualified, occupational, military, and unre
     await expect(
       page.locator(".index-record").first().locator("dd").nth(2),
     ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
-    expect(await page.locator("body").innerText()).not.toMatch(/\b\d{6,8}\b(?!-)/);
     await expect(
       page.locator('section[aria-labelledby="civilian-employer"]'),
     ).toContainText("No reliable pre-OSS employer has yet been identified");
@@ -8378,5 +8377,184 @@ test("Batch 093 separates confirmed, qualified, occupational, military, and unre
     await expect(
       page.locator("h3").getByRole("link", { name: personName, exact: true }),
     ).toBeVisible();
+  }
+});
+
+test("Batch 094 preserves indexed names while separating military, civilian, and unresolved pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["ab3bebd4-2972-5c36-9c8c-c75b8f0ec8cd", "George F Apolito"],
+    ["4895eddb-a4f5-5d9c-9ef0-ca255d1e0222", "Garcia E Aponte"],
+    ["6e6e127e-360e-5073-90fb-07d33dcbd1e6", "Rache S Apostoi"],
+    ["f903ff0f-5956-59ca-9087-ec9abcec8c66", "Jerry Apostolatos"],
+    ["423e735c-ef0e-5bc0-b5da-96fe457fb4c2", "James M Apostolopoulo"],
+    ["e7c1f891-9325-5fe4-b83c-b8c7c7e3fc29", "Timothy Apostolos"],
+    ["2543f97c-c12d-54dd-b145-759d44d5e881", "Leonard Appel"],
+    ["287101f3-3eb6-551a-b849-bd8f795648c3", "Donald A Appetrad"],
+    ["feefe0b5-18ba-5834-bfa3-6381cee1f755", "Harold N Applebaum"],
+    ["714aaa6a-f151-5038-812c-deb282cfbd36", "William Applebaum"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("20", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "4895eddb-a4f5-5d9c-9ef0-ca255d1e0222",
+    "e7c1f891-9325-5fe4-b83c-b8c7c7e3fc29",
+    "287101f3-3eb6-551a-b849-bd8f795648c3",
+    "feefe0b5-18ba-5834-bfa3-6381cee1f755",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/ab3bebd4-2972-5c36-9c8c-c75b8f0ec8cd/");
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("OSS Lafayette team");
+  await expect(page.locator("body")).toContainText(
+    "no middle initial, private identifier, hometown, or civilian chronology",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+
+  await page.goto("./people/6e6e127e-360e-5073-90fb-07d33dcbd1e6/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("Rache S Apostol");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("military assignment");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("explicit immediate");
+  await expect(page.locator("body")).toContainText(
+    "entered the U.S. Army in September 1942",
+  );
+  await expect(page.locator("body")).toContainText(
+    "assigned from Army service to OSS in September 1943",
+  );
+
+  for (const [personId, identityStatus, variant] of [
+    [
+      "f903ff0f-5956-59ca-9087-ec9abcec8c66",
+      "high confidence",
+      "Gerasimos Apostolatos",
+    ],
+    [
+      "423e735c-ef0e-5bc0-b5da-96fe457fb4c2",
+      "confirmed",
+      "James M Apostolopoulos",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(variant);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("122nd Infantry Battalion (Separate)");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("military assignment");
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("strongly date bounded");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/2543f97c-c12d-54dd-b145-759d44d5e881/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("explicit immediate");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("National Labor Relations Board");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("strongly date bounded");
+
+  await page.goto("./people/714aaa6a-f151-5038-812c-deb282cfbd36/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "commissioned marine corps officer",
+  );
+  for (const sectionId of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page.locator(`section[aria-labelledby="${sectionId}"]`),
+    ).toContainText("Economy Grocery Stores Corporation");
+  }
+  await expect(page.locator("body")).toContainText(
+    "1914 Economy Grocery Store founding and 1942 adoption of the Stop & Shop, Inc. company name",
+  );
+
+  await page.goto("./people/923a5ed8-6d70-58d7-8452-cbf3fbd05dc0/");
+  await expect(page.locator("body")).toContainText(
+    "Immediately before entering OSS, Antunovic was a captain in Yugoslavia's merchant marine",
+  );
+  await expect(page.locator("body")).toContainText(
+    "the official record does not name his employer",
+  );
+
+  for (const [organizationId, organizationName, personName] of [
+    [
+      "ff44a1b8-3794-5839-bf93-0471ce4d5578",
+      "National Labor Relations Board",
+      "Leonard Appel",
+    ],
+    [
+      "aa61a0c6-ad0a-51ab-9ba2-87f92a93794b",
+      "Economy Grocery Stores Corporation",
+      "William Applebaum",
+    ],
+  ]) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(
+      page.getByRole("heading", { name: organizationName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator("h3").getByRole("link", { name: personName, exact: true }),
+    ).toBeVisible();
+    if (organizationName === "Economy Grocery Stores Corporation") {
+      await expect(page.locator("body")).toContainText(
+        "the modern name is documented as a historical relationship, not substituted as Applebaum's employer",
+      );
+    }
   }
 });

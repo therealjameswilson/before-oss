@@ -1455,3 +1455,50 @@ sizes and SHA-256 values, all live statistics and all five public download row
 counts matched the release, and all ten new person routes plus both new
 organization routes passed. The bounded field-aware exact-token scan found
 zero full private-identifier matches across 83 deployed artifacts.
+
+Batch 094 completes the minimum online protocol for George F. Apolito through
+William Applebaum on PDF page twelve and adds direct occupation-only evidence
+to Ivo Antunovic's existing profile. Rache S. Apostoi has a confirmed
+Army-to-OSS pathway under the documented Apostol spelling. Jerry Apostolatos
+and James M. Apostolopoulo retain the index forms while their documented
+variants support strongly date-bounded 122nd Infantry Battalion military
+pathways. Leonard Appel's immediate Army assignment remains distinct from his
+last civilian employment at the National Labor Relations Board. William
+Applebaum's Economy Grocery Stores Corporation employment is published under
+the historical name and separated from the company's later Stop & Shop name.
+George F. Apolito remains a probable roster candidate; four identities remain
+unresolved. No unsupported employer is promoted.
+
+The first focused browser run correctly exposed that a broad digit-pattern
+assertion treated Hoover's public six-digit media-object identifier as a
+service number. The assertion was narrowed to the serial field; the dedicated
+field-aware release scan remained authoritative. A second focused run exposed
+that a private claim note was not rendered publicly, so the regression was
+aligned with the visible source locator and organization normalization note.
+The targeted desktop, phone, and tablet run then passed 3 / 3. Updating two
+stale homepage totals and the Batch 093 broad-number assertion produced a
+clean 9 / 9 focused rerun. The complete browser and accessibility matrix
+passed 327 / 327. Fifty-three Python tests, the 200-profile stratified audit,
+and the 24,202-page link check passed. The link checker inventoried 48,532
+unique external URLs, and `npm audit` reported zero vulnerabilities.
+
+Two production builds produced the identical
+`6f7ca1a8cf21dd784c3c8ee726e2a6ecf0f15bba02bc9e2ae904ef9c3fda65ea`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values, the forbidden-field redaction check passed, and the
+manifest SHA-256 is
+`555e7e76d5929c2056a576c7ff980004c07ae0d3deb9ce8f45a5fad0b9556002`.
+A bounded, field-aware exact-token comparison of 12,919 nontrivial normalized
+private identifiers across 24,241 non-gzip production artifacts found zero
+full-number matches. No local `.env` file or nonblank API-key assignment was
+present. SQLite `quick_check` returned `ok`, and the foreign-key check returned
+zero errors.
+
+The Batch 094 database contains 1,790 durable research attempts, 1,147 private
+citation records, 434 affiliations, and 770 claims: 109 confirmed, 558 high,
+84 medium, and 19 low confidence. The reviewed public projection contains 695
+source records representing 627 unique documents, 430 affiliations, and 751
+claims. Coverage distinguishes 763 people with a non-planned research attempt,
+216 people with verified affiliation evidence, 125 people with verified
+employment or self-employment evidence, and 711 people whose archival-review
+need has been assessed. No authenticated NARA Catalog request was made.

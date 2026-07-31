@@ -1114,6 +1114,29 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 094 local release check
+
+The rebuilt site contains direct, internally resolved routes for George F.
+Apolito, Garcia E. Aponte, Rache S. Apostoi, Jerry Apostolatos, James M.
+Apostolopoulo, Timothy Apostolos, Leonard Appel, Donald A. Appetrad, Harold N.
+Applebaum, and William Applebaum. Four profiles visibly retain unresolved
+identity status and Box 20 archival guidance, while George F. Apolito remains
+visibly probable. The Rache S. Apostoi, Jerry Apostolatos, and James M.
+Apostolopoulo profiles label their predecessor paths as military assignments.
+Leonard Appel's National Labor Relations Board employment and William
+Applebaum's Economy Grocery Stores Corporation employment remain distinct from
+military status and historical successor-name context.
+
+The complete local link checker passed all 24,202 HTML files and inventoried
+48,532 unique external URLs. The public downloads contain 23,941 person rows,
+253 organization rows, 430 affiliation rows, and 695 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values, the
+manifest forbidden-field check passed, and the manifest SHA-256 is
+`555e7e76d5929c2056a576c7ff980004c07ae0d3deb9ce8f45a5fad0b9556002`.
+A bounded, field-aware exact-token comparison of all 12,919 nontrivial
+normalized private identifiers against 24,241 non-gzip production artifacts
+returned zero full identifier matches.
+
 ## Batch 093 local release check
 
 The rebuilt site contains direct, internally resolved routes for Charlote

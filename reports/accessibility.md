@@ -903,3 +903,22 @@ employer. The two organization routes link the intended people without
 collapsing military and professional relationships. The targeted desktop,
 phone, and tablet run passed 6 / 6. The complete final matrix passed 324 / 324
 with no assertion or serious/critical axe failure.
+
+## Batch 094 accessibility and responsive regression
+
+The Batch 094 regression checks the next contiguous sequence from George F.
+Apolito through William Applebaum on PDF page twelve, plus the new direct
+occupation evidence on Ivo Antunovic's existing profile. It verifies all ten
+new direct profiles, Box 20 guidance, field-level serial masking, four
+unresolved identities, George F. Apolito's visibly qualified probable match,
+three military predecessor pathways, and the separate immediate and
+last-civilian-employer sections for Leonard Appel and William Applebaum. It
+also checks the National Labor Relations Board and Economy Grocery Stores
+Corporation organization routes and the historical Stop & Shop normalization
+note.
+
+The first two focused runs corrected presentation-sensitive test assumptions
+about a public archival identifier and a private claim note; neither exposed a
+production data defect. The final targeted desktop, phone, and tablet run
+passed 3 / 3. The complete final matrix passed 327 / 327 with no assertion or
+serious/critical axe failure.

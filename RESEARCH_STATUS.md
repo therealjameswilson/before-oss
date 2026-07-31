@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 733 people with a non-planned attempt | 23,941 person entities | 3.0617% |
-| Verified-affiliation coverage | 206 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8604% |
-| Verified-employer coverage | 123 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5138% |
-| Archival-review coverage | 681 people with an individual file-access/priority assessment | 23,941 person entities | 2.8445% |
+| Research-attempt coverage | 763 people with a non-planned attempt | 23,941 person entities | 3.1870% |
+| Verified-affiliation coverage | 216 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9022% |
+| Verified-employer coverage | 125 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5221% |
+| Archival-review coverage | 711 people with an individual file-access/priority assessment | 23,941 person entities | 2.9698% |
 
 ## Extraction and identity
 
@@ -21,20 +21,20 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 27
-- Identity status `high_confidence`: 259
-- Identity status `probable`: 23
+- Identity status `confirmed`: 32
+- Identity status `high_confidence`: 265
+- Identity status `probable`: 28
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,607
+- Identity status `unresolved`: 23,591
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,567
-- Enlisted Army personnel: 3,468
+- Unknown or indeterminate: 16,557
+- Enlisted Army personnel: 3,477
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
-- Commissioned Marine Corps officers: 5
+- Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,458
 - Foreign or Allied military personnel: 245
@@ -42,19 +42,19 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Commissioned naval officers: 73
 - Warrant officers: 4
 
-Commissioned classification: 2,154 yes; 4,987 no; 16,800 indeterminate.
+Commissioned classification: 2,155 yes; 4,996 no; 16,790 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,208
+- `not_started`: 23,178
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 24
-- `occupation_only_found`: 27
-- `requires_archival_review`: 459
+- `occupation_only_found`: 28
+- `requires_archival_review`: 478
 - `completed`: 37
-- `verified_employer_found`: 122
+- `verified_employer_found`: 132
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,17 +65,17 @@ Commissioned classification: 2,154 yes; 4,987 no; 16,800 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 2
-- Reviewed-web-and-official-source attempts recorded: 16
+- Reviewed-web-and-official-source attempts recorded: 46
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 300 across 284 people; 21 additional
+- Saved `source_reviewed` outcomes: 311 across 295 people; 26 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,760
+- Total recorded attempts/plans: 1,790
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 283; 267 have at least one public-eligible
+- People with saved reviewed claims: 299; 283 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -679,13 +679,43 @@ Commissioned classification: 2,154 yes; 4,987 no; 16,800 indeterminate.
   profiles route to Box 18 or 19 review. The printed `Lt CMD` rank is preserved
   while the documented normalization now recognizes it, and `Lt Cmdr`, as a
   commissioned naval-officer abbreviation.
-- Published affiliations: 418
-- Database claims: 738; public-eligible claims: 719 (103 confirmed, 538 high, 78
+  Batch 092 continued page eleven from Robert Anthony through James Antonakis.
+  Direct OSS roster evidence confirms Charles P. Antinopoulos and James M.
+  Antonakis; Peter G. Anton is a high-confidence roster match. Each is
+  published with a strongly date-bounded 122nd Infantry Battalion (Separate)
+  military pathway, not a civilian-employer claim. Alan A. Antik remains a
+  probable postwar film-technician identity lead, while the other six people
+  remain unresolved. Seven profiles route to Box 19 review.
+  Batch 093 continued from Charlote Antonelli through Antranig Apkarian across
+  pages eleven and twelve. Anargyros Antonopoulos has a high-confidence 122nd
+  Infantry Battalion pathway, and Rudolf Anzbock has a confirmed 85th Mountain
+  Infantry Regiment pathway. Ivo Antunovic has a high-confidence identity and
+  documented merchant-sea-captain occupation, but no named civilian employer;
+  his Yugoslav Seamen's Club relationship remains separately qualified as a
+  professional affiliation. Three identities remain probable and four remain
+  unresolved, without invented employer claims.
+  Batch 094 continued page twelve from George F. Apolito through William
+  Applebaum. Rache S. Apostoi is confirmed as the documented Rache S. Apostol,
+  with explicit Army entry in September 1942 and OSS assignment in September
+  1943. Jerry Apostolatos and James M. Apostolopoulo retain the indexed forms
+  while their documented variants support strongly date-bounded 122nd
+  Infantry Battalion pathways. Leonard Appel's immediate Army assignment is
+  separated from his last civilian employment at the National Labor Relations
+  Board. William Applebaum is a high-confidence commissioned Marine Corps
+  officer whose immediate and last civilian employer is documented under the
+  historical name Economy Grocery Stores Corporation. George F. Apolito
+  remains a probable Lafayette-team identity, and Garcia E. Aponte, Timothy
+  Apostolos, Donald A. Appetrad, and Harold N. Applebaum remain unresolved.
+  The same official proceeding adds occupation-only evidence that Ivo
+  Antunovic immediately preceded OSS as a Yugoslav merchant-marine captain
+  without naming an employer.
+- Published affiliations: 430
+- Database claims: 770; public-eligible claims: 751 (109 confirmed, 558 high, 84
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,095; public source export: 657; unique source documents: 611
-- Canonical organizations: 251 private and 249 public
+- Citation records: 1,147; public source export: 695; unique source documents: 627
+- Canonical organizations: 255 private and 253 public
 - Conflicts: 1
-- NARA pull-list rows: 23,856
+- NARA pull-list rows: 23,846
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -823,6 +853,9 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-elev
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-andros-through-angelos-archival-pathways_batch-089_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-angelos-through-angulo-pathways_batch-090_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-ankeny-through-anthony-pathways_batch-091_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-anthony-through-antonakis-pathways_batch-092_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eleven-twelve-antonelli-through-apkarian-pathways_batch-093_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twelve-apolito-through-applebaum-pathways_batch-094_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

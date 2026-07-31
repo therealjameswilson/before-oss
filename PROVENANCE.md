@@ -1276,6 +1276,86 @@ No authenticated NARA Catalog request was made, no API key was accessed, and
 no live NARA API content was retained. Temporary source downloads used for
 page-level verification were deleted and were not committed.
 
+## Page-eleven Anthony-through-Antonakis pathways, Batch 092
+
+`research/evidence-page-eleven-anthony-through-antonakis-pathways_batch-092_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from Robert
+Anthony through James Antonakis on PDF page eleven. Direct OSS roster evidence
+confirms Charles P. Antinopoulos and James M. Antonakis, while exact-name
+roster and unit-history evidence supports Peter G. Anton at high confidence.
+All three are published with strongly date-bounded 122nd Infantry Battalion
+(Separate) pathways. The unit is modeled as a military assignment, and none is
+assigned a civilian employer.
+
+Alan A. Antik remains a probable postwar film-technician identity lead whose
+sources do not establish an OSS personnel-file link or pre-OSS chronology.
+Robert Anthony, James Anthony, John S. Anthony, Kelly Anthony, Stanley J.
+Antosh, and John J. Antonetti remain unresolved after the minimum protocol.
+Seven profiles route to Box 19 review. No authenticated NARA Catalog request
+was made, no API key was accessed, and no live API content was retained.
+
+## Page-eleven-and-twelve Antonelli-through-Apkarian pathways, Batch 093
+
+`research/evidence-page-eleven-twelve-antonelli-through-apkarian-pathways_batch-093_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from Charlote
+Antonelli through Antranig Apkarian across PDF pages eleven and twelve.
+Anargyros Antonopoulos has a high-confidence OSS roster match and a strongly
+date-bounded 122nd Infantry Battalion pathway. Rudolf Anzbock has a confirmed
+identity and strongly date-bounded 85th Mountain Infantry Regiment pathway
+before OSS transfer.
+
+Ivo Antunovic has a high-confidence identity and documented merchant-sea
+captain occupation. The evidence names a vessel but not a civilian employer,
+so the project publishes occupation-only status. His Yugoslav Seamen's Club
+relationship is separately qualified as a professional affiliation. Dominic
+J. Anzevino, Zumruth Apcar, and Antranig Apkarian remain probable identities
+without published employer claims; Charlote Antonelli, Anthony Antony, Kukuji
+Aoki, and Harry E. Apaar remain unresolved. Temporary source PDFs used for
+visual inspection were not committed or republished.
+
+## Page-twelve Apolito-through-Applebaum pathways, Batch 094
+
+`research/evidence-page-twelve-apolito-through-applebaum-pathways_batch-094_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from George F.
+Apolito through William Applebaum on PDF page twelve. All ten index citations
+were visually checked against the rendered page. The bundle contains ten
+person updates, ten durable research attempts, twenty-one sources, four
+normalized organizations, six published affiliations, fourteen published
+claims, and thirty-four claim-source links.
+
+A declassified May 4, 1944 OSS board proceeding confirms that the indexed
+Rache S. Apostoi is the documented Rache S. Apostol. It directly dates Army
+entry to September 1942 and OSS assignment to September 1943, so United States
+Army service is published as the explicit immediate military affiliation.
+The same proceeding adds occupation-only evidence that Ivo Antunovic
+immediately preceded OSS as a captain in Yugoslavia's merchant marine; it does
+not name his employer. Private identifiers used for resolution are excluded
+from the evidence bundle's public excerpts and generated site.
+
+Direct OSS roster evidence and independent unit histories support Jerry
+Apostolatos and James M. Apostolopoulo, preserving their indexed names while
+adding Gerasimos Apostolatos and James M. Apostolopoulos as documented
+variants. Each receives a strongly date-bounded 122nd Infantry Battalion
+(Separate) military pathway and no civilian-employer claim. George F. Apolito
+remains only a probable match to a Lafayette-team roster entry because the
+accessible record omits his middle initial and other corroborating identifiers.
+
+An obituary and contemporary professional evidence support Leonard Appel at
+high confidence. His immediate United States Army assignment is modeled
+separately from his last civilian employment at the National Labor Relations
+Board. An official Marine Corps history, a declassified OSS personnel notice,
+and a contemporary marketing article support William Applebaum at high
+confidence. Economy Grocery Stores Corporation is preserved as his historical
+employer name and is documented as both his immediate pre-OSS affiliation and
+last civilian employer. Stop & Shop appears only as a sourced historical-name
+relationship, not as a substituted employer.
+
+Garcia E. Aponte, Timothy Apostolos, Donald A. Appetrad, and Harold N.
+Applebaum remain unresolved after the minimum protocol and route to Box 20
+review. No authenticated NARA Catalog request was made, no API key was
+accessed, and no live NARA API content was retained. Temporary source
+downloads used for page-level inspection were not committed.
+
 ## Official reference material
 
 - NARA OSS personnel records:
