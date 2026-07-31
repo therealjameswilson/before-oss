@@ -697,5 +697,19 @@ personnel categories, direct person and organization routes, and field-level
 serial masking. The complete desktop, phone, and tablet matrix passed 276 /
 276 with no remaining assertion or serious/critical axe failure.
 
+The Batch 078 regression checks the contiguous Richard P. Amy-through-Etienne
+Ancergues sequence on PDF page eight while retaining Ancergues's earlier
+completed outcome. It verifies Milton V. Anastos's qualified Harvard Divinity
+School Library employment and Dumbarton Oaks fellowship, Harry H. Anbender's
+occupation-only professional affiliation with the Office of Maurice Sugar,
+and all associated claim-level citations and direct organization routes. It
+also verifies seven dignified Box 14 archival-review outcomes, the visible
+qualification of Angelo Anastasio's ambiguous identity, the exclusion of
+search-only spelling aliases and low-confidence candidates from public facts,
+commissioned, enlisted, civilian, and indeterminate personnel categories, and
+field-level serial masking. The complete desktop, phone, and tablet matrix
+passed 279 / 279 with no remaining assertion or serious/critical axe failure;
+the targeted Batch 078 test passed a separate 3 / 3 three-viewport rerun.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

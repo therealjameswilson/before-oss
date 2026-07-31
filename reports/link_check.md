@@ -661,3 +661,23 @@ of all 12,931 digit-bearing normalized private identifiers against 83 live
 HTML, data, compressed-mirror, and download artifacts returned zero unexpected
 full-number matches; four-character lexical collisions were limited to
 permitted masked suffixes or unrelated public values.
+
+## Batch 078 local release check
+
+The rebuilt site contains direct, internally resolved routes for Richard P.
+Amy, John S. Anacab, Christian B. Anagnostis, Ettore Anamia, Angelo Anastasio,
+Peter J. Anastasio, Milton V. Anastos, Stella Anastos, Harry H. Anbender, and
+the previously completed Etienne Ancergues profile. It also contains direct
+organization routes for Dumbarton Oaks, Harvard Divinity School Library, and
+the Office of Maurice Sugar. Anastos's library employment and separately
+qualified fellowship appear with claim-level citations. Anbender's
+professional affiliation remains distinct from a formal employer claim. The
+seven unresolved or ambiguous new cases retain Box 14 guidance and masked or
+explicitly unprinted serial fields; spelling-only search aliases and the
+underidentified Anastasio candidate are not published as facts.
+
+The complete local link checker passed all 24,192 HTML files and inventoried
+48,488 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`e1cebdc90ae320758e7983cd532443239015c5b2765fa413b3a6515037ec9ba1`.

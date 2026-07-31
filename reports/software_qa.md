@@ -707,3 +707,38 @@ public datasets, and completed the 24,189-page static-site build. Across all
 262 tracked files, 256 matched byte-for-byte; the remaining six report files
 differed only in their expected `generated_at` timestamps. No substantive
 field, coverage count, public record, or generated site asset differed.
+
+Batch 078 completes the minimum online protocol for Richard P. Amy through
+Etienne Ancergues on PDF page eight. Etienne Ancergues retained his previously
+completed Batch 045 outcome and was not researched again. Milton V. Anastos
+now has high-confidence documented-prewar employment at Harvard Divinity
+School Library and a separately qualified Dumbarton Oaks professional
+affiliation. Harry H. Anbender has high-confidence occupation evidence and a
+professional affiliation with the office of United Auto Workers counsel
+Maurice Sugar, but no unsupported formal employer or immediate-predecessor
+claim. Seven other identities remain unresolved or ambiguous and route to Box
+14 review; search-only spelling aliases were not adopted as corrections.
+
+Fifty-one Python tests, all 279 browser and accessibility cases, the
+200-profile stratified audit, and the 24,192-page link check passed. The link
+checker inventoried 48,488 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`e7d0cef75617cc95620c4ce6a8ae88751baa439ba2bea00983ad46ecd7674a4c`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`e1cebdc90ae320758e7983cd532443239015c5b2765fa413b3a6515037ec9ba1`.
+A field-aware local scan assessed 12,931 distinct normalized private
+identifiers, reduced them to 12,919 formatting-equivalent comparison tokens,
+and found zero unexpected full-number matches across 24,328 public text,
+compressed-mirror, and production HTML assets.
+
+A clean-archive Batch 078 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,630 research attempts, replayed all 77 numbered
+evidence batches plus the two pre-numbered reviewed evidence files, regenerated
+the public datasets, and completed the 24,192-page static-site build. Across
+all 263 tracked files, 257 matched byte-for-byte; the remaining six report
+files differed only in their expected `generated_at` timestamps. SQLite
+`quick_check` returned `ok`, the foreign-key check returned zero errors, and
+no substantive field, coverage count, public record, or generated site asset
+differed.
