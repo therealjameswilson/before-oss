@@ -495,3 +495,30 @@ immediate affiliation, last civilian employer, or default verified analytics.
 The other nine profiles retain dignified Box 11 archival-review outcomes and
 masked or explicitly unprinted serial fields. The complete local link checker
 passed all 24,187 HTML files and inventoried 48,466 unique external URLs.
+
+## Batch 074 production deployment
+
+GitHub Actions test workflow
+[30594312268](https://github.com/therealjameswilson/before-oss/actions/runs/30594312268)
+and GitHub Pages deployment
+[30594312276](https://github.com/therealjameswilson/before-oss/actions/runs/30594312276)
+for the page-six-through-seven Alley-through-Allison release `62b4bdd`
+completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 17 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 074 person profiles, and the Bell System
+organization profile. The live statistics report 23,978 source rows, 23,941
+person entities, 567 people with non-planned research attempts, 197
+verified-affiliation people, 118 verified-employer people, 514 archival-review
+assessments, 678 published claims, and 596 public source records. The live
+personnel, organizations, affiliations, and sources downloads contain 23,941,
+238, 398, and 596 data rows respectively, and the JSONL personnel download
+contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded size and SHA-256 and
+the locally redaction-audited files byte-for-byte. The deployed and local
+manifest SHA-256 is
+`5d021fdb9fa4f3222b8fa2ad0120dee42cd69b27fedc8db27162bde8349fb1b6`.
+The deployed manifest's forbidden-field check passed, and public serial fields
+remained masked or explicitly unprinted.
