@@ -7532,3 +7532,96 @@ test("Batch 085 keeps ten Anderson identities unresolved and separates the two R
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 086 preserves unresolved cases, carries Andrade forward, and publishes Andreasen occupation only", async ({
+  page,
+}) => {
+  const profiles = [
+    ["89178551-82de-54a4-ab90-8f43dabc4543", "Stanley E Anderson"],
+    ["89e4aa38-6be8-5d96-b2d6-904c021dfd6a", "Tom L Anderson"],
+    ["94e8c1d6-c12f-550c-bdd8-4107e697e999", "Walter Anderson"],
+    ["55dbb385-d33e-5c9e-969b-64eda93d560f", "William M Anderson"],
+    ["d9e04433-fe98-5d2b-8326-7d98089f9a69", "Russell W Anderton"],
+    ["d814bb3e-9a94-5d9f-b9d6-2f38767762fe", "Anna B Andes"],
+    ["a3108672-b09f-554b-84ef-fb5fb6287d70", "Jean J Andoire"],
+    ["2201ee7c-3d64-5672-b519-0aad4625d185", "Edna W Andrade"],
+    ["a4193027-1c25-5bd7-8ba3-20dc32e68529", "George Andreas"],
+    ["cc9f004b-27eb-50ab-9611-deadb51db884", "Knut Andreasen"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(/^(16|17)$/, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "89178551-82de-54a4-ab90-8f43dabc4543",
+    "89e4aa38-6be8-5d96-b2d6-904c021dfd6a",
+    "94e8c1d6-c12f-550c-bdd8-4107e697e999",
+    "55dbb385-d33e-5c9e-969b-64eda93d560f",
+    "d814bb3e-9a94-5d9f-b9d6-2f38767762fe",
+    "a4193027-1c25-5bd7-8ba3-20dc32e68529",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/d9e04433-fe98-5d2b-8326-7d98089f9a69/");
+  await expect(
+    page.getByText("ambiguous", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "No employer claim is published from the current lead",
+  );
+
+  await page.goto("./people/a3108672-b09f-554b-84ef-fb5fb6287d70/");
+  await expect(
+    page.getByText("probable", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "Postwar publishing work is not treated as pre-OSS evidence",
+  );
+
+  await page.goto("./people/2201ee7c-3d64-5672-b519-0aad4625d185/");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Hecht Company");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Hecht Company");
+
+  await page.goto("./people/cc9f004b-27eb-50ab-9611-deadb51db884/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText("first mate");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

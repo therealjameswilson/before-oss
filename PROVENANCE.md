@@ -998,6 +998,47 @@ occupation, unit, or institution is promoted to a public claim. All ten
 identities remain unresolved with high-priority Box 16 guidance and the
 evidence-limited employer statement.
 
+## Page-ten Anderson-through-Andreasen pathways, Batch 086
+
+`research/evidence-page-ten-anderson-through-andreasen-pathways_batch-086_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from Stanley E.
+Anderson through Knut Andreasen on PDF page ten. The bundle contains ten
+person updates, ten terminal or carry-forward research attempts, fourteen
+source records, two public claims, and five claim-source links. It creates no
+new organization or affiliation because the new positive evidence establishes
+an occupation but not a named employer or institutional relationship.
+
+The index citations were visually checked against page ten. Common-name and
+incomplete cases were searched through official/NARA context, CIA discovery,
+exact-name and meaningful variant searches, employment and occupation queries,
+newspaper or obituary paths, institutional sources, and archival leads.
+Stanley E. Anderson, Tom L. Anderson, Walter Anderson, William M. Anderson,
+Anna B. Andes, and George Andreas remain unresolved. Russell W. Anderton
+remains ambiguous: a scholarly Gemological Institute of America article
+documents a distinctive man's early-1940s gem work, but it does not link that
+person to OSS or the indexed private identifier. Jean J. Andoire is probable
+because the uncommon exact name appears in a contemporary Ninth Army roster
+and the Ritchie Boys roster, but neither provides the index identifier or an
+explicit OSS connection. These leads remain qualified identity-review notes,
+not employer facts.
+
+Edna W. Andrade's existing CIA- and Smithsonian-supported claims were reviewed
+in place. The Hecht Company remains her strongly date-bounded immediate and
+last civilian employer; Newcomb teaching remains earlier employment; and the
+Pennsylvania Academy remains student status. No duplicate claim, affiliation,
+organization, or citation was created.
+
+Knut Andreasen's uncommon name and an exact private-identifier match connect
+the NARA index row to an Operation Rype NORSO profile. Matthew T. Bolland's
+published history independently identifies Corporal Andreasen in the same
+mission context and states that he had been a first mate. The public profile
+therefore reports a high-confidence occupation-only result. It does not infer
+a vessel, shipping company, self-employment status, immediate predecessor, or
+last civilian employer. The full identifier was compared privately and is not
+stored in the evidence text, exposed in a citation, or emitted in public
+assets. No authenticated NARA Catalog request or live API response was used or
+retained.
+
 ## Official reference material
 
 - NARA OSS personnel records:

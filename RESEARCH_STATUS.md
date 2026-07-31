@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 675 people with a non-planned attempt | 23,941 person entities | 2.8194% |
+| Research-attempt coverage | 684 people with a non-planned attempt | 23,941 person entities | 2.8570% |
 | Verified-affiliation coverage | 200 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8354% |
 | Verified-employer coverage | 120 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5012% |
-| Archival-review coverage | 623 people with an individual file-access/priority assessment | 23,941 person entities | 2.6022% |
+| Archival-review coverage | 632 people with an individual file-access/priority assessment | 23,941 person entities | 2.6398% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 210
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 23
+- Identity status `confirmed`: 24
 - Identity status `high_confidence`: 254
-- Identity status `probable`: 19
-- Identity status `ambiguous`: 22
+- Identity status `probable`: 20
+- Identity status `ambiguous`: 23
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,622
+- Identity status `unresolved`: 23,619
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,266
+- `not_started`: 23,257
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 23
-- `occupation_only_found`: 26
-- `requires_archival_review`: 407
+- `occupation_only_found`: 27
+- `requires_archival_review`: 415
 - `completed`: 34
 - `verified_employer_found`: 121
 - Stratified pilot size: 75
@@ -62,15 +62,16 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 405
+- Reviewed-web terminal-protocol attempts recorded: 414
+- Reviewed-evidence carry-forward attempts recorded: 1
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 289 across 274 people; 15 additional
+- Saved `source_reviewed` outcomes: 291 across 276 people; 17 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,700
+- Total recorded attempts/plans: 1,710
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 274; 258 have at least one public-eligible
+- People with saved reviewed claims: 275; 259 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -568,10 +569,26 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   obituary, unit-roster, directory, and institutional namesakes for the other
   rows were also rejected. No candidate employer, occupation, assignment, or
   institution from this batch is published as fact.
+  Batch 086 continued page ten from Stanley E. Anderson through Knut
+  Andreasen. Six common-name or incomplete rows remain unresolved; Russell W.
+  Anderton remains ambiguous because a scholarly gem-industry biography does
+  not itself establish OSS service; and Jean J. Andoire is probable because
+  the uncommon exact name appears in two compatible wartime Army rosters that
+  still lack the index identifier and an explicit OSS linkage. Edna W.
+  Andrade's existing Hecht Company employer, Newcomb teaching, and
+  Pennsylvania Academy student claims passed a carry-forward integrity review
+  without duplication or reclassification. Knut Andreasen is confirmed by an
+  exact private-identifier match to an Operation Rype profile, independently
+  corroborated by Matthew T. Bolland's published history. Bolland states that
+  Andreasen had been a first mate, so the site publishes the occupation only;
+  it does not invent a vessel, shipping company, immediate affiliation, or
+  civilian employer. Nine records route to Box 16 or 17 review, while
+  Andreasen retains medium-priority archival guidance for the missing maritime
+  employer and Army-to-OSS sequence.
 - Published affiliations: 408
-- Database claims: 718; public-eligible claims: 699 (97 confirmed, 525 high, 77
+- Database claims: 720; public-eligible claims: 701 (97 confirmed, 527 high, 77
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,018; public source export: 635; unique source documents: 592
+- Citation records: 1,031; public source export: 637; unique source documents: 596
 - Canonical organizations: 247 private and 245 public
 - Conflicts: 1
 - NARA pull-list rows: 23,857
@@ -706,6 +723,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-and
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-anderson-john-through-margaret-archival-pathways_batch-083_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nine-ten-anderson-margaret-through-orval-pathways_batch-084_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-anderson-otto-through-shirley-archival-pathways_batch-085_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-ten-anderson-through-andreasen-pathways_batch-086_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
