@@ -40,18 +40,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30610563919](https://github.com/therealjameswilson/before-oss/actions/runs/30610563919)
-  for Batch 084 release `6dff187`: **passed**
+  [30611898607](https://github.com/therealjameswilson/before-oss/actions/runs/30611898607)
+  for Batch 085 release `ed97743`: **passed**
 - GitHub Pages deployment workflow
-  [30610563928](https://github.com/therealjameswilson/before-oss/actions/runs/30610563928)
-  for Batch 084 release `6dff187`: **passed**
+  [30611898697](https://github.com/therealjameswilson/before-oss/actions/runs/30611898697)
+  for Batch 085 release `ed97743`: **passed**
 - Production route smoke tests: **16 / 16 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
 - Production redaction scan: **0 full private-identifier matches across 81 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `bfcd15ab0e0aafcca34c91aa2ca5794615468e1f85e6e7a63a92d5a3a448e02e`
+  `2d906ccf762fdbf005c74ebd871990c3e367ed573f716baf2107e962681cf38f`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1054,3 +1054,12 @@ six report files differed only in their expected `generated_at` timestamps.
 SQLite `quick_check` returned `ok`, the foreign-key check returned zero
 errors, and no substantive field, coverage count, public record, or generated
 site asset differed.
+
+The Batch 085 production audit followed successful GitHub test and Pages
+workflows. All 16 checked routes returned HTTP 200 with the expected content,
+all 65 deployed manifest assets matched their recorded and local byte sizes and
+SHA-256 values, all eight checked live statistics and all five public download
+row counts matched the release, and the field-aware exact-token scan found zero
+full private-identifier matches across 81 deployed artifacts. The ten live
+profiles preserve high-priority Box 16 guidance, and the two Robert J. Anderson
+source rows remain distinct.
