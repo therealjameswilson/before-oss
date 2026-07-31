@@ -671,5 +671,18 @@ masking. The complete desktop, phone, and tablet matrix passed 270 / 270 with
 no remaining assertion or serious/critical axe failure; the expanded Batch 075
 test then passed a separate 3 / 3 three-viewport rerun.
 
+The Batch 076 regression checks the contiguous Ruth Ames-through-Phillip J.
+Amon sequence on PDF page eight. It verifies Nick J. Amigdalitis's
+high-confidence wartime OSS identity, the visible `Amigdalitsis` spelling
+variant, and two corroborative citation links without presenting the wartime
+assignment as a predecessor affiliation. It preserves Paul Amico's ambiguous,
+unmerged common-name candidates and eight unresolved identities. All ten
+profiles retain dignified Box 13 review guidance, an explicit unresolved
+employer statement, enlisted, naval-officer, civilian-grade, and indeterminate
+personnel classifications, direct routes, and field-level serial masking. The
+complete desktop, phone, and tablet matrix passed 273 / 273 with no remaining
+assertion or serious/critical axe failure; the targeted Batch 076 test passed a
+separate 3 / 3 three-viewport rerun.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

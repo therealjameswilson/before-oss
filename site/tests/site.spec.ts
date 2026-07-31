@@ -6610,3 +6610,83 @@ test("Batch 075 publishes two qualified student pathways while preserving confli
     page.getByRole("link", { name: "Ruth G Amende", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 076 preserves the Amigdalitis spelling variant and keeps all ten Ames-through-Amon employer outcomes unresolved", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8f3dc2a1-afcf-5eb3-b86c-a001f55ee981", "Ruth Ames", "unresolved"],
+    ["8b7493df-4959-5ab7-9485-5a2251c4f57a", "Redja B Ameyund", "unresolved"],
+    ["c6628679-01ec-53ea-9919-ed1e737710d2", "William A Amick", "unresolved"],
+    ["50c098e1-673c-5c26-b576-ee29807a78ef", "Paul Amico", "ambiguous"],
+    [
+      "b8ab801d-d4ac-536a-a32e-0364c1e4925e",
+      "Nick J Amigdalitis",
+      "high confidence",
+    ],
+    ["a08535b4-3957-5c75-b8cd-6df280044d0f", "Elizabeth W Amis", "unresolved"],
+    ["4754d09e-877f-5023-96ab-c0b6e61530f7", "James Ammerman", "unresolved"],
+    [
+      "20d22be1-5c58-52ea-b0b9-fa595245be9d",
+      "Richard C Ammerman",
+      "unresolved",
+    ],
+    [
+      "f4c82dd9-7c8c-5cd3-a080-ee22d32cefe4",
+      "William R Ammon Jr.",
+      "unresolved",
+    ],
+    ["004513db-369d-5f1f-8ba6-7b5c47fd3a6d", "Phillip J Amon", "unresolved"],
+  ];
+
+  for (const [personId, displayName, identityStatus] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText(identityStatus, { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("13", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/b8ab801d-d4ac-536a-a32e-0364c1e4925e/");
+  await expect(page.locator("body")).toContainText("Nick J Amigdalitsis");
+  await expect(page.locator("body")).toContainText(
+    "Greek Operational Group",
+  );
+  await expect(page.locator("body")).toContainText(
+    "does not itself establish a pre-OSS affiliation",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Office of Strategic Services Operational Groups",
+      exact: true,
+    }),
+  ).toHaveAttribute("href", "https://ossog.info/personnel.html");
+  await expect(
+    page.getByRole("link", { name: "Amigdalitsis Nick J.", exact: true }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.uswarmemorials.org/html/people_details.php?PeopleID=24636",
+  );
+
+  await page.goto("./people/50c098e1-673c-5c26-b576-ee29807a78ef/");
+  await expect(page.locator("body")).toContainText(
+    "candidates are not merged",
+  );
+  await expect(page.locator("body")).toContainText(
+    "Do not publish the diner chronology without a unique linkage",
+  );
+});

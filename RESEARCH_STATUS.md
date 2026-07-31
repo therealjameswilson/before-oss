@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 577 people with a non-planned attempt | 23,941 person entities | 2.4101% |
+| Research-attempt coverage | 587 people with a non-planned attempt | 23,941 person entities | 2.4519% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 524 people with an individual file-access/priority assessment | 23,941 person entities | 2.1887% |
+| Archival-review coverage | 534 people with an individual file-access/priority assessment | 23,941 person entities | 2.2305% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 22
-- Identity status `high_confidence`: 248
+- Identity status `high_confidence`: 249
 - Identity status `probable`: 17
-- Identity status `ambiguous`: 16
+- Identity status `ambiguous`: 17
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,637
+- Identity status `unresolved`: 23,635
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,364
+- `not_started`: 23,354
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 22
 - `occupation_only_found`: 23
-- `requires_archival_review`: 313
+- `requires_archival_review`: 323
 - `completed`: 34
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
@@ -62,15 +62,15 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 306
+- Reviewed-web terminal-protocol attempts recorded: 316
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 280 across 266 people; 15 additional
+- Saved `source_reviewed` outcomes: 281 across 267 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,601
+- Total recorded attempts/plans: 1,611
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 261; 249 have at least one public-eligible
+- People with saved reviewed claims: 262; 250 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -425,10 +425,23 @@ Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
   six identities are unresolved; all eight non-published cases route to Box 12
   or Box 13 review without promoting discovery-only or chronologically
   incompatible namesakes.
+  Batch 076 continued through Ruth Ames, Redja B. Ameyund, William A. Amick,
+  Paul Amico, Nick J. Amigdalitis, Elizabeth W. Amis, James Ammerman, Richard
+  C. Ammerman, William R. Ammon Jr., and Phillip J. Amon on PDF page eight.
+  A specialist OSS Operational Groups roster and an independent memorial
+  record support Nick J. Amigdalitis at high identity confidence while
+  preserving the documented `Amigdalitsis` spelling variant. Those sources
+  establish his wartime OSS Greek Operational Group identity but do not
+  establish an immediate pre-OSS assignment or civilian employer. A roster
+  candidate and two later biographical sources for Paul Amico lack the unique
+  linkage needed to merge the common-name records, so his identity remains
+  ambiguous. The other eight identities remain unresolved. All ten profiles
+  route to Box 13 review, and no namesake, postwar career, or unit-level
+  chronology is promoted to a pre-OSS affiliation.
 - Published affiliations: 400
-- Database claims: 697; public-eligible claims: 682 (97 confirmed, 514 high, 71
+- Database claims: 698; public-eligible claims: 683 (97 confirmed, 515 high, 71
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 887; public source export: 605; unique source documents: 558
+- Citation records: 904; public source export: 608; unique source documents: 565
 - Canonical organizations: 241 private and 239 public
 - Conflicts: 1
 - NARA pull-list rows: 23,858
@@ -553,6 +566,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-six-alle
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-through-alley-pathways_batch-073_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-seven-alley-through-allison-pathways_batch-074_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ambrose-through-ames-pathways_batch-075_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eight-ames-through-amon-pathways_batch-076_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

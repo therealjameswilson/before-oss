@@ -637,6 +637,39 @@ remaining six identities are unresolved. All eight cases route to Box 12 or
 Box 13 review without promoting discovery-only, common-name, or
 chronologically incompatible candidates.
 
+## Page-eight Ames-through-Amon continuation, Batch 076
+
+`research/evidence-page-eight-ames-through-amon-pathways_batch-076_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Ruth
+Ames-through-Phillip J. Amon rows on PDF page eight. The bundle contains ten
+visually checked official index citations, ten terminal research attempts, ten
+person updates, and one public identity claim linked to three sources. It
+contains no organization or pre-OSS affiliation assertion. It stores no live
+NARA Catalog response, credential, full service identifier, full copyrighted
+page, or sensitive modern-person detail.
+
+An OSS Operational Groups roster names Technician Fifth Grade Nick J.
+Amigdalitsis in Greek Group IV. An independent American War Memorials Overseas
+record repeats the uncommon name, grade, 2671st Special Reconnaissance
+Battalion, and OSS operational-group association. Together with the indexed
+name, middle initial, and grade, these sources support a high-confidence
+identity match while preserving `Amigdalitis` and `Amigdalitsis` as documented
+variants. They concern wartime OSS service and do not establish his immediate
+pre-OSS assignment, civilian employer, or the timing of any earlier Greek
+Battalion association.
+
+A specialist roster also names a Sergeant Paul Amico in an Italian Operational
+Group. An official congressional tribute and an obituary describe a Secaucus
+Paul Amico's Army entry and later civilian career, but neither supplies an OSS
+link or unique identifier. The common-name candidates remain unmerged and the
+postwar diner chronology is not published as pre-OSS employment. A newspaper
+item for William W. Amick conflicts on the middle initial, a local James
+Ammerman item lacks naval or OSS identifiers, and a William R. Ammon military
+record belongs to a chronologically incompatible later namesake. The other
+searches did not establish reliable identities or predecessor affiliations.
+All ten profiles therefore route to Box 13 review, with Nick's wartime identity
+published separately from the still-unresolved employer questions.
+
 ## Official reference material
 
 - NARA OSS personnel records:

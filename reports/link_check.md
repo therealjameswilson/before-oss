@@ -568,3 +568,21 @@ local manifest SHA-256 is
 `37532862bbb4965a66fdd0288b3f249179d8e5d497a9bd24d3fad9fca987bf2a`.
 The deployed manifest's forbidden-field check passed, and the live profile
 pages preserve masked or explicitly unprinted serial fields.
+
+## Batch 076 local release check
+
+The rebuilt site contains direct, internally resolved routes for Ruth Ames,
+Redja B. Ameyund, William A. Amick, Paul Amico, Nick J. Amigdalitis, Elizabeth
+W. Amis, James Ammerman, Richard C. Ammerman, William R. Ammon Jr., and Phillip
+J. Amon. Nick's high-confidence wartime OSS identity appears with the
+`Amigdalitsis` variant and two corroborative source links, while his
+predecessor affiliation and civilian employer remain unresolved. Paul Amico's
+common-name candidates remain visibly ambiguous and unmerged. All ten profiles
+retain Box 13 archival guidance and masked or explicitly unprinted serial
+fields; no employer or organization route was added.
+
+The complete local link checker passed all 24,188 HTML files and inventoried
+48,476 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`bd9d8567cf38f1cd6f2b3a7f22b211901b755d85cce1ed520fe27b73cf05f7ce`.

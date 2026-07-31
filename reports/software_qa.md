@@ -649,3 +649,24 @@ datasets, and completed the static-site build. Across all 260 tracked files,
 254 matched byte-for-byte; the remaining six report files differed only in
 their expected `generated_at` timestamps. No substantive field, coverage
 count, public record, or generated site asset differed.
+
+Batch 076 completes the minimum online protocol for Ruth Ames through Phillip
+J. Amon on PDF page eight. The ten source rows were checked against the
+rendered page. Nick J. Amigdalitis now has a high-confidence identity
+resolution supported by an OSS Operational Groups roster and an independent
+memorial record, while the documented `Amigdalitsis` spelling variant remains
+visible. The evidence establishes wartime OSS service, not an immediate
+pre-OSS affiliation or last civilian employer. Paul Amico remains ambiguous
+because the common-name roster and Secaucus biographical candidates lack a
+unique link. Eight other identities remain unresolved, and all ten profiles
+route to Box 13 review without namesake promotion.
+
+Fifty-one Python tests, all 273 browser and accessibility cases, a targeted
+three-viewport Batch 076 rerun, the 200-profile stratified audit, and the
+24,188-page link check passed. The link checker inventoried 48,476 unique
+external URLs, and `npm audit` reported zero vulnerabilities. Two production
+builds produced the identical
+`75492e0177b0ef333e7364df77888ec3466ea7f36a37bb470ec768c727d09de8`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its redaction check passed, and its SHA-256 is
+`bd9d8567cf38f1cd6f2b3a7f22b211901b755d85cce1ed520fe27b73cf05f7ce`.
