@@ -455,3 +455,43 @@ commissioned, or indeterminate personnel classification, candidate-comparison
 guidance that requires corroborating file evidence, and masked or explicitly
 unprinted serial fields. The complete local link checker passed all 24,186 HTML
 files and inventoried 48,463 unique external URLs.
+
+## Batch 073 production deployment
+
+GitHub Actions test workflow
+[30592802117](https://github.com/therealjameswilson/before-oss/actions/runs/30592802117)
+and GitHub Pages deployment
+[30592802116](https://github.com/therealjameswilson/before-oss/actions/runs/30592802116)
+for the page-six Allen-through-Alley Batch 073 release `174179c` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 073 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 557 people with non-planned
+research attempts, 197 verified-affiliation people, 118 verified-employer
+people, 504 archival-review assessments, 676 published claims, and 592 public
+source records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 237, 397, and 592 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed assets matched their recorded size and SHA-256. The
+deployed manifest SHA-256 is
+`d59eca66aeb1f17ecc609fd85e280a3638dc8fa2f758db3f9b3739c5cb2e86df`.
+The release's field-aware redaction audit compared all 12,931 digit-bearing
+normalized private identifiers with 83 live artifacts and returned zero
+unexpected identifier matches, zero forbidden-field hits, and only masked or
+explicitly unprinted public serial fields.
+
+## Batch 074 local release check
+
+The rebuilt site contains direct, internally resolved routes for Roy Alley,
+Vernon C. Alley, William S. Alley, John E. Allgood, William E. Allgrunn, Jack
+B. Allin, H. B. Allinsmith, Dale D. Allison, George R. Allison, and James S.
+Allison, plus the new Bell System organization profile. Harry B. Allinsmith's
+official OSS identity and medium-confidence documented prewar Bell System
+employment appear with claim-level citations and without promotion to an
+immediate affiliation, last civilian employer, or default verified analytics.
+The other nine profiles retain dignified Box 11 archival-review outcomes and
+masked or explicitly unprinted serial fields. The complete local link checker
+passed all 24,187 HTML files and inventoried 48,466 unique external URLs.

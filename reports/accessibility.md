@@ -645,5 +645,17 @@ guidance; and field-level serial masking. The complete desktop, phone, and
 tablet matrix passed 264 / 264 with no remaining assertion or serious/critical
 axe failure.
 
+The Batch 074 regression checks the contiguous Roy Alley-through-James S.
+Allison sequence across PDF pages six and seven. It verifies Harry B.
+Allinsmith's confirmed identity, official OSS appointment citation,
+medium-confidence documented-prewar Bell System employment, qualified temporal
+placement only among earlier affiliations, and the direct Bell System
+organization route. It also verifies nine dignified Box 11 archival-review
+outcomes, the preserved unfamiliar `CSP P T` abbreviation, commissioned,
+enlisted, civilian, and indeterminate personnel categories, and field-level
+serial masking. The complete desktop, phone, and tablet matrix passed 267 /
+267 with no remaining assertion or serious/critical axe failure; the expanded
+Batch 074 test then passed a separate 3 / 3 three-viewport rerun.
+
 The in-app browser review also confirmed the phone homepage and personnel
 directory layouts visually and found no browser console errors.

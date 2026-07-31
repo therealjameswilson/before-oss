@@ -6402,3 +6402,93 @@ test("Batch 073 preserves ten Vernon Allen through John Alley profiles as explic
     "official officer records",
   );
 });
+
+test("Batch 074 confirms Harry B Allinsmith's OSS identity and qualified Bell System history while preserving nine archival cases", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["3cf38fb5-59e8-5b24-8808-394a54226546", "Roy Alley", "enlisted army personnel"],
+    ["a7e8c27f-73ad-5244-96f0-957e2f130d8a", "Vernon C Alley", "unknown or indeterminate"],
+    ["adbd10c3-391c-560c-b0d1-db01770218c1", "William S Alley", "commissioned naval officer"],
+    ["9937e6a3-4d8f-5cec-99a6-cfa4760255cc", "John E Allgood", "unknown or indeterminate"],
+    ["10284525-45a3-5e62-afe4-89083d568249", "William E Allgrunn", "unknown or indeterminate"],
+    ["9c363103-92ac-5105-832b-80c58ab200e6", "Jack B Allin", "unknown or indeterminate"],
+    ["92314f9e-9ff9-54d9-a519-c11aa27af9da", "Dale D Allison", "commissioned army officer"],
+    ["12f8a6a3-903e-5525-85df-4647ad0662ec", "George R Allison", "enlisted army personnel"],
+    ["14e5d2da-f303-5736-9c2b-1579edaa08db", "James S Allison", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(personnelCategory);
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("11", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/3cf38fb5-59e8-5b24-8808-394a54226546/");
+  await expect(page.locator("body")).toContainText(
+    "conflicting-identifier candidate",
+  );
+
+  await page.goto("./people/9c363103-92ac-5105-832b-80c58ab200e6/");
+  await expect(page.locator("body")).toContainText("CSP P T");
+  await expect(page.locator("body")).toContainText(
+    "interpret the printed",
+  );
+
+  await page.goto("./people/13a8b947-166a-56ce-877b-8cad0e236f48/");
+  await expect(
+    page.getByRole("heading", { name: "H B Allinsmith", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("body")).toContainText("Harry Bryan Allinsmith");
+  await expect(page.locator("body")).toContainText(
+    "chief of the Radio Intelligence Division",
+  );
+  await expect(page.locator("body")).toContainText("Bell System");
+  await expect(page.locator("body")).toContainText("documented prewar");
+  await expect(page.locator("body")).toContainText(
+    "which Bell System subsidiary",
+  );
+  await expect(
+    page.getByRole("link", { name: "OSS Orders, April 1944", exact: true }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100140007-2.pdf",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "International Television Almanac 1956",
+      exact: true,
+    }),
+  ).toHaveAttribute(
+    "href",
+    "https://www.worldradiohistory.com/Archive-International-Television-Almanac/1956/International-Television-Almanac-1956-1-Whos-Who.pdf",
+  );
+
+  await page.goto(
+    "./organizations/4c98ac2c-db09-503d-8549-ecd3dfe83a23/",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Bell System", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "H B Allinsmith", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("body")).toContainText(
+    "does not silently merge or sequence the subsidiaries",
+  );
+});

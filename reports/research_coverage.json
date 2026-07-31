@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T23:53:39+00:00",
+  "generated_at": "2026-07-31T00:24:11+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,8 +7,8 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 557,
-    "percent": 2.3266
+    "people_with_nonplanned_attempts": 567,
+    "percent": 2.3683
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
@@ -22,28 +22,28 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 504,
-    "percent": 2.1052
+    "people_assessed": 514,
+    "percent": 2.1469
   },
   "research_status_counts": {
     "candidate_found": 1,
     "completed": 34,
-    "documented_prewar_employer_found": 21,
+    "documented_prewar_employer_found": 22,
     "in_progress": 52,
     "needs_identity_review": 12,
-    "not_started": 23384,
+    "not_started": 23374,
     "occupation_only_found": 21,
-    "requires_archival_review": 296,
+    "requires_archival_review": 305,
     "verified_employer_found": 120
   },
   "claim_confidence_counts": {
-    "confirmed": 96,
+    "confirmed": 97,
     "high": 512,
     "low": 15,
-    "medium": 68
+    "medium": 69
   },
   "personnel_category_counts": {
-    "civilian_professional_or_administrative_grade": 1457,
+    "civilian_professional_or_administrative_grade": 1458,
     "commissioned_army_officer": 2069,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 5,
@@ -52,11 +52,11 @@
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 48,
     "foreign_or_allied_military_personnel": 245,
-    "unknown_or_indeterminate": 16594,
+    "unknown_or_indeterminate": 16593,
     "warrant_officer": 4
   },
   "possible_duplicate_groups": 210,
   "conflict_count": 0,
-  "citations": 856,
-  "unique_source_documents": 547
+  "citations": 869,
+  "unique_source_documents": 549
 }

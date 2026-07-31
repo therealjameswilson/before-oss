@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-07-30 UTC.
+Generated from the current local SQLite database on 2026-07-31 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 557 people with a non-planned attempt | 23,941 person entities | 2.3266% |
+| Research-attempt coverage | 567 people with a non-planned attempt | 23,941 person entities | 2.3683% |
 | Verified-affiliation coverage | 197 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.8229% |
 | Verified-employer coverage | 118 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.4929% |
-| Archival-review coverage | 504 people with an individual file-access/priority assessment | 23,941 person entities | 2.1052% |
+| Archival-review coverage | 514 people with an individual file-access/priority assessment | 23,941 person entities | 2.1469% |
 
 ## Extraction and identity
 
@@ -21,37 +21,37 @@ Generated from the current local SQLite database on 2026-07-30 UTC.
 - Possible duplicate groups: 210
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 21
+- Identity status `confirmed`: 22
 - Identity status `high_confidence`: 246
 - Identity status `probable`: 17
 - Identity status `ambiguous`: 15
-- Identity status `unresolved`: 23,642
+- Identity status `unresolved`: 23,641
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,594
+- Unknown or indeterminate: 16,593
 - Enlisted Army personnel: 3,468
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 5
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,457
+- Civilian professional or administrative grades: 1,458
 - Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 48
 - Commissioned naval officers: 49
 - Warrant officers: 4
 
-Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
+Commissioned classification: 2,130 yes; 4,985 no; 16,826 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,384
+- `not_started`: 23,374
 - `in_progress`: 52
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 21
+- `documented_prewar_employer_found`: 22
 - `occupation_only_found`: 21
-- `requires_archival_review`: 296
+- `requires_archival_review`: 305
 - `completed`: 34
 - `verified_employer_found`: 120
 - Stratified pilot size: 75
@@ -61,15 +61,15 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 30
-- Reviewed-web terminal-protocol attempts recorded: 286
+- Reviewed-web terminal-protocol attempts recorded: 296
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 277 across 263 people; 15 additional
+- Saved `source_reviewed` outcomes: 278 across 264 people; 15 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,581
+- Total recorded attempts/plans: 1,591
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 258; 246 have at least one public-eligible
+- People with saved reviewed claims: 259; 247 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -388,11 +388,28 @@ Commissioned classification: 2,130 yes; 4,984 no; 16,827 indeterminate.
   civilian grades, one commissioned Army classification, and two
   indeterminate personnel statuses without inferring postwar work, military
   service, or a pre-OSS employer from an uncorroborated name.
-- Published affiliations: 397
-- Database claims: 691; public-eligible claims: 676 (96 confirmed, 512 high, 68
+  Batch 074 continued through Roy Alley, Vernon C. Alley, William S. Alley,
+  John E. Allgood, William E. Allgrunn, Jack B. Allin, H. B. Allinsmith, Dale
+  D. Allison, George R. Allison, and James S. Allison across PDF pages six and
+  seven. An official April 1944 OSS order expands H. B. Allinsmith to Harry B.
+  Allinsmith and appoints him chief of the Radio Intelligence Division,
+  confirming the indexed identity. A visually inspected 1956 industry
+  almanac reports that Harry Bryan Allinsmith entered the motion-picture
+  industry with the Bell System in 1929, while a 1942 city directory
+  independently records him as an assistant manager in New York. Because
+  neither source identifies the Bell subsidiary immediately before OSS, the
+  employment is published only as medium-confidence documented prewar work,
+  not as an immediate affiliation or last civilian employer. The other nine
+  profiles remain unresolved and route to Box 11. Conflicting identifiers,
+  rank discrepancies, relative-only material, modern records, and
+  uncorroborated namesakes remain private rejection evidence. Jack Allin's
+  unfamiliar printed `CSP P T` abbreviation is preserved without forced
+  expansion.
+- Published affiliations: 398
+- Database claims: 693; public-eligible claims: 678 (97 confirmed, 512 high, 69
   medium); 15 low-confidence claims concerning 12 people are withheld
-- Citation records: 856; public source export: 592; unique source documents: 547
-- Canonical organizations: 239 private and 237 public
+- Citation records: 869; public source export: 596; unique source documents: 549
+- Canonical organizations: 240 private and 238 public
 - Conflicts: 0
 - NARA pull-list rows: 23,858
 
@@ -514,6 +531,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-six-alle
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-identity-and-agency-pathways_batch-071_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-continuation-two-pathways_batch-072_2026-07-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-six-allen-through-alley-pathways_batch-073_2026-07-30.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-six-seven-alley-through-allison-pathways_batch-074_2026-07-30.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

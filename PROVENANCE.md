@@ -566,6 +566,40 @@ and the remaining seven to Box 11. No postwar occupation, ambiguous military
 status, employer, affiliation, or resolved identity was inferred from these
 leads.
 
+## Page-six/seven Alley-through-Allison continuation, Batch 074
+
+`research/evidence-page-six-seven-alley-through-allison-pathways_batch-074_2026-07-30.json`
+records the minimum online research protocol for the ten contiguous Roy
+Alley-through-James S. Allison rows spanning PDF pages six and seven. The
+bundle contains ten visually checked official index citations, ten terminal
+research attempts, ten person updates, one normalized organization, one
+qualified affiliation, and two public claims. It stores no live NARA Catalog
+response, credential, full service identifier, full copyrighted page, or
+sensitive modern-person detail.
+
+An official OSS order in the CIA FOIA Electronic Reading Room names Harry B.
+Allinsmith and records his April 1944 appointment as chief of the Radio
+Intelligence Division. That direct OSS evidence confirms that the indexed H.
+B. Allinsmith is Harry B. Allinsmith. The 1956 *International Television
+Almanac* entry was downloaded, text-searched, rendered, and visually inspected
+at printed page four; it reports that Harry Bryan Allinsmith entered the
+motion-picture industry with the Bell System in 1929 and later worked in
+commercial and managerial positions with several named subsidiaries and
+successors. A 1942 city directory independently records the same Harry B.
+Allinsmith as an assistant manager in New York but does not name the employer.
+The project therefore publishes Bell System only as medium-confidence
+documented prewar employment. It does not choose a subsidiary, infer an
+unrecorded sequence, or present the affiliation as immediate or as the last
+civilian employer.
+
+The remaining nine profiles route to Box 11. A Roy Alley enlistment candidate
+with a conflicting private identifier, plausible-age naval and Army namesakes,
+a relative-only missionary-archive result, modern directory entries, and
+rank-inconsistent cemetery evidence were withheld. Jack B. Allin's unfamiliar
+printed `CSP P T` abbreviation remains unexpanded and unclassified. Full
+private identifiers were used only for comparison and are absent from the
+evidence bundle and public output.
+
 ## Official reference material
 
 - NARA OSS personnel records:

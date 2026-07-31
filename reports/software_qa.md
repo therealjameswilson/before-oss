@@ -593,3 +593,22 @@ and are not public claims. The regression checks all ten direct routes, five
 enlisted classifications, two civilian grades, one commissioned
 classification, two indeterminate statuses, Box 10 or Box 11 guidance, and
 field-level serial masking across three viewports.
+
+Batch 074 completes the minimum online protocol for Roy Alley through James S.
+Allison across PDF pages six and seven. An official April 1944 OSS order
+confirms that the indexed H. B. Allinsmith is Harry B. Allinsmith and records
+his appointment as chief of the Radio Intelligence Division. A visually
+inspected 1956 industry almanac supports medium-confidence documented prewar
+Bell System employment beginning in 1929; a 1942 directory corroborates the
+assistant-manager occupation but does not name the employer. The site keeps
+that earlier employment out of the immediate-affiliation and last-civilian-
+employer fields and out of default verified analytics. Nine other profiles
+retain dignified Box 11 review outcomes, and the unfamiliar printed `CSP P T`
+grade remains unexpanded. Fifty-one Python tests, all 267 browser and
+accessibility cases, a targeted three-viewport Batch 074 rerun, the 200-profile
+stratified audit, and the 24,187-page link check passed. `npm audit` reported
+zero vulnerabilities. Two production builds produced the identical
+`dd339bbd9525c8cf843a78f000a5f95251e1db3ea631a3167b2ebe4c6b3c74a1`
+content-tree hash, and the public manifest contains 65 verified assets with
+SHA-256
+`5d021fdb9fa4f3222b8fa2ad0120dee42cd69b27fedc8db27162bde8349fb1b6`.
