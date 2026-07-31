@@ -853,24 +853,6 @@ of all 12,931 digit-bearing normalized private identifiers, represented by
 compressed-mirror, and download artifacts returned zero unexpected
 full-number matches.
 
-## Batch 083 local release check
-
-The rebuilt site contains direct, internally resolved routes for John K.
-Anderson, Karl A. Anderson, Katherine G. Anderson, Kenneth A. Anderson, Kermit
-W. Anderson, Kirk T. Anderson, Lawrence A. Anderson Jr., Leonard W. Anderson,
-Loma J. Anderson, and Margaret J. Anderson. All ten profiles visibly retain
-unresolved identity status, Box 15 or Box 16 archival-review guidance, the
-standard evidence-limited employer statement, and masked or explicitly
-unprinted serial fields. The `WAE` index text remains visible without a forced
-expansion, and rejected common-name employers, military units, and occupations
-do not appear as attributed public facts.
-
-The complete local link checker passed all 24,193 HTML files and inventoried
-48,493 unique external URLs. All 65 manifest-listed assets matched their
-recorded sizes and SHA-256 values, the manifest redaction check passed, and the
-manifest SHA-256 is
-`9e9dd520623527e5505e0670abe5010b48e776285d29667a76fe06aa9fac6618`.
-
 ## Batch 082 local release check
 
 The rebuilt site contains direct, internally resolved routes for Howell W.
@@ -916,3 +898,49 @@ of all 12,931 digit-bearing normalized private identifiers, represented by
 12,919 formatting-equivalent comparison tokens, against 81 live HTML, data,
 compressed-mirror, and download artifacts returned zero unexpected
 full-number matches.
+
+## Batch 083 local release check
+
+The rebuilt site contains direct, internally resolved routes for John K.
+Anderson, Karl A. Anderson, Katherine G. Anderson, Kenneth A. Anderson, Kermit
+W. Anderson, Kirk T. Anderson, Lawrence A. Anderson Jr., Leonard W. Anderson,
+Loma J. Anderson, and Margaret J. Anderson. All ten profiles visibly retain
+unresolved identity status, Box 15 or Box 16 archival-review guidance, the
+standard evidence-limited employer statement, and masked or explicitly
+unprinted serial fields. The `WAE` index text remains visible without a forced
+expansion, and rejected common-name employers, military units, and occupations
+do not appear as attributed public facts.
+
+The complete local link checker passed all 24,193 HTML files and inventoried
+48,493 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`9e9dd520623527e5505e0670abe5010b48e776285d29667a76fe06aa9fac6618`.
+
+## Batch 083 production deployment
+
+GitHub Actions test workflow
+[30608693088](https://github.com/therealjameswilson/before-oss/actions/runs/30608693088)
+and GitHub Pages deployment
+[30608693107](https://github.com/therealjameswilson/before-oss/actions/runs/30608693107)
+for the page-nine Anderson John-through-Margaret release `18ce715` completed
+successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 083 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 655 people with non-planned
+research attempts, 200 verified-affiliation people, 120 verified-employer
+people, 603 archival-review assessments, 697 published claims, and 629 public
+source records. The live personnel CSV and JSONL downloads each contain 23,941
+rows; the organizations, affiliations, and sources downloads contain 244, 407,
+and 629 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`9e9dd520623527e5505e0670abe5010b48e776285d29667a76fe06aa9fac6618`.
+The deployed manifest's forbidden-field check passed. An exact-token,
+field-aware comparison of all 12,919 nontrivial digit-bearing normalized
+private identifiers against 81 live HTML, data, compressed-mirror, and download
+artifacts returned zero full-number matches.
