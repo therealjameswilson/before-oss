@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 336 / 336 browser cases.**
+**PASS - 339 / 339 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-127-person employer measure is labeled separately from the 220-person broader
+127-person employer measure is labeled separately from the 221-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1039,3 +1039,10 @@ routes link back to the intended profiles.
 The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
 responsive, and accessibility matrix passed 339 / 339 with no assertion or
 serious/critical axe failure.
+
+GitHub test workflow
+[30643121592](https://github.com/therealjameswilson/before-oss/actions/runs/30643121592)
+repeated the complete research and site matrix for release `55fc2b5` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.

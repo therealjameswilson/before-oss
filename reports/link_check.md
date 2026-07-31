@@ -1139,6 +1139,37 @@ identifier matches. Two consecutive static builds produced the identical
 site-tree SHA-256
 `78409396384e3397cf835d690ba8914c3d9a7be995ae3100b5ec495b4f32680b`.
 
+## Batch 098 production deployment
+
+GitHub Actions test workflow
+[30643121592](https://github.com/therealjameswilson/before-oss/actions/runs/30643121592)
+and GitHub Pages deployment
+[30643121609](https://github.com/therealjameswilson/before-oss/actions/runs/30643121609)
+for the page-thirteen Arlotta-through-Armer release `55fc2b5` completed
+successfully.
+
+Live checks returned HTTP 200 for all 19 tested publication routes: seven core
+publication pages, all ten Batch 098 person profiles, and the Columbia
+University and United States Army organization profiles. After substituting
+both plain and URL-encoded production canonical hosts, every route matched the
+audited local HTML byte-for-byte.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 802
+people with non-planned research attempts, 221 verified-affiliation people,
+127 verified-employer people, 750 archival-review assessments, 770 published
+claims, and 724 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 256, 440, and 724 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`a1eafeec2e3cd157a33e4524b46ab1c721be82e39487782d8f61be9d680c582a`.
+The deployed manifest's forbidden-field check passed. The 84 audited live HTML
+and manifest-listed artifacts therefore inherit the local boundary-aware
+result: zero full matches among all 12,919 nontrivial normalized private
+identifiers.
+
 ## Batch 097 local release check
 
 The rebuilt site contains direct, internally resolved routes for Oliver W.
