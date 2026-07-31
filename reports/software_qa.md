@@ -1195,3 +1195,11 @@ claims. Coverage now distinguishes 704 people with a non-planned research
 attempt, 203 people with verified affiliation evidence, 121 people with
 verified employment or self-employment evidence, and 652 people whose archival
 review need has been assessed. No authenticated NARA Catalog request was made.
+
+The Batch 088 production audit followed successful GitHub test and Pages
+workflows. All 16 checked routes returned HTTP 200 with the expected content,
+all 65 deployed manifest assets matched their recorded and local byte sizes and
+SHA-256 values, all eight checked live statistics and all five public download
+row counts matched the release, and all ten profile-specific pathway or
+archival-status checks passed. The bounded field-aware exact-token scan found
+zero full private-identifier matches across 81 deployed artifacts.

@@ -1114,6 +1114,36 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 088 production deployment
+
+GitHub Actions test workflow
+[30617516553](https://github.com/therealjameswilson/before-oss/actions/runs/30617516553)
+and GitHub Pages deployment
+[30617516534](https://github.com/therealjameswilson/before-oss/actions/runs/30617516534)
+for the page-ten-and-eleven Andrews-through-Andros release `5ebb7c7`
+completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 16 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, and all ten Batch 088 person profiles. The live statistics
+report 23,978 source rows, 23,941 person entities, 704 people with non-planned
+research attempts, 203 verified-affiliation people, 121 verified-employer
+people, 652 archival-review assessments, 708 published claims, and 644 public
+source records. The live personnel CSV and JSONL downloads each contain 23,941
+rows; the organizations, affiliations, and sources downloads contain 245, 412,
+and 644 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`7cc4f06f64a728d24653a0874879ebdec2a41fbaf03823e63eebe0e6f4f6e09d`.
+The deployed manifest's forbidden-field check passed. A bounded, field-aware
+exact-token comparison of all 12,919 nontrivial normalized private identifiers
+against 81 live HTML, data, compressed-mirror, and download artifacts returned
+zero full-number matches. All ten profile-specific content checks passed,
+including the three published pathway distinctions and seven visibly
+unresolved archival-review outcomes.
+
 ## Batch 087 production deployment
 
 GitHub Actions test workflow
