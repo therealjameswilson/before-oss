@@ -641,3 +641,11 @@ builds produced the identical
 content-tree hash. The public manifest contains 65 size- and SHA-256-verified
 assets, its redaction check passed, and its SHA-256 is
 `37532862bbb4965a66fdd0288b3f249179d8e5d497a9bd24d3fad9fca987bf2a`.
+
+A clean-archive Batch 075 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, imported all 75 evidence bundles, regenerated the public
+datasets, and completed the static-site build. Across all 260 tracked files,
+254 matched byte-for-byte; the remaining six report files differed only in
+their expected `generated_at` timestamps. No substantive field, coverage
+count, public record, or generated site asset differed.
