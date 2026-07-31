@@ -782,3 +782,16 @@ that rejected namesake organizations do not appear as attributed public facts.
 The complete desktop, phone, and tablet matrix passed 297 / 297 with no
 remaining assertion or serious/critical axe failure; the targeted Batch 084
 test passed a separate 3 / 3 three-viewport rerun.
+
+The Batch 085 regression checks the next contiguous sequence from Otto E.
+Anderson through Shirley J. Anderson on PDF page ten. It verifies ten dignified
+unresolved Box 16 profiles; enlisted, civilian-grade, commissioned, and
+indeterminate personnel classifications; and field-level serial masking. It
+also confirms that the two Robert J. Anderson records remain distinct with
+their respective Master Sergeant and Technical Sergeant rank strings and that
+no rejected namesake becomes a published affiliation. The first targeted run
+correctly exposed an inaccurate expectation about Ralph J. Anderson's
+identifier; after the evidence note and test were repaired, the targeted
+three-viewport rerun passed 3 / 3. The complete desktop, phone, and tablet
+matrix passed 300 / 300 with no remaining assertion or serious/critical axe
+failure.

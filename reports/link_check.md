@@ -991,3 +991,21 @@ field-aware comparison of all 12,919 nontrivial digit-bearing normalized
 private identifiers against 81 live HTML, data, compressed-mirror, and download
 artifacts returned zero full-number matches. Rejected namesake organizations
 were absent from the three specifically tested live profiles.
+
+## Batch 085 local release check
+
+The rebuilt site contains direct, internally resolved routes for Otto E.
+Anderson, Paul R. Anderson, Pauline M. Anderson, Ralph J. Anderson, Richard F.
+Anderson, two separately preserved Robert J. Anderson records, Robert N.
+Anderson, Robert E. Anderson Jr., and Shirley J. Anderson. All ten profiles
+visibly retain unresolved identity status, high-priority Box 16 archival-review
+guidance, the standard evidence-limited employer statement, and masked service
+identifiers. The two same-name Robert J. routes preserve their distinct Master
+Sergeant and Technical Sergeant source rows, and no rejected candidate is
+published as an affiliation.
+
+The complete local link checker passed all 24,194 HTML files and inventoried
+48,498 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`2d906ccf762fdbf005c74ebd871990c3e367ed573f716baf2107e962681cf38f`.

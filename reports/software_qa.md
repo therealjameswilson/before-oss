@@ -7,19 +7,19 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,194 pages**
 - Internal link check: **24,194 HTML files passed**
-- Browser and accessibility suite: **297 / 297 passed**
+- Browser and accessibility suite: **300 / 300 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`706107ebc2b3f94956cf527f8065ca1e531543f87d142509f480809e74010aec`)
+  (`5393b508b312a71da27185f2cb7916e708a46766114fe7b4a1ffaa8f6f8f28e1`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 85 evidence files: **263 / 269
+  checkpoints, review decisions, and all 86 evidence files: **264 / 270
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `bfcd15ab0e0aafcca34c91aa2ca5794615468e1f85e6e7a63a92d5a3a448e02e`
+  `2d906ccf762fdbf005c74ebd871990c3e367ed573f716baf2107e962681cf38f`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -30,7 +30,7 @@ Run: 2026-07-31 UTC
   HTML
 - Runtime authenticated API calls: **0**
 - Reviewed public sources: **635** public records representing **592** unique documents
-- Private citation records: **1,008**
+- Private citation records: **1,018**
 - Published, qualified affiliations: **408**
 - Published claims: **699**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
@@ -1016,3 +1016,41 @@ row counts matched the release, and the field-aware exact-token scan found zero
 full private-identifier matches across 81 deployed artifacts. The three
 specifically tested rejected namesake organizations were also absent from their
 respective live profiles.
+
+Batch 085 completes the minimum online protocol for Otto E. Anderson through
+Shirley J. Anderson on PDF page ten. All ten identities remain unresolved and
+route to high-priority Box 16 review. The two adjacent Robert J. Anderson rows
+remain separate because their Master Sergeant and Technical Sergeant ranks
+accompany different private identifiers. A declassified OSS-related order
+points to a third same-name Technical Sergeant whose identifier matches neither
+Box 16 record. A rank-conflicting Paul R. Anderson OSS claimant and the
+remaining Mount Rushmore, DPAA, cemetery, obituary, roster, directory, and
+institutional namesakes remain rejected rather than promoted to public facts.
+
+The first targeted browser run caught an incorrect test and evidence
+description that treated Ralph J. Anderson's private identifier as unprinted.
+The source row has no printed rank but does have an identifier, which the
+public projection had already masked correctly. The evidence bundle and
+regression were corrected, regenerated, and rerun before release.
+
+Fifty-one Python tests, all 300 browser and accessibility cases, the
+200-profile stratified audit, and the 24,194-page link check passed. The link
+checker inventoried 48,498 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`5393b508b312a71da27185f2cb7916e708a46766114fe7b4a1ffaa8f6f8f28e1`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`2d906ccf762fdbf005c74ebd871990c3e367ed573f716baf2107e962681cf38f`.
+A field-aware comparison of 12,919 nontrivial normalized private identifier
+tokens across 24,338 public text assets returned zero full-number matches.
+
+A clean-archive Batch 085 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,700 research attempts, replayed all 84 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,194-page static-site
+build. Across all 270 tracked files, 264 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero
+errors, and no substantive field, coverage count, public record, or generated
+site asset differed.
