@@ -11,9 +11,9 @@ Run: 2026-07-31 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
   (`3062b729811a52bda8f03133295298058d6bf3d9678072f3449735a26f96c39f`)
-- Latest clean-checkout replay (Batch 106): **byte-for-byte identical** public
+- Latest clean-checkout replay (Batch 107): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 106 evidence batches: **78 / 84
+  checkpoints, review decisions, and all 107 evidence batches: **78 / 84
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
@@ -1563,6 +1563,15 @@ claims. Coverage distinguishes 891 people with a non-planned research attempt,
 228 people with verified affiliation evidence, 130 people with verified
 employment or self-employment evidence, and 839 people whose archival-review
 need has been assessed.
+
+A fresh checkout replay rebuilt the frozen PDF, all page reviews, adapter
+checkpoints, review decisions, and 107 evidence batches. Seventy-eight of 84
+tracked generated/public and QA artifacts matched the release commit byte for
+byte; the other six differed only in their expected report-generation
+timestamps. The rebuilt SQLite database passed `quick_check` and the
+foreign-key check, and the independently rebuilt site produced the same
+`3062b729811a52bda8f03133295298058d6bf3d9678072f3449735a26f96c39f`
+content-tree hash.
 
 ## Batch 106 local release QA
 
