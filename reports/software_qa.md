@@ -5,52 +5,52 @@ Run: 2026-07-31 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,213 pages**
-- Internal link check: **24,213 HTML files passed**
-- Browser and accessibility suite: **360 / 360 passed**
+- Static production build: **24,215 pages**
+- Internal link check: **24,215 HTML files passed**
+- Browser and accessibility suite: **363 / 363 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`65bbeb49928accf6b057af2bf4f83df7118a68b0eda33068eaacd00fb9fb51f4`)
-- Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
-  generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 86 evidence files: **264 / 270
+  (`a440e3f1576435ea21db9a8310e80c9d0b58b9be16971bd1ae6a6c737313a370`)
+- Latest clean-checkout replay (Batch 106): **byte-for-byte identical** public
+  and generated site data after rebuilding the source PDF, page reviews,
+  checkpoints, review decisions, and all 106 evidence batches: **78 / 84
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `fedbd87508da66aacae625d84e2efc033ec60bd40c51adfca777f6fca68a7d46`
+  `fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Field-aware boundary scan of **12,931** distinct digit-bearing normalized
+- Field-aware boundary scan of **12,932** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** nontrivial comparison
-  tokens: **0 unexpected full-number matches** in **24,252** non-gzip
+  tokens: **0 unexpected full-number matches** in **24,254** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **766** public records representing **677** unique documents
-- Private citation records: **1,306**
-- Published, qualified affiliations: **457**
-- Published claims: **800**
+- Reviewed public sources: **774** public records representing **683** unique documents
+- Private citation records: **1,322**
+- Published, qualified affiliations: **462**
+- Published claims: **807**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
-- Verified-affiliation metric: **226** people with confirmed/high published
+- Verified-affiliation metric: **227** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **129** people with confirmed/high published
+- Verified-employer metric: **130** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30665825615](https://github.com/therealjameswilson/before-oss/actions/runs/30665825615)
-  for Batch 105 release `ed882d4`: **passed**
+  [30669019885](https://github.com/therealjameswilson/before-oss/actions/runs/30669019885)
+  for Batch 106 release `d0c954f`: **passed**
 - GitHub Pages deployment workflow
-  [30665825642](https://github.com/therealjameswilson/before-oss/actions/runs/30665825642)
-  for Batch 105 release `ed882d4`: **passed**
-- Production route smoke tests: **20 / 20 returned HTTP 200 and matched the
+  [30669019860](https://github.com/therealjameswilson/before-oss/actions/runs/30669019860)
+  for Batch 106 release `d0c954f`: **passed**
+- Production route smoke tests: **21 / 21 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 85 live
-  HTML, data, and download artifacts**
+- Production redaction scan: **0 full private-identifier matches across 86 live
+  HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `fedbd87508da66aacae625d84e2efc033ec60bd40c51adfca777f6fca68a7d46`
+  `fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1571,6 +1571,19 @@ reviews, adapter checkpoints, review decisions, and 106 evidence batches.
 Seventy-eight of 84 tracked generated/public and QA artifacts matched the
 commit byte for byte; the other six differed only in expected report-generation
 timestamps. No unexpected replay difference remained.
+
+The Batch 106 production audit followed successful GitHub test workflow
+[30669019885](https://github.com/therealjameswilson/before-oss/actions/runs/30669019885)
+and Pages workflow
+[30669019860](https://github.com/therealjameswilson/before-oss/actions/runs/30669019860)
+for release `d0c954f`. All 21 deployed routes returned HTTP 200 and matched the
+audited local HTML after production and local canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The boundary-aware exact-token scan found zero full
+private-identifier matches across 86 deployed HTML, data, compressed-mirror,
+and download artifacts. All seven unique Batch 106 source URLs returned HTTP
+200 or partial-content 206 responses.
 
 ## Batch 105 local release QA
 

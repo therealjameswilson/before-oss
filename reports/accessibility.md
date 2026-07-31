@@ -1069,6 +1069,13 @@ Batch 105 totals to the generated Batch 106 totals, the complete desktop,
 phone, tablet, responsive, direct-route, search, and axe matrix passed 363 / 363
 with no assertion failure or serious/critical accessibility violation.
 
+GitHub test workflow
+[30669019885](https://github.com/therealjameswilson/before-oss/actions/runs/30669019885)
+repeated the complete research and site matrix for release `d0c954f` and
+completed successfully. GitHub emitted the same non-blocking annotation that
+version 4/5 setup actions still declare Node.js 20 and are currently forced to
+Node.js 24; no project test or build step failed.
+
 ## Batch 105 accessibility and responsive regression
 
 The Batch 105 regression checks the ten contiguous page-fourteen profiles from

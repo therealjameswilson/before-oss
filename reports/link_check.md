@@ -1146,6 +1146,37 @@ American Journalism Review targets are retained as item-level sources. No
 search-results page, genealogy candidate, or rejected namesake was promoted to
 a public employer claim.
 
+## Batch 106 production deployment
+
+GitHub Actions test workflow
+[30669019885](https://github.com/therealjameswilson/before-oss/actions/runs/30669019885)
+and GitHub Pages deployment
+[30669019860](https://github.com/therealjameswilson/before-oss/actions/runs/30669019860)
+for the page-fourteen Ashcraft-through-Ashworth release `d0c954f` completed
+successfully.
+
+Live checks returned HTTP 200 for all 21 tested publication routes: seven core
+publication URLs, all ten Batch 106 person profiles, and all four new
+organization profiles. After substituting the production and local plain and
+URL-encoded canonical hosts, every route matched the audited local HTML bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 881
+people with non-planned research attempts, 227 verified-affiliation people,
+130 verified-employer people, 829 archival-review assessments, 807 published
+claims, and 774 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 266, 462, and 774 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across 86 deployed HTML, data, compressed-mirror, and download
+artifacts. All seven unique Batch 106 external source targets returned HTTP 200
+or partial-content 206 responses.
+
 ## Batch 105 local release check
 
 The rebuilt site contains direct, internally resolved routes for Charles H.
