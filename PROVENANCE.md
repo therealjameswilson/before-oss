@@ -1039,6 +1039,43 @@ stored in the evidence text, exposed in a citation, or emitted in public
 assets. No authenticated NARA Catalog request or live API response was used or
 retained.
 
+## Page-ten Andreopoulos-through-Andrews archival pathways, Batch 087
+
+`research/evidence-page-ten-andreopoulos-through-andrews-archival-pathways_batch-087_2026-07-31.json`
+records the minimum online protocol for ten contiguous rows from Antony
+Andreopoulos through Lewis W. Andrews Jr. on PDF page ten. The bundle contains
+ten person updates, ten terminal research attempts, and ten official index
+citations. It creates no organization, affiliation, claim, or claim-source
+link because none of the reviewed candidates meets the identity and temporal
+publication rules.
+
+All ten index citations were visually checked against page ten. The research
+protocol covered official/NARA context, CIA discovery, exact-name and
+meaningful punctuation, suffix, diacritic, rank, and spelling variants,
+employment and occupation searches, Library of Congress newspaper paths,
+obituary or directory checks where applicable, institutional sources, and
+archival leads. Common-name and no-rank cases were held to the enhanced
+disambiguation rule. No authenticated NARA Catalog request was made and no
+live API content was retained.
+
+The source categories were not flattened. Andre Andreu remains foreign or
+Allied military personnel because the printed row says French; `S/Lt` remains
+preserved exactly and unexpanded pending Box 17 or French service-record
+review. Ethel N. Andrew remains a CAF-3 civilian. Edward W. Andrews remains a
+commissioned naval officer; Ernest F. and George H. Andrews remain
+commissioned Army officers; Graydon L. and Lewis W. Andrews Jr. remain
+enlisted Army personnel; and Antony Andreopoulos, Evelyn Andrews, and Horace
+Andrews remain indeterminate because their rows print no rank or grade.
+
+Search results included a Canadian printer and publisher, an insurance agent,
+a carpet-industry employee, obituary and cemetery entries, genealogical
+records, and modern people-finder results. None supplied the indexed private
+identifier where one exists, an OSS or Box 17 link, compatible chronology, and
+the additional corroborating identifiers required for these names. Modern
+living-person details were excluded. No rejected employer, occupation,
+organization, or assignment is promoted to a public claim, and full service
+identifiers remain private.
+
 ## Official reference material
 
 - NARA OSS personnel records:

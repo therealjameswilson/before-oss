@@ -7625,3 +7625,95 @@ test("Batch 086 preserves unresolved cases, carries Andrade forward, and publish
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 087 preserves ten unresolved Andrews-area records and the French rank abbreviation", async ({
+  page,
+}) => {
+  const profiles = [
+    ["041497c0-ebff-56a2-bbd2-fd76dadb3883", "Antony Andreopoulos"],
+    ["887b87a9-6696-5bdd-a03e-2f4bc4dbe419", "Andre Andreu"],
+    ["40d28dc3-09cf-54ff-ad8d-70db69fc853f", "Ethel N Andrew"],
+    ["5e91eb71-2d51-50ae-9262-4d26ff6ace3f", "Edward W Andrews"],
+    ["5597ea6a-21d0-573c-9049-8819c980170c", "Ernest F Andrews"],
+    ["2e1561e3-b2ee-5b35-afac-e9c0f3f5cf5c", "Evelyn Andrews"],
+    ["9e7a6428-3fc5-592a-bb4b-c4aa1c261efb", "George H Andrews"],
+    ["f5d04df5-edb0-5f28-b942-b50df9bb8990", "Graydon L Andrews"],
+    ["f3d6b186-44a8-5ce9-bcba-84c11539c7c8", "Horace Andrews"],
+    ["8ef462f5-0ba0-5f60-91b1-7a3a1c64e031", "Lewis W Andrews Jr."],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator("body")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(
+      page.locator(".profile-aside").getByText("17", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/887b87a9-6696-5bdd-a03e-2f4bc4dbe419/");
+  await expect(
+    page.locator(".index-record").first().locator("dd").nth(1),
+  ).toHaveText("S/Lt");
+  await expect(page.locator("body")).toContainText(
+    "foreign or allied military personnel",
+  );
+  await expect(page.locator("body")).toContainText("French");
+  await expect(page.locator("body")).toContainText(
+    "the meaning of S/Lt in this record",
+  );
+
+  await page.goto("./people/40d28dc3-09cf-54ff-ad8d-70db69fc853f/");
+  await expect(page.locator("body")).toContainText(
+    "civilian professional or administrative grade",
+  );
+
+  await page.goto("./people/5e91eb71-2d51-50ae-9262-4d26ff6ace3f/");
+  await expect(page.locator("body")).toContainText(
+    "commissioned naval officer",
+  );
+
+  for (const personId of [
+    "5597ea6a-21d0-573c-9049-8819c980170c",
+    "9e7a6428-3fc5-592a-bb4b-c4aa1c261efb",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "commissioned army officer",
+    );
+  }
+
+  for (const personId of [
+    "f5d04df5-edb0-5f28-b942-b50df9bb8990",
+    "8ef462f5-0ba0-5f60-91b1-7a3a1c64e031",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "enlisted army personnel",
+    );
+  }
+
+  for (const personId of [
+    "041497c0-ebff-56a2-bbd2-fd76dadb3883",
+    "2e1561e3-b2ee-5b35-afac-e9c0f3f5cf5c",
+    "f3d6b186-44a8-5ce9-bcba-84c11539c7c8",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("body")).toContainText(
+      "unknown or indeterminate",
+    );
+  }
+});
