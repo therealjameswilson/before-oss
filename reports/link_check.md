@@ -731,3 +731,32 @@ The complete local link checker passed all 24,193 HTML files and inventoried
 recorded sizes and SHA-256 values, the manifest redaction check passed, and the
 manifest SHA-256 is
 `1e27b30df54323584b0453be25843eb39ec6dfbb7ddb8fc985670302f5d9a345`.
+
+## Batch 079 production deployment
+
+GitHub Actions test workflow
+[30603934696](https://github.com/therealjameswilson/before-oss/actions/runs/30603934696)
+and GitHub Pages deployment
+[30603934758](https://github.com/therealjameswilson/before-oss/actions/runs/30603934758)
+for the page-eight/page-nine Ancrum-through-Anderson release `f6444ef`
+completed successfully.
+
+Live checks returned HTTP 200 and the expected content for all 18 tested
+publication routes: the homepage, personnel directory, analysis, methodology,
+sources, downloads, all ten Batch 079 person profiles, and the Duke University
+and Willamette University organization profiles. The live statistics report
+23,978 source rows, 23,941 person entities, 616 people with non-planned
+research attempts, 200 verified-affiliation people, 120 verified-employer
+people, 563 archival-review assessments, 697 published claims, and 629 public
+source records. The live personnel, organizations, affiliations, and sources
+downloads contain 23,941, 244, 407, and 629 data rows respectively, and the
+JSONL personnel download contains 23,941 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`1e27b30df54323584b0453be25843eb39ec6dfbb7ddb8fc985670302f5d9a345`.
+The deployed manifest's forbidden-field check passed. A field-aware comparison
+of all digit-bearing normalized private identifiers against 83 live HTML,
+data, compressed-mirror, and download artifacts returned zero unexpected
+full-number matches.
