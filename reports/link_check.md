@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,211 HTML files. Every relative
+**PASS.** The production build contains 24,213 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 262 organization profiles, and the
+The build includes 23,941 person profiles, 264 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,579 unique external URLs for separate live
+The checker inventoried 48,589 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1116,6 +1116,40 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 104 local release check
+
+The rebuilt site contains direct, internally resolved routes for Mable O.
+Arrington, Anita Arrow, Buford B. Arrowood, Arthur J. Arruda, Leonard J.
+Arsenault, Paul E. Arther, Paul Artisst, Carmelo Aruta, Willard C. Asbury, and
+Eugene Aserinsky. Five profiles visibly retain unresolved identity status,
+Anita Arrow remains visibly ambiguous, and all evidence-limited employer fields
+retain explicit no-reliable-result wording and Box 23 guidance. Arrowood's
+military predecessor remains distinct from his unnamed civilian work, Asbury's
+earlier Standard Oil employment is not promoted to immediate, and Aserinsky's
+student affiliations remain distinct from his qualified Army pathway.
+
+The complete local link checker passed all 24,213 HTML files and inventoried
+48,589 unique external URLs. The public downloads contain 23,941 person rows,
+264 organization rows, 457 affiliation rows, and 766 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`5e6f12a57ead715ca27f7a2b4327f33a8f2bc253a824a2c0d73ceb93ff411910`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers against 24,252 non-gzip production artifacts returned zero
+full matches. Consecutive static builds and the complete idempotent replay
+produced the identical site-tree SHA-256
+`e8fec5f1814519805d9360774e4be0314f9226346e4a0f1fdd07d1cff9752ebc`.
+
+Seven of the eleven unique Batch 104 external targets returned HTTP 200 in the
+bounded command-line check, including the NARA index and Record Group 497
+guide, Science History Institute oral history, patent record, Hunter College
+commencement, Wharton memorial, and Colorado Dental Association PDF. Hoover,
+BookBrowse, City of Centennial, and Smithsonian returned HTTP 403 to the
+command-line client; each had been inspected in the research browser and is
+retained as a stable citation with the access restriction documented rather
+than replaced by a search result.
 
 ## Batch 103 local release check
 

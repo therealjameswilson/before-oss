@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 354 / 354 browser cases.**
+**PASS - 357 / 357 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-127-person employer measure is labeled separately from the 223-person broader
+129-person employer measure is labeled separately from the 226-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,27 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 104 accessibility and responsive regression
+
+The Batch 104 regression checks the ten contiguous page-fourteen profiles from
+Mable O. Arrington through Eugene Aserinsky. It verifies every direct profile,
+Box 23 provenance, field-level serial masking, five visibly unresolved
+identities, Anita Arrow's visibly ambiguous status, Paul E. Arther's
+high-confidence identity-only result, and the supported Arrowood, Asbury, and
+Aserinsky pathways.
+
+Arrowood's profile is tested for its confirmed USAFIME headquarters military
+predecessor, separately labeled rayon-mill work, and direct OSS-board citation.
+Asbury's profile is tested for Standard Oil as documented prewar employment
+while the immediate-predecessor field remains empty. Aserinsky's profile is
+tested for a qualified Army pathway and Brooklyn College and University of
+Maryland student affiliations rather than employers. Direct organization
+routes link USAFIME back to Arrowood and Standard Oil back to Asbury.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, and accessibility matrix passed 357 / 357 with no assertion or
+serious/critical axe failure.
 
 ## Batch 103 accessibility and responsive regression
 

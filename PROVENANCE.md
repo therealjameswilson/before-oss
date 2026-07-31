@@ -1684,6 +1684,51 @@ extractions, and page renders were used only for inspection and removed after
 review. No full service identifier appears in the evidence bundle or public
 projection.
 
+## Page-fourteen Arrington-through-Aserinsky pathways, Batch 104
+
+`research/evidence-page-fourteen-arrington-through-aserinsky-pathways_batch-104_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-fourteen rows from Mable O.
+Arrington through Eugene Aserinsky. The literal `Caf-4`, `CPC-2`, `SP-7`,
+Sergeant, Technician Sergeant, Private, and blank rank cells, together with Box
+23 and the printed archive locations, were checked against the rendered source
+page. The bundle contains ten person updates, twenty sources, five
+organizations, six affiliations, eleven claims, twenty-six claim-source links,
+and ten durable research attempts.
+
+The official 1944 OSS board proceeding in the Millard Preston Goodfellow papers
+confirms Buford B. Arrowood through his exact uncommon name, matching private
+identifier, Sergeant context, and person-specific chronology. It states that
+OSS obtained him from Headquarters, USAFIME, and that he came to OSS in February
+1944. NARA's Record Group 497 guide supplies the historical expansion, U.S.
+Army Forces in the Middle East. The interview separately records rayon-mill
+work before Army entry in February 1941. The unnamed mill is not normalized to
+an organization or presented as a proved last civilian employer.
+
+The Science History Institute's oral history with Willard C. Asbury documents
+Standard Oil Development Company employment in 1940-41 and research-management
+work from 1941 through 1947, together with wartime Washington and Strategic
+Bombing Survey duties. A 1940 patent independently corroborates his exact name,
+London location, technical work, and Standard Oil assignee. The employment is
+published as documented prewar work, not as immediate, because the available
+sources do not establish Asbury's OSS entry date or exclude concurrent company
+employment.
+
+Two consistent biographies support Eugene Aserinsky at high identity
+confidence. They sequence Brooklyn College, transfer to the University of
+Maryland, wartime Army entry, and high-explosives work in England. Army service
+is therefore published only as a medium-confidence probable-immediate military
+pathway; the colleges remain student affiliations and are excluded from
+employer analytics. Paul E. Arther's exact-name dental and municipal service
+records support a high-confidence identity but no predecessor claim. The
+plausible Anita Arrow Summers candidate remains a withheld low-confidence lead,
+and the other evidence-limited names remain unresolved pending Box 23 review.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. Temporary source PDFs, text
+extractions, and page renders were used only for inspection and removed after
+review. No full service identifier appears in the evidence bundle or public
+projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

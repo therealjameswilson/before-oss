@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 851 people with a non-planned attempt | 23,941 person entities | 3.5546% |
-| Verified-affiliation coverage | 223 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9315% |
-| Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 799 people with an individual file-access/priority assessment | 23,941 person entities | 3.3374% |
+| Research-attempt coverage | 861 people with a non-planned attempt | 23,941 person entities | 3.5963% |
+| Verified-affiliation coverage | 226 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9440% |
+| Verified-employer coverage | 129 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5388% |
+| Archival-review coverage | 809 people with an individual file-access/priority assessment | 23,941 person entities | 3.3791% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 40
-- Identity status `high_confidence`: 274
+- Identity status `confirmed`: 41
+- Identity status `high_confidence`: 277
 - Identity status `probable`: 29
-- Identity status `ambiguous`: 24
+- Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,573
+- Identity status `unresolved`: 23,568
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,090
+- `not_started`: 23,080
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 26
+- `documented_prewar_employer_found`: 27
 - `occupation_only_found`: 28
-- `requires_archival_review`: 550
-- `completed`: 49
+- `requires_archival_review`: 557
+- `completed`: 51
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -65,17 +65,17 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 135
+- Reviewed-web-and-official-source attempts recorded: 145
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 330 across 312 people; 27 additional
+- Saved `source_reviewed` outcomes: 334 across 316 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,880
+- Total recorded attempts/plans: 1,890
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 317; 301 have at least one public-eligible
+- People with saved reviewed claims: 322; 305 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -847,11 +847,28 @@ Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
   sibling-veteran candidates remain rejected pending direct identifiers, and
   relatives are not used as the principal identity basis. All ten profiles
   route to Box 23 for any unresolved employment or chronology question.
-- Published affiliations: 451
-- Database claims: 809; public-eligible claims: 790 (112 confirmed, 582 high, 96
-  medium); 19 low-confidence claims are withheld
-- Citation records: 1,276; public source export: 754; unique source documents: 667
-- Canonical organizations: 264 private and 262 public
+  Batch 104 continues page fourteen with Mable O. Arrington through Eugene
+  Aserinsky. A direct 1944 OSS board interview confirms Sergeant Buford B.
+  Arrowood and explicitly identifies Headquarters, U.S. Army Forces in the
+  Middle East as the assignment from which OSS obtained him. The same interview
+  records pre-Army rayon-mill work without naming the mill or proving it was his
+  final civilian employer. Willard C. Asbury is high-confidence from a Science
+  History Institute oral history and a 1940 patent; Standard Oil Development
+  Company is published as documented prewar employment, not an immediate
+  predecessor. Eugene Aserinsky is high-confidence from two consistent
+  biographies; his Army service is a medium-confidence probable-immediate
+  military pathway, while Brooklyn College and the University of Maryland are
+  separate student affiliations rather than employers. Paul E. Arther is
+  high-confidence from matching dental and municipal military records, but no
+  predecessor is promoted. Mable O. Arrington, Anita Arrow, Arthur J. Arruda,
+  Leonard J. Arsenault, Paul Artisst, and Carmelo Aruta remain unresolved; the
+  plausible Anita Arrow Summers candidate is withheld pending an OSS or federal
+  employment bridge. All unresolved questions route to Box 23.
+- Published affiliations: 457
+- Database claims: 820; public-eligible claims: 800 (114 confirmed, 589 high, 97
+  medium); 20 low-confidence claims are withheld
+- Citation records: 1,296; public source export: 766; unique source documents: 677
+- Canonical organizations: 266 private and 264 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844
 

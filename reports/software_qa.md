@@ -5,12 +5,12 @@ Run: 2026-07-31 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,211 pages**
-- Internal link check: **24,211 HTML files passed**
-- Browser and accessibility suite: **354 / 354 passed**
+- Static production build: **24,213 pages**
+- Internal link check: **24,213 HTML files passed**
+- Browser and accessibility suite: **357 / 357 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`ea90e41d995d668acab894108a25f718f10132143072e33e95d92e90b3887167`)
+  (`e8fec5f1814519805d9360774e4be0314f9226346e4a0f1fdd07d1cff9752ebc`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,23 +19,23 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `3129ac6d4fbedc24389605f7d21f5799f61805ff0fb58eef87884ddbb1ebf59c`
+  `5e6f12a57ead715ca27f7a2b4327f33a8f2bc253a824a2c0d73ceb93ff411910`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,931** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** nontrivial comparison
-  tokens: **0 unexpected full-number matches** in **24,250** non-gzip
+  tokens: **0 unexpected full-number matches** in **24,252** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **754** public records representing **667** unique documents
-- Private citation records: **1,276**
-- Published, qualified affiliations: **451**
-- Published claims: **790**
-- Withheld low-confidence evidence: **19 claims concerning 16 people**
-- Verified-affiliation metric: **223** people with confirmed/high published
+- Reviewed public sources: **766** public records representing **677** unique documents
+- Private citation records: **1,296**
+- Published, qualified affiliations: **457**
+- Published claims: **800**
+- Withheld low-confidence evidence: **20 claims concerning 17 people**
+- Verified-affiliation metric: **226** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **127** people with confirmed/high published
+- Verified-employer metric: **129** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -1520,6 +1520,60 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 104 local release QA
+
+Batch 104 adds ten visually checked page-fourteen people from Mable O.
+Arrington through Eugene Aserinsky. The reviewed bundle imports ten durable
+research attempts, twenty sources, five organizations, six affiliations,
+eleven claims, and twenty-six claim-source links. It preserves three civilian
+grades, three Army enlisted grades, four blank-rank cells, Box 23, and the
+printed archive locations without exposing full private identifiers.
+
+Buford B. Arrowood is confirmed by a direct 1944 OSS board interview; his
+USAFIME headquarters predecessor remains a military assignment, while his
+unnamed rayon-mill work is separately modeled as documented prewar occupation
+and not a proved last civilian employer. Willard C. Asbury's Standard Oil
+Development Company role is high-confidence documented prewar employment but
+not immediate. Eugene Aserinsky's Army pathway remains medium-confidence and
+qualified, while Brooklyn College and the University of Maryland remain
+student affiliations. Paul E. Arther receives a high-confidence identity claim
+without an unsupported predecessor. Anita Arrow remains ambiguous, five other
+identities remain unresolved, and all open chronology questions route to Box
+23 review.
+
+The evidence import replayed idempotently and passed Pydantic validation.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The full Python suite passed 54 / 54 plus two subtests. The static build
+completed 24,213 pages with zero Astro errors, warnings, or hints. The focused
+Batch 104 regression passed 3 / 3 across desktop, phone, and tablet, and the
+complete browser, responsive, and accessibility matrix passed 357 / 357. The
+internal link checker passed all 24,213 HTML pages and inventoried 48,589
+unique external URLs. The production dependency audit reported zero
+vulnerabilities. The deterministic stratified audit passed all checks for 200
+profiles.
+
+Consecutive static builds and the complete idempotent replay produced the
+identical
+`e8fec5f1814519805d9360774e4be0314f9226346e4a0f1fdd07d1cff9752ebc`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`5e6f12a57ead715ca27f7a2b4327f33a8f2bc253a824a2c0d73ceb93ff411910`.
+A boundary-aware exact-token comparison of 12,919 nontrivial normalized private
+identifiers across 24,252 non-gzip production artifacts found zero full
+matches. No local credential file, nonblank API-key assignment, or tracked
+secret-like literal was present, and no authenticated NARA Catalog request was
+made.
+
+The Batch 104 database contains 1,890 durable research attempts, 1,296 private
+citation records, 461 affiliations, and 820 claims: 114 confirmed, 589 high,
+97 medium, and 20 low confidence. The reviewed public projection contains 766
+source records representing 677 unique documents, 457 affiliations, and 800
+claims. Coverage distinguishes 861 people with a non-planned research attempt,
+226 people with verified affiliation evidence, 129 people with verified
+employment or self-employment evidence, and 809 people whose archival-review
+need has been assessed.
 
 ## Batch 103 local release QA
 

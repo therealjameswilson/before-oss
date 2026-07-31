@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/127 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/129 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 223 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 226 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -9708,5 +9708,149 @@ test("Batch 103 identifies Aromando and qualifies Aronson's Navy photographic pa
   ).toBeVisible();
   await expect(
     page.locator("h3").getByRole("link", { name: "Bernard Aronson", exact: true }),
+  ).toBeVisible();
+});
+
+test("Batch 104 distinguishes Arrowood, Asbury, and Aserinsky pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["13b9ab82-15f5-5dce-927f-23d27ba7acb9", "Mable O Arrington"],
+    ["23aac3de-4dd9-584f-9da3-f5c6cb770493", "Anita Arrow"],
+    ["14688d75-99d2-5fba-afa9-d6ae14f3cc78", "Buford B Arrowood"],
+    ["1066bbac-2fe9-5db0-b13c-6cfac3fd54e4", "Arthur J Arruda"],
+    ["fbb425d3-d6be-50a2-bbf0-364c0ead6ebc", "Leonard J Arsenault"],
+    ["0afca4c2-5577-5d15-a9db-3a3796742b64", "Paul E Arther"],
+    ["58f05d67-24fd-5f11-9a13-262ed8ceedb4", "Paul Artisst"],
+    ["419911d8-f090-5a3a-95e6-dc1e17794350", "Carmelo Aruta"],
+    ["309cd4b5-1372-58ee-8a8e-ee0752e52e79", "Willard C Asbury"],
+    ["abcb4fb7-5825-5ded-a51c-447530af0d38", "Eugene Aserinsky"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("23", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "13b9ab82-15f5-5dce-927f-23d27ba7acb9",
+    "1066bbac-2fe9-5db0-b13c-6cfac3fd54e4",
+    "fbb425d3-d6be-50a2-bbf0-364c0ead6ebc",
+    "58f05d67-24fd-5f11-9a13-262ed8ceedb4",
+    "419911d8-f090-5a3a-95e6-dc1e17794350",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/23aac3de-4dd9-584f-9da3-f5c6cb770493/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Anita Arrow Summers");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+
+  await page.goto("./people/0afca4c2-5577-5d15-a9db-3a3796742b64/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Army from 1943 to 1945");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+
+  await page.goto("./people/14688d75-99d2-5fba-afa9-d6ae14f3cc78/");
+  await expect(
+    page.getByText("confirmed", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("U.S. Army Forces in the Middle East");
+  await expect(page.locator("main")).toContainText("Rayon mill work");
+  await expect(
+    page.getByRole("link", {
+      name: "Proceedings of the board appointed by director of OSS by secret letter dated Washington 7 March 1944",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /digitalcollections\.hoover\.org/);
+
+  await page.goto("./people/309cd4b5-1372-58ee-8a8e-ee0752e52e79/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "Standard Oil Development Company",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+
+  await page.goto("./people/abcb4fb7-5825-5ded-a51c-447530af0d38/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Army");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(page.locator("main")).toContainText("Brooklyn College");
+  await expect(page.locator("main")).toContainText("University of Maryland");
+
+  await page.goto("./organizations/2f509b33-cf0b-51a8-a09c-549c9f23cc69/");
+  await expect(
+    page.getByRole("heading", {
+      name: "U.S. Army Forces in the Middle East",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.locator("h3").getByRole("link", { name: "Buford B Arrowood", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./organizations/14816dbb-d382-525d-b265-8278f97cd819/");
+  await expect(
+    page.getByRole("heading", {
+      name: "Standard Oil Development Company",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.locator("h3").getByRole("link", { name: "Willard C Asbury", exact: true }),
   ).toBeVisible();
 });
