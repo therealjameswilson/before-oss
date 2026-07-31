@@ -1146,6 +1146,37 @@ which was already included in the bounded external-source inventory and
 returned HTTP 200. The two rejected namesakes remain research notes rather than
 public employer claims or new public source records.
 
+## Batch 105 production deployment
+
+GitHub Actions test workflow
+[30665825615](https://github.com/therealjameswilson/before-oss/actions/runs/30665825615)
+and GitHub Pages deployment
+[30665825642](https://github.com/therealjameswilson/before-oss/actions/runs/30665825642)
+for the page-fourteen Ash-through-Ashcraft release `ed882d4` completed
+successfully.
+
+Live checks returned HTTP 200 for all 20 tested publication routes: seven core
+publication URLs, all ten Batch 105 person profiles, and three shareable
+directory URLs covering exact-name search, the commissioned-personnel filter,
+and archival-review status. After substituting the production and local plain
+and URL-encoded canonical hosts, every route matched the audited local HTML
+bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 871
+people with non-planned research attempts, 226 verified-affiliation people,
+129 verified-employer people, 819 archival-review assessments, 800 published
+claims, and 766 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 264, 457, and 766 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`fedbd87508da66aacae625d84e2efc033ec60bd40c51adfca777f6fca68a7d46`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full matches among all 12,919 nontrivial normalized private
+identifiers across 85 deployed artifacts.
+
 ## Batch 104 local release check
 
 The rebuilt site contains direct, internally resolved routes for Mable O.
