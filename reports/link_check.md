@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-07-30 UTC
+Run: 2026-07-31 UTC
 
 ## Internal static routes
 
@@ -852,3 +852,20 @@ of all 12,931 digit-bearing normalized private identifiers, represented by
 12,919 formatting-equivalent comparison tokens, against 81 live HTML, data,
 compressed-mirror, and download artifacts returned zero unexpected
 full-number matches.
+
+## Batch 082 local release check
+
+The rebuilt site contains direct, internally resolved routes for Howell W.
+Anderson, Jack W. Anderson, James F. Anderson, James R. Anderson, James T.
+Anderson, James W. Anderson, Jean R. Anderson, Jean C. Anderson, John W.
+Anderson, and John H. Anderson. All ten profiles visibly retain unresolved
+identity status, Box 15 archival-review guidance, the standard evidence-limited
+employer statement, and masked or explicitly unprinted serial fields. Rejected
+common-name candidates do not appear as attributed employers, organizations,
+or affiliations.
+
+The complete local link checker passed all 24,193 HTML files and inventoried
+48,493 unique external URLs. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values, the manifest redaction check passed, and the
+manifest SHA-256 is
+`283c9409705fb35253856ec5d15e06a715b2d137a83bf2ba474ef737a0f82186`.

@@ -1,10 +1,10 @@
 # Accessibility and responsive QA
 
-Run: 2026-07-30 UTC
+Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 288 / 288 browser cases.**
+**PASS - 291 / 291 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -748,3 +748,14 @@ confirms that the underidentified 1945 State Department, specialist-unit, and
 other namesake leads remain absent from public facts and citations. The
 complete desktop, phone, and tablet matrix passed 288 / 288 with no remaining
 assertion or serious/critical axe failure.
+
+The Batch 082 regression checks the next contiguous sequence from Howell W.
+Anderson through John H. Anderson on PDF page nine. It verifies ten distinct,
+dignified Box 15 archival-review profiles; masked or explicitly unprinted
+serial fields; civilian professional-grade, enlisted Army, commissioned Army,
+and indeterminate personnel classifications; and the evidence-limited
+employer statement. It also confirms that the rejected public-utility,
+armored-division, photographic-reconnaissance, and other common-name leads do
+not appear as attributed public facts. The complete desktop, phone, and tablet
+matrix passed 291 / 291 with no remaining assertion or serious/critical axe
+failure.

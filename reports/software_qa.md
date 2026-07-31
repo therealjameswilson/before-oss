@@ -1,25 +1,25 @@
 # Software QA
 
-Run: 2026-07-30 UTC
+Run: 2026-07-31 UTC
 
 - Python unit tests: **51 / 51 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,193 pages**
 - Internal link check: **24,193 HTML files passed**
-- Browser and accessibility suite: **288 / 288 passed**
+- Browser and accessibility suite: **291 / 291 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`9b8e7c56e93bae326ad881d4cf3ec83e7b35f276c89f0465146dc1046062d2d7`)
+  (`5e11218aed384cbcbeefb0b2e1666a48ff4f277fa83b247dfc5c846484f06751`)
 - Clean-checkout replay: **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 82 evidence files: **260 / 266
+  checkpoints, review decisions, and all 83 evidence files: **261 / 267
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `fe5b4f9cb6fae87bb484f53f90e737488568609e5a78005c83bac690b99b4f33`
+  `283c9409705fb35253856ec5d15e06a715b2d137a83bf2ba474ef737a0f82186`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -30,7 +30,7 @@ Run: 2026-07-30 UTC
   HTML
 - Runtime authenticated API calls: **0**
 - Reviewed public sources: **629** public records representing **586** unique documents
-- Private citation records: **973**
+- Private citation records: **983**
 - Published, qualified affiliations: **407**
 - Published claims: **697**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
@@ -47,7 +47,7 @@ Run: 2026-07-30 UTC
   for Batch 081 release `8088bae`: **passed**
 - Production route smoke tests: **16 / 16 returned HTTP 200 and the expected
   content marker, data value, row count, or redaction state**
-- Production redaction scan: **0 full private-identifier matches across 83 live
+- Production redaction scan: **0 full private-identifier matches across 81 live
   HTML, data, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
@@ -890,3 +890,35 @@ content checks, all 65 deployed manifest assets matched the local release, all
 eight checked statistics and the five public download row counts matched, and
 the field-aware scan found zero unexpected full private-identifier matches
 across 81 deployed artifacts.
+
+Batch 082 completes the minimum online protocol for Howell W. Anderson through
+John H. Anderson on PDF page nine. All ten identities remain unresolved and
+route to Box 15 review. Military, veteran, casualty, obituary, institutional,
+and occupational candidates remain rejected because they lack a matching
+private identifier, OSS link, compatible rank chronology, or second
+corroborating identifier. No namesake employer, occupation, organization,
+affiliation, or claim from this batch was promoted to a public fact.
+
+Fifty-one Python tests, all 291 browser and accessibility cases, the
+200-profile stratified audit, and the 24,193-page link check passed. The link
+checker inventoried 48,493 unique external URLs, and `npm audit` reported zero
+vulnerabilities. Two production builds produced the identical
+`5e11218aed384cbcbeefb0b2e1666a48ff4f277fa83b247dfc5c846484f06751`
+content-tree hash. The public manifest contains 65 size- and SHA-256-verified
+assets, its forbidden-field redaction check passed, and its SHA-256 is
+`283c9409705fb35253856ec5d15e06a715b2d137a83bf2ba474ef737a0f82186`.
+A field-aware local scan assessed 12,931 distinct digit-bearing normalized
+private identifiers, reduced them to 12,919 formatting-equivalent comparison
+tokens, and found zero unexpected full-number matches across 24,337 public
+text, compressed-mirror, generated-data, and production HTML assets.
+
+A clean-archive Batch 082 replay then reprocessed all 522 PDF pages, restored
+all 23 parser corrections and 83 reviewed pages, rebuilt 23,941 cautious
+person entities, restored 1,670 research attempts, replayed all 81 numbered
+evidence batches plus the two pre-numbered reviewed evidence files,
+regenerated the public datasets, and completed the 24,193-page static-site
+build. Across all 267 tracked files, 261 matched byte-for-byte; the remaining
+six report files differed only in their expected `generated_at` timestamps.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero
+errors, and no substantive field, coverage count, public record, or generated
+site asset differed.
