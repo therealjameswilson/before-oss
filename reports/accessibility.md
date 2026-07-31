@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 315 / 315 browser cases.**
+**PASS - 318 / 318 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-122-person employer measure is labeled separately from the 205-person broader
+123-person employer measure is labeled separately from the 206-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -861,3 +861,21 @@ positive caused by matching an eight-digit UUID substring; the assertion was
 narrowed to the actual serial field. The targeted desktop, phone, and tablet
 run then passed 6 / 6, and the full matrix passed 315 / 315 with no assertion or
 serious/critical axe failure.
+
+The Batch 091 regression checks the next contiguous sequence from Richard J.
+Ankeny through Kelly Anthony on PDF page eleven. It verifies all ten direct
+profiles, Box 18 or 19 guidance, field-level serial masking, Robert M.
+Anstett's confirmed identity without an invented predecessor affiliation,
+Charles S. Annell's probable identity without an invented employer, and the
+seven unresolved identities. It also verifies Bertel W. Antell's commissioned
+naval classification, qualified probable Naval Training School pathway,
+distinct Chemical Construction Company last-civilian-employer section, and
+the visible warning that the civilian employment end date is not stated. The
+organization route links Antell without publishing the unsupported
+`Chemical Construction Corporation` alias.
+
+The first Batch 091 run exposed a missing visible chronology caveat in the
+evidence paraphrase. After that caveat was added, the focused desktop test
+passed. A final source review then removed assignment endpoints inferred from
+two observation dates. The complete final desktop, phone, and tablet matrix
+passed 318 / 318 with no assertion or serious/critical axe failure.
