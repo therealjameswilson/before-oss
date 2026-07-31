@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 841 people with a non-planned attempt | 23,941 person entities | 3.5128% |
+| Research-attempt coverage | 851 people with a non-planned attempt | 23,941 person entities | 3.5546% |
 | Verified-affiliation coverage | 223 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9315% |
 | Verified-employer coverage | 127 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5305% |
-| Archival-review coverage | 789 people with an individual file-access/priority assessment | 23,941 person entities | 3.2956% |
+| Archival-review coverage | 799 people with an individual file-access/priority assessment | 23,941 person entities | 3.3374% |
 
 ## Extraction and identity
 
@@ -22,15 +22,15 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 40
-- Identity status `high_confidence`: 272
+- Identity status `high_confidence`: 274
 - Identity status `probable`: 29
 - Identity status `ambiguous`: 24
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,575
+- Identity status `unresolved`: 23,573
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,555
+- Unknown or indeterminate: 16,554
 - Enlisted Army personnel: 3,477
 - Commissioned Army officers: 2,068
 - Commissioned Coast Guard officers: 1
@@ -38,22 +38,22 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,459
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 51
+- Enlisted naval personnel: 52
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
+Commissioned classification: 2,156 yes; 4,999 no; 16,786 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,100
+- `not_started`: 23,090
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 26
 - `occupation_only_found`: 28
-- `requires_archival_review`: 541
-- `completed`: 48
+- `requires_archival_review`: 550
+- `completed`: 49
 - `verified_employer_found`: 134
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -65,17 +65,17 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 125
+- Reviewed-web-and-official-source attempts recorded: 135
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 328 across 310 people; 27 additional
+- Saved `source_reviewed` outcomes: 330 across 312 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,870
+- Total recorded attempts/plans: 1,880
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 315; 299 have at least one public-eligible
+- People with saved reviewed claims: 317; 301 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -829,10 +829,28 @@ Commissioned classification: 2,156 yes; 4,998 no; 16,787 indeterminate.
   Wilfred Arnold Jr. and a same-name Army Air Forces lieutenant were preserved
   as rejected candidates rather than merged. The unresolved profiles route to
   Box 22 or 23 with targeted archival questions.
-- Published affiliations: 450
-- Database claims: 806; public-eligible claims: 787 (112 confirmed, 580 high, 95
+  Batch 103 continues page fourteen with Anetta S. Arnston through Mabel I.
+  Arrington. Carmine Aromando is high-confidence from the uncommon exact name,
+  matching Sergeant rank, and a University of Genoa thesis roster for OSS
+  Operation Ginny I, derived from the named Albert Materazzi collection at
+  ISRAL. That roster documents Aromando during OSS service, so it supports no
+  pre-OSS employer or predecessor claim. Bernard Aronson is high-confidence
+  from the exact name, the literal `SP P 2/c` index rating, a *Journal News*
+  obituary linking his Navy photographic specialty to an OSS assignment, and
+  official Navy rating references identifying Sp(P) as Specialist
+  (Photographic). His Navy service is published only as a medium-confidence
+  probable-immediate military pathway because no reviewed source gives the
+  formal assignment date or rules out an intervening assignment; no civilian
+  employer is inferred. Anetta S. Arnston, Emanuel L. Aronhime, Ernest G.
+  Arons, Naomi T. Arp, Manuel R. Arpanjian, Burton Arrington, John E.
+  Arrington, and Mabel I. Arrington remain unresolved. Plausible Maryland and
+  sibling-veteran candidates remain rejected pending direct identifiers, and
+  relatives are not used as the principal identity basis. All ten profiles
+  route to Box 23 for any unresolved employment or chronology question.
+- Published affiliations: 451
+- Database claims: 809; public-eligible claims: 790 (112 confirmed, 582 high, 96
   medium); 19 low-confidence claims are withheld
-- Citation records: 1,262; public source export: 748; unique source documents: 663
+- Citation records: 1,276; public source export: 754; unique source documents: 667
 - Canonical organizations: 264 private and 262 public
 - Conflicts: 1
 - NARA pull-list rows: 23,844
@@ -984,6 +1002,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-armstrong-through-arnberg-pathways_batch-100_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-arndt-through-arnold-pathways_batch-101_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirteen-fourteen-arnold-through-arnone-pathways_batch-102_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-arnston-through-arrington-pathways_batch-103_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

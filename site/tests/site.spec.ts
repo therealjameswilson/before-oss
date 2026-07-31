@@ -9597,3 +9597,116 @@ test("Batch 102 qualifies Arnoldy's Army film pathway and preserves common-name 
     page.locator("h3").getByRole("link", { name: "Francis N Arnoldy", exact: true }),
   ).toBeVisible();
 });
+
+test("Batch 103 identifies Aromando and qualifies Aronson's Navy photographic pathway", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e8a31fb3-f988-5c48-8369-dc464be5eeed", "Anetta S Arnston"],
+    ["9ab706fc-6359-5402-8913-f49a2110ae06", "Carmine Aromando"],
+    ["64182fed-b317-5648-b179-9942fb3852fd", "Emanuel L Aronhime"],
+    ["64bdd50d-0f34-5d6e-aa14-8cb33231b319", "Ernest G Arons"],
+    ["b590af61-6c94-573b-a214-d05cf4ded19a", "Bernard Aronson"],
+    ["00148465-dea9-5aff-bae1-95f8dcd77ad6", "Naomi T Arp"],
+    ["617d5450-4e60-5e52-a9e8-def807b02705", "Manuel R Arpanjian"],
+    ["1febdbb0-2f64-5d15-94c4-b848cf003090", "Burton Arrington"],
+    ["6ac6ffa5-23d5-5612-9d18-9d4c694fb48b", "John E Arrington"],
+    ["b6e6e221-3dab-58d5-b7c1-c46c6b009fd4", "Mabel I Arrington"],
+  ];
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("23", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "e8a31fb3-f988-5c48-8369-dc464be5eeed",
+    "64182fed-b317-5648-b179-9942fb3852fd",
+    "64bdd50d-0f34-5d6e-aa14-8cb33231b319",
+    "00148465-dea9-5aff-bae1-95f8dcd77ad6",
+    "617d5450-4e60-5e52-a9e8-def807b02705",
+    "1febdbb0-2f64-5d15-94c4-b848cf003090",
+    "6ac6ffa5-23d5-5612-9d18-9d4c694fb48b",
+    "b6e6e221-3dab-58d5-b7c1-c46c6b009fd4",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/9ab706fc-6359-5402-8913-f49a2110ae06/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("No reviewed claim currently meets the publication threshold");
+  await expect(page.locator("main")).toContainText("Operation Ginny I");
+  await expect(
+    page.getByRole("link", {
+      name: "Ex pluribus unum. Come l'Office of Strategic Service ha rivoluzionato il sistema d'intelligence statunitense",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /unire\.unige\.it/);
+
+  await page.goto("./people/b590af61-6c94-573b-a214-d05cf4ded19a/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("SP P 2/c");
+  await expect(page.locator("main")).toContainText("enlisted naval personnel");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("United States Navy");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Specialist (Photographic), second class");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("probable immediate");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("medium");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.getByRole("link", { name: "Bernard Aronson Obituary", exact: true }).first(),
+  ).toHaveAttribute("href", /legacy\.com/);
+  await expect(
+    page.getByRole("link", {
+      name: "Abbreviations Used for Navy Enlisted Ratings",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /history\.navy\.mil/);
+
+  await page.goto("./organizations/3960fa8e-a551-56cf-8305-b2b9e4961b9d/");
+  await expect(
+    page.getByRole("heading", { name: "United States Navy", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.locator("h3").getByRole("link", { name: "Bernard Aronson", exact: true }),
+  ).toBeVisible();
+});

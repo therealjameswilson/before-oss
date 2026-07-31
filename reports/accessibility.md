@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 351 / 351 browser cases.**
+**PASS - 354 / 354 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,26 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 103 accessibility and responsive regression
+
+The Batch 103 regression checks the ten contiguous page-fourteen profiles from
+Anetta S. Arnston through Mabel I. Arrington. It verifies every direct profile,
+Box 23 provenance, field-level serial masking, the eight visibly unresolved
+identities, Carmine Aromando's high-confidence identity, and Bernard Aronson's
+high-confidence identity and corrected enlisted-naval classification. It also
+checks the literal `SP P 2/c` rating without overwriting the source spelling.
+
+Aromando's profile is tested for the Ginny I roster and its claim-level
+University of Genoa citation while retaining an empty immediate-predecessor
+field and explicit unresolved-employer wording. Aronson's profile is tested
+for a visibly qualified United States Navy photographic pathway, obituary and
+official-rating citations, explicit absence of a supported civilian employer,
+and a direct Navy organization route that links back to him.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, and accessibility matrix passed 354 / 354 with no assertion or
+serious/critical axe failure.
 
 ## Batch 102 accessibility and responsive regression
 

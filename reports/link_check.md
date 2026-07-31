@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 262 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,575 unique external URLs for separate live
+The checker inventoried 48,579 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -24,6 +24,9 @@ verification; external responses do not affect the internal-route pass.
 | National Archives Catalog | HTTP 200 |
 | NARA Catalog API guidance | HTTP 200 |
 | Official personnel index PDF | HTTP 200 |
+| University of Genoa, Matteo Paglia OSS thesis | Title page and pages 139-140 downloaded, rendered, and visually inspected; later bounded range probe timed out |
+| *Journal News*, Bernard Aronson obituary | HTTP 206 partial-content response; wartime paragraph reviewed in the research browser |
+| Naval History and Heritage Command enlisted-rating references | Reviewed through current official-domain search results; direct command-line probes returned HTTP 404 |
 | Library of Congress APIs | HTTP 200 |
 | NPS, *Instructing for Dangerous Missions* | HTTP 200 |
 | University of Michigan Bentley Historical Library, Arthur Scott Aiton papers | Reviewed through the research browser; command-line request returned HTTP 403 |
@@ -1113,6 +1116,38 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 103 local release check
+
+The rebuilt site contains direct, internally resolved routes for Anetta S.
+Arnston, Carmine Aromando, Emanuel L. Aronhime, Ernest G. Arons, Bernard
+Aronson, Naomi T. Arp, Manuel R. Arpanjian, Burton Arrington, John E.
+Arrington, and Mabel I. Arrington. Eight profiles visibly retain unresolved
+identity status, evidence-limited employer wording, and Box 23 archival
+guidance. Aromando's identity-only Ginny I evidence does not populate an
+affiliation field. Aronson's qualified Navy photographic pathway remains
+distinct from the absent civilian-employer evidence, and the existing United
+States Navy organization route links back to him.
+
+The complete local link checker passed all 24,211 HTML files and inventoried
+48,579 unique external URLs. The public downloads contain 23,941 person rows,
+262 organization rows, 451 affiliation rows, and 754 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`3129ac6d4fbedc24389605f7d21f5799f61805ff0fb58eef87884ddbb1ebf59c`.
+A boundary-aware comparison of all 12,919 nontrivial normalized private
+identifiers against 24,250 non-gzip production artifacts returned zero full
+identifier matches. Consecutive static builds and the complete idempotent
+replay produced the identical site-tree SHA-256
+`ea90e41d995d668acab894108a25f718f10132143072e33e95d92e90b3887167`.
+
+The official personnel index returned HTTP 200. The University of Genoa PDF
+was downloaded and visually inspected before a later bounded probe timed out.
+The *Journal News* obituary returned HTTP 206. The two official Navy pages
+were reviewed through current official-domain search results; their direct
+command-line probes returned HTTP 404 and are recorded as a link-maintenance
+issue rather than silently replaced by a discovery-only source.
 
 ## Batch 102 local release check
 

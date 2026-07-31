@@ -7,10 +7,10 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,211 pages**
 - Internal link check: **24,211 HTML files passed**
-- Browser and accessibility suite: **351 / 351 passed**
+- Browser and accessibility suite: **354 / 354 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`fc3da38b85ee5ced1658b9c806eda6e351d887dd87a7011b6d1e1c6d7f4835d4`)
+  (`ea90e41d995d668acab894108a25f718f10132143072e33e95d92e90b3887167`)
 - Latest clean-checkout replay (Batch 087): **byte-for-byte identical** tracked public and
   generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 86 evidence files: **264 / 270
@@ -19,19 +19,19 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `8f38c265b51a291a3c5d8d156f29680299edafbbc153c44eda3f7dc76bdf2118`
+  `3129ac6d4fbedc24389605f7d21f5799f61805ff0fb58eef87884ddbb1ebf59c`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Field-aware boundary scan of **12,932** distinct digit-bearing normalized
-  private identifiers, reduced to **12,919** formatting-equivalent comparison
+- Field-aware boundary scan of **12,931** distinct digit-bearing normalized
+  private identifiers, reduced to **12,919** nontrivial comparison
   tokens: **0 unexpected full-number matches** in **24,250** non-gzip
   production artifacts
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **748** public records representing **663** unique documents
-- Private citation records: **1,262**
-- Published, qualified affiliations: **450**
-- Published claims: **787**
+- Reviewed public sources: **754** public records representing **667** unique documents
+- Private citation records: **1,276**
+- Published, qualified affiliations: **451**
+- Published claims: **790**
 - Withheld low-confidence evidence: **19 claims concerning 16 people**
 - Verified-affiliation metric: **223** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1520,6 +1520,61 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 103 local release QA
+
+Batch 103 adds ten visually checked page-fourteen people from Anetta S.
+Arnston through Mabel I. Arrington. The reviewed bundle imports ten durable
+research attempts, fourteen sources, one organization, one affiliation, three
+claims, and nine claim-source links. It preserves three civilian grades, two
+Army technician grades, three blank-rank cells, Box 23, and Bernard Aronson's
+literal `SP P 2/c` rating.
+
+Carmine Aromando is resolved at high confidence through exact uncommon name,
+matching Sergeant rank, and a scholarly Operation Ginny I roster derived from
+a named archival collection. Because that evidence documents Aromando during
+OSS service, no predecessor affiliation or civilian employer is invented.
+Bernard Aronson is resolved at high confidence through exact name, the printed
+photographic-specialist rating, a reputable obituary linking Navy photographic
+work to OSS assignment, and official Navy rating references. His United States
+Navy pathway is published at medium confidence because the assignment sequence
+lacks a formal transfer date; it remains outside confirmed/high default
+analytics and is not treated as civilian employment. The other eight profiles
+remain unresolved and route to Box 23. Plausible Maryland and sibling-veteran
+namesakes remain rejected leads.
+
+The evidence import replayed idempotently and passed Pydantic validation.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The full Python suite passed 54 / 54 plus two subtests. The static build
+completed 24,211 pages with zero Astro errors, warnings, or hints. The focused
+Batch 103 regression passed 3 / 3 across desktop, phone, and tablet, and the
+complete browser, responsive, and accessibility matrix passed 354 / 354. The
+internal link checker passed all 24,211 HTML pages and inventoried 48,579
+unique external URLs. The production dependency audit reported zero
+vulnerabilities. The deterministic stratified audit passed all checks for 200
+profiles.
+
+Consecutive static builds and the complete idempotent replay produced the
+identical
+`ea90e41d995d668acab894108a25f718f10132143072e33e95d92e90b3887167`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`3129ac6d4fbedc24389605f7d21f5799f61805ff0fb58eef87884ddbb1ebf59c`.
+A boundary-aware comparison of 12,919 nontrivial normalized private
+identifiers across 24,250 non-gzip production artifacts found zero full
+matches. No local credential file, nonblank API-key assignment, or tracked
+secret-like literal was present, and no authenticated NARA Catalog request was
+made.
+
+The Batch 103 database contains 1,880 durable research attempts, 1,276 private
+citation records, 455 affiliations, and 809 claims: 112 confirmed, 582 high,
+96 medium, and 19 low confidence. The reviewed public projection contains 754
+source records representing 667 unique documents, 451 affiliations, and 790
+claims. Coverage distinguishes 851 people with a non-planned research attempt,
+223 people with verified affiliation evidence, 127 people with verified
+employment or self-employment evidence, and 799 people whose archival-review
+need has been assessed.
 
 ## Batch 102 local release QA
 

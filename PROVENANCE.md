@@ -1642,6 +1642,48 @@ extractions, and page renders were used only for inspection and removed after
 review. No full service identifier appears in the evidence bundle or public
 projection.
 
+## Page-fourteen Arnston-through-Arrington pathways, Batch 103
+
+`research/evidence-page-fourteen-arnston-through-arrington-pathways_batch-103_2026-07-31.json`
+records ten visually checked, contiguous PDF-page-fourteen rows from Anetta S.
+Arnston through Mabel I. Arrington. The literal civilian grades, Army ranks,
+blank rank fields, Bernard Aronson's `SP P 2/c` rating, Box 23, and archive
+location were checked against the rendered source page. The bundle contains
+ten person updates, fourteen source records, one organization, one affiliation,
+three claims, nine claim-source links, and ten durable research attempts.
+
+Matteo Paglia's 2024/2025 University of Genoa master's thesis was inspected at
+its title page and printed/PDF pages 139-140. Its Operation Ginny I roster,
+attributed to Fondo Albert Materazzi, Busta 1, Fascicolo 8 at ISRAL, lists Sgt
+Carmine Aromando on the relief team for the 27-28 February 1944 mission. The
+uncommon exact name, matching Sergeant rank, and direct OSS mission context
+support a high-confidence identity. Because the roster describes service
+inside OSS, it does not support any pre-OSS affiliation or civilian employer.
+
+A 13 July 2007 *Journal News* obituary states that Bernard Aronson served in
+the Navy during World War II and was later assigned to OSS because of his
+photographic knowledge. Naval History and Heritage Command references identify
+Sp(P) as Specialist (Photographic) and date the wartime rating to 1942-1943.
+Those sources align with the literal index rating and support a high-confidence
+identity plus a medium-confidence probable-immediate Navy pathway. The project
+does not infer a formal transfer date or a last civilian employer, and the raw
+rating remains recoverable.
+
+The other eight profiles remain unresolved after official-context, CIA Reading
+Room, exact-name OSS, employment/occupation, obituary, directory, newspaper,
+institutional, archival, and Library of Congress checks. Maryland death-index
+candidates for Anetta S. Arnston and Emanuel L. Aronhime and sibling-veteran
+candidates for Burton and John E. Arrington are preserved only as rejected
+leads. A relative is not used as the principal identity basis. Irrelevant
+sensitive later-life material encountered for an Ernest G. Arons namesake was
+neither retained nor used.
+
+No authenticated NARA Catalog request was made, no API key was accessed, and
+no live NARA API response was retained. Temporary source PDFs, text
+extractions, and page renders were used only for inspection and removed after
+review. No full service identifier appears in the evidence bundle or public
+projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:
