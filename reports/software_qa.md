@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30676250095](https://github.com/therealjameswilson/before-oss/actions/runs/30676250095)
-  for Batch 109 release `9ed29e1`: **passed**
+  [30678260950](https://github.com/therealjameswilson/before-oss/actions/runs/30678260950)
+  for Batch 110 release `ec916d4`: **passed**
 - GitHub Pages deployment workflow
-  [30676250107](https://github.com/therealjameswilson/before-oss/actions/runs/30676250107)
-  for Batch 109 release `9ed29e1`: **passed**
-- Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
+  [30678260951](https://github.com/therealjameswilson/before-oss/actions/runs/30678260951)
+  for Batch 110 release `ec916d4`: **passed**
+- Production route smoke tests: **18 / 18 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 83 live
+- Production redaction scan: **0 full private-identifier matches across 84 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`
+  `9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1575,6 +1575,21 @@ and the foreign-key check. Its 68 public files, eight generated data files, and
 24,287 static-site artifacts matched the release byte for byte. Six untracked
 derived research exports differed only in run-specific timestamps and are not
 inputs to the published site.
+
+The Batch 110 production audit followed successful GitHub test workflow
+[30678260950](https://github.com/therealjameswilson/before-oss/actions/runs/30678260950)
+and GitHub Pages workflow
+[30678260951](https://github.com/therealjameswilson/before-oss/actions/runs/30678260951)
+for release `ec916d4`. All 18 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The deployed manifest SHA-256 is
+`9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`,
+and its forbidden-field list is empty. Because the live assets are
+byte-identical to the locally scanned projection and all tested HTML differs
+only by the canonical host, the zero-match private-identifier result carries
+through to production.
 
 ## Batch 109 local release QA
 

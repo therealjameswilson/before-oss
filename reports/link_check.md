@@ -1148,6 +1148,38 @@ artifacts returned zero full matches. Consecutive static builds produced the
 identical site-tree SHA-256
 `b46bfcc0a427e12f16f0f95f9810ad5ed993f94c89aac0f23669034a9f75e6e8`.
 
+## Batch 110 production deployment
+
+GitHub Actions test workflow
+[30678260950](https://github.com/therealjameswilson/before-oss/actions/runs/30678260950)
+and GitHub Pages deployment
+[30678260951](https://github.com/therealjameswilson/before-oss/actions/runs/30678260951)
+for release `ec916d4` completed successfully.
+
+Live checks returned HTTP 200 for all 18 tested publication routes: seven core
+publication URLs, all ten Batch 110 person profiles, and the International
+Grenfell Association organization profile. After substituting the production
+host for the local placeholder in plain and URL-encoded canonical URLs, every
+route matched the audited local HTML bytes. Profile-specific checks confirmed
+Roy Attride's bookkeeper evidence, the Grenfell linkage, Amariah Atwater's
+documented full-name variant, and the evidence-limited employer statement on
+all ten profiles.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 920
+people with non-planned research attempts, 229 verified-affiliation people,
+131 verified-employer people, 868 archival-review assessments, 823 published
+claims, and 808 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 268, 465, and 808 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte for byte. The deployed and
+local manifest SHA-256 is
+`9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`,
+and the forbidden-field list is empty. The local boundary-aware zero-match
+private-identifier result therefore carries through the 84 deployed HTML,
+data, compressed-mirror, manifest, and download artifacts.
+
 ## Batch 109 local release check
 
 The rebuilt site contains direct, internally resolved routes for David

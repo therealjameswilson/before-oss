@@ -1067,6 +1067,11 @@ matrix passed 375 / 375 with no assertion failure or serious/critical
 accessibility violation. A one-off Batch 077 tablet timeout in the first full
 run passed immediately in a targeted rerun and in the clean complete rerun.
 
+GitHub test workflow
+[30678260950](https://github.com/therealjameswilson/before-oss/actions/runs/30678260950)
+repeated the complete research and site matrix for release `ec916d4` and
+completed successfully.
+
 ## Batch 109 accessibility and responsive regression
 
 The Batch 109 regression checks the ten contiguous page-fifteen profiles from
