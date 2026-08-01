@@ -1146,6 +1146,24 @@ formatted raw variants found zero full private-identifier matches across
 24,370 production artifacts, including compressed mirrors. One numeric match
 in a manifest `size_bytes` field is coincidental file metadata.
 
+## Batch 116 production deployment
+
+GitHub Actions test workflow
+[30688395947](https://github.com/therealjameswilson/before-oss/actions/runs/30688395947)
+and GitHub Pages deployment workflow
+[30688395938](https://github.com/therealjameswilson/before-oss/actions/runs/30688395938)
+completed successfully for release `383c37d`.
+
+All 17 tested publication routes returned HTTP 200 and matched the audited
+local HTML after canonical-host normalization: seven core routes and all ten
+Batch 116 person profiles. Live statistics and all five public-download row
+counts reproduced the release. All 65 deployed manifest assets matched their
+recorded hashes and local bytes; the deployed and local manifest SHA-256 is
+`32692e4a8bd2a14e36f7ef0902b680079cf589a60236dad89b992ccbc227987d`.
+The field-aware scan, including decompressed gzip mirrors, found zero full
+private-identifier matches across 83 live artifacts. One numeric overlap in a
+manifest `size_bytes` field is file metadata rather than an identifier.
+
 ## Batch 115 local release check
 
 The rebuilt site contains direct, internally resolved routes for Joseph R.

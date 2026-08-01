@@ -1064,6 +1064,13 @@ no assertion failure or serious/critical accessibility violation. The
 homepage reports 136 verified-employer people separately from 238 verified-
 affiliation people.
 
+GitHub test workflow
+[30688395947](https://github.com/therealjameswilson/before-oss/actions/runs/30688395947)
+repeated the complete 393-case matrix for release `383c37d` and completed
+successfully. All ten deployed Batch 116 profiles returned HTTP 200 and
+matched their audited local accessible HTML after canonical-host
+normalization.
+
 ## Batch 115 accessibility and responsive regression
 
 Batch 115 verifies Joseph R. Autotte through Gerald Axelrad at desktop, phone,
