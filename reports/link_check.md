@@ -1163,6 +1163,29 @@ The field-aware public projection and rendered-profile audit checked all
 23,978 serial-bearing fields against their expected masked values and found
 zero redaction errors.
 
+## Batch 127 production deployment
+
+GitHub Actions test workflow
+[30712957970](https://github.com/therealjameswilson/before-oss/actions/runs/30712957970)
+and Pages workflow
+[30712957978](https://github.com/therealjameswilson/before-oss/actions/runs/30712957978)
+completed successfully for release `e7ce687`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes and all ten Batch 127 profiles. The deployed statistics
+report 23,978 source rows, 23,941 person entities, 1,090 people with non-
+planned research attempts, 239 people with verified affiliations, 136 with
+verified employment or self-employment, 1,038 assessed archival-review needs,
+929 public-visible claims, and 957 public source records. All five download
+counts reproduce the local release.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`cb7d045be2532c55a2e9c7521015aec187dd64cf788e3bdc96b77f63aa06bdb2`.
+Together with the 17 route comparisons and manifest itself, the audit covered
+83 live artifacts and inherited the audited local field-level masking result.
+
 ## Batch 126 local release check
 
 The rebuilt site contains direct, internally resolved routes for Alexander W.

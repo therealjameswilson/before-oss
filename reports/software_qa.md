@@ -3366,6 +3366,36 @@ or self-employment evidence, and 1,038 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 278 organizations, 486
 affiliations, and 957 sources.
 
+## Batch 127 production deployment
+
+GitHub Actions test workflow
+[30712957970](https://github.com/therealjameswilson/before-oss/actions/runs/30712957970)
+and GitHub Pages deployment workflow
+[30712957978](https://github.com/therealjameswilson/before-oss/actions/runs/30712957978)
+completed successfully for release `e7ce687`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+426-case browser, responsive, direct-route, search, and axe matrix. It
+reported zero Astro errors, warnings, or hints, 426 / 426 browser cases,
+24,227 valid internal HTML pages, and zero dependency vulnerabilities.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes and all ten Batch 127 person profiles. Live statistics and
+all five public-download row counts exactly reproduce the release: 23,941
+personnel CSV and JSONL rows, 278 organizations, 486 affiliations, and 957
+sources.
+
+All 65 deployed manifest assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`cb7d045be2532c55a2e9c7521015aec187dd64cf788e3bdc96b77f63aa06bdb2`.
+Because the 83 audited live artifacts match the field-level redaction-audited
+local release, the deployed site inherits its zero-error private-identifier
+result.
+
+GitHub emitted a non-blocking platform annotation that several pinned setup
+actions still declare Node.js 20 and were forced to Node.js 24. The repository
+test job explicitly uses Node.js 24; no project build or test step failed.
+
 ## Batch 126 local release QA
 
 Batch 126 adds the ten visually checked page-nineteen rows from Alexander W.
