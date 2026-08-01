@@ -11,9 +11,9 @@ Run: 2026-07-31 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
   (`5ba8511f960291d34151a558a5e87c9e2422522e6af7ac169093b2224220193d`)
-- Latest clean-checkout replay (Batch 111): **byte-for-byte identical** public
+- Latest clean-checkout replay (Batch 112): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 111 evidence batches: **88 / 94
+  checkpoints, review decisions, and all 112 evidence batches: **88 / 94
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30679704454](https://github.com/therealjameswilson/before-oss/actions/runs/30679704454)
-  for Batch 111 release `6ce955b`: **passed**
+  [30681133029](https://github.com/therealjameswilson/before-oss/actions/runs/30681133029)
+  for Batch 112 release `3cc5838`: **passed**
 - GitHub Pages deployment workflow
-  [30679704437](https://github.com/therealjameswilson/before-oss/actions/runs/30679704437)
-  for Batch 111 release `6ce955b`: **passed**
+  [30681133013](https://github.com/therealjameswilson/before-oss/actions/runs/30681133013)
+  for Batch 112 release `3cc5838`: **passed**
 - Production route smoke tests: **19 / 19 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 85 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `1b0c29fe358d683e767bdebc59aeb700f9a1ae69fb974521d7d3c131e875369f`
+  `c1b2d0d3e49ee4bc3ca629e4f08d4e4fab0decd422769d65304f5de7980d5ad9`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1557,7 +1557,8 @@ A boundary-aware exact-token comparison assessed 12,932 distinct normalized
 private identifiers, 12,919 nontrivial comparison tokens, and 121 formatted
 raw variants across 24,356 production artifacts, including compressed mirrors,
 and found zero full matches. No authenticated NARA Catalog request or raw
-Catalog response was used.
+Catalog response was used. The worktree contains no local credential file or
+nonblank API-key assignment.
 
 The Batch 112 database contains 1,970 durable research attempts, 1,409 private
 citation records, 473 affiliations, and 849 claims: 121 confirmed, 603 high,
@@ -1567,6 +1568,29 @@ claims. Coverage distinguishes 940 people with a non-planned research attempt,
 231 people with verified affiliation evidence, 133 people with verified
 employment or self-employment evidence, and 888 people whose archival-review
 need has been assessed.
+
+A fresh checkout replay rebuilt the hash-verified frozen PDF, all 522 pages,
+all page reviews, adapter checkpoints, review decisions, and 112 evidence
+batches. Eighty-eight of 94 tracked provenance, generated/public, status, and
+QA artifacts matched the release commit byte for byte; the other six differed
+only in their expected report-generation timestamps. The rebuilt SQLite
+database passed `integrity_check` and the foreign-key check. Its public and
+generated site data and all 24,288 static-site artifacts matched the release
+byte for byte.
+
+The Batch 112 production audit followed successful GitHub test workflow
+[30681133029](https://github.com/therealjameswilson/before-oss/actions/runs/30681133029)
+and GitHub Pages workflow
+[30681133013](https://github.com/therealjameswilson/before-oss/actions/runs/30681133013)
+for release `3cc5838`. All 19 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The deployed manifest SHA-256 is
+`c1b2d0d3e49ee4bc3ca629e4f08d4e4fab0decd422769d65304f5de7980d5ad9`,
+and its forbidden-field list is empty. A direct scan found zero full private
+identifier matches across the 85 audited live routes, manifest, data,
+compressed mirrors, and downloads.
 
 ## Batch 111 local release QA
 

@@ -1064,6 +1064,13 @@ tablet. The complete desktop, phone, tablet, responsive, direct-route, search,
 and axe matrix passed 381 / 381 with no assertion failure or serious/critical
 accessibility violation.
 
+GitHub test workflow
+[30681133029](https://github.com/therealjameswilson/before-oss/actions/runs/30681133029)
+repeated the complete research and site matrix for release `3cc5838` and
+completed successfully in 8 minutes 52 seconds. GitHub emitted the same
+non-blocking annotation that version 4/5 setup actions still declare Node.js 20
+and are currently forced to Node.js 24; no project test or build step failed.
+
 ## Batch 111 accessibility and responsive regression
 
 The Batch 111 regression checks the ten contiguous profiles from Elmer E.

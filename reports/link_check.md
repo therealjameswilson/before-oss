@@ -1144,6 +1144,36 @@ The complete local link checker passed all 24,218 HTML files and inventoried
 manifest-listed assets passed the local size, hash, and redaction audits
 documented in `reports/software_qa.md`.
 
+## Batch 112 production deployment
+
+GitHub Actions test workflow
+[30681133029](https://github.com/therealjameswilson/before-oss/actions/runs/30681133029)
+and GitHub Pages deployment
+[30681133013](https://github.com/therealjameswilson/before-oss/actions/runs/30681133013)
+for release `3cc5838` completed successfully.
+
+Live checks returned HTTP 200 for all 19 tested publication routes: seven core
+publication URLs, all ten Batch 112 person profiles, and the Office of Price
+Administration and U.S. Department of Labor organization profiles. After
+substituting the production host for the local placeholder in plain and
+URL-encoded canonical URLs, every route matched the audited local HTML bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 940
+people with non-planned research attempts, 231 verified-affiliation people,
+133 verified-employer people, 888 archival-review assessments, 829 published
+claims, and 816 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 269, 469, and 816 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte for byte. The deployed and
+local manifest SHA-256 is
+`c1b2d0d3e49ee4bc3ca629e4f08d4e4fab0decd422769d65304f5de7980d5ad9`,
+and the forbidden-field list is empty. A direct comparison against 12,919
+nontrivial normalized identifiers and 121 formatted raw variants found zero
+full matches across 85 deployed routes, manifest, data, compressed mirrors,
+and downloads.
+
 ## Batch 111 local release check
 
 The rebuilt site contains direct, internally resolved routes for Elmer E.
