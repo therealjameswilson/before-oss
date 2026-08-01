@@ -81,6 +81,7 @@ class NormalizeTests(unittest.TestCase):
     def test_lieutenant_commander_variants_are_naval_officers(self) -> None:
         for printed_rank, normalized_rank in (
             ("Lt CMD", "LT CMD"),
+            ("LT COM", "LT COM"),
             ("Lt Cmdr", "LT CMDR"),
         ):
             with self.subTest(printed_rank=printed_rank):

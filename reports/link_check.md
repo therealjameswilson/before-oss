@@ -1135,6 +1135,34 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 127 local release check
+
+The rebuilt site contains direct, internally resolved routes for Ben Baker,
+Bonnie T. Baker, Charles E. Baker, Charles W. Baker, Clarence L. Baker, Donald
+S. Baker, Douglas H. Baker, Dwight C. Baker, Evan D. Baker, and Ford P. Baker.
+Every route preserves page-nineteen and Box 30 or Box 31 provenance, a masked
+or explicitly unprinted private identifier, reviewed personnel classification,
+and an evidence-limited civilian-employer field. All ten visibly retain
+unresolved identity and archival-review status. Dwight's printed `LT COM`
+grade is rendered as a commissioned naval classification; Douglas's Denver
+roster candidate remains visibly conditional and is not promoted.
+
+The complete local link checker passed all 24,227 HTML files and inventoried
+48,682 unique external URLs. The reviewed targets include NARA's public AAD
+Army record context, the CIA Reading Room, the current Library of Congress API,
+institutional collections, contemporary newspapers, directories, and
+obituary searches. No discovery lead was promoted without identity and
+temporal review.
+
+The public downloads contain 23,941 person rows, 278 organization rows, 486
+affiliation rows, and 957 source rows. All 65 manifest-listed assets retain
+recorded sizes and SHA-256 values, and the manifest forbidden-field check
+passed. The local manifest SHA-256 is
+`cb7d045be2532c55a2e9c7521015aec187dd64cf788e3bdc96b77f63aa06bdb2`.
+The field-aware public projection and rendered-profile audit checked all
+23,978 serial-bearing fields against their expected masked values and found
+zero redaction errors.
+
 ## Batch 126 local release check
 
 The rebuilt site contains direct, internally resolved routes for Alexander W.

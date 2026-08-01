@@ -32,6 +32,7 @@ NAVAL_OFFICER_RANKS = {
     "LT JG",
     "LCDR",
     "LT CMD",
+    "LT COM",
     "LT CMDR",
     "LT COMDR",
     "CDR",

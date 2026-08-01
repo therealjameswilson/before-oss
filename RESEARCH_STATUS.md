@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,080 people with a non-planned attempt | 23,941 person entities | 4.5111% |
+| Research-attempt coverage | 1,090 people with a non-planned attempt | 23,941 person entities | 4.5529% |
 | Verified-affiliation coverage | 239 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9983% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 1,028 people with an individual file-access/priority assessment | 23,941 person entities | 4.2939% |
+| Archival-review coverage | 1,038 people with an individual file-access/priority assessment | 23,941 person entities | 4.3357% |
 
 ## Extraction and identity
 
@@ -30,7 +30,7 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,514
+- Unknown or indeterminate: 16,507
 - Enlisted Army personnel: 3,514
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
@@ -39,20 +39,20 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Civilian professional or administrative grades: 1,460
 - Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 53
-- Commissioned naval officers: 74
+- Commissioned naval officers: 81
 - Warrant officers: 4
 
-Commissioned classification: 2,159 yes; 5,040 no; 16,742 indeterminate.
+Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,861
+- `not_started`: 22,851
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 32
 - `occupation_only_found`: 64
-- `requires_archival_review`: 723
+- `requires_archival_review`: 733
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 138
@@ -1232,10 +1232,31 @@ Commissioned classification: 2,159 yes; 5,040 no; 16,742 indeterminate.
   17 tested routes and all 65 manifest assets to the audited local build,
   reproduced every public-download count, and found zero full private-
   identifier matches across 83 live artifacts.
+- Batch 127 continues page nineteen from Ben Baker through Ford P. Baker.
+  Original-resolution inspection confirms all ten printed rows and shows that
+  `LT COM` is a commissioned naval rank. Parser version `bbox-columns-v5`
+  applies that transparent rule to the full index while preserving the raw
+  printed values; the complete replay classifies 81 commissioned naval
+  officers and leaves unfamiliar grades untouched. Exact-name and private-
+  identifier checks in NARA's public AAD context, CIA Reading Room searches,
+  current Library of Congress API checks, and employment-, obituary-,
+  directory-, institutional-, and newspaper-focused searches produced no
+  supportable pre-OSS affiliation for any of the ten people. Three narrowly
+  scoped AAD requests returned HTTP 403 and remain documented access blockers;
+  the other exact comparisons produced no accepted identity match. Conrad
+  `Ben` Baker, two Denver Public Library 10th Mountain Division roster entries
+  for namesakes Charles E. and Douglas H. Baker, and a Library of Congress
+  Charles E. Baker military-history collection remain rejected or unassigned
+  candidates because they lack OSS, Box 30, or matching private-identifier
+  corroboration. All ten therefore remain unresolved and route to Box 30 or
+  Box 31 archival review. The batch adds eighteen citation records and ten
+  durable research attempts, but no organization, affiliation, employer, or
+  public claim. No authenticated Catalog API request or raw Catalog response
+  was used.
 - Published affiliations: 486
 - Database claims: 950; public-visible claims: 929 (185 confirmed, 626 high,
   114 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,668; public source export: 957; unique source documents: 788
+- Citation records: 1,686; public source export: 957; unique source documents: 792
 - Canonical organizations: 280 private and 278 public
 - Conflicts: 5
 - NARA pull-list rows: 23,840

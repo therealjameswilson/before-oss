@@ -1012,6 +1012,21 @@ completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
 
+## Batch 127 accessibility and responsive regression
+
+Batch 127 verifies Ben Baker through Ford P. Baker at desktop, phone, and
+tablet sizes. It checks all ten direct profile routes, Box 30 or Box 31
+provenance, exact indexed forms, reviewed personnel categories, field-level
+serial masking, unresolved identity status, archival-review guidance, and the
+absence of unsupported employer claims.
+
+The regression confirms that Dwight C. Baker's printed `LT COM` grade is
+presented as a commissioned naval classification and that Douglas H. Baker's
+605th Field Artillery candidate remains conditional on matching archival
+identifiers. The complete desktop, phone, and tablet matrix passed 426 / 426,
+including 3 / 3 Batch 127 cases and all 27 / 27 dedicated axe cases, with no
+assertion or serious/critical axe failure.
+
 ## Batch 126 accessibility and responsive regression
 
 Batch 126 verifies Alexander W. Baird through Arthur Baker III at desktop,

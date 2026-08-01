@@ -3316,6 +3316,56 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
 
+## Batch 127 local release QA
+
+Batch 127 adds the ten visually checked page-nineteen rows from Ben Baker
+through Ford P. Baker. The reviewed evidence bundle imports ten durable
+research attempts and eighteen citation records. All ten people remain
+unresolved after the minimum protocol and route to Box 30 or Box 31; no
+organization, affiliation, employer, or public claim was added. Candidate
+namesakes remain explicitly unassigned because the reviewed sources do not
+establish the indexed identity or an OSS connection.
+
+The page image was inspected at original resolution. That review established
+that the printed `LT COM` rank is a commissioned naval grade. Parser version
+`bbox-columns-v5` adds the transparent rule and a dedicated unit test. A full
+522-page reingest and identity rebuild retained all 23,978 source rows and
+23,941 cautious person entities. The ingest validator passed every
+completeness and warning-review invariant; SQLite `quick_check` returned `ok`,
+and the foreign-key check returned zero errors.
+
+The Python suite passed 55 / 55. The complete browser, responsive,
+direct-route, search, and axe matrix passed 426 / 426 across desktop, phone,
+and tablet, including the three Batch 127 regressions and all 27 dedicated axe
+cases. The internal-link checker passed all 24,227 HTML pages and inventoried
+48,682 unique external URLs. Astro reported zero errors, warnings, or hints,
+the dependency audit found zero vulnerabilities, and the deterministic
+200-profile stratified audit passed every invariant.
+
+Two consecutive final builds produced the identical
+`8451c932f24ce5a65bf4228976dd98c5aa28fcdb62efb095944ecf03127df187`
+content-tree hash across 24,297 static-site artifacts. All 65 public manifest
+assets retain recorded sizes and SHA-256 values, the manifest forbidden-field
+check passed, and the manifest SHA-256 is
+`cb7d045be2532c55a2e9c7521015aec187dd64cf788e3bdc96b77f63aa06bdb2`.
+A field-aware redaction audit checked 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants against all 23,978 serial-bearing
+fields in both the public JSON projection and rendered profiles. It also
+verified 31 compressed mirrors against their uncompressed counterparts and
+found zero redaction errors. No authenticated Catalog API request or raw
+Catalog response was used.
+
+The Batch 127 database contains 2,120 durable research attempts, 1,686 private
+citation records, 490 affiliations, 280 organizations, and 950 claims: 185
+confirmed, 626 high, 114 medium, 21 low, and four conflicting. The reviewed
+public projection contains 957 source records representing 792 unique
+documents, 486 affiliations, and 929 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,090 people with a non-planned research
+attempt, 239 with verified-affiliation evidence, 136 with verified employment
+or self-employment evidence, and 1,038 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 278 organizations, 486
+affiliations, and 957 sources.
+
 ## Batch 126 local release QA
 
 Batch 126 adds the ten visually checked page-nineteen rows from Alexander W.

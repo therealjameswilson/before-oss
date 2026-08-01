@@ -11768,3 +11768,48 @@ test("Batch 126 separates two occupations, an Army-to-OSS pathway, student statu
     "Following this training he volunteered for the U.S. Army Office of Strategic Services",
   );
 });
+
+test("Batch 127 preserves ten unresolved Baker profiles and the LT COM naval classification", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c03d80bb-50e5-5e7a-b6d6-4c8c23d6cdb3", "Ben Baker", "enlisted army personnel", "30"],
+    ["0abb9bc6-e6ab-5608-95a0-81de145f109c", "Bonnie T Baker", "unknown or indeterminate", "30"],
+    ["02a0b270-7beb-5b2c-a104-e8ef8d9bdc54", "Charles E Baker", "enlisted army personnel", "30"],
+    ["8637c2ee-116a-5ec8-9da1-583675ed95be", "Charles W Baker", "enlisted army personnel", "30"],
+    ["9d478406-0195-5938-80e4-ca2d8f57e110", "Clarence L Baker", "enlisted army personnel", "30"],
+    ["76f7de96-0540-5535-aac4-90ebc7ff9dcd", "Donald S Baker", "enlisted army personnel", "30"],
+    ["52a5cc22-3ccc-55aa-90e7-379b85a522b6", "Douglas H Baker", "commissioned army officer", "30"],
+    ["77ed90e4-bb4e-569d-afdb-b1a3ea2dc17c", "Dwight C Baker", "commissioned naval officer", "30"],
+    ["7f082c51-dac2-52b6-85c4-ad6b001fd200", "Evan D Baker", "enlisted army personnel", "31"],
+    ["c9226b5a-6af6-5565-825a-e3001284dd2d", "Ford P Baker", "enlisted army personnel", "31"],
+  ];
+
+  for (const [personId, displayName, personnelCategory, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/77ed90e4-bb4e-569d-afdb-b1a3ea2dc17c/");
+  await expect(page.locator("main")).toContainText("LT COM");
+  await expect(page.locator("dt", { hasText: "Commissioned officer" }).locator("+ dd")).toHaveText(
+    "Yes",
+  );
+
+  await page.goto("./people/52a5cc22-3ccc-55aa-90e7-379b85a522b6/");
+  await expect(page.locator("main")).toContainText("605th Field Artillery candidate");
+  await expect(page.locator("main")).toContainText("only if the file supplies matching identifiers");
+});
