@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 372 / 372 browser cases.**
+**PASS - 375 / 375 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-130-person employer measure is labeled separately from the 228-person broader
+131-person employer measure is labeled separately from the 229-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,26 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 110 accessibility and responsive regression
+
+The Batch 110 regression checks the ten contiguous page-fifteen profiles from
+Russell E. Atkisson through Donald F. Atwood. It verifies every direct profile,
+Box 25 provenance, commissioned and enlisted classifications, suffixes, and
+field-level service-number masking. Roy B. Attride Sr.'s page separates his
+confirmed OSS identity from earlier Grenfell Association employment and leaves
+the immediate and last-civilian predecessor fields unresolved. The Leslie H.
+Atlass Jr., Aldon N. Attayer, Paul R. Attix, and Amariah G. Atwater pages keep
+identity or occupation evidence out of unsupported employer fields.
+
+The assertions also verify that Russell E. Atkisson, Ben C. Attardi, Allen R.
+Atwater Jr., Bert Atwater Jr., and Donald F. Atwood remain visibly unresolved
+with actionable Box 25 guidance. The focused desktop, phone, and tablet run
+passed 3 / 3. After correcting the homepage's prior-batch coverage literals,
+the complete desktop, phone, tablet, responsive, direct-route, search, and axe
+matrix passed 375 / 375 with no assertion failure or serious/critical
+accessibility violation. A one-off Batch 077 tablet timeout in the first full
+run passed immediately in a targeted rerun and in the clean complete rerun.
 
 ## Batch 109 accessibility and responsive regression
 

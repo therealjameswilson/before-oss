@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 910 people with a non-planned attempt | 23,941 person entities | 3.8010% |
-| Verified-affiliation coverage | 228 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9523% |
-| Verified-employer coverage | 130 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5430% |
-| Archival-review coverage | 858 people with an individual file-access/priority assessment | 23,941 person entities | 3.5838% |
+| Research-attempt coverage | 920 people with a non-planned attempt | 23,941 person entities | 3.8428% |
+| Verified-affiliation coverage | 229 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9565% |
+| Verified-employer coverage | 131 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5472% |
+| Archival-review coverage | 868 people with an individual file-access/priority assessment | 23,941 person entities | 3.6256% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 44
-- Identity status `high_confidence`: 280
-- Identity status `probable`: 32
+- Identity status `confirmed`: 45
+- Identity status `high_confidence`: 283
+- Identity status `probable`: 33
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,559
+- Identity status `unresolved`: 23,554
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,031
+- `not_started`: 23,021
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 29
-- `occupation_only_found`: 32
-- `requires_archival_review`: 598
+- `documented_prewar_employer_found`: 30
+- `occupation_only_found`: 36
+- `requires_archival_review`: 603
 - `completed`: 52
 - `verified_employer_found`: 135
 - Stratified pilot size: 75
@@ -63,19 +63,19 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 441
+- Reviewed-web terminal-protocol attempts recorded: 451
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 195
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 344 across 325 people; 27 additional
+- Saved `source_reviewed` outcomes: 349 across 330 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,940
+- Total recorded attempts/plans: 1,950
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 331; 314 have at least one public-eligible
+- People with saved reviewed claims: 336; 319 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -939,11 +939,24 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
   confirms that the index literally prints `Katrhryn`; `Kathryn` and
   `Katherine` remain labeled search aliases rather than silent corrections. No
   unsupported employer is promoted.
-- Published affiliations: 464
-- Database claims: 837; public-eligible claims: 817 (119 confirmed, 594 high, 104
+- Batch 110 continues page fifteen from Russell E. Atkisson through Donald F.
+  Atwood. Roy B. Attride Sr. is confirmed by an official NARA OSS X-2 record
+  and independent Grenfell Association publications. His winter 1936-37
+  St. Anthony office bookkeeper position is published only as earlier
+  documented employment: the evidence does not establish it as his immediate
+  pre-OSS affiliation or last civilian employer. Leslie H. Atlass Jr., Aldon
+  N. Attayer, and Amariah G. Atwater are high-confidence identity matches, and
+  Paul R. Attix remains probable; their reviewed sources support identity or
+  occupation context but no defensible predecessor-employer claim. Russell E.
+  Atkisson, Ben C. Attardi, Allen R. Atwater Jr., Bert Atwater Jr., and Donald
+  F. Atwood remain unresolved and route to Box 25. Patent authorship, postwar
+  FCC employment, an undated Wrigley role, and Ninth Army service are not
+  converted into unsupported employment claims.
+- Published affiliations: 465
+- Database claims: 843; public-eligible claims: 823 (120 confirmed, 598 high, 105
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,362; public source export: 792; unique source documents: 694
-- Canonical organizations: 269 private and 267 public
+- Citation records: 1,383; public source export: 808; unique source documents: 705
+- Canonical organizations: 270 private and 268 public
 - Conflicts: 1
 - NARA pull-list rows: 23,843
 
@@ -1101,6 +1114,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-and-fifteen-askew-through-aste-pathways_batch-107_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-aston-through-athens-pathways_batch-108_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atherton-through-atkisson-pathways_batch-109_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atkisson-through-atwood-pathways_batch-110_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

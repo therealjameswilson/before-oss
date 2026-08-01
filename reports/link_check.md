@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,216 HTML files. Every relative
+**PASS.** The production build contains 24,217 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 267 organization profiles, and the
+The build includes 23,941 person profiles, 268 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,608 unique external URLs for separate live
+The checker inventoried 48,620 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,30 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 110 local release check
+
+The rebuilt site contains direct, internally resolved routes for Russell E.
+Atkisson, Leslie H. Atlass Jr., Ben C. Attardi, Aldon N. Attayer, Paul R.
+Attix, Roy B. Attride Sr., Allen R. Atwater Jr., Amariah G. Atwater, Bert
+Atwater Jr., and Donald F. Atwood, plus the International Grenfell Association
+organization route. Five profiles visibly retain unresolved identity status
+and Box 25 archival-review guidance. Roy Attride's page publishes earlier
+Grenfell employment without marking it immediate or last civilian; the other
+identity-resolved profiles retain explicit employer gaps.
+
+The complete local link checker passed all 24,217 HTML files and inventoried
+48,620 unique external URLs. The public downloads contain 23,941 person rows,
+268 organization rows, 465 affiliation rows, and 808 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers and 121 formatted raw variants across 24,355 production
+artifacts returned zero full matches. Consecutive static builds produced the
+identical site-tree SHA-256
+`b46bfcc0a427e12f16f0f95f9810ad5ed993f94c89aac0f23669034a9f75e6e8`.
 
 ## Batch 109 local release check
 

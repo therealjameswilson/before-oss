@@ -1874,6 +1874,52 @@ was accessed, and no live NARA API response was retained. Temporary renders
 were used only for inspection and removed after review. No full service
 identifier appears in the evidence bundle or public projection.
 
+## Page-fifteen Atkisson-through-Atwood pathways, Batch 110
+
+`research/evidence-page-fifteen-atkisson-through-atwood-pathways_batch-110_2026-07-31.json`
+records ten visually checked, contiguous rows from Russell E. Atkisson through
+Donald F. Atwood on PDF page fifteen. Raw spellings, initials, suffixes, ranks,
+service-number presence or absence, Box 25, blank fields, and archival location
+were checked against a high-resolution page render. The bundle contains ten
+person updates, twenty-one sources, one organization, one affiliation, six
+claims, and ten durable research attempts.
+
+Roy B. Attride Sr. is confirmed by NARA JFK record `104-10165-10120`, PDF page
+108/document page 81, which names Pfc Roy R. B. Attride Sr. as an OSS X-2
+Insurance Unit leader. The International Grenfell Association's July 1936
+*Among the Deep-Sea Fishers*, printed page 66/PDF page 24, records his selection
+as the St. Anthony District office bookkeeper for winter 1936-37. Its April
+1943 alumni news calls him former staff, and its July 1945 issue places him in
+the Army and OSS. The bookkeeper role is therefore published as
+high-confidence, documented-prewar employment only. The accessible sequence
+does not establish it as his immediate pre-OSS affiliation or last civilian
+employer.
+
+A November 29, 1944 *Heinl Radio Business Letter* notice, printed page 10/PDF
+page 78, and official FCC Reports, volume 24, page 799, support the
+high-confidence Leslie H. Atlass Jr./H. Leslie Atlass Jr. identity and Army
+service. The FCC employment chronology begins after his 1945 discharge, and
+his father's CBS role is not attributed to him. United States Design Patent
+D132,141 and a scholarly citation to Aldon N. Attayer's March 17, 1944 Allied
+Control Commission survey in NARA RG 331 support Attayer's identity, but patent
+authorship is not treated as self-employment. The contemporary Ninth Army
+history, page 336, supports only a probable Paul R. Attix identity because it
+does not reproduce his indexed identifier or establish the pre-OSS sequence.
+A NARA personnel-folder finding aid places Amariah G. C. Atwater at the start
+of Naval Officers Personnel Cards Roll 22; a secondary full-name biography is
+corroborative only. Its undated Wrigley role remains a lead, not a pre-OSS
+employment claim.
+
+Russell E. Atkisson, Ben C. Attardi, Allen R. Atwater Jr., Bert Atwater Jr.,
+and Donald F. Atwood remain unresolved after the staged official, exact-name,
+employment, occupation, newspaper, directory, obituary, institutional, NARA,
+CIA Reading Room, and Library of Congress protocol. Their profiles route to
+Box 25 rather than promoting common-name or genealogy candidates. No
+authenticated NARA Catalog request was made, no API key was accessed, and no
+live Catalog response was retained. Temporary source copies and page renders
+were used only for inspection outside the repository. No full service
+identifier appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

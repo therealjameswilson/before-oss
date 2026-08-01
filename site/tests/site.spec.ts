@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/130 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/131 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 228 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 229 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10341,4 +10341,101 @@ test("Batch 109 preserves Atherton-through-Atkisson identity and predecessor bou
       exact: true,
     }).first(),
   ).toHaveAttribute("href", /connexionfrance\.com/);
+});
+
+test("Batch 110 preserves Atkisson-through-Atwood evidence and temporal boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["4d7d2b14-6715-5338-8afd-f725ab266f72", "Russell E Atkisson", "civilian professional or administrative grade"],
+    ["7fdfa5e3-d825-5a3d-a79a-88b477c09add", "Leslie H Atlass Jr.", "commissioned army officer"],
+    ["e8a7f198-6324-5057-ad45-d9c1194b094b", "Ben C Attardi", "enlisted army personnel"],
+    ["9440d21c-04bc-5d5d-bf91-5edc726f5414", "Aldon N Attayer", "commissioned army officer"],
+    ["f9c7fe00-b8a8-5599-beb8-8de55f7ca5d4", "Paul R Attix", "enlisted army personnel"],
+    ["23631912-560a-5a1e-8263-b55f0a9fd608", "Roy B Attride Sr.", "enlisted army personnel"],
+    ["5332cfbd-681e-5236-92f2-d327953a131f", "Allen R. Atwater Jr.", "enlisted army personnel"],
+    ["eb303a39-db05-55d0-8323-099373bf643e", "Amariah G Atwater", "commissioned naval officer"],
+    ["3a2ea6f1-7c4f-55eb-9a27-66acff22d7fe", "Bert Atwater Jr.", "enlisted army personnel"],
+    ["31ef0147-71d8-5268-bed7-70332491f5af", "Donald F Atwood", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("25", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "4d7d2b14-6715-5338-8afd-f725ab266f72",
+    "e8a7f198-6324-5057-ad45-d9c1194b094b",
+    "5332cfbd-681e-5236-92f2-d327953a131f",
+    "3a2ea6f1-7c4f-55eb-9a27-66acff22d7fe",
+    "31ef0147-71d8-5268-bed7-70332491f5af",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/7fdfa5e3-d825-5a3d-a79a-88b477c09add/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("promoted to major");
+  await expect(
+    page.getByRole("link", {
+      name: "Promotion to Major for H. Leslie Atlass, Jr.",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /worldradiohistory\.com/);
+
+  await page.goto("./people/f9c7fe00-b8a8-5599-beb8-8de55f7ca5d4/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Ninth Army");
+
+  await page.goto("./people/23631912-560a-5a1e-8263-b55f0a9fd608/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("bookkeeper");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("International Grenfell Association");
+  await expect(page.locator("main")).toContainText("winter 1936-37");
+  await expect(
+    page.getByRole("link", { name: "X-2 Branch - 3 (BCCM continued)", exact: true }).first(),
+  ).toHaveAttribute("href", /archives\.gov/);
+
+  await page.goto("./people/eb303a39-db05-55d0-8323-099373bf643e/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Amariah George Cox Atwater Sr.");
+  await expect(page.locator("main")).toContainText("undated Wrigley role");
+
+  await page.goto("./organizations/c281a125-2c46-5240-8c9f-7a0cd123ea54/");
+  await expect(
+    page.getByRole("heading", { name: "International Grenfell Association", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Grenfell Mission");
+  await expect(page.getByRole("link", { name: "Roy B Attride Sr.", exact: true })).toBeVisible();
 });

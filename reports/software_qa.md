@@ -5,37 +5,37 @@ Run: 2026-07-31 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,216 pages**
-- Internal link check: **24,216 HTML files passed**
-- Browser and accessibility suite: **372 / 372 passed**
+- Static production build: **24,217 pages**
+- Internal link check: **24,217 HTML files passed**
+- Browser and accessibility suite: **375 / 375 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`0777ab720dd135e2e997e6cceb720c5108ca002ce4c4ecdc7e0730d3c228ee37`)
-- Latest clean-checkout replay (Batch 109): **byte-for-byte identical** public
+  (`b46bfcc0a427e12f16f0f95f9810ad5ed993f94c89aac0f23669034a9f75e6e8`)
+- Latest clean-checkout replay (Batch 110): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 109 evidence batches: **78 / 84
+  checkpoints, review decisions, and all 110 evidence batches: **78 / 84
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`
+  `9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,932** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** nontrivial comparison
-  tokens: **0 unexpected full-number matches** in **24,354** production
+  tokens: **0 unexpected full-number matches** in **24,355** production
   artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **792** public records representing **694** unique documents
-- Private citation records: **1,362**
-- Published, qualified affiliations: **464**
-- Published claims: **817**
+- Reviewed public sources: **808** public records representing **705** unique documents
+- Private citation records: **1,383**
+- Published, qualified affiliations: **465**
+- Published claims: **823**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
-- Verified-affiliation metric: **228** people with confirmed/high published
+- Verified-affiliation metric: **229** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **130** people with confirmed/high published
+- Verified-employer metric: **131** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -1520,6 +1520,61 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 110 local release QA
+
+Batch 110 adds ten visually checked page-fifteen rows from Russell E. Atkisson
+through Donald F. Atwood. The reviewed bundle imports ten durable terminal
+research attempts, twenty-one sources, one organization, one affiliation, six
+claims, and the supporting claim-source links. It confirms Roy B. Attride Sr.
+through a direct NARA OSS X-2 record and publishes his winter 1936-37 Grenfell
+Association bookkeeper role only as earlier documented employment. Leslie H.
+Atlass Jr., Aldon N. Attayer, and Amariah G. Atwater receive high-confidence
+identity evidence; Paul R. Attix remains probable. Five unresolved profiles
+retain critical or high-priority Box 25 guidance. No postwar job, relative's
+employer, patent, undated role, or namesake is promoted into predecessor
+employment.
+
+The evidence bundle passed Pydantic validation and replayed idempotently with
+identical import counts. SQLite `quick_check` returned `ok`, and the
+foreign-key check returned zero errors. The full Python suite passed 54 / 54.
+The static build completed 24,217 pages with zero Astro errors, warnings, or
+hints. The focused Batch 110 regression passed 3 / 3, and the complete browser,
+responsive, and accessibility matrix passed 375 / 375. The internal link
+checker passed all 24,217 HTML pages and inventoried 48,620 unique external
+URLs. The production dependency audit reported zero vulnerabilities. The
+deterministic stratified profile audit passed every check for 200 profiles.
+
+Two consecutive static builds produced the identical
+`b46bfcc0a427e12f16f0f95f9810ad5ed993f94c89aac0f23669034a9f75e6e8`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The manifest
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`.
+A boundary-aware exact-token comparison assessed 12,919 nontrivial normalized
+private identifiers and 121 formatted raw variants across 24,355 production
+artifacts, including compressed mirrors, and found zero full matches. The
+worktree contains no local credential file or nonblank API-key assignment; no
+authenticated NARA Catalog request or raw Catalog response was used.
+
+The Batch 110 database contains 1,950 durable research attempts, 1,383 private
+citation records, 469 affiliations, and 843 claims: 120 confirmed, 598 high,
+105 medium, and 20 low confidence. The reviewed public projection contains 808
+source records representing 705 unique documents, 465 affiliations, and 823
+claims. Coverage distinguishes 920 people with a non-planned research attempt,
+229 people with verified affiliation evidence, 131 people with verified
+employment or self-employment evidence, and 868 people whose archival-review
+need has been assessed.
+
+A fresh checkout replay rebuilt the frozen PDF, all page reviews, adapter
+checkpoints, review decisions, and 110 evidence batches. Seventy-eight of 84
+tracked provenance, generated/public, and QA artifacts matched the release
+commit byte for byte; the other six differed only in their expected
+report-generation timestamps. The rebuilt SQLite database passed `quick_check`
+and the foreign-key check. Its 68 public files, eight generated data files, and
+24,287 static-site artifacts matched the release byte for byte. Six untracked
+derived research exports differed only in run-specific timestamps and are not
+inputs to the published site.
 
 ## Batch 109 local release QA
 
