@@ -2434,6 +2434,54 @@ accessed, and no raw API response, full private identifier, copyrighted page,
 home address, people-finder data, or rejected candidate biography was stored in
 the public projection.
 
+## Page-eighteen Bailey-through-Bailey pathways, Batch 124
+
+`research/evidence-page-eighteen-bailey-through-bailey-pathways_batch-124_2026-08-01.json`
+records ten visually checked, contiguous rows from Kenneth R. Bailey through
+Walter L. Bailey on PDF page eighteen. Raw names, initials, ranks, identifier
+presence or absence, Boxes 29 and 30, and archive locations were checked
+against a 200-dpi render at original detail. The validated bundle contains ten
+person updates, twenty sources, eight claims, twenty-one claim-source links,
+and ten durable research attempts. It creates no organization or affiliation.
+
+NARA's public AAD Army enlistment table supplies exact name and private-
+identifier matches for Kenneth R. Bailey, Morris F. Bailey, Thomas H. Bailey,
+and Walter H. Bailey. Compatible rank progression supports each match. The
+records document, respectively, student status, a semiskilled-routeman
+occupation, a photographer occupation, and the broad source category college
+presidents, professors, and instructors at Army entry. The official student
+code list was reviewed for Kenneth's numeric occupation code. None of the
+records names a school or employer, and none establishes the exact OSS
+recruitment sequence, so all four findings remain occupation/status only and
+are excluded from employer and affiliation analytics.
+
+The applicable AAD main and Reserve Corps tables supplied no match for Robert
+C. Bailey's atypical printed identifier, Lieutenant Stephen K. Bailey's
+officer-style identifier, Waldo E. Bailey, or Walter L. Bailey. Exact-name
+checks also supplied no match for Marcella D. Bailey or Urcle G. Bailey. NARA's
+documented file gaps mean these non-results are recorded as search outcomes,
+not contradictions or corrections to the index.
+
+Three contemporary *Harlem News* county-expenditure entries document laundry
+work by an exact or near-exact Urcle Bailey name in 1937-1938. They supply no
+OSS, military, Box 30, residence, birth, or other corroborating identifier.
+The Montana person therefore remains an unlinked, rejected identity candidate;
+no occupation, employer, or affiliation is assigned to the indexed person.
+
+The current Library of Congress collection API and item records, CIA Reading
+Room OSS collection, NARA/Catalog context, exact-name OSS variants, employment
+and occupation searches, newspapers, obituaries, directories, and
+institutional or archival sources were reviewed under the staged minimum
+protocol. Marcella D. Bailey, Robert C. Bailey, Stephen K. Bailey, Urcle G.
+Bailey, Waldo E. Bailey, and Walter L. Bailey remain unresolved and route to
+Boxes 29 or 30 for the missing identity, chronology, and employment evidence.
+
+The AAD interface and Library of Congress API were used transiently and
+read-only. No authenticated NARA Catalog API request was made, no API key was
+accessed, and no raw API response, full private identifier, copyrighted page,
+home address, or people-finder data was stored in the repository or public
+projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

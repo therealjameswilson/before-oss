@@ -7,18 +7,18 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,226 pages**
 - Internal link check: **24,226 HTML files passed**
-- Browser and accessibility suite: **414 / 414 local full-matrix cases**, plus
-  **3 / 3** focused Batch 123 cases
+- Browser and accessibility suite: **417 / 417 local full-matrix cases**, plus
+  **3 / 3** focused Batch 124 cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`62585f44c584d609b8992d638f7a570998a55513b17a302a7b4c715b4ad9a5ac`)
-- Latest deterministic build (Batch 123): **byte-for-byte identical** public
-  and generated site data across two consecutive builds and all **24,296**
-  static-site artifacts.
+  (`64f80b81e48e6393130d21de9f4574fa0e7b47835bd5924077b9f4a2d10641f3`)
+- Latest deterministic build (Batch 124): **byte-for-byte identical** public,
+  generated, and built site data across two consecutive builds and all
+  **24,366** compared artifacts, including **24,296** static-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `516b47c7ebc38a495d764efb4c0bbf611f08d0982d923caa92bfeb74a510e48b`
+  `39ddd904f52b7a6fe3f1efe601140fb1b9652ef9336d161b837ed37c591a3474`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -26,18 +26,18 @@ Run: 2026-08-01 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,372** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **930** public records representing **776** unique documents
-- Private citation records: **1,610**
+- Reviewed public sources: **938** public records representing **781** unique documents
+- Private citation records: **1,630**
 - Published, qualified affiliations: **483**
-- Published or conflict-visible claims: **906**
+- Published or conflict-visible claims: **914**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 123 production workflow and deployment checks: **passed** for release
-  `cb42cec`
+- Batch 124 production workflow and deployment checks: **pending**; local
+  release QA passed
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3315,6 +3315,55 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 124 local release QA
+
+Batch 124 adds the ten visually checked page-eighteen rows from Kenneth R.
+Bailey through Walter L. Bailey. The reviewed bundle imports ten durable
+research attempts, twenty sources, eight claims, and twenty-one claim-source
+links. It adds no organization or affiliation. Official AAD evidence confirms
+Kenneth R. Bailey, Morris F. Bailey, Thomas H. Bailey, and Walter H. Bailey
+without exposing their private identifiers. Their student, semiskilled-
+routeman, photographer, and broad higher-education categories remain
+occupation/status-only findings because the records name no school or
+employer. Six identities remain unresolved and route to Boxes 29 or 30. The
+rare Montana Urcle Bailey newspaper candidate remains unlinked rather than
+published as the indexed person.
+
+The evidence importer passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The Python suite passed 54 / 54. The focused Batch 124 regression
+passed 3 / 3 across desktop, phone, and tablet after two assertions were
+aligned with the exact published wording. The complete browser, responsive,
+direct-route, search, and axe matrix passed 417 / 417. The internal-link checker
+passed all 24,226 HTML pages and inventoried 48,676 unique external URLs. The
+dependency audit found zero vulnerabilities, and the deterministic 200-profile
+stratified audit passed every invariant.
+
+Two consecutive final builds produced the identical
+`64f80b81e48e6393130d21de9f4574fa0e7b47835bd5924077b9f4a2d10641f3`
+content-tree hash across 24,366 public, generated, and built-site artifacts,
+including 24,296 static-site artifacts and 24,226 HTML pages. All 65 public
+manifest assets matched their recorded sizes and SHA-256 values in the public
+source tree and built site. The manifest forbidden-field check passed, and the
+manifest SHA-256 is
+`39ddd904f52b7a6fe3f1efe601140fb1b9652ef9336d161b837ed37c591a3474`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across 24,372 production artifacts
+and found zero full matches. No local `.env` file, nonblank tracked API-key
+assignment, authenticated Catalog API request, or raw Catalog response was
+present.
+
+The Batch 124 database contains 2,090 durable research attempts, 1,630 private
+citation records, 487 affiliations, 279 organizations, and 935 claims: 174
+confirmed, 623 high, 113 medium, 21 low, and four conflicting. The reviewed
+public projection contains 938 source records representing 781 unique
+documents, 483 affiliations, and 914 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,060 people with a non-planned research
+attempt, 238 with verified-affiliation evidence, 136 with verified employment
+or self-employment evidence, and 1,008 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 277 organizations, 483
+affiliations, and 938 sources. No authenticated NARA Catalog request was made.
 
 ## Batch 123 local release QA
 

@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 414 / 414 complete-suite browser cases, plus 3 / 3 focused Batch 123
+**PASS - 417 / 417 complete-suite browser cases, plus 3 / 3 focused Batch 124
 cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
@@ -1008,6 +1008,28 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 124 accessibility and responsive regression
+
+Batch 124 verifies Kenneth R. Bailey through Walter L. Bailey at desktop,
+phone, and tablet sizes. It checks all ten direct profile routes, Boxes 29 and
+30, personnel categories, commissioned status, exact indexed forms, and
+field-level serial masking. Six profiles visibly retain unresolved identity
+and archival-review status; the four exact AAD matches visibly retain confirmed
+identity and occupation-only status.
+
+The regression verifies that Kenneth's student code names no school, Morris's
+semiskilled-routeman category names no employer, Thomas's photographer category
+names no studio, and Walter H.'s broad higher-education category names no
+institution. All four remain outside employer and affiliation sections. Urcle
+G. Bailey's profile routes the Montana laundry-work candidate to Box 30
+comparison without assigning an identity or affiliation. None of the ten
+receives an unsupported immediate pre-OSS affiliation.
+
+After two assertions were aligned with the exact published wording, the
+focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, direct-route, search, and accessibility matrix passed 417 / 417
+with no assertion or serious/critical axe failure.
 
 ## Batch 123 accessibility and responsive regression
 

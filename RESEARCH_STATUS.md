@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,050 people with a non-planned attempt | 23,941 person entities | 4.3858% |
+| Research-attempt coverage | 1,060 people with a non-planned attempt | 23,941 person entities | 4.4276% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 998 people with an individual file-access/priority assessment | 23,941 person entities | 4.1686% |
+| Archival-review coverage | 1,008 people with an individual file-access/priority assessment | 23,941 person entities | 4.2104% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 71
+- Identity status `confirmed`: 75
 - Identity status `high_confidence`: 297
 - Identity status `probable`: 36
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,506
+- Identity status `unresolved`: 23,502
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,891
+- `not_started`: 22,881
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 56
-- `requires_archival_review`: 702
+- `occupation_only_found`: 60
+- `requires_archival_review`: 708
 - `completed`: 54
 - `conflicting_sources`: 4
 - `verified_employer_found`: 138
@@ -64,7 +64,7 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 481
+- Reviewed-web terminal-protocol attempts recorded: 491
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -79,12 +79,12 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 402 across 383 people; 27 additional
+- Saved `source_reviewed` outcomes: 406 across 387 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,080
+- Total recorded attempts/plans: 2,090
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 385; 367 have at least one public-eligible
+- People with saved reviewed claims: 389; 371 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1164,10 +1164,28 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   production audit matched all 17 tested routes and all 65 manifest assets to
   the audited local build and found zero full private-identifier matches
   across 83 live artifacts.
+- Batch 124 continues page eighteen from Kenneth R. Bailey through Walter L.
+  Bailey. Exact private-identifier comparisons in NARA's public AAD Army
+  enlistment table confirm Kenneth R. Bailey, Morris F. Bailey, Thomas H.
+  Bailey, and Walter H. Bailey. The official records support only student,
+  semiskilled-routeman, photographer, and broad college-president/professor/
+  instructor occupation categories at Army entry; none names a school or
+  employer, and all four findings remain excluded from employer and
+  affiliation analytics. Marcella D. Bailey, Robert C. Bailey, Lieutenant
+  Stephen K. Bailey, Urcle G. Bailey, Waldo E. Bailey, and Walter L. Bailey
+  remain unresolved and route to Boxes 29 or 30. Three contemporary Montana
+  newspaper entries for an exact or near-exact Urcle Bailey name remain an
+  unlinked candidate because they provide no OSS, military, Box 30, residence,
+  birth, or other corroborating identifier. The batch adds no organization,
+  affiliation, immediate-pre-OSS claim, or civilian-employer claim. Local
+  release QA passed 54 Python tests, 417 browser/accessibility cases, all
+  24,226 internal HTML routes, the deterministic rebuild, and the exhaustive
+  private-identifier scan. Production deployment remains pending at this
+  checkpoint.
 - Published affiliations: 483
-- Database claims: 927; public-visible claims: 906 (166 confirmed, 623 high,
+- Database claims: 935; public-visible claims: 914 (174 confirmed, 623 high,
   113 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,610; public source export: 930; unique source documents: 776
+- Citation records: 1,630; public source export: 938; unique source documents: 781
 - Canonical organizations: 279 private and 277 public
 - Conflicts: 5
 - NARA pull-list rows: 23,840

@@ -11518,3 +11518,68 @@ test("Batch 123 publishes two bounded occupation findings and preserves eight Bo
     );
   }
 });
+
+test("Batch 124 publishes four bounded occupation findings and preserves six Box 29-30 review paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["32b39a22-46a3-58da-ac3e-2ebac9b8b041", "Kenneth R Bailey", "29", "enlisted army personnel"],
+    ["261108f5-ad5e-59d8-8bd3-eaf921ebb2b5", "Marcella D Bailey", "29", "unknown or indeterminate"],
+    ["f5e03503-cedd-5521-b9c9-ba03bdebc35e", "Morris F Bailey", "29", "enlisted army personnel"],
+    ["5e88f040-b80c-5b3b-8aad-db6c1263a76b", "Robert C Bailey", "29", "enlisted army personnel"],
+    ["6299bf2d-05ad-58d0-b843-5eb78921c785", "Stephen K Bailey", "29", "commissioned army officer"],
+    ["3bbd389e-5d2a-5f0d-9d62-67d47df29282", "Thomas H Bailey", "30", "enlisted army personnel"],
+    ["c3ebcc15-2b6b-5cec-ac5d-d4116d02ba38", "Urcle G Bailey", "30", "unknown or indeterminate"],
+    ["bf479992-9db8-5c6f-b295-ae8392d85e27", "Waldo E Bailey", "30", "enlisted army personnel"],
+    ["bd08c2d0-6865-52b7-b687-275c2fd3b0a7", "Walter H Bailey", "30", "enlisted army personnel"],
+    ["d49fcf33-5991-5ae9-a553-1fee9d476bef", "Walter L Bailey", "30", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, box, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "261108f5-ad5e-59d8-8bd3-eaf921ebb2b5",
+    "5e88f040-b80c-5b3b-8aad-db6c1263a76b",
+    "6299bf2d-05ad-58d0-b843-5eb78921c785",
+    "c3ebcc15-2b6b-5cec-ac5d-d4116d02ba38",
+    "bf479992-9db8-5c6f-b295-ae8392d85e27",
+    "d49fcf33-5991-5ae9-a553-1fee9d476bef",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  const occupationProfiles = [
+    ["32b39a22-46a3-58da-ac3e-2ebac9b8b041", "occupation category students"],
+    ["f5e03503-cedd-5521-b9c9-ba03bdebc35e", "semiskilled routeman occupation category"],
+    ["3bbd389e-5d2a-5f0d-9d62-67d47df29282", "photographer occupation category"],
+    ["bd08c2d0-6865-52b7-b687-275c2fd3b0a7", "college presidents, professors, and instructors"],
+  ];
+  for (const [personId, claimText] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(claimText);
+  }
+
+  await page.goto("./people/c3ebcc15-2b6b-5cec-ac5d-d4116d02ba38/");
+  await expect(page.locator("main")).toContainText("compare those identifiers with the 1937-1938 Montana laundry-work candidate");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+});

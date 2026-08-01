@@ -1134,6 +1134,37 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 124 local release check
+
+The rebuilt site contains direct, internally resolved routes for Kenneth R.
+Bailey, Marcella D. Bailey, Morris F. Bailey, Robert C. Bailey, Stephen K.
+Bailey, Thomas H. Bailey, Urcle G. Bailey, Waldo E. Bailey, Walter H. Bailey,
+and Walter L. Bailey. Every route preserves page-eighteen and Box 29 or 30
+provenance, a masked or explicitly unprinted private identifier, personnel
+classification, and an evidence-limited immediate-affiliation field. Kenneth,
+Morris, Thomas, and Walter H. expose supported occupation/status-only claims
+and official NARA citations without creating employer or organization routes.
+The other six display explicit unresolved and archival-review outcomes.
+
+The complete local link checker passed all 24,226 HTML files and inventoried
+48,676 unique external URLs. The reviewed external targets for this batch
+include the official NARA AAD Army record series, limitation guidance and
+occupation code list, the CIA Reading Room OSS collection, and the current
+Library of Congress Chronicling America collection/API and item surfaces.
+Three Montana newspaper entries remain rejected identity leads for Urcle G.
+Bailey. Access failures and non-results were not converted into historical
+negative evidence.
+
+The public downloads contain 23,941 person rows, 277 organization rows, 483
+affiliation rows, and 938 source rows. All 65 manifest-listed assets matched
+their recorded sizes and SHA-256 values in both the public source tree and
+built site; the manifest forbidden-field check passed. The local manifest
+SHA-256 is
+`39ddd904f52b7a6fe3f1efe601140fb1b9652ef9336d161b837ed37c591a3474`.
+A boundary-aware comparison of 12,919 normalized private identifiers and 121
+formatted variants across 24,372 production artifacts found zero full
+matches.
+
 ## Batch 123 local release check
 
 The rebuilt site contains direct, internally resolved routes for Bodizar
