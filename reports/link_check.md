@@ -1140,6 +1140,26 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 132 local release check
+
+The rebuilt site contains direct routes for Francis A. Balfour, Nina Balfour,
+Julius M. Balick, Joseph A. Balint, Dorothy L. Balkam, John Balko, Berkley C.
+Ball, Frank L. Ball Jr., John J. Ball Jr., and Leon F. Ball. All ten retain
+page-twenty and Box 32 provenance with field-level serial masking. Seven are
+visibly unresolved; Berkley and Frank Ball retain qualified identity evidence
+without a published pre-OSS employer; Leon Ball presents the Niveau identity,
+an occupation-only finding, and a separate Centre américain de secours route.
+
+The complete local link checker passed all 24,235 HTML files and inventoried
+48,713 unique external URLs. Public downloads contain 23,941 personnel CSV and
+JSONL rows, 286 organization rows, 498 affiliation rows, and 998 source rows.
+All 65 manifest-listed files matched their recorded sizes and SHA-256 values,
+the manifest redaction check passed, and the manifest SHA-256 is
+`a53a400661d0f31ef55d67e2082f5a6b2dc6cf85b9ac6a90cadd8a4cce4c163d`.
+A boundary-aware comparison of 12,919 normalized private identifiers and 121
+formatted variants against 24,304 public text and compressed artifacts found
+zero full matches.
+
 ## Batch 131 local release check
 
 The rebuilt site contains direct, internally resolved routes for Arthur L.

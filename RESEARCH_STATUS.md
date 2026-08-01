@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,110 people with a non-planned attempt | 23,941 person entities | 4.6364% |
-| Verified-affiliation coverage | 242 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0108% |
-| Verified-employer coverage | 138 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5764% |
-| Archival-review coverage | 1,058 people with an individual file-access/priority assessment | 23,941 person entities | 4.4192% |
+| Research-attempt coverage | 1,141 people with a non-planned attempt | 23,941 person entities | 4.7659% |
+| Verified-affiliation coverage | 246 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0275% |
+| Verified-employer coverage | 140 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5848% |
+| Archival-review coverage | 1,089 people with an individual file-access/priority assessment | 23,941 person entities | 4.5487% |
 
 ## Extraction and identity
 
@@ -18,44 +18,45 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 212
+- Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
-- Identity status `high_confidence`: 301
-- Identity status `probable`: 37
+- Identity status `high_confidence`: 308
+- Identity status `probable`: 39
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,490
+- Identity status `unresolved`: 23,481
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,507
+- Unknown or indeterminate: 16,505
 - Enlisted Army personnel: 3,514
-- Commissioned Army officers: 2,069
+- Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,460
+- Civilian professional or administrative grades: 1,461
 - Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 53
 - Commissioned naval officers: 81
 - Warrant officers: 4
 
-Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
+Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,831
+- `not_started`: 22,800
 - `in_progress`: 51
 - `candidate_found`: 1
-- `needs_identity_review`: 13
+- `needs_identity_review`: 14
+- `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 65
-- `requires_archival_review`: 749
+- `occupation_only_found`: 67
+- `requires_archival_review`: 773
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 140
+- `verified_employer_found`: 143
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -64,7 +65,7 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 531
+- Reviewed-web terminal-protocol attempts recorded: 572
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -79,12 +80,12 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 417 across 398 people; 28 additional
+- Saved `source_reviewed` outcomes: 424 across 405 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,140
+- Total recorded attempts/plans: 2,171
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 401; 383 have at least one public-eligible
+- People with saved reviewed claims: 410; 392 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1310,13 +1311,36 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
   20 tested routes and all 65 manifest assets to the audited local build,
   reproduced every live coverage statistic and download count, and found zero
   full private-identifier matches across 85 live artifacts.
-- Published affiliations: 490
-- Database claims: 959; public-visible claims: 938 (185 confirmed, 634 high,
-  115 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,722; public source export: 969; unique source documents: 801
-- Canonical organizations: 282 private and 280 public
+- Batch 132 continues page twenty from Francis A. Balfour through Leon F.
+  Ball. The complete page was rendered at 300 dpi and inspected at original
+  resolution; all 46 rows match the parser, so page 20 is now a durable
+  matching-page review. Three identities meet the high-confidence threshold.
+  Contemporary Washington newspapers identify Berkley C. Ball as Berkley
+  Clark Ball of Arlington and document his 1944 Army entry and private rank;
+  they do not establish an OSS entry date or civilian employer. The same
+  newspaper documents Frank L. Ball Jr.'s progression from Army lieutenant in
+  1942 to major in 1944, but his pre-OSS pathway and employer remain
+  unresolved. A sourced infiltration chronology identifies Leon F. Ball,
+  alias Niveau, as an OSS officer, while French institutional sources
+  corroborate the alias and lieutenant role. Pierre Sauvage documents Ball's
+  1930s occupation as a lard salesman in France without naming an employer;
+  the Centre américain de secours is preserved as a separate 1940-1941
+  professional affiliation, not an assumed immediate predecessor. Francis A.
+  Balfour, Nina Balfour, Julius M. Balick, Joseph A. Balint, Dorothy L.
+  Balkam, John Balko, and John J. Ball Jr. remain unresolved. Nine Batch 132
+  profiles route to Box 32 archival review; Leon Ball is occupation-only.
+  The batch adds 23 source records, one organization, one affiliation, five
+  high-confidence public claims, and ten durable research attempts. The public
+  AAD interface returned HTTP 403, which is recorded as an access limitation,
+  not a negative result. No authenticated Catalog API request or raw Catalog
+  response was used.
+- Published affiliations: 498
+- Database claims: 979; public-visible claims: 958 (185 confirmed, 650 high,
+  119 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 1,946; public source export: 998; unique source documents: 826
+- Canonical organizations: 288 private and 286 public
 - Conflicts: 5
-- NARA pull-list rows: 23,838
+- NARA pull-list rows: 23,835
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1492,6 +1516,9 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-continuation-pathways_batch-127_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-common-names-and-gibbs-latimer-baker_batch-128_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-officers-civilians-and-weather-candidate_batch-129_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-twenty-bakewell-through-baldanza-and-ballachey-duplicate_batch-130_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-baldwin-through-balei-pathways_batch-131_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-balfour-through-ball-pathways_batch-132_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

@@ -3316,6 +3316,56 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
 
+## Batch 132 local release QA
+
+Batch 132 adds the ten contiguous page-twenty profiles from Francis A.
+Balfour through Leon F. Ball. The strict reviewed-evidence bundle imports 23
+sources, one organization, one affiliation, five claims, 14 claim-source
+links, ten person updates, and ten terminal research attempts. The complete
+page-twenty render was checked at original resolution and added to the durable
+visual-review manifest; the parser now records 64 matching pages, 20 corrected
+pages, and all 23 warning rows resolved.
+
+Seven identities remain unresolved. Berkley C. Ball and Frank L. Ball Jr.
+receive high-confidence identity claims while retaining archival-review status
+because the reviewed sources do not establish their pre-OSS sequence or
+civilian employers. Leon F. Ball receives a high-confidence Niveau identity,
+a documented 1940-1941 Centre américain de secours professional affiliation,
+and a 1930s lard-sales occupation claim without a named employer. No wartime
+rank progression, civic activity, or rescue affiliation is silently converted
+into immediate pre-OSS employment.
+
+The complete deterministic replay processed 522 pages and 23,978 source rows,
+linked all rows to 23,941 person entities, replayed all 132 evidence batches,
+and built 24,235 static pages with zero Astro errors, warnings, or hints. The
+Python suite passed 55 / 55. The focused Batch 132 desktop, phone, and tablet
+regression passed 3 / 3 after two test-only false positives were corrected: one
+expected a combined PDF-page label, and one mistook a numeric UUID segment for
+a service number. The complete browser, responsive, and accessibility matrix
+then passed 441 / 441 in 6.1 minutes. `npm audit --audit-level=high` reported
+zero vulnerabilities.
+
+The internal-link checker passed all 24,235 HTML pages and inventoried 48,713
+unique external URLs. Two consecutive static builds produced the identical
+content-tree hash
+`86004b9a000ab1e2bed69870cf81eb626fb28da63ee677f568e32986c7124fbb`.
+All 65 manifest files matched their recorded sizes and SHA-256 values; the
+manifest SHA-256 is
+`a53a400661d0f31ef55d67e2082f5a6b2dc6cf85b9ac6a90cadd8a4cce4c163d`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 24,304 HTML, data, compressed-mirror, manifest,
+download, script, and style artifacts and found zero full matches. No local
+`.env` or nonblank API-key assignment is present, and no authenticated NARA
+Catalog request was made.
+
+The Batch 132 database contains 2,171 durable research attempts, 1,790 private
+source records, 503 affiliations, 979 claims, and 1,946 claim-source links.
+The reviewed public projection contains 998 source records representing 826
+unique documents, 498 affiliations, and 958 claims. Coverage distinguishes
+1,141 people with a non-planned research attempt, 246 people with verified
+affiliation evidence, 140 people with verified employment or self-employment
+evidence, and 1,089 people whose archival-review need has been assessed.
+
 ## Batch 131 local release QA
 
 Batch 131 adds the ten visually checked contiguous page-twenty rows from

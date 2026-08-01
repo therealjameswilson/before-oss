@@ -2482,6 +2482,46 @@ accessed, and no raw API response, full private identifier, copyrighted page,
 home address, or people-finder data was stored in the repository or public
 projection.
 
+## Page-twenty Balfour-through-Ball pathways, Batch 132
+
+`research/evidence-page-twenty-balfour-through-ball-pathways_batch-132_2026-08-01.json`
+records ten contiguous rows from Francis A. Balfour through Leon F. Ball on
+PDF page 20. The page was rendered at 300 dpi and inspected at original
+resolution. All 46 printed rows match the parsed names, initials, grades or
+ranks, identifier-column occupancy, boxes, and archive locations, so page 20
+is now retained in the cumulative matching-page review manifest without a
+parser correction. Full private identifiers remain in SQLite only.
+
+The reviewed evidence bundle contains 23 source records, one normalized
+organization, one affiliation, five claims, 14 claim-source links, ten person
+updates, and ten terminal research attempts. Contemporary *Evening Star*
+items support high-confidence identity matches for Berkley Clark Ball and
+Frank L. Ball Jr. Their wartime Army evidence does not establish the date or
+sequence of OSS entry, so no immediate pre-OSS affiliation or civilian
+employer is assigned.
+
+A sourced CND-Castille infiltration chronology identifies Leon F. Ball,
+alias Niveau, as OSS and describes his June 1944 France mission. The Musée de
+la Résistance en ligne and the municipality of Passy independently connect
+Léon Ball or Niveau to the U.S. Army lieutenant and resistance context. Pierre
+Sauvage's Varian Fry research documents Ball as a lard salesman in 1930s
+France without naming a company. Villa Air-Bel and Sauvage place him with the
+Marseille rescue team associated with the Centre américain de secours in
+1940-1941. That relationship is modeled as a professional affiliation because
+the sources do not establish paid or volunteer status, and it is not labeled
+the immediate predecessor to OSS.
+
+Francis A. Balfour, Nina Balfour, Julius M. Balick, Joseph A. Balint, Dorothy
+L. Balkam, John Balko, and John J. Ball Jr. remain unresolved after official
+context, CIA Reading Room, current Library of Congress API, exact-name OSS,
+employment, occupation, newspaper, obituary, directory, institutional, and
+archival searches. Nine profiles route to Box 32 review; Leon Ball retains an
+occupation-only result and the same archival next action. The public AAD
+interface returned HTTP 403, which is recorded only as an access limitation.
+No authenticated NARA Catalog API request was made, no key was accessed, and
+no raw API response, copyrighted page, full private identifier, home address,
+or people-finder data was stored in the public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

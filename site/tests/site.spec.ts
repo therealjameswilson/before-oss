@@ -12131,3 +12131,99 @@ test("Batch 131 separates lend-lease, civilian publishing, Army, advertising, an
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 132 preserves seven unresolved identities and qualifies the three supported Ball identities", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["1cf10caf-6e59-5fc5-b278-cbf615980a5b", "Francis A Balfour"],
+    ["0bc6ba50-1e66-5a28-ae1b-be39391fa475", "Nina Balfour"],
+    ["b788c7df-4878-5dc7-919e-8b522de27aaa", "Julius M Balick"],
+    ["261d6884-1594-526e-b26e-b15e566f6db3", "Joseph A Balint"],
+    ["549c77e3-70e8-5d00-88bf-12ffc83f9851", "Dorothy L Balkam"],
+    ["ffe506ac-7aa6-5586-808a-05d346e4a2a7", "John Balko"],
+    ["2b76d6fd-c67f-540f-9001-f2085cf36dcc", "Berkley C Ball"],
+    ["8fcf8786-1fb8-5c27-92b1-d96d355c3f79", "Frank L Ball Jr."],
+    ["2ac60374-2c37-5ce7-9d68-926110f51678", "John J Ball Jr."],
+    ["d3503752-d5de-5051-8877-bb516c708a58", "Leon F Ball"],
+  ];
+
+  for (const [personId, displayName] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("32", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("PDF page");
+    await expect(page.locator("main")).toContainText("Page 20");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = [
+    "1cf10caf-6e59-5fc5-b278-cbf615980a5b",
+    "0bc6ba50-1e66-5a28-ae1b-be39391fa475",
+    "b788c7df-4878-5dc7-919e-8b522de27aaa",
+    "261d6884-1594-526e-b26e-b15e566f6db3",
+    "549c77e3-70e8-5d00-88bf-12ffc83f9851",
+    "ffe506ac-7aa6-5586-808a-05d346e4a2a7",
+    "2ac60374-2c37-5ce7-9d68-926110f51678",
+  ];
+
+  for (const personId of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/2b76d6fd-c67f-540f-9001-f2085cf36dcc/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Berkley Clark Ball");
+  await expect(
+    page.getByRole("link", { name: "The Evening Star, May 28, 1944", exact: true }).first(),
+  ).toHaveAttribute("href", /loc\.gov/);
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/8fcf8786-1fb8-5c27-92b1-d96d355c3f79/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("progression from lieutenant in 1942 to major in 1944");
+  await expect(
+    page.getByRole("link", { name: "The Evening Star, October 8, 1944", exact: true }).first(),
+  ).toHaveAttribute("href", /loc\.gov/);
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/d3503752-d5de-5051-8877-bb516c708a58/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Niveau");
+  await expect(page.locator("main")).toContainText("lard salesman");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Centre américain de secours",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "professional affiliation",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./organizations/463def8b-1633-5a8d-8c1a-af710fc29b9a/");
+  await expect(
+    page.getByRole("heading", { name: "Centre américain de secours", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Leon F Ball");
+});

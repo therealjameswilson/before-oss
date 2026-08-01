@@ -1013,6 +1013,25 @@ completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
 
+## Batch 132 accessibility and responsive regression
+
+The Batch 132 regression checks all ten direct profiles from Francis A.
+Balfour through Leon F. Ball at desktop, phone, and tablet widths. It verifies
+Box 32 and page-twenty provenance, field-level serial masking, seven visibly
+unresolved identities, two high-confidence identity-only Army profiles, and
+Leon F. Ball's separately modeled occupation and Marseille rescue affiliation.
+The Centre américain de secours organization route links back to Leon Ball,
+while the immediate-affiliation and civilian-employer sections remain
+explicitly unresolved.
+
+The first two focused runs exposed only assertion-design errors: the page label
+and value are separate accessible nodes, and a broad seven-to-eight-digit
+pattern matched a public source-record UUID rather than a private identifier.
+The assertions were narrowed to the rendered semantics and serial field. The
+focused desktop, phone, and tablet run then passed 3 / 3. The complete browser,
+responsive, and accessibility matrix passed 441 / 441 with no assertion or
+serious/critical axe failure.
+
 ## Batch 131 accessibility and responsive regression
 
 Batch 131 verifies the ten contiguous Arthur L. Baldwin-through-Dominick
