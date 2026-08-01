@@ -7,18 +7,18 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,224 pages**
 - Internal link check: **24,224 HTML files passed**
-- Browser and accessibility suite: **402 / 402 passed**
+- Browser and accessibility suite: **405 / 405 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`9cae2557cb159d8f2ee9df5288356b13119b04a7b03a07696743a17b085d48ef`)
-- Latest complete replay (Batch 119): **byte-for-byte identical** public
+  (`1cb019ab99f209750aeb85d00abaff47edbbc9035f02a03b7414b72029885bca`)
+- Latest complete replay (Batch 120): **byte-for-byte identical** public
   and generated site data and all **24,294** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
-  all 119 evidence batches.
+  all 120 evidence batches.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `5027d04de3e84bf02f63d4730ad68deb7a5e3d332cb402ea4229f8ab475cff4a`
+  `bee0b67962e890405a8354a91b92733a2c5aaf159a2018b144893955309472e9`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -26,10 +26,10 @@ Run: 2026-08-01 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,370** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **887** public records representing **753** unique documents
-- Private citation records: **1,531**
-- Published, qualified affiliations: **480**
-- Published claims: **877**
+- Reviewed public sources: **902** public records representing **760** unique documents
+- Private citation records: **1,553**
+- Published, qualified affiliations: **481**
+- Published claims: **885**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -37,18 +37,18 @@ Run: 2026-08-01 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30693929097](https://github.com/therealjameswilson/before-oss/actions/runs/30693929097)
-  for Batch 119 release `6e4ebfa`: **passed**
+  [30695930062](https://github.com/therealjameswilson/before-oss/actions/runs/30695930062)
+  for Batch 120 release `0cb4ef1`: **passed**
 - GitHub Pages deployment workflow
-  [30693929117](https://github.com/therealjameswilson/before-oss/actions/runs/30693929117)
-  for Batch 119 release `6e4ebfa`: **passed**
+  [30695930052](https://github.com/therealjameswilson/before-oss/actions/runs/30695930052)
+  for Batch 120 release `0cb4ef1`: **passed**
 - Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `5027d04de3e84bf02f63d4730ad68deb7a5e3d332cb402ea4229f8ab475cff4a`
+  `bee0b67962e890405a8354a91b92733a2c5aaf159a2018b144893955309472e9`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1518,6 +1518,95 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 120 local release QA
+
+Batch 120 adds the ten visually checked final rows of page seventeen, from
+Samuel D. Backus through James W. Bader. The reviewed bundle imports ten
+durable research attempts, twenty-two sources, one organization, one
+affiliation, eight claims, and twenty-two claim-source links. Official AAD
+records confirm Samuel Backus, Charles Bacon, and Nate Badami without exposing
+their private identifiers. The two defined AAD occupation categories remain
+occupation-only findings. Direct institutional records support Elizabeth
+Bacon's qualified University of Washington employment, while the evidence
+does not establish an immediate transition to OSS. Albert Bacquet is retained
+as a high-confidence French Army sous-lieutenant and OSS mission participant,
+not assigned a conjectural prewar employer. Five identities remain unresolved,
+and all ten preserve their Box 28 source provenance.
+
+The bundle passed Pydantic validation through the durable importer and replayed
+idempotently. SQLite `quick_check` returned `ok`, and the foreign-key check
+returned zero errors. The Python suite passed 54 / 54. The static build
+completed 24,224 pages with zero Astro errors, warnings, or hints. After
+test-only expectations were aligned with the intentionally public profile
+copy, the focused run passed 3 / 3 across desktop, phone, and tablet. The
+complete responsive, direct-route, search, and axe matrix passed 405 / 405 in
+5.1 minutes. The internal link checker passed all 24,224 HTML pages and
+inventoried 48,666 unique external URLs. The dependency audit found zero
+vulnerabilities, and the deterministic 200-profile stratified audit passed
+every invariant.
+
+The pre-release build and complete replay produced the identical
+`1cb019ab99f209750aeb85d00abaff47edbbc9035f02a03b7414b72029885bca`
+content-tree hash across 24,294 built artifacts. All 65 public manifest assets
+matched their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field redaction check passed, and the
+manifest SHA-256 is
+`bee0b67962e890405a8354a91b92733a2c5aaf159a2018b144893955309472e9`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across 24,370 production
+artifacts, including compressed mirrors, and found zero unexpected full
+matches. The repository contains no local credential file or nonblank API-key
+assignment. No authenticated NARA Catalog API request or raw Catalog response
+was used.
+
+The Batch 120 database contains 2,050 durable research attempts, 1,553 private
+citation records, 485 affiliations, 277 organizations, and 905 claims: 151
+confirmed, 621 high, 110 medium, 20 low, and three conflicting. The reviewed
+public projection contains 902 source records representing 760 unique
+documents, 481 affiliations, and 885 claims. Coverage distinguishes 1,020
+people with a non-planned research attempt, 238 people with verified
+affiliation evidence, 136 people with verified employment or self-employment
+evidence, and 968 people whose archival-review need has been assessed. The
+public downloads contain 23,941 people, 275 organizations, 481 affiliations,
+and 902 sources.
+
+A complete replay reproduced the public release from the hash-verified
+522-page source PDF, all tracked page reviews and checkpoints, the review-
+decision import, and all 120 evidence bundles. Direct path-and-content
+comparisons found no byte difference in `site/public`, generated site inputs,
+or any of the 24,294 built artifacts. The replay database retained 23,978
+source rows, 23,941 person entities, 2,050 research attempts, 905 claims, 485
+affiliations, 277 organizations, and 1,553 citation records, with a successful
+SQLite integrity and foreign-key audit.
+
+## Batch 120 production deployment
+
+GitHub Actions test workflow
+[30695930062](https://github.com/therealjameswilson/before-oss/actions/runs/30695930062)
+and GitHub Pages deployment workflow
+[30695930052](https://github.com/therealjameswilson/before-oss/actions/runs/30695930052)
+completed successfully for release `0cb4ef1`. The CI job repeated the Python,
+Astro, production-build, internal-link, browser, responsive, and accessibility
+checks. Its browser matrix passed 405 / 405 in 6.5 minutes, and the complete
+workflow passed in 7 minutes 47 seconds. GitHub's non-blocking Node.js 20
+action-runtime annotation did not affect any project test or deployment step.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes and all ten Batch 120 person profiles. Live statistics
+reproduced 23,978 source rows, 23,941 person entities, 1,020 researched people,
+238 verified-affiliation people, 136 verified-employer people, 968 assessed
+archival-review needs, 885 published claims, and 902 public source records. The
+personnel CSV and JSONL each contain 23,941 records; organization, affiliation,
+and source downloads contain 275, 481, and 902 records.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`bee0b67962e890405a8354a91b92733a2c5aaf159a2018b144893955309472e9`.
+The field-aware privacy check directly scanned 82 live HTML, data, compressed-
+mirror, and download artifacts plus the separately verified manifest. It found
+zero unexpected full matches across all 83 artifacts.
 
 ## Batch 119 local release QA
 

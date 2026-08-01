@@ -12,13 +12,19 @@ The build includes 23,941 person profiles, 275 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,661 unique external URLs for separate live
+The checker inventoried 48,666 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
 
 | Target | Result |
 |---|---|
+| NARA Access to Archival Databases, Army enlistment tables | Public records reviewed through the current AAD interface; private identifiers were used only for identity comparison and are not published |
+| University of Washington, *General Catalog, 1944-1945* | Direct institutional PDF reviewed; Elizabeth Emaline Bacon appears among faculty on leave as Instructor in Far Eastern Studies |
+| Smithsonian Institution, Wendell Clark Bennett, *The Ethnogeographic Board* | Institutional item record and digitized 1947 report reviewed for Elizabeth Bacon's wartime board chronology |
+| Columbia University, David H. Price paper on anthropology and OSS | Institutional scholarly PDF reviewed for Elizabeth Bacon's ASTP, Ethnogeographic Board, and OSS R&A sequence |
+| Military Times Hall of Valor, Albert Bacquet Silver Star | Reproduced Headquarters USFET General Orders No. 46 text reviewed and qualified as a secondary access copy of the official order |
+| CND-Castille infiltration compilation, Mission Lapin | French archival compilation reviewed for Bacquet's Jean Coulombel alias and archival pointers |
 | Hoover Institution, 1944 North African theater personnel-interview index | Item metadata and declassified digitized index reviewed; direct profile citations point to record 69085.148 |
 | University of Maryland DRUM, Ross Elwood Backenstoss thesis | HTTP 200; institutional item metadata, 1943 date, author, DOI, and collection reviewed |
 | Hellenic Literary and Historical Archive, 1946 SSU successor-unit letter | Direct U.S. government document reviewed; access restrictions were not bypassed |
@@ -1127,6 +1133,48 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 120 local release check
+
+The rebuilt site contains direct, internally resolved routes for Samuel D.
+Backus, Charles A. Bacon Jr., Elizabeth E. Bacon, Greta Bacon, Gwendel Bacote,
+Albert E. Bacquet, Steve Bacsik, Michael Baczynski, Nate A. Badami, and James
+W. Bader. Their profiles preserve Box 28, indexed ranks and grades, blank or
+masked private identifiers, three confirmed identities, two high-confidence
+identities, five unresolved identities, two occupation-only results, one
+qualified last-civilian-employer claim, and no unsupported immediate
+affiliation.
+
+The complete local link checker passed all 24,224 HTML files and inventoried
+48,666 unique external URLs. The public downloads contain 23,941 person rows,
+275 organization rows, 481 affiliation rows, and 902 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site. The manifest forbidden-field check
+passed, and its SHA-256 is
+`bee0b67962e890405a8354a91b92733a2c5aaf159a2018b144893955309472e9`.
+The field-aware scan of 12,919 nontrivial normalized identifiers and 121
+formatted raw variants found zero unexpected full private-identifier matches
+across 24,370 production artifacts, including compressed mirrors.
+
+## Batch 120 production deployment
+
+GitHub Actions test workflow
+[30695930062](https://github.com/therealjameswilson/before-oss/actions/runs/30695930062)
+and GitHub Pages deployment workflow
+[30695930052](https://github.com/therealjameswilson/before-oss/actions/runs/30695930052)
+completed successfully for release `0cb4ef1`.
+
+All 17 tested publication routes returned HTTP 200 and matched the audited
+local HTML after plain and URL-encoded canonical-host normalization: seven core
+routes and all ten Batch 120 person profiles. Live statistics and all five
+public-download row counts reproduced the release. All 65 deployed manifest
+assets matched their recorded hashes and local bytes; the deployed and local
+manifest SHA-256 is
+`bee0b67962e890405a8354a91b92733a2c5aaf159a2018b144893955309472e9`.
+The field-aware scan directly checked 82 live artifacts and found zero
+unexpected full private-identifier matches; the deployed manifest was byte-
+identical to the separately scanned local manifest, for 83 audited live
+artifacts in total.
 
 ## Batch 119 local release check
 

@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 402 / 402 browser cases.**
+**PASS - 405 / 405 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -36,6 +36,14 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 120 adds direct desktop, phone, and tablet checks for all ten contiguous
+final page-seventeen profiles from Samuel D. Backus through James W. Bader. It
+verifies Box 28 routing, source-row ranks and civilian grades, field-level
+serial masking, the confirmed Backus, Charles Bacon, and Badami identities,
+Elizabeth Bacon's qualified University of Washington employment, Albert
+Bacquet's Allied commissioned-officer classification, the occupation-only
+findings, and the five visibly unresolved identities. It also verifies that
+none of the ten receives an unsupported immediate pre-OSS affiliation.
 Batch 119 adds direct desktop, phone, and tablet checks for all ten contiguous
 page-seventeen profiles from Albert E. Bachand through Emmett F. Backus. It
 verifies Box 28 routing, source-row ranks and civilian grades, field-level
@@ -1052,6 +1060,30 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 120 accessibility and responsive regression
+
+Batch 120 verifies Samuel D. Backus through James W. Bader at desktop, phone,
+and tablet sizes. The regression checks all ten direct Box 28 routes, indexed
+spelling, enlisted, civilian-grade, Allied commissioned, and indeterminate
+personnel classifications, field-level serial masking, and the separation of
+identity, occupation, employment, and immediate-affiliation evidence. It
+confirms Samuel Backus, Charles Bacon, and Nate Badami through the official
+AAD evidence without publishing full identifiers; qualifies Elizabeth
+Bacon's University of Washington employment without calling it immediate;
+identifies Albert Bacquet as a French Army sous-lieutenant; and keeps Greta
+Bacon, Gwendel Bacote, Steve Bacsik, Michael Baczynski, and James Bader visibly
+unresolved.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, direct-route, search, and axe matrix passed 405 / 405 locally.
+GitHub test workflow
+[30695930062](https://github.com/therealjameswilson/before-oss/actions/runs/30695930062)
+repeated the 405-case matrix for release `0cb4ef1` and completed successfully;
+the browser stage passed in 6.5 minutes. All ten deployed profiles and seven
+core routes returned HTTP 200 and matched their audited local accessible HTML
+after plain and URL-encoded canonical-host normalization. GitHub's non-blocking
+Node.js 20 action-runtime annotation did not affect any project test.
 
 ## Batch 119 accessibility and responsive regression
 

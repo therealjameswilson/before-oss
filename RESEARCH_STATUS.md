@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,010 people with a non-planned attempt | 23,941 person entities | 4.2187% |
+| Research-attempt coverage | 1,020 people with a non-planned attempt | 23,941 person entities | 4.2605% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 958 people with an individual file-access/priority assessment | 23,941 person entities | 4.0015% |
+| Archival-review coverage | 968 people with an individual file-access/priority assessment | 23,941 person entities | 4.0433% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 61
-- Identity status `high_confidence`: 293
+- Identity status `confirmed`: 64
+- Identity status `high_confidence`: 295
 - Identity status `probable`: 36
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 4
-- Identity status `unresolved`: 23,522
+- Identity status `unresolved`: 23,517
 
 ## Personnel categories
 
@@ -42,17 +42,17 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,158 yes; 5,005 no; 16,778 indeterminate.
+Commissioned classification: 2,159 yes; 5,005 no; 16,777 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,931
+- `not_started`: 22,921
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 30
-- `occupation_only_found`: 46
-- `requires_archival_review`: 675
+- `documented_prewar_employer_found`: 31
+- `occupation_only_found`: 48
+- `requires_archival_review`: 682
 - `completed`: 54
 - `conflicting_sources`: 3
 - `verified_employer_found`: 138
@@ -81,10 +81,10 @@ Commissioned classification: 2,158 yes; 5,005 no; 16,778 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 386 across 367 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,040
+- Total recorded attempts/plans: 2,050
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 368; 348 have at least one public-eligible
+- People with saved reviewed claims: 373; 356 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1083,10 +1083,32 @@ Commissioned classification: 2,158 yes; 5,005 no; 16,778 indeterminate.
   deployment workflow 30693929117. The production audit matched all 17 tested
   routes and all 65 manifest assets to the audited local build and found zero
   full private-identifier matches across 83 live artifacts.
-- Published affiliations: 480
-- Database claims: 897; public-eligible claims: 877 (146 confirmed, 619 high,
-  109 medium, 3 conflicting); 20 low-confidence claims are withheld
-- Citation records: 1,531; public source export: 887; unique source documents: 753
+- Batch 120 completes page seventeen from Samuel D. Backus through James W.
+  Bader. Exact name-and-private-identifier matches in NARA's public AAD Army
+  tables confirm Samuel D. Backus, Charles A. Bacon Jr., and Nate A. Badami.
+  Charles's semiskilled photographic-process category and Nate's semiskilled
+  textile-products fabrication category are published as occupations only;
+  Samuel's official occupation code is undefined and is not expanded. Direct
+  University of Washington, Smithsonian, and scholarly records support a
+  high-confidence Elizabeth Emaline Bacon identity and a qualified,
+  medium-confidence University of Washington last-civilian-employer claim,
+  but do not establish that it was immediately pre-OSS. A reproduced 1945
+  U.S. Army general order and a French archival compilation support a
+  high-confidence Albert E. Bacquet identity as a French Army sous-lieutenant
+  attached to an OSS special-intelligence mission; no prewar employer or
+  predecessor assignment is established. Greta Bacon, Gwendel Bacote, Steve
+  Bacsik, Michael Baczynski, and James W. Bader remain unresolved. The printed
+  Gwendel spelling remains authoritative while Gwendolyn is retained only as a
+  search alias; the cemetery namesake for Bacsik is rejected. All ten preserve
+  Box 28 provenance, and none receives an unsupported immediate affiliation.
+  Release `0cb4ef1` passed GitHub test workflow 30695930062 and Pages workflow
+  30695930052. The production audit matched all 17 tested routes and all 65
+  manifest assets to the audited local build and found zero full private-
+  identifier matches across 83 live artifacts.
+- Published affiliations: 481
+- Database claims: 905; public-eligible claims: 885 (151 confirmed, 621 high,
+  110 medium, 3 conflicting); 20 low-confidence claims are withheld
+- Citation records: 1,553; public source export: 902; unique source documents: 760
 - Canonical organizations: 277 private and 275 public
 - Conflicts: 4
 - NARA pull-list rows: 23,840
