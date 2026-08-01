@@ -36,7 +36,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 123 production workflow and deployment checks: **pending this release**
+- Batch 123 production workflow and deployment checks: **passed** for release
+  `cb42cec`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3360,6 +3361,31 @@ attempt, 238 with verified-affiliation evidence, 136 with verified employment
 or self-employment evidence, and 998 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 277 organizations, 483
 affiliations, and 930 sources.
+
+## Batch 123 production deployment
+
+GitHub Actions test workflow
+[30702501708](https://github.com/therealjameswilson/before-oss/actions/runs/30702501708)
+and GitHub Pages deployment workflow
+[30702501709](https://github.com/therealjameswilson/before-oss/actions/runs/30702501709)
+completed successfully for release `cb42cec`. CI repeated all 54 Python tests,
+the static build, dependency and internal-link checks, and the complete
+414-case browser, responsive, direct-route, search, and axe matrix. The only
+annotation was GitHub's non-failing notice that several official setup actions
+still target Node.js 20 and are currently forced to Node.js 24.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after canonical-host normalization. The set comprised the seven core routes
+and all ten Batch 123 person profiles. Live statistics and all five public
+download row counts exactly reproduced the release: 23,941 personnel CSV and
+JSONL rows, 277 organizations, 483 affiliations, and 930 sources.
+
+All 65 deployed manifest assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`516b47c7ebc38a495d764efb4c0bbf611f08d0982d923caa92bfeb74a510e48b`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 83 live HTML, data, compressed-mirror, manifest,
+and download artifacts and found zero full matches.
 
 ## Batch 122 local release QA
 

@@ -1159,7 +1159,11 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   Bailey, Georgia M. Bailey, First Lieutenant Irving S. Bailey, Captain Jason
   S. Bailey, and Corporal Jay E. Bailey remain unresolved after the minimum
   protocol and route to Box 29. The batch adds no organization, affiliation,
-  immediate-pre-OSS claim, or civilian-employer claim.
+  immediate-pre-OSS claim, or civilian-employer claim. Release `cb42cec`
+  passed GitHub test workflow 30702501708 and Pages workflow 30702501709. The
+  production audit matched all 17 tested routes and all 65 manifest assets to
+  the audited local build and found zero full private-identifier matches
+  across 83 live artifacts.
 - Published affiliations: 483
 - Database claims: 927; public-visible claims: 906 (166 confirmed, 623 high,
   113 medium, 4 conflicting); 21 low-confidence claims are withheld

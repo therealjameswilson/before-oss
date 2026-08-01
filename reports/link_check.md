@@ -1165,6 +1165,30 @@ A boundary-aware comparison of 12,919 normalized private identifiers and 121
 formatted variants across 24,372 production artifacts found zero full
 matches.
 
+## Batch 123 production deployment
+
+GitHub test workflow
+[30702501708](https://github.com/therealjameswilson/before-oss/actions/runs/30702501708)
+and Pages workflow
+[30702501709](https://github.com/therealjameswilson/before-oss/actions/runs/30702501709)
+completed successfully for release `cb42cec`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after canonical-host normalization: seven core publication routes and all ten
+Batch 123 profiles. The deployed statistics report 23,978 source rows, 23,941
+person entities, 1,050 people with non-planned research attempts, 238 people
+with verified affiliations, 136 with verified employment or self-employment,
+998 assessed archival-review needs, 906 public-visible claims, and 930 public
+source records. All five download counts reproduced the local release.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`516b47c7ebc38a495d764efb4c0bbf611f08d0982d923caa92bfeb74a510e48b`.
+The deployed forbidden-field check passed. A boundary-aware comparison of
+12,919 normalized private identifiers and 121 formatted variants across 83
+live HTML, data, compressed-mirror, manifest, and download artifacts found
+zero full matches.
+
 ## Batch 122 local release check
 
 The rebuilt site contains direct, internally resolved routes for Philip H.

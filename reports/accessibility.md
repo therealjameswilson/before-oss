@@ -1033,6 +1033,15 @@ The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
 responsive, direct-route, search, and accessibility matrix passed 414 / 414
 with no assertion or serious/critical axe failure.
 
+GitHub test workflow
+[30702501708](https://github.com/therealjameswilson/before-oss/actions/runs/30702501708)
+repeated the complete 414-case matrix for release `cb42cec` and completed
+successfully. GitHub Pages workflow
+[30702501709](https://github.com/therealjameswilson/before-oss/actions/runs/30702501709)
+also completed successfully. All ten deployed profiles and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after
+canonical-host normalization.
+
 ## Batch 122 accessibility and responsive regression
 
 Batch 122 verifies Philip H. Bagby through Frank P. Bahor at desktop, phone,
