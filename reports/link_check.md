@@ -1165,6 +1165,31 @@ A boundary-aware comparison of 12,919 normalized private identifiers and 121
 formatted variants across 24,372 production artifacts found zero full
 matches.
 
+## Batch 124 production deployment
+
+GitHub test workflow
+[30704847634](https://github.com/therealjameswilson/before-oss/actions/runs/30704847634)
+and Pages workflow
+[30704847641](https://github.com/therealjameswilson/before-oss/actions/runs/30704847641)
+completed successfully for release `a697a52`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes and all ten Batch 124 profiles. The deployed statistics
+report 23,978 source rows, 23,941 person entities, 1,060 people with non-planned
+research attempts, 238 people with verified affiliations, 136 with verified
+employment or self-employment, 1,008 assessed archival-review needs, 914
+public-visible claims, and 938 public source records. All five download counts
+reproduced the local release.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`39ddd904f52b7a6fe3f1efe601140fb1b9652ef9336d161b837ed37c591a3474`.
+The deployed forbidden-field check passed. A boundary-aware comparison of
+12,919 normalized private identifiers and 121 formatted variants across 83
+live HTML, data, compressed-mirror, manifest, and download artifacts found
+zero full matches.
+
 ## Batch 123 local release check
 
 The rebuilt site contains direct, internally resolved routes for Bodizar

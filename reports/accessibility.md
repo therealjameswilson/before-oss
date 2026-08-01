@@ -1031,6 +1031,15 @@ focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
 responsive, direct-route, search, and accessibility matrix passed 417 / 417
 with no assertion or serious/critical axe failure.
 
+GitHub test workflow
+[30704847634](https://github.com/therealjameswilson/before-oss/actions/runs/30704847634)
+repeated the complete 417-case matrix for release `a697a52` and completed
+successfully. GitHub Pages workflow
+[30704847641](https://github.com/therealjameswilson/before-oss/actions/runs/30704847641)
+also completed successfully. All ten deployed profiles and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after plain
+and URL-encoded canonical-host normalization.
+
 ## Batch 123 accessibility and responsive regression
 
 Batch 123 verifies Bodizar Bahoric through Jay E. Bailey at desktop, phone,

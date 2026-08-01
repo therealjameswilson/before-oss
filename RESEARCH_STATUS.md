@@ -1180,8 +1180,10 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   affiliation, immediate-pre-OSS claim, or civilian-employer claim. Local
   release QA passed 54 Python tests, 417 browser/accessibility cases, all
   24,226 internal HTML routes, the deterministic rebuild, and the exhaustive
-  private-identifier scan. Production deployment remains pending at this
-  checkpoint.
+  private-identifier scan. Release `a697a52` passed GitHub test workflow
+  30704847634 and Pages workflow 30704847641. The production audit matched all
+  17 tested routes and all 65 manifest assets to the audited local build and
+  found zero full private-identifier matches across 83 live artifacts.
 - Published affiliations: 483
 - Database claims: 935; public-visible claims: 914 (174 confirmed, 623 high,
   113 medium, 4 conflicting); 21 low-confidence claims are withheld
