@@ -1140,6 +1140,34 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 130 local release check
+
+The rebuilt site contains direct, internally resolved routes for Dorothy J.
+Bakewell, John J. Bakey, John G. Bakirdgis, Romeo Balaguer, Duane H. Balasty,
+Anthony I. Balasy, William E. Balazs, Wambley Bald, Egerton L. Baldachey,
+Stephen W. Baldanza, and the linked Egerton L. Ballachey record. Every route
+preserves its printed page and archival box, a masked or explicitly unprinted
+private identifier, and reviewed identity and personnel classifications.
+Ballachey's profile presents the verified Michigan State College pathway;
+Balasy's keeps a qualified Royal Hungarian Legation assignment separate from
+his unresolved predecessor questions; the Baldachey spelling remains a
+separate duplicate-cluster entity. Eight profiles visibly retain unresolved
+identity and archival-review status.
+
+Direct organization routes for Michigan State College and the Royal Hungarian
+Legation in Washington resolve and link back to the intended profiles. The
+complete local link checker passed all 24,230 HTML files and inventoried 48,696
+unique external URLs. The public downloads contain 23,941 person rows, 281
+organization rows, 492 affiliation rows, and 977 source rows. All 65
+manifest-listed assets match their recorded sizes and SHA-256 values in both
+the public source tree and built site, and the manifest forbidden-field check
+passed. The local manifest SHA-256 is
+`76d922022226bd924f5e2b89f3dcec54e741d8307b472eaef9ed2847784c169b`.
+All 66 compressed mirrors across the three production trees match their
+uncompressed counterparts. A boundary-aware scan of 12,919 normalized private
+identifiers and 121 formatted raw variants across 24,376 production artifacts
+found zero unexpected full matches.
+
 ## Batch 129 local release check
 
 The rebuilt site contains direct, internally resolved routes for Kenneth H.

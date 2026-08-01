@@ -4,13 +4,13 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 432 / 432 complete-suite browser cases across desktop, phone, and
+**PASS - 435 / 435 complete-suite browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The final Batch 129 suite completed without an assertion, navigation, or
+The final Batch 130 suite completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -30,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-138-person employer measure is labeled separately from the 242-person broader
+139-person employer measure is labeled separately from the 243-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1011,6 +1011,27 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 130 accessibility and responsive regression
+
+Batch 130 verifies the ten contiguous Bakewell-through-Baldanza index rows and
+the linked Ballachey duplicate-cluster row at desktop, phone, and tablet sizes.
+It checks all eleven direct profile routes, page and Box 31 or Box 33
+provenance, reviewed personnel categories, field-level identifier masking,
+eight archival-review outcomes, Anthony Balasy's qualified government path,
+and the visibly separate Baldachey/Ballachey entities. Ballachey's profile
+presents Michigan State College in both predecessor questions with claim-level
+citations. Balasy's page leaves both predecessor questions unresolved, and the
+Box 31 spelling variant receives no employer claim.
+
+The first full run exposed only a stale homepage assertion that hard-coded the
+Batch 129 affiliation totals. The test now reads the generated statistics, so
+future reviewed batches exercise the rendered values without manual count
+updates. Two focused assertion labels were aligned with the site's established
+unresolved and hashed duplicate-group presentation. The focused Batch 130 run
+then passed 3 / 3, and the complete desktop, phone, and tablet matrix passed
+435 / 435, including all 27 dedicated axe cases, with no assertion,
+navigation, or serious/critical axe failure.
 
 ## Batch 129 accessibility and responsive regression
 

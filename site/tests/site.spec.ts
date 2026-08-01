@@ -6,6 +6,13 @@ const people = JSON.parse(
   fs.readFileSync(new URL("../src/data/generated/people.json", import.meta.url), "utf8"),
 ) as Person[];
 const firstPerson = people[0];
+type Stats = {
+  verified_affiliation_people: number;
+  verified_employer_people: number;
+};
+const stats = JSON.parse(
+  fs.readFileSync(new URL("../src/data/generated/stats.json", import.meta.url), "utf8"),
+) as Stats;
 
 test("home reports the complete index and incomplete research honestly", async ({ page }) => {
   await page.goto("./");
@@ -13,9 +20,17 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/138 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(
+      `${stats.verified_employer_people} entities currently have confirmed/high published employment or self-employment evidence.`,
+      { exact: true },
+    ),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 242 entities/i)).toBeVisible();
+  await expect(
+    page.getByText(
+      `The broader affiliation measure currently covers ${stats.verified_affiliation_people} entities.`,
+      { exact: false },
+    ),
+  ).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -11947,4 +11962,86 @@ test("Batch 129 documents Baker's Ohio State and Library of Congress pathways wh
   await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
     "No reviewed claim currently meets the publication threshold",
   );
+});
+
+test("Batch 130 preserves ten source rows, resolves Ballachey's employer, and qualifies Balasy and the duplicate", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["825e2153-d4bc-57d7-9f27-a8dd08c54219", "Dorothy J Bakewell", "civilian professional or administrative grade"],
+    ["f68ced73-7fb5-587a-8014-a2fb8ae43948", "John J Bakey", "civilian professional or administrative grade"],
+    ["7199f8ea-c7ae-5fbf-bd15-2f736f872436", "John G Bakirdgis", "enlisted army personnel"],
+    ["1388b08c-f412-527c-bdd7-288791239792", "Romeo Balaguer", "unknown or indeterminate"],
+    ["d52dd821-1ff5-5e1e-a9bd-1eac3e74f6d7", "Duane H Balasty", "unknown or indeterminate"],
+    ["6fbec944-2c27-5115-84d4-e830c1fac290", "William E Balazs", "commissioned army officer"],
+    ["784a9be5-53b6-5529-af73-91c334772d47", "Wambley Bald", "unknown or indeterminate"],
+    ["543edc0e-58a2-571a-a738-df7901b87829", "Stephen W Baldanza", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("31", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5672d792-8da0-53b3-890f-e1b432c2ff25/");
+  await expect(page.getByRole("heading", { name: "Anthony I Balasy", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Royal Hungarian Legation",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "government assignment",
+  );
+  await expect(page.locator("main")).toContainText("Anthony de Balasy");
+  await expect(page.locator("main")).toContainText("middle initial I remains unexplained");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./organizations/f59ecdd8-3587-5864-9304-940fab721e8e/");
+  await expect(
+    page.getByRole("heading", { name: "Royal Hungarian Legation in Washington", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Anthony I Balasy");
+
+  await page.goto("./people/4306b544-8cf8-5651-a935-529961b7d516/");
+  await expect(page.getByRole("heading", { name: "Egerton L Baldachey", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".profile-aside")).toContainText(/duplicate-[a-f0-9]{12}/);
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/4cf8ea80-6bb8-59f5-891f-4f4a9ec12b63/");
+  await expect(page.getByRole("heading", { name: "Egerton L Ballachey", exact: true })).toBeVisible();
+  await expect(page.locator(".profile-aside").getByText("33", { exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Michigan State College",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Michigan State College",
+  );
+  await expect(page.locator("main")).toContainText("faculty member");
+  await expect(page.locator("main")).toContainText("Chief Psychologist in the O.S.S.");
+
+  await page.goto("./organizations/24ac156d-62e6-5107-a412-646391d990a2/");
+  await expect(page.getByRole("heading", { name: "Michigan State College", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Egerton L Ballachey");
 });
