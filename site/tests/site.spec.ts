@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/131 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/132 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 229 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 230 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10438,4 +10438,85 @@ test("Batch 110 preserves Atkisson-through-Atwood evidence and temporal boundari
   ).toBeVisible();
   await expect(page.locator("main")).toContainText("Grenfell Mission");
   await expect(page.getByRole("link", { name: "Roy B Attride Sr.", exact: true })).toBeVisible();
+});
+
+test("Batch 111 preserves Atwood-through-Aubrey evidence and predecessor boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1bde5214-0093-5448-81a6-dd27a57f13dd", "Elmer E Atwood", "enlisted army personnel"],
+    ["3c8b5ecc-8146-5395-b2d6-01d722df4acb", "John L Atwood", "enlisted army personnel"],
+    ["89cb9405-29e3-513b-9578-5c807f1a630f", "Margaret Atwood", "civilian professional or administrative grade"],
+    ["5f286125-32d8-503c-b0dd-a001cc4171e3", "Robert D Atwood", "enlisted army personnel"],
+    ["53dc459d-f622-5178-a94d-e52b92a081cd", "Samuel J Atwood", "enlisted army personnel"],
+    ["f6dbf762-c90e-58b2-9843-7849cc2844bb", "Wallace W Atwood Jr.", "commissioned army officer"],
+    ["a7306ebb-2f20-564e-abb9-aaa43fa55fb8", "Arthur S Aubrey Jr.", "enlisted army personnel"],
+    ["70f9b762-17f1-58ad-9ca7-2bacba4c9566", "August O Aubrey", "enlisted army personnel"],
+    ["f9b04d68-af1d-5aa4-8046-41eaed3b03da", "Jules W Aubrey", "commissioned army officer"],
+    ["e182fde8-163f-5961-b000-55d868e64aa4", "Leland K Aubrey", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("25", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const personId of profiles
+    .filter(([personId]) => personId !== "f6dbf762-c90e-58b2-9843-7849cc2844bb")
+    .map(([personId]) => personId)) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/f6dbf762-c90e-58b2-9843-7849cc2844bb/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Clark University");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("United States National Park Service");
+  await expect(page.locator("main")).toContainText("Atcorob");
+  await expect(page.locator("main")).toContainText("immediate pre-OSS affiliation remains unresolved");
+  await expect(
+    page.getByRole("link", { name: "Largest Map in World Near End", exact: true }).first(),
+  ).toHaveAttribute("href", /loc\.gov/);
+  await expect(
+    page.getByRole("link", { name: "Wallace Atwood Jr. map collection", exact: true }).first(),
+  ).toHaveAttribute("href", /findingaids\.loc\.gov/);
+
+  await page.goto("./organizations/10d9d453-94cc-59e5-a1ca-c337fe5ddc76/");
+  await expect(
+    page.getByRole("heading", { name: "Clark University", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Wallace W Atwood Jr.", exact: true })).toBeVisible();
+
+  await page.goto("./organizations/8fe17c91-fbcd-5761-bc76-17ce4cb65434/");
+  await expect(
+    page.getByRole("heading", { name: "United States National Park Service", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Wallace W Atwood Jr.", exact: true })).toBeVisible();
 });

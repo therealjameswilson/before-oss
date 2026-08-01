@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 375 / 375 browser cases.**
+**PASS - 378 / 378 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-131-person employer measure is labeled separately from the 229-person broader
+132-person employer measure is labeled separately from the 230-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,25 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 111 accessibility and responsive regression
+
+The Batch 111 regression checks the ten contiguous profiles from Elmer E.
+Atwood through Leland K. Aubrey across PDF pages fifteen and sixteen. It
+verifies every direct profile, Box 25 provenance, civilian and military
+classifications, suffixes, page boundaries, and field-level service-number
+masking. Wallace W. Atwood Jr.'s page publishes Clark University as qualified
+last civilian employment and the National Park Service as earlier government
+service, while leaving the immediate pre-OSS field unresolved. It also checks
+the Library of Congress, CIA, NPS, Clark University, and Army Map Service
+evidence and organization routes.
+
+The assertions preserve the nine other profiles as visibly unresolved with
+archival guidance and do not conflate Margaret Atwood with the later Canadian
+novelist. The focused desktop, phone, and tablet run passed 3 / 3. The complete
+desktop, phone, tablet, responsive, direct-route, search, and axe matrix passed
+378 / 378 with no assertion failure or serious/critical accessibility
+violation.
 
 ## Batch 110 accessibility and responsive regression
 

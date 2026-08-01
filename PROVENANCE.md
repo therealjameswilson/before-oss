@@ -1920,6 +1920,45 @@ live Catalog response was retained. Temporary source copies and page renders
 were used only for inspection outside the repository. No full service
 identifier appears in the evidence bundle or public projection.
 
+## Page-fifteen-and-sixteen Atwood-through-Aubrey pathways, Batch 111
+
+`research/evidence-page-fifteen-atwood-through-aubrey-pathways_batch-111_2026-07-31.json`
+records ten visually checked, contiguous rows from Elmer E. Atwood through
+Leland K. Aubrey across PDF pages fifteen and sixteen. Raw spellings, initials,
+suffixes, ranks, service-number presence or absence, Box 25, blank fields, and
+archival location were checked against high-resolution page renders. The
+bundle contains ten person updates, fourteen sources, two organizations, two
+affiliations, three claims, ten durable research attempts, and seven
+claim-source links.
+
+The Library of Congress Wallace W. Atwood papers finding aid, collection
+G3201.S7 coll Atwood and LCCN 2016431101, expands the indexed identity to
+Wallace Walter Atwood Jr., identifies him as Clark University's professor of
+physiography by circa 1940, and records his 1941-45 Army Map Service
+Topographic Model Section directorship. The December 11, 1940 *Waterbury
+Evening Democrat*, page 14, independently calls the 34-year-old Atwood a Clark
+University professor. Clark is therefore published as high-confidence last
+civilian employment, but not as an immediate pre-OSS affiliation.
+
+National Park Service administrative history documents Atwood's earlier
+earth-sciences assignment and replacement in March 1932. A CIA OSS-collection
+history, printed page 15/PDF page 17, documents the OSS Topographic Model
+Section and the Atcorob globe named for Atwood, H. L. Cooke, and Arthur
+Robinson. These sources do not establish whether Army Map Service preceded,
+overlapped, or administratively enclosed the OSS work. The precise immediate
+pre-OSS relationship remains unresolved rather than silently inferred.
+
+Elmer E. Atwood, John L. Atwood, Margaret Atwood, Robert D. Atwood, Samuel J.
+Atwood, Arthur S. Aubrey Jr., August O. Aubrey, Jules W. Aubrey, and Leland K.
+Aubrey remain unresolved after the staged protocol and route to Box 25 review.
+The aerospace executive John Leland Atwood lacks identifier or rank linkage to
+the indexed person, and the Canadian novelist Margaret Atwood is
+chronologically impossible; neither candidate is promoted. No authenticated
+NARA Catalog request was made, no API key was accessed, and no live Catalog
+response was retained. Temporary PDFs, API discovery responses, page renders,
+and text extracts were used only for inspection outside the repository. No
+full service identifier appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

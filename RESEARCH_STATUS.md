@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 920 people with a non-planned attempt | 23,941 person entities | 3.8428% |
-| Verified-affiliation coverage | 229 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9565% |
-| Verified-employer coverage | 131 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5472% |
-| Archival-review coverage | 868 people with an individual file-access/priority assessment | 23,941 person entities | 3.6256% |
+| Research-attempt coverage | 930 people with a non-planned attempt | 23,941 person entities | 3.8845% |
+| Verified-affiliation coverage | 230 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9607% |
+| Verified-employer coverage | 132 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5514% |
+| Archival-review coverage | 878 people with an individual file-access/priority assessment | 23,941 person entities | 3.6673% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 45
-- Identity status `high_confidence`: 283
+- Identity status `high_confidence`: 284
 - Identity status `probable`: 33
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,554
+- Identity status `unresolved`: 23,553
 
 ## Personnel categories
 
@@ -46,15 +46,15 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,021
+- `not_started`: 23,011
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 30
 - `occupation_only_found`: 36
-- `requires_archival_review`: 603
+- `requires_archival_review`: 612
 - `completed`: 52
-- `verified_employer_found`: 135
+- `verified_employer_found`: 136
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -72,10 +72,10 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 349 across 330 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,950
+- Total recorded attempts/plans: 1,960
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 336; 319 have at least one public-eligible
+- People with saved reviewed claims: 337; 320 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -952,13 +952,26 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
   F. Atwood remain unresolved and route to Box 25. Patent authorship, postwar
   FCC employment, an undated Wrigley role, and Ninth Army service are not
   converted into unsupported employment claims.
-- Published affiliations: 465
-- Database claims: 843; public-eligible claims: 823 (120 confirmed, 598 high, 105
+- Batch 111 completes the Atwood surname and enters Aubrey across pages fifteen
+  and sixteen. Wallace W. Atwood Jr. is a high-confidence identity match based
+  on the Library of Congress Atwood papers finding aid and a contemporary
+  newspaper. Clark University is published as his last documented civilian
+  employer before wartime service, but not as an immediate pre-OSS affiliation.
+  His earlier National Park Service earth-sciences assignment remains separate.
+  The finding aid places him in the Army Map Service's Topographic Model Section
+  during 1941-45, while a CIA collection history documents the OSS Topographic
+  Model Section and the Atcorob globe named partly for him. Because the reviewed
+  sources do not establish the exact transfer or organizational boundary, the
+  immediate predecessor remains unresolved. The other nine Atwood-through-Aubrey
+  profiles remain unresolved and route to Box 25; famous namesakes and modern
+  people-finder candidates were rejected.
+- Published affiliations: 467
+- Database claims: 846; public-eligible claims: 826 (121 confirmed, 600 high, 105
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,383; public source export: 808; unique source documents: 705
-- Canonical organizations: 270 private and 268 public
+- Citation records: 1,397; public source export: 813; unique source documents: 709
+- Canonical organizations: 271 private and 269 public
 - Conflicts: 1
-- NARA pull-list rows: 23,843
+- NARA pull-list rows: 23,842
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1115,6 +1128,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-aston-through-athens-pathways_batch-108_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atherton-through-atkisson-pathways_batch-109_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atkisson-through-atwood-pathways_batch-110_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atwood-through-aubrey-pathways_batch-111_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

@@ -4,15 +4,15 @@ Run: 2026-07-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,217 HTML files. Every relative
+**PASS.** The production build contains 24,218 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 268 organization profiles, and the
+The build includes 23,941 person profiles, 269 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,620 unique external URLs for separate live
+The checker inventoried 48,624 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,23 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 111 local release check
+
+The rebuilt site contains direct, internally resolved routes for Elmer E.
+Atwood, John L. Atwood, Margaret Atwood, Robert D. Atwood, Samuel J. Atwood,
+Wallace W. Atwood Jr., Arthur S. Aubrey Jr., August O. Aubrey, Jules W. Aubrey,
+and Leland K. Aubrey, plus Clark University and National Park Service
+organization routes. Nine profiles visibly retain unresolved identity status
+and Box 25 archival-review guidance. Wallace Atwood's page keeps last civilian
+employment, earlier government service, wartime Army Map Service evidence,
+and the unresolved immediate pre-OSS question distinct.
+
+The complete local link checker passed all 24,218 HTML files and inventoried
+48,624 unique external URLs. The public downloads contain 23,941 person rows,
+269 organization rows, 467 affiliation rows, and 813 source rows. All 65
+manifest-listed assets passed the local size, hash, and redaction audits
+documented in `reports/software_qa.md`.
 
 ## Batch 110 local release check
 
