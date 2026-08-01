@@ -1053,6 +1053,29 @@ completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
 
+## Batch 119 accessibility and responsive regression
+
+Batch 119 verifies Albert E. Bachand through Emmett F. Backus at desktop,
+phone, and tablet sizes. The regression checks all ten direct Box 28 routes,
+indexed spelling, commissioned, civilian-grade, and indeterminate personnel
+classifications, field-level serial masking, and the separation of identity
+evidence from pre-OSS affiliation claims. It confirms Walter F. Bachelder and
+Gilbert O. Backman, qualifies Albert V. Bacik and Ross E. Backenstoss Jr.,
+retains Mary E. Backle's 1946 evidence only for identity resolution, and keeps
+five identities visibly unresolved. None of the ten receives an unsupported
+named employer or predecessor affiliation.
+
+After two test-only wording assertions were aligned with the generated public
+evidence language, the focused desktop, phone, and tablet run passed 3 / 3.
+The complete browser, responsive, direct-route, search, and axe matrix passed
+402 / 402 locally. GitHub test workflow
+[30693929097](https://github.com/therealjameswilson/before-oss/actions/runs/30693929097)
+repeated the 402-case matrix for release `6e4ebfa` and completed successfully;
+the browser stage passed in 5.5 minutes. All ten deployed profiles and seven
+core routes returned HTTP 200 and matched their audited local accessible HTML
+after plain and URL-encoded canonical-host normalization. GitHub's non-blocking
+Node.js 20 action-runtime annotation did not affect any project test.
+
 ## Batch 118 accessibility and responsive regression
 
 Batch 118 verifies George H. Babcock through Andrew H. Babyak at desktop,

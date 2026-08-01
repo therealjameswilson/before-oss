@@ -1079,7 +1079,10 @@ Commissioned classification: 2,158 yes; 5,005 no; 16,778 indeterminate.
   Arthur identity pending his personnel file. Albert E. Bachand, Robert J.
   Bachman, Rose M. Backman, Alice C. Backus, and Emmett F. Backus remain
   unresolved. All ten route to Box 28, and no organization or affiliation is
-  added.
+  added. Release `6e4ebfa` passed GitHub test workflow 30693929097 and Pages
+  deployment workflow 30693929117. The production audit matched all 17 tested
+  routes and all 65 manifest assets to the audited local build and found zero
+  full private-identifier matches across 83 live artifacts.
 - Published affiliations: 480
 - Database claims: 897; public-eligible claims: 877 (146 confirmed, 619 high,
   109 medium, 3 conflicting); 20 low-confidence claims are withheld
