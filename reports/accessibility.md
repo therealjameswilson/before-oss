@@ -1033,6 +1033,15 @@ Baine's professional affiliation rather than an employer. John and Raymond
 Baine remain separate profiles with the same visible possible-duplicate group.
 The focused desktop, phone, and tablet run passed 3 / 3.
 
+GitHub test workflow
+[30707737473](https://github.com/therealjameswilson/before-oss/actions/runs/30707737473)
+repeated the complete suite on a clean Ubuntu runner for release `a67783c` and
+passed 420 / 420. GitHub Pages workflow
+[30707737485](https://github.com/therealjameswilson/before-oss/actions/runs/30707737485)
+also completed successfully. All ten deployed profiles and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after plain
+and URL-encoded canonical-host normalization.
+
 ## Batch 124 accessibility and responsive regression
 
 Batch 124 verifies Kenneth R. Bailey through Walter L. Bailey at desktop,

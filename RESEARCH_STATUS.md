@@ -1202,7 +1202,12 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   Batch 125 browser cases, 419 / 420 cases in the complete matrix plus the
   isolated rerun of the single transient older case, all 24,227 internal HTML
   routes, the deterministic rebuild, and the exhaustive private-identifier
-  scan. No authenticated Catalog API request was made.
+  scan. Release `a67783c` passed GitHub test workflow 30707737473 with all 420
+  browser cases and Pages workflow 30707737485. The production audit matched
+  all 17 tested routes and all 65 manifest assets to the audited local build,
+  reproduced every public-download count, and found zero full private-
+  identifier matches across 83 live artifacts. No authenticated Catalog API
+  request was made.
 - Published affiliations: 484
 - Database claims: 942; public-visible claims: 921 (179 confirmed, 624 high,
   114 medium, 4 conflicting); 21 low-confidence claims are withheld

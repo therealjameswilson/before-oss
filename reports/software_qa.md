@@ -37,8 +37,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 125 local release checks: **passed with the one documented transient
-  older browser case described below**
+- Batch 125 production workflow and deployment checks: **passed** for release
+  `a67783c`; the local transient older browser case is documented below
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3368,6 +3368,32 @@ attempt, 238 with verified-affiliation evidence, 136 with verified employment
 or self-employment evidence, and 1,018 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 278 organizations, 484
 affiliations, and 949 sources. No authenticated NARA Catalog request was made.
+
+## Batch 125 production deployment
+
+GitHub Actions test workflow
+[30707737473](https://github.com/therealjameswilson/before-oss/actions/runs/30707737473)
+and GitHub Pages deployment workflow
+[30707737485](https://github.com/therealjameswilson/before-oss/actions/runs/30707737485)
+completed successfully for release `a67783c`. CI repeated all 54 Python tests,
+the deterministic static build, the dependency and internal-link checks, and
+the complete 420-case browser, responsive, direct-route, search, and axe
+matrix. It reported zero Astro errors, warnings, or hints, 420 / 420 browser
+cases, 24,227 valid internal HTML pages, and zero dependency vulnerabilities.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes and all ten Batch 125 person profiles. Live statistics and
+all five public-download row counts exactly reproduced the release: 23,941
+personnel CSV and JSONL rows, 278 organizations, 484 affiliations, and 949
+sources.
+
+All 65 deployed manifest assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`185a4ea64f4538119e300b47ed9bdad1221cf0e1cafd0a07a4ffd8257575b76a`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 83 live HTML, data, compressed-mirror, manifest,
+and download artifacts and found zero full matches.
 
 ## Batch 124 local release QA
 

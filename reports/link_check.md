@@ -1163,6 +1163,31 @@ A boundary-aware comparison of 12,919 normalized private identifiers and 121
 formatted variants across 24,373 production artifacts found zero full
 matches.
 
+## Batch 125 production deployment
+
+GitHub test workflow
+[30707737473](https://github.com/therealjameswilson/before-oss/actions/runs/30707737473)
+and Pages workflow
+[30707737485](https://github.com/therealjameswilson/before-oss/actions/runs/30707737485)
+completed successfully for release `a67783c`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes and all ten Batch 125 profiles. The deployed statistics
+report 23,978 source rows, 23,941 person entities, 1,070 people with non-
+planned research attempts, 238 people with verified affiliations, 136 with
+verified employment or self-employment, 1,018 assessed archival-review needs,
+921 public-visible claims, and 949 public source records. All five download
+counts reproduced the local release.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`185a4ea64f4538119e300b47ed9bdad1221cf0e1cafd0a07a4ffd8257575b76a`.
+The deployed forbidden-field check passed. A boundary-aware comparison of
+12,919 normalized private identifiers and 121 formatted variants across 83
+live HTML, data, compressed-mirror, manifest, and download artifacts found
+zero full matches.
+
 ## Batch 124 local release check
 
 The rebuilt site contains direct, internally resolved routes for Kenneth R.
