@@ -1163,6 +1163,31 @@ SHA-256 is
 The repository contains no local credential file or nonblank tracked API-key
 assignment.
 
+## Batch 126 production deployment
+
+GitHub Actions test workflow
+[30711097930](https://github.com/therealjameswilson/before-oss/actions/runs/30711097930)
+and Pages workflow
+[30711097923](https://github.com/therealjameswilson/before-oss/actions/runs/30711097923)
+completed successfully for release `9cdfa8a`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes and all ten Batch 126 profiles. The deployed statistics
+report 23,978 source rows, 23,941 person entities, 1,080 people with non-
+planned research attempts, 239 people with verified affiliations, 136 with
+verified employment or self-employment, 1,028 assessed archival-review needs,
+929 public-visible claims, and 957 public source records. All five download
+counts reproduced the local release.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`c5f6b9ba0fa7c2e673bdc7e9ce010daa0b4c66aca4785354e80323f5e2c45cde`.
+The deployed forbidden-field check passed. A boundary-aware comparison of
+12,919 normalized private identifiers and 121 formatted variants across 83
+live HTML, data, compressed-mirror, manifest, and download artifacts found
+zero full matches.
+
 ## Batch 125 local release check
 
 The rebuilt site contains direct, internally resolved routes for Wilbur A.

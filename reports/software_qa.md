@@ -36,8 +36,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 126 local release checks: **passed**; production workflow and deployment
-  checks are pending publication
+- Batch 126 production workflow and deployment checks: **passed** for release
+  `9cdfa8a`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3371,6 +3371,36 @@ attempt, 239 with verified-affiliation evidence, 136 with verified employment
 or self-employment evidence, and 1,028 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 278 organizations, 486
 affiliations, and 957 sources.
+
+## Batch 126 production deployment
+
+GitHub Actions test workflow
+[30711097930](https://github.com/therealjameswilson/before-oss/actions/runs/30711097930)
+and GitHub Pages deployment workflow
+[30711097923](https://github.com/therealjameswilson/before-oss/actions/runs/30711097923)
+completed successfully for release `9cdfa8a`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+423-case browser, responsive, direct-route, search, and axe matrix. It
+reported zero Astro errors, warnings, or hints, 423 / 423 browser cases,
+24,227 valid internal HTML pages, and zero dependency vulnerabilities.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes and all ten Batch 126 person profiles. Live statistics and
+all five public-download row counts exactly reproduced the release: 23,941
+personnel CSV and JSONL rows, 278 organizations, 486 affiliations, and 957
+sources.
+
+All 65 deployed manifest assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`c5f6b9ba0fa7c2e673bdc7e9ce010daa0b4c66aca4785354e80323f5e2c45cde`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 83 live HTML, data, compressed-mirror, manifest,
+and download artifacts and found zero full matches.
+
+GitHub emitted a non-blocking platform annotation that several pinned setup
+actions still declare Node.js 20 and were forced to Node.js 24. The repository
+test job explicitly uses Node.js 24; no project build or test step failed.
 
 ## Batch 125 local release QA
 

@@ -1031,6 +1031,15 @@ classification from the printed `1st Sgt` rank. The complete desktop, phone,
 and tablet matrix passed 423 / 423, including 3 / 3 Batch 126 cases and all
 27 / 27 dedicated axe cases.
 
+GitHub test workflow
+[30711097930](https://github.com/therealjameswilson/before-oss/actions/runs/30711097930)
+repeated the complete suite on a clean Ubuntu runner for release `9cdfa8a` and
+passed 423 / 423. GitHub Pages workflow
+[30711097923](https://github.com/therealjameswilson/before-oss/actions/runs/30711097923)
+also completed successfully. All ten deployed profiles and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after plain
+and URL-encoded canonical-host normalization.
+
 ## Batch 125 accessibility and responsive regression
 
 Batch 125 verifies Wilbur A. Bailey through William D. Bair at desktop, phone,

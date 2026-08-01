@@ -1227,7 +1227,11 @@ Commissioned classification: 2,159 yes; 5,040 no; 16,742 indeterminate.
   accessibility cases across desktop, phone, and tablet, all 24,227 internal
   HTML routes, two deterministic builds, the public manifest and redaction
   checks, and the 200-profile audit. No authenticated Catalog API request or
-  raw Catalog response was used.
+  raw Catalog response was used. Release `9cdfa8a` passed GitHub test workflow
+  30711097930 and Pages workflow 30711097923. The production audit matched all
+  17 tested routes and all 65 manifest assets to the audited local build,
+  reproduced every public-download count, and found zero full private-
+  identifier matches across 83 live artifacts.
 - Published affiliations: 486
 - Database claims: 950; public-visible claims: 929 (185 confirmed, 626 high,
   114 medium, 4 conflicting); 21 low-confidence claims are withheld
