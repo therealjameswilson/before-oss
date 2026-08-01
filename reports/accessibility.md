@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 405 / 405 browser cases.**
+**PASS - 408 / 408 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -36,6 +36,15 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 121 adds direct desktop, phone, and tablet checks for all ten contiguous
+opening page-eighteen profiles from Daniel E. Badia through Ernest D. Baerwald.
+It verifies Box 28 and 29 routing, source-row ranks and civilian grades,
+field-level serial masking, Badzik's evidence conflict without namesake fact
+transfer, the confirmed Edwin and Vivian Baer occupation-only evidence, Ralph
+Baer's withheld famous namesake, Ernest Baerwald's qualified earlier employer
+and distinct professional affiliation, and five visibly unresolved identities.
+It also verifies that none of the ten receives an unsupported immediate pre-OSS
+affiliation.
 Batch 120 adds direct desktop, phone, and tablet checks for all ten contiguous
 final page-seventeen profiles from Samuel D. Backus through James W. Bader. It
 verifies Box 28 routing, source-row ranks and civilian grades, field-level
@@ -1060,6 +1069,31 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 121 accessibility and responsive regression
+
+Batch 121 verifies Daniel E. Badia through Ernest D. Baerwald at desktop,
+phone, and tablet sizes. The regression checks all ten direct Box 28 or 29
+routes, indexed spelling, commissioned, enlisted, civilian-grade, and
+indeterminate personnel classifications, field-level serial masking, and the
+separation of identity, occupation, employment, professional-affiliation, and
+immediate-affiliation evidence. It preserves Joseph Badzik's official
+identifier conflict without assigning William R. Brandes's occupation,
+publishes Edwin and Vivian Baer's official evidence only as occupations,
+withholds the famous Ralph Baer candidate, and qualifies Ernest Baerwald's
+Doitsu Senryo employment and JDC affiliation without calling either immediate.
+Five identities remain visibly unresolved.
+
+After one test-only wording expectation was aligned with the generated public
+evidence language, the focused desktop, phone, and tablet run passed 3 / 3. The
+complete browser, responsive, direct-route, search, and axe matrix passed 408 /
+408 locally in 5.1 minutes. GitHub test workflow
+[30698191058](https://github.com/therealjameswilson/before-oss/actions/runs/30698191058)
+repeated the matrix for release `07a7de7` and completed successfully in 8
+minutes 59 seconds. All ten deployed profiles and seven core routes returned
+HTTP 200 and matched their audited local accessible HTML after plain and
+URL-encoded canonical-host normalization. GitHub's non-blocking Node.js 20
+action-runtime annotation did not affect any project test.
 
 ## Batch 120 accessibility and responsive regression
 

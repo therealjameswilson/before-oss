@@ -1134,6 +1134,51 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 121 local release check
+
+The rebuilt site contains direct, internally resolved routes for Daniel E.
+Badia, Leo P. Badia, Edna Badinger, Joseph T. Badzik, Robert E. Baehr, Barbara
+Baer, Edwin I. Baer, Ralph H. Baer, Vivian L. Baer, and Ernest D. Baerwald.
+Their profiles preserve Box 28 or 29, indexed ranks and civilian grades, blank
+or masked private identifiers, two confirmed identities, one high-confidence
+identity, one ambiguous identity, one conflicting identity, five unresolved
+identities, two occupation-only findings, one qualified last-civilian-employer
+claim, one professional affiliation, and no unsupported immediate affiliation.
+
+The complete local link checker passed all 24,226 HTML files and inventoried
+48,672 unique external URLs. The public downloads contain 23,941 person rows,
+277 organization rows, 483 affiliation rows, and 913 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site. The manifest forbidden-field check
+passed, and its SHA-256 is
+`50c305d92f7471d6ededb092d06a50dd8c16bf14ae0f3294147bc5f087e8ec56`.
+The field-aware scan of 12,919 nontrivial normalized identifiers and 121
+formatted raw variants found zero unexpected full private-identifier matches
+across 24,372 production artifacts, including compressed mirrors. One numeric
+aggregate in `stats.json` coincides with a five-digit source identifier but is
+stored and rendered only as the unresolved-identity count, not as a serial
+field.
+
+## Batch 121 production deployment
+
+GitHub Actions test workflow
+[30698191058](https://github.com/therealjameswilson/before-oss/actions/runs/30698191058)
+and GitHub Pages deployment workflow
+[30698191032](https://github.com/therealjameswilson/before-oss/actions/runs/30698191032)
+completed successfully for release `07a7de7`.
+
+All 17 tested publication routes returned HTTP 200 and matched the audited
+local HTML after plain and URL-encoded canonical-host normalization: seven core
+routes and all ten Batch 121 person profiles. Live statistics and all five
+public-download row counts reproduced the release. All 65 deployed manifest
+assets matched their recorded hashes and local bytes; the deployed and local
+manifest SHA-256 is
+`50c305d92f7471d6ededb092d06a50dd8c16bf14ae0f3294147bc5f087e8ec56`.
+The field-aware scan directly checked 82 live artifacts and found zero
+unexpected full private-identifier matches; the deployed manifest was byte-
+identical to the separately scanned local manifest, for 83 audited live
+artifacts in total.
+
 ## Batch 120 local release check
 
 The rebuilt site contains direct, internally resolved routes for Samuel D.

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,020 people with a non-planned attempt | 23,941 person entities | 4.2605% |
+| Research-attempt coverage | 1,030 people with a non-planned attempt | 23,941 person entities | 4.3022% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 968 people with an individual file-access/priority assessment | 23,941 person entities | 4.0433% |
+| Archival-review coverage | 978 people with an individual file-access/priority assessment | 23,941 person entities | 4.0850% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 64
-- Identity status `high_confidence`: 295
+- Identity status `confirmed`: 66
+- Identity status `high_confidence`: 296
 - Identity status `probable`: 36
-- Identity status `ambiguous`: 25
-- Identity status `conflicting`: 4
-- Identity status `unresolved`: 23,517
+- Identity status `ambiguous`: 26
+- Identity status `conflicting`: 5
+- Identity status `unresolved`: 23,512
 
 ## Personnel categories
 
@@ -46,15 +46,15 @@ Commissioned classification: 2,159 yes; 5,005 no; 16,777 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,921
+- `not_started`: 22,911
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
-- `documented_prewar_employer_found`: 31
-- `occupation_only_found`: 48
-- `requires_archival_review`: 682
+- `documented_prewar_employer_found`: 32
+- `occupation_only_found`: 50
+- `requires_archival_review`: 688
 - `completed`: 54
-- `conflicting_sources`: 3
+- `conflicting_sources`: 4
 - `verified_employer_found`: 138
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -64,7 +64,7 @@ Commissioned classification: 2,159 yes; 5,005 no; 16,777 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 441
+- Reviewed-web terminal-protocol attempts recorded: 461
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -79,9 +79,9 @@ Commissioned classification: 2,159 yes; 5,005 no; 16,777 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 386 across 367 people; 27 additional
+- Saved `source_reviewed` outcomes: 395 across 376 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,050
+- Total recorded attempts/plans: 2,060
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 373; 356 have at least one public-eligible
@@ -1105,12 +1105,33 @@ Commissioned classification: 2,159 yes; 5,005 no; 16,777 indeterminate.
   30695930052. The production audit matched all 17 tested routes and all 65
   manifest assets to the audited local build and found zero full private-
   identifier matches across 83 live artifacts.
-- Published affiliations: 481
-- Database claims: 905; public-eligible claims: 885 (151 confirmed, 621 high,
-  110 medium, 3 conflicting); 20 low-confidence claims are withheld
-- Citation records: 1,553; public source export: 902; unique source documents: 760
-- Canonical organizations: 277 private and 275 public
-- Conflicts: 4
+- Batch 121 begins page eighteen with Daniel E. Badia through Ernest D.
+  Baerwald. Exact name-and-private-identifier comparisons in NARA's public AAD
+  Army tables confirm Edwin I. Baer and Vivian L. Baer while publishing only
+  their general-office-clerk and stenographer/typist occupation categories;
+  no named employer is inferred. The same official table conflicts with the
+  Joseph T. Badzik index row because the private identifier belongs to William
+  R. Brandes, so Brandes's biographical and occupation fields are not assigned
+  to Badzik. The famous Ralph H. Baer remains a withheld low-confidence
+  namesake pending Box 29 corroboration. Direct Berkeley archival evidence,
+  contemporary chronology, a memoir, and a JDC memorial support a
+  high-confidence Ernest D. Baerwald identity, a qualified 1925-1938 last
+  documented civilian employer at Doitsu Senryo Gomei Kaisha, and a distinct
+  1938-1940 professional affiliation with the American Jewish Joint
+  Distribution Committee; neither is labeled his immediate pre-OSS
+  affiliation. Daniel Badia, Leo Badia, Edna Badinger, Robert Baehr, and
+  Barbara Baer remain unresolved. All ten preserve Box 28 or 29 provenance and
+  masked or unprinted private identifiers. Release `07a7de7` passed GitHub test
+  workflow 30698191058 and Pages workflow 30698191032. The production audit
+  matched all 17 tested routes and all 65 manifest assets to the audited local
+  build and found zero unexpected full private-identifier matches across 83
+  live artifacts.
+- Published affiliations: 483
+- Database claims: 914; public-eligible claims: 893 (155 confirmed, 622 high,
+  112 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation records: 1,572; public source export: 913; unique source documents: 766
+- Canonical organizations: 279 private and 277 public
+- Conflicts: 5
 - NARA pull-list rows: 23,840
 
 Planned dry-run requests do not count as research-attempt coverage.
