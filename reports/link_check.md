@@ -1146,6 +1146,24 @@ The field-aware scan of 12,919 nontrivial normalized identifiers and 121
 formatted raw variants found zero unexpected full private-identifier matches
 across 24,370 production artifacts, including compressed mirrors.
 
+## Batch 118 production deployment
+
+GitHub Actions test workflow
+[30692497135](https://github.com/therealjameswilson/before-oss/actions/runs/30692497135)
+and GitHub Pages deployment workflow
+[30692497138](https://github.com/therealjameswilson/before-oss/actions/runs/30692497138)
+completed successfully for release `7f1973e`.
+
+All 17 tested publication routes returned HTTP 200 and matched the audited
+local HTML after canonical-host normalization: seven core routes and all ten
+Batch 118 person profiles. Live statistics and all five public-download row
+counts reproduced the release. All 65 deployed manifest assets matched their
+recorded hashes and local bytes; the deployed and local manifest SHA-256 is
+`b64fdc1b0e0567e2189a3d227878ce6d6907cde3b50812f42d7c17a44fea0ccd`.
+The field-aware scan directly checked 82 live artifacts and found zero
+unexpected full private-identifier matches; the deployed manifest was
+byte-identical to the separately scanned local manifest.
+
 ## Batch 117 local release check
 
 The rebuilt site contains direct, internally resolved routes for James W.

@@ -1069,6 +1069,14 @@ search, and axe matrix passed 399 / 399 with no assertion failure or
 serious/critical accessibility violation. The homepage continues to report
 136 verified-employer people separately from 238 verified-affiliation people.
 
+GitHub test workflow
+[30692497135](https://github.com/therealjameswilson/before-oss/actions/runs/30692497135)
+repeated the complete 399-case matrix for release `7f1973e` and completed
+successfully. All ten deployed Batch 118 profiles returned HTTP 200 and
+matched their audited local accessible HTML after canonical-host
+normalization. GitHub's non-blocking Node.js 20 action-runtime annotation did
+not affect any project test.
+
 ## Batch 117 accessibility and responsive regression
 
 Batch 117 verifies James W. Aznone through Stanley L. Babberle at desktop,
