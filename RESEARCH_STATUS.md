@@ -1142,6 +1142,10 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   and Frank P. Bahor remain unresolved; postwar and common-name candidates are
   rejected. All ten preserve Box 29 provenance, and the batch adds no
   organization, affiliation, immediate-pre-OSS claim, or civilian employer.
+  Release `8e9968d` passed GitHub test workflow 30700215026 and Pages workflow
+  30700215012. The production audit matched all 17 tested routes and all 65
+  manifest assets to the audited local build and found zero full private-
+  identifier matches across 83 live artifacts.
 - Published affiliations: 483
 - Database claims: 923; public-eligible claims: 902 (162 confirmed, 623 high,
   113 medium, 4 conflicting); 21 low-confidence claims are withheld

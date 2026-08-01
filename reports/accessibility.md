@@ -1026,6 +1026,15 @@ matrix passed 408 / 408. The final targeted desktop, phone, and tablet run
 passed 3 / 3 against the completed Batch 122 build, with no assertion or
 serious/critical axe failure.
 
+GitHub test workflow
+[30700215026](https://github.com/therealjameswilson/before-oss/actions/runs/30700215026)
+repeated the complete post-addition matrix for release `8e9968d` and passed
+411 / 411 cases in CI. GitHub Pages workflow
+[30700215012](https://github.com/therealjameswilson/before-oss/actions/runs/30700215012)
+also completed successfully. All ten deployed profiles and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after
+canonical-host normalization.
+
 ## Batch 097 accessibility and responsive regression
 
 The Batch 097 regression checks the ten contiguous page-twelve profiles from

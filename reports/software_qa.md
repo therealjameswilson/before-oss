@@ -7,8 +7,8 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,226 pages**
 - Internal link check: **24,226 HTML files passed**
-- Browser and accessibility suite: **408 / 408 passed**, plus **3 / 3**
-  Batch 122 targeted cases
+- Browser and accessibility suite: **408 / 408 local full-matrix cases**, plus
+  **3 / 3** final Batch 122 targeted cases; **411 / 411** passed in CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
   (`6b280bc5c69af558cdcd98525ed01cf86875441aa59a772222734c5299673c21`)
@@ -37,18 +37,18 @@ Run: 2026-08-01 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30698191058](https://github.com/therealjameswilson/before-oss/actions/runs/30698191058)
-  for Batch 121 release `07a7de7`: **passed**
+  [30700215026](https://github.com/therealjameswilson/before-oss/actions/runs/30700215026)
+  for Batch 122 release `8e9968d`: **passed**
 - GitHub Pages deployment workflow
-  [30698191032](https://github.com/therealjameswilson/before-oss/actions/runs/30698191032)
-  for Batch 121 release `07a7de7`: **passed**
+  [30700215012](https://github.com/therealjameswilson/before-oss/actions/runs/30700215012)
+  for Batch 122 release `8e9968d`: **passed**
 - Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `50c305d92f7471d6ededb092d06a50dd8c16bf14ae0f3294147bc5f087e8ec56`
+  `81ff198b7d5cc3d2b00644471a41b3ff365cec60625a8e7a1f8f1ad69f3a7d13`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3371,6 +3371,32 @@ people with a non-planned research attempt, 238 with verified-affiliation
 evidence, 136 with verified employment or self-employment evidence, and 988
 whose archival-review need has been assessed. Public downloads contain 23,941
 people, 277 organizations, 483 affiliations, and 925 sources.
+
+## Batch 122 production deployment
+
+GitHub Actions test workflow
+[30700215026](https://github.com/therealjameswilson/before-oss/actions/runs/30700215026)
+and GitHub Pages deployment workflow
+[30700215012](https://github.com/therealjameswilson/before-oss/actions/runs/30700215012)
+completed successfully for release `8e9968d`. CI repeated all 54 Python tests,
+the static build, dependency and internal-link checks, and the complete 411-case
+browser, responsive, direct-route, search, and axe matrix. It reported zero
+vulnerabilities, zero Astro errors, 411 / 411 browser cases, and 24,226 valid
+internal HTML pages.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes and all ten Batch 122 person profiles. Five additional
+content checks confirmed the occupation-only, surname-variant, film-profession,
+and undigitized-file evidence on the intended live profiles. Live statistics
+and all five public-download row counts exactly reproduced the release.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`81ff198b7d5cc3d2b00644471a41b3ff365cec60625a8e7a1f8f1ad69f3a7d13`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 83 live HTML, data, compressed-mirror, manifest,
+and download artifacts and found zero full matches.
 
 ## Batch 096 local release QA
 

@@ -1155,6 +1155,29 @@ and built site. The forbidden-field check passed, and the manifest SHA-256 is
 The field-aware scan of 12,919 normalized private identifiers and 121 formatted
 raw variants found zero full matches across 24,372 production artifacts.
 
+## Batch 122 production deployment
+
+GitHub test workflow
+[30700215026](https://github.com/therealjameswilson/before-oss/actions/runs/30700215026)
+and Pages workflow
+[30700215012](https://github.com/therealjameswilson/before-oss/actions/runs/30700215012)
+completed successfully for release `8e9968d`.
+
+All 17 tested publication routes returned HTTP 200 and matched the audited
+local HTML after plain and URL-encoded canonical-host normalization: seven core
+routes and all ten Batch 122 person profiles. Live statistics reproduced
+23,978 source rows, 23,941 person entities, 1,040 researched people, 238
+verified-affiliation people, 136 verified-employer people, 988 archival-review
+assessments, 902 published claims, and 925 public source records. The personnel
+CSV and JSONL each contain 23,941 records; organization, affiliation, and source
+downloads contain 277, 483, and 925 records.
+
+All 65 deployed manifest assets matched their recorded hashes and local bytes;
+the deployed and local manifest SHA-256 is
+`81ff198b7d5cc3d2b00644471a41b3ff365cec60625a8e7a1f8f1ad69f3a7d13`.
+The field-aware scan checked 83 live artifacts and found zero full private-
+identifier or formatted-variant matches.
+
 ## Batch 121 local release check
 
 The rebuilt site contains direct, internally resolved routes for Daniel E.
