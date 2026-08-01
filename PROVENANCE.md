@@ -1847,6 +1847,33 @@ no live NARA API response was retained. Temporary PDFs, page renders, and text
 extracts were used only for inspection and removed after review. No full
 service identifier appears in the evidence bundle or public projection.
 
+## Page-fifteen Atherton-through-Atkisson pathways, Batch 109
+
+`research/evidence-page-fifteen-atherton-through-atkisson-pathways_batch-109_2026-07-31.json`
+records ten visually checked, contiguous rows from David Atherton through
+Kathryne J. Atkisson on PDF page fifteen. Raw spellings, initials, ranks,
+service-number presence, the Box 24-to-25 transition, blank fields, and archival
+location were checked against full-page and high-resolution renders. The bundle
+contains ten person updates, twelve sources, one identity claim, and ten durable
+research attempts.
+
+David Atherton remains probable rather than confirmed. Two independently
+published 2025 accounts based on a family photo donation identify him with OSS
+Operational Group Emily in France in 1944. They disagree on a June 9 versus
+July 9 parachute date, so the project retains only the shared year and records
+the conflict. Neither account documents his immediate pre-OSS affiliation or
+last civilian employer. Carl A. Atkins, Earl J. Atkins, Frank J. Atkins,
+Geoffroy Atkinson, John W. Atkinson, Katrhryn C. Atkinson, Marion Atkinson,
+William H. Atkinson, and Kathryne J. Atkisson remain unresolved after the
+terminal online protocol and route to their indexed Box 24 or 25 files.
+
+High-resolution inspection confirms that `Katrhryn C. Atkinson` is the source
+index's literal spelling; likely conventional spellings are search aliases, not
+silent corrections. No authenticated NARA Catalog request was made, no API key
+was accessed, and no live NARA API response was retained. Temporary renders
+were used only for inspection and removed after review. No full service
+identifier appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

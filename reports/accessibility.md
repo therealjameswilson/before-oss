@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 369 / 369 browser cases.**
+**PASS - 372 / 372 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,24 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 109 accessibility and responsive regression
+
+The Batch 109 regression checks the ten contiguous page-fifteen profiles from
+David Atherton through Kathryne J. Atkisson. It verifies every direct profile,
+the Box 24-to-25 transition, personnel classifications, and field-level service
+number masking. Nine profiles retain unresolved identities and explicit
+archival-review guidance. David Atherton remains a probable identity with a
+qualified 1944 OSS Operational Group Emily record; the page does not turn that
+wartime OSS context into a predecessor affiliation or civilian employer.
+
+The assertions also preserve the index's literal `Katrhryn C. Atkinson`
+spelling while allowing documented search aliases, distinguish the separately
+indexed Kathryne J. Atkisson, and leave unsupported immediate-affiliation and
+last-civilian-employer fields unresolved. The focused desktop, phone, and
+tablet run passed 3 / 3. The complete desktop, phone, tablet, responsive,
+direct-route, search, and axe matrix passed 372 / 372 with no assertion failure
+or serious/critical accessibility violation.
 
 ## Batch 108 accessibility and responsive regression
 

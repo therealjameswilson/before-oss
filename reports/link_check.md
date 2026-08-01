@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 267 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,606 unique external URLs for separate live
+The checker inventoried 48,608 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,37 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 109 local release check
+
+The rebuilt site contains direct, internally resolved routes for David
+Atherton, Carl A. Atkins, Earl J. Atkins, Frank J. Atkins, Geoffroy Atkinson,
+John W. Atkinson, Katrhryn C. Atkinson, Marion Atkinson, William H. Atkinson,
+and Kathryne J. Atkisson. Nine profiles visibly retain unresolved identity
+status and archival-review guidance. David Atherton's page presents a probable,
+medium-confidence 1944 OSS Operational Group Emily identity with two cited
+accounts and leaves both predecessor fields unresolved. The literal indexed
+`Katrhryn` spelling remains the page title and is not silently corrected.
+
+The complete local link checker passed all 24,216 HTML files and inventoried
+48,608 unique external URLs. The public downloads contain 23,941 person rows,
+267 organization rows, 464 affiliation rows, and 792 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site, the manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`.
+A boundary-aware exact-token comparison of all 12,919 nontrivial normalized
+private identifiers and 121 formatted raw variants across 24,354 production
+artifacts returned zero full matches. Consecutive static builds produced the
+identical site-tree SHA-256
+`0777ab720dd135e2e997e6cceb720c5108ca002ce4c4ecdc7e0730d3c228ee37`.
+
+Direct checks returned HTTP 200 for the NARA personnel index and both David
+Atherton sources from *The Connexion* and *La Depeche*. The two accounts differ
+on whether the 1944 parachute date was June 9 or July 9, so the public identity
+claim retains only the shared year and exposes the date conflict in its note.
+Neither source establishes an immediate pre-OSS affiliation or last civilian
+employer.
 
 ## Batch 108 local release check
 

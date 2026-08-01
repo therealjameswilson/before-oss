@@ -7,10 +7,10 @@ Run: 2026-07-31 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,216 pages**
 - Internal link check: **24,216 HTML files passed**
-- Browser and accessibility suite: **369 / 369 passed**
+- Browser and accessibility suite: **372 / 372 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`1d68c153aaee3eebbe0f8b5ba0c78b743d7d297148b30d77c13ef042267bcf31`)
+  (`0777ab720dd135e2e997e6cceb720c5108ca002ce4c4ecdc7e0730d3c228ee37`)
 - Latest clean-checkout replay (Batch 108): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
   checkpoints, review decisions, and all 108 evidence batches: **78 / 84
@@ -19,19 +19,19 @@ Run: 2026-07-31 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `c037db2ff7d8d9e116000560f00f86f7cd144f96d9ad285f88093e356e011f1c`
+  `60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,932** distinct digit-bearing normalized
   private identifiers, reduced to **12,919** nontrivial comparison
-  tokens: **0 unexpected full-number matches** in **24,286** production
+  tokens: **0 unexpected full-number matches** in **24,354** production
   artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **789** public records representing **691** unique documents
-- Private citation records: **1,350**
+- Reviewed public sources: **792** public records representing **694** unique documents
+- Private citation records: **1,362**
 - Published, qualified affiliations: **464**
-- Published claims: **816**
+- Published claims: **817**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
 - Verified-affiliation metric: **228** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1521,6 +1521,49 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 109 local release QA
+
+Batch 109 adds ten visually checked page-fifteen rows from David Atherton
+through Kathryne J. Atkisson. The reviewed bundle imports ten durable terminal
+research attempts, twelve sources, one medium-confidence identity claim, and
+three claim-source links. It retains David Atherton as a probable identity tied
+to 1944 OSS Operational Group Emily service, preserves the two sources' June
+9/July 9 date conflict, and does not convert OSS service into a predecessor
+affiliation. The other nine profiles remain unresolved. The source PDF's
+literal `Katrhryn C. Atkinson` spelling was confirmed at high-resolution and
+remains unchanged.
+
+The evidence bundle passed Pydantic validation and replayed idempotently with
+identical import counts. SQLite `quick_check` returned `ok`, and the
+foreign-key check returned zero errors. The full Python suite passed 54 / 54.
+The static build completed 24,216 pages with zero Astro errors, warnings, or
+hints. The focused Batch 109 regression passed 3 / 3, and the complete browser,
+responsive, and accessibility matrix passed 372 / 372. The internal link
+checker passed all 24,216 HTML pages and inventoried 48,608 unique external
+URLs. The production dependency audit reported zero vulnerabilities. The
+deterministic stratified profile audit passed every check for 200 profiles.
+
+Two consecutive static builds produced the identical
+`0777ab720dd135e2e997e6cceb720c5108ca002ce4c4ecdc7e0730d3c228ee37`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site. The manifest
+forbidden-field redaction check passed, and the manifest SHA-256 is
+`60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`.
+A boundary-aware exact-token comparison assessed 12,919 nontrivial normalized
+private identifiers and 121 formatted raw variants across 24,354 production
+artifacts, including compressed mirrors, and found zero full matches. No local
+credential file, nonblank API-key assignment, authenticated NARA Catalog
+request, or raw Catalog response was used.
+
+The Batch 109 database contains 1,940 durable research attempts, 1,362 private
+citation records, 468 affiliations, and 837 claims: 119 confirmed, 594 high,
+104 medium, and 20 low confidence. The reviewed public projection contains 792
+source records representing 694 unique documents, 464 affiliations, and 817
+claims. Coverage distinguishes 910 people with a non-planned research attempt,
+228 people with verified affiliation evidence, 130 people with verified
+employment or self-employment evidence, and 858 people whose archival-review
+need has been assessed.
 
 ## Batch 108 local release QA
 

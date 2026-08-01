@@ -10282,3 +10282,63 @@ test("Batch 108 preserves Aston-through-Athens identity and predecessor boundari
     ).toContainText("No reliable pre-OSS employer has yet been identified");
   }
 });
+
+test("Batch 109 preserves Atherton-through-Atkisson identity and predecessor boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1905bba1-001d-5c4f-8d18-02e2b28bdbc2", "David Atherton", "enlisted army personnel", "24"],
+    ["3025dd53-45f3-50ee-b0a0-d54fc245a63a", "Carl A Atkins", "commissioned army officer", "24"],
+    ["6f6aa669-64c4-558c-9fcf-7a5ab4bf7d08", "Earl J Atkins", "unknown or indeterminate", "24"],
+    ["82f21d35-4cce-56ae-a497-06c7e38c97f4", "Frank J Atkins", "unknown or indeterminate", "24"],
+    ["9c8259bd-4289-5e19-bd0a-58ac386a592b", "Geoffroy Atkinson", "unknown or indeterminate", "25"],
+    ["d0ac0ab0-8537-5924-b2b4-98bc609ed353", "John W Atkinson", "unknown or indeterminate", "25"],
+    ["032010b7-1c43-5d40-a18b-c81f40fe85dd", "Katrhryn C Atkinson", "civilian professional or administrative grade", "25"],
+    ["f81a7caa-0332-5aef-a6d8-e02cacd1397a", "Marion Atkinson", "unknown or indeterminate", "25"],
+    ["ef123141-2e98-516e-8c47-4af50f0e4f8f", "William H Atkinson", "enlisted army personnel", "25"],
+    ["002fe575-acc6-5612-a7c1-9d1524961703", "Kathryne J Atkisson", "civilian professional or administrative grade", "25"],
+  ];
+
+  for (const [personId, displayName, personnelCategory, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of profiles.slice(1).map(([personId]) => personId)) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByText("unresolved", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/1905bba1-001d-5c4f-8d18-02e2b28bdbc2/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("occupation only found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Operational Group Emily");
+  await expect(
+    page.getByRole("link", {
+      name: "American Woman Donates WWII Photos to French Resistance Museum in Cahors",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /connexionfrance\.com/);
+});

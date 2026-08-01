@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 900 people with a non-planned attempt | 23,941 person entities | 3.7592% |
+| Research-attempt coverage | 910 people with a non-planned attempt | 23,941 person entities | 3.8010% |
 | Verified-affiliation coverage | 228 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9523% |
 | Verified-employer coverage | 130 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5430% |
-| Archival-review coverage | 848 people with an individual file-access/priority assessment | 23,941 person entities | 3.5420% |
+| Archival-review coverage | 858 people with an individual file-access/priority assessment | 23,941 person entities | 3.5838% |
 
 ## Extraction and identity
 
@@ -23,10 +23,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 44
 - Identity status `high_confidence`: 280
-- Identity status `probable`: 31
+- Identity status `probable`: 32
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,560
+- Identity status `unresolved`: 23,559
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,041
+- `not_started`: 23,031
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 29
-- `occupation_only_found`: 31
-- `requires_archival_review`: 589
+- `occupation_only_found`: 32
+- `requires_archival_review`: 598
 - `completed`: 52
 - `verified_employer_found`: 135
 - Stratified pilot size: 75
@@ -65,17 +65,17 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 - Reviewed-institutional-web attempts recorded: 2
 - Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 185
+- Reviewed-web-and-official-source attempts recorded: 195
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 343 across 324 people; 27 additional
+- Saved `source_reviewed` outcomes: 344 across 325 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,930
+- Total recorded attempts/plans: 1,940
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 330; 313 have at least one public-eligible
+- People with saved reviewed claims: 331; 314 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -926,10 +926,23 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
   Atchison, James J. Atchison, Peter S. Athanasakos, Peter J. Atheneos, and
   John S. Athens remain unresolved. All ten retain Box 24 review paths; no
   unsupported employer is promoted.
+- Batch 109 continues page fifteen from David Atherton through Kathryne J.
+  Atkisson. David Atherton is a probable identity match to the 21-year-old
+  American soldier documented in OSS Operational Group Emily in France in
+  1944. The two reports derive in part from the same family photograph donation,
+  do not reproduce his indexed T-5 grade or private identifier, and disagree on
+  the exact parachute date; the profile therefore publishes only a
+  medium-confidence identity claim and no predecessor affiliation. Carl A.
+  Atkins, Earl J. Atkins, Frank J. Atkins, Geoffroy Atkinson, John W. Atkinson,
+  Katrhryn C. Atkinson, Marion Atkinson, William H. Atkinson, and Kathryne J.
+  Atkisson remain unresolved and route to Box 24 or 25. High-resolution review
+  confirms that the index literally prints `Katrhryn`; `Kathryn` and
+  `Katherine` remain labeled search aliases rather than silent corrections. No
+  unsupported employer is promoted.
 - Published affiliations: 464
-- Database claims: 836; public-eligible claims: 816 (119 confirmed, 594 high, 103
+- Database claims: 837; public-eligible claims: 817 (119 confirmed, 594 high, 104
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,350; public source export: 789; unique source documents: 691
+- Citation records: 1,362; public source export: 792; unique source documents: 694
 - Canonical organizations: 269 private and 267 public
 - Conflicts: 1
 - NARA pull-list rows: 23,843
@@ -1087,6 +1100,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-ashcraft-through-ashworth-pathways_batch-106_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fourteen-and-fifteen-askew-through-aste-pathways_batch-107_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-aston-through-athens-pathways_batch-108_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atherton-through-atkisson-pathways_batch-109_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
