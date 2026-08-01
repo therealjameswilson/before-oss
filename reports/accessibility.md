@@ -1033,6 +1033,16 @@ complete desktop, phone, and tablet matrix passed 432 / 432, including 3 / 3
 Batch 129 cases and all 27 / 27 dedicated axe cases, with no assertion,
 navigation, or serious/critical axe failure.
 
+GitHub test workflow
+[30717189434](https://github.com/therealjameswilson/before-oss/actions/runs/30717189434)
+repeated the complete suite on a clean Ubuntu runner for release `02202b1` and
+passed 432 / 432. GitHub Pages workflow
+[30717189381](https://github.com/therealjameswilson/before-oss/actions/runs/30717189381)
+also completed successfully. All ten deployed profiles, three organization
+profiles, and seven core routes returned HTTP 200 and matched their audited
+local accessible HTML after plain and URL-encoded canonical-host
+normalization.
+
 ## Batch 128 accessibility and responsive regression
 
 Batch 128 verifies George S. Baker through Joseph A. Baker at desktop, phone,

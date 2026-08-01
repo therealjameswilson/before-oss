@@ -1167,6 +1167,33 @@ boundary-aware scan of 12,919 normalized private identifiers and 121 formatted
 raw variants across 24,374 production artifacts found zero unexpected full
 matches.
 
+## Batch 129 production deployment
+
+GitHub Actions test workflow
+[30717189434](https://github.com/therealjameswilson/before-oss/actions/runs/30717189434)
+and Pages workflow
+[30717189381](https://github.com/therealjameswilson/before-oss/actions/runs/30717189381)
+completed successfully for release `02202b1`.
+
+All 20 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes, all ten Batch 129 profiles, and the three linked
+organization routes. The deployed statistics report 23,978 source rows,
+23,941 person entities, 1,110 people with non-planned research attempts, 242
+people with verified affiliations, 138 with verified employment or
+self-employment, 1,058 assessed archival-review needs, 938 public-visible
+claims, and 969 public source records. The five downloads contain 23,941
+personnel CSV rows, 23,941 personnel JSONL rows, 280 organizations, 490
+affiliations, and 969 sources.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`51af054094c585e86a043e6263f0ffe0b9cdbbbbf8ec9279b1cc19094dbde75b`.
+A boundary-aware privacy scan compared 12,919 normalized private identifiers
+and 121 formatted raw variants against the 85 audited live HTML, data,
+compressed-mirror, manifest, and download artifacts and found zero unexpected
+full matches. All three profile-specific content checks passed.
+
 ## Batch 128 local release check
 
 The rebuilt site contains direct, internally resolved routes for George S.

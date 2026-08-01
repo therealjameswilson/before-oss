@@ -36,8 +36,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **138** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 129 local release checks: **passed**; production workflow and deployment
-  verification follow the release commit
+- Batch 129 production workflow and deployment checks: **passed** for release
+  `02202b1`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3375,6 +3375,41 @@ attempt, 242 with verified-affiliation evidence, 138 with verified employment
 or self-employment evidence, and 1,058 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 280 organizations, 490
 affiliations, and 969 sources.
+
+## Batch 129 production deployment
+
+GitHub Actions test workflow
+[30717189434](https://github.com/therealjameswilson/before-oss/actions/runs/30717189434)
+and GitHub Pages deployment workflow
+[30717189381](https://github.com/therealjameswilson/before-oss/actions/runs/30717189381)
+completed successfully for release `02202b1`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+432-case browser, responsive, direct-route, search, and axe matrix. It
+reported zero Astro errors, warnings, or hints, 432 / 432 browser cases,
+24,229 valid internal HTML pages, and zero dependency vulnerabilities.
+
+All 20 audited production routes returned HTTP 200 and matched the local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes, all ten Batch 129 person profiles, and the three linked
+organization profiles. Profile-specific checks confirmed Kenneth Baker's
+Ohio State pathway, Richard Baker's Library of Congress and Providence Journal
+distinction, Ralph C. Baker's qualified identity lead, and the seven
+evidence-limited archival-review outcomes. Live statistics and all five public
+download row counts exactly reproduce the release: 23,941 personnel CSV and
+JSONL rows, 280 organizations, 490 affiliations, and 969 sources.
+
+All 65 deployed manifest assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`51af054094c585e86a043e6263f0ffe0b9cdbbbbf8ec9279b1cc19094dbde75b`.
+A boundary-aware privacy scan directly compared 12,919 normalized private
+identifiers and 121 formatted raw variants against the 85 audited live HTML,
+data, compressed-mirror, manifest, and download artifacts and found zero full
+matches.
+
+GitHub emitted a non-blocking platform annotation that several pinned setup
+actions still declare Node.js 20 and were forced onto Node.js 24. The
+repository test job explicitly uses Node.js 24; no project build or test step
+failed.
 
 ## Batch 128 local release QA
 

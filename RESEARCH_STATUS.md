@@ -1305,7 +1305,11 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
   route to Box 31 archival review. The batch adds 19 citation records, three
   organizations, three affiliations, seven public-visible claims, and ten
   durable research attempts. No authenticated Catalog API request or raw
-  Catalog response was used.
+  Catalog response was used. Release `02202b1` passed GitHub test workflow
+  30717189434 and Pages workflow 30717189381. The production audit matched all
+  20 tested routes and all 65 manifest assets to the audited local build,
+  reproduced every live coverage statistic and download count, and found zero
+  full private-identifier matches across 85 live artifacts.
 - Published affiliations: 490
 - Database claims: 959; public-visible claims: 938 (185 confirmed, 634 high,
   115 medium, 4 conflicting); 21 low-confidence claims are withheld
