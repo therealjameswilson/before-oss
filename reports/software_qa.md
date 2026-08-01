@@ -7,10 +7,10 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,224 pages**
 - Internal link check: **24,224 HTML files passed**
-- Browser and accessibility suite: **390 / 390 passed**
+- Browser and accessibility suite: **393 / 393 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`ef81bdf3f794d52cef66dfa3fa42ca10218e7fa73666d7451774d8b7194c7c79`)
+  (`aca77b8c64269a9a2f44d33e7cf5dcd87be169c8de3ba5c0c93554282c938337`)
 - Latest clean-checkout replay (Batch 115): **byte-for-byte identical** public
   and generated site data and all **24,294** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
@@ -18,20 +18,20 @@ Run: 2026-08-01 UTC
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `7bcbe6fdaa384267d745be62cbe140d8223357d1aad9a5e0a16e5cbc8493bbca`
+  `32692e4a8bd2a14e36f7ef0902b680079cf589a60236dad89b992ccbc227987d`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,932** distinct normalized
   private identifiers, reduced to **12,919** nontrivial comparison
   tokens, plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,370** production
-  artifacts, including compressed mirrors
+  matches** in **24,370** production artifacts, including compressed mirrors;
+  one numeric overlap is manifest file-size metadata, not an identifier
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **845** public records representing **729** unique documents
-- Private citation records: **1,458**
+- Reviewed public sources: **854** public records representing **733** unique documents
+- Private citation records: **1,473**
 - Published, qualified affiliations: **480**
-- Published claims: **854**
+- Published claims: **861**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1520,6 +1520,56 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 116 local release QA
+
+Batch 116 adds ten visually checked rows across pages sixteen and seventeen,
+from Kermit Axelrod through Margaret Aznavourian. The reviewed bundle imports
+ten durable terminal research attempts, fifteen sources, seven claims, and
+seventeen claim-source links. Exact official AAD identifier matches confirm
+Forrest R. Ayers, Henry C. Ayers, and John F. Ayers. Forrest's general-office-
+clerk category and John's sales-clerk category are published as occupations
+only; Henry's undefined occupation code is not expanded. Kermit Axelrod and
+Morris E. Aycock retain explicit identifier conflicts. Five other profiles
+remain unresolved and route to Box 27. No organization or affiliation is
+created from evidence that names only an occupation or a namesake.
+
+The evidence bundle passed Pydantic validation and two isolated, idempotent
+replays before two idempotent imports into the durable database. SQLite
+`integrity_check` returned `ok`, and the foreign-key check returned zero
+errors. The Python suite passed 54 / 54. The static build completed 24,224
+pages with zero Astro errors, warnings, or hints. After one overly narrow
+empty-state wording assertion was corrected, the focused Batch 116 desktop
+test passed. The complete desktop, phone, tablet, responsive, direct-route,
+and axe matrix passed 393 / 393. The internal link checker passed all 24,224
+HTML pages and inventoried 48,646 unique external URLs. The dependency audit
+found zero vulnerabilities. The deterministic 200-profile stratified audit
+passed every invariant.
+
+Two consecutive static builds produced the identical
+`aca77b8c64269a9a2f44d33e7cf5dcd87be169c8de3ba5c0c93554282c938337`
+content-tree hash across 24,294 built artifacts. All 65 public manifest assets
+matched their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field check passed, and the manifest
+SHA-256 is
+`32692e4a8bd2a14e36f7ef0902b680079cf589a60236dad89b992ccbc227987d`.
+A field-aware boundary scan assessed 12,932 normalized private identifiers,
+reduced to 12,919 nontrivial comparison tokens, plus 121 formatted raw
+variants across 24,370 production artifacts, including compressed mirrors,
+and found zero full identifier matches. One coincidental numeric overlap in a
+manifest `size_bytes` field is file metadata, not a published identifier. The
+repository contains no local credential file or nonblank API-key assignment.
+No authenticated NARA Catalog API request or raw Catalog response was used.
+
+The Batch 116 database contains 2,010 durable research attempts, 1,473 private
+citation records, 484 affiliations, and 881 claims: 136 confirmed, 617 high,
+105 medium, 20 low, and three conflicting. The reviewed public projection
+contains 854 source records representing 733 unique documents, 480
+affiliations, and 861 claims. Coverage distinguishes 980 people with a
+non-planned research attempt, 238 people with verified affiliation evidence,
+136 people with verified employment or self-employment evidence, and 928
+people whose archival-review need has been assessed. The public downloads
+contain 23,941 people, 275 organizations, 480 affiliations, and 854 sources.
 
 ## Batch 115 local release QA
 

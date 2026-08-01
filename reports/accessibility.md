@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 387 / 387 browser cases.**
+**PASS - 393 / 393 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-133-person employer measure is labeled separately from the 235-person broader
+136-person employer measure is labeled separately from the 238-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,23 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 116 accessibility and responsive regression
+
+Batch 116 verifies Kermit Axelrod through Margaret Aznavourian at desktop,
+phone, and tablet sizes. The regression checks all ten direct Box 27 routes,
+indexed spelling, civilian and enlisted classifications, field-level serial
+masking, archival guidance, and the separation of occupations from employers.
+It preserves the Kermit Axelrod and Morris E. Aycock identifier conflicts,
+confirms the three official AAD identity matches, displays the two occupation-
+only results, and keeps five unresolved profiles visibly incomplete.
+
+The focused desktop run passed after its empty-state assertion was aligned
+with the site's two evidence-limited wordings. The complete desktop, phone,
+tablet, responsive, direct-route, search, and axe matrix passed 393 / 393 with
+no assertion failure or serious/critical accessibility violation. The
+homepage reports 136 verified-employer people separately from 238 verified-
+affiliation people.
 
 ## Batch 115 accessibility and responsive regression
 

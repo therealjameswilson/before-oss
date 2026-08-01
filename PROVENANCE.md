@@ -2131,6 +2131,45 @@ request was made, no API key was accessed, and no raw bulk record, live API
 response, full service identifier, or unrelated namesake was retained in the
 repository or public projection.
 
+## Page-sixteen-and-seventeen Axelrod-through-Aznavourian pathways, Batch 116
+
+`research/evidence-page-sixteen-seventeen-axelrod-through-aznavourian-pathways_batch-116_2026-08-01.json`
+records ten visually checked, contiguous rows from Kermit Axelrod through
+Margaret Aznavourian across PDF pages sixteen and seventeen. Raw spellings,
+initials, ranks and civilian grades, service-number presence or absence, Box
+27, blank fields, and archival location were checked against high-resolution
+page renders. The bundle contains ten person updates, fifteen sources, seven
+claims, ten durable research attempts, and seventeen claim-source links. It
+adds no organization or affiliation because none of the reviewed evidence
+names an employer or supports an immediate pre-OSS institution.
+
+Private identifiers were checked through NARA's public Access to Archival
+Databases Army Enlistment Records and Reserve Corps tables. Exact identifier
+and name agreement confirms Forrest R. Ayers, Henry C. Ayers, and John F.
+Ayers. The official data records Forrest's civilian occupation category as
+general office clerk and John's as sales clerk at Army entry. These findings
+are published as occupations only: no employing organization is named, and
+neither record establishes the immediate step into OSS. Henry's occupation
+field is an undefined code, so no occupation is assigned.
+
+The indexed private identifiers for Kermit Axelrod and Morris E. Aycock resolve
+to different names in the official tables. NARA's published cautions about
+scanning and keypunch errors prevent treating the merged data as infallible;
+both conflicts remain visible and route to Box 27 and the original enlistment
+records. The full identifiers and unrelated names are omitted. A Rutgers
+exact-name Kermit Axelrod candidate was reviewed but not selected because it
+supplies no OSS, Box 27, or identifier linkage.
+
+R. A. Axlund, Frank W. Ayers, Barbara F. Aylesworth, John M. Ayshford, and
+Margaret Aznavourian remain unresolved after the staged official, exact-name,
+employment, occupation, newspaper, obituary, institutional, CIA, and Library
+of Congress protocol. Namesakes and spelling variants remain rejection leads,
+not asserted identities. The public AAD pages were inspected transiently;
+only concise project-authored citation notes and stable Catalog pointers are
+retained. No authenticated NARA Catalog API request was made, no API key was
+accessed, and no raw response page or full service identifier was stored in the
+repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

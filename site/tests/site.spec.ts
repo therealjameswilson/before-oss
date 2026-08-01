@@ -10885,3 +10885,73 @@ test("Batch 115 preserves Autotte-through-Axelrad pathways, variants, and confli
     page.locator('section[aria-labelledby="civilian-employer"]'),
   ).toContainText("No reliable pre-OSS employer has yet been identified");
 });
+
+test("Batch 116 preserves Axelrod-through-Aznavourian occupations, conflicts, and unresolved outcomes", async ({
+  page,
+}) => {
+  const profiles = [
+    ["ef3e12dc-9f18-5acc-937a-54fe6172a60e", "Kermit Axelrod", "enlisted army personnel"],
+    ["2a0370a1-4036-5d60-8fa7-421e5ac17f26", "R A Axlund", "civilian professional or administrative grade"],
+    ["4bc411ac-75eb-5f5f-a881-42af3469c0b6", "Morris E Aycock", "enlisted army personnel"],
+    ["f626df86-e8ce-5a4c-a5f8-8edd6dee0c36", "Forrest R Ayers", "enlisted army personnel"],
+    ["346e0d33-5f8f-5531-80d6-30721a352f7b", "Frank W Ayers", "unknown or indeterminate"],
+    ["183f6730-bfbc-5073-b667-af9b5f760bb9", "Henry C Ayers", "enlisted army personnel"],
+    ["ae0e2726-54ea-55db-8d2b-d73fc683c89b", "John F Ayers", "enlisted army personnel"],
+    ["820ea4f6-82c8-518a-a9e1-466336563342", "Barbara F Aylesworth", "civilian professional or administrative grade"],
+    ["c3dc5b26-2ab3-57ef-8860-9f2649099181", "John M Ayshford", "unknown or indeterminate"],
+    ["515752da-0978-5cc7-91e6-c9e98157a341", "Margaret Aznavourian", "civilian professional or administrative grade"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("27", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText(
+      /No (reviewed claim currently meets the publication threshold|reliable pre-OSS employer has yet been identified)/,
+    );
+  }
+
+  for (const personId of [
+    "2a0370a1-4036-5d60-8fa7-421e5ac17f26",
+    "346e0d33-5f8f-5531-80d6-30721a352f7b",
+    "820ea4f6-82c8-518a-a9e1-466336563342",
+    "c3dc5b26-2ab3-57ef-8860-9f2649099181",
+    "515752da-0978-5cc7-91e6-c9e98157a341",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  for (const personId of [
+    "ef3e12dc-9f18-5acc-937a-54fe6172a60e",
+    "4bc411ac-75eb-5f5f-a881-42af3469c0b6",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "does not corroborate the OSS index's private identifier",
+    );
+  }
+
+  await page.goto("./people/f626df86-e8ce-5a4c-a5f8-8edd6dee0c36/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("general office clerk");
+
+  await page.goto("./people/183f6730-bfbc-5073-b667-af9b5f760bb9/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation field is an undefined code");
+
+  await page.goto("./people/ae0e2726-54ea-55db-8d2b-d73fc683c89b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("sales clerk");
+});

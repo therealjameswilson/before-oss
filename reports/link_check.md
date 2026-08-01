@@ -4,15 +4,15 @@ Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,219 HTML files. Every relative
+**PASS.** The production build contains 24,224 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 270 organization profiles, and the
+The build includes 23,941 person profiles, 275 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,634 unique external URLs for separate live
+The checker inventoried 48,646 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,28 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 116 local release check
+
+The rebuilt site contains direct, internally resolved routes for Kermit
+Axelrod, R. A. Axlund, Morris E. Aycock, Forrest R. Ayers, Frank W. Ayers,
+Henry C. Ayers, John F. Ayers, Barbara F. Aylesworth, John M. Ayshford, and
+Margaret Aznavourian. Their profiles preserve Box 27, indexed grades, blank or
+masked private identifiers, five unresolved identities, two conflicts, three
+confirmed identities, and two occupation-only findings without turning an
+occupation into an employer.
+
+The complete local link checker passed all 24,224 HTML files and inventoried
+48,646 unique external URLs. The public downloads contain 23,941 person rows,
+275 organization rows, 480 affiliation rows, and 854 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site. The manifest forbidden-field check
+passed, and its SHA-256 is
+`32692e4a8bd2a14e36f7ef0902b680079cf589a60236dad89b992ccbc227987d`.
+The field-aware scan of 12,919 nontrivial normalized identifiers and 121
+formatted raw variants found zero full private-identifier matches across
+24,370 production artifacts, including compressed mirrors. One numeric match
+in a manifest `size_bytes` field is coincidental file metadata.
 
 ## Batch 115 local release check
 
