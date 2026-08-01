@@ -11,9 +11,9 @@ Run: 2026-07-31 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
   (`1d68c153aaee3eebbe0f8b5ba0c78b743d7d297148b30d77c13ef042267bcf31`)
-- Latest clean-checkout replay (Batch 107): **byte-for-byte identical** public
+- Latest clean-checkout replay (Batch 108): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 107 evidence batches: **78 / 84
+  checkpoints, review decisions, and all 108 evidence batches: **78 / 84
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
@@ -39,18 +39,19 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30672071154](https://github.com/therealjameswilson/before-oss/actions/runs/30672071154)
-  for Batch 107 release `54e86a1`: **passed**
+  [30674337522](https://github.com/therealjameswilson/before-oss/actions/runs/30674337522)
+  for Batch 108 release `51f40a0`: **passed**
 - GitHub Pages deployment workflow
-  [30672071201](https://github.com/therealjameswilson/before-oss/actions/runs/30672071201)
-  for Batch 107 release `54e86a1`: **passed**
-- Production route smoke tests: **19 / 19 returned HTTP 200 and matched the
+  [30674337503](https://github.com/therealjameswilson/before-oss/actions/runs/30674337503)
+  for Batch 108 release `51f40a0`: **passed after one retry following a
+  transient GitHub Pages service error**
+- Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 85 live
+- Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `fd55ecdcffc37b6999a1121a8e102c26d16810765aea4d942f44059be61ce7b7`
+  `c037db2ff7d8d9e116000560f00f86f7cd144f96d9ad285f88093e356e011f1c`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1562,6 +1563,30 @@ claims. Coverage distinguishes 900 people with a non-planned research attempt,
 228 people with verified affiliation evidence, 130 people with verified
 employment or self-employment evidence, and 848 people whose archival-review
 need has been assessed.
+
+A fresh checkout replay rebuilt the frozen PDF, all page reviews, adapter
+checkpoints, review decisions, and 108 evidence batches. Seventy-eight of 84
+tracked provenance, generated/public, and QA artifacts matched the release
+commit byte for byte; the other six differed only in their expected
+report-generation timestamps. The rebuilt SQLite database passed
+`quick_check` and the foreign-key check, and the independently rebuilt site
+produced the same
+`1d68c153aaee3eebbe0f8b5ba0c78b743d7d297148b30d77c13ef042267bcf31`
+content-tree hash.
+
+The Batch 108 production audit followed successful GitHub test workflow
+[30674337522](https://github.com/therealjameswilson/before-oss/actions/runs/30674337522)
+and GitHub Pages workflow
+[30674337503](https://github.com/therealjameswilson/before-oss/actions/runs/30674337503)
+for release `51f40a0`. The Pages workflow's first attempt encountered GitHub's
+transient “No server is currently available” response at `configure-pages`;
+rerunning the failed job completed successfully without a repository change.
+All 17 deployed routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization. All 65 deployed
+manifest assets matched recorded and local sizes, hashes, and bytes; all eight
+live statistics and all five public-download row counts matched the release.
+The boundary-aware scan found zero full private-identifier or forbidden-field
+matches across 83 live artifacts.
 
 ## Batch 107 local release QA
 

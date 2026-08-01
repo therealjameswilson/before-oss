@@ -1158,6 +1158,36 @@ citation targets previously reviewed through accessible indexed context; the
 access behavior does not replace source review with a search-results page, and
 no rejected namesake was promoted to a public employer claim.
 
+## Batch 108 production deployment
+
+GitHub Actions test workflow
+[30674337522](https://github.com/therealjameswilson/before-oss/actions/runs/30674337522)
+and GitHub Pages deployment
+[30674337503](https://github.com/therealjameswilson/before-oss/actions/runs/30674337503)
+for release `51f40a0` completed successfully. The deployment needed one retry
+after GitHub Pages returned a transient service-unavailable error from
+`configure-pages`; no source change was required.
+
+Live checks returned HTTP 200 for all 17 tested publication routes: seven core
+publication URLs and all ten Batch 108 person profiles. After substituting the
+production and local plain and URL-encoded canonical hosts, every route matched
+the audited local HTML bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 900
+people with non-planned research attempts, 228 verified-affiliation people,
+130 verified-employer people, 848 archival-review assessments, 816 published
+claims, and 789 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 267, 464, and 789 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte-for-byte. The deployed and
+local manifest SHA-256 is
+`c037db2ff7d8d9e116000560f00f86f7cd144f96d9ad285f88093e356e011f1c`.
+The deployed manifest's forbidden-field check passed. A boundary-aware scan
+found zero full private-identifier or forbidden-field matches across 83 live
+HTML, data, compressed-mirror, manifest, and download artifacts.
+
 ## Batch 107 local release check
 
 The rebuilt site contains direct, internally resolved routes for Leo G. Askew,
