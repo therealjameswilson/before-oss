@@ -1160,6 +1160,28 @@ A boundary-aware comparison of 12,919 normalized private identifiers and 121
 formatted variants against 24,304 public text and compressed artifacts found
 zero full matches.
 
+## Batch 132 production deployment
+
+GitHub Actions test workflow
+[30723187585](https://github.com/therealjameswilson/before-oss/actions/runs/30723187585)
+and Pages workflow
+[30723187576](https://github.com/therealjameswilson/before-oss/actions/runs/30723187576)
+completed successfully for release `6141421`.
+
+All 18 production routes returned HTTP 200 and matched the audited local HTML
+after canonical-host normalization: seven core publication routes, all ten
+Batch 132 profiles, and the Centre américain de secours organization route.
+The deployed manifest matched the local release byte-for-byte. All 65
+manifest assets matched their recorded and local sizes, SHA-256 values, and
+bytes; its SHA-256 is
+`a53a400661d0f31ef55d67e2082f5a6b2dc6cf85b9ac6a90cadd8a4cce4c163d`.
+
+The five downloads contain 23,941 personnel CSV rows, 23,941 personnel JSONL
+rows, 286 organizations, 498 affiliations, and 998 sources. Because the 18
+audited HTML routes matched the locally scanned release after the expected
+canonical-host substitution and all 65 deployed assets matched the local
+bytes, production inherits the exhaustive local zero-match privacy result.
+
 ## Batch 131 local release check
 
 The rebuilt site contains direct, internally resolved routes for Arthur L.

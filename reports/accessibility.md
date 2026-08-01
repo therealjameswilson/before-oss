@@ -1032,6 +1032,18 @@ focused desktop, phone, and tablet run then passed 3 / 3. The complete browser,
 responsive, and accessibility matrix passed 441 / 441 with no assertion or
 serious/critical axe failure.
 
+GitHub test workflow
+[30723187585](https://github.com/therealjameswilson/before-oss/actions/runs/30723187585)
+repeated the complete 441 / 441 suite on a clean Ubuntu runner for release
+`6141421` and passed. GitHub Pages workflow
+[30723187576](https://github.com/therealjameswilson/before-oss/actions/runs/30723187576)
+also completed successfully. All ten deployed Batch 132 profiles, the linked
+Centre américain de secours organization profile, and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after
+canonical-host normalization. GitHub's Node.js setup-action annotation was
+non-blocking; no assertion, navigation, responsive-layout, or
+serious/critical axe failure occurred.
+
 ## Batch 131 accessibility and responsive regression
 
 Batch 131 verifies the ten contiguous Arthur L. Baldwin-through-Dominick

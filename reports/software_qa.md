@@ -3366,6 +3366,34 @@ unique documents, 498 affiliations, and 958 claims. Coverage distinguishes
 affiliation evidence, 140 people with verified employment or self-employment
 evidence, and 1,089 people whose archival-review need has been assessed.
 
+## Batch 132 production deployment
+
+GitHub Actions test workflow
+[30723187585](https://github.com/therealjameswilson/before-oss/actions/runs/30723187585)
+and GitHub Pages deployment workflow
+[30723187576](https://github.com/therealjameswilson/before-oss/actions/runs/30723187576)
+completed successfully for release `6141421`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+441-case browser, responsive, direct-route, search, and axe matrix. GitHub's
+only annotation was the non-blocking setup-action notice that Node.js 20
+actions are currently forced to Node.js 24; no project test or build step
+failed.
+
+All 18 audited production routes returned HTTP 200 and matched the local HTML
+after canonical-host normalization. The set comprised seven core routes, all
+ten Batch 132 person profiles, and the Centre américain de secours
+organization profile. The five public downloads reproduced 23,941 personnel
+CSV rows, 23,941 personnel JSONL rows, 286 organizations, 498 affiliations,
+and 998 sources.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`a53a400661d0f31ef55d67e2082f5a6b2dc6cf85b9ac6a90cadd8a4cce4c163d`.
+Because all audited live HTML matched the locally scanned release after the
+canonical-host substitution and all manifest assets matched byte-for-byte,
+the deployed release inherits the exhaustive local zero-match privacy result
+for 12,919 normalized private identifiers and 121 formatted variants.
+
 ## Batch 131 local release QA
 
 Batch 131 adds the ten visually checked contiguous page-twenty rows from
