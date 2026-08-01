@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 275 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,647 unique external URLs for separate live
+The checker inventoried 48,653 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,28 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 118 local release check
+
+The rebuilt site contains direct, internally resolved routes for George H.
+Babcock, Merrill Babcock, Richard Babcock, Mike Babich, Milan Babich, Millard
+A. Babin Jr., Thomas Babin, Raymond P. Babineau, Arthur A. Babst, and Andrew H.
+Babyak. Their profiles preserve Box 28, indexed ranks, blank or masked private
+identifiers, seven unresolved identities, one confirmed identity, one
+high-confidence identity, one probable identity, and one occupation-only
+finding without converting postwar context, an undefined official code, or a
+wartime occupation into a named pre-OSS employer.
+
+The complete local link checker passed all 24,224 HTML files and inventoried
+48,653 unique external URLs. The public downloads contain 23,941 person rows,
+275 organization rows, 480 affiliation rows, and 874 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site. The manifest forbidden-field check
+passed, and its SHA-256 is
+`b64fdc1b0e0567e2189a3d227878ce6d6907cde3b50812f42d7c17a44fea0ccd`.
+The field-aware scan of 12,919 nontrivial normalized identifiers and 121
+formatted raw variants found zero unexpected full private-identifier matches
+across 24,370 production artifacts, including compressed mirrors.
 
 ## Batch 117 local release check
 

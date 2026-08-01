@@ -10948,7 +10948,7 @@ test("Batch 116 preserves Axelrod-through-Aznavourian occupations, conflicts, an
 
   await page.goto("./people/183f6730-bfbc-5073-b667-af9b5f760bb9/");
   await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
-  await expect(page.locator("main")).toContainText("occupation field is an undefined code");
+    await expect(page.locator("main")).toContainText("occupation code is undefined");
 
   await page.goto("./people/ae0e2726-54ea-55db-8d2b-d73fc683c89b/");
   await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
@@ -11024,4 +11024,79 @@ test("Batch 117 preserves Aznone-through-Babberle occupations, unit context, and
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("OSS Greek Group VII");
   await expect(page.locator("main")).toContainText("occupation code is undefined");
+});
+
+test("Batch 118 preserves Babcock-through-Babyak identity thresholds and occupation-only evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["838b1019-92ca-5a2f-873e-1fc57ca6e3b3", "George H Babcock", "enlisted army personnel"],
+    ["2b7136ca-64e9-5595-a77d-dc2ac261ffaa", "Merrill Babcock", "civilian professional or administrative grade"],
+    ["aecb7f9d-a24c-5ffd-8326-075fb010afa8", "Richard Babcock", "unknown or indeterminate"],
+    ["3a81418e-d2e2-5ed9-8472-10f0da9f99dc", "Mike Babich", "enlisted naval personnel"],
+    ["ac85983d-371b-5da5-85ea-8a63525c76c2", "Milan Babich", "unknown or indeterminate"],
+    ["277ec46f-71e7-56b0-b366-ca7f1f9c9bb5", "Millard A Babin Jr.", "enlisted army personnel"],
+    ["a5e4b2af-6c97-5c0b-b678-5837327e3495", "Thomas Babin", "unknown or indeterminate"],
+    ["109c88d7-47cc-58b9-a08a-c78217da239f", "Raymond P Babineau", "commissioned army officer"],
+    ["6f8d5426-4180-5d99-b153-f4292973ebaf", "Arthur A Babst", "enlisted naval personnel"],
+    ["2340e205-3f27-5f47-982c-8fbcfdba9782", "Andrew H Babyak", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("28", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "2b7136ca-64e9-5595-a77d-dc2ac261ffaa",
+    "aecb7f9d-a24c-5ffd-8326-075fb010afa8",
+    "3a81418e-d2e2-5ed9-8472-10f0da9f99dc",
+    "ac85983d-371b-5da5-85ea-8a63525c76c2",
+    "277ec46f-71e7-56b0-b366-ca7f1f9c9bb5",
+    "6f8d5426-4180-5d99-b153-f4292973ebaf",
+    "2340e205-3f27-5f47-982c-8fbcfdba9782",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/838b1019-92ca-5a2f-873e-1fc57ca6e3b3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation code is undefined");
+
+  await page.goto("./people/a5e4b2af-6c97-5c0b-b678-5837327e3495/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("longshoreman in Hoboken");
+  await expect(page.locator("main")).toContainText("occupation with uncertain sequence");
+  await expect(page.getByRole("link", { name: /GRU agent Thomas Babin is going to Cairo/ }).first()).toHaveAttribute("href", /nsa\.gov/);
+  await expect(page.getByRole("link", { name: "Venona: Decoding Soviet Espionage in America", exact: true }).first()).toHaveAttribute("href", /jstor\.org/);
+
+  await page.goto("./people/109c88d7-47cc-58b9-a08a-c78217da239f/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("probable, not confirmed");
+  await expect(page.locator("main")).toContainText("postwar Michigan State Vietnam Project records");
+  await expect(page.getByRole("link", { name: "Vietnam Project Records UA.2.9.5.5", exact: true }).first()).toHaveAttribute("href", /msu\.edu/);
+
+  await page.goto("./people/2b7136ca-64e9-5595-a77d-dc2ac261ffaa/");
+  await expect(page.locator("main")).toContainText("Caf-4");
+  await page.goto("./people/3a81418e-d2e2-5ed9-8472-10f0da9f99dc/");
+  await expect(page.locator("main")).toContainText("SK 3/c");
+  await expect(page.locator("main")).toContainText("steelworker namesake");
+  await page.goto("./people/6f8d5426-4180-5d99-b153-f4292973ebaf/");
+  await expect(page.locator("main")).toContainText("BM2/c T");
 });

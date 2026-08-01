@@ -2216,6 +2216,52 @@ authenticated NARA Catalog API request was made, no API key was accessed, and
 no raw Catalog response, full service identifier, or copyrighted source copy
 was stored in the repository or public projection.
 
+## Page-seventeen Babcock-through-Babyak pathways, Batch 118
+
+`research/evidence-page-seventeen-babcock-through-babyak-pathways_batch-118_2026-08-01.json`
+records ten visually checked, contiguous rows from George H. Babcock through
+Andrew H. Babyak on PDF page seventeen. Raw spellings, initials, suffixes,
+ranks, private-identifier presence or absence, Box 28, blank fields, and the
+archival location were checked against a 200-dpi page render. The bundle
+contains ten person updates, twenty-two sources, four claims, ten durable
+research attempts, and fourteen claim-source links. It creates no organization
+or affiliation because none of the reviewed evidence names a supportable
+pre-OSS employer or establishes an immediate predecessor institution.
+
+Exact name and private-identifier agreement in NARA's public Access to
+Archival Databases Army table confirms George H. Babcock. His official
+occupation field is an undefined code, so the project publishes neither an
+occupation nor an employer. Millard A. Babin Jr.'s indexed private identifier
+returned no record in the applicable public Army tables; NARA's documented
+coverage and transcription limits mean that non-result is not treated as a
+contradiction. Full private identifiers and transient response pages are not
+stored in the evidence bundle or public projection.
+
+Two official National Security Agency VENONA descriptions place Thomas Babin
+with an OSS unit and OSS associates in July 1943. Haynes and Klehr's scholarly
+*Venona* history independently describes his brief OSS service and wartime work
+as a Hoboken longshoreman. Those sources support a high-confidence identity and
+a medium-confidence occupation-only finding. They do not name an employer or
+explicitly sequence the longshore work before OSS entry, so the site preserves
+temporal uncertainty and excludes the claim from employer analytics.
+
+Michigan State University archives and board minutes document a postwar
+Raymond P. Babineau in the Vietnam Project. A CIA Reading Room copy of a 1966
+third-party magazine article supplies corroborative career context, not an
+official CIA-authored personnel determination. The rare-name match remains
+probable because no reviewed source supplies the indexed officer identifier,
+Box 28 linkage, or wartime chronology. It contributes no pre-OSS affiliation.
+Steelworker and Goodyear obituaries for Mike and Milan Babich, along with
+directory, obituary, and newspaper candidates for the other rows, remain
+rejected leads rather than profile facts.
+
+The public AAD pages were inspected transiently through the read-only form;
+the current Library of Congress API was queried for discovery without saving
+raw responses, and a blocked item page was not bypassed. No authenticated NARA
+Catalog API request was made, no API key was accessed, and no raw Catalog
+response, full service identifier, copyrighted book, or newspaper page was
+stored in the repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

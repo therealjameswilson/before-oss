@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 990 people with a non-planned attempt | 23,941 person entities | 4.1352% |
+| Research-attempt coverage | 1,000 people with a non-planned attempt | 23,941 person entities | 4.1769% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 938 people with an individual file-access/priority assessment | 23,941 person entities | 3.9180% |
+| Archival-review coverage | 948 people with an individual file-access/priority assessment | 23,941 person entities | 3.9597% |
 
 ## Extraction and identity
 
@@ -21,16 +21,16 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 58
-- Identity status `high_confidence`: 291
-- Identity status `probable`: 33
+- Identity status `confirmed`: 59
+- Identity status `high_confidence`: 292
+- Identity status `probable`: 34
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 4
-- Identity status `unresolved`: 23,530
+- Identity status `unresolved`: 23,527
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,550
+- Unknown or indeterminate: 16,549
 - Enlisted Army personnel: 3,479
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
@@ -38,21 +38,21 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,460
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 52
+- Enlisted naval personnel: 53
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,158 yes; 5,002 no; 16,781 indeterminate.
+Commissioned classification: 2,158 yes; 5,003 no; 16,780 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,951
+- `not_started`: 22,941
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 30
-- `occupation_only_found`: 45
-- `requires_archival_review`: 656
+- `occupation_only_found`: 46
+- `requires_archival_review`: 665
 - `completed`: 54
 - `conflicting_sources`: 3
 - `verified_employer_found`: 138
@@ -69,17 +69,21 @@ Commissioned classification: 2,158 yes; 5,002 no; 16,781 indeterminate.
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
-- Reviewed-official-AAD-institutional-and-web attempts recorded: 20
+- Reviewed-official-AAD-institutional-and-web attempts recorded: 22
+- Reviewed-official-institutional-CIA-and-web attempts recorded: 1
+- Reviewed-official-institutional-directory-and-web attempts recorded: 2
+- Reviewed-official-institutional-newspaper-and-web attempts recorded: 2
+- Reviewed-official-NSA-scholarly-institutional-and-web attempts recorded: 1
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 373 across 354 people; 27 additional
+- Saved `source_reviewed` outcomes: 376 across 357 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,020
+- Total recorded attempts/plans: 2,030
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 360; 343 have at least one public-eligible
+- People with saved reviewed claims: 363; 343 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1045,10 +1049,23 @@ Commissioned classification: 2,158 yes; 5,002 no; 16,781 indeterminate.
   Baagoe, Thomas T. Baba, John E. Babb, and Stanley L. Babberle remain
   unresolved and route to Box 27 or 28. No named employer or modeled
   affiliation is added.
+- Batch 118 continues page seventeen from George H. Babcock through Andrew H.
+  Babyak. Exact name and private-identifier agreement in NARA's public AAD Army
+  table confirms George H. Babcock, but its occupation field is an undefined
+  code and is not expanded. Official NSA VENONA descriptions and a scholarly
+  history support a high-confidence Thomas Babin identity; longshoreman is
+  published only as a medium-confidence occupation with uncertain sequence,
+  no named employer, and no immediate-pre-OSS flag. Michigan State records
+  support only a probable postwar Raymond P. Babineau identity lead pending
+  Box 28 and officer-register confirmation. Merrill and Richard Babcock, Mike
+  and Milan Babich, Millard A. Babin Jr., Arthur A. Babst, and Andrew H. Babyak
+  remain unresolved. Rejected steelworker, Goodyear, directory, obituary, and
+  ethnic-newspaper namesakes are not assigned. No organization or affiliation
+  is added.
 - Published affiliations: 480
-- Database claims: 888; public-eligible claims: 868 (143 confirmed, 617 high,
-  105 medium, 3 conflicting); 20 low-confidence claims are withheld
-- Citation records: 1,491; public source export: 863; unique source documents: 737
+- Database claims: 892; public-eligible claims: 872 (144 confirmed, 618 high,
+  107 medium, 3 conflicting); 20 low-confidence claims are withheld
+- Citation records: 1,513; public source export: 874; unique source documents: 745
 - Canonical organizations: 277 private and 275 public
 - Conflicts: 4
 - NARA pull-list rows: 23,840
@@ -1215,6 +1232,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-autotte-through-axelrad-pathways_batch-115_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-seventeen-axelrod-through-aznavourian-pathways_batch-116_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-aznone-through-babberle-pathways_batch-117_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-babcock-through-babyak-pathways_batch-118_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

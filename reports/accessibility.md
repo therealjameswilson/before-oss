@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 396 / 396 browser cases.**
+**PASS - 399 / 399 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,28 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 118 accessibility and responsive regression
+
+Batch 118 verifies George H. Babcock through Andrew H. Babyak at desktop,
+phone, and tablet sizes. The regression checks all ten direct Box 28 routes,
+indexed spelling, civilian, commissioned, enlisted, and indeterminate
+personnel classifications, field-level serial masking, archival guidance, and
+the separation of identity evidence from pre-OSS occupation and employer
+claims. It confirms George H. Babcock only through the exact official AAD
+match, preserves the undefined official occupation code without expansion,
+publishes Thomas Babin's longshoreman evidence only as a medium-confidence
+occupation with uncertain sequence, and keeps Raymond P. Babineau's rare-name
+postwar context at probable identity. Seven identities remain visibly
+unresolved, and none of the ten receives an unsupported named employer.
+
+Four focused runs exposed only test-copy mismatches involving punctuation,
+capitalization, and qualified profile wording. After the assertions were
+aligned with the public evidence language, the focused desktop, phone, and
+tablet run passed 3 / 3. The complete browser, responsive, direct-route,
+search, and axe matrix passed 399 / 399 with no assertion failure or
+serious/critical accessibility violation. The homepage continues to report
+136 verified-employer people separately from 238 verified-affiliation people.
 
 ## Batch 117 accessibility and responsive regression
 

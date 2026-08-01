@@ -7,31 +7,29 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,224 pages**
 - Internal link check: **24,224 HTML files passed**
-- Browser and accessibility suite: **396 / 396 passed**
+- Browser and accessibility suite: **399 / 399 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`7fcf7df40394c0af5e0ae387a04faa0d3abd6605379ae94051cbcddd8ce9f58d`)
-- Latest clean-checkout replay (Batch 117): **byte-for-byte identical** public
+  (`11a93bf724c279d28db0d83c206274787c9efa33f9fd96abb89359a8f6404f42`)
+- Latest clean-checkout replay (Batch 118): **byte-for-byte identical** public
   and generated site data and all **24,294** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
-  all 117 evidence batches.
+  all 118 evidence batches.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `7fbb243c9aaffa676e7c916da7bae79c0ff45218fac2c1e7608f01ee69b3ca4f`
+  `b64fdc1b0e0567e2189a3d227878ce6d6907cde3b50812f42d7c17a44fea0ccd`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Field-aware boundary scan of **12,932** distinct normalized
-  private identifiers, reduced to **12,919** nontrivial comparison
-  tokens, plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,370** production artifacts, including compressed mirrors;
-  one numeric overlap is manifest file-size metadata, not an identifier
+- Field-aware boundary scan of **12,919** nontrivial normalized private
+  identifiers plus **121** formatted raw variants: **0 unexpected full-number
+  matches** in **24,370** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **863** public records representing **737** unique documents
-- Private citation records: **1,491**
+- Reviewed public sources: **874** public records representing **745** unique documents
+- Private citation records: **1,513**
 - Published, qualified affiliations: **480**
-- Published claims: **868**
+- Published claims: **872**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1520,6 +1518,68 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 118 local release QA
+
+Batch 118 adds ten visually checked page-seventeen rows from George H.
+Babcock through Andrew H. Babyak. The reviewed bundle imports ten durable
+terminal research attempts, twenty-two sources, four claims, and fourteen
+claim-source links. An exact official AAD name-and-private-identifier match
+confirms George H. Babcock's identity while leaving the official occupation
+code unexpanded. Official NSA VENONA descriptions and a scholarly history
+support a high-confidence Thomas Babin identity and a medium-confidence
+occupation-only finding, with no named employer and uncertain sequence.
+Raymond P. Babineau remains a probable identity supported by postwar context,
+not a confirmed pre-OSS pathway. Seven identities remain unresolved. All ten
+profiles route to Box 28 archival review, and no organization or affiliation
+is created.
+
+The evidence bundle passed Pydantic validation and an isolated test-database
+import before its idempotent durable import. SQLite `integrity_check` returned
+`ok`, and the foreign-key check returned zero errors. The Python suite passed
+54 / 54. The static build completed 24,224 pages with zero Astro errors,
+warnings, or hints. Four test-only wording and capitalization expectations
+were aligned with the generated public profiles; the final focused run passed
+3 / 3 across desktop, phone, and tablet. The complete responsive,
+direct-route, search, and axe matrix passed 399 / 399. The internal link
+checker passed all 24,224 HTML pages and inventoried 48,653 unique external
+URLs. The dependency audit found zero vulnerabilities, and the deterministic
+200-profile stratified audit passed every invariant.
+
+Two consecutive static builds produced the identical
+`11a93bf724c279d28db0d83c206274787c9efa33f9fd96abb89359a8f6404f42`
+content-tree hash across 24,294 built artifacts. All 65 public manifest assets
+matched their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field redaction check passed, and the
+manifest SHA-256 is
+`b64fdc1b0e0567e2189a3d227878ce6d6907cde3b50812f42d7c17a44fea0ccd`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across 24,370 production
+artifacts, including compressed mirrors, and found zero unexpected full
+matches. The repository contains no local credential file or nonblank API-key
+assignment. No authenticated NARA Catalog API request or raw Catalog response
+was used.
+
+The Batch 118 database contains 2,030 durable research attempts, 1,513 private
+citation records, 484 affiliations, 277 organizations, and 892 claims: 144
+confirmed, 618 high, 107 medium, 20 low, and three conflicting. The reviewed
+public projection contains 874 source records representing 745 unique
+documents, 480 affiliations, and 872 claims. Coverage distinguishes 1,000
+people with a non-planned research attempt, 238 people with verified
+affiliation evidence, 136 people with verified employment or self-employment
+evidence, and 948 people whose archival-review need has been assessed. The
+public downloads contain 23,941 people, 275 organizations, 480 affiliations,
+and 874 sources.
+
+A clean clone of the Batch 118 release candidate reproduced the project from
+the hash-verified 522-page source PDF, all tracked page reviews and
+checkpoints, the review-decision import, and all 118 evidence bundles. Direct
+recursive comparisons found no byte difference in `site/public`, generated
+site inputs, or any of the 24,294 built artifacts. The replay database exactly
+matched the release database at 23,978 source rows, 23,941 person entities,
+2,030 research attempts, 892 claims, 484 affiliations, 277 organizations, and
+1,513 citation records. Both databases returned `ok` from SQLite
+`integrity_check` and zero foreign-key errors.
 
 ## Batch 117 local release QA
 
