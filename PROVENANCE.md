@@ -2262,6 +2262,54 @@ Catalog API request was made, no API key was accessed, and no raw Catalog
 response, full service identifier, copyrighted book, or newspaper page was
 stored in the repository or public projection.
 
+## Page-seventeen Bachand-through-Backus pathways, Batch 119
+
+`research/evidence-page-seventeen-bachand-through-backus-pathways_batch-119_2026-08-01.json`
+records ten visually checked, contiguous rows from Albert E. Bachand through
+Emmett F. Backus on PDF page seventeen. Raw spellings, initials, suffixes,
+ranks, private-identifier presence or absence, Box 28, blank fields, civilian
+grades, and the archival location were checked against a 200-dpi page render.
+The bundle contains ten person updates, eighteen sources, five identity claims,
+ten durable research attempts, and fourteen claim-source links. It creates no
+organization or affiliation because none of the reviewed evidence establishes
+a supportable pre-OSS employer or predecessor institution.
+
+A declassified May 1944 U.S. government record in the Hoover Institution's
+Millard Preston Goodfellow papers lists Walter F. Bachelder as a second
+lieutenant at Algiers and Gilbert O. Backman as a second lieutenant at Bari.
+Exact names and compatible ranks across that record and the NARA index confirm
+both identities. Contemporary Dartmouth war directories corroborate
+Bachelder's progression from sergeant in 1942 to second lieutenant in 1943.
+His obituary states that Testing Machines Inc. employment began in 1947, so
+the company is explicitly rejected as a pre-OSS employer.
+
+University of Maryland repository and commencement records give Ross E.
+Backenstoss Jr.'s full middle name and suffix in 1943. Because those records do
+not contain the indexed private identifier or independently establish OSS
+service, the identity remains probable, and student status is not converted
+into employment or labeled immediately pre-OSS. A direct 1946 U.S. government
+letter preserved by the Hellenic Literary and Historical Archive lists the
+exact uncommon name Mary E. Backle in an Athens unit reporting to the Strategic
+Services Unit. That supports a high-confidence identity while remaining
+post-OSS evidence only. A secondary Jedburgh roster gives Albert V. Bacik's
+exact uncommon name, compatible enlisted status, Team Arthur, and cover name;
+the match remains probable and medium confidence pending Box 28.
+
+Albert E. Bachand, Robert J. Bachman, Rose M. Backman, Alice C. Backus, and
+Emmett F. Backus remain unresolved after staged NARA/index context, CIA,
+exact-name OSS, employment, occupation, newspaper, obituary, directory, and
+institutional searches. Name-only people-finder and unsourced genealogy leads
+were rejected. A 1936 radio-amateur directory entry for an Albert V. Bacik was
+not published because it establishes neither employment nor OSS identity; its
+street address was not retained. All ten profiles route to Box 28 for the
+missing chronology and employment evidence.
+
+Only stable citations, concise project-authored evidence notes, and short
+excerpts are retained. No authenticated NARA Catalog API request was made, no
+API key was accessed, and no raw Catalog response, full service identifier,
+home address, copyrighted source copy, or people-finder data was stored in the
+repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

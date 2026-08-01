@@ -7,18 +7,18 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,224 pages**
 - Internal link check: **24,224 HTML files passed**
-- Browser and accessibility suite: **399 / 399 passed**
+- Browser and accessibility suite: **402 / 402 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`11a93bf724c279d28db0d83c206274787c9efa33f9fd96abb89359a8f6404f42`)
-- Latest clean-checkout replay (Batch 118): **byte-for-byte identical** public
+  (`9cae2557cb159d8f2ee9df5288356b13119b04a7b03a07696743a17b085d48ef`)
+- Latest complete replay (Batch 119): **byte-for-byte identical** public
   and generated site data and all **24,294** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
-  all 118 evidence batches.
+  all 119 evidence batches.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `b64fdc1b0e0567e2189a3d227878ce6d6907cde3b50812f42d7c17a44fea0ccd`
+  `5027d04de3e84bf02f63d4730ad68deb7a5e3d332cb402ea4229f8ab475cff4a`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -26,10 +26,10 @@ Run: 2026-08-01 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,370** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **874** public records representing **745** unique documents
-- Private citation records: **1,513**
+- Reviewed public sources: **887** public records representing **753** unique documents
+- Private citation records: **1,531**
 - Published, qualified affiliations: **480**
-- Published claims: **872**
+- Published claims: **877**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1518,6 +1518,67 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 119 local release QA
+
+Batch 119 adds ten visually checked page-seventeen rows from Albert E.
+Bachand through Emmett F. Backus. The reviewed bundle imports ten durable
+terminal research attempts, eighteen sources, five identity claims, and
+fourteen claim-source links. A declassified 1944 U.S. government
+personnel-interview index confirms Walter F. Bachelder and Gilbert O. Backman
+by exact name, compatible rank, and theater station. Direct institutional and
+government records support a high-confidence Mary E. Backle identity and a
+probable Ross E. Backenstoss Jr. identity; a secondary Jedburgh roster supports
+a qualified, probable Albert V. Bacik identity. Five identities remain
+unresolved. All ten profiles route to Box 28, and no organization or
+affiliation is created because the reviewed chronology does not establish a
+pre-OSS employer or predecessor institution.
+
+The bundle passed Pydantic validation through the durable importer and replayed
+idempotently. SQLite `integrity_check` returned `ok`, and the foreign-key check
+returned zero errors. The Python suite passed 54 / 54. The static build
+completed 24,224 pages with zero Astro errors, warnings, or hints. After two
+test-only wording expectations were aligned with the generated profile text,
+the focused run passed 3 / 3 across desktop, phone, and tablet. The complete
+responsive, direct-route, search, and axe matrix passed 402 / 402 in 4.9
+minutes. The internal link checker passed all 24,224 HTML pages and inventoried
+48,661 unique external URLs. The dependency audit found zero vulnerabilities,
+and the deterministic 200-profile stratified audit passed every invariant.
+
+Two consecutive static builds produced the identical
+`9cae2557cb159d8f2ee9df5288356b13119b04a7b03a07696743a17b085d48ef`
+content-tree hash across 24,294 built artifacts. All 65 public manifest assets
+matched their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field redaction check passed, and the
+manifest SHA-256 is
+`5027d04de3e84bf02f63d4730ad68deb7a5e3d332cb402ea4229f8ab475cff4a`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across 24,370 production
+artifacts, including compressed mirrors, and found zero unexpected full
+matches. The repository contains no local credential file or nonblank API-key
+assignment. No authenticated NARA Catalog API request or raw Catalog response
+was used.
+
+The Batch 119 database contains 2,040 durable research attempts, 1,531 private
+citation records, 484 affiliations, 277 organizations, and 897 claims: 146
+confirmed, 619 high, 109 medium, 20 low, and three conflicting. The reviewed
+public projection contains 887 source records representing 753 unique
+documents, 480 affiliations, and 877 claims. Coverage distinguishes 1,010
+people with a non-planned research attempt, 238 people with verified
+affiliation evidence, 136 people with verified employment or self-employment
+evidence, and 958 people whose archival-review need has been assessed. The
+public downloads contain 23,941 people, 275 organizations, 480 affiliations,
+and 887 sources.
+
+A complete replay reproduced the project from the hash-verified 522-page
+source PDF, all tracked page reviews and checkpoints, the review-decision
+import, and all 119 evidence bundles. Direct path-and-content comparisons found
+no byte difference in `site/public`, generated site inputs, or any of the
+24,294 built artifacts. The replay database exactly matched the incremental
+database at 23,978 source rows, 23,941 person entities, 2,040 research
+attempts, 897 claims, 484 affiliations, 277 organizations, and 1,531 citation
+records. The replay database returned `ok` from SQLite `integrity_check` and
+zero foreign-key errors.
 
 ## Batch 118 local release QA
 

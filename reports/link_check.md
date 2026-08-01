@@ -12,13 +12,17 @@ The build includes 23,941 person profiles, 275 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,653 unique external URLs for separate live
+The checker inventoried 48,661 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
 
 | Target | Result |
 |---|---|
+| Hoover Institution, 1944 North African theater personnel-interview index | Item metadata and declassified digitized index reviewed; direct profile citations point to record 69085.148 |
+| University of Maryland DRUM, Ross Elwood Backenstoss thesis | HTTP 200; institutional item metadata, 1943 date, author, DOI, and collection reviewed |
+| Hellenic Literary and Historical Archive, 1946 SSU successor-unit letter | Direct U.S. government document reviewed; access restrictions were not bypassed |
+| Dartmouth Alumni Magazine war directories, Walter F. Bachelder | 1942 and 1943 institutional directory entries reviewed through current archive pages |
 | NARA OSS personnel records | HTTP 200 |
 | NARA OSS records overview | HTTP 200 |
 | National Archives Catalog | HTTP 200 |

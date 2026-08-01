@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,000 people with a non-planned attempt | 23,941 person entities | 4.1769% |
+| Research-attempt coverage | 1,010 people with a non-planned attempt | 23,941 person entities | 4.2187% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 948 people with an individual file-access/priority assessment | 23,941 person entities | 3.9597% |
+| Archival-review coverage | 958 people with an individual file-access/priority assessment | 23,941 person entities | 4.0015% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 59
-- Identity status `high_confidence`: 292
-- Identity status `probable`: 34
+- Identity status `confirmed`: 61
+- Identity status `high_confidence`: 293
+- Identity status `probable`: 36
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 4
-- Identity status `unresolved`: 23,527
+- Identity status `unresolved`: 23,522
 
 ## Personnel categories
 
@@ -42,17 +42,17 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,158 yes; 5,003 no; 16,780 indeterminate.
+Commissioned classification: 2,158 yes; 5,005 no; 16,778 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,941
+- `not_started`: 22,931
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 30
 - `occupation_only_found`: 46
-- `requires_archival_review`: 665
+- `requires_archival_review`: 675
 - `completed`: 54
 - `conflicting_sources`: 3
 - `verified_employer_found`: 138
@@ -70,6 +70,7 @@ Commissioned classification: 2,158 yes; 5,003 no; 16,780 indeterminate.
 - Reviewed-official-bulk-and-web attempts recorded: 10
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
 - Reviewed-official-AAD-institutional-and-web attempts recorded: 22
+- Reviewed-official-institutional-and-web attempts recorded: 12
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
 - Reviewed-official-institutional-newspaper-and-web attempts recorded: 2
@@ -78,12 +79,12 @@ Commissioned classification: 2,158 yes; 5,003 no; 16,780 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 376 across 357 people; 27 additional
+- Saved `source_reviewed` outcomes: 386 across 367 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,030
+- Total recorded attempts/plans: 2,040
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 363; 343 have at least one public-eligible
+- People with saved reviewed claims: 368; 348 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1062,10 +1063,27 @@ Commissioned classification: 2,158 yes; 5,003 no; 16,780 indeterminate.
   remain unresolved. Rejected steelworker, Goodyear, directory, obituary, and
   ethnic-newspaper namesakes are not assigned. No organization or affiliation
   is added.
+- Batch 119 continues page seventeen from Albert E. Bachand through Emmett F.
+  Backus. A declassified May 1944 U.S. government personnel-interview index in
+  the Hoover Institution's Millard Preston Goodfellow papers confirms Walter
+  F. Bachelder at Algiers and Gilbert O. Backman at Bari by exact name and
+  compatible commissioned rank. Contemporary Dartmouth directories corroborate
+  Bachelder's Army rank progression, while the named Testing Machines Inc.
+  employment explicitly begins in 1947 and is excluded as postwar. University
+  of Maryland records support only a probable Ross Elwood Backenstoss Jr.
+  identity; the documented 1943 student status is not converted into employment
+  or labeled immediate. A direct 1946 U.S. government record supports a
+  high-confidence Mary E. Backle identity in an SSU successor unit, but her
+  secretary role is retained only as post-OSS identity evidence. A secondary
+  Jedburgh roster supports a qualified, medium-confidence Albert V. Bacik Team
+  Arthur identity pending his personnel file. Albert E. Bachand, Robert J.
+  Bachman, Rose M. Backman, Alice C. Backus, and Emmett F. Backus remain
+  unresolved. All ten route to Box 28, and no organization or affiliation is
+  added.
 - Published affiliations: 480
-- Database claims: 892; public-eligible claims: 872 (144 confirmed, 618 high,
-  107 medium, 3 conflicting); 20 low-confidence claims are withheld
-- Citation records: 1,513; public source export: 874; unique source documents: 745
+- Database claims: 897; public-eligible claims: 877 (146 confirmed, 619 high,
+  109 medium, 3 conflicting); 20 low-confidence claims are withheld
+- Citation records: 1,531; public source export: 887; unique source documents: 753
 - Canonical organizations: 277 private and 275 public
 - Conflicts: 4
 - NARA pull-list rows: 23,840
@@ -1233,6 +1251,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-seventeen-axelrod-through-aznavourian-pathways_batch-116_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-aznone-through-babberle-pathways_batch-117_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-babcock-through-babyak-pathways_batch-118_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-bachand-through-backus-pathways_batch-119_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

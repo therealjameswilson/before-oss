@@ -11100,3 +11100,88 @@ test("Batch 118 preserves Babcock-through-Babyak identity thresholds and occupat
   await page.goto("./people/6f8d5426-4180-5d99-b153-f4292973ebaf/");
   await expect(page.locator("main")).toContainText("BM2/c T");
 });
+
+test("Batch 119 preserves Bachand-through-Backus identity thresholds and withholds unsupported affiliations", async ({
+  page,
+}) => {
+  const profiles = [
+    ["dfcbff26-7581-5857-9c23-accd043b188a", "Albert E Bachand", "enlisted army personnel"],
+    ["8e607803-bc87-55b3-8b24-fc43d26869ba", "Walter F Bachelder", "commissioned army officer"],
+    ["99747044-53c6-54a1-8cfd-407b3b53159a", "Robert J Bachman", "unknown or indeterminate"],
+    ["b59a4ab1-e194-5240-a720-cb0814d8e57c", "Albert V Bacik", "enlisted army personnel"],
+    ["addae8c4-4269-5ea3-bac0-6c0744088869", "Ross E Backenstoss Jr.", "enlisted army personnel"],
+    ["21c1e081-60b4-5a46-a8f9-bd7f41c6e088", "Mary E Backle", "unknown or indeterminate"],
+    ["b7854fe9-538f-5bca-a32c-d7b09cbf8464", "Gilbert O Backman", "commissioned army officer"],
+    ["bbcace2e-c73f-5769-91d5-ffadeadd9714", "Rose M Backman", "civilian professional or administrative grade"],
+    ["f1b2aa73-74aa-58bd-a631-31b952b13fe2", "Alice C Backus", "civilian professional or administrative grade"],
+    ["97acbe69-3d25-59da-a57e-641ec2e0e250", "Emmett F Backus", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("28", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "dfcbff26-7581-5857-9c23-accd043b188a",
+    "99747044-53c6-54a1-8cfd-407b3b53159a",
+    "bbcace2e-c73f-5769-91d5-ffadeadd9714",
+    "f1b2aa73-74aa-58bd-a631-31b952b13fe2",
+    "97acbe69-3d25-59da-a57e-641ec2e0e250",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/8e607803-bc87-55b3-8b24-fc43d26869ba/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("declassified 1944 personnel-interview index");
+  await expect(
+    page.getByRole("link", {
+      name: "Index of personnel interviewed in the North African theater of operations",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /digitalcollections\.hoover\.org/);
+  await expect(page.locator("main")).toContainText("Testing Machines Inc. began in 1947");
+
+  await page.goto("./people/b7854fe9-538f-5bca-a32c-d7b09cbf8464/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("second lieutenant stationed at Bari");
+
+  await page.goto("./people/b59a4ab1-e194-5240-a720-cb0814d8e57c/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Team Arthur");
+  await expect(page.locator("main")).toContainText("roster is secondary and lacks the private identifier");
+
+  await page.goto("./people/addae8c4-4269-5ea3-bac0-6c0744088869/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Ross Elwood Backenstoss, Jr.");
+  await expect(
+    page.getByRole("link", {
+      name: "Figures of speech in the dramas of Heinrich von Kleist: An investigation into Kleist's style",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /drum\.lib\.umd\.edu/);
+
+  await page.goto("./people/21c1e081-60b4-5a46-a8f9-bd7f41c6e088/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("civilian secretary documented in a 1946 Strategic Services Unit successor record");
+  await expect(page.locator("main")).toContainText("post-OSS identity evidence only");
+
+  await page.goto("./people/bbcace2e-c73f-5769-91d5-ffadeadd9714/");
+  await expect(page.locator("main")).toContainText("Caf-3");
+  await page.goto("./people/f1b2aa73-74aa-58bd-a631-31b952b13fe2/");
+  await expect(page.locator("main")).toContainText("Caf-4");
+});

@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 399 / 399 browser cases.**
+**PASS - 402 / 402 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -36,6 +36,12 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 119 adds direct desktop, phone, and tablet checks for all ten contiguous
+page-seventeen profiles from Albert E. Bachand through Emmett F. Backus. It
+verifies Box 28 routing, source-row ranks and civilian grades, field-level
+serial masking, the confirmed Bachelder and Gilbert Backman identities, the
+qualified Bacik and Backenstoss identities, Mary Backle's post-OSS-only
+identity evidence, and the absence of unsupported pre-OSS affiliations.
 They additionally verify that the second CIA batch keeps John Ford's Naval
 Reserve assignment, Christian Lambertsen's medical-student status and qualified
 company employment, Alfonso Rodriguez's Army G-2 assignment, and Sidney
