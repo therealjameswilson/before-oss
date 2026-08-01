@@ -4,17 +4,14 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS WITH ONE DOCUMENTED TRANSIENT - 419 / 420 complete-suite browser cases,
-plus 3 / 3 focused Batch 125 cases and a passing 1 / 1 isolated rerun of the
-single older desktop case.**
+**PASS - 423 / 423 complete-suite browser cases across desktop, phone, and
+tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The only complete-suite failure was an unchanged Batch 064 desktop citation-
-link assertion after the browser stalled until the 45-second test timeout. The
-same case passed for phone and tablet in that run and passed in 783 ms when
-immediately rerun in isolation on desktop. All 27 dedicated axe cases passed.
+The final Batch 126 suite completed without an assertion, navigation, or
+serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
 
@@ -33,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-136-person employer measure is labeled separately from the 238-person broader
+136-person employer measure is labeled separately from the 239-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1014,6 +1011,25 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 126 accessibility and responsive regression
+
+Batch 126 verifies Alexander W. Baird through Arthur Baker III at desktop,
+phone, and tablet sizes. It checks all ten direct profile routes, Box 30
+provenance, exact indexed forms, reviewed personnel categories, and field-level
+serial masking. Six profiles visibly retain unresolved identity and archival-
+review status. Alexander and Robert Baird show confirmed occupation-only
+findings; Andrew Baker shows a confirmed identity but no expanded occupation;
+and Arthur Baker III shows a confirmed identity and completed pathway.
+
+The regression confirms that Alexander's commercial-artist and Robert's food-
+production categories name no employer, Andrew's undefined code is not
+published as an occupation, and Arthur's U.S. Army/Camp Hale military
+assignment remains distinct from his earlier Wesleyan University student
+status. It also verifies Louis R. Baird's corrected enlisted-Army
+classification from the printed `1st Sgt` rank. The complete desktop, phone,
+and tablet matrix passed 423 / 423, including 3 / 3 Batch 126 cases and all
+27 / 27 dedicated axe cases.
 
 ## Batch 125 accessibility and responsive regression
 

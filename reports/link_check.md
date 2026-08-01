@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 278 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,681 unique external URLs for separate live
+The checker inventoried 48,682 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -20,6 +20,7 @@ verification; external responses do not affect the internal-route pass.
 | Target | Result |
 |---|---|
 | NARA Access to Archival Databases, Army enlistment tables | Public records reviewed through the current AAD interface; private identifiers were used only for identity comparison and are not published |
+| General Services Administration, *GSA Memorials*, volume 27 | Institutional PDF rendered and visually reviewed for Arthur Baker III's Wesleyan, Camp Hale, Army, and OSS sequence |
 | University of Washington, *General Catalog, 1944-1945* | Direct institutional PDF reviewed; Elizabeth Emaline Bacon appears among faculty on leave as Instructor in Far Eastern Studies |
 | Smithsonian Institution, Wendell Clark Bennett, *The Ethnogeographic Board* | Institutional item record and digitized 1947 report reviewed for Elizabeth Bacon's wartime board chronology |
 | Columbia University, David H. Price paper on anthropology and OSS | Institutional scholarly PDF reviewed for Elizabeth Bacon's ASTP, Ethnogeographic Board, and OSS R&A sequence |
@@ -1133,6 +1134,34 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 126 local release check
+
+The rebuilt site contains direct, internally resolved routes for Alexander W.
+Baird, Beverly B. Baird, John W. Baird, Kenneth W. Baird, Louis R. Baird,
+Robert R. Baird Jr., Virginia C. Baird, Michael Bakalar, Andrew H. Baker, and
+Arthur Baker III. Every route preserves page-nineteen and Box 30 provenance,
+a masked or explicitly unprinted private identifier, reviewed personnel
+classification, and an evidence-limited civilian-employer field. Alexander and
+Robert expose supported occupation-only claims without creating employer
+routes. Arthur links separately to the U.S. Army immediate pathway and
+Wesleyan University student pathway; Andrew's undefined occupation code is
+not expanded into a public claim.
+
+The complete local link checker passed all 24,227 HTML files and inventoried
+48,682 unique external URLs. The reviewed targets include NARA's public AAD
+Army record series, the CIA Reading Room, the current Library of Congress API,
+and the General Services Administration memorial volume. No discovery lead
+was promoted without identity and temporal review.
+
+The public downloads contain 23,941 person rows, 278 organization rows, 486
+affiliation rows, and 957 source rows. All 65 manifest-listed assets matched
+their recorded sizes and SHA-256 values in both the public source tree and
+built site; the manifest forbidden-field check passed. The local manifest
+SHA-256 is
+`c5f6b9ba0fa7c2e673bdc7e9ce010daa0b4c66aca4785354e80323f5e2c45cde`.
+The repository contains no local credential file or nonblank tracked API-key
+assignment.
 
 ## Batch 125 local release check
 

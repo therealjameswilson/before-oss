@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/136 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 238 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 239 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -11679,4 +11679,92 @@ test("Batch 125 publishes two bounded occupations, one qualified opera pathway, 
     await page.goto(`./people/${personId}/`);
     await expect(page.locator(".profile-aside")).toContainText("duplicate-649706dcfb20");
   }
+});
+
+test("Batch 126 separates two occupations, an Army-to-OSS pathway, student status, and six archival cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["acb63214-0135-5fba-a4a3-5bc38462855a", "Alexander W Baird", "enlisted army personnel"],
+    ["f111ddba-4bf2-5a3c-8dca-4830d6da4432", "Beverly B Baird", "unknown or indeterminate"],
+    ["1f6291a3-ca19-50b2-a2eb-0f76b84a0dcb", "John W Baird", "unknown or indeterminate"],
+    ["4b243752-8c80-566d-91f8-17a5915ef158", "Kenneth W Baird", "commissioned army officer"],
+    ["f84c2c75-0f0d-5535-897a-5574671c6d47", "Louis R Baird", "enlisted army personnel"],
+    ["85a3ea5b-ca9f-53c1-b4f9-035909346204", "Robert R Baird Jr.", "enlisted army personnel"],
+    ["2ecc388d-2765-54e7-9bf2-c6e7d389120a", "Virginia C Baird", "civilian professional or administrative grade"],
+    ["0f9120d1-e0b4-500d-95f7-e0eee88ef40e", "Michael Bakalar", "civilian professional or administrative grade"],
+    ["1848de15-d820-55e9-b17c-ed55c32edf2f", "Andrew H Baker", "enlisted army personnel"],
+    ["1bb25e1f-4ec9-5b0b-a966-8ce9c3e1ea46", "Arthur Baker III", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("30", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "f111ddba-4bf2-5a3c-8dca-4830d6da4432",
+    "1f6291a3-ca19-50b2-a2eb-0f76b84a0dcb",
+    "4b243752-8c80-566d-91f8-17a5915ef158",
+    "f84c2c75-0f0d-5535-897a-5574671c6d47",
+    "2ecc388d-2765-54e7-9bf2-c6e7d389120a",
+    "0f9120d1-e0b4-500d-95f7-e0eee88ef40e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  await page.goto("./people/acb63214-0135-5fba-a4a3-5bc38462855a/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commercial artists");
+  await expect(page.locator("main")).toContainText("names no studio, agency, company, or other employer");
+
+  await page.goto("./people/85a3ea5b-ca9f-53c1-b4f9-035909346204/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("skilled food-production occupation category");
+  await expect(page.locator("main")).toContainText("names no manufacturer or other employer");
+
+  await page.goto("./people/1848de15-d820-55e9-b17c-ed55c32edf2f/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation field is an undefined code");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/1bb25e1f-4ec9-5b0b-a966-8ce9c3e1ea46/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Camp Hale",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Wesleyan University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText(
+    "Following this training he volunteered for the U.S. Army Office of Strategic Services",
+  );
 });

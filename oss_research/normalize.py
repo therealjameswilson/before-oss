@@ -45,6 +45,7 @@ ARMY_ENLISTED_RANKS = {
     "PFC",
     "CPL",
     "SGT",
+    "1ST SGT",
     "S/SGT",
     "SSGT",
     "T/SGT",

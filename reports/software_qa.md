@@ -2,43 +2,42 @@
 
 Run: 2026-08-01 UTC
 
-- Python unit tests: **54 / 54 passed**
+- Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,227 pages**
 - Internal link check: **24,227 HTML files passed**
-- Browser and accessibility suite: **419 / 420 local full-matrix cases**, plus
-  **3 / 3** focused Batch 125 cases and **1 / 1** passing isolated rerun of the
-  single transient older desktop case
+- Browser and accessibility suite: **423 / 423 passed** across desktop, phone,
+  and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`3129ced33564b539b04f838320ca0107cab2b5364f73eb8bd169e94fee1d8520`)
-- Latest deterministic build (Batch 125): **byte-for-byte identical** public,
+  (`1fdde1136d406ab76fd040c41ed8e3d312caa5465fc86f70df992db8696b5369`)
+- Latest deterministic build (Batch 126): **byte-for-byte identical** public,
   generated, and built site data across two consecutive builds and all
-  **24,373** compared artifacts, including **24,297** static-site artifacts.
+  **24,372** compared artifacts, including **24,297** static-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `185a4ea64f4538119e300b47ed9bdad1221cf0e1cafd0a07a4ffd8257575b76a`
+  `c5f6b9ba0fa7c2e673bdc7e9ce010daa0b4c66aca4785354e80323f5e2c45cde`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,373** production artifacts, including compressed mirrors
+  matches** in **24,372** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **949** public records representing **786** unique documents
-- Private citation records: **1,651**
-- Published, qualified affiliations: **484**
-- Published or conflict-visible claims: **921**
+- Reviewed public sources: **957** public records representing **788** unique documents
+- Private citation records: **1,668**
+- Published, qualified affiliations: **486**
+- Published or conflict-visible claims: **929**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **238** people with confirmed/high published
+- Verified-affiliation metric: **239** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 125 production workflow and deployment checks: **passed** for release
-  `a67783c`; the local transient older browser case is documented below
+- Batch 126 local release checks: **passed**; production workflow and deployment
+  checks are pending publication
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3316,6 +3315,62 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 126 local release QA
+
+Batch 126 adds the ten visually checked page-nineteen rows from Alexander W.
+Baird through Arthur Baker III. The reviewed bundle imports ten durable
+research attempts, seventeen sources, eight claims, twenty-one claim-source
+links, two organization updates, and two affiliations. Exact official AAD evidence
+confirms Alexander W. Baird, Robert R. Baird Jr., Andrew H. Baker, and Arthur
+Baker III without exposing their private identifiers. Alexander's commercial-
+artist category and Robert's skilled food-production category remain
+occupation-only findings because neither record names an employer. Andrew's
+undefined occupation code is not expanded. A visually reviewed GSA memorial
+supports Arthur's immediate Army/Camp Hale pathway into OSS and his earlier
+Wesleyan student status. Six identities remain unresolved and route to Box 30.
+
+The page image was inspected at original resolution. That review also found
+that the printed `1st Sgt` rank should classify Louis R. Baird as enlisted
+Army personnel. Parser version `bbox-columns-v4` adds the transparent rule,
+and a dedicated unit test covers it. A full 522-page reingest and identity
+rebuild retained all 23,978 source rows and 23,941 cautious person entities.
+The ingest validator passed every completeness and warning-review invariant;
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors.
+
+The Python suite passed 55 / 55. The complete browser, responsive,
+direct-route, search, and axe matrix passed 423 / 423 across desktop, phone,
+and tablet, including the three Batch 126 regressions and all 27 dedicated
+axe cases. The internal-link checker passed all 24,227 HTML pages and
+inventoried 48,682 unique external URLs. The dependency audit found zero
+vulnerabilities, and the deterministic 200-profile stratified audit passed
+every invariant.
+
+Two consecutive final builds produced the identical
+`1fdde1136d406ab76fd040c41ed8e3d312caa5465fc86f70df992db8696b5369`
+directory-prefixed content-tree hash across 24,372 public, generated, and
+built-site artifacts, including 24,297 static-site artifacts and 24,227 HTML
+pages. All 65 public manifest assets matched their recorded sizes and SHA-256
+values in the public source tree and built site. The manifest forbidden-field
+check passed, and the manifest SHA-256 is
+`c5f6b9ba0fa7c2e673bdc7e9ce010daa0b4c66aca4785354e80323f5e2c45cde`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across all 24,372 production
+artifacts, including compressed mirrors, and found zero full matches.
+No local `.env` file, nonblank tracked API-key assignment, authenticated
+Catalog API request, or raw Catalog response was present.
+
+The Batch 126 database contains 2,110 durable research attempts, 1,668 private
+citation records, 490 affiliations, 280 organizations, and 950 claims: 185
+confirmed, 626 high, 114 medium, 21 low, and four conflicting. The reviewed
+public projection contains 957 source records representing 788 unique
+documents, 486 affiliations, and 929 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,080 people with a non-planned research
+attempt, 239 with verified-affiliation evidence, 136 with verified employment
+or self-employment evidence, and 1,028 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 278 organizations, 486
+affiliations, and 957 sources.
 
 ## Batch 125 local release QA
 

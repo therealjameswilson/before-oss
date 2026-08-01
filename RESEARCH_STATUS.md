@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,070 people with a non-planned attempt | 23,941 person entities | 4.4693% |
-| Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
+| Research-attempt coverage | 1,080 people with a non-planned attempt | 23,941 person entities | 4.5111% |
+| Verified-affiliation coverage | 239 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9983% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 1,018 people with an individual file-access/priority assessment | 23,941 person entities | 4.2521% |
+| Archival-review coverage | 1,028 people with an individual file-access/priority assessment | 23,941 person entities | 4.2939% |
 
 ## Extraction and identity
 
@@ -21,17 +21,17 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 212
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 78
+- Identity status `confirmed`: 82
 - Identity status `high_confidence`: 298
 - Identity status `probable`: 36
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,498
+- Identity status `unresolved`: 23,494
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,548
-- Enlisted Army personnel: 3,480
+- Unknown or indeterminate: 16,514
+- Enlisted Army personnel: 3,514
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -42,18 +42,18 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
+Commissioned classification: 2,159 yes; 5,040 no; 16,742 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,871
+- `not_started`: 22,861
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 62
-- `requires_archival_review`: 716
-- `completed`: 54
+- `occupation_only_found`: 64
+- `requires_archival_review`: 723
+- `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 138
 - Stratified pilot size: 75
@@ -64,7 +64,7 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 491
+- Reviewed-web terminal-protocol attempts recorded: 511
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -81,7 +81,7 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 406 across 387 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,090
+- Total recorded attempts/plans: 2,110
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 389; 371 have at least one public-eligible
@@ -1208,10 +1208,30 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   reproduced every public-download count, and found zero full private-
   identifier matches across 83 live artifacts. No authenticated Catalog API
   request was made.
-- Published affiliations: 484
-- Database claims: 942; public-visible claims: 921 (179 confirmed, 624 high,
+- Batch 126 continues page nineteen from Alexander W. Baird through Arthur
+  Baker III. Original-resolution inspection confirms all ten printed rows and
+  reveals that `1st Sgt` is an Army enlisted rank rather than an indeterminate
+  value. Parser version `bbox-columns-v4` transparently applies that rule to
+  the full index while preserving the raw printed values. Exact private-
+  identifier comparisons in NARA's public AAD Army enlistment table confirm
+  Alexander W. Baird, Robert R. Baird Jr., Andrew H. Baker, and Arthur Baker
+  III without publishing those identifiers. Alexander's commercial-artist
+  category and Robert's skilled food-production category name no employer and
+  remain occupations only. Andrew's AAD occupation code is undefined and is
+  not expanded into a claim. A visually reviewed GSA institutional memorial
+  supports Arthur's immediate U.S. Army Camp Hale pathway into OSS and his
+  earlier Wesleyan University student status; neither is mislabeled as a
+  civilian employer. Beverly B. Baird, John W. Baird, Kenneth W. Baird, Louis
+  R. Baird, Virginia C. Baird, and Michael Bakalar remain unresolved and route
+  to Box 30. Local release QA passed 55 Python tests, all 423 browser and
+  accessibility cases across desktop, phone, and tablet, all 24,227 internal
+  HTML routes, two deterministic builds, the public manifest and redaction
+  checks, and the 200-profile audit. No authenticated Catalog API request or
+  raw Catalog response was used.
+- Published affiliations: 486
+- Database claims: 950; public-visible claims: 929 (185 confirmed, 626 high,
   114 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,651; public source export: 949; unique source documents: 786
+- Citation records: 1,668; public source export: 957; unique source documents: 788
 - Canonical organizations: 280 private and 278 public
 - Conflicts: 5
 - NARA pull-list rows: 23,840
