@@ -2029,6 +2029,50 @@ Temporary page renders and discovery results were used only for inspection
 outside the repository. No full service identifier appears in the evidence
 bundle or public projection.
 
+## Page-sixteen Ault-through-Austreng pathways, Batch 114
+
+`research/evidence-page-sixteen-ault-through-austreng-pathways_batch-114_2026-07-31.json`
+records ten visually checked, contiguous rows from Lee A. Ault through Vernon
+L. Austreng on PDF page sixteen. Raw spellings, initials, ranks and civilian
+grades, service-number presence or absence, Box 26, blank fields, and archival
+location were checked against a high-resolution page render. The bundle
+contains ten person updates, sixteen sources, three affiliations, seven claims,
+ten durable research attempts, and twenty claim-source links.
+
+The public NARA Catalog description for National Archives Identifier 1263923
+exposes the unrestricted compressed Electronic Army Serial Number Merged File
+and its official technical documentation. The bulk file was downloaded to a
+temporary ignored path, streamed once against the seven privately retained
+Army identifiers in this batch, and deleted. No authenticated Catalog API
+request was made, no API key was accessed, and no raw bulk record or downloaded
+archive was retained in the repository.
+
+Exact private-identifier matches confirm James W. Austin, Kenneth P. Austin,
+and Vernon L. Austreng. NARA's Code No. 30 lists decode the first two records'
+civilian occupation code as students and Austreng's as farm hands on general
+farms. The student institutions and employing farm are not named; the project
+therefore publishes status or occupation only, not an employer, self-employment,
+or an immediate pre-OSS affiliation.
+
+The Army merged file prints Kenneth R. Austin where the OSS index prints
+Kenneth P. Austin. It also prints Vernon N. Austreng and a different December
+1942 Army-entry day from the official North Dakota veterans register, which
+prints Vernon L. Austreng and matches the private identifier. These conflicts
+are preserved in name variants and research notes, consistent with NARA's
+published warnings about scanning and keypunch errors. The underlying punch
+card and Box 26 file remain the resolution targets.
+
+The OSS Operational Groups historical roster lists T/4 Otis Ausen and Cpl.
+Vernon L. Austreng in Norwegian operations. The distinctive exact Otis name,
+middle initial, matching rank, and explicit OSS context support a
+high-confidence identity but no pre-OSS affiliation. A Princeton memorial for
+Lee A. Ault was reviewed and rejected as an identity basis because its
+Newsweek, American Field Service, and Marine Corps chronology does not provide
+OSS, Box 26, or direct-identifier linkage. Gino Austi, Benton M. Austin, Merry
+A. Austin, Nancy R. Austin, and Robert W. Austin remain unresolved after the
+staged protocol. No full service identifier appears in the evidence bundle or
+public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

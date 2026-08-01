@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/133 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 232 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 235 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10704,4 +10704,84 @@ test("Batch 113 preserves Auerbach-through-Ault military pathways and unresolved
     page.getByRole("heading", { name: "United States Army Signal Corps", exact: true }),
   ).toBeVisible();
   await expect(page.getByRole("link", { name: "Herbert Auerbach", exact: true })).toBeVisible();
+});
+
+test("Batch 114 preserves Ault-through-Austreng occupations, conflicts, and unresolved boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["9665418d-f004-5ef3-8246-45a217d67fb4", "Lee A Ault", "unknown or indeterminate"],
+    ["4a26e08e-f14f-542e-9cdf-7fd379c2ca2c", "Otis L Ausen", "enlisted army personnel"],
+    ["aeac723c-2097-5fd4-a649-fc8abcfbad46", "Gino Austi", "enlisted army personnel"],
+    ["699d44e4-f048-5bb3-96c3-248bb0b56127", "Benton M Austin", "commissioned army officer"],
+    ["7e304805-4dce-5d46-85c9-1e2976e8bfe1", "James W Austin", "enlisted army personnel"],
+    ["44440ddd-93bf-5fc3-be31-b32b9c85f97b", "Kenneth P Austin", "enlisted army personnel"],
+    ["28e1f4a4-a42a-5f39-9c38-968e25184e3c", "Merry A Austin", "civilian professional or administrative grade"],
+    ["7d63c31c-3898-550a-8beb-28bf2e4c438e", "Nancy R Austin", "civilian professional or administrative grade"],
+    ["cb5a2541-7eef-53b7-9229-bef9e13e8282", "Robert W Austin", "enlisted army personnel"],
+    ["e17d6efc-d488-52a6-99e7-5bc9a6759f7b", "Vernon L Austreng", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("26", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "9665418d-f004-5ef3-8246-45a217d67fb4",
+    "aeac723c-2097-5fd4-a649-fc8abcfbad46",
+    "699d44e4-f048-5bb3-96c3-248bb0b56127",
+    "28e1f4a4-a42a-5f39-9c38-968e25184e3c",
+    "7d63c31c-3898-550a-8beb-28bf2e4c438e",
+    "cb5a2541-7eef-53b7-9229-bef9e13e8282",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/4a26e08e-f14f-542e-9cdf-7fd379c2ca2c/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("OSS Norwegian Operational Group");
+  await expect(page.locator("main")).toContainText(
+    "strongly matched to the Otis Ausen listed with the OSS Norwegian Operational Group",
+  );
+
+  await page.goto("./people/7e304805-4dce-5d46-85c9-1e2976e8bfe1/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("the institution is not identified");
+
+  await page.goto("./people/44440ddd-93bf-5fc3-be31-b32b9c85f97b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("P/R middle-initial discrepancy");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("the institution is not identified");
+
+  await page.goto("./people/e17d6efc-d488-52a6-99e7-5bc9a6759f7b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "farm hand",
+  );
+  await expect(page.locator("main")).toContainText("no employing farm is identified");
+  await expect(page.locator("main")).toContainText("middle-initial and Army-entry-day conflicts");
+  await expect(
+    page.getByRole("link", { name: "Register of North Dakota Veterans", exact: false }).first(),
+  ).toHaveAttribute("href", /veterans\.nd\.gov/);
 });

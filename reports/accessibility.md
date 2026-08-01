@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 384 / 384 browser cases.**
+**PASS - 387 / 387 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-133-person employer measure is labeled separately from the 232-person broader
+133-person employer measure is labeled separately from the 235-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,19 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 114 accessibility and responsive regression
+
+Batch 114 verifies Lee A. Ault through Vernon L. Austreng at desktop, phone,
+and tablet sizes. It checks all ten Box 26 routes, preserved personnel
+categories, masked identifiers, and the continued separation of immediate
+affiliation from last civilian employer. Six unresolved profiles retain
+archival-review guidance. Otis Ausen's roster match is presented as identity
+and wartime OSS context only; James and Kenneth Austin's student status remains
+a non-employer relationship; and Vernon Austreng's farm-hand occupation does
+not become a guessed employing farm. The Kenneth and Vernon profiles visibly
+preserve their official-source name and chronology conflicts. No serious or
+critical axe violation was found.
 
 ## Batch 113 accessibility and responsive regression
 

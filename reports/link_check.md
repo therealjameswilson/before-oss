@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 270 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,630 unique external URLs for separate live
+The checker inventoried 48,634 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,30 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 114 local release check
+
+The rebuilt site contains direct, internally resolved routes for Lee A. Ault,
+Otis L. Ausen, Gino Austi, Benton M. Austin, James W. Austin, Kenneth P.
+Austin, Merry A. Austin, Nancy R. Austin, Robert W. Austin, and Vernon L.
+Austreng. The James and Kenneth Austin profiles publish student status without
+inventing an institution or employer. Vernon Austreng's profile publishes a
+general-farm-hand occupation without inventing an employing farm. Otis Ausen's
+Norwegian Operational Group evidence remains identity and OSS-assignment
+context rather than a pre-OSS employer claim. Kenneth's P/R initial conflict
+and Vernon's L/N initial and entry-day conflicts remain visible.
+
+The complete local link checker passed all 24,219 HTML files and inventoried
+48,634 unique external URLs. The public downloads contain 23,941 person rows,
+270 organization rows, 474 affiliation rows, and 830 source rows. All 65
+manifest-listed assets passed the local size, hash, and redaction audits
+documented in `reports/software_qa.md`.
+
+New public evidence targets include National Archives Identifier 1263923 and
+its official technical code list, the North Dakota Department of Veterans
+Affairs register, and the OSS Operational Groups personnel roster. The
+Princeton memorial for a Lee Ault namesake remains a rejected candidate rather
+than claim support.
 
 ## Batch 113 local release check
 

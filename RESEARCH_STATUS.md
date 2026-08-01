@@ -988,10 +988,23 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
   for identity and supports no pre-OSS affiliation. The other eight profiles
   remain unresolved and route to Box 26; reviewed namesake and enlistment
   candidates are not promoted without direct OSS or indexed-file linkage.
-- Published affiliations: 471
-- Database claims: 853; public-eligible claims: 833 (121 confirmed, 607 high, 105
+- Batch 114 continues page sixteen from Lee A. Ault through Vernon L.
+  Austreng. Exact private-identifier matches against NARA's unrestricted World
+  War II Army enlistment file confirm James W. Austin, Kenneth P. Austin, and
+  Vernon L. Austreng. The first two were recorded as students at Army entry;
+  no institution is named. Austreng was recorded as a general-farm hand; no
+  employing farm is named. These are published as occupation or status
+  findings, never as employers or immediate pre-OSS affiliations. The merged
+  file's Kenneth R. Austin and Vernon N. Austreng initials remain visible as
+  conflicts with the index, and official sources also disagree on Austreng's
+  exact December 1942 entry day. A specialized OSS roster supports a
+  high-confidence Otis L. Ausen identity in Norwegian operations. The other
+  six identities remain unresolved, and all ten employer questions route to
+  Box 26 or related Army and civilian records.
+- Published affiliations: 474
+- Database claims: 860; public-eligible claims: 840 (125 confirmed, 610 high, 105
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,424; public source export: 821; unique source documents: 717
+- Citation records: 1,440; public source export: 830; unique source documents: 722
 - Canonical organizations: 272 private and 270 public
 - Conflicts: 1
 - NARA pull-list rows: 23,841
@@ -1154,6 +1167,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atwood-through-aubrey-pathways_batch-111_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-aubuchon-through-auerbach-pathways_batch-112_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-auerbach-through-ault-pathways_batch-113_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-ault-through-austreng-pathways_batch-114_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
