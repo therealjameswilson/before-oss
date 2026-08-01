@@ -11275,3 +11275,87 @@ test("Batch 120 separates qualified employment, occupation-only findings, Allied
   await expect(page.locator("main")).toContainText("Do not assign the cemetery candidate");
   await expect(page.locator("main")).toContainText("without a second corroborating identifier");
 });
+
+test("Batch 121 preserves an identifier conflict, occupation-only evidence, a withheld namesake, and qualified Baerwald pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["aa4e55e6-7df0-507b-a569-a7cb95a40391", "Daniel E Badia", "28", "unknown or indeterminate"],
+    ["8adef22b-921c-5312-bbd0-d484f4b12076", "Leo P Badia", "28", "commissioned army officer"],
+    ["fbfe354a-5c57-5332-9999-756dffd65792", "Edna Badinger", "28", "civilian professional or administrative grade"],
+    ["5c4a673c-b96b-51de-b199-62615a23945f", "Joseph T Badzik", "28", "enlisted army personnel"],
+    ["61699b2c-cb14-5a6c-8166-10a85ac2ef52", "Robert E Baehr", "29", "commissioned army officer"],
+    ["6c2adeb2-d2b4-5fc6-acb4-900401950437", "Barbara Baer", "29", "civilian professional or administrative grade"],
+    ["99182302-f039-5cb9-b850-8e7eeddc4464", "Edwin I Baer", "29", "enlisted army personnel"],
+    ["641f0708-19cc-5cef-92d4-dceb54e9cc8a", "Ralph H Baer", "29", "unknown or indeterminate"],
+    ["38c74198-8d92-5c42-a1ca-27825f318f80", "Vivian L Baer", "29", "enlisted army personnel"],
+    ["e8d8e303-f72c-54a4-b3fb-3134865690a0", "Ernest D Baerwald", "29", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, box, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const personId of [
+    "aa4e55e6-7df0-507b-a569-a7cb95a40391",
+    "8adef22b-921c-5312-bbd0-d484f4b12076",
+    "fbfe354a-5c57-5332-9999-756dffd65792",
+    "61699b2c-cb14-5a6c-8166-10a85ac2ef52",
+    "6c2adeb2-d2b4-5fc6-acb4-900401950437",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/5c4a673c-b96b-51de-b199-62615a23945f/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("belongs to William R. Brandes");
+  await expect(page.locator("main")).toContainText("Do not assign William R. Brandes's occupation");
+  await expect(page.locator("main")).not.toContainText("unskilled machine-shop occupation");
+
+  await page.goto("./people/99182302-f039-5cb9-b850-8e7eeddc4464/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("general-office clerk occupation");
+  await expect(page.locator("main")).toContainText("but no employer");
+
+  await page.goto("./people/38c74198-8d92-5c42-a1ca-27825f318f80/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Women's Army Corps");
+  await expect(page.locator("main")).toContainText("stenographer and typist occupation");
+
+  await page.goto("./people/641f0708-19cc-5cef-92d4-dceb54e9cc8a/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("famous biography is withheld");
+  await expect(page.getByRole("link", { name: "Ralph H. Baer Papers", exact: true })).toHaveCount(0);
+
+  await page.goto("./people/e8d8e303-f72c-54a4-b3fb-3134865690a0/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Doitsu Senryo Gomei Kaisha");
+  await expect(page.locator("main")).toContainText("not established as his immediate pre-OSS employer");
+  await expect(page.locator("main")).toContainText("American Jewish Joint Distribution Committee");
+  await expect(page.locator("main")).toContainText("professional affiliation");
+  await expect(
+    page.getByRole("link", { name: "Japanese-American Applications", exact: true }).first(),
+  ).toHaveAttribute("href", /digicoll\.lib\.berkeley\.edu/);
+  await expect(
+    page.getByRole("link", { name: "JDC Digest, October 1952", exact: true }).first(),
+  ).toHaveAttribute("href", /americanjewisharchives\.org/);
+});
