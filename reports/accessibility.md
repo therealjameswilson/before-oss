@@ -1,10 +1,10 @@
 # Accessibility and responsive QA
 
-Run: 2026-07-31 UTC
+Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 381 / 381 browser cases.**
+**PASS - 384 / 384 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-133-person employer measure is labeled separately from the 231-person broader
+133-person employer measure is labeled separately from the 232-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,25 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 113 accessibility and responsive regression
+
+The Batch 113 regression checks the ten contiguous page-sixteen profiles from
+Herbert Auerbach through Lawrence Ault, Jr. It verifies indexed and normalized
+names, Box 26 provenance, civilian and military classifications, suffixes,
+direct routes, field-level service-number masking, and indeterminate officer
+status for all three blank-rank rows. Herbert Auerbach's page separates V Force
+as the immediate military predecessor, earlier United States Army Signal Corps
+service, and the still-unresolved last civilian employer. Meyer Auerbach's page
+uses the postwar Strategic Services Unit finding aid only for identity and does
+not present it as pre-OSS employment. The other eight profiles remain visibly
+unresolved with archival guidance.
+
+The focused Batch 113 run passed 3 / 3 across desktop, phone, and tablet. The
+complete desktop, phone, tablet, responsive, direct-route, search, and axe
+matrix passed 384 / 384 with no assertion failure or serious/critical
+accessibility violation after updating the expected broader-affiliation count
+from 231 to 232.
 
 ## Batch 112 accessibility and responsive regression
 

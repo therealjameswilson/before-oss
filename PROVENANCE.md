@@ -1995,6 +1995,40 @@ live Catalog response was retained. Temporary page renders and discovery
 results were used only for inspection outside the repository. No full service
 identifier appears in the evidence bundle or public projection.
 
+## Page-sixteen Auerbach-through-Ault pathways, Batch 113
+
+`research/evidence-page-sixteen-auerbach-through-ault-pathways_batch-113_2026-07-31.json`
+records ten visually checked, contiguous rows from Herbert Auerbach through
+Lawrence Ault, Jr. on PDF page sixteen. Raw spellings, initials, suffix,
+ranks and civilian grade, service-number presence or absence, Box 26, blank
+fields, and archival location were checked against a high-resolution page
+render. The bundle contains ten person updates, fifteen sources, two canonical
+organizations, two affiliations, four claims, ten durable research attempts,
+and ten claim-source links.
+
+The National WWII Museum oral history and episode transcript provide a
+high-confidence match between indexed Sergeant Herbert Auerbach and the Army
+cryptographer who served with V Force and OSS Detachment 101 in Burma. V Force
+is published as his explicit immediate pre-OSS military assignment, while the
+United States Army Signal Corps is preserved separately as earlier documented
+military service. Neither is described as a civilian employer, and the
+accessible chronology does not identify his last civilian employer before
+enlistment.
+
+A CSUN archival finding aid strongly links indexed Meyer Auerbach to Meyer
+Morton Auerbach through his unusually specific 1946 Strategic Services Unit
+work in China. Because that evidence is explicitly postwar, it supports only
+the identity claim and is not converted into a pre-OSS affiliation. William
+Auerbach, Douglas B. Auffmordt, Joseph R. Augello, Duplius P. Auguste, James R.
+Augustine, Mary Augustine, Richard N. Auld, and Lawrence Ault, Jr. remain
+unresolved and route to Box 26 review. The Harvard Law William Auerbach and
+Army-enlistment Douglas B. Auffmordt candidates lack direct OSS or indexed-file
+linkage and support no public claim. No authenticated NARA Catalog request was
+made, no API key was accessed, and no live Catalog response was retained.
+Temporary page renders and discovery results were used only for inspection
+outside the repository. No full service identifier appears in the evidence
+bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

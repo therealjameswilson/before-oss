@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/133 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 231 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 232 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10606,4 +10606,102 @@ test("Batch 112 preserves Aubuchon-through-Auerbach uncertainty and civilian-emp
     page.getByRole("heading", { name: "U.S. Department of Labor", exact: true }),
   ).toBeVisible();
   await expect(page.getByRole("link", { name: "Carl A Auerbach", exact: true })).toBeVisible();
+});
+
+test("Batch 113 preserves Auerbach-through-Ault military pathways and unresolved boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["fcf3aabf-d3dd-52e8-b8aa-a918bae73451", "Herbert Auerbach", "enlisted army personnel"],
+    ["f8821c43-616c-5e80-85e2-fc736e4d9416", "Meyer Auerbach", "unknown or indeterminate"],
+    ["f8e971e4-5dd2-5986-8885-a4d9ec7bc5ce", "William Auerbach", "enlisted army personnel"],
+    ["fc948772-1195-5ce6-b0a7-12b9d487762a", "Douglas B Auffmordt", "unknown or indeterminate"],
+    ["125e45ce-1765-5dc3-9470-e6832be7fb35", "Joseph R Augello", "commissioned army officer"],
+    ["fced10b3-b738-5979-95f4-f41d3efb80fc", "Duplius P Auguste", "unknown or indeterminate"],
+    ["2ed53e12-86c6-5c97-8deb-27b8d6857e54", "James R Augustine", "enlisted army personnel"],
+    ["820ad771-7780-574f-86fd-38f514731d73", "Mary Augustine", "civilian professional or administrative grade"],
+    ["18c2ce06-32ba-5b7c-8611-56541941d648", "Richard N Auld", "commissioned army officer"],
+    ["ccd5b3f7-183d-5e5a-a23e-dad540d9c21a", "Lawrence Ault Jr.", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText("26", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of profiles
+    .filter(([personId]) =>
+      ![
+        "fcf3aabf-d3dd-52e8-b8aa-a918bae73451",
+        "f8821c43-616c-5e80-85e2-fc736e4d9416",
+      ].includes(personId),
+    )
+    .map(([personId]) => personId)) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/fcf3aabf-d3dd-52e8-b8aa-a918bae73451/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("V Force");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("United States Army Signal Corps");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(page.locator("main")).toContainText("OSS Detachment 101");
+  await expect(
+    page.getByRole("link", { name: "Auerbach, Herbert", exact: true }).first(),
+  ).toHaveAttribute("href", /ww2online\.org/);
+  await expect(
+    page.getByRole("link", { name: "Bonus Episode: Voices of the Secret WWII", exact: true }).first(),
+  ).toHaveAttribute("href", /nationalww2museum\.org/);
+
+  await page.goto("./people/f8821c43-616c-5e80-85e2-fc736e4d9416/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("requires archival review", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Meyer Morton Auerbach");
+  await expect(page.locator("main")).toContainText("identity evidence only");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
+  await expect(
+    page.getByRole("link", { name: "Meyer Auerbach Collection", exact: true }).first(),
+  ).toHaveAttribute("href", /findingaids\.csun\.edu/);
+
+  await page.goto("./organizations/b6a7166d-9e98-5448-adc0-a6015356676c/");
+  await expect(
+    page.getByRole("heading", { name: "V Force", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Herbert Auerbach", exact: true })).toBeVisible();
+
+  await page.goto("./organizations/37fe0e48-9745-5a0a-8e04-6be9bc7c5c91/");
+  await expect(
+    page.getByRole("heading", { name: "United States Army Signal Corps", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Herbert Auerbach", exact: true })).toBeVisible();
 });

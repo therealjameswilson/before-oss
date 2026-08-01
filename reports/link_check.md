@@ -1,18 +1,18 @@
 # Link check
 
-Run: 2026-07-31 UTC
+Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,218 HTML files. Every relative
+**PASS.** The production build contains 24,219 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 269 organization profiles, and the
+The build includes 23,941 person profiles, 270 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,626 unique external URLs for separate live
+The checker inventoried 48,630 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,29 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 113 local release check
+
+The rebuilt site contains direct, internally resolved routes for Herbert
+Auerbach, Meyer Auerbach, William Auerbach, Douglas B. Auffmordt, Joseph R.
+Augello, Duplius P. Auguste, James R. Augustine, Mary Augustine, Richard N.
+Auld, and Lawrence Ault, Jr. Herbert Auerbach's profile publishes V Force as
+his immediate military predecessor and the United States Army Signal Corps as
+earlier military service while leaving his civilian-employer field unresolved.
+Meyer Auerbach's CSUN evidence is labeled identity-only and postwar. The other
+eight profiles retain evidence-limited status and Box 26 guidance.
+
+The complete local link checker passed all 24,219 HTML files and inventoried
+48,630 unique external URLs. The public downloads contain 23,941 person rows,
+270 organization rows, 471 affiliation rows, and 821 source rows. All 65
+manifest-listed assets passed the local size, hash, and redaction audits
+documented in `reports/software_qa.md`.
+
+The new external citation targets are the National WWII Museum Herbert
+Auerbach oral history and podcast transcript and the CSUN Meyer Auerbach
+Collection finding aid. The Harvard Law memorial and CAGenWeb enlistment
+transcription remain audit-only rejected candidates and are not presented as
+claim support.
 
 ## Batch 112 local release check
 
