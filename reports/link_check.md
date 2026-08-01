@@ -1135,6 +1135,30 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 128 local release check
+
+The rebuilt site contains direct, internally resolved routes for George S.
+Baker, Gibbs L. Baker, Harold L. Baker, Jack Baker, Jamems A. Baker, Jane
+Baker, John B. Baker, John S. Baker, Joseph R. Baker, and Joseph A. Baker.
+Every route preserves page-nineteen and Box 31 provenance, a masked or
+explicitly unprinted private identifier, and the reviewed personnel
+classification. Nine profiles visibly retain unresolved identity and
+archival-review status. Gibbs's profile presents a high-confidence identity
+and qualified general-law occupation while leaving the immediate-affiliation
+and last-civilian-employer sections unresolved.
+
+The complete local link checker passed all 24,227 HTML files and inventoried
+48,685 unique external URLs. The public downloads contain 23,941 person rows,
+278 organization rows, 487 affiliation rows, and 961 source rows. All 65
+manifest-listed assets match their recorded sizes and SHA-256 values in both
+the public source tree and built site, and the manifest forbidden-field check
+passed. The local manifest SHA-256 is
+`9fbbbfe6d37e618aad061e06ecf2ecf7b459e83397b7c54a4016dd1b19a4f3b8`.
+All 23,978 public source fields match their expected masked value. A
+boundary-aware scan of 12,919 normalized private identifiers and 121 formatted
+raw variants across 24,373 production artifacts found zero unexpected full
+matches.
+
 ## Batch 127 local release check
 
 The rebuilt site contains direct, internally resolved routes for Ben Baker,

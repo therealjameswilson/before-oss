@@ -1,6 +1,6 @@
 # Parser QA
 
-Generated: 2026-08-01T18:25:06+00:00
+Generated: 2026-08-01T19:04:38+00:00
 
 ## Gate summary
 
@@ -34,12 +34,3 @@ The final page contains 12 rows and is expected to be shorter. Visual selection 
 ## Visual QA selection
 
 1, 2, 3, 4, 5, 6, 9, 28, 32, 50, 53, 60, 69, 70, 72, 77, 87, 90, 101, 110, 115, 117, 124, 125, 127, 129, 136, 151, 153, 170, 207, 215, 220, 243, 251, 259, 260, 261, 262, 263, 264, 269, 301, 302, 303, 307, 308, 312, 314, 326, 330, 337, 339, 345, 349, 358, 372, 381, 387, 389, 396, 397, 398, 402, 424, 442, 444, 447, 453, 455, 456, 463, 468, 481, 486, 489, 506, 517, 518, 519, 520, 521, 522
-
-## Batch 127 reviewed rank normalization
-
-Original-resolution inspection of PDF page 19 confirmed the printed `LT COM`
-grade for Dwight C. Baker. Parser version `bbox-columns-v5` recognizes that
-exact preserved string as a commissioned naval rank. The full replay changes
-seven previously indeterminate records to commissioned naval officer, yielding
-81 commissioned naval officers and 16,507 unknown or indeterminate entities;
-no raw rank value is overwritten.

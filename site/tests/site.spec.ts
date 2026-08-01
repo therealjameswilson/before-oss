@@ -15,7 +15,7 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(
     page.getByText(/136 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 239 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 240 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -11812,4 +11812,63 @@ test("Batch 127 preserves ten unresolved Baker profiles and the LT COM naval cla
   await page.goto("./people/52a5cc22-3ccc-55aa-90e7-379b85a522b6/");
   await expect(page.locator("main")).toContainText("605th Field Artillery candidate");
   await expect(page.locator("main")).toContainText("only if the file supplies matching identifiers");
+});
+
+test("Batch 128 qualifies Gibbs Baker's law practice and preserves nine unresolved Box 31 profiles", async ({
+  page,
+}) => {
+  const unresolvedProfiles = [
+    ["1c3617ff-b86f-58d4-9cf6-126172babe81", "George S Baker", "unknown or indeterminate"],
+    ["29a3041c-cab4-5fbe-87c1-77a6260c3ec8", "Harold L Baker", "enlisted army personnel"],
+    ["ac091ddd-5202-54a0-843f-731dd3ea6232", "Jack Baker", "enlisted army personnel"],
+    ["0f54ce63-d8ef-5486-92cd-fc65dd9cd8bb", "Jamems A Baker", "enlisted army personnel"],
+    ["ef0c10c2-e3c0-5253-bec1-1993aca8c86d", "Jane Baker", "unknown or indeterminate"],
+    ["5421b053-c062-5c17-9908-d201167e4def", "John B Baker", "commissioned army officer"],
+    ["dfb244bf-ec41-5e93-9540-a8356c16a40c", "John S Baker", "unknown or indeterminate"],
+    ["901e6f33-9d7f-5451-b4cf-79f7d00ce712", "Joseph R Baker", "enlisted army personnel"],
+    ["3ab54057-45fd-5bfb-827e-4c2246f80ef9", "Joseph A Baker", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("31", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/fb97a7ef-7e57-5d16-84c1-e45470dca992/");
+  await expect(page.getByRole("heading", { name: "Gibbs L Baker", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned naval officer");
+  await expect(page.locator("main")).toContainText("LT JG");
+  await expect(page.locator("dt", { hasText: "Commissioned officer" }).locator("+ dd")).toHaveText(
+    "Yes",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "general-practice lawyer",
+  );
+  await expect(page.locator("main")).toContainText(
+    "practiced general law in Washington from the mid-1930s",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).toContainText(
+    "Gibbs L. Baker to Harris, Pouch Letter #3, 24 September 1943",
+  );
+  await expect(page.locator("main")).toContainText(
+    "The 1910 Douglas, Baker & Sherrill record belongs to an older namesake and must remain excluded",
+  );
 });

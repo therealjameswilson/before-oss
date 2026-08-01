@@ -1012,6 +1012,21 @@ completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
 
+## Batch 128 accessibility and responsive regression
+
+Batch 128 verifies George S. Baker through Joseph A. Baker at desktop, phone,
+and tablet sizes. It checks all ten direct profile routes, Box 31 provenance,
+exact indexed forms, reviewed personnel categories, field-level serial
+masking, and archival-review guidance. Nine identities remain visibly
+unresolved without employer claims. Gibbs L. Baker's profile visibly qualifies
+the high-confidence identity and occupation-only finding while keeping both
+predecessor fields unresolved. Jamems A. Baker's indexed spelling remains
+recoverable and the likely `James` form is labeled only as a search alias.
+
+The complete desktop, phone, and tablet matrix passed 429 / 429, including
+3 / 3 Batch 128 cases and all 27 / 27 dedicated axe cases, with no assertion
+or serious/critical axe failure.
+
 ## Batch 127 accessibility and responsive regression
 
 Batch 127 verifies Ben Baker through Ford P. Baker at desktop, phone, and

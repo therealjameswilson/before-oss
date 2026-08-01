@@ -7,37 +7,36 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,227 pages**
 - Internal link check: **24,227 HTML files passed**
-- Browser and accessibility suite: **423 / 423 passed** across desktop, phone,
+- Browser and accessibility suite: **429 / 429 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`1fdde1136d406ab76fd040c41ed8e3d312caa5465fc86f70df992db8696b5369`)
-- Latest deterministic build (Batch 126): **byte-for-byte identical** public,
-  generated, and built site data across two consecutive builds and all
-  **24,372** compared artifacts, including **24,297** static-site artifacts.
+  (`6d921d41fb38c77d7773612f2fd340d3d17d675ee86cab556d278b337caa35fe`)
+- Latest deterministic build (Batch 128): **byte-for-byte identical** across
+  two consecutive static builds and all **24,297** built artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `c5f6b9ba0fa7c2e673bdc7e9ce010daa0b4c66aca4785354e80323f5e2c45cde`
+  `9fbbbfe6d37e618aad061e06ecf2ecf7b459e83397b7c54a4016dd1b19a4f3b8`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,372** production artifacts, including compressed mirrors
+  matches** in **24,373** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **957** public records representing **788** unique documents
-- Private citation records: **1,668**
-- Published, qualified affiliations: **486**
-- Published or conflict-visible claims: **929**
+- Reviewed public sources: **961** public records representing **796** unique documents
+- Private citation records: **1,703**
+- Published, qualified affiliations: **487**
+- Published or conflict-visible claims: **931**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **239** people with confirmed/high published
+- Verified-affiliation metric: **240** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 126 production workflow and deployment checks: **passed** for release
-  `9cdfa8a`
+- Batch 127 production workflow and deployment checks: **passed** for release
+  `e7ce687`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3315,6 +3314,64 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 128 local release QA
+
+Batch 128 adds the ten visually checked page-nineteen rows from George S.
+Baker through Joseph A. Baker. The reviewed evidence bundle imports ten
+durable research attempts, seventeen citation records, one affiliation, two
+claims, and three claim-source links. Nine people remain unresolved after the
+minimum protocol and route to Box 31. Gibbs L. Baker receives a
+high-confidence identity and a qualified occupation-only finding; no immediate
+pre-OSS affiliation or last civilian employer is inferred.
+
+The page image was inspected at original resolution. That review confirmed all
+ten rows and the unusual printed `Jamems A Baker` spelling; `James` remains a
+labeled search alias rather than a correction. The indexed naval grade and
+private identifier, peer-reviewed references to Gibbs Baker's 1943 OSS Africa
+correspondence, and a reputable obituary support the Gibbs Latimer Baker
+identity. The obituary supports general-law practice in Washington from the
+mid-1930s, but it does not name a firm or establish that practice as the
+immediate pre-OSS affiliation. An older same-name lawyer is retained only as a
+rejected namesake.
+
+The full 522-page rebuild retained all 23,978 source rows and 23,941 cautious
+person entities. The ingest validator passed every completeness and
+warning-review invariant; SQLite `quick_check` returned `ok`, and the
+foreign-key check returned zero errors. The Python suite passed 55 / 55. The
+complete browser, responsive, direct-route, search, and axe matrix passed
+429 / 429 across desktop, phone, and tablet, including the three Batch 128
+regressions and all 27 dedicated axe cases. The internal-link checker passed
+all 24,227 HTML pages and inventoried 48,685 unique external URLs. Astro
+reported zero errors, warnings, or hints, the dependency audit found zero
+vulnerabilities, and the deterministic 200-profile stratified audit passed
+every invariant.
+
+Two consecutive final static builds produced the identical
+`6d921d41fb38c77d7773612f2fd340d3d17d675ee86cab556d278b337caa35fe`
+content-tree hash across 24,297 built artifacts. All 65 public manifest assets
+match their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field check passed, and the manifest
+SHA-256 is
+`9fbbbfe6d37e618aad061e06ecf2ecf7b459e83397b7c54a4016dd1b19a4f3b8`.
+All 35 compressed mirrors match their uncompressed counterparts. A
+field-aware redaction audit checked all 23,978 source fields against their
+expected public masks and compared 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants against 24,373 production
+artifacts. It found zero redaction errors and zero unexpected full-number
+matches. No authenticated Catalog API request or raw Catalog response was
+used.
+
+The Batch 128 database contains 2,130 durable research attempts, 1,703 private
+citation records, 491 affiliations, 280 organizations, and 952 claims: 185
+confirmed, 628 high, 114 medium, 21 low, and four conflicting. The reviewed
+public projection contains 961 source records representing 796 unique
+documents, 487 affiliations, and 931 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,100 people with a non-planned research
+attempt, 240 with verified-affiliation evidence, 136 with verified employment
+or self-employment evidence, and 1,048 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 278 organizations, 487
+affiliations, and 961 sources.
 
 ## Batch 127 local release QA
 

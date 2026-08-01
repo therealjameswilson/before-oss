@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,090 people with a non-planned attempt | 23,941 person entities | 4.5529% |
-| Verified-affiliation coverage | 239 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9983% |
+| Research-attempt coverage | 1,100 people with a non-planned attempt | 23,941 person entities | 4.5946% |
+| Verified-affiliation coverage | 240 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0025% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 1,038 people with an individual file-access/priority assessment | 23,941 person entities | 4.3357% |
+| Archival-review coverage | 1,048 people with an individual file-access/priority assessment | 23,941 person entities | 4.3774% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
-- Identity status `high_confidence`: 298
+- Identity status `high_confidence`: 299
 - Identity status `probable`: 36
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,494
+- Identity status `unresolved`: 23,493
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,851
+- `not_started`: 22,841
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 64
-- `requires_archival_review`: 733
+- `occupation_only_found`: 65
+- `requires_archival_review`: 742
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 138
@@ -64,7 +64,7 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 511
+- Reviewed-web terminal-protocol attempts recorded: 531
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -79,12 +79,12 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 406 across 387 people; 27 additional
+- Saved `source_reviewed` outcomes: 415 across 396 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,110
+- Total recorded attempts/plans: 2,130
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 389; 371 have at least one public-eligible
+- People with saved reviewed claims: 398; 376 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1256,10 +1256,32 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
   Pages workflow 30712957978. The production audit matched all 17 tested
   routes and all 65 manifest assets to the audited local build and reproduced
   the exact live coverage statistics.
-- Published affiliations: 486
-- Database claims: 950; public-visible claims: 929 (185 confirmed, 626 high,
+- Batch 128 continues page nineteen from George S. Baker through Joseph A.
+  Baker. Original-resolution inspection confirms all ten printed rows, the
+  `LT JG`, `Pfc`, `Pvt`, `T-5`, `1st Lt`, and `S/Sgt` grades, and the unusual
+  printed spelling `Jamems A Baker`; `James` is retained only as a labeled
+  search alias. A peer-reviewed study citing 1943 OSS Africa correspondence
+  and a Washington Post obituary support a high-confidence identification of
+  indexed Lieutenant (Junior Grade) Gibbs L. Baker as Washington lawyer Gibbs
+  Latimer Baker. The obituary documents general-law practice in Washington
+  from the mid-1930s, so the site publishes that occupation with high
+  confidence but does not infer a firm, self-employment, immediate pre-OSS
+  affiliation, or last civilian employer. A 1910 directory entry for an older
+  Gibbs Latimer Baker at Douglas, Baker & Sherrill is explicitly rejected as a
+  different generation. George S. Baker, Harold L. Baker, Jack Baker, Jamems A.
+  Baker, Jane Baker, John B. Baker, John S. Baker, Joseph R. Baker, and Joseph
+  A. Baker remain unresolved and route to Box 31. Common-name military,
+  obituary, directory, and institutional candidates lacked the indexed rank,
+  private identifier, OSS link, or two corroborating identity details. NARA's
+  public AAD fielded-search interface returned HTTP 403; this access limitation
+  is recorded and is not treated as a negative record result. The batch adds 17
+  citation records, one occupation-only affiliation, two public claims, and ten
+  durable research attempts. No authenticated Catalog API request or raw
+  Catalog response was used.
+- Published affiliations: 487
+- Database claims: 952; public-visible claims: 931 (185 confirmed, 628 high,
   114 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,686; public source export: 957; unique source documents: 792
+- Citation records: 1,703; public source export: 961; unique source documents: 796
 - Canonical organizations: 280 private and 278 public
 - Conflicts: 5
 - NARA pull-list rows: 23,840
@@ -1432,6 +1454,11 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-seventee
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-badia-through-baerwald-pathways_batch-121_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-bagby-through-bahor-pathways_batch-122_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-bahoric-through-bailey-pathways_batch-123_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-bailey-through-bailey-pathways_batch-124_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-nineteen-bailey-through-bair-pathways_batch-125_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baird-through-baker-pathways_batch-126_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-continuation-pathways_batch-127_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-common-names-and-gibbs-latimer-baker_batch-128_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
