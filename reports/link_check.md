@@ -1147,6 +1147,35 @@ Collection finding aid. The Harvard Law memorial and CAGenWeb enlistment
 transcription remain audit-only rejected candidates and are not presented as
 claim support.
 
+## Batch 113 production deployment
+
+GitHub Actions test workflow
+[30682592965](https://github.com/therealjameswilson/before-oss/actions/runs/30682592965)
+and GitHub Pages deployment workflow
+[30682592953](https://github.com/therealjameswilson/before-oss/actions/runs/30682592953)
+completed successfully for release `503a41b`.
+
+All nineteen tested publication routes returned HTTP 200: seven core routes,
+the ten Batch 113 person profiles, and the United States Army Signal Corps and
+V Force organization profiles. After substituting the production host for the
+local placeholder in plain and URL-encoded canonical URLs, every route matched
+the audited local HTML bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 950
+people with non-planned research attempts, 232 verified-affiliation people,
+133 verified-employer people, 898 assessed archival-review needs, 833
+published claims, and 821 public source records. The live personnel CSV and
+JSONL downloads each contain 23,941 rows; the organizations, affiliations, and
+sources downloads contain 270, 471, and 821 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited bytes. The deployed and local manifest
+SHA-256 is
+`5206baabb9c636bbf3fe5a624a92d81307ad2ae3a13e9f91ef37baa811989f2b`.
+A boundary-aware comparison against 12,919 nontrivial normalized private
+identifiers and 121 formatted raw variants found zero full matches across 85
+deployed routes, manifest, data, compressed mirrors, and downloads.
+
 ## Batch 112 local release check
 
 The rebuilt site contains direct, internally resolved routes for Joseph A.

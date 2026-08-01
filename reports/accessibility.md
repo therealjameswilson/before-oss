@@ -1066,6 +1066,14 @@ matrix passed 384 / 384 with no assertion failure or serious/critical
 accessibility violation after updating the expected broader-affiliation count
 from 231 to 232.
 
+GitHub test workflow
+[30682592965](https://github.com/therealjameswilson/before-oss/actions/runs/30682592965)
+repeated the complete 384-case research, browser, responsive, and axe matrix
+for release `503a41b` and completed successfully in 8 minutes 8 seconds. The
+deployed routes for all ten Batch 113 profiles and both linked military
+organizations returned HTTP 200 and matched their local accessible HTML after
+canonical-host normalization.
+
 ## Batch 112 accessibility and responsive regression
 
 The Batch 112 regression checks the ten contiguous page-sixteen profiles from
