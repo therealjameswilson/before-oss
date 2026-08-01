@@ -36,8 +36,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **139** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 129 production workflow and deployment checks: **passed** for release
-  `02202b1`
+- Batch 130 production workflow and deployment checks: **passed** for release
+  `6882fe1`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3372,6 +3372,31 @@ attempt, 243 with verified-affiliation evidence, 139 with verified employment
 or self-employment evidence, and 1,069 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 281 organizations, 492
 affiliations, and 977 sources.
+
+## Batch 130 production deployment
+
+GitHub Actions test workflow
+[30719184186](https://github.com/therealjameswilson/before-oss/actions/runs/30719184186)
+and GitHub Pages deployment workflow
+[30719184199](https://github.com/therealjameswilson/before-oss/actions/runs/30719184199)
+completed successfully for release `6882fe1`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+435-case browser, responsive, direct-route, search, and axe matrix.
+
+All 19 audited production routes returned HTTP 200 and matched the local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+six core routes, all eleven Batch 130 person profiles, and both linked
+organization profiles. Three additional content checks confirmed Ballachey's
+Michigan State pathway, Balasy's qualified government assignment, and the
+separate unresolved Baldachey duplicate record. All five public downloads
+reproduced the release counts.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`76d922022226bd924f5e2b89f3dcec54e741d8307b472eaef9ed2847784c169b`.
+A boundary-aware privacy scan compared 12,919 normalized private identifiers
+and 121 formatted raw variants against 84 live HTML, data, compressed-mirror,
+manifest, and download artifacts and found zero unexpected full matches.
 
 ## Batch 129 local release QA
 

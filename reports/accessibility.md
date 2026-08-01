@@ -1033,6 +1033,15 @@ then passed 3 / 3, and the complete desktop, phone, and tablet matrix passed
 435 / 435, including all 27 dedicated axe cases, with no assertion,
 navigation, or serious/critical axe failure.
 
+GitHub test workflow
+[30719184186](https://github.com/therealjameswilson/before-oss/actions/runs/30719184186)
+repeated the complete suite on a clean Ubuntu runner for release `6882fe1` and
+passed. GitHub Pages workflow
+[30719184199](https://github.com/therealjameswilson/before-oss/actions/runs/30719184199)
+also completed successfully. All eleven deployed profiles, both organization
+profiles, and six core routes returned HTTP 200 and matched their audited local
+accessible HTML after plain and URL-encoded canonical-host normalization.
+
 ## Batch 129 accessibility and responsive regression
 
 Batch 129 verifies Kenneth H. Baker through William H. Baker at desktop,

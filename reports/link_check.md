@@ -1168,6 +1168,32 @@ uncompressed counterparts. A boundary-aware scan of 12,919 normalized private
 identifiers and 121 formatted raw variants across 24,376 production artifacts
 found zero unexpected full matches.
 
+## Batch 130 production deployment
+
+GitHub Actions test workflow
+[30719184186](https://github.com/therealjameswilson/before-oss/actions/runs/30719184186)
+and Pages workflow
+[30719184199](https://github.com/therealjameswilson/before-oss/actions/runs/30719184199)
+completed successfully for release `6882fe1`.
+
+All 19 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: six core publication
+routes, all eleven Batch 130 profiles, and both linked organization routes.
+The deployed statistics report 23,978 source rows, 23,941 person entities,
+1,121 people with non-planned research attempts, 243 people with verified
+affiliations, 139 with verified employment or self-employment, 1,069 assessed
+archival-review needs, 944 public-visible claims, and 977 public source
+records. The five downloads contain 23,941 personnel CSV rows, 23,941
+personnel JSONL rows, 281 organizations, 492 affiliations, and 977 sources.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`76d922022226bd924f5e2b89f3dcec54e741d8307b472eaef9ed2847784c169b`.
+A boundary-aware privacy scan compared 12,919 normalized private identifiers
+and 121 formatted raw variants against the 84 audited live HTML, data,
+compressed-mirror, manifest, and download artifacts and found zero unexpected
+full matches. All three profile-specific content checks passed.
+
 ## Batch 129 local release check
 
 The rebuilt site contains direct, internally resolved routes for Kenneth H.
