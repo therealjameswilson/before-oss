@@ -4,11 +4,17 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 417 / 417 complete-suite browser cases, plus 3 / 3 focused Batch 124
-cases.**
+**PASS WITH ONE DOCUMENTED TRANSIENT - 419 / 420 complete-suite browser cases,
+plus 3 / 3 focused Batch 125 cases and a passing 1 / 1 isolated rerun of the
+single older desktop case.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+The only complete-suite failure was an unchanged Batch 064 desktop citation-
+link assertion after the browser stalled until the 45-second test timeout. The
+same case passed for phone and tablet in that run and passed in 783 ms when
+immediately rerun in isolation on desktop. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
 
@@ -1008,6 +1014,24 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 125 accessibility and responsive regression
+
+Batch 125 verifies Wilbur A. Bailey through William D. Bair at desktop, phone,
+and tablet sizes. It checks all ten direct profile routes, Box 30 provenance,
+personnel categories, exact indexed forms, and field-level serial masking. Six
+profiles visibly retain unresolved identity and archival-review status;
+William H. Bailey and William J. Bailey show confirmed occupation-only
+findings; James Bain Jr. shows a confirmed identity with archival-review
+guidance; and John R. Baine shows a high-confidence identity with a qualified
+medium-confidence professional affiliation.
+
+The regression confirms that the two AAD occupations name no employer, that
+James Bain's later Regular Army appointment is identity evidence rather than
+employment evidence, and that Philadelphia Lyric Opera is displayed as John
+Baine's professional affiliation rather than an employer. John and Raymond
+Baine remain separate profiles with the same visible possible-duplicate group.
+The focused desktop, phone, and tablet run passed 3 / 3.
 
 ## Batch 124 accessibility and responsive regression
 

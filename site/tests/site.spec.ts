@@ -11583,3 +11583,100 @@ test("Batch 124 publishes four bounded occupation findings and preserves six Box
     "No reviewed claim currently meets the publication threshold",
   );
 });
+
+test("Batch 125 publishes two bounded occupations, one qualified opera pathway, and preserves Box 30 review", async ({
+  page,
+}) => {
+  const profiles = [
+    ["12464bf5-aa0b-5557-9516-3327d31f35d8", "Wilbur A Bailey", "unknown or indeterminate"],
+    ["dc098456-c914-58ff-a062-a9d698f8afa3", "William M Bailey", "unknown or indeterminate"],
+    ["05927d43-6d23-512f-a833-926c92131485", "William H Bailey", "enlisted army personnel"],
+    ["415a002f-d297-5b62-ad6f-f70f75932278", "William J Bailey", "enlisted army personnel"],
+    ["b6332ea3-da17-5971-a20e-ea824f27123d", "James Bain Jr.", "commissioned army officer"],
+    ["4b9159e8-fff6-5eb5-97aa-98e169d29387", "John R Baine", "commissioned army officer"],
+    ["3e469244-4c57-51ab-ab17-8af519d26039", "Raymond Baine", "unknown or indeterminate"],
+    ["d80f34a4-c1ed-5c35-aca7-ef5ceddc87ff", "Ruth E Bains", "civilian professional or administrative grade"],
+    ["83c7ce46-9c54-57f9-be58-a16939694686", "Charles A Bair", "unknown or indeterminate"],
+    ["37845f5b-64e1-52fe-9f26-9c55342be68c", "William D Bair", "commissioned army officer"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("30", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "12464bf5-aa0b-5557-9516-3327d31f35d8",
+    "dc098456-c914-58ff-a062-a9d698f8afa3",
+    "05927d43-6d23-512f-a833-926c92131485",
+    "415a002f-d297-5b62-ad6f-f70f75932278",
+    "b6332ea3-da17-5971-a20e-ea824f27123d",
+    "3e469244-4c57-51ab-ab17-8af519d26039",
+    "d80f34a4-c1ed-5c35-aca7-ef5ceddc87ff",
+    "83c7ce46-9c54-57f9-be58-a16939694686",
+    "37845f5b-64e1-52fe-9f26-9c55342be68c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  for (const personId of [
+    "12464bf5-aa0b-5557-9516-3327d31f35d8",
+    "dc098456-c914-58ff-a062-a9d698f8afa3",
+    "3e469244-4c57-51ab-ab17-8af519d26039",
+    "d80f34a4-c1ed-5c35-aca7-ef5ceddc87ff",
+    "83c7ce46-9c54-57f9-be58-a16939694686",
+    "37845f5b-64e1-52fe-9f26-9c55342be68c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/05927d43-6d23-512f-a833-926c92131485/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("floormen and floor managers, stores");
+  await expect(page.locator("main")).toContainText("names no store or employer");
+
+  await page.goto("./people/415a002f-d297-5b62-ad6f-f70f75932278/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("stock-clerk occupation category");
+  await expect(page.locator("main")).toContainText("names no business, warehouse, retailer, or other employer");
+
+  await page.goto("./people/b6332ea3-da17-5971-a20e-ea824f27123d/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("later official Regular Army appointment record");
+
+  await page.goto("./people/4b9159e8-fff6-5eb5-97aa-98e169d29387/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Philadelphia Lyric Opera",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "member and opera tenor",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("medium");
+  await expect(page.locator("main")).toContainText("professional affiliation");
+
+  for (const personId of [
+    "4b9159e8-fff6-5eb5-97aa-98e169d29387",
+    "3e469244-4c57-51ab-ab17-8af519d26039",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator(".profile-aside")).toContainText("duplicate-649706dcfb20");
+  }
+});

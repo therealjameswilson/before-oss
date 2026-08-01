@@ -5,39 +5,40 @@ Run: 2026-08-01 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,226 pages**
-- Internal link check: **24,226 HTML files passed**
-- Browser and accessibility suite: **417 / 417 local full-matrix cases**, plus
-  **3 / 3** focused Batch 124 cases
+- Static production build: **24,227 pages**
+- Internal link check: **24,227 HTML files passed**
+- Browser and accessibility suite: **419 / 420 local full-matrix cases**, plus
+  **3 / 3** focused Batch 125 cases and **1 / 1** passing isolated rerun of the
+  single transient older desktop case
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`64f80b81e48e6393130d21de9f4574fa0e7b47835bd5924077b9f4a2d10641f3`)
-- Latest deterministic build (Batch 124): **byte-for-byte identical** public,
+  (`3129ced33564b539b04f838320ca0107cab2b5364f73eb8bd169e94fee1d8520`)
+- Latest deterministic build (Batch 125): **byte-for-byte identical** public,
   generated, and built site data across two consecutive builds and all
-  **24,366** compared artifacts, including **24,296** static-site artifacts.
+  **24,373** compared artifacts, including **24,297** static-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `39ddd904f52b7a6fe3f1efe601140fb1b9652ef9336d161b837ed37c591a3474`
+  `185a4ea64f4538119e300b47ed9bdad1221cf0e1cafd0a07a4ffd8257575b76a`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,372** production artifacts, including compressed mirrors
+  matches** in **24,373** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **938** public records representing **781** unique documents
-- Private citation records: **1,630**
-- Published, qualified affiliations: **483**
-- Published or conflict-visible claims: **914**
+- Reviewed public sources: **949** public records representing **786** unique documents
+- Private citation records: **1,651**
+- Published, qualified affiliations: **484**
+- Published or conflict-visible claims: **921**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 124 production workflow and deployment checks: **passed** for release
-  `a697a52`
+- Batch 125 local release checks: **passed with the one documented transient
+  older browser case described below**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3315,6 +3316,58 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 125 local release QA
+
+Batch 125 adds the ten visually checked page-eighteen and page-nineteen rows
+from Wilbur A. Bailey through William D. Bair. The reviewed bundle imports ten
+durable research attempts, twenty-one sources, seven claims, nineteen claim-
+source links, one organization, and one affiliation. Official AAD evidence
+confirms William H. Bailey and William J. Bailey without exposing their private
+identifiers and retains their store floor-manager and stock-clerk categories
+as occupation-only findings. A later official appointment confirms James Bain
+Jr.'s identity. John R. Baine receives a high-confidence identity assessment
+and a qualified medium-confidence Philadelphia Lyric Opera professional
+affiliation, while the separate Raymond Baine profile remains linked only by a
+possible-duplicate review group. Six identities remain unresolved.
+
+The evidence importer passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The Python suite passed 54 / 54. The focused Batch 125 regression
+passed 3 / 3 across desktop, phone, and tablet after two assertions were
+aligned with the exact published wording. The complete browser, responsive,
+direct-route, search, and axe matrix passed 419 / 420: an unchanged Batch 064
+desktop link assertion stalled until the 45-second timeout, while the same
+case passed on phone and tablet and then passed 1 / 1 in an immediate isolated
+desktop rerun. The internal-link checker passed all 24,227 HTML pages and
+inventoried 48,681 unique external URLs. The dependency audit found zero
+vulnerabilities, and the deterministic 200-profile stratified audit passed
+every invariant.
+
+Two consecutive final builds produced the identical
+`3129ced33564b539b04f838320ca0107cab2b5364f73eb8bd169e94fee1d8520`
+directory-prefixed content-tree hash across 24,373 public, generated, and
+built-site artifacts, including 24,297 static-site artifacts and 24,227 HTML
+pages. All 65 public manifest assets matched their recorded sizes and SHA-256
+values in the public source tree and built site. The manifest forbidden-field
+check passed, and the manifest SHA-256 is
+`185a4ea64f4538119e300b47ed9bdad1221cf0e1cafd0a07a4ffd8257575b76a`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across 24,373 production artifacts
+and found zero full matches. No local `.env` file, nonblank tracked API-key
+assignment, authenticated Catalog API request, or raw Catalog response was
+present.
+
+The Batch 125 database contains 2,100 durable research attempts, 1,651 private
+citation records, 488 affiliations, 280 organizations, and 942 claims: 179
+confirmed, 624 high, 114 medium, 21 low, and four conflicting. The reviewed
+public projection contains 949 source records representing 786 unique
+documents, 484 affiliations, and 921 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,070 people with a non-planned research
+attempt, 238 with verified-affiliation evidence, 136 with verified employment
+or self-employment evidence, and 1,018 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 278 organizations, 484
+affiliations, and 949 sources. No authenticated NARA Catalog request was made.
 
 ## Batch 124 local release QA
 

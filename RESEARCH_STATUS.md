@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,060 people with a non-planned attempt | 23,941 person entities | 4.4276% |
+| Research-attempt coverage | 1,070 people with a non-planned attempt | 23,941 person entities | 4.4693% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 1,008 people with an individual file-access/priority assessment | 23,941 person entities | 4.2104% |
+| Archival-review coverage | 1,018 people with an individual file-access/priority assessment | 23,941 person entities | 4.2521% |
 
 ## Extraction and identity
 
@@ -18,15 +18,15 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 211
+- Possible duplicate groups: 212
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 75
-- Identity status `high_confidence`: 297
+- Identity status `confirmed`: 78
+- Identity status `high_confidence`: 298
 - Identity status `probable`: 36
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,502
+- Identity status `unresolved`: 23,498
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,881
+- `not_started`: 22,871
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 60
-- `requires_archival_review`: 708
+- `occupation_only_found`: 62
+- `requires_archival_review`: 716
 - `completed`: 54
 - `conflicting_sources`: 4
 - `verified_employer_found`: 138
@@ -1184,11 +1184,30 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   30704847634 and Pages workflow 30704847641. The production audit matched all
   17 tested routes and all 65 manifest assets to the audited local build and
   found zero full private-identifier matches across 83 live artifacts.
-- Published affiliations: 483
-- Database claims: 935; public-visible claims: 914 (174 confirmed, 623 high,
-  113 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,630; public source export: 938; unique source documents: 781
-- Canonical organizations: 279 private and 277 public
+- Batch 125 continues page eighteen and page nineteen from Wilbur A. Bailey
+  through William D. Bair. Exact private-identifier and name comparisons in
+  NARA's public AAD Army enlistment table confirm Technician Fifth Grade
+  William H. Bailey and Technician Fourth Grade William J. Bailey. The
+  official records support only store floor-manager and stock-clerk occupation
+  categories at Army entry and name no employer. A 1953 Congressional Record
+  appointment confirms Second Lieutenant James Bain Jr.'s identity but does
+  not supply pre-OSS employment. Contemporary and institutional evidence
+  supports a high-confidence John Raymond Baine identity and a visibly
+  qualified, medium-confidence Philadelphia Lyric Opera professional
+  affiliation immediately before his wartime service; it is not modeled as
+  employment. John R. Baine and the separate Raymond Baine profile share a
+  possible-duplicate group pending Box 30 review. Wilbur A. Bailey, William M.
+  Bailey, Raymond Baine, Ruth E. Bains, Charles A. Bair, and William D. Bair
+  remain unresolved. Local release QA passed 54 Python tests, the focused 3 / 3
+  Batch 125 browser cases, 419 / 420 cases in the complete matrix plus the
+  isolated rerun of the single transient older case, all 24,227 internal HTML
+  routes, the deterministic rebuild, and the exhaustive private-identifier
+  scan. No authenticated Catalog API request was made.
+- Published affiliations: 484
+- Database claims: 942; public-visible claims: 921 (179 confirmed, 624 high,
+  114 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation records: 1,651; public source export: 949; unique source documents: 786
+- Canonical organizations: 280 private and 278 public
 - Conflicts: 5
 - NARA pull-list rows: 23,840
 

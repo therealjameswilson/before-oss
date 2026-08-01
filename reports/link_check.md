@@ -4,15 +4,15 @@ Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,226 HTML files. Every relative
+**PASS.** The production build contains 24,227 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 277 organization profiles, and the
+The build includes 23,941 person profiles, 278 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,676 unique external URLs for separate live
+The checker inventoried 48,681 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1133,6 +1133,35 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 125 local release check
+
+The rebuilt site contains direct, internally resolved routes for Wilbur A.
+Bailey, William M. Bailey, William H. Bailey, William J. Bailey, James Bain
+Jr., John R. Baine, Raymond Baine, Ruth E. Bains, Charles A. Bair, and William
+D. Bair. Every route preserves page-eighteen or page-nineteen and Box 30
+provenance, a masked or explicitly unprinted private identifier, personnel
+classification, and an evidence-limited immediate-affiliation field. William
+H. and William J. expose supported occupation-only claims without creating
+employer routes. John Baine links to the new Philadelphia Lyric Opera
+organization route as a qualified professional affiliation, not employment.
+
+The complete local link checker passed all 24,227 HTML files and inventoried
+48,681 unique external URLs. The reviewed targets include NARA's public AAD
+Army record series, the Congressional Record, two Washington Post archival
+articles, the American Foreign Service Association journal archive, and the
+Library of Congress Veterans History Project. No discovery lead was promoted
+without identity and temporal review.
+
+The public downloads contain 23,941 person rows, 278 organization rows, 484
+affiliation rows, and 949 source rows. All 65 manifest-listed assets matched
+their recorded sizes and SHA-256 values in both the public source tree and
+built site; the manifest forbidden-field check passed. The local manifest
+SHA-256 is
+`185a4ea64f4538119e300b47ed9bdad1221cf0e1cafd0a07a4ffd8257575b76a`.
+A boundary-aware comparison of 12,919 normalized private identifiers and 121
+formatted variants across 24,373 production artifacts found zero full
+matches.
 
 ## Batch 124 local release check
 
