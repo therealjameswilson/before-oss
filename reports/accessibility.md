@@ -4,13 +4,14 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 435 / 435 complete-suite browser cases across desktop, phone, and
+**PASS - 438 / 438 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The final Batch 130 suite completed without an assertion, navigation, or
+The complete 435-case pre-Batch-131 matrix and the focused three-case Batch
+131 regression completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -1011,6 +1012,27 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 131 accessibility and responsive regression
+
+Batch 131 verifies the ten contiguous Arthur L. Baldwin-through-Dominick
+Balei profiles at desktop, phone, and tablet sizes. It checks all ten direct
+profile routes, page-twenty and Box 31 or Box 32 provenance, reviewed
+personnel categories, field-level identifier masking, and seven visibly
+unresolved archival-review outcomes. Elbert Baldwin's profile keeps immediate
+government lend-lease work distinct from his last civilian enterprise,
+Research International, and from earlier Business Week and Commerce
+Department roles. Howard Baldwin's page publishes only a qualified prewar
+advertising occupation while leaving both predecessor questions unresolved.
+Thomas Baldwin's page presents a military United States Army predecessor and
+does not invent a civilian employer. The Research International organization
+route links back to Elbert Baldwin.
+
+The complete 435-case regression matrix passed before the new case was added.
+The focused Batch 131 desktop, phone, and tablet run then passed 3 / 3 against
+the final static build, for 438 / 438 release cases in total. All 27 dedicated
+axe cases passed, and no assertion, navigation, responsive-layout, or
+serious/critical accessibility failure occurred.
 
 ## Batch 130 accessibility and responsive regression
 

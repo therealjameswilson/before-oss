@@ -12045,3 +12045,89 @@ test("Batch 130 preserves ten source rows, resolves Ballachey's employer, and qu
   await expect(page.getByRole("heading", { name: "Michigan State College", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("Egerton L Ballachey");
 });
+
+test("Batch 131 separates lend-lease, civilian publishing, Army, advertising, and archival-review pathways", async ({
+  page,
+}) => {
+  const archivalProfiles = [
+    ["10a2227d-a411-5247-a1c0-88f745808cc9", "Arthur L Baldwin", "31", "enlisted army personnel"],
+    ["f85118a1-f6cc-5dc3-83b5-b899a0e72461", "Philip Baldwin", "32", "unknown or indeterminate"],
+    ["7f4bdb55-078d-5aa4-8c46-11425e639461", "Robert L Baldwin", "32", "unknown or indeterminate"],
+    ["8942315d-aa6c-57c4-9574-6bb67eadf881", "Robert M Baldwin", "32", "commissioned army officer"],
+    ["827226d2-c076-59cf-9324-197ed1ea20ea", "William H Baldwin", "32", "commissioned army officer"],
+    ["c578a107-15e2-5333-a298-a2ec2b2a86ef", "Robert N Baldy", "32", "enlisted army personnel"],
+    ["ff136d64-7385-52eb-a0ba-76712dff9450", "Dominick Balei", "31", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, box, personnelCategory] of archivalProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/95ef5b00-a344-56f8-bd3a-e9253663c53d/");
+  await expect(page.getByRole("heading", { name: "Elbert Baldwin", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States government lend-lease work",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "government assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Research International",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "self employment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Business Week",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Department of Commerce",
+  );
+
+  await page.goto("./organizations/9cdf3d9c-9512-5c14-9598-52fdfb1b9db7/");
+  await expect(page.getByRole("heading", { name: "Research International", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Elbert Baldwin");
+
+  await page.goto("./people/867223c8-19c0-55aa-a36b-d6ed2205a79a/");
+  await expect(page.getByRole("heading", { name: "Howard Baldwin", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("worked in advertising before the war");
+  await expect(page.locator("main")).toContainText("Do not assign The New Yorker or J. Walter Thompson");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/8d87eb94-a5f8-5d60-92f8-431454346be6/");
+  await expect(page.getByRole("heading", { name: "Thomas Baldwin", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator("main")).toContainText("OSS Detachment 101");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

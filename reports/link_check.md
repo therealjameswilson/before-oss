@@ -1140,6 +1140,36 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 131 local release check
+
+The rebuilt site contains direct, internally resolved routes for Arthur L.
+Baldwin, Elbert Baldwin, Howard Baldwin, Philip Baldwin, Robert L. Baldwin,
+Robert M. Baldwin, Thomas Baldwin, William H. Baldwin, Robert N. Baldy, and
+Dominick Balei. Every route preserves page-twenty and Box 31 or Box 32
+provenance, a masked or explicitly unprinted private identifier, and the
+reviewed identity and personnel classification. Elbert's profile separates
+government lend-lease work, Research International, Business Week, and the
+Commerce Department. Howard's profile publishes advertising as an occupation
+without assigning The New Yorker or J. Walter Thompson. Thomas's profile
+presents the United States Army as a military predecessor. Seven profiles
+visibly retain unresolved identity and archival-review status.
+
+Direct organization routes for Research International, Business Week, the
+United States Department of Commerce, government lend-lease work, and the
+United States Army resolve and link back to the intended profiles. The
+complete local link checker passed all 24,234 HTML files and inventoried
+48,704 unique external URLs. The public downloads contain 23,941 person rows,
+285 organization rows, 497 affiliation rows, and 986 source rows. All 65
+manifest-listed assets match their recorded sizes and SHA-256 values in both
+the public source tree and built site, and the manifest forbidden-field check
+passed. The local manifest SHA-256 is
+`3f15332c63df8b44b3b92eeb356155fb4e1ba39dfc1049d1e850b5ea8543a32f`.
+All 66 compressed mirrors across the three production trees match their
+uncompressed counterparts. A boundary-aware scan of 12,919 normalized private
+identifiers and 121 formatted raw variants across 24,313 plaintext
+production artifacts found zero full matches; all 66 compressed mirrors were
+verified byte-for-byte against those scanned plaintext files.
+
 ## Batch 130 local release check
 
 The rebuilt site contains direct, internally resolved routes for Dorothy J.
