@@ -11185,3 +11185,93 @@ test("Batch 119 preserves Bachand-through-Backus identity thresholds and withhol
   await page.goto("./people/f1b2aa73-74aa-58bd-a631-31b952b13fe2/");
   await expect(page.locator("main")).toContainText("Caf-4");
 });
+
+test("Batch 120 separates qualified employment, occupation-only findings, Allied identity, and unresolved names", async ({
+  page,
+}) => {
+  const profiles = [
+    ["87d86f1e-1bf0-52e1-ab62-49f1b280cb53", "Samuel D Backus", "enlisted army personnel"],
+    ["2feacabe-6765-5fa7-b461-4cf5cbd58961", "Charles A Bacon Jr.", "enlisted army personnel"],
+    ["59e0bb4f-5401-5fa9-b29a-23f9fae4a094", "Elizabeth E Bacon", "civilian professional or administrative grade"],
+    ["7b21a9d1-d92f-5c68-ad6c-df3e1a38835e", "Greta Bacon", "unknown or indeterminate"],
+    ["a080d69e-3897-5017-b0f8-46f1a7288c5a", "Gwendel Bacote", "unknown or indeterminate"],
+    ["77c2ed93-890a-5fb2-b026-740b764821fb", "Albert E Bacquet", "foreign or allied military personnel"],
+    ["dffaed52-359a-546e-8eff-be1020f52aa4", "Steve Bacsik", "enlisted army personnel"],
+    ["b5f9a9e0-af69-587f-b337-0268526c42b2", "Michael Baczynski", "unknown or indeterminate"],
+    ["c59d3b95-016e-530f-9407-17f99c6ca304", "Nate A Badami", "enlisted army personnel"],
+    ["806ef924-35cf-55e5-9209-45ee594c1953", "James W Bader", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("28", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const personId of profiles.map(([personId]) => personId).filter(
+    (personId) => personId !== "59e0bb4f-5401-5fa9-b29a-23f9fae4a094",
+  )) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "7b21a9d1-d92f-5c68-ad6c-df3e1a38835e",
+    "a080d69e-3897-5017-b0f8-46f1a7288c5a",
+    "dffaed52-359a-546e-8eff-be1020f52aa4",
+    "b5f9a9e0-af69-587f-b337-0268526c42b2",
+    "806ef924-35cf-55e5-9209-45ee594c1953",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/87d86f1e-1bf0-52e1-ab62-49f1b280cb53/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation code is undefined");
+
+  await page.goto("./people/2feacabe-6765-5fa7-b461-4cf5cbd58961/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("semiskilled photographic-process occupation");
+
+  await page.goto("./people/59e0bb4f-5401-5fa9-b29a-23f9fae4a094/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("University of Washington");
+  await expect(page.locator("main")).toContainText("Instructor in Far Eastern Studies");
+  await expect(page.locator("main")).toContainText("immediate transition is not established");
+  await expect(
+    page.getByRole("link", { name: "University of Washington General Catalog, 1944-1945", exact: true }).first(),
+  ).toHaveAttribute("href", /washington\.edu/);
+
+  await page.goto("./people/a080d69e-3897-5017-b0f8-46f1a7288c5a/");
+  await expect(page.locator("main")).toContainText("Gwendolyn Bacote (search alias only)");
+
+  await page.goto("./people/77c2ed93-890a-5fb2-b026-740b764821fb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Commissioned officer", { exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("French Army sous-lieutenant");
+  await expect(page.locator("main")).toContainText("Jean Coulombel");
+  await expect(page.getByRole("link", { name: "Albert Bacquet: Silver Star", exact: true }).first()).toHaveAttribute("href", /militarytimes\.com/);
+
+  await page.goto("./people/c59d3b95-016e-530f-9407-17f99c6ca304/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("textile-products fabrication occupation");
+  await expect(page.locator("main")).toContainText("Valentine-Livingston Shore Party");
+
+  await page.goto("./people/dffaed52-359a-546e-8eff-be1020f52aa4/");
+  await expect(page.locator("main")).toContainText("Do not assign the cemetery candidate");
+  await expect(page.locator("main")).toContainText("without a second corroborating identifier");
+});
