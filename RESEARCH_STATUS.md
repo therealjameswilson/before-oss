@@ -1277,7 +1277,11 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
   is recorded and is not treated as a negative record result. The batch adds 17
   citation records, one occupation-only affiliation, two public claims, and ten
   durable research attempts. No authenticated Catalog API request or raw
-  Catalog response was used.
+  Catalog response was used. Release `e98fa76` passed GitHub test workflow
+  30714749523 and Pages workflow 30714749544. The production audit matched all
+  17 tested routes and all 65 manifest assets to the audited local build,
+  reproduced every live coverage statistic and download count, and found zero
+  full private-identifier matches across 83 live artifacts.
 - Published affiliations: 487
 - Database claims: 952; public-visible claims: 931 (185 confirmed, 628 high,
   114 medium, 4 conflicting); 21 low-confidence claims are withheld

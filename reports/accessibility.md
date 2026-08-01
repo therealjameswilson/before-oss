@@ -1027,6 +1027,16 @@ The complete desktop, phone, and tablet matrix passed 429 / 429, including
 3 / 3 Batch 128 cases and all 27 / 27 dedicated axe cases, with no assertion
 or serious/critical axe failure.
 
+GitHub test workflow
+[30714749523](https://github.com/therealjameswilson/before-oss/actions/runs/30714749523)
+repeated the complete suite on a clean Ubuntu runner for release `e98fa76` and
+passed 429 / 429. GitHub Pages workflow
+[30714749544](https://github.com/therealjameswilson/before-oss/actions/runs/30714749544)
+also completed successfully. All ten deployed profiles and seven core routes
+returned HTTP 200 and matched their audited local accessible HTML after plain
+and URL-encoded canonical-host normalization. The intended qualified Gibbs
+Baker evidence and all nine unresolved employer statements were present.
+
 ## Batch 127 accessibility and responsive regression
 
 Batch 127 verifies Ben Baker through Ford P. Baker at desktop, phone, and

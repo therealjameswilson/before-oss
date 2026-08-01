@@ -1159,6 +1159,33 @@ boundary-aware scan of 12,919 normalized private identifiers and 121 formatted
 raw variants across 24,373 production artifacts found zero unexpected full
 matches.
 
+## Batch 128 production deployment
+
+GitHub Actions test workflow
+[30714749523](https://github.com/therealjameswilson/before-oss/actions/runs/30714749523)
+and Pages workflow
+[30714749544](https://github.com/therealjameswilson/before-oss/actions/runs/30714749544)
+completed successfully for release `e98fa76`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes and all ten Batch 128 profiles. The deployed statistics
+report 23,978 source rows, 23,941 person entities, 1,100 people with non-
+planned research attempts, 240 people with verified affiliations, 136 with
+verified employment or self-employment, 1,048 assessed archival-review needs,
+931 public-visible claims, and 961 public source records. The five downloads
+contain 23,941 personnel CSV rows, 23,941 personnel JSONL rows, 278
+organizations, 487 affiliations, and 961 sources.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`9fbbbfe6d37e618aad061e06ecf2ecf7b459e83397b7c54a4016dd1b19a4f3b8`.
+A boundary-aware privacy scan compared 12,919 normalized private identifiers
+and 121 formatted raw variants against the 83 audited live HTML, data,
+compressed-mirror, manifest, and download artifacts and found zero unexpected
+full matches. All Gibbs Baker evidence checks and all nine unresolved-profile
+checks passed.
+
 ## Batch 127 local release check
 
 The rebuilt site contains direct, internally resolved routes for Ben Baker,

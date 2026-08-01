@@ -35,8 +35,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 127 production workflow and deployment checks: **passed** for release
-  `e7ce687`
+- Batch 128 production workflow and deployment checks: **passed** for release
+  `e98fa76`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3372,6 +3372,39 @@ attempt, 240 with verified-affiliation evidence, 136 with verified employment
 or self-employment evidence, and 1,048 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 278 organizations, 487
 affiliations, and 961 sources.
+
+## Batch 128 production deployment
+
+GitHub Actions test workflow
+[30714749523](https://github.com/therealjameswilson/before-oss/actions/runs/30714749523)
+and GitHub Pages deployment workflow
+[30714749544](https://github.com/therealjameswilson/before-oss/actions/runs/30714749544)
+completed successfully for release `e98fa76`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+429-case browser, responsive, direct-route, search, and axe matrix. It
+reported zero Astro errors, warnings, or hints, 429 / 429 browser cases,
+24,227 valid internal HTML pages, and zero dependency vulnerabilities.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes and all ten Batch 128 person profiles. Live statistics and
+all five public-download row counts exactly reproduce the release: 23,941
+personnel CSV and JSONL rows, 278 organizations, 487 affiliations, and 961
+sources. The profile checks preserved Gibbs Baker's qualified identity and
+occupation, both unresolved predecessor fields, and the nine evidence-limited
+common-name outcomes.
+
+All 65 deployed manifest assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`9fbbbfe6d37e618aad061e06ecf2ecf7b459e83397b7c54a4016dd1b19a4f3b8`.
+A boundary-aware privacy scan directly compared 12,919 normalized private
+identifiers and 121 formatted raw variants against the 83 audited live HTML,
+data, compressed-mirror, manifest, and download artifacts and found zero full
+matches.
+
+GitHub emitted a non-blocking platform annotation that several pinned setup
+actions still declare Node.js 20 and were forced to Node.js 24. The repository
+test job explicitly uses Node.js 24; no project build or test step failed.
 
 ## Batch 127 local release QA
 
