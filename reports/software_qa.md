@@ -7,18 +7,18 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,224 pages**
 - Internal link check: **24,224 HTML files passed**
-- Browser and accessibility suite: **393 / 393 passed**
+- Browser and accessibility suite: **396 / 396 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`aca77b8c64269a9a2f44d33e7cf5dcd87be169c8de3ba5c0c93554282c938337`)
-- Latest clean-checkout replay (Batch 116): **byte-for-byte identical** public
+  (`7fcf7df40394c0af5e0ae387a04faa0d3abd6605379ae94051cbcddd8ce9f58d`)
+- Latest clean-checkout replay (Batch 117): **byte-for-byte identical** public
   and generated site data and all **24,294** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
-  all 116 evidence batches.
+  all 117 evidence batches.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `32692e4a8bd2a14e36f7ef0902b680079cf589a60236dad89b992ccbc227987d`
+  `7fbb243c9aaffa676e7c916da7bae79c0ff45218fac2c1e7608f01ee69b3ca4f`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,10 +28,10 @@ Run: 2026-08-01 UTC
   matches** in **24,370** production artifacts, including compressed mirrors;
   one numeric overlap is manifest file-size metadata, not an identifier
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **854** public records representing **733** unique documents
-- Private citation records: **1,473**
+- Reviewed public sources: **863** public records representing **737** unique documents
+- Private citation records: **1,491**
 - Published, qualified affiliations: **480**
-- Published claims: **861**
+- Published claims: **868**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -1520,6 +1520,66 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 117 local release QA
+
+Batch 117 adds ten visually checked page-seventeen rows from James W. Aznone
+through Stanley L. Babberle. The reviewed bundle imports ten durable terminal
+research attempts, eighteen sources, seven claims, and seventeen claim-source
+links. Exact official AAD identifier matches confirm Matthew F. Azzarone,
+Philip Azzolina, Mike Baarsvik, and Gust J. Babalis. Three named occupational
+categories are published as occupation-only results, Babalis's undefined code
+is not expanded, and no organization or affiliation is created. Six identities
+remain unresolved and route to Box 27 or 28.
+
+The evidence bundle passed Pydantic validation and an isolated test-database
+import before its idempotent durable import. SQLite `integrity_check` returned
+`ok`, and the foreign-key check returned zero errors. The Python suite passed
+54 / 54. The static build completed 24,224 pages with zero Astro errors,
+warnings, or hints. One focused test assertion was aligned with the profile's
+actual qualified namesake wording; the rerun passed 3 / 3 across desktop,
+phone, and tablet. The complete responsive, direct-route, search, and axe
+matrix passed 396 / 396. The internal link checker passed all 24,224 HTML
+pages and inventoried 48,647 unique external URLs. The dependency audit found
+zero vulnerabilities, and the deterministic 200-profile stratified audit
+passed every invariant.
+
+Two consecutive static builds produced the identical
+`7fcf7df40394c0af5e0ae387a04faa0d3abd6605379ae94051cbcddd8ce9f58d`
+content-tree hash across 24,294 built artifacts. All 65 public manifest assets
+matched their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field check passed, and the manifest
+SHA-256 is
+`7fbb243c9aaffa676e7c916da7bae79c0ff45218fac2c1e7608f01ee69b3ca4f`.
+A field-aware boundary scan assessed 12,932 normalized private identifiers,
+reduced to 12,919 nontrivial comparison tokens, plus 121 formatted raw
+variants across 24,370 production artifacts, including compressed mirrors,
+and found zero unexpected full identifier matches. Four artifact copies of
+one coincidental numeric overlap appear only in a manifest `size_bytes` field;
+the value is file metadata, not a published identifier. The repository
+contains no local credential file or nonblank API-key assignment. No
+authenticated NARA Catalog API request or raw Catalog response was used.
+
+The Batch 117 database contains 2,020 durable research attempts, 1,491 private
+citation records, 484 affiliations, and 888 claims: 143 confirmed, 617 high,
+105 medium, 20 low, and three conflicting. The reviewed public projection
+contains 863 source records representing 737 unique documents, 480
+affiliations, and 868 claims. Coverage distinguishes 990 people with a
+non-planned research attempt, 238 people with verified affiliation evidence,
+136 people with verified employment or self-employment evidence, and 938
+people whose archival-review need has been assessed. The public downloads
+contain 23,941 people, 275 organizations, 480 affiliations, and 863 sources.
+
+A clean detached worktree of the Batch 117 release candidate reproduced the
+project from the hash-verified 522-page source PDF, all tracked page reviews
+and checkpoints, the review-decision import, and all 117 evidence bundles.
+Direct recursive
+comparisons found no byte difference in `site/public`, generated site inputs,
+or any of the 24,294 built artifacts. The replay database exactly matched the
+release database at 23,978 source rows, 23,941 person entities, 2,020 research
+attempts, 888 claims, 484 affiliations, 277 organizations, and 1,491 citation
+records. Both databases returned `ok` from SQLite `integrity_check` and zero
+foreign-key errors.
 
 ## Batch 116 local release QA
 

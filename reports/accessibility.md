@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 393 / 393 browser cases.**
+**PASS - 396 / 396 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1046,6 +1046,27 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 117 accessibility and responsive regression
+
+Batch 117 verifies James W. Aznone through Stanley L. Babberle at desktop,
+phone, and tablet sizes. The regression checks all ten direct Box 27 or 28
+routes, indexed spelling, commissioned, enlisted, and indeterminate personnel
+classifications, field-level serial masking, archival guidance, and the
+separation of occupation-only evidence from named employers and modeled
+affiliations. It keeps six identities visibly unresolved, confirms the four
+exact official AAD matches, preserves Mike Baarsvik's Company A, 99th Infantry
+context without making it immediately pre-OSS, and displays Gust J. Babalis's
+Greek Group VII identity evidence without inventing an occupation.
+
+The first focused run exposed one test-only wording mismatch: the Philip
+Azzolina profile says the 1916 birth year distinguishes him from an older
+bandmaster namesake, while the assertion expected an extra rejection phrase.
+After alignment with the visible qualified wording, the focused desktop,
+phone, and tablet run passed 3 / 3. The complete browser, responsive,
+direct-route, search, and axe matrix passed 396 / 396 with no assertion failure
+or serious/critical accessibility violation. The homepage continues to report
+136 verified-employer people separately from 238 verified-affiliation people.
 
 ## Batch 116 accessibility and responsive regression
 

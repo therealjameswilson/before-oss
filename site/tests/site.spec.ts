@@ -10955,3 +10955,73 @@ test("Batch 116 preserves Axelrod-through-Aznavourian occupations, conflicts, an
   await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("sales clerk");
 });
+
+test("Batch 117 preserves Aznone-through-Babberle occupations, unit context, and unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["9f334c9a-29ab-5663-905a-3cb6147d9342", "James W Aznone", "27", "unknown or indeterminate"],
+    ["93b02d0d-d68e-5a81-8a00-416d2b567ea7", "Matthew F Azzarone", "27", "enlisted army personnel"],
+    ["2b353d00-f2ec-57df-bcde-8d9278ceff9b", "Josephine Azzolina", "27", "commissioned army officer"],
+    ["0a0fddcf-bc32-5755-81f6-eb42f77f3ee3", "Philip Azzolina", "27", "enlisted army personnel"],
+    ["3e2607ec-b3db-51f6-9585-c2326eca351a", "Knud Baagoe", "28", "unknown or indeterminate"],
+    ["84f902a8-4e02-59f1-af9c-e48b8ad4fa6b", "Mike Baarsvik", "28", "enlisted army personnel"],
+    ["9f88e86c-8e55-5b33-ab89-af4985d8bf0a", "Thomas T Baba", "28", "enlisted army personnel"],
+    ["98b44ae8-de39-5cf7-b4b5-f7722ee9d1de", "Gust J Babalis", "28", "enlisted army personnel"],
+    ["5dace43d-c78f-556d-9b4a-3ee1f341e88f", "John E Babb", "28", "commissioned army officer"],
+    ["feaf1259-dbda-50fa-aebd-b0ce8c55ad0c", "Stanley L Babberle", "28", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, box, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  for (const personId of [
+    "9f334c9a-29ab-5663-905a-3cb6147d9342",
+    "2b353d00-f2ec-57df-bcde-8d9278ceff9b",
+    "3e2607ec-b3db-51f6-9585-c2326eca351a",
+    "9f88e86c-8e55-5b33-ab89-af4985d8bf0a",
+    "5dace43d-c78f-556d-9b4a-3ee1f341e88f",
+    "feaf1259-dbda-50fa-aebd-b0ce8c55ad0c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/93b02d0d-d68e-5a81-8a00-416d2b567ea7/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("semiskilled machine-shop occupation");
+
+  await page.goto("./people/0a0fddcf-bc32-5755-81f6-eb42f77f3ee3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("metal-products fabrication occupation");
+  await expect(page.locator("main")).toContainText("1890-born Meriden bandmaster namesake");
+
+  await page.goto("./people/84f902a8-4e02-59f1-af9c-e48b8ad4fa6b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("fireman other than process fireman");
+  await expect(page.locator("main")).toContainText("Company A, 99th Infantry");
+  await expect(
+    page.getByRole("link", { name: "10th Mountain Division Name Index", exact: true }).first(),
+  ).toHaveAttribute("href", /denverlibrary\.org/);
+
+  await page.goto("./people/98b44ae8-de39-5cf7-b4b5-f7722ee9d1de/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("OSS Greek Group VII");
+  await expect(page.locator("main")).toContainText("occupation code is undefined");
+});

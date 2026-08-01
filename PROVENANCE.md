@@ -2170,6 +2170,52 @@ retained. No authenticated NARA Catalog API request was made, no API key was
 accessed, and no raw response page or full service identifier was stored in the
 repository or public projection.
 
+## Page-seventeen Aznone-through-Babberle pathways, Batch 117
+
+`research/evidence-page-seventeen-aznone-through-babberle-pathways_batch-117_2026-08-01.json`
+records ten visually checked, contiguous rows from James W. Aznone through
+Stanley L. Babberle on PDF page seventeen. Raw spellings, initials, ranks,
+service-number presence or absence, Boxes 27 and 28, blank fields, and archival
+location were checked against a 200-dpi page render. The bundle contains ten
+person updates, eighteen sources, seven claims, ten durable research attempts,
+and seventeen claim-source links. It creates no organization or affiliation
+because none of the reviewed evidence names an employer or establishes an
+immediate pre-OSS institution.
+
+Exact name and private-identifier agreement in NARA's public Access to
+Archival Databases Army table confirms Matthew F. Azzarone, Philip Azzolina,
+Mike Baarsvik, and Gust J. Babalis. The table records occupation categories at
+Army entry for Azzarone, Azzolina, and Baarsvik but names no employer; all three
+are therefore published as occupation-only results and remain excluded from
+employer and affiliation analytics. Babalis's occupation code is undefined and
+is not expanded. Full identifiers are withheld from the evidence bundle,
+public data, and site.
+
+Denver Public Library's 10th Mountain Division index independently matches
+Mike Baarsvik's name and private identifier and records Company A, 99th
+Infantry. That unit is used as identity and wartime-context evidence only:
+the reviewed sources do not establish whether it immediately preceded his OSS
+service. A specialist OSS Operational Groups roster independently places T/5
+Gust J. Babalis in Greek Group VII; it likewise supports identity and OSS
+context rather than a pre-OSS employer claim.
+
+James W. Aznone, Thomas T. Baba, and Stanley L. Babberle did not return a
+matching identifier in either applicable AAD table. This absence is not
+treated as a contradiction because NARA documents coverage and transcription
+limits. Josephine Azzolina and John E. Babb carry officer identifiers outside
+the enlisted AAD tables. Vassar and Tennessee exact-name candidates for
+Josephine Azzolina and Knud Baagoe lack direct OSS, officer, Box, or identifier
+linkage and remain rejected leads. Six identities remain unresolved and route
+to Box 27 or 28; Babalis also retains Box 28 review for his unknown occupation
+and predecessor chronology.
+
+The public AAD and institutional pages were inspected transiently. The Denver
+PDF was downloaded only to a temporary directory, its title and relevant entry
+were inspected, and the temporary file was excluded from the repository. No
+authenticated NARA Catalog API request was made, no API key was accessed, and
+no raw Catalog response, full service identifier, or copyrighted source copy
+was stored in the repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

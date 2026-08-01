@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 275 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,646 unique external URLs for separate live
+The checker inventoried 48,647 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -80,7 +80,7 @@ verification; external responses do not affect the internal-route pass.
 | NARA JFK record 104-10104-10339, Marshall Wilson Houts | HTTP 200; all three pages rendered and visually inspected |
 | USC Shoah Foundation, “Women at Nuremberg: Jane Lester” | Reviewed through the research browser |
 | Wittman and Kinney, *The Devil's Diary* ebook preview | Reviewed through the research browser; short supporting excerpt only |
-| Denver Public Library, *10th Mountain Division Name Index* | HTTP 200; Aanonsen entry visually inspected on rendered PDF page 2 |
+| Denver Public Library, *10th Mountain Division Name Index* | HTTP 200; Aanonsen and Baarsvik entries visually inspected on PDF pages 2 and 32 |
 | Casemate Publishers, *Among the Firsts* | HTTP 200; publisher landing page for the cited scholarly history |
 | Moses Abramovitz, *Days Gone By* | Archived first-person memoir PDF opened successfully; cited pages rendered and visually checked |
 | Bowdoin College, Albert Abrahamson honorary-degree citation | Institutional PDF opened successfully and was rendered and visually checked |
@@ -1123,6 +1123,28 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 117 local release check
+
+The rebuilt site contains direct, internally resolved routes for James W.
+Aznone, Matthew F. Azzarone, Josephine Azzolina, Philip Azzolina, Knud Baagoe,
+Mike Baarsvik, Thomas T. Baba, Gust J. Babalis, John E. Babb, and Stanley L.
+Babberle. Their profiles preserve Boxes 27 and 28, indexed ranks, blank or
+masked private identifiers, six unresolved identities, four confirmed
+identities, and three occupation-only findings without converting occupations
+or wartime unit context into employers.
+
+The complete local link checker passed all 24,224 HTML files and inventoried
+48,647 unique external URLs. The public downloads contain 23,941 person rows,
+275 organization rows, 480 affiliation rows, and 863 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site. The manifest forbidden-field check
+passed, and its SHA-256 is
+`7fbb243c9aaffa676e7c916da7bae79c0ff45218fac2c1e7608f01ee69b3ca4f`.
+The field-aware scan of 12,919 nontrivial normalized identifiers and 121
+formatted raw variants found zero unexpected full private-identifier matches
+across 24,370 production artifacts, including compressed mirrors. Four copies
+of one numeric match occur only in manifest `size_bytes` metadata.
 
 ## Batch 116 local release check
 

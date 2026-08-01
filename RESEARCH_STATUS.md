@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 980 people with a non-planned attempt | 23,941 person entities | 4.0934% |
+| Research-attempt coverage | 990 people with a non-planned attempt | 23,941 person entities | 4.1352% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 928 people with an individual file-access/priority assessment | 23,941 person entities | 3.8762% |
+| Archival-review coverage | 938 people with an individual file-access/priority assessment | 23,941 person entities | 3.9180% |
 
 ## Extraction and identity
 
@@ -21,17 +21,17 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 54
+- Identity status `confirmed`: 58
 - Identity status `high_confidence`: 291
 - Identity status `probable`: 33
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 4
-- Identity status `unresolved`: 23,534
+- Identity status `unresolved`: 23,530
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,551
-- Enlisted Army personnel: 3,478
+- Unknown or indeterminate: 16,550
+- Enlisted Army personnel: 3,479
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -42,17 +42,17 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Commissioned naval officers: 74
 - Warrant officers: 4
 
-Commissioned classification: 2,158 yes; 5,001 no; 16,782 indeterminate.
+Commissioned classification: 2,158 yes; 5,002 no; 16,781 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,961
+- `not_started`: 22,951
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 30
-- `occupation_only_found`: 42
-- `requires_archival_review`: 649
+- `occupation_only_found`: 45
+- `requires_archival_review`: 656
 - `completed`: 54
 - `conflicting_sources`: 3
 - `verified_employer_found`: 138
@@ -69,17 +69,17 @@ Commissioned classification: 2,158 yes; 5,001 no; 16,782 indeterminate.
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
-- Reviewed-official-AAD-institutional-and-web attempts recorded: 10
+- Reviewed-official-AAD-institutional-and-web attempts recorded: 20
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 369 across 350 people; 27 additional
+- Saved `source_reviewed` outcomes: 373 across 354 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,010
+- Total recorded attempts/plans: 2,020
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 356; 339 have at least one public-eligible
+- People with saved reviewed claims: 360; 343 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1031,10 +1031,24 @@ Commissioned classification: 2,158 yes; 5,001 no; 16,782 indeterminate.
   remain explicit conflicts without exposing the identifiers or unrelated
   names. R. A. Axlund, Frank W. Ayers, Barbara F. Aylesworth, John M.
   Ayshford, and Margaret Aznavourian remain unresolved and route to Box 27.
+- Batch 117 continues page seventeen from James W. Aznone through Stanley L.
+  Babberle. Exact name and private-identifier matches in NARA's public AAD Army
+  table confirm Matthew F. Azzarone, Philip Azzolina, Mike Baarsvik, and Gust
+  J. Babalis. Azzarone's semiskilled machine-shop category, Azzolina's
+  semiskilled metal-products fabrication category, and Baarsvik's historical
+  fireman category are published as occupations only; no employing
+  organization is named. Denver Public Library independently confirms
+  Baarsvik's Company A, 99th Infantry context, but the assignment is not
+  labeled immediately pre-OSS because sequence is unproven. A specialist OSS
+  roster independently places Babalis in Greek Group VII; his official
+  occupation code remains undefined. James W. Aznone, Josephine Azzolina, Knud
+  Baagoe, Thomas T. Baba, John E. Babb, and Stanley L. Babberle remain
+  unresolved and route to Box 27 or 28. No named employer or modeled
+  affiliation is added.
 - Published affiliations: 480
-- Database claims: 881; public-eligible claims: 861 (136 confirmed, 617 high,
+- Database claims: 888; public-eligible claims: 868 (143 confirmed, 617 high,
   105 medium, 3 conflicting); 20 low-confidence claims are withheld
-- Citation records: 1,473; public source export: 854; unique source documents: 733
+- Citation records: 1,491; public source export: 863; unique source documents: 737
 - Canonical organizations: 277 private and 275 public
 - Conflicts: 4
 - NARA pull-list rows: 23,840
@@ -1200,6 +1214,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-ault-through-austreng-pathways_batch-114_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-autotte-through-axelrad-pathways_batch-115_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-seventeen-axelrod-through-aznavourian-pathways_batch-116_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-aznone-through-babberle-pathways_batch-117_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
