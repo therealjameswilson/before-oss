@@ -1065,6 +1065,11 @@ tablet run passed 3 / 3. The complete desktop, phone, tablet, responsive,
 direct-route, search, and axe matrix passed 372 / 372 with no assertion failure
 or serious/critical accessibility violation.
 
+GitHub test workflow
+[30676250095](https://github.com/therealjameswilson/before-oss/actions/runs/30676250095)
+repeated the complete research and site matrix for release `9ed29e1` and
+completed successfully.
+
 ## Batch 108 accessibility and responsive regression
 
 The Batch 108 regression checks the ten contiguous page-fifteen profiles from

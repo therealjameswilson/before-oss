@@ -1155,6 +1155,35 @@ claim retains only the shared year and exposes the date conflict in its note.
 Neither source establishes an immediate pre-OSS affiliation or last civilian
 employer.
 
+## Batch 109 production deployment
+
+GitHub Actions test workflow
+[30676250095](https://github.com/therealjameswilson/before-oss/actions/runs/30676250095)
+and GitHub Pages deployment
+[30676250107](https://github.com/therealjameswilson/before-oss/actions/runs/30676250107)
+for release `9ed29e1` completed successfully.
+
+Live checks returned HTTP 200 for all 17 tested publication routes: seven core
+publication URLs and all ten Batch 109 person profiles. After substituting the
+production host for the local placeholder in plain and URL-encoded canonical
+URLs, every route matched the audited local HTML bytes.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 910
+people with non-planned research attempts, 228 verified-affiliation people,
+130 verified-employer people, 858 archival-review assessments, 817 published
+claims, and 792 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 267, 464, and 792 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte for byte. The deployed and
+local manifest SHA-256 is
+`60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`.
+The deployed manifest's forbidden-field check passed. Because all 65 assets
+were byte-identical and all 17 HTML routes differed only by the canonical host,
+the local boundary-aware zero-match result also holds across the 83 deployed
+HTML, data, compressed-mirror, manifest, and download artifacts.
+
 ## Batch 108 local release check
 
 The rebuilt site contains direct, internally resolved routes for Stanley C.

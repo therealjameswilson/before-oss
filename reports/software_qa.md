@@ -11,9 +11,9 @@ Run: 2026-07-31 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
   (`0777ab720dd135e2e997e6cceb720c5108ca002ce4c4ecdc7e0730d3c228ee37`)
-- Latest clean-checkout replay (Batch 108): **byte-for-byte identical** public
+- Latest clean-checkout replay (Batch 109): **byte-for-byte identical** public
   and generated site data after rebuilding the source PDF, page reviews,
-  checkpoints, review decisions, and all 108 evidence batches: **78 / 84
+  checkpoints, review decisions, and all 109 evidence batches: **78 / 84
   tracked files matched**; the other six report files differed only in their
   expected generation timestamps.
 - Public redaction build: **passed**
@@ -39,19 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30674337522](https://github.com/therealjameswilson/before-oss/actions/runs/30674337522)
-  for Batch 108 release `51f40a0`: **passed**
+  [30676250095](https://github.com/therealjameswilson/before-oss/actions/runs/30676250095)
+  for Batch 109 release `9ed29e1`: **passed**
 - GitHub Pages deployment workflow
-  [30674337503](https://github.com/therealjameswilson/before-oss/actions/runs/30674337503)
-  for Batch 108 release `51f40a0`: **passed after one retry following a
-  transient GitHub Pages service error**
+  [30676250107](https://github.com/therealjameswilson/before-oss/actions/runs/30676250107)
+  for Batch 109 release `9ed29e1`: **passed**
 - Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
 - Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `c037db2ff7d8d9e116000560f00f86f7cd144f96d9ad285f88093e356e011f1c`
+  `60b249fba8d581d8112267473da26a4154977f6fcca75a21f3d3f97abf5a70b3`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1564,6 +1563,26 @@ claims. Coverage distinguishes 910 people with a non-planned research attempt,
 228 people with verified affiliation evidence, 130 people with verified
 employment or self-employment evidence, and 858 people whose archival-review
 need has been assessed.
+
+A fresh checkout replay rebuilt the frozen PDF, all page reviews, adapter
+checkpoints, review decisions, and 109 evidence batches. Seventy-eight of 84
+tracked provenance, generated/public, and QA artifacts matched the release
+commit byte for byte; the other six differed only in their expected
+report-generation timestamps. The rebuilt SQLite database passed `quick_check`
+and the foreign-key check, and its public and generated data directories and
+24,216-page static site matched the release byte for byte.
+
+The Batch 109 production audit followed successful GitHub test workflow
+[30676250095](https://github.com/therealjameswilson/before-oss/actions/runs/30676250095)
+and GitHub Pages workflow
+[30676250107](https://github.com/therealjameswilson/before-oss/actions/runs/30676250107)
+for release `9ed29e1`. All 17 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The local boundary-aware zero-match redaction result
+therefore carries through the 83 byte-identical or canonical-host-normalized
+live artifacts.
 
 ## Batch 108 local release QA
 
