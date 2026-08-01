@@ -4,15 +4,15 @@ Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,229 HTML files. Every relative
+**PASS.** The production build contains 24,234 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 280 organization profiles, and the
+The build includes 23,941 person profiles, 285 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,690 unique external URLs for separate live
+The checker inventoried 48,704 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1169,6 +1169,27 @@ uncompressed counterparts. A boundary-aware scan of 12,919 normalized private
 identifiers and 121 formatted raw variants across 24,313 plaintext
 production artifacts found zero full matches; all 66 compressed mirrors were
 verified byte-for-byte against those scanned plaintext files.
+
+## Batch 131 production deployment
+
+GitHub Actions test workflow
+[30721124243](https://github.com/therealjameswilson/before-oss/actions/runs/30721124243)
+and Pages workflow
+[30721124260](https://github.com/therealjameswilson/before-oss/actions/runs/30721124260)
+completed successfully for release `720ffc7`.
+
+All 22 production routes returned HTTP 200 and matched the audited local HTML
+after canonical-host normalization: seven core publication routes, all ten
+Batch 131 profiles, and five linked organization routes. The deployed manifest
+matched the local release byte-for-byte. All 65 manifest assets matched their
+recorded and local sizes, SHA-256 values, and bytes; its SHA-256 is
+`3f15332c63df8b44b3b92eeb356155fb4e1ba39dfc1049d1e850b5ea8543a32f`.
+
+The five downloads contain 23,941 personnel CSV rows, 23,941 personnel JSONL
+rows, 285 organizations, 497 affiliations, and 986 sources. A boundary-aware
+privacy scan of all 22 audited live routes found zero private-identifier
+matches; all 65 deployed assets inherit the exhaustive local zero-match result
+because every file matched the audited local bytes.
 
 ## Batch 130 local release check
 

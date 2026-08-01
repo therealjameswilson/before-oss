@@ -36,8 +36,8 @@ Run: 2026-08-01 UTC
 - Verified-employer metric: **140** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 131 local release checks: **passed**; Batch 130 production workflow and
-  deployment checks remain passed for release `6882fe1`
+- Batch 131 production workflow and deployment checks: **passed** for release
+  `720ffc7`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3377,6 +3377,29 @@ non-planned research attempt, 245 with verified-affiliation evidence, 140
 with verified employment or self-employment evidence, and 1,079 whose
 archival-review need has been assessed. Public downloads contain 23,941
 people, 285 organizations, 497 affiliations, and 986 sources.
+
+## Batch 131 production deployment
+
+GitHub Actions test workflow
+[30721124243](https://github.com/therealjameswilson/before-oss/actions/runs/30721124243)
+and GitHub Pages deployment workflow
+[30721124260](https://github.com/therealjameswilson/before-oss/actions/runs/30721124260)
+completed successfully for release `720ffc7`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, and the complete
+438-case browser, responsive, direct-route, search, and axe matrix.
+
+All 22 audited production routes returned HTTP 200 and matched the local HTML
+after canonical-host normalization. The set comprised seven core routes, all
+ten Batch 131 person profiles, and five linked organization profiles. The five
+public downloads reproduced 23,941 personnel CSV rows, 23,941 personnel JSONL
+rows, 285 organizations, 497 affiliations, and 986 sources.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed and local manifest SHA-256 is
+`3f15332c63df8b44b3b92eeb356155fb4e1ba39dfc1049d1e850b5ea8543a32f`.
+A boundary-aware live privacy scan compared all private identifier patterns
+against the 22 audited HTML routes and found zero full matches; the 65
+byte-matched deployed assets inherit the exhaustive local zero-match result.
 
 ## Batch 130 local release QA
 

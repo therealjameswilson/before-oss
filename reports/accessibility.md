@@ -1034,6 +1034,15 @@ the final static build, for 438 / 438 release cases in total. All 27 dedicated
 axe cases passed, and no assertion, navigation, responsive-layout, or
 serious/critical accessibility failure occurred.
 
+GitHub test workflow
+[30721124243](https://github.com/therealjameswilson/before-oss/actions/runs/30721124243)
+repeated the complete 438 / 438 suite on a clean Ubuntu runner for release
+`720ffc7` and passed. GitHub Pages workflow
+[30721124260](https://github.com/therealjameswilson/before-oss/actions/runs/30721124260)
+also completed successfully. All ten deployed Batch 131 profiles, five linked
+organization profiles, and seven core routes returned HTTP 200 and matched
+their audited local accessible HTML after canonical-host normalization.
+
 ## Batch 130 accessibility and responsive regression
 
 Batch 130 verifies the ten contiguous Bakewell-through-Baldanza index rows and
