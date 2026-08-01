@@ -1146,6 +1146,25 @@ formatted raw variants found zero unexpected full private-identifier matches
 across 24,370 production artifacts, including compressed mirrors. Four copies
 of one numeric match occur only in manifest `size_bytes` metadata.
 
+## Batch 117 production deployment
+
+GitHub Actions test workflow
+[30690512400](https://github.com/therealjameswilson/before-oss/actions/runs/30690512400)
+and GitHub Pages deployment workflow
+[30690512416](https://github.com/therealjameswilson/before-oss/actions/runs/30690512416)
+completed successfully for release `b082b54`.
+
+All 17 tested publication routes returned HTTP 200 and matched the audited
+local HTML after canonical-host normalization: seven core routes and all ten
+Batch 117 person profiles. Live statistics and all five public-download row
+counts reproduced the release. All 65 deployed manifest assets matched their
+recorded hashes and local bytes; the deployed and local manifest SHA-256 is
+`7fbb243c9aaffa676e7c916da7bae79c0ff45218fac2c1e7608f01ee69b3ca4f`.
+The field-aware scan, including decompressed gzip mirrors, found zero
+unexpected full private-identifier matches across 83 live artifacts. One
+numeric overlap in a manifest `size_bytes` field is file metadata rather than
+an identifier.
+
 ## Batch 116 local release check
 
 The rebuilt site contains direct, internally resolved routes for Kermit

@@ -1068,6 +1068,13 @@ direct-route, search, and axe matrix passed 396 / 396 with no assertion failure
 or serious/critical accessibility violation. The homepage continues to report
 136 verified-employer people separately from 238 verified-affiliation people.
 
+GitHub test workflow
+[30690512400](https://github.com/therealjameswilson/before-oss/actions/runs/30690512400)
+repeated the complete 396-case matrix for release `b082b54` and completed
+successfully. All ten deployed Batch 117 profiles returned HTTP 200 and
+matched their audited local accessible HTML after canonical-host
+normalization.
+
 ## Batch 116 accessibility and responsive regression
 
 Batch 116 verifies Kermit Axelrod through Margaret Aznavourian at desktop,
