@@ -7,18 +7,18 @@ Run: 2026-08-01 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,226 pages**
 - Internal link check: **24,226 HTML files passed**
-- Browser and accessibility suite: **408 / 408 local full-matrix cases**, plus
-  **3 / 3** final Batch 122 targeted cases; **411 / 411** passed in CI
+- Browser and accessibility suite: **414 / 414 local full-matrix cases**, plus
+  **3 / 3** focused Batch 123 cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`6b280bc5c69af558cdcd98525ed01cf86875441aa59a772222734c5299673c21`)
-- Latest deterministic build (Batch 122): **byte-for-byte identical** public
+  (`62585f44c584d609b8992d638f7a570998a55513b17a302a7b4c715b4ad9a5ac`)
+- Latest deterministic build (Batch 123): **byte-for-byte identical** public
   and generated site data across two consecutive builds and all **24,296**
   static-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `81ff198b7d5cc3d2b00644471a41b3ff365cec60625a8e7a1f8f1ad69f3a7d13`
+  `516b47c7ebc38a495d764efb4c0bbf611f08d0982d923caa92bfeb74a510e48b`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -26,29 +26,17 @@ Run: 2026-08-01 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,372** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **925** public records representing **772** unique documents
-- Private citation records: **1,592**
+- Reviewed public sources: **930** public records representing **776** unique documents
+- Private citation records: **1,610**
 - Published, qualified affiliations: **483**
-- Published claims: **902**
+- Published or conflict-visible claims: **906**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
 - Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- GitHub Actions test workflow
-  [30700215026](https://github.com/therealjameswilson/before-oss/actions/runs/30700215026)
-  for Batch 122 release `8e9968d`: **passed**
-- GitHub Pages deployment workflow
-  [30700215012](https://github.com/therealjameswilson/before-oss/actions/runs/30700215012)
-  for Batch 122 release `8e9968d`: **passed**
-- Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
-  audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 83 live
-  HTML, data, compressed-mirror, and download artifacts**
-- Production manifest audit: **65 / 65 deployed assets matched their recorded
-  and local SHA-256 values**; the live and local manifest SHA-256 is
-  `81ff198b7d5cc3d2b00644471a41b3ff365cec60625a8e7a1f8f1ad69f3a7d13`
+- Batch 123 production workflow and deployment checks: **pending this release**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3326,6 +3314,52 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 123 local release QA
+
+Batch 123 adds the ten visually checked page-eighteen rows from Bodizar
+Bahoric through Jay E. Bailey. The reviewed bundle imports ten durable
+research attempts, eighteen sources, four claims, and nine claim-source links.
+It adds no organization or affiliation. Official AAD evidence confirms Guy B.
+Bailey and Harry F. Bailey without exposing their private identifiers. Both
+remain occupation-only findings: Guy's 1945 dairy-farm category has unresolved
+OSS chronology, while Harry's 1940 driver category predates OSS but names no
+employer. Eight identities remain unresolved and route to Box 29. The similar
+Bozidar Bahoric form and a Robert J. Bahr troop-carrier record remain rejected
+identity candidates rather than published facts.
+
+The evidence importer passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The Python suite passed 54 / 54. The focused Batch 123 regression
+passed 3 / 3 across desktop, phone, and tablet. The complete browser,
+responsive, direct-route, search, and axe matrix passed 414 / 414. The
+internal-link checker passed all 24,226 HTML pages and inventoried 48,676
+unique external URLs. The dependency audit found zero vulnerabilities, and
+the deterministic 200-profile stratified audit passed every invariant.
+
+Two consecutive final builds produced the identical
+`62585f44c584d609b8992d638f7a570998a55513b17a302a7b4c715b4ad9a5ac`
+directory-prefixed content-tree hash across 24,296 built artifacts, including
+24,226 HTML pages. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in the public source tree and built site. The manifest
+forbidden-field check passed, and the manifest SHA-256 is
+`516b47c7ebc38a495d764efb4c0bbf611f08d0982d923caa92bfeb74a510e48b`.
+A field-aware boundary scan assessed 12,919 nontrivial normalized private
+identifiers plus 121 formatted raw variants across 24,372 production artifacts
+and found zero full matches. No local `.env` file, nonblank tracked API-key
+assignment, authenticated Catalog API request, or raw Catalog response was
+present.
+
+The Batch 123 database contains 2,080 durable research attempts, 1,610 private
+citation records, 487 affiliations, 279 organizations, and 927 claims: 166
+confirmed, 623 high, 113 medium, 21 low, and four conflicting. The reviewed
+public projection contains 930 source records representing 776 unique
+documents, 483 affiliations, and 906 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,050 people with a non-planned research
+attempt, 238 with verified-affiliation evidence, 136 with verified employment
+or self-employment evidence, and 998 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 277 organizations, 483
+affiliations, and 930 sources.
 
 ## Batch 122 local release QA
 

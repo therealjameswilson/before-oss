@@ -2388,6 +2388,52 @@ Catalog API request was made, no API key was accessed, and no raw response,
 full private identifier, copyrighted page, home address, or people-finder data
 was stored in the repository or public projection.
 
+## Page-eighteen Bahoric-through-Bailey pathways, Batch 123
+
+`research/evidence-page-eighteen-bahoric-through-bailey-pathways_batch-123_2026-08-01.json`
+records ten visually checked, contiguous rows from Bodizar Bahoric through Jay
+E. Bailey on PDF page eighteen. Raw names, initials, ranks and civilian grades,
+identifier presence or absence, the printed `aka Boz` note, Box 29, and archive
+location were checked against a 200-dpi render at original detail. The
+validated bundle contains ten person updates, eighteen sources, four claims,
+nine claim-source links, and ten durable research attempts. It creates no
+organization or affiliation.
+
+NARA's public AAD Army enlistment table supplies exact private-identifier
+matches for Guy B. Bailey and Harry F. Bailey. Compatible initials and the
+Sergeant grade confirm Guy; exact name and identifier agreement confirm Harry,
+whose 1940 Private grade is compatible with the later indexed Corporal grade.
+Guy's record carries a dairy farm-hand occupation category at a November 1945
+Army entry or recall. Because that date's relationship to his OSS service is
+unknown, the project does not call the occupation pre-OSS. Harry's October
+1940 record carries a semiskilled bus, taxi, truck, or tractor driver category.
+Neither result names an employer, so both are occupation-only findings and are
+excluded from employer and affiliation analytics.
+
+The applicable AAD main and Reserve Corps tables returned no matching private
+identifier for Robert J. Bahr, Irving S. Bailey, Jason S. Bailey, or Jay E.
+Bailey. NARA's documented coverage and transcription limits mean that these
+non-results are recorded as searches, not as contradictions. A secondary
+troop-carrier record for a Robert J. Bahr lacks the indexed identifier and
+remains an unlinked candidate. Official NSA material contains the similar
+form Bozidar Bahoric but supplies no OSS, Box 29, employment, chronology, or
+direct identity link; it remains a rejected search candidate, not a corrected
+name or published biographical fact.
+
+The current Library of Congress collection API, CIA Reading Room OSS
+collection, NARA/Catalog context, exact-name OSS variants, employment and
+occupation searches, newspapers, obituaries, directories, and institutional
+or archival sources were reviewed under the staged minimum protocol. Bodizar
+Bahoric, Robert J. Bahr, E. J. Bailey, Fay I. Bailey, Georgia M. Bailey, Irving
+S. Bailey, Jason S. Bailey, and Jay E. Bailey remain unresolved and route to
+Box 29 for the missing identity, chronology, and employment evidence.
+
+The AAD interface and Library of Congress API were used transiently and
+read-only. No authenticated NARA Catalog API request was made, no API key was
+accessed, and no raw API response, full private identifier, copyrighted page,
+home address, people-finder data, or rejected candidate biography was stored in
+the public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

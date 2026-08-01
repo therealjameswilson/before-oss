@@ -11440,3 +11440,81 @@ test("Batch 122 preserves occupation-only evidence, a spelling variant, film-pro
     page.getByRole("link", { name: "Seeking OSS Asset File on Zygfryd Baginski", exact: true }).first(),
   ).toHaveAttribute("href", /openhistoryhub\.com/);
 });
+
+test("Batch 123 publishes two bounded occupation findings and preserves eight Box 29 review paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["559309fa-88a8-550b-8c95-c085e8b83037", "Bodizar Bahoric", "unknown or indeterminate"],
+    ["fa91697c-5bb9-570b-a94d-3c547c19a12d", "Robert J Bahr", "unknown or indeterminate"],
+    ["1978b14a-7988-5fc3-9bf0-84da6ecd7900", "E J Bailey", "civilian professional or administrative grade"],
+    ["40d5ef96-f9ca-53d6-b900-0a46cdde5577", "Fay I Bailey", "civilian professional or administrative grade"],
+    ["282d962b-81b5-5f7d-a342-92f03e4e1605", "Georgia M Bailey", "civilian professional or administrative grade"],
+    ["29732da1-3828-50ab-8939-6b5694205d20", "Guy B Bailey", "enlisted army personnel"],
+    ["0ca2a771-004b-587e-b948-36940731973b", "Harry F Bailey", "enlisted army personnel"],
+    ["b8152325-2736-5d8b-be59-beabbab1de84", "Irving S Bailey", "commissioned army officer"],
+    ["a26b5aa7-2648-51fe-95e4-e0d141c6ef93", "Jason S Bailey", "commissioned army officer"],
+    ["a423f081-063b-5b30-86f8-2e1a86fee602", "Jay E Bailey", "enlisted army personnel"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("29", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  for (const personId of [
+    "559309fa-88a8-550b-8c95-c085e8b83037",
+    "fa91697c-5bb9-570b-a94d-3c547c19a12d",
+    "1978b14a-7988-5fc3-9bf0-84da6ecd7900",
+    "40d5ef96-f9ca-53d6-b900-0a46cdde5577",
+    "282d962b-81b5-5f7d-a342-92f03e4e1605",
+    "b8152325-2736-5d8b-be59-beabbab1de84",
+    "a26b5aa7-2648-51fe-95e4-e0d141c6ef93",
+    "a423f081-063b-5b30-86f8-2e1a86fee602",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/559309fa-88a8-550b-8c95-c085e8b83037/");
+  await expect(page.locator("main")).toContainText("aka Boz");
+  await expect(page.locator("main")).toContainText("Bozidar Bahoric remains a search candidate only");
+
+  await page.goto("./people/29732da1-3828-50ab-8939-6b5694205d20/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("dairy farm-hand occupation category");
+  await expect(page.locator("main")).toContainText("November 1945 Army entry or recall");
+  await expect(page.locator("main")).toContainText("but names no farm or employer");
+
+  await page.goto("./people/0ca2a771-004b-587e-b948-36940731973b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("bus, taxi, truck, or tractor driver occupation category");
+  await expect(page.locator("main")).toContainText("but no employer");
+
+  for (const personId of [
+    "29732da1-3828-50ab-8939-6b5694205d20",
+    "0ca2a771-004b-587e-b948-36940731973b",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+});

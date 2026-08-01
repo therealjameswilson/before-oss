@@ -1134,6 +1134,37 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 123 local release check
+
+The rebuilt site contains direct, internally resolved routes for Bodizar
+Bahoric, Robert J. Bahr, E. J. Bailey, Fay I. Bailey, Georgia M. Bailey, Guy
+B. Bailey, Harry F. Bailey, Irving S. Bailey, Jason S. Bailey, and Jay E.
+Bailey. Every route preserves page-eighteen and Box 29 provenance, a masked or
+explicitly unprinted private identifier, personnel classification, and an
+evidence-limited immediate-affiliation field. Guy and Harry expose the two
+supported occupation-only claims and their official NARA citations without
+creating an employer route. The other eight display explicit unresolved and
+archival-review outcomes.
+
+The complete local link checker passed all 24,226 HTML files and inventoried
+48,676 unique external URLs. The reviewed external targets for this batch
+include the official NARA AAD Army record series and its limitation guidance,
+the CIA Reading Room OSS collection, the current Library of Congress
+Chronicling America collection/API surface, official NSA declassification
+material used only to reject a spelling candidate, and a secondary troop-
+carrier record retained only as an unlinked candidate. Access failures and
+non-results were not converted into historical negative evidence.
+
+The public downloads contain 23,941 person rows, 277 organization rows, 483
+affiliation rows, and 930 source rows. All 65 manifest-listed assets matched
+their recorded sizes and SHA-256 values in both the public source tree and
+built site; the manifest forbidden-field check passed. The local manifest
+SHA-256 is
+`516b47c7ebc38a495d764efb4c0bbf611f08d0982d923caa92bfeb74a510e48b`.
+A boundary-aware comparison of 12,919 normalized private identifiers and 121
+formatted variants across 24,372 production artifacts found zero full
+matches.
+
 ## Batch 122 local release check
 
 The rebuilt site contains direct, internally resolved routes for Philip H.

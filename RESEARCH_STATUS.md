@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,040 people with a non-planned attempt | 23,941 person entities | 4.3440% |
+| Research-attempt coverage | 1,050 people with a non-planned attempt | 23,941 person entities | 4.3858% |
 | Verified-affiliation coverage | 238 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9941% |
 | Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 988 people with an individual file-access/priority assessment | 23,941 person entities | 4.1268% |
+| Archival-review coverage | 998 people with an individual file-access/priority assessment | 23,941 person entities | 4.1686% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Possible duplicate groups: 211
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 69
+- Identity status `confirmed`: 71
 - Identity status `high_confidence`: 297
 - Identity status `probable`: 36
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,508
+- Identity status `unresolved`: 23,506
 
 ## Personnel categories
 
@@ -46,13 +46,13 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,901
+- `not_started`: 22,891
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 54
-- `requires_archival_review`: 694
+- `occupation_only_found`: 56
+- `requires_archival_review`: 702
 - `completed`: 54
 - `conflicting_sources`: 4
 - `verified_employer_found`: 138
@@ -64,7 +64,7 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 471
+- Reviewed-web terminal-protocol attempts recorded: 481
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -79,12 +79,12 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 400 across 381 people; 27 additional
+- Saved `source_reviewed` outcomes: 402 across 383 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,070
+- Total recorded attempts/plans: 2,080
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 383; 365 have at least one public-eligible
+- People with saved reviewed claims: 385; 367 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1146,10 +1146,24 @@ Commissioned classification: 2,159 yes; 5,006 no; 16,776 indeterminate.
   30700215012. The production audit matched all 17 tested routes and all 65
   manifest assets to the audited local build and found zero full private-
   identifier matches across 83 live artifacts.
+- Batch 123 continues page eighteen from Bodizar Bahoric through Jay E.
+  Bailey. Exact private-identifier comparisons in NARA's public AAD Army
+  tables confirm Sergeant Guy B. Bailey and Corporal Harry F. Bailey. Guy's
+  November 1945 record carries a dairy farm-hand occupation category, but its
+  relationship to OSS chronology is unresolved; Harry's October 1940 record
+  carries a bus, taxi, truck, or tractor driver category. Neither record names
+  an employer, so both remain occupation-only findings excluded from employer
+  and affiliation analytics. The similar Bozidar Bahoric form in official NSA
+  material remains a rejected identity candidate rather than a spelling
+  correction or biographical claim. Robert J. Bahr, E. J. Bailey, Fay I.
+  Bailey, Georgia M. Bailey, First Lieutenant Irving S. Bailey, Captain Jason
+  S. Bailey, and Corporal Jay E. Bailey remain unresolved after the minimum
+  protocol and route to Box 29. The batch adds no organization, affiliation,
+  immediate-pre-OSS claim, or civilian-employer claim.
 - Published affiliations: 483
-- Database claims: 923; public-eligible claims: 902 (162 confirmed, 623 high,
+- Database claims: 927; public-visible claims: 906 (166 confirmed, 623 high,
   113 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,592; public source export: 925; unique source documents: 772
+- Citation records: 1,610; public source export: 930; unique source documents: 776
 - Canonical organizations: 279 private and 277 public
 - Conflicts: 5
 - NARA pull-list rows: 23,840
@@ -1321,6 +1335,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-seventee
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventeen-backus-through-bader-pathways_batch-120_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-badia-through-baerwald-pathways_batch-121_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-bagby-through-bahor-pathways_batch-122_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen-bahoric-through-bailey-pathways_batch-123_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

@@ -4,7 +4,7 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 408 / 408 complete-suite browser cases, plus 3 / 3 Batch 122 targeted
+**PASS - 414 / 414 complete-suite browser cases, plus 3 / 3 focused Batch 123
 cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
@@ -1008,6 +1008,30 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 123 accessibility and responsive regression
+
+Batch 123 verifies Bodizar Bahoric through Jay E. Bailey at desktop, phone,
+and tablet sizes. It checks all ten direct profile routes, Box 29 provenance,
+personnel categories, exact indexed forms, and field-level serial masking. It
+also confirms that First Lieutenant Irving S. Bailey and Captain Jason S.
+Bailey retain the commissioned-officer classification even while their wider
+identities remain unresolved.
+
+The regression verifies visibly confirmed identity and occupation-only status
+for Guy B. Bailey and Harry F. Bailey. Guy's page describes a November 1945
+Army entry or recall and a dairy farm-hand occupation without presenting that
+record as pre-OSS or naming a farm. Harry's page presents only the documented
+1940 driver occupation and does not invent a transport employer. The other
+eight profiles visibly retain unresolved identity status, evidence-limited
+employer wording, and archival-review guidance. Bodizar's printed `aka Boz`
+note remains visible while the similar Bozidar spelling remains a search
+candidate rather than a correction. None of the ten receives an unsupported
+immediate pre-OSS affiliation.
+
+The focused desktop, phone, and tablet run passed 3 / 3. The complete browser,
+responsive, direct-route, search, and accessibility matrix passed 414 / 414
+with no assertion or serious/critical axe failure.
 
 ## Batch 122 accessibility and responsive regression
 
