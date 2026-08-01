@@ -11,11 +11,10 @@ Run: 2026-08-01 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
   (`ef81bdf3f794d52cef66dfa3fa42ca10218e7fa73666d7451774d8b7194c7c79`)
-- Latest clean-checkout replay (Batch 114): **byte-for-byte identical** public
-  and generated site data and all **24,289** static-site artifacts after
+- Latest clean-checkout replay (Batch 115): **byte-for-byte identical** public
+  and generated site data and all **24,294** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
-  all 114 evidence batches. The Batch 115 clean replay is pending the release
-  commit.
+  all 115 evidence batches.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
@@ -40,18 +39,18 @@ Run: 2026-08-01 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30684332311](https://github.com/therealjameswilson/before-oss/actions/runs/30684332311)
-  for Batch 114 release `b1d5bcc`: **passed**
+  [30686676277](https://github.com/therealjameswilson/before-oss/actions/runs/30686676277)
+  for Batch 115 release `f56d1c7`: **passed**
 - GitHub Pages deployment workflow
-  [30684332310](https://github.com/therealjameswilson/before-oss/actions/runs/30684332310)
-  for Batch 114 release `b1d5bcc`: **passed**
-- Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
+  [30686676265](https://github.com/therealjameswilson/before-oss/actions/runs/30686676265)
+  for Batch 115 release `f56d1c7`: **passed**
+- Production route smoke tests: **22 / 22 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 83 live
+- Production redaction scan: **0 full private-identifier matches across 88 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `1181457f4d0a0dd86d0570ba05f6145b4542f1d249a7b877012848c2fed53676`
+  `7bcbe6fdaa384267d745be62cbe140d8223357d1aad9a5e0a16e5cbc8493bbca`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1570,6 +1569,42 @@ non-planned research attempt, 238 people with verified affiliation evidence,
 136 people with verified employment or self-employment evidence, and 918
 people whose archival-review need has been assessed. The public downloads
 contain 23,941 people, 275 organizations, 480 affiliations, and 845 sources.
+
+A clean isolated checkout of release `f56d1c7` rebuilt the hash-verified frozen
+PDF, all 522 pages, page reviews, adapter checkpoints, review decisions, and
+all 115 evidence bundles. Its public data, generated site inputs, and all
+24,294 static-site artifacts matched the working release byte for byte. The
+replayed SQLite database passed `integrity_check` and the foreign-key check and
+reproduced 23,978 source rows, 23,941 person entities, 2,000 research attempts,
+874 claims, 484 affiliations, and 1,458 citation records.
+
+## Batch 115 production deployment
+
+GitHub Actions test workflow
+[30686676277](https://github.com/therealjameswilson/before-oss/actions/runs/30686676277)
+and GitHub Pages deployment workflow
+[30686676265](https://github.com/therealjameswilson/before-oss/actions/runs/30686676265)
+completed successfully for release `f56d1c7`. The CI job repeated the Python,
+Astro, production-build, link, browser, responsive, and accessibility checks
+and passed in 9 minutes 26 seconds. GitHub's non-blocking Node.js 20
+action-runtime annotation did not affect any project test or deployment step.
+
+All 22 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization. The set comprised
+seven core routes, ten Batch 115 person profiles, and five organization
+profiles. Live statistics reproduced 23,978 source rows, 23,941 person
+entities, 970 researched people, 238 verified-affiliation people, 136
+verified-employer people, 918 assessed archival-review needs, 854 published
+claims, and 845 public source records. The personnel CSV and JSONL each contain
+23,941 records; organization, affiliation, and source downloads contain 275,
+480, and 845 records.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed manifest SHA-256 is
+`7bcbe6fdaa384267d745be62cbe140d8223357d1aad9a5e0a16e5cbc8493bbca`.
+The boundary-aware privacy check assessed all 12,919 nontrivial normalized
+identifiers and 121 formatted raw variants across 88 live HTML, manifest,
+data, compressed-mirror, and download artifacts and found zero full matches.
 
 ## Batch 114 local release QA
 
