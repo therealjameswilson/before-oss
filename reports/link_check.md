@@ -4,15 +4,15 @@ Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,224 HTML files. Every relative
+**PASS.** The production build contains 24,226 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 275 organization profiles, and the
+The build includes 23,941 person profiles, 277 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,666 unique external URLs for separate live
+The checker inventoried 48,676 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1133,6 +1133,27 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 122 local release check
+
+The rebuilt site contains direct, internally resolved routes for Philip H.
+Bagby, Percy A. Bagge, Robert K. Baggot, Douglas W. Bagier, Helene B.
+Baginski, Irving J. Bagle, David J. Bagley, Merrill B. Bahnson, Sidney Bah-Oh,
+and Frank P. Bahor. The profiles preserve Box 29, indexed spelling and grades,
+masked or blank private identifiers, three confirmed identities, one
+high-confidence identity, and six unresolved identities. Occupation-only,
+film-profession, archival-file, identity-variant, and unresolved evidence
+remain distinct; no profile receives an unsupported employer or immediate
+affiliation.
+
+The complete local checker passed all 24,226 HTML files and inventoried 48,676
+unique external URLs. Public downloads contain 23,941 person rows, 277
+organization rows, 483 affiliation rows, and 925 source rows. All 65 manifest
+assets matched their recorded size and SHA-256 in both the public source tree
+and built site. The forbidden-field check passed, and the manifest SHA-256 is
+`81ff198b7d5cc3d2b00644471a41b3ff365cec60625a8e7a1f8f1ad69f3a7d13`.
+The field-aware scan of 12,919 normalized private identifiers and 121 formatted
+raw variants found zero full matches across 24,372 production artifacts.
 
 ## Batch 121 local release check
 

@@ -2310,6 +2310,84 @@ API key was accessed, and no raw Catalog response, full service identifier,
 home address, copyrighted source copy, or people-finder data was stored in the
 repository or public projection.
 
+## Page-seventeen Backus-through-Bader pathways, Batch 120
+
+`research/evidence-page-seventeen-backus-through-bader-pathways_batch-120_2026-08-01.json`
+records ten visually checked, contiguous rows from Samuel D. Backus through
+James W. Bader on PDF page seventeen. NARA's public AAD Army enlistment tables
+were searched through the read-only browser interface using private identifiers
+only for comparison. Exact identifier-and-name matches confirm Samuel D.
+Backus, Charles A. Bacon Jr., and Nate A. Badami; the two defined results are
+retained as occupation categories only and are not treated as employers.
+
+Direct University of Washington records, Smithsonian material, and a scholarly
+institutional study support Elizabeth Emaline Bacon's qualified, date-bounded
+university employment. A reproduced U.S. Army general order and a French
+archival compilation support Albert E. Bacquet's qualified French Army/OSS
+mission identity. Neither pathway is silently promoted to an immediate
+pre-OSS affiliation. Five other identities remain unresolved. No authenticated
+Catalog API request was made and no private identifier or raw AAD response was
+retained.
+
+## Page-eighteen Badia-through-Baerwald pathways, Batch 121
+
+`research/evidence-page-eighteen-badia-through-baerwald-pathways_batch-121_2026-08-01.json`
+records the first ten visually checked rows of PDF page eighteen. Exact
+identifier-and-name comparisons in the public AAD Army tables confirm Edwin I.
+Baer and Vivian L. Baer and publish only their occupation categories. A
+conflicting identifier result for Joseph T. Badzik is retained as a conflict;
+facts belonging to William R. Brandes are not transferred to Badzik. Ralph H.
+Baer's famous-biography candidate remains withheld pending Box 29 evidence.
+
+Berkeley archival material, contemporary chronology, a memoir, and an
+institutional memorial support Ernest D. Baerwald's qualified prewar employment
+and a separate professional affiliation. The available chronology does not
+establish either as immediately pre-OSS. The public AAD pages were inspected
+transiently, without an authenticated Catalog API call, retained raw response,
+or published private identifier.
+
+## Page-eighteen Bagby-through-Bahor pathways, Batch 122
+
+`research/evidence-page-eighteen-bagby-through-bahor-pathways_batch-122_2026-08-01.json`
+records ten visually checked, contiguous rows from Philip H. Bagby through
+Frank P. Bahor on PDF page eighteen. Raw names, initials, ranks and civilian
+grades, identifier presence or absence, Box 29, and archival location were
+checked against the rendered page. The validated bundle contains ten person
+updates, twenty sources, nine claims, twenty-one claim-source links, and ten
+durable research attempts. It creates no organization or affiliation.
+
+NARA's public AAD Army enlistment tables provide exact identifier-and-name
+matches for Philip H. Bagby and Merrill B. Bahnson. The index's Irving J.
+Bagle identifier resolves to Irving J. Eagle with the same given name and
+middle initial, preserving the one-letter surname difference as an indexed
+variant. The resulting clerk, motor-vehicle mechanic, and sailor/deckhand
+descriptions are occupation-only findings; they establish no named employer or
+vessel. No matching main- or reserve-table record was found for Robert K.
+Baggot or Frank P. Bahor, which is recorded as a failed search rather than
+negative evidence about their service.
+
+The German Filmportal and Deutsche Digitale Bibliothek identify Douglas W.
+Bagier as an alias of Wolfgang Loë-Bagier and document prewar work in film
+editing, direction, assistant direction, and screenwriting. The identity is
+high confidence, but the occupation finding remains medium confidence and
+qualified because the sources do not name a single employing organization.
+A NARA staff response in the archived History Hub confirms a matching Helene
+B. Baginski Caf-5 personnel file in Box 29 and says it is not digitized; it
+does not supply pre-OSS employment evidence.
+
+Postwar Fort Worth and Greenbelt exact-name candidates and an older Philip
+Haxall Bagby namesake were rejected because they do not establish the indexed
+identity or the required chronology. Searches of official context, CIA,
+exact-name OSS variants, employment and occupation sources, newspapers,
+obituaries, directories, and institutional/archival material left Percy A.
+Bagge, Robert K. Baggot, David J. Bagley, Sidney Bah-Oh, and Frank P. Bahor
+unresolved. All ten route to Box 29 for the missing personnel-file evidence.
+
+The AAD interface was used transiently and read-only. No authenticated NARA
+Catalog API request was made, no API key was accessed, and no raw response,
+full private identifier, copyrighted page, home address, or people-finder data
+was stored in the repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

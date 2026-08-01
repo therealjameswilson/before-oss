@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:40:06+00:00",
+  "generated_at": "2026-08-01T12:25:33+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,8 +7,8 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 1030,
-    "percent": 4.3022
+    "people_with_nonplanned_attempts": 1040,
+    "percent": 4.344
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
@@ -22,8 +22,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 978,
-    "percent": 4.085
+    "people_assessed": 988,
+    "percent": 4.1268
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -32,17 +32,17 @@
     "documented_prewar_employer_found": 32,
     "in_progress": 51,
     "needs_identity_review": 12,
-    "not_started": 22911,
-    "occupation_only_found": 50,
-    "requires_archival_review": 688,
+    "not_started": 22901,
+    "occupation_only_found": 54,
+    "requires_archival_review": 694,
     "verified_employer_found": 138
   },
   "claim_confidence_counts": {
-    "confirmed": 155,
+    "confirmed": 162,
     "conflicting": 4,
-    "high": 622,
+    "high": 623,
     "low": 21,
-    "medium": 112
+    "medium": 113
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1460,
@@ -50,15 +50,15 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 6,
     "commissioned_naval_officer": 74,
-    "enlisted_army_personnel": 3479,
+    "enlisted_army_personnel": 3480,
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 53,
     "foreign_or_allied_military_personnel": 245,
-    "unknown_or_indeterminate": 16549,
+    "unknown_or_indeterminate": 16548,
     "warrant_officer": 4
   },
   "possible_duplicate_groups": 211,
   "conflict_count": 5,
-  "citations": 1572,
-  "unique_source_documents": 766
+  "citations": 1592,
+  "unique_source_documents": 772
 }

@@ -4,7 +4,8 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 408 / 408 browser cases.**
+**PASS - 408 / 408 complete-suite browser cases, plus 3 / 3 Batch 122 targeted
+cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -1007,6 +1008,23 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 122 accessibility and responsive regression
+
+Batch 122 verifies Philip H. Bagby through Frank P. Bahor at desktop, phone,
+and tablet sizes. The regression checks all ten direct Box 29 routes, indexed
+spelling and grades, field-level serial masking, and the separation of identity,
+occupation, film-profession, archival-file, and employer evidence. It verifies
+Philip Bagby's clerk occupation, Merrill Bahnson's motor-vehicle-mechanic
+occupation, the Bagle/Eagle spelling variant and sailor/deckhand occupation,
+Douglas Bagier's qualified film-profession limits, and Helene Baginski's
+undigitized-file citation. Six identities remain visibly unresolved, and none
+receives an unsupported employer or immediate affiliation.
+
+The complete pre-addition browser, responsive, direct-route, search, and axe
+matrix passed 408 / 408. The final targeted desktop, phone, and tablet run
+passed 3 / 3 against the completed Batch 122 build, with no assertion or
+serious/critical axe failure.
 
 ## Batch 097 accessibility and responsive regression
 

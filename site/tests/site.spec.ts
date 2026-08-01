@@ -11359,3 +11359,84 @@ test("Batch 121 preserves an identifier conflict, occupation-only evidence, a wi
     page.getByRole("link", { name: "JDC Digest, October 1952", exact: true }).first(),
   ).toHaveAttribute("href", /americanjewisharchives\.org/);
 });
+
+test("Batch 122 preserves occupation-only evidence, a spelling variant, film-profession limits, and Box 29 review paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2c346890-fb26-5a92-b5a4-b251881e3e94", "Philip H Bagby", "enlisted army personnel"],
+    ["8ba31ed6-ab93-5be9-816e-17e5e0e77fc6", "Percy A Bagge", "unknown or indeterminate"],
+    ["5b974ba7-02d8-5215-a43c-ab3742916fb5", "Robert K Baggot", "unknown or indeterminate"],
+    ["3afb0f7d-09b2-5e73-9137-a6f70372ddd7", "Douglas W Bagier", "unknown or indeterminate"],
+    ["2246cbd8-47f5-512a-a83f-ce147833ba8a", "Helene B Baginski", "civilian professional or administrative grade"],
+    ["dcc6d19d-6cc9-5040-ac4b-ca1d330a081b", "Irving J Bagle", "enlisted army personnel"],
+    ["1bbd4776-c3e1-5845-9022-95ac13c6bcfa", "David J Bagley", "civilian professional or administrative grade"],
+    ["99fd7c45-e5e4-5095-9b88-eb01859ff071", "Merrill B Bahnson", "enlisted army personnel"],
+    ["dfde6e18-5e77-5a72-bcbe-359f96c47a24", "Sidney Bah-Oh", "unknown or indeterminate"],
+    ["6fd46b84-860f-5373-b7b1-6bf1f7e60112", "Frank P Bahor", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("29", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  for (const personId of [
+    "8ba31ed6-ab93-5be9-816e-17e5e0e77fc6",
+    "5b974ba7-02d8-5215-a43c-ab3742916fb5",
+    "2246cbd8-47f5-512a-a83f-ce147833ba8a",
+    "1bbd4776-c3e1-5845-9022-95ac13c6bcfa",
+    "dfde6e18-5e77-5a72-bcbe-359f96c47a24",
+    "6fd46b84-860f-5373-b7b1-6bf1f7e60112",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/2c346890-fb26-5a92-b5a4-b251881e3e94/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("general-office clerk occupation");
+  await expect(page.locator("main")).toContainText("but no employer");
+
+  await page.goto("./people/3afb0f7d-09b2-5e73-9137-a6f70372ddd7/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Wolfgang Loë-Bagier");
+  await expect(page.locator("main")).toContainText("No production company is inferred as an employer from film credits alone");
+  await expect(page.locator('a[href*="filmportal.de"]', { hasText: "Wolfgang Loë-Bagier" }).first()).toHaveAttribute(
+    "href",
+    /filmportal\.de/,
+  );
+
+  await page.goto("./people/dcc6d19d-6cc9-5040-ac4b-ca1d330a081b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Irving J Eagle");
+  await expect(page.locator("main")).toContainText("sailor or deckhand occupation");
+  await expect(page.locator("main")).toContainText("but no employer or vessel");
+
+  await page.goto("./people/99fd7c45-e5e4-5095-9b88-eb01859ff071/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("motor-vehicle mechanic and repairer occupation");
+  await expect(page.locator("main")).toContainText("but no employer");
+
+  await page.goto("./people/2246cbd8-47f5-512a-a83f-ce147833ba8a/");
+  await expect(page.locator("main")).toContainText("personnel file exists in Record Group 226, Box 29, and is not digitized");
+  await expect(
+    page.getByRole("link", { name: "Seeking OSS Asset File on Zygfryd Baginski", exact: true }).first(),
+  ).toHaveAttribute("href", /openhistoryhub\.com/);
+});
