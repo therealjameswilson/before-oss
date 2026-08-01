@@ -1148,6 +1148,36 @@ Affairs register, and the OSS Operational Groups personnel roster. The
 Princeton memorial for a Lee Ault namesake remains a rejected candidate rather
 than claim support.
 
+## Batch 114 production deployment
+
+GitHub Actions test workflow
+[30684332311](https://github.com/therealjameswilson/before-oss/actions/runs/30684332311)
+and GitHub Pages deployment workflow
+[30684332310](https://github.com/therealjameswilson/before-oss/actions/runs/30684332310)
+completed successfully for release `b1d5bcc`.
+
+All seventeen tested publication routes returned HTTP 200: seven core routes
+and the ten Batch 114 person profiles. After substituting the production host
+for the local placeholder in plain and URL-encoded canonical URLs, every route
+matched the audited local HTML bytes. The four new evidence boundaries for
+Otis Ausen, James Austin, Kenneth Austin, and Vernon Austreng were visible on
+the live profiles.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 960
+people with non-planned research attempts, 235 verified-affiliation people,
+133 verified-employer people, 908 assessed archival-review needs, 840
+published claims, and 830 public source records. The live personnel CSV and
+JSONL downloads each contain 23,941 rows; the organizations, affiliations, and
+sources downloads contain 270, 474, and 830 rows.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited bytes. The deployed and local
+manifest SHA-256 is
+`1181457f4d0a0dd86d0570ba05f6145b4542f1d249a7b877012848c2fed53676`.
+A boundary-aware comparison against 12,919 nontrivial normalized private
+identifiers and 121 formatted raw variants found zero full matches across 83
+deployed routes, manifest, data, compressed mirrors, and downloads.
+
 ## Batch 113 local release check
 
 The rebuilt site contains direct, internally resolved routes for Herbert

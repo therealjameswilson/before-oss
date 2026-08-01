@@ -1060,6 +1060,17 @@ not become a guessed employing farm. The Kenneth and Vernon profiles visibly
 preserve their official-source name and chronology conflicts. No serious or
 critical axe violation was found.
 
+The focused Batch 114 desktop run passed, and the complete desktop, phone,
+tablet, responsive, direct-route, search, and axe matrix passed 387 / 387 with
+no assertion failure or serious/critical accessibility violation.
+
+GitHub test workflow
+[30684332311](https://github.com/therealjameswilson/before-oss/actions/runs/30684332311)
+repeated the complete 387-case research, browser, responsive, and axe matrix
+for release `b1d5bcc` and completed successfully in 7 minutes 14 seconds. All
+ten deployed Batch 114 profiles returned HTTP 200 and matched their local
+accessible HTML after canonical-host normalization.
+
 ## Batch 113 accessibility and responsive regression
 
 The Batch 113 regression checks the ten contiguous page-sixteen profiles from

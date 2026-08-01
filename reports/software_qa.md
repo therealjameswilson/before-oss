@@ -39,18 +39,18 @@ Run: 2026-08-01 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30682592965](https://github.com/therealjameswilson/before-oss/actions/runs/30682592965)
-  for Batch 113 release `503a41b`: **passed**
+  [30684332311](https://github.com/therealjameswilson/before-oss/actions/runs/30684332311)
+  for Batch 114 release `b1d5bcc`: **passed**
 - GitHub Pages deployment workflow
-  [30682592953](https://github.com/therealjameswilson/before-oss/actions/runs/30682592953)
-  for Batch 113 release `503a41b`: **passed**
-- Production route smoke tests: **19 / 19 returned HTTP 200 and matched the
+  [30684332310](https://github.com/therealjameswilson/before-oss/actions/runs/30684332310)
+  for Batch 114 release `b1d5bcc`: **passed**
+- Production route smoke tests: **17 / 17 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 85 live
+- Production redaction scan: **0 full private-identifier matches across 83 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `5206baabb9c636bbf3fe5a624a92d81307ad2ae3a13e9f91ef37baa811989f2b`
+  `1181457f4d0a0dd86d0570ba05f6145b4542f1d249a7b877012848c2fed53676`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1580,6 +1580,35 @@ static-site artifacts matched the working release byte for byte. The replayed
 SQLite database passed `quick_check` and the foreign-key check and reproduced
 23,978 source records, 23,941 person entities, 1,990 research attempts, 860
 claims, 478 affiliations, and 1,440 source records.
+
+## Batch 114 production deployment
+
+GitHub Actions test workflow
+[30684332311](https://github.com/therealjameswilson/before-oss/actions/runs/30684332311)
+and GitHub Pages deployment workflow
+[30684332310](https://github.com/therealjameswilson/before-oss/actions/runs/30684332310)
+completed successfully for release `b1d5bcc`. The CI job repeated the Python,
+Astro, production-build, link, browser, responsive, and accessibility checks
+and passed in 7 minutes 14 seconds. GitHub's non-blocking Node.js 20
+action-runtime annotation did not affect any project test or deployment step.
+
+All seventeen production routes returned HTTP 200 and matched the audited
+local HTML after plain and URL-encoded canonical-host normalization. The route
+set comprised seven core pages and all ten Batch 114 person profiles. Live
+statistics reproduced 23,978 source rows, 23,941 person entities, 960
+researched people, 235 verified-affiliation people, 133 verified-employer
+people, 908 assessed archival-review needs, 840 published claims, and 830
+public source records. The personnel CSV and JSONL each contain 23,941 records;
+organization, affiliation, and source downloads contain 270, 474, and 830
+records.
+
+All 65 deployed manifest assets matched their recorded and local sizes,
+SHA-256 values, and bytes. The deployed manifest SHA-256 is
+`1181457f4d0a0dd86d0570ba05f6145b4542f1d249a7b877012848c2fed53676`.
+The field-aware privacy check compared 12,919 nontrivial normalized identifiers
+and 121 formatted raw variants across 83 live routes, data files, compressed
+mirrors, manifest, and downloads and found zero full private-identifier
+matches.
 
 ## Batch 113 local release QA
 
