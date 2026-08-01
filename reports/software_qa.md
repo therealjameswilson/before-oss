@@ -23,7 +23,7 @@ Run: 2026-07-31 UTC
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
-- Field-aware boundary scan of **12,932** distinct digit-bearing normalized
+- Field-aware boundary scan of **12,932** distinct normalized
   private identifiers, reduced to **12,919** nontrivial comparison
   tokens: **0 unexpected full-number matches** in **24,356** production
   artifacts, including compressed mirrors
@@ -39,18 +39,18 @@ Run: 2026-07-31 UTC
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
-  [30678260950](https://github.com/therealjameswilson/before-oss/actions/runs/30678260950)
-  for Batch 110 release `ec916d4`: **passed**
+  [30679704454](https://github.com/therealjameswilson/before-oss/actions/runs/30679704454)
+  for Batch 111 release `6ce955b`: **passed**
 - GitHub Pages deployment workflow
-  [30678260951](https://github.com/therealjameswilson/before-oss/actions/runs/30678260951)
-  for Batch 110 release `ec916d4`: **passed**
-- Production route smoke tests: **18 / 18 returned HTTP 200 and matched the
+  [30679704437](https://github.com/therealjameswilson/before-oss/actions/runs/30679704437)
+  for Batch 111 release `6ce955b`: **passed**
+- Production route smoke tests: **19 / 19 returned HTTP 200 and matched the
   audited local HTML after canonical-host normalization**
-- Production redaction scan: **0 full private-identifier matches across 84 live
+- Production redaction scan: **0 full private-identifier matches across 85 live
   HTML, data, compressed-mirror, and download artifacts**
 - Production manifest audit: **65 / 65 deployed assets matched their recorded
   and local SHA-256 values**; the live and local manifest SHA-256 is
-  `9f837fa1e0ef19706b100c19ac5906d7dcdb152b2cd068da2d0707a239745fc1`
+  `1b0c29fe358d683e767bdebc59aeb700f9a1ae69fb974521d7d3c131e875369f`
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -1575,6 +1575,20 @@ only in their expected report-generation timestamps. The rebuilt SQLite
 database passed `integrity_check` and the foreign-key check. Its 68 public
 files, eight generated data files, and 24,288 static-site artifacts matched the
 release byte for byte.
+
+The Batch 111 production audit followed successful GitHub test workflow
+[30679704454](https://github.com/therealjameswilson/before-oss/actions/runs/30679704454)
+and GitHub Pages workflow
+[30679704437](https://github.com/therealjameswilson/before-oss/actions/runs/30679704437)
+for release `6ce955b`. All 19 deployed routes returned HTTP 200 and matched the
+audited local HTML after plain and URL-encoded canonical-host normalization.
+All 65 deployed manifest assets matched recorded and local sizes, hashes, and
+bytes; all eight live statistics and all five public-download row counts
+matched the release. The deployed manifest SHA-256 is
+`1b0c29fe358d683e767bdebc59aeb700f9a1ae69fb974521d7d3c131e875369f`,
+and its forbidden-field list is empty. A direct scan found zero full private
+identifier matches across the 85 audited live routes, manifest, data,
+compressed mirrors, and downloads.
 
 ## Batch 110 local release QA
 

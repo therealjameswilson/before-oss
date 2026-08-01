@@ -1141,6 +1141,39 @@ The complete local link checker passed all 24,218 HTML files and inventoried
 manifest-listed assets passed the local size, hash, and redaction audits
 documented in `reports/software_qa.md`.
 
+## Batch 111 production deployment
+
+GitHub Actions test workflow
+[30679704454](https://github.com/therealjameswilson/before-oss/actions/runs/30679704454)
+and GitHub Pages deployment
+[30679704437](https://github.com/therealjameswilson/before-oss/actions/runs/30679704437)
+for release `6ce955b` completed successfully.
+
+Live checks returned HTTP 200 for all 19 tested publication routes: seven core
+publication URLs, all ten Batch 111 person profiles, and the Clark University
+and United States National Park Service organization profiles. After
+substituting the production host for the local placeholder in plain and
+URL-encoded canonical URLs, every route matched the audited local HTML bytes.
+Profile-specific checks confirmed Wallace W. Atwood Jr.'s Clark, NPS, Atcorob,
+and unresolved-immediate-predecessor evidence, while all nine other profiles
+retained their evidence-limited employer statements and Box 25 guidance.
+
+The live statistics report 23,978 source rows, 23,941 person entities, 930
+people with non-planned research attempts, 230 verified-affiliation people,
+132 verified-employer people, 878 archival-review assessments, 826 published
+claims, and 813 public source records. The live personnel CSV and JSONL
+downloads each contain 23,941 data rows; the organizations, affiliations, and
+sources downloads contain 269, 467, and 813 data rows respectively.
+
+All 65 manifest-listed live assets matched their recorded sizes and SHA-256
+values and the locally redaction-audited files byte for byte. The deployed and
+local manifest SHA-256 is
+`1b0c29fe358d683e767bdebc59aeb700f9a1ae69fb974521d7d3c131e875369f`,
+and the forbidden-field list is empty. A direct comparison against 12,919
+nontrivial normalized identifiers and 121 formatted raw variants found zero
+full matches across 85 deployed routes, manifest, data, compressed mirrors,
+and downloads.
+
 ## Batch 110 local release check
 
 The rebuilt site contains direct, internally resolved routes for Russell E.
