@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 269 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,624 unique external URLs for separate live
+The checker inventoried 48,626 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -1123,6 +1123,26 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 112 local release check
+
+The rebuilt site contains direct, internally resolved routes for Joseph A.
+Aubuchon, Roy A. Aubuchon, Gordon Auchincloss II, John W. Auchincloss, Joseph
+P. Auclair, William S. Aud, Rene E. Audet, Marie Audibert, Joseph J. Audie,
+and Carl A. Auerbach. Carl Auerbach's profile publishes qualified last
+civilian employment with the Office of Price Administration and earlier
+government service with the United States Department of Labor, while keeping
+his intervening Army service and immediate pre-OSS affiliation unresolved.
+The other nine profiles retain evidence-limited status and Box 25 archival
+guidance. Gordon Auchincloss II's uninspected CIA search result remains visibly
+labeled as a discovery lead rather than a claim, and the three blank-rank rows
+retain indeterminate commissioned-officer status.
+
+The complete local link checker passed all 24,218 HTML files and inventoried
+48,626 unique external URLs. The public downloads contain 23,941 person rows,
+269 organization rows, 469 affiliation rows, and 816 source rows. All 65
+manifest-listed assets passed the local size, hash, and redaction audits
+documented in `reports/software_qa.md`.
 
 ## Batch 111 local release check
 

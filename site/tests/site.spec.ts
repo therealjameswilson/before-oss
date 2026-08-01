@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/132 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/133 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 230 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 231 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10519,4 +10519,91 @@ test("Batch 111 preserves Atwood-through-Aubrey evidence and predecessor boundar
     page.getByRole("heading", { name: "United States National Park Service", exact: true }),
   ).toBeVisible();
   await expect(page.getByRole("link", { name: "Wallace W Atwood Jr.", exact: true })).toBeVisible();
+});
+
+test("Batch 112 preserves Aubuchon-through-Auerbach uncertainty and civilian-employer boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8691269b-967c-5b03-8da4-307a0f1cde37", "Joseph A Aubuchon", "unknown or indeterminate", "25"],
+    ["4471b6a1-3ab5-5928-bc03-1150a334e6dd", "Roy A Aubuchon", "enlisted army personnel", "25"],
+    ["38e649ef-ff97-5b9d-aab8-79f8cf86efd4", "Gordon Auchincloss II", "commissioned army officer", "25"],
+    ["07d71c22-1379-5f77-b609-e12a7cb6c1c8", "John W Auchincloss", "commissioned army officer", "25"],
+    ["14775c1b-5c54-58cf-9022-b1de8afe6bef", "Joseph P Auclair", "unknown or indeterminate", "25"],
+    ["ccdb1aec-7b04-510f-9783-047c94190730", "William S Aud", "unknown or indeterminate", "25"],
+    ["d36072df-ff9a-5364-8bce-a9e696085e22", "Rene E Audet", "enlisted army personnel", "26"],
+    ["0e04730f-3b25-52e5-88a3-b41ec5a12d6f", "Marie Audibert", "civilian professional or administrative grade", "26"],
+    ["a3667542-502b-5ce0-b4e9-bb8d806e31ba", "Joseph J Audie", "enlisted army personnel", "26"],
+    ["2feecffb-498b-5d87-b611-f67eea6073df", "Carl A Auerbach", "commissioned army officer", "26"],
+  ];
+
+  for (const [personId, displayName, personnelCategory, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(
+      page.getByRole("heading", { name: displayName, exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.locator(".profile-aside").getByText(box, { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+    await expect(
+      page.locator('section[aria-labelledby="immediate-affiliation"]'),
+    ).toContainText("No reviewed claim currently meets the publication threshold");
+  }
+
+  for (const personId of profiles
+    .filter(([personId]) => personId !== "2feecffb-498b-5d87-b611-f67eea6073df")
+    .map(([personId]) => personId)) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/38e649ef-ff97-5b9d-aab8-79f8cf86efd4/");
+  await expect(page.locator("main")).toContainText("CIA-RDP13X00001R000100410005-4");
+  await expect(page.locator("main")).toContainText("discovery lead only");
+
+  await page.goto("./people/2feecffb-498b-5d87-b611-f67eea6073df/");
+  await expect(
+    page.getByText("high confidence", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("verified employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("United States Office of Price Administration");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("U.S. Department of Labor");
+  await expect(page.locator("main")).toContainText("intervening Army assignment");
+  await expect(
+    page.getByRole("link", { name: "In Memoriam: Carl Auerbach", exact: true }).first(),
+  ).toHaveAttribute("href", /ali\.org/);
+  await expect(
+    page.getByRole("link", {
+      name: "Law School Mourns the Passing of Former Dean Carl Auerbach",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /law\.umn\.edu/);
+
+  await page.goto("./organizations/a37403a5-5878-511c-9413-dd7054848aa0/");
+  await expect(
+    page.getByRole("heading", { name: "United States Office of Price Administration", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Carl A Auerbach", exact: true })).toBeVisible();
+
+  await page.goto("./organizations/feacdeca-7391-5e30-a968-6c29d8b43039/");
+  await expect(
+    page.getByRole("heading", { name: "U.S. Department of Labor", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Carl A Auerbach", exact: true })).toBeVisible();
 });

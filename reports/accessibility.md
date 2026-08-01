@@ -4,7 +4,7 @@ Run: 2026-07-31 UTC
 
 ## Result
 
-**PASS - 378 / 378 browser cases.**
+**PASS - 381 / 381 browser cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -26,7 +26,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-132-person employer measure is labeled separately from the 230-person broader
+133-person employer measure is labeled separately from the 231-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1046,6 +1046,23 @@ repeated the complete research and site matrix for release `55fc2b5` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 112 accessibility and responsive regression
+
+The Batch 112 regression checks the ten contiguous page-sixteen profiles from
+Joseph A. Aubuchon through Carl A. Auerbach. It verifies indexed and normalized
+names, Box 25 provenance, personnel classifications, suffixes, direct routes,
+field-level service-number masking, and the three indeterminate officer-status
+values preserved from blank printed ranks. Carl Auerbach's page separates
+qualified Office of Price Administration employment, earlier United States
+Department of Labor government service, an intervening Army assignment, and
+the still-unresolved immediate pre-OSS affiliation. Gordon Auchincloss II's
+CIA discovery lead is not presented as a source-backed claim.
+
+The focused homepage and Batch 112 run passed 6 / 6 across desktop, phone, and
+tablet. The complete desktop, phone, tablet, responsive, direct-route, search,
+and axe matrix passed 381 / 381 with no assertion failure or serious/critical
+accessibility violation.
 
 ## Batch 111 accessibility and responsive regression
 

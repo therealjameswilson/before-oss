@@ -1959,6 +1959,42 @@ response was retained. Temporary PDFs, API discovery responses, page renders,
 and text extracts were used only for inspection outside the repository. No
 full service identifier appears in the evidence bundle or public projection.
 
+## Page-sixteen Aubuchon-through-Auerbach pathways, Batch 112
+
+`research/evidence-page-sixteen-aubuchon-through-auerbach-pathways_batch-112_2026-07-31.json`
+records ten visually checked, contiguous rows from Joseph A. Aubuchon through
+Carl A. Auerbach on PDF page sixteen. Raw spellings, initials, the printed
+Gordon Auchincloss `II` suffix, ranks and civilian grade, service-number
+presence or absence, the Box 25-to-26 transition, blank fields, and archival
+location were checked against a high-resolution page render. The bundle
+contains ten person updates, twelve sources, two reused canonical
+organizations, two affiliations, three claims, ten durable research attempts,
+and seven claim-source links.
+
+American Law Institute and University of Minnesota Law School memorials
+provide a high-confidence match between indexed Second Lieutenant Carl A.
+Auerbach and the lawyer who was drafted into the Army and served with the OSS
+in London. The Office of Price Administration is published as his
+high-confidence last civilian employment before wartime service. It is not
+labeled his immediate pre-OSS affiliation because an intervening Army period
+is documented but not dated or organizationally resolved. His earlier U.S.
+Department of Labor position is preserved separately as documented prewar
+government work. The sources do not name his brief Washington law firm, so the
+project does not invent an employer, and an undated or later description of an
+OPA General Counsel role is excluded from the predecessor claims.
+
+Joseph A. Aubuchon, Roy A. Aubuchon, Gordon Auchincloss II, John W.
+Auchincloss, Joseph P. Auclair, William S. Aud, Rene E. Audet, Marie Audibert,
+and Joseph J. Audie remain unresolved after the staged protocol and route to
+Box 25 or 26 review. CIA search results pointed to Gordon Auchincloss in an OSS
+report, but the current document route did not provide inspectable page
+context; the hit remains a lead rather than a citation or identity claim. The
+three blank-rank rows retain indeterminate commissioned status. No
+authenticated NARA Catalog request was made, no API key was accessed, and no
+live Catalog response was retained. Temporary page renders and discovery
+results were used only for inspection outside the repository. No full service
+identifier appears in the evidence bundle or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

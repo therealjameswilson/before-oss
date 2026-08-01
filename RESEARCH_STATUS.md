@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 930 people with a non-planned attempt | 23,941 person entities | 3.8845% |
-| Verified-affiliation coverage | 230 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9607% |
-| Verified-employer coverage | 132 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5514% |
-| Archival-review coverage | 878 people with an individual file-access/priority assessment | 23,941 person entities | 3.6673% |
+| Research-attempt coverage | 940 people with a non-planned attempt | 23,941 person entities | 3.9263% |
+| Verified-affiliation coverage | 231 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 0.9649% |
+| Verified-employer coverage | 133 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5555% |
+| Archival-review coverage | 888 people with an individual file-access/priority assessment | 23,941 person entities | 3.7091% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-07-31 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 45
-- Identity status `high_confidence`: 284
+- Identity status `high_confidence`: 285
 - Identity status `probable`: 33
 - Identity status `ambiguous`: 25
 - Identity status `conflicting`: 1
-- Identity status `unresolved`: 23,553
+- Identity status `unresolved`: 23,552
 
 ## Personnel categories
 
@@ -46,15 +46,15 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 23,011
+- `not_started`: 23,001
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 12
 - `documented_prewar_employer_found`: 30
 - `occupation_only_found`: 36
-- `requires_archival_review`: 612
+- `requires_archival_review`: 621
 - `completed`: 52
-- `verified_employer_found`: 136
+- `verified_employer_found`: 137
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -63,19 +63,19 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 451
+- Reviewed-web terminal-protocol attempts recorded: 441
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
-- Reviewed-web-and-official-source attempts recorded: 195
+- Reviewed-web-and-official-source attempts recorded: 225
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 349 across 330 people; 27 additional
+- Saved `source_reviewed` outcomes: 351 across 332 people; 27 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 1,960
+- Total recorded attempts/plans: 1,970
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 337; 320 have at least one public-eligible
+- People with saved reviewed claims: 338; 321 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -965,13 +965,25 @@ Commissioned classification: 2,158 yes; 5,000 no; 16,783 indeterminate.
   immediate predecessor remains unresolved. The other nine Atwood-through-Aubrey
   profiles remain unresolved and route to Box 25; famous namesakes and modern
   people-finder candidates were rejected.
-- Published affiliations: 467
-- Database claims: 846; public-eligible claims: 826 (121 confirmed, 600 high, 105
+- Batch 112 continues page sixteen from Joseph A. Aubuchon through Carl A.
+  Auerbach. Carl Auerbach is a high-confidence identity match based on two
+  institutional memorials that explicitly connect the exact name to Army and
+  OSS service in London. The Office of Price Administration is published as
+  his last civilian employer before wartime service, while the U.S. Department
+  of Labor is kept separate as earlier documented government work. Neither is
+  called his immediate pre-OSS affiliation because the intervening Army
+  chronology remains unresolved. The other nine profiles route to Box 25 or
+  26. Gordon Auchincloss II's CIA search hit remains only a discovery lead
+  because its underlying page context could not be inspected. Blank-rank rows
+  retain indeterminate commissioned status, and no unsupported namesake
+  employment is promoted.
+- Published affiliations: 469
+- Database claims: 849; public-eligible claims: 829 (121 confirmed, 603 high, 105
   medium); 20 low-confidence claims are withheld
-- Citation records: 1,397; public source export: 813; unique source documents: 709
+- Citation records: 1,409; public source export: 816; unique source documents: 712
 - Canonical organizations: 271 private and 269 public
 - Conflicts: 1
-- NARA pull-list rows: 23,842
+- NARA pull-list rows: 23,841
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1129,6 +1141,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atherton-through-atkisson-pathways_batch-109_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atkisson-through-atwood-pathways_batch-110_2026-07-31.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifteen-atwood-through-aubrey-pathways_batch-111_2026-07-31.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-sixteen-aubuchon-through-auerbach-pathways_batch-112_2026-07-31.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
