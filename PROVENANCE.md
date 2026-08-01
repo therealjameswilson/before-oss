@@ -2073,6 +2073,64 @@ A. Austin, Nancy R. Austin, and Robert W. Austin remain unresolved after the
 staged protocol. No full service identifier appears in the evidence bundle or
 public projection.
 
+## Page-sixteen Autotte-through-Axelrad pathways, Batch 115
+
+`research/evidence-page-sixteen-autotte-through-axelrad-pathways_batch-115_2026-08-01.json`
+records ten visually checked, contiguous rows from Joseph R. Autotte through
+Gerald Axelrad on PDF page sixteen. Raw spellings, initials, ranks and civilian
+grades, service-number presence or absence, Boxes 26 and 27, blank fields, and
+archival location were checked against a high-resolution page render. The
+bundle contains ten person updates, eighteen sources, five canonical
+organizations, six affiliations, fourteen claims, ten durable research
+attempts, and twenty-four claim-source links.
+
+A scanned official European Theater roster confirms Joseph R. Autotte through
+the exact uncommon name and a private officer-identifier match. The roster's
+second-lieutenant grade and the index's first-lieutenant grade are preserved as
+a compatible wartime progression, but neither source establishes his pre-OSS
+pathway. Targeted OCR was confined to this eleven-page image-only official
+record and the result was visually checked.
+
+U.S. Army Special Operations History explicitly cites Herbert Avedon's Box 27
+personnel file and dates his 4th Ranger Infantry Battalion assignment and
+recruitment from Camp Butner into OSS. The battalion is therefore published as
+his immediate pre-OSS military assignment. His 1933-34 first-mate service on
+the SS Birmingham City is separate earlier employment; later unnamed civilian
+jobs prevent the ship from being labeled his last civilian employer.
+
+Contemporary Wheaton College trustee minutes were visually reviewed at internal
+pages 506 and 630. They clearly spell Grazia Avitabile, appoint her Instructor
+in Italian and French in 1942, and extend her unpaid leave in 1945 because she
+was in Italy with OSS. Wheaton is published as both immediate affiliation and
+last civilian employer. Earlier part-time teaching at Bryn Mawr is separate.
+The index's Crazia R. form remains the page title and an explicit variant rather
+than being silently corrected.
+
+The Oregon Encyclopedia supports a qualified high-confidence match between
+indexed Jacob D. Avshalonoff and composer Jacob David Avshalomov through the
+distinctive transliteration variant, middle name, age, and wartime U.S. Army
+interpreter service. Eastman study is modeled as student status, and work as a
+factory supervisor in three unnamed Chinese factories is published as an
+occupation without inventing employers. Box 27 remains necessary for direct
+identifier and OSS-link confirmation.
+
+The unrestricted NARA Army enlistment bulk file confirms Gerald Axelrad by an
+exact private identifier, but its surviving occupation-code documentation does
+not support one unambiguous occupation. For James H. Awad, the index identifier
+maps to a different name while an exact-name enlistment entry carries a
+different identifier. That conflict is published without exposing either full
+identifier or the unrelated name. Mary E. Autrey, Stella Avner, and Nabit Awad
+remain unresolved after the staged protocol; plausible name-only candidates
+were rejected. Cleveland E. Autry receives a high-confidence identity from a
+contemporary authorized OSS account, but no predecessor affiliation is
+assigned.
+
+The Army bulk archive and records were downloaded only to temporary ignored
+paths, inspected locally, and deleted after use. No authenticated NARA Catalog
+request was made, no API key was accessed, and no raw bulk record, live API
+response, full service identifier, or unrelated namesake was retained in the
+repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

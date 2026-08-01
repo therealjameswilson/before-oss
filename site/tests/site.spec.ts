@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/133 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/136 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 235 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 238 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -10784,4 +10784,104 @@ test("Batch 114 preserves Ault-through-Austreng occupations, conflicts, and unre
   await expect(
     page.getByRole("link", { name: "Register of North Dakota Veterans", exact: false }).first(),
   ).toHaveAttribute("href", /veterans\.nd\.gov/);
+});
+
+test("Batch 115 preserves Autotte-through-Axelrad pathways, variants, and conflicts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["f6ef76a8-7c17-5077-90dc-ebf46d6850c7", "Joseph R Autotte", "26"],
+    ["0e6f5000-5210-54c5-b6b2-cbd625fd9ea6", "Mary E Autrey", "27"],
+    ["b3c5ad2c-deef-5f8f-934b-5a0f67a7f812", "Cleveland E Autry", "27"],
+    ["78836845-ed90-5c21-9f17-41708b95f818", "Herbert Avedon", "27"],
+    ["bc3d9e4a-0ef0-50ea-a344-65b7f595499b", "Crazia R Avitabile", "27"],
+    ["9ef36456-344c-5668-9279-c7b2fb952d85", "Stella Avner", "27"],
+    ["aa0b9ccb-7967-54a7-83b2-643f5e960eff", "Jacob D Avshalonoff", "27"],
+    ["fc719b01-ceb0-532f-b85b-7a96be2f5e6b", "James H Awad", "27"],
+    ["b1ec388e-e453-5a2b-88bb-3e4b80062a3a", "Nabit Awad", "27"],
+    ["f9aa1435-7ad3-51dd-ac6e-47bcd7b5fa5a", "Gerald Axelrad", "27"],
+  ];
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "0e6f5000-5210-54c5-b6b2-cbd625fd9ea6",
+    "9ef36456-344c-5668-9279-c7b2fb952d85",
+    "b1ec388e-e453-5a2b-88bb-3e4b80062a3a",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.locator('section[aria-labelledby="civilian-employer"]'),
+    ).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/f6ef76a8-7c17-5077-90dc-ebf46d6850c7/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("European Theater battle-participation roster");
+
+  await page.goto("./people/b3c5ad2c-deef-5f8f-934b-5a0f67a7f812/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Chance Island");
+
+  await page.goto("./people/78836845-ed90-5c21-9f17-41708b95f818/");
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("4th Ranger Battalion");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("SS Birmingham City");
+  await expect(
+    page.getByRole("link", { name: "Captain Herbert Avedon", exact: false }).first(),
+  ).toHaveAttribute("href", /arsof-history\.org/);
+
+  await page.goto("./people/bc3d9e4a-0ef0-50ea-a344-65b7f595499b/");
+  await expect(page.locator("main")).toContainText("Grazia Avitabile");
+  await expect(
+    page.locator('section[aria-labelledby="immediate-affiliation"]'),
+  ).toContainText("Wheaton College");
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("Wheaton College");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Bryn Mawr College");
+  await expect(
+    page.getByRole("link", { name: /Wheaton College Board of Trustees Minutes/i }).first(),
+  ).toHaveAttribute("href", /s3\.amazonaws\.com/);
+
+  await page.goto("./people/aa0b9ccb-7967-54a7-83b2-643f5e960eff/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jacob David Avshalomov");
+  await expect(
+    page.locator('section[aria-labelledby="earlier-affiliations"]'),
+  ).toContainText("Eastman School of Music");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "three different Chinese factories",
+  );
+
+  await page.goto("./people/fc719b01-ceb0-532f-b85b-7a96be2f5e6b/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "does not corroborate the OSS index's private identifier",
+  );
+
+  await page.goto("./people/f9aa1435-7ad3-51dd-ac6e-47bcd7b5fa5a/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "civilian occupation code maps to multiple possible occupations",
+  );
+  await expect(
+    page.locator('section[aria-labelledby="civilian-employer"]'),
+  ).toContainText("No reliable pre-OSS employer has yet been identified");
 });

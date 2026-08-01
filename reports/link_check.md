@@ -1124,6 +1124,27 @@ A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
 
+## Batch 115 local release check
+
+The rebuilt site contains direct, internally resolved routes for Joseph R.
+Autotte, Mary E. Autrey, Cleveland E. Autry, Herbert Avedon, Grazia Avitabile,
+Stella Avner, Jacob D. Avshalomov, James H. Awad, Nabit Awad, and Gerald
+Axelrad. Their profiles preserve the source's indexed forms, Box 26 or 27,
+masked identifiers, identity qualifications or conflict, and the distinction
+between military assignment, employment, student status, occupation, and an
+unresolved employer question. Five new organization routes also resolve.
+
+The complete local link checker passed all 24,224 HTML files and inventoried
+48,645 unique external URLs. The public downloads contain 23,941 person rows,
+275 organization rows, 480 affiliation rows, and 845 source rows. All 65
+manifest-listed assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site. The manifest forbidden-field check
+passed, and its SHA-256 is
+`7bcbe6fdaa384267d745be62cbe140d8223357d1aad9a5e0a16e5cbc8493bbca`.
+The boundary-aware scan of 12,919 nontrivial normalized identifiers and 121
+formatted raw variants found zero full private-identifier matches across
+24,370 production artifacts, including compressed mirrors.
+
 ## Batch 114 local release check
 
 The rebuilt site contains direct, internally resolved routes for Lee A. Ault,

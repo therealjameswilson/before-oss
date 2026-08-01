@@ -1047,6 +1047,22 @@ completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
 
+## Batch 115 accessibility and responsive regression
+
+Batch 115 verifies Joseph R. Autotte through Gerald Axelrad at desktop, phone,
+and tablet sizes. The regression checks all ten direct Box 26 or 27 routes,
+indexed spelling and variants, personnel classifications, field-level serial
+masking, archival guidance, and the separation of immediate affiliation, last
+civilian employer, earlier roles, occupation-only evidence, and identity-only
+evidence. It also preserves James H. Awad's conflicting identity evidence and
+keeps three unresolved profiles visibly incomplete rather than blank.
+
+The focused desktop run passed, and the complete desktop, phone, tablet,
+responsive, direct-route, search, and axe matrix passed 390 / 390 with no
+assertion failure or serious/critical accessibility violation. The homepage
+reports 136 verified-employer people separately from 238 verified-affiliation
+people.
+
 ## Batch 114 accessibility and responsive regression
 
 Batch 114 verifies Lee A. Ault through Vernon L. Austreng at desktop, phone,

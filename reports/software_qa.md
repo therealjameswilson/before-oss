@@ -5,37 +5,38 @@ Run: 2026-08-01 UTC
 - Python unit tests: **54 / 54 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,219 pages**
-- Internal link check: **24,219 HTML files passed**
-- Browser and accessibility suite: **387 / 387 passed**
+- Static production build: **24,224 pages**
+- Internal link check: **24,224 HTML files passed**
+- Browser and accessibility suite: **390 / 390 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`c087cb02566e49e47ba7ea504ea138caca2b9fbd58b3479ec19147a6395f3ba6`)
+  (`ef81bdf3f794d52cef66dfa3fa42ca10218e7fa73666d7451774d8b7194c7c79`)
 - Latest clean-checkout replay (Batch 114): **byte-for-byte identical** public
   and generated site data and all **24,289** static-site artifacts after
   rebuilding the source PDF, page reviews, checkpoints, review decisions, and
-  all 114 evidence batches.
+  all 114 evidence batches. The Batch 115 clean replay is pending the release
+  commit.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `1181457f4d0a0dd86d0570ba05f6145b4542f1d249a7b877012848c2fed53676`
+  `7bcbe6fdaa384267d745be62cbe140d8223357d1aad9a5e0a16e5cbc8493bbca`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,932** distinct normalized
   private identifiers, reduced to **12,919** nontrivial comparison
   tokens, plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,364** production
+  matches** in **24,370** production
   artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **830** public records representing **722** unique documents
-- Private citation records: **1,440**
-- Published, qualified affiliations: **474**
-- Published claims: **840**
+- Reviewed public sources: **845** public records representing **729** unique documents
+- Private citation records: **1,458**
+- Published, qualified affiliations: **480**
+- Published claims: **854**
 - Withheld low-confidence evidence: **20 claims concerning 17 people**
-- Verified-affiliation metric: **235** people with confirmed/high published
+- Verified-affiliation metric: **238** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **133** people with confirmed/high published
+- Verified-employer metric: **136** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - GitHub Actions test workflow
@@ -1520,6 +1521,55 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's own test job explicitly uses
 Node.js 24, and the annotation did not affect the successful build or test
 results.
+
+## Batch 115 local release QA
+
+Batch 115 adds ten visually checked page-sixteen rows from Joseph R. Autotte
+through Gerald Axelrad. The reviewed bundle imports ten durable terminal
+research attempts, eighteen sources, five organizations, six affiliations,
+fourteen claims, and twenty-four claim-source links. It confirms Autotte and
+Axelrad against the official Army roster without inventing employers. It
+publishes Herbert Avedon's explicit 4th Ranger Infantry Battalion predecessor,
+his earlier merchant-marine work, and Grazia Avitabile's qualified Wheaton
+College teaching pathway. Cleveland E. Autry and Jacob D. Avshalomov receive
+qualified identity findings without unsupported employers. James H. Awad's
+conflicting Army records remain explicit, while Mary E. Autrey, Stella Avner,
+and Nabit Awad remain unresolved.
+
+The evidence bundle passed schema validation and idempotent replay. SQLite
+`integrity_check` returned `ok`, and the foreign-key check returned zero
+errors. The Python suite passed 54 / 54. The static build completed 24,224
+pages with zero Astro errors, warnings, or hints. The focused Batch 115 desktop
+test passed after one wording assertion was aligned with the rendered profile,
+and the complete desktop, phone, tablet, responsive, direct-route, and axe
+matrix passed 390 / 390. The internal link checker passed all 24,224 HTML pages
+and inventoried 48,645 unique external URLs. The dependency audit found zero
+vulnerabilities. The deterministic 200-profile stratified audit passed every
+invariant.
+
+Two consecutive static builds produced the identical
+`ef81bdf3f794d52cef66dfa3fa42ca10218e7fa73666d7451774d8b7194c7c79`
+content-tree hash across 24,294 built artifacts. All 65 public manifest assets
+matched their recorded sizes and SHA-256 values in both the public source tree
+and built site. The manifest forbidden-field check passed, and the manifest
+SHA-256 is
+`7bcbe6fdaa384267d745be62cbe140d8223357d1aad9a5e0a16e5cbc8493bbca`.
+A boundary-aware fixed-string scan assessed 12,932 normalized private
+identifiers, reduced to 12,919 nontrivial comparison tokens, plus 121 formatted
+raw variants across 24,370 production artifacts, including compressed mirrors,
+and found zero full matches. The repository contains no local credential file
+or nonblank API-key assignment. No authenticated NARA Catalog request or raw
+Catalog response was used.
+
+The Batch 115 database contains 2,000 durable research attempts, 1,458 private
+citation records, 484 affiliations, and 874 claims: 131 confirmed, 617 high,
+105 medium, 20 low, and one conflicting. The reviewed public projection
+contains 845 source records representing 729 unique documents, 480
+affiliations, and 854 claims. Coverage distinguishes 970 people with a
+non-planned research attempt, 238 people with verified affiliation evidence,
+136 people with verified employment or self-employment evidence, and 918
+people whose archival-review need has been assessed. The public downloads
+contain 23,941 people, 275 organizations, 480 affiliations, and 845 sources.
 
 ## Batch 114 local release QA
 
