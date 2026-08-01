@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,100 people with a non-planned attempt | 23,941 person entities | 4.5946% |
-| Verified-affiliation coverage | 240 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0025% |
-| Verified-employer coverage | 136 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5681% |
-| Archival-review coverage | 1,048 people with an individual file-access/priority assessment | 23,941 person entities | 4.3774% |
+| Research-attempt coverage | 1,110 people with a non-planned attempt | 23,941 person entities | 4.6364% |
+| Verified-affiliation coverage | 242 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0108% |
+| Verified-employer coverage | 138 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5764% |
+| Archival-review coverage | 1,058 people with an individual file-access/priority assessment | 23,941 person entities | 4.4192% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
-- Identity status `high_confidence`: 299
-- Identity status `probable`: 36
+- Identity status `high_confidence`: 301
+- Identity status `probable`: 37
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,493
+- Identity status `unresolved`: 23,490
 
 ## Personnel categories
 
@@ -46,16 +46,16 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,841
+- `not_started`: 22,831
 - `in_progress`: 51
 - `candidate_found`: 1
-- `needs_identity_review`: 12
+- `needs_identity_review`: 13
 - `documented_prewar_employer_found`: 32
 - `occupation_only_found`: 65
-- `requires_archival_review`: 742
+- `requires_archival_review`: 749
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 138
+- `verified_employer_found`: 140
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 415 across 396 people; 27 additional
+- Saved `source_reviewed` outcomes: 417 across 398 people; 28 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,130
+- Total recorded attempts/plans: 2,140
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 398; 376 have at least one public-eligible
+- People with saved reviewed claims: 401; 383 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1282,13 +1282,37 @@ Commissioned classification: 2,166 yes; 5,040 no; 16,735 indeterminate.
   17 tested routes and all 65 manifest assets to the audited local build,
   reproduced every live coverage statistic and download count, and found zero
   full private-identifier matches across 83 live artifacts.
-- Published affiliations: 487
-- Database claims: 952; public-visible claims: 931 (185 confirmed, 628 high,
-  114 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation records: 1,703; public source export: 961; unique source documents: 796
-- Canonical organizations: 280 private and 278 public
+- Batch 129 continues page nineteen from Kenneth H. Baker through William H.
+  Baker. Original-resolution inspection confirms all ten printed rows without
+  parser correction. An official National Park Service history and a
+  contemporary broadcasting profile support the high-confidence
+  identification of Lieutenant Colonel Kenneth H. Baker as psychologist
+  Kenneth Hammond Baker. They document his 1940-1941 assistant professorship
+  at The Ohio State University and connect that employment directly to
+  Donovan's 1941 recruitment, so it is published as both the immediate
+  pre-OSS affiliation and last civilian employer. Yale and Rhode Island
+  Historical Society finding aids support the high-confidence identification
+  of Richard B. Baker as Richard Brown Baker, whose immediate predecessor is
+  modeled as a 1941-1942 Library of Congress government assignment and whose
+  1939 Providence Journal work remains an earlier employment affiliation.
+  His last civilian employer stays unresolved because the classification of
+  an intervening diplomatic/private-secretary role needs review. A veteran
+  account transcribing 19th Weather Squadron orders supplies a probable Ralph
+  C. Baker identity lead, but the index row lacks a corroborating rank or
+  identifier; the lead remains qualified and no affiliation is assigned.
+  Levi J., Marvin D., Nicholas J., Ralph P., Rosalie M., William A., and
+  William H. Baker complete the minimum protocol without a reliable match and
+  route to Box 31 archival review. The batch adds 19 citation records, three
+  organizations, three affiliations, seven public-visible claims, and ten
+  durable research attempts. No authenticated Catalog API request or raw
+  Catalog response was used.
+- Published affiliations: 490
+- Database claims: 959; public-visible claims: 938 (185 confirmed, 634 high,
+  115 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation records: 1,722; public source export: 969; unique source documents: 801
+- Canonical organizations: 282 private and 280 public
 - Conflicts: 5
-- NARA pull-list rows: 23,840
+- NARA pull-list rows: 23,838
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1463,6 +1487,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-eighteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baird-through-baker-pathways_batch-126_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-continuation-pathways_batch-127_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-common-names-and-gibbs-latimer-baker_batch-128_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-baker-officers-civilians-and-weather-candidate_batch-129_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

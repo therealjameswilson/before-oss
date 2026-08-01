@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T19:20:28+00:00",
+  "generated_at": "2026-08-01T20:10:33+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -13,7 +13,7 @@
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 22,
-    "commissioned_army_officer": 24,
+    "commissioned_army_officer": 23,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
@@ -21,7 +21,7 @@
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 18,
-    "unknown_or_indeterminate": 89,
+    "unknown_or_indeterminate": 90,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -39,7 +39,7 @@
     "unresolved": 167
   },
   "research_status_counts": {
-    "completed": 2,
+    "completed": 1,
     "conflicting_sources": 4,
     "documented_prewar_employer_found": 1,
     "in_progress": 2,
@@ -47,10 +47,10 @@
     "not_started": 166,
     "occupation_only_found": 4,
     "requires_archival_review": 10,
-    "verified_employer_found": 10
+    "verified_employer_found": 11
   },
   "special_strata_counts": {
-    "commissioned": 34,
+    "commissioned": 33,
     "civilian": 22,
     "enlisted": 34,
     "allied_or_foreign": 20,
@@ -239,7 +239,6 @@
     "f7687b71-e238-5390-a43c-2552d9e641d6",
     "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
     "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
-    "2f189352-aabb-5d3e-899c-ffaafef19aad",
     "3049d936-8a0c-5bc3-9e6d-4024e9f59dd3",
     "7611975b-3f56-50cf-929e-99252df7490f",
     "ab9ab673-8090-56bf-9973-36b0edc77610",
@@ -264,6 +263,7 @@
     "2a494735-4d57-58f8-a815-4f23a947288f",
     "df0a8e7e-1c96-5f93-a69e-186d90ee2a94",
     "70fbff69-8032-5457-9009-c1ad7ee0f6b7",
-    "46c4071e-393f-5689-816d-8ae8c29bbf31"
+    "46c4071e-393f-5689-816d-8ae8c29bbf31",
+    "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6"
   ]
 }

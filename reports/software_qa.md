@@ -5,38 +5,39 @@ Run: 2026-08-01 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,227 pages**
-- Internal link check: **24,227 HTML files passed**
-- Browser and accessibility suite: **429 / 429 passed** across desktop, phone,
+- Static production build: **24,229 pages**
+- Internal link check: **24,229 HTML files passed**
+- Browser and accessibility suite: **432 / 432 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`6d921d41fb38c77d7773612f2fd340d3d17d675ee86cab556d278b337caa35fe`)
-- Latest deterministic build (Batch 128): **byte-for-byte identical** across
-  two consecutive static builds and all **24,297** built artifacts.
+  (`e762faa3e65f4a7be1e910ab4299df43651e086dcce199437e25c7a0fbde07fa`)
+- Latest deterministic build (Batch 129): **byte-for-byte identical** across
+  two consecutive static builds and all **24,374** public, generated, and
+  built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `9fbbbfe6d37e618aad061e06ecf2ecf7b459e83397b7c54a4016dd1b19a4f3b8`
+  `51af054094c585e86a043e6263f0ffe0b9cdbbbbf8ec9279b1cc19094dbde75b`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,373** production artifacts, including compressed mirrors
+  matches** in **24,374** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **961** public records representing **796** unique documents
-- Private citation records: **1,703**
-- Published, qualified affiliations: **487**
-- Published or conflict-visible claims: **931**
+- Reviewed public sources: **969** public records representing **801** unique documents
+- Private citation records: **1,722**
+- Published, qualified affiliations: **490**
+- Published or conflict-visible claims: **938**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **240** people with confirmed/high published
+- Verified-affiliation metric: **242** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **136** people with confirmed/high published
+- Verified-employer metric: **138** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 128 production workflow and deployment checks: **passed** for release
-  `e98fa76`
+- Batch 129 local release checks: **passed**; production workflow and deployment
+  verification follow the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3314,6 +3315,66 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 129 local release QA
+
+Batch 129 adds the ten visually checked page-nineteen rows from Kenneth H.
+Baker through William H. Baker. The strict reviewed-evidence bundle imports ten
+durable research attempts, nineteen citation records, three organizations,
+three affiliations, seven claims, and thirteen claim-source links. Kenneth H.
+Baker receives a high-confidence identity and a verified immediate and last
+civilian employer. Richard B. Baker receives a high-confidence identity, a
+verified immediate government assignment, and verified earlier employment;
+his last civilian employer remains unresolved. Ralph C. Baker receives only a
+qualified probable identity lead and no affiliation. The other seven profiles
+remain unresolved after the minimum protocol and route to Box 31.
+
+The PDF page was inspected at original resolution and all ten rows matched the
+stored raw and normalized fields without parser correction. The research model
+keeps Kenneth Baker's university employment separate from his reserve and
+wartime military status, Richard Baker's Library of Congress assignment
+separate from Providence Journal employment, and Ralph Baker's uncorroborated
+weather-squadron candidate outside public affiliation facts. The import's
+first full browser run exposed a canonical-name overwrite between the existing
+`The Ohio State University` organization and the new source wording. The
+bundle now reuses the established canonical organization while retaining
+`Ohio State University` as the source form and alias. Focused Batch 015, 020,
+and 129 regressions passed 9 / 9 across all three viewports after the repair.
+
+The full 522-page replay retained all 23,978 source rows and 23,941 cautious
+person entities. The ingest validator passed every completeness and
+warning-review invariant; SQLite `quick_check` returned `ok`, and the
+foreign-key check returned zero errors. The Python suite passed 55 / 55. The
+complete browser, responsive, direct-route, search, and axe matrix passed
+432 / 432 across desktop, phone, and tablet, including all 27 dedicated axe
+cases. The internal-link checker passed all 24,229 HTML pages and inventoried
+48,690 unique external URLs. Astro reported zero errors, warnings, or hints,
+the dependency audit found zero vulnerabilities, and the deterministic
+200-profile stratified audit passed every invariant.
+
+Two consecutive final static builds produced the identical
+`e762faa3e65f4a7be1e910ab4299df43651e086dcce199437e25c7a0fbde07fa`
+content-tree hash across 24,374 public, generated, and built-site artifacts.
+All 65 public manifest assets match their recorded sizes and SHA-256 values in
+both the public source tree and built site. The manifest forbidden-field check
+passed, and the manifest SHA-256 is
+`51af054094c585e86a043e6263f0ffe0b9cdbbbbf8ec9279b1cc19094dbde75b`.
+All 35 compressed mirrors match their uncompressed counterparts. A
+boundary-aware scan compared 12,919 nontrivial normalized private identifiers
+plus 121 formatted raw variants against all 24,374 production artifacts and
+found zero unexpected full-number matches. No authenticated Catalog API
+request or raw Catalog response was used.
+
+The Batch 129 database contains 2,140 durable research attempts, 1,722 private
+citation records, 494 affiliations, 282 organizations, and 959 claims: 185
+confirmed, 634 high, 115 medium, 21 low, and four conflicting. The reviewed
+public projection contains 969 source records representing 801 unique
+documents, 490 affiliations, and 938 published, qualified, or conflict-visible
+claims. Coverage distinguishes 1,110 people with a non-planned research
+attempt, 242 with verified-affiliation evidence, 138 with verified employment
+or self-employment evidence, and 1,058 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 280 organizations, 490
+affiliations, and 969 sources.
 
 ## Batch 128 local release QA
 

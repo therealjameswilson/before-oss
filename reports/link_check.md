@@ -4,15 +4,15 @@ Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,227 HTML files. Every relative
+**PASS.** The production build contains 24,229 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 278 organization profiles, and the
+The build includes 23,941 person profiles, 280 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,682 unique external URLs for separate live
+The checker inventoried 48,690 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -20,6 +20,11 @@ verification; external responses do not affect the internal-route pass.
 | Target | Result |
 |---|---|
 | NARA Access to Archival Databases, Army enlistment tables | Public records reviewed through the current AAD interface; private identifiers were used only for identity comparison and are not published |
+| National Park Service, *A Wartime Organization for Unconventional Warfare* | Official history reviewed for Kenneth H. Baker's Ohio State post, 1941 Donovan recruitment, lieutenant-colonel commission, and OSS training role |
+| *Broadcasting-Telecasting*, April 22, 1946 | Contemporary profile PDF rendered and visually reviewed for Kenneth Hammond Baker's 1940 Ohio State appointment and summer 1941 recruitment chronology |
+| Yale University Library, Richard Brown Baker papers | Institutional finding-aid PDF rendered and visually reviewed for the 1939 Providence Journal and 1941-1942 Library of Congress chronology |
+| Rhode Island Historical Society, Richard Brown Baker papers | Institutional finding aid reviewed as independent identity and career context |
+| Grey Beret Association, “The Yugoslavia Caper” | Veteran account and embedded transcription of 19th Weather Squadron orders reviewed only as a qualified Ralph C. Baker identity lead |
 | General Services Administration, *GSA Memorials*, volume 27 | Institutional PDF rendered and visually reviewed for Arthur Baker III's Wesleyan, Camp Hale, Army, and OSS sequence |
 | University of Washington, *General Catalog, 1944-1945* | Direct institutional PDF reviewed; Elizabeth Emaline Bacon appears among faculty on leave as Instructor in Far Eastern Studies |
 | Smithsonian Institution, Wendell Clark Bennett, *The Ethnogeographic Board* | Institutional item record and digitized 1947 report reviewed for Elizabeth Bacon's wartime board chronology |
@@ -1134,6 +1139,33 @@ manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+
+## Batch 129 local release check
+
+The rebuilt site contains direct, internally resolved routes for Kenneth H.
+Baker, Levi J. Baker, Marvin D. Baker, Nicholas J. Baker, Ralph C. Baker,
+Ralph P. Baker, Richard B. Baker, Rosalie M. Baker, William A. Baker, and
+William H. Baker. Every route preserves page-nineteen and Box 31 provenance, a
+masked or explicitly unprinted private identifier, and the reviewed personnel
+classification. Kenneth's profile presents the verified Ohio State pathway;
+Richard's separates the Library of Congress and Providence Journal
+relationships; Ralph C.'s weather-squadron lead remains qualified without an
+affiliation. The other seven profiles visibly retain unresolved identity and
+archival-review status.
+
+Direct organization routes for The Ohio State University, the Library of
+Congress, and The Providence Journal resolve and link back to the intended
+profiles. The complete local link checker passed all 24,229 HTML files and
+inventoried 48,690 unique external URLs. The public downloads contain 23,941
+person rows, 280 organization rows, 490 affiliation rows, and 969 source rows.
+All 65 manifest-listed assets match their recorded sizes and SHA-256 values in
+both the public source tree and built site, and the manifest forbidden-field
+check passed. The local manifest SHA-256 is
+`51af054094c585e86a043e6263f0ffe0b9cdbbbbf8ec9279b1cc19094dbde75b`.
+All 35 compressed mirrors match their uncompressed counterparts. A
+boundary-aware scan of 12,919 normalized private identifiers and 121 formatted
+raw variants across 24,374 production artifacts found zero unexpected full
+matches.
 
 ## Batch 128 local release check
 

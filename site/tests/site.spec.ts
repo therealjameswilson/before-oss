@@ -13,9 +13,9 @@ test("home reports the complete index and incomplete research honestly", async (
   await expect(page.getByText("23,978", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("Verified employer found", { exact: true })).toBeVisible();
   await expect(
-    page.getByText(/136 entities currently have confirmed\/high published employment or self-employment evidence/i),
+    page.getByText(/138 entities currently have confirmed\/high published employment or self-employment evidence/i),
   ).toBeVisible();
-  await expect(page.getByText(/broader affiliation measure currently covers 240 entities/i)).toBeVisible();
+  await expect(page.getByText(/broader affiliation measure currently covers 242 entities/i)).toBeVisible();
   await expect(page.getByText(/The directory is complete; the historical research is not/i)).toBeVisible();
 });
 
@@ -11870,5 +11870,81 @@ test("Batch 128 qualifies Gibbs Baker's law practice and preserves nine unresolv
   );
   await expect(page.locator("main")).toContainText(
     "The 1910 Douglas, Baker & Sherrill record belongs to an older namesake and must remain excluded",
+  );
+});
+
+test("Batch 129 documents Baker's Ohio State and Library of Congress pathways while qualifying the weather candidate", async ({
+  page,
+}) => {
+  const unresolvedProfiles = [
+    ["56e95210-bf70-5342-afc5-b511d84a05c2", "Levi J Baker", "commissioned army officer"],
+    ["1540e189-7b4c-5528-a9fa-754c14db44db", "Marvin D Baker", "enlisted army personnel"],
+    ["a84ef72a-98e1-5b1e-a9d7-d3f404afebb2", "Nicholas J Baker", "enlisted army personnel"],
+    ["a1d3990a-5804-52bf-a4af-9c223b242ec9", "Ralph P Baker", "commissioned army officer"],
+    ["5c919a2d-8039-53c2-909d-d3abb6cb19ea", "Rosalie M Baker", "civilian professional or administrative grade"],
+    ["ffb2ae03-c09b-5f0f-ab80-a7ba36325a6b", "William A Baker", "enlisted army personnel"],
+    ["f7ec0950-934f-56ed-bc52-52155fbf64f2", "William H Baker", "unknown or indeterminate"],
+  ];
+
+  for (const [personId, displayName, personnelCategory] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("31", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(personnelCategory);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/2490f5eb-b7f6-567b-8e4f-a1ae385d4d4d/");
+  await expect(page.getByRole("heading", { name: "Kenneth H Baker", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Ohio State University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Ohio State University",
+  );
+  await expect(page.locator("main")).toContainText("Kenneth Hammond Baker");
+  await expect(page.locator("main")).toContainText("assistant professor of psychology");
+
+  await page.goto("./organizations/de52c90c-62bc-532e-a99e-a7d9ca019c09/");
+  await expect(page.getByRole("heading", { name: "The Ohio State University", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Kenneth H Baker");
+
+  await page.goto("./people/179dfadc-1686-5c3c-a22a-ad401b10d959/");
+  await expect(page.getByRole("heading", { name: "Richard B Baker", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Library of Congress",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "government assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "The Providence Journal",
+  );
+  await expect(page.locator("main")).toContainText("Richard Brown Baker");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/1abbbf6f-6165-5224-86bc-a3aaf7272693/");
+  await expect(page.getByRole("heading", { name: "Ralph C Baker", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("19th Weather Squadron");
+  await expect(page.locator("main")).toContainText("identity is not yet resolved");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
   );
 });

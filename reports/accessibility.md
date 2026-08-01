@@ -4,13 +4,13 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 423 / 423 complete-suite browser cases across desktop, phone, and
+**PASS - 432 / 432 complete-suite browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The final Batch 126 suite completed without an assertion, navigation, or
+The final Batch 129 suite completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -30,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-136-person employer measure is labeled separately from the 239-person broader
+138-person employer measure is labeled separately from the 242-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1011,6 +1011,27 @@ repeated the complete research and site matrix for release `816ce56` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+
+## Batch 129 accessibility and responsive regression
+
+Batch 129 verifies Kenneth H. Baker through William H. Baker at desktop,
+phone, and tablet sizes. It checks all ten direct profile routes, page-nineteen
+and Box 31 provenance, exact indexed forms, reviewed personnel categories,
+field-level serial masking, and archival guidance. Kenneth H. Baker's profile
+separates verified Ohio State employment from military status and displays it
+in both predecessor questions. Richard B. Baker's profile separates the
+Library of Congress government assignment from earlier Providence Journal
+employment and leaves the last-civilian-employer question unresolved. Ralph C.
+Baker's profile visibly qualifies the weather-squadron candidate and publishes
+no affiliation. The other seven profiles retain dignified unresolved status.
+
+The initial complete run exposed only a canonical organization-label
+regression affecting earlier Ohio State profiles. Reusing the established
+`The Ohio State University` canonical record while preserving source wording
+resolved it. The focused cross-batch regression then passed 9 / 9, and the
+complete desktop, phone, and tablet matrix passed 432 / 432, including 3 / 3
+Batch 129 cases and all 27 / 27 dedicated axe cases, with no assertion,
+navigation, or serious/critical axe failure.
 
 ## Batch 128 accessibility and responsive regression
 
