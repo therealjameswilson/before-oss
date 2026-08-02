@@ -5,35 +5,35 @@ Run: 2026-08-02 UTC
 - Python unit tests: **56 / 56 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,253 pages**
-- Internal link check: **24,253 HTML files passed**
-- Browser and accessibility suite: **519 / 519 passed** across desktop,
+- Static production build: **24,256 pages**
+- Internal link check: **24,256 HTML files passed**
+- Browser and accessibility suite: **522 / 522 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`10b7afadefbaa45dda8db5cfbb0d680712b8a6060e6431a77de2a2b2f18b032b`)
-- Latest deterministic build (Batch 158): **byte-for-byte identical** across
-  consecutive static builds and all **24,323** built-site artifacts.
+  (`c76351d4a5bca49521ce44afa51f250b1bf2d58122a5188a0f9913c6f6f4ff91`)
+- Latest deterministic build (Batch 159): **byte-for-byte identical** across
+  consecutive static builds and all **24,326** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `a9fd1d6389a53e39de94973df2f2de8a75cc359c2e9e90802aa6045d07fa3f83`
+  `33d939fdfdd0ba9983997cb86e56d7e3975799015c9d150280579da23eddfe98`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,323** production artifacts, including compressed mirrors
+  matches** in **24,326** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,105** public records representing **896** unique documents
-- Private citation records: **2,081**
-- Published, qualified affiliations: **538**
-- Published or conflict-visible claims: **1,043**
+- Reviewed public sources: **1,113** public records representing **904** unique documents
+- Private citation records: **2,089**
+- Published, qualified affiliations: **545**
+- Published or conflict-visible claims: **1,053**
 - Withheld low-confidence evidence: **25 claims concerning 20 people**
-- Verified-affiliation metric: **265** people with confirmed/high published
+- Verified-affiliation metric: **266** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **152** people with confirmed/high published
+- Verified-employer metric: **153** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -44,10 +44,61 @@ Run: 2026-08-02 UTC
 - Batch 157 production verification: **passed**
 - Batch 158 local release checks: **passed**; the combined **519-case** browser
   matrix runs in release CI
+- Batch 159 local release checks: **passed**; the combined **522-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 159 local release QA
+
+Batch 159 adds the ten visually checked page-twenty-six rows from Philip
+Bastedo through Lasalle M. Bates. The strict bundle imports eight sources,
+five organizations (three new and two reused), seven affiliations, ten claims,
+nineteen claim-source links, ten person updates, and ten terminal research
+attempts. Official wartime publications support Philip Bastedo's
+high-confidence unnamed New York law-firm employment and earlier Public Works
+Administration, Treasury, and Office of Civilian Defense assignments; his
+Lend-Lease role is published only as a medium-confidence probable-immediate
+affiliation. Edward G. Batcheler's exact private identifier confirms the
+identity represented by a NARA-derived Army enlistment transcription, which
+supports an occupation but names no employer. A Princeton institutional
+memorial supports Chandler Bates Jr.'s identity and pre-OSS student status,
+which remains distinct from employment. The other seven profiles retain
+explicit archival-review outcomes instead of namesake claims.
+
+The bundle passed schema validation and the complete from-source rebuild
+reconstructed all 23,978 source rows, 23,941 person entities, reviewed evidence
+bundles, derived exports, and static pages. SQLite `quick_check` returned `ok`,
+the foreign-key check returned zero rows, the Python suite passed 56 / 56, and
+the deterministic 200-profile audit passed every invariant. Astro reported
+zero errors, warnings, or hints and built 24,256 pages. The internal-link
+checker passed every page and inventoried 48,798 unique external URLs. The
+complete browser, responsive, direct-route, search, and axe matrix passed 522 /
+522 across desktop, phone, and tablet. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`c76351d4a5bca49521ce44afa51f250b1bf2d58122a5188a0f9913c6f6f4ff91`
+across 24,326 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `33d939fdfdd0ba9983997cb86e56d7e3975799015c9d150280579da23eddfe98`.
+The boundary-aware scan examined 995 candidate substrings and found zero
+unexpected matches. No authenticated Catalog request, API credential, or raw
+Catalog response was used.
+
+The Batch 159 database contains 2,440 durable research attempts, 2,089 private
+source records representing 904 unique documents, 310 organizations, 552
+affiliations, 1,078 claims, and 2,170 claim-source links. Claim confidence is
+192 confirmed, 715 high, 142 medium, 25 low, and four conflicting. The public
+projection contains 1,113 sources, 307 organizations, 545 affiliations, and
+1,053 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,407 people with a non-planned research attempt, 266 with
+verified-affiliation evidence, 153 with verified employment or self-employment
+evidence, and 1,356 whose archival-review need has been assessed. The
+`not_started` count is 22,534 and `requires_archival_review` is 1,020.
 
 ## Batch 158 local release QA
 

@@ -14021,7 +14021,7 @@ test("Batch 157 separates Bascom and Basehart pathways from confirmed identity a
   for (const [organizationId, organizationName, personName] of organizationProfiles) {
     await page.goto(`./organizations/${organizationId}/`);
     await expect(page.getByRole("heading", { name: organizationName, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: personName, exact: true })).toBeVisible();
+    await expect(page.locator("h3").getByRole("link", { name: personName, exact: true })).toBeVisible();
   }
 });
 
@@ -14069,4 +14069,134 @@ test("Batch 158 preserves Basile through Bastain rows as explicit archival-revie
   await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).not.toContainText(
     "oil and gas",
   );
+});
+
+test("Batch 159 separates Bastedo, Batcheler, and Chandler Bates pathways from archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e05a6594-1bd3-5342-8ee4-d21bc9644486", "Philip Bastedo", "Not printed", "41"],
+    ["2a66eb04-b053-55fc-a5a3-d5fcefffe8eb", "Charles Bastin", "Not printed", "41"],
+    ["6301b6ac-4c1b-55cb-80c0-853d7ea56136", "Edward G Batcheler", "Pfc", "41"],
+    ["9ac8751d-0283-5100-87eb-19ae29b0f403", "Arthur S Bates", "Capt", "42"],
+    ["c436d0a1-b90f-5e0a-8d5b-6129e0c8dc1d", "Blanchard W Bates", "Not printed", "42"],
+    ["24888a46-3e62-50b5-9580-c0d7f44005ee", "Chandler Bates Jr.", "1st Lt", "42"],
+    ["2b56440f-a83e-57e9-8ce6-9160758642d0", "Daniel J Bates", "2nd Lt", "42"],
+    ["f595a1c2-8db9-500a-9ff3-ad9f30b84c3b", "Ellen F Bates", "Caf-5", "42"],
+    ["266ddd1d-c3a9-5832-9907-30c51cdd3baf", "James C Bates", "Caf-3", "42"],
+    ["2c1520b2-ee5c-531a-95a2-f951967faf1b", "Lasalle M Bates", "Pvt", "42"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 26");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = [
+    "2a66eb04-b053-55fc-a5a3-d5fcefffe8eb",
+    "9ac8751d-0283-5100-87eb-19ae29b0f403",
+    "c436d0a1-b90f-5e0a-8d5b-6129e0c8dc1d",
+    "2b56440f-a83e-57e9-8ce6-9160758642d0",
+    "f595a1c2-8db9-500a-9ff3-ad9f30b84c3b",
+    "266ddd1d-c3a9-5832-9907-30c51cdd3baf",
+    "2c1520b2-ee5c-531a-95a2-f951967faf1b",
+  ];
+
+  for (const personId of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/e05a6594-1bd3-5342-8ee4-d21bc9644486/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Office of Lend-Lease Administration",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "probable immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "a New York law firm",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Office of Civilian Defense",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Public Works Administration",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Department of the Treasury",
+  );
+  await expect(page.getByRole("link", { name: /Victory Bulletin/ }).first()).toHaveAttribute(
+    "href",
+    /govinfo\.gov/,
+  );
+  await expect(page.getByRole("link", { name: "OCD News Letter", exact: true }).first()).toHaveAttribute(
+    "href",
+    /govinfo\.gov/,
+  );
+
+  await page.goto("./people/6301b6ac-4c1b-55cb-80c0-853d7ea56136/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).toContainText(
+    "Unskilled work in building transportation equipment other than automobiles and aircraft",
+  );
+  await expect(
+    page.getByRole("link", { name: /Hancock County Maine Army Enlistments/ }).first(),
+  ).toHaveAttribute("href", /usgenwebsites\.org/);
+
+  await page.goto("./people/24888a46-3e62-50b5-9580-c0d7f44005ee/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Princeton University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.getByRole("link", { name: "Chandler Bates '43", exact: true }).first()).toHaveAttribute(
+    "href",
+    /paw\.princeton\.edu/,
+  );
+
+  const organizationProfiles = [
+    ["701aa2f1-90c7-54a7-bdc4-dce24e146d82", "Office of Lend-Lease Administration", "Philip Bastedo"],
+    ["90b9ebed-28fd-5f23-ae4c-41bd228440ef", "Office of Civilian Defense", "Philip Bastedo"],
+    ["20a22de0-f313-50e1-9aea-6ac774c1791c", "Public Works Administration", "Philip Bastedo"],
+    ["d2e4efe8-b2f7-557b-b653-d3f32d265c2c", "United States Department of the Treasury", "Philip Bastedo"],
+    ["ad6bb38c-850a-50e4-b092-d33163c93875", "Princeton University", "Chandler Bates Jr."],
+  ];
+
+  for (const [organizationId, organizationName, personName] of organizationProfiles) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(page.getByRole("heading", { name: organizationName, exact: true })).toBeVisible();
+    await expect(page.locator("h3").getByRole("link", { name: personName, exact: true })).toBeVisible();
+  }
 });

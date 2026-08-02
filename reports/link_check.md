@@ -4,16 +4,39 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,253 HTML files. Every relative
+**PASS.** The production build contains 24,256 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 304 organization profiles, and the
+The build includes 23,941 person profiles, 307 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,789 unique external URLs for separate live
+The checker inventoried 48,798 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 159 local release check
+
+The complete 24,256-page internal-link pass includes direct routes for Philip
+Bastedo, Charles Bastin, Edward G. Batcheler, Arthur S. Bates, Blanchard W.
+Bates, Chandler Bates Jr., Daniel J. Bates, Ellen F. Bates, James C. Bates,
+and Lasalle M. Bates. It also includes the Office of Lend-Lease
+Administration, Office of Civilian Defense, Public Works Administration,
+United States Department of the Treasury, and Princeton University
+organization routes. The Batch 159 regression passed at desktop, phone, and
+tablet sizes. Bastedo's government and civilian pathways remain separate,
+Batcheler's source supports an occupation but not an employer, Chandler Bates
+Jr.'s Princeton status is modeled as student rather than employment, and the
+other seven profiles preserve explicit no-result and archival-review language.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`33d939fdfdd0ba9983997cb86e56d7e3975799015c9d150280579da23eddfe98`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`c76351d4a5bca49521ce44afa51f250b1bf2d58122a5188a0f9913c6f6f4ff91`.
+The boundary-aware audit reviewed 995 candidate substrings across 24,326 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 158 local release check
 
