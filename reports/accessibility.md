@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 507 / 507 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 516 / 516 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 169 desktop, 169 phone, and 169 tablet cases. Every case
+The matrix contains 172 desktop, 172 phone, and 172 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
 combined 507-case matrix.
@@ -32,7 +32,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-150-person employer measure is labeled separately from the 261-person broader
+152-person employer measure is labeled separately from the 265-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -42,6 +42,17 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 157 adds direct desktop, phone, and tablet checks for Paul E. Baschor
+through George T. Basiardanes across pages twenty-five and twenty-six. It
+verifies all ten source rows, Box 41 routing, printed ranks and grades, and
+masked identifier display. William R. Bascom's Northwestern University faculty
+employment remains separately visible as his immediate pre-COI affiliation and
+last civilian employer. Harry W. Basehart's Army Specialized Training Program
+assignment remains distinct from his last civilian employer, the Works Progress
+Administration. George T. Basiardanes's official-roster identity is confirmed
+without inventing a civilian employer, while the other seven profiles retain
+explicit archival-review guidance. The three organization routes link back to
+their documented personnel.
 Batch 154 adds direct desktop, phone, and tablet checks for Thomas F. Barry
 through Anthony J. Barther on page twenty-five. It verifies all ten source
 rows, Box 40 routing, printed military and foreign grades, the Polish and

@@ -13921,3 +13921,106 @@ test("Batch 156 preserves Bartolomeo through Baru rows as explicit archival-revi
     await expect(page.locator("main")).toContainText(`Review Box ${box}`);
   }
 });
+
+test("Batch 157 separates Bascom and Basehart pathways from confirmed identity and archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["9aa47132-dd29-5e1b-8622-d892bd9c8bd8", "Paul E Baschor", "SP X 1/c", "25"],
+    ["c02d5bb2-1bf7-5b38-b0b5-b6ed428ef0ba", "William R Bascom", "WAE", "25"],
+    ["1165e3fd-89a8-5fcd-b85b-d5547cae558b", "Harry W Basehart", "Capt", "25"],
+    ["c848543a-0096-568b-91c2-13c6d4b554d9", "Ben W Basenko", "Not printed", "26"],
+    ["d4a46e0a-fde0-5f79-b9a2-3db21f67ae8c", "Anthony W Basetta", "Pvt", "26"],
+    ["787b59d0-2bd5-5345-b224-d19e17d503d7", "David S Basevi", "Pvt", "26"],
+    ["a032c11a-1a8d-5fa1-8326-3d08fcbe5edc", "Joseph F Bashista", "Cpl", "26"],
+    ["c28c48d2-82ca-578e-98e5-949b509250cc", "Hazel S Bashor", "Caf-3", "26"],
+    ["30d8d36b-d61a-5bbc-95fc-4749cc75480e", "Paul Bashor", "Not printed", "26"],
+    ["881905f2-3da9-5b95-ad80-493ba64ca5c9", "George T Basiardanes", "T-5", "26"],
+  ];
+
+  for (const [personId, displayName, rank, pageNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("41", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(`Page ${pageNumber}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = profiles.filter(
+    ([personId]) =>
+      ![
+        "c02d5bb2-1bf7-5b38-b0b5-b6ed428ef0ba",
+        "1165e3fd-89a8-5fcd-b85b-d5547cae558b",
+        "881905f2-3da9-5b95-ad80-493ba64ca5c9",
+      ].includes(personId),
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/c02d5bb2-1bf7-5b38-b0b5-b6ed428ef0ba/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Northwestern University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Northwestern University",
+  );
+  await expect(page.locator("main")).toContainText("anthropology faculty member");
+  await expect(page.getByRole("link", { name: /Founding Anthropology/ }).first()).toHaveAttribute(
+    "href",
+    /northwestern\.edu/,
+  );
+
+  await page.goto("./people/1165e3fd-89a8-5fcd-b85b-d5547cae558b/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Army Specialized Training Program",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Works Progress Administration",
+  );
+  await expect(page.locator("main")).toContainText("military assignment");
+  await expect(page.getByRole("link", { name: /Harry W\. Basehart: An Appreciation/ }).first()).toHaveAttribute(
+    "href",
+    /pageplace\.de/,
+  );
+
+  await page.goto("./people/881905f2-3da9-5b95-ad80-493ba64ca5c9/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Greek Operational Group roster");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.getByRole("link", { name: /Greek Operational Group personnel/ }).first()).toHaveAttribute(
+    "href",
+    /elia\.org\.gr/,
+  );
+
+  const organizationProfiles = [
+    ["010d3e98-f501-58c2-a2ad-ba0dc45aaf81", "Northwestern University", "William R Bascom"],
+    ["86c97558-d99b-52e9-808b-5ed74a87536a", "Works Progress Administration", "Harry W Basehart"],
+    ["fca60c0c-b288-54f2-b3a9-5ab0370f00eb", "Army Specialized Training Program", "Harry W Basehart"],
+  ];
+
+  for (const [organizationId, organizationName, personName] of organizationProfiles) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(page.getByRole("heading", { name: organizationName, exact: true })).toBeVisible();
+    await expect(page.getByRole("link", { name: personName, exact: true })).toBeVisible();
+  }
+});

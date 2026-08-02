@@ -4,16 +4,38 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,250 HTML files. Every relative
+**PASS.** The production build contains 24,253 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 301 organization profiles, and the
+The build includes 23,941 person profiles, 304 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,783 unique external URLs for separate live
+The checker inventoried 48,789 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 157 local release check
+
+The complete 24,253-page internal-link pass includes direct routes for Paul E.
+Baschor, William R. Bascom, Harry W. Basehart, Ben W. Basenko, Anthony W.
+Basetta, David S. Basevi, Joseph F. Bashista, Hazel S. Bashor, Paul Bashor, and
+George T. Basiardanes. It also includes the new Northwestern University, Works
+Progress Administration, and Army Specialized Training Program organization
+pages. The Batch 157 regression passed at desktop, phone, and tablet sizes.
+Bascom's civilian faculty pathway and Basehart's military-to-civilian pathway
+remain distinct, Basiardanes's official-roster identity does not become an
+unsupported employer claim, and the other seven profiles preserve explicit
+no-result language and Box 41 archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`f9e7cbc1676c1a9d600e161638716aafb9532e9d4218029bb2e3b388ecdef374`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`6784e02d2ceff58c51e6c4ef005779c3ce9f4b14cac5822abd8bcee9f5032853`.
+The boundary-aware audit reviewed 997 candidate substrings across 24,323 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 156 local release check
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:07:17+00:00",
+  "generated_at": "2026-08-02T14:38:12+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -21,7 +21,8 @@
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 17,
-    "unknown_or_indeterminate": 92,
+    "temporary_contract_or_special_personnel": 1,
+    "unknown_or_indeterminate": 91,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -96,6 +97,7 @@
     "638047fa-fbbe-53c7-96d4-77c794b814c2",
     "2998b40c-5285-58d6-bf7c-ae665d14182b",
     "000282d2-345f-5f0e-bc72-a9bdd37c2ea3",
+    "c02d5bb2-1bf7-5b38-b0b5-b6ed428ef0ba",
     "b1763bd5-7915-5240-83e1-2668f5a7cb64",
     "58dee0d5-c3fd-5bc2-8ee2-167c5c1aa76c",
     "2332bb8a-b5e4-53a7-99ab-280283049f83",
@@ -120,7 +122,6 @@
     "c3af4075-e97a-5342-b52a-ee92adb135a4",
     "6a846dd9-b29a-5b8d-b4de-b54d826ff669",
     "de4c2471-9a3a-54e7-8840-ff542b9a7d56",
-    "1bf47b8e-87c1-5ff3-8ff4-6a4eab390d35",
     "fe52d758-d6dd-5890-bf81-b66c092e7b5e",
     "77c4394e-748a-5cc8-944e-10fae7af4791",
     "d5ae5010-380a-5892-adb2-86b5396651aa",
@@ -238,7 +239,6 @@
     "234735bc-1884-5041-8a01-05d66854340c",
     "1147408f-3793-5ab4-9176-58a04dd8ad5f",
     "f7687b71-e238-5390-a43c-2552d9e641d6",
-    "ae91f5d4-44b6-5096-89e9-9f6debbf5a24",
     "5bc32ab9-22d4-5f2f-ada5-25ec431c6181",
     "3049d936-8a0c-5bc3-9e6d-4024e9f59dd3",
     "7611975b-3f56-50cf-929e-99252df7490f",
@@ -255,6 +255,7 @@
     "20142861-23ff-5d07-97fb-9e22ccdd797c",
     "2d6ce766-6f15-5170-8ec8-0f947b9a071a",
     "c149ac40-bafc-5f8b-952b-fd452a6862b2",
+    "1bf47b8e-87c1-5ff3-8ff4-6a4eab390d35",
     "b58f40d0-800d-5896-a000-739c99c91902",
     "0e775c55-4587-5dd5-a362-49e047ca33c3",
     "9c74bb04-6646-58e2-b695-57739805d6a3",
