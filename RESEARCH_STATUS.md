@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,358 people with a non-planned attempt | 23,941 person entities | 5.6723% |
-| Verified-affiliation coverage | 262 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0944% |
-| Verified-employer coverage | 150 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6265% |
-| Archival-review coverage | 1,307 people with an individual file-access/priority assessment | 23,941 person entities | 5.4593% |
+| Research-attempt coverage | 1,416 people with a non-planned attempt | 23,941 person entities | 5.9145% |
+| Verified-affiliation coverage | 266 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1111% |
+| Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
+| Archival-review coverage | 1,365 people with an individual file-access/priority assessment | 23,941 person entities | 5.7015% |
 
 ## Extraction and identity
 
@@ -21,51 +21,51 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 85
-- Identity status `high_confidence`: 329
-- Identity status `probable`: 48
+- Identity status `confirmed`: 92
+- Identity status `high_confidence`: 335
+- Identity status `probable`: 47
 - Identity status `ambiguous`: 26
-- Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,448
+- Identity status `conflicting`: 6
+- Identity status `unresolved`: 23,435
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,501
+- Unknown or indeterminate: 16,498
 - Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,462
+- Civilian professional or administrative grades: 1,463
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 53
+- Enlisted naval personnel: 54
 - Commissioned naval officers: 81
 - Warrant officers: 5
 
-Commissioned classification: 2,168 yes; 5,045 no; 16,728 indeterminate.
+Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,583
+- `not_started`: 22,525
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 14
+- `needs_identity_review`: 13
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
-- `occupation_only_found`: 71
-- `requires_archival_review`: 975
+- `occupation_only_found`: 77
+- `requires_archival_review`: 1,024
 - `completed`: 55
-- `conflicting_sources`: 4
-- `verified_employer_found`: 154
+- `conflicting_sources`: 5
+- `verified_employer_found`: 157
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 176
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
-- Reviewed-official-web attempts recorded: 31
+- Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 783
+- Reviewed-web terminal-protocol attempts recorded: 840
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -82,12 +82,12 @@ Commissioned classification: 2,168 yes; 5,045 no; 16,728 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 458 across 438 people; 30 additional
+- Saved `source_reviewed` outcomes: 472 across 452 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,390
+- Total recorded attempts/plans: 2,449
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 443; 425 have at least one public-eligible
+- People with saved reviewed claims: 456; 438 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1761,14 +1761,32 @@ Commissioned classification: 2,168 yes; 5,045 no; 16,728 indeterminate.
   `Polish Ar`, `RA1303`, and `S/Lt` forms remain unexpanded. No authenticated
   Catalog request, credential, raw response, full private identifier, sensitive
   family detail, or discovery-only employer claim was used or published.
-- Published affiliations: 534
-- Database claims: 1,054; public-visible claims: 1,033 (189 confirmed, 699 high,
-  141 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,118; private source records: 2,064; public source export:
-  1,089; unique source documents: 884
-- Canonical organizations: 303 private and 301 public
-- Conflicts: 5
-- NARA pull-list rows: 23,824
+- Batch 160 covers the ten visually checked page-twenty-six rows from Robert
+  H. Bates through Sam Battaglio; Gregory Bateson's previously reviewed profile
+  is carried forward without a duplicate attempt. The strict bundle imports
+  eight sources, one organization, six affiliations, eleven claims, thirty-two
+  claim-source links, nine person updates, and nine terminal research attempts.
+  Exact private-identifier matches to the official NARA Army enlistment merged
+  file confirm Andrew G. Bato, Salvatore E. Battaglia, Rene Battaglini, and Sam
+  Battaglio. Their records support occupation categories only and name no
+  employer. A Bancroft Library oral history adds a qualified Marine Cooks and
+  Stewards professional affiliation for Battaglini, not employment. Carl E.
+  Bathory remains a visible conflict: a direct 1944 OSS report calls the
+  officer Carl A. and prints a different identifier, while a compiled roster
+  gives C. E. Bathory. The student-status lead is therefore conflict-labeled
+  and excluded from settled biography and analytics. Robert H. Bates, Philip
+  R. Bath, Alexander Bathory, and Harry C. Batson route to Box 42 review.
+  Unfamiliar `CSP P A` and `PHOM 1` text remains unexpanded. No authenticated
+  Catalog request, credential, raw API response, or full private identifier was
+  used or published.
+- Published affiliations: 551
+- Database claims: 1,089; public-visible claims: 1,064 (196 confirmed, 715 high,
+  147 medium, 6 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,202; private source records: 2,097; public source export:
+  1,120; unique source documents: 909
+- Canonical organizations: 311 private and 308 public
+- Conflicting claims: 6
+- NARA pull-list rows: 23,821
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1777,9 +1795,11 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ## Current blockers
 
-1. Live NARA research requires the `NARA_API_KEY` GitHub Actions secret and
-   `BEFORE_OSS_CONTACT_EMAIL` Actions variable. They are not configured, so the
-   adapter correctly fails closed without making a request.
+1. Live authenticated NARA research remains disabled. The key pasted into chat
+   is treated as compromised and was not used, stored, logged, or committed.
+   After it is rotated, the replacement must be added as the `NARA_API_KEY`
+   GitHub Actions secret and `BEFORE_OSS_CONTACT_EMAIL` Actions variable; the
+   adapter correctly fails closed until then.
 2. A standard NARA key cannot cover this source population in one month. The
    default project soft stop is 9,000 of a 10,000-request allowance; later-month
    continuation or an approved higher quota is required.
@@ -1806,6 +1826,8 @@ toward verified-affiliation coverage but not verified-employer coverage.
 ## Resume
 
 ```bash
+scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-six-robert-bates-through-battaglio-pathways_batch-160_2026-08-02.json
 python3 -m oss_research nara-check
 python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 111 --resume
 python3 -m oss_research research --source cia --batch pilot-v1 --max-queries 75 --resume

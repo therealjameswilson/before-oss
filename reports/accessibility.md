@@ -4,16 +4,16 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 522 / 522 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 525 / 525 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 174 desktop, 174 phone, and 174 tablet cases. Every case
+The matrix contains 175 desktop, 175 phone, and 175 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 522-case matrix.
+combined 525-case matrix.
 
 Routes tested at all three sizes:
 
@@ -42,6 +42,15 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 160 adds direct desktop, phone, and tablet checks for Robert H. Bates
+through Sam Battaglio on page twenty-six. It verifies all ten source rows,
+printed ranks or civilian grades, archival box routing, and masked identifier
+display. Official-record occupation evidence for Bato, Battaglia, Battaglini,
+and Battaglio remains distinct from employment; Battaglini's qualified union
+affiliation exposes its medium confidence and temporal limits; and Carl E.
+Bathory's evidence remains visibly conflicting and excluded from settled facts.
+The four unresolved profiles retain explicit no-result language and archival-
+review guidance, while Gregory Bateson's established profile remains intact.
 Batch 159 adds direct desktop, phone, and tablet checks for Philip Bastedo
 through Lasalle M. Bates on page twenty-six. It verifies all ten source rows,
 Box 41 or Box 42 routing, printed ranks or civilian grades, and masked

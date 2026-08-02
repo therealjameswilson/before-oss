@@ -4,16 +4,38 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,256 HTML files. Every relative
+**PASS.** The production build contains 24,257 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 307 organization profiles, and the
+The build includes 23,941 person profiles, 308 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,798 unique external URLs for separate live
+The checker inventoried 48,803 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 160 local release check
+
+The complete 24,257-page internal-link pass includes direct routes for Robert
+H. Bates, Gregory Bateson, Philip R. Bath, Alexander Bathory, Carl E. Bathory,
+Andrew G. Bato, Harry C. Batson, Salvatore E. Battaglia, Rene Battaglini, and
+Sam Battaglio. It also includes the Marine Cooks and Stewards Association
+organization route. The Batch 160 regression passed at desktop, phone, and
+tablet sizes. Four official-record occupation findings remain distinct from
+employers; Battaglini's qualified union affiliation retains its temporal and
+confidence labels; the Carl Bathory names and private identifiers remain a
+visible conflict; and the four unresolved profiles retain archival-review
+guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`f115f50617b46ddfe3f2f6e65222b94ed1f48938504544f7d0e47a7bb6f4c175`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`eafe78fdf9f2e96fb9fb98c019eb7f51648d3ee873dd48be7e6414de842fd704`.
+The boundary-aware audit reviewed 993 candidate substrings across 24,327 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 159 local release check
 

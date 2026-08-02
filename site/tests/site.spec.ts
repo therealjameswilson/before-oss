@@ -14200,3 +14200,108 @@ test("Batch 159 separates Bastedo, Batcheler, and Chandler Bates pathways from a
     await expect(page.locator("h3").getByRole("link", { name: personName, exact: true })).toBeVisible();
   }
 });
+
+test("Batch 160 preserves occupation-only evidence, unresolved profiles, and the Carl Bathory conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["05bd0de2-399d-52f2-a326-83044e48b54c", "Robert H Bates", "CSP P A"],
+    ["1147408f-3793-5ab4-9176-58a04dd8ad5f", "Gregory Bateson", "P-6"],
+    ["838f10f4-7b31-5b12-9e52-3cdaa36d1c98", "Philip R Bath", "PHOM 1"],
+    ["c386d291-d25e-57b8-a4c0-81585e9f55a6", "Alexander Bathory", "Pvt"],
+    ["91afaf4d-b55c-5b33-b2ff-89e588b698dd", "Carl E Bathory", "1st Lt"],
+    ["790ddd1d-3f30-564f-a521-b6452736a779", "Andrew G Bato", "Sgt"],
+    ["2e211e36-10a2-5a1b-ab7c-62a168d241ef", "Harry C Batson", "Pvt"],
+    ["d7d3e958-2603-5ddd-bbba-85478fdd7027", "Salvatore E Battaglia", "Pfc"],
+    ["71aa77b2-4eff-52ec-968b-625d7f766146", "Rene Battaglini", "T/Sgt"],
+    ["9a0210ca-af97-50eb-a6b4-ee9ce6c2417d", "Sam Battaglio", "Sgt"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("42", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 26");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "05bd0de2-399d-52f2-a326-83044e48b54c",
+    "838f10f4-7b31-5b12-9e52-3cdaa36d1c98",
+    "c386d291-d25e-57b8-a4c0-81585e9f55a6",
+    "2e211e36-10a2-5a1b-ab7c-62a168d241ef",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const occupationProfiles = [
+    [
+      "790ddd1d-3f30-564f-a521-b6452736a779",
+      "Professional or technical occupation group (code 039)",
+    ],
+    ["d7d3e958-2603-5ddd-bbba-85478fdd7027", "Laundry maintenance mechanic"],
+    ["71aa77b2-4eff-52ec-968b-625d7f766146", "Cook"],
+    [
+      "9a0210ca-af97-50eb-a6b4-ee9ce6c2417d",
+      "Tractor driver, heavy- or light-truck driver, or chauffeur (code 736)",
+    ],
+  ];
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+
+  await page.goto("./people/71aa77b2-4eff-52ec-968b-625d7f766146/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Marine Cooks and Stewards",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "professional affiliation",
+  );
+  await expect(
+    page.getByRole("link", { name: "Life of a Leftist Labor Lawyer", exact: true }).first(),
+  ).toHaveAttribute("href", /digicoll\.lib\.berkeley\.edu/);
+
+  await page.goto("./organizations/1be8bde7-fd8a-5cb2-a558-82025ccbac79/");
+  await expect(
+    page.getByRole("heading", { name: "Marine Cooks and Stewards Union", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("h3").getByRole("link", { name: "Rene Battaglini", exact: true })).toBeVisible();
+
+  await page.goto("./people/91afaf4d-b55c-5b33-b2ff-89e588b698dd/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("1st Lieutenant Carl A. Bathory");
+  await expect(page.locator("main")).toContainText("Was college student in civilian life");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator("main")).toContainText("middle initial and identifier");
+
+  await page.goto("./people/1147408f-3793-5ab4-9176-58a04dd8ad5f/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Museum of Modern Art",
+  );
+});
