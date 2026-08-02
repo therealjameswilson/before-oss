@@ -2560,6 +2560,46 @@ and no raw API response, full private identifier, copyrighted page, home
 address, relative's details, or people-finder data was stored in the public
 projection.
 
+## Page-twenty and page-twenty-one Ballew-through-Bally pathways, Batch 134
+
+`research/evidence-page-twenty-twenty-one-ballew-through-bally-pathways_batch-134_2026-08-01.json`
+records the final seven researched people on page 20 and the first three on
+page 21, from Mary J. Ballew through Georges S. Bally. Page 20 was already a
+complete visual match. Page 21 was rendered at 300 dpi and inspected at
+original resolution; all 46 printed rows match the parsed names, initials,
+ranks or civilian grades, identifier-column occupancy, boxes, notes, and
+archive locations. Full private identifiers remain in SQLite only.
+
+The strict bundle contains 13 source records, three public-visible identity
+claims, seven claim-source links, ten person updates, and ten terminal research
+attempts. Phil McCombs's 1995 *Washington Post* history of OSS women directly
+identifies Bette Balliet Grefe as a Wisconsin recruit who received American Red
+Cross and OSS offers on the same day and chose OSS. That unusually specific
+name and biographical context support a high-confidence index identity, but a
+rejected job offer is not an affiliation. The article also names Bette's sister
+as Lin Balliet Gregory and places her with OSS in Istanbul. Because it does not
+print Ellin's middle name, married name, rank, or private identifier, the
+adjacent Ellin M. Balliet row is published only as a probable identity.
+
+Stefano Pruneri's article in *Bollettino Storico Alta Valtellina* identifies
+Sergeant Bennie A. Ballone, born in 1921, as a member of OSS Operational Group
+Santee who died in the April 13, 1945 crash of B-24 H *Queenie*. A derived
+Italian historical article provides corroborative discovery context. The
+uncommon exact name, middle initial, sergeant grade, and OSS unit make the
+identity probable, not high-confidence, because neither source reproduces the
+index's private identifier or directly links the personnel file. The evidence
+documents OSS service, not a pre-OSS employer or predecessor assignment.
+
+Mary J. Ballew, Robert H. Balliet, Dorman L. Ballinger, Harold E. Ballou, May L.
+Ballou, Lyle B. Balluf, and Georges S. Bally remain unresolved after official
+index context, CIA Reading Room, current Library of Congress API, exact-name
+OSS, employment, occupation, newspaper, obituary, directory, institutional,
+and archival searches. All ten profiles retain an explicit Box 33
+archival-review path. No authenticated NARA Catalog API request was made, no
+credential was accessed, and no raw response, copyrighted page, full private
+identifier, home address, or people-finder data was stored in the public
+projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-01 UTC
+Run: 2026-08-02 UTC
 
 ## Internal static routes
 
@@ -12,7 +12,7 @@ The build includes 23,941 person profiles, 286 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,714 unique external URLs for separate live
+The checker inventoried 48,717 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -3545,3 +3545,23 @@ A boundary-aware live scan compared 12,919 normalized private identifiers and
 compressed assets, and five downloads—88 fetched production artifacts in all.
 It found zero full boundary matches. Production therefore independently
 confirms the exhaustive local redaction result.
+
+## Batch 134 local release check
+
+The deterministic Batch 134 build generated 24,235 HTML files. The internal
+link checker visited the complete built tree, found zero unresolved internal
+links, and inventoried 48,717 unique external URLs for separate live checking.
+
+The focused desktop, phone, and tablet regression opened all ten direct
+profiles and passed 3 / 3. The complete browser and accessibility matrix passed
+447 / 447. The *Washington Post*, *Bollettino Storico Alta Valtellina*, and
+derived Italian history links are intentional public evidence targets; the
+profiles visibly qualify identity confidence and do not expose an authenticated
+Catalog URL or credential-bearing request.
+
+All 65 manifest assets match their recorded sizes and hashes in the public
+source and built trees. The manifest SHA-256 is
+`1cee05dbb6f41468c628fe43cde63be424240f45423eb120b01aa25530c9d003`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across all 24,305 local production artifacts, including
+decompressed mirrors, and found zero full matches.

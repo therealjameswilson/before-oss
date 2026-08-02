@@ -34,3 +34,5 @@ jobs:
       - name: Build and test site
         working-directory: site
         run: npm test
+      - name: Audit public identifier redaction
+        run: python scripts/audit_public_identifiers.py

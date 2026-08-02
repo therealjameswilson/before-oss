@@ -1,16 +1,16 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-01 UTC
+Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 444 / 444 release browser cases across desktop, phone, and
+**PASS - 447 / 447 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 133 matrix completed without an assertion, navigation, or
+The complete Batch 134 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -2021,3 +2021,20 @@ routes returned HTTP 200 and matched their audited local accessible HTML after
 plain and URL-encoded canonical-host normalization. The non-failing GitHub
 annotation about pinned actions being forced from Node.js 20 to Node.js 24 did
 not affect any browser or axe result.
+
+## Batch 134 accessibility and responsive regression
+
+Batch 134 adds direct-route coverage for Mary J. Ballew, Bette Balliet, Ellin
+M. Balliet, Robert H. Balliet, Dorman L. Ballinger, Bennie Ballone, Harold E.
+Ballou, May L. Ballou, Lyle B. Balluf, and Georges S. Bally. The focused test
+passed 3 / 3 at desktop, phone, and tablet widths. It checks the indexed name,
+source page and box, masked or explicitly unprinted identifier, research state,
+employer-gap wording, and immediate-affiliation boundary on every profile.
+
+The regression separately verifies that Bette's high-confidence identity and
+*Washington Post* citation appear without converting her American Red Cross
+offer into employment; that Ellin/Lin remains a probable sister identification;
+and that Bennie Ballone's probable Santee/*Queenie* evidence remains qualified.
+The complete Playwright matrix then passed 447 / 447 in 5.7 minutes across all
+three viewports. Twenty-seven axe scans—nine representative routes per
+viewport—reported no serious accessibility violations.

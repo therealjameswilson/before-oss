@@ -12282,3 +12282,74 @@ test("Batch 133 preserves nine unresolved profiles and qualifies the probable Fr
     }).first(),
   ).toHaveAttribute("href", /ossog\.info\/personnel\.html/);
 });
+
+test("Batch 134 preserves employer gaps while qualifying the Balliet sisters and Bennie Ballone", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["544ee467-9ab2-5dcf-921a-c7781b946e34", "Mary J Ballew", "20"],
+    ["c0ca7518-d359-55fd-a591-ebe6a48cfbc2", "Bette Balliet", "20"],
+    ["3f60f485-127d-582e-82ff-f74f7d8f600b", "Ellin M Balliet", "20"],
+    ["d7287f85-2724-50a4-a2f2-894caad6cb6f", "Robert H Balliet", "20"],
+    ["59dbb455-d337-5a14-a474-9f7fa9cc939e", "Dorman L Ballinger", "20"],
+    ["c4b7d2b4-6f49-587e-8a9c-66f955a82bf6", "Bennie Ballone", "20"],
+    ["c651c5be-78ca-5c28-8712-55341867f0dc", "Harold E Ballou", "20"],
+    ["df3378ba-6498-589c-b870-a4420cf3072b", "May L Ballou", "21"],
+    ["e3e7d7eb-69a0-5041-a2fb-5ed9a3f34faa", "Lyle B Balluf", "21"],
+    ["f5fbce96-479c-567f-8017-77b633886b8f", "Georges S Bally", "21"],
+  ];
+
+  for (const [personId, displayName, pdfPage] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("33", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(`Page ${pdfPage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const unresolvedProfiles = allProfiles
+    .filter(
+      ([personId]) =>
+        ![
+          "c0ca7518-d359-55fd-a591-ebe6a48cfbc2",
+          "3f60f485-127d-582e-82ff-f74f7d8f600b",
+          "c4b7d2b4-6f49-587e-8a9c-66f955a82bf6",
+        ].includes(personId),
+    )
+    .map(([personId]) => personId);
+
+  for (const personId of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/c0ca7518-d359-55fd-a591-ebe6a48cfbc2/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Bette Balliet Grefe");
+  await expect(page.locator("main")).toContainText("declined Red Cross offer");
+  await expect(
+    page.getByRole("link", { name: /Wonderful Wizards of OSS/ }).first(),
+  ).toHaveAttribute("href", /washingtonpost\.com/);
+
+  await page.goto("./people/3f60f485-127d-582e-82ff-f74f7d8f600b/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Lin Balliet Gregory");
+  await expect(page.locator("main")).toContainText("probably");
+
+  await page.goto("./people/c4b7d2b4-6f49-587e-8a9c-66f955a82bf6/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Operational Group Santee");
+  await expect(page.locator("main")).toContainText("B-24 Queenie");
+  await expect(
+    page.getByRole("link", { name: /Resti del bombardiere statunitense/ }).first(),
+  ).toHaveAttribute("href", /cssav\.it/);
+});

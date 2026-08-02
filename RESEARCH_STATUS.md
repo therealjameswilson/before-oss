@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-01 UTC.
+Generated from the current local SQLite database on 2026-08-02 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,151 people with a non-planned attempt | 23,941 person entities | 4.8077% |
+| Research-attempt coverage | 1,161 people with a non-planned attempt | 23,941 person entities | 4.8494% |
 | Verified-affiliation coverage | 246 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0275% |
 | Verified-employer coverage | 140 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5848% |
-| Archival-review coverage | 1,099 people with an individual file-access/priority assessment | 23,941 person entities | 4.5905% |
+| Archival-review coverage | 1,109 people with an individual file-access/priority assessment | 23,941 person entities | 4.6322% |
 
 ## Extraction and identity
 
@@ -22,16 +22,16 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
-- Identity status `high_confidence`: 308
-- Identity status `probable`: 40
+- Identity status `high_confidence`: 309
+- Identity status `probable`: 42
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,480
+- Identity status `unresolved`: 23,477
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,505
-- Enlisted Army personnel: 3,514
+- Unknown or indeterminate: 16,504
+- Enlisted Army personnel: 3,515
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -42,18 +42,18 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Commissioned naval officers: 81
 - Warrant officers: 4
 
-Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
+Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,790
+- `not_started`: 22,780
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 32
 - `occupation_only_found`: 67
-- `requires_archival_review`: 783
+- `requires_archival_review`: 793
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 143
@@ -82,7 +82,7 @@ Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 425 across 406 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,181
+- Total recorded attempts/plans: 2,191
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 411; 389 have at least one public-eligible
@@ -1352,10 +1352,29 @@ Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
   exact-name request; it was not retried, and the limitation is not treated as
   evidence of absence. No authenticated Catalog API request or raw Catalog
   response was used.
+- Batch 134 completes page twenty and begins page twenty-one with Mary J.
+  Ballew through Georges S. Bally. Page 21 was rendered at 300 dpi and checked
+  at original resolution; all 46 printed rows match the parser. A 1995
+  *Washington Post* feature directly identifies Bette Balliet Grefe as the
+  Wisconsin woman who chose an OSS offer over a simultaneous American Red
+  Cross offer. The offer is not treated as employment. The same article calls
+  her sister “Lin Balliet Gregory” and places her in Istanbul; the adjacent
+  Ellin M. Balliet row receives a probable identity only because no independent
+  source establishes the middle name or married name. A specialist Italian
+  historical article identifies Sergeant Bennie A. Ballone, born in 1921, as
+  an OSS Operational Group Santee member killed in the April 1945 B-24
+  *Queenie* crash. That uncommon-name and rank match is also kept probable
+  because the index's private identifier is not reproduced in the source. No
+  claim establishes a pre-OSS employer or predecessor affiliation for any of
+  the ten people. All ten retain a terminal archival-review outcome, while
+  seven identities remain wholly unresolved. The strict bundle adds 13 source
+  records, three public identity claims, seven claim-source links, ten person
+  updates, and ten research attempts. No authenticated Catalog API request or
+  raw Catalog response was used.
 - Published affiliations: 498
-- Database claims: 980; public-visible claims: 959 (185 confirmed, 650 high,
-  120 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 1,949; public source export: 1,001; unique source documents: 829
+- Database claims: 983; public-visible claims: 962 (185 confirmed, 651 high,
+  122 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 1,956; public source export: 1,007; unique source documents: 832
 - Canonical organizations: 288 private and 286 public
 - Conflicts: 5
 - NARA pull-list rows: 23,835
@@ -1538,6 +1557,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-baldwin-through-balei-pathways_batch-131_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-balfour-through-ball-pathways_batch-132_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-ball-through-ballard-pathways_batch-133_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-twenty-one-ballew-through-bally-pathways_batch-134_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
