@@ -4936,7 +4936,10 @@ test("Batch 056 publishes Burton Adkinson's qualified university role, corrects 
   await expect(page.locator("body")).toContainText(
     "whether the Fitzsimons T/5 is Dean J. Adinamis",
   );
-  await expect(page.locator("body")).not.toContainText(
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).not.toContainText(
+    "T/5 Dean Adinamis",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
     "T/5 Dean Adinamis",
   );
 });
@@ -7135,7 +7138,12 @@ test("Batch 080 preserves ten Anderson records as distinct archival-review profi
 
   await page.goto("./people/636a515b-f1f4-52ed-9de5-b8152b7d0eba/");
   await expect(page.locator("body")).toContainText("commissioned army officer");
-  await expect(page.locator("body")).not.toContainText("Army Service Forces");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).not.toContainText(
+    "Army Service Forces",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
+    "Army Service Forces",
+  );
 
   await page.goto("./people/2a96a2c2-bd5c-5bc2-bebb-e31e0e9b7acc/");
   await expect(page.locator("body")).not.toContainText("Artigas");
@@ -12696,4 +12704,49 @@ test("Batch 139 preserves ten page 22 rows and documents Barbati's Army and Ford
   await expect(
     page.getByRole("link", { name: /Office of Strategic Services Board Proceedings/ }).first(),
   ).toHaveAttribute("href", /digitalcollections\.hoover\.org/);
+});
+
+test("Batch 140 preserves ten page 22 rows and rejects unsupported Barbour through Bardenhagen matches", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["80235d1b-f96b-523c-92fb-ac5eae68bcd6", "Bruce R Barbour"],
+    ["5195a285-f5ec-5612-9123-0968784c5d01", "Dana M Barbour"],
+    ["0a7b8dbf-23b4-5c29-989f-d0e955240767", "Thomas Barbour"],
+    ["82b14b53-d1d5-54ec-9f8f-7efe8bb3835c", "George W Barclay"],
+    ["2cf510df-b2a3-5991-aa6a-135796be9403", "Walter S Barclay"],
+    ["cd4cc9b3-b211-5113-8e02-cf518fef9b77", "Edward I Barcroft"],
+    ["94ae58e4-f67d-5238-92c8-1bd9e0d9f515", "Andrew Bard"],
+    ["f91c3a6e-9677-5096-8c97-33d934f0671a", "Charles L Bard"],
+    ["d7ef5a0c-6afd-5ade-8f7d-5c0b338b7a1c", "Michael Bardaro"],
+    ["c046fea7-9b7a-5113-80aa-fbf0efc8c5db", "Christopher T Bardenhagen"],
+  ];
+
+  for (const [personId, displayName] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("35", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 22");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5195a285-f5ec-5612-9123-0968784c5d01/");
+  await expect(page.locator("main")).toContainText("federal-publication namesake");
+  await expect(page.locator("main")).not.toContainText("Temporary National Economic Committee — employer");
+
+  await page.goto("./people/0a7b8dbf-23b4-5c29-989f-d0e955240767/");
+  await expect(page.locator("main")).toContainText("Harvard zoologist");
+
+  await page.goto("./people/c046fea7-9b7a-5113-80aa-fbf0efc8c5db/");
+  await expect(page.locator("main")).toContainText("younger Vietnam-era namesake");
 });

@@ -80,8 +80,9 @@ const affiliationLabel = (item: Affiliation) =>
           <h2 id="research-status">What the evidence currently supports</h2>
           <p class="research-note">{profile.research_status_message}</p>
           {
-            profile.identity_status !== "unresolved" &&
-              profile.identity_evidence && (
+            profile.identity_evidence &&
+              (profile.identity_status !== "unresolved" ||
+                profile.research_status !== "not_started") && (
                 <div class="identity-note">
                   <h3>Identity-resolution note</h3>
                   <p>{profile.identity_evidence}</p>

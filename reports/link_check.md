@@ -15,6 +15,30 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,734 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 140 local release check
+
+The complete 24,238-page internal-link pass includes direct routes for Bruce
+R. Barbour, Dana M. Barbour, Thomas Barbour, George W. Barclay, Walter S.
+Barclay, Edward I. Barcroft, Andrew Bard, Charles L. Bard, Michael Bardaro, and
+Christopher T. Bardenhagen. The focused browser regression opened all ten
+profiles at desktop, phone, and tablet sizes. Each profile preserves the
+indexed source-row detail, exposes the reviewed identity-resolution note, and
+keeps rejected namesakes out of the affiliation sections while directing the
+unresolved question to Box 35 archival review.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`11a3a4f54f8b50e671b7c883259af0990ba697b180095c8bfd319b187a0de8bd`.
+
+## Batch 139 production check
+
+GitHub Actions test workflow
+[30733423422](https://github.com/therealjameswilson/before-oss/actions/runs/30733423422)
+and Pages workflow
+[30733423455](https://github.com/therealjameswilson/before-oss/actions/runs/30733423455)
+completed successfully for release `5bc7fef`. The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
+
 ## Batch 139 local release check
 
 The complete 24,238-page internal-link pass includes direct routes for Paul F.

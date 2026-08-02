@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 462 / 462 release browser cases across desktop, phone, and
+**PASS - 465 / 465 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 139 matrix completed without an assertion, navigation, or
+The complete Batch 140 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -40,6 +40,12 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 140 adds direct desktop, phone, and tablet checks for Bruce R. Barbour
+through Christopher T. Bardenhagen. It verifies the ten contiguous
+page-twenty-two source rows, ranks and civilian-status handling, Box 35 routing,
+and field-level serial masking. It also verifies that reviewed rejected-candidate
+notes are visible for transparency while those unsupported namesakes do not
+appear as immediate, civilian-employer, or earlier-affiliation facts.
 Batch 139 adds direct desktop, phone, and tablet checks for all ten contiguous
 opening page-twenty-two profiles from Paul F. Barb through Louis J. Barbieri.
 It verifies Box 35 routing, source-row ranks and civilian grades, field-level
