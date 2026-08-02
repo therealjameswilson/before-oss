@@ -15,6 +15,41 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,783 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 156 local release check
+
+The complete 24,250-page internal-link pass includes direct routes for Vincent
+M. Bartolomeo, Clarence W. Barton Jr., Hubert C. Barton Jr., John R. Barton,
+Marie A. Barton, Mary S. Barton, Chester J. Bartz, Edwin W. Bartz, Herbert T.
+Baru, and Sigurd Baru. The Batch 156 regression passed at desktop, phone, and
+tablet sizes. Each profile preserves its visually checked page-25 spelling,
+middle initial, grade or rank, archival box, masked identifier, and explicit
+archival-review status. No rejected namesake appears as a published identity,
+occupation, employer, or predecessor affiliation.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`04fc7dce2bc695a09a43479aa14c561c8b39476f2656651de2b494a05814619a`.
+Consecutive production builds produced the same sorted length-delimited
+path-and-file-SHA-256 tree digest,
+`6f1d2c50d56edd63dec4004e188c267a4e647d226e91272c30b1311cf5884db7`.
+The boundary-aware audit reviewed 997 candidate substrings across 24,320 built
+artifacts and found zero unexpected private-identifier matches.
+
+## Batch 155 production check
+
+GitHub Actions test workflow
+[30750786019](https://github.com/therealjameswilson/before-oss/actions/runs/30750786019)
+and Pages workflow
+[30750786018](https://github.com/therealjameswilson/before-oss/actions/runs/30750786018)
+completed successfully for release
+`977c1d286e426f3e13745bdff2591c9319291969`. The independent audit opened 18 /
+18 selected routes, verified all 65 deployed manifest assets, and found zero
+unexpected private-identifier matches across 84 artifacts. The deployed
+manifest SHA-256 is
+`d0858139bd04b3043fac7b3cdc8bb3dc6a26c93214f29a45fcb18ab85dc5a4bf`.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
+
 ## Batch 155 local release check
 
 The complete 24,250-page internal-link pass includes direct routes for David

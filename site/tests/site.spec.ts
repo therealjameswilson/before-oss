@@ -13884,3 +13884,40 @@ test("Batch 155 corrects Sidney Bartlett and preserves qualified Bartl and Bartl
   await expect(page.getByRole("link", { name: "Sidney L Bartlett", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("government assignment");
 });
+
+test("Batch 156 preserves Bartolomeo through Baru rows as explicit archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["accdc6f9-2ccc-5660-9e22-64159325a5b2", "Vincent M Bartolomeo", "1st Lt", "40"],
+    ["e4aeab29-5fec-5e99-97d1-bbcc82c3a07a", "Clarence W Barton Jr.", "1st Lt", "40"],
+    ["05c1fc70-a6c9-54ef-87d4-3c32824a0494", "Hubert C Barton Jr.", "Caf-15", "40"],
+    ["c695235e-2d72-5d3f-a6a1-6a4d2f933252", "John R Barton", "2nd Lt", "41"],
+    ["bdabea9d-b9f4-5df2-ba17-c2d4ea9ad244", "Marie A Barton", "Caf-9", "41"],
+    ["6a6d3ea4-cb8f-5793-a6c1-62f64ff655a7", "Mary S Barton", "Caf-3", "41"],
+    ["392e70d8-e40b-5126-99d8-85ef7a7cc7fb", "Chester J Bartz", "T-5", "41"],
+    ["dc3e98f6-212b-5e94-93fb-bc546d8babd9", "Edwin W Bartz", "Not printed", "41"],
+    ["0f79aaf0-e3f9-59b8-a042-6f650487e0fa", "Herbert T Baru", "Pfc", "41"],
+    ["9b822fc7-8e15-55df-bb68-200a6dab96a0", "Sigurd Baru", "M/Sgt", "41"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 25");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator("main")).toContainText(`Review Box ${box}`);
+  }
+});

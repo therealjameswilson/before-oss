@@ -7,19 +7,19 @@ Run: 2026-08-02 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,250 pages**
 - Internal link check: **24,250 HTML files passed**
-- Browser and accessibility suite: **510 / 510 passed** across desktop,
+- Browser and accessibility suite: **513 / 513 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases. The focused
-  Batch 155 desktop regression also passed **1 / 1** before the full run
+  Batch 156 desktop regression also passed **1 / 1** before the full run
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`46fe0c8d20a01e81cfde5ffa49bff5cf59daff9e6505825f9ddf499e0b02103d`)
-- Latest deterministic build (Batch 155): **byte-for-byte identical** across
+  (`6f1d2c50d56edd63dec4004e188c267a4e647d226e91272c30b1311cf5884db7`)
+- Latest deterministic build (Batch 156): **byte-for-byte identical** across
   consecutive static builds and all **24,320** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `d0858139bd04b3043fac7b3cdc8bb3dc6a26c93214f29a45fcb18ab85dc5a4bf`
+  `04fc7dce2bc695a09a43479aa14c561c8b39476f2656651de2b494a05814619a`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -39,12 +39,85 @@ Run: 2026-08-02 UTC
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
 - Batch 154 production verification: **passed**
-- Batch 155 local release checks: **passed**; the combined **510-case** browser
+- Batch 155 production verification: **passed**
+- Batch 156 local release checks: **passed**; the combined **513-case** browser
   matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 156 local release QA
+
+Batch 156 adds the ten visually checked page-twenty-five rows from Vincent M.
+Bartolomeo through Sigurd Baru. The strict bundle imports ten person updates
+and ten terminal research attempts without adding a source, organization,
+affiliation, or claim. Exact-name and meaningful-variant checks covered the
+NARA index context, CIA Reading Room, current Library of Congress discovery,
+military and government sources, employment and occupation searches,
+obituaries, newspapers, directories, and archival sources. None of the
+candidates met the identity threshold. The three Army officers, three civilian
+grades, three enlisted Army records, and one record with no printed status
+therefore remain explicit archival-review profiles. Possible Clarence Barton,
+Hubert Barton, John Barton, Chester Bartz, and Edwin Bartz namesakes are
+documented as rejected candidates rather than silently promoted.
+
+The bundle passed Pydantic validation and replayed idempotently. The complete
+from-source rebuild reconstructed all 23,978 source rows, 23,941 person
+entities, reviewed evidence bundles, derived exports, and static pages. SQLite
+`quick_check` returned `ok`, the foreign-key check returned zero rows, the
+Python suite passed 56 / 56, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,250 pages. The internal-link checker passed every page and inventoried
+48,783 unique external URLs. The focused desktop regression passed 1 / 1, and
+the complete browser, responsive, direct-route, search, and axe matrix passed
+513 / 513 across desktop, phone, and tablet. The production dependency audit
+found zero vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`6f1d2c50d56edd63dec4004e188c267a4e647d226e91272c30b1311cf5884db7`
+across 24,320 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `04fc7dce2bc695a09a43479aa14c561c8b39476f2656651de2b494a05814619a`.
+The boundary-aware scan examined 997 candidate substrings and found zero
+unexpected matches; a direct scan of the Batch 156 bundle found zero candidate
+or boundary matches. No authenticated Catalog request, API credential, or raw
+Catalog response was used.
+
+The Batch 156 database contains 2,410 durable research attempts, 2,074 private
+source records representing 891 unique documents, 304 organizations, 542
+affiliations, 1,061 claims, and 2,138 claim-source links. Claim confidence
+remains 190 confirmed, 703 high, 139 medium, 25 low, and four conflicting. The
+public projection remains 1,098 sources, 301 organizations, 535 affiliations,
+and 1,036 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,377 people with a non-planned research attempt, 263 with
+verified-affiliation evidence, 150 with verified employment or self-employment
+evidence, and 1,326 whose archival-review need has been assessed. The
+`not_started` count is 22,564 and `requires_archival_review` is 994.
+
+## Batch 155 production verification
+
+GitHub Actions test workflow
+[30750786019](https://github.com/therealjameswilson/before-oss/actions/runs/30750786019)
+and Pages workflow
+[30750786018](https://github.com/therealjameswilson/before-oss/actions/runs/30750786018)
+completed successfully for release
+`977c1d286e426f3e13745bdff2591c9319291969`. CI passed the 56-test Python
+suite, complete 510-case browser and accessibility matrix, static build,
+dependency audit, internal-link check, checksum-verified source
+reconstruction, and public identifier audit.
+
+An independent production audit opened 18 / 18 selected routes: seven core
+routes, all ten Batch 155 profiles, and the Department of State organization
+page. Every route matched the audited local release after canonical-host
+normalization. All 65 deployed manifest assets matched their recorded and
+local sizes, SHA-256 values, and bytes. The deployed manifest SHA-256 is
+`d0858139bd04b3043fac7b3cdc8bb3dc6a26c93214f29a45fcb18ab85dc5a4bf`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 84 live HTML, data, compressed-mirror, manifest,
+and download artifacts. It examined 573 candidate substrings and found zero
+unexpected full-identifier matches.
 
 ## Batch 155 local release QA
 
