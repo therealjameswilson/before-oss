@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,230 people with a non-planned attempt | 23,941 person entities | 5.1376% |
-| Verified-affiliation coverage | 250 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0442% |
-| Verified-employer coverage | 142 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5931% |
-| Archival-review coverage | 1,178 people with an individual file-access/priority assessment | 23,941 person entities | 4.9204% |
+| Research-attempt coverage | 1,240 people with a non-planned attempt | 23,941 person entities | 5.1794% |
+| Verified-affiliation coverage | 251 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0484% |
+| Verified-employer coverage | 143 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5973% |
+| Archival-review coverage | 1,188 people with an individual file-access/priority assessment | 23,941 person entities | 4.9622% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 84
-- Identity status `high_confidence`: 312
+- Identity status `high_confidence`: 314
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,466
+- Identity status `unresolved`: 23,464
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,711
+- `not_started`: 22,701
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
-- `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 69
-- `requires_archival_review`: 858
+- `documented_prewar_employer_found`: 33
+- `occupation_only_found`: 70
+- `requires_archival_review`: 866
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 145
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 661
+- Reviewed-web terminal-protocol attempts recorded: 672
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 440 across 420 people; 30 additional
+- Saved `source_reviewed` outcomes: 442 across 422 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,261
+- Total recorded attempts/plans: 2,271
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 425; 407 have at least one public-eligible
+- People with saved reviewed claims: 427; 409 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1502,12 +1502,30 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   rank variation pending Box 35 review. No authenticated Catalog request,
   credential, raw response, full private identifier, people-finder record, or
   discovery-only employer claim was used or published.
-- Published affiliations: 511
-- Database claims: 1,009; public-visible claims: 988 (188 confirmed, 661 high,
-  135 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,020; private source records: 1,909; public source export:
-  1,038; unique source documents: 851
-- Canonical organizations: 291 private and 289 public
+- Batch 142 continues page twenty-two from James M. Barker through Archie R.
+  Barkley. All ten rows were checked against the rendered source page. The
+  strict bundle imports 13 sources, one organization, one affiliation, four
+  claims, ten claim-source links, ten person updates, and ten terminal research
+  attempts. Eight identities remain unresolved and route to high-priority Box
+  36 review. A 1941 Charlotte city directory documents Mayno W. Barker as a
+  printer operator for Postal Telegraph-Cable Company; a county archival index
+  independently corroborates the rare full name and spouse. The employer is
+  published only as earlier documented pre-OSS employment, not as the immediate
+  affiliation or final civilian employer. Official Senate remarks identify
+  Wilson Barker in an OSS context and describe him as a Boyd County farmhand,
+  but name no employer and supply no date, so the occupation remains visibly
+  qualified and excluded from employer analytics. A Robert G. Barker with a
+  different officer identifier, the composer Warren Barker, and the Dartmouth
+  Army Air Forces candidate Richard E. Barkhorn were rejected rather than
+  merged. No authenticated Catalog request, credential, raw response, full
+  private identifier, home address, people-finder record, or discovery-only
+  employer claim was used or published.
+- Published affiliations: 512
+- Database claims: 1,013; public-visible claims: 992 (188 confirmed, 664 high,
+  136 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 2,030; private source records: 1,922; public source export:
+  1,043; unique source documents: 854
+- Canonical organizations: 292 private and 290 public
 - Conflicts: 5
 - NARA pull-list rows: 23,833
 
@@ -1697,6 +1715,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-o
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barb-through-barbieri-pathways_batch-139_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barbour-through-bardenhagen-pathways_batch-140_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barders-through-barker-pathways_batch-141_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barker-through-barkley-pathways_batch-142_2026-08-02.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

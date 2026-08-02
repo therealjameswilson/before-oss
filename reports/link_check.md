@@ -4,16 +4,51 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,238 HTML files. Every relative
+**PASS.** The production build contains 24,239 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 289 organization profiles, and the
+The build includes 23,941 person profiles, 290 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,736 unique external URLs for separate live
+The checker inventoried 48,740 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 142 local release check
+
+The complete 24,239-page internal-link pass includes direct routes for James
+M. Barker, John C. Barker, Lavern P. Barker, Mayno W. Barker, Pauline M.
+Barker, Robert G. Barker, Warren Barker, Wilson Barker, Richard Barkhorn, and
+Archie R. Barkley, plus the new Postal Telegraph-Cable Company organization
+page. The focused browser regression opened all ten profiles at desktop,
+phone, and tablet sizes, and the full browser/accessibility matrix passed
+471 / 471. Mayno Barker's claim links target the visually checked 1941
+Charlotte directory and the Charlotte Mecklenburg Library index. Wilson
+Barker's qualified occupation claim links to the official Senate remarks. The
+site does not infer an immediate affiliation, last civilian employer, farm
+employer, or employment dates from those sources.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`73611a5ff5b31bb98e35f35ed96408abbb017dd0b91cd063e8337fde180b7c56`.
+Two consecutive complete production builds produced the same artifact-tree
+SHA-256, `6774ace514c142e6f594d0a045b6ac3188da1bfb8c43b0f5f34981020b35520b`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 68 public artifacts, rejected 575 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 141 production check
+
+GitHub Actions test workflow
+[30734851681](https://github.com/therealjameswilson/before-oss/actions/runs/30734851681)
+and Pages workflow
+[30734851679](https://github.com/therealjameswilson/before-oss/actions/runs/30734851679)
+completed successfully for release `928d9be`. All seven core routes and all ten
+Batch 141 profiles returned HTTP 200, and the deployed manifest SHA-256 is
+`e8e026cbb621489b820c95cedce05422c299ddf1921da86dbb3f5f8da8faee47`.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 141 local release check
 

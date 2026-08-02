@@ -12822,3 +12822,92 @@ test("Batch 141 preserves Barders through Barker rows and qualifies Harold Barge
     "educator",
   );
 });
+
+test("Batch 142 preserves Barker through Barkley rows and qualifies Mayno and Wilson Barker evidence", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["6dba8057-553d-5518-89e2-e46cbec48ac8", "James M Barker"],
+    ["bd734136-02dc-5b8c-a39f-e019fdcac9e2", "John C Barker"],
+    ["a88fa973-77f3-5a45-a108-e89e7407ceee", "Lavern P Barker"],
+    ["5a15a701-641f-57e2-b8aa-672094fdb4fb", "Mayno W Barker"],
+    ["9c942b44-cf4f-5b1f-92a2-5b18ba3947af", "Pauline M Barker"],
+    ["94954f0a-0c95-596d-a948-1780cf03de47", "Robert G Barker"],
+    ["db0663e4-e71e-5f43-b373-3827d37cac34", "Warren Barker"],
+    ["703da672-7ff2-53ca-aab6-174fd9b47815", "Wilson Barker"],
+    ["5852bc04-99ea-5c0c-8460-fe287fe62cb9", "Richard Barkhorn"],
+    ["6f587914-2396-5988-825f-88b13b72d9e9", "Archie R Barkley"],
+  ];
+
+  for (const [personId, displayName] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("36", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 22");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of allProfiles
+    .map(([personId]) => personId)
+    .filter(
+      (personId) =>
+        personId !== "5a15a701-641f-57e2-b8aa-672094fdb4fb" &&
+        personId !== "703da672-7ff2-53ca-aab6-174fd9b47815",
+    )) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5a15a701-641f-57e2-b8aa-672094fdb4fb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).toContainText("Postal Telegraph-Cable Company");
+  await expect(page.locator("main")).toContainText("printer operator");
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(
+    page.getByRole("link", { name: /Hill's Charlotte.*City Directory, 1941/ }).first(),
+  ).toHaveAttribute("href", /digitalnc\.org/);
+
+  await page.goto("./people/703da672-7ff2-53ca-aab6-174fd9b47815/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Boyd County farmhand");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).not.toContainText("farm — employer");
+  await expect(
+    page.getByRole("link", { name: /Congressional Gold Medal Ceremony/ }).first(),
+  ).toHaveAttribute("href", /republicanleader\.senate\.gov/);
+
+  await page.goto("./people/94954f0a-0c95-596d-a948-1780cf03de47/");
+  await expect(page.locator("main")).toContainText("different officer identifier");
+  await expect(page.locator("main")).not.toContainText("69th Infantry Division — employer");
+
+  await page.goto("./people/db0663e4-e71e-5f43-b373-3827d37cac34/");
+  await expect(page.locator("main")).toContainText("composer and Army Air Forces bandleader");
+
+  await page.goto("./people/5852bc04-99ea-5c0c-8460-fe287fe62cb9/");
+  await expect(page.locator("main")).toContainText("Dartmouth/Army Air Forces candidate");
+
+  await page.goto("./people/6f587914-2396-5988-825f-88b13b72d9e9/");
+  await expect(page.locator("main")).toContainText("CPC-5");
+});

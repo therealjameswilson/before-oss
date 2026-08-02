@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T05:39:46+00:00",
+  "generated_at": "2026-08-02T06:06:51+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,43 +7,43 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 1230,
-    "percent": 5.1376
+    "people_with_nonplanned_attempts": 1240,
+    "percent": 5.1794
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_affiliation": 250,
-    "percent": 1.0442
+    "people_with_confirmed_or_high_published_affiliation": 251,
+    "percent": 1.0484
   },
   "verified_employer_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_employer": 142,
-    "percent": 0.5931
+    "people_with_confirmed_or_high_published_employer": 143,
+    "percent": 0.5973
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 1178,
-    "percent": 4.9204
+    "people_assessed": 1188,
+    "percent": 4.9622
   },
   "research_status_counts": {
     "candidate_found": 1,
     "completed": 55,
     "conflicting_sources": 4,
-    "documented_prewar_employer_found": 32,
+    "documented_prewar_employer_found": 33,
     "in_progress": 51,
     "needs_identity_review": 14,
     "needs_temporal_review": 1,
-    "not_started": 22711,
-    "occupation_only_found": 69,
-    "requires_archival_review": 858,
+    "not_started": 22701,
+    "occupation_only_found": 70,
+    "requires_archival_review": 866,
     "verified_employer_found": 145
   },
   "claim_confidence_counts": {
     "confirmed": 188,
     "conflicting": 4,
-    "high": 661,
+    "high": 664,
     "low": 21,
-    "medium": 135
+    "medium": 136
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1461,
@@ -60,6 +60,6 @@
   },
   "possible_duplicate_groups": 213,
   "conflict_count": 5,
-  "citations": 1909,
-  "unique_source_documents": 851
+  "citations": 1922,
+  "unique_source_documents": 854
 }

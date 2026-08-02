@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 468 / 468 release browser cases across desktop, phone, and
+**PASS - 471 / 471 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 141 matrix completed without an assertion, navigation, or
+The complete Batch 142 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -30,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-142-person employer measure is labeled separately from the 250-person broader
+143-person employer measure is labeled separately from the 251-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -40,6 +40,17 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 142 adds direct desktop, phone, and tablet checks for James M. Barker
+through Archie R. Barkley. It verifies all ten contiguous page-twenty-two
+source rows, Box 36 routing, printed ranks and civilian grades, and field-level
+serial masking. The Mayno W. Barker profile is checked for high-confidence
+identity, 1941 Postal Telegraph-Cable Company employment, printer-operator
+role, and the explicit rule that this earlier job is neither immediate nor the
+proven last civilian employer. The Wilson Barker profile is checked for a
+qualified, undated farmhand occupation with no inferred farm employer. Eight
+profiles retain unresolved identity and visible archival-review guidance; the
+Robert G. Barker, Warren Barker, and Richard Barkhorn candidate rejections
+remain visible without becoming affiliation facts.
 Batch 141 adds direct desktop, phone, and tablet checks for Iva H. Barders
 through George B. Barker. It verifies the ten contiguous page-twenty-two
 source rows, ranks and civilian-status handling, Box 35 and Box 36 routing,
