@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 447 / 447 release browser cases across desktop, phone, and
+**PASS - 459 / 459 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 134 matrix completed without an assertion, navigation, or
+The complete Batch 138 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -30,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-140-person employer measure is labeled separately from the 246-person broader
+140-person employer measure is labeled separately from the 248-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -2073,6 +2073,25 @@ repeated the complete 450 / 450 matrix successfully for Batch 135 release
 also completed successfully. All 17 audited live routes returned HTTP 200 and
 matched their local accessible HTML after development and production
 canonical-host normalization.
+
+## Batch 138 accessibility and responsive regression
+
+Batch 138 adds direct-route coverage for Rita E. Bannan, Ramon A. Bannister,
+Bill B. Bantz, Louise Banville, Elizabeth Barack, Joseph J. Baran, James A.
+Baranosky, Hilary L. Baranowski, Edward V. Baranski, and George Barb. The
+focused regression passed 3 / 3 at desktop, phone, and tablet widths. It checks
+each indexed name, page and Box 34 or Box 35, masked or explicitly unprinted
+identifier, research state, employer-gap wording, and archival-review status.
+
+The regression separately verifies that Ramon A. Bannister's `WO JG` entry is
+presented as warrant officer rather than commissioned officer. It verifies
+that Edward V. Baranski's high-confidence profile publishes the U.S. Army as
+his immediate military assignment, describes his mess-sergeant role, and keeps
+University of Illinois student status separate from employment. The other nine
+profiles remain unresolved and none receives an unsupported affiliation. The
+complete Playwright matrix passed 459 / 459 in 6.6 minutes across all three
+viewports. Twenty-seven axe scans—nine representative routes per viewport—
+reported no serious accessibility violations.
 
 ## Batch 137 accessibility and responsive regression
 

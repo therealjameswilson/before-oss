@@ -4,21 +4,50 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,235 HTML files. Every relative
+**PASS.** The production build contains 24,238 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 286 organization profiles, and the
+The build includes 23,941 person profiles, 289 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,717 unique external URLs for separate live
+The checker inventoried 48,734 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 138 local release check
+
+The complete 24,238-page internal-link pass includes direct routes for Rita E.
+Bannan, Ramon A. Bannister, Bill B. Bantz, Louise Banville, Elizabeth Barack,
+Joseph J. Baran, James A. Baranosky, Hilary L. Baranowski, Edward V. Baranski,
+and George Barb. The focused browser regression opened all ten profiles at
+desktop, phone, and tablet sizes. Baranski's claim-level links target the
+University of Illinois Alumni Association, National Park Service, and American
+Battle Monuments Commission evidence reviewed for the Army, OSS, and student
+chronology. The website continues to state that no reliable civilian employer
+has yet been identified.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`8fafaaecb9c5c1e05df77020d2daaf1c4fa8bf2fa23e763b91a2db2efc4a7e61`.
+
+## Batch 137 production check
+
+All seven core routes and ten Batch 137 person profiles returned HTTP 200 in an
+independent post-deployment fetch. All 65 manifest-listed assets matched their
+recorded sizes and SHA-256 values. The deployed manifest SHA-256 is
+`b32b600c586a1a66fcbdd9054a5188f41fad2b773091a5eb96722f6cf55f6440`.
+Live download row counts reproduced the release: 23,941 personnel CSV rows,
+23,941 personnel JSONL rows, 289 organizations, 506 affiliations, and 1,029
+sources.
 
 ## Representative external targets
 
 | Target | Result |
 |---|---|
+| University of Illinois Alumni Association, Edward Victor Baranski | Institutional account reviewed for 1941 graduation and his Army-to-OSS mess-sergeant chronology; University student status remains separate from employment |
+| National Park Service, OSS in the Mediterranean and European theaters | Official history reviewed for Captain Edward V. Baranski, Special Intelligence, and the Day Group |
+| American Battle Monuments Commission, OSS officers captured in Czechoslovakia | Official account reviewed for Capt. Edward Baranski and the 2677th Regiment, OSS |
 | NARA Access to Archival Databases, Army enlistment tables | Public records reviewed through the current AAD interface; private identifiers were used only for identity comparison and are not published |
 | National Park Service, *A Wartime Organization for Unconventional Warfare* | Official history reviewed for Kenneth H. Baker's Ohio State post, 1941 Donovan recruitment, lieutenant-colonel commission, and OSS training role |
 | *Broadcasting-Telecasting*, April 22, 1946 | Contemporary profile PDF rendered and visually reviewed for Kenneth Hammond Baker's 1940 Ohio State appointment and summer 1941 recruitment chronology |

@@ -12582,3 +12582,62 @@ test("Batch 137 preserves ten Box 34 rows and separates Bangsboll's military pat
     }).first(),
   ).toHaveAttribute("href", /arsof-history\.org/);
 });
+
+test("Batch 138 preserves ten page 21 rows and qualifies Baranski's Army and student pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["52eba111-7f81-53cd-a270-3e12f64a17d4", "Rita E Bannan", "34"],
+    ["615b02ef-cf69-51ff-9df2-20c58da7989f", "Ramon A Bannister", "35"],
+    ["052df7a2-d724-5789-85ec-b40ec8a7b37a", "Bill B Bantz", "35"],
+    ["b59ade96-9be3-5d2b-a27c-72c9250b0fc4", "Louise Banville", "35"],
+    ["de06eaef-8d63-5a96-8378-efca882d9420", "Elizabeth Barack", "35"],
+    ["10dcf598-5d33-501b-ab94-4571e3164371", "Joseph J Baran", "35"],
+    ["37fcd0dc-b987-53ef-9934-7f6038b8aacc", "James A Baranosky", "35"],
+    ["638c05ba-7226-56de-93dd-8e61334258e0", "Hilary L Baranowski", "35"],
+    ["0111384b-dda8-532f-b560-2f065869fc44", "Edward V Baranski", "35"],
+    ["4fc4061a-0f29-5754-b8b8-eb32f92537ea", "George Barb", "35"],
+  ];
+
+  for (const [personId, displayName, box] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 21");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  for (const personId of allProfiles
+    .map(([personId]) => personId)
+    .filter((personId) => personId !== "0111384b-dda8-532f-b560-2f065869fc44")) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  await page.goto("./people/615b02ef-cf69-51ff-9df2-20c58da7989f/");
+  await expect(page.getByText("warrant officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("WO JG");
+
+  await page.goto("./people/0111384b-dda8-532f-b560-2f065869fc44/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator("main")).toContainText("mess sergeant");
+  await expect(page.locator("main")).toContainText("University of Illinois");
+  await expect(page.locator("main")).toContainText("student");
+  await expect(page.locator("main")).not.toContainText("University of Illinois — employer");
+  await expect(page.getByRole("link", { name: /Edward Victor Baranski/ }).first()).toHaveAttribute(
+    "href",
+    /uiaa\.org/,
+  );
+});
