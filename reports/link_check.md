@@ -3611,3 +3611,28 @@ The boundary-aware audit compared 12,919 normalized private identifiers and
 121 formatted variants across all 24,307 local production artifacts, including
 decompressed mirrors, rejected 989 substring coincidences, and found zero full
 matches.
+
+## Batch 135 production deployment
+
+Final GitHub test workflow
+[30729230079](https://github.com/therealjameswilson/before-oss/actions/runs/30729230079)
+and Pages workflow
+[30729230054](https://github.com/therealjameswilson/before-oss/actions/runs/30729230054)
+completed successfully for release `00b72c7`. CI repeated the 55-test Python
+suite, full 24,237-page internal-link check, 450-case browser and accessibility
+matrix, checksum-verified source-PDF reconstruction, and boundary-aware private
+identifier audit.
+
+All 17 live routes returned HTTP 200 and matched the local release after
+development and production canonical-host normalization: seven core routes
+and the ten Batch 135 profiles. The live manifest and all 65 listed assets
+matched local bytes, sizes, and SHA-256 values. The manifest SHA-256 is
+`292b5773b99082fc74525ca58884568d4c536d98d4b3f3848c301246627b9f49`.
+The five downloads contain 23,941 personnel CSV rows, 23,941 personnel JSONL
+rows, 288 organizations, 502 affiliations, and 1,016 sources.
+
+An independent scan of 83 unique fetched production artifacts—17 HTML routes,
+65 manifest-listed data, compressed, and download assets, plus the manifest—
+compared 12,919 normalized private identifiers and 121 formatted variants,
+rejected 566 substring coincidences, and found zero unexpected boundary
+matches.

@@ -3367,6 +3367,35 @@ self-employment evidence, and 1,118 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 288 organizations, 502
 affiliations, and 1,016 sources.
 
+## Batch 135 production deployment
+
+GitHub Actions test workflow
+[30729230079](https://github.com/therealjameswilson/before-oss/actions/runs/30729230079)
+completed successfully in 11 minutes 11 seconds for release `00b72c7`. It
+repeated the 55 / 55 Python suite, deterministic 24,237-page static build,
+complete internal-link check, and 450 / 450 browser, responsive, direct-route,
+search, and axe matrix. It then reconstructed the private source-row audit
+table from the checksum-verified official PDF and passed the reusable
+boundary-aware identifier audit. Pages workflow
+[30729230054](https://github.com/therealjameswilson/before-oss/actions/runs/30729230054)
+also completed successfully and deployed the static artifact.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after development and production canonical-host normalization: seven core
+publication routes and all ten Batch 135 profiles. The deployed manifest is
+byte-identical to the local release, and all 65 listed assets matched their
+recorded and local byte sizes, SHA-256 values, and bytes. The deployed manifest
+SHA-256 is
+`292b5773b99082fc74525ca58884568d4c536d98d4b3f3848c301246627b9f49`.
+The five live downloads contain 23,941 personnel CSV rows, 23,941 personnel
+JSONL rows, 288 organizations, 502 affiliations, and 1,016 sources.
+
+The independent live privacy audit compared 12,919 normalized private
+identifiers and 121 formatted variants against 83 unique fetched production
+artifacts. It rejected 566 substring coincidences and found zero unexpected
+boundary matches. No authenticated Catalog request, API key, or raw Catalog
+response was used or published.
+
 ## Batch 134 local release QA
 
 Batch 134 completes page twenty and begins page twenty-one with ten researched

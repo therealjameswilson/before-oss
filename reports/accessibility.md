@@ -2064,3 +2064,12 @@ John M. Balsamo remains occupation-only. None is presented as a documented
 employer. The complete Playwright matrix passed 450 / 450 in 5.9 minutes
 across all three viewports. Twenty-seven axe scans—nine representative routes
 per viewport—reported no serious accessibility violations.
+
+Final GitHub test workflow
+[30729230079](https://github.com/therealjameswilson/before-oss/actions/runs/30729230079)
+repeated the complete 450 / 450 matrix successfully for Batch 135 release
+`00b72c7`. Pages workflow
+[30729230054](https://github.com/therealjameswilson/before-oss/actions/runs/30729230054)
+also completed successfully. All 17 audited live routes returned HTTP 200 and
+matched their local accessible HTML after development and production
+canonical-host normalization.
