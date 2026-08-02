@@ -4,16 +4,20 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 501 / 501 browser cases across desktop, phone, and tablet; the matrix includes
-27 / 27 dedicated axe cases.**
+**PASS after documented retry - 502 / 504 cases passed on the first combined
+run, and the two transient preview-server 404 cases passed 2 / 2 on immediate
+serial rerun. The matrix includes 27 / 27 passing dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-All 501 cases passed with fresh preview-server processes: 167 desktop, 167
-phone, and 167 tablet. No product assertion, navigation, or serious/critical
-axe failure remained. All 27 dedicated axe cases passed. Release CI runs the
-combined 501-case matrix.
+The matrix contains 168 desktop, 168 phone, and 168 tablet cases. All 168
+desktop and all 168 tablet cases passed. The phone project passed 166 / 168 on
+the first combined invocation; two older profile loops received isolated 404s
+from the long-lived local preview process and then passed 2 / 2 in a fresh,
+single-worker rerun. No product assertion or serious/critical axe failure
+remains. All 27 dedicated axe cases passed. Release CI runs the combined
+504-case matrix.
 
 Routes tested at all three sizes:
 
@@ -32,7 +36,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-149-person employer measure is labeled separately from the 260-person broader
+150-person employer measure is labeled separately from the 261-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -42,6 +46,16 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 153 adds direct desktop, phone, and tablet checks for Nathaniel H.
+Barrows Jr. through Richard W. Barry on page twenty-five. It verifies all ten
+source rows, Box 39 or Box 40 routing, printed military ranks and civilian
+grades, and masked identifier display. Nathaniel Haven Barrows Jr.'s profile
+separately presents his qualified Army pathway and his verified civilian role
+as partner and wool buyer at Munro, Kincaid, Edgehill, Inc., with claim-level
+Dartmouth citations. The organization route links back to Barrows. The other
+nine profiles retain explicit no-result wording and archival-review guidance;
+the unusual printed `Pro Robert Barry` name remains recoverable and is not
+silently corrected.
 Batch 152 adds direct desktop, phone, and tablet checks for Howard C. Barringer
 through Dayton S. Barrows across the page-twenty-four/page-twenty-five
 boundary. It verifies all ten source rows, Box 39 routing, printed civilian

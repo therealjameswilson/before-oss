@@ -13605,3 +13605,79 @@ test("Batch 152 preserves Barringer through Barrows rows and separates Barringto
   await expect(page.getByRole("link", { name: "Lewis Barrington", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("Writers' Project");
 });
+
+test("Batch 153 preserves Barrows through Barry rows and separates Barrows's qualified military and verified civilian pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["7fac5f85-f7e7-5e8c-b8b4-305f58e0aa82", "Nathaniel H Barrows Jr.", "Capt", "39"],
+    ["36244e18-44e0-5694-b00a-5273cee5c796", "Edward P Barry", "Not printed", "40"],
+    ["89385633-4922-5569-b4e5-db3f59e77fc1", "Frances O Barry", "Not printed", "40"],
+    ["752090f7-8168-505f-ad42-b75215c6a8be", "Harold R Barry", "T-4", "40"],
+    ["274d7610-b4d0-5817-a6b1-0a9bdd526a7b", "Joseph A Barry", "Caf-4", "40"],
+    ["f262f417-9c90-58b2-8c4b-883698195307", "Marion Barry", "S/Sgt", "40"],
+    ["cd929124-ae42-525f-9008-9bb9fe9e7d74", "Mary M Barry", "Not printed", "40"],
+    ["3e009218-26fa-5a3f-b2c3-a86adc2c9f6c", "Norman F Barry", "Not printed", "40"],
+    ["e047a945-261d-5404-9e2e-d11b3ebfed58", "Pro Robert Barry", "Cpl", "40"],
+    ["add45b73-36bc-56e0-b6b0-e73a8f5d64a3", "Richard W Barry", "M/Sgt", "40"],
+  ];
+
+  for (const [personId, displayName, rank, box] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 25");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId] of allProfiles.filter(
+    ([personId]) => personId !== "7fac5f85-f7e7-5e8c-b8b4-305f58e0aa82",
+  )) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/7fac5f85-f7e7-5e8c-b8b4-305f58e0aa82/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "medium",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Munro, Kincaid, Edgehill, Inc.",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Partner and wool buyer",
+  );
+  await expect(page.locator("main")).toContainText("Nathaniel Haven Barrows Jr.");
+  await expect(page.getByRole("link", { name: /Deaths/ }).first()).toHaveAttribute(
+    "href",
+    /archive\.dartmouthalumnimagazine\.com/,
+  );
+  await expect(page.getByRole("link", { name: /1929/ }).first()).toHaveAttribute(
+    "href",
+    /archive\.dartmouthalumnimagazine\.com/,
+  );
+
+  await page.goto("./organizations/b92c5612-1373-5179-a7e3-52f178b0b1f1/");
+  await expect(
+    page.getByRole("heading", { name: "Munro, Kincaid, Edgehill, Inc.", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Nathaniel H Barrows Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("wool merchant");
+});

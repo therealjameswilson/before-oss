@@ -4,16 +4,52 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,248 HTML files. Every relative
+**PASS.** The production build contains 24,249 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 299 organization profiles, and the
+The build includes 23,941 person profiles, 300 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,770 unique external URLs for separate live
+The checker inventoried 48,773 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 153 local release check
+
+The complete 24,249-page internal-link pass includes direct routes for
+Nathaniel H. Barrows Jr., Edward P. Barry, Frances O. Barry, Harold R. Barry,
+Joseph A. Barry, Marion Barry, Mary M. Barry, Norman F. Barry, Pro Robert Barry,
+Richard W. Barry, and the new Munro, Kincaid, Edgehill, Inc. organization
+page. The Batch 153 regression passed at desktop, phone, and tablet sizes. The
+nine unresolved profiles retain their visually verified page-25 values and Box
+40 archival paths. Barrows's qualified immediate Army pathway remains separate
+from his verified last civilian employer and role as partner and wool buyer,
+with claim-level Dartmouth citations.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`d816966bc17618f1efdbf4626364756a2203da9103ee786be0d990ecfa2a4eed`.
+Consecutive production builds produced the same length-delimited path-and-
+content SHA-256,
+`5160d95b002a9e35f3acb7df5bb8961158ab6b259eb757b80b4c6443dcee1ab8`.
+The boundary-aware audit reviewed 996 candidate substrings across 24,319 built
+artifacts and found zero unexpected private-identifier matches.
+
+## Batch 152 production check
+
+GitHub Actions test workflow
+[30746502307](https://github.com/therealjameswilson/before-oss/actions/runs/30746502307)
+and Pages workflow
+[30746502304](https://github.com/therealjameswilson/before-oss/actions/runs/30746502304)
+completed successfully for release
+`10bdaf46a5ba5f9a040823a68d222ef4180e1cde`. The independent audit opened 18 /
+18 selected routes and verified all 65 deployed manifest assets. The deployed
+manifest SHA-256 is
+`61b0abbcc34a22738e0da0ac4d23776594e9f238f3002356da9693937a90364f`.
+The 84-artifact live privacy scan found zero unexpected private-identifier
+matches. The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 152 local release check
 
