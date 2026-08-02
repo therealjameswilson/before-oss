@@ -13035,3 +13035,48 @@ test("Batch 144 preserves Barnard through Barnes rows and keeps Barner's undated
     page.getByRole("link", { name: /Cambria County Veterans Honor Roll/ }).first(),
   ).toHaveAttribute("href", /pagenweb\.org/);
 });
+
+test("Batch 145 preserves the next Barnes rows and routes unresolved common names to Box 37 review", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["67949f9b-167f-5d56-a16f-e05dbd580c7f", "Evelyn S Barnes", "Not printed"],
+    ["e8fc52e4-85b5-56de-8886-67b7084823c0", "George E Barnes Jr.", "Not printed"],
+    ["1b84acc4-c184-5fc2-9aad-8d0a5da5174e", "Howard W Barnes", "Caf-4"],
+    ["e5878abe-f1a5-5c5a-be40-2cef00ecf21f", "Jamesm A Barnes", "P-5"],
+    ["9e3131f3-2b4d-57a3-a3a7-6fff1289f2ae", "Jean H Barnes", "Not printed"],
+    ["3609a081-48c7-59c7-a352-d8643c6426a3", "Joseph F Barnes", "Not printed"],
+    ["612fcaf8-6e8d-5c38-8ecf-363a92c10abe", "Lee E Barnes", "Cpl"],
+    ["c1a96549-9b06-5e60-bb07-a80f594c99e2", "Lois Barnes", "Caf-2"],
+    ["5c6f64e7-cd1f-5836-80a0-d9439aa64449", "Mary L Barnes", "Not printed"],
+    ["cfba8f35-e01b-50b1-b99c-2c2ae9026945", "Richard Barnes", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("37", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 23");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/e5878abe-f1a5-5c5a-be40-2cef00ecf21f/");
+  await expect(page.locator("main")).toContainText("index row prints Jamesm A. Barnes");
+  await expect(page.locator("main")).toContainText("unconfirmed James M. Barnes search alias");
+
+  await page.goto("./people/612fcaf8-6e8d-5c38-8ecf-363a92c10abe/");
+  await expect(page.locator("main")).toContainText("private Army identifier");
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+});

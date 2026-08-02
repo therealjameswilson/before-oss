@@ -15,6 +15,44 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,744 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 145 local release check
+
+The complete 24,239-page internal-link pass includes direct routes for Evelyn
+S. Barnes, George E. Barnes Jr., Howard W. Barnes, Jamesm A. Barnes, Jean H.
+Barnes, Joseph F. Barnes, Lee E. Barnes, Lois Barnes, Mary L. Barnes, and
+Richard Barnes. The focused browser regression opened all ten profiles at
+desktop, phone, and tablet sizes, and the full browser/accessibility matrix
+passed 480 / 480. All ten profiles preserve the visually verified page-23
+source values, remain visibly unresolved, and link their next action to Box 37
+review without publishing a namesake employer. The literal Jamesm spelling is
+retained, and James M. Barnes is visibly labeled only as an unconfirmed search
+alias.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`d1dbb1b88d017c2b82fa76254b2de67eda699975f6e611118e2bf36c98542849`.
+Consecutive complete production builds produced the same artifact-tree
+SHA-256, `da99de5c0d79f5997235abdff3e9dc69c653d962778c51ff6ed6bebda0d302c5`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,309 public artifacts, rejected 997 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 144 production check
+
+GitHub Actions test workflow
+[30737998391](https://github.com/therealjameswilson/before-oss/actions/runs/30737998391)
+and Pages workflow
+[30737998394](https://github.com/therealjameswilson/before-oss/actions/runs/30737998394)
+completed successfully for release `eb7939a`. The independent audit opened the
+seven core routes and all ten Batch 144 profiles; all 17 returned HTTP 200 and
+matched the intended release content. All 65 deployed manifest assets matched
+their recorded size, SHA-256, and exact release bytes. The deployed manifest
+SHA-256 is
+`3dc35d527221ae316887183406623199385e689644c05661f9eef82473884829`.
+The 83-artifact live privacy scan found zero unexpected full-number matches.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
+
 ## Batch 144 local release check
 
 The complete 24,239-page internal-link pass includes direct routes for Frances

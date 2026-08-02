@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 477 / 477 release browser cases across desktop, phone, and
+**PASS - 480 / 480 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 144 matrix completed without an assertion, navigation, or
+The complete Batch 145 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -40,6 +40,14 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 145 adds direct desktop, phone, and tablet checks for Evelyn S. Barnes
+through Richard Barnes on page twenty-three. It verifies all ten contiguous
+source rows, Box 37 routing, printed ranks and civilian grades, and field-level
+serial masking. Every profile retains unresolved identity, explicit no-result
+wording, and visible archival-review guidance. The regression preserves the
+literal Jamesm A. Barnes index spelling, labels James M. Barnes only as an
+unconfirmed search alias, and verifies Lee E. Barnes's enlisted classification
+without publishing his full private identifier.
 Batch 144 adds direct desktop, phone, and tablet checks for Frances W. Barnard
 through Eric W. Barnes on page twenty-three. It verifies all ten contiguous
 source rows, Box 36 or Box 37 routing, printed ranks and grades, and field-level
@@ -50,6 +58,13 @@ honor-roll citations, and the explicit absence of immediate, last-civilian, or
 earlier pre-OSS affiliations. The regression also verifies that an undated
 University of Pittsburgh degree is not converted into an employer or student
 claim.
+GitHub Actions workflow
+[30737998391](https://github.com/therealjameswilson/before-oss/actions/runs/30737998391)
+repeated the complete 477 / 477 matrix successfully for Batch 144 release
+`eb7939a`; Pages workflow
+[30737998394](https://github.com/therealjameswilson/before-oss/actions/runs/30737998394)
+also completed successfully. An independent live check verified the seven core
+routes and ten Batch 144 profiles at HTTP 200 with the intended content.
 Batch 143 adds direct desktop, phone, and tablet checks for Mabel Barkley
 through Camille A. Barnabe across the page-twenty-two and page-twenty-three
 boundary. It verifies all ten contiguous source rows, Box 36 routing, printed
