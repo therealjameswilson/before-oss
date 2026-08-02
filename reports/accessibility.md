@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 459 / 459 release browser cases across desktop, phone, and
+**PASS - 462 / 462 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 138 matrix completed without an assertion, navigation, or
+The complete Batch 139 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -30,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-140-person employer measure is labeled separately from the 248-person broader
+141-person employer measure is labeled separately from the 249-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -40,6 +40,13 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 139 adds direct desktop, phone, and tablet checks for all ten contiguous
+opening page-twenty-two profiles from Paul F. Barb through Louis J. Barbieri.
+It verifies Box 35 routing, source-row ranks and civilian grades, field-level
+serial masking, the confirmed Geno Barbati identity, the separation of his
+Army pathway from Ford Motor Company employment, his press-operator and spot-
+welder roles, the reviewed Hoover Institution citation, and nine visibly
+unresolved identities with dignified archival-review guidance.
 Batch 121 adds direct desktop, phone, and tablet checks for all ten contiguous
 opening page-eighteen profiles from Daniel E. Badia through Ernest D. Baerwald.
 It verifies Box 28 and 29 routing, source-row ranks and civilian grades,

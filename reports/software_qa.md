@@ -7,17 +7,17 @@ Run: 2026-08-02 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,238 pages**
 - Internal link check: **24,238 HTML files passed**
-- Browser and accessibility suite: **459 / 459 passed** across desktop, phone,
+- Browser and accessibility suite: **462 / 462 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`acac3ca1ae3646d0815a5d39e7db8ce617fc79ab3afefb1f6777795e7e1594b2`)
-- Latest deterministic build (Batch 138): **byte-for-byte identical** across
+  (`d68ca88fc1bd699a7f9d0358c5a9b77e95eda67082f33a34731e1d961f2b813a`)
+- Latest deterministic build (Batch 139): **byte-for-byte identical** across
   two consecutive static builds and all **24,308** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `8fafaaecb9c5c1e05df77020d2daaf1c4fa8bf2fa23e763b91a2db2efc4a7e61`
+  `3f3a62cfcd15ddbb3789d62f0209d6a4dbe93d808bc4c508374adbecf930defb`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -25,22 +25,71 @@ Run: 2026-08-02 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,308** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,033** public records representing **847** unique documents
-- Private citation records: **1,876**
-- Published, qualified affiliations: **508**
-- Published or conflict-visible claims: **983**
+- Reviewed public sources: **1,035** public records representing **848** unique documents
+- Private citation records: **1,887**
+- Published, qualified affiliations: **510**
+- Published or conflict-visible claims: **986**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **248** people with confirmed/high published
+- Verified-affiliation metric: **249** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **140** people with confirmed/high published
+- Verified-employer metric: **141** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 138 local release checks: **passed**; production deployment verification
+- Batch 139 local release checks: **passed**; production deployment verification
   follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 139 local release QA
+
+Batch 139 adds the ten contiguous page-twenty-two profiles from Paul F. Barb
+through Louis J. Barbieri. The strict reviewed-evidence bundle imports 11
+sources, two reused organizations, two affiliations, three claims, six
+claim-source links, ten person updates, and ten terminal research attempts.
+Nine identities remain unresolved and route to high-priority Box 35 review. A
+declassified May 1944 OSS Board record confirms Geno Barbati through the exact
+name and a matching private Army identifier, which is not published. It
+supports the United States Army as his immediate pre-OSS military affiliation
+and Ford Motor Company as the best-supported last civilian employer, where he
+worked as a press operator and spot welder. The temporal wording remains
+qualified because the record gives no Ford dates, plant, or city.
+
+The evidence importer passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+errors. The Python suite passed 55 / 55. The focused Batch 139 regression
+passed 3 / 3 across desktop, phone, and tablet, and the complete browser,
+responsive, direct-route, search, and axe matrix passed 462 / 462 in 5.5
+minutes, including 27 / 27 dedicated axe cases. The internal-link checker
+passed all 24,238 HTML pages and inventoried 48,734 unique external URLs. The
+production dependency audit found zero vulnerabilities, and the deterministic
+200-profile stratified audit passed every invariant.
+
+Two consecutive builds produced the identical directory-prefixed content-tree
+SHA-256
+`d68ca88fc1bd699a7f9d0358c5a9b77e95eda67082f33a34731e1d961f2b813a`
+across 24,308 built artifacts. All 65 manifest assets matched their recorded
+sizes and SHA-256 values in the public source and built trees. The manifest's
+forbidden-field check passed, and the manifest SHA-256 is
+`3f3a62cfcd15ddbb3789d62f0209d6a4dbe93d808bc4c508374adbecf930defb`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against all 24,308 artifacts, rejected 988 substring
+coincidences, and found zero unexpected boundary matches. No local `.env`,
+authenticated Catalog request, API credential, or raw Catalog response was
+used.
+
+The Batch 139 database contains 2,241 durable research attempts, 1,887 private
+source records, 291 organizations, 515 affiliations, 1,007 claims, and 2,014
+claim-source links. Claim confidence is 188 confirmed, 659 high, 135 medium,
+21 low, and four conflicting. The reviewed public projection contains 1,035
+source records representing 848 unique documents, 289 organizations, 510
+affiliations, and 986 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,210 people with a non-planned research attempt, 249
+with verified-affiliation evidence, 141 with verified employment or
+self-employment evidence, and 1,158 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 289 organizations, 510
+affiliations, and 1,035 sources.
 
 ## Batch 138 local release QA
 

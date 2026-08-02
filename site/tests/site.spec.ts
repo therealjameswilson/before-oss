@@ -12641,3 +12641,59 @@ test("Batch 138 preserves ten page 21 rows and qualifies Baranski's Army and stu
     /uiaa\.org/,
   );
 });
+
+test("Batch 139 preserves ten page 22 rows and documents Barbati's Army and Ford pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["c3294217-fc9c-546d-a003-69ceaa30e62b", "Paul F Barb"],
+    ["50f128c4-b940-5fcb-a44d-26c63268a8d7", "Geno Barbati"],
+    ["1ab179fa-6130-5a87-8fc5-45a025991a49", "Audrey E Barber"],
+    ["0ce4b78a-355e-5e1b-9352-f31731db70c0", "C E Barber"],
+    ["e3a137ee-281f-545b-a67a-e4ad9b211178", "Eleanor M Barber"],
+    ["0a9236e2-454f-5c54-b75d-7f6bf03c5690", "Martha Barber"],
+    ["d0bb3f39-8187-5fa9-9271-22464f8f95b1", "William Barber"],
+    ["66eff858-099c-5539-9c8b-634373b74446", "Roger W Barbey"],
+    ["e50199fe-62d3-54ba-ab89-ceb37f826f91", "Lawrence I Barbier"],
+    ["9c1c261a-3284-57a6-8364-cb72666af1cc", "Louis J Barbieri"],
+  ];
+
+  for (const [personId, displayName] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("35", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 22");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of allProfiles
+    .map(([personId]) => personId)
+    .filter((personId) => personId !== "50f128c4-b940-5fcb-a44d-26c63268a8d7")) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/50f128c4-b940-5fcb-a44d-26c63268a8d7/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Ford Motor Company",
+  );
+  await expect(page.locator("main")).toContainText("press operator and spot welder");
+  await expect(page.locator("main")).toContainText("Air Corps basic training");
+  await expect(
+    page.getByRole("link", { name: /Office of Strategic Services Board Proceedings/ }).first(),
+  ).toHaveAttribute("href", /digitalcollections\.hoover\.org/);
+});

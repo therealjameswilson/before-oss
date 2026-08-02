@@ -15,6 +15,20 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,734 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 139 local release check
+
+The complete 24,238-page internal-link pass includes direct routes for Paul F.
+Barb, Geno Barbati, Audrey E. Barber, C. E. Barber, Eleanor M. Barber, Martha
+Barber, William Barber, Roger W. Barbey, Lawrence I. Barbier, and Louis J.
+Barbieri. The focused browser regression opened all ten profiles at desktop,
+phone, and tablet sizes. Barbati's claim-level link targets the declassified
+OSS Board proceedings hosted by the Hoover Institution; the profile keeps his
+Army pathway separate from his Ford Motor Company civilian employment.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`3f3a62cfcd15ddbb3789d62f0209d6a4dbe93d808bc4c508374adbecf930defb`.
+
 ## Batch 138 local release check
 
 The complete 24,238-page internal-link pass includes direct routes for Rita E.
@@ -45,6 +59,7 @@ sources.
 
 | Target | Result |
 |---|---|
+| Hoover Institution, OSS Board proceedings at Caserta, 4 May 1944 | Declassified direct OSS record reviewed for Geno Barbati's Army-to-OSS chronology and Ford Motor Company civilian work; the private identifier used for identity confirmation is not published |
 | University of Illinois Alumni Association, Edward Victor Baranski | Institutional account reviewed for 1941 graduation and his Army-to-OSS mess-sergeant chronology; University student status remains separate from employment |
 | National Park Service, OSS in the Mediterranean and European theaters | Official history reviewed for Captain Edward V. Baranski, Special Intelligence, and the Day Group |
 | American Battle Monuments Commission, OSS officers captured in Czechoslovakia | Official account reviewed for Capt. Edward Baranski and the 2677th Regiment, OSS |
