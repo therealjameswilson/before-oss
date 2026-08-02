@@ -227,6 +227,7 @@ class PersonUpdateInput(StrictModel):
     ] | None = None
     identity_evidence: str | None = None
     name_variants: list[str] | None = None
+    replace_name_variants: bool = False
     personnel_category: Literal[
         "commissioned_army_officer",
         "commissioned_coast_guard_officer",
@@ -683,17 +684,18 @@ def import_reviewed_evidence(
                 "completed",
             }
             current_variants = json.loads(current["name_variants_json"] or "[]")
-            name_variants = (
-                sorted(
-                    {
-                        *(str(value) for value in current_variants),
-                        *(str(value) for value in (update.name_variants or [])),
-                    },
+            if update.name_variants is None:
+                name_variants = current_variants
+            else:
+                variant_values = (
+                    update.name_variants
+                    if update.replace_name_variants
+                    else [*current_variants, *update.name_variants]
+                )
+                name_variants = sorted(
+                    {str(value) for value in variant_values},
                     key=lambda value: (value.casefold(), value),
                 )
-                if update.name_variants is not None
-                else current_variants
-            )
             connection.execute(
                 """
                 UPDATE person_entities

@@ -12,8 +12,29 @@ The build includes 23,941 person profiles, 301 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,777 unique external URLs for separate live
+The checker inventoried 48,783 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 155 local release check
+
+The complete 24,250-page internal-link pass includes direct routes for David
+M. Barthold, Thomas M. Bartholomay, Arsenio Bartl, Arthur Bartl, Eben B.
+Bartlett Jr., Nicole C. Bartlett, Sidney L. Bartlett, William G. Bartlett,
+Youell E. Bartlett, Vincent Bartold, and the Department of State organization
+page. The Batch 155 regression passed at desktop, phone, and tablet sizes.
+Arthur Bartl's qualified Army pathway remains visibly medium confidence;
+Eben Bartlett's liaison evidence remains withheld as an unsupported
+predecessor; and Sidney Bartlett's State Department and oil-executive evidence
+replaces, rather than merges with, the rejected screenwriter namesake.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`d0858139bd04b3043fac7b3cdc8bb3dc6a26c93214f29a45fcb18ab85dc5a4bf`.
+Consecutive production builds produced the same sorted length-delimited
+path-and-file-SHA-256 tree digest,
+`46fe0c8d20a01e81cfde5ffa49bff5cf59daff9e6505825f9ddf499e0b02103d`.
+The boundary-aware audit reviewed 995 candidate substrings across 24,320 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 154 local release check
 

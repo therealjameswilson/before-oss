@@ -2,24 +2,24 @@
 
 Run: 2026-08-02 UTC
 
-- Python unit tests: **55 / 55 passed**
+- Python unit tests: **56 / 56 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,250 pages**
 - Internal link check: **24,250 HTML files passed**
-- Browser and accessibility suite: **507 / 507 passed** across desktop,
+- Browser and accessibility suite: **510 / 510 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases. The focused
-  Batch 154 desktop regression also passed **1 / 1** before the full run
+  Batch 155 desktop regression also passed **1 / 1** before the full run
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`0456080adfb99aeecf604f0c1351b014898203c3050f540a167835e10a044fbc`)
-- Latest deterministic build (Batch 154): **byte-for-byte identical** across
+  (`46fe0c8d20a01e81cfde5ffa49bff5cf59daff9e6505825f9ddf499e0b02103d`)
+- Latest deterministic build (Batch 155): **byte-for-byte identical** across
   consecutive static builds and all **24,320** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `4194f9e0d34a2a49c8e0f191d43cb3f5e5dc3e34b98d21874747d24c338fa4bc`
+  `d0858139bd04b3043fac7b3cdc8bb3dc6a26c93214f29a45fcb18ab85dc5a4bf`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -27,23 +27,75 @@ Run: 2026-08-02 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,320** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,089** public records representing **884** unique documents
-- Private citation records: **2,064**
-- Published, qualified affiliations: **534**
-- Published or conflict-visible claims: **1,033**
-- Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **262** people with confirmed/high published
+- Reviewed public sources: **1,098** public records representing **891** unique documents
+- Private citation records: **2,074**
+- Published, qualified affiliations: **535**
+- Published or conflict-visible claims: **1,036**
+- Withheld low-confidence evidence: **25 claims concerning 20 people**
+- Verified-affiliation metric: **263** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **150** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
-- Batch 154 local release checks: **passed**; the combined **507-case** browser
+- Batch 154 production verification: **passed**
+- Batch 155 local release checks: **passed**; the combined **510-case** browser
   matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 155 local release QA
+
+Batch 155 adds the ten visually checked page-twenty-five rows from David M.
+Barthold through Vincent Bartold. The strict evidence bundle imports twelve
+sources, three organizations, four affiliations, ten claims, twenty-four
+claim-source links, ten person updates, and ten terminal research attempts.
+Arthur Bartl receives a confirmed identity based on an exact private
+identifier in an official OSS proceeding, independently corroborated by a
+scholarly history; his Army-to-SI Labor Desk pathway is published only as a
+qualified, medium-confidence probable-immediate affiliation. Eben B. Bartlett
+Jr. receives a high-confidence identity, while the relationship between his
+Third Army liaison work and OSS entry remains withheld as low-confidence
+temporal evidence. Sidney L. Bartlett is corrected from an unsupported
+screenwriter namesake to the high-confidence State Department observer and
+vice-consul identity documented in FRUS and an American Foreign Service
+Association account. The evidence supports his oil-executive occupation but
+does not name an oil employer. Seven profiles remain unresolved and route to
+archival review.
+
+The importer passed Pydantic validation and the complete from-source rebuild
+reconstructed all 23,978 source rows, 23,941 person entities, reviewed evidence
+bundles, derived exports, and static pages. SQLite `quick_check` returned `ok`,
+the foreign-key check returned zero rows, the Python suite passed 56 / 56, and
+the deterministic 200-profile audit passed every invariant. Astro reported
+zero errors, warnings, or hints and built 24,250 pages. The internal-link
+checker passed all 24,250 HTML pages and inventoried 48,783 unique external
+URLs. The complete browser, responsive, direct-route, search, and axe matrix
+passed 510 / 510 across desktop, phone, and tablet. The production dependency
+audit found zero vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`46fe0c8d20a01e81cfde5ffa49bff5cf59daff9e6505825f9ddf499e0b02103d`
+across 24,320 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `d0858139bd04b3043fac7b3cdc8bb3dc6a26c93214f29a45fcb18ab85dc5a4bf`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants, examined 995 candidate substrings, and found zero
+unexpected matches. No local `.env` file, tracked nonblank API-key assignment,
+authenticated Catalog request, or raw Catalog response was present or used.
+
+The Batch 155 database contains 2,400 durable research attempts, 2,074 private
+source records representing 891 unique documents, 304 organizations, 542
+affiliations, 1,061 claims, and 2,138 claim-source links. Claim confidence is
+190 confirmed, 703 high, 139 medium, 25 low, and four conflicting. The public
+projection contains 1,098 sources, 301 organizations, 535 affiliations, and
+1,036 published, qualified, or conflict-visible claims. Coverage distinguishes
+1,367 people with a non-planned research attempt, 263 with verified-affiliation
+evidence, 150 with verified employment or self-employment evidence, and 1,316
+whose archival-review need has been assessed.
 
 ## Batch 154 local release QA
 
@@ -90,6 +142,30 @@ projection contains 1,089 sources, 301 organizations, 534 affiliations, and
 1,358 people with a non-planned research attempt, 262 with verified-affiliation
 evidence, 150 with verified employment or self-employment evidence, and 1,307
 whose archival-review need has been assessed.
+
+## Batch 154 production verification
+
+GitHub Actions test workflow
+[30749290946](https://github.com/therealjameswilson/before-oss/actions/runs/30749290946)
+and Pages workflow
+[30749290960](https://github.com/therealjameswilson/before-oss/actions/runs/30749290960)
+completed successfully for release
+`0ba48e9fe6011b063b7337885eb9b62820681914`. CI passed the 55-test Python
+suite, complete 507-case browser and accessibility matrix, static build,
+dependency audit, internal-link check, checksum-verified source
+reconstruction, and public identifier audit.
+
+An independent production audit opened 18 / 18 selected routes, comprising
+the seven core routes, all ten Batch 154 profiles, and Edmund Barski's
+organization page. Every route matched the audited local release after plain
+and URL-encoded canonical-host normalization. All 65 deployed manifest assets
+matched their recorded and local sizes, SHA-256 values, and bytes. The
+deployed manifest SHA-256 is
+`4194f9e0d34a2a49c8e0f191d43cb3f5e5dc3e34b98d21874747d24c338fa4bc`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against 84 live HTML, data, compressed-mirror, manifest,
+and download artifacts. It examined 573 candidate substrings and found zero
+unexpected full-identifier matches.
 
 ## Batch 153 production verification
 

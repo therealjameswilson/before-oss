@@ -236,14 +236,6 @@ test("the second reviewed CIA batch keeps student, military, employer, and ident
       missingCivilian:
         "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
     },
-    {
-      id: "8061a334-7c98-5f3e-9e20-d8771f19bd50",
-      name: "Sidney L Bartlett",
-      immediate: "United States Army",
-      source: "Hollywood and the Office of Strategic Services",
-      missingCivilian: "No reviewed claim currently meets the publication threshold.",
-      needsIdentityReview: true,
-    },
   ];
 
   for (const profile of profiles) {
@@ -268,9 +260,6 @@ test("the second reviewed CIA batch keeps student, military, employer, and ident
       await expect(
         civilianSection.getByText(profile.missingCivilian!, { exact: true }),
       ).toBeVisible();
-    }
-    if (profile.needsIdentityReview) {
-      await expect(page.getByText("needs identity review", { exact: true })).toBeVisible();
     }
     await expect(
       page.getByRole("link", { name: profile.source, exact: true }).first(),
@@ -13783,4 +13772,115 @@ test("Batch 154 preserves Barry through Barther rows and publishes Barski's mili
     "href",
     /cnd-castille\.org/,
   );
+});
+
+test("Batch 155 corrects Sidney Bartlett and preserves qualified Bartl and Bartlett pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["2fd76f45-14a2-572f-b933-e91e144ba2a7", "David M Barthold", "1st Lt"],
+    ["2a88f95b-340f-5e9c-86a9-5e714bf999c7", "Thomas M Bartholomay", "T-3"],
+    ["e2621094-19f6-5a35-a257-26e46f39d0a2", "Arsenio Bartl", "Pvt"],
+    ["95872e61-d88a-53e2-ac4f-f2be5449dfb4", "Arthur Bartl", "Pvt"],
+    ["130f0808-7dde-5ea5-a407-ea623d3067a9", "Eben B Bartlett Jr.", "Maj"],
+    ["179c8205-2e02-5df7-b46e-a44fec7ae80e", "Nicole C Bartlett", "Not printed"],
+    ["8061a334-7c98-5f3e-9e20-d8771f19bd50", "Sidney L Bartlett", "Not printed"],
+    ["7461fac9-602c-5dbf-ae71-c55159499a43", "William G Bartlett", "Col"],
+    ["945acd34-7543-5187-8c4e-18becf3a3295", "Youell E Bartlett", "T-3"],
+    ["8d95e30a-462f-57e4-85be-6aad18633427", "Vincent Bartold", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("40", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 25");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = allProfiles.filter(
+    ([personId]) =>
+      ![
+        "95872e61-d88a-53e2-ac4f-f2be5449dfb4",
+        "130f0808-7dde-5ea5-a407-ea623d3067a9",
+        "8061a334-7c98-5f3e-9e20-d8771f19bd50",
+      ].includes(personId),
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/95872e61-d88a-53e2-ac4f-f2be5449dfb4/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "probable immediate",
+  );
+  await expect(page.locator("main")).toContainText("SI Labor Desk");
+  await expect(page.locator("main")).toContainText("Maple mission cohort");
+  await expect(page.getByRole("link", { name: /OSS Caserta personnel/ }).first()).toHaveAttribute(
+    "href",
+    /hoover\.org/,
+  );
+
+  await page.goto("./people/130f0808-7dde-5ea5-a407-ea623d3067a9/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Pattern camp");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator("main")).not.toContainText(
+    "Eben B. Bartlett Jr. served as a Third Army liaison in France",
+  );
+  await expect(page.getByRole("link", { name: /Ship of Ghosts: The Story/ }).first()).toHaveAttribute(
+    "href",
+    /erenow\.org/,
+  );
+
+  await page.goto("./people/8061a334-7c98-5f3e-9e20-d8771f19bd50/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Department of State",
+  );
+  await expect(page.locator("main")).toContainText("California oil executive");
+  await expect(page.locator("main")).toContainText("detailed to Casablanca");
+  await expect(page.locator("main")).not.toContainText("screenwriter");
+  await expect(page.locator("main")).not.toContainText("Sy Bartlett");
+  await expect(page.getByRole("link", { name: /Diplomatic Agent and Consul/ }).first()).toHaveAttribute(
+    "href",
+    /history\.state\.gov/,
+  );
+  await expect(page.getByRole("link", { name: /CIA in Embryo/ }).first()).toHaveAttribute(
+    "href",
+    /afsa\.org/,
+  );
+
+  await page.goto("./organizations/4d2fbb5f-218d-5445-b7b3-4c2fd22f0286/");
+  await expect(
+    page.getByRole("heading", { name: "United States Department of State", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Sidney L Bartlett", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("government assignment");
 });

@@ -307,6 +307,36 @@ class ReviewedEvidenceTests(unittest.TestCase):
             ["DeWitt Clinton Poole", "Dewitt Clinton Poole"],
         )
 
+    def test_name_variants_can_replace_rejected_namesake_aliases(self) -> None:
+        original = self._bundle()
+        original["person_updates"][0]["name_variants"] = [
+            "Example A. Person",
+            "Rejected Namesake",
+        ]
+        original_path = Path(self.temp_dir.name) / "variant-original-bundle.json"
+        original_path.write_text(json.dumps(original), encoding="utf-8")
+        import_reviewed_evidence(self.connection, original_path)
+
+        correction = self._bundle()
+        correction["person_updates"][0]["name_variants"] = [
+            "Example A. Person",
+            "Example Person",
+        ]
+        correction["person_updates"][0]["replace_name_variants"] = True
+        correction_path = Path(self.temp_dir.name) / "variant-correction-bundle.json"
+        correction_path.write_text(json.dumps(correction), encoding="utf-8")
+        import_reviewed_evidence(self.connection, correction_path)
+
+        variants = json.loads(
+            self.connection.execute(
+                "SELECT name_variants_json FROM person_entities"
+            ).fetchone()[0]
+        )
+        self.assertEqual(
+            variants,
+            ["Example A. Person", "Example Person"],
+        )
+
     def test_nara_catalog_id_omission_preserves_and_null_clears(self) -> None:
         original_path = Path(self.temp_dir.name) / "catalog-id-original.json"
         original_path.write_text(json.dumps(self._bundle()), encoding="utf-8")
