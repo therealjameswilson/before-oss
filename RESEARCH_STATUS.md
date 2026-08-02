@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,250 people with a non-planned attempt | 23,941 person entities | 5.2212% |
+| Research-attempt coverage | 1,260 people with a non-planned attempt | 23,941 person entities | 5.2629% |
 | Verified-affiliation coverage | 252 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0526% |
 | Verified-employer coverage | 144 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6015% |
-| Archival-review coverage | 1,198 people with an individual file-access/priority assessment | 23,941 person entities | 5.0040% |
+| Archival-review coverage | 1,208 people with an individual file-access/priority assessment | 23,941 person entities | 5.0457% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 84
-- Identity status `high_confidence`: 315
+- Identity status `high_confidence`: 316
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,463
+- Identity status `unresolved`: 23,462
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,691
+- `not_started`: 22,681
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 70
-- `requires_archival_review`: 875
+- `requires_archival_review`: 885
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 146
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 682
+- Reviewed-web terminal-protocol attempts recorded: 692
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 443 across 423 people; 30 additional
+- Saved `source_reviewed` outcomes: 444 across 424 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,281
+- Total recorded attempts/plans: 2,291
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 428; 410 have at least one public-eligible
+- People with saved reviewed claims: 429; 411 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1537,11 +1537,28 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   authenticated Catalog request, credential, raw response, full private
   identifier, home address, people-finder record, or discovery-only employer
   claim was used or published.
+- Batch 144 continues page twenty-three from Frances W. Barnard through Eric W.
+  Barnes. All ten rows were visually checked at 300 dpi and original
+  resolution. The strict bundle imports 12 sources, one identity claim, three
+  claim-source links, ten person updates, and ten terminal research attempts;
+  it adds no organization or affiliation. Nine common or lightly identified
+  names remain unresolved and route to high-priority Box 36 or Box 37 review.
+  The uncommon Leroy E. Barner row receives a high-confidence identity from
+  the indexed commissioned Army rank, a funeral-home obituary explicitly
+  placing Leroy Elwood Barner in an OSS unit, and an independent county
+  veterans honor roll naming his U.S. Army, World War II, and OSS service. The
+  obituary mentions a University of Pittsburgh engineering degree and later
+  engineering employers but does not establish their relevant pre-OSS dates;
+  none is promoted to a pre-OSS affiliation or employer. WAE is preserved
+  without expansion, and Edward E. Barnes receives no personnel category from
+  a private identifier alone. No authenticated Catalog request, credential,
+  raw response, full private identifier, home address, people-finder record,
+  or discovery-only employer claim was used or published.
 - Published affiliations: 515
-- Database claims: 1,017; public-visible claims: 996 (188 confirmed, 667 high,
+- Database claims: 1,018; public-visible claims: 997 (188 confirmed, 668 high,
   137 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,039; private source records: 1,934; public source export:
-  1,046; unique source documents: 856
+- Citation links: 2,042; private source records: 1,946; public source export:
+  1,049; unique source documents: 859
 - Canonical organizations: 292 private and 290 public
 - Conflicts: 5
 - NARA pull-list rows: 23,832
@@ -1733,6 +1750,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barbour-through-bardenhagen-pathways_batch-140_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barders-through-barker-pathways_batch-141_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-barker-through-barkley-pathways_batch-142_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-twenty-three-barkley-through-barnabe-pathways_batch-143_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnard-through-barnes-pathways_batch-144_2026-08-02.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

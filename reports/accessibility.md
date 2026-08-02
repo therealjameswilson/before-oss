@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 474 / 474 release browser cases across desktop, phone, and
+**PASS - 477 / 477 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 143 matrix completed without an assertion, navigation, or
+The complete Batch 144 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -40,6 +40,16 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 144 adds direct desktop, phone, and tablet checks for Frances W. Barnard
+through Eric W. Barnes on page twenty-three. It verifies all ten contiguous
+source rows, Box 36 or Box 37 routing, printed ranks and grades, and field-level
+serial masking. Nine profiles retain unresolved identity and visible archival-
+review guidance. The Leroy E. Barner profile is checked for high-confidence
+identity, exact-name and full-name variants, claim-level obituary and veterans-
+honor-roll citations, and the explicit absence of immediate, last-civilian, or
+earlier pre-OSS affiliations. The regression also verifies that an undated
+University of Pittsburgh degree is not converted into an employer or student
+claim.
 Batch 143 adds direct desktop, phone, and tablet checks for Mabel Barkley
 through Camille A. Barnabe across the page-twenty-two and page-twenty-three
 boundary. It verifies all ten contiguous source rows, Box 36 routing, printed
@@ -50,6 +60,12 @@ States Army immediate military assignment, qualified medium-confidence NBC
 last civilian employment, earlier freelance self-employment, claim-level CIA
 and institutional citations, and the absence of any imported postwar Voice of
 America employer claim.
+GitHub Actions workflow
+[30737201981](https://github.com/therealjameswilson/before-oss/actions/runs/30737201981)
+repeated the complete 474 / 474 matrix successfully for Batch 143 release
+`d46d4fe`; Pages workflow
+[30737201987](https://github.com/therealjameswilson/before-oss/actions/runs/30737201987)
+also completed successfully.
 Batch 142 adds direct desktop, phone, and tablet checks for James M. Barker
 through Archie R. Barkley. It verifies all ten contiguous page-twenty-two
 source rows, Box 36 routing, printed ranks and civilian grades, and field-level

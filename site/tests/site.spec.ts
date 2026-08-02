@@ -12980,3 +12980,58 @@ test("Batch 143 preserves Barkley through Barnabe rows and separates Barmine's c
     page.getByRole("link", { name: /A Counterintelligence Reader/ }).first(),
   ).toHaveAttribute("href", /irp\.fas\.org/);
 });
+
+test("Batch 144 preserves Barnard through Barnes rows and keeps Barner's undated education out of pre-OSS claims", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["74d7fe16-57ac-5126-b88f-64a63df27282", "Frances W Barnard", "36", "WAE"],
+    ["356f7818-1544-5f94-ae6b-c770ff5a31d5", "Ralph N Barnard", "36", "1st Lt"],
+    ["437ed836-faaf-5021-8d05-7438679d88ae", "Leroy E Barner", "36", "1st Lt"],
+    ["d3bd8a0b-e6ff-501a-9890-34439cca316d", "Cecil W Barnes", "36", "Caf-13"],
+    ["6a17dc69-e913-5a84-8a89-f869092b2706", "Charles D Barnes", "37", "Capt"],
+    ["1bafa050-b590-5b9d-b5d5-42ab491d6a2d", "Charles T Barnes", "37", "Capt"],
+    ["ab0d973b-ab94-5b07-86de-7b1dad635649", "Clarence I Barnes", "37", "Not printed"],
+    ["e83d089f-9fc5-555b-860d-805597a10ffe", "Edward E Barnes", "37", "Not printed"],
+    ["ea109b43-14e7-580e-ae4b-4419c9f1cd37", "Edward O Barnes", "37", "1st Lt"],
+    ["3a2aa744-8294-5ca5-803d-ebea8c835517", "Eric W Barnes", "37", "Not printed"],
+  ];
+
+  for (const [personId, displayName, box, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 23");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of allProfiles
+    .map(([personId]) => personId)
+    .filter((personId) => personId !== "437ed836-faaf-5021-8d05-7438679d88ae")) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/437ed836-faaf-5021-8d05-7438679d88ae/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Leroy Elwood Barner");
+  await expect(page.locator("main")).toContainText("University of Pittsburgh degree");
+  await expect(page.locator("main")).toContainText("no pre-OSS affiliation is published");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(
+    page.getByRole("link", { name: /Leroy Barner Obituary/ }).first(),
+  ).toHaveAttribute("href", /dignitymemorial\.com/);
+  await expect(
+    page.getByRole("link", { name: /Cambria County Veterans Honor Roll/ }).first(),
+  ).toHaveAttribute("href", /pagenweb\.org/);
+});

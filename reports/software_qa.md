@@ -7,17 +7,17 @@ Run: 2026-08-02 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,239 pages**
 - Internal link check: **24,239 HTML files passed**
-- Browser and accessibility suite: **474 / 474 passed** across desktop, phone,
+- Browser and accessibility suite: **477 / 477 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`322a5203fe77653689700c4bb030c1ec299f86ed6808907f8aa074ad952d877b`)
-- Latest deterministic build (Batch 143): **byte-for-byte identical** across
+  (`3d85bb7f338b874d0c08279521d6afe603935f8d6895ec126dd76f7f069cb30d`)
+- Latest deterministic build (Batch 144): **byte-for-byte identical** across
   consecutive static builds and all **24,309** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `3eb4f2560678c859eaff0f4d1b16c7695af66c90b7666495dd85fda8016a82d5`
+  `3dc35d527221ae316887183406623199385e689644c05661f9eef82473884829`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -25,22 +25,69 @@ Run: 2026-08-02 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,309** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,046** public records representing **856** unique documents
-- Private citation records: **1,934**
+- Reviewed public sources: **1,049** public records representing **859** unique documents
+- Private citation records: **1,946**
 - Published, qualified affiliations: **515**
-- Published or conflict-visible claims: **996**
+- Published or conflict-visible claims: **997**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
 - Verified-affiliation metric: **252** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **144** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 143 local release checks: **passed**; production deployment verification
+- Batch 144 local release checks: **passed**; production deployment verification
   follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 144 local release QA
+
+Batch 144 adds the ten visually checked page-twenty-three rows from Frances W.
+Barnard through Eric W. Barnes. The strict evidence bundle imports 12 sources,
+one identity claim, three claim-source links, ten person updates, and ten
+terminal research attempts; it adds no organization or affiliation. Nine
+identities remain unresolved and route to Box 36 or Box 37 review. Leroy E.
+Barner receives a high-confidence identity from the official index, an
+obituary explicitly placing Leroy Elwood Barner in an OSS unit, and an
+independent county veterans honor roll. His undated University of Pittsburgh
+degree and later engineering employers are not promoted into pre-OSS fields.
+The WAE abbreviation and Edward E. Barnes's blank rank remain uninterpreted.
+
+The evidence importer passed Pydantic validation and replayed idempotently
+twice. SQLite `quick_check` returned `ok`, and the foreign-key check returned
+zero rows. The Python suite passed 55 / 55. The focused Batch 144 regression
+passed 3 / 3 across desktop, phone, and tablet, and the complete browser,
+responsive, direct-route, search, and axe matrix passed 477 / 477 in 5.8
+minutes, including 27 / 27 dedicated axe cases. Astro reported zero errors,
+warnings, or hints and built 24,239 pages. The internal-link checker passed all
+24,239 HTML pages and inventoried 48,744 unique external URLs. The production
+dependency audit found zero vulnerabilities, and the deterministic 200-profile
+stratified audit passed every invariant.
+
+Consecutive final builds produced the identical content-tree SHA-256
+`3d85bb7f338b874d0c08279521d6afe603935f8d6895ec126dd76f7f069cb30d`
+across 24,309 built artifacts. All 65 manifest assets matched their recorded
+sizes and SHA-256 values in the public source and built trees. The manifest's
+forbidden-field check passed, and the manifest SHA-256 is
+`3dc35d527221ae316887183406623199385e689644c05661f9eef82473884829`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against all 24,309 artifacts, rejected 997 substring
+coincidences, and found zero unexpected boundary matches. No local `.env`,
+authenticated Catalog request, API credential, or raw Catalog response was
+used.
+
+The Batch 144 database contains 2,291 durable research attempts, 1,946 private
+source records representing 859 unique documents, 292 organizations, 520
+affiliations, 1,018 claims, and 2,042 claim-source links. Claim confidence is
+188 confirmed, 668 high, 137 medium, 21 low, and four conflicting. The public
+projection contains 1,049 sources, 290 organizations, 515 affiliations, and
+997 published, qualified, or conflict-visible claims. Coverage distinguishes
+1,260 people with a non-planned research attempt, 252 with verified-affiliation
+evidence, 144 with verified employment or self-employment evidence, and 1,208
+whose archival-review need has been assessed. Public downloads contain 23,941
+people, 290 organizations, 515 affiliations, and 1,049 sources.
 
 ## Batch 143 local release QA
 
@@ -90,6 +137,28 @@ projection contains 1,046 sources, 290 organizations, 515 affiliations, and
 evidence, 144 with verified employment or self-employment evidence, and 1,198
 whose archival-review need has been assessed. Public downloads contain 23,941
 people, 290 organizations, 515 affiliations, and 1,046 sources.
+
+## Batch 143 production deployment
+
+GitHub Actions test workflow
+[30737201981](https://github.com/therealjameswilson/before-oss/actions/runs/30737201981)
+and GitHub Pages deployment workflow
+[30737201987](https://github.com/therealjameswilson/before-oss/actions/runs/30737201987)
+completed successfully for release `d46d4fe`. CI repeated all 55 Python tests,
+the static build, dependency and internal-link checks, the 474-case browser and
+accessibility matrix, checksum-verified source-PDF reconstruction, and the
+boundary-aware private-identifier audit.
+
+All 17 audited live routes returned HTTP 200 and matched the release: seven
+core routes and the ten Batch 143 profiles. All 65 deployed manifest assets
+matched the recorded and local sizes, SHA-256 values, and bytes. The live and
+local manifest SHA-256 is
+`3eb4f2560678c859eaff0f4d1b16c7695af66c90b7666495dd85fda8016a82d5`.
+The five downloads contain 23,941 personnel CSV rows, 23,941 personnel JSONL
+rows, 290 organizations, 515 affiliations, and 1,046 sources. A boundary-aware
+scan of 83 unique fetched artifacts compared 12,919 normalized private
+identifiers and 121 formatted variants, rejected 574 substring coincidences,
+and found zero unexpected boundary matches.
 
 ## Batch 142 production deployment
 

@@ -12,8 +12,29 @@ The build includes 23,941 person profiles, 290 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,742 unique external URLs for separate live
+The checker inventoried 48,744 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 144 local release check
+
+The complete 24,239-page internal-link pass includes direct routes for Frances
+W. Barnard, Ralph N. Barnard, Leroy E. Barner, Cecil W. Barnes, Charles D.
+Barnes, Charles T. Barnes, Clarence I. Barnes, Edward E. Barnes, Edward O.
+Barnes, and Eric W. Barnes. The focused browser regression opened all ten
+profiles at desktop, phone, and tablet sizes, and the full browser/accessibility
+matrix passed 477 / 477. Barner's identity claim links to the Muehlig Funeral
+Chapel obituary and Cambria County veterans honor roll. The site publishes no
+pre-OSS employer or institutional affiliation from the obituary's undated
+degree and later-employer information.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`3dc35d527221ae316887183406623199385e689644c05661f9eef82473884829`.
+Consecutive complete production builds produced the same artifact-tree
+SHA-256, `3d85bb7f338b874d0c08279521d6afe603935f8d6895ec126dd76f7f069cb30d`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,309 public artifacts, rejected 997 harmless
+substrings, and found zero unexpected boundary matches.
 
 ## Batch 143 local release check
 
@@ -36,6 +57,18 @@ SHA-256, `322a5203fe77653689700c4bb030c1ec299f86ed6808907f8aa074ad952d877b`.
 The boundary-aware audit compared 12,919 normalized private identifiers and
 121 formatted variants across 24,309 public artifacts, rejected 997 harmless
 substrings, and found zero unexpected boundary matches.
+
+## Batch 143 production check
+
+GitHub Actions test workflow
+[30737201981](https://github.com/therealjameswilson/before-oss/actions/runs/30737201981)
+and Pages workflow
+[30737201987](https://github.com/therealjameswilson/before-oss/actions/runs/30737201987)
+completed successfully for release `d46d4fe`. The independent audit opened the
+seven core routes and all ten Batch 143 profiles; all 17 returned HTTP 200 and
+matched the intended release content. All 65 deployed manifest assets matched
+their recorded size, SHA-256, and local bytes. The shareable production site
+remains <https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 142 production check
 
