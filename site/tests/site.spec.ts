@@ -13681,3 +13681,106 @@ test("Batch 153 preserves Barrows through Barry rows and separates Barrows's qua
   ).toBeVisible();
   await expect(page.locator("main")).toContainText("wool merchant");
 });
+
+test("Batch 154 preserves Barry through Barther rows and publishes Barski's military pathway without inventing civilian employment", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["a798b774-fccd-5547-903a-154ef9b7a4d6", "Thomas F Barry", "T-5"],
+    ["281b57af-0d70-53da-991a-e6802b025aac", "Wesley E Barry", "SP P 1/c"],
+    ["4070eb87-aec7-571d-af45-513d4c5993d1", "William H Barry", "Cpl"],
+    ["bfb49eb7-5c4f-5eec-a1eb-d411b72ae7fb", "William S Barry", "Pfc"],
+    ["02ad1818-2b78-5f69-8f50-4847e35e962f", "Edmund Barski", "Sgt"],
+    ["d5ed25ca-0786-5485-a5fa-537749487201", "Charles Barta", "1st Lt"],
+    ["cb53ba82-445f-585b-9923-23ce009e3030", "Paul F Bartasavich", "RA1303"],
+    ["4f502af6-ef2f-5cae-9ee1-b8c47b63f33f", "Alfred W Barth", "Not printed"],
+    ["239f6414-5019-52f2-88c3-8d1fc89c20a7", "Jean Barthelemy", "S/Lt"],
+    ["18844b17-b8a6-5da8-bac9-45b77ee9b809", "Anthony J Barther", "Cpl"],
+  ];
+
+  for (const [personId, displayName, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("40", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 25");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = allProfiles.filter(
+    ([personId]) =>
+      ![
+        "02ad1818-2b78-5f69-8f50-4847e35e962f",
+        "cb53ba82-445f-585b-9923-23ce009e3030",
+        "239f6414-5019-52f2-88c3-8d1fc89c20a7",
+      ].includes(personId),
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/02ad1818-2b78-5f69-8f50-4847e35e962f/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("Polish Ar");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Independent Grenadier Company",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Sergeant and Project Eagle radio operator",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).toContainText("Edmund Zeitz");
+  await expect(page.getByRole("link", { name: /Project Eagle: Polscy wywiadowcy/ }).first()).toHaveAttribute(
+    "href",
+    /dokumen\.pub/,
+  );
+
+  await page.goto("./organizations/ccd03a69-7190-54f0-881c-e5ae0fbd3b21/");
+  await expect(
+    page.getByRole("heading", {
+      name: "Independent Grenadier Company, Polish Armed Forces in the West",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Edmund Barski", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("military assignment");
+
+  await page.goto("./people/cb53ba82-445f-585b-9923-23ce009e3030/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Company B, 86th Infantry");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.getByRole("link", { name: /10th Mountain Division Name Index/ }).first()).toHaveAttribute(
+    "href",
+    /denverlibrary\.org/,
+  );
+
+  await page.goto("./people/239f6414-5019-52f2-88c3-8d1fc89c20a7/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("French");
+  await expect(page.locator("main")).toContainText("Jean Berthet");
+  await expect(page.locator("main")).toContainText("Jean Berton");
+  await expect(page.locator("main")).toContainText("Velours");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.getByRole("link", { name: /Tentative of History/ }).first()).toHaveAttribute(
+    "href",
+    /cnd-castille\.org/,
+  );
+});

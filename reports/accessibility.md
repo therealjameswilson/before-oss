@@ -4,20 +4,16 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS after documented retry - 502 / 504 cases passed on the first combined
-run, and the two transient preview-server 404 cases passed 2 / 2 on immediate
-serial rerun. The matrix includes 27 / 27 passing dedicated axe cases.**
+**PASS - 507 / 507 cases passed. The matrix includes 27 / 27 passing dedicated
+axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 168 desktop, 168 phone, and 168 tablet cases. All 168
-desktop and all 168 tablet cases passed. The phone project passed 166 / 168 on
-the first combined invocation; two older profile loops received isolated 404s
-from the long-lived local preview process and then passed 2 / 2 in a fresh,
-single-worker rerun. No product assertion or serious/critical axe failure
-remains. All 27 dedicated axe cases passed. Release CI runs the combined
-504-case matrix.
+The matrix contains 169 desktop, 169 phone, and 169 tablet cases. Every case
+passed on the combined invocation. No product assertion or serious/critical
+axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
+combined 507-case matrix.
 
 Routes tested at all three sizes:
 
@@ -46,6 +42,16 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 154 adds direct desktop, phone, and tablet checks for Thomas F. Barry
+through Anthony J. Barther on page twenty-five. It verifies all ten source
+rows, Box 40 routing, printed military and foreign grades, the Polish and
+French notes, and masked identifier display. Edmund Barski's profile presents
+the Independent Grenadier Company as an immediate military pathway while
+retaining explicit unresolved civilian-employer wording and archival-review
+guidance. Paul F. Bartasavich's 86th Infantry and Jean Barthelemy's Velours
+evidence remain high-confidence identity support without being promoted to
+immediate affiliations. The organization route links back to Barski, and the
+other seven profiles remain unresolved.
 Batch 153 adds direct desktop, phone, and tablet checks for Nathaniel H.
 Barrows Jr. through Richard W. Barry on page twenty-five. It verifies all ten
 source rows, Box 39 or Box 40 routing, printed military ranks and civilian

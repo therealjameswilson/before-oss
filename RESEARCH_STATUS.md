@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,338 people with a non-planned attempt | 23,941 person entities | 5.5887% |
-| Verified-affiliation coverage | 260 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0860% |
-| Verified-employer coverage | 149 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6224% |
-| Archival-review coverage | 1,287 people with an individual file-access/priority assessment | 23,941 person entities | 5.3757% |
+| Research-attempt coverage | 1,358 people with a non-planned attempt | 23,941 person entities | 5.6723% |
+| Verified-affiliation coverage | 262 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0944% |
+| Verified-employer coverage | 150 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6265% |
+| Archival-review coverage | 1,307 people with an individual file-access/priority assessment | 23,941 person entities | 5.4593% |
 
 ## Extraction and identity
 
@@ -22,16 +22,16 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 85
-- Identity status `high_confidence`: 325
+- Identity status `high_confidence`: 329
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,452
+- Identity status `unresolved`: 23,448
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,502
-- Enlisted Army personnel: 3,515
+- Unknown or indeterminate: 16,501
+- Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -42,21 +42,21 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Commissioned naval officers: 81
 - Warrant officers: 5
 
-Commissioned classification: 2,168 yes; 5,044 no; 16,729 indeterminate.
+Commissioned classification: 2,168 yes; 5,045 no; 16,728 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,603
+- `not_started`: 22,583
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 71
-- `requires_archival_review`: 956
+- `requires_archival_review`: 975
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 153
+- `verified_employer_found`: 154
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,14 +65,14 @@ Commissioned classification: 2,168 yes; 5,044 no; 16,729 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 763
+- Reviewed-web terminal-protocol attempts recorded: 783
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
 - Reviewed-official-AAD-institutional-and-web attempts recorded: 22
 - Reviewed-official-institutional-and-web attempts recorded: 12
-- Reviewed-official-and-institutional-source attempts recorded: 3
+- Reviewed-official-and-institutional-source attempts recorded: 5
 - Reviewed-institutional-source attempts recorded: 1
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
@@ -82,12 +82,12 @@ Commissioned classification: 2,168 yes; 5,044 no; 16,729 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 454 across 434 people; 30 additional
+- Saved `source_reviewed` outcomes: 458 across 438 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,370
+- Total recorded attempts/plans: 2,390
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 439; 417 have at least one public-eligible
+- People with saved reviewed claims: 443; 425 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1721,14 +1721,54 @@ Commissioned classification: 2,168 yes; 5,044 no; 16,729 indeterminate.
   announced maintenance. No authenticated Catalog request, credential, raw
   response, full private identifier, sensitive medical detail, or discovery-
   only employer claim was used or published.
-- Published affiliations: 531
-- Database claims: 1,047; public-visible claims: 1,026 (189 confirmed, 693 high,
-  140 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,101; private source records: 2,044; public source export:
-  1,078; unique source documents: 877
-- Canonical organizations: 301 private and 299 public
+- Batch 153 continues page twenty-five from Nathaniel H. Barrows Jr. through
+  Richard W. Barry. All ten rows were visually checked at 300 dpi and original
+  resolution. The strict bundle imports 12 sources, two organizations, two
+  affiliations, three claims, seven claim-source links, ten person updates,
+  and ten terminal research attempts; direct repeat import and a clean rebuild
+  produced the same counts. Nathaniel Haven Barrows Jr. receives a high-
+  confidence identity and a high-confidence last civilian employer at Munro,
+  Kincaid, Edgehill, Inc., where Dartmouth sources identify him as partner and
+  wool buyer. His Army path is separately retained as a medium-confidence,
+  probable-immediate military assignment because the reviewed sources do not
+  establish the precise transfer date or rule out an intervening unit. Edward
+  P. Barry, Frances O. Barry, Harold R. Barry, Joseph A. Barry, Marion Barry,
+  Mary M. Barry, Norman F. Barry, Pro Robert Barry, and Richard W. Barry remain
+  unresolved and route to Box 40 review. The unusual printed `Pro Robert
+  Barry` form remains recoverable and is not silently corrected. No
+  authenticated Catalog request, credential, raw response, full private
+  identifier, sensitive family detail, or discovery-only employer claim was
+  used or published.
+- Batch 154 continues page twenty-five from Thomas F. Barry through Anthony J.
+  Barther. All ten rows were visually checked at 180 dpi and original
+  resolution. The strict bundle imports eight sources, one organization, one
+  affiliation, four claims, ten claim-source links, ten person updates, and ten
+  terminal research attempts; direct repeat import and a clean rebuild
+  produced the same counts. Edmund Barski receives a high-confidence identity
+  as the Project Eagle Manhattan-mission radio operator and a high-confidence
+  immediate military pathway through the Independent Grenadier Company of the
+  Polish Armed Forces in the West. His forced-labor history and German
+  conscription are not treated as voluntary employment, and his last civilian
+  employer remains unresolved. Paul F. Bartasavich receives a high-confidence
+  identity from the exact rare name in Denver Public Library's 10th Mountain
+  Division index, but the 86th Infantry is not published as an affiliation
+  because its temporal relation to OSS is unresolved. Jean Barthelemy receives
+  a high-confidence identity through the Velours mission chronology, named
+  variants, and French archival pointer; no unsupported pre-OSS assignment or
+  employer is selected. Thomas F. Barry, Wesley E. Barry, William H. Barry,
+  William S. Barry, Charles Barta, Alfred W. Barth, and Anthony J. Barther
+  remain unresolved and route to Box 40 review. The printed `SP P 1/c`,
+  `Polish Ar`, `RA1303`, and `S/Lt` forms remain unexpanded. No authenticated
+  Catalog request, credential, raw response, full private identifier, sensitive
+  family detail, or discovery-only employer claim was used or published.
+- Published affiliations: 534
+- Database claims: 1,054; public-visible claims: 1,033 (189 confirmed, 699 high,
+  141 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 2,118; private source records: 2,064; public source export:
+  1,089; unique source documents: 884
+- Canonical organizations: 303 private and 301 public
 - Conflicts: 5
-- NARA pull-list rows: 23,825
+- NARA pull-list rows: 23,824
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

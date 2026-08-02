@@ -4,16 +4,52 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,249 HTML files. Every relative
+**PASS.** The production build contains 24,250 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 300 organization profiles, and the
+The build includes 23,941 person profiles, 301 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,773 unique external URLs for separate live
+The checker inventoried 48,777 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 154 local release check
+
+The complete 24,250-page internal-link pass includes direct routes for Thomas
+F. Barry, Wesley E. Barry, William H. Barry, William S. Barry, Edmund Barski,
+Charles Barta, Paul F. Bartasavich, Alfred W. Barth, Jean Barthelemy, Anthony
+J. Barther, and the new Independent Grenadier Company organization page. The
+Batch 154 regression passed at desktop, phone, and tablet sizes. Edmund
+Barski's immediate Polish military pathway remains distinct from the unresolved
+civilian-employer field. Bartasavich's 86th Infantry and Barthelemy's Velours
+material support identity without becoming unsupported immediate affiliations.
+The other seven profiles retain their page-25 values and Box 40 review paths.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`4194f9e0d34a2a49c8e0f191d43cb3f5e5dc3e34b98d21874747d24c338fa4bc`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`0456080adfb99aeecf604f0c1351b014898203c3050f540a167835e10a044fbc`.
+The boundary-aware audit reviewed 995 candidate substrings across 24,320 built
+artifacts and found zero unexpected private-identifier matches.
+
+## Batch 153 production check
+
+GitHub Actions test workflow
+[30747671896](https://github.com/therealjameswilson/before-oss/actions/runs/30747671896)
+and Pages workflow
+[30747671894](https://github.com/therealjameswilson/before-oss/actions/runs/30747671894)
+completed successfully for release
+`af223969eeeecc4bfc97465d5436ef691b69f0a9`. The independent audit opened 18 /
+18 selected routes, verified all 65 deployed manifest assets, and found zero
+unexpected private-identifier matches across 84 artifacts. The deployed
+manifest SHA-256 is
+`d816966bc17618f1efdbf4626364756a2203da9103ee786be0d990ecfa2a4eed`.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 153 local release check
 
