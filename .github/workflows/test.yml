@@ -34,5 +34,9 @@ jobs:
       - name: Build and test site
         working-directory: site
         run: npm test
+      - name: Rebuild the private identifier audit source
+        run: |
+          scripts/download-source.sh
+          python -m oss_research ingest --pdf data/source/personnel-database.pdf
       - name: Audit public identifier redaction
         run: python scripts/audit_public_identifiers.py

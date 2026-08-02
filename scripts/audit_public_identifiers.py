@@ -23,30 +23,39 @@ ASCII_ALNUM = frozenset(
 
 
 def identifier_sets(database: Path) -> tuple[set[str], set[str]]:
+    if not database.is_file():
+        raise FileNotFoundError(
+            f"Private audit database is missing: {database}. Run the ingest stage first."
+        )
     with sqlite3.connect(database) as connection:
-        normalized = {
-            row[0]
-            for row in connection.execute(
-                """
-                SELECT DISTINCT serial_number_normalized
-                FROM source_records
-                WHERE serial_number_normalized IS NOT NULL
-                  AND length(serial_number_normalized) >= 5
-                """
-            )
-        }
-        formatted = {
-            row[0].strip()
-            for row in connection.execute(
-                """
-                SELECT DISTINCT serial_number_raw
-                FROM source_records
-                WHERE serial_number_normalized IS NOT NULL
-                  AND length(serial_number_normalized) >= 5
-                  AND trim(serial_number_raw) <> serial_number_normalized
-                """
-            )
-        }
+        try:
+            normalized = {
+                row[0]
+                for row in connection.execute(
+                    """
+                    SELECT DISTINCT serial_number_normalized
+                    FROM source_records
+                    WHERE serial_number_normalized IS NOT NULL
+                      AND length(serial_number_normalized) >= 5
+                    """
+                )
+            }
+            formatted = {
+                row[0].strip()
+                for row in connection.execute(
+                    """
+                    SELECT DISTINCT serial_number_raw
+                    FROM source_records
+                    WHERE serial_number_normalized IS NOT NULL
+                      AND length(serial_number_normalized) >= 5
+                      AND trim(serial_number_raw) <> serial_number_normalized
+                    """
+                )
+            }
+        except sqlite3.OperationalError as error:
+            raise RuntimeError(
+                f"Private audit database is not ingested: {database}"
+            ) from error
     return normalized, formatted
 
 
