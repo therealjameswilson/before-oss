@@ -3565,3 +3565,26 @@ source and built trees. The manifest SHA-256 is
 The boundary-aware audit compared 12,919 normalized private identifiers and
 121 formatted variants across all 24,305 local production artifacts, including
 decompressed mirrors, and found zero full matches.
+
+## Batch 134 production deployment
+
+Final GitHub test workflow
+[30727186347](https://github.com/therealjameswilson/before-oss/actions/runs/30727186347)
+and Pages workflow
+[30727186336](https://github.com/therealjameswilson/before-oss/actions/runs/30727186336)
+completed successfully for release head `77ab75c`. CI repeated the full
+24,235-page internal-link check and 447-case browser matrix, then reconstructed
+the private source-row table from the checksum-verified official PDF and passed
+the boundary-aware identifier audit.
+
+All 17 live routes returned HTTP 200 and matched the local release after
+canonical-host normalization: seven core routes and the ten Batch 134 profiles.
+All 65 manifest assets and five public downloads matched local bytes. The live
+manifest SHA-256 is
+`1cee05dbb6f41468c628fe43cde63be424240f45423eb120b01aa25530c9d003`,
+and download row counts are 23,941 personnel CSV, 23,941 personnel JSONL, 286
+organizations, 498 affiliations, and 1,007 sources.
+
+An independent 88-artifact live scan compared 12,919 normalized private
+identifiers and 121 formatted variants, rejected 700 substring coincidences,
+and found zero full boundary matches.

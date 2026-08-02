@@ -3369,6 +3369,47 @@ self-employment evidence, and 1,109 whose archival-review need has been
 assessed. Public downloads contain 23,941 people, 286 organizations, 498
 affiliations, and 1,007 sources.
 
+## Batch 134 production deployment
+
+GitHub Actions test workflow
+[30727186347](https://github.com/therealjameswilson/before-oss/actions/runs/30727186347)
+completed successfully in 10 minutes 39 seconds for final release head
+`77ab75c`. It repeated the 55 / 55 Python suite, deterministic 24,235-page
+static build, internal-link check, and complete 447 / 447 browser, responsive,
+direct-route, search, and axe matrix. It then downloaded the official source
+PDF, verified SHA-256
+`7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b`,
+reconstructed all 23,978 source rows with Poppler, and passed the reusable
+private-identifier audit. Pages workflow
+[30727186336](https://github.com/therealjameswilson/before-oss/actions/runs/30727186336)
+also completed successfully and deployed the static artifact.
+
+The new CI privacy gate was repaired transparently across three preceding test
+runs. Workflow 30726156292 proved that the ignored private database was absent
+from a clean checkout; workflow 30726637747 then exposed the missing Poppler
+binary; workflow 30726902007 reconstructed the source rows successfully and
+exposed the missing ripgrep binary. The final workflow explicitly installs
+both dependencies and passed every stage. All three earlier runs had already
+passed the research tests and complete site/browser matrix before reaching the
+new post-build audit gate; none reported a privacy match or changed published
+data.
+
+All 17 audited production routes returned HTTP 200 and matched the local HTML
+after canonical-host normalization: seven core publication routes and all ten
+Batch 134 profiles. The deployed manifest is byte-identical to the local
+release, and all 65 listed assets matched their recorded and local byte sizes,
+SHA-256 values, and bytes. The deployed manifest SHA-256 is
+`1cee05dbb6f41468c628fe43cde63be424240f45423eb120b01aa25530c9d003`.
+The five live downloads contain 23,941 personnel CSV rows, 23,941 personnel
+JSONL rows, 286 organizations, 498 affiliations, and 1,007 sources.
+
+The independent live privacy audit compared 12,919 normalized private
+identifiers and 121 formatted variants against 88 fetched HTML, manifest,
+data, decompressed-mirror, and download artifacts. It rejected 700 substring
+coincidences and found zero full boundary matches. The only workflow annotation
+was GitHub's non-failing notice that pinned official actions still declare
+Node.js 20 and are currently forced to Node.js 24.
+
 ## Batch 133 production workflow audit
 
 GitHub test workflow

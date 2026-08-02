@@ -2038,3 +2038,11 @@ and that Bennie Ballone's probable Santee/*Queenie* evidence remains qualified.
 The complete Playwright matrix then passed 447 / 447 in 5.7 minutes across all
 three viewports. Twenty-seven axe scans—nine representative routes per
 viewport—reported no serious accessibility violations.
+
+Final GitHub test workflow
+[30727186347](https://github.com/therealjameswilson/before-oss/actions/runs/30727186347)
+repeated the complete 447 / 447 matrix successfully for release head
+`77ab75c`. Pages workflow
+[30727186336](https://github.com/therealjameswilson/before-oss/actions/runs/30727186336)
+also completed successfully. All 17 audited live routes returned HTTP 200 and
+matched their local accessible HTML after canonical-host normalization.
