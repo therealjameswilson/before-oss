@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,161 people with a non-planned attempt | 23,941 person entities | 4.8494% |
+| Research-attempt coverage | 1,170 people with a non-planned attempt | 23,941 person entities | 4.8870% |
 | Verified-affiliation coverage | 246 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0275% |
 | Verified-employer coverage | 140 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5848% |
-| Archival-review coverage | 1,109 people with an individual file-access/priority assessment | 23,941 person entities | 4.6322% |
+| Archival-review coverage | 1,118 people with an individual file-access/priority assessment | 23,941 person entities | 4.6698% |
 
 ## Extraction and identity
 
@@ -23,10 +23,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
 - Identity status `high_confidence`: 309
-- Identity status `probable`: 42
+- Identity status `probable`: 45
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,477
+- Identity status `unresolved`: 23,474
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,780
+- `not_started`: 22,771
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 32
 - `occupation_only_found`: 67
-- `requires_archival_review`: 793
+- `requires_archival_review`: 802
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 143
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 582
+- Reviewed-web terminal-protocol attempts recorded: 602
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 425 across 406 people; 30 additional
+- Saved `source_reviewed` outcomes: 432 across 412 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,191
+- Total recorded attempts/plans: 2,201
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 411; 389 have at least one public-eligible
+- People with saved reviewed claims: 417; 399 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1371,11 +1371,30 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
   records, three public identity claims, seven claim-source links, ten person
   updates, and ten research attempts. No authenticated Catalog API request or
   raw Catalog response was used.
-- Published affiliations: 498
-- Database claims: 983; public-visible claims: 962 (185 confirmed, 651 high,
-  122 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 1,956; public source export: 1,007; unique source documents: 832
-- Canonical organizations: 288 private and 286 public
+- Batch 135 continues page twenty-one from Charles Balog through Harold J.
+  Balvott. All ten rows were checked against the 300 dpi page rendering and
+  match the parser. Contemporary sources support three newly qualified,
+  probable identities without supplying a pre-OSS employer. A 1939
+  *Congressional Record* entry associates Henry H. Balos with Bruce Humphries,
+  Inc. and United Publishers Association, Inc.; both are modeled only as
+  professional affiliations because the relationship and duration are not
+  stated. University of Pennsylvania and contemporary newspaper evidence
+  identifies Henry H. Balter as a Wharton student, while a November 1941
+  *Nuntius* entry and institutional bibliography identify James H. Baltzell as
+  a University of Illinois student. Student status is not employment. John M.
+  Balsamo retains the earlier qualified Wall Street telegrapher occupation-only
+  outcome. Charles Balog, Leslie S. Balogh, James J. Balopitos, Ferdinand A.
+  Balsamo, Hugh C. Balsinger, and Harold J. Balvott remain unresolved; all ten
+  profiles retain a Box 33 or 34 archival-review path. The strict bundle adds
+  16 sources, four organizations, four affiliations, seven medium-confidence
+  claims, 19 claim-source links, ten person updates, and ten terminal research
+  attempts. No authenticated Catalog API request, credential, raw response,
+  full private identifier, or people-finder record was used or published.
+- Published affiliations: 502
+- Database claims: 990; public-visible claims: 969 (185 confirmed, 651 high,
+  129 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 1,975; public source export: 1,016; unique source documents: 838
+- Canonical organizations: 290 private and 288 public
 - Conflicts: 5
 - NARA pull-list rows: 23,835
 
@@ -1558,6 +1577,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-b
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-balfour-through-ball-pathways_batch-132_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-ball-through-ballard-pathways_batch-133_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-twenty-one-ballew-through-bally-pathways_batch-134_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-one-balog-through-balvott-pathways_batch-135_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

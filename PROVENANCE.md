@@ -2600,6 +2600,48 @@ credential was accessed, and no raw response, copyrighted page, full private
 identifier, home address, or people-finder data was stored in the public
 projection.
 
+## Page-twenty-one Balog-through-Balvott pathways, Batch 135
+
+`research/evidence-page-twenty-one-balog-through-balvott-pathways_batch-135_2026-08-01.json`
+records ten contiguous rows from Charles Balog through Harold J. Balvott on
+PDF page 21. The page was rendered at 300 dpi and inspected at original
+resolution. All 46 printed rows match the parsed names, initials, grades or
+ranks, identifier-column occupancy, boxes, notes, and archive locations. Full
+private identifiers remain in SQLite only.
+
+The strict evidence bundle contains 16 source records, four organizations,
+four affiliations, seven claims, 19 claim-source links, ten person updates,
+and ten terminal research attempts. The bundle passed schema validation and
+replayed idempotently.
+
+The June 13, 1939 *Congressional Record* names Henry H. Balos alongside Bruce
+Humphries, Inc. and United Publishers Association, Inc. in a publishing-trade
+context. It does not state that either organization employed him, define the
+relationship, or establish an immediate pre-OSS chronology. Both relationships
+therefore remain medium-confidence professional affiliations. A 1920 *Harvard
+Crimson* item supplies earlier exact-name context but is not an employer claim.
+
+The University of Pennsylvania's institutional obituary and a 1934 issue of
+*The Jewish Criterion* support a probable Henry H. Balter identity and Wharton
+student status. A November 1941 issue of *The Nuntius*, corroborated by a later
+institutional bibliography, supports a probable James H. Baltzell identity and
+University of Illinois student status. Neither educational relationship is
+classified as employment. John M. Balsamo retains the earlier qualified Wall
+Street telegrapher occupation-only result; the renewed search found no named
+employer.
+
+Charles Balog, Leslie S. Balogh, James J. Balopitos, Ferdinand A. Balsamo, Hugh
+C. Balsinger, and Harold J. Balvott remain unresolved after staged official
+context, CIA Reading Room, current Library of Congress API, exact-name OSS,
+employment, occupation, newspaper, obituary, directory, institutional, and
+archival searches. All ten profiles route to Box 33 or 34 review for the
+missing identity, chronology, and employment evidence.
+
+No authenticated NARA Catalog API request was made, no credential was
+accessed, and no raw API response, full private identifier, copyrighted page,
+home address, relative's details, or people-finder data was stored in the
+repository or public projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

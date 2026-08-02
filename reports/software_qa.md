@@ -5,37 +5,37 @@ Run: 2026-08-02 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,235 pages**
-- Internal link check: **24,235 HTML files passed**
-- Browser and accessibility suite: **447 / 447 passed** across desktop, phone,
+- Static production build: **24,237 pages**
+- Internal link check: **24,237 HTML files passed**
+- Browser and accessibility suite: **450 / 450 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`fe0b5e0f457e994c9be44303d21e6dbe47aebf56d6720c341e23a503ca5fcfe4`)
-- Latest deterministic build (Batch 134): **byte-for-byte identical** across
-  two consecutive static builds and all **24,305** built-site artifacts.
+  (`98adad62899f6c24fc3b972819f509a5eec445017a045d356c532b0335cc1df4`)
+- Latest deterministic build (Batch 135): **byte-for-byte identical** across
+  two consecutive static builds and all **24,307** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `1cee05dbb6f41468c628fe43cde63be424240f45423eb120b01aa25530c9d003`
+  `292b5773b99082fc74525ca58884568d4c536d98d4b3f3848c301246627b9f49`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,305** production artifacts, including compressed mirrors
+  matches** in **24,307** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,007** public records representing **832** unique documents
-- Private citation records: **1,819**
-- Published, qualified affiliations: **498**
-- Published or conflict-visible claims: **962**
+- Reviewed public sources: **1,016** public records representing **838** unique documents
+- Private citation records: **1,835**
+- Published, qualified affiliations: **502**
+- Published or conflict-visible claims: **969**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
 - Verified-affiliation metric: **246** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **140** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 134 local release checks: **passed**; production deployment verification
+- Batch 135 local release checks: **passed**; production deployment verification
   follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
@@ -3314,6 +3314,58 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 135 local release QA
+
+Batch 135 continues page twenty-one with ten researched people from Charles
+Balog through Harold J. Balvott. The full 46-row page remains a visual match to
+the parser at 300 dpi and original-resolution inspection. The strict evidence
+bundle imports 16 sources, four organizations, four affiliations, seven
+medium-confidence claims, 19 claim-source links, ten person updates, and ten
+terminal research attempts.
+
+Three new probable identities receive qualified, non-employer evidence. Henry
+H. Balos has two 1939 publishing-trade professional affiliations whose exact
+employment relationship and duration are not stated. Henry H. Balter's Wharton
+relationship and James H. Baltzell's University of Illinois relationship are
+student affiliations. John M. Balsamo retains his earlier occupation-only
+result. Six identities remain unresolved, and all ten profiles retain explicit
+Box 33 or 34 archival-review guidance. No unsupported employer or immediate
+predecessor claim is introduced.
+
+The evidence bundle passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+rows. The Python suite passed 55 / 55, and the deterministic 200-profile audit
+passed every invariant. Astro reported zero errors, warnings, or hints and
+built 24,237 pages. The focused regression passed 3 / 3, and the full browser,
+responsive, direct-route, search, and axe matrix passed 450 / 450 in 5.9
+minutes. The dependency audit found zero vulnerabilities. The internal-link
+checker passed all 24,237 HTML files and inventoried 48,725 unique external
+URLs.
+
+Two consecutive builds produced the identical
+`98adad62899f6c24fc3b972819f509a5eec445017a045d356c532b0335cc1df4`
+content-tree hash across 24,307 artifacts. All 65 public manifest assets match
+their recorded sizes and SHA-256 values in both the public source tree and
+built site. The manifest's SHA-256 is
+`292b5773b99082fc74525ca58884568d4c536d98d4b3f3848c301246627b9f49`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted raw variants against all 24,307 production artifacts, rejected
+989 substring coincidences, and found zero full boundary matches. No local
+`.env`, authenticated Catalog request, raw Catalog response, or nonblank
+tracked API-key assignment was used.
+
+The Batch 135 database contains 2,201 durable research attempts, 1,835 private
+source records, 290 organizations, 507 affiliations, 990 claims, and 1,975
+claim-source links. Claim confidence counts are 185 confirmed, 651 high, 129
+medium, 21 low, and four conflicting. The public projection contains 1,016
+source records representing 838 unique documents, 288 organizations, 502
+affiliations, and 969 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,170 people with a non-planned research attempt, 246
+with verified-affiliation evidence, 140 with verified employment or
+self-employment evidence, and 1,118 whose archival-review need has been
+assessed. Public downloads contain 23,941 people, 288 organizations, 502
+affiliations, and 1,016 sources.
 
 ## Batch 134 local release QA
 

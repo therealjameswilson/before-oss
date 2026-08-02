@@ -12353,3 +12353,81 @@ test("Batch 134 preserves employer gaps while qualifying the Balliet sisters and
     page.getByRole("link", { name: /Resti del bombardiere statunitense/ }).first(),
   ).toHaveAttribute("href", /cssav\.it/);
 });
+
+test("Batch 135 keeps publishing associations and student status distinct from employers", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["88323445-9718-518e-8268-b5403d0a988a", "Charles Balog", "33"],
+    ["d658f57d-0d81-5787-ac7e-f9dc3b53850f", "Leslie S Balogh", "33"],
+    ["8099bead-3a61-5282-9d5d-61552d657c22", "James J Balopitos", "33"],
+    ["b2e83412-fbb5-5fec-b74d-039ea93ea22a", "Henry H Balos", "33"],
+    ["669e2e02-425e-5797-a096-497403783e60", "Ferdinand A Balsamo", "33"],
+    ["2ae252cc-7164-560c-b4b9-d8e91d49e05d", "John M Balsamo", "33"],
+    ["f2c77a46-cfc1-506f-b675-5845863205e4", "Hugh C Balsinger", "34"],
+    ["32e33816-b058-5a54-8abb-83e5c8d33764", "Henry H Balter", "34"],
+    ["0b37db50-d085-5ce9-a731-404df2580dcc", "James H Baltzell", "34"],
+    ["b8598812-9310-535e-96ff-75d6d993a7da", "Harold J Balvott", "34"],
+  ];
+
+  for (const [personId, displayName, box] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 21");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "88323445-9718-518e-8268-b5403d0a988a",
+    "d658f57d-0d81-5787-ac7e-f9dc3b53850f",
+    "8099bead-3a61-5282-9d5d-61552d657c22",
+    "669e2e02-425e-5797-a096-497403783e60",
+    "f2c77a46-cfc1-506f-b675-5845863205e4",
+    "b8598812-9310-535e-96ff-75d6d993a7da",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/b2e83412-fbb5-5fec-b74d-039ea93ea22a/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Bruce Humphries, Inc.");
+  await expect(page.locator("main")).toContainText("United Publishers Association, Inc.");
+  await expect(page.locator("main")).toContainText("professional affiliation");
+  await expect(
+    page.getByRole("link", { name: /Congressional Record/ }).first(),
+  ).toHaveAttribute("href", /govinfo\.gov/);
+
+  await page.goto("./people/32e33816-b058-5a54-8abb-83e5c8d33764/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Wharton School student");
+  await expect(page.locator("main")).toContainText("student");
+  await expect(page.getByRole("link", { name: "The Jewish Criterion", exact: true }).first()).toHaveAttribute(
+    "href",
+    /iiif\.library\.cmu\.edu/,
+  );
+
+  await page.goto("./people/0b37db50-d085-5ce9-a731-404df2580dcc/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("University of Illinois student in November 1941");
+  await expect(page.locator("main")).toContainText("student");
+  await expect(page.getByRole("link", { name: "The Nuntius", exact: true }).first()).toHaveAttribute(
+    "href",
+    /esparchives\.org/,
+  );
+
+  await page.goto("./people/2ae252cc-7164-560c-b4b9-d8e91d49e05d/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation only");
+  await expect(page.locator("main")).toContainText("Wall Street telegrapher");
+});

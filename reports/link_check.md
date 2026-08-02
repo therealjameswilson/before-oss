@@ -3588,3 +3588,26 @@ organizations, 498 affiliations, and 1,007 sources.
 An independent 88-artifact live scan compared 12,919 normalized private
 identifiers and 121 formatted variants, rejected 700 substring coincidences,
 and found zero full boundary matches.
+
+## Batch 135 local release check
+
+The deterministic Batch 135 build generated 24,237 HTML files. The internal
+link checker visited the complete built tree, found zero unresolved internal
+links, and inventoried 48,725 unique external URLs for separate live checking.
+
+The focused desktop, phone, and tablet regression opened all ten direct
+profiles and passed 3 / 3. The complete browser and accessibility matrix passed
+450 / 450. The *Congressional Record*, *Harvard Crimson*, University of
+Pennsylvania, *Jewish Criterion*, *Nuntius*, and institutional-bibliography
+links are intentional evidence targets. The profiles visibly preserve
+probable identity and medium claim confidence, distinguish student or
+professional affiliations from employment, and expose no authenticated
+Catalog URL or credential-bearing request.
+
+All 65 manifest assets match their recorded sizes and hashes in the public
+source and built trees. The manifest SHA-256 is
+`292b5773b99082fc74525ca58884568d4c536d98d4b3f3848c301246627b9f49`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across all 24,307 local production artifacts, including
+decompressed mirrors, rejected 989 substring coincidences, and found zero full
+matches.

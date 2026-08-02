@@ -2046,3 +2046,21 @@ repeated the complete 447 / 447 matrix successfully for release head
 [30727186336](https://github.com/therealjameswilson/before-oss/actions/runs/30727186336)
 also completed successfully. All 17 audited live routes returned HTTP 200 and
 matched their local accessible HTML after canonical-host normalization.
+
+## Batch 135 accessibility and responsive regression
+
+Batch 135 adds direct-route coverage for Charles Balog, Leslie S. Balogh,
+James J. Balopitos, Henry H. Balos, Ferdinand A. Balsamo, John M. Balsamo,
+Hugh C. Balsinger, Henry H. Balter, James H. Baltzell, and Harold J. Balvott.
+The focused test passed 3 / 3 at desktop, phone, and tablet widths. It checks
+the indexed name, source page and box, masked or explicitly unprinted
+identifier, research state, employer-gap wording, and immediate-affiliation
+boundary on every profile.
+
+The regression separately verifies that Henry H. Balos's publishing-trade
+evidence remains a professional affiliation; Henry H. Balter's Wharton and
+James H. Baltzell's University of Illinois evidence remain student status; and
+John M. Balsamo remains occupation-only. None is presented as a documented
+employer. The complete Playwright matrix passed 450 / 450 in 5.9 minutes
+across all three viewports. Twenty-seven axe scans—nine representative routes
+per viewport—reported no serious accessibility violations.
