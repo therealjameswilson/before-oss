@@ -36,6 +36,7 @@ jobs:
         run: npm test
       - name: Rebuild the private identifier audit source
         run: |
+          sudo apt-get install --yes poppler-utils
           scripts/download-source.sh
           python -m oss_research ingest --pdf data/source/personnel-database.pdf
       - name: Audit public identifier redaction
