@@ -4,16 +4,16 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 537 / 537 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 540 / 540 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 179 desktop, 179 phone, and 179 tablet cases. Every case
+The matrix contains 180 desktop, 180 phone, and 180 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 537-case matrix.
+combined 540-case matrix.
 
 Routes tested at all three sizes:
 
@@ -52,6 +52,17 @@ remains visible without exposing the full number or borrowing either namesake's
 history; Ting Bawm's Burma Rifles pathway remains temporally qualified; Andre
 Bayet's Belgian lieutenant identity stays distinct from any unsupported prior-
 employer claim; and the unresolved profiles retain explicit archival guidance.
+Batch 165 adds direct desktop, phone, and tablet checks for Lester Y. Baylis
+through Harry W. Beach on page twenty-seven. It verifies all ten source rows,
+Box 43 routing, printed ranks or civilian grades, page locators, and masked or
+unprinted identifiers. Edward J. Bayon's earlier official assignment, Jodie G.
+Bays's undefined occupation code, Douglas D. Bazata's qualified self-directed
+intelligence work, and Harry W. Beach's broad driving occupation remain bounded
+by their sources rather than converted into employers. David L. Bazelon's
+conflicting 1940-1946 chronologies remain visibly qualified and excluded from
+default analytics; Pierre Paul Bazin's French identity and locksmith occupation
+remain distinct from unrelated namesakes; and four unresolved profiles retain
+explicit no-result and archival-review language.
 Batch 163 adds direct desktop, phone, and tablet checks for Arthur V. Bauman
 through Charles Baumler on page twenty-seven. It verifies all ten source rows,
 Box 43 routing, printed ranks or civilian grades, page locators, masked or

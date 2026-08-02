@@ -1,0 +1,1018 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, Batch 165",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-27-batch165",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 43",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 27, rows 32-41, Lester Y. Baylis through Harry W. Beach; visually checked at original resolution with the serial column masked",
+      "access_date": "2026-08-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Immutable source rows and private identifiers are preserved separately; full identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch165",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "World War II Army Enlistment Records",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Electronic Army Serial Number Merged File; exact private-identifier matches for Edward J. Bayon, Jodie G. Bays, Douglas D. Bazata, and Harry W. Beach; full identifiers withheld",
+      "access_date": "2026-08-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed locally outside the repository. Only project-authored conclusions and stable citation pointers are retained; full service identifiers are private and excluded from public outputs."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch165",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Basic Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-11-30; modified 2011-03-17",
+      "locator": "Supplemental User Notes, reference copies 1-3; civilian-occupation interpretation conflicts, punch-card conversion limitations, and best-guess merged records",
+      "access_date": "2026-08-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation warns that occupation interpretations can conflict and that the merged file contains transcription, scan, and best-guess conversion errors."
+    },
+    {
+      "key": "ksgenweb-army-civilian-occupation-codes-batch165",
+      "stable_url": "https://ksgenweb.org/archives/statewide/military/wwII/enlist/civocclist.txt",
+      "archival_identifier": "Civilian occupation code list for the NARA World War II Army Enlistment Records",
+      "title": "Civilian Occupation Code List",
+      "author_creator": "KSGenWeb Archives",
+      "repository_publisher": "KSGenWeb Archives",
+      "publication_record_date": null,
+      "locator": "Codes 97, 581, and 736; code 003 is absent from the table",
+      "access_date": "2026-08-02",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "World War II Army Enlistment Records",
+      "rights_notes": "Secondary transcription used to decode official occupation codes. Broad code groups remain broad; the project does not choose among listed occupations or infer an employer."
+    },
+    {
+      "key": "loc-edward-j-bayon-vhp-batch165",
+      "stable_url": "https://www.loc.gov/item/afc2001001.05816/",
+      "archival_identifier": "AFC/2001/001/5816",
+      "title": "Edward J. Bayon Collection",
+      "author_creator": "Edward J. Bayon; collection contributors Grace T. Bayon-Hauser, Marianne McWhirter Hughes, and the National Society Daughters of the American Revolution",
+      "repository_publisher": "Veterans History Project, American Folklife Center, Library of Congress",
+      "publication_record_date": "Collection materials dated 1917-1945; collected later",
+      "locator": "Veterans History Project service summary and collection description; manuscript A Thrilling Adventure and WWII photograph",
+      "access_date": "2026-08-02",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Veterans History Project Collection",
+      "rights_notes": "The Library catalog record and service summary were reviewed. The project stores a short paraphrase and citation metadata, not contributed collection images or full manuscript text."
+    },
+    {
+      "key": "cia-foia-gordon-chaplin-douglas-bazata-batch165",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP90-01208R000100100005-7.pdf",
+      "archival_identifier": "CIA-RDP90-01208R000100100005-7",
+      "title": "Sanitized clipping concerning Douglas Bazata",
+      "author_creator": "Gordon Chaplin",
+      "repository_publisher": "CIA Freedom of Information Act Electronic Reading Room; original periodical unidentified",
+      "publication_record_date": "Undated clipping; sanitized copy approved for release 2011-03-02",
+      "locator": "PDF page 1; interview description of Bazata's stated prewar Washington activity",
+      "access_date": "2026-08-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "CIA FOIA Electronic Reading Room",
+      "rights_notes": "CIA hosting establishes the stable archival copy, not official endorsement of the clipping's assertions. The employment wording is published only as the reporter's qualified account."
+    },
+    {
+      "key": "fjc-david-l-bazelon-batch165",
+      "stable_url": "https://www.fjc.gov/history/judges/bazelon-david-l",
+      "archival_identifier": "Federal Judicial Center Biographical Directory of Article III Federal Judges",
+      "title": "Bazelon, David L.",
+      "author_creator": "Federal Judicial Center",
+      "repository_publisher": "Federal Judicial Center",
+      "publication_record_date": null,
+      "locator": "Professional Career section",
+      "access_date": "2026-08-02",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Biographical Directory of Article III Federal Judges",
+      "rights_notes": "Authoritative institutional judicial biography. Its 1935-1946 assistant-U.S.-attorney chronology conflicts with a contemporary 1975 trade-press profile and is therefore not treated as settled."
+    },
+    {
+      "key": "broadcasting-david-l-bazelon-profile-batch165",
+      "stable_url": "https://www.worldradiohistory.com/Archive-BC/BC-1975/1975-01-27-BC.pdf",
+      "archival_identifier": "Broadcasting, January 27, 1975",
+      "title": "Chief Judge Bazelon: a mover and a shaper",
+      "author_creator": "Broadcasting editorial staff",
+      "repository_publisher": "Broadcasting; preserved by World Radio History",
+      "publication_record_date": "1975-01-27",
+      "locator": "PDF and printed page 89; career summary",
+      "access_date": "2026-08-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting magazine archive",
+      "rights_notes": "Contemporary trade-press profile reviewed locally. It dates private practice to 1940-1946, conflicting with the Federal Judicial Center chronology. Only a short excerpt and paraphrase are retained."
+    },
+    {
+      "key": "musee-resistance-pierre-paul-bazin-batch165",
+      "stable_url": "https://www.museedelaresistanceenligne.org/media.php?expo=&media=9238",
+      "archival_identifier": "Service historique de la Défense individual file 16P 40634",
+      "title": "Plaques à la mémoire de P. Bazin, R. Brayer et I. Draï, Nogent-l'Artaud (Aisne)",
+      "author_creator": "Paulina Brault; historical context published by the Musée de la Résistance en ligne",
+      "repository_publisher": "Fondation de la Résistance, Département AERI",
+      "publication_record_date": "2018",
+      "locator": "Historical context, Pierre Paul Bazin entry; lines citing occupation, French Navy assignment, Julitte network, and posthumous sous-lieutenant grade",
+      "access_date": "2026-08-02",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musée de la Résistance en ligne",
+      "rights_notes": "Institutional museum biography explicitly cites the subject's Service historique de la Défense file. The candidate remains high confidence rather than confirmed because the OSS index supplies no unique identifier."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "american-graves-registration-service",
+      "canonical_name": "American Graves Registration Service",
+      "historical_name": "American Graves Registration service",
+      "aliases": [
+        "American Graves Registration Services",
+        "Graves Registration Service"
+      ],
+      "organization_type": "federal military mortuary service",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "World War I and interwar period",
+      "normalization_notes": "The Library of Congress narrative's historical wording is preserved. The service is modeled as a government assignment, not a private employer."
+    },
+    {
+      "key": "us-attorney-office-nd-illinois",
+      "canonical_name": "U.S. Attorney's Office for the Northern District of Illinois",
+      "historical_name": "Office of the U.S. Attorney for the Northern District of Illinois",
+      "aliases": [
+        "U.S. Attorney, Northern District of Illinois",
+        "Assistant U.S. attorney, Northern District of Illinois"
+      ],
+      "organization_type": "federal prosecutor's office",
+      "sector": "federal_government",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "Component of the U.S. Department of Justice. Bazelon's exact years in this office conflict across credible sources and are not normalized away."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "edward-j-bayon-american-graves-registration-batch165",
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "organization_key": "american-graves-registration-service",
+      "organization_name_as_found": "American Graves Registration service",
+      "role_title": null,
+      "occupation": "graves-registration service personnel",
+      "relationship_type": "government_assignment",
+      "start_date": "1923-04",
+      "end_date": null,
+      "date_precision": "The Library of Congress narrative says Bayon signed on with the service after World War I and describes an April 1923 repatriation mission; it does not supply an end date.",
+      "city": "Paris",
+      "state_or_region": null,
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The exact private identifier confirms the Army identity; the Library collection independently supplies the same exact name, OSS service, Army Air Forces/Corps, and later Staff Sergeant rank. The assignment is earlier prewar service, not an asserted immediate pre-OSS employer."
+    },
+    {
+      "key": "edward-j-bayon-pre-service-occupation-batch165",
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Automotive electrician, automobile mechanic, automobile-body repairer, motorcycle mechanic, radiator repairer, tractor mechanic, or motor inspector (code 581)",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-09-28",
+      "date_precision": "The official enlistment record carries civilian occupation code 581 at Army entry on 28 September 1942. The secondary code table supplies a multi-occupation group and no employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact name and private service identifier match the index row. The full code group is published without choosing a specific trade or inferring an employer."
+    },
+    {
+      "key": "douglas-d-bazata-prewar-self-directed-intelligence-batch165",
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "organization_key": null,
+      "organization_name_as_found": "his own Washington intelligence gathering operation",
+      "role_title": "operator",
+      "occupation": "self-directed intelligence gathering",
+      "relationship_type": "self_employment",
+      "start_date": null,
+      "end_date": "1941",
+      "date_precision": "The undated clipping's reporter describes the activity only as before the war; no exact start, end, business name, or direct transition into OSS is supplied.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The article reports what its author gathered from Bazata's interview and locates the activity in a Hoover vacuum-cleaner sales-and-service office. It does not establish that Bazata owned or worked for Hoover, and no Hoover employer claim is made."
+    },
+    {
+      "key": "douglas-d-bazata-pre-service-occupation-batch165",
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Telephone/telegraph installer-repairer, chief clerk, railway-shop dispatcher, production manager, or entertainment director (code 97)",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-02-24",
+      "date_precision": "The official enlistment record carries civilian occupation code 97 at Army entry on 24 February 1942. The secondary code table supplies a multi-occupation group and no employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier links the index Captain to the official Army entry record. The full code group is preserved without choosing a job or treating the later rank as the entry rank."
+    },
+    {
+      "key": "david-l-bazelon-us-attorney-office-conflict-batch165",
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "organization_key": "us-attorney-office-nd-illinois",
+      "organization_name_as_found": "Assistant U.S. attorney, Northern District of Illinois",
+      "role_title": "Assistant U.S. attorney",
+      "occupation": "attorney",
+      "relationship_type": "government_assignment",
+      "start_date": "1935",
+      "end_date": null,
+      "date_precision": "Both sources begin the appointment in 1935. The Federal Judicial Center ends it in 1946; Broadcasting ends it in 1940 and places private practice in 1940-1946.",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "conflicting",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "conflicting",
+      "research_notes": "The office and role are well supported, but the end date and sequence with private practice conflict. The affiliation is not included in default analytics and is not labeled immediate pre-OSS."
+    },
+    {
+      "key": "david-l-bazelon-private-practice-conflict-batch165",
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "organization_key": null,
+      "organization_name_as_found": "private practice",
+      "role_title": "lawyer in private practice",
+      "occupation": "attorney",
+      "relationship_type": "self_employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The Federal Judicial Center dates private practice to 1932-1935; Broadcasting dates it to 1940-1946. The conflict affects whether this could have immediately preceded OSS service.",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "conflicting",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "conflicting",
+      "research_notes": "Private legal practice is documented, but its dates conflict across credible sources. It is therefore visible as a conflict and excluded from default employer counts."
+    },
+    {
+      "key": "pierre-bazin-locksmith-occupation-batch165",
+      "person_id": "96d4a880-8ca9-5611-bc1a-7546e4c01e10",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "locksmith",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1939-09-06",
+      "date_precision": "The institutional biography places locksmith work before Bazin's 6 September 1939 French Navy assignment but gives no employer or exact employment dates.",
+      "city": "Nogent-l'Artaud",
+      "state_or_region": "Aisne",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The candidate matches the indexed name, French designation, and sous-lieutenant grade and has a documented intelligence-network history, but no unique OSS identifier confirms the linkage. No employer is inferred from the occupation."
+    },
+    {
+      "key": "harry-w-beach-pre-service-occupation-batch165",
+      "person_id": "87b1698d-e7b2-560b-aff9-e57281b6ac8f",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Tractor driver, heavy-truck driver, chauffeur, or light-truck driver (code 736)",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-10",
+      "date_precision": "The official enlistment record carries civilian occupation code 736 at Army entry on 10 November 1942. The secondary code table supplies a multi-occupation group and no employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact name and private service identifier match the index row. The full code group is published without choosing a specific driving occupation or inferring an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "edward-j-bayon-confirmed-identity-batch165",
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward J. Bayon is confirmed as the Army serviceman represented by the exact-name official enlistment record and the Library of Congress OSS collection.",
+      "evidence_excerpt": "Edward J. Bayon Collection",
+      "evidence_paraphrase": "The OSS index and official Army file match by exact name and private identifier; the Library collection independently records the same exact name with OSS service.",
+      "identity_match_assessment": "Confirmed by the private-identifier match, with the exact-name Library collection's OSS designation, Army branch, and later Staff Sergeant rank providing independent corroboration.",
+      "temporal_assessment": "The Army file dates entry to 28 September 1942; the Library collection documents service through 1945 but does not provide an OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The decisive identifier is retained only in the private database and masked in the public interface and exports.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Bayon Edward J cPL"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "loc-edward-j-bayon-vhp-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Service Unit/Ship: Office of Strategic Services (OSS)"
+        }
+      ]
+    },
+    {
+      "key": "edward-j-bayon-graves-registration-pathway-batch165",
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "affiliation_key": "edward-j-bayon-american-graves-registration-batch165",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Edward J. Bayon served with the American Graves Registration service in France after World War I, including a documented April 1923 repatriation mission.",
+      "evidence_excerpt": "signed on with the American Graves Registration service",
+      "evidence_paraphrase": "The Library of Congress collection narrative says Bayon remained in France, joined the graves-registration service, and undertook a repatriation mission in April 1923.",
+      "identity_match_assessment": "The confirmed indexed identity is independently corroborated by the exact-name Library collection's OSS service and compatible Army rank progression.",
+      "temporal_assessment": "The service is explicitly before World War II and OSS; no end date or direct transition to OSS is documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as earlier pre-OSS government service, not as an immediate affiliation or civilian employer.",
+      "sources": [
+        {
+          "source_key": "loc-edward-j-bayon-vhp-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "edward-j-bayon-pre-service-occupation-claim-batch165",
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "affiliation_key": "edward-j-bayon-pre-service-occupation-batch165",
+      "claim_type": "occupation",
+      "claim_text": "Edward J. Bayon's Army entry record carries civilian occupation code 581, a broad mechanical-trades group that does not identify a single trade or employer.",
+      "evidence_excerpt": "ELECTRICIAN, AUTOMOTIVE ... or MOTOR INSPECTOR",
+      "evidence_paraphrase": "The official record carries code 581 at Army entry; the secondary decoding table maps it to several automotive and mechanical occupations.",
+      "identity_match_assessment": "Confirmed by exact name and private identifier across the OSS index and official Army file.",
+      "temporal_assessment": "The code was recorded at Army entry on 28 September 1942 and is strongly date-bounded pre-service evidence, not proof of immediate OSS chronology.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The public profile preserves the complete occupation group and does not infer a specific trade or employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ksgenweb-army-civilian-occupation-codes-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "jodie-g-bays-confirmed-identity-batch165",
+      "person_id": "33c554fe-a5a8-5fd1-8b7b-7f1f1ca51189",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jodie G. Bays is confirmed as the Army enlistee represented by the exact-name record in the official merged enlistment file.",
+      "evidence_excerpt": "BAYS JODIE G",
+      "evidence_paraphrase": "The exact name and private service identifier match across the OSS index and official Army enlistment file; the full identifier is not public.",
+      "identity_match_assessment": "Confirmed by an exact full-name and unique private-identifier match, with enlisted Army service compatible across the records.",
+      "temporal_assessment": "The official record dates Army entry to 8 May 1942; its occupation code 003 is undefined in the reviewed code table, and no OSS assignment date is available.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No occupation or employer is published from the undefined code. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Bays Jodie G Cpl"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "douglas-d-bazata-confirmed-identity-batch165",
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "claim_type": "identity",
+      "claim_text": "The indexed Douglas D. Bazata is confirmed as the Army enlistee represented by the exact-name official record and later Captain listed in the OSS index.",
+      "evidence_excerpt": "BAZATA DOUGLAS D",
+      "evidence_paraphrase": "The exact name and private identifier match between the index and official Army file; the index's later Captain rank is compatible with an earlier enlisted entry record.",
+      "identity_match_assessment": "Confirmed by exact full name and unique private identifier. The CIA-hosted contemporary clipping further links the same distinctive name to Donovan's wartime organization.",
+      "temporal_assessment": "The official file dates Army entry to 24 February 1942; the OSS index does not supply the later appointment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked. Postwar conspiracy allegations encountered during research were rejected as irrelevant and unsupported for this project's employment question.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Bazata Douglas D Capt"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "cia-foia-gordon-chaplin-douglas-bazata-batch165",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "douglas-d-bazata-prewar-self-directed-intelligence-claim-batch165",
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "affiliation_key": "douglas-d-bazata-prewar-self-directed-intelligence-batch165",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A contemporary interviewer reported that, before the war, Douglas D. Bazata ran his own Washington intelligence-gathering activity from a Dupont Circle vacuum-cleaner office.",
+      "evidence_excerpt": "before the war he had run his own Washington intelligence gathering operation",
+      "evidence_paraphrase": "Gordon Chaplin described what he gathered from Bazata's interview: a self-directed prewar intelligence activity operating from a Hoover sales-and-service office.",
+      "identity_match_assessment": "The indexed identity is confirmed independently by the private-identifier match; the distinctive exact-name clipping concerns the same OSS figure.",
+      "temporal_assessment": "The source says only before the war. It does not prove immediacy, exact dates, or continuity into OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The wording remains attributed to the reporter. The project does not claim that Bazata owned the Hoover office or that Hoover was his employer.",
+      "sources": [
+        {
+          "source_key": "cia-foia-gordon-chaplin-douglas-bazata-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "douglas-d-bazata-pre-service-occupation-claim-batch165",
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "affiliation_key": "douglas-d-bazata-pre-service-occupation-batch165",
+      "claim_type": "occupation",
+      "claim_text": "Douglas D. Bazata's Army entry record carries civilian occupation code 97, a broad group that does not identify one job or employer.",
+      "evidence_excerpt": "INSTALLER-REPAIRMAN, TELEPHONE AND TELEGRAPH or CHIEF, CLERK",
+      "evidence_paraphrase": "The official entry record carries code 97; the secondary code table maps it to five disparate occupations.",
+      "identity_match_assessment": "Confirmed by exact name and private identifier across the OSS index and official Army file.",
+      "temporal_assessment": "The code was recorded at Army entry on 24 February 1942 and is date-bounded pre-service evidence, not proof of an immediate OSS predecessor.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The full occupation group is preserved; no selection among the listed jobs and no employer inference is made.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ksgenweb-army-civilian-occupation-codes-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "david-l-bazelon-high-confidence-identity-batch165",
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "claim_type": "identity",
+      "claim_text": "The indexed David L. Bazelon is a high-confidence match to the Chicago attorney who later became a federal appellate judge.",
+      "evidence_excerpt": "Bazelon, David L.",
+      "evidence_paraphrase": "The exact distinctive name appears in the OSS index and in independent institutional and contemporary profiles with a compatible wartime Chicago legal career.",
+      "identity_match_assessment": "High confidence. The exact name and wartime chronology are distinctive, but the index supplies no rank, private identifier, birthplace, or assignment for direct confirmation.",
+      "temporal_assessment": "Both career sources cover the prewar and wartime period, but they conflict over the sequence of government service and private practice.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile publishes the identity match while keeping the employment chronology conflict separately visible.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Bazelon David L"
+        },
+        {
+          "source_key": "fjc-david-l-bazelon-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "broadcasting-david-l-bazelon-profile-batch165",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "david-l-bazelon-us-attorney-chronology-conflict-batch165",
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "affiliation_key": "david-l-bazelon-us-attorney-office-conflict-batch165",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "David L. Bazelon served as an Assistant U.S. attorney in Chicago, but credible sources conflict over whether that service ended in 1940 or 1946.",
+      "evidence_paraphrase": "The Federal Judicial Center gives 1935-1946; a 1975 Broadcasting profile gives 1935-1940 and then private practice through 1946.",
+      "identity_match_assessment": "The underlying identity is high confidence; the disagreement concerns chronology rather than the person's identity or the existence of the federal appointment.",
+      "temporal_assessment": "Because the conflicting period overlaps OSS years, the office cannot be designated the immediate pre-OSS affiliation on present evidence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both chronologies remain visible. The affiliation is excluded from default analytics pending Box 43 or personnel-record review.",
+      "sources": [
+        {
+          "source_key": "fjc-david-l-bazelon-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Assistant U.S. attorney, Northern District of Illinois, 1935-1946"
+        },
+        {
+          "source_key": "broadcasting-david-l-bazelon-profile-batch165",
+          "support_type": "contradicts",
+          "excerpt_override": "assistant U.S. attorney for Northern District of Illinois, 1935-40"
+        }
+      ]
+    },
+    {
+      "key": "david-l-bazelon-private-practice-chronology-conflict-batch165",
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "affiliation_key": "david-l-bazelon-private-practice-conflict-batch165",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "David L. Bazelon practiced law privately in Chicago, but credible sources date that work either to 1932-1935 or to 1940-1946.",
+      "evidence_paraphrase": "The Federal Judicial Center places private practice before the federal appointment; Broadcasting places it between two periods of federal service.",
+      "identity_match_assessment": "The underlying identity is high confidence; the conflict concerns when the documented private practice occurred.",
+      "temporal_assessment": "The divergent dates prevent classifying private practice as Bazelon's immediate pre-OSS or last civilian pre-service role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "No firm name is supplied, so the relationship is self-employment rather than employment by a named law firm.",
+      "sources": [
+        {
+          "source_key": "fjc-david-l-bazelon-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Private practice, Chicago, Illinois, 1932-1935"
+        },
+        {
+          "source_key": "broadcasting-david-l-bazelon-profile-batch165",
+          "support_type": "contradicts",
+          "excerpt_override": "private practice, 1940-46"
+        }
+      ]
+    },
+    {
+      "key": "pierre-bazin-high-confidence-french-candidate-batch165",
+      "person_id": "96d4a880-8ca9-5611-bc1a-7546e4c01e10",
+      "claim_type": "identity",
+      "claim_text": "Pierre Paul Bazin, a French resistance member posthumously recognized as a sous-lieutenant, is the high-confidence candidate for the indexed French S/Lt Pierre Bazin.",
+      "evidence_excerpt": "homologué au grade de sous-lieutenant à titre posthume",
+      "evidence_paraphrase": "The institutional biography matches the indexed name, French designation, and sous-lieutenant grade and documents French Navy and Julitte intelligence-network service.",
+      "identity_match_assessment": "High confidence, not confirmed. The match has at least three identifiers beyond the name—French nationality, exact officer grade, and wartime intelligence activity—but no unique OSS identifier.",
+      "temporal_assessment": "The candidate entered the French Navy in September 1939, joined the Julitte network in 1942, and died in deportation in April 1944.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A Canadian Lieutenant Pierre Bazin and a younger sculptor were rejected as namesakes. Box 43 is still needed for direct confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Bazin Pierre S/Lt French"
+        },
+        {
+          "source_key": "musee-resistance-pierre-paul-bazin-batch165",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "pierre-bazin-locksmith-occupation-claim-batch165",
+      "person_id": "96d4a880-8ca9-5611-bc1a-7546e4c01e10",
+      "affiliation_key": "pierre-bazin-locksmith-occupation-batch165",
+      "claim_type": "occupation",
+      "claim_text": "The high-confidence Pierre Bazin candidate worked as a locksmith before his September 1939 French Navy assignment; no employer is named.",
+      "evidence_excerpt": "il exerce la profession de serrurier",
+      "evidence_paraphrase": "The museum biography states that Bazin practiced the occupation of locksmith before narrating his 6 September 1939 Navy assignment.",
+      "identity_match_assessment": "The candidate is high confidence from the exact name, French status, exact sous-lieutenant grade, and intelligence-network history, but remains unconfirmed without the indexed file.",
+      "temporal_assessment": "The occupation is placed before military service and therefore documented prewar, but exact dates and an employer are absent.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as an occupation only. No locksmith business or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "musee-resistance-pierre-paul-bazin-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "harry-w-beach-confirmed-identity-batch165",
+      "person_id": "87b1698d-e7b2-560b-aff9-e57281b6ac8f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry W. Beach is confirmed as the Army enlistee represented by the exact-name record in the official merged enlistment file.",
+      "evidence_excerpt": "BEACH HARRY W",
+      "evidence_paraphrase": "The exact name and private service identifier match across the OSS index and official Army enlistment file; the full identifier is not public.",
+      "identity_match_assessment": "Confirmed by an exact full-name and unique private-identifier match, with enlisted Army service compatible across the records.",
+      "temporal_assessment": "The official record dates Army entry to 10 November 1942; the index establishes later OSS personnel-file inclusion but supplies no assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The decisive identifier is retained only in the private database and masked in public data.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch165",
+          "support_type": "supports",
+          "excerpt_override": "Beach Harry W Pfc"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "harry-w-beach-pre-service-occupation-claim-batch165",
+      "person_id": "87b1698d-e7b2-560b-aff9-e57281b6ac8f",
+      "affiliation_key": "harry-w-beach-pre-service-occupation-batch165",
+      "claim_type": "occupation",
+      "claim_text": "Harry W. Beach's Army entry record carries civilian occupation code 736, a driver group that does not identify one occupation or employer.",
+      "evidence_excerpt": "TRACTOR DRIVER or TRUCK DRIVER, HEAVY or CHAUFFEUR",
+      "evidence_paraphrase": "The official record carries code 736 at Army entry; the secondary table maps it to tractor, heavy-truck, chauffeur, or light-truck work.",
+      "identity_match_assessment": "Confirmed by exact name and private identifier across the OSS index and official Army file.",
+      "temporal_assessment": "The code was recorded at Army entry on 10 November 1942 and is strongly date-bounded pre-service evidence, not proof of immediate OSS chronology.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The complete occupation group is published without selecting a job or inferring an employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ksgenweb-army-civilian-occupation-codes-batch165",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch165",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8a3b6325-a8a3-5f39-890b-47903e808e6b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies only Lester Y. Baylis, Box 43, and no rank or private identifier. Exact-name official, OSS, CIA, Library of Congress, obituary, newspaper, directory, and institutional searches found no source that could be linked without namesake inference.",
+      "name_variants": ["Lester Y Baylis", "Lester Y. Baylis", "Baylis, Lester Y."],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 for identifiers, biographical forms, and a pre-OSS employer or affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e2157dcb-90c5-5471-8f8e-517c66db207c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row identifies Essie B. Baylor only by name, civilian grade CAF-2, and Box 43. Exact-name official, OSS, CIA, Library of Congress, newspaper, obituary, directory, and institutional searches did not establish a unique identity.",
+      "name_variants": ["Essie B Baylor", "Essie B. Baylor", "Baylor, Essie B."],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 for a personnel form, maiden or married names, hometown, birth data, and pre-OSS employment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bf3eb5ac-7fce-532f-8aa0-493cd1e03e20",
+      "identity_status": "unresolved",
+      "identity_evidence": "The source prints surname Bayne, first initial E, middle initial A, Box 43, and no rank or private identifier. The incomplete name produces many non-discriminating candidates; none had two corroborating identifiers beyond the name.",
+      "name_variants": ["E A Bayne", "E. A. Bayne", "Bayne, E. A."],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 to recover the full given name, rank or status, and biographical identifiers before repeating employment research. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1990b01a-30df-580c-8df7-e8f376595c9e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lois M. Baynes, civilian grade CAF-5, and Box 43, but no private identifier. Exact-name OSS, official, institutional, obituary, directory, newspaper, and archival searches did not distinguish a reliable candidate.",
+      "name_variants": ["Lois M Baynes", "Lois M. Baynes", "Baynes, Lois M."],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 for a personnel form, maiden or married names, hometown, birth data, and pre-OSS employment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name and private service identifier match the official Army file. The Library of Congress Veterans History Project independently identifies Edward J. Bayon with Army Air Forces/Corps and OSS service, a later Staff Sergeant rank, and earlier American Graves Registration work in France.",
+      "name_variants": ["Edward J Bayon", "Edward J. Bayon", "Bayon, Edward J."],
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 43 to identify the exact OSS entry date and determine whether the 1923-era Graves Registration service continued to a later prewar assignment or employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "33c554fe-a5a8-5fd1-8b7b-7f1f1ca51189",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name and private service identifier match the official Army enlistment file. The record's civilian occupation code 003 is not defined in the reviewed code table, and no additional public identity or employer evidence was found.",
+      "name_variants": ["Jodie G Bays", "Jodie G. Bays", "Bays, Jodie G."],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 and the original Army enlistment record to recover the occupation behind code 003 and identify a pre-OSS employer or military transfer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name and private service identifier match the official Army file; the index's later Captain rank is compatible with the Army entry record. A CIA-hosted contemporary clipping independently concerns the same distinctive OSS figure.",
+      "name_variants": ["Douglas D Bazata", "Douglas D. Bazata", "Douglas DeWitt Bazata", "Bazata, Douglas D."],
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 43 to test whether the qualified self-directed Washington activity or the broad Army occupation code reflects the immediate pre-OSS role and to identify any named enterprise.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact distinctive name matches institutional and contemporary biographies of the Chicago attorney and later federal judge. The index lacks a rank, private identifier, or assignment for direct confirmation. Credible sources conflict over whether Assistant U.S. Attorney service or private practice occupied 1940-1946.",
+      "name_variants": ["David L Bazelon", "David L. Bazelon", "David Lionel Bazelon", "Bazelon, David L."],
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 43 and contemporaneous Justice Department personnel records to confirm the OSS linkage, resolve the 1940-1946 career sequence, and identify the immediate pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "96d4a880-8ca9-5611-bc1a-7546e4c01e10",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Pierre Paul Bazin matches the index's name, French designation, and exact sous-lieutenant grade, and the institutional biography documents French Navy and Julitte intelligence-network service. A Canadian lieutenant and a younger sculptor were rejected as namesakes, but no unique OSS identifier confirms the candidate.",
+      "name_variants": ["Pierre Bazin", "Pierre Paul Bazin", "Bazin, Pierre", "Rens"],
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 43 and SHD file 16P 40634 to confirm the candidate's OSS linkage and determine whether his locksmith work had a named employer or immediately preceded military service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "87b1698d-e7b2-560b-aff9-e57281b6ac8f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name and private service identifier match the official Army enlistment file. Civilian occupation code 736 supplies a broad driver group but no specific occupation or employer; common-name public candidates lacked corroborating identifiers.",
+      "name_variants": ["Harry W Beach", "Harry W. Beach", "Beach, Harry W."],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 43 to identify the specific pre-service occupation, employer, and OSS transfer chronology behind the broad code 736 group.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch165-lester-y-baylis-reviewed-search",
+      "person_id": "8a3b6325-a8a3-5f39-890b-47903e808e6b",
+      "source_adapter": "reviewed_web",
+      "query_text": "Lester Y Baylis OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; employer 1940; occupation; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "reviewed-exact-name-middle-initial-official-employment-and-archival",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Results for Lilian Baylis, unrelated Bayliss spellings, modern people-search pages, genealogy pages, and search snippets lacked the exact identity and were rejected.",
+      "research_notes": "The minimum NARA, CIA, exact-name OSS, employment, obituary, directory, newspaper, institutional, and archival protocol was completed without the authenticated NARA API. No direct identity or employer evidence was found.",
+      "next_action": "Review Box 43 for identifiers and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-essie-b-baylor-reviewed-search",
+      "person_id": "e2157dcb-90c5-5471-8f8e-517c66db207c",
+      "source_adapter": "reviewed_web",
+      "query_text": "Essie B Baylor OSS; Office of Strategic Services; CAF-2; NARA OSS/index context; CIA Reading Room; Library of Congress; employer; occupation; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "reviewed-civilian-grade-exact-name-woman-official-employment-and-archival",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unrelated Baylor surname results, genealogy and cemetery entries, modern people-search pages, and uncorroborated snippets were rejected; none linked the exact name and civilian grade to OSS.",
+      "research_notes": "Official, CIA, LoC, exact-name OSS, employment, obituary, directory, newspaper, and archival checks produced no defensible identity. The authenticated NARA API was not used.",
+      "next_action": "Review Box 43 for personnel forms, name changes, and employer evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-e-a-bayne-reviewed-search",
+      "person_id": "bf3eb5ac-7fce-532f-8aa0-493cd1e03e20",
+      "source_adapter": "reviewed_web",
+      "query_text": "E A Bayne OSS; E. A. Bayne Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; employer; occupation; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "reviewed-initials-only-common-name-official-employment-and-archival",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Numerous E. Bayne and E. A. Bayne candidates across military, cemetery, business, and genealogy sources lacked two corroborating identifiers beyond the incomplete name.",
+      "research_notes": "The full staged protocol was adapted for an initials-only record. Without rank, identifier, hometown, branch, or full given name, no candidate could be retained safely.",
+      "next_action": "Review Box 43 to recover the full name and repeat targeted research.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-lois-m-baynes-reviewed-search",
+      "person_id": "1990b01a-30df-580c-8df7-e8f376595c9e",
+      "source_adapter": "reviewed_web",
+      "query_text": "Lois M Baynes OSS; Office of Strategic Services; CAF-5; NARA OSS/index context; CIA Reading Room; Library of Congress; employer; occupation; obituary; directory; newspaper; institutional and archival searches",
+      "query_variant_type": "reviewed-civilian-grade-exact-name-woman-official-employment-and-archival",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:26:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Obituaries for different Lois Baynes or Lois M. names, unrelated New Zealand school records, genealogy pages, modern people-search pages, and snippets lacked OSS and civilian-grade linkage.",
+      "research_notes": "NARA context, CIA, LoC, exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, and archival checks found no uniquely resolvable identity.",
+      "next_action": "Review Box 43 for name changes, hometown, birth data, and employer evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-edward-j-bayon-reviewed-search",
+      "person_id": "21ddc126-8e27-5d71-92d7-70c55d1e9538",
+      "source_adapter": "reviewed_web_and_official_bulk",
+      "query_text": "Edward J Bayon OSS; Office of Strategic Services; exact private identifier in official Army file; NARA OSS/index context; CIA Reading Room; Library of Congress; American Graves Registration; employer; occupation; obituary; archival searches",
+      "query_variant_type": "reviewed-private-identifier-army-loc-vhp-prewar-government-service",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:28:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unrelated Edward Bayon namesakes, cemetery entries, modern people-search pages, and records without the OSS or Army context were rejected. The broad occupation code was not narrowed to a single trade.",
+      "research_notes": "The private identifier confirmed the Army record. The Library of Congress collection supplied independent exact-name OSS evidence and earlier Graves Registration service. CIA, obituary, newspaper, directory, and archival checks did not establish an immediate pre-OSS employer.",
+      "next_action": "Review Box 43 for the OSS start date and intervening chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-jodie-g-bays-reviewed-search",
+      "person_id": "33c554fe-a5a8-5fd1-8b7b-7f1f1ca51189",
+      "source_adapter": "reviewed_web_and_official_bulk",
+      "query_text": "Jodie G Bays OSS; Office of Strategic Services; exact private identifier in official Army file; code 003; NARA OSS/index context; CIA Reading Room; Library of Congress; employer; occupation; obituary; directory; archival searches",
+      "query_variant_type": "reviewed-private-identifier-army-undefined-occupation-code",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:28:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name and surname-only results, genealogy records, modern people-search pages, and unlinked obituaries were rejected. Code 003 was absent from the reviewed code table and was not guessed.",
+      "research_notes": "The official private-identifier match confirms identity, but official, CIA, LoC, employment, occupation, newspaper, obituary, directory, and archival checks yielded no reliable pre-OSS affiliation.",
+      "next_action": "Review Box 43 and the original enlistment record for code 003 and employer evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-douglas-d-bazata-reviewed-search",
+      "person_id": "2a662355-25d7-5f6a-b73a-b00defd06a17",
+      "source_adapter": "reviewed_web_and_official_bulk",
+      "query_text": "Douglas D Bazata; Douglas DeWitt Bazata; OSS; Office of Strategic Services; exact private identifier in official Army file; NARA; CIA Reading Room; employer 1940; occupation; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-distinctive-name-private-identifier-prewar-self-employment-and-occupation",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Postwar art and intelligence work, genealogy aggregators, memorial pages, unsourced biographies, and sensational Patton-assassination allegations were rejected as irrelevant or inadequately sourced. The Hoover office was not converted into an employer claim.",
+      "research_notes": "The private identifier confirmed the Army identity. A CIA-hosted contemporary clipping supports a qualified earlier self-directed activity, while occupation code 97 remains broad. No source proved the immediate pre-OSS predecessor.",
+      "next_action": "Review Box 43 for the exact recruitment chronology and any named prewar business.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-david-l-bazelon-reviewed-search",
+      "person_id": "526d22fc-144f-511a-831a-2ef53e885957",
+      "source_adapter": "reviewed_web",
+      "query_text": "David L Bazelon OSS; David Lionel Bazelon Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; Assistant U.S. Attorney Chicago; private practice; employer 1940; obituary; institutional and archival searches",
+      "query_variant_type": "reviewed-distinctive-name-legal-career-chronology-conflict",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Modern namesakes, postwar judicial material, family references, search snippets, and unsourced derivative biographies were rejected. Postwar papers mentioning OSS colleagues did not establish Bazelon's own wartime role.",
+      "research_notes": "The exact distinctive-name identity is high confidence. The Federal Judicial Center and a contemporary Broadcasting profile conflict materially over the 1940-1946 sequence, so neither private practice nor federal service is labeled immediate. The authenticated NARA API was not used.",
+      "next_action": "Review Box 43 and Justice Department personnel records to resolve the chronology and OSS linkage.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-pierre-bazin-reviewed-search",
+      "person_id": "96d4a880-8ca9-5611-bc1a-7546e4c01e10",
+      "source_adapter": "reviewed_web",
+      "query_text": "Pierre Bazin OSS; Office of Strategic Services; S/Lt French; sous-lieutenant; SOE; services speciaux; NARA OSS/index context; CIA Reading Room; occupation; obituary; French institutional and archival searches",
+      "query_variant_type": "reviewed-foreign-common-name-rank-nationality-resistance-disambiguation",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:33:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "A Canadian Lieutenant Pierre Bazin lacks the French designation and sous-lieutenant wording; a sculptor born in 1927 was too young; numerous modern and historical namesakes lacked matching rank, nationality, and intelligence context.",
+      "research_notes": "The museum biography citing SHD file 16P 40634 supplies three corroborating identifiers beyond the name: French status, exact sous-lieutenant grade, and intelligence-network service. The candidate is high confidence, not confirmed, and only the prewar locksmith occupation is published.",
+      "next_action": "Compare Box 43 with SHD file 16P 40634 for a direct OSS linkage and employer evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch165-harry-w-beach-reviewed-search",
+      "person_id": "87b1698d-e7b2-560b-aff9-e57281b6ac8f",
+      "source_adapter": "reviewed_web_and_official_bulk",
+      "query_text": "Harry W Beach OSS; Office of Strategic Services; Pfc; exact private identifier in official Army file; NARA OSS/index context; CIA Reading Room; Library of Congress; employer; occupation; obituary; directory; archival searches",
+      "query_variant_type": "reviewed-private-identifier-common-name-army-occupation",
+      "started_at": "2026-08-02T20:08:00Z",
+      "completed_at": "2026-08-02T20:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Many Harry W. Beach cemetery, school, directory, genealogy, and modern people-search records lacked the private identifier or OSS context and were rejected. The broad occupation group was not narrowed.",
+      "research_notes": "The private identifier confirms the Army identity. NARA context, CIA, LoC, exact-name OSS, employment, obituary, directory, newspaper, and archival checks found no named employer; only the date-bounded occupation code is publishable.",
+      "next_action": "Review Box 43 for the specific occupation, employer, and OSS transfer chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,455 people with a non-planned attempt | 23,941 person entities | 6.0774% |
-| Verified-affiliation coverage | 267 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1152% |
+| Research-attempt coverage | 1,465 people with a non-planned attempt | 23,941 person entities | 6.1192% |
+| Verified-affiliation coverage | 268 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1194% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,404 people with an individual file-access/priority assessment | 23,941 person entities | 5.8644% |
+| Archival-review coverage | 1,414 people with an individual file-access/priority assessment | 23,941 person entities | 5.9062% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 105
-- Identity status `high_confidence`: 340
+- Identity status `confirmed`: 109
+- Identity status `high_confidence`: 342
 - Identity status `probable`: 49
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 7
-- Identity status `unresolved`: 23,414
+- Identity status `unresolved`: 23,408
 
 ## Personnel categories
 
@@ -43,20 +43,20 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,170 yes; 5,050 no; 16,721 indeterminate.
+Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,486
+- `not_started`: 22,476
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 1
-- `documented_prewar_employer_found`: 33
-- `occupation_only_found`: 90
-- `requires_archival_review`: 1,048
-- `completed`: 56
-- `conflicting_sources`: 6
+- `documented_prewar_employer_found`: 34
+- `occupation_only_found`: 92
+- `requires_archival_review`: 1,053
+- `completed`: 57
+- `conflicting_sources`: 7
 - `verified_employer_found`: 157
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -66,7 +66,8 @@ Commissioned classification: 2,170 yes; 5,050 no; 16,721 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 879
+- Reviewed-web terminal-protocol attempts recorded: 885
+- Reviewed-web-and-official-bulk attempts recorded: 4
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -83,12 +84,12 @@ Commissioned classification: 2,170 yes; 5,050 no; 16,721 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 492 across 472 people; 31 additional
+- Saved `source_reviewed` outcomes: 497 across 477 people; 32 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,488
+- Total recorded attempts/plans: 2,498
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 476; 458 have at least one public-eligible
+- People with saved reviewed claims: 482; 464 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1857,13 +1858,35 @@ Commissioned classification: 2,170 yes; 5,050 no; 16,721 indeterminate.
   Repeat imports were count-stable. No authenticated Catalog request, credential,
   raw API response, full private identifier, sensitive personal detail, or
   discovery-only employer claim was used or published.
-- Public-visible affiliations: 568
-- Database claims: 1,126; public-visible claims: 1,101 (209 confirmed, 721 high,
-  164 medium, 7 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,309; private source records: 2,128; public source export:
-  1,150; unique source documents: 926
-- Canonical organizations: 313 private and 310 public
-- Conflicting claims: 7
+- Batch 165 covers the next ten visually checked page-twenty-seven rows, Lester
+  Y. Baylis through Harry W. Beach. The strict bundle adds nine sources, two
+  organizations, eight affiliations, fourteen claims, thirty-five claim-source
+  links, ten person updates, and ten terminal research attempts. Exact private-
+  identifier matches in the official Army enlistment file confirm Edward J.
+  Bayon, Jodie G. Bays, Douglas D. Bazata, and Harry W. Beach; occupation codes
+  are published only as bounded occupational groups, never named employers.
+  Library of Congress evidence independently confirms Bayon's identity and OSS
+  service, while a 1923 official record preserves his earlier American Graves
+  Registration Service assignment. A CIA-hosted contemporary clipping supports
+  Bazata's self-directed prewar Washington intelligence work without turning a
+  referenced Hoover sales office into his employer. David L. Bazelon's federal
+  judicial biography and a contemporary broadcasting trade journal disagree on
+  whether his 1940-1946 Chicago work was federal service or private practice;
+  both chronologies remain visible and excluded from default analytics. Pierre
+  Paul Bazin is a high-confidence French officer candidate whose museum profile,
+  tied to a cited French defense file, documents locksmith work before 1939
+  naval service; unrelated Canadian and sculptor namesakes were rejected. Four
+  profiles remain unresolved and route to Box 43 review. Repeat imports were
+  count-stable. No authenticated Catalog request, credential, raw API response,
+  full private identifier, sensitive personal detail, or discovery-only
+  employer claim was used or published.
+- Public-visible affiliations: 576
+- Database claims: 1,140; public-visible claims: 1,115 (213 confirmed, 724 high,
+  169 medium, 9 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,344; private source records: 2,137; public source export:
+  1,159; unique source documents: 931
+- Canonical organizations: 315 private and 311 public
+- Conflicting claims: 9
 - NARA pull-list rows: 23,821
 
 Planned dry-run requests do not count as research-attempt coverage.

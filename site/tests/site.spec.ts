@@ -14715,3 +14715,99 @@ test("Batch 164 preserves Baumlin through Baylis identity qualifications, the Ba
   await expect(page.locator("main")).toContainText("2 Burif");
   await expect(page.locator("h3").getByRole("link", { name: "Ting Bawm", exact: true })).toBeVisible();
 });
+
+test("Batch 165 preserves Baylis through Beach unresolved boundaries, occupation groups, and chronology conflicts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8a3b6325-a8a3-5f39-890b-47903e808e6b", "Lester Y Baylis", "Not printed"],
+    ["e2157dcb-90c5-5471-8f8e-517c66db207c", "Essie B Baylor", "Caf-2"],
+    ["bf3eb5ac-7fce-532f-8aa0-493cd1e03e20", "E A Bayne", "Not printed"],
+    ["1990b01a-30df-580c-8df7-e8f376595c9e", "Lois M Baynes", "Caf-5"],
+    ["21ddc126-8e27-5d71-92d7-70c55d1e9538", "Edward J Bayon", "cPL"],
+    ["33c554fe-a5a8-5fd1-8b7b-7f1f1ca51189", "Jodie G Bays", "Cpl"],
+    ["2a662355-25d7-5f6a-b73a-b00defd06a17", "Douglas D Bazata", "Capt"],
+    ["526d22fc-144f-511a-831a-2ef53e885957", "David L Bazelon", "Not printed"],
+    ["96d4a880-8ca9-5611-bc1a-7546e4c01e10", "Pierre Bazin", "S/Lt"],
+    ["87b1698d-e7b2-560b-aff9-e57281b6ac8f", "Harry W Beach", "Pfc"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("43", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 27");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "8a3b6325-a8a3-5f39-890b-47903e808e6b",
+    "e2157dcb-90c5-5471-8f8e-517c66db207c",
+    "bf3eb5ac-7fce-532f-8aa0-493cd1e03e20",
+    "1990b01a-30df-580c-8df7-e8f376595c9e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/21ddc126-8e27-5d71-92d7-70c55d1e9538/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "American Graves Registration Service",
+  );
+  await expect(page.locator("main")).toContainText("Automotive electrician");
+  await expect(page.getByRole("link", { name: "Edward J. Bayon Collection", exact: true }).first()).toHaveAttribute(
+    "href",
+    /loc\.gov/,
+  );
+
+  await page.goto("./people/33c554fe-a5a8-5fd1-8b7b-7f1f1ca51189/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation code 003 is not defined");
+
+  await page.goto("./people/2a662355-25d7-5f6a-b73a-b00defd06a17/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "his own Washington intelligence gathering operation",
+  );
+  await expect(page.locator("main")).toContainText("Telephone/telegraph installer-repairer");
+  await expect(page.locator("main")).toContainText("from a Dupont Circle vacuum-cleaner office");
+
+  await page.goto("./people/526d22fc-144f-511a-831a-2ef53e885957/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("1935-1946");
+  await expect(page.locator("main")).toContainText("1935-1940");
+  await expect(page.locator("main")).toContainText("private practice");
+  await expect(page.getByRole("link", { name: "Bazelon, David L.", exact: true }).first()).toHaveAttribute(
+    "href",
+    /fjc\.gov/,
+  );
+
+  await page.goto("./people/96d4a880-8ca9-5611-bc1a-7546e4c01e10/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Pierre Paul Bazin");
+  await expect(page.locator("main")).toContainText("locksmith");
+  await expect(page.locator("main")).toContainText("sous-lieutenant");
+  await expect(page.getByRole("link", { name: /Plaques à la mémoire/, exact: false }).first()).toHaveAttribute(
+    "href",
+    /museedelaresistanceenligne\.org/,
+  );
+
+  await page.goto("./people/87b1698d-e7b2-560b-aff9-e57281b6ac8f/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Tractor driver");
+  await expect(page.locator("main")).toContainText("heavy-truck driver");
+});

@@ -4,16 +4,38 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,259 HTML files. Every relative
+**PASS.** The production build contains 24,260 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 310 organization profiles, and the
+The build includes 23,941 person profiles, 311 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,819 unique external URLs for separate live
+The checker inventoried 48,825 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 165 local release check
+
+The complete 24,260-page internal-link pass includes direct routes for Lester
+Y. Baylis, Essie B. Baylor, E. A. Bayne, Lois M. Baynes, Edward J. Bayon, Jodie
+G. Bays, Douglas D. Bazata, David L. Bazelon, Pierre Bazin, and Harry W. Beach,
+plus the new American Graves Registration Service organization route. The Batch
+165 regression passed at desktop, phone, and tablet sizes. Occupation-only
+evidence remains distinct from employers, Bazata's qualified self-directed work
+does not turn a referenced office into an employer, Bazelon's chronology
+conflict remains visible and excluded from default analytics, Bazin remains a
+qualified French identity distinct from rejected namesakes, and unresolved
+profiles retain Box 43 archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`ca3142ef2edab80cd1bf65583a93e24b5ef59dfe069e8aa66336cd996261ca46`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`edacefc54017f1fe5a00de60782b4f922552f0e13f66534c12e4e720b51ab363`.
+The boundary-aware audit reviewed 999 candidate substrings across 24,330 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 164 local release check
 
