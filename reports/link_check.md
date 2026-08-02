@@ -15,6 +15,43 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,744 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 146 local release check
+
+The complete 24,239-page internal-link pass includes direct routes for Robert
+L. Barnes, Robert H. Barnes, Robert I. Barnes, Robert K. Barnes, Teo U. Barnes,
+Thelma J. Barnes, Dorothy F. Barnett, Eleanor S. Barnett, Gloria B. Barnett,
+and Harold J. Barnett. The focused browser regression opened all ten profiles
+at desktop, phone, and tablet sizes, and the full browser/accessibility matrix
+passed 483 / 483. All profiles preserve the visually verified page-23 source
+values, remain visibly unresolved, and link their next action to Box 37 review
+without promoting any namesake occupation or employer.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`46a7af7087fefdfef40a3da1c2d9cd1cc0e9544d2d63d85fc7f0d1cf58b5c705`.
+Consecutive complete production builds produced the same length-delimited
+path-and-content SHA-256,
+`a6674c891a41d5abaa61dd0bb663f7d211a4de08a9a6957c48ad9a0e5b3c39ef`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,309 public artifacts, rejected 997 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 145 production check
+
+GitHub Actions test workflow
+[30738820559](https://github.com/therealjameswilson/before-oss/actions/runs/30738820559)
+and Pages workflow
+[30738820562](https://github.com/therealjameswilson/before-oss/actions/runs/30738820562)
+completed successfully for release `d807351`. The independent audit opened the
+seven core routes and all ten Batch 145 profiles; all 17 returned HTTP 200 and
+matched the intended release content. All 65 deployed manifest assets matched
+their recorded size, SHA-256, and exact release bytes. The deployed manifest
+SHA-256 is
+`d1dbb1b88d017c2b82fa76254b2de67eda699975f6e611118e2bf36c98542849`.
+The 83-artifact live privacy scan found zero unexpected full-number matches.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
+
 ## Batch 145 local release check
 
 The complete 24,239-page internal-link pass includes direct routes for Evelyn

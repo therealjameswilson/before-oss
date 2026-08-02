@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,270 people with a non-planned attempt | 23,941 person entities | 5.3047% |
+| Research-attempt coverage | 1,280 people with a non-planned attempt | 23,941 person entities | 5.3465% |
 | Verified-affiliation coverage | 252 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0526% |
 | Verified-employer coverage | 144 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6015% |
-| Archival-review coverage | 1,218 people with an individual file-access/priority assessment | 23,941 person entities | 5.0875% |
+| Archival-review coverage | 1,228 people with an individual file-access/priority assessment | 23,941 person entities | 5.1293% |
 
 ## Extraction and identity
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,671
+- `not_started`: 22,661
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 70
-- `requires_archival_review`: 895
+- `requires_archival_review`: 905
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 146
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 702
+- Reviewed-web terminal-protocol attempts recorded: 712
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -82,7 +82,7 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 444 across 424 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,301
+- Total recorded attempts/plans: 2,311
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
 - People with saved reviewed claims: 429; 411 have at least one public-eligible
@@ -1570,10 +1570,26 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   Catalog request, credential, raw response, full private identifier, home
   address, people-finder record, or discovery-only employer claim was used or
   published.
+- Batch 146 continues page twenty-three from Robert L. Barnes through Harold J.
+  Barnett. All ten rows were visually checked at 300 dpi and original
+  resolution. The strict bundle imports ten official index sources, ten person
+  updates, and ten terminal research attempts; it adds no organization,
+  affiliation, or claim. Four adjacent Robert Barnes rows remain separate:
+  Robert L. has no printed rank or identifier, Robert H. is M/Sgt, Robert I. is
+  1st Lt, and Robert K. is Pfc, with each printed identifier kept private.
+  Teo U. Barnes is preserved exactly as printed; Theo and Theodore were tested
+  only as unconfirmed search aliases. Dorothy F. Barnett's unfamiliar Ca-4 is
+  preserved without category inference. A later natural-resource economist
+  named Harold J. Barnett remains only a Box 37 comparison lead because no
+  reviewed source ties him to OSS, P-4, and two additional anchors. All ten
+  profiles route to high-priority Box 37 review without namesake occupations or
+  employers. No authenticated Catalog request, credential, raw response, full
+  private identifier, home address, people-finder record, or discovery-only
+  employer claim was used or published.
 - Published affiliations: 515
 - Database claims: 1,018; public-visible claims: 997 (188 confirmed, 668 high,
   137 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,042; private source records: 1,956; public source export:
+- Citation links: 2,042; private source records: 1,966; public source export:
   1,049; unique source documents: 859
 - Canonical organizations: 292 private and 290 public
 - Conflicts: 5
@@ -1769,6 +1785,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-two-twenty-three-barkley-through-barnabe-pathways_batch-143_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnard-through-barnes-pathways_batch-144_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnes-continuation-pathways_batch-145_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnes-through-barnett-pathways_batch-146_2026-08-02.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

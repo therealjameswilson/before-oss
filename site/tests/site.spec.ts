@@ -13080,3 +13080,52 @@ test("Batch 145 preserves the next Barnes rows and routes unresolved common name
   await expect(page.locator("main")).toContainText("private Army identifier");
   await expect(page.locator("main")).toContainText("enlisted army personnel");
 });
+
+test("Batch 146 keeps the four Robert Barnes rows separate and preserves Barnett grades", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["4c44915b-b54d-5b36-ba83-368c3b98a91b", "Robert L Barnes", "Not printed"],
+    ["23d0ed95-a57b-53d6-bcf9-96aa890f8984", "Robert H Barnes", "M/Sgt"],
+    ["ed96aace-3b6d-53e7-909f-9871b8fc8ba7", "Robert I Barnes", "1st Lt"],
+    ["508aaa49-537b-5d50-a0b1-e1f9de87f4df", "Robert K Barnes", "Pfc"],
+    ["96d78e29-276f-5bab-8ecb-9a27592d1cfd", "Teo U Barnes", "Capt"],
+    ["159c3239-e24c-5e2b-a6d9-04e581e4e6a9", "Thelma J Barnes", "Not printed"],
+    ["be8fa47e-8d2f-5386-b01c-50a84ef474f8", "Dorothy F Barnett", "Ca-4"],
+    ["9e448b1d-3f2b-5969-ac0d-a8706d90422c", "Eleanor S Barnett", "Caf-5"],
+    ["f3992ce1-e331-56c3-be70-6d0a37114f72", "Gloria B Barnett", "Caf-3"],
+    ["cc928387-e25f-50b5-a241-4ca17d828a7e", "Harold J Barnett", "P-4"],
+  ];
+
+  for (const [personId, displayName, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("37", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 23");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/96d78e29-276f-5bab-8ecb-9a27592d1cfd/");
+  await expect(page.locator("main")).toContainText("index prints Teo U. Barnes");
+  await expect(page.locator("main")).toContainText("unconfirmed Theo and Theodore aliases");
+
+  await page.goto("./people/be8fa47e-8d2f-5386-b01c-50a84ef474f8/");
+  await expect(page.locator("main")).toContainText("unfamiliar grade is preserved exactly");
+  await expect(page.locator("main")).toContainText("unknown or indeterminate");
+
+  await page.goto("./people/cc928387-e25f-50b5-a241-4ca17d828a7e/");
+  await expect(page.locator("main")).toContainText("natural-resource economist");
+  await expect(page.locator("main")).toContainText("No later occupation was back-projected");
+});
