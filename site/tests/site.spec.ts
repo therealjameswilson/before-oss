@@ -13533,3 +13533,75 @@ test("Batch 151 preserves Barrett through Barrick rows and publishes reviewed id
     page.getByRole("link", { name: /Maryland National Guard, Camp Ritchie/ }).first(),
   ).toHaveAttribute("href", /whilbr\.org/);
 });
+
+test("Batch 152 preserves Barringer through Barrows rows and separates Barrington's military and civilian pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["1bb6ee5b-208c-5a1d-9b73-04d0186a8fb2", "Howard C Barringer", "Pfc", "Page 24"],
+    ["654cf68b-8097-5a1e-b6e5-7e0c68598333", "Lewis Barrington", "Caf-11", "Page 24"],
+    ["16048d05-386b-59fb-957b-19d0aa404c65", "Carolyn M Barron", "P-1", "Page 24"],
+    ["a94c84b9-5602-5943-bad6-bed6311c975a", "Jack A Barron", "Pfc", "Page 24"],
+    ["1af53b44-1078-52fc-be58-520a86e2dd3f", "Louie N Barron", "Cpl", "Page 24"],
+    ["968fc3cb-fb5f-546f-a044-36a282c4fbe7", "Vera Barron", "Caf-4", "Page 24"],
+    ["a626e328-fb23-5636-ac05-12b7d33fca87", "Edward A Barrow", "Not printed", "Page 24"],
+    ["4ed70549-30f1-5abf-acfb-aae46795018e", "Harrison T Barrow", "Capt", "Page 25"],
+    ["887f88b7-f281-544b-b2f7-a2b686e28116", "Stanley E Barrow", "Pfc", "Page 25"],
+    ["a02a0724-4b65-5dcc-ad17-61ee0a69645a", "Dayton S Barrows", "Sgt", "Page 25"],
+  ];
+
+  for (const [personId, displayName, rank, pageLabel] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("39", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(pageLabel);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId] of allProfiles.filter(
+    ([personId]) => personId !== "654cf68b-8097-5a1e-b6e5-7e0c68598333",
+  )) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/654cf68b-8097-5a1e-b6e5-7e0c68598333/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "First lieutenant",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Federal Writers' Project",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Research editor",
+  );
+  await expect(page.locator("main")).toContainText("Management Analyst");
+  await expect(
+    page.getByRole("link", { name: /The Shield of Phi Kappa Psi/ }).first(),
+  ).toHaveAttribute("href", /phikappapsiarchive\.com/);
+  await expect(
+    page.getByRole("link", { name: /American Life Histories/ }).first(),
+  ).toHaveAttribute("href", /loc\.gov/);
+
+  await page.goto("./organizations/e2cbc781-87f5-549f-9f3a-6c98733dd92e/");
+  await expect(
+    page.getByRole("heading", { name: "Federal Writers' Project", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Lewis Barrington", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Writers' Project");
+});

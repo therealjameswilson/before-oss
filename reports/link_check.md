@@ -4,16 +4,56 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,247 HTML files. Every relative
+**PASS.** The production build contains 24,248 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 298 organization profiles, and the
+The build includes 23,941 person profiles, 299 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,767 unique external URLs for separate live
+The checker inventoried 48,770 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 152 local release check
+
+The complete 24,248-page internal-link pass includes direct routes for Howard
+C. Barringer, Lewis Barrington, Carolyn M. Barron, Jack A. Barron, Louie N.
+Barron, Vera Barron, Edward A. Barrow, Harrison T. Barrow, Stanley E. Barrow,
+Dayton S. Barrows, and the new Federal Writers' Project organization page. The
+complete browser and accessibility matrix passed 501 / 501 across desktop,
+phone, and tablet. Nine unresolved profiles retain their visually verified
+page-24 or page-25 values and Box 39 archival paths. Barrington's immediate
+United States Army military assignment remains separate from his last civilian
+employer, the Federal Writers' Project, with claim-level citations and the
+historical source wording preserved.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`61b0abbcc34a22738e0da0ac4d23776594e9f238f3002356da9693937a90364f`.
+Consecutive production builds produced the same directory-prefixed content-
+tree SHA-256,
+`969dc5ff046d288bf7b6ab091b0dff05a97b9f2f836f186a4082ee5e7bd0bc9e`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,318 public artifacts, rejected 998 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 151 production check
+
+GitHub Actions test workflow
+[30745179919](https://github.com/therealjameswilson/before-oss/actions/runs/30745179919)
+and Pages workflow
+[30745179891](https://github.com/therealjameswilson/before-oss/actions/runs/30745179891)
+completed successfully for release
+`eaf8281a1a594c44b55462029b7f24a04fc5deaa`. The independent audit opened
+the seven core routes, all ten Batch 151 profiles, and the Camp Ritchie
+organization route; all 18 returned HTTP 200 and contained the intended
+release content. All 65 deployed manifest assets matched their recorded size
+and SHA-256. The deployed manifest SHA-256 is
+`4c4554aee8b69f1018123058cb1817c9107ab00361e6322ae0d38e41bb68a381`.
+The 84-artifact live privacy scan found zero unexpected private-identifier
+matches. The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 151 local release check
 
