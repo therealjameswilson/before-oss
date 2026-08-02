@@ -2522,6 +2522,44 @@ No authenticated NARA Catalog API request was made, no key was accessed, and
 no raw API response, copyrighted page, full private identifier, home address,
 or people-finder data was stored in the public projection.
 
+## Page-twenty Ball-through-Ballard pathways, Batch 133
+
+`research/evidence-page-twenty-ball-through-ballard-pathways_batch-133_2026-08-01.json`
+records ten new contiguous page-twenty people from Maurice Ball through Harry
+W. Ballard. Egerton L. Ballachey, the intervening printed row, remains preserved
+and linked to the earlier Batch 130 adjudication. Page 20 had already been
+rendered at 300 dpi and inspected at original resolution; all 46 printed rows
+match the parser, including these names, initials, ranks or civilian grades,
+identifier-column occupancy, boxes, and archive locations. Full private
+identifiers remain in SQLite only.
+
+The strict bundle contains 16 private source records, one public-visible
+medium-confidence identity claim, three claim-source links, ten person updates,
+and ten terminal research attempts. The specialist OSS Operational Groups
+personnel page lists T/5 Frank L. Ballante in the Choctaw roster and Frank
+Ballante in Alpha. Its Choctaw mission page independently repeats the exact
+middle initial and grade and says the mission summary was compiled from
+National Archives end-of-mission reports. Because both pages belong to one
+secondary research project and neither prints Ballante's private identifier or
+an item-level primary citation, the identity is published only as probable.
+The sources document wartime OSS service, not a pre-OSS employer.
+
+Maurice Ball, Mildred G. Ball, Ned B. Ball, Robert O. Ball, Rubye L. Ball,
+Tellison F. Ball, Ernest L. Ballachino, Adele Ballantine, and Harry W. Ballard
+remain unresolved after staged NARA/Catalog context, CIA Reading Room,
+exact-name and meaningful variant, employment, occupation, newspaper,
+obituary, directory, institutional, and archival searches. A Durham directory
+job for a Ned B. Ball, family-based Adele Ballantine lead, discovery-only life
+dates, and later Harry W. Ballard business evidence were rejected rather than
+silently assigned. The Library of Congress API returned HTTP 429 for one
+exact-name request; no retry was made, and broader newspaper discovery
+continued without converting access failure into a negative result.
+
+No authenticated NARA Catalog API request was made, no credential was accessed,
+and no raw API response, full private identifier, copyrighted page, home
+address, relative's details, or people-finder data was stored in the public
+projection.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -4,15 +4,15 @@ Run: 2026-08-01 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,234 HTML files. Every relative
+**PASS.** The production build contains 24,235 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 285 organization profiles, and the
+The build includes 23,941 person profiles, 286 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,704 unique external URLs for separate live
+The checker inventoried 48,714 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Representative external targets
@@ -3505,3 +3505,16 @@ manifest forbidden-field check passed, and the manifest SHA-256 is
 A bounded, field-aware exact-token comparison of all 12,919 nontrivial
 normalized private identifiers against 24,233 non-gzip production artifacts
 returned zero full identifier matches.
+## Batch 133 local release check
+
+The deterministic Batch 133 build generated 24,235 HTML files. The internal
+link checker visited the complete built tree and found zero unresolved internal
+links. It inventoried 48,714 unique external URLs for separate live checking.
+
+The focused direct-route regression opened all ten new profiles at desktop,
+phone, and tablet widths. The complete browser matrix subsequently passed all
+444 checks. The Frank L. Ballante profile's `ossog.info/personnel.html`
+citation is an intentional external link to a specialist secondary roster; the
+page labels the identity probable and retains the primary-record next action.
+No authenticated Catalog URL or credential-bearing request is present in the
+static site.

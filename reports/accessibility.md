@@ -4,14 +4,13 @@ Run: 2026-08-01 UTC
 
 ## Result
 
-**PASS - 438 / 438 release browser cases across desktop, phone, and
+**PASS - 444 / 444 release browser cases across desktop, phone, and
 tablet, including 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete 435-case pre-Batch-131 matrix and the focused three-case Batch
-131 regression completed without an assertion, navigation, or
+The complete Batch 133 matrix completed without an assertion, navigation, or
 serious/critical axe failure. All 27 dedicated axe cases passed.
 
 Routes tested at all three sizes:
@@ -31,7 +30,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-139-person employer measure is labeled separately from the 243-person broader
+140-person employer measure is labeled separately from the 246-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -1995,3 +1994,21 @@ repeated the complete research and site matrix for release `7d8bef1` and
 completed successfully. GitHub emitted the same non-blocking annotation that
 version 4/5 setup actions still declare Node.js 20 and are currently forced to
 Node.js 24; no project test or build step failed.
+## Batch 133 accessibility and responsive regression
+
+Batch 133 adds direct-route coverage for Maurice Ball, Mildred G. Ball, Ned B.
+Ball, Robert O. Ball, Rubye L. Ball, Tellison F. Ball, Ernest L. Ballachino,
+Frank L. Ballante, Adele Ballantine, and Harry W. Ballard. The focused profile
+test ran at desktop, phone, and tablet widths and passed 3 / 3. It verifies the
+indexed name, page and box context, masked or explicitly unprinted identifier,
+archival-review state, employer-gap wording, and immediate-affiliation boundary
+on every profile. It separately verifies that Ballante's probable identity,
+Choctaw/Alpha qualification, evidence excerpt, and external citation are
+present without being rendered as an employer fact.
+
+The complete Playwright matrix passed 444 / 444 in 6.8 minutes across the same
+three viewports. Twenty-seven axe scans—nine representative routes at each
+viewport—reported no serious accessibility violations. Keyboard navigation,
+visible focus, semantic headings, labeled controls, direct routes, responsive
+tables and profiles, search and filter URL state, print behavior, and public
+identifier masking therefore remain covered by the full regression suite.

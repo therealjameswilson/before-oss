@@ -5,39 +5,38 @@ Run: 2026-08-01 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,234 pages**
-- Internal link check: **24,234 HTML files passed**
-- Browser and accessibility suite: **438 / 438 passed** across desktop, phone,
+- Static production build: **24,235 pages**
+- Internal link check: **24,235 HTML files passed**
+- Browser and accessibility suite: **444 / 444 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`476b945a6d52094b3cf3a5e6f3b44779d09b645b0403e84c26dbaca3d7904f49`)
-- Latest deterministic build (Batch 131): **byte-for-byte identical** across
-  two consecutive static builds and all **24,379** public, generated, and
-  built-site artifacts.
+  (`292d19fa9019750ffc1ddc7aee612be0e9e1afd464c3967d8de76a9aff927c81`)
+- Latest deterministic build (Batch 133): **byte-for-byte identical** across
+  two consecutive static builds and all **24,305** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `3f15332c63df8b44b3b92eeb356155fb4e1ba39dfc1049d1e850b5ea8543a32f`
+  `3173c5a402d70fabd354f7fff9e38b186217b7a4d0071e74feab5e9c2e06a1fd`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,379** production artifacts, including compressed mirrors
+  matches** in **24,305** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **986** public records representing **817** unique documents
-- Private citation records: **1,767**
-- Published, qualified affiliations: **497**
-- Published or conflict-visible claims: **953**
+- Reviewed public sources: **1,001** public records representing **829** unique documents
+- Private citation records: **1,806**
+- Published, qualified affiliations: **498**
+- Published or conflict-visible claims: **959**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **245** people with confirmed/high published
+- Verified-affiliation metric: **246** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **140** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 131 production workflow and deployment checks: **passed** for release
-  `720ffc7`
+- Batch 133 local release checks: **passed**; production deployment verification
+  follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3315,6 +3314,55 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 133 local release QA
+
+Batch 133 adds the ten page-twenty people from Maurice Ball through Harry W.
+Ballard while leaving the intervening, already adjudicated Egerton L. Ballachey
+row intact. The strict reviewed-evidence bundle imports 16 sources, one claim,
+three claim-source links, ten person updates, and ten terminal research
+attempts. Page 20 was already retained as a complete original-resolution visual
+review: all 46 printed rows match the parser, and all 23 parser warning rows
+across the 522-page source remain resolved.
+
+Nine identities remain unresolved. Frank L. Ballante receives a
+medium-confidence probable identity claim because a specialist OSS Operational
+Groups project repeats the unusual exact name, middle initial, T/5 grade, and
+Choctaw and Alpha rosters. The evidence is not promoted to high confidence:
+both supporting pages belong to one secondary project and neither prints the
+private identifier or an item-level primary citation. No identity lead is
+converted into a pre-OSS employer or affiliation.
+
+The deterministic public build generated 24,235 HTML pages with zero Astro
+errors, warnings, or hints. The Python suite passed 55 / 55. The focused Batch
+133 profile regression passed 3 / 3 at desktop, phone, and tablet widths, and
+the complete responsive and accessibility matrix passed 444 / 444 in 6.8
+minutes. The 200-profile stratified audit passed every entity, queue,
+commissioned-status, duplicate-review, source-row, public-projection, and
+identity-evidence check. `npm audit --audit-level=high` reported zero
+vulnerabilities.
+
+The internal-link checker passed all 24,235 HTML pages and inventoried 48,714
+unique external URLs. Two consecutive static builds produced the identical
+content-tree SHA-256
+`292d19fa9019750ffc1ddc7aee612be0e9e1afd464c3967d8de76a9aff927c81`.
+All 65 manifest assets matched their recorded sizes and SHA-256 values in both
+the public source tree and built site; the manifest SHA-256 is
+`3173c5a402d70fabd354f7fff9e38b186217b7a4d0071e74feab5e9c2e06a1fd`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted raw variants against 24,305 HTML, data, compressed-mirror, download,
+script, style, and image artifacts and found zero full matches. The manifest's
+forbidden-field check also passed. No local `.env` or authenticated NARA
+Catalog request was used.
+
+The Batch 133 database contains 2,181 durable research attempts, 1,806 private
+source records, 288 organizations, 503 affiliations, 980 claims, and 1,949
+claim-source links. The public projection contains 1,001 source records
+representing 829 unique documents, 286 organizations, 498 affiliations, and
+959 claims. Coverage distinguishes 1,151 people with a non-planned research
+attempt, 246 people with verified affiliation evidence, 140 people with
+verified employment or self-employment evidence, and 1,099 people whose
+archival-review need has been assessed.
 
 ## Batch 132 local release QA
 

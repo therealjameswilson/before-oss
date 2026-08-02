@@ -12227,3 +12227,58 @@ test("Batch 132 preserves seven unresolved identities and qualifies the three su
   ).toBeVisible();
   await expect(page.locator("main")).toContainText("Leon F Ball");
 });
+
+test("Batch 133 preserves nine unresolved profiles and qualifies the probable Frank Ballante identity", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["415d6298-53ca-54f3-bb18-0a1638020c8e", "Maurice Ball", "32"],
+    ["7164ae21-d569-5590-b13a-767c8e2627a7", "Mildred G Ball", "32"],
+    ["cc7c2228-a272-51ab-a776-f8a62b4d0ffa", "Ned B Ball", "32"],
+    ["4fcc4224-509e-5abe-9eba-9e1dd27d0b97", "Robert O Ball", "33"],
+    ["4be91334-488a-5af2-aba4-53ca4a908b30", "Rubye L Ball", "33"],
+    ["6a16d42b-5589-58c7-a971-f7526850b0a1", "Tellison F Ball", "33"],
+    ["ed6d5e37-fb64-5b79-a504-e113598ff64f", "Ernest L Ballachino", "33"],
+    ["69f37d9c-91bc-5e29-b87d-1fb822871dca", "Frank L Ballante", "33"],
+    ["d619dfc4-251f-5ba7-b33f-33b50a5b79e1", "Adele Ballantine", "33"],
+    ["770e1e8f-307d-5057-8333-23ff1f3b1fc0", "Harry W Ballard", "33"],
+  ];
+
+  for (const [personId, displayName, box] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("PDF page");
+    await expect(page.locator("main")).toContainText("Page 20");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const unresolvedProfiles = allProfiles
+    .filter(([personId]) => personId !== "69f37d9c-91bc-5e29-b87d-1fb822871dca")
+    .map(([personId]) => personId);
+
+  for (const personId of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/69f37d9c-91bc-5e29-b87d-1fb822871dca/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Choctaw and Alpha Operational Groups");
+  await expect(page.locator("main")).toContainText("T/5 Frank L. Ballante");
+  await expect(
+    page.getByRole("link", {
+      name: "Office of Strategic Services Operational Groups: Personnel",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /ossog\.info\/personnel\.html/);
+});

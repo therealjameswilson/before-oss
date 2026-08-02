@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,141 people with a non-planned attempt | 23,941 person entities | 4.7659% |
+| Research-attempt coverage | 1,151 people with a non-planned attempt | 23,941 person entities | 4.8077% |
 | Verified-affiliation coverage | 246 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0275% |
 | Verified-employer coverage | 140 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5848% |
-| Archival-review coverage | 1,089 people with an individual file-access/priority assessment | 23,941 person entities | 4.5487% |
+| Archival-review coverage | 1,099 people with an individual file-access/priority assessment | 23,941 person entities | 4.5905% |
 
 ## Extraction and identity
 
@@ -23,10 +23,10 @@ Generated from the current local SQLite database on 2026-08-01 UTC.
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
 - Identity status `high_confidence`: 308
-- Identity status `probable`: 39
+- Identity status `probable`: 40
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,481
+- Identity status `unresolved`: 23,480
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,800
+- `not_started`: 22,790
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 32
 - `occupation_only_found`: 67
-- `requires_archival_review`: 773
+- `requires_archival_review`: 783
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 143
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 572
+- Reviewed-web terminal-protocol attempts recorded: 582
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 424 across 405 people; 30 additional
+- Saved `source_reviewed` outcomes: 425 across 406 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,171
+- Total recorded attempts/plans: 2,181
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 410; 392 have at least one public-eligible
+- People with saved reviewed claims: 411; 389 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1334,10 +1334,28 @@ Commissioned classification: 2,167 yes; 5,041 no; 16,733 indeterminate.
   AAD interface returned HTTP 403, which is recorded as an access limitation,
   not a negative result. No authenticated Catalog API request or raw Catalog
   response was used.
+- Batch 133 continues the same visually verified page from Maurice Ball through
+  Harry W. Ballard, skipping the already adjudicated Egerton L. Ballachey row
+  while preserving it in the index. Nine identities remain unresolved and
+  route to Boxes 32 or 33. A specialist OSS Operational Groups roster repeats
+  the uncommon Frank L. Ballante name and T/5 grade in the Choctaw group and
+  also lists Frank Ballante in Alpha. This supports a qualified probable
+  identity only: the secondary site does not print the private identifier or
+  provide an item-level primary citation, so Box 33 and the underlying mission
+  records remain necessary. A 1931 Ned B. Ball stockbroker entry, a possible
+  Louise Adele Ballantine, discovery-only life-date records, and later Harry W.
+  Ballard business evidence were all rejected because they lacked OSS and
+  person-specific corroboration or fell outside the pre-OSS period. The batch
+  adds 16 private source records, one medium-confidence public identity claim,
+  three claim-source links, ten person updates, and ten durable research
+  attempts. The current Library of Congress API returned HTTP 429 for one
+  exact-name request; it was not retried, and the limitation is not treated as
+  evidence of absence. No authenticated Catalog API request or raw Catalog
+  response was used.
 - Published affiliations: 498
-- Database claims: 979; public-visible claims: 958 (185 confirmed, 650 high,
-  119 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 1,946; public source export: 998; unique source documents: 826
+- Database claims: 980; public-visible claims: 959 (185 confirmed, 650 high,
+  120 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 1,949; public source export: 1,001; unique source documents: 829
 - Canonical organizations: 288 private and 286 public
 - Conflicts: 5
 - NARA pull-list rows: 23,835
@@ -1519,6 +1537,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen
 python3 -m oss_research import-reviewed-evidence research/evidence-page-nineteen-twenty-bakewell-through-baldanza-and-ballachey-duplicate_batch-130_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-baldwin-through-balei-pathways_batch-131_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-balfour-through-ball-pathways_batch-132_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-ball-through-ballard-pathways_batch-133_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
