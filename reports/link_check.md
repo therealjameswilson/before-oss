@@ -4,16 +4,39 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,245 HTML files. Every relative
+**PASS.** The production build contains 24,246 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 296 organization profiles, and the
+The build includes 23,941 person profiles, 297 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,757 unique external URLs for separate live
+The checker inventoried 48,761 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 150 local release check
+
+The complete 24,246-page internal-link pass includes direct routes for Rodolfo
+Barragan, Lawrence G. Barrale, Anthony J. Barranti, Rene P. Barre, Margaret S.
+Barret, Adeline A. Barrett, Anthony J. Barrett, Edward W. Barrett, Gerald F.
+Barrett, and James R. Barrett. The focused browser regression opened all ten
+profiles at desktop, phone, and tablet sizes and passed 3 / 3; the final full
+browser and accessibility matrix passed 495 / 495. Nine unresolved profiles
+retain their visually verified page-24 values and Box 38 or Box 39 archival
+paths. Edward W. Barrett's immediate affiliation and last civilian employer
+both show Newsweek, while the role and the later COI-to-OWI transfer remain
+distinct and qualified by claim-level citations.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`12eab529b8f1e48acc3e16a9b5054b1907956c2d0572b3ccffede055a26d3b96`.
+Consecutive production builds produced the same directory-prefixed content-
+tree SHA-256,
+`930466e755b5f859c3031ee631ca9162dc0213c79029fbbf7db394503c55ef89`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,316 public artifacts, rejected 995 harmless
+substrings, and found zero unexpected boundary matches.
 
 ## Batch 149 local release check
 

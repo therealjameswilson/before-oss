@@ -13381,3 +13381,73 @@ test("Batch 149 separates Baron and Barone namesakes and publishes Barr pathways
     page.getByRole("link", { name: /Obituaries — Donald Barr/ }).first(),
   ).toHaveAttribute("href", /web\.archive\.org/);
 });
+
+test("Batch 150 preserves Barragan through Barrett rows and publishes Barrett's Newsweek pathway", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["2c483a95-e365-5388-adeb-a97325efe0c5", "Rodolfo Barragan", "T-3", "38"],
+    ["f8d0be17-9ca7-5709-bf4b-686ef1837ac9", "Lawrence G Barrale", "T-5", "38"],
+    ["1330acdf-841f-5ca6-8269-cf0256f87048", "Anthony J Barranti", "Pfc", "38"],
+    ["07a13d01-48ea-575f-9f90-f9592f1361c6", "Rene P Barre", "S/Lt", "38"],
+    ["9595db4e-3425-54ce-a400-c6d0816590c1", "Margaret S Barret", "Not printed", "39"],
+    ["f30cc5ef-80f2-539f-90a6-3623389a3aa9", "Adeline A Barrett", "Caf-4", "39"],
+    ["d301cfab-642d-5749-b293-8fe87e6655ea", "Anthony J Barrett", "Pfc", "39"],
+    ["178e3ceb-aa96-51a1-9792-09626882ef2a", "Edward W Barrett", "Not printed", "39"],
+    ["b1008c88-18b8-5f13-877d-db91f7a16383", "Gerald F Barrett", "1st Lt", "39"],
+    ["23b7cf0b-d486-585f-9c45-c37c2b9ae16c", "James R Barrett", "CU-3", "39"],
+  ];
+
+  for (const [personId, displayName, rank, box] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 24");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId] of allProfiles.filter(
+    ([personId]) => personId !== "178e3ceb-aa96-51a1-9792-09626882ef2a",
+  )) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/07a13d01-48ea-575f-9f90-f9592f1361c6/");
+  await expect(page.locator(".index-record").first()).toContainText("French");
+
+  await page.goto("./people/178e3ceb-aa96-51a1-9792-09626882ef2a/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Newsweek",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "National affairs editor",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Newsweek",
+  );
+  await expect(page.locator("main")).toContainText("Coordinator of Information");
+  await expect(
+    page.getByRole("link", { name: /Edward W\. Barrett Oral History Interview/ }).first(),
+  ).toHaveAttribute("href", /trumanlibrary\.gov/);
+  await expect(page.getByRole("link", { name: /Edward W\. Barrett Dies/ }).first()).toHaveAttribute(
+    "href",
+    /washingtonpost\.com/,
+  );
+  await expect(page.getByRole("link", { name: /Edward Ware Barrett/ }).first()).toHaveAttribute(
+    "href",
+    /paw\.princeton\.edu/,
+  );
+});

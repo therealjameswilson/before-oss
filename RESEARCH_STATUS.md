@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,308 people with a non-planned attempt | 23,941 person entities | 5.4634% |
-| Verified-affiliation coverage | 257 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0735% |
-| Verified-employer coverage | 147 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6140% |
-| Archival-review coverage | 1,257 people with an individual file-access/priority assessment | 23,941 person entities | 5.2504% |
+| Research-attempt coverage | 1,318 people with a non-planned attempt | 23,941 person entities | 5.5052% |
+| Verified-affiliation coverage | 258 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0776% |
+| Verified-employer coverage | 148 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6182% |
+| Archival-review coverage | 1,267 people with an individual file-access/priority assessment | 23,941 person entities | 5.2922% |
 
 ## Extraction and identity
 
@@ -22,41 +22,41 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 85
-- Identity status `high_confidence`: 321
+- Identity status `high_confidence`: 322
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,456
+- Identity status `unresolved`: 23,455
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,504
+- Unknown or indeterminate: 16,503
 - Enlisted Army personnel: 3,515
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,461
+- Civilian professional or administrative grades: 1,462
 - Foreign or Allied military personnel: 245
 - Enlisted naval personnel: 53
 - Commissioned naval officers: 81
 - Warrant officers: 5
 
-Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
+Commissioned classification: 2,167 yes; 5,044 no; 16,730 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,633
+- `not_started`: 22,623
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 71
-- `requires_archival_review`: 928
+- `requires_archival_review`: 937
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 151
+- `verified_employer_found`: 152
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,14 +65,14 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 736
+- Reviewed-web terminal-protocol attempts recorded: 745
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
 - Reviewed-official-AAD-institutional-and-web attempts recorded: 22
 - Reviewed-official-institutional-and-web attempts recorded: 12
-- Reviewed-official-and-institutional-source attempts recorded: 2
+- Reviewed-official-and-institutional-source attempts recorded: 3
 - Reviewed-institutional-source attempts recorded: 1
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
@@ -82,12 +82,12 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 450 across 430 people; 30 additional
+- Saved `source_reviewed` outcomes: 451 across 431 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,340
+- Total recorded attempts/plans: 2,350
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 435; 413 have at least one public-eligible
+- People with saved reviewed claims: 436; 418 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1658,14 +1658,36 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   lead were rejected for insufficient identity anchors. No authenticated
   Catalog request, credential, raw response, full private identifier, sensitive
   family detail, or discovery-only employer claim was used or published.
-- Published affiliations: 527
-- Database claims: 1,038; public-visible claims: 1,017 (189 confirmed, 684 high,
+- Batch 150 continues page twenty-four from Rodolfo Barragan through James R.
+  Barrett. All ten rows were visually checked at 300 dpi and original
+  resolution. The strict bundle imports 13 sources, one organization, one
+  affiliation, three claims, eight claim-source links, ten person updates, and
+  ten terminal research attempts; replaying the import produced identical
+  counts. Edward W. Barrett receives a high-confidence identity and a
+  high-confidence immediate and last-civilian-employer pathway at Newsweek.
+  His first-person Truman Library oral history says he was Newsweek's national
+  affairs editor, was hired into Donovan's Coordinator of Information, and
+  remained at Newsweek only long enough to train a successor. The source also
+  distinguishes his later transfer with the non-clandestine COI operation to
+  the Office of War Information; the project does not back-project that later
+  assignment into his pre-COI employer. Washington Post and Princeton
+  memorial accounts are retained as corroborating context, while the oral
+  history controls the more precise sequence. Rodolfo Barragan, Lawrence G.
+  Barrale, Anthony J. Barranti, Rene P. Barre, Margaret S. Barret, Adeline A.
+  Barrett, Anthony J. Barrett, Gerald F. Barrett, and James R. Barrett remain
+  unresolved and route to their indexed Box 38 or Box 39 files. A performer
+  lead for Barragan and multiple common-name Barrett candidates were rejected
+  for insufficient identity anchors. No authenticated Catalog request,
+  credential, raw response, full private identifier, sensitive family detail,
+  or discovery-only employer claim was used or published.
+- Published affiliations: 528
+- Database claims: 1,041; public-visible claims: 1,020 (189 confirmed, 687 high,
   140 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,076; private source records: 2,004; public source export:
-  1,064; unique source documents: 866
-- Canonical organizations: 298 private and 296 public
+- Citation links: 2,084; private source records: 2,017; public source export:
+  1,068; unique source documents: 870
+- Canonical organizations: 299 private and 297 public
 - Conflicts: 5
-- NARA pull-list rows: 23,827
+- NARA pull-list rows: 23,826
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

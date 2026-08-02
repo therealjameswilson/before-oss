@@ -5,44 +5,91 @@ Run: 2026-08-02 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,245 pages**
-- Internal link check: **24,245 HTML files passed**
-- Browser and accessibility suite: **489 / 489 passed** across desktop, phone,
-  and tablet, including **27 / 27** dedicated axe cases; the final Batch 149
-  regression separately passed **3 / 3** at the same viewport profiles
+- Static production build: **24,246 pages**
+- Internal link check: **24,246 HTML files passed**
+- Browser and accessibility suite: **495 / 495 passed** across desktop, phone,
+  and tablet, including **27 / 27** dedicated axe cases; the focused Batch 150
+  regression also passed **3 / 3** at the same viewport profiles
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`0d775d1a4f8b62bcf1c349f0d5f1cae8c14b1e675242b150c79cf6774faf8689`)
-- Latest deterministic build (Batch 149): **byte-for-byte identical** across
-  consecutive static builds and all **24,315** built-site artifacts.
+  (`930466e755b5f859c3031ee631ca9162dc0213c79029fbbf7db394503c55ef89`)
+- Latest deterministic build (Batch 150): **byte-for-byte identical** across
+  consecutive static builds and all **24,316** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `17258003f2e32526f63ebf7bec407ec83e3c7f605348a48d06208603cec7d0a6`
+  `12eab529b8f1e48acc3e16a9b5054b1907956c2d0572b3ccffede055a26d3b96`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,315** production artifacts, including compressed mirrors
+  matches** in **24,316** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,064** public records representing **866** unique documents
-- Private citation records: **2,004**
-- Published, qualified affiliations: **527**
-- Published or conflict-visible claims: **1,017**
+- Reviewed public sources: **1,068** public records representing **870** unique documents
+- Private citation records: **2,017**
+- Published, qualified affiliations: **528**
+- Published or conflict-visible claims: **1,020**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **257** people with confirmed/high published
+- Verified-affiliation metric: **258** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **147** people with confirmed/high published
+- Verified-employer metric: **148** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 148 production verification: **passed**
-- Batch 149 local release checks: **passed**; the final combined **492-case**
+- Batch 150 local release checks: **passed**; the final combined **495-case**
   browser matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 150 local release QA
+
+Batch 150 adds the ten visually checked page-twenty-four rows from Rodolfo
+Barragan through James R. Barrett. The strict evidence bundle imports 13
+sources, one organization, one affiliation, three claims, eight claim-source
+links, ten person updates, and ten terminal research attempts. Edward W.
+Barrett receives a high-confidence identity and Newsweek as both his explicit
+immediate pre-COI affiliation and last civilian employer, with national affairs
+editor recorded as his role. His first-person Truman Library oral history
+controls the precise Newsweek-to-Donovan chronology and keeps the later Office
+of War Information transfer distinct. The other nine profiles remain
+unresolved and route to their indexed Box 38 or Box 39 files.
+
+The evidence importer passed Pydantic validation and replayed idempotently.
+The complete rebuild reconstructed all 23,978 source rows, 23,941 person
+entities, every reviewed evidence bundle, derived export, and static page.
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+and the deterministic 200-profile audit passed every invariant. The Python
+suite passed 55 / 55. The focused Batch 150 regression passed 3 / 3, then the
+complete responsive and accessibility matrix passed 495 / 495, including 27 /
+27 dedicated axe cases. Astro reported zero errors, warnings, or hints and
+built 24,246 pages. The internal-link checker passed all 24,246 HTML pages and
+inventoried 48,761 unique external URLs. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive final builds produced the identical directory-prefixed content-
+tree SHA-256
+`930466e755b5f859c3031ee631ca9162dc0213c79029fbbf7db394503c55ef89`
+across 24,316 artifacts. All 65 manifest assets matched recorded sizes and
+SHA-256 values in both public source and built trees. The manifest SHA-256 is
+`12eab529b8f1e48acc3e16a9b5054b1907956c2d0572b3ccffede055a26d3b96`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against all artifacts, rejected 995 substring coincidences,
+and found zero unexpected boundary matches. The evidence bundle's separate
+one-artifact scan also found zero candidate substrings. No authenticated
+Catalog request, API credential, or raw Catalog response was used.
+
+The Batch 150 database contains 2,350 durable research attempts, 2,017 private
+source records representing 870 unique documents, 299 organizations, 533
+affiliations, 1,041 claims, and 2,084 claim-source links. Claim confidence is
+189 confirmed, 687 high, 140 medium, 21 low, and four conflicting. The public
+projection contains 1,068 sources, 297 organizations, 528 affiliations, and
+1,020 published, qualified, or conflict-visible claims. Coverage distinguishes
+1,318 people with a non-planned research attempt, 258 with verified-
+affiliation evidence, 148 with verified employment or self-employment
+evidence, and 1,267 whose archival-review need has been assessed.
 
 ## Batch 149 local release QA
 
