@@ -12750,3 +12750,75 @@ test("Batch 140 preserves ten page 22 rows and rejects unsupported Barbour throu
   await page.goto("./people/c046fea7-9b7a-5113-80aa-fbf0efc8c5db/");
   await expect(page.locator("main")).toContainText("younger Vietnam-era namesake");
 });
+
+test("Batch 141 preserves Barders through Barker rows and qualifies Harold Barger's Columbia pathway", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["7b58b991-86e7-5ab0-9781-c77140261080", "Iva H Barders", "35"],
+    ["5c29b80c-489d-569f-b686-0a381c84e58d", "Beverly A Baresh", "35"],
+    ["aff50616-0cd2-5c24-8672-071ca7db3a21", "Harold Barger", "35"],
+    ["e6b8cfc7-3f6d-5b62-893e-5fc3fab6f389", "Kenneth E Baringer", "35"],
+    ["4408a0db-c12d-5f02-9d11-f03f4348b0a0", "Salvatore R Barisano", "35"],
+    ["2dcda0ed-e1aa-52e4-8a09-431021dc8091", "Samuel N Barish", "36"],
+    ["bbc0fe3f-2d0b-52d7-89b2-5106a6f9ef28", "Gabriel J Barkate", "36"],
+    ["7fb79e9c-6648-5568-9299-17dc91ac5908", "Burk O Barker", "36"],
+    ["891f46ba-f06d-583b-a272-134dff363ae1", "Francis M Barker", "36"],
+    ["c7c2b26b-c20e-53cd-bf6c-375bf20c961f", "George B Barker", "36"],
+  ];
+
+  for (const [personId, displayName, box] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 22");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of allProfiles
+    .map(([personId]) => personId)
+    .filter((personId) => personId !== "aff50616-0cd2-5c24-8672-071ca7db3a21")) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/aff50616-0cd2-5c24-8672-071ca7db3a21/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Columbia University",
+  );
+  await expect(page.locator("main")).toContainText("Assistant Professor of Economics");
+  await expect(page.locator("main")).toContainText("rank variation");
+  await expect(
+    page.getByRole("link", { name: /Annual Report of the President and Treasurer/ }).first(),
+  ).toHaveAttribute("href", /wikimedia\.org/);
+  await expect(page.getByRole("link", { name: /Report #3: Transportation/ }).first()).toHaveAttribute(
+    "href",
+    /cia\.gov\/readingroom/,
+  );
+
+  await page.goto("./people/2dcda0ed-e1aa-52e4-8a09-431021dc8091/");
+  await expect(page.locator("main")).toContainText("White Plains attorney");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
+    "attorney",
+  );
+
+  await page.goto("./people/bbc0fe3f-2d0b-52d7-89b2-5106a6f9ef28/");
+  await expect(page.locator("main")).toContainText("Louisiana educator candidate");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
+    "educator",
+  );
+});

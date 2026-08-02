@@ -12,8 +12,36 @@ The build includes 23,941 person profiles, 289 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,734 unique external URLs for separate live
+The checker inventoried 48,736 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 141 local release check
+
+The complete 24,238-page internal-link pass includes direct routes for Iva H.
+Barders, Beverly A. Baresh, Harold Barger, Kenneth E. Baringer, Salvatore R.
+Barisano, Samuel N. Barish, Gabriel J. Barkate, Burk O. Barker, Francis M.
+Barker, and George B. Barker. The focused browser regression opened all ten
+profiles at desktop, phone, and tablet sizes. Harold Barger's claim-level links
+target the Columbia University annual report and declassified OSS memorandum;
+the profile keeps Columbia employment distinct from the unresolved immediate
+pre-OSS affiliation and preserves the conflicting indexed and wartime ranks.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`e8e026cbb621489b820c95cedce05422c299ddf1921da86dbb3f5f8da8faee47`.
+
+## Batch 140 production check
+
+GitHub Actions test workflow
+[30734196504](https://github.com/therealjameswilson/before-oss/actions/runs/30734196504)
+and Pages workflow
+[30734196496](https://github.com/therealjameswilson/before-oss/actions/runs/30734196496)
+completed successfully for release `7652b6d`. All seven core routes and all ten
+Batch 140 profiles returned HTTP 200. All 65 deployed assets matched their
+recorded sizes and SHA-256 values; the live manifest SHA-256 is
+`11a3a4f54f8b50e671b7c883259af0990ba697b180095c8bfd319b187a0de8bd`.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 140 local release check
 
