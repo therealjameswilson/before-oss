@@ -4,16 +4,36 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,260 HTML files. Every relative
+**PASS.** The production build contains 24,261 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 311 organization profiles, and the
+The build includes 23,941 person profiles, 312 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,825 unique external URLs for separate live
+The checker inventoried 48,829 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 166 local release check
+
+The complete 24,261-page internal-link pass includes direct routes for William
+J. Beach, Anne Beale, Barbara Beale, Calvin L. Beale, Edward F. Beale, Wilson T.
+Beale, Elizabeth Beall, Martha L. Beall, Albert V. Beals, and Edward R. Beaman,
+plus the new Veterans Administration organization route. The Batch 166
+regression passed at desktop, phone, and tablet sizes. Calvin Beale's identity
+and federal pathway retain their confidence and temporal qualifications;
+Elizabeth Beall's source-column anomaly remains literal; and the unresolved
+profiles retain Box 43 or Box 44 archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`e0365fd697e1611361d58090ea9f871dd31744c24c2ddd8eaae455d3a9ccd5c3`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`dac0e3424b718414f7fa6fe4cc6b3a4fb6de2aed65661b31fb6e5519e750dcbb`.
+The boundary-aware audit reviewed 996 candidate substrings across 24,331 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 165 local release check
 

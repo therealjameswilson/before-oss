@@ -14811,3 +14811,73 @@ test("Batch 165 preserves Baylis through Beach unresolved boundaries, occupation
   await expect(page.locator("main")).toContainText("Tractor driver");
   await expect(page.locator("main")).toContainText("heavy-truck driver");
 });
+
+test("Batch 166 preserves Beach through Beaman archival boundaries and Calvin Beale's qualified federal pathway", async ({
+  page,
+}) => {
+  const profiles = [
+    ["071582ff-10fb-5e2e-9e1f-d6b162056999", "William J Beach", "2nd Lt", "43", "Page 27"],
+    ["458048a8-5a6e-55fd-99be-6cceb9c13f37", "Anne Beale", "Caf-2", "43", "Page 27"],
+    ["3f86b6fd-8c69-549b-9eb9-262ec2612226", "Barbara Beale", "Caf-4", "43", "Page 27"],
+    ["1d8305cb-ba02-5c24-a81b-36d82a6c7049", "Calvin L Beale", "Caf-4", "43", "Page 27"],
+    ["3e1a3f8d-4287-5a4d-8cc4-86d9f2c7705e", "Edward F Beale", "Not printed", "43", "Page 27"],
+    ["31aa8dee-213f-51b5-ab84-187124cc1f57", "Wilson T Beale", "Lt", "43", "Page 28"],
+    ["0eb96d73-14c3-5eb6-a9d6-a3699037a835", "Elizabeth Beall", "Not printed", "44", "Page 28"],
+    ["0323ed7d-0e66-5c7a-8948-29830f2a9d22", "Martha L Beall", "Caf-7", "44", "Page 28"],
+    ["5bf929aa-708e-5f92-bffd-c799d36bb615", "Albert V Beals", "Not printed", "44", "Page 28"],
+    ["4db94478-6548-5392-8ad1-a20e0cdbe3b4", "Edward R Beaman", "Cpl", "44", "Page 28"],
+  ];
+
+  for (const [personId, displayName, rank, box, sourcePage] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(sourcePage);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "071582ff-10fb-5e2e-9e1f-d6b162056999",
+    "458048a8-5a6e-55fd-99be-6cceb9c13f37",
+    "3f86b6fd-8c69-549b-9eb9-262ec2612226",
+    "3e1a3f8d-4287-5a4d-8cc4-86d9f2c7705e",
+    "31aa8dee-213f-51b5-ab84-187124cc1f57",
+    "0eb96d73-14c3-5eb6-a9d6-a3699037a835",
+    "0323ed7d-0e66-5c7a-8948-29830f2a9d22",
+    "5bf929aa-708e-5f92-bffd-c799d36bb615",
+    "4db94478-6548-5392-8ad1-a20e0cdbe3b4",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/1d8305cb-ba02-5c24-a81b-36d82a6c7049/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Veterans Administration",
+  );
+  await expect(page.locator("main")).toContainText("probable immediate");
+  await expect(page.locator("main")).toContainText("map department of the Office of Strategic Services");
+  await expect(page.getByRole("link", { name: "Calvin Lunsford Beale", exact: true }).first()).toHaveAttribute(
+    "href",
+    /aag\.org/,
+  );
+
+  await page.goto("./people/0eb96d73-14c3-5eb6-a9d6-a3699037a835/");
+  await expect(page.locator("main")).toContainText("Beall | Elizabeth | P-1");
+  await expect(page.locator(".profile-aside")).toContainText("unknown or indeterminate");
+  await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText("Not printed");
+
+  await page.goto("./organizations/7c0f14fd-7d0e-59f0-899b-f955e5b27ebc/");
+  await expect(page.getByRole("heading", { name: "Veterans Administration", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Calvin L Beale");
+  await expect(page.locator("main")).toContainText("Linked-person counts include unique person entities");
+});

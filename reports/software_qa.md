@@ -5,31 +5,31 @@ Run: 2026-08-02 UTC
 - Python unit tests: **56 / 56 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,260 pages**
-- Internal link check: **24,260 HTML files passed**
-- Browser and accessibility suite: **540 / 540 passed** across desktop,
+- Static production build: **24,261 pages**
+- Internal link check: **24,261 HTML files passed**
+- Browser and accessibility suite: **543 / 543 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`edacefc54017f1fe5a00de60782b4f922552f0e13f66534c12e4e720b51ab363`)
-- Latest deterministic build (Batch 165): **byte-for-byte identical** across
-  consecutive static builds and all **24,330** built-site artifacts.
+  (`dac0e3424b718414f7fa6fe4cc6b3a4fb6de2aed65661b31fb6e5519e750dcbb`)
+- Latest deterministic build (Batch 166): **byte-for-byte identical** across
+  consecutive static builds and all **24,331** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `ca3142ef2edab80cd1bf65583a93e24b5ef59dfe069e8aa66336cd996261ca46`
+  `e0365fd697e1611361d58090ea9f871dd31744c24c2ddd8eaae455d3a9ccd5c3`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,330** production artifacts, including compressed mirrors
+  matches** in **24,331** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,159** public records representing **931** unique documents
-- Private citation records: **2,137**
-- Published, qualified affiliations: **576**
-- Published or conflict-visible claims: **1,115**
+- Reviewed public sources: **1,163** public records representing **935** unique documents
+- Private citation records: **2,143**
+- Published, qualified affiliations: **577**
+- Published or conflict-visible claims: **1,117**
 - Withheld low-confidence evidence: **25 claims concerning 20 people**
 - Verified-affiliation metric: **268** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -54,10 +54,57 @@ Run: 2026-08-02 UTC
   matrix runs in release CI
 - Batch 165 local release checks: **passed**; the combined **540-case** browser
   matrix runs in release CI
+- Batch 166 local release checks: **passed**; the combined **543-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 166 local release QA
+
+Batch 166 adds the ten visually checked rows spanning pages twenty-seven and
+twenty-eight from William J. Beach through Edward R. Beaman. The strict bundle
+imports six sources, one organization, one affiliation, two claims, six
+claim-source links, ten person updates, and ten terminal research attempts.
+Calvin L. Beale is a high-confidence match to Calvin Lunsford Beale, whose
+institutional memorial and reputable obituary document wartime OSS map-
+department work. His Veterans Administration start in 1942 is published only
+as a medium-confidence, probable predecessor government assignment because no
+source establishes the exact transfer. Nine profiles remain unresolved and
+route to Boxes 43 or 44. The official Army bulk file's known gaps are preserved
+as limits, and Elizabeth Beall's anomalous printed `P-1` is not silently moved
+into the rank field.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 56 / 56, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,261 pages. The internal-link checker passed all 24,261 HTML files and
+inventoried 48,829 unique external URLs. The browser, responsive, direct-route,
+search, and axe matrix passed 543 / 543 across desktop, phone, and tablet,
+including 27 / 27 dedicated axe cases. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`dac0e3424b718414f7fa6fe4cc6b3a4fb6de2aed65661b31fb6e5519e750dcbb`
+across 24,331 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `e0365fd697e1611361d58090ea9f871dd31744c24c2ddd8eaae455d3a9ccd5c3`.
+The boundary-aware scan examined 996 candidate substrings and found zero
+unexpected matches. No authenticated Catalog request, API credential, or raw
+Catalog response was used or stored.
+
+The Batch 166 database contains 2,508 durable research attempts, 2,143 private
+source records representing 935 unique documents, 316 organizations, 584
+affiliations, 1,142 claims, and 2,350 claim-source links. Claim confidence is
+213 confirmed, 725 high, 170 medium, 25 low, and nine conflicting. The public
+projection contains 1,163 sources, 312 organizations, 577 affiliations, and
+1,117 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,475 people with a non-planned research attempt, 268 with
+verified-affiliation evidence, 153 with verified employment or self-employment
+evidence, and 1,424 whose archival-review need has been assessed. The
+`not_started` count is 22,466 and `requires_archival_review` is 1,062.
 
 ## Batch 165 local release QA
 

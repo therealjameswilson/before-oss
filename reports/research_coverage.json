@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T20:44:05+00:00",
+  "generated_at": "2026-08-02T21:31:46+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,8 +7,8 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 1465,
-    "percent": 6.1192
+    "people_with_nonplanned_attempts": 1475,
+    "percent": 6.161
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
@@ -22,8 +22,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 1414,
-    "percent": 5.9062
+    "people_assessed": 1424,
+    "percent": 5.948
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -32,21 +32,21 @@
     "documented_prewar_employer_found": 34,
     "in_progress": 50,
     "needs_identity_review": 13,
-    "needs_temporal_review": 1,
-    "not_started": 22476,
+    "needs_temporal_review": 2,
+    "not_started": 22466,
     "occupation_only_found": 92,
-    "requires_archival_review": 1053,
+    "requires_archival_review": 1062,
     "verified_employer_found": 157
   },
   "claim_confidence_counts": {
     "confirmed": 213,
     "conflicting": 9,
-    "high": 724,
+    "high": 725,
     "low": 25,
-    "medium": 169
+    "medium": 170
   },
   "personnel_category_counts": {
-    "civilian_professional_or_administrative_grade": 1463,
+    "civilian_professional_or_administrative_grade": 1462,
     "commissioned_army_officer": 2070,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 6,
@@ -56,11 +56,11 @@
     "enlisted_naval_personnel": 55,
     "foreign_or_allied_military_personnel": 246,
     "temporary_contract_or_special_personnel": 1,
-    "unknown_or_indeterminate": 16496,
+    "unknown_or_indeterminate": 16497,
     "warrant_officer": 5
   },
   "possible_duplicate_groups": 213,
   "conflict_count": 8,
-  "citations": 2137,
-  "unique_source_documents": 931
+  "citations": 2143,
+  "unique_source_documents": 935
 }

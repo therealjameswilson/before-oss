@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,465 people with a non-planned attempt | 23,941 person entities | 6.1192% |
+| Research-attempt coverage | 1,475 people with a non-planned attempt | 23,941 person entities | 6.1610% |
 | Verified-affiliation coverage | 268 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1194% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,414 people with an individual file-access/priority assessment | 23,941 person entities | 5.9062% |
+| Archival-review coverage | 1,424 people with an individual file-access/priority assessment | 23,941 person entities | 5.9480% |
 
 ## Extraction and identity
 
@@ -22,21 +22,21 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 109
-- Identity status `high_confidence`: 342
+- Identity status `high_confidence`: 343
 - Identity status `probable`: 49
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 7
-- Identity status `unresolved`: 23,408
+- Identity status `unresolved`: 23,407
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,496
+- Unknown or indeterminate: 16,497
 - Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,463
+- Civilian professional or administrative grades: 1,462
 - Foreign or Allied military personnel: 246
 - Enlisted naval personnel: 55
 - Commissioned naval officers: 81
@@ -47,14 +47,14 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,476
+- `not_started`: 22,466
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
-- `needs_temporal_review`: 1
+- `needs_temporal_review`: 2
 - `documented_prewar_employer_found`: 34
 - `occupation_only_found`: 92
-- `requires_archival_review`: 1,053
+- `requires_archival_review`: 1,062
 - `completed`: 57
 - `conflicting_sources`: 7
 - `verified_employer_found`: 157
@@ -66,8 +66,8 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 885
-- Reviewed-web-and-official-bulk attempts recorded: 4
+- Reviewed-web terminal-protocol attempts recorded: 892
+- Reviewed-web-and-official-bulk attempts recorded: 7
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -84,12 +84,12 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 497 across 477 people; 32 additional
+- Saved `source_reviewed` outcomes: 498 across 478 people; 32 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,498
+- Total recorded attempts/plans: 2,508
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 482; 464 have at least one public-eligible
+- People with saved reviewed claims: 483; 465 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1880,12 +1880,33 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
   count-stable. No authenticated Catalog request, credential, raw API response,
   full private identifier, sensitive personal detail, or discovery-only
   employer claim was used or published.
-- Public-visible affiliations: 576
-- Database claims: 1,140; public-visible claims: 1,115 (213 confirmed, 724 high,
-  169 medium, 9 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,344; private source records: 2,137; public source export:
-  1,159; unique source documents: 931
-- Canonical organizations: 315 private and 311 public
+- Batch 166 covers the next ten visually checked rows across pages twenty-seven
+  and twenty-eight, William J. Beach through Edward R. Beaman. The strict,
+  idempotent bundle adds six sources, one organization, one affiliation, two
+  claims, six claim-source links, ten person updates, and ten terminal research
+  attempts. Independent institutional and newspaper biographies support a
+  high-confidence match between indexed CAF-4 employee Calvin L. Beale and
+  Washington demographer Calvin Lunsford Beale, whose wartime work included the
+  OSS map department. The AAG memorial places the start of his federal career
+  at the Veterans Administration in 1942, but supplies no end date or explicit
+  transfer language; that relationship is therefore a visibly qualified,
+  medium-confidence government assignment and does not raise either verified
+  coverage metric. William J. Beach and Wilson T. Beale carry officer
+  identifiers outside the enlisted bulk file's scope. Edward R. Beaman's
+  indexed identifier and exact name are absent from that known-incomplete file,
+  which is documented as a non-result rather than contrary evidence. Elizabeth
+  Beall's unusual printed `P-1` remains in the middle-initial column, her rank
+  stays unprinted, and her personnel category is left indeterminate. The other
+  nine profiles route to Boxes 43 or 44 for archival review. No authenticated
+  Catalog request, credential, raw API response, full private identifier,
+  sensitive personal detail, or discovery-only employer claim was used or
+  published.
+- Public-visible affiliations: 577
+- Database claims: 1,142; public-visible claims: 1,117 (213 confirmed, 725 high,
+  170 medium, 9 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,350; private source records: 2,143; public source export:
+  1,163; unique source documents: 935
+- Canonical organizations: 316 private and 312 public
 - Conflicting claims: 9
 - NARA pull-list rows: 23,821
 
