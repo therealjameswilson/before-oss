@@ -2073,3 +2073,23 @@ repeated the complete 450 / 450 matrix successfully for Batch 135 release
 also completed successfully. All 17 audited live routes returned HTTP 200 and
 matched their local accessible HTML after development and production
 canonical-host normalization.
+
+## Batch 136 accessibility and responsive regression
+
+Batch 136 adds direct-route coverage for Louis Balzarini, William G. Balzer,
+Ivan A. Ban, Wesley G. Banbury, John P. Banchiu, Hubert H. Bancroft, Kenneth G.
+Bandelier, Cahrles A. Bane, Edward A. Banek, and Margaret M. Banfill. The
+focused test passed 3 / 3 at desktop, phone, and tablet widths. It checks the
+indexed name, source page and Box 34, masked or explicitly unprinted identifier,
+research state, employer-gap language, and immediate-affiliation boundary on
+every profile.
+
+The regression separately verifies that the source's “Cahrles” spelling is
+preserved, Charles A. Bane appears only as a documented variant, his COI
+relationship is a qualified government assignment, Edward A. Banek's evidence
+remains occupation-only, and Margaret M. Banfill's University of Maryland
+relationship remains student status rather than employment. The specialist
+Banchiu roster is also linked at claim level. The complete Playwright matrix
+passed 453 / 453 in 6.2 minutes across all three viewports. Twenty-seven axe
+scans—nine representative routes per viewport—reported no serious
+accessibility violations.

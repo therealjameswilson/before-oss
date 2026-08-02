@@ -7,17 +7,17 @@ Run: 2026-08-02 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,237 pages**
 - Internal link check: **24,237 HTML files passed**
-- Browser and accessibility suite: **450 / 450 passed** across desktop, phone,
+- Browser and accessibility suite: **453 / 453 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`98adad62899f6c24fc3b972819f509a5eec445017a045d356c532b0335cc1df4`)
-- Latest deterministic build (Batch 135): **byte-for-byte identical** across
+  (`0335c3bec066aeae3fe79f49a20ee297954e6b429a9c4de88d48361af98f8c4d`)
+- Latest deterministic build (Batch 136): **byte-for-byte identical** across
   two consecutive static builds and all **24,307** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `292b5773b99082fc74525ca58884568d4c536d98d4b3f3848c301246627b9f49`
+  `8d6b675dc5faa9a395291bbaad613c10b830db4e75b5cfff2016aa8075348f1a`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -25,17 +25,17 @@ Run: 2026-08-02 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,307** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,016** public records representing **838** unique documents
-- Private citation records: **1,835**
-- Published, qualified affiliations: **502**
-- Published or conflict-visible claims: **969**
+- Reviewed public sources: **1,027** public records representing **843** unique documents
+- Private citation records: **1,852**
+- Published, qualified affiliations: **504**
+- Published or conflict-visible claims: **976**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
 - Verified-affiliation metric: **246** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **140** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 135 local release checks: **passed**; production deployment verification
+- Batch 136 local release checks: **passed**; production deployment verification
   follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
@@ -3314,6 +3314,61 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 136 local release QA
+
+Batch 136 continues the visually verified page-twenty-one sequence with ten
+people from Louis Balzarini through Margaret M. Banfill, skipping the already
+researched Mary D. Bancroft row. The strict reviewed-evidence bundle imports
+17 sources, two existing canonical organizations, two non-employer
+affiliations, seven claims, 17 claim-source links, ten person updates, and ten
+terminal research attempts. It replays idempotently.
+
+Six identities remain unresolved. John P. Banchiu receives a qualified
+probable identity from an uncommon-name, initials, grade, and OSS Operational
+Group match. The indexed “Cahrles A Bane” spelling is preserved while Charles
+A. Bane is added as a supported variant; scholarly and institutional sources
+support a high-confidence identity and a qualified COI government association,
+not an employer or military-branch conclusion. Edward A. Banek receives a
+probable identity and occupation-only commercial-radio finding with no named
+employer. Margaret M. Banfill receives a probable identity and qualified
+University of Maryland student affiliation, which remains excluded from
+employer analytics. All ten profiles retain Box 34 guidance, and no unsupported
+employer or immediate affiliation is introduced.
+
+The evidence bundle passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+rows. The Python suite passed 55 / 55, and the deterministic 200-profile audit
+passed every invariant. Astro reported zero errors, warnings, or hints and
+built 24,237 pages. The focused regression passed 3 / 3, and the complete
+browser, responsive, direct-route, search, and axe matrix passed 453 / 453 in
+6.2 minutes. The dependency audit found zero vulnerabilities. The internal-
+link checker passed all 24,237 HTML files and inventoried 48,730 unique
+external URLs.
+
+Two consecutive builds produced the identical
+`0335c3bec066aeae3fe79f49a20ee297954e6b429a9c4de88d48361af98f8c4d`
+content-tree hash across 24,307 artifacts. All 65 public manifest assets match
+their recorded sizes and SHA-256 values in the public source and built site.
+The manifest SHA-256 is
+`8d6b675dc5faa9a395291bbaad613c10b830db4e75b5cfff2016aa8075348f1a`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants against all 24,307 production artifacts, rejected 988
+substring coincidences, and found zero unexpected boundary matches. No local
+`.env`, authenticated Catalog request, raw Catalog response, or nonblank
+tracked API-key assignment was used.
+
+The Batch 136 database contains 2,211 durable research attempts, 1,852 private
+source records, 290 organizations, 509 affiliations, 997 claims, and 1,992
+claim-source links. Claim confidence counts are 185 confirmed, 652 high, 135
+medium, 21 low, and four conflicting. The public projection contains 1,027
+source records representing 843 unique documents, 288 organizations, 504
+affiliations, and 976 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,180 people with a non-planned research attempt, 246
+with verified-affiliation evidence, 140 with verified employment or self-
+employment evidence, and 1,128 whose archival-review need has been assessed.
+Public downloads contain 23,941 people, 288 organizations, 504 affiliations,
+and 1,027 sources.
 
 ## Batch 135 local release QA
 

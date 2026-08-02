@@ -12431,3 +12431,88 @@ test("Batch 135 keeps publishing associations and student status distinct from e
   await expect(page.locator("main")).toContainText("occupation only");
   await expect(page.locator("main")).toContainText("Wall Street telegrapher");
 });
+
+test("Batch 136 preserves index spelling and qualifies COI, radio, and student evidence", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["9b42fdab-5f39-5314-ac80-8ed189adbb75", "Louis Balzarini"],
+    ["8b8ffa4b-9bba-57c2-ae17-23920a882137", "William G Balzer"],
+    ["75283faa-d73f-5442-a443-d9249f11a082", "Ivan A Ban"],
+    ["28f1a44b-f3cc-5634-9b32-a2215d91a1f6", "Wesley G Banbury"],
+    ["156c2910-530a-5b6f-9ce3-6ad12b421a5b", "John P Banchiu"],
+    ["1213df7f-24c7-5e50-9637-954c9125fcc6", "Hubert H Bancroft"],
+    ["14989add-3bea-5c75-9f23-8067c7e7f0ac", "Kenneth G Bandelier"],
+    ["abb37bec-7398-528b-a2a1-5db68469c5eb", "Cahrles A Bane"],
+    ["7f08ebdd-5fb8-5221-b00c-1ff4feda25d1", "Edward A Banek"],
+    ["79b9df22-bf7e-5ec3-b01b-decd5b90b066", "Margaret M Banfill"],
+  ];
+
+  for (const [personId, displayName] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("34", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 21");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "9b42fdab-5f39-5314-ac80-8ed189adbb75",
+    "8b8ffa4b-9bba-57c2-ae17-23920a882137",
+    "75283faa-d73f-5442-a443-d9249f11a082",
+    "28f1a44b-f3cc-5634-9b32-a2215d91a1f6",
+    "1213df7f-24c7-5e50-9637-954c9125fcc6",
+    "14989add-3bea-5c75-9f23-8067c7e7f0ac",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/156c2910-530a-5b6f-9ce3-6ad12b421a5b/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Yugoslavian Operational Group");
+  await expect(page.getByRole("link", { name: "Personnel of the Operational Groups", exact: true }).first()).toHaveAttribute(
+    "href",
+    /ossog\.info/,
+  );
+
+  await page.goto("./people/abb37bec-7398-528b-a2a1-5db68469c5eb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Charles A. Bane");
+  await expect(page.locator("main")).toContainText("Coordinator of Information");
+  await expect(page.locator("main")).toContainText("government assignment");
+  await expect(page.locator("main")).toContainText("service branch");
+  await expect(page.getByRole("link", { name: /Radio Warfare/ }).first()).toHaveAttribute(
+    "href",
+    /device\.report/,
+  );
+
+  await page.goto("./people/7f08ebdd-5fb8-5221-b00c-1ff4feda25d1/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commercial radio");
+  await expect(page.locator("main")).toContainText("S.S. Catherine");
+  await expect(page.getByRole("link", { name: "Communications, November 1945", exact: true }).first()).toHaveAttribute(
+    "href",
+    /americanradiohistory\.com/,
+  );
+
+  await page.goto("./people/79b9df22-bf7e-5ec3-b01b-decd5b90b066/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("University of Maryland");
+  await expect(page.locator("main")).toContainText("student");
+  await expect(page.locator("main")).not.toContainText("University of Maryland — employer");
+  await expect(page.getByRole("link", { name: /Crescent of Gamma Phi Beta/ }).first()).toHaveAttribute(
+    "href",
+    /gpbarchives\.org/,
+  );
+});

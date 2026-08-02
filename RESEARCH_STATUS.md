@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,170 people with a non-planned attempt | 23,941 person entities | 4.8870% |
+| Research-attempt coverage | 1,180 people with a non-planned attempt | 23,941 person entities | 4.9288% |
 | Verified-affiliation coverage | 246 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0275% |
 | Verified-employer coverage | 140 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5848% |
-| Archival-review coverage | 1,118 people with an individual file-access/priority assessment | 23,941 person entities | 4.6698% |
+| Archival-review coverage | 1,128 people with an individual file-access/priority assessment | 23,941 person entities | 4.7116% |
 
 ## Extraction and identity
 
@@ -22,17 +22,17 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 82
-- Identity status `high_confidence`: 309
-- Identity status `probable`: 45
+- Identity status `high_confidence`: 310
+- Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,474
+- Identity status `unresolved`: 23,470
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,504
+- Unknown or indeterminate: 16,505
 - Enlisted Army personnel: 3,515
-- Commissioned Army officers: 2,070
+- Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,771
+- `not_started`: 22,761
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 67
-- `requires_archival_review`: 802
+- `occupation_only_found`: 68
+- `requires_archival_review`: 811
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 143
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 602
+- Reviewed-web terminal-protocol attempts recorded: 612
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 432 across 412 people; 30 additional
+- Saved `source_reviewed` outcomes: 436 across 416 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,201
+- Total recorded attempts/plans: 2,211
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 417; 399 have at least one public-eligible
+- People with saved reviewed claims: 421; 403 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1390,10 +1390,32 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
   claims, 19 claim-source links, ten person updates, and ten terminal research
   attempts. No authenticated Catalog API request, credential, raw response,
   full private identifier, or people-finder record was used or published.
-- Published affiliations: 502
-- Database claims: 990; public-visible claims: 969 (185 confirmed, 651 high,
-  129 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 1,975; public source export: 1,016; unique source documents: 838
+- Batch 136 continues page twenty-one from Louis Balzarini through Margaret M.
+  Banfill, skipping the already researched Mary D. Bancroft row. All ten rows
+  were checked against the 300 dpi page rendering and at original resolution.
+  The source itself prints “Cahrles A Bane”; that spelling remains the indexed
+  form, while “Charles A. Bane” is a documented variant. A scholarly history
+  and University of Chicago obituary support a high-confidence identity and a
+  qualified Coordinator of Information government association, but neither
+  establishes Bane's military branch, immediate predecessor, or civilian
+  employer. A specialist roster supports John P. Banchiu's probable
+  Yugoslavian Operational Group identity. Contemporary radio and archival
+  sources support Edward A. Banek's probable identity and a 1939 commercial-
+  radio occupation without naming an employer. Contemporary institutional and
+  official sources support Margaret M. Banfill's probable identity and 1940
+  University of Maryland student status, which remains separate from
+  employment. Louis Balzarini, William G. Balzer, Ivan A. Ban, Wesley G.
+  Banbury, Hubert H. Bancroft, and Kenneth G. Bandelier remain unresolved. All
+  ten retain explicit Box 34 guidance, and no employer or immediate-affiliation
+  claim was introduced. The strict bundle adds 17 sources, two affiliations,
+  seven claims (one high and six medium), 17 claim-source links, ten person
+  updates, and ten terminal attempts. No authenticated Catalog request, API
+  credential, raw response, full private identifier, people-finder record, or
+  discovery-only employer claim was used or published.
+- Published affiliations: 504
+- Database claims: 997; public-visible claims: 976 (185 confirmed, 652 high,
+  135 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 1,992; public source export: 1,027; unique source documents: 843
 - Canonical organizations: 290 private and 288 public
 - Conflicts: 5
 - NARA pull-list rows: 23,835
@@ -1578,6 +1600,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-b
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-ball-through-ballard-pathways_batch-133_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-twenty-one-ballew-through-bally-pathways_batch-134_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-one-balog-through-balvott-pathways_batch-135_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-one-balzarini-through-banfill-pathways_batch-136_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

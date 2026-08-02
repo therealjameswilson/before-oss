@@ -3589,6 +3589,30 @@ An independent 88-artifact live scan compared 12,919 normalized private
 identifiers and 121 formatted variants, rejected 700 substring coincidences,
 and found zero full boundary matches.
 
+## Batch 136 local release check
+
+The deterministic Batch 136 build generated 24,237 HTML files. The internal
+link checker visited the complete built tree, found zero unresolved internal
+links, and inventoried 48,730 unique external URLs for separate live checking.
+
+The focused desktop, phone, and tablet regression opened all ten direct
+profiles and passed 3 / 3. The complete browser and accessibility matrix passed
+453 / 453. The OSS Operational Groups roster, *Radio Warfare*, University of
+Chicago obituary, University of Wyoming finding aid, *Communications*, *The
+Crescent of Gamma Phi Beta*, and *Congressional Record* links are intentional
+evidence targets. The profiles visibly preserve identity and temporal
+qualification, distinguish occupation, government assignment, and student
+status from employment, and expose no authenticated Catalog URL or credential-
+bearing request.
+
+All 65 manifest assets match their recorded sizes and hashes in the public
+source and built trees. The manifest SHA-256 is
+`8d6b675dc5faa9a395291bbaad613c10b830db4e75b5cfff2016aa8075348f1a`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across all 24,307 local production artifacts, including
+compressed mirrors, rejected 988 substring coincidences, and found zero
+unexpected boundary matches.
+
 ## Batch 135 local release check
 
 The deterministic Batch 135 build generated 24,237 HTML files. The internal
