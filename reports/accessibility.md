@@ -2093,3 +2093,12 @@ Banchiu roster is also linked at claim level. The complete Playwright matrix
 passed 453 / 453 in 6.2 minutes across all three viewports. Twenty-seven axe
 scans—nine representative routes per viewport—reported no serious
 accessibility violations.
+
+Final GitHub test workflow
+[30730548352](https://github.com/therealjameswilson/before-oss/actions/runs/30730548352)
+repeated the complete 453 / 453 matrix successfully for Batch 136 release
+`9133fc1`. Pages workflow
+[30730548351](https://github.com/therealjameswilson/before-oss/actions/runs/30730548351)
+also completed successfully. All 17 audited live routes returned HTTP 200 and
+matched their local accessible HTML after development and production
+canonical-host normalization.

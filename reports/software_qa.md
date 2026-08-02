@@ -35,12 +35,40 @@ Run: 2026-08-02 UTC
 - Verified-employer metric: **140** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 136 local release checks: **passed**; production deployment verification
-  follows the release commit
+- Batch 136 local release and production deployment checks: **passed**
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 136 production deployment
+
+GitHub Actions test workflow
+[30730548352](https://github.com/therealjameswilson/before-oss/actions/runs/30730548352)
+completed successfully in 11 minutes 55 seconds for release `9133fc1`. It
+repeated the 55 / 55 Python suite, deterministic 24,237-page static build,
+complete internal-link check, and 453 / 453 browser, responsive, direct-route,
+search, and axe matrix. It then reconstructed the private source-row audit
+table from the checksum-verified official PDF and passed the reusable
+boundary-aware identifier audit. Pages workflow
+[30730548351](https://github.com/therealjameswilson/before-oss/actions/runs/30730548351)
+also completed successfully and deployed the static artifact.
+
+All 17 independently fetched production routes returned HTTP 200 and matched
+the local HTML after development and production canonical-host normalization:
+seven core publication routes and all ten Batch 136 profiles. The deployed
+manifest is byte-identical to the local release, and all 65 listed assets
+matched their recorded and local byte sizes, SHA-256 values, and bytes. The
+deployed manifest SHA-256 is
+`8d6b675dc5faa9a395291bbaad613c10b830db4e75b5cfff2016aa8075348f1a`.
+The five live downloads contain 23,941 personnel CSV rows, 23,941 personnel
+JSONL rows, 288 organizations, 504 affiliations, and 1,027 sources.
+
+The independent live privacy audit compared 12,919 normalized private
+identifiers and 121 formatted variants against 83 unique fetched production
+artifacts. It rejected 565 substring coincidences and found zero unexpected
+boundary matches. No authenticated Catalog request, API key, or raw Catalog
+response was used or published.
 
 The initial dependency range resolved to an older Astro major with current
 security advisories. The project was upgraded to Astro 7.1.5 and sharp 0.35.3;
