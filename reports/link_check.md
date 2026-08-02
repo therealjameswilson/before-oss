@@ -20,7 +20,7 @@ verification; external responses do not affect the internal-route pass.
 The complete 24,257-page internal-link pass includes direct routes for Robert
 H. Bates, Gregory Bateson, Philip R. Bath, Alexander Bathory, Carl E. Bathory,
 Andrew G. Bato, Harry C. Batson, Salvatore E. Battaglia, Rene Battaglini, and
-Sam Battaglio. It also includes the Marine Cooks and Stewards Association
+Sam Battaglio. It also includes the Marine Cooks and Stewards Union
 organization route. The Batch 160 regression passed at desktop, phone, and
 tablet sizes. Four official-record occupation findings remain distinct from
 employers; Battaglini's qualified union affiliation retains its temporal and

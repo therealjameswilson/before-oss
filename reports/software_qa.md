@@ -64,7 +64,7 @@ identifier matches in an official NARA Army enlistment dataset support
 occupation-only findings for Andrew G. Bato, Salvatore E. Battaglia, Rene
 Battaglini, and Sam Battaglio without inventing employers. A Bancroft Library
 oral history supports a qualified, medium-confidence pre-OSS Marine Cooks and
-Stewards union affiliation for Battaglini. Robert H. Bates, Philip R. Bath,
+Stewards Union affiliation for Battaglini. Robert H. Bates, Philip R. Bath,
 Alexander Bathory, and Harry C. Batson retain explicit archival-review
 outcomes.
 
