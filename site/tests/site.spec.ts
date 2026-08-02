@@ -13215,3 +13215,85 @@ test("Batch 147 separates Barnett through Barnhart rows and publishes only date-
     page.getByRole("link", { name: /Edward Norton Barnhart, Rhetoric/ }).first(),
   ).toHaveAttribute("href", /digicoll\.lib\.berkeley\.edu/);
 });
+
+test("Batch 148 carries Julia Barnhart forward and separates Barnhisel through Baron pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["c407e9fa-3a4c-5cfc-b5ec-d0664ab4133d", "Julia N Barnhart", "23", "SP-7"],
+    ["2e253d67-4834-5d7c-afb4-56d683cc8c20", "Lester M Barnhart", "23", "Pvt"],
+    ["3059f496-e1b0-5576-b38f-837ca308bffa", "Arthur H Barnhisel", "24", "Capt"],
+    ["5a51b5c6-d8f2-5310-9830-0885e6f5ed85", "Albert E Barnmueller", "24", "Not printed"],
+    ["4d653a4d-5c99-57d1-8bb0-5d8a6efb51df", "Daniel J Barnwell", "24", "Capt"],
+    ["dfc9bb3d-2afb-545e-a449-d0d64b4375a9", "Sara Barnwell", "24", "Not printed"],
+    ["fc627f71-9a52-5435-ab84-60b76fe71515", "Sigurd M Baro", "24", "S/Sgt"],
+    ["ac7a1d6d-0afb-5a9d-82a9-f640df6494ec", "James J Baron", "24", "Not printed"],
+    ["0ccda096-9381-5363-9b64-3ab87cd90d0e", "John W Baron", "24", "T-5"],
+    ["391505ab-1fad-5826-a02b-76be902c312d", "Milton Baron", "24", "CU-3"],
+  ];
+
+  for (const [personId, displayName, sourcePage, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("38", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(`Page ${sourcePage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = allProfiles.filter(
+    ([personId]) =>
+      personId !== "3059f496-e1b0-5576-b38f-837ca308bffa" &&
+      personId !== "fc627f71-9a52-5435-ab84-60b76fe71515",
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/3059f496-e1b0-5576-b38f-837ca308bffa/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Arthur Howard Barnhisel");
+  await expect(page.locator("main")).toContainText("piloted a barge between Puget Sound");
+  await expect(page.locator("main")).toContainText("Burma and China");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: /Peter Barnhisel Obituary/ }).first(),
+  ).toHaveAttribute("href", /legacy\.com/);
+
+  await page.goto("./people/fc627f71-9a52-5435-ab84-60b76fe71515/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "99th Infantry Battalion",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator("main")).toContainText("probable immediate");
+  await expect(page.locator("main")).toContainText("Company B, Special Reconnaissance Battalion");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: /104-10165-10121/ }).first(),
+  ).toHaveAttribute("href", /archives\.gov\/files\/research\/jfk/);
+  await expect(
+    page.getByRole("link", { name: /10th Mountain Division Name Index/ }).first(),
+  ).toHaveAttribute("href", /history\.denverlibrary\.org/);
+});

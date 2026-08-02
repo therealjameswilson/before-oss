@@ -12,8 +12,48 @@ The build includes 23,941 person profiles, 295 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,751 unique external URLs for separate live
+The checker inventoried 48,753 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 148 local release check
+
+The complete 24,244-page internal-link pass includes direct routes for Julia
+N. Barnhart, Lester M. Barnhart, Arthur H. Barnhisel, Albert E. Barnmueller,
+Daniel J. Barnwell, Sara Barnwell, Sigurd M. Baro, James J. Baron, John W.
+Baron, and Milton Baron. The focused browser regression opened all ten profiles
+at desktop, phone, and tablet sizes, and the full browser and accessibility
+matrix passed 489 / 489. Julia's earlier terminal outcome remains intact without
+a duplicated attempt. Arthur Barnhisel's occupation-only evidence is visibly
+qualified and does not become an employer, while Sigurd Baro's 99th Infantry
+Battalion pathway remains a military assignment rather than civilian
+employment. The other profiles retain their visually verified page-23 or
+page-24 source values and Box 38 archival paths.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`410d9e370694940779a368a238ce40565f80347ed9e8c0b0c45f048e970a3dc9`.
+Consecutive complete production builds produced the same length-delimited
+path-and-content SHA-256,
+`9acb290286db5f3acca86129156aa4eefd4ca00f21ee36a555d8d2e967af9c0a`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,314 public artifacts, rejected 995 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 147 production check
+
+GitHub Actions test workflow
+[30740252875](https://github.com/therealjameswilson/before-oss/actions/runs/30740252875)
+and Pages workflow
+[30740252883](https://github.com/therealjameswilson/before-oss/actions/runs/30740252883)
+completed successfully for release `f7cc6a0`. The independent audit opened the
+seven core routes and all ten Batch 147 profiles; all 17 returned HTTP 200 and
+matched the intended release content. All 65 deployed manifest assets matched
+their recorded size, SHA-256, and exact release bytes. The deployed manifest
+SHA-256 is
+`f1b0fd1f92f9a52d650bf807674041881244296c619db056554520e4f79d0cc1`.
+The 83-artifact live privacy scan found zero unexpected full-number matches.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 147 local release check
 
