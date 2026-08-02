@@ -12,8 +12,29 @@ The build includes 23,941 person profiles, 308 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,803 unique external URLs for separate live
+The checker inventoried 48,806 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 161 local release check
+
+The complete 24,257-page internal-link pass includes direct routes for Johnnie
+Batten, William A. Battenfield, Kenneth A. Battersby, Margaret R. Battersby,
+Ann Battie, Marion F. Battipede, Lawrence H. Battistini, Henry C. Bauch, Eugene
+T. Bauer, and Frederick A. Bauer. The Batch 161 regression passed at desktop,
+phone, and tablet sizes. Five official-record occupation findings remain
+distinct from employers; the Marion/Mario source variance stays visible; Ann
+Battie's obituary-based identity remains high confidence without turning an
+undated education statement into a pre-OSS affiliation; and the four unresolved
+profiles retain archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`08c0d8c69fd645a6023aec3a04b5ab8591b830a2baa04a1c4d89d1e56879210b`.
+Consecutive production builds produced the same sorted length-delimited
+path-and-file-SHA-256 tree digest,
+`7d4913b01dee17cf981b4e2b9caa52b0baba2fd63a1dc5340164cf44b5ead23d`.
+The boundary-aware audit reviewed 996 candidate substrings across 24,327 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 160 local release check
 

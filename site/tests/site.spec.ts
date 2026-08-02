@@ -14305,3 +14305,93 @@ test("Batch 160 preserves occupation-only evidence, unresolved profiles, and the
     "Museum of Modern Art",
   );
 });
+
+test("Batch 161 preserves Batten through Bauer occupations, identity limits, and archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["55a89ec1-132d-5915-a39b-c0da52593054", "Johnnie Batten", "T-4", "Page 26"],
+    ["ea6d4d3b-bf90-51e6-a99d-61ff7fb2ccd3", "William A Battenfield", "Cpl", "Page 26"],
+    ["a15fd142-6a21-5755-b44d-35b9ef01ef94", "Kenneth A Battersby", "Sgt", "Page 26"],
+    ["4e1df7bc-6a64-55f4-aadf-dbe8eccd2388", "Margaret R Battersby", "Caf-5", "Page 26"],
+    ["02405d09-994f-58b8-88d1-21b7be15dfaa", "Ann Battie", "P-1", "Page 26"],
+    ["50cb8eec-6837-550f-a84e-64c7678691d5", "Marion F Battipede", "Pvt", "Page 26"],
+    ["8dbd8126-2f13-5f2e-aa87-11a1a948fc97", "Lawrence H Battistini", "Not printed", "Page 26"],
+    ["2c7cd6ab-8695-52d2-a497-f68961f6ef70", "Henry C Bauch", "Pfc", "Page 26"],
+    ["57f6eee1-9796-56b3-84a5-24665c943d27", "Eugene T Bauer", "Not printed", "Page 26"],
+    ["5964f10d-a1c7-5236-a2df-8fddbcf27615", "Frederick A Bauer", "Cpl", "Page 27"],
+  ];
+
+  for (const [personId, displayName, rank, pageLabel] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("42", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(pageLabel);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "4e1df7bc-6a64-55f4-aadf-dbe8eccd2388",
+    "8dbd8126-2f13-5f2e-aa87-11a1a948fc97",
+    "2c7cd6ab-8695-52d2-a497-f68961f6ef70",
+    "57f6eee1-9796-56b3-84a5-24665c943d27",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const occupationProfiles = [
+    ["55a89ec1-132d-5915-a39b-c0da52593054", "Automobile serviceman"],
+    [
+      "ea6d4d3b-bf90-51e6-a99d-61ff7fb2ccd3",
+      "Photographic technical occupation group (code 586)",
+    ],
+    ["a15fd142-6a21-5755-b44d-35b9ef01ef94", "Wire chief, telephone and telegraph"],
+    [
+      "50cb8eec-6837-550f-a84e-64c7678691d5",
+      "Stamping occupations in mechanical treatment of metals",
+    ],
+    ["5964f10d-a1c7-5236-a2df-8fddbcf27615", "Photographer or retouching artist (code 157)"],
+  ];
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+
+  await page.goto("./people/50cb8eec-6837-550f-a84e-64c7678691d5/");
+  await expect(page.locator("main")).toContainText("Mario F. Battipede");
+  await expect(
+    page.getByRole("link", { name: /Code Lists and Sample Dump/ }).first(),
+  ).toHaveAttribute("href", /NARAprodstorage/);
+
+  await page.goto("./people/02405d09-994f-58b8-88d1-21b7be15dfaa/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Ann Battie Horvitz");
+  await expect(page.locator("main")).toContainText("counterintelligence analyst");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: /Ann Battie Horvitz/ }).first(),
+  ).toHaveAttribute("href", /washingtonpost\.com/);
+});

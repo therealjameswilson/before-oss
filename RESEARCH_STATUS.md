@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,416 people with a non-planned attempt | 23,941 person entities | 5.9145% |
+| Research-attempt coverage | 1,426 people with a non-planned attempt | 23,941 person entities | 5.9563% |
 | Verified-affiliation coverage | 266 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1111% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,365 people with an individual file-access/priority assessment | 23,941 person entities | 5.7015% |
+| Archival-review coverage | 1,375 people with an individual file-access/priority assessment | 23,941 person entities | 5.7433% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 92
-- Identity status `high_confidence`: 335
+- Identity status `confirmed`: 97
+- Identity status `high_confidence`: 336
 - Identity status `probable`: 47
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 6
-- Identity status `unresolved`: 23,435
+- Identity status `unresolved`: 23,429
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,525
+- `not_started`: 22,515
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
-- `occupation_only_found`: 77
-- `requires_archival_review`: 1,024
+- `occupation_only_found`: 82
+- `requires_archival_review`: 1,029
 - `completed`: 55
 - `conflicting_sources`: 5
 - `verified_employer_found`: 157
@@ -65,7 +65,7 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 840
+- Reviewed-web terminal-protocol attempts recorded: 850
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -82,12 +82,12 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 472 across 452 people; 30 additional
+- Saved `source_reviewed` outcomes: 478 across 458 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,449
+- Total recorded attempts/plans: 2,459
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 456; 438 have at least one public-eligible
+- People with saved reviewed claims: 462; 444 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1779,11 +1779,31 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
   Unfamiliar `CSP P A` and `PHOM 1` text remains unexpanded. No authenticated
   Catalog request, credential, raw API response, or full private identifier was
   used or published.
-- Published affiliations: 551
-- Database claims: 1,089; public-visible claims: 1,064 (196 confirmed, 715 high,
-  147 medium, 6 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,202; private source records: 2,097; public source export:
-  1,120; unique source documents: 909
+- Batch 161 covers the final nine rows on page twenty-six, Johnnie Batten
+  through Eugene T. Bauer, and the first row on page twenty-seven, Frederick A.
+  Bauer. All ten rows were visually checked at 180 dpi and original resolution.
+  The strict bundle imports six sources, five affiliations, eleven claims,
+  thirty-two claim-source links, ten person updates, and ten terminal research
+  attempts; direct repeat import and a clean rebuild produced the same counts.
+  Exact private-identifier matches to NARA's official Army enlistment merged
+  file confirm Johnnie Batten, William A. Battenfield, Kenneth A. Battersby,
+  Marion F. Battipede, and Frederick A. Bauer. Their records support only
+  qualified occupation findings and name no employer. The Marion/Mario
+  Battipede discrepancy is preserved as a documented source or conversion
+  variance. A Washington Post obituary supports a high-confidence Ann Battie
+  Horvitz identity and explicit OSS service, but its undated Vassar statement
+  is not converted into an employer or pre-OSS student claim. Margaret R.
+  Battersby, Lawrence H. Battistini, Henry C. Bauch, and Eugene T. Bauer remain
+  unresolved and route to Box 42 review. The historian Lawrence Henry
+  Battistini remains a rejected namesake candidate pending direct file linkage.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, sensitive personal detail, or discovery-only employer claim was
+  used or published.
+- Public-visible affiliations: 556
+- Database claims: 1,100; public-visible claims: 1,075 (201 confirmed, 716 high,
+  152 medium, 6 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,234; private source records: 2,103; public source export:
+  1,126; unique source documents: 913
 - Canonical organizations: 311 private and 308 public
 - Conflicting claims: 6
 - NARA pull-list rows: 23,821
