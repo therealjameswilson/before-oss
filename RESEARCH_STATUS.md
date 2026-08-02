@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,436 people with a non-planned attempt | 23,941 person entities | 5.9981% |
+| Research-attempt coverage | 1,446 people with a non-planned attempt | 23,941 person entities | 6.0398% |
 | Verified-affiliation coverage | 267 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1152% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,385 people with an individual file-access/priority assessment | 23,941 person entities | 5.7851% |
+| Archival-review coverage | 1,395 people with an individual file-access/priority assessment | 23,941 person entities | 5.8268% |
 
 ## Extraction and identity
 
@@ -21,16 +21,16 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 100
+- Identity status `confirmed`: 103
 - Identity status `high_confidence`: 338
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 6
-- Identity status `unresolved`: 23,423
+- Identity status `unresolved`: 23,420
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,498
+- Unknown or indeterminate: 16,497
 - Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
@@ -38,22 +38,23 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,463
 - Foreign or Allied military personnel: 245
-- Enlisted naval personnel: 54
+- Enlisted naval personnel: 55
 - Commissioned naval officers: 81
 - Warrant officers: 5
+- Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,169 yes; 5,048 no; 16,724 indeterminate.
+Commissioned classification: 2,169 yes; 5,049 no; 16,723 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,505
+- `not_started`: 22,495
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
-- `occupation_only_found`: 85
-- `requires_archival_review`: 1,036
+- `occupation_only_found`: 88
+- `requires_archival_review`: 1,043
 - `completed`: 55
 - `conflicting_sources`: 5
 - `verified_employer_found`: 157
@@ -65,7 +66,7 @@ Commissioned classification: 2,169 yes; 5,048 no; 16,724 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 860
+- Reviewed-web terminal-protocol attempts recorded: 870
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -82,12 +83,12 @@ Commissioned classification: 2,169 yes; 5,048 no; 16,724 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 483 across 463 people; 31 additional
+- Saved `source_reviewed` outcomes: 486 across 466 people; 31 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,469
+- Total recorded attempts/plans: 2,479
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 467; 449 have at least one public-eligible
+- People with saved reviewed claims: 470; 452 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1817,11 +1818,30 @@ Commissioned classification: 2,169 yes; 5,048 no; 16,724 indeterminate.
   unresolved and route to Box 42 review. No authenticated Catalog request,
   credential, raw API response, full private identifier, sensitive personal
   detail, or discovery-only employer claim was used or published.
-- Public-visible affiliations: 562
-- Database claims: 1,111; public-visible claims: 1,086 (204 confirmed, 719 high,
-  157 medium, 6 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,265; private source records: 2,112; public source export:
-  1,135; unique source documents: 918
+- Batch 163 covers the next ten visually checked page-twenty-seven rows, Arthur
+  V. Bauman through Charles Baumler. The strict bundle imports eight sources,
+  three affiliations, six claims, twenty-one claim-source links, ten person
+  updates, and ten terminal research attempts; repeat import remained
+  idempotent. Exact private-identifier matches to NARA's official Army
+  enlistment merged file confirm Arthur V. Bauman, Howard E. Baumgardner, and
+  Theodore Baumgold, but support qualified occupation categories rather than
+  named employers. Howard's Clark County veterans record directly documents
+  OSS and Tank Destroyer service while preserving a visible date disagreement:
+  it reports 11 August 1943, whereas the Army file reports 21 July 1943.
+  Theodore's 1945 OSS award record and published obituary independently support
+  the exact identity and OSS service. Bernard N. Baumann is correctly
+  classified as enlisted naval personnel from the printed `M 2/c` and `Navy`
+  fields, while the unfamiliar rating remains unexpanded. Carol J. Bauman,
+  Harriet Bauman, Julia M. Bauman, Bernard N. Baumann, Harry A. Baumann, Louis
+  Baumgarten, and Charles Baumler remain unresolved and route to Box 43 review.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, sensitive personal detail, or discovery-only employer claim was
+  used or published.
+- Public-visible affiliations: 565
+- Database claims: 1,117; public-visible claims: 1,092 (207 confirmed, 719 high,
+  160 medium, 6 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,286; private source records: 2,120; public source export:
+  1,142; unique source documents: 922
 - Canonical organizations: 312 private and 309 public
 - Conflicting claims: 6
 - NARA pull-list rows: 23,821
@@ -1865,6 +1885,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-arthur-bauman-through-charles-baumler-pathways_batch-163_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-joseph-bauer-through-warren-baum-pathways_batch-162_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-six-robert-bates-through-battaglio-pathways_batch-160_2026-08-02.json
 python3 -m oss_research nara-check

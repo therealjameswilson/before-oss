@@ -14514,3 +14514,97 @@ test("Batch 162 preserves Bauer and Baum occupation ambiguity, Baugh's Army path
   await expect(page.getByRole("heading", { name: "Columbia University", exact: true })).toBeVisible();
   await expect(page.locator("h3").getByRole("link", { name: "Warren C Baum", exact: true })).toBeVisible();
 });
+
+test("Batch 163 preserves Bauman through Baumler occupation ambiguity, date conflict, and archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e00442b2-557b-5bd9-aceb-affdf8826826", "Arthur V Bauman", "T-5"],
+    ["2cd8e079-e25d-5dc0-9053-989a70b39c1c", "Carol J Bauman", "Caf-3"],
+    ["110eda9f-a54a-50f7-8083-05508c5c3f02", "Harriet Bauman", "Not printed"],
+    ["fd0f0634-498b-5ad1-8cb7-e905afc93d59", "Julia M Bauman", "Caf-3"],
+    ["31ccd61b-7103-5dfe-9469-bcda426a69bf", "Bernard N Baumann", "M 2/c"],
+    ["e4df586d-5cb9-5ea6-a21a-f71ca5adfccb", "Harry A Baumann", "Not printed"],
+    ["5348a99f-561d-57e6-abde-fb57840262aa", "Howard E Baumgardner", "Pfc"],
+    ["5f675c46-177b-5187-8d8a-698490e6cf06", "Louis Baumgarten", "Not printed"],
+    ["339e2424-9b24-5c1d-9901-240e5c7d9df0", "Theodore Baumgold", "M/Sgt"],
+    ["744169d7-9294-5a25-aad8-b350d33dcd45", "Charles Baumler", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("43", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 27");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "2cd8e079-e25d-5dc0-9053-989a70b39c1c",
+    "110eda9f-a54a-50f7-8083-05508c5c3f02",
+    "fd0f0634-498b-5ad1-8cb7-e905afc93d59",
+    "31ccd61b-7103-5dfe-9469-bcda426a69bf",
+    "e4df586d-5cb9-5ea6-a21a-f71ca5adfccb",
+    "5f675c46-177b-5187-8d8a-698490e6cf06",
+    "744169d7-9294-5a25-aad8-b350d33dcd45",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const occupationProfiles = [
+    [
+      "e00442b2-557b-5bd9-aceb-affdf8826826",
+      "Translator, classification specialist, job analyst, interpreter, or employment interviewer",
+    ],
+    [
+      "5348a99f-561d-57e6-abde-fb57840262aa",
+      "Repair or maintenance trade (code 583; exact occupation indeterminate)",
+    ],
+    [
+      "339e2424-9b24-5c1d-9901-240e5c7d9df0",
+      "Telephone/telegraph installer-repairman, chief clerk, railway-shop dispatcher, production manager, or entertainment director",
+    ],
+  ];
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+
+  await page.goto("./people/5348a99f-561d-57e6-abde-fb57840262aa/");
+  await expect(page.locator("main")).toContainText("21 July 1943");
+  await expect(page.locator("main")).toContainText("11 August 1943");
+  await expect(page.locator("main")).toContainText("Tank Destroyer, OSS");
+  await expect(
+    page.getByRole("link", { name: "Clark County, Ohio Veterans", exact: true }).first(),
+  ).toHaveAttribute("href", /heritagecenter\.us/);
+
+  await page.goto("./people/339e2424-9b24-5c1d-9901-240e5c7d9df0/");
+  await expect(page.locator("main")).toContainText("Battle Participation Awards");
+  await expect(
+    page.getByRole("link", { name: "Theodore Baumgold Obituary", exact: true }).first(),
+  ).toHaveAttribute("href", /legacy\.com/);
+
+  await page.goto("./people/31ccd61b-7103-5dfe-9469-bcda426a69bf/");
+  await expect(page.locator("main")).toContainText("enlisted naval personnel");
+  await expect(page.locator("main")).toContainText("printed rating M 2/c");
+});

@@ -12,8 +12,29 @@ The build includes 23,941 person profiles, 309 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,812 unique external URLs for separate live
+The checker inventoried 48,814 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 163 local release check
+
+The complete 24,258-page internal-link pass includes direct routes for Arthur
+V. Bauman, Carol J. Bauman, Harriet Bauman, Julia M. Bauman, Bernard N.
+Baumann, Harry A. Baumann, Howard E. Baumgardner, Louis Baumgarten, Theodore
+Baumgold, and Charles Baumler. The Batch 163 regression passed at desktop,
+phone, and tablet sizes. Three official-record occupation findings remain
+distinct from employers; Howard Baumgardner's exact 1943 date disagreement is
+visible; Bernard Baumann's printed Navy rating is preserved without speculative
+expansion; and seven unresolved profiles retain Box 43 archival-review
+guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`4aba95e2997fffbb529a77b2b43b11703a6adf82a1713591ca4567a5651d0aa7`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`185110f399fdfc5ade3df105fad5a211b8926548b2fcdb63b6586e71024a0f14`.
+The boundary-aware audit reviewed 996 candidate substrings across 24,328 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 162 local release check
 
