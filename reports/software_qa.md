@@ -3315,6 +3315,23 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
 
+## Batch 133 production workflow audit
+
+GitHub test workflow
+[30724577620](https://github.com/therealjameswilson/before-oss/actions/runs/30724577620)
+completed successfully for release `24567fa`. Its 10-minute 24-second job
+repeated the 55 / 55 Python suite, deterministic 24,235-page static build, and
+complete 444 / 444 Playwright, responsive, and accessibility matrix. Pages
+workflow
+[30724577626](https://github.com/therealjameswilson/before-oss/actions/runs/30724577626)
+also completed successfully: its build produced and uploaded the static
+artifact, and the deploy job published it to GitHub Pages.
+
+The workflows emitted one non-failing platform annotation: pinned GitHub
+Actions that still declare Node.js 20 were forced by the runner to Node.js 24.
+The repository's test job explicitly uses Node.js 24; no research, build,
+browser, accessibility, or deployment step failed.
+
 ## Batch 133 local release QA
 
 Batch 133 adds the ten page-twenty people from Maurice Ball through Harry W.

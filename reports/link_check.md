@@ -3518,3 +3518,30 @@ citation is an intentional external link to a specialist secondary roster; the
 page labels the identity probable and retains the primary-record next action.
 No authenticated Catalog URL or credential-bearing request is present in the
 static site.
+
+## Batch 133 production deployment
+
+GitHub Actions test workflow
+[30724577620](https://github.com/therealjameswilson/before-oss/actions/runs/30724577620)
+and Pages workflow
+[30724577626](https://github.com/therealjameswilson/before-oss/actions/runs/30724577626)
+completed successfully for release `24567fa`.
+
+All 17 production routes returned HTTP 200 and matched the audited local HTML
+after plain and URL-encoded canonical-host normalization: seven core
+publication routes and all ten Batch 133 profiles. Thirteen profile-specific
+checks confirmed every indexed name and Frank L. Ballante's visibly probable,
+non-employer Operational Groups evidence.
+
+The deployed manifest matched the local release byte-for-byte. All 65
+manifest assets matched their recorded and local sizes, SHA-256 values, and
+bytes; the manifest SHA-256 is
+`3173c5a402d70fabd354f7fff9e38b186217b7a4d0071e74feab5e9c2e06a1fd`.
+The five live downloads contain 23,941 personnel CSV rows, 23,941 personnel
+JSONL rows, 286 organizations, 498 affiliations, and 1,001 sources.
+
+A boundary-aware live scan compared 12,919 normalized private identifiers and
+121 formatted raw variants against the manifest, 17 HTML routes, 65 data and
+compressed assets, and five downloads—88 fetched production artifacts in all.
+It found zero full boundary matches. Production therefore independently
+confirms the exhaustive local redaction result.

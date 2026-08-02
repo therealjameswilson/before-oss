@@ -2012,3 +2012,12 @@ viewport—reported no serious accessibility violations. Keyboard navigation,
 visible focus, semantic headings, labeled controls, direct routes, responsive
 tables and profiles, search and filter URL state, print behavior, and public
 identifier masking therefore remain covered by the full regression suite.
+
+GitHub test workflow
+[30724577620](https://github.com/therealjameswilson/before-oss/actions/runs/30724577620)
+repeated the complete 444 / 444 browser, responsive, and accessibility matrix
+for release `24567fa` and completed successfully. All 17 audited production
+routes returned HTTP 200 and matched their audited local accessible HTML after
+plain and URL-encoded canonical-host normalization. The non-failing GitHub
+annotation about pinned actions being forced from Node.js 20 to Node.js 24 did
+not affect any browser or axe result.
