@@ -5,44 +5,95 @@ Run: 2026-08-02 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,246 pages**
-- Internal link check: **24,246 HTML files passed**
-- Browser and accessibility suite: **495 / 495 passed** across desktop, phone,
-  and tablet, including **27 / 27** dedicated axe cases; the focused Batch 150
+- Static production build: **24,247 pages**
+- Internal link check: **24,247 HTML files passed**
+- Browser and accessibility suite: **498 / 498 passed** across desktop, phone,
+  and tablet, including **27 / 27** dedicated axe cases; the focused Batch 151
   regression also passed **3 / 3** at the same viewport profiles
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`930466e755b5f859c3031ee631ca9162dc0213c79029fbbf7db394503c55ef89`)
-- Latest deterministic build (Batch 150): **byte-for-byte identical** across
-  consecutive static builds and all **24,316** built-site artifacts.
+  (`eb40baf1fc983e26db1fa58295f4290f14a81882440405747c82b374314fc7ad`)
+- Latest deterministic build (Batch 151): **byte-for-byte identical** across
+  consecutive static builds and all **24,317** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `12eab529b8f1e48acc3e16a9b5054b1907956c2d0572b3ccffede055a26d3b96`
+  `4c4554aee8b69f1018123058cb1817c9107ab00361e6322ae0d38e41bb68a381`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,316** production artifacts, including compressed mirrors
+  matches** in **24,317** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,068** public records representing **870** unique documents
-- Private citation records: **2,017**
-- Published, qualified affiliations: **528**
-- Published or conflict-visible claims: **1,020**
+- Reviewed public sources: **1,075** public records representing **875** unique documents
+- Private citation records: **2,032**
+- Published, qualified affiliations: **529**
+- Published or conflict-visible claims: **1,023**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **258** people with confirmed/high published
+- Verified-affiliation metric: **259** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **148** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 148 production verification: **passed**
-- Batch 150 local release checks: **passed**; the final combined **495-case**
-  browser matrix runs in release CI
+- Batch 151 local release checks: **passed**; the combined **498-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 151 local release QA
+
+Batch 151 adds the ten visually checked page-twenty-four rows from Jean M.
+Barrett through Robert F. Barrick. The strict evidence bundle imports 15
+sources, one organization, one affiliation, three claims, ten claim-source
+links, ten person updates, and ten terminal research attempts. Raymond J.
+Barriault receives a high-confidence identity while his employer remains
+unresolved. Robert F. Barrick receives a high-confidence identity and a
+documented-prewar Camp Ritchie military assignment; the evidence does not make
+that assignment immediate or civilian employment. The other eight profiles
+remain unresolved and route to Box 39.
+
+The evidence importer passed Pydantic validation and the complete rebuild
+replayed every durable input. SQLite `quick_check` returned `ok`, the foreign-
+key check returned zero rows, and the deterministic 200-profile audit passed
+every invariant. The Python suite passed 55 / 55. All 498 browser and
+accessibility cases passed across fresh viewport-project server processes,
+including 27 / 27 dedicated axe cases; the focused Batch 151 regression passed
+3 / 3. Astro reported zero errors, warnings, or hints and built 24,247 pages.
+The internal-link checker passed all 24,247 HTML pages and inventoried 48,767
+unique external URLs. The production dependency audit found zero
+vulnerabilities.
+
+Consecutive final builds produced the identical directory-prefixed content-
+tree SHA-256
+`eb40baf1fc983e26db1fa58295f4290f14a81882440405747c82b374314fc7ad`
+across 24,317 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `4c4554aee8b69f1018123058cb1817c9107ab00361e6322ae0d38e41bb68a381`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against all artifacts, rejected 996 harmless substring
+coincidences, and found zero unexpected boundary matches. No authenticated
+Catalog request, API credential, or raw Catalog response was used.
+
+The Batch 151 database contains 2,360 durable research attempts, 2,032 private
+source records representing 875 unique documents, 300 organizations, 534
+affiliations, 1,044 claims, and 2,094 claim-source links. Claim confidence is
+189 confirmed, 690 high, 140 medium, 21 low, and four conflicting. The public
+projection contains 1,075 sources, 298 organizations, 529 affiliations, and
+1,023 published, qualified, or conflict-visible claims. Coverage distinguishes
+1,328 people with a non-planned research attempt, 259 with verified-affiliation
+evidence, 148 with verified employment or self-employment evidence, and 1,277
+whose archival-review need has been assessed.
+
+The first combined local Playwright invocation passed 357 cases before its
+preview process exited and the remaining tablet requests returned connection
+refused. A fresh complete tablet-project run passed 166 / 166, while the first
+run had already passed all 166 desktop and 166 phone cases. This isolates the
+event to the long-lived local preview process; no application assertion
+failure remains.
 
 ## Batch 150 local release QA
 

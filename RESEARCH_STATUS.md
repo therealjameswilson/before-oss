@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,318 people with a non-planned attempt | 23,941 person entities | 5.5052% |
-| Verified-affiliation coverage | 258 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0776% |
+| Research-attempt coverage | 1,328 people with a non-planned attempt | 23,941 person entities | 5.5470% |
+| Verified-affiliation coverage | 259 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0818% |
 | Verified-employer coverage | 148 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6182% |
-| Archival-review coverage | 1,267 people with an individual file-access/priority assessment | 23,941 person entities | 5.2922% |
+| Archival-review coverage | 1,277 people with an individual file-access/priority assessment | 23,941 person entities | 5.3339% |
 
 ## Extraction and identity
 
@@ -22,17 +22,17 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 85
-- Identity status `high_confidence`: 322
+- Identity status `high_confidence`: 324
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,455
+- Identity status `unresolved`: 23,453
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,503
+- Unknown or indeterminate: 16,502
 - Enlisted Army personnel: 3,515
-- Commissioned Army officers: 2,069
+- Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -42,18 +42,18 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Commissioned naval officers: 81
 - Warrant officers: 5
 
-Commissioned classification: 2,167 yes; 5,044 no; 16,730 indeterminate.
+Commissioned classification: 2,168 yes; 5,044 no; 16,729 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,623
+- `not_started`: 22,613
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 71
-- `requires_archival_review`: 937
+- `requires_archival_review`: 947
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 152
@@ -82,12 +82,12 @@ Commissioned classification: 2,167 yes; 5,044 no; 16,730 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 451 across 431 people; 30 additional
+- Saved `source_reviewed` outcomes: 453 across 433 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,350
+- Total recorded attempts/plans: 2,360
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 436; 418 have at least one public-eligible
+- People with saved reviewed claims: 438; 416 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1658,6 +1658,25 @@ Commissioned classification: 2,167 yes; 5,044 no; 16,730 indeterminate.
   lead were rejected for insufficient identity anchors. No authenticated
   Catalog request, credential, raw response, full private identifier, sensitive
   family detail, or discovery-only employer claim was used or published.
+- Batch 151 continues page twenty-four from Jean M. Barrett through Robert F.
+  Barrick. All ten rows were visually checked at 300 dpi and original
+  resolution. The strict bundle imports 15 sources, one organization, one
+  affiliation, three claims, ten claim-source links, ten person updates, and
+  ten terminal research attempts; replaying the complete build produced the
+  same counts. Raymond J. Barriault receives a high-confidence identity from
+  the exact rare name, matching middle initial, Hudson association, and an
+  explicit OSS listing, but no reviewed source establishes a pre-OSS employer.
+  Robert F. Barrick receives a high-confidence identity and a documented-prewar
+  Camp Ritchie military assignment as post engineer and superintendent. The
+  reviewed evidence does not establish that Camp Ritchie immediately preceded
+  OSS service, so it is neither marked immediate nor treated as civilian
+  employment. Jean M. Barrett, John A. Barrett, Neil H. Barrett, Norman W.
+  Barrett, Robert A. Barrett, Walter J. Barrett, William B. Barrett, and William
+  G. Barrett remain unresolved and route to Box 39 review. A later Army Map
+  Service and Navy namesake was rejected for lack of OSS and indexed-grade
+  linkage. No authenticated Catalog request, credential, raw response, full
+  private identifier, sensitive family detail, or discovery-only employer
+  claim was used or published.
 - Batch 150 continues page twenty-four from Rodolfo Barragan through James R.
   Barrett. All ten rows were visually checked at 300 dpi and original
   resolution. The strict bundle imports 13 sources, one organization, one
@@ -1680,12 +1699,12 @@ Commissioned classification: 2,167 yes; 5,044 no; 16,730 indeterminate.
   for insufficient identity anchors. No authenticated Catalog request,
   credential, raw response, full private identifier, sensitive family detail,
   or discovery-only employer claim was used or published.
-- Published affiliations: 528
-- Database claims: 1,041; public-visible claims: 1,020 (189 confirmed, 687 high,
+- Published affiliations: 529
+- Database claims: 1,044; public-visible claims: 1,023 (189 confirmed, 690 high,
   140 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,084; private source records: 2,017; public source export:
-  1,068; unique source documents: 870
-- Canonical organizations: 299 private and 297 public
+- Citation links: 2,094; private source records: 2,032; public source export:
+  1,075; unique source documents: 875
+- Canonical organizations: 300 private and 298 public
 - Conflicts: 5
 - NARA pull-list rows: 23,826
 

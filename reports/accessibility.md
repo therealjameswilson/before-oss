@@ -4,17 +4,21 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 495 / 495 complete browser cases plus a focused 3 / 3 Batch 150
-profile regression across desktop, phone, and tablet; the full matrix includes
+**PASS - 498 / 498 browser cases plus a focused 3 / 3 Batch 151
+profile regression across desktop, phone, and tablet; the matrix includes
 27 / 27 dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The complete Batch 150 matrix completed without an assertion, navigation, or
-serious/critical axe failure. The focused Batch 150 profile test also passed at
-all three viewport profiles. All 27 dedicated axe cases passed. Release CI runs
-the combined 495-case matrix.
+All 498 cases passed when the three viewport projects used fresh preview-server
+processes. The first combined local invocation passed all 166 desktop cases,
+all 166 phone cases, and 25 tablet cases before the preview process exited; the
+resulting connection-refused cascade was isolated by rerunning the complete 166-
+case tablet project successfully. No product assertion, navigation, or
+serious/critical axe failure remained. The focused Batch 151 profile test also
+passed at all three viewport profiles. All 27 dedicated axe cases passed.
+Release CI runs the combined 498-case matrix.
 
 Routes tested at all three sizes:
 
@@ -33,7 +37,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-148-person employer measure is labeled separately from the 258-person broader
+148-person employer measure is labeled separately from the 259-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -43,6 +47,15 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 151 adds direct desktop, phone, and tablet checks for Jean M. Barrett
+through Robert F. Barrick on page twenty-four. It verifies all ten source rows,
+Box 39 routing, preserved civilian grades and military ranks, and masked
+identifier display. Raymond J. Barriault's profile publishes only the qualified
+high-confidence OSS identity and leaves the employer fields unresolved. Robert
+F. Barrick's profile presents Camp Ritchie as an earlier documented military
+assignment, not an immediate affiliation or civilian employer, with official
+and institutional citations. The other eight profiles retain explicit no-
+result language and archival-review guidance without namesake fact transfer.
 Batch 150 adds direct desktop, phone, and tablet checks for Rodolfo Barragan
 through James R. Barrett on page twenty-four. It verifies all ten source rows,
 Box 38 or Box 39 routing, printed ranks and grades, the printed French note, and

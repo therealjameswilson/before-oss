@@ -13451,3 +13451,85 @@ test("Batch 150 preserves Barragan through Barrett rows and publishes Barrett's 
     /paw\.princeton\.edu/,
   );
 });
+
+test("Batch 151 preserves Barrett through Barrick rows and publishes reviewed identity pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["79ebecda-5c7f-51fb-a097-b11b89aea54b", "Jean M Barrett", "CPC-2"],
+    ["091f8be1-7746-54be-80ba-2045524ffbcb", "John A Barrett", "CPC-3"],
+    ["345c6a10-8c42-59d8-b224-86033e546bf6", "Neil H Barrett", "Sgt"],
+    ["dcfc63a5-add6-5fed-af12-cc5cbe65a7dc", "Norman W Barrett", "T-5"],
+    ["dd94eb0b-8a15-5fb8-ad8f-30333aa9eaf5", "Robert A Barrett", "Not printed"],
+    ["376c91ef-9f27-542c-8f8c-6df4571f51b1", "Walter J Barrett", "Cpl"],
+    ["8366d3e4-c400-55ba-accb-c2094f617272", "William B Barrett", "Not printed"],
+    ["5abb4658-bdb4-52ea-ad33-97f7d4937f43", "William G Barrett", "2nd Lt"],
+    ["1755129a-ba34-51ba-b8c2-1b559bd1072c", "Raymond J Barriault", "T-5"],
+    ["f6d99e09-5592-58c7-a079-4d6cb2b68460", "Robert F Barrick", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("39", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 24");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = allProfiles.filter(
+    ([personId]) =>
+      personId !== "1755129a-ba34-51ba-b8c2-1b559bd1072c" &&
+      personId !== "f6d99e09-5592-58c7-a079-4d6cb2b68460",
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/1755129a-ba34-51ba-b8c2-1b559bd1072c/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Hudson, New Hampshire veteran");
+  await expect(
+    page.getByRole("link", { name: /NH for Hillary Announces Over 500 Veterans/ }).first(),
+  ).toHaveAttribute("href", /presidency\.ucsb\.edu/);
+  await expect(
+    page.getByRole("link", { name: /Hudson, NH Surname Index of Vital Information/ }).first(),
+  ).toHaveAttribute("href", /rememberhudsonnhwhen\.com/);
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/f6d99e09-5592-58c7-a079-4d6cb2b68460/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Camp Ritchie",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Post engineer and superintendent",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: /Fort \(Camp\) Ritchie Historic District/ }).first(),
+  ).toHaveAttribute("href", /apps\.mht\.maryland\.gov/);
+  await expect(
+    page.getByRole("link", { name: /Maryland National Guard, Camp Ritchie/ }).first(),
+  ).toHaveAttribute("href", /whilbr\.org/);
+});

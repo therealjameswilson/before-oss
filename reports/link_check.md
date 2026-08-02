@@ -4,16 +4,38 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,246 HTML files. Every relative
+**PASS.** The production build contains 24,247 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 297 organization profiles, and the
+The build includes 23,941 person profiles, 298 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,761 unique external URLs for separate live
+The checker inventoried 48,767 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 151 local release check
+
+The complete 24,247-page internal-link pass includes direct routes for Jean M.
+Barrett, John A. Barrett, Neil H. Barrett, Norman W. Barrett, Robert A. Barrett,
+Walter J. Barrett, William B. Barrett, William G. Barrett, Raymond J. Barriault,
+and Robert F. Barrick. The focused browser regression opened all ten profiles at
+desktop, phone, and tablet sizes and passed 3 / 3. Eight unresolved profiles
+retain their visually verified page-24 values and Box 39 archival paths.
+Barriault's qualified identity evidence does not become an employer. Barrick's
+Camp Ritchie role is presented only as an earlier military assignment, not as
+an immediate affiliation or civilian employer.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`4c4554aee8b69f1018123058cb1817c9107ab00361e6322ae0d38e41bb68a381`.
+Consecutive production builds produced the same directory-prefixed content-
+tree SHA-256,
+`eb40baf1fc983e26db1fa58295f4290f14a81882440405747c82b374314fc7ad`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,317 public artifacts, rejected 996 harmless
+substrings, and found zero unexpected boundary matches.
 
 ## Batch 150 local release check
 
