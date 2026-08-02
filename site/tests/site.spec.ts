@@ -12911,3 +12911,72 @@ test("Batch 142 preserves Barker through Barkley rows and qualifies Mayno and Wi
   await page.goto("./people/6f587914-2396-5988-825f-88b13b72d9e9/");
   await expect(page.locator("main")).toContainText("CPC-5");
 });
+
+test("Batch 143 preserves Barkley through Barnabe rows and separates Barmine's civilian and military pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["e148d0b2-1c39-5024-b5ca-2a659cbbf2d3", "Mabel Barkley", "Page 22"],
+    ["c1c5716f-cc6c-5ca8-b36c-8ea9a0ff2aa9", "Merle C Barkley", "Page 22"],
+    ["da7c225f-8f79-5de5-a567-75b6a14ad220", "William M Barlet", "Page 22"],
+    ["bfb71f5d-e0e1-589f-aef0-92bb257dc22b", "Angelo Barlotta", "Page 22"],
+    ["fb6387af-592c-5b94-9103-70e46c77bd49", "Alice D Barlow", "Page 22"],
+    ["2c5b7758-3a35-5c90-b19e-d8e51975c44f", "William H Barlow", "Page 22"],
+    ["d47671fd-a1ad-5246-bec6-11f9915f509c", "Hyman A Barmack", "Page 23"],
+    ["e0892485-de88-5018-9b8a-aa5aa61a00ed", "Howard W Barmes", "Page 23"],
+    ["d7c214c1-914d-5725-b947-943ca4ece775", "Alexander Barmine", "Page 23"],
+    ["1feb8610-3057-519e-8bea-196e61bd1d6a", "Camille A Barnabe", "Page 23"],
+  ];
+
+  for (const [personId, displayName, sourcePage] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("36", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(sourcePage);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of allProfiles
+    .map(([personId]) => personId)
+    .filter((personId) => personId !== "d7c214c1-914d-5725-b947-943ca4ece775")) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/d7c214c1-914d-5725-b947-943ca4ece775/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "National Broadcasting Company",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "medium",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Self-employed",
+  );
+  await expect(page.locator("main")).toContainText("freelance writer");
+  await expect(page.locator("main")).toContainText("dates the OSS service from 1943");
+  await expect(page.locator("main")).not.toContainText("Voice of America — employer");
+  await expect(
+    page.getByRole("link", { name: /Summary of Information: Alexander Barmine/ }).first(),
+  ).toHaveAttribute("href", /cia\.gov\/readingroom/);
+  await expect(
+    page.getByRole("link", { name: /A Counterintelligence Reader/ }).first(),
+  ).toHaveAttribute("href", /irp\.fas\.org/);
+});

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,240 people with a non-planned attempt | 23,941 person entities | 5.1794% |
-| Verified-affiliation coverage | 251 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0484% |
-| Verified-employer coverage | 143 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5973% |
-| Archival-review coverage | 1,188 people with an individual file-access/priority assessment | 23,941 person entities | 4.9622% |
+| Research-attempt coverage | 1,250 people with a non-planned attempt | 23,941 person entities | 5.2212% |
+| Verified-affiliation coverage | 252 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0526% |
+| Verified-employer coverage | 144 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6015% |
+| Archival-review coverage | 1,198 people with an individual file-access/priority assessment | 23,941 person entities | 5.0040% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 84
-- Identity status `high_confidence`: 314
+- Identity status `high_confidence`: 315
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,464
+- Identity status `unresolved`: 23,463
 
 ## Personnel categories
 
@@ -46,17 +46,17 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,701
+- `not_started`: 22,691
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 70
-- `requires_archival_review`: 866
+- `requires_archival_review`: 875
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 145
+- `verified_employer_found`: 146
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 672
+- Reviewed-web terminal-protocol attempts recorded: 682
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 442 across 422 people; 30 additional
+- Saved `source_reviewed` outcomes: 443 across 423 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,271
+- Total recorded attempts/plans: 2,281
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 427; 409 have at least one public-eligible
+- People with saved reviewed claims: 428; 410 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1520,14 +1520,31 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   merged. No authenticated Catalog request, credential, raw response, full
   private identifier, home address, people-finder record, or discovery-only
   employer claim was used or published.
-- Published affiliations: 512
-- Database claims: 1,013; public-visible claims: 992 (188 confirmed, 664 high,
-  136 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,030; private source records: 1,922; public source export:
-  1,043; unique source documents: 854
+- Batch 143 continues the printed sequence across page twenty-two and page
+  twenty-three from Mabel Barkley through Camille A. Barnabe. All ten rows
+  were visually checked at 300 dpi and original resolution. The strict bundle
+  imports 12 sources, three reused organizations, three affiliations, four
+  claims, nine claim-source links, ten person updates, and ten terminal
+  research attempts. Nine identities remain unresolved and route to Box 36
+  review. The distinctive Alexander Barmine row receives a high-confidence
+  identity from a 1942 subject-specific security summary and National
+  Counterintelligence Center history. The United States Army is published as
+  his high-confidence immediate pre-OSS military assignment. NBC is separately
+  shown as his medium-confidence, qualified probable last civilian employer,
+  and his freelance magazine writing is published only as earlier documented
+  self-employment. No Army rank, unit, magazine client, transition date, or
+  postwar Voice of America job is inferred into the pre-OSS fields. No
+  authenticated Catalog request, credential, raw response, full private
+  identifier, home address, people-finder record, or discovery-only employer
+  claim was used or published.
+- Published affiliations: 515
+- Database claims: 1,017; public-visible claims: 996 (188 confirmed, 667 high,
+  137 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 2,039; private source records: 1,934; public source export:
+  1,046; unique source documents: 856
 - Canonical organizations: 292 private and 290 public
 - Conflicts: 5
-- NARA pull-list rows: 23,833
+- NARA pull-list rows: 23,832
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

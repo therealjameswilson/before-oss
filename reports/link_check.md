@@ -12,8 +12,44 @@ The build includes 23,941 person profiles, 290 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,740 unique external URLs for separate live
+The checker inventoried 48,742 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 143 local release check
+
+The complete 24,239-page internal-link pass includes direct routes for Mabel
+Barkley, Merle C. Barkley, William M. Barlet, Angelo Barlotta, Alice D. Barlow,
+William H. Barlow, Hyman A. Barmack, Howard W. Barmes, Alexander Barmine, and
+Camille A. Barnabe. The focused browser regression opened all ten profiles at
+desktop, phone, and tablet sizes, and the full browser/accessibility matrix
+passed 474 / 474. Barmine's claim links target the official CIA security
+summary and National Counterintelligence Center history preserved by the
+Federation of American Scientists. The site separates his Army assignment,
+qualified NBC employment, and freelance writing and does not import his later
+Voice of America career into the pre-OSS fields.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`3eb4f2560678c859eaff0f4d1b16c7695af66c90b7666495dd85fda8016a82d5`.
+Consecutive complete production builds produced the same artifact-tree
+SHA-256, `322a5203fe77653689700c4bb030c1ec299f86ed6808907f8aa074ad952d877b`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,309 public artifacts, rejected 997 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 142 production check
+
+GitHub Actions test workflow
+[30735732352](https://github.com/therealjameswilson/before-oss/actions/runs/30735732352)
+and Pages workflow
+[30735732403](https://github.com/therealjameswilson/before-oss/actions/runs/30735732403)
+completed successfully for release `f688125`. All seven core routes and all ten
+Batch 142 profiles returned HTTP 200. All 65 deployed manifest assets matched
+their recorded sizes, SHA-256 values, and local bytes. The live manifest
+SHA-256 is
+`73611a5ff5b31bb98e35f35ed96408abbb017dd0b91cd063e8337fde180b7c56`.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 142 local release check
 
