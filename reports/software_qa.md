@@ -5,42 +5,114 @@ Run: 2026-08-02 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,239 pages**
-- Internal link check: **24,239 HTML files passed**
-- Browser and accessibility suite: **483 / 483 passed** across desktop, phone,
+- Static production build: **24,244 pages**
+- Internal link check: **24,244 HTML files passed**
+- Browser and accessibility suite: **486 / 486 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`a6674c891a41d5abaa61dd0bb663f7d211a4de08a9a6957c48ad9a0e5b3c39ef`)
-- Latest deterministic build (Batch 146): **byte-for-byte identical** across
-  consecutive static builds and all **24,309** built-site artifacts.
+  (`237ca0e63701111e53d19eaf93ab86fd074b3b6bd73dad70956b356be252bc51`)
+- Latest deterministic build (Batch 147): **byte-for-byte identical** across
+  consecutive static builds and all **24,314** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `46a7af7087fefdfef40a3da1c2d9cd1cc0e9544d2d63d85fc7f0d1cf58b5c705`
+  `f1b0fd1f92f9a52d650bf807674041881244296c619db056554520e4f79d0cc1`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,309** production artifacts, including compressed mirrors
+  matches** in **24,314** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,049** public records representing **859** unique documents
-- Private citation records: **1,966**
-- Published, qualified affiliations: **515**
-- Published or conflict-visible claims: **997**
+- Reviewed public sources: **1,053** public records representing **861** unique documents
+- Private citation records: **1,978**
+- Published, qualified affiliations: **522**
+- Published or conflict-visible claims: **1,006**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **252** people with confirmed/high published
+- Verified-affiliation metric: **254** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **144** people with confirmed/high published
+- Verified-employer metric: **146** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 146 local release checks: **passed**; production deployment verification
+- Batch 147 local release checks: **passed**; production deployment verification
   follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 147 local release QA
+
+Batch 147 adds the ten visually checked page-twenty-three rows from John S.
+Barnett through John M. Barnhart. The strict evidence bundle imports 12
+sources, seven organization definitions, seven affiliations, nine claims, 11
+claim-source links, ten person updates, and ten terminal research attempts.
+Eight identities remain unresolved and route to Box 37 or Box 38 review.
+Warren L. Barnette Jr. and Edward N. Barnhart receive high-confidence identity
+matches from authoritative institutional biographies. Barnette's U.S. Army
+assignment remains separate from three earlier prewar jobs whose evidence does
+not establish a last civilian employer. Barnhart's immediate Office of Facts
+and Figures government assignment, Reed College last civilian employment, and
+earlier Cleveland Museum of Art work remain three distinct evidence lanes.
+
+The evidence importer passed Pydantic validation and replayed idempotently
+twice. SQLite `quick_check` returned `ok`, and the foreign-key check returned
+zero rows. The Python suite passed 55 / 55. The focused Batch 147 regression
+passed 3 / 3 across desktop, phone, and tablet, and the complete browser,
+responsive, direct-route, search, and axe matrix passed 486 / 486 in 4.4
+minutes, including 27 / 27 dedicated axe cases. Astro reported zero errors,
+warnings, or hints and built 24,244 pages. The internal-link checker passed all
+24,244 HTML pages and inventoried 48,751 unique external URLs. The production
+dependency audit found zero vulnerabilities, and the deterministic 200-profile
+stratified audit passed every invariant.
+
+Consecutive final builds produced the identical length-delimited path-and-
+content SHA-256
+`237ca0e63701111e53d19eaf93ab86fd074b3b6bd73dad70956b356be252bc51`
+across 24,314 built artifacts. All 65 manifest assets matched their recorded
+sizes and SHA-256 values in the public source and built trees. The manifest's
+forbidden-field check passed, and the manifest SHA-256 is
+`f1b0fd1f92f9a52d650bf807674041881244296c619db056554520e4f79d0cc1`.
+A boundary-aware scan compared 12,919 normalized private identifiers and 121
+formatted variants against all 24,314 artifacts, rejected 997 substring
+coincidences, and found zero unexpected boundary matches. A separate scan of
+the Batch 147 evidence bundle also found zero candidate or boundary matches.
+No local `.env`, authenticated Catalog request, API credential, or raw Catalog
+response was used.
+
+The Batch 147 database contains 2,321 durable research attempts, 1,978 private
+source records representing 861 unique documents, 297 organizations, 527
+affiliations, 1,027 claims, and 2,053 claim-source links. Claim confidence is
+188 confirmed, 677 high, 137 medium, 21 low, and four conflicting. The public
+projection contains 1,053 sources, 295 organizations, 522 affiliations, and
+1,006 published, qualified, or conflict-visible claims. Coverage distinguishes
+1,290 people with a non-planned research attempt, 254 with verified-affiliation
+evidence, 146 with verified employment or self-employment evidence, and 1,238
+whose archival-review need has been assessed. Public downloads contain 23,941
+people, 295 organizations, 522 affiliations, and 1,053 sources.
+
+## Batch 146 production verification
+
+Release `bece86d` passed GitHub Actions test workflow
+[30739392884](https://github.com/therealjameswilson/before-oss/actions/runs/30739392884)
+and Pages workflow
+[30739392833](https://github.com/therealjameswilson/before-oss/actions/runs/30739392833).
+An independent production audit opened the seven core routes and all ten Batch
+146 profiles; all 17 returned HTTP 200 and contained the intended release
+content.
+
+The deployed manifest is byte-identical to the release manifest and has
+SHA-256
+`46a7af7087fefdfef40a3da1c2d9cd1cc0e9544d2d63d85fc7f0d1cf58b5c705`.
+All 65 deployed assets matched their recorded size and SHA-256 and the exact
+release bytes. Live downloads contain 23,941 personnel rows in both CSV and
+JSONL, 290 organizations, 515 affiliations, and 1,049 sources. A field-aware
+scan compared 12,919 normalized private identifiers and 121 formatted variants
+against the 65 data assets, manifest, and 17 live HTML pages: 574 harmless
+substring coincidences and zero unexpected full-number matches across all 83
+artifacts. The shareable site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 146 local release QA
 

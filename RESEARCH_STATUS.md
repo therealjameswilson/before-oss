@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,280 people with a non-planned attempt | 23,941 person entities | 5.3465% |
-| Verified-affiliation coverage | 252 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0526% |
-| Verified-employer coverage | 144 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6015% |
-| Archival-review coverage | 1,228 people with an individual file-access/priority assessment | 23,941 person entities | 5.1293% |
+| Research-attempt coverage | 1,290 people with a non-planned attempt | 23,941 person entities | 5.3882% |
+| Verified-affiliation coverage | 254 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0609% |
+| Verified-employer coverage | 146 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6098% |
+| Archival-review coverage | 1,238 people with an individual file-access/priority assessment | 23,941 person entities | 5.1710% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 84
-- Identity status `high_confidence`: 316
+- Identity status `high_confidence`: 318
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,462
+- Identity status `unresolved`: 23,460
 
 ## Personnel categories
 
@@ -46,17 +46,17 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,661
+- `not_started`: 22,651
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 70
-- `requires_archival_review`: 905
+- `requires_archival_review`: 913
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 146
+- `verified_employer_found`: 148
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -64,8 +64,8 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Live Library of Congress attempts: 301
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
-- Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 712
+- Reviewed-institutional-web attempts recorded: 4
+- Reviewed-web terminal-protocol attempts recorded: 720
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 444 across 424 people; 30 additional
+- Saved `source_reviewed` outcomes: 446 across 426 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,311
+- Total recorded attempts/plans: 2,321
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 429; 411 have at least one public-eligible
+- People with saved reviewed claims: 431; 413 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1586,14 +1586,37 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   employers. No authenticated Catalog request, credential, raw response, full
   private identifier, home address, people-finder record, or discovery-only
   employer claim was used or published.
-- Published affiliations: 515
-- Database claims: 1,018; public-visible claims: 997 (188 confirmed, 668 high,
+- Batch 147 continues page twenty-three from John S. Barnett through John M.
+  Barnhart. All ten rows were visually checked at 300 dpi and original
+  resolution. The strict bundle imports 12 sources, seven organization
+  definitions, seven affiliations, nine claims, 11 claim-source links, ten
+  person updates, and ten terminal research attempts. Eight identities remain
+  unresolved and route to high-priority Box 37 or Box 38 review. The indexed
+  Warren L. Barnette Jr. receives a high-confidence identity from the exact
+  uncommon expanded name, suffix, commissioned Army context, and explicit OSS
+  chronology in a University at Buffalo archival biography. The Army is his
+  strongly date-bounded immediate pre-OSS military assignment. Three teaching
+  and personnel-office jobs documented no later than 1936 remain earlier
+  employment only; no unsupported last civilian employer is selected. The
+  indexed Edward N. Barnhart receives a high-confidence identity from an
+  official University of California memorial that dates his OSS entry to April
+  1942. It supports the Office of Facts and Figures as his immediate government
+  assignment, Reed College as his last civilian employer through January 1942,
+  and the Cleveland Museum of Art as earlier employment. These relationship
+  types remain separate on the profile and in analytics. Milton L. Barnett and
+  John M. Barnhart military namesakes were rejected for insufficient identity
+  anchors; Wealthy Vaug Barnett's printed form is preserved without silently
+  expanding it. No authenticated Catalog request, credential, raw response,
+  full private identifier, home address, people-finder record, or discovery-
+  only employer claim was used or published.
+- Published affiliations: 522
+- Database claims: 1,027; public-visible claims: 1,006 (188 confirmed, 677 high,
   137 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,042; private source records: 1,966; public source export:
-  1,049; unique source documents: 859
-- Canonical organizations: 292 private and 290 public
+- Citation links: 2,053; private source records: 1,978; public source export:
+  1,053; unique source documents: 861
+- Canonical organizations: 297 private and 295 public
 - Conflicts: 5
-- NARA pull-list rows: 23,832
+- NARA pull-list rows: 23,830
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1786,6 +1809,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnard-through-barnes-pathways_batch-144_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnes-continuation-pathways_batch-145_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnes-through-barnett-pathways_batch-146_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnett-through-barnhart-pathways_batch-147_2026-08-02.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

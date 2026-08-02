@@ -13129,3 +13129,89 @@ test("Batch 146 keeps the four Robert Barnes rows separate and preserves Barnett
   await expect(page.locator("main")).toContainText("natural-resource economist");
   await expect(page.locator("main")).toContainText("No later occupation was back-projected");
 });
+
+test("Batch 147 separates Barnett through Barnhart rows and publishes only date-bounded pathways", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["cd0090e2-ae8c-5591-9c1a-64676a937fa4", "John S Barnett", "37", "CSP P P"],
+    ["0260059c-4261-593e-9c84-a1dc1e9fcb9d", "Milton L Barnett", "38", "T-5"],
+    ["9cdc4690-a445-5c24-a555-4bf89a04661a", "Patricia G Barnett", "38", "P-4"],
+    ["631a3a1c-e216-5aef-afaf-55a8b4626964", "Robert W Barnett", "38", "P-5"],
+    ["c8d64d72-6694-5ffb-a3b7-3771a3f509cf", "Wealthy Vaug Barnett", "38", "Not printed"],
+    ["4f171ec8-31eb-5a3e-b9fb-cbedc11463e8", "Warren L Barnette Jr.", "38", "2nd Lt"],
+    ["6d812892-46d2-5de5-8c65-cd9264901268", "Marion B Barney", "38", "Not printed"],
+    ["ad6ba260-bfc5-552e-b98e-a69ea959deab", "Ora F Barney", "38", "T-4"],
+    ["c7fc294e-00ab-5daf-84cd-127c6874cdea", "Edward N Barnhart", "38", "P-6"],
+    ["a6a751be-b3e4-5f19-a585-c581975e9741", "John M Barnhart", "38", "Not printed"],
+  ];
+
+  for (const [personId, displayName, box, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 23");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = allProfiles.filter(
+    ([personId]) =>
+      personId !== "4f171ec8-31eb-5a3e-b9fb-cbedc11463e8" &&
+      personId !== "c7fc294e-00ab-5daf-84cd-127c6874cdea",
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/4f171ec8-31eb-5a3e-b9fb-cbedc11463e8/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("W. Leslie Barnette Jr.");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Buffalo Collegiate Center",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "State Teachers College, Buffalo",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Buffalo Personnel Office",
+  );
+  await expect(
+    page.getByRole("link", { name: /W\. Leslie Barnette Jr\./ }).first(),
+  ).toHaveAttribute("href", /library\.buffalo\.edu/);
+
+  await page.goto("./people/c7fc294e-00ab-5daf-84cd-127c6874cdea/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Edward Norton Barnhart");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Office of Facts and Figures",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Reed College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Cleveland Museum of Art",
+  );
+  await expect(page.locator("main")).toContainText("government assignment");
+  await expect(page.locator("main")).toContainText("last civilian employer");
+  await expect(
+    page.getByRole("link", { name: /Edward Norton Barnhart, Rhetoric/ }).first(),
+  ).toHaveAttribute("href", /digicoll\.lib\.berkeley\.edu/);
+});

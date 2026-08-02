@@ -4,16 +4,55 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,239 HTML files. Every relative
+**PASS.** The production build contains 24,244 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 290 organization profiles, and the
+The build includes 23,941 person profiles, 295 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,744 unique external URLs for separate live
+The checker inventoried 48,751 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 147 local release check
+
+The complete 24,244-page internal-link pass includes direct routes for John S.
+Barnett, Milton L. Barnett, Patricia G. Barnett, Robert W. Barnett, Wealthy
+Vaug Barnett, Warren L. Barnette Jr., Marion B. Barney, Ora F. Barney, Edward
+N. Barnhart, and John M. Barnhart. The focused browser regression opened all
+ten profiles at desktop, phone, and tablet sizes, and the full browser and
+accessibility matrix passed 486 / 486. Eight unresolved profiles retain their
+visually verified page-23 source values and Box 37 or Box 38 archival paths.
+Barnette's Army pathway and three earlier jobs remain distinct, while
+Barnhart's government assignment, last civilian employer, and earlier museum
+employment remain separately labeled and cited.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`f1b0fd1f92f9a52d650bf807674041881244296c619db056554520e4f79d0cc1`.
+Consecutive complete production builds produced the same length-delimited
+path-and-content SHA-256,
+`237ca0e63701111e53d19eaf93ab86fd074b3b6bd73dad70956b356be252bc51`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,314 public artifacts, rejected 997 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 146 production check
+
+GitHub Actions test workflow
+[30739392884](https://github.com/therealjameswilson/before-oss/actions/runs/30739392884)
+and Pages workflow
+[30739392833](https://github.com/therealjameswilson/before-oss/actions/runs/30739392833)
+completed successfully for release `bece86d`. The independent audit opened the
+seven core routes and all ten Batch 146 profiles; all 17 returned HTTP 200 and
+matched the intended release content. All 65 deployed manifest assets matched
+their recorded size, SHA-256, and exact release bytes. The deployed manifest
+SHA-256 is
+`46a7af7087fefdfef40a3da1c2d9cd1cc0e9544d2d63d85fc7f0d1cf58b5c705`.
+The 83-artifact live privacy scan found zero unexpected full-number matches.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 146 local release check
 
