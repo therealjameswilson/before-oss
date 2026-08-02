@@ -13297,3 +13297,87 @@ test("Batch 148 carries Julia Barnhart forward and separates Barnhisel through B
     page.getByRole("link", { name: /10th Mountain Division Name Index/ }).first(),
   ).toHaveAttribute("href", /history\.denverlibrary\.org/);
 });
+
+test("Batch 149 separates Baron and Barone namesakes and publishes Barr pathways conservatively", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["0485c99f-2ba8-5426-a2bd-e59e063fe3eb", "Rita Baron", "Caf-4"],
+    ["85817953-0b00-5583-b8b1-d71feff557d7", "Stanley Baron", "Not printed"],
+    ["7eb21372-8293-5b00-aee5-5d996da01984", "Giuseppe Barone", "Not printed"],
+    ["1ef55fa6-2217-524b-8881-b79dd563ce8f", "Jean V Barone", "Caf-5"],
+    ["98bde8af-342d-5b50-95bb-9be80b2a7608", "Rose M Barone", "Caf-3"],
+    ["b8a1382c-5c62-5c2d-b481-4a35aff9d01a", "Salvatore V Barone", "Pfc"],
+    ["054917a6-296a-5d00-ab8e-36fe80ec0bbf", "Werner Baronowitz", "Pfc"],
+    ["bf94dad0-ac31-5b0e-80fb-82c11b7e4543", "Donald Barr", "Cpl"],
+    ["ee315252-51c2-5195-a820-ad4c9d700b04", "George F Barr", "T-4"],
+    ["138b9976-720a-5383-990c-c07bda6fee78", "Stephen Barr", "Pvt"],
+  ];
+
+  for (const [personId, displayName, rank] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("38", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 24");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  const unresolvedProfiles = allProfiles.filter(
+    ([personId]) =>
+      personId !== "054917a6-296a-5d00-ab8e-36fe80ec0bbf" &&
+      personId !== "bf94dad0-ac31-5b0e-80fb-82c11b7e4543",
+  );
+
+  for (const [personId] of unresolvedProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/054917a6-296a-5d00-ab8e-36fe80ec0bbf/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "medium",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Nelson Elec Laboratory",
+  );
+  await expect(page.locator("main")).toContainText("commercial clerk in Göttingen");
+  await expect(
+    page.getByRole("link", { name: /Baronowitz, Werner — U\.S\. WWII Draft/ }).first(),
+  ).toHaveAttribute("href", /fold3\.com/);
+  await expect(
+    page.getByRole("link", { name: /Das israelitische Erziehungsheim/ }).first(),
+  ).toHaveAttribute("href", /ahnenblog\.globonauten\.de/);
+
+  await page.goto("./people/bf94dad0-ac31-5b0e-80fb-82c11b7e4543/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Columbia University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("served with the Office of Strategic Services");
+  await expect(
+    page.getByRole("link", { name: /Obituaries — Donald Barr/ }).first(),
+  ).toHaveAttribute("href", /web\.archive\.org/);
+});

@@ -4,16 +4,54 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,244 HTML files. Every relative
+**PASS.** The production build contains 24,245 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 295 organization profiles, and the
+The build includes 23,941 person profiles, 296 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,753 unique external URLs for separate live
+The checker inventoried 48,757 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 149 local release check
+
+The complete 24,245-page internal-link pass includes direct routes for Rita
+Baron, Stanley Baron, Giuseppe Barone, Jean V. Barone, Rose M. Barone,
+Salvatore V. Barone, Werner Baronowitz, Donald Barr, George F. Barr, and
+Stephen Barr. The focused browser regression opened all ten profiles at
+desktop, phone, and tablet sizes and passed 3 / 3. Eight unresolved profiles
+retain their visually verified page-24 source values and Box 38 archival paths.
+Werner Baronowitz's last civilian employer, probable Army pathway, and earlier
+occupation remain distinct. Donald Barr's Army pathway and Columbia student
+status remain distinct, and his last civilian employer remains unresolved.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both the public source and built trees. The manifest SHA-256 is
+`17258003f2e32526f63ebf7bec407ec83e3c7f605348a48d06208603cec7d0a6`.
+Consecutive complete production builds produced the same directory-prefixed
+content-tree SHA-256,
+`0d775d1a4f8b62bcf1c349f0d5f1cae8c14b1e675242b150c79cf6774faf8689`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across 24,315 public artifacts, rejected 995 harmless
+substrings, and found zero unexpected boundary matches.
+
+## Batch 148 production check
+
+GitHub Actions test workflow
+[30741326700](https://github.com/therealjameswilson/before-oss/actions/runs/30741326700)
+and Pages workflow
+[30741326684](https://github.com/therealjameswilson/before-oss/actions/runs/30741326684)
+completed successfully for release
+`16f7e80e8e842671e41bfc7e09ba1d72ab8ab9b1`. The independent audit opened
+the seven core routes and all ten Batch 148 profiles; all 17 returned HTTP 200
+and contained the intended release content. All 65 deployed manifest assets
+matched their recorded size and SHA-256. The deployed manifest SHA-256 is
+`410d9e370694940779a368a238ce40565f80347ed9e8c0b0c45f048e970a3dc9`.
+The 83-artifact live privacy scan found zero unexpected full-number matches.
+The shareable production site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Batch 148 local release check
 

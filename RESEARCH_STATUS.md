@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,299 people with a non-planned attempt | 23,941 person entities | 5.4258% |
-| Verified-affiliation coverage | 255 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0651% |
-| Verified-employer coverage | 146 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6098% |
-| Archival-review coverage | 1,247 people with an individual file-access/priority assessment | 23,941 person entities | 5.2086% |
+| Research-attempt coverage | 1,308 people with a non-planned attempt | 23,941 person entities | 5.4634% |
+| Verified-affiliation coverage | 257 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0735% |
+| Verified-employer coverage | 147 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6140% |
+| Archival-review coverage | 1,257 people with an individual file-access/priority assessment | 23,941 person entities | 5.2504% |
 
 ## Extraction and identity
 
@@ -22,11 +22,11 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 85
-- Identity status `high_confidence`: 319
+- Identity status `high_confidence`: 321
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,458
+- Identity status `unresolved`: 23,456
 
 ## Personnel categories
 
@@ -46,17 +46,17 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,642
-- `in_progress`: 51
+- `not_started`: 22,633
+- `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
 - `occupation_only_found`: 71
-- `requires_archival_review`: 920
+- `requires_archival_review`: 928
 - `completed`: 55
 - `conflicting_sources`: 4
-- `verified_employer_found`: 149
+- `verified_employer_found`: 151
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -65,13 +65,15 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 728
+- Reviewed-web terminal-protocol attempts recorded: 736
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
 - Reviewed-official-AAD-institutional-and-web attempts recorded: 22
 - Reviewed-official-institutional-and-web attempts recorded: 12
+- Reviewed-official-and-institutional-source attempts recorded: 2
+- Reviewed-institutional-source attempts recorded: 1
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
 - Reviewed-official-institutional-newspaper-and-web attempts recorded: 2
@@ -80,12 +82,12 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 448 across 428 people; 30 additional
+- Saved `source_reviewed` outcomes: 450 across 430 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,330
+- Total recorded attempts/plans: 2,340
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 433; 415 have at least one public-eligible
+- People with saved reviewed claims: 435; 413 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1631,14 +1633,39 @@ Commissioned classification: 2,167 yes; 5,043 no; 16,731 indeterminate.
   authenticated Catalog request, credential, raw response, full private
   identifier, home address, people-finder record, or discovery-only employer
   claim was used or published.
-- Published affiliations: 523
-- Database claims: 1,031; public-visible claims: 1,010 (189 confirmed, 679 high,
-  138 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 2,062; private source records: 1,991; public source export:
-  1,059; unique source documents: 863
-- Canonical organizations: 297 private and 295 public
+- Batch 149 continues page twenty-four from Rita Baron through Stephen Barr.
+  All ten rows were visually checked at 300 dpi and original resolution. The
+  strict bundle imports 13 sources, three organization definitions, four
+  affiliations, seven claims, 14 claim-source links, ten person updates, and
+  ten terminal research attempts; replaying the import produced identical
+  counts. Werner Baronowitz receives a high-confidence identity from the rare
+  exact name, matching birth details, New York chronology, and Army service in
+  an image-backed Selective Service record and a separately sourced historical
+  biography. The February 1942 registration names Nelson Elec Laboratory, and
+  the biography places New York electronics work before Army induction in
+  November, supporting that firm as the strongly date-bounded last civilian
+  employer before service. His Army assignment is only a medium-confidence,
+  probable-immediate OSS pathway because no reviewed source supplies the
+  individual transfer date. Donald Barr receives a high-confidence identity
+  from a Columbia institutional obituary that explicitly links the exact name
+  to Army and OSS service in Washington and Europe. The Army is his
+  high-confidence probable-immediate military pathway; his Columbia College
+  mathematics and anthropology study is a separate documented prewar student
+  affiliation, never an employer. Rita Baron, Stanley Baron, Giuseppe Barone,
+  Jean V. Barone, Rose M. Barone, Salvatore V. Barone, George F. Barr, and
+  Stephen Barr remain unresolved and route to high-priority Box 38 review. A
+  census-derived Rita Baron occupation lead and a CIA Bucharest George Barr
+  lead were rejected for insufficient identity anchors. No authenticated
+  Catalog request, credential, raw response, full private identifier, sensitive
+  family detail, or discovery-only employer claim was used or published.
+- Published affiliations: 527
+- Database claims: 1,038; public-visible claims: 1,017 (189 confirmed, 684 high,
+  140 medium, 4 conflicting); 21 low-confidence claims are withheld
+- Citation links: 2,076; private source records: 2,004; public source export:
+  1,064; unique source documents: 866
+- Canonical organizations: 298 private and 296 public
 - Conflicts: 5
-- NARA pull-list rows: 23,829
+- NARA pull-list rows: 23,827
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -1832,6 +1859,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnes-continuation-pathways_batch-145_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnes-through-barnett-pathways_batch-146_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnett-through-barnhart-pathways_batch-147_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-twenty-four-barnhart-through-baron-pathways_batch-148_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-four-baron-through-barr-pathways_batch-149_2026-08-02.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
