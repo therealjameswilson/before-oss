@@ -1,0 +1,756 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, Batch 164",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-27-batch164",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 43",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 27, rows 22-31, Leon H. Baumlin through Burton Baylis; visually checked at original resolution with the serial column masked",
+      "access_date": "2026-08-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Immutable source rows and private identifiers are preserved separately; full identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch164",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "World War II Army Enlistment Records",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Electronic Army Serial Number Merged File; exact private-identifier matches for George W. Bauserman and Glen W. Baxter; conflict review for Vito L. Bavosa; full identifiers withheld",
+      "access_date": "2026-08-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed locally outside the repository. Only project-authored conclusions and stable citation pointers are retained; full service identifiers are private and excluded from public outputs."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch164",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Basic Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-11-30; modified 2011-03-17",
+      "locator": "Supplemental User Notes, reference copies 1-3; civilian-occupation interpretation conflicts, punch-card conversion limitations, and best-guess merged records",
+      "access_date": "2026-08-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation warns that occupation interpretations can conflict and that the merged file contains transcription, scan, and best-guess conversion errors."
+    },
+    {
+      "key": "ksgenweb-army-civilian-occupation-codes-batch164",
+      "stable_url": "https://ksgenweb.org/archives/statewide/military/wwII/enlist/civocclist.txt",
+      "archival_identifier": "Civilian occupation code list for the NARA World War II Army Enlistment Records",
+      "title": "Civilian Occupation Code List",
+      "author_creator": "KSGenWeb Archives",
+      "repository_publisher": "KSGenWeb Archives",
+      "publication_record_date": null,
+      "locator": "Codes 101 and 138",
+      "access_date": "2026-08-02",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "World War II Army Enlistment Records",
+      "rights_notes": "Secondary transcription used to decode official occupation codes. Broad code groups remain broad; the project does not choose among listed occupations or infer an employer."
+    },
+    {
+      "key": "soe-burma-bawm-ting-batch164",
+      "stable_url": "https://soeinburma.com/the-men-of-soe-burma/",
+      "archival_identifier": "Biographical entry: Havildar Bawm Ting",
+      "title": "The Men of SOE Burma",
+      "author_creator": "Dr. Richard Duckett",
+      "repository_publisher": "The Special Operations Executive in Burma 1941-1945",
+      "publication_record_date": null,
+      "locator": "Havildar Bawm Ting entry, page lines 303-306; Burma Rifles entry date, promotions, and 1 January 1944 field recruitment by SOE",
+      "access_date": "2026-08-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "SOE in Burma research project based on records at The National Archives (UK)",
+      "rights_notes": "Licensed CC BY-NC-SA 4.0. The site summarizes archival personnel research. The project publishes a short excerpt and a project-authored paraphrase, not the full entry."
+    },
+    {
+      "key": "fratap-andre-bayet-batch164",
+      "stable_url": "https://fratap.be/wp-content/uploads/2017/11/ECHOS-n%C2%B04.pdf",
+      "archival_identifier": "SERVIR No. 4, June 2014",
+      "title": "In Memoriam: André Bayet",
+      "author_creator": "Fraternelle des Agents Parachutistes",
+      "repository_publisher": "Fraternelle des Agents Parachutistes",
+      "publication_record_date": "2014-06",
+      "locator": "SERVIR No. 4, PDF pages 31-32; André Bayet biography, alias BOVY, SOE entry, VIRGILIA and RUBENS missions",
+      "access_date": "2026-08-02",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Echos de la Fraternelle des Agents Parachutistes",
+      "rights_notes": "Institutional veterans-association publication. The linked PDF intermittently redirects or returns an error, but its indexed text and relevant page context were reviewed. Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "banking-leon-baumlin-batch164",
+      "stable_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Banking_1947-03-_Vol_39_Iss_9_%28IA_sim_american-bankers-association-aba-banking-journal_1947-03_39_9%29.pdf",
+      "archival_identifier": "Banking, volume 39, issue 9",
+      "title": "Minute Interviews",
+      "author_creator": "Banking editorial staff; Leon H. Baumlin quoted",
+      "repository_publisher": "American Bankers Association",
+      "publication_record_date": "1947-03",
+      "locator": "PDF page 117, printed page 115; Leon H. Baumlin quotation describing 1943 Navy entry, Radioman First Class service, and postwar commercial-radio work",
+      "access_date": "2026-08-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Banking",
+      "rights_notes": "Contemporary trade journal reviewed locally. Used only as qualified identity evidence; its postwar employment does not establish a pre-OSS employer."
+    },
+    {
+      "key": "rca-relay-leon-baumlin-batch164",
+      "stable_url": "https://www.worldradiohistory.com/ARCHIVE-RCA/RCA-Relay/RCA-Relay-1962-05.pdf",
+      "archival_identifier": "RCA Relay, May 1962",
+      "title": "People and Jobs",
+      "author_creator": "RCA Communications, Inc.",
+      "repository_publisher": "RCA Communications, Inc.; preserved by World Radio History",
+      "publication_record_date": "1962-05",
+      "locator": "Page 14; Leon H. Baumlin transfer from WNY radiotelegraph operator to WCC, Chatham",
+      "access_date": "2026-08-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "RCA Relay",
+      "rights_notes": "Contemporary employer publication used only to corroborate the rare-name radio-career candidate. This postwar job is not classified as pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "burma-rifles",
+      "canonical_name": "Burma Rifles",
+      "historical_name": "Burma Rifles",
+      "aliases": [
+        "2 Burif",
+        "2nd Battalion, Burma Rifles"
+      ],
+      "organization_type": "military regiment",
+      "sector": "military",
+      "country": "Burma",
+      "active_dates": "1917-1948",
+      "normalization_notes": "The source abbreviation 2 Burif is preserved on the affiliation. This organization is a military assignment, not a civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-w-bauserman-pre-service-occupation-batch164",
+      "person_id": "187fde29-24e5-54db-8cda-445b6cf4fb8e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Motorcycle mechanic, high-explosives packer, toolroom keeper, stock clerk, or stock-control clerk (code 138)",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-04-26",
+      "date_precision": "The official enlistment record carries civilian occupation code 138 at Army entry on 26 April 1943. The secondary code table supplies a multi-occupation group and no employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact name and private service identifier match the index row. The full code group is published without choosing a specific occupation or inferring an employer."
+    },
+    {
+      "key": "ting-bawm-burma-rifles-batch164",
+      "person_id": "4991e2b6-7da8-5359-b281-c54ebbfd7cbd",
+      "organization_key": "burma-rifles",
+      "organization_name_as_found": "2 Burif",
+      "role_title": "Havildar, 2nd Battalion",
+      "occupation": "military personnel",
+      "relationship_type": "military_assignment",
+      "start_date": "1933-01-08",
+      "end_date": "1944-01-01",
+      "date_precision": "The scholarly archival-research site explicitly dates enlistment in the Burma Rifles to 8 January 1933, promotion to Havildar to 1 January 1942, and field recruitment by SOE to 1 January 1944.",
+      "city": null,
+      "state_or_region": null,
+      "country": "Burma",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source explicitly documents the Burma Rifles-to-SOE transition. It does not establish when or how Bawm Ting entered the American OSS record, so this is published as a qualified military predecessor rather than an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "glen-w-baxter-pre-service-occupation-batch164",
+      "person_id": "b4fab6de-673b-5e24-a552-7be4ae695c12",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Cashier, stock-record clerk, or general bookkeeper (code 101)",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-27",
+      "date_precision": "The official enlistment record carries civilian occupation code 101 at Army entry on 27 August 1942. The secondary code table supplies a multi-occupation group and no employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact name and private service identifier match the index row. The full code group is published without choosing a specific occupation or inferring an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "leon-h-baumlin-qualified-radio-candidate-batch164",
+      "person_id": "e9e4a7d1-e85e-5c24-b70d-5a6b222b229d",
+      "claim_type": "identity",
+      "claim_text": "Two postwar radio-industry sources document a Leon H. Baumlin with wartime Navy radioman service; the uncommon-name candidate may be the indexed person, but no direct OSS linkage has been established.",
+      "evidence_excerpt": "I joined the Navy in '43—saw service as a Radioman 1st Class",
+      "evidence_paraphrase": "A 1947 trade journal identifies Leon H. Baumlin as a wartime Navy radioman working in commercial radio, and a 1962 RCA publication documents the same exact name as a radiotelegraph operator.",
+      "identity_match_assessment": "Probable only. The exact full name is uncommon and the wartime communications background is compatible, but the index supplies no rank, identifier, birthplace, or assignment with which to confirm the match.",
+      "temporal_assessment": "The Navy service began in 1943; the commercial-radio and RCA evidence is postwar and is not evidence of a pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer claim is created. Box 43 remains necessary to test whether the indexed Leon H. Baumlin is the Navy radioman and to establish any pre-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch164",
+          "support_type": "supports",
+          "excerpt_override": "Baumlin Leon H"
+        },
+        {
+          "source_key": "banking-leon-baumlin-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "rca-relay-leon-baumlin-batch164",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "george-w-bauserman-confirmed-identity-batch164",
+      "person_id": "187fde29-24e5-54db-8cda-445b6cf4fb8e",
+      "claim_type": "identity",
+      "claim_text": "The indexed George W. Bauserman is confirmed as the Army enlistee represented by the exact-name record in the official merged enlistment file.",
+      "evidence_excerpt": "BAUSERMAN GEORGE W",
+      "evidence_paraphrase": "The exact name and private service identifier match across the OSS index and official Army enlistment file; the full identifier is not public.",
+      "identity_match_assessment": "Confirmed by an exact full-name and unique private-identifier match, with enlisted Army service compatible across the records.",
+      "temporal_assessment": "The official record dates Army entry to 26 April 1943; the index establishes later OSS personnel-file inclusion but supplies no assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The decisive identifier is retained only in the private database and masked in the public interface and exports.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch164",
+          "support_type": "supports",
+          "excerpt_override": "Bauserman George W T-5"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch164",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "george-w-bauserman-pre-service-occupation-batch164",
+      "person_id": "187fde29-24e5-54db-8cda-445b6cf4fb8e",
+      "affiliation_key": "george-w-bauserman-pre-service-occupation-batch164",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 26 April 1943, George W. Bauserman's record carried civilian occupation code 138, a group covering motorcycle mechanic, high-explosives packer, toolroom keeper, stock clerk, or stock-control clerk.",
+      "evidence_excerpt": "138 \"MOTORCYCLE MECHANIC or PACKER, HIGH EXPLOSIVES",
+      "evidence_paraphrase": "The official file supplies code 138 and the entry date; the secondary code table expands it to several occupations but does not identify which one applied or name an employer.",
+      "identity_match_assessment": "Confirmed by exact name and matching private identifier across the index and official Army file.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 26 April 1943. It may describe pre-service work, but it is not proven to be the immediate pre-OSS occupation.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The complete occupation group is shown without selecting one occupation or inferring an employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ksgenweb-army-civilian-occupation-codes-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch164",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "vito-l-bavosa-private-identifier-conflict-batch164",
+      "person_id": "af235a72-6264-5795-81af-e65752d0b1b3",
+      "claim_type": "identity",
+      "claim_text": "The private identifier printed for Vito L. Bavosa conflicts with the official Army merged file, where it belongs to John J. Hanning; no exact Vito L. Bavosa row was found in that file.",
+      "evidence_excerpt": "HANNING JOHN J",
+      "evidence_paraphrase": "A private-identifier lookup in the official Army file resolves the index-carried number to a different name. An exact-name search found no Vito L. Bavosa row, and a different Vito A. Bavosa record carries a different identifier.",
+      "identity_match_assessment": "Conflicting. The index row itself is preserved, but the printed identifier cannot safely be used to resolve Vito L. Bavosa to an Army enlistment record.",
+      "temporal_assessment": "No reliable pre-OSS chronology can be derived until the Box 43 personnel file or another direct record resolves the discrepancy.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier is retained only in the private source record and excluded from public data. Neither John J. Hanning's history nor Vito A. Bavosa's history is attributed to this person.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch164",
+          "support_type": "supports",
+          "excerpt_override": "Bavosa Vito L T-4"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch164",
+          "support_type": "contradicts"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch164",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "ting-bawm-high-confidence-identity-batch164",
+      "person_id": "4991e2b6-7da8-5359-b281-c54ebbfd7cbd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ting Bawm is high-confidence matched to Havildar Bawm Ting, the Kachin Burma Rifles soldier recruited in the field by SOE in 1944.",
+      "evidence_excerpt": "Havildar Bawm Ting: Born in 1911, Bawm Ting was a Kachin",
+      "evidence_paraphrase": "The rare two-part name appears in reversed order under Kachin naming practice, and the archival-research biography supplies a distinctive Burma Rifles and SOE wartime context consistent with the OSS index.",
+      "identity_match_assessment": "High confidence based on the rare name pair, plausible name-order reversal, Kachin identity, Burma Rifles service, and direct SOE wartime context. The Box 43 file is still needed for a direct American OSS linkage.",
+      "temporal_assessment": "The source dates Burma Rifles entry to 8 January 1933 and SOE field recruitment to 1 January 1944; the date and nature of his OSS-index relationship remain unresolved.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The site preserves the indexed form Ting Bawm and records Bawm Ting as a documented variant; it does not claim that every SOE assignment was an OSS assignment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch164",
+          "support_type": "supports",
+          "excerpt_override": "Bawm Ting"
+        },
+        {
+          "source_key": "soe-burma-bawm-ting-batch164",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "ting-bawm-burma-rifles-pathway-batch164",
+      "person_id": "4991e2b6-7da8-5359-b281-c54ebbfd7cbd",
+      "affiliation_key": "ting-bawm-burma-rifles-batch164",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Bawm Ting served in the 2nd Battalion, Burma Rifles from 1933 and held the rank of Havildar before SOE recruited him in the field on 1 January 1944.",
+      "evidence_excerpt": "joined the Burma Rifles on 8 January 1933, serving with 2 Burif",
+      "evidence_paraphrase": "The source explicitly sequences a long Burma Rifles assignment before SOE field recruitment and records the promotions to Lance Naik, Naik, and Havildar.",
+      "identity_match_assessment": "High-confidence match based on the rare name pair and the Kachin, Burma Rifles, and SOE context.",
+      "temporal_assessment": "Explicitly immediate before SOE recruitment, but the timing and nature of the person's American OSS-index relationship are unknown; therefore the site does not label it immediate pre-OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer. The Box 43 file should establish whether the OSS record reflects liaison, assignment, or another relationship.",
+      "sources": [
+        {
+          "source_key": "soe-burma-bawm-ting-batch164",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "glen-w-baxter-confirmed-identity-batch164",
+      "person_id": "b4fab6de-673b-5e24-a552-7be4ae695c12",
+      "claim_type": "identity",
+      "claim_text": "The indexed Glen W. Baxter is confirmed as the Army enlistee represented by the exact-name record in the official merged enlistment file.",
+      "evidence_excerpt": "BAXTER GLEN W",
+      "evidence_paraphrase": "The exact name and private service identifier match across the OSS index and official Army enlistment file; the full identifier is not public.",
+      "identity_match_assessment": "Confirmed by an exact full-name and unique private-identifier match, with enlisted Army service compatible across the records.",
+      "temporal_assessment": "The official record dates Army entry to 27 August 1942; the index establishes later OSS personnel-file inclusion but supplies no assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The decisive identifier is retained only in the private database and masked in the public interface and exports.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch164",
+          "support_type": "supports",
+          "excerpt_override": "Baxter Glen W Cpl"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch164",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "glen-w-baxter-pre-service-occupation-batch164",
+      "person_id": "b4fab6de-673b-5e24-a552-7be4ae695c12",
+      "affiliation_key": "glen-w-baxter-pre-service-occupation-batch164",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 27 August 1942, Glen W. Baxter's record carried civilian occupation code 101, a group covering cashier, stock-record clerk, or general bookkeeper.",
+      "evidence_excerpt": "101 \"CASHIER or STOCK RECORD CLERK or BOOKKEEPER, GENERAL\"",
+      "evidence_paraphrase": "The official file supplies code 101 and the entry date; the secondary code table expands it to several occupations but does not identify which one applied or name an employer.",
+      "identity_match_assessment": "Confirmed by exact name and matching private identifier across the index and official Army file.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 27 August 1942. It may describe pre-service work, but it is not proven to be the immediate pre-OSS occupation.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The complete occupation group is shown without selecting one occupation or inferring an employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ksgenweb-army-civilian-occupation-codes-batch164",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch164",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "andre-bayet-high-confidence-identity-batch164",
+      "person_id": "c763bea0-36a0-5086-a8f3-438b081496ce",
+      "claim_type": "identity",
+      "claim_text": "The indexed Belgian lieutenant Andre Bayet is high-confidence matched to André Bayet, alias BOVY, the Belgian SOE officer who entered SOE on 19 October 1943.",
+      "evidence_excerpt": "André Bayet fut parachuté le 7 mai en tant que lieutenant ARA",
+      "evidence_paraphrase": "The institutional biography matches the exact name, Belgian nationality, lieutenant status, and Allied special-operations context; it dates SOE entry and two wartime missions.",
+      "identity_match_assessment": "High confidence because exact name, Belgian note, lieutenant rank, and SOE wartime context all align. The Box 43 file remains necessary to establish the precise OSS relationship.",
+      "temporal_assessment": "The source dates SOE entry to 19 October 1943 and missions in 1944-1945 but gives no civilian or military affiliation immediately before SOE or OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The wartime post-office engagement described under mission cover is not treated as civilian employment. No pre-OSS employer claim is created.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-27-batch164",
+          "support_type": "supports",
+          "excerpt_override": "Bayet Andre Lt Belgian"
+        },
+        {
+          "source_key": "fratap-andre-bayet-batch164",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e9e4a7d1-e85e-5c24-b70d-5a6b222b229d",
+      "identity_status": "probable",
+      "identity_evidence": "Two contemporary postwar publications identify an uncommon exact-name Leon H. Baumlin with wartime Navy radioman service and a continuing radio career. The communications background is compatible, but the Box 43 index row supplies no rank, private identifier, birthplace, or OSS assignment for confirmation.",
+      "name_variants": [
+        "Leon H Baumlin",
+        "Leon H. Baumlin",
+        "Baumlin, Leon H."
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 to test the rare-name Navy-radioman candidate and identify any pre-OSS employer, military transfer, or communications assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f718789d-ee8e-5563-a975-639fbd1614b3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only the common name Ernest Baur, with no middle initial, rank, service identifier, nationality note, or assignment. Exact-name official, OSS, employment, newspaper, obituary, directory, and archival searches did not establish a uniquely matching person.",
+      "name_variants": [
+        "Ernest Baur",
+        "Baur, Ernest"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 for identifiers, birth data, assignment, correspondence, or employment forms before evaluating same-name candidates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "187fde29-24e5-54db-8cda-445b6cf4fb8e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name George W. Bauserman and private service identifier match across the visually verified Box 43 OSS index row and official NARA Army enlistment merged file. The full identifier remains private.",
+      "name_variants": [
+        "George W Bauserman",
+        "George W. Bauserman",
+        "Bauserman, George W."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 43 and identifier-linked Army records to distinguish the occupation behind code 138, identify a named employer, and establish the OSS pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af235a72-6264-5795-81af-e65752d0b1b3",
+      "identity_status": "conflicting",
+      "identity_evidence": "The private identifier printed beside Vito L. Bavosa in the OSS index resolves to John J. Hanning in the official NARA Army merged file. No exact Vito L. Bavosa row appears there; a Vito A. Bavosa entry has a different identifier. The index row is preserved but cannot be resolved from that number.",
+      "name_variants": [
+        "Vito L Bavosa",
+        "Vito L. Bavosa",
+        "Bavosa, Vito L."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 43 and any original index card or personnel-file cover to determine whether the name or private identifier was transcribed incorrectly; do not use either namesake's history meanwhile.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4991e2b6-7da8-5359-b281-c54ebbfd7cbd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare indexed form Ting Bawm aligns with Havildar Bawm Ting under plausible Kachin name-order reversal. The archival-research biography supplies Kachin identity, Burma Rifles service, promotion to Havildar, and SOE field recruitment, all compatible with an Allied person represented in the OSS index.",
+      "name_variants": [
+        "Ting Bawm",
+        "Bawm Ting",
+        "Havildar Bawm Ting"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 43 and the underlying British personnel file, if identified, to establish the exact OSS relationship and whether Burma Rifles service was immediately pre-OSS as well as pre-SOE.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b4fab6de-673b-5e24-a552-7be4ae695c12",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name Glen W. Baxter and private service identifier match across the visually verified Box 43 OSS index row and official NARA Army enlistment merged file. The full identifier remains private.",
+      "name_variants": [
+        "Glen W Baxter",
+        "Glen W. Baxter",
+        "Baxter, Glen W."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 43 and identifier-linked Army records to distinguish the occupation behind code 101, identify a named employer, and establish the OSS pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c763bea0-36a0-5086-a8f3-438b081496ce",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name Andre Bayet, indexed Belgian note, and lieutenant rank align with the institutional biography of Belgian SOE officer André Bayet, alias BOVY, who entered SOE in October 1943 and completed two wartime missions.",
+      "name_variants": [
+        "Andre Bayet",
+        "André Bayet",
+        "Bayet, André",
+        "BOVY"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 and Belgian or British SOE personnel records for the exact OSS relationship and his immediate pre-SOE or pre-OSS employer, institution, or military assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36b8f377-01cb-5b7d-a42c-f72e40babf95",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Sylvia Baylin and civilian grade CAF-4 but no middle initial, service identifier, location, employer, or assignment. Exact-name official, OSS, employment, newspaper, obituary, directory, and archival searches did not establish a uniquely matching person.",
+      "name_variants": [
+        "Sylvia Baylin",
+        "Baylin, Sylvia"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 for personnel forms, assignment, education, address-era context, and employment history before evaluating same-name candidates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "75d355f2-feab-5b0b-8a2d-bf664df61ab0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only the name Burton Baylis, with no middle initial, rank, service identifier, nationality note, or assignment. Exact-name official, OSS, employment, newspaper, obituary, directory, and archival searches did not establish a uniquely matching person.",
+      "name_variants": [
+        "Burton Baylis",
+        "Baylis, Burton"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 43 for identifiers, birth data, assignment, correspondence, or employment forms before evaluating same-name candidates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch164-leon-h-baumlin-reviewed-search",
+      "person_id": "e9e4a7d1-e85e-5c24-b70d-5a6b222b229d",
+      "source_adapter": "reviewed_web",
+      "query_text": "Leon H Baumlin OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; employer 1940; occupation; Navy radioman; radio; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-rare-name-middle-initial-radio-navy-employment-and-archival",
+      "started_at": "2026-08-02T19:30:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Postwar radio directories with personal addresses, modern people-search pages, search snippets, and unrelated Baumlin records were rejected. The 1947 and 1962 exact-name sources were retained only as qualified identity evidence, not as pre-OSS employment evidence.",
+      "research_notes": "The uncommon-name Navy radioman and radio-operator candidate is plausible, but no direct OSS identifier, assignment, or prewar employer was found. NARA, CIA, LoC, newspaper, obituary, directory, institutional, and archival checks were completed without using the authenticated NARA API.",
+      "next_action": "Review Box 43 to confirm or reject the candidate and recover the pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-ernest-baur-reviewed-search",
+      "person_id": "f718789d-ee8e-5563-a975-639fbd1614b3",
+      "source_adapter": "reviewed_web",
+      "query_text": "Ernest Baur OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; employer 1940; occupation; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-common-name-no-middle-rank-or-identifier-employment-and-archival",
+      "started_at": "2026-08-02T19:31:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Same-name military, obituary, directory, genealogy, and newspaper candidates lacked two corroborating identifiers or direct OSS linkage; snippets and unsourced profiles were not accepted.",
+      "research_notes": "The index row has no disambiguating identifier. Official-context, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches were completed without an authenticated NARA API request.",
+      "next_action": "Review Box 43 before pursuing namesakes.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-george-w-bauserman-reviewed-search",
+      "person_id": "187fde29-24e5-54db-8cda-445b6cf4fb8e",
+      "source_adapter": "reviewed_web",
+      "query_text": "George W Bauserman OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; T-5 Army; exact private identifier; occupation code 138; employer 1940; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-name-middle-initial-enlisted-grade-private-identifier-official-occupation-employment-and-archival",
+      "started_at": "2026-08-02T19:32:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Same-name military, obituary, directory, and newspaper records lacked the matching private identifier or direct OSS linkage. Code 138 is ambiguous and names no employer.",
+      "research_notes": "The exact name and private identifier matched the official NARA Army merged file. NARA documentation and the occupation code table were reviewed. CIA, LoC, employment, obituary, directory, newspaper, and archival searches found no named employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 43 and identifier-linked Army records for a specific occupation, named employer, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-vito-l-bavosa-reviewed-conflict",
+      "person_id": "af235a72-6264-5795-81af-e65752d0b1b3",
+      "source_adapter": "reviewed_web",
+      "query_text": "Vito L Bavosa OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; T-4 Army; exact private identifier; employer 1940; occupation; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-name-middle-initial-enlisted-grade-private-identifier-conflict-and-namesake-disambiguation",
+      "started_at": "2026-08-02T19:33:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The official Army row tied to the printed identifier belongs to John J. Hanning and was rejected as this person's history. A Vito A. Bavosa row has a different identifier and was also rejected. A modern biographical page and genealogy leads lacked direct OSS linkage and were not accepted.",
+      "research_notes": "The index-to-Army identifier conflict is preserved visibly and without publishing the number. Exact-name NARA, CIA, LoC, employment, obituary, directory, newspaper, and archival checks found no reliable pre-OSS claim. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 43 and the original index or file cover to resolve the transcription conflict.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-ting-bawm-reviewed-search",
+      "person_id": "4991e2b6-7da8-5359-b281-c54ebbfd7cbd",
+      "source_adapter": "reviewed_web",
+      "query_text": "Ting Bawm OSS; Bawm Ting OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; Kachin; Burma Rifles; SOE; Force 136; employer; occupation; archival searches",
+      "query_variant_type": "reviewed-foreign-name-order-kachin-burma-rifles-soe-force136-and-archival",
+      "started_at": "2026-08-02T19:34:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Modern unrelated Bawm/Ting results, generic Kachin references, search snippets, and unsourced name matches were rejected. The SOE Burma biography was retained because the rare name, nationality context, military chronology, and special-operations setting align.",
+      "research_notes": "The reviewed source documents Burma Rifles service and direct SOE recruitment but not the precise American OSS relationship. Official-context, CIA, LoC, exact-name variants, institutional, military, and archival searches were completed without an authenticated NARA API request.",
+      "next_action": "Review Box 43 and the underlying British file to establish the OSS relationship and exact temporal classification.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-glen-w-baxter-reviewed-search",
+      "person_id": "b4fab6de-673b-5e24-a552-7be4ae695c12",
+      "source_adapter": "reviewed_web",
+      "query_text": "Glen W Baxter OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; corporal Army; exact private identifier; occupation code 101; employer 1940; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-common-name-middle-initial-enlisted-grade-private-identifier-official-occupation-employment-and-archival",
+      "started_at": "2026-08-02T19:35:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Same-name military, obituary, directory, and newspaper records lacked the matching private identifier or direct OSS linkage. Code 101 is ambiguous and names no employer.",
+      "research_notes": "The exact name and private identifier matched the official NARA Army merged file. NARA documentation and the occupation code table were reviewed. CIA, LoC, employment, obituary, directory, newspaper, and archival searches found no named employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 43 and identifier-linked Army records for a specific occupation, named employer, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-andre-bayet-reviewed-search",
+      "person_id": "c763bea0-36a0-5086-a8f3-438b081496ce",
+      "source_adapter": "reviewed_web",
+      "query_text": "Andre Bayet OSS; André Bayet OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; Belgian lieutenant; SOE; BOVY; employer; occupation; obituary; institutional and archival searches",
+      "query_variant_type": "reviewed-diacritic-variant-belgian-lieutenant-soe-alias-and-archival",
+      "started_at": "2026-08-02T19:36:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Unrelated Bayet records, generic SOE references, search snippets, and the post-office cover role during the RUBENS mission were rejected as pre-OSS employment evidence.",
+      "research_notes": "An institutional Belgian parachute-agents publication established a high-confidence identity through exact name, nationality, lieutenant rank, SOE entry, and missions. It did not identify a pre-SOE or pre-OSS employer. NARA, CIA, LoC, exact-name, employment, newspaper, obituary, institutional, and archival checks were completed without an authenticated NARA API request.",
+      "next_action": "Review Box 43 and Belgian or British SOE personnel records for the immediate predecessor and OSS relationship.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-sylvia-baylin-reviewed-search",
+      "person_id": "36b8f377-01cb-5b7d-a42c-f72e40babf95",
+      "source_adapter": "reviewed_web",
+      "query_text": "Sylvia Baylin OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; CAF-4; employer 1940; occupation; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-civilian-grade-no-middle-or-identifier-employment-and-archival",
+      "started_at": "2026-08-02T19:37:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Same-name directory, genealogy, obituary, and modern records lacked direct OSS linkage, a matching grade, or two corroborating identifiers; snippets and people-search pages were rejected.",
+      "research_notes": "The civilian grade confirms neither an occupation nor an employer. Official-context, CIA, exact-name OSS, LoC, employment, institutional, newspaper, obituary, directory, and archival searches were completed without an authenticated NARA API request.",
+      "next_action": "Review Box 43 for personnel forms and employment history.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch164-burton-baylis-reviewed-search",
+      "person_id": "75d355f2-feab-5b0b-8a2d-bf664df61ab0",
+      "source_adapter": "reviewed_web",
+      "query_text": "Burton Baylis OSS; Office of Strategic Services; NARA OSS/index context; CIA Reading Room; Library of Congress; employer 1940; occupation; obituary; directory; newspaper; archival searches",
+      "query_variant_type": "reviewed-name-no-middle-rank-or-identifier-employment-and-archival",
+      "started_at": "2026-08-02T19:38:00Z",
+      "completed_at": "2026-08-02T20:06:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Same-name military, obituary, directory, genealogy, and newspaper candidates lacked two corroborating identifiers or direct OSS linkage; snippets and unsourced profiles were not accepted.",
+      "research_notes": "The index row has no disambiguating identifier. Official-context, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches were completed without an authenticated NARA API request.",
+      "next_action": "Review Box 43 before pursuing namesakes.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

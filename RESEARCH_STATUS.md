@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,446 people with a non-planned attempt | 23,941 person entities | 6.0398% |
+| Research-attempt coverage | 1,455 people with a non-planned attempt | 23,941 person entities | 6.0774% |
 | Verified-affiliation coverage | 267 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1152% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,395 people with an individual file-access/priority assessment | 23,941 person entities | 5.8268% |
+| Archival-review coverage | 1,404 people with an individual file-access/priority assessment | 23,941 person entities | 5.8644% |
 
 ## Extraction and identity
 
@@ -21,42 +21,42 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 103
-- Identity status `high_confidence`: 338
-- Identity status `probable`: 48
+- Identity status `confirmed`: 105
+- Identity status `high_confidence`: 340
+- Identity status `probable`: 49
 - Identity status `ambiguous`: 26
-- Identity status `conflicting`: 6
-- Identity status `unresolved`: 23,420
+- Identity status `conflicting`: 7
+- Identity status `unresolved`: 23,414
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,497
+- Unknown or indeterminate: 16,496
 - Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,463
-- Foreign or Allied military personnel: 245
+- Foreign or Allied military personnel: 246
 - Enlisted naval personnel: 55
 - Commissioned naval officers: 81
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,169 yes; 5,049 no; 16,723 indeterminate.
+Commissioned classification: 2,170 yes; 5,050 no; 16,721 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,495
+- `not_started`: 22,486
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
-- `occupation_only_found`: 88
-- `requires_archival_review`: 1,043
-- `completed`: 55
-- `conflicting_sources`: 5
+- `occupation_only_found`: 90
+- `requires_archival_review`: 1,048
+- `completed`: 56
+- `conflicting_sources`: 6
 - `verified_employer_found`: 157
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -66,7 +66,7 @@ Commissioned classification: 2,169 yes; 5,049 no; 16,723 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 870
+- Reviewed-web terminal-protocol attempts recorded: 879
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -83,12 +83,12 @@ Commissioned classification: 2,169 yes; 5,049 no; 16,723 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 486 across 466 people; 31 additional
+- Saved `source_reviewed` outcomes: 492 across 472 people; 31 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,479
+- Total recorded attempts/plans: 2,488
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 470; 452 have at least one public-eligible
+- People with saved reviewed claims: 476; 458 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1837,13 +1837,33 @@ Commissioned classification: 2,169 yes; 5,049 no; 16,723 indeterminate.
   No authenticated Catalog request, credential, raw API response, full private
   identifier, sensitive personal detail, or discovery-only employer claim was
   used or published.
-- Public-visible affiliations: 565
-- Database claims: 1,117; public-visible claims: 1,092 (207 confirmed, 719 high,
-  160 medium, 6 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,286; private source records: 2,120; public source export:
-  1,142; unique source documents: 922
-- Canonical organizations: 312 private and 309 public
-- Conflicting claims: 6
+- Batch 164 covers the next ten visually checked page-twenty-seven rows, Leon
+  H. Baumlin through Burton Baylis. James P. Baxter III's established Williams
+  College and COI profile is carried forward unchanged; the strict bundle adds
+  eight sources, one organization, three affiliations, nine claims, twenty-three
+  claim-source links, nine person updates, and nine terminal research attempts.
+  Exact private-identifier matches in NARA's Army merged file confirm George W.
+  Bauserman and Glen W. Baxter but support only qualified occupation groups, not
+  named employers. The identifier printed for Vito L. Bavosa instead belongs to
+  John J. Hanning in the Army file; no exact Vito L. Bavosa row appears, so the
+  site publishes a conflict and borrows neither Hanning's history nor a separate
+  Vito A. Bavosa record. Richard Duckett's archival research supports a
+  high-confidence Bawm Ting/Ting Bawm match and documents Burma Rifles service
+  before SOE recruitment, while preserving uncertainty about the American OSS
+  relationship. A Belgian parachute-agents association publication supports the
+  high-confidence Andre/André Bayet identity but supplies no pre-SOE employer.
+  Leon Baumlin remains only a probable rare-name Navy-radioman candidate, and
+  Ernest Baur, Sylvia Baylin, and Burton Baylis remain unresolved Box 43 cases.
+  Repeat imports were count-stable. No authenticated Catalog request, credential,
+  raw API response, full private identifier, sensitive personal detail, or
+  discovery-only employer claim was used or published.
+- Public-visible affiliations: 568
+- Database claims: 1,126; public-visible claims: 1,101 (209 confirmed, 721 high,
+  164 medium, 7 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,309; private source records: 2,128; public source export:
+  1,150; unique source documents: 926
+- Canonical organizations: 313 private and 310 public
+- Conflicting claims: 7
 - NARA pull-list rows: 23,821
 
 Planned dry-run requests do not count as research-attempt coverage.
@@ -2046,6 +2066,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-barnett-through-barnhart-pathways_batch-147_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-twenty-four-barnhart-through-baron-pathways_batch-148_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-four-baron-through-barr-pathways_batch-149_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-leon-baumlin-through-burton-baylis-pathways_batch-164_2026-08-02.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

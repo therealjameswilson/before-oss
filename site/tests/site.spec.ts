@@ -14608,3 +14608,110 @@ test("Batch 163 preserves Bauman through Baumler occupation ambiguity, date conf
   await expect(page.locator("main")).toContainText("enlisted naval personnel");
   await expect(page.locator("main")).toContainText("printed rating M 2/c");
 });
+
+test("Batch 164 preserves Baumlin through Baylis identity qualifications, the Bavosa conflict, and Allied pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e9e4a7d1-e85e-5c24-b70d-5a6b222b229d", "Leon H Baumlin", "Not printed"],
+    ["f718789d-ee8e-5563-a975-639fbd1614b3", "Ernest Baur", "Not printed"],
+    ["187fde29-24e5-54db-8cda-445b6cf4fb8e", "George W Bauserman", "T-5"],
+    ["af235a72-6264-5795-81af-e65752d0b1b3", "Vito L Bavosa", "T-4"],
+    ["4991e2b6-7da8-5359-b281-c54ebbfd7cbd", "Ting Bawm", "Not printed"],
+    ["b4fab6de-673b-5e24-a552-7be4ae695c12", "Glen W Baxter", "Cpl"],
+    ["0481f178-4ac5-565a-8a7a-09733f86f6fa", "James P Baxter III", "WO C"],
+    ["c763bea0-36a0-5086-a8f3-438b081496ce", "Andre Bayet", "Lt"],
+    ["36b8f377-01cb-5b7d-a42c-f72e40babf95", "Sylvia Baylin", "Caf-4"],
+    ["75d355f2-feab-5b0b-8a2d-bf664df61ab0", "Burton Baylis", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("43", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 27");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "f718789d-ee8e-5563-a975-639fbd1614b3",
+    "36b8f377-01cb-5b7d-a42c-f72e40babf95",
+    "75d355f2-feab-5b0b-8a2d-bf664df61ab0",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const occupationProfiles = [
+    [
+      "187fde29-24e5-54db-8cda-445b6cf4fb8e",
+      "Motorcycle mechanic, high-explosives packer, toolroom keeper, stock clerk, or stock-control clerk",
+    ],
+    [
+      "b4fab6de-673b-5e24-a552-7be4ae695c12",
+      "Cashier, stock-record clerk, or general bookkeeper",
+    ],
+  ];
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/e9e4a7d1-e85e-5c24-b70d-5a6b222b229d/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Radioman 1st Class");
+  await expect(page.getByRole("link", { name: "Minute Interviews", exact: true }).first()).toHaveAttribute(
+    "href",
+    /wikimedia\.org/,
+  );
+
+  await page.goto("./people/af235a72-6264-5795-81af-e65752d0b1b3/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("HANNING JOHN J");
+  await expect(page.locator("main")).toContainText("do not use either namesake's history");
+
+  await page.goto("./people/4991e2b6-7da8-5359-b281-c54ebbfd7cbd/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Burma Rifles",
+  );
+  await expect(page.locator("main")).toContainText("temporal relation uncertain");
+  await expect(page.getByRole("link", { name: "The Men of SOE Burma", exact: true }).first()).toHaveAttribute(
+    "href",
+    /soeinburma\.com/,
+  );
+
+  await page.goto("./people/c763bea0-36a0-5086-a8f3-438b081496ce/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("André Bayet");
+  await expect(page.locator("main")).toContainText("Commissioned officer");
+  await expect(page.getByRole("link", { name: "In Memoriam: André Bayet", exact: true }).first()).toHaveAttribute(
+    "href",
+    /fratap\.be/,
+  );
+
+  await page.goto("./people/0481f178-4ac5-565a-8a7a-09733f86f6fa/");
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Williams College",
+  );
+
+  await page.goto("./organizations/7a352b94-1671-5b62-87af-3681dd9cea4c/");
+  await expect(page.getByRole("heading", { name: "Burma Rifles", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("2 Burif");
+  await expect(page.locator("h3").getByRole("link", { name: "Ting Bawm", exact: true })).toBeVisible();
+});

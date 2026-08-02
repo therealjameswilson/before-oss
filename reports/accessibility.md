@@ -4,16 +4,16 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 534 / 534 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 537 / 537 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 178 desktop, 178 phone, and 178 tablet cases. Every case
+The matrix contains 179 desktop, 179 phone, and 179 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 534-case matrix.
+combined 537-case matrix.
 
 Routes tested at all three sizes:
 
@@ -42,6 +42,16 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 164 adds direct desktop, phone, and tablet checks for Leon H. Baumlin
+through Burton Baylis on page twenty-seven. It verifies all ten source rows,
+Box 43 routing, printed ranks or civilian grades, page locators, and masked or
+unprinted identifiers while carrying James P. Baxter III's established profile
+forward unchanged. George W. Bauserman and Glen W. Baxter retain occupation-
+only evidence rather than named employers; Vito L. Bavosa's identifier conflict
+remains visible without exposing the full number or borrowing either namesake's
+history; Ting Bawm's Burma Rifles pathway remains temporally qualified; Andre
+Bayet's Belgian lieutenant identity stays distinct from any unsupported prior-
+employer claim; and the unresolved profiles retain explicit archival guidance.
 Batch 163 adds direct desktop, phone, and tablet checks for Arthur V. Bauman
 through Charles Baumler on page twenty-seven. It verifies all ten source rows,
 Box 43 routing, printed ranks or civilian grades, page locators, masked or

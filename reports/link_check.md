@@ -4,16 +4,37 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,258 HTML files. Every relative
+**PASS.** The production build contains 24,259 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 309 organization profiles, and the
+The build includes 23,941 person profiles, 310 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,814 unique external URLs for separate live
+The checker inventoried 48,819 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 164 local release check
+
+The complete 24,259-page internal-link pass includes direct routes for Leon H.
+Baumlin, Ernest Baur, George W. Bauserman, Vito L. Bavosa, Ting Bawm, Glen W.
+Baxter, James P. Baxter III, Andre Bayet, Sylvia Baylin, and Burton Baylis, plus
+the new Burma Rifles organization route. The Batch 164 regression passed at
+desktop, phone, and tablet sizes. Occupation-only evidence remains distinct from
+employers, the Bavosa identifier conflict remains visible without publishing the
+full number, the Bawm Ting name-order variant and military pathway remain
+qualified, Bayet's Belgian SOE identity does not become a prior-employer claim,
+and unresolved profiles retain Box 43 archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`a58e10cb30ea127d05fa6bb0ffa6b3817a3c98da1d3cd1fb25a0849ff58804c6`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`0e6ac53603226ecabda6aaa34e8f966313265af5cb41236c12c73be8448e06cb`.
+The boundary-aware audit reviewed 997 candidate substrings across 24,329 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 163 local release check
 

@@ -5,33 +5,33 @@ Run: 2026-08-02 UTC
 - Python unit tests: **56 / 56 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,258 pages**
-- Internal link check: **24,258 HTML files passed**
-- Browser and accessibility suite: **534 / 534 passed** across desktop,
+- Static production build: **24,259 pages**
+- Internal link check: **24,259 HTML files passed**
+- Browser and accessibility suite: **537 / 537 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`185110f399fdfc5ade3df105fad5a211b8926548b2fcdb63b6586e71024a0f14`)
-- Latest deterministic build (Batch 163): **byte-for-byte identical** across
-  consecutive static builds and all **24,328** built-site artifacts.
+  (`0e6ac53603226ecabda6aaa34e8f966313265af5cb41236c12c73be8448e06cb`)
+- Latest deterministic build (Batch 164): **byte-for-byte identical** across
+  consecutive static builds and all **24,329** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `4aba95e2997fffbb529a77b2b43b11703a6adf82a1713591ca4567a5651d0aa7`
+  `a58e10cb30ea127d05fa6bb0ffa6b3817a3c98da1d3cd1fb25a0849ff58804c6`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,328** production artifacts, including compressed mirrors
+  matches** in **24,329** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,142** public records representing **922** unique documents
-- Private citation records: **2,120**
-- Published, qualified affiliations: **565**
-- Published or conflict-visible claims: **1,092**
+- Reviewed public sources: **1,150** public records representing **926** unique documents
+- Private citation records: **2,128**
+- Published, qualified affiliations: **568**
+- Published or conflict-visible claims: **1,101**
 - Withheld low-confidence evidence: **25 claims concerning 20 people**
-- Verified-affiliation metric: **266** people with confirmed/high published
+- Verified-affiliation metric: **267** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **153** people with confirmed/high published
   employment or self-employment evidence
@@ -50,10 +50,58 @@ Run: 2026-08-02 UTC
   matrix runs in release CI
 - Batch 163 local release checks: **passed**; the combined **534-case** browser
   matrix runs in release CI
+- Batch 164 local release checks: **passed**; the combined **537-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 164 local release QA
+
+Batch 164 adds the ten visually checked page-twenty-seven rows from Leon H.
+Baumlin through Burton Baylis. James P. Baxter III's previously reviewed profile
+is carried forward unchanged. The strict bundle imports eight sources, one
+organization, three affiliations, nine claims, twenty-three claim-source links,
+nine person updates, and nine terminal research attempts. Exact private-
+identifier matches in the official NARA Army enlistment merged file support
+qualified occupation-only findings for George W. Bauserman and Glen W. Baxter,
+without naming employers. The private identifier printed for Vito L. Bavosa
+instead resolves to John J. Hanning; the conflict is public while the number is
+not, and neither Hanning's history nor a separate Vito A. Bavosa record is
+borrowed. Ting Bawm's Burma Rifles pathway and Andre Bayet's Belgian SOE identity
+are published with explicit OSS-linkage or temporal limits. Leon H. Baumlin
+remains a probable Navy-radioman candidate, and three profiles remain unresolved.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 56 / 56, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,259 pages. The internal-link checker passed all 24,259 HTML files and
+inventoried 48,819 unique external URLs. The browser, responsive, direct-route,
+search, and axe matrix passed 537 / 537 across desktop, phone, and tablet,
+including 27 / 27 dedicated axe cases. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`0e6ac53603226ecabda6aaa34e8f966313265af5cb41236c12c73be8448e06cb`
+across 24,329 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `a58e10cb30ea127d05fa6bb0ffa6b3817a3c98da1d3cd1fb25a0849ff58804c6`.
+The boundary-aware scan examined 997 candidate substrings and found zero
+unexpected matches. No authenticated Catalog request, API credential, or raw
+Catalog response was used or stored.
+
+The Batch 164 database contains 2,488 durable research attempts, 2,128 private
+source records representing 926 unique documents, 313 organizations, 575
+affiliations, 1,126 claims, and 2,309 claim-source links. Claim confidence is
+209 confirmed, 721 high, 164 medium, 25 low, and seven conflicting. The public
+projection contains 1,150 sources, 310 organizations, 568 affiliations, and
+1,101 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,455 people with a non-planned research attempt, 267 with
+verified-affiliation evidence, 153 with verified employment or self-employment
+evidence, and 1,404 whose archival-review need has been assessed. The
+`not_started` count is 22,486 and `requires_archival_review` is 1,048.
 
 ## Batch 163 local release QA
 
