@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,426 people with a non-planned attempt | 23,941 person entities | 5.9563% |
-| Verified-affiliation coverage | 266 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1111% |
+| Research-attempt coverage | 1,436 people with a non-planned attempt | 23,941 person entities | 5.9981% |
+| Verified-affiliation coverage | 267 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1152% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,375 people with an individual file-access/priority assessment | 23,941 person entities | 5.7433% |
+| Archival-review coverage | 1,385 people with an individual file-access/priority assessment | 23,941 person entities | 5.7851% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 97
-- Identity status `high_confidence`: 336
-- Identity status `probable`: 47
+- Identity status `confirmed`: 100
+- Identity status `high_confidence`: 338
+- Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 6
-- Identity status `unresolved`: 23,429
+- Identity status `unresolved`: 23,423
 
 ## Personnel categories
 
@@ -42,18 +42,18 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Commissioned naval officers: 81
 - Warrant officers: 5
 
-Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
+Commissioned classification: 2,169 yes; 5,048 no; 16,724 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,515
+- `not_started`: 22,505
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 33
-- `occupation_only_found`: 82
-- `requires_archival_review`: 1,029
+- `occupation_only_found`: 85
+- `requires_archival_review`: 1,036
 - `completed`: 55
 - `conflicting_sources`: 5
 - `verified_employer_found`: 157
@@ -65,7 +65,7 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 850
+- Reviewed-web terminal-protocol attempts recorded: 860
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -82,12 +82,12 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 478 across 458 people; 30 additional
+- Saved `source_reviewed` outcomes: 483 across 463 people; 31 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,459
+- Total recorded attempts/plans: 2,469
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 462; 444 have at least one public-eligible
+- People with saved reviewed claims: 467; 449 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1799,12 +1799,30 @@ Commissioned classification: 2,168 yes; 5,048 no; 16,725 indeterminate.
   No authenticated Catalog request, credential, raw API response, full private
   identifier, sensitive personal detail, or discovery-only employer claim was
   used or published.
-- Public-visible affiliations: 556
-- Database claims: 1,100; public-visible claims: 1,075 (201 confirmed, 716 high,
-  152 medium, 6 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,234; private source records: 2,103; public source export:
-  1,126; unique source documents: 913
-- Canonical organizations: 311 private and 308 public
+- Batch 162 covers the next ten visually checked page-twenty-seven rows, Joseph
+  A. Bauer through Warren C. Baum. The strict bundle imports nine sources,
+  three organizations, six affiliations, eleven claims, ten person updates,
+  and ten terminal research attempts; direct repeat import and a clean rebuild
+  produced the same counts. Exact private-identifier matches to NARA's official
+  Army enlistment merged file confirm Joseph A. Bauer, Raymond W. Bauer, and
+  Howard Baum, but the file supports only qualified occupation categories and
+  names no employer. A contemporary *Cache American* notice and a later
+  funeral-home obituary support Evan A. Baugh's high-confidence Utah State
+  Agricultural College-to-Army pathway; the college is correctly modeled as
+  student status, not employment. Warren C. Baum's Washington Post obituary
+  and World Bank oral history support a high-confidence Columbia University
+  student pathway before OSS service, again not an employer. Jean P. Baugier
+  remains a probable French-officer identity requiring archival linkage.
+  Robert A. Bauer, Jeanette K. Baum, Ludwig Baum, and Robert E. Baum remain
+  unresolved and route to Box 42 review. No authenticated Catalog request,
+  credential, raw API response, full private identifier, sensitive personal
+  detail, or discovery-only employer claim was used or published.
+- Public-visible affiliations: 562
+- Database claims: 1,111; public-visible claims: 1,086 (204 confirmed, 719 high,
+  157 medium, 6 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,265; private source records: 2,112; public source export:
+  1,135; unique source documents: 918
+- Canonical organizations: 312 private and 309 public
 - Conflicting claims: 6
 - NARA pull-list rows: 23,821
 
@@ -1847,6 +1865,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-joseph-bauer-through-warren-baum-pathways_batch-162_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-six-robert-bates-through-battaglio-pathways_batch-160_2026-08-02.json
 python3 -m oss_research nara-check
 python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 111 --resume

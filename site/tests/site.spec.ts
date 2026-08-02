@@ -14395,3 +14395,122 @@ test("Batch 161 preserves Batten through Bauer occupations, identity limits, and
     page.getByRole("link", { name: /Ann Battie Horvitz/ }).first(),
   ).toHaveAttribute("href", /washingtonpost\.com/);
 });
+
+test("Batch 162 preserves Bauer and Baum occupation ambiguity, Baugh's Army pathway, and Warren Baum's student pathway", async ({
+  page,
+}) => {
+  const profiles = [
+    ["a41cd684-2907-5041-9881-24a6a19500d2", "Joseph A Bauer", "Sgt"],
+    ["f86e0661-55ae-5f8c-b9ec-c7f649a289db", "Raymond W Bauer", "T-5"],
+    ["7f30e5eb-8642-59ea-9995-e0e867a413b4", "Robert A Bauer", "Not printed"],
+    ["ad30e6ea-f0e7-51df-a835-4681b5058a43", "Evan A Baugh", "Capt"],
+    ["5d4eafdf-592f-5bc7-ab62-ee94de93f6da", "Jean P Baugier", "S/Lt"],
+    ["5b34adcc-daab-5557-849a-635ab425fe02", "Howard Baum", "Cpl"],
+    ["efc4c7c1-7b84-57c5-8b65-2946b4cfc64a", "Jeanette K Baum", "Not printed"],
+    ["2fcbf624-7f68-5d3a-b913-8baaef61b0fa", "Ludwig Baum", "Not printed"],
+    ["0cd289aa-9023-51f7-be27-027c6390c177", "Robert E Baum", "2nd Lt"],
+    ["ef6e4111-0979-59b7-81bb-8e060f7cf36f", "Warren C Baum", "2nd Lt"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("42", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 27");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "7f30e5eb-8642-59ea-9995-e0e867a413b4",
+    "efc4c7c1-7b84-57c5-8b65-2946b4cfc64a",
+    "2fcbf624-7f68-5d3a-b913-8baaef61b0fa",
+    "0cd289aa-9023-51f7-be27-027c6390c177",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  const occupationProfiles = [
+    [
+      "a41cd684-2907-5041-9881-24a6a19500d2",
+      "Motorcycle mechanic, high-explosives packer, toolroom keeper, stock clerk, or stock-control clerk",
+    ],
+    ["f86e0661-55ae-5f8c-b9ec-c7f649a289db", "Job pressman or casting-machine operator"],
+    [
+      "5b34adcc-daab-5557-849a-635ab425fe02",
+      "Powerhouse engineer, generator-switchboard operator, or telephone powerman",
+    ],
+  ];
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+
+  await page.goto("./people/ad30e6ea-f0e7-51df-a835-4681b5058a43/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Utah State University",
+  );
+  await expect(page.locator("main")).toContainText("Fort Warden/Worden");
+  await expect(page.getByRole("link", { name: "Local News", exact: true }).first()).toHaveAttribute(
+    "href",
+    /loganutlibrary/,
+  );
+
+  await page.goto("./people/ef6e4111-0979-59b7-81bb-8e060f7cf36f/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Columbia University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.getByRole("link", { name: /Warren C\. Baum Obituary/ }).first()).toHaveAttribute(
+    "href",
+    /legacy\.com/,
+  );
+  await expect(
+    page.getByRole("link", { name: /Transcript of Interview with Warren C\. Baum/ }).first(),
+  ).toHaveAttribute("href", /worldbank\.org/);
+
+  await page.goto("./people/5d4eafdf-592f-5bc7-ab62-ee94de93f6da/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("General Order 47");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./organizations/8f0623d1-990a-54a3-b532-389fd90c879b/");
+  await expect(page.getByRole("heading", { name: "Utah State University", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Utah State Agricultural College");
+  await expect(page.locator("h3").getByRole("link", { name: "Evan A Baugh", exact: true })).toBeVisible();
+
+  await page.goto("./organizations/87e3d52a-9ace-512a-9677-e966b7fbd5e5/");
+  await expect(page.getByRole("heading", { name: "Columbia University", exact: true })).toBeVisible();
+  await expect(page.locator("h3").getByRole("link", { name: "Warren C Baum", exact: true })).toBeVisible();
+});

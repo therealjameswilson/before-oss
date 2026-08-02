@@ -4,16 +4,37 @@ Run: 2026-08-02 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,257 HTML files. Every relative
+**PASS.** The production build contains 24,258 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 308 organization profiles, and the
+The build includes 23,941 person profiles, 309 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,806 unique external URLs for separate live
+The checker inventoried 48,812 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 162 local release check
+
+The complete 24,258-page internal-link pass includes direct routes for Joseph
+A. Bauer, Raymond W. Bauer, Robert A. Bauer, Evan A. Baugh, Jean P. Baugier,
+Howard Baum, Jeanette K. Baum, Ludwig Baum, Robert E. Baum, and Warren C. Baum.
+It also includes the Utah State Agricultural College, U.S. Army, and Columbia
+University organization routes. The Batch 162 regression passed at desktop,
+phone, and tablet sizes. Three official-record occupation findings remain
+distinct from employers; Evan Baugh's and Warren Baum's student pathways remain
+non-employment affiliations; Baugh's Army pathway remains a military
+assignment; and the unresolved profiles retain archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`80ad3a85d563db58915b91ce8da1d02c49f87a8000fae1f10219f8534b92d425`.
+Consecutive production builds produced the same sorted length-delimited
+path-and-file-SHA-256 tree digest,
+`39e4ba230c898a0d1b5b3bd1d32a371611d6efbc48e69d880ec8001a82cd4175`.
+The boundary-aware audit reviewed 996 candidate substrings across 24,328 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 161 local release check
 
