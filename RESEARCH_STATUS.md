@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,180 people with a non-planned attempt | 23,941 person entities | 4.9288% |
-| Verified-affiliation coverage | 246 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0275% |
+| Research-attempt coverage | 1,190 people with a non-planned attempt | 23,941 person entities | 4.9706% |
+| Verified-affiliation coverage | 247 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.0317% |
 | Verified-employer coverage | 140 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.5848% |
-| Archival-review coverage | 1,128 people with an individual file-access/priority assessment | 23,941 person entities | 4.7116% |
+| Archival-review coverage | 1,138 people with an individual file-access/priority assessment | 23,941 person entities | 4.7534% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 82
+- Identity status `confirmed`: 83
 - Identity status `high_confidence`: 310
 - Identity status `probable`: 48
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 5
-- Identity status `unresolved`: 23,470
+- Identity status `unresolved`: 23,469
 
 ## Personnel categories
 
@@ -46,14 +46,14 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,761
+- `not_started`: 22,751
 - `in_progress`: 51
 - `candidate_found`: 1
 - `needs_identity_review`: 14
 - `needs_temporal_review`: 1
 - `documented_prewar_employer_found`: 32
-- `occupation_only_found`: 68
-- `requires_archival_review`: 811
+- `occupation_only_found`: 69
+- `requires_archival_review`: 820
 - `completed`: 55
 - `conflicting_sources`: 4
 - `verified_employer_found`: 143
@@ -65,7 +65,7 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 31
 - Reviewed-institutional-web attempts recorded: 2
-- Reviewed-web terminal-protocol attempts recorded: 612
+- Reviewed-web terminal-protocol attempts recorded: 622
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -80,12 +80,12 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 436 across 416 people; 30 additional
+- Saved `source_reviewed` outcomes: 437 across 417 people; 30 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,211
+- Total recorded attempts/plans: 2,221
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 421; 403 have at least one public-eligible
+- People with saved reviewed claims: 422; 404 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1412,11 +1412,29 @@ Commissioned classification: 2,167 yes; 5,042 no; 16,732 indeterminate.
   updates, and ten terminal attempts. No authenticated Catalog request, API
   credential, raw response, full private identifier, people-finder record, or
   discovery-only employer claim was used or published.
-- Published affiliations: 504
-- Database claims: 997; public-visible claims: 976 (185 confirmed, 652 high,
+- Batch 137 continues the visually verified page-twenty-one sequence from
+  Robert B. Bangs through John J. Bann, skipping the already researched Aaron
+  Bank row. The strict bundle adds 11 sources, two organization definitions
+  (one existing and one new), two military affiliations, four claims, eight
+  claim-source links, ten person updates, and ten terminal attempts. Nine
+  identities remain unresolved after the minimum
+  protocol and route to high-priority Box 34 review; exact-name and common-name
+  candidates lacking the private identifier, OSS linkage, and required
+  corroborators were rejected rather than merged. An official U.S. Army
+  Special Operations Command history cites Leif Bangsboll's exact Box 0034,
+  Entry 224 personnel folder, confirming the identity. It supports the U.S.
+  Army as his strongly date-bounded immediate pre-OSS military assignment,
+  with earlier Norwegian Air Force service in exile in Canada. The same source
+  documents merchant-marine work but names no shipping company, so that fact
+  remains occupation-only and does not enter employer analytics. No
+  authenticated Catalog request, credential, raw response, full private
+  identifier, people-finder record, or discovery-only employer claim was used
+  or published.
+- Published affiliations: 506
+- Database claims: 1,001; public-visible claims: 980 (186 confirmed, 655 high,
   135 medium, 4 conflicting); 21 low-confidence claims are withheld
-- Citation links: 1,992; public source export: 1,027; unique source documents: 843
-- Canonical organizations: 290 private and 288 public
+- Citation links: 2,000; public source export: 1,029; unique source documents: 844
+- Canonical organizations: 291 private and 289 public
 - Conflicts: 5
 - NARA pull-list rows: 23,835
 
@@ -1601,6 +1619,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-b
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-twenty-one-ballew-through-bally-pathways_batch-134_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-one-balog-through-balvott-pathways_batch-135_2026-08-01.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-one-balzarini-through-banfill-pathways_batch-136_2026-08-01.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-one-bangs-through-bann-pathways_batch-137_2026-08-01.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

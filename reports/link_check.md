@@ -3589,6 +3589,28 @@ An independent 88-artifact live scan compared 12,919 normalized private
 identifiers and 121 formatted variants, rejected 700 substring coincidences,
 and found zero full boundary matches.
 
+## Batch 137 local release check
+
+The deterministic Batch 137 build generated 24,238 HTML files. The internal
+link checker visited the complete built tree, found zero unresolved internal
+links, and inventoried 48,732 unique external URLs for separate live checking.
+
+The focused desktop, phone, and tablet regression opened all ten direct
+profiles and passed 3 / 3. The complete browser and accessibility matrix
+passed 456 / 456. The U.S. Army Special Operations Command history is an
+intentional evidence target for Leif Bangsboll. His profile visibly separates
+the immediate U.S. Army assignment, earlier Norwegian Air Force assignment,
+and merchant-marine occupation, retains the unnamed-employer gap, and exposes
+no authenticated Catalog URL or credential-bearing request.
+
+All 65 manifest assets match their recorded sizes and hashes in the public
+source and built trees. The manifest SHA-256 is
+`b32b600c586a1a66fcbdd9054a5188f41fad2b773091a5eb96722f6cf55f6440`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants across all 24,308 local production artifacts,
+including compressed mirrors, rejected 988 substring coincidences, and found
+zero unexpected boundary matches.
+
 ## Batch 136 local release check
 
 The deterministic Batch 136 build generated 24,237 HTML files. The internal

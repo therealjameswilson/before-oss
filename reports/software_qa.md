@@ -5,37 +5,38 @@ Run: 2026-08-02 UTC
 - Python unit tests: **55 / 55 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,237 pages**
-- Internal link check: **24,237 HTML files passed**
-- Browser and accessibility suite: **453 / 453 passed** across desktop, phone,
+- Static production build: **24,238 pages**
+- Internal link check: **24,238 HTML files passed**
+- Browser and accessibility suite: **456 / 456 passed** across desktop, phone,
   and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical SHA-256 content-tree hashes**
-  (`0335c3bec066aeae3fe79f49a20ee297954e6b429a9c4de88d48361af98f8c4d`)
-- Latest deterministic build (Batch 136): **byte-for-byte identical** across
-  two consecutive static builds and all **24,307** built-site artifacts.
+  (`1fe4a78ac5552bc843100b5593b28c3b3bb9382043857ccbf613cc35847497c3`)
+- Latest deterministic build (Batch 137): **byte-for-byte identical** across
+  two consecutive static builds and all **24,308** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `8d6b675dc5faa9a395291bbaad613c10b830db4e75b5cfff2016aa8075348f1a`
+  `b32b600c586a1a66fcbdd9054a5188f41fad2b773091a5eb96722f6cf55f6440`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,307** production artifacts, including compressed mirrors
+  matches** in **24,308** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,027** public records representing **843** unique documents
-- Private citation records: **1,852**
-- Published, qualified affiliations: **504**
-- Published or conflict-visible claims: **976**
+- Reviewed public sources: **1,029** public records representing **844** unique documents
+- Private citation records: **1,863**
+- Published, qualified affiliations: **506**
+- Published or conflict-visible claims: **980**
 - Withheld low-confidence evidence: **21 claims concerning 18 people**
-- Verified-affiliation metric: **246** people with confirmed/high published
+- Verified-affiliation metric: **247** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **140** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batch 136 local release and production deployment checks: **passed**
+- Batch 137 local release checks: **passed**; production deployment verification
+  follows the release commit
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -3342,6 +3343,67 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 137 local release QA
+
+Batch 137 continues the fully rendered and visually verified page-twenty-one
+sequence with ten researched people from Robert B. Bangs through John J. Bann,
+skipping the previously researched Aaron Bank row. The strict evidence bundle
+imports 11 sources, two canonical organizations, two military affiliations,
+four claims, eight claim-source links, ten person updates, and ten terminal
+research attempts. It replays idempotently.
+
+Nine identities remain unresolved and retain high-priority Box 34 guidance.
+An exact-name legal result for Robert B. Bangs, a conflicting-middle-initial
+cemetery result for Harold J. Banker, and multiple common-name Banks and Bann
+candidates lacked the private identifier, OSS evidence, or required
+corroborators and were rejected rather than merged. The source's unusual
+“Clayton, Jr.” column text remains recoverable, and CAF-3 and CAF-2 remain
+civilian grades rather than occupations.
+
+The U.S. Army Special Operations Command History Office directly cites Leif
+Bangsboll's Folder Bangsboll, Leif, Box 0034, Entry 224 personnel file. That
+rare-name, exact-box linkage confirms the identity and supports a high-
+confidence U.S. Army immediate pre-OSS military assignment from 22 March 1943
+until OSS recruitment in September 1943. The same source documents earlier
+flight-sergeant service with the Norwegian Air Force in exile in Canada and a
+merchant-marine occupation. The intervening Norwegian and U.S. Army service
+means the merchant marine is not immediate; because no shipping company is
+named, it remains occupation-only and does not enter employer analytics.
+
+The evidence bundle passed Pydantic validation and replayed idempotently.
+SQLite `quick_check` returned `ok`, and the foreign-key check returned zero
+rows. The Python suite passed 55 / 55, and the deterministic 200-profile audit
+passed every invariant. Astro reported zero errors, warnings, or hints and
+built 24,238 pages. The focused regression passed 3 / 3, and the complete
+browser, responsive, direct-route, search, and axe matrix passed 456 / 456 in
+8.8 minutes. The 27 dedicated axe cases reported no serious violations. The
+dependency audit found zero vulnerabilities. The internal-link checker passed
+all 24,238 HTML files and inventoried 48,732 unique external URLs.
+
+Two consecutive builds produced the identical
+`1fe4a78ac5552bc843100b5593b28c3b3bb9382043857ccbf613cc35847497c3`
+content-tree hash across 24,308 artifacts. All 65 public manifest assets match
+their recorded sizes and SHA-256 values in the public source and built site.
+The manifest SHA-256 is
+`b32b600c586a1a66fcbdd9054a5188f41fad2b773091a5eb96722f6cf55f6440`.
+The boundary-aware audit compared 12,919 normalized private identifiers and
+121 formatted variants against all 24,308 production artifacts, rejected 988
+substring coincidences, and found zero unexpected boundary matches. No local
+`.env`, authenticated Catalog request, raw Catalog response, or nonblank
+tracked API-key assignment was used.
+
+The Batch 137 database contains 2,221 durable research attempts, 1,863 private
+source records, 291 organizations, 511 affiliations, 1,001 claims, and 2,000
+claim-source links. Claim confidence counts are 186 confirmed, 655 high, 135
+medium, 21 low, and four conflicting. The public projection contains 1,029
+source records representing 844 unique documents, 289 organizations, 506
+affiliations, and 980 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,190 people with a non-planned research attempt, 247
+with verified-affiliation evidence, 140 with verified employment or self-
+employment evidence, and 1,138 whose archival-review need has been assessed.
+Public downloads contain 23,941 people, 289 organizations, 506 affiliations,
+and 1,029 sources.
 
 ## Batch 136 local release QA
 

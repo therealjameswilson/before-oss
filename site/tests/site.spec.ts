@@ -12516,3 +12516,69 @@ test("Batch 136 preserves index spelling and qualifies COI, radio, and student e
     /gpbarchives\.org/,
   );
 });
+
+test("Batch 137 preserves ten Box 34 rows and separates Bangsboll's military path from occupation", async ({
+  page,
+}) => {
+  const allProfiles = [
+    ["675258e8-bfa4-582b-a4db-6a629fbc6767", "Robert B Bangs"],
+    ["a0a56884-8b58-58fd-b9b6-9511c915cdad", "Leif Bangsboll"],
+    ["aba5eb49-454a-56a2-b06c-0626e38fd239", "Clarence Banister"],
+    ["5e148586-fd1d-5963-9b3e-9ec5f19758b6", "Harold J Banker"],
+    ["154aab22-6b38-5701-9221-40e05bd1b409", "Clayton F Banks Jr."],
+    ["46203234-2e48-5d6a-9f78-a01d85cbe923", "Elmer C Banks"],
+    ["355fdf38-9fbc-5946-8966-563de6e603a0", "Isabel E Banks"],
+    ["a6016289-6929-569b-b54e-085a4d5012ab", "John M Banks"],
+    ["b60de010-276d-5de6-8ea9-ab43583fd005", "Samuel L Banks"],
+    ["add11dce-91f7-5419-8afd-29861c6ba91e", "John J Bann"],
+  ];
+
+  for (const [personId, displayName] of allProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("34", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 21");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "675258e8-bfa4-582b-a4db-6a629fbc6767",
+    "aba5eb49-454a-56a2-b06c-0626e38fd239",
+    "5e148586-fd1d-5963-9b3e-9ec5f19758b6",
+    "154aab22-6b38-5701-9221-40e05bd1b409",
+    "46203234-2e48-5d6a-9f78-a01d85cbe923",
+    "355fdf38-9fbc-5946-8966-563de6e603a0",
+    "a6016289-6929-569b-b54e-085a4d5012ab",
+    "b60de010-276d-5de6-8ea9-ab43583fd005",
+    "add11dce-91f7-5419-8afd-29861c6ba91e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  await page.goto("./people/a0a56884-8b58-58fd-b9b6-9511c915cdad/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator("main")).toContainText("Norwegian Air Force in Exile");
+  await expect(page.locator("main")).toContainText("flight sergeant");
+  await expect(page.locator("main")).toContainText("merchant marine");
+  await expect(page.locator("main")).toContainText("occupation only");
+  await expect(
+    page.getByRole("link", {
+      name: "The Office of Strategic Services (OSS) Influence on Special Forces",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /arsof-history\.org/);
+});

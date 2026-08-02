@@ -2074,6 +2074,24 @@ also completed successfully. All 17 audited live routes returned HTTP 200 and
 matched their local accessible HTML after development and production
 canonical-host normalization.
 
+## Batch 137 accessibility and responsive regression
+
+Batch 137 adds direct-route coverage for Robert B. Bangs, Leif Bangsboll,
+Clarence Banister, Harold J. Banker, Clayton F. Banks Jr., Elmer C. Banks,
+Isabel E. Banks, John M. Banks, Samuel L. Banks, and John J. Bann. The focused
+test passed 3 / 3 at desktop, phone, and tablet widths. It checks each indexed
+name, source page and Box 34, masked or explicitly unprinted identifier,
+research state, employer-gap language, and immediate-affiliation boundary.
+
+The regression separately verifies that Bangsboll's confirmed identity and
+occupation-only research state coexist with a published U.S. Army immediate
+military assignment, an earlier Norwegian Air Force assignment, and an
+unnamed merchant-marine occupation. The other nine profiles remain unresolved
+and route to archival review without promoting namesakes. The complete
+Playwright matrix passed 456 / 456 in 8.8 minutes across all three viewports.
+Twenty-seven axe scans—nine representative routes per viewport—reported no
+serious accessibility violations.
+
 ## Batch 136 accessibility and responsive regression
 
 Batch 136 adds direct-route coverage for Louis Balzarini, William G. Balzer,
