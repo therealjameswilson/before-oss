@@ -4,16 +4,16 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 516 / 516 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 519 / 519 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 172 desktop, 172 phone, and 172 tablet cases. Every case
+The matrix contains 173 desktop, 173 phone, and 173 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 507-case matrix.
+combined 519-case matrix.
 
 Routes tested at all three sizes:
 
@@ -42,6 +42,13 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 158 adds direct desktop, phone, and tablet checks for Anthony L. Basile
+through Horace E. Bastain on page twenty-six. It verifies all ten source rows,
+Box 41 routing, printed ranks or the absence of a printed grade, and masked
+identifier display. Every profile retains explicit unresolved and archival-
+review status, no unsupported employer or immediate-affiliation claim appears,
+and the prominent Perry Bass namesake and later Hale Basnett oil-and-gas
+references remain withheld from the affiliation sections.
 Batch 157 adds direct desktop, phone, and tablet checks for Paul E. Baschor
 through George T. Basiardanes across pages twenty-five and twenty-six. It
 verifies all ten source rows, Box 41 routing, printed ranks and grades, and

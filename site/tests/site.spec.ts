@@ -14024,3 +14024,49 @@ test("Batch 157 separates Bascom and Basehart pathways from confirmed identity a
     await expect(page.getByRole("link", { name: personName, exact: true })).toBeVisible();
   }
 });
+
+test("Batch 158 preserves Basile through Bastain rows as explicit archival-review cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8474ae53-211e-5077-b450-a346025e9ec4", "Anthony L Basile", "Maj"],
+    ["475d4cc4-1eb6-5097-b0ec-e0d3881bd264", "Helen L Basinger", "Not printed"],
+    ["b9e15811-d1e9-5904-90fb-62610da1a187", "Elizabeth Baske", "Not printed"],
+    ["d55ee400-9e01-58b5-ade4-4cc2ee6aa458", "Hale J Basnett", "Pfc"],
+    ["7411d2f3-1128-5261-b284-d9588f0fd477", "Raymond Basnett", "Pfc"],
+    ["b9b7f9f2-2654-5368-8874-84f0aa3e7aa7", "John H Bass Jr.", "T-4"],
+    ["75df3575-9c48-512d-b31c-698623947ced", "Perry Bass", "Not printed"],
+    ["25f8fe36-3199-5432-8e08-8e7b37704531", "Maurice M Basset", "Capt"],
+    ["60abed34-311b-5307-8438-f2eefeabee66", "James A Bassford", "T/Sgt"],
+    ["0a234201-01a2-54d4-8d0a-bb23a8b97599", "Horace E Bastain", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("41", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 26");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+    await expect(page.locator("main")).toContainText("Review Box 41");
+  }
+
+  await page.goto("./people/75df3575-9c48-512d-b31c-698623947ced/");
+  await expect(page.locator("main")).not.toContainText("Bass Enterprises");
+  await expect(page.locator("main")).not.toContainText("Sid Richardson");
+
+  await page.goto("./people/d55ee400-9e01-58b5-ade4-4cc2ee6aa458/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).not.toContainText(
+    "oil and gas",
+  );
+});

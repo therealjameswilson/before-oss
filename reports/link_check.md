@@ -15,6 +15,26 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,789 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 158 local release check
+
+The complete 24,253-page internal-link pass includes direct routes for Anthony
+L. Basile, Helen L. Basinger, Elizabeth Baske, Hale J. Basnett, Raymond
+Basnett, John H. Bass Jr., Perry Bass, Maurice M. Basset, James A. Bassford,
+and Horace E. Bastain. The Batch 158 regression passed at desktop, phone, and
+tablet sizes. All ten profiles preserve their visually checked page-26 values,
+Box 41 routing, masked identifier display, explicit no-result language, and
+archival-review guidance. Plausible but unlinked Basile, Basnett, Bassford,
+and Bastain namesakes remain rejected candidates rather than published facts.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values in
+both public source and built trees. The manifest SHA-256 is
+`a9fd1d6389a53e39de94973df2f2de8a75cc359c2e9e90802aa6045d07fa3f83`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`10b7afadefbaa45dda8db5cfbb0d680712b8a6060e6431a77de2a2b2f18b032b`.
+The boundary-aware audit reviewed 993 candidate substrings across 24,323 built
+artifacts and found zero unexpected private-identifier matches.
+
 ## Batch 157 local release check
 
 The complete 24,253-page internal-link pass includes direct routes for Paul E.
