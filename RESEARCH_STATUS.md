@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,565 people with a non-planned attempt | 23,941 person entities | 6.5369% |
+| Research-attempt coverage | 1,575 people with a non-planned attempt | 23,941 person entities | 6.5787% |
 | Verified-affiliation coverage | 273 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1403% |
 | Verified-employer coverage | 156 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6516% |
-| Archival-review coverage | 1,514 people with an individual file-access/priority assessment | 23,941 person entities | 6.3239% |
+| Archival-review coverage | 1,524 people with an individual file-access/priority assessment | 23,941 person entities | 6.3656% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 138
-- Identity status `high_confidence`: 349
+- Identity status `confirmed`: 143
+- Identity status `high_confidence`: 351
 - Identity status `probable`: 52
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 12
-- Identity status `unresolved`: 23,364
+- Identity status `unresolved`: 23,357
 
 ## Personnel categories
 
@@ -43,26 +43,26 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,173 yes; 5,059 no; 16,709 indeterminate.
+Commissioned classification: 2,173 yes; 5,061 no; 16,707 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,376
+- `not_started`: 22,366
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 2
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 121
-- `requires_archival_review`: 1,113
+- `occupation_only_found`: 127
+- `requires_archival_review`: 1,117
 - `completed`: 57
 - `conflicting_sources`: 12
 - `verified_employer_found`: 159
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 186
-- Live Library of Congress attempts: 337
+- Live CIA exact-name OSS attempts: 196
+- Live Library of Congress attempts: 347
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -80,7 +80,7 @@ Commissioned classification: 2,173 yes; 5,059 no; 16,709 indeterminate.
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
 - Reviewed-official-institutional-newspaper-and-web attempts recorded: 11
-- Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 7
+- Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 72
 - Reviewed-official-institutional-French-language-newspaper-and-web attempts recorded: 2
 - Reviewed-official-institutional-scholarly-French-language-and-web attempts recorded: 1
 - Reviewed-official-NSA-scholarly-institutional-and-web attempts recorded: 1
@@ -88,12 +88,12 @@ Commissioned classification: 2,173 yes; 5,059 no; 16,709 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 567 across 546 people; 39 additional
+- Saved `source_reviewed` outcomes: 574 across 553 people; 39 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,645
+- Total recorded attempts/plans: 2,675
 - Library of Congress discovery candidates: 36 total; 34 rejected after
   page-context review and two retained for review
-- People with saved reviewed claims: 526; 508 have at least one public-eligible
+- People with saved reviewed claims: 533; 515 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2006,11 +2006,23 @@ Commissioned classification: 2,173 yes; 5,059 no; 16,709 indeterminate.
   review. Two Library of Congress namesakes were rejected. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
-- Public-visible affiliations: 618
-- Database claims: 1,228; public-visible claims: 1,203 (242 confirmed, 738 high,
-  209 medium, 14 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,577; private source records: 2,206; public source export:
-  1,222; unique source documents: 968
+- Batch 177 covers Richard E. Beickman through Stephen, Jer. Beke. on page
+  thirty. Exact official Army-file matches support six qualified occupation-
+  only findings for Richard E. Beickman, William H. Beidelman Jr., George A.
+  Beishlag, Albert J. Bekaert, Sime Bekafigo, and Stephen, Jer. Beke.; none is
+  converted into a named employer. The University of Illinois register
+  supports Oliver W. Beimfohr's high-confidence identity but does not establish
+  that the university immediately preceded OSS service. Louis C. Beinert,
+  Howars F. Beir, and Marcelle Beirouty remain unresolved, while Stephen's
+  damaged converted Army name requires direct Box 47 comparison. All printed
+  spellings remain literal. No authenticated Catalog request, credential, raw
+  API response, full private identifier, or unsupported employer claim was
+  used or published.
+- Public-visible affiliations: 624
+- Database claims: 1,241; public-visible claims: 1,216 (247 confirmed, 740 high,
+  215 medium, 14 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,603; private source records: 2,210; public source export:
+  1,226; unique source documents: 970
 - Canonical organizations: 322 private and 318 public
 - Conflicting claims: 14
 - NARA pull-list rows: 23,819

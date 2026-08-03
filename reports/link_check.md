@@ -12,8 +12,32 @@ The build includes 23,941 person profiles, 318 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,857 unique external URLs for separate live
+The checker inventoried 48,858 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 177 local release check
+
+The complete 24,267-page internal-link pass includes direct routes for Richard
+E. Beickman through Stephen, Jer. Beke. on page thirty. No new organization
+route is required because the six confirmed findings are occupation-only and
+Oliver W. Beimfohr's university evidence is limited to identity support.
+
+The Batch 177 regression passed at desktop, phone, and tablet sizes as part of
+the 573-case Playwright matrix. It checks literal source display and identifier
+masking; keeps six Army-entry occupations distinct from named employers;
+preserves Howars F. Beir's commissioned flag; qualifies Oliver W. Beimfohr's
+chronology and Stephen's damaged converted Army name; and routes the unresolved
+profiles to archival review. All 65 public manifest assets matched their
+recorded sizes and SHA-256 values in both public source and built trees. The
+manifest SHA-256 is
+`d7f2d21621ec1fff16574d43f599274b82509a8c901814cc909d8c690920428a`.
+Two consecutive public-data and static-site builds produced the same sorted
+path-and-file SHA-256 tree digests,
+`2acec03fd7eb4c3a7f5b64640d055f4dfe868a9962bacbb7a874144e6a54dd1e`
+and `370b3800dca92351617031ab0212f5110ceaa87d2b8ba5e391ea3d8a065abde0`.
+The boundary-aware audit reviewed 998 candidate substrings across 24,337 built
+artifacts and found zero unexpected private-identifier matches or aggregate
+false positives.
 
 ## Batch 176 local release check
 

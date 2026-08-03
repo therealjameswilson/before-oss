@@ -4,16 +4,16 @@ Run: 2026-08-03 UTC
 
 ## Result
 
-**PASS - 570 / 570 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 573 / 573 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 190 desktop, 190 phone, and 190 tablet cases. Every case
+The matrix contains 191 desktop, 191 phone, and 191 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 570-case matrix.
+combined 573-case matrix.
 
 Routes tested at all three sizes:
 
@@ -42,6 +42,16 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+
+Batch 177 adds direct desktop, phone, and tablet checks for Richard E. Beickman
+through Stephen, Jer. Beke. on page thirty. It verifies all ten source rows,
+Box 46 or Box 47 routing, literal printed ranks and grades, and masked or
+unprinted identifiers. Six official Army-entry occupations remain distinct
+from named employers; Oliver W. Beimfohr's university evidence remains
+identity support rather than an immediate-affiliation claim; Howars F. Beir's
+commissioned classification remains visible; Stephen's damaged converted name
+is explicitly qualified; and unresolved profiles retain archival-review
+guidance. The production build contains 24,267 static pages.
 
 Batch 176 adds direct desktop, phone, and tablet checks for Kenneth S. Beers
 through William J. Behrens across pages twenty-nine and thirty. It verifies all

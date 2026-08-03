@@ -15650,3 +15650,86 @@ test("Batch 176 preserves the page boundary, four Army occupations, Begg's civil
   await expect(page.getByRole("heading", { name: "New York Daily Mirror", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("Jeanne F Begg");
 });
+
+test("Batch 177 preserves page 30 spellings, six Army-entry occupations, and Beimfohr's unresolved chronology", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2974cdf7-791e-587a-bf2f-ce74afa895a5", "Richard E Beickman", "S/Sgt", "46"],
+    ["0019cdb7-ba46-5b3b-b3e3-4f33df7277f4", "William H Beidelman Jr.", "Pfc", "46"],
+    ["e35d4f10-46ed-5c95-a640-92109c812f6d", "Oliver W Beimfohr", "P-3", "46"],
+    ["1a9a6e55-b521-5172-a6e1-03d2dc174eeb", "Louis C Beinert", "SP P 1/c", "46"],
+    ["fc9619e3-a02d-50b9-812b-32b310120753", "Howars F Beir", "Maj", "47"],
+    ["bd96b7be-6c56-53b2-9c11-e673774a3e97", "Marcelle Beirouty", "Not printed", "47"],
+    ["74eb8334-b23c-5eef-b036-f2cbb22ae75b", "George A Beishlag", "T-4", "47"],
+    ["103d184a-a36e-56c7-a8f1-99563338b081", "Albert J Bekaert", "Pvt", "47"],
+    ["77d3a8f4-aa0b-52b2-abb5-59e6a687527a", "Sime Bekafigo", "Pvt", "47"],
+    ["dcae373f-e6cb-5725-ac7b-ee7317caa7d9", "Stephen, Jer. Beke.", "Pfc", "47"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 30");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId, identity, occupation] of [
+    ["2974cdf7-791e-587a-bf2f-ce74afa895a5", "confirmed", "Unskilled occupation in production of chemical products, not elsewhere classified"],
+    ["0019cdb7-ba46-5b3b-b3e3-4f33df7277f4", "confirmed", "Semiskilled machine-shop or related occupation, not elsewhere classified"],
+    ["74eb8334-b23c-5eef-b036-f2cbb22ae75b", "confirmed", "Secondary-school teacher or principal"],
+    ["103d184a-a36e-56c7-a8f1-99563338b081", "confirmed", "Semiprofessional occupation, not elsewhere classified"],
+    ["77d3a8f4-aa0b-52b2-abb5-59e6a687527a", "confirmed", "Unskilled longshoreman or stevedore"],
+    ["dcae373f-e6cb-5725-ac7b-ee7317caa7d9", "high confidence", "Student"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "1a9a6e55-b521-5172-a6e1-03d2dc174eeb",
+    "fc9619e3-a02d-50b9-812b-32b310120753",
+    "bd96b7be-6c56-53b2-9c11-e673774a3e97",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/e35d4f10-46ed-5c95-a640-92109c812f6d/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Oliver Wendell Beimfohr");
+  await expect(page.locator("main")).toContainText(
+    "determine whether the documented 1942-1943 University of Illinois appointment preceded, overlapped, or followed OSS service",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "Annual Register, 1942-1943", exact: true }).first(),
+  ).toHaveAttribute("href", /annualregister194243univ\.pdf/);
+
+  await page.goto("./people/fc9619e3-a02d-50b9-812b-32b310120753/");
+  await expect(page.locator("main")).toContainText("Howars remains the source spelling");
+  await expect(page.locator(".profile-aside").getByText("Yes", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/dcae373f-e6cb-5725-ac7b-ee7317caa7d9/");
+  await expect(page.locator("main")).toContainText("EKE STEVEN JR");
+  await expect(page.locator("main")).toContainText(
+    "not grounds for a silent canonical-name correction",
+  );
+});
