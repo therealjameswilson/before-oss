@@ -15928,3 +15928,94 @@ test("Batch 179 preserves Bell boundaries and separates OWI, student, occupation
   await page.goto("./people/a22e4662-4a54-5fc2-bb42-88cfe9bfa298/");
   await expect(page.locator(".profile-aside").getByText("Yes", { exact: true }).first()).toBeVisible();
 });
+
+test("Batch 180 preserves Bell boundaries, four Army occupations, Davidson student status, and a withheld Walter Bell candidate", async ({
+  page,
+}) => {
+  const profiles = [
+    ["50b2af17-1e1c-5ff9-a9b8-4e5399e3e294", "Joseph V Bell", "Cpl", "masked"],
+    ["328c24f1-acf0-5367-816a-9606effb2c5a", "Joseph Bell Jr.", "Pvt", "masked"],
+    ["7560afcb-5e35-50c2-812a-2270e4d83998", "Ovid H Bell", "Maj", "masked"],
+    ["9ee5ffe1-e363-5a42-bbde-881c96a75027", "Richard E Bell", "Not printed", "masked"],
+    ["efcab50d-cd3a-5479-98a4-89927f1dca8b", "Robert A Bell", "S/Sgt", "masked"],
+    ["b2ca7b83-3b37-5a61-bbd5-9ff26268a2ba", "Robert E Bell", "Sgt", "Not printed"],
+    ["ee88162d-68e5-581d-906a-c057c9c0e093", "Robert W Bell", "Not printed", "Not printed"],
+    ["fa8b19f6-829b-55df-804c-28db6d4b2ec5", "Robert H Bell Jr.", "Cpl", "masked"],
+    ["52189ea3-72ac-55a8-af48-be8322da3eda", "Walter Bell", "Not printed", "Not printed"],
+    ["f79a544a-01c9-5001-92e3-82360572b11e", "William B Bell", "CPC-3", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("47", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 30");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["328c24f1-acf0-5367-816a-9606effb2c5a", "Semiskilled occupation in fabrication of metal products, not elsewhere classified"],
+    ["9ee5ffe1-e363-5a42-bbde-881c96a75027", "Skilled occupation in manufacture of fabricated plastic products"],
+    ["efcab50d-cd3a-5479-98a4-89927f1dca8b", "Tinsmith, coppersmith, or sheet-metal worker occupational category"],
+    ["fa8b19f6-829b-55df-804c-28db6d4b2ec5", "Office machine operator"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "50b2af17-1e1c-5ff9-a9b8-4e5399e3e294",
+    "b2ca7b83-3b37-5a61-bbd5-9ff26268a2ba",
+    "ee88162d-68e5-581d-906a-c057c9c0e093",
+    "f79a544a-01c9-5001-92e3-82360572b11e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/50b2af17-1e1c-5ff9-a9b8-4e5399e3e294/");
+  await expect(page.locator("main")).toContainText("documented gap in the electronic Army conversion");
+
+  await page.goto("./people/7560afcb-5e35-50c2-812a-2270e4d83998/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Davidson College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student; student assistant in history",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
+    "Ovid Bell Press",
+  );
+  await expect(
+    page.getByRole("link", { name: "Quips and Cranks [1939]", exact: true }).first(),
+  ).toHaveAttribute("href", /lib\.digitalnc\.org\/record\/29107/);
+
+  await page.goto("./organizations/c575d000-7066-5975-89cd-b282792ec7f6/");
+  await expect(page.getByRole("heading", { name: "Davidson College", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Ovid H Bell");
+
+  await page.goto("./people/52189ea3-72ac-55a8-af48-be8322da3eda/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).not.toContainText("British Security Coordination");
+  await expect(page.locator("main")).not.toContainText("Walter Fancourt Bell");
+  await expect(page.locator("main")).not.toContainText("MI6 liaison officer");
+});
