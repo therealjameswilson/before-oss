@@ -15834,3 +15834,97 @@ test("Batch 178 preserves Box 47 boundaries, conflicting identifiers, and qualif
   await expect(page.getByRole("heading", { name: "National Gallery of Art", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("Ferdinand L Belin");
 });
+
+test("Batch 179 preserves Bell boundaries and separates OWI, student, occupation, and archival evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["0adb9126-6cf0-5124-ab21-e5ed78570fa2", "Gaspard D Belin Jr.", "P-2", "Not printed"],
+    ["87e9670e-0e0c-5156-98e3-0764acdc8de6", "Mederise A Belisle", "P-1", "Not printed"],
+    ["78dafb36-b6e5-5339-bfb0-70ec24d7daef", "George W Belk", "CPC-3", "Not printed"],
+    ["a22e4662-4a54-5fc2-bb42-88cfe9bfa298", "Chester D Bell", "Lt", "masked"],
+    ["3fb74aca-d9aa-5a9b-aeea-19d2cb2e7ccd", "Evangeline Bell", "Not printed", "Not printed"],
+    ["19330d94-aa7d-5838-83e1-b4c7421fc871", "Frederick F Bell", "Pfc", "masked"],
+    ["e758bf34-3250-56e3-bb6f-08f5f14db982", "Harold W Bell", "T-3", "masked"],
+    ["3e962aee-cba6-58e1-9ff6-be60be3c9201", "James S Bell", "Caf-2", "Not printed"],
+    ["3ecbe5de-5af0-52c4-9c0d-464e2bceac47", "John C Bell", "Pfc", "masked"],
+    ["984501b5-6864-554a-a08f-0389999aa638", "Joseph H Bell", "T/Sgt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("47", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 30");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  for (const personId of [
+    "87e9670e-0e0c-5156-98e3-0764acdc8de6",
+    "78dafb36-b6e5-5339-bfb0-70ec24d7daef",
+    "a22e4662-4a54-5fc2-bb42-88cfe9bfa298",
+    "19330d94-aa7d-5838-83e1-b4c7421fc871",
+    "3e962aee-cba6-58e1-9ff6-be60be3c9201",
+    "3ecbe5de-5af0-52c4-9c0d-464e2bceac47",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/0adb9126-6cf0-5124-ab21-e5ed78570fa2/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Gaspard d'Andelot Belin III");
+  await expect(
+    page.getByRole("link", { name: "Belin, Gaspard d'Andelot, Jr.", exact: true }).first(),
+  ).toHaveAttribute("href", /getty\.edu/);
+
+  await page.goto("./people/3fb74aca-d9aa-5a9b-aeea-19d2cb2e7ccd/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Office of War Information",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Radcliffe College",
+  );
+  await expect(page.locator("main")).toContainText("explicit immediate");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "Ambassador's Wife Works 7-Day", exact: true }).first(),
+  ).toHaveAttribute("href", /gahistoricnewspapers\.galileo\.usg\.edu/);
+  await expect(
+    page.getByRole("link", { name: "Interview with Merritt N. Cootes", exact: true }).first(),
+  ).toHaveAttribute("href", /loc\.gov/);
+
+  for (const [personId, occupation] of [
+    ["e758bf34-3250-56e3-bb6f-08f5f14db982", "Financial institution clerk, not elsewhere classified"],
+    ["984501b5-6864-554a-a08f-0389999aa638", "Metal products fabrication occupation, not elsewhere classified"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/19330d94-aa7d-5838-83e1-b4c7421fc871/");
+  await expect(page.locator("main")).toContainText("documented conversion gap");
+  await page.goto("./people/3ecbe5de-5af0-52c4-9c0d-464e2bceac47/");
+  await expect(page.locator("main")).toContainText("documented conversion gap");
+
+  await page.goto("./people/a22e4662-4a54-5fc2-bb42-88cfe9bfa298/");
+  await expect(page.locator(".profile-aside").getByText("Yes", { exact: true }).first()).toBeVisible();
+});
