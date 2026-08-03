@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-02 UTC.
+Generated from the current local SQLite database on 2026-08-03 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,485 people with a non-planned attempt | 23,941 person entities | 6.2027% |
+| Research-attempt coverage | 1,495 people with a non-planned attempt | 23,941 person entities | 6.2445% |
 | Verified-affiliation coverage | 268 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1194% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,434 people with an individual file-access/priority assessment | 23,941 person entities | 5.9897% |
+| Archival-review coverage | 1,444 people with an individual file-access/priority assessment | 23,941 person entities | 6.0315% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 112
+- Identity status `confirmed`: 115
 - Identity status `high_confidence`: 343
-- Identity status `probable`: 50
+- Identity status `probable`: 51
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 7
-- Identity status `unresolved`: 23,403
+- Identity status `unresolved`: 23,399
 
 ## Personnel categories
 
@@ -47,14 +47,14 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,456
+- `not_started`: 22,446
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 2
-- `documented_prewar_employer_found`: 34
-- `occupation_only_found`: 95
-- `requires_archival_review`: 1,069
+- `documented_prewar_employer_found`: 35
+- `occupation_only_found`: 98
+- `requires_archival_review`: 1,075
 - `completed`: 57
 - `conflicting_sources`: 7
 - `verified_employer_found`: 157
@@ -71,6 +71,7 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
+- Reviewed-official-bulk attempts recorded: 1
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
 - Reviewed-official-AAD-institutional-and-web attempts recorded: 22
 - Reviewed-official-institutional-and-web attempts recorded: 12
@@ -84,12 +85,12 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 502 across 482 people; 32 additional
+- Saved `source_reviewed` outcomes: 513 across 492 people; 32 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,518
+- Total recorded attempts/plans: 2,529
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 487; 469 have at least one public-eligible
+- People with saved reviewed claims: 491; 467 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1919,12 +1920,33 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
   verified-employer analytics. No authenticated Catalog request, credential,
   raw API response, full private identifier, sensitive personal detail, or
   discovery-only employer claim was used or published.
-- Public-visible affiliations: 580
-- Database claims: 1,149; public-visible claims: 1,124 (216 confirmed, 725 high,
-  174 medium, 9 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,371; private source records: 2,150; public source export:
-  1,170; unique source documents: 939
-- Canonical organizations: 316 private and 312 public
+- Batch 168 covers the next ten visually checked page-twenty-eight rows, Amos B.
+  Bear through William H. Beasley Jr. Exact private-identifier matches in the
+  official Army enlistment merged file confirm Cecil V. Beard, Roland K. Beard
+  Jr., and Marion R. Beasley. NARA's corrected Code No. 30 supports qualified,
+  occupation-only findings at Army entry: filling-station or parking-lot
+  attendant work for Cecil, general-farm hand work for Roland, and stenography
+  or typing for Marion. None names an employer or establishes the immediate
+  pre-OSS transition. A rare-name, professional-grade match makes indexed Grace
+  H. Beardsley a probable identity for Grace Hadley Beardsley; a contemporaneous
+  Johns Hopkins program documents her as a Goucher College professor in 1936.
+  That medium-confidence affiliation is visibly qualified as documented prewar,
+  not immediate and not the last civilian employer. The remaining six profiles
+  are unresolved and route to Box 44 review. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or discovery-only
+  employer claim was used or published.
+- Batch 169 is an auditable correction to Johnnie Batten's Batch 161 occupation
+  claim. The earlier secondary table decoded Army civilian-occupation code 316
+  as automobile serviceman; NARA's corrected official Code No. 30 defines 3-16
+  as farm hands on general farms. The superseding evidence updates the
+  affiliation, claim, citation, and next action without changing identity or
+  coverage counts, and records the rejected interpretation and reason.
+- Public-visible affiliations: 584
+- Database claims: 1,157; public-visible claims: 1,132 (219 confirmed, 725 high,
+  179 medium, 9 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,394; private source records: 2,156; public source export:
+  1,176; unique source documents: 941
+- Canonical organizations: 317 private and 313 public
 - Conflicting claims: 9
 - NARA pull-list rows: 23,821
 
@@ -1967,6 +1989,8 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-johnnie-batten-occupation-code-correction_batch-169_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-amos-bear-through-william-beasley-jr-pathways_batch-168_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-arthur-bauman-through-charles-baumler-pathways_batch-163_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-joseph-bauer-through-warren-baum-pathways_batch-162_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-six-robert-bates-through-battaglio-pathways_batch-160_2026-08-02.json

@@ -14351,7 +14351,7 @@ test("Batch 161 preserves Batten through Bauer occupations, identity limits, and
   }
 
   const occupationProfiles = [
-    ["55a89ec1-132d-5915-a39b-c0da52593054", "Automobile serviceman"],
+    ["55a89ec1-132d-5915-a39b-c0da52593054", "Farm hand, general farm"],
     [
       "ea6d4d3b-bf90-51e6-a99d-61ff7fb2ccd3",
       "Photographic technical occupation group (code 586)",
@@ -14380,8 +14380,8 @@ test("Batch 161 preserves Batten through Bauer occupations, identity limits, and
   await page.goto("./people/50cb8eec-6837-550f-a84e-64c7678691d5/");
   await expect(page.locator("main")).toContainText("Mario F. Battipede");
   await expect(
-    page.getByRole("link", { name: /Code Lists and Sample Dump/ }).first(),
-  ).toHaveAttribute("href", /NARAprodstorage/);
+    page.getByRole("link", { name: /NARA Compiled Code Lists/ }).first(),
+  ).toHaveAttribute("href", /catalog\.archives\.gov/);
 
   await page.goto("./people/02405d09-994f-58b8-88d1-21b7be15dfaa/");
   await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
@@ -14954,4 +14954,80 @@ test("Batch 167 preserves Beaman through Beans archival boundaries and qualified
   await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("Tractor driver");
   await expect(page.locator("main")).toContainText("heavy- or light-truck driver");
+});
+
+test("Batch 168 preserves Bear through Beasley archival boundaries and corrected occupation evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["be369d0e-fde8-5b25-9b5e-0e83888debc0", "Amos B Bear", "Not printed", "44"],
+    ["6974f3fd-4c48-521f-95e3-7e776f3cbd4c", "Cecil V Beard", "Pfc", "44"],
+    ["b91c618c-88f2-59e5-8d1c-48a90ce21da0", "Charles W Beard", "CU-5", "44"],
+    ["116a72f3-6c9f-542d-8258-e6c39ddbbb56", "Margaret F Beard", "SP-5", "44"],
+    ["b960ee21-a8de-56fe-b6b6-2bfd2ce586cf", "Roland K Beard Jr.", "Sgt", "44"],
+    ["41562bd4-211a-57fd-9a4e-3a3af7c83eb6", "Grace H Beardsley", "P-4", "44"],
+    ["c9ed3b3e-e422-58d4-a59e-8ebd275c59c5", "Randolph H Beardsley", "Caf-14", "44"],
+    ["3ff85f5f-24ee-5c71-ae9b-b6a0cf084ede", "Marion R Beasley", "T-3", "44"],
+    ["0acdc554-6be6-55d5-94b6-6a74db30188f", "William N Beasley", "Caf-3", "44"],
+    ["7778c30c-1a15-5a2c-a377-f385f8eef052", "William H Beasley Jr.", "Caf-7", "44"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 28");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "be369d0e-fde8-5b25-9b5e-0e83888debc0",
+    "b91c618c-88f2-59e5-8d1c-48a90ce21da0",
+    "116a72f3-6c9f-542d-8258-e6c39ddbbb56",
+    "c9ed3b3e-e422-58d4-a59e-8ebd275c59c5",
+    "0acdc554-6be6-55d5-94b6-6a74db30188f",
+    "7778c30c-1a15-5a2c-a377-f385f8eef052",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  const occupations = [
+    ["6974f3fd-4c48-521f-95e3-7e776f3cbd4c", "Filling-station or parking-lot attendant"],
+    ["b960ee21-a8de-56fe-b6b6-2bfd2ce586cf", "Farm hand"],
+    ["3ff85f5f-24ee-5c71-ae9b-b6a0cf084ede", "Stenographer or typist"],
+  ];
+
+  for (const [personId, occupation] of occupations) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+  }
+
+  await page.goto("./people/41562bd4-211a-57fd-9a4e-3a3af7c83eb6/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Goucher College",
+  );
+  await expect(page.locator("main")).toContainText("professor");
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.getByRole("link", { name: "Conferring of Degrees at the Close of the Sixtieth Academic Year", exact: true }).first()).toHaveAttribute(
+    "href",
+    /jscholarship\.library\.jhu\.edu/,
+  );
+
+  await page.goto("./organizations/39448de6-dd16-59ce-9de7-145f3ebe3b47/");
+  await expect(page.getByRole("heading", { name: "Goucher College", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Grace H Beardsley");
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
 });

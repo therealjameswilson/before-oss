@@ -1,0 +1,137 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, Batch 169 correction",
+  "sources": [
+    {
+      "key": "nara-army-enlistment-merged-file-batch161",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file; exact private-identifier match for Johnnie Batten and civilian occupation code 316; full identifier withheld",
+      "access_date": "2026-08-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside the repository. Only project-authored conclusions and stable citation pointers are retained. Full identifiers and the downloaded file are excluded from public outputs and version control."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch161",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Basic Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-11-30; modified 2011-03-17",
+      "locator": "Supplemental User Notes and fixed-width record layout; civilian-occupation fields and corrected interpretation guidance",
+      "access_date": "2026-08-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation explains that two incompatible occupation-code systems had been combined in earlier interpretations and directs researchers to the corrected Code No. 30 list."
+    },
+    {
+      "key": "nara-army-enlistment-compiled-code-lists-batch161",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, entry 3-16: farm hands on general farms",
+      "access_date": "2026-08-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official corrected code documentation supersedes the incompatible secondary transcription previously used for this claim."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "johnnie-batten-pre-service-occupation-batch161",
+      "person_id": "55a89ec1-132d-5915-a39b-c0da52593054",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Farm hand, general farm",
+      "occupation": "Farm hand, general farm",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-10-16",
+      "date_precision": "The official enlistment record carries civilian occupation code 316 at Army entry on 16 October 1941. NARA's corrected Code No. 30 list defines 3-16 as farm hands on general farms and names no employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Corrects the former secondary automobile-serviceman interpretation. The exact private-identifier match confirms the record; the official corrected code list supports only general-farm work, and no employer is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "johnnie-batten-occupation-batch161",
+      "person_id": "55a89ec1-132d-5915-a39b-c0da52593054",
+      "affiliation_key": "johnnie-batten-pre-service-occupation-batch161",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in October 1941, Johnnie Batten's civilian occupation code represented general-farm hand work.",
+      "evidence_excerpt": "3-16. Farm hands, general farms",
+      "evidence_paraphrase": "The exact-matched enlistment row carries code 316; NARA's corrected official list defines it as general-farm hand work and names no employer.",
+      "identity_match_assessment": "The exact private-identifier match confirms that the enlistment row belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 16 October 1941, but not proven to be his final civilian role before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This claim supersedes the Batch 161 secondary automobile-serviceman decoding, which conflicted with NARA's corrected Code No. 30. No employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch161",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch161",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-compiled-code-lists-batch161",
+          "support_type": "supports",
+          "excerpt_override": "3-16. Farm hands, general farms"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "55a89ec1-132d-5915-a39b-c0da52593054",
+      "identity_status": "confirmed",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 42 and identifier-linked Army records to identify the employer behind general-farm occupation code 316 and establish the path from Army entry to OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch169-johnnie-batten-code316-correction-review",
+      "person_id": "55a89ec1-132d-5915-a39b-c0da52593054",
+      "source_adapter": "reviewed_official_bulk",
+      "query_text": "Johnnie Batten; exact private identifier; Army civilian occupation code 316; NARA corrected Code No. 30; conflicting secondary code table",
+      "query_variant_type": "reviewed-occupation-code-correction-official-documentation",
+      "started_at": "2026-08-03T11:20:00Z",
+      "completed_at": "2026-08-03T11:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The older secondary occupation-code transcription maps 316 to automobile serviceman but conflicts with NARA's corrected Code No. 30 and was rejected.",
+      "research_notes": "A cross-batch consistency review found incompatible published meanings for code 316. NARA's official corrected documentation supports general-farm hand work; the prior secondary decoding was superseded. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 42 and original Army records for the employer and transition to OSS.",
+      "last_error_redacted": null,
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-reviewed-evidence-batch169"
+    }
+  ]
+}
