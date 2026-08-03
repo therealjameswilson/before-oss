@@ -52,6 +52,89 @@ CANDIDATE_TYPES = {
     "duplicate_person",
 }
 
+CHECKPOINT_DESCRIPTION = (
+    "Sanitized adapter audit state. Query text, response payloads, credentials, "
+    "and private research notes are intentionally excluded."
+)
+
+
+def _row_values(row: sqlite3.Row, columns: list[str]) -> list[object]:
+    return [row[column] for column in columns]
+
+
+def export_adapter_checkpoints(
+    connection: sqlite3.Connection,
+    path: Path,
+) -> dict[str, int]:
+    """Write deterministic, sanitized adapter state for clean rebuilds."""
+    attempts = connection.execute(
+        f"""
+        SELECT {', '.join(ATTEMPT_COLUMNS)}
+        FROM research_attempts
+        WHERE request_fingerprint IS NOT NULL
+          AND source_adapter IN ('nara', 'cia', 'loc', 'web')
+        ORDER BY research_attempt_id
+        """
+    ).fetchall()
+    candidates = connection.execute(
+        f"""
+        SELECT {', '.join(CANDIDATE_COLUMNS)}
+        FROM candidate_matches
+        WHERE evidence_json LIKE '%\"request_fingerprint\"%'
+        ORDER BY candidate_match_id
+        """
+    ).fetchall()
+    referenced_people = sorted(
+        {
+            str(row["person_id"])
+            for row in [*attempts, *candidates]
+        }
+    )
+    person_updates: list[sqlite3.Row] = []
+    if referenced_people:
+        placeholders = ",".join("?" for _ in referenced_people)
+        person_updates = connection.execute(
+            f"""
+            SELECT {', '.join(PERSON_UPDATE_COLUMNS)}
+            FROM person_entities
+            WHERE person_id IN ({placeholders})
+              AND research_status IN ('in_progress', 'candidate_found')
+            ORDER BY person_id
+            """,
+            tuple(referenced_people),
+        ).fetchall()
+
+    payload = {
+        "checkpoint_version": "1.0",
+        "description": CHECKPOINT_DESCRIPTION,
+        "attempt_columns": ATTEMPT_COLUMNS,
+        "attempts": [_row_values(row, ATTEMPT_COLUMNS) for row in attempts],
+        "person_update_columns": PERSON_UPDATE_COLUMNS,
+        "person_updates": [
+            _row_values(row, PERSON_UPDATE_COLUMNS) for row in person_updates
+        ],
+        "candidate_columns": CANDIDATE_COLUMNS,
+        "candidates": [
+            _row_values(row, CANDIDATE_COLUMNS) for row in candidates
+        ],
+    }
+    serialized = json.dumps(
+        payload,
+        ensure_ascii=False,
+        separators=(",", ":"),
+    ) + "\n"
+    lowered = serialized.lower()
+    forbidden_markers = ("nara_api_key", "x-api-key", "authorization: bearer")
+    if any(marker in lowered for marker in forbidden_markers):
+        raise ValueError("Checkpoint contains a forbidden credential marker.")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(serialized, encoding="utf-8")
+    return {
+        "research_attempts": len(attempts),
+        "person_updates": len(person_updates),
+        "candidate_matches": len(candidates),
+    }
+
 
 def _table_rows(
     payload: dict[str, object],

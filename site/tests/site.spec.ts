@@ -15365,3 +15365,80 @@ test("Batch 173 preserves Becker boundaries and separates employer, Army pathway
   await expect(page.getByRole("heading", { name: "University of Wisconsin-Madison", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("Howard P Becker");
 });
+
+test("Batch 174 preserves Beckett-to-Bedford boundaries, two occupations, and two identifier conflicts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["37f34560-1d15-517d-87c8-175e58229b8e", "Peter R Beckett", "T-5"],
+    ["493dead6-545d-5305-96ca-78a47f67b4dc", "James F Beckley", "Cpl"],
+    ["322eb52e-e604-5031-aee0-80e470c1eace", "Charles J Beckman", "2nd Lt"],
+    ["e68caea3-de5d-53e7-a5be-174070868703", "Margaret H Beckman", "SP-6"],
+    ["9b9598ed-4a2d-598e-9bae-72a324d8a4dd", "Rose Beckman", "Not printed"],
+    ["7a3103ae-fb35-5f2d-9265-5d1a8cece29b", "Russell W Beckmeyer", "S/Sgt"],
+    ["b950876f-b80c-5d4b-9c71-bc48e3288f86", "Frances B Becque", "Caf-4"],
+    ["cf142c4a-8acf-5005-8f43-c6be52313ab3", "Paul W Bedard", "Capt"],
+    ["abafa42e-d7d6-5743-909b-a897858bba35", "Thomas F Bede", "M/Sgt"],
+    ["59793ef3-1c67-5039-9a53-0b19fce640dd", "William H Bedford", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("46", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 29");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["7a3103ae-fb35-5f2d-9265-5d1a8cece29b", "Skilled occupation in the manufacture of miscellaneous products"],
+    ["abafa42e-d7d6-5743-909b-a897858bba35", "Actor or actress"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "322eb52e-e604-5031-aee0-80e470c1eace",
+    "e68caea3-de5d-53e7-a5be-174070868703",
+    "9b9598ed-4a2d-598e-9bae-72a324d8a4dd",
+    "b950876f-b80c-5d4b-9c71-bc48e3288f86",
+    "cf142c4a-8acf-5005-8f43-c6be52313ab3",
+    "59793ef3-1c67-5039-9a53-0b19fce640dd",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  for (const [personId, conflictText] of [
+    [
+      "37f34560-1d15-517d-87c8-175e58229b8e",
+      "does not corroborate the OSS index's private identifier",
+    ],
+    [
+      "493dead6-545d-5305-96ca-78a47f67b4dc",
+      "cannot be reconciled with the official Army merged file",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(conflictText);
+  }
+
+  await page.goto("./people/abafa42e-d7d6-5743-909b-a897858bba35/");
+  await expect(page.getByRole("link", { name: "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File", exact: true }).first()).toHaveAttribute(
+    "href",
+    /100\.1CL_SD\.pdf/,
+  );
+});

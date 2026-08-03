@@ -12,8 +12,31 @@ The build includes 23,941 person profiles, 316 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,849 unique external URLs for separate live
+The checker inventoried 48,850 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 174 local release check
+
+The complete 24,265-page internal-link pass includes direct routes for Peter
+R. Beckett through William H. Bedford on page twenty-nine. No new organization
+route is required because the two confirmed findings are occupation-only and
+the other records do not support a publishable affiliation.
+
+The Batch 174 regression passed at desktop, phone, and tablet sizes as part of
+the 564-case Playwright matrix. It checks literal source display and identifier
+masking; keeps Russell W. Beckmeyer's and Thomas F. Bede's Army-entry
+occupations distinct from employers; preserves Peter R. Beckett's and James F.
+Beckley's official-source identifier conflicts; and routes six unresolved
+profiles to archival review. All 65 public manifest assets matched their
+recorded sizes and SHA-256 values in both public source and built trees. The
+manifest SHA-256 is
+`bcd47fd238d308c519c279695c514ca77c2f947acaf9e05a4c19ba005f5d1ea4`.
+Two consecutive public-data builds produced the same sorted path-and-file
+SHA-256 tree digest,
+`307c128205b1e9c10d353759dedf8314d26dc15c150467240fa08fd257dbfa26`.
+The boundary-aware audit reviewed 997 candidate substrings across 24,335 built
+artifacts, recognized two documented aggregate-value coincidences confined to
+the statistics artifact, and found zero unexpected private-identifier matches.
 
 ## Batch 173 local release check
 

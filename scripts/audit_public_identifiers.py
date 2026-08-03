@@ -63,11 +63,33 @@ def public_artifact_count(public_root: Path) -> int:
     return sum(1 for path in public_root.rglob("*") if path.is_file())
 
 
+def _integer_values(value: object) -> set[int]:
+    if isinstance(value, bool):
+        return set()
+    if isinstance(value, int):
+        return {value}
+    if isinstance(value, list):
+        return set().union(*(_integer_values(item) for item in value), set())
+    if isinstance(value, dict):
+        return set().union(*(_integer_values(item) for item in value.values()), set())
+    return set()
+
+
+def public_aggregate_values(public_root: Path) -> set[int]:
+    stats_path = public_root / "data" / "stats.json"
+    if not stats_path.is_file():
+        raise FileNotFoundError(
+            f"Public aggregate statistics are missing: {stats_path}. Build the site first."
+        )
+    return _integer_values(json.loads(stats_path.read_text(encoding="utf-8")))
+
+
 def scan(
     public_root: Path,
     normalized: set[str],
     formatted: set[str],
-) -> tuple[int, int]:
+    aggregate_values: set[int],
+) -> tuple[int, int, int]:
     patterns = sorted(normalized | formatted, key=lambda value: (-len(value), value))
     command = [
         "rg",
@@ -95,11 +117,16 @@ def scan(
 
     candidate_matches = 0
     boundary_matches = 0
+    aggregate_false_positives = 0
     for raw_event in completed.stdout.splitlines():
         event = json.loads(raw_event)
         if event.get("type") != "match":
             continue
         data = event["data"]
+        artifact_path = data["path"]["text"]
+        aggregate_artifact = artifact_path.endswith(
+            "/data/stats.json"
+        ) or artifact_path.endswith("/data/stats.json.gz")
         line_block = data["lines"]
         if "text" not in line_block:
             # Binary/base64 records cannot contain an inspectable public text
@@ -116,8 +143,16 @@ def scan(
                 (before is None or before not in ASCII_ALNUM)
                 and (after is None or after not in ASCII_ALNUM)
             ):
+                matched_text = line[start:end].decode("utf-8", errors="strict")
+                if (
+                    aggregate_artifact
+                    and matched_text.isdigit()
+                    and int(matched_text) in aggregate_values
+                ):
+                    aggregate_false_positives += 1
+                    continue
                 boundary_matches += 1
-    return candidate_matches, boundary_matches
+    return candidate_matches, boundary_matches, aggregate_false_positives
 
 
 def main() -> int:
@@ -130,14 +165,22 @@ def main() -> int:
 
     normalized, formatted = identifier_sets(args.database)
     artifact_count = public_artifact_count(args.public_root)
-    candidates, boundary_matches = scan(args.public_root, normalized, formatted)
+    aggregate_values = public_aggregate_values(args.public_root)
+    candidates, boundary_matches, aggregate_false_positives = scan(
+        args.public_root,
+        normalized,
+        formatted,
+        aggregate_values,
+    )
     print(
         "normalized_identifiers={} formatted_variants={} artifacts={} "
-        "candidate_substrings={} unexpected_boundary_matches={}".format(
+        "candidate_substrings={} aggregate_false_positives={} "
+        "unexpected_boundary_matches={}".format(
             len(normalized),
             len(formatted),
             artifact_count,
             candidates,
+            aggregate_false_positives,
             boundary_matches,
         )
     )

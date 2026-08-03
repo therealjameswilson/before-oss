@@ -4,16 +4,16 @@ Run: 2026-08-03 UTC
 
 ## Result
 
-**PASS - 561 / 561 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 564 / 564 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 187 desktop, 187 phone, and 187 tablet cases. Every case
+The matrix contains 188 desktop, 188 phone, and 188 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 561-case matrix.
+combined 564-case matrix.
 
 Routes tested at all three sizes:
 
@@ -42,6 +42,18 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+
+Batch 174 adds direct desktop, phone, and tablet checks for Peter R. Beckett
+through William H. Bedford on page twenty-nine. It verifies all ten source
+rows, Box 46 routing, literal printed ranks and grades, and masked or unprinted
+identifiers. Russell W. Beckmeyer's official Army-entry evidence supports only
+a broad skilled manufacturing occupation, and Thomas F. Bede's supports only
+an actor-or-actress occupation; neither is presented as a named employer.
+Peter R. Beckett's and James F. Beckley's official-source identifier conflicts
+remain visible without publishing the unrelated names or full identifiers.
+Charles J. Beckman, Margaret H. Beckman, Rose Beckman, Frances B. Becque, Paul
+W. Bedard, and William H. Bedford retain explicit unresolved and archival-
+review guidance. The production build contains 24,265 static pages.
 
 Batch 173 adds direct desktop, phone, and tablet checks for Ernest H. Becker
 through Wilbur J. Becker on page twenty-nine. It verifies all ten source rows,

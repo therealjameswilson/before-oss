@@ -9,6 +9,7 @@ from oss_research.checkpoints import (
     ATTEMPT_COLUMNS,
     CANDIDATE_COLUMNS,
     PERSON_UPDATE_COLUMNS,
+    export_adapter_checkpoints,
     import_adapter_checkpoints,
 )
 from oss_research.db import connect, migrate
@@ -154,3 +155,89 @@ class AdapterCheckpointTests(unittest.TestCase):
         ).fetchone()
         self.assertEqual(person["research_status"], "candidate_found")
         self.assertEqual(person["research_attempt_number"], 1)
+
+    def test_checkpoint_export_is_deterministic_and_sanitized(self) -> None:
+        now = "2026-07-30T00:00:00+00:00"
+        with self.connection:
+            self.connection.execute(
+                """
+                INSERT INTO research_attempts(
+                    research_attempt_id, person_id, source_adapter, query_text,
+                    query_variant_type, request_fingerprint, started_at,
+                    completed_at, outcome, sources_reviewed,
+                    candidate_sources_rejected, research_notes, attempt_number,
+                    research_agent_version
+                ) VALUES (
+                    'attempt-1', 'person-1', 'loc', 'private search terms',
+                    'employment', 'fingerprint-1', ?, ?, 'candidate_found',
+                    1, 0, 'private local note', 1, 'before-oss/test'
+                )
+                """,
+                (now, now),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO candidate_matches(
+                    candidate_match_id, person_id, candidate_type,
+                    candidate_label, candidate_url, candidate_identifier,
+                    evidence_json, match_assessment, rejection_reason,
+                    created_at, updated_at
+                ) VALUES (
+                    'candidate-1', 'person-1', 'source', 'Example candidate',
+                    'https://example.test/item', NULL, ?, 'rejected',
+                    'Wrong namesake.', ?, ?
+                )
+                """,
+                (
+                    json.dumps(
+                        {
+                            "project_note": "Discovery metadata only.",
+                            "request_fingerprint": "fingerprint-1",
+                        }
+                    ),
+                    now,
+                    now,
+                ),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO research_attempts(
+                    research_attempt_id, person_id, source_adapter, query_text,
+                    query_variant_type, request_fingerprint, started_at,
+                    completed_at, outcome, sources_reviewed,
+                    candidate_sources_rejected, attempt_number,
+                    research_agent_version
+                ) VALUES (
+                    'reviewed-attempt', 'person-1', 'reviewed_web',
+                    'reviewed evidence query', 'reviewed',
+                    'reviewed-fingerprint', ?, ?, 'source_reviewed',
+                    1, 0, 2, 'before-oss/test'
+                )
+                """,
+                (now, now),
+            )
+            self.connection.execute(
+                """
+                UPDATE person_entities
+                SET research_status = 'candidate_found',
+                    next_action = 'Review the candidate.'
+                WHERE person_id = 'person-1'
+                """
+            )
+
+        first_path = Path(self.temp_dir.name) / "checkpoint-1.json"
+        second_path = Path(self.temp_dir.name) / "checkpoint-2.json"
+        first = export_adapter_checkpoints(self.connection, first_path)
+        second = export_adapter_checkpoints(self.connection, second_path)
+
+        self.assertEqual(first, second)
+        self.assertEqual(first_path.read_bytes(), second_path.read_bytes())
+        text = first_path.read_text(encoding="utf-8")
+        self.assertNotIn("private search terms", text)
+        self.assertNotIn("private local note", text)
+        self.assertNotIn("Wrong namesake", text)
+        payload = json.loads(text)
+        self.assertEqual(len(payload["attempts"]), 1)
+        self.assertEqual(payload["attempts"][0][0], "attempt-1")
+        self.assertEqual(payload["candidates"][0][0], "candidate-1")
+        self.assertEqual(payload["person_updates"][0][0], "person-1")

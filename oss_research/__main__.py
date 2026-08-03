@@ -19,7 +19,7 @@ from .sources.nara import NaraAdapter
 from .public import build_public_data
 from .review import import_review_decisions
 from .evidence import import_reviewed_evidence
-from .checkpoints import import_adapter_checkpoints
+from .checkpoints import export_adapter_checkpoints, import_adapter_checkpoints
 from .page_reviews import import_page_reviews
 
 
@@ -88,6 +88,12 @@ def parser() -> argparse.ArgumentParser:
     import_evidence.add_argument("evidence_json", type=_path)
     import_checkpoints = sub.add_parser("import-adapter-checkpoints")
     import_checkpoints.add_argument("checkpoint_json", type=_path)
+    export_checkpoints = sub.add_parser("export-adapter-checkpoints")
+    export_checkpoints.add_argument(
+        "--output",
+        type=_path,
+        default=Path("research/adapter_attempt_checkpoints.json").resolve(),
+    )
     import_page_review = sub.add_parser("import-page-reviews")
     import_page_review.add_argument("review_json", type=_path)
     sub.add_parser("coverage-report")
@@ -257,6 +263,20 @@ def main(argv: list[str] | None = None) -> int:
             )
         elif args.command == "import-adapter-checkpoints":
             result = import_adapter_checkpoints(connection, args.checkpoint_json)
+            total = (
+                result["research_attempts"]
+                + result["person_updates"]
+                + result["candidate_matches"]
+            )
+            finish_run(
+                connection,
+                run,
+                status="completed",
+                processed=total,
+                succeeded=total,
+            )
+        elif args.command == "export-adapter-checkpoints":
+            result = export_adapter_checkpoints(connection, args.output)
             total = (
                 result["research_attempts"]
                 + result["person_updates"]
