@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,575 people with a non-planned attempt | 23,941 person entities | 6.5787% |
-| Verified-affiliation coverage | 273 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1403% |
+| Research-attempt coverage | 1,584 people with a non-planned attempt | 23,941 person entities | 6.6163% |
+| Verified-affiliation coverage | 274 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1445% |
 | Verified-employer coverage | 156 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6516% |
-| Archival-review coverage | 1,524 people with an individual file-access/priority assessment | 23,941 person entities | 6.3656% |
+| Archival-review coverage | 1,533 people with an individual file-access/priority assessment | 23,941 person entities | 6.4032% |
 
 ## Extraction and identity
 
@@ -22,47 +22,47 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
 - Identity status `confirmed`: 143
-- Identity status `high_confidence`: 351
-- Identity status `probable`: 52
+- Identity status `high_confidence`: 353
+- Identity status `probable`: 53
 - Identity status `ambiguous`: 26
-- Identity status `conflicting`: 12
-- Identity status `unresolved`: 23,357
+- Identity status `conflicting`: 13
+- Identity status `unresolved`: 23,353
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,495
+- Unknown or indeterminate: 16,494
 - Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,463
+- Civilian professional or administrative grades: 1,464
 - Foreign or Allied military personnel: 246
 - Enlisted naval personnel: 56
 - Commissioned naval officers: 82
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,173 yes; 5,061 no; 16,707 indeterminate.
+Commissioned classification: 2,173 yes; 5,062 no; 16,706 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,366
+- `not_started`: 22,357
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 13
-- `needs_temporal_review`: 2
+- `needs_identity_review`: 14
+- `needs_temporal_review`: 3
 - `documented_prewar_employer_found`: 37
 - `occupation_only_found`: 127
-- `requires_archival_review`: 1,117
-- `completed`: 57
-- `conflicting_sources`: 12
+- `requires_archival_review`: 1,122
+- `completed`: 58
+- `conflicting_sources`: 13
 - `verified_employer_found`: 159
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 196
-- Live Library of Congress attempts: 347
+- Live CIA exact-name OSS attempts: 205
+- Live Library of Congress attempts: 356
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -88,12 +88,12 @@ Commissioned classification: 2,173 yes; 5,061 no; 16,707 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 574 across 553 people; 39 additional
+- Saved `source_reviewed` outcomes: 580 across 559 people; 41 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,675
-- Library of Congress discovery candidates: 36 total; 34 rejected after
-  page-context review and two retained for review
-- People with saved reviewed claims: 533; 515 have at least one public-eligible
+- Total recorded attempts/plans: 2,702
+- Library of Congress discovery candidates: 38 total; 35 rejected after
+  page-context review and three retained for review or identity context
+- People with saved reviewed claims: 537; 518 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2018,13 +2018,31 @@ Commissioned classification: 2,173 yes; 5,061 no; 16,707 indeterminate.
   spellings remain literal. No authenticated Catalog request, credential, raw
   API response, full private identifier, or unsupported employer claim was
   used or published.
-- Public-visible affiliations: 624
-- Database claims: 1,241; public-visible claims: 1,216 (247 confirmed, 740 high,
-  215 medium, 14 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,603; private source records: 2,210; public source export:
-  1,226; unique source documents: 970
-- Canonical organizations: 322 private and 318 public
-- Conflicting claims: 14
+- Batch 178 covers Jennie E. Bekier through Ferdinand L. Belin on page thirty,
+  while preserving Roger L. Belanger's earlier reviewed record. Konrad
+  Bekker's rare-name biography supports a University of Kentucky-to-Army-to-
+  OSS chronology, but the printed private identifier maps to another soldier
+  while an exact-name Army row differs by one digit; the identity and all
+  related affiliations therefore remain conflict-visible and excluded from
+  default analytics. Salvatore Belcastro remains a probable candidate because
+  the printed identifier falls in NARA's documented conversion gap and the
+  separate exact-name Army row lacks an OSS or Box 47 link. George N. Belic's
+  Navy service in Turkey and Romania is published only as a qualified wartime
+  assignment with uncertain OSS sequence. Ferdinand Lammot Belin is a high-
+  confidence identity with documented OSS service and a high-confidence 1941
+  National Gallery trustee and vice-president affiliation; the governance role
+  is not silently labeled employment or immediate. Five common or identifier-
+  free names remain unresolved and route to Box 47. No authenticated Catalog
+  request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 629
+- Database claims: 1,250; public-visible claims: 1,224 (247 confirmed, 743 high,
+  216 medium, 18 conflicting); 23 low-confidence claims are withheld and three
+  rejected
+- Citation links: 2,622; private source records: 2,220; public source export:
+  1,234; unique source documents: 977
+- Canonical organizations: 327 private and 320 public
+- Conflicting claims: 18
 - NARA pull-list rows: 23,819
 
 Planned dry-run requests do not count as research-attempt coverage.

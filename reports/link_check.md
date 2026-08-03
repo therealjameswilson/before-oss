@@ -4,16 +4,42 @@ Run: 2026-08-03 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,267 HTML files. Every relative
+**PASS.** The production build contains 24,269 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 318 organization profiles, and the
+The build includes 23,941 person profiles, 320 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,858 unique external URLs for separate live
+The checker inventoried 48,866 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 178 local release check
+
+The complete 24,269-page internal-link pass includes direct routes for Jennie
+E. Bekier through Ferdinand L. Belin on page thirty and new linked organization
+routes for the United States Navy and National Gallery of Art. Konrad Bekker's
+conflicting Army, Kentucky, and Brookings candidates remain visible on his
+profile but excluded from default organization analytics and routes.
+
+The Batch 178 regression passed at desktop, phone, and tablet sizes as part of
+the 576-case Playwright matrix. It checks literal source display and identifier
+masking; carries Roger L. Belanger's reviewed Army Air Corps pathway forward;
+preserves the Konrad Bekker identifier conflict and Salvatore Belcastro
+conversion-gap uncertainty; qualifies George N. Belic's Navy chronology; keeps
+Ferdinand Belin's National Gallery governance role distinct from employment;
+and routes five unresolved profiles to archival review. All 65 public manifest
+assets matched their recorded sizes and SHA-256 values in both public source
+and built trees. The manifest SHA-256 is
+`655fc1b82ceb3dcca63d344c04d4fd51c556102a137eaef1f6585f6352e44eb0`.
+Two consecutive public-data and static-site builds produced the same sorted
+path-and-file SHA-256 tree digests,
+`0ef8f1298757c480be861dd89ffe1c9b3e6159f2174a25fee8e5f8867253775d`
+and `eb3fa62255d9093dd64ade52bce89a6d0aae3f5b05608ca14efd2fcebd78a26f`.
+The boundary-aware audit reviewed 996 candidate substrings across 24,339 built
+artifacts and found zero unexpected private-identifier matches or aggregate
+false positives.
 
 ## Batch 177 local release check
 

@@ -15733,3 +15733,104 @@ test("Batch 177 preserves page 30 spellings, six Army-entry occupations, and Bei
     "not grounds for a silent canonical-name correction",
   );
 });
+
+test("Batch 178 preserves Box 47 boundaries, conflicting identifiers, and qualified affiliations", async ({
+  page,
+}) => {
+  const profiles = [
+    ["80acd663-38c8-5692-8805-c74986f63808", "Jennie E Bekier", "Caf-4", "Not printed"],
+    ["b66bea87-4bc5-5d87-b198-d2915ca59bd6", "Konrad Bekker", "Pfc", "masked"],
+    ["3e307074-39c7-5736-8318-0203a3a813b6", "Roger L Belanger", "T-5", "masked"],
+    ["d04aa583-511e-5070-994c-0656f99c5274", "Benjamin Belasco", "Caf-1", "Not printed"],
+    ["894bcd6e-bdbc-5277-9a25-bb1328c8e949", "Salvatore Belcastro", "Sgt", "masked"],
+    ["18096a66-1480-5d49-8cdd-420f7d2ae0d0", "William J Belcher", "1st Lt", "masked"],
+    ["4ad83e8c-6165-5c4a-91b3-78c58bad39df", "Audrey Belding", "Caf-4", "Not printed"],
+    ["a489e053-c351-5b01-b88f-578250fe0909", "Catherine S Beliavsky", "P-1", "Not printed"],
+    ["e51a536f-de2d-544c-98de-e1ddcf96bae2", "George N Belic", "Not printed", "Not printed"],
+    ["0aad1075-1c3b-5009-86ff-1977f26a9889", "Ferdinand L Belin", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("47", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 30");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  for (const personId of [
+    "80acd663-38c8-5692-8805-c74986f63808",
+    "d04aa583-511e-5070-994c-0656f99c5274",
+    "18096a66-1480-5d49-8cdd-420f7d2ae0d0",
+    "4ad83e8c-6165-5c4a-91b3-78c58bad39df",
+    "a489e053-c351-5b01-b88f-578250fe0909",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/3e307074-39c7-5736-8318-0203a3a813b6/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "United States Army Air Corps", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("explicit immediate");
+
+  await page.goto("./people/b66bea87-4bc5-5d87-b198-d2915ca59bd6/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("one-digit identifier error");
+  await expect(page.locator("main")).toContainText("University of Kentucky");
+  await expect(page.locator("main")).toContainText("Brookings Institution");
+  await expect(page.locator("main")).toContainText("United States Army");
+
+  await page.goto("./people/894bcd6e-bdbc-5277-9a25-bb1328c8e949/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("documented conversion gap");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/e51a536f-de2d-544c-98de-e1ddcf96bae2/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Navy",
+  );
+  await expect(page.locator("main")).toContainText("Turkey and Romania");
+  await expect(page.locator("main")).toContainText("temporal relation uncertain");
+
+  await page.goto("./people/0aad1075-1c3b-5009-86ff-1977f26a9889/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "National Gallery of Art",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(
+    page.getByRole("link", { name: "Report on the National Gallery of Art, 1941", exact: true }).first(),
+  ).toHaveAttribute("href", /nga\.gov/);
+  await expect(
+    page.getByRole("link", {
+      name: "Special Collections Finding Aid: Clarence Hewes Scrapbook Collection, 1906-1962",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /dchistory\.org/);
+
+  await page.goto("./organizations/76e0c5ae-cf21-50cf-9a81-a468deaa2e2f/");
+  await expect(page.getByRole("heading", { name: "United States Navy", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("George N Belic");
+
+  await page.goto("./organizations/d3c7841e-ee72-5afa-a70e-585ed297894c/");
+  await expect(page.getByRole("heading", { name: "National Gallery of Art", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Ferdinand L Belin");
+});
