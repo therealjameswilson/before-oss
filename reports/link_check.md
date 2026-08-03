@@ -12,8 +12,30 @@ The build includes 23,941 person profiles, 316 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,844 unique external URLs for separate live
+The checker inventoried 48,849 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 173 local release check
+
+The complete 24,265-page internal-link pass includes direct routes for Ernest
+H. Becker through Wilbur J. Becker on page twenty-nine. Howard P. Becker's
+profile links to the existing University of Wisconsin-Madison organization
+route, and Leon Becker's qualified military pathway links to the existing
+United States Army route.
+
+The Batch 173 regression passed at desktop, phone, and tablet sizes as part of
+the 561-case Playwright matrix. It checks literal source display and identifier
+masking; keeps four Army-entry occupations distinct from employers; separates
+Howard Becker's verified university employment from Leon Becker's military
+pathway; preserves Ralph C. Becker's official-source identifier conflict; and
+routes four unresolved profiles to archival review. All 65 public manifest
+assets passed the generated redaction check. The manifest SHA-256 is
+`78e05a7a8a854ce31938617754100607c3c967e9ff0386b79b52018afcb9c356`.
+Two consecutive public-data builds produced the same sorted path-and-file
+SHA-256 tree digest,
+`81e25c38ac6e5a50dd7de420da7f178059f6abadf3a47a25219c205ac351a51b`.
+The boundary-aware audit reviewed 995 candidate substrings across 24,335 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 171 local release check
 

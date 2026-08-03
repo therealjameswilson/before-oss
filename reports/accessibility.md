@@ -4,16 +4,16 @@ Run: 2026-08-03 UTC
 
 ## Result
 
-**PASS - 555 / 555 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 561 / 561 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 185 desktop, 185 phone, and 185 tablet cases. Every case
+The matrix contains 187 desktop, 187 phone, and 187 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 555-case matrix.
+combined 561-case matrix.
 
 Routes tested at all three sizes:
 
@@ -32,7 +32,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-153-person employer measure is labeled separately from the 270-person broader
+155-person employer measure is labeled separately from the 272-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -42,6 +42,18 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+
+Batch 173 adds direct desktop, phone, and tablet checks for Ernest H. Becker
+through Wilbur J. Becker on page twenty-nine. It verifies all ten source rows,
+Box 45 or Box 46 routing, literal printed ranks and grades, and masked or
+unprinted identifiers. Four official Army-entry occupations remain distinct
+from named employers; Howard P. Becker's University of Wisconsin teaching job
+is separately visible as his immediate affiliation and last civilian employer;
+Leon Becker's probable Army pathway remains a military assignment; and Ralph
+C. Becker's official-source identifier conflict remains visible without
+publishing the unrelated name or either full identifier. Herman J. Becker,
+Jack Becker, James Becker, and Nathan M. Becker retain explicit unresolved and
+archival-review guidance. The production build contains 24,265 static pages.
 
 Batch 171 adds direct desktop, phone, and tablet checks for Thomas O. Beaudoin
 through David Beck on page twenty-eight. It verifies all ten source rows, Box

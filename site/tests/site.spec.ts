@@ -15273,3 +15273,95 @@ test("Batch 172 separates Beck and Becker occupations from Beckelman's verified 
     /archives\.jdc\.org/,
   );
 });
+
+test("Batch 173 preserves Becker boundaries and separates employer, Army pathway, occupations, and an identifier conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["111f20a0-6c32-5ff5-a3c2-899c9021090d", "Ernest H Becker", "T-3", "45"],
+    ["03941de9-cccb-5607-bd46-2e1ec6e994f2", "Harold W Becker", "S/Sgt", "45"],
+    ["f7f61894-8248-5e6f-a678-456abd322c6c", "Herman J Becker", "CPHM", "45"],
+    ["25fead67-bbd5-530b-81fd-f55bbebbf221", "Howard P Becker", "Not printed", "45"],
+    ["7b6dda16-316b-52da-8b60-cc28350c7d1f", "Jack Becker", "Caf-12", "45"],
+    ["3cadb174-8e2e-5be9-b57c-eb48e3d00241", "James Becker", "Not printed", "45"],
+    ["20ed7cee-cf36-569d-bfa0-6a95a8ca9ddf", "Leon Becker", "Pfc", "45"],
+    ["de7457c1-bccc-50eb-829a-175a5c1c3190", "Nathan M Becker", "P D", "45"],
+    ["599cdfd1-aa4e-5708-a59f-6958b2b83f74", "Ralph C Becker", "Pfc", "46"],
+    ["dd672aa7-5552-5b61-bb56-edbecb884d05", "Wilbur J Becker", "sGT", "46"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 29");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["111f20a0-6c32-5ff5-a3c2-899c9021090d", "Public official, not elsewhere classified"],
+    ["03941de9-cccb-5607-bd46-2e1ec6e994f2", "Bookkeeper or cashier, except bank cashier"],
+    ["20ed7cee-cf36-569d-bfa0-6a95a8ca9ddf", "Leather-products manufacturing occupation, other than boots and shoes"],
+    ["dd672aa7-5552-5b61-bb56-edbecb884d05", "Machinist's apprentice"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+  }
+
+  for (const personId of [
+    "f7f61894-8248-5e6f-a678-456abd322c6c",
+    "7b6dda16-316b-52da-8b60-cc28350c7d1f",
+    "3cadb174-8e2e-5be9-b57c-eb48e3d00241",
+    "de7457c1-bccc-50eb-829a-175a5c1c3190",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/25fead67-bbd5-530b-81fd-f55bbebbf221/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "University of Wisconsin",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Wisconsin",
+  );
+  await expect(page.locator("main")).toContainText("explicit immediate");
+  await expect(page.getByRole("link", { name: "Professor Howard Becker", exact: true }).first()).toHaveAttribute(
+    "href",
+    /wisconsinhistory\.org/,
+  );
+
+  await page.goto("./people/20ed7cee-cf36-569d-bfa0-6a95a8ca9ddf/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator("main")).toContainText("probable immediate");
+  await expect(page.getByRole("link", { name: "Ludwig Guckenheimer Dies", exact: true }).first()).toHaveAttribute(
+    "href",
+    /washingtonpost\.com/,
+  );
+
+  await page.goto("./people/599cdfd1-aa4e-5708-a59f-6958b2b83f74/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "does not corroborate the OSS index's private identifier",
+  );
+  await expect(page.locator("main")).toContainText("unrelated name and identifier are withheld");
+
+  await page.goto("./organizations/4a1a13c4-1aee-5ab1-ac44-16b7a037b7d4/");
+  await expect(page.getByRole("heading", { name: "University of Wisconsin-Madison", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Howard P Becker");
+});
