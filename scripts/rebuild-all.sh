@@ -13,8 +13,11 @@ python3 -m oss_research build-identities
 python3 -m oss_research create-pilot --size 75 --batch-name pilot-v1
 python3 -m oss_research import-adapter-checkpoints \
   research/adapter_attempt_checkpoints.json
-python3 -m oss_research import-review-decisions \
-  research/loc_review_decisions_2026-07-29.csv
+for review_decisions in research/*_review_decisions_*.csv; do
+  if [[ -f "$review_decisions" ]]; then
+    python3 -m oss_research import-review-decisions "$review_decisions"
+  fi
+done
 # File prefixes evolved during the project, so lexical glob order is not
 # chronological. Import by the explicit batch number to ensure later review
 # decisions deterministically supersede earlier ones on every rebuild.

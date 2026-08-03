@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,495 people with a non-planned attempt | 23,941 person entities | 6.2445% |
+| Research-attempt coverage | 1,505 people with a non-planned attempt | 23,941 person entities | 6.2863% |
 | Verified-affiliation coverage | 268 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1194% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,444 people with an individual file-access/priority assessment | 23,941 person entities | 6.0315% |
+| Archival-review coverage | 1,454 people with an individual file-access/priority assessment | 23,941 person entities | 6.0733% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 115
-- Identity status `high_confidence`: 343
+- Identity status `confirmed`: 117
+- Identity status `high_confidence`: 344
 - Identity status `probable`: 51
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 7
-- Identity status `unresolved`: 23,399
+- Identity status `unresolved`: 23,396
 
 ## Personnel categories
 
@@ -43,26 +43,26 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
+Commissioned classification: 2,172 yes; 5,050 no; 16,719 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,446
+- `not_started`: 22,436
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 2
 - `documented_prewar_employer_found`: 35
-- `occupation_only_found`: 98
-- `requires_archival_review`: 1,075
+- `occupation_only_found`: 100
+- `requires_archival_review`: 1,083
 - `completed`: 57
 - `conflicting_sources`: 7
 - `verified_employer_found`: 157
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 176
-- Live Library of Congress attempts: 301
+- Live CIA exact-name OSS attempts: 186
+- Live Library of Congress attempts: 311
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -79,18 +79,21 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Reviewed-institutional-source attempts recorded: 1
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
-- Reviewed-official-institutional-newspaper-and-web attempts recorded: 2
+- Reviewed-official-institutional-newspaper-and-web attempts recorded: 11
+- Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 7
+- Reviewed-official-institutional-French-language-newspaper-and-web attempts recorded: 2
+- Reviewed-official-institutional-scholarly-French-language-and-web attempts recorded: 1
 - Reviewed-official-NSA-scholarly-institutional-and-web attempts recorded: 1
 - Reviewed-entity-resolution attempts recorded: 1
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 513 across 492 people; 32 additional
+- Saved `source_reviewed` outcomes: 523 across 502 people; 34 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,529
-- Library of Congress discovery candidates: 19 total; 17 rejected after
-  page-context review and 2 still unreviewed
-- People with saved reviewed claims: 491; 467 have at least one public-eligible
+- Total recorded attempts/plans: 2,559
+- Library of Congress discovery candidates: 19 total; all 19 rejected after
+  page-context review
+- People with saved reviewed claims: 494; 470 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1941,11 +1944,26 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
   as farm hands on general farms. The superseding evidence updates the
   affiliation, claim, citation, and next action without changing identity or
   coverage counts, and records the rejected interpretation and reason.
-- Public-visible affiliations: 584
-- Database claims: 1,157; public-visible claims: 1,132 (219 confirmed, 725 high,
-  179 medium, 9 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,394; private source records: 2,156; public source export:
-  1,176; unique source documents: 941
+- Batch 170 covers the next ten visually checked page-twenty-eight rows, Gladys
+  M. Beason through Donald R. Beauchamp. Exact private-identifier matches in
+  the official Army merged file confirm Carl J. Beato and Donald R. Beauchamp.
+  Their corrected occupation codes support qualified occupation-only findings
+  at Army entry: artist, sculptor, or art-teacher work for Beato and a
+  construction occupation not elsewhere classified for Beauchamp. Neither code
+  identifies an employer or proves the immediate pre-OSS transition. A
+  NARA-published history of OSS work in France independently names André Beau;
+  the rare exact name, the index's French note and rank, and the direct OSS
+  context support a high-confidence identity, but the wartime task is not
+  recoded as pre-OSS employment. Seven profiles remain unresolved, and all ten
+  retain an archival next action. Two Library of Congress false positives were
+  reviewed and rejected from page context. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
+- Public-visible affiliations: 586
+- Database claims: 1,162; public-visible claims: 1,137 (221 confirmed, 726 high,
+  181 medium, 9 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,409; private source records: 2,162; public source export:
+  1,182; unique source documents: 944
 - Canonical organizations: 317 private and 313 public
 - Conflicting claims: 9
 - NARA pull-list rows: 23,821
@@ -1965,23 +1983,20 @@ toward verified-affiliation coverage but not verified-employer coverage.
 2. A standard NARA key cannot cover this source population in one month. The
    default project soft stop is 9,000 of a 10,000-request allowance; later-month
    continuation or an approved higher quota is required.
-3. Two William P. Weiss Library of Congress candidates remain unreviewed
-   because the underlying page/full-text endpoints began returning access
-   errors. They remain candidates, not facts.
-4. The two Paul M. Sweezy rows share a name, middle initial, box, and archival
+3. The two Paul M. Sweezy rows share a name, middle initial, box, and archival
    location but carry different private service numbers. No reviewed source
    maps either number to economist Paul Marlor Sweezy. They remain separate,
    ambiguous entities requiring Box 761 review.
-5. The two adjacent Frederick Mayer rows in Box 494 carry different private
+4. The two adjacent Frederick Mayer rows in Box 494 carry different private
    service numbers. The commissioned row is a high-confidence Operation Greenup
    match, but no reviewed authoritative record links the blank-rank row's
    identifier to Mayer's documented enlisted phase. The two entities remain
    separate pending file and service-record review.
-6. The adjacent Peter M. F. Sichel and Peter M. Sichel rows in Box 709 carry
+5. The adjacent Peter M. F. Sichel and Peter M. Sichel rows in Box 709 carry
    different private service numbers. Full-name evidence supports the M. F.
    entity and its Bordeaux apprenticeship, but the rows remain separate until
    the two personnel files and service records map the identifiers directly.
-7. Completing the minimum research protocol for tens of thousands of people and
+6. Completing the minimum research protocol for tens of thousands of people and
    reviewing physical personnel files is continuing archival work, not a single
    automated build step.
 

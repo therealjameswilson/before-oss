@@ -15031,3 +15031,70 @@ test("Batch 168 preserves Bear through Beasley archival boundaries and corrected
   await expect(page.locator("main")).toContainText("Grace H Beardsley");
   await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
 });
+
+test("Batch 170 preserves Beason through Beauchamp boundaries and qualified identity or occupation evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2a00f24e-7b34-50e9-b3f5-d2a05a93b5a3", "Gladys M Beason", "CPC-3", "44"],
+    ["4ee6e9ca-c9b2-5899-9660-249698a295e0", "John W Beaston Jr.", "Not printed", "44"],
+    ["58fee9c6-728d-5014-832c-29e53ad388e7", "Carl J Beato", "T-5", "44"],
+    ["ace3931c-7ba1-5f61-b998-03aa42a122ef", "Joan T Beattie", "Caf-2", "44"],
+    ["d87cc072-4d1f-5fe4-9150-ab2240345dfc", "Lloyd B Beattie", "Pfc", "44"],
+    ["2bcd7061-b050-5fe6-b344-1ad6e0dba76a", "Marjorie Beattie", "Not printed", "44"],
+    ["b8cb98bb-f4a7-5dad-8daa-424ddf654c11", "Andre Beau", "S/Lt", "44"],
+    ["b71bd163-b6db-566c-b6cc-37b374776985", "Jacques H Beau", "Maj", "44"],
+    ["ec7f01f0-6cf3-5247-806a-44de083048e0", "Roger S Beaucaire", "Not printed", "44"],
+    ["85d89e12-f282-5a49-ad11-fc27619e5f6b", "Donald R Beauchamp", "T/Sgt", "45"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 28");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "2a00f24e-7b34-50e9-b3f5-d2a05a93b5a3",
+    "4ee6e9ca-c9b2-5899-9660-249698a295e0",
+    "ace3931c-7ba1-5f61-b998-03aa42a122ef",
+    "d87cc072-4d1f-5fe4-9150-ab2240345dfc",
+    "2bcd7061-b050-5fe6-b344-1ad6e0dba76a",
+    "b71bd163-b6db-566c-b6cc-37b374776985",
+    "ec7f01f0-6cf3-5247-806a-44de083048e0",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  const occupations = [
+    ["58fee9c6-728d-5014-832c-29e53ad388e7", "Artist, sculptor, or teacher of art"],
+    ["85d89e12-f282-5a49-ad11-fc27619e5f6b", "Construction occupation, not elsewhere classified"],
+  ];
+
+  for (const [personId, occupation] of occupations) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+  }
+
+  await page.goto("./people/b8cb98bb-f4a7-5dad-8daa-424ddf654c11/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("French");
+  await expect(page.locator("main")).toContainText("person in charge of falsifying papers");
+  await expect(
+    page.getByRole("link", { name: "The Secrets War: The Office of Strategic Services in World War II", exact: true }).first(),
+  ).toHaveAttribute("href", /znaci\.org/);
+});
