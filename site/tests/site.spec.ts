@@ -15192,3 +15192,84 @@ test("Batch 171 preserves Beaudoin through Beck boundaries and separates occupat
     );
   }
 });
+
+test("Batch 172 separates Beck and Becker occupations from Beckelman's verified JDC pathway", async ({
+  page,
+}) => {
+  const profiles = [
+    ["de82acca-72ca-5ec3-8a1c-2fb26a491c2b", "Leonard N Beck", "Caf-5"],
+    ["541a8bff-6fb1-5b8a-a8bf-d04baa0c2007", "Louis Beck", "Not printed"],
+    ["08474322-e96b-5b23-b7fc-52bd6a879f53", "Mary E Beck", "Caf-7"],
+    ["2d86c640-19d0-5d9d-926a-d3ba767bba39", "Ruueben O Beck", "Cpl"],
+    ["56406112-a434-571d-8b5e-55ac15cf4c8d", "Theodore S Beck", "Sgt"],
+    ["9336b5cc-d4be-5e81-8294-8587d590bf60", "Moses W Beckelman", "Caf-14"],
+    ["5bc1a686-5ba5-5507-afed-da87fd3895a4", "Arthur J Becker", "T-3"],
+    ["0776530a-3f46-5348-a551-ac0a7df9636d", "Arthur L Becker", "P-4"],
+    ["e9ad2bbc-3ce6-5638-93e8-ca271c17ab26", "Bernard J Becker", "S/Sgt"],
+    ["0507a095-fe7d-5aae-b7f0-c93d201c6386", "Edward P Becker", "T-5"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("45", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 29");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const personId of [
+    "de82acca-72ca-5ec3-8a1c-2fb26a491c2b",
+    "541a8bff-6fb1-5b8a-a8bf-d04baa0c2007",
+    "08474322-e96b-5b23-b7fc-52bd6a879f53",
+    "56406112-a434-571d-8b5e-55ac15cf4c8d",
+    "0776530a-3f46-5348-a551-ac0a7df9636d",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["2d86c640-19d0-5d9d-926a-d3ba767bba39", "Construction machinery operator"],
+    ["5bc1a686-5ba5-5507-afed-da87fd3895a4", "Statistical clerk or compiler"],
+    ["e9ad2bbc-3ce6-5638-93e8-ca271c17ab26", "Fireman, fire department"],
+    ["0507a095-fe7d-5aae-b7f0-c93d201c6386", "Draftsman"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/2d86c640-19d0-5d9d-926a-d3ba767bba39/");
+  await expect(page.locator(".profile-aside")).toContainText("Rueben O. Beck");
+  await expect(page.getByRole("link", { name: "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File", exact: true }).first()).toHaveAttribute(
+    "href",
+    /100\.1CL_SD\.pdf/,
+  );
+
+  await page.goto("./people/9336b5cc-d4be-5e81-8294-8587d590bf60/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "American Jewish Joint Distribution Committee",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "American Jewish Joint Distribution Committee",
+  );
+  await expect(page.locator("main")).toContainText("explicit immediate");
+  await expect(page.getByRole("link", { name: "Finding Aid - New York Office - 1933-1944 - JDC Administration", exact: true }).first()).toHaveAttribute(
+    "href",
+    /archives\.jdc\.org/,
+  );
+});
