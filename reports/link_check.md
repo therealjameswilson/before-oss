@@ -1,19 +1,38 @@
 # Link check
 
-Run: 2026-08-02 UTC
+Run: 2026-08-03 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,261 HTML files. Every relative
+**PASS.** The production build contains 24,265 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 312 organization profiles, and the
+The build includes 23,941 person profiles, 316 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,833 unique external URLs for separate live
+The checker inventoried 48,844 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 171 local release check
+
+The complete 24,265-page internal-link pass includes direct routes for Thomas
+O. Beaudoin, John T. Beaudouim, Jean P. Beaulieu, Muriel M. Beavers, Norman R.
+Becchio, John L. Bechtel, Mitchell Becich, the first-name-missing Beck row,
+Conrad D. Beck, and David Beck. It also includes new routes for Santa Barbara
+State College, Lead High School, and Reader's Digest, while the existing
+Coordinator of Information route gains Norman Becchio.
+
+The Batch 171 regression passed at desktop, phone, and tablet sizes. It checks
+literal source display and identifier masking; separates occupation, student,
+employment, and government-assignment evidence; and keeps unresolved and
+probable identities visibly qualified. All 65 public manifest assets passed
+the generated redaction check. The manifest SHA-256 is
+`6014a5816a589981bc8d4c3c9ac93eea5fe0577f699a6d5da6aed2c719b7e2ef`.
+Two consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`c51e00f9ec30800c1e0fbdf9d4b00fe68707e14ff744db4f4c155a2f74392e82`.
 
 ## Batch 167 local release check
 

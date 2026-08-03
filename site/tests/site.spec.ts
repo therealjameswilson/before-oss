@@ -15098,3 +15098,97 @@ test("Batch 170 preserves Beason through Beauchamp boundaries and qualified iden
     page.getByRole("link", { name: "The Secrets War: The Office of Strategic Services in World War II", exact: true }).first(),
   ).toHaveAttribute("href", /znaci\.org/);
 });
+
+test("Batch 171 preserves Beaudoin through Beck boundaries and separates occupations, education, employment leads, and government assignment", async ({
+  page,
+}) => {
+  const profiles = [
+    ["444ef7fd-076e-5252-b0a3-32ca3fb16b35", "Thomas O Beaudoin", "T/Sgt"],
+    ["9cf0e4e0-4433-57c2-b34c-397f3781688f", "John T Beaudouim", "2nd Lt"],
+    ["d43c4ffd-bdb8-5b61-9cb4-58f1b839a996", "Jean P Beaulieu", "Not printed"],
+    ["144a08a6-145b-50b5-b94a-cc63c475376d", "Muriel M Beavers", "Pfc"],
+    ["73371511-6fbf-53f9-9764-cdd04b569f6b", "Norman R Becchio", "lT"],
+    ["b1790253-6e44-523e-8632-162ad4297448", "John L Bechtel", "1st Sgt"],
+    ["d2399522-e75d-5f5a-9b26-94de55931a9a", "Mitchell Becich", "Pvt"],
+    ["fe99d76d-2753-57e1-9ba2-b1f74bbdd732", "* Beck", "Not printed"],
+    ["34ae5b7d-d8a3-591d-9640-017170262aaa", "Conrad D Beck", "Cpl"],
+    ["a61be8c1-33e0-5ae6-993e-1ed4912a64a2", "David Beck", "T-4"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("45", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 28");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["444ef7fd-076e-5252-b0a3-32ca3fb16b35", "Painter, construction and maintenance"],
+    ["144a08a6-145b-50b5-b94a-cc63c475376d", "Painter, construction and maintenance"],
+    ["b1790253-6e44-523e-8632-162ad4297448", "Photographic process occupation"],
+    ["d2399522-e75d-5f5a-9b26-94de55931a9a", "Mining engineer"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/9cf0e4e0-4433-57c2-b34c-397f3781688f/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Reader's Digest",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.getByRole("link", { name: "Columbia College Today, Fall 2012", exact: true }).first()).toHaveAttribute(
+    "href",
+    "https://archive.org/details/ldpd_12981092_054",
+  );
+
+  await page.goto("./people/73371511-6fbf-53f9-9764-cdd04b569f6b/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Coordinator of Information",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Santa Barbara State College",
+  );
+  await expect(page.getByRole("link", { name: "Tracking Intelligence Information: The Office of Strategic Services", exact: true }).first()).toHaveAttribute(
+    "href",
+    /american-archivist\.kglmeridian\.com/,
+  );
+
+  await page.goto("./people/d2399522-e75d-5f5a-9b26-94de55931a9a/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Lead High School",
+  );
+  await expect(page.getByRole("link", { name: "Lead High School Alumni Directory", exact: true }).first()).toHaveAttribute(
+    "href",
+    /core-docs\.s3\.amazonaws\.com/,
+  );
+
+  await page.goto("./people/a61be8c1-33e0-5ae6-993e-1ed4912a64a2/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator("main")).toContainText("institution not stated");
+
+  for (const personId of [
+    "d43c4ffd-bdb8-5b61-9cb4-58f1b839a996",
+    "fe99d76d-2753-57e1-9ba2-b1f74bbdd732",
+    "34ae5b7d-d8a3-591d-9640-017170262aaa",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

@@ -43,6 +43,8 @@ class Settings:
     nara_max_concurrency: int
     nara_per_run_query_budget: int
     loc_api_base_url: str
+    loc_timeout_seconds: float
+    loc_max_retries: int
     cia_base_url: str
     site_title: str
     site_subtitle: str
@@ -80,6 +82,8 @@ def get_settings(load_local_env: bool = True) -> Settings:
         loc_api_base_url=os.environ.get(
             "LOC_API_BASE_URL", "https://www.loc.gov"
         ).rstrip("/"),
+        loc_timeout_seconds=float(os.environ.get("LOC_API_TIMEOUT_SECONDS", "30")),
+        loc_max_retries=int(os.environ.get("LOC_API_MAX_RETRIES", "3")),
         cia_base_url=os.environ.get(
             "CIA_READING_ROOM_BASE_URL", "https://www.cia.gov/readingroom"
         ).rstrip("/"),

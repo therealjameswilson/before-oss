@@ -125,9 +125,14 @@ never persists response bodies. It minimizes live results to stable NAID
 pointers and project-authored review notes.
 
 The Library of Congress adapter uses the current loc.gov Chronicling America
-collection API. CIA Reading Room HTML is parsed in memory for document links;
-access failures are logged without bypass attempts. General web searches are
-exported as reviewable discovery plans instead of scraping search-result pages.
+collection API. It applies configured timeouts and bounded retries, respects
+numeric `Retry-After` instructions, and records terminal transport failures in
+the durable request audit. Transient terminal failures remain eligible for a
+later resumable retry; successful and non-transient completed requests retain
+their deterministic fingerprint checkpoint. CIA Reading Room HTML is parsed in memory for
+document links; access failures are logged without bypass attempts. General web
+searches are exported as reviewable discovery plans instead of scraping
+search-result pages.
 
 Adapter audit rows needed to reproduce aggregate coverage are exported to the
 tracked `research/adapter_attempt_checkpoints.json` file. This deliberately

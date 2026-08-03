@@ -28,6 +28,8 @@ def settings(**changes: object) -> Settings:
         "nara_max_concurrency": 2,
         "nara_per_run_query_budget": 500,
         "loc_api_base_url": "https://www.loc.gov",
+        "loc_timeout_seconds": 30.0,
+        "loc_max_retries": 3,
         "cia_base_url": "https://www.cia.gov/readingroom",
         "site_title": "Before OSS",
         "site_subtitle": "Test",
