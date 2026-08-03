@@ -5,36 +5,36 @@ Run: 2026-08-03 UTC
 - Python unit tests: **62 / 62 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,265 pages**
-- Internal link check: **24,265 HTML files passed**
-- Browser and accessibility suite: **564 / 564 passed** across desktop,
+- Static production build: **24,266 pages**
+- Internal link check: **24,266 HTML files passed**
+- Browser and accessibility suite: **567 / 567 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`307c128205b1e9c10d353759dedf8314d26dc15c150467240fa08fd257dbfa26`)
-- Latest deterministic build (Batch 174): **byte-for-byte identical** across
-  consecutive static builds and all **24,335** built-site artifacts.
+  (`ed9a7a56f7072db751fc68a657aaaa0609a0cc515218461d2d6dc602d9a16894`)
+- Latest deterministic build (Batch 175): **byte-for-byte identical** across
+  consecutive static builds and all **24,336** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `bcd47fd238d308c519c279695c514ca77c2f947acaf9e05a4c19ba005f5d1ea4`
+  `bbf7a4b5f4281810fb9384182ea614f8054ea191b1f8c714b70a3990128dba0f`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
 identifiers plus **121** formatted raw variants: **0 unexpected full-number
-matches** in **24,335** production artifacts, including compressed mirrors;
-two aggregate-value coincidences were confined to the statistics artifact
+matches** in **24,336** production artifacts, including compressed mirrors;
+no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,211** public records representing **962** unique documents
-- Private citation records: **2,194**
-- Published, qualified affiliations: **608**
-- Published or conflict-visible claims: **1,182**
+- Reviewed public sources: **1,216** public records representing **964** unique documents
+- Private citation records: **2,199**
+- Published, qualified affiliations: **612**
+- Published or conflict-visible claims: **1,190**
 - Withheld low-confidence evidence: **25 claims concerning 20 people**
-- Verified-affiliation metric: **272** people with confirmed/high published
+- Verified-affiliation metric: **273** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **155** people with confirmed/high published
+- Verified-employer metric: **156** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -63,10 +63,65 @@ two aggregate-value coincidences were confined to the statistics artifact
   browser matrix passed in release CI
 - Batch 174 local release checks: **passed**; the combined **564-case** browser
   matrix runs in release CI
+- Batch 175 local release checks: **passed**; the combined **567-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 175 local release QA
+
+Batch 175 adds the ten visually checked page-twenty-nine rows from Edmund
+Bednarek through George E. Beeman. The strict bundle imports five sources, two
+organizations, four affiliations, eight claims, fifteen claim-source links,
+ten person updates, and ten terminal research attempts. Exact private-
+identifier matches in NARA's official Army enlistment merged file confirm
+David Bedor and George E. Beeman. David's code 602 remains a semiskilled
+automobile-manufacturing occupation, and George's code 693 remains a
+semiskilled metal-products occupation; neither is converted into a named
+employer. A contemporary local obituary independently links George's birth
+year and Army OSS service, excluding a same-name 1919 Army entrant. Henry W.
+Beecher Jr.'s printed identifier maps to a different name while a separate
+exact-name Army record carries a different identifier, so the conflict remains
+visible without publishing either full number. An official University of
+California memorial supports Madison S. Beeler's high-confidence identity and
+documents his Harvard and Berkeley teaching path before Navy service; Berkeley
+is qualified as his last civilian employer before military service, while no
+immediate pre-OSS affiliation is invented. Six other profiles remain unresolved
+and route to Box 46 archival review. One Library of Congress candidate was
+reviewed and rejected as a namesake.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 62 / 62, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,266 pages. The internal-link checker passed all 24,266 HTML files and
+inventoried 48,853 unique external URLs. The browser, responsive, direct-route,
+search, and axe matrix passed 567 / 567 across desktop, phone, and tablet,
+including 27 / 27 dedicated axe cases. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`ed9a7a56f7072db751fc68a657aaaa0609a0cc515218461d2d6dc602d9a16894`
+across 24,336 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `bbf7a4b5f4281810fb9384182ea614f8054ea191b1f8c714b70a3990128dba0f`.
+The boundary-aware scan examined 998 candidate substrings derived from 12,919
+nontrivial normalized private identifiers and 121 formatted raw variants and
+found zero unexpected matches or aggregate false positives. No authenticated
+Catalog request, API credential, or raw Catalog response was used or stored.
+
+The Batch 175 database contains 2,615 durable research attempts, 2,199 private
+source records representing 964 unique documents, 321 organizations, 619
+affiliations, 1,215 claims, and 2,552 claim-source links. Claim confidence is
+238 confirmed, 737 high, 202 medium, 25 low, and 13 conflicting. The public
+projection contains 1,216 sources, 317 organizations, 612 affiliations, and
+1,190 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,555 people with a non-planned research attempt, 273 with
+verified-affiliation evidence, 156 with verified employment or self-employment
+evidence, and 1,504 whose archival-review need has been assessed. The
+`not_started` count is 22,386 and `requires_archival_review` is 1,109.
 
 ## Batch 174 local release QA
 

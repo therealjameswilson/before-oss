@@ -4,16 +4,16 @@ Run: 2026-08-03 UTC
 
 ## Result
 
-**PASS - 564 / 564 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 567 / 567 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 188 desktop, 188 phone, and 188 tablet cases. Every case
+The matrix contains 189 desktop, 189 phone, and 189 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 564-case matrix.
+combined 567-case matrix.
 
 Routes tested at all three sizes:
 
@@ -32,7 +32,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-155-person employer measure is labeled separately from the 272-person broader
+156-person employer measure is labeled separately from the 273-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -42,6 +42,18 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+
+Batch 175 adds direct desktop, phone, and tablet checks for Edmund Bednarek
+through George E. Beeman on page twenty-nine. It verifies all ten source rows,
+Box 46 routing, literal printed ranks and grades, and masked or unprinted
+identifiers. David Bedor's and George E. Beeman's official Army-entry evidence
+supports occupation-only findings, not named employers; Henry W. Beecher Jr.'s
+official-source identifier conflict remains visible without publishing either
+full identifier; and Madison S. Beeler's Harvard and Berkeley teaching path is
+qualified by its documented chronology. Edmund Bednarek, Carlos A. Beebe,
+Robert P. Beebe, Gertrude C. Beecher, Willard E. Beecher, and Leslie L. Beeler
+Jr. retain explicit unresolved and archival-review guidance. The production
+build contains 24,266 static pages.
 
 Batch 174 adds direct desktop, phone, and tablet checks for Peter R. Beckett
 through William H. Bedford on page twenty-nine. It verifies all ten source

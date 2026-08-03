@@ -4,16 +4,39 @@ Run: 2026-08-03 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,265 HTML files. Every relative
+**PASS.** The production build contains 24,266 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 316 organization profiles, and the
+The build includes 23,941 person profiles, 317 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,850 unique external URLs for separate live
+The checker inventoried 48,853 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 175 local release check
+
+The complete 24,266-page internal-link pass includes direct routes for Edmund
+Bednarek through George E. Beeman on page twenty-nine. Madison S. Beeler's
+profile links to Harvard University and the newly published University of
+California, Berkeley organization route.
+
+The Batch 175 regression passed at desktop, phone, and tablet sizes as part of
+the 567-case Playwright matrix. It checks literal source display and identifier
+masking; keeps David Bedor's and George E. Beeman's Army-entry occupations
+distinct from employers; preserves Henry W. Beecher Jr.'s official-source
+identifier conflict; qualifies Madison S. Beeler's pre-service academic path;
+and routes six unresolved profiles to archival review. All 65 public manifest
+assets matched their recorded sizes and SHA-256 values in both public source
+and built trees. The manifest SHA-256 is
+`bbf7a4b5f4281810fb9384182ea614f8054ea191b1f8c714b70a3990128dba0f`.
+Two consecutive public-data builds produced the same sorted path-and-file
+SHA-256 tree digest,
+`ed9a7a56f7072db751fc68a657aaaa0609a0cc515218461d2d6dc602d9a16894`.
+The boundary-aware audit reviewed 998 candidate substrings across 24,336 built
+artifacts and found zero unexpected private-identifier matches or aggregate
+false positives.
 
 ## Batch 174 local release check
 

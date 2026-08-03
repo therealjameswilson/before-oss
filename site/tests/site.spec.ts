@@ -15442,3 +15442,104 @@ test("Batch 174 preserves Beckett-to-Bedford boundaries, two occupations, and tw
     /100\.1CL_SD\.pdf/,
   );
 });
+
+test("Batch 175 preserves Bednarek-to-Beeman boundaries, two occupations, Beeler's academic path, and Beecher's conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["845ab74b-8ddd-50bf-b9ac-a1619e286bbc", "Edmund Bednarek", "cPL"],
+    ["f40bac55-094e-5e50-b0ae-8db0d38b247b", "David Bedor", "Pvt"],
+    ["c8d9c746-6531-5990-a6cf-b3c00ddda661", "Carlos A Beebe", "Not printed"],
+    ["839bb754-f5f2-5dbe-91eb-930e8b4253f3", "Robert P Beebe", "CSP P"],
+    ["6ca0beab-bae2-5aeb-aa75-5b5e9f0cec22", "Gertrude C Beecher", "Caf-3"],
+    ["7d2b105f-0d2c-5696-9739-940212982aa6", "Henry W Beecher Jr.", "T-5"],
+    ["68487b8b-255d-5c63-a0c2-e653bcf62cf0", "Willard E Beecher", "Not printed"],
+    ["1150c66c-0758-58bc-bfb6-c80fb1f6a2f0", "Leslie L Beeler Jr.", "Not printed"],
+    ["8550a6b5-7f28-533d-9d7b-dee106ec9d92", "Madison S Beeler", "Not printed"],
+    ["a40c3e8a-b9c4-5d41-a4f4-f84e18d4ae25", "George E Beeman", "T-5"],
+  ];
+
+  for (const [personId, displayName, rank] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("46", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 29");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["f40bac55-094e-5e50-b0ae-8db0d38b247b", "Semiskilled occupation in the manufacture of automobiles, not elsewhere classified"],
+    ["a40c3e8a-b9c4-5d41-a4f4-f84e18d4ae25", "Semiskilled occupation in the fabrication of metal products, not elsewhere classified"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "845ab74b-8ddd-50bf-b9ac-a1619e286bbc",
+    "c8d9c746-6531-5990-a6cf-b3c00ddda661",
+    "839bb754-f5f2-5dbe-91eb-930e8b4253f3",
+    "6ca0beab-bae2-5aeb-aa75-5b5e9f0cec22",
+    "68487b8b-255d-5c63-a0c2-e653bcf62cf0",
+    "1150c66c-0758-58bc-bfb6-c80fb1f6a2f0",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/7d2b105f-0d2c-5696-9739-940212982aa6/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "conflicts with the official Army merged file",
+  );
+  await expect(page.locator("main")).toContainText(
+    "another identifier, so its date and occupation are not assigned",
+  );
+
+  await page.goto("./people/8550a6b5-7f28-533d-9d7b-dee106ec9d92/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".profile-aside").getByText("Yes", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of California, Berkeley",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Harvard University",
+  );
+  await expect(page.locator("main")).toContainText(
+    "best-supported last civilian employer before his 1942-44 Naval Reserve service",
+  );
+  await expect(page.getByRole("link", { name: "1989, University of California: In Memoriam", exact: true }).first()).toHaveAttribute(
+    "href",
+    /digicoll\.lib\.berkeley\.edu\/record\/81340/,
+  );
+
+  await page.goto("./people/a40c3e8a-b9c4-5d41-a4f4-f84e18d4ae25/");
+  await expect(page.getByRole("link", { name: "George E. Beeman obituary", exact: true }).first()).toHaveAttribute(
+    "href",
+    /2002-08-01-ChelseaStandard\.pdf/,
+  );
+  await expect(page.locator("main")).toContainText("U.S. Army OSS Division");
+
+  await page.goto("./organizations/dd5d0a44-0368-5e91-a5d3-074de36840ed/");
+  await expect(page.getByRole("heading", { name: "University of California, Berkeley", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Madison S Beeler");
+
+  await page.goto("./organizations/45ddf347-21c6-59f5-a8ae-517418adf941/");
+  await expect(page.getByRole("heading", { name: "Harvard University", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Madison S Beeler");
+});

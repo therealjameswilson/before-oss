@@ -2515,7 +2515,7 @@ b63ca3f5-ca5f-532c-bb7d-0addd15a29b9,Carlo E Aprato,Aprato,Carlo,unresolved,unkn
 cda403ea-d94f-5b94-8372-8f5804581e12,Carlo O Liberatore,Liberatore,Carlo,unresolved,unknown_or_indeterminate,,not_started,1,276,452,230/86/35/04,••••5003
 a5a8e842-7ba5-5f0e-bdbc-633f25649c3b,Carlo R Gilardi,Gilardi,Carlo,unresolved,unknown_or_indeterminate,,not_started,1,168,272,230/86/31/06,
 0101ab60-2171-5501-9e7e-606430b8afdb,Carlo Resio,Resio,Carlo,unresolved,commissioned_army_officer,True,not_started,1,389,640,230/86/39/03,
-c8d9c746-6531-5990-a6cf-b3c00ddda661,Carlos A Beebe,Beebe,Carlos,unresolved,unknown_or_indeterminate,,not_started,1,29,46,230/86/27/02,
+c8d9c746-6531-5990-a6cf-b3c00ddda661,Carlos A Beebe,Beebe,Carlos,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,29,46,230/86/27/02,
 86f7da9f-6ca1-555f-9a3d-f5a9ba9cbbe2,Carlos B Dawes,Dawes,Carlos,unresolved,unknown_or_indeterminate,,not_started,1,108,172,230/86/29/06,••••4101
 e34c0c68-97b8-5815-9a44-8b7550b79708,Carlos B Dawes,Dawes,Carlos,unresolved,commissioned_army_officer,True,not_started,1,108,172,230/86/29/06,
 2877c702-6e7e-58ce-85b1-1a837d1666d7,Carlos F Jiminez-Torres,Jiminez-Torres,Carlos,unresolved,unknown_or_indeterminate,,not_started,1,231,373,230/86/33/07,••••8348
@@ -3966,7 +3966,7 @@ b7a6d1e8-3e48-5b1e-8474-fcf24c9aa839,David B Higginbottom,Higginbottom,David,unr
 9745a109-ff5f-5ec5-8e82-9418d0b58331,David B MacGregor,MacGregor,David,unresolved,unknown_or_indeterminate,,not_started,1,288,471,230/86/35/07,
 2c154491-3bb2-5e5b-8b28-4966d01e088f,David B Stout,Stout,David,unresolved,unknown_or_indeterminate,,not_started,1,451,751,230/86/41/05,
 a61be8c1-33e0-5ae6-993e-1ed4912a64a2,David Beck,Beck,David,confirmed,enlisted_army_personnel,False,occupation_only_found,1,28,45,230/86/27/02,••••4909
-f40bac55-094e-5e50-b0ae-8db0d38b247b,David Bedor,Bedor,David,unresolved,enlisted_army_personnel,False,not_started,1,29,46,230/86/27/02,••••0302
+f40bac55-094e-5e50-b0ae-8db0d38b247b,David Bedor,Bedor,David,confirmed,enlisted_army_personnel,False,occupation_only_found,1,29,46,230/86/27/02,••••0302
 21782af2-0d84-5da2-874d-2d63fd46f075,David Blythe,Blythe,David,unresolved,unknown_or_indeterminate,,not_started,1,41,63,230/86/27/04,
 66214ffe-dc56-5979-aea1-a23daf0b309a,David Bodner,Bodner,David,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,••••7188
 27b7c870-711f-5308-99ab-eca2c19912c0,David Brodie,Brodie,David,unresolved,unknown_or_indeterminate,,not_started,1,53,81,230/86/27/07,••••1538
@@ -4942,7 +4942,7 @@ b7b61bd5-fad2-5418-aca4-e4a9467bf733,Edmond Sottile,Sottile,Edmond,unresolved,un
 c0d3ce41-37b3-5f38-a560-6f0cfd7e1658,Edmond Speraber,Speraber,Edmond,unresolved,commissioned_army_officer,True,not_started,1,440,732,230/86/41/02,
 fe57effa-33fe-5580-94bc-1629480b3ea0,Edmund A Mroz,Mroz,Edmund,unresolved,commissioned_army_officer,True,not_started,1,333,544,230/86/37/03,••••1618
 02ad1818-2b78-5f69-8f50-4847e35e962f,Edmund Barski,Barski,Edmund,high_confidence,foreign_or_allied_military_personnel,,requires_archival_review,1,25,40,230/86/27/01,
-845ab74b-8ddd-50bf-b9ac-a1619e286bbc,Edmund Bednarek,Bednarek,Edmund,unresolved,enlisted_army_personnel,False,not_started,1,29,46,230/86/27/02,••••0733
+845ab74b-8ddd-50bf-b9ac-a1619e286bbc,Edmund Bednarek,Bednarek,Edmund,unresolved,enlisted_army_personnel,False,requires_archival_review,1,29,46,230/86/27/02,••••0733
 69f5ff96-d546-5aad-b6e1-2e6909228cde,Edmund C Cleveland,Cleveland,Edmund,unresolved,unknown_or_indeterminate,,not_started,1,84,129,230/86/28/07,••••8047
 26898233-77ca-5222-9b77-28aeb5368fa1,Edmund C Converse,Converse,Edmund,unresolved,unknown_or_indeterminate,,not_started,1,90,140,230/86/29/01,
 4636b761-fb3d-5dc9-9be4-22eea0d86674,Edmund Czaplinski,Czaplinski,Edmund,unresolved,foreign_or_allied_military_personnel,,not_started,1,103,162,230/86/29/05,
@@ -7681,7 +7681,7 @@ d4e16f1d-26c7-50bc-af15-e715a5452647,George DeBraux,DeBraux,George,unresolved,un
 0158c622-2129-5b00-aa5b-5b570e2acea7,George E Albers,Albers,George,unresolved,commissioned_army_officer,True,requires_archival_review,1,4,7,230/86/26/03,••••2000
 95768589-c254-58da-8083-3867a475c528,George E Armbruster,Armbruster,George,unresolved,enlisted_army_personnel,False,requires_archival_review,1,13,21,230/86/26/05,••••4618
 e8fc52e4-85b5-56de-8886-67b7084823c0,George E Barnes Jr.,Barnes,"George, Jr.",unresolved,unknown_or_indeterminate,,requires_archival_review,1,23,37,230/86/27/01,
-a40c3e8a-b9c4-5d41-a4f4-f84e18d4ae25,George E Beeman,Beeman,George,unresolved,enlisted_army_personnel,False,not_started,1,29,46,230/86/27/02,••••0568
+a40c3e8a-b9c4-5d41-a4f4-f84e18d4ae25,George E Beeman,Beeman,George,confirmed,enlisted_army_personnel,False,occupation_only_found,1,29,46,230/86/27/02,••••0568
 e53baf7f-b599-578e-93c4-19b536f1e9aa,George E Brewer Jr.,Brewer,"George, Jr.",unresolved,unknown_or_indeterminate,,not_started,1,51,78,230/86/27/07,••••3213
 97c614de-43a2-5c6d-ae95-9d9aa2557109,George E Causey,Causey,George,unresolved,unknown_or_indeterminate,,not_started,1,74,114,230/86/28/05,••••2104
 352f9c34-ce1e-57ce-a21a-f6446f443e92,George E Clark,Clark,George,unresolved,unknown_or_indeterminate,,not_started,1,82,126,230/86/28/06,••••9952
@@ -8261,7 +8261,7 @@ d5d3a163-d899-5c02-912c-5a8fceecd039,Gerstle Mack,Mack,Gerstle,unresolved,unknow
 bbc9de8f-66d7-52ef-a825-cd04a55cfba4,Gert Hans Von Gontard,Von Gontard,Gert Hans,unresolved,unknown_or_indeterminate,,not_started,1,485,808,230/86/42/06,
 3e3beded-c3c1-5f9b-9f6f-d7b5744297a2,Gertrude A Kesting,Kesting,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,247,402,230/86/34/04,
 c7626520-0979-591c-b52a-81a6e57d0cf2,Gertrude A Stanton,Stanton,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,444,737,230/86/41/03,
-6ca0beab-bae2-5aeb-aa75-5b5e9f0cec22,Gertrude C Beecher,Beecher,Gertrude,unresolved,civilian_professional_or_administrative_grade,False,not_started,1,29,46,230/86/27/02,
+6ca0beab-bae2-5aeb-aa75-5b5e9f0cec22,Gertrude C Beecher,Beecher,Gertrude,unresolved,civilian_professional_or_administrative_grade,False,requires_archival_review,1,29,46,230/86/27/02,
 7e32a75c-fe71-5618-99b7-362013aa8549,Gertrude E Ebbert,Ebbert,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,131,211,230/86/30/05,
 bf6fadd8-e84b-5ce7-a4e3-f53f19383911,Gertrude E French,French,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,156,250,230/86/31/03,
 bcb3f46a-5f2f-5770-9a73-250b2c1a855f,Gertrude G Tucker,Tucker,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,474,788,230/86/42/03,
@@ -9666,7 +9666,7 @@ d0ddddd7-150a-5ce7-a286-8453097c9126,Henry U Herbert,Herbert,Henry,unresolved,un
 ba2f4d84-a0f3-5e25-922f-6877669645d2,Henry Untermeyer,Untermeyer,Henry,unresolved,unknown_or_indeterminate,,not_started,1,478,794,230/86/42/04,
 bdd46c22-4b10-5dd4-b41b-e182e6b5d378,Henry V Macias,Macias,Henry,unresolved,enlisted_army_personnel,False,not_started,1,288,471,230/86/35/07,••••3612
 2b0a2730-bae9-561e-a5b6-227e666cba3d,Henry V Steenberghe,Steenberghe,Henry,unresolved,unknown_or_indeterminate,,not_started,1,446,741,230/86/41/03,
-7d2b105f-0d2c-5696-9739-940212982aa6,Henry W Beecher Jr.,Beecher,"Henry, Jr.",unresolved,enlisted_army_personnel,False,not_started,1,29,46,230/86/27/02,••••7041
+7d2b105f-0d2c-5696-9739-940212982aa6,Henry W Beecher Jr.,Beecher,"Henry, Jr.",conflicting,enlisted_army_personnel,False,conflicting_sources,1,29,46,230/86/27/02,••••7041
 c223bcdc-7073-5f5d-b434-ee93433f0095,Henry W Gossard,Gossard,Henry,unresolved,commissioned_army_officer,True,not_started,1,176,285,230/86/32/01,••••1813
 78dee9fb-db7a-5dd3-84bc-275bc00aa0f7,Henry W Lowe,Lowe,Henry,unresolved,unknown_or_indeterminate,,not_started,1,284,464,230/86/35/06,••••1908
 57a7971e-6dfb-5652-a1f4-2bb60fbb4e6e,Henry W Lucker,Lucker,Henry,unresolved,unknown_or_indeterminate,,not_started,1,285,466,230/86/35/06,••••9074
@@ -14567,7 +14567,7 @@ ed946d53-a683-5871-8906-a6206c8776ff,Leslie A Lear,Lear,Leslie,unresolved,commis
 790eb251-c466-5ecd-adb8-b0405af731cf,Leslie J Smith,Smith,Leslie,unresolved,unknown_or_indeterminate,,not_started,1,434,723,230/86/41/01,••••4668
 380abb97-902d-5951-a1d8-6bd6eb32ffa5,Leslie J Vanoncini,Vanoncini,Leslie,unresolved,commissioned_army_officer,True,not_started,1,481,800,230/86/42/05,••••8734
 46cc3ed9-c738-5649-93c1-48994390bd94,"Leslie, Jr. Cheek Jr.","Cheek, Jr.","Leslie, Jr.",unresolved,unknown_or_indeterminate,,not_started,1,78,120,230/86/28/06,••••4042
-1150c66c-0758-58bc-bfb6-c80fb1f6a2f0,Leslie L Beeler Jr.,Beeler,"Leslie, Jr.",unresolved,unknown_or_indeterminate,,not_started,1,29,46,230/86/27/02,
+1150c66c-0758-58bc-bfb6-c80fb1f6a2f0,Leslie L Beeler Jr.,Beeler,"Leslie, Jr.",unresolved,unknown_or_indeterminate,False,requires_archival_review,1,29,46,230/86/27/02,
 5f5fa3f2-28b8-5407-837b-bc8c5bf3ead0,Leslie N Borgwardt,Borgwardt,Leslie,unresolved,enlisted_army_personnel,False,not_started,1,45,69,230/86/27/05,••••9373
 9985eacd-32d3-52ab-a4c6-f50150271518,Leslie R Pope,Pope,Leslie,unresolved,unknown_or_indeterminate,,not_started,1,373,612,230/86/38/06,
 8f12b16d-9a1b-52a4-bb01-30b76567cf97,Leslie Rosenzweig,Rosenzweig,Leslie,unresolved,enlisted_army_personnel,False,not_started,1,400,660,230/86/39/06,••••5323
@@ -15285,7 +15285,7 @@ d66e0907-8f62-5937-9197-993da8612bc3,Madeline M Landwirth,Landwirth,Madeline,unr
 e6214c34-a023-5d9c-a5ca-e4db1f6df2a0,Madge C Lecompte,Lecompte,Madge,unresolved,civilian_professional_or_administrative_grade,False,not_started,1,270,440,230/86/35/02,
 91a72f64-a44c-5ab8-af99-4e0d28fcbfbc,Madison M Frederickson,Frederickson,Madison,unresolved,unknown_or_indeterminate,,not_started,1,155,249,230/86/31/03,
 582c5166-cba9-58cc-89f2-f5a019fef845,Madison P Rehm,Rehm,Madison,unresolved,commissioned_army_officer,True,not_started,1,387,637,230/86/39/02,••••2619
-8550a6b5-7f28-533d-9d7b-dee106ec9d92,Madison S Beeler,Beeler,Madison,unresolved,unknown_or_indeterminate,,not_started,1,29,46,230/86/27/02,
+8550a6b5-7f28-533d-9d7b-dee106ec9d92,Madison S Beeler,Beeler,Madison,high_confidence,commissioned_naval_officer,True,documented_prewar_employer_found,1,29,46,230/86/27/02,
 b47037c7-3b83-5eb7-a747-ff21e9c921fb,Mae A Henry,Henry,Mae,unresolved,unknown_or_indeterminate,,not_started,1,204,328,230/86/32/07,
 cc7650ca-5c84-58b9-8b94-aa851534a8f5,Mae Chaffee,Chaffee,Mae,unresolved,unknown_or_indeterminate,,not_started,1,75,115,230/86/28/05,
 a524ea6d-eeb3-5038-9b0e-70d31a93778b,Mae Hardy,Hardy,Mae,unresolved,unknown_or_indeterminate,,not_started,1,193,313,230/86/32/05,
@@ -19794,7 +19794,7 @@ ceb80636-a597-5493-9ea6-fa788f9fc7f8,Robert O Kennedy,Kennedy,Robert,unresolved,
 375d8c34-60ce-5426-ab58-50731599e624,Robert O Weeks,Weeks,Robert,unresolved,unknown_or_indeterminate,,not_started,1,494,822,230/86/43/01,
 89cab667-b2ab-5c33-814c-b022135e8cff,Robert Orwin,Orwin,Robert,unresolved,foreign_or_allied_military_personnel,,not_started,1,352,578,230/86/38/01,••••7215
 865541d6-c404-58ed-ab40-0ee67a7971da,Robert P Armstrong,Armstrong,Robert,unresolved,enlisted_naval_personnel,False,requires_archival_review,1,13,22,230/86/26/06,••••3629
-839bb754-f5f2-5dbe-91eb-930e8b4253f3,Robert P Beebe,Beebe,Robert,unresolved,unknown_or_indeterminate,,not_started,1,29,46,230/86/27/02,••••7919
+839bb754-f5f2-5dbe-91eb-930e8b4253f3,Robert P Beebe,Beebe,Robert,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,29,46,230/86/27/02,••••7919
 648accf2-ce68-5cc3-9e1b-6152d3de62a6,Robert P Braun,Braun,Robert,unresolved,unknown_or_indeterminate,,not_started,1,50,77,230/86/27/06,••••9744
 6b6a26ab-e25d-5b81-ae7d-9b0ea1a27d24,Robert P Davis,Davis,Robert,unresolved,unknown_or_indeterminate,,not_started,1,108,171,230/86/29/06,••••6358
 df5cd92a-c30b-5693-9516-0d349473c334,Robert P Dent,Dent,Robert,high_confidence,unknown_or_indeterminate,,not_started,2,114,181,230/86/29/07,••••9460
@@ -22809,7 +22809,7 @@ dffe808f-dfa0-5186-b42a-19e6cf469134,Willard A Nichols,Nichols,Willard,unresolve
 309cd4b5-1372-58ee-8a8e-ee0752e52e79,Willard C Asbury,Asbury,Willard,high_confidence,unknown_or_indeterminate,,documented_prewar_employer_found,1,14,23,230/86/26/06,
 6e96c735-101e-58fd-a956-c49978ee025f,Willard D Cologna,Cologna,Willard,unresolved,unknown_or_indeterminate,,not_started,1,88,136,230/86/29/01,••••4600
 5aee1959-50fe-5d56-a0f0-3bd469bb52e2,Willard D Sheeler,Sheeler,Willard,unresolved,unknown_or_indeterminate,,not_started,1,423,701,230/86/40/05,••••0120
-68487b8b-255d-5c63-a0c2-e653bcf62cf0,Willard E Beecher,Beecher,Willard,unresolved,unknown_or_indeterminate,,not_started,1,29,46,230/86/27/02,
+68487b8b-255d-5c63-a0c2-e653bcf62cf0,Willard E Beecher,Beecher,Willard,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,29,46,230/86/27/02,
 090f2545-5326-5d08-a232-9cdf164ff07b,Willard E Lay,Lay,Willard,unresolved,enlisted_army_personnel,False,not_started,1,269,438,230/86/35/02,••••3935
 1e6fadb9-0dad-5264-a12a-33ce642001e9,Willard E Paxton,Paxton,Willard,unresolved,enlisted_army_personnel,False,not_started,1,361,591,230/86/38/03,••••0821
 07b8976a-685d-5b4b-ab92-fd9c6b0c99c1,Willard E Stott,Stott,Willard,unresolved,unknown_or_indeterminate,,not_started,1,451,751,230/86/41/05,••••2480
