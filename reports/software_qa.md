@@ -5,32 +5,33 @@ Run: 2026-08-03 UTC
 - Python unit tests: **62 / 62 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,266 pages**
-- Internal link check: **24,266 HTML files passed**
-- Browser and accessibility suite: **567 / 567 passed** across desktop,
+- Static production build: **24,267 pages**
+- Internal link check: **24,267 HTML files passed**
+- Browser and accessibility suite: **570 / 570 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
-- Deterministic production rebuild: **identical sorted path-and-file-SHA-256
-  tree hashes**
-  (`ed9a7a56f7072db751fc68a657aaaa0609a0cc515218461d2d6dc602d9a16894`)
-- Latest deterministic build (Batch 175): **byte-for-byte identical** across
-  consecutive static builds and all **24,336** built-site artifacts.
+- Deterministic public-data and production rebuilds: **identical sorted
+  path-and-file-SHA-256 tree hashes**
+  (`12de93e622d65a960d0e1dd40ba505dbcd2f910f385e9feefe1f8571462ff9b7`
+  and `7ac33b7760ce952a7ae30a6e0f6742feb7ffd2fc211cad6e333f8bc042b680bd`)
+- Latest deterministic build (Batch 176): **byte-for-byte identical** across
+  consecutive static builds and all **24,337** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `bbf7a4b5f4281810fb9384182ea614f8054ea191b1f8c714b70a3990128dba0f`
+  `f4fc489d732dc0deaed7ab5cddad560356f0b6ce8731fa2a033baf536a70d8de`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
-identifiers plus **121** formatted raw variants: **0 unexpected full-number
-matches** in **24,336** production artifacts, including compressed mirrors;
-no aggregate-value false positives were present
+  identifiers plus **121** formatted raw variants: **0 unexpected full-number
+  matches** in **24,337** production artifacts, including compressed mirrors;
+  no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,216** public records representing **964** unique documents
-- Private citation records: **2,199**
-- Published, qualified affiliations: **612**
-- Published or conflict-visible claims: **1,190**
+- Reviewed public sources: **1,222** public records representing **968** unique documents
+- Private citation records: **2,206**
+- Published, qualified affiliations: **618**
+- Published or conflict-visible claims: **1,203**
 - Withheld low-confidence evidence: **25 claims concerning 20 people**
 - Verified-affiliation metric: **273** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -65,10 +66,68 @@ no aggregate-value false positives were present
   matrix runs in release CI
 - Batch 175 local release checks: **passed**; the combined **567-case** browser
   matrix runs in release CI
+- Batch 176 local release checks: **passed**; the combined **570-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 176 local release QA
+
+Batch 176 adds the ten visually checked rows from Kenneth S. Beers through
+William J. Behrens across pages twenty-nine and thirty. The strict evidence
+bundle imports seven sources, two organizations, six affiliations, thirteen
+claims, twenty-five claim-source links, ten person updates, and ten terminal
+research attempts. Exact private-identifier matches in NARA's official Army
+enlistment merged file support occupation-only findings for Kenneth S. Beers,
+Marvin K. Begley, John L. Behling, and William J. Behrens. Independent sources
+also confirm Behling's OSS identity. A detailed obituary supports Jeanne F.
+Begg's high-confidence identity and qualified chronology from the New York
+Daily Mirror to American Red Cross public relations and then OSS recruitment;
+the Red Cross is modeled as her immediate affiliation and last civilian
+employer, while the newspaper remains earlier employment. Edward R.
+Begliomini's printed identifier maps to a different Army name while an exact-
+name record carries another identifier, so the conflict remains visible
+without publishing either full number. Myron Behlman, Vaughn C. Behn,
+Elizabeth P. Behr, and Ottmar E. Behr Jr. remain unresolved and route to Box 46
+archival review. The official Army documentation explains that Ottmar's
+printed identifier falls within a documented conversion gap rather than
+supporting an unrelated match. Two Library of Congress candidates were
+reviewed and rejected as namesakes.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 62 / 62, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,267 pages. The internal-link checker passed all 24,267 HTML files and
+inventoried 48,857 unique external URLs. The browser, responsive, direct-route,
+search, and axe matrix passed 570 / 570 across desktop, phone, and tablet,
+including 27 / 27 dedicated axe cases. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive final builds produced identical sorted path-and-file-SHA-256 tree
+digests for public data and the complete static site:
+`12de93e622d65a960d0e1dd40ba505dbcd2f910f385e9feefe1f8571462ff9b7`
+and `7ac33b7760ce952a7ae30a6e0f6742feb7ffd2fc211cad6e333f8bc042b680bd`.
+All 65 manifest assets matched their recorded sizes and SHA-256 values in both
+public source and built trees. The manifest SHA-256 is
+`f4fc489d732dc0deaed7ab5cddad560356f0b6ce8731fa2a033baf536a70d8de`.
+The boundary-aware scan examined 1,000 candidate substrings derived from
+12,919 nontrivial normalized private identifiers and 121 formatted raw
+variants and found zero unexpected matches or aggregate false positives. No
+authenticated Catalog request, API credential, or raw Catalog response was
+used or stored.
+
+The Batch 176 database contains 2,645 durable research attempts, 2,206 private
+source records representing 968 unique documents, 322 organizations, 625
+affiliations, 1,228 claims, and 2,577 claim-source links. Claim confidence is
+242 confirmed, 738 high, 209 medium, 25 low, and 14 conflicting. The public
+projection contains 1,222 sources, 318 organizations, 618 affiliations, and
+1,203 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,565 people with a non-planned research attempt, 273 with
+verified-affiliation evidence, 156 with verified employment or self-employment
+evidence, and 1,514 whose archival-review need has been assessed. The
+`not_started` count is 22,376 and `requires_archival_review` is 1,113.
 
 ## Batch 175 local release QA
 

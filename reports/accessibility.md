@@ -4,16 +4,16 @@ Run: 2026-08-03 UTC
 
 ## Result
 
-**PASS - 567 / 567 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 570 / 570 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 189 desktop, 189 phone, and 189 tablet cases. Every case
+The matrix contains 190 desktop, 190 phone, and 190 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 567-case matrix.
+combined 570-case matrix.
 
 Routes tested at all three sizes:
 
@@ -42,6 +42,18 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+
+Batch 176 adds direct desktop, phone, and tablet checks for Kenneth S. Beers
+through William J. Behrens across pages twenty-nine and thirty. It verifies all
+ten source rows, Box 46 routing, literal printed ranks and grades, and masked or
+unprinted identifiers. Kenneth S. Beers, Marvin K. Begley, John L. Behling,
+and William J. Behrens retain occupation-only findings rather than invented
+employers. Jeanne F. Begg's qualified American Red Cross pathway is kept
+separate from her earlier New York Daily Mirror employment; Edward R.
+Begliomini's official-source identifier conflict remains visible; and Myron
+Behlman, Vaughn C. Behn, Elizabeth P. Behr, and Ottmar E. Behr Jr. retain
+explicit archival-review guidance. The production build contains 24,267 static
+pages.
 
 Batch 175 adds direct desktop, phone, and tablet checks for Edmund Bednarek
 through George E. Beeman on page twenty-nine. It verifies all ten source rows,

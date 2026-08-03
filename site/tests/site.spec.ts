@@ -15543,3 +15543,110 @@ test("Batch 175 preserves Bednarek-to-Beeman boundaries, two occupations, Beeler
   await expect(page.getByRole("heading", { name: "Harvard University", exact: true })).toBeVisible();
   await expect(page.locator("main")).toContainText("Madison S Beeler");
 });
+
+test("Batch 176 preserves the page boundary, four Army occupations, Begg's civilian path, and Begliomini's conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["d182bb13-4229-5c67-8bfc-ab75a729ef53", "Kenneth S Beers", "Cpl", "29"],
+    ["eb12cd7e-e55a-5a3b-86a7-349d4d25eb34", "Jeanne F Begg", "P-4", "29"],
+    ["e0b53edc-df43-5dea-ba95-30f6c4619bf3", "Marvin K Begley", "Cpl", "29"],
+    ["e9894de3-592a-5ab3-b5f3-56ea67909531", "Edward R Begliomini", "T-4", "29"],
+    ["7936e44c-b6cc-5905-a999-a5110950c498", "John L Behling", "Pfc", "29"],
+    ["d292147a-aba3-5793-97a4-33835a159198", "Myron Behlman", "RM 1/c", "29"],
+    ["0c16d6dd-eb16-517b-92b7-fb8e45fc4338", "Vaughn C Behn", "ENG", "30"],
+    ["fa7364f8-bcbe-53e6-b215-f1caf9964887", "Elizabeth P Behr", "Caf-5", "30"],
+    ["a31ef517-bc6a-5426-871a-3217fc5537ca", "Ottmar E Behr Jr.", "T-5", "30"],
+    ["c61a401c-9ee7-52ff-859c-bec5ca79227a", "William J Behrens", "M/Sgt", "30"],
+  ];
+
+  for (const [personId, displayName, rank, pdfPage] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("46", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(`Page ${pdfPage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["d182bb13-4229-5c67-8bfc-ab75a729ef53", "Skilled chauffeur or driver of a bus, taxi, truck, or tractor"],
+    ["e0b53edc-df43-5dea-ba95-30f6c4619bf3", "Semiskilled occupation in the manufacture of textiles, not elsewhere classified"],
+    ["7936e44c-b6cc-5905-a999-a5110950c498", "Shipping and receiving clerk"],
+    ["c61a401c-9ee7-52ff-859c-bec5ca79227a", "Semiskilled chauffeur or driver of a bus, taxi, truck, or tractor"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "d292147a-aba3-5793-97a4-33835a159198",
+    "0c16d6dd-eb16-517b-92b7-fb8e45fc4338",
+    "fa7364f8-bcbe-53e6-b215-f1caf9964887",
+    "a31ef517-bc6a-5426-871a-3217fc5537ca",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/e9894de3-592a-5ab3-b5f3-56ea67909531/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("conflicts with the official Army merged file");
+  await expect(page.locator("main")).toContainText(
+    "another identifier, so its date and occupation are not assigned",
+  );
+
+  await page.goto("./people/eb12cd7e-e55a-5a3b-86a7-349d4d25eb34/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "American Red Cross",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "American Red Cross",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "New York Daily Mirror",
+  );
+  await expect(page.locator("main")).toContainText("strongly date bounded");
+  await expect(
+    page.getByRole("link", {
+      name: "Jeanne Begg Clagett; Horsewoman, 'Doyenne of Washington Real Estate'",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /washingtonpost\.com/);
+
+  await page.goto("./people/7936e44c-b6cc-5905-a999-a5110950c498/");
+  await expect(page.locator("main")).toContainText("John L. Behling Jr.");
+  await expect(page.locator("main")).toContainText("former OSS officer");
+  await expect(
+    page.getByRole("link", {
+      name: "Factors Underlying the Psychological and Behavioral Characteristics of Office of Strategic Services Candidates: The Assessment of Men Data Revisited",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /tandfonline\.com/);
+
+  await page.goto("./people/a31ef517-bc6a-5426-871a-3217fc5537ca/");
+  await expect(page.locator("main")).toContainText("missing from the electronic Army conversion");
+
+  await page.goto("./organizations/08dc57ba-b5cb-549c-99cd-5e0ced0edb1e/");
+  await expect(page.getByRole("heading", { name: "American Red Cross", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jeanne F Begg");
+
+  await page.goto("./organizations/ef00f0cc-1cfd-5b3c-8165-6583710041af/");
+  await expect(page.getByRole("heading", { name: "New York Daily Mirror", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jeanne F Begg");
+});

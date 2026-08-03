@@ -4,16 +4,40 @@ Run: 2026-08-03 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,266 HTML files. Every relative
+**PASS.** The production build contains 24,267 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 317 organization profiles, and the
+The build includes 23,941 person profiles, 318 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,853 unique external URLs for separate live
+The checker inventoried 48,857 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 176 local release check
+
+The complete 24,267-page internal-link pass includes direct routes for Kenneth
+S. Beers through William J. Behrens across pages twenty-nine and thirty. Jeanne
+F. Begg's profile links to the American Red Cross and New York Daily Mirror
+organization routes.
+
+The Batch 176 regression passed at desktop, phone, and tablet sizes as part of
+the 570-case Playwright matrix. It checks literal source display and identifier
+masking; keeps four Army-entry occupations distinct from named employers;
+separates Jeanne F. Begg's immediate Red Cross pathway from her earlier
+newspaper employment; preserves Edward R. Begliomini's identifier conflict;
+and routes four unresolved profiles to archival review. All 65 public manifest
+assets matched their recorded sizes and SHA-256 values in both public source
+and built trees. The manifest SHA-256 is
+`f4fc489d732dc0deaed7ab5cddad560356f0b6ce8731fa2a033baf536a70d8de`.
+Two consecutive public-data and static-site builds produced the same sorted
+path-and-file SHA-256 tree digests,
+`12de93e622d65a960d0e1dd40ba505dbcd2f910f385e9feefe1f8571462ff9b7`
+and `7ac33b7760ce952a7ae30a6e0f6742feb7ffd2fc211cad6e333f8bc042b680bd`.
+The boundary-aware audit reviewed 1,000 candidate substrings across 24,337
+built artifacts and found zero unexpected private-identifier matches or
+aggregate false positives.
 
 ## Batch 175 local release check
 

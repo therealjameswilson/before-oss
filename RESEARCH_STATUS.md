@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,515 people with a non-planned attempt | 23,941 person entities | 6.3281% |
-| Verified-affiliation coverage | 270 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1278% |
-| Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,464 people with an individual file-access/priority assessment | 23,941 person entities | 6.1150% |
+| Research-attempt coverage | 1,565 people with a non-planned attempt | 23,941 person entities | 6.5369% |
+| Verified-affiliation coverage | 273 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1403% |
+| Verified-employer coverage | 156 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6516% |
+| Archival-review coverage | 1,514 people with an individual file-access/priority assessment | 23,941 person entities | 6.3239% |
 
 ## Extraction and identity
 
@@ -21,48 +21,48 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 122
-- Identity status `high_confidence`: 345
+- Identity status `confirmed`: 138
+- Identity status `high_confidence`: 349
 - Identity status `probable`: 52
 - Identity status `ambiguous`: 26
-- Identity status `conflicting`: 7
-- Identity status `unresolved`: 23,389
+- Identity status `conflicting`: 12
+- Identity status `unresolved`: 23,364
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,498
+- Unknown or indeterminate: 16,495
 - Enlisted Army personnel: 3,516
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,462
+- Civilian professional or administrative grades: 1,463
 - Foreign or Allied military personnel: 246
-- Enlisted naval personnel: 55
-- Commissioned naval officers: 81
+- Enlisted naval personnel: 56
+- Commissioned naval officers: 82
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,172 yes; 5,050 no; 16,719 indeterminate.
+Commissioned classification: 2,173 yes; 5,059 no; 16,709 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,426
+- `not_started`: 22,376
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 2
-- `documented_prewar_employer_found`: 35
-- `occupation_only_found`: 105
-- `requires_archival_review`: 1,088
+- `documented_prewar_employer_found`: 37
+- `occupation_only_found`: 121
+- `requires_archival_review`: 1,113
 - `completed`: 57
-- `conflicting_sources`: 7
-- `verified_employer_found`: 157
+- `conflicting_sources`: 12
+- `verified_employer_found`: 159
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 176
-- Live Library of Congress attempts: 301
+- Live CIA exact-name OSS attempts: 186
+- Live Library of Congress attempts: 337
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -88,12 +88,12 @@ Commissioned classification: 2,172 yes; 5,050 no; 16,719 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 533 across 512 people; 32 additional
+- Saved `source_reviewed` outcomes: 567 across 546 people; 39 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,549
-- Library of Congress discovery candidates: 19 total; all 19 rejected after
-  page-context review
-- People with saved reviewed claims: 501; 483 have at least one public-eligible
+- Total recorded attempts/plans: 2,645
+- Library of Congress discovery candidates: 36 total; 34 rejected after
+  page-context review and two retained for review
+- People with saved reviewed claims: 526; 508 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1977,14 +1977,43 @@ Commissioned classification: 2,172 yes; 5,050 no; 16,719 indeterminate.
   unresolved. No authenticated Catalog request, credential, raw API response,
   full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 595
-- Database claims: 1,178; public-visible claims: 1,153 (226 confirmed, 729 high,
-  189 medium, 9 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,451; private source records: 2,172; public source export:
-  1,191; unique source documents: 951
-- Canonical organizations: 320 private and 316 public
-- Conflicting claims: 9
-- NARA pull-list rows: 23,821
+- Batch 172 covers the next ten visually checked page-twenty-nine rows and
+  keeps Army-entry occupations separate from employers. It publishes Abraham
+  G. Beckelman's documented Joint Distribution Committee pathway while routing
+  unsupported Beck and Becker namesakes to archival review.
+- Batch 173 covers Ernest H. Becker through Wilbur J. Becker on page
+  twenty-nine. It preserves four occupation-only findings, separates Howard P.
+  Becker's verified University of Wisconsin employment from Leon Becker's
+  qualified Army pathway, and exposes Ralph C. Becker's identifier conflict.
+  Four unresolved profiles route to Boxes 45 or 46.
+- Batch 174 covers Peter R. Beckett through William H. Bedford on page
+  twenty-nine. Russell W. Beckmeyer's broad manufacturing occupation and
+  Thomas F. Bede's actor-or-actress occupation remain unnamed occupations;
+  Peter R. Beckett's and James F. Beckley's identifier conflicts remain
+  visible; and six unresolved profiles route to Box 46.
+- Batch 175 covers Edmund Bednarek through George E. Beeman on page
+  twenty-nine. David Bedor and George E. Beeman receive occupation-only
+  findings, Henry W. Beecher Jr.'s identifier conflict remains explicit, and
+  Madison S. Beeler's Harvard and Berkeley teaching chronology is qualified
+  without inventing an immediate OSS predecessor. Six unresolved profiles
+  route to Box 46.
+- Batch 176 covers Kenneth S. Beers through William J. Behrens across pages
+  twenty-nine and thirty. Four exact Army matches support occupation-only
+  findings. Jeanne F. Begg's qualified American Red Cross pathway is kept
+  separate from her earlier New York Daily Mirror employment. Edward R.
+  Begliomini's identifier conflict remains visible, while Myron Behlman,
+  Vaughn C. Behn, Elizabeth P. Behr, and Ottmar E. Behr Jr. route to Box 46
+  review. Two Library of Congress namesakes were rejected. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 618
+- Database claims: 1,228; public-visible claims: 1,203 (242 confirmed, 738 high,
+  209 medium, 14 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,577; private source records: 2,206; public source export:
+  1,222; unique source documents: 968
+- Canonical organizations: 322 private and 318 public
+- Conflicting claims: 14
+- NARA pull-list rows: 23,819
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2022,6 +2051,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-nine-thirty-kenneth-beers-through-william-behrens-pathways_batch-176_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-johnnie-batten-occupation-code-correction_batch-169_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-amos-bear-through-william-beasley-jr-pathways_batch-168_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-arthur-bauman-through-charles-baumler-pathways_batch-163_2026-08-02.json
