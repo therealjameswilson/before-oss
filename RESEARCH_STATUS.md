@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,475 people with a non-planned attempt | 23,941 person entities | 6.1610% |
+| Research-attempt coverage | 1,485 people with a non-planned attempt | 23,941 person entities | 6.2027% |
 | Verified-affiliation coverage | 268 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1194% |
 | Verified-employer coverage | 153 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6391% |
-| Archival-review coverage | 1,424 people with an individual file-access/priority assessment | 23,941 person entities | 5.9480% |
+| Archival-review coverage | 1,434 people with an individual file-access/priority assessment | 23,941 person entities | 5.9897% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-02 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 109
+- Identity status `confirmed`: 112
 - Identity status `high_confidence`: 343
-- Identity status `probable`: 49
+- Identity status `probable`: 50
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 7
-- Identity status `unresolved`: 23,407
+- Identity status `unresolved`: 23,403
 
 ## Personnel categories
 
@@ -47,14 +47,14 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,466
+- `not_started`: 22,456
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 13
 - `needs_temporal_review`: 2
 - `documented_prewar_employer_found`: 34
-- `occupation_only_found`: 92
-- `requires_archival_review`: 1,062
+- `occupation_only_found`: 95
+- `requires_archival_review`: 1,069
 - `completed`: 57
 - `conflicting_sources`: 7
 - `verified_employer_found`: 157
@@ -66,8 +66,8 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 892
-- Reviewed-web-and-official-bulk attempts recorded: 7
+- Reviewed-web terminal-protocol attempts recorded: 898
+- Reviewed-web-and-official-bulk attempts recorded: 11
 - Reviewed-evidence carry-forward/integrity attempts recorded: 3
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
@@ -84,12 +84,12 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 498 across 478 people; 32 additional
+- Saved `source_reviewed` outcomes: 502 across 482 people; 32 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,508
+- Total recorded attempts/plans: 2,518
 - Library of Congress discovery candidates: 19 total; 17 rejected after
   page-context review and 2 still unreviewed
-- People with saved reviewed claims: 483; 465 have at least one public-eligible
+- People with saved reviewed claims: 487; 469 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -1901,11 +1901,29 @@ Commissioned classification: 2,171 yes; 5,050 no; 16,720 indeterminate.
   Catalog request, credential, raw API response, full private identifier,
   sensitive personal detail, or discovery-only employer claim was used or
   published.
-- Public-visible affiliations: 577
-- Database claims: 1,142; public-visible claims: 1,117 (213 confirmed, 725 high,
-  170 medium, 9 conflicting); 25 low-confidence claims are withheld
-- Citation links: 2,350; private source records: 2,143; public source export:
-  1,163; unique source documents: 935
+- Batch 167 covers the next ten visually checked page-twenty-eight rows, Niver
+  W. Beaman through Alice M. Beans. The strict, idempotent bundle adds seven
+  sources, three affiliations, seven claims, twenty-one claim-source links,
+  ten person updates, and ten terminal research attempts. Exact private-
+  identifier matches in the official Army enlistment merged file confirm
+  Robert W. Beamer, Frank C. Bean, and Edwin L. Beane; the full identifiers
+  remain private. Frank's code 475 is published only as its broad machinist and
+  mechanic group, Edwin's code 736 only as its broad driver group, and Robert's
+  undefined code 731 is not converted into an occupation. The distinctive
+  Niver W. Beaman row is a probable match to journalist Niver William Beaman;
+  a scholarly source supports qualified Connecticut reporting during the
+  1920s, but no employer is named and the later newspaper affiliations are not
+  dated relative to OSS. Six profiles remain unresolved and route to Box 44;
+  Robert W. Beamer also requires the file to recover his prior occupation and
+  employer. None of these medium-confidence occupations enters default
+  verified-employer analytics. No authenticated Catalog request, credential,
+  raw API response, full private identifier, sensitive personal detail, or
+  discovery-only employer claim was used or published.
+- Public-visible affiliations: 580
+- Database claims: 1,149; public-visible claims: 1,124 (216 confirmed, 725 high,
+  174 medium, 9 conflicting); 25 low-confidence claims are withheld
+- Citation links: 2,371; private source records: 2,150; public source export:
+  1,170; unique source documents: 939
 - Canonical organizations: 316 private and 312 public
 - Conflicting claims: 9
 - NARA pull-list rows: 23,821

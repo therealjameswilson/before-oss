@@ -14881,3 +14881,77 @@ test("Batch 166 preserves Beach through Beaman archival boundaries and Calvin Be
   await expect(page.locator("main")).toContainText("Calvin L Beale");
   await expect(page.locator("main")).toContainText("Linked-person counts include unique person entities");
 });
+
+test("Batch 167 preserves Beaman through Beans archival boundaries and qualified occupation-only evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["20e3687a-ffbf-579c-8a12-8c58e7778e8e", "Niver W Beaman", "Not printed", "44"],
+    ["a0064ab9-3f5d-5a0b-95ba-ce6851ec2b9c", "Robert W Beamer", "Cpl", "44"],
+    ["fc149cf7-ff97-5e33-b786-21850def7060", "Christabel H Bean", "Caf-2", "44"],
+    ["3258f3b3-3f0c-5f39-aa51-a179e9f9c8fc", "Frances C Bean", "Caf-2", "44"],
+    ["27bd3a26-8639-55b3-8088-ce62b103a676", "Frank C Bean", "Pfc", "44"],
+    ["39dce059-0998-59bb-b8d5-040fc056d190", "Joan L Bean", "Caf-2", "44"],
+    ["cd4147e7-b320-5415-81a4-3a84d8a5d3b5", "Robert W Bean", "1st Lt", "44"],
+    ["efcb80a3-2e70-58cc-b730-3d5a1037a0fb", "Ruth F Bean", "SP-5", "44"],
+    ["44d68070-450b-589d-8194-7da9267361a5", "Edwin L Beane", "T/Sgt", "44"],
+    ["39c05ef2-06e5-5ee2-85cb-60c4e42ef42c", "Alice M Beans", "Caf-3", "44"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 28");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      /^(Not printed|••••[A-Z0-9]{4})$/,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "fc149cf7-ff97-5e33-b786-21850def7060",
+    "3258f3b3-3f0c-5f39-aa51-a179e9f9c8fc",
+    "39dce059-0998-59bb-b8d5-040fc056d190",
+    "cd4147e7-b320-5415-81a4-3a84d8a5d3b5",
+    "efcb80a3-2e70-58cc-b730-3d5a1037a0fb",
+    "39c05ef2-06e5-5ee2-85cb-60c4e42ef42c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/20e3687a-ffbf-579c-8a12-8c58e7778e8e/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Reporter",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Connecticut");
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.getByRole("link", { name: "Journalists' Hostility Toward Public Relations: A Historical Analysis", exact: true }).first()).toHaveAttribute(
+    "href",
+    /files\.eric\.ed\.gov/,
+  );
+
+  await page.goto("./people/a0064ab9-3f5d-5a0b-95ba-ce6851ec2b9c/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation code 731 is undefined");
+
+  await page.goto("./people/27bd3a26-8639-55b3-8088-ce62b103a676/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Machinist, general railway mechanic");
+  await expect(page.locator("main")).toContainText("strongly date bounded");
+
+  await page.goto("./people/44d68070-450b-589d-8194-7da9267361a5/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Tractor driver");
+  await expect(page.locator("main")).toContainText("heavy- or light-truck driver");
+});

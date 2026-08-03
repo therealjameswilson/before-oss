@@ -12,8 +12,28 @@ The build includes 23,941 person profiles, 312 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,829 unique external URLs for separate live
+The checker inventoried 48,833 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 167 local release check
+
+The complete 24,261-page internal-link pass includes direct routes for Niver W.
+Beaman, Robert W. Beamer, Christabel H. Bean, Frances C. Bean, Frank C. Bean,
+Joan L. Bean, Robert W. Bean, Ruth F. Bean, Edwin L. Beane, and Alice M. Beans.
+The Batch 167 regression passed at desktop, phone, and tablet sizes. Qualified
+occupation-only findings remain distinct from named employers; Robert W.
+Beamer's undefined code is not expanded; Niver Beaman's probable journalist
+identity remains visibly qualified; and unresolved profiles retain Box 44
+archival-review guidance.
+
+All 65 local manifest assets matched their recorded sizes and SHA-256 values
+in both public source and built trees. The manifest SHA-256 is
+`e04c4d1319bbdfa43578fbe2a337cabfe662ab4c3ab8b57a17ee242eda416e39`.
+Consecutive production builds produced the same sorted path-and-file-SHA-256
+tree digest,
+`128e43bdad89ce850bb860dc7b7e275a462c884f4d9e96952770da089316d675`.
+The boundary-aware audit reviewed 994 candidate substrings across 24,331 built
+artifacts and found zero unexpected private-identifier matches.
 
 ## Batch 166 local release check
 

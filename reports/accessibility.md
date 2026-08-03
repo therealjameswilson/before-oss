@@ -4,13 +4,13 @@ Run: 2026-08-02 UTC
 
 ## Result
 
-**PASS - 543 / 543 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 546 / 546 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 181 desktop, 181 phone, and 181 tablet cases. Every case
+The matrix contains 182 desktop, 182 phone, and 182 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
 combined 543-case matrix.
@@ -42,6 +42,15 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+Batch 167 adds direct desktop, phone, and tablet checks for Niver W. Beaman
+through Alice M. Beans on page twenty-eight. It verifies all ten source rows,
+Box 44 routing, printed ranks or civilian grades, page locators, and masked or
+unprinted identifiers. Niver Beaman's probable identity and qualified 1920s
+reporter occupation remain distinct from any named employer or immediate role;
+Robert W. Beamer's undefined occupation code remains unexpanded; Frank C.
+Bean's broad machinist/mechanic group and Edwin L. Beane's broad driver group
+remain occupation-only evidence. Six unresolved profiles retain explicit no-
+result and archival-review language.
 Batch 166 adds direct desktop, phone, and tablet checks for William J. Beach
 through Edward R. Beaman across pages twenty-seven and twenty-eight. It verifies
 all ten source rows, Box 43 or Box 44 routing, printed ranks or civilian grades,

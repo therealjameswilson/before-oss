@@ -7,18 +7,18 @@ Run: 2026-08-02 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,261 pages**
 - Internal link check: **24,261 HTML files passed**
-- Browser and accessibility suite: **543 / 543 passed** across desktop,
+- Browser and accessibility suite: **546 / 546 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuild: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`dac0e3424b718414f7fa6fe4cc6b3a4fb6de2aed65661b31fb6e5519e750dcbb`)
-- Latest deterministic build (Batch 166): **byte-for-byte identical** across
+  (`128e43bdad89ce850bb860dc7b7e275a462c884f4d9e96952770da089316d675`)
+- Latest deterministic build (Batch 167): **byte-for-byte identical** across
   consecutive static builds and all **24,331** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `e0365fd697e1611361d58090ea9f871dd31744c24c2ddd8eaae455d3a9ccd5c3`
+  `e04c4d1319bbdfa43578fbe2a337cabfe662ab4c3ab8b57a17ee242eda416e39`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -26,10 +26,10 @@ Run: 2026-08-02 UTC
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,331** production artifacts, including compressed mirrors
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,163** public records representing **935** unique documents
-- Private citation records: **2,143**
-- Published, qualified affiliations: **577**
-- Published or conflict-visible claims: **1,117**
+- Reviewed public sources: **1,170** public records representing **939** unique documents
+- Private citation records: **2,150**
+- Published, qualified affiliations: **580**
+- Published or conflict-visible claims: **1,124**
 - Withheld low-confidence evidence: **25 claims concerning 20 people**
 - Verified-affiliation metric: **268** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
@@ -56,10 +56,58 @@ Run: 2026-08-02 UTC
   matrix runs in release CI
 - Batch 166 local release checks: **passed**; the combined **543-case** browser
   matrix runs in release CI
+- Batch 167 local release checks: **passed**; the combined **546-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 167 local release QA
+
+Batch 167 adds the ten visually checked page-twenty-eight rows from Niver W.
+Beaman through Alice M. Beans. The strict bundle imports seven sources, three
+affiliations, seven claims, twenty-one claim-source links, ten person updates,
+and ten terminal research attempts. Exact private-identifier matches in NARA's
+official Army enlistment merged file confirm Robert W. Beamer, Frank C. Bean,
+and Edwin L. Beane. Frank's code 475 remains a broad machinist/mechanic group,
+Edwin's code 736 remains a broad driver group, and Robert's undefined code 731
+is not turned into an occupation. Niver W. Beaman is a probable journalist
+identity with qualified 1920s Connecticut reporter evidence; no newspaper is
+named for that period, and his later named affiliations are not dated relative
+to OSS. Six profiles remain unresolved and route to Box 44, while Robert W.
+Beamer also requires archival review for the missing occupation and employer.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 56 / 56, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,261 pages. The internal-link checker passed all 24,261 HTML files and
+inventoried 48,833 unique external URLs. The browser, responsive, direct-route,
+search, and axe matrix passed 546 / 546 in release CI across desktop, phone,
+and tablet, including 27 / 27 dedicated axe cases. The three new Batch 167
+regressions also passed locally. The production dependency audit found zero
+vulnerabilities.
+
+Consecutive final builds produced the identical sorted path-and-file-SHA-256
+tree digest
+`128e43bdad89ce850bb860dc7b7e275a462c884f4d9e96952770da089316d675`
+across 24,331 artifacts. All 65 manifest assets matched their recorded sizes
+and SHA-256 values in both public source and built trees. The manifest SHA-256
+is `e04c4d1319bbdfa43578fbe2a337cabfe662ab4c3ab8b57a17ee242eda416e39`.
+The boundary-aware scan examined 994 candidate substrings and found zero
+unexpected matches. No authenticated Catalog request, API credential, or raw
+Catalog response was used or stored.
+
+The Batch 167 database contains 2,518 durable research attempts, 2,150 private
+source records representing 939 unique documents, 316 organizations, 587
+affiliations, 1,149 claims, and 2,371 claim-source links. Claim confidence is
+216 confirmed, 725 high, 174 medium, 25 low, and nine conflicting. The public
+projection contains 1,170 sources, 312 organizations, 580 affiliations, and
+1,124 published, qualified, or conflict-visible claims. Coverage now
+distinguishes 1,485 people with a non-planned research attempt, 268 with
+verified-affiliation evidence, 153 with verified employment or self-employment
+evidence, and 1,434 whose archival-review need has been assessed. The
+`not_started` count is 22,456 and `requires_archival_review` is 1,069.
 
 ## Batch 166 local release QA
 
