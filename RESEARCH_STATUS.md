@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-03 UTC.
+Generated from the current local SQLite database on 2026-08-04 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,584 people with a non-planned attempt | 23,941 person entities | 6.6163% |
-| Verified-affiliation coverage | 274 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1445% |
-| Verified-employer coverage | 156 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6516% |
-| Archival-review coverage | 1,533 people with an individual file-access/priority assessment | 23,941 person entities | 6.4032% |
+| Research-attempt coverage | 1,614 people with a non-planned attempt | 23,941 person entities | 6.7416% |
+| Verified-affiliation coverage | 278 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1612% |
+| Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
+| Archival-review coverage | 1,563 people with an individual file-access/priority assessment | 23,941 person entities | 6.5285% |
 
 ## Extraction and identity
 
@@ -21,43 +21,43 @@ Generated from the current local SQLite database on 2026-08-03 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 143
-- Identity status `high_confidence`: 353
-- Identity status `probable`: 53
+- Identity status `confirmed`: 152
+- Identity status `high_confidence`: 358
+- Identity status `probable`: 55
 - Identity status `ambiguous`: 26
-- Identity status `conflicting`: 13
-- Identity status `unresolved`: 23,353
+- Identity status `conflicting`: 14
+- Identity status `unresolved`: 23,336
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,494
-- Enlisted Army personnel: 3,516
+- Unknown or indeterminate: 16,492
+- Enlisted Army personnel: 3,517
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,464
-- Foreign or Allied military personnel: 246
+- Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 56
 - Commissioned naval officers: 82
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,173 yes; 5,062 no; 16,706 indeterminate.
+Commissioned classification: 2,173 yes; 5,063 no; 16,705 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,357
+- `not_started`: 22,327
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 14
-- `needs_temporal_review`: 3
+- `needs_identity_review`: 17
+- `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 127
-- `requires_archival_review`: 1,122
-- `completed`: 58
-- `conflicting_sources`: 13
-- `verified_employer_found`: 159
+- `occupation_only_found`: 135
+- `requires_archival_review`: 1,137
+- `completed`: 59
+- `conflicting_sources`: 14
+- `verified_employer_found`: 160
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -88,12 +88,12 @@ Commissioned classification: 2,173 yes; 5,062 no; 16,706 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 580 across 559 people; 41 additional
+- Saved `source_reviewed` outcomes: 596 across 575 people; 44 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,702
+- Total recorded attempts/plans: 2,732
 - Library of Congress discovery candidates: 38 total; 35 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 537; 518 have at least one public-eligible
+- People with saved reviewed claims: 556; 536 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2035,15 +2035,51 @@ Commissioned classification: 2,173 yes; 5,062 no; 16,706 indeterminate.
   free names remain unresolved and route to Box 47. No authenticated Catalog
   request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
-- Public-visible affiliations: 629
-- Database claims: 1,250; public-visible claims: 1,224 (247 confirmed, 743 high,
-  216 medium, 18 conflicting); 23 low-confidence claims are withheld and three
+- Batch 179 covers Gaspard D. Belin Jr. through Joseph H. Bell on page thirty.
+  Evangeline Bell's high-confidence chronology preserves Radcliffe College as
+  education, the Office of War Information as the government assignment that
+  immediately preceded OSS service, and the OSS London post as the documented
+  wartime destination. Exact official Army matches support occupation-only
+  findings for Harold W. Bell and Joseph H. Bell without inventing employers.
+  Gaspard D. Belin Jr. is a high-confidence identity whose wartime chronology
+  still requires Box 47 and archival correspondence. Six other records remain
+  unresolved; documented conversion gaps are treated as missing official data,
+  not negative evidence. No authenticated Catalog request, credential, raw API
+  response, full private identifier, or unsupported employer claim was used or
+  published.
+- Batch 180 covers Joseph V. Bell through William B. Bell on page thirty. Four
+  exact official Army matches support occupation-only findings for Joseph Bell
+  Jr., Richard E. Bell, Robert A. Bell, and Robert H. Bell Jr. Ovid H. Bell is a
+  high-confidence identity, but his Davidson education and postwar press do not
+  establish an immediate pre-OSS affiliation or civilian employer. Walter Bell
+  retains a withheld British-intelligence candidate pending a second identifier.
+  The remaining records route to Box 47 review. No authenticated Catalog
+  request, credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
+- Batch 181 covers Maurice Belleux through Ivy L. Belote Jr. across pages thirty
+  and thirty-one. Maurice Belleux's BCRA affiliation remains temporally
+  qualified, and Robinson O. Bellin's Brown record remains education rather
+  than employment. Harold Bellingham has a high-confidence immediate Library of
+  Congress Division of Special Information affiliation and a distinct last
+  civilian employer, the University of Denver. Eric C. Bellquist's University
+  of California and OWI chronology remains medium-confidence pending a direct
+  Belliquist index link. William M. Bellman's exact private identifier conflicts
+  with the indexed name, so the unrelated occupation is not assigned or exposed.
+  Louis F. Bellotto and Antonio Belmonte retain occupation-only findings; Michael
+  Bellovich and Ruth Belofsky remain unresolved; and Ivy L. Belote Jr.'s 351st
+  Bomb Group candidate remains qualified. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported employer
+  claim was used or published.
+- Public-visible affiliations: 647 (641 published or qualified and six
+  conflict-visible)
+- Database claims: 1,288; public-visible claims: 1,260 (257 confirmed, 754 high,
+  230 medium, 19 conflicting); 25 low-confidence claims are withheld and three
   rejected
-- Citation links: 2,622; private source records: 2,220; public source export:
-  1,234; unique source documents: 977
-- Canonical organizations: 327 private and 320 public
-- Conflicting claims: 18
-- NARA pull-list rows: 23,819
+- Claim-source links: 2,709; private source records: 2,254; public source export:
+  1,264; unique source documents: 1,002
+- Canonical organizations: 335 private and 327 public
+- Conflicting claims: 19 across 15 people
+- NARA pull-list rows: 23,818
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2246,6 +2282,23 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-three-twenty-four-barnhart-through-baron-pathways_batch-148_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-four-baron-through-barr-pathways_batch-149_2026-08-02.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-leon-baumlin-through-burton-baylis-pathways_batch-164_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-lester-baylis-through-harry-beach-pathways_batch-165_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-seven-twenty-eight-william-beach-through-edward-beaman-pathways_batch-166_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-niver-beaman-through-alice-beans-pathways_batch-167_2026-08-02.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-amos-bear-through-william-beasley-jr-pathways_batch-168_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-johnnie-batten-occupation-code-correction_batch-169_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-gladys-beason-through-donald-beauchamp-pathways_batch-170_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-beaudoin-through-david-beck-pathways_batch-171_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-nine-leonard-beck-through-edward-becker-pathways_batch-172_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-nine-ernest-becker-through-wilbur-becker-pathways_batch-173_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-nine-peter-beckett-through-william-bedford-pathways_batch-174_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-nine-edmund-bednarek-through-george-beeman-pathways_batch-175_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-nine-thirty-kenneth-beers-through-william-behrens-pathways_batch-176_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-richard-beickman-through-stephen-beke-pathways_batch-177_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-jennie-bekier-through-ferdinand-belin-pathways_batch-178_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-gaspard-belin-through-joseph-bell-pathways_batch-179_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-joseph-v-bell-through-william-b-bell_batch-180_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-and-thirty-one-maurice-belleux-through-ivy-belote_batch-181_2026-08-03.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

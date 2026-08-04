@@ -1,19 +1,19 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-03 UTC
+Run: 2026-08-04 UTC
 
 ## Result
 
-**PASS - 576 / 576 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 585 / 585 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-The matrix contains 192 desktop, 192 phone, and 192 tablet cases. Every case
+The matrix contains 195 desktop, 195 phone, and 195 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 576-case matrix.
+combined 585-case matrix.
 
 Routes tested at all three sizes:
 
@@ -32,7 +32,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-156-person employer measure is labeled separately from the 274-person broader
+157-person employer measure is labeled separately from the 278-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
@@ -42,6 +42,17 @@ They also verify the distinct military, government, and civilian pathways
 documented for Morris Berg, Virginia Hall, Richard M. Helms, and William E.
 Colby, including the explicit unresolved wording where no reviewed civilian
 employer claim exists.
+
+Batch 181 adds direct desktop, phone, and tablet checks for Maurice Belleux
+through Ivy L. Belote Jr. across pages thirty and thirty-one. It verifies all
+ten source rows, Box 47 or Box 48 routing, literal printed ranks and grades,
+and masked or unprinted identifiers. Harold Bellingham's Library of Congress
+and University of Denver findings remain distinct; Brown is presented only as
+Robinson Bellin's education; Eric Belliquist and Ivy Belote remain visibly
+qualified; William Bellman's identifier conflict does not expose the unrelated
+occupation; and Louis Bellotto and Antonio Belmonte retain occupation-only
+findings. Unresolved profiles retain archival-review guidance. The production
+build contains 24,276 static pages.
 
 Batch 178 adds direct desktop, phone, and tablet checks for Jennie E. Bekier
 through Ferdinand L. Belin on page thirty, while also guarding Roger L.

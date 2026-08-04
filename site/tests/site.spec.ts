@@ -16019,3 +16019,132 @@ test("Batch 180 preserves Bell boundaries, four Army occupations, Davidson stude
   await expect(page.locator("main")).not.toContainText("Walter Fancourt Bell");
   await expect(page.locator("main")).not.toContainText("MI6 liaison officer");
 });
+
+test("Batch 181 preserves the page boundary, publishes two employers, and exposes the Bellman conflict without leaking identifiers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["81477fbd-d3b8-5186-87bc-9083063c6077", "Maurice Belleux", "47", "Page 30", "Not printed", "Not printed"],
+    ["9b6dbebc-4717-52b4-8038-3d919e4e7aa9", "Robinsono O Bellin", "47", "Page 30", "Capt", "masked"],
+    ["194ea53b-ed2f-5d18-80ed-247504924608", "Harold Bellingham", "48", "Page 31", "Cpl", "masked"],
+    ["213fa339-edbf-5b5d-adb2-2baeecf902c0", "Eric C Belliquist", "48", "Page 31", "Caf-13", "Not printed"],
+    ["09c72687-d144-53d5-b0d8-d9dbfe6ecf3e", "William M Bellman", "48", "Page 31", "1st Sgt", "masked"],
+    ["6ac053a2-4f15-5e1c-a611-1631ad57966f", "Louis F Bellotto", "48", "Page 31", "Pvt", "masked"],
+    ["19d3b729-fdd7-5499-8747-d5a9f51c5c36", "Michael Bellovich", "48", "Page 31", "Cpl", "Not printed"],
+    ["4193a31f-6064-5511-95d4-2886ca9bcb00", "Antonio Belmonte", "48", "Page 31", "Pvt", "masked"],
+    ["6a01bb69-2384-5c7f-a88c-b4d8870e86fe", "Ruth Belofsky", "48", "Page 31", "Caf-3", "Not printed"],
+    ["288d01bc-e994-55a1-ae60-0da0caac5a8d", "Ivy L Belote Jr.", "48", "Page 31", "Caf-3", "Not printed"],
+  ];
+
+  for (const [personId, displayName, box, pdfPage, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText(box, { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(pdfPage);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/194ea53b-ed2f-5d18-80ed-247504924608/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Library of Congress, Division of Special Information",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Denver",
+  );
+  await expect(page.locator("main")).toContainText("cataloger and engineering librarian");
+  await expect(
+    page.getByRole("link", {
+      name: "Engineering Librarianship in the Post-war Period: Profile of an Emerging Academic Librarian Community",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /peer\.asee\.org\/43329\.pdf/);
+
+  await page.goto("./people/213fa339-edbf-5b5d-adb2-2baeecf902c0/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of California",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Office of War Information, Overseas Branch",
+  );
+  await expect(page.locator("main")).toContainText("temporal relation uncertain");
+  await expect(page.locator("main")).toContainText("Eric C. Bellquist");
+
+  await page.goto("./people/09c72687-d144-53d5-b0d8-d9dbfe6ecf3e/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "indexed private identifier conflicts with the name attached to that identifier",
+  );
+  await expect(page.locator("main")).not.toContainText("Bartenders");
+  await expect(page.locator("main")).not.toContainText("Rockower");
+
+  for (const [personId, occupation] of [
+    ["6ac053a2-4f15-5e1c-a611-1631ad57966f", "Manager or official, not elsewhere classified"],
+    ["4193a31f-6064-5511-95d4-2886ca9bcb00", "Brick or stone mason, or tile setter occupational category"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "19d3b729-fdd7-5499-8747-d5a9f51c5c36",
+    "6a01bb69-2384-5c7f-a88c-b4d8870e86fe",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/81477fbd-d3b8-5186-87bc-9083063c6077/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bureau Central de Renseignements et d'Action",
+  );
+  await expect(page.locator("main")).toContainText("temporal relationship");
+
+  await page.goto("./people/9b6dbebc-4717-52b4-8038-3d919e4e7aa9/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Brown University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("Robinson Oligny Bellin");
+  await expect(
+    page.getByRole("link", {
+      name: "The Secrets War: The Office of Strategic Services in World War II",
+      exact: true,
+    }).first(),
+  ).toHaveAttribute("href", /archives\.gov\/publications\/military-history\.html/);
+
+  await page.goto("./people/288d01bc-e994-55a1-ae60-0da0caac5a8d/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "351st Bombardment Group, 511th Bombardment Squadron",
+  );
+  await expect(page.locator("main")).toContainText("not confirmed");
+  await expect(page.locator("main")).toContainText("CAF-3");
+  await expect(page.locator("main")).toContainText("First Lieutenant");
+});

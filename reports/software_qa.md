@@ -1,42 +1,42 @@
 # Software QA
 
-Run: 2026-08-03 UTC
+Run: 2026-08-04 UTC
 
 - Python unit tests: **62 / 62 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,269 pages**
-- Internal link check: **24,269 HTML files passed**
-- Browser and accessibility suite: **576 / 576 passed** across desktop,
+- Static production build: **24,276 pages**
+- Internal link check: **24,276 HTML files passed**
+- Browser and accessibility suite: **585 / 585 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic public-data and production rebuilds: **identical sorted
   path-and-file-SHA-256 tree hashes**
-  (`0ef8f1298757c480be861dd89ffe1c9b3e6159f2174a25fee8e5f8867253775d`
-  and `eb3fa62255d9093dd64ade52bce89a6d0aae3f5b05608ca14efd2fcebd78a26f`)
-- Latest deterministic build (Batch 178): **byte-for-byte identical** across
-  consecutive static builds and all **24,339** built-site artifacts.
+  (`6cd61c04aa5697b3650ed82618af9ec98621cae9b94a065f3062767c83985bdb`
+  and `7a51e6e2c05ddda1cb7dbc11f13cceff6160cb9af576ef121039ca33237a93a9`)
+- Latest deterministic build (Batch 181): **byte-for-byte identical** across
+  consecutive static builds and all **24,346** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `655fc1b82ceb3dcca63d344c04d4fd51c556102a137eaef1f6585f6352e44eb0`
+  `92db30e7fc90b7107a732f554663575f51566f50d56cc2eaf01cc8f61659e116`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,339** production artifacts, including compressed mirrors;
+  matches** in **24,346** production artifacts, including compressed mirrors;
   no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,234** public records representing **977** unique documents
-- Private citation records: **2,220**
-- Published, qualified affiliations: **629**
-- Published or conflict-visible claims: **1,224**
-- Withheld low-confidence evidence: **23 claims concerning 20 people**; three
+- Reviewed public sources: **1,264** public records representing **1,002** unique documents
+- Private citation records: **2,254**
+- Published, qualified, or conflict-visible affiliations: **647**
+- Published or conflict-visible claims: **1,260**
+- Withheld low-confidence evidence: **25 claims concerning 21 people**; three
   additional low-confidence candidates are rejected
-- Verified-affiliation metric: **274** people with confirmed/high published
+- Verified-affiliation metric: **278** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **156** people with confirmed/high published
+- Verified-employer metric: **157** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -73,10 +73,54 @@ Run: 2026-08-03 UTC
   matrix runs in release CI
 - Batch 178 local release checks: **passed**; the combined **576-case** browser
   matrix runs in release CI
+- Batch 179 local release checks: **passed**; the combined **579-case** browser
+  matrix runs in release CI
+- Batch 180 local release checks: **passed**; the combined **582-case** browser
+  matrix runs in release CI
+- Batch 181 local release checks: **passed**; the combined **585-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 181 local release QA
+
+Batch 181 adds the ten visually checked rows spanning the end of page thirty
+and the beginning of page thirty-one, from Maurice Belleux through Ivy L.
+Belote Jr. The strict evidence bundle imports fourteen sources, seven modeled
+organizations while reusing three established canonical organizations, nine
+affiliations, seventeen claims, forty-one claim-source links, ten person
+updates, and ten terminal research attempts. Maurice Belleux's documented
+BCRA connection remains temporally qualified. Robinson O. Bellin's Brown
+student record remains education rather than employment. Harold Bellingham's
+continuous scholarly chronology supports the Library of Congress Division of
+Special Information as his high-confidence immediate affiliation and the
+University of Denver as his high-confidence last civilian employer. Eric C.
+Bellquist's University of California and OWI affiliations remain medium-
+confidence pending a direct link to the printed Belliquist row. William M.
+Bellman's exact private identifier conflicts with the indexed name, so the
+unrelated occupation is not published. Louis F. Bellotto and Antonio Belmonte
+retain occupation-only findings. Michael Bellovich and Ruth Belofsky remain
+unresolved. Ivy L. Belote Jr.'s 351st Bomb Group evidence remains identity-
+and-sequence qualified.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+and the Python suite passed 62 / 62. Astro reported zero errors, warnings, or
+hints and built 24,276 pages. The internal-link checker passed all 24,276 HTML
+files and inventoried 48,892 unique external URLs. The browser, responsive,
+direct-route, search, and axe matrix passed 585 / 585 across desktop, phone,
+and tablet, including 27 / 27 dedicated axe cases. The production dependency
+audit found zero vulnerabilities. Consecutive final builds produced identical
+public-data and complete-site tree digests,
+`6cd61c04aa5697b3650ed82618af9ec98621cae9b94a065f3062767c83985bdb`
+and `7a51e6e2c05ddda1cb7dbc11f13cceff6160cb9af576ef121039ca33237a93a9`.
+All 65 manifest assets matched their recorded sizes and SHA-256 values; the
+manifest SHA-256 is
+`92db30e7fc90b7107a732f554663575f51566f50d56cc2eaf01cc8f61659e116`.
+The field-aware identifier audit found zero unexpected boundary matches or
+aggregate false positives across 24,346 artifacts. No authenticated NARA API
+request was made.
 
 ## Batch 178 local release QA
 

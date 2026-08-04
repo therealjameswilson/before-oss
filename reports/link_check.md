@@ -1,19 +1,39 @@
 # Link check
 
-Run: 2026-08-03 UTC
+Run: 2026-08-04 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,269 HTML files. Every relative
+**PASS.** The production build contains 24,276 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 320 organization profiles, and the
+The build includes 23,941 person profiles, 327 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,866 unique external URLs for separate live
+The checker inventoried 48,892 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 181 local release check
+
+The complete 24,276-page internal-link pass includes direct routes for Maurice
+Belleux through Ivy L. Belote Jr. across pages thirty and thirty-one, plus the
+newly public organization routes needed by their reviewed evidence. The Batch
+181 regression passed at desktop, phone, and tablet sizes as part of the
+585-case Playwright matrix. It verifies source-row fidelity, private-identifier
+masking, Harold Bellingham's distinct immediate and last-civilian affiliations,
+the qualified Belliquist and Belote candidates, Bellman's conflict without the
+unrelated occupation, the Bellotto and Belmonte occupation-only findings, and
+archival guidance for unresolved people. All 65 public manifest assets matched
+their recorded sizes and SHA-256 values. The manifest SHA-256 is
+`92db30e7fc90b7107a732f554663575f51566f50d56cc2eaf01cc8f61659e116`.
+Two consecutive builds produced identical public-data and static-site tree
+digests, `6cd61c04aa5697b3650ed82618af9ec98621cae9b94a065f3062767c83985bdb`
+and `7a51e6e2c05ddda1cb7dbc11f13cceff6160cb9af576ef121039ca33237a93a9`.
+The boundary-aware identifier audit reviewed 994 candidate substrings across
+24,346 artifacts and found zero unexpected private-identifier matches or
+aggregate false positives.
 
 ## Batch 178 local release check
 
