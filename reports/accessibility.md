@@ -4,7 +4,7 @@ Run: 2026-08-04 UTC
 
 ## Result
 
-**PASS - 594 / 594 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 597 / 597 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
@@ -38,12 +38,12 @@ ten Box 49 rows, the two separate John R. Bennet profiles and their public-safe
 possible-duplicate marker, two qualified occupation-only findings, seven
 unresolved profiles plus one ambiguous profile, literal preservation of the
 unfamiliar `SPX2/c` grade, and private-identifier masking. The complete
-597-case three-viewport matrix runs in release CI.
+597-case three-viewport matrix passed in release CI.
 
-The latest completed combined matrix contains 198 desktop, 198 phone, and 198
+The latest completed combined matrix contains 199 desktop, 199 phone, and 199
 tablet cases. Every case passed on the combined invocation. No product
 assertion or serious/critical axe failure remains. All 27 dedicated axe cases
-passed. Release CI will add the three Batch 185 viewport cases.
+passed.
 
 Routes tested at all three sizes:
 

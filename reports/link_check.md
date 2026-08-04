@@ -15,13 +15,23 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,898 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 185 production verification
+
+GitHub Pages deployment run 30910089146 and test run 30910089252 passed. The
+homepage and all ten Batch 185 profile routes returned HTTP 200 and matched the
+audited local HTML after canonical-host normalization. All 65 cache-busted live
+public assets matched the release manifest's recorded sizes and SHA-256 values.
+Live statistics reproduced 23,978 source rows, 23,941 people, 1,653 researched
+people, 280 verified affiliations, 157 verified employers, 1,602 archival
+assessments, 1,288 public claims, and 1,284 public sources.
+
 ## Batch 185 local release check
 
 The complete 24,278-page internal-link pass includes direct routes for Carl H.
 Bengt through Sylvia S. Bennet across pages thirty-one and thirty-two. No new
 organization route is required because the two new published findings are
 broad Army-entry occupations, not employers. The focused Batch 185 desktop
-regression passed locally; the complete three-viewport addition runs in the
+regression passed locally; the complete three-viewport addition passed in the
 597-case release-CI matrix. The two John R. Bennet rows remain separate with a
 public-safe possible-duplicate marker, eight profiles retain qualified or
 unresolved archival guidance, private identifiers remain masked, and the

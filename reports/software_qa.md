@@ -7,7 +7,7 @@ Run: 2026-08-04 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,278 pages**
 - Internal link check: **24,278 HTML files passed**
-- Browser and accessibility suite: **594 / 594 passed** across desktop,
+- Browser and accessibility suite: **597 / 597 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic public-data and production rebuilds: **identical sorted
@@ -87,13 +87,29 @@ Run: 2026-08-04 UTC
   matrix passed in release CI
 - Batch 184 production verification: **passed**; the focused desktop regression,
   **27 / 27** local axe cases, and complete **594-case** browser matrix passed
-- Batch 185 local release checks: **passed**; the focused desktop regression and
-  **27 / 27** axe cases passed locally, and the combined **597-case** browser
-  matrix runs in release CI
+- Batch 185 production verification: **passed**; the focused desktop regression,
+  **27 / 27** local axe cases, and complete **597-case** browser matrix passed
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 185 production deployment
+
+GitHub Actions test workflow
+[30910089252](https://github.com/therealjameswilson/before-oss/actions/runs/30910089252)
+and GitHub Pages deployment workflow
+[30910089146](https://github.com/therealjameswilson/before-oss/actions/runs/30910089146)
+completed successfully for release `14bc4e1`. CI repeated all 62 Python tests,
+the complete 597-case browser and accessibility matrix, static build, internal-
+link checks, source reconstruction, and private-identifier audit.
+
+The homepage and all ten Batch 185 production profile routes returned HTTP 200
+and matched the audited local HTML after canonical-host normalization. All 65
+cache-busted public assets matched the release manifest's sizes and SHA-256
+values. Live statistics reproduced 23,978 source rows, 23,941 people, 1,653
+researched people, 280 verified affiliations, 157 verified employers, 1,602
+archival assessments, 1,288 public claims, and 1,284 public sources.
 
 ## Batch 185 local release QA
 
@@ -119,7 +135,7 @@ every invariant. Astro reported zero errors, warnings, or hints and built
 24,278 pages. The internal-link checker passed all 24,278 HTML files and
 inventoried 48,898 unique external URLs. The focused Batch 185 desktop
 regression passed 1 / 1, and the dedicated axe matrix passed 27 / 27 across
-desktop, phone, and tablet. The combined 597-case matrix runs in release CI.
+desktop, phone, and tablet. The combined 597-case matrix passed in release CI.
 The production dependency audit found zero vulnerabilities.
 
 Consecutive final builds produced identical public-data and complete-site tree
