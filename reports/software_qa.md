@@ -5,21 +5,20 @@ Run: 2026-08-04 UTC
 - Python unit tests: **62 / 62 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,278 pages**
-- Internal link check: **24,278 HTML files passed**
-- Browser and accessibility suite: **597 / 597 passed** across desktop,
+- Static production build: **24,280 pages**
+- Internal link check: **24,280 HTML files passed**
+- Browser and accessibility suite: **600 / 600 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
-- Deterministic public-data and production rebuilds: **identical sorted
-  path-and-file-SHA-256 tree hashes**
-  (`1b84afa771fc78795b43e99a301c9aaed6e7188bb28164d4081afad1eb503527`
-  and `6fbdb4a28b5d1a449f2f027d65ceaf32b245f29678f99e57b5d5ce88b95c1325`)
-- Latest deterministic build (Batch 185): **byte-for-byte identical** across
+- Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
+  tree hashes**
+  (`47ad8f18a7695bfbc20d549658bc8cf710e57907f9a0df3fa262727089e0f0bd`)
+- Latest deterministic build (Batch 186): **byte-for-byte identical** across
   consecutive static builds and all **24,348** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `e0c91299fcbdc0fbb6de29c7301da500feee6cf3157f1af35c847f72ec813716`
+  `13e878a60ecff5978f42f2cca7a5209cd7252cdb8148927c95470e755dc181c3`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,10 +27,10 @@ Run: 2026-08-04 UTC
   matches** in **24,348** production artifacts, including compressed mirrors;
   no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,284** public records representing **1,010** unique documents
-- Private citation records: **2,274**
-- Published, qualified, or conflict-visible affiliations: **661**
-- Published or conflict-visible claims: **1,288**
+- Reviewed public sources: **1,291** public records representing **1,014** unique documents
+- Private citation records: **2,283**
+- Published, qualified, or conflict-visible affiliations: **665**
+- Published or conflict-visible claims: **1,295**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; three
   additional low-confidence candidates are rejected
 - Verified-affiliation metric: **280** people with confirmed/high published
@@ -89,10 +88,31 @@ Run: 2026-08-04 UTC
   **27 / 27** local axe cases, and complete **594-case** browser matrix passed
 - Batch 185 production verification: **passed**; the focused desktop regression,
   **27 / 27** local axe cases, and complete **597-case** browser matrix passed
+- Batch 186 production verification: **passed**; the focused three-viewport
+  regression, **27 / 27** axe cases, and complete **600-case** browser matrix
+  passed
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 186 production deployment
+
+GitHub Actions test workflow
+[30946251869](https://github.com/therealjameswilson/before-oss/actions/runs/30946251869)
+and GitHub Pages deployment workflow
+[30946251857](https://github.com/therealjameswilson/before-oss/actions/runs/30946251857)
+completed successfully for release `ede31e7`. CI repeated all 62 Python tests,
+the complete 600-case browser and accessibility matrix, static build, internal-
+link checks, source reconstruction, and private-identifier audit.
+
+The homepage, six supporting routes, and all ten Batch 186 production profile
+routes returned HTTP 200 and matched the audited local HTML after canonical-
+host normalization. All 65 cache-busted public assets, totaling 68,503,411
+bytes, matched the release manifest's sizes and SHA-256 values. Live statistics
+reproduced 23,978 source rows, 23,941 people, 1,663 researched people, 280
+verified affiliations, 157 verified employers, 1,612 archival assessments,
+1,295 public claims, and 1,291 public sources.
 
 ## Batch 185 production deployment
 

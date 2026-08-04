@@ -36,6 +36,19 @@ affiliations, and 1,291 sources. The boundary-aware audit reviewed 994
 candidate substrings across 24,348 artifacts and found zero unexpected private-
 identifier matches or aggregate false positives.
 
+## Batch 186 production verification
+
+GitHub Pages deployment run 30946251857 and test run 30946251869 passed for
+release `ede31e7`. The homepage, six principal supporting routes, and all ten
+Batch 186 profile routes returned HTTP 200 and matched the audited local HTML
+after canonical-host normalization. All 65 cache-busted live public assets,
+totaling 68,503,411 bytes, matched the release manifest's recorded sizes and
+SHA-256 values. The deployed and local manifest SHA-256 is
+`13e878a60ecff5978f42f2cca7a5209cd7252cdb8148927c95470e755dc181c3`.
+Live statistics reproduced 23,978 source rows, 23,941 people, 1,663 researched
+people, 280 verified affiliations, 157 verified employers, 1,612 archival
+assessments, 1,295 public claims, and 1,291 public sources.
+
 ## Batch 185 production verification
 
 GitHub Pages deployment run 30910089146 and test run 30910089252 passed. The
