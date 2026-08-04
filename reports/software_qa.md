@@ -14,12 +14,12 @@ Run: 2026-08-04 UTC
   path-and-file-SHA-256 tree hashes**
   (`588ac75aecb25b07d3de78810315053b6761dd87e714795ab6a54dccd443a5a7`
   and `ff4eb0437d2b0c6d05bc73d45c6da7f17cb57c81d9ed55fc21484171747b57f5`)
-- Latest deterministic build (Batch 182): **byte-for-byte identical** across
+- Latest deterministic build (Batch 183): **byte-for-byte identical** across
   consecutive static builds and all **24,348** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `e1263e74017bffda5f335deb3b4459ac1cf8427b8ff772bdc9609d224179f48f`
+  `a1b1a9ff3b98b314ae9550cbae47ac2eb060c9a961590de920b017e109909b15`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,10 +28,10 @@ Run: 2026-08-04 UTC
   matches** in **24,348** production artifacts, including compressed mirrors;
   no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,272** public records representing **1,008** unique documents
-- Private citation records: **2,262**
-- Published, qualified, or conflict-visible affiliations: **653**
-- Published or conflict-visible claims: **1,271**
+- Reviewed public sources: **1,276** public records representing **1,008** unique documents
+- Private citation records: **2,266**
+- Published, qualified, or conflict-visible affiliations: **657**
+- Published or conflict-visible claims: **1,279**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; three
   additional low-confidence candidates are rejected
 - Verified-affiliation metric: **280** people with confirmed/high published
@@ -82,10 +82,45 @@ Run: 2026-08-04 UTC
 - Batch 182 production verification: **passed**; the focused desktop regression
   and **27 / 27** axe cases passed locally, and the combined **588-case** browser
   matrix passed in release CI
+- Batch 183 local release checks: **passed**; the focused desktop regression and
+  **27 / 27** axe cases passed locally, and the combined **591-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 183 local release QA
+
+Batch 183 adds the ten visually checked Box 48 rows on page thirty-one, from
+Shirley Benczer through Walter Bendick. The strict evidence bundle imports four
+sources, four affiliations, eight claims, twenty claim-source links, ten person
+updates, and ten terminal research attempts. Exact private-identifier matches
+in NARA's official Army enlistment data confirm Daniel Bender, Edwin Bender,
+Richard H. Bender, and Walter Bendick and support occupation-only findings;
+none is converted into a named employer. Six unresolved profiles route to Box
+48 review. A contemporary Robert Bendick radio-directory lead and Luther H.
+Bender's postwar church notice were explicitly rejected as evidence of the
+indexed people's pre-OSS affiliations.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 62 / 62, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,278 pages. The internal-link checker passed all 24,278 HTML files and
+inventoried 48,898 unique external URLs. The focused Batch 183 desktop
+regression passed 1 / 1, and the dedicated axe matrix passed 27 / 27 across
+desktop, phone, and tablet. The complete 591-case matrix runs in release CI.
+The production dependency audit found zero vulnerabilities.
+
+Consecutive final builds produced identical public-data and complete-site tree
+digests, `a1bf268d4acb4268a84897cb58f7611ce047adca963a755971a32538184f7020`
+and `7d30f55f240482d211896d3d9312dd340d1412786c9cf64ce4dea450c69f7ed4`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values; the manifest
+SHA-256 is
+`a1b1a9ff3b98b314ae9550cbae47ac2eb060c9a961590de920b017e109909b15`.
+The field-aware identifier audit found zero unexpected boundary matches or
+aggregate false positives across 24,348 artifacts. No authenticated NARA API
+request was made.
 
 ## Batch 182 local release QA
 

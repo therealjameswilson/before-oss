@@ -16238,3 +16238,71 @@ test("Batch 182 preserves Box 48 rows, publishes bounded pathways, and exposes t
     );
   }
 });
+
+test("Batch 183 preserves Box 48 Bender rows and keeps Army occupations distinct from employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8240506b-a870-50e2-ad52-cdec2e91c7c6", "Shirley Benczer", "P-1", "Not printed"],
+    ["4183e5f2-23f5-5aa7-a2f5-22e5546a9ae1", "Aletta L Bender", "Not printed", "Not printed"],
+    ["45f0c866-ec38-5c65-a3f7-f4775d326cb1", "Daniel Bender", "T-4", "masked"],
+    ["a6cc53b2-ce95-534b-8141-5eee16e259ec", "Edwin Bender", "Pvt", "masked"],
+    ["bff5de5b-9b48-50b4-ad88-a945695ae42e", "Luella B Bender", "Not printed", "Not printed"],
+    ["8f9e59eb-24e4-5ac5-9938-0e338795192c", "Luther H Bender", "Capt", "masked"],
+    ["1fc3daa5-a99c-5ad4-9afb-31cf944443de", "Richard H Bender", "T-5", "masked"],
+    ["528e2b85-5321-5132-81aa-237e6457d0cf", "Robert A Bender", "Not printed", "Not printed"],
+    ["9230e30c-84aa-51b9-8442-b7386da52329", "Rutti Bender", "Not printed", "Not printed"],
+    ["d369783e-78bc-5c8c-8168-a5b9912e0017", "Walter Bendick", "T/Sgt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("48", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 31");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["45f0c866-ec38-5c65-a3f7-f4775d326cb1", "Retail manager"],
+    ["a6cc53b2-ce95-534b-8141-5eee16e259ec", "Salesperson"],
+    [
+      "1fc3daa5-a99c-5ad4-9afb-31cf944443de",
+      "Furniture manufacturing occupation, not elsewhere classified",
+    ],
+    ["d369783e-78bc-5c8c-8168-a5b9912e0017", "Manager or official, not elsewhere classified"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "8240506b-a870-50e2-ad52-cdec2e91c7c6",
+    "4183e5f2-23f5-5aa7-a2f5-22e5546a9ae1",
+    "bff5de5b-9b48-50b4-ad88-a945695ae42e",
+    "8f9e59eb-24e4-5ac5-9938-0e338795192c",
+    "528e2b85-5321-5132-81aa-237e6457d0cf",
+    "9230e30c-84aa-51b9-8442-b7386da52329",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/8f9e59eb-24e4-5ac5-9938-0e338795192c/");
+    await expect(page.locator(".profile-aside")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("postwar Washington church notice");
+});

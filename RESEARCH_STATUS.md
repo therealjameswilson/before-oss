@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,624 people with a non-planned attempt | 23,941 person entities | 6.7833% |
+| Research-attempt coverage | 1,634 people with a non-planned attempt | 23,941 person entities | 6.8251% |
 | Verified-affiliation coverage | 280 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1695% |
 | Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,573 people with an individual file-access/priority assessment | 23,941 person entities | 6.5703% |
+| Archival-review coverage | 1,583 people with an individual file-access/priority assessment | 23,941 person entities | 6.6121% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 154
+- Identity status `confirmed`: 158
 - Identity status `high_confidence`: 360
 - Identity status `probable`: 55
 - Identity status `ambiguous`: 26
 - Identity status `conflicting`: 15
-- Identity status `unresolved`: 23,331
+- Identity status `unresolved`: 23,327
 
 ## Personnel categories
 
@@ -47,14 +47,14 @@ Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,317
+- `not_started`: 22,307
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 17
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 137
-- `requires_archival_review`: 1,144
+- `occupation_only_found`: 141
+- `requires_archival_review`: 1,150
 - `completed`: 59
 - `conflicting_sources`: 15
 - `verified_employer_found`: 160
@@ -88,12 +88,12 @@ Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 596 across 575 people; 44 additional
+- Saved `source_reviewed` outcomes: 605 across 584 people; 44 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,742
+- Total recorded attempts/plans: 2,752
 - Library of Congress discovery candidates: 38 total; 35 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 556; 536 have at least one public-eligible
+- People with saved reviewed claims: 565; 545 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2084,12 +2084,25 @@ Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
   other records remain unresolved and route to Box 48 review. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
-- Public-visible affiliations: 653 (published, qualified, or conflict-visible)
-- Database claims: 1,299; public-visible claims: 1,271 (259 confirmed, 758 high,
-  232 medium, 22 conflicting); 25 low-confidence claims are withheld and three
+- Batch 183 covers Shirley Benczer through Walter Bendick on page thirty-one.
+  Exact official Army matches confirm Daniel Bender, Edwin Bender, Richard H.
+  Bender, and Walter Bendick and document only their pre-enlistment occupations:
+  retail manager, salesperson, furniture-manufacturing occupation not elsewhere
+  classified, and manager or official not elsewhere classified. Those findings
+  are published as occupation evidence, never as named employers. Shirley
+  Benczer, Aletta L. Bender, Luella B. Bender, Luther H. Bender, Robert A.
+  Bender, and Rutti Bender remain unresolved and route to Box 48 review. A
+  contemporary radio-directory hit for Robert Bendick was rejected as a
+  different person, and Luther Bender's postwar Washington church notice was
+  not used to infer a wartime identity or pre-OSS employer. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 657 (published, qualified, or conflict-visible)
+- Database claims: 1,307; public-visible claims: 1,279 (263 confirmed, 758 high,
+  236 medium, 22 conflicting); 25 low-confidence claims are withheld and three
   rejected
-- Claim-source links: 2,732; private source records: 2,262; public source export:
-  1,272; unique source documents: 1,008
+- Claim-source links: 2,752; private source records: 2,266; public source export:
+  1,276; unique source documents: 1,008
 - Canonical organizations: 338 private and 329 public
 - Conflicting claims: 22 across 15 people
 - NARA pull-list rows: 23,818
@@ -2130,6 +2143,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-benczer-through-bendick-pathways_batch-183_2026-08-04.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-nine-thirty-kenneth-beers-through-william-behrens-pathways_batch-176_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-johnnie-batten-occupation-code-correction_batch-169_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-twenty-eight-amos-bear-through-william-beasley-jr-pathways_batch-168_2026-08-03.json

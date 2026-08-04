@@ -15,6 +15,26 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,898 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 183 local release check
+
+The complete 24,278-page internal-link pass includes direct routes for Shirley
+Benczer through Walter Bendick on page thirty-one. No new organization route is
+required because the four confirmed findings are occupation-only and the other
+records do not support a publishable affiliation. The focused Batch 183
+desktop regression passed locally; the complete three-viewport addition runs
+in the 591-case release-CI matrix. It verifies source-row fidelity and masking,
+keeps four Army-entry occupations distinct from named employers, preserves
+Luther H. Bender's officer classification without resolving his identity, and
+provides archival guidance for six unresolved people. All 65 public manifest
+assets have valid paths, sizes, and SHA-256 values. The manifest SHA-256 is
+`a1b1a9ff3b98b314ae9550cbae47ac2eb060c9a961590de920b017e109909b15`.
+Two consecutive builds produced identical public-data and static-site tree
+digests, `a1bf268d4acb4268a84897cb58f7611ce047adca963a755971a32538184f7020`
+and `7d30f55f240482d211896d3d9312dd340d1412786c9cf64ce4dea450c69f7ed4`.
+The boundary-aware identifier audit reviewed 994 candidate substrings across
+24,348 artifacts and found zero unexpected private-identifier matches or
+aggregate false positives.
+
 ## Batch 182 local release check
 
 The complete 24,278-page internal-link pass includes direct routes for Howard

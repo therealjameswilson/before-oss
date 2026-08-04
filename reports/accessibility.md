@@ -15,6 +15,13 @@ through Horteniziu Benchea. The desktop case passed locally, as did all 27
 dedicated axe cases across desktop, phone, and tablet. The complete 588-case
 matrix, including the three new Batch 182 viewport cases, passed in release CI.
 
+Batch 183 adds a focused direct-route regression for Shirley Benczer through
+Walter Bendick. The desktop case passed locally, as did all 27 dedicated axe
+cases across desktop, phone, and tablet. It verifies all ten Box 48 source rows,
+private-identifier masking, four occupation-only findings, six unresolved
+profiles, and Luther H. Bender's commissioned classification. The complete
+591-case three-viewport matrix runs in release CI.
+
 The matrix contains 196 desktop, 196 phone, and 196 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
@@ -37,7 +44,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-157-person employer measure is labeled separately from the 278-person broader
+157-person employer measure is labeled separately from the 280-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
