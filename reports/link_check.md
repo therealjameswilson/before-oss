@@ -20,8 +20,8 @@ verification; external responses do not affect the internal-route pass.
 The complete 24,278-page internal-link pass includes direct routes for Howard
 R. Belschwender through Horteniziu Benchea on page thirty-one and the new
 organization routes needed by the reviewed evidence. The focused Batch 182
-desktop regression passed locally; the complete three-viewport addition runs
-in release CI. It verifies source-row fidelity and masking, two exact Army
+desktop regression passed locally, and the complete three-viewport addition
+passed in release CI. It verifies source-row fidelity and masking, two exact Army
 occupation findings, Richard H. Beltz's documented Army-to-OSS pathway, John E.
 Beltz's Navy/OSS identity, Hortenziu Benchea's student relationship, Earl S.
 Ben's visible identifier conflict, and archival guidance for unresolved people.
@@ -33,6 +33,10 @@ Two consecutive builds produced the identical static-site tree digest
 The boundary-aware identifier audit reviewed 994 candidate substrings across
 24,348 artifacts and found zero unexpected private-identifier matches or
 aggregate false positives.
+
+GitHub Pages deployment run 30883041297 passed. Cache-busted production checks
+returned HTTP 200 for the homepage and all ten Batch 182 profiles, whose content
+matched the tested static build after normalizing only the production hostname.
 
 ## Batch 181 local release check
 

@@ -7,7 +7,7 @@ Run: 2026-08-04 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,278 pages**
 - Internal link check: **24,278 HTML files passed**
-- Browser and accessibility suite: **585 / 585 passed** across desktop,
+- Browser and accessibility suite: **588 / 588 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic public-data and production rebuilds: **identical sorted
@@ -79,9 +79,9 @@ Run: 2026-08-04 UTC
   matrix runs in release CI
 - Batch 181 local release checks: **passed**; the combined **585-case** browser
   matrix runs in release CI
-- Batch 182 local release checks: **passed**; the focused desktop regression and
-  **27 / 27** axe cases passed locally, and the combined **588-case** browser
-  matrix runs in release CI
+- Batch 182 production verification: **passed**; the focused desktop regression
+  and **27 / 27** axe cases passed locally, and the combined **588-case** browser
+  matrix passed in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
@@ -107,8 +107,9 @@ hints and built 24,278 pages. The internal-link checker passed all 24,278 HTML
 files and inventoried 48,898 unique external URLs. The focused Batch 182
 desktop regression passed 1 / 1, the previously interrupted Batch 52 case
 passed on isolated retry, and the dedicated axe matrix passed 27 / 27 across
-desktop, phone, and tablet. The complete 588-case browser matrix runs in
-release CI. The production dependency audit found zero vulnerabilities.
+desktop, phone, and tablet. The complete 588-case browser matrix passed in
+release CI (run 30883042099). The production dependency audit found zero
+vulnerabilities.
 Consecutive final builds produced the identical complete-site tree digest
 `ff4eb0437d2b0c6d05bc73d45c6da7f17cb57c81d9ed55fc21484171747b57f5`.
 All 65 manifest assets matched their recorded sizes and SHA-256 values; the
@@ -117,6 +118,12 @@ manifest SHA-256 is
 The field-aware identifier audit found zero unexpected boundary matches or
 aggregate false positives across 24,348 artifacts. No authenticated NARA API
 request was made.
+
+GitHub Pages deployment run 30883041297 completed successfully. Cache-busted
+production checks confirmed the exact 1,624 attempted-research, 280 verified-
+affiliation, 157 verified-employer, and 1,573 archival-assessment counts. The
+homepage and all ten Batch 182 profile routes returned HTTP 200 and matched the
+tested static files after normalizing only the configured production hostname.
 
 ## Batch 181 local release QA
 
