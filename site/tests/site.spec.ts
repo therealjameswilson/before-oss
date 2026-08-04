@@ -16458,3 +16458,79 @@ test("Batch 185 keeps the two John Bennet entities separate and qualifies two Ar
     "No employer or occupation from the other John R. Bennet row is assigned to this entity.",
   );
 });
+
+test("Batch 186 qualifies two Army occupations and keeps Lamira Bennett's colleges out of employer counts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c486548e-f871-5644-a79c-e01ec8533d64", "Arthur Bennett", "Pfc", "masked"],
+    ["68bcd656-a60c-5483-84f3-7722ec85d8f5", "Edward H Bennett Jr.", "cAPT", "masked"],
+    ["a1b0356c-9997-5556-9a6a-d8dca91dce8c", "Eugene E Bennett", "Not printed", "masked"],
+    ["d228a3aa-e8c9-51ec-b472-bcbf9bb00926", "Frederick L Bennett", "1st Lt", "masked"],
+    ["2db4e8d1-a9d1-5870-9a3e-fe19c4dc3a00", "Harold H Bennett", "Capt", "masked"],
+    ["77626694-a3d5-5f78-a803-34c129b6d195", "Henry J Bennett", "P-3", "Not printed"],
+    ["0a72d261-bed4-5218-bf74-2889d46a16ca", "Howard C Bennett", "Not printed", "Not printed"],
+    ["a05a0ca7-6777-5055-8dfa-c0a4b171ec98", "John T Bennett", "2nd Lt", "masked"],
+    ["3803be7d-3281-546b-a58f-6d4fb63b6f52", "Lamira Bennett", "Caf-5", "Not printed"],
+    ["b99d6249-137e-55cb-a8a0-ce3a4cefe3b1", "Norman J Bennett", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 32");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("49");
+  }
+
+  for (const [personId, occupation] of [
+    ["c486548e-f871-5644-a79c-e01ec8533d64", "Shipping or receiving clerk"],
+    [
+      "a1b0356c-9997-5556-9a6a-d8dca91dce8c",
+      "Machine-shop or related occupation, not elsewhere classified",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "68bcd656-a60c-5483-84f3-7722ec85d8f5",
+    "d228a3aa-e8c9-51ec-b472-bcbf9bb00926",
+    "2db4e8d1-a9d1-5870-9a3e-fe19c4dc3a00",
+    "77626694-a3d5-5f78-a803-34c129b6d195",
+    "0a72d261-bed4-5218-bf74-2889d46a16ca",
+    "a05a0ca7-6777-5055-8dfa-c0a4b171ec98",
+    "b99d6249-137e-55cb-a8a0-ce3a4cefe3b1",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/3803be7d-3281-546b-a58f-6d4fb63b6f52/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Converse College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Randolph-Macon Woman's College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

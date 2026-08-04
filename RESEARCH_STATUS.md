@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,643 people with a non-planned attempt | 23,941 person entities | 6.8627% |
+| Research-attempt coverage | 1,663 people with a non-planned attempt | 23,941 person entities | 6.9462% |
 | Verified-affiliation coverage | 280 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1695% |
 | Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,592 people with an individual file-access/priority assessment | 23,941 person entities | 6.6497% |
+| Archival-review coverage | 1,612 people with an individual file-access/priority assessment | 23,941 person entities | 6.7332% |
 
 ## Extraction and identity
 
@@ -18,20 +18,20 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 213
+- Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 161
+- Identity status `confirmed`: 165
 - Identity status `high_confidence`: 359
-- Identity status `probable`: 55
-- Identity status `ambiguous`: 26
+- Identity status `probable`: 56
+- Identity status `ambiguous`: 27
 - Identity status `conflicting`: 15
-- Identity status `unresolved`: 23,325
+- Identity status `unresolved`: 23,319
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,491
-- Enlisted Army personnel: 3,518
+- Unknown or indeterminate: 16,490
+- Enlisted Army personnel: 3,519
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -43,18 +43,18 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
+Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,298
+- `not_started`: 22,278
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 17
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 143
-- `requires_archival_review`: 1,157
+- `occupation_only_found`: 147
+- `requires_archival_review`: 1,173
 - `completed`: 59
 - `conflicting_sources`: 15
 - `verified_employer_found`: 160
@@ -62,7 +62,7 @@ Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 205
-- Live Library of Congress attempts: 356
+- Live Library of Congress attempts: 376
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -79,9 +79,9 @@ Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
 - Reviewed-institutional-source attempts recorded: 1
 - Reviewed-official-institutional-CIA-and-web attempts recorded: 1
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
-- Reviewed-official-institutional-newspaper-and-web attempts recorded: 11
-- Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 112
-- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 16
+- Reviewed-official-institutional-newspaper-and-web attempts recorded: 16
+- Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 116
+- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 32
 - Reviewed-official-institutional-French-language-newspaper-and-web attempts recorded: 2
 - Reviewed-official-institutional-scholarly-French-language-and-web attempts recorded: 1
 - Reviewed-official-NSA-scholarly-institutional-and-web attempts recorded: 1
@@ -89,12 +89,12 @@ Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 608 across 587 people; 44 additional
+- Saved `source_reviewed` outcomes: 613 across 592 people; 52 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,761
-- Library of Congress discovery candidates: 38 total; 35 rejected after
+- Total recorded attempts/plans: 2,801
+- Library of Congress discovery candidates: 64 total; 61 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 568; 548 have at least one public-eligible
+- People with saved reviewed claims: 573; 539 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2344,6 +2344,11 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-g
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-joseph-v-bell-through-william-b-bell_batch-180_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-and-thirty-one-maurice-belleux-through-ivy-belote_batch-181_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-belschwender-through-benchea-pathways_batch-182_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-benczer-through-bendick-pathways_batch-183_2026-08-04.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-bendix-through-bengert-pathways_batch-184_2026-08-04.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-thirty-two-bengt-through-sylvia-bennet-pathways_batch-185_2026-08-04.json
+python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-08-04_batch186.csv
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-arthur-bennett-through-norman-bennett-pathways_batch-186_2026-08-04.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

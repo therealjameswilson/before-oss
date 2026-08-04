@@ -4,8 +4,8 @@ Run: 2026-08-04 UTC
 
 ## Result
 
-**PASS - 597 / 597 cases passed. The matrix includes 27 / 27 passing dedicated
-axe cases.**
+**PASS - 600 / 600 cases completed successfully. The matrix includes 27 / 27
+passing dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -40,10 +40,22 @@ unresolved profiles plus one ambiguous profile, literal preservation of the
 unfamiliar `SPX2/c` grade, and private-identifier masking. The complete
 597-case three-viewport matrix passed in release CI.
 
-The latest completed combined matrix contains 199 desktop, 199 phone, and 199
-tablet cases. Every case passed on the combined invocation. No product
-assertion or serious/critical axe failure remains. All 27 dedicated axe cases
-passed.
+Batch 186 adds a focused direct-route regression for Arthur Bennett through
+Norman J. Bennett on page thirty-two. It verifies all ten Box 49 rows, literal
+preservation of Edward H. Bennett Jr.'s printed `cAPT` rank, private-identifier
+masking, two confirmed Army identities and qualified occupation-only findings,
+seven unresolved profiles, and Lamira Bennett's visibly probable identity and
+two medium-confidence student affiliations. The test requires Converse College
+and Randolph-Macon Woman's College to remain outside the civilian-employer
+section. The focused matrix passed 15 / 15 across desktop, phone, and tablet,
+including the previously load-sensitive organization routes.
+
+The latest completed combined matrix contains 200 desktop, 200 phone, and 200
+tablet cases. Under the release-CI retry policy, 589 cases passed on their first
+attempt and 11 load-time timeouts passed on retry; there were zero persistent
+failures. No product assertion or serious/critical axe failure remains. All 27
+dedicated axe cases passed. The focused 15-case rerun used a 90-second timeout
+and passed without retries.
 
 Routes tested at all three sizes:
 

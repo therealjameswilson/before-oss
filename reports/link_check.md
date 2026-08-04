@@ -4,16 +4,37 @@ Run: 2026-08-04 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,278 HTML files. Every relative
+**PASS.** The production build contains 24,280 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 329 organization profiles, and the
+The build includes 23,941 person profiles, 331 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,898 unique external URLs for separate live
+The checker inventoried 48,903 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 186 local release check
+
+The complete 24,280-page internal-link pass includes direct routes for Arthur
+Bennett through Norman J. Bennett on page thirty-two and two new historical
+organization routes for Converse College and Randolph-Macon Woman's College.
+The focused desktop, phone, and tablet regression passed, preserving all ten
+Box 49 rows, masking every private identifier, classifying four commissioned
+Army officers, and keeping two Army-entry occupations distinct from employers.
+Lamira Bennett's qualified college evidence remains visibly probable, medium
+confidence, and student-only. The other seven unresolved cases retain explicit
+archival-review guidance.
+
+Two consecutive production builds produced the identical static-tree digest
+`47ad8f18a7695bfbc20d549658bc8cf710e57907f9a0df3fa262727089e0f0bd` and
+the identical public-manifest SHA-256
+`13e878a60ecff5978f42f2cca7a5209cd7252cdb8148927c95470e755dc181c3`.
+The public downloads contain 23,941 personnel rows, 331 organizations, 665
+affiliations, and 1,291 sources. The boundary-aware audit reviewed 994
+candidate substrings across 24,348 artifacts and found zero unexpected private-
+identifier matches or aggregate false positives.
 
 ## Batch 185 production verification
 
