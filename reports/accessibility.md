@@ -4,7 +4,7 @@ Run: 2026-08-04 UTC
 
 ## Result
 
-**PASS - 588 / 588 cases passed. The matrix includes 27 / 27 passing dedicated
+**PASS - 591 / 591 cases passed. The matrix includes 27 / 27 passing dedicated
 axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
@@ -20,12 +20,21 @@ Walter Bendick. The desktop case passed locally, as did all 27 dedicated axe
 cases across desktop, phone, and tablet. It verifies all ten Box 48 source rows,
 private-identifier masking, four occupation-only findings, six unresolved
 profiles, and Luther H. Bender's commissioned classification. The complete
-591-case three-viewport matrix runs in release CI.
+591-case three-viewport matrix passed in release CI.
 
-The matrix contains 196 desktop, 196 phone, and 196 tablet cases. Every case
-passed on the combined invocation. No product assertion or serious/critical
-axe failure remains. All 27 dedicated axe cases passed. Release CI runs the
-combined 588-case matrix.
+Batch 184 adds a focused direct-route regression for the ten source rows from
+Evelyn V. Bendix through Edward J. Bengert. The desktop case passed locally, as
+did all 27 dedicated axe cases across desktop, phone, and tablet. It verifies
+both preserved Albert J. Benedetto source rows, three confirmed identities, two
+qualified occupation-only findings, six unresolved profiles, private-identifier
+masking, officer classification, and the deliberate withholding of Albert's
+ambiguous occupation-code expansion. The complete 594-case three-viewport
+matrix runs in release CI.
+
+The latest completed combined matrix contains 197 desktop, 197 phone, and 197
+tablet cases. Every case passed on the combined invocation. No product
+assertion or serious/critical axe failure remains. All 27 dedicated axe cases
+passed. Release CI will add the three Batch 184 viewport cases.
 
 Routes tested at all three sizes:
 

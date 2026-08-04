@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:42:19+00:00",
+  "generated_at": "2026-08-04T12:03:02+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,8 +7,8 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 1634,
-    "percent": 6.8251
+    "people_with_nonplanned_attempts": 1643,
+    "percent": 6.8627
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
@@ -22,8 +22,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 1583,
-    "percent": 6.6121
+    "people_assessed": 1592,
+    "percent": 6.6497
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -33,17 +33,17 @@
     "in_progress": 50,
     "needs_identity_review": 17,
     "needs_temporal_review": 4,
-    "not_started": 22307,
-    "occupation_only_found": 141,
-    "requires_archival_review": 1150,
+    "not_started": 22298,
+    "occupation_only_found": 143,
+    "requires_archival_review": 1157,
     "verified_employer_found": 160
   },
   "claim_confidence_counts": {
-    "confirmed": 263,
+    "confirmed": 266,
     "conflicting": 22,
     "high": 758,
     "low": 28,
-    "medium": 236
+    "medium": 238
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1464,
@@ -51,16 +51,16 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 6,
     "commissioned_naval_officer": 82,
-    "enlisted_army_personnel": 3517,
+    "enlisted_army_personnel": 3518,
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 56,
     "foreign_or_allied_military_personnel": 247,
     "temporary_contract_or_special_personnel": 1,
-    "unknown_or_indeterminate": 16492,
+    "unknown_or_indeterminate": 16491,
     "warrant_officer": 5
   },
   "possible_duplicate_groups": 213,
   "conflict_count": 16,
-  "citations": 2266,
-  "unique_source_documents": 1008
+  "citations": 2270,
+  "unique_source_documents": 1009
 }

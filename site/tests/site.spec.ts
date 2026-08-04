@@ -16306,3 +16306,77 @@ test("Batch 183 preserves Box 48 Bender rows and keeps Army occupations distinct
     await expect(page.locator(".profile-aside")).toContainText("commissioned army officer");
   await expect(page.locator("main")).toContainText("postwar Washington church notice");
 });
+
+test("Batch 184 preserves both Albert Benedetto rows and qualifies Army occupations", async ({
+  page,
+}) => {
+  const profiles = [
+    ["48a6f1a6-a321-5be0-8311-e75dec18e9be", "Evelyn V Bendix", "Caf-3", "Not printed"],
+    ["ef48fabb-c462-5cd0-be92-dafc02db7b6d", "Melvin D Bendon", "S/Sgt", "masked"],
+    ["ee8bd586-d56a-5dfd-b97c-862fe4f6d693", "Albert J Benedetto", "Not printed", "masked"],
+    ["cf1c13c9-003b-539d-b373-4930615271ee", "Rocco J Benedetto", "Capt", "masked"],
+    ["ecd10ea6-63b8-5f45-9e96-8070197535d9", "Barbara Benedict", "Caf-2", "Not printed"],
+    ["5d3e2855-c815-58a6-82ac-76e4294a085b", "Bruce Benedict", "Capt", "masked"],
+    ["233f83b1-4384-557d-a4ac-310d984a21e2", "Gordon Benedict", "Not printed", "Not printed"],
+    ["597324cc-298a-56d9-b8dd-d25db09939fc", "Leonard A Benevilli", "Cpl", "masked"],
+    ["e2285f78-e960-51fa-a854-6042e52478fb", "Edward J Bengert", "T/Sgt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 31");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/ee8bd586-d56a-5dfd-b97c-862fe4f6d693/");
+  await expect(page.locator(".index-record")).toHaveCount(2);
+  await expect(page.locator(".index-record").nth(1).locator("dd").nth(1)).toHaveText("Pvt");
+  await expect(page.locator("main")).toContainText("Box 48 and Box 49");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "The two Albert J. Benedetto index rows and the official Army-entry record refer to the same person.",
+  );
+  await expect(page.locator("main")).not.toContainText("Filers, grinders, buffers");
+
+  for (const [personId, occupation] of [
+    ["ef48fabb-c462-5cd0-be92-dafc02db7b6d", "Repairman or mechanic, not elsewhere classified"],
+    ["e2285f78-e960-51fa-a854-6042e52478fb", "Repairman or mechanic, not elsewhere classified"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ef48fabb-c462-5cd0-be92-dafc02db7b6d/");
+  await expect(page.locator("main")).toContainText("Malvin D Bendon");
+
+  for (const personId of [
+    "48a6f1a6-a321-5be0-8311-e75dec18e9be",
+    "cf1c13c9-003b-539d-b373-4930615271ee",
+    "ecd10ea6-63b8-5f45-9e96-8070197535d9",
+    "5d3e2855-c815-58a6-82ac-76e4294a085b",
+    "233f83b1-4384-557d-a4ac-310d984a21e2",
+    "597324cc-298a-56d9-b8dd-d25db09939fc",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5d3e2855-c815-58a6-82ac-76e4294a085b/");
+  await expect(page.locator("main")).toContainText("authentic archival copy");
+});

@@ -15,6 +15,35 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,898 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 184 local release check
+
+The complete 24,278-page internal-link pass includes direct routes for the ten
+source rows from Evelyn V. Bendix through Edward J. Bengert on page thirty-one,
+representing nine profiles because both preserved Albert J. Benedetto rows link
+to one confirmed person. No new organization route is required: the two new
+affiliations are broad Army-entry occupations, not employers. The focused Batch
+184 desktop regression passed locally; the complete three-viewport addition
+runs in the 594-case release-CI matrix. Six unresolved people retain archival
+guidance, private identifiers remain masked, and Albert's ambiguous occupation
+code is not expanded. All 65 public manifest assets have valid paths, sizes,
+and SHA-256 values. The manifest SHA-256 is
+`421b29d45ca5221fa8867d3d5f19bbad6cd9275ee666db942929761ecf1647af`.
+Two consecutive builds produced identical public-data and static-site tree
+digests, `217d4ad0916bdc1752b8a3efbe67505fb144e42e5030143452209c696ac52491`
+and `436cacaf6d66b27b14960a8d5cc352bb54598c43dc63abc248022af5518bc0e4`.
+The boundary-aware identifier audit reviewed 996 candidate substrings across
+24,348 artifacts and found zero unexpected private-identifier matches or
+aggregate false positives.
+
+## Batch 183 production verification
+
+GitHub Pages deployment run 30906136590 and test run 30906136635 passed. The
+homepage and all ten Batch 183 profile routes returned HTTP 200 and matched the
+audited local HTML after normalizing only the expected plain and URL-encoded
+production hostname. Cache-busted live statistics reproduced the release's
+1,634 researched people, 280 verified affiliations, 157 verified employers,
+1,583 archival assessments, 1,279 public claims, and 1,276 public sources.
+
 ## Batch 183 local release check
 
 The complete 24,278-page internal-link pass includes direct routes for Shirley
