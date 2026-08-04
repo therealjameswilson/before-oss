@@ -4,16 +4,35 @@ Run: 2026-08-04 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,276 HTML files. Every relative
+**PASS.** The production build contains 24,278 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 327 organization profiles, and the
+The build includes 23,941 person profiles, 329 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,892 unique external URLs for separate live
+The checker inventoried 48,898 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 182 local release check
+
+The complete 24,278-page internal-link pass includes direct routes for Howard
+R. Belschwender through Horteniziu Benchea on page thirty-one and the new
+organization routes needed by the reviewed evidence. The focused Batch 182
+desktop regression passed locally; the complete three-viewport addition runs
+in release CI. It verifies source-row fidelity and masking, two exact Army
+occupation findings, Richard H. Beltz's documented Army-to-OSS pathway, John E.
+Beltz's Navy/OSS identity, Hortenziu Benchea's student relationship, Earl S.
+Ben's visible identifier conflict, and archival guidance for unresolved people.
+All 65 public manifest assets matched their recorded sizes and SHA-256 values.
+The manifest SHA-256 is
+`e1263e74017bffda5f335deb3b4459ac1cf8427b8ff772bdc9609d224179f48f`.
+Two consecutive builds produced the identical static-site tree digest
+`ff4eb0437d2b0c6d05bc73d45c6da7f17cb57c81d9ed55fc21484171747b57f5`.
+The boundary-aware identifier audit reviewed 994 candidate substrings across
+24,348 artifacts and found zero unexpected private-identifier matches or
+aggregate false positives.
 
 ## Batch 181 local release check
 

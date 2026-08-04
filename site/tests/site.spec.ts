@@ -16148,3 +16148,93 @@ test("Batch 181 preserves the page boundary, publishes two employers, and expose
   await expect(page.locator("main")).toContainText("CAF-3");
   await expect(page.locator("main")).toContainText("First Lieutenant");
 });
+
+test("Batch 182 preserves Box 48 rows, publishes bounded pathways, and exposes the Earl S Ben conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["68730e24-c1ec-5151-a37e-5b2582656f91", "Howard R Belschwender", "PRTR 1/", "masked"],
+    ["d418d84e-e5ae-5870-b1b4-7d37bf8aaf8d", "John E Beltz", "S 1/c", "masked"],
+    ["243ff422-6f2f-51a0-93e5-2f26c7d0e140", "Richard H Beltz", "Sgt", "masked"],
+    ["773c8c9f-6f6a-5f53-913c-193f7a8dbe6f", "Earle J Bemis", "CAF-1", "Not printed"],
+    ["4adbf72c-ef5e-5843-8322-9517b3f21124", "Sirling L Bemis", "Not printed", "Not printed"],
+    ["d4a80dc9-6b3a-5d4d-a22b-447100d2f3bf", "Guy M Bemiss", "Not printed", "Not printed"],
+    ["e83893f6-9436-5df1-a01d-85d9828b7cd1", "Earl S Ben", "T/Sgt", "masked"],
+    ["b32e505c-8a9a-55ad-a74b-c556bc901bb2", "William F Bena", "t-5", "masked"],
+    ["f3da1744-73c2-533f-8ad5-426dc74db9d1", "Horas W Benas", "Not printed", "Not printed"],
+    ["94aaf2b8-5c45-5d74-84dc-4a59baf50a32", "Horteniziu Benchea", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".profile-aside").getByText("48", { exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 31");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/d418d84e-e5ae-5870-b1b4-7d37bf8aaf8d/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Dutch-American U.S. Navy specialist");
+  await expect(page.locator("main")).toContainText("Batavia");
+
+  await page.goto("./people/243ff422-6f2f-51a0-93e5-2f26c7d0e140/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "106th Cavalry Reconnaissance Troop",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Foreman, not elsewhere classified",
+  );
+
+  await page.goto("./people/b32e505c-8a9a-55ad-a74b-c556bc901bb2/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Foreman, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/e83893f6-9436-5df1-a01d-85d9828b7cd1/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Byeon Il-seo");
+  await expect(page.locator("main")).toContainText("private identifier conflicts");
+  await expect(page.locator("main")).not.toContainText("Donald Lehr");
+
+  await page.goto("./people/94aaf2b8-5c45-5d74-84dc-4a59baf50a32/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "West Virginia University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("Hortenziu Benchea");
+
+  for (const personId of [
+    "68730e24-c1ec-5151-a37e-5b2582656f91",
+    "773c8c9f-6f6a-5f53-913c-193f7a8dbe6f",
+    "4adbf72c-ef5e-5843-8322-9517b3f21124",
+    "d4a80dc9-6b3a-5d4d-a22b-447100d2f3bf",
+    "f3da1744-73c2-533f-8ad5-426dc74db9d1",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

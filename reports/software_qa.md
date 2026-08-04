@@ -5,36 +5,36 @@ Run: 2026-08-04 UTC
 - Python unit tests: **62 / 62 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,276 pages**
-- Internal link check: **24,276 HTML files passed**
+- Static production build: **24,278 pages**
+- Internal link check: **24,278 HTML files passed**
 - Browser and accessibility suite: **585 / 585 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic public-data and production rebuilds: **identical sorted
   path-and-file-SHA-256 tree hashes**
-  (`6cd61c04aa5697b3650ed82618af9ec98621cae9b94a065f3062767c83985bdb`
-  and `7a51e6e2c05ddda1cb7dbc11f13cceff6160cb9af576ef121039ca33237a93a9`)
-- Latest deterministic build (Batch 181): **byte-for-byte identical** across
-  consecutive static builds and all **24,346** built-site artifacts.
+  (`588ac75aecb25b07d3de78810315053b6761dd87e714795ab6a54dccd443a5a7`
+  and `ff4eb0437d2b0c6d05bc73d45c6da7f17cb57c81d9ed55fc21484171747b57f5`)
+- Latest deterministic build (Batch 182): **byte-for-byte identical** across
+  consecutive static builds and all **24,348** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `92db30e7fc90b7107a732f554663575f51566f50d56cc2eaf01cc8f61659e116`
+  `e1263e74017bffda5f335deb3b4459ac1cf8427b8ff772bdc9609d224179f48f`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,346** production artifacts, including compressed mirrors;
+  matches** in **24,348** production artifacts, including compressed mirrors;
   no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,264** public records representing **1,002** unique documents
-- Private citation records: **2,254**
-- Published, qualified, or conflict-visible affiliations: **647**
-- Published or conflict-visible claims: **1,260**
+- Reviewed public sources: **1,272** public records representing **1,008** unique documents
+- Private citation records: **2,262**
+- Published, qualified, or conflict-visible affiliations: **653**
+- Published or conflict-visible claims: **1,271**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; three
   additional low-confidence candidates are rejected
-- Verified-affiliation metric: **278** people with confirmed/high published
+- Verified-affiliation metric: **280** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **157** people with confirmed/high published
   employment or self-employment evidence
@@ -79,10 +79,44 @@ Run: 2026-08-04 UTC
   matrix runs in release CI
 - Batch 181 local release checks: **passed**; the combined **585-case** browser
   matrix runs in release CI
+- Batch 182 local release checks: **passed**; the focused desktop regression and
+  **27 / 27** axe cases passed locally, and the combined **588-case** browser
+  matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 182 local release QA
+
+Batch 182 adds the ten visually checked rows on page thirty-one, from Howard R.
+Belschwender through Horteniziu Benchea. The strict evidence bundle imports
+eight sources, three organizations, six affiliations, eleven claims, twenty-
+three claim-source links, ten person updates, and ten terminal research
+attempts. Exact official Army matches support occupation-only evidence for
+Richard H. Beltz and William F. Bena. A division-association history documents
+Beltz's Army-to-OSS radio pathway; an official CIA history identifies John E.
+Beltz's Navy role in the OSS Batavia mission; contemporary West Virginia
+University evidence supports Hortenziu Benchea's student affiliation; and Earl
+S. Ben's institutional biography remains qualified beside a visible identifier
+conflict. The other unresolved records route to Box 48 review.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+and the Python suite passed 62 / 62. Astro reported zero errors, warnings, or
+hints and built 24,278 pages. The internal-link checker passed all 24,278 HTML
+files and inventoried 48,898 unique external URLs. The focused Batch 182
+desktop regression passed 1 / 1, the previously interrupted Batch 52 case
+passed on isolated retry, and the dedicated axe matrix passed 27 / 27 across
+desktop, phone, and tablet. The complete 588-case browser matrix runs in
+release CI. The production dependency audit found zero vulnerabilities.
+Consecutive final builds produced the identical complete-site tree digest
+`ff4eb0437d2b0c6d05bc73d45c6da7f17cb57c81d9ed55fc21484171747b57f5`.
+All 65 manifest assets matched their recorded sizes and SHA-256 values; the
+manifest SHA-256 is
+`e1263e74017bffda5f335deb3b4459ac1cf8427b8ff772bdc9609d224179f48f`.
+The field-aware identifier audit found zero unexpected boundary matches or
+aggregate false positives across 24,348 artifacts. No authenticated NARA API
+request was made.
 
 ## Batch 181 local release QA
 

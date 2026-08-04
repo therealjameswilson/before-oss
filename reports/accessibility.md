@@ -10,6 +10,11 @@ axe cases.**
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 182 adds a focused direct-route regression for Howard R. Belschwender
+through Horteniziu Benchea. The desktop case passed locally, as did all 27
+dedicated axe cases across desktop, phone, and tablet. The complete 588-case
+matrix, including the three new Batch 182 viewport cases, runs in release CI.
+
 The matrix contains 195 desktop, 195 phone, and 195 tablet cases. Every case
 passed on the combined invocation. No product assertion or serious/critical
 axe failure remains. All 27 dedicated axe cases passed. Release CI runs the

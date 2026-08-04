@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,614 people with a non-planned attempt | 23,941 person entities | 6.7416% |
-| Verified-affiliation coverage | 278 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1612% |
+| Research-attempt coverage | 1,624 people with a non-planned attempt | 23,941 person entities | 6.7833% |
+| Verified-affiliation coverage | 280 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1695% |
 | Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,563 people with an individual file-access/priority assessment | 23,941 person entities | 6.5285% |
+| Archival-review coverage | 1,573 people with an individual file-access/priority assessment | 23,941 person entities | 6.5703% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Possible duplicate groups: 213
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 152
-- Identity status `high_confidence`: 358
+- Identity status `confirmed`: 154
+- Identity status `high_confidence`: 360
 - Identity status `probable`: 55
 - Identity status `ambiguous`: 26
-- Identity status `conflicting`: 14
-- Identity status `unresolved`: 23,336
+- Identity status `conflicting`: 15
+- Identity status `unresolved`: 23,331
 
 ## Personnel categories
 
@@ -43,20 +43,20 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,173 yes; 5,063 no; 16,705 indeterminate.
+Commissioned classification: 2,173 yes; 5,068 no; 16,700 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,327
+- `not_started`: 22,317
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 17
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 135
-- `requires_archival_review`: 1,137
+- `occupation_only_found`: 137
+- `requires_archival_review`: 1,144
 - `completed`: 59
-- `conflicting_sources`: 14
+- `conflicting_sources`: 15
 - `verified_employer_found`: 160
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -90,7 +90,7 @@ Commissioned classification: 2,173 yes; 5,063 no; 16,705 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 596 across 575 people; 44 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,732
+- Total recorded attempts/plans: 2,742
 - Library of Congress discovery candidates: 38 total; 35 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 556; 536 have at least one public-eligible
@@ -2070,15 +2070,28 @@ Commissioned classification: 2,173 yes; 5,063 no; 16,705 indeterminate.
   Bomb Group candidate remains qualified. No authenticated Catalog request,
   credential, raw API response, full private identifier, or unsupported employer
   claim was used or published.
-- Public-visible affiliations: 647 (641 published or qualified and six
-  conflict-visible)
-- Database claims: 1,288; public-visible claims: 1,260 (257 confirmed, 754 high,
-  230 medium, 19 conflicting); 25 low-confidence claims are withheld and three
+- Batch 182 covers Howard R. Belschwender through Horteniziu Benchea on page
+  thirty-one. Exact official Army matches support occupation-only findings for
+  Richard H. Beltz and William F. Bena without inventing named employers. A
+  106th Infantry Division Association history documents Beltz's immediate
+  military pathway into OSS radio work. An official CIA history identifies
+  John E. Beltz as a Navy specialist in the OSS Batavia mission, but does not
+  establish his earlier civilian employer. Contemporary West Virginia
+  University evidence supports Hortenziu Benchea's student affiliation, not an
+  employment claim. Earl S. Ben retains an institutional Korean-independence
+  biography as qualified identity and occupation evidence, alongside a visible
+  conflict between the printed private identifier and official Army data. Five
+  other records remain unresolved and route to Box 48 review. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 653 (published, qualified, or conflict-visible)
+- Database claims: 1,299; public-visible claims: 1,271 (259 confirmed, 758 high,
+  232 medium, 22 conflicting); 25 low-confidence claims are withheld and three
   rejected
-- Claim-source links: 2,709; private source records: 2,254; public source export:
-  1,264; unique source documents: 1,002
-- Canonical organizations: 335 private and 327 public
-- Conflicting claims: 19 across 15 people
+- Claim-source links: 2,732; private source records: 2,262; public source export:
+  1,272; unique source documents: 1,008
+- Canonical organizations: 338 private and 329 public
+- Conflicting claims: 22 across 15 people
 - NARA pull-list rows: 23,818
 
 Planned dry-run requests do not count as research-attempt coverage.
@@ -2299,6 +2312,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-j
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-gaspard-belin-through-joseph-bell-pathways_batch-179_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-joseph-v-bell-through-william-b-bell_batch-180_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-and-thirty-one-maurice-belleux-through-ivy-belote_batch-181_2026-08-03.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-belschwender-through-benchea-pathways_batch-182_2026-08-03.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
