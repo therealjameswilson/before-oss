@@ -15,6 +15,34 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,898 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 185 local release check
+
+The complete 24,278-page internal-link pass includes direct routes for Carl H.
+Bengt through Sylvia S. Bennet across pages thirty-one and thirty-two. No new
+organization route is required because the two new published findings are
+broad Army-entry occupations, not employers. The focused Batch 185 desktop
+regression passed locally; the complete three-viewport addition runs in the
+597-case release-CI matrix. The two John R. Bennet rows remain separate with a
+public-safe possible-duplicate marker, eight profiles retain qualified or
+unresolved archival guidance, private identifiers remain masked, and the
+unfamiliar `SPX2/c` grade remains unexpanded. All 65 public manifest assets
+have valid paths, sizes, and SHA-256 values. The manifest SHA-256 is
+`e0c91299fcbdc0fbb6de29c7301da500feee6cf3157f1af35c847f72ec813716`.
+Two consecutive builds produced identical public-data and static-site tree
+digests, `1b84afa771fc78795b43e99a301c9aaed6e7188bb28164d4081afad1eb503527`
+and `6fbdb4a28b5d1a449f2f027d65ceaf32b245f29678f99e57b5d5ce88b95c1325`.
+The boundary-aware identifier audit reviewed 994 candidate substrings across
+24,348 artifacts and found zero unexpected private-identifier matches or
+aggregate false positives.
+
+## Batch 184 production verification
+
+GitHub Pages deployment run 30907926484 and test run 30907927232 passed. The
+homepage and all nine Batch 184 profile routes returned HTTP 200 and matched
+the audited local HTML after canonical-host normalization. All 65 cache-busted
+live public assets matched the release manifest's recorded sizes and SHA-256
+values.
+
 ## Batch 184 local release check
 
 The complete 24,278-page internal-link pass includes direct routes for the ten

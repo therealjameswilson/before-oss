@@ -16380,3 +16380,81 @@ test("Batch 184 preserves both Albert Benedetto rows and qualifies Army occupati
   await page.goto("./people/5d3e2855-c815-58a6-82ac-76e4294a085b/");
   await expect(page.locator("main")).toContainText("authentic archival copy");
 });
+
+test("Batch 185 keeps the two John Bennet entities separate and qualifies two Army occupations", async ({
+  page,
+}) => {
+  const profiles = [
+    ["60807659-ae57-5b34-8d3f-c5f5f4bba32e", "Carl H Bengt", "Not printed", "Not printed", "Page 31"],
+    ["cf0f4fa5-20fc-5f93-a62a-1fdbc1db26df", "Ernest T Bengtson", "Not printed", "Not printed", "Page 31"],
+    ["17db642e-b5d9-5be6-ab3f-d4b3d07c5bdc", "Ernest Benisch", "Not printed", "Not printed", "Page 31"],
+    ["441192bb-0daf-5b20-b45e-07a3c94aa405", "Dayton L Benjamin", "2nd Lt", "masked", "Page 31"],
+    ["0fd55647-bfac-5604-af31-fba405baac3f", "Gerald L Bennatts", "SPX2/c", "masked", "Page 31"],
+    ["6c860f2e-6256-5bb3-9db0-74cfcb7225ef", "William A Benner", "S/Sgt", "masked", "Page 31"],
+    ["37ea2669-6cb0-53ba-b88d-f47577d4eb99", "William R Bennernagel", "Not printed", "Not printed", "Page 31"],
+    ["bdc11006-c887-516c-b2be-61bdffe344f8", "John R Bennet", "M/Sgt", "masked", "Page 31"],
+    ["97824cec-a191-590a-843a-efeba1ac5d2e", "John R Bennet", "Not printed", "Not printed", "Page 32"],
+    ["88e17311-abd7-576d-8a60-b4925f236bcc", "Sylvia S Bennet", "P-1", "Not printed", "Page 32"],
+  ];
+
+  for (const [personId, displayName, rank, serial, pdfPage] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(pdfPage);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("49");
+  }
+
+  for (const [personId, occupation] of [
+    ["6c860f2e-6256-5bb3-9db0-74cfcb7225ef", "General-office clerk"],
+    [
+      "bdc11006-c887-516c-b2be-61bdffe344f8",
+      "Semiprofessional occupation, not elsewhere classified",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "60807659-ae57-5b34-8d3f-c5f5f4bba32e",
+    "cf0f4fa5-20fc-5f93-a62a-1fdbc1db26df",
+    "17db642e-b5d9-5be6-ab3f-d4b3d07c5bdc",
+    "441192bb-0daf-5b20-b45e-07a3c94aa405",
+    "0fd55647-bfac-5604-af31-fba405baac3f",
+    "37ea2669-6cb0-53ba-b88d-f47577d4eb99",
+    "88e17311-abd7-576d-8a60-b4925f236bcc",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  for (const personId of [
+    "bdc11006-c887-516c-b2be-61bdffe344f8",
+    "97824cec-a191-590a-843a-efeba1ac5d2e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator(".profile-aside")).toContainText(
+      "duplicate-b03c3af25261",
+    );
+    await expect(page.locator("main")).not.toContainText("Captain John T. Bennet");
+  }
+
+  await page.goto("./people/97824cec-a191-590a-843a-efeba1ac5d2e/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "No employer or occupation from the other John R. Bennet row is assigned to this entity.",
+  );
+});

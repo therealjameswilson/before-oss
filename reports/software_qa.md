@@ -7,19 +7,19 @@ Run: 2026-08-04 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,278 pages**
 - Internal link check: **24,278 HTML files passed**
-- Browser and accessibility suite: **591 / 591 passed** across desktop,
+- Browser and accessibility suite: **594 / 594 passed** across desktop,
   phone, and tablet, including **27 / 27** dedicated axe cases
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic public-data and production rebuilds: **identical sorted
   path-and-file-SHA-256 tree hashes**
-  (`217d4ad0916bdc1752b8a3efbe67505fb144e42e5030143452209c696ac52491`
-  and `436cacaf6d66b27b14960a8d5cc352bb54598c43dc63abc248022af5518bc0e4`)
-- Latest deterministic build (Batch 184): **byte-for-byte identical** across
+  (`1b84afa771fc78795b43e99a301c9aaed6e7188bb28164d4081afad1eb503527`
+  and `6fbdb4a28b5d1a449f2f027d65ceaf32b245f29678f99e57b5d5ce88b95c1325`)
+- Latest deterministic build (Batch 185): **byte-for-byte identical** across
   consecutive static builds and all **24,348** built-site artifacts.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `421b29d45ca5221fa8867d3d5f19bbad6cd9275ee666db942929761ecf1647af`
+  `e0c91299fcbdc0fbb6de29c7301da500feee6cf3157f1af35c847f72ec813716`
 - Public search rows: **23,941**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -28,10 +28,10 @@ Run: 2026-08-04 UTC
   matches** in **24,348** production artifacts, including compressed mirrors;
   no aggregate-value false positives were present
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,280** public records representing **1,009** unique documents
-- Private citation records: **2,270**
-- Published, qualified, or conflict-visible affiliations: **659**
-- Published or conflict-visible claims: **1,284**
+- Reviewed public sources: **1,284** public records representing **1,010** unique documents
+- Private citation records: **2,274**
+- Published, qualified, or conflict-visible affiliations: **661**
+- Published or conflict-visible claims: **1,288**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; three
   additional low-confidence candidates are rejected
 - Verified-affiliation metric: **280** people with confirmed/high published
@@ -85,13 +85,74 @@ Run: 2026-08-04 UTC
 - Batch 183 production verification: **passed**; the focused desktop regression
   and **27 / 27** axe cases passed locally, and the combined **591-case** browser
   matrix passed in release CI
-- Batch 184 local release checks: **passed**; the focused desktop regression and
-  **27 / 27** axe cases passed locally, and the combined **594-case** browser
+- Batch 184 production verification: **passed**; the focused desktop regression,
+  **27 / 27** local axe cases, and complete **594-case** browser matrix passed
+- Batch 185 local release checks: **passed**; the focused desktop regression and
+  **27 / 27** axe cases passed locally, and the combined **597-case** browser
   matrix runs in release CI
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It
 did not affect either workflow result.
+
+## Batch 185 local release QA
+
+Batch 185 adds ten visually checked Box 49 source rows spanning pages thirty-one
+and thirty-two, from Carl H. Bengt through Sylvia S. Bennet. The strict evidence
+bundle imports four sources, two affiliations, four claims, ten claim-source
+links, ten person updates, and ten terminal research attempts. Ten current
+Library of Congress searches were checkpointed separately; all nine returned
+candidates were inspected and rejected as wrong namesakes or pages without the
+indexed person. Official Army data confirms William A. Benner and the
+identifier-bearing John R. Bennet row and supports two qualified occupation-only
+findings. No employer is inferred.
+
+The two John R. Bennet rows remain separate people in a visible possible-
+duplicate group: only the master-sergeant row carries the matching private
+identifier, while the identifier-free row remains ambiguous. Seven other people
+remain unresolved and route to archival review. Gerald L. Bennatts's unfamiliar
+`SPX2/c` grade is preserved literally without forcing a personnel category.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 62 / 62, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,278 pages. The internal-link checker passed all 24,278 HTML files and
+inventoried 48,898 unique external URLs. The focused Batch 185 desktop
+regression passed 1 / 1, and the dedicated axe matrix passed 27 / 27 across
+desktop, phone, and tablet. The combined 597-case matrix runs in release CI.
+The production dependency audit found zero vulnerabilities.
+
+Consecutive final builds produced identical public-data and complete-site tree
+digests, `1b84afa771fc78795b43e99a301c9aaed6e7188bb28164d4081afad1eb503527`
+and `6fbdb4a28b5d1a449f2f027d65ceaf32b245f29678f99e57b5d5ce88b95c1325`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values; the manifest
+SHA-256 is
+`e0c91299fcbdc0fbb6de29c7301da500feee6cf3157f1af35c847f72ec813716`.
+The field-aware identifier audit found zero unexpected boundary matches or
+aggregate false positives across 24,348 artifacts after reviewing 994 candidate
+substrings. No authenticated NARA Catalog API request was made.
+
+The Batch 185 database contains 2,781 durable research attempts, 2,274 private
+citation records, 669 affiliations, 338 organizations, and 1,316 claims: 268
+confirmed, 758 high, 240 medium, 28 low, and 22 conflicting. The public
+projection contains 1,284 sources representing 1,010 unique documents, 661
+affiliations, and 1,288 claims. Coverage distinguishes 1,653 people with a
+non-planned research attempt, 280 with verified-affiliation evidence, 157 with
+verified employment or self-employment evidence, and 1,602 whose archival-review
+need has been assessed.
+
+## Batch 184 production deployment
+
+GitHub Actions test workflow
+[30907927232](https://github.com/therealjameswilson/before-oss/actions/runs/30907927232)
+and GitHub Pages deployment workflow
+[30907926484](https://github.com/therealjameswilson/before-oss/actions/runs/30907926484)
+completed successfully for release `77d989f`. CI repeated all 62 Python tests,
+the complete 594-case browser and accessibility matrix, static build, internal-
+link checks, source reconstruction, and private-identifier audit. The homepage
+and all nine Batch 184 production profile routes returned HTTP 200 and matched
+the audited local HTML after canonical-host normalization. All 65 live public
+assets matched the release manifest's sizes and SHA-256 values.
 
 ## Batch 184 local release QA
 
@@ -112,7 +173,7 @@ every invariant. Astro reported zero errors, warnings, or hints and built
 24,278 pages. The internal-link checker passed all 24,278 HTML files and
 inventoried 48,898 unique external URLs. The focused Batch 184 desktop
 regression passed 1 / 1, and the dedicated axe matrix passed 27 / 27 across
-desktop, phone, and tablet. The complete 594-case matrix runs in release CI.
+desktop, phone, and tablet. The complete 594-case matrix passed in release CI.
 The production dependency audit found zero vulnerabilities.
 
 Consecutive final builds produced identical public-data and complete-site tree
