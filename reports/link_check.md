@@ -37,6 +37,25 @@ affiliations, and 1,302 sources. The boundary-aware identifier audit reviewed
 997 candidate substrings across 24,350 artifacts and found zero unexpected
 private-identifier matches or aggregate false positives.
 
+## Batch 188 production verification
+
+Release `d16158f` passed GitHub test workflow
+[31006375458](https://github.com/therealjameswilson/before-oss/actions/runs/31006375458)
+and Pages workflow
+[31006375474](https://github.com/therealjameswilson/before-oss/actions/runs/31006375474).
+The clean runner passed 606 / 606 browser and accessibility cases and checked
+all 24,280 internal HTML pages.
+
+The production audit opened seven core routes and all ten Batch 188 person
+profiles. Every route returned HTTP 200 and matched the local HTML after plain
+and URL-encoded canonical-host normalization. The live manifest and all 65
+listed assets matched local bytes, sizes, and SHA-256 values; 68,626,612 bytes
+were verified with zero mismatches. The deployed and local manifest SHA-256 is
+`763f3b1ed85744678f1ebcd44115119dc998c7d5c04f22a8e2822763c7b7c212`.
+Live statistics reproduced 23,978 source rows, 23,941 people, 1,683 researched
+people, 280 verified affiliations, 157 verified employers, 1,632 archival
+assessments, 1,309 public claims, and 1,302 public sources.
+
 ## Batch 186 local release check
 
 The complete 24,280-page internal-link pass includes direct routes for Arthur

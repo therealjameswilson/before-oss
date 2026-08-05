@@ -2167,6 +2167,9 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
   chronology mismatches, postwar program listings, or a wrong middle initial.
   No authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
+  Release `d16158f` passed GitHub test workflow 31006375458 and Pages workflow
+  31006375474. The clean runner passed all 606 browser/accessibility cases; the
+  production audit matched all seventeen routes and all 65 manifest assets.
 - Public-visible affiliations: 670 (published, qualified, or conflict-visible)
 - Database claims: 1,337; public-visible claims: 1,309 (276 confirmed, 759 high,
   251 medium, 23 conflicting); 25 low-confidence claims are withheld and three
