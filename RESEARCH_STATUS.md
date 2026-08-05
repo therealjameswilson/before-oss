@@ -2186,6 +2186,9 @@ Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
   two generations, and five other records remain unresolved. All ten route to Box 50
   review. No authenticated Catalog request, credential, raw API response, full
   private identifier, or unsupported employer claim was used or published.
+  Release `5dfb1ff` passed GitHub test workflow 31012434038 and Pages workflow
+  31012434059. The clean runner passed all 609 browser/accessibility cases; the
+  production audit matched all seventeen routes and all 65 manifest assets.
 - Public-visible affiliations: 676 (published, qualified, or conflict-visible)
 - Database claims: 1,349; public-visible claims: 1,319 (278 confirmed, 764 high,
   254 medium, 23 conflicting); 25 low-confidence claims are withheld and five
