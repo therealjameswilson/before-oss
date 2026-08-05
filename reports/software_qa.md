@@ -5403,6 +5403,44 @@ GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
 
+## Batch 187 local release QA
+
+Batch 187 adds ten reviewed profiles from Robert C. Bennett through Herbert G.
+Benshadle. The reviewed evidence import added six citation records, four
+qualified occupation-only affiliations, nine public-visible claims, twenty-three
+claim-source links, ten person updates, and ten terminal research attempts. A
+separate review-decision import rejected all sixty Library of Congress
+discovery candidates after page-context review. Samuel A. Bennett's identifier
+conflict remains visible without publishing the other enlistee's name or
+transferring that row's occupation.
+
+The Python suite passed 62 / 62. The static build generated 24,280 HTML pages
+with zero Astro errors and no build warnings. The focused Batch 187 regression
+passed 3 / 3 across desktop, phone, and tablet. A complete local browser run was
+stopped after its first 200 desktop cases because five unrelated older profile
+tours stalled at navigation for up to seventeen minutes; 194 cases passed and
+the five timed-out cases plus the interrupted Batch 186 case immediately passed
+6 / 6 in a fresh isolated run. The accessibility matrix similarly passed 26 / 27
+before an overloaded desktop Sources route timed out, then that route passed in
+10 seconds when isolated. GitHub CI remains the authoritative clean full-matrix
+gate for the release.
+
+The internal-link checker resolved every link in all 24,280 HTML files and
+inventoried 48,903 unique external URLs. The production dependency audit found
+zero vulnerabilities. The field-aware redaction audit compared 12,919
+normalized private identifiers and 121 formatted variants across 68 public
+artifacts, rejected 574 aggregate substring coincidences, and found zero
+unexpected boundary matches. The public and built manifests match byte for
+byte; their SHA-256 is
+`6f937ae2eec5f57811f781280f42e24f296363c69dbdafab70218c78f1428129`.
+
+Coverage now distinguishes 1,673 people with a saved non-planned research
+attempt, 280 with confirmed/high published affiliation evidence, 157 with
+verified employment or self-employment evidence, and 1,622 with an individual
+archival-review assessment. The public projection contains 23,941 person
+profiles, 669 affiliations, 1,304 claims, 1,295 source records, and 331
+organizations. No authenticated NARA Catalog request was made.
+
 ## Batch 137 local release QA
 
 Batch 137 continues the fully rendered and visually verified page-twenty-one

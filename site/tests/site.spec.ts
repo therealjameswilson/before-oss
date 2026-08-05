@@ -16534,3 +16534,71 @@ test("Batch 186 qualifies two Army occupations and keeps Lamira Bennett's colleg
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 187 qualifies four Army occupations and exposes the Samuel Bennett identifier conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["9ed5a96c-1724-5c0e-8428-97847ffaf3f5", "Robert C Bennett", "T/Sgt", "masked", "49"],
+    ["f454460a-9df6-5c27-a41f-2d651b6d9f18", "Roger E Bennett", "Lt", "masked", "49"],
+    ["7ab5c91c-5f10-567a-b0f3-6cf99d2b0393", "Samuel A Bennett", "Sgt", "masked", "49"],
+    ["084897b2-077e-539c-a473-d4a9b339c4b4", "Stanley M Bennett", "Cpl", "masked", "49"],
+    ["683a6a93-dd40-51b9-bccf-c9ac7e00ebb7", "Virginia M Bennett", "P-2", "Not printed", "49"],
+    ["c6414983-3558-5ad5-bee7-504b1a0fea07", "Peter J Beno", "Not printed", "masked", "50"],
+    ["dd6a596b-8f47-509e-9e39-8548cb9fd85e", "Leo J Benoche", "CPC-5", "Not printed", "50"],
+    ["a4ec3f2c-381d-5bf9-99bf-5aa7ac6c52e6", "Armand J Benoit", "Cpl", "masked", "50"],
+    ["35ee9427-2315-5c04-998c-308fbbcfc950", "Emery C Benoit", "Cpl", "masked", "50"],
+    ["3f59d5a5-1e4b-57f6-936d-75e5d3fe354b", "Herbert G Benshadle", "Pvt", "masked", "50"],
+  ];
+
+  for (const [personId, displayName, rank, serial, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 32");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  for (const [personId, occupation] of [
+    ["084897b2-077e-539c-a473-d4a9b339c4b4", "Stenographer or typist"],
+    ["a4ec3f2c-381d-5bf9-99bf-5aa7ac6c52e6", "Shoe and boot manufacturing occupation"],
+    ["35ee9427-2315-5c04-998c-308fbbcfc950", "Loom fixer"],
+    [
+      "3f59d5a5-1e4b-57f6-936d-75e5d3fe354b",
+      "Electrical-machinery manufacturing occupation, not elsewhere classified",
+    ],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "9ed5a96c-1724-5c0e-8428-97847ffaf3f5",
+    "f454460a-9df6-5c27-a41f-2d651b6d9f18",
+    "683a6a93-dd40-51b9-bccf-c9ac7e00ebb7",
+    "c6414983-3558-5ad5-bee7-504b1a0fea07",
+    "dd6a596b-8f47-509e-9e39-8548cb9fd85e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/7ab5c91c-5f10-567a-b0f3-6cf99d2b0393/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "resolves to another full name",
+  );
+  await expect(page.locator("main")).not.toContainText("Mail carriers");
+});

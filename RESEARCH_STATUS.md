@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,663 people with a non-planned attempt | 23,941 person entities | 6.9462% |
+| Research-attempt coverage | 1,673 people with a non-planned attempt | 23,941 person entities | 6.9880% |
 | Verified-affiliation coverage | 280 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1695% |
 | Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,612 people with an individual file-access/priority assessment | 23,941 person entities | 6.7332% |
+| Archival-review coverage | 1,622 people with an individual file-access/priority assessment | 23,941 person entities | 6.7750% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 165
+- Identity status `confirmed`: 169
 - Identity status `high_confidence`: 359
 - Identity status `probable`: 56
 - Identity status `ambiguous`: 27
-- Identity status `conflicting`: 15
-- Identity status `unresolved`: 23,319
+- Identity status `conflicting`: 16
+- Identity status `unresolved`: 23,314
 
 ## Personnel categories
 
@@ -47,22 +47,22 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,278
+- `not_started`: 22,268
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 17
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 147
-- `requires_archival_review`: 1,173
+- `occupation_only_found`: 151
+- `requires_archival_review`: 1,178
 - `completed`: 59
-- `conflicting_sources`: 15
+- `conflicting_sources`: 16
 - `verified_employer_found`: 160
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 205
-- Live Library of Congress attempts: 376
+- Live Library of Congress attempts: 416
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -89,12 +89,12 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 613 across 592 people; 52 additional
+- Saved `source_reviewed` outcomes: 618 across 597 people; 70 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,801
-- Library of Congress discovery candidates: 64 total; 61 rejected after
+- Total recorded attempts/plans: 2,851
+- Library of Congress discovery candidates: 124 total; 121 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 573; 539 have at least one public-eligible
+- People with saved reviewed claims: 578; 558 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2114,14 +2114,47 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
   101 lead whose former host now serves unrelated material was rejected rather
   than cited. No authenticated Catalog request, credential, raw API response,
   full private identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 659 (published, qualified, or conflict-visible)
-- Database claims: 1,312; public-visible claims: 1,284 (266 confirmed, 758 high,
-  238 medium, 22 conflicting); 25 low-confidence claims are withheld and three
+- Batch 185 covers Bengt Bengtson through Sylvia Bennet across pages thirty-one
+  and thirty-two. Exact official Army matches confirm William A. Benner and the
+  page-31 Master Sergeant John R. Bennet and document only their broad
+  Army-entry occupations: general-office clerk and a semiprofessional
+  occupation not elsewhere classified. The similar John R. Bennet rows remain
+  separate because the other row lacks the decisive identifier. Eight other
+  profiles remain unresolved or ambiguous and route to Boxes 49-50 review. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Batch 186 covers Arthur Bennett through Norman J. Bennett on page thirty-two.
+  Exact official Army matches confirm Arthur Bennett and Eugene E. Bennett and
+  document shipping-or-receiving-clerk and residual machine-shop occupation
+  categories without inventing employers. A distinctive Lamira Bennett match
+  remains probable: contemporary Delta Zeta records support qualified Converse
+  and Randolph-Macon Woman's College student affiliations, not employment or an
+  immediate pre-OSS predecessor. Seven common-name officer, civilian, and
+  identifier-free records remain unresolved and route to Box 49 review. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Batch 187 covers Robert C. Bennett through Herbert G. Benshadle on page
+  thirty-two. A complete screen of the 9,200,232-row official Army merged file
+  confirms Stanley M. Bennett, Armand J. Benoit, Emery C. Benoit, and Herbert G.
+  Benshadle and supports only qualified Army-entry occupation findings:
+  stenographer or typist, shoe-and-boot manufacturing, loom fixer, and a
+  residual electrical-machinery manufacturing category. Samuel A. Bennett's
+  printed private identifier resolves to a different full name in the Army
+  file; the conflict is public, but none of the other enlistee's occupational or
+  biographical facts are transferred. Sixty current Library of Congress API
+  candidates were reviewed in full and rejected as older namesakes,
+  chronology mismatches, postwar pages, or OCR false positives. Five remaining
+  profiles are unresolved and all ten route to Boxes 49-50 review. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 669 (published, qualified, or conflict-visible)
+- Database claims: 1,332; public-visible claims: 1,304 (274 confirmed, 758 high,
+  249 medium, 23 conflicting); 25 low-confidence claims are withheld and three
   rejected
-- Claim-source links: 2,764; private source records: 2,270; public source export:
-  1,280; unique source documents: 1,009
-- Canonical organizations: 338 private and 329 public
-- Conflicting claims: 22 across 15 people
+- Claim-source links: 2,814; private source records: 2,289; public source export:
+  1,295; unique source documents: 1,015
+- Canonical organizations: 340 private and 331 public
+- Conflicting claims: 23 across 16 people
 - NARA pull-list rows: 23,818
 
 Planned dry-run requests do not count as research-attempt coverage.
@@ -2349,6 +2382,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-o
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-thirty-two-bengt-through-sylvia-bennet-pathways_batch-185_2026-08-04.json
 python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-08-04_batch186.csv
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-arthur-bennett-through-norman-bennett-pathways_batch-186_2026-08-04.json
+python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-08-04_batch187.csv
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-robert-bennett-through-herbert-benshadle-pathways_batch-187_2026-08-04.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

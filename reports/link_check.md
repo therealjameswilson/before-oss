@@ -4870,3 +4870,19 @@ An independent scan of 83 unique fetched production artifacts—17 HTML routes,
 compared 12,919 normalized private identifiers and 121 formatted variants,
 rejected 566 substring coincidences, and found zero unexpected boundary
 matches.
+
+## Batch 187 local link and redaction check
+
+The static build contains 24,280 HTML files, including direct pages for all
+23,941 person entities and the ten Batch 187 profiles. The internal-link checker
+resolved every local target and inventoried 48,903 unique external URLs for the
+separate live check. The ten direct profiles preserve page 32 and Boxes 49-50,
+mask every printed private identifier, qualify four Army-entry occupations,
+leave five unresolved cases explicit, and expose Samuel A. Bennett's evidence
+conflict without transferring the other enlistee's name or occupation.
+
+All 68 public artifacts passed the field-aware identifier audit. It compared
+12,919 normalized private identifiers and 121 formatted variants, rejected 574
+aggregate substring coincidences, and found zero unexpected boundary matches.
+The public and built manifests match byte for byte; the manifest SHA-256 is
+`6f937ae2eec5f57811f781280f42e24f296363c69dbdafab70218c78f1428129`.
