@@ -16602,3 +16602,60 @@ test("Batch 187 qualifies four Army occupations and exposes the Samuel Bennett i
   );
   await expect(page.locator("main")).not.toContainText("Mail carriers");
 });
+
+test("Batch 188 preserves uncertain identities and publishes only supported occupation evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["5cf0d5e7-28d6-5e04-88df-156f89121f7b", "Basil M Bensin", "P-3", "Not printed"],
+    ["76a4edd3-c6b3-591c-a84c-d96471c32cb1", "Anita M Benson", "Not printed", "Not printed"],
+    ["fb275b5c-0fcc-5204-b53e-735a15fec5ed", "Clayborn Benson", "CPC-3", "Not printed"],
+    ["cae12e13-ebe6-501e-be57-7161f2498c52", "Melvin O Benson", "Maj", "Not printed"],
+    ["c5b19f91-9b68-595c-9ab5-27d5f4c62811", "Nathan L Benson", "Sgt", "masked"],
+    ["90096e4b-db81-5801-87da-20b2b9df9005", "Nels J Benson", "1st Lt", "masked"],
+    ["76288d61-8ef6-5cfc-b100-5e9490244218", "Paul Benson", "Not printed", "Not printed"],
+    ["8aa462f0-e2cc-5488-bdf8-62dd5dab8b6e", "Peter Benson", "1st Lt", "masked"],
+    ["1a8af78c-0f00-5268-a07d-a4109341012f", "Peter J Benson", "GM 1/c", "masked"],
+    ["0365f66a-82a0-5b82-a521-952e4397d94b", "William Benston", "Sgt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 32");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("50");
+  }
+
+  await page.goto("./people/5cf0d5e7-28d6-5e04-88df-156f89121f7b/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("plausible but unconfirmed identity candidate");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/c5b19f91-9b68-595c-9ab5-27d5f4c62811/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bookkeeper or cashier, except bank cashier",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/1a8af78c-0f00-5268-a07d-a4109341012f/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("GM1 recorded by the Department of Veterans Affairs");
+
+  await page.goto("./people/0365f66a-82a0-5b82-a521-952e4397d94b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("no occupation has been assigned or guessed");
+  await expect(page.locator("main")).not.toContainText("Machine shop");
+});

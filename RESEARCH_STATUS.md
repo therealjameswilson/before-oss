@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-04 UTC.
+Generated from the current local SQLite database on 2026-08-05 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,673 people with a non-planned attempt | 23,941 person entities | 6.9880% |
+| Research-attempt coverage | 1,683 people with a non-planned attempt | 23,941 person entities | 7.0298% |
 | Verified-affiliation coverage | 280 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1695% |
 | Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,622 people with an individual file-access/priority assessment | 23,941 person entities | 6.7750% |
+| Archival-review coverage | 1,632 people with an individual file-access/priority assessment | 23,941 person entities | 6.8168% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-04 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 169
-- Identity status `high_confidence`: 359
-- Identity status `probable`: 56
+- Identity status `confirmed`: 171
+- Identity status `high_confidence`: 360
+- Identity status `probable`: 57
 - Identity status `ambiguous`: 27
 - Identity status `conflicting`: 16
-- Identity status `unresolved`: 23,314
+- Identity status `unresolved`: 23,310
 
 ## Personnel categories
 
@@ -47,14 +47,14 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,268
+- `not_started`: 22,258
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 17
+- `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 151
-- `requires_archival_review`: 1,178
+- `occupation_only_found`: 152
+- `requires_archival_review`: 1,186
 - `completed`: 59
 - `conflicting_sources`: 16
 - `verified_employer_found`: 160
@@ -62,7 +62,7 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
 - Live CIA exact-name OSS attempts: 205
-- Live Library of Congress attempts: 416
+- Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -81,7 +81,8 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
 - Reviewed-official-institutional-newspaper-and-web attempts recorded: 16
 - Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 116
-- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 32
+- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 43
+- Reviewed-official-bulk-institutional-newspaper-directory-and-web attempts recorded: 9
 - Reviewed-official-institutional-French-language-newspaper-and-web attempts recorded: 2
 - Reviewed-official-institutional-scholarly-French-language-and-web attempts recorded: 1
 - Reviewed-official-NSA-scholarly-institutional-and-web attempts recorded: 1
@@ -91,10 +92,10 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 618 across 597 people; 70 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,851
-- Library of Congress discovery candidates: 124 total; 121 rejected after
+- Total recorded attempts/plans: 2,871
+- Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 578; 558 have at least one public-eligible
+- People with saved reviewed claims: 582; 562 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2150,14 +2151,30 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
   Release `83bbc4e` passed GitHub test workflow 30964586217 and Pages workflow
   30964585986. The clean runner passed all 603 browser/accessibility cases; the
   production audit matched all seventeen routes and all 65 manifest assets.
-- Public-visible affiliations: 669 (published, qualified, or conflict-visible)
-- Database claims: 1,332; public-visible claims: 1,304 (274 confirmed, 758 high,
-  249 medium, 23 conflicting); 25 low-confidence claims are withheld and three
+- Batch 188 covers Basil M. Bensin through William Benston on page thirty-two.
+  Exact private-identifier matches in the complete 9,200,232-row official Army
+  merged file confirm Nathan L. Benson and William Benston. Nathan's official
+  code supports only the qualified occupation “bookkeeper or cashier, except
+  bank cashier”; it names no employer. William's retained occupation digits do
+  not map to entry 1-78 in NARA's reviewed corrected code list, so the project
+  assigns no occupation and routes the original statistical card to critical
+  review. The Department of Veterans Affairs independently matches Peter J.
+  Benson's exact name, Navy branch, and GM1 rating, supporting high-confidence
+  identity without identifying a pre-OSS affiliation. The agronomist Basil
+  Mitrophanovich Bensin remains only a qualified probable identity candidate
+  pending Box 50. Six other profiles remain unresolved. Nine Library of
+  Congress candidates were rejected after page-context review as namesakes,
+  chronology mismatches, postwar program listings, or a wrong middle initial.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 670 (published, qualified, or conflict-visible)
+- Database claims: 1,337; public-visible claims: 1,309 (276 confirmed, 759 high,
+  251 medium, 23 conflicting); 25 low-confidence claims are withheld and three
   rejected
-- Claim-source links: 2,814; private source records: 2,289; public source export:
-  1,295; unique source documents: 1,015
+- Claim-source links: 2,828; private source records: 2,298; public source export:
+  1,302; unique source documents: 1,018
 - Canonical organizations: 340 private and 331 public
-- Conflicting claims: 23 across 16 people
+- Conflicting claims: 23 across 17 people
 - NARA pull-list rows: 23,818
 
 Planned dry-run requests do not count as research-attempt coverage.
@@ -2387,6 +2404,8 @@ python3 -m oss_research import-review-decisions research/loc_review_decisions_20
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-arthur-bennett-through-norman-bennett-pathways_batch-186_2026-08-04.json
 python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-08-04_batch187.csv
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-robert-bennett-through-herbert-benshadle-pathways_batch-187_2026-08-04.json
+python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-08-05_batch188.csv
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-basil-bensin-through-william-benston-pathways_batch-188_2026-08-05.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

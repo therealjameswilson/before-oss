@@ -1,10 +1,10 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-04 UTC
+Run: 2026-08-05 UTC
 
 ## Result
 
-**PASS - 600 / 600 cases completed successfully. The matrix includes 27 / 27
+**PASS - 606 / 606 cases completed successfully. The matrix includes 27 / 27
 passing dedicated axe cases.**
 
 The production static build was tested with Playwright 1.62.0 and axe-core
@@ -50,12 +50,18 @@ and Randolph-Macon Woman's College to remain outside the civilian-employer
 section. The focused matrix passed 15 / 15 across desktop, phone, and tablet,
 including the previously load-sensitive organization routes.
 
-The latest completed combined matrix contains 200 desktop, 200 phone, and 200
-tablet cases. Under the release-CI retry policy, 589 cases passed on their first
-attempt and 11 load-time timeouts passed on retry; there were zero persistent
-failures. No product assertion or serious/critical axe failure remains. All 27
-dedicated axe cases passed. The focused 15-case rerun used a 90-second timeout
-and passed without retries.
+Batch 188 adds a direct-route regression for Basil M. Bensin through William
+Benston. It verifies all ten page-32, Box-50 profiles; printed ranks and grades;
+private-identifier masking; Basil Bensin's visibly qualified probable identity;
+Nathan L. Benson's occupation-only finding; Peter J. Benson's high-confidence
+Navy identity; William Benston's deliberately unmapped occupation digits; and
+six unresolved archival-review outcomes. The focused desktop, phone, and tablet
+matrix passed 3 / 3.
+
+The latest completed combined matrix contains 202 desktop, 202 phone, and 202
+tablet cases. All 606 cases passed locally on their first attempt, with zero
+product assertion, serious/critical axe, or responsive-layout failures. All 27
+dedicated axe cases passed.
 
 Routes tested at all three sizes:
 

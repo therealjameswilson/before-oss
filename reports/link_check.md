@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-04 UTC
+Run: 2026-08-05 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,30 @@ The build includes 23,941 person profiles, 331 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,903 unique external URLs for separate live
+The checker inventoried 48,906 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 188 local release check
+
+The complete 24,280-page internal-link pass includes direct routes for Basil M.
+Bensin through William Benston on page thirty-two. No new organization route is
+required because the only new affiliation is an unnamed Army-entry occupation.
+The complete 606-case desktop, phone, and tablet matrix passed, including all 27
+dedicated axe cases. The regression verifies every Box 50 source row and masked
+or unprinted identifier; preserves Basil Bensin as a probable identity rather
+than a settled fact; publishes Nathan L. Benson's bookkeeper-or-cashier category
+without inventing an employer; identifies Peter J. Benson at high confidence
+through the exact Navy GM1 rating; and refuses to decode William Benston's
+unmapped occupation digits. Six unresolved profiles retain archival guidance.
+
+Two consecutive production builds produced the identical static-tree digest
+`248db13eaabffd3943e53ee449942216d64f4d69132edb0dc26332a3432e6b13` and
+the identical public-manifest SHA-256
+`763f3b1ed85744678f1ebcd44115119dc998c7d5c04f22a8e2822763c7b7c212`.
+The public downloads contain 23,941 personnel rows, 331 organizations, 670
+affiliations, and 1,302 sources. The boundary-aware identifier audit reviewed
+997 candidate substrings across 24,350 artifacts and found zero unexpected
+private-identifier matches or aggregate false positives.
 
 ## Batch 186 local release check
 
