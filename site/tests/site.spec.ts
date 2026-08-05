@@ -16768,3 +16768,102 @@ test("Batch 189 preserves unusual index fields and publishes only supported Bent
   await expect(page.locator("main")).toContainText("SP X 3/c");
   await expect(page.locator("main")).toContainText("has not been silently expanded");
 });
+
+test("Batch 190 separates Bepp-to-Beresku employers, occupations, and unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["4d8df98c-509d-5fed-941a-7ff6d30c2c7d", "Yoneo Bepp", "Page 32", "Not printed", "Not printed"],
+    ["70ace64f-2112-5e8c-9239-886f7d56e7de", "Rose I Berardi", "Page 32", "Caf-2", "Not printed"],
+    ["a5e6a90d-1113-5bb0-b25b-48c3a869ee08", "Luigi Berardinucci", "Page 32", "T-5", "masked"],
+    ["13c9e096-bb57-510a-9f17-0a57e22f3b46", "Woodbury L Berce Jr.", "Page 32", "Not printed", "Not printed"],
+    ["a88e91bc-b151-5522-b44e-dad661ac7dca", "Oscar J Berckmans", "Page 33", "Lt", "Not printed"],
+    ["555de3f1-56f0-5263-a7c2-6d292fcb03b7", "Charlotte Bercovitz", "Page 33", "Caf-4", "Not printed"],
+    ["b76c60a1-20b9-547e-a824-20217835f29b", "Clarence A Berdahl", "Page 33", "Not printed", "Not printed"],
+    ["5c80c555-2b16-5380-abc4-be36cf6da6ef", "Andrew H Berding", "Page 33", "Lt Col", "masked"],
+    ["4a513641-7753-5dac-b1e5-b4d11d915fc3", "Samuel R Berenberg", "Page 33", "WAE", "Not printed"],
+    ["2c2f2c46-b5d9-54fc-96be-74efe337ed5d", "Andrew E Beresku", "Page 33", "Cpl", "masked"],
+  ];
+
+  for (const [personId, displayName, pdfPage, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(pdfPage);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("50");
+  }
+
+  await page.goto("./people/4d8df98c-509d-5fed-941a-7ff6d30c2c7d/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Heart Mountain Relocation Center",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("K. Inukai & Co.");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Golden Gate Institute",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/a5e6a90d-1113-5bb0-b25b-48c3a869ee08/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Construction occupations, n.e.c.");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/5c80c555-2b16-5380-abc4-be36cf6da6ef/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("Associated Press");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "U.S. State Department",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Associated Press");
+
+  await page.goto("./people/4a513641-7753-5dac-b1e5-b4d11d915fc3/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Greenbelt Health Association",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "U.S. Fish and Wildlife Service, St. Paul Island Hospital",
+  );
+
+  await page.goto("./people/2c2f2c46-b5d9-54fc-96be-74efe337ed5d/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Andrew E Beresky");
+  await expect(page.locator("main")).toContainText("Laboratory technicians and assistants");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "70ace64f-2112-5e8c-9239-886f7d56e7de",
+    "13c9e096-bb57-510a-9f17-0a57e22f3b46",
+    "a88e91bc-b151-5522-b44e-dad661ac7dca",
+    "555de3f1-56f0-5263-a7c2-6d292fcb03b7",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/a88e91bc-b151-5522-b44e-dad661ac7dca/");
+  await expect(page.locator("main")).toContainText("Belgian");
+  await expect(page.locator("main")).toContainText("remains rejected");
+  await expect(page.locator("main")).toContainText("No publishable pre-OSS affiliation is recorded yet");
+
+  await page.goto("./people/b76c60a1-20b9-547e-a824-20217835f29b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("University of Illinois");
+});

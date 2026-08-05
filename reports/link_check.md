@@ -4,16 +4,33 @@ Run: 2026-08-05 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,280 HTML files. Every relative
+**PASS.** The production build contains 24,289 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 331 organization profiles, and the
+The build includes 23,941 person profiles, 340 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,906 unique external URLs for separate live
+The checker inventoried 48,931 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 190 local release check
+
+The complete 24,289-page internal-link pass includes direct routes for Yoneo
+Bepp through Andrew E. Beresku and the newly documented organization records.
+The focused desktop, phone, and tablet regression passed 3 / 3. The full local
+matrix passed 603 / 612 in its initial 1.3-hour run; all nine browser-session
+timeout cases passed on an immediate 9 / 9 isolated rerun. The 62-test Python
+suite passed, and the boundary-aware identifier audit checked 12,919 normalized
+private identifiers and 121 formatted variants across 24,359 artifacts, finding
+zero unexpected boundary matches.
+
+All 65 manifest assets match their public-source and built-tree copies. The
+manifest SHA-256 is
+`95a660c54a6122df91d084ee1ed2d3601854f7b2073513ddd673d076af449577`.
+The five public downloads contain 23,941 personnel rows, 340 organizations, 685
+affiliations, and 1,326 sources.
 
 ## Batch 188 local release check
 

@@ -2189,13 +2189,32 @@ Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
   Release `5dfb1ff` passed GitHub test workflow 31012434038 and Pages workflow
   31012434059. The clean runner passed all 609 browser/accessibility cases; the
   production audit matched all seventeen routes and all 65 manifest assets.
-- Public-visible affiliations: 676 (published, qualified, or conflict-visible)
-- Database claims: 1,349; public-visible claims: 1,319 (278 confirmed, 764 high,
-  254 medium, 23 conflicting); 25 low-confidence claims are withheld and five
+- Batch 190 covers Yoneo Bepp through Andrew E. Beresku across pages thirty-two
+  and thirty-three. Contemporary San Francisco directories document Yoneo
+  Bepp's management of K. Inukai & Co. and presidency of the Golden Gate
+  Institute; a community history and wartime roster place his Heart Mountain
+  incarceration before the later intelligence-related service, which remains a
+  qualified immediate status rather than employment. An Andrew H. Berding OSS
+  report establishes the indexed lieutenant colonel's identity, while an
+  institutional history supports the Associated Press as his last civilian
+  employer. Samuel R. Berenberg is documented as a Greenbelt Health Association
+  physician and later manager of the Fish and Wildlife hospital on St. Paul
+  Island, without claiming either was immediately pre-OSS. Exact official Army
+  identifier matches confirm Luigi Berardinucci and Andrew E. Beresku/Beresky;
+  their records support only broad Army-entry occupations, not named civilian
+  employers. Rose I. Berardi, Woodbury L. Berce Jr., Oscar J. Berckmans, and
+  Charlotte Bercovitz remain unresolved and route to Box 50 review. Clarence A.
+  Berdahl's previously verified University of Illinois evidence was carried
+  forward without duplicating claims. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported employer
+  claim was used or published.
+- Public-visible affiliations: 685 (published, qualified, or conflict-visible)
+- Database claims: 1,366; public-visible claims: 1,335 (281 confirmed, 772 high,
+  259 medium, 23 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 2,857; private source records: 2,312; public source export:
-  1,312; unique source documents: 1,027
-- Canonical organizations: 342 private and 333 public
+- Claim-source links: 2,892; private source records: 2,327; public source export:
+  1,326; unique source documents: 1,040
+- Canonical organizations: 349 private and 340 public
 - Conflicting claims: 23 across 17 people
 - NARA pull-list rows: 23,818
 
@@ -2428,6 +2447,8 @@ python3 -m oss_research import-review-decisions research/loc_review_decisions_20
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-robert-bennett-through-herbert-benshadle-pathways_batch-187_2026-08-04.json
 python3 -m oss_research import-review-decisions research/loc_review_decisions_2026-08-05_batch188.csv
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-basil-bensin-through-william-benston-pathways_batch-188_2026-08-05.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-harry-bent-through-raymond-beplat-pathways_batch-189_2026-08-05.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-and-thirty-three-yoneo-bepp-through-andrew-beresku-pathways_batch-190_2026-08-05.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

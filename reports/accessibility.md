@@ -4,8 +4,11 @@ Run: 2026-08-05 UTC
 
 ## Result
 
-**PASS - 606 / 606 cases completed successfully. The matrix includes 27 / 27
-passing dedicated axe cases.**
+**PASS with documented local browser-session retries.** The full Batch 190
+matrix passed 603 / 612 cases in its initial 1.3-hour run; all nine session-
+timeout cases passed immediately in a fresh isolated rerun. The three new Batch
+190 viewport cases passed in both runs. The matrix includes 27 dedicated axe
+cases; the single timed-out axe case passed on isolated rerun.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
@@ -58,10 +61,25 @@ Navy identity; William Benston's deliberately unmapped occupation digits; and
 six unresolved archival-review outcomes. The focused desktop, phone, and tablet
 matrix passed 3 / 3.
 
-The latest completed combined matrix contains 202 desktop, 202 phone, and 202
-tablet cases. All 606 cases passed locally on their first attempt, with zero
-product assertion, serious/critical axe, or responsive-layout failures. All 27
-dedicated axe cases passed.
+Batch 189 adds a direct-route regression for Harry S. Bent through Raymond F.
+Beplat. It verifies all ten page-32, Box-50 profiles, private-identifier masking,
+the two separate Benyon/Beynon source rows, qualified occupation findings, and
+the visible limits on ambiguous or unresolved identities. The complete release
+matrix passed 609 / 609 in GitHub Actions.
+
+Batch 190 adds a direct-route regression for Yoneo Bepp through Andrew E.
+Beresku across pages 32 and 33. It verifies all ten Box-50 profiles at desktop,
+phone, and tablet widths; private-identifier masking; the distinction among
+employers, occupations, military or government assignments, professional
+affiliations, and incarceration status; and explicit archival-review outcomes
+for four unresolved identities. The focused matrix passed 3 / 3. In the long
+combined local run, all three Batch 190 cases passed without retry.
+
+The Batch 190 combined matrix contains 204 desktop, 204 phone, and 204 tablet
+cases. Nine pre-existing cases encountered browser-session timeouts during the
+initial 1.3-hour local run; all nine passed in a 56.5-second isolated rerun. No
+Batch 190 product assertion, serious/critical axe, or responsive-layout failure
+remains.
 
 Routes tested at all three sizes:
 
@@ -80,7 +98,7 @@ Assertions covered semantic headings, direct-route responses, search and
 commissioned-status filtering, shareable query parameters, source-row display,
 serial-number masking, public-download availability, and serious/critical WCAG
 2 A/AA and 2.1 A/AA axe rules. The homepage assertion also verifies that the
-157-person employer measure is labeled separately from the 280-person broader
+160-person employer measure is labeled separately from the 285-person broader
 affiliation measure. The researched-profile cases verify that
 reviewed claims expose citation metadata, that the confirmed McWilliams profile
 keeps the immediate federal assignment distinct from the last civilian
