@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:23:16+00:00",
+  "generated_at": "2026-08-05T13:50:47+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -7,13 +7,13 @@
   },
   "research_attempt_coverage": {
     "person_entities": 23941,
-    "people_with_nonplanned_attempts": 1683,
-    "percent": 7.0298
+    "people_with_nonplanned_attempts": 1693,
+    "percent": 7.0716
   },
   "verified_affiliation_coverage": {
     "person_entities": 23941,
-    "people_with_confirmed_or_high_published_affiliation": 280,
-    "percent": 1.1695
+    "people_with_confirmed_or_high_published_affiliation": 282,
+    "percent": 1.1779
   },
   "verified_employer_coverage": {
     "person_entities": 23941,
@@ -22,45 +22,45 @@
   },
   "archival_review_coverage": {
     "person_entities": 23941,
-    "people_assessed": 1632,
-    "percent": 6.8168
+    "people_assessed": 1642,
+    "percent": 6.8585
   },
   "research_status_counts": {
     "candidate_found": 1,
-    "completed": 59,
+    "completed": 60,
     "conflicting_sources": 16,
     "documented_prewar_employer_found": 37,
     "in_progress": 50,
     "needs_identity_review": 18,
     "needs_temporal_review": 4,
-    "not_started": 22258,
-    "occupation_only_found": 152,
-    "requires_archival_review": 1186,
+    "not_started": 22248,
+    "occupation_only_found": 154,
+    "requires_archival_review": 1193,
     "verified_employer_found": 160
   },
   "claim_confidence_counts": {
-    "confirmed": 276,
+    "confirmed": 278,
     "conflicting": 23,
-    "high": 759,
-    "low": 28,
-    "medium": 251
+    "high": 764,
+    "low": 30,
+    "medium": 254
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1464,
-    "commissioned_army_officer": 2069,
+    "commissioned_army_officer": 2070,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 6,
     "commissioned_naval_officer": 82,
-    "enlisted_army_personnel": 3519,
+    "enlisted_army_personnel": 3520,
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 56,
     "foreign_or_allied_military_personnel": 247,
     "temporary_contract_or_special_personnel": 1,
-    "unknown_or_indeterminate": 16490,
+    "unknown_or_indeterminate": 16488,
     "warrant_officer": 5
   },
-  "possible_duplicate_groups": 214,
+  "possible_duplicate_groups": 215,
   "conflict_count": 17,
-  "citations": 2298,
-  "unique_source_documents": 1018
+  "citations": 2312,
+  "unique_source_documents": 1027
 }

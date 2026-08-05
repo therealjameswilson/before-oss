@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,683 people with a non-planned attempt | 23,941 person entities | 7.0298% |
-| Verified-affiliation coverage | 280 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1695% |
+| Research-attempt coverage | 1,693 people with a non-planned attempt | 23,941 person entities | 7.0716% |
+| Verified-affiliation coverage | 282 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1779% |
 | Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,632 people with an individual file-access/priority assessment | 23,941 person entities | 6.8168% |
+| Archival-review coverage | 1,642 people with an individual file-access/priority assessment | 23,941 person entities | 6.8585% |
 
 ## Extraction and identity
 
@@ -18,21 +18,21 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 - Source rows: 23,978
 - Cautious person entities: 23,941
 - Linked source rows: 23,978
-- Possible duplicate groups: 214
+- Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 171
-- Identity status `high_confidence`: 360
+- Identity status `confirmed`: 173
+- Identity status `high_confidence`: 362
 - Identity status `probable`: 57
-- Identity status `ambiguous`: 27
+- Identity status `ambiguous`: 28
 - Identity status `conflicting`: 16
-- Identity status `unresolved`: 23,310
+- Identity status `unresolved`: 23,305
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,490
-- Enlisted Army personnel: 3,519
-- Commissioned Army officers: 2,069
+- Unknown or indeterminate: 16,488
+- Enlisted Army personnel: 3,520
+- Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -43,26 +43,26 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 1
 
-Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
+Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,258
+- `not_started`: 22,248
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 152
-- `requires_archival_review`: 1,186
-- `completed`: 59
+- `occupation_only_found`: 154
+- `requires_archival_review`: 1,193
+- `completed`: 60
 - `conflicting_sources`: 16
 - `verified_employer_found`: 160
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 205
-- Live Library of Congress attempts: 426
+- Live CIA exact-name OSS attempts: 215
+- Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Reviewed-official-web attempts recorded: 32
 - Reviewed-institutional-web attempts recorded: 4
@@ -81,7 +81,7 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 - Reviewed-official-institutional-directory-and-web attempts recorded: 2
 - Reviewed-official-institutional-newspaper-and-web attempts recorded: 16
 - Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 116
-- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 43
+- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 53
 - Reviewed-official-bulk-institutional-newspaper-directory-and-web attempts recorded: 9
 - Reviewed-official-institutional-French-language-newspaper-and-web attempts recorded: 2
 - Reviewed-official-institutional-scholarly-French-language-and-web attempts recorded: 1
@@ -90,12 +90,12 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 618 across 597 people; 70 additional
+- Saved `source_reviewed` outcomes: 626 across 605 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,871
+- Total recorded attempts/plans: 2,908
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 582; 562 have at least one public-eligible
+- People with saved reviewed claims: 587; 566 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2170,13 +2170,29 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
   Release `d16158f` passed GitHub test workflow 31006375458 and Pages workflow
   31006375474. The clean runner passed all 606 browser/accessibility cases; the
   production audit matched all seventeen routes and all 65 manifest assets.
-- Public-visible affiliations: 670 (published, qualified, or conflict-visible)
-- Database claims: 1,337; public-visible claims: 1,309 (276 confirmed, 759 high,
-  251 medium, 23 conflicting); 25 low-confidence claims are withheld and three
+- Batch 189 covers Harry S. Bent through Raymond F. Beplat on page thirty-two.
+  Exact official Army matching confirms Efthemios J. Bentas and Williard W.
+  Benyon. Bentas's sources document Lowell High School student status followed
+  by Army Air Forces training immediately before his early-1945 OSS attachment;
+  no employer is inferred. Benyon's exact identifier resolves the index spelling
+  to Willard W. Beynon and supports only Signal Corps status at Army entry and
+  the broad Army-entry occupation “tool sharpeners and dressers.” His row and a
+  later Willard W. Beynon index row remain separate in a visible possible-
+  duplicate group. Joseph Benucci is a high-confidence Mission Aztec captain;
+  the evidence supports the qualified occupation “railroad worker” but names no
+  railroad employer. Raymond F. Beplat is a high-confidence match to the 388th
+  Bombardment Group navigator, while the assignment's sequence relative to OSS
+  service remains explicitly uncertain. Hale Benton remains ambiguous between
+  two generations, and five other records remain unresolved. All ten route to Box 50
+  review. No authenticated Catalog request, credential, raw API response, full
+  private identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 676 (published, qualified, or conflict-visible)
+- Database claims: 1,349; public-visible claims: 1,319 (278 confirmed, 764 high,
+  254 medium, 23 conflicting); 25 low-confidence claims are withheld and five
   rejected
-- Claim-source links: 2,828; private source records: 2,298; public source export:
-  1,302; unique source documents: 1,018
-- Canonical organizations: 340 private and 331 public
+- Claim-source links: 2,857; private source records: 2,312; public source export:
+  1,312; unique source documents: 1,027
+- Canonical organizations: 342 private and 333 public
 - Conflicting claims: 23 across 17 people
 - NARA pull-list rows: 23,818
 

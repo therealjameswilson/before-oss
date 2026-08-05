@@ -16659,3 +16659,112 @@ test("Batch 188 preserves uncertain identities and publishes only supported occu
   await expect(page.locator("main")).toContainText("no occupation has been assigned or guessed");
   await expect(page.locator("main")).not.toContainText("Machine shop");
 });
+
+test("Batch 189 preserves unusual index fields and publishes only supported Bent-to-Beplat pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["9332f185-fa5b-58f4-972a-83e332e58392", "Harry S Bent", "P-6", "Not printed"],
+    ["fc6db738-fe4b-5f7e-a99c-1425feff305e", "Roger A Bent", "Not printed", "Not printed"],
+    ["de4bfd25-43ad-5b76-b5fc-f6457d685c89", "Efthemios J Bentas", "Pvt", "masked"],
+    ["d15831f8-ac8c-52ef-a928-197c5afab9c5", "William C Bentham", "Capt", "masked"],
+    ["9ea19a23-b2a8-5c02-b49f-72de369e150b", "Peter Bentley", "Not printed", "Not printed"],
+    ["5c057f7b-2fbb-5140-af8c-c30a8fca311a", "Hale Benton", "Not printed", "Not printed"],
+    ["d697432d-83db-5b98-a8a4-3eddaf5e389f", "Joseph Benucci", "Not printed", "masked"],
+    ["19ee97bf-d0d7-5883-9823-b6dc28ca1101", "Andrew S Benvenuti", "SP X 3/c", "masked"],
+    ["65de2162-b86a-5304-93e3-7a92c72e7805", "Williard W Benyon", "Not printed", "masked"],
+    ["8187105f-1276-5979-ba23-39e03adb2bb0", "Raymond F Beplat", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 32");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("50");
+  }
+
+  await page.goto("./people/de4bfd25-43ad-5b76-b5fc-f6457d685c89/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army Air Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Military trainee before OSS headquarters attachment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Lowell High School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student; class of 1943",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/d697432d-83db-5b98-a8a4-3eddaf5e389f/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").first().locator("dd").first()).toHaveText(
+    "Benucci | Joseph | Capt",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Railroad worker",
+  );
+  await expect(page.locator("main")).toContainText("no railroad employer or exact dates");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/65de2162-b86a-5304-93e3-7a92c72e7805/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Willard W. Beynon");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Signal Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Tool sharpeners and dressers",
+  );
+  await expect(page.locator(".profile-aside")).toContainText("duplicate-deaab1a5f3ab");
+
+  await page.goto("./people/3550a935-2c5c-5967-a807-a0df401427c2/");
+  await expect(page.getByRole("heading", { name: "Willard W Beynon", exact: true })).toBeVisible();
+  await expect(page.locator(".profile-aside")).toContainText("duplicate-deaab1a5f3ab");
+  await expect(page.locator("main")).not.toContainText("Tool sharpeners and dressers");
+
+  await page.goto("./people/8187105f-1276-5979-ba23-39e03adb2bb0/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "388th Bombardment Group",
+  );
+  await expect(page.locator("main")).toContainText("temporal relation uncertain");
+
+  await page.goto("./people/5c057f7b-2fbb-5140-af8c-c30a8fca311a/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("younger Rome-born Hale Benton");
+  await expect(page.locator("main")).not.toContainText(
+    "Hale Benton, business manager at the American Academy in Rome",
+  );
+
+  for (const personId of [
+    "9332f185-fa5b-58f4-972a-83e332e58392",
+    "fc6db738-fe4b-5f7e-a99c-1425feff305e",
+    "d15831f8-ac8c-52ef-a928-197c5afab9c5",
+    "9ea19a23-b2a8-5c02-b49f-72de369e150b",
+    "19ee97bf-d0d7-5883-9823-b6dc28ca1101",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/19ee97bf-d0d7-5883-9823-b6dc28ca1101/");
+  await expect(page.locator("main")).toContainText("SP X 3/c");
+  await expect(page.locator("main")).toContainText("has not been silently expanded");
+});
