@@ -4886,3 +4886,19 @@ All 68 public artifacts passed the field-aware identifier audit. It compared
 aggregate substring coincidences, and found zero unexpected boundary matches.
 The public and built manifests match byte for byte; the manifest SHA-256 is
 `6f937ae2eec5f57811f781280f42e24f296363c69dbdafab70218c78f1428129`.
+
+## Batch 187 production verification
+
+Release `83bbc4e` passed GitHub test workflow
+[30964586217](https://github.com/therealjameswilson/before-oss/actions/runs/30964586217)
+and Pages workflow
+[30964585986](https://github.com/therealjameswilson/before-oss/actions/runs/30964585986).
+The clean runner passed 603 / 603 browser and accessibility cases and checked
+all 24,280 internal HTML pages.
+
+The production audit opened seven core routes and all ten Batch 187 person
+profiles. Every route returned HTTP 200 and matched the local HTML after plain
+and URL-encoded canonical-host normalization. The live manifest and all 65
+listed assets matched local bytes, sizes, and SHA-256 values; 68,575,591 bytes
+were verified with zero mismatches. The live manifest SHA-256 is
+`6f937ae2eec5f57811f781280f42e24f296363c69dbdafab70218c78f1428129`.

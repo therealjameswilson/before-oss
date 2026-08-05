@@ -5441,6 +5441,27 @@ archival-review assessment. The public projection contains 23,941 person
 profiles, 669 affiliations, 1,304 claims, 1,295 source records, and 331
 organizations. No authenticated NARA Catalog request was made.
 
+## Batch 187 production deployment
+
+GitHub Actions test workflow
+[30964586217](https://github.com/therealjameswilson/before-oss/actions/runs/30964586217)
+and GitHub Pages workflow
+[30964585986](https://github.com/therealjameswilson/before-oss/actions/runs/30964585986)
+completed successfully for release `83bbc4e`. The clean runner passed 62 / 62
+Python tests, built 24,280 pages, passed 603 / 603 browser and accessibility
+cases, resolved every internal link, reported zero dependency vulnerabilities,
+and rebuilt the official source before finding zero unexpected full private
+identifier matches across 24,350 audited artifacts.
+
+All seventeen audited production routes returned HTTP 200 and matched the
+local release after plain and URL-encoded canonical-host normalization: seven
+core routes and all ten Batch 187 profiles. The live manifest and all 65 listed
+assets matched the local bytes, sizes, and SHA-256 values. Those assets total
+68,575,591 bytes, and the manifest SHA-256 is
+`6f937ae2eec5f57811f781280f42e24f296363c69dbdafab70218c78f1428129`.
+The five downloads contain 23,941 personnel CSV rows, 23,941 personnel JSONL
+rows, 331 organizations, 669 affiliations, and 1,295 source records.
+
 ## Batch 137 local release QA
 
 Batch 137 continues the fully rendered and visually verified page-twenty-one

@@ -2147,6 +2147,9 @@ Commissioned classification: 2,173 yes; 5,069 no; 16,699 indeterminate.
   profiles are unresolved and all ten route to Boxes 49-50 review. No
   authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
+  Release `83bbc4e` passed GitHub test workflow 30964586217 and Pages workflow
+  30964585986. The clean runner passed all 603 browser/accessibility cases; the
+  production audit matched all seventeen routes and all 65 manifest assets.
 - Public-visible affiliations: 669 (published, qualified, or conflict-visible)
 - Database claims: 1,332; public-visible claims: 1,304 (274 confirmed, 758 high,
   249 medium, 23 conflicting); 25 low-confidence claims are withheld and three
