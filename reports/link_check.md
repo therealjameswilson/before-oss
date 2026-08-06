@@ -12,8 +12,27 @@ The build includes 23,940 person profiles, 342 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,938 unique external URLs for separate live
+The checker inventoried 48,939 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 194 local release check
+
+The complete 24,290-page internal-link pass includes direct routes for Thomas
+Berletic through Heloise A. Bernard on page 33 and Howard F. Bernard on page 34.
+The focused Batch 194 desktop, phone, and tablet regression passed 3 / 3. The
+68-test Python suite and 200-profile stratified integrity audit passed every
+check. The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,360 artifacts, rejected 994
+substring coincidences, and found zero unexpected boundary matches or
+aggregate false positives.
+
+All 65 public-manifest assets match their recorded sizes and SHA-256 values in
+both the public-source and built trees. The manifest SHA-256 is
+`d900d5d304f6e1067490797dfb010fb6a1e89a793065e87d58e7dfa77dde82e7`.
+Public downloads contain 23,940 active person rows, 342 organizations, 710
+affiliations, and 1,353 sources. Two consecutive production builds produced
+the identical static-tree digest
+`a3b1d67aad5fe2771d45b46bd597d43c8a1aff3b20854dabd2476913c4414904`.
 
 ## Batch 193 local release check
 

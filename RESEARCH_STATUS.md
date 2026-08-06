@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,731 people with a non-planned attempt | 23,940 active person entities | 7.2306% |
+| Research-attempt coverage | 1,741 people with a non-planned attempt | 23,940 active person entities | 7.2723% |
 | Verified-affiliation coverage | 288 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2030% |
 | Verified-employer coverage | 161 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6725% |
-| Archival-review coverage | 1,680 people with an individual file-access/priority assessment | 23,940 active person entities | 7.0175% |
+| Archival-review coverage | 1,690 people with an individual file-access/priority assessment | 23,940 active person entities | 7.0593% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 192
-- Identity status `high_confidence`: 364
+- Identity status `confirmed`: 195
+- Identity status `high_confidence`: 365
 - Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 16
-- Identity status `unresolved`: 23,282
+- Identity status `unresolved`: 23,278
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,485
-- Enlisted Army personnel: 3,521
+- Unknown or indeterminate: 16,484
+- Enlisted Army personnel: 3,522
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,174 yes; 5,072 no; 16,694 indeterminate.
+Commissioned classification: 2,174 yes; 5,073 no; 16,693 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,209
+- `not_started`: 22,199
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 40
-- `occupation_only_found`: 171
-- `requires_archival_review`: 1,209
+- `occupation_only_found`: 175
+- `requires_archival_review`: 1,215
 - `completed`: 60
 - `conflicting_sources`: 16
 - `verified_employer_found`: 162
@@ -67,12 +67,12 @@ Commissioned classification: 2,174 yes; 5,072 no; 16,694 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,507. The detailed adapter breakdown remains reproducible in
+  adapters: 1,517. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 651 across 627 people; 73 additional
+- Saved `source_reviewed` outcomes: 655 across 631 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,949
+- Total recorded attempts/plans: 2,959
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 610; 588 have at least one public-eligible
@@ -2235,12 +2235,30 @@ Commissioned classification: 2,174 yes; 5,072 no; 16,694 indeterminate.
   normalized display name without changing either raw source cell. No
   authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 705 (published, qualified, or conflict-visible)
-- Database claims: 1,403; public-visible claims: 1,372 (297 confirmed, 775 high,
-  277 medium, 23 conflicting); 25 low-confidence claims are withheld and six
+- Batch 194 covers Thomas Berletic through Heloise A. Bernard on page
+  thirty-three and Howard F. Bernard at the start of page thirty-four. Exact
+  official Army identifier matches confirm Jacob B. Berlin, Sidney Berlin,
+  Max L. Berman, and the Army record linked to Sam Berman. The first three
+  records support only broad repairman-or-mechanic, general-office-clerk, and
+  retail-manager occupation categories. Sam Berman is a high-confidence match
+  to the OSS cartoonist or caricaturist identified in two official CIA
+  histories: the exact Army record reports commercial artist, and a Smithsonian
+  archival item documents a caricaturist named Sam Berman in 1934. None of
+  these sources names a pre-OSS employer or proves an immediate predecessor
+  affiliation, so the site presents the occupations as qualified evidence and
+  retains the employer gap. Thomas Berletic, Theodore F. Berlinski, Dorothy D.
+  Berman, Jack C. Berman, Heloise A. Bernard, and Howard F. Bernard remain
+  unresolved and route to Box 52 review. Jack's officer identifier is absent
+  from the enlisted-focused Army file; that absence is not treated as
+  disproof. No authenticated Catalog request, credential, raw API response,
+  full private identifier, or unsupported employer claim was used or
+  published.
+- Public-visible affiliations: 710 (published, qualified, or conflict-visible)
+- Database claims: 1,412; public-visible claims: 1,381 (300 confirmed, 776 high,
+  282 medium, 23 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 2,991 total and 2,925 public-visible; private source
-  records: 2,349; public source export: 1,346; unique source documents: 1,051
+- Claim-source links: 3,018 total and 2,952 public-visible; private source
+  records: 2,356; public source export: 1,353; unique source documents: 1,055
 - Canonical organizations: 351 private and 342 public
 - Conflicting claims: 23 across 17 people
 - NARA pull-list rows: 23,816

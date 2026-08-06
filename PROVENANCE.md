@@ -2744,6 +2744,39 @@ were not committed. No authenticated Catalog request, credential, raw API
 response, full private identifier, copyrighted page, or unsupported employer
 claim was stored or published.
 
+## Page-thirty-three and thirty-four Berletic-through-Bernard pathways, Batch 194
+
+`research/evidence-page-thirty-three-thirty-four-berletic-through-howard-bernard-pathways_batch-194_2026-08-06.json`
+records ten contiguous people from Thomas Berletic through Howard F. Bernard.
+Pages 33 and 34 were rendered at 300 dpi and visually checked against every raw
+and normalized source field. The Army occupation-code pages were separately
+rendered and checked before the bundle was imported.
+
+The strict evidence bundle contains seven sources, five affiliations, nine
+claims, twenty-seven claim-source links, ten person updates, and ten durable
+research attempts. Exact private-identifier matches in the official Army bulk
+file confirm Jacob B. Berlin, Sidney Berlin, and Max L. Berman and link the Sam
+Berman index row to a commercial-artist Army record. The Berlin and Max Berman
+records support only broad repairman-or-mechanic, general-office-clerk, and
+retail-manager categories. They name no employer.
+
+Two official CIA histories independently identify an OSS cartoonist or
+caricaturist named Sam Berman. The exact Army commercial-artist occupation and
+a Smithsonian Archives of American Art item documenting Sam Berman among
+caricaturists in 1934 provide two additional compatible identifiers beyond the
+name. The resulting public identity is high-confidence, while the two prewar
+occupations remain medium-confidence and qualified. No client, publication,
+studio, or named employer is inferred, and neither occupation is promoted to
+the immediate pre-OSS affiliation.
+
+Thomas Berletic, Theodore F. Berlinski, Dorothy D. Berman, Jack C. Berman,
+Heloise A. Bernard, and Howard F. Bernard remain unresolved and route to Box 52
+archival review. Jack C. Berman's commissioned-officer identifier was absent
+from the enlisted-focused merged file, whose documented omissions prevent
+treating that absence as disproof. No authenticated Catalog request, credential,
+raw API response, full private identifier, copyrighted page, or unsupported
+employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -17115,3 +17115,79 @@ test("Batch 193 normalizes a repeated suffix, consolidates the reviewed Borin du
   await expect(page.locator("main")).toContainText("Louis Berin");
   await expect(page.locator("main")).toContainText("Boxes 51 and 69");
 });
+
+test("Batch 194 preserves Berletic through Bernard rows and separates occupations from employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["271abd33-496c-5e12-ade8-a6a2a9994687", "Thomas Berletic", "Not printed", "Not printed", "33"],
+    ["01b47e68-b9e5-5e24-86a6-f065fd0a6268", "Jacob B Berlin", "1st Sgt", "masked", "33"],
+    ["38960d47-28d1-50e4-b499-35ac2b5b2d7e", "Sidney Berlin", "Cpl", "masked", "33"],
+    ["b2ba2841-b75b-5e32-a908-3e8b6e304a22", "Theodore F Berlinski", "S/Sgt", "Not printed", "33"],
+    ["71b1725e-5905-56cd-813d-b42e616d6f34", "Dorothy D Berman", "Caf-4", "Not printed", "33"],
+    ["159b087c-2a39-5e79-88ff-64a0450c3407", "Jack C Berman", "1st Lt", "masked", "33"],
+    ["71c450f4-dd79-56dd-9c1e-203911a059c0", "Max L Berman", "T-4", "masked", "33"],
+    ["ec4deb25-85fc-5712-a245-9a4f9beec8f6", "Sam Berman", "Not printed", "masked", "33"],
+    ["3b436274-e648-5cbe-820e-d2e3193419b3", "Heloise A Bernard", "Caf-4", "Not printed", "33"],
+    ["64a139d4-c928-506d-9e4f-877ed39e7e44", "Howard F Bernard", "Caf-2", "Not printed", "34"],
+  ];
+
+  for (const [personId, displayName, rank, serial, sourcePage] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(`Page ${sourcePage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("52");
+  }
+
+  for (const [personId, occupation] of [
+    ["01b47e68-b9e5-5e24-86a6-f065fd0a6268", "Repairman or mechanic, not elsewhere classified"],
+    ["38960d47-28d1-50e4-b499-35ac2b5b2d7e", "General office clerk"],
+    ["71c450f4-dd79-56dd-9c1e-203911a059c0", "Retail manager"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ec4deb25-85fc-5712-a245-9a4f9beec8f6/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Commercial artist",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Caricaturist",
+  );
+  await expect(page.locator("main")).toContainText("1934");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "271abd33-496c-5e12-ade8-a6a2a9994687",
+    "b2ba2841-b75b-5e32-a908-3e8b6e304a22",
+    "71b1725e-5905-56cd-813d-b42e616d6f34",
+    "159b087c-2a39-5e79-88ff-64a0450c3407",
+    "3b436274-e648-5cbe-820e-d2e3193419b3",
+    "64a139d4-c928-506d-9e4f-877ed39e7e44",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/159b087c-2a39-5e79-88ff-64a0450c3407/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+});

@@ -4,16 +4,23 @@ Run: 2026-08-06 UTC
 
 ## Result
 
-**PASS.** The new Batch 193 regression passed 3 / 3 at desktop, phone, and
-tablet widths. The three directory cases affected by the active-entity count
-change also passed in the same focused rerun. The prior full local matrix had
-615 passes and only those three stale count expectations; all six corrected or
-new cases now pass. All 27 representative axe scans passed with no serious or
-critical violation. The complete 621-case matrix will run on the clean GitHub
-Actions runner.
+**PASS.** The new Batch 194 regression passed 3 / 3 at desktop, phone, and
+tablet widths. All 27 representative axe cases passed with no serious or
+critical violation. One phone Sources-page scan experienced a local timeout;
+the isolated rerun passed in 11.1 seconds and reported no violation. The
+complete 624-case matrix will run on the clean GitHub Actions runner.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 194 adds a focused direct-route regression for Thomas Berletic through
+Howard F. Bernard. It checks every indexed name, page, rank or civilian grade,
+Box 52 location, masked or explicitly unprinted identifier, research state,
+employer-gap wording, and archival-review route. It separately verifies the
+three confirmed Army occupation-only profiles; Sam Berman's high-confidence,
+qualified commercial-artist and 1934 caricaturist evidence; the absence of a
+named employer; and Jack C. Berman's commissioned-officer classification. The
+focused matrix passed 3 / 3.
 
 Batch 193 adds a focused direct-route regression for Justin Bergman Jr. through
 Chester F. Berkshire. It verifies the normalized single suffix, six qualified
