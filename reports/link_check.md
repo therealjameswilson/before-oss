@@ -4,16 +4,38 @@ Run: 2026-08-06 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,293 HTML files. Every relative
+**PASS.** The production build contains 24,294 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 345 organization profiles, and the
+The build includes 23,940 person profiles, 346 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,951 unique external URLs for separate live
+The checker inventoried 48,954 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 197 local release check
+
+The complete 24,294-page internal-link pass includes direct routes for Henry B.
+Berntsen through Clifford J. Berry on page 34 and the newly documented Bernuth
+Lembcke Company organization page. The focused desktop, phone, and tablet
+regression passed 3 / 3, the 69-test Python suite passed, and all 27
+representative axe scans reported no serious or critical violation.
+
+The regression verifies Charles M. Bernuth's last civilian employer and
+Army-cavalry-to-OSS sequence, Victor H. Berruti's direct OSS-survey evidence,
+two qualified Army-entry occupations, and six explicit unresolved archival-
+review profiles. No occupation-only evidence is converted into an employer.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,363 artifacts, rejected 994
+substring coincidences, and found zero unexpected boundary matches or aggregate
+false positives. All 65 public-manifest assets match their recorded sizes and
+SHA-256 values in both the public-source and built trees. The manifest SHA-256
+is `cf1bf4c7a85e8f58485497d4046a356f780ad6a8f0e5a8084d76b254e81b8538`.
+Two consecutive production builds produced the identical static-tree digest
+`0509979da38a520347dcbf5eb775e6ec716cf54d75c020fcbdeb3a53dee3db32`.
 
 ## Batch 196 local release check
 

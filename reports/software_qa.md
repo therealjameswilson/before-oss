@@ -5,21 +5,21 @@ Run: 2026-08-06 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,293 pages**
-- Internal link check: **24,293 HTML files passed**
-- Batch 196 browser regression: **3 / 3 passed** across desktop, phone, and
+- Static production build: **24,294 pages**
+- Internal link check: **24,294 HTML files passed**
+- Batch 197 browser regression: **3 / 3 passed** across desktop, phone, and
   tablet; dedicated axe cases: **27 / 27 passed** with no serious or critical
-  violation. The complete **630-case** matrix runs in release CI.
+  violation. The complete **633-case** matrix runs in release CI.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`7726888f084d8328a28706947e10260ad0921186c4c882809ff0cba595ccc2cc`)
-- Latest deterministic build (Batch 196): **byte-for-byte identical** across
+  (`0509979da38a520347dcbf5eb775e6ec716cf54d75c020fcbdeb3a53dee3db32`)
+- Latest deterministic build (Batch 197): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `0b1470d611d275ffca47ecb9b55eaac320666b95658544496f827ed1866642dd`
+  `cf1bf4c7a85e8f58485497d4046a356f780ad6a8f0e5a8084d76b254e81b8538`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -30,15 +30,15 @@ Run: 2026-08-06 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,370** public records representing **1,065** unique documents
-- Private citation records: **2,373**
-- Published, qualified, or conflict-visible affiliations: **721**
-- Published or conflict-visible claims: **1,401**
+- Reviewed public sources: **1,378** public records representing **1,070** unique documents
+- Private citation records: **2,381**
+- Published, qualified, or conflict-visible affiliations: **727**
+- Published or conflict-visible claims: **1,411**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; six
   additional low-confidence claims concerning three people are rejected
-- Verified-affiliation metric: **292** people with confirmed/high published
+- Verified-affiliation metric: **294** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **164** people with confirmed/high published
+- Verified-employer metric: **165** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -94,6 +94,47 @@ Run: 2026-08-06 UTC
 - Batch 186 production verification: **passed**; the focused three-viewport
   regression, **27 / 27** axe cases, and complete **600-case** browser matrix
   passed
+- Batch 197 local release checks: **passed**; the complete **633-case** browser
+  matrix runs in release CI
+
+## Batch 197 local release QA
+
+Batch 197 adds ten visually checked page-thirty-four source rows from Henry B.
+Berntsen through Clifford J. Berry. The strict evidence bundle imports eight
+sources, two organizations, six affiliations, ten claims, twenty-two claim-
+source links, ten person updates, and ten terminal research attempts. It
+publishes Charles M. Bernuth's high-confidence Bernuth Lembcke Company and Army
+cavalry pathways, Victor H. Berruti's confirmed Army pathway and printer
+occupation, and two qualified Army-entry occupation categories. Six unresolved
+profiles route to Boxes 52 or 53 for archival review.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 69 / 69, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,294 pages. The internal-link checker passed all 24,294 HTML files and
+inventoried 48,954 unique external URLs. The focused Batch 197 regression
+passed 3 / 3 across desktop, phone, and tablet, and the representative axe
+matrix passed 27 / 27. The production dependency audit found zero
+vulnerabilities.
+
+Consecutive final builds produced identical public-data and complete-site tree
+digests, `ec5891a2eac8ea1cc0c58bb5e8b0b2355d83c80e85ecf026050690b828f7d926`
+and `0509979da38a520347dcbf5eb775e6ec716cf54d75c020fcbdeb3a53dee3db32`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values in the public
+source and built trees; the manifest SHA-256 is
+`cf1bf4c7a85e8f58485497d4046a356f780ad6a8f0e5a8084d76b254e81b8538`.
+The boundary-aware identifier audit found zero unexpected boundary matches or
+aggregate false positives across 24,363 artifacts after reviewing 994
+candidate substrings. No authenticated NARA Catalog API request was made.
+
+The Batch 197 database contains 2,989 durable research attempts, 2,381 private
+citation records, 735 affiliations, 355 organizations, and 1,442 claims: 311
+confirmed, 787 high, 289 medium, 31 low, and 24 conflicting. The public
+projection contains 1,378 sources representing 1,070 unique documents, 727
+affiliations, and 1,411 claims. Coverage distinguishes 1,771 people with a non-
+planned research attempt, 294 with verified-affiliation evidence, 165 with
+verified employment or self-employment evidence, and 1,720 whose archival-
+review need has been assessed.
 
 GitHub emitted a non-blocking annotation that several official actions still
 target Node.js 20 internally and were forced onto Node.js 24 by the runner. It

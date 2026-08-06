@@ -17353,3 +17353,104 @@ test("Batch 196 preserves Bernstein rows and separates occupations, institutions
     );
   }
 });
+
+test("Batch 197 preserves Berntsen through Berry rows and publishes only supported pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["87198713-5a00-5b8a-b505-35b75a7ab6a8", "Henry B Berntsen", "Not printed", "masked", "52"],
+    ["9ac095af-2b91-5d78-bc08-083ca8284a6a", "Stanley E Berntsen", "Cpl", "Not printed", "52"],
+    ["b8ce2393-50a8-5247-9da7-8e8c88950c30", "Charles M Bernuth", "Capt", "masked", "52"],
+    ["e9dbf432-cced-503f-85cd-7ab993ffa2ff", "Anthony E Berra", "Pvt", "masked", "53"],
+    ["bf5d9859-fd20-5e0e-ae3e-985a1096517f", "Malcolm E Berrett", "RM 1/c T", "masked", "53"],
+    ["efbb671e-06f8-5aa8-a7ad-05dbb210c940", "Walter J Berridge", "Not printed", "Not printed", "53"],
+    ["743f0759-2b82-58ea-8ec9-a9cb99f9aa72", "Victor H Berruti", "Not printed", "masked", "53"],
+    ["1e432d77-0924-563d-80e3-3a249f60e3c1", "Alfoster Berry", "CPC-3", "Not printed", "53"],
+    ["96741092-3cc0-5900-9851-8f02f10e0795", "Carolyn Berry", "Caf-5", "Not printed", "53"],
+    ["1ac00e38-6e39-5b06-9362-dd19d15777eb", "Clifford J Berry", "T/Sgt", "masked", "53"],
+  ];
+
+  for (const [personId, displayName, rank, serial, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 34");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  await page.goto("./people/b8ce2393-50a8-5247-9da7-8e8c88950c30/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Cavalry officer",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Bernuth Lembcke Company",
+  );
+  await expect(page.locator("main")).toContainText("Charles M. von Bernuth");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+  await expect(
+    page.getByRole("link", { name: "Headquarters Seventh Army General Orders Number 295", exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Charles von Bernuth Obituary", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/743f0759-2b82-58ea-8ec9-a9cb99f9aa72/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Printer",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "Office of Strategic Services Board Proceedings at OSS Headquarters, Caserta",
+      exact: true,
+    }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText("Personnel file digitized", { exact: true }).locator(".."),
+  ).toContainText("No");
+
+  for (const [personId, expectedOccupation] of [
+    ["e9dbf432-cced-503f-85cd-7ab993ffa2ff", "Manager or official, not elsewhere classified"],
+    ["1ac00e38-6e39-5b06-9362-dd19d15777eb", "Mechanic or repairman, not elsewhere classified"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(expectedOccupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "87198713-5a00-5b8a-b505-35b75a7ab6a8",
+    "9ac095af-2b91-5d78-bc08-083ca8284a6a",
+    "bf5d9859-fd20-5e0e-ae3e-985a1096517f",
+    "efbb671e-06f8-5aa8-a7ad-05dbb210c940",
+    "1e432d77-0924-563d-80e3-3a249f60e3c1",
+    "96741092-3cc0-5900-9851-8f02f10e0795",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,761 people with a non-planned attempt | 23,940 active person entities | 7.3559% |
-| Verified-affiliation coverage | 292 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2197% |
-| Verified-employer coverage | 164 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6850% |
-| Archival-review coverage | 1,710 people with an individual file-access/priority assessment | 23,940 active person entities | 7.1429% |
+| Research-attempt coverage | 1,771 people with a non-planned attempt | 23,940 active person entities | 7.3977% |
+| Verified-affiliation coverage | 294 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2281% |
+| Verified-employer coverage | 165 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6892% |
+| Archival-review coverage | 1,720 people with an individual file-access/priority assessment | 23,940 active person entities | 7.1846% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 200
+- Identity status `confirmed`: 204
 - Identity status `high_confidence`: 368
 - Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 17
-- Identity status `unresolved`: 23,269
+- Identity status `unresolved`: 23,265
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,484
-- Enlisted Army personnel: 3,522
+- Unknown or indeterminate: 16,483
+- Enlisted Army personnel: 3,523
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,21 +45,21 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,174 yes; 5,073 no; 16,693 indeterminate.
+Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,179
+- `not_started`: 22,169
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 42
-- `occupation_only_found`: 179
-- `requires_archival_review`: 1,226
+- `occupation_only_found`: 182
+- `requires_archival_review`: 1,232
 - `completed`: 61
 - `conflicting_sources`: 17
-- `verified_employer_found`: 163
+- `verified_employer_found`: 164
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -72,7 +72,7 @@ Commissioned classification: 2,174 yes; 5,073 no; 16,693 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 664 across 640 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,979
+- Total recorded attempts/plans: 2,989
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 623; 601 have at least one public-eligible
@@ -2290,15 +2290,30 @@ Commissioned classification: 2,174 yes; 5,073 no; 16,693 indeterminate.
   unresolved and route to Box 52 review. No authenticated Catalog request,
   credential, raw API response, full private identifier, or unsupported
   employer claim was used or published.
-- Public-visible affiliations: 721 (published, qualified, or conflict-visible)
-- Database claims: 1,432; public-visible claims: 1,401 (305 confirmed, 785 high,
-  287 medium, 24 conflicting); 25 low-confidence claims are withheld and six
+- Batch 197 covers the next ten contiguous rows on page thirty-four, Henry B.
+  Berntsen through Clifford J. Berry. The printed ranks, civilian grades,
+  boxes, and masked identifiers were checked against a 300-dpi rendering.
+  Contemporary Seventh Army orders and an institutional obituary confirm
+  Charles M. Bernuth as an OSS captain, identify his prewar work at Bernuth
+  Lembcke Company, and place him in the Army cavalry immediately before OSS
+  recruitment. A direct OSS document at Hoover confirms Victor H. Berruti's
+  Army-to-OSS pathway and his civilian occupation as printer, but names no
+  employer. Exact official Army identifier matches confirm Anthony E. Berra
+  and Clifford J. Berry and support only grouped occupation categories; no
+  employer is inferred. Henry B. Berntsen, Stanley E. Berntsen, Malcolm E.
+  Berrett, Walter J. Berridge, Alfoster Berry, and Carolyn Berry remain
+  unresolved and route to Box 52 or 53 review. No authenticated Catalog
+  request, credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
+- Public-visible affiliations: 727 (published, qualified, or conflict-visible)
+- Database claims: 1,442; public-visible claims: 1,411 (311 confirmed, 787 high,
+  289 medium, 24 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,067 total and 3,001 public-visible; private source
-  records: 2,373; public source export: 1,370; unique source documents: 1,065
-- Canonical organizations: 354 private and 345 public
+- Claim-source links: 3,089 total and 3,023 public-visible; private source
+  records: 2,381; public source export: 1,378; unique source documents: 1,070
+- Canonical organizations: 355 private and 346 public
 - Conflicting claims: 24 across 17 people
-- NARA pull-list rows: 23,815
+- NARA pull-list rows: 23,814
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

@@ -2872,6 +2872,46 @@ occupation tables were used transiently and were not committed. No authenticated
 Catalog request, credential, raw API response, full private identifier,
 copyrighted page, or unsupported employer claim was stored or published.
 
+## Page-thirty-four Berntsen-through-Berry pathways, Batch 197
+
+`research/evidence-page-thirty-four-berntsen-through-clifford-berry-pathways_batch-197_2026-08-06.json`
+records ten contiguous people from Henry B. Berntsen through Clifford J.
+Berry. Page 34 was rendered at 300 dpi and visually checked against every raw
+and normalized source field. The official Army occupation-code pages and the
+relevant page of the Seventh Army general orders were separately rendered and
+checked before import.
+
+The strict evidence bundle contains eight sources, two organization records,
+six affiliations, ten claims, twenty-two claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier matches
+in the official Army merged file confirm Anthony E. Berra and Clifford J.
+Berry. Their entry records support only the grouped occupations managers and
+officials not elsewhere classified, and mechanics and repairmen not elsewhere
+classified; neither record names an employer.
+
+Seventh Army General Orders No. 295 identifies Charles M. Bernuth by exact name
+and officer identifier as an OSS captain awarded the Silver Star. A New York
+Times family-paid obituary independently reports that he joined Bernuth Lembcke
+Company, served as a cavalry officer at Fort Riley during World War II, and was
+then recruited into OSS. The company is therefore modeled as his high-
+confidence last civilian employer, and the Army cavalry assignment as his
+high-confidence immediate pre-OSS affiliation.
+
+A direct 4 May 1944 OSS survey preserved by the Hoover Institution identifies
+Victor H. Berruti by exact name and private identifier, states that he entered
+the Army in May 1943 and was recruited for OSS, and records that he had been a
+printer in civilian life. The Army is modeled as his confirmed immediate
+pre-OSS affiliation and printer as a confirmed occupation; no named civilian
+employer is invented. Henry B. Berntsen, Stanley E. Berntsen, Malcolm E.
+Berrett, Walter J. Berridge, Alfoster Berry, and Carolyn Berry remain unresolved
+after the online protocol and route to Box 52 or 53 archival review.
+
+The official Army bulk file, occupation tables, Seventh Army orders, and OSS
+survey were used transiently for verification and were not committed. No
+authenticated Catalog request, credential, raw API response, full private
+identifier, copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
