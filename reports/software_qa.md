@@ -25,7 +25,7 @@ Run: 2026-08-06 UTC
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,363** production artifacts, including compressed mirrors.
+  matches** in **24,364** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
@@ -124,7 +124,7 @@ All 65 manifest assets have valid paths, sizes, and SHA-256 values in the public
 source and built trees; the manifest SHA-256 is
 `cf1bf4c7a85e8f58485497d4046a356f780ad6a8f0e5a8084d76b254e81b8538`.
 The boundary-aware identifier audit found zero unexpected boundary matches or
-aggregate false positives across 24,363 artifacts after reviewing 994
+aggregate false positives across 24,364 artifacts after reviewing 994
 candidate substrings. No authenticated NARA Catalog API request was made.
 
 The Batch 197 database contains 2,989 durable research attempts, 2,381 private

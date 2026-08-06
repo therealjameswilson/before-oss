@@ -29,7 +29,7 @@ two qualified Army-entry occupations, and six explicit unresolved archival-
 review profiles. No occupation-only evidence is converted into an employer.
 
 The boundary-aware identifier audit checked 12,926 normalized private
-identifiers and 121 formatted variants across 24,363 artifacts, rejected 994
+identifiers and 121 formatted variants across 24,364 artifacts, rejected 994
 substring coincidences, and found zero unexpected boundary matches or aggregate
 false positives. All 65 public-manifest assets match their recorded sizes and
 SHA-256 values in both the public-source and built trees. The manifest SHA-256
