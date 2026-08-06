@@ -47,7 +47,7 @@ plus a replayable row-specific visual-review decision. Page 117 contains two
 independently reviewed military-grade corrections; the importer therefore
 validates unique page-row coordinates rather than assuming one correction per
 page. Eight additional rows contain all-numeric values visibly printed in the
-rank column. Parser version `bbox-columns-v6` preserves those raw cells, emits
+rank column. Parser version `bbox-columns-v7` preserves those raw cells, emits
 `serial_number_printed_in_rank_column`, and normalizes the value as a probable
 serial identifier while leaving rank unknown. The public projection masks both
 the identifier and the anomalous rank-cell display. The complete coordinates
@@ -56,6 +56,10 @@ and expected raw values are retained in
 first names, initials, suffixes, apostrophes, hyphens, foreign notes, civilian
 grades, military ranks, numeric rank-column anomalies, multiple column shifts
 on one page, and unfamiliar values.
+
+Version `bbox-columns-v7` also recognizes an identical suffix printed in more
+than one name column. It emits one normalized suffix while preserving every raw
+cell and recording the duplicate-suffix normalization note.
 
 ## Rows and entities
 
@@ -68,6 +72,14 @@ Same service numbers attached to different names are retained as possible
 duplicate or conflict groups. Common-name research requires at least two
 corroborating identifiers beyond the name. Manual decisions are append-only and
 imported from CSV.
+
+When direct evidence establishes that two differently printed rows represent
+one person, a versioned `person_entity` review decision names the canonical
+entity and records the rationale. Both source rows and the superseded entity
+remain stored for audit; row links, claims, and attempts move to the canonical
+entity. Public profiles and coverage denominators count only active entities.
+The private `entity_supersessions.csv` export makes every such decision
+inspectable and reproducible.
 
 Identity states are `confirmed`, `high_confidence`, `probable`, `ambiguous`,
 `conflicting`, and `unresolved`. Default employer analytics admit only confirmed

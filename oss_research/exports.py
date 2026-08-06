@@ -53,6 +53,21 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
         ],
         people,
     )
+    supersessions = _query_dicts(
+        connection,
+        """
+        SELECT * FROM entity_supersessions
+        ORDER BY canonical_person_id, superseded_person_id
+        """,
+    )
+    _write_csv(
+        DERIVED_DIR / "entity_supersessions.csv",
+        list(supersessions[0]) if supersessions else [
+            "superseded_person_id", "canonical_person_id", "decision_id",
+            "reason", "created_at"
+        ],
+        supersessions,
+    )
     organizations = _query_dicts(
         connection,
         "SELECT * FROM organizations ORDER BY canonical_name, organization_id",
@@ -96,13 +111,18 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
                research_status, next_action, archival_review_priority,
                archive_box, archive_location
         FROM person_entities
-        WHERE identity_status IN ('ambiguous', 'conflicting', 'unresolved')
-           OR research_status IN (
+        WHERE person_id NOT IN (
+              SELECT superseded_person_id FROM entity_supersessions
+          )
+          AND (
+            identity_status IN ('ambiguous', 'conflicting', 'unresolved')
+            OR research_status IN (
                'not_started', 'in_progress', 'needs_identity_review',
                'needs_temporal_review', 'conflicting_sources',
                'no_reliable_result_after_protocol', 'blocked_by_source_access',
                'requires_archival_review'
-           )
+            )
+          )
         ORDER BY normalized_name, person_id
         """,
     )
@@ -186,6 +206,8 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
     return {
         "source_rows": len(source_rows),
         "person_entities": len(people),
+        "active_person_entities": len(people) - len(supersessions),
+        "superseded_person_entities": len(supersessions),
         "organizations": len(organizations),
         "affiliations": len(affiliations),
         "sources": len(sources),
@@ -199,40 +221,71 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
 def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
     scalar = lambda sql: connection.execute(sql).fetchone()[0]
     source_rows = scalar("SELECT COUNT(*) FROM source_records")
-    people = scalar("SELECT COUNT(*) FROM person_entities")
+    stored_people = scalar("SELECT COUNT(*) FROM person_entities")
+    superseded_people = scalar("SELECT COUNT(*) FROM entity_supersessions")
+    people = scalar(
+        """
+        SELECT COUNT(*) FROM person_entities pe
+        WHERE NOT EXISTS (
+            SELECT 1 FROM entity_supersessions es
+            WHERE es.superseded_person_id = pe.person_id
+        )
+        """
+    )
     linked_rows = scalar(
         "SELECT COUNT(DISTINCT source_record_id) FROM person_source_links"
     )
     attempted_people = scalar(
         """
-        SELECT COUNT(DISTINCT person_id)
-        FROM research_attempts
-        WHERE outcome NOT IN ('planned', 'skipped_budget')
+        SELECT COUNT(DISTINCT ra.person_id)
+        FROM research_attempts ra
+        JOIN person_entities pe ON pe.person_id = ra.person_id
+        WHERE ra.outcome NOT IN ('planned', 'skipped_budget')
+          AND NOT EXISTS (
+              SELECT 1 FROM entity_supersessions es
+              WHERE es.superseded_person_id = pe.person_id
+          )
         """
     )
     verified_affiliation_people = scalar(
         """
-        SELECT COUNT(DISTINCT person_id)
-        FROM affiliations
-        WHERE publication_status IN ('published', 'publish_qualified')
-          AND claim_confidence IN ('confirmed', 'high')
+        SELECT COUNT(DISTINCT a.person_id)
+        FROM affiliations a
+        JOIN person_entities pe ON pe.person_id = a.person_id
+        WHERE a.publication_status IN ('published', 'publish_qualified')
+          AND a.claim_confidence IN ('confirmed', 'high')
+          AND NOT EXISTS (
+              SELECT 1 FROM entity_supersessions es
+              WHERE es.superseded_person_id = pe.person_id
+          )
         """
     )
     verified_employer_people = scalar(
         """
-        SELECT COUNT(DISTINCT person_id)
-        FROM affiliations
-        WHERE publication_status IN ('published', 'publish_qualified')
-          AND claim_confidence IN ('confirmed', 'high')
-          AND relationship_type IN ('employment', 'self_employment')
+        SELECT COUNT(DISTINCT a.person_id)
+        FROM affiliations a
+        JOIN person_entities pe ON pe.person_id = a.person_id
+        WHERE a.publication_status IN ('published', 'publish_qualified')
+          AND a.claim_confidence IN ('confirmed', 'high')
+          AND a.relationship_type IN ('employment', 'self_employment')
+          AND NOT EXISTS (
+              SELECT 1 FROM entity_supersessions es
+              WHERE es.superseded_person_id = pe.person_id
+          )
         """
     )
     archival_assessed = scalar(
         """
-        SELECT COUNT(*) FROM person_entities
-        WHERE archival_review_priority <> 'unassessed'
-           OR personnel_file_digitized IS NOT NULL
-           OR personnel_file_reviewed = 1
+        SELECT COUNT(*) FROM person_entities pe
+        WHERE (
+              pe.archival_review_priority <> 'unassessed'
+              OR pe.personnel_file_digitized IS NOT NULL
+              OR pe.personnel_file_reviewed = 1
+          )
+          AND NOT EXISTS (
+              SELECT 1 FROM entity_supersessions es
+              WHERE es.superseded_person_id = pe.person_id
+          )
         """
     )
     status_counts = {
@@ -240,7 +293,11 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         for row in connection.execute(
             """
             SELECT research_status, COUNT(*) AS count
-            FROM person_entities
+            FROM person_entities pe
+            WHERE NOT EXISTS (
+                SELECT 1 FROM entity_supersessions es
+                WHERE es.superseded_person_id = pe.person_id
+            )
             GROUP BY research_status
             ORDER BY research_status
             """
@@ -251,7 +308,12 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         for row in connection.execute(
             """
             SELECT claim_confidence, COUNT(*) AS count
-            FROM claims
+            FROM claims c
+            JOIN person_entities pe ON pe.person_id = c.person_id
+            WHERE NOT EXISTS (
+                SELECT 1 FROM entity_supersessions es
+                WHERE es.superseded_person_id = pe.person_id
+            )
             GROUP BY claim_confidence
             ORDER BY claim_confidence
             """
@@ -262,7 +324,11 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         for row in connection.execute(
             """
             SELECT personnel_category, COUNT(*) AS count
-            FROM person_entities
+            FROM person_entities pe
+            WHERE NOT EXISTS (
+                SELECT 1 FROM entity_supersessions es
+                WHERE es.superseded_person_id = pe.person_id
+            )
             GROUP BY personnel_category
             ORDER BY personnel_category
             """
@@ -279,6 +345,8 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         },
         "research_attempt_coverage": {
             "person_entities": people,
+            "stored_person_entities": stored_people,
+            "superseded_person_entities": superseded_people,
             "people_with_nonplanned_attempts": attempted_people,
             "percent": round(100 * attempted_people / people, 4) if people else 0,
         },
@@ -309,15 +377,25 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         "possible_duplicate_groups": scalar(
             """
             SELECT COUNT(DISTINCT possible_duplicate_group)
-            FROM person_entities
-            WHERE possible_duplicate_group IS NOT NULL
+            FROM person_entities pe
+            WHERE pe.possible_duplicate_group IS NOT NULL
+              AND NOT EXISTS (
+                  SELECT 1 FROM entity_supersessions es
+                  WHERE es.superseded_person_id = pe.person_id
+              )
             """
         ),
         "conflict_count": scalar(
             """
-            SELECT COUNT(*) FROM person_entities
-            WHERE identity_status = 'conflicting'
-               OR research_status = 'conflicting_sources'
+            SELECT COUNT(*) FROM person_entities pe
+            WHERE (
+                  pe.identity_status = 'conflicting'
+                  OR pe.research_status = 'conflicting_sources'
+              )
+              AND NOT EXISTS (
+                  SELECT 1 FROM entity_supersessions es
+                  WHERE es.superseded_person_id = pe.person_id
+              )
             """
         ),
         "citations": scalar("SELECT COUNT(*) FROM sources"),
@@ -377,7 +455,11 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         for row in connection.execute(
             """
             SELECT identity_status, COUNT(*) AS count
-            FROM person_entities
+            FROM person_entities pe
+            WHERE NOT EXISTS (
+                SELECT 1 FROM entity_supersessions es
+                WHERE es.superseded_person_id = pe.person_id
+            )
             GROUP BY identity_status
             ORDER BY identity_status
             """
@@ -398,6 +480,8 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         "generated_at": report["generated_at"],
         "source_rows": source_rows,
         "person_entities": people,
+        "stored_person_entities": stored_people,
+        "superseded_person_entities": superseded_people,
         "source_rows_linked": linked_rows,
         "identity_status_counts": identity_status_counts,
         "link_status_counts": link_status_counts,
@@ -406,19 +490,34 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
             SELECT COUNT(*) FROM person_entities
             WHERE identity_status = 'high_confidence'
               AND identity_evidence LIKE 'Automatically linked%'
+              AND person_id NOT IN (
+                  SELECT superseded_person_id FROM entity_supersessions
+              )
             """
         ),
         "possible_duplicate_groups": report["possible_duplicate_groups"],
         "same_service_number_different_name_groups": scalar(
             """
             SELECT COUNT(DISTINCT candidate_label)
-            FROM candidate_matches
-            WHERE candidate_type = 'duplicate_person'
-              AND candidate_label LIKE 'serial-conflict:%'
+            FROM candidate_matches cm
+            WHERE cm.candidate_type = 'duplicate_person'
+              AND cm.candidate_label LIKE 'serial-conflict:%'
+              AND cm.match_assessment IN (
+                  'unreviewed', 'plausible', 'probable', 'conflicting'
+              )
+              AND cm.person_id NOT IN (
+                  SELECT superseded_person_id FROM entity_supersessions
+              )
             """
         ),
         "entities_requiring_manual_review": scalar(
-            "SELECT COUNT(*) FROM person_entities WHERE manual_review_required = 1"
+            """
+            SELECT COUNT(*) FROM person_entities
+            WHERE manual_review_required = 1
+              AND person_id NOT IN (
+                  SELECT superseded_person_id FROM entity_supersessions
+              )
+            """
         ),
         "checks": {
             "all_source_rows_linked": linked_rows == source_rows,
@@ -429,6 +528,9 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
                   AND identity_evidence LIKE 'Automatically linked%'
                   AND identity_evidence NOT LIKE
                       '%same non-empty service number%'
+                  AND person_id NOT IN (
+                      SELECT superseded_person_id FROM entity_supersessions
+                  )
                 """
             )
             == 0,
@@ -437,6 +539,9 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
                 SELECT COUNT(*) FROM person_entities
                 WHERE possible_duplicate_group IS NOT NULL
                   AND manual_review_required <> 1
+                  AND person_id NOT IN (
+                      SELECT superseded_person_id FROM entity_supersessions
+                  )
                 """
             )
             == 0,
@@ -453,6 +558,8 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         "",
         f"- Source rows: **{source_rows:,}**.",
         f"- Cautious person entities: **{people:,}**.",
+        f"- Superseded person entities retained for audit: "
+        f"**{superseded_people:,}** of **{stored_people:,}** stored rows.",
         f"- Source rows linked: **{linked_rows:,}**.",
         f"- Narrow automatic same-name/same-service-number groups: "
         f"**{entity_audit['automatic_same_name_same_service_number_groups']:,}**.",

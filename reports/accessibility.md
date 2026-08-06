@@ -4,13 +4,24 @@ Run: 2026-08-06 UTC
 
 ## Result
 
-**PASS.** The new Batch 192 regression passed 3 / 3 at desktop, phone, and
-tablet widths. All 27 representative axe scans passed in one run with no
-serious accessibility violation. The complete release matrix will run again on
-the clean GitHub Actions runner.
+**PASS.** The new Batch 193 regression passed 3 / 3 at desktop, phone, and
+tablet widths. The three directory cases affected by the active-entity count
+change also passed in the same focused rerun. The prior full local matrix had
+615 passes and only those three stale count expectations; all six corrected or
+new cases now pass. All 27 representative axe scans passed with no serious or
+critical violation. The complete 621-case matrix will run on the clean GitHub
+Actions runner.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 193 adds a focused direct-route regression for Justin Bergman Jr. through
+Chester F. Berkshire. It verifies the normalized single suffix, six qualified
+occupation-only findings, four explicit unresolved archival-review profiles,
+and the reviewed Louis Berin/Borin consolidation. The canonical Louis profile
+must expose both immutable index rows and both masked identifier endings, while
+the superseded entity must not appear as a second public person. The focused
+matrix passed 3 / 3; the associated directory-count matrix also passed 3 / 3.
 
 Batch 192 adds a focused direct-route regression for Cecile M. Berger through
 Edward F. Bergin. It checks every page-33 source row, printed rank or grade,
@@ -101,7 +112,7 @@ remains.
 Routes tested at all three sizes:
 
 - home;
-- personnel directory after its 23,941-row search index loaded;
+- personnel directory after its 23,940-row active-person search index loaded;
 - a direct person profile;
 - organizations;
 - the Norwegian Army organization profile with linked-person and citation

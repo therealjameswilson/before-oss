@@ -15,18 +15,20 @@ is not complete, and the site reports that limitation explicitly.
 
 - 522 PDF pages processed and visually audited under the documented sampling rule
 - 23,978 immutable source rows
-- 23,941 cautious person entities
+- 23,941 stored person rows and 23,940 active person entities; one reviewed
+  duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 215 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 1,721
-  people with saved non-planned research outcomes, and 2,938 durable research
+- 214 possible duplicate groups, including 36 narrow automatic consolidations
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 1,731
+  people with saved non-planned research outcomes, and 2,949 durable research
   attempts or plans
 - 288 verified-affiliation profiles, including 161 with verified employment or
-  self-employment, and 1,670 individually assessed archival files
-- 699 public-visible affiliations, 1,360 public-visible claims, 2,961 citation
-  links, 1,342 public source records, and 1,049 unique source documents; 25
-  low-confidence claims remain withheld and 6 rejected candidates remain private
-- 22,220 people remain `not_started`; the public site reports this
+  self-employment, and 1,680 individually assessed archival files
+- 705 public-visible affiliations, 1,372 public-visible claims, 2,925 public
+  claim-source links, 1,346 public source records, and 1,051 unique source
+  documents; 25 low-confidence claims remain withheld and 6 rejected candidates
+  remain private
+- 22,209 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

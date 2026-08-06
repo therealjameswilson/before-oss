@@ -2650,7 +2650,7 @@ Jr. Page 33 was rendered at 300 dpi and visually checked. John W. Berg III's
 seven-digit value is visibly printed in the rank column rather than the serial
 column. A parser-wide audit located seven other all-numeric rank cells on pages
 162, 184, 275, 281, 292, 293, and 336; each was visually confirmed. Parser
-version `bbox-columns-v6` preserves every raw cell privately, normalizes the
+version `bbox-columns-v7` preserves every raw cell privately, normalizes the
 value as a probable identifier, leaves rank unknown, and masks the value in all
 public profiles, search data, and downloads. The replay ledger now contains 95
 reviewed pages and terminal decisions for all 31 warning rows.
@@ -2708,6 +2708,41 @@ The Army code-list pages and the newspaper page were visually inspected before
 publication. No authenticated Catalog request, credential, raw API response,
 full private identifier, copyrighted page, unsupported employer claim, or
 irrelevant personal detail was stored or published.
+
+## Page-thirty-three Bergman-through-Berkshire pathways and reviewed duplicate, Batch 193
+
+`research/evidence-page-thirty-three-justin-bergman-through-chester-berkshire-pathways_batch-193_2026-08-06.json`
+records ten contiguous page-33 people from Justin Bergman Jr. through Chester
+F. Berkshire. Page 33 and the cross-referenced Louis Borin row on page 45 were
+rendered at 300 dpi and visually checked. The same private identifier is visibly
+printed for the `BERIN, LOUIS` and `BORIN, LOUIS` rows, while the boxes differ.
+A human review decision therefore supersedes the Berin entity into the Borin
+entity without deleting either immutable source record. Both index spellings,
+pages, boxes, and archival locations remain visible on the canonical public
+profile; the superseded entity stays in the private audit database and is
+excluded from active-entity denominators.
+
+Parser version `bbox-columns-v7` also handles the identical `Jr.` text printed
+in two cells on Justin Bergman's row. It preserves both raw cells while emitting
+the normalized display name `Justin Bergman Jr.` once and recording the
+normalization note. A unit regression fixture protects that behavior.
+
+The strict evidence bundle contains four official sources, six affiliations,
+twelve claims, thirty claim-source links, ten person updates, and eleven durable
+research attempts, including an evidence-integrity checkpoint for Abram
+Bergson. Exact official Army identifier matches confirm Justin Bergman Jr.,
+Ralph F. Bergman, Anthony H. Bergson, Louis Borin, Meyer Beringer, and Chester
+F. Berkshire. The reviewed Army occupation codes support actor, radio operator,
+secretary, consumer salesman, general-industry clerk, and general-farmer
+categories. These are occupation findings, not named-employer evidence. Stanley
+Bergmann, Raymond E. Bergstrom, Mary S. Berkeley, and William H. Berkeley remain
+unresolved and route to archival review. Abram Bergson's existing University of
+Texas employment claim was carried forward without duplication.
+
+The official Army bulk file and its documentation were used transiently and
+were not committed. No authenticated Catalog request, credential, raw API
+response, full private identifier, copyrighted page, or unsupported employer
+claim was stored or published.
 
 ## Official reference material
 

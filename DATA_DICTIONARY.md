@@ -10,6 +10,7 @@ assets are generated projections.
 | `source_records` | One printed PDF row | Immutable source transcription plus separate normalized fields |
 | `person_entities` | One cautiously resolved person | Identity, personnel classification, research state, and archival state |
 | `person_source_links` | One entity-row link | Resolution assessment and evidence |
+| `entity_supersessions` | One reviewed entity consolidation | Superseded and canonical IDs, decision pointer, rationale, and timestamp |
 | `organizations` | One canonical historical organization | Names, aliases, sector, location, parent/successor relationships |
 | `affiliations` | One person-organization/status relationship | Role, occupation, dates, immediate/last-civilian flags, confidence |
 | `claims` | One historical assertion | Claim text, evidence summary, identity and temporal assessments |
@@ -59,7 +60,7 @@ and then replays later evidence bundles in numeric order.
 | `entity_resolution_status` | Link/review state independent of the person entity |
 
 When an all-numeric value is visibly printed in `rank_raw`, parser version
-`bbox-columns-v6` preserves that private raw value, leaves `rank_normalized`
+`bbox-columns-v7` preserves that private raw value, leaves `rank_normalized`
 unknown, and copies the value to `serial_number_normalized` for cautious
 identity resolution. Public profiles replace the raw rank-cell value with
 `Numeric identifier printed in rank column (masked)` and expose only the usual
@@ -100,6 +101,11 @@ location, and a masked serial suffix.
 `organizations_public.csv`, `affiliations_public.csv`, and
 `sources_public.csv` include only publication-qualified records. Headers remain
 present when there are zero rows so downstream consumers can validate schemas.
+
+`entity_supersessions.csv` is a private audit export. It records entity
+consolidations without removing either stored person row. Superseded entities
+are excluded from public profiles, search results, and coverage denominators;
+their immutable source rows appear on the canonical profile.
 
 The public build rejects forbidden field tokens including raw/full serial fields,
 raw row text, private research notes, error fields, and API-key markers.

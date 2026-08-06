@@ -118,6 +118,15 @@ def name_key(value: str) -> str:
     return NON_NAME_RE.sub(" ", folded.upper()).strip()
 
 
+def _canonical_suffix(value: str) -> str:
+    normalized = value.upper().replace(".", "")
+    if normalized == "JR":
+        return "Jr."
+    if normalized == "SR":
+        return "Sr."
+    return normalized
+
+
 def normalize_name(
     last_raw: str,
     first_raw: str | None,
@@ -127,6 +136,7 @@ def normalize_name(
     first = clean(first_raw)
     middle = clean(middle_raw)
     suffix: str | None = None
+    suffix_field: str | None = None
     notes: list[str] = []
 
     for field_name, field_value in (
@@ -136,11 +146,8 @@ def normalize_name(
     ):
         match = SUFFIX_RE.search(field_value)
         if match:
-            suffix = match.group(1).upper().replace(".", "")
-            if suffix == "JR":
-                suffix = "Jr."
-            elif suffix == "SR":
-                suffix = "Sr."
+            suffix = _canonical_suffix(match.group(1))
+            suffix_field = field_name
             if field_name == "last":
                 last = SUFFIX_RE.sub("", last).strip(" ,")
             elif field_name == "first":
@@ -149,6 +156,31 @@ def normalize_name(
                 middle = SUFFIX_RE.sub("", middle or "").strip(" ,") or None
             notes.append(f"Suffix parsed from {field_name}-name column.")
             break
+
+    # Some printed index rows repeat the same suffix in two columns. Preserve
+    # both raw cells in source_records, but do not repeat the suffix in the
+    # normalized display name.
+    if suffix is not None:
+        for field_name, field_value in (
+            ("last", last),
+            ("first", first or ""),
+            ("middle", middle or ""),
+        ):
+            if field_name == suffix_field:
+                continue
+            duplicate = SUFFIX_RE.fullmatch(field_value.strip(" ,"))
+            if duplicate is None or _canonical_suffix(duplicate.group(1)) != suffix:
+                continue
+            if field_name == "last":
+                last = ""
+            elif field_name == "first":
+                first = None
+            else:
+                middle = None
+            notes.append(
+                f"Duplicate {suffix} suffix printed in {field_name}-name column "
+                "was removed from normalized name only; raw cells remain unchanged."
+            )
 
     ordered = [part for part in (first, middle, last, suffix) if part]
     display = " ".join(ordered) if ordered else last_raw

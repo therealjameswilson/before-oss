@@ -7,31 +7,33 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,721 people with a non-planned attempt | 23,941 person entities | 7.1885% |
-| Verified-affiliation coverage | 288 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.2030% |
-| Verified-employer coverage | 161 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6725% |
-| Archival-review coverage | 1,670 people with an individual file-access/priority assessment | 23,941 person entities | 6.9755% |
+| Research-attempt coverage | 1,731 people with a non-planned attempt | 23,940 active person entities | 7.2306% |
+| Verified-affiliation coverage | 288 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2030% |
+| Verified-employer coverage | 161 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6725% |
+| Archival-review coverage | 1,680 people with an individual file-access/priority assessment | 23,940 active person entities | 7.0175% |
 
 ## Extraction and identity
 
 - PDF pages: 522 / 522
 - Source rows: 23,978
-- Cautious person entities: 23,941
+- Stored person rows: 23,941
+- Active cautious person entities: 23,940
+- Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 215
-- Automatic same-name/same-service-number groups: 37
-- Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 186
+- Possible duplicate groups: 214
+- Automatic same-name/same-service-number groups: 36
+- Same-service-number/different-name candidate groups: 164
+- Identity status `confirmed`: 192
 - Identity status `high_confidence`: 364
 - Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 16
-- Identity status `unresolved`: 23,289
+- Identity status `unresolved`: 23,282
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,487
-- Enlisted Army personnel: 3,520
+- Unknown or indeterminate: 16,485
+- Enlisted Army personnel: 3,521
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -43,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
+Commissioned classification: 2,174 yes; 5,072 no; 16,694 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,220
+- `not_started`: 22,209
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 40
-- `occupation_only_found`: 165
-- `requires_archival_review`: 1,205
+- `occupation_only_found`: 171
+- `requires_archival_review`: 1,209
 - `completed`: 60
 - `conflicting_sources`: 16
 - `verified_employer_found`: 162
@@ -64,41 +66,16 @@ Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
 - Live CIA exact-name OSS attempts: 215
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
-- Reviewed-official-web attempts recorded: 32
-- Reviewed-institutional-web attempts recorded: 4
-- Reviewed-web terminal-protocol attempts recorded: 898
-- Reviewed-web-and-official-bulk attempts recorded: 11
-- Reviewed-evidence carry-forward/integrity attempts recorded: 4
-- Reviewed-web-and-official-source attempts recorded: 235
-- Reviewed-official-bulk-and-web attempts recorded: 10
-- Reviewed-official-and-web protocol attempts recorded: 4
-- Reviewed-official-bulk-and-web protocol attempts recorded: 1
-- Reviewed-official-bulk-and-institutional-web attempts recorded: 3
-- Reviewed-official-bulk attempts recorded: 1
-- Reviewed-official-bulk-institutional-and-web attempts recorded: 10
-- Reviewed-official-AAD-institutional-and-web attempts recorded: 22
-- Reviewed-official-institutional-and-web attempts recorded: 12
-- Reviewed-official-and-institutional-source attempts recorded: 5
-- Reviewed-institutional-source attempts recorded: 1
-- Reviewed-official-institutional-CIA-and-web attempts recorded: 1
-- Reviewed-official-institutional-directory-and-web attempts recorded: 2
-- Reviewed-official-institutional-newspaper-and-web attempts recorded: 16
-- Reviewed-official-bulk-institutional-newspaper-and-web attempts recorded: 116
-- Reviewed-official-institutional-newspaper-directory-and-web attempts recorded: 53
-- Reviewed-official-bulk-institutional-newspaper-directory-and-web attempts recorded: 9
-- Reviewed-official-institutional-French-language-newspaper-and-web attempts recorded: 2
-- Reviewed-official-institutional-scholarly-French-language-and-web attempts recorded: 1
-- Reviewed-official-NSA-scholarly-institutional-and-web attempts recorded: 1
-- Reviewed-entity-resolution attempts recorded: 1
-- Reviewed-primary archival/personnel-file attempts recorded: 2
+- Human/manual reviewed-source attempts recorded across the versioned review
+  adapters: 1,507. The detailed adapter breakdown remains reproducible in
+  `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 638 across 615 people; 73 additional
+- Saved `source_reviewed` outcomes: 651 across 627 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,938
+- Total recorded attempts/plans: 2,949
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 598; 576 have at least one public-eligible
+- People with saved reviewed claims: 610; 588 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2225,7 +2202,7 @@ Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
   carried forward without duplicate claims. Birger Berg, Charles Berg, John W.
   Berg III, and Mary J. Berg remain unresolved and route to Box 51.
   Parser-wide review confirmed eight numeric values printed in rank cells;
-  version `bbox-columns-v6` preserves them privately and masks them publicly.
+  version `bbox-columns-v7` preserves them privately and masks them publicly.
   No authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
 - Batch 192 covers Cecile M. Berger through Edward F. Bergin on page
@@ -2241,12 +2218,29 @@ Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
   Morris Berger remain unresolved and route to Box 51 review. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
-- Public-visible affiliations: 699 (published, qualified, or conflict-visible)
-- Database claims: 1,391; public-visible claims: 1,360 (291 confirmed, 775 high,
-  271 medium, 23 conflicting); 25 low-confidence claims are withheld and six
+- Batch 193 covers Justin Bergman Jr. through Chester F. Berkshire on page
+  thirty-three, plus the visually confirmed Louis Berin/Borin duplicate row on
+  page forty-five. Exact official Army identifier matches confirm Justin
+  Bergman Jr., Ralph F. Bergman, Anthony H. Bergson, Louis Borin, Meyer
+  Beringer, and Chester F. Berkshire. Their official records support broad
+  Army-entry occupation categories—actor, radio operator, secretary, consumer
+  salesman, general-industry clerk, and general farmer—but name no employer.
+  Stanley Bergmann, Raymond E. Bergstrom, Mary S. Berkeley, and William H.
+  Berkeley remain unresolved and route to archival review. Abram Bergson's
+  previously reviewed University of Texas evidence was carried forward without
+  duplicating claims. The human-reviewed Louis Berin/Borin consolidation keeps
+  both original source rows, both boxes, and the superseded entity in the
+  private audit trail while publishing one canonical profile. Parser version
+  `bbox-columns-v7` also removes a duplicated printed suffix from Justin's
+  normalized display name without changing either raw source cell. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 705 (published, qualified, or conflict-visible)
+- Database claims: 1,403; public-visible claims: 1,372 (297 confirmed, 775 high,
+  277 medium, 23 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 2,961; private source records: 2,345; public source export:
-  1,342; unique source documents: 1,049
+- Claim-source links: 2,991 total and 2,925 public-visible; private source
+  records: 2,349; public source export: 1,346; unique source documents: 1,051
 - Canonical organizations: 351 private and 342 public
 - Conflicting claims: 23 across 17 people
 - NARA pull-list rows: 23,816
@@ -2484,6 +2478,8 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-and-thirty-three-yoneo-bepp-through-andrew-beresku-pathways_batch-190_2026-08-05.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-birger-berg-through-walter-berge-pathways_batch-191_2026-08-05.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-cecile-berger-through-edward-bergin-pathways_batch-192_2026-08-06.json
+python3 -m oss_research import-review-decisions research/entity_review_decisions_2026-08-06_batch193.csv
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-justin-bergman-through-chester-berkshire-pathways_batch-193_2026-08-06.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

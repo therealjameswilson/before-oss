@@ -4,16 +4,34 @@ Run: 2026-08-06 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,291 HTML files. Every relative
+**PASS.** The production build contains 24,290 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 342 organization profiles, and the
+The build includes 23,940 person profiles, 342 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,940 unique external URLs for separate live
+The checker inventoried 48,938 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 193 local release check
+
+The complete 24,290-page internal-link pass includes direct routes for Justin
+Bergman Jr. through Chester F. Berkshire and one canonical Louis Borin profile
+that preserves two immutable index rows. The focused Batch 193 desktop, phone,
+and tablet regression passed 3 / 3, and the affected directory-count cases
+passed 3 / 3. The 68-test Python suite passed, the boundary-aware identifier
+audit checked 12,926 normalized private identifiers and 121 formatted variants
+across 24,360 artifacts, and it found zero unexpected boundary matches or
+aggregate false positives.
+
+The public-manifest SHA-256 is
+`47501fe604177d6239a021af8319f476a42889fd9b91a63e13c9cd7325cb6bc3`,
+and the manifest lists 65 public assets. Public downloads contain 23,940 active
+person rows, 342 organizations, 705 affiliations, and 1,346 sources. Two
+consecutive production builds produced the identical static-tree digest
+`20468260d2dc661eab59629f160eee855250feab42d7f589cbcfaec7bddbc740`.
 
 ## Batch 192 local release check
 

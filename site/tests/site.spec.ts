@@ -7,6 +7,7 @@ const people = JSON.parse(
 ) as Person[];
 const firstPerson = people[0];
 type Stats = {
+  person_entities: number;
   verified_affiliation_people: number;
   verified_employer_people: number;
 };
@@ -36,7 +37,8 @@ test("home reports the complete index and incomplete research honestly", async (
 
 test("directory search, commissioned filter, and URL state work", async ({ page }) => {
   await page.goto("./people/");
-  await expect(page.getByText(/23,941 results/)).toBeVisible({ timeout: 30_000 });
+  const allResults = `${stats.person_entities.toLocaleString("en-US")} results`;
+  await expect(page.getByText(new RegExp(allResults))).toBeVisible({ timeout: 30_000 });
   await page
     .getByRole("searchbox", { name: "Search", exact: true })
     .fill(firstPerson.display_name);
@@ -44,7 +46,7 @@ test("directory search, commissioned filter, and URL state work", async ({ page 
   await expect(page).toHaveURL(/q=/);
   await page.getByLabel("Commissioned status").selectOption("true");
   await expect(page).toHaveURL(/commissioned=true/);
-  await expect(page.locator("#result-summary")).not.toHaveText(/23,941 results/);
+  await expect(page.locator("#result-summary")).not.toHaveText(new RegExp(allResults));
 });
 
 test("direct person route preserves source evidence and masks serials", async ({ page }) => {
@@ -17042,4 +17044,74 @@ test("Batch 192 preserves Berger through Bergin source rows and qualifies employ
   await page.goto("./people/a39ab6d9-d8d4-5f14-9de0-20fd074927e3/");
   await expect(page.locator("main")).toContainText("enlisted army personnel");
   await expect(page.locator("main")).toContainText("Commissioned officerNo");
+});
+
+test("Batch 193 normalizes a repeated suffix, consolidates the reviewed Borin duplicate, and preserves employer gaps", async ({
+  page,
+}) => {
+  expect(
+    people.some((person) => person.person_id === "bed57e52-38d6-5777-b915-c421556b01f8"),
+  ).toBe(false);
+
+  const profiles = [
+    ["59b7d97d-26f4-5867-b2aa-007edfc52d87", "Justin Bergman Jr.", "T/Sgt", "51"],
+    ["1962c77d-0692-54bf-880f-902da4186cc2", "Ralph F Bergman", "T/Sgt", "51"],
+    ["d8c48783-c230-5176-be81-9d58378c4bad", "Stanley Bergmann", "Not printed", "51"],
+    ["2e169a05-3d86-50b7-b195-4e5bb9b7cf0d", "Abram Bergson", "P-7", "51"],
+    ["b979511f-68db-5782-ac02-fa08339db861", "Anthony H Bergson", "Pvt", "51"],
+    ["a3d069a7-286f-5551-b2fb-db4cd06afa07", "Raymond E Bergstrom", "cPL", "51"],
+    ["c5b99d72-d45c-5be2-a167-39cb794b3fa0", "Louis Borin", "Not printed", "51"],
+    ["7080b359-5dfe-56ca-ba82-0efe62c96ffa", "Meyer Beringer", "Not printed", "51"],
+    ["71c98829-337c-5f57-8cf2-6df4e51a7e72", "Mary S Berkeley", "Caf-3", "51"],
+    ["b9ee9672-0793-567b-b505-f2d4f9cf1279", "William H Berkeley", "SP-5", "51"],
+    ["e7e62f0c-fc04-5fb8-88ca-3ece70471ec8", "Chester F Berkshire", "Cpl", "52"],
+  ];
+
+  for (const [personId, displayName, rank, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 33");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  for (const [personId, occupation] of [
+    ["59b7d97d-26f4-5867-b2aa-007edfc52d87", "Actor or actress occupational category"],
+    ["1962c77d-0692-54bf-880f-902da4186cc2", "Radio operator"],
+    ["b979511f-68db-5782-ac02-fa08339db861", "Secretary"],
+    ["c5b99d72-d45c-5be2-a167-39cb794b3fa0", "Salesman to consumers"],
+    ["7080b359-5dfe-56ca-ba82-0efe62c96ffa", "General industry clerk"],
+    ["e7e62f0c-fc04-5fb8-88ca-3ece70471ec8", "General farmer"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+
+  for (const personId of [
+    "d8c48783-c230-5176-be81-9d58378c4bad",
+    "a3d069a7-286f-5551-b2fb-db4cd06afa07",
+    "71c98829-337c-5f57-8cf2-6df4e51a7e72",
+    "b9ee9672-0793-567b-b505-f2d4f9cf1279",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/c5b99d72-d45c-5be2-a167-39cb794b3fa0/");
+  await expect(page.locator(".index-record")).toHaveCount(2);
+  await expect(page.locator(".index-record").nth(0).locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+  await expect(page.locator(".index-record").nth(1).locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+  await expect(page.locator("main")).toContainText("Page 45");
+  await expect(page.locator("main")).toContainText("Louis Berin");
+  await expect(page.locator("main")).toContainText("Boxes 51 and 69");
 });

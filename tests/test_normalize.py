@@ -25,6 +25,14 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(result.display_name, "Raymond J Maxson Jr.")
         self.assertEqual(result.middle, "J")
 
+    def test_duplicate_suffix_across_printed_columns_is_normalized_once(self) -> None:
+        result = normalize_name("Bergman", "Justin, Jr.", "Jr.")
+        self.assertEqual(result.display_name, "Justin Bergman Jr.")
+        self.assertEqual(result.first_name, "Justin")
+        self.assertIsNone(result.middle)
+        self.assertEqual(result.suffix, "Jr.")
+        self.assertIn("raw cells remain unchanged", result.notes or "")
+
     def test_apostrophe_and_hyphen_are_searchable(self) -> None:
         result = normalize_name("O'Neil-Smith", "Anne-Marie", "E")
         self.assertEqual(result.normalized_name, "ANNE MARIE E O NEIL SMITH")
