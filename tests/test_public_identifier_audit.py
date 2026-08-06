@@ -10,6 +10,7 @@ from unittest.mock import patch
 from scripts.audit_public_identifiers import (
     _integer_values,
     public_aggregate_values,
+    public_manifest_sizes,
     scan,
 )
 
@@ -62,13 +63,84 @@ class PublicIdentifierAuditTests(unittest.TestCase):
                     stderr="",
                 ),
             ):
-                candidates, boundary_matches, aggregate_false_positives = scan(
+                (
+                    candidates,
+                    boundary_matches,
+                    aggregate_false_positives,
+                    manifest_size_false_positives,
+                ) = scan(
                     public_root,
                     {"12345"},
                     set(),
                     public_aggregate_values(public_root),
+                    set(),
                 )
 
             self.assertEqual(candidates, 2)
             self.assertEqual(aggregate_false_positives, 1)
+            self.assertEqual(manifest_size_false_positives, 0)
+            self.assertEqual(boundary_matches, 1)
+
+    def test_manifest_size_coincidence_is_allowed_only_in_size_field(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            public_root = Path(directory)
+            data_root = public_root / "data"
+            data_root.mkdir(parents=True)
+            (data_root / "stats.json").write_text("{}", encoding="utf-8")
+            manifest_path = data_root / "public_build_manifest.json"
+            manifest_path.write_text(
+                json.dumps(
+                    {"files": [{"path": "data/example.json", "size_bytes": 12345}]}
+                ),
+                encoding="utf-8",
+            )
+            profile_path = public_root / "profile.html"
+            profile_path.write_text("Leaked identifier: 12345", encoding="utf-8")
+
+            events = []
+            for path, line in (
+                (manifest_path, manifest_path.read_text(encoding="utf-8")),
+                (profile_path, "Leaked identifier: 12345"),
+            ):
+                start = len(line[: line.index("12345")].encode("utf-8"))
+                events.append(
+                    json.dumps(
+                        {
+                            "type": "match",
+                            "data": {
+                                "path": {"text": str(path)},
+                                "lines": {"text": line},
+                                "submatches": [
+                                    {"start": start, "end": start + len("12345")}
+                                ],
+                            },
+                        }
+                    )
+                )
+
+            with patch(
+                "scripts.audit_public_identifiers.subprocess.run",
+                return_value=CompletedProcess(
+                    args=["rg"],
+                    returncode=0,
+                    stdout="\n".join(events),
+                    stderr="",
+                ),
+            ):
+                (
+                    candidates,
+                    boundary_matches,
+                    aggregate_false_positives,
+                    manifest_size_false_positives,
+                ) = scan(
+                    public_root,
+                    {"12345"},
+                    set(),
+                    public_aggregate_values(public_root),
+                    public_manifest_sizes(public_root),
+                )
+
+            self.assertEqual(candidates, 2)
+            self.assertEqual(aggregate_false_positives, 0)
+            self.assertEqual(manifest_size_false_positives, 1)
             self.assertEqual(boundary_matches, 1)

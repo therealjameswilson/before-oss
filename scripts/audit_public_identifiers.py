@@ -84,12 +84,29 @@ def public_aggregate_values(public_root: Path) -> set[int]:
     return _integer_values(json.loads(stats_path.read_text(encoding="utf-8")))
 
 
+def public_manifest_sizes(public_root: Path) -> set[int]:
+    manifest_path = public_root / "data" / "public_build_manifest.json"
+    if not manifest_path.is_file():
+        raise FileNotFoundError(
+            f"Public build manifest is missing: {manifest_path}. Build the site first."
+        )
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    return {
+        item["size_bytes"]
+        for item in manifest.get("files", [])
+        if isinstance(item, dict)
+        and isinstance(item.get("size_bytes"), int)
+        and not isinstance(item.get("size_bytes"), bool)
+    }
+
+
 def scan(
     public_root: Path,
     normalized: set[str],
     formatted: set[str],
     aggregate_values: set[int],
-) -> tuple[int, int, int]:
+    manifest_sizes: set[int],
+) -> tuple[int, int, int, int]:
     patterns = sorted(normalized | formatted, key=lambda value: (-len(value), value))
     command = [
         "rg",
@@ -118,6 +135,7 @@ def scan(
     candidate_matches = 0
     boundary_matches = 0
     aggregate_false_positives = 0
+    manifest_size_false_positives = 0
     for raw_event in completed.stdout.splitlines():
         event = json.loads(raw_event)
         if event.get("type") != "match":
@@ -127,6 +145,9 @@ def scan(
         aggregate_artifact = artifact_path.endswith(
             "/data/stats.json"
         ) or artifact_path.endswith("/data/stats.json.gz")
+        manifest_artifact = artifact_path.endswith(
+            "/data/public_build_manifest.json"
+        ) or artifact_path.endswith("/data/public_build_manifest.json.gz")
         line_block = data["lines"]
         if "text" not in line_block:
             # Binary/base64 records cannot contain an inspectable public text
@@ -151,8 +172,23 @@ def scan(
                 ):
                     aggregate_false_positives += 1
                     continue
+                if (
+                    manifest_artifact
+                    and matched_text.isdigit()
+                    and int(matched_text) in manifest_sizes
+                    and line[max(0, start - 32) : start]
+                    .rstrip()
+                    .endswith(b'"size_bytes":')
+                ):
+                    manifest_size_false_positives += 1
+                    continue
                 boundary_matches += 1
-    return candidate_matches, boundary_matches, aggregate_false_positives
+    return (
+        candidate_matches,
+        boundary_matches,
+        aggregate_false_positives,
+        manifest_size_false_positives,
+    )
 
 
 def main() -> int:
@@ -166,21 +202,29 @@ def main() -> int:
     normalized, formatted = identifier_sets(args.database)
     artifact_count = public_artifact_count(args.public_root)
     aggregate_values = public_aggregate_values(args.public_root)
-    candidates, boundary_matches, aggregate_false_positives = scan(
+    manifest_sizes = public_manifest_sizes(args.public_root)
+    (
+        candidates,
+        boundary_matches,
+        aggregate_false_positives,
+        manifest_size_false_positives,
+    ) = scan(
         args.public_root,
         normalized,
         formatted,
         aggregate_values,
+        manifest_sizes,
     )
     print(
         "normalized_identifiers={} formatted_variants={} artifacts={} "
         "candidate_substrings={} aggregate_false_positives={} "
-        "unexpected_boundary_matches={}".format(
+        "manifest_size_false_positives={} unexpected_boundary_matches={}".format(
             len(normalized),
             len(formatted),
             artifact_count,
             candidates,
             aggregate_false_positives,
+            manifest_size_false_positives,
             boundary_matches,
         )
     )

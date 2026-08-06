@@ -17191,3 +17191,81 @@ test("Batch 194 preserves Berletic through Bernard rows and separates occupation
   await expect(page.locator("main")).toContainText("commissioned army officer");
   await expect(page.locator("main")).toContainText("Commissioned officerYes");
 });
+
+test("Batch 195 preserves Bernard through Bernstein rows and publishes evidence without forced matches", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8a2732d5-406a-5a2e-9495-61666e8d5216", "Jules E Bernard", "Capt", "masked"],
+    ["126863d3-c4ba-5454-b6e8-042bcb2227bc", "Melba M Bernard", "Caf-2", "Not printed"],
+    ["2f65487f-af42-5c89-a64c-a4a1c599acfe", "Gerard J Bernier", "SP X 2/c", "masked"],
+    ["3453f26f-bd11-51c9-a92c-658252ee5866", "Jean D Bernier", "pVT", "masked"],
+    ["67b26ea3-7bd3-5458-bf94-0890b44be6be", "Veronica Bernier", "Not printed", "Not printed"],
+    ["beb1fd12-49ae-5704-b9d0-126afa311a78", "Roger P Bernique", "1st Lt", "masked"],
+    ["4a4271f3-0fe0-5c8f-9719-40d78b8ea752", "Harry L Berno", "Col", "masked"],
+    ["d754ef5b-d0e7-50c0-af46-c32ec809c796", "Philip B Berns", "T-4", "masked"],
+    ["c50080d8-c033-5367-bed3-5611db1aca60", "Aaron D Bernstein", "Not printed", "Not printed"],
+    ["2e4ae6dc-8d90-5c3d-ba42-25180d32a2d5", "Blanche Bernstein", "P-6", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 34");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("52");
+  }
+
+  await page.goto("./people/3453f26f-bd11-51c9-a92c-658252ee5866/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Waiter or waitress, except private family");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/beb1fd12-49ae-5704-b9d0-126afa311a78/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Lawyer in private practice",
+  );
+  await expect(page.locator("main")).toContainText("New Bedford");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/4a4271f3-0fe0-5c8f-9719-40d78b8ea752/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "W. H. Davie Seal Company",
+  );
+  await expect(page.locator("main")).toContainText("Vice president");
+  await expect(page.locator("main")).toContainText("1934");
+
+  await page.goto("./people/d754ef5b-d0e7-50c0-af46-c32ec809c796/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Donald J. Kreusch");
+  await expect(page.locator("main")).toContainText("identifier itself is withheld");
+
+  for (const personId of [
+    "8a2732d5-406a-5a2e-9495-61666e8d5216",
+    "126863d3-c4ba-5454-b6e8-042bcb2227bc",
+    "2f65487f-af42-5c89-a64c-a4a1c599acfe",
+    "67b26ea3-7bd3-5458-bf94-0890b44be6be",
+    "c50080d8-c033-5367-bed3-5611db1aca60",
+    "2e4ae6dc-8d90-5c3d-ba42-25180d32a2d5",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

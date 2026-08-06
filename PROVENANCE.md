@@ -2777,6 +2777,59 @@ treating that absence as disproof. No authenticated Catalog request, credential,
 raw API response, full private identifier, copyrighted page, or unsupported
 employer claim was stored or published.
 
+## Page-thirty-four Bernard-through-Bernstein pathways, Batch 195
+
+`research/evidence-page-thirty-four-jules-bernard-through-blanche-bernstein-pathways_batch-195_2026-08-06.json`
+records ten contiguous people from Jules E. Bernard through Blanche Bernstein.
+Page 34 was rendered at 300 dpi and visually checked against every raw and
+normalized source field. The official Army occupation-code page was separately
+rendered at 220 dpi and checked before the bundle was imported. The unusual
+`SP X 2/c` and `pVT` strings remain exactly as printed; the former is not
+expanded or assigned to a service category without supporting evidence.
+
+The strict evidence bundle contains eight sources, two organization records,
+three affiliations, seven claims, fifteen claim-source links, ten person
+updates, and ten durable research attempts. An exact private-identifier match
+confirms Jean D. Bernier and dates an official Army-entry occupation code to
+August 4, 1943. NARA's code table defines code 227 as waiters and waitresses,
+except private family. The code names no employer, establishment, location, or
+Army-to-OSS sequence.
+
+A contemporary Boston University alumni notice gives Roger P. Bernique's rare
+exact name, a compatible Captain rank, December 1942 Military Intelligence
+School chronology, OSS Indochina assignment, and an individual law practice he
+would resume in New Bedford. The practice is published as self-employment and
+documented prewar evidence, not as the immediate pre-OSS affiliation or last
+civilian employer because the notice does not state its original dates or
+pre-service sequence.
+
+The September 1934 issue of *The Record of Sigma Alpha Epsilon* identifies
+Harry L. Berno, Ohio Delta class of 1927, as vice president of the W. H. Davie
+Seal Company in Cleveland. A February 1952 notice independently repeats his
+name and class year and identifies his World War II colonel rank. William J.
+Rust's 2020 research essay supplies the precise locator for Berno's January 1945
+`OSS/SEAC Mission Report`: NARA RG 226, Entry A1 99, box 61. This combination
+supports a high-confidence identity and a high-confidence 1934 employer, while
+the eight-year gap prevents labeling the employer immediate or final before
+wartime service. The underlying Box 61 report still requires direct review.
+
+Philip B. Berns remains an explicit conflict. The private identifier printed in
+the visually clear index row resolves to Donald J. Kreusch in the official Army
+merged file. The public claim explains the mismatch while withholding the
+identifier itself, and no Army entry date, occupation, birth-year code, or other
+attribute from the incompatible record is assigned to Philip. Jules E. Bernard,
+Melba M. Bernard, Gerard J. Bernier, Veronica Bernier, Aaron D. Bernstein, and
+Blanche Bernstein remain unresolved after the minimum protocol and route to Box
+52 review. The later West Point Aaron D. Bernstein and the prominent economist
+Blanche Bernstein remain rejected namesake candidates until index-specific
+identifiers corroborate them.
+
+The official Army bulk file, Boston University PDF, and SAE periodicals were
+used transiently for visual verification and were not committed. No
+authenticated Catalog request, credential, raw API response, full private
+identifier, copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

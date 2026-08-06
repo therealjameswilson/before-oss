@@ -2,41 +2,43 @@
 
 Run: 2026-08-06 UTC
 
-- Python unit tests: **68 / 68 passed**
+- Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,290 pages**
-- Internal link check: **24,290 HTML files passed**
-- Batch 194 browser regression: **3 / 3 passed** across desktop, phone, and
-  tablet; dedicated axe cases: **27 / 27 passed** across the combined run and
-  isolated timeout rerun. The complete **624-case** matrix runs in release CI.
+- Static production build: **24,291 pages**
+- Internal link check: **24,291 HTML files passed**
+- Batch 195 browser regression: **3 / 3 passed** across desktop, phone, and
+  tablet; dedicated axe cases: **27 / 27 passed** with no serious or critical
+  violation. The complete **627-case** matrix runs in release CI.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`a3b1d67aad5fe2771d45b46bd597d43c8a1aff3b20854dabd2476913c4414904`)
-- Latest deterministic build (Batch 194): **byte-for-byte identical** across
+  (`ac7723a81baeb7382100b7e5a5fada1c4a1af7a834529ec9c52ee5d681852035`)
+- Latest deterministic build (Batch 195): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `d900d5d304f6e1067490797dfb010fb6a1e89a793065e87d58e7dfa77dde82e7`
+  `fb4266b0ca39579279f9282151593fa96c5f173d8ce96278b65dc44ddf918000`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,919** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,360** production artifacts, including compressed mirrors;
-  no aggregate-value false positives were present
+  matches** in **24,361** production artifacts, including compressed mirrors.
+  Two boundary-delimited numeric coincidences were verified as the same public
+  artifact size in the plain and compressed build manifests; a dedicated unit
+  test proves that the audit still rejects that value in a profile or claim
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,353** public records representing **1,055** unique documents
-- Private citation records: **2,356**
-- Published, qualified, or conflict-visible affiliations: **710**
-- Published or conflict-visible claims: **1,381**
-- Withheld low-confidence evidence: **25 claims concerning 21 people**; three
-  additional low-confidence candidates are rejected
-- Verified-affiliation metric: **288** people with confirmed/high published
+- Reviewed public sources: **1,361** public records representing **1,059** unique documents
+- Private citation records: **2,364**
+- Published, qualified, or conflict-visible affiliations: **713**
+- Published or conflict-visible claims: **1,388**
+- Withheld low-confidence evidence: **25 claims concerning 21 people**; six
+  additional low-confidence claims concerning three people are rejected
+- Verified-affiliation metric: **290** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **161** people with confirmed/high published
+- Verified-employer metric: **163** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
