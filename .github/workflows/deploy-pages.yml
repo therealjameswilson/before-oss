@@ -48,3 +48,8 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The generated site contains more than 24,000 static pages. GitHub's
+          # Pages backend can remain in deployment_in_progress beyond the
+          # action's ten-minute default even after the artifact is uploaded.
+          timeout: 1800000
