@@ -4,16 +4,35 @@ Run: 2026-08-05 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,289 HTML files. Every relative
+**PASS.** The production build contains 24,290 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 340 organization profiles, and the
+The build includes 23,941 person profiles, 341 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,931 unique external URLs for separate live
+The checker inventoried 48,936 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 191 local release check
+
+The complete 24,290-page internal-link pass includes direct routes for Birger
+Berg through Walter A. Berge Jr. and the new organization route required by
+the reviewed evidence. The focused Batch 191 desktop, phone, and tablet
+regression passed 3 / 3. The 27-case accessibility matrix had two local
+browser-session timeouts; both passed on isolated rerun, with no serious or
+critical axe finding. All other interrupted profile cases likewise passed on
+isolated rerun. The 66-test Python suite passed, and the boundary-aware
+identifier audit checked 12,926 normalized private identifiers and 121
+formatted variants across 24,360 artifacts, finding zero unexpected boundary
+matches or aggregate false positives.
+
+Two consecutive production builds produced the identical static-tree digest
+`bf678a5b18e85e512c25578721bd111bccbee9755827d076031b05d8c2e307c1`
+and the identical public-manifest SHA-256
+`b92fae06025a6b953899b592704165f7fd723ee53e5fcdfeadceb5be1120c8d4`.
+The manifest lists 65 public assets.
 
 ## Batch 190 local release check
 

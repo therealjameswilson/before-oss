@@ -9,6 +9,7 @@ from oss_research.public import (
     _write_json,
     mask_serial,
     organization_linked_people,
+    public_rank_as_indexed,
     public_snapshot_timestamp,
     public_source_row,
     verified_affiliation_person_count,
@@ -71,6 +72,13 @@ class PublicProjectionTests(unittest.TestCase):
         self.assertEqual(mask_serial("RA3389449"), "••••9449")
         self.assertIsNone(mask_serial(None))
 
+    def test_masks_serial_number_printed_in_rank_column(self) -> None:
+        self.assertEqual(
+            public_rank_as_indexed("4302568", "4302568"),
+            "Numeric identifier printed in rank column (masked)",
+        )
+        self.assertEqual(public_rank_as_indexed("2nd Lt", "1017696"), "2nd Lt")
+
     def test_source_projection_excludes_raw_serial_and_raw_line(self) -> None:
         row = FakeRow(
             source_record_id="row-1",
@@ -90,6 +98,27 @@ class PublicProjectionTests(unittest.TestCase):
         self.assertNotIn("serial_number_normalized", public)
         self.assertNotIn("raw_row_text", public)
         self.assertNotIn("12345678", str(public))
+
+    def test_source_projection_masks_serial_misplaced_in_rank_cell(self) -> None:
+        row = FakeRow(
+            source_record_id="row-2",
+            last_name_raw="Berg",
+            first_name_raw="John W",
+            middle_initial_raw=None,
+            rank_raw="4302568",
+            serial_number_normalized="4302568",
+            box_raw="51",
+            notes_raw=None,
+            archive_location="230/86/27/03",
+            source_page=33,
+        )
+        public = public_source_row(row)
+        self.assertEqual(
+            public["rank_as_indexed"],
+            "Numeric identifier printed in rank column (masked)",
+        )
+        self.assertEqual(public["serial_masked"], "••••2568")
+        self.assertNotIn("4302568", str(public))
 
     def test_medium_affiliation_does_not_count_as_verified(self) -> None:
         profiles = [

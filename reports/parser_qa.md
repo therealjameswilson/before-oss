@@ -1,17 +1,17 @@
 # Parser QA
 
-Generated: 2026-08-05T16:31:17+00:00
+Generated: 2026-08-05T23:20:40+00:00
 
 ## Gate summary
 
 - Source rows: **23,978** of **23,978** expected.
 - PDF pages represented: **522** of **522**.
-- Parser-warning rows: **23**.
-- Pages selected for visual QA: **83**.
+- Parser-warning rows: **31**.
+- Pages selected for visual QA: **91**.
 - Page images rendered in this run: **0**.
 - Pages visually reviewed as matching: **67**.
-- Pages visually reviewed after a normalized-field correction: **20**.
-- Parser-warning rows visually reviewed and corrected: **23**.
+- Pages visually reviewed after a normalized-field correction: **28**.
+- Parser-warning rows visually reviewed and corrected: **31**.
 
 ## Automated checks
 
@@ -33,4 +33,4 @@ The final page contains 12 rows and is expected to be shorter. Visual selection 
 
 ## Visual QA selection
 
-1, 2, 3, 4, 5, 6, 9, 28, 32, 50, 53, 60, 69, 70, 72, 77, 87, 90, 101, 110, 115, 117, 124, 125, 127, 129, 136, 151, 153, 170, 207, 215, 220, 243, 251, 259, 260, 261, 262, 263, 264, 269, 301, 302, 303, 307, 308, 312, 314, 326, 330, 337, 339, 345, 349, 358, 372, 381, 387, 389, 396, 397, 398, 402, 424, 442, 444, 447, 453, 455, 456, 463, 468, 481, 486, 489, 506, 517, 518, 519, 520, 521, 522
+1, 2, 3, 4, 5, 6, 9, 28, 32, 33, 50, 53, 60, 69, 70, 72, 77, 87, 90, 101, 110, 115, 117, 124, 125, 127, 129, 136, 151, 153, 162, 170, 184, 207, 215, 220, 243, 251, 259, 260, 261, 262, 263, 264, 269, 275, 281, 292, 293, 301, 302, 303, 307, 308, 312, 314, 326, 330, 336, 337, 339, 345, 349, 358, 372, 381, 387, 389, 396, 397, 398, 402, 424, 442, 444, 447, 453, 455, 456, 463, 468, 481, 486, 489, 506, 517, 518, 519, 520, 521, 522

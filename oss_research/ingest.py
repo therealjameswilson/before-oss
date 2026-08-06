@@ -175,6 +175,12 @@ def _parse_bbox_row(words: list[Word]) -> tuple[dict[str, str | None], list[str]
             | ARMY_ENLISTED_RANKS
         ):
             warnings.append("military_rank_printed_in_middle_column")
+    if (
+        fields["rank_raw"]
+        and fields["rank_raw"].isdigit()
+        and not fields["serial_number_raw"]
+    ):
+        warnings.append("serial_number_printed_in_rank_column")
     return fields, warnings
 
 
@@ -221,6 +227,29 @@ def _normalization_name_middle_and_rank(
             "the name.",
         )
     return middle_raw, rank_raw, None
+
+
+def _normalization_rank_and_serial(
+    fields: dict[str, str | None],
+    classification_rank: str | None,
+) -> tuple[str | None, str | None, str | None]:
+    """Interpret an all-numeric identifier printed in the rank column.
+
+    The printed rank and serial cells remain unchanged. Only the normalized
+    fields move the numeric value into the identifier lane, with an explicit
+    audit note and a parser warning that requires visual review.
+    """
+    serial_raw = fields["serial_number_raw"]
+    if classification_rank and classification_rank.isdigit() and not serial_raw:
+        return (
+            None,
+            classification_rank,
+            "The source table prints an all-numeric identifier in the rank "
+            "column and leaves serial blank; raw cells are preserved, while "
+            "normalized fields treat the value as an identifier and leave "
+            "rank unknown.",
+        )
+    return classification_rank, serial_raw, None
 
 
 def extract_rows(pdf_path: Path) -> tuple[list[ParsedRow], dict[str, object]]:
@@ -290,13 +319,21 @@ def _to_model(row: ParsedRow, pdf_path: Path, pdf_hash: str, ingested_at: str) -
     name_middle, classification_rank, displaced_grade_note = (
         _normalization_name_middle_and_rank(row.fields)
     )
+    classification_rank, classification_serial, displaced_serial_note = (
+        _normalization_rank_and_serial(row.fields, classification_rank)
+    )
     name = normalize_name(last_raw, first_raw, name_middle)
     personnel = classify_personnel(
         classification_rank, row.fields["notes_raw"]
     )
     notes = [
         value
-        for value in (name.notes, personnel.note, displaced_grade_note)
+        for value in (
+            name.notes,
+            personnel.note,
+            displaced_grade_note,
+            displaced_serial_note,
+        )
         if value
     ]
     box_raw = row.fields["box_raw"]
@@ -324,7 +361,7 @@ def _to_model(row: ParsedRow, pdf_path: Path, pdf_hash: str, ingested_at: str) -
         middle_name_or_initial=name.middle,
         suffix=name.suffix,
         rank_normalized=personnel.rank_normalized,
-        serial_number_normalized=normalize_serial(row.fields["serial_number_raw"]),
+        serial_number_normalized=normalize_serial(classification_serial),
         box_number=int(box_raw) if box_raw and box_raw.isdigit() else None,
         archive_location=row.fields["archive_location_raw"],
         personnel_category=personnel.category,

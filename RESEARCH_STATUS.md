@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,693 people with a non-planned attempt | 23,941 person entities | 7.0716% |
-| Verified-affiliation coverage | 282 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1779% |
-| Verified-employer coverage | 157 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6558% |
-| Archival-review coverage | 1,642 people with an individual file-access/priority assessment | 23,941 person entities | 6.8585% |
+| Research-attempt coverage | 1,711 people with a non-planned attempt | 23,941 person entities | 7.1467% |
+| Verified-affiliation coverage | 287 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1988% |
+| Verified-employer coverage | 160 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6683% |
+| Archival-review coverage | 1,660 people with an individual file-access/priority assessment | 23,941 person entities | 6.9337% |
 
 ## Extraction and identity
 
@@ -21,16 +21,16 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 173
-- Identity status `high_confidence`: 362
+- Identity status `confirmed`: 181
+- Identity status `high_confidence`: 364
 - Identity status `probable`: 57
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 16
-- Identity status `unresolved`: 23,305
+- Identity status `unresolved`: 23,295
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,488
+- Unknown or indeterminate: 16,487
 - Enlisted Army personnel: 3,520
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
@@ -41,23 +41,23 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 - Enlisted naval personnel: 56
 - Commissioned naval officers: 82
 - Warrant officers: 5
-- Temporary, contract, or special personnel: 1
+- Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
+Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,248
+- `not_started`: 22,230
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
-- `documented_prewar_employer_found`: 37
-- `occupation_only_found`: 154
-- `requires_archival_review`: 1,193
+- `documented_prewar_employer_found`: 40
+- `occupation_only_found`: 160
+- `requires_archival_review`: 1,201
 - `completed`: 60
 - `conflicting_sources`: 16
-- `verified_employer_found`: 160
+- `verified_employer_found`: 161
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -68,9 +68,12 @@ Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
 - Reviewed-institutional-web attempts recorded: 4
 - Reviewed-web terminal-protocol attempts recorded: 898
 - Reviewed-web-and-official-bulk attempts recorded: 11
-- Reviewed-evidence carry-forward/integrity attempts recorded: 3
+- Reviewed-evidence carry-forward/integrity attempts recorded: 4
 - Reviewed-web-and-official-source attempts recorded: 235
 - Reviewed-official-bulk-and-web attempts recorded: 10
+- Reviewed-official-and-web protocol attempts recorded: 4
+- Reviewed-official-bulk-and-web protocol attempts recorded: 1
+- Reviewed-official-bulk-and-institutional-web attempts recorded: 3
 - Reviewed-official-bulk attempts recorded: 1
 - Reviewed-official-bulk-institutional-and-web attempts recorded: 10
 - Reviewed-official-AAD-institutional-and-web attempts recorded: 22
@@ -90,12 +93,12 @@ Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
 - Reviewed-primary archival/personnel-file attempts recorded: 2
 - Live NARA requests: 0
 - Reviewed NARA digitized-personnel-file attempts: 4
-- Saved `source_reviewed` outcomes: 626 across 605 people; 73 additional
+- Saved `source_reviewed` outcomes: 638 across 615 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,908
+- Total recorded attempts/plans: 2,928
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 587; 566 have at least one public-eligible
+- People with saved reviewed claims: 598; 576 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2208,15 +2211,32 @@ Commissioned classification: 2,174 yes; 5,070 no; 16,697 indeterminate.
   forward without duplicating claims. No authenticated Catalog request,
   credential, raw API response, full private identifier, or unsupported employer
   claim was used or published.
-- Public-visible affiliations: 685 (published, qualified, or conflict-visible)
-- Database claims: 1,366; public-visible claims: 1,335 (281 confirmed, 772 high,
-  259 medium, 23 conflicting); 25 low-confidence claims are withheld and six
+- Batch 191 covers Birger Berg through Walter A. Berge Jr. on page thirty-three.
+  Exact official officer-identifier evidence confirms Harold Lincoln Berg; a
+  local institutional biography supports Border Publishing as his qualified
+  best-supported last civilian employer in 1940. Exact official Army matches
+  confirm Osmund A. Berg, Peter Berg, Trygve Berge, and Walter A. Berge Jr.;
+  their records support broad Army-entry occupation groups rather than named
+  employers. Denver Public Library records Osmund, Peter, and Trygve in the
+  99th Infantry Battalion. Trygve's matching NORSO II record and unit history
+  support a qualified probable immediate pathway; the other two unit
+  assignments remain temporally uncertain. Morris Berg's existing Office of
+  Inter-American Affairs, Boston Red Sox, and Satterlee and Canfield profile was
+  carried forward without duplicate claims. Birger Berg, Charles Berg, John W.
+  Berg III, and Mary J. Berg remain unresolved and route to Box 51.
+  Parser-wide review confirmed eight numeric values printed in rank cells;
+  version `bbox-columns-v6` preserves them privately and masks them publicly.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 693 (published, qualified, or conflict-visible)
+- Database claims: 1,379; public-visible claims: 1,348 (286 confirmed, 774 high,
+  265 medium, 23 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 2,892; private source records: 2,327; public source export:
-  1,326; unique source documents: 1,040
-- Canonical organizations: 349 private and 340 public
+- Claim-source links: 2,927; private source records: 2,336; public source export:
+  1,335; unique source documents: 1,044
+- Canonical organizations: 350 private and 341 public
 - Conflicting claims: 23 across 17 people
-- NARA pull-list rows: 23,818
+- NARA pull-list rows: 23,817
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2449,6 +2469,7 @@ python3 -m oss_research import-review-decisions research/loc_review_decisions_20
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-basil-bensin-through-william-benston-pathways_batch-188_2026-08-05.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-harry-bent-through-raymond-beplat-pathways_batch-189_2026-08-05.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-and-thirty-three-yoneo-bepp-through-andrew-beresku-pathways_batch-190_2026-08-05.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-birger-berg-through-walter-berge-pathways_batch-191_2026-08-05.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

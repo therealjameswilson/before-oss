@@ -38,13 +38,29 @@ def mask_serial(value: str | None) -> str | None:
     return f"••••{suffix}"
 
 
+def public_rank_as_indexed(
+    rank_raw: str | None,
+    serial_number_normalized: str | None,
+) -> str | None:
+    """Preserve rank text without publishing a serial misplaced in that cell."""
+    if (
+        rank_raw
+        and rank_raw.isdigit()
+        and serial_number_normalized == rank_raw
+    ):
+        return "Numeric identifier printed in rank column (masked)"
+    return rank_raw
+
+
 def public_source_row(row: sqlite3.Row) -> dict[str, object]:
     return {
         "source_record_id": row["source_record_id"],
         "indexed_last_name": row["last_name_raw"],
         "indexed_first_name": row["first_name_raw"],
         "indexed_middle": row["middle_initial_raw"],
-        "rank_as_indexed": row["rank_raw"],
+        "rank_as_indexed": public_rank_as_indexed(
+            row["rank_raw"], row["serial_number_normalized"]
+        ),
         "serial_masked": mask_serial(row["serial_number_normalized"]),
         "box": row["box_raw"],
         "notes_as_indexed": row["notes_raw"],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:31:17+00:00",
+  "generated_at": "2026-08-05T23:20:40+00:00",
   "expected_source_rows": 23978,
   "actual_source_rows": 23978,
   "expected_pages": 522,
@@ -567,7 +567,7 @@
     "unknown_or_indeterminate": 16612,
     "warrant_officer": 4
   },
-  "warning_row_count": 23,
+  "warning_row_count": 31,
   "warning_rows": [
     {
       "source_page": 3,
@@ -597,6 +597,12 @@
       "source_page": 32,
       "source_row_number": 39,
       "source_record_id": "8fcf6c40-e09f-519d-8f8e-b77266002c97",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 33,
+      "source_row_number": 10,
+      "source_record_id": "7a8cc616-e3f9-5c7e-aa8d-3ffff49c6792",
       "parser_confidence": 0.88
     },
     {
@@ -630,9 +636,45 @@
       "parser_confidence": 0.88
     },
     {
+      "source_page": 162,
+      "source_row_number": 18,
+      "source_record_id": "c1a5e7e4-f6e3-5169-839d-eff40437fccb",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 184,
+      "source_row_number": 33,
+      "source_record_id": "3533a827-786d-5309-914e-34271dc52f4d",
+      "parser_confidence": 0.88
+    },
+    {
       "source_page": 269,
       "source_row_number": 44,
       "source_record_id": "31424259-42c1-5b09-b8b8-32512298d69a",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 275,
+      "source_row_number": 29,
+      "source_record_id": "01fc6673-e3e7-5347-898d-64555a4b3a5c",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 281,
+      "source_row_number": 22,
+      "source_record_id": "5d30eaf1-26c9-5d4a-81a1-b7837ba9db5a",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 292,
+      "source_row_number": 13,
+      "source_record_id": "fb0ab432-2e71-5e64-97ca-0332bf16c1a8",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 293,
+      "source_row_number": 8,
+      "source_record_id": "aaba6af3-e69a-59f0-ac63-21504ad80991",
       "parser_confidence": 0.88
     },
     {
@@ -645,6 +687,12 @@
       "source_page": 312,
       "source_row_number": 14,
       "source_record_id": "3fcb806a-cc01-5246-b149-1cb2ee166f71",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 336,
+      "source_row_number": 45,
+      "source_record_id": "c6c44289-5f15-5404-8102-61f3ef74f606",
       "parser_confidence": 0.88
     },
     {
@@ -708,7 +756,7 @@
       "parser_confidence": 0.88
     }
   ],
-  "selected_visual_qa_page_count": 83,
+  "selected_visual_qa_page_count": 91,
   "selected_visual_qa_pages": {
     "1": [
       "first_five"
@@ -736,6 +784,9 @@
       "parser_warning"
     ],
     "32": [
+      "parser_warning"
+    ],
+    "33": [
       "parser_warning"
     ],
     "50": [
@@ -799,8 +850,14 @@
       "deterministic_random_50",
       "parser_warning"
     ],
+    "162": [
+      "parser_warning"
+    ],
     "170": [
       "deterministic_random_50"
+    ],
+    "184": [
+      "parser_warning"
     ],
     "207": [
       "deterministic_random_50"
@@ -838,6 +895,18 @@
     "269": [
       "parser_warning"
     ],
+    "275": [
+      "parser_warning"
+    ],
+    "281": [
+      "parser_warning"
+    ],
+    "292": [
+      "parser_warning"
+    ],
+    "293": [
+      "parser_warning"
+    ],
     "301": [
       "deterministic_random_50"
     ],
@@ -864,6 +933,9 @@
     ],
     "330": [
       "deterministic_random_50"
+    ],
+    "336": [
+      "parser_warning"
     ],
     "337": [
       "parser_warning"
@@ -965,14 +1037,14 @@
   },
   "rendered_page_count": 0,
   "visual_review_status_counts": {
-    "not_selected": 435,
-    "reviewed_after_correction": 20,
+    "not_selected": 427,
+    "reviewed_after_correction": 28,
     "reviewed_matches": 67
   },
   "source_record_visual_review_status_counts": {
-    "not_reviewed": 20010,
-    "reviewed_corrected": 23,
-    "reviewed_matches": 3945
+    "not_reviewed": 19642,
+    "reviewed_corrected": 31,
+    "reviewed_matches": 4305
   },
   "checks": {
     "exact_source_row_count": true,

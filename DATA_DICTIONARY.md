@@ -58,6 +58,13 @@ and then replays later evidence bundles in numeric order.
 | `visual_review_status` | Not reviewed, matched, corrected, or unresolved visual decision |
 | `entity_resolution_status` | Link/review state independent of the person entity |
 
+When an all-numeric value is visibly printed in `rank_raw`, parser version
+`bbox-columns-v6` preserves that private raw value, leaves `rank_normalized`
+unknown, and copies the value to `serial_number_normalized` for cautious
+identity resolution. Public profiles replace the raw rank-cell value with
+`Numeric identifier printed in rank column (masked)` and expose only the usual
+four-character masked suffix.
+
 Personnel categories distinguish Army, Navy, Coast Guard, and Marine Corps
 commissioned and enlisted service where the branch is documented. Raw rank
 abbreviations remain unchanged; a branch-specific category may be assigned

@@ -16867,3 +16867,100 @@ test("Batch 190 separates Bepp-to-Beresku employers, occupations, and unresolved
   await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("University of Illinois");
 });
+
+test("Batch 191 preserves Berg and Berge source rows while separating employers, occupations, and unit pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["3a9a9ebb-a81a-516b-815f-a008c5d0acad", "Birger Berg", "2nd Lt", "masked"],
+    ["8a9559c3-3456-5983-ba54-24a9b114536b", "Charles Berg", "Not printed", "Not printed"],
+    ["ff46518f-875e-5e3a-a5db-5021a8431855", "Harold L Berg", "2nd Lt", "masked"],
+    [
+      "8a7fa0e5-0e5c-5313-a2d8-1bcf1fcf6f24",
+      "John W Berg III",
+      "Numeric identifier printed in rank column (masked)",
+      "masked",
+    ],
+    ["bd18de97-91ca-5683-be7e-61ca1e3aef9e", "Mary J Berg", "Not printed", "Not printed"],
+    ["491ada54-8954-5518-b03e-88e0ed92d573", "Morris Berg", "Not printed", "Not printed"],
+    ["a2303a3d-883a-5c38-a1d7-abcb0f5b64cd", "Osmund A Berg", "Pvt", "masked"],
+    ["15e1b327-9b1c-5988-a0ae-39fa02ea6598", "Peter Berg", "Cpl", "masked"],
+    ["65c09b3a-69e8-5a1e-b194-fa6313cf7ac7", "Trygve Berge", "T/Sgt", "masked"],
+    ["1f387862-ab81-5b7a-8902-fbf3dc4859fd", "Walter A Berge Jr.", "Pfc", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 33");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("51");
+  }
+
+  await page.goto("./people/ff46518f-875e-5e3a-a5db-5021a8431855/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Border Publishing");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Circulation manager");
+  await expect(page.locator("main")).toContainText("best-supported last civilian employer");
+
+  await page.goto("./people/491ada54-8954-5518-b03e-88e0ed92d573/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Office of Inter-American Affairs",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Boston Red Sox");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Satterlee and Canfield",
+  );
+
+  await page.goto("./people/a2303a3d-883a-5c38-a1d7-abcb0f5b64cd/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Carpenters");
+  await expect(page.locator("main")).toContainText("Company A, 99th Infantry");
+
+  await page.goto("./people/15e1b327-9b1c-5988-a0ae-39fa02ea6598/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("mechanical treatment of metals");
+  await expect(page.locator("main")).toContainText("Company D, 99th Infantry");
+
+  await page.goto("./people/65c09b3a-69e8-5a1e-b194-fa6313cf7ac7/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "99th Infantry Battalion",
+  );
+  await expect(page.locator("main")).toContainText("Commercial artists");
+  await expect(page.locator("main")).toContainText("probable immediate");
+
+  await page.goto("./people/1f387862-ab81-5b7a-8902-fbf3dc4859fd/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("radio and phonograph manufacture");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "3a9a9ebb-a81a-516b-815f-a008c5d0acad",
+    "8a9559c3-3456-5983-ba54-24a9b114536b",
+    "8a7fa0e5-0e5c-5313-a2d8-1bcf1fcf6f24",
+    "bd18de97-91ca-5683-be7e-61ca1e3aef9e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/8a7fa0e5-0e5c-5313-a2d8-1bcf1fcf6f24/");
+  await expect(page.locator("main")).toContainText("seven-digit value is printed in the rank column");
+  await expect(page.locator("main")).not.toContainText("4302568");
+
+  await page.goto("./people/8a9559c3-3456-5983-ba54-24a9b114536b/");
+  await expect(page.locator("main")).toContainText("Luxemb");
+  await expect(page.locator("main")).toContainText("unexplained source note");
+});

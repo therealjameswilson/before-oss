@@ -17,7 +17,7 @@ class CorrectionRow(StrictModel):
     source_row_number: int = Field(gt=0)
     expected_last_name_raw: str = Field(min_length=1)
     expected_first_name_raw: str = Field(min_length=1)
-    expected_middle_initial_raw: str = Field(min_length=1)
+    expected_middle_initial_raw: str | None = Field(default=None, min_length=1)
     expected_rank_raw: str | None = None
     decision: Literal["reviewed_corrected"]
     notes: str = Field(min_length=1)

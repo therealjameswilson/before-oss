@@ -2642,6 +2642,39 @@ accessed, and no raw API response, full private identifier, copyrighted page,
 home address, relative's details, or people-finder data was stored in the
 repository or public projection.
 
+## Page-thirty-three Berg-through-Berge pathways and numeric-rank audit, Batch 191
+
+`research/evidence-page-thirty-three-birger-berg-through-walter-berge-pathways_batch-191_2026-08-05.json`
+records ten contiguous page-33 rows from Birger Berg through Walter A. Berge
+Jr. Page 33 was rendered at 300 dpi and visually checked. John W. Berg III's
+seven-digit value is visibly printed in the rank column rather than the serial
+column. A parser-wide audit located seven other all-numeric rank cells on pages
+162, 184, 275, 281, 292, 293, and 336; each was visually confirmed. Parser
+version `bbox-columns-v6` preserves every raw cell privately, normalizes the
+value as a probable identifier, leaves rank unknown, and masks the value in all
+public profiles, search data, and downloads. The replay ledger now contains 95
+reviewed pages and terminal decisions for all 31 warning rows.
+
+The strict evidence bundle contains nine sources, three organizations, eight
+affiliations, thirteen claims, 35 claim-source links, ten person updates, and
+ten terminal research attempts. An exact official officer-identifier match
+confirms Harold Lincoln Berg; a county veterans memorial reports his 1940
+Border Publishing employment, which remains a medium-confidence last-civilian-
+employer claim until the underlying draft-registration image is inspected.
+Exact official Army matches confirm Osmund A. Berg, Peter Berg, Trygve Berge,
+and Walter A. Berge Jr. Their Army-entry records support broad civilian
+occupation groups, not named employers. The Denver Public Library documents
+Osmund, Peter, and Trygve in the 99th Infantry Battalion; only Trygve's path is
+published as a qualified probable immediate assignment because a corroborating
+record places the same identified person in OSS NORSO II and unit history
+documents NORSO recruitment from the 99th. Morris Berg's earlier reviewed CIA
+profile was carried forward without duplicating claims.
+
+Birger Berg, Charles Berg, John W. Berg III, and Mary J. Berg remain unresolved
+and route to Box 51. The `Luxemb` note on Charles Berg's row remains
+uninterpreted. No authenticated Catalog request, credential, raw API response,
+full private identifier, or unsupported employer claim was used or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

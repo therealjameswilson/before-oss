@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 
 from oss_research.db import connect, migrate
-from oss_research.page_reviews import import_page_reviews
+from oss_research.page_reviews import CorrectionRow, import_page_reviews
 
 
 class PageReviewTests(unittest.TestCase):
@@ -82,6 +82,20 @@ class PageReviewTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.connection.close()
         self.temp_dir.cleanup()
+
+    def test_correction_row_accepts_a_genuinely_blank_middle_cell(self) -> None:
+        correction = CorrectionRow(
+            source_page=184,
+            source_row_number=33,
+            expected_last_name_raw="Guenther",
+            expected_first_name_raw="Gustav Bismar",
+            expected_middle_initial_raw=None,
+            expected_rank_raw="6741",
+            decision="reviewed_corrected",
+            notes="The source middle-initial cell is blank.",
+        )
+
+        self.assertIsNone(correction.expected_middle_initial_raw)
 
     def test_import_page_reviews_replays_page_and_row_decisions(self) -> None:
         review_file = Path(self.temp_dir.name) / "reviews.json"

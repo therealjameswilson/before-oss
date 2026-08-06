@@ -18,15 +18,15 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 cautious person entities
 - 23,978 / 23,978 source rows linked to an entity
 - 215 possible duplicate groups, including 37 narrow automatic consolidations
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 1,693
-  people with saved non-planned research outcomes, and 2,908 durable research
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 1,711
+  people with saved non-planned research outcomes, and 2,928 durable research
   attempts or plans
-- 282 verified-affiliation profiles, including 157 with verified employment or
-  self-employment, and 1,642 individually assessed archival files
-- 676 public-visible affiliations, 1,319 public-visible claims, 2,857 citation
-  links, 1,312 public source records, and 1,027 unique source documents; 25
-  low-confidence claims remain withheld and 5 rejected candidates remain private
-- 22,248 people remain `not_started`; the public site reports this
+- 287 verified-affiliation profiles, including 160 with verified employment or
+  self-employment, and 1,660 individually assessed archival files
+- 693 public-visible affiliations, 1,348 public-visible claims, 2,927 citation
+  links, 1,335 public source records, and 1,044 unique source documents; 25
+  low-confidence claims remain withheld and 6 rejected candidates remain private
+- 22,230 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
@@ -122,8 +122,10 @@ an approved higher NARA quota.
 The SQLite database and internal exports may retain service-number evidence for
 identity resolution. Public data mask service numbers and exclude credentials,
 private notes, low-confidence candidates, raw API payloads, and sensitive
-information. `python3 -m oss_research build-public-data` enforces and tests that
-projection.
+information. A numeric identifier visibly printed in the PDF's rank column is
+preserved in the private raw field but replaced by an explanatory masked label
+in public profiles and search data. `python3 -m oss_research build-public-data`
+enforces and tests that projection.
 
 ## Status language
 
