@@ -17269,3 +17269,87 @@ test("Batch 195 preserves Bernard through Bernstein rows and publishes evidence 
     );
   }
 });
+
+test("Batch 196 preserves Bernstein rows and separates occupations, institutions, and unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c2d6f169-96c6-5117-a424-1c4b7e18083c", "Irvin E Bernstein", "Cpl", "masked"],
+    ["4f0c3781-aa2f-5f38-9782-d193e691a4a4", "Irving Bernstein", "T-4", "masked"],
+    ["3998114d-ad2d-58cc-b00a-8e37947e382f", "James J Bernstein", "S/Sgt", "Not printed"],
+    ["f9a3674b-81a6-5eef-bd81-314c9d60d3ed", "Jeanette Bernstein", "Not printed", "Not printed"],
+    ["6251f899-c303-5eba-a8f2-f33d582c806f", "Marjorie J Bernstein", "Caf-4", "Not printed"],
+    ["d1c540d8-326f-576e-9527-8928ef3feef0", "Milton Bernstein", "Not printed", "Not printed"],
+    ["bc29d169-8e51-54fd-8531-35bed9543aca", "Nahum A Bernstein", "T/Sgt", "masked"],
+    ["fa50acea-7348-5b86-a00b-bfedaa9c715e", "Peter L Bernstein", "P-3", "Not printed"],
+    ["0a60a686-531d-5f03-a060-a944c1a0a3fa", "Philip M Bernstein", "Pvt", "masked"],
+    ["6a2213dd-ff0a-5782-8b60-aabf85e94131", "Shirley D Bernstein", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 34");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("52");
+  }
+
+  for (const [personId, expectedText] of [
+    ["c2d6f169-96c6-5117-a424-1c4b7e18083c", "Lawyer or judge"],
+    ["bc29d169-8e51-54fd-8531-35bed9543aca", "Lawyer or judge"],
+    ["0a60a686-531d-5f03-a060-a944c1a0a3fa", "Student"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(expectedText);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/4f0c3781-aa2f-5f38-9782-d193e691a4a4/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "National War Labor Board",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "U.S. Bureau of Labor Statistics",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Brookings Institution",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/fa50acea-7348-5b86-a00b-bfedaa9c715e/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Federal Reserve Bank of New York",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Researcher",
+  );
+  await expect(page.getByText("probable immediate", { exact: true }).first()).toBeVisible();
+
+  for (const personId of [
+    "3998114d-ad2d-58cc-b00a-8e37947e382f",
+    "f9a3674b-81a6-5eef-bd81-314c9d60d3ed",
+    "6251f899-c303-5eba-a8f2-f33d582c806f",
+    "d1c540d8-326f-576e-9527-8928ef3feef0",
+    "6a2213dd-ff0a-5782-8b60-aabf85e94131",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

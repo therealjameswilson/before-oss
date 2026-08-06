@@ -4,13 +4,23 @@ Run: 2026-08-06 UTC
 
 ## Result
 
-**PASS.** The new Batch 195 regression passed 3 / 3 at desktop, phone, and
+**PASS.** The new Batch 196 regression passed 3 / 3 at desktop, phone, and
 tablet widths. All 27 representative axe cases passed with no serious or
-critical violation. The complete 627-case matrix will run on the clean GitHub
+critical violation. The complete 630-case matrix will run on the clean GitHub
 Actions runner.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 196 adds a focused direct-route regression for Irvin E. Bernstein through
+Shirley D. Bernstein. It checks every indexed name, page, literal rank or
+civilian grade, Box 52 location, masked identifier, research state, employer-
+gap wording, and archival-review route. It separately verifies the Army-entry
+occupation-only evidence, Irving Bernstein's typed institutional roles, Nahum
+A. Bernstein's corroborated identity without a named firm, Peter L.
+Bernstein's qualified last civilian employer, and Philip M. Bernstein's
+student status without inventing a school. Five other profiles remain
+unresolved. The focused matrix passed 3 / 3.
 
 Batch 195 adds a focused direct-route regression for Jules E. Bernard through
 Blanche Bernstein. It checks every indexed name, page, literal rank or civilian

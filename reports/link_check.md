@@ -4,16 +4,41 @@ Run: 2026-08-06 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,291 HTML files. Every relative
+**PASS.** The production build contains 24,293 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 343 organization profiles, and the
+The build includes 23,940 person profiles, 345 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,944 unique external URLs for separate live
+The checker inventoried 48,951 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 196 local release check
+
+The complete 24,293-page internal-link pass includes direct routes for Irvin E.
+Bernstein through Shirley D. Bernstein on page 34 and four documented
+organization routes, including two newly generated profiles. The focused
+desktop, phone, and tablet regression passed
+3 / 3, the 69-test Python suite passed, and all 27 representative axe scans
+reported no serious or critical violation.
+
+The regression verifies that Army-entry occupation categories remain distinct
+from employers; Irving Bernstein's Brookings, Bureau of Labor Statistics, and
+National War Labor Board roles remain correctly typed; Peter L. Bernstein's
+Federal Reserve Bank of New York research role appears only as a qualified last
+civilian employer; and five unresolved names route to Box 52 review.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,363 artifacts, rejected 994
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`0b1470d611d275ffca47ecb9b55eaac320666b95658544496f827ed1866642dd`.
+Two consecutive production builds produced the identical static-tree digest
+`7726888f084d8328a28706947e10260ad0921186c4c882809ff0cba595ccc2cc`.
 
 ## Batch 195 local release check
 

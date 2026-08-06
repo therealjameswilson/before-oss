@@ -2830,6 +2830,48 @@ authenticated Catalog request, credential, raw API response, full private
 identifier, copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-thirty-four Bernstein pathways, Batch 196
+
+`research/evidence-page-thirty-four-irvin-bernstein-through-shirley-bernstein-pathways_batch-196_2026-08-06.json`
+records ten contiguous people from Irvin E. Bernstein through Shirley D.
+Bernstein. Page 34 was rendered at 300 dpi and visually checked against every
+raw and normalized source field. The official Army occupation-code pages were
+also rendered and checked before import.
+
+The strict evidence bundle contains nine sources, four organization records,
+eight affiliations, thirteen claims, thirty-four claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier matches in
+the official Army merged file confirm Irvin E. Bernstein, Irving Bernstein,
+Nahum A. Bernstein, and Philip M. Bernstein. The associated entry records
+support only grouped lawyer-or-judge and clerk occupations, and student status;
+they name no civilian employer, school, or direct Army-to-OSS sequence.
+
+The Department of Labor's author biography and the University of California's
+memorial independently identify labor historian Irving Bernstein and date his
+Brookings fellowship, Bureau of Labor Statistics industrial-economist role,
+National War Labor Board hearing-officer assignment, 1943 military entry, and
+later OSS Research and Analysis service. The timeline is strong, but it does
+not establish a direct National War Labor Board-to-OSS transfer. Brookings is
+therefore modeled as a professional fellowship and the two federal roles as
+government assignments, not civilian employers or immediate OSS affiliations.
+
+A CIA-hosted image of a contemporary newspaper article corroborates the rare
+Nahum A. Bernstein identity and lawyer occupation after OSS service, while the
+exact Army record independently places the grouped lawyer-or-judge occupation
+at June 1943 entry. Neither source names a pre-OSS law firm. Separate publisher
+and professional biographies explicitly identify Peter L. Bernstein's civilian
+OSS service and subsequent Army Air Forces work. Both support his 1941 Federal
+Reserve Bank of New York research job as the best-supported last civilian
+employer, qualified as probable rather than explicit immediacy.
+
+James J. Bernstein, Jeanette Bernstein, Marjorie J. Bernstein, Milton
+Bernstein, and Shirley D. Bernstein remain unresolved after the minimum online
+protocol and route to Box 52 review. The prominent Joseph Milton Bernstein is
+retained only as a rejected namesake candidate. The official Army bulk file and
+occupation tables were used transiently and were not committed. No authenticated
+Catalog request, credential, raw API response, full private identifier,
+copyrighted page, or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
