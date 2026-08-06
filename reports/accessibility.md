@@ -1,21 +1,27 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-05 UTC
+Run: 2026-08-06 UTC
 
 ## Result
 
-**PASS with documented local browser-session retries.** The new Batch 191
-regression passed 3 / 3 at desktop, phone, and tablet widths. The 27-case axe
-matrix passed 25 / 27 in its combined run; the two browser-session timeouts
-passed in immediate isolated reruns with no serious or critical violations.
-Six older profile regressions interrupted during the initial long combined run
-passed 16 / 18 in a focused rerun, and the remaining two session timeouts then
-passed 2 / 2 in isolation. No product assertion, accessibility finding, or
-responsive-layout failure remains. The complete 615-case matrix will run again
-on the clean release runner.
+**PASS.** The new Batch 192 regression passed 3 / 3 at desktop, phone, and
+tablet widths. All 27 representative axe scans passed in one run with no
+serious accessibility violation. The complete release matrix will run again on
+the clean GitHub Actions runner.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 192 adds a focused direct-route regression for Cecile M. Berger through
+Edward F. Bergin. It checks every page-33 source row, printed rank or grade,
+Box 51 location, masked or explicitly unprinted identifier, identity and
+research-state badges, and archival-review status. It separately verifies
+Milton A. Berger's high-confidence New York private law practice as last
+civilian self-employment without presenting it as the immediate pre-OSS
+affiliation; keeps Tharrel A. Bergeson's qualified school evidence as student
+status; preserves four official occupation-only findings without inventing
+employers; and leaves four unresolved profiles explicit. The focused matrix
+passed 3 / 3.
 
 Batch 191 adds a focused direct-route regression for Birger Berg through Walter
 A. Berge Jr. It checks every page-33 source row, literal index spelling, the

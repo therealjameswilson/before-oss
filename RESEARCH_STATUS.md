@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-05 UTC.
+Generated from the current local SQLite database on 2026-08-06 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,711 people with a non-planned attempt | 23,941 person entities | 7.1467% |
-| Verified-affiliation coverage | 287 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.1988% |
-| Verified-employer coverage | 160 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6683% |
-| Archival-review coverage | 1,660 people with an individual file-access/priority assessment | 23,941 person entities | 6.9337% |
+| Research-attempt coverage | 1,721 people with a non-planned attempt | 23,941 person entities | 7.1885% |
+| Verified-affiliation coverage | 288 people with any confirmed/high published pre-OSS affiliation | 23,941 person entities | 1.2030% |
+| Verified-employer coverage | 161 people with confirmed/high published employment or self-employment | 23,941 person entities | 0.6725% |
+| Archival-review coverage | 1,670 people with an individual file-access/priority assessment | 23,941 person entities | 6.9755% |
 
 ## Extraction and identity
 
@@ -21,12 +21,12 @@ Generated from the current local SQLite database on 2026-08-05 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 37
 - Same-service-number/different-name candidate groups: 165
-- Identity status `confirmed`: 181
+- Identity status `confirmed`: 186
 - Identity status `high_confidence`: 364
-- Identity status `probable`: 57
+- Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 16
-- Identity status `unresolved`: 23,295
+- Identity status `unresolved`: 23,289
 
 ## Personnel categories
 
@@ -47,17 +47,17 @@ Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,230
+- `not_started`: 22,220
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 40
-- `occupation_only_found`: 160
-- `requires_archival_review`: 1,201
+- `occupation_only_found`: 165
+- `requires_archival_review`: 1,205
 - `completed`: 60
 - `conflicting_sources`: 16
-- `verified_employer_found`: 161
+- `verified_employer_found`: 162
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -95,7 +95,7 @@ Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
 - Reviewed NARA digitized-personnel-file attempts: 4
 - Saved `source_reviewed` outcomes: 638 across 615 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,928
+- Total recorded attempts/plans: 2,938
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 598; 576 have at least one public-eligible
@@ -2228,15 +2228,28 @@ Commissioned classification: 2,174 yes; 5,071 no; 16,696 indeterminate.
   version `bbox-columns-v6` preserves them privately and masks them publicly.
   No authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 693 (published, qualified, or conflict-visible)
-- Database claims: 1,379; public-visible claims: 1,348 (286 confirmed, 774 high,
-  265 medium, 23 conflicting); 25 low-confidence claims are withheld and six
+- Batch 192 covers Cecile M. Berger through Edward F. Bergin on page
+  thirty-three. Exact official Army identifier matches confirm Harold Berger,
+  Milton A. Berger, Martial L. Bergeron, Lawrence W. Bergheimer, and Edward F.
+  Bergin. Milton's official occupation code and a reputable obituary support
+  New York private law practice as his high-confidence last civilian
+  self-employment; the evidence does not establish an immediate pre-OSS
+  affiliation. The other four official matches support occupation or student
+  categories but no named employer. A contemporary newspaper supports only a
+  probable identification of Tharrel A. Bergeson as a North Cache High School
+  student, not an employee. Cecile M. Berger, G. B. Berger, Jane M. Berger, and
+  Morris Berger remain unresolved and route to Box 51 review. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 699 (published, qualified, or conflict-visible)
+- Database claims: 1,391; public-visible claims: 1,360 (291 confirmed, 775 high,
+  271 medium, 23 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 2,927; private source records: 2,336; public source export:
-  1,335; unique source documents: 1,044
-- Canonical organizations: 350 private and 341 public
+- Claim-source links: 2,961; private source records: 2,345; public source export:
+  1,342; unique source documents: 1,049
+- Canonical organizations: 351 private and 342 public
 - Conflicting claims: 23 across 17 people
-- NARA pull-list rows: 23,817
+- NARA pull-list rows: 23,816
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2470,6 +2483,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-harry-bent-through-raymond-beplat-pathways_batch-189_2026-08-05.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-two-and-thirty-three-yoneo-bepp-through-andrew-beresku-pathways_batch-190_2026-08-05.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-birger-berg-through-walter-berge-pathways_batch-191_2026-08-05.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-cecile-berger-through-edward-bergin-pathways_batch-192_2026-08-06.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

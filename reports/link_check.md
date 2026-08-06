@@ -1,19 +1,37 @@
 # Link check
 
-Run: 2026-08-05 UTC
+Run: 2026-08-06 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,290 HTML files. Every relative
+**PASS.** The production build contains 24,291 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,941 person profiles, 341 organization profiles, and the
+The build includes 23,941 person profiles, 342 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,936 unique external URLs for separate live
+The checker inventoried 48,940 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 192 local release check
+
+The complete 24,291-page internal-link pass includes direct routes for Cecile
+M. Berger through Edward F. Bergin and the generic self-employment organization
+route used by Milton A. Berger's private-practice claim. The focused Batch 192
+desktop, phone, and tablet regression passed 3 / 3. All 27 representative axe
+checks passed with no serious accessibility violation. The 66-test Python suite
+passed, the 200-profile stratified audit passed all seven integrity checks, and
+the boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,361 artifacts, finding zero
+unexpected boundary matches or aggregate false positives.
+
+Two consecutive production builds produced the identical static-tree digest
+`52b17061d88d0135d335aa89b26c306183c46bf0d5dbfb72550e800657814914`.
+The public-manifest SHA-256 is
+`5732e8852461ebe2e238bbe20667a5589755e72b0b33a26435b2a22c68972419`,
+and the manifest lists 65 public assets.
 
 ## Batch 191 local release check
 

@@ -2675,6 +2675,40 @@ and route to Box 51. The `Luxemb` note on Charles Berg's row remains
 uninterpreted. No authenticated Catalog request, credential, raw API response,
 full private identifier, or unsupported employer claim was used or published.
 
+## Page-thirty-three Berger-through-Bergin pathways, Batch 192
+
+`research/evidence-page-thirty-three-cecile-berger-through-edward-bergin-pathways_batch-192_2026-08-06.json`
+records ten contiguous page-33 rows from Cecile M. Berger through Edward F.
+Bergin. Page 33 was rendered at 300 dpi and visually checked against every raw
+field. The printed rows, ranks or grades, identifier-column occupancy, Box 51,
+and archive locations all match the immutable source records. Private
+identifiers remain in SQLite only and are masked in all public surfaces.
+
+The strict evidence bundle contains nine sources, two organizations, six
+affiliations, twelve claims, ten person updates, and ten terminal research
+attempts. Exact private-identifier matches in the official Army merged file
+confirm Harold Berger, Milton A. Berger, Martial L. Bergeron, Lawrence W.
+Bergheimer, and Edward F. Bergin. The corresponding official occupation codes
+support general-office-clerk, lawyer-or-judge, broad nonprocess-manufacturing,
+student, and stock-clerk categories. Except for Milton, these sources name no
+civilian employer.
+
+A reputable obituary reports that Milton practiced law in New York before Army
+service. In combination with his exact official identifier and lawyer-or-judge
+occupation code, the evidence supports high-confidence private law practice as
+his last civilian self-employment. It does not establish the immediate
+pre-OSS affiliation. A contemporary issue of *The Cache American* supports a
+probable match between the indexed Tharrel A. Bergeson and North Cache High
+School graduate Tharrel Ann Bergeson; this is published as student status, not
+employment. Cecile M. Berger, G. B. Berger, Jane M. Berger, and Morris Berger
+remain unresolved and route to Box 51 review. A prominent Harold Berger judge
+namesake and Morris Berger name candidates were explicitly rejected.
+
+The Army code-list pages and the newspaper page were visually inspected before
+publication. No authenticated Catalog request, credential, raw API response,
+full private identifier, copyrighted page, unsupported employer claim, or
+irrelevant personal detail was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

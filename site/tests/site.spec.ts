@@ -16964,3 +16964,82 @@ test("Batch 191 preserves Berg and Berge source rows while separating employers,
   await expect(page.locator("main")).toContainText("Luxemb");
   await expect(page.locator("main")).toContainText("unexplained source note");
 });
+
+test("Batch 192 preserves Berger through Bergin source rows and qualifies employer, student, and occupation evidence", async ({
+  page,
+}) => {
+  const profiles = [
+    ["148da06f-4225-5243-a252-81940721caa3", "Cecile M Berger", "Caf-4", "Not printed"],
+    ["50bc068b-2f71-52d8-9bbe-3131a01e6679", "G B Berger", "Lt", "Not printed"],
+    ["2a73641f-9a94-597b-81ea-f0ff129175e6", "Harold Berger", "T-5", "masked"],
+    ["4a590a7b-9653-5ac9-b719-c6819d560d6b", "Jane M Berger", "Caf-3", "Not printed"],
+    ["a676b3a8-023c-5d5c-af4d-a435a3ed4205", "Milton A Berger", "T-4", "masked"],
+    ["4afcd34e-807d-5be2-a2fe-7ec6a1c158cf", "Morris Berger", "Cpl", "masked"],
+    ["57eb69d4-ecc0-5e96-bae7-128735b5a405", "Martial L Bergeron", "T-5", "masked"],
+    ["a66e60dd-bced-54dd-abed-efb8ac532c28", "Tharrel A Bergeson", "Not printed", "Not printed"],
+    ["a39ab6d9-d8d4-5f14-9de0-20fd074927e3", "Lawrence W Bergheimer", "Pfc", "masked"],
+    ["74944413-6b18-5dac-9497-376c017da56f", "Edward F Bergin", "T/Sgt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Page 33");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("51");
+  }
+
+  await page.goto("./people/a676b3a8-023c-5d5c-af4d-a435a3ed4205/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Self-employed");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Lawyer in private practice",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("New York");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const [personId, occupation] of [
+    ["2a73641f-9a94-597b-81ea-f0ff129175e6", "General office clerk"],
+    ["57eb69d4-ecc0-5e96-bae7-128735b5a405", "Nonprocess occupation in manufacturing"],
+    ["a39ab6d9-d8d4-5f14-9de0-20fd074927e3", "Student"],
+    ["74944413-6b18-5dac-9497-376c017da56f", "Stock clerk"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+
+  await page.goto("./people/a66e60dd-bced-54dd-abed-efb8ac532c28/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "North Cache High School",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).toContainText("Student status is not an employer");
+
+  for (const personId of [
+    "148da06f-4225-5243-a252-81940721caa3",
+    "50bc068b-2f71-52d8-9bbe-3131a01e6679",
+    "4a590a7b-9653-5ac9-b719-c6819d560d6b",
+    "4afcd34e-807d-5be2-a2fe-7ec6a1c158cf",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("No reliable pre-OSS employer has yet been identified");
+  }
+
+  await page.goto("./people/a39ab6d9-d8d4-5f14-9de0-20fd074927e3/");
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("Commissioned officerNo");
+});
