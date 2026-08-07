@@ -4,12 +4,22 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **675 / 675**
+**PASS.** The complete browser and accessibility matrix passed **678 / 678**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 212 adds a focused direct-route regression for Adolf Birnbaum through
+Florence S. Bishop on PDF page 37. It checks all ten indexed names, literal
+ranks, Box 57, public-safe identifier masking, identity and research states,
+employer-gap wording, and archival-review routes. It separately verifies
+Birnbaum's bounded stock-clerk occupation, Bisaccia's student status,
+Biscaïno's identity-only French wartime context, and Bisceglia's two qualified
+prewar business affiliations without presenting them as immediate or last
+civilian employment. Six unresolved profiles remain explicit. The focused
+matrix passed 3 / 3.
 
 Batch 211 adds a focused direct-route regression for Mary B. Biow through John
 D. Birn on PDF page 37. It checks all ten indexed names, literal ranks, Box 57,
@@ -60,7 +70,7 @@ employment; and Harold Bienenstock's explicit Army-intelligence predecessor
 and qualified unnamed bookstore employment. Six unsupported or incomplete
 identities remain unresolved or in identity review rather than becoming facts.
 
-The current production build contains 24,324 HTML pages. Astro check reported
+The current production build contains 24,326 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and
 two consecutive builds produced identical path-and-file digests.
 

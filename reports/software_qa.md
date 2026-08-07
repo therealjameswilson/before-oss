@@ -5,34 +5,34 @@ Run: 2026-08-07 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,324 pages**
-- Internal link check: **24,324 HTML files passed**
-- Complete browser and accessibility matrix: **675 / 675 passed** across
+- Static production build: **24,326 pages**
+- Internal link check: **24,326 HTML files passed**
+- Complete browser and accessibility matrix: **678 / 678 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`959383a278ab2a1158906e8a0c8810d4a526f6cdf21eaf0ac61fa943ace444cc`)
-- Latest deterministic build (Batch 211): **byte-for-byte identical** across
+  (`e99f3c1a08e4cd18690c20da372da3250e85241057c779fcf447ef28c0caac60`)
+- Latest deterministic build (Batch 212): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `d19cbead556e855bc3172f8bd0a7c3137f20b8a8a354b21c0b34eef841088253`
+  `3a00aa0c581bff3fd533627e8abb104b9c5afb4ff447a4bcc03b2d89ceb38dee`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,394** production artifacts, including compressed mirrors.
+  matches** in **24,396** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,487** public records representing **1,145** unique documents
-- Private citation records: **2,492**
-- Published, qualified, or conflict-visible affiliations: **785**
-- Published or conflict-visible claims: **1,526**
+- Reviewed public sources: **1,494** public records representing **1,148** unique documents
+- Private citation records: **2,499**
+- Published, qualified, or conflict-visible affiliations: **789**
+- Published or conflict-visible claims: **1,534**
 - Verified-affiliation metric: **312** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **171** people with confirmed/high published
@@ -99,6 +99,56 @@ Run: 2026-08-07 UTC
   matrix passed locally
 - Batch 211 local release checks: **passed**; the complete **675-case** browser
   matrix passed locally
+- Batch 212 local release checks: **passed**; the complete **678-case** browser
+  matrix passed locally
+
+## Batch 212 local release QA
+
+Batch 212 adds the ten visually checked page-37 source rows from Adolf
+Birnbaum through Florence S. Bishop, all indexed in Box 57. The strict evidence
+bundle imports seven sources, two organization references, four affiliations,
+eight claims, twenty-one claim-source links, ten person updates, and ten
+durable research attempts. Exact private-identifier matches in NARA's official
+Army bulk file support Adolf Birnbaum's bounded stock-clerk occupation and
+Vincent J. Bisaccia's student status without naming an employer or school. An
+official French Gendarmerie history supports Marcel Biscaïno's high-confidence
+identity but no pre-OSS predecessor. Official GPO and UC Berkeley sources
+support a probable Bruno T. Bisceglia identity and two qualified, earlier
+California business affiliations; neither is presented as immediate or as the
+last civilian employer. Rachel S. Birnbaum, Marian F. Birrell, Edward M.
+Birtcil Sr., Harry J. Bishman, Charles W. Bishop, and Florence S. Bishop remain
+explicit archival-review cases.
+
+SQLite integrity and ingest validation passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,326 pages. The internal-link checker passed all 24,326 HTML
+files and inventoried 49,051 unique external URLs. The focused Batch 212
+regression passed 3 / 3, and the clean complete single-worker Playwright and
+axe matrix passed 678 / 678 across desktop, phone, and tablet. A newly issued
+transitive-package advisory was cleared by refreshing the lockfile to Nano ID
+3.3.18; the production dependency audit then found zero vulnerabilities.
+
+Consecutive production-site builds produced identical sorted
+path-and-file-SHA-256 tree digests. The complete-site digest is
+`e99f3c1a08e4cd18690c20da372da3250e85241057c779fcf447ef28c0caac60`.
+All 65 public-manifest assets have recorded paths, sizes, and SHA-256 values;
+the manifest SHA-256 is
+`3a00aa0c581bff3fd533627e8abb104b9c5afb4ff447a4bcc03b2d89ceb38dee`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,002 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,396 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 212 database contains 3,139 durable research attempts, 2,499 private
+citation records, 797 affiliations, 387 organizations, and 1,565 claims: 338
+confirmed, 839 high, 329 medium, 31 low, and 28 conflicting. The public
+projection contains 1,494 source records representing 1,148 unique documents,
+789 affiliations, and 1,534 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,919 people with a non-planned research attempt, 312
+with verified-affiliation evidence, 171 with verified employment or
+self-employment evidence, and 1,868 whose archival-review need has been
+assessed.
 
 ## Batch 211 local release QA
 

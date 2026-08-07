@@ -4,16 +4,42 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,324 HTML files. Every relative
+**PASS.** The production build contains 24,326 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 376 organization profiles, and the
+The build includes 23,940 person profiles, 378 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,046 unique external URLs for separate live
+The checker inventoried 49,051 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 212 local release check
+
+The complete 24,326-page internal-link pass includes direct routes for Adolf
+Birnbaum through Florence S. Bishop on PDF page 37 and two new organization
+profiles. The 69-test Python suite, deterministic 200-profile audit, and clean
+678-case desktop, phone, and tablet browser matrix passed; Astro reported zero
+errors, warnings, or hints, and the post-update dependency audit found zero
+vulnerabilities.
+
+The regression verifies all ten indexed rows in Box 57, literal ranks,
+public-safe identifier masking, identity and research states, employer-gap
+wording, and archival-review routes. It separately checks Birnbaum's bounded
+stock-clerk occupation, Bisaccia's student status, Biscaïno's official French
+identity context, Bisceglia's two qualified earlier business affiliations, and
+six explicit archival-review profiles. No occupation, school, or earlier
+business is silently promoted to an immediate or last civilian employer.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,396 artifacts, reviewed 1,002
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`3a00aa0c581bff3fd533627e8abb104b9c5afb4ff447a4bcc03b2d89ceb38dee`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`e99f3c1a08e4cd18690c20da372da3250e85241057c779fcf447ef28c0caac60`.
 
 ## Batch 211 local release check
 
