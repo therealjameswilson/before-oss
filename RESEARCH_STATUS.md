@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,771 people with a non-planned attempt | 23,940 active person entities | 7.3977% |
+| Research-attempt coverage | 1,781 people with a non-planned attempt | 23,940 active person entities | 7.4394% |
 | Verified-affiliation coverage | 294 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2281% |
 | Verified-employer coverage | 165 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6892% |
-| Archival-review coverage | 1,720 people with an individual file-access/priority assessment | 23,940 active person entities | 7.1846% |
+| Archival-review coverage | 1,730 people with an individual file-access/priority assessment | 23,940 active person entities | 7.2264% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 204
+- Identity status `confirmed`: 207
 - Identity status `high_confidence`: 368
 - Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 17
-- Identity status `unresolved`: 23,265
+- Identity status `unresolved`: 23,262
 
 ## Personnel categories
 
@@ -49,14 +49,14 @@ Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,169
+- `not_started`: 22,159
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 42
-- `occupation_only_found`: 182
-- `requires_archival_review`: 1,232
+- `occupation_only_found`: 185
+- `requires_archival_review`: 1,239
 - `completed`: 61
 - `conflicting_sources`: 17
 - `verified_employer_found`: 164
@@ -67,15 +67,15 @@ Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,537. The detailed adapter breakdown remains reproducible in
+  adapters: 1,547. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 664 across 640 people; 73 additional
+- Saved `source_reviewed` outcomes: 671 across 647 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,989
+- Total recorded attempts/plans: 2,999
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 623; 601 have at least one public-eligible
+- People with saved reviewed claims: 630; 608 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2305,12 +2305,26 @@ Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
   unresolved and route to Box 52 or 53 review. No authenticated Catalog
   request, credential, raw API response, full private identifier, or unsupported
   employer claim was used or published.
-- Public-visible affiliations: 727 (published, qualified, or conflict-visible)
-- Database claims: 1,442; public-visible claims: 1,411 (311 confirmed, 787 high,
-  289 medium, 24 conflicting); 25 low-confidence claims are withheld and six
+- Batch 198 covers the next ten contiguous rows on page thirty-four, Clyde B.
+  Berry through Patrick J. Berry, Jr. Exact private-identifier matches in the
+  official Army merged file confirm Dan P. Berry, Edward S. Berry, and Patrick
+  J. Berry, Jr. Their entry records support only broad secondary-school teacher
+  or principal, financial-institution clerk, and general-office clerk
+  occupations; none names an employer, school, institution, or office, and none
+  is presented as the immediate pre-OSS affiliation. Clyde B. Berry, Floyd D.
+  Berry, Harold A. Berry, James W. Berry, Jr., Lawrence G. Berry, Maurice Berry,
+  and Olivia M. Berry remain unresolved and route to Box 53 review. A detailed
+  same-name Maurice Berry infantry profile was inspected and rejected because
+  it supplies no matching private identifier or OSS link and documents a
+  conventional infantry pathway during the relevant period. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 730 (published, qualified, or conflict-visible)
+- Database claims: 1,448; public-visible claims: 1,417 (314 confirmed, 787 high,
+  292 medium, 24 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,089 total and 3,023 public-visible; private source
-  records: 2,381; public source export: 1,378; unique source documents: 1,070
+- Claim-source links: 3,104 total and 3,038 public-visible; private source
+  records: 2,385; public source export: 1,382; unique source documents: 1,071
 - Canonical organizations: 355 private and 346 public
 - Conflicting claims: 24 across 17 people
 - NARA pull-list rows: 23,814

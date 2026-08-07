@@ -2912,6 +2912,37 @@ authenticated Catalog request, credential, raw API response, full private
 identifier, copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-thirty-four Berry pathways, Batch 198
+
+`research/evidence-page-thirty-four-clyde-berry-through-patrick-berry-pathways_batch-198_2026-08-06.json`
+records ten contiguous people from Clyde B. Berry through Patrick J. Berry,
+Jr. Page 34 was rendered at 300 dpi and visually checked against every raw and
+normalized source field. The official Army technical-documentation and
+occupation-code pages were separately inspected before import.
+
+The strict evidence bundle contains four sources, three affiliations, six
+claims, fifteen claim-source links, ten person updates, and ten durable
+research attempts. Exact private-identifier matches in the official Army
+merged file confirm Dan P. Berry, Edward S. Berry, and Patrick J. Berry, Jr.
+Their entry records support only the grouped occupations secondary-school
+teacher or principal, financial-institution clerk not elsewhere classified,
+and general-office clerk. The records name no school, financial institution,
+office, employer, or direct Army-to-OSS sequence, so those categories remain
+qualified occupation evidence and are excluded from verified-employer counts.
+
+Clyde B. Berry, Floyd D. Berry, Harold A. Berry, James W. Berry, Jr., Lawrence
+G. Berry, Maurice Berry, and Olivia M. Berry remain unresolved after the
+minimum online protocol and route to Box 53 review. A one-page local-history
+profile of a same-name Maurice Berry was rendered and inspected; its account of
+104th Infantry Regiment service provides neither the indexed private identifier
+nor an OSS connection and is retained only as a rejected candidate.
+
+The official Army bulk file, technical documentation, occupation tables, and
+the rejected local-history candidate were reviewed transiently and were not
+committed. No authenticated Catalog request, credential, raw API response, full
+private identifier, copyrighted page, or unsupported employer claim was stored
+or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

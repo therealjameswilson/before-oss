@@ -15,6 +15,28 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,954 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 198 local release check
+
+The complete 24,294-page internal-link pass includes direct routes for Clyde B.
+Berry through Patrick J. Berry, Jr., on page 34. The focused desktop, phone,
+and tablet regression passed 3 / 3, the 69-test Python suite passed, and all 27
+representative axe scans reported no serious or critical violation.
+
+The regression verifies three qualified Army-entry occupations, seven explicit
+unresolved archival-review profiles, and Harold A. Berry's commissioned-officer
+classification. The grouped occupations remain distinct from named employers.
+A same-name Maurice Berry infantry profile is retained only as a rejected
+candidate.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,364 artifacts, rejected 994
+substring coincidences, and found zero unexpected boundary matches or aggregate
+false positives. All 65 public-manifest assets match their recorded sizes and
+SHA-256 values in both the public-source and built trees. The manifest SHA-256
+is `ce57921b3c149f0161fbaf237f58c128f54b609fb1478a220a78da1dbd8519cf`.
+Two consecutive production builds produced the identical static-tree digest
+`0936af1e92272075c1d3fbd890b16d6585d067c45c15065945a1f642e938797d`.
+
 ## Batch 197 local release check
 
 The complete 24,294-page internal-link pass includes direct routes for Henry B.

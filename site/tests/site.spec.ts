@@ -17454,3 +17454,66 @@ test("Batch 197 preserves Berntsen through Berry rows and publishes only support
     );
   }
 });
+
+test("Batch 198 preserves the Berry rows and keeps broad occupations distinct from employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["67f0d94e-af67-5721-b453-1b010cc78d85", "Clyde B Berry", "Cpl", "Not printed"],
+    ["3d81eccd-d7e3-5128-8da8-5a2b0d98ba73", "Dan P Berry", "Cpl", "masked"],
+    ["d8fba3b5-9e70-5ac2-870d-3ea2fcbf8bb3", "Edward S Berry", "Sgt", "masked"],
+    ["b1e1e9f9-fc75-557c-93c5-b4cb392882d7", "Floyd D Berry", "T-5", "masked"],
+    ["ff0a53b7-5bc8-57fd-9b88-9eaba0462bda", "Harold A Berry", "2nd Lt", "masked"],
+    ["11681f8a-2021-5c8f-8479-f5f30fbc14f7", "James W Berry Jr.", "Sgt", "masked"],
+    ["893f8f16-6f7f-553b-8155-7e5fc26bff17", "Lawrence G Berry", "Caf-2", "Not printed"],
+    ["20715921-bbe1-5b4c-aa0c-0275421a991f", "Maurice Berry", "T-5", "masked"],
+    ["581f3c6b-a8a1-5073-b555-eb801762db74", "Olivia M Berry", "Caf-3", "Not printed"],
+    ["e19e1f9c-fbc8-512b-9075-482a92d42e67", "Patrick J Berry Jr.", "Pfc", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 34");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("53");
+  }
+
+  for (const [personId, expectedOccupation] of [
+    ["3d81eccd-d7e3-5128-8da8-5a2b0d98ba73", "Secondary-school teacher or principal"],
+    ["d8fba3b5-9e70-5ac2-870d-3ea2fcbf8bb3", "Financial institution clerk, not elsewhere classified"],
+    ["e19e1f9c-fbc8-512b-9075-482a92d42e67", "General office clerk"],
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(expectedOccupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ff0a53b7-5bc8-57fd-9b88-9eaba0462bda/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+
+  for (const personId of [
+    "67f0d94e-af67-5721-b453-1b010cc78d85",
+    "b1e1e9f9-fc75-557c-93c5-b4cb392882d7",
+    "ff0a53b7-5bc8-57fd-9b88-9eaba0462bda",
+    "11681f8a-2021-5c8f-8479-f5f30fbc14f7",
+    "893f8f16-6f7f-553b-8155-7e5fc26bff17",
+    "20715921-bbe1-5b4c-aa0c-0275421a991f",
+    "581f3c6b-a8a1-5073-b555-eb801762db74",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
