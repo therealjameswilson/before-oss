@@ -18496,3 +18496,104 @@ test("Batch 209 publishes bounded occupations and preserves identifier conflicts
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 210 publishes supported pathways and preserves unresolved page 37 identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2ac38d44-53f5-5bd3-a3ea-1f72683dd79a", "Joe E Bilsky", "Pvt", "56", true],
+    ["cc806144-a526-5ecf-9b71-bab279bfcdf4", "Robert W Bimler", "Cpl", "56", true],
+    ["78ce41cc-0437-589c-ba9e-9588bb3a7572", "Charles L Bimm", "Cpl", "56", true],
+    ["d820ad8f-0c39-593e-b7a9-c6acf309ef21", "Camilla Binder", "P-2", "56", false],
+    ["3382631d-ad67-5e45-af3e-3d00574a6d93", "Evo R Bindi", "T-5", "56", true],
+    ["ebce9850-963a-5c73-8e7e-c3506db5533c", "Pierre Binet", "s/Lt", "56", false],
+    ["7ad457ef-6e3b-5417-a0f8-f8a97e4cb027", "Woodridge Bingham", "Lt", "56", true],
+    ["d3c1a68b-e43e-5740-b182-a44365469ac0", "John W Binninger", "T-5", "56", true],
+    ["7c2d99ed-938c-5508-9c52-56a0ccda8887", "Boonrod Binson", "Not printed", "56", false],
+    ["4d54a12f-f170-5486-bad9-2e3f40eff2f8", "Leonard F Biondi", "Not printed", "57", false],
+  ] as const;
+
+  for (const [personId, displayName, rank, box, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 37");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  await page.goto("./people/2ac38d44-53f5-5bd3-a3ea-1f72683dd79a/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Routeman",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/cc806144-a526-5ecf-9b71-bab279bfcdf4/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("one-digit-different");
+  await expect(page.locator("main")).toContainText("No occupation is assigned");
+
+  await page.goto("./people/3382631d-ad67-5e45-af3e-3d00574a6d93/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student; institution not identified",
+  );
+
+  await page.goto("./people/ebce9850-963a-5c73-8e7e-c3506db5533c/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Bureau Central de Renseignements et d'Action",
+  );
+  await expect(page.locator("main")).toContainText("law degree in Paris in 1942");
+
+  await page.goto("./people/7ad457ef-6e3b-5417-a0f8-f8a97e4cb027/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Woodbridge Bingham");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of California, Berkeley",
+  );
+  await expect(page.getByText("commissioned naval officer", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/d3c1a68b-e43e-5740-b182-a44365469ac0/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("HQ & HQ Det OSS");
+
+  await page.goto("./people/7c2d99ed-938c-5508-9c52-56a0ccda8887/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Bunrot (Boonrod) Binson");
+  for (const institution of [
+    "Chulalongkorn University",
+    "Massachusetts Institute of Technology",
+    "Harvard University",
+    "University of Wisconsin-Madison",
+  ]) {
+    await expect(page.locator("main")).toContainText(institution);
+  }
+
+  for (const personId of [
+    "78ce41cc-0437-589c-ba9e-9588bb3a7572",
+    "d820ad8f-0c39-593e-b7a9-c6acf309ef21",
+    "4d54a12f-f170-5486-bad9-2e3f40eff2f8",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

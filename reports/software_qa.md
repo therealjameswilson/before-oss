@@ -5,37 +5,37 @@ Run: 2026-08-07 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,318 pages**
-- Internal link check: **24,318 HTML files passed**
-- Complete browser and accessibility matrix: **669 / 669 passed** across
+- Static production build: **24,319 pages**
+- Internal link check: **24,319 HTML files passed**
+- Complete browser and accessibility matrix: **672 / 672 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`5888570354299d840122a24b7908e911d1629ebc4f0924d58026d101a510fcc1`)
-- Latest deterministic build (Batch 209): **byte-for-byte identical** across
+  (`f94635e4ad7b314ca01be4f2292e353399bc2e4ecc4c910d2fdbe25789adb745`)
+- Latest deterministic build (Batch 210): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `2679ea3154245ff8de907e4411f251424eda45d8c86b76f10b35917b7572310c`
+  `28721cfe805cd9c22265d291fc9a4ecb0ed2fa6ca425b25e6a28fdacf8e5af1c`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,388** production artifacts, including compressed mirrors.
+  matches** in **24,389** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,464** public records representing **1,128** unique documents
-- Private citation records: **2,468**
-- Published, qualified, or conflict-visible affiliations: **771**
-- Published or conflict-visible claims: **1,501**
-- Verified-affiliation metric: **307** people with confirmed/high published
+- Reviewed public sources: **1,478** public records representing **1,139** unique documents
+- Private citation records: **2,483**
+- Published, qualified, or conflict-visible affiliations: **780**
+- Published or conflict-visible claims: **1,517**
+- Verified-affiliation metric: **310** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **168** people with confirmed/high published
+- Verified-employer metric: **170** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -95,6 +95,54 @@ Run: 2026-08-07 UTC
   matrix runs in release CI
 - Batch 209 local release checks: **passed**; the complete **669-case** browser
   matrix passed locally
+- Batch 210 local release checks: **passed**; the complete **672-case** browser
+  matrix passed locally
+
+## Batch 210 local release QA
+
+Batch 210 adds the ten visually checked page-37 source rows from Joe E. Bilsky
+through Leonard F. Biondi, spanning Boxes 56-57. The strict evidence bundle
+imports fifteen sources, six organization references, nine affiliations,
+sixteen claims, thirty-eight claim-source links, ten person updates, and ten
+durable research attempts. Official Army data confirm Joe E. Bilsky's bounded
+routeman occupation and Evo R. Bindi's student status while preserving Robert
+W. Bimler's one-digit identifier conflict. Independent contemporary,
+institutional, and scholarly sources support Pierre Binet's Free French
+intelligence pathway, the Woodridge/Woodbridge Bingham spelling resolution and
+UC Berkeley employment, John W. Binninger's qualified OSS identity, and
+Boonrod Binson's documented engineering-teaching and student affiliations.
+Charles L. Bimm, Camilla Binder, and Leonard F. Biondi remain explicit archival
+review cases.
+
+SQLite integrity and ingest validation passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,319 pages. The internal-link checker passed all 24,319 HTML
+files and inventoried 49,036 unique external URLs. The focused Batch 210
+regression passed 3 / 3, and the complete single-worker Playwright and axe
+matrix passed 672 / 672 across desktop, phone, and tablet. The production
+dependency audit found zero vulnerabilities.
+
+Consecutive public-data and production-site builds produced identical tree
+digests. The complete-site digest is
+`f94635e4ad7b314ca01be4f2292e353399bc2e4ecc4c910d2fdbe25789adb745`.
+All 65 public-manifest assets have recorded paths, sizes, and SHA-256 values;
+the manifest SHA-256 is
+`28721cfe805cd9c22265d291fc9a4ecb0ed2fa6ca425b25e6a28fdacf8e5af1c`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,000 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,389 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 210 database contains 3,119 durable research attempts, 2,483 private
+citation records, 788 affiliations, 380 organizations, and 1,548 claims: 335
+confirmed, 831 high, 323 medium, 31 low, and 28 conflicting. The public
+projection contains 1,478 source records representing 1,139 unique documents,
+780 affiliations, and 1,517 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,899 people with a non-planned research attempt, 310
+with verified-affiliation evidence, 170 with verified employment or
+self-employment evidence, and 1,848 whose archival-review need has been
+assessed.
 
 ## Batch 209 local release QA
 

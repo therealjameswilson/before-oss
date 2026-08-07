@@ -4,16 +4,43 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,318 HTML files. Every relative
+**PASS.** The production build contains 24,319 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 370 organization profiles, and the
+The build includes 23,940 person profiles, 371 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,026 unique external URLs for separate live
+The checker inventoried 49,036 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 210 local release check
+
+The complete 24,319-page internal-link pass includes direct routes for Joe E.
+Bilsky through Leonard F. Biondi on PDF page 37 and the new Chulalongkorn
+University organization page. The 69-test Python suite, deterministic
+200-profile audit, and clean 672-case desktop, phone, and tablet browser matrix
+passed; Astro reported zero errors, warnings, or hints, and the dependency
+audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows across Boxes 56-57, literal
+ranks, public-safe identifier masking, identity and research states,
+employer-gap wording, and archival-review routes. It separately checks Bilsky's
+routeman occupation, Bindi's student status, Bimler's official-source conflict,
+Binet's Free French intelligence pathway, the Woodridge/Woodbridge Bingham
+spelling resolution and UC Berkeley employment, Binninger's qualified OSS
+identity, and Binson's teaching and student affiliations. Three unsupported
+identities remain archival-review cases.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,389 artifacts, reviewed 1,000
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`28721cfe805cd9c22265d291fc9a4ecb0ed2fa6ca425b25e6a28fdacf8e5af1c`.
+Consecutive public-data and production-site builds produced identical trees;
+the complete-site digest is
+`f94635e4ad7b314ca01be4f2292e353399bc2e4ecc4c910d2fdbe25789adb745`.
 
 ## Batch 209 local release check
 
