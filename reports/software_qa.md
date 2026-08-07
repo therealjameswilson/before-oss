@@ -5,40 +5,40 @@ Run: 2026-08-07 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,295 pages**
-- Internal link check: **24,295 HTML files passed**
-- Batch 200 browser regression: **3 / 3 passed** across desktop, phone, and
+- Static production build: **24,302 pages**
+- Internal link check: **24,302 HTML files passed**
+- Batch 201 browser regression: **3 / 3 passed** across desktop, phone, and
   tablet; dedicated axe cases: **27 / 27 passed** with no serious or critical
-  violation. The complete **642-case** matrix also passed locally.
+  violation. The complete **645-case** matrix also passed locally.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`d72adbc31a3aa07fa86a2598e2d5551ee38d9b20dd5d4919ce5a16090093ca3c`)
-- Latest deterministic build (Batch 200): **byte-for-byte identical** across
+  (`caf4baa34d0ff3463eb0faf89f9d2a1caab0b38988270529c0e4091e4baf6edf`)
+- Latest deterministic build (Batch 201): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `c0757a2e2c1bbf6f7798f0f82a4ba5a7d647c1659c19e29e5d971c3cf406e8ca`
+  `724e06ee20fcfe04f3393a59514524ac4b6ae48131e1282c76ce1b9ccd93e23c`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,365** production artifacts, including compressed mirrors.
+  matches** in **24,372** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,394** public records representing **1,074** unique documents
-- Private citation records: **2,397**
-- Published, qualified, or conflict-visible affiliations: **735**
-- Published or conflict-visible claims: **1,428**
+- Reviewed public sources: **1,407** public records representing **1,084** unique documents
+- Private citation records: **2,410**
+- Published, qualified, or conflict-visible affiliations: **746**
+- Published or conflict-visible claims: **1,446**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; six
   additional low-confidence claims concerning three people are rejected
-- Verified-affiliation metric: **295** people with confirmed/high published
+- Verified-affiliation metric: **298** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **165** people with confirmed/high published
+- Verified-employer metric: **166** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -96,6 +96,53 @@ Run: 2026-08-07 UTC
   passed
 - Batch 197 local release checks: **passed**; the complete **633-case** browser
   matrix runs in release CI
+
+## Batch 201 local release QA
+
+Batch 201 adds ten visually checked source rows on PDF page thirty-five, from
+Robert M. Besancon through Molly Bessermann. The strict evidence bundle imports
+thirteen sources, seven organizations, eleven affiliations, eighteen claims,
+forty-three claim-source links, ten person updates, and ten terminal research
+attempts. It confirms Anthony E. Beshensky's broad Army-entry occupation;
+qualifies Alexander Besio's exact-identifier Bosio variant and textile
+occupation; documents Frank B. Bessac's explicit Fort Riley-to-OSS pathway and
+keeps his two colleges as student affiliations; publishes Auriel Bessemer's
+1939-1940 Treasury mural commission as self-employment; separates Albert G.
+Besser's Army Reserve pathway, Yale student status, and broad occupation; and
+qualifies Molly Bessermann's University of Geneva student record. Robert M.
+Besancon, Justina Besharov, Howard J. Besnia, and William C. Bessemer retain
+explicit employer gaps and archival-review routes.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 69 / 69, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,302 pages. The internal-link checker passed all 24,302 HTML files and
+inventoried 48,973 unique external URLs. The focused Batch 201 regression
+passed 3 / 3 across desktop, phone, and tablet, the representative axe matrix
+passed 27 / 27, and the complete browser matrix passed 645 / 645. The
+production dependency audit found zero vulnerabilities. Eleven of the thirteen
+new stable URLs returned HTTP 200 to the automated check; VermontBiz and
+Legacy.com returned HTTP 403 bot restrictions, although their cited pages had
+already been reviewed.
+
+Consecutive final builds produced the identical complete-site tree digest
+`caf4baa34d0ff3463eb0faf89f9d2a1caab0b38988270529c0e4091e4baf6edf`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values in both the
+public source and built trees; the manifest SHA-256 is
+`724e06ee20fcfe04f3393a59514524ac4b6ae48131e1282c76ce1b9ccd93e23c`.
+The boundary-aware identifier audit found zero unexpected boundary matches,
+aggregate false positives, or manifest-size false positives across 24,372
+artifacts after reviewing 998 candidate substrings. No authenticated NARA
+Catalog API request was made.
+
+The Batch 201 database contains 3,029 durable research attempts, 2,410 private
+citation records, 754 affiliations, 363 organizations, and 1,477 claims: 320
+confirmed, 798 high, 302 medium, 31 low, and 26 conflicting. The public
+projection contains 1,407 sources representing 1,084 unique documents, 746
+affiliations, and 1,446 claims. Coverage distinguishes 1,811 people with a non-
+planned research attempt, 298 with verified-affiliation evidence, 166 with
+verified employment or self-employment evidence, and 1,760 whose archival-
+review need has been assessed.
 
 ## Batch 200 local release QA
 

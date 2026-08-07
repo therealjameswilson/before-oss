@@ -3019,6 +3019,46 @@ and were not committed. No authenticated Catalog request, credential, raw API
 response, full private identifier, full copyrighted page, or unsupported
 employer claim was stored or published.
 
+## Page-thirty-five Besancon-through-Bessermann pathways, Batch 201
+
+`research/evidence-page-thirty-five-robert-besancon-through-molly-bessermann-pathways_batch-201_2026-08-06.json`
+records ten contiguous people from Robert M. Besancon through Molly Bessermann.
+Page 35 was rendered at 300 dpi and checked against every raw and normalized
+source field. The official Army field-layout page 65 and occupation-code pages
+173-175, Frank Bessac oral-history transcript pages 1-3, and the University of
+Geneva diploma register page containing Molly Bessermann were separately
+rendered and visually inspected before import.
+
+The strict evidence bundle contains thirteen sources, seven normalized
+organizations, eleven affiliations, eighteen claims, forty-three claim-source
+links, ten person updates, and ten durable research attempts. Exact private-
+identifier matches in the official Army merged file confirm Anthony E.
+Beshensky, Frank B. Bessac, and Albert G. Besser. Alexander Besio's identifier
+resolves to Alexander Bosio; that one-letter conflict is public and the source
+spelling is not silently replaced. Broad Army-entry occupation codes for metal-
+product fabrication, textile manufacturing, electrical-machinery
+manufacturing, and foremen not elsewhere classified are retained only as
+qualified evidence and do not identify employers.
+
+Bessac's University of Montana first-person oral history explicitly documents
+Fort Riley cavalry training immediately before OSS recruitment and separately
+documents College of the Pacific and Stockton Junior College student status.
+The educational affiliations are not classified as employers. The CIA's
+official artist account, Smithsonian National Postal Museum record, and
+Arlington County collection record support Auriel Bessemer's high-confidence
+identity and a paid 1939-1940 federal mural commission. A contemporary account
+of Representative Peter Welch's medal presentation supports Albert Besser's
+Army Reserve-to-OSS pathway; an obituary's Yale chronology remains qualified
+student evidence. The University of Geneva's official register supports Molly
+Bessermann's 1942-1943 interpreter-program diploma, not an employment claim.
+
+Robert M. Besancon, Justina Besharov, Howard J. Besnia, and William C. Bessemer
+retain explicit archival-review outcomes for unresolved employer questions.
+The official Army bulk file, technical documents, PDF page renderings, and
+transient source copies were not committed. No authenticated Catalog request,
+credential, raw API response, full private identifier, full copyrighted page,
+or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

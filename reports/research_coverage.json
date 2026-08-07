@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T01:48:32+00:00",
+  "generated_at": "2026-08-07T02:45:17+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,43 +9,43 @@
     "person_entities": 23940,
     "stored_person_entities": 23941,
     "superseded_person_entities": 1,
-    "people_with_nonplanned_attempts": 1801,
-    "percent": 7.523
+    "people_with_nonplanned_attempts": 1811,
+    "percent": 7.5647
   },
   "verified_affiliation_coverage": {
     "person_entities": 23940,
-    "people_with_confirmed_or_high_published_affiliation": 295,
-    "percent": 1.2322
+    "people_with_confirmed_or_high_published_affiliation": 298,
+    "percent": 1.2448
   },
   "verified_employer_coverage": {
     "person_entities": 23940,
-    "people_with_confirmed_or_high_published_employer": 165,
-    "percent": 0.6892
+    "people_with_confirmed_or_high_published_employer": 166,
+    "percent": 0.6934
   },
   "archival_review_coverage": {
     "person_entities": 23940,
-    "people_assessed": 1750,
-    "percent": 7.3099
+    "people_assessed": 1760,
+    "percent": 7.3517
   },
   "research_status_counts": {
     "candidate_found": 1,
-    "completed": 61,
+    "completed": 64,
     "conflicting_sources": 18,
     "documented_prewar_employer_found": 42,
     "in_progress": 50,
     "needs_identity_review": 18,
     "needs_temporal_review": 4,
-    "not_started": 22139,
-    "occupation_only_found": 187,
-    "requires_archival_review": 1255,
+    "not_started": 22129,
+    "occupation_only_found": 190,
+    "requires_archival_review": 1259,
     "verified_employer_found": 165
   },
   "claim_confidence_counts": {
-    "confirmed": 317,
+    "confirmed": 320,
     "conflicting": 26,
-    "high": 789,
+    "high": 798,
     "low": 31,
-    "medium": 296
+    "medium": 302
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1464,
@@ -63,6 +63,6 @@
   },
   "possible_duplicate_groups": 214,
   "conflict_count": 19,
-  "citations": 2397,
-  "unique_source_documents": 1074
+  "citations": 2410,
+  "unique_source_documents": 1084
 }

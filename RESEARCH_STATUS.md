@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,801 people with a non-planned attempt | 23,940 active person entities | 7.5230% |
-| Verified-affiliation coverage | 295 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2322% |
-| Verified-employer coverage | 165 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6892% |
-| Archival-review coverage | 1,750 people with an individual file-access/priority assessment | 23,940 active person entities | 7.3099% |
+| Research-attempt coverage | 1,811 people with a non-planned attempt | 23,940 active person entities | 7.5647% |
+| Verified-affiliation coverage | 298 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2448% |
+| Verified-employer coverage | 166 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6934% |
+| Archival-review coverage | 1,760 people with an individual file-access/priority assessment | 23,940 active person entities | 7.3517% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 210
-- Identity status `high_confidence`: 369
+- Identity status `confirmed`: 213
+- Identity status `high_confidence`: 373
 - Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 18
-- Identity status `unresolved`: 23,257
+- Identity status `unresolved`: 23,250
 
 ## Personnel categories
 
@@ -49,15 +49,15 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,139
+- `not_started`: 22,129
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 42
-- `occupation_only_found`: 187
-- `requires_archival_review`: 1,255
-- `completed`: 61
+- `occupation_only_found`: 190
+- `requires_archival_review`: 1,259
+- `completed`: 64
 - `conflicting_sources`: 18
 - `verified_employer_found`: 165
 - Stratified pilot size: 75
@@ -67,15 +67,15 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,573. The detailed adapter breakdown remains reproducible in
+  adapters: 1,583. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 676 across 652 people; 73 additional
+- Saved `source_reviewed` outcomes: 683 across 659 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,019
+- Total recorded attempts/plans: 3,029
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 635; 613 have at least one public-eligible
+- People with saved reviewed claims: 642; 620 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2356,13 +2356,33 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
   route to Box 53 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 735 (published, qualified, or conflict-visible)
-- Database claims: 1,459; public-visible claims: 1,428 (317 confirmed, 789 high,
-  296 medium, 26 conflicting); 25 low-confidence claims are withheld and six
+- Batch 201 covers the next ten contiguous rows on page thirty-five, Robert M.
+  Besancon through Molly Bessermann. All ten rows and the relevant Army field-
+  layout and occupation-code pages, Frank Bessac oral-history transcript, and
+  University of Geneva diploma page were checked at 300 dpi. Exact private-
+  identifier matches confirm Anthony E. Beshensky, Frank B. Bessac, and Albert
+  G. Besser. Alexander Besio's exact identifier resolves to Alexander Bosio in
+  the official Army file; both spellings remain visible and Box 70 is the
+  controlling review. Broad Army occupation codes are published only as
+  qualified context and name no employer. Bessac's first-person oral history
+  explicitly places Fort Riley cavalry training immediately before OSS
+  recruitment and separately documents College of the Pacific student status.
+  A CIA account and Smithsonian records support Auriel Bessemer's OSS identity
+  and paid 1939-1940 mural commission. Congressional-medal coverage supports
+  Besser's Army Reserve-to-OSS pathway, while Yale remains student status.
+  Molly Bessermann's 1942-1943 Geneva interpreter diploma is a qualified
+  educational affiliation, not employment. Robert Besancon, Justina Besharov,
+  Howard Besnia, and William Bessemer retain archival-review outcomes for their
+  unresolved employer questions. No authenticated Catalog request, credential,
+  raw API response, full private identifier, or unsupported employer claim was
+  used or published.
+- Public-visible affiliations: 746 (published, qualified, or conflict-visible)
+- Database claims: 1,477; public-visible claims: 1,446 (320 confirmed, 798 high,
+  302 medium, 26 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,131 total and 3,065 public-visible; private source
-  records: 2,397; public source export: 1,394; unique source documents: 1,074
-- Canonical organizations: 356 private and 347 public
+- Claim-source links: 3,174 total and 3,108 public-visible; private source
+  records: 2,410; public source export: 1,407; unique source documents: 1,084
+- Canonical organizations: 363 private and 354 public
 - Conflicting claims: 26 across 19 people
 - NARA pull-list rows: 23,813
 

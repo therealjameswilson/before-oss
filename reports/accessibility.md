@@ -4,12 +4,23 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The new Batch 200 regression passed 3 / 3 at desktop, phone, and
+**PASS.** The new Batch 201 regression passed 3 / 3 at desktop, phone, and
 tablet widths. All 27 representative axe cases passed with no serious or
-critical violation. The complete 642-case matrix also passed locally.
+critical violation. The complete 645-case matrix also passed locally.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 201 adds a focused direct-route regression for Robert M. Besancon through
+Molly Bessermann. It checks every indexed name, page, literal rank or civilian
+grade, Box 54 or 70 location, masked or explicitly unprinted identifier,
+research state, employer-gap wording, and archival-review route. It separately
+verifies two commissioned-officer classifications; Anthony E. Beshensky's and
+Alexander Besio's occupation-only evidence; Frank B. Bessac's Army-to-OSS
+pathway; Auriel Bessemer's prewar mural commission; Albert G. Besser's distinct
+military, student, and occupation evidence; Molly Bessermann's student
+affiliation; and four archival-review profiles. The focused matrix passed 3 /
+3, and the complete matrix passed 645 / 645.
 
 Batch 200 adds a focused direct-route regression for Geno L. Bertini through
 Bernard M. Berzon. It checks every indexed name, page, literal rank or civilian

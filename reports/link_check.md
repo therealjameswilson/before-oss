@@ -4,16 +4,45 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,295 HTML files. Every relative
+**PASS.** The production build contains 24,302 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 347 organization profiles, and the
+The build includes 23,940 person profiles, 354 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,958 unique external URLs for separate live
+The checker inventoried 48,973 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 201 local release check
+
+The complete 24,302-page internal-link pass includes direct routes for Robert
+M. Besancon through Molly Bessermann on PDF page 35 and seven newly public
+organization routes. The focused desktop, phone, and tablet regression passed
+3 / 3, the complete browser matrix passed 645 / 645, the 69-test Python suite
+passed, and all 27 representative axe scans reported no serious or critical
+violation.
+
+The regression verifies two commissioned-officer classifications; Anthony E.
+Beshensky's and Alexander Besio's occupation-only evidence; Frank B. Bessac's
+Army-to-OSS pathway; Auriel Bessemer's prewar mural commission; Albert G.
+Besser's military, student, and occupation evidence; Molly Bessermann's
+student affiliation; and four archival-review profiles. Colleges and the
+University of Geneva remain student affiliations, not employers. Eleven of the
+thirteen Batch 201 URLs returned HTTP 200 to the automated check; two
+commercial sites returned HTTP 403 bot restrictions rather than broken-page
+responses.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,372 artifacts, rejected 998
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`724e06ee20fcfe04f3393a59514524ac4b6ae48131e1282c76ce1b9ccd93e23c`.
+Two consecutive production builds produced the identical static-tree digest
+`caf4baa34d0ff3463eb0faf89f9d2a1caab0b38988270529c0e4091e4baf6edf`.
 
 ## Batch 200 local release check
 

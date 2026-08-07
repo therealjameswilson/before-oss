@@ -17677,3 +17677,129 @@ test("Batch 200 preserves Bertini-through-Berzon and keeps occupation, affiliati
     );
   }
 });
+
+test("Batch 201 preserves Besancon-through-Bessermann and separates employers, military pathways, student status, and occupations", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e16c3a49-d660-5931-8756-f1f0414bcb28", "Robert M Besancon", "Capt", "masked"],
+    ["fe73019b-70a3-57c2-88f1-f81e691055aa", "Justina Besharov", "Not printed", "Not printed"],
+    ["4ad63034-9038-5ead-a21b-bb711bfa3d5c", "Anthony E Beshensky", "Pfc", "masked"],
+    ["5e0a730a-c6ac-52b0-9f4f-63a774560d35", "Alexander Besio", "Pvt", "masked"],
+    ["ff01bb5e-148d-5755-882e-567cb07965cc", "Howard J Besnia", "T-5", "masked"],
+    ["e3d3ebd1-3c70-535d-a092-f52630dcce15", "Frank B Bessac", "Pfc", "masked"],
+    ["f2352d2d-2f91-5496-a7cf-9f0d86ebb52b", "Auriel Bessemer", "SP-6", "Not printed"],
+    ["13075612-aaf5-5742-a38a-a2126fd3d66c", "William C Bessemer", "1st Lt", "masked"],
+    ["37124fb4-ba52-5e56-9bab-443db72639e6", "Albert G Besser", "Pfc", "masked"],
+    ["3e716a90-41fe-5367-9417-fa56f0824425", "Molly Bessermann", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 35");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(
+      personId === "5e0a730a-c6ac-52b0-9f4f-63a774560d35" ? "70" : "54",
+    );
+  }
+
+  await page.goto("./people/4ad63034-9038-5ead-a21b-bb711bfa3d5c/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "fabrication of metal products",
+  );
+
+  await page.goto("./people/5e0a730a-c6ac-52b0-9f4f-63a774560d35/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Alexander Bosio");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "manufacture of textiles",
+  );
+
+  await page.goto("./people/e3d3ebd1-3c70-535d-a092-f52630dcce15/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Fort Riley",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "College of the Pacific",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Stockton Junior College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "electrical machinery",
+  );
+
+  await page.goto("./people/f2352d2d-2f91-5496-a7cf-9f0d86ebb52b/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "U.S. Department of the Treasury, Section of Fine Arts",
+  );
+  await expect(page.locator("main")).toContainText("Commissioned muralist");
+
+  await page.goto("./people/37124fb4-ba52-5e56-9bab-443db72639e6/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Army Reserve Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Yale College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Foreman",
+  );
+
+  await page.goto("./people/3e716a90-41fe-5367-9417-fa56f0824425/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Geneva",
+  );
+
+  for (const personId of [
+    "e3d3ebd1-3c70-535d-a092-f52630dcce15",
+    "f2352d2d-2f91-5496-a7cf-9f0d86ebb52b",
+    "37124fb4-ba52-5e56-9bab-443db72639e6",
+    "3e716a90-41fe-5367-9417-fa56f0824425",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "e16c3a49-d660-5931-8756-f1f0414bcb28",
+    "fe73019b-70a3-57c2-88f1-f81e691055aa",
+    "ff01bb5e-148d-5755-882e-567cb07965cc",
+    "13075612-aaf5-5742-a38a-a2126fd3d66c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "e16c3a49-d660-5931-8756-f1f0414bcb28",
+    "13075612-aaf5-5742-a38a-a2126fd3d66c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("main")).toContainText("commissioned army officer");
+    await expect(page.locator("main")).toContainText("Commissioned officerYes");
+  }
+});
