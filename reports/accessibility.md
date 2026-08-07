@@ -4,12 +4,23 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **660 / 660**
+**PASS.** The complete browser and accessibility matrix passed **663 / 663**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 207 adds a focused direct-route regression for Victor M. Bienstock
+through Genevieve Bigelow on PDF page 36. It checks all ten indexed names,
+literal ranks or civilian grades, Boxes 55-56, public-safe identifier masking,
+identity and research states, employer-gap wording, and archival-review routes.
+It separately verifies Bienstock's qualified, non-immediate Overseas News
+Agency employment; Leonard P. Bienvenu's exact NARA file identity; Lilly
+Bienvenu's high-confidence Army identity and retained birth-year discrepancy;
+and Emerson Bigelow's high-confidence OSS identity, qualified unnamed federal
+predecessor, and occupation-only financial experience. Six unresolved or
+identity-review profiles remain explicit. The focused matrix passed 3 / 3.
 
 Batch 206 adds a focused direct-route regression for Charles Bidien through
 Stephen Bienieck on PDF page 36. It checks all ten indexed names, literal ranks
@@ -21,7 +32,7 @@ employment; and Harold Bienenstock's explicit Army-intelligence predecessor
 and qualified unnamed bookstore employment. Six unsupported or incomplete
 identities remain unresolved or in identity review rather than becoming facts.
 
-The current production build contains 24,315 HTML pages. Astro check reported
+The current production build contains 24,317 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and
 two consecutive builds produced identical path-and-file digests.
 

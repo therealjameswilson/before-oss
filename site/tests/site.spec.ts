@@ -18227,3 +18227,83 @@ test("Batch 206 separates detective, Army intelligence, bookstore, and unresolve
     );
   }
 });
+
+test("Batch 207 qualifies journalism and unnamed federal pathways while preserving archival uncertainty", async ({
+  page,
+}) => {
+  const profiles = [
+    ["7f6d2eea-4e74-5f20-a3e9-b261333c931d", "Victor M Bienstock", "Not printed", "Not printed", "55"],
+    ["a8b1448d-3004-54c5-8b65-c7c3beb9a4c9", "Leonard P Bienvenu", "Pfc", "masked", "56"],
+    ["0015ed94-f3b4-57ac-bf50-a74076be22ab", "Lilly Bienvenu", "T-4", "masked", "56"],
+    ["64506d91-a819-560b-a136-ab54eaa1b34e", "Elvera Bierlein", "Not printed", "Not printed", "56"],
+    ["c3a99fe0-0969-52c0-9ab6-e58822301187", "John O Bierman", "1st Sgt", "masked", "56"],
+    ["b383b3fd-10a9-5d69-bdf6-09b41dd3828a", "Mary C Biesemeier", "Not printed", "Not printed", "56"],
+    ["77b410d4-a3c0-57c9-b6bf-972746a9fbe8", "Evelyn C Bigalke", "Caf-4", "Not printed", "56"],
+    ["908d7341-0aa9-5d97-bf4b-b8106beb481a", "Edward L Bigelow", "Lt Col", "masked", "56"],
+    ["7bdf5155-f126-53cd-bf47-4b0d22f83c25", "Emerson Bigelow", "Not printed", "Not printed", "56"],
+    ["ba08ec91-090f-5aec-b2bb-f7d8776d14a8", "Genevieve Bigelow", "Not printed", "Not printed", "56"],
+  ];
+
+  for (const [personId, displayName, rank, serial, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 36");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  await page.goto("./people/7f6d2eea-4e74-5f20-a3e9-b261333c931d/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Overseas News Agency",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/a8b1448d-3004-54c5-8b65-c7c3beb9a4c9/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("located one file for Bienvenu, Leonard P., Pfc.");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/0015ed94-f3b4-57ac-bf50-a74076be22ab/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("National Cathedral Roll of Honor");
+  await expect(page.locator("main")).toContainText("one-year birth discrepancy");
+
+  await page.goto("./people/7bdf5155-f126-53cd-bf47-4b0d22f83c25/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Unspecified United States government agencies and departments",
+  );
+  await expect(page.locator("main")).toContainText(
+    "more than twenty years of financial consulting and foreign-exchange experience",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const personId of [
+    "b383b3fd-10a9-5d69-bdf6-09b41dd3828a",
+    "77b410d4-a3c0-57c9-b6bf-972746a9fbe8",
+    "908d7341-0aa9-5d97-bf4b-b8106beb481a",
+    "ba08ec91-090f-5aec-b2bb-f7d8776d14a8",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

@@ -4,16 +4,41 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,315 HTML files. Every relative
+**PASS.** The production build contains 24,317 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 367 organization profiles, and the
+The build includes 23,940 person profiles, 369 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,010 unique external URLs for separate live
+The checker inventoried 49,017 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 207 local release check
+
+The complete 24,317-page internal-link pass includes direct routes for Victor
+M. Bienstock through Genevieve Bigelow on PDF page 36 and two new organization
+routes. The 69-test Python suite, deterministic 200-profile audit, and complete
+663-case desktop, phone, and tablet browser matrix passed; Astro reported zero
+errors, warnings, or hints.
+
+The regression verifies ten source rows across Boxes 55-56; literal ranks and
+civilian grades; public-safe identifier masking; Victor M. Bienstock's
+qualified and non-immediate Overseas News Agency employment; Leonard P.
+Bienvenu's exact NARA file identity; Lilly Bienvenu's high-confidence Army
+identity and visible one-year birth discrepancy; and Emerson Bigelow's direct
+OSS identity, qualified unnamed federal pathway, and occupation-only financial
+experience. Six unsupported identities remain unresolved or in identity
+review, and no source's ambiguity is converted into an employer claim.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,387 artifacts, reviewed 998
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`4c6def08cf1d4c6f9ce91f2766884d949ecc63d458a8b111a5c97b2319a545cc`.
+Two consecutive production builds produced the identical static-tree digest
+`8cd26dfcba5555e6e24dd1797bb1fa19251ee4900064aa3ef74653ee5c1ec5e2`.
 
 ## Batch 206 local release check
 
