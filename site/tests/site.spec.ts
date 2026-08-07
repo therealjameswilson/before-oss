@@ -17883,3 +17883,86 @@ test("Batch 202 preserves Bessho-through-Bettum and separates confirmed military
     );
   }
 });
+
+test("Batch 203 preserves Betz-through-Bewley and separates French Army, Radiomarine, NBC, and archival pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1b60f41f-ce41-5807-bcb0-dec7748ea580", "Orion F Betz", "Not printed", "Not printed"],
+    ["c5fc125c-2a73-5f0f-b70d-270b1b273813", "Raymond C Beu", "Pfc", "masked"],
+    ["1a035822-8c36-5259-97a3-cf956d8051bb", "Rapheal G Beugnon", "2nd Lt", "masked"],
+    ["d2246789-0229-5adc-84ee-58a4d106749c", "Jean Beuris", "Caf-5", "Not printed"],
+    ["2f84c40b-cc24-5699-9b3a-33f4dc437aa5", "Kenneth W Bevars", "Pvt", "masked"],
+    ["4d09b361-7203-58a7-99e2-3a63baf14f4e", "Leo T Bevensee", "T-5", "masked"],
+    ["19a12998-c938-552e-8bc9-8f4cf6d5d9f3", "Elizabeth Beverley", "Not printed", "Not printed"],
+    ["133e203e-c2f8-5978-83c8-896a7d84fec2", "John B Beves", "T-4", "masked"],
+    ["a583532b-5750-5264-90a4-cbb5ca567a71", "Hugh M Beville", "Lt Col", "Not printed"],
+    ["e49ae097-e243-5b49-ac2c-53befc737e53", "Willis B Bewley Jr.", "T-4", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 35");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("54");
+  }
+
+  await page.goto("./people/1a035822-8c36-5259-97a3-cf956d8051bb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Raphael Gaston Beugnon");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "French Army",
+  );
+  await expect(page.locator("main")).toContainText("General Giraud");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/4d09b361-7203-58a7-99e2-3a63baf14f4e/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Radiomarine Corporation",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "S.S. Padsnay",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/a583532b-5750-5264-90a4-cbb5ca567a71/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "National Broadcasting Company",
+  );
+  await expect(page.locator("main")).toContainText("1942");
+  await expect(page.locator("main")).toContainText("released as lieutenant colonel");
+
+  for (const personId of [
+    "1b60f41f-ce41-5807-bcb0-dec7748ea580",
+    "c5fc125c-2a73-5f0f-b70d-270b1b273813",
+    "d2246789-0229-5adc-84ee-58a4d106749c",
+    "2f84c40b-cc24-5699-9b3a-33f4dc437aa5",
+    "19a12998-c938-552e-8bc9-8f4cf6d5d9f3",
+    "133e203e-c2f8-5978-83c8-896a7d84fec2",
+    "e49ae097-e243-5b49-ac2c-53befc737e53",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
