@@ -18597,3 +18597,86 @@ test("Batch 210 publishes supported pathways and preserves unresolved page 37 id
     );
   }
 });
+
+test("Batch 211 separates documented pathways from unresolved page 37 identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["d2e0301e-3982-52e0-b76c-790166feec7e", "Mary B Biow", "Not printed", false],
+    ["b8f3aacc-19c7-59b6-8f0d-30d113361a68", "John M Birch", "1st Lt", true],
+    ["d33814c8-dbb9-54ce-8c05-d8085928e3ef", "Edward L Birchard", "Pfc", true],
+    ["b46c1301-2887-5727-9678-537d55bc32ab", "June E Birchard", "Caf-7", false],
+    ["908e3808-2009-55bf-8d26-09d7d79f2bf2", "Richard W Bird", "1st Lt", false],
+    ["cc1e8a51-5a1a-5b76-ae80-3fd1829e7f63", "Willis H Bird", "Lt Col", true],
+    ["fd853e5b-a24b-5f2d-ad20-414fb150374a", "Ralph R Birdsall", "T-3", true],
+    ["8298e379-1180-5e35-a749-5dcb3d5f8888", "Sidney H Birdseye", "p-5", false],
+    ["a86946ce-2242-528c-b0bf-b02226f553e5", "Edwin J Birecki", "Pfc", true],
+    ["397ff8c9-d465-5e11-b4a1-77369daa4ee8", "John D Birn", "2nd Lt", true],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 37");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("57");
+  }
+
+  await page.goto("./people/b8f3aacc-19c7-59b6-8f0d-30d113361a68/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army Air Forces, Fourteenth Air Force",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "World Fundamentalism Missionary Fellowship",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Mercer University",
+  );
+
+  await page.goto("./people/cc1e8a51-5a1a-5b76-ae80-3fd1829e7f63/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Sears, Roebuck and Company",
+  );
+  await expect(page.locator("main")).toContainText("medium");
+
+  await page.goto("./people/8298e379-1180-5e35-a749-5dcb3d5f8888/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Technical Commission for Demarcation of the Guatemala-Honduras Frontier",
+  );
+  await expect(page.locator("main")).toContainText("government assignment");
+
+  await page.goto("./people/fd853e5b-a24b-5f2d-ad20-414fb150374a/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("January 27, 1941");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "d2e0301e-3982-52e0-b76c-790166feec7e",
+    "d33814c8-dbb9-54ce-8c05-d8085928e3ef",
+    "b46c1301-2887-5727-9678-537d55bc32ab",
+    "908e3808-2009-55bf-8d26-09d7d79f2bf2",
+    "a86946ce-2242-528c-b0bf-b02226f553e5",
+    "397ff8c9-d465-5e11-b4a1-77369daa4ee8",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

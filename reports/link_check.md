@@ -4,16 +4,41 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,319 HTML files. Every relative
+**PASS.** The production build contains 24,324 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 371 organization profiles, and the
+The build includes 23,940 person profiles, 376 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,036 unique external URLs for separate live
+The checker inventoried 49,046 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 211 local release check
+
+The complete 24,324-page internal-link pass includes direct routes for Mary B.
+Biow through John D. Birn on PDF page 37 and five new organization profiles.
+The 69-test Python suite, deterministic 200-profile audit, and clean 675-case
+desktop, phone, and tablet browser matrix passed; Astro reported zero errors,
+warnings, or hints, and the dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows in Box 57, literal ranks,
+public-safe identifier masking, identity and research states, employer-gap
+wording, and archival-review routes. It separately checks John M. Birch's
+military, missionary, and student pathways; Willis H. Bird's qualified Sears
+employment; Sidney H. Birdseye's boundary-survey assignment; Ralph R.
+Birdsall's exact Army identity without an employer inference; and six explicit
+archival-review profiles.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,394 artifacts, reviewed 998
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`d19cbead556e855bc3172f8bd0a7c3137f20b8a8a354b21c0b34eef841088253`.
+Consecutive public-data and production-site builds produced identical trees;
+the complete-site digest is
+`959383a278ab2a1158906e8a0c8810d4a526f6cdf21eaf0ac61fa943ace444cc`.
 
 ## Batch 210 local release check
 

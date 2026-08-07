@@ -5,37 +5,37 @@ Run: 2026-08-07 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,319 pages**
-- Internal link check: **24,319 HTML files passed**
-- Complete browser and accessibility matrix: **672 / 672 passed** across
+- Static production build: **24,324 pages**
+- Internal link check: **24,324 HTML files passed**
+- Complete browser and accessibility matrix: **675 / 675 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`f94635e4ad7b314ca01be4f2292e353399bc2e4ecc4c910d2fdbe25789adb745`)
-- Latest deterministic build (Batch 210): **byte-for-byte identical** across
+  (`959383a278ab2a1158906e8a0c8810d4a526f6cdf21eaf0ac61fa943ace444cc`)
+- Latest deterministic build (Batch 211): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `28721cfe805cd9c22265d291fc9a4ecb0ed2fa6ca425b25e6a28fdacf8e5af1c`
+  `d19cbead556e855bc3172f8bd0a7c3137f20b8a8a354b21c0b34eef841088253`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,389** production artifacts, including compressed mirrors.
+  matches** in **24,394** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,478** public records representing **1,139** unique documents
-- Private citation records: **2,483**
-- Published, qualified, or conflict-visible affiliations: **780**
-- Published or conflict-visible claims: **1,517**
-- Verified-affiliation metric: **310** people with confirmed/high published
+- Reviewed public sources: **1,487** public records representing **1,145** unique documents
+- Private citation records: **2,492**
+- Published, qualified, or conflict-visible affiliations: **785**
+- Published or conflict-visible claims: **1,526**
+- Verified-affiliation metric: **312** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **170** people with confirmed/high published
+- Verified-employer metric: **171** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -97,6 +97,51 @@ Run: 2026-08-07 UTC
   matrix passed locally
 - Batch 210 local release checks: **passed**; the complete **672-case** browser
   matrix passed locally
+- Batch 211 local release checks: **passed**; the complete **675-case** browser
+  matrix passed locally
+
+## Batch 211 local release QA
+
+Batch 211 adds the ten visually checked page-37 source rows from Mary B. Biow
+through John D. Birn, all indexed in Box 57. The strict evidence bundle imports
+nine sources, five organization references, five affiliations, nine claims,
+twenty-two claim-source links, ten person updates, and ten durable research
+attempts. Official, institutional, contemporary, and scholarly sources support
+John M. Birch's immediate Fourteenth Air Force assignment, earlier paid
+missionary work, and Mercer student status; Willis H. Bird's qualified prewar
+Sears employment; Sidney H. Birdseye's 1935-36 international boundary-survey
+assignment; and Ralph R. Birdsall's exact Army identity. Mary B. Biow, Edward
+L. Birchard, June E. Birchard, Richard W. Bird, Edwin J. Birecki, and John D.
+Birn remain explicit archival-review cases.
+
+SQLite integrity and ingest validation passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,324 pages. The internal-link checker passed all 24,324 HTML
+files. The focused Batch 211 regression passed 3 / 3, and the clean complete
+single-worker Playwright and axe matrix passed 675 / 675 across desktop, phone,
+and tablet. The production dependency audit found zero vulnerabilities.
+
+Consecutive public-data and production-site builds produced identical tree
+digests. The complete-site digest is
+`959383a278ab2a1158906e8a0c8810d4a526f6cdf21eaf0ac61fa943ace444cc`.
+All 65 public-manifest assets have recorded paths, sizes, and SHA-256 values;
+the manifest SHA-256 is
+`d19cbead556e855bc3172f8bd0a7c3137f20b8a8a354b21c0b34eef841088253`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 998 candidate substrings, and
+found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,394 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 211 database contains 3,129 durable research attempts, 2,492 private
+citation records, 793 affiliations, 385 organizations, and 1,557 claims: 336
+confirmed, 838 high, 324 medium, 31 low, and 28 conflicting. The public
+projection contains 1,487 source records representing 1,145 unique documents,
+785 affiliations, and 1,526 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,909 people with a non-planned research attempt, 312
+with verified-affiliation evidence, 171 with verified employment or
+self-employment evidence, and 1,858 whose archival-review need has been
+assessed.
 
 ## Batch 210 local release QA
 

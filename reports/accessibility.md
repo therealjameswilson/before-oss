@@ -4,12 +4,21 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **672 / 672**
+**PASS.** The complete browser and accessibility matrix passed **675 / 675**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 211 adds a focused direct-route regression for Mary B. Biow through John
+D. Birn on PDF page 37. It checks all ten indexed names, literal ranks, Box 57,
+public-safe identifier masking, identity and research states, employer-gap
+wording, and archival-review routes. It separately verifies John M. Birch's
+Fourteenth Air Force, missionary, and Mercer pathways; Willis H. Bird's
+qualified Sears employment; Sidney H. Birdseye's government boundary-survey
+assignment; Ralph R. Birdsall's exact Army identity without interpreting an
+employer; and six unresolved profiles. The focused matrix passed 3 / 3.
 
 Batch 210 adds a focused direct-route regression for Joe E. Bilsky through
 Leonard F. Biondi on PDF page 37. It checks all ten indexed names, literal
@@ -51,7 +60,7 @@ employment; and Harold Bienenstock's explicit Army-intelligence predecessor
 and qualified unnamed bookstore employment. Six unsupported or incomplete
 identities remain unresolved or in identity review rather than becoming facts.
 
-The current production build contains 24,319 HTML pages. Astro check reported
+The current production build contains 24,324 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and
 two consecutive builds produced identical path-and-file digests.
 
