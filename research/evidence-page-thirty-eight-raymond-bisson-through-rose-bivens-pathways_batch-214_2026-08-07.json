@@ -1,0 +1,902 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS reviewed research workflow, batch 214",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-38-batch214",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 58",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 38, rows 8-17; Raymond Bisson through Rose M. Bivens; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch214",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier and name matches accepted for John Bitsikas and Bernard I. Bitten; Frank Bitonte has a transposition in the leading two digits and remains conflicting; no exact match accepted for Raymond Bisson",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch214",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Reference Copy pages 40-42: fixed-width field positions and Enlisted Reserve Corps column-shift rules; Bernard I. Bitten's card-format marker and occupation columns were checked against these rules",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines the record layout and warns that the merged file contains best-guess interpretations. Civilian occupation was recorded at Army entry and does not name an employer."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch214",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF pages 170, 174, and 304: codes 002, 932, and 992; visually and textually checked",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official corrected code documentation. The groups identify an occupation or student status only and do not establish an employer, workplace, school, or exact duties."
+    },
+    {
+      "key": "nps-raymond-bisson-oss-action-batch214",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "archival_identifier": "National Park Service article; source notes cite Records of the Office of Strategic Services, RG 226",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": null,
+      "locator": "Section describing the French Jedburgh and Operational Group campaigns: Technician 5th Grade Raymond Bisson of Rochester, New Hampshire, and his death on August 28, 1944",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Park Service, Office of Strategic Services scholarship",
+      "rights_notes": "Official federal historical publication grounded in RG 226 records. It establishes OSS identity and wartime context, not a pre-OSS employer."
+    },
+    {
+      "key": "wentworth-military-academy-yearbook-1940-batch214",
+      "stable_url": "https://wmamuseum.org/wp-content/uploads/2023/11/YearbookWMA-1940.pdf",
+      "archival_identifier": "Wentworth Military Academy 1940 yearbook",
+      "title": "Wentworth Military Academy Yearbook, 1940",
+      "author_creator": "Wentworth Military Academy",
+      "repository_publisher": "Wentworth Military Academy Museum",
+      "publication_record_date": "1940",
+      "locator": "PDF page 38, printed page 69: Company C cadet roster; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Wentworth Military Academy Museum digital yearbooks",
+      "rights_notes": "Institutional yearbook evidence. The uncommon exact full name supports a probable identity only; the academy is recorded as a student affiliation, never as an employer."
+    },
+    {
+      "key": "colorado-adjutant-general-report-1940-batch214",
+      "stable_url": "https://spl.cde.state.co.us/artemis/milserials/mil11internet/mil111940internet.pdf",
+      "archival_identifier": "Biennial Report of the Adjutant General of the State of Colorado, 1940",
+      "title": "Biennial Report of the Adjutant General, State of Colorado",
+      "author_creator": "Adjutant General of the State of Colorado",
+      "repository_publisher": "Colorado State Publications Library",
+      "publication_record_date": "1940-11-30",
+      "locator": "PDF page 13, printed page 12, Chemical Warfare School detail; PDF page 28, printed page 27, General Orders No. 15 of August 10, 1940; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Colorado state military reports",
+      "rights_notes": "Contemporary official state report. Exact uncommon name and prewar military context support a probable, not confirmed, identity because the OSS index supplies no identifier or rank."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "wentworth-military-academy-batch214",
+      "canonical_name": "Wentworth Military Academy",
+      "historical_name": "Wentworth Military Academy",
+      "aliases": [
+        "Wentworth Military Academy and College",
+        "WMA"
+      ],
+      "organization_type": "military academy",
+      "sector": "academia_and_research",
+      "city": "Lexington",
+      "state_or_region": "Missouri",
+      "country": "United States",
+      "active_dates": "Historical military academy active in 1940",
+      "normalization_notes": "The 1940 historical academy name is preserved. Student attendance is not classified as employment."
+    },
+    {
+      "key": "battery-e-168th-field-artillery-colorado-national-guard-batch214",
+      "canonical_name": "Battery E, 168th Field Artillery, Colorado National Guard",
+      "historical_name": "Battery E, 168th Field Artillery",
+      "aliases": [
+        "Battery E, 168th F.A.",
+        "168th Field Artillery, Colorado National Guard"
+      ],
+      "organization_type": "military unit",
+      "sector": "military",
+      "city": null,
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "active_dates": "Documented in the 1940 Colorado Adjutant General report",
+      "normalization_notes": "The battery and regiment are preserved as the historical unit named by the contemporary order."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "franklin-j-bithos-wentworth-student-batch214",
+      "person_id": "547a5459-49d2-52d9-b0a8-e24671c0b382",
+      "organization_key": "wentworth-military-academy-batch214",
+      "organization_name_as_found": "Wentworth Military Academy",
+      "role_title": "Cadet private, Company C",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1940",
+      "date_precision": "The 1940 yearbook lists Franklin J. Bithos as a Company C cadet private; enrollment dates beyond the yearbook year were not established.",
+      "city": "Lexington",
+      "state_or_region": "Missouri",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The uncommon exact full name and military chronology support a probable match, but the yearbook supplies no OSS identifier or direct service linkage. The academy is a student affiliation, not an employer."
+    },
+    {
+      "key": "ralph-m-bitler-colorado-national-guard-batch214",
+      "person_id": "cf166d50-8a1b-5555-87ea-fd29438128b9",
+      "organization_key": "battery-e-168th-field-artillery-colorado-national-guard-batch214",
+      "organization_name_as_found": "Battery E, 168th Field Artillery",
+      "role_title": "Captain",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": "1940-08-10",
+      "date_precision": "General Orders No. 15 dated August 10, 1940 lists Captain Ralph M. Bitler with Battery E; the report also documents his 1940 Chemical Warfare School detail.",
+      "city": null,
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact uncommon name and wartime-compatible chronology support a probable match. Because the index supplies no identifier or rank, the unit cannot be presented as this person's confirmed or immediate pre-OSS assignment."
+    },
+    {
+      "key": "frank-bitonte-construction-occupation-conflict-batch214",
+      "person_id": "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Construction occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-10-19",
+      "date_precision": "The external Army-entry record dates entry to October 19, 1942 and carries occupation code 932; its leading identifier digits are transposed relative to the OSS index.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "conflicting",
+      "claim_confidence": "conflicting",
+      "source_quality": "A_direct_official",
+      "publication_status": "conflicting",
+      "research_notes": "Exact name, six matching trailing digits, and compatible enlisted ranks make this a strong candidate, but the two leading identifier digits are reversed. Neither value is corrected; the occupation remains conflicting and excluded from default analytics."
+    },
+    {
+      "key": "john-bitsikas-actor-occupation-batch214",
+      "person_id": "c7914228-4b13-5301-ac28-3c252c628439",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Actor or actress",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-05-07",
+      "date_precision": "The official Army-entry record carries civilian occupation code 002 on May 7, 1942; the code group does not name an employer, production, company, or venue.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation establishes no named employer or direct Army-to-OSS chronology."
+    },
+    {
+      "key": "bernard-i-bitten-student-status-batch214",
+      "person_id": "d55261d7-d5a5-514b-9bce-33f354cb6fd3",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942-10-06",
+      "date_precision": "The official Enlisted Reserve Corps record carries occupation code 992 on October 6, 1942 after applying NARA's documented column shift; no institution is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. Student is a status, not employment, and the record names no school or Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "raymond-bisson-high-confidence-oss-identity-batch214",
+      "person_id": "4ed4b4c3-8c51-5b24-96cc-76c86f6256da",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician 5th Grade Raymond Bisson is a high-confidence match to the OSS Operational Group member from Rochester, New Hampshire.",
+      "evidence_excerpt": "Technician 5th Grade Raymond Bisson of Rochester, N.H.",
+      "evidence_paraphrase": "The National Park Service identifies a same-name, same-rank OSS Operational Group member and documents his death in France on August 28, 1944.",
+      "identity_match_assessment": "Exact full name, exact Technician 5th Grade rank, and direct OSS context establish a high-confidence identity; the external article does not print the index identifier.",
+      "temporal_assessment": "The article documents OSS operational service in 1944 but supplies no pre-OSS employer or recruitment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Three name-only Army-file records carried other identifiers and were not assigned. The NPS evidence supports identity only, not a pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 8",
+          "excerpt_override": "BISSON RAYMOND T-5"
+        },
+        {
+          "source_key": "nps-raymond-bisson-oss-action-batch214",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "franklin-j-bithos-probable-identity-batch214",
+      "person_id": "547a5459-49d2-52d9-b0a8-e24671c0b382",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The 1940 Wentworth cadet Franklin J. Bithos is a probable, not confirmed, match to the indexed First Lieutenant.",
+      "evidence_excerpt": "Bithos, Franklin J.",
+      "evidence_paraphrase": "A 1940 institutional roster lists the same uncommon full name as a Company C cadet private before the indexed wartime lieutenant rank.",
+      "identity_match_assessment": "Exact uncommon full name, matching middle initial, and compatible cadet-to-officer chronology support a probable identity; no shared identifier or explicit OSS link was found.",
+      "temporal_assessment": "The 1940 yearbook clearly predates wartime OSS service, but the date of OSS entry is unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile must remain visibly qualified pending Box 58 or officer-record confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 11"
+        },
+        {
+          "source_key": "wentworth-military-academy-yearbook-1940-batch214",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "franklin-j-bithos-wentworth-student-claim-batch214",
+      "person_id": "547a5459-49d2-52d9-b0a8-e24671c0b382",
+      "affiliation_key": "franklin-j-bithos-wentworth-student-batch214",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match places Franklin J. Bithos as a cadet student at Wentworth Military Academy in 1940.",
+      "evidence_excerpt": "Bithos, Franklin J.",
+      "evidence_paraphrase": "The academy yearbook includes Franklin J. Bithos in the Company C cadet roster.",
+      "identity_match_assessment": "The identity is probable on uncommon exact name and military chronology, not confirmed by a shared identifier.",
+      "temporal_assessment": "The roster is dated 1940 and therefore documents a prewar affiliation, but not the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Wentworth is classified as a student institution, never an employer. This claim is excluded from verified-employer counts.",
+      "sources": [
+        {
+          "source_key": "wentworth-military-academy-yearbook-1940-batch214",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 11"
+        }
+      ]
+    },
+    {
+      "key": "ralph-m-bitler-probable-identity-batch214",
+      "person_id": "cf166d50-8a1b-5555-87ea-fd29438128b9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The Colorado National Guard officer Ralph M. Bitler is a probable, not confirmed, match to the index record.",
+      "evidence_excerpt": "Ralph M. Bitler, Captain, Battery E, 168th Field Artillery",
+      "evidence_paraphrase": "A contemporary official report names Captain Ralph M. Bitler in Battery E and documents a 1940 Chemical Warfare School detail.",
+      "identity_match_assessment": "The exact uncommon full name and compatible prewar military context support a probable match; the index has no rank or identifier for comparison.",
+      "temporal_assessment": "Both state-record references are dated in 1940, before wartime OSS service, but no transfer chronology is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 58 review is required before upgrading the identity or calling the assignment immediate pre-OSS.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 12"
+        },
+        {
+          "source_key": "colorado-adjutant-general-report-1940-batch214",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "ralph-m-bitler-colorado-national-guard-claim-batch214",
+      "person_id": "cf166d50-8a1b-5555-87ea-fd29438128b9",
+      "affiliation_key": "ralph-m-bitler-colorado-national-guard-batch214",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match documents Ralph M. Bitler as a Colorado National Guard captain in Battery E, 168th Field Artillery, in 1940.",
+      "evidence_excerpt": "Ralph M. Bitler, Captain, Battery E, 168th Field Artillery",
+      "evidence_paraphrase": "The official report places Bitler in Battery E and separately records his detail to the Chemical Warfare School during 1940.",
+      "identity_match_assessment": "The affiliation belongs to a probable exact-name candidate; no shared identifier or explicit OSS linkage was found.",
+      "temporal_assessment": "The evidence documents a 1940 military assignment but does not show it was immediately before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer, and is excluded from verified-employer counts.",
+      "sources": [
+        {
+          "source_key": "colorado-adjutant-general-report-1940-batch214",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 12"
+        }
+      ]
+    },
+    {
+      "key": "frank-bitonte-conflicting-identity-batch214",
+      "person_id": "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "An official Army record is a strong Frank Bitonte candidate, but its two leading identifier digits are transposed relative to the OSS index.",
+      "evidence_excerpt": "BITONTE FRANK",
+      "evidence_paraphrase": "The candidate shares the exact name and six trailing identifier digits with the index; the two leading digits appear in reverse order.",
+      "identity_match_assessment": "Exact name, six matching trailing digits, and compatible enlisted ranks strongly align, but the leading-digit conflict prevents confirmation.",
+      "temporal_assessment": "The candidate entered the Army on October 19, 1942; no later OSS sequence was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Neither private identifier is displayed or silently corrected. Box 58 and the original Army card are needed to resolve the transposition.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 13; private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch214",
+          "support_type": "contradicts",
+          "locator_override": "Exact-name record with six matching trailing identifier digits; full identifier withheld",
+          "excerpt_override": "BITONTE FRANK"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch214",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "frank-bitonte-construction-occupation-conflict-claim-batch214",
+      "person_id": "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
+      "affiliation_key": "frank-bitonte-construction-occupation-conflict-batch214",
+      "claim_type": "occupation",
+      "claim_text": "The conflicting Army candidate recorded a construction occupation not elsewhere classified at Army entry in 1942.",
+      "evidence_excerpt": "932 Construction occupations, n.e.c.",
+      "evidence_paraphrase": "The candidate's official record carries occupation code 932, which NARA defines as a broad construction group.",
+      "identity_match_assessment": "The occupation belongs only to the unresolved identifier-conflict candidate and is not presented as settled fact about the index record.",
+      "temporal_assessment": "The occupation was recorded at Army entry on October 19, 1942; its relationship to later OSS service is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The broad code supplies no employer, trade, project, location, or exact duty and is excluded from default analytics.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch214",
+          "support_type": "supports",
+          "locator_override": "Conflicting exact-name candidate; occupation code 932; private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch214",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 174, code 932"
+        },
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 13"
+        }
+      ]
+    },
+    {
+      "key": "john-bitsikas-confirmed-army-identity-batch214",
+      "person_id": "c7914228-4b13-5301-ac28-3c252c628439",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal John Bitsikas is confirmed in the official Army-entry file.",
+      "evidence_excerpt": "BITSIKAS JOHN",
+      "evidence_paraphrase": "The OSS index and Army record share the exact uncommon name, private identifier, and compatible enlisted status.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact full name, and compatible enlisted status.",
+      "temporal_assessment": "The official record dates Army entry to May 7, 1942; the later OSS chronology is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier remains restricted and is not reproduced in public data.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 14",
+          "excerpt_override": "BITSIKAS JOHN Cpl"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch214",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BITSIKAS JOHN"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch214",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "john-bitsikas-actor-occupation-claim-batch214",
+      "person_id": "c7914228-4b13-5301-ac28-3c252c628439",
+      "affiliation_key": "john-bitsikas-actor-occupation-batch214",
+      "claim_type": "occupation",
+      "claim_text": "John Bitsikas's official Army-entry record gives his civilian occupation group as actor or actress in May 1942.",
+      "evidence_excerpt": "002 Actors and actresses",
+      "evidence_paraphrase": "The exact-identifier Army record carries occupation code 002, defined by NARA as actors and actresses.",
+      "identity_match_assessment": "The exact private identifier confirms that the occupation code belongs to the indexed John Bitsikas.",
+      "temporal_assessment": "The occupation was recorded at Army entry on May 7, 1942, but no direct Army-to-OSS sequence is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The occupational group names no employer, company, venue, medium, or production and is not treated as a verified employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch214",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation code 002; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch214",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 170, code 002"
+        },
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 14"
+        }
+      ]
+    },
+    {
+      "key": "bernard-i-bitten-confirmed-army-identity-batch214",
+      "person_id": "d55261d7-d5a5-514b-9bce-33f354cb6fd3",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician 5th Grade Bernard I. Bitten is confirmed in the official Army-entry file.",
+      "evidence_excerpt": "BITTEN BERNARD I",
+      "evidence_paraphrase": "The OSS index and Army record share the exact full name, middle initial, private identifier, and compatible enlisted status.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact full name and middle initial, and compatible enlisted status.",
+      "temporal_assessment": "The official record dates entry through the Enlisted Reserve Corps to October 6, 1942; later OSS chronology is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier remains restricted. NARA's shifted-column rule was applied before interpreting the occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 15",
+          "excerpt_override": "BITTEN BERNARD I T-5"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch214",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BITTEN BERNARD I"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch214",
+          "support_type": "supports",
+          "locator_override": "Reference Copy pages 40-42, Enlisted Reserve Corps shifted fields"
+        }
+      ]
+    },
+    {
+      "key": "bernard-i-bitten-student-status-claim-batch214",
+      "person_id": "d55261d7-d5a5-514b-9bce-33f354cb6fd3",
+      "affiliation_key": "bernard-i-bitten-student-status-batch214",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Bernard I. Bitten's official Army-entry record gives his pre-entry status as student in October 1942.",
+      "evidence_excerpt": "992 Students",
+      "evidence_paraphrase": "Applying NARA's Enlisted Reserve Corps column shift yields occupation code 992, which the official code list defines as students.",
+      "identity_match_assessment": "The exact private identifier confirms that the status belongs to the indexed Bernard I. Bitten.",
+      "temporal_assessment": "Student status was recorded at Army entry on October 6, 1942, but the school and later OSS sequence are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is never counted as employment. No institution is inferred or supplied.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch214",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier Enlisted Reserve Corps record; shifted occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch214",
+          "support_type": "supports",
+          "locator_override": "Reference Copy pages 40-42, Enlisted Reserve Corps shifted fields"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch214",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 304, code 992"
+        },
+        {
+          "source_key": "nara-oss-index-page-38-batch214",
+          "support_type": "context_only",
+          "locator_override": "PDF page 38, row 15"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4ed4b4c3-8c51-5b24-96cc-76c86f6256da",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index and an official National Park Service history share Raymond Bisson's exact full name, Technician 5th Grade rank, and direct OSS context. The NPS source further identifies Rochester, New Hampshire, and 1944 Operational Group service. It does not print the private identifier or document pre-OSS employment.",
+      "name_variants": ["Raymond Bisson", "Bisson, Raymond"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for occupation, employer, recruitment chronology, and confirmation against the private identifier.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38e77bae-0375-5284-84ce-6accc7e692fe",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Elizabeth Bissonette and Box 58, with no rank, grade, middle initial, or private identifier. Official, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned namesakes without a direct OSS linkage or two corroborating identifiers.",
+      "name_variants": ["Elizabeth Bissonette", "Bissonette, Elizabeth"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full name, dates, personnel status, identifiers, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b1c48a1c-5521-51cc-9ae6-d5a7c2050657",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies John G. Bitel, civilian grade CAF-5, and Box 58 but no private identifier. Official, CIA, exact-name OSS, employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches returned no candidate with corroborating OSS or wartime evidence.",
+      "name_variants": ["John G Bitel", "John G. Bitel", "Bitel, John G."],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, the meaning of CAF-5, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "547a5459-49d2-52d9-b0a8-e24671c0b382",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified OSS index and a 1940 Wentworth Military Academy yearbook share Franklin J. Bithos's exact uncommon full name and middle initial. A cadet-private-to-First-Lieutenant chronology is compatible, but the yearbook supplies no private identifier or explicit OSS linkage.",
+      "name_variants": ["Franklin J Bithos", "Franklin J. Bithos", "Bithos, Franklin J."],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 58 and officer records to confirm or reject the Wentworth candidate and establish later service, employer, and OSS recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cf166d50-8a1b-5555-87ea-fd29438128b9",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified index and Colorado's official 1940 military report share the uncommon exact Ralph M. Bitler name. The report documents a National Guard captain and Chemical Warfare School detail, but the index supplies no rank or identifier for direct comparison.",
+      "name_variants": ["Ralph M Bitler", "Ralph M. Bitler", "Bitler, Ralph M."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 58 to confirm or reject the Colorado National Guard candidate and determine whether the 1940 military assignment preceded OSS directly.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified index and an official Army record share Frank Bitonte's exact name, six trailing private-identifier digits, and compatible enlisted status. The two leading identifier digits are transposed. Neither record is silently corrected, and the candidate remains conflicting.",
+      "name_variants": ["Frank Bitonte", "Bitonte, Frank"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Box 58, the original index source, and the original Army statistical card to resolve the leading-digit transposition before accepting the construction occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c7914228-4b13-5301-ac28-3c252c628439",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share John Bitsikas's exact uncommon name, private identifier, and compatible enlisted status. The Army record dates entry to May 7, 1942 and carries civilian occupation code 002.",
+      "name_variants": ["John Bitsikas", "Bitsikas, John"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies an actor-or-actress occupation group but no employer. Review Box 58 for a company, venue, production, exact role, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d55261d7-d5a5-514b-9bce-33f354cb6fd3",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Bernard I. Bitten's exact full name, middle initial, private identifier, and compatible enlisted status. Applying NARA's Enlisted Reserve Corps shift yields occupation code 992, students.",
+      "name_variants": ["Bernard I Bitten", "Bernard I. Bitten", "Bitten, Bernard I."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record establishes student status but names no institution or employer. Review Box 58 for the school and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5605ef38-414e-5bdf-bc3d-09e1cca782a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Kathleen Bitzer, civilian grade CAF-5, and Box 58 but no middle initial or private identifier. Official, CIA, exact-name OSS, employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches returned no candidate with corroborating OSS or wartime evidence.",
+      "name_variants": ["Kathleen Bitzer", "Bitzer, Kathleen"],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, the meaning of CAF-5, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a4fdc1ab-9f2e-5ad9-81e0-45f26fc375ed",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Rose M. Bivens, civilian grade CAF-3, and Box 58 but no private identifier. Official, CIA, exact-name OSS, employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches returned namesakes without corroborating OSS or wartime evidence.",
+      "name_variants": ["Rose M Bivens", "Rose M. Bivens", "Bivens, Rose M."],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, the meaning of CAF-3, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "raymond-bisson-protocol-batch214",
+      "person_id": "4ed4b4c3-8c51-5b24-96cc-76c86f6256da",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Raymond Bisson; Technician 5th Grade; private identifier; visually verified NARA index; official Army merged file; NARA and NPS OSS context; CIA Reading Room; exact-name OSS variants; Rochester New Hampshire; employment, occupation, military, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Three name-only official Army records carried different private identifiers and were not assigned; modern, genealogy, and obituary namesakes lacked the combined rank and OSS evidence.",
+      "research_notes": "The NPS history establishes a high-confidence OSS identity but supplies no pre-OSS employer. No Army bulk-file record was linked without an exact identifier.",
+      "next_action": "Review Box 58 for occupation, employer, recruitment chronology, and identifier confirmation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "elizabeth-bissonette-protocol-batch214",
+      "person_id": "38e77bae-0375-5284-84ce-6accc7e692fe",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Elizabeth Bissonette; visually verified NARA index; no printed rank or identifier; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, institutional, newspaper, obituary, directory, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Directory, genealogy, social, obituary, and modern candidates lacked a wartime OSS connection, Box 58 reference, personnel status, or two corroborating identifiers.",
+      "research_notes": "With no rank, grade, middle initial, or identifier, the exact name alone cannot resolve identity or justify an employer claim.",
+      "next_action": "Review Box 58 for full identity, personnel status, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "john-g-bitel-protocol-batch214",
+      "person_id": "b1c48a1c-5521-51cc-9ae6-d5a7c2050657",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John G. Bitel; CAF-5; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, government, institutional, newspaper, obituary, directory, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Government, business, directory, genealogy, and modern name variants lacked a Box 58 reference, CAF-5 linkage, OSS evidence, or matching wartime chronology.",
+      "research_notes": "The civilian grade is preserved without inventing an expansion or job title. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employer, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "franklin-j-bithos-protocol-batch214",
+      "person_id": "547a5459-49d2-52d9-b0a8-e24671c0b382",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Franklin J. Bithos; First Lieutenant; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and officer variants; official Army records; Wentworth Military Academy; employment, occupation, military, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A commercial alias summary was discovery-only and lacked inspectable primary support; other name variants and genealogy references lacked the exact middle initial, officer status, or OSS connection.",
+      "research_notes": "The institutional yearbook supports a probable student affiliation only. It does not prove the indexed officer's identity or name a civilian employer.",
+      "next_action": "Review Box 58 and officer records to confirm or reject the Wentworth candidate and establish later chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "ralph-m-bitler-protocol-batch214",
+      "person_id": "cf166d50-8a1b-5555-87ea-fd29438128b9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ralph M. Bitler; visually verified NARA index; no printed rank or identifier; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Colorado National Guard; 168th Field Artillery; Chemical Warfare School; employment, occupation, military, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Genealogy, cemetery, later military, and directory candidates lacked a Box 58 reference, OSS linkage, or a direct identifier connection to the indexed record.",
+      "research_notes": "The official 1940 state report supports a probable military affiliation. It does not prove identity, a civilian employer, or an immediate National Guard-to-OSS path.",
+      "next_action": "Review Box 58 to confirm or reject the Colorado National Guard candidate and establish the OSS sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "frank-bitonte-protocol-batch214",
+      "person_id": "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Frank Bitonte; Technician 5th Grade; private identifier comparison; official Army merged file; occupation code 932; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; construction, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Other newspaper, directory, genealogy, and modern candidates lacked the private identifier pattern, matching wartime chronology, or explicit OSS connection.",
+      "research_notes": "The exact-name Army candidate has six matching trailing identifier digits and reversed leading digits. The conflict and broad construction occupation are preserved without correction or default-analytics inclusion.",
+      "next_action": "Compare Box 58, the original index, and the original Army statistical card to resolve the identifier transposition.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "john-bitsikas-protocol-batch214",
+      "person_id": "c7914228-4b13-5301-ac28-3c252c628439",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John Bitsikas; Corporal; private identifier; official Army merged file; occupation code 002; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; actor, employer, occupation, Greek Operational Group, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Memorial, genealogy, and modern references did not add a reliable named prewar employer or stronger temporal evidence beyond the exact official Army record.",
+      "research_notes": "The exact Army match supplies only an actor-or-actress occupation group at Army entry. No employer, company, venue, production, or direct Army-to-OSS chronology was found.",
+      "next_action": "Review Box 58 for a named employer, precise acting work, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "bernard-i-bitten-protocol-batch214",
+      "person_id": "d55261d7-d5a5-514b-9bce-33f354cb6fd3",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bernard I. Bitten; Technician 5th Grade; private identifier; official Army merged file; Enlisted Reserve Corps shifted fields; occupation code 992; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; student, school, employer, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Directory, genealogy, school, obituary, and modern candidates lacked the exact private identifier, OSS connection, or sufficient evidence to name an institution.",
+      "research_notes": "NARA's Enlisted Reserve Corps instructions shift the occupation field, resolving the code as 992, students. No school or employer was found.",
+      "next_action": "Review Box 58 for the institution and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "kathleen-bitzer-protocol-batch214",
+      "person_id": "5605ef38-414e-5bdf-bc3d-09e1cca782a8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Kathleen Bitzer; CAF-5; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, government, institutional, newspaper, obituary, directory, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Government, directory, obituary, genealogy, and modern candidates lacked a Box 58 reference, CAF-5 linkage, OSS evidence, or two corroborating identifiers.",
+      "research_notes": "The civilian grade is preserved without expanding it into an unsupported title. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    },
+    {
+      "key": "rose-m-bivens-protocol-batch214",
+      "person_id": "a4fdc1ab-9f2e-5ad9-81e0-45f26fc375ed",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Rose M. Bivens; CAF-3; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, government, institutional, newspaper, obituary, directory, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:05:00+00:00",
+      "completed_at": "2026-08-07T23:52:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name government, directory, newspaper, obituary, genealogy, and modern candidates lacked a Box 58 reference, CAF-3 linkage, OSS evidence, or two corroborating identifiers.",
+      "research_notes": "The civilian grade is preserved without expanding it into an unsupported title. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch214-v1"
+    }
+  ]
+}

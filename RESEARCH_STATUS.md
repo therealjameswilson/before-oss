@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,929 people with a non-planned attempt | 23,940 active person entities | 8.0576% |
+| Research-attempt coverage | 1,939 people with a non-planned attempt | 23,940 active person entities | 8.0994% |
 | Verified-affiliation coverage | 312 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3033% |
 | Verified-employer coverage | 171 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7143% |
-| Archival-review coverage | 1,878 people with an individual file-access/priority assessment | 23,940 active person entities | 7.8446% |
+| Archival-review coverage | 1,888 people with an individual file-access/priority assessment | 23,940 active person entities | 7.8864% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 235
-- Identity status `high_confidence`: 394
-- Identity status `probable`: 63
+- Identity status `confirmed`: 237
+- Identity status `high_confidence`: 395
+- Identity status `probable`: 65
 - Identity status `ambiguous`: 29
-- Identity status `conflicting`: 21
-- Identity status `unresolved`: 23,198
+- Identity status `conflicting`: 22
+- Identity status `unresolved`: 23,192
 
 ## Personnel categories
 
@@ -49,16 +49,16 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,011
+- `not_started`: 22,001
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 29
+- `needs_identity_review`: 31
 - `needs_temporal_review`: 5
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 210
-- `requires_archival_review`: 1,328
+- `occupation_only_found`: 212
+- `requires_archival_review`: 1,333
 - `completed`: 68
-- `conflicting_sources`: 21
+- `conflicting_sources`: 22
 - `verified_employer_found`: 169
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -72,10 +72,10 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 738 across 712 people; 85 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,149
+- Total recorded attempts/plans: 3,159
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 692; 670 have at least one public-eligible
+- People with saved reviewed claims: 698; 676 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2413,14 +2413,33 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
   identifier or OSS link was found. No authenticated Catalog request,
   credential, raw API response, full private identifier, or unsupported
   employer claim was used or published.
-- Public-visible affiliations: 794 (published, qualified, or conflict-visible)
-- Database claims: 1,575; public-visible claims: 1,544 (342 confirmed, 839 high,
-  333 medium, 30 conflicting); 25 low-confidence claims are withheld and six
+- Batch 214 covers the next ten contiguous rows on page thirty-eight, Raymond
+  Bisson through Rose M. Bivens, all indexed in Box 58. The page and the
+  relevant official Army-file documentation and code-list pages were checked
+  visually. Exact private-identifier matches confirm John Bitsikas and Bernard
+  I. Bitten; their records support only a broad actor-or-actress occupation and
+  unnamed student status at Army entry. Frank Bitonte's exact-name Army record
+  shares six trailing identifier digits with the index but reverses the two
+  leading digits. The conflict is preserved without correction, and its broad
+  construction occupation is excluded from default analytics. An official
+  National Park Service history supports a high-confidence OSS identity for
+  Technician 5th Grade Raymond Bisson but names no pre-OSS employer. A 1940
+  institutional yearbook supports a probable Franklin J. Bithos student
+  affiliation at Wentworth Military Academy, while a contemporary Colorado
+  report supports a probable Ralph M. Bitler assignment in Battery E, 168th
+  Field Artillery. Both remain qualified, non-immediate, non-employer pathways
+  pending Box 58 review. Elizabeth Bissonette, John G. Bitel, Kathleen Bitzer,
+  and Rose M. Bivens remain unresolved archival-review cases. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 799 (published, qualified, or conflict-visible)
+- Database claims: 1,586; public-visible claims: 1,555 (344 confirmed, 840 high,
+  339 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,426 total and 3,360 public-visible; private source
-  records: 2,505; public source export: 1,500; unique source documents: 1,151
-- Canonical organizations: 388 private and 378 public
-- Conflicting claims: 30 across 22 people
+- Claim-source links: 3,455 total and 3,389 public-visible; private source
+  records: 2,512; public source export: 1,507; unique source documents: 1,155
+- Canonical organizations: 390 private and 380 public
+- Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,809
 
 Planned dry-run requests do not count as research-attempt coverage.

@@ -18841,3 +18841,95 @@ test("Batch 213 preserves page-boundary occupations and the Robert Bishop identi
     );
   }
 });
+
+test("Batch 214 publishes qualified page 38 pathways and preserves unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["4ed4b4c3-8c51-5b24-96cc-76c86f6256da", "Raymond Bisson", "T-5", true],
+    ["38e77bae-0375-5284-84ce-6accc7e692fe", "Elizabeth Bissonette", "Not printed", false],
+    ["b1c48a1c-5521-51cc-9ae6-d5a7c2050657", "John G Bitel", "Caf-5", false],
+    ["547a5459-49d2-52d9-b0a8-e24671c0b382", "Franklin J Bithos", "1st Lt", true],
+    ["cf166d50-8a1b-5555-87ea-fd29438128b9", "Ralph M Bitler", "Not printed", false],
+    ["3dd022f8-ea59-5a68-8e03-2aac8bf496e8", "Frank Bitonte", "T-5", true],
+    ["c7914228-4b13-5301-ac28-3c252c628439", "John Bitsikas", "Cpl", true],
+    ["d55261d7-d5a5-514b-9bce-33f354cb6fd3", "Bernard I Bitten", "T-5", true],
+    ["5605ef38-414e-5bdf-bc3d-09e1cca782a8", "Kathleen Bitzer", "Caf-5", false],
+    ["a4fdc1ab-9f2e-5ad9-81e0-45f26fc375ed", "Rose M Bivens", "Caf-3", false],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 38");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("58");
+  }
+
+  await page.goto("./people/4ed4b4c3-8c51-5b24-96cc-76c86f6256da/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Rochester, New Hampshire");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/547a5459-49d2-52d9-b0a8-e24671c0b382/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Wentworth Military Academy",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/cf166d50-8a1b-5555-87ea-fd29438128b9/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Battery E, 168th Field Artillery",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/3dd022f8-ea59-5a68-8e03-2aac8bf496e8/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("leading identifier digits are transposed");
+  await expect(page.locator("main")).toContainText(
+    "Construction occupation, not elsewhere classified",
+  );
+
+  await page.goto("./people/c7914228-4b13-5301-ac28-3c252c628439/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Actor or actress",
+  );
+
+  await page.goto("./people/d55261d7-d5a5-514b-9bce-33f354cb6fd3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+
+  for (const personId of [
+    "38e77bae-0375-5284-84ce-6accc7e692fe",
+    "b1c48a1c-5521-51cc-9ae6-d5a7c2050657",
+    "5605ef38-414e-5bdf-bc3d-09e1cca782a8",
+    "a4fdc1ab-9f2e-5ad9-81e0-45f26fc375ed",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

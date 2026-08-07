@@ -4,16 +4,43 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,326 HTML files. Every relative
+**PASS.** The production build contains 24,328 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 378 organization profiles, and the
+The build includes 23,940 person profiles, 380 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,053 unique external URLs for separate live
+The checker inventoried 49,057 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 214 local release check
+
+The complete 24,328-page internal-link pass includes direct routes for Raymond
+Bisson through Rose M. Bivens on PDF page 38 and two new organization profiles.
+The 69-test Python suite, deterministic 200-profile audit, and clean 684-case
+desktop, phone, and tablet browser matrix passed; Astro reported zero errors,
+warnings, or hints, and the production dependency audit found zero
+vulnerabilities.
+
+The regression verifies all ten indexed rows in Box 58, literal ranks or
+civilian grades, public-safe identifier masking, identity and research states,
+employer-gap wording, and archival-review routes. It separately checks
+Bisson's official identity-only evidence; Bithos's qualified Wentworth student
+status; Bitler's qualified Colorado National Guard assignment; Bitonte's
+leading-digit identifier conflict; and Bitsikas's and Bitten's bounded Army-
+entry evidence. No occupation, school, or military assignment is silently
+converted into a verified employer or immediate predecessor.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,398 artifacts, reviewed 1,004
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`22a12b1bcfb25b6ca5a815f812370bcb5ccc54e25f2cf96aec5688a107931a3c`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`bdff987fc60b39fc50b89e329800d3f210623d89bce94e60ae00436011aa0ed5`.
 
 ## Batch 213 local release check
 

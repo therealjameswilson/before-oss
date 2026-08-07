@@ -4,12 +4,23 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **681 / 681**
+**PASS.** The complete browser and accessibility matrix passed **684 / 684**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 214 adds a focused direct-route regression for Raymond Bisson through
+Rose M. Bivens on PDF page 38. It checks all ten indexed names, literal ranks
+or civilian grades, Box 58, public-safe identifier masking, identity and
+research states, employer-gap wording, and archival-review routes. It
+separately verifies Bisson's identity-only OSS evidence, Bithos's qualified
+Wentworth student affiliation, Bitler's qualified Colorado National Guard
+assignment, Bitonte's visible identifier conflict, and the two bounded Army-
+entry statuses without promoting any of them to verified employers. Four
+unsupported identities remain explicit archival-review cases. The focused
+matrix passed 3 / 3.
 
 Batch 213 adds a focused direct-route regression for Francis N. Bishop through
 Malcolm H. Bissell across PDF pages 37-38. It checks all ten indexed names,
@@ -80,7 +91,7 @@ employment; and Harold Bienenstock's explicit Army-intelligence predecessor
 and qualified unnamed bookstore employment. Six unsupported or incomplete
 identities remain unresolved or in identity review rather than becoming facts.
 
-The current production build contains 24,326 HTML pages. Astro check reported
+The current production build contains 24,328 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and
 two consecutive builds produced identical path-and-file digests.
 
