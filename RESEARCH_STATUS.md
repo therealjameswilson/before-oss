@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,821 people with a non-planned attempt | 23,940 active person entities | 7.6065% |
-| Verified-affiliation coverage | 300 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2531% |
-| Verified-employer coverage | 166 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6934% |
-| Archival-review coverage | 1,770 people with an individual file-access/priority assessment | 23,940 active person entities | 7.3935% |
+| Research-attempt coverage | 1,889 people with a non-planned attempt | 23,940 active person entities | 7.8906% |
+| Verified-affiliation coverage | 307 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2824% |
+| Verified-employer coverage | 168 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7018% |
+| Archival-review coverage | 1,838 people with an individual file-access/priority assessment | 23,940 active person entities | 7.6775% |
 
 ## Extraction and identity
 
@@ -23,43 +23,43 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 215
-- Identity status `high_confidence`: 373
-- Identity status `probable`: 58
+- Identity status `confirmed`: 226
+- Identity status `high_confidence`: 386
+- Identity status `probable`: 62
 - Identity status `ambiguous`: 29
-- Identity status `conflicting`: 18
-- Identity status `unresolved`: 23,247
+- Identity status `conflicting`: 19
+- Identity status `unresolved`: 23,218
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,482
+- Unknown or indeterminate: 16,478
 - Enlisted Army personnel: 3,523
 - Commissioned Army officers: 2,071
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,464
+- Civilian professional or administrative grades: 1,467
 - Foreign or Allied military personnel: 247
-- Enlisted naval personnel: 56
+- Enlisted naval personnel: 57
 - Commissioned naval officers: 82
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
+Commissioned classification: 2,175 yes; 5,078 no; 16,687 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,119
+- `not_started`: 22,051
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 18
-- `needs_temporal_review`: 4
-- `documented_prewar_employer_found`: 42
-- `occupation_only_found`: 190
-- `requires_archival_review`: 1,267
-- `completed`: 66
-- `conflicting_sources`: 18
-- `verified_employer_found`: 165
+- `needs_identity_review`: 29
+- `needs_temporal_review`: 5
+- `documented_prewar_employer_found`: 45
+- `occupation_only_found`: 202
+- `requires_archival_review`: 1,304
+- `completed`: 67
+- `conflicting_sources`: 19
+- `verified_employer_found`: 167
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -67,16 +67,16 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,593. The detailed adapter breakdown remains reproducible in
+  adapters: 1,667. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 685 across 661 people; 74 additional
+- Saved `source_reviewed` outcomes: 715 across 689 people; 85 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,039
+- Total recorded attempts/plans: 3,109
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 644; 622 have at least one public-eligible
-  claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
+- People with saved reviewed claims: 672; 650 have at least one public-eligible
+  claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
   Ford, Christian J. Lambertsen, Alfonso Rodriguez, Sidney L. Bartlett, Rene

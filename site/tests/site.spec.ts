@@ -18394,3 +18394,105 @@ test("Batch 208 publishes bounded occupation and student pathways without invent
     );
   }
 });
+
+test("Batch 209 publishes bounded occupations and preserves identifier conflicts on page 37", async ({
+  page,
+}) => {
+  const profiles = [
+    ["7530acdd-7dba-5c2a-81e1-f3a6ee68589b", "Clarence P Bilderback", "T-4", true],
+    ["309ae09e-6168-58c8-8d4f-7bdc046a6800", "Osias Biller", "Not printed", false],
+    ["b1c343dd-1093-5622-96c1-c5d2c31da61d", "James R Billingsley", "M/Sgt", true],
+    ["4089f554-ec5d-541d-a3d2-b6086eb5e1a1", "Charley A Billiot", "Pfc", true],
+    ["12139197-2b2f-55cf-bf23-bc78d956f03c", "Harry R Billiter", "Cpl", true],
+    ["9eecb97b-a91f-5366-906b-77ecd876a6e4", "Donald J Billman", "T-4", true],
+    ["ff51360b-db08-5dd8-bf4e-394a12f64e39", "Alexander Billy", "Sgt", true],
+    ["405c6499-7685-5524-b6a6-1ad1c737b994", "Adrien W Bilodeau", "T-5", true],
+    ["730a8d32-387e-5925-8cbc-7ebefc4246f9", "Robert H Bilodeau", "Not printed", false],
+    ["c7099f55-4fac-559c-b923-aa929787c2d2", "Ferdinand Bilotta", "T-4", true],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 37");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("56");
+  }
+
+  await page.goto("./people/309ae09e-6168-58c8-8d4f-7bdc046a6800/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Accountant or auditor",
+  );
+  await expect(page.locator("main")).toContainText("If the probable Army-file match is correct");
+
+  await page.goto("./people/b1c343dd-1093-5622-96c1-c5d2c31da61d/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Radio operator",
+  );
+  await expect(page.locator("main")).toContainText("leading zero");
+  await expect(page.locator("main")).toContainText("Team Edward");
+
+  await page.goto("./people/4089f554-ec5d-541d-a3d2-b6086eb5e1a1/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("resolves to a different name");
+  await expect(page.locator("main")).toContainText("No occupation is assigned");
+
+  await page.goto("./people/9eecb97b-a91f-5366-906b-77ecd876a6e4/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Donald Jay Billman");
+  await expect(page.locator("main")).toContainText("OSS in Africa and Italy");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const [personId, occupation] of [
+    [
+      "ff51360b-db08-5dd8-bf4e-394a12f64e39",
+      "Nonprocess occupation in manufacturing, not elsewhere classified",
+    ],
+    ["c7099f55-4fac-559c-b923-aa929787c2d2", "Bookkeeper or cashier, except bank cashier"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/405c6499-7685-5524-b6a6-1ad1c737b994/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "Company B, O.S.S., 2671st Special Recon Battalion",
+  );
+  await expect(page.locator("main")).toContainText("occupation code 999");
+
+  for (const personId of [
+    "7530acdd-7dba-5c2a-81e1-f3a6ee68589b",
+    "730a8d32-387e-5925-8cbc-7ebefc4246f9",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/12139197-2b2f-55cf-bf23-bc78d956f03c/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

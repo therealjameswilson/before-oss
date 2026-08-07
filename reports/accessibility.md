@@ -4,12 +4,21 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **663 / 663**
+**PASS.** The complete browser and accessibility matrix passed **669 / 669**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 209 adds a focused direct-route regression for Clarence P. Bilderback
+through Ferdinand Bilotta on PDF page 37. It checks all ten indexed names,
+literal ranks, Box 56, public-safe identifier masking, identity and research
+states, employer-gap wording, and archival-review routes. It separately
+verifies four qualified Army-entry occupations, Donald Jay Billman's high-
+confidence identity, Adrien W. Bilodeau's confirmed identity, Charley A.
+Billiot's visible official-source conflict, and the unassigned Robert H.
+Bilodeau candidate. The focused matrix passed 3 / 3.
 
 Batch 207 adds a focused direct-route regression for Victor M. Bienstock
 through Genevieve Bigelow on PDF page 36. It checks all ten indexed names,
@@ -32,7 +41,7 @@ employment; and Harold Bienenstock's explicit Army-intelligence predecessor
 and qualified unnamed bookstore employment. Six unsupported or incomplete
 identities remain unresolved or in identity review rather than becoming facts.
 
-The current production build contains 24,317 HTML pages. Astro check reported
+The current production build contains 24,318 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and
 two consecutive builds produced identical path-and-file digests.
 

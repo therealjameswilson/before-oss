@@ -4,16 +4,42 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,317 HTML files. Every relative
+**PASS.** The production build contains 24,318 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 369 organization profiles, and the
+The build includes 23,940 person profiles, 370 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,017 unique external URLs for separate live
+The checker inventoried 49,026 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 209 local release check
+
+The complete 24,318-page internal-link pass includes direct routes for
+Clarence P. Bilderback through Ferdinand Bilotta on PDF page 37. The 69-test
+Python suite, deterministic 200-profile audit, and clean 669-case desktop,
+phone, and tablet browser matrix passed; Astro reported zero errors, warnings,
+or hints, and the dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows in Box 56, literal ranks,
+public-safe identifier masking, identity and research states, employer-gap
+wording, and archival-review routes. It separately checks the qualified Army-
+entry occupations for Osias Biller, James R. Billingsley, Alexander Billy
+Jr., and Ferdinand Bilotta; Donald Jay Billman's independently corroborated
+OSS identity; Adrien W. Bilodeau's confirmed identity; Charley A. Billiot's
+official-source conflict; and the withheld name-only candidate for Robert H.
+Bilodeau. No occupation or later career is presented as a pre-OSS employer.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,388 artifacts, reviewed 996
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`2679ea3154245ff8de907e4411f251424eda45d8c86b76f10b35917b7572310c`.
+Two consecutive clean production builds produced the identical static-tree
+digest
+`5888570354299d840122a24b7908e911d1629ebc4f0924d58026d101a510fcc1`.
 
 ## Batch 207 local release check
 
