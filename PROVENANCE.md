@@ -3059,6 +3059,48 @@ transient source copies were not committed. No authenticated Catalog request,
 credential, raw API response, full private identifier, full copyrighted page,
 or unsupported employer claim was stored or published.
 
+## Page-thirty-five Bessho-through-Bettum pathways, Batch 202
+
+`research/evidence-page-thirty-five-naotomi-bessho-through-leif-bettum-pathways_batch-202_2026-08-06.json`
+records ten contiguous people from Naotomi Bessho through Leif L. Bettum. PDF
+page 35 was rendered at 300 dpi and every printed field in rows 26-35 was
+checked against the extraction. The merged Military Intelligence Service
+registry's name page 10 and row-aligned service-note continuation page 219 were
+also rendered at 300 dpi and inspected together before import.
+
+The strict evidence bundle contains six sources, four normalized
+organizations, four affiliations, five claims, ten claim-source links, ten
+person updates, and ten durable research attempts. NARA Entry 211 explicitly
+identifies Captain Marcel N. Bessony on detached service from the French Army
+to OSS SCI Unit Z in Genova. The index's lieutenant grade and the later captain
+description are both retained; no promotion date is inferred.
+
+Richard Kiyoji Betsui is confirmed by an exact private officer identifier in
+the OSS index and the merged MIS registry. The registry pairs his Camp Savage
+class with a row-aligned CBI and
+OSS Detachment 101 service note. A 442nd veterans institution's documented
+chronology independently places him at Camp Shelby, Fort Benning, and Camp
+Savage, while a contemporary 1943 newspaper identifies his earlier recruit-
+class executive-officer role. Waialua High School is published as a qualified,
+medium-confidence last civilian employer because the school and occupation are
+well supported but the exact separation date is not.
+
+Naotomi Bessho, John C. Bethea, Patricia D. Bethke, Nogah Bethlanmy, Elizabeth
+R. Betts, Virginia Betts, and Leif L. Bettum retain explicit archival-review
+outcomes. The plausible Evelyn Gloria Ohman candidate for Evelyn O. Betts
+remains ambiguous pending Box 54 confirmation. Search-result pages, the
+unreviewed NARA Catalog response body, technical PDF renderings, and transient
+source copies were not committed. No authenticated Catalog request,
+credential, raw API response, full private identifier, full copyrighted page,
+or unsupported employer claim was stored or published.
+
+During release QA, a formerly reviewed veterans-association document URL was
+found to redirect to an unrelated domain. That citation and its durable source
+record were removed before publication. The affected identity claim remains
+independently supported by the exact private identifier shared by the NARA
+index and the visually reviewed MIS registry; no person-level conclusion was
+changed.
+
 ## Official reference material
 
 - NARA OSS personnel records:

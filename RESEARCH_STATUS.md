@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,811 people with a non-planned attempt | 23,940 active person entities | 7.5647% |
-| Verified-affiliation coverage | 298 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2448% |
+| Research-attempt coverage | 1,821 people with a non-planned attempt | 23,940 active person entities | 7.6065% |
+| Verified-affiliation coverage | 300 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2531% |
 | Verified-employer coverage | 166 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6934% |
-| Archival-review coverage | 1,760 people with an individual file-access/priority assessment | 23,940 active person entities | 7.3517% |
+| Archival-review coverage | 1,770 people with an individual file-access/priority assessment | 23,940 active person entities | 7.3935% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 213
+- Identity status `confirmed`: 215
 - Identity status `high_confidence`: 373
 - Identity status `probable`: 58
-- Identity status `ambiguous`: 28
+- Identity status `ambiguous`: 29
 - Identity status `conflicting`: 18
-- Identity status `unresolved`: 23,250
+- Identity status `unresolved`: 23,247
 
 ## Personnel categories
 
@@ -49,15 +49,15 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,129
+- `not_started`: 22,119
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 42
 - `occupation_only_found`: 190
-- `requires_archival_review`: 1,259
-- `completed`: 64
+- `requires_archival_review`: 1,267
+- `completed`: 66
 - `conflicting_sources`: 18
 - `verified_employer_found`: 165
 - Stratified pilot size: 75
@@ -67,15 +67,15 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,583. The detailed adapter breakdown remains reproducible in
+  adapters: 1,593. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 683 across 659 people; 73 additional
+- Saved `source_reviewed` outcomes: 685 across 661 people; 74 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,029
+- Total recorded attempts/plans: 3,039
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 642; 620 have at least one public-eligible
+- People with saved reviewed claims: 644; 622 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2376,13 +2376,30 @@ Commissioned classification: 2,175 yes; 5,074 no; 16,691 indeterminate.
   unresolved employer questions. No authenticated Catalog request, credential,
   raw API response, full private identifier, or unsupported employer claim was
   used or published.
-- Public-visible affiliations: 746 (published, qualified, or conflict-visible)
-- Database claims: 1,477; public-visible claims: 1,446 (320 confirmed, 798 high,
-  302 medium, 26 conflicting); 25 low-confidence claims are withheld and six
+- Batch 202 covers the next ten contiguous rows on page thirty-five, Naotomi
+  Bessho through Leif L. Bettum. All ten index rows were checked at 300 dpi.
+  NARA Entry 211 explicitly documents Marcel N. Bessony on detached service
+  from the French Army to OSS SCI Unit Z; the index's lieutenant and later
+  captain descriptions remain visible without an inferred promotion date.
+  Richard Kiyoji Betsui is confirmed by an exact private officer identifier in
+  the index and the merged MIS registry.
+  The registry's row-aligned continuation page links his Camp Savage class to
+  OSS Detachment 101, while contemporary and institutional records separately
+  document his earlier 442nd RCT assignment. Waialua High School is published
+  only as a medium-confidence, strongly date-bounded last civilian employer
+  because the exact separation date is not stated. Naotomi Bessho, John C.
+  Bethea, Patricia D. Bethke, Nogah Bethlanmy, Elizabeth R. Betts, Virginia
+  Betts, and Leif L. Bettum remain unresolved. Evelyn O. Betts retains an
+  ambiguous Evelyn Gloria Ohman candidate pending Box 54 confirmation. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 750 (published, qualified, or conflict-visible)
+- Database claims: 1,482; public-visible claims: 1,451 (322 confirmed, 799 high,
+  304 medium, 26 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,174 total and 3,108 public-visible; private source
-  records: 2,410; public source export: 1,407; unique source documents: 1,084
-- Canonical organizations: 363 private and 354 public
+- Claim-source links: 3,184 total and 3,118 public-visible; private source
+  records: 2,416; public source export: 1,413; unique source documents: 1,089
+- Canonical organizations: 367 private and 358 public
 - Conflicting claims: 26 across 19 people
 - NARA pull-list rows: 23,813
 

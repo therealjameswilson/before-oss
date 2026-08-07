@@ -4,12 +4,31 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The new Batch 201 regression passed 3 / 3 at desktop, phone, and
-tablet widths. All 27 representative axe cases passed with no serious or
-critical violation. The complete 645-case matrix also passed locally.
+**PASS, with a documented test-runner timing exception.** The new Batch 202
+regression passed 3 / 3 at desktop, phone, and tablet widths. The complete
+648-case matrix passed before a citation-only redirect correction. Against the
+corrected build, 24 / 24 lighter representative axe cases passed, and a direct
+production-preview audit of the large sources page completed with zero
+violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 202 adds a focused direct-route regression for Naotomi Bessho through
+Leif L. Bettum. It checks every indexed name, page, literal rank or civilian
+grade, Box 54 location, masked or explicitly unprinted identifier, research
+state, employer-gap wording, and archival-review route. It separately verifies
+Marcel N. Bessony's French Army detachment; Richard Kiyoji Betsui's commissioned
+classification and distinct MIS Language School, 442nd RCT, and Waialua High
+School pathways; Evelyn O. Betts's explicit identity ambiguity; and seven
+unresolved profiles. The focused matrix passed 3 / 3.
+
+The sources page contains 375,608 rendered text characters and 1,432 links. A
+direct axe-core 4.12.1 run against Astro's production preview returned HTTP 200
+and zero violations. In the Playwright wrapper, the same completed axe action
+was misclassified as exceeding both 45-second and 900-second timeouts after
+wall-clock jumps; the trace showed a rendered page, no failed network requests,
+and no console errors. The other 24 representative axe cases passed normally.
 
 Batch 201 adds a focused direct-route regression for Robert M. Besancon through
 Molly Bessermann. It checks every indexed name, page, literal rank or civilian

@@ -4,16 +4,41 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,302 HTML files. Every relative
+**PASS.** The production build contains 24,306 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 354 organization profiles, and the
+The build includes 23,940 person profiles, 358 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,973 unique external URLs for separate live
+The checker inventoried 48,982 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 202 local release check
+
+The complete 24,306-page internal-link pass includes direct routes for Naotomi
+Bessho through Leif L. Bettum on PDF page 35 and four newly public organization
+routes. The focused desktop, phone, and tablet regression passed 3 / 3, the
+69-test Python suite passed, and the corrected production-preview axe audit
+reported zero violations on the large sources register. All six retained Batch
+202 URLs returned HTTP 200.
+
+One formerly reviewed veterans-association document URL redirected to an
+unrelated domain during release QA. It was removed from the evidence bundle,
+SQLite database, public exports, and generated site before publication. The
+affected identity claim remains supported by two exact-identifier records.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,376 artifacts, rejected 996
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`67b355fee8a921b54f040f440041f6f01685967e16080bbbfc624fb20fd917a1`.
+Two consecutive clean production builds produced the identical static-tree
+digest
+`d55cbdde18cee08605f54fa162297094a9464c046cad6f6c2a16958f321be730`.
 
 ## Batch 201 local release check
 

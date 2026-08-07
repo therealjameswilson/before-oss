@@ -17803,3 +17803,83 @@ test("Batch 201 preserves Besancon-through-Bessermann and separates employers, m
     await expect(page.locator("main")).toContainText("Commissioned officerYes");
   }
 });
+
+test("Batch 202 preserves Bessho-through-Bettum and separates confirmed military pathways from unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["575fb8b6-5323-5b8a-a433-acb5199812fe", "Naotomi Bessho", "Not printed", "Not printed"],
+    ["f943c086-a383-5e7e-b2fb-2740c1f4ced0", "Marcel N Bessony", "Lt", "Not printed"],
+    ["86ca9a6f-2bc6-5fd9-a5ec-40fec237bcf8", "John C Bethea", "CPC-3", "Not printed"],
+    ["5b7a2159-3b0a-577d-8d25-fc54848a4409", "Patricia D Bethke", "Caf-3", "Not printed"],
+    ["0b4a90e3-c753-5b57-ad8d-33bdf2b3bee7", "Nogah Bethlanmy", "Not printed", "Not printed"],
+    ["ba0c3c67-5617-54a1-a1fd-2313bec9803e", "Richard K Betsui", "Capt", "masked"],
+    ["ae3520eb-300f-5b40-85e4-74b5a1b612a0", "Elizabeth R Betts", "Caf-3", "Not printed"],
+    ["c87e2ef5-c995-5bee-a6e5-49112779ec7b", "Evelyn O Betts", "P-1", "Not printed"],
+    ["25f7a0f9-92e3-58e9-bf38-cc96d18b0039", "Virginia Betts", "Not printed", "Not printed"],
+    ["fe8d225b-4051-5b60-b8a7-6f20fe90d944", "Leif L Bettum", "Not printed", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 35");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("54");
+  }
+
+  await page.goto("./people/f943c086-a383-5e7e-b2fb-2740c1f4ced0/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "French Army",
+  );
+  await expect(page.locator("main")).toContainText("detached service");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/ba0c3c67-5617-54a1-a1fd-2313bec9803e/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Military Intelligence Service Language School",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Waialua High School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "442nd Regimental Combat Team",
+  );
+  await expect(page.locator("main")).toContainText("OSS Detachment 101");
+
+  await page.goto("./people/c87e2ef5-c995-5bee-a6e5-49112779ec7b/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Evelyn Gloria Ohman");
+  await expect(page.locator("main")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "575fb8b6-5323-5b8a-a433-acb5199812fe",
+    "86ca9a6f-2bc6-5fd9-a5ec-40fec237bcf8",
+    "5b7a2159-3b0a-577d-8d25-fc54848a4409",
+    "0b4a90e3-c753-5b57-ad8d-33bdf2b3bee7",
+    "ae3520eb-300f-5b40-85e4-74b5a1b612a0",
+    "25f7a0f9-92e3-58e9-bf38-cc96d18b0039",
+    "fe8d225b-4051-5b60-b8a7-6f20fe90d944",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

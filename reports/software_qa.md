@@ -5,38 +5,40 @@ Run: 2026-08-07 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,302 pages**
-- Internal link check: **24,302 HTML files passed**
-- Batch 201 browser regression: **3 / 3 passed** across desktop, phone, and
-  tablet; dedicated axe cases: **27 / 27 passed** with no serious or critical
-  violation. The complete **645-case** matrix also passed locally.
+- Static production build: **24,306 pages**
+- Internal link check: **24,306 HTML files passed**
+- Batch 202 browser regression: **3 / 3 passed** across desktop, phone, and
+  tablet. The complete **648-case** matrix passed before the citation-only
+  redirect correction; against the corrected build, the other **24 / 24**
+  representative axe cases and a direct no-test-timeout audit of the large
+  sources page found no serious or critical violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`caf4baa34d0ff3463eb0faf89f9d2a1caab0b38988270529c0e4091e4baf6edf`)
-- Latest deterministic build (Batch 201): **byte-for-byte identical** across
+  (`d55cbdde18cee08605f54fa162297094a9464c046cad6f6c2a16958f321be730`)
+- Latest deterministic build (Batch 202): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `724e06ee20fcfe04f3393a59514524ac4b6ae48131e1282c76ce1b9ccd93e23c`
+  `67b355fee8a921b54f040f440041f6f01685967e16080bbbfc624fb20fd917a1`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,372** production artifacts, including compressed mirrors.
+  matches** in **24,376** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,407** public records representing **1,084** unique documents
-- Private citation records: **2,410**
-- Published, qualified, or conflict-visible affiliations: **746**
-- Published or conflict-visible claims: **1,446**
+- Reviewed public sources: **1,413** public records representing **1,089** unique documents
+- Private citation records: **2,416**
+- Published, qualified, or conflict-visible affiliations: **750**
+- Published or conflict-visible claims: **1,451**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; six
   additional low-confidence claims concerning three people are rejected
-- Verified-affiliation metric: **298** people with confirmed/high published
+- Verified-affiliation metric: **300** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **166** people with confirmed/high published
   employment or self-employment evidence
@@ -96,6 +98,60 @@ Run: 2026-08-07 UTC
   passed
 - Batch 197 local release checks: **passed**; the complete **633-case** browser
   matrix runs in release CI
+
+## Batch 202 local release QA
+
+Batch 202 adds ten visually checked source rows on PDF page thirty-five, from
+Naotomi Bessho through Leif L. Bettum. The corrected strict evidence bundle
+imports six sources, four organizations, four affiliations, five claims, ten
+claim-source links, ten person updates, and ten terminal research attempts. It
+confirms Marcel N. Bessony's French-Army-to-OSS detached-service pathway and
+Richard Kiyoji Betsui's exact-identifier identity; separates Betsui's Military
+Intelligence Service Language School, 442nd Regimental Combat Team, and Waialua
+High School relationships; preserves Evelyn O. Betts as an ambiguous identity;
+and gives seven unresolved people explicit Box 54 archival-review routes.
+
+Release checking found that a formerly reviewed veterans-association document
+URL now redirects to an unrelated domain. The citation, durable source record,
+and public link were removed before publication. Betsui's identity remains
+independently supported by the exact private identifier shared by the NARA
+index and the visually reviewed MIS registry, so no person-level conclusion
+changed. All six retained Batch 202 source URLs returned HTTP 200.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 69 / 69, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,306 pages. The internal-link checker passed all 24,306 HTML files and
+inventoried 48,982 unique external URLs. The focused Batch 202 regression
+passed 3 / 3 across desktop, phone, and tablet. The complete 648-case matrix
+passed before the citation-only correction. On the corrected build, two older
+route timeouts passed on isolation, 24 / 24 lighter representative axe cases
+passed, and a direct production-preview axe run against the 375,608-character
+sources register reported zero violations. The Playwright test wrapper still
+misread that large scan as exceeding its 45-second and 900-second budgets after
+wall-clock jumps; the completed axe result, page response, title, and all 1,432
+links were inspected directly. The production dependency audit found zero
+vulnerabilities.
+
+Consecutive clean final builds produced the identical complete-site tree
+digest
+`d55cbdde18cee08605f54fa162297094a9464c046cad6f6c2a16958f321be730`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values in both the
+public source and built trees; the manifest SHA-256 is
+`67b355fee8a921b54f040f440041f6f01685967e16080bbbfc624fb20fd917a1`.
+The boundary-aware identifier audit found zero unexpected boundary matches,
+aggregate false positives, or manifest-size false positives across 24,376
+artifacts after reviewing 996 candidate substrings. No authenticated NARA
+Catalog API request was made.
+
+The Batch 202 database contains 3,039 durable research attempts, 2,416 private
+citation records, 758 affiliations, 367 organizations, and 1,482 claims: 322
+confirmed, 799 high, 304 medium, 31 low, and 26 conflicting. The public
+projection contains 1,413 sources representing 1,089 unique documents, 750
+affiliations, and 1,451 claims. Coverage distinguishes 1,821 people with a non-
+planned research attempt, 300 with verified-affiliation evidence, 166 with
+verified employment or self-employment evidence, and 1,770 whose archival-
+review need has been assessed.
 
 ## Batch 201 local release QA
 
