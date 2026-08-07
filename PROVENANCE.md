@@ -2943,6 +2943,44 @@ committed. No authenticated Catalog request, credential, raw API response, full
 private identifier, copyrighted page, or unsupported employer claim was stored
 or published.
 
+## Pages-thirty-four-and-thirty-five Berry-through-Bertin pathways, Batch 199
+
+`research/evidence-pages-thirty-four-thirty-five-pierce-berry-through-andre-bertin-pathways_batch-199_2026-08-06.json`
+records ten contiguous people from Pierce F. Berry through Andre V. Bertin.
+Pages 34 and 35 were rendered at 300 dpi and visually checked against every raw
+and normalized source field. The official Army technical-documentation pages
+44-46 and occupation-code pages 171 and 174 were separately rendered and
+checked before import.
+
+The strict evidence bundle contains five sources, one normalized organization,
+three affiliations, five claims, twelve claim-source links, ten person updates,
+and ten durable research attempts. Exact private-identifier matches in the
+official Army merged file confirm Constantin S. Bertakis and Andre V. Bertin.
+The latter record's damaged or shifted name field is documented without turning
+it into a public name variant. Their entry records support only skilled radio-
+and-phonograph-manufacturing work and a general-office-clerk occupation; neither
+record names a civilian employer, workplace, or direct Army-to-OSS sequence.
+
+Commander Demetries Grimes's historical account places Bertakis by uncommon
+name, middle initial, and T/5 grade in Greek Operational Group I and states that
+the Greek OSS groups were formed from the 122nd Infantry Battalion at Camp
+Carson. The 122nd is therefore modeled as Bertakis's high-confidence,
+strongly-date-bounded, best-supported immediate military assignment. The claim
+remains explicit that the reviewed source does not state his person-specific
+transfer date, and the affiliation is not counted as civilian employment.
+
+Pierce F. Berry, Gilbert M. Bers, Malcolm Berschn, Carol Bershad, Wilson M.
+Berta, Arthur B. Berthold, Katherine H. Berthold, and Felix L. Berti remain
+unresolved after the minimum online protocol and route to Box 53 review.
+Postwar State Department library and interagency records for an Arthur B.
+Berthold were retained only as rejected research leads because they neither
+directly identify the indexed person nor document pre-OSS employment.
+
+The official Army bulk file, technical documentation, and occupation tables
+were reviewed transiently and were not committed. No authenticated Catalog
+request, credential, raw API response, full private identifier, copyrighted
+page, or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

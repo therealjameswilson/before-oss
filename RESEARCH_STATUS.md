@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,781 people with a non-planned attempt | 23,940 active person entities | 7.4394% |
-| Verified-affiliation coverage | 294 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2281% |
+| Research-attempt coverage | 1,791 people with a non-planned attempt | 23,940 active person entities | 7.4812% |
+| Verified-affiliation coverage | 295 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.2322% |
 | Verified-employer coverage | 165 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.6892% |
-| Archival-review coverage | 1,730 people with an individual file-access/priority assessment | 23,940 active person entities | 7.2264% |
+| Archival-review coverage | 1,740 people with an individual file-access/priority assessment | 23,940 active person entities | 7.2682% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-06 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 207
+- Identity status `confirmed`: 209
 - Identity status `high_confidence`: 368
 - Identity status `probable`: 58
 - Identity status `ambiguous`: 28
 - Identity status `conflicting`: 17
-- Identity status `unresolved`: 23,262
+- Identity status `unresolved`: 23,260
 
 ## Personnel categories
 
@@ -49,17 +49,17 @@ Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,159
+- `not_started`: 22,149
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 18
 - `needs_temporal_review`: 4
 - `documented_prewar_employer_found`: 42
-- `occupation_only_found`: 185
-- `requires_archival_review`: 1,239
+- `occupation_only_found`: 186
+- `requires_archival_review`: 1,247
 - `completed`: 61
 - `conflicting_sources`: 17
-- `verified_employer_found`: 164
+- `verified_employer_found`: 165
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -67,15 +67,15 @@ Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,547. The detailed adapter breakdown remains reproducible in
+  adapters: 1,557. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 671 across 647 people; 73 additional
+- Saved `source_reviewed` outcomes: 673 across 649 people; 73 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 2,999
+- Total recorded attempts/plans: 3,009
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 630; 608 have at least one public-eligible
+- People with saved reviewed claims: 632; 610 have at least one public-eligible
   claim. The reviewed set comprises Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2319,15 +2319,35 @@ Commissioned classification: 2,174 yes; 5,074 no; 16,692 indeterminate.
   conventional infantry pathway during the relevant period. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
-- Public-visible affiliations: 730 (published, qualified, or conflict-visible)
-- Database claims: 1,448; public-visible claims: 1,417 (314 confirmed, 787 high,
-  292 medium, 24 conflicting); 25 low-confidence claims are withheld and six
+- Batch 199 covers the next ten contiguous rows across pages thirty-four and
+  thirty-five, Pierce F. Berry through Andre V. Bertin. Exact private-identifier
+  matches in the official Army merged file confirm Constantin S. Bertakis and
+  Andre V. Bertin; Bertin's displaced Army name field remains documented rather
+  than silently normalized. Bertakis's entry record supports only skilled work
+  in radio and phonograph manufacture, and Bertin's supports only a general-
+  office-clerk occupation. Neither record names a civilian employer. A
+  historical Greek Operational Group I roster repeats Bertakis's uncommon name,
+  initial, and T/5 grade, while its unit chronology identifies the 122nd
+  Infantry Battalion as the source of the Greek OSS groups. The 122nd is
+  therefore published as Bertakis's strongly date-bounded, best-supported
+  immediate military assignment, not a civilian employer; Box 53 remains
+  necessary for his person-specific transfer orders. Pierce F. Berry, Gilbert
+  M. Bers, Malcolm Berschn, Carol Bershad, Wilson M. Berta, Arthur B. Berthold,
+  Katherine H. Berthold, and Felix L. Berti remain unresolved and route to Box
+  53 review. Postwar State Department records for a same-name Arthur B.
+  Berthold remain rejected as predecessor evidence because they do not directly
+  identify the indexed person or document pre-OSS work. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+- Public-visible affiliations: 733 (published, qualified, or conflict-visible)
+- Database claims: 1,453; public-visible claims: 1,422 (316 confirmed, 788 high,
+  294 medium, 24 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,104 total and 3,038 public-visible; private source
-  records: 2,385; public source export: 1,382; unique source documents: 1,071
+- Claim-source links: 3,116 total and 3,050 public-visible; private source
+  records: 2,390; public source export: 1,387; unique source documents: 1,071
 - Canonical organizations: 355 private and 346 public
 - Conflicting claims: 24 across 17 people
-- NARA pull-list rows: 23,814
+- NARA pull-list rows: 23,813
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

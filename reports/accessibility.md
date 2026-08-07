@@ -4,13 +4,22 @@ Run: 2026-08-06 UTC
 
 ## Result
 
-**PASS.** The new Batch 198 regression passed 3 / 3 at desktop, phone, and
+**PASS.** The new Batch 199 regression passed 3 / 3 at desktop, phone, and
 tablet widths. All 27 representative axe cases passed with no serious or
-critical violation. The complete 636-case matrix will run on the clean GitHub
-Actions runner.
+critical violation. The complete 639-case matrix also passed locally.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 199 adds a focused direct-route regression for Pierce F. Berry through
+Andre V. Bertin. It checks every indexed name, page, literal rank or civilian
+grade, Box 53 location, masked or explicitly unprinted identifier, research
+state, employer-gap wording, and archival-review route. It separately verifies
+Constantin S. Bertakis's qualified 122nd Infantry Battalion pathway and keeps
+his radio-and-phonograph manufacturing occupation distinct from an employer;
+Andre V. Bertin's general-office-clerk occupation likewise remains occupation
+only. Eight unresolved profiles remain explicit. The focused matrix passed 3 /
+3, and the complete matrix passed 639 / 639.
 
 Batch 198 adds a focused direct-route regression for Clyde B. Berry through
 Patrick J. Berry, Jr. It checks every indexed name, page, literal rank or

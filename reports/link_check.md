@@ -15,6 +15,30 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 48,954 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 199 local release check
+
+The complete 24,294-page internal-link pass includes direct routes for Pierce
+F. Berry through Andre V. Bertin across PDF pages 34 and 35 and the 122nd
+Infantry Battalion organization route. The focused desktop, phone, and tablet
+regression passed 3 / 3, the complete browser matrix passed 639 / 639, the
+69-test Python suite passed, and all 27 representative axe scans reported no
+serious or critical violation.
+
+The regression verifies Constantin S. Bertakis's qualified military pathway,
+two occupation-only findings, and eight explicit unresolved archival-review
+profiles. Neither Army-entry occupation is converted into a named employer,
+and the postwar Arthur B. Berthold namesake remains a rejected lead.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,364 artifacts, rejected 996
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`9934a3154111d867e0c69e5be4881d5f13e98c55a0098f6edf27187bf2adb971`.
+Two consecutive production builds produced the identical static-tree digest
+`f7fec106f840f12d8b886ffa1667a31cd4d6870c7a96452bbc48ef8176434e28`.
+
 ## Batch 198 local release check
 
 The complete 24,294-page internal-link pass includes direct routes for Clyde B.

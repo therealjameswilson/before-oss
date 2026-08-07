@@ -17517,3 +17517,82 @@ test("Batch 198 preserves the Berry rows and keeps broad occupations distinct fr
     );
   }
 });
+
+test("Batch 199 preserves the Berry-through-Bertin rows and publishes only supported pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["251e01a8-3094-5710-b6f2-b07229423304", "Pierce F Berry", "2nd Lt", "masked", "Page 34"],
+    ["96abe2c7-581e-58d3-807a-fb773eafd3b2", "Gilbert M Bers", "Not printed", "Not printed", "Page 34"],
+    ["2e44dde1-c8e7-5cc8-a632-0aa59392e35b", "Malcolm Berschn", "Pfc", "Not printed", "Page 34"],
+    ["c9641dda-0eb8-5164-b77d-adf5a24586a2", "Carol Bershad", "Not printed", "Not printed", "Page 34"],
+    ["15432872-71b1-5ce6-b405-97b91298a6f4", "Wilson M Berta", "Sgt", "masked", "Page 34"],
+    ["a2c78f56-10ec-5b76-948f-dea45bd5d5fd", "Constantin S Bertakis", "T-5", "masked", "Page 35"],
+    ["2ecc6771-a360-5790-bb3f-4a3234511f48", "Arthur B Berthold", "P-3", "Not printed", "Page 35"],
+    ["de6e9180-5b06-59f1-b213-344ceed52753", "Katherine H Berthold", "P-3", "Not printed", "Page 35"],
+    ["57ea9978-b2d0-5229-96c7-280213e135cd", "Felix L Berti", "Pvt", "masked", "Page 35"],
+    ["891faa7f-91c3-5849-baf8-068fe12d002e", "Andre V Bertin", "T-5", "masked", "Page 35"],
+  ];
+
+  for (const [personId, displayName, rank, serial, pageNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("53");
+  }
+
+  await page.goto("./people/a2c78f56-10ec-5b76-948f-dea45bd5d5fd/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "122nd Infantry Battalion (Separate)",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Skilled work in the manufacture of radios and phonographs",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "The Greek-American Volunteers of the Greek Battalion, WWII",
+      exact: true,
+    }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/891faa7f-91c3-5849-baf8-068fe12d002e/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "General office clerk",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/251e01a8-3094-5710-b6f2-b07229423304/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+
+  for (const personId of [
+    "251e01a8-3094-5710-b6f2-b07229423304",
+    "96abe2c7-581e-58d3-807a-fb773eafd3b2",
+    "2e44dde1-c8e7-5cc8-a632-0aa59392e35b",
+    "c9641dda-0eb8-5164-b77d-adf5a24586a2",
+    "15432872-71b1-5ce6-b405-97b91298a6f4",
+    "2ecc6771-a360-5790-bb3f-4a3234511f48",
+    "de6e9180-5b06-59f1-b213-344ceed52753",
+    "57ea9978-b2d0-5229-96c7-280213e135cd",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
