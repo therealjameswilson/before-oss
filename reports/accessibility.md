@@ -4,15 +4,30 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS, with a documented test-runner timing exception.** The new Batch 202
-regression passed 3 / 3 at desktop, phone, and tablet widths. The complete
-648-case matrix passed before a citation-only redirect correction. Against the
-corrected build, 24 / 24 lighter representative axe cases passed, and a direct
-production-preview audit of the large sources page completed with zero
+**PASS.** The complete pre-Batch-204 browser matrix passed 651 / 651 at
+desktop, phone, and tablet widths. The new Batch 204 regression then passed
+3 / 3 against the release build, for 654 successful browser cases in this
+release QA session. The accessibility routes reported no serious axe
 violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 204 adds a focused direct-route regression for Bertram Beyer on PDF page
+35 and Thomas L. Beyer through Peter V. Bianchi on page 36. It checks all ten
+indexed names, literal ranks, Boxes 54 and 55, public-safe identifier masking,
+identity and research states, employer-gap wording, and archival-review routes.
+It separately verifies Willard W. Beynon's qualified Scranton Technical High
+School pathway, Udom Sakdi Bhasavanich's documented University of Illinois
+variant and engineering study, Louis Biagioni's confirmed NARA file identity,
+John T. Bezverkov's visibly probable but unaccepted Michigan lead, Peter Vieri
+Bianchi's Mizen Academy pathway and explicit OSS evidence, and Thomas L.
+Beyer's commissioned classification. Every school remains a student
+affiliation and outside the civilian-employer section.
+
+The current production build contains 24,311 HTML pages. Astro check reported
+zero errors, warnings, or hints; the complete internal-link check passed; and
+two consecutive builds produced identical path-and-file digests.
 
 Batch 202 adds a focused direct-route regression for Naotomi Bessho through
 Leif L. Bettum. It checks every indexed name, page, literal rank or civilian

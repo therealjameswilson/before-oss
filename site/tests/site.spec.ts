@@ -17966,3 +17966,104 @@ test("Batch 203 preserves Betz-through-Bewley and separates French Army, Radioma
     );
   }
 });
+
+test("Batch 204 crosses the page boundary and keeps student affiliations out of employer counts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c38a5634-79f1-53bc-bfc7-9e8bc6d04bd8", "Bertram Beyer", "Not printed", "Not printed", "35", "54"],
+    ["9348f926-6bde-5a30-ac2f-d7e269ccd6de", "Thomas L Beyer", "Lt", "masked", "36", "54"],
+    ["3550a935-2c5c-5967-a807-a0df401427c2", "Willard W Beynon", "M/Sgt", "Not printed", "36", "54"],
+    ["b2aafedf-1b12-55bd-943b-2ad2cdb441a9", "Vladimir Bezdek", "Not printed", "Not printed", "36", "54"],
+    ["e8b29b4d-f4be-5f77-bacc-aa9fa818d0d6", "John T Bezverkov", "T-4", "masked", "36", "55"],
+    ["d74bb143-8c03-59f3-9945-aa84b4466f73", "Udom-Sakdi Bhasqvanich", "Not printed", "Not printed", "36", "55"],
+    ["bc0631a0-9ec1-5ef7-82d0-d276092b7e90", "Louis Biagioni", "Not printed", "Not printed", "36", "55"],
+    ["77ebf2a7-8ef9-5b86-a457-c1c9ade441d9", "Harry D Bialaszewski", "T-5", "masked", "36", "55"],
+    ["382594bb-e522-5bc7-a7f8-4b23ad91b81d", "Hyman Bialek", "Not printed", "masked", "36", "55"],
+    ["e868cd5b-7583-5103-bad8-94ed2d8c0531", "Peter V Bianchi", "Sgt", "masked", "36", "55"],
+  ];
+
+  for (const [personId, displayName, rank, serial, sourcePage, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(`Page ${sourcePage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  await page.goto("./people/3550a935-2c5c-5967-a807-a0df401427c2/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Willard 'Bud' Beynon");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Scranton Technical High School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/d74bb143-8c03-59f3-9945-aa84b4466f73/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Udom Sakdi Bhasavanich");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Illinois",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Civil engineering student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/e868cd5b-7583-5103-bad8-94ed2d8c0531/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Peter Vieri Bianchi");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Mizen Academy of Art",
+  );
+  await expect(page.locator("main")).toContainText("worked for the Office of Strategic Services");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/bc0631a0-9ec1-5ef7-82d0-d276092b7e90/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Entry A1-224, Box 55");
+  await expect(page.locator("main")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/e8b29b4d-f4be-5f77-bacc-aa9fa818d0d6/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("University of Michigan");
+  await expect(page.locator("main")).toContainText("No pre-OSS employer is established");
+
+  await page.goto("./people/9348f926-6bde-5a30-ac2f-d7e269ccd6de/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+
+  for (const personId of [
+    "c38a5634-79f1-53bc-bfc7-9e8bc6d04bd8",
+    "9348f926-6bde-5a30-ac2f-d7e269ccd6de",
+    "b2aafedf-1b12-55bd-943b-2ad2cdb441a9",
+    "77ebf2a7-8ef9-5b86-a457-c1c9ade441d9",
+    "382594bb-e522-5bc7-a7f8-4b23ad91b81d",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

@@ -4,16 +4,43 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,306 HTML files. Every relative
+**PASS.** The production build contains 24,311 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 358 organization profiles, and the
+The build includes 23,940 person profiles, 363 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,982 unique external URLs for separate live
+The checker inventoried 48,998 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 204 local release check
+
+The complete 24,311-page internal-link pass includes direct routes for Bertram
+Beyer on PDF page 35 and Thomas L. Beyer through Peter V. Bianchi on page 36,
+plus three new educational-organization routes. The 69-test Python suite
+passed, the pre-existing browser matrix passed 651 / 651, and the focused Batch
+204 desktop, phone, and tablet regression passed 3 / 3.
+
+The regression verifies ten source rows across Boxes 54 and 55; public-safe
+identifier masking; Willard W. Beynon's qualified technical-school pathway;
+Udom Sakdi Bhasavanich's documented spelling variant and University of
+Illinois civil-engineering study; Louis Biagioni's confirmed NARA file
+identity; Peter Vieri Bianchi's art-school and OSS evidence; John T.
+Bezverkov's visibly probable but unaccepted postwar lead; and five explicit
+unresolved archival-review cases. The three schools remain student
+affiliations and are excluded from employer analytics.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,381 artifacts, rejected 996
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`3572ba0725b3a8bd0daf8032f747dbfa30200031e41e997032d0270c5a9c470e`.
+Two consecutive production builds produced the identical static-tree digest
+`79fd560a9f98f06d662177ef8e860e31958d01fcb84ba2544c2221351301a257`.
 
 ## Batch 202 local release check
 
