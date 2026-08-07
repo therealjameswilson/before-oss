@@ -18933,3 +18933,87 @@ test("Batch 214 publishes qualified page 38 pathways and preserves unresolved id
     );
   }
 });
+
+test("Batch 215 publishes page 38 occupations, KSTP employment, and unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["79832851-2cca-57db-bc53-af13abc6d1bf", "Dorothy E Bixby", "Caf-5", false],
+    ["776c1721-70e5-5199-8c03-88ab5bf2b124", "Max Bixby", "Not printed", false],
+    ["992651fa-123b-51ec-9dc8-3c0125dca3e2", "Romeo J Bizaillon", "T-5", true],
+    ["8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab", "Elwood G Bizeau", "Not printed", true],
+    ["138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24", "Stephen Bizic", "T/Sgt", true],
+    ["4912ab6d-c5f6-5d0b-aa27-b5642d487d11", "George Bizovi", "T-5", true],
+    ["406db149-d07b-5e56-b2cd-6f3f2917022f", "John M Bjornson", "2nd Lt", true],
+    ["dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551", "Kristjan V Bjornson", "Lt", true],
+    ["ac82346f-f5ec-5575-a6ff-38cd1c8ca8ee", "Kjeli Bjorvik", "Not printed", false],
+    ["adeb2924-56d2-5dce-85f2-9fb98740858c", "Frederick J Blachly", "Pvt", true],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 38");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("58");
+  }
+
+  await page.goto("./people/dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("KSTP");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Radio commentator",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator("main")).toContainText("Kristjan Valdimar Bjornson");
+
+  await page.goto("./people/8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Clerk or kindred occupation",
+  );
+
+  await page.goto("./people/138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Steven Bizic");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Construction occupation",
+  );
+
+  await page.goto("./people/adeb2924-56d2-5dce-85f2-9fb98740858c/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Author, editor, or reporter",
+  );
+
+  await page.goto("./people/992651fa-123b-51ec-9dc8-3c0125dca3e2/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "79832851-2cca-57db-bc53-af13abc6d1bf",
+    "776c1721-70e5-5199-8c03-88ab5bf2b124",
+    "4912ab6d-c5f6-5d0b-aa27-b5642d487d11",
+    "406db149-d07b-5e56-b2cd-6f3f2917022f",
+    "ac82346f-f5ec-5575-a6ff-38cd1c8ca8ee",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

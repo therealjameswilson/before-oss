@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,939 people with a non-planned attempt | 23,940 active person entities | 8.0994% |
-| Verified-affiliation coverage | 312 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3033% |
-| Verified-employer coverage | 171 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7143% |
-| Archival-review coverage | 1,888 people with an individual file-access/priority assessment | 23,940 active person entities | 7.8864% |
+| Research-attempt coverage | 1,949 people with a non-planned attempt | 23,940 active person entities | 8.1412% |
+| Verified-affiliation coverage | 313 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3074% |
+| Verified-employer coverage | 172 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7185% |
+| Archival-review coverage | 1,898 people with an individual file-access/priority assessment | 23,940 active person entities | 7.9282% |
 
 ## Extraction and identity
 
@@ -23,25 +23,25 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 237
-- Identity status `high_confidence`: 395
+- Identity status `confirmed`: 241
+- Identity status `high_confidence`: 396
 - Identity status `probable`: 65
 - Identity status `ambiguous`: 29
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,192
+- Identity status `unresolved`: 23,187
 
 ## Personnel categories
 
 - Unknown or indeterminate: 16,478
 - Enlisted Army personnel: 3,523
-- Commissioned Army officers: 2,070
+- Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
 - Civilian professional or administrative grades: 1,467
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 57
-- Commissioned naval officers: 83
+- Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
@@ -49,17 +49,17 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,001
+- `not_started`: 21,991
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 31
 - `needs_temporal_review`: 5
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 212
-- `requires_archival_review`: 1,333
+- `occupation_only_found`: 215
+- `requires_archival_review`: 1,339
 - `completed`: 68
 - `conflicting_sources`: 22
-- `verified_employer_found`: 169
+- `verified_employer_found`: 170
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,707. The detailed adapter breakdown remains reproducible in
+  adapters: 1,723. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 738 across 712 people; 85 additional
+- Saved `source_reviewed` outcomes: 749 across 723 people; 85 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,159
+- Total recorded attempts/plans: 3,169
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 698; 676 have at least one public-eligible
+- People with saved reviewed claims: 703; 681 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2432,15 +2432,33 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
   and Rose M. Bivens remain unresolved archival-review cases. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
-- Public-visible affiliations: 799 (published, qualified, or conflict-visible)
-- Database claims: 1,586; public-visible claims: 1,555 (344 confirmed, 840 high,
-  339 medium, 32 conflicting); 25 low-confidence claims are withheld and six
+- Batch 215 covers the next ten contiguous rows on page thirty-eight, Dorothy
+  E. Bixby through Frederick J. Blachly, all indexed in Box 58. The index page
+  and relevant official Army occupation-code pages were checked visually.
+  Exact private-identifier matches confirm Romeo J. Bizaillon, Elwood G.
+  Bizeau, Stephen Bizic (recorded as Steven in the Army file), and Frederick J.
+  Blachly. Romeo's Army record is dated after OSS dissolution and is used only
+  for identity. The other records support qualified clerk, construction, and
+  author-editor-reporter occupation groups without naming an employer.
+  Official CIA and Army repository sources independently corroborate Bizic's
+  OSS SPIKE mission. A Minnesota Historical Society first-person oral history
+  supports a high-confidence Kristjan Valdimar Bjornson identity and places
+  full-time KSTP radio work immediately before his 1942 Navy entry. KSTP is
+  therefore published as his last civilian employer before wartime service,
+  not as his immediate pre-OSS affiliation. Dorothy E. Bixby, Max Bixby,
+  George Bizovi, John M. Bjornson, and Kjeli Bjorvik remain unresolved and
+  route to Box 58 review. No authenticated Catalog request, credential, raw API
+  response, full private identifier, or unsupported employer claim was used or
+  published.
+- Public-visible affiliations: 803 (published, qualified, or conflict-visible)
+- Database claims: 1,595; public-visible claims: 1,564 (348 confirmed, 842 high,
+  342 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,455 total and 3,389 public-visible; private source
-  records: 2,512; public source export: 1,507; unique source documents: 1,155
-- Canonical organizations: 390 private and 380 public
+- Claim-source links: 3,486 total and 3,420 public-visible; private source
+  records: 2,520; public source export: 1,515; unique source documents: 1,159
+- Canonical organizations: 391 private and 381 public
 - Conflicting claims: 32 across 23 people
-- NARA pull-list rows: 23,809
+- NARA pull-list rows: 23,808
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2478,6 +2496,8 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-dorothy-bixby-through-frederick-blachly-pathways_batch-215_2026-08-07.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-raymond-bisson-through-rose-bivens-pathways_batch-214_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-thirty-seven-thirty-eight-francis-bishop-through-malcolm-bissell-pathways_batch-213_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-benczer-through-bendick-pathways_batch-183_2026-08-04.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-nine-thirty-kenneth-beers-through-william-behrens-pathways_batch-176_2026-08-03.json

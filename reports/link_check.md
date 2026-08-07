@@ -4,16 +4,42 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,328 HTML files. Every relative
+**PASS.** The production build contains 24,329 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 380 organization profiles, and the
+The build includes 23,940 person profiles, 381 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,057 unique external URLs for separate live
+The checker inventoried 49,062 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 215 local release check
+
+The complete 24,329-page internal-link pass includes direct routes for Dorothy
+E. Bixby through Frederick J. Blachly on PDF page 38 and the new KSTP
+organization profile. The 69-test Python suite, deterministic 200-profile
+audit, and clean 687-case desktop, phone, and tablet browser matrix passed;
+Astro reported zero errors, warnings, or hints, and the production dependency
+audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows in Box 58, literal ranks or
+civilian grades, public-safe identifier masking, identity and research states,
+employer-gap wording, and archival-review routes. It separately checks three
+bounded Army-entry occupation groups, the Stephen/Steven Bizic variant,
+Bizaillon's identity-only post-OSS record, and KSTP as Bjornson's last civilian
+employer before Navy service. No broad occupation or civilian employer is
+silently converted into an immediate pre-OSS affiliation.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,000
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`7c75c69e4a91e1d40b73638c95b5af57aabee4ecfaad0a7bc282669ab10a9c53`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`339a8d0c4fc43cbff82c2eae403da9655cd8fbbf5543807987e9530416c755c7`.
 
 ## Batch 214 local release check
 

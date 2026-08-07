@@ -1,0 +1,842 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS reviewed research workflow, batch 215",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-38-batch215",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 58",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 38, rows 18-27; Dorothy E. Bixby through Frederick J. Blachly; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch215",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier and name matches accepted for Romeo J. Bizaillon, Elwood G. Bizeau, Steven Bizic, and Frederick J. Blachly; no exact match accepted for George Bizovi or the two indexed officers",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch215",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Reference Copy pages 40-42: fixed-width field positions and record-layout rules used to check Army-entry dates and civilian-occupation columns",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines the record layout and warns that the merged file contains best-guess interpretations. Civilian occupation was recorded at Army entry and does not name an employer."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch215",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF pages 170-174: codes 006, 149, and 732; visually and textually checked. Code 302 was also checked but excluded because Romeo J. Bizaillon's dated record is post-OSS.",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official corrected code documentation. The groups identify an occupation only and do not establish an employer, workplace, or exact duties."
+    },
+    {
+      "key": "cia-studies-code-name-spike-review-batch215",
+      "stable_url": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-68-no-4-special-media-reviews-december-2024/review-code-name-spike-the-dawn-of-the-cold-war-cia-and-us-army-special-forces/",
+      "archival_identifier": "Studies in Intelligence 68, no. 4, Special Media Reviews",
+      "title": "Review: CODE NAME: SPIKE: The Dawn of the Cold War, CIA and U.S. Army Special Forces",
+      "author_creator": "Kevin McCall",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2024-12",
+      "locator": "Review page and linked PDF, pages 29-30: Steven Bizic, Sergeant, OSS SPIKE mission in Yugoslavia, and the jointly authored postwar manuscript",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "Official CIA historical review. It establishes the Steven spelling, OSS service, rank context, and mission; it does not document a pre-OSS employer."
+    },
+    {
+      "key": "army-heritage-oss-bibliography-batch215",
+      "stable_url": "https://www.armyheritage.org/wp-content/uploads/ref-bibs/subjects/Intelligence/WW2/Office%20of%20Strategic%20Services.pdf",
+      "archival_identifier": "U.S. Army Heritage and Education Center bibliography, Office of Strategic Services",
+      "title": "Office of Strategic Services",
+      "author_creator": "U.S. Army Heritage and Education Center",
+      "repository_publisher": "U.S. Army Heritage and Education Center",
+      "publication_record_date": null,
+      "locator": "PDF page 9: Bizic, Steven, Pokret manuscript, archival collection; account of six months' service with Yugoslav partisans in 1944",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "U.S. Army Heritage and Education Center reference bibliographies",
+      "rights_notes": "Official Army repository bibliography. The manuscript pointer corroborates the unusual name and 1944 NCO service but supplies no pre-OSS employer."
+    },
+    {
+      "key": "mnhs-val-bjornson-oral-history-transcript-batch215",
+      "stable_url": "https://49482661.fs1.hubspotusercontent-na1.net/hubfs/49482661/collections/10394343/AV2017.165.12-1.pdf",
+      "archival_identifier": "Minnesota Historical Society, Public Affairs Center Collection Oral History Project, OH 170.12",
+      "title": "Oral History Interview with Val Bjornson",
+      "author_creator": "Val Bjornson, narrator; Warren Gardner and Bruce Larson, interviewers",
+      "repository_publisher": "Minnesota Historical Society",
+      "publication_record_date": "1974-08-20",
+      "locator": "Transcript PDF pages 1-3 and 46-50: full name; KSTP and newspaper chronology; full-time radio work immediately before entering the Navy in 1942; Lieutenant junior grade rank",
+      "access_date": "2026-08-07",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Public Affairs Center Collection Oral History Project",
+      "rights_notes": "Repository-hosted first-person oral history. Short excerpts are used; the transcript is not republished."
+    },
+    {
+      "key": "mnhs-public-affairs-oral-history-finding-aid-batch215",
+      "stable_url": "https://storage.googleapis.com/mnhs-finding-aids-public/library/findaids/oh170.html",
+      "archival_identifier": "Minnesota Historical Society, OH 170.12",
+      "title": "Public Affairs Center Collection Oral History Project: Finding Aid",
+      "author_creator": "Minnesota Historical Society",
+      "repository_publisher": "Minnesota Historical Society",
+      "publication_record_date": null,
+      "locator": "OH 170.12: oral history interview with Val Bjornson, August 20-September 4, 1974; biographical note records Navy intelligence service in Iceland",
+      "access_date": "2026-08-07",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Minnesota Historical Society oral histories",
+      "rights_notes": "Institutional finding aid supplies collection provenance and an independent repository description of the interviewee."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "kstp-radio-batch215",
+      "canonical_name": "KSTP",
+      "historical_name": "KSTP",
+      "aliases": [
+        "KSTP Radio",
+        "station KSTP"
+      ],
+      "organization_type": "radio station",
+      "sector": "journalism_and_media",
+      "city": "Saint Paul",
+      "state_or_region": "Minnesota",
+      "country": "United States",
+      "active_dates": "Documented as Val Bjornson's radio employer from 1935 until his 1942 Navy entry, alongside periods of newspaper work",
+      "normalization_notes": "The historical station call sign is preserved. The source describes employment in radio and distinguishes KSTP from the separate WCAL broadcast."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "elwood-g-bizeau-clerk-occupation-batch215",
+      "person_id": "8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Clerk or kindred occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-17",
+      "date_precision": "The official Army-entry record carries civilian occupation code 149 on May 17, 1943; the code group does not name an employer, workplace, or exact clerical role.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation establishes neither a named employer nor the Army-to-OSS sequence."
+    },
+    {
+      "key": "stephen-bizic-construction-occupation-batch215",
+      "person_id": "138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Construction occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-09-17",
+      "date_precision": "The official Army-entry record carries civilian occupation code 732 on September 17, 1942; the broad code group does not name an employer or construction trade.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms that the Army record spelled his given name Steven. Official CIA and Army repository sources corroborate later OSS service, but none names a pre-OSS employer."
+    },
+    {
+      "key": "kristjan-v-bjornson-kstp-last-civilian-batch215",
+      "person_id": "dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551",
+      "organization_key": "kstp-radio-batch215",
+      "organization_name_as_found": "KSTP",
+      "role_title": "Radio commentator",
+      "occupation": "Radio commentator and broadcaster",
+      "relationship_type": "employment",
+      "start_date": "1935-03",
+      "end_date": "1942",
+      "date_precision": "Bjornson recalled taking the KSTP assignment in March 1935, returning to radio full time after leaving the Minneapolis Tribune in 1941, and entering the Navy in 1942.",
+      "city": "Saint Paul",
+      "state_or_region": "Minnesota",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The first-person chronology explicitly places full-time radio work immediately before Navy entry. Because no OSS recruitment date or assignment was established, KSTP is published as the last civilian employer before wartime service, not as the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "frederick-j-blachly-author-editor-reporter-occupation-batch215",
+      "person_id": "adeb2924-56d2-5dce-85f2-9fb98740858c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Author, editor, or reporter",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1945-04-02",
+      "date_precision": "The official Army-entry record carries civilian occupation code 006 on April 2, 1945; the group does not identify which role applied or name an employer or publication.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation does not establish a named employer, a specific job among the three listed, or the Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "romeo-j-bizaillon-confirmed-army-identity-batch215",
+      "person_id": "992651fa-123b-51ec-9dc8-3c0125dca3e2",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician 5th Grade Romeo J. Bizaillon is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "Exact name and private identifier match; dated Army record is post-OSS.",
+      "evidence_paraphrase": "The official Army merged file contains an exact name and private-identifier match dated June 13, 1946.",
+      "identity_match_assessment": "The exact private identifier and uncommon full name confirm identity despite the Army record's post-OSS date.",
+      "temporal_assessment": "Because the dated Army record is after OSS dissolution, its occupation field cannot support a pre-OSS claim and is not published.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The record is used only for identity. It does not establish a pre-OSS occupation, employer, or chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 20",
+          "excerpt_override": "BIZAILLON ROMEO J T-5"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch215",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "elwood-g-bizeau-confirmed-army-identity-batch215",
+      "person_id": "8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Elwood G. Bizeau is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "Exact full name and private identifier match.",
+      "evidence_paraphrase": "The official Army merged file contains an exact full-name and private-identifier match dated May 17, 1943.",
+      "identity_match_assessment": "The exact private identifier, full name, and wartime chronology confirm identity.",
+      "temporal_assessment": "The record establishes identity and an occupation group at Army entry but does not establish an OSS date or employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Later wildlife-career sources were reviewed only for disambiguation and were not used to infer a pre-OSS employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 21",
+          "excerpt_override": "BIZEAU ELWOOD G"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch215",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "elwood-g-bizeau-clerk-occupation-claim-batch215",
+      "person_id": "8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab",
+      "affiliation_key": "elwood-g-bizeau-clerk-occupation-batch215",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on May 17, 1943, Elwood G. Bizeau's recorded civilian occupation group was clerks and kindred occupations, not elsewhere classified.",
+      "evidence_excerpt": "Code 149: Clerks and kindred occupations, not elsewhere classified.",
+      "evidence_paraphrase": "The exact official Army record carries code 149, which NARA's code list defines as a broad clerical occupation group.",
+      "identity_match_assessment": "The exact private identifier confirms the Army record belongs to the indexed person.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded pre-OSS evidence, but it does not establish immediacy, a named employer, or an exact role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified occupation finding and excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 21"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch215",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch215",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 171"
+        }
+      ]
+    },
+    {
+      "key": "stephen-bizic-confirmed-identity-batch215",
+      "person_id": "138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Stephen Bizic is confirmed as the same person recorded as Steven Bizic in the Army file and official histories of the OSS SPIKE mission.",
+      "evidence_excerpt": "Sgt. Steven Bizic was a member of the OSS SPIKE mission in Yugoslavia.",
+      "evidence_paraphrase": "The exact private identifier links Stephen and Steven, while official CIA and Army repository sources identify Sergeant Steven Bizic's 1944 OSS service.",
+      "identity_match_assessment": "The exact private identifier confirms the name variant; the same surname, Sergeant rank, OSS context, and Yugoslavia mission independently corroborate identity.",
+      "temporal_assessment": "The official histories document 1944 OSS service but do not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Both spellings remain visible. The index itself marks the row possible; the exact identifier resolves the Army identity without silently correcting the printed name.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 22; NOTES: possible",
+          "excerpt_override": "BIZIC STEPHEN T/SGT; possible"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "cia-studies-code-name-spike-review-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-heritage-oss-bibliography-batch215",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "stephen-bizic-construction-occupation-claim-batch215",
+      "person_id": "138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24",
+      "affiliation_key": "stephen-bizic-construction-occupation-batch215",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on September 17, 1942, Steven Bizic's recorded civilian occupation group was construction occupations, not elsewhere classified.",
+      "evidence_excerpt": "Code 732: Construction occupations, not elsewhere classified.",
+      "evidence_paraphrase": "The exact official Army record carries code 732, which NARA's code list defines as a broad construction occupation group.",
+      "identity_match_assessment": "The exact private identifier confirms that the Army record's Steven Bizic is the indexed Stephen Bizic.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded pre-OSS evidence but names no employer or exact construction trade.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified occupation finding and excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 22"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch215",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch215",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 174"
+        }
+      ]
+    },
+    {
+      "key": "kristjan-v-bjornson-high-confidence-identity-batch215",
+      "person_id": "dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Kristjan V. Bjornson is a high-confidence match to journalist and Navy Lieutenant junior grade Kristjan Valdimar 'Val' Bjornson.",
+      "evidence_excerpt": "My full name ... is Kristjan Valdimar Bjornson.",
+      "evidence_paraphrase": "In a repository oral history, Val Bjornson states his full name and recalls his Navy Lieutenant junior grade commission and Iceland assignment.",
+      "identity_match_assessment": "The highly distinctive exact first name, surname, middle initial expansion, Lieutenant rank, wartime Navy service, and Iceland assignment establish high confidence; the external source does not print the index identifier.",
+      "temporal_assessment": "The interview documents Navy entry in 1942 and service through 1946 but does not identify an OSS assignment or recruitment date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel category is corrected from generic commissioned Army parsing to commissioned naval officer on the strength of the first-person record.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 25",
+          "excerpt_override": "BJORNSON KRISTJAN V LT"
+        },
+        {
+          "source_key": "mnhs-val-bjornson-oral-history-transcript-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "mnhs-public-affairs-oral-history-finding-aid-batch215",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "kristjan-v-bjornson-kstp-last-civilian-claim-batch215",
+      "person_id": "dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551",
+      "affiliation_key": "kristjan-v-bjornson-kstp-last-civilian-batch215",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "KSTP was Kristjan Valdimar 'Val' Bjornson's last documented civilian employer before he entered the U.S. Navy in 1942.",
+      "evidence_excerpt": "Then I went back to radio full time, and went into the Navy in 1942.",
+      "evidence_paraphrase": "Bjornson recalled returning to full-time radio at KSTP after his newspaper work ended in 1941, then entering the Navy in 1942.",
+      "identity_match_assessment": "The highly distinctive name and matching Lieutenant-level Navy service establish a high-confidence identity match.",
+      "temporal_assessment": "The first-person sequence strongly bounds KSTP as the last civilian employer before wartime service; it does not prove that KSTP immediately preceded an OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is deliberately limited to last civilian employer before wartime service. It is not labeled immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 25"
+        },
+        {
+          "source_key": "mnhs-val-bjornson-oral-history-transcript-batch215",
+          "support_type": "supports",
+          "locator_override": "Transcript PDF page 3; interview chronology"
+        },
+        {
+          "source_key": "mnhs-public-affairs-oral-history-finding-aid-batch215",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "frederick-j-blachly-confirmed-army-identity-batch215",
+      "person_id": "adeb2924-56d2-5dce-85f2-9fb98740858c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Private Frederick J. Blachly is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "Exact full name and private identifier match.",
+      "evidence_paraphrase": "The official Army merged file contains an exact full-name and private-identifier match dated April 2, 1945.",
+      "identity_match_assessment": "The exact private identifier, full name, and compatible enlisted status confirm identity.",
+      "temporal_assessment": "The record establishes identity and an occupation group at Army entry but not an OSS date or employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Later Washington directory and government namesakes were not used to infer a pre-OSS employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 27",
+          "excerpt_override": "BLACHLY FREDERICK J PVT"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch215",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "frederick-j-blachly-author-editor-reporter-claim-batch215",
+      "person_id": "adeb2924-56d2-5dce-85f2-9fb98740858c",
+      "affiliation_key": "frederick-j-blachly-author-editor-reporter-occupation-batch215",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on April 2, 1945, Frederick J. Blachly's recorded civilian occupation group was authors, editors, and reporters.",
+      "evidence_excerpt": "Code 006: Authors, editors, and reporters.",
+      "evidence_paraphrase": "The exact official Army record carries code 006, which NARA's code list defines as the authors, editors, and reporters group.",
+      "identity_match_assessment": "The exact private identifier confirms the Army record belongs to the indexed person.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded pre-OSS evidence, but it does not identify which role applied, a named employer, or an OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified occupation finding and excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch215",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 27"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch215",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch215",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch215",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 170"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "79832851-2cca-57db-bc53-af13abc6d1bf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Dorothy E. Bixby, civilian grade CAF-5, and Box 58 but no private identifier. Official, CIA, exact-name OSS, employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches returned no candidate with a direct OSS linkage or two corroborating identifiers.",
+      "name_variants": ["Dorothy E Bixby", "Dorothy E. Bixby", "Bixby, Dorothy E."],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, the meaning of CAF-5, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "776c1721-70e5-5199-8c03-88ab5bf2b124",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Max Bixby and Box 58, with no rank, grade, middle initial, or private identifier. Official, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned no wartime candidate that could be resolved safely.",
+      "name_variants": ["Max Bixby", "Bixby, Max"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full name, personnel status, identifiers, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "992651fa-123b-51ec-9dc8-3c0125dca3e2",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Romeo J. Bizaillon's exact uncommon full name, middle initial, and private identifier. The Army record is dated June 13, 1946, after OSS dissolution, so its occupation is not used as pre-OSS evidence.",
+      "name_variants": ["Romeo J Bizaillon", "Romeo J. Bizaillon", "Bizaillon, Romeo J."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for the pre-OSS occupation, employer, OSS chronology, and explanation of the post-OSS Army record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Elwood G. Bizeau's exact full name, middle initial, and private identifier. The Army record dates entry to May 17, 1943 and carries civilian occupation code 149.",
+      "name_variants": ["Elwood G Bizeau", "Elwood G. Bizeau", "Bizeau, Elwood G."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies a broad clerical occupation group but no employer. Review Box 58 for an organization, precise job, personnel status, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact private identifier and surname; the Army file spells the given name Steven. Official CIA and Army repository sources identify Sergeant Steven Bizic's 1944 OSS SPIKE mission in Yugoslavia, corroborating rank and service context.",
+      "name_variants": ["Stephen Bizic", "Steven Bizic", "Bizic, Stephen", "Bizic, Steven"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies a broad construction occupation group but no employer. Review Box 58 and the Pokret manuscript for identity detail, a named pre-service employer, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4912ab6d-c5f6-5d0b-aa27-b5642d487d11",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies George Bizovi, Technician 5th Grade, a private identifier, and Box 58. The official Army bulk file returned no exact identifier match. Official, CIA, exact-name OSS, employment, occupation, newspaper, obituary, directory, and archival searches produced no candidate with sufficient corroboration.",
+      "name_variants": ["George Bizovi", "Bizovi, George"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 and the original military record for identity, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "406db149-d07b-5e56-b2cd-6f3f2917022f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies John M. Bjornson, Second Lieutenant, a private officer identifier, and Box 58. Name-only results are insufficient for this common name, and official, CIA, exact-name OSS, officer, employment, occupation, institutional, newspaper, obituary, directory, and archival searches produced no directly linked candidate.",
+      "name_variants": ["John M Bjornson", "John M. Bjornson", "Bjornson, John M."],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 and officer records for branch, full identity, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index and Minnesota Historical Society oral history share the highly distinctive Kristjan V. Bjornson name, expand it to Kristjan Valdimar, and document wartime Navy Lieutenant junior grade service in Iceland. The repository source does not print the private identifier or an OSS assignment.",
+      "name_variants": ["Kristjan V Bjornson", "Kristjan V. Bjornson", "Kristjan Valdimar Bjornson", "Val Bjornson", "Valdimar Bjornson", "Bjornson, Kristjan V."],
+      "replace_name_variants": true,
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "KSTP is verified as the last civilian employer before Navy service. Review Box 58 to establish whether and when Bjornson had an OSS assignment and whether the Navy was his immediate pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ac82346f-f5ec-5575-a6ff-38cd1c8ca8ee",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only the spelling Kjeli Bjorvik and Box 58, with no rank, grade, middle initial, or private identifier. Official, CIA, exact-spelling and likely-variant OSS, employment, occupation, Norwegian, institutional, newspaper, obituary, directory, and archival searches returned no safely resolvable wartime candidate.",
+      "name_variants": ["Kjeli Bjorvik", "Bjorvik, Kjeli", "Kjell Bjorvik"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for the original spelling, nationality, personnel status, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "adeb2924-56d2-5dce-85f2-9fb98740858c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Frederick J. Blachly's exact full name, middle initial, private identifier, and compatible enlisted status. The Army record dates entry to April 2, 1945 and carries civilian occupation code 006.",
+      "name_variants": ["Frederick J Blachly", "Frederick J. Blachly", "Blachly, Frederick J."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies the authors-editors-reporters occupation group but no employer or exact role. Review Box 58 for the publication or organization and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "dorothy-e-bixby-protocol-batch215",
+      "person_id": "79832851-2cca-57db-bc53-af13abc6d1bf",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Dorothy E. Bixby; CAF-5; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Modern property, directory, obituary, genealogy, and common-name candidates lacked a Box 58 reference, CAF-5 linkage, OSS evidence, or two corroborating wartime identifiers.",
+      "research_notes": "The civilian grade is preserved without expanding it into an unsupported title. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "max-bixby-protocol-batch215",
+      "person_id": "776c1721-70e5-5199-8c03-88ab5bf2b124",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Max Bixby; visually verified NARA index; no printed rank, grade, middle initial, or identifier; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Modern people, historical article bylines, genealogy, obituary, and directory candidates lacked a wartime OSS linkage or sufficient identifiers.",
+      "research_notes": "The short name is not sufficient for entity resolution. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full name, personnel status, identifiers, employer, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "romeo-j-bizaillon-protocol-batch215",
+      "person_id": "992651fa-123b-51ec-9dc8-3c0125dca3e2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Romeo J. Bizaillon; Technician 5th Grade; private identifier; official Army merged file; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, military, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The exact Army record is dated June 13, 1946, so its occupation was rejected as pre-OSS evidence; obituary, genealogy, and directory candidates added no named prewar employer.",
+      "research_notes": "The exact identifier confirms identity only. No reliable pre-OSS occupation or employer was found.",
+      "next_action": "Review Box 58 for the pre-OSS occupation, employer, OSS chronology, and explanation of the post-OSS record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "elwood-g-bizeau-protocol-batch215",
+      "person_id": "8e03c93b-2f3e-5ef1-b5e0-39931ad0e2ab",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Elwood G. Bizeau; private identifier; official Army merged file; occupation code 149; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; clerk, employer, wildlife, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Postwar wildlife publications and university appointments begin years after OSS service and cannot establish pre-OSS employment; other candidates lacked the exact identifier.",
+      "research_notes": "The exact Army match supplies only a broad clerical occupation group at Army entry. No named employer or Army-to-OSS chronology was found.",
+      "next_action": "Review Box 58 for a named employer, precise role, personnel status, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "stephen-bizic-protocol-batch215",
+      "person_id": "138dd8f9-b7c1-5494-a0f7-9c92fc8ebb24",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Stephen Bizic; Steven Bizic; Technical Sergeant; private identifier; official Army merged file; occupation code 732; CIA Studies in Intelligence; Army Heritage Pokret manuscript; visually verified NARA index; exact-name OSS and SPIKE variants; employment, occupation, Yugoslavia, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A modern commercial book was discovery-only; official CIA and Army sources establish OSS identity but not a pre-OSS employer; genealogy and namesakes lacked the exact identifier.",
+      "research_notes": "The exact Army match supplies a broad construction occupation and the Steven spelling. Official histories independently corroborate 1944 OSS service.",
+      "next_action": "Review Box 58 and the Pokret manuscript for a named pre-service employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "george-bizovi-protocol-batch215",
+      "person_id": "4912ab6d-c5f6-5d0b-aa27-b5642d487d11",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George Bizovi; Technician 5th Grade; private identifier; official Army merged file; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, military, newspaper, obituary, directory, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The official Army file had no exact identifier match; obituary, cemetery, Canadian, genealogy, and modern candidates lacked a matching identifier and direct OSS evidence.",
+      "research_notes": "The uncommon name alone cannot override the missing identifier match or establish a pre-OSS employer.",
+      "next_action": "Review Box 58 and original military records for identity, occupation, employer, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "john-m-bjornson-protocol-batch215",
+      "person_id": "406db149-d07b-5e56-b2cd-6f3f2917022f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John M. Bjornson; Second Lieutenant; private officer identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and officer variants; employment, occupation, military, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name military, medical, obituary, directory, and modern candidates lacked the private officer identifier, Box 58 reference, or direct OSS linkage.",
+      "research_notes": "A name match alone is insufficient for this common name. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 and officer records for branch, full identity, employer, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "kristjan-v-bjornson-protocol-batch215",
+      "person_id": "dbbcd7a2-65fd-5d0c-afe4-dfa97f8d9551",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Kristjan V. Bjornson; Kristjan Valdimar Bjornson; Val Bjornson; Lieutenant; private officer identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and Navy variants; Minnesota Historical Society oral history; KSTP; Minneapolis Tribune; WCAL; employment, occupation, military, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Later political and newspaper roles were postwar; secondary biographies corroborated chronology but the first-person repository transcript was preferred; no source established an OSS assignment date.",
+      "research_notes": "The oral history establishes a high-confidence identity and KSTP as the last civilian employer before Navy entry. It does not establish the immediate pre-OSS affiliation.",
+      "next_action": "Review Box 58 to establish whether and when Bjornson had an OSS assignment and whether the Navy was immediately prior.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "kjeli-bjorvik-protocol-batch215",
+      "person_id": "ac82346f-f5ec-5575-a6ff-38cd1c8ca8ee",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Kjeli Bjorvik; Kjell Bjorvik; visually verified NARA index; no printed rank, grade, middle initial, or identifier; public NARA and RG 226 context; CIA Reading Room; exact-spelling and variant OSS searches; employment, occupation, Norwegian, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Modern Norwegian officials, Chicago obituary candidates, directories, and spelling variants lacked a wartime OSS linkage, Box 58 reference, or corroborating identifiers.",
+      "research_notes": "Kjell is retained only as a search alias, not a correction. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for original spelling, nationality, personnel status, employment history, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    },
+    {
+      "key": "frederick-j-blachly-protocol-batch215",
+      "person_id": "adeb2924-56d2-5dce-85f2-9fb98740858c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Frederick J. Blachly; Private; private identifier; official Army merged file; occupation code 006; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; author, editor, reporter, employer, publication, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T23:55:00+00:00",
+      "completed_at": "2026-08-08T00:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Later Washington directory and government records were postwar and did not establish the same person's pre-service employer; Frederick F. Blachly scholarly sources concerned a different person.",
+      "research_notes": "The exact Army match supplies only the authors-editors-reporters occupation group at Army entry. No named employer, publication, exact role, or Army-to-OSS chronology was found.",
+      "next_action": "Review Box 58 for the publication or organization, exact role, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch215-v1"
+    }
+  ]
+}
