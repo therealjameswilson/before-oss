@@ -18767,3 +18767,77 @@ test("Batch 212 publishes qualified page 37 findings without overstating employe
     );
   }
 });
+
+test("Batch 213 preserves page-boundary occupations and the Robert Bishop identifier conflict", async ({
+  page,
+}) => {
+  const profiles = [
+    ["0da81a42-d7d8-51d9-a33f-2f3cadc50952", "Francis N Bishop", "Capt", "Page 37", "57", true],
+    ["ce69e271-d7b7-55f2-8607-d378e6590539", "Frank P Bishop", "M/Sgt", "Page 37", "58", true],
+    ["d0ab4367-6f9f-5cb7-9939-7bd9ed60aa31", "Mary P Bishop", "Caf-2", "Page 37", "58", false],
+    ["762e65ee-40a9-584a-b30a-a0fba47fabde", "Oscar A Bishop", "Cpl", "Page 38", "58", true],
+    ["586740e3-27cd-5d04-a8a9-ed3ba2c72364", "Robert Bishop", "Maj", "Page 38", "58", true],
+    ["695d452d-1174-5989-9cfb-68f4ce3d1a7d", "Stephen J Bishop", "Cpl", "Page 38", "58", true],
+    ["726703f4-0629-519e-b5e9-035676025e65", "Virgil T Bishop", "Not printed", "Page 38", "58", true],
+    ["82d3ff0c-119c-5f2e-b54f-0e9e745d5953", "Mike Bisida", "Sgt", "Page 38", "58", true],
+    ["b0e87461-aa6f-5329-afc8-770a141fd6c0", "Faith Bissell", "Not printed", "Page 38", "58", false],
+    ["15a98129-5ac2-568f-9917-d396a6b8ab42", "Malcolm H Bissell", "P-5", "Page 38", "58", false],
+  ] as const;
+
+  for (const [personId, displayName, rank, sourcePage, box, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(sourcePage);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  const occupations = [
+    ["ce69e271-d7b7-55f2-8607-d378e6590539", "Manager or official, not elsewhere classified"],
+    ["762e65ee-40a9-584a-b30a-a0fba47fabde", "Sales clerk"],
+    ["695d452d-1174-5989-9cfb-68f4ce3d1a7d", "General office clerk"],
+    ["82d3ff0c-119c-5f2e-b54f-0e9e745d5953", "Chauffeur or driver of a bus, taxi, truck, or tractor"],
+  ] as const;
+
+  for (const [personId, occupation] of occupations) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/586740e3-27cd-5d04-a8a9-ed3ba2c72364/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Air Corps, United States Army",
+  );
+  await expect(page.locator("main")).toContainText("differs by one digit");
+  await expect(page.locator("main")).toContainText("excluded from default analytics");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const personId of [
+    "0da81a42-d7d8-51d9-a33f-2f3cadc50952",
+    "d0ab4367-6f9f-5cb7-9939-7bd9ed60aa31",
+    "726703f4-0629-519e-b5e9-035676025e65",
+    "b0e87461-aa6f-5329-afc8-770a141fd6c0",
+    "15a98129-5ac2-568f-9917-d396a6b8ab42",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

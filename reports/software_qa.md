@@ -7,18 +7,18 @@ Run: 2026-08-07 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,326 pages**
 - Internal link check: **24,326 HTML files passed**
-- Complete browser and accessibility matrix: **678 / 678 passed** across
+- Complete browser and accessibility matrix: **681 / 681 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`e99f3c1a08e4cd18690c20da372da3250e85241057c779fcf447ef28c0caac60`)
-- Latest deterministic build (Batch 212): **byte-for-byte identical** across
+  (`a2ffa80e2a62a2658ea63fd83a1c670b7bd1641ffa8f49ecc0dd46c7d091dabf`)
+- Latest deterministic build (Batch 213): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `3a00aa0c581bff3fd533627e8abb104b9c5afb4ff447a4bcc03b2d89ceb38dee`
+  `048dde8946220ab76d9d59bd6f0326458dc2af2d34a449b051b29bed1b2ff77c`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -29,10 +29,10 @@ Run: 2026-08-07 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,494** public records representing **1,148** unique documents
-- Private citation records: **2,499**
-- Published, qualified, or conflict-visible affiliations: **789**
-- Published or conflict-visible claims: **1,534**
+- Reviewed public sources: **1,500** public records representing **1,151** unique documents
+- Private citation records: **2,505**
+- Published, qualified, or conflict-visible affiliations: **794**
+- Published or conflict-visible claims: **1,544**
 - Verified-affiliation metric: **312** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **171** people with confirmed/high published
@@ -101,6 +101,55 @@ Run: 2026-08-07 UTC
   matrix passed locally
 - Batch 212 local release checks: **passed**; the complete **678-case** browser
   matrix passed locally
+- Batch 213 local release checks: **passed**; the complete **681-case** browser
+  matrix passed locally
+
+## Batch 213 local release QA
+
+Batch 213 adds the ten visually checked page-37 and page-38 source rows from
+Francis N. Bishop through Malcolm H. Bissell, indexed across Boxes 57-58. The
+strict evidence bundle imports six sources, one organization reference, five
+affiliations, ten claims, twenty-five claim-source links, ten person updates,
+and ten durable research attempts. Exact private-identifier matches in NARA's
+official Army bulk file support qualified, bounded occupations for Frank P.
+Bishop, Oscar A. Bishop, Stephen J. Bishop, and Mike Bisida without naming an
+employer. Stephen's Enlisted Reserve Corps occupation field is interpreted
+under NARA's documented one-column shift. NARA and CIA records establish an
+external OSS Major Robert Bishop in X-2 Bucharest, but the officer identifier
+differs by one digit from the index row; that conflict and the qualified Air
+Corps pathway remain visible and excluded from default analytics. Francis N.
+Bishop, Mary P. Bishop, Virgil T. Bishop, Faith Bissell, and Malcolm H. Bissell
+remain explicit archival-review cases.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,326 pages. The internal-link checker passed all 24,326 HTML
+files and inventoried 49,053 unique external URLs. The focused Batch 213
+regression passed 3 / 3, and the clean complete single-worker Playwright and
+axe matrix passed 681 / 681 across desktop, phone, and tablet. The production
+dependency audit found zero vulnerabilities.
+
+Consecutive production-site builds produced identical sorted
+path-and-file-SHA-256 tree digests. The complete-site digest is
+`a2ffa80e2a62a2658ea63fd83a1c670b7bd1641ffa8f49ecc0dd46c7d091dabf`.
+All 65 public-manifest assets have recorded paths, sizes, and SHA-256 values;
+the manifest SHA-256 is
+`048dde8946220ab76d9d59bd6f0326458dc2af2d34a449b051b29bed1b2ff77c`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,002 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,396 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 213 database contains 3,149 durable research attempts, 2,505 private
+citation records, 802 affiliations, 388 organizations, and 1,575 claims: 342
+confirmed, 839 high, 333 medium, 31 low, and 30 conflicting. The public
+projection contains 1,500 source records representing 1,151 unique documents,
+794 affiliations, and 1,544 published, qualified, or conflict-visible claims.
+Coverage distinguishes 1,929 people with a non-planned research attempt, 312
+with verified-affiliation evidence, 171 with verified employment or
+self-employment evidence, and 1,878 whose archival-review need has been
+assessed.
 
 ## Batch 212 local release QA
 

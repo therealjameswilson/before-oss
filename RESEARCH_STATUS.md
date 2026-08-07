@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,919 people with a non-planned attempt | 23,940 active person entities | 8.0159% |
+| Research-attempt coverage | 1,929 people with a non-planned attempt | 23,940 active person entities | 8.0576% |
 | Verified-affiliation coverage | 312 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3033% |
 | Verified-employer coverage | 171 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7143% |
-| Archival-review coverage | 1,868 people with an individual file-access/priority assessment | 23,940 active person entities | 7.8028% |
+| Archival-review coverage | 1,878 people with an individual file-access/priority assessment | 23,940 active person entities | 7.8446% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 231
+- Identity status `confirmed`: 235
 - Identity status `high_confidence`: 394
 - Identity status `probable`: 63
 - Identity status `ambiguous`: 29
-- Identity status `conflicting`: 20
-- Identity status `unresolved`: 23,203
+- Identity status `conflicting`: 21
+- Identity status `unresolved`: 23,198
 
 ## Personnel categories
 
@@ -49,16 +49,16 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 22,021
+- `not_started`: 22,011
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 29
 - `needs_temporal_review`: 5
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 206
-- `requires_archival_review`: 1,323
+- `occupation_only_found`: 210
+- `requires_archival_review`: 1,328
 - `completed`: 68
-- `conflicting_sources`: 20
+- `conflicting_sources`: 21
 - `verified_employer_found`: 169
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,697. The detailed adapter breakdown remains reproducible in
+  adapters: 1,707. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 733 across 707 people; 85 additional
+- Saved `source_reviewed` outcomes: 738 across 712 people; 85 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,139
+- Total recorded attempts/plans: 3,149
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 687; 665 have at least one public-eligible
+- People with saved reviewed claims: 692; 670 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2393,15 +2393,35 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
   ambiguous Evelyn Gloria Ohman candidate pending Box 54 confirmation. No
   authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 750 (published, qualified, or conflict-visible)
-- Database claims: 1,482; public-visible claims: 1,451 (322 confirmed, 799 high,
-  304 medium, 26 conflicting); 25 low-confidence claims are withheld and six
+- Batch 213 covers the next ten contiguous rows across pages thirty-seven and
+  thirty-eight, Francis N. Bishop through Malcolm H. Bissell. Both pages were
+  checked at 300 dpi. Exact private-identifier matches in NARA's official Army
+  merged file confirm Frank P. Bishop, Oscar A. Bishop, Stephen J. Bishop, and
+  Mike Bisida. Their records support only manager-or-official, sales-clerk,
+  general-office-clerk, and broad chauffeur-or-driver occupation groups at Army
+  entry; none names an employer or proves an immediate transition to OSS.
+  NARA's Enlisted Reserve Corps column-shift instructions establish that
+  Stephen's occupation code is 105 rather than the apparent unshifted value.
+  NARA Entry 219 and a direct CIA wartime memorandum document an OSS Major
+  Robert Bishop in Bucharest, but the external officer identifier differs by
+  one digit from the printed Entry A1-224 value. The conflict remains visible;
+  the candidate's 1942 Air Corps active duty is conditional, excluded from
+  default analytics, and not labeled immediate pre-OSS. Francis N. Bishop, Mary
+  P. Bishop, Virgil T. Bishop, Faith Bissell, and Malcolm H. Bissell remain
+  unresolved and route to Box 57 or 58. A period-appropriate Professor Malcolm
+  H. Bissell namesake is retained only as a rejected lead because no second
+  identifier or OSS link was found. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
+- Public-visible affiliations: 794 (published, qualified, or conflict-visible)
+- Database claims: 1,575; public-visible claims: 1,544 (342 confirmed, 839 high,
+  333 medium, 30 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,184 total and 3,118 public-visible; private source
-  records: 2,416; public source export: 1,413; unique source documents: 1,089
-- Canonical organizations: 367 private and 358 public
-- Conflicting claims: 26 across 19 people
-- NARA pull-list rows: 23,813
+- Claim-source links: 3,426 total and 3,360 public-visible; private source
+  records: 2,505; public source export: 1,500; unique source documents: 1,151
+- Canonical organizations: 388 private and 378 public
+- Conflicting claims: 30 across 22 people
+- NARA pull-list rows: 23,809
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2439,6 +2459,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-pages-thirty-seven-thirty-eight-francis-bishop-through-malcolm-bissell-pathways_batch-213_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-one-benczer-through-bendick-pathways_batch-183_2026-08-04.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-nine-thirty-kenneth-beers-through-william-behrens-pathways_batch-176_2026-08-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-johnnie-batten-occupation-code-correction_batch-169_2026-08-03.json

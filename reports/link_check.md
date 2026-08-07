@@ -12,8 +12,35 @@ The build includes 23,940 person profiles, 378 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,051 unique external URLs for separate live
+The checker inventoried 49,053 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 213 local release check
+
+The complete 24,326-page internal-link pass includes direct routes for Francis
+N. Bishop through Malcolm H. Bissell across PDF pages 37-38. The 69-test Python
+suite, deterministic 200-profile audit, and clean 681-case desktop, phone, and
+tablet browser matrix passed; Astro reported zero errors, warnings, or hints,
+and the production dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows across Boxes 57-58, literal ranks
+or civilian grades, public-safe identifier masking, identity and research
+states, employer-gap wording, and archival-review routes. It separately checks
+Frank P. Bishop's manager-or-official group, Oscar A. Bishop's sales-clerk
+occupation, Stephen J. Bishop's shifted Enlisted Reserve Corps general-office-
+clerk code, Mike Bisida's broad driver group, and Robert Bishop's visible
+officer-identifier conflict and qualified Air Corps pathway. No occupation or
+military affiliation is silently converted into an employer or immediate
+predecessor.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,396 artifacts, reviewed 1,002
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`048dde8946220ab76d9d59bd6f0326458dc2af2d34a449b051b29bed1b2ff77c`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`a2ffa80e2a62a2658ea63fd83a1c670b7bd1641ffa8f49ecc0dd46c7d091dabf`.
 
 ## Batch 212 local release check
 

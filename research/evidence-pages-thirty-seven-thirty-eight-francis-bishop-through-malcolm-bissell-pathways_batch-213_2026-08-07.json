@@ -1,0 +1,889 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS reviewed research workflow, batch 213",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-37-38-batch213",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 57-58",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 37, rows 44-46, and page 38, rows 1-7; Francis N. Bishop through Malcolm H. Bissell; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch213",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier and name matches accepted for Frank P. Bishop, Oscar A. Bishop, Stephen J. Bishop, and Mike Bisida; no exact match found for Virgil T. Bishop; officer identifiers were not treated as enlistment-file keys",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch213",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Reference Copy pages 40-42: fixed-width field positions and Enlisted Reserve Corps column-shift rules; Stephen J. Bishop's card-format marker and occupation columns were checked against these rules",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines the record layout and warns that the merged file contains best-guess interpretations. Civilian occupation was recorded at Army entry and does not name an employer."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch213",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF pages 170-174: codes 097, 105, and 170; code 736, chauffeurs and drivers, bus, taxi, truck, and tractor; visually and textually checked",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official corrected code documentation. The groups identify an occupation only and do not establish an employer, workplace, exact duties, vehicle type, route, or self-employment."
+    },
+    {
+      "key": "nara-entry-219-robert-bishop-batch213",
+      "stable_url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/entry-219.html",
+      "archival_identifier": "RG 226, Entry 219, Box 1; CIA Accession 92-1054R; WN 26538-26552",
+      "title": "Records of the Office of Strategic Services (RG 226): Entry 219",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Page last reviewed 2016-08-15; records ca. 1944-1945",
+      "locator": "Entry 219, Box 1 description: records relating to Major Robert Bishop and X-2 Branch operations in Bucharest, Rumania",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official archival series description. It corroborates an OSS Major Robert Bishop in Bucharest but supplies no officer identifier or pre-OSS employer."
+    },
+    {
+      "key": "cia-robert-bishop-promotion-batch213",
+      "stable_url": "https://www.cia.gov/readingroom/docs/BISHOP%2C%20ROBERT_0061.pdf",
+      "archival_identifier": "CIA Reading Room file BISHOP, ROBERT_0061",
+      "title": "Promotion of Major Robert Bishop, AC",
+      "author_creator": "Frank G. Wisner, Chief of Mission, American Military Unit in Bucharest",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1944-10-24",
+      "locator": "Document page 1: subject line, active-duty chronology, and X-2 Branch assignment; private officer identifier reviewed and withheld",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA FOIA OSS Collection",
+      "document_number": "BISHOP, ROBERT_0061",
+      "rights_notes": "Direct official wartime document. Its officer identifier differs by one digit from the Entry A1-224 index row, so the linkage remains conflicting pending personnel-file review."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "air-corps-united-states-army-batch213",
+      "canonical_name": "Air Corps, United States Army",
+      "historical_name": "Air Corps",
+      "aliases": [
+        "AC",
+        "Army Air Corps"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "active_dates": "The reviewed wartime source uses the Air Corps branch designation in 1944",
+      "normalization_notes": "The historical branch designation is preserved and is not silently replaced with the modern United States Air Force."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "frank-p-bishop-managers-officials-occupation-batch213",
+      "person_id": "ce69e271-d7b7-55f2-8607-d378e6590539",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Manager or official, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1944-01-13",
+      "date_precision": "The official Army-entry record carries civilian occupation code 097 on January 13, 1944; the grouped code does not name an employer or exact duties.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation does not establish a named employer, executive role, workplace, industry, or Army-to-OSS sequence."
+    },
+    {
+      "key": "oscar-a-bishop-sales-clerk-occupation-batch213",
+      "person_id": "762e65ee-40a9-584a-b30a-a0fba47fabde",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Sales clerk",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-08-27",
+      "date_precision": "The official Army-entry record carries civilian occupation code 170 on August 27, 1943; no employer, store, product, or sales field is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. Sales clerk is an occupational group, not a named employer or proof of the final role before OSS."
+    },
+    {
+      "key": "stephen-j-bishop-general-office-clerk-occupation-batch213",
+      "person_id": "695d452d-1174-5989-9cfb-68f4ce3d1a7d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "General office clerk",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-05",
+      "date_precision": "The official Enlisted Reserve Corps statistical card carries civilian occupation code 105 on November 5, 1942; its shifted occupation columns were interpreted using NARA's card-format instructions.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The occupation code names no office, employer, industry, duties, or later Army-to-OSS sequence."
+    },
+    {
+      "key": "mike-bisida-driver-group-occupation-batch213",
+      "person_id": "82d3ff0c-119c-5f2e-b54f-0e9e745d5953",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Chauffeur or driver of a bus, taxi, truck, or tractor",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-01",
+      "date_precision": "The official Army-entry record carries civilian occupation code 736 on May 1, 1943; the code groups several driver occupations and names no employer or vehicle type.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The broad code does not establish a specific vehicle, employer, route, industry, or self-employment."
+    },
+    {
+      "key": "robert-bishop-air-corps-active-duty-conflict-batch213",
+      "person_id": "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
+      "organization_key": "air-corps-united-states-army-batch213",
+      "organization_name_as_found": "AC",
+      "role_title": "Commissioned officer",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1942-10-01",
+      "end_date": null,
+      "date_precision": "The official October 1944 promotion memorandum says the external Major Robert Bishop entered active duty on October 1, 1942 and identifies his branch as Air Corps. The index linkage remains conflicting.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "conflicting",
+      "claim_confidence": "conflicting",
+      "source_quality": "A_direct_official",
+      "publication_status": "conflicting",
+      "research_notes": "The external wartime document and NARA Entry 219 align on name, rank, OSS/X-2 work, and Bucharest. The officer identifier differs by one digit from the printed Entry A1-224 row, so this military pathway is retained only as a conflict, excluded from default analytics, and not called immediate pre-OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "frank-p-bishop-confirmed-army-identity-batch213",
+      "person_id": "ce69e271-d7b7-55f2-8607-d378e6590539",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Master Sergeant Frank P. Bishop is confirmed in the official Army-entry file.",
+      "evidence_excerpt": "BISHOP FRANK P",
+      "evidence_paraphrase": "The exact private identifier, full name and middle initial, and compatible enlisted status establish the linkage; the identifier remains withheld.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact surname, given name and middle initial, and compatible enlisted status.",
+      "temporal_assessment": "The official record dates Army entry to January 13, 1944; the later OSS chronology is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army-entry Private grade and later indexed Master Sergeant grade are compatible chronological states. The private identifier remains restricted.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-37-38-batch213",
+          "support_type": "supports",
+          "locator_override": "PDF page 37, row 45",
+          "excerpt_override": "BISHOP FRANK P M/Sgt"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BISHOP FRANK P"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch213",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "frank-p-bishop-managers-officials-occupation-claim-batch213",
+      "person_id": "ce69e271-d7b7-55f2-8607-d378e6590539",
+      "affiliation_key": "frank-p-bishop-managers-officials-occupation-batch213",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in January 1944, Frank P. Bishop's civilian occupation was classified among managers and officials not elsewhere classified.",
+      "evidence_excerpt": "Managers and officials, n.e.c.",
+      "evidence_paraphrase": "The exact-matched Army row carries code 097, which NARA defines as managers and officials not elsewhere classified without naming an employer.",
+      "identity_match_assessment": "The exact private-identifier match confirms that the Army-entry row belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on January 13, 1944, but not proven to be his final role immediately before OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The grouped code is not converted into a named employer, executive title, workplace, or exact occupation.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation code 097"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch213",
+          "support_type": "supports",
+          "locator_override": "Code No. 30; code 097",
+          "excerpt_override": "Managers and officials, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "oscar-a-bishop-confirmed-army-identity-batch213",
+      "person_id": "762e65ee-40a9-584a-b30a-a0fba47fabde",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Oscar A. Bishop is confirmed in the official Army-entry file.",
+      "evidence_excerpt": "BISHOP OSCAR A",
+      "evidence_paraphrase": "The exact private identifier, full name and middle initial, and compatible enlisted status establish the linkage; the identifier remains withheld.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact surname, given name and middle initial, and compatible enlisted status.",
+      "temporal_assessment": "The official record dates Army entry to August 27, 1943; the later OSS chronology is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army-entry Private grade and later indexed Corporal grade are compatible chronological states. The private identifier remains restricted.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-37-38-batch213",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 1",
+          "excerpt_override": "BISHOP OSCAR A Cpl"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BISHOP OSCAR A"
+        }
+      ]
+    },
+    {
+      "key": "oscar-a-bishop-sales-clerk-occupation-claim-batch213",
+      "person_id": "762e65ee-40a9-584a-b30a-a0fba47fabde",
+      "affiliation_key": "oscar-a-bishop-sales-clerk-occupation-batch213",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in August 1943, Oscar A. Bishop's civilian occupation was classified as sales clerk.",
+      "evidence_excerpt": "Sales clerks",
+      "evidence_paraphrase": "The exact-matched Army row carries code 170, which NARA defines as sales clerks without naming an employer or product.",
+      "identity_match_assessment": "The exact private-identifier match confirms that the Army-entry row belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on August 27, 1943, but not proven to be his final role immediately before OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Sales clerk is an occupational group, not an employer; no store, product, industry, or self-employment is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation code 170"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch213",
+          "support_type": "supports",
+          "locator_override": "Code No. 30; code 170",
+          "excerpt_override": "Sales clerks"
+        }
+      ]
+    },
+    {
+      "key": "stephen-j-bishop-confirmed-army-identity-batch213",
+      "person_id": "695d452d-1174-5989-9cfb-68f4ce3d1a7d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Stephen J. Bishop is confirmed in the official Army-entry file.",
+      "evidence_excerpt": "BISHOP STEPHEN J",
+      "evidence_paraphrase": "The exact private identifier, full name and middle initial, and compatible enlisted status establish the linkage; the identifier remains withheld.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact surname, given name and middle initial, and compatible enlisted status.",
+      "temporal_assessment": "The official record dates Army entry to November 5, 1942; the later OSS chronology is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army-entry Private grade and later indexed Corporal grade are compatible chronological states. The private identifier remains restricted.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-37-38-batch213",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 3",
+          "excerpt_override": "BISHOP STEPHEN J Cpl"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BISHOP STEPHEN J"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch213",
+          "support_type": "context_only",
+          "locator_override": "Reference Copy pages 41-42; Enlisted Reserve Corps shifted columns"
+        }
+      ]
+    },
+    {
+      "key": "stephen-j-bishop-general-office-clerk-occupation-claim-batch213",
+      "person_id": "695d452d-1174-5989-9cfb-68f4ce3d1a7d",
+      "affiliation_key": "stephen-j-bishop-general-office-clerk-occupation-batch213",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in November 1942, Stephen J. Bishop's civilian occupation was classified as general office clerk.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The exact-matched Enlisted Reserve Corps card carries code 105 in its shifted occupation columns; NARA defines the code as general office clerks.",
+      "identity_match_assessment": "The exact private-identifier match confirms that the Army-entry card belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on November 5, 1942, but not proven to be his final role immediately before OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The ERC format shifts the occupation field from columns 70-72 to 71-73. The grouped code names no employer, office, industry, or duties.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier ERC record; shifted occupation code 105"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch213",
+          "support_type": "supports",
+          "locator_override": "Reference Copy pages 41-42; ERC occupation columns 71-73"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch213",
+          "support_type": "supports",
+          "locator_override": "Code No. 30; code 105",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "mike-bisida-confirmed-army-identity-batch213",
+      "person_id": "82d3ff0c-119c-5f2e-b54f-0e9e745d5953",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sergeant Mike Bisida is confirmed in the official Army-entry file.",
+      "evidence_excerpt": "BISIDA MIKE",
+      "evidence_paraphrase": "The exact private identifier, exact uncommon name, and compatible enlisted status establish the linkage; the identifier remains withheld.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact surname and given name, and compatible enlisted status.",
+      "temporal_assessment": "The official record dates Army entry to May 1, 1943; the later OSS chronology is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army-entry Private grade and later indexed Sergeant grade are compatible chronological states. The private identifier remains restricted.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-37-38-batch213",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 5",
+          "excerpt_override": "BISIDA MIKE Sgt"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BISIDA MIKE"
+        }
+      ]
+    },
+    {
+      "key": "mike-bisida-driver-group-occupation-claim-batch213",
+      "person_id": "82d3ff0c-119c-5f2e-b54f-0e9e745d5953",
+      "affiliation_key": "mike-bisida-driver-group-occupation-batch213",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in May 1943, Mike Bisida's civilian occupation fell within a broad chauffeur-and-driver group.",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The exact-matched Army row carries code 736, which NARA groups across several driver occupations without naming an employer or vehicle type.",
+      "identity_match_assessment": "The exact private-identifier match confirms that the Army-entry row belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on May 1, 1943, but not proven to be his final role immediately before OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The grouped code is not narrowed to one driver occupation, vehicle, employer, route, industry, or self-employment status.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch213",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation code 736"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch213",
+          "support_type": "supports",
+          "locator_override": "Code No. 30; code 736",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "robert-bishop-conflicting-identity-batch213",
+      "person_id": "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Official records document an OSS Major Robert Bishop in Bucharest, but his officer identifier differs by one digit from the index row; the linkage remains conflicting.",
+      "evidence_excerpt": "Major Robert Bishop",
+      "evidence_paraphrase": "NARA and CIA records align on name, rank, OSS/X-2 work, and Bucharest, while the private officer identifiers conflict by one digit.",
+      "identity_match_assessment": "Conflicting. The name, Major rank, OSS context, X-2 assignment, and Bucharest location strongly align, but the private officer identifier is not exact.",
+      "temporal_assessment": "The external records cover 1944-1945 OSS service. They do not establish that the external officer is the indexed person or identify a civilian predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifiers are withheld. The personnel file and original index source must be compared before correcting either value or merging the records.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-37-38-batch213",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 2; printed officer identifier reviewed and withheld",
+          "excerpt_override": "BISHOP ROBERT Maj"
+        },
+        {
+          "source_key": "nara-entry-219-robert-bishop-batch213",
+          "support_type": "supports",
+          "locator_override": "Entry 219, Box 1 description",
+          "excerpt_override": "activities of Major Robert Bishop and the operations of the X-2 Branch in Bucharest"
+        },
+        {
+          "source_key": "cia-robert-bishop-promotion-batch213",
+          "support_type": "contradicts",
+          "locator_override": "Document page 1; differing officer identifier reviewed and withheld",
+          "excerpt_override": "Promotion of Major Robert Bishop, AC"
+        }
+      ]
+    },
+    {
+      "key": "robert-bishop-air-corps-active-duty-conflict-claim-batch213",
+      "person_id": "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
+      "affiliation_key": "robert-bishop-air-corps-active-duty-conflict-batch213",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the external OSS Major Robert Bishop is the indexed person, an official memorandum places him on active duty in the Army Air Corps from October 1, 1942.",
+      "evidence_excerpt": "entry on active duty October 1, 1942",
+      "evidence_paraphrase": "The 1944 promotion memorandum identifies the external officer as Air Corps and dates his active-duty entry, but the index linkage remains conflicting.",
+      "identity_match_assessment": "Conflicting because the external officer identifier differs by one digit from the printed index value despite multiple contextual alignments.",
+      "temporal_assessment": "The date precedes the documented October 1944 X-2 assignment, but the source does not establish when he entered OSS or whether Air Corps was immediately prior.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "This military pathway is conditional, excluded from default analytics, and does not identify a civilian employer or immediate pre-OSS transition.",
+      "sources": [
+        {
+          "source_key": "cia-robert-bishop-promotion-batch213",
+          "support_type": "supports",
+          "locator_override": "Document page 1, paragraph 1",
+          "excerpt_override": "entry on active duty October 1, 1942"
+        },
+        {
+          "source_key": "nara-entry-219-robert-bishop-batch213",
+          "support_type": "context_only",
+          "locator_override": "Entry 219, Box 1 description"
+        },
+        {
+          "source_key": "nara-oss-index-pages-37-38-batch213",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 38, row 2; differing private identifier withheld"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "0da81a42-d7d8-51d9-a33f-2f3cadc50952",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Francis N. Bishop, Captain, a private officer identifier, and Box 57. Official NARA and CIA checks plus exact-name OSS, military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned no candidate carrying the identifier or two corroborating attributes beyond the common name.",
+      "name_variants": [
+        "Francis N Bishop",
+        "Francis N. Bishop",
+        "Bishop, Francis N."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 57 and officer records for full name, branch, birthplace, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ce69e271-d7b7-55f2-8607-d378e6590539",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Frank P. Bishop's exact full name, middle initial, and private identifier. The Army record dates entry to January 13, 1944 and carries civilian occupation code 097.",
+      "name_variants": [
+        "Frank P Bishop",
+        "Frank P. Bishop",
+        "Bishop, Frank P."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies a broad managers-and-officials occupation but no employer. Review Box 58 for a named employer, exact role, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d0ab4367-6f9f-5cb7-9939-7bd9ed60aa31",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Mary P. Bishop, civilian grade CAF-2, and Box 58 but no private identifier. Official, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned common-name candidates without corroborating wartime or OSS evidence.",
+      "name_variants": [
+        "Mary P Bishop",
+        "Mary P. Bishop",
+        "Bishop, Mary P."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full name, dates, personnel classification, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "762e65ee-40a9-584a-b30a-a0fba47fabde",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Oscar A. Bishop's exact full name, middle initial, and private identifier. The Army record dates entry to August 27, 1943 and carries civilian occupation code 170.",
+      "name_variants": [
+        "Oscar A Bishop",
+        "Oscar A. Bishop",
+        "Bishop, Oscar A."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies sales clerk as an occupation but no employer. Review Box 58 for the store or organization, exact role, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
+      "identity_status": "conflicting",
+      "identity_evidence": "NARA Entry 219 and a direct CIA wartime memorandum document an OSS Major Robert Bishop as X-2 chief in Bucharest. Name, rank, organization, and place align with the index, but the private officer identifier differs by one digit from the printed Entry A1-224 value. Neither value is silently corrected.",
+      "name_variants": [
+        "Robert Bishop",
+        "Bishop, Robert"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Box 58, the original index source, and officer personnel records to resolve the one-digit identifier conflict. The external candidate's Air Corps active duty is shown only as conflicting evidence and excluded from default analytics.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "695d452d-1174-5989-9cfb-68f4ce3d1a7d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Stephen J. Bishop's exact full name, middle initial, and private identifier. The Enlisted Reserve Corps card dates entry to November 5, 1942; NARA's shifted-column rules identify civilian occupation code 105.",
+      "name_variants": [
+        "Stephen J Bishop",
+        "Stephen J. Bishop",
+        "Bishop, Stephen J."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies general office clerk as an occupation but no employer. Review Box 58 for the office or organization and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "726703f4-0629-519e-b5e9-035676025e65",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Virgil T. Bishop, a private identifier, Box 58, and no rank or grade. The identifier produced no exact official Army bulk-file match. Official, CIA, exact-name OSS, employment, military, obituary, directory, institutional, newspaper, and archival searches returned namesakes without corroborating identifiers or OSS context.",
+      "name_variants": [
+        "Virgil T Bishop",
+        "Virgil T. Bishop",
+        "Bishop, Virgil T."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 and the original identifier-linked record for personnel status, identity, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "82d3ff0c-119c-5f2e-b54f-0e9e745d5953",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Mike Bisida's exact uncommon name and private identifier. The Army record dates entry to May 1, 1943 and carries civilian occupation code 736.",
+      "name_variants": [
+        "Mike Bisida",
+        "Bisida, Mike"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies a broad chauffeur-and-driver occupation group but no employer or specific vehicle. Review Box 58 for the precise role, employer, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b0e87461-aa6f-5329-afc8-770a141fd6c0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Faith Bissell and Box 58, with no rank, grade, middle initial, or private identifier. Official, CIA, exact-name OSS, employment, institutional, Quaker, newspaper, obituary, directory, and archival searches returned mentions and namesakes without a direct OSS or identity linkage.",
+      "name_variants": [
+        "Faith Bissell",
+        "Bissell, Faith"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full name, dates, personnel status, identifiers, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "15a98129-5ac2-568f-9917-d396a6b8ab42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Malcolm H. Bissell, civilian grade P-5, and Box 58 but no private identifier. A period-appropriate exact-name professor and writer was found, but the sources provide no OSS, Box 58, government-grade, or other corroborating linkage; the candidate is not assigned to this record.",
+      "name_variants": [
+        "Malcolm H Bissell",
+        "Malcolm H. Bissell",
+        "Bissell, Malcolm H."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for dates, full identity, the meaning of P-5, employment history, and any evidence confirming or excluding the professor namesake.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "francis-n-bishop-protocol-batch213",
+      "person_id": "0da81a42-d7d8-51d9-a33f-2f3cadc50952",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Francis N. Bishop; Captain; private officer identifier; visually verified NARA index; public NARA Catalog and RG 226 context; CIA Reading Room; exact-name OSS variants; employment and occupation; military, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Military, obituary, British, Canadian, and modern Captain Francis Bishop candidates lacked the private officer identifier, matching middle initial, Box 57 reference, or OSS connection.",
+      "research_notes": "Name and rank alone are insufficient for this common-name officer. No employer or predecessor affiliation was established.",
+      "next_action": "Review Box 57 and officer records for branch, dates, employment, and OSS recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "frank-p-bishop-protocol-batch213",
+      "person_id": "ce69e271-d7b7-55f2-8607-d378e6590539",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Frank P. Bishop; Master Sergeant; private identifier; official Army merged file; occupation code 097; NARA OSS/index context; CIA Reading Room; exact-name OSS variants; manager, official, employer, occupation, obituary, directory, institutional, newspaper, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Genealogy, cemetery, business, military, and obituary namesakes lacked the exact private identifier, Army-entry chronology, or explicit OSS connection.",
+      "research_notes": "The exact Army match supplies only a grouped managers-and-officials occupation at Army entry. No named employer or direct Army-to-OSS transfer was found.",
+      "next_action": "Review Box 58 for a named employer, exact role, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "mary-p-bishop-protocol-batch213",
+      "person_id": "d0ab4367-6f9f-5cb7-9939-7bd9ed60aa31",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mary P. Bishop; CAF-2; visually verified NARA index; public NARA Catalog and RG 226 context; CIA Reading Room; exact-name OSS variants; employment and occupation; government, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name government, clerical, newspaper, directory, obituary, and genealogy candidates lacked a Box 58 reference, OSS connection, or two corroborating identifiers beyond the name.",
+      "research_notes": "The civilian grade is preserved but not expanded into a job title. No reliable employer or identity candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "oscar-a-bishop-protocol-batch213",
+      "person_id": "762e65ee-40a9-584a-b30a-a0fba47fabde",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Oscar A. Bishop; Corporal; private identifier; official Army merged file; occupation code 170; NARA OSS/index context; CIA Reading Room; exact-name OSS variants; sales clerk, employer, occupation, obituary, directory, institutional, newspaper, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Genealogy, obituary, veteran, religious, and modern namesakes carried different identifiers, dates, or careers and lacked an OSS connection.",
+      "research_notes": "The exact Army match supplies sales clerk as an occupational group at Army entry. No store, company, product, or later transfer chronology was found.",
+      "next_action": "Review Box 58 for a named employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "robert-bishop-protocol-batch213",
+      "person_id": "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert Bishop; Major; private officer identifier comparison; visually verified NARA index; NARA Entry 219; CIA Reading Room Robert Bishop files; X-2 Bucharest; Air Corps; exact-name OSS variants; employer, occupation, journalist, military, obituary, institutional, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Secondary journalist and Romanian biography candidates lacked the printed index identifier or reliable pre-OSS chronology. Other Robert Bishop military and obituary records lacked the X-2, Bucharest, Air Corps, and identifier combination.",
+      "research_notes": "Two direct official sources strongly align on an OSS Major Robert Bishop in Bucharest, but the CIA officer identifier differs by one digit from the index. The conflict is preserved and full identifiers are withheld.",
+      "next_action": "Compare Box 58, the original index source, and officer personnel records before merging the external OSS officer or treating his Air Corps duty as this person's pathway.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "stephen-j-bishop-protocol-batch213",
+      "person_id": "695d452d-1174-5989-9cfb-68f4ce3d1a7d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Stephen J. Bishop; Corporal; private identifier; official Army merged file and Enlisted Reserve Corps shifted fields; occupation code 105; NARA OSS/index context; CIA Reading Room; exact-name OSS variants; clerk, employer, obituary, directory, institutional, newspaper, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Modern, business, bankruptcy, directory, genealogy, and veteran namesakes lacked the exact private identifier, matching wartime chronology, or explicit OSS connection.",
+      "research_notes": "NARA's ERC instructions shift the occupation field one column, resolving the apparent code as 105 rather than 410. The code supplies no employer.",
+      "next_action": "Review Box 58 for the office or employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "virgil-t-bishop-protocol-batch213",
+      "person_id": "726703f4-0629-519e-b5e9-035676025e65",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Virgil T. Bishop; private identifier; no printed rank; official Army merged-file exact check; visually verified NARA index; public NARA Catalog and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, military, obituary, directory, institutional, newspaper, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Veteran, census, genealogy, cemetery, obituary, directory, and business candidates lacked the private identifier, personnel status, Box 58 reference, or explicit OSS connection.",
+      "research_notes": "The exact identifier did not appear in the official Army enlisted merged file, which has known omissions. Absence is not treated as disproof or as evidence of another service branch.",
+      "next_action": "Review Box 58 and the original identifier-linked record for identity, personnel status, employer, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "mike-bisida-protocol-batch213",
+      "person_id": "82d3ff0c-119c-5f2e-b54f-0e9e745d5953",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mike Bisida; Sergeant; private identifier; official Army merged file; occupation code 736; NARA OSS/index context; CIA Reading Room; exact-name and Michael variants; driver, employer, occupation, obituary, directory, institutional, newspaper, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Michael, Mike, Biseda, and family-history candidates lacked the exact private identifier, Box 58 reference, OSS connection, or named pre-service employer.",
+      "research_notes": "The exact Army match supplies only broad occupation code 736 at Army entry. No specific driver role, vehicle, route, or employer was found.",
+      "next_action": "Review Box 58 for the precise occupation, employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "faith-bissell-protocol-batch213",
+      "person_id": "b0e87461-aa6f-5329-afc8-770a141fd6c0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Faith Bissell; visually verified NARA index; no printed rank or identifier; public NARA Catalog and RG 226 context; CIA Reading Room; exact-name OSS variants; employment, occupation, Quaker and institutional sources; newspaper, obituary, directory, genealogy, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A later Quaker-family mention and other directory, genealogy, social, and obituary references supplied no middle name, wartime date, Box 58 reference, personnel status, or OSS link.",
+      "research_notes": "With no rank, grade, identifier, or initial, the exact name alone cannot resolve identity or justify an employer claim.",
+      "next_action": "Review Box 58 for full identity, personnel status, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    },
+    {
+      "key": "malcolm-h-bissell-protocol-batch213",
+      "person_id": "15a98129-5ac2-568f-9917-d396a6b8ab42",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Malcolm H. Bissell; P-5; visually verified NARA index; public NARA Catalog and RG 226 context; CIA Reading Room; exact-name OSS variants; employer and occupation; professor, University of Southern California, Yale, institutional, scientific publication, government, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T21:45:00+00:00",
+      "completed_at": "2026-08-07T22:31:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "The period-appropriate professor and writer is an exact-name lead only. Institutional, publication, Yale, birth-control, and later congressional references provide no OSS service, Box 58 reference, P-5 grade, or second corroborating identifier. Modern namesakes are chronologically impossible.",
+      "research_notes": "The academic candidate is preserved as a rejected lead, not assigned as the indexed person and not used to infer a university employer.",
+      "next_action": "Review Box 58 for identity, dates, the meaning of P-5, employment history, and evidence confirming or excluding the professor namesake.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch213-v1"
+    }
+  ]
+}

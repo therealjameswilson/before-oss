@@ -4,12 +4,22 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **678 / 678**
+**PASS.** The complete browser and accessibility matrix passed **681 / 681**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 213 adds a focused direct-route regression for Francis N. Bishop through
+Malcolm H. Bissell across PDF pages 37-38. It checks all ten indexed names,
+literal ranks or civilian grades, Boxes 57-58, public-safe identifier masking,
+identity and research states, employer-gap wording, and archival-review routes.
+It separately verifies four bounded Army-entry occupations without promoting
+them to employers, and preserves Robert Bishop's one-digit officer-identifier
+conflict and qualified Air Corps pathway outside default analytics. Five
+unsupported identities remain explicit archival-review cases. The focused
+matrix passed 3 / 3.
 
 Batch 212 adds a focused direct-route regression for Adolf Birnbaum through
 Florence S. Bishop on PDF page 37. It checks all ten indexed names, literal
