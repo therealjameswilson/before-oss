@@ -18307,3 +18307,90 @@ test("Batch 207 qualifies journalism and unnamed federal pathways while preservi
     );
   }
 });
+
+test("Batch 208 publishes bounded occupation and student pathways without inventing employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1d4920c7-13c5-5672-a3c3-d7c76705fb5f", "Lawrence Bigelow", "36", "Pvt", true],
+    ["b9aba9c5-5272-5621-adde-3bea8baa2ee1", "David M Biggar", "36", "T-5", true],
+    ["44497646-17a2-5add-8720-e43fec59d72b", "Ronald E Biggerstaff", "36", "1st Lt", true],
+    ["93c45e4a-c1a2-50f2-bf63-753ca44f6872", "Arthur P Biggs", "36", "T-4", true],
+    ["60253078-de9a-5d93-bde8-30d5431bf397", "Harold W Biggs", "36", "Capt", true],
+    ["39d4e14f-b1c9-58c0-81dc-8a2428fb202c", "Harmon P Bigler", "36", "Capt", true],
+    ["8c736f4b-deef-5a41-9909-743dcb64fb21", "Winifred A Bigler", "36", "Not printed", false],
+    ["83f1d3ae-008b-5805-9c8b-a8d9ebccfc6c", "Jessie T Bigley", "37", "Caf-4", false],
+    ["c17af1c0-02d0-57b6-ae8e-815a1b9cb8bf", "Harold L Bigness", "37", "T-5", true],
+    ["7ac1be04-5c0b-589e-a647-452be57db88c", "M Bihin", "37", "Not printed", false],
+  ] as const;
+
+  for (const [personId, displayName, sourcePage, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(`Page ${sourcePage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("56");
+  }
+
+  for (const [personId, occupation] of [
+    ["1d4920c7-13c5-5672-a3c3-d7c76705fb5f", "Student"],
+    ["b9aba9c5-5272-5621-adde-3bea8baa2ee1", "General industry clerk"],
+    ["93c45e4a-c1a2-50f2-bf63-753ca44f6872", "Secondary-school teacher or principal"],
+    [
+      "c17af1c0-02d0-57b6-ae8e-815a1b9cb8bf",
+      "Skilled occupation in fabrication of metal products, not elsewhere classified",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/39d4e14f-b1c9-58c0-81dc-8a2428fb202c/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Harman Paul Bigler");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Virginia Military Institute",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/44497646-17a2-5add-8720-e43fec59d72b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Quartermaster Corps");
+  await expect(page.locator("main")).not.toContainText("misappropriate");
+
+  await page.goto("./people/60253078-de9a-5d93-bde8-30d5431bf397/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("same-name enlisted");
+
+  await page.goto("./people/7ac1be04-5c0b-589e-a647-452be57db88c/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Paul Bihin");
+
+  for (const personId of [
+    "8c736f4b-deef-5a41-9909-743dcb64fb21",
+    "83f1d3ae-008b-5805-9c8b-a8d9ebccfc6c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
