@@ -17596,3 +17596,84 @@ test("Batch 199 preserves the Berry-through-Bertin rows and publishes only suppo
     );
   }
 });
+
+test("Batch 200 preserves Bertini-through-Berzon and keeps occupation, affiliation, and identity conflicts distinct", async ({
+  page,
+}) => {
+  const profiles = [
+    ["12cb5592-8b9d-56d2-9dc8-56986a2ad7ae", "Geno L Bertini", "SP X 1/c", "masked"],
+    ["8fb87ee3-55cf-5ac3-8d35-6627251acd47", "Virginia B Bertolet", "Not printed", "Not printed"],
+    ["d5e3836b-c831-5624-a13b-7eb3eafaf764", "Pierre Bertolino", "Not printed", "Not printed"],
+    ["569606c4-a3a7-5d61-9d5b-6dfac46064a5", "Armand G Bertolo", "Not printed", "masked"],
+    ["7e589835-a162-57cd-95c6-05d50b182a87", "Cecile K Berton", "P-2", "Not printed"],
+    ["013e7e46-cd89-5a99-a1c4-a8d22e152691", "Carl R Bertrand", "Not printed", "Not printed"],
+    ["7bbec462-3278-5fb5-b496-ad784ffbac7c", "Helen Berukstis", "Caf-6", "Not printed"],
+    ["9cf87b90-9c15-5a37-91cd-569868ca7d82", "Adrian Berwick", "Not printed", "Not printed"],
+    ["2c077dd9-707c-5d7b-b640-67c7f5f2fa7c", "George G Berzinec", "Not printed", "Not printed"],
+    ["c0ce5b8b-4351-504a-8291-37dc6187b48d", "Bernard M Berzon", "Sgt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 35");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("53");
+  }
+
+  await page.goto("./people/569606c4-a3a7-5d61-9d5b-6dfac46064a5/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Murray Markowitz");
+  await expect(page.locator("main")).toContainText("identifier itself is withheld");
+
+  await page.goto("./people/2c077dd9-707c-5d7b-b640-67c7f5f2fa7c/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Viestnik",
+  );
+  await expect(page.locator("main")).toContainText("Ordained a priest in 1936");
+  await expect(page.locator("main")).toContainText("priest Jerzy Berzinec");
+  await expect(
+    page.getByRole("link", {
+      name: "G. Gregory Berzinec biographical sheet submitted with July 11, 1981 correspondence",
+      exact: true,
+    }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/c0ce5b8b-4351-504a-8291-37dc6187b48d/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Salespersons",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "12cb5592-8b9d-56d2-9dc8-56986a2ad7ae",
+    "8fb87ee3-55cf-5ac3-8d35-6627251acd47",
+    "d5e3836b-c831-5624-a13b-7eb3eafaf764",
+    "7e589835-a162-57cd-95c6-05d50b182a87",
+    "013e7e46-cd89-5a99-a1c4-a8d22e152691",
+    "7bbec462-3278-5fb5-b496-ad784ffbac7c",
+    "9cf87b90-9c15-5a37-91cd-569868ca7d82",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

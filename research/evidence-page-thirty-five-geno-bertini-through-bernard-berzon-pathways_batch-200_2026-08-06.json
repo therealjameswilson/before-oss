@@ -1,0 +1,650 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, Batch 200",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-35-batch200",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 53",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 35, rows 6-15; Geno L. Bertini through Bernard M. Berzon; visually checked at 300 dpi with private identifiers masked",
+      "access_date": "2026-08-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. Full private identifiers remain restricted and are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch200",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.zip; exact private-identifier checks for Armand G. Bertolo and Bernard M. Berzon; identifiers withheld",
+      "access_date": "2026-08-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. Only project-authored conclusions and stable citation pointers are retained. The merged file has known omissions; absence is not treated as disproof."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch200",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical page 65; enlistment-card field layout, including civilian-occupation columns 70-72; visually checked",
+      "access_date": "2026-08-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret the fixed-width Army-entry date and civilian-occupation fields without retaining raw record payloads."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch200",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 171; code 1-75; visually checked",
+      "access_date": "2026-08-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. Occupation code 1-75 identifies the broad category Salespersons, not an employer, workplace, exact duties, or Army-to-OSS sequence."
+    },
+    {
+      "key": "reagan-library-berzinec-biographical-sheet-batch200",
+      "stable_url": "https://www.reaganlibrary.gov/public/digitallibrary/whormsubject/fg006-01/40-654-46746351-fg006-01-037400-037899-2017.pdf",
+      "archival_identifier": "WHORM Subject File FG006-01; NSC/S Profile ID 8104500",
+      "title": "G. Gregory Berzinec biographical sheet submitted with July 11, 1981 correspondence",
+      "author_creator": "G. Gregory Berzinec",
+      "repository_publisher": "Ronald Reagan Presidential Library and Museum",
+      "publication_record_date": "1981-07-11",
+      "locator": "PDF physical page 8; biographical sheet; visually checked at 300 dpi",
+      "access_date": "2026-08-06",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "White House Office of Records Management Subject File FG006-01",
+      "rights_notes": "A subject-supplied biographical sheet preserved in an official presidential-library case file. It is strong first-person identity evidence but is not treated as an OSS personnel record."
+    },
+    {
+      "key": "rahway-news-record-berzinec-obituary-batch200",
+      "stable_url": "https://www.digifind-it.com/rahway/data/news-record/1988/1988-06-09.pdf",
+      "title": "Msgr. Berzinec, 81; Army chaplain",
+      "repository_publisher": "Rahway News-Record/Clark Patriot",
+      "publication_record_date": "1988-06-09",
+      "locator": "PDF physical page 5; newspaper page 9; obituary column; visually checked at 300 dpi",
+      "access_date": "2026-08-06",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Rahway News-Record historical newspaper archive",
+      "rights_notes": "Contemporary local obituary used to corroborate the rare-name identity, OSS reference, Army chaplaincy, birthplace, and Olas family connection. Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "zieba-carpatho-rus-berziniec-viestnik-batch200",
+      "stable_url": "https://www.lemko.org/lih/zieba.html",
+      "title": "Poland and Political Life in Carpatho-Rus and among Carpatho-Rusyns in Emigration in North America: 1918-1939",
+      "author_creator": "Andrzej Zieba",
+      "repository_publisher": "Carpatho-Rusyn Studies Group, Political Science Department, Southern Connecticut State University",
+      "locator": "Volume 1 of Carpatho-Rusyn Studies; sections discussing Jerzy Berzinec or Berziniec in 1935-1939 and the publication Viestnik",
+      "access_date": "2026-08-06",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Carpatho-Rusyn Studies, volume 1",
+      "rights_notes": "Scholarly historical article based on Polish diplomatic records. The documented Jerzy/Berziniec spellings and Olas relationship are preserved as variants rather than silent corrections. Only short excerpts and project-authored paraphrases are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "viestnik-carpatho-rusyn-publication",
+      "canonical_name": "Viestnik",
+      "historical_name": "Viestnik",
+      "aliases": [],
+      "organization_type": "Carpatho-Rusyn publication",
+      "sector": "journalism_and_media",
+      "country": "United States",
+      "active_dates": "Active by the late 1930s in the reviewed source",
+      "normalization_notes": "The historical title is preserved exactly as printed in the scholarly source. No modern successor, publisher, place, or employment relationship is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-g-berzinec-viestnik-editor-batch200",
+      "person_id": "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
+      "organization_key": "viestnik-carpatho-rusyn-publication",
+      "organization_name_as_found": "Viestnik",
+      "role_title": "Editor",
+      "occupation": "Editor",
+      "relationship_type": "professional_affiliation",
+      "date_precision": "The scholarly chronology places Berziniec's editorship in its discussion of 1937-1938 events; exact start and end dates are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The article explicitly identifies Berziniec as Viestnik's editor in a prewar chronology. It does not establish pay, an employer relationship, or that this was his immediate pre-OSS role."
+    },
+    {
+      "key": "bernard-m-berzon-salespersons-occupation-batch200",
+      "person_id": "c0ce5b8b-4351-504a-8291-37dc6187b48d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Salespersons",
+      "relationship_type": "unknown",
+      "end_date": "1942-02-26",
+      "date_precision": "The official Army-entry record carries civilian occupation code 175 on February 26, 1942; the code gives a broad occupational category but no employer or exact role",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. Code 1-75 does not identify a company, product, workplace, exact sales role, or later Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "armand-g-bertolo-private-identifier-conflict-batch200",
+      "person_id": "569606c4-a3a7-5d61-9d5b-6dfac46064a5",
+      "claim_type": "identity",
+      "claim_text": "Armand G. Bertolo's printed private identifier conflicts with the official Army merged file, where the same identifier belongs to Murray Markowitz rather than Armand G. Bertolo.",
+      "evidence_excerpt": "MARKOWITZ MURRAY",
+      "evidence_paraphrase": "The identifier printed beside Armand G. Bertolo in the OSS index resolves to a different full name in the official Army-entry file; the identifier itself is withheld.",
+      "identity_match_assessment": "Conflicting: the index row is visually clear, but its private identifier does not corroborate the indexed name in the official Army file.",
+      "temporal_assessment": "The incompatible Army record dates to May 11, 1942 and cannot be attached to Armand G. Bertolo's biography or employment history.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "No occupation, birth-year code, entry chronology, or other attribute from the incompatible Army record is assigned to Armand G. Bertolo. Box 53 must resolve whether the index contains a transcription or file-association error.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-35-batch200",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 35, row 9; private identifier withheld",
+          "excerpt_override": "BERTOLO ARMAND G"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch200",
+          "support_type": "contradicts",
+          "locator_override": "Incompatible exact-identifier record; identifier withheld",
+          "excerpt_override": "MARKOWITZ MURRAY"
+        }
+      ]
+    },
+    {
+      "key": "george-g-berzinec-high-confidence-identity-batch200",
+      "person_id": "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
+      "claim_type": "identity",
+      "claim_text": "The indexed George G. Berzinec is a high-confidence match to Army chaplain G. Gregory Berzinec, whose presidential-library biographical sheet and contemporary obituary explicitly document OSS service.",
+      "evidence_excerpt": "Member of U.S. Military Service as Secret Intelligence Officer in O.S.S.",
+      "evidence_paraphrase": "An official presidential-library case file preserves Berzinec's first-person OSS statement; a contemporary obituary independently names George Berzinec and an OSS role.",
+      "identity_match_assessment": "High confidence from the exceptionally rare surname, matching George/Gregory initial pattern, explicit OSS service in two independent sources, Army chaplain and colonel details, Oxford, New Jersey birthplace, and the Olas family link that bridges the Jerzy/Berziniec scholarly variant.",
+      "temporal_assessment": "The sources place Berzinec in wartime OSS service and independently document 1930s activity. His person-specific OSS entry date remains unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Ronald Reagan Library sheet is subject-supplied rather than an OSS personnel record, so identity remains high confidence rather than confirmed. Box 53 is still required for direct personnel-file verification.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-35-batch200",
+          "support_type": "supports",
+          "locator_override": "PDF page 35, row 14",
+          "excerpt_override": "BERZINEC GEORGE G"
+        },
+        {
+          "source_key": "reagan-library-berzinec-biographical-sheet-batch200",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 8; Military and Intelligence Experience",
+          "excerpt_override": "Member of U.S. Military Service as Secret Intelligence Officer in O.S.S."
+        },
+        {
+          "source_key": "rahway-news-record-berzinec-obituary-batch200",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 5; newspaper page 9",
+          "excerpt_override": "He also was a member of the U.S. Military Secret Service (OSS)"
+        },
+        {
+          "source_key": "zieba-carpatho-rus-berziniec-viestnik-batch200",
+          "support_type": "supports",
+          "locator_override": "1935-1939 discussion of Jerzy Berzinec or Berziniec and Jozef Olas",
+          "excerpt_override": "Berziniec and his brother-in-law the priest Jozef Olas"
+        }
+      ]
+    },
+    {
+      "key": "george-g-berzinec-viestnik-editor-claim-batch200",
+      "person_id": "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
+      "affiliation_key": "george-g-berzinec-viestnik-editor-batch200",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A scholarly prewar chronology identifies George G. Berzinec, under the documented Berziniec spelling, as editor of the publication Viestnik.",
+      "evidence_excerpt": "The publication Viestnik edited by Berziniec had little influence among the Rusyns.",
+      "evidence_paraphrase": "A scholarly article based on Polish diplomatic records identifies Berziniec as Viestnik's editor in its late-1930s discussion.",
+      "identity_match_assessment": "High confidence from the rare surname and the article's Jerzy/Berziniec spellings, reinforced by its Jozef Olas brother-in-law detail and the contemporary obituary's Mary Olas sister detail.",
+      "temporal_assessment": "Documented prewar in a discussion of 1937-1938 events. Exact dates, pay, and relationship to OSS entry are not stated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a professional affiliation, not an employer and not the immediate predecessor. The source does not establish compensation, publisher, location, or uninterrupted tenure.",
+      "sources": [
+        {
+          "source_key": "zieba-carpatho-rus-berziniec-viestnik-batch200",
+          "support_type": "supports",
+          "locator_override": "Late-1930s discussion of Carpatho-Rusyn political life in North America",
+          "excerpt_override": "The publication Viestnik edited by Berziniec had little influence among the Rusyns."
+        },
+        {
+          "source_key": "rahway-news-record-berzinec-obituary-batch200",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 5; newspaper page 9; family survivors",
+          "excerpt_override": "Mrs. Mary Olas of Indianapolis, Ind."
+        }
+      ]
+    },
+    {
+      "key": "george-g-berzinec-ordination-date-conflict-batch200",
+      "person_id": "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
+      "claim_type": "occupation",
+      "claim_text": "Sources conflict on George G. Berzinec's priestly chronology: the scholarly account calls Jerzy Berzinec a priest in 1935, while his later biographical sheet says he was ordained in 1936.",
+      "evidence_excerpt": "Ordained a priest in 1936.",
+      "evidence_paraphrase": "Berzinec's 1981 biographical sheet gives 1936 as his ordination year, while a scholarly chronology based on diplomatic records calls him a priest in 1935.",
+      "identity_match_assessment": "The rare surname, documented name variants, Olas family bridge, and independent OSS evidence support one person, but the one-year chronology disagreement remains unresolved.",
+      "temporal_assessment": "Conflicting. No attempt is made to choose between 1935 priestly status and the subject's 1936 ordination statement.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflict is published because it affects the interpretation of Berzinec's prewar religious occupation. Box 53 and church records may resolve it.",
+      "sources": [
+        {
+          "source_key": "reagan-library-berzinec-biographical-sheet-batch200",
+          "support_type": "contradicts",
+          "locator_override": "PDF physical page 8; Church Experience",
+          "excerpt_override": "Ordained a priest in 1936."
+        },
+        {
+          "source_key": "zieba-carpatho-rus-berziniec-viestnik-batch200",
+          "support_type": "contradicts",
+          "locator_override": "Paragraph beginning In 1935",
+          "excerpt_override": "In 1935 a new person of that type appeared. He was the priest Jerzy Berzinec"
+        }
+      ]
+    },
+    {
+      "key": "bernard-m-berzon-confirmed-army-identity-batch200",
+      "person_id": "c0ce5b8b-4351-504a-8291-37dc6187b48d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sergeant Bernard M. Berzon is confirmed as the Army entrant represented by the exact private-identifier match in the official merged file.",
+      "evidence_excerpt": "BERZON BERNARD M",
+      "evidence_paraphrase": "The private service identifier and full normalized name match exactly across the OSS index and official Army-entry file.",
+      "identity_match_assessment": "Confirmed by an exact private identifier, full name, and middle initial; the identifier is withheld from public data.",
+      "temporal_assessment": "The Army-entry record is dated February 26, 1942; the later Army-to-OSS sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is retained only in the private database and masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-35-batch200",
+          "support_type": "supports",
+          "locator_override": "PDF page 35, row 15; private identifier withheld",
+          "excerpt_override": "BERZON BERNARD M"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch200",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BERZON BERNARD M"
+        }
+      ]
+    },
+    {
+      "key": "bernard-m-berzon-salespersons-occupation-claim-batch200",
+      "person_id": "c0ce5b8b-4351-504a-8291-37dc6187b48d",
+      "affiliation_key": "bernard-m-berzon-salespersons-occupation-batch200",
+      "claim_type": "occupation",
+      "claim_text": "Bernard M. Berzon's Army-entry record classifies his civilian occupation in the broad category Salespersons.",
+      "evidence_excerpt": "1-75. Salespersons",
+      "evidence_paraphrase": "The fixed-width Army record carries occupation code 175, which NARA's official code table defines as Salespersons.",
+      "identity_match_assessment": "Confirmed through the exact private identifier and full name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on February 26, 1942, but no employer, product, workplace, exact role, or later OSS transfer date is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The occupation code is not converted into a named employer, firm, sales specialty, or claim of immediate pre-OSS employment.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch200",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 175; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch200",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 65; civilian occupation columns 70-72",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch200",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; code 1-75",
+          "excerpt_override": "1-75. Salespersons"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "12cb5592-8b9d-56d2-9dc8-56986a2ad7ae",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Geno L. Bertini, rank or rating exactly as printed 'SP X 1/c,' a private identifier, and Box 53. Exact-name official, CIA, OSS, naval, employment, occupation, institutional, newspaper, obituary, directory, and archival searches did not establish a unique identity.",
+      "name_variants": ["Geno L Bertini", "Geno L. Bertini", "Bertini, Geno L."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 and appropriate naval personnel records to resolve the rating, private identifier, duty chronology, and employment history.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8fb87ee3-55cf-5ac3-8d35-6627251acd47",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Virginia B. Bertolet and Box 53 but no rank, grade, or private identifier. Exact-name official, CIA, OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches did not provide two corroborating identifiers beyond the name.",
+      "name_variants": ["Virginia B Bertolet", "Virginia B. Bertolet", "Bertolet, Virginia B."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 for a full identity, personnel status, age, hometown, employment history, and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d5e3836b-c831-5624-a13b-7eb3eafaf764",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Pierre Bertolino and Box 53 but no middle initial, rank, grade, or private identifier. Exact-name official, CIA, OSS, military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches did not establish a unique identity.",
+      "name_variants": ["Pierre Bertolino", "Bertolino, Pierre"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 for identifiers, nationality, personnel status, name variants, employment history, and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "569606c4-a3a7-5d61-9d5b-6dfac46064a5",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually clear index row prints Armand G. Bertolo and a private identifier, but that exact identifier belongs to Murray Markowitz in the official Army merged file. No incompatible Army attributes are assigned to Armand G. Bertolo.",
+      "name_variants": ["Armand G Bertolo", "Armand G. Bertolo", "Bertolo, Armand G."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "No reliable pre-OSS employer has yet been identified for Armand G. Bertolo. Review the original index-production records and Box 53 to determine whether the private identifier is a transcription error, file-association error, or other record problem. Do not attach the incompatible Army record's occupation or chronology to Bertolo.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7e589835-a162-57cd-95c6-05d50b182a87",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Cecile K. Berton, civilian grade P-2, and Box 53 but no private identifier. Exact-name official, CIA, OSS, federal appointment, employment, occupation, institutional, newspaper, obituary, directory, and archival searches did not establish a unique identity.",
+      "name_variants": ["Cecile K Berton", "Cecile K. Berton", "Berton, Cecile K."],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 for appointment records, age, hometown, employment history, and OSS entry chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "013e7e46-cd89-5a99-a1c4-a8d22e152691",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Carl R. Bertrand and Box 53 but no rank, grade, or private identifier. Exact-name official, CIA, OSS, military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned multiple namesakes but no uniquely corroborated identity.",
+      "name_variants": ["Carl R Bertrand", "Carl R. Bertrand", "Bertrand, Carl R."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 for a private identifier, personnel status, age, hometown, employment history, and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7bbec462-3278-5fb5-b496-ad784ffbac7c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Helen Berukstis, civilian grade CAF-6, and Box 53 but no private identifier. Exact-name official, CIA, OSS, federal appointment, employment, occupation, institutional, newspaper, obituary, directory, and archival searches did not establish a unique identity.",
+      "name_variants": ["Helen Berukstis", "Berukstis, Helen"],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 for appointment records, name variants, age, hometown, employment history, and OSS entry chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9cf87b90-9c15-5a37-91cd-569868ca7d82",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Adrian Berwick and Box 53 but no middle initial, rank, grade, or private identifier. Exact-name official, CIA, OSS, military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned many unrelated candidates but no uniquely corroborated identity.",
+      "name_variants": ["Adrian Berwick", "Berwick, Adrian"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 53 for full identity, nationality, personnel status, age, hometown, employment history, and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare indexed name George G. Berzinec aligns with G. Gregory and Rev. George Berzinec in two independent sources that explicitly document OSS service, Army chaplaincy, colonel rank, and Oxford, New Jersey birthplace. The scholarly Jerzy Berzinec or Berziniec variant is linked by the uncommon surname and the Olas family relationship.",
+      "name_variants": ["George G Berzinec", "George G. Berzinec", "Berzinec, George G.", "G. Gregory Berzinec", "Jerzy Berzinec", "Jerzy Berziniec", "Berziniec"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Viestnik editorship is documented prewar but not shown to be employment or immediate before OSS. No reliable immediate pre-OSS affiliation or last civilian employer has yet been identified. Review Box 53 and church records for his entry chronology, named parish, pay status, and the 1935/1936 ordination-date conflict.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c0ce5b8b-4351-504a-8291-37dc6187b48d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact private identifier and full name in the visually checked OSS index row match one official Army merged-file record; the identifier is withheld.",
+      "name_variants": ["Bernard M Berzon", "Bernard M. Berzon", "Berzon, Bernard M."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The official Army-entry record supplies the broad occupation Salespersons but no employer or exact role. Review Box 53 for a named employer, sales specialty, identity details, and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "geno-l-bertini-protocol-batch200",
+      "person_id": "12cb5592-8b9d-56d2-9dc8-56986a2ad7ae",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Geno L. Bertini: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS, Navy, SP X 1/c, and private-identifier-aware variants; employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Naval, veteran, obituary, genealogy, and directory candidates lacked the private identifier, Box 53 reference, explicit OSS connection, or two corroborating identifiers beyond the name.",
+      "research_notes": "The printed rating is preserved exactly and is not forced into a personnel category without direct supporting documentation.",
+      "next_action": "Review Box 53 and appropriate naval personnel records to resolve the rating, private identifier, duty chronology, and employment history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "virginia-b-bertolet-protocol-batch200",
+      "person_id": "8fb87ee3-55cf-5ac3-8d35-6627251acd47",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Virginia B. Bertolet: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS variants; employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Professional, obituary, genealogy, and directory candidates lacked an OSS connection, Box 53 reference, or two corroborating identifiers beyond the name.",
+      "research_notes": "The source row has no rank, grade, or private identifier, so a name match alone is insufficient.",
+      "next_action": "Review Box 53 for a full identity, personnel status, age, hometown, employment history, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "pierre-bertolino-protocol-batch200",
+      "person_id": "d5e3836b-c831-5624-a13b-7eb3eafaf764",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Pierre Bertolino: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name and punctuation variants with OSS; military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Military, foreign-language, obituary, genealogy, and directory candidates lacked an OSS connection, Box 53 reference, or corroborating personal identifiers.",
+      "research_notes": "No middle initial, rank, grade, private identifier, or nationality note is printed in the index row.",
+      "next_action": "Review Box 53 for identifiers, nationality, personnel status, name variants, employment history, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "armand-g-bertolo-protocol-batch200",
+      "person_id": "569606c4-a3a7-5d61-9d5b-6dfac46064a5",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Armand G. Bertolo: visually verified NARA index and exact private-identifier Army check; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS variants; military, employment, occupation, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Same-name and nearby-spelling candidates lacked the private identifier or explicit OSS connection. The exact-identifier Army record belongs to a different full name and is incompatible.",
+      "research_notes": "The incompatible Army record is retained only as conflict evidence. None of its occupation or chronology is assigned to Bertolo.",
+      "next_action": "Review the original index-production records and Box 53 to resolve the private-identifier conflict.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "cecile-k-berton-protocol-batch200",
+      "person_id": "7e589835-a162-57cd-95c6-05d50b182a87",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Cecile K. Berton: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS and P-2 variants; federal appointment, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Government, professional, obituary, genealogy, and directory candidates lacked an OSS connection, Box 53 reference, or two corroborating identifiers beyond the name.",
+      "research_notes": "P-2 establishes a civilian grade in the index, not an employer or unique identity.",
+      "next_action": "Review Box 53 for appointment records, age, hometown, employment history, and OSS entry chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "carl-r-bertrand-protocol-batch200",
+      "person_id": "013e7e46-cd89-5a99-a1c4-a8d22e152691",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Carl R. Bertrand: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS variants; military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Numerous military, professional, obituary, genealogy, and directory namesakes lacked an OSS connection, Box 53 reference, or two corroborating identifiers beyond the name.",
+      "research_notes": "The common name and absent rank, grade, or private identifier require enhanced disambiguation that accessible sources could not supply.",
+      "next_action": "Review Box 53 for a private identifier, personnel status, age, hometown, employment history, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "helen-berukstis-protocol-batch200",
+      "person_id": "7bbec462-3278-5fb5-b496-ad784ffbac7c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Helen Berukstis: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS and CAF-6 variants; federal appointment, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Government, obituary, genealogy, and directory candidates lacked an OSS connection, Box 53 reference, or corroborating identifiers.",
+      "research_notes": "CAF-6 establishes a civilian grade in the index, not an employer or unique identity.",
+      "next_action": "Review Box 53 for appointment records, name variants, age, hometown, employment history, and OSS entry chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "adrian-berwick-protocol-batch200",
+      "person_id": "9cf87b90-9c15-5a37-91cd-569868ca7d82",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Adrian Berwick: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS variants; military, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Numerous unrelated geographic, commercial, military, and obituary results lacked an OSS connection, Box 53 reference, or corroborating personal identifiers.",
+      "research_notes": "The source row has no middle initial, rank, grade, or private identifier; exact name alone does not resolve the many search results.",
+      "next_action": "Review Box 53 for full identity, nationality, personnel status, age, hometown, employment history, and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "george-g-berzinec-protocol-batch200",
+      "person_id": "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George G. Berzinec: visually verified NARA index; public NARA Catalog context; CIA Reading Room; Library of Congress API; George, G. Gregory, Jerzy, Berzinec, and Berziniec variants with OSS; Army chaplain, priest, Akron, Viestnik, Olas, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Postwar parish, Radio Free Europe, university, political, and membership references aided identity but did not establish a pre-OSS employer or immediate predecessor. Unofficial intelligence-document mirrors were excluded.",
+      "research_notes": "A Reagan Library biographical sheet and contemporary obituary establish a high-confidence OSS identity. The scholarly Viestnik editorship is documented prewar but not as employment or an immediate predecessor. The 1935 priest description conflicts with the subject's 1936 ordination year and is preserved as a conflict.",
+      "next_action": "Review Box 53 and church records for his OSS entry chronology, named prewar parish, pay status, and the 1935/1936 ordination-date conflict.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    },
+    {
+      "key": "bernard-m-berzon-protocol-batch200",
+      "person_id": "c0ce5b8b-4351-504a-8291-37dc6187b48d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bernard M. Berzon: visually verified NARA index and exact private-identifier Army check; public NARA Catalog context; CIA Reading Room; Library of Congress API; exact-name OSS and Sergeant variants; salespersons, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-06T21:20:00-04:00",
+      "completed_at": "2026-08-06T21:42:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Rabbi Bernard L. Berzon, postwar lawyers, professional directories, obituaries, and genealogy candidates had different middle initials, later chronology, no private-identifier match, or no OSS connection.",
+      "research_notes": "The exact Army record confirms identity and supports only occupation code 175, Salespersons. No employer, sales specialty, or Army-to-OSS transfer was found.",
+      "next_action": "Review Box 53 for a named employer, sales specialty, identity details, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch200-v1"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:46:11+00:00",
+  "generated_at": "2026-08-07T01:57:52+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -26,29 +26,29 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 81,
-    "2": 56,
+    "1": 80,
+    "2": 57,
     "3": 26,
     "4": 37
   },
   "identity_status_counts": {
     "ambiguous": 2,
     "confirmed": 4,
-    "conflicting": 9,
-    "high_confidence": 22,
+    "conflicting": 8,
+    "high_confidence": 23,
     "probable": 3,
     "unresolved": 160
   },
   "research_status_counts": {
     "completed": 1,
-    "conflicting_sources": 10,
+    "conflicting_sources": 9,
     "documented_prewar_employer_found": 3,
     "in_progress": 2,
     "needs_identity_review": 1,
     "needs_temporal_review": 1,
     "not_started": 149,
     "occupation_only_found": 6,
-    "requires_archival_review": 18,
+    "requires_archival_review": 19,
     "verified_employer_found": 9
   },
   "special_strata_counts": {
@@ -58,8 +58,8 @@
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 22,
-    "medium_published_claim": 10,
+    "confirmed_or_high_published_claim": 23,
+    "medium_published_claim": 11,
     "conflicting_published_claim": 10,
     "unresolved_identity": 160
   },
@@ -244,13 +244,13 @@
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "4bc411ac-75eb-5f5f-a881-42af3469c0b6",
     "37f34560-1d15-517d-87c8-175e58229b8e",
+    "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
     "09c72687-d144-53d5-b0d8-d9dbfe6ecf3e",
     "493dead6-545d-5305-96ca-78a47f67b4dc",
     "af235a72-6264-5795-81af-e65752d0b1b3",
     "526d22fc-144f-511a-831a-2ef53e885957",
     "5c4a673c-b96b-51de-b199-62615a23945f",
     "ef3e12dc-9f18-5acc-937a-54fe6172a60e",
-    "91afaf4d-b55c-5b33-b2ff-89e588b698dd",
     "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",

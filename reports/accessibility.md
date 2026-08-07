@@ -1,15 +1,25 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-06 UTC
+Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The new Batch 199 regression passed 3 / 3 at desktop, phone, and
+**PASS.** The new Batch 200 regression passed 3 / 3 at desktop, phone, and
 tablet widths. All 27 representative axe cases passed with no serious or
-critical violation. The complete 639-case matrix also passed locally.
+critical violation. The complete 642-case matrix also passed locally.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 200 adds a focused direct-route regression for Geno L. Bertini through
+Bernard M. Berzon. It checks every indexed name, page, literal rank or civilian
+grade, Box 53 location, masked or explicitly unprinted identifier, research
+state, employer-gap wording, and archival-review route. It separately verifies
+Armand G. Bertolo's visible identifier conflict; George G. Berzinec's high-
+confidence identity, commissioned classification, qualified Viestnik
+affiliation, and 1935/1936 chronology disagreement; Bernard M. Berzon's
+occupation-only Salespersons evidence; and seven explicit unresolved profiles.
+The focused matrix passed 3 / 3, and the complete matrix passed 642 / 642.
 
 Batch 199 adds a focused direct-route regression for Pierce F. Berry through
 Andre V. Bertin. It checks every indexed name, page, literal rank or civilian

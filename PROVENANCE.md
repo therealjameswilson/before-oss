@@ -2981,6 +2981,44 @@ were reviewed transiently and were not committed. No authenticated Catalog
 request, credential, raw API response, full private identifier, copyrighted
 page, or unsupported employer claim was stored or published.
 
+## Page-thirty-five Bertini-through-Berzon pathways, Batch 200
+
+`research/evidence-page-thirty-five-geno-bertini-through-bernard-berzon-pathways_batch-200_2026-08-06.json`
+records ten contiguous people from Geno L. Bertini through Bernard M. Berzon.
+Page 35 was rendered at 300 dpi and checked against every raw and normalized
+source field. The official Army field-layout page 65 and occupation-code page
+171, a Reagan Library biographical sheet on physical page 8, and a contemporary
+Rahway obituary on physical page 5 were separately rendered and visually
+checked before import.
+
+The strict evidence bundle contains seven sources, one normalized organization,
+two affiliations, six claims, fifteen claim-source links, ten person updates,
+and ten durable research attempts. The exact private identifier beside Armand
+G. Bertolo resolves to Murray Markowitz in the official Army merged file. That
+conflict is public and inspectable, but no incompatible Army attribute is
+assigned to Bertolo. Bernard M. Berzon's exact identifier confirms identity.
+The fixed-width field layout places his civilian occupation in columns 70-72;
+the recorded code 175 resolves on the official table to `1-75. Salespersons`.
+It does not name an employer, product, workplace, exact role, or Army-to-OSS
+sequence.
+
+The rare George G. Berzinec name is supported by a Reagan Library case-file
+biographical sheet and an independent 1988 local obituary that both explicitly
+document OSS service. A scholarly account supplies the documented Jerzy
+Berzinec and Berziniec variants, an Olas family bridge, and a prewar Viestnik
+editorship. The editorship is published only as a medium-confidence professional
+affiliation, not employment or an immediate predecessor. The scholarly account
+calls him a priest in 1935 while his later biographical sheet gives 1936 as his
+ordination year; both statements are preserved as a visible conflict. The other
+seven people remain unresolved after the minimum online protocol and route to
+Box 53 review.
+
+The official Army bulk file and technical documents, Reagan Library PDF,
+newspaper scan, page renderings, and extracted text were reviewed transiently
+and were not committed. No authenticated Catalog request, credential, raw API
+response, full private identifier, full copyrighted page, or unsupported
+employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

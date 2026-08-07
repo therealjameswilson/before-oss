@@ -1,19 +1,46 @@
 # Link check
 
-Run: 2026-08-06 UTC
+Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,294 HTML files. Every relative
+**PASS.** The production build contains 24,295 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 346 organization profiles, and the
+The build includes 23,940 person profiles, 347 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,954 unique external URLs for separate live
+The checker inventoried 48,958 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 200 local release check
+
+The complete 24,295-page internal-link pass includes direct routes for Geno L.
+Bertini through Bernard M. Berzon on PDF page 35 and the new Viestnik
+organization route. The focused desktop, phone, and tablet regression passed
+3 / 3, the complete browser matrix passed 642 / 642, the 69-test Python suite
+passed, and all 27 representative axe scans reported no serious or critical
+violation.
+
+The regression verifies Armand G. Bertolo's visible private-identifier
+conflict without importing the incompatible Army record's attributes; George
+G. Berzinec's high-confidence identity, commissioned classification, qualified
+prewar editorship, and explicit ordination-date conflict; Bernard M. Berzon's
+occupation-only Salespersons evidence; and seven unresolved archival-review
+profiles. The seven new collection and item URLs returned HTTP 200 on the local
+release audit.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,365 artifacts, rejected 998
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`c0757a2e2c1bbf6f7798f0f82a4ba5a7d647c1659c19e29e5d971c3cf406e8ca`.
+Two consecutive production builds produced the identical static-tree digest
+`d72adbc31a3aa07fa86a2598e2d5551ee38d9b20dd5d4919ce5a16090093ca3c`.
 
 ## Batch 199 local release check
 

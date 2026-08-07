@@ -1,39 +1,39 @@
 # Software QA
 
-Run: 2026-08-06 UTC
+Run: 2026-08-07 UTC
 
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,294 pages**
-- Internal link check: **24,294 HTML files passed**
-- Batch 199 browser regression: **3 / 3 passed** across desktop, phone, and
+- Static production build: **24,295 pages**
+- Internal link check: **24,295 HTML files passed**
+- Batch 200 browser regression: **3 / 3 passed** across desktop, phone, and
   tablet; dedicated axe cases: **27 / 27 passed** with no serious or critical
-  violation. The complete **639-case** matrix also passed locally.
+  violation. The complete **642-case** matrix also passed locally.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`f7fec106f840f12d8b886ffa1667a31cd4d6870c7a96452bbc48ef8176434e28`)
-- Latest deterministic build (Batch 199): **byte-for-byte identical** across
+  (`d72adbc31a3aa07fa86a2598e2d5551ee38d9b20dd5d4919ce5a16090093ca3c`)
+- Latest deterministic build (Batch 200): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `9934a3154111d867e0c69e5be4881d5f13e98c55a0098f6edf27187bf2adb971`
+  `c0757a2e2c1bbf6f7798f0f82a4ba5a7d647c1659c19e29e5d971c3cf406e8ca`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,364** production artifacts, including compressed mirrors.
+  matches** in **24,365** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,387** public records representing **1,071** unique documents
-- Private citation records: **2,390**
-- Published, qualified, or conflict-visible affiliations: **733**
-- Published or conflict-visible claims: **1,422**
+- Reviewed public sources: **1,394** public records representing **1,074** unique documents
+- Private citation records: **2,397**
+- Published, qualified, or conflict-visible affiliations: **735**
+- Published or conflict-visible claims: **1,428**
 - Withheld low-confidence evidence: **25 claims concerning 21 people**; six
   additional low-confidence claims concerning three people are rejected
 - Verified-affiliation metric: **295** people with confirmed/high published
@@ -96,6 +96,48 @@ Run: 2026-08-06 UTC
   passed
 - Batch 197 local release checks: **passed**; the complete **633-case** browser
   matrix runs in release CI
+
+## Batch 200 local release QA
+
+Batch 200 adds ten visually checked source rows on PDF page thirty-five, from
+Geno L. Bertini through Bernard M. Berzon. The strict evidence bundle imports
+seven sources, one organization, two affiliations, six claims, fifteen claim-
+source links, ten person updates, and ten terminal research attempts. It
+publishes Armand G. Bertolo's exact-identifier conflict without attaching the
+incompatible Army record; confirms Bernard M. Berzon and publishes only the
+broad occupation Salespersons; and establishes a high-confidence George G.
+Berzinec identity with a qualified Viestnik editorship and visible 1935/1936
+ordination-date conflict. Seven unresolved profiles route to Box 53 archival
+review.
+
+SQLite `quick_check` returned `ok`, the foreign-key check returned zero rows,
+the Python suite passed 69 / 69, and the deterministic 200-profile audit passed
+every invariant. Astro reported zero errors, warnings, or hints and built
+24,295 pages. The internal-link checker passed all 24,295 HTML files and
+inventoried 48,958 unique external URLs. The focused Batch 200 regression
+passed 3 / 3 across desktop, phone, and tablet, the representative axe matrix
+passed 27 / 27, and the complete browser matrix passed 642 / 642. The
+production dependency audit found zero vulnerabilities. All seven new stable
+source URLs returned HTTP 200.
+
+Consecutive final builds produced the identical complete-site tree digest
+`d72adbc31a3aa07fa86a2598e2d5551ee38d9b20dd5d4919ce5a16090093ca3c`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values in both the
+public source and built trees; the manifest SHA-256 is
+`c0757a2e2c1bbf6f7798f0f82a4ba5a7d647c1659c19e29e5d971c3cf406e8ca`.
+The boundary-aware identifier audit found zero unexpected boundary matches,
+aggregate false positives, or manifest-size false positives across 24,365
+artifacts after reviewing 998 candidate substrings. No authenticated NARA
+Catalog API request was made.
+
+The Batch 200 database contains 3,019 durable research attempts, 2,397 private
+citation records, 743 affiliations, 356 organizations, and 1,459 claims: 317
+confirmed, 789 high, 296 medium, 31 low, and 26 conflicting. The public
+projection contains 1,394 sources representing 1,074 unique documents, 735
+affiliations, and 1,428 claims. Coverage distinguishes 1,801 people with a non-
+planned research attempt, 295 with verified-affiliation evidence, 165 with
+verified employment or self-employment evidence, and 1,750 whose archival-
+review need has been assessed.
 
 ## Batch 199 local release QA
 
