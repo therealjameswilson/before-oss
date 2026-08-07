@@ -1,0 +1,431 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS reviewed research workflow, batch 205",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-36-batch205",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 55",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 36, rows 10-19; Arthur Biazzi through Luswig S. Bickhardt; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. The printed Luswig spelling is preserved; full private identifiers are excluded from public evidence."
+    },
+    {
+      "key": "oss-greece-wounded-john-bichekas-batch205",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%209-1544%20Date%20Estimated%2C%20OSS%20Missions%2C%20SOE%2C%20Train%20Sabotage%2C%20Katerini%2C%20Tsirmulas%2C%20226-99-45-5%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226, 99-45-5 (Admin)",
+      "title": "OSS missions in Greece: mission reports and list of wounded",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive, Cultural Foundation of the National Bank of Greece",
+      "publication_record_date": "1944",
+      "locator": "PDF page 19, section IX, List of Wounded",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Digitized OSS records concerning operations in Greece",
+      "rights_notes": "Contemporary official OSS document hosted by an archival repository. Its typed private identifier differs by one digit from the personnel index; the conflict is recorded and the full numbers are not exposed publicly."
+    },
+    {
+      "key": "us-war-memorials-john-bichekas-batch205",
+      "stable_url": "https://www.uswarmemorials.org/html/people_details.php?PeopleID=24652",
+      "archival_identifier": "PeopleID 24652; Greek Operational Group (OSS) Soldier Monument",
+      "title": "Bichekas John",
+      "author_creator": null,
+      "repository_publisher": "US War Memorials Overseas, Inc.",
+      "publication_record_date": null,
+      "locator": "Personnel entry and comments",
+      "access_date": "2026-08-07",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "US War Memorials Overseas people database",
+      "rights_notes": "Secondary memorial registry used to corroborate the uncommon name, Sergeant grade, unit, Massachusetts connection, and the private identifier printed in the NARA index. The full identifier is excluded from public evidence."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "john-bichekas-greek-operational-group-identity-batch205",
+      "person_id": "9227e9d3-c735-5bf1-a049-c6a55ddb3a68",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sergeant John Bichekas is a high-confidence match to the Greek Operational Group member listed as wounded or injured in action in Greece.",
+      "evidence_excerpt": "Sgt John Bichekas",
+      "evidence_paraphrase": "A contemporary OSS document and a memorial registry repeat the uncommon name and Sergeant grade; the registry also matches the index's private identifier.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, matching Sergeant grade, Greek operational context, and the memorial registry's identifier match. The contemporary OSS document differs from the index by one digit in that identifier, so the discrepancy remains explicit pending Box 55 review.",
+      "temporal_assessment": "The sources document wartime OSS operational service and injury in Greece. They do not establish a pre-OSS employer, occupation, or immediate predecessor assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The public profile masks the private identifier and explains the one-digit source conflict without choosing a convenient reading.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-36-batch205",
+          "support_type": "supports",
+          "locator_override": "PDF page 36, row 12",
+          "excerpt_override": "BICHEKAS JOHN SGT"
+        },
+        {
+          "source_key": "oss-greece-wounded-john-bichekas-batch205",
+          "support_type": "supports",
+          "locator_override": "PDF page 19, section IX, List of Wounded",
+          "excerpt_override": "Sgt John Bichekas"
+        },
+        {
+          "source_key": "us-war-memorials-john-bichekas-batch205",
+          "support_type": "supports",
+          "locator_override": "Personnel entry and comments",
+          "excerpt_override": "John Bichekas was one of the Greek-American volunteers"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "fbd90312-2a3e-5865-aa9c-48084329a0f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Arthur Biazzi and Box 55 but no middle initial, rank, private identifier, nationality note, or role. Exact-name searches returned people-finder and surname-only results without an OSS connection or corroborating identity anchors.",
+      "name_variants": [
+        "Arthur Biazzi",
+        "Biazzi, Arthur"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 for full name, vital data, nationality, occupation, role, and recruitment chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8fcaf931-9204-57a7-96de-e3918696ff60",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Arthur H. Bichan and Box 55 but no rank or private identifier. A Detroit-area institutional alumni directory lists an exact-name World War II veteran, but it provides no OSS link, service details, birth data, or second corroborating identifier.",
+      "name_variants": [
+        "Arthur H Bichan",
+        "Arthur H. Bichan",
+        "Bichan, Arthur H."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare Box 55 vital, residential, education, and service data with the Detroit-area veteran candidate. No reliable pre-OSS employer has yet been identified.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9227e9d3-c735-5bf1-a049-c6a55ddb3a68",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name and Sergeant grade recur in a contemporary OSS list of personnel wounded or injured in Greece. A memorial registry places the same man in the Greek Operational Group and repeats the private identifier printed in the index; the OSS list differs by one digit and the conflict remains visible.",
+      "name_variants": [
+        "John Bichekas",
+        "Bichekas, John"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 to resolve the one-digit identifier conflict and recover occupation, education, enlistment, and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0fa0b896-e53d-5b32-8006-59733987366f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Else Bichel and Box 55 but no initial, rank, private identifier, nationality note, alias, or role. Exact-name and spelling-variant searches yielded unrelated foreign and modern namesakes without an OSS link or defensible chronology.",
+      "name_variants": [
+        "Else Bichel",
+        "Bichel, Else"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 for nationality, aliases, language skills, role, and recruitment records.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "88ae4b3e-6f79-5207-847a-1480a42e93ff",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Peter M. Bichel and Box 55 but no rank, private identifier, nationality note, or role. Exact-name, OSS, military, employment, obituary, directory, newspaper, and institutional searches did not yield a candidate with corroborating identifiers.",
+      "name_variants": [
+        "Peter M Bichel",
+        "Peter M. Bichel",
+        "Bichel, Peter M."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 for vital data, nationality, occupation, role, and recruitment chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8619cb82-9e17-573b-8156-7969640a8bd3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Robert M. Bickel, Corporal, a private identifier, and Box 55. Common-name Army, cemetery, obituary, directory, institutional, and archival results did not repeat the private identifier or establish an OSS connection and two corroborating identity anchors.",
+      "name_variants": [
+        "Robert M Bickel",
+        "Robert M. Bickel",
+        "Bickel, Robert M."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 for birth, residence, occupation, enlistment, unit, and recruitment chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "240d425c-8509-51f4-a333-86d62d455ff7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Ruth F. Bickers, civilian grade CAF-2, and Box 55 but no private identifier, location, agency, or role. Exact-name government, employment, occupation, obituary, census, newspaper, directory, and archival searches returned unrelated or insufficiently identified candidates.",
+      "name_variants": [
+        "Ruth F Bickers",
+        "Ruth F. Bickers",
+        "Bickers, Ruth F."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 for full name, grade chronology, residence, occupation, and hiring records.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "06fcf1d7-191e-5586-afde-d748955d6539",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Avis W. Bickford, civilian grade CAF-5, and Box 55 but no private identifier, location, agency, or role. Exact-name government, employment, obituary, newspaper, directory, census, and archival searches were dominated by older namesakes and did not establish this person's identity.",
+      "name_variants": [
+        "Avis W Bickford",
+        "Avis W. Bickford",
+        "Bickford, Avis W."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 for full name, birth data, grade chronology, occupation, and hiring records.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8c8af948-dd3b-536e-8ba0-988f6cf3d97f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon Benton E. Bickham name, middle initial, compatible Private grade, Louisiana origin, and Area B enlisted camp-staff context align. The contemporary diarist explicitly stated that he did not know Bickham's background.",
+      "name_variants": [
+        "Benton E Bickham Jr.",
+        "Benton E. Bickham",
+        "Benton E. Bickham Jr.",
+        "Bickham, Benton, Jr. E"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 55 for pre-OSS occupation, Louisiana employer, enlistment chronology, and direct confirmation of the Area B assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "555a861c-4f69-5c03-82dd-74be2a38c610",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Luswig S. Bickhardt, Technician Fifth Grade, and Box 55 but supplies no private identifier or role. Searches used both the printed Luswig and the plausible Ludwig variant; no reviewed source linked either spelling to OSS, the grade, or an employer.",
+      "name_variants": [
+        "Luswig S Bickhardt",
+        "Luswig S. Bickhardt",
+        "Bickhardt, Luswig S.",
+        "Ludwig S Bickhardt",
+        "Ludwig S. Bickhardt"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 55 to determine whether Luswig is the file spelling or an index error and recover vital, occupational, and enlistment data.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "arthur-biazzi-protocol-batch205",
+      "person_id": "fbd90312-2a3e-5865-aa9c-48084329a0f7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Arthur Biazzi: visually verified NARA index; NARA and CIA context; exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "People-finder, surname directory, modern corporate, and partial-name results lacked an OSS link, Box 55 connection, occupation chronology, or corroborating identity anchors.",
+      "research_notes": "No candidate met the identity threshold, and no employer was inferred from surname rarity or later residence.",
+      "next_action": "Review Box 55 for identity anchors and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "arthur-h-bichan-protocol-batch205",
+      "person_id": "8fcaf931-9204-57a7-96de-e3918696ff60",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Arthur H. Bichan: visually verified NARA index; NARA and CIA context; exact-name OSS, World War II veteran, Detroit, employer, occupation, obituary, alumni, newspaper, directory, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "An institutional alumni directory lists an exact-name Detroit-area World War II veteran, but supplies no OSS connection, branch, rank, private identifier, birth data, or employer chronology.",
+      "research_notes": "The candidate remains unresolved and no educational, military, or employment affiliation is assigned from the name alone.",
+      "next_action": "Compare Box 55 identity data with the Detroit-area veteran candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "john-bichekas-protocol-batch205",
+      "person_id": "9227e9d3-c735-5bf1-a049-c6a55ddb3a68",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John Bichekas: visually verified NARA index; NARA and CIA context; exact-name OSS, Greek Operational Group, 2671st Special Reconnaissance Battalion, Army, employer, occupation, obituary, memorial, newspaper, directory, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Modern namesakes, genealogy summaries, and derivative wartime pages were excluded as employer evidence. The contemporary list and memorial registry document wartime service but no pre-OSS occupation.",
+      "research_notes": "Identity is high confidence. A one-digit private-identifier conflict between the contemporary OSS list and the index remains explicit; no reliable pre-OSS employer was found.",
+      "next_action": "Review Box 55 for the correct identifier, occupation, education, enlistment, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "else-bichel-protocol-batch205",
+      "person_id": "0fa0b896-e53d-5b32-8006-59733987366f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Else Bichel: visually verified NARA index; NARA and CIA context; exact-name OSS, employer, occupation, obituary, foreign-language, institutional, newspaper, directory, genealogy, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Foreign civil-record indexes, modern media credits, surname-only histories, and unrelated namesakes supplied no OSS link, Box 55 connection, or defensible employment chronology.",
+      "research_notes": "No nationality, alias, role, or employer was inferred from the name.",
+      "next_action": "Review Box 55 for nationality, aliases, languages, and recruitment records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "peter-m-bichel-protocol-batch205",
+      "person_id": "88ae4b3e-6f79-5207-847a-1480a42e93ff",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Peter M. Bichel: visually verified NARA index; NARA and CIA context; exact-name OSS, military, employer, occupation, obituary, institutional, newspaper, directory, genealogy, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Church-record, marriage, academic text, and modern namesake results lacked an OSS connection, service identifiers, or employer chronology.",
+      "research_notes": "No candidate met the identity threshold.",
+      "next_action": "Review Box 55 for identity anchors, occupation, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "robert-m-bickel-protocol-batch205",
+      "person_id": "8619cb82-9e17-573b-8156-7969640a8bd3",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert M. Bickel: visually verified NARA index; private-identifier search; NARA and CIA context; exact-name OSS, Corporal, Army, employer, occupation, obituary, cemetery, newspaper, directory, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Common-name military, cemetery, genealogy, and obituary results did not repeat the private identifier or supply an OSS link and two independent identity anchors.",
+      "research_notes": "No namesake was assigned to the indexed Corporal.",
+      "next_action": "Review Box 55 for birth, residence, occupation, unit, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "ruth-f-bickers-protocol-batch205",
+      "person_id": "240d425c-8509-51f4-a333-86d62d455ff7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ruth F. Bickers: visually verified NARA index; NARA and CIA context; exact-name OSS, CAF-2, federal government, employer, occupation, obituary, census, newspaper, directory, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Surname-only genealogy, city-directory, cemetery, and newspaper results lacked the exact person, OSS connection, civilian grade, and employment chronology.",
+      "research_notes": "CAF-2 is preserved as an indexed civilian grade; no specific role or employing predecessor organization is inferred.",
+      "next_action": "Review Box 55 for full name, grade chronology, occupation, and hiring records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "avis-w-bickford-protocol-batch205",
+      "person_id": "06fcf1d7-191e-5586-afde-d748955d6539",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Avis W. Bickford: visually verified NARA index; NARA and CIA context; exact-name OSS, CAF-5, federal government, employer, occupation, obituary, census, newspaper, directory, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Older Maine and New Hampshire namesakes, surname-only newspaper hits, census results, and modern records lacked an OSS connection, civilian grade, or matching chronology.",
+      "research_notes": "CAF-5 is preserved as an indexed civilian grade; no role or predecessor employer is inferred.",
+      "next_action": "Review Box 55 for full name, vital data, grade chronology, occupation, and hiring records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "benton-e-bickham-follow-up-batch205",
+      "person_id": "8c8af948-dd3b-536e-8ba0-988f6cf3d97f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Benton E. Bickham Jr.: visually rechecked NARA index; prior official NPS Area B evidence; NARA and CIA context; exact-name OSS, Louisiana, Army, employer, occupation, obituary, newspaper, directory, property, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol_follow_up",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Louisiana property litigation concerns an older namesake or relative and provides no wartime identifier. Directory and genealogy leads do not establish occupation or employer. The contemporary Area B diarist expressly did not know Bickham's background.",
+      "research_notes": "The earlier high-confidence identity and Area B context stand. The follow-up produced no supportable pre-OSS employer claim.",
+      "next_action": "Review Box 55 and Louisiana wartime directories for occupation and enlistment chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    },
+    {
+      "key": "luswig-s-bickhardt-protocol-batch205",
+      "person_id": "555a861c-4f69-5c03-82dd-74be2a38c610",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Luswig S. Bickhardt and Ludwig S. Bickhardt: visually verified NARA index; NARA and CIA context; exact-name OSS, Technician Fifth Grade, Army, employer, occupation, obituary, German-language, newspaper, directory, genealogy, and archival variants.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-07T10:30:00-04:00",
+      "completed_at": "2026-08-07T12:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Historical German namesakes, surname-only military indexes, genealogy pages, and modern results lacked the middle initial, OSS connection, grade, or employment chronology.",
+      "research_notes": "Ludwig is retained only as a search alias. The printed Luswig spelling remains authoritative until Box 55 is reviewed.",
+      "next_action": "Review Box 55 for spelling, vital data, occupation, and enlistment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch205-v1"
+    }
+  ]
+}

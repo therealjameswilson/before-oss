@@ -4,26 +4,22 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete pre-Batch-204 browser matrix passed 651 / 651 at
-desktop, phone, and tablet widths. The new Batch 204 regression then passed
-3 / 3 against the release build, for 654 successful browser cases in this
-release QA session. The accessibility routes reported no serious axe
-violations.
+**PASS.** The complete browser and accessibility matrix passed **657 / 657**
+at desktop, phone, and tablet widths. The accessibility routes reported no
+serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-Batch 204 adds a focused direct-route regression for Bertram Beyer on PDF page
-35 and Thomas L. Beyer through Peter V. Bianchi on page 36. It checks all ten
-indexed names, literal ranks, Boxes 54 and 55, public-safe identifier masking,
-identity and research states, employer-gap wording, and archival-review routes.
-It separately verifies Willard W. Beynon's qualified Scranton Technical High
-School pathway, Udom Sakdi Bhasavanich's documented University of Illinois
-variant and engineering study, Louis Biagioni's confirmed NARA file identity,
-John T. Bezverkov's visibly probable but unaccepted Michigan lead, Peter Vieri
-Bianchi's Mizen Academy pathway and explicit OSS evidence, and Thomas L.
-Beyer's commissioned classification. Every school remains a student
-affiliation and outside the civilian-employer section.
+Batch 205 adds a focused direct-route regression for Arthur Biazzi through
+Luswig S. Bickhardt on PDF page 36. It checks all ten indexed names, literal
+ranks or civilian grades, Box 55, public-safe identifier masking, identity and
+research states, employer-gap wording, and archival-review routes. It
+separately verifies John Bichekas's high-confidence Greek Operational Group
+identity while preserving the contemporary document's one-digit identifier
+discrepancy; Arthur H. Bichan's Detroit-area namesake remains an unaccepted
+candidate; and Benton E. Bickham Jr.'s previously established Area B identity
+remains qualified. No pre-OSS employer is invented for any of the ten.
 
 The current production build contains 24,311 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and

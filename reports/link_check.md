@@ -12,8 +12,32 @@ The build includes 23,940 person profiles, 363 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,998 unique external URLs for separate live
+The checker inventoried 48,999 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 205 local release check
+
+The complete 24,311-page internal-link pass includes direct routes for Arthur
+Biazzi through Luswig S. Bickhardt on PDF page 36. The 69-test Python suite,
+deterministic 200-profile audit, and complete 657-case desktop, phone, and
+tablet browser matrix passed; Astro reported zero errors, warnings, or hints.
+
+The regression verifies ten source rows in Box 55; literal ranks and civilian
+grades; public-safe identifier masking; John Bichekas's high-confidence Greek
+Operational Group identity and visible one-digit source discrepancy; Arthur H.
+Bichan's unresolved Detroit-area namesake lead; Benton E. Bickham Jr.'s prior
+Area B identity; and explicit unresolved or archival-review outcomes for all
+remaining profiles. No unsupported employer claim enters the public data.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,381 artifacts, rejected 996
+substring coincidences, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`56fc42e50481f89dc5afda3d4003ef5b86becab2aa7b39ef85be10155fc76ac0`.
+Two consecutive production builds produced the identical static-tree digest
+`9ff44a5ae455b3d249430de2024a9f67c55c4d26283b193eb4c6b91ab804d1a7`.
 
 ## Batch 204 local release check
 

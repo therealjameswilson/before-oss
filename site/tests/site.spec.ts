@@ -18067,3 +18067,65 @@ test("Batch 204 crosses the page boundary and keeps student affiliations out of 
     );
   }
 });
+
+test("Batch 205 preserves Biazzi-through-Bickhardt and publishes only the supported Bichekas identity", async ({
+  page,
+}) => {
+  const profiles = [
+    ["fbd90312-2a3e-5865-aa9c-48084329a0f7", "Arthur Biazzi", "Not printed", "Not printed"],
+    ["8fcaf931-9204-57a7-96de-e3918696ff60", "Arthur H Bichan", "Not printed", "Not printed"],
+    ["9227e9d3-c735-5bf1-a049-c6a55ddb3a68", "John Bichekas", "Sgt", "masked"],
+    ["0fa0b896-e53d-5b32-8006-59733987366f", "Else Bichel", "Not printed", "Not printed"],
+    ["88ae4b3e-6f79-5207-847a-1480a42e93ff", "Peter M Bichel", "Not printed", "Not printed"],
+    ["8619cb82-9e17-573b-8156-7969640a8bd3", "Robert M Bickel", "Cpl", "masked"],
+    ["240d425c-8509-51f4-a333-86d62d455ff7", "Ruth F Bickers", "Caf-2", "Not printed"],
+    ["06fcf1d7-191e-5586-afde-d748955d6539", "Avis W Bickford", "Caf-5", "Not printed"],
+    ["8c8af948-dd3b-536e-8ba0-988f6cf3d97f", "Benton E Bickham Jr.", "Pvt", "masked"],
+    ["555a861c-4f69-5c03-82dd-74be2a38c610", "Luswig S Bickhardt", "T-5", "Not printed"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 36");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("55");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No reliable pre-OSS employer has yet been identified|No reviewed claim currently meets the publication threshold/,
+    );
+  }
+
+  await page.goto("./people/9227e9d3-c735-5bf1-a049-c6a55ddb3a68/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Greek Operational Group");
+  await expect(page.locator("main")).toContainText("one digit");
+  await expect(page.locator("main")).toContainText("wounded or injured in action in Greece");
+
+  await page.goto("./people/8fcaf931-9204-57a7-96de-e3918696ff60/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Detroit-area");
+
+  await page.goto("./people/8c8af948-dd3b-536e-8ba0-988f6cf3d97f/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Area B");
+
+  for (const personId of [
+    "fbd90312-2a3e-5865-aa9c-48084329a0f7",
+    "0fa0b896-e53d-5b32-8006-59733987366f",
+    "88ae4b3e-6f79-5207-847a-1480a42e93ff",
+    "8619cb82-9e17-573b-8156-7969640a8bd3",
+    "240d425c-8509-51f4-a333-86d62d455ff7",
+    "06fcf1d7-191e-5586-afde-d748955d6539",
+    "555a861c-4f69-5c03-82dd-74be2a38c610",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+});
