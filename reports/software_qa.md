@@ -5,37 +5,37 @@ Run: 2026-08-07 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,311 pages**
-- Internal link check: **24,311 HTML files passed**
-- Complete browser and accessibility matrix: **657 / 657 passed** across
+- Static production build: **24,315 pages**
+- Internal link check: **24,315 HTML files passed**
+- Complete browser and accessibility matrix: **660 / 660 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`9ff44a5ae455b3d249430de2024a9f67c55c4d26283b193eb4c6b91ab804d1a7`)
-- Latest deterministic build (Batch 205): **byte-for-byte identical** across
+  (`3d3ad2f1954d696d427c9d164cbf89d04bf26bcf86dbe812f23257f6ec27d02e`)
+- Latest deterministic build (Batch 206): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `56fc42e50481f89dc5afda3d4003ef5b86becab2aa7b39ef85be10155fc76ac0`
+  `571a871ac2aba839877d69e9d985601ba5cc1ef0d0f5b6a384e47b5108171e35`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,381** production artifacts, including compressed mirrors.
+  matches** in **24,385** production artifacts, including compressed mirrors.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,432** public records representing **1,106** unique documents
-- Private citation records: **2,435**
-- Published, qualified, or conflict-visible affiliations: **755**
-- Published or conflict-visible claims: **1,463**
-- Verified-affiliation metric: **304** people with confirmed/high published
+- Reviewed public sources: **1,440** public records representing **1,113** unique documents
+- Private citation records: **2,443**
+- Published, qualified, or conflict-visible affiliations: **759**
+- Published or conflict-visible claims: **1,472**
+- Verified-affiliation metric: **306** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **167** people with confirmed/high published
+- Verified-employer metric: **168** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -93,6 +93,45 @@ Run: 2026-08-07 UTC
   passed
 - Batch 197 local release checks: **passed**; the complete **633-case** browser
   matrix runs in release CI
+
+## Batch 206 local release QA
+
+Batch 206 adds ten visually checked source rows on PDF page 36, from Charles
+Bidien through Stephen Bienieck. The strict evidence bundle imports eight
+sources, four organizations, four affiliations, nine claims, eighteen
+claim-source links, ten person updates, and ten terminal research attempts. It
+supports Billie D. Bidle's OSS identity; publishes Frank B. Bielaski's private
+detective-agency pathway; keeps Fred Bielaski's Richmond Levering employment
+as qualified earlier work rather than an immediate predecessor; and separates
+Harold Bienenstock's explicit G-2/Camp Ritchie assignment from qualified
+unnamed bookstore employment. The six remaining identities are unresolved or
+require identity review, and no unsupported pre-OSS employer is published.
+
+SQLite integrity and ingest validation passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,315 pages. The internal-link checker passed all 24,315 HTML
+files and inventoried 49,010 unique external URLs. The complete Playwright and
+axe matrix passed 660 / 660 across desktop, phone, and tablet. The production
+dependency audit found zero vulnerabilities.
+
+Consecutive production builds produced the identical complete-site tree digest
+`3d3ad2f1954d696d427c9d164cbf89d04bf26bcf86dbe812f23257f6ec27d02e`.
+All 65 manifest assets have valid paths, sizes, and SHA-256 values in both the
+public source and built trees; the manifest SHA-256 is
+`571a871ac2aba839877d69e9d985601ba5cc1ef0d0f5b6a384e47b5108171e35`.
+The boundary-aware identifier audit found zero unexpected boundary matches,
+aggregate false positives, or manifest-size false positives across 24,385
+artifacts after reviewing 998 candidate substrings. No authenticated NARA
+Catalog API request was made.
+
+The Batch 206 database contains 3,079 durable research attempts, 2,443 private
+citation records, 767 affiliations, 376 organizations, and 1,503 claims: 323
+confirmed, 816 high, 307 medium, 31 low, and 26 conflicting. The public
+projection contains 1,440 sources representing 1,113 unique documents, 759
+affiliations, and 1,472 claims. Coverage distinguishes 1,859 people with a non-
+planned research attempt, 306 with verified-affiliation evidence, 168 with
+verified employment or self-employment evidence, and 1,808 whose archival-
+review need has been assessed.
 
 ## Batch 205 local release QA
 

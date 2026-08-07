@@ -4,16 +4,41 @@ Run: 2026-08-07 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,311 HTML files. Every relative
+**PASS.** The production build contains 24,315 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 363 organization profiles, and the
+The build includes 23,940 person profiles, 367 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 48,999 unique external URLs for separate live
+The checker inventoried 49,010 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 206 local release check
+
+The complete 24,315-page internal-link pass includes direct routes for Charles
+Bidien through Stephen Bienieck on PDF page 36 and four new organization
+routes. The 69-test Python suite, deterministic 200-profile audit, and complete
+660-case desktop, phone, and tablet browser matrix passed; Astro reported zero
+errors, warnings, or hints, and the dependency audit found zero vulnerabilities.
+
+The regression verifies ten Box 55 source rows; literal ranks and civilian
+grades; public-safe identifier masking; Billie D. Bidle's supported OSS
+identity; Frank B. Bielaski's private-detective pathway; Fred Bielaski's
+qualified earlier Bolivia employment; Harold Bienenstock's G-2/Camp Ritchie
+pathway and unnamed bookstore work; and explicit unresolved or identity-review
+outcomes for the six remaining profiles. No namesake lead is promoted as fact.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,385 artifacts, reviewed 998
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. All 65 public-manifest
+assets match their recorded sizes and SHA-256 values in both the public-source
+and built trees. The manifest SHA-256 is
+`571a871ac2aba839877d69e9d985601ba5cc1ef0d0f5b6a384e47b5108171e35`.
+Two consecutive production builds produced the identical static-tree digest
+`3d3ad2f1954d696d427c9d164cbf89d04bf26bcf86dbe812f23257f6ec27d02e`.
 
 ## Batch 205 local release check
 

@@ -18129,3 +18129,101 @@ test("Batch 205 preserves Biazzi-through-Bickhardt and publishes only the suppor
     await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   }
 });
+
+test("Batch 206 separates detective, Army intelligence, bookstore, and unresolved pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["540ee212-5e0b-5d79-9da1-d4d6f58ad125", "Charles Bidien", "Not printed", "Not printed"],
+    ["fda85520-039e-5b1f-b312-4eb54b886d4b", "Billie D Bidle", "T-3", "masked"],
+    ["888f464c-5eb3-5fae-b232-db56140367d0", "Ray Biederman", "SP P 1/c", "masked"],
+    ["5ead4092-93d1-5be1-8141-ce8be9d9fb58", "Joseph A Biedron", "Pvt", "masked"],
+    ["b2e41bea-1013-5027-9c15-790556ec04eb", "Frank B Bielaski", "Not printed", "Not printed"],
+    ["15a29a44-a8fd-5b29-b86e-f5ec49ccf794", "Fred Bielaski", "Lt Col", "masked"],
+    ["c11c0bae-9bb6-5485-b61a-5555f5c05ddf", "Ray A Bielefeldt", "Not printed", "masked"],
+    ["976e7832-3c6b-5da4-9156-3fdfdffb8b60", "Henry R Bielski", "Capt", "masked"],
+    ["453f4d6c-6158-51f9-a349-252ae3c48ca2", "Harold Bienenstock", "Sgt", "masked"],
+    ["cb76396b-7a14-5142-9481-dbe4c1a49436", "Stephen Bienieck", "2nd Lt", "masked"],
+  ];
+
+  for (const [personId, displayName, rank, serial] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 36");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      serial === "masked" ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("55");
+  }
+
+  await page.goto("./people/fda85520-039e-5b1f-b312-4eb54b886d4b/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("OSS Counter Intelligence Division");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/b2e41bea-1013-5027-9c15-790556ec04eb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Frank B. Bielaski Detective Agency",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Frank B. Bielaski Detective Agency",
+  );
+  await expect(page.locator("main")).toContainText("Seaboard Agency");
+
+  await page.goto("./people/15a29a44-a8fd-5b29-b86e-f5ec49ccf794/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Richmond Levering Co., Inc.",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/453f4d6c-6158-51f9-a349-252ae3c48ca2/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Military Intelligence Training Center, Camp Ritchie",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Unidentified bookstore in Flushing, New York",
+  );
+  await expect(page.locator("main")).toContainText("one digit");
+
+  await page.goto("./people/540ee212-5e0b-5d79-9da1-d4d6f58ad125/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Shek Bidien bin Aroon");
+
+  await page.goto("./people/976e7832-3c6b-5da4-9156-3fdfdffb8b60/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Arlington captain candidate");
+
+  await page.goto("./people/cb76396b-7a14-5142-9481-dbe4c1a49436/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("postwar attorney candidate");
+
+  for (const personId of [
+    "888f464c-5eb3-5fae-b232-db56140367d0",
+    "5ead4092-93d1-5be1-8141-ce8be9d9fb58",
+    "c11c0bae-9bb6-5485-b61a-5555f5c05ddf",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

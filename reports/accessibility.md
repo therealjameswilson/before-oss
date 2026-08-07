@@ -4,24 +4,24 @@ Run: 2026-08-07 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **657 / 657**
+**PASS.** The complete browser and accessibility matrix passed **660 / 660**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-Batch 205 adds a focused direct-route regression for Arthur Biazzi through
-Luswig S. Bickhardt on PDF page 36. It checks all ten indexed names, literal
-ranks or civilian grades, Box 55, public-safe identifier masking, identity and
+Batch 206 adds a focused direct-route regression for Charles Bidien through
+Stephen Bienieck on PDF page 36. It checks all ten indexed names, literal ranks
+or civilian grades, Box 55, public-safe identifier masking, identity and
 research states, employer-gap wording, and archival-review routes. It
-separately verifies John Bichekas's high-confidence Greek Operational Group
-identity while preserving the contemporary document's one-digit identifier
-discrepancy; Arthur H. Bichan's Detroit-area namesake remains an unaccepted
-candidate; and Benton E. Bickham Jr.'s previously established Area B identity
-remains qualified. No pre-OSS employer is invented for any of the ten.
+separately verifies Billie D. Bidle's OSS identity; Frank B. Bielaski's
+detective-agency pathway; Fred Bielaski's qualified, non-immediate Bolivia
+employment; and Harold Bienenstock's explicit Army-intelligence predecessor
+and qualified unnamed bookstore employment. Six unsupported or incomplete
+identities remain unresolved or in identity review rather than becoming facts.
 
-The current production build contains 24,311 HTML pages. Astro check reported
+The current production build contains 24,315 HTML pages. Astro check reported
 zero errors, warnings, or hints; the complete internal-link check passed; and
 two consecutive builds produced identical path-and-file digests.
 
