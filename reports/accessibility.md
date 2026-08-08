@@ -4,7 +4,7 @@ Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **699 / 699**
+**PASS.** The complete browser and accessibility matrix passed **702 / 702**
 on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
@@ -19,7 +19,8 @@ and nonterminal review language. It separately verifies two bounded Army-entry
 statuses, Thomas J. Blakely's post-OSS date boundary, Emily Blanas's qualified
 identity evidence, and Frank T. Blanas's explicit Army-to-OSS transition
 without assigning the preceding interviewee's occupation to him. The focused
-local matrix passed 3 / 3; the complete 702-case matrix runs in release CI.
+local matrix passed 3 / 3; the complete 702 / 702 matrix passed in
+[workflow 31263636051](https://github.com/therealjameswilson/before-oss/actions/runs/31263636051).
 
 Batch 219 adds a focused direct-route regression for John A. Blair through
 Frank W. Blake across Boxes 59-60 on PDF page 39. It checks all ten indexed

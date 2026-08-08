@@ -7,7 +7,7 @@ Run: 2026-08-08 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,329 pages**
 - Internal link check: **24,329 HTML files passed**
-- Complete browser and accessibility matrix: **699 / 699 passed** on the clean
+- Complete browser and accessibility matrix: **702 / 702 passed** on the clean
   GitHub Actions runner across desktop, phone, and tablet, with no serious or
   critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
@@ -117,10 +117,10 @@ Run: 2026-08-08 UTC
   browser matrix passed on the clean GitHub Actions runner
 - Batch 219 production verification: **passed**; the complete **699-case**
   browser matrix passed on the clean GitHub Actions runner
-- Batch 220 local release checks: **passed**; the focused **3-case** regression
-  passed and the complete **702-case** browser matrix runs in release CI
+- Batch 220 production verification: **passed**; the complete **702-case**
+  browser matrix passed on the clean GitHub Actions runner
 
-## Batch 220 local release check
+## Batch 220 production verification
 
 Batch 220 adds the ten visually checked page-39 source rows from John F. Blake
 through Frank T. Blanas in Box 60. The strict evidence bundle imports six
@@ -150,7 +150,16 @@ identifiers and 121 formatted variants, reviewed 1,000 candidate substrings,
 and found zero unexpected boundary matches, aggregate false positives, or
 manifest-size false positives across 24,399 production artifacts. No
 authenticated NARA Catalog API request was made. The complete 702-case browser
-and axe matrix remains assigned to the clean release runner.
+and axe matrix passed in
+[workflow 31263636051](https://github.com/therealjameswilson/before-oss/actions/runs/31263636051).
+Pages workflow
+[31263636039](https://github.com/therealjameswilson/before-oss/actions/runs/31263636039)
+also completed successfully. The cache-busted live manifest matches the local
+release, and direct Thomas P. Blakenship, Hershell O. Blakley, Emily Blanas,
+and Frank T. Blanas profile checks return HTTP 200 with the expected evidence
+boundaries. GitHub emitted a non-failing notice that several official actions'
+Node 20 runtimes are being forced to Node 24; this is a future workflow-
+maintenance item, not a release failure.
 
 ## Batch 219 production verification
 

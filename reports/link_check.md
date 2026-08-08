@@ -15,14 +15,14 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,065 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-## Batch 220 local release check
+## Batch 220 production check
 
 The complete 24,329-page internal-link pass includes direct routes for John F.
 Blake through Frank T. Blanas in Box 60 on PDF page 39. The 69-test Python
 suite, deterministic 200-profile audit, and focused 3-case desktop, phone, and
 tablet regression passed; Astro reported zero errors, warnings, or hints, and
 the production dependency audit found zero vulnerabilities. The complete
-702-case browser and axe matrix runs in release CI.
+702 / 702 browser and axe matrix passed on the clean release runner.
 
 The regression verifies all ten indexed rows, literal ranks or civilian
 grades, public-safe identifier masking, identity and research states, and
@@ -39,6 +39,15 @@ false positives, or manifest-size false positives. The manifest SHA-256 is
 Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `7c9c94cc64fd1c2b52501c4bf86a1b6f3856ee875d1d78e5c180470845084b4a`.
+
+Test workflow
+[31263636051](https://github.com/therealjameswilson/before-oss/actions/runs/31263636051)
+and Pages workflow
+[31263636039](https://github.com/therealjameswilson/before-oss/actions/runs/31263636039)
+completed successfully. The cache-busted live manifest matched the local
+release exactly, and direct Thomas P. Blakenship, Hershell O. Blakley, Emily
+Blanas, and Frank T. Blanas profile checks returned HTTP 200 with the expected
+status, occupation, and Army-to-OSS evidence boundaries.
 
 ## Batch 219 production check
 
