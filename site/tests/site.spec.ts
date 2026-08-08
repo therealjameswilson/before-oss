@@ -19613,3 +19613,119 @@ test("Batch 222 publishes Blankenhorn and Blatnik pathways while preserving five
   await expect(page.locator("main")).toContainText("Staff Sergeant Edward M. Blaszczyk");
   await expect(page.locator("main")).toContainText("candidate is rejected rather than merged");
 });
+
+test("Batch 223 publishes Blee and Blegen pathways while preserving five archival cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["9b63ac3d-53e4-5274-a1ee-7710befeb184", "Virginia G Blatt", "Caf-7", false],
+    ["11e4c0f6-2985-58f2-aef2-0f9342474156", "Louis A Blatterman Jr.", "Pfc", true],
+    ["e85b5790-a5bb-5fde-9d58-8bcc1b1047ee", "William J Blaum Jr.", "T-3", true],
+    ["b25d791f-f50f-5bfc-b0b0-592a13d6e128", "Charles F Blecka", "Maj", true],
+    ["18d03cd0-8d39-597a-b9f5-c968bd3ecf3a", "William E Bledsoe", "Capt", false],
+    ["e9cb1a79-f509-525a-98f8-a2e97e27be85", "David H Blee", "Not printed", true],
+    ["33943571-aa45-5491-b558-9a09f38f8233", "Theodore B Bleecker", "Not printed", false],
+    ["c8e4d2ae-85e7-5eb6-be37-3e91c8790840", "Carl W Blegen", "P-7", false],
+    ["4d92355f-ee69-5411-b0ca-553faacccfdf", "Margaret J Blegen", "P-2", false],
+    ["6cdfeafe-bb9a-5cc0-8f3d-a182e10ddb94", "Thomas A Blend", "T-4", true],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 40");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("61");
+  }
+
+  for (const [personId, occupation] of [
+    ["e85b5790-a5bb-5fde-9d58-8bcc1b1047ee", "Engineers, civil"],
+    ["6cdfeafe-bb9a-5cc0-8f3d-a182e10ddb94", "Clerks, general office"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/e9cb1a79-f509-525a-98f8-a2e97e27be85/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army Corps of Engineers", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Harvard Law School",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "A Life of Intelligence", exact: true }).first(),
+  ).toHaveAttribute("href", "https://stanfordmag.org/contents/a-life-of-intelligence");
+
+  await page.goto("./people/c8e4d2ae-85e7-5eb6-be37-3e91c8790840/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "University of Cincinnati", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "University of Cincinnati", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "probable immediate",
+  );
+  await expect(
+    page.getByRole("link", { name: "Carl W. Blegen Papers", exact: true }).first(),
+  ).toHaveAttribute("href", "https://www.ascsa.edu.gr/index.php/archives/blegen-finding-aid/");
+
+  await page.goto("./people/4d92355f-ee69-5411-b0ca-553faacccfdf/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Minnesota",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "medium",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const personId of [
+    "9b63ac3d-53e4-5274-a1ee-7710befeb184",
+    "11e4c0f6-2985-58f2-aef2-0f9342474156",
+    "b25d791f-f50f-5bfc-b0b0-592a13d6e128",
+    "18d03cd0-8d39-597a-b9f5-c968bd3ecf3a",
+    "33943571-aa45-5491-b558-9a09f38f8233",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/11e4c0f6-2985-58f2-aef2-0f9342474156/");
+  await expect(page.locator("main")).toContainText("no exact name-and-identifier match");
+
+  await page.goto("./people/b25d791f-f50f-5bfc-b0b0-592a13d6e128/");
+  await expect(page.locator("main")).toContainText("born in 1943");
+  await expect(page.locator("main")).toContainText("time-impossible namesake");
+});

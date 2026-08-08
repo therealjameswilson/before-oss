@@ -4,12 +4,23 @@ Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **708 / 708**
-on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
+**PASS.** The complete browser and accessibility matrix passed **711 / 711**
+locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 223 adds a focused direct-route regression for Virginia G. Blatt through
+Thomas A. Blend on PDF page 40. It checks all ten indexed names, literal ranks
+or civilian grades, Box 61, public-safe identifier masking, identity and
+research states, and terminal employer-gap language. It separately verifies
+William J. Blaum Jr. and Thomas A. Blend's bounded Army-entry occupations;
+David H. Blee's Army Corps of Engineers predecessor and Harvard Law student
+status; Carl W. Blegen's qualified University of Cincinnati employment; and
+Margaret J. Blegen's qualified University of Minnesota student affiliation.
+Five profiles remain explicit archival-review cases. The focused and complete
+local matrices passed 3 / 3 and 711 / 711 respectively.
 
 Batch 222 adds a focused direct-route regression for Richard F. Blandin through
 John A. Blatnick across PDF pages 39-40. It checks all ten indexed names,

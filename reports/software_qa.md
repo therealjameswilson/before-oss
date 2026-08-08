@@ -5,39 +5,39 @@ Run: 2026-08-08 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,336 pages**
-- Internal link check: **24,336 HTML files passed**
-- Complete browser and accessibility matrix: **708 / 708 passed** on the clean
-  GitHub Actions runner across desktop, phone, and tablet, with no serious or
+- Static production build: **24,337 pages**
+- Internal link check: **24,337 HTML files passed**
+- Complete browser and accessibility matrix: **711 / 711 passed** locally
+  across desktop, phone, and tablet, with no serious or
   critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`307ad737439950df5891bd1cd0d755b1d342b63d92d25afce4f49bd3f9f65b09`)
-- Latest deterministic build (Batch 222): **byte-for-byte identical** across
+  (`6cdb6411923c3ae1ff96ffb924c41185ef7d0cfa2ff9871bea27547eb7513bb3`)
+- Latest deterministic build (Batch 223): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `2bc7b10110ac8c1f0d0be76267d451b5b90b53c88c8f66c37326ea1c5472e211`
+  `bf8a192e6f7502adfb065d2b90879b8022e96a9716639760807d887f60d54fc1`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,406** production artifacts, including compressed mirrors;
-  **1,002** candidate substrings were reviewed.
+  matches** in **24,407** production artifacts, including compressed mirrors;
+  **1,006** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,553** public records representing **1,172** unique documents
-- Private citation records: **2,558**
-- Published, qualified, or conflict-visible affiliations: **833**
-- Published or conflict-visible claims: **1,621**
-- Verified-affiliation metric: **325** people with confirmed/high published
+- Reviewed public sources: **1,563** public records representing **1,178** unique documents
+- Private citation records: **2,568**
+- Published, qualified, or conflict-visible affiliations: **839**
+- Published or conflict-visible claims: **1,633**
+- Verified-affiliation metric: **329** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **174** people with confirmed/high published
+- Verified-employer metric: **175** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -123,6 +123,42 @@ Run: 2026-08-08 UTC
   regression and complete **705-case** browser matrix passed
 - Batch 222 production verification: **passed**; the focused **3-case**
   regression and complete **708-case** browser matrix passed
+- Batch 223 local release checks: **passed**; the focused **3-case** regression
+  and complete **711-case** browser matrix passed
+
+## Batch 223 local release verification
+
+Batch 223 adds the ten visually checked source rows from Virginia G. Blatt
+through Thomas A. Blend on PDF page 40 and in Box 61. The strict evidence
+bundle imports ten sources, four organizations, six affiliations, twelve
+claims, thirty-one claim-source links, ten person updates, and ten durable
+research attempts. Exact private-identifier matches support William J. Blaum
+Jr. and Thomas A. Blend's bounded Army-entry occupations without naming
+employers. Institutional sources support David H. Blee's Army Corps of
+Engineers predecessor and Harvard Law student status; Carl W. Blegen's
+University of Cincinnati employment; and Margaret J. Blegen's qualified
+University of Minnesota student affiliation. Five unsupported identities
+remain explicit archival-review cases.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,337 pages. The internal-link checker passed all 24,337 HTML
+files and inventoried 49,083 unique external URLs. The focused Batch 223
+regression passed 3 / 3 across desktop, phone, and tablet, and the complete
+711 / 711 browser and axe matrix passed locally. The production dependency
+audit found zero vulnerabilities.
+
+Consecutive local production-site builds produced the identical complete-site
+digest
+`6cdb6411923c3ae1ff96ffb924c41185ef7d0cfa2ff9871bea27547eb7513bb3`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values in the source and built trees; the manifest SHA-256 is
+`bf8a192e6f7502adfb065d2b90879b8022e96a9716639760807d887f60d54fc1`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,006 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,407 production artifacts. No
+authenticated NARA Catalog API request was made.
 
 ## Batch 222 production verification
 
