@@ -11,6 +11,16 @@ accessibility routes reported no serious or critical axe violations.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 220 adds a focused direct-route regression for John F. Blake through
+Frank T. Blanas in Box 60 on PDF page 39. It checks all ten indexed names,
+literal ranks or civilian grades, public-safe identifier masking, identity and
+research states, and the distinction between terminal employer-gap language
+and nonterminal review language. It separately verifies two bounded Army-entry
+statuses, Thomas J. Blakely's post-OSS date boundary, Emily Blanas's qualified
+identity evidence, and Frank T. Blanas's explicit Army-to-OSS transition
+without assigning the preceding interviewee's occupation to him. The focused
+local matrix passed 3 / 3; the complete 702-case matrix runs in release CI.
+
 Batch 219 adds a focused direct-route regression for John A. Blair through
 Frank W. Blake across Boxes 59-60 on PDF page 39. It checks all ten indexed
 names, literal ranks or civilian grades, public-safe identifier masking,

@@ -13,29 +13,29 @@ Run: 2026-08-08 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`0190b473b1c813d7b0121b60e62d81aceb11793f7be987dd9e7879cfd0f424a7`)
-- Latest deterministic build (Batch 219): **byte-for-byte identical** across
+  (`7c9c94cc64fd1c2b52501c4bf86a1b6f3856ee875d1d78e5c180470845084b4a`)
+- Latest deterministic build (Batch 220): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `e0e592e98e4c586d2289c4ece5e234b4dca32e4a43d6ce43300e00c2c3f06a4e`
+  `e8204856b41bc102c384c407f8001fcfaee5500a5765e77deef8df21eceb5ced`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
   matches** in **24,399** production artifacts, including compressed mirrors;
-  **1,002** candidate substrings were reviewed.
+  **1,000** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,534** public records representing **1,164** unique documents
-- Private citation records: **2,539**
-- Published, qualified, or conflict-visible affiliations: **814**
-- Published or conflict-visible claims: **1,588**
-- Verified-affiliation metric: **315** people with confirmed/high published
+- Reviewed public sources: **1,540** public records representing **1,167** unique documents
+- Private citation records: **2,545**
+- Published, qualified, or conflict-visible affiliations: **817**
+- Published or conflict-visible claims: **1,596**
+- Verified-affiliation metric: **318** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **172** people with confirmed/high published
   employment or self-employment evidence
@@ -117,6 +117,40 @@ Run: 2026-08-08 UTC
   browser matrix passed on the clean GitHub Actions runner
 - Batch 219 production verification: **passed**; the complete **699-case**
   browser matrix passed on the clean GitHub Actions runner
+- Batch 220 local release checks: **passed**; the focused **3-case** regression
+  passed and the complete **702-case** browser matrix runs in release CI
+
+## Batch 220 local release check
+
+Batch 220 adds the ten visually checked page-39 source rows from John F. Blake
+through Frank T. Blanas in Box 60. The strict evidence bundle imports six
+sources, three affiliations, eight claims, eighteen claim-source links, ten
+person updates, and ten durable research attempts. Exact private-identifier
+matches confirm Thomas J. Blakely, Thomas P. Blakenship/Blankenship, and
+Hershell O. Blakley/Hershel. A declassified OSS letter supports Emily Blanas's
+high-confidence identity without establishing an employer. A direct OSS
+interview explicitly places Frank T. Blanas on Army active duty before his OSS
+assignment, while the preceding interviewee's occupation remains excluded.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,329 pages. The internal-link checker passed all 24,329 HTML
+files and inventoried 49,065 unique external URLs. The focused Batch 220
+regression passed 3 / 3 across desktop, phone, and tablet. The production
+dependency audit found zero vulnerabilities.
+
+Consecutive local production-site builds produced the identical complete-site
+digest
+`7c9c94cc64fd1c2b52501c4bf86a1b6f3856ee875d1d78e5c180470845084b4a`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values in both the source and built trees; the manifest SHA-256 is
+`e8204856b41bc102c384c407f8001fcfaee5500a5765e77deef8df21eceb5ced`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,000 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,399 production artifacts. No
+authenticated NARA Catalog API request was made. The complete 702-case browser
+and axe matrix remains assigned to the clean release runner.
 
 ## Batch 219 production verification
 

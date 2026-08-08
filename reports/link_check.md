@@ -12,8 +12,33 @@ The build includes 23,940 person profiles, 381 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,064 unique external URLs for separate live
+The checker inventoried 49,065 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 220 local release check
+
+The complete 24,329-page internal-link pass includes direct routes for John F.
+Blake through Frank T. Blanas in Box 60 on PDF page 39. The 69-test Python
+suite, deterministic 200-profile audit, and focused 3-case desktop, phone, and
+tablet regression passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities. The complete
+702-case browser and axe matrix runs in release CI.
+
+The regression verifies all ten indexed rows, literal ranks or civilian
+grades, public-safe identifier masking, identity and research states, and
+terminal versus nonterminal employer-gap language. It separately checks two
+bounded Army-entry statuses, one post-OSS identity-only record, Emily Blanas's
+qualified identity evidence, and Frank T. Blanas's explicit Army-to-OSS
+transition without misassigning the preceding interviewee's occupation.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,000
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`e8204856b41bc102c384c407f8001fcfaee5500a5765e77deef8df21eceb5ced`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`7c9c94cc64fd1c2b52501c4bf86a1b6f3856ee875d1d78e5c180470845084b4a`.
 
 ## Batch 219 production check
 

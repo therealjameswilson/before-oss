@@ -19311,3 +19311,101 @@ test("Batch 219 publishes page 39 Blair-Blake statuses without inferring employe
   await expect(page.locator("main")).toContainText("different private identifier");
   await expect(page.locator("main")).toContainText("absent from the electronic merged file");
 });
+
+test("Batch 220 publishes page 39 Blake-Blanas pathways with claim boundaries", async ({
+  page,
+}) => {
+  const profiles = [
+    ["43ca8024-7e0c-5fa0-a2d6-9cb67a5e65f0", "John F Blake", "2nd Lt", true],
+    ["8b9b369d-d494-591f-8e71-787179265ead", "Maria C Blake", "Caf-2", false],
+    ["a5f62f59-f4e9-5740-9e0f-1f1234620707", "Peter Blake", "Not printed", false],
+    ["5514f7ee-2ae5-521f-990e-e8bee27747eb", "Thomas J Blakely", "Cpl", true],
+    ["1251781a-5b3e-52f9-a890-969f5eeb8a4e", "Marcus W Blakemore", "Pvt", false],
+    ["0fd69262-b78b-5c26-b001-c51eadcc58f3", "Thomas L Blakemore", "1st Lt", true],
+    ["23a1c718-7993-5a27-a3a7-32235ed54cad", "Thomas P Blakenship", "Cpl", true],
+    ["f29084cb-80f2-51cc-8146-0f9aab1fbd61", "Hershell O Blakley", "Cpl", true],
+    ["dbf07ffc-7723-5697-9a4d-4b61745a872c", "Emily Blanas", "Caf-5", false],
+    ["c9d8232c-b69d-5ff6-b554-4d0a4139217d", "Frank T Blanas", "Capt", true],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 39");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("60");
+  }
+
+  for (const [personId, occupation] of [
+    [
+      "23a1c718-7993-5a27-a3a7-32235ed54cad",
+      "Student; institution not identified in Army record",
+    ],
+    ["f29084cb-80f2-51cc-8146-0f9aab1fbd61", "Farm hand, general farms"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5514f7ee-2ae5-521f-990e-e8bee27747eb/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("after OSS dissolution");
+
+  await page.goto("./people/dbf07ffc-7723-5697-9a4d-4b61745a872c/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "Miss Emily Blanas if she comes would have to work in another office",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/c9d8232c-b69d-5ff6-b554-4d0a4139217d/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Infantry officer on active duty",
+  );
+  await expect(page.locator("main")).toContainText("Assigned to OSS October 1943");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const [personId, identity, status] of [
+    ["43ca8024-7e0c-5fa0-a2d6-9cb67a5e65f0", "ambiguous", "needs identity review"],
+    ["1251781a-5b3e-52f9-a890-969f5eeb8a4e", "probable", "needs identity review"],
+    ["0fd69262-b78b-5c26-b001-c51eadcc58f3", "ambiguous", "needs identity review"],
+    ["8b9b369d-d494-591f-8e71-787179265ead", "unresolved", "requires archival review"],
+    ["a5f62f59-f4e9-5740-9e0f-1f1234620707", "unresolved", "requires archival review"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      status === "requires archival review"
+        ? "No reliable pre-OSS employer has yet been identified"
+        : "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  await page.goto("./people/43ca8024-7e0c-5fa0-a2d6-9cb67a5e65f0/");
+  await expect(page.locator("main")).toContainText("unconfirmed candidate");
+
+  await page.goto("./people/0fd69262-b78b-5c26-b001-c51eadcc58f3/");
+  await expect(page.locator("main")).toContainText("not assigned solely on the name");
+});

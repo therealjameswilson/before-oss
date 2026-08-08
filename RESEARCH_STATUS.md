@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,989 people with a non-planned attempt | 23,940 active person entities | 8.3083% |
-| Verified-affiliation coverage | 315 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3158% |
+| Research-attempt coverage | 1,999 people with a non-planned attempt | 23,940 active person entities | 8.3500% |
+| Verified-affiliation coverage | 318 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3283% |
 | Verified-employer coverage | 172 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7185% |
-| Archival-review coverage | 1,938 people with an individual file-access/priority assessment | 23,940 active person entities | 8.0952% |
+| Archival-review coverage | 1,948 people with an individual file-access/priority assessment | 23,940 active person entities | 8.1370% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 253
-- Identity status `high_confidence`: 397
-- Identity status `probable`: 65
-- Identity status `ambiguous`: 29
+- Identity status `confirmed`: 257
+- Identity status `high_confidence`: 398
+- Identity status `probable`: 66
+- Identity status `ambiguous`: 31
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,174
+- Identity status `unresolved`: 23,166
 
 ## Personnel categories
 
@@ -45,19 +45,19 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,177 yes; 5,085 no; 16,678 indeterminate.
+Commissioned classification: 2,177 yes; 5,086 no; 16,677 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,951
+- `not_started`: 21,941
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 31
-- `needs_temporal_review`: 5
+- `needs_identity_review`: 34
+- `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 226
-- `requires_archival_review`: 1,368
-- `completed`: 68
+- `occupation_only_found`: 228
+- `requires_archival_review`: 1,371
+- `completed`: 69
 - `conflicting_sources`: 22
 - `verified_employer_found`: 170
 - Stratified pilot size: 75
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,085 no; 16,678 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,763. The detailed adapter breakdown remains reproducible in
+  adapters: 1,773. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 762 across 736 people; 85 additional
+- Saved `source_reviewed` outcomes: 767 across 741 people; 88 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,209
+- Total recorded attempts/plans: 3,219
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 716; 694 have at least one public-eligible
+- People with saved reviewed claims: 721; 699 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2432,6 +2432,27 @@ Commissioned classification: 2,177 yes; 5,085 no; 16,678 indeterminate.
   and Rose M. Bivens remain unresolved archival-review cases. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
+- Batch 220 covers the next ten contiguous rows on page thirty-nine, John F.
+  Blake through Frank T. Blanas, all indexed in Box 60. The index page and the
+  relevant official Army field-layout and occupation-code pages were checked
+  visually. Exact private-identifier matches confirm Thomas J. Blakely, Thomas
+  P. Blakenship, and Hershell O. Blakley; the Army file spells the latter two
+  surnames or given names as Blankenship and Hershel. Thomas J. Blakely's Army
+  record postdates OSS dissolution and is used for identity only. The other two
+  dated Army-entry records support student status at an unnamed institution
+  and general-farm-hand work without naming an employer or farm. A declassified
+  OSS administrative letter supports a high-confidence Emily Blanas identity
+  but does not establish a pre-OSS employer or completed chronology. A direct
+  OSS interview confirms Captain Frank T. Blanas and explicitly places Army
+  Reserve active duty in June 1942 before his October 1943 OSS assignment; the
+  United States Army is therefore published as his immediate pre-OSS military
+  affiliation, not as a civilian employer. The preceding interview sentence
+  about an architect and coffee-plant operator belongs to another interviewee
+  and is not assigned to Blanas. John F. Blake, Marcus W. Blakemore, and Thomas
+  L. Blakemore retain qualified identity candidates pending Box 60 review;
+  Maria C. Blake and Peter Blake remain unresolved. No authenticated Catalog
+  request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
 - Batch 219 covers the next ten contiguous rows on page thirty-nine, John A.
   Blair through Frank W. Blake, spanning Boxes 59-60. The index page and the
   relevant official Army technical-documentation and occupation-code pages
@@ -2517,12 +2538,12 @@ Commissioned classification: 2,177 yes; 5,085 no; 16,678 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 814 (published, qualified, or conflict-visible)
-- Database claims: 1,619; public-visible claims: 1,588 (362 confirmed, 843 high,
+- Public-visible affiliations: 817 (published, qualified, or conflict-visible)
+- Database claims: 1,627; public-visible claims: 1,596 (369 confirmed, 844 high,
   351 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,564 total and 3,498 public-visible; private source
-  records: 2,539; public source export: 1,534; unique source documents: 1,164
+- Claim-source links: 3,582 total and 3,516 public-visible; private source
+  records: 2,545; public source export: 1,540; unique source documents: 1,167
 - Canonical organizations: 391 private and 381 public
 - Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,808
@@ -2563,6 +2584,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-john-blake-through-frank-blanas-pathways_batch-220_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-john-blair-through-frank-blake-pathways_batch-219_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-edith-blackmon-through-henry-blair-pathways_batch-218_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-thirty-eight-thirty-nine-robert-black-through-sidney-blackman-pathways_batch-217_2026-08-08.json
