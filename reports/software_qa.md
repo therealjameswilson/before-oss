@@ -5,39 +5,39 @@ Run: 2026-08-08 UTC
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,329 pages**
-- Internal link check: **24,329 HTML files passed**
-- Complete browser and accessibility matrix: **705 / 705 passed** on the clean
+- Static production build: **24,336 pages**
+- Internal link check: **24,336 HTML files passed**
+- Complete browser and accessibility matrix: **708 / 708 passed** on the clean
   GitHub Actions runner across desktop, phone, and tablet, with no serious or
   critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`a6fb47465d4935bbc479eca108bd71630d288a68219c7adfb1261da942d56013`)
-- Latest deterministic build (Batch 221): **byte-for-byte identical** across
+  (`307ad737439950df5891bd1cd0d755b1d342b63d92d25afce4f49bd3f9f65b09`)
+- Latest deterministic build (Batch 222): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `2fbfea44e8eabce8e7ce9d8a075c8c1d54dbe3ca2560c43921630695b9fd3c6e`
+  `2bc7b10110ac8c1f0d0be76267d451b5b90b53c88c8f66c37326ea1c5472e211`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,399** production artifacts, including compressed mirrors;
-  **1,000** candidate substrings were reviewed.
+  matches** in **24,406** production artifacts, including compressed mirrors;
+  **1,002** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,545** public records representing **1,168** unique documents
-- Private citation records: **2,550**
-- Published, qualified, or conflict-visible affiliations: **819**
-- Published or conflict-visible claims: **1,602**
-- Verified-affiliation metric: **320** people with confirmed/high published
+- Reviewed public sources: **1,553** public records representing **1,172** unique documents
+- Private citation records: **2,558**
+- Published, qualified, or conflict-visible affiliations: **833**
+- Published or conflict-visible claims: **1,621**
+- Verified-affiliation metric: **325** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **172** people with confirmed/high published
+- Verified-employer metric: **174** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -121,6 +121,54 @@ Run: 2026-08-08 UTC
   browser matrix passed on the clean GitHub Actions runner
 - Batch 221 production verification: **passed**; the focused **3-case**
   regression and complete **705-case** browser matrix passed
+- Batch 222 production verification: **passed**; the focused **3-case**
+  regression and complete **708-case** browser matrix passed
+
+## Batch 222 production verification
+
+Batch 222 adds the ten visually checked source rows from Richard F. Blandin
+through John A. Blatnick across PDF pages 39-40 and Boxes 60-61. The strict
+evidence bundle imports eight sources, ten organizations, fourteen
+affiliations, nineteen claims, thirty-five claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier matches
+support three bounded Army-entry occupation or student findings without naming
+employers. Institutional sources support Heber Blankenhorn's Army, National
+Labor Relations Board, civil-service research, newspaper, and labor-research
+pathways. An official House biography supports the high-confidence John A.
+Blatnick/John Anton Blatnik identity and documented Minnesota pathways without
+inferring a direct sequence into OSS service. Five unsupported identities
+remain explicit archival-review cases.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,336 pages. The internal-link checker passed all 24,336 HTML
+files and inventoried 49,076 unique external URLs. The focused Batch 222
+regression passed 3 / 3 across desktop, phone, and tablet. The complete
+708 / 708 matrix passed on the clean GitHub Actions runner. The production
+dependency audit found zero vulnerabilities.
+
+Consecutive local production-site builds produced the identical complete-site
+digest
+`307ad737439950df5891bd1cd0d755b1d342b63d92d25afce4f49bd3f9f65b09`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values in the source, built, and deployed trees; the manifest SHA-256 is
+`2bc7b10110ac8c1f0d0be76267d451b5b90b53c88c8f66c37326ea1c5472e211`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,002 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,406 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+Test workflow
+[31268373049](https://github.com/therealjameswilson/before-oss/actions/runs/31268373049)
+and Pages workflow
+[31268373066](https://github.com/therealjameswilson/before-oss/actions/runs/31268373066)
+completed successfully. The cache-busted live manifest and all 65 published
+data assets matched the local release exactly. The home page and direct Heber
+Blankenhorn and John A. Blatnick profile routes returned HTTP 200 with the
+expected evidence and uncertainty boundaries. The test run's only annotation
+was the non-failing GitHub Actions notice that Node 20-based actions are being
+forced onto Node 24.
 
 ## Batch 221 production verification
 

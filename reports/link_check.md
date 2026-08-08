@@ -4,16 +4,55 @@ Run: 2026-08-08 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,329 HTML files. Every relative
+**PASS.** The production build contains 24,336 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 381 organization profiles, and the
+The build includes 23,940 person profiles, 388 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,066 unique external URLs for separate live
+The checker inventoried 49,076 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 222 production check
+
+The complete 24,336-page internal-link pass includes direct routes for Richard
+F. Blandin through John A. Blatnick across PDF pages 39-40. The 69-test Python
+suite, deterministic 200-profile audit, and focused 3-case desktop, phone, and
+tablet regression passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities. The complete
+708 / 708 browser and axe matrix passed on the clean release runner.
+
+The regression verifies all ten indexed rows, literal ranks or civilian
+grades, Boxes 60-61, public-safe identifier masking, identity and research
+states, and employer-gap wording. It separately checks Heber Blankenhorn's
+Army, National Labor Relations Board, civil-service research, newspaper, and
+labor-research pathways; John A. Blatnick's documented John Anton Blatnik
+variant and Minnesota pathways; and three bounded Army-entry occupation or
+student findings. Five unsupported identities remain explicit archival-review
+cases, and rejected rank-, date-, or identifier-mismatched namesakes are not
+promoted.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,406 artifacts, reviewed 1,002
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`2bc7b10110ac8c1f0d0be76267d451b5b90b53c88c8f66c37326ea1c5472e211`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`307ad737439950df5891bd1cd0d755b1d342b63d92d25afce4f49bd3f9f65b09`.
+
+Test workflow
+[31268373049](https://github.com/therealjameswilson/before-oss/actions/runs/31268373049)
+and Pages workflow
+[31268373066](https://github.com/therealjameswilson/before-oss/actions/runs/31268373066)
+completed successfully. The cache-busted live manifest and all 65 published
+data assets matched the local release exactly. The home page and direct Heber
+Blankenhorn and John A. Blatnick profile checks returned HTTP 200 with the
+expected identity, employment, and evidence-boundary language. The test run's
+only annotation was the non-failing GitHub Actions notice that Node 20-based
+actions are being forced onto Node 24.
 
 ## Batch 221 production check
 
