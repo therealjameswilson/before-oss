@@ -2528,6 +2528,12 @@ Commissioned classification: 2,178 yes; 5,096 no; 16,666 indeterminate.
   cases. The famous cartoonist Herbert Block was rejected as a namesake. No
   authenticated Catalog request, credential, raw API response, full private
   identifier, or unsupported employer claim was used or published.
+  Release `3c2aa42` passed GitHub test workflow 31276840358 and Pages workflow
+  31276840351. The clean runner passed 69 Python tests, all 717 browser and
+  accessibility cases, the 24,340-page internal-link check, and the full public-
+  identifier audit with zero aggregate, manifest-size, or unexpected-boundary
+  matches. Cache-busted production checks confirmed the current home-page
+  coverage and five representative Batch 225 profiles.
 - Batch 221 covers the next ten contiguous rows on page thirty-nine, Helen B.
   Blanchard through Louis Blandin, all indexed in Box 60. The index page and
   the relevant official Army field-layout and occupation-code pages were
