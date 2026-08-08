@@ -12,8 +12,36 @@ The build includes 23,940 person profiles, 381 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,065 unique external URLs for separate live
+The checker inventoried 49,066 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 221 local release check
+
+The complete 24,329-page internal-link pass includes direct routes for Helen B.
+Blanchard through Louis Blandin in Box 60 on PDF page 39. The 69-test Python
+suite, deterministic 200-profile audit, and focused 3-case desktop, phone, and
+tablet regression passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities. The established
+702-case browser and axe matrix also passed, while the expanded complete
+705-case matrix runs in release CI.
+
+The regression verifies all ten indexed rows, literal ranks or civilian
+grades, public-safe identifier masking, identity and research states, and
+employer-gap wording. It separately checks Roland O. Blanchard's and Joseph C.
+Blanchette's bounded occupation groups, William R. Blanchard's late-1945
+identity-only record, Louis Blandin's documented Jean Crémieux alias and radio
+role, and six unresolved archival-review profiles. No broad occupation, OSS-
+era mission role, later namesake, or nonmatching military record is converted
+into a verified employer or identity.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,000
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`2fbfea44e8eabce8e7ce9d8a075c8c1d54dbe3ca2560c43921630695b9fd3c6e`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`a6fb47465d4935bbc479eca108bd71630d288a68219c7adfb1261da942d56013`.
 
 ## Batch 220 production check
 

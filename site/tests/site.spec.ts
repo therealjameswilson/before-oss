@@ -19409,3 +19409,85 @@ test("Batch 220 publishes page 39 Blake-Blanas pathways with claim boundaries", 
   await page.goto("./people/0fd69262-b78b-5c26-b001-c51eadcc58f3/");
   await expect(page.locator("main")).toContainText("not assigned solely on the name");
 });
+
+test("Batch 221 publishes page 39 Blanchard-Blandin pathways without inventing employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["17890db5-32c1-5c36-b9a1-36c3a91bd21d", "Helen B Blanchard", "CPC-2", false],
+    ["d176be86-faaa-5afb-8bcf-66b1406ea54f", "Roland O Blanchard", "Pfc", true],
+    ["fa0b5229-197a-53d2-b656-fe7ee979e983", "William R Blanchard", "Sgt", true],
+    ["c5d5799c-0bb2-504b-947a-f91b23336ff1", "Joseph C Blanchette", "Not printed", true],
+    ["86452354-1893-5dbd-b81d-792f089cfb7e", "Charles R Blanck", "Cpl", true],
+    ["6bbfa410-5a5f-5a26-853f-c4090fda1072", "Alice P Bland", "Not printed", false],
+    ["4ea72f00-a576-559f-afcb-4dc56878bd84", "Carol P Bland", "S 1/c", true],
+    ["2062344b-40fc-563c-97bf-b51e2a834bbc", "Rogers L Bland", "Not printed", false],
+    ["8652582c-ff27-5d76-a491-fbffdbeda506", "Thomas Bland", "Not printed", false],
+    ["06ff5bf6-c0f1-5c09-804a-bdd4569f7f2c", "Louis Blandin", "S/Lt", false],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 39");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("60");
+  }
+
+  for (const [personId, occupation] of [
+    ["d176be86-faaa-5afb-8bcf-66b1406ea54f", "Machine shop and related occupations, n.e.c."],
+    [
+      "c5d5799c-0bb2-504b-947a-f91b23336ff1",
+      "Nonprocess occupations in manufacturing, n.e.c.",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/fa0b5229-197a-53d2-b656-fe7ee979e983/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("final weeks before OSS dissolution");
+
+  await page.goto("./people/06ff5bf6-c0f1-5c09-804a-bdd4569f7f2c/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jean Crémieux");
+  await expect(page.locator("main")).toContainText("radio operator");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "17890db5-32c1-5c36-b9a1-36c3a91bd21d",
+    "86452354-1893-5dbd-b81d-792f089cfb7e",
+    "6bbfa410-5a5f-5a26-853f-c4090fda1072",
+    "4ea72f00-a576-559f-afcb-4dc56878bd84",
+    "2062344b-40fc-563c-97bf-b51e2a834bbc",
+    "8652582c-ff27-5d76-a491-fbffdbeda506",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/86452354-1893-5dbd-b81d-792f089cfb7e/");
+  await expect(page.locator("main")).toContainText("no exact match");
+
+  await page.goto("./people/4ea72f00-a576-559f-afcb-4dc56878bd84/");
+  await expect(page.locator("main")).toContainText("not applicable to the naval identifier");
+});

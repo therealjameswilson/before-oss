@@ -1,0 +1,621 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS reviewed research workflow, batch 221",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-39-batch221",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 60",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 39, rows 32-41; Helen B. Blanchard through Louis Blandin; visually checked at original resolution",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch221",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier matches accepted for Roland O. Blanchard, William R. Blanchard, and Joseph C. Blanchette; no exact match found for Charles R. Blanck; naval identifiers were not tested as Army records",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch221",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 45-46: enlistment-card fixed-width positions for name, enlistment date, grade, birth year, education, and civilian occupation; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines an enlistment file and warns that merged records contain interpreted fields and gaps. Civilian occupation was recorded at Army entry and does not name an employer."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch221",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, physical PDF page 177, codes 4-78 and 9-63; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The codes identify broad occupation groups only and do not establish an employer, workplace, exact duties, or Army-to-OSS sequence."
+    },
+    {
+      "key": "promotion-vercors-pierre-fauroux-louis-blandin",
+      "stable_url": "https://www.promotionvercors.fr/Adherents/Articles/Fauroux.pdf",
+      "archival_identifier": null,
+      "title": "Capitaine Pierre Jean Fauroux (Promotion Charles de Foucauld), 18 mars 1921 - 5 octobre 2010",
+      "author_creator": null,
+      "repository_publisher": "Promotion Vercors",
+      "publication_record_date": "2020",
+      "locator": "Physical PDF pages 1-2, Mission SUSSEX OSSEX JUSTICE; text and 300-dpi page render visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Biographical articles on French military alumni",
+      "rights_notes": "Institutional biographical article based on Pierre Fauroux family archives and the SUSSEX Justice mission dossier. Only the short passage needed for identity resolution is quoted."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "roland-o-blanchard-machine-shop-group-batch221",
+      "person_id": "d176be86-faaa-5afb-8bcf-66b1406ea54f",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Machine shop and related occupations, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-07",
+      "date_precision": "Recorded at Army entry on June 7, 1943; no employer or start date is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact private identifier confirms identity. The coded Army-entry occupation is not a named employer and does not by itself establish the later Army-to-OSS chronology."
+    },
+    {
+      "key": "joseph-c-blanchette-nonprocess-manufacturing-group-batch221",
+      "person_id": "c5d5799c-0bb2-504b-947a-f91b23336ff1",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Nonprocess occupations in manufacturing, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-02-25",
+      "date_precision": "Recorded at Army entry on February 25, 1943; no employer or start date is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact private identifier confirms identity. The coded Army-entry occupation is broad and does not name an employer, workplace, or exact task."
+    }
+  ],
+  "claims": [
+    {
+      "key": "roland-o-blanchard-confirmed-identity-batch221",
+      "person_id": "d176be86-faaa-5afb-8bcf-66b1406ea54f",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Private First Class Roland O. Blanchard is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "BLANCHARD ROLAND O",
+      "evidence_paraphrase": "The official Army merged file contains an exact full-name and private-identifier match for Roland O. Blanchard.",
+      "identity_match_assessment": "The full name, middle initial, and exact private identifier confirm identity.",
+      "temporal_assessment": "The Army record documents entry on June 7, 1943; its private entry grade differs from the later index grade and no promotion is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld publicly. The rank difference is preserved as a temporal difference rather than treated as an error.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-39-batch221",
+          "support_type": "supports",
+          "locator_override": "PDF page 39, row 33",
+          "excerpt_override": "BLANCHARD ROLAND O PFC"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch221",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch221",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "roland-o-blanchard-machine-shop-claim-batch221",
+      "person_id": "d176be86-faaa-5afb-8bcf-66b1406ea54f",
+      "affiliation_key": "roland-o-blanchard-machine-shop-group-batch221",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on June 7, 1943, Roland O. Blanchard's recorded civilian occupation group was machine shop and related occupations, not elsewhere classified.",
+      "evidence_excerpt": "4 78 Machine shop and related occupations, n.e.c.",
+      "evidence_paraphrase": "NARA's fixed-width Army record carries occupation code 478, which the official code list defines as machine shop and related occupations, n.e.c.",
+      "identity_match_assessment": "The exact private identifier links the Army record to the indexed Roland O. Blanchard.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded pre-service evidence, but it names no employer and gives no OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No company, shop, workplace, exact occupation, or employment relationship is named. The occupation is excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch221",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch221",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch221",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "william-r-blanchard-confirmed-identity-batch221",
+      "person_id": "fa0b5229-197a-53d2-b656-fe7ee979e983",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sergeant William R. Blanchard is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "BLANCHARD WILLIAM R",
+      "evidence_paraphrase": "The official Army merged file contains an exact full-name and private-identifier match for William R. Blanchard.",
+      "identity_match_assessment": "The full name, middle initial, and exact private identifier confirm identity.",
+      "temporal_assessment": "The Army record is dated September 20, 1945, in the final weeks before OSS dissolution; it cannot establish a pre-OSS occupation or employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld publicly. The record's private-first-class grade differs from the index's sergeant grade; no sequence or promotion is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-39-batch221",
+          "support_type": "supports",
+          "locator_override": "PDF page 39, row 34",
+          "excerpt_override": "BLANCHARD WILLIAM R SGT"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch221",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch221",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "joseph-c-blanchette-confirmed-identity-batch221",
+      "person_id": "c5d5799c-0bb2-504b-947a-f91b23336ff1",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph C. Blanchette is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "BLANCHETTE JOSEPH C",
+      "evidence_paraphrase": "The official Army merged file contains an exact full-name and private-identifier match for Joseph C. Blanchette.",
+      "identity_match_assessment": "The full name, middle initial, and exact private identifier confirm identity despite the index omitting a rank.",
+      "temporal_assessment": "The Army record documents entry as a private on February 25, 1943; it does not state the later OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld publicly. The official Army record supports enlisted-Army classification without overwriting the index's blank rank field.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-39-batch221",
+          "support_type": "supports",
+          "locator_override": "PDF page 39, row 35",
+          "excerpt_override": "BLANCHETTE JOSEPH C"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch221",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch221",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "joseph-c-blanchette-nonprocess-manufacturing-claim-batch221",
+      "person_id": "c5d5799c-0bb2-504b-947a-f91b23336ff1",
+      "affiliation_key": "joseph-c-blanchette-nonprocess-manufacturing-group-batch221",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on February 25, 1943, Joseph C. Blanchette's recorded civilian occupation group was nonprocess occupations in manufacturing, not elsewhere classified.",
+      "evidence_excerpt": "9 63 Nonprocess occupations in manufacturing, n.e.c.",
+      "evidence_paraphrase": "NARA's fixed-width Army record carries occupation code 963, which the official code list defines as nonprocess occupations in manufacturing, n.e.c.",
+      "identity_match_assessment": "The exact private identifier links the Army record to the indexed Joseph C. Blanchette.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded pre-service evidence, but it names no employer and gives no OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No manufacturer, workplace, exact occupation, or employment relationship is named. The broad occupation group is excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch221",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch221",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch221",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "louis-blandin-high-confidence-identity-batch221",
+      "person_id": "06ff5bf6-c0f1-5c09-804a-bdd4569f7f2c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed French Louis Blandin is strongly matched to Louis Blandin, alias Jean Crémieux, radio operator on the OSS-SIS Sussex Justice mission.",
+      "evidence_excerpt": "Louis BLANDIN alias Jean CRÉMIEUX (badge n°38), son radio",
+      "evidence_paraphrase": "An institutional history of Pierre Fauroux's Sussex Justice mission names Louis Blandin, alias Jean Crémieux, as Fauroux's radio operator.",
+      "identity_match_assessment": "High confidence based on the rare exact name, French identity, compatible military context, and direct participation in an OSS-SIS mission; no private identifier is available online.",
+      "temporal_assessment": "The article documents Blandin's June 1944 OSS-era mission role, not his occupation or institutional affiliation before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Jean Crémieux is retained as a documented mission alias. The mission role is not repurposed as evidence of a pre-OSS employer or immediate predecessor affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-39-batch221",
+          "support_type": "supports",
+          "locator_override": "PDF page 39, row 41",
+          "excerpt_override": "BLANDIN LOUIS S/LT FRENCH"
+        },
+        {
+          "source_key": "promotion-vercors-pierre-fauroux-louis-blandin",
+          "support_type": "supports",
+          "locator_override": "Physical PDF pages 1-2, Mission SUSSEX OSSEX JUSTICE",
+          "excerpt_override": "Louis BLANDIN alias Jean CRÉMIEUX (badge n°38), son radio"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "17890db5-32c1-5c36-b9a1-36c3a91bd21d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Helen B. Blanchard, civilian grade CPC-2, and Box 60 but no private identifier. Public NARA and CIA context, exact-name OSS variants, Library of Congress current API searching, and employment, occupation, newspaper, obituary, directory, institutional, and archival checks did not establish a candidate with two corroborating wartime identifiers.",
+      "name_variants": ["Helen B Blanchard", "Helen B. Blanchard", "Blanchard, Helen B."],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 to establish Helen B. Blanchard's full identity, CPC-2 duties, and pre-OSS employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d176be86-faaa-5afb-8bcf-66b1406ea54f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share Roland O. Blanchard's exact full name and private identifier. The Army record documents entry on June 7, 1943, as a private and occupation code 478; the later index lists Private First Class.",
+      "name_variants": ["Roland O Blanchard", "Roland O. Blanchard", "Blanchard, Roland O."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record establishes the broad machine-shop occupation group but names no employer or exact occupation. Review Box 60 for a named civilian employer and the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fa0b5229-197a-53d2-b656-fe7ee979e983",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share William R. Blanchard's exact full name and private identifier. The electronic Army record is dated September 20, 1945, in the final weeks before OSS dissolution and lists Private First Class rather than the index's Sergeant; it is used for identity only and not as pre-OSS occupation evidence.",
+      "name_variants": ["William R Blanchard", "William R. Blanchard", "Blanchard, William R."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 and earlier Army records because the exact electronic match is too late to answer the pre-OSS research question.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c5d5799c-0bb2-504b-947a-f91b23336ff1",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share Joseph C. Blanchette's exact full name and private identifier. The Army record documents entry on February 25, 1943, as a private and occupation code 963; the index leaves rank blank.",
+      "name_variants": ["Joseph C Blanchette", "Joseph C. Blanchette", "Blanchette, Joseph C."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record establishes a broad nonprocess-manufacturing occupation group but names no employer or exact task. Review Box 60 for a named civilian employer and the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86452354-1893-5dbd-b81d-792f089cfb7e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Corporal Charles R. Blanck, a private identifier, and Box 60. The official electronic Army merged file contains no exact match to that identifier, and public NARA, CIA, Library of Congress, exact-name OSS, occupation, employment, obituary, directory, institutional, and archival searches did not establish a candidate with two corroborating wartime identifiers.",
+      "name_variants": ["Charles R Blanck", "Charles R. Blanck", "Blanck, Charles R."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 and original Army records to identify Charles R. Blanck and explain the absence from the electronic merged file.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6bbfa410-5a5f-5a26-853f-c4090fda1072",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Alice P. Bland and Box 60, without a rank, grade, or private identifier. Public NARA, CIA, Library of Congress, exact-name OSS, employment, occupation, newspaper, obituary, directory, institutional, and archival searches produced namesakes but no candidate with two corroborating wartime identifiers.",
+      "name_variants": ["Alice P Bland", "Alice P. Bland", "Bland, Alice P."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 to establish Alice P. Bland's full identity, personnel status, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4ea72f00-a576-559f-afcb-4dc56878bd84",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Carol P. Bland, rank S 1/c, a private naval identifier, and Box 60. The Army electronic file is not applicable to the naval identifier, and public NARA, CIA, Library of Congress, exact-name OSS, Navy, employment, occupation, obituary, directory, institutional, and archival checks did not establish a candidate with two corroborating wartime identifiers.",
+      "name_variants": ["Carol P Bland", "Carol P. Bland", "Bland, Carol P."],
+      "personnel_category": "enlisted_naval_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 and Navy personnel records using the withheld naval identifier to establish identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2062344b-40fc-563c-97bf-b51e2a834bbc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Rogers L. Bland and Box 60, without a rank, grade, or private identifier. Public NARA, CIA, Library of Congress, exact-name OSS, employment, occupation, newspaper, obituary, directory, institutional, and archival searches did not establish a candidate with two corroborating wartime identifiers.",
+      "name_variants": ["Rogers L Bland", "Rogers L. Bland", "Bland, Rogers L."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 to establish Rogers L. Bland's full identity, personnel status, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8652582c-ff27-5d76-a491-fbffdbeda506",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Thomas Bland and Box 60, without a middle initial, rank, grade, or private identifier. Public NARA, CIA, Library of Congress, exact-name OSS, employment, occupation, newspaper, obituary, directory, institutional, and archival searches produced numerous namesakes but no candidate with two corroborating wartime identifiers.",
+      "name_variants": ["Thomas Bland", "Bland, Thomas"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 to establish Thomas Bland's full name, personnel status, and pre-OSS chronology before further name-based research.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "06ff5bf6-c0f1-5c09-804a-bdd4569f7f2c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index supplies Louis Blandin, rank S/Lt, the note French, and Box 60. An institutional military biography names the rare exact Louis Blandin as alias Jean Crémieux, radio operator to Pierre Fauroux on the joint OSS-SIS Sussex Justice mission in June 1944. The exact name, French identity, military context, and direct OSS-linked mission establish a high-confidence match, while Box 60 remains necessary for a private identifier and pre-OSS chronology.",
+      "name_variants": ["Louis Blandin", "Blandin, Louis", "Jean Crémieux (documented wartime alias)", "Jean Cremieux (search variant)"],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 60 and French military or Sussex mission records to establish Louis Blandin's full identity, rank expansion, service chronology, and immediate pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "helen-b-blanchard-protocol-batch221",
+      "person_id": "17890db5-32c1-5c36-b9a1-36c3a91bd21d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Helen B. Blanchard; CPC-2; no indexed private identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current API; employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:05:00+00:00",
+      "completed_at": "2026-08-08T15:44:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Genealogy, obituary, directory, and contemporary namesakes lacked CPC-2, Box 60, direct OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "No identity or employer candidate was accepted.",
+      "next_action": "Review Box 60 for identity, CPC-2 duties, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "roland-o-blanchard-protocol-batch221",
+      "person_id": "d176be86-faaa-5afb-8bcf-66b1406ea54f",
+      "source_adapter": "official_bulk_and_manual_review",
+      "query_text": "Roland O. Blanchard; Private First Class; exact private identifier match; official Army merged file and code documentation; public NARA and CIA context; exact-name OSS variants; Library of Congress current API; employment, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:05:00+00:00",
+      "completed_at": "2026-08-08T15:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes lacked the exact private identifier or direct OSS linkage. No source named a company, shop, or exact job for occupation code 478.",
+      "research_notes": "Identity and a broad Army-entry occupation group are confirmed; no employer was accepted.",
+      "next_action": "Review Box 60 for a named employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "william-r-blanchard-protocol-batch221",
+      "person_id": "fa0b5229-197a-53d2-b656-fe7ee979e983",
+      "source_adapter": "official_bulk_and_manual_review",
+      "query_text": "William R. Blanchard; Sergeant; exact private identifier match; official Army merged file and technical documentation; public NARA and CIA context; exact-name OSS variants; Library of Congress current API; employment, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:06:00+00:00",
+      "completed_at": "2026-08-08T15:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "The exact Army record is dated September 20, 1945 and cannot support a pre-OSS occupation. Common-name military, obituary, and directory candidates lacked the exact identifier or OSS linkage.",
+      "research_notes": "Identity is confirmed, but no pre-OSS affiliation or employer was accepted.",
+      "next_action": "Review Box 60 and earlier Army records for pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "joseph-c-blanchette-protocol-batch221",
+      "person_id": "c5d5799c-0bb2-504b-947a-f91b23336ff1",
+      "source_adapter": "official_bulk_and_manual_review",
+      "query_text": "Joseph C. Blanchette; no indexed rank; exact private identifier match; official Army merged file and code documentation; public NARA and CIA context; exact-name OSS variants; Library of Congress current API; employment, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:06:00+00:00",
+      "completed_at": "2026-08-08T15:46:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "A same-name 1922-born Army veteran obituary lacked the indexed private identifier, Box 60, and OSS linkage and had incompatible residence evidence. Other namesakes lacked two corroborating wartime identifiers. No source named an employer for code 963.",
+      "research_notes": "Identity and a broad Army-entry occupation group are confirmed; the tempting obituary namesake was rejected and no employer was accepted.",
+      "next_action": "Review Box 60 for a named employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "charles-r-blanck-protocol-batch221",
+      "person_id": "86452354-1893-5dbd-b81d-792f089cfb7e",
+      "source_adapter": "official_bulk_and_manual_review",
+      "query_text": "Charles R. Blanck; Corporal; private identifier absent from official Army electronic merged file; public NARA and CIA context; exact-name OSS variants; Library of Congress current API; employment, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:07:00+00:00",
+      "completed_at": "2026-08-08T15:46:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No exact identifier match appears in the electronic Army file. Exact-name and variant candidates lacked Box 60, direct OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "The Army electronic-file gap is documented; no identity or employer candidate was accepted.",
+      "next_action": "Review Box 60 and original Army records to identify the person and explain the electronic-file gap.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "alice-p-bland-protocol-batch221",
+      "person_id": "6bbfa410-5a5f-5a26-853f-c4090fda1072",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Alice P. Bland; no indexed rank, grade, or private identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current API; employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:07:00+00:00",
+      "completed_at": "2026-08-08T15:46:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Namesakes lacked a rank, grade, private identifier, Box 60, direct OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "No identity or employer candidate was accepted.",
+      "next_action": "Review Box 60 for full identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "carol-p-bland-protocol-batch221",
+      "person_id": "4ea72f00-a576-559f-afcb-4dc56878bd84",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Carol P. Bland; S 1/c; private naval identifier withheld; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and Navy variants; Library of Congress current API; employment, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:08:00+00:00",
+      "completed_at": "2026-08-08T15:47:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The naval identifier falls outside the Army electronic file. Exact-name Navy, obituary, and directory candidates lacked the identifier, Box 60, direct OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "No identity or employer candidate was accepted.",
+      "next_action": "Review Box 60 and Navy personnel records using the withheld identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "rogers-l-bland-protocol-batch221",
+      "person_id": "2062344b-40fc-563c-97bf-b51e2a834bbc",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Rogers L. Bland; no indexed rank, grade, or private identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current API; employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:08:00+00:00",
+      "completed_at": "2026-08-08T15:47:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and punctuation-variant candidates lacked a rank, private identifier, Box 60, direct OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "No identity or employer candidate was accepted.",
+      "next_action": "Review Box 60 for full identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "thomas-bland-protocol-batch221",
+      "person_id": "8652582c-ff27-5d76-a491-fbffdbeda506",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Thomas Bland; no indexed middle initial, rank, grade, or private identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current API; employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:09:00+00:00",
+      "completed_at": "2026-08-08T15:47:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Numerous military, obituary, directory, genealogy, and contemporary namesakes lacked a middle name, rank, identifier, Box 60, direct OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "The sparse common-name row prevents responsible online identification. No employer candidate was accepted.",
+      "next_action": "Review Box 60 to establish the full name and personnel status before additional name-based research.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    },
+    {
+      "key": "louis-blandin-protocol-batch221",
+      "person_id": "06ff5bf6-c0f1-5c09-804a-bdd4569f7f2c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Louis Blandin; S/Lt; French; Jean Crémieux and Jean Cremieux aliases; Sussex Justice; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and French variants; Library of Congress current API; French Service historique de la Défense; employment, occupation, obituary, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T15:09:00+00:00",
+      "completed_at": "2026-08-08T15:48:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "French military-archive records for René Louis Blandin and Louis Marie Joseph Blandin lack the index's Box 60 or a direct Sussex Justice discriminator and were rejected as unconfirmed namesakes. Research compilations were retained only as discovery leads.",
+      "research_notes": "The rare name, French context, OSS-SIS mission, alias, and radio role establish a high-confidence identity; no pre-OSS employer or immediate affiliation was accepted.",
+      "next_action": "Review Box 60 and French military or Sussex mission files for a private identifier, rank expansion, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch221-v1"
+    }
+  ]
+}

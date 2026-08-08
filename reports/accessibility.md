@@ -11,6 +11,16 @@ accessibility routes reported no serious or critical axe violations.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 221 adds a focused direct-route regression for Helen B. Blanchard through
+Louis Blandin in Box 60 on PDF page 39. It checks all ten indexed names,
+literal ranks or civilian grades, public-safe identifier masking, identity and
+research states, and terminal employer-gap language. It separately verifies
+two bounded Army-entry occupation groups without naming employers, William R.
+Blanchard's late-1945 identity-only boundary, Louis Blandin's high-confidence
+alias and radio-role evidence without treating it as pre-OSS employment, and
+the archival routes for six unresolved profiles. The focused local matrix
+passed 3 / 3; the complete 705-case matrix runs in release CI.
+
 Batch 220 adds a focused direct-route regression for John F. Blake through
 Frank T. Blanas in Box 60 on PDF page 39. It checks all ten indexed names,
 literal ranks or civilian grades, public-safe identifier masking, identity and

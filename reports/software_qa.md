@@ -13,13 +13,13 @@ Run: 2026-08-08 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`7c9c94cc64fd1c2b52501c4bf86a1b6f3856ee875d1d78e5c180470845084b4a`)
-- Latest deterministic build (Batch 220): **byte-for-byte identical** across
+  (`a6fb47465d4935bbc479eca108bd71630d288a68219c7adfb1261da942d56013`)
+- Latest deterministic build (Batch 221): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `e8204856b41bc102c384c407f8001fcfaee5500a5765e77deef8df21eceb5ced`
+  `2fbfea44e8eabce8e7ce9d8a075c8c1d54dbe3ca2560c43921630695b9fd3c6e`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -31,11 +31,11 @@ Run: 2026-08-08 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,540** public records representing **1,167** unique documents
-- Private citation records: **2,545**
-- Published, qualified, or conflict-visible affiliations: **817**
-- Published or conflict-visible claims: **1,596**
-- Verified-affiliation metric: **318** people with confirmed/high published
+- Reviewed public sources: **1,545** public records representing **1,168** unique documents
+- Private citation records: **2,550**
+- Published, qualified, or conflict-visible affiliations: **819**
+- Published or conflict-visible claims: **1,602**
+- Verified-affiliation metric: **320** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **172** people with confirmed/high published
   employment or self-employment evidence
@@ -119,6 +119,43 @@ Run: 2026-08-08 UTC
   browser matrix passed on the clean GitHub Actions runner
 - Batch 220 production verification: **passed**; the complete **702-case**
   browser matrix passed on the clean GitHub Actions runner
+- Batch 221 local release checks: **passed**; the focused **3-case** regression
+  and established **702-case** browser matrix passed locally, and the expanded
+  **705-case** matrix runs in release CI
+
+## Batch 221 local release verification
+
+Batch 221 adds the ten visually checked page-39 source rows from Helen B.
+Blanchard through Louis Blandin in Box 60. The strict evidence bundle imports
+five sources, two occupation-only affiliations, six claims, seventeen claim-
+source links, ten person updates, and ten durable research attempts. Exact
+private-identifier matches confirm Roland O. Blanchard, William R. Blanchard,
+and Joseph C. Blanchette. Roland's and Joseph's dated Army records support only
+broad occupation groups without naming employers. William's September 1945
+record is used for identity only. An institutional French military biography
+supports a high-confidence Louis Blandin identity and the alias Jean Crémieux
+without turning his OSS-era radio role into pre-OSS employment.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,329 pages. The internal-link checker passed all 24,329 HTML
+files and inventoried 49,066 unique external URLs. The focused Batch 221
+regression passed 3 / 3 across desktop, phone, and tablet, and the established
+702-case browser and axe matrix passed. The production dependency audit found
+zero vulnerabilities.
+
+Consecutive local production-site builds produced the identical complete-site
+digest
+`a6fb47465d4935bbc479eca108bd71630d288a68219c7adfb1261da942d56013`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values in both the source and built trees; the manifest SHA-256 is
+`2fbfea44e8eabce8e7ce9d8a075c8c1d54dbe3ca2560c43921630695b9fd3c6e`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,000 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,399 production artifacts. No
+authenticated NARA Catalog API request was made. The expanded complete
+705-case browser and axe matrix runs in release CI.
 
 ## Batch 220 production verification
 

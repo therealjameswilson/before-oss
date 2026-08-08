@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,999 people with a non-planned attempt | 23,940 active person entities | 8.3500% |
-| Verified-affiliation coverage | 318 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3283% |
+| Research-attempt coverage | 2,009 people with a non-planned attempt | 23,940 active person entities | 8.3918% |
+| Verified-affiliation coverage | 320 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3367% |
 | Verified-employer coverage | 172 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7185% |
-| Archival-review coverage | 1,948 people with an individual file-access/priority assessment | 23,940 active person entities | 8.1370% |
+| Archival-review coverage | 1,958 people with an individual file-access/priority assessment | 23,940 active person entities | 8.1788% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 257
-- Identity status `high_confidence`: 398
+- Identity status `confirmed`: 260
+- Identity status `high_confidence`: 399
 - Identity status `probable`: 66
 - Identity status `ambiguous`: 31
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,166
+- Identity status `unresolved`: 23,162
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,476
-- Enlisted Army personnel: 3,524
+- Unknown or indeterminate: 16,475
+- Enlisted Army personnel: 3,525
 - Commissioned Army officers: 2,069
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,177 yes; 5,086 no; 16,677 indeterminate.
+Commissioned classification: 2,177 yes; 5,090 no; 16,673 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,941
+- `not_started`: 21,931
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 34
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 228
-- `requires_archival_review`: 1,371
+- `occupation_only_found`: 230
+- `requires_archival_review`: 1,379
 - `completed`: 69
 - `conflicting_sources`: 22
 - `verified_employer_found`: 170
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,086 no; 16,677 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,773. The detailed adapter breakdown remains reproducible in
+  adapters: 1,783. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 767 across 741 people; 88 additional
+- Saved `source_reviewed` outcomes: 771 across 745 people; 88 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,219
+- Total recorded attempts/plans: 3,229
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 721; 699 have at least one public-eligible
+- People with saved reviewed claims: 725; 703 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2432,6 +2432,30 @@ Commissioned classification: 2,177 yes; 5,086 no; 16,677 indeterminate.
   and Rose M. Bivens remain unresolved archival-review cases. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
+- Batch 221 covers the next ten contiguous rows on page thirty-nine, Helen B.
+  Blanchard through Louis Blandin, all indexed in Box 60. The index page and
+  the relevant official Army field-layout and occupation-code pages were
+  checked visually. Exact private-identifier matches confirm Roland O.
+  Blanchard, William R. Blanchard, and Joseph C. Blanchette without exposing
+  those identifiers. Roland's June 1943 Army-entry record supports only the
+  broad occupation group "machine shop and related occupations, n.e.c.";
+  Joseph's February 1943 record supports only "nonprocess occupations in
+  manufacturing, n.e.c." Neither record names an employer, workplace, exact
+  job, or Army-to-OSS sequence. William's exact record is dated September 20,
+  1945, in the final weeks before OSS dissolution, so it supports identity only
+  and its occupation code is not repurposed as pre-OSS evidence. An
+  institutional French military biography supports a high-confidence match of
+  the rare Louis Blandin entry to Pierre Fauroux's radio operator on the joint
+  OSS-SIS Sussex Justice mission and documents the alias Jean Crémieux; that
+  wartime mission role is not treated as a pre-OSS affiliation. Helen B.
+  Blanchard, Charles R. Blanck, Alice P. Bland, Carol P. Bland, Rogers L.
+  Bland, and Thomas Bland remain unresolved archival-review cases. Charles's
+  private identifier has no exact match in the electronic Army file, while
+  Carol's naval identifier falls outside that Army dataset. A same-name Joseph
+  C. Blanchette obituary and two French military-archive namesakes for Louis
+  Blandin were rejected because they lack the required record linkage. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
 - Batch 220 covers the next ten contiguous rows on page thirty-nine, John F.
   Blake through Frank T. Blanas, all indexed in Box 60. The index page and the
   relevant official Army field-layout and occupation-code pages were checked
@@ -2584,6 +2608,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-blanchard-through-blandin-pathways_batch-221_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-john-blake-through-frank-blanas-pathways_batch-220_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-john-blair-through-frank-blake-pathways_batch-219_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-edith-blackmon-through-henry-blair-pathways_batch-218_2026-08-08.json
