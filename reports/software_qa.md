@@ -7,7 +7,7 @@ Run: 2026-08-08 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,329 pages**
 - Internal link check: **24,329 HTML files passed**
-- Complete browser and accessibility matrix: **702 / 702 passed** on the clean
+- Complete browser and accessibility matrix: **705 / 705 passed** on the clean
   GitHub Actions runner across desktop, phone, and tablet, with no serious or
   critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
@@ -119,11 +119,10 @@ Run: 2026-08-08 UTC
   browser matrix passed on the clean GitHub Actions runner
 - Batch 220 production verification: **passed**; the complete **702-case**
   browser matrix passed on the clean GitHub Actions runner
-- Batch 221 local release checks: **passed**; the focused **3-case** regression
-  and established **702-case** browser matrix passed locally, and the expanded
-  **705-case** matrix runs in release CI
+- Batch 221 production verification: **passed**; the focused **3-case**
+  regression and complete **705-case** browser matrix passed
 
-## Batch 221 local release verification
+## Batch 221 production verification
 
 Batch 221 adds the ten visually checked page-39 source rows from Helen B.
 Blanchard through Louis Blandin in Box 60. The strict evidence bundle imports
@@ -141,8 +140,9 @@ the deterministic 200-profile audit. Astro reported zero errors, warnings, or
 hints and built 24,329 pages. The internal-link checker passed all 24,329 HTML
 files and inventoried 49,066 unique external URLs. The focused Batch 221
 regression passed 3 / 3 across desktop, phone, and tablet, and the established
-702-case browser and axe matrix passed. The production dependency audit found
-zero vulnerabilities.
+702-case browser and axe matrix passed locally. The complete 705 / 705 matrix
+passed on the clean GitHub Actions runner. The production dependency audit
+found zero vulnerabilities.
 
 Consecutive local production-site builds produced the identical complete-site
 digest
@@ -154,8 +154,17 @@ The boundary-aware identifier audit checked 12,926 normalized private
 identifiers and 121 formatted variants, reviewed 1,000 candidate substrings,
 and found zero unexpected boundary matches, aggregate false positives, or
 manifest-size false positives across 24,399 production artifacts. No
-authenticated NARA Catalog API request was made. The expanded complete
-705-case browser and axe matrix runs in release CI.
+authenticated NARA Catalog API request was made.
+
+Test workflow
+[31266282756](https://github.com/therealjameswilson/before-oss/actions/runs/31266282756)
+and Pages workflow
+[31266282750](https://github.com/therealjameswilson/before-oss/actions/runs/31266282750)
+completed successfully. The cache-busted live manifest and all 65 published
+data assets matched the local release exactly. The home page and five direct
+Batch 221 profile routes returned HTTP 200 with the expected evidence and
+uncertainty boundaries. The test run's only annotation was the non-failing
+GitHub Actions notice that Node 20-based actions are being forced onto Node 24.
 
 ## Batch 220 production verification
 

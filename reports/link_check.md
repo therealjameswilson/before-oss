@@ -15,15 +15,14 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,066 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-## Batch 221 local release check
+## Batch 221 production check
 
 The complete 24,329-page internal-link pass includes direct routes for Helen B.
 Blanchard through Louis Blandin in Box 60 on PDF page 39. The 69-test Python
 suite, deterministic 200-profile audit, and focused 3-case desktop, phone, and
 tablet regression passed; Astro reported zero errors, warnings, or hints, and
-the production dependency audit found zero vulnerabilities. The established
-702-case browser and axe matrix also passed, while the expanded complete
-705-case matrix runs in release CI.
+the production dependency audit found zero vulnerabilities. The complete
+705 / 705 browser and axe matrix passed on the clean release runner.
 
 The regression verifies all ten indexed rows, literal ranks or civilian
 grades, public-safe identifier masking, identity and research states, and
@@ -42,6 +41,18 @@ false positives, or manifest-size false positives. The manifest SHA-256 is
 Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `a6fb47465d4935bbc479eca108bd71630d288a68219c7adfb1261da942d56013`.
+
+Test workflow
+[31266282756](https://github.com/therealjameswilson/before-oss/actions/runs/31266282756)
+and Pages workflow
+[31266282750](https://github.com/therealjameswilson/before-oss/actions/runs/31266282750)
+completed successfully. The cache-busted live manifest and all 65 published
+data assets matched the local release exactly. Direct Roland O. Blanchard,
+Joseph C. Blanchette, William R. Blanchard, Louis Blandin, and Carol P. Bland
+profile checks returned HTTP 200 with their expected occupation, date-boundary,
+alias, or unresolved-status language. The test run's only annotation was the
+non-failing GitHub Actions notice that Node 20-based actions are being forced
+onto Node 24.
 
 ## Batch 220 production check
 

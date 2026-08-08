@@ -4,7 +4,7 @@ Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **702 / 702**
+**PASS.** The complete browser and accessibility matrix passed **705 / 705**
 on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
@@ -19,7 +19,8 @@ two bounded Army-entry occupation groups without naming employers, William R.
 Blanchard's late-1945 identity-only boundary, Louis Blandin's high-confidence
 alias and radio-role evidence without treating it as pre-OSS employment, and
 the archival routes for six unresolved profiles. The focused local matrix
-passed 3 / 3; the complete 705-case matrix runs in release CI.
+passed 3 / 3; the complete 705 / 705 matrix passed in
+[workflow 31266282756](https://github.com/therealjameswilson/before-oss/actions/runs/31266282756).
 
 Batch 220 adds a focused direct-route regression for John F. Blake through
 Frank T. Blanas in Box 60 on PDF page 39. It checks all ten indexed names,
