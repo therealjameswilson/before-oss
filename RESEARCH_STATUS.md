@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,058 people with a non-planned attempt | 23,940 active person entities | 8.5965% |
-| Verified-affiliation coverage | 338 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4119% |
+| Research-attempt coverage | 2,068 people with a non-planned attempt | 23,940 active person entities | 8.6383% |
+| Verified-affiliation coverage | 341 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4244% |
 | Verified-employer coverage | 175 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7310% |
-| Archival-review coverage | 2,007 people with an individual file-access/priority assessment | 23,940 active person entities | 8.3835% |
+| Archival-review coverage | 2,017 people with an individual file-access/priority assessment | 23,940 active person entities | 8.4252% |
 
 ## Extraction and identity
 
@@ -23,40 +23,40 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 275
-- Identity status `high_confidence`: 406
+- Identity status `confirmed`: 277
+- Identity status `high_confidence`: 407
 - Identity status `probable`: 70
-- Identity status `ambiguous`: 31
+- Identity status `ambiguous`: 32
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,136
+- Identity status `unresolved`: 23,132
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,467
-- Enlisted Army personnel: 3,531
-- Commissioned Army officers: 2,070
+- Unknown or indeterminate: 16,464
+- Enlisted Army personnel: 3,532
+- Commissioned Army officers: 2,071
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,468
+- Civilian professional or administrative grades: 1,469
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 58
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,179 yes; 5,104 no; 16,657 indeterminate.
+Commissioned classification: 2,180 yes; 5,113 no; 16,647 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,882
+- `not_started`: 21,872
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 36
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 48
 - `occupation_only_found`: 241
-- `requires_archival_review`: 1,408
+- `requires_archival_review`: 1,418
 - `completed`: 73
 - `conflicting_sources`: 22
 - `verified_employer_found`: 173
@@ -67,15 +67,15 @@ Commissioned classification: 2,179 yes; 5,104 no; 16,657 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,837. The detailed adapter breakdown remains reproducible in
+  adapters: 1,847. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 793 across 766 people; 93 additional
+- Saved `source_reviewed` outcomes: 796 across 769 people; 96 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,279
+- Total recorded attempts/plans: 3,289
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 751; 729 have at least one public-visible
+- People with saved reviewed claims: 754; 732 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2562,6 +2562,38 @@ Commissioned classification: 2,179 yes; 5,104 no; 16,657 indeterminate.
   matches. Cache-busted production checks confirmed the current coverage data,
   four representative Batch 226 profiles, both published occupations, and the
   Blonttrock award evidence.
+- Batch 227 covers the next ten contiguous rows, beginning with Anna M.
+  Bloszinsky on page forty and continuing through Robert Blum on page forty-one,
+  all indexed in Box 62. Both index pages, the relevant official Army field-
+  layout and occupation-code documentation, a Berkeley institutional codebook,
+  a 1945 affidavit in an official congressional publication, a Library of
+  Congress newspaper page, and a Creighton student-newspaper page were checked
+  visually. The index and affidavit share Herbert J. Bluechel's exact rare
+  name and exact private officer identifier, confirming the indexed person as
+  the Army captain documented at OSS headquarters in Saigon. Contemporary
+  1928 and 1931 sources establish only his earlier Creighton University student
+  affiliation, not employment or the immediate pre-OSS predecessor. Donald J.
+  Bluh's exact private-identifier Army match and the documented occupation-code
+  definition establish student status at Army entry on June 7, 1943; the
+  evidence names neither a school nor an employer and does not prove an Army-
+  to-OSS sequence. The rare indexed name Rhea C. Blue, the printed Doctor note,
+  a 1940 American Council of Learned Societies award record, and a later exact-
+  byline scholarly publication support a high-confidence identity and an ACLS
+  professional affiliation, not employment. Robert Blum remains ambiguous: a
+  prominent Yale-connected OSS namesake is plausible, but the index row lacks
+  a middle name or private identifier and the official Army file contains six
+  exact-name records. Anna M. Bloszinsky, Glennoire E. Blough, Frederick Blow,
+  Marya M. Blow, John H. Blu, Paul C. Blum, and Robert Blum therefore remain
+  unresolved or ambiguous archival-review cases. No authenticated Catalog
+  request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published.
+  Release `1f7f306` passed GitHub test workflow 31281928825 and Pages workflow
+  31281928836. The clean runner passed 69 Python tests, all 723 browser and
+  accessibility cases, the 24,342-page internal-link check, and the full public-
+  identifier audit with zero aggregate, manifest-size, or unexpected-boundary
+  matches. Cache-busted production checks matched all 65 published data assets
+  across 72,134,726 bytes and confirmed the home page and all ten Batch 227
+  profile routes.
 - Batch 221 covers the next ten contiguous rows on page thirty-nine, Helen B.
   Blanchard through Louis Blandin, all indexed in Box 60. The index page and
   the relevant official Army field-layout and occupation-code pages were
@@ -2692,13 +2724,13 @@ Commissioned classification: 2,179 yes; 5,104 no; 16,657 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 853 (published, qualified, or conflict-visible)
-- Database claims: 1,694; public-visible claims: 1,663 (402 confirmed, 869 high,
+- Public-visible affiliations: 856 (published, qualified, or conflict-visible)
+- Database claims: 1,700; public-visible claims: 1,669 (405 confirmed, 872 high,
   360 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,742 total and 3,676 public-visible; private source
-  records: 2,593; public source export: 1,588; unique source documents: 1,191
-- Canonical organizations: 402 private and 392 public
+- Claim-source links: 3,759 total and 3,693 public-visible; private source
+  records: 2,602; public source export: 1,597; unique source documents: 1,197
+- Canonical organizations: 404 private and 394 public
 - Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,805
 
@@ -2740,6 +2772,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 scripts/rebuild-all.sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-bloch-through-blomquist-pathways_batch-225_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-blondo-through-bloss-pathways_batch-226_2026-08-08.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-bloszinsky-through-robert-blum-pathways_batch-227_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-blatt-through-blend-pathways_batch-223_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-and-forty-blandin-through-blatnick-pathways_batch-222_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-blanchard-through-blandin-pathways_batch-221_2026-08-08.json
