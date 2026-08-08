@@ -20010,3 +20010,108 @@ test("Batch 226 confirms Army occupations and the Blonttrock identity while pres
     );
   }
 });
+
+test("Batch 227 documents Bluechel, Bluh, and Blue while preserving Box 62 uncertainty", async ({
+  page,
+}) => {
+  const profiles = [
+    ["cfb6d38e-f10e-536e-b520-c131dbd434eb", "Anna M Bloszinsky", "Page 40", false],
+    ["4d9d5377-0d20-5836-92f8-b330f72e748a", "Glennoire E Blough", "Page 41", false],
+    ["118f8c1f-587f-54db-ae2e-72047954d21d", "Frederick Blow", "Page 41", false],
+    ["3520d7b9-2084-59d8-9c29-e6019dd33ee1", "Marya M Blow", "Page 41", false],
+    ["e8264485-3479-58fd-8c4a-1c48f5d74ec3", "John H Blu", "Page 41", false],
+    ["eb1d4741-75de-5156-b225-22ec77497f62", "Rhea C Blue", "Page 41", false],
+    ["ef54a1bc-c973-56b3-8e79-de15a9a8f628", "Herbert J Bluechel", "Page 41", true],
+    ["d0eb7654-6a54-57a4-b539-90260887aca6", "Donald J Bluh", "Page 41", true],
+    ["f7ad5088-7175-5b53-a88f-19dc61a7437a", "Paul C Blum", "Page 41", false],
+    ["19515777-4cab-50f6-8dc3-11c5c6fd267b", "Robert Blum", "Page 41", false],
+  ] as const;
+
+  for (const [personId, displayName, pageNumber, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").first()).toContainText("62");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/ef54a1bc-c973-56b3-8e79-de15a9a8f628/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Creighton University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Arts student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.locator(
+      'a[href="https://www.govinfo.gov/content/pkg/CHRG-92shrg83605/pdf/CHRG-92shrg83605.pdf"]',
+    ).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator(
+      'a[href="https://www.loc.gov/resource/sn85042243/1928-09-06/ed-1/?sp=10"]',
+    ).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/d0eb7654-6a54-57a4-b539-90260887aca6/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+  await expect(page.locator("main")).toContainText("June 7, 1943");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.locator(
+      'a[href="https://censoc.berkeley.edu/wp-content/uploads/2024/07/censoc_enlistment_numident_v2.1_codebook.pdf"]',
+    ).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/eb1d4741-75de-5156-b225-22ec77497f62/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "American Council of Learned Societies",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Scholar's Award fellow",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.locator('a[href="https://www.acls.org/fellow-grantees/rhea-blue/"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/19515777-4cab-50f6-8dc3-11c5c6fd267b/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "cfb6d38e-f10e-536e-b520-c131dbd434eb",
+    "4d9d5377-0d20-5836-92f8-b330f72e748a",
+    "118f8c1f-587f-54db-ae2e-72047954d21d",
+    "3520d7b9-2084-59d8-9c29-e6019dd33ee1",
+    "e8264485-3479-58fd-8c4a-1c48f5d74ec3",
+    "f7ad5088-7175-5b53-a88f-19dc61a7437a",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
