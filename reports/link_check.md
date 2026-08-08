@@ -4,16 +4,41 @@ Run: 2026-08-08 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,337 HTML files. Every relative
+**PASS.** The production build contains 24,339 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 389 organization profiles, and the
+The build includes 23,940 person profiles, 391 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,083 unique external URLs for separate live
+The checker inventoried 49,091 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 224 local release check
+
+The complete 24,339-page internal-link pass includes direct routes for Thomas
+B. Blevins Jr. through Hana J. Bloch on PDF page 40. The 69-test Python suite,
+deterministic 200-profile audit, and focused 3-case desktop, phone, and tablet
+regression passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities. The complete local
+714 / 714 browser and axe matrix also passed.
+
+The regression checks all ten indexed rows, literal ranks or civilian grades,
+Box 61, public-safe identifier masking, identity and research states, and
+employer-gap wording. It keeps broad Army-entry occupations distinct from
+employers, treats student affiliations as student status, qualifies probable
+identity matches, and does not convert OSS-era or post-OSS evidence into a
+pre-OSS affiliation.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,409 artifacts, reviewed 1,011
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`0583c8977fe003d8720f75d14d4d3581ef7a9394fa25dfa572078805f7170d77`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`535001dc66dae0898390fc545e441a3e8ce0e5adee465cac5bb86462a698ca2c`.
 
 ## Batch 223 production check
 

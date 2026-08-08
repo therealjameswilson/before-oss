@@ -19729,3 +19729,116 @@ test("Batch 223 publishes Blee and Blegen pathways while preserving five archiva
   await expect(page.locator("main")).toContainText("born in 1943");
   await expect(page.locator("main")).toContainText("time-impossible namesake");
 });
+
+test("Batch 224 publishes four exact Army matches and preserves qualified Bliss and Blizard pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["37ff67e3-f15a-5c01-a082-30dd7575a932", "Thomas B Blevins Jr.", "Not printed", true],
+    ["2e078204-db37-5bca-b6ab-91427e916f1b", "William G Bliden", "Capt", true],
+    ["78a53213-caa6-5c85-99e6-324eae4f25b9", "George W Bligan", "Sgt", true],
+    ["ccd0622e-0e50-56e0-816b-2418c5840177", "Emory F Blincoe", "T-4", true],
+    ["a77626eb-64a7-590c-a2fe-30e23844dc1f", "Elizabeth Bliss", "Not printed", false],
+    ["e979cfff-4b3f-5d94-8513-95e9998b7123", "Helen Bliss", "Not printed", false],
+    ["5bf50249-7363-5e9f-802e-01a96c64e791", "Howard H Bliss", "Not printed", false],
+    ["c33046d2-ca88-55bf-b3df-bbc0c5aaeeb2", "Edward B Blizard", "Not printed", false],
+    ["9a73c7f3-f715-523a-b31c-6b456bbb6619", "James L Blizzard", "T-5", true],
+    ["d77b3681-3da6-5ba1-a52a-43bdd6d4e805", "Hana J Bloch", "Caf-3", false],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 40");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("61");
+  }
+
+  for (const [personId, occupation] of [
+    ["78a53213-caa6-5c85-99e6-324eae4f25b9", "Occupations in fabrication of metal products, n.e.c."],
+    ["9a73c7f3-f715-523a-b31c-6b456bbb6619", "Occupations in manufacture of textiles, n.e.c."],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ccd0622e-0e50-56e0-816b-2418c5840177/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Managers and officials, n.e.c.",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Strayer College of Accountancy",
+  );
+  await expect(
+    page.getByRole("link", { name: "Evening star (Washington, D.C.), June 29, 1932", exact: true }).first(),
+  ).toHaveAttribute("href", "https://www.loc.gov/resource/sn83045462/1932-06-29/ed-1/?sp=40");
+
+  await page.goto("./people/2e078204-db37-5bca-b6ab-91427e916f1b/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "temporal relation uncertain",
+  );
+  await expect(
+    page.getByRole("link", { name: "Headquarters, Office of Strategic Services, Special Orders No. 99", exact: true }).first(),
+  ).toHaveAttribute("href", "https://www.archives.gov/files/research/jfk/releases/104-10165-10121.pdf");
+
+  await page.goto("./people/a77626eb-64a7-590c-a2fe-30e23844dc1f/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Mount Vernon Seminary",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "medium",
+  );
+
+  await page.goto("./people/e979cfff-4b3f-5d94-8513-95e9998b7123/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("OSS Istanbul");
+
+  await page.goto("./people/c33046d2-ca88-55bf-b3df-bbc0c5aaeeb2/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Harvard University",
+  );
+  await expect(
+    page.getByRole("link", { name: "Edward B. Blizard, CIA Officer", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.washingtonpost.com/archive/local/2001/06/28/francis-r-joe-oclair-air-f/ebda23e2-1d6b-4bf2-b8f3-ab227d4f8695/",
+  );
+
+  for (const personId of [
+    "37ff67e3-f15a-5c01-a082-30dd7575a932",
+    "5bf50249-7363-5e9f-802e-01a96c64e791",
+    "d77b3681-3da6-5ba1-a52a-43bdd6d4e805",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/37ff67e3-f15a-5c01-a082-30dd7575a932/");
+  await expect(page.locator("main")).toContainText("after OSS dissolution");
+
+});

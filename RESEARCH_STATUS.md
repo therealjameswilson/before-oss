@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,029 people with a non-planned attempt | 23,940 active person entities | 8.4754% |
-| Verified-affiliation coverage | 329 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3743% |
+| Research-attempt coverage | 2,039 people with a non-planned attempt | 23,940 active person entities | 8.5171% |
+| Verified-affiliation coverage | 334 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3952% |
 | Verified-employer coverage | 175 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7310% |
-| Archival-review coverage | 1,978 people with an individual file-access/priority assessment | 23,940 active person entities | 8.2623% |
+| Archival-review coverage | 1,988 people with an individual file-access/priority assessment | 23,940 active person entities | 8.3041% |
 
 ## Extraction and identity
 
@@ -23,41 +23,41 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 265
-- Identity status `high_confidence`: 403
-- Identity status `probable`: 67
+- Identity status `confirmed`: 270
+- Identity status `high_confidence`: 404
+- Identity status `probable`: 69
 - Identity status `ambiguous`: 31
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,152
+- Identity status `unresolved`: 23,144
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,473
+- Unknown or indeterminate: 16,472
 - Enlisted Army personnel: 3,526
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,467
+- Civilian professional or administrative grades: 1,468
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 58
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,178 yes; 5,092 no; 16,670 indeterminate.
+Commissioned classification: 2,178 yes; 5,093 no; 16,669 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,911
+- `not_started`: 21,901
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 35
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 235
-- `requires_archival_review`: 1,389
-- `completed`: 70
+- `occupation_only_found`: 237
+- `requires_archival_review`: 1,394
+- `completed`: 73
 - `conflicting_sources`: 22
 - `verified_employer_found`: 173
 - Stratified pilot size: 75
@@ -67,15 +67,15 @@ Commissioned classification: 2,178 yes; 5,092 no; 16,670 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,807. The detailed adapter breakdown remains reproducible in
+  adapters: 1,817. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 780 across 754 people; 89 additional
+- Saved `source_reviewed` outcomes: 786 across 760 people; 91 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,249
+- Total recorded attempts/plans: 3,259
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 735; 713 have at least one public-visible
+- People with saved reviewed claims: 743; 721 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2484,6 +2484,30 @@ Commissioned classification: 2,178 yes; 5,092 no; 16,670 indeterminate.
   Blecka born in 1943 was rejected as time-impossible for the indexed wartime
   major. No authenticated Catalog request, credential, raw API response, full
   private identifier, or unsupported employer claim was used or published.
+- Batch 224 covers the next ten contiguous rows on page forty, Thomas B.
+  Blevins Jr. through Hana J. Bloch, all indexed in Box 61. The index page and
+  the relevant official Army field-layout and occupation-code pages were
+  checked visually. Exact private-identifier matches confirm Blevins, George
+  W. Bligan, Emory F. Blincoe, and James L. Blizzard without exposing those
+  identifiers. Blevins's Army record postdates OSS dissolution and supports
+  identity only. The other three records support the broad metal-products-
+  fabrication, managers-and-officials, and textile-manufacturing occupation
+  groups at Army entry without naming employers or proving Army-to-OSS
+  sequence. A 1945 OSS special order confirms Captain William G. Bliden, while
+  a contemporary Army periodical places him at Fort Devens in August 1942;
+  that assignment remains temporally qualified rather than being labeled his
+  immediate predecessor. A 1932 Evening Star notice probably connects Blincoe
+  to Strayer College of Accountancy, and an obituary probably connects
+  Elizabeth Bliss Divine to the indexed Elizabeth Bliss and Mount Vernon
+  Seminary. Both schools are modeled as student affiliations, not employers.
+  An official OSS-era document probably connects Helen Bliss to OSS Istanbul,
+  but it documents OSS employment rather than a prior affiliation. A rare-name
+  obituary supports high-confidence identification of Edward B. Blizard and
+  documents Harvard education before Coast Guard service; it does not establish
+  his Coast Guard-to-OSS transition. Howard H. Bliss and Hana J. Bloch remain
+  unresolved archival-review cases. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
 - Batch 221 covers the next ten contiguous rows on page thirty-nine, Helen B.
   Blanchard through Louis Blandin, all indexed in Box 60. The index page and
   the relevant official Army field-layout and occupation-code pages were
@@ -2614,13 +2638,13 @@ Commissioned classification: 2,178 yes; 5,092 no; 16,670 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 839 (published, qualified, or conflict-visible)
-- Database claims: 1,664; public-visible claims: 1,633 (384 confirmed, 863 high,
-  354 medium, 32 conflicting); 25 low-confidence claims are withheld and six
+- Public-visible affiliations: 846 (published, qualified, or conflict-visible)
+- Database claims: 1,679; public-visible claims: 1,648 (392 confirmed, 866 high,
+  358 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,665 total and 3,599 public-visible; private source
-  records: 2,568; public source export: 1,563; unique source documents: 1,178
-- Canonical organizations: 399 private and 389 public
+- Claim-source links: 3,700 total and 3,634 public-visible; private source
+  records: 2,578; public source export: 1,573; unique source documents: 1,184
+- Canonical organizations: 401 private and 391 public
 - Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,805
 

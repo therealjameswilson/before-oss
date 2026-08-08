@@ -4,12 +4,25 @@ Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **711 / 711**
-on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
-accessibility routes reported no serious or critical axe violations.
+**PASS.** The complete browser and accessibility matrix passed **714 / 714**
+locally at desktop, phone, and tablet widths. The accessibility routes reported
+no serious or critical axe violations. The release workflow will repeat the
+same matrix on a clean GitHub Actions runner.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 224 adds a focused direct-route regression for Thomas B. Blevins Jr.
+through Hana J. Bloch on PDF page 40. It checks all ten indexed names, literal
+ranks or civilian grades, Box 61, public-safe identifier masking, identity and
+research states, and terminal employer-gap language. It separately verifies
+four exact Army-record identity matches; William G. Bliden's qualified Fort
+Devens assignment; Emory F. Blincoe's qualified Strayer student affiliation;
+Elizabeth Bliss's qualified Mount Vernon student affiliation; Edward B.
+Blizard's Harvard student affiliation; and the limits on Helen Bliss's OSS-era
+identity evidence. Howard H. Bliss and Hana J. Bloch remain explicit archival-
+review cases. The focused matrix passed 3 / 3, and the complete local matrix
+passed 714 / 714 across desktop, phone, and tablet.
 
 Batch 223 adds a focused direct-route regression for Virginia G. Blatt through
 Thomas A. Blend on PDF page 40. It checks all ten indexed names, literal ranks
