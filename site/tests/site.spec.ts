@@ -19088,3 +19088,81 @@ test("Batch 216 publishes page 38 Black occupations and preserves unresolved ide
     );
   }
 });
+
+test("Batch 217 publishes page 38-39 Black occupations and preserves source limits", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c64d1d78-4e4e-52d0-b1a4-7f3842aaa5f3", "Robert A Black", "QM 1/c", true, "59", "Page 38"],
+    ["94e9b9df-04a8-52b9-9b9f-afb3499bd3df", "William W Black", "Not printed", false, "59", "Page 38"],
+    ["30bae909-6ad9-5015-b609-25541d3ec366", "Ralph P Black. Jr.", "Not printed", false, "59", "Page 38"],
+    ["82194d6d-27da-5141-b7ae-5d7dd1c879f1", "Marjorie E Blackburn", "T-4", true, "59", "Page 38"],
+    ["591209d3-a990-52ff-827c-b0eddd07f2fb", "Ralph Blackburn", "Not printed", false, "59", "Page 38"],
+    ["4607429c-12d5-5470-9ac7-644171247933", "Jasper B Blackenship", "Not printed", true, "60", "Page 38"],
+    ["6597746b-30a8-5dec-aef7-ec402bc22f21", "Edward Blackman", "T-5", false, "59", "Page 38"],
+    ["28bf8317-9ff2-520e-b928-7d11be5581b2", "George R Blackman", "Pfc", true, "59", "Page 38"],
+    ["4c720dd3-c551-5ffd-8e94-645bfa36210c", "Robert L Blackman", "Pfc", true, "59", "Page 38"],
+    ["3f1ca39e-48b9-5ce2-805f-451c2c34d6d1", "Sidney Blackman", "Pfc", true, "59", "Page 39"],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier, box, pageNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  const occupationProfiles = [
+    ["82194d6d-27da-5141-b7ae-5d7dd1c879f1", "Stenographer or typist"],
+    [
+      "28bf8317-9ff2-520e-b928-7d11be5581b2",
+      "Skilled occupation in the manufacture of miscellaneous products",
+    ],
+    ["3f1ca39e-48b9-5ce2-805f-451c2c34d6d1", "Tinsmith, coppersmith, or sheet metal worker"],
+  ] as const;
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/4607429c-12d5-5470-9ac7-644171247933/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jasper B. Blankenship");
+  await expect(page.locator("main")).toContainText("after OSS dissolution");
+  await expect(page.locator("main")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "c64d1d78-4e4e-52d0-b1a4-7f3842aaa5f3",
+    "94e9b9df-04a8-52b9-9b9f-afb3499bd3df",
+    "30bae909-6ad9-5015-b609-25541d3ec366",
+    "591209d3-a990-52ff-827c-b0eddd07f2fb",
+    "6597746b-30a8-5dec-aef7-ec402bc22f21",
+    "4c720dd3-c551-5ffd-8e94-645bfa36210c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/4c720dd3-c551-5ffd-8e94-645bfa36210c/");
+  await expect(page.locator("main")).toContainText("documented gap");
+  await expect(page.locator("main")).toContainText("different same-name Army record was rejected");
+});
