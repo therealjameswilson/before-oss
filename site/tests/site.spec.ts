@@ -19915,3 +19915,98 @@ test("Batch 225 confirms Army records while preserving qualified and unresolved 
     await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   }
 });
+
+test("Batch 226 confirms Army occupations and the Blonttrock identity while preserving Box 62 limits", async ({
+  page,
+}) => {
+  const profiles = [
+    ["fc4cd3bc-6e18-564a-8baf-73917968454a", "Leo Blondo", true],
+    ["a3e58ff4-84d1-56a6-8bb6-ab4b88f401f4", "John F Blonski", true],
+    ["b7cb76c1-7784-53f2-b951-22c3ce8f0d27", "Alfons Blonttrock", false],
+    ["77e809dc-11e2-5e3f-b8c9-c884e230b20d", "Jon M Bloodworth", true],
+    ["2d9e7f87-5dfa-51f4-8dd7-8e9a940d64a9", "Katherine F Bloom", false],
+    ["1079f746-b8f4-5b14-a696-5ec8434ac839", "Max R Bloom", true],
+    ["856ea6d5-bee7-551c-afb3-336cbc8ff152", "Robert A Bloom", true],
+    ["42b4dc29-622d-555d-8d8b-49ab3e105dc8", "Ann E Bloomfield", false],
+    ["d0c7f14d-c53b-5d27-a491-c730ded4a819", "Samuel G Bloomfield", false],
+    ["0a40aa74-faf1-5cda-8d9b-8afc017a2f09", "Margaret L Bloss", false],
+  ] as const;
+
+  for (const [personId, displayName, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 40");
+    await expect(page.locator(".index-record").first()).toContainText("62");
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  for (const [personId, occupation] of [
+    [
+      "fc4cd3bc-6e18-564a-8baf-73917968454a",
+      "Packing, filling, labeling, marking, bottling, and related occupations, not elsewhere classified",
+    ],
+    ["856ea6d5-bee7-551c-afb3-336cbc8ff152", "Foreman, not elsewhere classified"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/a3e58ff4-84d1-56a6-8bb6-ab4b88f401f4/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/b7cb76c1-7784-53f2-b951-22c3ce8f0d27/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Alfonse Blontrock");
+  await expect(page.locator("main")).toContainText("Jan Denis");
+  await expect(page.locator("main")).toContainText("Distinguished Service Cross");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "CIA File on Lucien E. Conein", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "The Labor Branch of the Office of Strategic Services: An Academic Study from a Public History Perspective",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://scholarworks.indianapolis.iu.edu/items/8e0846fd-4243-4f3b-9eb7-e03cfc7fd94b",
+  );
+
+  for (const personId of [
+    "77e809dc-11e2-5e3f-b8c9-c884e230b20d",
+    "2d9e7f87-5dfa-51f4-8dd7-8e9a940d64a9",
+    "1079f746-b8f4-5b14-a696-5ec8434ac839",
+    "42b4dc29-622d-555d-8d8b-49ab3e105dc8",
+    "d0c7f14d-c53b-5d27-a491-c730ded4a819",
+    "0a40aa74-faf1-5cda-8d9b-8afc017a2f09",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
