@@ -15,6 +15,40 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,063 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 217 production check
+
+The complete 24,329-page internal-link pass includes direct routes for Robert
+A. Black through Sidney Blackman across PDF pages 38-39. The 69-test Python
+suite, deterministic 200-profile audit, and clean 693-case desktop, phone, and
+tablet browser matrix passed; Astro reported zero errors, warnings, or hints,
+and the production dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows across Boxes 59-60, literal ranks
+or blank-rank states, public-safe identifier masking, identity and research
+states, employer-gap wording, and archival-review routes. It separately checks
+three bounded Army-entry occupation groups, the Blackenship/Blankenship
+spelling resolution, Jasper's identity-only post-OSS record, and Robert L.
+Blackman's documented electronic-file gap. No occupation group, later record,
+or unmatched namesake is silently converted into a verified employer or
+immediate predecessor.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,000
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The local and live manifest
+SHA-256 is
+`3192f2e2656c6ad115d790308aba6f208a1f4d214f82e40c4a96aa303c3488af`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`4fa0eb2631a3fa514872fa835bb95fe30f4babee17e5d7593984dab04ca8e191`.
+
+Pages workflow
+[31245990666](https://github.com/therealjameswilson/before-oss/actions/runs/31245990666)
+completed successfully. The cache-busted live manifest matched the local
+release exactly, and direct Marjorie E. Blackburn, Jasper B. Blackenship, and
+Robert L. Blackman profile checks returned HTTP 200 with their expected
+occupation, identity-variant, and source-gap language.
+
 ## Batch 216 local release check
 
 The complete 24,329-page internal-link pass includes direct routes for
