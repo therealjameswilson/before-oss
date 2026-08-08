@@ -5,7 +5,7 @@ Run: 2026-08-08 UTC
 ## Result
 
 **PASS.** The complete browser and accessibility matrix passed **711 / 711**
-locally at desktop, phone, and tablet widths. The
+on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
@@ -19,8 +19,9 @@ William J. Blaum Jr. and Thomas A. Blend's bounded Army-entry occupations;
 David H. Blee's Army Corps of Engineers predecessor and Harvard Law student
 status; Carl W. Blegen's qualified University of Cincinnati employment; and
 Margaret J. Blegen's qualified University of Minnesota student affiliation.
-Five profiles remain explicit archival-review cases. The focused and complete
-local matrices passed 3 / 3 and 711 / 711 respectively.
+Five profiles remain explicit archival-review cases. The focused local matrix
+passed 3 / 3; the complete 711 / 711 matrix passed in
+[workflow 31270671420](https://github.com/therealjameswilson/before-oss/actions/runs/31270671420).
 
 Batch 222 adds a focused direct-route regression for Richard F. Blandin through
 John A. Blatnick across PDF pages 39-40. It checks all ten indexed names,

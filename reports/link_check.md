@@ -15,14 +15,14 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,083 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-## Batch 223 local release check
+## Batch 223 production check
 
 The complete 24,337-page internal-link pass includes direct routes for Virginia
 G. Blatt through Thomas A. Blend on PDF page 40. The 69-test Python suite,
 deterministic 200-profile audit, and focused 3-case desktop, phone, and tablet
 regression passed; Astro reported zero errors, warnings, or hints, and the
 production dependency audit found zero vulnerabilities. The complete
-711 / 711 browser and axe matrix passed locally.
+711 / 711 browser and axe matrix passed on the clean release runner.
 
 The regression verifies all ten indexed rows, literal ranks or civilian
 grades, Box 61, public-safe identifier masking, identity and research states,
@@ -41,6 +41,15 @@ false positives, or manifest-size false positives. The manifest SHA-256 is
 Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `6cdb6411923c3ae1ff96ffb924c41185ef7d0cfa2ff9871bea27547eb7513bb3`.
+
+Test workflow
+[31270671420](https://github.com/therealjameswilson/before-oss/actions/runs/31270671420)
+and Pages workflow
+[31270671410](https://github.com/therealjameswilson/before-oss/actions/runs/31270671410)
+completed successfully. The cache-busted live manifest and all 65 published
+data assets matched the local release exactly. The home page and direct David
+H. Blee, Carl W. Blegen, and Margaret J. Blegen profile routes returned HTTP
+200 with the expected evidence and qualification boundaries.
 
 ## Batch 222 production check
 
