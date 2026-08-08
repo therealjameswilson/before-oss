@@ -19242,3 +19242,72 @@ test("Batch 218 publishes page 39 Blackmon-Blair occupations and archival limits
   await expect(page.locator("main")).toContainText("Perry L. Blackshear Jr.");
   await expect(page.locator("main")).toContainText("neither establishes the indexed officer's identity");
 });
+
+test("Batch 219 publishes page 39 Blair-Blake statuses without inferring employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["e78a83f2-bd6a-530f-9597-94149082c70b", "John A Blair", "Not printed", false, "59"],
+    ["f6bee9b5-6f2f-5418-b9c5-60536b788d8e", "John W Blair", "S/Sgt", true, "59"],
+    ["3aaea3ee-f6bb-5b1b-a1b2-d15cce8697c8", "Justice Blair", "Not printed", false, "59"],
+    ["5e6d3a9b-2f32-563d-90c2-c89a63a41bfb", "Mariane E Blair", "Caf-5", false, "59"],
+    ["acce354d-fac7-545b-b670-0547271db3e2", "Mary E Blair", "Caf-7", false, "60"],
+    ["d33a61a8-efc0-5529-8c47-42ada9035a30", "Nadine Blair", "Caf-4", false, "60"],
+    ["05658cad-8cf6-57e0-9507-59ae5495803e", "Virginia F Blair", "Not printed", false, "60"],
+    ["38d4c8f1-c396-54c0-8abf-08041249096d", "Whitney Blair", "Cpl", true, "60"],
+    ["dfba9bf7-9c26-5186-93b0-08eb7530c9f9", "Dorothy Blake", "Caf-6", false, "60"],
+    ["feb9be53-305f-532e-8c58-53a3914cfbff", "Frank W Blake", "T-5", true, "60"],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 39");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  for (const [personId, occupation] of [
+    ["f6bee9b5-6f2f-5418-b9c5-60536b788d8e", "Farm hand, general farms"],
+    [
+      "38d4c8f1-c396-54c0-8abf-08041249096d",
+      "Student; institution not identified in Army record",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "e78a83f2-bd6a-530f-9597-94149082c70b",
+    "3aaea3ee-f6bb-5b1b-a1b2-d15cce8697c8",
+    "5e6d3a9b-2f32-563d-90c2-c89a63a41bfb",
+    "acce354d-fac7-545b-b670-0547271db3e2",
+    "d33a61a8-efc0-5529-8c47-42ada9035a30",
+    "05658cad-8cf6-57e0-9507-59ae5495803e",
+    "dfba9bf7-9c26-5186-93b0-08eb7530c9f9",
+    "feb9be53-305f-532e-8c58-53a3914cfbff",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("No reliable pre-OSS employer");
+  }
+
+  await page.goto("./people/38d4c8f1-c396-54c0-8abf-08041249096d/");
+  await expect(page.locator("main")).toContainText("Harvard is not assigned");
+
+  await page.goto("./people/feb9be53-305f-532e-8c58-53a3914cfbff/");
+  await expect(page.locator("main")).toContainText("different private identifier");
+  await expect(page.locator("main")).toContainText("absent from the electronic merged file");
+});
