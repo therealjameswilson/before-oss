@@ -15,14 +15,14 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,091 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-## Batch 224 local release check
+## Batch 224 production check
 
 The complete 24,339-page internal-link pass includes direct routes for Thomas
 B. Blevins Jr. through Hana J. Bloch on PDF page 40. The 69-test Python suite,
 deterministic 200-profile audit, and focused 3-case desktop, phone, and tablet
 regression passed; Astro reported zero errors, warnings, or hints, and the
-production dependency audit found zero vulnerabilities. The complete local
-714 / 714 browser and axe matrix also passed.
+production dependency audit found zero vulnerabilities. The complete
+714 / 714 browser and axe matrix passed on the clean release runner.
 
 The regression checks all ten indexed rows, literal ranks or civilian grades,
 Box 61, public-safe identifier masking, identity and research states, and
@@ -39,6 +39,16 @@ false positives, or manifest-size false positives. The manifest SHA-256 is
 Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `535001dc66dae0898390fc545e441a3e8ce0e5adee465cac5bb86462a698ca2c`.
+
+Test workflow
+[31273722737](https://github.com/therealjameswilson/before-oss/actions/runs/31273722737)
+and Pages workflow
+[31273722767](https://github.com/therealjameswilson/before-oss/actions/runs/31273722767)
+completed successfully for release `8780eb9`. The cache-busted live manifest
+and all 65 published data assets matched the local release exactly across
+71,908,456 bytes. The home page and five representative Batch 224 person
+routes returned HTTP 200, and the Blincoe, Elizabeth Bliss, and Blizard routes
+contained the expected student-affiliation evidence and qualifications.
 
 ## Batch 223 production check
 

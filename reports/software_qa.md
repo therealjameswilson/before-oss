@@ -7,9 +7,9 @@ Run: 2026-08-08 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,339 pages**
 - Internal link check: **24,339 HTML files passed**
-- Complete browser and accessibility matrix: **714 / 714 passed locally**
-  across desktop, phone, and tablet, with no serious or critical axe violation;
-  the release workflow will repeat the matrix on a clean runner.
+- Complete browser and accessibility matrix: **714 / 714 passed** on the clean
+  GitHub Actions runner across desktop, phone, and tablet, with no serious or
+  critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
@@ -125,10 +125,10 @@ Run: 2026-08-08 UTC
   regression and complete **708-case** browser matrix passed
 - Batch 223 production verification: **passed**; the focused **3-case**
   regression and complete **711-case** browser matrix passed
-- Batch 224 local release checks: **passed**; the focused **3-case** regression
-  and complete **714-case** browser matrix passed locally
+- Batch 224 production verification: **passed**; the focused **3-case**
+  regression and complete **714-case** browser matrix passed
 
-## Batch 224 local release verification
+## Batch 224 production verification
 
 Batch 224 adds the ten visually checked source rows from Thomas B. Blevins Jr.
 through Hana J. Bloch on PDF page 40 and in Box 61. The strict evidence bundle
@@ -145,8 +145,8 @@ the deterministic 200-profile audit. Astro reported zero errors, warnings, or
 hints and built 24,339 pages. The internal-link checker passed all 24,339 HTML
 files and inventoried 49,091 unique external URLs. The focused Batch 224
 regression passed 3 / 3 across desktop, phone, and tablet, and the complete
-714 / 714 browser and axe matrix passed locally. The production dependency
-audit found zero vulnerabilities.
+714 / 714 browser and axe matrix passed on the clean GitHub Actions runner.
+The production dependency audit found zero vulnerabilities.
 
 Consecutive local production-site builds produced the identical complete-site
 digest
@@ -159,6 +159,16 @@ identifiers and 121 formatted variants, reviewed 1,011 candidate substrings,
 and found zero unexpected boundary matches, aggregate false positives, or
 manifest-size false positives across 24,409 production artifacts. No
 authenticated NARA Catalog API request was made.
+
+Test workflow
+[31273722737](https://github.com/therealjameswilson/before-oss/actions/runs/31273722737)
+and Pages workflow
+[31273722767](https://github.com/therealjameswilson/before-oss/actions/runs/31273722767)
+completed successfully for release `8780eb9`. The cache-busted live manifest
+and all 65 published data assets matched the local release exactly across
+71,908,456 bytes. The home page and five representative Batch 224 person
+routes returned HTTP 200; the Blincoe, Elizabeth Bliss, and Blizard pages also
+contained the expected student-affiliation evidence and qualification language.
 
 ## Batch 223 production verification
 
