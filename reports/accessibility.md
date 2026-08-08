@@ -1,15 +1,25 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-07 UTC
+Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **687 / 687**
+**PASS.** The complete browser and accessibility matrix passed **690 / 690**
 at desktop, phone, and tablet widths. The accessibility routes reported no
 serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 216 adds a focused direct-route regression for Charlotte A. Black through
+Melvin H. Black on PDF page 38. It checks all ten indexed names, literal ranks
+or civilian grades, Boxes 58-59, public-safe identifier masking, identity and
+research states, employer-gap wording, and archival-review routes. It
+separately verifies four qualified Army-entry occupation or status findings and
+Captain Lloyd Black's high-confidence identity and 1945 OSS map-recovery
+assignment without promoting any of them to an employer or immediate pre-OSS
+affiliation. Five unsupported identities remain explicit archival-review
+cases, and `DCAF-4` remains visibly unexpanded. The focused matrix passed 3 / 3.
 
 Batch 215 adds a focused direct-route regression for Dorothy E. Bixby through
 Frederick J. Blachly on PDF page 38. It checks all ten indexed names, literal

@@ -1,0 +1,840 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS reviewed research workflow, batch 216",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-38-batch216",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 58-59",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 38, rows 28-37; Charlotte A. Black through Melvin H. Black; visually checked at 300 dpi",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch216",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier and name matches accepted for James M. Black Jr., Jay R. Black, Kenneth V. Black, and Melvin H. Black",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch216",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Reference Copy pages 40-42: fixed-width field positions and alternate record-layout rules used to check Army-entry dates and civilian-occupation columns",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines the record layout and warns that the merged file contains best-guess interpretations. Civilian occupation was recorded at Army entry and does not name an employer."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch216",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF pages 170, 172, 173, and 304: codes 007, 304, 444, and 992; visually checked",
+      "access_date": "2026-08-07",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official corrected code documentation. The code groups identify an occupation or student status only and do not establish an employer, school, workplace, or exact duties."
+    },
+    {
+      "key": "ubc-barnes-crampton-mapping-intelligence-batch216",
+      "stable_url": "https://blogs.ubc.ca/trevorbarnes/files/2015/09/proofs.pdf",
+      "archival_identifier": "Chapter 11 in Reconstructing Conflict: Integrating War and Post-War Geographies",
+      "title": "Mapping Intelligence: American Geographers and the Office of Strategic Services and GHQ/SCAP (Tokyo)",
+      "author_creator": "Trevor Barnes and Jeremy Crampton",
+      "repository_publisher": "Ashgate; author copy hosted by the University of British Columbia",
+      "publication_record_date": "2011",
+      "locator": "Chapter pages 227-251; printed page 237 and PDF page 6 reproduce OSS T-Force order 17554 of April 4, 1945, naming Lloyd Black and citing NARA RG 226, Entry 146, Folder 1251",
+      "access_date": "2026-08-07",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Reconstructing Conflict: Integrating War and Post-War Geographies",
+      "rights_notes": "Scholarly book chapter based on archival sources. Only a short supporting excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "erdkunde-bohm-ehlers-50-volumes-batch216",
+      "stable_url": "https://www.erdkunde.uni-bonn.de/article/download/2353/2342/2356",
+      "archival_identifier": "Erdkunde, volume 50 (1996), pages 360-379",
+      "title": "Erdkunde - 50 Jahrgänge 'Archiv für wissenschaftliche Geographie': Ein Rückblick und Ausblick",
+      "author_creator": "Hans Böhm and Eckart Ehlers",
+      "repository_publisher": "Erdkunde, University of Bonn",
+      "publication_record_date": "1996",
+      "locator": "Printed page 373, PDF page 14: quotation from Carl Troll's December 27, 1947 letter to Isaiah Bowman naming Cpt. Lloyd D. Black and Ltn. Thomas Russel Smith",
+      "access_date": "2026-08-07",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Erdkunde",
+      "rights_notes": "Scholarly journal article quoting a dated archival letter. Only a short supporting excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "james-m-black-chemistry-group-batch216",
+      "person_id": "cd751516-802d-5cd0-9d8e-f07a068eca39",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Chemist, assayer, or metallurgist",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-09-02",
+      "date_precision": "The official Army-entry record carries civilian occupation code 007 on September 2, 1942; the group does not identify which of the three occupations applied or name an employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity and the Army record adds the suffix Jr. The grouped occupation establishes neither a named employer nor the Army-to-OSS sequence."
+    },
+    {
+      "key": "jay-r-black-student-batch216",
+      "person_id": "b5c4676e-66af-5075-964d-aff1dfe0c29a",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942-09-17",
+      "date_precision": "The official Army-entry record carries civilian occupation code 992 on September 17, 1942; it names no school and does not establish employment.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. Student status is kept distinct from employment, and no institution is inferred."
+    },
+    {
+      "key": "kenneth-v-black-dairy-farmer-batch216",
+      "person_id": "8b8be7bb-2f77-5c03-963b-b56f3e9f8655",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Dairy farmer",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-11-14",
+      "date_precision": "The official Army-entry record carries civilian occupation code 304 on November 14, 1941; the code does not identify a farm, employer, ownership, or location.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The code supports the occupation but not self-employment or a named employer."
+    },
+    {
+      "key": "melvin-h-black-compositor-typesetter-batch216",
+      "person_id": "8e371b93-a39f-5295-9ac1-427eee57eadd",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Compositor or typesetter",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-03-25",
+      "date_precision": "The official Army-entry record carries civilian occupation code 444 on March 25, 1942; the group does not distinguish compositor from typesetter or name an employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation does not establish a specific job, employer, or Army-to-OSS chronology."
+    }
+  ],
+  "claims": [
+    {
+      "key": "james-m-black-confirmed-identity-batch216",
+      "person_id": "cd751516-802d-5cd0-9d8e-f07a068eca39",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician 5th Grade James M. Black is confirmed against the exact-private-identifier Army record for James M. Black Jr.",
+      "evidence_excerpt": "Exact name and private identifier match; the Army record adds Jr.",
+      "evidence_paraphrase": "The official Army merged file contains an exact private-identifier match and records the name as James M. Black Jr.",
+      "identity_match_assessment": "The exact private identifier confirms identity; the suffix is retained as a documented variant rather than silently added to the index spelling.",
+      "temporal_assessment": "The Army record documents entry on September 2, 1942 and a civilian occupation group, but not the date of OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier is withheld publicly. The identity resolution does not establish an employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 31",
+          "excerpt_override": "BLACK JAMES M T-5"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "james-m-black-chemistry-group-claim-batch216",
+      "person_id": "cd751516-802d-5cd0-9d8e-f07a068eca39",
+      "affiliation_key": "james-m-black-chemistry-group-batch216",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on September 2, 1942, James M. Black Jr.'s recorded civilian occupation group was chemists, assayers, and metallurgists.",
+      "evidence_excerpt": "Code 007: Chemists, assayers, and metallurgists.",
+      "evidence_paraphrase": "The exact official Army record carries code 007, which NARA's code list defines as a three-occupation group.",
+      "identity_match_assessment": "The exact private identifier confirms that the Army record is the indexed James M. Black.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded evidence before his indexed Technician 5th Grade service, but it names no employer and gives no OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified occupation finding and excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 31"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch216",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 170"
+        }
+      ]
+    },
+    {
+      "key": "jay-r-black-confirmed-identity-batch216",
+      "person_id": "b5c4676e-66af-5075-964d-aff1dfe0c29a",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Private First Class Jay R. Black is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "Exact name and private identifier match.",
+      "evidence_paraphrase": "The official Army merged file contains an exact name and private-identifier match for Jay R. Black.",
+      "identity_match_assessment": "The exact private identifier and full indexed name confirm identity.",
+      "temporal_assessment": "The Army record documents entry on September 17, 1942 and student status, but not the date of OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier is withheld publicly. The identity resolution does not establish an employer or educational institution.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 32",
+          "excerpt_override": "BLACK JAY R PFC"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "jay-r-black-student-claim-batch216",
+      "person_id": "b5c4676e-66af-5075-964d-aff1dfe0c29a",
+      "affiliation_key": "jay-r-black-student-batch216",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on September 17, 1942, Jay R. Black's recorded civilian-status group was student.",
+      "evidence_excerpt": "Code 992: Students.",
+      "evidence_paraphrase": "The exact official Army record carries code 992, which NARA's code list defines as students.",
+      "identity_match_assessment": "The exact private identifier confirms that the Army record is the indexed Jay R. Black.",
+      "temporal_assessment": "The dated record establishes student status at Army entry but does not name a school, an employer, or the date of OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as student status, not employment, and excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 32"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch216",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 304"
+        }
+      ]
+    },
+    {
+      "key": "kenneth-v-black-confirmed-identity-batch216",
+      "person_id": "8b8be7bb-2f77-5c03-963b-b56f3e9f8655",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sergeant Kenneth V. Black is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "Exact name and private identifier match.",
+      "evidence_paraphrase": "The official Army merged file contains an exact name and private-identifier match for Kenneth V. Black.",
+      "identity_match_assessment": "The exact private identifier and full indexed name confirm identity.",
+      "temporal_assessment": "The Army record documents entry on November 14, 1941 and a civilian occupation, but not the date of OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier is withheld publicly. The identity resolution does not establish a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 33",
+          "excerpt_override": "BLACK KENNETH V SGT"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "kenneth-v-black-dairy-farmer-claim-batch216",
+      "person_id": "8b8be7bb-2f77-5c03-963b-b56f3e9f8655",
+      "affiliation_key": "kenneth-v-black-dairy-farmer-batch216",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on November 14, 1941, Kenneth V. Black's recorded civilian occupation was dairy farmer.",
+      "evidence_excerpt": "Code 304: Dairy farmers.",
+      "evidence_paraphrase": "The exact official Army record carries code 304, which NARA's code list defines as dairy farmers.",
+      "identity_match_assessment": "The exact private identifier confirms that the Army record is the indexed Kenneth V. Black.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded evidence before his indexed Sergeant service, but it names no farm or employer and gives no OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No self-employment, ownership, or named employer is inferred. The claim is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 33"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch216",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 172"
+        }
+      ]
+    },
+    {
+      "key": "lloyd-black-high-confidence-identity-batch216",
+      "person_id": "03ebbe45-7a96-5d86-9c2c-11f7875388ef",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Lloyd Black is a high-confidence match to Captain Lloyd D. Black, who participated in the OSS map-recovery work in Germany.",
+      "evidence_excerpt": "Some weeks later we had the visit of Cpt. Lloyd D. Black.",
+      "evidence_paraphrase": "An archival-derived chapter reproduces an OSS order sending Lloyd Black to Gotha; an independent scholarly article quotes a dated letter naming Cpt. Lloyd D. Black.",
+      "identity_match_assessment": "The exact given name and surname, Captain rank, 1945 Germany context, and matching geographical mission across two independent scholarly sources support a high-confidence match.",
+      "temporal_assessment": "The sources establish wartime OSS-related activity and a middle-initial variant but do not identify a pre-OSS employer or recruitment chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source index omits a middle initial, and no personnel file was reviewed. The match remains high confidence rather than confirmed; the full private identifier is not published.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 35",
+          "excerpt_override": "BLACK LLOYD CAPT"
+        },
+        {
+          "source_key": "ubc-barnes-crampton-mapping-intelligence-batch216",
+          "support_type": "supports",
+          "excerpt_override": "109 authorizes Lloyd Black, Robt. Hall, and John Wells be ordered to Gotha immediately."
+        },
+        {
+          "source_key": "erdkunde-bohm-ehlers-50-volumes-batch216",
+          "support_type": "supports",
+          "excerpt_override": "Some weeks later we had the visit of Cpt. Lloyd D. Black."
+        }
+      ]
+    },
+    {
+      "key": "melvin-h-black-confirmed-identity-batch216",
+      "person_id": "8e371b93-a39f-5295-9ac1-427eee57eadd",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician 3rd Grade Melvin H. Black is confirmed against the exact-name, exact-private-identifier Army record.",
+      "evidence_excerpt": "Exact name and private identifier match.",
+      "evidence_paraphrase": "The official Army merged file contains an exact name and private-identifier match for Melvin H. Black.",
+      "identity_match_assessment": "The exact private identifier and full indexed name confirm identity.",
+      "temporal_assessment": "The Army record documents entry on March 25, 1942 and a civilian occupation group, but not the date of OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier is withheld publicly. The identity resolution does not establish a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 37",
+          "excerpt_override": "BLACK MELVIN H T-3"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "melvin-h-black-compositor-typesetter-claim-batch216",
+      "person_id": "8e371b93-a39f-5295-9ac1-427eee57eadd",
+      "affiliation_key": "melvin-h-black-compositor-typesetter-batch216",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on March 25, 1942, Melvin H. Black's recorded civilian occupation group was compositors and typesetters.",
+      "evidence_excerpt": "Code 444: Compositors and typesetters.",
+      "evidence_paraphrase": "The exact official Army record carries code 444, which NARA's code list defines as compositors and typesetters.",
+      "identity_match_assessment": "The exact private identifier confirms that the Army record is the indexed Melvin H. Black.",
+      "temporal_assessment": "The dated Army-entry record is strongly bounded evidence before his indexed Technician 3rd Grade service, but it names no employer and gives no OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified occupation finding and excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-38-batch216",
+          "support_type": "supports",
+          "locator_override": "PDF page 38, row 37"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch216",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch216",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch216",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF page 173"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "16aae669-cbb2-5689-a16e-5ef3f5ac841f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Charlotte A. Black, civilian grade CAF-7, and Box 58 but no private identifier. Public NARA and CIA checks, exact-name OSS variants, Library of Congress searching, and employment, occupation, newspaper, obituary, directory, institutional, and archival searches returned no candidate with a direct OSS linkage or two corroborating wartime identifiers.",
+      "name_variants": [
+        "Charlotte A Black",
+        "Charlotte A. Black",
+        "Black, Charlotte A."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, the meaning of CAF-7, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "28e4ebcf-a417-5b1c-b968-9367cc5f22c9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Dorothy H. Black, civilian grade CAF-6, and Box 58 but no private identifier. Public NARA and CIA checks, exact-name OSS variants, Library of Congress searching, and employment, occupation, newspaper, obituary, directory, institutional, and archival searches returned no candidate with a direct OSS linkage or two corroborating wartime identifiers.",
+      "name_variants": [
+        "Dorothy H Black",
+        "Dorothy H. Black",
+        "Black, Dorothy H."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, the meaning of CAF-6, occupation, employer, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "89414da4-0e0b-5a57-8b69-ce56f5c5b92f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Lieutenant Colonel Edwin E. Black, a private officer identifier, and Box 58. Public NARA and CIA checks, exact-name and rank variants, Library of Congress searching, and military, employment, newspaper, obituary, institutional, and archival searches did not establish a public record with corroborating OSS identifiers.",
+      "name_variants": [
+        "Edwin E Black",
+        "Edwin E. Black",
+        "Lt. Col. Edwin E. Black",
+        "Black, Edwin E."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or military assignment has yet been identified in the accessible sources reviewed. Review Box 58 for full identity, branch, unit, prior civilian employment, and OSS transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "cd751516-802d-5cd0-9d8e-f07a068eca39",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact private identifier and name. The Army record adds the suffix Jr. and records entry on September 2, 1942.",
+      "name_variants": [
+        "James M Black",
+        "James M. Black",
+        "James M Black Jr",
+        "James M. Black Jr.",
+        "Black, James M. Jr."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies a broad chemistry, assaying, or metallurgy occupation group but no employer. Review Box 59 for a named pre-service employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5c4676e-66af-5075-964d-aff1dfe0c29a",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact private identifier and full name. The Army record documents entry on September 17, 1942.",
+      "name_variants": [
+        "Jay R Black",
+        "Jay R. Black",
+        "Black, Jay R."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies student status but no educational institution or employer. Review Box 59 for the school, any pre-service employment, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8b8be7bb-2f77-5c03-963b-b56f3e9f8655",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact private identifier and full name. The Army record documents entry on November 14, 1941.",
+      "name_variants": [
+        "Kenneth V Black",
+        "Kenneth V. Black",
+        "Black, Kenneth V."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies dairy farmer as an occupation but no farm, ownership status, or employer. Review Box 59 for a named pre-service employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9684f939-2e4d-5784-a751-1b9fd5c9187d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only Laura Black and Box 59, without a middle name, grade, rank, or private identifier. Public NARA and CIA checks, exact-name OSS variants, Library of Congress searching, and employment, occupation, newspaper, obituary, directory, institutional, and archival searches produced numerous namesakes but no candidate with two corroborating wartime identifiers.",
+      "name_variants": [
+        "Laura Black",
+        "Black, Laura"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 59 to establish full identity, personnel status, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "03ebbe45-7a96-5d86-9c2c-11f7875388ef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index identifies Captain Lloyd Black. A scholarly chapter reproduces an OSS order sending Lloyd Black with the Map Division team to Gotha in April 1945, and an independent scholarly article quotes a December 1947 archival letter naming Cpt. Lloyd D. Black in the same German-geography context.",
+      "name_variants": [
+        "Lloyd Black",
+        "Lloyd D Black",
+        "Lloyd D. Black",
+        "Black, Lloyd",
+        "Black, Lloyd D."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "The accessible sources establish a high-confidence OSS identity but no reliable pre-OSS employer. Review Box 59 for confirmation of the middle initial, prior military or civilian affiliation, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "31370bc8-8785-52a9-bd68-a86aacec9223",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Luana S. Black, the unfamiliar grade DCAF-4, and Box 59 but no private identifier. The grade is preserved without expansion. Public NARA and CIA checks, exact-name OSS variants, Library of Congress searching, and employment, occupation, newspaper, obituary, directory, institutional, and archival searches returned no candidate with a direct OSS linkage or two corroborating wartime identifiers.",
+      "name_variants": [
+        "Luana S Black",
+        "Luana S. Black",
+        "Black, Luana S."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 59 to establish full identity, the meaning of DCAF-4, personnel status, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8e371b93-a39f-5295-9ac1-427eee57eadd",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact private identifier and full name. The Army record documents entry on March 25, 1942.",
+      "name_variants": [
+        "Melvin H Black",
+        "Melvin H. Black",
+        "Black, Melvin H."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies a compositor or typesetter occupation group but no employer. Review Box 59 for the exact job, a named pre-service employer, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "charlotte-a-black-protocol-batch216",
+      "person_id": "16aae669-cbb2-5689-a16e-5ef3f5ac841f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Charlotte A. Black; CAF-7; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current search; employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Genealogy, modern directory, obituary, and common-name candidates lacked a Box 58 reference, CAF-7 linkage, OSS evidence, or two corroborating wartime identifiers.",
+      "research_notes": "The civilian grade is preserved without expanding it into an unsupported title. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "dorothy-h-black-protocol-batch216",
+      "person_id": "28e4ebcf-a417-5b1c-b968-9367cc5f22c9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Dorothy H. Black; CAF-6; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current search; employment, occupation, government, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Genealogy, modern directory, obituary, and common-name candidates lacked a Box 58 reference, CAF-6 linkage, OSS evidence, or two corroborating wartime identifiers.",
+      "research_notes": "The civilian grade is preserved without expanding it into an unsupported title. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 58 for full identity, personnel classification, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "edwin-e-black-protocol-batch216",
+      "person_id": "89414da4-0e0b-5a57-8b69-ce56f5c5b92f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Edwin E. Black; Lieutenant Colonel; private officer identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name, rank, military-unit, OSS, employment, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Officer and namesake candidates did not expose the indexed private identifier, Box 58, an OSS linkage, or two corroborating wartime identifiers.",
+      "research_notes": "The index establishes commissioned rank but accessible sources did not establish the person's full identity, prior unit, or civilian employer.",
+      "next_action": "Review Box 58 for full identity, branch, unit, prior civilian employment, and OSS transfer chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "james-m-black-protocol-batch216",
+      "person_id": "cd751516-802d-5cd0-9d8e-f07a068eca39",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James M. Black; James M. Black Jr.; Technician 5th Grade; private identifier; official Army merged file; occupation code 007; visually verified NARA index; public NARA and CIA checks; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name biographies, obituaries, directories, and genealogy candidates lacked the exact private identifier or a corroborating OSS linkage; the Army record names no employer.",
+      "research_notes": "The exact Army match confirms identity, the Jr. variant, and a broad chemistry, assaying, or metallurgy occupation group at Army entry.",
+      "next_action": "Review Box 59 for a named pre-service employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "jay-r-black-protocol-batch216",
+      "person_id": "b5c4676e-66af-5075-964d-aff1dfe0c29a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Jay R. Black; Private First Class; private identifier; official Army merged file; student code 992; visually verified NARA index; public NARA and CIA checks; exact-name OSS, school, employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Namesake, school, obituary, directory, and genealogy candidates lacked the exact private identifier or a corroborating OSS linkage; the Army record names no school or employer.",
+      "research_notes": "The exact Army match confirms identity and student status at Army entry. Student status is not treated as employment.",
+      "next_action": "Review Box 59 for the educational institution, any pre-service employment, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "kenneth-v-black-protocol-batch216",
+      "person_id": "8b8be7bb-2f77-5c03-963b-b56f3e9f8655",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Kenneth V. Black; Sergeant; private identifier; official Army merged file; occupation code 304; visually verified NARA index; public NARA and CIA checks; exact-name OSS, dairy, farm, employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesake, farm, obituary, directory, and genealogy candidates lacked the exact private identifier or a corroborating OSS linkage; the Army record names no farm or employer.",
+      "research_notes": "The exact Army match confirms identity and dairy farmer as the occupation at Army entry; ownership and employer remain unknown.",
+      "next_action": "Review Box 59 for a farm or employer name and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "laura-black-protocol-batch216",
+      "person_id": "9684f939-2e4d-5784-a751-1b9fd5c9187d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Laura Black; no indexed middle name, rank, grade, or private identifier; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current search; employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Numerous modern and historical namesakes lacked a Box 59 reference, an OSS linkage, or two corroborating wartime identifiers; the index provides no disambiguating middle name, rank, grade, or identifier.",
+      "research_notes": "The sparse index row prevents reliable online identity resolution. No employer candidate was accepted.",
+      "next_action": "Review Box 59 to establish full identity, personnel status, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "lloyd-black-protocol-batch216",
+      "person_id": "03ebbe45-7a96-5d86-9c2c-11f7875388ef",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Lloyd Black; Lloyd D. Black; Captain; private officer identifier; OSS Map Division; Gotha; Justus Perthes; German Geography: War Work and Present Status; visually verified NARA index; public NARA and CIA checks; exact-name, military, geography, university, employment, obituary, directory, scholarly, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Later-career university and State Department references did not establish pre-OSS chronology; common-name obituaries and directories lacked the officer identifier or OSS context; discovery-only biographies were not accepted.",
+      "research_notes": "Two independent scholarly sources support a high-confidence Captain Lloyd D. Black identity and wartime map-recovery activity, but neither establishes a pre-OSS employer.",
+      "next_action": "Review Box 59 to confirm the middle initial and determine the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "luana-s-black-protocol-batch216",
+      "person_id": "31370bc8-8785-52a9-bd68-a86aacec9223",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Luana S. Black; DCAF-4 preserved without expansion; visually verified NARA index; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; Library of Congress current search; employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Modern namesakes and sparse directory or genealogy leads lacked a Box 59 reference, DCAF-4 linkage, OSS evidence, or two corroborating wartime identifiers.",
+      "research_notes": "The unfamiliar grade remains unexpanded and the personnel category remains indeterminate. No reliable identity or employer candidate was found.",
+      "next_action": "Review Box 59 to establish full identity, the meaning of DCAF-4, personnel status, employment history, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    },
+    {
+      "key": "melvin-h-black-protocol-batch216",
+      "person_id": "8e371b93-a39f-5295-9ac1-427eee57eadd",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Melvin H. Black; Technician 3rd Grade; private identifier; official Army merged file; occupation code 444; visually verified NARA index; public NARA and CIA checks; exact-name OSS, printing, employment, occupation, institutional, newspaper, obituary, directory, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T01:10:00+00:00",
+      "completed_at": "2026-08-08T02:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesake, printing-trade, obituary, directory, and genealogy candidates lacked the exact private identifier or a corroborating OSS linkage; the Army record names no employer.",
+      "research_notes": "The exact Army match confirms identity and a compositor or typesetter occupation group at Army entry.",
+      "next_action": "Review Box 59 for the exact printing occupation, a named pre-service employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch216-v1"
+    }
+  ]
+}

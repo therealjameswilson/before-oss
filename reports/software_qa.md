@@ -1,24 +1,24 @@
 # Software QA
 
-Run: 2026-08-07 UTC
+Run: 2026-08-08 UTC
 
 - Python unit tests: **69 / 69 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,329 pages**
 - Internal link check: **24,329 HTML files passed**
-- Complete browser and accessibility matrix: **687 / 687 passed** across
+- Complete browser and accessibility matrix: **690 / 690 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`339a8d0c4fc43cbff82c2eae403da9655cd8fbbf5543807987e9530416c755c7`)
-- Latest deterministic build (Batch 215): **byte-for-byte identical** across
+  (`bfe4466e687792f15370b1cec017f7d35c473a4346d90473c0e6b0a3fd8bf2b8`)
+- Latest deterministic build (Batch 216): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `7c75c69e4a91e1d40b73638c95b5af57aabee4ecfaad0a7bc282669ab10a9c53`
+  `519758e666ba3ea356a20c6607be2f8a1aa8a6fb885e4163d6a7f202fbe5e386`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -29,10 +29,10 @@ Run: 2026-08-07 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,515** public records representing **1,159** unique documents
-- Private citation records: **2,520**
-- Published, qualified, or conflict-visible affiliations: **803**
-- Published or conflict-visible claims: **1,564**
+- Reviewed public sources: **1,521** public records representing **1,161** unique documents
+- Private citation records: **2,526**
+- Published, qualified, or conflict-visible affiliations: **807**
+- Published or conflict-visible claims: **1,573**
 - Verified-affiliation metric: **313** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **172** people with confirmed/high published
@@ -107,6 +107,48 @@ Run: 2026-08-07 UTC
   matrix passed locally
 - Batch 215 local release checks: **passed**; the complete **687-case** browser
   matrix passed locally
+- Batch 216 local release checks: **passed**; the complete **690-case** browser
+  matrix passed locally
+
+## Batch 216 local release QA
+
+Batch 216 adds the ten visually checked page-38 source rows from Charlotte A.
+Black through Melvin H. Black, spanning Boxes 58-59. The strict evidence bundle
+imports six sources, four affiliations, nine claims, thirty-one claim-source
+links, ten person updates, and ten durable research attempts. Exact private-
+identifier matches confirm James M. Black Jr., Jay R. Black, Kenneth V. Black,
+and Melvin H. Black. Their dated Army-entry records support four qualified
+occupation or status findings but name no employer, school, farm, or workplace.
+Two independent scholarly sources support a high-confidence OSS identity for
+Captain Lloyd Black and his 1945 map-recovery assignment in Germany, but not a
+pre-OSS employer. Five identities remain explicit Boxes 58-59 archival-review
+cases; `DCAF-4` is preserved without expansion.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,329 pages. The internal-link checker passed all 24,329 HTML
+files and inventoried 49,063 unique external URLs. The focused Batch 216
+regression passed 3 / 3, and the complete single-worker Playwright and axe
+matrix passed 690 / 690 across desktop, phone, and tablet. The production
+dependency audit found zero vulnerabilities.
+
+Consecutive production-site builds produced identical sorted
+path-and-file-SHA-256 tree digests. The complete-site digest is
+`bfe4466e687792f15370b1cec017f7d35c473a4346d90473c0e6b0a3fd8bf2b8`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values; the manifest SHA-256 is
+`519758e666ba3ea356a20c6607be2f8a1aa8a6fb885e4163d6a7f202fbe5e386`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,000 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,399 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 216 database contains 3,179 durable research attempts, 2,526 private
+citation records, 815 affiliations, 391 organizations, and 1,604 claims: 352
+confirmed, 843 high, 346 medium, 31 low, and 32 conflicting. The public
+projection contains 1,521 source records representing 1,161 unique documents,
+807 affiliations, and 1,573 published, qualified, or conflict-visible claims.
 
 ## Batch 215 local release QA
 

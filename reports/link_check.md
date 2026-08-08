@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-07 UTC
+Run: 2026-08-08 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,33 @@ The build includes 23,940 person profiles, 381 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,062 unique external URLs for separate live
+The checker inventoried 49,063 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 216 local release check
+
+The complete 24,329-page internal-link pass includes direct routes for
+Charlotte A. Black through Melvin H. Black on PDF page 38. The 69-test Python
+suite, deterministic 200-profile audit, and clean 690-case desktop, phone, and
+tablet browser matrix passed; Astro reported zero errors, warnings, or hints,
+and the production dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows across Boxes 58-59, literal ranks
+or civilian grades, public-safe identifier masking, identity and research
+states, employer-gap wording, and archival-review routes. It separately checks
+four bounded Army-entry occupation or status findings and Lloyd Black's
+high-confidence OSS map-recovery identity. No broad occupation, school, farm,
+workplace, or later affiliation is silently converted into a verified employer
+or immediate predecessor.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,000
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The manifest SHA-256 is
+`519758e666ba3ea356a20c6607be2f8a1aa8a6fb885e4163d6a7f202fbe5e386`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`bfe4466e687792f15370b1cec017f7d35c473a4346d90473c0e6b0a3fd8bf2b8`.
 
 ## Batch 215 local release check
 

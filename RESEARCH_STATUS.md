@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,949 people with a non-planned attempt | 23,940 active person entities | 8.1412% |
+| Research-attempt coverage | 1,959 people with a non-planned attempt | 23,940 active person entities | 8.1830% |
 | Verified-affiliation coverage | 313 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3074% |
 | Verified-employer coverage | 172 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7185% |
-| Archival-review coverage | 1,898 people with an individual file-access/priority assessment | 23,940 active person entities | 7.9282% |
+| Archival-review coverage | 1,908 people with an individual file-access/priority assessment | 23,940 active person entities | 7.9699% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-07 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 241
-- Identity status `high_confidence`: 396
+- Identity status `confirmed`: 245
+- Identity status `high_confidence`: 397
 - Identity status `probable`: 65
 - Identity status `ambiguous`: 29
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,187
+- Identity status `unresolved`: 23,182
 
 ## Personnel categories
 
@@ -49,14 +49,14 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,991
+- `not_started`: 21,981
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 31
 - `needs_temporal_review`: 5
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 215
-- `requires_archival_review`: 1,339
+- `occupation_only_found`: 219
+- `requires_archival_review`: 1,345
 - `completed`: 68
 - `conflicting_sources`: 22
 - `verified_employer_found`: 170
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,723. The detailed adapter breakdown remains reproducible in
+  adapters: 1,733. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 749 across 723 people; 85 additional
+- Saved `source_reviewed` outcomes: 754 across 728 people; 85 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,169
+- Total recorded attempts/plans: 3,179
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 703; 681 have at least one public-eligible
+- People with saved reviewed claims: 708; 686 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2432,6 +2432,22 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
   and Rose M. Bivens remain unresolved archival-review cases. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
+- Batch 216 covers the next ten contiguous rows on page thirty-eight, Charlotte
+  A. Black through Melvin H. Black, spanning Boxes 58-59. The index page and
+  four relevant official Army occupation-code pages were checked visually.
+  Exact private-identifier matches confirm James M. Black Jr., Jay R. Black,
+  Kenneth V. Black, and Melvin H. Black. Their dated Army-entry records support
+  qualified chemistry-assaying-metallurgy, student, dairy-farmer, and
+  compositor-typesetter findings without naming an employer, school, farm, or
+  workplace. A scholarly chapter based on NARA records reproduces the 1945 OSS
+  order sending Lloyd Black to Gotha for map recovery, while an independent
+  Erdkunde article quotes a dated archival letter naming Cpt. Lloyd D. Black.
+  The combined name, rank, geography, and mission evidence supports a
+  high-confidence identity but not a pre-OSS employer. Charlotte A. Black,
+  Dorothy H. Black, Edwin E. Black, Laura Black, and Luana S. Black remain
+  unresolved archival-review cases; DCAF-4 is preserved without expansion.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
 - Batch 215 covers the next ten contiguous rows on page thirty-eight, Dorothy
   E. Bixby through Frederick J. Blachly, all indexed in Box 58. The index page
   and relevant official Army occupation-code pages were checked visually.
@@ -2450,12 +2466,12 @@ Commissioned classification: 2,177 yes; 5,078 no; 16,685 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 803 (published, qualified, or conflict-visible)
-- Database claims: 1,595; public-visible claims: 1,564 (348 confirmed, 842 high,
-  342 medium, 32 conflicting); 25 low-confidence claims are withheld and six
+- Public-visible affiliations: 807 (published, qualified, or conflict-visible)
+- Database claims: 1,604; public-visible claims: 1,573 (352 confirmed, 843 high,
+  346 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,486 total and 3,420 public-visible; private source
-  records: 2,520; public source export: 1,515; unique source documents: 1,159
+- Claim-source links: 3,517 total and 3,451 public-visible; private source
+  records: 2,526; public source export: 1,521; unique source documents: 1,161
 - Canonical organizations: 391 private and 381 public
 - Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,808
@@ -2496,6 +2512,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-charlotte-black-through-melvin-black-pathways_batch-216_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-dorothy-bixby-through-frederick-blachly-pathways_batch-215_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-raymond-bisson-through-rose-bivens-pathways_batch-214_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-thirty-seven-thirty-eight-francis-bishop-through-malcolm-bissell-pathways_batch-213_2026-08-07.json

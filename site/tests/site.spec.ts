@@ -19017,3 +19017,74 @@ test("Batch 215 publishes page 38 occupations, KSTP employment, and unresolved i
     );
   }
 });
+
+test("Batch 216 publishes page 38 Black occupations and preserves unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["16aae669-cbb2-5689-a16e-5ef3f5ac841f", "Charlotte A Black", "Caf-7", false, "58"],
+    ["28e4ebcf-a417-5b1c-b968-9367cc5f22c9", "Dorothy H Black", "Caf-6", false, "58"],
+    ["89414da4-0e0b-5a57-8b69-ce56f5c5b92f", "Edwin E Black", "Lt Col", true, "58"],
+    ["cd751516-802d-5cd0-9d8e-f07a068eca39", "James M Black", "T-5", true, "59"],
+    ["b5c4676e-66af-5075-964d-aff1dfe0c29a", "Jay R Black", "Pfc", true, "59"],
+    ["8b8be7bb-2f77-5c03-963b-b56f3e9f8655", "Kenneth V Black", "Sgt", true, "59"],
+    ["9684f939-2e4d-5784-a751-1b9fd5c9187d", "Laura Black", "Not printed", false, "59"],
+    ["03ebbe45-7a96-5d86-9c2c-11f7875388ef", "Lloyd Black", "Capt", true, "59"],
+    ["31370bc8-8785-52a9-bd68-a86aacec9223", "Luana S Black", "DCAF-4", false, "59"],
+    ["8e371b93-a39f-5295-9ac1-427eee57eadd", "Melvin H Black", "T-3", true, "59"],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 38");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  const occupationProfiles = [
+    ["cd751516-802d-5cd0-9d8e-f07a068eca39", "Chemist, assayer, or metallurgist"],
+    ["b5c4676e-66af-5075-964d-aff1dfe0c29a", "Student"],
+    ["8b8be7bb-2f77-5c03-963b-b56f3e9f8655", "Dairy farmer"],
+    ["8e371b93-a39f-5295-9ac1-427eee57eadd", "Compositor or typesetter"],
+  ] as const;
+
+  for (const [personId, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/03ebbe45-7a96-5d86-9c2c-11f7875388ef/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Captain Lloyd D. Black");
+  await expect(page.locator("main")).toContainText("OSS map-recovery work in Germany");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const personId of [
+    "16aae669-cbb2-5689-a16e-5ef3f5ac841f",
+    "28e4ebcf-a417-5b1c-b968-9367cc5f22c9",
+    "89414da4-0e0b-5a57-8b69-ce56f5c5b92f",
+    "9684f939-2e4d-5784-a751-1b9fd5c9187d",
+    "31370bc8-8785-52a9-bd68-a86aacec9223",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
