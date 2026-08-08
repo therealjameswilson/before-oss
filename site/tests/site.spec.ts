@@ -19491,3 +19491,125 @@ test("Batch 221 publishes page 39 Blanchard-Blandin pathways without inventing e
   await page.goto("./people/4ea72f00-a576-559f-afcb-4dc56878bd84/");
   await expect(page.locator("main")).toContainText("not applicable to the naval identifier");
 });
+
+test("Batch 222 publishes Blankenhorn and Blatnik pathways while preserving five archival cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["65ef9d3f-5650-5aca-ac72-530536fccbe3", "Richard F Blandin", 39, "Pfc", "60", true],
+    ["48ceb934-ac0c-5317-9817-902372a425f6", "Heber Blankenhorn", 39, "LtCol", "60", true],
+    ["148cdd7f-6ca1-5ae5-8c86-88d0959b255c", "Owen Blankenship", 39, "1st Lt", "60", true],
+    ["6ba35f8b-207c-5d5a-96ca-79ab39b78983", "Bernard Blankin", 39, "S/Sgt", "60", true],
+    ["62f12e05-da68-5be0-8aa6-dc8346ac26c5", "Thomas S Blankley", 39, "Cpl", "60", true],
+    ["4c480cf6-63fc-542e-aa88-bbc528e5fbdd", "Leroy Blardinelli", 40, "Cpl", "61", true],
+    ["8a1ac024-ed01-59b2-9bc7-6471cdfc0a2f", "William A Blascak", 40, "2nd Lt", "61", true],
+    ["2a452ca1-7aec-5e18-bb70-95961f953a59", "Mary L Blaschak", 40, "Caf-5", "61", false],
+    ["e0b16e80-6c98-55a9-9961-d350154734ca", "Edward M Blaszczyk", 40, "Capt", "61", false],
+    ["5c91fbd6-b264-5661-9747-38ea01b8a2cb", "John A Blatnick", 40, "Capt", "61", true],
+  ] as const;
+
+  for (const [personId, displayName, pdfPage, rank, box, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(`Page ${pdfPage}`);
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  for (const [personId, earlierEvidence] of [
+    ["6ba35f8b-207c-5d5a-96ca-79ab39b78983", "Clerks, general office"],
+    ["62f12e05-da68-5be0-8aa6-dc8346ac26c5", "Student"],
+    ["4c480cf6-63fc-542e-aa88-bbc528e5fbdd", "Chauffeurs and drivers"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      earlierEvidence,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/48ceb934-ac0c-5317-9817-902372a425f6/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .getByRole("heading", { name: "United States Army", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "National Labor Relations Board", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Psychological-warfare researcher",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bureau of Industrial Research",
+  );
+  await expect(
+    page.getByRole("link", { name: "The Heber Blankenhorn Collection", exact: true }).first(),
+  ).toHaveAttribute("href", "https://reuther.wayne.edu/files/LP000294.pdf");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "COL Heber Blankenhorn: WWI and WWII Psywar Pioneer",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute("href", "https://arsof-history.org/icons/blankenhorn.html");
+
+  await page.goto("./people/5c91fbd6-b264-5661-9747-38ea01b8a2cb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("John Anton Blatnik");
+  await expect(
+    page
+      .locator('section[aria-labelledby="civilian-employer"]')
+      .getByRole("heading", { name: "St. Louis County, Minnesota", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Chisholm High School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Minnesota",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Minnesota Senate",
+  );
+  await expect(
+    page.getByRole("link", { name: "BLATNIK, John Anton", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://history.house.gov/People/Listing/B/BLATNIK%2C-John-Anton-%28B000550%29/",
+  );
+
+  for (const personId of [
+    "65ef9d3f-5650-5aca-ac72-530536fccbe3",
+    "148cdd7f-6ca1-5ae5-8c86-88d0959b255c",
+    "8a1ac024-ed01-59b2-9bc7-6471cdfc0a2f",
+    "2a452ca1-7aec-5e18-bb70-95961f953a59",
+    "e0b16e80-6c98-55a9-9961-d350154734ca",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/65ef9d3f-5650-5aca-ac72-530536fccbe3/");
+  await expect(page.locator("main")).toContainText("no exact match");
+
+  await page.goto("./people/e0b16e80-6c98-55a9-9961-d350154734ca/");
+  await expect(page.locator("main")).toContainText("Staff Sergeant Edward M. Blaszczyk");
+  await expect(page.locator("main")).toContainText("candidate is rejected rather than merged");
+});

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,009 people with a non-planned attempt | 23,940 active person entities | 8.3918% |
-| Verified-affiliation coverage | 320 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3367% |
-| Verified-employer coverage | 172 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7185% |
-| Archival-review coverage | 1,958 people with an individual file-access/priority assessment | 23,940 active person entities | 8.1788% |
+| Research-attempt coverage | 2,019 people with a non-planned attempt | 23,940 active person entities | 8.4336% |
+| Verified-affiliation coverage | 325 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3576% |
+| Verified-employer coverage | 174 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7268% |
+| Archival-review coverage | 1,968 people with an individual file-access/priority assessment | 23,940 active person entities | 8.2206% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 260
-- Identity status `high_confidence`: 399
+- Identity status `confirmed`: 263
+- Identity status `high_confidence`: 401
 - Identity status `probable`: 66
 - Identity status `ambiguous`: 31
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,162
+- Identity status `unresolved`: 23,157
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,475
+- Unknown or indeterminate: 16,474
 - Enlisted Army personnel: 3,525
-- Commissioned Army officers: 2,069
+- Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -45,21 +45,21 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,177 yes; 5,090 no; 16,673 indeterminate.
+Commissioned classification: 2,178 yes; 5,090 no; 16,672 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,931
+- `not_started`: 21,921
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 34
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 230
-- `requires_archival_review`: 1,379
+- `occupation_only_found`: 233
+- `requires_archival_review`: 1,384
 - `completed`: 69
 - `conflicting_sources`: 22
-- `verified_employer_found`: 170
+- `verified_employer_found`: 172
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,090 no; 16,673 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,783. The detailed adapter breakdown remains reproducible in
+  adapters: 1,793. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 771 across 745 people; 88 additional
+- Saved `source_reviewed` outcomes: 776 across 750 people; 88 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,229
+- Total recorded attempts/plans: 3,239
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 725; 703 have at least one public-eligible
+- People with saved reviewed claims: 730; 708 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2432,6 +2432,33 @@ Commissioned classification: 2,177 yes; 5,090 no; 16,673 indeterminate.
   and Rose M. Bivens remain unresolved archival-review cases. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
+- Batch 222 covers the final five rows on page thirty-nine and the first five
+  rows on page forty, Richard F. Blandin through John A. Blatnick, spanning
+  Boxes 60-61. Both index pages and the relevant official Army occupation-code
+  page were checked visually. Exact private-identifier matches confirm Bernard
+  Blankin, Thomas S. Blankley, and Leroy Blardinelli without exposing those
+  identifiers. Their dated Army-entry records support only a general-office-
+  clerk occupation group, unnamed student status, and a broad chauffeur-or-
+  vehicle-driver occupation group, respectively; none names an employer or
+  proves the later Army-to-OSS sequence. Army and Wayne State institutional
+  histories support a high-confidence Heber Blankenhorn identity. His November
+  1942 Army recommissioning is the strongly date-bounded immediate pre-OSS
+  pathway, while the National Labor Relations Board is separately documented
+  as his last civilian employer through the finding aid's military-leave
+  evidence. His unnamed 1941-42 civil-service psychological-warfare research
+  and earlier New York Evening Sun, Bureau of Industrial Research, and Labor
+  employment remain distinct affiliations. The official House biography
+  supports a high-confidence match between indexed Captain John A. Blatnick
+  and John Anton Blatnik; the final-c index spelling remains recoverable.
+  St. Louis County is his last named employing public body before intervening
+  Minnesota Senate service and University of Minnesota student status, neither
+  of which is mislabeled as private employment. Richard F. Blandin, Owen
+  Blankenship, William A. Blascak, Mary L. Blaschak, and Edward M. Blaszczyk
+  remain unresolved archival-review cases. A rank-mismatched Staff Sergeant
+  Edward M. Blaszczyk and a same-name first-lieutenant Thomas S. Blankley with
+  a different officer identifier were rejected rather than merged. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
 - Batch 221 covers the next ten contiguous rows on page thirty-nine, Helen B.
   Blanchard through Louis Blandin, all indexed in Box 60. The index page and
   the relevant official Army field-layout and occupation-code pages were
