@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,039 people with a non-planned attempt | 23,940 active person entities | 8.5171% |
-| Verified-affiliation coverage | 334 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3952% |
+| Research-attempt coverage | 2,048 people with a non-planned attempt | 23,940 active person entities | 8.5547% |
+| Verified-affiliation coverage | 336 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4035% |
 | Verified-employer coverage | 175 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7310% |
-| Archival-review coverage | 1,988 people with an individual file-access/priority assessment | 23,940 active person entities | 8.3041% |
+| Archival-review coverage | 1,997 people with an individual file-access/priority assessment | 23,940 active person entities | 8.3417% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 270
-- Identity status `high_confidence`: 404
-- Identity status `probable`: 69
+- Identity status `confirmed`: 272
+- Identity status `high_confidence`: 405
+- Identity status `probable`: 70
 - Identity status `ambiguous`: 31
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,144
+- Identity status `unresolved`: 23,140
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,472
-- Enlisted Army personnel: 3,526
+- Unknown or indeterminate: 16,470
+- Enlisted Army personnel: 3,528
 - Commissioned Army officers: 2,070
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,178 yes; 5,093 no; 16,669 indeterminate.
+Commissioned classification: 2,178 yes; 5,096 no; 16,666 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,901
+- `not_started`: 21,892
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 35
+- `needs_identity_review`: 36
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 237
-- `requires_archival_review`: 1,394
+- `occupation_only_found`: 239
+- `requires_archival_review`: 1,400
 - `completed`: 73
 - `conflicting_sources`: 22
 - `verified_employer_found`: 173
@@ -67,15 +67,15 @@ Commissioned classification: 2,178 yes; 5,093 no; 16,669 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,817. The detailed adapter breakdown remains reproducible in
+  adapters: 1,827. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 786 across 760 people; 91 additional
+- Saved `source_reviewed` outcomes: 790 across 763 people; 92 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,259
+- Total recorded attempts/plans: 3,269
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 743; 721 have at least one public-visible
+- People with saved reviewed claims: 747; 725 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2508,6 +2508,26 @@ Commissioned classification: 2,178 yes; 5,093 no; 16,669 indeterminate.
   unresolved archival-review cases. No authenticated Catalog request,
   credential, raw API response, full private identifier, or unsupported
   employer claim was used or published.
+- Batch 225 covers the next ten contiguous rows on page forty, Michel G. Bloch
+  through Wayne T. Blomquist, spanning Boxes 61 and 62. The index page and the
+  relevant official Army field-layout and occupation-code pages were checked
+  visually. Exact private-identifier matches confirm Werner A. Bloch and Wayne
+  T. Blomquist without exposing those identifiers. Werner's record supports
+  only the dated occupation group “collector, bills and accounts”; Wayne's
+  supports only “financial institution clerk, n.e.c.” and a subsequent Army-to-
+  OSS pathway corroborated by his obituary. Neither record names a civilian
+  employer. An Air Force Academy finding aid supports a high-confidence match
+  between Michel G. Bloch and Michel Bloit, formerly Michel Bloch, but does not
+  establish pre-OSS employment. Existing National Park Service evidence keeps
+  Ainsworth Blogg's immediate Army Military Police assignment distinct from an
+  unnamed Seattle insurance-company executive role. Institutional and scholarly
+  sources support only a probable match between the indexed Herbert Block and
+  the New School economic researcher; the profile remains visibly qualified and
+  requires identity review. Albert F. Block, Joseph Block, Jeanne A. Blodgett,
+  William F. Blois, and Jacobus J. Blokker remain unresolved archival-review
+  cases. The famous cartoonist Herbert Block was rejected as a namesake. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
 - Batch 221 covers the next ten contiguous rows on page thirty-nine, Helen B.
   Blanchard through Louis Blandin, all indexed in Box 60. The index page and
   the relevant official Army field-layout and occupation-code pages were
@@ -2638,13 +2658,13 @@ Commissioned classification: 2,178 yes; 5,093 no; 16,669 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 846 (published, qualified, or conflict-visible)
-- Database claims: 1,679; public-visible claims: 1,648 (392 confirmed, 866 high,
-  358 medium, 32 conflicting); 25 low-confidence claims are withheld and six
+- Public-visible affiliations: 851 (published, qualified, or conflict-visible)
+- Database claims: 1,688; public-visible claims: 1,657 (397 confirmed, 868 high,
+  360 medium, 32 conflicting); 25 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,700 total and 3,634 public-visible; private source
-  records: 2,578; public source export: 1,573; unique source documents: 1,184
-- Canonical organizations: 401 private and 391 public
+- Claim-source links: 3,725 total and 3,659 public-visible; private source
+  records: 2,587; public source export: 1,582; unique source documents: 1,190
+- Canonical organizations: 402 private and 392 public
 - Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,805
 
@@ -2684,6 +2704,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-bloch-through-blomquist-pathways_batch-225_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-blatt-through-blend-pathways_batch-223_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-and-forty-blandin-through-blatnick-pathways_batch-222_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-blanchard-through-blandin-pathways_batch-221_2026-08-08.json

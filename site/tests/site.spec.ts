@@ -19842,3 +19842,76 @@ test("Batch 224 publishes four exact Army matches and preserves qualified Bliss 
   await expect(page.locator("main")).toContainText("after OSS dissolution");
 
 });
+
+test("Batch 225 confirms Army records while preserving qualified and unresolved Box 62 cases", async ({
+  page,
+}) => {
+  const profiles = [
+    ["124dbaa1-6426-5afa-be2b-2b0c06df180b", "Michel G Bloch", "61"],
+    ["cc158666-6221-5645-952e-319301ca1c64", "Werner A Bloch", "62"],
+    ["bcf81d1c-aa6f-5bae-a4d0-ead9e47bc563", "Albert F Block", "62"],
+    ["d18776c2-d7f7-5deb-8978-c83415f72ee7", "Herbert Block", "62"],
+    ["d3171667-81a4-5608-9fe1-2f753e3cec0e", "Joseph Block", "62"],
+    ["01c99d8a-9a6f-5a73-8924-7271d949cd28", "Jeanne A Blodgett", "62"],
+    ["c4b9c664-cdcf-56e7-8bd1-eaa7d5c13a4a", "Ainsworth Blogg", "62"],
+    ["cbb7c7b2-091c-5ddd-8e43-87bd1ddc138a", "William F Blois", "62"],
+    ["2ed1a94c-8e2f-59bb-96be-00c9c4f36758", "Jacobus J Blokker", "62"],
+    ["cb2d860f-ef8b-5313-b6f4-e1f16f892b9c", "Wayne T Blomquist", "62"],
+  ] as const;
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 40");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  await page.goto("./people/124dbaa1-6426-5afa-be2b-2b0c06df180b/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Michel Bloit");
+
+  for (const [personId, occupation] of [
+    ["cc158666-6221-5645-952e-319301ca1c64", "Collector, bills and accounts"],
+    ["cb2d860f-ef8b-5313-b6f4-e1f16f892b9c", "Financial institution clerk, n.e.c."],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/cb2d860f-ef8b-5313-b6f4-e1f16f892b9c/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+
+  await page.goto("./people/d18776c2-d7f7-5deb-8978-c83415f72ee7/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "The New School for Social Research",
+  );
+
+  await page.goto("./people/c4b9c664-cdcf-56e7-8bd1-eaa7d5c13a4a/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Military Police",
+  );
+
+  for (const personId of [
+    "bcf81d1c-aa6f-5bae-a4d0-ead9e47bc563",
+    "d3171667-81a4-5608-9fe1-2f753e3cec0e",
+    "01c99d8a-9a6f-5a73-8924-7271d949cd28",
+    "cbb7c7b2-091c-5ddd-8e43-87bd1ddc138a",
+    "2ed1a94c-8e2f-59bb-96be-00c9c4f36758",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+});
