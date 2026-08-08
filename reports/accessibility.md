@@ -4,12 +4,23 @@ Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **693 / 693**
+**PASS.** The complete browser and accessibility matrix passed **696 / 696**
 on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 218 adds a focused direct-route regression for Edith C. Blackmon through
+Henry N. Blair on PDF page 39. It checks all ten indexed names, literal ranks
+or civilian grades, Box 59, public-safe identifier masking, identity and
+research states, employer-gap wording, and archival-review routes. It
+separately verifies the two qualified Army-entry occupation groups and Joseph
+L. Blahunka's documented electronic-file gap without promoting an occupation,
+later namesake, or nonmatching officer record to an employer or identity. Eight
+unsupported identities remain explicit archival-review cases. The focused
+local matrix passed 3 / 3, and the complete 696 / 696 matrix passed in
+[workflow 31260060274](https://github.com/therealjameswilson/before-oss/actions/runs/31260060274).
 
 Batch 217 adds a focused direct-route regression for Robert A. Black through
 Sidney Blackman across PDF pages 38-39. It checks all ten indexed names,

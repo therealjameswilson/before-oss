@@ -7,33 +7,34 @@ Run: 2026-08-08 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,329 pages**
 - Internal link check: **24,329 HTML files passed**
-- Complete browser and accessibility matrix: **693 / 693 passed** on the clean
+- Complete browser and accessibility matrix: **696 / 696 passed** on the clean
   GitHub Actions runner across desktop, phone, and tablet, with no serious or
   critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`4fa0eb2631a3fa514872fa835bb95fe30f4babee17e5d7593984dab04ca8e191`)
-- Latest deterministic build (Batch 217): **byte-for-byte identical** across
+  (`30a14b93c08413369ec18a795e3edf80437d74af4c6596b1f61aae6adc53d134`)
+- Latest deterministic build (Batch 218): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `3192f2e2656c6ad115d790308aba6f208a1f4d214f82e40c4a96aa303c3488af`
+  `92b2fc5da3c645840ca310686d67bfb55c7e101a2c05ecdeb3be7172d09d11a9`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,399** production artifacts, including compressed mirrors.
+  matches** in **24,399** production artifacts, including compressed mirrors;
+  **1,002** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,525** public records representing **1,162** unique documents
-- Private citation records: **2,530**
-- Published, qualified, or conflict-visible affiliations: **810**
-- Published or conflict-visible claims: **1,580**
+- Reviewed public sources: **1,529** public records representing **1,163** unique documents
+- Private citation records: **2,534**
+- Published, qualified, or conflict-visible affiliations: **812**
+- Published or conflict-visible claims: **1,584**
 - Verified-affiliation metric: **313** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **172** people with confirmed/high published
@@ -112,6 +113,54 @@ Run: 2026-08-08 UTC
   matrix passed locally
 - Batch 217 production verification: **passed**; the complete **693-case**
   browser matrix passed on the clean GitHub Actions runner
+- Batch 218 production verification: **passed**; the complete **696-case**
+  browser matrix passed on the clean GitHub Actions runner
+
+## Batch 218 production verification
+
+Batch 218 adds the ten visually checked page-39 source rows from Edith C.
+Blackmon through Henry N. Blair, all in Box 59. The strict evidence bundle
+imports four official sources, two qualified occupation affiliations, four
+claims, twelve claim-source links, ten person updates, and ten durable research
+attempts. Exact private-identifier matches confirm Max E. Blackmon and Francis
+T. Blackwood; their dated Army-entry records support actor-or-actress and
+welder-or-flame-cutter occupation groups without naming an employer. Joseph L.
+Blahunka's identifier falls in a NARA-documented electronic-file gap. Eight
+profiles remain explicit archival-review cases, and nonmatching officer and
+later namesake records remain rejected.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,329 pages. The internal-link checker passed all 24,329 HTML
+files and inventoried 49,063 unique external URLs. The focused Batch 218
+regression passed 3 / 3 locally. The clean GitHub Actions runner passed the
+complete 696 / 696 Playwright and axe matrix across desktop, phone, and tablet
+in [workflow 31260060274](https://github.com/therealjameswilson/before-oss/actions/runs/31260060274).
+The production dependency audit found zero vulnerabilities.
+
+Consecutive local production-site builds produced identical sorted
+path-and-file-SHA-256 tree digests. The complete-site digest is
+`30a14b93c08413369ec18a795e3edf80437d74af4c6596b1f61aae6adc53d134`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values; the local and live manifest SHA-256 is
+`92b2fc5da3c645840ca310686d67bfb55c7e101a2c05ecdeb3be7172d09d11a9`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,002 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,399 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 218 database contains 3,199 durable research attempts, 2,534 private
+citation records, 820 affiliations, 391 organizations, and 1,615 claims: 358
+confirmed, 843 high, 351 medium, 31 low, and 32 conflicting. The public
+projection contains 1,529 source records representing 1,163 unique documents,
+812 affiliations, and 1,584 published, qualified, or conflict-visible claims.
+Pages workflow
+[31260060276](https://github.com/therealjameswilson/before-oss/actions/runs/31260060276)
+completed successfully, the cache-busted live manifest matched the local
+release exactly, and direct Max E. Blackmon, Francis T. Blackwood, and Joseph L.
+Blahunka profile checks returned HTTP 200 with the expected occupation and
+source-gap language.
 
 ## Batch 217 production verification
 

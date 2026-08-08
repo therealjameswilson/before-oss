@@ -15,6 +15,38 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,063 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 218 production check
+
+The complete 24,329-page internal-link pass includes direct routes for Edith C.
+Blackmon through Henry N. Blair on PDF page 39. The 69-test Python suite,
+deterministic 200-profile audit, and clean 696-case desktop, phone, and tablet
+browser matrix passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows in Box 59, literal ranks or
+civilian grades, public-safe identifier masking, identity and research states,
+employer-gap wording, and archival-review routes. It separately checks two
+bounded Army-entry occupation groups and Joseph L. Blahunka's documented
+electronic-file gap. No occupation group, later namesake, or nonmatching Army
+record is silently converted into a verified employer or identity.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,002
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The local and live manifest
+SHA-256 is
+`92b2fc5da3c645840ca310686d67bfb55c7e101a2c05ecdeb3be7172d09d11a9`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`30a14b93c08413369ec18a795e3edf80437d74af4c6596b1f61aae6adc53d134`.
+
+Pages workflow
+[31260060276](https://github.com/therealjameswilson/before-oss/actions/runs/31260060276)
+completed successfully. The cache-busted live manifest matched the local
+release exactly, and direct Max E. Blackmon, Francis T. Blackwood, and Joseph L.
+Blahunka profile checks returned HTTP 200 with their expected occupation and
+source-gap language.
+
 ## Batch 217 production check
 
 The complete 24,329-page internal-link pass includes direct routes for Robert
