@@ -20115,3 +20115,101 @@ test("Batch 227 documents Bluechel, Bluh, and Blue while preserving Box 62 uncer
     );
   }
 });
+
+test("Batch 228 documents Blumenthal, Blythin, Boak, and Boals while preserving Boxes 62-63 uncertainty", async ({
+  page,
+}) => {
+  const profiles = [
+    ["4b0607a2-30ec-5d8e-82ba-2950d2ccf903", "Stanley A Blumberg", "62", false],
+    ["02d16e72-4ab4-5b05-b716-d5ec0ad54f56", "W P Blumenfeld", "62", false],
+    ["f31c679c-4ab4-5ce5-8baa-e4480a6fa0f3", "Frances B Blumenthal", "62", false],
+    ["48789fcd-e619-520d-ab7d-0e4a07c35c16", "Peter J Blumenthal", "62", true],
+    ["c2b7f334-2fec-51fc-a070-61f407551624", "Solomon J Blumenthal", "63", true],
+    ["4b0b0048-0c0b-51b4-8c2d-6da2f67eb131", "William A Blumhagen", "63", false],
+    ["21782af2-0d84-5da2-874d-2d63fd46f075", "David Blythe", "63", false],
+    ["c821f35b-b8be-5fe2-a0a7-62a617266314", "Robert Blythin", "63", true],
+    ["79353257-9643-5983-85d6-86479a7aeb46", "David G Boak", "63", true],
+    ["3f1991cf-5b59-598a-ba52-c4bf98077b8e", "James L Boals", "63", true],
+  ] as const;
+
+  for (const [personId, displayName, box, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 41");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/f31c679c-4ab4-5ce5-8baa-e4480a6fa0f3/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "American University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bachelor of Arts graduate",
+  );
+  await expect(
+    page.locator('a[href="https://www.loc.gov/resource/sn83045462/1942-06-09/ed-1/?sp=4"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/c2b7f334-2fec-51fc-a070-61f407551624/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Clerk, general office",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/c821f35b-b8be-5fe2-a0a7-62a617266314/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Blythin & Mintz",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Attorney and counselor at law",
+  );
+  await expect(
+    page.locator('a[href="https://collections.americanjewisharchives.org/ms/ms4787/ms4787.127.045.0176.pdf"]').first(),
+  ).toBeVisible();
+  await expect(
+    page.locator('a[href="https://s3.amazonaws.com/NARAprodstorage/lz/mopix/111/adc/Cards/111-adc-5490.pdf"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/79353257-9643-5983-85d6-86479a7aeb46/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "a college in North Carolina",
+  );
+  await expect(
+    page.locator('a[href="https://www.cia.gov/resources/csi/static/Intel-Officers-Bookshelf-60.3.pdf"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/3f1991cf-5b59-598a-ba52-c4bf98077b8e/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Shipping and receiving clerk",
+  );
+  await expect(
+    page.locator('a[href="https://www.nps.gov/articles/daily-life-in-camp-park-and-town.htm"]').first(),
+  ).toBeVisible();
+
+  for (const [personId, identityStatus] of [
+    ["4b0607a2-30ec-5d8e-82ba-2950d2ccf903", "unresolved"],
+    ["02d16e72-4ab4-5b05-b716-d5ec0ad54f56", "unresolved"],
+    ["48789fcd-e619-520d-ab7d-0e4a07c35c16", "ambiguous"],
+    ["4b0b0048-0c0b-51b4-8c2d-6da2f67eb131", "unresolved"],
+    ["21782af2-0d84-5da2-874d-2d63fd46f075", "ambiguous"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText(identityStatus, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

@@ -1,0 +1,1007 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-batch228-v1",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-41-batch228",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 62-63",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 41, rows 10-19; Stanley A. Blumberg through James L. Boals; visually checked at original resolution",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch228",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier matches for Solomon J. Blumenthal, David G. Boak, and James L. Boals; one rare exact-name Robert Blythin row; name-only candidates for Peter J. Blumenthal and David Blythe",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch228",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Digital PDF pages 44-45 defining the fixed-width name, Army-entry date, grade, and civilian-occupation fields; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines an Army-entry file and warns that merged records contain interpreted fields and gaps. Civilian occupation was recorded at Army entry and does not name an employer."
+    },
+    {
+      "key": "nara-army-occupation-code-list-batch228",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Code List",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "Reference copy modified 2011",
+      "locator": "Digital PDF page 171; codes 0-22, 1-05, and 1-34; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official code list maps the broad civilian-occupation categories. The codes do not identify an employer, workplace, exact job title, or OSS-entry date."
+    },
+    {
+      "key": "berkeley-censoc-enlistment-codebook-batch228",
+      "stable_url": "https://censoc.berkeley.edu/wp-content/uploads/2024/07/censoc_enlistment_numident_v2.1_codebook.pdf",
+      "archival_identifier": "CenSoc Enlistment-Numident V2.1 Codebook",
+      "title": "CenSoc Enlistment-Numident V2.1 Codebook",
+      "author_creator": "CenSoc Project",
+      "repository_publisher": "University of California, Berkeley",
+      "publication_record_date": "2024-07-30",
+      "locator": "Digital PDF page 33, civilian_occupation_enlistment; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CenSoc Enlistment-Numident data documentation",
+      "rights_notes": "Institutional codebook derived from the NARA enlistment records. It identifies code 992 as Student. The code denotes status at Army entry, not a school, employer, workplace, or OSS-entry date."
+    },
+    {
+      "key": "cia-studies-intelligence-boak-batch228",
+      "stable_url": "https://www.cia.gov/resources/csi/static/Intel-Officers-Bookshelf-60.3.pdf",
+      "archival_identifier": "Studies in Intelligence, volume 60, number 3",
+      "title": "Intelligence Officer's Bookshelf",
+      "author_creator": "Hayden Peake",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2016-09",
+      "locator": "Printed page 54, digital PDF page 10; review of OSS: Red Group 2; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "Official institutional review of David G. Boak's memoir. The review corroborates his North Carolina college status and OSS Operational Group service but does not identify the college."
+    },
+    {
+      "key": "nps-daily-life-boals-batch228",
+      "stable_url": "https://www.nps.gov/articles/daily-life-in-camp-park-and-town.htm",
+      "archival_identifier": "OSS Training in the National Parks and Service Abroad in World War II, chapter 7, note 38",
+      "title": "Daily Life in Camp, Park and Town",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2017-07-27",
+      "locator": "Section on OSS trainee security and note 38; James L. Boals III identified as an Area C trainee in 1944 and as a 2007 correspondent",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Official NPS history based on the author's correspondence with Boals. A short project-authored excerpt is retained."
+    },
+    {
+      "key": "nara-signal-corps-blythin-batch228",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/lz/mopix/111/adc/Cards/111-adc-5490.pdf",
+      "archival_identifier": "Record Group 111, ADC 5490, Accession III-NAV-210",
+      "title": "Signal Corps motion-picture card: Lt. Gen. Anton Dostler, German War Criminal Trial",
+      "author_creator": "Army Pictorial Center",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-10-09",
+      "locator": "Single-page motion-picture card; Capt. Robert Blythin identified as a U.S. OSS officer at the Dostler trial; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of the Chief Signal Officer, Record Group 111",
+      "rights_notes": "Official wartime motion-picture documentation. It establishes rank and OSS role, not pre-OSS employment."
+    },
+    {
+      "key": "aja-blythin-mintz-letter-batch228",
+      "stable_url": "https://collections.americanjewisharchives.org/ms/ms4787/ms4787.127.045.0176.pdf",
+      "archival_identifier": "MS-4787, box 127, folder 45, item 176",
+      "title": "Letter from Alexander Mintz to Abba Hillel Silver",
+      "author_creator": "Alexander Mintz; Blythin & Mintz",
+      "repository_publisher": "Jacob Rader Marcus Center of the American Jewish Archives",
+      "publication_record_date": "1938-11-15",
+      "locator": "Digital PDF page 121; Blythin & Mintz letterhead lists Robert Blythin among the firm's attorneys and counselors at law; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Abba Hillel Silver Digital Collection",
+      "rights_notes": "Institutional archive image. The project stores citation metadata, a short excerpt, and project-authored assessment rather than republishing the document."
+    },
+    {
+      "key": "loc-evening-star-frances-blumenthal-batch228",
+      "stable_url": "https://www.loc.gov/resource/sn83045462/1942-06-09/ed-1/?sp=4",
+      "archival_identifier": "LCCN sn83045462; 1942-06-09, edition 1, image 4",
+      "title": "Democracy Needs Dynamism, Seniors of American U. Told",
+      "author_creator": "The Evening Star",
+      "repository_publisher": "Library of Congress, Chronicling America",
+      "publication_record_date": "1942-06-09",
+      "locator": "The Evening Star, page A-2, left column; list of American University Bachelor of Arts graduates; issue image and current LoC API text visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "Contemporary newspaper page accessed through the Library of Congress. The project stores citation metadata, a brief excerpt, and its own identity assessment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "american-university",
+      "canonical_name": "American University",
+      "historical_name": "American University",
+      "aliases": [
+        "American U."
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1893-present",
+      "normalization_notes": "The newspaper's abbreviated American U. is normalized to American University. The relationship is student status, not employment."
+    },
+    {
+      "key": "blythin-and-mintz",
+      "canonical_name": "Blythin & Mintz",
+      "historical_name": "Blythin & Mintz",
+      "aliases": [],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "Documented in 1938",
+      "normalization_notes": "The historical firm name is preserved exactly as printed. No successor firm or later continuity is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "frances-b-blumenthal-american-university-student-batch228",
+      "person_id": "f31c679c-4ab4-5ce5-8baa-e4480a6fa0f3",
+      "organization_key": "american-university",
+      "organization_name_as_found": "American University",
+      "role_title": "Bachelor of Arts graduate",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942-06-08",
+      "date_precision": "The newspaper reports the university's June 8, 1942 commencement and lists Frances B. Blumenthal among Bachelor of Arts graduates; enrollment dates are unknown.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact full name, Washington location, and June 1942 date make this a plausible match, but the index lacks a private identifier, rank, or second corroborating biographical identifier. Student status is not employment."
+    },
+    {
+      "key": "solomon-j-blumenthal-clerk-at-army-entry-batch228",
+      "person_id": "c2b7f334-2fec-51fc-a070-61f407551624",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Clerk, general office",
+      "occupation": "clerk, general office",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-03-19",
+      "date_precision": "Recorded as civilian-occupation code 1-05 at Army entry on March 19, 1942; no employer, workplace, or start date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact private identifier confirms identity. The broad occupation category is tied to Army entry, not proven to be an employer or the immediate predecessor to OSS."
+    },
+    {
+      "key": "robert-blythin-blythin-mintz-attorney-batch228",
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "organization_key": "blythin-and-mintz",
+      "organization_name_as_found": "BLYTHIN & MINTZ",
+      "role_title": "Attorney and counselor at law",
+      "occupation": "attorney",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1938-11-15",
+      "date_precision": "Robert Blythin appears on the firm's letterhead dated November 15, 1938; start, end, partnership status, and later continuity are not established.",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The rare exact name appears in a 1938 Cleveland law-firm archive, a unique exact-name Army-entry record with the lawyer occupation category, and an official 1945 OSS captain record. The firm cannot yet be labeled the last civilian employer."
+    },
+    {
+      "key": "robert-blythin-lawyer-at-army-entry-batch228",
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Lawyer or judge",
+      "occupation": "lawyer",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-06-18",
+      "date_precision": "The unique exact-name Army row carries civilian-occupation code 0-22 at entry on June 18, 1942; the category does not distinguish lawyer from judge or name an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The rare name, 1938 law-firm record, matching occupation, plausible chronology, and 1945 official OSS captain record support the high-confidence linkage. The Army and officer identifiers differ and are not treated as an exact identifier match."
+    },
+    {
+      "key": "david-g-boak-student-at-army-entry-batch228",
+      "person_id": "79353257-9643-5983-85d6-86479a7aeb46",
+      "organization_key": null,
+      "organization_name_as_found": "a college in North Carolina",
+      "role_title": "Student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-04-28",
+      "date_precision": "The exact-identifier Army row records student status at entry on April 28, 1943; the CIA institutional review says his North Carolina college study was interrupted by the war but does not name the college.",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Student is a status, not an employer. The school, course, start date, and transition from Army service to OSS in early 1944 remain unidentified."
+    },
+    {
+      "key": "james-l-boals-shipping-clerk-at-army-entry-batch228",
+      "person_id": "3f1991cf-5b59-598a-ba52-c4bf98077b8e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Shipping and receiving clerk",
+      "occupation": "shipping and receiving clerk",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-01-02",
+      "date_precision": "Recorded as civilian-occupation code 1-34 at Army entry on January 2, 1943; no employer, workplace, or start date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact private identifier confirms the Army linkage, and NPS independently identifies James L. Boals III as a 1944 Area C trainee. The broad Army-entry occupation does not name an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "frances-b-blumenthal-american-university-claim-batch228",
+      "person_id": "f31c679c-4ab4-5ce5-8baa-e4480a6fa0f3",
+      "affiliation_key": "frances-b-blumenthal-american-university-student-batch228",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable match for Frances B. Blumenthal received a Bachelor of Arts from American University in June 1942.",
+      "evidence_excerpt": "Blumenthal, Frances B.",
+      "evidence_paraphrase": "The contemporary commencement report lists Frances B. Blumenthal among American University's Bachelor of Arts graduates.",
+      "identity_match_assessment": "The exact full name, Washington location, and June 1942 date support a probable match, but the index supplies no private identifier, rank, hometown, or second biographical identifier.",
+      "temporal_assessment": "The degree was awarded in June 1942 and is documented prewar or wartime-before-OSS context; no OSS recruitment date or immediate sequence is established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is displayed as a qualified student affiliation, not an employer. Box 62 must confirm that the graduate and indexed person are the same woman.",
+      "sources": [
+        {
+          "source_key": "loc-evening-star-frances-blumenthal-batch228",
+          "support_type": "supports",
+          "locator_override": "Page A-2, left column, Bachelor of Arts list",
+          "excerpt_override": "Blumenthal, Frances B."
+        },
+        {
+          "source_key": "nara-oss-index-page-41-batch228",
+          "support_type": "supports",
+          "locator_override": "PDF page 41, row 12"
+        }
+      ]
+    },
+    {
+      "key": "solomon-j-blumenthal-confirmed-identity-batch228",
+      "person_id": "c2b7f334-2fec-51fc-a070-61f407551624",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Solomon J. Blumenthal is confirmed as the Army private recorded in the official enlistment file.",
+      "evidence_excerpt": "BLUMENTHAL SOLOMON J",
+      "evidence_paraphrase": "The OSS index and official Army merged file agree on the exact name and private identifier.",
+      "identity_match_assessment": "Exact agreement on first name, middle initial, surname, and private identifier confirms the identity.",
+      "temporal_assessment": "The Army record documents entry on March 19, 1942; it does not establish the date or pathway into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld publicly. Exact-name public searches produced no conflicting wartime candidate.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-41-batch228",
+          "support_type": "supports",
+          "locator_override": "PDF page 41, row 14; private identifier withheld",
+          "excerpt_override": "BLUMENTHAL SOLOMON J"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch228",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "solomon-j-blumenthal-clerk-occupation-claim-batch228",
+      "person_id": "c2b7f334-2fec-51fc-a070-61f407551624",
+      "affiliation_key": "solomon-j-blumenthal-clerk-at-army-entry-batch228",
+      "claim_type": "occupation",
+      "claim_text": "Solomon J. Blumenthal was recorded in the general-office clerk occupation category when he entered the Army in March 1942.",
+      "evidence_excerpt": "1-05. Clerks, general office",
+      "evidence_paraphrase": "The exact-matched Army row carries civilian-occupation code 1-05, which the official NARA code list maps to Clerks, general office.",
+      "identity_match_assessment": "The exact private-identifier match confirms that the Army-entry row belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on March 19, 1942, but not proven to be his immediate status before OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The occupation category is not an employer. No company, office, location, detailed job title, or Army-to-OSS chronology is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 105"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch228",
+          "support_type": "context_only",
+          "locator_override": "Digital PDF page 45; civilian occupation in columns 70-72"
+        },
+        {
+          "source_key": "nara-army-occupation-code-list-batch228",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 171",
+          "excerpt_override": "1-05. Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "robert-blythin-high-confidence-identity-batch228",
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert Blythin is a high-confidence match to the Army captain documented as a U.S. OSS officer in October 1945.",
+      "evidence_excerpt": "Capt Robert Blythin, US, OSS officer",
+      "evidence_paraphrase": "An official Signal Corps motion-picture card identifies Captain Robert Blythin as a U.S. OSS officer at the Dostler trial.",
+      "identity_match_assessment": "The rare exact name, officer-range index identifier, official captain designation, 1938 legal record, and unique exact-name Army row form a coherent chronology.",
+      "temporal_assessment": "The Signal Corps card documents OSS service on October 9, 1945; it does not itself establish pre-OSS employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No second source reproduces the index identifier, so the match is high confidence rather than confirmed. The separate enlisted and officer identifiers are not treated as a contradiction.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-41-batch228",
+          "support_type": "supports",
+          "locator_override": "PDF page 41, row 17; private identifier withheld",
+          "excerpt_override": "BLYTHIN ROBERT"
+        },
+        {
+          "source_key": "nara-signal-corps-blythin-batch228",
+          "support_type": "supports",
+          "locator_override": "Single-page ADC 5490 motion-picture card",
+          "excerpt_override": "Capt Robert Blythin, US, OSS officer"
+        },
+        {
+          "source_key": "aja-blythin-mintz-letter-batch228",
+          "support_type": "context_only",
+          "locator_override": "Digital PDF page 121; rare exact name on 1938 law-firm letterhead"
+        }
+      ]
+    },
+    {
+      "key": "robert-blythin-blythin-mintz-claim-batch228",
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "affiliation_key": "robert-blythin-blythin-mintz-attorney-batch228",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In November 1938, Robert Blythin was an attorney with the Cleveland law firm Blythin & Mintz.",
+      "evidence_excerpt": "BLYTHIN & MINTZ — ATTORNEYS AND COUNSELORS AT LAW — ROBERT BLYTHIN",
+      "evidence_paraphrase": "A dated Blythin & Mintz letterhead lists Robert Blythin among the firm's attorneys and counselors at law.",
+      "identity_match_assessment": "The rare exact name aligns with the official OSS captain record and the unique exact-name Army row, whose occupation category is lawyer or judge.",
+      "temporal_assessment": "Explicitly documented on November 15, 1938. The evidence does not prove that the firm remained his employer until Army or OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The firm is published as other documented pre-OSS employment, not as the immediate affiliation or last civilian employer before service.",
+      "sources": [
+        {
+          "source_key": "aja-blythin-mintz-letter-batch228",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 121, letterhead dated November 15, 1938",
+          "excerpt_override": "BLYTHIN & MINTZ — ATTORNEYS AND COUNSELORS AT LAW — ROBERT BLYTHIN"
+        },
+        {
+          "source_key": "nara-signal-corps-blythin-batch228",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "context_only",
+          "locator_override": "Unique exact-name row with civilian-occupation code 022"
+        }
+      ]
+    },
+    {
+      "key": "robert-blythin-lawyer-occupation-claim-batch228",
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "affiliation_key": "robert-blythin-lawyer-at-army-entry-batch228",
+      "claim_type": "occupation",
+      "claim_text": "A high-confidence Army-entry match records Robert Blythin in the lawyer-or-judge occupation category in June 1942.",
+      "evidence_excerpt": "0-22. Lawyers and judges",
+      "evidence_paraphrase": "The unique exact-name Army row carries civilian-occupation code 0-22, which the official NARA code list maps to Lawyers and judges.",
+      "identity_match_assessment": "The rare name, matching 1938 legal profession, plausible 1942-to-1945 chronology, and official OSS captain record support high confidence without an exact shared identifier.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on June 18, 1942. It does not prove which legal role or employer he held immediately before entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The broad occupation code is not converted into a specific employer or into proof that Blythin was a judge.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Unique exact-name record; civilian-occupation code 022; private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch228",
+          "support_type": "context_only",
+          "locator_override": "Digital PDF page 45; civilian occupation in columns 70-72"
+        },
+        {
+          "source_key": "nara-army-occupation-code-list-batch228",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 171",
+          "excerpt_override": "0-22. Lawyers and judges"
+        },
+        {
+          "source_key": "aja-blythin-mintz-letter-batch228",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 121; 1938 legal-profession corroboration"
+        }
+      ]
+    },
+    {
+      "key": "david-g-boak-confirmed-identity-batch228",
+      "person_id": "79353257-9643-5983-85d6-86479a7aeb46",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed David G. Boak is confirmed as the Army private who later served with OSS Operational Group Red Group 2.",
+      "evidence_excerpt": "OSS: Red Group 2 is a memoir of David Boak's service",
+      "evidence_paraphrase": "The exact private identifier links the index to the Army row, while a CIA institutional review independently documents David G. Boak's OSS Operational Group service.",
+      "identity_match_assessment": "The exact private identifier confirms the Army linkage despite the bulk file's omitted final surname letter; the exact full name and OSS memoir corroborate the person.",
+      "temporal_assessment": "The Army record documents entry on April 28, 1943, and the CIA review places the start of his OSS experience in early 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The bulk-file spelling Boa is preserved as a source variant, not adopted as a correction to the indexed surname Boak.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-41-batch228",
+          "support_type": "supports",
+          "locator_override": "PDF page 41, row 18; private identifier withheld",
+          "excerpt_override": "BOAK DAVID G"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; bulk-file name reads BOA DAVID G; identifier withheld"
+        },
+        {
+          "source_key": "cia-studies-intelligence-boak-batch228",
+          "support_type": "supports",
+          "locator_override": "Printed page 54, digital PDF page 10",
+          "excerpt_override": "OSS: Red Group 2 is a memoir of David Boak's service"
+        }
+      ]
+    },
+    {
+      "key": "david-g-boak-student-status-claim-batch228",
+      "person_id": "79353257-9643-5983-85d6-86479a7aeb46",
+      "affiliation_key": "david-g-boak-student-at-army-entry-batch228",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "David G. Boak was a North Carolina college student whose studies were interrupted by the war before he entered the Army in April 1943.",
+      "evidence_excerpt": "college in North Carolina—interrupted by the war",
+      "evidence_paraphrase": "The exact-matched Army row records student status at entry, and the CIA review describes North Carolina college study interrupted by the war.",
+      "identity_match_assessment": "The exact private-identifier match and exact-name CIA review confirm that both sources concern the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on April 28, 1943; neither source names the college or proves the exact end date of attendance.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Student status is not employment. The unnamed college is not normalized to a guessed institution.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 992"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch228",
+          "support_type": "context_only",
+          "locator_override": "Digital PDF page 45; civilian occupation in columns 70-72"
+        },
+        {
+          "source_key": "berkeley-censoc-enlistment-codebook-batch228",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 33",
+          "excerpt_override": "code “992”, which corresponds to “Student”"
+        },
+        {
+          "source_key": "cia-studies-intelligence-boak-batch228",
+          "support_type": "supports",
+          "locator_override": "Printed page 54, digital PDF page 10",
+          "excerpt_override": "college in North Carolina—interrupted by the war"
+        }
+      ]
+    },
+    {
+      "key": "james-l-boals-confirmed-identity-batch228",
+      "person_id": "3f1991cf-5b59-598a-ba52-c4bf98077b8e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James L. Boals is confirmed as James L. Boals III, an Army private and 1944 OSS Area C trainee.",
+      "evidence_excerpt": "James L. Boals III, a trainee at Area C in 1944",
+      "evidence_paraphrase": "The index and Army file share an exact private identifier, while the NPS history independently supplies the suffix III and identifies Boals as an Area C trainee.",
+      "identity_match_assessment": "Exact name and private-identifier agreement confirms the Army linkage; the NPS exact full name and suffix resolve the bulk file's TRD suffix encoding.",
+      "temporal_assessment": "The Army record documents entry on January 2, 1943, and the NPS history documents Area C training in 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld publicly. NPS note 38 cites direct 2007 correspondence with Boals.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-41-batch228",
+          "support_type": "supports",
+          "locator_override": "PDF page 41, row 19; private identifier withheld",
+          "excerpt_override": "BOALS JAMES L"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; suffix encoded TRD; identifier withheld"
+        },
+        {
+          "source_key": "nps-daily-life-boals-batch228",
+          "support_type": "supports",
+          "locator_override": "Trainee-security section and note 38",
+          "excerpt_override": "James L. Boals III, a trainee at Area C in 1944"
+        }
+      ]
+    },
+    {
+      "key": "james-l-boals-shipping-clerk-claim-batch228",
+      "person_id": "3f1991cf-5b59-598a-ba52-c4bf98077b8e",
+      "affiliation_key": "james-l-boals-shipping-clerk-at-army-entry-batch228",
+      "claim_type": "occupation",
+      "claim_text": "James L. Boals III was recorded in the shipping-and-receiving clerk occupation category when he entered the Army in January 1943.",
+      "evidence_excerpt": "1-34. Shipping and receiving clerks",
+      "evidence_paraphrase": "The exact-matched Army row carries civilian-occupation code 1-34, which the official NARA code list maps to Shipping and receiving clerks.",
+      "identity_match_assessment": "The exact private-identifier match confirms the Army row; the NPS history independently corroborates the full name and OSS training.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on January 2, 1943, but not proven to be the immediate role before OSS service in 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The occupation category is not an employer. Later DuPont employment and postwar university records were not used as pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch228",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 134"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch228",
+          "support_type": "context_only",
+          "locator_override": "Digital PDF page 45; civilian occupation in columns 70-72"
+        },
+        {
+          "source_key": "nara-army-occupation-code-list-batch228",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 171",
+          "excerpt_override": "1-34. Shipping and receiving clerks"
+        },
+        {
+          "source_key": "nps-daily-life-boals-batch228",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4b0607a2-30ec-5d8e-82ba-2950d2ccf903",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Stanley A. Blumberg and Box 62 but no rank or private identifier. Public NARA, CIA or equivalent official-source, exact-name OSS, Library of Congress, author, employment, obituary, directory, institutional, and archival searches found a later intelligence-history author and unrelated namesakes but no corroborating wartime identifier.",
+      "name_variants": [
+        "Stanley A Blumberg",
+        "Stanley A. Blumberg",
+        "Blumberg, Stanley A."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 62 for Stanley A. Blumberg's full identity, wartime role, and evidence that can accept or reject the later intelligence-history author candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "02d16e72-4ab4-5b05-b716-d5ec0ad54f56",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies only the initials W. P. Blumenfeld and Box 62, with no rank or private identifier. Public NARA, CIA or equivalent official-source, exact-name and initial-variant OSS, Library of Congress, employment, obituary, directory, institutional, foreign-name, and archival searches could not isolate a defensible person.",
+      "name_variants": [
+        "W P Blumenfeld",
+        "W. P. Blumenfeld",
+        "Blumenfeld, W. P."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 62 for W. P. Blumenfeld's full name, nationality, military or civilian status, wartime role, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f31c679c-4ab4-5ce5-8baa-e4480a6fa0f3",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified index supplies Frances B. Blumenthal and Box 62 but no rank or private identifier. A contemporary Library of Congress newspaper page lists the exact full name among American University's June 1942 Bachelor of Arts graduates in Washington. The exact name, place, and date support a probable match, but no second wartime identifier or direct personnel-file link was found.",
+      "name_variants": [
+        "Frances B Blumenthal",
+        "Frances B. Blumenthal",
+        "Blumenthal, Frances B."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 62 for Frances B. Blumenthal's education, hometown, wartime role, and a direct identifier that can confirm or reject the American University graduate match; identify any post-graduation work before OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "48789fcd-e619-520d-ab7d-0e4a07c35c16",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index supplies Peter J. Blumenthal, a private identifier, and Box 62. Interpreting the printed number as an enlisted identifier collides with an unrelated Army record under a different name and is rejected. A separate exact-name Army private entered in 1942 with a different identifier, but name alone cannot link that candidate to the OSS row.",
+      "name_variants": [
+        "Peter J Blumenthal",
+        "Peter J. Blumenthal",
+        "Blumenthal, Peter J."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 62 to determine the identifier's service system, rank or branch, and whether the separate exact-name Army candidate belongs to Peter J. Blumenthal.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c2b7f334-2fec-51fc-a070-61f407551624",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Solomon J. Blumenthal's exact name and exact private identifier. The Army record documents entry as a private on March 19, 1942 and civilian-occupation code 1-05, which the official NARA code list identifies as Clerks, general office.",
+      "name_variants": [
+        "Solomon J Blumenthal",
+        "Solomon J. Blumenthal",
+        "Blumenthal, Solomon J."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 63 for Solomon J. Blumenthal's employer or office, Army-to-OSS chronology, immediate military assignment, and any earlier civilian work.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4b0b0048-0c0b-51b4-8c2d-6da2f67eb131",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies William A. Blumhagen and Box 63 but no rank or private identifier. Public NARA, CIA or equivalent official-source, exact-name OSS, Library of Congress, employment, medical, military, obituary, directory, institutional, and archival searches found other Blumhagen names but no corroborated William A. wartime candidate.",
+      "name_variants": [
+        "William A Blumhagen",
+        "William A. Blumhagen",
+        "Blumhagen, William A."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 63 for William A. Blumhagen's full identity, rank or grade, wartime role, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "21782af2-0d84-5da2-874d-2d63fd46f075",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index supplies David Blythe and Box 63 but no middle initial, rank, or private identifier. The official Army merged file contains three David Blythe records with different middle initials, entry dates, birth years, and occupations; public official, OSS, newspaper, obituary, directory, institutional, and archival searches did not distinguish among them.",
+      "name_variants": [
+        "David Blythe",
+        "Blythe, David"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 63 for David Blythe's middle name, identifier, birth information, military status, and evidence that can evaluate the three Army candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index gives the rare name Robert Blythin, a private identifier, and Box 63. An official Signal Corps card identifies Captain Robert Blythin as a U.S. OSS officer in October 1945. A 1938 archival law-firm letterhead and a unique exact-name 1942 Army row independently align on the legal profession. No external source reproduces the index identifier, so the match remains high confidence rather than confirmed.",
+      "name_variants": [
+        "Robert Blythin",
+        "Blythin, Robert",
+        "Capt. Robert Blythin"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 63 for Robert Blythin's commissioning history, whether Blythin & Mintz remained his last civilian employer through Army entry, his immediate pre-OSS assignment, and direct identifier confirmation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "79353257-9643-5983-85d6-86479a7aeb46",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share David G. Boak's exact private identifier; the Army bulk name omits the final K and is retained as a source variant. A CIA institutional review independently identifies David G. Boak's OSS Operational Group memoir, North Carolina college study interrupted by war, and OSS service beginning in early 1944.",
+      "name_variants": [
+        "David G Boak",
+        "David G. Boak",
+        "Boak, David G.",
+        "David G Boa"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 63 for David G. Boak's unnamed North Carolina college, Army assignments, transition into OSS Operational Group service, and any civilian employment before college or service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f1991cf-5b59-598a-ba52-c4bf98077b8e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share James L. Boals's exact private identifier. The Army row's TRD suffix encoding aligns with the National Park Service history's independent identification of James L. Boals III as a 1944 trainee at OSS Area C.",
+      "name_variants": [
+        "James L Boals",
+        "James L. Boals",
+        "James L. Boals III",
+        "Boals, James L., III"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 63 for James L. Boals III's employer or workplace before Army entry, assignment before OSS Area C, and the chronology leading to communications training.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "stanley-a-blumberg-protocol-batch228",
+      "person_id": "4b0607a2-30ec-5d8e-82ba-2950d2ccf903",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Stanley A. Blumberg; visually verified NARA index; official Army merged-file check; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; author, intelligence historian, employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:45:00+00:00",
+      "completed_at": "2026-08-08T23:02:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A later author on intelligence and Edward Teller shares the exact name but no reviewed source supplies a wartime OSS link, employer, private identifier, or second corroborating identifier; other results are unrelated namesakes.",
+      "research_notes": "The later author remains a discovery lead only and was not assigned to the index row.",
+      "next_action": "Review Box 62 for full identity and evidence that can accept or reject the author candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "w-p-blumenfeld-protocol-batch228",
+      "person_id": "02d16e72-4ab4-5b05-b716-d5ec0ad54f56",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "W. P. Blumenfeld; initials and punctuation variants; visually verified NARA index; official Army merged-file check; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; employment, occupation, foreign-name, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:46:00+00:00",
+      "completed_at": "2026-08-08T23:03:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Initial-only searches produced large sets of unrelated surname results and no candidate with an OSS link or two corroborating identifiers.",
+      "research_notes": "The incomplete given name prevents defensible public resolution.",
+      "next_action": "Review Box 62 for full name, nationality, status, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "frances-b-blumenthal-protocol-batch228",
+      "person_id": "f31c679c-4ab4-5ce5-8baa-e4480a6fa0f3",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Frances B. Blumenthal; visually verified NARA index; official Army merged-file check; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API and page-level review; American University, graduation, employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:47:00+00:00",
+      "completed_at": "2026-08-08T23:04:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "An older 1905 namesake context and later telephone-directory results lack wartime linkage. The 1942 American University graduate is retained as a probable, qualified candidate only.",
+      "research_notes": "A medium-confidence student affiliation was published with an identity qualification; no employer or recruitment chronology was accepted.",
+      "next_action": "Compare Box 62 education and hometown evidence to the American University candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "peter-j-blumenthal-protocol-batch228",
+      "person_id": "48789fcd-e619-520d-ab7d-0e4a07c35c16",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Peter J. Blumenthal; private identifier withheld; visually verified NARA index; official Army merged-file exact-number and exact-name checks; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:48:00+00:00",
+      "completed_at": "2026-08-08T23:05:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The printed number collides numerically with an unrelated Army enlisted record and cannot be interpreted as that record. A separate exact-name Army private has a different identifier and lacks a second corroborating wartime identifier. Modern Arlington results concern a younger namesake.",
+      "research_notes": "Neither Army result was published as Peter J. Blumenthal. The service-number system must be established from the personnel file.",
+      "next_action": "Review Box 62 for rank, branch, identifier system, birth information, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "solomon-j-blumenthal-protocol-batch228",
+      "person_id": "c2b7f334-2fec-51fc-a070-61f407551624",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Solomon J. Blumenthal; private identifier withheld; visually verified NARA index; exact-identifier official Army merged-file check; NARA technical documentation and code list; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; clerk, employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:49:00+00:00",
+      "completed_at": "2026-08-08T23:06:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Public exact-name results did not identify an employer, workplace, or Army-to-OSS chronology; surname and first-name fragments were unrelated.",
+      "research_notes": "Identity and the general-office clerk occupation category at Army entry are confirmed. No employer was accepted.",
+      "next_action": "Review Box 63 for the employer or office and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "william-a-blumhagen-protocol-batch228",
+      "person_id": "4b0b0048-0c0b-51b4-8c2d-6da2f67eb131",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William A. Blumhagen; visually verified NARA index; official Army merged-file check; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; medical, military, employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:50:00+00:00",
+      "completed_at": "2026-08-08T23:07:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Rex Vernon Blumhagen and later Dan William Blumhagen records have different given names or generations. No William A. result supplied direct OSS linkage or two corroborating identifiers.",
+      "research_notes": "No identity or employer candidate met the publication threshold.",
+      "next_action": "Review Box 63 for full identity, rank or grade, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "david-blythe-protocol-batch228",
+      "person_id": "21782af2-0d84-5da2-874d-2d63fd46f075",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "David Blythe; visually verified NARA index; three official Army merged-file name matches; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; military, employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:51:00+00:00",
+      "completed_at": "2026-08-08T23:08:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Three Army records carry different middle initials, birth years, entry dates, and occupations. Later Cold War and British namesakes lack evidence tying them to this OSS row.",
+      "research_notes": "No Army occupation or external biography was assigned to the middle-initial-free index row.",
+      "next_action": "Review Box 63 for a middle name, private identifier, birth information, and military assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "robert-blythin-protocol-batch228",
+      "person_id": "c821f35b-b8be-5fe2-a0a7-62a617266314",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert Blythin; private identifier withheld; visually verified NARA index; official Signal Corps OSS captain card; official Army merged-file exact-name candidate; NARA documentation and code list; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; Library of Congress current API; Blythin & Mintz, Cleveland, lawyer, employment, occupation, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:52:00+00:00",
+      "completed_at": "2026-08-08T23:09:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes and records about Edward Blythin were rejected as principal evidence. The unique Army row lacks the index identifier but is retained at high confidence because the rare name, legal occupation, dated firm record, and official OSS captain record align.",
+      "research_notes": "High-confidence identity, documented 1938 law-firm employment, and a high-confidence lawyer occupation at Army entry are published. The firm is not labeled immediate or last civilian employer.",
+      "next_action": "Review Box 63 for direct identifier confirmation, commissioning history, firm continuity, and immediate pre-OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "david-g-boak-protocol-batch228",
+      "person_id": "79353257-9643-5983-85d6-86479a7aeb46",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "David G. Boak; private identifier withheld; visually verified NARA index; exact-identifier official Army merged-file check including Boa spelling; NARA documentation; Berkeley CenSoc codebook; CIA Studies in Intelligence review; public NARA and RG 226 context; CIA Reading Room check; exact-name OSS and Red Group 2 variants; Library of Congress current API; college, student, employment, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:53:00+00:00",
+      "completed_at": "2026-08-08T23:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Retail and social-catalog listings repeat memoir publisher copy and were not relied upon. Later cryptologic references are postwar and were used only as identity context.",
+      "research_notes": "Identity, North Carolina college student status, and student status at Army entry are confirmed. The college and any employer remain unidentified.",
+      "next_action": "Review Box 63 for the college, Army assignments, OSS recruitment chronology, and any earlier civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    },
+    {
+      "key": "james-l-boals-protocol-batch228",
+      "person_id": "3f1991cf-5b59-598a-ba52-c4bf98077b8e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James L. Boals III; private identifier withheld; visually verified NARA index; exact-identifier official Army merged-file check and TRD suffix; NARA documentation and code list; National Park Service Area C history and note 38; public NARA and RG 226 context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; Library of Congress current API; shipping clerk, DuPont, Penn, employment, newspaper, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-08T22:54:00+00:00",
+      "completed_at": "2026-08-08T23:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A postwar University of Pennsylvania class record and DuPont employment do not establish pre-OSS work. Unrelated Boals names were rejected.",
+      "research_notes": "Identity, suffix III, 1944 Area C training, and the shipping-and-receiving clerk occupation category at Army entry are confirmed. No employer was accepted.",
+      "next_action": "Review Box 63 for the pre-Army employer or workplace and Army-to-OSS communications-training chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch228-v1"
+    }
+  ]
+}
