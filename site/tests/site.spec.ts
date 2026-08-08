@@ -19166,3 +19166,79 @@ test("Batch 217 publishes page 38-39 Black occupations and preserves source limi
   await expect(page.locator("main")).toContainText("documented gap");
   await expect(page.locator("main")).toContainText("different same-name Army record was rejected");
 });
+
+test("Batch 218 publishes page 39 Blackmon-Blair occupations and archival limits", async ({
+  page,
+}) => {
+  const profiles = [
+    ["4290e4dd-2aac-5dc8-9890-5bfb8d738c82", "Edith C Blackmon", "Not printed", false],
+    ["0dddd9e1-4060-5012-81cf-dcf828b64e2e", "Max E Blackmon", "T-4", true],
+    ["ff273a97-0f3f-5510-9d2f-5cfe70f642cf", "Perry L Blackshear", "1st Lt", false],
+    ["57a1ad8d-6c37-5fa1-8b38-c56ec9eb5bda", "William P Blackstock", "Not printed", false],
+    ["859ff46d-bf19-53c1-888e-f2b0a58457e3", "George A Blackstone", "2nd Lt", true],
+    ["37a9906c-1608-5820-9bfa-1e0de53d337d", "Thomas C Blackwell", "Capt", true],
+    ["e149ecb2-12d3-52da-b5a8-2db4c8a233ef", "Francis T Blackwood", "Cpl", true],
+    ["730917c2-3032-5db9-91d8-fe692ac30d83", "Joseph L Blahunka", "Pfc", true],
+    ["a4b3a6b6-1f93-5851-abd7-15a8976e53cb", "Frances J Blair", "Caf-4", false],
+    ["b29351b6-64d5-518f-8697-407a0907b232", "Henry N Blair", "Caf-9", false],
+  ] as const;
+
+  for (const [personId, displayName, rank, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 39");
+    await expect(page.locator(".index-record").first().locator("dd").nth(1)).toHaveText(rank);
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator(".index-record").first()).toContainText("59");
+  }
+
+  for (const [personId, occupation] of [
+    ["0dddd9e1-4060-5012-81cf-dcf828b64e2e", "Actor or actress"],
+    ["e149ecb2-12d3-52da-b5a8-2db4c8a233ef", "Welder or flame cutter"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "4290e4dd-2aac-5dc8-9890-5bfb8d738c82",
+    "ff273a97-0f3f-5510-9d2f-5cfe70f642cf",
+    "57a1ad8d-6c37-5fa1-8b38-c56ec9eb5bda",
+    "859ff46d-bf19-53c1-888e-f2b0a58457e3",
+    "37a9906c-1608-5820-9bfa-1e0de53d337d",
+    "730917c2-3032-5db9-91d8-fe692ac30d83",
+    "a4b3a6b6-1f93-5851-abd7-15a8976e53cb",
+    "b29351b6-64d5-518f-8697-407a0907b232",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+
+  await page.goto("./people/730917c2-3032-5db9-91d8-fe692ac30d83/");
+  await expect(page.locator("main")).toContainText("documented gap");
+
+  for (const personId of [
+    "859ff46d-bf19-53c1-888e-f2b0a58457e3",
+    "37a9906c-1608-5820-9bfa-1e0de53d337d",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("main")).toContainText("different identifiers were rejected");
+  }
+
+  await page.goto("./people/ff273a97-0f3f-5510-9d2f-5cfe70f642cf/");
+  await expect(page.locator("main")).toContainText("Perry L. Blackshear Jr.");
+  await expect(page.locator("main")).toContainText("neither establishes the indexed officer's identity");
+});

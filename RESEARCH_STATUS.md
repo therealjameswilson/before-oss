@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 1,969 people with a non-planned attempt | 23,940 active person entities | 8.2247% |
+| Research-attempt coverage | 1,979 people with a non-planned attempt | 23,940 active person entities | 8.2665% |
 | Verified-affiliation coverage | 313 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.3074% |
 | Verified-employer coverage | 172 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7185% |
-| Archival-review coverage | 1,918 people with an individual file-access/priority assessment | 23,940 active person entities | 8.0117% |
+| Archival-review coverage | 1,928 people with an individual file-access/priority assessment | 23,940 active person entities | 8.0535% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 249
+- Identity status `confirmed`: 251
 - Identity status `high_confidence`: 397
 - Identity status `probable`: 65
 - Identity status `ambiguous`: 29
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,178
+- Identity status `unresolved`: 23,176
 
 ## Personnel categories
 
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,177 yes; 5,080 no; 16,683 indeterminate.
+Commissioned classification: 2,177 yes; 5,082 no; 16,681 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,971
+- `not_started`: 21,961
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 31
 - `needs_temporal_review`: 5
 - `documented_prewar_employer_found`: 48
-- `occupation_only_found`: 222
-- `requires_archival_review`: 1,352
+- `occupation_only_found`: 224
+- `requires_archival_review`: 1,360
 - `completed`: 68
 - `conflicting_sources`: 22
 - `verified_employer_found`: 170
@@ -67,15 +67,15 @@ Commissioned classification: 2,177 yes; 5,080 no; 16,683 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,743. The detailed adapter breakdown remains reproducible in
+  adapters: 1,753. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 758 across 732 people; 85 additional
+- Saved `source_reviewed` outcomes: 760 across 734 people; 85 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,189
+- Total recorded attempts/plans: 3,199
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 712; 690 have at least one public-eligible
+- People with saved reviewed claims: 714; 692 have at least one public-eligible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2432,6 +2432,24 @@ Commissioned classification: 2,177 yes; 5,080 no; 16,683 indeterminate.
   and Rose M. Bivens remain unresolved archival-review cases. No authenticated
   Catalog request, credential, raw API response, full private identifier, or
   unsupported employer claim was used or published.
+- Batch 218 covers the next ten contiguous rows on page thirty-nine, Edith C.
+  Blackmon through Henry N. Blair, all indexed in Box 59. The index page and
+  the relevant official Army technical-documentation and occupation-code pages
+  were checked visually. Exact private-identifier matches confirm Max E.
+  Blackmon and Francis T. Blackwood. Their dated Army-entry records support
+  qualified actor-or-actress and welder-or-flame-cutter occupation groups,
+  respectively, but name no employer, workplace, venue, or production. Joseph
+  L. Blahunka's indexed identifier falls in a serial range NARA documents as
+  missing from the electronic Army file. Nonmatching same-name Army records for
+  the indexed officers George A. Blackstone and Thomas C. Blackwell were
+  rejected. A later dental-supply executive and a later engineer named Perry L.
+  Blackshear remain unassigned because neither source establishes the indexed
+  First Lieutenant's wartime identity or OSS connection. Edith C. Blackmon,
+  Perry L. Blackshear, William P. Blackstock, George A. Blackstone, Thomas C.
+  Blackwell, Joseph L. Blahunka, Frances J. Blair, and Henry N. Blair remain
+  explicit archival-review cases. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
 - Batch 217 covers the next ten contiguous rows across pages thirty-eight and
   thirty-nine, Robert A. Black through Sidney Blackman, spanning Boxes 59-60.
   Both index pages and the relevant official Army technical-documentation and
@@ -2529,6 +2547,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-nine-edith-blackmon-through-henry-blair-pathways_batch-218_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-thirty-eight-thirty-nine-robert-black-through-sidney-blackman-pathways_batch-217_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-charlotte-black-through-melvin-black-pathways_batch-216_2026-08-07.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-eight-dorothy-bixby-through-frederick-blachly-pathways_batch-215_2026-08-07.json
