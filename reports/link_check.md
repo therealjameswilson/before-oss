@@ -12,8 +12,42 @@ The build includes 23,940 person profiles, 381 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,063 unique external URLs for separate live
+The checker inventoried 49,064 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 219 production check
+
+The complete 24,329-page internal-link pass includes direct routes for John A.
+Blair through Frank W. Blake across Boxes 59-60 on PDF page 39. The 69-test
+Python suite, deterministic 200-profile audit, and clean 699-case desktop,
+phone, and tablet browser matrix passed; Astro reported zero errors, warnings,
+or hints, and the production dependency audit found zero vulnerabilities.
+
+The regression verifies all ten indexed rows, literal ranks or civilian
+grades, public-safe identifier masking, identity and research states,
+employer-gap wording, and archival-review routes. It separately checks John W.
+Blair's bounded farm-hand occupation, Whitney Blair's bounded student status,
+and Frank W. Blake's electronic-source gap. No farm, school, different same-
+name Army record, or later namesake is silently converted into a verified
+employer or identity.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,399 artifacts, reviewed 1,002
+candidate substrings, and found zero unexpected boundary matches, aggregate
+false positives, or manifest-size false positives. The local and live manifest
+SHA-256 is
+`e0e592e98e4c586d2289c4ece5e234b4dca32e4a43d6ce43300e00c2c3f06a4e`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`0190b473b1c813d7b0121b60e62d81aceb11793f7be987dd9e7879cfd0f424a7`.
+
+Test workflow
+[31262012044](https://github.com/therealjameswilson/before-oss/actions/runs/31262012044)
+and Pages workflow
+[31262011568](https://github.com/therealjameswilson/before-oss/actions/runs/31262011568)
+completed successfully. The cache-busted live manifest matched the local
+release, and direct John W. Blair, Whitney Blair, and Frank W. Blake profile
+checks returned HTTP 200 with the expected evidence boundaries.
 
 ## Batch 218 production check
 

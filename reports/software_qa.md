@@ -7,19 +7,19 @@ Run: 2026-08-08 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,329 pages**
 - Internal link check: **24,329 HTML files passed**
-- Complete browser and accessibility matrix: **696 / 696 passed** on the clean
+- Complete browser and accessibility matrix: **699 / 699 passed** on the clean
   GitHub Actions runner across desktop, phone, and tablet, with no serious or
   critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`30a14b93c08413369ec18a795e3edf80437d74af4c6596b1f61aae6adc53d134`)
-- Latest deterministic build (Batch 218): **byte-for-byte identical** across
+  (`0190b473b1c813d7b0121b60e62d81aceb11793f7be987dd9e7879cfd0f424a7`)
+- Latest deterministic build (Batch 219): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `92b2fc5da3c645840ca310686d67bfb55c7e101a2c05ecdeb3be7172d09d11a9`
+  `e0e592e98e4c586d2289c4ece5e234b4dca32e4a43d6ce43300e00c2c3f06a4e`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -31,11 +31,11 @@ Run: 2026-08-08 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,529** public records representing **1,163** unique documents
-- Private citation records: **2,534**
-- Published, qualified, or conflict-visible affiliations: **812**
-- Published or conflict-visible claims: **1,584**
-- Verified-affiliation metric: **313** people with confirmed/high published
+- Reviewed public sources: **1,534** public records representing **1,164** unique documents
+- Private citation records: **2,539**
+- Published, qualified, or conflict-visible affiliations: **814**
+- Published or conflict-visible claims: **1,588**
+- Verified-affiliation metric: **315** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **172** people with confirmed/high published
   employment or self-employment evidence
@@ -115,6 +115,54 @@ Run: 2026-08-08 UTC
   browser matrix passed on the clean GitHub Actions runner
 - Batch 218 production verification: **passed**; the complete **696-case**
   browser matrix passed on the clean GitHub Actions runner
+- Batch 219 production verification: **passed**; the complete **699-case**
+  browser matrix passed on the clean GitHub Actions runner
+
+## Batch 219 production verification
+
+Batch 219 adds the ten visually checked page-39 source rows from John A. Blair
+through Frank W. Blake across Boxes 59-60. The strict evidence bundle imports
+five sources, two occupation-only affiliations, four claims, fourteen
+claim-source links, ten person updates, and ten durable research attempts.
+Exact private-identifier matches confirm John W. Blair and Whitney Blair;
+their dated Army-entry records support farm-hand and student status without
+naming a farm, employer, or school. Frank W. Blake's indexed identifier has no
+exact electronic Army match, and a same-name record with a different private
+identifier remains rejected. The other profiles remain explicit archival-
+review cases.
+
+SQLite integrity and foreign-key checks passed, as did all 69 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,329 pages. The internal-link checker passed all 24,329 HTML
+files and inventoried 49,064 unique external URLs. The focused Batch 219
+regression passed 3 / 3 locally. The clean GitHub Actions runner passed the
+complete 699 / 699 Playwright and axe matrix across desktop, phone, and tablet
+in [workflow 31262012044](https://github.com/therealjameswilson/before-oss/actions/runs/31262012044).
+The production dependency audit found zero vulnerabilities.
+
+Consecutive local production-site builds produced identical sorted
+path-and-file-SHA-256 tree digests. The complete-site digest is
+`0190b473b1c813d7b0121b60e62d81aceb11793f7be987dd9e7879cfd0f424a7`.
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values; the local and live manifest SHA-256 is
+`e0e592e98e4c586d2289c4ece5e234b4dca32e4a43d6ce43300e00c2c3f06a4e`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,002 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,399 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+The Batch 219 database contains 3,209 durable research attempts, 2,539 private
+citation records, 822 affiliations, 391 organizations, and 1,619 claims: 362
+confirmed, 843 high, 351 medium, 31 low, and 32 conflicting. The public
+projection contains 1,534 source records representing 1,164 unique documents,
+814 affiliations, and 1,588 published, qualified, or conflict-visible claims.
+Pages workflow
+[31262011568](https://github.com/therealjameswilson/before-oss/actions/runs/31262011568)
+completed successfully, the cache-busted live manifest matched the local
+release exactly, and direct John W. Blair, Whitney Blair, and Frank W. Blake
+profile checks returned HTTP 200 with the expected occupation, student-status,
+and source-gap language.
 
 ## Batch 218 production verification
 

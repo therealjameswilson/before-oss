@@ -4,12 +4,24 @@ Run: 2026-08-08 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **696 / 696**
+**PASS.** The complete browser and accessibility matrix passed **699 / 699**
 on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 219 adds a focused direct-route regression for John A. Blair through
+Frank W. Blake across Boxes 59-60 on PDF page 39. It checks all ten indexed
+names, literal ranks or civilian grades, public-safe identifier masking,
+identity and research states, employer-gap wording, and archival-review
+routes. It separately verifies John W. Blair's bounded farm-hand occupation,
+Whitney Blair's bounded student status without assigning a school, and Frank
+W. Blake's documented electronic-file mismatch without promoting a different
+same-name Army record. Eight profiles remain explicit archival-review or
+identity-review cases. The focused local matrix passed 3 / 3, and the complete
+699 / 699 matrix passed in
+[workflow 31262012044](https://github.com/therealjameswilson/before-oss/actions/runs/31262012044).
 
 Batch 218 adds a focused direct-route regression for Edith C. Blackmon through
 Henry N. Blair on PDF page 39. It checks all ten indexed names, literal ranks
