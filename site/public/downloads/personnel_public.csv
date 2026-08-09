@@ -168,7 +168,7 @@ b45dfb7f-0ee5-5197-9577-89ade3f34693,Alan R Stuyvesant,Stuyvesant,Alan,unresolve
 745f8df7-3127-53ce-89c8-4c11cc9780e3,Alan Young,Young,Alan,unresolved,unknown_or_indeterminate,,not_started,1,518,859,230/86/43/06,
 d244d4f8-642d-5be3-bec0-ba0ef1fefe4e,Alastair Macbain,Macbain,Alastair,unresolved,unknown_or_indeterminate,,not_started,1,287,470,230/86/35/07,••••6380
 053c5020-c4b5-5ffc-8018-598f8064dbdb,Alba B Martin,Martin,Alba,unresolved,commissioned_army_officer,True,not_started,1,297,486,230/86/36/02,
-67dbb66d-488b-5eef-8a2d-d9358394bfd3,Albert A Boehl,Boehl,Albert,unresolved,unknown_or_indeterminate,,not_started,1,42,64,230/86/27/05,
+67dbb66d-488b-5eef-8a2d-d9358394bfd3,Albert A Boehl,Boehl,Albert,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,42,64,230/86/27/05,
 aca1e62c-fe56-53b5-9d8f-5cacdd84d4cf,Albert A Bohmhauer,Bohmhauer,Albert,unresolved,unknown_or_indeterminate,,not_started,1,42,65,230/86/27/05,
 3e6b92a9-a010-5c8c-ac02-d417e127f571,Albert A Buccina,Buccina,Albert,unresolved,unknown_or_indeterminate,,not_started,1,58,90,230/86/28/01,••••4471
 9460a99e-8430-57df-9820-9082b7c80037,Albert A Dorrance,Dorrance,Albert,unresolved,unknown_or_indeterminate,,not_started,1,122,195,230/86/30/02,
@@ -1771,7 +1771,7 @@ ad20fe54-bf86-5e29-8dcb-7b2fe852085e,Barney S Zipes,Zipes,Barney,unresolved,unkn
 63c3f3c6-df53-5c7c-97bc-fe804893d867,Barney Traban,Traban,Barney,unresolved,unknown_or_indeterminate,,not_started,1,471,783,230/86/42/02,
 c4baf1b6-77b3-5385-a6e6-6c8ed878390b,Barrine Drake,Drake,Barrine,unresolved,unknown_or_indeterminate,,not_started,1,124,198,230/86/30/03,
 d633583e-637d-519b-a417-0eeb7ee8305b,Barrington Moore,Moore,Barrington,high_confidence,civilian_professional_or_administrative_grade,False,requires_archival_review,1,327,534,230/86/37/02,
-839850ff-9012-59c2-8eec-ad76a5fc1a8c,Barron B Boe,Boe,Barron,unresolved,commissioned_army_officer,True,not_started,1,41,64,230/86/27/05,••••1036
+839850ff-9012-59c2-8eec-ad76a5fc1a8c,Barron B Boe,Boe,Barron,high_confidence,commissioned_army_officer,True,requires_archival_review,1,41,64,230/86/27/05,••••1036
 a574c48c-ad3b-57a1-ae43-c985d9c94364,Barry McGill,McGill,Barry,unresolved,enlisted_army_personnel,False,not_started,1,309,505,230/86/36/05,••••8542
 b01fb41c-7382-5dbf-963e-d783d61ce4a5,Barry Steen,Steen,Barry,unresolved,unknown_or_indeterminate,,not_started,1,446,741,230/86/41/03,••••1492
 dc4da7b2-2f52-52bc-8094-0645afe65ee5,Barry Stern,Stern,Barry,unresolved,unknown_or_indeterminate,,not_started,1,447,744,230/86/41/04,••••1492
@@ -3968,7 +3968,7 @@ b7a6d1e8-3e48-5b1e-8474-fcf24c9aa839,David B Higginbottom,Higginbottom,David,unr
 a61be8c1-33e0-5ae6-993e-1ed4912a64a2,David Beck,Beck,David,confirmed,enlisted_army_personnel,False,occupation_only_found,1,28,45,230/86/27/02,••••4909
 f40bac55-094e-5e50-b0ae-8db0d38b247b,David Bedor,Bedor,David,confirmed,enlisted_army_personnel,False,occupation_only_found,1,29,46,230/86/27/02,••••0302
 21782af2-0d84-5da2-874d-2d63fd46f075,David Blythe,Blythe,David,ambiguous,unknown_or_indeterminate,False,requires_archival_review,1,41,63,230/86/27/04,
-66214ffe-dc56-5979-aea1-a23daf0b309a,David Bodner,Bodner,David,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,••••7188
+66214ffe-dc56-5979-aea1-a23daf0b309a,David Bodner,Bodner,David,high_confidence,enlisted_army_personnel,False,occupation_only_found,1,41,64,230/86/27/05,••••7188
 27b7c870-711f-5308-99ab-eca2c19912c0,David Brodie,Brodie,David,unresolved,unknown_or_indeterminate,,not_started,1,53,81,230/86/27/07,••••1538
 bb8b859b-5926-579f-af1a-29c1f11e2534,David C Cohen,Cohen,David,unresolved,unknown_or_indeterminate,,not_started,1,86,132,230/86/28/07,
 261fdd65-1203-544c-a5e4-3cae6b03122a,David C Cooper,Cooper,David,unresolved,unknown_or_indeterminate,,not_started,1,92,142,230/86/29/02,
@@ -5681,7 +5681,7 @@ b4054c44-0f87-55ca-88f6-c21ab0af4dcb,Elizabeth Krishna,Krishna,Elizabeth,unresol
 cb58a6e8-c443-524a-8d4a-bd1e0f149027,Elizabeth L Lambie,Lambie,Elizabeth,unresolved,civilian_professional_or_administrative_grade,False,not_started,1,264,429,230/86/35/01,
 9f25ccf6-1d83-5749-acd1-9bfe6406844d,Elizabeth L McMillan,McMillan,Elizabeth,unresolved,civilian_professional_or_administrative_grade,False,not_started,1,312,510,230/86/36/05,
 2811a6e9-abc3-58fb-ae3c-9719b4ab3b92,Elizabeth L Watkins,Watkins,Elizabeth,unresolved,unknown_or_indeterminate,,not_started,1,492,818,230/86/42/07,
-33bc0950-78e2-5169-80e1-6dbe23a1b0be,Elizabeth M Bodington,Bodington,Elizabeth,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,
+33bc0950-78e2-5169-80e1-6dbe23a1b0be,Elizabeth M Bodington,Bodington,Elizabeth,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,41,64,230/86/27/05,
 ff57653b-2745-5eb9-a117-4868e638d64a,Elizabeth M Cooke,Cooke,Elizabeth,unresolved,unknown_or_indeterminate,,not_started,1,91,141,230/86/29/01,
 d9ba697c-b223-56e4-8ae6-bd42f5848faa,Elizabeth M Dulac,Dulac,Elizabeth,unresolved,unknown_or_indeterminate,,not_started,1,127,203,230/86/30/03,
 ceea29d8-ce66-57fb-bd11-e8db6e4f82c8,Elizabeth M Gensle,Gensle,Elizabeth,unresolved,unknown_or_indeterminate,,not_started,1,165,267,230/86/31/06,
@@ -8268,7 +8268,7 @@ bcb3f46a-5f2f-5770-9a73-250b2c1a855f,Gertrude G Tucker,Tucker,Gertrude,unresolve
 6ec962e9-84a5-58f5-aa4d-2bc3ec3a51a5,Gertrude Herrmann,Herrmann,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,205,330,230/86/33/01,
 e38f672f-a400-5b6d-a6af-accaa47ca018,Gertrude Horner,Horner,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,216,349,230/86/33/03,
 85d37065-4914-51b3-910d-c2476032c7cb,Gertrude J Dembe,Dembe,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,112,179,230/86/29/07,
-a9c04597-2f60-5633-93d3-0a8277d09557,Gertrude L Boedeker,Boedeker,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,
+a9c04597-2f60-5633-93d3-0a8277d09557,Gertrude L Boedeker,Boedeker,Gertrude,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,41,64,230/86/27/05,
 222d3d9a-a206-5f42-92fe-d9c4e5db6232,Gertrude L Colvin,Colvin,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,88,136,230/86/29/01,
 271b094a-0f5d-54af-971c-c62a233d8933,Gertrude L King,King,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,250,405,230/86/34/04,
 20a66cdc-f78b-5023-b6f6-1211443f1f64,Gertrude L McKean,McKean,Gertrude,unresolved,unknown_or_indeterminate,,not_started,1,310,508,230/86/36/05,
@@ -8926,7 +8926,7 @@ efaabd97-01d0-56aa-b874-9aa8edadbbc0,Harold P Larson,Larson,Harold,unresolved,co
 514f0747-ba8b-5ba9-a4d8-b14719fc9f23,Harold P Pyle,Pyle,Harold,unresolved,unknown_or_indeterminate,,not_started,1,381,626,230/86/39/01,••••3564
 6463028d-6a8e-5db7-aed6-26e00518c69d,Harold P Williams,Williams,Harold,unresolved,unknown_or_indeterminate,,not_started,1,505,840,230/86/43/03,••••8918
 752090f7-8168-505f-ad42-b75215c6a8be,Harold R Barry,Barry,Harold,unresolved,enlisted_army_personnel,False,requires_archival_review,1,25,40,230/86/27/01,••••9390
-df720287-d33c-506f-baaf-1f120d3490d7,Harold R Bodine,Bodine,Harold,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,••••6369
+df720287-d33c-506f-baaf-1f120d3490d7,Harold R Bodine,Bodine,Harold,confirmed,enlisted_army_personnel,False,occupation_only_found,1,41,64,230/86/27/05,••••6369
 c369bef3-4881-55db-90ba-89154a9e18a3,Harold R Gullixson,Gullixson,Harold,unresolved,commissioned_army_officer,True,not_started,1,185,299,230/86/32/03,••••3513
 988c0d3a-8c5b-540e-97e2-f95b31c79dd1,Harold R Hagan,Hagan,Harold,unresolved,unknown_or_indeterminate,,not_started,1,187,303,230/86/32/04,••••1739
 a4e18633-7124-5740-8a17-f42b17d73014,Harold R Harris,Harris,Harold,unresolved,unknown_or_indeterminate,,not_started,1,195,315,230/86/32/05,••••5641
@@ -12573,7 +12573,7 @@ d83acd15-3919-51b5-a29e-eafdcba0cced,John Oriniak,Oriniak,John,unresolved,enlist
 ce51cfd3-7880-521f-bc0f-d503c5547794,John Orlowsci,Orlowsci,John,unresolved,enlisted_army_personnel,False,not_started,1,351,576,230/86/38/01,••••6498
 de82156c-9397-51f5-8cfe-57678285b044,John Otto Harris,Harris,John Otto,unresolved,unknown_or_indeterminate,,not_started,1,195,315,230/86/32/05,
 156c2910-530a-5b6f-9ce3-6ad12b421a5b,John P Banchiu,Banchiu,John,probable,enlisted_army_personnel,False,requires_archival_review,1,21,34,230/86/26/07,••••8022
-bdec8217-96ac-50f7-8193-d1643f43656b,John P Bodmar,Bodmar,John,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,
+bdec8217-96ac-50f7-8193-d1643f43656b,John P Bodmar,Bodmar,John,ambiguous,unknown_or_indeterminate,False,needs_identity_review,1,41,64,230/86/27/05,
 19c983e0-37cb-5b11-8e40-1c4bd39b7103,John P Booth,Booth,John,high_confidence,commissioned_coast_guard_officer,True,requires_archival_review,1,44,68,230/86/27/05,
 799ee89b-7bea-5fba-a7a1-b39171767a4f,John P Bracken,Bracken,John,unresolved,unknown_or_indeterminate,,not_started,1,48,75,230/86/27/06,
 c3597099-35d4-5b80-b9e1-a317855dc1c4,John P Breen,Breen,John,unresolved,unknown_or_indeterminate,,not_started,1,50,77,230/86/27/06,••••4468
@@ -18339,7 +18339,7 @@ a2eea974-91bb-517d-b70e-9e41184d6697,Ralph E Shipley,Shipley,Ralph,unresolved,un
 ab8e3ed7-6ebe-5741-9b9d-e98563bfc128,Ralph Eno,Eno,Ralph,unresolved,unknown_or_indeterminate,,not_started,1,136,221,230/86/30/06,
 97994838-c744-569b-bbd1-5e4fbf0fb21b,Ralph Evans,Evans,Ralph,unresolved,unknown_or_indeterminate,,not_started,1,139,225,230/86/30/07,••••7090
 1962c77d-0692-54bf-880f-902da4186cc2,Ralph F Bergman,Bergman,Ralph,confirmed,enlisted_army_personnel,False,occupation_only_found,1,33,51,230/86/27/03,••••7239
-44cd9ad6-1054-541f-a5b7-8c6f42a3123c,Ralph F Boehner,Boehner,Ralph,unresolved,unknown_or_indeterminate,,not_started,1,42,64,230/86/27/05,••••5023
+44cd9ad6-1054-541f-a5b7-8c6f42a3123c,Ralph F Boehner,Boehner,Ralph,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,42,64,230/86/27/05,••••5023
 16c776ae-60cb-546e-ad29-c16187f6a1b4,Ralph F Laurin,Laurin,Ralph,unresolved,unknown_or_indeterminate,,not_started,1,268,436,230/86/35/02,••••9211
 5d5d1a61-c567-5008-b42b-1ed44a218043,Ralph F Tibbetts,Tibbetts,Ralph,unresolved,unknown_or_indeterminate,,not_started,1,468,777,230/86/42/01,••••3998
 c798347f-5ddf-5442-a80c-caf48cff5455,Ralph F Warren,Warren,Ralph,unresolved,unknown_or_indeterminate,,not_started,1,491,817,230/86/42/07,
@@ -19533,7 +19533,7 @@ d8357f29-497a-5baa-9cb5-b22ab37ad9f8,Robert I Librecht,Librecht,Robert,unresolve
 8ad974bf-1e49-5978-b01a-6ddde5995bed,Robert J Anderson,Anderson,Robert,unresolved,enlisted_army_personnel,False,requires_archival_review,1,10,16,230/86/26/05,••••6757
 99747044-53c6-54a1-8cfd-407b3b53159a,Robert J Bachman,Bachman,Robert,unresolved,unknown_or_indeterminate,False,requires_archival_review,1,17,28,230/86/26/06,
 fa91697c-5bb9-570b-a94d-3c547c19a12d,Robert J Bahr,Bahr,Robert,unresolved,unknown_or_indeterminate,,requires_archival_review,1,18,29,230/86/26/07,••••9961
-918f6ce6-2094-5716-a820-7413de0cf951,Robert J Boehm,Boehm,Robert,unresolved,commissioned_army_officer,True,not_started,1,42,64,230/86/27/05,••••0257
+918f6ce6-2094-5716-a820-7413de0cf951,Robert J Boehm,Boehm,Robert,unresolved,commissioned_army_officer,True,requires_archival_review,1,42,64,230/86/27/05,••••0257
 7285e702-7a1f-5f50-862b-44d838ed06f7,Robert J Boylan,Boylan,Robert,unresolved,unknown_or_indeterminate,,not_started,1,48,74,230/86/27/06,
 4e203427-1535-51b9-b137-458047d89bcd,Robert J Burnham,Burnham,Robert,unresolved,unknown_or_indeterminate,,not_started,1,62,95,230/86/28/02,••••7115
 0395eb96-a9e5-5dac-a078-ef3312c5c0e8,Robert J Catto,Catto,Robert,unresolved,unknown_or_indeterminate,,not_started,1,74,114,230/86/28/05,
@@ -22198,7 +22198,7 @@ f310fb1a-062e-58f0-8b35-69d43bf1b738,Viola E Pew,Pew,Viola,unresolved,civilian_p
 e5fcfea6-b88a-5014-9c82-e3ac48159c39,Viola M Stevenson,Stevenson,Viola,unresolved,unknown_or_indeterminate,,not_started,1,448,746,230/86/41/04,
 bf283d62-3881-52dd-a6f4-84fd7e31cfcb,Viola Rygg,Rygg,Viola,unresolved,civilian_professional_or_administrative_grade,False,not_started,1,405,670,230/86/39/07,
 fc24a851-46fc-589d-87e1-66b19147e989,Viola S Hoffman,Hoffman,Viola,unresolved,unknown_or_indeterminate,,not_started,1,211,340,230/86/33/02,
-593aef42-0305-5b3f-b74c-2540800c5136,Violet Bodman,Bodman,Violet,unresolved,unknown_or_indeterminate,,not_started,1,41,64,230/86/27/05,
+593aef42-0305-5b3f-b74c-2540800c5136,Violet Bodman,Bodman,Violet,confirmed,civilian_professional_or_administrative_grade,False,completed,1,41,64,230/86/27/05,
 2f42c31d-5bd5-5ca4-8a40-73c40a0345dd,Violet Farr,Farr,Violet,unresolved,unknown_or_indeterminate,,not_started,1,141,229,230/86/30/07,
 9f7f4ce8-3f43-5c77-b207-61e773384214,Violet L Crisp,Crisp,Violet,unresolved,unknown_or_indeterminate,,not_started,1,98,154,230/86/29/03,
 5c5c1754-5cb9-540c-8fbc-5c1b856076e1,Violet R Williams,Williams,Violet,unresolved,unknown_or_indeterminate,,not_started,1,506,841,230/86/43/04,

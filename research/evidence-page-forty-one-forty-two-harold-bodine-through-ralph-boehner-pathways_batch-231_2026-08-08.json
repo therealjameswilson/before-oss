@@ -1,0 +1,722 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-batch231-v1",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-41-42-batch231",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 64",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 41, rows 40-46, and page 42, rows 1-3; Harold R. Bodine through Ralph F. Boehner; visually checked at original resolution",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch231",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier review for Harold R. Bodine and David Bodner; name-only candidate review for all ten people",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch231",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Digital PDF pages 44-45 defining fixed-width name, Army-entry date, grade, branch, and civilian-occupation fields; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines an Army-entry file and warns that merged records contain interpreted fields and gaps. A civilian-occupation code does not name an employer."
+    },
+    {
+      "key": "nara-army-occupation-code-list-batch231",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Code List",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "Reference copy modified 2011",
+      "locator": "Digital PDF pages 171 and 175; civilian-occupation codes 180 and 599; visually checked",
+      "access_date": "2026-08-08",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official code list maps broad occupation categories. It does not identify an employer, workplace, OSS-entry date, or the person to whom a name-only candidate belongs."
+    },
+    {
+      "key": "toledo-blade-violet-bodman-coffin-2008-batch231",
+      "stable_url": "https://www.legacy.com/us/obituaries/toledoblade/name/violet-coffin-obituary?id=27440443",
+      "title": "Violet Bodman Coffin obituary",
+      "author_creator": "The Blade obituary staff",
+      "repository_publisher": "The Blade; Legacy.com",
+      "publication_record_date": "2008-04-03",
+      "locator": "Obituary for Violet Bodman Coffin; Smith College graduation and subsequent OSS wartime work",
+      "access_date": "2026-08-08",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Blade obituaries",
+      "rights_notes": "Reputable obituary. The project stores a short excerpt, citation metadata, and project-authored assessments rather than republishing the article."
+    },
+    {
+      "key": "smith-college-violet-bodman-1942-batch231",
+      "stable_url": "https://smithpioneers.com/sports/2019/1/8/horse-memoirs-project-a-c.aspx?id=352",
+      "title": "Horse Memoirs Project: A-C",
+      "author_creator": "Smith College Athletics",
+      "repository_publisher": "Smith College",
+      "publication_record_date": "2019-01-08",
+      "locator": "Entry for Violet (Bodman) Coffin, class of 1942",
+      "access_date": "2026-08-08",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Smith College Horse Memoirs Project",
+      "rights_notes": "Institutional page corroborating Violet Bodman's married name and class year. It is used for identity and student-status context, not as evidence of employment."
+    },
+    {
+      "key": "riverside-cemetery-barron-boe-batch231",
+      "stable_url": "https://www.interment.net/united-states/california/riverside-county/riverside/riverside-national-cemetery/transcription/20.php?page=243",
+      "archival_identifier": "Riverside National Cemetery, section 19A, site 3923",
+      "title": "Riverside National Cemetery transcription: Barron B. Boe",
+      "author_creator": "Interment.net transcription from the Veterans Affairs database",
+      "repository_publisher": "Interment.net",
+      "publication_record_date": "Record covers 1921-1988",
+      "locator": "Barron B. Boe entry; U.S. Army captain and World War II veteran",
+      "access_date": "2026-08-08",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Riverside National Cemetery transcription",
+      "rights_notes": "Third-party transcription of a Veterans Affairs cemetery record. It corroborates the uncommon exact name, Army branch, captain rank, and World War II service but does not identify an OSS assignment or pre-OSS employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "smith-college-batch231",
+      "canonical_name": "Smith College",
+      "historical_name": "Smith College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "Documented for Violet Bodman through 1942",
+      "normalization_notes": "Violet Bodman's documented relationship is student, not employment. The college therefore is not counted as her civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "harold-r-bodine-salesman-at-army-entry-batch231",
+      "person_id": "df720287-d33c-506f-baaf-1f120d3490d7",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Salesman to consumers",
+      "occupation": "salesman to consumers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-03",
+      "date_precision": "Recorded as civilian-occupation code 180 at Army entry on June 3, 1943; no employer, product, workplace, duties, or start date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The index and Army file share the exact full name and private identifier. The occupation is date-bounded to Army entry, not proven to be the immediate pre-OSS role, and no employer is inferred."
+    },
+    {
+      "key": "violet-bodman-smith-college-student-batch231",
+      "person_id": "593aef42-0305-5b3f-b74c-2540800c5136",
+      "organization_key": "smith-college-batch231",
+      "organization_name_as_found": "Smith College",
+      "role_title": "Student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "The obituary says Violet Bodman graduated from Smith College in 1942 and went on to wartime OSS work; Smith College independently lists Violet (Bodman) Coffin in the class of 1942.",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The uncommon exact birth name, Smith class year, married-name bridge, and explicit OSS chronology identify the indexed person. Smith is modeled as an educational affiliation, never as an employer."
+    },
+    {
+      "key": "david-bodner-foreman-at-army-entry-batch231",
+      "person_id": "66214ffe-dc56-5979-aea1-a23daf0b309a",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Foreman, not elsewhere classified",
+      "occupation": "foreman, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-20",
+      "date_precision": "Recorded as civilian-occupation code 599 at Army entry on November 20, 1942; no employer, industry, workplace, duties, or start date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier strongly links the records, but the Army name field reads DAV D while the index reads David with no middle initial. The discrepancy remains visible and no employer is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "harold-r-bodine-exact-army-identity-batch231",
+      "person_id": "df720287-d33c-506f-baaf-1f120d3490d7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold R. Bodine is confirmed as the Army private recorded under the same full name.",
+      "evidence_paraphrase": "The visually verified index and official Army merged file share the exact private identifier and the exact name Harold R. Bodine.",
+      "identity_match_assessment": "Confirmed by an exact private-identifier linkage and exact full-name agreement; no merge rests on name alone.",
+      "temporal_assessment": "The Army record dates entry to June 3, 1943; the subsequent Army-to-OSS chronology remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is retained in the restricted database and withheld from public outputs. Box 64 remains necessary for assignment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-41-42-batch231",
+          "locator_override": "PDF page 41, row 40"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch231",
+          "locator_override": "Exact private-identifier and exact-name record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "harold-r-bodine-salesman-occupation-batch231",
+      "person_id": "df720287-d33c-506f-baaf-1f120d3490d7",
+      "affiliation_key": "harold-r-bodine-salesman-at-army-entry-batch231",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in June 1943, Harold R. Bodine's civilian occupation was coded as salesman to consumers.",
+      "evidence_excerpt": "Salesmen, to consumers",
+      "evidence_paraphrase": "The exact-matched Army row carries occupation code 180, which the official NARA code list defines as salesmen to consumers.",
+      "identity_match_assessment": "Confirmed by exact name and private identifier across the index and Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on June 3, 1943; it is not proven to be immediately before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No company, product, sales territory, workplace, or employment relationship is inferred from the code.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch231",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 180"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch231",
+          "locator_override": "Digital PDF page 45; civilian occupation in columns 70-72"
+        },
+        {
+          "source_key": "nara-army-occupation-code-list-batch231",
+          "locator_override": "Digital PDF page 171; code 180"
+        }
+      ]
+    },
+    {
+      "key": "violet-bodman-coffin-confirmed-identity-batch231",
+      "person_id": "593aef42-0305-5b3f-b74c-2540800c5136",
+      "claim_type": "identity",
+      "claim_text": "The indexed Violet Bodman is confirmed as Smith College graduate Violet Bodman Coffin, whose obituary documents OSS wartime work.",
+      "evidence_paraphrase": "The obituary gives the exact birth name Violet Bodman, Smith College class of 1942, and subsequent OSS work; Smith independently links Violet Bodman to the married name Coffin and class year.",
+      "identity_match_assessment": "Confirmed by the uncommon exact indexed name, a direct OSS statement, the 1942 class year, and an institutional married-name bridge.",
+      "temporal_assessment": "The obituary explicitly sequences her 1942 Smith graduation before her wartime OSS work.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from student status. Box 64 can still refine OSS dates and determine whether any civilian employment intervened.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-41-42-batch231",
+          "locator_override": "PDF page 41, row 42"
+        },
+        {
+          "source_key": "toledo-blade-violet-bodman-coffin-2008-batch231",
+          "locator_override": "Obituary biography"
+        },
+        {
+          "source_key": "smith-college-violet-bodman-1942-batch231",
+          "locator_override": "Violet (Bodman) Coffin, class of 1942"
+        }
+      ]
+    },
+    {
+      "key": "violet-bodman-smith-immediate-affiliation-batch231",
+      "person_id": "593aef42-0305-5b3f-b74c-2540800c5136",
+      "affiliation_key": "violet-bodman-smith-college-student-batch231",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Violet Bodman's documented immediate pre-OSS affiliation was student at Smith College, where she graduated in 1942.",
+      "evidence_excerpt": "graduated from Smith College in 1942 ... went on to wartime work with the Office for Strategic Services",
+      "evidence_paraphrase": "The obituary explicitly sequences Smith graduation in 1942 before OSS wartime work, and Smith College independently corroborates her class year and married name.",
+      "identity_match_assessment": "Confirmed as the indexed person through uncommon exact name, OSS service, class year, and institutional name bridge.",
+      "temporal_assessment": "Explicit immediate sequence: graduation in 1942 followed by wartime OSS work; no intervening employer is documented in the accessible sources.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Smith College is an institution attended, not an employer. This claim is excluded from employer counts and retained as an immediate educational pathway.",
+      "sources": [
+        {
+          "source_key": "toledo-blade-violet-bodman-coffin-2008-batch231",
+          "locator_override": "Obituary biography"
+        },
+        {
+          "source_key": "smith-college-violet-bodman-1942-batch231",
+          "locator_override": "Violet (Bodman) Coffin, class of 1942"
+        }
+      ]
+    },
+    {
+      "key": "david-bodner-identifier-name-discrepancy-batch231",
+      "person_id": "66214ffe-dc56-5979-aea1-a23daf0b309a",
+      "claim_type": "identity",
+      "claim_text": "The indexed David Bodner is strongly linked to an Army private whose name field reads DAV D, but that truncated or garbled name remains unresolved.",
+      "evidence_paraphrase": "The visually verified index and official Army row share the exact private identifier and surname; the index reads David Bodner while the Army name field reads Bodner, Dav D.",
+      "identity_match_assessment": "High confidence from the unique private-identifier linkage, with the first-name discrepancy preserved rather than silently corrected.",
+      "temporal_assessment": "The Army record dates entry to November 20, 1942; the subsequent Army-to-OSS chronology remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The private identifier is masked publicly. Box 64 must clarify whether DAV D is truncation, transcription error, an alternate form, or evidence of another conflict.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-41-42-batch231",
+          "locator_override": "PDF page 41, row 44"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch231",
+          "locator_override": "Exact private-identifier record under Bodner, Dav D; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "david-bodner-foreman-occupation-batch231",
+      "person_id": "66214ffe-dc56-5979-aea1-a23daf0b309a",
+      "affiliation_key": "david-bodner-foreman-at-army-entry-batch231",
+      "claim_type": "occupation",
+      "claim_text": "The strongly linked Army record classifies David Bodner's civilian occupation at Army entry as foreman, not elsewhere classified.",
+      "evidence_excerpt": "Foremen, n.e.c.",
+      "evidence_paraphrase": "The exact-identifier Army row carries occupation code 599, which the official NARA code list defines as foremen not elsewhere classified.",
+      "identity_match_assessment": "High confidence from the exact private identifier, qualified because the Army name field reads DAV D rather than David.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on November 20, 1942; it is not proven to be immediately before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, industry, workplace, supervisory scope, or employment relationship is inferred from the code.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch231",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 599"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch231",
+          "locator_override": "Digital PDF page 45; civilian occupation in columns 70-72"
+        },
+        {
+          "source_key": "nara-army-occupation-code-list-batch231",
+          "locator_override": "Digital PDF page 175; code 599"
+        }
+      ]
+    },
+    {
+      "key": "barron-b-boe-army-captain-identity-batch231",
+      "person_id": "839850ff-9012-59c2-8eec-ad76a5fc1a8c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Barron B. Boe is a high-confidence match to the World War II U.S. Army captain buried at Riverside National Cemetery.",
+      "evidence_excerpt": "BOE, BARRON B ... US ARMY, CAPT, WORLD WAR II",
+      "evidence_paraphrase": "The cemetery transcription independently gives the uncommon exact full name, U.S. Army branch, captain rank, and World War II service shown or implied by the OSS index context.",
+      "identity_match_assessment": "High confidence from uncommon exact full name plus matching Army branch, captain rank, and wartime era; the evidence is a third-party transcription rather than the personnel file.",
+      "temporal_assessment": "The source confirms World War II military service but supplies no Army-to-OSS sequence or pre-service occupation.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "This corroborates identity and rank only. No employer, unit, hometown, or OSS assignment is inferred, and the private index identifier remains withheld.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-41-42-batch231",
+          "locator_override": "PDF page 41, row 45"
+        },
+        {
+          "source_key": "riverside-cemetery-barron-boe-batch231",
+          "locator_override": "Section 19A, site 3923"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "df720287-d33c-506f-baaf-1f120d3490d7",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact full name Harold R. Bodine and the exact private identifier. The Army file dates entry to June 3, 1943 and records civilian occupation code 180; no accessible source establishes the later Army-to-OSS sequence or an employer.",
+      "name_variants": [
+        "Harold R Bodine",
+        "Harold R. Bodine",
+        "Bodine, Harold R."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for Army assignments, OSS-entry chronology, and the employer associated with the Army occupation code.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33bc0950-78e2-5169-80e1-6dbe23a1b0be",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Elizabeth M. Bodington and Box 64 but no rank, private identifier, occupation, hometown, or notes. Official Army, public NARA and RG 226 context, CIA Reading Room, exact-name and variant, employment, occupation, obituary, newspaper, directory, institutional, and archival searches found no defensible match. A later actress born in 1929 is a rejected namesake and too young for the indexed wartime record.",
+      "name_variants": [
+        "Elizabeth M Bodington",
+        "Elizabeth M. Bodington",
+        "Bodington, Elizabeth M."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for full name, dates, personnel status, identifiers, OSS assignment, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "593aef42-0305-5b3f-b74c-2540800c5136",
+      "identity_status": "confirmed",
+      "identity_evidence": "The uncommon exact birth name Violet Bodman in the index matches The Blade's obituary for Violet Bodman Coffin, which directly reports Smith College graduation in 1942 followed by OSS wartime work. Smith College independently links Violet Bodman to the married name Coffin and class of 1942.",
+      "name_variants": [
+        "Violet Bodman",
+        "Bodman, Violet",
+        "Violet Bodman Coffin",
+        "Violet (Bodman) Coffin"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 64 when practical to establish exact OSS-entry dates and determine whether any short civilian employment intervened after Smith graduation; Smith remains a student affiliation, not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "bdec8217-96ac-50f7-8193-d1643f43656b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index prints John P. Bodmar without a rank or private identifier. The official Army file has two duplicate-looking John P. Bodman rows but no Bodmar row. Because the index supplies no corroborating identifier and the spelling differs, the Army candidate is retained only as a possible variant and neither record nor occupation is assigned.",
+      "name_variants": [
+        "John P Bodmar",
+        "John P. Bodmar",
+        "Bodmar, John P.",
+        "John P Bodman (unresolved search candidate)"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 64 to confirm the indexed surname, obtain an identifier, and test—but not assume—the John P. Bodman Army candidate before researching a pre-OSS pathway.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "66214ffe-dc56-5979-aea1-a23daf0b309a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index and official Army merged file share an exact private identifier and surname. The index reads David Bodner while the Army name field reads Bodner, Dav D. The private-identifier linkage is strong, but the truncated or garbled first-name field remains a visible discrepancy.",
+      "name_variants": [
+        "David Bodner",
+        "Bodner, David",
+        "Bodner, Dav D (official Army name field)"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 to resolve the Army name field, trace Army-to-OSS assignments, and identify the employer associated with the foreman occupation code.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "839850ff-9012-59c2-8eec-ad76a5fc1a8c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact indexed name Barron B. Boe and rank captain match a Riverside National Cemetery transcription identifying Barron B. Boe as a U.S. Army captain and World War II veteran. The source corroborates identity and rank but does not establish an OSS assignment or pre-service employment.",
+      "name_variants": [
+        "Barron B Boe",
+        "Barron B. Boe",
+        "Boe, Barron B."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for unit, commissioning source, OSS assignment, and pre-Army civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a9c04597-2f60-5633-93d3-0a8277d09557",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Gertrude L. Boedeker and Box 64 but no rank, private identifier, occupation, hometown, or notes. Official Army, public NARA and RG 226 context, CIA Reading Room, exact-name and spelling variants, employment, occupation, obituary, newspaper, directory, institutional, and archival searches found several namesakes but no defensible OSS-linked match.",
+      "name_variants": [
+        "Gertrude L Boedeker",
+        "Gertrude L. Boedeker",
+        "Boedeker, Gertrude L."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for full name, dates, identifiers, personnel status, OSS assignment, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "67dbb66d-488b-5eef-8a2d-d9358394bfd3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Albert A. Boehl and Box 64 but no rank, private identifier, occupation, hometown, or notes. Official Army, public NARA and RG 226 context, CIA Reading Room, exact-name and spelling variants, employment, occupation, obituary, newspaper, directory, institutional, and archival searches produced namesakes but no defensible OSS-linked match.",
+      "name_variants": [
+        "Albert A Boehl",
+        "Albert A. Boehl",
+        "Boehl, Albert A."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for full name, dates, identifiers, personnel status, OSS assignment, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "918f6ce6-2094-5716-a820-7413de0cf951",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index prints Robert J. Boehm as a captain with a private identifier, but the official enlisted-personnel file appropriately has no match for the officer identifier. Public NARA and RG 226 context, CIA Reading Room, exact-name plus captain and Army variants, employment, occupation, obituary, newspaper, directory, institutional, and archival searches found many namesakes without enough corroborating identifiers.",
+      "name_variants": [
+        "Robert J Boehm",
+        "Robert J. Boehm",
+        "Boehm, Robert J."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for full name, officer service record, unit, OSS assignment, hometown, and pre-service chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "44cd9ad6-1054-541f-a5b7-8c6f42a3123c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Ralph F. Boehner, a private identifier, and Box 64, but the official Army enlisted file contains no identifier match. Public NARA and RG 226 context, CIA Reading Room, exact-name, employment, occupation, obituary, newspaper, directory, institutional, and archival searches found a possible Ralph Francis Boehner namesake without an OSS or military identifier link, so it was rejected as final evidence.",
+      "name_variants": [
+        "Ralph F Boehner",
+        "Ralph F. Boehner",
+        "Boehner, Ralph F."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 to identify the indexed person and explain why the private identifier is absent from the official enlisted file before testing biographical candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "harold-r-bodine-protocol-batch231",
+      "person_id": "df720287-d33c-506f-baaf-1f120d3490d7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Harold R. Bodine; visually verified NARA index; exact private-identifier Army review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and rank variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:24:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Searches found multiple Harold Bodine namesakes but no source tying an employer or post-entry Army chronology to the exact indexed person. The Army occupation code supplies an occupation category, not an employer.",
+      "research_notes": "The exact identifier and name confirm the Army identity and a date-bounded civilian occupation. No immediate pre-OSS employer or Army-to-OSS sequence was established.",
+      "next_action": "Review Box 64 for Army assignments, OSS-entry chronology, and the employer associated with the occupation code.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "elizabeth-m-bodington-protocol-batch231",
+      "person_id": "33bc0950-78e2-5169-80e1-6dbe23a1b0be",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Elizabeth M. Bodington; visually verified NARA index; official Army check; public NARA and RG 226 context; CIA Reading Room; exact-name and Elizabeth Bodington variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:25:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Mary Elizabeth Bodington, later known as actress Lisa Daniely, was born in 1929 and is too young for the indexed wartime personnel record. Other Bodington results supplied no exact middle initial, OSS link, or corroborating identifier.",
+      "research_notes": "No reliable identity, employer, occupation, or pre-OSS affiliation was found. The physical personnel file is the next necessary source.",
+      "next_action": "Review Box 64 for full name, dates, identifiers, personnel status, OSS assignment, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "violet-bodman-protocol-batch231",
+      "person_id": "593aef42-0305-5b3f-b74c-2540800c5136",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Violet Bodman; Violet Bodman Coffin; visually verified NARA index; official Army check; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress; Smith College, employer, student, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:26:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Generic name results and unsourced genealogy were rejected. The accessible sources do not identify a civilian employer or exact OSS appointment date, and Smith student status is not treated as employment.",
+      "research_notes": "The obituary and Smith institutional page confirm identity and document Smith College student status immediately before wartime OSS work. The educational pathway is published separately from employer analytics.",
+      "next_action": "Review Box 64 when practical for exact OSS-entry dates and any intervening civilian role after graduation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "john-p-bodmar-protocol-batch231",
+      "person_id": "bdec8217-96ac-50f7-8193-d1643f43656b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John P. Bodmar; John P. Bodman; visually verified NARA index; official Army name-only candidate review; public NARA and RG 226 context; CIA Reading Room; exact-name and spelling variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:27:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The Army file contains duplicate-looking John P. Bodman rows but no Bodmar row. Without an index identifier, rank, hometown, or second corroborating fact, the spelling variant and Army occupation cannot be assigned.",
+      "research_notes": "The Bodman form is retained as an unresolved search candidate only. The indexed Bodmar source row remains unchanged and no person merge occurred.",
+      "next_action": "Review Box 64 to confirm surname spelling and obtain identifiers before testing the Army candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "david-bodner-protocol-batch231",
+      "person_id": "66214ffe-dc56-5979-aea1-a23daf0b309a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "David Bodner; Bodner Dav D; visually verified NARA index; exact private-identifier Army review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:28:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Many David Bodner namesakes lacked the private identifier, OSS context, or corroborating military facts. The exact-identifier Army row has a truncated or garbled first-name field and identifies only an occupation category, not an employer.",
+      "research_notes": "The exact identifier supports a high-confidence identity and date-bounded foreman occupation, with the name discrepancy visible. No immediate pre-OSS employer was established.",
+      "next_action": "Review Box 64 to resolve the Army name field, trace Army-to-OSS assignments, and identify any civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "barron-b-boe-protocol-batch231",
+      "person_id": "839850ff-9012-59c2-8eec-ad76a5fc1a8c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Barron B. Boe; visually verified NARA index; official Army check; public NARA and RG 226 context; CIA Reading Room; exact-name OSS, Army captain, and rank variants; current Library of Congress; employment, occupation, obituary, cemetery, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:29:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The officer identifier is appropriately absent from the enlisted-personnel file. Cemetery evidence corroborates identity and rank but supplies no unit, commissioning path, OSS assignment, occupation, or employer.",
+      "research_notes": "The uncommon exact name plus U.S. Army captain rank and World War II service support a high-confidence identity. Pre-OSS employment remains unresolved.",
+      "next_action": "Review Box 64 for unit, commissioning source, OSS assignment, and pre-Army civilian chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "gertrude-l-boedeker-protocol-batch231",
+      "person_id": "a9c04597-2f60-5633-93d3-0a8277d09557",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gertrude L. Boedeker; visually verified NARA index; official Army check; public NARA and RG 226 context; CIA Reading Room; exact-name and Boedeker variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:30:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Several Gertrude Boedeker namesakes appeared without the exact middle initial, OSS context, wartime occupation, or second corroborating identifier. None was defensibly linked to the index row.",
+      "research_notes": "No reliable identity, employer, occupation, or pre-OSS affiliation was found. The physical personnel file is the next necessary source.",
+      "next_action": "Review Box 64 for full name, dates, identifiers, personnel status, OSS assignment, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "albert-a-boehl-protocol-batch231",
+      "person_id": "67dbb66d-488b-5eef-8a2d-d9358394bfd3",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Albert A. Boehl; visually verified NARA index; official Army check; public NARA and RG 226 context; CIA Reading Room; exact-name and Boehl variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:31:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Exact- and near-name results lacked an OSS link, matching rank, private identifier, hometown, or second corroborating fact. No candidate met the common-name identity standard.",
+      "research_notes": "No reliable identity, employer, occupation, or pre-OSS affiliation was found. The physical personnel file is the next necessary source.",
+      "next_action": "Review Box 64 for full name, dates, identifiers, personnel status, OSS assignment, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "robert-j-boehm-protocol-batch231",
+      "person_id": "918f6ce6-2094-5716-a820-7413de0cf951",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert J. Boehm; visually verified NARA index; officer-identifier and official Army context; public NARA and RG 226 context; CIA Reading Room; exact-name OSS, Army captain, and rank variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:32:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "The common name produced numerous military and civilian namesakes. None combined the full middle initial, captain rank, Army or OSS context, and a second corroborating identifier. The officer identifier is not expected in the enlisted file.",
+      "research_notes": "The index rank supports commissioned-officer classification but does not resolve which Robert J. Boehm biography belongs to the row. No pre-OSS employer was assigned.",
+      "next_action": "Review Box 64 for officer service record, unit, hometown, OSS assignment, and pre-service chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    },
+    {
+      "key": "ralph-f-boehner-protocol-batch231",
+      "person_id": "44cd9ad6-1054-541f-a5b7-8c6f42a3123c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ralph F. Boehner; Ralph Francis Boehner; visually verified NARA index; exact private-identifier Army check; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress; employment, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T01:33:00+00:00",
+      "completed_at": "2026-08-09T02:04:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A possible Ralph Francis Boehner appears only in later family and genealogy context without an OSS link, military identifier, or corroborating wartime facts. The private identifier has no official enlisted-file match, so the namesake was rejected as final evidence.",
+      "research_notes": "No reliable identity, personnel category, employer, occupation, or pre-OSS affiliation was found. The physical personnel file is required before further disambiguation.",
+      "next_action": "Review Box 64 to identify the person and explain the absent enlisted-file match before testing biographical candidates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch231-v1"
+    }
+  ]
+}

@@ -20364,3 +20364,77 @@ test("Batch 230 publishes Bodde and Bodfish employers while preserving occupatio
   await expect(page.locator("main")).toContainText("a different identifier");
   await expect(page.locator("main")).not.toContainText("Office machine operator");
 });
+
+test("Batch 231 publishes Bodman's student pathway while preserving occupations and unresolved identities", async ({
+  page,
+}) => {
+  const profiles = [
+    ["df720287-d33c-506f-baaf-1f120d3490d7", "Harold R Bodine", "confirmed", "41", true],
+    ["33bc0950-78e2-5169-80e1-6dbe23a1b0be", "Elizabeth M Bodington", "unresolved", "41", false],
+    ["593aef42-0305-5b3f-b74c-2540800c5136", "Violet Bodman", "confirmed", "41", false],
+    ["bdec8217-96ac-50f7-8193-d1643f43656b", "John P Bodmar", "ambiguous", "41", false],
+    ["66214ffe-dc56-5979-aea1-a23daf0b309a", "David Bodner", "high confidence", "41", true],
+    ["839850ff-9012-59c2-8eec-ad76a5fc1a8c", "Barron B Boe", "high confidence", "41", true],
+    ["a9c04597-2f60-5633-93d3-0a8277d09557", "Gertrude L Boedeker", "unresolved", "41", false],
+    ["67dbb66d-488b-5eef-8a2d-d9358394bfd3", "Albert A Boehl", "unresolved", "42", false],
+    ["918f6ce6-2094-5716-a820-7413de0cf951", "Robert J Boehm", "unresolved", "42", true],
+    ["44cd9ad6-1054-541f-a5b7-8c6f42a3123c", "Ralph F Boehner", "unresolved", "42", true],
+  ] as const;
+
+  for (const [personId, displayName, identityStatus, pageNumber, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(`Page ${pageNumber}`);
+    await expect(page.locator(".index-record").first()).toContainText("64");
+    await expect(page.getByText(identityStatus, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/593aef42-0305-5b3f-b74c-2540800c5136/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Smith College",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.locator(
+      'a[href="https://www.legacy.com/us/obituaries/toledoblade/name/violet-coffin-obituary?id=27440443"]',
+    ).first(),
+  ).toBeVisible();
+  await expect(
+    page.locator(
+      'a[href="https://smithpioneers.com/sports/2019/1/8/horse-memoirs-project-a-c.aspx?id=352"]',
+    ).first(),
+  ).toBeVisible();
+
+  for (const [personId, occupation] of [
+    ["df720287-d33c-506f-baaf-1f120d3490d7", "Salesman to consumers"],
+    ["66214ffe-dc56-5979-aea1-a23daf0b309a", "Foreman, not elsewhere classified"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/bdec8217-96ac-50f7-8193-d1643f43656b/");
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("John P Bodman");
+  await expect(page.locator("main")).not.toContainText("Semiskilled occupations in manufacture of aircraft");
+
+  await page.goto("./people/839850ff-9012-59c2-8eec-ad76a5fc1a8c/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("US ARMY, CAPT, WORLD WAR II");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});
