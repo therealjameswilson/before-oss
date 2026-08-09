@@ -4,16 +4,42 @@ Run: 2026-08-09 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,355 HTML files. Every relative
+**PASS.** The production build contains 24,356 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 407 organization profiles, and the
+The build includes 23,940 person profiles, 408 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,145 unique external URLs for separate live
+The checker inventoried 49,147 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 237 local release check
+
+The complete 24,356-page internal-link pass includes direct routes for Guy C.
+Bolte through Joseph N. Bonavito on PDF page 43. The 70-test Python suite,
+deterministic 200-profile audit, and focused desktop, phone, and tablet
+regression passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities. The complete
+753 / 753 browser and axe matrix passed locally.
+
+The regression checks all ten indexed rows in Box 66, public-safe identifier
+masking, identity and research states, and terminal employer-gap wording. It
+separately verifies three exact-identifier Army-entry occupations without
+turning them into employers; Joseph N. Bonavito's qualified occupation and
+University of Michigan student affiliation; his differing-identifier review
+notice; and six unresolved archival-review profiles.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,426 public artifacts,
+reviewed 1,018 candidate substrings, and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+manifest SHA-256 is
+`58477a917f77e1197b702e1a1c5f2e32c6b5174f9ff1e22bc9b7a140393b39e9`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`5f4e29d42fa226334909d9da2cb3105faefae42c63a74dbd72dcad7465525759`.
 
 ## Batch 236 local release check
 

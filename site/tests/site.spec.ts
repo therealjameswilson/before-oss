@@ -20763,3 +20763,75 @@ test("Batch 236 publishes exact-identifier occupations and keeps qualified pathw
     );
   }
 });
+
+test("Batch 237 publishes identifier-backed occupations and a qualified Bonavito pathway", async ({
+  page,
+}) => {
+  const profiles = [
+    ["b53b4ea2-7a26-57db-a2f8-ad75813a8d82", "Guy C Bolte"],
+    ["40af8b79-69ab-50c8-aa73-f8093a353aed", "Harold P Bolter"],
+    ["f143b1f3-10f7-57a4-a750-edd451fb480a", "Tom Bolton"],
+    ["12afd48f-2b73-59a8-b501-33f02154497a", "Marciella W Bomar"],
+    ["0bee900b-aa3a-57e3-9c4a-e1480468b1cd", "Virgilio Bombaci"],
+    ["96036611-8d48-5545-9dd2-e862c8b920ed", "Carl Bommarito"],
+    ["9e01194e-f186-5b34-a4d6-c66b9eb6cfe9", "Mary P Bonack"],
+    ["7edb3918-6c07-59a6-a913-009a20449353", "Remo Bonafede"],
+    ["669f66bf-9f42-5a42-8abe-e731d5d336ce", "Douglas Bonamy"],
+    ["754d08d1-1aef-5c45-8170-66b9f2d8c1e3", "Joseph N Bonavito"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 43");
+    await expect(page.locator(".index-record").first()).toContainText("66");
+  }
+
+  for (const [personId, occupation] of [
+    ["40af8b79-69ab-50c8-aa73-f8093a353aed", "Tailor or tailoress"],
+    ["0bee900b-aa3a-57e3-9c4a-e1480468b1cd", "Mechanic or repairman"],
+    ["96036611-8d48-5545-9dd2-e862c8b920ed", "Inspector"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "b53b4ea2-7a26-57db-a2f8-ad75813a8d82",
+    "f143b1f3-10f7-57a4-a750-edd451fb480a",
+    "12afd48f-2b73-59a8-b501-33f02154497a",
+    "9e01194e-f186-5b34-a4d6-c66b9eb6cfe9",
+    "7edb3918-6c07-59a6-a913-009a20449353",
+    "669f66bf-9f42-5a42-8abe-e731d5d336ce",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/754d08d1-1aef-5c45-8170-66b9f2d8c1e3/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Wholesale manager",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Michigan",
+  );
+  await expect(page.locator("main")).toContainText("differing identifiers");
+  await expect(
+    page.locator('a[href="https://hdl.handle.net/2027.42/50759"]').first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

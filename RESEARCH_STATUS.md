@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,147 people with a non-planned attempt | 23,940 active person entities | 8.9683% |
-| Verified-affiliation coverage | 370 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5455% |
+| Research-attempt coverage | 2,167 people with a non-planned attempt | 23,940 active person entities | 9.0518% |
+| Verified-affiliation coverage | 380 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5873% |
 | Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
-| Archival-review coverage | 2,096 people with an individual file-access/priority assessment | 23,940 active person entities | 8.7552% |
+| Archival-review coverage | 2,116 people with an individual file-access/priority assessment | 23,940 active person entities | 8.8388% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 302
-- Identity status `high_confidence`: 413
-- Identity status `probable`: 72
+- Identity status `confirmed`: 311
+- Identity status `high_confidence`: 415
+- Identity status `probable`: 73
 - Identity status `ambiguous`: 41
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,087
+- Identity status `unresolved`: 23,075
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,434
-- Enlisted Army personnel: 3,558
-- Commissioned Army officers: 2,072
+- Unknown or indeterminate: 16,424
+- Enlisted Army personnel: 3,567
+- Commissioned Army officers: 2,073
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -45,37 +45,37 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,182 yes; 5,162 no; 16,596 indeterminate.
+Commissioned classification: 2,183 yes; 5,171 no; 16,586 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,793
+- `not_started`: 21,773
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 44
-- `needs_temporal_review`: 6
+- `needs_identity_review`: 45
+- `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 253
-- `requires_archival_review`: 1,468
+- `occupation_only_found`: 263
+- `requires_archival_review`: 1,476
 - `completed`: 74
 - `conflicting_sources`: 25
 - `verified_employer_found`: 177
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 215
-- Live Library of Congress attempts: 453
+- Live CIA exact-name OSS attempts: 225
+- Live Library of Congress attempts: 463
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,917. The detailed adapter breakdown remains reproducible in
+  adapters: 1,947. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 847 across 819 people; 103 additional
+- Saved `source_reviewed` outcomes: 864 across 836 people; 105 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,369
+- Total recorded attempts/plans: 3,419
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 783; 760 have at least one public-visible
+- People with saved reviewed claims: 803; 780 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,44 @@ Commissioned classification: 2,182 yes; 5,162 no; 16,596 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 237 covers the next ten contiguous page-forty-three rows, Guy C. Bolte
+  through Joseph N. Bonavito, all indexed in Box 66. The source page and all
+  ten rows were visually checked at original resolution, along with the
+  official Army file's field-layout, education, occupation-code pages, and the
+  University of Michigan institutional source used for Bonavito. Exact private-
+  identifier and name matches in NARA's official Army merged file confirm
+  Harold P. Bolter, Virgilio Bombaci, and Carl Bommarito. Their dated Army-entry
+  records support the bounded occupation categories of tailor or tailoress,
+  mechanic or repairman, and inspector. These categories name no employer and
+  do not establish the immediate Army-to-OSS sequence; Bolter's unfamiliar
+  `PV0` alpha-grade value is preserved without forced normalization.
+  Joseph N. Bonavito is a high-confidence identity rather than a confirmed
+  private-identifier match. An uncommon exact name, 1916 birth year, Italian
+  nativity, New York residence, four college years, and wartime Army service
+  align the Army candidate with a visually inspected University of Michigan
+  alumni notice identifying an Italian-born, New York-raised MBA 1939 who
+  served in the Army in Europe and later held lieutenant-colonel rank. The
+  differing identifiers remain public as a review issue. The Army entry
+  supports only a qualified wholesale-manager occupation, while the university
+  evidence is modeled separately as prewar student status, not employment.
+  Guy C. Bolte, Tom Bolton, Marciella W. Bomar, Mary P. Bonack, Remo Bonafede,
+  and Douglas Bonamy remain explicit archival-review cases. The batch adds five
+  affiliations, nine published or qualified factual claims, five stable source
+  records, and ten completed minimum-protocol research attempts. No live
+  authenticated NARA Catalog request, credential, raw API response, full
+  private identifier, unsupported employer, or namesake occupation was used or
+  published.
+  Coverage is now 2,167 researched people, 380 people with a verified
+  affiliation, 179 with a verified employer, and 2,116 assessed for archival
+  review, out of 23,940 active person entities. Local release QA passed 70
+  Python tests, all 753 browser and accessibility cases across three viewports,
+  the 24,356-page internal-link check, the 200-profile stratified audit, and the
+  complete public-identifier audit with zero unexpected matches. The production
+  dependency audit found zero vulnerabilities. Consecutive production builds
+  produced the identical tree digest
+  `5f4e29d42fa226334909d9da2cb3105faefae42c63a74dbd72dcad7465525759`.
+  The 65-file public-data manifest covers 73,126,625 bytes and has SHA-256
+  `58477a917f77e1197b702e1a1c5f2e32c6b5174f9ff1e22bc9b7a140393b39e9`.
 - Batch 236 covers the next ten contiguous rows, V. R. Bolig through Sophus
   Bolt, across PDF pages 42-43, all indexed in Box 66. Both source pages and all
   ten rows were visually checked at original resolution, including the printed
@@ -3053,15 +3091,15 @@ Commissioned classification: 2,182 yes; 5,162 no; 16,596 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 905 (published, qualified, or conflict-visible)
-- Database claims: 1,786; public-visible claims: 1,754 (455 confirmed, 898 high,
-  366 medium, 35 conflicting); 26 low-confidence claims are withheld and six
+- Public-visible affiliations: 918 (published, qualified, or conflict-visible)
+- Database claims: 1,811; public-visible claims: 1,779 (473 confirmed, 901 high,
+  370 medium, 35 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,968 total and 3,899 public-visible; private source
-  records: 2,664; public source export: 1,652; unique source documents: 1,229
-- Canonical organizations: 415 private and 405 public
+- Claim-source links: 4,031 total and 3,962 public-visible; private source
+  records: 2,678; public source export: 1,666; unique source documents: 1,236
+- Canonical organizations: 418 private and 408 public
 - Conflicting claims: 35 across 26 people
-- NARA pull-list rows: 23,802
+- NARA pull-list rows: 23,801
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
