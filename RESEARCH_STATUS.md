@@ -2616,7 +2616,16 @@ Commissioned classification: 2,181 yes; 5,158 no; 16,601 indeterminate.
   and two high), six stable source records, and ten terminal manual research
   attempts. No live NARA Catalog request, exposed credential, raw API response,
   full private identifier, unsupported employer, or namesake occupation was
-  used or published.
+  used or published. Release `371a3c6` passed GitHub test workflow 31295352566
+  and Pages workflow 31296066357. The clean runner passed 70 Python tests, all
+  741 browser and accessibility cases, the 24,353-page internal-link check, and
+  the full public-identifier audit with zero aggregate, manifest-size, or
+  unexpected-boundary matches. Consecutive production builds produced the
+  identical tree digest
+  `ecf3666efbc2a7a8cb8847e7becfa141e3288d87b753ec2360918df57ccfed14`.
+  Cache-busted production checks matched all 65 published data assets across
+  72,822,561 bytes and confirmed the home page and all ten Batch 233 profile
+  routes with the expected evidence boundaries.
 - Batch 232 covers the next ten contiguous page-forty-two rows, Otto J.
   Boelsen through Edward V. Bogda, indexed in Boxes 64 and 65. The source page
   and all ten rows were visually checked. Exact private-identifier linkage to

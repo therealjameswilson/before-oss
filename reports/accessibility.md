@@ -1,15 +1,26 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-08 UTC
+Run: 2026-08-09 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **714 / 714**
+**PASS.** The complete browser and accessibility matrix passed **741 / 741**
 on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 233 adds a focused direct-route regression for Wesley S. Bogdan through
+Jules Boh on PDF page 42. It checks all ten indexed names, the Polish Army
+note, Box 65, public-safe identifier masking, identity and research states,
+and employer-gap language. It separately verifies three exact official Army-
+record occupation findings without inventing employers, Mike Bogdonoff's and
+John Bogo's qualified Operational Groups roster pathways, seven unresolved
+archival-review profiles, and the explicit nonmerge of a different-identifier
+Wesley Bogdan candidate. The focused matrix passed 3 / 3, and the complete
+741 / 741 matrix passed in
+[workflow 31295352566](https://github.com/therealjameswilson/before-oss/actions/runs/31295352566).
 
 Batch 224 adds a focused direct-route regression for Thomas B. Blevins Jr.
 through Hana J. Bloch on PDF page 40. It checks all ten indexed names, literal

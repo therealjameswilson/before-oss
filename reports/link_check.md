@@ -1,19 +1,54 @@
 # Link check
 
-Run: 2026-08-08 UTC
+Run: 2026-08-09 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,339 HTML files. Every relative
+**PASS.** The production build contains 24,353 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 391 organization profiles, and the
+The build includes 23,940 person profiles, 405 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,091 unique external URLs for separate live
+The checker inventoried 49,135 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 233 production check
+
+The complete 24,353-page internal-link pass includes direct routes for Wesley
+S. Bogdan through Jules Boh on PDF page 42. The 70-test Python suite,
+deterministic 200-profile audit, and focused desktop, phone, and tablet
+regression passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities. The complete
+741 / 741 browser and axe matrix passed on the clean release runner.
+
+The regression checks all ten indexed rows, the Polish Army note, Box 65,
+public-safe identifier masking, identity and research states, and employer-gap
+wording. It publishes three exact official Army-record occupation findings
+without turning them into employers, qualifies two specialist Operational
+Groups roster matches, preserves seven unresolved identities, and keeps a
+different-identifier Wesley Bogdan candidate explicitly unmerged.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers across 24,423 public artifacts and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+manifest SHA-256 is
+`a8adc3f0ebe4784dfcd4f0c602389a6126e3746f994921d9475023f44da07c63`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`ecf3666efbc2a7a8cb8847e7becfa141e3288d87b753ec2360918df57ccfed14`.
+
+Test workflow
+[31295352566](https://github.com/therealjameswilson/before-oss/actions/runs/31295352566)
+and Pages workflow
+[31296066357](https://github.com/therealjameswilson/before-oss/actions/runs/31296066357)
+completed successfully for release `371a3c6`. The cache-busted live manifest
+and all 65 published data assets matched the local release exactly across
+72,822,561 bytes. The home page and all ten Batch 233 person routes returned
+HTTP 200 with the expected page, box, occupation, Operational Groups, and
+unresolved-status evidence boundaries.
 
 ## Batch 224 production check
 
