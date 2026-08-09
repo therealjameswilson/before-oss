@@ -4,16 +4,43 @@ Run: 2026-08-09 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,356 HTML files. Every relative
+**PASS.** The production build contains 24,357 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 408 organization profiles, and the
+The build includes 23,940 person profiles, 409 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,147 unique external URLs for separate live
+The checker inventoried 49,153 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 238 local release check
+
+The complete 24,357-page internal-link pass includes direct routes for George
+N. Boncescu through Paul A. Bonelli on PDF page 43. The 70-test Python suite,
+deterministic 200-profile audit, and focused desktop, phone, and tablet
+regression passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities. The complete
+756 / 756 browser and axe matrix passed locally.
+
+The regression checks all ten indexed rows in Box 67, public-safe identifier
+masking, identity and research states, and terminal employer-gap wording. It
+separately verifies three exact-identifier Army-entry occupations without
+turning them into employers; George N. Boncescu's qualified, documented-prewar
+Romanian Legation affiliation; Joan V. Bondurant's immediate University of
+Michigan student pathway without classifying the university as her employer;
+and five unresolved archival-review profiles.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,427 public artifacts,
+reviewed 1,022 candidate substrings, and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+manifest SHA-256 is
+`742e4b49053430ccfa243d7874970cfcb1c581b316c0d851dd08eeafc07b9edc`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`ed9cfdf18b4f2dc1fe1cf32b29e7247b8ccd0604fa434bcc7a553dd43ebcb20d`.
 
 ## Batch 237 local release check
 

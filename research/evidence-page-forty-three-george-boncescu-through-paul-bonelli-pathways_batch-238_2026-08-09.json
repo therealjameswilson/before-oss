@@ -1,0 +1,882 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS research pipeline batch 238",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-43-batch238",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 67",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 43, rows 18-27, George N. Boncescu through Paul A. Bonelli; visually checked at 220 dpi and original resolution",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch238",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier review for four indexed identifiers and exact-name review for all ten people",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch238",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Digital PDF pages 44-46 defining the fixed-width name, Army-entry date, grade, branch, birth-year, education, and civilian-occupation fields; visually and textually checked",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines an Army-entry file and warns that merged records contain interpreted fields and gaps. A civilian-occupation code does not name an employer."
+    },
+    {
+      "key": "nara-army-code-lists-batch238",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Code List",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "Reference copy modified 2011",
+      "locator": "Digital PDF pages 170, 171, 177, and 305 for occupation codes 007, 105, and 878 and civilian educational-level codes 2 and 6; visually and textually checked",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official code lists map broad occupation and educational categories. No organization is inferred from an occupation."
+    },
+    {
+      "key": "wilson-vassiliev-concordance-boncescu-batch238",
+      "stable_url": "https://www.wilsoncenter.org/sites/default/files/media/documents/article/Vassiliev-Notebooks-and-Venona-Index-Concordance_update-2014-11-01.pdf",
+      "archival_identifier": "Wilson Center Cold War International History Project",
+      "title": "Index and Concordance to Alexander Vassiliev's Notebooks and Soviet Cables Deciphered by the National Security Agency's Venona Project",
+      "author_creator": "John Earl Haynes",
+      "repository_publisher": "Woodrow Wilson International Center for Scholars",
+      "publication_record_date": "2014-11-01 revision",
+      "locator": "Digital PDF page 52, entry for Boncescu, George N.; page image and embedded text inspected",
+      "access_date": "2026-08-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Cold War International History Project",
+      "rights_notes": "Scholarly concordance to Vassiliev notebooks and NSA VENONA cable compilations. It confirms the exact name and OSS Romanian-section context but does not document pre-OSS employment."
+    },
+    {
+      "key": "brukenthal-vlad-boncescu-batch238",
+      "stable_url": "https://www.brukenthalmuseum.ro/images/editura/BAM%20Istorie2024.pdf",
+      "archival_identifier": "Brukenthal. Acta Musei XIX.1 (2024), page 139, note 56",
+      "title": "Andrei Popovici, a Romanian Diplomat in the United States of America During the New York World's Fair (1939-1940)",
+      "author_creator": "Laurențiu Vlad",
+      "repository_publisher": "Brukenthal National Museum",
+      "publication_record_date": "2024",
+      "locator": "Digital and printed page 139, note 56; page image and embedded text inspected",
+      "access_date": "2026-08-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Brukenthal. Acta Musei, XIX.1",
+      "rights_notes": "Scholarly article drawing on Romanian diplomatic-history research. The article names George Boncescu without a middle initial, so linkage to the indexed George N. Boncescu remains qualified."
+    },
+    {
+      "key": "michigan-daily-bondurant-recital-batch238",
+      "stable_url": "https://digital.bentley.umich.edu/midaily/mdp.39015071756113/404",
+      "archival_identifier": "The Michigan Daily, volume 52, issue 149, image 4",
+      "title": "The Michigan Daily, April 19, 1942",
+      "author_creator": "Board in Control of Student Publications, University of Michigan",
+      "repository_publisher": "Bentley Historical Library, University of Michigan",
+      "publication_record_date": "1942-04-19",
+      "locator": "Image 4, Daily Official Bulletin, Student Recital notice for Joan Bondurant",
+      "access_date": "2026-08-09",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Michigan Daily Digital Archives",
+      "rights_notes": "Contemporary university newspaper. The citation supports student status and the Bachelor of Music chronology, not employment."
+    },
+    {
+      "key": "sfgate-bondurant-obituary-batch238",
+      "stable_url": "https://www.sfgate.com/bayarea/article/Joan-Bondurant-spy-authority-on-Gandhi-2551226.php",
+      "title": "Joan Bondurant -- spy, authority on Gandhi",
+      "author_creator": "Chuck Squatriglia",
+      "repository_publisher": "San Francisco Chronicle / SFGATE",
+      "publication_record_date": "2006-09-21",
+      "locator": "Biographical chronology describing Michigan graduation, Japanese-language study at Michigan, and subsequent OSS recruitment",
+      "access_date": "2026-08-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "SFGATE obituary archive",
+      "rights_notes": "Reputable obituary based on friends and colleagues. The project retains only a short paraphrase and citation metadata."
+    },
+    {
+      "key": "rochester-bondurant-papers-news-batch238",
+      "stable_url": "https://www.rochester.edu/newscenter/papers-of-world-war-ii-spy-friend-of-mahatma-gandhi-now-fully-available-to-the-public-133382/",
+      "archival_identifier": "Joan V. Bondurant Papers, University of Rochester River Campus Libraries",
+      "title": "Papers of World War II spy, friend of Mahatma Gandhi now fully available to the public",
+      "author_creator": "Yisrael Levin",
+      "repository_publisher": "University of Rochester",
+      "publication_record_date": "2015-12-31",
+      "locator": "Biographical and collection description identifying Joan Bondurant as an OSS research analyst in India",
+      "access_date": "2026-08-09",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Joan V. Bondurant Papers",
+      "rights_notes": "Institutional description of the creator's papers. It confirms identity and OSS work but does not itself establish the pre-recruitment sequence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "romanian-legation-washington-batch238",
+      "canonical_name": "Romanian Legation in Washington",
+      "historical_name": "Romanian Legation in Washington",
+      "aliases": [
+        "Legation of Romania in Washington",
+        "Romanian Legation"
+      ],
+      "organization_type": "diplomatic mission",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "interwar period",
+      "normalization_notes": "Historical diplomatic mission of the Kingdom of Romania. It is not silently renamed as the modern Embassy of Romania."
+    },
+    {
+      "key": "university-of-michigan-batch237",
+      "canonical_name": "University of Michigan",
+      "historical_name": "University of Michigan",
+      "aliases": [
+        "U-M",
+        "University of Michigan School of Music"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Ann Arbor",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "active_dates": "1817-present",
+      "normalization_notes": "Joan V. Bondurant's music and Japanese-language study is modeled as a student affiliation, never as employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-n-boncescu-romanian-legation-batch238",
+      "person_id": "12607127-51b6-5942-bcee-21ada15885e6",
+      "organization_key": "romanian-legation-washington-batch238",
+      "organization_name_as_found": "Romania's press attaché in Washington; the Legation's financial advisor",
+      "role_title": "Press attaché; financial adviser and counsellor",
+      "occupation": "diplomat",
+      "relationship_type": "government_assignment",
+      "start_date": "1927",
+      "end_date": "1938",
+      "date_precision": "A scholarly note places George Boncescu as press attaché in Washington from 1927 to 1938, briefly in Paris in April 1938, and back in Washington as financial counsellor in September 1938; it does not state when that post ended.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare Boncescu name, Romanian subject matter, Washington setting, and independent exact-name identification of George N. Boncescu in the OSS Romanian section support the match. Because the diplomatic source omits the middle initial and does not bridge the 1938-to-OSS chronology, the affiliation remains qualified and is excluded from default analytics."
+    },
+    {
+      "key": "john-d-bond-general-office-clerk-batch238",
+      "person_id": "d06f6b84-195e-5623-b0f7-addd1247f20f",
+      "role_title": "General-office clerk category",
+      "occupation": "general-office clerk",
+      "relationship_type": "unknown",
+      "end_date": "1942-05-12",
+      "date_precision": "Recorded as civilian-occupation code 105 at Army entry on May 12, 1942; no employer, office, industry, duties, or start date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Exact private-identifier and exact-name agreement confirm identity. No office, company, government bureau, or employer is inferred from the code."
+    },
+    {
+      "key": "lloyd-r-bond-chemist-assayer-metallurgist-batch238",
+      "person_id": "7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3",
+      "role_title": "Chemist, assayer, or metallurgist category",
+      "occupation": "chemist, assayer, or metallurgist",
+      "relationship_type": "unknown",
+      "end_date": "1943-07-13",
+      "date_precision": "Recorded as civilian-occupation code 007 at Army entry on July 13, 1943; the code does not distinguish among the three occupations or name an employer, specialty, workplace, or start date.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Exact private-identifier and exact-name agreement confirm identity. The record also carries education code 2, meaning two years of high school; no scientific employer or educational institution is inferred."
+    },
+    {
+      "key": "joan-v-bondurant-university-of-michigan-student-batch238",
+      "person_id": "51dc87bf-fd0c-56ff-b750-ce4b27983214",
+      "organization_key": "university-of-michigan-batch237",
+      "organization_name_as_found": "University of Michigan",
+      "role_title": "Bachelor of Music student; Japanese-language student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "A contemporary April 1942 university notice places her Bachelor of Music recital on April 21. A later obituary says she graduated, gained admission to a Michigan Japanese course, and was then recruited by OSS; the exact recruitment date is not stated.",
+      "city": "Ann Arbor",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is a student affiliation, not employment. The exact uncommon name, contemporary Michigan record, and University of Rochester description of her OSS service provide a high-confidence identity match."
+    },
+    {
+      "key": "walter-r-bone-machine-shop-occupation-batch238",
+      "person_id": "459d840f-16dc-5b7c-a4c0-0e7b9e87d270",
+      "role_title": "Machine-shop and related occupation, not elsewhere classified",
+      "occupation": "machine-shop or related occupation",
+      "relationship_type": "unknown",
+      "end_date": "1943-03-13",
+      "date_precision": "Recorded as civilian-occupation code 878 at Army entry on March 13, 1943; no trade, employer, machine, industry, workplace, or start date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Exact private-identifier and exact-name agreement confirm identity. The row also carries education code 6, meaning two years of college; no school or employer is inferred. Some residence and physical fields look damaged and are not published."
+    }
+  ],
+  "claims": [
+    {
+      "key": "george-n-boncescu-high-confidence-oss-identity-batch238",
+      "person_id": "12607127-51b6-5942-bcee-21ada15885e6",
+      "claim_type": "identity",
+      "claim_text": "The indexed George N. Boncescu is identified with high confidence as the person independently listed in a scholarly concordance as serving in the OSS Romanian section.",
+      "evidence_paraphrase": "The visually checked NARA index and the Wilson Center concordance share his uncommon exact full name; the concordance supplies the OSS Romanian-section role.",
+      "identity_match_assessment": "High confidence from an uncommon exact full name plus a matching OSS organizational context.",
+      "temporal_assessment": "The concordance cites a 1944 VENONA reference; it does not state recruitment or separation dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This establishes person-level identity and OSS context. It does not by itself link him to the same-name Romanian diplomat or establish a pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-43-batch238",
+          "locator_override": "PDF page 43, row 18"
+        },
+        {
+          "source_key": "wilson-vassiliev-concordance-boncescu-batch238",
+          "locator_override": "Digital PDF page 52; exact-name entry and OSS Romanian-section description"
+        }
+      ]
+    },
+    {
+      "key": "george-n-boncescu-romanian-legation-claim-batch238",
+      "person_id": "12607127-51b6-5942-bcee-21ada15885e6",
+      "affiliation_key": "george-n-boncescu-romanian-legation-batch238",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probably matching George Boncescu served as Romania's press attaché in Washington from 1927 to 1938 and as a Legation financial adviser or counsellor in 1938.",
+      "evidence_paraphrase": "A scholarly diplomatic-history note gives George Boncescu's Washington press and financial posts; an independent concordance identifies George N. Boncescu in the OSS Romanian section.",
+      "identity_match_assessment": "Probable: rare surname and given name, Romanian specialization, Washington setting, and exact-name OSS Romanian-section evidence align, but the diplomatic source omits the middle initial.",
+      "temporal_assessment": "Documented prewar service through 1938; the accessible sources do not establish that it was immediate before OSS or exclude intervening affiliations.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Visible qualification is required. The claim is excluded from default aggregate charts, and Box 67 should be reviewed before raising confidence.",
+      "sources": [
+        {
+          "source_key": "brukenthal-vlad-boncescu-batch238",
+          "locator_override": "Digital and printed page 139, note 56"
+        },
+        {
+          "source_key": "wilson-vassiliev-concordance-boncescu-batch238",
+          "support_type": "context_only",
+          "locator_override": "Digital PDF page 52; exact indexed name and OSS Romanian-section context"
+        }
+      ]
+    },
+    {
+      "key": "john-d-bond-confirmed-army-identity-batch238",
+      "person_id": "d06f6b84-195e-5623-b0f7-addd1247f20f",
+      "claim_type": "identity",
+      "claim_text": "The indexed John D. Bond is confirmed as the exact-name Army entrant recorded under the same private identifier.",
+      "evidence_paraphrase": "The visually verified OSS index and official Army merged file share his exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement; seven other John D. Bond or John Dennis Bond Army rows were not merged.",
+      "temporal_assessment": "The Army record dates entry to May 12, 1942; it does not give the later OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. Common-name alternatives remain separate.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-43-batch238",
+          "locator_override": "PDF page 43, row 20"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch238",
+          "locator_override": "Exact private-identifier and exact-name Army-entry record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "john-d-bond-general-office-clerk-claim-batch238",
+      "person_id": "d06f6b84-195e-5623-b0f7-addd1247f20f",
+      "affiliation_key": "john-d-bond-general-office-clerk-batch238",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in May 1942, John D. Bond's civilian occupation was recorded in the general-office clerk category.",
+      "evidence_paraphrase": "The exact-identifier Army record carries code 105, which the official code list defines as general-office clerks.",
+      "identity_match_assessment": "Exact private identifier and exact name confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on May 12, 1942; no employer or immediate OSS relationship is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No office, company, government bureau, duties, or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch238",
+          "locator_override": "Exact-identifier Army record; entry date and occupation code 105"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch238",
+          "locator_override": "Digital PDF pages 44-46; fixed-width field definitions and date order"
+        },
+        {
+          "source_key": "nara-army-code-lists-batch238",
+          "locator_override": "Digital PDF page 171; occupation code 1-05"
+        }
+      ]
+    },
+    {
+      "key": "lloyd-r-bond-confirmed-army-identity-batch238",
+      "person_id": "7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lloyd R. Bond is confirmed as the exact-name Army private recorded under the same private identifier.",
+      "evidence_paraphrase": "The visually verified OSS index and official Army merged file share his exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement; a separate Lloyd R. Bond Army row was not merged.",
+      "temporal_assessment": "The Army record dates entry to July 13, 1943; it does not give the later OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The other exact-name Army row carries a different identifier and remains separate.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-43-batch238",
+          "locator_override": "PDF page 43, row 21"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch238",
+          "locator_override": "Exact private-identifier and exact-name Army-entry record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "lloyd-r-bond-chemist-assayer-metallurgist-claim-batch238",
+      "person_id": "7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3",
+      "affiliation_key": "lloyd-r-bond-chemist-assayer-metallurgist-batch238",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in July 1943, Lloyd R. Bond's civilian occupation was recorded in the chemist, assayer, and metallurgist category.",
+      "evidence_paraphrase": "The exact-identifier Army record carries code 007, which the official code list defines collectively as chemists, assayers, and metallurgists.",
+      "identity_match_assessment": "Exact private identifier and exact name confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on July 13, 1943; no employer or immediate OSS relationship is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. The code does not distinguish which of the three occupations applied, and no laboratory, company, mine, government agency, or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch238",
+          "locator_override": "Exact-identifier Army record; entry date and occupation code 007"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch238",
+          "locator_override": "Digital PDF pages 44-46; fixed-width field definitions and date order"
+        },
+        {
+          "source_key": "nara-army-code-lists-batch238",
+          "locator_override": "Digital PDF pages 170 and 177; occupation code 0-07"
+        }
+      ]
+    },
+    {
+      "key": "joan-v-bondurant-high-confidence-identity-batch238",
+      "person_id": "51dc87bf-fd0c-56ff-b750-ce4b27983214",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joan V. Bondurant is identified with high confidence as the University of Michigan music student who later served as an OSS research analyst in India.",
+      "evidence_paraphrase": "Her uncommon exact name connects the index to a contemporary Michigan student record and the University of Rochester's description of her papers and OSS work.",
+      "identity_match_assessment": "High confidence from an uncommon exact full name, matching University of Michigan chronology, and direct institutional documentation of OSS service.",
+      "temporal_assessment": "The university record dates her degree recital to April 1942; the institutional archive documents later wartime OSS service without an appointment date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No unrelated namesake with the same full name and wartime OSS context was found. Box 67 remains useful for exact appointment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-43-batch238",
+          "locator_override": "PDF page 43, row 24"
+        },
+        {
+          "source_key": "michigan-daily-bondurant-recital-batch238",
+          "locator_override": "Volume 52, issue 149, image 4; Bachelor of Music recital notice"
+        },
+        {
+          "source_key": "rochester-bondurant-papers-news-batch238",
+          "locator_override": "Biographical collection description; OSS research analyst in India"
+        }
+      ]
+    },
+    {
+      "key": "joan-v-bondurant-michigan-immediate-student-claim-batch238",
+      "person_id": "51dc87bf-fd0c-56ff-b750-ce4b27983214",
+      "affiliation_key": "joan-v-bondurant-university-of-michigan-student-batch238",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Joan V. Bondurant's best-supported immediate pre-OSS status was University of Michigan student, completing music study and then Japanese-language training before recruitment.",
+      "evidence_paraphrase": "A contemporary university notice documents her April 1942 degree recital; a reputable obituary sequences graduation and Michigan Japanese study directly before OSS recruitment.",
+      "identity_match_assessment": "High-confidence exact-name match corroborated by the University of Rochester's institutional documentation of her later OSS work.",
+      "temporal_assessment": "Explicit pre-recruitment sequence, but the accessible sources do not give the Japanese course dates or exact OSS appointment date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "University of Michigan is a student institution in this claim, not an employer. No civilian employer between study and OSS was found.",
+      "sources": [
+        {
+          "source_key": "michigan-daily-bondurant-recital-batch238",
+          "locator_override": "Volume 52, issue 149, image 4; April 21, 1942 Bachelor of Music recital"
+        },
+        {
+          "source_key": "sfgate-bondurant-obituary-batch238",
+          "locator_override": "Biographical chronology: graduation, Japanese course at Michigan, then OSS recruitment"
+        },
+        {
+          "source_key": "rochester-bondurant-papers-news-batch238",
+          "support_type": "context_only",
+          "locator_override": "Institutional confirmation of later OSS research-analysis work in India"
+        }
+      ]
+    },
+    {
+      "key": "walter-r-bone-confirmed-army-identity-batch238",
+      "person_id": "459d840f-16dc-5b7c-a4c0-0e7b9e87d270",
+      "claim_type": "identity",
+      "claim_text": "The indexed Walter R. Bone is confirmed as the exact-name Army private recorded under the same private identifier.",
+      "evidence_paraphrase": "The visually verified OSS index and official Army merged file share his exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement; a second Walter R. Bone Army row was not merged.",
+      "temporal_assessment": "The Army record dates entry to March 13, 1943; it does not give the later OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. Damaged-looking residence and physical fields are not used.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-43-batch238",
+          "locator_override": "PDF page 43, row 26"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch238",
+          "locator_override": "Exact private-identifier and exact-name Army-entry record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "walter-r-bone-machine-shop-occupation-claim-batch238",
+      "person_id": "459d840f-16dc-5b7c-a4c0-0e7b9e87d270",
+      "affiliation_key": "walter-r-bone-machine-shop-occupation-batch238",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in March 1943, Walter R. Bone's civilian occupation was recorded in a broad machine-shop and related category.",
+      "evidence_paraphrase": "The exact-identifier Army record carries code 878, which the official code list defines as machine-shop and related occupations, not elsewhere classified.",
+      "identity_match_assessment": "Exact private identifier and exact name confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on March 13, 1943; no employer or immediate OSS relationship is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No trade, machine, plant, manufacturer, industry, self-employment status, or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch238",
+          "locator_override": "Exact-identifier Army record; entry date and occupation code 878"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch238",
+          "locator_override": "Digital PDF pages 44-46; fixed-width field definitions and date order"
+        },
+        {
+          "source_key": "nara-army-code-lists-batch238",
+          "locator_override": "Digital PDF page 177; occupation code 8-78"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "12607127-51b6-5942-bcee-21ada15885e6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index and Wilson Center concordance share George N. Boncescu's uncommon exact full name and OSS Romanian-section context. A probably matching diplomatic-history source omits his middle initial but aligns on the rare name, Romanian specialization, and Washington setting; that prewar link remains qualified.",
+      "name_variants": [
+        "George N Boncescu",
+        "George N. Boncescu",
+        "George Boncescu",
+        "Gheorghe Boncescu",
+        "Boncescu, George N."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 67 to confirm nationality and personnel status, link or reject the Romanian diplomat identity directly, and establish the affiliation after September 1938 and immediately before OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "251d269a-fdb0-59b1-9245-0ef4cf75adaa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies George H. Bond and Box 67 but no rank or private identifier. The official Army file contains one exact-name private and public results include an architect, but the common name and absence of two corroborating wartime identifiers prevent either candidate from being linked.",
+      "name_variants": [
+        "George H Bond",
+        "George H. Bond",
+        "Bond, George H."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 67 for a private identifier, birth year, hometown, military status, and evidence that can test the Army and architect candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d06f6b84-195e-5623-b0f7-addd1247f20f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share John D. Bond's exact name and exact private identifier. Seven other John D. Bond or John Dennis Bond Army rows remain separate.",
+      "name_variants": [
+        "John D Bond",
+        "John D. Bond",
+        "Bond, John D."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 67 for the general-office employer, exact duties, Army assignment, OSS role, and transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Lloyd R. Bond's exact name and exact private identifier. A second exact-name Army row has a different identifier and remains separate.",
+      "name_variants": [
+        "Lloyd R Bond",
+        "Lloyd R. Bond",
+        "Bond, Lloyd R."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 67 for the exact scientific occupation, employer or laboratory, Army assignment, OSS role, and transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4a7394b3-0eaf-59f7-a0c5-93ca98852dff",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Robert M. Bond and Box 67 but no rank or private identifier. The official Army file contains two exact-name privates with different birth years, entry dates, and occupations; public searches produced additional namesakes without OSS linkage.",
+      "name_variants": [
+        "Robert M Bond",
+        "Robert M. Bond",
+        "Bond, Robert M."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 67 for a private identifier, birth year, hometown, branch, and evidence that can distinguish the Army and public namesakes.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "908fb891-3d7a-56c0-a2da-6c7496ce47c2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Robert C. Bonde and Box 67 but no rank or private identifier. No exact-name record appeared in the official Army merged file, and official, institutional, exact-name, occupation, obituary, directory, and archival searches produced no defensible wartime candidate.",
+      "name_variants": [
+        "Robert C Bonde",
+        "Robert C. Bonde",
+        "Bonde, Robert C."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 67 for identity, nationality, personnel status, dates, occupation, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "51dc87bf-fd0c-56ff-b750-ce4b27983214",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact Joan V. Bondurant name links the visually verified index to a contemporary University of Michigan music record, a reputable obituary's Michigan-to-OSS chronology, and the University of Rochester's institutional description of her OSS research-analysis work in India.",
+      "name_variants": [
+        "Joan V Bondurant",
+        "Joan V. Bondurant",
+        "Joan Valerie Bondurant",
+        "Bondurant, Joan V."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 67 when practical for exact appointment dates, grade, San Francisco assignment, and confirmation that no paid civilian work intervened after Michigan study.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "e6fd6aeb-7dcb-5e76-9f48-caf73ed364e6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Charles Bondy and Box 67 but no middle initial, rank, or private identifier. The official Army file contains Charles J. Bondy, born in 1926 and entering in 1945, but the missing index initial and absence of corroborating OSS evidence make a name-only merge unsafe.",
+      "name_variants": [
+        "Charles Bondy",
+        "Bondy, Charles"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 67 for a full middle name, private identifier, birth year, nationality, personnel status, and evidence that can accept or reject Charles J. Bondy.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "459d840f-16dc-5b7c-a4c0-0e7b9e87d270",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share Walter R. Bone's exact name and exact private identifier. A second exact-name Army row has a different identifier and remains separate.",
+      "name_variants": [
+        "Walter R Bone",
+        "Walter R. Bone",
+        "Bone, Walter R."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 67 for the exact machine-shop trade, employer, Army assignment, OSS role, and transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58133bdc-f85a-5f3e-8964-f426a61b6c07",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Paul A. Bonelli, a private identifier, and Box 67. Neither the exact identifier nor exact or partial name appeared in the official Army merged file, and official, institutional, obituary, employment, occupation, directory, and archival searches produced no defensible match.",
+      "name_variants": [
+        "Paul A Bonelli",
+        "Paul A. Bonelli",
+        "Bonelli, Paul A."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 67 to determine the identifier's service system, rank or grade, identity, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "george-n-boncescu-protocol-batch238",
+      "person_id": "12607127-51b6-5942-bcee-21ada15885e6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George N. Boncescu; George Boncescu; Gheorghe Boncescu; visually verified NARA index; official Army exact-name review; public NARA and RG 226 context; CIA Reading Room; Library of Congress API; Wilson Center VENONA concordance; Romanian diplomatic history; exact-name OSS, employer, occupation, obituary, directory, institutional, foreign-name, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Modern namesakes, unsourced family pages, Scribd mirrors, and scholarship mentioning George Boncescu without OSS or a middle initial were rejected as standalone proof. The diplomatic candidate is retained only as qualified medium-confidence evidence.",
+      "research_notes": "High-confidence exact-name OSS Romanian-section identity and a probable documented interwar diplomatic affiliation were established; immediate pre-OSS chronology remains unresolved.",
+      "next_action": "Review Box 67 to bridge the diplomatic and OSS identities directly and determine the immediate pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "george-h-bond-protocol-batch238",
+      "person_id": "251d269a-fdb0-59b1-9245-0ef4cf75adaa",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George H. Bond; visually verified NARA index; official Army exact-name review; public NARA; CIA; Library of Congress; exact OSS, military, architect, employer, occupation, obituary, directory, newspaper, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "One exact-name Army private and a wartime-era architect candidate lack an index identifier, OSS evidence, and two corroborating wartime identifiers; numerous other common-name results were unrelated.",
+      "research_notes": "No defensible person-level match or pre-OSS affiliation was found after the minimum protocol.",
+      "next_action": "Review Box 67 for an identifier and disambiguating biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "john-d-bond-protocol-batch238",
+      "person_id": "d06f6b84-195e-5623-b0f7-addd1247f20f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John D. Bond; visually verified NARA index and exact private identifier; official Army merged file and code documentation; public NARA; CIA; Library of Congress; exact OSS, clerk, employer, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Seven other same-name Army rows and modern medical, legal, genealogy, obituary, and directory namesakes did not share the private identifier or OSS linkage.",
+      "research_notes": "Exact private-identifier evidence confirms identity and the general-office clerk occupation category; no named employer was found.",
+      "next_action": "Review Box 67 for employer and Army-to-OSS sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "lloyd-r-bond-protocol-batch238",
+      "person_id": "7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Lloyd R. Bond; visually verified NARA index and exact private identifier; official Army merged file and code documentation; public NARA; CIA; Library of Congress; exact OSS, chemist, assayer, metallurgist, employer, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A second same-name Army row, Canadian directory entries, and other name results did not share the private identifier or establish an employer or OSS chronology.",
+      "research_notes": "Exact private-identifier evidence confirms identity and a broad chemist-assayer-metallurgist category; no named employer or exact specialty was found.",
+      "next_action": "Review Box 67 for exact scientific occupation, employer, and Army-to-OSS sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "robert-m-bond-protocol-batch238",
+      "person_id": "4a7394b3-0eaf-59f7-a0c5-93ca98852dff",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert M. Bond; visually verified NARA index; official Army exact-name review; public NARA; CIA; Library of Congress; exact OSS, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Two exact-name Army privates have different birth years, entry dates, and occupations. A postwar Air Force general born in 1929, a modern academic, a chess player, and genealogy candidates are incompatible or unlinked.",
+      "research_notes": "No candidate had two corroborating wartime identifiers beyond the common name.",
+      "next_action": "Review Box 67 for an identifier and disambiguating biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "robert-c-bonde-protocol-batch238",
+      "person_id": "908fb891-3d7a-56c0-a2da-6c7496ce47c2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert C. Bonde; visually verified NARA index; official Army exact-name review; public NARA; CIA; Library of Congress; exact OSS, military, engineer, physicist, employer, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Modern USGS biologist, legal, genealogy, Scandinavian directory, and family results were chronologically incompatible, lacked the middle initial, or had no OSS and Box 67 linkage.",
+      "research_notes": "No exact-name Army record or defensible identity candidate was found.",
+      "next_action": "Review Box 67 for full identity, status, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "joan-v-bondurant-protocol-batch238",
+      "person_id": "51dc87bf-fd0c-56ff-b750-ce4b27983214",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Joan V. Bondurant; Joan Valerie Bondurant; visually verified NARA index; official Army exact-name review; public NARA; CIA; Library of Congress; University of Michigan Daily; University of Rochester papers; exact OSS, employer, education, occupation, obituary, institutional, newspaper, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Wikipedia, family-history pages, blogs, and later-career summaries were discovery-only or unnecessary. A local-history article used imprecise labels and was not used as principal evidence.",
+      "research_notes": "High-confidence identity and an explicit University of Michigan student-to-OSS recruitment sequence were established. No pre-OSS employer was identified; Michigan is not treated as an employer.",
+      "next_action": "Review Box 67 for exact recruitment and San Francisco assignment dates and any intervening paid work.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "charles-bondy-protocol-batch238",
+      "person_id": "e6fd6aeb-7dcb-5e76-9f48-caf73ed364e6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Charles Bondy; visually verified NARA index; official Army exact-name and middle-initial review; public NARA; CIA; Library of Congress; exact OSS, military, employer, occupation, obituary, directory, foreign-name, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Charles J. Bondy's 1945 Army record lacks corroborating OSS evidence and an index initial. Numerous American, French, Austrian, Canadian, cemetery, modern business, and directory namesakes were unrelated.",
+      "research_notes": "No defensible person-level match or pre-OSS affiliation was found after the minimum protocol.",
+      "next_action": "Review Box 67 for a full name and identifier before reconsidering the Army candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "walter-r-bone-protocol-batch238",
+      "person_id": "459d840f-16dc-5b7c-a4c0-0e7b9e87d270",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Walter R. Bone; visually verified NARA index and exact private identifier; official Army merged file and code documentation; public NARA; CIA; Library of Congress; exact OSS, machine shop, employer, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "A second same-name Army row, modern agriculture, background-search, obituary, and directory namesakes did not share the private identifier or establish the wartime employer.",
+      "research_notes": "Exact private-identifier evidence confirms identity and a broad machine-shop occupation category; no named employer or exact trade was found.",
+      "next_action": "Review Box 67 for exact trade, employer, and Army-to-OSS sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    },
+    {
+      "key": "paul-a-bonelli-protocol-batch238",
+      "person_id": "58133bdc-f85a-5f3e-8964-f426a61b6c07",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Paul A. Bonelli; visually verified NARA index and private identifier; official Army exact-identifier, exact-name, and partial-name review; public NARA; CIA; Library of Congress; exact OSS, military, employer, occupation, obituary, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T10:10:00+00:00",
+      "completed_at": "2026-08-09T11:02:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "The official Army merged file yielded no exact identifier, exact-name, or Paul Bonelli name match. Modern academic, veterinary, business, music, and surname results were unrelated.",
+      "research_notes": "No defensible identity candidate or pre-OSS affiliation was found after the minimum protocol.",
+      "next_action": "Review Box 67 to identify the service system and person.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch238-v1"
+    }
+  ]
+}
