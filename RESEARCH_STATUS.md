@@ -2621,7 +2621,13 @@ Commissioned classification: 2,181 yes; 5,149 no; 16,610 indeterminate.
   employer claim was used or published. The local clean rebuild passed 69 Python
   tests, the established 732 browser and accessibility cases plus three added
   Batch 231 cases, the 24,350-page internal-link check, and the full public-
-  identifier audit.
+  identifier audit. Release `ad6d2ea` passed GitHub test workflow 31291034260
+  and Pages workflow 31291034257. The clean main-branch runner repeated all 69
+  Python tests, 735 browser and accessibility cases, the 24,350-page internal-
+  link check, and the public-identifier audit with zero aggregate, manifest-size,
+  or unexpected-boundary matches. Cache-busted production checks matched all 65
+  published data assets across 72,576,035 bytes and confirmed the home page, all
+  ten Batch 231 profile routes, and the Smith College organization route.
 - Batch 230 covers the next ten contiguous page-forty-one rows, Carl T. Bock
   through Alexander S. Bodi, indexed in Boxes 63 and 64. The index page, the
   official Army fixed-width documentation and occupation code list, the NARA
