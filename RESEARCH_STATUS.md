@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-08 UTC.
+Generated from the current local SQLite database on 2026-08-09 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,087 people with a non-planned attempt | 23,940 active person entities | 8.7176% |
-| Verified-affiliation coverage | 351 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4662% |
-| Verified-employer coverage | 176 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7352% |
-| Archival-review coverage | 2,036 people with an individual file-access/priority assessment | 23,940 active person entities | 8.5046% |
+| Research-attempt coverage | 2,097 people with a non-planned attempt | 23,940 active person entities | 8.7594% |
+| Verified-affiliation coverage | 356 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4871% |
+| Verified-employer coverage | 178 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7435% |
+| Archival-review coverage | 2,046 people with an individual file-access/priority assessment | 23,940 active person entities | 8.5464% |
 
 ## Extraction and identity
 
@@ -23,43 +23,43 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 286
-- Identity status `high_confidence`: 407
+- Identity status `confirmed`: 289
+- Identity status `high_confidence`: 409
 - Identity status `probable`: 71
-- Identity status `ambiguous`: 36
-- Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,118
+- Identity status `ambiguous`: 39
+- Identity status `conflicting`: 23
+- Identity status `unresolved`: 23,109
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,454
-- Enlisted Army personnel: 3,541
+- Unknown or indeterminate: 16,449
+- Enlisted Army personnel: 3,544
 - Commissioned Army officers: 2,072
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
-- Civilian professional or administrative grades: 1,469
+- Civilian professional or administrative grades: 1,471
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 58
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,181 yes; 5,131 no; 16,628 indeterminate.
+Commissioned classification: 2,181 yes; 5,141 no; 16,618 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,853
+- `not_started`: 21,843
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 38
+- `needs_identity_review`: 42
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 49
 - `occupation_only_found`: 241
-- `requires_archival_review`: 1,434
+- `requires_archival_review`: 1,437
 - `completed`: 73
-- `conflicting_sources`: 22
-- `verified_employer_found`: 173
+- `conflicting_sources`: 23
+- `verified_employer_found`: 175
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -67,15 +67,15 @@ Commissioned classification: 2,181 yes; 5,131 no; 16,628 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,867. The detailed adapter breakdown remains reproducible in
+  adapters: 1,877. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 807 across 779 people; 100 additional
+- Saved `source_reviewed` outcomes: 813 across 785 people; 102 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,309
+- Total recorded attempts/plans: 3,319
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 765; 742 have at least one public-visible
+- People with saved reviewed claims: 771; 748 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,46 @@ Commissioned classification: 2,181 yes; 5,131 no; 16,628 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 230 covers the next ten contiguous page-forty-one rows, Carl T. Bock
+  through Alexander S. Bodi, indexed in Boxes 63 and 64. The index page, the
+  official Army fixed-width documentation and occupation code list, the NARA
+  Entry 211 page, a university obituary, a congressional filing, a hometown
+  newspaper retrospective reproducing a 1944 report, and an OSS Society
+  memorial were visually or contextually checked as appropriate. Exact private-
+  identifier Army matches confirm Otto Bock Jr. and Bernard H. Bockting. Otto's
+  Army-entry occupation was baker; Bernard's was farm hand on a general farm.
+  Neither broad category names an employer. A second source traces Bernard from
+  Battery D, 128th Field Artillery through paratrooper training and an Army
+  parachute-factory inspector assignment, but the factory remains unidentified
+  and is not presented as a civilian employer. Carl T. Bock's printed identifier
+  maps to Carl Lyle Bock, whose Army-entry occupation was general office clerk;
+  the middle-name discrepancy keeps the identity qualified. Lawrence P. Bock
+  remains ambiguous between two exact-name Army rows. Derk Bodde is a high-
+  confidence identity whose University of Pennsylvania instruction from 1938
+  is published as his probable immediate and last civilian pre-OSS employment.
+  An original Entry 211 personnel letter confirms Morton Bodfish's OSS identity.
+  Northwestern University and the United States Savings and Loan League are
+  both published as concurrent, high-confidence probable immediate and last
+  civilian employers because accessible evidence documents both roles through
+  1944 without establishing which one should displace the other. Thelma I.
+  Boddis and Herbert Bodenheim remain ambiguous; Johannes Bodewes remains
+  unresolved. Alexander S. Bodi is conflict-visible: an OSS Society memorial
+  supports the rare exact-name China veteran, but the printed identifier maps to
+  an unrelated Army name while a separate exact-name Army row has a different
+  identifier. The conflict is exposed rather than resolved by convenience, and
+  no occupation from either Army row is assigned to the profile. Four profiles
+  remain in identity review, three require Box 64 archival review, two have
+  verified employers, and one has conflicting sources. The batch adds five
+  confirmed, eight high-confidence, and one conflicting claim. No authenticated
+  Catalog request, credential, raw API response, full private identifier, or
+  unsupported employer claim was used or published. Release `a2835e4` passed
+  Test workflow 31288443223 and Pages workflow 31288443224. The clean runner
+  passed 69 Python tests, all 732 browser and accessibility cases, the 24,349-
+  page internal-link check, and the full public-identifier audit. Locally, the
+  established 729 browser cases and three added Batch 230 cases also passed.
+  Cache-busted production checks matched all 65 published data assets across
+  72,509,981 bytes and confirmed the home page, all ten Batch 230 profiles, and
+  four new organization routes.
 - Batch 229 covers the next ten contiguous page-forty-one rows, Glenn D.
   Boardman through Wilbert S. Bochte, all indexed in Box 63. The index page,
   the official Army fixed-width documentation and occupation code list, a
@@ -2791,15 +2831,15 @@ Commissioned classification: 2,181 yes; 5,131 no; 16,628 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 870 (published, qualified, or conflict-visible)
-- Database claims: 1,725; public-visible claims: 1,693 (423 confirmed, 875 high,
-  363 medium, 32 conflicting); 26 low-confidence claims are withheld and six
+- Public-visible affiliations: 878 (published, qualified, or conflict-visible)
+- Database claims: 1,739; public-visible claims: 1,707 (428 confirmed, 883 high,
+  363 medium, 33 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,828 total and 3,759 public-visible; private source
-  records: 2,619; public source export: 1,613; unique source documents: 1,205
-- Canonical organizations: 407 private and 397 public
-- Conflicting claims: 32 across 23 people
-- NARA pull-list rows: 23,805
+- Claim-source links: 3,863 total and 3,794 public-visible; private source
+  records: 2,633; public source export: 1,625; unique source documents: 1,216
+- Canonical organizations: 411 private and 401 public
+- Conflicting claims: 33 across 24 people
+- NARA pull-list rows: 23,803
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2837,6 +2877,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-carl-bock-through-alexander-bodi-pathways_batch-230_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-boardman-through-bochte-pathways_batch-229_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-blumberg-through-boals-pathways_batch-228_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-bloch-through-blomquist-pathways_batch-225_2026-08-08.json
