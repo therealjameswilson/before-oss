@@ -20611,3 +20611,80 @@ test("Batch 234 preserves ten unresolved Box 65 profiles without promoting names
   await expect(page.locator("main")).toContainText("two corroborating identifiers");
   await expect(page.locator("main")).not.toContainText("Millers, grain, flour, feed");
 });
+
+test("Batch 235 publishes supported occupations and George Boldt's separated civilian and Army pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["260f4022-0c35-5561-a26b-1491b5d24dac", "Robert W Boissiere", "65"],
+    ["584b82d5-0d7e-5e15-b9b1-081b0646a862", "Leo J Bokun", "65"],
+    ["19acb151-85b7-54bb-8766-084c09e7be78", "Sam F Bolado", "66"],
+    ["17faa133-058c-5d9e-a70b-d400badb2e3b", "Bernard E Boland", "66"],
+    ["d2e64ef6-7e9f-5e99-8429-3fbcfcbd04f8", "Elias W Bolanis", "66"],
+    ["d04283e0-41a2-5788-97ef-548dbe9d015e", "James H Bolding", "66"],
+    ["cafe6273-d0a4-59c4-9a46-8638c9609428", "George H Boldt", "66"],
+    ["71596c9b-cee3-5506-b1d2-446b3b2d96bd", "William E Boldt", "66"],
+    ["3161b4d0-7d11-5e87-9dd7-3754c6fcf402", "Paul C Bolen", "66"],
+    ["fcdbd0f5-e857-5910-9ca0-a60683984563", "Francis J Bolger", "66"],
+  ] as const;
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 42");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  for (const [personId, occupation] of [
+    ["260f4022-0c35-5561-a26b-1491b5d24dac", "Insurance clerk"],
+    ["d04283e0-41a2-5788-97ef-548dbe9d015e", "Photographic process occupation"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/d2e64ef6-7e9f-5e99-8429-3fbcfcbd04f8/");
+  await expect(page.locator("main")).toContainText("probable");
+  await expect(page.locator("main")).toContainText("Waiter or waitress");
+  await expect(page.locator("main")).toContainText("medium");
+
+  await page.goto("./people/cafe6273-d0a4-59c4-9a46-8638c9609428/");
+  await expect(page.locator("main")).toContainText("Commissioned officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Self-employed legal practice",
+  );
+  await expect(page.locator("main")).toContainText("Burma and China");
+  await expect(
+    page.locator('a[href="https://www.fjc.gov/history/judges/Boldt-George-Hugo"]').first(),
+  ).toBeVisible();
+
+  for (const personId of [
+    "17faa133-058c-5d9e-a70b-d400badb2e3b",
+    "fcdbd0f5-e857-5910-9ca0-a60683984563",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("different private identifier");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+
+  await page.goto("./people/3161b4d0-7d11-5e87-9dd7-3754c6fcf402/");
+  await expect(page.locator("main")).toContainText("June 3, 1946");
+  await expect(page.locator("main")).not.toContainText("Tinsmiths");
+
+  await page.goto("./people/19acb151-85b7-54bb-8766-084c09e7be78/");
+  await expect(page.locator("main")).toContainText("code 999");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});

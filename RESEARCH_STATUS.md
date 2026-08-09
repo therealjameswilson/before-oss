@@ -2594,6 +2594,42 @@ Commissioned classification: 2,182 yes; 5,158 no; 16,601 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 235 covers the next ten contiguous page-forty-two rows, Robert W.
+  Boissiere through Francis J. Bolger, crossing from Box 65 to Box 66. The
+  source page and all ten rows were visually checked at original resolution,
+  including seven printed private identifiers, Elias W. Bolanis's `Pvt` rank,
+  and George H. Boldt's `Maj` rank. Exact private-identifier matches in NARA's
+  official Army merged file confirm Robert W. Boissiere, Sam F. Bolado, James
+  H. Bolding, and Paul C. Bolen. The matched Army-entry records support bounded
+  occupation categories for Boissiere as an insurance clerk and Bolding in a
+  photographic-process occupation; neither code names an employer or proves
+  the immediate Army-to-OSS sequence. Bolado's code 999 remains deliberately
+  uninterpreted. Bolen's matching Army record is dated June 3, 1946, after OSS
+  dissolution, so its occupation is excluded from pre-OSS claims. A rare
+  exact-name and `Pvt` match makes Elias W. Bolanis's Army candidate probable,
+  not confirmed, and its waiter-category occupation remains visibly qualified.
+  The printed identifiers for Bernard E. Boland and Francis J. Bolger have no
+  exact Army-file match, while separate exact-name Army candidates carry
+  different identifiers; both conflicts remain public and no candidate
+  occupation is borrowed. William E. Boldt's exact-name Army candidate likewise
+  remains unmerged, and Leo J. Bokun remains unresolved. Official Federal
+  Judicial Center, congressional, and Army Special Operations histories support
+  a high-confidence identification of Major George H. Boldt, document his OSS
+  service in Burma and China, qualify the U.S. Army as his immediate wartime
+  pathway, and establish private law practice in Seattle as his last documented
+  civilian work before service. The batch adds five affiliations, eleven
+  published or qualified factual claims, two visible conflict claims, seven
+  stable source records, and ten completed minimum-protocol attempts. No live
+  authenticated NARA Catalog request, credential, raw API response, full
+  private identifier, unsupported employer, or namesake occupation was used or
+  published. Coverage is now 2,147 researched people, 370 people with a
+  verified affiliation, 179 with a verified employer, and 2,096 assessed for
+  archival review, out of 23,940 person entities. Local release QA passed 70
+  Python tests, all 747 browser and accessibility cases across three
+  viewports, the 24,353-page internal-link check, the 200-profile stratified
+  audit, and the complete public-identifier audit with zero unexpected
+  matches. Consecutive production builds produced the identical tree digest
+  `1dd024f85ba3b8ab60ebd6a9c924d7e912ff88caea639d2ed0c574bdbdcd7c26`.
 - Batch 234 covers the next ten contiguous page-forty-two rows, Elizabeth R.
   Bohan through Jan M. Boissenvain, all indexed in Box 65. The source page and
   every row were visually checked at original resolution. Blank rank and
@@ -3010,6 +3046,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-robert-boissiere-through-francis-bolger-pathways_batch-235_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-elizabeth-bohan-through-jan-boissenvain-pathways_batch-234_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-wesley-bogdan-through-jules-boh-pathways_batch-233_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-otto-boelsen-through-edward-bogda-pathways_batch-232_2026-08-09.json
@@ -3230,6 +3267,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-cecile-berger-through-edward-bergin-pathways_batch-192_2026-08-06.json
 python3 -m oss_research import-review-decisions research/entity_review_decisions_2026-08-06_batch193.csv
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-justin-bergman-through-chester-berkshire-pathways_batch-193_2026-08-06.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-robert-boissiere-through-francis-bolger-pathways_batch-235_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-elizabeth-bohan-through-jan-boissenvain-pathways_batch-234_2026-08-09.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data

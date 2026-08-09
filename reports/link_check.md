@@ -12,8 +12,35 @@ The build includes 23,940 person profiles, 405 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,135 unique external URLs for separate live
+The checker inventoried 49,138 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 235 local release check
+
+The complete 24,353-page internal-link pass includes direct routes for Robert
+W. Boissiere through Francis J. Bolger on PDF page 42. The 70-test Python
+suite, deterministic 200-profile audit, and focused desktop, phone, and tablet
+regression passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities. The complete
+747 / 747 browser and axe matrix passed locally.
+
+The regression checks all ten indexed rows across Boxes 65-66, public-safe
+identifier masking, identity and research states, two identifier conflicts,
+three occupation-only findings, and terminal employer-gap wording. It
+separately verifies George H. Boldt's qualified Army pathway, last civilian
+private law practice, commissioned classification, and source-level citations.
+It does not promote Bolado's uninterpreted code, Bolen's post-OSS occupation,
+or the unmerged Bernard Boland, William Boldt, and Francis Bolger candidates.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 68 generated public-data
+artifacts, reviewed 595 candidate substrings, and found zero unexpected
+boundary matches, aggregate false positives, or manifest-size false positives.
+The manifest SHA-256 is
+`eb211c91ce28be1997e231184f4ca5201dcf6f531c72de439a83c7022745131e`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`1dd024f85ba3b8ab60ebd6a9c924d7e912ff88caea639d2ed0c574bdbdcd7c26`.
 
 ## Batch 233 production check
 
