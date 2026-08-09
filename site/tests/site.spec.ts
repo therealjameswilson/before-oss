@@ -20213,3 +20213,75 @@ test("Batch 228 documents Blumenthal, Blythin, Boak, and Boals while preserving 
     );
   }
 });
+
+test("Batch 229 confirms six Army identities while keeping occupations, student status, and employers distinct", async ({
+  page,
+}) => {
+  const profiles = [
+    ["89ce51a0-4b16-52a9-82e7-5f97cd5cffc8", "Glenn D Boardman", "unresolved", false],
+    ["aaf48eff-8c31-5f74-9f99-71531eede378", "Philip L Boardman", "confirmed", true],
+    ["68c7ea7a-3d6f-5663-8bc2-c4a2175e2f25", "Robert E Boardman", "ambiguous", false],
+    ["8b32c01b-d2de-50d7-a340-65495f06df1e", "Marshall I Boarman", "confirmed", true],
+    ["c3b063b6-2c9b-5837-b621-0e4c27746d16", "Robert C Boaz", "confirmed", true],
+    ["743600f4-257d-5f1d-afcf-604e18cba13c", "Maxine K Boaze", "unresolved", false],
+    ["1fe5231e-759c-5001-a520-fe5cc43399a2", "Frank W Bobb", "ambiguous", true],
+    ["f6f889f3-e92b-5f61-ac96-46037ab4b69a", "Lucien R Bobrow", "confirmed", true],
+    ["21a6b6f2-5daa-5569-826e-6d193f387d4a", "Mort S Bobrow", "confirmed", true],
+    ["7086acd5-6fdd-5c6d-bac4-2a705c04cc6c", "Wilbert S Bochte", "confirmed", true],
+  ] as const;
+
+  for (const [personId, displayName, identityStatus, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 41");
+    await expect(page.locator(".index-record").first()).toContainText("63");
+    await expect(page.getByText(identityStatus, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (?:reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+  }
+
+  await page.goto("./people/aaf48eff-8c31-5f74-9f99-71531eede378/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Semiprofessional occupation, not elsewhere classified",
+  );
+
+  await page.goto("./people/8b32c01b-d2de-50d7-a340-65495f06df1e/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Headquarters Battery, 861st Field Artillery Battalion, U.S. Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Fordham University",
+  );
+  await expect(
+    page.locator(
+      'a[href="https://worldwartwoveterans.org/wp-content/uploads/2019/12/Vol-2-No-13-Sept-9-1944.pdf"]',
+    ).first(),
+  ).toBeVisible();
+
+  for (const [personId, occupation] of [
+    ["c3b063b6-2c9b-5837-b621-0e4c27746d16", "Paymaster, payroll clerk, or timekeeper"],
+    ["f6f889f3-e92b-5f61-ac96-46037ab4b69a", "Metallurgist, assayer, or chemist"],
+    ["21a6b6f2-5daa-5569-826e-6d193f387d4a", "Motorman (vehicle), except railroad, railway, and bus"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('a[href="https://catalog.archives.gov/id/604357"]').first()).toBeVisible();
+  }
+
+  await page.goto("./people/7086acd5-6fdd-5c6d-bac4-2a705c04cc6c/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "school not identified",
+  );
+
+  await page.goto("./people/1fe5231e-759c-5001-a520-fe5cc43399a2/");
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).not.toContainText(
+    "Microfilms and Microcards: Their Use in Research",
+  );
+});
