@@ -4,16 +4,45 @@ Run: 2026-08-09 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,353 HTML files. Every relative
+**PASS.** The production build contains 24,355 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 405 organization profiles, and the
+The build includes 23,940 person profiles, 407 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,138 unique external URLs for separate live
+The checker inventoried 49,145 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 236 local release check
+
+The complete 24,355-page internal-link pass includes direct routes for V. R.
+Bolig through Sophus Bolt across PDF pages 42-43. The 70-test Python suite,
+deterministic 200-profile audit, and focused desktop, phone, and tablet
+regression passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities. The complete
+750 / 750 browser and axe matrix passed locally.
+
+The regression checks all ten indexed rows in Box 66, the source index's
+lowercase `harry`, public-safe identifier masking, identity and research
+states, and terminal employer-gap wording. It separately verifies six exact-
+identifier Army-entry occupations without turning them into employers;
+Gerhard L. Bolland's qualified 507th Parachute Infantry Regiment pathway;
+Cornel Bolog's distinct Army-entry occupation and Farrell High School student
+affiliation; Harry K. Bollerman's withheld Dartmouth candidate; and two
+unresolved archival-review profiles. Unfamiliar alpha-grade and implausible
+birth-year fields remain visibly bounded rather than silently normalized.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,425 public artifacts,
+reviewed 1,018 candidate substrings, and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+manifest SHA-256 is
+`dcc429fcadd425544538b94cfebf2efefc93ff57c8a0179fd0486ec1615d0e5f`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`cdb6fc88d06c8a5a0cbc3c73dd97ce54a0c144c74c768204ea34e6fbb71f5e36`.
 
 ## Batch 235 local release check
 

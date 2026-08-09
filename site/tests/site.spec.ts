@@ -20688,3 +20688,78 @@ test("Batch 235 publishes supported occupations and George Boldt's separated civ
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 236 publishes exact-identifier occupations and keeps qualified pathways distinct", async ({
+  page,
+}) => {
+  const profiles = [
+    ["660325f3-2bb5-50dc-94ad-50a62e5aff48", "V R Bolig", "Page 42"],
+    ["5a40fa9d-fcda-5977-9de5-e5cb1d5a9388", "Gerhard L Bolland", "Page 42"],
+    ["b36b433f-446f-5ab6-88c5-50b2fa385656", "Gus N Bollas", "Page 42"],
+    ["71e967e9-1b66-5996-a79d-57eb5056ba55", "harry K Bollerman", "Page 43"],
+    ["d307a84d-4bb3-51dd-9d74-aece9219012c", "Helen E Bollie", "Page 43"],
+    ["7ed805a3-01cc-59b5-b821-9b0757bc7484", "Cornel Bolog", "Page 43"],
+    ["185e63c5-d94a-535e-8482-5827edc12a28", "Antonio J Bologna", "Page 43"],
+    ["be3149e1-5a15-5e3f-9522-38e09df4e559", "John Bolognese", "Page 43"],
+    ["86419e65-1699-5747-9e6d-477900639237", "Sigmund Bolsom", "Page 43"],
+    ["64be7c93-e440-5626-a3be-6290f8fb7682", "Sophus Bolt", "Page 43"],
+  ] as const;
+
+  for (const [personId, displayName, sourcePage] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(sourcePage);
+    await expect(page.locator(".index-record").first()).toContainText("66");
+  }
+
+  for (const [personId, occupation] of [
+    ["b36b433f-446f-5ab6-88c5-50b2fa385656", "Waiter category"],
+    ["7ed805a3-01cc-59b5-b821-9b0757bc7484", "Meatcutter"],
+    ["185e63c5-d94a-535e-8482-5827edc12a28", "rubber goods"],
+    ["be3149e1-5a15-5e3f-9522-38e09df4e559", "Chauffeur or driver"],
+    ["86419e65-1699-5747-9e6d-477900639237", "metal-working"],
+    ["64be7c93-e440-5626-a3be-6290f8fb7682", "Animal and livestock farmer"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5a40fa9d-fcda-5977-9de5-e5cb1d5a9388/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "507th Parachute Infantry Regiment",
+  );
+  await expect(page.locator("main")).toContainText("probable immediate");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/7ed805a3-01cc-59b5-b821-9b0757bc7484/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Farrell High School",
+  );
+  await expect(page.locator("main")).toContainText("Army OSS service");
+
+  await page.goto("./people/71e967e9-1b66-5996-a79d-57eb5056ba55/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Navy V-12");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const personId of [
+    "660325f3-2bb5-50dc-94ad-50a62e5aff48",
+    "d307a84d-4bb3-51dd-9d74-aece9219012c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
