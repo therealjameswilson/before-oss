@@ -4,12 +4,24 @@ Run: 2026-08-09 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **747 / 747**
+**PASS.** The complete browser and accessibility matrix passed **750 / 750**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 236 adds a focused direct-route regression for V. R. Bolig through
+Sophus Bolt across PDF pages 42-43. It checks all ten indexed names, Box 66,
+the source index's lowercase `harry`, public-safe identifier masking, identity
+and research states, and employer-gap language. It separately verifies six
+exact-identifier Army-entry occupations without converting them into named
+employers; Gerhard L. Bolland's commissioned status and qualified 507th
+Parachute Infantry Regiment pathway; Cornel Bolog's distinct occupation and
+Farrell High School student affiliation; Harry K. Bollerman's withheld
+Dartmouth candidate; and V. R. Bolig's and Helen E. Bollie's unresolved
+archival-review profiles. The focused matrix passed 3 / 3, and the complete
+local matrix passed 750 / 750.
 
 Batch 235 adds a focused direct-route regression for Robert W. Boissiere
 through Francis J. Bolger on PDF page 42. It checks all ten indexed names,

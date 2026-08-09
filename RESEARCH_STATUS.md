@@ -2594,6 +2594,47 @@ Commissioned classification: 2,182 yes; 5,162 no; 16,596 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 236 covers the next ten contiguous rows, V. R. Bolig through Sophus
+  Bolt, across PDF pages 42-43, all indexed in Box 66. Both source pages and all
+  ten rows were visually checked at original resolution, including the printed
+  lowercase `harry` in Harry K. Bollerman's source row and six printed private
+  identifiers. Exact private-identifier matches in NARA's official Army merged
+  file confirm Gus N. Bollas, Cornel Bolog, Antonio J. Bologna, John Bolognese,
+  Sigmund Bolsom, and Sophus Bolt. Their dated Army-entry records support the
+  respective bounded occupation categories of waiter, meatcutter, rubber-goods
+  worker, driver, metal worker, and livestock farmer. These categories name no
+  employer and do not prove an immediate Army-to-OSS sequence. The source
+  file's unusual `P5T` alpha-grade values for Bollas and Bolognese are preserved
+  without silently converting them to a familiar rank; Bolt's implausible
+  separate birth-year field is explicitly rejected and not used.
+  An authored Army Times memoir, West Point Association of Graduates history,
+  and visually inspected 1937 Library of Congress newspaper page support a
+  high-confidence identification of commissioned Army officer Gerhard L.
+  Bolland. The sources document his Army career and qualify the 507th Parachute
+  Infantry Regiment as his probable immediate military pathway before his
+  later OSS Scandinavian Section service; no civilian employer is claimed.
+  Cornel Bolog's exact identifier match and obituary document his identity,
+  Army-entry occupation, and earlier Farrell High School student affiliation,
+  while postwar education and employment are excluded from pre-OSS findings.
+  A Dartmouth Navy V-12 record for Harry K. Bollerman remains a probable
+  identity candidate only because its chronology relative to OSS service is
+  unresolved. V. R. Bolig and Helen E. Bollie remain explicit archival-review
+  cases. The batch adds eight affiliations, sixteen published or qualified
+  factual claims, nine stable source records, and ten completed minimum-
+  protocol research attempts. No live authenticated NARA Catalog request,
+  credential, raw API response, full private identifier, unsupported employer,
+  or namesake occupation was used or published.
+  Coverage is now 2,157 researched people, 376 people with a verified
+  affiliation, 179 with a verified employer, and 2,106 assessed for archival
+  review, out of 23,940 active person entities. Local release QA passed 70
+  Python tests, all 750 browser and accessibility cases across three viewports,
+  the 24,355-page internal-link check, the 200-profile stratified audit, and the
+  complete public-identifier audit with zero unexpected matches. The production
+  dependency audit found zero vulnerabilities. Consecutive production builds
+  produced the identical tree digest
+  `cdb6fc88d06c8a5a0cbc3c73dd97ce54a0c144c74c768204ea34e6fbb71f5e36`.
+  The 65-file public-data manifest covers 73,053,160 bytes and has SHA-256
+  `dcc429fcadd425544538b94cfebf2efefc93ff57c8a0179fd0486ec1615d0e5f`.
 - Batch 235 covers the next ten contiguous page-forty-two rows, Robert W.
   Boissiere through Francis J. Bolger, crossing from Box 65 to Box 66. The
   source page and all ten rows were visually checked at original resolution,
