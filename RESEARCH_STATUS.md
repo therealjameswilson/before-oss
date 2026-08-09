@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,078 people with a non-planned attempt | 23,940 active person entities | 8.6800% |
-| Verified-affiliation coverage | 345 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4411% |
+| Research-attempt coverage | 2,087 people with a non-planned attempt | 23,940 active person entities | 8.7176% |
+| Verified-affiliation coverage | 351 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.4662% |
 | Verified-employer coverage | 176 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7352% |
-| Archival-review coverage | 2,027 people with an individual file-access/priority assessment | 23,940 active person entities | 8.4670% |
+| Archival-review coverage | 2,036 people with an individual file-access/priority assessment | 23,940 active person entities | 8.5046% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 280
-- Identity status `high_confidence`: 408
+- Identity status `confirmed`: 286
+- Identity status `high_confidence`: 407
 - Identity status `probable`: 71
-- Identity status `ambiguous`: 34
+- Identity status `ambiguous`: 36
 - Identity status `conflicting`: 22
-- Identity status `unresolved`: 23,125
+- Identity status `unresolved`: 23,118
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,460
-- Enlisted Army personnel: 3,535
+- Unknown or indeterminate: 16,454
+- Enlisted Army personnel: 3,541
 - Commissioned Army officers: 2,072
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-08 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,181 yes; 5,122 no; 16,637 indeterminate.
+Commissioned classification: 2,181 yes; 5,131 no; 16,628 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,862
+- `not_started`: 21,853
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 37
+- `needs_identity_review`: 38
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 49
 - `occupation_only_found`: 241
-- `requires_archival_review`: 1,426
+- `requires_archival_review`: 1,434
 - `completed`: 73
 - `conflicting_sources`: 22
 - `verified_employer_found`: 173
@@ -67,15 +67,15 @@ Commissioned classification: 2,181 yes; 5,122 no; 16,637 indeterminate.
 - Live Library of Congress attempts: 443
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,857. The detailed adapter breakdown remains reproducible in
+  adapters: 1,867. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 801 across 774 people; 99 additional
+- Saved `source_reviewed` outcomes: 807 across 779 people; 100 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,299
+- Total recorded attempts/plans: 3,309
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 759; 737 have at least one public-visible
+- People with saved reviewed claims: 765; 742 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,40 @@ Commissioned classification: 2,181 yes; 5,122 no; 16,637 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 229 covers the next ten contiguous page-forty-one rows, Glenn D.
+  Boardman through Wilbert S. Bochte, all indexed in Box 63. The index page,
+  the official Army fixed-width documentation and occupation code list, a
+  contemporary 63d Infantry Division newspaper, and a Library of Congress
+  bibliography were visually checked. Exact private-identifier matches in the
+  official unrestricted Army file confirm Philip L. Boardman, Marshall I.
+  Boarman, Robert C. Boaz, Lucien R. Bobrow, Mort S. Bobrow, and Wilbert
+  Bochte. The corresponding Army-entry categories document a semiprofessional
+  occupation not elsewhere classified; radio-and-phonograph manufacturing;
+  paymaster, payroll-clerk, or timekeeper work; metallurgist, assayer, or
+  chemist work; vehicle-motorman work; and student status. These broad
+  categories name no employer and are not presented as employer findings. The
+  contemporary Army newspaper additionally identifies Boarman as a private
+  first class and fire-direction-center computer with Headquarters Battery,
+  861st Field Artillery, and as a recent Fordham graduate; both affiliations
+  remain medium-confidence and temporally qualified relative to OSS service.
+  Mort Bobrow's existing University of Washington and Army Mandarin-training
+  evidence remains intact while the exact Army linkage upgrades his identity
+  to confirmed. Robert E. Boardman remains ambiguous among three exact-name
+  Army candidates. Frank W. Bobb remains in identity review because the
+  printed identifier does not match the exact-name Army lead; a postwar
+  microfilm lead remains low-confidence and unpublished. Glenn D. Boardman and
+  Maxine K. Boaze remain unresolved. Eight profiles route to Box 63 archival
+  review, one remains in identity review, and Mort Bobrow remains completed.
+  No new employer was claimed. No authenticated Catalog request, credential,
+  raw API response, full private identifier, or unsupported employer claim was
+  used or published. Release `057dfc5` passed Pages workflow 31286519860. Test
+  workflow 31286519837 was still executing its exhaustive browser matrix when
+  this status snapshot was recorded; its Python stage had passed. Locally, 69
+  Python tests, the established 726 browser/accessibility cases, three added
+  Batch 229 cases, the 24,345-page internal-link check, and the public-
+  identifier audit passed. Cache-busted production checks matched all 65
+  published data assets across 72,353,183 bytes and confirmed the home page and
+  all ten Batch 229 profile routes.
 - Batch 228 covers the next ten contiguous page-forty-one rows, Stanley A.
   Blumberg through James L. Boals, indexed in Boxes 62 and 63. The index page,
   official Army fixed-width documentation and occupation code list, a CIA
@@ -2757,13 +2791,13 @@ Commissioned classification: 2,181 yes; 5,122 no; 16,637 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 862 (published, qualified, or conflict-visible)
-- Database claims: 1,710; public-visible claims: 1,679 (411 confirmed, 875 high,
-  361 medium, 32 conflicting); 25 low-confidence claims are withheld and six
+- Public-visible affiliations: 870 (published, qualified, or conflict-visible)
+- Database claims: 1,725; public-visible claims: 1,693 (423 confirmed, 875 high,
+  363 medium, 32 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,791 total and 3,725 public-visible; private source
-  records: 2,612; public source export: 1,607; unique source documents: 1,203
-- Canonical organizations: 405 private and 395 public
+- Claim-source links: 3,828 total and 3,759 public-visible; private source
+  records: 2,619; public source export: 1,613; unique source documents: 1,205
+- Canonical organizations: 407 private and 397 public
 - Conflicting claims: 32 across 23 people
 - NARA pull-list rows: 23,805
 
@@ -2803,6 +2837,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-boardman-through-bochte-pathways_batch-229_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-blumberg-through-boals-pathways_batch-228_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-bloch-through-blomquist-pathways_batch-225_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-blondo-through-bloss-pathways_batch-226_2026-08-08.json
