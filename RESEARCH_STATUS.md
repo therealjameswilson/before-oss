@@ -3010,6 +3010,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-elizabeth-bohan-through-jan-boissenvain-pathways_batch-234_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-wesley-bogdan-through-jules-boh-pathways_batch-233_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-otto-boelsen-through-edward-bogda-pathways_batch-232_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-forty-two-harold-bodine-through-ralph-boehner-pathways_batch-231_2026-08-08.json
