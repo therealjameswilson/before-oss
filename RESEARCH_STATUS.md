@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,177 people with a non-planned attempt | 23,940 active person entities | 9.0936% |
-| Verified-affiliation coverage | 384 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6040% |
+| Research-attempt coverage | 2,187 people with a non-planned attempt | 23,940 active person entities | 9.1353% |
+| Verified-affiliation coverage | 390 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6291% |
 | Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
-| Archival-review coverage | 2,126 people with an individual file-access/priority assessment | 23,940 active person entities | 8.8805% |
+| Archival-review coverage | 2,136 people with an individual file-access/priority assessment | 23,940 active person entities | 8.9223% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 314
-- Identity status `high_confidence`: 417
+- Identity status `confirmed`: 319
+- Identity status `high_confidence`: 418
 - Identity status `probable`: 73
 - Identity status `ambiguous`: 41
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,070
+- Identity status `unresolved`: 23,064
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,420
-- Enlisted Army personnel: 3,570
-- Commissioned Army officers: 2,073
+- Unknown or indeterminate: 16,414
+- Enlisted Army personnel: 3,575
+- Commissioned Army officers: 2,074
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -45,37 +45,37 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,183 yes; 5,181 no; 16,576 indeterminate.
+Commissioned classification: 2,184 yes; 5,189 no; 16,567 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,763
+- `not_started`: 21,753
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 45
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 266
-- `requires_archival_review`: 1,481
+- `occupation_only_found`: 272
+- `requires_archival_review`: 1,485
 - `completed`: 76
 - `conflicting_sources`: 25
 - `verified_employer_found`: 177
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 235
-- Live Library of Congress attempts: 474
+- Live CIA exact-name OSS attempts: 245
+- Live Library of Congress attempts: 484
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,957. The detailed adapter breakdown remains reproducible in
+  adapters: 1,967. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 869 across 841 people; 108 additional
+- Saved `source_reviewed` outcomes: 879 across 851 people; 108 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,450
+- Total recorded attempts/plans: 3,480
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 808; 785 have at least one public-visible
+- People with saved reviewed claims: 815; 792 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,48 @@ Commissioned classification: 2,183 yes; 5,181 no; 16,576 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 239 covers the next ten contiguous page-forty-three rows, Vittorio
+  Bonetti through Leo J. Bonneau, all indexed in Box 67. The source page and
+  all ten rows were visually checked at original resolution, along with the
+  official Army file's field-layout and occupation-code pages and the official
+  codebook pages used to interpret the dated entries. Exact private-identifier
+  and name matches confirm Martha W. Bonham, Joseph H. Bonhardi, Vernon F.
+  Bonhotal, Delphis L. Bonin, and Richard J. Bonk. Their Army-entry records
+  establish, respectively, stenographer-or-typist, filling-station-or-parking-
+  lot-attendant, student, semiskilled-textile-manufacturing, and student
+  categories. The three civilian occupation groups are modeled as `unknown`
+  relationships—not employment—because none names an organization. The two
+  student findings are likewise kept separate from employment.
+  The uncommon Joseph Bonfiglio name, Army chronology, lieutenant status, and
+  Italian OSS work align across a NARA history and a reputable obituary,
+  supporting a high-confidence identity, commissioned Army classification,
+  and immediate Army-to-OSS pathway. His earlier newspaper work in Ashland and
+  Mansfield is qualified as medium-confidence documented-prewar employment;
+  no newspaper name or immediate chronology is inferred. Vernon Bonhotal's
+  obituary independently documents Nyack High School student status and Army
+  OSS encryption work in China, while his exact Army record supplies the dated
+  entry and student code. Walter Bonk's printed `SP 1/c` value is preserved and
+  classified only as an enlisted wartime naval Specialist rating; no specialty
+  or employer is inferred. Vittorio Bonetti, Joseph M. Bonfield, Walter Bonk,
+  and Leo J. Bonneau remain explicit archival-review cases after the complete
+  online protocol. The batch adds nine affiliations, sixteen factual claims,
+  nine stable source records, two organizations, and ten completed research
+  attempts. No authenticated Catalog request, credential, raw API response,
+  full private identifier, unsupported employer, or namesake biography was
+  used or published.
+  Coverage is now 2,187 researched people, 390 people with a verified
+  affiliation, 179 with a verified employer, and 2,136 assessed for archival
+  review, out of 23,940 active person entities. The unchanged verified-employer
+  count is intentional: the new occupation and student evidence does not name
+  an employer. Local release QA passed 70 Python tests, all 759 browser and
+  accessibility cases across three viewports, the 24,358-page internal-link
+  check, the 200-profile stratified audit, and the complete public-identifier
+  audit with zero unexpected matches. The production dependency audit found
+  zero vulnerabilities. Consecutive production builds produced the identical
+  tree digest
+  `964710e161675452ba9045bc947b17d1b7edb4d524229d79569be807d77fccf1`.
+  The 65-file public-data manifest covers 73,336,636 bytes and has SHA-256
+  `05fcef84fa75855738a8d58156143597894483355e776ffb74421fbb3c206640`.
 - Batch 238 covers the next ten contiguous page-forty-three rows, George N.
   Boncescu through Paul A. Bonelli, all indexed in Box 67. The source page and
   all ten rows were visually checked at original resolution, along with the
