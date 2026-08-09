@@ -235,6 +235,27 @@ class ReviewedEvidenceTests(unittest.TestCase):
         # expected; the assertion protects the import from inventing one.
         self.assertIsNone(link)
 
+    def test_government_assignment_can_be_last_civilian_role(self) -> None:
+        bundle = self._bundle()
+        affiliation = bundle["affiliations"][0]
+        affiliation["immediate_pre_oss"] = False
+        affiliation["last_civilian_pre_service"] = True
+        affiliation["pre_oss_temporal_basis"] = "strongly_date_bounded"
+        bundle["claims"][0]["claim_type"] = "last_civilian_pre_service"
+        path = Path(self.temp_dir.name) / "government-last-civilian.json"
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+
+        import_reviewed_evidence(self.connection, path)
+
+        row = self.connection.execute(
+            """
+            SELECT relationship_type, last_civilian_pre_service
+            FROM affiliations
+            """
+        ).fetchone()
+        self.assertEqual(row["relationship_type"], "government_assignment")
+        self.assertEqual(row["last_civilian_pre_service"], 1)
+
     def test_sanitized_attempt_checkpoint_preserves_richer_local_fields(self) -> None:
         attempt_id = "checkpoint-attempt-id"
         fingerprint = "checkpoint-fingerprint"

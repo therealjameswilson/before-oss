@@ -20438,3 +20438,74 @@ test("Batch 231 publishes Bodman's student pathway while preserving occupations 
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 232 separates George Bogardus's Army pathway from his civilian government roles", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2479d6cc-7b69-5682-98ea-08e2b65893ff", "Otto J Boelsen", "unresolved", "64", false],
+    ["90779fb7-19aa-5c69-8d23-ca8ff58c6d73", "Herman J Boemer Jr.", "confirmed", "64", true],
+    ["c79dbf23-23a9-5a57-b668-59a6ab2af805", "Wilbur B Boemermann", "confirmed", "64", true],
+    ["57652ec2-959a-5f2c-a6a9-28b9cf2bb52b", "Herman W Boesch", "unresolved", "64", true],
+    ["9a1c90a5-1814-5512-ab42-215aee2c207d", "Carlos W Boettger", "confirmed", "64", true],
+    ["911db972-bb49-586e-a074-ada15f735362", "Elizabeth R Boettiger", "unresolved", "64", false],
+    ["4077be02-816b-54e8-aa78-34049f6b0c64", "Gwendolyne M Bogan", "unresolved", "64", false],
+    ["fe80a8ae-bf76-544c-841d-5ba2bd3ec839", "George F Bogardus", "high confidence", "65", true],
+    ["939ee2f4-2ba1-5fae-af1a-7941e97c948b", "Gerard C Bogart", "confirmed", "65", true],
+    ["cfaf554d-b48a-51d5-bd52-0fc7fd8ec2d1", "Edward V Bogda", "unresolved", "65", false],
+  ] as const;
+
+  for (const [personId, displayName, identityStatus, box, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 42");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.getByText(identityStatus, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/fe80a8ae-bf76-544c-841d-5ba2bd3ec839/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Camp Croft",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "United States Department of State",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Department of Agriculture",
+  );
+  await expect(page.locator("main")).toContainText("private identifier incompatible with the index");
+
+  await page.goto("./people/939ee2f4-2ba1-5fae-af1a-7941e97c948b/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Signal Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Photographer",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Edison Technical High School",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const [personId, occupation] of [
+    ["90779fb7-19aa-5c69-8d23-ca8ff58c6d73", "Bookkeeper or cashier"],
+    ["c79dbf23-23a9-5a57-b668-59a6ab2af805", "Financial institution clerk"],
+    ["9a1c90a5-1814-5512-ab42-215aee2c207d", "Skilled occupation in petroleum refining"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});
