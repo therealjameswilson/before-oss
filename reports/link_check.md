@@ -41,6 +41,25 @@ Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `5f4e29d42fa226334909d9da2cb3105faefae42c63a74dbd72dcad7465525759`.
 
+## Batch 237 production deployment
+
+The clean pull-request test workflow
+[31306737529](https://github.com/therealjameswilson/before-oss/actions/runs/31306737529)
+and Pages workflow
+[31307547374](https://github.com/therealjameswilson/before-oss/actions/runs/31307547374)
+completed successfully for release `784b71e`. CI repeated the 70-test Python
+suite, 753-case browser and accessibility matrix, complete 24,356-page
+internal-link check, source-PDF reconstruction check, and boundary-aware
+private-identifier audit.
+
+Cache-busted production checks opened seven core routes and all ten Batch 237
+profiles. Every route returned HTTP 200 and contained the expected indexed
+names, page and box references, evidence, and review boundaries. The live
+manifest matched the local release byte for byte, and all 65 listed assets
+matched their recorded sizes and SHA-256 values across 73,126,625 bytes. The
+manifest SHA-256 is
+`58477a917f77e1197b702e1a1c5f2e32c6b5174f9ff1e22bc9b7a140393b39e9`.
+
 ## Batch 236 local release check
 
 The complete 24,355-page internal-link pass includes direct routes for V. R.

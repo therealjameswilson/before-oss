@@ -2632,6 +2632,12 @@ Commissioned classification: 2,183 yes; 5,171 no; 16,586 indeterminate.
   `5f4e29d42fa226334909d9da2cb3105faefae42c63a74dbd72dcad7465525759`.
   The 65-file public-data manifest covers 73,126,625 bytes and has SHA-256
   `58477a917f77e1197b702e1a1c5f2e32c6b5174f9ff1e22bc9b7a140393b39e9`.
+  Pull request 8 merged as release `784b71e`; clean test workflow 31306737529
+  and Pages workflow 31307547374 completed successfully. Cache-busted
+  production checks opened the seven core routes and all ten Batch 237
+  profiles, verified their expected evidence and review boundaries, and
+  matched all 65 public data assets across 73,126,625 bytes. The live manifest
+  reproduced the local SHA-256 exactly.
 - Batch 236 covers the next ten contiguous rows, V. R. Bolig through Sophus
   Bolt, across PDF pages 42-43, all indexed in Box 66. Both source pages and all
   ten rows were visually checked at original resolution, including the printed

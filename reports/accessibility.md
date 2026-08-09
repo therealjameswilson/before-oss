@@ -19,7 +19,9 @@ without converting them into employers; Joseph N. Bonavito's high-confidence
 identity, qualified wholesale-manager occupation, and distinct University of
 Michigan student affiliation; his differing-identifier review notice; and six
 unresolved archival-review profiles. The focused matrix passed 3 / 3, and the
-complete local matrix passed 753 / 753.
+complete local matrix passed 753 / 753. The same 753-case matrix passed on the
+clean release runner in
+[workflow 31306737529](https://github.com/therealjameswilson/before-oss/actions/runs/31306737529).
 
 Batch 236 adds a focused direct-route regression for V. R. Bolig through
 Sophus Bolt across PDF pages 42-43. It checks all ten indexed names, Box 66,
