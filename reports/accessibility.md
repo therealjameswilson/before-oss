@@ -19,7 +19,9 @@ occupations, Elias W. Bolanis's qualified occupation candidate, George H.
 Boldt's commissioned status and separated Army and private-law-practice
 pathways, two visible identifier conflicts, Sam F. Bolado's uninterpreted code,
 and Paul C. Bolen's post-OSS date boundary. The focused matrix passed 3 / 3,
-and the complete local matrix passed 747 / 747.
+and the complete local matrix passed 747 / 747. The same 747-case matrix passed
+on the clean release runner in
+[workflow 31299905355](https://github.com/therealjameswilson/before-oss/actions/runs/31299905355).
 
 Batch 233 adds a focused direct-route regression for Wesley S. Bogdan through
 Jules Boh on PDF page 42. It checks all ten indexed names, the Polish Army

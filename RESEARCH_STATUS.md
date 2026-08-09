@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,137 people with a non-planned attempt | 23,940 active person entities | 8.9265% |
-| Verified-affiliation coverage | 367 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5330% |
-| Verified-employer coverage | 178 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7435% |
-| Archival-review coverage | 2,086 people with an individual file-access/priority assessment | 23,940 active person entities | 8.7135% |
+| Research-attempt coverage | 2,147 people with a non-planned attempt | 23,940 active person entities | 8.9683% |
+| Verified-affiliation coverage | 370 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5455% |
+| Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
+| Archival-review coverage | 2,096 people with an individual file-access/priority assessment | 23,940 active person entities | 8.7552% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 298
-- Identity status `high_confidence`: 412
-- Identity status `probable`: 71
-- Identity status `ambiguous`: 40
-- Identity status `conflicting`: 23
-- Identity status `unresolved`: 23,096
+- Identity status `confirmed`: 302
+- Identity status `high_confidence`: 413
+- Identity status `probable`: 72
+- Identity status `ambiguous`: 41
+- Identity status `conflicting`: 25
+- Identity status `unresolved`: 23,087
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,438
-- Enlisted Army personnel: 3,554
+- Unknown or indeterminate: 16,434
+- Enlisted Army personnel: 3,558
 - Commissioned Army officers: 2,072
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,21 +45,21 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,182 yes; 5,158 no; 16,601 indeterminate.
+Commissioned classification: 2,182 yes; 5,162 no; 16,596 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,803
+- `not_started`: 21,793
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 43
+- `needs_identity_review`: 44
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 250
-- `requires_archival_review`: 1,465
+- `occupation_only_found`: 253
+- `requires_archival_review`: 1,468
 - `completed`: 74
-- `conflicting_sources`: 23
-- `verified_employer_found`: 176
+- `conflicting_sources`: 25
+- `verified_employer_found`: 177
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -2630,6 +2630,12 @@ Commissioned classification: 2,182 yes; 5,158 no; 16,601 indeterminate.
   audit, and the complete public-identifier audit with zero unexpected
   matches. Consecutive production builds produced the identical tree digest
   `1dd024f85ba3b8ab60ebd6a9c924d7e912ff88caea639d2ed0c574bdbdcd7c26`.
+  Pull request 6 merged as release `3e92f03`; clean test workflow 31299905355
+  and Pages workflow 31300685077 completed successfully. Cache-busted
+  production checks opened the seven core routes and all ten Batch 235
+  profiles, matched all 65 public data assets across 72,931,554 bytes, and
+  reproduced manifest SHA-256
+  `eb211c91ce28be1997e231184f4ca5201dcf6f531c72de439a83c7022745131e`.
 - Batch 234 covers the next ten contiguous page-forty-two rows, Elizabeth R.
   Bohan through Jan M. Boissenvain, all indexed in Box 65. The source page and
   every row were visually checked at original resolution. Blank rank and
@@ -3000,14 +3006,14 @@ Commissioned classification: 2,182 yes; 5,158 no; 16,601 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 900 (published, qualified, or conflict-visible)
-- Database claims: 1,773; public-visible claims: 1,741 (449 confirmed, 896 high,
-  363 medium, 33 conflicting); 26 low-confidence claims are withheld and six
+- Public-visible affiliations: 905 (published, qualified, or conflict-visible)
+- Database claims: 1,786; public-visible claims: 1,754 (455 confirmed, 898 high,
+  366 medium, 35 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,936 total and 3,867 public-visible; private source
-  records: 2,653; public source export: 1,645; unique source documents: 1,225
+- Claim-source links: 3,968 total and 3,899 public-visible; private source
+  records: 2,664; public source export: 1,652; unique source documents: 1,229
 - Canonical organizations: 415 private and 405 public
-- Conflicting claims: 33 across 24 people
+- Conflicting claims: 35 across 26 people
 - NARA pull-list rows: 23,802
 
 Planned dry-run requests do not count as research-attempt coverage.

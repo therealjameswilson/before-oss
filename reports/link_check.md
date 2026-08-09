@@ -42,6 +42,25 @@ Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `1dd024f85ba3b8ab60ebd6a9c924d7e912ff88caea639d2ed0c574bdbdcd7c26`.
 
+## Batch 235 production deployment
+
+The clean pull-request test workflow
+[31299905355](https://github.com/therealjameswilson/before-oss/actions/runs/31299905355)
+and Pages workflow
+[31300685077](https://github.com/therealjameswilson/before-oss/actions/runs/31300685077)
+completed successfully for release `3e92f03`. CI repeated the 70-test Python
+suite, 747-case browser and accessibility matrix, complete 24,353-page
+internal-link check, source-PDF reconstruction check, and boundary-aware
+private-identifier audit.
+
+Cache-busted production checks opened seven core routes and all ten Batch 235
+profiles. Every route returned HTTP 200, contained the expected research and
+coverage evidence, and matched the local release after canonical-host
+normalization. The live manifest matched the local release byte for byte, and
+all 65 listed assets matched their recorded sizes and SHA-256 values across
+72,931,554 bytes. The manifest SHA-256 is
+`eb211c91ce28be1997e231184f4ca5201dcf6f531c72de439a83c7022745131e`.
+
 ## Batch 233 production check
 
 The complete 24,353-page internal-link pass includes direct routes for Wesley
