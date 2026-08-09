@@ -20565,3 +20565,49 @@ test("Batch 233 publishes three identifier-backed occupations without inventing 
   await expect(page.locator("main")).toContainText("different private identifier");
   await expect(page.locator("main")).not.toContainText("Chauffeur or driver");
 });
+
+test("Batch 234 preserves ten unresolved Box 65 profiles without promoting namesake occupations", async ({
+  page,
+}) => {
+  const profiles = [
+    ["692f5503-58fa-5963-a8a6-808fd4835a3c", "Elizabeth R Bohan"],
+    ["f0c77a26-d6db-57b3-8f5d-4480d039082d", "Cyrus R Bohannon"],
+    ["fa9b8fd6-f4aa-58fc-8b2a-41594b38bbd7", "Edmund W Bohannon"],
+    ["674e8d04-33c8-5706-9db3-a92a9388fecb", "Avis H Bohlen"],
+    ["aca1e62c-fe56-53b5-9d8f-5cacdd84d4cf", "Albert A Bohmhauer"],
+    ["112dc7d1-1f89-58b8-800b-27bef5378714", "Charles R Bohny"],
+    ["d855cbcd-105e-573e-8bfa-f3b571d422b6", "Rogers Bohrer"],
+    ["eb509d79-fed8-564c-a0bc-564317f2c0a1", "Michael Boiko"],
+    ["054eb6d6-2046-5219-b97e-5beb87d41895", "Lavon M Boisen"],
+    ["4bb6f6b2-6da0-5440-aa4e-b487ca709886", "Jan M Boissenvain"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 42");
+    await expect(page.locator(".index-record").first()).toContainText("65");
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      "Not printed",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/d855cbcd-105e-573e-8bfa-f3b571d422b6/");
+  await expect(page.locator("main")).toContainText("2nd Lt");
+  await expect(page.locator("main")).toContainText("French");
+  await expect(page.locator("main")).toContainText("foreign or allied military personnel");
+  await expect(page.locator("main")).toContainText("Commissioned officer");
+
+  await page.goto("./people/aca1e62c-fe56-53b5-9d8f-5cacdd84d4cf/");
+  await expect(page.locator("main")).toContainText("Albert A. Bohmhauer Jr.");
+  await expect(page.locator("main")).not.toContainText("Paymasters, payroll clerks, and timekeepers");
+
+  await page.goto("./people/eb509d79-fed8-564c-a0bc-564317f2c0a1/");
+  await expect(page.locator("main")).toContainText("two corroborating identifiers");
+  await expect(page.locator("main")).not.toContainText("Millers, grain, flour, feed");
+});

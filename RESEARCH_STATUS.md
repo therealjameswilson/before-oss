@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,127 people with a non-planned attempt | 23,940 active person entities | 8.8847% |
+| Research-attempt coverage | 2,137 people with a non-planned attempt | 23,940 active person entities | 8.9265% |
 | Verified-affiliation coverage | 367 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5330% |
 | Verified-employer coverage | 178 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7435% |
-| Archival-review coverage | 2,076 people with an individual file-access/priority assessment | 23,940 active person entities | 8.6717% |
+| Archival-review coverage | 2,086 people with an individual file-access/priority assessment | 23,940 active person entities | 8.7135% |
 
 ## Extraction and identity
 
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,181 yes; 5,158 no; 16,601 indeterminate.
+Commissioned classification: 2,182 yes; 5,158 no; 16,601 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,813
+- `not_started`: 21,803
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 43
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 49
 - `occupation_only_found`: 250
-- `requires_archival_review`: 1,455
+- `requires_archival_review`: 1,465
 - `completed`: 74
 - `conflicting_sources`: 23
 - `verified_employer_found`: 176
@@ -67,12 +67,12 @@ Commissioned classification: 2,181 yes; 5,158 no; 16,601 indeterminate.
 - Live Library of Congress attempts: 453
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,907. The detailed adapter breakdown remains reproducible in
+  adapters: 1,917. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 837 across 809 people; 103 additional
+- Saved `source_reviewed` outcomes: 847 across 819 people; 103 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,359
+- Total recorded attempts/plans: 3,369
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 783; 760 have at least one public-visible
@@ -2594,6 +2594,32 @@ Commissioned classification: 2,181 yes; 5,158 no; 16,601 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 234 covers the next ten contiguous page-forty-two rows, Elizabeth R.
+  Bohan through Jan M. Boissenvain, all indexed in Box 65. The source page and
+  every row were visually checked at original resolution. Blank rank and
+  private-identifier cells remain blank, the printed `Boissenvain` spelling is
+  preserved, and Rogers Bohrer's printed `2nd Lt` rank and `French` note are
+  kept separate from any inferred nationality or unit. The official NARA Army
+  merged file contains rare exact-name candidates for Albert A. Bohmhauer Jr.
+  and Michael Boiko, but neither index row supplies a private identifier, rank,
+  birth year, or location with which to establish the match. Their payroll-
+  related and grain-milling occupation codes therefore remain rejected
+  candidate context and are not published as facts. Searches for Roger and
+  Roger S. Bohrer and for the alternate Boissevain spelling were search aliases
+  only; they are not treated as corrections or documented variants. A
+  prominent Avis H. Bohlen namesake is likewise not assigned to the row from a
+  name match or a relative's career. All ten profiles now have a completed
+  minimum-protocol attempt, explicit rejection reasons, and Box 65 archival
+  guidance. The batch adds no employer, occupation, or affiliation claim, four
+  stable official source records, and ten terminal manual research attempts.
+  No live authenticated NARA Catalog request, exposed credential, raw API
+  response, full private identifier, unsupported employer, or namesake
+  occupation was used or published. Local release QA passed 70 Python tests,
+  all 744 browser and accessibility cases across three viewports, the
+  24,353-page internal-link check, the 200-profile stratified audit, and the
+  complete public-identifier audit with zero unexpected matches. Consecutive
+  production builds produced the identical tree digest
+  `9e574c7440fcdb0e6f1351bf92e7c7b424d53764e86788eee13af57f77bb834e`.
 - Batch 233 covers the next ten contiguous page-forty-two rows, Wesley S.
   Bogdan through Jules Boh, all indexed in Box 65. The source page and all ten
   rows were visually checked, including the Polish Army note for Sgt.
@@ -3198,6 +3224,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-t
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-cecile-berger-through-edward-bergin-pathways_batch-192_2026-08-06.json
 python3 -m oss_research import-review-decisions research/entity_review_decisions_2026-08-06_batch193.csv
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-justin-bergman-through-chester-berkshire-pathways_batch-193_2026-08-06.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-elizabeth-bohan-through-jan-boissenvain-pathways_batch-234_2026-08-09.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
