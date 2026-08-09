@@ -1,0 +1,1190 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS research pipeline batch 232",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-42-batch232",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 64-65",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 42, rows 4-13; Otto J. Boelsen through Edward V. Bogda; visually checked at original resolution",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch232",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier review for Herman J. Boemer Jr., Wilbur B. Boemermann, Carlos W. Boettger, and Gerard C. Bogart; name and identifier comparison for all ten people",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch232",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Digital PDF pages 44-45 defining fixed-width name, Army-entry date, grade, branch, and civilian-occupation fields; visually checked",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official documentation defines an Army-entry file and warns that merged records contain interpreted fields and gaps. A civilian-occupation code does not name an employer."
+    },
+    {
+      "key": "nara-army-occupation-and-branch-code-list-batch232",
+      "stable_url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Code List",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "Reference copy modified 2011",
+      "locator": "Digital PDF pages 171-174 for civilian-occupation codes 056, 101, 106, and 455; branch-code pages identifying code 90 as Signal Corps; visually checked",
+      "access_date": "2026-08-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic File, ca. 1938-1946: Merged Processed File",
+      "rights_notes": "Official code lists map broad occupation and branch categories. They do not identify an employer, workplace, OSS-entry date, or a person without a separate identity match."
+    },
+    {
+      "key": "new-york-state-military-museum-wilbur-boemermann-batch232",
+      "stable_url": "https://museum.dmna.ny.gov/unit-history/conflict/world-war-2-1939-1945/27th-infantry-division-world-war-two/27th-infantry-division-world-war-two-men-who-were-federalized-1940/27th-infantry-division-world-war-two-men-who-were-federalized-1940-last-names-beginning-b",
+      "archival_identifier": "New York State Military Museum roster of 27th Infantry Division personnel federalized in 1940",
+      "title": "27th Infantry Division World War Two Men Who Were Federalized In 1940: Last Names Beginning With B",
+      "author_creator": "New York State Division of Military and Naval Affairs",
+      "repository_publisher": "New York State Military Museum and Veterans Research Center",
+      "publication_record_date": "Roster covers prewar and World War II service",
+      "locator": "Wilbur B. Boemermann row; Brooklyn; Battery A, 245th Coast Artillery; service dates February 18, 1935-February 17, 1941; exact private identifier withheld",
+      "access_date": "2026-08-09",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "New York National Guard enlisted personnel who were federalized in 1940",
+      "rights_notes": "Official state military-history roster. The project withholds the full private identifier and does not infer an OSS transfer date from the state service dates."
+    },
+    {
+      "key": "adst-george-bogardus-oral-history-batch232",
+      "stable_url": "https://adst.org/OH%20TOCs/Bogardus%2C%20George.toc.pdf",
+      "archival_identifier": "Association for Diplomatic Studies and Training Foreign Affairs Oral History Project",
+      "title": "George F. Bogardus Oral History",
+      "author_creator": "George F. Bogardus; interviewed by Charles Stuart Kennedy",
+      "repository_publisher": "Association for Diplomatic Studies and Training",
+      "publication_record_date": "Interviewed 1996-04-10; copyright 1998",
+      "locator": "PDF pages 4-5 and 8-11: Food Stamp Plan junior-economist work, Foreign Service chronology, Mombasa departure after a second draft, Army training, and transfer into OSS",
+      "access_date": "2026-08-09",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Foreign Affairs Oral History Project",
+      "rights_notes": "Institutional first-person oral history. Public data stores concise project-authored paraphrases and the stable citation rather than republishing the transcript."
+    },
+    {
+      "key": "beall-funeral-gerard-bogart-obituary-batch232",
+      "stable_url": "https://www.beallfuneral.com/obituaries/5015350",
+      "title": "Gerard Clayton Bogart obituary",
+      "author_creator": "Bogart family obituary",
+      "repository_publisher": "Beall Funeral Home",
+      "publication_record_date": "2012-11-23",
+      "locator": "Gerard Clayton Bogart biographical notice: Edison Technical High School class of 1942, Army entry on October 28, 1942, and OSS high-speed radio service",
+      "access_date": "2026-08-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Beall Funeral Home obituaries",
+      "rights_notes": "Family-supplied obituary hosted by the funeral home. The project stores a citation and concise paraphrases, not the article or unrelated family details."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The Army is modeled as a military affiliation and never as a civilian employer. Branches and units remain visible in the source-as-found and role fields."
+    },
+    {
+      "key": "united-states-army-signal-corps",
+      "canonical_name": "United States Army Signal Corps",
+      "historical_name": "Army Signal Corps",
+      "aliases": [
+        "U.S. Army Signal Corps",
+        "Signal Corps"
+      ],
+      "organization_type": "United States Army branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The documented branch is preserved as the immediate military affiliation and remains distinct from a civilian employer."
+    },
+    {
+      "key": "new-york-national-guard",
+      "canonical_name": "New York National Guard",
+      "historical_name": "New York National Guard",
+      "aliases": [
+        "NYNG"
+      ],
+      "organization_type": "state military force",
+      "sector": "military",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The state National Guard affiliation is kept separate from later federal Army service; the historical unit name is preserved as found."
+    },
+    {
+      "key": "united-states-department-of-state",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": [
+        "U.S. Department of State",
+        "State Department"
+      ],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Foreign Service and consular work is modeled as a government assignment. It may qualify as the last civilian employer before military service when the chronology directly supports that distinction."
+    },
+    {
+      "key": "united-states-department-of-agriculture",
+      "canonical_name": "United States Department of Agriculture",
+      "historical_name": "United States Department of Agriculture",
+      "aliases": [
+        "U.S. Department of Agriculture",
+        "USDA",
+        "Department of Agriculture"
+      ],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "Documented for George F. Bogardus through 1940",
+      "normalization_notes": "The Food Stamp Plan role is normalized to its named federal department while preserving the program name in the source-as-found field."
+    },
+    {
+      "key": "edison-technical-high-school-rochester",
+      "canonical_name": "Edison Technical High School",
+      "historical_name": "Edison Technical High School",
+      "aliases": [
+        "Edison Tech"
+      ],
+      "organization_type": "technical high school",
+      "sector": "student",
+      "city": "Rochester",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Documented for Gerard C. Bogart through 1942",
+      "normalization_notes": "Gerard Bogart's relationship is student, not employment. The school is excluded from employer analytics."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "wilbur-b-boemermann-financial-institution-clerk-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Financial institution clerk, not elsewhere classified",
+      "occupation": "financial institution clerk",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-01-15",
+      "date_precision": "Recorded as civilian-occupation code 106 at Army entry on January 15, 1942; no bank, financial institution, workplace, or start date is named.",
+      "city": "Brooklyn",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The official occupation category is date-bounded to Army entry and does not identify an employer. It is not labeled the immediate pre-OSS role."
+    },
+    {
+      "key": "wilbur-b-boemermann-new-york-national-guard-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "organization_key": "new-york-national-guard",
+      "organization_name_as_found": "Battery A, 245th Coast Artillery",
+      "role_title": "Enlisted member",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1935-02-18",
+      "end_date": "1941-02-17",
+      "date_precision": "The official state roster gives exact service dates and the historical unit; it does not state an OSS transfer date.",
+      "city": "Brooklyn",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Exact name and private identifier link the state roster to the index. This state affiliation remains separate from his later federal Army entry."
+    },
+    {
+      "key": "wilbur-b-boemermann-united-states-army-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "Army of the United States",
+      "role_title": "Private; branch not assigned in the entry record",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1942-01-15",
+      "end_date": null,
+      "date_precision": "The official Army merged file dates federal Army entry but supplies no OSS recruitment or transfer date.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact private identifier and name confirm Army entry. The indexed OSS file establishes later OSS personnel context, but not whether this was the immediate assignment before OSS."
+    },
+    {
+      "key": "herman-j-boemer-bookkeeper-cashier-batch232",
+      "person_id": "90779fb7-19aa-5c69-8d23-ca8ff58c6d73",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Bookkeeper or cashier, except bank cashier",
+      "occupation": "bookkeeper or cashier",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-01-06",
+      "date_precision": "Recorded as civilian-occupation code 101 at Army entry on January 6, 1943; no employer, workplace, duties, or start date is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The code describes an occupation category and does not establish a specific employer or immediate pre-OSS chronology."
+    },
+    {
+      "key": "carlos-w-boettger-petroleum-refining-occupation-batch232",
+      "person_id": "9a1c90a5-1814-5512-ab42-215aee2c207d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Skilled occupation in petroleum refining",
+      "occupation": "petroleum-refining worker",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-11",
+      "date_precision": "Recorded as civilian-occupation code 455 at Army entry on June 11, 1943; no refinery, company, workplace, duties, or start date is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The code supports a broad skilled petroleum-refining occupation, not an employer, refinery, or precise job title."
+    },
+    {
+      "key": "gerard-c-bogart-photographer-occupation-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Photographer",
+      "occupation": "photographer",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-10-28",
+      "date_precision": "Recorded as civilian-occupation code 056 at Army entry on October 28, 1942; no employer, workplace, duties, or start date is identified.",
+      "city": "Rochester",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The occupation code is date-bounded to Army entry. It does not identify an employer and is kept separate from his later OSS radio-operator assignment."
+    },
+    {
+      "key": "gerard-c-bogart-edison-technical-student-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "organization_key": "edison-technical-high-school-rochester",
+      "organization_name_as_found": "Edison Technical High School",
+      "role_title": "Student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "The obituary states that he graduated in 1942 and joined the Army on October 28, 1942; no graduation day is supplied.",
+      "city": "Rochester",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The school is a student affiliation, not an employer, and is excluded from employer analytics."
+    },
+    {
+      "key": "gerard-c-bogart-army-signal-corps-immediate-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "organization_key": "united-states-army-signal-corps",
+      "organization_name_as_found": "U.S. Army; Signal Corps",
+      "role_title": "Private at Army entry; later high-speed radio operator for OSS",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1942-10-28",
+      "end_date": null,
+      "date_precision": "The Army file gives exact entry and Signal Corps branch; the obituary places OSS radio service within his 1942-1945 Army service but supplies no transfer day.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Exact name, private identifier, and Army-entry date match across the official file, index, and obituary. Army/Signal Corps is a military pathway, not a civilian employer."
+    },
+    {
+      "key": "george-f-bogardus-army-immediate-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "U.S. Army; infantry replacement training at Camp Croft",
+      "role_title": "Enlisted trainee transferred into OSS",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1945",
+      "end_date": "1945",
+      "date_precision": "Bogardus states that he was redrafted after leaving Mombasa, completed six weeks of Army training, and then received the OSS assignment shortly before VE Day.",
+      "city": "Camp Croft",
+      "state_or_region": "South Carolina",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The first-person chronology explicitly places Army training immediately before OSS. It is a military assignment and is not counted as a civilian employer."
+    },
+    {
+      "key": "george-f-bogardus-state-department-last-civilian-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "organization_key": "united-states-department-of-state",
+      "organization_name_as_found": "Foreign Service; U.S. Consulate, Mombasa",
+      "role_title": "Foreign Service officer performing consular and administrative duties",
+      "occupation": "Foreign Service officer",
+      "relationship_type": "government_assignment",
+      "start_date": "1941",
+      "end_date": "1945-01-01",
+      "date_precision": "The oral history dates Foreign Service entry to 1941, Mombasa service from February 1944 through January 1, 1945, and departure because he was drafted again.",
+      "city": "Mombasa",
+      "state_or_region": null,
+      "country": "Kenya",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "State is the last documented civilian government employer before the 1945 Army service that led to OSS. It is not mislabeled as the immediate affiliation because Army training intervened."
+    },
+    {
+      "key": "george-f-bogardus-agriculture-junior-economist-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "organization_key": "united-states-department-of-agriculture",
+      "organization_name_as_found": "Food Stamp Plan in Agriculture",
+      "role_title": "Junior economist",
+      "occupation": "economist",
+      "relationship_type": "government_assignment",
+      "start_date": "1939",
+      "end_date": "1940",
+      "date_precision": "Bogardus says he obtained the job after the 1939 Foreign Service examination, worked in Rochester and Milwaukee, and continued for another year; exact dates are not supplied.",
+      "city": "Rochester and Milwaukee",
+      "state_or_region": "New York and Wisconsin",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is an earlier documented federal role. State Department service and then Army training intervened before OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "wilbur-b-boemermann-exact-army-identity-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wilbur B. Boemermann is confirmed as the New York National Guard member and Army private recorded under the same uncommon full name.",
+      "evidence_paraphrase": "The OSS index, official Army merged file, and official New York military roster share his exact uncommon name and exact private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier linkage across three official records plus exact uncommon full-name agreement; no merge rests on name alone.",
+      "temporal_assessment": "The state roster documents 1935-1941 service and the Army file dates entry to January 15, 1942; neither gives an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier remains restricted and is excluded from public outputs. Box 64 is still required for the Army-to-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-42-batch232",
+          "locator_override": "PDF page 42, row 6"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact private-identifier and exact-name Army-entry record; identifier withheld"
+        },
+        {
+          "source_key": "new-york-state-military-museum-wilbur-boemermann-batch232",
+          "locator_override": "Wilbur B. Boemermann roster row; exact private identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "wilbur-b-boemermann-financial-clerk-claim-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "affiliation_key": "wilbur-b-boemermann-financial-institution-clerk-batch232",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in January 1942, Wilbur B. Boemermann's civilian occupation was recorded as financial institution clerk, not elsewhere classified.",
+      "evidence_paraphrase": "The exact-identifier Army record carries civilian-occupation code 106, which the official code list defines as financial institution clerks, n.e.c.",
+      "identity_match_assessment": "Exact private identifier and exact uncommon name confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on January 15, 1942; no employer or immediate OSS relationship is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No bank or other financial institution is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact-identifier Army record; entry date and civilian-occupation code 106"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch232",
+          "locator_override": "Digital PDF pages 44-45; fixed-width field definitions"
+        },
+        {
+          "source_key": "nara-army-occupation-and-branch-code-list-batch232",
+          "locator_override": "Civilian-occupation code 106"
+        }
+      ]
+    },
+    {
+      "key": "wilbur-b-boemermann-national-guard-claim-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "affiliation_key": "wilbur-b-boemermann-new-york-national-guard-batch232",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Wilbur B. Boemermann served with Battery A, 245th Coast Artillery, New York National Guard, from 1935 to 1941.",
+      "evidence_paraphrase": "The official state roster gives the exact name, exact private identifier, historical unit, Brooklyn connection, and service dates.",
+      "identity_match_assessment": "Exact private identifier and exact uncommon name confirm the affiliation.",
+      "temporal_assessment": "Definitely pre-OSS, but not shown to be the immediate predecessor because a later federal Army entry intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The National Guard and federal Army are modeled separately. The roster does not establish an OSS transfer.",
+      "sources": [
+        {
+          "source_key": "new-york-state-military-museum-wilbur-boemermann-batch232",
+          "locator_override": "Wilbur B. Boemermann roster row"
+        }
+      ]
+    },
+    {
+      "key": "wilbur-b-boemermann-army-claim-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "affiliation_key": "wilbur-b-boemermann-united-states-army-batch232",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Wilbur B. Boemermann entered the Army as a private on January 15, 1942; the accessible record does not establish his OSS transfer date.",
+      "evidence_paraphrase": "The exact-identifier Army merged file records his entry date, private grade, and branch-not-assigned code.",
+      "identity_match_assessment": "Exact private identifier and exact uncommon name confirm the Army record.",
+      "temporal_assessment": "Army service is documented before the indexed OSS context, but its immediate relation to OSS remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The claim is limited to Army entry and does not infer an OSS assignment or employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact-identifier Army record; entry January 15, 1942"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch232",
+          "locator_override": "Digital PDF pages 44-45; fixed-width field definitions"
+        }
+      ]
+    },
+    {
+      "key": "herman-j-boemer-exact-army-identity-batch232",
+      "person_id": "90779fb7-19aa-5c69-8d23-ca8ff58c6d73",
+      "claim_type": "identity",
+      "claim_text": "The indexed Herman J. Boemer Jr. is confirmed as the Army private recorded under the same full name.",
+      "evidence_paraphrase": "The visually verified OSS index and official Army merged file share his exact full name, suffix, and private identifier.",
+      "identity_match_assessment": "Confirmed by an exact private-identifier linkage, exact full name, and suffix agreement; no merge rests on name alone.",
+      "temporal_assessment": "The Army record dates entry to January 6, 1943; later Army-to-OSS chronology remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is retained in the restricted database and withheld from public outputs. Box 64 remains necessary for chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-42-batch232",
+          "locator_override": "PDF page 42, row 5"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact private-identifier, name, and suffix record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "herman-j-boemer-bookkeeper-claim-batch232",
+      "person_id": "90779fb7-19aa-5c69-8d23-ca8ff58c6d73",
+      "affiliation_key": "herman-j-boemer-bookkeeper-cashier-batch232",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in January 1943, Herman J. Boemer Jr.'s civilian occupation was recorded as bookkeeper or cashier, except bank cashier.",
+      "evidence_paraphrase": "The exact-identifier Army record carries civilian-occupation code 101, defined by the official code list as bookkeepers and cashiers except bank cashiers.",
+      "identity_match_assessment": "Exact private identifier, exact name, and suffix confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on January 6, 1943; no employer or immediate OSS relationship is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No business, employer, or self-employment is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact-identifier Army record; entry date and civilian-occupation code 101"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch232",
+          "locator_override": "Digital PDF pages 44-45; fixed-width field definitions"
+        },
+        {
+          "source_key": "nara-army-occupation-and-branch-code-list-batch232",
+          "locator_override": "Civilian-occupation code 101"
+        }
+      ]
+    },
+    {
+      "key": "carlos-w-boettger-exact-army-identity-batch232",
+      "person_id": "9a1c90a5-1814-5512-ab42-215aee2c207d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carlos W. Boettger is confirmed as the Army private recorded under the same full name.",
+      "evidence_paraphrase": "The visually verified OSS index and official Army merged file share his exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier linkage and exact full-name agreement; no merge rests on name alone.",
+      "temporal_assessment": "The Army record dates entry to June 11, 1943; later Army-to-OSS chronology remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is retained in the restricted database and withheld from public outputs. Box 64 remains necessary for chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-42-batch232",
+          "locator_override": "PDF page 42, row 8"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact private-identifier and exact-name record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "carlos-w-boettger-petroleum-claim-batch232",
+      "person_id": "9a1c90a5-1814-5512-ab42-215aee2c207d",
+      "affiliation_key": "carlos-w-boettger-petroleum-refining-occupation-batch232",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in June 1943, Carlos W. Boettger's civilian occupation was recorded in a skilled petroleum-refining category.",
+      "evidence_paraphrase": "The exact-identifier Army record carries civilian-occupation code 455, which the official code list places among skilled petroleum-refining occupations.",
+      "identity_match_assessment": "Exact private identifier and exact full name confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on June 11, 1943; no employer or immediate OSS relationship is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No refinery, company, or precise job title is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact-identifier Army record; entry date and civilian-occupation code 455"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch232",
+          "locator_override": "Digital PDF pages 44-45; fixed-width field definitions"
+        },
+        {
+          "source_key": "nara-army-occupation-and-branch-code-list-batch232",
+          "locator_override": "Civilian-occupation code 455"
+        }
+      ]
+    },
+    {
+      "key": "gerard-c-bogart-exact-identity-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gerard C. Bogart is confirmed as Gerard Clayton Bogart, the Army private and OSS high-speed radio operator.",
+      "evidence_paraphrase": "The index and Army file share the exact private identifier and name; the obituary independently gives the same full middle name, exact Army-entry date, and OSS service.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact uncommon name, exact Army-entry date, and explicit OSS service across official and reputable sources.",
+      "temporal_assessment": "The Army record and obituary date entry to October 28, 1942 and place OSS service within the 1942-1945 Army period.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier remains restricted. The middle-name expansion is supported by the obituary, not silently inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-42-batch232",
+          "locator_override": "PDF page 42, row 12"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact private-identifier, exact-name, and exact-entry-date record; identifier withheld"
+        },
+        {
+          "source_key": "beall-funeral-gerard-bogart-obituary-batch232",
+          "locator_override": "Biographical notice, paragraphs 1-2"
+        }
+      ]
+    },
+    {
+      "key": "gerard-c-bogart-photographer-claim-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "affiliation_key": "gerard-c-bogart-photographer-occupation-batch232",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in October 1942, Gerard C. Bogart's civilian occupation was recorded as photographer.",
+      "evidence_paraphrase": "The exact-identifier Army record carries civilian-occupation code 056, which the official code list defines as photographers.",
+      "identity_match_assessment": "Exact private identifier, exact name, and corroborated entry date confirm that the occupation belongs to this indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on October 28, 1942; no employer is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. It is kept distinct from his later OSS radio-operator role.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact-identifier Army record; entry date and civilian-occupation code 056"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch232",
+          "locator_override": "Digital PDF pages 44-45; fixed-width field definitions"
+        },
+        {
+          "source_key": "nara-army-occupation-and-branch-code-list-batch232",
+          "locator_override": "Civilian-occupation code 056"
+        }
+      ]
+    },
+    {
+      "key": "gerard-c-bogart-student-claim-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "affiliation_key": "gerard-c-bogart-edison-technical-student-batch232",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Gerard C. Bogart graduated from Edison Technical High School in 1942 before entering the Army.",
+      "evidence_paraphrase": "The obituary dates high-school graduation to 1942 and Army entry to October 28 of that year.",
+      "identity_match_assessment": "The obituary's full middle name, exact Army-entry date, and OSS radio role link the student chronology to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded before Army and OSS service; no graduation day is supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is not employment and the school is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "beall-funeral-gerard-bogart-obituary-batch232",
+          "locator_override": "Biographical notice, first paragraph"
+        }
+      ]
+    },
+    {
+      "key": "gerard-c-bogart-army-signal-corps-claim-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "affiliation_key": "gerard-c-bogart-army-signal-corps-immediate-batch232",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Gerard C. Bogart's best-supported immediate pre-OSS pathway is Army Signal Corps service before his OSS high-speed radio assignment.",
+      "evidence_paraphrase": "The official Army record assigns Signal Corps at entry; the corroborating obituary places his OSS radio work within the same wartime Army service.",
+      "identity_match_assessment": "Exact private identifier, exact name, exact entry date, and explicit OSS service establish a confirmed identity.",
+      "temporal_assessment": "Probably immediate: the sources show Army-to-OSS continuity but do not give a separate OSS transfer day.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer. The precise unit and OSS transfer date require Box 65.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "locator_override": "Exact-identifier Army record; branch code 90"
+        },
+        {
+          "source_key": "nara-army-occupation-and-branch-code-list-batch232",
+          "locator_override": "Branch code 90: Signal Corps"
+        },
+        {
+          "source_key": "beall-funeral-gerard-bogart-obituary-batch232",
+          "locator_override": "Biographical notice, first two paragraphs"
+        }
+      ]
+    },
+    {
+      "key": "george-f-bogardus-high-confidence-identity-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "claim_type": "identity",
+      "claim_text": "The indexed George F. Bogardus is identified with high confidence as the Foreign Service officer who was redrafted into the Army and transferred to OSS in 1945.",
+      "evidence_paraphrase": "The institutional first-person oral history bears the exact uncommon name and explicitly describes redraft, Army training, OSS entry, and OSS work.",
+      "identity_match_assessment": "High confidence from an exact uncommon name and direct first-person OSS chronology; not marked confirmed because a same-name Army merged-file row has a different private identifier than the index.",
+      "temporal_assessment": "The oral history dates the Mombasa departure to January 1, 1945 and OSS entry to shortly before VE Day.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The incompatible private-identifier Army candidate was rejected and contributes no facts. Box 65 should resolve the identifier discrepancy directly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-42-batch232",
+          "locator_override": "PDF page 42, row 11"
+        },
+        {
+          "source_key": "adst-george-bogardus-oral-history-batch232",
+          "locator_override": "PDF pages 8-11; second draft, Army training, OSS entry and work"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch232",
+          "support_type": "context_only",
+          "locator_override": "Same-name candidate with incompatible private identifier; rejected for identity facts"
+        }
+      ]
+    },
+    {
+      "key": "george-f-bogardus-army-immediate-claim-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "affiliation_key": "george-f-bogardus-army-immediate-batch232",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "George F. Bogardus's immediate pre-OSS affiliation was the United States Army, where he completed infantry replacement training before receiving OSS orders.",
+      "evidence_paraphrase": "Bogardus states that he was drafted again, trained at Camp Croft for six weeks, then received the OSS assignment and reached Washington shortly before VE Day.",
+      "identity_match_assessment": "The exact uncommon name and detailed first-person chronology support a high-confidence match to the indexed person.",
+      "temporal_assessment": "Explicitly immediate: the oral history directly sequences Army training, OSS orders, and OSS induction.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army is correctly classified as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "adst-george-bogardus-oral-history-batch232",
+          "locator_override": "PDF pages 10-11; second draft, Camp Croft training, OSS orders and induction"
+        }
+      ]
+    },
+    {
+      "key": "george-f-bogardus-state-last-civilian-claim-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "affiliation_key": "george-f-bogardus-state-department-last-civilian-batch232",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "George F. Bogardus's last civilian government employer before the Army service that led to OSS was the United States Department of State.",
+      "evidence_paraphrase": "His oral history dates Foreign Service work from 1941, Mombasa service through January 1, 1945, and departure because he was drafted again.",
+      "identity_match_assessment": "The exact uncommon name and direct first-person State-to-Army-to-OSS chronology support a high-confidence identity match.",
+      "temporal_assessment": "Strongly and explicitly date-bounded as the final civilian government assignment before his second Army induction; Army training then intervened before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "State is the last civilian employer, not the immediate pre-OSS affiliation. This distinction prevents conflating the intervening Army assignment.",
+      "sources": [
+        {
+          "source_key": "adst-george-bogardus-oral-history-batch232",
+          "locator_override": "PDF pages 5-10; Foreign Service and Mombasa chronology followed by second draft"
+        }
+      ]
+    },
+    {
+      "key": "george-f-bogardus-agriculture-claim-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "affiliation_key": "george-f-bogardus-agriculture-junior-economist-batch232",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before the Foreign Service, George F. Bogardus worked as a junior economist in the Department of Agriculture's Food Stamp Plan.",
+      "evidence_paraphrase": "Bogardus says he obtained the Agriculture job after the 1939 Foreign Service examination, worked as a junior economist, and continued for another year.",
+      "identity_match_assessment": "The role appears in the same detailed first-person chronology that explicitly documents his later OSS entry.",
+      "temporal_assessment": "Documented prewar employment; State Department and Army service intervened before OSS, so it is neither immediate nor the last civilian role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The role is normalized to the historical federal department while retaining Food Stamp Plan as the source wording.",
+      "sources": [
+        {
+          "source_key": "adst-george-bogardus-oral-history-batch232",
+          "locator_override": "PDF pages 4-5; Food Stamp Plan junior-economist chronology"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2479d6cc-7b69-5682-98ea-08e2b65893ff",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is visually verified, but no private identifier or rank is printed. An older New York police officer with the same uncommon name is a discovery lead only: accessible sources do not link him to OSS, Box 64, or the indexed person.",
+      "name_variants": [
+        "Otto J Boelsen",
+        "Otto J. Boelsen",
+        "Boelsen, Otto J."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 to establish identity, chronology, occupation, and whether the New York police namesake is related to this index entry.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "90779fb7-19aa-5c69-8d23-ca8ff58c6d73",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact full name, Jr. suffix, and private identifier. The Army file dates entry to January 6, 1943 and records civilian occupation code 101; no employer or Army-to-OSS chronology was found.",
+      "name_variants": [
+        "Herman J Boemer Jr.",
+        "Herman J. Boemer Jr.",
+        "Herman J Boemer, Jr.",
+        "Boemer, Herman J., Jr."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for the employer associated with the bookkeeping/cashier occupation and for Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "identity_status": "confirmed",
+      "identity_evidence": "The index, Army merged file, and New York State military roster share the exact uncommon name and private identifier. The state roster documents Battery A, 245th Coast Artillery service in 1935-1941; the Army file dates entry to January 15, 1942 and records civilian occupation code 106.",
+      "name_variants": [
+        "Wilbur B Boemermann",
+        "Wilbur B. Boemermann",
+        "Boemermann, Wilbur B."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for the financial institution employer and the federal Army-to-OSS sequence after January 1942.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "57652ec2-959a-5f2c-a6a9-28b9cf2bb52b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index clearly prints Herman W. Boesch as Captain, but the private officer identifier has not been linked to an accessible external record. A 1941 Michigan civil-case namesake lacks military, OSS, occupation, and identifier corroboration and was rejected as insufficient.",
+      "name_variants": [
+        "Herman W Boesch",
+        "Herman W. Boesch",
+        "Boesch, Herman W."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 using the private officer identifier to establish the captain's branch, identity, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9a1c90a5-1814-5512-ab42-215aee2c207d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged file share the exact full name and private identifier. The Army file dates entry to June 11, 1943 and records civilian occupation code 455; no refinery, employer, or Army-to-OSS chronology was found.",
+      "name_variants": [
+        "Carlos W Boettger",
+        "Carlos W. Boettger",
+        "Boettger, Carlos W."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for the petroleum-refining employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "911db972-bb49-586e-a074-ada15f735362",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is visually verified, but it supplies no rank or private identifier and exact-name official, OSS, institutional, newspaper, directory, and obituary searches did not identify a corroborated person.",
+      "name_variants": [
+        "Elizabeth R Boettiger",
+        "Elizabeth R. Boettiger",
+        "Boettiger, Elizabeth R."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for identity, dates, occupation, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4077be02-816b-54e8-aa78-34049f6b0c64",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row and uncommon printed spelling Gwendolyne are visually verified, but no rank or private identifier is printed and searches of spelling variants did not produce a source linking a person to OSS or a pre-OSS affiliation.",
+      "name_variants": [
+        "Gwendolyne M Bogan",
+        "Gwendolyne M. Bogan",
+        "Gwendolyn M Bogan",
+        "Gwendoline M Bogan",
+        "Bogan, Gwendolyne M."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 64 for identity, spelling variants, occupation, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An institutional first-person oral history for the exact uncommon name George F. Bogardus explicitly documents Foreign Service work, a 1945 second draft, Army training, OSS induction, and OSS work. A same-name Army merged-file row has a private identifier incompatible with the index and was rejected, preventing confirmed status without Box 65.",
+      "name_variants": [
+        "George F Bogardus",
+        "George F. Bogardus",
+        "Bogardus, George F."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "The Army is the best-supported immediate pre-OSS affiliation; the State Department is the last civilian government employer; Agriculture is an earlier role. Review Box 65 to resolve the private-identifier discrepancy and confirm exact OSS dates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "identity_status": "confirmed",
+      "identity_evidence": "The index and official Army file share the exact name and private identifier. The obituary independently supplies the full middle name, the same exact Army-entry date, Edison Technical High School graduation, and explicit OSS high-speed radio service. The Army branch code identifies Signal Corps.",
+      "name_variants": [
+        "Gerard C Bogart",
+        "Gerard C. Bogart",
+        "Gerard Clayton Bogart",
+        "Bogart, Gerard C."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Army Signal Corps is the best-supported immediate pre-OSS pathway, Edison Technical High School is a student affiliation, and photographer is a pre-service occupation. No employer is named; review Box 65 for the employer and exact OSS transfer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cfaf554d-b48a-51d5-bd52-0fc7fd8ec2d1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is visually verified, but it prints no rank or private identifier. A 2013 Pittsburgh obituary for an Edward V. Bogda of plausible wartime age contains no military, OSS, occupation, or identifier evidence and cannot establish the indexed identity.",
+      "name_variants": [
+        "Edward V Bogda",
+        "Edward V. Bogda",
+        "Bogda, Edward V."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 65 to establish identity, dates, service, occupation, and whether the Pittsburgh namesake is related to this entry.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "otto-j-boelsen-protocol-batch232",
+      "person_id": "2479d6cc-7b69-5682-98ea-08e2b65893ff",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Otto J. Boelsen; visually verified NARA index; official Army merged-file name and identifier review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress API; police, employer, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The older New York police officer with the exact name appears in police and newspaper material, but no accessible source links that namesake to OSS, Box 64, or the index. No exact Army, CIA, or Library of Congress result resolved identity.",
+      "research_notes": "No corroborated identity or pre-OSS employer was found after the completed protocol. The rare-name police lead remains unassigned.",
+      "next_action": "Review Box 64 for identity, dates, and whether the police namesake is the indexed person.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "herman-j-boemer-protocol-batch232",
+      "person_id": "90779fb7-19aa-5c69-8d23-ca8ff58c6d73",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Herman J. Boemer Jr.; visually verified NARA index; exact private-identifier Army review; public NARA and RG 226 context; CIA Reading Room; exact-name and suffix OSS variants; current Library of Congress API; employer, bookkeeping, cashier, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesakes and directory leads lacked the exact identifier, OSS linkage, or dated employer evidence. The official Army occupation category does not name an employer.",
+      "research_notes": "Exact identifier and suffix confirm identity and a date-bounded occupation. No employer or Army-to-OSS sequence was established.",
+      "next_action": "Review Box 64 for the bookkeeping/cashier employer and Army-to-OSS chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "wilbur-b-boemermann-protocol-batch232",
+      "person_id": "c79dbf23-23a9-5a57-b668-59a6ab2af805",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Wilbur B. Boemermann; visually verified NARA index; exact private-identifier Army merged-file and New York National Guard review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress API; employer, financial institution, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Cemetery and genealogy leads added no employer or OSS chronology. The Army occupation code identifies only a financial-institution clerk category; no institution is named.",
+      "research_notes": "Exact official identifiers resolve the Army and National Guard identity. The pre-service occupation and military affiliations are documented, but the employer and immediate OSS predecessor remain unknown.",
+      "next_action": "Review Box 64 for the financial institution employer and federal Army-to-OSS sequence.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "herman-w-boesch-protocol-batch232",
+      "person_id": "57652ec2-959a-5f2c-a6a9-28b9cf2bb52b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Herman W. Boesch; Captain; visually verified NARA index; official Army merged-file name and identifier review; public NARA and RG 226 context; CIA Reading Room; exact-name and rank OSS variants; current Library of Congress API; employer, occupation, legal case, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A 1941 Michigan civil-case namesake lacks a military rank, officer identifier, OSS link, occupation, and employer. Other Boesch military records belong to different first names or identifiers.",
+      "research_notes": "The printed Captain classification is preserved, but no external source safely resolves identity or employment.",
+      "next_action": "Review Box 64 using the private officer identifier for branch, identity, and pre-OSS chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "carlos-w-boettger-protocol-batch232",
+      "person_id": "9a1c90a5-1814-5512-ab42-215aee2c207d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Carlos W. Boettger; visually verified NARA index; exact private-identifier Army review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress API; employer, petroleum refining, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesakes and military leads lacked the exact identifier or OSS linkage. The official occupation code supports petroleum-refining work but does not name a refinery or employer.",
+      "research_notes": "Exact identifier confirms identity and the date-bounded occupation. No employer or Army-to-OSS sequence was established.",
+      "next_action": "Review Box 64 for the petroleum-refining employer and Army-to-OSS chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "elizabeth-r-boettiger-protocol-batch232",
+      "person_id": "911db972-bb49-586e-a074-ada15f735362",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Elizabeth R. Boettiger; visually verified NARA index; official Army merged-file review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress API; employer, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Results for other Boettiger family members and genealogical records did not identify Elizabeth R. Boettiger or link a person to OSS, Box 64, employment, or an archival identifier.",
+      "research_notes": "No corroborated identity or pre-OSS affiliation was found after the completed protocol.",
+      "next_action": "Review Box 64 for identity, dates, occupation, and pre-OSS affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "gwendolyne-m-bogan-protocol-batch232",
+      "person_id": "4077be02-816b-54e8-aa78-34049f6b0c64",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gwendolyne M. Bogan; Gwendolyn; Gwendoline; visually verified NARA index; official Army merged-file review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS spelling variants; current Library of Congress API; employer, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Variant-spelling results did not supply a middle initial, OSS link, archival identifier, occupation, or employer sufficient to identify the indexed person.",
+      "research_notes": "The uncommon printed spelling is preserved; search aliases are not treated as corrections. No corroborated identity was found.",
+      "next_action": "Review Box 64 for identity, spelling variants, occupation, and pre-OSS affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "george-f-bogardus-protocol-batch232",
+      "person_id": "fe80a8ae-bf76-544c-841d-5ba2bd3ec839",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George F. Bogardus; visually verified NARA index; official Army merged-file identifier comparison; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress API; Association for Diplomatic Studies and Training oral history; State Department, Agriculture, employer, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A same-name Army merged-file row has a private identifier incompatible with the index and is rejected for identity, occupation, and chronology. Generic namesakes and search-result summaries added no stronger evidence.",
+      "research_notes": "The first-person institutional oral history establishes a high-confidence State-to-Army-to-OSS pathway and an earlier Agriculture role. Identity remains below confirmed because of the private-identifier discrepancy.",
+      "next_action": "Review Box 65 to resolve the identifier discrepancy and confirm exact OSS dates and assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "gerard-c-bogart-protocol-batch232",
+      "person_id": "939ee2f4-2ba1-5fae-af1a-7941e97c948b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gerard C. Bogart; Gerard Clayton Bogart; visually verified NARA index; exact private-identifier Army review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS and Signal Corps variants; current Library of Congress API; Edison Technical High School, photographer, radio operator, employer, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unrelated Gerard and Gerald Bogart results lacked the exact identifier, exact Army-entry date, or OSS link. No source named an employer for the photographer occupation.",
+      "research_notes": "Exact official linkage and a corroborating obituary confirm identity, student status, photographer occupation, and an Army Signal Corps-to-OSS radio pathway. No civilian employer is identified.",
+      "next_action": "Review Box 65 for the photographer employer, exact Signal Corps unit, and OSS transfer date.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    },
+    {
+      "key": "edward-v-bogda-protocol-batch232",
+      "person_id": "cfaf554d-b48a-51d5-bd52-0fc7fd8ec2d1",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Edward V. Bogda; visually verified NARA index; official Army merged-file review; public NARA and RG 226 context; CIA Reading Room; exact-name OSS variants; current Library of Congress API; employer, occupation, obituary, newspaper, directory, institutional, and archival searches",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-09T02:40:00+00:00",
+      "completed_at": "2026-08-09T03:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A 2013 Pittsburgh obituary concerns a man of plausible age but supplies no military, OSS, occupation, private-identifier, or Box 65 linkage. Other Bogda military records carry different names.",
+      "research_notes": "No corroborated identity or pre-OSS affiliation was found after the completed protocol. The Pittsburgh obituary remains an unassigned lead.",
+      "next_action": "Review Box 65 to establish identity, service, occupation, and whether the Pittsburgh namesake is the indexed person.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch232-v1"
+    }
+  ]
+}
