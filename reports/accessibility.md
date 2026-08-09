@@ -4,12 +4,23 @@ Run: 2026-08-09 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **753 / 753**
+**PASS.** The complete browser and accessibility matrix passed **756 / 756**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 238 adds a focused direct-route regression for George N. Boncescu
+through Paul A. Bonelli on PDF page 43. It checks all ten indexed names, Box
+67, public-safe identifier masking, identity and research states, and employer-
+gap language. It separately verifies three exact-identifier Army-entry
+occupations without converting them into employers; George N. Boncescu's
+qualified, documented-prewar Romanian Legation affiliation; Joan V.
+Bondurant's immediate University of Michigan student pathway without treating
+the university as an employer; and five unresolved archival-review profiles.
+The focused matrix passed 3 / 3, and the complete local matrix passed
+756 / 756.
 
 Batch 237 adds a focused direct-route regression for Guy C. Bolte through
 Joseph N. Bonavito on PDF page 43. It checks all ten indexed names, Box 66,

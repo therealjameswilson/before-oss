@@ -20835,3 +20835,84 @@ test("Batch 237 publishes identifier-backed occupations and a qualified Bonavito
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 238 publishes bounded Bond occupations and qualified Boncescu and Bondurant pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["12607127-51b6-5942-bcee-21ada15885e6", "George N Boncescu"],
+    ["251d269a-fdb0-59b1-9245-0ef4cf75adaa", "George H Bond"],
+    ["d06f6b84-195e-5623-b0f7-addd1247f20f", "John D Bond"],
+    ["7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3", "Lloyd R Bond"],
+    ["4a7394b3-0eaf-59f7-a0c5-93ca98852dff", "Robert M Bond"],
+    ["908fb891-3d7a-56c0-a2da-6c7496ce47c2", "Robert C Bonde"],
+    ["51dc87bf-fd0c-56ff-b750-ce4b27983214", "Joan V Bondurant"],
+    ["e6fd6aeb-7dcb-5e76-9f48-caf73ed364e6", "Charles Bondy"],
+    ["459d840f-16dc-5b7c-a4c0-0e7b9e87d270", "Walter R Bone"],
+    ["58133bdc-f85a-5f3e-8964-f426a61b6c07", "Paul A Bonelli"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 43");
+    await expect(page.locator(".index-record").first()).toContainText("67");
+  }
+
+  for (const [personId, occupation] of [
+    ["d06f6b84-195e-5623-b0f7-addd1247f20f", "General-office clerk"],
+    ["7e36f5e3-4fc0-52c7-85e8-ac1559d8d1e3", "Chemist, assayer, or metallurgist"],
+    ["459d840f-16dc-5b7c-a4c0-0e7b9e87d270", "Machine-shop and related occupation"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  for (const personId of [
+    "251d269a-fdb0-59b1-9245-0ef4cf75adaa",
+    "4a7394b3-0eaf-59f7-a0c5-93ca98852dff",
+    "908fb891-3d7a-56c0-a2da-6c7496ce47c2",
+    "e6fd6aeb-7dcb-5e76-9f48-caf73ed364e6",
+    "58133bdc-f85a-5f3e-8964-f426a61b6c07",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/12607127-51b6-5942-bcee-21ada15885e6/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Romanian Legation in Washington",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.locator("main")).toContainText("omits his middle initial");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/51dc87bf-fd0c-56ff-b750-ce4b27983214/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "University of Michigan",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Bachelor of Music student",
+  );
+  await expect(page.locator("main")).toContainText(
+    "completing music study and then Japanese-language training before recruitment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+});
