@@ -20509,3 +20509,59 @@ test("Batch 232 separates George Bogardus's Army pathway from his civilian gover
     );
   }
 });
+
+test("Batch 233 publishes three identifier-backed occupations without inventing employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["1368c957-dc0c-5339-ad96-66c92710350a", "Wesley S Bogdan", "unresolved", true],
+    ["eb8ba05c-2c02-5f2e-ab40-65db602fe73f", "Aleksander Bogdanowicz", "unresolved", false],
+    ["b639014c-8bae-5442-bfe7-0d922996f908", "Mike Bogdonoff", "confirmed", true],
+    ["af8a9b7f-df3c-5c06-b0fa-9f7ad541f6c3", "Bennett Boggess Jr.", "unresolved", false],
+    ["b19df6df-3f00-52b6-87fb-86d6bc69562e", "Gail E Boggs", "confirmed", true],
+    ["9a3df4e0-e41f-56bb-aa7a-74b879a73ee9", "M V Boggs", "unresolved", false],
+    ["dd6f415c-6e52-534c-9762-9845d146fe3e", "William C Boggs", "unresolved", true],
+    ["f7aab705-2c4c-597d-938c-04c21113f923", "John Bogo", "confirmed", true],
+    ["e7c501e4-8ec4-57a6-9028-b811b87903fb", "John H Boh", "unresolved", false],
+    ["5285f4cc-b849-56c7-87b5-f823f0df7917", "Jules Boh", "unresolved", false],
+  ] as const;
+
+  for (const [personId, displayName, identityStatus, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 42");
+    await expect(page.locator(".index-record").first()).toContainText("65");
+    await expect(page.getByText(identityStatus, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  for (const [personId, occupation] of [
+    ["b639014c-8bae-5442-bfe7-0d922996f908", "Chauffeur or driver"],
+    ["b19df6df-3f00-52b6-87fb-86d6bc69562e", "Unskilled occupation in manufacture of radios and phonographs"],
+    ["f7aab705-2c4c-597d-938c-04c21113f923", "Unskilled occupation in fabrication of metal products"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/b639014c-8bae-5442-bfe7-0d922996f908/");
+  await expect(page.locator("main")).toContainText("Yugoslavian Island Operations");
+  await expect(page.locator("main")).toContainText("operations 6 and 7");
+
+  await page.goto("./people/f7aab705-2c4c-597d-938c-04c21113f923/");
+  await expect(page.locator("main")).toContainText("operations 5, 6, and 7");
+  await expect(
+    page.locator('a[href="https://ossog.info/personnel.html"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/1368c957-dc0c-5339-ad96-66c92710350a/");
+  await expect(page.locator("main")).toContainText("different private identifier");
+  await expect(page.locator("main")).not.toContainText("Chauffeur or driver");
+});
