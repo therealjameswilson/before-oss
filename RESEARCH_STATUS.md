@@ -2636,6 +2636,12 @@ Commissioned classification: 2,183 yes; 5,181 no; 16,576 indeterminate.
   `ed9cfdf18b4f2dc1fe1cf32b29e7247b8ccd0604fa434bcc7a553dd43ebcb20d`.
   The 65-file public-data manifest covers 73,224,652 bytes and has SHA-256
   `742e4b49053430ccfa243d7874970cfcb1c581b316c0d851dd08eeafc07b9edc`.
+  Pull request 9 merged as release `22de560`; clean test workflow 31309345144
+  and Pages workflow 31310210279 completed successfully. Cache-busted
+  production checks opened the seven core routes and all ten Batch 238
+  profiles, verified their expected evidence and review boundaries, and
+  matched all 65 public data assets across 73,224,652 bytes. The live manifest
+  reproduced the local SHA-256 exactly.
 - Batch 237 covers the next ten contiguous page-forty-three rows, Guy C. Bolte
   through Joseph N. Bonavito, all indexed in Box 66. The source page and all
   ten rows were visually checked at original resolution, along with the

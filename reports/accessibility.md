@@ -20,7 +20,8 @@ qualified, documented-prewar Romanian Legation affiliation; Joan V.
 Bondurant's immediate University of Michigan student pathway without treating
 the university as an employer; and five unresolved archival-review profiles.
 The focused matrix passed 3 / 3, and the complete local matrix passed
-756 / 756.
+756 / 756. The same 756-case matrix passed on the clean release runner in
+[workflow 31309345144](https://github.com/therealjameswilson/before-oss/actions/runs/31309345144).
 
 Batch 237 adds a focused direct-route regression for Guy C. Bolte through
 Joseph N. Bonavito on PDF page 43. It checks all ten indexed names, Box 66,

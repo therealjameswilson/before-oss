@@ -42,6 +42,25 @@ Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `ed9cfdf18b4f2dc1fe1cf32b29e7247b8ccd0604fa434bcc7a553dd43ebcb20d`.
 
+## Batch 238 production deployment
+
+The clean pull-request test workflow
+[31309345144](https://github.com/therealjameswilson/before-oss/actions/runs/31309345144)
+and Pages workflow
+[31310210279](https://github.com/therealjameswilson/before-oss/actions/runs/31310210279)
+completed successfully for release `22de560`. CI repeated the 70-test Python
+suite, 756-case browser and accessibility matrix, complete 24,357-page
+internal-link check, source-PDF reconstruction check, and boundary-aware
+private-identifier audit.
+
+Cache-busted production checks opened seven core routes and all ten Batch 238
+profiles. Every route returned HTTP 200 and contained the expected indexed
+names, page and box references, evidence, and review boundaries. The live
+manifest matched the local release byte for byte, and all 65 listed assets
+matched their recorded sizes and SHA-256 values across 73,224,652 bytes. The
+manifest SHA-256 is
+`742e4b49053430ccfa243d7874970cfcb1c581b316c0d851dd08eeafc07b9edc`.
+
 ## Batch 237 local release check
 
 The complete 24,356-page internal-link pass includes direct routes for Guy C.
