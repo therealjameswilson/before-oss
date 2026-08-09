@@ -21,7 +21,9 @@ Parachute Infantry Regiment pathway; Cornel Bolog's distinct occupation and
 Farrell High School student affiliation; Harry K. Bollerman's withheld
 Dartmouth candidate; and V. R. Bolig's and Helen E. Bollie's unresolved
 archival-review profiles. The focused matrix passed 3 / 3, and the complete
-local matrix passed 750 / 750.
+local matrix passed 750 / 750. The same 750-case matrix passed on the clean
+release runner in
+[workflow 31303236697](https://github.com/therealjameswilson/before-oss/actions/runs/31303236697).
 
 Batch 235 adds a focused direct-route regression for Robert W. Boissiere
 through Francis J. Bolger on PDF page 42. It checks all ten indexed names,

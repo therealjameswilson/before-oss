@@ -44,6 +44,25 @@ Consecutive production-site builds produced identical trees; the complete-site
 digest is
 `cdb6fc88d06c8a5a0cbc3c73dd97ce54a0c144c74c768204ea34e6fbb71f5e36`.
 
+## Batch 236 production deployment
+
+The clean pull-request test workflow
+[31303236697](https://github.com/therealjameswilson/before-oss/actions/runs/31303236697)
+and Pages workflow
+[31303941401](https://github.com/therealjameswilson/before-oss/actions/runs/31303941401)
+completed successfully for release `e22526f`. CI repeated the 70-test Python
+suite, 750-case browser and accessibility matrix, complete 24,355-page
+internal-link check, source-PDF reconstruction check, and boundary-aware
+private-identifier audit.
+
+Cache-busted production checks opened seven core routes and all ten Batch 236
+profiles. Every route returned HTTP 200, contained the expected evidence and
+coverage boundaries, and matched the local release after plain and URL-encoded
+canonical-host normalization. The live manifest matched the local release byte
+for byte, and all 65 listed assets matched their recorded sizes and SHA-256
+values across 73,053,160 bytes. The manifest SHA-256 is
+`dcc429fcadd425544538b94cfebf2efefc93ff57c8a0179fd0486ec1615d0e5f`.
+
 ## Batch 235 local release check
 
 The complete 24,353-page internal-link pass includes direct routes for Robert

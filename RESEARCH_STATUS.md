@@ -2635,6 +2635,12 @@ Commissioned classification: 2,182 yes; 5,162 no; 16,596 indeterminate.
   `cdb6fc88d06c8a5a0cbc3c73dd97ce54a0c144c74c768204ea34e6fbb71f5e36`.
   The 65-file public-data manifest covers 73,053,160 bytes and has SHA-256
   `dcc429fcadd425544538b94cfebf2efefc93ff57c8a0179fd0486ec1615d0e5f`.
+  Pull request 7 merged as release `e22526f`; clean test workflow 31303236697
+  and Pages workflow 31303941401 completed successfully. Cache-busted
+  production checks opened the seven core routes and all ten Batch 236
+  profiles, matched their audited local HTML after canonical-host
+  normalization, and matched all 65 public data assets across 73,053,160
+  bytes. The live manifest reproduced the local SHA-256 exactly.
 - Batch 235 covers the next ten contiguous page-forty-two rows, Robert W.
   Boissiere through Francis J. Bolger, crossing from Box 65 to Box 66. The
   source page and all ten rows were visually checked at original resolution,
