@@ -20285,3 +20285,82 @@ test("Batch 229 confirms six Army identities while keeping occupations, student 
     "Microfilms and Microcards: Their Use in Research",
   );
 });
+
+test("Batch 230 publishes Bodde and Bodfish employers while preserving occupations and identity conflicts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["4df72201-86e8-52d5-b85e-3ab890e48872", "Carl T Bock", "high confidence", "63", true],
+    ["faf38353-50b4-5069-a594-a0e62aafef6e", "Lawrence P Bock", "ambiguous", "63", false],
+    ["9abad186-fe59-565f-a6ab-1a3923632413", "Otto Bock Jr.", "confirmed", "64", true],
+    ["0bdc0ccc-58b0-59ca-876e-a81baee78a36", "Bernard H Bockting", "confirmed", "64", true],
+    ["60602d68-cd06-52ae-86f7-af55176bb184", "Derk Bodde", "high confidence", "64", false],
+    ["534e34f5-32aa-58f9-b611-428553d07833", "Thelma I Boddis", "ambiguous", "64", false],
+    ["fc463ac2-3406-519c-a53c-7e116b56cc86", "Herbert Bodenheim", "ambiguous", "64", true],
+    ["b89874b2-79d1-50a9-8739-8b32c602691c", "Johannes Bodewes", "unresolved", "64", false],
+    ["35b8cbf1-031e-58b4-9ef1-43d305d29e87", "Morton Bodfish", "confirmed", "64", false],
+    ["07f3c72f-4c55-5b99-959f-77fc0da35949", "Alexander S Bodi", "conflicting", "64", true],
+  ] as const;
+
+  for (const [personId, displayName, identityStatus, box, hasMaskedIdentifier] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 41");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.getByText(identityStatus, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first().locator("dd").nth(2)).toHaveText(
+      hasMaskedIdentifier ? /^••••[A-Z0-9]{4}$/ : "Not printed",
+    );
+  }
+
+  await page.goto("./people/60602d68-cd06-52ae-86f7-af55176bb184/");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Penn",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Instructor in Chinese studies",
+  );
+  await expect(
+    page.locator('a[href="https://almanac.upenn.edu/archive/v50/n13/deaths.html"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/35b8cbf1-031e-58b4-9ef1-43d305d29e87/");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Northwestern University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "United States Savings and Loan League",
+  );
+  await expect(
+    page.locator('a[href="https://www.archives.gov/iwg/declassified-records/rg-226-oss/entry-211.html"]').first(),
+  ).toBeVisible();
+
+  await page.goto("./people/0bdc0ccc-58b0-59ca-876e-a81baee78a36/");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Farm hand on a general farm",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Army parachute-factory inspector",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  for (const [personId, occupation] of [
+    ["4df72201-86e8-52d5-b85e-3ab890e48872", "General office clerk"],
+    ["9abad186-fe59-565f-a6ab-1a3923632413", "Baker"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (?:reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+  }
+
+  await page.goto("./people/07f3c72f-4c55-5b99-959f-77fc0da35949/");
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("a different identifier");
+  await expect(page.locator("main")).not.toContainText("Office machine operator");
+});
