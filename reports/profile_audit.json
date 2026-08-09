@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T05:29:46+00:00",
+  "generated_at": "2026-08-09T06:43:12+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,12 +17,12 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 32,
+    "enlisted_army_personnel": 31,
     "enlisted_marine_corps_personnel": 1,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 17,
     "temporary_contract_or_special_personnel": 2,
-    "unknown_or_indeterminate": 87,
+    "unknown_or_indeterminate": 88,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -54,7 +54,7 @@
   "special_strata_counts": {
     "commissioned": 33,
     "civilian": 21,
-    "enlisted": 37,
+    "enlisted": 36,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
@@ -246,10 +246,10 @@
     "37f34560-1d15-517d-87c8-175e58229b8e",
     "2c077dd9-707c-5d7b-b640-67c7f5f2fa7c",
     "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
+    "fcdbd0f5-e857-5910-9ca0-a60683984563",
     "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
     "09c72687-d144-53d5-b0d8-d9dbfe6ecf3e",
     "493dead6-545d-5305-96ca-78a47f67b4dc",
-    "af235a72-6264-5795-81af-e65752d0b1b3",
     "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",

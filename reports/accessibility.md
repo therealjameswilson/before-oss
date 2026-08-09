@@ -4,12 +4,22 @@ Run: 2026-08-09 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **741 / 741**
-on the clean GitHub Actions runner at desktop, phone, and tablet widths. The
+**PASS.** The complete browser and accessibility matrix passed **747 / 747**
+locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 235 adds a focused direct-route regression for Robert W. Boissiere
+through Francis J. Bolger on PDF page 42. It checks all ten indexed names,
+Boxes 65-66, public-safe identifier masking, identity and research states,
+and employer-gap language. It separately verifies two confirmed Army-entry
+occupations, Elias W. Bolanis's qualified occupation candidate, George H.
+Boldt's commissioned status and separated Army and private-law-practice
+pathways, two visible identifier conflicts, Sam F. Bolado's uninterpreted code,
+and Paul C. Bolen's post-OSS date boundary. The focused matrix passed 3 / 3,
+and the complete local matrix passed 747 / 747.
 
 Batch 233 adds a focused direct-route regression for Wesley S. Bogdan through
 Jules Boh on PDF page 42. It checks all ten indexed names, the Polish Army
