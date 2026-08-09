@@ -20916,3 +20916,85 @@ test("Batch 238 publishes bounded Bond occupations and qualified Boncescu and Bo
     "No reliable pre-OSS employer has yet been identified",
   );
 });
+
+test("Batch 239 separates Army and Navy pathways, student status, and occupation-only evidence from employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["51c05e21-f8aa-5fd1-939f-b3098bde9ab9", "Vittorio Bonetti"],
+    ["4498f4e2-48ab-59ad-bcb9-dc95dc98e1f2", "Joseph M Bonfield"],
+    ["8f7f6b42-71a9-5361-8d6f-4a03dc63783b", "Joseph Bonfiglio"],
+    ["d159fa8d-7a48-59f6-92e2-26c6e16f9033", "Martha W Bonham"],
+    ["1f4f6015-8ff6-51f3-b59d-b1493da8f4af", "Joseph H Bonhardi"],
+    ["3e1a8559-485b-58e1-84fd-4bb847bfd706", "Vernon F Bonhotal"],
+    ["ebe87a20-261f-538f-a375-14fb92fb4b15", "Delphis L Bonin"],
+    ["cfc8693e-fb82-5814-8ad6-efde03ddb909", "Richard J Bonk"],
+    ["1bf07883-fe3d-5895-a1ce-bb414dbe4d11", "Walter Bonk"],
+    ["9948cf18-bdcf-5eb2-b2a4-e0a07f4c999f", "Leo J Bonneau"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 43");
+    await expect(page.locator(".index-record").first()).toContainText("67");
+  }
+
+  for (const [personId, occupation] of [
+    ["d159fa8d-7a48-59f6-92e2-26c6e16f9033", "stenographer or typist"],
+    ["1f4f6015-8ff6-51f3-b59d-b1493da8f4af", "filling-station or parking-lot attendant"],
+    [
+      "ebe87a20-261f-538f-a375-14fb92fb4b15",
+      "semiskilled textile-manufacturing worker, not elsewhere classified",
+    ],
+    ["cfc8693e-fb82-5814-8ad6-efde03ddb909", "student"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/8f7f6b42-71a9-5361-8d6f-4a03dc63783b/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "newspapers in Ashland and Mansfield, Ohio",
+  );
+
+  await page.goto("./people/3e1a8559-485b-58e1-84fd-4bb847bfd706/");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Nyack High School",
+  );
+  await expect(page.locator("main")).toContainText("encryption work");
+  await expect(page.locator("main")).toContainText("China");
+
+  await page.goto("./people/1bf07883-fe3d-5895-a1ce-bb414dbe4d11/");
+  await expect(page.locator("main")).toContainText("SP 1/c");
+  await expect(page.locator("main")).toContainText("enlisted naval personnel");
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+
+  for (const personId of [
+    "51c05e21-f8aa-5fd1-939f-b3098bde9ab9",
+    "4498f4e2-48ab-59ad-bcb9-dc95dc98e1f2",
+    "9948cf18-bdcf-5eb2-b2a4-e0a07f4c999f",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+});

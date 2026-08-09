@@ -4,12 +4,24 @@ Run: 2026-08-09 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **756 / 756**
+**PASS.** The complete browser and accessibility matrix passed **759 / 759**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 239 adds a focused direct-route regression for Vittorio Bonetti through
+Leo J. Bonneau on PDF page 43. It checks all ten indexed names, Box 67,
+public-safe identifier masking, identity and research states, and employer-gap
+language. It separately verifies Joseph Bonfiglio's qualified Army-to-OSS and
+earlier newspaper pathways; Martha W. Bonham's, Joseph H. Bonhardi's, and
+Delphis L. Bonin's occupation-only evidence; Vernon F. Bonhotal's distinct
+student and Army pathways; Richard J. Bonk's student status; Walter Bonk's
+enlisted naval classification; and four explicit archival-review profiles.
+The regression confirms that unnamed occupations and student institutions are
+not rendered or counted as employers. The focused matrix passed 3 / 3, and
+the complete local matrix passed 759 / 759.
 
 Batch 238 adds a focused direct-route regression for George N. Boncescu
 through Paul A. Bonelli on PDF page 43. It checks all ten indexed names, Box

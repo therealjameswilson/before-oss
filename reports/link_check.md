@@ -4,16 +4,44 @@ Run: 2026-08-09 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,357 HTML files. Every relative
+**PASS.** The production build contains 24,358 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 409 organization profiles, and the
+The build includes 23,940 person profiles, 410 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,153 unique external URLs for separate live
+The checker inventoried 49,157 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 239 local release check
+
+The complete 24,358-page internal-link pass includes direct routes for
+Vittorio Bonetti through Leo J. Bonneau on PDF page 43. The 70-test Python
+suite, deterministic 200-profile audit, and focused desktop, phone, and tablet
+regression passed; Astro reported zero errors or warnings, and the production
+dependency audit found zero vulnerabilities. The complete 759 / 759 browser
+and axe matrix passed locally.
+
+The regression checks all ten indexed rows in Box 67, public-safe identifier
+masking, identity and research states, and terminal employer-gap wording. It
+separately verifies a qualified commissioned Army pathway and earlier unnamed
+newspaper employment for Joseph Bonfiglio; three exact Army-entry occupation
+groups modeled as unknown relationships rather than employers; two student
+statuses; Vernon F. Bonhotal's distinct Nyack High School and Army OSS
+pathways; Walter Bonk's enlisted naval classification; and four explicit
+archival-review cases.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,428 public artifacts,
+reviewed 1,022 candidate substrings, and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+manifest SHA-256 is
+`05fcef84fa75855738a8d58156143597894483355e776ffb74421fbb3c206640`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`964710e161675452ba9045bc947b17d1b7edb4d524229d79569be807d77fccf1`.
 
 ## Batch 238 local release check
 
