@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,117 people with a non-planned attempt | 23,940 active person entities | 8.8429% |
-| Verified-affiliation coverage | 364 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5205% |
+| Research-attempt coverage | 2,127 people with a non-planned attempt | 23,940 active person entities | 8.8847% |
+| Verified-affiliation coverage | 367 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.5330% |
 | Verified-employer coverage | 178 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7435% |
-| Archival-review coverage | 2,066 people with an individual file-access/priority assessment | 23,940 active person entities | 8.6299% |
+| Archival-review coverage | 2,076 people with an individual file-access/priority assessment | 23,940 active person entities | 8.6717% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Possible duplicate groups: 214
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 295
+- Identity status `confirmed`: 298
 - Identity status `high_confidence`: 412
 - Identity status `probable`: 71
 - Identity status `ambiguous`: 40
 - Identity status `conflicting`: 23
-- Identity status `unresolved`: 23,099
+- Identity status `unresolved`: 23,096
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,441
-- Enlisted Army personnel: 3,551
+- Unknown or indeterminate: 16,438
+- Enlisted Army personnel: 3,554
 - Commissioned Army officers: 2,072
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,181 yes; 5,154 no; 16,605 indeterminate.
+Commissioned classification: 2,181 yes; 5,158 no; 16,601 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,823
+- `not_started`: 21,813
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 43
 - `needs_temporal_review`: 6
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 247
-- `requires_archival_review`: 1,448
+- `occupation_only_found`: 250
+- `requires_archival_review`: 1,455
 - `completed`: 74
 - `conflicting_sources`: 23
 - `verified_employer_found`: 176
@@ -67,15 +67,15 @@ Commissioned classification: 2,181 yes; 5,154 no; 16,605 indeterminate.
 - Live Library of Congress attempts: 453
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,893. The detailed adapter breakdown remains reproducible in
+  adapters: 1,907. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 827 across 799 people; 103 additional
+- Saved `source_reviewed` outcomes: 837 across 809 people; 103 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,349
+- Total recorded attempts/plans: 3,359
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 780; 757 have at least one public-visible
+- People with saved reviewed claims: 783; 760 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,29 @@ Commissioned classification: 2,181 yes; 5,154 no; 16,605 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 233 covers the next ten contiguous page-forty-two rows, Wesley S.
+  Bogdan through Jules Boh, all indexed in Box 65. The source page and all ten
+  rows were visually checked, including the Polish Army note for Sgt.
+  Aleksander Bogdanowicz and the blank rank or identifier cells that must
+  remain blank. Exact private-identifier matches in the official NARA Army
+  merged file confirm Mike Bogdonoff, Gail E. Boggs, and John Bogo. Their
+  Army-entry records support date-bounded civilian occupation categories as a
+  driver, an unskilled radio or phonograph manufacturing worker, and an
+  unskilled metal-products fabrication worker. The codes name no company,
+  factory, product, vehicle type, or last employer and are not presented as
+  immediate pre-OSS roles. Specialist Operational Groups rosters strongly
+  support Mike Bogdonoff as a staff sergeant in Yugoslavian Island Operations
+  6 and 7 and John Bogo as a technician fifth grade in operations 5, 6, and 7;
+  both assignments remain high rather than confirmed pending direct Box 65
+  review. An exact-name Army candidate for Wesley S. Bogdan has a different
+  private identifier and remains explicitly unmerged. Aleksander Bogdanowicz,
+  Bennett Boggess Jr., M. V. Boggs, William C. Boggs, John H. Boh, Jules Boh,
+  and Wesley S. Bogdan therefore remain unresolved and route to Box 65. The
+  batch adds eight published affiliations, eleven public claims (nine confirmed
+  and two high), six stable source records, and ten terminal manual research
+  attempts. No live NARA Catalog request, exposed credential, raw API response,
+  full private identifier, unsupported employer, or namesake occupation was
+  used or published.
 - Batch 232 covers the next ten contiguous page-forty-two rows, Otto J.
   Boelsen through Edward V. Bogda, indexed in Boxes 64 and 65. The source page
   and all ten rows were visually checked. Exact private-identifier linkage to
@@ -2901,15 +2924,15 @@ Commissioned classification: 2,181 yes; 5,154 no; 16,605 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 881 (published, qualified, or conflict-visible)
-- Database claims: 1,746; public-visible claims: 1,714 (430 confirmed, 888 high,
+- Public-visible affiliations: 900 (published, qualified, or conflict-visible)
+- Database claims: 1,773; public-visible claims: 1,741 (449 confirmed, 896 high,
   363 medium, 33 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 3,880 total and 3,811 public-visible; private source
-  records: 2,640; public source export: 1,632; unique source documents: 1,220
-- Canonical organizations: 412 private and 402 public
+- Claim-source links: 3,936 total and 3,867 public-visible; private source
+  records: 2,653; public source export: 1,645; unique source documents: 1,225
+- Canonical organizations: 415 private and 405 public
 - Conflicting claims: 33 across 24 people
-- NARA pull-list rows: 23,803
+- NARA pull-list rows: 23,802
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -2947,6 +2970,8 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-wesley-bogdan-through-jules-boh-pathways_batch-233_2026-08-09.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-otto-boelsen-through-edward-bogda-pathways_batch-232_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-forty-two-harold-bodine-through-ralph-boehner-pathways_batch-231_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-carl-bock-through-alexander-bodi-pathways_batch-230_2026-08-08.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-one-boardman-through-bochte-pathways_batch-229_2026-08-08.json
