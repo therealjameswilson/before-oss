@@ -24,6 +24,14 @@ Boonyasook's unexpanded `Free Th` note and qualified spelling lead. The focused
 matrix passed 3 / 3, and the complete local matrix passed 768 / 768 in 9.9
 minutes.
 
+The same complete matrix and public-redaction audit passed on final GitHub test
+workflow
+[31884324717](https://github.com/therealjameswilson/before-oss/actions/runs/31884324717).
+Pages workflow
+[31884324699](https://github.com/therealjameswilson/before-oss/actions/runs/31884324699)
+deployed release `13b8e7c`; cache-busted checks returned HTTP 200 for the home
+page and all ten Batch 242 profiles.
+
 Batch 240 adds a focused direct-route regression for Geopffrey H. Bonnell
 through Emile V. Bonnet across PDF pages 43-44. It checks all ten indexed
 names, Boxes 67-68, the preserved `Geopffrey` spelling, public-safe identifier

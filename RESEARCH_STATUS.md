@@ -2649,6 +2649,13 @@ Commissioned classification: 2,188 yes; 5,206 no; 16,546 indeterminate.
   `586397e849e654e1617ac59f713352284161cd65a550d96c55c83091107b5a21`.
   The 65-file public manifest covers 73,718,370 bytes and has SHA-256
   `ef37bff2478e0fc7ec83e253be5c4f10bf76aca46adf06d0e48fa0af4bf0111a`.
+  Release `13b8e7c` passed final GitHub test workflow 31884324717 and Pages
+  workflow 31884324699. The clean runner repeated the research-pipeline tests,
+  complete browser/accessibility matrix, and public-redaction audit
+  successfully. Cache-busted production checks returned HTTP 200 for the home
+  page and all ten Batch 242 profiles, confirmed the corrected Bookman
+  chronology, and matched all 65 live manifest assets to the local release
+  across 73,718,370 bytes with zero mismatches.
 - Batch 241 covers the next ten contiguous rows, George C. Bonnett through
   Eric G. Book, on PDF page forty-four in Box 68. The source page and all ten
   rows were checked visually at original resolution. Exact private-identifier

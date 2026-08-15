@@ -37,22 +37,31 @@ matches.
 
 The regression checks all ten indexed rows in Box 68, public-safe identifier
 handling, identity and research states, commissioned classification, and the
-exact terminal employer-gap wording. It separately verifies five official
-Army-entry matches without turning occupations or student status into named
-employers; the qualified John H. Bonsall, Louis C. Boochever, and Larry A.
-Booher military and student pathways; the nonmerge of the Glenn F. Bonnie and
-Glenn F. Boonie spelling variants; and three ambiguous or unresolved archival-
-review profiles.
+employer-gap wording. It separately verifies George H. Bookbinder's official
+travel-order identity; George B. Bookman's qualified identity and visibly
+anachronistic OWI chronology; three exact Army-entry student or occupation
+findings; Robert L. Boone's and Wilmot B. Boone's qualified military pathways;
+William J. Boone Sr.'s unresolved outcome; the nonmerge and nondouble-counting
+of the Glenn F. Bonnie and Glenn F. Boonie rows; and Sem Boonyasook's
+unexpanded `Free Th` note and qualified spelling lead.
 
-The boundary-aware identifier audit checked 12,926 normalized private
-identifiers and 121 formatted variants across 24,431 public artifacts,
-reviewed 1,018 candidate substrings, and found zero unexpected boundary
-matches, aggregate false positives, or manifest-size false positives. The
-65-file public-data manifest covers 73,589,005 bytes and has SHA-256
-`7528cebf53f52fc7433ac9c328ad1fe27c9ae1ed7e2c5a32e1852c3a3021fa30`.
-Consecutive production-site builds produced identical trees; the complete-site
-digest is
-`4f1d9c616c2e471271f71cc4d0979feff6f4de264029e41f83f01dae86f895a3`.
+## Batch 242 production verification
+
+Release `13b8e7c` passed final GitHub test workflow
+[31884324717](https://github.com/therealjameswilson/before-oss/actions/runs/31884324717)
+and Pages workflow
+[31884324699](https://github.com/therealjameswilson/before-oss/actions/runs/31884324699).
+The clean runner repeated the research-pipeline tests, complete site build and
+browser/accessibility matrix, private-identifier source reconstruction, and
+public-redaction audit successfully.
+
+Cache-busted production checks returned HTTP 200 for the home page and all ten
+Batch 242 profile routes, confirmed the 2,217-person attempted-research count
+and the corrected Bookman chronology, and matched all 65 manifest-listed live
+assets to their local sizes, SHA-256 values, and bytes. The verified assets
+total 73,718,370 bytes with zero mismatches; the live and local manifest
+SHA-256 is
+`ef37bff2478e0fc7ec83e253be5c4f10bf76aca46adf06d0e48fa0af4bf0111a`.
 
 ## Batch 240 local release check
 
