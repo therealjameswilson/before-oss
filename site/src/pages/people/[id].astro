@@ -161,6 +161,9 @@ const affiliationLabel = (item: Affiliation) =>
                   profile.research_status ===
                     "documented_prewar_employer_found" ||
                   profile.research_status === "occupation_only_found" ||
+                  profile.next_action?.includes(
+                    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+                  ) ||
                   profile.research_status ===
                     "no_reliable_result_after_protocol" ||
                   profile.research_status === "requires_archival_review" ||

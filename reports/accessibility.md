@@ -1,15 +1,28 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-09 UTC
+Run: 2026-08-14 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **759 / 759**
+**PASS.** The complete browser and accessibility matrix passed **762 / 762**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 240 adds a focused direct-route regression for Geopffrey H. Bonnell
+through Emile V. Bonnet across PDF pages 43-44. It checks all ten indexed
+names, Boxes 67-68, the preserved `Geopffrey` spelling, public-safe identifier
+handling, personnel classifications, research states, and employer-gap
+language. It separately verifies Geoffrey Harper Bonnell's documented variant,
+Wall Street occupation, earlier Florida-West Indies Airway role, and Air Force
+Ferry Command pathway without inventing an employer or immediate OSS transfer;
+Albert Bonner's and Emile V. Bonnet's exact-identifier occupation evidence;
+Douglas G. Bonner's qualified National Guard chronology; Robert A. Bonner's
+printed commissioned rank; and the two separate Henry S. Bonner source rows.
+The focused matrix passed 3 / 3, the corrected employer-gap regression passed
+6 / 6, and the complete local matrix passed 762 / 762.
 
 Batch 239 adds a focused direct-route regression for Vittorio Bonetti through
 Leo J. Bonneau on PDF page 43. It checks all ten indexed names, Box 67,

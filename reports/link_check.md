@@ -1,19 +1,49 @@
 # Link check
 
-Run: 2026-08-09 UTC
+Run: 2026-08-14 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,358 HTML files. Every relative
+**PASS.** The production build contains 24,361 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 410 organization profiles, and the
+The build includes 23,940 person profiles, 413 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,157 unique external URLs for separate live
+The checker inventoried 49,163 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 240 local release check
+
+The complete 24,361-page internal-link pass includes direct routes for
+Geopffrey H. Bonnell through Emile V. Bonnet across PDF pages 43-44. The
+70-test Python suite, deterministic 200-profile audit, focused desktop, phone,
+and tablet regression, and the corrected six-case employer-gap regression all
+passed; Astro reported zero errors, warnings, or hints, and the production
+dependency audit found zero vulnerabilities. The complete 762 / 762 browser
+and axe matrix passed locally.
+
+The regression checks all ten indexed rows in Boxes 67-68, the preserved
+`Geopffrey` spelling, public-safe identifier handling, identity and research
+states, commissioned classification, and terminal employer-gap wording. It
+separately verifies two exact Army-entry occupation findings without turning
+them into employers; Geoffrey Harper Bonnell's qualified military, aviation,
+and Wall Street pathways without naming an unsupported employer; Douglas G.
+Bonner's medium-confidence National Guard chronology; six explicit archival-
+review profiles; and the nonmerge of two separately printed Henry S. Bonner
+rows.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,431 public artifacts,
+reviewed 1,020 candidate substrings, and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+manifest SHA-256 is
+`b66be596363763f191ccce60fdd9cca960d24e7409762c4625049f9a1d5d76ca`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`233ddd801d948844e044ce3885f3aa7b140733788caa33f7e4abd67e8882f7c5`.
 
 ## Batch 239 local release check
 
