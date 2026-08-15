@@ -4,25 +4,25 @@ Run: 2026-08-15 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **765 / 765**
+**PASS.** The complete browser and accessibility matrix passed **768 / 768**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
-Batch 241 adds a focused direct-route regression for George C. Bonnett through
-Eric G. Book on PDF page 44. It checks all ten indexed names, Box 68,
+Batch 242 adds a focused direct-route regression for George H. Bookbinder
+through Sem Boonyasook on PDF page 44. It checks all ten indexed names, Box 68,
 public-safe identifier handling, personnel classifications, research states,
-and the exact terminal employer-gap language. It separately verifies five
-exact private-identifier Army matches and their bounded occupation or student
-evidence without inventing employers; John H. Bonsall's commissioned Army and
-Princeton-student pathways; Louis C. Boochever's Signal Corps, Cornell, and
-Harvard pathways; Larry A. Booher's qualified identity, commissioned status,
-Army transfer, and Ohio State student affiliation; the possible Glenn F.
-Bonnie/Glenn F. Boonie spelling-variant duplicate without merging the rows;
-and three explicit ambiguous or unresolved archival-review outcomes. The
-focused matrix passed 3 / 3, and the complete local matrix passed 765 / 765.
+and employer-gap language. It separately verifies Bookbinder's official
+travel-order identity; Bookman's visibly qualified identity and anachronistic
+OWI chronology; Howard, Ralph, and Wiley Boone's bounded student or occupation
+evidence; Robert and Wilmot Boone's qualified military pathways; William J.
+Boone Sr.'s explicit unresolved outcome; the separately preserved Glenn F.
+Boonie/Glenn F. Bonnie rows without analytic double counting; and Sem
+Boonyasook's unexpanded `Free Th` note and qualified spelling lead. The focused
+matrix passed 3 / 3, and the complete local matrix passed 768 / 768 in 9.9
+minutes.
 
 Batch 240 adds a focused direct-route regression for Geopffrey H. Bonnell
 through Emile V. Bonnet across PDF pages 43-44. It checks all ten indexed

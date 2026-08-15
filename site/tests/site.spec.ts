@@ -21207,3 +21207,108 @@ test("Batch 241 preserves ambiguity and separates Army pathways, students, and o
   await expect(page.locator("main")).toContainText("World War II Army officer Stephen Bonsal, Jr.");
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
 });
+
+test("Batch 242 preserves qualified identities, occupations, military assignments, and the Boonie duplicate boundary", async ({
+  page,
+}) => {
+  const profiles = [
+    ["487468ef-5e7b-5249-bc61-6a912a942bf5", "George H Bookbinder"],
+    ["b00f8d8e-f039-58a9-b644-28e778acb5cc", "George B Bookman"],
+    ["b0eeb78f-d2cc-55f2-908e-fd66fb149a84", "Howard B Boone"],
+    ["442df519-0c6c-5cf8-b59d-81884d46e7f6", "Ralph O Boone"],
+    ["3ec8c51f-1717-5114-a93f-1bef45acc679", "Robert L Boone"],
+    ["dcc387bc-b639-5746-8a27-1df470777573", "Wiley S Boone"],
+    ["719b0543-b2df-5702-99c6-68316be383ce", "William J Boone Sr."],
+    ["23acc039-b550-5d33-a11b-924684999849", "Wilmot B Boone"],
+    ["7577021b-c28f-5bc2-901b-823b170b2837", "Glenn F Boonie"],
+    ["e2fbbca9-b368-5f67-803a-b89cd2747111", "Sem Boonyasook"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 44");
+    await expect(page.locator(".index-record").first()).toContainText("68");
+  }
+
+  await page.goto("./people/487468ef-5e7b-5249-bc61-6a912a942bf5/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("1st Lt. George H. Bookbinder, Inf.");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/b00f8d8e-f039-58a9-b644-28e778acb5cc/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("unknown or indeterminate");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "The Washington Post",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Office of War Information",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Haverford College",
+  );
+  await expect(page.locator("main")).toContainText("medium");
+
+  for (const [personId, finding] of [
+    ["b0eeb78f-d2cc-55f2-908e-fd66fb149a84", "student"],
+    ["442df519-0c6c-5cf8-b59d-81884d46e7f6", "Semiskilled foundry occupation"],
+    ["dcc387bc-b639-5746-8a27-1df470777573", "student"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      finding,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/3ec8c51f-1717-5114-a93f-1bef45acc679/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Air Forces, 492nd Bombardment Group",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of California, Berkeley",
+  );
+  await expect(page.locator("main")).toContainText("temporal relation uncertain");
+
+  await page.goto("./people/719b0543-b2df-5702-99c6-68316be383ce/");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("no reliable result after protocol", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Ten exact-name official Army merged-file rows");
+  await expect(page.locator("main")).toContainText("Archival-review prioritycritical");
+
+  await page.goto("./people/23acc039-b550-5d33-a11b-924684999849/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Air Forces, Fourteenth Air Force",
+  );
+
+  await page.goto("./people/7577021b-c28f-5bc2-901b-823b170b2837/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Glenn F. Bonnie");
+  await expect(page.locator("main")).toContainText("do not double-count the Army occupation claim");
+  await expect(page.locator("main")).toContainText(
+    "No publishable pre-OSS affiliation is recorded yet",
+  );
+
+  await page.goto("./people/e2fbbca9-b368-5f67-803a-b89cd2747111/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Soem Boonyasuk");
+  await expect(page.locator("main")).toContainText("Free Th");
+  await expect(page.locator("main")).toContainText("printed note preserved exactly");
+});
