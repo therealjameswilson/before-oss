@@ -15799,7 +15799,7 @@ test("Batch 178 preserves Box 47 boundaries, conflicting identifiers, and qualif
   await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("documented conversion gap");
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
-    "No reviewed claim currently meets the publication threshold",
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
   );
 
   await page.goto("./people/e51a536f-de2d-544c-98de-e1ddcf96bae2/");
@@ -19369,7 +19369,7 @@ test("Batch 220 publishes page 39 Blake-Blanas pathways with claim boundaries", 
     "Miss Emily Blanas if she comes would have to work in another office",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
-    "No reviewed claim currently meets the publication threshold",
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
   );
 
   await page.goto("./people/c9d8232c-b69d-5ff6-b554-4d0a4139217d/");
@@ -19397,9 +19397,7 @@ test("Batch 220 publishes page 39 Blake-Blanas pathways with claim boundaries", 
     await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
     await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
     await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
-      status === "requires archival review"
-        ? "No reliable pre-OSS employer has yet been identified"
-        : "No reviewed claim currently meets the publication threshold",
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
     );
   }
 
@@ -20997,4 +20995,99 @@ test("Batch 239 separates Army and Navy pathways, student status, and occupation
       "No reliable pre-OSS employer has yet been identified",
     );
   }
+});
+
+test("Batch 240 preserves duplicate rows and separates occupations, military pathways, and employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["a6c2db1a-f89d-5b02-bc1a-28d478c1b5cc", "Geopffrey H Bonnell", "43", "67"],
+    ["67023822-cd73-5f2e-8943-e2e9d977e203", "Albert Bonner", "43", "67"],
+    ["e9071f5c-7b89-5b19-8ba4-4f006c24fc2e", "Charles W Bonner", "43", "67"],
+    ["4e50cf87-dd29-54b3-a86c-e813a2e26cea", "Douglas G Bonner", "43", "67"],
+    ["fa197a07-db7a-5a98-981b-f956c53a8f28", "Francis W Bonner", "43", "68"],
+    ["cbe19c19-6a10-511f-aa88-e16088a2eb26", "Henry S Bonner", "43", "68"],
+    ["363f399b-87c0-5352-b634-85d06fd8e8d1", "Henry S Bonner", "43", "68"],
+    ["3cc073cd-b4f3-5770-9015-66efddc6ef49", "Robert A Bonner", "43", "68"],
+    ["c2110fba-b86f-5d7f-ad59-e4cd80eee95c", "Robert N Bonner", "43", "68"],
+    ["df6fc9be-1074-568c-b4e4-d1839917086e", "Emile V Bonnet", "44", "68"],
+  ] as const;
+
+  for (const [personId, displayName, pageNumber, box] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(`Page ${pageNumber}`);
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/a6c2db1a-f89d-5b02-bc1a-28d478c1b5cc/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Florida-West Indies Airway",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Wall Street",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Air Force Ferry Command",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const [personId, occupation] of [
+    ["67023822-cd73-5f2e-8943-e2e9d977e203", "farm hand on a general farm"],
+    [
+      "df6fc9be-1074-568c-b4e4-d1839917086e",
+      "sports instructor, athlete, or sports official",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+  }
+
+  await page.goto("./people/4e50cf87-dd29-54b3-a86c-e813a2e26cea/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "National Guard of the United States",
+  );
+  await expect(page.locator("main")).toContainText("medium");
+  await expect(page.locator("main")).toContainText("documented prewar");
+
+  for (const personId of [
+    "e9071f5c-7b89-5b19-8ba4-4f006c24fc2e",
+    "fa197a07-db7a-5a98-981b-f956c53a8f28",
+    "cbe19c19-6a10-511f-aa88-e16088a2eb26",
+    "363f399b-87c0-5352-b634-85d06fd8e8d1",
+    "3cc073cd-b4f3-5770-9015-66efddc6ef49",
+    "c2110fba-b86f-5d7f-ad59-e4cd80eee95c",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  for (const personId of [
+    "cbe19c19-6a10-511f-aa88-e16088a2eb26",
+    "363f399b-87c0-5352-b634-85d06fd8e8d1",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.locator("main")).toContainText("two visually verified, separately printed");
+    await expect(page.locator("main")).toContainText("do not merge them on name alone");
+  }
+
+  await page.goto("./people/3cc073cd-b4f3-5770-9015-66efddc6ef49/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator(".index-record").first()).toContainText("1st Lt");
 });

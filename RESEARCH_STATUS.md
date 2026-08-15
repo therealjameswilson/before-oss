@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-09 UTC.
+Generated from the current local SQLite database on 2026-08-14 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,187 people with a non-planned attempt | 23,940 active person entities | 9.1353% |
-| Verified-affiliation coverage | 390 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6291% |
+| Research-attempt coverage | 2,197 people with a non-planned attempt | 23,940 active person entities | 9.1771% |
+| Verified-affiliation coverage | 393 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6416% |
 | Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
-| Archival-review coverage | 2,136 people with an individual file-access/priority assessment | 23,940 active person entities | 8.9223% |
+| Archival-review coverage | 2,146 people with an individual file-access/priority assessment | 23,940 active person entities | 8.9641% |
 
 ## Extraction and identity
 
@@ -20,21 +20,21 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 214
+- Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 319
-- Identity status `high_confidence`: 418
-- Identity status `probable`: 73
+- Identity status `confirmed`: 321
+- Identity status `high_confidence`: 419
+- Identity status `probable`: 74
 - Identity status `ambiguous`: 41
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,064
+- Identity status `unresolved`: 23,060
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,414
-- Enlisted Army personnel: 3,575
-- Commissioned Army officers: 2,074
+- Unknown or indeterminate: 16,411
+- Enlisted Army personnel: 3,577
+- Commissioned Army officers: 2,075
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -45,37 +45,37 @@ Generated from the current local SQLite database on 2026-08-09 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,184 yes; 5,189 no; 16,567 indeterminate.
+Commissioned classification: 2,185 yes; 5,197 no; 16,558 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,753
+- `not_started`: 21,743
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 45
+- `needs_identity_review`: 46
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 272
-- `requires_archival_review`: 1,485
+- `occupation_only_found`: 275
+- `requires_archival_review`: 1,491
 - `completed`: 76
 - `conflicting_sources`: 25
 - `verified_employer_found`: 177
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
-- Live CIA exact-name OSS attempts: 245
-- Live Library of Congress attempts: 484
+- Live CIA exact-name OSS attempts: 205
+- Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,967. The detailed adapter breakdown remains reproducible in
+  adapters: 1,977. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 879 across 851 people; 108 additional
+- Saved `source_reviewed` outcomes: 889 across 861 people; 105 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,480
+- Total recorded attempts/plans: 3,392
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 815; 792 have at least one public-visible
+- People with saved reviewed claims: 819; 796 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,46 @@ Commissioned classification: 2,184 yes; 5,189 no; 16,567 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 240 covers the next ten contiguous rows, Geopffrey H. Bonnell through
+  Emile V. Bonnet, across PDF pages forty-three and forty-four in Box 67 and
+  Box 68. Both source pages and all ten rows were checked visually at original
+  resolution. The source spelling `Geopffrey` is retained while official and
+  institutional evidence supports the documented Geoffrey Harper Bonnell
+  variant. An official 1942 Army Air Forces publication records his twenty
+  years on Wall Street and 1941 return to the Air Forces; because it does not
+  name a Wall Street employer or document the OSS transfer, the public profile
+  presents occupation and military-pathway evidence without inventing an
+  immediate predecessor or civilian employer. A Smithsonian finding aid
+  separately supports his earlier Florida-West Indies Airway role.
+  Exact private-identifier matches in the official Army merged file confirm
+  Albert Bonner and Emile V. Bonnet. Their dated Army-entry records support,
+  respectively, farm hand on a general farm and the grouped sports-instructor,
+  athlete, or sports-official occupation; neither record names an employer.
+  Douglas G. Bonner remains only a probable Douglas Gray Bonner identity. His
+  Louisiana National Guard-to-active-duty chronology is published as qualified
+  documented-prewar military evidence, not as an immediate OSS pathway.
+  Charles W. Bonner, Francis W. Bonner, Robert A. Bonner, and Robert N. Bonner
+  remain unresolved. Robert A.'s printed `1st Lt` is sufficient only for the
+  commissioned-Army classification. The two identical Henry S. Bonner rows are
+  preserved as separate entities in one possible-duplicate group and are never
+  silently merged.
+  The batch adds six affiliations, ten claims, twenty-two claim-source links,
+  eight stable source records, three organizations, and ten completed research
+  attempts. Coverage is now 2,197 researched people, 393 people with a verified
+  affiliation, 179 with a verified employer, and 2,146 assessed for archival
+  review, out of 23,940 active entities. The unchanged verified-employer count
+  is intentional. No authenticated Catalog request, credential, raw API
+  response, full private identifier, unsupported employer, or convenient
+  namesake match was used or published.
+  Local release QA passed 70 Python tests, all 762 browser and accessibility
+  cases across three viewports, the 24,361-page internal-link check, the
+  deterministic 200-profile audit, and the complete public-identifier audit
+  with zero unexpected matches. Astro reported zero errors, warnings, or
+  hints, and the dependency audit found zero vulnerabilities. Consecutive
+  production builds produced the identical tree digest
+  `233ddd801d948844e044ce3885f3aa7b140733788caa33f7e4abd67e8882f7c5`.
+  The 65-file public-data manifest covers 73,425,064 bytes and has SHA-256
+  `b66be596363763f191ccce60fdd9cca960d24e7409762c4625049f9a1d5d76ca`.
 - Batch 239 covers the next ten contiguous page-forty-three rows, Vittorio
   Bonetti through Leo J. Bonneau, all indexed in Box 67. The source page and
   all ten rows were visually checked at original resolution, along with the
@@ -3187,13 +3227,13 @@ Commissioned classification: 2,184 yes; 5,189 no; 16,567 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 923 (published, qualified, or conflict-visible)
-- Database claims: 1,821; public-visible claims: 1,789 (479 confirmed, 904 high,
-  371 medium, 35 conflicting); 26 low-confidence claims are withheld and six
+- Public-visible affiliations: 938 (published, qualified, or conflict-visible)
+- Database claims: 1,847; public-visible claims: 1,815 (494 confirmed, 912 high,
+  374 medium, 35 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,056 total and 3,987 public-visible; private source
-  records: 2,687; public source export: 1,675; unique source documents: 1,242
-- Canonical organizations: 419 private and 409 public
+- Claim-source links: 4,111 total and 4,042 public-visible; private source
+  records: 2,704; public source export: 1,692; unique source documents: 1,252
+- Canonical organizations: 423 private and 413 public
 - Conflicting claims: 35 across 26 people
 - NARA pull-list rows: 23,801
 
