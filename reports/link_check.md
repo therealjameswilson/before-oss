@@ -4,25 +4,36 @@ Run: 2026-08-15 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,361 HTML files. Every relative
+**PASS.** The production build contains 24,364 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 413 organization profiles, and the
+The build includes 23,940 person profiles, 416 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,170 unique external URLs for separate live
+The checker inventoried 49,177 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-## Batch 241 local release check
+## Batch 242 local release check
 
-The complete 24,361-page internal-link pass includes direct routes for George
-C. Bonnett through Eric G. Book on PDF page 44. The 70-test Python suite,
-deterministic 200-profile audit, focused desktop, phone, and tablet regression,
-and complete public-identifier audit passed; Astro reported zero errors,
-warnings, or hints, and the production dependency audit found zero
-vulnerabilities. The complete 765 / 765 browser and axe matrix passed locally.
+The complete 24,364-page internal-link pass includes direct routes for George
+H. Bookbinder through Sem Boonyasook on PDF page 44. The 70-test Python suite
+and three parameterized subtests, deterministic 200-profile audit, focused
+desktop, phone, and tablet regression, and complete public-identifier audit
+passed; Astro reported zero errors, warnings, or hints, and the production
+dependency audit found zero vulnerabilities. The complete 768 / 768 browser
+and axe matrix passed locally in 9.9 minutes.
+
+All 65 manifest assets match their recorded sizes and hashes in the public
+source and built trees. The manifest covers 73,718,370 bytes and has SHA-256
+`ef37bff2478e0fc7ec83e253be5c4f10bf76aca46adf06d0e48fa0af4bf0111a`.
+Two clean builds produced the same site-tree SHA-256,
+`586397e849e654e1617ac59f713352284161cd65a550d96c55c83091107b5a21`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+121 formatted variants across 24,434 artifacts, rejected 1,022 substring
+coincidences, and found zero aggregate, manifest-size, or unexpected boundary
+matches.
 
 The regression checks all ten indexed rows in Box 68, public-safe identifier
 handling, identity and research states, commissioned classification, and the

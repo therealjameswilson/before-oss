@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-15 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,207 people with a non-planned attempt | 23,940 active person entities | 9.2189% |
-| Verified-affiliation coverage | 400 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6708% |
+| Research-attempt coverage | 2,217 people with a non-planned attempt | 23,940 active person entities | 9.2607% |
+| Verified-affiliation coverage | 405 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6917% |
 | Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
-| Archival-review coverage | 2,156 people with an individual file-access/priority assessment | 23,940 active person entities | 9.0058% |
+| Archival-review coverage | 2,166 people with an individual file-access/priority assessment | 23,940 active person entities | 9.0476% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-15 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 327
-- Identity status `high_confidence`: 420
-- Identity status `probable`: 74
+- Identity status `confirmed`: 332
+- Identity status `high_confidence`: 422
+- Identity status `probable`: 76
 - Identity status `ambiguous`: 42
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,052
+- Identity status `unresolved`: 23,043
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,405
-- Enlisted Army personnel: 3,582
-- Commissioned Army officers: 2,076
+- Unknown or indeterminate: 16,399
+- Enlisted Army personnel: 3,586
+- Commissioned Army officers: 2,078
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -45,17 +45,18 @@ Generated from the current local SQLite database on 2026-08-15 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,186 yes; 5,202 no; 16,552 indeterminate.
+Commissioned classification: 2,188 yes; 5,206 no; 16,546 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,733
+- `not_started`: 21,723
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 46
+- `needs_identity_review`: 49
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 282
+- `no_reliable_result_after_protocol`: 1
+- `occupation_only_found`: 288
 - `requires_archival_review`: 1,494
 - `completed`: 76
 - `conflicting_sources`: 25
@@ -67,15 +68,15 @@ Commissioned classification: 2,186 yes; 5,202 no; 16,552 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,987. The detailed adapter breakdown remains reproducible in
+  adapters: 1,997. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 896 across 868 people; 105 additional
+- Saved `source_reviewed` outcomes: 902 across 874 people; 108 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,402
+- Total recorded attempts/plans: 3,412
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 827; 804 have at least one public-visible
+- People with saved reviewed claims: 836; 813 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2595,60 @@ Commissioned classification: 2,186 yes; 5,202 no; 16,552 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 242 covers the next ten contiguous rows, George H. Bookbinder through
+  Sem Boonyasook, on PDF page forty-four in Box 68. The source page and all ten
+  rows were checked visually at original resolution. An official wartime
+  travel order in the CIA Reading Room shares George H. Bookbinder's exact
+  private identifier, name, first-lieutenant grade, and infantry branch,
+  confirming the commissioned Army identity without using a different
+  same-name Army-enlistment row. Exact private-identifier matches in the
+  official Army merged file confirm Howard B. Boone, Ralph O. Boone, and Wiley
+  S. Boone. The dated records support student status for Howard and Wiley and a
+  semiskilled foundry occupation group for Ralph; no record names a school,
+  foundry, job title, or employer.
+  The indexed Lieutenant Colonel Robert L. Boone is a high-confidence match to
+  the Army Air Forces squadron commander documented in OSS-affiliated 492nd
+  Bomb Group operations. His 1939 University of California, Berkeley economics
+  degree remains a student affiliation, and the military assignment is not
+  mislabeled as an immediate OSS transfer. Exact private-identifier agreement
+  with a Hall of Valor record citing Fourteenth Air Force General Orders
+  supports a high-confidence Wilmot B. Boone identity and first-lieutenant Air
+  Corps assignment; the source does not establish its OSS sequence.
+  The rare-name journalist George B. Bookman remains a probable identity. The
+  National Press Club and Haverford sources support qualified Washington Post,
+  Office of War Information, and Haverford student affiliations, but none
+  directly links that man to Box 68. The National Press Club retrospectively
+  dates the OWI work to 1941, before that agency's June 1942 creation, so the
+  imported OWI start date is deliberately unset and any predecessor office
+  remains unresolved. The Washington Post finding is therefore medium
+  confidence and does not enter verified-employer analytics. William J.
+  Boone, Sr. remains unresolved after ten exact-name Army candidates and the
+  full protocol failed to supply the required corroborating identifiers.
+  The separately printed Glenn F. Boonie row shares its private identifier with
+  Glenn F. Bonnie. Both source rows and people remain visible, and no second
+  occupation affiliation is attached to Boonie, preventing analytic double
+  counting. Sem Boonyasook remains a probable spelling or transliteration
+  variant of the scholarly index entry Soem Boonyasuk; the printed note `Free
+  Th` is preserved without expansion, and no role, employer, military status,
+  or formal affiliation is inferred before page 358 and Box 68 are reviewed.
+  The batch adds nine affiliations, eighteen claims, thirty-one claim-source
+  links, ten stable source records, and ten completed research attempts.
+  Coverage is now 2,217 researched people, 405 people with a verified
+  affiliation, 179 with a verified employer, and 2,166 assessed for archival
+  review, out of 23,940 active entities. The unchanged verified-employer count
+  is intentional. No authenticated Catalog request, credential, raw API
+  response, full private identifier, unsupported employer, or convenient
+  namesake match was used or published.
+  The clean local release passed 70 Python tests and three parameterized
+  subtests, the deterministic 200-profile audit, all 768 browser and
+  accessibility cases across desktop, phone, and tablet, the complete
+  24,364-page internal-link check, and the public-identifier audit with zero
+  unexpected boundary matches. Astro reported zero errors, warnings, or hints,
+  and the production dependency audit found zero vulnerabilities. Two clean
+  production builds produced the same site-tree SHA-256,
+  `586397e849e654e1617ac59f713352284161cd65a550d96c55c83091107b5a21`.
+  The 65-file public manifest covers 73,718,370 bytes and has SHA-256
+  `ef37bff2478e0fc7ec83e253be5c4f10bf76aca46adf06d0e48fa0af4bf0111a`.
 - Batch 241 covers the next ten contiguous rows, George C. Bonnett through
   Eric G. Book, on PDF page forty-four in Box 68. The source page and all ten
   rows were checked visually at original resolution. Exact private-identifier
@@ -3272,14 +3327,14 @@ Commissioned classification: 2,186 yes; 5,202 no; 16,552 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 938 (published, qualified, or conflict-visible)
-- Database claims: 1,847; public-visible claims: 1,815 (494 confirmed, 912 high,
-  374 medium, 35 conflicting); 26 low-confidence claims are withheld and six
+- Public-visible affiliations: 958 (published, qualified, or conflict-visible)
+- Database claims: 1,884; public-visible claims: 1,852 (512 confirmed, 925 high,
+  379 medium, 36 conflicting); 26 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,111 total and 4,042 public-visible; private source
-  records: 2,704; public source export: 1,692; unique source documents: 1,252
-- Canonical organizations: 423 private and 413 public
-- Conflicting claims: 35 across 26 people
+- Claim-source links: 4,185 total and 4,116 public-visible; private source
+  records: 2,725; public source export: 1,712; unique source documents: 1,264
+- Canonical organizations: 426 private and 416 public
+- Conflicting claims: 36 across 26 people
 - NARA pull-list rows: 23,801
 
 Planned dry-run requests do not count as research-attempt coverage.
