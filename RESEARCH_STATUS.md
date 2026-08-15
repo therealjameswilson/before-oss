@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-14 UTC.
+Generated from the current local SQLite database on 2026-08-15 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,197 people with a non-planned attempt | 23,940 active person entities | 9.1771% |
-| Verified-affiliation coverage | 393 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6416% |
+| Research-attempt coverage | 2,207 people with a non-planned attempt | 23,940 active person entities | 9.2189% |
+| Verified-affiliation coverage | 400 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6708% |
 | Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
-| Archival-review coverage | 2,146 people with an individual file-access/priority assessment | 23,940 active person entities | 8.9641% |
+| Archival-review coverage | 2,156 people with an individual file-access/priority assessment | 23,940 active person entities | 9.0058% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-14 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 321
-- Identity status `high_confidence`: 419
+- Identity status `confirmed`: 327
+- Identity status `high_confidence`: 420
 - Identity status `probable`: 74
-- Identity status `ambiguous`: 41
+- Identity status `ambiguous`: 42
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,060
+- Identity status `unresolved`: 23,052
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,411
-- Enlisted Army personnel: 3,577
-- Commissioned Army officers: 2,075
+- Unknown or indeterminate: 16,405
+- Enlisted Army personnel: 3,582
+- Commissioned Army officers: 2,076
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 1
@@ -45,18 +45,18 @@ Generated from the current local SQLite database on 2026-08-14 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,185 yes; 5,197 no; 16,558 indeterminate.
+Commissioned classification: 2,186 yes; 5,202 no; 16,552 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,743
+- `not_started`: 21,733
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 46
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 49
-- `occupation_only_found`: 275
-- `requires_archival_review`: 1,491
+- `occupation_only_found`: 282
+- `requires_archival_review`: 1,494
 - `completed`: 76
 - `conflicting_sources`: 25
 - `verified_employer_found`: 177
@@ -67,15 +67,15 @@ Commissioned classification: 2,185 yes; 5,197 no; 16,558 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 1,977. The detailed adapter breakdown remains reproducible in
+  adapters: 1,987. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 889 across 861 people; 105 additional
+- Saved `source_reviewed` outcomes: 896 across 868 people; 105 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,392
+- Total recorded attempts/plans: 3,402
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 819; 796 have at least one public-visible
+- People with saved reviewed claims: 827; 804 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2594,6 +2594,51 @@ Commissioned classification: 2,185 yes; 5,197 no; 16,558 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 241 covers the next ten contiguous rows, George C. Bonnett through
+  Eric G. Book, on PDF page forty-four in Box 68. The source page and all ten
+  rows were checked visually at original resolution. Exact private-identifier
+  matches in the official Army merged file confirm Glenn F. Bonnie, Joseph A.
+  Bono, Fredrick Bontrager, Louis C. Boochever, and Eric G. Book. Their dated
+  Army-entry evidence supports, respectively, a semiskilled dairy-products
+  processing occupation group, student status without a named institution, an
+  unskilled miscellaneous finished-lumber-products occupation group, Signal
+  Corps entry with student status, and the grouped paymaster, payroll-clerk,
+  or timekeeper category. None of these Army records names a civilian employer.
+  Glenn's row is flagged as a possible spelling-variant duplicate of the later,
+  separately printed Glenn F. Boonie row; both source rows and people remain
+  separate pending review.
+  An official Army study confirms John H. Bonsall as the commissioned Army
+  officer who led OSS Jedburgh Team Augustus. Continuous Army service is his
+  best-supported probable immediate pathway, while Princeton is modeled only
+  as an earlier student affiliation. Contemporary Cornell evidence and a
+  Foreign Service Journal notice confirm Louis Boochever's Signal Corps-to-OSS
+  pathway and his Cornell and Harvard student affiliations, without turning
+  either university into an employer. A reputable obituary and an Ohio State
+  archival finding aid support a high-confidence match for Larry A. Booher:
+  his Army-to-OSS transfer is explicit, and Ohio State remains a student
+  affiliation rather than employment.
+  George C. Bonnett and the initials-only J. E. Bonnott remain unresolved.
+  Stephen Bonsal remains ambiguous between an older journalist-diplomat and a
+  World War II Army-officer namesake; neither biography is assigned to the
+  indexed row without Box 68 evidence. All three are explicit archival-review
+  cases. The batch adds eleven affiliations, nineteen claims, forty-three
+  claim-source links, eleven stable source records, and ten completed research
+  attempts. Coverage is now 2,207 researched people, 400 people with a verified
+  affiliation, 179 with a verified employer, and 2,156 assessed for archival
+  review, out of 23,940 active entities. The unchanged verified-employer count
+  is intentional. No authenticated Catalog request, credential, raw API
+  response, full private identifier, unsupported employer, or convenient
+  namesake match was used or published.
+  Local release QA passed database integrity and foreign-key checks, all 70
+  Python tests, all 765 browser and accessibility cases across three
+  viewports, the 24,361-page internal-link check, the deterministic 200-profile
+  audit, and the complete public-identifier audit with zero unexpected
+  matches. Astro reported zero errors, warnings, or hints, and the dependency
+  audit found zero vulnerabilities. Consecutive production builds produced the
+  identical tree digest
+  `4f1d9c616c2e471271f71cc4d0979feff6f4de264029e41f83f01dae86f895a3`.
+  The 65-file public-data manifest covers 73,589,005 bytes and has SHA-256
+  `7528cebf53f52fc7433ac9c328ad1fe27c9ae1ed7e2c5a32e1852c3a3021fa30`.
 - Batch 240 covers the next ten contiguous rows, Geopffrey H. Bonnell through
   Emile V. Bonnet, across PDF pages forty-three and forty-four in Box 67 and
   Box 68. Both source pages and all ten rows were checked visually at original
