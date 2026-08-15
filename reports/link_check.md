@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-14 UTC
+Run: 2026-08-15 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,36 @@ The build includes 23,940 person profiles, 413 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,163 unique external URLs for separate live
+The checker inventoried 49,170 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 241 local release check
+
+The complete 24,361-page internal-link pass includes direct routes for George
+C. Bonnett through Eric G. Book on PDF page 44. The 70-test Python suite,
+deterministic 200-profile audit, focused desktop, phone, and tablet regression,
+and complete public-identifier audit passed; Astro reported zero errors,
+warnings, or hints, and the production dependency audit found zero
+vulnerabilities. The complete 765 / 765 browser and axe matrix passed locally.
+
+The regression checks all ten indexed rows in Box 68, public-safe identifier
+handling, identity and research states, commissioned classification, and the
+exact terminal employer-gap wording. It separately verifies five official
+Army-entry matches without turning occupations or student status into named
+employers; the qualified John H. Bonsall, Louis C. Boochever, and Larry A.
+Booher military and student pathways; the nonmerge of the Glenn F. Bonnie and
+Glenn F. Boonie spelling variants; and three ambiguous or unresolved archival-
+review profiles.
+
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants across 24,431 public artifacts,
+reviewed 1,018 candidate substrings, and found zero unexpected boundary
+matches, aggregate false positives, or manifest-size false positives. The
+65-file public-data manifest covers 73,589,005 bytes and has SHA-256
+`7528cebf53f52fc7433ac9c328ad1fe27c9ae1ed7e2c5a32e1852c3a3021fa30`.
+Consecutive production-site builds produced identical trees; the complete-site
+digest is
+`4f1d9c616c2e471271f71cc4d0979feff6f4de264029e41f83f01dae86f895a3`.
 
 ## Batch 240 local release check
 

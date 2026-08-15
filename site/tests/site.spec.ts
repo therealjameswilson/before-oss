@@ -21091,3 +21091,119 @@ test("Batch 240 preserves duplicate rows and separates occupations, military pat
   await expect(page.locator("main")).toContainText("commissioned army officer");
   await expect(page.locator(".index-record").first()).toContainText("1st Lt");
 });
+
+test("Batch 241 preserves ambiguity and separates Army pathways, students, and occupations from employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["aabcf653-36fe-5c20-88ac-6e6dcea6c86a", "George C Bonnett"],
+    ["703839cd-8f2b-5c7a-812d-faa368b642f9", "Glenn F Bonnie"],
+    ["ef68d56d-af81-50ff-8033-36638803b93b", "J E Bonnott"],
+    ["2f5ae226-8f82-5258-b914-f4a606a18d18", "Joseph A Bono"],
+    ["20ea684e-8db3-5f97-bbb4-d6df582e42af", "Stephen Bonsal"],
+    ["813fb67a-90b5-5058-8c35-36efc26af646", "John H Bonsall"],
+    ["4aff57cb-0190-5f51-a646-464cd4dfa0a8", "Fredrick Bontrager"],
+    ["2af13825-b403-5785-94e2-539a915c041c", "Louis C Boochever"],
+    ["3ed970c2-bae6-5d5c-b036-19f2adc7c0f4", "Larry A Booher"],
+    ["868a2c81-838f-5b26-9952-50d8b5156d81", "Eric G Book"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 44");
+    await expect(page.locator(".index-record").first()).toContainText("68");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+    );
+  }
+
+  await page.goto("./people/703839cd-8f2b-5c7a-812d-faa368b642f9/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Semiskilled dairy-products processing occupation",
+  );
+  await expect(page.locator("main")).toContainText("separately printed Glenn F. Boonie row");
+
+  await page.goto("./people/2f5ae226-8f82-5258-b914-f4a606a18d18/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("source names no institution");
+
+  await page.goto("./people/4aff57cb-0190-5f51-a646-464cd4dfa0a8/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Unskilled miscellaneous finished-lumber-products occupation",
+  );
+
+  await page.goto("./people/868a2c81-838f-5b26-9952-50d8b5156d81/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("E.R.C.");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Paymaster, payroll clerk, or timekeeper category",
+  );
+
+  await page.goto("./people/813fb67a-90b5-5058-8c35-36efc26af646/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator("main")).toContainText("probable immediate");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Princeton University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+
+  await page.goto("./people/2af13825-b403-5785-94e2-539a915c041c/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army Signal Corps",
+  );
+  await expect(page.locator("main")).toContainText("probable immediate");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Cornell University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Harvard University",
+  );
+
+  await page.goto("./people/3ed970c2-bae6-5d5c-b036-19f2adc7c0f4/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator("main")).toContainText("explicit immediate");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Ohio State University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+
+  for (const personId of [
+    "aabcf653-36fe-5c20-88ac-6e6dcea6c86a",
+    "ef68d56d-af81-50ff-8033-36638803b93b",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("requires archival review", { exact: true }).first(),
+    ).toBeVisible();
+  }
+
+  await page.goto("./people/20ea684e-8db3-5f97-bbb4-d6df582e42af/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("older journalist and diplomat Stephen Bonsal");
+  await expect(page.locator("main")).toContainText("World War II Army officer Stephen Bonsal, Jr.");
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+});

@@ -1,43 +1,42 @@
 # Software QA
 
-Run: 2026-08-08 UTC
+Run: 2026-08-15 UTC
 
-- Python unit tests: **69 / 69 passed**
+- Python unit tests: **70 / 70 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,339 pages**
-- Internal link check: **24,339 HTML files passed**
-- Complete browser and accessibility matrix: **714 / 714 passed** on the clean
-  GitHub Actions runner across desktop, phone, and tablet, with no serious or
-  critical axe violation.
+- Static production build: **24,361 pages**
+- Internal link check: **24,361 HTML files passed**
+- Complete browser and accessibility matrix: **765 / 765 passed** locally
+  across desktop, phone, and tablet, with no serious or critical axe violation.
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`535001dc66dae0898390fc545e441a3e8ce0e5adee465cac5bb86462a698ca2c`)
-- Latest deterministic build (Batch 224): **byte-for-byte identical** across
+  (`4f1d9c616c2e471271f71cc4d0979feff6f4de264029e41f83f01dae86f895a3`)
+- Latest deterministic build (Batch 241): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `0583c8977fe003d8720f75d14d4d3581ef7a9394fa25dfa572078805f7170d77`
+  `7528cebf53f52fc7433ac9c328ad1fe27c9ae1ed7e2c5a32e1852c3a3021fa30`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,409** production artifacts, including compressed mirrors;
-  **1,011** candidate substrings were reviewed.
+  matches** in **24,431** production artifacts, including compressed mirrors;
+  **1,018** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,573** public records representing **1,184** unique documents
-- Private citation records: **2,578**
-- Published, qualified, or conflict-visible affiliations: **846**
-- Published or conflict-visible claims: **1,648**
-- Verified-affiliation metric: **334** people with confirmed/high published
+- Reviewed public sources: **1,703** public records representing **1,259** unique documents
+- Private citation records: **2,715**
+- Published, qualified, or conflict-visible affiliations: **949**
+- Published or conflict-visible claims: **1,834**
+- Verified-affiliation metric: **400** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **175** people with confirmed/high published
+- Verified-employer metric: **179** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -127,6 +126,8 @@ Run: 2026-08-08 UTC
   regression and complete **711-case** browser matrix passed
 - Batch 224 production verification: **passed**; the focused **3-case**
   regression and complete **714-case** browser matrix passed
+- Batch 241 local release checks: **passed**; the focused **3-case** regression
+  and complete **765-case** browser and axe matrix passed
 
 ## Batch 224 production verification
 
