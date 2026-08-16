@@ -4,12 +4,27 @@ Run: 2026-08-16 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **768 / 768**
+**PASS.** The complete browser and accessibility matrix passed **774 / 774**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 244 adds a focused direct-route regression for Woodrow W. Borah through
+George M. Borel on PDF page 44. It checks all ten indexed names, Box 69,
+public-safe masked identifier rendering, personnel classifications, terminal
+research states, confidence qualification, and employer-gap language. It
+separately verifies Borah's Princeton-to-State/OSS chronology; Borchard's
+qualified Yale finding; Bordages's qualified World-Telegram and Marine combat-
+correspondent pathways; Orel H. Borden's high-confidence Army path; Iva H.
+Borders's confirmed Women's Army Auxiliary Corps path and explicitly
+uninterpreted occupation code; three no-reliable-result profiles; and the
+withheld Paul H. Bordwell Jr. and George M. Borel enlisted candidates whose
+private identifiers and grades do not match the indexed officers. The focused
+matrix passed 3 / 3 across desktop, phone, and tablet. The complete matrix
+passed 774 / 774 locally in 19.0 minutes with no serious or critical axe
+violations.
 
 Batch 243 adds a focused direct-route regression for George C. Boosalis
 through Lucien H. Boquet on PDF page 44. It checks all ten indexed names,

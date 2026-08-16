@@ -4,16 +4,45 @@ Run: 2026-08-16 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,366 HTML files. Every relative
+**PASS.** The production build contains 24,372 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 418 organization profiles, and the
+The build includes 23,940 person profiles, 424 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,185 unique external URLs for separate live
+The checker inventoried 49,195 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 244 local release check
+
+The complete 24,372-page internal-link pass includes direct routes for Woodrow
+W. Borah through George M. Borel on PDF page 44. The 70-test Python suite,
+deterministic 200-profile audit, complete 774-case desktop, phone, and tablet
+browser/axe matrix, focused 3-case Batch 244 regression, and complete public-
+identifier audit passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes, SHA-256 hashes, and bytes in
+the public source and built trees. The manifest covers 73,912,900 bytes and has
+SHA-256
+`1b19e692ff270a68b9275c8fb0f5ffe40dab145cb98c3e67e0063630ba23b51d`.
+Two consecutive builds produced the same site-tree SHA-256,
+`ea11b2e91727f9b4fd6aa1567efe94db2d65efd0bf0d42d9d84f0145db690f01`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+121 formatted variants across 24,442 artifacts, rejected 1,019 harmless
+substring coincidences, and found zero aggregate, manifest-size, or unexpected
+boundary matches.
+
+The regression checks all ten indexed rows in Box 69, public-safe identifier
+handling, identity and research states, commissioned classification,
+confidence qualification, and employer-gap wording. It separately verifies
+Borah's Princeton chronology; Borchard and Bordages's qualified civilian
+findings; Orel H. Borden and Iva H. Borders's military pathways; three explicit
+no-reliable-result profiles; and the withheld Bordwell and Borel enlisted
+candidates whose private identifiers and grades do not match the indexed
+officers.
 
 ## Batch 243 local release check
 
