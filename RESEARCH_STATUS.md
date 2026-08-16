@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-15 UTC.
+Generated from the current local SQLite database on 2026-08-16 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,217 people with a non-planned attempt | 23,940 active person entities | 9.2607% |
-| Verified-affiliation coverage | 405 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.6917% |
+| Research-attempt coverage | 2,226 people with a non-planned attempt | 23,940 active person entities | 9.2982% |
+| Verified-affiliation coverage | 407 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7001% |
 | Verified-employer coverage | 179 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7477% |
-| Archival-review coverage | 2,166 people with an individual file-access/priority assessment | 23,940 active person entities | 9.0476% |
+| Archival-review coverage | 2,175 people with an individual file-access/priority assessment | 23,940 active person entities | 9.0852% |
 
 ## Extraction and identity
 
@@ -24,16 +24,16 @@ Generated from the current local SQLite database on 2026-08-15 UTC.
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 332
-- Identity status `high_confidence`: 422
+- Identity status `high_confidence`: 426
 - Identity status `probable`: 76
 - Identity status `ambiguous`: 42
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,043
+- Identity status `unresolved`: 23,039
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,399
-- Enlisted Army personnel: 3,586
+- Unknown or indeterminate: 16,398
+- Enlisted Army personnel: 3,587
 - Commissioned Army officers: 2,078
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,21 +45,21 @@ Generated from the current local SQLite database on 2026-08-15 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,188 yes; 5,206 no; 16,546 indeterminate.
+Commissioned classification: 2,189 yes; 5,207 no; 16,544 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,723
+- `not_started`: 21,714
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 49
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 49
-- `no_reliable_result_after_protocol`: 1
-- `occupation_only_found`: 288
+- `documented_prewar_employer_found`: 50
+- `no_reliable_result_after_protocol`: 6
+- `occupation_only_found`: 290
 - `requires_archival_review`: 1,494
 - `completed`: 76
-- `conflicting_sources`: 25
+- `conflicting_sources`: 26
 - `verified_employer_found`: 177
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -71,12 +71,12 @@ Commissioned classification: 2,188 yes; 5,206 no; 16,546 indeterminate.
   adapters: 1,997. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 902 across 874 people; 108 additional
+- Saved `source_reviewed` outcomes: 907 across 878 people; 108 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,412
+- Total recorded attempts/plans: 3,422
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 836; 813 have at least one public-visible
+- People with saved reviewed claims: 840; 817 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,50 @@ Commissioned classification: 2,188 yes; 5,206 no; 16,546 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 243 covers the next ten contiguous rows, George C. Boosalis through
+  Lucien H. Boquet, on PDF page forty-four in Boxes 68-69. The source page and
+  all ten rows were checked visually at original resolution. Official Army
+  merged-file data confirms a high-confidence George A. Bopp identity through
+  a near-identifier match and documents Army entry on October 12, 1942, with
+  occupation code 242, attendant in hospitals or other institutions not
+  elsewhere classified; it does not name an institution or employer. Harry X.
+  Boosel is also a high-confidence identity, but the exact-name Army row differs
+  from the printed identifier by one digit while the exact printed identifier
+  belongs to Ernest F. Pilz. His federal employment beginning as a file clerk
+  in 1936, June 15, 1942 Army entry, and occupation code 776 are published with
+  the identifier conflict visible and the status `conflicting_sources`.
+  Waller B. Booth Jr. is a high-confidence OSS identity. A family manuscript
+  narrative supports qualified, medium-confidence chronology from Raymond and
+  Whitcomb Travel Company in London to an unnamed Puerto Rico bottling company,
+  volunteer military service in November 1941, and COI in December 1941. COI is
+  modeled as the immediate government affiliation before OSS, while the travel
+  company and unnamed bottling company remain distinct civilian-employment
+  claims and are excluded from default verified-employer analytics at medium
+  confidence. A French archival record supports a high-confidence Lucien H.
+  Boquet identity, alias Lucien Berlioz, and his Mission Sanctuaire radio-
+  operator role without supplying a pre-OSS employer. George C. Boosalis,
+  Robert O. Boote, Alfred W. Booth, Edwin R. Booth, and Joel C. Booth remain
+  explicit no-reliable-result outcomes after the full protocol. John P. Booth's
+  existing Coast Guard-to-OSS pathway was preserved, and a second completed
+  protocol attempt was saved without duplicating its affiliation or claims.
+  The batch adds eleven sources, three organizations, six affiliations, ten
+  claims, ten person updates, and ten completed research attempts. Coverage is
+  now 2,226 researched people, 407 people with a verified affiliation, 179 with
+  a verified employer, and 2,175 assessed for archival review, out of 23,940
+  active entities. The unchanged verified-employer count is intentional. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, unsupported employer, or convenient namesake match was used or
+  published.
+  The clean local release passed 70 Python tests, the deterministic 200-profile
+  audit, all 768 browser and accessibility cases across desktop, phone, and
+  tablet, a separate 3-case Batch 243 regression, the complete 24,366-page
+  internal-link check, and the public-identifier audit with zero unexpected
+  boundary matches. Astro reported zero errors, warnings, or hints, and the
+  production dependency audit found zero vulnerabilities. Two clean production
+  builds produced the same site-tree SHA-256,
+  `707bfb9194810a8447a16e7d586f726c85cddf1bc2da9abc30e1d510648c9dec`.
+  The 65-file public manifest covers 73,815,150 bytes and has SHA-256
+  `15efd25efd73ede7564f0c8e4720918c9f00d1f01e0488dba713ba776e51271c`.
 - Batch 242 covers the next ten contiguous rows, George H. Bookbinder through
   Sem Boonyasook, on PDF page forty-four in Box 68. The source page and all ten
   rows were checked visually at original resolution. An official wartime

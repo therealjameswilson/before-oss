@@ -1,6 +1,6 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-15 UTC
+Run: 2026-08-16 UTC
 
 ## Result
 
@@ -10,6 +10,20 @@ accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 243 adds a focused direct-route regression for George C. Boosalis
+through Lucien H. Boquet on PDF page 44. It checks all ten indexed names,
+Boxes 68-69, masked identifier rendering, personnel classifications, terminal
+research states, confidence qualification, and employer-gap language. It
+separately verifies Harry X. Boosel's visible one-digit identifier conflict;
+George A. Bopp's occupation-only finding without a named employer; Waller B.
+Booth Jr.'s distinct and qualified travel-company, bottling-company, military,
+and COI pathways; Lucien H. Boquet's documented alias and Mission Sanctuaire
+role; John P. Booth's preserved Coast Guard-to-OSS pathway without duplicate
+claims; and five explicit no-reliable-result profiles. The focused matrix
+passed 3 / 3 across desktop, phone, and tablet. The complete pre-existing
+matrix passed 768 / 768 locally in 10.7 minutes with no serious or critical
+axe violations.
 
 Batch 242 adds a focused direct-route regression for George H. Bookbinder
 through Sem Boonyasook on PDF page 44. It checks all ten indexed names, Box 68,

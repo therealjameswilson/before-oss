@@ -1,19 +1,49 @@
 # Link check
 
-Run: 2026-08-15 UTC
+Run: 2026-08-16 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,364 HTML files. Every relative
+**PASS.** The production build contains 24,366 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 416 organization profiles, and the
+The build includes 23,940 person profiles, 418 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,177 unique external URLs for separate live
+The checker inventoried 49,185 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 243 local release check
+
+The complete 24,366-page internal-link pass includes direct routes for George
+C. Boosalis through Lucien H. Boquet on PDF page 44. The 70-test Python suite,
+deterministic 200-profile audit, complete 768-case desktop, phone, and tablet
+browser/axe matrix, focused 3-case Batch 243 regression, and complete public-
+identifier audit passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes, SHA-256 hashes, and bytes in
+the public source and built trees. The manifest covers 73,815,150 bytes and has
+SHA-256
+`15efd25efd73ede7564f0c8e4720918c9f00d1f01e0488dba713ba776e51271c`.
+Two clean builds produced the same site-tree SHA-256,
+`707bfb9194810a8447a16e7d586f726c85cddf1bc2da9abc30e1d510648c9dec`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+121 formatted variants across 24,436 artifacts, rejected 1,020 harmless
+substring coincidences, and found zero aggregate, manifest-size, or unexpected
+boundary matches.
+
+The regression checks all ten indexed rows in Boxes 68-69, public-safe
+identifier handling, identity and research states, commissioned
+classification, confidence qualification, and employer-gap wording. It
+separately verifies Harry X. Boosel's visible identifier conflict; George A.
+Bopp's unnamed occupation finding without employer inflation; Waller B. Booth
+Jr.'s distinct travel-company, bottling-company, military, and COI pathways;
+Lucien H. Boquet's alias and Mission Sanctuaire role; John P. Booth's preserved
+Coast Guard-to-OSS pathway without duplicate claims; and five explicit no-
+reliable-result profiles.
 
 ## Batch 242 local release check
 

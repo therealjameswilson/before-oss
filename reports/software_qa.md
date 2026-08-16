@@ -1,40 +1,41 @@
 # Software QA
 
-Run: 2026-08-15 UTC
+Run: 2026-08-16 UTC
 
 - Python unit tests: **70 / 70 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,361 pages**
-- Internal link check: **24,361 HTML files passed**
-- Complete browser and accessibility matrix: **765 / 765 passed** locally
+- Static production build: **24,366 pages**
+- Internal link check: **24,366 HTML files passed**
+- Complete browser and accessibility matrix: **768 / 768 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
+- Focused Batch 243 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`4f1d9c616c2e471271f71cc4d0979feff6f4de264029e41f83f01dae86f895a3`)
-- Latest deterministic build (Batch 241): **byte-for-byte identical** across
+  (`707bfb9194810a8447a16e7d586f726c85cddf1bc2da9abc30e1d510648c9dec`)
+- Latest deterministic build (Batch 243): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**;
   manifest SHA-256
-  `7528cebf53f52fc7433ac9c328ad1fe27c9ae1ed7e2c5a32e1852c3a3021fa30`
+  `15efd25efd73ede7564f0c8e4720918c9f00d1f01e0488dba713ba776e51271c`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,431** production artifacts, including compressed mirrors;
-  **1,018** candidate substrings were reviewed.
+  matches** in **24,436** production artifacts, including compressed mirrors;
+  **1,020** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,703** public records representing **1,259** unique documents
-- Private citation records: **2,715**
-- Published, qualified, or conflict-visible affiliations: **949**
-- Published or conflict-visible claims: **1,834**
-- Verified-affiliation metric: **400** people with confirmed/high published
+- Reviewed public sources: **1,723** public records representing **1,272** unique documents
+- Private citation records: **2,736**
+- Published, qualified, or conflict-visible affiliations: **964**
+- Published or conflict-visible claims: **1,862**
+- Verified-affiliation metric: **407** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **179** people with confirmed/high published
   employment or self-employment evidence
@@ -128,6 +129,10 @@ Run: 2026-08-15 UTC
   regression and complete **714-case** browser matrix passed
 - Batch 241 local release checks: **passed**; the focused **3-case** regression
   and complete **765-case** browser and axe matrix passed
+- Batch 242 production verification: **passed**; the focused **3-case**
+  regression and complete **768-case** browser and axe matrix passed
+- Batch 243 local release checks: **passed**; the focused **3-case** regression
+  passed in addition to the complete **768-case** browser and axe matrix
 
 ## Batch 224 production verification
 
