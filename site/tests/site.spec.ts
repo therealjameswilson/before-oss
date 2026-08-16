@@ -21403,3 +21403,86 @@ test("Batch 243 preserves identifier conflicts, unresolved names, and Booth's ci
   await expect(page.locator("main")).toContainText("Lucien Berlioz");
   await expect(page.locator("main")).toContainText("No publishable pre-OSS affiliation is recorded yet");
 });
+
+test("Batch 244 preserves qualified civilian findings, Army pathways, and officer identifier conflicts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["3976f4be-f804-54a3-860b-e46fd80a7fc1", "Woodrow W Borah"],
+    ["0b8c052a-778b-5d53-8db0-94d6f263ca75", "Edwin Borchard"],
+    ["8e652dab-b26e-5737-9ce2-e2b8c67b6a34", "Martin P Borchert"],
+    ["ab9eaf6b-7d47-5ba9-a724-d4579e7ec111", "Asa Bordages"],
+    ["c9e8a322-1588-5c2e-aeab-930f504d37bf", "Arthur R Borden Jr."],
+    ["55159694-da58-5565-9603-fba4b5cfd750", "Orel H Borden"],
+    ["39d9ebfd-3206-59a5-9776-42b34b27112e", "Thelma Bordern"],
+    ["6e838230-9b0e-5708-8f01-99fcbc51191d", "Iva H Borders"],
+    ["b4efd6bc-5ff0-5c58-80dc-2b2d9bd653bc", "Paul H Bordwell Jr."],
+    ["09eb0c07-b8f2-54e2-91d1-3bed54882e47", "George M Borel"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 44");
+    await expect(page.locator(".index-record").first()).toContainText("69");
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/3976f4be-f804-54a3-860b-e46fd80a7fc1/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Princeton University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Princeton University",
+  );
+
+  await page.goto("./people/0b8c052a-778b-5d53-8db0-94d6f263ca75/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Yale University Law School");
+  await expect(page.locator("main")).toContainText("medium");
+
+  for (const personId of [
+    "8e652dab-b26e-5737-9ce2-e2b8c67b6a34",
+    "c9e8a322-1588-5c2e-aeab-930f504d37bf",
+    "39d9ebfd-3206-59a5-9776-42b34b27112e",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("no reliable result after protocol", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ab9eaf6b-7d47-5ba9-a724-d4579e7ec111/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("The New York World-Telegram");
+  await expect(page.locator("main")).toContainText("Marine combat correspondent");
+  await expect(page.locator("main")).toContainText("medium");
+
+  await page.goto("./people/55159694-da58-5565-9603-fba4b5cfd750/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("United States Army");
+
+  await page.goto("./people/6e838230-9b0e-5708-8f01-99fcbc51191d/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Women's Army Auxiliary Corps");
+  await expect(page.locator("main")).toContainText("uninterpreted occupation code 989");
+
+  for (const personId of [
+    "b4efd6bc-5ff0-5c58-80dc-2b2d9bd653bc",
+    "09eb0c07-b8f2-54e2-91d1-3bed54882e47",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(/differ(?:ent|s)/);
+    await expect(page.locator("main")).toContainText(
+      "No publishable pre-OSS affiliation is recorded yet",
+    );
+  }
+});
