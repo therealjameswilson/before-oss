@@ -29,6 +29,12 @@ done < <(
       continue
     fi
     filename="${evidence_bundle##*/}"
+    # Finder-style duplicate copies are not reviewed evidence bundles. Keeping
+    # them out of deterministic rebuilds prevents an unrelated local copy from
+    # influencing the durable database merely because it matches the glob.
+    if [[ "$filename" == *" 2.json" ]]; then
+      continue
+    fi
     batch_number=0
     if [[ "$filename" =~ batch[-_]?0*([0-9]+) ]]; then
       batch_number="${BASH_REMATCH[1]}"

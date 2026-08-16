@@ -21312,3 +21312,94 @@ test("Batch 242 preserves qualified identities, occupations, military assignment
   await expect(page.locator("main")).toContainText("Free Th");
   await expect(page.locator("main")).toContainText("printed note preserved exactly");
 });
+
+test("Batch 243 preserves identifier conflicts, unresolved names, and Booth's civilian-to-COI chronology", async ({
+  page,
+}) => {
+  const profiles = [
+    ["a9226317-9867-59c7-bb1f-7350faff0870", "George C Boosalis"],
+    ["90c1e854-241d-525d-9025-9a243ba6e660", "Harry X Boosel"],
+    ["c2dd9e79-460c-52b9-84ae-caca191ee336", "Robert O Boote"],
+    ["eae37257-2226-54bd-9e17-dc6d01397e48", "Alfred W Booth"],
+    ["6f3c5133-1f50-595d-aa3c-87bcfc391a19", "Edwin R Booth"],
+    ["ffee3353-7001-5e56-b871-a2f3f3c1f16b", "Joel C Booth"],
+    ["19c983e0-37cb-5b11-8e40-1c4bd39b7103", "John P Booth"],
+    ["59e4251d-d72c-5892-be7b-797813f638fc", "Waller B Booth Jr."],
+    ["7a940c72-847f-5483-b87a-de1b03ec387a", "George A Bopp"],
+    ["66c5ca60-c97e-5a46-9531-8d8ae6ee81b9", "Lucien H Boquet"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 44");
+    await expect(
+      page.locator(".index-record").first().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const personId of [
+    "a9226317-9867-59c7-bb1f-7350faff0870",
+    "c2dd9e79-460c-52b9-84ae-caca191ee336",
+    "eae37257-2226-54bd-9e17-dc6d01397e48",
+    "6f3c5133-1f50-595d-aa3c-87bcfc391a19",
+    "ffee3353-7001-5e56-b871-a2f3f3c1f16b",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(
+      page.getByText("no reliable result after protocol", { exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/90c1e854-241d-525d-9025-9a243ba6e660/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("one identifier digit");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Unspecified United States federal agency",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "inspector, not elsewhere classified",
+  );
+
+  await page.goto("./people/19c983e0-37cb-5b11-8e40-1c4bd39b7103/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned coast guard officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Coast Guard",
+  );
+
+  await page.goto("./people/59e4251d-d72c-5892-be7b-797813f638fc/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Coordinator of Information",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "unnamed bottling company",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Raymond and Whitcomb Travel Company",
+  );
+  await expect(page.locator("main")).toContainText("medium");
+
+  await page.goto("./people/7a940c72-847f-5483-b87a-de1b03ec387a/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "attendant in hospitals and other institutions",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/66c5ca60-c97e-5a46-9531-8d8ae6ee81b9/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("foreign or allied military personnel");
+  await expect(page.locator("main")).toContainText("Lucien Berlioz");
+  await expect(page.locator("main")).toContainText("No publishable pre-OSS affiliation is recorded yet");
+});
