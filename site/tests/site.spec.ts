@@ -21486,3 +21486,103 @@ test("Batch 244 preserves qualified civilian findings, Army pathways, and office
     );
   }
 });
+
+test("Batch 245 preserves dated occupations, qualified earlier employers, identifier conflicts, and unresolved archival paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c16461e9-4efb-5582-b38c-525ccbe90f32", "Paul A Borel", "Page 44"],
+    ["12641139-fbe5-5497-ba0a-347b1686ab85", "Frances Borger", "Page 44"],
+    ["1a07fe9a-539e-52a9-8723-962b4718f00d", "William H Borger", "Page 44"],
+    ["7ea18b5b-aca9-5f3a-9b6d-04918e94407a", "Lawrence Borgerding", "Page 44"],
+    ["ca78fd8c-68a3-5d14-b730-14d36b2155eb", "John M Borgerson", "Page 44"],
+    ["bd688091-baf1-5d38-a7d6-c1467db11247", "Louis Borges", "Page 45"],
+    ["5bca2098-a069-558f-8384-53cbde2369b8", "Frank V Borgia", "Page 45"],
+    ["3d2595d4-341b-5b2b-a830-b4661c2ef7ec", "Alferd J Borgman", "Page 45"],
+    ["5f5fa3f2-28b8-5407-837b-bc8c5bf3ead0", "Leslie N Borgwardt", "Page 45"],
+    ["c5b99d72-d45c-5be2-a167-39cb794b3fa0", "Louis Borin", "Page 45"],
+  ] as const;
+
+  for (const [personId, displayName, pageNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").last()).toContainText("69");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/c16461e9-4efb-5582-b38c-525ccbe90f32/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Sun Oil Company",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Black & Veatch",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Phillips Petroleum Company",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/7ea18b5b-aca9-5f3a-9b6d-04918e94407a/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("one digit shorter");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "St. Francis Borgia High School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+
+  await page.goto("./people/ca78fd8c-68a3-5d14-b730-14d36b2155eb/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Detachment 101");
+  await expect(page.getByRole("link", { name: "Allied Forgeries of Burmese JIM - Update" })).toHaveAttribute(
+    "href",
+    "https://nnp.wustl.edu/library/book/548159?page=19",
+  );
+
+  for (const [personId, occupation] of [
+    ["bd688091-baf1-5d38-a7d6-c1467db11247", "Skilled miscellaneous-products manufacturing occupation"],
+    ["5f5fa3f2-28b8-5407-837b-bc8c5bf3ead0", "Kindergarten or primary-school teacher"],
+    ["c5b99d72-d45c-5be2-a167-39cb794b3fa0", "Salesman to consumers"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/c5b99d72-d45c-5be2-a167-39cb794b3fa0/");
+  await expect(page.locator(".index-record")).toHaveCount(2);
+  await expect(page.locator("main")).toContainText("both source rows and spellings remain preserved");
+
+  for (const personId of [
+    "12641139-fbe5-5497-ba0a-347b1686ab85",
+    "3d2595d4-341b-5b2b-a830-b4661c2ef7ec",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  }
+
+  await page.goto("./people/1a07fe9a-539e-52a9-8723-962b4718f00d/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/5bca2098-a069-558f-8384-53cbde2369b8/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).not.toContainText("Driver occupation");
+});

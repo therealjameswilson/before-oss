@@ -4,12 +4,26 @@ Run: 2026-08-16 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **774 / 774**
+**PASS.** The complete browser and accessibility matrix passed **777 / 777**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 245 adds a focused direct-route regression for Paul A. Borel through
+Louis Borin across PDF pages 44-45. It checks all ten indexed names, Box 69,
+the two separately printed Louis Berin/Louis Borin rows linked to one reviewed
+entity, public-safe masked identifier rendering, personnel classifications,
+terminal research states, confidence qualification, and employer-gap
+language. It separately verifies Borel's three qualified earlier employers
+without falsely ordering them; John M. Borgerson's Detachment 101 identity
+evidence; Lawrence H. Borgerding's visible identifier and chronology conflict;
+St. Francis Borgia High School as student status rather than employment; two
+confirmed Army-entry occupations without named employers; and the withheld or
+unresolved Borger, Borgia, and Borgman cases. The focused matrix passed 3 / 3
+across desktop, phone, and tablet. The complete matrix passed 777 / 777 locally
+in 25.9 minutes with no serious or critical axe violations.
 
 Batch 244 adds a focused direct-route regression for Woodrow W. Borah through
 George M. Borel on PDF page 44. It checks all ten indexed names, Box 69,
