@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-16 UTC.
+Generated from the current local SQLite database on 2026-08-17 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,255 people with a non-planned attempt | 23,940 active person entities | 9.4194% |
-| Verified-affiliation coverage | 410 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7126% |
+| Research-attempt coverage | 2,265 people with a non-planned attempt | 23,940 active person entities | 9.4612% |
+| Verified-affiliation coverage | 411 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7168% |
 | Verified-employer coverage | 180 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7519% |
-| Archival-review coverage | 2,204 people with an individual file-access/priority assessment | 23,940 active person entities | 9.2063% |
+| Archival-review coverage | 2,214 people with an individual file-access/priority assessment | 23,940 active person entities | 9.2481% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-16 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 339
+- Identity status `confirmed`: 344
 - Identity status `high_confidence`: 431
 - Identity status `probable`: 80
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,022
+- Identity status `unresolved`: 23,017
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,394
-- Enlisted Army personnel: 3,588
+- Unknown or indeterminate: 16,393
+- Enlisted Army personnel: 3,589
 - Commissioned Army officers: 2,078
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,20 +45,20 @@ Generated from the current local SQLite database on 2026-08-16 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
+Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,685
+- `not_started`: 21,675
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 54
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 53
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 298
-- `requires_archival_review`: 1,502
-- `completed`: 76
+- `occupation_only_found`: 301
+- `requires_archival_review`: 1,508
+- `completed`: 77
 - `conflicting_sources`: 27
 - `verified_employer_found`: 178
 - Stratified pilot size: 75
@@ -68,15 +68,15 @@ Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,027. The detailed adapter breakdown remains reproducible in
+  adapters: 2,047. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 923 across 893 people; 111 additional
+- Saved `source_reviewed` outcomes: 933 across 903 people; 111 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,452
+- Total recorded attempts/plans: 3,462
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 855; 831 have at least one public-visible
+- People with saved reviewed claims: 860; 836 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,60 @@ Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 247 covers the next ten contiguous rows, Willem A. Bos through Paul C.
+  Bossemeyer, on PDF page forty-five in Box 70. The source page and all ten
+  printed rows were checked visually at original resolution. The official
+  unrestricted Army Serial Number merged file was reviewed transiently from
+  NARA's bulk-download route, with its field documentation and occupation-code
+  tables checked separately. Exact full-name and private-identifier agreement
+  confirms Willem A. Bos, Kenneth C. Boshart, Francis G. Boslett, Charles E.
+  Bosley, and Samuel B. Bossard. The public data masks every identifier, and no
+  raw bulk record or Catalog API response is retained.
+
+  Willem Bos's March 1941 Army-entry record supports only the broad civilian
+  category manager or official, not elsewhere classified. Kenneth Boshart's
+  August 1943 record supports student status without naming a school. Francis
+  Boslett's May 1942 record supports only a grouped metal-finishing occupation.
+  These three findings remain qualified occupation or student affiliations;
+  none is converted into a named employer. Charles Bosley's exact-matched Army
+  row dates entry to October 23, 1945, but its grade appears corrupted and code
+  590 is not assigned in NARA's applicable occupation table. Because the row's
+  sequence relative to OSS is unknown, it is retained as identity evidence and
+  not published as an earlier pre-OSS affiliation.
+
+  An official CIA institutional history independently documents Samuel B.
+  Bossard's service as an interrogator in American prisoner-of-war camps until
+  he joined OSS in 1944. That explicit chronology supports a high-confidence
+  immediate military assignment, not a civilian employer. His exact-matched
+  February 1943 Army record separately records the grouped civilian occupation
+  secondary-school teacher or principal but names no school. Robert F. Bosch
+  has competing exact-name Army records with different identifiers; Peter M.
+  Bosco has an exact-name row without a usable index identifier; Paul Boshan
+  and Wolfgang D. Bossard lack a supported match; and Paul C. Bossemeyer's
+  exact-name Army record carries a different identifier. Contemporary Library
+  of Congress newspaper pages expand the latter candidate to Paul Chetwoode
+  Bossemeyer but do not resolve the conflict or supply OSS/employer evidence.
+  All five remain unresolved and route to Box 70 review.
+
+  The strict evidence bundle adds five sources, one organization, five
+  affiliations, ten claims, twenty-five claim-source links, ten person updates,
+  and ten durable research attempts. It reimports without changing any
+  evidence-table count. Coverage is now 2,265 researched people, 411 people
+  with a verified affiliation, 180 with a verified employer, and 2,214
+  individually assessed for archival review, out of 23,940 active entities.
+  No authenticated Catalog request, credential, unsupported employer, or
+  convenient namesake match was used or published.
+
+  Release QA passed SQLite integrity and foreign-key checks, all 70 Python
+  tests, the deterministic 200-profile audit, a clean 24,377-page Astro build,
+  the complete internal-link check, the 65-asset manifest audit, the private-
+  identifier boundary audit, and the production dependency audit. The first
+  full browser run passed 780 of 783 cases and exposed one overly broad test
+  locator in the new Batch 247 regression across three viewports; after that
+  locator was narrowed, the complete browser and axe matrix passed 783 of 783
+  cases in 24.6 minutes with no serious or critical accessibility violation.
+  Two clean builds produced the identical site digest
+  `5fff2a55e0c9e5c338e0a5e5f18ba49f2c1249042aea8c6df151d15595a61535`.
 - Batch 246 covers the next ten contiguous rows, Boguslaw L. Borkowski through
   Gerard J. Bos, on PDF page forty-five in Boxes 69 and 70. The source page and
   all ten rows were checked visually at original resolution. Exact full-name

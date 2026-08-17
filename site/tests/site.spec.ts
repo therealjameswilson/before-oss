@@ -21663,3 +21663,87 @@ test("Batch 246 publishes four bounded occupations while preserving six identity
   await expect(page.locator("main")).toContainText("Gerard K. Bos");
   await expect(page.locator("main")).toContainText("middle initial differs");
 });
+
+test("Batch 247 publishes three bounded occupations and Bossard's Army-to-OSS path without promoting unresolved candidates", async ({
+  page,
+}) => {
+  const profiles = [
+    ["3fc32830-4d79-50a8-8e64-203a3fe01971", "Willem A Bos"],
+    ["df5397c9-1b80-5af4-a0a4-6bf270551300", "Robert F Bosch"],
+    ["0ea02c10-1b69-5db5-98af-a72429250a6a", "Peter M Bosco"],
+    ["372d00e7-3ae8-5a70-a13d-e46b40d9f4c3", "Paul Boshan"],
+    ["bdb9aab4-e841-5cbc-9915-e51a76ce1287", "Kenneth C Boshart"],
+    ["ead8838f-82aa-58b1-b471-5920efc276a6", "Francis G Boslett"],
+    ["f1a86429-357a-5981-bbd3-3fd7e1a5381e", "Charles E Bosley"],
+    ["5462ee50-f281-5d00-a9b5-10b0bd990251", "Samuel B Bossard"],
+    ["94ad57f8-4cf8-5468-9398-7225baa917ff", "Wolfgang D Bossard"],
+    ["494e34c0-85ff-586f-b7de-d8ebe3e3a289", "Paul C Bossemeyer"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 45");
+    await expect(page.locator(".index-record").last()).toContainText("70");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const [personId, occupation] of [
+    ["3fc32830-4d79-50a8-8e64-203a3fe01971", "Manager or official, not elsewhere classified"],
+    ["bdb9aab4-e841-5cbc-9915-e51a76ce1287", "student"],
+    ["ead8838f-82aa-58b1-b471-5920efc276a6", "Filer, grinder, buffer, or polisher in metal work"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/5462ee50-f281-5d00-a9b5-10b0bd990251/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "interrogator",
+  );
+  await expect(page.locator("main")).toContainText("Secondary-school teacher or principal");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "CIA and Nazi War Criminals and Collaborators: Draft Working Paper, Chapter Nine",
+      })
+      .first(),
+  ).toHaveAttribute("href", /cia\.gov\/readingroom/);
+
+  for (const personId of [
+    "df5397c9-1b80-5af4-a0a4-6bf270551300",
+    "0ea02c10-1b69-5db5-98af-a72429250a6a",
+    "372d00e7-3ae8-5a70-a13d-e46b40d9f4c3",
+    "94ad57f8-4cf8-5468-9398-7225baa917ff",
+    "494e34c0-85ff-586f-b7de-d8ebe3e3a289",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/f1a86429-357a-5981-bbd3-3fd7e1a5381e/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "No affiliation is published from the 1945 Army-entry row",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+});

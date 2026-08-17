@@ -4,12 +4,26 @@ Run: 2026-08-17 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **780 / 780**
+**PASS.** The complete browser and accessibility matrix passed **783 / 783**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 247 adds a focused direct-route regression for Willem A. Bos through
+Paul C. Bossemeyer on PDF page 45. It checks all ten indexed names, Box 70,
+public-safe masked identifier rendering, personnel classifications, terminal
+research states, confidence qualification, and employer-gap language. It
+separately verifies three bounded occupation or student findings without
+inventing employers; Samuel B. Bossard's immediate Army interrogator pathway
+and separate unnamed civilian occupation; Charles E. Bosley's withheld late-
+1945 Army affiliation; five unresolved or conflicting archival-review cases;
+and the rejection of convenient exact-name matches whose private identifiers
+do not agree. The first full run passed 780 / 783 cases and identified one
+overly broad locator in this new test across the three viewports. After the
+test locator was narrowed, the complete matrix passed 783 / 783 locally in
+24.6 minutes with no serious or critical axe violations.
 
 Batch 246 adds a focused direct-route regression for Boguslaw L. Borkowski
 through Gerard J. Bos on PDF page 45. It checks all ten indexed names, Boxes
