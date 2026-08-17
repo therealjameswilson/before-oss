@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-16 UTC
+Run: 2026-08-17 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,36 @@ The build includes 23,940 person profiles, 428 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,203 unique external URLs for separate live
+The checker inventoried 49,204 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 246 local release check
+
+The complete 24,376-page internal-link pass includes direct routes for
+Boguslaw L. Borkowski through Gerard J. Bos on PDF page 45. The 70-test Python
+suite, deterministic 200-profile audit, complete 780-case desktop, phone, and
+tablet browser/axe matrix, focused 3-case Batch 246 regression, and complete
+public-identifier audit passed; Astro reported zero errors, warnings, or hints,
+and the production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes, SHA-256 hashes, and bytes in
+the public source and built trees. The manifest covers 74,080,706 bytes and has
+SHA-256
+`76a2f000107ee2cd276204c83fcc19f67578c3abd69a46aa9e8fa9d541de88c7`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+121 formatted variants across 24,446 artifacts, rejected 1,018 harmless
+substring coincidences, and found zero aggregate, manifest-size, or unexpected
+boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`58c50fdcff93072ff3c2702f316bdc8e8092c49b976f4a53102e7618bb029df9`.
+
+The regression checks all ten indexed rows in Boxes 69-70, public-safe
+identifier handling, identity and research states, commissioned
+classification, confidence qualification, and employer-gap wording. It
+separately verifies four bounded occupations, the Borzomati corroboration, the
+withheld Bortniker lead, literal `USMC` handling, rejected namesakes, and the
+Gerard J./Gerard K. Bos mismatch.
 
 ## Batch 245 local release check
 

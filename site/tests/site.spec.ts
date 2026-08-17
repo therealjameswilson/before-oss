@@ -21586,3 +21586,80 @@ test("Batch 245 preserves dated occupations, qualified earlier employers, identi
   await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).not.toContainText("Driver occupation");
 });
+
+test("Batch 246 publishes four bounded occupations while preserving six identity or archival-review limits", async ({
+  page,
+}) => {
+  const profiles = [
+    ["76ecf8c9-565a-5a91-873f-de315ec259be", "Boguslaw L Borkowski", "69"],
+    ["b37b9f9d-4367-5166-872a-3389980f9411", "Warren A Borland", "69"],
+    ["2a494735-4d57-58f8-a815-4f23a947288f", "Albert E Bornmueller", "69"],
+    ["fedf793f-e115-5152-9d92-d8c8446aa5c2", "William D Borrowes", "69"],
+    ["1cb3460b-e60c-5f5a-913d-16f87430ed31", "Marion S Borsodi", "69"],
+    ["d84b3340-6b59-52b4-bbed-c3423bda4d95", "Gerhard E Borst", "69"],
+    ["8d20fff0-29f5-5b53-ac6f-d55078eee5a6", "Elijah Bortniker", "69"],
+    ["f8dd8359-d797-5688-9bb4-c75ee00a3b1b", "Wyle G Borum", "69"],
+    ["ccba1ca6-68e0-54f5-a799-01fea70eecf5", "Joseph B Borzomati", "69"],
+    ["62452225-d7f7-50b9-a9bb-b8584c06700a", "Gerard J Bos", "70"],
+  ] as const;
+
+  for (const [personId, displayName, boxNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 45");
+    await expect(page.locator(".index-record").last()).toContainText(boxNumber);
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  for (const [personId, occupation] of [
+    ["76ecf8c9-565a-5a91-873f-de315ec259be", "Shipping and receiving clerk"],
+    ["b37b9f9d-4367-5166-872a-3389980f9411", "Architect"],
+    ["fedf793f-e115-5152-9d92-d8c8446aa5c2", "Actor"],
+    ["ccba1ca6-68e0-54f5-a799-01fea70eecf5", "Compositor or typesetter"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/ccba1ca6-68e0-54f5-a799-01fea70eecf5/");
+  await expect(page.locator("main")).toContainText("Joseph Blasco Borzomati");
+  await expect(page.locator("main")).toContainText("Army service with OSS");
+  await expect(page.getByRole("link", { name: "Joseph Borzomati Obituary" })).toHaveAttribute(
+    "href",
+    "https://www.legacy.com/us/obituaries/washingtonpost/name/joseph-borzomati-obituary?id=5616801",
+  );
+
+  await page.goto("./people/8d20fff0-29f5-5b53-ac6f-d55078eee5a6/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("U.S. Army in 1945");
+  await expect(page.locator("main")).not.toContainText("Jewish Education Committee of New York");
+
+  for (const personId of [
+    "2a494735-4d57-58f8-a815-4f23a947288f",
+    "1cb3460b-e60c-5f5a-913d-16f87430ed31",
+    "d84b3340-6b59-52b4-bbed-c3423bda4d95",
+    "f8dd8359-d797-5688-9bb4-c75ee00a3b1b",
+    "62452225-d7f7-50b9-a9bb-b8584c06700a",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified",
+    );
+  }
+
+  await page.goto("./people/62452225-d7f7-50b9-a9bb-b8584c06700a/");
+  await expect(page.locator("main")).toContainText("Gerard K. Bos");
+  await expect(page.locator("main")).toContainText("middle initial differs");
+});

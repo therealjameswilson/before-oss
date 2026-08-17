@@ -1,15 +1,28 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-16 UTC
+Run: 2026-08-17 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **777 / 777**
+**PASS.** The complete browser and accessibility matrix passed **780 / 780**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 246 adds a focused direct-route regression for Boguslaw L. Borkowski
+through Gerard J. Bos on PDF page 45. It checks all ten indexed names, Boxes
+69-70, public-safe masked identifier rendering, personnel classifications,
+terminal research states, confidence qualification, and employer-gap
+language. It separately verifies four exact-identifier Army identities and
+their date-bounded civilian occupations without inventing employers; Joseph
+Blasco Borzomati's independently corroborated Army-with-OSS identity; Elijah
+Bortniker's withheld probable identity; literal `USMC` text without inferred
+rank; the rejected Marion S. Borsodi postwar-poet lead; and the explicit
+Gerard J./Gerard K. Bos middle-initial mismatch. The focused matrix passed 3 / 3
+across desktop, phone, and tablet. The complete matrix passed 780 / 780 locally
+in 32.4 minutes with no serious or critical axe violations.
 
 Batch 245 adds a focused direct-route regression for Paul A. Borel through
 Louis Borin across PDF pages 44-45. It checks all ten indexed names, Box 69,
