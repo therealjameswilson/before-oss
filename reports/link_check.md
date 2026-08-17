@@ -4,16 +4,45 @@ Run: 2026-08-17 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,376 HTML files. Every relative
+**PASS.** The production build contains 24,377 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 428 organization profiles, and the
+The build includes 23,940 person profiles, 429 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,204 unique external URLs for separate live
+The checker inventoried 49,206 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 247 local release check
+
+The complete 24,377-page internal-link pass includes direct routes for Willem
+A. Bos through Paul C. Bossemeyer on PDF page 45. The 70-test Python suite,
+deterministic 200-profile audit, corrected complete 783-case desktop, phone,
+and tablet browser/axe matrix, and complete public-identifier audit passed;
+Astro reported zero errors, warnings, or hints, and the production dependency
+audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes, SHA-256 hashes, and bytes in
+the public source and built trees. The manifest covers 74,161,474 bytes and has
+SHA-256
+`4f5c9fb7961257ac37d417dd5211af6cd0f827204522d9f20c12ff4e123e9d05`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+121 formatted variants across 24,447 artifacts, rejected 1,022 harmless
+substring coincidences, and found zero aggregate, manifest-size, or unexpected
+boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`5fff2a55e0c9e5c338e0a5e5f18ba49f2c1249042aea8c6df151d15595a61535`.
+
+The regression checks all ten indexed rows in Box 70, public-safe identifier
+handling, identity and research states, commissioned classification,
+confidence qualification, and employer-gap wording. It separately verifies
+three bounded occupations or student findings, Bossard's Army-to-OSS pathway,
+Bosley's withheld late-1945 affiliation, and five unresolved or conflicting
+archival-review cases. The first full matrix exposed one overly broad test
+locator across three viewports; the corrected full matrix passed 783 / 783.
 
 ## Batch 246 local release check
 
