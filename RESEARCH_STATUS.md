@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-16 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,245 people with a non-planned attempt | 23,940 active person entities | 9.3776% |
+| Research-attempt coverage | 2,255 people with a non-planned attempt | 23,940 active person entities | 9.4194% |
 | Verified-affiliation coverage | 410 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7126% |
 | Verified-employer coverage | 180 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7519% |
-| Archival-review coverage | 2,194 people with an individual file-access/priority assessment | 23,940 active person entities | 9.1646% |
+| Archival-review coverage | 2,204 people with an individual file-access/priority assessment | 23,940 active person entities | 9.2063% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-16 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 335
+- Identity status `confirmed`: 339
 - Identity status `high_confidence`: 431
-- Identity status `probable`: 79
+- Identity status `probable`: 80
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,027
+- Identity status `unresolved`: 23,022
 
 ## Personnel categories
 
@@ -49,15 +49,15 @@ Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,695
+- `not_started`: 21,685
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 53
+- `needs_identity_review`: 54
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 53
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 294
-- `requires_archival_review`: 1,497
+- `occupation_only_found`: 298
+- `requires_archival_review`: 1,502
 - `completed`: 76
 - `conflicting_sources`: 27
 - `verified_employer_found`: 178
@@ -71,12 +71,12 @@ Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
   adapters: 2,027. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 918 across 888 people; 111 additional
+- Saved `source_reviewed` outcomes: 923 across 893 people; 111 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,442
+- Total recorded attempts/plans: 3,452
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 850; 827 have at least one public-visible
+- People with saved reviewed claims: 855; 831 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,51 @@ Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 246 covers the next ten contiguous rows, Boguslaw L. Borkowski through
+  Gerard J. Bos, on PDF page forty-five in Boxes 69 and 70. The source page and
+  all ten rows were checked visually at original resolution. Exact full-name
+  and private-identifier agreement with the official Army merged file confirms
+  Boguslaw L. Borkowski, Warren A. Borland, William D. Borrowes, and Joseph B.
+  Borzomati. Their Army-entry records support only the date-bounded civilian
+  occupation categories shipping or receiving clerk, architect, actor, and
+  compositor or typesetter. No source names an employer, firm, production,
+  printer, publisher, or workplace, so the occupations are not converted into
+  employment or self-employment and do not change either verified-coverage
+  measure.
+
+  A Washington Post obituary independently expands Joseph Blasco Borzomati's
+  name and documents his Army service with OSS. A 1956 Jewish Telegraphic
+  Agency article supplies a rare exact-name and compatible Army-service lead
+  for Elijah Bortniker, but no rank, private identifier, OSS link, or prewar
+  employer; that identity remains probable and its low-confidence claim stays
+  private. Albert E. Bornmueller's literal `USMC` text remains preserved
+  without inferring a Marine rank or commissioned status. Marion S. Borsodi's
+  postwar U.S. Naval Academy poetry finding aid is retained only as a rejected
+  identity lead, and the official Gerard K. Bos Army row is explicitly rejected
+  for indexed Gerard J. Bos because the middle initial differs. Gerhard E.
+  Borst and Wyle G. Borum also remain unresolved. All six limited cases route
+  to individual Box 69 or Box 70 review without an invented employer.
+
+  The strict evidence bundle adds seven sources, no organizations, four
+  affiliations, nine claims, twenty-three claim-source links, ten person
+  updates, and ten durable research attempts. It reimports without changing
+  any table count. Coverage is now 2,255 researched people, 410 people with a
+  verified affiliation, 180 with a verified employer, and 2,204 assessed for
+  archival review, out of 23,940 active entities. No authenticated Catalog
+  request, credential, raw API response, full private identifier, inferred
+  employer, or convenient namesake match was used or published.
+
+  Local release QA passed all 70 Python tests, the 200-profile stratified audit,
+  Astro diagnostics with zero errors, warnings, or hints, the 24,376-page
+  internal-link check, the focused 3-case browser regression, and the complete
+  780-case desktop, phone, and tablet browser/axe matrix in 32.4 minutes with no
+  serious or critical violation. The public-data manifest covers 65 assets and
+  74,080,706 bytes with SHA-256
+  `76a2f000107ee2cd276204c83fcc19f67578c3abd69a46aa9e8fa9d541de88c7`;
+  the identifier audit found zero unexpected boundary matches across 24,446
+  production artifacts. Consecutive production builds produced the identical
+  complete-site digest
+  `58c50fdcff93072ff3c2702f316bdc8e8092c49b976f4a53102e7618bb029df9`.
 - Batch 245 covers the next ten contiguous rows, Paul A. Borel through Louis
   Borin, across PDF pages forty-four and forty-five in Box 69. Both source pages
   and all ten rows were checked visually at original resolution. An official
