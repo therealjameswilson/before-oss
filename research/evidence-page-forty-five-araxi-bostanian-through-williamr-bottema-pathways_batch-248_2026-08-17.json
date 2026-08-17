@@ -1,0 +1,637 @@
+{
+  "bundle_version": "2026-08-17-batch248-v1",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-45-batch248",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 70",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 45, rows 26-35; Araxi Bostanian through WilliamR Bottema; visually checked at original resolution with private identifiers masked",
+      "access_date": "2026-08-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch248",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier review for the indexed Army personnel and exact-name review for all ten people; identifiers withheld",
+      "access_date": "2026-08-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": null,
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. No raw file or live Catalog API response is retained. Only project-authored conclusions and stable citation pointers are stored; private identifiers are withheld."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch248",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Reference-copy pages 40-42 define the fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe known merged-file limitations",
+      "access_date": "2026-08-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": null,
+      "rights_notes": "Official documentation defines an Army-entry file and warns that merged records contain interpreted fields, duplicate or corrupted values, and gaps. Civilian-occupation code 999 is not assigned a public meaning here."
+    },
+    {
+      "key": "cia-fighting-doctors-oss-batch248",
+      "stable_url": "https://www.cia.gov/resources/csi/static/Fighting-Doctors-of-OSS.pdf",
+      "archival_identifier": "Studies in Intelligence, Volume 62, Number 3",
+      "title": "The Fighting Doctors of the Office of Strategic Services",
+      "author_creator": "Lester E. Bush; edited by Randy P. Burkett",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2018-09",
+      "locator": "PDF page 14, printed page 46; section 'The War Ends and Another Begins'",
+      "access_date": "2026-08-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence",
+      "document_number": null,
+      "rights_notes": "Official institutional history used to identify the indexed OSS medical officer; it does not document a pre-OSS employer."
+    },
+    {
+      "key": "umn-march-commencement-1952-batch248",
+      "stable_url": "https://conservancy.umn.edu/bitstreams/bf5a5153-6262-4abb-8a84-0962642ed848/download",
+      "archival_identifier": "University of Minnesota commencement program, March 20, 1952",
+      "title": "The University of Minnesota Announces Its March Commencement 1952",
+      "author_creator": "University of Minnesota",
+      "repository_publisher": "University of Minnesota Digital Conservancy",
+      "publication_record_date": "1952-03-20",
+      "locator": "Digital PDF page 85, printed page 61; Master of Science in Neurosurgery",
+      "access_date": "2026-08-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Minnesota commencement programs",
+      "document_number": null,
+      "rights_notes": "Postwar educational record used only for identity corroboration. It is not treated as pre-OSS employment."
+    },
+    {
+      "key": "worldradio-walton-bostwick-1984-batch248",
+      "stable_url": "https://americanradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1984-09.pdf",
+      "archival_identifier": "Worldradio, Volume 14, Number 3",
+      "title": "Old-timer enjoys DX'ing",
+      "author_creator": "Worldradio staff; Armond Noble, editor and publisher",
+      "repository_publisher": "Worldradio, Inc.; World Radio History",
+      "publication_record_date": "1984-09",
+      "locator": "Digital PDF page 26, printed page 26",
+      "access_date": "2026-08-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Worldradio archive",
+      "document_number": null,
+      "rights_notes": "Retrospective amateur-radio profile used for identity and wartime-role corroboration. Its postwar employment details are not modeled as pre-OSS affiliations."
+    },
+    {
+      "key": "polk-westfield-cranford-directory-1941-batch248",
+      "stable_url": "https://www.digifind-it.com/cranford/data/city-dirs/1941.pdf",
+      "archival_identifier": "Polk's Westfield and Cranford Directory, 1941",
+      "title": "Polk's Westfield and Cranford (Union County, N.J.) Directory 1941",
+      "author_creator": "R. L. Polk & Co.",
+      "repository_publisher": "R. L. Polk & Co.; Cranford Public Library digital collection",
+      "publication_record_date": "1941",
+      "locator": "Digital PDF page 39 for Walton H. Bostwick; digital PDF page 42, printed page 46 for Wesley R. Braunsdorf Associates",
+      "access_date": "2026-08-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Westfield and Cranford city directories",
+      "document_number": null,
+      "rights_notes": "Contemporary directory evidence. Residence details are not published; the historical employer name is preserved without inferring a modern successor."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "wesley-r-braunsdorf-associates-batch248",
+      "canonical_name": "Wesley R. Braunsdorf Associates",
+      "historical_name": "Wesley R Braunsdorf Associates",
+      "aliases": [
+        "Braunsdorf Wesley R Associates"
+      ],
+      "organization_type": "insurance counselors",
+      "sector": "finance_and_banking",
+      "city": "Westfield",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "active_dates": "Documented in 1941",
+      "normalization_notes": "The directory describes the firm as insurance counsellors exclusively. No modern successor is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "walton-bostwick-braunsdorf-salesman-1941-batch248",
+      "person_id": "141fa466-8e78-5eb4-8d7a-e3d9dd38aa01",
+      "organization_key": "wesley-r-braunsdorf-associates-batch248",
+      "organization_name_as_found": "Wesley R Braunsdorf Associates",
+      "role_title": "salesman",
+      "occupation": "insurance sales",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1941",
+      "date_precision": "Listed in the 1941 directory; exact start and end dates are unknown.",
+      "city": "Westfield",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The rare full name, radio background, commissioned OSS Signal Corps role, and contemporary directory support the identity. The directory proves a 1941 job but does not establish that it immediately preceded military or OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "jackson-bostwick-high-identity-batch248",
+      "person_id": "9731aa28-2264-5213-b59b-f37fecc55892",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Jackson L. Bostwick is a high-confidence match to Jackson Leonard Bostwick, the OSS and SSU China Theater surgeon.",
+      "evidence_excerpt": "China Theater surgeon Jackson Bostwick ... was still in country on 1 January 1946.",
+      "evidence_paraphrase": "A CIA institutional history identifies Jackson Bostwick as the China Theater surgeon, while a University of Minnesota record supplies the uncommon middle name Leonard and neurosurgical specialty.",
+      "identity_match_assessment": "High confidence from the rare exact first and last name, matching middle initial, indexed major rank, explicit OSS context, and independently corroborated medical specialty.",
+      "temporal_assessment": "The sources establish OSS and immediate post-OSS SSU medical service, but do not identify an employer or assignment before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The University record is postwar and is used only to corroborate identity. No pre-OSS employer is inferred from his profession or education.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-45-batch248",
+          "support_type": "supports",
+          "locator_override": "PDF page 45, row 27; Major; private identifier withheld"
+        },
+        {
+          "source_key": "cia-fighting-doctors-oss-batch248",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 14, printed page 46",
+          "excerpt_override": "China Theater surgeon Jackson Bostwick ... was still in country on 1 January 1946."
+        },
+        {
+          "source_key": "umn-march-commencement-1952-batch248",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 85, printed page 61",
+          "excerpt_override": "Jackson Leonard Bostwick, Rochester ... M.D. '39, Tulane University. Major: Neurosurgery. Minor: Neuropathology."
+        }
+      ]
+    },
+    {
+      "key": "walton-bostwick-high-identity-batch248",
+      "person_id": "141fa466-8e78-5eb4-8d7a-e3d9dd38aa01",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Second Lieutenant Walton H. Bostwick is a high-confidence match to radio engineer Walton Bostwick, the Signal Corps captain assigned to OSS.",
+      "evidence_excerpt": "a captain in the Signal Corps assigned to the OSS ... troubleshooter for transmitters and receivers",
+      "evidence_paraphrase": "A retrospective radio profile supplies the rare name and explicit Signal Corps-to-OSS context; a contemporary 1941 directory independently identifies Walton H. Bostwick in a communications-adjacent life history.",
+      "identity_match_assessment": "High confidence from the rare exact name, middle initial, commissioned Army context, explicit OSS assignment, and corroborating prewar radio and directory evidence.",
+      "temporal_assessment": "The radio profile documents wartime Signal Corps assignment to OSS but does not state the accession date or prove which affiliation was immediately prior.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "An exact-name Army bulk row was rejected because its private identifier and enlisted grade conflict with the index. No Signal Corps chronology beyond the cited wording is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-45-batch248",
+          "support_type": "supports",
+          "locator_override": "PDF page 45, row 28; Second Lieutenant; private identifier withheld"
+        },
+        {
+          "source_key": "worldradio-walton-bostwick-1984-batch248",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 26",
+          "excerpt_override": "a captain in the Signal Corps assigned to the OSS ... troubleshooter for transmitters and receivers"
+        },
+        {
+          "source_key": "polk-westfield-cranford-directory-1941-batch248",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 39",
+          "excerpt_override": "Walton H slsmn Wesley R Braunsdorf Associates"
+        }
+      ]
+    },
+    {
+      "key": "walton-bostwick-braunsdorf-employment-claim-batch248",
+      "person_id": "141fa466-8e78-5eb4-8d7a-e3d9dd38aa01",
+      "affiliation_key": "walton-bostwick-braunsdorf-salesman-1941-batch248",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In 1941, Walton H. Bostwick was listed as a salesman for Wesley R. Braunsdorf Associates, an insurance-counseling firm in Westfield, New Jersey.",
+      "evidence_excerpt": "Walton H slsmn Wesley R Braunsdorf Associates",
+      "evidence_paraphrase": "The contemporary city directory names Bostwick's role and employer; the firm's separate entry describes it as insurance counsellors exclusively.",
+      "identity_match_assessment": "High confidence from the rare exact name and middle initial, independently corroborated radio background, commissioned service, and explicit OSS context.",
+      "temporal_assessment": "Documented in 1941 before OSS service, but the directory does not establish this as the last civilian employer or immediate pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published only as other documented pre-OSS employment. It is excluded from immediate-affiliation and last-civilian-employer counts.",
+      "sources": [
+        {
+          "source_key": "polk-westfield-cranford-directory-1941-batch248",
+          "support_type": "supports",
+          "locator_override": "Digital PDF page 39 for Bostwick; page 42, printed page 46 for the organization description",
+          "excerpt_override": "Walton H slsmn Wesley R Braunsdorf Associates"
+        }
+      ]
+    },
+    {
+      "key": "william-boterf-confirmed-army-identity-batch248",
+      "person_id": "f34e177d-1d76-5a98-8709-cb836491c673",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed William Boterf is confirmed as William V. Boterf in the official Army merged file.",
+      "evidence_excerpt": "BOTERF WILLIAM V",
+      "evidence_paraphrase": "The visually checked index and official Army row share the exact private identifier; the Army row supplies middle initial V and an Army-entry date of March 24, 1941.",
+      "identity_match_assessment": "Confirmed through exact private-identifier agreement and surname and first-name agreement across two official sources.",
+      "temporal_assessment": "The Army row dates entry as a private on March 24, 1941. Its civilian-occupation code 999 is not assigned a public meaning, and no employer or OSS accession sequence is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier remains masked. No affiliation is created from code 999, and no employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-45-batch248",
+          "support_type": "supports",
+          "locator_override": "PDF page 45, row 31; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch248",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BOTERF WILLIAM V"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch248",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy pages 40-42; fixed-width field layout"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "022b4b26-1d51-572b-97cb-2f1a69e70b80",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies the distinctive name Araxi Bostanian and civilian grade CAF-5 but no private identifier. A family fundraiser and church memorial suggest an Araxi Bostanian Kobrin or Cobrin with OSS service, but no official or independent pre-OSS evidence corroborates the match.",
+      "name_variants": [
+        "Araxi Bostanian",
+        "Bostanian, Araxi"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 70 for a full name, education, residence, and employment chronology before accepting the family-source candidate.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9731aa28-2264-5213-b59b-f37fecc55892",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, middle initial, indexed major rank, CIA's explicit identification of Jackson Bostwick as an OSS China Theater surgeon, and the University of Minnesota's Jackson Leonard Bostwick neurosurgery record support the identity.",
+      "name_variants": [
+        "Jackson L Bostwick",
+        "Jackson L. Bostwick",
+        "Jackson Leonard Bostwick",
+        "Bostwick, Jackson L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 70 for his pre-OSS medical training or employer and accession chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "141fa466-8e78-5eb4-8d7a-e3d9dd38aa01",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name and middle initial, commissioned Army context, a profile explicitly placing Walton Bostwick in the Signal Corps assigned to OSS, and the contemporary directory record for Walton H. Bostwick provide mutually reinforcing evidence. A conflicting enlisted Army namesake has a different private identifier and is rejected.",
+      "name_variants": [
+        "Walton H Bostwick",
+        "Walton H. Bostwick",
+        "Walton Bostwick",
+        "Walt Bostwick",
+        "Bostwick, Walton H."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 70 to determine whether Wesley R. Braunsdorf Associates was his last civilian employer and to establish the Signal Corps-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e9aa00d3-1a6c-54f0-918b-fb658dcfcce8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index provides the common name William F. Bostwick, Technician Fifth Grade, and a private identifier. No exact-name Army bulk row or independently corroborated OSS, employment, obituary, directory, or institutional source was located.",
+      "name_variants": [
+        "William F Bostwick",
+        "William F. Bostwick",
+        "Bostwick, William F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 70 for identity, occupation, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "34c399ae-8b2c-5022-9f80-3dc3713f3c3a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives Ruth E. Boswell and civilian grade CAF-7 but no private identifier. One exact-name WAC Army row entered service in March 1944, but no second identifier connects that candidate to the indexed civilian personnel row.",
+      "name_variants": [
+        "Ruth E Boswell",
+        "Ruth E. Boswell",
+        "Boswell, Ruth E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Compare Box 70 with the WAC candidate's birth, residence, service, and occupation before accepting or rejecting the match.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f34e177d-1d76-5a98-8709-cb836491c673",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share the exact private identifier and name William Boterf. The Army row supplies middle initial V and dates Army entry to March 24, 1941.",
+      "name_variants": [
+        "William Boterf",
+        "William V Boterf",
+        "William V. Boterf",
+        "Boterf, William V."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 70 for the employer or occupation hidden behind unmapped code 999 and the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "77305c38-76d9-56f8-9383-c23b973540fa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index provides Theodore F. Both, Technician Fifth Grade, and a private identifier. No exact-name Army bulk row or independently corroborated OSS, employment, obituary, directory, or institutional source was located.",
+      "name_variants": [
+        "Theodore F Both",
+        "Theodore F. Both",
+        "Both, Theodore F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 70 for identity, occupation, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ff35a1ea-31e7-50e2-92d4-0ddd7a802e9d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index identifies Lieutenant Philippe M. Botman as Belgian but provides no private identifier. Exact-name, spelling-variant, Belgian military, OSS, obituary, institutional, CIA, NARA, and Library of Congress searches did not produce a corroborated identity or pre-OSS affiliation.",
+      "name_variants": [
+        "Philippe M Botman",
+        "Philippe M. Botman",
+        "Botman, Philippe M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or assignment has yet been identified in the accessible sources reviewed. Review Box 70 for Belgian service identifiers, aliases, and the pre-OSS assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a423c60b-0a2e-57c8-959a-ecc7adead9b2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index provides John I. Bott, Ensign, and a private identifier. Exact-name and naval variants did not yield an independently corroborated NARA, Navy, CIA, newspaper, obituary, directory, institutional, or archival identity.",
+      "name_variants": [
+        "John I Bott",
+        "John I. Bott",
+        "Bott, John I."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or naval assignment has yet been identified in the accessible sources reviewed. Review Box 70 for Navy identifiers, occupation, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0629f9a0-7eaf-58d8-a80a-42d3a30a8be8",
+      "identity_status": "probable",
+      "identity_evidence": "The index prints 'WilliamR Bottema' with a seven-digit private identifier and no rank. One exact-name William R. Bottema Army row carries an eight-digit identifier whose final seven digits match the printed index value, but its October 1945 Army entry and Technician Sergeant grade require file-level confirmation.",
+      "name_variants": [
+        "WilliamR Bottema",
+        "William R Bottema",
+        "William R. Bottema",
+        "Bottema, William R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Compare Box 70 with the Army candidate's full identifier, birth, residence, late entry, rank, and occupation before accepting the probable match.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "araxi-bostanian-protocol-batch248",
+      "person_id": "022b4b26-1d51-572b-97cb-2f1a69e70b80",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Araxi Bostanian: visually verified NARA OSS index; exact-name and married-name variants; NARA, CIA Reading Room, OSS, employer, CAF-5, university, teacher, obituary, newspaper, directory, Library of Congress, church, family, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:08:00+00:00",
+      "completed_at": "2026-08-17T22:22:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A family fundraiser and memorial suggest married-name variants and OSS service but do not provide independent identity or dated pre-OSS employment evidence; modern namesakes were rejected.",
+      "research_notes": "The family-source candidate remains a lead only and supports no public claim.",
+      "next_action": "Review Box 70 for a full name, education, residence, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "jackson-bostwick-protocol-batch248",
+      "person_id": "9731aa28-2264-5213-b59b-f37fecc55892",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Jackson L. Bostwick: visually verified NARA OSS index; NARA Army bulk; CIA Reading Room and CIA Studies in Intelligence; exact-name OSS, surgeon, physician, employer, hospital, university, obituary, newspaper, directory, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:10:00+00:00",
+      "completed_at": "2026-08-17T22:27:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Postwar surgical biographies and institutional entries do not establish a pre-OSS employer; common-name results lack OSS or medical corroboration.",
+      "research_notes": "CIA and University of Minnesota sources support a high-confidence identity but no employer before OSS.",
+      "next_action": "Review Box 70 for the pre-OSS medical training or employer and accession chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "walton-bostwick-protocol-batch248",
+      "person_id": "141fa466-8e78-5eb4-8d7a-e3d9dd38aa01",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Walton H. Bostwick: visually verified NARA OSS index; exact-name Army bulk and private-identifier comparison; CIA Reading Room; OSS, Signal Corps, radio, employer, engineer, amateur-radio, obituary, newspaper, directory, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:12:00+00:00",
+      "completed_at": "2026-08-17T22:38:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "An exact-name Army row has a different private identifier and enlisted grade; postwar NBC and War Assets employment is outside scope; amateur-radio licensing alone is not employment.",
+      "research_notes": "The 1941 directory documents employment by Wesley R. Braunsdorf Associates. It is published only as other documented pre-OSS employment because immediate and last-civilian sequence are unproved.",
+      "next_action": "Review Box 70 to test whether the insurance job was his last civilian employer and establish the Signal Corps-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "william-f-bostwick-protocol-batch248",
+      "person_id": "e9aa00d3-1a6c-54f0-918b-fb658dcfcce8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William F. Bostwick: visually verified NARA OSS index; exact-name and identifier Army bulk checks; NARA, CIA Reading Room, OSS, T-5, employer, occupation, obituary, newspaper, directory, institutional, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:14:00+00:00",
+      "completed_at": "2026-08-17T22:26:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name military and obituary candidates lacked the private identifier, middle-name expansion, OSS context, or a dated employer.",
+      "research_notes": "No exact Army bulk row or independently supported identity was found.",
+      "next_action": "Review Box 70 for identity, occupation, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "ruth-boswell-protocol-batch248",
+      "person_id": "34c399ae-8b2c-5022-9f80-3dc3713f3c3a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ruth E. Boswell: visually verified NARA OSS index; exact-name Army WAC candidate; NARA, CIA Reading Room, OSS, CAF-7, employer, occupation, obituary, newspaper, directory, institutional, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:16:00+00:00",
+      "completed_at": "2026-08-17T22:30:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The exact-name 1944 WAC row has no corroborating identifier linking it to the CAF-7 index row; newspaper and family results are common-name candidates.",
+      "research_notes": "The WAC candidate is withheld from public claims pending Box 70 comparison.",
+      "next_action": "Compare Box 70 with the WAC candidate's birth, residence, service, and occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "william-boterf-protocol-batch248",
+      "person_id": "f34e177d-1d76-5a98-8709-cb836491c673",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William Boterf: visually verified NARA OSS index; exact private-identifier Army bulk match; NARA code documentation; CIA Reading Room; exact-name and William V. variants; employer, occupation, obituary, newspaper, directory, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:18:00+00:00",
+      "completed_at": "2026-08-17T22:33:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Common-name and genealogy results lack the private identifier or OSS context; civilian-occupation code 999 has no assigned public meaning and cannot support an occupation or employer claim.",
+      "research_notes": "Exact identifier agreement confirms identity and adds middle initial V, but no affiliation is supportable.",
+      "next_action": "Review Box 70 for a named occupation or employer and the Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "theodore-both-protocol-batch248",
+      "person_id": "77305c38-76d9-56f8-9383-c23b973540fa",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Theodore F. Both: visually verified NARA OSS index; exact-name and identifier Army bulk checks; NARA, CIA Reading Room, OSS, T-5, employer, occupation, obituary, newspaper, directory, institutional, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:20:00+00:00",
+      "completed_at": "2026-08-17T22:32:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Common-name and surname-as-word results lack the private identifier, OSS context, or a dated employer.",
+      "research_notes": "No exact Army bulk row or independently supported identity was found.",
+      "next_action": "Review Box 70 for identity, occupation, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "philippe-botman-protocol-batch248",
+      "person_id": "ff35a1ea-31e7-50e2-92d4-0ddd7a802e9d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Philippe M. Botman: visually verified NARA OSS index and Belgian note; exact-name, spacing, spelling, and transliteration variants; NARA, CIA Reading Room, Belgian military, OSS, employer, occupation, obituary, newspaper, institutional, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:22:00+00:00",
+      "completed_at": "2026-08-17T22:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Botman and Botmann namesakes lack the middle initial, Belgian OSS context, archival identifier, or dated pre-OSS affiliation.",
+      "research_notes": "The foreign-personnel note is preserved, and the absence of a private identifier makes the physical file especially important.",
+      "next_action": "Review Box 70 for Belgian service identifiers, aliases, and pre-OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "john-bott-protocol-batch248",
+      "person_id": "a423c60b-0a2e-57c8-959a-ecc7adead9b2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John I. Bott: visually verified NARA OSS index; exact-name, Ensign, Navy, and identifier variants; NARA, CIA Reading Room, OSS, naval rosters, employer, occupation, obituary, newspaper, directory, institutional, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:24:00+00:00",
+      "completed_at": "2026-08-17T22:37:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Naval and obituary namesakes lack the private identifier, exact middle initial, OSS context, or a dated pre-OSS affiliation.",
+      "research_notes": "No candidate met the common-name disambiguation threshold.",
+      "next_action": "Review Box 70 for Navy identifiers, occupation, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    },
+    {
+      "key": "william-bottema-protocol-batch248",
+      "person_id": "0629f9a0-7eaf-58d8-a80a-42d3a30a8be8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "WilliamR Bottema and William R. Bottema: visually verified NARA OSS index; exact-name and identifier Army bulk checks; NARA, CIA Reading Room, OSS, Technician Sergeant, employer, occupation, obituary, Minnesota military, newspaper, directory, Library of Congress, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-17T22:26:00+00:00",
+      "completed_at": "2026-08-17T22:42:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The exact-name Army candidate's identifier contains the printed seven-digit value but adds a leading digit; late 1945 entry and unprinted index rank need archival reconciliation. Veteran-list and genealogy leads add no resolving identifiers or employer.",
+      "research_notes": "The candidate is probable but remains unpublished as an affiliation or employer claim.",
+      "next_action": "Compare Box 70 with the Army candidate's full identifier, birth, residence, rank, and occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch248-v1"
+    }
+  ]
+}

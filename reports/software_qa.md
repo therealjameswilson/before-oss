@@ -5,40 +5,40 @@ Run: 2026-08-17 UTC
 - Python unit tests: **70 / 70 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,377 pages**
-- Internal link check: **24,377 HTML files passed**
-- Complete browser and accessibility matrix: **783 / 783 passed** locally
+- Static production build: **24,378 pages**
+- Internal link check: **24,378 HTML files passed**
+- Complete browser and accessibility matrix: **786 / 786 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
-- Batch 247 regression: **3 / 3 passed** as part of the complete matrix
+- Focused Batch 248 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`5fff2a55e0c9e5c338e0a5e5f18ba49f2c1249042aea8c6df151d15595a61535`)
-- Latest deterministic build (Batch 247): **byte-for-byte identical** across
+  (`0e8859062084b0fd7015907b8fb24fd9551d4617a0f319838e6d99df72ebe896`)
+- Latest deterministic build (Batch 248): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,161,474 bytes**;
+  across **74,208,906 bytes**;
   manifest SHA-256
-  `4f5c9fb7961257ac37d417dd5211af6cd0f827204522d9f20c12ff4e123e9d05`
+  `a27df5f4f61119470caf28949acdd497cfa63ab61debadf8cfa26d6c8330942a`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,447** production artifacts, including compressed mirrors;
-  **1,022** candidate substrings were reviewed.
+  matches** in **24,448** production artifacts, including compressed mirrors;
+  **1,018** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,748** public records representing **1,290** unique documents
-- Private citation records: **2,764**
-- Published, qualified, or conflict-visible affiliations: **985**
-- Published or conflict-visible claims: **1,901**
-- Verified-affiliation metric: **411** people with confirmed/high published
+- Reviewed public sources: **1,755** public records representing **1,294** unique documents
+- Private citation records: **2,771**
+- Published, qualified, or conflict-visible affiliations: **986**
+- Published or conflict-visible claims: **1,905**
+- Verified-affiliation metric: **412** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **180** people with confirmed/high published
+- Verified-employer metric: **181** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -143,6 +143,47 @@ Run: 2026-08-17 UTC
 - Batch 247 local release checks: **passed**; after correcting one overly broad
   test locator found by the first full run, the complete **783-case** browser
   and axe matrix passed locally
+- Batch 247 production verification: **passed**; release `1f2e047` passed the
+  post-merge Test and Pages workflows, and all **65** live assets plus all ten
+  new profile routes matched the audited release
+- Batch 248 local release checks: **passed**; after correcting punctuation in
+  the new historical-employer assertion, the focused **3-case** regression and
+  complete **786-case** browser and axe matrix passed locally
+
+## Batch 248 local release check
+
+Batch 248 adds the ten visually checked source rows from Araxi Bostanian
+through the index's printed `WilliamR Bottema` on PDF page 45 and in Box 70.
+The strict evidence bundle imports seven sources, one organization, one
+affiliation, four claims, ten claim-source links, ten person updates, and ten
+durable research attempts. A second import leaves every relevant table count
+unchanged. It publishes Walton H. Bostwick's 1941 insurance-sales employment
+only as documented prewar work, not immediate or last-civilian employment;
+confirms William V. Boterf without interpreting unmapped occupation code 999;
+and preserves eight other identity or archival-review limits.
+
+SQLite integrity and foreign-key checks passed, as did all 70 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,378 pages. The internal-link checker passed all 24,378 HTML
+files and inventoried 49,211 unique external URLs. The first focused run
+exposed only a missing period in the test's expected historical organization
+name across three viewports; after that assertion was corrected, the focused
+3 / 3 regression and complete 786 / 786 browser and axe matrix passed in 7.0
+minutes with no serious or critical axe violation. The production dependency
+audit found zero vulnerabilities.
+
+All 65 public-manifest assets match their recorded paths, sizes, and SHA-256
+values in the source and built trees; the manifest covers 74,208,906 bytes and
+has SHA-256
+`a27df5f4f61119470caf28949acdd497cfa63ab61debadf8cfa26d6c8330942a`.
+The boundary-aware identifier audit checked 12,926 normalized private
+identifiers and 121 formatted variants, reviewed 1,018 candidate substrings,
+and found zero unexpected boundary matches, aggregate false positives, or
+manifest-size false positives across 24,448 production artifacts. No
+authenticated NARA Catalog API request was made.
+
+Consecutive production-site builds produced the identical complete-site digest
+`0e8859062084b0fd7015907b8fb24fd9551d4617a0f319838e6d99df72ebe896`.
 
 ## Batch 247 local release check
 

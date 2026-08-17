@@ -4,12 +4,26 @@ Run: 2026-08-17 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **783 / 783**
+**PASS.** The complete browser and accessibility matrix passed **786 / 786**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 248 adds a focused direct-route regression for Araxi Bostanian through
+the source index's printed `WilliamR Bottema` on PDF page 45. It checks all ten
+indexed names, Box 70, public-safe masked identifier rendering, personnel
+classifications, terminal research states, confidence qualification, and
+employer-gap language. It separately verifies Walton H. Bostwick's dated
+Wesley R. Braunsdorf Associates employment as earlier work rather than an
+immediate or last-civilian claim; Jackson Leonard Bostwick's qualified identity
+without a pre-OSS employer; William V. Boterf's exact-identifier match without
+interpreting code 999; the literal `WilliamR` spelling and probable identity;
+Belgian status; and unresolved identity boundaries. The first focused run
+found only a missing period in the expected historical organization name. The
+corrected focused regression passed 3 / 3, and the complete matrix passed
+786 / 786 locally in 7.0 minutes with no serious or critical axe violations.
 
 Batch 247 adds a focused direct-route regression for Willem A. Bos through
 Paul C. Bossemeyer on PDF page 45. It checks all ten indexed names, Box 70,
