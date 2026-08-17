@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-16 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,236 people with a non-planned attempt | 23,940 active person entities | 9.3400% |
+| Research-attempt coverage | 2,245 people with a non-planned attempt | 23,940 active person entities | 9.3776% |
 | Verified-affiliation coverage | 410 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7126% |
 | Verified-employer coverage | 180 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7519% |
-| Archival-review coverage | 2,185 people with an individual file-access/priority assessment | 23,940 active person entities | 9.1270% |
+| Archival-review coverage | 2,194 people with an individual file-access/priority assessment | 23,940 active person entities | 9.1646% |
 
 ## Extraction and identity
 
@@ -23,43 +23,43 @@ Generated from the current local SQLite database on 2026-08-16 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 333
-- Identity status `high_confidence`: 428
-- Identity status `probable`: 78
-- Identity status `ambiguous`: 42
+- Identity status `confirmed`: 335
+- Identity status `high_confidence`: 431
+- Identity status `probable`: 79
+- Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,034
+- Identity status `unresolved`: 23,027
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,396
-- Enlisted Army personnel: 3,587
+- Unknown or indeterminate: 16,394
+- Enlisted Army personnel: 3,588
 - Commissioned Army officers: 2,078
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,474
+- Civilian professional or administrative grades: 1,475
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 58
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,189 yes; 5,209 no; 16,542 indeterminate.
+Commissioned classification: 2,189 yes; 5,211 no; 16,540 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,704
+- `not_started`: 21,695
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 51
+- `needs_identity_review`: 53
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 52
+- `documented_prewar_employer_found`: 53
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 292
-- `requires_archival_review`: 1,494
+- `occupation_only_found`: 294
+- `requires_archival_review`: 1,497
 - `completed`: 76
-- `conflicting_sources`: 26
+- `conflicting_sources`: 27
 - `verified_employer_found`: 178
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -68,15 +68,15 @@ Commissioned classification: 2,189 yes; 5,209 no; 16,542 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,007. The detailed adapter breakdown remains reproducible in
+  adapters: 2,027. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 912 across 883 people; 110 additional
+- Saved `source_reviewed` outcomes: 918 across 888 people; 111 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,432
+- Total recorded attempts/plans: 3,442
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 845; 822 have at least one public-visible
+- People with saved reviewed claims: 850; 827 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,63 @@ Commissioned classification: 2,189 yes; 5,209 no; 16,542 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 245 covers the next ten contiguous rows, Paul A. Borel through Louis
+  Borin, across PDF pages forty-four and forty-five in Box 69. Both source pages
+  and all ten rows were checked visually at original resolution. An official
+  CIA biography and a 1983 Theta Tau institutional profile support a high-
+  confidence Paul Arnold Borel identity and document earlier engineering and
+  management-analysis work at Sun Oil Company, Black & Veatch, and Phillips
+  Petroleum Company. The source does not order those jobs or connect any one
+  directly to OSS entry, so all three remain medium-confidence `documented
+  prewar` employment: none is labeled immediate and none is labeled the last
+  civilian employer.
+
+  A rare-name match, the indexed rank, and a 1988 scholarly periodical article
+  support a high-confidence John M. Borgerson identity and his August 1944 OSS
+  Detachment 101 assignment, but no pre-OSS employer was found. Lawrence Hugo
+  Borgerding is also high confidence, while the evidence remains explicitly
+  conflicting: the indexed private identifier has an `RA` prefix and is one
+  digit shorter than the official Army row, whose December 1945 entry date
+  conflicts with an obituary's 1945 graduation, Army-draft, Germany-service,
+  and wartime-OSS chronology. St. Francis Borgia High School is published only
+  as medium-confidence student status with an uncertain temporal relation, not
+  as employment. His Box 69 file and original Army record remain critical.
+
+  Exact private-identifier agreement with the official Army merged file
+  confirms Louis Borges and Leslie N. Borgwardt. Their records supply only a
+  broad skilled miscellaneous-products manufacturing occupation and a
+  kindergarten or primary-school-teacher category respectively; neither names
+  an employer. Frank V. Borgia's exact-name Army candidate remains probable
+  and unpublished because the index prints no identifier and the merged
+  identifier also occurs under an unrelated name. Frances Borger and the
+  visually verified `Alferd J. Borgman` spelling remain unresolved; `Alfred`
+  is retained only as a search alias. William H. Borger remains ambiguous
+  because the index labels him civilian and supplies no identifier for the
+  1944 Army candidate. The previously confirmed Louis Borin entity was
+  re-audited in contiguous order: the two separately printed Louis Berin and
+  Louis Borin rows, their spellings, and their shared private identifier remain
+  preserved without duplicating the occupation claim.
+
+  The strict evidence bundle adds nine sources, four organizations, six
+  affiliations, eleven claims, twenty-three claim-source links, ten person
+  updates, and ten durable research attempts. It reimports without changing
+  any table count. Coverage is now 2,245 researched people, 410 people with a
+  verified affiliation, 180 with a verified employer, and 2,194 assessed for
+  archival review, out of 23,940 active entities. No authenticated Catalog
+  request, credential, raw API response, full private identifier, inferred
+  employer, or convenient namesake match was used or published.
+
+  Local release QA passed all 70 Python tests, the 200-profile stratified audit,
+  Astro diagnostics with zero errors, warnings, or hints, the 24,376-page
+  internal-link check, the focused 3-case browser regression, and the complete
+  777-case desktop, phone, and tablet browser/axe matrix in 25.9 minutes with no
+  serious or critical violation. The public-data manifest covers 65 assets and
+  74,016,862 bytes with SHA-256
+  `591f1ee42fd9fc4a052bcd8c2fbfb807c8891d11254e54088912cac1c8cfd0a3`;
+  the identifier audit found zero unexpected boundary matches across 24,446
+  production artifacts. Consecutive production builds produced the identical
+  complete-site digest
+  `e6857ec71e468b1017c58e1f0eee2e575a8032ef57950bc321b8cd7c54b494ae`.
 - Batch 244 covers the next ten contiguous rows, Woodrow W. Borah through
   George M. Borel, on PDF page forty-four in Box 69. The source page and all
   ten rows were checked visually at original resolution. A UC Berkeley
