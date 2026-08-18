@@ -22753,3 +22753,56 @@ test("Batches 273-275 preserve identifier conflicts and separate Bretton's milit
   await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
 });
+
+test("Batch 276 publishes Brickelmaier's Dartmouth student status without inventing an employer and preserves unresolved namesakes", async ({
+  page,
+}) => {
+  await page.goto("./people/f0086075-f083-54e8-a379-48df9200a346/");
+  await expect(page.getByRole("heading", { name: "Robert D Brewster", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Robert Dows Brewster");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/4b4036ac-f925-59bd-84c9-467b7c16ae98/");
+  await expect(page.getByRole("heading", { name: "Vauthier Breycha", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("compound surname");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/3f619dc8-ea0c-50c9-a460-d1c320594ad8/");
+  await expect(page.getByRole("heading", { name: "Edward J Breyere Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/52f3eba5-7fb6-587a-b549-c1e3aa0bf136/");
+  await expect(page.getByRole("heading", { name: "George Brickelmaier", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("civilian professional or administrative grade", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Brickelmaier, George Jr. '42 OSS");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Dartmouth College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/512015bb-97ac-531f-9467-1ecdb525561b/");
+  await expect(page.getByRole("heading", { name: "Robert H Bridges", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+});
