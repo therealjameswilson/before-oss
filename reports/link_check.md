@@ -4,16 +4,39 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,386 HTML files. Every relative
+**PASS.** The production build contains 24,387 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 438 organization profiles, and the
+The build includes 23,940 person profiles, 439 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,275 unique external URLs for separate live
+The checker inventoried 49,279 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 285 local release check
+
+The complete 24,387-page internal-link pass includes direct routes for John C.
+Brosnan through Amedee W. Brousseau on PDF page 54 and the new St. John's
+Ambulance Service organization page. The 74-test Python suite, deterministic
+200-profile audit, focused three-viewport regression, 27-case axe matrix,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,078,296 bytes and has
+SHA-256 `ee16bac6cec7eb7da3d997bc7976e333fd21e206919ad315040da48602db80fa`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,457 production artifacts, rejected
+1,026 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`ca34f7e8ff8eca906864ea725e0bb985a75b8558298cbe89bb098d5a83871094`.
+The regression separates student, military, and medical-service relationships,
+preserves two identifier conflicts, and keeps all full private identifiers out
+of public facts.
 
 ## Batch 284 local release check
 

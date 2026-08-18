@@ -15,6 +15,18 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 285 adds a focused direct-route regression for John C. Brosnan through
+Amedee W. Brousseau on PDF page 54. It verifies exact-identifier Army identities
+for John P. Brosnan and Robert C. Broughton while preserving their qualified
+student or existing employer pathways; keeps Stanley S. Brotman's Yale student
+status separate from his Army-to-OSS sequence; and presents William Brough's
+British medical-service affiliation without calling it employment. It also
+keeps two different-name identifier collisions rejected and five unresolved
+profiles on the archival-review path. The focused regression passed **3 / 3**
+across desktop, phone, and tablet. A fresh core-route axe matrix passed
+**27 / 27**, including the Sources table, with no serious or critical axe
+violation.
+
 Batch 284 adds a focused direct-route regression for Richard C. Brooks through
 Kenneth L. Brosius on PDF page 54. It verifies three exact-identifier Army
 identities while keeping tool-sharpening, payroll/timekeeping, and student
