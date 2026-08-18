@@ -15,6 +15,16 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batches 270-272 add a focused direct-route regression for Selma Braunstein
+through Robert L. Bremhorst on PDF page 50. It checks the separation of student
+status from employment, exact-identifier Army and CIA identities, commissioned
+classification, unresolved namesakes, public-safe identifier rendering, and
+George S. Breitmayer Jr.'s last civilian employer without presenting it as an
+immediate pre-OSS affiliation. The focused regression passed **3 / 3** across
+desktop, phone, and tablet. A fresh core-route axe matrix passed **27 / 27**,
+including the growing Sources table under its route-specific timeout, with no
+serious or critical violation.
+
 Batches 263-269 add a focused direct-route regression for Stella Bradford
 through Peter Braunstein across PDF pages 48-50. It checks reviewed profiles,
 public-safe identifier rendering, personnel classifications, terminal research
