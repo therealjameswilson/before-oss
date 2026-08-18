@@ -15,6 +15,18 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 286 adds a focused direct-route regression for James F. Brousseau through
+Charles J. Brown on PDF page 54. It verifies the exact-identifier Army
+identities and qualified occupations for James F. Brousseau and Avritt L.
+Brown without presenting either occupation as a named employer; confirms Alvin
+Brower's Army identity without expanding an undefined occupation code; keeps
+Alvin L. Brown's middle-initial conflict visible and the mismatched Army
+occupation unassigned; and preserves Abraham Brown's index-supported officer
+classification and Charles J. Brown's printed `83?` note. All ten indexed names
+receive direct profiles. The focused regression passed **3 / 3** across
+desktop, phone, and tablet. A fresh core-route axe matrix passed **27 / 27**,
+including the Sources table, with no serious or critical axe violation.
+
 Batch 285 adds a focused direct-route regression for John C. Brosnan through
 Amedee W. Brousseau on PDF page 54. It verifies exact-identifier Army identities
 for John P. Brosnan and Robert C. Broughton while preserving their qualified

@@ -15,6 +15,28 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,279 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 286 local release check
+
+The complete 24,387-page internal-link pass includes direct routes for James F.
+Brousseau through Charles J. Brown on PDF page 54. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport regression, 27-case axe
+matrix, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,124,573 bytes and has
+SHA-256 `5f117aa7fbf46ea03b62b116ab06e9743c403d9fd209264ae8948c08d3fee649`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,457 production artifacts, rejected
+1,030 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`69d3bf1933bf77f1ceadd964984a27212fd0fa1fb5f71f33083d8bf43f2d4b8c`.
+The regression publishes only two supported occupation categories, leaves the
+middle-initial identity conflict unresolved, preserves the printed `83?` note,
+and keeps all full private identifiers out of public facts.
+
 ## Batch 285 local release check
 
 The complete 24,387-page internal-link pass includes direct routes for John C.
