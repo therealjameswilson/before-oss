@@ -23274,3 +23274,68 @@ test("Batch 285 separates student, military, and medical-service pathways while 
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 286 publishes two identifier-backed occupations and keeps the Brown identity conflict unresolved", async ({
+  page,
+}) => {
+  await page.goto("./people/ffbe28ed-4d3b-5fbe-8949-26ab35323d4d/");
+  await expect(page.getByRole("heading", { name: "James F Brousseau", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Carpenter");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/47e24b71-a7ad-570f-b3a3-e111cc88258f/");
+  await expect(page.getByRole("heading", { name: "Alvin Brower", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/4a6e2334-186a-5bd7-9dd4-2f74cccd4b2f/");
+  await expect(page.getByRole("heading", { name: "Abraham Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Yes", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/328ad432-1561-5fa1-9f3a-8eb6d976b003/");
+  await expect(page.getByRole("heading", { name: "Adelade M Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/4e961a6d-c1cb-55c5-a109-679460a76b40/");
+  await expect(page.getByRole("heading", { name: "Alice H Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/3bda9e9d-96a3-5f8b-9c7b-b1c015d128d6/");
+  await expect(page.getByRole("heading", { name: "Alvin L Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("middle initial");
+  await expect(page.locator("main")).toContainText("Alvin I. Brown");
+  await expect(page.locator("main")).not.toContainText("Construction foreman");
+
+  await page.goto("./people/ad8c9639-81e2-5f6a-bcd2-07a9a240be4d/");
+  await expect(page.getByRole("heading", { name: "Andrew A Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/1492d942-8b4e-502b-b5dc-465ce1f555fe/");
+  await expect(page.getByRole("heading", { name: "Avritt L Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Manager or official, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/c7883075-3a2f-508f-9535-747e288ef9bf/");
+  await expect(page.getByRole("heading", { name: "Bettina L Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/1b35cda9-2c10-53fa-8ae8-22942885ad81/");
+  await expect(page.getByRole("heading", { name: "Charles J Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("83?");
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+});

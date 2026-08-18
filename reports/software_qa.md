@@ -50,41 +50,56 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 285: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **852-case** matrix runs in release CI
+- Focused Batch 286 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 286: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **855-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batch 285): **byte-for-byte identical**
+- Latest deterministic build (Batch 286): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`ca34f7e8ff8eca906864ea725e0bb985a75b8558298cbe89bb098d5a83871094`).
-- Previous deterministic build (Batch 284): **byte-for-byte identical** across
+  (`69d3bf1933bf77f1ceadd964984a27212fd0fa1fb5f71f33083d8bf43f2d4b8c`).
+- Previous deterministic build (Batch 285): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,078,296 bytes** in both the source and built public trees;
+  across **76,124,573 bytes** in both the source and built public trees;
   manifest SHA-256
-  `ee16bac6cec7eb7da3d997bc7976e333fd21e206919ad315040da48602db80fa`
+  `5f117aa7fbf46ea03b62b116ab06e9743c403d9fd209264ae8948c08d3fee649`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,457** production artifacts, including compressed mirrors;
-  **1,026** candidate substrings were reviewed.
+  **1,030** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,946** public records representing **1,385** unique documents
-- Private citation records: **2,982**
-- Published, qualified, or conflict-visible affiliations: **1,076**
-- Published or conflict-visible claims: **2,120**
+- Reviewed public sources: **1,951** public records representing **1,387** unique documents
+- Private citation records: **2,987**
+- Published, qualified, or conflict-visible affiliations: **1,078**
+- Published or conflict-visible claims: **2,125**
 - Verified-affiliation metric: **426** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **185** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 286 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,387-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. James F. Brousseau, Alvin Brower, and Avritt L. Brown have
+  exact-identifier Army identities; only the supported carpenter and residual
+  manager-or-official occupations are published, and no named employer is
+  invented. Alvin L. Brown's middle-initial conflict remains unresolved, while
+  Abraham Brown retains only the index-supported commissioned classification.
+  Six unresolved profiles remain archival-review cases. The complete 855-case
+  browser matrix runs in release CI.
 - Batch 285 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,387-route link check, deterministic rebuild, manifest audit, dependency
