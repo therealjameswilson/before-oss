@@ -1,15 +1,28 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-18 UTC
+Run: 2026-08-17 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **792 / 792**
+**PASS.** The complete browser and accessibility matrix passed **795 / 795**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 251 adds a focused direct-route regression for Edward F. Boughton
+through Charles Bourbonnais on PDF page 46. It checks all ten indexed names,
+Boxes 71-72, public-safe masked identifier rendering, personnel
+classifications, terminal research states, confidence qualification, and
+employer-gap language. It verifies Wilfred Boulay's visually corrected raw and
+normalized rank/identifier/date fields; Arthur R. Boulander's occupation-only
+finding; Rudyerd Boulton's Field Museum employment and wartime leave overlap;
+Michel de Bourbon-Parma's Army-to-OSS pathway without calling the Army a
+civilian employer; and seven unresolved archival-review profiles. After one
+raw-evidence assertion was corrected, the focused regression passed 3 / 3 and
+the complete matrix passed 795 / 795 locally in 26.1 minutes with no serious or critical axe
+violation.
 
 Batch 250 adds a focused direct-route regression for Ernest J. Bouchea through
 Paul E. Boudreau across PDF pages 45-46. It checks all ten Box 71 rows,

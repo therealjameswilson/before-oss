@@ -36,8 +36,8 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-Ninety-five pages have durable, replayable visual decisions. The current audit
-rules select 91 of them; four additional pages retained from earlier checks are
+Ninety-six pages have durable, replayable visual decisions. The current audit
+rules select 92 of them; four additional pages retained from earlier checks are
 also reviewed. Twenty-three values
 are printed in the table's `M I` column while their rank cells are blank: six
 civilian grades and seventeen military grades. Their raw cells remain
@@ -47,17 +47,22 @@ plus a replayable row-specific visual-review decision. Page 117 contains two
 independently reviewed military-grade corrections; the importer therefore
 validates unique page-row coordinates rather than assuming one correction per
 page. Eight additional rows contain all-numeric values visibly printed in the
-rank column. Parser version `bbox-columns-v7` preserves those raw cells, emits
+rank column. Parser version `bbox-columns-v8` preserves those raw cells, emits
 `serial_number_printed_in_rank_column`, and normalizes the value as a probable
 serial identifier while leaving rank unknown. The public projection masks both
-the identifier and the anomalous rank-cell display. The complete coordinates
+the identifier and the anomalous rank-cell display. Page 46 adds one combined
+shift: Wilfred Boulay's printed row places `T/Sgt` under M I, a numeric
+identifier under rank, and `Jun-43` under serial. Version `bbox-columns-v8`
+normalizes the first two values as rank and private identifier while treating
+the third as a date annotation, and emits a dedicated warning. The complete coordinates
 and expected raw values are retained in
 `research/parser_visual_review_decisions.json`. Parser fixtures cover missing
 first names, initials, suffixes, apostrophes, hyphens, foreign notes, civilian
-grades, military ranks, numeric rank-column anomalies, multiple column shifts
-on one page, and unfamiliar values.
+grades, military ranks, numeric rank-column anomalies, the combined
+rank/identifier/date shift, multiple column shifts on one page, and unfamiliar
+values.
 
-Version `bbox-columns-v7` also recognizes an identical suffix printed in more
+Version `bbox-columns-v8` also recognizes an identical suffix printed in more
 than one name column. It emits one normalized suffix while preserving every raw
 cell and recording the duplicate-suffix normalization note.
 

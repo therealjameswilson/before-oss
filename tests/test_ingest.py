@@ -115,6 +115,35 @@ class BboxParserTests(unittest.TestCase):
         self.assertIn("raw cells are preserved", note or "")
         self.assertIn("serial_number_printed_in_rank_column", warnings)
 
+    def test_rank_identifier_and_date_annotation_shift_is_normalized_separately(
+        self,
+    ) -> None:
+        words = [
+            Word("Boulay", 72.8, 100.0),
+            Word("Wilfred", 141.1, 100.0),
+            Word("T/Sgt", 210.0, 100.0),
+            Word("3106056", 239.4, 100.0),
+            Word("Jun-43", 282.0, 100.0),
+            Word("71", 355.0, 100.0),
+            Word("230/86/27/06", 410.4, 100.0),
+        ]
+        fields, warnings = _parse_bbox_row(words)
+        middle, classification_rank, middle_note = (
+            _normalization_name_middle_and_rank(fields)
+        )
+        rank, serial, serial_note = _normalization_rank_and_serial(
+            fields, classification_rank
+        )
+        self.assertEqual(fields["middle_initial_raw"], "T/Sgt")
+        self.assertEqual(fields["rank_raw"], "3106056")
+        self.assertEqual(fields["serial_number_raw"], "Jun-43")
+        self.assertIsNone(middle)
+        self.assertEqual(rank, "T/Sgt")
+        self.assertEqual(serial, "3106056")
+        self.assertIn("raw cells are preserved", middle_note or "")
+        self.assertIn("do not treat the date annotation", serial_note or "")
+        self.assertEqual(warnings, ["rank_identifier_date_column_shift"])
+
 
 if __name__ == "__main__":
     unittest.main()

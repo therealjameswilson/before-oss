@@ -22014,3 +22014,94 @@ test("Batch 250 publishes five bounded occupations while preserving late-record 
   await expect(page.locator("main")).toContainText("commissioned army officer");
   await expect(page.locator("main")).toContainText("alternate spelling");
 });
+
+test("Batch 251 corrects Boulay's shifted columns and separates Boulton and Bourbon pathways", async ({
+  page,
+}) => {
+  const profiles = [
+    ["8cc4431a-7420-51db-80f7-15ea189565ed", "Edward F Boughton", "71"],
+    ["dd68f54c-1276-5880-a422-3e5b16402263", "James P Boughton", "71"],
+    ["7073a448-efce-5eac-b46e-f7baa707cbb5", "Willis E Boughton", "71"],
+    ["a6a8dc63-714e-5365-992e-8f0e9550f434", "Arthur R Boulander", "71"],
+    ["39c144b8-c56c-50f1-96d6-83aad669373a", "Wilfred Boulay", "71"],
+    ["b3dfde5c-e4ec-5d61-824c-e4ef238138ad", "James H Boulger Jr.", "71"],
+    ["7ea7e34a-8d5a-542f-9b94-8b75a5962358", "Rudyerd Boulton", "71"],
+    ["73294bea-5757-5a7d-aa69-d0187e8f6d8e", "Rogers P Bourbin", "72"],
+    ["e16818d2-60a1-5762-90c4-9ac63d7298e1", "Michel Bourbon", "71"],
+    ["9fc668aa-a3f4-5cb3-86fa-cd6124b8ef92", "Charles Bourbonnais", "71"],
+  ] as const;
+
+  for (const [personId, displayName, boxNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 46");
+    await expect(page.locator(".index-record").last()).toContainText(boxNumber);
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/39c144b8-c56c-50f1-96d6-83aad669373a/");
+  await expect(page.locator("main")).toContainText("T/Sgt");
+  await expect(page.locator("main")).toContainText(
+    "Numeric identifier printed in rank column (masked)",
+  );
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jun-43");
+
+  await page.goto("./people/a6a8dc63-714e-5365-992e-8f0e9550f434/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Arthur R. Boulanger");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Ushers",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/7ea7e34a-8d5a-542f-9b94-8b75a5962358/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Field Museum of Natural History",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Field Museum of Natural History",
+  );
+  await expect(page.locator("main")).toContainText("Curator of Birds");
+  await expect(page.locator("main")).toContainText("Wolfrid Rudyerd Boulton");
+
+  await page.goto("./people/e16818d2-60a1-5762-90c4-9ac63d7298e1/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Second Lieutenant",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+  await expect(page.locator("main")).toContainText("Michel de Bourbon-Parma");
+
+  for (const personId of [
+    "8cc4431a-7420-51db-80f7-15ea189565ed",
+    "dd68f54c-1276-5880-a422-3e5b16402263",
+    "7073a448-efce-5eac-b46e-f7baa707cbb5",
+    "39c144b8-c56c-50f1-96d6-83aad669373a",
+    "b3dfde5c-e4ec-5d61-824c-e4ef238138ad",
+    "73294bea-5757-5a7d-aa69-d0187e8f6d8e",
+    "9fc668aa-a3f4-5cb3-86fa-cd6124b8ef92",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+});

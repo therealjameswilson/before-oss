@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
@@ -9,6 +10,7 @@ from unittest.mock import patch
 
 from scripts.audit_public_identifiers import (
     _integer_values,
+    identifier_sets,
     public_aggregate_values,
     public_manifest_sizes,
     scan,
@@ -16,6 +18,31 @@ from scripts.audit_public_identifiers import (
 
 
 class PublicIdentifierAuditTests(unittest.TestCase):
+    def test_formatted_variants_exclude_shifted_date_annotations(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            database = Path(directory) / "research.sqlite"
+            with sqlite3.connect(database) as connection:
+                connection.execute(
+                    """
+                    CREATE TABLE source_records (
+                        serial_number_raw TEXT,
+                        serial_number_normalized TEXT
+                    )
+                    """
+                )
+                connection.executemany(
+                    "INSERT INTO source_records VALUES (?, ?)",
+                    [
+                        ("A 12-3456", "A123456"),
+                        ("Jun-43", "7654321"),
+                    ],
+                )
+
+            normalized, formatted = identifier_sets(database)
+
+            self.assertEqual(normalized, {"A123456", "7654321"})
+            self.assertEqual(formatted, {"A 12-3456"})
+
     def test_integer_values_collects_counts_without_booleans(self) -> None:
         self.assertEqual(
             _integer_values({"count": 12, "nested": [34, True, 5.5, "67"]}),

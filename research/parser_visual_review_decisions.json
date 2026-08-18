@@ -73,7 +73,7 @@
     521,
     522
   ],
-  "corrections_reviewed_at": "2026-08-05T21:45:13Z",
+  "corrections_reviewed_at": "2026-08-18T01:15:00Z",
   "correction_rows": [
     {
       "source_page": 3,
@@ -384,6 +384,16 @@
       "expected_rank_raw": "3522453",
       "decision": "reviewed_corrected",
       "notes": "Rendered page reviewed at original detail. The all-numeric identifier 3522453 is printed in the rank column while serial is blank; raw cells remain unchanged, while normalized fields treat the value as an identifier and leave rank unknown."
+    },
+    {
+      "source_page": 46,
+      "source_row_number": 14,
+      "expected_last_name_raw": "Boulay",
+      "expected_first_name_raw": "Wilfred",
+      "expected_middle_initial_raw": "T/Sgt",
+      "expected_rank_raw": "3106056",
+      "decision": "reviewed_corrected",
+      "notes": "Rendered page reviewed at original detail. T/Sgt is printed in the M I column, 3106056 in the rank column, and Jun-43 in the serial column; raw cells remain unchanged, while normalized fields treat T/Sgt as an enlisted Army rank, 3106056 as the identifier, and Jun-43 as a date annotation rather than a serial number."
     }
   ]
 }

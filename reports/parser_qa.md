@@ -1,17 +1,17 @@
 # Parser QA
 
-Generated: 2026-08-17T23:51:51+00:00
+Generated: 2026-08-18T01:11:50+00:00
 
 ## Gate summary
 
 - Source rows: **23,978** of **23,978** expected.
 - PDF pages represented: **522** of **522**.
-- Parser-warning rows: **31**.
-- Pages selected for visual QA: **91**.
+- Parser-warning rows: **32**.
+- Pages selected for visual QA: **92**.
 - Page images rendered in this run: **0**.
 - Pages visually reviewed as matching: **67**.
-- Pages visually reviewed after a normalized-field correction: **28**.
-- Parser-warning rows visually reviewed and corrected: **31**.
+- Pages visually reviewed after a normalized-field correction: **29**.
+- Parser-warning rows visually reviewed and corrected: **32**.
 
 ## Automated checks
 
@@ -23,6 +23,19 @@ Generated: 2026-08-17T23:51:51+00:00
 - PASS - `all_selected_pages_visually_reviewed`
 - PASS - `all_warning_rows_visually_resolved`
 
+## Page 46 column-shift correction
+
+The 32 warning rows comprise 6 civilian grades printed in the middle-initial
+column, 17 military ranks printed there, 8 numeric identifiers printed in the
+rank column, and one combined rank/identifier/date shift. The combined case is
+Wilfred Boulay on page 46: the printed cells place `T/Sgt` under M I, a numeric
+identifier under rank, and `Jun-43` under serial. Parser version
+`bbox-columns-v8` preserves those raw cells, normalizes `T/Sgt` as the rank,
+uses the numeric rank-cell value as the private identifier, treats `Jun-43` as
+a date annotation rather than a service number, and classifies the row as
+enlisted Army personnel. The corrected row and every other warning row have a
+durable visual-review decision.
+
 ## Page row-count distribution
 
 - Minimum: 12
@@ -33,4 +46,4 @@ The final page contains 12 rows and is expected to be shorter. Visual selection 
 
 ## Visual QA selection
 
-1, 2, 3, 4, 5, 6, 9, 28, 32, 33, 50, 53, 60, 69, 70, 72, 77, 87, 90, 101, 110, 115, 117, 124, 125, 127, 129, 136, 151, 153, 162, 170, 184, 207, 215, 220, 243, 251, 259, 260, 261, 262, 263, 264, 269, 275, 281, 292, 293, 301, 302, 303, 307, 308, 312, 314, 326, 330, 336, 337, 339, 345, 349, 358, 372, 381, 387, 389, 396, 397, 398, 402, 424, 442, 444, 447, 453, 455, 456, 463, 468, 481, 486, 489, 506, 517, 518, 519, 520, 521, 522
+1, 2, 3, 4, 5, 6, 9, 28, 32, 33, 46, 50, 53, 60, 69, 70, 72, 77, 87, 90, 101, 110, 115, 117, 124, 125, 127, 129, 136, 151, 153, 162, 170, 184, 207, 215, 220, 243, 251, 259, 260, 261, 262, 263, 264, 269, 275, 281, 292, 293, 301, 302, 303, 307, 308, 312, 314, 326, 330, 336, 337, 339, 345, 349, 358, 372, 381, 387, 389, 396, 397, 398, 402, 424, 442, 444, 447, 453, 455, 456, 463, 468, 481, 486, 489, 506, 517, 518, 519, 520, 521, 522
