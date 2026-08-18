@@ -1,0 +1,790 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, batch 259",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-47-48-batch259",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 74",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 47, rows 44-46, and page 48, rows 1-7; William D. Boyd through Ann M. Boyle; rendered pages visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch259",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for six eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch259",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch259",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Digital PDF pages 171-174; civilian occupational-group codes 1-06, 3-16, 5-25, and 6-85 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "william-boyd-occupation-code-106-batch259",
+      "person_id": "630d1745-12ae-56a8-a480-da299c7e68dd",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Financial institution clerks, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-03",
+      "date_precision": "Civilian-occupation code 106 recorded at Army entry on 1942-08-03; no employer, workplace, exact trade, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The broad occupation code cannot support a named employer, workplace, exact specialty, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "justin-boyer-occupation-code-685-batch259",
+      "person_id": "a6d3d111-e27d-5757-a938-c6e5e36fd4f9",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Semiskilled welders and flame cutters",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-02",
+      "date_precision": "Civilian-occupation code 685 recorded at Army entry on 1943-07-02; no employer, workplace, exact trade, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The broad occupation code cannot support a named employer, workplace, exact specialty, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "melvin-boyette-occupation-code-316-batch259",
+      "person_id": "125b1480-2e6c-50a7-909a-2e43f78c34fa",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-03-03",
+      "date_precision": "Civilian-occupation code 316 recorded at Army entry on 1942-03-03; no employer, workplace, exact trade, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The broad occupation code cannot support a named employer, workplace, exact specialty, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "albert-boyle-occupation-code-525-batch259",
+      "person_id": "aa218410-5a98-5cd7-bd8c-e382fe58504e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Carpenters",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-28",
+      "date_precision": "Civilian-occupation code 525 recorded at Army entry on 1942-12-28; no employer, workplace, exact trade, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The broad occupation code cannot support a named employer, workplace, exact specialty, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "william-boyd-confirmed-identity-batch259",
+      "person_id": "630d1745-12ae-56a8-a480-da299c7e68dd",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed William D. Boyd identity in the official Army merged file.",
+      "evidence_excerpt": "WILLIAM D. BOYD",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and available middle initial or suffix.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-08-03; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Private-at-entry grade does not imply the later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-47-48-batch259",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "WILLIAM D. BOYD"
+        }
+      ]
+    },
+    {
+      "key": "william-boyd-occupation-at-army-entry-batch259",
+      "person_id": "630d1745-12ae-56a8-a480-da299c7e68dd",
+      "affiliation_key": "william-boyd-occupation-code-106-batch259",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places William D. Boyd in the broad civilian group for financial institution clerks, not elsewhere classified.",
+      "evidence_excerpt": "Civilian occupation code 106.",
+      "evidence_paraphrase": "Code 106 was recorded at Army entry on 1942-08-03 and maps to financial institution clerks, not elsewhere classified.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact trade, location, duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 106"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch259",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 1-06"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch259",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "justin-boyer-confirmed-identity-batch259",
+      "person_id": "a6d3d111-e27d-5757-a938-c6e5e36fd4f9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Justin L. Boyer Jr. identity in the official Army merged file.",
+      "evidence_excerpt": "JUSTIN L. BOYER JR.",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and available middle initial or suffix.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-07-02; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Private-at-entry grade does not imply the later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-47-48-batch259",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "JUSTIN L. BOYER JR."
+        }
+      ]
+    },
+    {
+      "key": "justin-boyer-occupation-at-army-entry-batch259",
+      "person_id": "a6d3d111-e27d-5757-a938-c6e5e36fd4f9",
+      "affiliation_key": "justin-boyer-occupation-code-685-batch259",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Justin L. Boyer Jr. in the broad civilian group for semiskilled welders and flame cutters.",
+      "evidence_excerpt": "Civilian occupation code 685.",
+      "evidence_paraphrase": "Code 685 was recorded at Army entry on 1943-07-02 and maps to semiskilled welders and flame cutters.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact trade, location, duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 685"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch259",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 6-85"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch259",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "melvin-boyette-confirmed-identity-batch259",
+      "person_id": "125b1480-2e6c-50a7-909a-2e43f78c34fa",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Melvin Boyette identity in the official Army merged file.",
+      "evidence_excerpt": "MELVIN BOYETTE",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and available middle initial or suffix.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-03-03; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Private-at-entry grade does not imply the later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-47-48-batch259",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "MELVIN BOYETTE"
+        }
+      ]
+    },
+    {
+      "key": "melvin-boyette-occupation-at-army-entry-batch259",
+      "person_id": "125b1480-2e6c-50a7-909a-2e43f78c34fa",
+      "affiliation_key": "melvin-boyette-occupation-code-316-batch259",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Melvin Boyette in the broad civilian group for farm hands, general farms.",
+      "evidence_excerpt": "Civilian occupation code 316.",
+      "evidence_paraphrase": "Code 316 was recorded at Army entry on 1942-03-03 and maps to farm hands, general farms.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact trade, location, duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 316"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch259",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 3-16"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch259",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "albert-boyle-confirmed-identity-batch259",
+      "person_id": "aa218410-5a98-5cd7-bd8c-e382fe58504e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Albert J. Boyle identity in the official Army merged file.",
+      "evidence_excerpt": "ALBERT J. BOYLE",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and available middle initial or suffix.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-12-28; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Private-at-entry grade does not imply the later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-47-48-batch259",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "ALBERT J. BOYLE"
+        }
+      ]
+    },
+    {
+      "key": "albert-boyle-occupation-at-army-entry-batch259",
+      "person_id": "aa218410-5a98-5cd7-bd8c-e382fe58504e",
+      "affiliation_key": "albert-boyle-occupation-code-525-batch259",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Albert J. Boyle in the broad civilian group for carpenters.",
+      "evidence_excerpt": "Civilian occupation code 525.",
+      "evidence_paraphrase": "Code 525 was recorded at Army entry on 1942-12-28 and maps to carpenters.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact trade, location, duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 525"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch259",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 5-25"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch259",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "richard-boyer-confirmed-identity-batch259",
+      "person_id": "fc80cb4b-be42-5f02-94e9-ba5f1e3c27b9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Richard C. Boyer identity in the official Army merged file.",
+      "evidence_excerpt": "BOYER RICHARD C",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to December 12, 1941; its occupation value was not assigned a label and no later Army-to-OSS date is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. No occupation or employer is inferred from an unsupported code value.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-47-48-batch259",
+          "support_type": "supports",
+          "locator_override": "PDF page 48, row 2; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch259",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BOYER RICHARD C"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch259",
+          "support_type": "context_only",
+          "locator_override": "Merged-file limitations and fixed-width field definitions"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "630d1745-12ae-56a8-a480-da299c7e68dd",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share William D. Boyd's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "William D Boyd",
+        "William D. Boyd",
+        "Boyd, William D."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for a named employer and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5d52031a-e240-5b89-8884-e1602185fa8d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies William J. Boyd with no rank, identifier, note, or nationality. Exact-name official, CIA Reading Room, OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish a reliable identity.",
+      "name_variants": [
+        "William J Boyd",
+        "William J. Boyd",
+        "Boyd, William J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aa0e28ec-d460-55c2-8771-b8ddfb099337",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies William S. Boyd with no rank, identifier, note, or nationality. Exact-name official, CIA Reading Room, OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish a reliable identity.",
+      "name_variants": [
+        "William S Boyd",
+        "William S. Boyd",
+        "Boyd, William S."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a6d3d111-e27d-5757-a938-c6e5e36fd4f9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Justin L. Boyer Jr.'s exact private identifier, full name, middle initial, and suffix.",
+      "name_variants": [
+        "Justin L Boyer Jr.",
+        "Justin L. Boyer Jr.",
+        "Justin L Boyer, Jr.",
+        "Boyer, Justin L., Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for a named employer and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fc80cb4b-be42-5f02-94e9-ba5f1e3c27b9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Richard C. Boyer's exact private identifier, full name, and middle initial. The record's occupation value cannot be assigned a supported occupational label.",
+      "name_variants": [
+        "Richard C Boyer",
+        "Richard C. Boyer",
+        "Boyer, Richard C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for a civilian occupation, named employer, and Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7d1eb353-088c-5005-a15f-88b903b8a39e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating match in the official Army merged file. Exact-name OSS, military, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "Vernon G Boyer",
+        "Vernon G. Boyer",
+        "Boyer, Vernon G."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 to resolve the identifier, personnel status, and predecessor chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "125b1480-2e6c-50a7-909a-2e43f78c34fa",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Melvin Boyette's exact private identifier and full name.",
+      "name_variants": [
+        "Melvin Boyette",
+        "Boyette, Melvin"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for a named farm or employer and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7285e702-7a1f-5f50-862b-44d838ed06f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Robert J. Boylan with no rank, identifier, note, or nationality. Exact-name OSS, CIA, obituary, directory, newspaper, institutional, and archival results did not provide the corroborating identifiers needed to select a namesake.",
+      "name_variants": [
+        "Robert J Boylan",
+        "Robert J. Boylan",
+        "Boylan, Robert J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aa218410-5a98-5cd7-bd8c-e382fe58504e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Albert J. Boyle's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Albert J Boyle",
+        "Albert J. Boyle",
+        "Boyle, Albert J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for a named employer and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "76f9ff60-34e6-5b2c-94ee-b77957ad2f14",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Ann M. Boyle with no rank, identifier, note, or nationality. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish a reliable identity.",
+      "name_variants": [
+        "Ann M Boyle",
+        "Ann M. Boyle",
+        "Boyle, Ann M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "william-d-boyd-protocol-batch259",
+      "person_id": "630d1745-12ae-56a8-a480-da299c7e68dd",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William D Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:00:00+00:00",
+      "completed_at": "2026-08-18T11:07:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Common-name military, obituary, directory, and genealogy candidates lacked the exact private identifier or a direct OSS link.",
+      "research_notes": "The visually verified index and official Army merged record share William D. Boyd's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 74 for a named employer and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "william-j-boyd-protocol-batch259",
+      "person_id": "5d52031a-e240-5b89-8884-e1602185fa8d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William J Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:07:00+00:00",
+      "completed_at": "2026-08-18T11:14:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Numerous common-name candidates lacked an OSS connection and two corroborating identifiers beyond the name.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "william-s-boyd-protocol-batch259",
+      "person_id": "aa0e28ec-d460-55c2-8771-b8ddfb099337",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William S Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:14:00+00:00",
+      "completed_at": "2026-08-18T11:21:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Numerous common-name candidates lacked an OSS connection and two corroborating identifiers beyond the name.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "justin-l-boyer-jr-protocol-batch259",
+      "person_id": "a6d3d111-e27d-5757-a938-c6e5e36fd4f9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Justin L Boyer Jr.: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:21:00+00:00",
+      "completed_at": "2026-08-18T11:28:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Modern namesakes and obituary results lacked the exact private identifier, wartime chronology, or a direct OSS link.",
+      "research_notes": "The visually verified index and official Army merged record share Justin L. Boyer Jr.'s exact private identifier, full name, middle initial, and suffix.",
+      "next_action": "Review Box 74 for a named employer and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "richard-c-boyer-protocol-batch259",
+      "person_id": "fc80cb4b-be42-5f02-94e9-ba5f1e3c27b9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Richard C Boyer: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:28:00+00:00",
+      "completed_at": "2026-08-18T11:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Common-name biographical and directory results lacked the exact private identifier or a direct OSS link; the Army occupation value was not interpreted without a supported code label.",
+      "research_notes": "The visually verified index and official Army merged record share Richard C. Boyer's exact private identifier, full name, and middle initial. The record's occupation value cannot be assigned a supported occupational label.",
+      "next_action": "Review Box 74 for a civilian occupation, named employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "vernon-g-boyer-protocol-batch259",
+      "person_id": "7d1eb353-088c-5005-a15f-88b903b8a39e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Vernon G Boyer: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:35:00+00:00",
+      "completed_at": "2026-08-18T11:42:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Same-name and similar-initial candidates lacked the printed private identifier and corroborating OSS evidence.",
+      "research_notes": "The printed private identifier did not receive a corroborating match in the official Army merged file. Exact-name OSS, military, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 74 to resolve the identifier, personnel status, and predecessor chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "melvin-boyette-protocol-batch259",
+      "person_id": "125b1480-2e6c-50a7-909a-2e43f78c34fa",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Melvin Boyette: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:42:00+00:00",
+      "completed_at": "2026-08-18T11:49:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A possible obituary-age candidate and genealogy leads were not used because they lacked the exact identifier and a direct OSS link.",
+      "research_notes": "The visually verified index and official Army merged record share Melvin Boyette's exact private identifier and full name.",
+      "next_action": "Review Box 74 for a named farm or employer and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "robert-j-boylan-protocol-batch259",
+      "person_id": "7285e702-7a1f-5f50-862b-44d838ed06f7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert J Boylan: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:49:00+00:00",
+      "completed_at": "2026-08-18T11:56:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "A Washington obituary and other same-name records lacked a direct OSS link and two corroborating identifiers beyond the name.",
+      "research_notes": "The index supplies Robert J. Boylan with no rank, identifier, note, or nationality. Exact-name OSS, CIA, obituary, directory, newspaper, institutional, and archival results did not provide the corroborating identifiers needed to select a namesake.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "albert-j-boyle-protocol-batch259",
+      "person_id": "aa218410-5a98-5cd7-bd8c-e382fe58504e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Albert J Boyle: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T11:56:00+00:00",
+      "completed_at": "2026-08-18T12:03:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Common-name directory, obituary, and military candidates lacked the exact private identifier or a direct OSS link.",
+      "research_notes": "The visually verified index and official Army merged record share Albert J. Boyle's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 74 for a named employer and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    },
+    {
+      "key": "ann-m-boyle-protocol-batch259",
+      "person_id": "76f9ff60-34e6-5b2c-94ee-b77957ad2f14",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ann M Boyle: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T12:03:00+00:00",
+      "completed_at": "2026-08-18T12:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Common-name results lacked an OSS connection and two corroborating identifiers beyond the name.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch259-v1"
+    }
+  ]
+}

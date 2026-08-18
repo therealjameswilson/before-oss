@@ -22484,3 +22484,56 @@ test("Batch 256 qualifies two probable identities and preserves eight Box 73 rev
     );
   }
 });
+
+test("Batches 257-262 separate Braatoy and Braden pathways and preserve the Bradford conflict", async ({
+  page,
+}) => {
+  await page.goto("./people/b45d356e-b147-5342-8d6b-2fa22fc1be48/");
+  await expect(page.getByRole("heading", { name: "Bjarne Braatoy", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Office of War Information",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Norwegian Shipping and Trade Mission",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd/");
+  await expect(page.getByRole("heading", { name: "Thomas W Braden", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "King's Royal Rifle Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Mutual Broadcasting System",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator("main")).toContainText("title is not stated");
+
+  await page.goto("./people/14893d7f-a73b-5600-9862-3d9babb8cab3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Paymasters, payroll clerks, and timekeepers",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/8ac124ac-ea52-58b0-9c3e-27868826f79a/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Bernice R. Branson");
+  await expect(page.locator("main")).toContainText("identifier withheld");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+});

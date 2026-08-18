@@ -1,0 +1,542 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, batch 258",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-47-batch258",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 73-74",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 47, rows 34-43; Jean M. Boyd through William B. Boyd; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch258",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for five eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch258",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch258",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Digital PDF civilian occupational-group table, reference-copy page 414; code 6-85 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "stanley-boyd-occupation-code-685-batch258",
+      "person_id": "ec347651-231d-539c-960c-0e986eba6fb5",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Semiskilled welders and flame cutters",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-16",
+      "date_precision": "Civilian-occupation code 685 recorded at Army entry on March 16, 1943; no employer, workplace, exact trade, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The broad occupation code cannot support a named employer, workplace, exact specialty, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-boyd-identifier-conflict-batch258",
+      "person_id": "f43011a1-c3b9-5db1-bcbd-69ff69e46848",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The private identifier printed for John L. Boyd resolves to a differently named person in the official Army merged file; the conflict is retained and neither identity is promoted.",
+      "evidence_excerpt": "Identifier resolves to a different name.",
+      "evidence_paraphrase": "The visually checked index identifier produced one official Army record, but its name does not match John L. Boyd.",
+      "identity_match_assessment": "Conflicting. An identifier alone cannot override a wholly different name when the official file itself warns of duplicate and corrupted values.",
+      "temporal_assessment": "The Army record cannot be assigned to the indexed person, so its chronology and occupation are withheld.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier and unrelated Army-record name remain private.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-47-batch258",
+          "support_type": "supports",
+          "locator_override": "PDF page 47, row 35; private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch258",
+          "support_type": "contradicts",
+          "locator_override": "Exact private-identifier record carries a different name; identifier and unrelated name withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch258",
+          "support_type": "context_only",
+          "locator_override": "Merged-file warnings concerning duplicate or corrupted identifiers and names"
+        }
+      ]
+    },
+    {
+      "key": "stanley-boyd-confirmed-identity-batch258",
+      "person_id": "ec347651-231d-539c-960c-0e986eba6fb5",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Stanley E. Boyd identity in the official Army merged file.",
+      "evidence_excerpt": "BOYD STANLEY E",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to March 16, 1943; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. The Army record documents private-at-entry grade without implying the later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-47-batch258",
+          "support_type": "supports",
+          "locator_override": "PDF page 47, row 42; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch258",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BOYD STANLEY E"
+        }
+      ]
+    },
+    {
+      "key": "stanley-boyd-occupation-at-army-entry-batch258",
+      "person_id": "ec347651-231d-539c-960c-0e986eba6fb5",
+      "affiliation_key": "stanley-boyd-occupation-code-685-batch258",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Stanley E. Boyd in the broad civilian group for semiskilled welders and flame cutters.",
+      "evidence_excerpt": "Civilian occupation code 685.",
+      "evidence_paraphrase": "Code 685 was recorded at Army entry on March 16, 1943 and maps to semiskilled welders and flame cutters.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact trade, location, duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch258",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 685"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch258",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 6-85"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch258",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "1cef51b6-a3c6-5842-ba69-0e18e2319a65",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Jean M. Boyd with no rank, identifier, note, or nationality. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish a reliable identity.",
+      "name_variants": [
+        "Jean M Boyd",
+        "Jean M. Boyd",
+        "Boyd, Jean M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 73 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f43011a1-c3b9-5db1-bcbd-69ff69e46848",
+      "identity_status": "conflicting",
+      "identity_evidence": "The private identifier printed for John L. Boyd resolves in the official Army merged file to a wholly different name. Because the file documentation warns of duplicate and corrupted values, neither the Army identity nor its occupation is assigned to the indexed person.",
+      "name_variants": [
+        "John L Boyd",
+        "John L. Boyd",
+        "Boyd, John L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 73 to reconcile the printed identifier, indexed name, and personnel-file subject before assigning any pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "80cc1beb-0599-520e-9503-6faa9cbb7cb9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The source spelling Lelslie H. Boyd and printed Captain rank are preserved. Searches also tested Leslie as a marked search alias, but official, CIA, military, biographical, employer, directory, newspaper, institutional, and archival sources did not establish an identity.",
+      "name_variants": [
+        "Lelslie H Boyd",
+        "Lelslie H. Boyd",
+        "Boyd, Lelslie H.",
+        "Leslie H Boyd",
+        "Leslie H. Boyd"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 73 to establish the indexed spelling, branch, identity, and chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e82b8991-f62e-591b-9389-39bc7cd49ba9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The uncommon exact name and printed private identifier did not receive a corroborating match in the official Army merged file or in reviewed OSS, military, employer, obituary, directory, newspaper, institutional, and archival sources.",
+      "name_variants": [
+        "Loris C Boyd",
+        "Loris C. Boyd",
+        "Boyd, Loris C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 73 to resolve the identifier, personnel status, and predecessor chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b729fb88-491e-5224-81a3-e81f8890366b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name, middle initial, and civilian CAF-4 grade are insufficient to select a namesake. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival checks produced no reliable identity.",
+      "name_variants": [
+        "Martha W Boyd",
+        "Martha W. Boyd",
+        "Boyd, Martha W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 73 for identity, CAF-4 duties, and employment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "09a22e7e-3663-5922-b099-94cb665c7b8e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Mary T. Boyd with no rank, identifier, or note. The common name and initial are insufficient to select an official, biographical, directory, newspaper, institutional, obituary, or genealogy namesake.",
+      "name_variants": [
+        "Mary T Boyd",
+        "Mary T. Boyd",
+        "Boyd, Mary T."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "31b5346d-15e8-5ac4-821c-85e514c9f8a4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Mary W. Boyd with no rank, identifier, or note. The common name and initial are insufficient to select an official, biographical, directory, newspaper, institutional, obituary, or genealogy namesake.",
+      "name_variants": [
+        "Mary W Boyd",
+        "Mary W. Boyd",
+        "Boyd, Mary W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36439878-fcb4-5422-8561-d75aeaa13baa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive exact name produced no reliable official, CIA Reading Room, OSS, employer, occupation, obituary, directory, newspaper, institutional, or archival identity evidence beyond the index.",
+      "name_variants": [
+        "Signa M Boyd",
+        "Signa M. Boyd",
+        "Boyd, Signa M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec347651-231d-539c-960c-0e986eba6fb5",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Stanley E. Boyd's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Stanley E Boyd",
+        "Stanley E. Boyd",
+        "Boyd, Stanley E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for the named employer and exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3a32f5c8-f9e6-5968-b773-8849b888af6d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating official Army merged-file match. A same-name second-lieutenant result carries a different identifier and cannot be assigned to the indexed person.",
+      "name_variants": [
+        "William B Boyd",
+        "William B. Boyd",
+        "Boyd, William B."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 to resolve the identifier, branch, identity, and predecessor chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "jean-m-boyd-protocol-batch258",
+      "person_id": "1cef51b6-a3c6-5842-ba69-0e18e2319a65",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Jean M Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:10:00+00:00",
+      "completed_at": "2026-08-18T09:18:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name biographical, genealogy, directory, and obituary results lacked an OSS link and corroborating identifiers.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 73 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "john-l-boyd-protocol-batch258",
+      "person_id": "f43011a1-c3b9-5db1-bcbd-69ff69e46848",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John L Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:18:00+00:00",
+      "completed_at": "2026-08-18T09:26:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The exact private-identifier Army record carries a different name. Common-name alternatives lacked two corroborating identifiers beyond the name.",
+      "research_notes": "The private identifier printed for John L. Boyd resolves in the official Army merged file to a wholly different name. Because the file documentation warns of duplicate and corrupted values, neither the Army identity nor its occupation is assigned to the indexed person.",
+      "next_action": "Review Box 73 to reconcile the printed identifier, indexed name, and personnel-file subject before assigning any pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "lelslie-h-boyd-protocol-batch258",
+      "person_id": "80cc1beb-0599-520e-9503-6faa9cbb7cb9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Lelslie H Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:26:00+00:00",
+      "completed_at": "2026-08-18T09:34:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Same-name and alternate-spelling officer candidates lacked the indexed private identifier, direct personnel-file linkage, and a documented OSS connection.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 73 to establish the indexed spelling, branch, identity, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "loris-c-boyd-protocol-batch258",
+      "person_id": "e82b8991-f62e-591b-9389-39bc7cd49ba9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Loris C Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:34:00+00:00",
+      "completed_at": "2026-08-18T09:42:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Search results were limited to the index, unrelated modern subjects, and common surname material without a wartime identity link.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 73 to resolve the identifier, personnel status, and predecessor chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "martha-w-boyd-protocol-batch258",
+      "person_id": "b729fb88-491e-5224-81a3-e81f8890366b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Martha W Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:42:00+00:00",
+      "completed_at": "2026-08-18T09:50:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name records and genealogy or directory leads lacked a direct OSS link, wartime chronology, and corroborating identifiers.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 73 for identity, CAF-4 duties, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "mary-t-boyd-protocol-batch258",
+      "person_id": "09a22e7e-3663-5922-b099-94cb665c7b8e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mary T Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:50:00+00:00",
+      "completed_at": "2026-08-18T09:58:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Numerous common-name results lacked an OSS connection and two corroborating identifiers beyond the name.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "mary-w-boyd-protocol-batch258",
+      "person_id": "31b5346d-15e8-5ac4-821c-85e514c9f8a4",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mary W Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T09:58:00+00:00",
+      "completed_at": "2026-08-18T10:06:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Numerous common-name results lacked an OSS connection and two corroborating identifiers beyond the name.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "signa-m-boyd-protocol-batch258",
+      "person_id": "36439878-fcb4-5422-8561-d75aeaa13baa",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Signa M Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T10:06:00+00:00",
+      "completed_at": "2026-08-18T10:14:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Results were sparse and did not contain a dated wartime identity, OSS link, or employer evidence for the indexed person.",
+      "research_notes": "The exact index row and review outcome are preserved. Absence of an online result is not evidence that no prior employment existed.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "stanley-e-boyd-protocol-batch258",
+      "person_id": "ec347651-231d-539c-960c-0e986eba6fb5",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Stanley E Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T10:14:00+00:00",
+      "completed_at": "2026-08-18T10:22:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Same-name pilot and genealogy results lacked the exact private identifier or a direct OSS link; the official Army record was accepted only for identity and the coded occupation at entry.",
+      "research_notes": "The visually verified index and official Army merged record share Stanley E. Boyd's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 74 for the named employer and exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    },
+    {
+      "key": "william-b-boyd-protocol-batch258",
+      "person_id": "3a32f5c8-f9e6-5968-b773-8849b888af6d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William B Boyd: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T10:22:00+00:00",
+      "completed_at": "2026-08-18T10:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "The officer namesake carried a different private identifier; other common-name military, obituary, and directory results lacked the required corroboration.",
+      "research_notes": "The printed private identifier did not receive a corroborating official Army merged-file match. A same-name second-lieutenant result carries a different identifier and cannot be assigned to the indexed person.",
+      "next_action": "Review Box 74 to resolve the identifier, branch, identity, and predecessor chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch258-v1"
+    }
+  ]
+}
