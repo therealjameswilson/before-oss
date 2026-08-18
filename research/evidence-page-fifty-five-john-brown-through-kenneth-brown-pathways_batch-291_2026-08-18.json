@@ -1,0 +1,473 @@
+{
+  "bundle_version": "batch291-v1",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-55-batch291",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 85",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 55, rows 35-44; John R. Brown through Kenneth H. Brown; visually checked with private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. Full private identifiers remain restricted and are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch291",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact or fixed-width-normalized private-identifier review for John D. Brown, John L. Brown, Joseph A. Brown Jr., Keith J. Brown, Kenneth M. Brown, and Kenneth H. Brown; four exact-name identities accepted; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. Only project-authored conclusions and stable citation pointers are retained. The merged file excludes officers and has known omissions and conversion errors, so absence is not treated as disproof."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch291",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width field positions for name, Army-entry date, rank, component, branch, civilian occupation, and birth year; visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields in the official merged file without retaining raw records or private identifiers."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch291",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; NARA Compiled Code Lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Civilian-occupation lists, PDF physical page 171 for codes 068 and 126 and physical page 178 for code 469; visually and textually checked; code 590 was not assigned a secure meaning in the reviewed official list",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records code documentation",
+      "rights_notes": "The official tables supply broad occupation categories, not named employers or workplaces. Unresolved code 590 is withheld rather than inferred."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "john-l-brown-semiprofessional-occupation-batch291",
+      "person_id": "530e5da3-8681-5109-883c-949fc41e7eca",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Semiprofessional occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-10-18",
+      "date_precision": "The official Army-entry record carries civilian occupation code 068 on October 18, 1943; the residual category names no exact profession, employer, institution, workplace, or duties.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The residual occupation code cannot identify a particular profession, employer, or later Army-to-OSS sequence."
+    },
+    {
+      "key": "keith-j-brown-stoneworking-occupation-batch291",
+      "person_id": "b4741b77-186f-5983-90eb-fb30c08ab456",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Stoneworking occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-14",
+      "date_precision": "The official Army-entry record carries civilian occupation code 469 on December 14, 1942; the grouped category names no exact trade, employer, quarry, plant, product, worksite, or duties.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation code does not establish a named employer or the later Army-to-OSS sequence."
+    },
+    {
+      "key": "kenneth-m-brown-payroll-occupation-batch291",
+      "person_id": "b5340438-03e3-5dda-9561-bbf4f5cb037e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Paymaster, payroll clerk, or timekeeper",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-07",
+      "date_precision": "The official Army-entry record carries civilian occupation code 126 on July 7, 1943; the combined category does not establish which of its three roles applied and names no employer, payroll office, worksite, or duties.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The combined category cannot support one exact role, a named employer, or the later Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-d-brown-confirmed-army-identity-batch291",
+      "person_id": "391d7250-7de2-58f8-b568-9f16ea7b5d39",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed John D. Brown is confirmed as the Army entrant represented by the exact-name and fixed-width-normalized private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN JOHN D",
+      "evidence_paraphrase": "The full name and numeric private identifier match after accounting for the official file's fixed-width leading zero; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by the exact full indexed name and unique numeric identifier after documented fixed-width normalization.",
+      "temporal_assessment": "The Army-entry record is dated November 17, 1945; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The immediately preceding John D. Brown row carries a different private identifier. Both rows remain separate and are linked only as a possible-duplicate group for archival review; civilian occupation code 590 is withheld because its meaning was not securely established.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch291", "support_type": "supports", "locator_override": "PDF page 55, row 36", "excerpt_override": "BROWN JOHN D"},
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Fixed-width-normalized private-identifier record; identifier withheld", "excerpt_override": "BROWN JOHN D"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch291", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; fixed-width field definitions", "excerpt_override": "Army Serial Number Electronic Files"}
+      ]
+    },
+    {
+      "key": "john-l-brown-confirmed-army-identity-batch291",
+      "person_id": "530e5da3-8681-5109-883c-949fc41e7eca",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed John L. Brown is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN JOHN L",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact full indexed name.",
+      "temporal_assessment": "The Army-entry record is dated October 18, 1943; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Recent obituaries, cemetery entries, and military namesakes lacked the private identifier or Box 85 linkage and were rejected.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch291", "support_type": "supports", "locator_override": "PDF page 55, row 37", "excerpt_override": "BROWN JOHN L"},
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Exact private-identifier record; identifier withheld", "excerpt_override": "BROWN JOHN L"}
+      ]
+    },
+    {
+      "key": "john-l-brown-semiprofessional-occupation-claim-batch291",
+      "person_id": "530e5da3-8681-5109-883c-949fc41e7eca",
+      "affiliation_key": "john-l-brown-semiprofessional-occupation-batch291",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, John L. Brown was recorded in a residual semiprofessional occupation category.",
+      "evidence_excerpt": "Semiprofessional occupations, n. e. c.",
+      "evidence_paraphrase": "The official record carries code 068; the official list maps 0-68 and 0-69 to semiprofessional occupations not elsewhere classified.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on October 18, 1943; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No exact profession, employer, institution, workplace, duties, or immediate OSS predecessor is inferred from the residual category.",
+      "sources": [
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Exact private-identifier record; civilian occupation code 068; identifier withheld", "excerpt_override": "BROWN JOHN L"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch291", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; civilian occupation field definition", "excerpt_override": "Civ Occupation 70-72"},
+        {"source_key": "nara-army-enlistment-code-lists-batch291", "support_type": "supports", "locator_override": "Civilian-occupation list, PDF physical page 171, code 0-68", "excerpt_override": "Semiprofessional occupations, n. e. c."}
+      ]
+    },
+    {
+      "key": "keith-j-brown-confirmed-army-identity-batch291",
+      "person_id": "b4741b77-186f-5983-90eb-fb30c08ab456",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Keith J. Brown is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN KEITH J",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact full indexed name.",
+      "temporal_assessment": "The Army-entry record is dated December 14, 1942; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Military, obituary, cemetery, institutional, and modern namesakes lacked the private identifier or Box 85 linkage.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch291", "support_type": "supports", "locator_override": "PDF page 55, row 42", "excerpt_override": "BROWN KEITH J"},
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Exact private-identifier record; identifier withheld", "excerpt_override": "BROWN KEITH J"}
+      ]
+    },
+    {
+      "key": "keith-j-brown-stoneworking-occupation-claim-batch291",
+      "person_id": "b4741b77-186f-5983-90eb-fb30c08ab456",
+      "affiliation_key": "keith-j-brown-stoneworking-occupation-batch291",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Keith J. Brown was recorded in a residual stoneworking occupation category.",
+      "evidence_excerpt": "Stoneworking occupations, n. e. c.",
+      "evidence_paraphrase": "The official record carries code 469; the official alphabetical list maps 4-69 and 6-69 to stoneworking occupations not elsewhere classified.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on December 14, 1942; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No exact trade, employer, quarry, plant, product, worksite, duties, or immediate OSS predecessor is inferred from the grouped category.",
+      "sources": [
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Exact private-identifier record; civilian occupation code 469; identifier withheld", "excerpt_override": "BROWN KEITH J"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch291", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; civilian occupation field definition", "excerpt_override": "Civ Occupation 70-72"},
+        {"source_key": "nara-army-enlistment-code-lists-batch291", "support_type": "supports", "locator_override": "Alphabetical civilian-occupation list, PDF physical page 178, code 4-69", "excerpt_override": "Stoneworking occupations, n. e. c."}
+      ]
+    },
+    {
+      "key": "kenneth-m-brown-confirmed-army-identity-batch291",
+      "person_id": "b5340438-03e3-5dda-9561-bbf4f5cb037e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Kenneth M. Brown is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN KENNETH M",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact full indexed name.",
+      "temporal_assessment": "The Army-entry record is dated July 7, 1943; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "A much later Army SP4 cemetery entry and other namesakes lacked compatible chronology, the private identifier, or Box 85 linkage.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch291", "support_type": "supports", "locator_override": "PDF page 55, row 43", "excerpt_override": "BROWN KENNETH M"},
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Exact private-identifier record; identifier withheld", "excerpt_override": "BROWN KENNETH M"}
+      ]
+    },
+    {
+      "key": "kenneth-m-brown-payroll-occupation-claim-batch291",
+      "person_id": "b5340438-03e3-5dda-9561-bbf4f5cb037e",
+      "affiliation_key": "kenneth-m-brown-payroll-occupation-batch291",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Kenneth M. Brown was recorded in the combined paymaster, payroll-clerk, and timekeeper occupation category.",
+      "evidence_excerpt": "Paymasters, payroll clerks, and timekeepers",
+      "evidence_paraphrase": "The official record carries code 126; the official numerical list maps 1-26 to paymasters, payroll clerks, and timekeepers.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on July 7, 1943; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The combined category does not show which role applied and names no employer, payroll office, worksite, duties, or immediate OSS predecessor.",
+      "sources": [
+        {"source_key": "nara-army-enlistment-merged-file-batch291", "support_type": "supports", "locator_override": "Exact private-identifier record; civilian occupation code 126; identifier withheld", "excerpt_override": "BROWN KENNETH M"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch291", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; civilian occupation field definition", "excerpt_override": "Civ Occupation 70-72"},
+        {"source_key": "nara-army-enlistment-code-lists-batch291", "support_type": "supports", "locator_override": "Civilian-occupation list, PDF physical page 171, code 1-26", "excerpt_override": "Paymasters, payroll clerks, and timekeepers"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "fdd9794d-07ee-545e-8e3b-3580879d1182",
+      "possible_duplicate_group": "possible-john-d-brown-adjacent-box85-batch291"
+    },
+    {
+      "person_id": "b85f6662-363e-5d83-90a4-4ee07df51919",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies John R. Brown and Box 85 but no private identifier, rank, occupation, or other discriminator. Exact-name OSS, CIA, military, employment, obituary, cemetery, institutional, newspaper, directory, and archival searches did not isolate the indexed person.",
+      "name_variants": ["John R Brown", "John R. Brown", "John Brown", "Brown, John R."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 85 for a full middle name, identifier, rank, branch, residence, occupation, employer, and service chronology before assigning any same-name veteran.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "391d7250-7de2-58f8-b568-9f16ea7b5d39",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on John D. Brown's exact full name and numeric private identifier after accounting for the official fixed-width field's leading zero. The identifier remains withheld; the Army row dates entry to November 17, 1945. Civilian occupation code 590 is withheld because no secure meaning was established in the reviewed official list.",
+      "name_variants": ["John D Brown", "John D. Brown", "John Brown", "Brown, John D."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-john-d-brown-adjacent-box85-batch291",
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Compare both adjacent John D. Brown files in Box 85, establish the meaning of the Army occupation entry from the personnel file, and reconstruct the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "530e5da3-8681-5109-883c-949fc41e7eca",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on John L. Brown's exact full name and private identifier. The identifier remains withheld; the Army row dates entry to October 18, 1943 and carries civilian occupation code 068.",
+      "name_variants": ["John L Brown", "John L. Brown", "John Brown", "Brown, John L."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 85 for the exact semiprofessional occupation, employer, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "056cbd0f-13d2-5933-ae30-e04a7986558d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Joseph A. Brown Jr., a private identifier, and Box 85 but no rank or occupation. The official Army merged file supplied no exact record; because that file has documented omissions and excludes officers, absence is not treated as disproof. Other candidates lacked the identifier or Box 85 linkage.",
+      "name_variants": ["Joseph A Brown Jr", "Joseph A. Brown Jr.", "Joseph Brown Jr.", "Brown, Joseph A., Jr."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 85 for rank, branch, residence, occupation, employer, and service chronology; compare recovered details with official military records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3796fcf3-1391-57e2-a335-e8b0f674a378",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Josephine L. Brown and Box 85 but no private identifier, rank, occupation, or other discriminator. A 1945 San Francisco directory entry and other same-name results lacked OSS or Box 85 linkage and could not establish identity.",
+      "name_variants": ["Josephine L Brown", "Josephine L. Brown", "Josephine Brown", "Brown, Josephine L."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 85 for a full middle name, residence, occupation, employer, and service chronology before assigning any directory or obituary namesake.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bff6e564-7390-5bbb-b462-ddb703b1f9a4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Judith K. Brown and Box 85 but no private identifier, rank, occupation, or other discriminator. Modern academic and public-record namesakes have incompatible chronology or lack OSS and Box 85 linkage.",
+      "name_variants": ["Judith K Brown", "Judith K. Brown", "Judith Brown", "Brown, Judith K."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 85 for a full middle name, residence, occupation, employer, and service chronology before assigning any same-name record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aa90e709-915d-56a1-93fa-4963fc974d4a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Judith M. Brown and Box 85 but no private identifier, rank, occupation, or other discriminator. A historian born in 1944, later university and laboratory staff records, and other modern namesakes have incompatible chronology or no OSS linkage.",
+      "name_variants": ["Judith M Brown", "Judith M. Brown", "Judith Brown", "Brown, Judith M."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 85 for a full middle name, residence, occupation, employer, and service chronology before assigning any same-name record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b4741b77-186f-5983-90eb-fb30c08ab456",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on Keith J. Brown's exact full name and private identifier. The identifier remains withheld; the Army row dates entry to December 14, 1942 and carries civilian occupation code 469.",
+      "name_variants": ["Keith J Brown", "Keith J. Brown", "Keith Brown", "Brown, Keith J."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 85 for the exact stoneworking trade, employer, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5340438-03e3-5dda-9561-bbf4f5cb037e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on Kenneth M. Brown's exact full name and private identifier. The identifier remains withheld; the Army row dates entry to July 7, 1943 and carries civilian occupation code 126.",
+      "name_variants": ["Kenneth M Brown", "Kenneth M. Brown", "Kenneth Brown", "Brown, Kenneth M."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 85 to distinguish paymaster, payroll-clerk, or timekeeper work, identify the employer, and reconstruct the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f22aa20-bf24-51db-a515-ef7b63be991d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Kenneth H. Brown, a private identifier, and Box 85 but no rank or occupation. The official Army merged file supplied no exact record; because that file has documented omissions and excludes officers, absence is not treated as disproof. Modern and Vietnam-era namesakes have incompatible chronology or lack the indexed identifier.",
+      "name_variants": ["Kenneth H Brown", "Kenneth H. Brown", "Kenneth Brown", "Brown, Kenneth H."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 85 for rank, branch, residence, occupation, employer, and service chronology; compare recovered details with official military records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "john-r-brown-protocol-batch291", "person_id": "b85f6662-363e-5d83-90a4-4ee07df51919", "source_adapter": "multi_source_manual_review", "query_text": "John R. Brown: visually checked NARA index; CIA and OSS context; exact-name military, employment, occupation, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "no_result", "sources_reviewed": 11, "candidate_sources_rejected": 14, "rejection_reasons": "World War II and later veteran, cemetery, obituary, directory, and modern namesakes lacked two corroborating identifiers and Box 85 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 85.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "john-d-brown-protocol-batch291", "person_id": "391d7250-7de2-58f8-b568-9f16ea7b5d39", "source_adapter": "official_bulk_and_manual_review", "query_text": "John D. Brown: visually checked NARA index; fixed-width-normalized private-identifier review in official Army bulk data and documentation; CIA, OSS, employment, occupation, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 14, "candidate_sources_rejected": 14, "rejection_reasons": "Military, obituary, cemetery, directory, and modern namesakes lacked the normalized private identifier or Box 85 linkage. The adjacent John D. Brown row carries a different identifier and remains separate. Occupation code 590 was withheld because its meaning was not secure.", "research_notes": "Identity is confirmed; no reliable occupation or employer is published.", "next_action": "Compare both adjacent Box 85 files and reconstruct occupation and Army-to-OSS chronology.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "john-l-brown-protocol-batch291", "person_id": "530e5da3-8681-5109-883c-949fc41e7eca", "source_adapter": "official_bulk_and_manual_review", "query_text": "John L. Brown: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, semiprofessional employment, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 14, "candidate_sources_rejected": 15, "rejection_reasons": "Recent obituaries, Korean-era veterans, cemetery entries, and modern namesakes lacked the private identifier or Box 85 linkage.", "research_notes": "Identity is confirmed; only the residual semiprofessional category is supportable, with no exact profession or named employer.", "next_action": "Review Box 85 for occupation details, employer, and Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "joseph-a-brown-jr-protocol-batch291", "person_id": "056cbd0f-13d2-5933-ae30-e04a7986558d", "source_adapter": "official_bulk_and_manual_review", "query_text": "Joseph A. Brown Jr.: visually checked NARA index and private identifier; official Army bulk comparison; CIA, OSS, employment, occupation, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "no_result", "sources_reviewed": 12, "candidate_sources_rejected": 13, "rejection_reasons": "The official Army merged file supplied no exact row; military, obituary, institutional, directory, and modern namesakes lacked the private identifier or Box 85 linkage.", "research_notes": "Bulk-file absence is not disproof because the series has omissions and excludes officers. No identity or employer was established.", "next_action": "Review Box 85 and compare recovered details with official military records.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "josephine-l-brown-protocol-batch291", "person_id": "3796fcf3-1391-57e2-a335-e8b0f674a378", "source_adapter": "multi_source_manual_review", "query_text": "Josephine L. Brown: visually checked NARA index; CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, city-directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 10, "candidate_sources_rejected": 11, "rejection_reasons": "A 1945 San Francisco directory entry and other same-name records lacked a full middle name, OSS evidence, and Box 85 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 85.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "judith-k-brown-protocol-batch291", "person_id": "bff6e564-7390-5bbb-b462-ddb703b1f9a4", "source_adapter": "multi_source_manual_review", "query_text": "Judith K. Brown: visually checked NARA index; CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 10, "candidate_sources_rejected": 12, "rejection_reasons": "A modern University of Arizona professor and public-record namesakes have incompatible chronology or lacked OSS and Box 85 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 85.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "judith-m-brown-protocol-batch291", "person_id": "aa90e709-915d-56a1-93fa-4963fc974d4a", "source_adapter": "multi_source_manual_review", "query_text": "Judith M. Brown: visually checked NARA index; CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 11, "candidate_sources_rejected": 13, "rejection_reasons": "A historian born in 1944, later university and laboratory staff records, and other modern namesakes have incompatible chronology or lacked OSS and Box 85 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 85.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "keith-j-brown-protocol-batch291", "person_id": "b4741b77-186f-5983-90eb-fb30c08ab456", "source_adapter": "official_bulk_and_manual_review", "query_text": "Keith J. Brown: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, stoneworking employment, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 13, "candidate_sources_rejected": 12, "rejection_reasons": "Military, obituary, cemetery, institutional, directory, and modern namesakes lacked the private identifier or Box 85 linkage.", "research_notes": "Identity is confirmed; only the residual stoneworking category is supportable, with no exact trade or named employer.", "next_action": "Review Box 85 for occupation details, employer, and Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "kenneth-m-brown-protocol-batch291", "person_id": "b5340438-03e3-5dda-9561-bbf4f5cb037e", "source_adapter": "official_bulk_and_manual_review", "query_text": "Kenneth M. Brown: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, payroll employment, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 14, "candidate_sources_rejected": 14, "rejection_reasons": "A much later Army SP4 cemetery entry and other military, obituary, directory, and modern namesakes lacked compatible chronology, the private identifier, or Box 85 linkage.", "research_notes": "Identity is confirmed; only the combined paymaster, payroll-clerk, and timekeeper category is supportable, with no named employer.", "next_action": "Review Box 85 for exact role, employer, and Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    },
+    {
+      "key": "kenneth-h-brown-protocol-batch291", "person_id": "0f22aa20-bf24-51db-a515-ef7b63be991d", "source_adapter": "official_bulk_and_manual_review", "query_text": "Kenneth H. Brown: visually checked NARA index and private identifier; official Army bulk comparison; CIA, OSS, employment, occupation, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:18:00+00:00", "completed_at": "2026-08-18T21:36:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 12, "candidate_sources_rejected": 14, "rejection_reasons": "The official Army merged file supplied no exact row. A 1949-born business owner, Vietnam-era casualty, later veterans, obituaries, and modern namesakes have incompatible chronology or lacked the indexed identifier and Box 85 linkage.", "research_notes": "Bulk-file absence is not disproof because the series has omissions and excludes officers. No identity or employer was established.", "next_action": "Review Box 85 and compare recovered details with official military records.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch291-v1"
+    }
+  ]
+}

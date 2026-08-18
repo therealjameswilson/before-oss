@@ -15,6 +15,17 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 291 adds a focused direct-route regression for John R. Brown through
+Kenneth H. Brown on PDF page 55. It verifies four exact or fixed-width-
+normalized identifier-backed Army identities, publishes three qualified pre-
+entry occupation categories without converting them into named employers,
+keeps two adjacent John D. Brown rows separate in one duplicate-review group,
+and preserves six underdetermined identities as archival-review profiles. The
+focused regression passed **3 / 3** across desktop, phone, and tablet. A fresh
+core-route axe matrix passed **27 / 27**, including the Sources table, with no
+serious or critical axe violation. The complete **870-case** browser matrix
+runs in release CI.
+
 Batch 290 adds a focused direct-route regression for Howard Brown through John
 D. Brown on PDF page 55. It verifies three exact-identifier Army identities and
 qualified pre-entry occupations without converting those occupations into

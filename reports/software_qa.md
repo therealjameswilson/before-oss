@@ -70,39 +70,54 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 290: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **867-case** matrix runs in release CI
+- Focused Batch 291 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 291: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **870-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic public-data build (Batch 290): **byte-for-byte
+  (`5d247736d3e9e504cf310131d385253874bf218b4addc98adbd8422cb71fc9a9`)
+- Latest deterministic public-data build (Batch 291): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`72d4deb9cf1f70da68ba3480f83ccd9bdf3451e8633606c2a77600febb01b88b`).
+  (`dbec070bda6e63c20cd8aeadb1ee2633ddbfa84ee6dc679e3c6f9f2ab41db8c7`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,316,258 bytes** in both the source and built public trees;
+  across **76,370,826 bytes** in both the source and built public trees;
   manifest SHA-256
-  `5f91dc87d54a216295afd3fe8c59ad6b1cef2ce498feb787766556297857bf99`
+  `bba4c637cb2ab9d0c6d51ae01a83f4c1b1016d37033a84920f1f6f50ef3a25f6`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,457** production artifacts, including compressed mirrors;
-  **1,026** candidate substrings were reviewed. No aggregate or manifest-size
+  **1,027** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,967** public records representing **1,390** unique documents
-- Private citation records: **3,004**
-- Published, qualified, or conflict-visible affiliations: **1,090**
-- Published or conflict-visible claims: **2,149**
+- Reviewed public sources: **1,971** public records representing **1,391** unique documents
+- Private citation records: **3,008**
+- Published, qualified, or conflict-visible affiliations: **1,093**
+- Published or conflict-visible claims: **2,156**
 - Verified-affiliation metric: **426** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **185** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 291 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,387-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. John D. Brown, John L. Brown, Keith J. Brown, and Kenneth M.
+  Brown have exact or fixed-width-normalized identifier-backed Army identities;
+  three qualified pre-entry occupation categories are published without
+  invented employers. Six profiles remain archival-review cases. Undefined
+  occupation code 590 is withheld, and the two adjacent John D. Brown rows
+  remain separate in a duplicate-review group. The complete 870-case browser
+  matrix runs in release CI.
 - Batch 290 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,387-route link check, deterministic rebuild, manifest audit, dependency
