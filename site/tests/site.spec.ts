@@ -21933,3 +21933,84 @@ test("Batch 249 publishes Bottorff's student chronology and Bouchardon's identit
   await expect(page.locator("main")).toContainText("foreign or allied military personnel");
   await expect(page.locator("main")).toContainText("French");
 });
+
+test("Batch 250 publishes five bounded occupations while preserving late-record and namesake limits", async ({
+  page,
+}) => {
+  const profiles = [
+    ["26fa6652-1193-55cf-9532-188a5485af35", "Ernest J Bouchea", "Page 45"],
+    ["a93fc768-1832-5c9e-9017-1a7e0d71c5dd", "Fernande C Boucher", "Page 46"],
+    ["8e530996-0e7f-5c8b-9971-25d6ebd66390", "Gerard J Boucher", "Page 46"],
+    ["528439c8-dea7-5ccb-8cc4-fa957d7ba39d", "Raymond R Boucher", "Page 46"],
+    ["0ec2d680-ceb6-59cd-adde-87de9c762654", "RobertH Boucher", "Page 46"],
+    ["4b2e5242-1923-589e-82b6-c4aca2b578d6", "Theodore J Boucher", "Page 46"],
+    ["93e98439-5aea-598a-8d06-367895d6b0f2", "Nelson J Boudffard Jr.", "Page 46"],
+    ["0cf42597-d69f-50d7-b64c-ba13fd51c6f7", "Francis M Boudreau", "Page 46"],
+    ["3fcb4467-f32b-5351-a039-ccab96710d70", "Joseph Y Boudreau", "Page 46"],
+    ["44740f45-0728-584d-b2a9-d764da1a20ef", "Paul E Boudreau", "Page 46"],
+  ] as const;
+
+  for (const [personId, displayName, pageNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").last()).toContainText("71");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  const occupations = [
+    ["8e530996-0e7f-5c8b-9971-25d6ebd66390", "Welders and flame cutters"],
+    ["528439c8-dea7-5ccb-8cc4-fa957d7ba39d", "Machinists' apprentices"],
+    ["0ec2d680-ceb6-59cd-adde-87de9c762654", "Salespersons"],
+    ["0cf42597-d69f-50d7-b64c-ba13fd51c6f7", "Construction occupations, n.e.c."],
+    ["3fcb4467-f32b-5351-a039-ccab96710d70", "Draftsmen"],
+  ] as const;
+
+  for (const [personId, occupation] of occupations) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+
+  await page.goto("./people/26fa6652-1193-55cf-9532-188a5485af35/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("November 20, 1945");
+  await expect(page.locator("main")).toContainText(
+    "do not use the November 1945 occupation code as pre-OSS evidence",
+  );
+  await expect(page.locator("main")).not.toContainText("Embalmers and undertakers");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const personId of [
+    "a93fc768-1832-5c9e-9017-1a7e0d71c5dd",
+    "4b2e5242-1923-589e-82b6-c4aca2b578d6",
+    "93e98439-5aea-598a-8d06-367895d6b0f2",
+    "44740f45-0728-584d-b2a9-d764da1a20ef",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/0ec2d680-ceb6-59cd-adde-87de9c762654/");
+  await expect(page.locator("main")).toContainText("Robert H. Boucher");
+  await expect(page.locator(".index-record").last()).toContainText("RobertH");
+
+  await page.goto("./people/93e98439-5aea-598a-8d06-367895d6b0f2/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("alternate spelling");
+});

@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-17 UTC
+Run: 2026-08-18 UTC
 
 ## Internal static routes
 
@@ -14,6 +14,26 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 
 The checker inventoried 49,213 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 250 local release check
+
+The complete 24,379-page internal-link pass includes direct routes for Ernest
+J. Bouchea through Paul E. Boudreau across PDF pages 45-46. The 70-test Python
+suite, deterministic 200-profile audit, focused 3-case regression, complete
+792-case desktop, phone, and tablet browser/axe matrix, and complete public-
+identifier audit passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 74,337,811 bytes and has
+SHA-256
+`6a452d5813f265b1fa3f5f9e8430c412a057177d260f9b7ddd35071b9254a580`.
+Two consecutive production builds produced the identical complete-site digest
+`5d68757bb486db28255693ec80e0b8b433b6624bb9e427aed4ce31caeb10b442`.
+
+The regression keeps five exact-identifier, date-bounded Army occupations out
+of employer counts, exposes Ernest J. Bouchea's chronology and rank conflict,
+and routes four unsupported identity candidates to archival review.
 
 ## Batch 249 local release check
 

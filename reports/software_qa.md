@@ -1,26 +1,26 @@
 # Software QA
 
-Run: 2026-08-17 UTC
+Run: 2026-08-18 UTC
 
 - Python unit tests: **70 / 70 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,379 pages**
 - Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **789 / 789 passed** locally
+- Complete browser and accessibility matrix: **792 / 792 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
-- Focused Batch 249 browser and accessibility regression: **3 / 3 passed**
+- Focused Batch 250 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`4da2fd5970b3727dafa9ef8e8c3c12a6b76245089e7f75aeb4a85cf64baaf88c`)
-- Latest deterministic build (Batch 249): **byte-for-byte identical** across
+- Latest deterministic build (Batch 250): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,254,685 bytes**;
+  across **74,337,811 bytes**;
   manifest SHA-256
-  `1977b2a8c872bfc5cd55fc3a99e9d8d908002adda9cb2029412ab6cad5dc2a71`
+  `6a452d5813f265b1fa3f5f9e8430c412a057177d260f9b7ddd35071b9254a580`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -32,10 +32,10 @@ Run: 2026-08-17 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,761** public records representing **1,297** unique documents
-- Private citation records: **2,777**
-- Published, qualified, or conflict-visible affiliations: **988**
-- Published or conflict-visible claims: **1,909**
+- Reviewed public sources: **1,765** public records representing **1,298** unique documents
+- Private citation records: **2,781**
+- Published, qualified, or conflict-visible affiliations: **993**
+- Published or conflict-visible claims: **1,920**
 - Verified-affiliation metric: **412** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **181** people with confirmed/high published
@@ -149,6 +149,33 @@ Run: 2026-08-17 UTC
 - Batch 248 local release checks: **passed**; after correcting punctuation in
   the new historical-employer assertion, the focused **3-case** regression and
   complete **786-case** browser and axe matrix passed locally
+
+## Batch 250 local release check
+
+Batch 250 adds the ten visually checked Box 71 rows from Ernest J. Bouchea on
+PDF page 45 through Paul E. Boudreau on page 46. Five exact private-identifier
+matches support five medium-confidence, date-bounded Army-entry occupations,
+while the publication keeps those occupations distinct from named employers.
+Ernest J. Bouchea remains probable because the official Army row is late and
+rank-conflicting; four other rows remain unresolved. Every unresolved or
+chronologically unusable candidate retains an explicit archival-review path.
+
+The full Python suite passed 70 / 70. Astro reported zero errors, warnings, or
+hints and built 24,379 pages. The focused Batch 250 regression passed 3 / 3,
+and the complete desktop, phone, and tablet browser/axe matrix passed 792 / 792
+in 24.6 minutes with no serious or critical accessibility violation. The
+internal-link checker passed all 24,379 HTML files and inventoried 49,213
+unique external URLs. The deterministic 200-profile audit, dependency audit,
+SQLite integrity checks, and public-redaction checks also passed.
+
+Two consecutive builds produced the identical
+`5d68757bb486db28255693ec80e0b8b433b6624bb9e427aed4ce31caeb10b442`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and hashes in both source and built trees across 74,337,811 bytes; the manifest
+SHA-256 is
+`6a452d5813f265b1fa3f5f9e8430c412a057177d260f9b7ddd35071b9254a580`.
+The complete identifier audit found zero full private-number leaks. No
+authenticated Catalog request or credential was used.
 
 ## Batch 249 local release check
 
