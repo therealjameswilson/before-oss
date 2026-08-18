@@ -22995,3 +22995,62 @@ test("Batch 280 publishes two identifier-backed occupations, preserves an incomp
     /^••••[A-Z0-9]{4}$/,
   );
 });
+
+test("Batch 281 publishes three bounded occupations and Brix's documented newspaper affiliation without inventing employers", async ({
+  page,
+}) => {
+  await page.goto("./people/cbf13c28-c780-586a-aa8b-b323bd800f13/");
+  await expect(page.getByRole("heading", { name: "Robert E Brittain", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Secondary-school teacher or principal",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/a84e7663-1088-5c68-98c5-d06ee36e71fd/");
+  await expect(page.getByRole("heading", { name: "Raymond L Brittenham", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Lawyer");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/f5eab8ab-f429-59a4-be49-8ca4c7990be0/");
+  await expect(page.getByRole("heading", { name: "William G Britton", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Purchasing agent or buyer, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/dcebee3f-c6aa-5467-901d-0fde00611add/");
+  await expect(page.getByRole("heading", { name: "Christ Brix", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Dansk Tidende (Danish Times)",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Editor",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/c6e5fa82-93d2-502a-b45e-a134d28499b5/");
+  await expect(page.getByRole("heading", { name: "Helen M Brittenham", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});

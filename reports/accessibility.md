@@ -15,6 +15,17 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 281 adds a focused direct-route regression for John Bristow through
+Christ Brix on PDF page 52. It verifies exact-identifier, qualified Army-entry
+occupations for Robert E. Brittain and William G. Britton; Raymond L.
+Brittenham's confirmed commissioned classification and lawyer occupation
+without inventing a law firm; Christ Brix's documented *Dansk Tidende* editor
+affiliation without presenting it as employment or an immediate predecessor;
+and Helen M. Brittenham's unresolved profile without organization links. The
+focused regression passed **3 / 3** across desktop, phone, and tablet. A fresh
+core-route axe matrix passed **27 / 27**, including the Sources table, with no
+serious or critical axe violation.
+
 Batch 280 adds a focused direct-route regression for Constance Brink through
 Emerald C. Bristow on PDF page 52. It verifies exact-identifier, qualified
 Army-entry occupations for Dilworth C. Brinton and Dan M. Briscoe without

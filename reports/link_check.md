@@ -4,16 +4,40 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,385 HTML files. Every relative
+**PASS.** The production build contains 24,386 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 437 organization profiles, and the
+The build includes 23,940 person profiles, 438 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,264 unique external URLs for separate live
+The checker inventoried 49,269 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 281 local release check
+
+The complete 24,386-page internal-link pass includes direct routes for John
+Bristow through Christ Brix on PDF page 52 and the new *Dansk Tidende*
+organization page. The 74-test Python suite, deterministic 200-profile audit,
+focused three-viewport regression, 27-case axe matrix, dependency audit,
+database integrity checks, and complete public-identifier audit pass; Astro
+reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 75,803,897 bytes and has
+SHA-256 `e78dc0e13c0abc00722a29cbf5d48ccbf6bdb8d3f87ecfcf8a3f8f5e989b034d`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,456 artifacts, rejected 1,029
+harmless candidate substrings, and found no aggregate or unexpected boundary
+matches; two manifest-size coincidences remained confined to permitted size
+fields.
+
+Two consecutive production builds produced the identical complete-site digest
+`9772d1b96faa36e6ccd0059b04636a43294c03394bfa106ce2e9e23d0f39997b`.
+The regression keeps three occupations and Brix's professional affiliation
+separate from civilian-employer and immediate-predecessor claims and keeps all
+full private identifiers out of public facts.
 
 ## Batch 280 local release check
 

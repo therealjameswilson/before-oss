@@ -5,8 +5,8 @@ Run: 2026-08-18 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,385 pages**
-- Internal link check: **24,385 HTML files passed**
+- Static production build: **24,386 pages**
+- Internal link check: **24,386 HTML files passed**
 - Complete browser and accessibility matrix: **815 / 816 passed** in the
   44.7-minute single-worker run. The only failure was the desktop `/sources/`
   axe scan under its former 45-second limit; after a route-specific 90-second
@@ -30,41 +30,56 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 280: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **837-case** matrix runs in release CI
+- Focused Batch 281 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 281: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **840-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batch 280): **byte-for-byte identical**
+- Latest deterministic build (Batch 281): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`2bc6af7733e039b53b68c50e3e2a6e22a6d15ce69d49f5315111751e1120a299`).
-- Previous deterministic build (Batch 279): **byte-for-byte identical** across
+  (`9772d1b96faa36e6ccd0059b04636a43294c03394bfa106ce2e9e23d0f39997b`).
+- Previous deterministic build (Batch 280): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **75,722,357 bytes** in both the source and built public trees;
+  across **75,803,897 bytes** in both the source and built public trees;
   manifest SHA-256
-  `94af3f9a2464ab52fe2abcb70e7e594790f305c698cecab9086a80b033c12a46`
+  `e78dc0e13c0abc00722a29cbf5d48ccbf6bdb8d3f87ecfcf8a3f8f5e989b034d`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,455** production artifacts, including compressed mirrors;
-  **1,031** candidate substrings were reviewed.
+  matches** in **24,456** production artifacts, including compressed mirrors;
+  **1,029** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,912** public records representing **1,369** unique documents
-- Private citation records: **2,949**
-- Published, qualified, or conflict-visible affiliations: **1,058**
-- Published or conflict-visible claims: **2,083**
-- Verified-affiliation metric: **422** people with confirmed/high published
+- Reviewed public sources: **1,921** public records representing **1,374** unique documents
+- Private citation records: **2,958**
+- Published, qualified, or conflict-visible affiliations: **1,062**
+- Published or conflict-visible claims: **2,091**
+- Verified-affiliation metric: **423** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **184** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 281 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,386-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. Robert E. Brittain and William G. Britton have exact-
+  identifier, qualified Army-entry occupations; Raymond L. Brittenham has a
+  confirmed Chicago-lawyer occupation and commissioned classification without
+  an invented firm; and Christ Brix's documented *Dansk Tidende* editor role
+  remains a professional affiliation rather than an employer or immediate
+  predecessor claim. Six unsupported names remain archival-review cases. The
+  complete 840-case browser matrix runs in release CI.
 - Batch 280 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,385-route link check, deterministic rebuild, manifest audit, dependency

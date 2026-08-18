@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,593 people with a non-planned attempt | 23,940 active person entities | 10.8312% |
-| Verified-affiliation coverage | 422 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7627% |
+| Research-attempt coverage | 2,603 people with a non-planned attempt | 23,940 active person entities | 10.8730% |
+| Verified-affiliation coverage | 423 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7669% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,543 people with an individual file-access/priority assessment | 23,940 active person entities | 10.6224% |
+| Archival-review coverage | 2,553 people with an individual file-access/priority assessment | 23,940 active person entities | 10.6642% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 218
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 417
-- Identity status `high_confidence`: 451
+- Identity status `confirmed`: 420
+- Identity status `high_confidence`: 452
 - Identity status `probable`: 89
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,905
+- Identity status `unresolved`: 22,901
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,313
-- Enlisted Army personnel: 3,640
-- Commissioned Army officers: 2,091
+- Unknown or indeterminate: 16,309
+- Enlisted Army personnel: 3,642
+- Commissioned Army officers: 2,092
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,483
+- Civilian professional or administrative grades: 1,484
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 84
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,203 yes; 5,279 no; 16,458 indeterminate.
+Commissioned classification: 2,204 yes; 5,284 no; 16,452 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,347
+- `not_started`: 21,337
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 355
-- `requires_archival_review`: 1,758
-- `completed`: 81
+- `occupation_only_found`: 358
+- `requires_archival_review`: 1,764
+- `completed`: 82
 - `conflicting_sources`: 35
 - `verified_employer_found`: 182
-- Claim confidence: 598 confirmed; 972 high; 468 medium; 35 low; 45
+- Claim confidence: 601 confirmed; 974 high; 471 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,949 source records representing 1,369 unique
-  documents; 448 organizations; 1,067 affiliations; 2,118 claims; and 4,742
+- Durable evidence inventory: 2,958 source records representing 1,374 unique
+  documents; 449 organizations; 1,071 affiliations; 2,126 claims; and 4,764
   claim-source links
-- Reviewed public projection: 437 organizations; 1,058 published, qualified,
-  or conflict-visible affiliations; 2,083 published, qualified, or
-  conflict-visible claims; and 1,912 public citation records
+- Reviewed public projection: 438 organizations; 1,062 published, qualified,
+  or conflict-visible affiliations; 2,091 published, qualified, or
+  conflict-visible claims; and 1,921 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,203 yes; 5,279 no; 16,458 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,377. The detailed adapter breakdown remains reproducible in
+  2,387. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,046 across 1,015 people; 117 additional
+- Saved `source_reviewed` outcomes: 1,056 across 1,025 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,792
+- Total recorded attempts/plans: 3,802
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 969; 944 have at least one public-visible
+- People with saved reviewed claims: 973; 948 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2676,6 +2676,48 @@ Commissioned classification: 2,203 yes; 5,279 no; 16,458 indeterminate.
   public projection contains 1,053 affiliations, 2,071 claims, and 1,895
   citation records representing 1,364 unique documents.
 
+- Batch 281 covers the next ten contiguous Box 80 rows on PDF page 52, from
+  John Bristow through Christ Brix. The rendered source page, private-identifier
+  and rank fields, NARA's official unrestricted Army merged file and code
+  documentation, CIA's declassified OSS collection, institutional and
+  contemporary sources, and the full official-context, exact-name OSS,
+  employment, occupation, obituary, newspaper, directory, and archival query
+  families were reviewed. Every row now has a durable outcome and an individual
+  Box 80 file-access assessment.
+
+  Exact full-name and private-identifier matches confirm Robert E. Brittain and
+  William G. Britton in the official Army-entry file. NARA's historical code
+  tables place Brittain in the secondary-school-teacher-and-principal group and
+  Britton in the purchasing-agent-and-buyer group. Both are published only as
+  medium-confidence, strongly date-bounded occupations. The codes do not name a
+  school, employer, industry, exact role, or Army-to-OSS chronology, so none is
+  invented.
+
+  Official National Park Service history and Harvard Law memorial evidence
+  confirm Raymond L. Brittenham as the Harvard-trained Chicago lawyer and Army
+  major documented in OSS training history. Lawyer is published as a
+  strongly date-bounded occupation, not as self-employment or a named law-firm
+  relationship. A direct 1944 OSS field-report memorandum and the distinctive
+  name support a high-confidence Christ Brix identity. Contemporary 1939 and
+  1942 sources independently document him as editor of Chicago's *Dansk
+  Tidende* (*Danish Times*). That evidence is published as a high-confidence
+  documented-prewar professional affiliation, not as an immediate pre-OSS
+  affiliation or proven employment relationship.
+
+  John Bristow, John H. Britfus, Leslie D. Britt, Mary B. Brittain, Harry N.
+  Britten Jr., and Helen M. Brittenham remain unresolved archival-review cases.
+  A spelling variant, common-name candidates, and a possible family connection
+  between the Brittenhams were used only as search or review context; none is
+  promoted into identity or employment evidence.
+
+  The strict bundle adds nine sources, one organization, four affiliations,
+  eight claims, 22 claim-source links, ten person updates, and ten durable
+  research attempts. Coverage is now 2,603 researched people, 423 people with
+  a verified affiliation, 184 with a verified employer, and 2,553 individually
+  assessed for archival review, out of 23,940 active entities. The reviewed
+  public projection contains 1,062 affiliations, 2,091 claims, and 1,921
+  citation records representing 1,374 unique documents.
+
 - Batch 280 covers the next ten contiguous Box 80 rows on PDF page 52, from
   Constance Brink through Emerald C. Bristow. The rendered source page,
   private-identifier and rank fields, official unrestricted Army merged file
@@ -4742,6 +4784,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-on
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-harold-briggs-through-oliver-bright-pathways_batch-278_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-wade-brightbill-through-remsen-brincherhoff-pathways_batch-279_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-constance-brink-through-emerald-bristow-pathways_batch-280_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-john-bristow-through-christ-brix-pathways_batch-281_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
