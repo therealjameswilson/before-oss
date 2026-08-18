@@ -1,0 +1,908 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research workflow, batch 283",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-54-batch283",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 82",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 54, rows 1-10; Ida E. Brooks through Ray L. Brooks; visually checked with private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. Full private identifiers remain restricted and are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch283",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier checks for six eligible indexed records and exact-name review for all ten people; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. Only project-authored conclusions and stable citation pointers are retained. The merged file excludes officers and has known omissions, so absence is not treated as disproof."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch283",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width field positions for name, Army-entry date, rank, component, branch, civilian occupation, and birth year; visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields in the official merged file without retaining the raw record or private identifier."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch283",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF physical pages 171, 175, and 304; occupation codes 039, 703, and 992; visually and textually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The grouped occupation codes do not identify an employer, workplace, exact duties, school, or Army-to-OSS sequence."
+    },
+    {
+      "key": "smithsonian-james-brooks-biographical-note-batch283",
+      "stable_url": "https://www.aaa.si.edu/collections/james-brooks-and-charlotte-park-papers-8955/biographical-note",
+      "archival_identifier": "Archives of American Art collection 8955",
+      "title": "Biographical Note: James Brooks and Charlotte Park papers, 1909-2010",
+      "author_creator": "Archives of American Art",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "publication_record_date": "undated collection note",
+      "locator": "Biographical Note; James Brooks, 1906-1992; WPA Federal Art Project, 1936-1942; United States Army; OSS-related Washington assignment",
+      "access_date": "2026-08-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "James Brooks and Charlotte Park papers, 1909-2010, bulk 1930-2010",
+      "rights_notes": "Institutional collection description used for concise factual evidence; no image or extended transcript is republished."
+    },
+    {
+      "key": "smithsonian-james-brooks-oral-history-batch283",
+      "stable_url": "https://www.aaa.si.edu/collections/interviews/oral-history-interview-james-brooks-12719",
+      "archival_identifier": "Archives of American Art oral history 12719",
+      "title": "Oral history interview with James Brooks, 1965 June 10 and June 12",
+      "author_creator": "James Brooks; interviewed by Dorothy Seckler",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "publication_record_date": "1965-06-10 to 1965-06-12",
+      "locator": "36-page transcript; Brooks's first-person account of WPA work, Army service, return through Camp Dix, and work in the OSS Presentation Department",
+      "access_date": "2026-08-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Archives of American Art Oral History Program",
+      "rights_notes": "Only short excerpts within the repository's citation guidance are used. No audio or full transcript is republished."
+    },
+    {
+      "key": "smithsonian-james-brooks-fap-photo-batch283",
+      "stable_url": "https://www.aaa.si.edu/collections/items/detail/james-brooks-2001",
+      "archival_identifier": "Archives of American Art Digital ID 2001",
+      "title": "James Brooks, 1940 Aug. 21",
+      "author_creator": "Sol Libsohn, photographer",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "publication_record_date": "1940-08-21",
+      "locator": "Photograph and verso identification: James Brooks working on mural, North Beach Airport, New York City WPA Art Project",
+      "access_date": "2026-08-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Federal Art Project, Photographic Division collection, circa 1920-1965",
+      "document_number": "Digital ID 2001",
+      "rights_notes": "Current copyright status is undetermined. The project cites the catalog record and does not republish the image."
+    },
+    {
+      "key": "wwii-veterans-105th-infantry-orders-levis-brooks-batch283",
+      "stable_url": "https://worldwartwoveterans.org/wp-content/uploads/2024/10/106th-Infantry-Division-General-Orders-Part-3-of-3.pdf",
+      "archival_identifier": "Headquarters 105th Infantry, General Orders No. 46, 23 May 1945",
+      "title": "106th Infantry Division General Orders, Part 3 of 3",
+      "author_creator": "Headquarters, 105th Infantry; compiled access copy",
+      "repository_publisher": "World War II Veterans Survey",
+      "publication_record_date": "original order 1945-05-23; access copy created 2024",
+      "locator": "General Orders No. 46 continuation; Presidential Badge roster; Major Levis C. Brooks; exact private identifier withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "105th Infantry general orders compilation",
+      "rights_notes": "The access copy reproduces wartime orders. It is used only to corroborate identity, rank, and unit, not pre-OSS chronology or employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "works-progress-administration",
+      "canonical_name": "Works Progress Administration",
+      "historical_name": "Works Progress Administration",
+      "aliases": [
+        "WPA",
+        "Work Projects Administration"
+      ],
+      "organization_type": "federal work-relief agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1935-1943",
+      "normalization_notes": "The source calls the agency the Works Progress Administration. That historical form is preserved even though the agency was renamed the Work Projects Administration in 1939."
+    },
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "james-d-brooks-wpa-federal-art-project-batch283",
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "organization_key": "works-progress-administration",
+      "organization_name_as_found": "WPA Federal Art Project",
+      "role_title": "Mural artist",
+      "occupation": "Artist",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1942",
+      "date_precision": "The institutional biography dates participation to 1936-1942; Brooks's oral history describes paid WPA mural work and says he left as the project was ending before Army induction.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The direct oral history describes paid work on WPA murals and leaving the project before Civil Pilot Training and Army induction. No later civilian employer before military service was identified."
+    },
+    {
+      "key": "james-d-brooks-us-army-immediate-pre-oss-batch283",
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "United States Army",
+      "role_title": "Army artist and art correspondent",
+      "occupation": "Soldier and artist",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-09-17",
+      "end_date": "1945",
+      "date_precision": "The official Army-entry record supplies the induction date. Brooks's oral history directly sequences Army assignments, Camp Dix, and several months in the OSS Presentation Department; the exact OSS start date is not stated.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Modeled as military assignment, not employment. The oral history gives a direct Army-to-OSS sequence but not a formal transfer order or exact date."
+    },
+    {
+      "key": "melvin-s-brooks-professional-nec-occupation-batch283",
+      "person_id": "71f00cc5-f1eb-507d-8a04-c9bd73fcfe8c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Professional occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-31",
+      "date_precision": "The official Army-entry record carries civilian occupation code 039 on July 31, 1943; the category supplies neither a profession nor an employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The broad residual occupation code cannot support a named profession, employer, or immediate OSS predecessor."
+    },
+    {
+      "key": "nelson-s-brooks-student-status-batch283",
+      "person_id": "38136d3f-c19d-5a2d-a4ad-2273a1c1e87c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-02-15",
+      "date_precision": "The official Army-entry record carries civilian occupation code 992 on February 15, 1943; the official code table identifies students but names no institution.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not employment. The school and Army-to-OSS chronology remain unknown."
+    },
+    {
+      "key": "norman-brooks-aircraft-building-nec-occupation-batch283",
+      "person_id": "908f448e-2173-5bdd-9db5-56b2b8f976f0",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Aircraft building occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-06",
+      "date_precision": "The official Army-entry record carries civilian occupation code 703 on July 6, 1943; the category supplies neither a trade nor an employer.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation cannot support a specific job, aircraft manufacturer, plant, or OSS chronology."
+    }
+  ],
+  "claims": [
+    {
+      "key": "james-d-brooks-confirmed-identity-batch283",
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James D. Brooks is confirmed as the Army entrant represented by the exact-name and private-identifier match and as the artist whose direct oral history describes Army and OSS service.",
+      "evidence_excerpt": "BROOKS JAMES D",
+      "evidence_paraphrase": "The index and official Army file match on full name and private identifier; the Smithsonian chronology independently matches Army and OSS art work.",
+      "identity_match_assessment": "Confirmed by exact private identifier, exact normalized full name, and a highly specific Army-to-OSS artistic-service chronology.",
+      "temporal_assessment": "The Army record begins September 17, 1942; the oral history describes wartime Army assignments followed by OSS Presentation Department work.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The combined official and Smithsonian evidence distinguishes this person from other James Brooks namesakes.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-54-batch283",
+          "support_type": "supports",
+          "locator_override": "PDF page 54, row 2",
+          "excerpt_override": "BROOKS JAMES D"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BROOKS JAMES D"
+        },
+        {
+          "source_key": "smithsonian-james-brooks-oral-history-batch283",
+          "support_type": "supports",
+          "locator_override": "Transcript, wartime service discussion",
+          "excerpt_override": "I worked for OSS there in their presentation department, which was an art department."
+        }
+      ]
+    },
+    {
+      "key": "james-d-brooks-last-civilian-wpa-batch283",
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "affiliation_key": "james-d-brooks-wpa-federal-art-project-batch283",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "James D. Brooks's best-supported last civilian employer before military service was the Works Progress Administration's Federal Art Project, where he worked as a mural artist.",
+      "evidence_excerpt": "From 1936-1942 he participated in the WPA Federal Art Project",
+      "evidence_paraphrase": "The institutional biography dates Brooks's WPA mural work to 1936-1942; his oral history describes paid project work and leaving before Army induction.",
+      "identity_match_assessment": "The confirmed index-to-Army identity and distinctive Army/OSS art chronology link the Smithsonian artist record to this person.",
+      "temporal_assessment": "Strongly date-bounded: WPA work ended in 1942; Civil Pilot Training intervened before Army entry on September 17, 1942; no later civilian employer is documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is limited to last civilian employer before service. Civil Pilot Training is not converted into employment, and WPA is not labeled the immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "smithsonian-james-brooks-biographical-note-batch283",
+          "support_type": "supports",
+          "locator_override": "Biographical Note, wartime chronology",
+          "excerpt_override": "From 1936-1942 he participated in the WPA Federal Art Project"
+        },
+        {
+          "source_key": "smithsonian-james-brooks-oral-history-batch283",
+          "support_type": "supports",
+          "locator_override": "Transcript, WPA and Army discussion",
+          "excerpt_override": "We all got twenty-five dollars, or twenty-two dollars a week."
+        },
+        {
+          "source_key": "smithsonian-james-brooks-fap-photo-batch283",
+          "support_type": "supports",
+          "locator_override": "Digital ID 2001, verso identification",
+          "excerpt_override": "James Brooks working on mural; Location: North Beach Airport."
+        }
+      ]
+    },
+    {
+      "key": "james-d-brooks-immediate-army-batch283",
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "affiliation_key": "james-d-brooks-us-army-immediate-pre-oss-batch283",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "James D. Brooks's best-supported immediate pre-OSS affiliation was the United States Army, after overseas art-correspondent service and a return through Camp Dix.",
+      "evidence_excerpt": "Then we were shipped to Dix at home where I was put in baker's school",
+      "evidence_paraphrase": "Brooks directly described returning from an Army art assignment, passing through Camp Dix, and then working in the OSS Presentation Department.",
+      "identity_match_assessment": "Confirmed by exact index-to-Army identifier match and the independently matching OSS artistic assignment.",
+      "temporal_assessment": "Strongly date-bounded by Brooks's first-person sequence; a transfer order and exact OSS start date have not been located.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army is modeled as a military assignment, not a civilian employer. The claim does not infer a specific unit at the moment of OSS transfer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry September 17, 1942; identifier withheld",
+          "excerpt_override": "BROOKS JAMES D"
+        },
+        {
+          "source_key": "smithsonian-james-brooks-oral-history-batch283",
+          "support_type": "supports",
+          "locator_override": "Transcript, Army return and OSS discussion",
+          "excerpt_override": "Then we were shipped to Dix at home where I was put in baker's school."
+        },
+        {
+          "source_key": "smithsonian-james-brooks-biographical-note-batch283",
+          "support_type": "supports",
+          "locator_override": "Biographical Note, World War II paragraph",
+          "excerpt_override": "During World War II Brooks served in the United States Army as an art correspondent in Cairo."
+        }
+      ]
+    },
+    {
+      "key": "melvin-s-brooks-confirmed-army-identity-batch283",
+      "person_id": "71f00cc5-f1eb-507d-8a04-c9bd73fcfe8c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Melvin S. Brooks is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROOKS MELVIN S",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated July 31, 1943; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Other same-name results lacked the private identifier or an OSS Box 82 link.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-54-batch283",
+          "support_type": "supports",
+          "locator_override": "PDF page 54, row 6",
+          "excerpt_override": "BROOKS MELVIN S"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BROOKS MELVIN S"
+        }
+      ]
+    },
+    {
+      "key": "melvin-s-brooks-professional-nec-occupation-claim-batch283",
+      "person_id": "71f00cc5-f1eb-507d-8a04-c9bd73fcfe8c",
+      "affiliation_key": "melvin-s-brooks-professional-nec-occupation-batch283",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Melvin S. Brooks was recorded only in the residual category 'professional occupations, not elsewhere classified.'",
+      "evidence_excerpt": "Professional occupations, n. e. c.",
+      "evidence_paraphrase": "The official record carries code 039; the official code list maps 0-39 to a broad residual professional category.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on July 31, 1943; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No profession or employer is inferred from the residual category. The personnel file is needed for specificity and chronology.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 039; identifier withheld",
+          "excerpt_override": "BROOKS MELVIN S"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch283",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation field definition",
+          "excerpt_override": "CIVILIAN OCCUPATION: 3-digit code"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch283",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 171, code 0-39",
+          "excerpt_override": "Professional occupations, n. e. c."
+        }
+      ]
+    },
+    {
+      "key": "nelson-s-brooks-confirmed-army-identity-batch283",
+      "person_id": "38136d3f-c19d-5a2d-a4ad-2273a1c1e87c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Nelson S. Brooks is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROOKS NELSON S",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated February 15, 1943; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "A Tuskegee-associated newspaper namesake was rejected because it lacked the private identifier and Box 82 linkage.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-54-batch283",
+          "support_type": "supports",
+          "locator_override": "PDF page 54, row 7",
+          "excerpt_override": "BROOKS NELSON S"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BROOKS NELSON S"
+        }
+      ]
+    },
+    {
+      "key": "nelson-s-brooks-student-status-claim-batch283",
+      "person_id": "38136d3f-c19d-5a2d-a4ad-2273a1c1e87c",
+      "affiliation_key": "nelson-s-brooks-student-status-batch283",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nelson S. Brooks was recorded as a student at Army entry; the accessible record does not identify his school.",
+      "evidence_excerpt": "9 92 Students",
+      "evidence_paraphrase": "The official record carries occupation code 992, which the official code table identifies as students.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on February 15, 1943; the relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is kept distinct from employment. No institution is supplied or inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 992; identifier withheld",
+          "excerpt_override": "BROOKS NELSON S"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch283",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation field definition",
+          "excerpt_override": "CIVILIAN OCCUPATION: 3-digit code"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch283",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304, code 9 92",
+          "excerpt_override": "9 92 Students"
+        }
+      ]
+    },
+    {
+      "key": "norman-brooks-confirmed-army-identity-batch283",
+      "person_id": "908f448e-2173-5bdd-9db5-56b2b8f976f0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Norman Brooks is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROOKS NORMAN",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier despite the absence of a middle initial.",
+      "temporal_assessment": "The Army-entry record is dated July 6, 1943; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Later CIA-hosted and entertainment namesakes were rejected because they did not match the wartime private identifier or Box 82 context.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-54-batch283",
+          "support_type": "supports",
+          "locator_override": "PDF page 54, row 9",
+          "excerpt_override": "BROOKS NORMAN"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BROOKS NORMAN"
+        }
+      ]
+    },
+    {
+      "key": "norman-brooks-aircraft-building-nec-occupation-claim-batch283",
+      "person_id": "908f448e-2173-5bdd-9db5-56b2b8f976f0",
+      "affiliation_key": "norman-brooks-aircraft-building-nec-occupation-batch283",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Norman Brooks was recorded in the grouped category 'aircraft building occupations, not elsewhere classified.'",
+      "evidence_excerpt": "7-03 Aircraft building occupations, n. e. c.",
+      "evidence_paraphrase": "The official record carries code 703; the official code list maps 7-03 to a residual aircraft-building category.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on July 6, 1943; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, manufacturer, plant, or exact trade is inferred from the grouped code.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch283",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 703; identifier withheld",
+          "excerpt_override": "BROOKS NORMAN"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch283",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation field definition",
+          "excerpt_override": "CIVILIAN OCCUPATION: 3-digit code"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch283",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 175, code 7-03",
+          "excerpt_override": "7-03 Aircraft building occupations, n. e. c."
+        }
+      ]
+    },
+    {
+      "key": "levis-c-brooks-confirmed-major-identity-batch283",
+      "person_id": "b9b5d979-2d7a-5613-bed7-3d15c83cc19d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Levis C. Brooks is confirmed as the Army major listed with the same exact name and private officer identifier in a 105th Infantry wartime order.",
+      "evidence_excerpt": "MAJ LEVIS C BROOKS",
+      "evidence_paraphrase": "The index and reproduced official order agree on the uncommon full name and exact private officer identifier; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and distinctive full name in a wartime unit order.",
+      "temporal_assessment": "The order dates the major's 105th Infantry service to May 23, 1945 but does not establish whether it preceded, overlapped, or followed OSS assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The evidence supports identity and commissioned rank only. It is not converted into a pre-OSS affiliation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-54-batch283",
+          "support_type": "supports",
+          "locator_override": "PDF page 54, row 5",
+          "excerpt_override": "BROOKS LEVIS C"
+        },
+        {
+          "source_key": "wwii-veterans-105th-infantry-orders-levis-brooks-batch283",
+          "support_type": "supports",
+          "locator_override": "General Orders No. 46, 23 May 1945; exact private identifier withheld",
+          "excerpt_override": "MAJ LEVIS C BROOKS"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "9c646da8-3463-563c-a31e-5dee897077a0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Ida E. Brooks and Box 82, with no rank, grade, or private identifier. Official Army, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned namesakes or no corroborating Box 82 link.",
+      "name_variants": ["Ida E Brooks", "Ida E. Brooks", "Ida Brooks", "Brooks, Ida E."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 82 for identifiers, dates, hometown, personnel status, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file have the exact same full name and private identifier. The identifier remains withheld. The Smithsonian artist biography and direct oral history independently reproduce the distinctive WPA, Army-art, Cairo, Camp Dix, and OSS Presentation Department chronology.",
+      "name_variants": ["James D Brooks", "James D. Brooks", "James David Brooks", "James Brooks", "Brooks, James D."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "The WPA Federal Art Project is supported as the last civilian employer and the Army as the immediate pre-OSS affiliation. The Box 82 file could refine the formal transfer date and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "not_required"
+    },
+    {
+      "person_id": "0d19673c-9db4-5d7c-a45a-6eaadf5a8b04",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies James H. Brooks and Box 82, with no rank, grade, or private identifier. Official Army, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, veteran, and archival searches produced multiple namesakes but no corroborating Box 82 identity.",
+      "name_variants": ["James H Brooks", "James H. Brooks", "James Brooks", "Brooks, James H."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 82 for a private identifier, rank, branch, dates, hometown, and employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "74f4e499-3fe2-52b7-83b2-ba1e2911bd8e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Joseph W. Brooks, Box 82, and a private identifier that was searched but found no exact-name official or institutional corroboration. The Army merged file's officer exclusion and known omissions mean the absence is not disproof.",
+      "name_variants": ["Joseph W Brooks", "Joseph W. Brooks", "Joseph Brooks", "Brooks, Joseph W."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 82 for rank, branch, dates, employment history, and private-identifier context.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b9b5d979-2d7a-5613-bed7-3d15c83cc19d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The uncommon full name and exact private officer identifier match between the visually checked OSS index and a reproduced May 23, 1945 Headquarters, 105th Infantry order. The order identifies Levis C. Brooks as a major; the identifier remains withheld.",
+      "name_variants": ["Levis C Brooks", "Levis C. Brooks", "Levis Brooks", "Brooks, Levis C."],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Identity and commissioned rank are confirmed, but the 1945 unit order does not establish pre-OSS chronology. Review Box 82 for civilian employment and the sequence between the 105th Infantry and OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "71f00cc5-f1eb-507d-8a04-c9bd73fcfe8c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file have the exact same full name and private service identifier. The identifier remains withheld. The matching record documents Army entry on July 31, 1943 and civilian occupation code 039.",
+      "name_variants": ["Melvin S Brooks", "Melvin S. Brooks", "Melvin Brooks", "Brooks, Melvin S."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The official code supplies only an unspecified professional-occupation category. Review Box 82 for the profession, employer, dates, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38136d3f-c19d-5a2d-a4ad-2273a1c1e87c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file have the exact same full name and private service identifier. The identifier remains withheld. The matching record documents Army entry on February 15, 1943 and civilian occupation code 992.",
+      "name_variants": ["Nelson S Brooks", "Nelson S. Brooks", "Nelson Brooks", "Brooks, Nelson S."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "The official record identifies student status but not a school. Review Box 82 for the institution, field of study, dates, any civilian employer, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ddee8ca0-7b03-5081-9eb9-001d0f445d9b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Norma Brooks and Box 82, with no middle initial, rank, grade, or private identifier. Official, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned unrelated namesakes or no corroborating Box 82 link.",
+      "name_variants": ["Norma Brooks", "Brooks, Norma"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 82 for a full name, identifiers, dates, personnel status, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "908f448e-2173-5bdd-9db5-56b2b8f976f0",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file have the exact same full name and private service identifier. The identifier remains withheld. The matching record documents Army entry on July 6, 1943 and civilian occupation code 703.",
+      "name_variants": ["Norman Brooks", "Brooks, Norman"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The official code supplies only a broad aircraft-building occupation. Review Box 82 for the trade, employer or plant, location, dates, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5b68917a-a349-5f40-b4ab-788b22c83225",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Ray L. Brooks and Box 82, with no rank, grade, or private identifier. Official Army, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, veteran, and archival searches returned common-name alternatives without a Box 82 link.",
+      "name_variants": ["Ray L Brooks", "Ray L. Brooks", "Ray Brooks", "Brooks, Ray L."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 82 for identifiers, dates, hometown, personnel status, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "ida-e-brooks-protocol-batch283",
+      "person_id": "9c646da8-3463-563c-a31e-5dee897077a0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ida E. Brooks: visually checked NARA index; official Army and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:58:00+00:00",
+      "completed_at": "2026-08-18T18:17:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Namesakes lacked an OSS, private-identifier, or Box 82 linkage.",
+      "research_notes": "The indexed person remains unresolved; no reliable predecessor affiliation was found.",
+      "next_action": "Review Box 82 for identity and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "james-d-brooks-protocol-batch283",
+      "person_id": "0f7fb284-49be-507a-aac7-5030c7608ab6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James D. Brooks: visually checked NARA index; exact private-identifier review in official Army bulk data; CIA, OSS, employment, art-institution, obituary, archival, WPA, and Army chronology searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:58:00+00:00",
+      "completed_at": "2026-08-18T18:24:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Other James Brooks results lacked the private identifier or the distinctive WPA, Army-art, Cairo, Camp Dix, and OSS Presentation Department sequence.",
+      "research_notes": "Exact official identity evidence and three Smithsonian records support the WPA as last civilian employer and the Army as immediate pre-OSS affiliation.",
+      "next_action": "Optional Box 82 review could refine the formal OSS transfer date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "james-h-brooks-protocol-batch283",
+      "person_id": "0d19673c-9db4-5d7c-a45a-6eaadf5a8b04",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James H. Brooks: visually checked NARA index; official Army and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, veteran, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:00:00+00:00",
+      "completed_at": "2026-08-18T18:18:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name military, cemetery, and obituary candidates lacked a private identifier, matching OSS role, or Box 82 linkage.",
+      "research_notes": "The indexed person remains unresolved; no reliable predecessor affiliation was found.",
+      "next_action": "Review Box 82 for identity and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "joseph-w-brooks-protocol-batch283",
+      "person_id": "74f4e499-3fe2-52b7-83b2-ba1e2911bd8e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Joseph W. Brooks: visually checked NARA index; private-identifier searches; official Army and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, veteran, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:00:00+00:00",
+      "completed_at": "2026-08-18T18:21:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Candidates did not reproduce the indexed private identifier or a Box 82 personnel-file link; Army-bulk absence is non-dispositive for a possible officer record.",
+      "research_notes": "The private identifier did not yield a corroborated public identity or predecessor affiliation.",
+      "next_action": "Review Box 82 for rank, identity, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "levis-c-brooks-protocol-batch283",
+      "person_id": "b9b5d979-2d7a-5613-bed7-3d15c83cc19d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Levis C. Brooks: visually checked NARA index; private-identifier searches; official Army and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, unit-order, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:01:00+00:00",
+      "completed_at": "2026-08-18T18:26:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unlinked Brooks namesakes and unit records without the exact private identifier were rejected.",
+      "research_notes": "A wartime order confirms identity, commissioned major rank, and 105th Infantry service in May 1945, but not pre-OSS chronology or employment.",
+      "next_action": "Review Box 82 for civilian employment and the Army-to-OSS sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "melvin-s-brooks-protocol-batch283",
+      "person_id": "71f00cc5-f1eb-507d-8a04-c9bd73fcfe8c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Melvin S. Brooks: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, employment, occupation, institutional, newspaper, obituary, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:02:00+00:00",
+      "completed_at": "2026-08-18T18:23:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Modern and Texas-agriculture namesakes lacked the private identifier or OSS Box 82 linkage.",
+      "research_notes": "Identity is confirmed; only a broad residual professional occupation is supportable, with no named employer.",
+      "next_action": "Review Box 82 for the profession, employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "nelson-s-brooks-protocol-batch283",
+      "person_id": "38136d3f-c19d-5a2d-a4ad-2273a1c1e87c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Nelson S. Brooks: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, employment, student, institutional, newspaper, obituary, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:03:00+00:00",
+      "completed_at": "2026-08-18T18:25:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A Tuskegee-linked newspaper namesake and other candidates lacked the private identifier, matching chronology, or Box 82 linkage.",
+      "research_notes": "Identity and student status at Army entry are confirmed, but the school and employer history remain unknown.",
+      "next_action": "Review Box 82 for the school, any employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "norma-brooks-protocol-batch283",
+      "person_id": "ddee8ca0-7b03-5081-9eb9-001d0f445d9b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Norma Brooks: visually checked NARA index; official and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, women's-service, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:04:00+00:00",
+      "completed_at": "2026-08-18T18:20:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Entertainment, family, and wartime namesakes lacked a middle initial, OSS context, or Box 82 linkage.",
+      "research_notes": "The indexed person remains unresolved; no reliable predecessor affiliation was found.",
+      "next_action": "Review Box 82 for identity and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "norman-brooks-protocol-batch283",
+      "person_id": "908f448e-2173-5bdd-9db5-56b2b8f976f0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Norman Brooks: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, employment, occupation, aircraft-industry, institutional, newspaper, obituary, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:05:00+00:00",
+      "completed_at": "2026-08-18T18:27:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A later CIA-hosted dispatch-agent namesake, entertainers, and aircraft-industry candidates lacked the private identifier or Box 82 link.",
+      "research_notes": "Identity is confirmed; only a grouped aircraft-building occupation is supportable, with no named employer or plant.",
+      "next_action": "Review Box 82 for the trade, employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    },
+    {
+      "key": "ray-l-brooks-protocol-batch283",
+      "person_id": "5b68917a-a349-5f40-b4ab-788b22c83225",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ray L. Brooks: visually checked NARA index; official Army and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, veteran, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:06:00+00:00",
+      "completed_at": "2026-08-18T18:22:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name military, obituary, and directory candidates lacked an OSS assignment, private identifier, or Box 82 linkage.",
+      "research_notes": "The indexed person remains unresolved; no reliable predecessor affiliation was found.",
+      "next_action": "Review Box 82 for identity and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch283-v1"
+    }
+  ]
+}

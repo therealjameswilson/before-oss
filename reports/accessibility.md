@@ -15,6 +15,17 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 283 adds a focused direct-route regression for Ida E. Brooks through Ray
+L. Brooks on PDF page 54. It verifies James D. Brooks's immediate Army pathway
+separately from his WPA Federal Art Project employer; keeps Melvin S. Brooks's
+residual professional category, Nelson S. Brooks's unnamed student status, and
+Norman Brooks's grouped aircraft-building occupation distinct from named
+employers; confirms Levis C. Brooks's commissioned classification without
+inventing a predecessor; and preserves Ida E. Brooks as an unresolved profile
+without organization links. The focused regression passed **3 / 3** across
+desktop, phone, and tablet. A fresh core-route axe matrix passed **27 / 27**,
+including the Sources table, with no serious or critical axe violation.
+
 Batch 282 adds a focused direct-route regression for Charles V. Broadley
 through Alexander B. Brock across PDF pages 52-53. It verifies exact-
 identifier, qualified Army-entry occupations for Page R. Broadwater and

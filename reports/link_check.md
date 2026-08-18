@@ -12,8 +12,31 @@ The build includes 23,940 person profiles, 438 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,271 unique external URLs for separate live
+The checker inventoried 49,275 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 283 local release check
+
+The complete 24,386-page internal-link pass includes direct routes for Ida E.
+Brooks through Ray L. Brooks on PDF page 54 and the updated Works Progress
+Administration and United States Army organization pages. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport regression,
+27-case axe matrix, dependency audit, database integrity checks, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 75,953,203 bytes and has
+SHA-256 `3053afd577a5a1d8d27b520132aaf77f0e60edbbc7153b1fd2dbfdc5c98d03a0`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,456 artifacts, rejected 1,027
+harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`607bb1ab924fd9a5260b619e5ca6d4388698bf921e5c12ef135681745b624a57`.
+The regression separates James D. Brooks's immediate Army pathway from his WPA
+employer, keeps three broad statuses or occupations qualified, and keeps all
+full private identifiers out of public facts.
 
 ## Batch 282 local release check
 
