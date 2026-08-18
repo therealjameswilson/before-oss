@@ -4,16 +4,41 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,383 HTML files. Every relative
+**PASS.** The production build contains 24,384 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 435 organization profiles, and the
+The build includes 23,940 person profiles, 436 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,240 unique external URLs for separate live
+The checker inventoried 49,248 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batches 270-272 local release check
+
+The complete 24,384-page internal-link pass includes direct routes for Selma
+Braunstein through Robert L. Bremhorst on PDF page 50. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport regression,
+27-case axe matrix, and complete public-identifier audit pass; Astro reports
+zero errors, warnings, or hints, and the production dependency audit finds
+zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 75,422,441 bytes and has
+SHA-256
+`974ad73ecb8692bb50ae52c39aa456d15e24b453c397d18d41b9b030b0ed6c9f`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,454 artifacts, rejected 1,025
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`fd2a03aca34cdbaa4a7a13894e869503a866f6dbd1bb4c126a9fb3199f0e209d`.
+The regression keeps student status separate from employment, withholds
+ambiguous Army occupation codes, preserves unresolved namesakes and printed
+spelling differences, and documents Cleveland Electric Motor Company only as
+George S. Breitmayer Jr.'s last civilian employer before Army service.
 
 ## Batches 263-269 local release check
 

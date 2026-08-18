@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,484 people with a non-planned attempt | 23,940 active person entities | 10.3759% |
-| Verified-affiliation coverage | 416 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7377% |
-| Verified-employer coverage | 183 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7644% |
-| Archival-review coverage | 2,434 people with an individual file-access/priority assessment | 23,940 active person entities | 10.1671% |
+| Research-attempt coverage | 2,514 people with a non-planned attempt | 23,940 active person entities | 10.5013% |
+| Verified-affiliation coverage | 418 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7460% |
+| Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
+| Archival-review coverage | 2,464 people with an individual file-access/priority assessment | 23,940 active person entities | 10.2924% |
 
 ## Extraction and identity
 
@@ -20,21 +20,21 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 215
+- Possible duplicate groups: 216
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 394
-- Identity status `high_confidence`: 443
-- Identity status `probable`: 84
+- Identity status `confirmed`: 405
+- Identity status `high_confidence`: 446
+- Identity status `probable`: 85
 - Identity status `ambiguous`: 44
 - Identity status `conflicting`: 30
-- Identity status `unresolved`: 22,945
+- Identity status `unresolved`: 22,930
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,344
-- Enlisted Army personnel: 3,620
-- Commissioned Army officers: 2,087
+- Unknown or indeterminate: 16,333
+- Enlisted Army personnel: 3,629
+- Commissioned Army officers: 2,089
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,199 yes; 5,254 no; 16,487 indeterminate.
+Commissioned classification: 2,201 yes; 5,263 no; 16,476 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,456
+- `not_started`: 21,426
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 59
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 346
-- `requires_archival_review`: 1,668
+- `occupation_only_found`: 350
+- `requires_archival_review`: 1,693
 - `completed`: 78
 - `conflicting_sources`: 32
-- `verified_employer_found`: 180
-- Claim confidence: 574 confirmed; 959 high; 454 medium; 35 low; 42
+- `verified_employer_found`: 181
+- Claim confidence: 585 confirmed; 964 high; 459 medium; 35 low; 42
   conflicting
-- Durable evidence inventory: 2,884 source records representing 1,342 unique
-  documents; 446 organizations; 1,051 affiliations; 2,064 claims; and 4,626
+- Durable evidence inventory: 2,905 source records representing 1,352 unique
+  documents; 447 organizations; 1,057 affiliations; 2,085 claims; and 4,670
   claim-source links
-- Reviewed public projection: 435 organizations; 1,042 published, qualified,
-  or conflict-visible affiliations; 2,029 published, qualified, or
-  conflict-visible claims; and 1,860 public citation records
+- Reviewed public projection: 436 organizations; 1,048 published, qualified,
+  or conflict-visible affiliations; 2,050 published, qualified, or
+  conflict-visible claims; and 1,877 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,199 yes; 5,254 no; 16,487 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,267. The detailed adapter breakdown remains reproducible in
+  adapters: 2,297. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,001 across 971 people; 116 additional
+- Saved `source_reviewed` outcomes: 1,015 across 985 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,682
+- Total recorded attempts/plans: 3,712
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 931; 906 have at least one public-visible
+- People with saved reviewed claims: 946; 921 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2603,6 +2603,43 @@ Commissioned classification: 2,199 yes; 5,254 no; 16,487 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batches 270-272 cover thirty contiguous rows from Selma Braunstein through
+  Robert L. Bremhorst on PDF page 50 and Boxes 77-78. The rendered page was
+  checked visually, including the printed Box 78-to-77 sequence and the
+  separate George Breitmayer/William Breitrmayer spellings. All thirty rows
+  retain a saved, terminal reviewed outcome and explicit archival next action.
+
+  Exact private-identifier agreement in official Army or CIA records confirms
+  eleven identities. Garnet E. Bray, Clarence W. Breault, and George S.
+  Breitmayer Jr. are separately modeled as students at Army entry; no school
+  or employer is inferred from the student code. Ambiguous Army occupation
+  codes are withheld because the official compiled code list and a retired
+  derivative interpretation disagree. The full identifiers and raw Army
+  records remain private.
+
+  Official and institutional evidence supports Arnold S. Breakey, Charles E.
+  Brebner, Richard W. Breck Jr., Richard L. Brecker, and James R. Breece while
+  preserving rank, spelling, and temporal limits. Harvard and Yale appear only
+  as student affiliations. Russell W. Brazelton remains a qualified probable
+  identity, and the Edward Breed and James H. Breasted Jr. namesakes remain
+  unassigned because the index rows lack the corroborating identifiers needed
+  to select them safely.
+
+  A Barrington Area Library profile and the exact Army-entry match document
+  Cleveland Electric Motor Company in Lakewood, Ohio, as George S.
+  Breitmayer Jr.'s last civilian employer before Army service. It is not
+  labeled immediate pre-OSS because the Army intervened. No role title or exact
+  final workday is invented.
+
+  The three strict bundles add a net 21 sources, one canonical organization,
+  six affiliations, 21 claims, 44 claim-source links, 30 person updates, and
+  30 durable research attempts. Repeat imports leave all evidence-table counts
+  unchanged. Coverage is now 2,514 researched people, 418 people with a
+  verified affiliation, 184 with a verified employer, and 2,464 individually
+  assessed for archival review, out of 23,940 active entities. The reviewed
+  public projection contains 1,048 affiliations, 2,050 claims, and 1,877
+  citation records representing 1,352 unique documents.
+
 - Batches 263-269 cover seventy contiguous rows from Stella Bradford through
   Peter Braunstein across PDF pages 48-50 and Boxes 74-77. Every indexed row
   remains linked to its cautious person entity, and the seven versioned
@@ -4439,6 +4476,9 @@ python3 -m oss_research import-review-decisions research/entity_review_decisions
 python3 -m oss_research import-reviewed-evidence research/evidence-page-thirty-three-justin-bergman-through-chester-berkshire-pathways_batch-193_2026-08-06.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-robert-boissiere-through-francis-bolger-pathways_batch-235_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-elizabeth-bohan-through-jan-boissenvain-pathways_batch-234_2026-08-09.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-selma-braunstein-through-james-breasted-pathways_batch-270_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-clarence-breault-through-frank-breen-pathways_batch-271_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-john-breen-through-robert-bremhorst-pathways_batch-272_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

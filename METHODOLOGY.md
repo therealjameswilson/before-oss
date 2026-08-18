@@ -158,6 +158,16 @@ document links; access failures are logged without bypass attempts. General web
 searches are exported as reviewable discovery plans instead of scraping
 search-result pages.
 
+The official unrestricted Army Serial Number Merged File is used only for
+eligible enlisted records and only when the indexed private identifier and
+name agree. Its own documentation warns of transcription errors, missing
+ranges, duplicate identifiers, and the absence of officer records. Civilian-
+occupation codes are expanded only when NARA's compiled code list supplies an
+unambiguous definition. When the official raw-code layout and a retired
+derivative interpretation disagree, the code is preserved privately and no
+occupation or employer is published. A code describing `STUDENTS` is modeled
+as student status, never employment, and no school is inferred.
+
 Adapter audit rows needed to reproduce aggregate coverage are exported to the
 tracked `research/adapter_attempt_checkpoints.json` file. This deliberately
 sanitized checkpoint retains stable attempt and candidate identifiers,

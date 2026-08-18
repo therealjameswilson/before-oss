@@ -22607,3 +22607,79 @@ test("Batches 263-269 publish bounded occupations, qualify unnamed bank work, an
     /^••••[A-Z0-9]{4}$/,
   );
 });
+
+test("Batches 270-272 separate student status, military identities, and Breitmayer's last civilian employer", async ({
+  page,
+}) => {
+  await page.goto("./people/c077e42d-d538-5cf4-9a50-2d382ddfe040/");
+  await expect(page.getByRole("heading", { name: "Garnet E Bray", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/5ae52324-84b3-5e3f-b836-38f1ae037652/");
+  await expect(page.getByRole("heading", { name: "Arnold S Breakey", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Lieutenant Brakey");
+
+  await page.goto("./people/528ed8ea-76dc-5300-808b-058fddbf71a7/");
+  await expect(page.getByRole("heading", { name: "Charles E Brebner", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("OSS ETO");
+
+  await page.goto("./people/ae526e7f-70f1-5230-8386-c3e43dab6c98/");
+  await expect(page.getByRole("heading", { name: "Richard W Breck Jr.", exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Harvard University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+
+  await page.goto("./people/b8f6843b-f769-5448-857c-34adb9f48aa8/");
+  await expect(page.getByRole("heading", { name: "Richard L Brecker", exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Yale University",
+  );
+  await expect(page.locator("main")).toContainText("Marine Corps");
+
+  await page.goto("./people/59550117-9d9e-52a7-97a1-ca8233ec68ad/");
+  await expect(page.getByRole("heading", { name: "James R Breece", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+
+  await page.goto("./people/9abe67c1-a77c-5cc6-9097-813b0a31805c/");
+  await expect(
+    page.getByRole("heading", { name: "George S Breitmayer Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Cleveland Electric Motor Company",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+
+  await page.goto("./people/3a11de2a-a5da-5402-b3e8-ee10e8736f0f/");
+  await expect(page.getByRole("heading", { name: "William F Breitrmayer", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+});
