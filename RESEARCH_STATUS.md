@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,415 people with a non-planned attempt | 23,940 active person entities | 10.0877% |
+| Research-attempt coverage | 2,484 people with a non-planned attempt | 23,940 active person entities | 10.3759% |
 | Verified-affiliation coverage | 416 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7377% |
 | Verified-employer coverage | 183 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7644% |
-| Archival-review coverage | 2,364 people with an individual file-access/priority assessment | 23,940 active person entities | 9.8747% |
+| Archival-review coverage | 2,434 people with an individual file-access/priority assessment | 23,940 active person entities | 10.1671% |
 
 ## Extraction and identity
 
@@ -23,44 +23,52 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 374
-- Identity status `high_confidence`: 440
+- Identity status `confirmed`: 394
+- Identity status `high_confidence`: 443
 - Identity status `probable`: 84
 - Identity status `ambiguous`: 44
 - Identity status `conflicting`: 30
-- Identity status `unresolved`: 22,968
+- Identity status `unresolved`: 22,945
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,359
-- Enlisted Army personnel: 3,607
-- Commissioned Army officers: 2,088
+- Unknown or indeterminate: 16,344
+- Enlisted Army personnel: 3,620
+- Commissioned Army officers: 2,087
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,476
+- Civilian professional or administrative grades: 1,478
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 63
 - Commissioned naval officers: 84
 - Warrant officers: 5
-- Temporary, contract, or special personnel: 2
+- Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,199 yes; 5,238 no; 16,503 indeterminate.
+Commissioned classification: 2,199 yes; 5,254 no; 16,487 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,525
-- `in_progress`: 50
+- `not_started`: 21,456
+- `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 59
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 327
-- `requires_archival_review`: 1,617
+- `occupation_only_found`: 346
+- `requires_archival_review`: 1,668
 - `completed`: 78
 - `conflicting_sources`: 32
 - `verified_employer_found`: 180
+- Claim confidence: 574 confirmed; 959 high; 454 medium; 35 low; 42
+  conflicting
+- Durable evidence inventory: 2,884 source records representing 1,342 unique
+  documents; 446 organizations; 1,051 affiliations; 2,064 claims; and 4,626
+  claim-source links
+- Reviewed public projection: 435 organizations; 1,042 published, qualified,
+  or conflict-visible affiliations; 2,029 published, qualified, or
+  conflict-visible claims; and 1,860 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -68,15 +76,15 @@ Commissioned classification: 2,199 yes; 5,238 no; 16,503 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,127. The detailed adapter breakdown remains reproducible in
+  adapters: 2,267. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 959 across 929 people; 115 additional
+- Saved `source_reviewed` outcomes: 1,001 across 971 people; 116 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,612
+- Total recorded attempts/plans: 3,682
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 886; 862 have at least one public-visible
+- People with saved reviewed claims: 931; 906 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2603,40 @@ Commissioned classification: 2,199 yes; 5,238 no; 16,503 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batches 263-269 cover seventy contiguous rows from Stella Bradford through
+  Peter Braunstein across PDF pages 48-50 and Boxes 74-77. Every indexed row
+  remains linked to its cautious person entity, and the seven versioned
+  evidence bundles preserve rejected candidates, uncertainty, and Box-review
+  instructions rather than converting exact-name search results into facts.
+
+  Nineteen exact identifier-and-name Army matches support only dated broad
+  civilian occupation groups; no occupation is presented as a named employer.
+  Georges Brana is a high-confidence identity in an official French defence
+  finding aid, but the finding aid does not establish a pre-OSS employer or
+  immediate unit. An official congressional source supports Beatrice Braude's
+  OSS identity without supplying a predecessor affiliation. Pauline Brandon's
+  printed WAE grade is retained as temporary, contract, or special personnel,
+  not forced into an officer or civilian-employer category. Calvin W.
+  Brantly's exact Army match preserves the source's separate spelling variant
+  and publishes only the documented occupation group.
+
+  Ily Bratina is a high-confidence OSS identity. A reputable obituary supports
+  work for unnamed banks in New York before wartime service, so the public
+  profile qualifies that evidence at medium confidence and does not invent a
+  bank, position, or immediate sequence. A 1941 lawyer-and-radio same-name lead
+  for Armond D. Brattland remains unassigned because it lacks an OSS or private-
+  identifier link. The remaining unsupported identities route to archival
+  review with the standard explicit employer-gap language.
+
+  The seven strict, idempotent bundles add a net 31 sources, 19 affiliations,
+  42 claims, 103 claim-source links, 70 person updates, and 70 durable research
+  attempts; no organization was invented for unnamed work. Repeat imports
+  leave all evidence-table counts unchanged. Coverage is now 2,484 researched
+  people, 416 people with a verified affiliation, 183 with a verified
+  employer, and 2,434 individually assessed for archival review, out of 23,940
+  active entities. The reviewed public projection contains 1,042 affiliations,
+  2,029 claims, and 1,860 citation records representing 1,342 unique documents.
+
 - Batches 257-262 cover sixty contiguous rows from Ernst L. Boxleitner through
   June M. Bradford across PDF pages 47-48 and Boxes 73-74. Both pages were
   checked visually. Official Army enlistment data were matched only when the
@@ -2642,6 +2684,12 @@ Commissioned classification: 2,199 yes; 5,238 no; 16,503 indeterminate.
   `fc065b6798e67f29eefbe6d599dd26134eb9c31dd6c772bed85f532516591315`.
   Two consecutive static builds produced the identical complete-site digest
   `77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`.
+  Pull request 28 passed hosted workflow 32126377788 and merged as `003fab9`.
+  Post-merge Pages workflow 32128286609 and Test workflow 32128286623 both
+  completed successfully. A cache-busted production audit matched all 65
+  published assets byte for byte across 74,959,371 bytes and returned HTTP 200
+  for the home, methodology, downloads, and sampled Batch 257-262 profile
+  routes.
 
 - Batch 256 covers the next ten contiguous page-forty-seven rows, Dean O.
   Bowman through John H. Boxer, all indexed in Box 73. The frozen NARA PDF

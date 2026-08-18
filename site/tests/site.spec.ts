@@ -22537,3 +22537,73 @@ test("Batches 257-262 separate Braatoy and Braden pathways and preserve the Brad
   await expect(page.locator("main")).toContainText("identifier withheld");
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
 });
+
+test("Batches 263-269 publish bounded occupations, qualify unnamed bank work, and preserve archival limits", async ({
+  page,
+}) => {
+  await page.goto("./people/da7ee6d6-4395-50df-8ad3-0926edd4002e/");
+  await expect(page.getByRole("heading", { name: "Ily Bratina", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "banks in New York",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "banks in New York",
+  );
+  await expect(
+    page.getByRole("link", { name: "Ily Bratina: Economist", exact: true }).first(),
+  ).toHaveAttribute("href", /washingtonpost\.com/);
+
+  await page.goto("./people/4bf26bff-df66-511e-afab-0844ebbbd77d/");
+  await expect(page.getByRole("heading", { name: "Beatrice Braude", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+  await expect(
+    page
+      .getByRole("link", { name: "Beatrice Braude, Retired Professor of French, Dies", exact: true })
+      .first(),
+  ).toHaveAttribute("href", /govinfo\.gov/);
+
+  await page.goto("./people/9a506708-a9dc-53da-bf1d-5693657a6999/");
+  await expect(page.getByRole("heading", { name: "Georges Brana", exact: true })).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("GR 28 P 4 171-75");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/9fb11c29-98ac-5b82-813b-59bbc1efaed1/");
+  await expect(page.getByRole("heading", { name: "Pauline Brandon", exact: true })).toBeVisible();
+  await expect(
+    page.getByText("temporary contract or special personnel", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last()).toContainText("WAE");
+
+  await page.goto("./people/23f79f4e-00d8-5334-9db9-cd6681725c5d/");
+  await expect(page.getByRole("heading", { name: "Calvin W Brantly", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Calvin W Brantl");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Chauffeurs and drivers",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/9b432851-98b0-5d8f-bde1-2396bc4e1d1d/");
+  await expect(page.getByRole("heading", { name: "John B Brannigan", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Chauffeurs and drivers",
+  );
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+});

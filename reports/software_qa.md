@@ -7,37 +7,43 @@ Run: 2026-08-18 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,383 pages**
 - Internal link check: **24,383 HTML files passed**
-- Complete browser and accessibility matrix: **813 / 813 assertions passed**
-  in one uninterrupted single-worker run across desktop, phone, and tablet;
-  no serious or critical axe violation was found.
-- Focused Batches 257-262 browser and accessibility regression: **3 / 3
+- Complete browser and accessibility matrix: **815 / 816 passed** in the
+  44.7-minute single-worker run. The only failure was the desktop `/sources/`
+  axe scan under its former 45-second limit; after a route-specific 90-second
+  limit was applied, that exact scan passed **3 / 3** independently across
+  desktop, phone, and tablet. No serious or critical axe violation was found.
+- Focused Batches 263-269 browser and accessibility regression: **3 / 3
   passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batches 257-262): **byte-for-byte identical** across
+- Latest deterministic build (Batches 263-269): **byte-for-byte identical**
+  across consecutive static builds using the sorted path-and-file-SHA-256 tree
+  digest
+  (`e44964780b194cab23ad179937d919ecccda4cecbb3288de33392f6f08050cbb`).
+- Previous deterministic build (Batches 257-262): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,959,371 bytes**;
+  across **75,272,276 bytes**;
   manifest SHA-256
-  `fc065b6798e67f29eefbe6d599dd26134eb9c31dd6c772bed85f532516591315`
+  `782b87cb0ac4e908cecff89d992617ff0dad8fdea94b6265ee84d8b443d59dca`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,453** production artifacts, including compressed mirrors;
-  **1,020** candidate substrings were reviewed.
+  **1,027** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,829** public records representing **1,335** unique documents
-- Private citation records: **2,853**
-- Published, qualified, or conflict-visible affiliations: **1,023**
-- Published or conflict-visible claims: **1,987**
+- Reviewed public sources: **1,860** public records representing **1,342** unique documents
+- Private citation records: **2,884**
+- Published, qualified, or conflict-visible affiliations: **1,042**
+- Published or conflict-visible claims: **2,029**
 - Verified-affiliation metric: **416** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **183** people with confirmed/high published
@@ -177,6 +183,50 @@ Run: 2026-08-18 UTC
   workflow 32122627876; all **65** live assets matched byte for byte across
   **74,640,816 bytes**, and the home page plus all ten Batch 256 profile routes
   returned HTTP 200
+- Batches 263-269 local release checks: **passed with one corrected timeout
+  retry**; all substantive browser, accessibility, build, link, redaction,
+  manifest, and deterministic-build checks pass as detailed below
+- Batches 257-262 production verification: **passed**; pull request 28 passed
+  hosted workflow 32126377788 and merged as `003fab9`; post-merge Test workflow
+  32128286623 and Pages workflow 32128286609 succeeded; all **65** live assets
+  matched byte for byte across **74,959,371 bytes**, and the sampled direct
+  routes returned HTTP 200
+
+## Batches 263-269 local release check
+
+Batches 263-269 add seventy visually reviewed source rows from Stella Bradford
+through Peter Braunstein across PDF pages 48-50 and Boxes 74-77. The seven
+strict evidence bundles import idempotently and add a net 31 sources, 19
+affiliations, 42 claims, 103 claim-source links, 70 person updates, and 70
+durable attempts. They preserve nineteen exact-identifier Army occupations as
+occupation-only evidence, qualify Ily Bratina's work at unnamed New York banks,
+and keep unsupported namesakes and Georges Brana's unproved predecessor out of
+employer analytics.
+
+The 74-test Python suite, deterministic 200-profile audit, focused 3-case
+regression, complete public-identifier audit, 24,383-page internal-link check,
+Astro diagnostics, dependency audit, and local manifest audits pass. The
+44.7-minute full browser run passed 815 / 816 cases; its single failure was the
+desktop `/sources/` axe scan under the former 45-second limit. A focused rerun
+with the new route-specific 90-second limit passed that scan 3 / 3 across all
+viewports, and the phone and tablet scans also passed inside the full run. No
+serious or critical axe violation was found.
+
+All 65 public manifest assets match their recorded sizes and SHA-256 hashes in
+both the public source and built trees. The manifest covers 75,272,276 bytes and
+has SHA-256
+`782b87cb0ac4e908cecff89d992617ff0dad8fdea94b6265ee84d8b443d59dca`.
+The boundary-aware audit compared 12,926 normalized private identifiers and 120
+genuine formatted variants across 24,453 artifacts, rejected 1,027 harmless
+candidate substrings, and found zero aggregate, manifest-size, or unexpected
+boundary matches.
+
+Two clean production builds produced the identical complete-site digest
+`e44964780b194cab23ad179937d919ecccda4cecbb3288de33392f6f08050cbb`.
+The release contains 23,940 active person profiles, 435 organization profiles,
+1,042 public affiliations, 2,029 public claims, and 1,860 public citation
+records representing 1,342 unique documents. No authenticated NARA request,
+credential, raw API response, or full private identifier was used or published.
 
 ## Batches 257-262 local release check
 

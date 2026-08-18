@@ -4,12 +4,27 @@ Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS.** All **813 / 813** browser and accessibility assertions passed in one
-uninterrupted single-worker run at desktop, phone, and tablet widths. The
-accessibility routes reported no serious or critical axe violations.
+**PASS WITH CORRECTED TIMEOUT RETRY.** The complete single-worker run passed
+**815 / 816** browser and accessibility assertions at desktop, phone, and tablet
+widths in 44.7 minutes. Its only failure was the growing `/sources/` table's
+desktop axe scan under the former 45-second limit. After that route alone was
+given a 90-second limit, the exact scan passed **3 / 3** across all viewports;
+the phone and tablet cases also passed inside the complete run. No serious or
+critical axe violation was found.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batches 263-269 add a focused direct-route regression for Stella Bradford
+through Peter Braunstein across PDF pages 48-50. It checks reviewed profiles,
+public-safe identifier rendering, personnel classifications, terminal research
+states, confidence qualification, and employer-gap language. It verifies Ily
+Bratina's qualified immediate work at unnamed New York banks; Beatrice Braude
+and Georges Brana's supported identities without invented predecessors;
+Pauline Brandon's WAE classification; and exact-identifier occupation evidence
+without turning occupation groups into employers. The focused regression
+passed 3 / 3. The complete run passed 815 / 816 as described above, and the
+corrected Sources scan passed independently at all three viewport sizes.
 
 Batches 257-262 add a focused direct-route regression for Ernst L. Boxleitner
 through June M. Bradford across PDF pages 47-48. It checks the sixty indexed

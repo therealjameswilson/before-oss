@@ -1,0 +1,704 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss-research-batch268-v1",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-49-50-batch268",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 77",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 49, rows 42-46, and page 50, rows 1-5; Elmer E. Branning through Donald M. Brasted; both rendered pages visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch268",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for seven eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch268",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch268",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Compiled civilian occupation list; codes 097, 316, and 736 visually checked; code 999 left uninterpreted",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact duties, or immediate Army-to-OSS chronology. Code 999 is not assigned a public meaning."
+    }
+  ],
+  "organizations": [],
+  "person_updates": [
+    {
+      "person_id": "6fd68a7a-498d-5d2a-a2b2-debbe03b78e9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Elmer E. Branning's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Elmer E Branning",
+        "Elmer E. Branning",
+        "Branning, Elmer E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 77 for a named agricultural employer, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2706d1d1-7033-5573-a943-57330e78ad4d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Benjamin F. Brannon's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Benjamin F Brannon",
+        "Benjamin F. Brannon",
+        "Brannon, Benjamin F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 77 for a named employer, managerial field, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f10be7b-6db9-585c-b903-5e16183553e7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a private identifier, but it received no corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the indexed identity.",
+      "name_variants": [
+        "Bennie L Brannon",
+        "Bennie L. Brannon",
+        "Brannon, Bennie L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b44b0e19-c378-54c8-974b-3eea41c4f4f8",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Bernice R. Branson's exact private identifier, full name, and middle initial. The Army occupation code 999 is intentionally left uninterpreted.",
+      "name_variants": [
+        "Bernice R Branson",
+        "Bernice R. Branson",
+        "Branson, Bernice R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for occupation, a named employer, and the Army-to-OSS assignment date; code 999 remains uninterpreted.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "458a34ad-f272-50b1-b739-8256946c5a16",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Jacqueline N Branson",
+        "Jacqueline N. Branson",
+        "Branson, Jacqueline N."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8a7b0eda-6445-5c6d-aa3d-a7c709264fd2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a private identifier, but it received no corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the identity.",
+      "name_variants": [
+        "Nicholas V Branson",
+        "Nicholas V. Branson",
+        "Branson, Nicholas V."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f1fa7f78-e3b1-51ff-b379-3b63b2c24c33",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common-name index record supplies a private identifier, but it received no corroborating record in the official Army merged file. Same-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival candidates lacked the identifier or OSS corroboration.",
+      "name_variants": [
+        "Robert E Branson",
+        "Robert E. Branson",
+        "Branson, Robert E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "23f79f4e-00d8-5334-9db9-cd6681725c5d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Calvin W. Brantly's exact private identifier and given names. The Army source spells the surname BRANTL; that source variant is preserved without replacing the indexed spelling.",
+      "name_variants": [
+        "Calvin W Brantly",
+        "Calvin W. Brantly",
+        "Brantly, Calvin W.",
+        "Calvin W Brantl",
+        "Brantl, Calvin W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 77 for the surname spelling, a named transportation employer, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c972749a-e992-5679-ae71-272c143d173b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. A genealogy-derived exact-name candidate and other same-name results lack OSS or wartime corroboration and were rejected.",
+      "name_variants": [
+        "Gladys E Brasse",
+        "Gladys E. Brasse",
+        "Brasse, Gladys E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0737fee1-3ff4-5a76-98e1-22d6c812fd7b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. A CIA historical article names a Donald M. Brasted in postwar scientific intelligence, but does not mention OSS, establish that he is the indexed person, or document pre-OSS employment; it remains an unassigned lead.",
+      "name_variants": [
+        "Donald M Brasted",
+        "Donald M. Brasted",
+        "Brasted, Donald M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for identity, personnel status, and employment chronology before assigning the postwar intelligence namesake.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "elmer-e-branning-occupation-code-316-batch268",
+      "person_id": "6fd68a7a-498d-5d2a-a2b2-debbe03b78e9",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-17",
+      "date_precision": "Civilian-occupation code 316 recorded at Army entry on 1942-11-17; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "benjamin-f-brannon-occupation-code-097-batch268",
+      "person_id": "2706d1d1-7033-5573-a943-57330e78ad4d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Managers and officials, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1944-11-09",
+      "date_precision": "Civilian-occupation code 097 recorded at Army entry on 1944-11-09; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "calvin-w-brantly-occupation-code-736-batch268",
+      "person_id": "23f79f4e-00d8-5334-9db9-cd6681725c5d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-02-19",
+      "date_precision": "Civilian-occupation code 736 recorded at Army entry on 1942-02-19; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "elmer-e-branning-confirmed-identity-batch268",
+      "person_id": "6fd68a7a-498d-5d2a-a2b2-debbe03b78e9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Elmer E Branning identity in the official Army merged file.",
+      "evidence_excerpt": "ELMER E BRANNING",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed given names.",
+      "identity_match_assessment": "Confirmed through exact private-identifier agreement across official records; any spelling variation is preserved separately.",
+      "temporal_assessment": "The Army record dates entry to 1942-11-17; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-49-50-batch268",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "ELMER E BRANNING"
+        }
+      ]
+    },
+    {
+      "key": "elmer-e-branning-occupation-at-army-entry-batch268",
+      "person_id": "6fd68a7a-498d-5d2a-a2b2-debbe03b78e9",
+      "affiliation_key": "elmer-e-branning-occupation-code-316-batch268",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Elmer E Branning in the broad civilian group for farm hands, general farms.",
+      "evidence_excerpt": "Civilian occupation code 316.",
+      "evidence_paraphrase": "Code 316 was recorded at Army entry on 1942-11-17 and maps to farm hands, general farms.",
+      "identity_match_assessment": "Confirmed exact private-identifier match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 316"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch268",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 316"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch268",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "benjamin-f-brannon-confirmed-identity-batch268",
+      "person_id": "2706d1d1-7033-5573-a943-57330e78ad4d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Benjamin F Brannon identity in the official Army merged file.",
+      "evidence_excerpt": "BENJAMIN F BRANNON",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed given names.",
+      "identity_match_assessment": "Confirmed through exact private-identifier agreement across official records; any spelling variation is preserved separately.",
+      "temporal_assessment": "The Army record dates entry to 1944-11-09; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-49-50-batch268",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BENJAMIN F BRANNON"
+        }
+      ]
+    },
+    {
+      "key": "benjamin-f-brannon-occupation-at-army-entry-batch268",
+      "person_id": "2706d1d1-7033-5573-a943-57330e78ad4d",
+      "affiliation_key": "benjamin-f-brannon-occupation-code-097-batch268",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Benjamin F Brannon in the broad civilian group for managers and officials, n.e.c..",
+      "evidence_excerpt": "Civilian occupation code 097.",
+      "evidence_paraphrase": "Code 097 was recorded at Army entry on 1944-11-09 and maps to managers and officials, n.e.c..",
+      "identity_match_assessment": "Confirmed exact private-identifier match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 097"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch268",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 097"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch268",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "calvin-w-brantly-confirmed-identity-batch268",
+      "person_id": "23f79f4e-00d8-5334-9db9-cd6681725c5d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Calvin W Brantly identity in the official Army merged file.",
+      "evidence_excerpt": "CALVIN W BRANTLY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed given names.",
+      "identity_match_assessment": "Confirmed through exact private-identifier agreement across official records; any spelling variation is preserved separately.",
+      "temporal_assessment": "The Army record dates entry to 1942-02-19; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-49-50-batch268",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "CALVIN W BRANTLY"
+        }
+      ]
+    },
+    {
+      "key": "calvin-w-brantly-occupation-at-army-entry-batch268",
+      "person_id": "23f79f4e-00d8-5334-9db9-cd6681725c5d",
+      "affiliation_key": "calvin-w-brantly-occupation-code-736-batch268",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Calvin W Brantly in the broad civilian group for chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "evidence_excerpt": "Civilian occupation code 736.",
+      "evidence_paraphrase": "Code 736 was recorded at Army entry on 1942-02-19 and maps to chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "Confirmed exact private-identifier match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 736"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch268",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 736"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch268",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "bernice-r-branson-confirmed-identity-batch268",
+      "person_id": "b44b0e19-c378-54c8-974b-3eea41c4f4f8",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Bernice R Branson identity in the official Army merged file.",
+      "evidence_excerpt": "BRANSON BERNICE R",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-04-03; occupation code 999 is left uninterpreted and no later OSS assignment date is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly; no occupation or employer is inferred from code 999.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-49-50-batch268",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch268",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRANSON BERNICE R"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "elmer-e-branning-protocol-batch268",
+      "person_id": "6fd68a7a-498d-5d2a-a2b2-debbe03b78e9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Elmer E Branning: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:00:00+00:00",
+      "completed_at": "2026-08-18T22:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The visually verified index and official Army merged record share Elmer E. Branning's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 77 for a named agricultural employer, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "benjamin-f-brannon-protocol-batch268",
+      "person_id": "2706d1d1-7033-5573-a943-57330e78ad4d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Benjamin F Brannon: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:05:00+00:00",
+      "completed_at": "2026-08-18T22:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The visually verified index and official Army merged record share Benjamin F. Brannon's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 77 for a named employer, managerial field, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "bennie-l-brannon-protocol-batch268",
+      "person_id": "0f10be7b-6db9-585c-b903-5e16183553e7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bennie L Brannon: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:10:00+00:00",
+      "completed_at": "2026-08-18T22:15:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The index supplies a private identifier, but it received no corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the indexed identity.",
+      "next_action": "Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "bernice-r-branson-protocol-batch268",
+      "person_id": "b44b0e19-c378-54c8-974b-3eea41c4f4f8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bernice R Branson: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:15:00+00:00",
+      "completed_at": "2026-08-18T22:20:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The visually verified index and official Army merged record share Bernice R. Branson's exact private identifier, full name, and middle initial. The Army occupation code 999 is intentionally left uninterpreted.",
+      "next_action": "Review Box 77 for occupation, a named employer, and the Army-to-OSS assignment date; code 999 remains uninterpreted.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "jacqueline-n-branson-protocol-batch268",
+      "person_id": "458a34ad-f272-50b1-b739-8256946c5a16",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Jacqueline N Branson: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:20:00+00:00",
+      "completed_at": "2026-08-18T22:25:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 19,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 77 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "nicholas-v-branson-protocol-batch268",
+      "person_id": "8a7b0eda-6445-5c6d-aa3d-a7c709264fd2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Nicholas V Branson: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:25:00+00:00",
+      "completed_at": "2026-08-18T22:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The index supplies a private identifier, but it received no corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the identity.",
+      "next_action": "Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "robert-e-branson-protocol-batch268",
+      "person_id": "f1fa7f78-e3b1-51ff-b379-3b63b2c24c33",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert E Branson: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:30:00+00:00",
+      "completed_at": "2026-08-18T22:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 27,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The common-name index record supplies a private identifier, but it received no corroborating record in the official Army merged file. Same-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival candidates lacked the identifier or OSS corroboration.",
+      "next_action": "Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "calvin-w-brantly-protocol-batch268",
+      "person_id": "23f79f4e-00d8-5334-9db9-cd6681725c5d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Calvin W Brantly: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:35:00+00:00",
+      "completed_at": "2026-08-18T22:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The visually verified index and official Army merged record share Calvin W. Brantly's exact private identifier and given names. The Army source spells the surname BRANTL; that source variant is preserved without replacing the indexed spelling.",
+      "next_action": "Review Box 77 for the surname spelling, a named transportation employer, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "gladys-e-brasse-protocol-batch268",
+      "person_id": "c972749a-e992-5679-ae71-272c143d173b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gladys E Brasse: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:40:00+00:00",
+      "completed_at": "2026-08-18T22:45:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 23,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. A genealogy-derived exact-name candidate and other same-name results lack OSS or wartime corroboration and were rejected.",
+      "next_action": "Review Box 77 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    },
+    {
+      "key": "donald-m-brasted-protocol-batch268",
+      "person_id": "0737fee1-3ff4-5a76-98e1-22d6c812fd7b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Donald M Brasted: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:45:00+00:00",
+      "completed_at": "2026-08-18T22:50:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 24,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment. Army occupation code 999 was left uninterpreted.",
+      "research_notes": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. A CIA historical article names a Donald M. Brasted in postwar scientific intelligence, but does not mention OSS, establish that he is the indexed person, or document pre-OSS employment; it remains an unassigned lead.",
+      "next_action": "Review Box 77 for identity, personnel status, and employment chronology before assigning the postwar intelligence namesake.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch268-v1"
+    }
+  ]
+}

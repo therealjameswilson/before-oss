@@ -1,0 +1,710 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss-research-batch266-v1",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-49-batch266",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 76",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 49, rows 22-31; Edith Brainerd through Dorothy S. Branch; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch266",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for five eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch266",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch266",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Compiled civilian occupation list; codes 137, 599, and 684 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    },
+    {
+      "key": "shd-intelligence-network-agents-brana-batch266",
+      "stable_url": "https://www.museedelaresistanceenligne.org/musee/doc/pdf/ressource_source/137b.pdf",
+      "archival_identifier": "GR 28 P 4 171-75; see also GR 16 P 87548",
+      "title": "Sous-série GR 28 P 4: Dossiers individuels des agents des réseaux de renseignement",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense / Centre historique des archives, Vincennes",
+      "publication_record_date": null,
+      "locator": "PDF page 169; Georges BRANA; file dates 1944-1958; cross-reference GR 16 P 87548",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Agents des réseaux de renseignement",
+      "document_number": null,
+      "rights_notes": "Only the stable archival citation and a short project-authored evidence note are retained."
+    }
+  ],
+  "organizations": [],
+  "person_updates": [
+    {
+      "person_id": "c3886d2e-38ba-5c63-babb-e80a3742af42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The P-1 index grade establishes civilian professional or administrative status but supplies no middle initial, private identifier, note, or office. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the indexed identity.",
+      "name_variants": [
+        "Edith Brainerd",
+        "Brainerd, Edith"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, employing office, role, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "69de556b-8b94-5ad1-8626-95da7722aab0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes a Technical Sergeant classification, but the printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name and transliteration searches did not establish the indexed identity.",
+      "name_variants": [
+        "Mike Braiovich",
+        "Braiovich, Mike"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 to resolve the identifier, full given name, spelling variants, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "db49b6e5-0fbe-59f8-a726-b70203e5f859",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Kenneth F. Braley's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Kenneth F Braley",
+        "Kenneth F. Braley",
+        "Braley, Kenneth F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 76 for a named metalworking employer, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "07847b4f-f861-5244-a7fd-6fa803c539b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no middle initial, rank, private identifier, note, or nationality. Rare-name property and directory references do not mention OSS or provide index-specific wartime corroboration and were not assigned.",
+      "name_variants": [
+        "Bessie Bralove",
+        "Bralove, Bessie"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "66834f1c-1eb4-5079-8ab0-7f8fcd4c785b",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Bert Bram's exact private identifier and full indexed name.",
+      "name_variants": [
+        "Bert Bram",
+        "Bram, Bert"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 76 for a named clerical employer, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1df6f81d-23ce-55d1-93fc-6fcb95e16836",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes a Private classification, but the printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the identity.",
+      "name_variants": [
+        "Julia A Bramlage",
+        "Julia A. Bramlage",
+        "Bramlage, Julia A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 to resolve the identifier, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3cd5dd8a-1cdf-51fb-815d-9cb136da76e6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a common name and initial but no rank, private identifier, note, or nationality. Official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "James A Brammell",
+        "James A. Brammell",
+        "Brammell, James A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9a506708-a9dc-53da-bf1d-5693657a6999",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name, the index's French sub-lieutenant context, and a Service historique de la Défense individual intelligence-network-agent file beginning in 1944 support the identity at high confidence. The finding aid does not establish a pre-OSS employer or immediate predecessor assignment.",
+      "name_variants": [
+        "Georges Brana",
+        "Brana, Georges"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 76 and Service historique de la Défense files GR 28 P 4 171-75 and GR 16 P 87548 for the full identity, unit, OSS transition, and pre-service employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "01e216c0-2c99-581c-a13c-eeb774eb8f7f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Frank Brancatelli's exact private identifier and full indexed name.",
+      "name_variants": [
+        "Frank Brancatelli",
+        "Brancatelli, Frank"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 76 for a named employer, supervisory field, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e45698a5-a525-5b0e-996c-e574505f36f1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The CAF-2 index grade establishes a civilian administrative classification but no office or employer. Common-name official, CIA, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not resolve the indexed identity.",
+      "name_variants": [
+        "Dorothy S Branch",
+        "Dorothy S. Branch",
+        "Branch, Dorothy S."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, employing office, role, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "kenneth-f-braley-occupation-code-684-batch266",
+      "person_id": "db49b6e5-0fbe-59f8-a726-b70203e5f859",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Semiskilled structural- and ornamental-metal workers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-18",
+      "date_precision": "Civilian-occupation code 684 recorded at Army entry on 1942-12-18; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "bert-bram-occupation-code-137-batch266",
+      "person_id": "66834f1c-1eb4-5079-8ab0-7f8fcd4c785b",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Stenographers and typists",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-29",
+      "date_precision": "Civilian-occupation code 137 recorded at Army entry on 1943-03-29; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "frank-brancatelli-occupation-code-599-batch266",
+      "person_id": "01e216c0-2c99-581c-a13c-eeb774eb8f7f",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Foremen, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-17",
+      "date_precision": "Civilian-occupation code 599 recorded at Army entry on 1943-07-17; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "kenneth-f-braley-confirmed-identity-batch266",
+      "person_id": "db49b6e5-0fbe-59f8-a726-b70203e5f859",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Kenneth F Braley identity in the official Army merged file.",
+      "evidence_excerpt": "KENNETH F BRALEY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-12-18; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch266",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch266",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "KENNETH F BRALEY"
+        }
+      ]
+    },
+    {
+      "key": "kenneth-f-braley-occupation-at-army-entry-batch266",
+      "person_id": "db49b6e5-0fbe-59f8-a726-b70203e5f859",
+      "affiliation_key": "kenneth-f-braley-occupation-code-684-batch266",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Kenneth F Braley in the broad civilian group for semiskilled structural- and ornamental-metal workers.",
+      "evidence_excerpt": "Civilian occupation code 684.",
+      "evidence_paraphrase": "Code 684 was recorded at Army entry on 1942-12-18 and maps to semiskilled structural- and ornamental-metal workers.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch266",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 684"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch266",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 684"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch266",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "bert-bram-confirmed-identity-batch266",
+      "person_id": "66834f1c-1eb4-5079-8ab0-7f8fcd4c785b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Bert Bram identity in the official Army merged file.",
+      "evidence_excerpt": "BERT BRAM",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-03-29; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch266",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch266",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BERT BRAM"
+        }
+      ]
+    },
+    {
+      "key": "bert-bram-occupation-at-army-entry-batch266",
+      "person_id": "66834f1c-1eb4-5079-8ab0-7f8fcd4c785b",
+      "affiliation_key": "bert-bram-occupation-code-137-batch266",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Bert Bram in the broad civilian group for stenographers and typists.",
+      "evidence_excerpt": "Civilian occupation code 137.",
+      "evidence_paraphrase": "Code 137 was recorded at Army entry on 1943-03-29 and maps to stenographers and typists.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch266",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 137"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch266",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 137"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch266",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "frank-brancatelli-confirmed-identity-batch266",
+      "person_id": "01e216c0-2c99-581c-a13c-eeb774eb8f7f",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Frank Brancatelli identity in the official Army merged file.",
+      "evidence_excerpt": "FRANK BRANCATELLI",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-07-17; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch266",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch266",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "FRANK BRANCATELLI"
+        }
+      ]
+    },
+    {
+      "key": "frank-brancatelli-occupation-at-army-entry-batch266",
+      "person_id": "01e216c0-2c99-581c-a13c-eeb774eb8f7f",
+      "affiliation_key": "frank-brancatelli-occupation-code-599-batch266",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Frank Brancatelli in the broad civilian group for foremen, n.e.c..",
+      "evidence_excerpt": "Civilian occupation code 599.",
+      "evidence_paraphrase": "Code 599 was recorded at Army entry on 1943-07-17 and maps to foremen, n.e.c..",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch266",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 599"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch266",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 599"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch266",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "georges-brana-high-confidence-identity-batch266",
+      "person_id": "9a506708-a9dc-53da-bf1d-5693657a6999",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The uncommon exact name and two official archival contexts support the indexed Georges Brana identity at high confidence.",
+      "evidence_excerpt": "Dossier individuel de Georges BRANA 1944 1958 GR 16 P 87548",
+      "evidence_paraphrase": "The French defense archive finding aid lists an individual Georges Brana intelligence-network-agent file beginning in 1944.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, the index's French sub-lieutenant context, and an official 1944 intelligence-network-agent file.",
+      "temporal_assessment": "The French file begins in 1944; the finding aid does not establish a pre-OSS employer or the immediate predecessor assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical files are still required to confirm the unit, OSS transition, and employment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch266",
+          "support_type": "supports",
+          "locator_override": "Visually checked French S/Lt source row"
+        },
+        {
+          "source_key": "shd-intelligence-network-agents-brana-batch266",
+          "support_type": "supports",
+          "locator_override": "PDF page 169; GR 28 P 4 171-75; cross-reference GR 16 P 87548"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "edith-brainerd-protocol-batch266",
+      "person_id": "c3886d2e-38ba-5c63-babb-e80a3742af42",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Edith Brainerd: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:00:00+00:00",
+      "completed_at": "2026-08-18T23:05:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The P-1 index grade establishes civilian professional or administrative status but supplies no middle initial, private identifier, note, or office. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the indexed identity.",
+      "next_action": "Review Box 76 for identity, employing office, role, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "mike-braiovich-protocol-batch266",
+      "person_id": "69de556b-8b94-5ad1-8626-95da7722aab0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mike Braiovich: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:05:00+00:00",
+      "completed_at": "2026-08-18T23:10:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index establishes a Technical Sergeant classification, but the printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name and transliteration searches did not establish the indexed identity.",
+      "next_action": "Review Box 76 to resolve the identifier, full given name, spelling variants, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "kenneth-f-braley-protocol-batch266",
+      "person_id": "db49b6e5-0fbe-59f8-a726-b70203e5f859",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Kenneth F Braley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:10:00+00:00",
+      "completed_at": "2026-08-18T23:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Kenneth F. Braley's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 76 for a named metalworking employer, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "bessie-bralove-protocol-batch266",
+      "person_id": "07847b4f-f861-5244-a7fd-6fa803c539b4",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bessie Bralove: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:15:00+00:00",
+      "completed_at": "2026-08-18T23:20:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies no middle initial, rank, private identifier, note, or nationality. Rare-name property and directory references do not mention OSS or provide index-specific wartime corroboration and were not assigned.",
+      "next_action": "Review Box 76 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "bert-bram-protocol-batch266",
+      "person_id": "66834f1c-1eb4-5079-8ab0-7f8fcd4c785b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bert Bram: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:20:00+00:00",
+      "completed_at": "2026-08-18T23:25:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Bert Bram's exact private identifier and full indexed name.",
+      "next_action": "Review Box 76 for a named clerical employer, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "julia-a-bramlage-protocol-batch266",
+      "person_id": "1df6f81d-23ce-55d1-93fc-6fcb95e16836",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Julia A Bramlage: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:25:00+00:00",
+      "completed_at": "2026-08-18T23:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 19,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index establishes a Private classification, but the printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the identity.",
+      "next_action": "Review Box 76 to resolve the identifier, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "james-a-brammell-protocol-batch266",
+      "person_id": "3cd5dd8a-1cdf-51fb-815d-9cb136da76e6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James A Brammell: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:30:00+00:00",
+      "completed_at": "2026-08-18T23:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies a common name and initial but no rank, private identifier, note, or nationality. Official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 76 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "georges-brana-protocol-batch266",
+      "person_id": "9a506708-a9dc-53da-bf1d-5693657a6999",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Georges Brana: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:35:00+00:00",
+      "completed_at": "2026-08-18T23:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The uncommon exact name, the index's French sub-lieutenant context, and a Service historique de la Défense individual intelligence-network-agent file beginning in 1944 support the identity at high confidence. The finding aid does not establish a pre-OSS employer or immediate predecessor assignment.",
+      "next_action": "Review Box 76 and Service historique de la Défense files GR 28 P 4 171-75 and GR 16 P 87548 for the full identity, unit, OSS transition, and pre-service employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "frank-brancatelli-protocol-batch266",
+      "person_id": "01e216c0-2c99-581c-a13c-eeb774eb8f7f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Frank Brancatelli: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:40:00+00:00",
+      "completed_at": "2026-08-18T23:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Frank Brancatelli's exact private identifier and full indexed name.",
+      "next_action": "Review Box 76 for a named employer, supervisory field, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    },
+    {
+      "key": "dorothy-s-branch-protocol-batch266",
+      "person_id": "e45698a5-a525-5b0e-996c-e574505f36f1",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Dorothy S Branch: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T23:45:00+00:00",
+      "completed_at": "2026-08-18T23:50:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 23,
+      "rejection_reasons": "Same-name, obituary, directory, property, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The CAF-2 index grade establishes a civilian administrative classification but no office or employer. Common-name official, CIA, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not resolve the indexed identity.",
+      "next_action": "Review Box 76 for identity, employing office, role, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch266-v1"
+    }
+  ]
+}

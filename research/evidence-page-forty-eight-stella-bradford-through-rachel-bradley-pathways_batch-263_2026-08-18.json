@@ -1,0 +1,589 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss-research-batch263-v1",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-48-49-batch263",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 75",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 48, rows 38-46, and page 49, row 1; Stella Bradford through Rachel M. Bradley; rendered pages visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch263",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for four eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch263",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch263",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Digital PDF page 171; civilian occupational-group codes 1-34 and 1-37 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "person_updates": [
+    {
+      "person_id": "7f86b19b-5499-54b2-aeb7-a171361543ce",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no middle initial, rank, private identifier, note, or nationality. A prominent physician and multiple other same-name candidates lack an OSS link and index-specific corroboration, so none is assigned.",
+      "name_variants": [
+        "Stella Bradford",
+        "Bradford, Stella"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6ad99d0f-32df-51c7-90de-0ca942b20864",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Edson P. Bradley's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Edson P Bradley",
+        "Edson P. Bradley",
+        "Bradley, Edson P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named employer, exact clerical role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bd90e21a-2890-5c9b-b943-110d5bc692a1",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Harry D. Bradley's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Harry D Bradley",
+        "Harry D. Bradley",
+        "Bradley, Harry D."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named employer, exact shipping or receiving role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee01d91c-a570-5766-8313-d898902fe4e8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Homer S Bradley",
+        "Homer S. Bradley",
+        "Bradley, Homer S."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee6251ca-4710-51d5-8a3f-ece4bc0db20e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and initial, without rank or private identifier, are insufficient to select a namesake. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "Hugh W Bradley",
+        "Hugh W. Bradley",
+        "Bradley, Hugh W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ebb0f3e4-4d11-5c12-b282-00f85c4b6e28",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no middle initial, rank, private identifier, note, or nationality. Numerous wartime military, obituary, directory, and institutional namesakes lack two corroborating identifiers beyond the name and were rejected.",
+      "name_variants": [
+        "James Bradley",
+        "Bradley, James"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7359761c-7416-5521-ad46-80db071ce135",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index establishes a Second Lieutenant classification, but its private identifier did not receive a corroborating record in the enlisted Army merged file and common-name searches did not resolve the identity.",
+      "name_variants": [
+        "John C Bradley",
+        "John C. Bradley",
+        "Bradley, John C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, commissioning source, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "896c2334-21c1-5e5e-806d-8272105b688b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The incomplete name has no rank, private identifier, note, or nationality. Exact-name and spelling-variant official, CIA, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Johnnie Bradley",
+        "Johnny Bradley",
+        "Bradley, Johnnie"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, spelling variants, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e0e51fea-aaf6-56a1-9b22-110099ed537d",
+      "identity_status": "unresolved",
+      "identity_evidence": "A same-name 1947 New Jersey political candidate and other directory results do not mention OSS or provide corroborating wartime identifiers. The index supplies no rank or private identifier with which to resolve the person.",
+      "name_variants": [
+        "Milton C Bradley",
+        "Milton C. Bradley",
+        "Bradley, Milton C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "15c612c2-d5cf-5707-b2b7-5188228e1ece",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name official, CIA Reading Room, OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity. Modern people-finder results were excluded as irrelevant and sensitive.",
+      "name_variants": [
+        "Rachel M Bradley",
+        "Rachel M. Bradley",
+        "Bradley, Rachel M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "edson-p-bradley-occupation-code-137-batch263",
+      "person_id": "6ad99d0f-32df-51c7-90de-0ca942b20864",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Stenographers and typists",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-04-24",
+      "date_precision": "Civilian-occupation code 137 recorded at Army entry on 1943-04-24; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "harry-d-bradley-occupation-code-134-batch263",
+      "person_id": "bd90e21a-2890-5c9b-b943-110d5bc692a1",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Shipping and receiving clerks",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-08",
+      "date_precision": "Civilian-occupation code 134 recorded at Army entry on 1942-08-08; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "edson-p-bradley-confirmed-identity-batch263",
+      "person_id": "6ad99d0f-32df-51c7-90de-0ca942b20864",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Edson P Bradley identity in the official Army merged file.",
+      "evidence_excerpt": "EDSON P BRADLEY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-04-24; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-48-49-batch263",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch263",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "EDSON P BRADLEY"
+        }
+      ]
+    },
+    {
+      "key": "edson-p-bradley-occupation-at-army-entry-batch263",
+      "person_id": "6ad99d0f-32df-51c7-90de-0ca942b20864",
+      "affiliation_key": "edson-p-bradley-occupation-code-137-batch263",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Edson P Bradley in the broad civilian group for stenographers and typists.",
+      "evidence_excerpt": "Civilian occupation code 137.",
+      "evidence_paraphrase": "Code 137 was recorded at Army entry on 1943-04-24 and maps to stenographers and typists.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch263",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 137"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch263",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 1-37"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch263",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "harry-d-bradley-confirmed-identity-batch263",
+      "person_id": "bd90e21a-2890-5c9b-b943-110d5bc692a1",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Harry D Bradley identity in the official Army merged file.",
+      "evidence_excerpt": "HARRY D BRADLEY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-08-08; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-48-49-batch263",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch263",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "HARRY D BRADLEY"
+        }
+      ]
+    },
+    {
+      "key": "harry-d-bradley-occupation-at-army-entry-batch263",
+      "person_id": "bd90e21a-2890-5c9b-b943-110d5bc692a1",
+      "affiliation_key": "harry-d-bradley-occupation-code-134-batch263",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Harry D Bradley in the broad civilian group for shipping and receiving clerks.",
+      "evidence_excerpt": "Civilian occupation code 134.",
+      "evidence_paraphrase": "Code 134 was recorded at Army entry on 1942-08-08 and maps to shipping and receiving clerks.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch263",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 134"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch263",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 1-34"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch263",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "stella-bradford-protocol-batch263",
+      "person_id": "7f86b19b-5499-54b2-aeb7-a171361543ce",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Stella Bradford: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:00:00+00:00",
+      "completed_at": "2026-08-18T20:05:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies no middle initial, rank, private identifier, note, or nationality. A prominent physician and multiple other same-name candidates lack an OSS link and index-specific corroboration, so none is assigned.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "edson-p-bradley-protocol-batch263",
+      "person_id": "6ad99d0f-32df-51c7-90de-0ca942b20864",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Edson P Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:05:00+00:00",
+      "completed_at": "2026-08-18T20:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Edson P. Bradley's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 75 for a named employer, exact clerical role, and the Army-to-OSS assignment date.",
+      "attempt_number": 15,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "harry-d-bradley-protocol-batch263",
+      "person_id": "bd90e21a-2890-5c9b-b943-110d5bc692a1",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Harry D Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:10:00+00:00",
+      "completed_at": "2026-08-18T20:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Harry D. Bradley's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 75 for a named employer, exact shipping or receiving role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "homer-s-bradley-protocol-batch263",
+      "person_id": "ee01d91c-a570-5766-8313-d898902fe4e8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Homer S Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:15:00+00:00",
+      "completed_at": "2026-08-18T20:20:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 75 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "hugh-w-bradley-protocol-batch263",
+      "person_id": "ee6251ca-4710-51d5-8a3f-ece4bc0db20e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Hugh W Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:20:00+00:00",
+      "completed_at": "2026-08-18T20:25:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common name and initial, without rank or private identifier, are insufficient to select a namesake. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "james-bradley-protocol-batch263",
+      "person_id": "ebb0f3e4-4d11-5c12-b282-00f85c4b6e28",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:25:00+00:00",
+      "completed_at": "2026-08-18T20:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 24,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies no middle initial, rank, private identifier, note, or nationality. Numerous wartime military, obituary, directory, and institutional namesakes lack two corroborating identifiers beyond the name and were rejected.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "john-c-bradley-protocol-batch263",
+      "person_id": "7359761c-7416-5521-ad46-80db071ce135",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John C Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:30:00+00:00",
+      "completed_at": "2026-08-18T20:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually checked index establishes a Second Lieutenant classification, but its private identifier did not receive a corroborating record in the enlisted Army merged file and common-name searches did not resolve the identity.",
+      "next_action": "Review Box 75 for identity, commissioning source, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "johnnie-bradley-protocol-batch263",
+      "person_id": "896c2334-21c1-5e5e-806d-8272105b688b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Johnnie Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:35:00+00:00",
+      "completed_at": "2026-08-18T20:40:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 20,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The incomplete name has no rank, private identifier, note, or nationality. Exact-name and spelling-variant official, CIA, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 75 for identity, spelling variants, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "milton-c-bradley-protocol-batch263",
+      "person_id": "e0e51fea-aaf6-56a1-9b22-110099ed537d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Milton C Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:40:00+00:00",
+      "completed_at": "2026-08-18T20:45:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "A same-name 1947 New Jersey political candidate and other directory results do not mention OSS or provide corroborating wartime identifiers. The index supplies no rank or private identifier with which to resolve the person.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    },
+    {
+      "key": "rachel-m-bradley-protocol-batch263",
+      "person_id": "15c612c2-d5cf-5707-b2b7-5188228e1ece",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Rachel M Bradley: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T20:45:00+00:00",
+      "completed_at": "2026-08-18T20:50:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, political, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "Exact-name official, CIA Reading Room, OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity. Modern people-finder results were excluded as irrelevant and sensitive.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch263-v1"
+    }
+  ]
+}
