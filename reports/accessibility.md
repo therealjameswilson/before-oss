@@ -15,6 +15,18 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 287 adds a focused direct-route regression for the second Charles J.
+Brown row through Dorothy E. Brown across PDF pages 54-55. It verifies the
+exact-identifier Army identities and qualified occupations for Clarence R.
+Brown, Clarence S. Brown, and Deming B. Brown without turning any occupation
+into a named employer; keeps the two adjacent Charles J. Brown rows separate
+in a visible duplicate-review group; rejects Clarence D. Brown Jr.'s different-
+name identifier suffix collision; and preserves five other common-name cases
+as unresolved archival-review profiles. The focused regression passed **3 /
+3** across desktop, phone, and tablet. A fresh core-route axe matrix passed
+**27 / 27**, including the Sources table, with no serious or critical axe
+violation.
+
 Batch 286 adds a focused direct-route regression for James F. Brousseau through
 Charles J. Brown on PDF page 54. It verifies the exact-identifier Army
 identities and qualified occupations for James F. Brousseau and Avritt L.

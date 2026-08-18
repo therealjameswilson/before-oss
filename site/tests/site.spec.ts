@@ -23339,3 +23339,72 @@ test("Batch 286 publishes two identifier-backed occupations and keeps the Brown 
   await expect(page.locator("main")).toContainText("83?");
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
 });
+
+test("Batch 287 publishes three identifier-backed occupations and preserves the adjacent Brown duplicate question", async ({
+  page,
+}) => {
+  await page.goto("./people/8724f4e8-de1d-5bb7-b848-4877b51a0761/");
+  await expect(page.getByRole("heading", { name: "Charles J Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("second adjacent Charles J. Brown row");
+  await expect(page.locator("main")).toContainText("83?");
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/5b339d45-0a6c-5011-9950-c4d7e1d212f7/");
+  await expect(page.getByRole("heading", { name: "Charles E Brown III", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/f255939f-86d2-52b8-8c67-1f8d046274de/");
+  await expect(page.getByRole("heading", { name: "Clarence R Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Occupation in the manufacture of radios and phonographs",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/32ff3c40-4565-5603-946a-54feb9f9f13d/");
+  await expect(page.getByRole("heading", { name: "Clarence S Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Motion picture projectionist",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/788a1a4e-b11a-57f4-bed2-4b66b2700f7a/");
+  await expect(page.getByRole("heading", { name: "Clarence D Brown Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("different-name row");
+  await expect(page.locator("main")).not.toContainText("civilian occupation code");
+
+  await page.goto("./people/42cb2f8b-b4f1-5ea8-9517-5f713852e46f/");
+  await expect(page.getByRole("heading", { name: "Deming B Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Primary-school or kindergarten teacher",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const unresolvedPerson of [
+    ["fcaa287e-e0f7-5ec2-9efe-eb3fecc9aa03", "Daniel F Brown"],
+    ["42f00196-1a3c-5fa4-bdba-afa68c3286aa", "Donald Brown"],
+    ["7a4ab319-b827-5055-9bac-b347ee02b27b", "Doris F Brown"],
+    ["08b466b2-482b-536c-b3db-f9c70fa7faca", "Dorothy E Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
