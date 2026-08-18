@@ -4,12 +4,24 @@ Run: 2026-08-17 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **786 / 786**
+**PASS.** The complete browser and accessibility matrix passed **789 / 789**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 249 adds a focused direct-route regression for Chester J. Botticelli
+through Andre J. Bouchardon on PDF page 45. It checks all ten indexed names,
+Boxes 70-71, public-safe masked identifier rendering, personnel
+classifications, terminal research states, confidence qualification, and
+employer-gap language. It separately verifies John A. Bottorff's exact-
+identifier identity and two qualified student affiliations without turning
+either university into an employer; Andre J. Bouchardon's high-confidence OSS
+identity without a pre-OSS employer; and eight unresolved archival-review
+profiles without promoting rejected namesakes or relative evidence. The
+focused regression passed 3 / 3, and the complete matrix passed 789 / 789
+locally in 25.1 minutes with no serious or critical axe violations.
 
 Batch 248 adds a focused direct-route regression for Araxi Bostanian through
 the source index's printed `WilliamR Bottema` on PDF page 45. It checks all ten

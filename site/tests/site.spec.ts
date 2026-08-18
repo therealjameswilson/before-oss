@@ -21843,3 +21843,93 @@ test("Batch 248 publishes Bostwick's dated employer while preserving identity an
   await expect(page.locator("main")).toContainText("final seven digits match");
   await expect(page.locator("main")).not.toContainText("Technician Sergeant occupation");
 });
+
+test("Batch 249 publishes Bottorff's student chronology and Bouchardon's identity without inventing employers", async ({
+  page,
+}) => {
+  const profiles = [
+    ["360e8bb8-1f7f-5352-8bd4-b0a7ab104851", "Chester J Botticelli", "70"],
+    ["122b2dcb-1941-5107-8e0c-b3ea9ffb1b0b", "Virginia C Botticelli", "70"],
+    ["aa2a1286-57ad-5358-8d9c-e887591c3c68", "Ernest J Bottieri", "70"],
+    ["25ed3444-b893-5816-b0c3-a9595587b7d9", "Emily B Bottimore", "70"],
+    ["869cb6f8-ba6b-51e5-82b4-fca827da2ff2", "Joseph M Bottkol", "70"],
+    ["5bd55eb2-1dbf-555c-848c-5c8b062289ec", "Harry R Bottomley", "70"],
+    ["94f2754f-f95c-5bd0-8405-3e752e296091", "Mary G Bottomley", "70"],
+    ["7bc8fae0-8f5b-59bb-bb62-71a5913790b3", "John A Bottorff", "70"],
+    ["62148e80-1777-51b0-8dc5-e72e9ab71f44", "Henri Bouchard", "70"],
+    ["355e4ab7-d6f2-5bb0-b5d1-78ab0bef8e18", "Andre J Bouchardon", "71"],
+  ] as const;
+
+  for (const [personId, displayName, boxNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 45");
+    await expect(page.locator(".index-record").last()).toContainText(boxNumber);
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/7bc8fae0-8f5b-59bb-bb62-71a5913790b3/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Cornell University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Yenjing University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.locator("main")).toContainText("code 500");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "John Bottorff Obituary (2008) - Legacy Remembers" }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.legacy.com/us/obituaries/legacyremembers/john-bottorff-obituary?id=39183122",
+  );
+
+  await page.goto("./people/355e4ab7-d6f2-5bb0-b5d1-78ab0bef8e18/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("SACRISTAN");
+  await expect(page.locator("main")).toContainText("SAARF");
+  await expect(
+    page.getByRole("link", { name: "The Office of Strategic Services (OSS) Influence on Special Forces" }),
+  ).toHaveAttribute(
+    "href",
+    "https://arsof-history.org/articles/v14n2_oss_to_sf_page_1.html",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const personId of [
+    "360e8bb8-1f7f-5352-8bd4-b0a7ab104851",
+    "122b2dcb-1941-5107-8e0c-b3ea9ffb1b0b",
+    "aa2a1286-57ad-5358-8d9c-e887591c3c68",
+    "25ed3444-b893-5816-b0c3-a9595587b7d9",
+    "869cb6f8-ba6b-51e5-82b4-fca827da2ff2",
+    "5bd55eb2-1dbf-555c-848c-5c8b062289ec",
+    "94f2754f-f95c-5bd0-8405-3e752e296091",
+    "62148e80-1777-51b0-8dc5-e72e9ab71f44",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+
+  await page.goto("./people/5bd55eb2-1dbf-555c-848c-5c8b062289ec/");
+  await expect(page.locator("main")).toContainText("different private identifier");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/62148e80-1777-51b0-8dc5-e72e9ab71f44/");
+  await expect(page.locator("main")).toContainText("foreign or allied military personnel");
+  await expect(page.locator("main")).toContainText("French");
+});

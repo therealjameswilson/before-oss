@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-17 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,275 people with a non-planned attempt | 23,940 active person entities | 9.5029% |
+| Research-attempt coverage | 2,285 people with a non-planned attempt | 23,940 active person entities | 9.5447% |
 | Verified-affiliation coverage | 412 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7210% |
 | Verified-employer coverage | 181 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7561% |
-| Archival-review coverage | 2,224 people with an individual file-access/priority assessment | 23,940 active person entities | 9.2899% |
+| Archival-review coverage | 2,234 people with an individual file-access/priority assessment | 23,940 active person entities | 9.3317% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-17 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 345
-- Identity status `high_confidence`: 433
+- Identity status `confirmed`: 346
+- Identity status `high_confidence`: 434
 - Identity status `probable`: 81
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,013
+- Identity status `unresolved`: 23,011
 
 ## Personnel categories
 
@@ -49,7 +49,7 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,665
+- `not_started`: 21,655
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 57
@@ -57,7 +57,7 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 - `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 301
-- `requires_archival_review`: 1,514
+- `requires_archival_review`: 1,524
 - `completed`: 77
 - `conflicting_sources`: 27
 - `verified_employer_found`: 178
@@ -68,12 +68,12 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,057. The detailed adapter breakdown remains reproducible in
+  adapters: 2,067. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 936 across 906 people; 114 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,472
+- Total recorded attempts/plans: 3,482
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 863; 839 have at least one public-visible
@@ -2595,6 +2595,58 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 249 covers the next ten contiguous rows, Chester J. Botticelli through
+  Andre J. Bouchardon, on PDF page forty-five across Boxes 70 and 71. The source
+  page and all ten rows were checked visually at original resolution. The
+  official unrestricted Army Serial Number merged file was reviewed transiently
+  with its technical documentation and occupation-code list. Full private
+  identifiers remain in the restricted database only; no bulk record or live
+  Catalog response is retained.
+
+  Exact private-identifier agreement confirms indexed John A. Bottorff and the
+  official Army row dates his entry as a private to September 1, 1942. Its
+  civilian-occupation code 500 is absent from the applicable official table, so
+  the project does not assign an occupation or employer from it. A reputable
+  obituary documents that Bottorff studied Chinese at Cornell University and
+  pursued further study at the source's `Yenjing University` spelling before
+  joining OSS in 1944. Both institutions are therefore published only as
+  medium-confidence, documented-prewar student affiliations—not employment,
+  the immediate predecessor, or the last civilian employer.
+
+  The rare exact name, middle initial, indexed First Lieutenant grade, and an
+  official U.S. Army Special Operations Command history support a high-
+  confidence identity for Andre J. Bouchardon. The history places him in OSS
+  Operational Group mission SACRISTAN and later a Special Allied Airborne
+  Reconnaissance Force team, but it supplies no pre-OSS affiliation. A separate
+  exact-name Army private with a different private identifier is rejected.
+
+  Chester J. and Virginia C. Botticelli remain unresolved because a relative's
+  obituary is not principal identity evidence. Ernest J. Bottieri's exact-name
+  roster and burial leads lack a direct index or OSS linkage. Emily B.
+  Bottimore, Joseph M. Bottkol, and Mary G. Bottomley likewise remain unresolved.
+  Harry R. Bottomley's official Army namesake is a private with a different
+  identifier from the indexed staff sergeant. Henri Bouchard's French note is
+  preserved, but a common-name Special Operations Executive candidate is
+  withheld. All eight route to archival review without an invented employer.
+
+  The strict evidence bundle adds six sources, one new organization plus one
+  reused organization, two affiliations, four claims, eight claim-source links,
+  ten person updates, and ten durable research attempts. It reimports without
+  changing any evidence-table count. Coverage is now 2,285 researched people,
+  412 people with a verified affiliation, 181 with a verified employer, and
+  2,234 individually assessed for archival review, out of 23,940 active
+  entities. No authenticated Catalog request, credential, unsupported employer,
+  or convenient namesake match was used or published.
+
+  Release QA passed SQLite integrity and foreign-key checks, all 70 Python
+  tests, the deterministic 200-profile audit, a clean 24,379-page Astro build,
+  the complete internal-link check, the 65-asset manifest audit, the private-
+  identifier boundary audit, the focused 3-case browser regression, and the
+  production dependency audit. Two clean builds produced the identical site
+  digest
+  `4da2fd5970b3727dafa9ef8e8c3c12a6b76245089e7f75aeb4a85cf64baaf88c`.
+  The complete 789-case desktop, phone, and tablet browser/axe matrix passed in
+  25.1 minutes with no serious or critical accessibility violation.
 - Batch 248 covers the next ten contiguous rows, Araxi Bostanian through the
   source index's printed `WilliamR Bottema`, on PDF page forty-five in Box 70.
   The source page and every row were checked visually at original resolution.
