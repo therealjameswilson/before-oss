@@ -15,6 +15,16 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 277 adds a focused direct-route regression for Jeanne M. Bridgett through
+Emily W. Briggs across PDF pages 51-52. It checks Elizabeth Briefs's supported
+OSS translator identity without an invented predecessor, William Brierly's
+strongly date-bounded Clark doctoral student status without classifying Clark
+as an employer, Lawrence Brigante's confirmed commissioned classification and
+explicit immediate Army assignment, and an unresolved profile with no
+organization links. The focused regression passed **3 / 3** across desktop,
+phone, and tablet. A fresh core-route axe matrix passed **27 / 27**, including
+the growing Sources table, with no serious or critical axe violation.
+
 Batch 276 adds a focused direct-route regression for Robert D. Brewster through
 Thomas D. Bridges on PDF page 51. It checks unresolved and ambiguous namesakes,
 the qualified Edward J. Breyere Jr. candidate, George Brickelmaier's

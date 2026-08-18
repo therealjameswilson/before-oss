@@ -22806,3 +22806,56 @@ test("Batch 276 publishes Brickelmaier's Dartmouth student status without invent
     /^••••[A-Z0-9]{4}$/,
   );
 });
+
+test("Batch 277 separates student and military pathways while preserving unresolved Box 79 cases", async ({
+  page,
+}) => {
+  await page.goto("./people/fefb0b9e-3aeb-5aab-acc0-6bdb81f14fed/");
+  await expect(page.getByRole("heading", { name: "Elizabeth C Briefs", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("civilian professional or administrative grade", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "During World War II Elizabeth worked as a translator for the OSS.",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/448b0248-9fbc-5105-aa53-5f5017f783fe/");
+  await expect(page.getByRole("heading", { name: "William B Brierly", exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Clark University",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/6215740c-4b17-5cc2-880e-69defe34f842/");
+  await expect(page.getByRole("heading", { name: "Lawrence J Brigante", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Office of the Assistant Provost Marshal of New York",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/9232a180-a5fc-5760-bae4-fb9918f80d06/");
+  await expect(page.getByRole("heading", { name: "Eloine M Briggs", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
