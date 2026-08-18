@@ -15,6 +15,19 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batches 273-275 add a focused direct-route regression for Eden Brenes through
+Helen S. Brewster across PDF pages 50-51. It checks three visible identifier
+conflicts without publishing the unrelated Army subjects, the qualified
+Tangier identity evidence for Eden Brenes, exact-identifier Army identities,
+the Warren Bretenbach/Breitenbach duplicate-review group, and the separation
+of Henry L. Bretton's immediate Military Intelligence assignment from his
+earlier New York University student status. It also verifies that the John O.
+Brew namesake rejection does not create a Harvard affiliation and that George
+E. Brewer Jr.'s CIA document does not become an unsupported predecessor
+claim. The focused regression passed **3 / 3** across desktop, phone, and
+tablet. A fresh core-route axe matrix passed **27 / 27**, including the growing
+Sources table, with no serious or critical violation.
+
 Batches 270-272 add a focused direct-route regression for Selma Braunstein
 through Robert L. Bremhorst on PDF page 50. It checks the separation of student
 status from employment, exact-identifier Army and CIA identities, commissioned

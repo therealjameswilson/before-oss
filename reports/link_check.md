@@ -12,8 +12,31 @@ The build includes 23,940 person profiles, 436 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,248 unique external URLs for separate live
+The checker inventoried 49,252 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batches 273-275 local release check
+
+The complete 24,384-page internal-link pass includes direct routes for Eden
+Brenes through Helen S. Brewster across PDF pages 50-51. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport regression,
+27-case axe matrix, and complete public-identifier audit pass; Astro reports
+zero errors, warnings, or hints, and the production dependency audit finds
+zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes. The
+manifest covers 75,526,916 bytes and has SHA-256
+`b2f6f0b2b7f7cd1f7261a7de381f8d608a87c7f61d56cb87180345f71702e874`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,454 artifacts, rejected 1,026
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`a3f8aa4ac3176911c74654b5b742dbd959aa985f97327d7190dbad77346542b1`.
+The regression preserves explicit namesake and identifier conflicts, separates
+military assignment from student status and employment, and withholds
+predecessor claims where the reviewed evidence does not establish one.
 
 ## Batches 270-272 local release check
 
