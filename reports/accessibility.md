@@ -4,12 +4,26 @@ Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **801 / 801**
-locally at desktop, phone, and tablet widths. The
-accessibility routes reported no serious or critical axe violations.
+**PASS.** All **804 / 804** browser and accessibility assertions passed at
+desktop, phone, and tablet widths. The first 1.4-hour pass completed 798 cases
+before six scattered older browser sessions timed out; every timed-out case
+passed immediately in an isolated single-worker retry. The accessibility
+routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 254 adds a focused direct-route regression for Vernon G. Bowen through
+Paul F. Bowers across PDF pages 46-47. It checks all ten indexed names, Box 72,
+public-safe identifier rendering, personnel classifications, terminal research
+states, confidence qualification, and employer-gap language. It verifies Ralph
+G. Bower and Paul F. Bowers through exact identifier/name agreement and
+publishes only their date-bounded broad occupations; recognizes William P.
+Bowen's Chief Boatswain's Mate rating as enlisted naval service without
+resolving his identity; and preserves eight unresolved archival-review
+profiles. The focused regression passed 3 / 3. The combined matrix produced
+804 / 804 passing assertions after the six timeout retries, with no serious or
+critical axe violation.
 
 Batch 253 adds a focused direct-route regression for Michel Bouvier through
 Harold L. Bowen on PDF page 46. It checks all ten indexed names, Box 72,

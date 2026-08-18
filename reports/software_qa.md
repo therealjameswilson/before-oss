@@ -7,35 +7,38 @@ Run: 2026-08-18 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,379 pages**
 - Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **801 / 801 passed** locally
-  across desktop, phone, and tablet, with no serious or critical axe violation.
-- Focused Batch 253 browser and accessibility regression: **3 / 3 passed**
+- Complete browser and accessibility matrix: **804 / 804 assertions passed**
+  across desktop, phone, and tablet. The first long-running pass completed
+  798 cases and encountered six browser-session timeouts in older regressions;
+  all six passed immediately in an isolated single-worker retry. No serious or
+  critical axe violation was found.
+- Focused Batch 254 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`32d77364e19ec60a61cd1576b54fa171e8160bb198bf21854fb4047eba39a0fb`)
-- Latest deterministic build (Batch 253): **byte-for-byte identical** across
+  (`7f6cf08c7537ee0034fd62a577d480d93ff6d2d6cdade44ac4b005dbfc43d198`)
+- Latest deterministic build (Batch 254): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,540,925 bytes**;
+  across **74,576,238 bytes**;
   manifest SHA-256
-  `c4a7bb50a8aa1ff56079d924370067450f0ac7ca43da6d40e54c97af497ac29a`
+  `e3a23f11f315d1b16b53b9ad6b9bf9f79d780290b1393f71506033cfbf43214d`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,449** production artifacts, including compressed mirrors;
-  **1,020** candidate substrings were reviewed.
+  **1,022** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,788** public records representing **1,313** unique documents
-- Private citation records: **2,804**
-- Published, qualified, or conflict-visible affiliations: **1,000**
-- Published or conflict-visible claims: **1,940**
+- Reviewed public sources: **1,792** public records representing **1,314** unique documents
+- Private citation records: **2,809**
+- Published, qualified, or conflict-visible affiliations: **1,002**
+- Published or conflict-visible claims: **1,944**
 - Verified-affiliation metric: **414** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **182** people with confirmed/high published
@@ -158,6 +161,43 @@ Run: 2026-08-18 UTC
 - Batch 252 production verification: **passed**; release `4c2d90b` passed the
   Test and Pages workflows, all **65** live assets matched byte for byte across
   **74,490,748 bytes**, and all ten representative routes returned HTTP 200
+- Batch 253 production verification: **passed**; release `e7ffd90` passed the
+  post-merge Test and Pages workflows, all **65** live assets matched byte for
+  byte across **74,540,925 bytes**, and the home page plus representative Batch
+  253 routes returned HTTP 200
+
+## Batch 254 local release check
+
+Batch 254 adds the ten visually checked Box 72 rows from Vernon G. Bowen
+through Paul F. Bowers across PDF pages 46-47. It confirms Ralph G. Bower and
+Paul F. Bowers through exact private-identifier and name agreement, publishing
+only their broad, date-bounded Army-entry occupation groups. William P.
+Bowen's printed `CH BM` grade is documented as the enlisted naval rating Chief
+Boatswain's Mate without resolving his biographical identity. Eight profiles
+remain unresolved and retain explicit archival-review guidance; rejected
+namesakes and postwar-only leads are not promoted.
+
+The strict bundle adds ten durable attempts, five sources, two affiliations,
+four claims, and ten claim-source links. It raises research-attempt coverage to
+2,335 people and archival-review coverage to 2,284 people while leaving the
+verified-affiliation and verified-employer numerators at 414 and 182. The
+public projection contains 1,002 affiliations, 1,944 claims, and 1,792 citation
+records representing 1,314 unique documents.
+
+The 72-test Python suite, SQLite integrity and foreign-key checks,
+deterministic 200-profile audit, focused three-viewport regression, 24,379-page
+internal-link pass, 49,222-URL external inventory, zero-warning Astro
+diagnostics, zero-vulnerability dependency audit, and public-identifier audit
+all pass. The complete browser matrix completed 798 cases before six scattered
+old-regression browser sessions timed out during the 1.4-hour run; all six
+passed immediately in an isolated single-worker retry, producing 804 / 804
+passing assertions overall and no serious or critical axe violation.
+
+All 65 manifest assets match across 74,576,238 bytes; the manifest SHA-256 is
+`e3a23f11f315d1b16b53b9ad6b9bf9f79d780290b1393f71506033cfbf43214d`.
+Two consecutive production builds are byte-for-byte identical and have the
+complete-site digest
+`7f6cf08c7537ee0034fd62a577d480d93ff6d2d6cdade44ac4b005dbfc43d198`.
 
 ## Batch 253 local release check
 

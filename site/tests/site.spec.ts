@@ -22276,3 +22276,87 @@ test("Batch 253 publishes Bova's occupation while preserving conflict and post-O
     );
   }
 });
+
+test("Batch 254 publishes two bounded occupations and preserves eight Box 72 review paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["0b5c5f28-6b5d-577a-a95f-eed4db86360a", "Vernon G Bowen", "Page 46"],
+    ["1606099b-e425-51ec-9e3a-ee34f6ac9375", "William P Bowen", "Page 46"],
+    ["4d0268fb-e5f9-56ce-8b3e-c51cc5e61892", "Clayton H Bower", "Page 46"],
+    ["3f94ec2f-4232-52f5-ba0f-a951fc2591ea", "Ralph G Bower", "Page 46"],
+    ["c854a9b1-f1c0-58c6-8f60-9c1b759e27ba", "Earl Bowers", "Page 46"],
+    ["5d8e4d28-68c1-5e1a-afd4-f8e3b5f4a0c9", "Lloyd W Bowers", "Page 46"],
+    ["162b0304-7efd-5448-b175-45b150f8101f", "M C Bowers", "Page 46"],
+    ["5901a447-3734-5b51-8087-47dc2e27112e", "Mona M Bowers", "Page 47"],
+    ["32f4c92b-7cb1-5678-aa0a-905643ebd364", "Neal M Bowers", "Page 47"],
+    ["acd5056e-604a-5232-a90d-76105a02cfc4", "Paul F Bowers", "Page 47"],
+  ] as const;
+
+  for (const [personId, displayName, pageNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").last()).toContainText("72");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  const occupations = [
+    [
+      "3f94ec2f-4232-52f5-ba0f-a951fc2591ea",
+      "Semiskilled miner or mining-machine operator",
+      "September 12, 1942",
+    ],
+    [
+      "acd5056e-604a-5232-a90d-76105a02cfc4",
+      "Skilled construction occupation, not elsewhere classified",
+      "April 24, 1942",
+    ],
+  ] as const;
+
+  for (const [personId, occupation, date] of occupations) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+
+  await page.goto("./people/1606099b-e425-51ec-9e3a-ee34f6ac9375/");
+  await expect(page.getByText("enlisted naval personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Chief Boatswain's Mate");
+
+  await page.goto("./people/5d8e4d28-68c1-5e1a-afd4-f8e3b5f4a0c9/");
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("died in 1910");
+
+  await page.goto("./people/32f4c92b-7cb1-5678-aa0a-905643ebd364/");
+  await expect(page.locator("main")).toContainText("postwar geographer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const personId of [
+    "0b5c5f28-6b5d-577a-a95f-eed4db86360a",
+    "1606099b-e425-51ec-9e3a-ee34f6ac9375",
+    "4d0268fb-e5f9-56ce-8b3e-c51cc5e61892",
+    "c854a9b1-f1c0-58c6-8f60-9c1b759e27ba",
+    "5d8e4d28-68c1-5e1a-afd4-f8e3b5f4a0c9",
+    "162b0304-7efd-5448-b175-45b150f8101f",
+    "5901a447-3734-5b51-8087-47dc2e27112e",
+    "32f4c92b-7cb1-5678-aa0a-905643ebd364",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+});
