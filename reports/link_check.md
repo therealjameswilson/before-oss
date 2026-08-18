@@ -15,6 +15,30 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,279 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 289 local release check
+
+The complete 24,387-page internal-link pass includes direct routes for George
+C. Brown through Horace E. Brown on PDF page 55. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport regression, 27-case axe
+matrix, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,266,163 bytes and has
+SHA-256 `084843ed9427e487e8e2de3b0d9b1be093c7ae8ca792507c315780c6a9ec3051`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,457 production artifacts, rejected
+1,028 harmless candidate substrings, and found no aggregate or unexpected
+boundary matches. Two numerical coincidences were confined to manifest size
+fields and were classified by the field-aware audit rather than exposed as
+identifiers.
+
+Two consecutive public-data builds produced the identical generated-asset
+digest `84bdb62ab9de844d9bdf7a07ac4deb748c1828c17d4e867f4725fd17687dc3bf`.
+The regression publishes two qualified occupations without naming employers,
+keeps eight unsupported identities on the archival-review path, and rejects a
+conflicting George C. Brown namesake and the unlinked Gwyneth King Brown lead.
+
 ## Batch 288 local release check
 
 The complete 24,387-page internal-link pass includes direct routes for Earl F.

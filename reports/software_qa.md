@@ -62,39 +62,53 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 288: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **861-case** matrix runs in release CI
+- Focused Batch 289 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 289: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **864-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic public-data build (Batch 288): **byte-for-byte
+- Latest deterministic public-data build (Batch 289): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`0f090f7d548cfc87e94f6b53f4b5ab591ccce1c53184d02c57cd59d7279c3fb6`).
+  (`84bdb62ab9de844d9bdf7a07ac4deb748c1828c17d4e867f4725fd17687dc3bf`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,229,121 bytes** in both the source and built public trees;
+  across **76,266,163 bytes** in both the source and built public trees;
   manifest SHA-256
-  `a2709f04f0d71032264cf144da9285cc861d970aca3db4fe3bcb5330ff9857b2`
+  `084843ed9427e487e8e2de3b0d9b1be093c7ae8ca792507c315780c6a9ec3051`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,457** production artifacts, including compressed mirrors;
-  **1,026** candidate substrings were reviewed.
-  No aggregate or build-manifest coincidence survived the field-aware checks; a
+  **1,028** candidate substrings were reviewed. Two numerical coincidences were
+  confined to manifest size fields and classified separately by the field-aware
+  audit; no aggregate coincidence survived. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,959** public records representing **1,389** unique documents
-- Private citation records: **2,996**
-- Published, qualified, or conflict-visible affiliations: **1,085**
-- Published or conflict-visible claims: **2,139**
+- Reviewed public sources: **1,963** public records representing **1,389** unique documents
+- Private citation records: **3,000**
+- Published, qualified, or conflict-visible affiliations: **1,087**
+- Published or conflict-visible claims: **2,143**
 - Verified-affiliation metric: **426** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **185** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 289 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,387-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. George C. Brown and Gilbert M. Brown have exact-identifier
+  Army identities and qualified pre-entry occupations without invented
+  employers. Eight profiles remain archival-review cases; the conflicting
+  George namesake and unlinked Gwyneth King Brown artist lead are not assigned.
+  The complete 864-case browser matrix runs in release CI.
 - Batch 288 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,387-route link check, deterministic rebuild, manifest audit, dependency
