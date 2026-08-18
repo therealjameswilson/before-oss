@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,564 people with a non-planned attempt | 23,940 active person entities | 10.7101% |
+| Research-attempt coverage | 2,574 people with a non-planned attempt | 23,940 active person entities | 10.7519% |
 | Verified-affiliation coverage | 422 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7627% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,514 people with an individual file-access/priority assessment | 23,940 active person entities | 10.5013% |
+| Archival-review coverage | 2,524 people with an individual file-access/priority assessment | 23,940 active person entities | 10.5430% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 217
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 413
-- Identity status `high_confidence`: 450
+- Identity status `confirmed`: 414
+- Identity status `high_confidence`: 451
 - Identity status `probable`: 87
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,912
+- Identity status `unresolved`: 22,910
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,321
-- Enlisted Army personnel: 3,636
+- Unknown or indeterminate: 16,319
+- Enlisted Army personnel: 3,637
 - Commissioned Army officers: 2,090
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,482
+- Civilian professional or administrative grades: 1,483
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 63
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,202 yes; 5,274 no; 16,464 indeterminate.
+Commissioned classification: 2,202 yes; 5,276 no; 16,462 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,376
+- `not_started`: 21,366
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 350
-- `requires_archival_review`: 1,734
+- `occupation_only_found`: 352
+- `requires_archival_review`: 1,742
 - `completed`: 81
 - `conflicting_sources`: 35
 - `verified_employer_found`: 182
-- Claim confidence: 594 confirmed; 971 high; 461 medium; 35 low; 45
+- Claim confidence: 595 confirmed; 972 high; 463 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,931 source records representing 1,364 unique
-  documents; 448 organizations; 1,062 affiliations; 2,106 claims; and 4,713
+- Durable evidence inventory: 2,937 source records representing 1,366 unique
+  documents; 448 organizations; 1,064 affiliations; 2,110 claims; and 4,722
   claim-source links
-- Reviewed public projection: 437 organizations; 1,053 published, qualified,
-  or conflict-visible affiliations; 2,071 published, qualified, or
-  conflict-visible claims; and 1,895 public citation records
+- Reviewed public projection: 437 organizations; 1,055 published, qualified,
+  or conflict-visible affiliations; 2,075 published, qualified, or
+  conflict-visible claims; and 1,901 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,7 +81,7 @@ Commissioned classification: 2,202 yes; 5,274 no; 16,464 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,031 across 1,001 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,762
+- Total recorded attempts/plans: 3,772
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 962; 937 have at least one public-visible
@@ -2676,6 +2676,49 @@ Commissioned classification: 2,202 yes; 5,274 no; 16,464 indeterminate.
   public projection contains 1,053 affiliations, 2,071 claims, and 1,895
   citation records representing 1,364 unique documents.
 
+- Batch 278 covers the next ten contiguous Box 79 rows on PDF page 52, from
+  Harold E. Briggs through Oliver J. Bright Jr. The rendered page, private-
+  identifier fields, official unrestricted Army merged file and technical
+  documentation, CIA and Library of Congress collection searches, and the
+  minimum exact-name, employment, occupation, obituary, newspaper,
+  institutional, directory, and archival query families were reviewed. Every
+  row now has a durable terminal outcome and a specific Box 79 next action.
+
+  Harold E. Briggs is confirmed by an exact full-name and private-identifier
+  match in the official Army entry file. NARA's code documentation places his
+  July 30, 1942 civilian occupation in its historical messenger, errand, and
+  office-worker grouping. This is published only as medium-confidence,
+  strongly date-bounded occupation evidence: no employer, exact job, or Army-
+  to-OSS transition is inferred. The private identifier and transient bulk
+  record are not retained in public assets.
+
+  The printed `Llyod Briggs` row is linked with high confidence to Lloyd Cabot
+  Briggs. A scholarly archival study cites his OSS personnel file under the
+  expanded name in the same Box 79, and Harvard independently documents Lloyd
+  Cabot Briggs's wartime OSS service in Algeria. His April 1942 application
+  reported nearly a decade of stockbroking experience. Because it names no
+  firm and does not establish that stockbroking continued to OSS entry, the
+  dataset preserves it as medium-confidence documented-prewar occupation only.
+  The original `Llyod` spelling remains recoverable and is not silently
+  corrected.
+
+  James E. Briggs, L. C. Briggs, M. B. Briggs, Walter L. Briggs, Donald E.
+  Bright, George H. Bright Jr., and Oliver J. Bright Jr. remain unresolved.
+  Alexander H. Bright remains unresolved as a person but is transparently
+  classified as a commissioned Army officer from the printed Major rank. A
+  later retired-major lead for George H. Bright lacks the required private-
+  identifier or Box 79 linkage and remains withheld. The official Army merged
+  file excludes officers, so its lack of an Alexander or George match is not
+  treated as disproof.
+
+  The strict bundle adds six sources, two occupation affiliations, four
+  claims, nine claim-source links, ten person updates, and ten durable research
+  attempts. Coverage is now 2,574 researched people, 422 people with a verified
+  affiliation, 184 with a verified employer, and 2,524 individually assessed
+  for archival review, out of 23,940 active entities. The reviewed public
+  projection contains 1,055 affiliations, 2,075 claims, and 1,901 citation
+  records representing 1,366 unique documents.
+
 - Batches 273-275 cover thirty contiguous rows from Eden Brenes through Helen
   L. Brewster across PDF pages 50-51 and Box 78. Both rendered pages were
   checked visually, and every row now has a durable reviewed attempt, a
@@ -4602,6 +4645,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-on
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-chester-brewer-through-helen-brewster-pathways_batch-275_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-robert-brewster-through-thomas-bridges-pathways_batch-276_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-jeanne-bridgett-through-page-fifty-two-emily-briggs-pathways_batch-277_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-harold-briggs-through-oliver-bright-pathways_batch-278_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

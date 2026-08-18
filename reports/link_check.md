@@ -12,8 +12,30 @@ The build includes 23,940 person profiles, 437 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,259 unique external URLs for separate live
+The checker inventoried 49,261 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 278 local release check
+
+The complete 24,385-page internal-link pass includes direct routes for Harold
+E. Briggs through Oliver J. Bright Jr. on PDF page 52. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport regression,
+27-case axe matrix, dependency audit, and complete public-identifier audit
+pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 75,641,934 bytes and has
+SHA-256 `e9c2b69888ab9e0e8b846052e216dfd9c1922cf5dbee388b52cbf1a8eefa8610`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,455 artifacts, rejected 1,025
+harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`7027fd667042e7e451b1d31d95e0bae3a8ce5cbaf1e6ed3bdff65ec8b479bf25`.
+The regression keeps both occupation findings separate from employer claims,
+preserves the printed `Llyod` spelling, and keeps unresolved Bright namesakes
+and full private identifiers out of public facts.
 
 ## Batch 277 local release check
 
