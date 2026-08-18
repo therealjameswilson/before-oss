@@ -12,8 +12,31 @@ The build includes 23,940 person profiles, 436 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,252 unique external URLs for separate live
+The checker inventoried 49,254 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 276 local release check
+
+The complete 24,384-page internal-link pass includes direct routes for Robert
+D. Brewster through Thomas D. Bridges on PDF page 51. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport regression, 27-case axe
+matrix, dependency audit, and complete public-identifier audit pass; Astro
+reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 75,553,331 bytes and has
+SHA-256 `7bd05bb8a6ffe49b7375f2cb48582b68ed0aa0aea017d3446b237d984be12f67`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,454 artifacts, rejected 1,026
+harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`9ac79f86eb039b0d6942a53248d3c6c5f83b4e948f4994dabde28ac3c9d228ab`.
+The regression publishes George Brickelmaier's high-confidence Dartmouth
+student status without turning it into employment or an immediate predecessor,
+and preserves the unresolved, ambiguous, or probable status of unsupported
+namesake candidates.
 
 ## Batches 273-275 local release check
 

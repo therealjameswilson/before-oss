@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,544 people with a non-planned attempt | 23,940 active person entities | 10.6266% |
-| Verified-affiliation coverage | 419 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7502% |
+| Research-attempt coverage | 2,554 people with a non-planned attempt | 23,940 active person entities | 10.6683% |
+| Verified-affiliation coverage | 420 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7544% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,494 people with an individual file-access/priority assessment | 23,940 active person entities | 10.4177% |
+| Archival-review coverage | 2,504 people with an individual file-access/priority assessment | 23,940 active person entities | 10.4595% |
 
 ## Extraction and identity
 
@@ -24,51 +24,51 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 412
-- Identity status `high_confidence`: 447
-- Identity status `probable`: 86
-- Identity status `ambiguous`: 44
+- Identity status `high_confidence`: 448
+- Identity status `probable`: 87
+- Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,918
+- Identity status `unresolved`: 22,915
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,325
+- Unknown or indeterminate: 16,324
 - Enlisted Army personnel: 3,636
 - Commissioned Army officers: 2,089
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,479
+- Civilian professional or administrative grades: 1,480
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 63
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,201 yes; 5,271 no; 16,468 indeterminate.
+Commissioned classification: 2,201 yes; 5,272 no; 16,467 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,396
+- `not_started`: 21,386
 - `in_progress`: 49
 - `candidate_found`: 1
-- `needs_identity_review`: 59
+- `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 350
-- `requires_archival_review`: 1,719
-- `completed`: 79
+- `requires_archival_review`: 1,726
+- `completed`: 80
 - `conflicting_sources`: 35
 - `verified_employer_found`: 181
-- Claim confidence: 592 confirmed; 966 high; 461 medium; 35 low; 45
+- Claim confidence: 592 confirmed; 968 high; 461 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,921 source records representing 1,357 unique
-  documents; 447 organizations; 1,059 affiliations; 2,099 claims; and 4,699
+- Durable evidence inventory: 2,926 source records representing 1,360 unique
+  documents; 447 organizations; 1,060 affiliations; 2,101 claims; and 4,704
   claim-source links
-- Reviewed public projection: 436 organizations; 1,050 published, qualified,
-  or conflict-visible affiliations; 2,064 published, qualified, or
-  conflict-visible claims; and 1,887 public citation records
+- Reviewed public projection: 436 organizations; 1,051 published, qualified,
+  or conflict-visible affiliations; 2,066 published, qualified, or
+  conflict-visible claims; and 1,890 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,201 yes; 5,271 no; 16,468 indeterminate.
   adapters: 2,327. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,027 across 997 people; 117 additional
+- Saved `source_reviewed` outcomes: 1,028 across 998 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,742
+- Total recorded attempts/plans: 3,752
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 958; 933 have at least one public-visible
+- People with saved reviewed claims: 959; 934 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2603,6 +2603,41 @@ Commissioned classification: 2,201 yes; 5,271 no; 16,468 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 276 covers ten contiguous rows from Robert D. Brewster through Thomas
+  D. Bridges on PDF page 51 and Box 79. The rendered page, private-identifier
+  fields, official Army bulk file, CIA discovery context, and exact-name,
+  employer, occupation, obituary, newspaper, directory, institutional, and
+  archival searches were reviewed. Every row now has a saved terminal outcome
+  and a specific Box 79 next action where online evidence remains insufficient.
+
+  Dartmouth College's contemporary February 1943 alumni list places George
+  Brickelmaier Jr., class of 1942, in full-time OSS war work. A separate public
+  registrar finding aid matches the rare full name, suffix, class grouping, and
+  1938-1942 span. Together these sources support a high-confidence identity and
+  documented pre-OSS Dartmouth student status. The university is not treated as
+  an employer, and neither source is stretched into an immediate-predecessor
+  claim. Box 79 remains necessary to identify any immediate affiliation or last
+  civilian employer.
+
+  Nine profiles remain unresolved, ambiguous, or probable without publishable
+  predecessor claims. Robert Dows Brewster, Arthur C. Breycha-Vauthier, the
+  American University biologist Edward J. Breyere Jr., a Portland William L.
+  Brewster, and numerous Bridges namesakes were rejected because their sources
+  lacked direct OSS, private-identifier, or Box 79 linkage. Robert H. Bridges
+  remains classified only as a commissioned Army officer from the printed First
+  Lieutenant rank; the enlisted Army bulk file cannot confirm an officer. No
+  candidate's education, employer, nationality, or later career is silently
+  assigned.
+
+  The strict bundle adds five sources, one student affiliation, two published
+  claims, five claim-source links, ten person updates, and ten durable research
+  attempts. Repeat import produced identical counts. Coverage is now 2,554
+  researched people, 420 people with a verified affiliation, 184 with a
+  verified employer, and 2,504 individually assessed for archival review, out
+  of 23,940 active entities. The reviewed public projection contains 1,051
+  affiliations, 2,066 claims, and 1,890 citation records representing 1,360
+  unique documents.
+
 - Batches 273-275 cover thirty contiguous rows from Eden Brenes through Helen
   L. Brewster across PDF pages 50-51 and Box 78. Both rendered pages were
   checked visually, and every row now has a durable reviewed attempt, a
@@ -4527,6 +4562,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-jo
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-fifty-one-eden-brenes-through-edward-brennen-pathways_batch-273_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-amos-brenner-through-john-brew-pathways_batch-274_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-chester-brewer-through-helen-brewster-pathways_batch-275_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-robert-brewster-through-thomas-bridges-pathways_batch-276_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

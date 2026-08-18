@@ -19,17 +19,17 @@ Run: 2026-08-18 UTC
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batches 273-275): **byte-for-byte identical**
+- Latest deterministic build (Batch 276): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`a3f8aa4ac3176911c74654b5b742dbd959aa985f97327d7190dbad77346542b1`).
+  (`9ac79f86eb039b0d6942a53248d3c6c5f83b4e948f4994dabde28ac3c9d228ab`).
 - Previous deterministic build (Batches 263-269): **byte-for-byte identical**
   across consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **75,526,916 bytes**;
+  across **75,553,331 bytes** in both the source and built public trees;
   manifest SHA-256
-  `b2f6f0b2b7f7cd1f7261a7de381f8d608a87c7f61d56cb87180345f71702e874`
+  `7bd05bb8a6ffe49b7375f2cb48582b68ed0aa0aea017d3446b237d984be12f67`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -41,15 +41,22 @@ Run: 2026-08-18 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,887** public records representing **1,357** unique documents
-- Private citation records: **2,921**
-- Published, qualified, or conflict-visible affiliations: **1,050**
-- Published or conflict-visible claims: **2,064**
-- Verified-affiliation metric: **419** people with confirmed/high published
+- Reviewed public sources: **1,890** public records representing **1,360** unique documents
+- Private citation records: **2,926**
+- Published, qualified, or conflict-visible affiliations: **1,051**
+- Published or conflict-visible claims: **2,066**
+- Verified-affiliation metric: **420** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **184** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 276 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,384-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, and public-identifier audit all pass. George
+  Brickelmaier's high-confidence Dartmouth student relationship remains
+  distinct from employment and from an immediate predecessor; unsupported
+  namesake candidates remain visibly rejected or unresolved.
 - Batches 273-275 local release checks: **passed**; 74 Python tests, the
   focused **3-case** browser regression, **27 / 27** core-route axe scans, the
   24,384-route link check, deterministic rebuild, manifest audit, dependency

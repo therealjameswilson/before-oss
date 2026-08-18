@@ -15,6 +15,16 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 276 adds a focused direct-route regression for Robert D. Brewster through
+Thomas D. Bridges on PDF page 51. It checks unresolved and ambiguous namesakes,
+the qualified Edward J. Breyere Jr. candidate, George Brickelmaier's
+high-confidence Dartmouth student status without an invented employer or
+immediate predecessor, Robert H. Bridges's commissioned classification, and
+public-safe identifier rendering. The focused regression passed **3 / 3**
+across desktop, phone, and tablet. A fresh core-route axe matrix passed
+**27 / 27**, including the growing Sources table, with no serious or critical
+axe violation.
+
 Batches 273-275 add a focused direct-route regression for Eden Brenes through
 Helen S. Brewster across PDF pages 50-51. It checks three visible identifier
 conflicts without publishing the unrelated Army subjects, the qualified
