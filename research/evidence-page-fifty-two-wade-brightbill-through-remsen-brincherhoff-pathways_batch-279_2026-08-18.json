@@ -1,0 +1,611 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, Batch 279",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-52-batch279",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 80",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 52, rows 14-23; Wade J. Brightbill through Remsen Brincherhoff; visually checked with private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. Full private identifiers remain restricted and are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch279",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier checks for four eligible indexed records and exact-name review for all ten people; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. Only project-authored conclusions and stable citation pointers are retained. The merged file excludes officers and has known omissions, so absence is not treated as disproof."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch279",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width field positions for name, Army-entry date, source, education, civilian occupation, and birth year; visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields in the official merged file without retaining the raw record or private identifier."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch279",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 171, occupation code 144; visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The occupation code does not identify an employer, workplace, exact duties, or Army-to-OSS sequence."
+    },
+    {
+      "key": "wilkes-alumnus-wade-brightbill-batch279",
+      "stable_url": "https://omeka.wilkes.edu/omeka/files/original/01a0b0040e3a993c4d72dc06074eb261.pdf",
+      "archival_identifier": "Wilkes College Alumnus, volume 3, number 2",
+      "title": "Wilkes College Alumnus",
+      "author_creator": "C. J. Foxlow, editor; Wilkes College Alumni Association",
+      "repository_publisher": "Wilkes University Archives",
+      "publication_record_date": "1951",
+      "locator": "Summer 1951 issue, PDF physical page 8, 'Brightbill Recalled to Navy'",
+      "access_date": "2026-08-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Wilkes University Archives digital collections",
+      "rights_notes": "Institutional alumni publication used only to assess the distinctive-name identity candidate and documented Navy/Sino-American Cooperative Organization service. Its postwar employment and education details are not converted into pre-OSS claims."
+    },
+    {
+      "key": "nara-donated-collection-remsen-brinckerhoff-batch279",
+      "stable_url": "https://www.archives.gov/research/guide-fed-records/alpha_list_donated_materials.html",
+      "archival_identifier": "Donated Materials Group BRINC",
+      "title": "Alphabetic List of Donated Materials Groups",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": null,
+      "locator": "Alphabetic entry 'Mrs. Remsen Brinckerhoff Collection,' designator BRINC",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Guide to Federal Records in the National Archives of the United States",
+      "rights_notes": "Official collection-level pointer under the distinctive corrected surname. It supplies contextual corroboration only and does not establish wartime identity, employment, or chronology by itself."
+    },
+    {
+      "key": "riverbank-cemetery-remsen-brinckerhoff-batch279",
+      "stable_url": "https://www.nekg-vt.com/cemetery/cemetery_Lamoille-stowe-riverbank.php",
+      "archival_identifier": "Riverbank Cemetery, Stowe, Vermont",
+      "title": "Riverbank Cemetery - Stowe, Lamoille Co., Vermont",
+      "author_creator": "Northeast Kingdom Genealogy",
+      "repository_publisher": "Northeast Kingdom Genealogy",
+      "publication_record_date": null,
+      "locator": "Transcription for Remsen Brinckerhoff, 1911-1969; military marker recorded as Captain, Office of Strategic Services, World War II",
+      "access_date": "2026-08-18",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Vermont cemetery transcriptions",
+      "rights_notes": "A secondary grave-marker transcription used as qualified identity evidence. It is not treated as a substitute for the Box 80 personnel file or a matching official service record."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "edward-r-brightwell-transportation-ticket-agent-occupation-batch279",
+      "person_id": "dcf17261-bec3-527c-88e6-dafd92eb1204",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Ticket, station, and express agent, transportation",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The exact Army-entry record carries civilian occupation code 144. Its date field is internally invalid in the converted record, so no exact entry date is published.",
+      "city": null,
+      "state_or_region": "Mississippi",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity and places the coded civilian occupation at Army entry. The record does not name an employer or workplace, and its converted date is invalid; no exact date or Army-to-OSS chronology is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "wade-j-brightbill-probable-navy-saco-identity-batch279",
+      "person_id": "e07e72e6-cf92-52b0-8e2d-9d7e0cc26811",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Wade J. Brightbill is probably the Navy radioman whom Wilkes College documented as a World War II member of the Sino-American Cooperative Organization.",
+      "evidence_excerpt": "Wade J. Brightbill",
+      "evidence_paraphrase": "A Wilkes institutional profile gives the same distinctive full name and documents 34 months in the Navy, including Sino-American Cooperative Organization service in China.",
+      "identity_match_assessment": "Probable from the uncommon exact full name and compatible specialized wartime service, but the index supplies no rank or private identifier and the institutional source does not mention an OSS personnel file.",
+      "temporal_assessment": "The institutional source places the Navy service in World War II but does not establish whether it preceded, overlapped, or followed any OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The finding is published as a qualified identity candidate only. Postwar Wilkes employment, later Naval Reserve commissioning, and undated education are not treated as pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-52-batch279",
+          "support_type": "supports",
+          "locator_override": "PDF page 52, row 14",
+          "excerpt_override": "BRIGHTBILL WADE J"
+        },
+        {
+          "source_key": "wilkes-alumnus-wade-brightbill-batch279",
+          "support_type": "supports",
+          "locator_override": "Summer 1951 issue, PDF physical page 8, 'Brightbill Recalled to Navy'",
+          "excerpt_override": "Wade J. Brightbill"
+        }
+      ]
+    },
+    {
+      "key": "edward-r-brightwell-confirmed-army-identity-batch279",
+      "person_id": "dcf17261-bec3-527c-88e6-dafd92eb1204",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward R. Brightwell is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BRIGHTWELL EDWARD R",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record predates the indexed OSS personnel file, but its converted date field is invalid and no exact date is asserted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The official merged file supplies one exact private-identifier and full-name match. No namesake biography was used.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-52-batch279",
+          "support_type": "supports",
+          "locator_override": "PDF page 52, row 18",
+          "excerpt_override": "BRIGHTWELL EDWARD R"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch279",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRIGHTWELL EDWARD R"
+        }
+      ]
+    },
+    {
+      "key": "edward-r-brightwell-transportation-ticket-agent-occupation-claim-batch279",
+      "person_id": "dcf17261-bec3-527c-88e6-dafd92eb1204",
+      "affiliation_key": "edward-r-brightwell-transportation-ticket-agent-occupation-batch279",
+      "claim_type": "occupation",
+      "claim_text": "Edward R. Brightwell's Army-entry record places his civilian occupation in NARA's ticket, station, and express-agent transportation grouping.",
+      "evidence_excerpt": "Ticket, station, and express agents, transportation",
+      "evidence_paraphrase": "The fixed-width Army record carries occupation code 144, which NARA's official code table defines as a transportation ticket, station, and express-agent group.",
+      "identity_match_assessment": "Confirmed through the exact private identifier.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but the converted date is invalid and no employer, workplace, or OSS transfer date is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical grouped code is not converted into a named employer, exact job title, workplace, or Army-to-OSS transfer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch279",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation code 144; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch279",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; fixed-width field positions"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch279",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171, code 144",
+          "excerpt_override": "Ticket, station, and express agents, transportation"
+        }
+      ]
+    },
+    {
+      "key": "remsen-brincherhoff-probable-brinckerhoff-identity-batch279",
+      "person_id": "6bb268e2-ff41-5f5e-acd1-c343343dd0e6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The index's printed Remsen Brincherhoff record is probably Remsen Brinckerhoff, whose grave-marker transcription identifies a World War II captain in the Office of Strategic Services.",
+      "evidence_excerpt": "Brinckerhoff, Remsen",
+      "evidence_paraphrase": "A cemetery transcription records the distinctive corrected name, 1911-1969 dates, and a military marker for a captain in the Office of Strategic Services; NARA separately lists a donated collection under the same corrected name.",
+      "identity_match_assessment": "Probable from the highly distinctive given name, one-letter surname variation, explicit OSS captain inscription, compatible era, and official NARA collection-name corroboration. The printed private identifier did not match an enlisted Army bulk record and has not been independently linked.",
+      "temporal_assessment": "The marker places the candidate in World War II OSS service but supplies no entry date or pre-OSS chronology.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source-row spelling Brincherhoff remains immutable. Brinckerhoff is stored only as a probable documented variant pending Box 80 or an official service-number match.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-52-batch279",
+          "support_type": "supports",
+          "locator_override": "PDF page 52, row 23",
+          "excerpt_override": "BRINCHERHOFF REMSEN"
+        },
+        {
+          "source_key": "riverbank-cemetery-remsen-brinckerhoff-batch279",
+          "support_type": "supports",
+          "locator_override": "Remsen Brinckerhoff transcription",
+          "excerpt_override": "Capt OFC Strat Svcs, WWII"
+        },
+        {
+          "source_key": "nara-donated-collection-remsen-brinckerhoff-batch279",
+          "support_type": "context_only",
+          "locator_override": "Alphabetic entry for Mrs. Remsen Brinckerhoff Collection, BRINC"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e07e72e6-cf92-52b0-8e2d-9d7e0cc26811",
+      "identity_status": "probable",
+      "identity_evidence": "The visually checked index supplies the uncommon exact name Wade J. Brightbill. A Wilkes institutional profile documents a same-name World War II Navy radioman who served in the Sino-American Cooperative Organization. The index has no rank or private identifier and Wilkes does not mention an OSS file, so the link remains probable.",
+      "name_variants": [
+        "Wade J Brightbill",
+        "Wade J. Brightbill",
+        "Brightbill, Wade J."
+      ],
+      "personnel_category": "enlisted_naval_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 to confirm the Wilkes/Sino-American Cooperative Organization identity, establish the OSS relationship and chronology, and identify any civilian predecessor.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "97441895-557b-5a26-8b3d-82087b6b3436",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies George F. Brightman and Box 80, with no rank or private identifier. Official, CIA, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches produced namesakes without an OSS or Box 80 linkage.",
+      "name_variants": [
+        "George F Brightman",
+        "George F. Brightman",
+        "Brightman, George F."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 for personnel status, identifiers, dates, hometown, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ea9e28ab-5043-5d41-846f-156ca579da6c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Paul Brightman, Lieutenant, and Box 80, with no middle initial, branch, or private identifier. Exact-name and source-specific searches could not distinguish the officer from unrelated Paul Brightman candidates.",
+      "name_variants": [
+        "Paul Brightman",
+        "Brightman, Paul"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 to establish the lieutenant's branch, full name, service identifier, assignments, and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "235da4c6-58ee-5926-b978-dfd5ca247003",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Paul F. Brightman, Box 80, and a private identifier. That identifier did not match the official Army enlisted merged file, and exact-name legal, military, obituary, directory, and archival candidates lacked the private identifier or an OSS-file link.",
+      "name_variants": [
+        "Paul F Brightman",
+        "Paul F. Brightman",
+        "Brightman, Paul F."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 to validate the private identifier, determine personnel status, distinguish legal and military namesakes, and recover employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dcf17261-bec3-527c-88e6-dafd92eb1204",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index row and the official Army merged file have the exact same full name and private service identifier. The identifier remains withheld. The Army record documents an enlisted private from Mississippi and civilian occupation code 144; its converted entry-date field is internally invalid.",
+      "name_variants": [
+        "Edward R Brightwell",
+        "Edward R. Brightwell",
+        "Brightwell, Edward R."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record supplies only a grouped transportation ticket, station, and express-agent occupation and has an invalid converted date. Review Box 80 for a named employer, valid dates, exact role, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "79beef9b-8931-56cf-9521-9a22ba275c4a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Michael J. Brignola, Box 80, and a private identifier. That identifier did not match the official Army enlisted merged file. An age-compatible New Jersey namesake and other obituary or genealogy candidates lacked the private identifier, an OSS link, or corroborating wartime details.",
+      "name_variants": [
+        "Michael J Brignola",
+        "Michael J. Brignola",
+        "Brignola, Michael J."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 to validate the private identifier and establish birth, residence, personnel status, employment, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21ba1f90-ab90-537d-afee-c874975b364e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Solomon Brill and Box 80, with no middle initial, rank, grade, or private identifier. Exact-name official, OSS, immigration, property, employment, occupation, obituary, directory, newspaper, and archival results could not distinguish the indexed person from older and unrelated namesakes.",
+      "name_variants": [
+        "Solomon Brill",
+        "Brill, Solomon"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 for a middle name, dates, personnel status, private identifier, employment history, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec95fb19-b655-5473-8065-f2bbf226e2fe",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Walter E. Brill and Box 80, with no rank or private identifier. The official Army merged file contains one same-name enlisted row, but the index offers no identifier with which to link it. Census, military, obituary, employment, directory, and archival candidates therefore remain unresolved.",
+      "name_variants": [
+        "Walter E Brill",
+        "Walter E. Brill",
+        "Brill, Walter E."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 for a private identifier and birth or residence evidence before considering the same-name Army candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b48a9c16-c065-538f-8046-8f8d0d920aa7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Leonard M. Brin and Box 80, with no rank, grade, or private identifier. Exact-name and variant searches across official, CIA, military, employment, occupation, obituary, newspaper, directory, and archival sources did not produce a candidate with an OSS or Box 80 linkage.",
+      "name_variants": [
+        "Leonard M Brin",
+        "Leonard M. Brin",
+        "Brin, Leonard M."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 for spelling variants, personnel status, identifiers, dates, employment, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6bb268e2-ff41-5f5e-acd1-c343343dd0e6",
+      "identity_status": "probable",
+      "identity_evidence": "The visually checked index prints Remsen Brincherhoff and a private identifier. A cemetery transcription identifies the distinctive Remsen Brinckerhoff as a 1911-1969 World War II captain in the Office of Strategic Services, while NARA lists a donated collection under the corrected name. The index identifier did not match the enlisted Army bulk file and has not been independently linked, so the identity remains probable.",
+      "name_variants": [
+        "Remsen Brincherhoff",
+        "Remsen Brinckerhoff",
+        "Brincherhoff, Remsen",
+        "Brinckerhoff, Remsen"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 80 to verify the Brinckerhoff spelling and private identifier, confirm branch and rank, and recover the pre-OSS employer or assignment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "wade-j-brightbill-protocol-batch279",
+      "person_id": "e07e72e6-cf92-52b0-8e2d-9d7e0cc26811",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Wade J. Brightbill: visually checked NARA index; public NARA Catalog and CIA Reading Room context; exact-name OSS and Navy variants; employment and occupation; Wilkes and Millersville institutional sources; newspaper, obituary, directory, veteran, Sino-American Cooperative Organization, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Postwar Wilkes employment, graduate study, later broadcasting work, undated undergraduate education, and same-surname veteran results do not establish a pre-OSS predecessor. The institutional identity link remains probable because no private identifier or direct OSS-file reference was found.",
+      "research_notes": "A qualified identity candidate is preserved from the distinctive full name and specialized wartime Navy service. No pre-OSS employer or immediate predecessor is published.",
+      "next_action": "Review Box 80 to confirm the Wilkes/Sino-American Cooperative Organization identity and establish the pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "george-f-brightman-protocol-batch279",
+      "person_id": "97441895-557b-5a26-8b3d-82087b6b3436",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George F. Brightman: visually checked NARA index; public NARA Catalog context; CIA Reading Room; exact-name OSS variants; employment and occupation; institutional, newspaper, obituary, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "American and British namesakes, authors, relatives in later obituaries, and genealogy entries lacked an OSS connection, Box 80 reference, private identifier, or two corroborating identifiers.",
+      "research_notes": "The source row contains no rank or private identifier. No reliable identity or pre-OSS affiliation was established.",
+      "next_action": "Review Box 80 for identifiers, dates, personnel status, and employment history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "paul-brightman-lieutenant-protocol-batch279",
+      "person_id": "ea9e28ab-5043-5d41-846f-156ca579da6c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Paul Brightman, Lieutenant: visually checked NARA index; public NARA Catalog and CIA Reading Room context; exact-name, officer, rank, OSS, employment, occupation, obituary, legal, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Name-only military, legal, obituary, and directory candidates could not be linked to the lieutenant or Box 80. The officer's branch and middle name remain unknown.",
+      "research_notes": "Commissioned status follows the printed Lieutenant rank only; identity and pre-OSS affiliation remain unresolved.",
+      "next_action": "Review Box 80 for branch, full name, service identifier, assignments, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "paul-f-brightman-protocol-batch279",
+      "person_id": "235da4c6-58ee-5926-b978-dfd5ca247003",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Paul F. Brightman: visually checked NARA index and exact private-identifier Army check; public NARA Catalog and CIA Reading Room context; exact-name OSS, employment, occupation, legal, obituary, military, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The private identifier had no exact Army merged-file match. A later legal namesake and other military or obituary candidates lacked the identifier, an OSS link, or compatible chronology.",
+      "research_notes": "No identity or pre-OSS affiliation was accepted from name-only results.",
+      "next_action": "Review Box 80 to validate the identifier and establish personnel status and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "edward-r-brightwell-protocol-batch279",
+      "person_id": "dcf17261-bec3-527c-88e6-dafd92eb1204",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Edward R. Brightwell: visually checked NARA index and exact private-identifier Army match; official technical documentation and occupation code list; public NARA Catalog and CIA Reading Room context; exact-name OSS, employment, occupation, obituary, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name directory, census, obituary, and cemetery candidates lacked the exact private identifier. The converted Army-entry date is invalid and was not repaired by inference.",
+      "research_notes": "The exact official Army record confirms identity and a grouped transportation ticket/station/express-agent civilian occupation. No employer, exact date, or Army-to-OSS sequence was found.",
+      "next_action": "Review Box 80 for a named employer, valid dates, exact role, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "michael-j-brignola-protocol-batch279",
+      "person_id": "79beef9b-8931-56cf-9521-9a22ba275c4a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Michael J. Brignola: visually checked NARA index and exact private-identifier Army check; public NARA Catalog and CIA Reading Room context; exact-name OSS, employment, occupation, obituary, newspaper, directory, veteran, genealogy, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The private identifier had no exact Army merged-file match. An age-compatible New Jersey namesake and obituary or genealogy candidates lacked an OSS connection, Box 80 reference, or identifier match.",
+      "research_notes": "No name-only candidate was accepted and no reliable pre-OSS affiliation was found.",
+      "next_action": "Review Box 80 to validate the identifier and establish birth, residence, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "solomon-brill-protocol-batch279",
+      "person_id": "21ba1f90-ab90-537d-afee-c874975b364e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Solomon Brill: visually checked NARA index; public NARA Catalog and CIA Reading Room context; exact-name OSS, employment, occupation, immigration, property, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Older property and immigration records and unrelated family-tree candidates lacked compatible wartime chronology, an OSS connection, Box 80 reference, or distinguishing identifiers.",
+      "research_notes": "The index lacks a middle initial, rank, grade, and private identifier; no reliable identity or pre-OSS affiliation was established.",
+      "next_action": "Review Box 80 for a middle name, dates, personnel status, private identifier, and employment history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "walter-e-brill-protocol-batch279",
+      "person_id": "ec95fb19-b655-5473-8065-f2bbf226e2fe",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Walter E. Brill: visually checked NARA index; exact-name Army merged-file review; public NARA Catalog and CIA Reading Room context; exact-name OSS, employment, occupation, census, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "One exact-name enlisted Army row, a New Jersey census household, and multiple obituary or cemetery candidates could not be linked without an index identifier, birth date, residence, or OSS assignment.",
+      "research_notes": "The Army name match remains a rejected candidate, not an identity or occupation finding.",
+      "next_action": "Review Box 80 for a private identifier and birth or residence evidence before reconsidering the Army candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "leonard-m-brin-protocol-batch279",
+      "person_id": "b48a9c16-c065-538f-8046-8f8d0d920aa7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Leonard M. Brin: visually checked NARA index; public NARA Catalog and CIA Reading Room context; exact-name and spelling-variant OSS, employment, occupation, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Name and spelling-variant searches returned no candidate with an OSS connection, Box 80 reference, rank, identifier, or two corroborating identity details.",
+      "research_notes": "No reliable identity expansion or pre-OSS affiliation was found.",
+      "next_action": "Review Box 80 for spelling variants, personnel status, identifiers, dates, and employment history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    },
+    {
+      "key": "remsen-brincherhoff-protocol-batch279",
+      "person_id": "6bb268e2-ff41-5f5e-acd1-c343343dd0e6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Remsen Brincherhoff and Remsen Brinckerhoff: visually checked NARA index and exact private-identifier Army check; public NARA collection context; CIA Reading Room; exact-name and surname-variant OSS, officer, employment, occupation, obituary, cemetery, newspaper, directory, foreign-agent, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T14:35:00+00:00",
+      "completed_at": "2026-08-18T15:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The private identifier had no enlisted Army merged-file match, which is non-dispositive for an officer. Postwar foreign-agent registration, family-history pages, and engineering-firm surname results do not establish pre-OSS employment. The spelling correction remains probable pending Box 80.",
+      "research_notes": "A qualified identity candidate is preserved from the distinctive name, one-letter surname variation, explicit OSS captain marker transcription, and NARA donated-collection context. No pre-OSS employer was found.",
+      "next_action": "Review Box 80 to verify spelling and identifier, confirm branch and rank, and recover the pre-OSS employer or assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch279-v1"
+    }
+  ]
+}

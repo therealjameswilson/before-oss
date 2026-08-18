@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,574 people with a non-planned attempt | 23,940 active person entities | 10.7519% |
+| Research-attempt coverage | 2,584 people with a non-planned attempt | 23,940 active person entities | 10.7937% |
 | Verified-affiliation coverage | 422 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7627% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,524 people with an individual file-access/priority assessment | 23,940 active person entities | 10.5430% |
+| Archival-review coverage | 2,534 people with an individual file-access/priority assessment | 23,940 active person entities | 10.5848% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 217
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 414
+- Identity status `confirmed`: 415
 - Identity status `high_confidence`: 451
-- Identity status `probable`: 87
+- Identity status `probable`: 89
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,910
+- Identity status `unresolved`: 22,907
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,319
-- Enlisted Army personnel: 3,637
-- Commissioned Army officers: 2,090
+- Unknown or indeterminate: 16,316
+- Enlisted Army personnel: 3,638
+- Commissioned Army officers: 2,091
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
 - Civilian professional or administrative grades: 1,483
 - Foreign or Allied military personnel: 247
-- Enlisted naval personnel: 63
+- Enlisted naval personnel: 64
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,202 yes; 5,276 no; 16,462 indeterminate.
+Commissioned classification: 2,203 yes; 5,278 no; 16,459 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,366
+- `not_started`: 21,356
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 352
-- `requires_archival_review`: 1,742
+- `occupation_only_found`: 353
+- `requires_archival_review`: 1,751
 - `completed`: 81
 - `conflicting_sources`: 35
 - `verified_employer_found`: 182
-- Claim confidence: 595 confirmed; 972 high; 463 medium; 35 low; 45
+- Claim confidence: 596 confirmed; 972 high; 466 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,937 source records representing 1,366 unique
-  documents; 448 organizations; 1,064 affiliations; 2,110 claims; and 4,722
+- Durable evidence inventory: 2,945 source records representing 1,369 unique
+  documents; 448 organizations; 1,065 affiliations; 2,114 claims; and 4,732
   claim-source links
-- Reviewed public projection: 437 organizations; 1,055 published, qualified,
-  or conflict-visible affiliations; 2,075 published, qualified, or
-  conflict-visible claims; and 1,901 public citation records
+- Reviewed public projection: 437 organizations; 1,056 published, qualified,
+  or conflict-visible affiliations; 2,079 published, qualified, or
+  conflict-visible claims; and 1,908 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,7 +81,7 @@ Commissioned classification: 2,202 yes; 5,276 no; 16,462 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,031 across 1,001 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,772
+- Total recorded attempts/plans: 3,782
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 962; 937 have at least one public-visible
@@ -2676,6 +2676,58 @@ Commissioned classification: 2,202 yes; 5,276 no; 16,462 indeterminate.
   public projection contains 1,053 affiliations, 2,071 claims, and 1,895
   citation records representing 1,364 unique documents.
 
+- Batch 279 covers the next ten contiguous Box 80 rows on PDF page 52, from
+  Wade J. Brightbill through the index's printed Remsen Brincherhoff. The
+  rendered source page, private-identifier fields, official unrestricted Army
+  merged file and technical documentation, public NARA collection context,
+  CIA and Library of Congress collection searches, and exact-name,
+  employment, occupation, obituary, newspaper, institutional, directory,
+  veteran, and archival query families were reviewed. Every row now has a
+  durable terminal outcome and a Box 80 archival next action.
+
+  Edward R. Brightwell is confirmed by an exact full-name and private-
+  identifier match in the official Army entry file. NARA's code documentation
+  places his civilian occupation in its historical ticket, station, and
+  express-agent transportation grouping. This is published only as medium-
+  confidence, strongly date-bounded occupation evidence. The converted Army
+  record's entry-date field is internally invalid, so the dataset does not
+  repair or publish an exact date, a named employer, or an Army-to-OSS
+  chronology by inference.
+
+  Wade J. Brightbill remains a probable identity link. A Wilkes institutional
+  publication documents a same-name World War II Navy radioman who spent part
+  of his service with the Sino-American Cooperative Organization. The index
+  supplies no rank or private identifier, and Wilkes does not mention the OSS
+  personnel file, so the profile presents the linkage as qualified context
+  only. Its postwar Wilkes employment, graduate study, later Naval Reserve
+  commission, and undated undergraduate education are not converted into
+  pre-OSS claims.
+
+  The index's `Remsen Brincherhoff` is linked only probably to Remsen
+  Brinckerhoff. A cemetery transcription records the distinctive corrected
+  name on a World War II captain's Office of Strategic Services marker, and
+  NARA separately lists a donated collection under that corrected name. The
+  printed private identifier has not been independently linked, so the source
+  spelling remains immutable and Brinckerhoff remains a qualified variant.
+  Postwar foreign-agent registration and family or engineering-firm results do
+  not become pre-OSS employment evidence.
+
+  George F. Brightman, Lieutenant Paul Brightman, Paul F. Brightman, Michael J.
+  Brignola, Solomon Brill, Walter E. Brill, and Leonard M. Brin remain
+  unresolved. The lieutenant is transparently classified as a commissioned
+  Army officer from the printed rank. A same-name Army row for Walter E. Brill
+  and later legal, census, obituary, and directory candidates for other names
+  lack the required private identifier, Box 80 link, or corroborating details
+  and remain rejected candidates rather than facts.
+
+  The strict bundle adds seven sources, one occupation affiliation, four
+  claims, ten claim-source links, ten person updates, and ten durable research
+  attempts. Coverage is now 2,584 researched people, 422 people with a verified
+  affiliation, 184 with a verified employer, and 2,534 individually assessed
+  for archival review, out of 23,940 active entities. The reviewed public
+  projection contains 1,056 affiliations, 2,079 claims, and 1,908 citation
+  records representing 1,369 unique documents.
+
 - Batch 278 covers the next ten contiguous Box 79 rows on PDF page 52, from
   Harold E. Briggs through Oliver J. Bright Jr. The rendered page, private-
   identifier fields, official unrestricted Army merged file and technical
@@ -4646,6 +4698,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-on
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-robert-brewster-through-thomas-bridges-pathways_batch-276_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-jeanne-bridgett-through-page-fifty-two-emily-briggs-pathways_batch-277_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-harold-briggs-through-oliver-bright-pathways_batch-278_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-wade-brightbill-through-remsen-brincherhoff-pathways_batch-279_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```

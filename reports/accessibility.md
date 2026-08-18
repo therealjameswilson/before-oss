@@ -15,6 +15,16 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 279 adds a focused direct-route regression for Wade J. Brightbill through
+Remsen Brincherhoff on PDF page 52. It verifies Wade Brightbill and Remsen
+Brincherhoff as qualified probable identities without inventing predecessor
+affiliations; publishes Edward R. Brightwell's exact-identifier Army-entry
+occupation without naming an employer; preserves the printed Brincherhoff
+spelling; and keeps Paul Brightman's printed Lieutenant classification distinct
+from identity resolution. The focused regression passed **3 / 3** across
+desktop, phone, and tablet. A fresh core-route axe matrix passed **27 / 27**,
+including the Sources table, with no serious or critical axe violation.
+
 Batch 278 adds a focused direct-route regression for Harold E. Briggs through
 Oliver J. Bright Jr. on PDF page 52. It verifies Harold Briggs's confirmed
 enlisted identity and qualified occupation without a fabricated employer,

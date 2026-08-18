@@ -22905,3 +22905,43 @@ test("Batch 278 publishes two occupation-only findings without inventing employe
   );
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 279 qualifies two identity candidates, publishes one coded occupation, and preserves unresolved Box 80 cases", async ({
+  page,
+}) => {
+  await page.goto("./people/e07e72e6-cf92-52b0-8e2d-9d7e0cc26811/");
+  await expect(page.getByRole("heading", { name: "Wade J Brightbill", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted naval personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/dcf17261-bec3-527c-88e6-dafd92eb1204/");
+  await expect(page.getByRole("heading", { name: "Edward R Brightwell", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Ticket, station, and express agent, transportation",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/6bb268e2-ff41-5f5e-acd1-c343343dd0e6/");
+  await expect(page.getByRole("heading", { name: "Remsen Brincherhoff", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Remsen Brinckerhoff", { exact: false }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/ea9e28ab-5043-5d41-846f-156ca579da6c/");
+  await expect(page.getByRole("heading", { name: "Paul Brightman", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
