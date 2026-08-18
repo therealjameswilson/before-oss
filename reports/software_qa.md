@@ -5,40 +5,40 @@ Run: 2026-08-18 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,379 pages**
-- Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **807 / 807 assertions passed**
+- Static production build: **24,380 pages**
+- Internal link check: **24,380 HTML files passed**
+- Complete browser and accessibility matrix: **810 / 810 assertions passed**
   across desktop, phone, and tablet. The first long-running pass completed
-  806 cases and encountered one phone browser-session timeout on the older
-  `/sources/` accessibility regression; it passed immediately in an isolated
-  single-worker retry. No serious or critical axe violation was found.
-- Focused Batch 255 browser and accessibility regression: **3 / 3 passed**
+  809 cases and encountered one tablet timeout on the older `/sources/`
+  accessibility regression; it passed in an isolated single-worker retry.
+  No serious or critical axe violation was found.
+- Focused Batch 256 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`93e3e5dc8184290ca23af762174732bd5fa414806d88bf41a709979413711daf`)
-- Latest deterministic build (Batch 255): **byte-for-byte identical** across
+  (`c7b8db7db2078e27adc48607c28a0783263b312d57d82993813da2bf784132df`)
+- Latest deterministic build (Batch 256): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,601,141 bytes**;
+  across **74,640,816 bytes**;
   manifest SHA-256
-  `4ff212d12a5c8840cb879cdf855f511dfe2259cfc8976335fd4ff71dbf89d567`
+  `a96148a93617a926e5bb83eeaca03b21a2a9d35b719eab5dcd316a4361487d78`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,449** production artifacts, including compressed mirrors;
-  **1,022** candidate substrings were reviewed.
+  matches** in **24,450** production artifacts, including compressed mirrors;
+  **1,020** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,796** public records representing **1,316** unique documents
-- Private citation records: **2,814**
-- Published, qualified, or conflict-visible affiliations: **1,003**
-- Published or conflict-visible claims: **1,946**
+- Reviewed public sources: **1,801** public records representing **1,321** unique documents
+- Private citation records: **2,821**
+- Published, qualified, or conflict-visible affiliations: **1,005**
+- Published or conflict-visible claims: **1,950**
 - Verified-affiliation metric: **414** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **182** people with confirmed/high published
@@ -169,6 +169,44 @@ Run: 2026-08-18 UTC
   post-merge Test and Pages workflows, all **65** live assets matched byte for
   byte across **74,576,238 bytes**, and the home page plus representative Batch
   254 routes returned HTTP 200
+- Batch 255 production verification: **passed**; release `8169f0f` passed the
+  post-merge Test and Pages workflows, all **65** live assets matched byte for
+  byte across **74,601,141 bytes**, and the home page plus all ten Batch 255
+  routes returned HTTP 200
+
+## Batch 256 local release check
+
+Batch 256 adds the ten visually checked Box 73 rows from Dean O. Bowman
+through John H. Boxer on PDF page 47. It publishes two visibly qualified
+probable identities. Richard M. Bownass is linked only to contemporary Tangier
+records; his legation assignment remains low-confidence and withheld because
+its OSS sequence is unknown. John H. Boxer's institutional history preserves
+Vienna student status separately from his best-supported last civilian work as
+a draftsman in an unnamed Texas architectural office. Eight profiles remain
+unresolved and route to Box 73 without promoting same-name military candidates.
+
+The strict bundle adds ten durable attempts, seven sources, two organizations,
+three affiliations, five claims, and ten claim-source links. Two repeat imports
+leave every evidence-table count unchanged. Research-attempt coverage is 2,355
+people and archival-review coverage is 2,304 people, while the conservative
+verified-affiliation and verified-employer numerators remain 414 and 182. The
+public projection contains 1,005 affiliations, 1,950 claims, and 1,801 citation
+records representing 1,321 unique documents.
+
+The 74-test Python suite, SQLite integrity and foreign-key checks,
+deterministic 200-profile audit, focused three-viewport regression, 24,380-page
+internal-link pass, 49,227-URL external inventory, zero-warning Astro
+diagnostics, zero-vulnerability dependency audit, and public-identifier audit
+all pass. The complete browser and axe matrix produced 809 passing cases and
+one tablet timeout on the older `/sources/` accessibility regression. That
+case passed in an isolated single-worker retry, producing **810 / 810** passing
+assertions overall with no serious or critical axe violation.
+
+All 65 manifest assets match across 74,640,816 bytes; the manifest SHA-256 is
+`a96148a93617a926e5bb83eeaca03b21a2a9d35b719eab5dcd316a4361487d78`.
+Two consecutive production builds are byte-for-byte identical under the
+sorted path-and-file-SHA-256 procedure and have the complete-site digest
+`c7b8db7db2078e27adc48607c28a0783263b312d57d82993813da2bf784132df`.
 
 ## Batch 255 local release check
 

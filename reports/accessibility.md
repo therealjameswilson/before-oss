@@ -4,14 +4,28 @@ Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS.** All **807 / 807** browser and accessibility assertions passed at
-desktop, phone, and tablet widths. The first long-running pass completed 806
-cases before one older phone `/sources/` accessibility session timed out; it
-passed immediately in an isolated single-worker retry. The accessibility routes
-reported no serious or critical axe violations.
+**PASS.** All **810 / 810** browser and accessibility assertions passed at
+desktop, phone, and tablet widths. The first long-running pass completed 809
+cases before one older tablet `/sources/` accessibility session timed out; it
+passed in an isolated single-worker retry. The accessibility routes reported
+no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 256 adds a focused direct-route regression for Dean O. Bowman through
+John H. Boxer on PDF page 47. It checks all ten indexed names, Box 73,
+public-safe identifier rendering, personnel classifications, terminal research
+states, confidence qualification, and employer-gap language. It verifies that
+Richard M. Bownass remains a probable identity whose Tangier assignment is
+withheld from public affiliation sections; that John H. Boxer's probable
+profile separates Vienna student status from qualified work at an unnamed
+Texas architectural office; and that the other eight profiles remain
+unresolved archival-review cases. The focused regression passed 3 / 3. The
+complete browser and axe run produced 809 passing cases and one tablet timeout
+on the older `/sources/` regression. That single case passed in an isolated
+retry, producing 810 / 810 passing assertions overall with no serious or
+critical axe violation.
 
 Batch 255 adds a focused direct-route regression for Robert H. Bowers through
 Conley E. Bowman on PDF page 47. It checks all ten indexed names, Boxes 72-73,
