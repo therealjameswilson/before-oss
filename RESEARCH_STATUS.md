@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,671 people with a non-planned attempt | 23,940 active person entities | 11.1571% |
+| Research-attempt coverage | 2,681 people with a non-planned attempt | 23,940 active person entities | 11.1988% |
 | Verified-affiliation coverage | 426 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7794% |
 | Verified-employer coverage | 185 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7728% |
-| Archival-review coverage | 2,621 people with an individual file-access/priority assessment | 23,940 active person entities | 10.9482% |
+| Archival-review coverage | 2,631 people with an individual file-access/priority assessment | 23,940 active person entities | 10.9891% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 219
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 442
+- Identity status `confirmed`: 444
 - Identity status `high_confidence`: 454
 - Identity status `probable`: 90
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 34
-- Identity status `unresolved`: 22,875
+- Identity status `unresolved`: 22,873
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,286
-- Enlisted Army personnel: 3,663
+- Unknown or indeterminate: 16,284
+- Enlisted Army personnel: 3,665
 - Commissioned Army officers: 2,093
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,207 yes; 5,305 no; 16,428 indeterminate.
+Commissioned classification: 2,207 yes; 5,307 no; 16,426 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,269
+- `not_started`: 21,259
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 63
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 375
-- `requires_archival_review`: 1,810
+- `occupation_only_found`: 377
+- `requires_archival_review`: 1,818
 - `completed`: 84
 - `conflicting_sources`: 35
 - `verified_employer_found`: 183
-- Claim confidence: 623 confirmed; 982 high; 489 medium; 36 low; 45
+- Claim confidence: 625 confirmed; 982 high; 491 medium; 36 low; 45
   conflicting
-- Durable evidence inventory: 2,996 source records representing 1,389 unique
-  documents; 450 organizations; 1,094 affiliations; 2,175 claims; and 4,887
+- Durable evidence inventory: 3,000 source records representing 1,389 unique
+  documents; 450 organizations; 1,096 affiliations; 2,179 claims; and 4,897
   claim-source links
-- Reviewed public projection: 439 organizations; 1,085 published, qualified,
-  or conflict-visible affiliations; 2,139 published, qualified, or
-  conflict-visible claims; and 1,959 public citation records
+- Reviewed public projection: 439 organizations; 1,087 published, qualified,
+  or conflict-visible affiliations; 2,143 published, qualified, or
+  conflict-visible claims; and 1,963 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,207 yes; 5,305 no; 16,428 indeterminate.
   2,453. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,090 across 1,057 people; 119 additional
+- Saved `source_reviewed` outcomes: 1,092 across 1,059 people; 119 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,872
+- Total recorded attempts/plans: 3,882
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 998; 972 have at least one public-visible
+- People with saved reviewed claims: 1,000; 974 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4636,14 +4636,29 @@ Commissioned classification: 2,207 yes; 5,305 no; 16,428 indeterminate.
   Francis H., Francis G., and Francis E. Brown remain unresolved archival-
   review cases. No authenticated Catalog request, credential, raw API response,
   full private identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 1,085 (published, qualified, or conflict-visible)
-- Database claims: 2,175; public-visible claims: 2,139 (623 confirmed, 982 high,
-  489 medium, 45 conflicting); 30 low-confidence claims are withheld and six
+- Batch 289 covers George C. Brown through Horace E. Brown, the next ten rows
+  on PDF page 55, all in Box 84. Exact private-identifier and name matches in
+  the official Army merged file confirm George C. Brown and Gilbert M. Brown
+  as enlisted Army personnel. Their dated entry records support qualified
+  salesperson and manufacturing-foreman occupation findings, respectively;
+  neither names an employer, store, factory, product, or worksite. A same-name
+  insurance executive and wartime lieutenant-colonel was rejected for George
+  because the official Army-entry birth-year and grade fields conflict. The
+  merged file supplied no exact Henry M. Brown row, but its known omissions and
+  officer exclusion mean that absence is not treated as disproof. Gordon E.,
+  Grace K., Gwyneth, H. B. Jr., Helen W., Henry M., Hester R., and Horace E.
+  Brown remain unresolved archival-review cases. The Gwyneth King Brown artist
+  namesake is not assigned because no reviewed source connects her to OSS or
+  Box 84. No authenticated Catalog request, credential, raw API response, full
+  private identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 1,087 (published, qualified, or conflict-visible)
+- Database claims: 2,179; public-visible claims: 2,143 (625 confirmed, 982 high,
+  491 medium, 45 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,887 total and 4,810 public-visible; private source
-  records: 2,996; public source export: 1,959; unique source documents: 1,389
+- Claim-source links: 4,897 total and 4,820 public-visible; private source
+  records: 3,000; public source export: 1,963; unique source documents: 1,389
 - Canonical organizations: 450 private and 439 public
-- Conflicting claims: 45 across 36 people
+- Conflicting claims: 45 across 37 people
 - NARA pull-list rows: 23,795
 
 Planned dry-run requests do not count as research-attempt coverage.
@@ -4682,6 +4697,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-five-george-brown-through-horace-brown-pathways_batch-289_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-five-earl-brown-through-frederic-brown-pathways_batch-288_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-fifty-four-fifty-five-charles-brown-through-dorothy-brown-pathways_batch-287_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-four-james-brousseau-through-charles-brown-pathways_batch-286_2026-08-18.json

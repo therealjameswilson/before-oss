@@ -23489,3 +23489,52 @@ test("Batch 288 publishes four identifier-backed occupations and withholds the F
   );
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 289 publishes two identifier-backed occupations and preserves eight unresolved Brown profiles", async ({
+  page,
+}) => {
+  await page.goto("./people/0c950d57-7587-5e07-bcbb-ffad9cc94d03/");
+  await expect(page.getByRole("heading", { name: "George C Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Salesperson",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/5844a4b8-3b4b-5920-a4e0-f9a5f71e1970/");
+  await expect(page.getByRole("heading", { name: "Gilbert M Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Manufacturing foreman",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["3a290422-33f9-544a-880d-3576ce9d96ab", "Gordon E Brown"],
+    ["640c014d-7c45-5381-81e8-d145a1cdf2c2", "Grace K Brown"],
+    ["54f0e9b6-39a5-560c-9f94-655e18ebdd74", "Gwyneth Brown"],
+    ["93b6e271-66e8-517c-b584-7ff61f1a3098", "H. B Brown Jr."],
+    ["c97f9712-f2e9-5043-9246-fa5d66a2b402", "Helen W Brown"],
+    ["2db5336a-a6f8-5983-baee-0459a56b7c4a", "Henry M Brown"],
+    ["8a4961f0-cf7b-5b54-97e0-9fd56440e981", "Hester R Brown"],
+    ["511488a7-1651-5135-b229-42c9125c4587", "Horace E Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/54f0e9b6-39a5-560c-9f94-655e18ebdd74/");
+  await expect(page.locator("main")).toContainText("Gwyneth King Brown");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+});
