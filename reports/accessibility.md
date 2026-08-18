@@ -4,12 +4,25 @@ Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **798 / 798**
+**PASS.** The complete browser and accessibility matrix passed **801 / 801**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 253 adds a focused direct-route regression for Michel Bouvier through
+Harold L. Bowen on PDF page 46. It checks all ten indexed names, Box 72,
+public-safe identifier rendering, personnel classifications, terminal
+research states, confidence qualification, and employer-gap language. It
+verifies Carl A. Bova's exact-identifier identity and qualified occupation
+without naming an employer; exposes Gordon L. Bovee's identifier/name conflict
+without publishing the unrelated subject; presents Robert G. Bowdler's
+item-level OSS correspondence evidence without inventing a predecessor; and
+withholds Harold L. Bowen's post-OSS Army-entry occupation. Six unsupported
+identities remain unresolved. The focused regression passed 3 / 3, and the
+complete matrix passed 801 / 801 locally in 30.9 minutes with no serious or
+critical axe violation.
 
 Batch 252 adds a focused direct-route regression for Paul J. Bourbonniere
 through John W. Boutwell Jr. on PDF page 46. It checks all ten indexed names,
@@ -19,8 +32,7 @@ language. It verifies three exact-identifier Army identities and their three
 date-bounded civilian occupation groups without presenting any as a named
 employer; exposes two identifier/name conflicts without publishing unrelated
 record subjects; keeps five unsupported identities unresolved; and confirms
-that Harold L. Bowen's post-OSS Army-entry record is not used as pre-OSS
-evidence. The focused regression passed 3 / 3, and the complete matrix passed
+their Box 72 archival-review routes. The focused regression passed 3 / 3, and the complete matrix passed
 798 / 798 locally in 21.9 minutes with no serious or critical axe violation.
 
 Batch 251 adds a focused direct-route regression for Edward F. Boughton
