@@ -4,16 +4,44 @@ Run: 2026-08-17 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,378 HTML files. Every relative
+**PASS.** The production build contains 24,379 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 430 organization profiles, and the
+The build includes 23,940 person profiles, 431 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,211 unique external URLs for separate live
+The checker inventoried 49,213 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 249 local release check
+
+The complete 24,379-page internal-link pass includes direct routes for Chester
+J. Botticelli through Andre J. Bouchardon on PDF page 45. The 70-test Python
+suite, deterministic 200-profile audit, focused 3-case regression, complete
+789-case desktop, phone, and tablet browser/axe matrix, and complete public-
+identifier audit passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes, SHA-256 hashes, and bytes in
+the public source and built trees. The manifest covers 74,254,685 bytes and has
+SHA-256
+`1977b2a8c872bfc5cd55fc3a99e9d8d908002adda9cb2029412ab6cad5dc2a71`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+121 formatted variants across 24,449 artifacts, rejected 1,020 harmless
+substring coincidences, and found zero aggregate, manifest-size, or unexpected
+boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`4da2fd5970b3727dafa9ef8e8c3c12a6b76245089e7f75aeb4a85cf64baaf88c`.
+
+The regression checks all ten indexed rows across Boxes 70-71, public-safe
+identifier handling, identity and research states, commissioned
+classification, confidence qualification, and employer-gap wording. It keeps
+Bottorff's two student affiliations out of employer counts, publishes
+Bouchardon's supported identity without inventing a predecessor, and routes
+eight unresolved people to archival review.
 
 ## Batch 248 local release check
 

@@ -5,37 +5,37 @@ Run: 2026-08-17 UTC
 - Python unit tests: **70 / 70 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,378 pages**
-- Internal link check: **24,378 HTML files passed**
-- Complete browser and accessibility matrix: **786 / 786 passed** locally
+- Static production build: **24,379 pages**
+- Internal link check: **24,379 HTML files passed**
+- Complete browser and accessibility matrix: **789 / 789 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
-- Focused Batch 248 browser and accessibility regression: **3 / 3 passed**
+- Focused Batch 249 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`0e8859062084b0fd7015907b8fb24fd9551d4617a0f319838e6d99df72ebe896`)
-- Latest deterministic build (Batch 248): **byte-for-byte identical** across
+  (`4da2fd5970b3727dafa9ef8e8c3c12a6b76245089e7f75aeb4a85cf64baaf88c`)
+- Latest deterministic build (Batch 249): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,208,906 bytes**;
+  across **74,254,685 bytes**;
   manifest SHA-256
-  `a27df5f4f61119470caf28949acdd497cfa63ab61debadf8cfa26d6c8330942a`
+  `1977b2a8c872bfc5cd55fc3a99e9d8d908002adda9cb2029412ab6cad5dc2a71`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **121** formatted raw variants: **0 unexpected full-number
-  matches** in **24,448** production artifacts, including compressed mirrors;
-  **1,018** candidate substrings were reviewed.
+  matches** in **24,449** production artifacts, including compressed mirrors;
+  **1,020** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,755** public records representing **1,294** unique documents
-- Private citation records: **2,771**
-- Published, qualified, or conflict-visible affiliations: **986**
-- Published or conflict-visible claims: **1,905**
+- Reviewed public sources: **1,761** public records representing **1,297** unique documents
+- Private citation records: **2,777**
+- Published, qualified, or conflict-visible affiliations: **988**
+- Published or conflict-visible claims: **1,909**
 - Verified-affiliation metric: **412** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **181** people with confirmed/high published
@@ -149,6 +149,37 @@ Run: 2026-08-17 UTC
 - Batch 248 local release checks: **passed**; after correcting punctuation in
   the new historical-employer assertion, the focused **3-case** regression and
   complete **786-case** browser and axe matrix passed locally
+
+## Batch 249 local release check
+
+Batch 249 adds the ten visually checked source rows from Chester J. Botticelli
+through Andre J. Bouchardon on PDF page 45. The reviewed bundle adds ten
+durable attempts, six sources, two organizations, two affiliations, four
+claims, and eight claim-source links. It confirms John A. Bottorff by exact
+private identifier and publishes Cornell University and the source's
+`Yenjing University` spelling only as qualified student affiliations. It also
+supports a high-confidence identity for Andre J. Bouchardon through an official
+Army Special Operations Command history, while withholding a different-
+identifier Army private and eight unsupported namesake pathways.
+
+The full Python suite passed 70 / 70. The static build completed 24,379 pages
+with zero Astro errors, warnings, or hints. The focused Batch 249 regression
+passed 3 / 3, and the complete browser, responsive, and accessibility matrix
+passed 789 / 789 in 25.1 minutes. The internal-link checker passed all 24,379
+HTML files and inventoried 49,213 unique external URLs. The deterministic
+200-profile audit, production dependency audit, SQLite integrity checks, and
+public-redaction checks also passed.
+
+Two consecutive static builds produced the identical
+`4da2fd5970b3727dafa9ef8e8c3c12a6b76245089e7f75aeb4a85cf64baaf88c`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and SHA-256 values in both the public source tree and built site across
+74,254,685 bytes; the manifest SHA-256 is
+`1977b2a8c872bfc5cd55fc3a99e9d8d908002adda9cb2029412ab6cad5dc2a71`.
+The field-aware boundary audit compared 12,926 normalized private identifiers
+and 121 formatted variants across 24,449 production artifacts, rejected 1,020
+harmless substring coincidences, and found zero leaks or false positives. No
+authenticated Catalog request or credential was used.
 
 ## Batch 248 local release check
 
