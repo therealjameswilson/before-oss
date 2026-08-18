@@ -15,6 +15,16 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 284 adds a focused direct-route regression for Richard C. Brooks through
+Kenneth L. Brosius on PDF page 54. It verifies three exact-identifier Army
+identities while keeping tool-sharpening, payroll/timekeeping, and student
+status separate from named employers; preserves Thor L. Brooks's commissioned
+classification without assigning the film-director namesake; and keeps Bernard
+M. Brophy's rejected identifier collision visible without merging him with a
+different person. The focused regression passed **3 / 3** across desktop,
+phone, and tablet. A fresh core-route axe matrix passed **27 / 27**, including
+the Sources table, with no serious or critical axe violation.
+
 Batch 283 adds a focused direct-route regression for Ida E. Brooks through Ray
 L. Brooks on PDF page 54. It verifies James D. Brooks's immediate Army pathway
 separately from his WPA Federal Art Project employer; keeps Melvin S. Brooks's

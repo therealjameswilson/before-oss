@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,623 people with a non-planned attempt | 23,940 active person entities | 10.9566% |
+| Research-attempt coverage | 2,633 people with a non-planned attempt | 23,940 active person entities | 10.9983% |
 | Verified-affiliation coverage | 424 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7711% |
 | Verified-employer coverage | 185 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7728% |
-| Archival-review coverage | 2,573 people with an individual file-access/priority assessment | 23,940 active person entities | 10.7477% |
+| Archival-review coverage | 2,583 people with an individual file-access/priority assessment | 23,940 active person entities | 10.7895% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 218
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 427
+- Identity status `confirmed`: 430
 - Identity status `high_confidence`: 453
 - Identity status `probable`: 89
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,893
+- Identity status `unresolved`: 22,890
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,302
-- Enlisted Army personnel: 3,648
+- Unknown or indeterminate: 16,299
+- Enlisted Army personnel: 3,651
 - Commissioned Army officers: 2,093
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,206 yes; 5,290 no; 16,444 indeterminate.
+Commissioned classification: 2,206 yes; 5,293 no; 16,441 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,317
+- `not_started`: 21,307
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 362
-- `requires_archival_review`: 1,779
+- `occupation_only_found`: 365
+- `requires_archival_review`: 1,786
 - `completed`: 82
 - `conflicting_sources`: 35
 - `verified_employer_found`: 183
-- Claim confidence: 608 confirmed; 977 high; 476 medium; 35 low; 45
+- Claim confidence: 611 confirmed; 977 high; 479 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,971 source records representing 1,382 unique
-  documents; 449 organizations; 1,078 affiliations; 2,141 claims; and 4,803
+- Durable evidence inventory: 2,975 source records representing 1,382 unique
+  documents; 449 organizations; 1,081 affiliations; 2,147 claims; and 4,818
   claim-source links
-- Reviewed public projection: 438 organizations; 1,069 published, qualified,
-  or conflict-visible affiliations; 2,106 published, qualified, or
-  conflict-visible claims; and 1,935 public citation records
+- Reviewed public projection: 438 organizations; 1,072 published, qualified,
+  or conflict-visible affiliations; 2,112 published, qualified, or
+  conflict-visible claims; and 1,939 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,206 yes; 5,290 no; 16,444 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,407. The detailed adapter breakdown remains reproducible in
+  2,417. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,071 across 1,040 people; 117 additional
+- Saved `source_reviewed` outcomes: 1,074 across 1,043 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,822
+- Total recorded attempts/plans: 3,832
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 981; 956 have at least one public-visible
+- People with saved reviewed claims: 984; 959 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4561,12 +4561,26 @@ Commissioned classification: 2,206 yes; 5,290 no; 16,444 indeterminate.
   explicit archival-review cases. No authenticated Catalog request,
   credential, raw API response, full private identifier, or unsupported
   employer claim was used or published.
-- Public-visible affiliations: 1,069 (published, qualified, or conflict-visible)
-- Database claims: 2,141; public-visible claims: 2,106 (608 confirmed, 977 high,
-  476 medium, 45 conflicting); 29 low-confidence claims are withheld and six
+- Batch 284 covers Richard C. Brooks through Kenneth L. Brosius, the next ten
+  rows on PDF page 54, all in Box 82. Exact private-identifier and name matches
+  in the official Army merged file confirm Richard C. Brooks, Robert H. Brooks,
+  and Kenneth L. Brosius as enlisted Army personnel. Their dated entry records
+  support qualified tool-sharpener-or-dresser, payroll-or-timekeeping, and
+  student-status findings respectively, but name no employer, workplace, or
+  school. The index alone documents Thor L. Brooks as a first lieutenant; a
+  film-director namesake was rejected because no source links that biography to
+  the indexed rank or Box 82. A leading-zero normalization for Bernard M.
+  Brophy collided with a different-name Army record, which was rejected rather
+  than merged. Robert S., Thor L., Wilfred E., William T., and William R.
+  Brooks, Helen V. Broome, and Bernard M. Brophy remain explicit archival-review
+  cases. No authenticated Catalog request, credential, raw API response, full
+  private identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 1,072 (published, qualified, or conflict-visible)
+- Database claims: 2,147; public-visible claims: 2,112 (611 confirmed, 977 high,
+  479 medium, 45 conflicting); 29 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,803 total and 4,728 public-visible; private source
-  records: 2,971; public source export: 1,935; unique source documents: 1,382
+- Claim-source links: 4,818 total and 4,743 public-visible; private source
+  records: 2,975; public source export: 1,939; unique source documents: 1,382
 - Canonical organizations: 449 private and 438 public
 - Conflicting claims: 45 across 36 people
 - NARA pull-list rows: 23,795
@@ -4607,6 +4621,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-four-richard-brooks-through-kenneth-brosius-pathways_batch-284_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-robert-boissiere-through-francis-bolger-pathways_batch-235_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-elizabeth-bohan-through-jan-boissenvain-pathways_batch-234_2026-08-09.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-two-wesley-bogdan-through-jules-boh-pathways_batch-233_2026-08-09.json
