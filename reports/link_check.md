@@ -4,16 +4,38 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,384 HTML files. Every relative
+**PASS.** The production build contains 24,385 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 436 organization profiles, and the
+The build includes 23,940 person profiles, 437 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,254 unique external URLs for separate live
+The checker inventoried 49,259 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 277 local release check
+
+The complete 24,385-page internal-link pass includes direct routes for Jeanne
+M. Bridgett through Emily W. Briggs across PDF pages 51-52. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport regression,
+27-case axe matrix, dependency audit, and complete public-identifier audit
+pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 75,600,849 bytes and has
+SHA-256 `cec263180c47340f6bb91afd4fce58fcdab3ac0b1eb2d94d201ca00a45050cdd`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,455 artifacts, rejected 1,023
+harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`9b8553b545df8c4909729904b1791842653d2899fab73d41dc2930820e04da05`.
+The regression keeps Brierly's Clark student status separate from employment,
+Brigante's Army office separate from a civilian employer, and Briefs's OSS
+translator identity separate from any unsupported predecessor claim.
 
 ## Batch 276 local release check
 
