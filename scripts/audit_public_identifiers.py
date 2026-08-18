@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sqlite3
 import subprocess
 import sys
@@ -20,6 +21,12 @@ from pathlib import Path
 ASCII_ALNUM = frozenset(
     b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 )
+SERIAL_FORMAT_RE = re.compile(r"[^A-Z0-9]")
+
+
+def _normalize_raw_identifier(value: str) -> str | None:
+    normalized = SERIAL_FORMAT_RE.sub("", value.upper())
+    return normalized or None
 
 
 def identifier_sets(database: Path) -> tuple[set[str], set[str]]:
@@ -41,16 +48,17 @@ def identifier_sets(database: Path) -> tuple[set[str], set[str]]:
                 )
             }
             formatted = {
-                row[0].strip()
-                for row in connection.execute(
+                raw_value.strip()
+                for raw_value, normalized_value in connection.execute(
                     """
-                    SELECT DISTINCT serial_number_raw
+                    SELECT DISTINCT serial_number_raw, serial_number_normalized
                     FROM source_records
                     WHERE serial_number_normalized IS NOT NULL
                       AND length(serial_number_normalized) >= 5
                       AND trim(serial_number_raw) <> serial_number_normalized
                     """
                 )
+                if _normalize_raw_identifier(raw_value) == normalized_value
             }
         except sqlite3.OperationalError as error:
             raise RuntimeError(

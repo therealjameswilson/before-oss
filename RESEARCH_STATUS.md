@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,295 people with a non-planned attempt | 23,940 active person entities | 9.5865% |
-| Verified-affiliation coverage | 412 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7210% |
-| Verified-employer coverage | 181 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7561% |
-| Archival-review coverage | 2,244 people with an individual file-access/priority assessment | 23,940 active person entities | 9.3734% |
+| Research-attempt coverage | 2,305 people with a non-planned attempt | 23,940 active person entities | 9.6282% |
+| Verified-affiliation coverage | 414 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7293% |
+| Verified-employer coverage | 182 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7602% |
+| Archival-review coverage | 2,254 people with an individual file-access/priority assessment | 23,940 active person entities | 9.4152% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 351
-- Identity status `high_confidence`: 434
+- Identity status `confirmed`: 352
+- Identity status `high_confidence`: 436
 - Identity status `probable`: 82
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,005
+- Identity status `unresolved`: 23,002
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,393
-- Enlisted Army personnel: 3,589
-- Commissioned Army officers: 2,078
+- Unknown or indeterminate: 16,390
+- Enlisted Army personnel: 3,591
+- Commissioned Army officers: 2,079
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
@@ -45,22 +45,22 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
+Commissioned classification: 2,190 yes; 5,216 no; 16,534 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,645
+- `not_started`: 21,635
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 57
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 306
-- `requires_archival_review`: 1,529
+- `occupation_only_found`: 307
+- `requires_archival_review`: 1,537
 - `completed`: 77
 - `conflicting_sources`: 27
-- `verified_employer_found`: 178
+- `verified_employer_found`: 179
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -68,15 +68,15 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,077. The detailed adapter breakdown remains reproducible in
+  adapters: 2,087. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 943 across 913 people; 115 additional
+- Saved `source_reviewed` outcomes: 946 across 916 people; 115 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,492
+- Total recorded attempts/plans: 3,502
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 871; 847 have at least one public-visible
+- People with saved reviewed claims: 874; 850 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,71 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 251 covers the next ten contiguous page-forty-six rows, Edward F.
+  Boughton through Charles Bourbonnais, across Boxes 71 and 72. Every row was
+  checked against the rendered source page at original resolution. That review
+  exposed a genuine three-column shift in Wilfred Boulay's row: `T/Sgt` is
+  printed under M I, a seven-digit identifier under rank, and `Jun-43` under
+  serial. Parser version `bbox-columns-v8` preserves the immutable raw cells
+  while normalizing the rank, private identifier, date annotation, display
+  name, and enlisted Army category separately. The new parser fixture and all
+  32 warning-row review decisions pass the complete ingest gate.
+
+  Exact private-identifier agreement confirms that the index's Arthur R.
+  Boulander is the official Army record's Arthur R. Boulanger. The Army row
+  dates entry to October 30, 1942 and records civilian-occupation code 248,
+  which NARA's official code list defines as ushers. The qualified occupation
+  is published without inventing a theater, venue, workplace, employer, or
+  Army-to-OSS sequence.
+
+  Distinctive-name evidence, Field Museum institutional history, Nancy J.
+  Jacobs's archival scholarship, and an official postwar CIA record support a
+  high-confidence identity for Wolfrid Rudyerd Boulton. Field Museum employed
+  him as Curator of Birds from 1931 to 1946; the scholarly chronology
+  explicitly says that he left active ornithology for OSS in 1942. Field
+  Museum is therefore published as both the immediate pre-OSS affiliation and
+  last civilian employer. The profile preserves the wartime leave overlap
+  rather than falsely ending the formal curatorship at OSS entry.
+
+  Two independent biographical accounts support a high-confidence match
+  between indexed Michel Bourbon and Michel de Bourbon-Parma. Their chronology
+  places William Casey's OSS recruitment immediately after Bourbon's Fort
+  Benning commission. The immediate predecessor is therefore published as a
+  United States Army military assignment, with Second Lieutenant as the role;
+  it is not counted as a civilian employer, and no last civilian employer is
+  inferred.
+
+  Edward F. Boughton, James P. Boughton, Willis E. Boughton, Wilfred Boulay,
+  James H. Boulger Jr., Rogers P. Bourbin, and Charles Bourbonnais remain
+  unresolved archival-review cases. Exact-name Army, architect, naval, burial,
+  obituary, narcotics, and genealogy leads lacked a matching private
+  identifier or direct OSS linkage, conflicted with the indexed row, or were
+  postwar only. They remain rejected leads rather than convenient identities.
+
+  The strict evidence bundle adds nine sources, three affiliations, seven
+  claims, nineteen claim-source links, ten person updates, and ten durable
+  research attempts while reusing two canonical organizations. A second import
+  leaves every evidence-table count unchanged. Coverage is now 2,305 researched
+  people, 414 people with a verified affiliation, 182 with a verified employer,
+  and 2,254 individually assessed for archival review, out of 23,940 active
+  entities. The public projection contains 996 affiliations, 1,927 claims, and
+  1,774 citation records representing 1,304 unique documents.
+
+  Local release QA passed 72 Python tests, SQLite integrity and foreign-key
+  checks, the deterministic 200-profile audit, zero-warning Astro diagnostics,
+  a 24,379-page build and internal-link pass, a corrected 3-case focused
+  regression, and the complete 795-case desktop, phone, tablet, and axe matrix
+  in 26.1 minutes.
+  Two consecutive builds produced the identical
+  `aa4f1f04f8592482283ad0c64321cc3d7cc111774fd1b8742f38834cb4242793`
+  content-tree digest. All 65 manifest assets match their recorded bytes and
+  hashes across 74,427,031 bytes; the manifest SHA-256 is
+  `2f23b1b00773cb198a909c3989eb0fc1074b5bfe1f69294fd3efa86e4028192b`.
+  The corrected field-aware privacy audit checked 12,926 normalized private
+  identifiers and 120 genuine formatted variants across 24,449 artifacts and
+  found zero unexpected matches. No authenticated Catalog request, credential,
+  raw API response, unsupported employer, or full private identifier was used
+  or published.
 - Batch 250 crosses the page boundary from Ernest J. Bouchea on PDF page
   forty-five to Paul E. Boudreau on page forty-six. All ten Box 71 rows were
   checked visually at original resolution. The official unrestricted Army
@@ -2633,16 +2698,10 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
   request, credential, unsupported employer, or convenient namesake match was
   used or published.
 
-  Release QA passed SQLite integrity and foreign-key checks, all 70 Python
-  tests, the deterministic 200-profile audit, a clean 24,379-page Astro build,
-  the 24,379-page internal-link check, the 65-asset manifest audit, the full
-  public-identifier audit, the focused 3-case browser regression, and the
-  production dependency audit. The complete 792-case desktop, phone, and
-  tablet browser/axe matrix passed in 24.6 minutes with no serious or critical
-  accessibility violation. Two consecutive builds produced the identical site
-  digest
-  `5d68757bb486db28255693ec80e0b8b433b6624bb9e427aed4ce31caeb10b442`;
-  the 74,337,811-byte manifest has SHA-256
+  Release `39a51a7` deployed through the successful Pages workflow
+  32089499870 and passed post-merge Test workflow 32089499879. Cache-busted production checks matched the Batch 250 coverage
+  totals, all ten new direct profile routes, and all 65 manifest assets byte for
+  byte across 74,337,811 bytes; the live manifest SHA-256 is
   `6a452d5813f265b1fa3f5f9e8430c412a057177d260f9b7ddd35071b9254a580`.
 - Batch 249 covers the next ten contiguous rows, Chester J. Botticelli through
   Andre J. Bouchardon, on PDF page forty-five across Boxes 70 and 71. The source

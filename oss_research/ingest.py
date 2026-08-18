@@ -35,6 +35,10 @@ from .normalize import (
 
 LOCATION_RE = re.compile(r"^230/\d{2,3}/\d{2}/\d{2}$")
 LOCATION_ANY_RE = re.compile(r"230/\d{2,3}/\d{2}/\d{2}")
+MONTH_YEAR_RE = re.compile(
+    r"^(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)-\d{2,4}$",
+    re.IGNORECASE,
+)
 XHTML_NS = {"x": "http://www.w3.org/1999/xhtml"}
 SOURCE_NAMESPACE = uuid.UUID(NAMESPACE_SOURCE_RECORD)
 
@@ -165,10 +169,27 @@ def _parse_bbox_row(words: list[Word]) -> tuple[dict[str, str | None], list[str]
     if len(buckets["archive_location_raw"]) != 1:
         warnings.append("location_token_count")
     middle_value = fields["middle_initial_raw"]
+    normalized_middle_rank = normalize_rank(middle_value)
+    combined_rank_identifier_shift = bool(
+        middle_value
+        and normalized_middle_rank
+        in (
+            ARMY_OFFICER_RANKS
+            | NAVAL_OFFICER_RANKS
+            | WARRANT_RANKS
+            | ARMY_ENLISTED_RANKS
+        )
+        and fields["rank_raw"]
+        and fields["rank_raw"].isdigit()
+        and fields["serial_number_raw"]
+        and MONTH_YEAR_RE.fullmatch(fields["serial_number_raw"])
+    )
+    if combined_rank_identifier_shift:
+        warnings.append("rank_identifier_date_column_shift")
     if not fields["rank_raw"] and middle_value:
         if CIVILIAN_GRADE_RE.fullmatch(middle_value):
             warnings.append("civilian_grade_printed_in_middle_column")
-        elif normalize_rank(middle_value) in (
+        elif normalized_middle_rank in (
             ARMY_OFFICER_RANKS
             | NAVAL_OFFICER_RANKS
             | WARRANT_RANKS
@@ -207,8 +228,14 @@ def _normalization_name_middle_and_rank(
             "fields treat the value as a grade rather than part of the name.",
         )
     normalized_middle_rank = normalize_rank(middle_raw)
+    combined_rank_identifier_shift = bool(
+        rank_raw
+        and rank_raw.isdigit()
+        and fields["serial_number_raw"]
+        and MONTH_YEAR_RE.fullmatch(fields["serial_number_raw"])
+    )
     if (
-        not rank_raw
+        (not rank_raw or combined_rank_identifier_shift)
         and middle_raw
         and normalized_middle_rank
         in (
@@ -221,10 +248,18 @@ def _normalization_name_middle_and_rank(
         return (
             None,
             middle_raw,
-            "The source table prints a recognized military rank in the M I "
-            "column and leaves rank blank; raw cells are preserved, while "
-            "normalized fields treat the value as a rank rather than part of "
-            "the name.",
+            (
+                "The source table prints a recognized military rank in the M I "
+                "column, an all-numeric identifier in the rank column, and a "
+                "month-year annotation in the serial column; raw cells are "
+                "preserved, while normalized fields treat the M I value as a "
+                "rank rather than part of the name."
+                if combined_rank_identifier_shift
+                else "The source table prints a recognized military rank in the M I "
+                "column and leaves rank blank; raw cells are preserved, while "
+                "normalized fields treat the value as a rank rather than part of "
+                "the name."
+            ),
         )
     return middle_raw, rank_raw, None
 
@@ -248,6 +283,29 @@ def _normalization_rank_and_serial(
             "column and leaves serial blank; raw cells are preserved, while "
             "normalized fields treat the value as an identifier and leave "
             "rank unknown.",
+        )
+    if (
+        classification_rank
+        and normalize_rank(classification_rank)
+        in (
+            ARMY_OFFICER_RANKS
+            | NAVAL_OFFICER_RANKS
+            | WARRANT_RANKS
+            | ARMY_ENLISTED_RANKS
+        )
+        and fields["rank_raw"]
+        and fields["rank_raw"].isdigit()
+        and serial_raw
+        and MONTH_YEAR_RE.fullmatch(serial_raw)
+    ):
+        return (
+            classification_rank,
+            fields["rank_raw"],
+            "The source table shifts a recognized military rank and an "
+            "all-numeric identifier one column left while printing a month-year "
+            "annotation in the serial column; raw cells are preserved, while "
+            "normalized fields use the numeric rank-cell value as the identifier "
+            "and do not treat the date annotation as a serial number.",
         )
     return classification_rank, serial_raw, None
 
@@ -444,6 +502,60 @@ def ingest_pdf(
                 """,
                 (pdf_hash, page_number, count, warning_count, json.dumps(flags)),
             )
+        # Re-ingestion can improve normalization after a visually reviewed
+        # parser correction. Keep only untouched, one-row entities synchronized
+        # with their source-derived name and personnel classification; researched
+        # or manually resolved entities remain authoritative and are never reset.
+        connection.execute(
+            """
+            UPDATE person_entities
+            SET display_name = (
+                    SELECT sr.display_name
+                    FROM person_source_links psl
+                    JOIN source_records sr USING(source_record_id)
+                    WHERE psl.person_id = person_entities.person_id
+                ),
+                normalized_name = (
+                    SELECT sr.normalized_name
+                    FROM person_source_links psl
+                    JOIN source_records sr USING(source_record_id)
+                    WHERE psl.person_id = person_entities.person_id
+                ),
+                name_variants_json = (
+                    SELECT sr.name_variants_json
+                    FROM person_source_links psl
+                    JOIN source_records sr USING(source_record_id)
+                    WHERE psl.person_id = person_entities.person_id
+                ),
+                personnel_category = (
+                    SELECT sr.personnel_category
+                    FROM person_source_links psl
+                    JOIN source_records sr USING(source_record_id)
+                    WHERE psl.person_id = person_entities.person_id
+                ),
+                commissioned_officer = (
+                    SELECT sr.commissioned_officer
+                    FROM person_source_links psl
+                    JOIN source_records sr USING(source_record_id)
+                    WHERE psl.person_id = person_entities.person_id
+                ),
+                allied_or_foreign_personnel = (
+                    SELECT sr.allied_or_foreign_personnel
+                    FROM person_source_links psl
+                    JOIN source_records sr USING(source_record_id)
+                    WHERE psl.person_id = person_entities.person_id
+                ),
+                updated_at = ?
+            WHERE identity_status = 'unresolved'
+              AND research_status = 'not_started'
+              AND 1 = (
+                    SELECT COUNT(*)
+                    FROM person_source_links psl
+                    WHERE psl.person_id = person_entities.person_id
+                )
+            """,
+            (ingested_at,),
+        )
     audit["source_pdf_sha256"] = pdf_hash
     audit["inserted_or_updated"] = len(models)
     return audit

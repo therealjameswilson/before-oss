@@ -60,11 +60,15 @@ and then replays later evidence bundles in numeric order.
 | `entity_resolution_status` | Link/review state independent of the person entity |
 
 When an all-numeric value is visibly printed in `rank_raw`, parser version
-`bbox-columns-v7` preserves that private raw value, leaves `rank_normalized`
+`bbox-columns-v8` preserves that private raw value, leaves `rank_normalized`
 unknown, and copies the value to `serial_number_normalized` for cautious
 identity resolution. Public profiles replace the raw rank-cell value with
 `Numeric identifier printed in rank column (masked)` and expose only the usual
-four-character masked suffix.
+four-character masked suffix. When the same row also carries a military rank
+in the middle-initial cell and a month-year annotation in the serial cell,
+version `bbox-columns-v8` normalizes the displaced rank and numeric identifier
+separately, retains the month-year text only as an immutable raw annotation,
+and emits `rank_identifier_date_column_shift` for visual review.
 
 Personnel categories distinguish Army, Navy, Coast Guard, and Marine Corps
 commissioned and enlisted service where the branch is documented. Raw rank

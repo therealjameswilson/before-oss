@@ -1,44 +1,44 @@
 # Software QA
 
-Run: 2026-08-18 UTC
+Run: 2026-08-17 UTC
 
-- Python unit tests: **70 / 70 passed**
+- Python unit tests: **72 / 72 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,379 pages**
 - Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **792 / 792 passed** locally
+- Complete browser and accessibility matrix: **795 / 795 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
-- Focused Batch 250 browser and accessibility regression: **3 / 3 passed**
+- Focused Batch 251 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`4da2fd5970b3727dafa9ef8e8c3c12a6b76245089e7f75aeb4a85cf64baaf88c`)
-- Latest deterministic build (Batch 250): **byte-for-byte identical** across
+  (`aa4f1f04f8592482283ad0c64321cc3d7cc111774fd1b8742f38834cb4242793`)
+- Latest deterministic build (Batch 251): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,337,811 bytes**;
+  across **74,427,031 bytes**;
   manifest SHA-256
-  `6a452d5813f265b1fa3f5f9e8430c412a057177d260f9b7ddd35071b9254a580`
+  `2f23b1b00773cb198a909c3989eb0fc1074b5bfe1f69294fd3efa86e4028192b`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
-  identifiers plus **121** formatted raw variants: **0 unexpected full-number
+  identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,449** production artifacts, including compressed mirrors;
-  **1,020** candidate substrings were reviewed.
+  **1,019** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,765** public records representing **1,298** unique documents
-- Private citation records: **2,781**
-- Published, qualified, or conflict-visible affiliations: **993**
-- Published or conflict-visible claims: **1,920**
-- Verified-affiliation metric: **412** people with confirmed/high published
+- Reviewed public sources: **1,774** public records representing **1,304** unique documents
+- Private citation records: **2,790**
+- Published, qualified, or conflict-visible affiliations: **996**
+- Published or conflict-visible claims: **1,927**
+- Verified-affiliation metric: **414** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **181** people with confirmed/high published
+- Verified-employer metric: **182** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -149,6 +149,55 @@ Run: 2026-08-18 UTC
 - Batch 248 local release checks: **passed**; after correcting punctuation in
   the new historical-employer assertion, the focused **3-case** regression and
   complete **786-case** browser and axe matrix passed locally
+- Batch 250 production verification: **passed**; release `39a51a7` passed the
+  post-merge Test and Pages workflows, and all **65** live assets plus all ten
+  new profile routes matched the audited release
+
+## Batch 251 local release check
+
+Batch 251 adds the ten visually checked page 46 rows from Edward F. Boughton
+through Charles Bourbonnais. It also corrects Wilfred Boulay's rare combined
+column displacement without changing the immutable printed row: `T/Sgt` is
+now recognized as the rank, the numeric rank-column value remains a private
+identifier, and `Jun-43` remains a date annotation rather than a service
+number. Re-ingest updates only untouched one-row unresolved entities, so this
+parser repair cannot overwrite reviewed identity work.
+
+The reviewed evidence bundle adds ten durable attempts, nine sources, three
+affiliations, seven claims, and nineteen claim-source links. It publishes
+Arthur R. Boulander's exact-identifier Army-entry occupation without inventing
+an employer; documents Rudyerd Boulton's Field Museum employment with the
+wartime leave overlap made explicit; and presents Michel de Bourbon-Parma's
+U.S. Army assignment as a military predecessor rather than a civilian
+employer. Seven unsupported or mismatched namesakes remain unresolved and
+retain archival-review guidance.
+
+SQLite integrity and foreign-key checks passed, as did all 72 Python tests and
+the deterministic 200-profile audit. Astro reported zero errors, warnings, or
+hints and built 24,379 pages. The focused Batch 251 regression passed 3 / 3,
+and the complete desktop, phone, and tablet browser/axe matrix passed 795 / 795
+in 26.1 minutes with no serious or critical accessibility violation. The internal-link checker
+passed all 24,379 HTML files and inventoried 49,218 unique external URLs. The
+production dependency audit found zero vulnerabilities.
+
+The first focused assertion was corrected because a source date annotation is
+properly preserved in the raw index evidence even though it is excluded from
+the normalized service-number field. The first privacy scan likewise exposed
+that old audit logic treated that annotation as a formatted identifier
+variant; the audit now includes formatted raw variants only when they normalize
+to the stored private identifier. Its regression test and complete rescan pass.
+
+Two consecutive builds produced the identical
+`aa4f1f04f8592482283ad0c64321cc3d7cc111774fd1b8742f38834cb4242793`
+content-tree hash. All 65 public manifest assets matched their recorded sizes
+and hashes in both source and built trees across 74,427,031 bytes; the manifest
+SHA-256 is
+`2f23b1b00773cb198a909c3989eb0fc1074b5bfe1f69294fd3efa86e4028192b`.
+The field-aware audit compared 12,926 normalized private identifiers and 120
+genuine formatted variants across 24,449 production artifacts, rejected 1,019
+harmless candidate substrings, and found zero unexpected boundary, aggregate,
+or manifest-size matches. No authenticated Catalog request or credential was
+used.
 
 ## Batch 250 local release check
 

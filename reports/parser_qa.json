@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T23:51:51+00:00",
+  "generated_at": "2026-08-18T01:11:50+00:00",
   "expected_source_rows": 23978,
   "actual_source_rows": 23978,
   "expected_pages": 522,
@@ -561,13 +561,13 @@
     "commissioned_army_officer": 2057,
     "commissioned_coast_guard_officer": 1,
     "commissioned_naval_officer": 75,
-    "enlisted_army_personnel": 3511,
+    "enlisted_army_personnel": 3512,
     "enlisted_naval_personnel": 49,
     "foreign_or_allied_military_personnel": 242,
-    "unknown_or_indeterminate": 16612,
+    "unknown_or_indeterminate": 16611,
     "warrant_officer": 4
   },
-  "warning_row_count": 31,
+  "warning_row_count": 32,
   "warning_rows": [
     {
       "source_page": 3,
@@ -603,6 +603,12 @@
       "source_page": 33,
       "source_row_number": 10,
       "source_record_id": "7a8cc616-e3f9-5c7e-aa8d-3ffff49c6792",
+      "parser_confidence": 0.88
+    },
+    {
+      "source_page": 46,
+      "source_row_number": 14,
+      "source_record_id": "42eb0249-8685-58f3-8509-b2f81cb2d4ab",
       "parser_confidence": 0.88
     },
     {
@@ -756,7 +762,7 @@
       "parser_confidence": 0.88
     }
   ],
-  "selected_visual_qa_page_count": 91,
+  "selected_visual_qa_page_count": 92,
   "selected_visual_qa_pages": {
     "1": [
       "first_five"
@@ -787,6 +793,9 @@
       "parser_warning"
     ],
     "33": [
+      "parser_warning"
+    ],
+    "46": [
       "parser_warning"
     ],
     "50": [
@@ -1037,14 +1046,14 @@
   },
   "rendered_page_count": 0,
   "visual_review_status_counts": {
-    "not_selected": 427,
-    "reviewed_after_correction": 28,
+    "not_selected": 426,
+    "reviewed_after_correction": 29,
     "reviewed_matches": 67
   },
   "source_record_visual_review_status_counts": {
-    "not_reviewed": 19642,
-    "reviewed_corrected": 31,
-    "reviewed_matches": 4305
+    "not_reviewed": 19596,
+    "reviewed_corrected": 32,
+    "reviewed_matches": 4350
   },
   "checks": {
     "exact_source_row_count": true,
