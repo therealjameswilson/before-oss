@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-17 UTC
+Run: 2026-08-18 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,34 @@ The build includes 23,940 person profiles, 431 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,218 unique external URLs for separate live
+The checker inventoried 49,219 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 252 local release check
+
+The complete 24,379-page internal-link pass includes direct routes for Paul J.
+Bourbonniere through John W. Boutwell Jr. on PDF page 46. The 72-test Python
+suite, deterministic 200-profile audit, focused 3-case regression, complete
+798-case desktop, phone, and tablet browser/axe matrix, and complete public-
+identifier audit passed; Astro reported zero errors, warnings, or hints, and
+the production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 74,490,748 bytes and has
+SHA-256
+`49e3e9b774b77d2cfcdd1a5b7c22d2a9d1ce6746a24ff2f7f6468b80ad6810a9`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,449 artifacts, rejected 1,019
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`ff553ffd23d351b9d732b65d566c409deb59499f3f74af87a5e2cd14a9143a5d`.
+
+The regression publishes three qualified occupation-only findings, preserves
+two identifier conflicts without leaking unrelated names, rejects Harold L.
+Bowen's post-OSS Army entry as predecessor evidence, and routes five unresolved
+identities to archival review.
 
 ## Batch 251 local release check
 

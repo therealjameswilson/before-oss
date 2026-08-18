@@ -1,15 +1,27 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-17 UTC
+Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS.** The complete browser and accessibility matrix passed **795 / 795**
+**PASS.** The complete browser and accessibility matrix passed **798 / 798**
 locally at desktop, phone, and tablet widths. The
 accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 252 adds a focused direct-route regression for Paul J. Bourbonniere
+through John W. Boutwell Jr. on PDF page 46. It checks all ten indexed names,
+Boxes 71-72, public-safe identifier rendering, personnel classifications,
+terminal research states, confidence qualification, and employer-gap
+language. It verifies three exact-identifier Army identities and their three
+date-bounded civilian occupation groups without presenting any as a named
+employer; exposes two identifier/name conflicts without publishing unrelated
+record subjects; keeps five unsupported identities unresolved; and confirms
+that Harold L. Bowen's post-OSS Army-entry record is not used as pre-OSS
+evidence. The focused regression passed 3 / 3, and the complete matrix passed
+798 / 798 locally in 21.9 minutes with no serious or critical axe violation.
 
 Batch 251 adds a focused direct-route regression for Edward F. Boughton
 through Charles Bourbonnais on PDF page 46. It checks all ten indexed names,

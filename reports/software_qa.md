@@ -1,26 +1,26 @@
 # Software QA
 
-Run: 2026-08-17 UTC
+Run: 2026-08-18 UTC
 
 - Python unit tests: **72 / 72 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,379 pages**
 - Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **795 / 795 passed** locally
+- Complete browser and accessibility matrix: **798 / 798 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
-- Focused Batch 251 browser and accessibility regression: **3 / 3 passed**
+- Focused Batch 252 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`aa4f1f04f8592482283ad0c64321cc3d7cc111774fd1b8742f38834cb4242793`)
-- Latest deterministic build (Batch 251): **byte-for-byte identical** across
+  (`ff553ffd23d351b9d732b65d566c409deb59499f3f74af87a5e2cd14a9143a5d`)
+- Latest deterministic build (Batch 252): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,427,031 bytes**;
+  across **74,490,748 bytes**;
   manifest SHA-256
-  `2f23b1b00773cb198a909c3989eb0fc1074b5bfe1f69294fd3efa86e4028192b`
+  `49e3e9b774b77d2cfcdd1a5b7c22d2a9d1ce6746a24ff2f7f6468b80ad6810a9`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -32,10 +32,10 @@ Run: 2026-08-17 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,774** public records representing **1,304** unique documents
-- Private citation records: **2,790**
-- Published, qualified, or conflict-visible affiliations: **996**
-- Published or conflict-visible claims: **1,927**
+- Reviewed public sources: **1,780** public records representing **1,308** unique documents
+- Private citation records: **2,796**
+- Published, qualified, or conflict-visible affiliations: **999**
+- Published or conflict-visible claims: **1,935**
 - Verified-affiliation metric: **414** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **182** people with confirmed/high published
@@ -152,6 +152,40 @@ Run: 2026-08-17 UTC
 - Batch 250 production verification: **passed**; release `39a51a7` passed the
   post-merge Test and Pages workflows, and all **65** live assets plus all ten
   new profile routes matched the audited release
+- Batch 251 production verification: **passed**; release `14479b0` passed the
+  Pages workflow, and all **65** live assets plus all ten new profile routes
+  matched the audited release; the post-merge Test workflow remains recorded
+  separately while it completes
+
+## Batch 252 local release check
+
+Batch 252 adds the ten visually checked page 46 rows from Paul J.
+Bourbonniere through John W. Boutwell Jr. Five printed private identifiers
+were compared against NARA's official unrestricted Army merged file without
+retaining any raw Army row or full identifier. The review confirms three
+identities and three date-bounded civilian occupation groups, preserves two
+identifier/name conflicts without publishing the unrelated Army names, and
+routes five unsupported identities to Box 72 archival review. No broad
+occupation is presented as a named employer.
+
+The reviewed evidence bundle adds ten durable attempts, six sources, three
+affiliations, eight claims, and twenty-four claim-source links. It raises
+research-attempt coverage to 2,315 people and archival-review coverage to
+2,264 people while leaving the confidence-aware verified-affiliation and
+verified-employer numerators at 414 and 182. The public projection contains
+999 affiliations, 1,935 claims, and 1,780 citation records representing 1,308
+unique documents.
+
+The 72-test Python suite, SQLite integrity and foreign-key checks,
+deterministic 200-profile audit, focused three-viewport regression, complete
+798-case browser/axe matrix, 24,379-page internal-link pass, 49,219-URL
+external inventory, zero-warning Astro diagnostics, zero-vulnerability
+dependency audit, and public-identifier redaction audit all pass. The complete
+matrix finished in 21.9 minutes with no serious or critical axe violation.
+All 65 manifest assets match across 74,490,748 bytes; the manifest SHA-256 is
+`49e3e9b774b77d2cfcdd1a5b7c22d2a9d1ce6746a24ff2f7f6468b80ad6810a9`,
+and consecutive production builds have the identical complete-site digest
+`ff553ffd23d351b9d732b65d566c409deb59499f3f74af87a5e2cd14a9143a5d`.
 
 ## Batch 251 local release check
 
