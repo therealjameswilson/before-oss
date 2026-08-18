@@ -15,6 +15,32 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,222 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 254 local release check
+
+The complete 24,379-page internal-link pass includes direct routes for Vernon
+G. Bowen through Paul F. Bowers across PDF pages 46-47. The 72-test Python
+suite, deterministic 200-profile audit, focused 3-case regression, complete
+804-assertion desktop, phone, and tablet browser/axe matrix after six isolated
+timeout retries, and complete public-identifier audit passed; Astro reported
+zero errors, warnings, or hints, and the production dependency audit found zero
+vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 74,576,238 bytes and has
+SHA-256
+`e3a23f11f315d1b16b53b9ad6b9bf9f79d780290b1393f71506033cfbf43214d`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,449 artifacts, rejected 1,022
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`7f6cf08c7537ee0034fd62a577d480d93ff6d2d6cdade44ac4b005dbfc43d198`.
+
+The regression publishes two qualified occupation-only findings, recognizes
+one enlisted naval grade without resolving the person, and routes eight
+unsupported identities to archival review without promoting namesakes.
+
 ## Batch 253 local release check
 
 The complete 24,379-page internal-link pass includes direct routes for Michel
