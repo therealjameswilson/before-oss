@@ -15,6 +15,18 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 288 adds a focused direct-route regression for Earl F. Brown through
+Frederic Brown on PDF page 55. It verifies four exact-identifier Army
+identities and qualified pre-entry occupations without converting those
+occupations into named employers; preserves five common-name cases as
+unresolved archival-review profiles; and keeps Frederic Brown's independently
+documented OSS Algiers lead in identity review because the public evidence does
+not yet connect that subject to the indexed private identifier and Box 84.
+The focused regression passed **3 / 3** across desktop, phone, and tablet. A
+fresh core-route axe matrix passed **27 / 27**, including the Sources table,
+with no serious or critical axe violation. The complete **861-case** browser
+matrix runs in release CI.
+
 Batch 287 adds a focused direct-route regression for the second Charles J.
 Brown row through Dorothy E. Brown across PDF pages 54-55. It verifies the
 exact-identifier Army identities and qualified occupations for Clarence R.

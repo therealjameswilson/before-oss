@@ -15,6 +15,29 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,279 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 288 local release check
+
+The complete 24,387-page internal-link pass includes direct routes for Earl F.
+Brown through Frederic Brown on PDF page 55. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport regression, 27-case axe
+matrix, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,229,121 bytes and has
+SHA-256 `a2709f04f0d71032264cf144da9285cc861d970aca3db4fe3bcb5330ff9857b2`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,457 production artifacts, rejected
+1,026 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive public-data builds produced the identical generated-asset
+digest `0f090f7d548cfc87e94f6b53f4b5ab591ccce1c53184d02c57cd59d7279c3fb6`.
+The regression publishes four qualified occupations without naming employers,
+keeps five unsupported names on the archival-review path, and withholds the
+Frederic Brown affiliation lead pending a defensible index-to-subject identity
+link.
+
 ## Batch 287 local release check
 
 The complete 24,387-page internal-link pass includes direct routes for the

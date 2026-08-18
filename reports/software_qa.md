@@ -54,41 +54,58 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 286: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **855-case** matrix runs in release CI
+- Focused Batch 287 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 287: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **858-case** matrix runs in release CI
+- Focused Batch 288 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 288: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **861-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batch 286): **byte-for-byte identical**
-  across consecutive static builds using the sorted path-and-file-SHA-256 tree
-  digest
-  (`69d3bf1933bf77f1ceadd964984a27212fd0fa1fb5f71f33083d8bf43f2d4b8c`).
-- Previous deterministic build (Batch 285): **byte-for-byte identical** across
-  consecutive static builds.
+- Latest deterministic public-data build (Batch 288): **byte-for-byte
+  identical** across consecutive builds using the sorted
+  path-and-file-SHA-256 tree digest
+  (`0f090f7d548cfc87e94f6b53f4b5ab591ccce1c53184d02c57cd59d7279c3fb6`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,124,573 bytes** in both the source and built public trees;
+  across **76,229,121 bytes** in both the source and built public trees;
   manifest SHA-256
-  `5f117aa7fbf46ea03b62b116ab06e9743c403d9fd209264ae8948c08d3fee649`
+  `a2709f04f0d71032264cf144da9285cc861d970aca3db4fe3bcb5330ff9857b2`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,457** production artifacts, including compressed mirrors;
-  **1,030** candidate substrings were reviewed.
+  **1,026** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,951** public records representing **1,387** unique documents
-- Private citation records: **2,987**
-- Published, qualified, or conflict-visible affiliations: **1,078**
-- Published or conflict-visible claims: **2,125**
+- Reviewed public sources: **1,959** public records representing **1,389** unique documents
+- Private citation records: **2,996**
+- Published, qualified, or conflict-visible affiliations: **1,085**
+- Published or conflict-visible claims: **2,139**
 - Verified-affiliation metric: **426** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **185** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 288 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,387-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. Edward O. Brown, Eric Brown, Ernest J. Brown, and Francis K.
+  Brown have exact-identifier Army identities and qualified pre-entry
+  occupations without invented employers. Five common-name profiles remain
+  archival-review cases. Frederic Brown's documented OSS Algiers lead remains
+  unpublished as an affiliation because the evidence does not yet link that
+  subject to the indexed private identifier and Box 84. The complete 861-case
+  browser matrix runs in release CI.
 - Batch 286 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,387-route link check, deterministic rebuild, manifest audit, dependency
