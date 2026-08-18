@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-17 UTC.
+Generated from the current local SQLite database on 2026-08-18 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,285 people with a non-planned attempt | 23,940 active person entities | 9.5447% |
+| Research-attempt coverage | 2,295 people with a non-planned attempt | 23,940 active person entities | 9.5865% |
 | Verified-affiliation coverage | 412 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7210% |
 | Verified-employer coverage | 181 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7561% |
-| Archival-review coverage | 2,234 people with an individual file-access/priority assessment | 23,940 active person entities | 9.3317% |
+| Archival-review coverage | 2,244 people with an individual file-access/priority assessment | 23,940 active person entities | 9.3734% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-17 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 346
+- Identity status `confirmed`: 351
 - Identity status `high_confidence`: 434
-- Identity status `probable`: 81
+- Identity status `probable`: 82
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,011
+- Identity status `unresolved`: 23,005
 
 ## Personnel categories
 
@@ -49,15 +49,15 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,655
+- `not_started`: 21,645
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 57
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 301
-- `requires_archival_review`: 1,524
+- `occupation_only_found`: 306
+- `requires_archival_review`: 1,529
 - `completed`: 77
 - `conflicting_sources`: 27
 - `verified_employer_found`: 178
@@ -68,15 +68,15 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,067. The detailed adapter breakdown remains reproducible in
+  adapters: 2,077. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 936 across 906 people; 114 additional
+- Saved `source_reviewed` outcomes: 943 across 913 people; 115 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,482
+- Total recorded attempts/plans: 3,492
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 863; 839 have at least one public-visible
+- People with saved reviewed claims: 871; 847 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,55 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 250 crosses the page boundary from Ernest J. Bouchea on PDF page
+  forty-five to Paul E. Boudreau on page forty-six. All ten Box 71 rows were
+  checked visually at original resolution. The official unrestricted Army
+  Serial Number merged file was reviewed transiently with its reference-copy
+  field layout and occupation-code tables. No raw bulk record, live Catalog
+  response, full private identifier, or credential is retained or published.
+
+  Exact private-identifier agreement confirms Gerard J. Boucher, Raymond R.
+  Boucher, the index's literal `RobertH Boucher`, Francis M. Boudreau, and
+  Joseph Y. Boudreau. Their official Army-entry rows date five broad civilian-
+  occupation categories to 1941-1943: welders and flame cutters, machinists'
+  apprentices, salespersons, construction occupations not elsewhere
+  classified, and draftsmen. Each is published at medium confidence as an
+  occupation-only, strongly date-bounded finding. None supplies a named
+  employer, self-employment status, exact workplace, or Army-to-OSS sequence.
+  The printed `RobertH` spelling remains immutable while the exact-matched
+  fixed-width Army name field documents Robert H. Boucher as a searchable
+  variant.
+
+  Ernest J. Bouchea's rare exact name and seven printed identifier digits agree
+  with an official Army row carrying a leading zero, but that row dates Army
+  entry to November 20, 1945 and records Technician Fifth Grade rather than the
+  index's sergeant text. The match therefore remains probable, and its
+  occupation code is explicitly withheld as pre-OSS evidence. Fernande C.
+  Boucher, Theodore J. Boucher, the printed Nelson J. Boudffard Jr., and Paul E.
+  Boudreau remain unresolved. A possible Bouffard spelling and common-name
+  cemetery, obituary, roster, and occupational candidates lack the private
+  officer identifiers or direct OSS linkages and remain rejected leads.
+
+  The strict evidence bundle adds four sources, five affiliations, eleven
+  claims, thirty-three claim-source links, ten person updates, and ten durable
+  research attempts. It reimports without changing any evidence-table count.
+  Coverage is now 2,295 researched people, 412 people with a verified
+  affiliation, 181 with a verified employer, and 2,244 individually assessed
+  for archival review, out of 23,940 active entities. No authenticated Catalog
+  request, credential, unsupported employer, or convenient namesake match was
+  used or published.
+
+  Release QA passed SQLite integrity and foreign-key checks, all 70 Python
+  tests, the deterministic 200-profile audit, a clean 24,379-page Astro build,
+  the 24,379-page internal-link check, the 65-asset manifest audit, the full
+  public-identifier audit, the focused 3-case browser regression, and the
+  production dependency audit. The complete 792-case desktop, phone, and
+  tablet browser/axe matrix passed in 24.6 minutes with no serious or critical
+  accessibility violation. Two consecutive builds produced the identical site
+  digest
+  `5d68757bb486db28255693ec80e0b8b433b6624bb9e427aed4ce31caeb10b442`;
+  the 74,337,811-byte manifest has SHA-256
+  `6a452d5813f265b1fa3f5f9e8430c412a057177d260f9b7ddd35071b9254a580`.
 - Batch 249 covers the next ten contiguous rows, Chester J. Botticelli through
   Andre J. Bouchardon, on PDF page forty-five across Boxes 70 and 71. The source
   page and all ten rows were checked visually at original resolution. The
