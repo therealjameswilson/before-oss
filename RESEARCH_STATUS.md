@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,305 people with a non-planned attempt | 23,940 active person entities | 9.6282% |
+| Research-attempt coverage | 2,315 people with a non-planned attempt | 23,940 active person entities | 9.6700% |
 | Verified-affiliation coverage | 414 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7293% |
 | Verified-employer coverage | 182 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7602% |
-| Archival-review coverage | 2,254 people with an individual file-access/priority assessment | 23,940 active person entities | 9.4152% |
+| Archival-review coverage | 2,264 people with an individual file-access/priority assessment | 23,940 active person entities | 9.4570% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 352
+- Identity status `confirmed`: 355
 - Identity status `high_confidence`: 436
 - Identity status `probable`: 82
 - Identity status `ambiguous`: 43
-- Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,002
+- Identity status `conflicting`: 27
+- Identity status `unresolved`: 22,997
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,390
-- Enlisted Army personnel: 3,591
+- Unknown or indeterminate: 16,389
+- Enlisted Army personnel: 3,592
 - Commissioned Army officers: 2,079
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,21 +45,21 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,190 yes; 5,216 no; 16,534 indeterminate.
+Commissioned classification: 2,190 yes; 5,217 no; 16,533 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,635
+- `not_started`: 21,625
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 57
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 307
-- `requires_archival_review`: 1,537
+- `occupation_only_found`: 310
+- `requires_archival_review`: 1,542
 - `completed`: 77
-- `conflicting_sources`: 27
+- `conflicting_sources`: 29
 - `verified_employer_found`: 179
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -68,15 +68,15 @@ Commissioned classification: 2,190 yes; 5,216 no; 16,534 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,087. The detailed adapter breakdown remains reproducible in
+  adapters: 2,097. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 946 across 916 people; 115 additional
+- Saved `source_reviewed` outcomes: 951 across 921 people; 115 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,502
+- Total recorded attempts/plans: 3,512
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 874; 850 have at least one public-visible
+- People with saved reviewed claims: 879; 855 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,59 @@ Commissioned classification: 2,190 yes; 5,216 no; 16,534 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 252 covers the next ten contiguous page-forty-six rows, Paul J.
+  Bourbonniere through John W. Boutwell Jr., across Boxes 71 and 72. The source
+  page was checked visually, and five printed private identifiers were compared
+  against NARA's official unrestricted Army merged file in memory. The bulk
+  file, technical documentation, and code tables remain external source
+  material; no raw Army record or full private identifier is retained in the
+  evidence bundle or public build.
+
+  Three exact identifier matches support confirmed identities. Indexed Lucien
+  J. Bourgein is the Army record's Lucien J. Bourgoin; a separately sourced OSS
+  profile corroborates the Bourgoin spelling and later Headquarters
+  Detachment/Jedburgh service. His Army-entry code documents only the broad
+  semiskilled textile-manufacturing occupation group on August 10, 1942.
+  Indexed Aristioes J. Bouselis is the Army record's Aristides J. Boutselis;
+  an independent Greek Operational Group VII roster corroborates that spelling,
+  T/5 grade, and OSS unit context. His Army-entry code documents only the broad
+  semiskilled leather-manufacturing group on February 25, 1943. John W.
+  Boutwell Jr.'s exact official match documents the stenographer-and-typist
+  group at Army entry on February 3, 1941. None of the three records names an
+  employer, workplace, exact duties, or Army-to-OSS transfer date, so all three
+  findings remain medium-confidence occupation-only claims.
+
+  Paul J. Bourbonniere's and Donald W. Boustead's printed identifiers each
+  resolve to a wholly different name in the official Army file. Because NARA's
+  technical notes warn of duplicate and corrupted values, the project exposes
+  both conflicts, withholds the unrelated Army names and record fields, and
+  assigns neither candidate. Donald G. Bourgeois, Leo N. Bourgeois, Fernand A.
+  Bourges, French Major Henry E. Bourgoin, and Harold W. Bousfield remain
+  unresolved after exact-name, variant, official, CIA Reading Room,
+  occupational, obituary, directory, newspaper, institutional, and archival
+  checks. Each retains a Box 72 review path rather than a convenient namesake.
+
+  The strict bundle adds six sources, three affiliations, eight claims,
+  twenty-four claim-source links, ten person updates, and ten durable research
+  attempts. A second import leaves every evidence-table count unchanged.
+  Coverage is now 2,315 researched people, 414 people with a verified
+  affiliation, 182 with a verified employer, and 2,264 individually assessed
+  for archival review, out of 23,940 active entities. The public projection
+  contains 999 affiliations, 1,935 claims, and 1,780 citation records
+  representing 1,308 unique documents. SQLite integrity, the 72-test Python
+  suite, the deterministic 200-profile audit, public redaction scan, zero-
+  warning 24,379-page Astro build, focused three-viewport regression, and the
+  complete 798-case desktop, phone, and tablet browser/axe matrix pass. The
+  matrix finished in 21.9 minutes with no serious or critical axe violation.
+  The 24,379-page internal-link check and 49,219-URL external inventory pass;
+  all 65 manifest assets match across 74,490,748 bytes. Two consecutive builds
+  have the identical complete-site digest
+  `ff553ffd23d351b9d732b65d566c409deb59499f3f74af87a5e2cd14a9143a5d`,
+  and the manifest SHA-256 is
+  `49e3e9b774b77d2cfcdd1a5b7c22d2a9d1ce6746a24ff2f7f6468b80ad6810a9`.
+  No authenticated Catalog request, credential, raw API response, unsupported
+  employer, unrelated person's name, or full private identifier was used or
+  published.
 - Batch 251 covers the next ten contiguous page-forty-six rows, Edward F.
   Boughton through Charles Bourbonnais, across Boxes 71 and 72. Every row was
   checked against the rendered source page at original resolution. That review
@@ -3804,15 +3857,15 @@ Commissioned classification: 2,190 yes; 5,216 no; 16,534 indeterminate.
   route to Box 58 review. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 958 (published, qualified, or conflict-visible)
-- Database claims: 1,884; public-visible claims: 1,852 (512 confirmed, 925 high,
-  379 medium, 36 conflicting); 26 low-confidence claims are withheld and six
+- Public-visible affiliations: 999 (published, qualified, or conflict-visible)
+- Database claims: 1,968; public-visible claims: 1,935 (535 confirmed, 948 high,
+  413 medium, 39 conflicting); 27 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,185 total and 4,116 public-visible; private source
-  records: 2,725; public source export: 1,712; unique source documents: 1,264
-- Canonical organizations: 426 private and 416 public
-- Conflicting claims: 36 across 26 people
-- NARA pull-list rows: 23,801
+- Claim-source links: 4,389 total and 4,318 public-visible; private source
+  records: 2,796; public source export: 1,780; unique source documents: 1,308
+- Canonical organizations: 441 private and 431 public
+- Conflicting claims: 39 across 30 people
+- NARA pull-list rows: 23,799
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.

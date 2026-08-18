@@ -22105,3 +22105,96 @@ test("Batch 251 corrects Boulay's shifted columns and separates Boulton and Bour
     );
   }
 });
+
+test("Batch 252 publishes three identifier-backed occupations and preserves two identifier conflicts", async ({
+  page,
+}) => {
+  const profiles = [
+    ["c8f6a56e-5888-5787-81b1-ad20da94a3dc", "Paul J Bourbonniere", "71"],
+    ["8aec816b-373f-51c6-8373-7d5d6a5ac764", "Lucien J Bourgein", "72"],
+    ["9f2c1cb5-e60f-5b7c-ac5a-b9666d23db75", "Donald G Bourgeois", "72"],
+    ["6111228c-e28a-56d5-8343-3b9a88bb7877", "Leo N Bourgeois", "72"],
+    ["3cf59e52-a60f-56a9-be2e-1b5dde2a9f8e", "Fernand A Bourges", "72"],
+    ["259369f3-9363-5f6d-8731-f13ea49e91c7", "Henry E Bourgoin", "72"],
+    ["956ff8b5-4d6e-57cd-9846-eb6d6bfac023", "Aristioes J Bouselis", "72"],
+    ["a37eadac-c885-5448-94a5-94e043bf1c20", "Harold W Bousfield", "72"],
+    ["b0967689-c9eb-5276-ac49-8ade538c78ef", "Donald W Boustead", "72"],
+    ["19c426e9-2687-5846-a2cf-9e4a63af28e3", "John W Boutwell Jr.", "72"],
+  ] as const;
+
+  for (const [personId, displayName, boxNumber] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 46");
+    await expect(page.locator(".index-record").last()).toContainText(boxNumber);
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  const occupations = [
+    [
+      "8aec816b-373f-51c6-8373-7d5d6a5ac764",
+      "Semiskilled occupations in manufacture of textiles, not elsewhere classified",
+      "Lucien J. Bourgoin",
+    ],
+    [
+      "956ff8b5-4d6e-57cd-9846-eb6d6bfac023",
+      "Semiskilled occupations in manufacture of leather",
+      "Aristides J. Boutselis",
+    ],
+    [
+      "19c426e9-2687-5846-a2cf-9e4a63af28e3",
+      "Stenographers and typists",
+      "John W. Boutwell Jr.",
+    ],
+  ] as const;
+
+  for (const [personId, occupation, variant] of occupations) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator("main")).toContainText(variant);
+    await expect(page.locator("main")).toContainText("strongly date bounded");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+
+  await page.goto("./people/8aec816b-373f-51c6-8373-7d5d6a5ac764/");
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("August 10, 1942");
+
+  await page.goto("./people/956ff8b5-4d6e-57cd-9846-eb6d6bfac023/");
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Greek Operational Group VII");
+
+  for (const personId of [
+    "c8f6a56e-5888-5787-81b1-ad20da94a3dc",
+    "b0967689-c9eb-5276-ac49-8ade538c78ef",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("different name");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  }
+
+  for (const personId of [
+    "9f2c1cb5-e60f-5b7c-ac5a-b9666d23db75",
+    "6111228c-e28a-56d5-8343-3b9a88bb7877",
+    "3cf59e52-a60f-56a9-be2e-1b5dde2a9f8e",
+    "259369f3-9363-5f6d-8731-f13ea49e91c7",
+    "a37eadac-c885-5448-94a5-94e043bf1c20",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+});
