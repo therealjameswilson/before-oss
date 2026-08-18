@@ -23695,3 +23695,68 @@ test("Batch 292 publishes one identifier-backed occupation, preserves an identif
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 293 publishes two identifier-backed occupations and Newell Brown's student affiliation without inventing employers", async ({
+  page,
+}) => {
+  await page.goto("./people/b24497e7-ae6f-5921-8156-dcd31ec15013/");
+  await expect(page.getByRole("heading", { name: "Merle C Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "General farmer",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/08a92bff-7683-5a94-bd92-09a33ef5e667/");
+  await expect(page.getByRole("heading", { name: "Norman O Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Nebraska Wesleyan University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Secondary-school teacher or principal",
+  );
+
+  await page.goto("./people/1ba22384-8c09-54c4-adc1-3f4d64e099f6/");
+  await expect(page.getByRole("heading", { name: "Newell Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Princeton",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const unresolvedPerson of [
+    ["a72b0db0-fbcd-5874-a5e1-6aa0efa61e1d", "Marjorie E Brown"],
+    ["e7f6a8e1-141b-5b36-aeda-80fcdf5de707", "Marvin C Brown"],
+    ["676e0e8e-3585-50d7-a75c-065e93b1f5e0", "Mary I Brown"],
+    ["27a38fb7-b18c-53f9-bf18-57e05ca96eea", "Meyer Brown"],
+    ["6ee3b5b3-7b02-56b9-a43e-cab0b3059d5b", "Miguel Brown"],
+    ["b38c8719-0717-5d59-ac09-b7c71b0769cf", "Milton M Brown"],
+    ["f8fc7f26-fb78-53c7-ac88-2f9eb7321d61", "Neil Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/f8fc7f26-fb78-53c7-ac88-2f9eb7321d61/");
+  await expect(page.locator("main")).toContainText("Neil Brown of OWI");
+  await expect(page.locator("main")).toContainText("cannot establish that he is the indexed person");
+});
