@@ -22360,3 +22360,58 @@ test("Batch 254 publishes two bounded occupations and preserves eight Box 72 rev
     );
   }
 });
+
+test("Batch 255 publishes Bowman's bounded farm occupation and preserves nine Box 72-73 review paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["2e00e8de-e7fe-50a5-88f9-059613b25988", "Robert H Bowers", "72"],
+    ["0fb54d27-1c55-5100-856a-f636775f0015", "Beverley M Bowie", "72"],
+    ["326f7534-8800-5357-bf12-30b624421f0e", "Theodore R Bowie", "72"],
+    ["7ddbc491-4a8f-5dfd-b38f-6e5fb48a1430", "Walter R Bowie Jr.", "72"],
+    ["4114105e-e47d-5813-8e68-4e99c5fd984b", "Floyd E Bowlby", "72"],
+    ["90b62bc7-cd0d-5617-a496-6cf3ee3a819e", "Cecilia V Bowles", "73"],
+    ["02dd0d89-4ffa-5dd5-b601-fccd0d268bf6", "Robert E Bowline", "73"],
+    ["9750ad6a-dad3-53da-a084-e465f276b7dd", "Evelyn F Bowling", "73"],
+    ["7e6a7fb6-00da-5105-86ee-86fcc72c4516", "Charles C Bowman", "73"],
+    ["019fe252-c105-50a5-ae91-0ce29c31fb21", "Conley E Bowman", "73"],
+  ] as const;
+
+  for (const [personId, displayName, box] of profiles) {
+    await page.goto("./people/" + personId + "/");
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 47");
+    await expect(page.locator(".index-record").last()).toContainText(box);
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/019fe252-c105-50a5-ae91-0ce29c31fb21/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Farm hand on a general farm",
+  );
+  await expect(page.locator("main")).toContainText("April 16, 1943");
+  await expect(page.locator("main")).toContainText("strongly date bounded");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/4114105e-e47d-5813-8e68-4e99c5fd984b/");
+  await expect(page.getByText("enlisted naval personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Radioman Second Class");
+
+  await page.goto("./people/7e6a7fb6-00da-5105-86ee-86fcc72c4516/");
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+
+  for (const personId of profiles.slice(0, 9).map(([personId]) => personId)) {
+    await page.goto("./people/" + personId + "/");
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+});

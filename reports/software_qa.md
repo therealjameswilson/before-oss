@@ -2,28 +2,28 @@
 
 Run: 2026-08-18 UTC
 
-- Python unit tests: **72 / 72 passed**
+- Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,379 pages**
 - Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **804 / 804 assertions passed**
+- Complete browser and accessibility matrix: **807 / 807 assertions passed**
   across desktop, phone, and tablet. The first long-running pass completed
-  798 cases and encountered six browser-session timeouts in older regressions;
-  all six passed immediately in an isolated single-worker retry. No serious or
-  critical axe violation was found.
-- Focused Batch 254 browser and accessibility regression: **3 / 3 passed**
+  806 cases and encountered one phone browser-session timeout on the older
+  `/sources/` accessibility regression; it passed immediately in an isolated
+  single-worker retry. No serious or critical axe violation was found.
+- Focused Batch 255 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`7f6cf08c7537ee0034fd62a577d480d93ff6d2d6cdade44ac4b005dbfc43d198`)
-- Latest deterministic build (Batch 254): **byte-for-byte identical** across
+  (`93e3e5dc8184290ca23af762174732bd5fa414806d88bf41a709979413711daf`)
+- Latest deterministic build (Batch 255): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,576,238 bytes**;
+  across **74,601,141 bytes**;
   manifest SHA-256
-  `e3a23f11f315d1b16b53b9ad6b9bf9f79d780290b1393f71506033cfbf43214d`
+  `4ff212d12a5c8840cb879cdf855f511dfe2259cfc8976335fd4ff71dbf89d567`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -35,10 +35,10 @@ Run: 2026-08-18 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,792** public records representing **1,314** unique documents
-- Private citation records: **2,809**
-- Published, qualified, or conflict-visible affiliations: **1,002**
-- Published or conflict-visible claims: **1,944**
+- Reviewed public sources: **1,796** public records representing **1,316** unique documents
+- Private citation records: **2,814**
+- Published, qualified, or conflict-visible affiliations: **1,003**
+- Published or conflict-visible claims: **1,946**
 - Verified-affiliation metric: **414** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **182** people with confirmed/high published
@@ -165,6 +165,44 @@ Run: 2026-08-18 UTC
   post-merge Test and Pages workflows, all **65** live assets matched byte for
   byte across **74,540,925 bytes**, and the home page plus representative Batch
   253 routes returned HTTP 200
+- Batch 254 production verification: **passed**; release `a4da89c` passed the
+  post-merge Test and Pages workflows, all **65** live assets matched byte for
+  byte across **74,576,238 bytes**, and the home page plus representative Batch
+  254 routes returned HTTP 200
+
+## Batch 255 local release check
+
+Batch 255 adds the ten visually checked Box 72-73 rows from Robert H. Bowers
+through Conley E. Bowman on PDF page 47. It confirms Conley E. Bowman through
+exact private-identifier and name agreement, publishing only his broad,
+date-bounded farm-hand occupation. Floyd E. Bowlby's printed `RM2/c` is
+documented as the enlisted naval rating Radioman Second Class, and Charles C.
+Bowman's `LtCol` is classified as a commissioned Army rank, without resolving
+either identity. Nine profiles remain unresolved and retain explicit archival-
+review guidance; rejected namesakes, fuller-name biographies, genealogy,
+postwar-only evidence, and discovery-only material are not promoted.
+
+The strict bundle adds ten durable attempts, five sources, one affiliation,
+two claims, and five claim-source links. It raises research-attempt coverage to
+2,345 people and archival-review coverage to 2,294 people while leaving the
+verified-affiliation and verified-employer numerators at 414 and 182. The
+public projection contains 1,003 affiliations, 1,946 claims, and 1,796 citation
+records representing 1,316 unique documents.
+
+The 74-test Python suite, SQLite integrity and foreign-key checks,
+deterministic 200-profile audit, focused three-viewport regression, 24,379-page
+internal-link pass, 49,222-URL external inventory, zero-warning Astro
+diagnostics, zero-vulnerability dependency audit, and public-identifier audit
+all pass. The complete browser matrix completed 806 cases before one older
+phone `/sources/` accessibility session timed out; it passed immediately in an
+isolated single-worker retry, producing 807 / 807 passing assertions overall
+and no serious or critical axe violation.
+
+All 65 manifest assets match across 74,601,141 bytes; the manifest SHA-256 is
+`4ff212d12a5c8840cb879cdf855f511dfe2259cfc8976335fd4ff71dbf89d567`.
+Two consecutive production builds are byte-for-byte identical and have the
+complete-site digest
+`93e3e5dc8184290ca23af762174732bd5fa414806d88bf41a709979413711daf`.
 
 ## Batch 254 local release check
 

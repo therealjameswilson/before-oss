@@ -1,6 +1,6 @@
 # Parser QA
 
-Generated: 2026-08-18T03:00:21+00:00
+Generated: 2026-08-18T07:13:24+00:00
 
 ## Gate summary
 
@@ -23,19 +23,6 @@ Generated: 2026-08-18T03:00:21+00:00
 - PASS - `all_selected_pages_visually_reviewed`
 - PASS - `all_warning_rows_visually_resolved`
 
-## Page 46 column-shift correction
-
-The 32 warning rows comprise 6 civilian grades printed in the middle-initial
-column, 17 military ranks printed there, 8 numeric identifiers printed in the
-rank column, and one combined rank/identifier/date shift. The combined case is
-Wilfred Boulay on page 46: the printed cells place `T/Sgt` under M I, a numeric
-identifier under rank, and `Jun-43` under serial. Parser version
-`bbox-columns-v8` preserves those raw cells, normalizes `T/Sgt` as the rank,
-uses the numeric rank-cell value as the private identifier, treats `Jun-43` as
-a date annotation rather than a service number, and classifies the row as
-enlisted Army personnel. The corrected row and every other warning row have a
-durable visual-review decision.
-
 ## Page row-count distribution
 
 - Minimum: 12
@@ -43,6 +30,17 @@ durable visual-review decision.
 - Maximum: 46
 
 The final page contains 12 rows and is expected to be shorter. Visual selection does not itself mark a page as reviewed.
+
+## Transparent rank-normalization updates
+
+Batch 255 adds two conservative, documented parser fixtures without changing
+any immutable raw value. Ten printed `LtCol` rows now normalize to `LT COL`;
+nine classify as commissioned Army officers and one retains its separately
+documented foreign/Allied category. Four printed `RM2/c` rows and one `RM2c`
+row now normalize to `RM 2/C` and classify as enlisted naval personnel. The
+official Naval History and Heritage Command action-report vocabulary documents
+`RM2c` as Radioman Second Class. Unfamiliar abbreviations continue to remain
+unclassified.
 
 ## Visual QA selection
 
