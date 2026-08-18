@@ -4,14 +4,24 @@ Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS.** All **810 / 810** browser and accessibility assertions passed at
-desktop, phone, and tablet widths. The first long-running pass completed 809
-cases before one older tablet `/sources/` accessibility session timed out; it
-passed in an isolated single-worker retry. The accessibility routes reported
-no serious or critical axe violations.
+**PASS.** All **813 / 813** browser and accessibility assertions passed in one
+uninterrupted single-worker run at desktop, phone, and tablet widths. The
+accessibility routes reported no serious or critical axe violations.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batches 257-262 add a focused direct-route regression for Ernst L. Boxleitner
+through June M. Bradford across PDF pages 47-48. It checks the sixty indexed
+names, Boxes 73-74, public-safe identifier rendering, personnel
+classifications, terminal research states, confidence qualification, and
+employer-gap language. It verifies that Braatoy's OWI and Norwegian mission
+relationships are government assignments; Braden's British Army pathway is
+separate from Mutual Broadcasting System as his last civilian employer;
+thirteen Army findings remain occupations rather than employers; and the
+Bernice R. Bradford disagreement is visibly conflicting. The focused
+regression passed 3 / 3, and the complete matrix passed 813 / 813 in one run
+with no serious or critical axe violation.
 
 Batch 256 adds a focused direct-route regression for Dean O. Bowman through
 John H. Boxer on PDF page 47. It checks all ten indexed names, Box 73,

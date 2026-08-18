@@ -1,0 +1,914 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, batch 261",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-48-batch261",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 74-75",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 48, rows 18-27; Louise Boynton through Max Bradbard; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch261",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for three eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch261",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch261",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Digital PDF pages 171-172; civilian occupational-group codes 0-34, 2-26, and 2-29 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    },
+    {
+      "key": "owi-emergency-war-agencies-braatoy-batch261",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-PR32_5000-47d7523761143ec5bc07fd1f5918ae2e/pdf/GOVPUB-PR32_5000-47d7523761143ec5bc07fd1f5918ae2e.pdf",
+      "archival_identifier": "U.S. Government Printing Office, 507836°—43; GovInfo package GOVPUB-PR32_5000-47d7523761143ec5bc07fd1f5918ae2e",
+      "title": "Handbook of Emergency War Agencies",
+      "author_creator": "United States Office of War Information",
+      "repository_publisher": "United States Government Printing Office via GovInfo",
+      "publication_record_date": "1943-03",
+      "locator": "Office of War Information, Overseas Operations Branch, Regional Offices, printed page 32",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "United States Government Publications",
+      "document_number": "507836°—43",
+      "rights_notes": "Contemporary federal directory used for Braatoy's OWI office and title; it does not by itself state his transfer date to OSS."
+    },
+    {
+      "key": "brandal-sundvall-braatoy-chapter-batch261",
+      "stable_url": "https://dokumen.pub/leftist-internationalisms-a-transnational-political-history-9781350247918-9781350252523-9781350247925.html",
+      "archival_identifier": "ISBN 978-1-3502-4792-5, chapter 2",
+      "title": "A Transatlantic Connector: Bjarne Braatøy in the Intersections of Intelligence and Social Democracy, 1923-57",
+      "author_creator": "Nik. Brandal and Eirik Wig Sundvall",
+      "repository_publisher": "Bloomsbury Academic",
+      "publication_record_date": "2023",
+      "locator": "Leftist Internationalisms, chapter 2, printed pages 45-47",
+      "access_date": "2026-08-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Leftist Internationalisms: A Transnational Political History",
+      "document_number": "ISBN 978-1-3502-4792-5",
+      "rights_notes": "Project-authored paraphrases and short excerpts only. The chapter cites NARA, Norwegian labor-archive, and contemporary documentary evidence."
+    },
+    {
+      "key": "va-vlm-max-bradbard-batch261",
+      "stable_url": "https://www.vlm.cem.va.gov/MAXBRADBARD/B01E163",
+      "archival_identifier": "Veterans Legacy Memorial B01E163",
+      "title": "Max Bradbard Memorial Page",
+      "author_creator": "United States Department of Veterans Affairs",
+      "repository_publisher": "National Cemetery Administration, Veterans Legacy Memorial",
+      "publication_record_date": null,
+      "locator": "Service panel; exact-name World War II Army Air Forces candidate",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Veterans Legacy Memorial",
+      "document_number": "B01E163",
+      "rights_notes": "Retained as a low-confidence candidate only. The memorial does not mention OSS and cannot resolve the index row by itself."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "office-of-war-information-batch179",
+      "canonical_name": "Office of War Information",
+      "historical_name": "Office of War Information",
+      "aliases": [
+        "OWI",
+        "United States Office of War Information"
+      ],
+      "organization_type": "United States federal wartime information agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Government assignment, not silently relabeled as private-sector employment."
+    },
+    {
+      "key": "norwegian-shipping-trade-mission-batch261",
+      "canonical_name": "Norwegian Shipping and Trade Mission",
+      "historical_name": "Norwegian Shipping and Trade Mission",
+      "aliases": [
+        "Nortraship",
+        "Norwegian Shipping and Trade Mission (Nortraship)"
+      ],
+      "organization_type": "Norwegian government-in-exile shipping mission",
+      "sector": "federal_government",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1940-1945",
+      "normalization_notes": "Preserved as a Norwegian government assignment. It is not silently treated as a private company or civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "neil-c-boyum-occupation-code-226-batch261",
+      "person_id": "be454369-7e3f-5e21-85f5-0f97b9e28c9c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Cooks, except private family",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-02-10",
+      "date_precision": "Civilian-occupation code 226 recorded at Army entry on 1941-02-10; no employer, workplace, exact duties, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupational group cannot support a named employer, workplace, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "gino-bozza-occupation-code-229-batch261",
+      "person_id": "0b8dae2a-8b21-5c81-962d-5a65d8fda943",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Kitchen workers in hotels, restaurants, railroads, steamships, and related establishments, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-04-16",
+      "date_precision": "Civilian-occupation code 229 recorded at Army entry on 1943-04-16; no employer, workplace, exact duties, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupational group cannot support a named employer, workplace, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "robert-k-brabrook-occupation-code-034-batch261",
+      "person_id": "1375a932-3bc8-5242-8813-661e063ee87d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Veterinarians",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1944-12-12",
+      "date_precision": "Civilian-occupation code 034 recorded at Army entry on 1944-12-12; no employer, workplace, exact duties, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupational group cannot support a named employer, workplace, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "bjarne-braatoy-owi-immediate-pre-oss-batch261",
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "organization_key": "office-of-war-information-batch179",
+      "organization_name_as_found": "Office of War Information",
+      "role_title": "Chief, Regional Division IV; earlier regional specialist on Scandinavia and Chief Intelligence Officer",
+      "occupation": "wartime information and regional intelligence administration",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-07",
+      "end_date": "1944-09",
+      "date_precision": "Month-bounded scholarly chronology; March 1943 federal handbook independently confirms the Regional Division IV chief title",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "A scholarly archival chronology explicitly states that Braatoy transferred from OWI to OSS in September 1944. A contemporary federal handbook independently confirms his OWI division-chief role."
+    },
+    {
+      "key": "bjarne-braatoy-nortraship-prewar-batch261",
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "organization_key": "norwegian-shipping-trade-mission-batch261",
+      "organization_name_as_found": "Norwegian Shipping and Trade Mission (Nortraship)",
+      "role_title": "information manager with editorial responsibility for the mission newspaper",
+      "occupation": "information and editorial work",
+      "relationship_type": "government_assignment",
+      "start_date": "1940-07",
+      "end_date": "1942-07",
+      "date_precision": "Month-bounded scholarly chronology",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Documented earlier government-in-exile assignment. It ended before the intervening OWI assignment and is not presented as the immediate predecessor to OSS or as a private employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "neil-c-boyum-confirmed-identity-batch261",
+      "person_id": "be454369-7e3f-5e21-85f5-0f97b9e28c9c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Neil C Boyum identity in the official Army merged file.",
+      "evidence_excerpt": "NIEL C BOYUM",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and matching name; the Neil/Niel spelling variant is preserved where applicable.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1941-02-10; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Army-entry evidence does not establish a named employer or later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch261",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch261",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "NIEL C BOYUM"
+        }
+      ]
+    },
+    {
+      "key": "neil-c-boyum-occupation-at-army-entry-batch261",
+      "person_id": "be454369-7e3f-5e21-85f5-0f97b9e28c9c",
+      "affiliation_key": "neil-c-boyum-occupation-code-226-batch261",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Neil C Boyum in the broad civilian group for cooks, except private family.",
+      "evidence_excerpt": "Civilian occupation code 226.",
+      "evidence_paraphrase": "Code 226 was recorded at Army entry on 1941-02-10 and maps to cooks, except private family.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match, preserving documented spelling variants.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch261",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 226"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch261",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 2-26"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch261",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "gino-bozza-confirmed-identity-batch261",
+      "person_id": "0b8dae2a-8b21-5c81-962d-5a65d8fda943",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Gino Bozza identity in the official Army merged file.",
+      "evidence_excerpt": "GINO BOZZA",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and matching name; the Neil/Niel spelling variant is preserved where applicable.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-04-16; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Army-entry evidence does not establish a named employer or later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch261",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch261",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "GINO BOZZA"
+        }
+      ]
+    },
+    {
+      "key": "gino-bozza-occupation-at-army-entry-batch261",
+      "person_id": "0b8dae2a-8b21-5c81-962d-5a65d8fda943",
+      "affiliation_key": "gino-bozza-occupation-code-229-batch261",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Gino Bozza in the broad civilian group for kitchen workers in hotels, restaurants, railroads, steamships, and related establishments, not elsewhere classified.",
+      "evidence_excerpt": "Civilian occupation code 229.",
+      "evidence_paraphrase": "Code 229 was recorded at Army entry on 1943-04-16 and maps to kitchen workers in hotels, restaurants, railroads, steamships, and related establishments, not elsewhere classified.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match, preserving documented spelling variants.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch261",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 229"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch261",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 2-29"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch261",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "robert-k-brabrook-confirmed-identity-batch261",
+      "person_id": "1375a932-3bc8-5242-8813-661e063ee87d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Robert K Brabrook identity in the official Army merged file.",
+      "evidence_excerpt": "ROBERT K BRABROOK",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and matching name; the Neil/Niel spelling variant is preserved where applicable.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1944-12-12; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. Army-entry evidence does not establish a named employer or later OSS role.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch261",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch261",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "ROBERT K BRABROOK"
+        }
+      ]
+    },
+    {
+      "key": "robert-k-brabrook-occupation-at-army-entry-batch261",
+      "person_id": "1375a932-3bc8-5242-8813-661e063ee87d",
+      "affiliation_key": "robert-k-brabrook-occupation-code-034-batch261",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Robert K Brabrook in the broad civilian group for veterinarians.",
+      "evidence_excerpt": "Civilian occupation code 034.",
+      "evidence_paraphrase": "Code 034 was recorded at Army entry on 1944-12-12 and maps to veterinarians.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match, preserving documented spelling variants.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch261",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 034"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch261",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 0-34"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch261",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "bjarne-braatoy-high-confidence-identity-batch261",
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Bjarne Braatoy is a high-confidence match to the OWI regional chief who transferred to OSS in September 1944.",
+      "evidence_excerpt": "No. IV. ... Chief, Bjarne Braatoy.",
+      "evidence_paraphrase": "A contemporary federal handbook and archival scholarship align the distinctive name, OWI role, and explicit OSS transfer chronology.",
+      "identity_match_assessment": "High confidence: distinctive exact name plus an official OWI title and independent scholarly documentation of transfer to OSS.",
+      "temporal_assessment": "The official handbook places him at OWI in March 1943; the scholarly chronology places his OSS transfer in September 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file should still be checked for the appointment instrument and exact transfer date.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch261",
+          "support_type": "supports",
+          "locator_override": "PDF page 48, Bjarne Braatoy source row"
+        },
+        {
+          "source_key": "owi-emergency-war-agencies-braatoy-batch261",
+          "support_type": "supports",
+          "locator_override": "Printed page 32",
+          "excerpt_override": "No. IV. ... Chief, Bjarne Braatoy."
+        },
+        {
+          "source_key": "brandal-sundvall-braatoy-chapter-batch261",
+          "support_type": "supports",
+          "locator_override": "Printed page 47",
+          "excerpt_override": "In September 1944 he transferred to ... OSS."
+        }
+      ]
+    },
+    {
+      "key": "bjarne-braatoy-owi-immediate-affiliation-batch261",
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "affiliation_key": "bjarne-braatoy-owi-immediate-pre-oss-batch261",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Bjarne Braatoy's best-supported immediate pre-OSS affiliation is the Office of War Information, where he led Regional Division IV.",
+      "evidence_excerpt": "In September 1944 he transferred to ... OSS.",
+      "evidence_paraphrase": "The scholarly chronology explicitly moves Braatoy from OWI to OSS in September 1944; a March 1943 federal handbook confirms his OWI leadership role.",
+      "identity_match_assessment": "High-confidence distinctive-name match supported by official and scholarly sources.",
+      "temporal_assessment": "Explicitly immediate: OWI service is stated to end with his September 1944 transfer to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a government assignment, not as a private-sector employer.",
+      "sources": [
+        {
+          "source_key": "owi-emergency-war-agencies-braatoy-batch261",
+          "support_type": "supports",
+          "locator_override": "Printed page 32",
+          "excerpt_override": "No. IV. ... Chief, Bjarne Braatoy."
+        },
+        {
+          "source_key": "brandal-sundvall-braatoy-chapter-batch261",
+          "support_type": "supports",
+          "locator_override": "Printed pages 45-47",
+          "excerpt_override": "In September 1944 he transferred to ... OSS."
+        }
+      ]
+    },
+    {
+      "key": "bjarne-braatoy-nortraship-earlier-affiliation-batch261",
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "affiliation_key": "bjarne-braatoy-nortraship-prewar-batch261",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before OWI, Bjarne Braatoy worked for the Norwegian Shipping and Trade Mission as an information manager with editorial responsibility.",
+      "evidence_excerpt": "employment for the Norwegian government ... Norwegian Shipping and Trade Mission",
+      "evidence_paraphrase": "The scholarly chapter dates his New York Nortraship information role from July 1940 until July 1942, before his intervening OWI assignment.",
+      "identity_match_assessment": "High-confidence distinctive-name match within the same documented chronology.",
+      "temporal_assessment": "Documented prewar/wartime affiliation ending in July 1942; not the immediate predecessor to OSS because OWI intervened.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a Norwegian government-in-exile assignment, not as a private employer.",
+      "sources": [
+        {
+          "source_key": "brandal-sundvall-braatoy-chapter-batch261",
+          "support_type": "supports",
+          "locator_override": "Printed page 45",
+          "excerpt_override": "employment for the Norwegian government ... Norwegian Shipping and Trade Mission"
+        }
+      ]
+    },
+    {
+      "key": "max-bradbard-unresolved-va-candidate-batch261",
+      "person_id": "0a67ee8b-dbfb-5a04-ad83-54896f028019",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "A World War II Army Air Forces veteran named Max Bradbard is a plausible but unconfirmed candidate for the index row.",
+      "evidence_excerpt": "WORLD WAR II ... US ARMY AIR FORCES ... 1ST LT",
+      "evidence_paraphrase": "The VA memorial supplies the exact name and World War II Army Air Forces service, but no OSS link or index-specific identifier.",
+      "identity_match_assessment": "Ambiguous: exact distinctive name and wartime service are relevant but do not independently link the veteran to OSS.",
+      "temporal_assessment": "The memorial establishes World War II service but gives no pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained for archival review and excluded from published facts and default analytics.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch261",
+          "support_type": "context_only",
+          "locator_override": "PDF page 48, Max Bradbard source row"
+        },
+        {
+          "source_key": "va-vlm-max-bradbard-batch261",
+          "support_type": "supports",
+          "locator_override": "Service panel",
+          "excerpt_override": "WORLD WAR II ... US ARMY AIR FORCES ... 1ST LT"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "edc0055a-d619-57f5-ac5b-938d42d438c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Louise Boynton with no middle initial, rank, private identifier, note, or nationality. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish a reliable identity.",
+      "name_variants": [
+        "Louise Boynton",
+        "Boynton, Louise"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be454369-7e3f-5e21-85f5-0f97b9e28c9c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Neil C. Boyum's exact private identifier and middle initial; the Army file spells the given name Niel. Both spellings are preserved.",
+      "name_variants": [
+        "Neil C Boyum",
+        "Neil C. Boyum",
+        "Boyum, Neil C.",
+        "Niel C Boyum",
+        "Niel C. Boyum"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for a named employer, the indexed given-name spelling, and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "40b53172-0537-5a6c-9b5f-0d0badeabeb4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating exact record in the official Army merged file. Exact-name OSS, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Louis S Bozin",
+        "Louis S. Bozin",
+        "Bozin, Louis S."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 74 to resolve the identifier, personnel status, and predecessor chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0b8dae2a-8b21-5c81-962d-5a65d8fda943",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Gino Bozza's exact private identifier and full name. The Italian academic namesake was rejected because his biography conflicts with this U.S. Army record.",
+      "name_variants": [
+        "Gino Bozza",
+        "Bozza, Gino"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 74 for a named hotel, restaurant, railroad, steamship, or other employer and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed name is corroborated by a contemporary federal handbook naming Bjarne Braatoy as an Office of War Information regional chief and by archival scholarship explicitly documenting his September 1944 transfer to OSS and Foreign Nationalities Branch role.",
+      "name_variants": [
+        "Bjarne Braatoy",
+        "Bjarne Braatøy",
+        "Bjarne Frøyland Braatøy",
+        "Bjarne Froeyland Braatoy",
+        "Bjarne Frøyland Nielsen",
+        "Braatoy, Bjarne"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 75 to confirm the exact OSS accession date, appointment instrument, and whether a personnel-file chronology adds an intervening assignment.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "25b4688a-04a2-500b-b7ee-255190c447e1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive surname and adjacency to Bjarne Braatoy are not evidence of identity, relationship, or shared employment. Official, CIA, exact-name, obituary, directory, newspaper, institutional, and archival checks did not establish Ria Braatoy's indexed identity or predecessor chronology.",
+      "name_variants": [
+        "Ria Braatoy",
+        "Ria Braatøy",
+        "Braatoy, Ria"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, documented variants, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1375a932-3bc8-5242-8813-661e063ee87d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Robert K. Brabrook's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Robert K Brabrook",
+        "Robert K. Brabrook",
+        "Brabrook, Robert K."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named veterinary employer or practice and the exact Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "799ee89b-7bea-5fba-a7a1-b39171767a4f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and middle initial, without rank, private identifier, note, or nationality, are insufficient to select a namesake. Official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "John P Bracken",
+        "John P. Bracken",
+        "Bracken, John P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b23fc1e-f27a-5c2e-98f2-2df8746c3cff",
+      "identity_status": "unresolved",
+      "identity_evidence": "A same-name life-date result does not mention OSS, employment, or two corroborating wartime identifiers and was rejected. The index supplies no rank or private identifier with which to resolve Walter E. Brackman.",
+      "name_variants": [
+        "Walter E Brackman",
+        "Walter E. Brackman",
+        "Brackman, Walter E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0a67ee8b-dbfb-5a04-ad83-54896f028019",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A Department of Veterans Affairs memorial supplies an exact-name World War II Army Air Forces candidate, but the index has no rank or private identifier and the memorial does not mention OSS. The candidate remains unassigned pending direct evidence.",
+      "name_variants": [
+        "Max Bradbard",
+        "Bradbard, Max"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, rank, private identifier, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "louise-boynton-protocol-batch261",
+      "person_id": "edc0055a-d619-57f5-ac5b-938d42d438c5",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Louise Boynton: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:00:00+00:00",
+      "completed_at": "2026-08-18T15:07:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies Louise Boynton with no middle initial, rank, private identifier, note, or nationality. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish a reliable identity.",
+      "next_action": "Review Box 74 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "neil-c-boyum-protocol-batch261",
+      "person_id": "be454369-7e3f-5e21-85f5-0f97b9e28c9c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Neil C Boyum: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:07:00+00:00",
+      "completed_at": "2026-08-18T15:14:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Neil C. Boyum's exact private identifier and middle initial; the Army file spells the given name Niel. Both spellings are preserved.",
+      "next_action": "Review Box 74 for a named employer, the indexed given-name spelling, and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "louis-s-bozin-protocol-batch261",
+      "person_id": "40b53172-0537-5a6c-9b5f-0d0badeabeb4",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Louis S Bozin: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:14:00+00:00",
+      "completed_at": "2026-08-18T15:21:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The printed private identifier did not receive a corroborating exact record in the official Army merged file. Exact-name OSS, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 74 to resolve the identifier, personnel status, and predecessor chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "gino-bozza-protocol-batch261",
+      "person_id": "0b8dae2a-8b21-5c81-962d-5a65d8fda943",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gino Bozza: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:21:00+00:00",
+      "completed_at": "2026-08-18T15:28:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Gino Bozza's exact private identifier and full name. The Italian academic namesake was rejected because his biography conflicts with this U.S. Army record.",
+      "next_action": "Review Box 74 for a named hotel, restaurant, railroad, steamship, or other employer and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "bjarne-braatoy-protocol-batch261",
+      "person_id": "b45d356e-b147-5342-8d6b-2fa22fc1be48",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bjarne Braatoy: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:28:00+00:00",
+      "completed_at": "2026-08-18T15:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The distinctive indexed name is corroborated by a contemporary federal handbook naming Bjarne Braatoy as an Office of War Information regional chief and by archival scholarship explicitly documenting his September 1944 transfer to OSS and Foreign Nationalities Branch role.",
+      "next_action": "Review Box 75 to confirm the exact OSS accession date, appointment instrument, and whether a personnel-file chronology adds an intervening assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "ria-braatoy-protocol-batch261",
+      "person_id": "25b4688a-04a2-500b-b7ee-255190c447e1",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ria Braatoy: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:35:00+00:00",
+      "completed_at": "2026-08-18T15:42:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The distinctive surname and adjacency to Bjarne Braatoy are not evidence of identity, relationship, or shared employment. Official, CIA, exact-name, obituary, directory, newspaper, institutional, and archival checks did not establish Ria Braatoy's indexed identity or predecessor chronology.",
+      "next_action": "Review Box 75 for identity, documented variants, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "robert-k-brabrook-protocol-batch261",
+      "person_id": "1375a932-3bc8-5242-8813-661e063ee87d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert K Brabrook: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:42:00+00:00",
+      "completed_at": "2026-08-18T15:49:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Robert K. Brabrook's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 75 for a named veterinary employer or practice and the exact Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "john-p-bracken-protocol-batch261",
+      "person_id": "799ee89b-7bea-5fba-a7a1-b39171767a4f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John P Bracken: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:49:00+00:00",
+      "completed_at": "2026-08-18T15:56:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common name and middle initial, without rank, private identifier, note, or nationality, are insufficient to select a namesake. Official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "walter-e-brackman-protocol-batch261",
+      "person_id": "3b23fc1e-f27a-5c2e-98f2-2df8746c3cff",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Walter E Brackman: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T15:56:00+00:00",
+      "completed_at": "2026-08-18T16:03:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "A same-name life-date result does not mention OSS, employment, or two corroborating wartime identifiers and was rejected. The index supplies no rank or private identifier with which to resolve Walter E. Brackman.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    },
+    {
+      "key": "max-bradbard-protocol-batch261",
+      "person_id": "0a67ee8b-dbfb-5a04-ad83-54896f028019",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Max Bradbard: visually verified NARA OSS index; official Army merged-file identifier and exact-name review when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T16:03:00+00:00",
+      "completed_at": "2026-08-18T16:10:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "A Department of Veterans Affairs memorial supplies an exact-name World War II Army Air Forces candidate, but the index has no rank or private identifier and the memorial does not mention OSS. The candidate remains unassigned pending direct evidence.",
+      "next_action": "Review Box 75 for identity, rank, private identifier, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch261-v1"
+    }
+  ]
+}

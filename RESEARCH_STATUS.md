@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,345 people with a non-planned attempt | 23,940 active person entities | 9.7953% |
-| Verified-affiliation coverage | 414 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7293% |
-| Verified-employer coverage | 182 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7602% |
-| Archival-review coverage | 2,294 people with an individual file-access/priority assessment | 23,940 active person entities | 9.5823% |
+| Research-attempt coverage | 2,415 people with a non-planned attempt | 23,940 active person entities | 10.0877% |
+| Verified-affiliation coverage | 416 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7377% |
+| Verified-employer coverage | 183 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7644% |
+| Archival-review coverage | 2,364 people with an individual file-access/priority assessment | 23,940 active person entities | 9.8747% |
 
 ## Extraction and identity
 
@@ -23,44 +23,44 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 360
-- Identity status `high_confidence`: 437
-- Identity status `probable`: 82
-- Identity status `ambiguous`: 43
-- Identity status `conflicting`: 28
-- Identity status `unresolved`: 22,990
+- Identity status `confirmed`: 374
+- Identity status `high_confidence`: 440
+- Identity status `probable`: 84
+- Identity status `ambiguous`: 44
+- Identity status `conflicting`: 30
+- Identity status `unresolved`: 22,968
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,375
-- Enlisted Army personnel: 3,593
-- Commissioned Army officers: 2,087
+- Unknown or indeterminate: 16,359
+- Enlisted Army personnel: 3,607
+- Commissioned Army officers: 2,088
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,475
+- Civilian professional or administrative grades: 1,476
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 63
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
+Commissioned classification: 2,199 yes; 5,238 no; 16,503 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,595
+- `not_started`: 21,525
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 57
+- `needs_identity_review`: 59
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 54
+- `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 314
-- `requires_archival_review`: 1,567
-- `completed`: 77
-- `conflicting_sources`: 30
-- `verified_employer_found`: 179
+- `occupation_only_found`: 327
+- `requires_archival_review`: 1,617
+- `completed`: 78
+- `conflicting_sources`: 32
+- `verified_employer_found`: 180
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -73,7 +73,7 @@ Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 959 across 929 people; 115 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,542
+- Total recorded attempts/plans: 3,612
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 886; 862 have at least one public-visible
@@ -2595,6 +2595,54 @@ Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batches 257-262 cover sixty contiguous rows from Ernst L. Boxleitner through
+  June M. Bradford across PDF pages 47-48 and Boxes 73-74. Both pages were
+  checked visually. Official Army enlistment data were matched only when the
+  private identifier and indexed name agreed; full identifiers, raw Army
+  records, authenticated Catalog responses, and credentials are neither
+  retained nor published.
+
+  The strongest newly documented pathways belong to Bjarne Braatoy and Thomas
+  W. Braden. Contemporary official and scholarly sources place Braatoy at the
+  Office of War Information immediately before OSS and earlier with the
+  Norwegian Shipping and Trade Mission; both are modeled as government
+  assignments rather than civilian employers. NARA, the *London Gazette*, and
+  a contemporary Dartmouth alumni account support Braden's transfer from the
+  King's Royal Rifle Corps and British Eighth Army to OSS in 1944 and identify
+  Mutual Broadcasting System as his last civilian employer before wartime
+  service. The sources do not state a title at Mutual, so none is invented.
+
+  Thirteen exact Army matches add qualified, date-bounded occupations without
+  converting an occupation into a named employer. Richard C. Boyer's official
+  record does not support an interpretable occupation, so identity and
+  employment remain separate. Bernice R. Bradford's private identifier points
+  to a differently surnamed Army record; that disagreement is exposed as an
+  identity conflict rather than explained by an unsupported name-change
+  theory. John L. Boyd and Max Bradbard likewise retain their competing or
+  incomplete candidates below the publication threshold. The remaining cases
+  route to archival review with rejected namesakes and discovery-only leads
+  recorded in the private review trail.
+
+  The six strict, idempotent bundles add a net 32 sources, three canonical
+  organizations, 18 affiliations, 38 claims, 94 claim-source links, 60 person
+  updates, and 60 durable research attempts. Repeat imports leave every
+  evidence-table count unchanged. Coverage is now 2,415 researched people,
+  416 people with a verified affiliation, 183 with a verified employer, and
+  2,364 individually assessed for archival review, out of 23,940 active
+  entities. The reviewed public projection contains 1,023 affiliations, 1,987
+  claims, and 1,829 citation records representing 1,335 unique documents.
+
+  The release gate passed 74 Python tests, SQLite integrity and foreign-key
+  checks, a deterministic 200-profile audit, a focused three-viewport
+  regression, all 24,383 internal HTML routes, Astro diagnostics with zero
+  errors, warnings, or hints, a zero-vulnerability dependency audit, and the
+  full private-identifier scan. The complete browser and axe matrix passed 813
+  / 813 assertions in one uninterrupted run. All 65 manifest assets match
+  across 74,959,371 bytes, with manifest SHA-256
+  `fc065b6798e67f29eefbe6d599dd26134eb9c31dd6c772bed85f532516591315`.
+  Two consecutive static builds produced the identical complete-site digest
+  `77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`.
+
 - Batch 256 covers the next ten contiguous page-forty-seven rows, Dean O.
   Bowman through John H. Boxer, all indexed in Box 73. The frozen NARA PDF
   page was checked visually. Official and institutional sources were reviewed
@@ -2647,6 +2695,10 @@ Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
   `a96148a93617a926e5bb83eeaca03b21a2a9d35b719eab5dcd316a4361487d78`.
   Two consecutive static builds produced the identical complete-site digest
   `c7b8db7db2078e27adc48607c28a0783263b312d57d82993813da2bf784132df`.
+  Release `9e9d46a` passed hosted pull-request CI, post-merge Test workflow
+  32122627893, and Pages workflow 32122627876. A cache-busted production audit
+  matched all 65 published assets byte for byte across 74,640,816 bytes and
+  returned HTTP 200 for the home page and all ten Batch 256 profile routes.
 
 - Batch 255 covers the next ten contiguous page-forty-seven rows, Robert H.
   Bowers through Conley E. Bowman, indexed in Boxes 72-73. The frozen NARA PDF

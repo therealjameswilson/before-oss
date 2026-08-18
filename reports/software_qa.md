@@ -5,43 +5,42 @@ Run: 2026-08-18 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,380 pages**
-- Internal link check: **24,380 HTML files passed**
-- Complete browser and accessibility matrix: **810 / 810 assertions passed**
-  across desktop, phone, and tablet. The first long-running pass completed
-  809 cases and encountered one tablet timeout on the older `/sources/`
-  accessibility regression; it passed in an isolated single-worker retry.
-  No serious or critical axe violation was found.
-- Focused Batch 256 browser and accessibility regression: **3 / 3 passed**
+- Static production build: **24,383 pages**
+- Internal link check: **24,383 HTML files passed**
+- Complete browser and accessibility matrix: **813 / 813 assertions passed**
+  in one uninterrupted single-worker run across desktop, phone, and tablet;
+  no serious or critical axe violation was found.
+- Focused Batches 257-262 browser and accessibility regression: **3 / 3
+  passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`c7b8db7db2078e27adc48607c28a0783263b312d57d82993813da2bf784132df`)
-- Latest deterministic build (Batch 256): **byte-for-byte identical** across
+  (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
+- Latest deterministic build (Batches 257-262): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,640,816 bytes**;
+  across **74,959,371 bytes**;
   manifest SHA-256
-  `a96148a93617a926e5bb83eeaca03b21a2a9d35b719eab5dcd316a4361487d78`
+  `fc065b6798e67f29eefbe6d599dd26134eb9c31dd6c772bed85f532516591315`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,450** production artifacts, including compressed mirrors;
+  matches** in **24,453** production artifacts, including compressed mirrors;
   **1,020** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,801** public records representing **1,321** unique documents
-- Private citation records: **2,821**
-- Published, qualified, or conflict-visible affiliations: **1,005**
-- Published or conflict-visible claims: **1,950**
-- Verified-affiliation metric: **414** people with confirmed/high published
+- Reviewed public sources: **1,829** public records representing **1,335** unique documents
+- Private citation records: **2,853**
+- Published, qualified, or conflict-visible affiliations: **1,023**
+- Published or conflict-visible claims: **1,987**
+- Verified-affiliation metric: **416** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **182** people with confirmed/high published
+- Verified-employer metric: **183** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
 - Batch 153 production verification: **passed**
@@ -173,6 +172,44 @@ Run: 2026-08-18 UTC
   post-merge Test and Pages workflows, all **65** live assets matched byte for
   byte across **74,601,141 bytes**, and the home page plus all ten Batch 255
   routes returned HTTP 200
+- Batch 256 production verification: **passed**; release `9e9d46a` passed
+  hosted pull-request CI, post-merge Test workflow 32122627893, and Pages
+  workflow 32122627876; all **65** live assets matched byte for byte across
+  **74,640,816 bytes**, and the home page plus all ten Batch 256 profile routes
+  returned HTTP 200
+
+## Batches 257-262 local release check
+
+Batches 257-262 add sixty visually checked rows from Ernst L. Boxleitner
+through June M. Bradford across PDF pages 47-48 and Boxes 73-74. They publish
+Bjarne Braatoy's immediate Office of War Information government assignment,
+Thomas W. Braden's British Army-to-OSS pathway and last civilian employer at
+Mutual Broadcasting System, and thirteen qualified Army-entry occupations.
+They do not convert occupations or government and military assignments into
+civilian employers. Bernice R. Bradford's identifier/name disagreement is
+published as a conflict; unsupported namesakes and temporal candidates remain
+below the publication threshold.
+
+The six strict bundles add 60 durable attempts, 32 sources, three
+organizations, 18 affiliations, 38 claims, and 94 claim-source links. Repeat
+imports leave every evidence-table count unchanged. Research-attempt coverage
+is 2,415 people and archival-review coverage is 2,364 people; the conservative
+verified-affiliation and verified-employer numerators are 416 and 183. The
+public projection contains 1,023 affiliations, 1,987 claims, and 1,829 citation
+records representing 1,335 unique documents.
+
+The 74-test Python suite, SQLite integrity and foreign-key checks,
+deterministic 200-profile audit, focused three-viewport regression, 24,383-page
+internal-link pass, 49,237-URL external inventory, zero-warning Astro
+diagnostics, zero-vulnerability dependency audit, and public-identifier audit
+all pass. The complete browser and axe matrix passed **813 / 813** assertions
+in one uninterrupted run with no serious or critical axe violation.
+
+All 65 manifest assets match across 74,959,371 bytes; the manifest SHA-256 is
+`fc065b6798e67f29eefbe6d599dd26134eb9c31dd6c772bed85f532516591315`.
+Two consecutive production builds are byte-for-byte identical under the
+sorted path-and-file-SHA-256 procedure and have the complete-site digest
+`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`.
 
 ## Batch 256 local release check
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:33:01+00:00",
+  "generated_at": "2026-08-18T09:40:12+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -34,8 +34,8 @@
   "identity_status_counts": {
     "ambiguous": 2,
     "confirmed": 3,
-    "conflicting": 8,
-    "high_confidence": 23,
+    "conflicting": 9,
+    "high_confidence": 22,
     "probable": 4,
     "unresolved": 160
   },
@@ -59,7 +59,7 @@
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 21,
-    "medium_published_claim": 12,
+    "medium_published_claim": 11,
     "conflicting_published_claim": 10,
     "unresolved_identity": 160
   },
@@ -238,6 +238,7 @@
     "796ac649-d385-5910-b09e-b7be76b35d55",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
+    "f43011a1-c3b9-5db1-bcbd-69ff69e46848",
     "4bc411ac-75eb-5f5f-a881-42af3469c0b6",
     "37f34560-1d15-517d-87c8-175e58229b8e",
     "c8f6a56e-5888-5787-81b1-ad20da94a3dc",
@@ -245,7 +246,6 @@
     "586740e3-27cd-5d04-a8a9-ed3ba2c72364",
     "fcdbd0f5-e857-5910-9ca0-a60683984563",
     "3dd022f8-ea59-5a68-8e03-2aac8bf496e8",
-    "7ea18b5b-aca9-5f3a-9b6d-04918e94407a",
     "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",

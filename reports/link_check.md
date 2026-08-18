@@ -4,16 +4,42 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,380 HTML files. Every relative
+**PASS.** The production build contains 24,383 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 432 organization profiles, and the
+The build includes 23,940 person profiles, 435 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,227 unique external URLs for separate live
+The checker inventoried 49,237 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batches 257-262 local release check
+
+The complete 24,383-page internal-link pass includes direct routes for Ernst
+L. Boxleitner through June M. Bradford across PDF pages 47-48. The 74-test
+Python suite, deterministic 200-profile audit, focused 3-case regression,
+complete 813-assertion desktop, phone, and tablet browser/axe matrix, and
+complete public-identifier audit pass; Astro reports zero errors, warnings, or
+hints, and the production dependency audit finds zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 74,959,371 bytes and has
+SHA-256
+`fc065b6798e67f29eefbe6d599dd26134eb9c31dd6c772bed85f532516591315`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,453 artifacts, rejected 1,020
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`.
+
+The regression keeps Braatoy's government relationships, Braden's military and
+civilian pathways, thirteen Army occupations, and the Bradford identity
+conflict in their proper evidentiary categories while routing unsupported
+namesakes to archival review.
 
 ## Batch 256 local release check
 
@@ -43,6 +69,11 @@ The regression publishes two qualified probable identities, keeps Bownass's
 uncertain Tangier assignment below the publication threshold, separates
 Boxer's student and unnamed-employer evidence, and routes eight unsupported
 identities to archival review without promoting namesakes.
+
+Release `9e9d46a` passed hosted pull-request CI, post-merge Test workflow
+32122627893, and Pages workflow 32122627876. The cache-busted production audit
+matched all 65 published assets byte for byte across 74,640,816 bytes and
+returned HTTP 200 for the home page and all ten Batch 256 profile routes.
 
 ## Batch 255 local release check
 

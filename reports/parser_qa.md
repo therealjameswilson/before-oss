@@ -1,6 +1,6 @@
 # Parser QA
 
-Generated: 2026-08-18T08:21:50+00:00
+Generated: 2026-08-18T09:40:01+00:00
 
 ## Gate summary
 
@@ -30,17 +30,6 @@ Generated: 2026-08-18T08:21:50+00:00
 - Maximum: 46
 
 The final page contains 12 rows and is expected to be shorter. Visual selection does not itself mark a page as reviewed.
-
-## Transparent rank-normalization updates
-
-Batch 255 adds two conservative, documented parser fixtures without changing
-any immutable raw value. Ten printed `LtCol` rows now normalize to `LT COL`;
-nine classify as commissioned Army officers and one retains its separately
-documented foreign/Allied category. Four printed `RM2/c` rows and one `RM2c`
-row now normalize to `RM 2/C` and classify as enlisted naval personnel. The
-official Naval History and Heritage Command action-report vocabulary documents
-`RM2c` as Radioman Second Class. Unfamiliar abbreviations continue to remain
-unclassified.
 
 ## Visual QA selection
 

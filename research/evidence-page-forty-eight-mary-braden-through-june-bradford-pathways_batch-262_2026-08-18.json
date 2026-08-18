@@ -1,0 +1,762 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, batch 262",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-48-batch262",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 75-76",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 48, rows 28-37; Mary E. Braden through June M. Bradford; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch262",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for four eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch262",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch262",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Digital PDF page 171; civilian occupational-group code 1-26 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    },
+    {
+      "key": "nara-fbi-thomas-braden-file-review-batch262",
+      "stable_url": "https://www.archives.gov/files/research/rfk/releases/2025/0507/62-hq-587_sec_041_ser_1125-1175-part_1_of_6.pdf",
+      "archival_identifier": "FBI file 62-HQ-587, Section 41, serials 1125-1175, part 1 of 6",
+      "title": "FBI File Review: Tom Braden and Frank Mankiewicz",
+      "author_creator": "Federal Bureau of Investigation",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1969",
+      "locator": "Summary identifying Thomas Wardell Braden's Dartmouth graduation, British Eighth Army service, and 1944 transfer to OSS",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Robert F. Kennedy Assassination Records release",
+      "document_number": "62-HQ-587, Section 41",
+      "rights_notes": "Used only for non-sensitive identity and service chronology. Unrelated investigative material and personal details are excluded."
+    },
+    {
+      "key": "dartmouth-class-note-thomas-braden-1942-batch262",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1942/2/1/1940",
+      "archival_identifier": "Dartmouth Alumni Magazine, February 1942, class of 1940 notes",
+      "title": "1940: Thomas W. Braden Jr.",
+      "author_creator": "Dartmouth College class of 1940 correspondent",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1942-02",
+      "locator": "Class note describing Braden's Mutual Broadcasting System work and imminent departure for British Army training",
+      "access_date": "2026-08-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine archive",
+      "document_number": null,
+      "rights_notes": "Contemporary institutional source. Short excerpts and project-authored paraphrases only."
+    },
+    {
+      "key": "london-gazette-thomas-braden-commission-batch262",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/35929/supplement/1125/data.pdf",
+      "archival_identifier": "The London Gazette, issue 35929, supplement, page 1125",
+      "title": "Supplement to The London Gazette, 9 March 1943",
+      "author_creator": "War Office",
+      "repository_publisher": "The London Gazette",
+      "publication_record_date": "1943-03-09",
+      "locator": "King's Royal Rifle Corps appointments, 19 December 1942; Thomas Wardell Braden",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "The London Gazette",
+      "document_number": "Issue 35929, supplement 1125",
+      "rights_notes": "Official commission notice used to establish commissioned status and named British regiment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "kings-royal-rifle-corps-60th",
+      "canonical_name": "King's Royal Rifle Corps, 60th Regiment",
+      "historical_name": "King's Royal Rifle Corps",
+      "aliases": [
+        "60th Regiment, King's Royal Rifle Corps",
+        "KRRC"
+      ],
+      "organization_type": "British Army infantry regiment",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United Kingdom",
+      "active_dates": "1755-1966",
+      "normalization_notes": "Braden's regiment is preserved separately from the British Eighth Army formation in which the official federal summary says he served."
+    },
+    {
+      "key": "mutual-broadcasting-system-batch262",
+      "canonical_name": "Mutual Broadcasting System",
+      "historical_name": "Mutual Broadcasting System",
+      "aliases": [
+        "Mutual",
+        "MBS"
+      ],
+      "organization_type": "radio network",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1934-1999",
+      "normalization_notes": "The contemporary source names the network but not Braden's title; no role is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "thomas-braden-krrc-immediate-pre-oss-batch262",
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "organization_key": "kings-royal-rifle-corps-60th",
+      "organization_name_as_found": "King's Royal Rifle Corps in the British Army",
+      "role_title": "Second Lieutenant",
+      "occupation": "British Army infantry officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-02",
+      "end_date": "1944",
+      "date_precision": "Enlistment planned for February 1942; commission dated 19 December 1942; federal summary states transfer from British Eighth Army to OSS in 1944",
+      "city": null,
+      "state_or_region": null,
+      "country": "United Kingdom",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The official FBI summary explicitly states transfer from British Eighth Army service to OSS in 1944; Dartmouth and London Gazette sources identify the King's Royal Rifle Corps and commission."
+    },
+    {
+      "key": "thomas-braden-mutual-last-civilian-batch262",
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "organization_key": "mutual-broadcasting-system-batch262",
+      "organization_name_as_found": "Mutual Broadcasting System",
+      "role_title": null,
+      "occupation": "broadcasting work, title not stated",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942-02",
+      "date_precision": "Contemporary February 1942 class note identifies ongoing/recent work immediately before departure for British Army training",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source names the employer but not Braden's job title. It is the last documented civilian work immediately before British Army service, not the immediate predecessor to OSS."
+    },
+    {
+      "key": "albert-bradford-occupation-code-126-batch262",
+      "person_id": "14893d7f-a73b-5600-9862-3d9babb8cab3",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Paymasters, payroll clerks, and timekeepers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-01",
+      "date_precision": "Civilian-occupation code 126 recorded at Army entry on 1943-06-01; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, or exact job among the grouped possibilities."
+    }
+  ],
+  "claims": [
+    {
+      "key": "thomas-braden-high-confidence-identity-batch262",
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas W. Braden is a high-confidence match to Thomas Wardell Braden, the British Army officer who transferred to OSS in 1944.",
+      "evidence_excerpt": "in 1944, transferred ... to the Office of Strategic Services",
+      "evidence_paraphrase": "Official and institutional sources align the full name, Dartmouth chronology, British Army commission, and explicit 1944 OSS transfer.",
+      "identity_match_assessment": "High confidence: exact full-name/initial alignment plus multiple specific wartime identifiers and an explicit OSS transfer.",
+      "temporal_assessment": "The sources place British Army service from 1942 and transfer to OSS in 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical file should reconcile the indexed U.S. identifier with the separate British commission number.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch262",
+          "support_type": "supports",
+          "locator_override": "PDF page 48, Thomas W. Braden source row; private identifier withheld"
+        },
+        {
+          "source_key": "nara-fbi-thomas-braden-file-review-batch262",
+          "support_type": "supports",
+          "locator_override": "FBI summary",
+          "excerpt_override": "in 1944, transferred ... to the Office of Strategic Services"
+        },
+        {
+          "source_key": "london-gazette-thomas-braden-commission-batch262",
+          "support_type": "supports",
+          "locator_override": "Supplement page 1125",
+          "excerpt_override": "Thomas Wardell BRADEN ... K.R.R.C."
+        }
+      ]
+    },
+    {
+      "key": "thomas-braden-krrc-immediate-affiliation-batch262",
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "affiliation_key": "thomas-braden-krrc-immediate-pre-oss-batch262",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Thomas W. Braden's best-supported immediate pre-OSS affiliation is British Army service in the King's Royal Rifle Corps and British Eighth Army.",
+      "evidence_excerpt": "served in the British Eighth Army, and in 1944, transferred ... to ... OSS",
+      "evidence_paraphrase": "A federal summary explicitly places British Eighth Army service immediately before OSS; official and Dartmouth sources identify his regiment and commission.",
+      "identity_match_assessment": "High-confidence exact person match across official and institutional sources.",
+      "temporal_assessment": "Explicitly immediate: the official summary uses a direct 1944 transfer sequence from British Army service to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-fbi-thomas-braden-file-review-batch262",
+          "support_type": "supports",
+          "locator_override": "FBI summary",
+          "excerpt_override": "served in the British Eighth Army, and in 1944, transferred ... to ... OSS"
+        },
+        {
+          "source_key": "london-gazette-thomas-braden-commission-batch262",
+          "support_type": "supports",
+          "locator_override": "Supplement page 1125",
+          "excerpt_override": "Thomas Wardell BRADEN ... K.R.R.C."
+        },
+        {
+          "source_key": "dartmouth-class-note-thomas-braden-1942-batch262",
+          "support_type": "supports",
+          "locator_override": "February 1942 class note",
+          "excerpt_override": "join the King's Royal Rifle Force"
+        }
+      ]
+    },
+    {
+      "key": "thomas-braden-mutual-last-civilian-employer-batch262",
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "affiliation_key": "thomas-braden-mutual-last-civilian-batch262",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Thomas W. Braden's last documented civilian employer before British Army service was the Mutual Broadcasting System; his title is not stated.",
+      "evidence_excerpt": "the grand job he has been doing for the Mutual Broadcasting System",
+      "evidence_paraphrase": "A contemporary February 1942 class note names Mutual while reporting Braden's imminent departure for British Army training.",
+      "identity_match_assessment": "High-confidence match through full name, Dartmouth class, and the same documented British Army transition.",
+      "temporal_assessment": "Strongly date-bounded immediately before military service, but not the immediate predecessor to OSS because British Army service intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The employer is named; no job title is inferred from the broadcasting context.",
+      "sources": [
+        {
+          "source_key": "dartmouth-class-note-thomas-braden-1942-batch262",
+          "support_type": "supports",
+          "locator_override": "February 1942 class note",
+          "excerpt_override": "the grand job he has been doing for the Mutual Broadcasting System"
+        },
+        {
+          "source_key": "nara-fbi-thomas-braden-file-review-batch262",
+          "support_type": "context_only",
+          "locator_override": "FBI summary establishing the later British Army-to-OSS sequence"
+        }
+      ]
+    },
+    {
+      "key": "albert-bradford-confirmed-identity-batch262",
+      "person_id": "14893d7f-a73b-5600-9862-3d9babb8cab3",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Albert F. Bradford identity in the official Army merged file.",
+      "evidence_excerpt": "BRADFORD ALBERT F",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and matching full name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-06-01; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch262",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch262",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRADFORD ALBERT F"
+        }
+      ]
+    },
+    {
+      "key": "albert-bradford-occupation-at-army-entry-batch262",
+      "person_id": "14893d7f-a73b-5600-9862-3d9babb8cab3",
+      "affiliation_key": "albert-bradford-occupation-code-126-batch262",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Albert F. Bradford in the broad civilian group for paymasters, payroll clerks, and timekeepers.",
+      "evidence_excerpt": "Civilian occupation code 126.",
+      "evidence_paraphrase": "Code 126 was recorded at Army entry on 1943-06-01 and maps to a grouped clerical occupation.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact role among the grouped possibilities, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch262",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 126"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch262",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table, code 1-26"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch262",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "bernice-bradford-branson-identifier-conflict-batch262",
+      "person_id": "8ac124ac-ea52-58b0-9c3e-27868826f79a",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernice R. Bradford private identifier conflicts with an official Army record naming Bernice R. Branson.",
+      "evidence_excerpt": "BRANSON BERNICE R",
+      "evidence_paraphrase": "The exact private identifier points to a different surname with the same given name and middle initial; no name-change evidence was found.",
+      "identity_match_assessment": "Conflicting: a unique identifier agrees but the surname does not, and the relationship between the names is undocumented.",
+      "temporal_assessment": "The Army record is wartime, but the identity conflict prevents any occupation or affiliation from being assigned to the index person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both names are preserved. No marriage, alias, transcription-error, or duplicate explanation is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-48-batch262",
+          "support_type": "supports",
+          "locator_override": "Visually checked Bernice R. Bradford source row; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch262",
+          "support_type": "contradicts",
+          "locator_override": "Exact private-identifier record with conflicting surname; identifier withheld",
+          "excerpt_override": "BRANSON BERNICE R"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "06f5f959-fece-5498-8265-1510069e9227",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and initial, without rank, private identifier, note, or nationality, are insufficient to select a namesake. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Mary E Braden",
+        "Mary E. Braden",
+        "Braden, Mary E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name and unusual six-digit wartime identifier align with official and institutional sources naming Thomas Wardell Braden, his British Army commission, his 1944 transfer to OSS, and his immediate pre-service broadcasting work.",
+      "name_variants": [
+        "Thomas W Braden",
+        "Thomas W. Braden",
+        "Thomas Wardell Braden",
+        "Thomas Wardell Braden Jr.",
+        "Tom Braden",
+        "Braden, Thomas W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 75 for the U.S. Army appointment instrument, exact OSS accession date, and reconciliation of the indexed identifier with his British commission number.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "17bf240f-db51-53c6-932d-072727ebd868",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and middle initial, without rank or private identifier, are insufficient to select a namesake. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "William E Braden",
+        "William E. Braden",
+        "Braden, William E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7e8a9152-b451-5e2a-92a1-29110828c0eb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index establishes a Corporal classification, but its private identifier did not receive a corroborating match in the official Army merged file. Exact-name searches did not establish a reliable identity or predecessor chronology.",
+      "name_variants": [
+        "Marion C Bradenberger",
+        "Marion C. Bradenberger",
+        "Bradenberger, Marion C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review the Box 75/76 discrepancy noted in the index and resolve the identifier, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be14ec93-309c-55db-a1b7-9f7ea0f0aeae",
+      "identity_status": "unresolved",
+      "identity_evidence": "Same-name life-date and genealogy results do not mention OSS or provide corroborating wartime identifiers. The index supplies no rank or private identifier with which to resolve Ruth E. Bradfield.",
+      "name_variants": [
+        "Ruth E Bradfield",
+        "Ruth E. Bradfield",
+        "Bradfield, Ruth E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "14893d7f-a73b-5600-9862-3d9babb8cab3",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Albert F. Bradford's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Albert F Bradford",
+        "Albert F. Bradford",
+        "Bradford, Albert F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named employer, exact clerical role, and Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8ac124ac-ea52-58b0-9c3e-27868826f79a",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index's private identifier points to an official Army record for Bernice R. Branson rather than Bernice R. Bradford. A wartime surname change is possible but undocumented; the records remain in explicit conflict.",
+      "name_variants": [
+        "Bernice R Bradford",
+        "Bernice R. Bradford",
+        "Bradford, Bernice R.",
+        "Bernice R Branson",
+        "Branson, Bernice R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 75 for the indexed surname, alternate-name documentation, private identifier, and personnel chronology before accepting or rejecting the Branson candidate.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d187f0c3-9f3e-5f36-8a7f-69f3efc7c434",
+      "identity_status": "unresolved",
+      "identity_evidence": "A documentary genealogy candidate supplies the same name and wartime-age range but no OSS link or two index-specific corroborating identifiers. The index supplies no rank or private identifier, so the candidate remains unassigned.",
+      "name_variants": [
+        "Charles T Bradford",
+        "Charles T. Bradford",
+        "Bradford, Charles T."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9b25f298-dbdf-5672-ab79-97f8a13f1496",
+      "identity_status": "unresolved",
+      "identity_evidence": "Historical newspaper and genealogy results concern older or otherwise uncorroborated namesakes and do not establish the indexed person. The common name and initial have no rank or private identifier for resolution.",
+      "name_variants": [
+        "Henry B Bradford",
+        "Henry B. Bradford",
+        "Bradford, Henry B."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f9df788-00c7-5dc2-a4e9-514ddcf951a7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name official, CIA, OSS, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity. Modern people-finder results were rejected as irrelevant and sensitive.",
+      "name_variants": [
+        "June M Bradford",
+        "June M. Bradford",
+        "Bradford, June M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "mary-e-braden-protocol-batch262",
+      "person_id": "06f5f959-fece-5498-8265-1510069e9227",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mary E Braden: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:00:00+00:00",
+      "completed_at": "2026-08-18T17:07:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common name and initial, without rank, private identifier, note, or nationality, are insufficient to select a namesake. Official, CIA Reading Room, exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "thomas-w-braden-protocol-batch262",
+      "person_id": "be7e0f59-4d6b-5f97-ab9c-f03ba889f8bd",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Thomas W Braden: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:07:00+00:00",
+      "completed_at": "2026-08-18T17:14:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The indexed full name and unusual six-digit wartime identifier align with official and institutional sources naming Thomas Wardell Braden, his British Army commission, his 1944 transfer to OSS, and his immediate pre-service broadcasting work.",
+      "next_action": "Review Box 75 for the U.S. Army appointment instrument, exact OSS accession date, and reconciliation of the indexed identifier with his British commission number.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "william-e-braden-protocol-batch262",
+      "person_id": "17bf240f-db51-53c6-932d-072727ebd868",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William E Braden: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:14:00+00:00",
+      "completed_at": "2026-08-18T17:21:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common name and middle initial, without rank or private identifier, are insufficient to select a namesake. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "marion-c-bradenberger-protocol-batch262",
+      "person_id": "7e8a9152-b451-5e2a-92a1-29110828c0eb",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Marion C Bradenberger: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:21:00+00:00",
+      "completed_at": "2026-08-18T17:28:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually checked index establishes a Corporal classification, but its private identifier did not receive a corroborating match in the official Army merged file. Exact-name searches did not establish a reliable identity or predecessor chronology.",
+      "next_action": "Review the Box 75/76 discrepancy noted in the index and resolve the identifier, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "ruth-e-bradfield-protocol-batch262",
+      "person_id": "be14ec93-309c-55db-a1b7-9f7ea0f0aeae",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ruth E Bradfield: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:28:00+00:00",
+      "completed_at": "2026-08-18T17:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "Same-name life-date and genealogy results do not mention OSS or provide corroborating wartime identifiers. The index supplies no rank or private identifier with which to resolve Ruth E. Bradfield.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "albert-f-bradford-protocol-batch262",
+      "person_id": "14893d7f-a73b-5600-9862-3d9babb8cab3",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Albert F Bradford: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:35:00+00:00",
+      "completed_at": "2026-08-18T17:42:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Albert F. Bradford's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 75 for a named employer, exact clerical role, and Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "bernice-r-bradford-protocol-batch262",
+      "person_id": "8ac124ac-ea52-58b0-9c3e-27868826f79a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bernice R Bradford: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:42:00+00:00",
+      "completed_at": "2026-08-18T17:49:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index's private identifier points to an official Army record for Bernice R. Branson rather than Bernice R. Bradford. A wartime surname change is possible but undocumented; the records remain in explicit conflict.",
+      "next_action": "Review Box 75 for the indexed surname, alternate-name documentation, private identifier, and personnel chronology before accepting or rejecting the Branson candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "charles-t-bradford-protocol-batch262",
+      "person_id": "d187f0c3-9f3e-5f36-8a7f-69f3efc7c434",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Charles T Bradford: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:49:00+00:00",
+      "completed_at": "2026-08-18T17:56:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "A documentary genealogy candidate supplies the same name and wartime-age range but no OSS link or two index-specific corroborating identifiers. The index supplies no rank or private identifier, so the candidate remains unassigned.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "henry-b-bradford-protocol-batch262",
+      "person_id": "9b25f298-dbdf-5672-ab79-97f8a13f1496",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Henry B Bradford: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T17:56:00+00:00",
+      "completed_at": "2026-08-18T18:03:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "Historical newspaper and genealogy results concern older or otherwise uncorroborated namesakes and do not establish the indexed person. The common name and initial have no rank or private identifier for resolution.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    },
+    {
+      "key": "june-m-bradford-protocol-batch262",
+      "person_id": "7f9df788-00c7-5dc2-a4e9-514ddcf951a7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "June M Bradford: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T18:03:00+00:00",
+      "completed_at": "2026-08-18T18:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "Exact-name official, CIA, OSS, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity. Modern people-finder results were rejected as irrelevant and sensitive.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch262-v1"
+    }
+  ]
+}
