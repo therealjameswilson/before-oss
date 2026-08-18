@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,701 people with a non-planned attempt | 23,940 active person entities | 11.2824% |
+| Research-attempt coverage | 2,711 people with a non-planned attempt | 23,940 active person entities | 11.3241% |
 | Verified-affiliation coverage | 426 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7794% |
 | Verified-employer coverage | 185 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7728% |
-| Archival-review coverage | 2,651 people with an individual file-access/priority assessment | 23,940 active person entities | 11.0735% |
+| Archival-review coverage | 2,661 people with an individual file-access/priority assessment | 23,940 active person entities | 11.1153% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 451
+- Identity status `confirmed`: 452
 - Identity status `high_confidence`: 454
 - Identity status `probable`: 90
 - Identity status `ambiguous`: 45
-- Identity status `conflicting`: 34
-- Identity status `unresolved`: 22,866
+- Identity status `conflicting`: 35
+- Identity status `unresolved`: 22,864
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,277
-- Enlisted Army personnel: 3,672
+- Unknown or indeterminate: 16,276
+- Enlisted Army personnel: 3,673
 - Commissioned Army officers: 2,093
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,207 yes; 5,314 no; 16,419 indeterminate.
+Commissioned classification: 2,207 yes; 5,315 no; 16,418 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,239
+- `not_started`: 21,229
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 63
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 383
-- `requires_archival_review`: 1,832
+- `occupation_only_found`: 384
+- `requires_archival_review`: 1,840
 - `completed`: 84
-- `conflicting_sources`: 35
+- `conflicting_sources`: 36
 - `verified_employer_found`: 183
-- Claim confidence: 632 confirmed; 982 high; 497 medium; 36 low; 45
+- Claim confidence: 633 confirmed; 982 high; 498 medium; 36 low; 46
   conflicting
-- Durable evidence inventory: 3,008 source records representing 1,391 unique
-  documents; 450 organizations; 1,102 affiliations; 2,192 claims; and 4,930
+- Durable evidence inventory: 3,012 source records representing 1,391 unique
+  documents; 450 organizations; 1,103 affiliations; 2,195 claims; and 4,938
   claim-source links
-- Reviewed public projection: 439 organizations; 1,093 published, qualified,
-  or conflict-visible affiliations; 2,156 published, qualified, or
-  conflict-visible claims; and 1,971 public citation records
+- Reviewed public projection: 439 organizations; 1,094 published, qualified,
+  or conflict-visible affiliations; 2,159 published, qualified, or
+  conflict-visible claims; and 1,975 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,207 yes; 5,314 no; 16,419 indeterminate.
   2,473. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,099 across 1,066 people; 119 additional
+- Saved `source_reviewed` outcomes: 1,100 across 1,067 people; 119 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,902
+- Total recorded attempts/plans: 3,912
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,007; 981 have at least one public-visible
+- People with saved reviewed claims: 1,009; 983 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4686,14 +4686,49 @@ Commissioned classification: 2,207 yes; 5,314 no; 16,419 indeterminate.
   identifier linkage. No authenticated Catalog request, credential, raw API
   response, full private identifier, or unsupported employer claim was used or
   published.
-- Public-visible affiliations: 1,093 (published, qualified, or conflict-visible)
-- Database claims: 2,192; public-visible claims: 2,156 (632 confirmed, 982 high,
-  497 medium, 45 conflicting); 30 low-confidence claims are withheld and six
+- Batch 292 covers Kenneth F. Brown through Margaret J. Brown, the final two
+  rows on PDF page 55 and the first eight rows on page 56, all in Box 85. An
+  exact-name and private-identifier match in the official Army merged file
+  confirms Lewis Q. Brown as enlisted Army personnel. His April 30, 1943 entry
+  record supports only the qualified residual category of purchasing agent or
+  buyer, not an exact title, named employer, supplier, product, worksite, or
+  later Army-to-OSS sequence. Leonard J. Brown's printed private identifier
+  resolves to an official Army record for a different person; the unrelated
+  subject and both identifiers are withheld, and Leonard remains a visible
+  conflicting-identity case requiring critical Box 85 review. The bulk file
+  supplied no exact identifier match for Leslie J., Lewis W., Lewis G., or
+  Malcolm M. Brown; its known omissions and officer exclusion mean those
+  absences are not disproof. Kenneth F., Leslie J., Lewis W., Lewis G., Louise
+  C., Malcolm M., Margaret H., and Margaret J. Brown remain unresolved
+  archival-review cases. An Operational Groups roster's 1st Lt. J. G. Brown
+  was rejected for Lewis G. because the initials are reversed and no identifier
+  or Box 85 link exists. Directory, military, cemetery, obituary, institutional,
+  and later professional namesakes were likewise rejected when chronology or
+  corroborating identifiers failed. No authenticated Catalog request,
+  credential, raw API response, full private identifier, unrelated conflict
+  subject, or unsupported employer claim was used or published.
+- Batch 292 local release QA passed all 74 Python tests, all 873 browser,
+  responsive, and accessibility cases, the focused 3 / 3 profile regression,
+  deterministic 200-profile audit, complete 24,387-page internal-link check,
+  SQLite integrity and foreign-key checks, zero-warning Astro diagnostics, and
+  a dependency audit with zero vulnerabilities. The public-identifier audit
+  compared 12,926 normalized identifiers and 120 genuine formatted variants
+  across 24,457 production artifacts, rejected 1,027 harmless candidate
+  substrings, and found no aggregate, manifest-size, or unexpected boundary
+  matches. All 65 manifest assets match across 76,405,521 bytes; the manifest
+  SHA-256 is `73d54f812795a97a9890fac333455d264834a32b738acba1d346dda30886e1aa`.
+  Consecutive public-data builds reproduced digest
+  `cc905c5ca4a7f99c16d62aceacbab19895727582c9b2dfb2cf78eae981d1067e`,
+  and consecutive production builds reproduced complete static-tree digest
+  `d865038f32329b22a2f450784ecea14405805cda72ffef00a2324c489190d365`.
+- Public-visible affiliations: 1,094 (published, qualified, or conflict-visible)
+- Database claims: 2,195; public-visible claims: 2,159 (633 confirmed, 982 high,
+  498 medium, 46 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,930 total and 4,853 public-visible; private source
-  records: 3,008; public source export: 1,971; unique source documents: 1,391
+- Claim-source links: 4,938 total and 4,861 public-visible; private source
+  records: 3,012; public source export: 1,975; unique source documents: 1,391
 - Canonical organizations: 450 private and 439 public
-- Conflicting claims: 45 across 37 people
+- Conflicting claims: 46 across 37 people
 - NARA pull-list rows: 23,795
 
 Planned dry-run requests do not count as research-attempt coverage.

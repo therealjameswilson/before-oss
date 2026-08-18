@@ -23652,3 +23652,46 @@ test("Batch 291 publishes three identifier-backed occupations and keeps both Joh
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 292 publishes one identifier-backed occupation, preserves an identifier conflict, and keeps eight profiles unresolved", async ({
+  page,
+}) => {
+  await page.goto("./people/77981787-4631-5c49-ac1c-f6cdec913a22/");
+  await expect(page.getByRole("heading", { name: "Lewis Q Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Purchasing agent or buyer, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/542c8c58-a5b8-5c77-9915-9d675fbe6c8b/");
+  await expect(page.getByRole("heading", { name: "Leonard J Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("different person");
+  await expect(page.locator("main")).toContainText("critical identifier-conflict case");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["12723c5f-5710-57a6-a1aa-9c43842b5293", "Kenneth F Brown"],
+    ["9c23ce49-f990-5d04-865d-02b9f4cd1b5b", "Leslie J Brown"],
+    ["0284cc98-464a-5ba5-8091-ca66611fc84c", "Lewis W Brown"],
+    ["1581b3ba-5d98-54cf-8321-607fef38f9bb", "Lewis G Brown"],
+    ["88cd6395-ccbd-51ee-bd3a-164798b63c66", "Louise C Brown"],
+    ["5242be60-34c3-598f-aace-a993b0975876", "Malcolm M Brown"],
+    ["69d2a8bf-e0c9-544a-8faf-645406045906", "Margaret H Brown"],
+    ["301ffe93-7c7a-57ba-86f9-f9dd5b8b4cb8", "Margaret J Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

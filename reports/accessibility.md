@@ -4,16 +4,22 @@ Run: 2026-08-18 UTC
 
 ## Result
 
-**PASS WITH CORRECTED TIMEOUT RETRY.** The complete single-worker run passed
-**815 / 816** browser and accessibility assertions at desktop, phone, and tablet
-widths in 44.7 minutes. Its only failure was the growing `/sources/` table's
-desktop axe scan under the former 45-second limit. After that route alone was
-given a 90-second limit, the exact scan passed **3 / 3** across all viewports;
-the phone and tablet cases also passed inside the complete run. No serious or
-critical axe violation was found.
+**PASS.** The complete single-worker run passed **873 / 873** browser,
+responsive, and accessibility cases at desktop, phone, and tablet widths. The
+matrix includes 27 axe scans of representative routes, including the growing
+Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 292 adds a focused direct-route regression for Kenneth F. Brown through
+Margaret J. Brown across PDF pages 55-56. It verifies Lewis Q. Brown's exact-
+identifier Army identity and qualified purchasing-agent-or-buyer category
+without converting the category into a named employer; keeps Leonard J.
+Brown's direct identifier conflict visible while withholding the unrelated
+Army subject; and preserves eight underdetermined identities as archival-
+review profiles. The focused regression passed **3 / 3** across desktop,
+phone, and tablet, and the complete **873 / 873** matrix passed without retry.
 
 Batch 291 adds a focused direct-route regression for John R. Brown through
 Kenneth H. Brown on PDF page 55. It verifies four exact or fixed-width-
