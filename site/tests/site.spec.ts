@@ -23592,3 +23592,63 @@ test("Batch 290 publishes three identifier-backed occupations and preserves seve
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 291 publishes three identifier-backed occupations and keeps both John D Brown rows separate", async ({
+  page,
+}) => {
+  for (const confirmedPerson of [
+    [
+      "530e5da3-8681-5109-883c-949fc41e7eca",
+      "John L Brown",
+      "Semiprofessional occupation, not elsewhere classified",
+    ],
+    [
+      "b4741b77-186f-5983-90eb-fb30c08ab456",
+      "Keith J Brown",
+      "Stoneworking occupation, not elsewhere classified",
+    ],
+    [
+      "b5340438-03e3-5dda-9561-bbf4f5cb037e",
+      "Kenneth M Brown",
+      "Paymaster, payroll clerk, or timekeeper",
+    ],
+  ]) {
+    await page.goto(`./people/${confirmedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: confirmedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      confirmedPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/391d7250-7de2-58f8-b568-9f16ea7b5d39/");
+  await expect(page.getByRole("heading", { name: "John D Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Compare both adjacent John D. Brown files");
+  await expect(page.locator("main")).toContainText("Duplicate group");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["b85f6662-363e-5d83-90a4-4ee07df51919", "John R Brown"],
+    ["056cbd0f-13d2-5933-ae30-e04a7986558d", "Joseph A Brown Jr."],
+    ["3796fcf3-1391-57e2-a335-e8b0f674a378", "Josephine L Brown"],
+    ["bff6e564-7390-5bbb-b462-ddb703b1f9a4", "Judith K Brown"],
+    ["aa90e709-915d-56a1-93fa-4963fc974d4a", "Judith M Brown"],
+    ["0f22aa20-bf24-51db-a515-ef7b63be991d", "Kenneth H Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
