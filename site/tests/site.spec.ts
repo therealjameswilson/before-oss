@@ -22945,3 +22945,53 @@ test("Batch 279 qualifies two identity candidates, publishes one coded occupatio
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 280 publishes two identifier-backed occupations, preserves an incomplete officer, and flags Brinton duplicate review", async ({
+  page,
+}) => {
+  await page.goto("./people/923228f6-98b2-555e-89ce-527edeeedc93/");
+  await expect(page.getByRole("heading", { name: "Dilworth C Brinton", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Clergyman",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/810105c5-a9ea-58de-943f-87cb5256ea83/");
+  await expect(page.getByRole("heading", { name: "Dan M Briscoe", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bookkeeper or cashier, except bank cashier",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/037dc8ae-23fa-5a1e-a6ca-5afdabc55bf8/");
+  await expect(page.getByRole("heading", { name: "Josephine Brinton", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("adjacent Josie Brinton row may be a variant or a different person");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/f6954fa3-c66e-5b61-9be7-47329cf5bcf4/");
+  await expect(page.getByRole("heading", { name: "* Brion", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Momuer;");
+
+  await page.goto("./people/465b19bf-047a-5590-bab8-42d3cd525451/");
+  await expect(page.getByRole("heading", { name: "Nelson P Bristol", exact: true })).toBeVisible();
+  await expect(page.getByText("warrant officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+});

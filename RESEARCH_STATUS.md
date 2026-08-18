@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,584 people with a non-planned attempt | 23,940 active person entities | 10.7937% |
+| Research-attempt coverage | 2,593 people with a non-planned attempt | 23,940 active person entities | 10.8312% |
 | Verified-affiliation coverage | 422 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7627% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,534 people with an individual file-access/priority assessment | 23,940 active person entities | 10.5848% |
+| Archival-review coverage | 2,543 people with an individual file-access/priority assessment | 23,940 active person entities | 10.6224% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 217
+- Possible duplicate groups: 218
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 415
+- Identity status `confirmed`: 417
 - Identity status `high_confidence`: 451
 - Identity status `probable`: 89
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,907
+- Identity status `unresolved`: 22,905
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,316
-- Enlisted Army personnel: 3,638
+- Unknown or indeterminate: 16,313
+- Enlisted Army personnel: 3,640
 - Commissioned Army officers: 2,091
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -42,33 +42,33 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 84
-- Warrant officers: 5
+- Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,203 yes; 5,278 no; 16,459 indeterminate.
+Commissioned classification: 2,203 yes; 5,279 no; 16,458 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,356
+- `not_started`: 21,347
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 353
-- `requires_archival_review`: 1,751
+- `occupation_only_found`: 355
+- `requires_archival_review`: 1,758
 - `completed`: 81
 - `conflicting_sources`: 35
 - `verified_employer_found`: 182
-- Claim confidence: 596 confirmed; 972 high; 466 medium; 35 low; 45
+- Claim confidence: 598 confirmed; 972 high; 468 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,945 source records representing 1,369 unique
-  documents; 448 organizations; 1,065 affiliations; 2,114 claims; and 4,732
+- Durable evidence inventory: 2,949 source records representing 1,369 unique
+  documents; 448 organizations; 1,067 affiliations; 2,118 claims; and 4,742
   claim-source links
-- Reviewed public projection: 437 organizations; 1,056 published, qualified,
-  or conflict-visible affiliations; 2,079 published, qualified, or
-  conflict-visible claims; and 1,908 public citation records
+- Reviewed public projection: 437 organizations; 1,058 published, qualified,
+  or conflict-visible affiliations; 2,083 published, qualified, or
+  conflict-visible claims; and 1,912 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,203 yes; 5,278 no; 16,459 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,347. The detailed adapter breakdown remains reproducible in
+  2,377. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,031 across 1,001 people; 117 additional
+- Saved `source_reviewed` outcomes: 1,046 across 1,015 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,782
+- Total recorded attempts/plans: 3,792
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 962; 937 have at least one public-visible
+- People with saved reviewed claims: 969; 944 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2676,6 +2676,48 @@ Commissioned classification: 2,203 yes; 5,278 no; 16,459 indeterminate.
   public projection contains 1,053 affiliations, 2,071 claims, and 1,895
   citation records representing 1,364 unique documents.
 
+- Batch 280 covers the next ten contiguous Box 80 rows on PDF page 52, from
+  Constance Brink through Emerald C. Bristow. The rendered source page,
+  private-identifier and rank fields, official unrestricted Army merged file
+  and technical documentation, existing reviewed evidence, public NARA, CIA,
+  and Library of Congress context, and exact-name, employment, occupation,
+  obituary, newspaper, institutional, directory, veteran, officer, and archival
+  query families were reviewed. Nine previously unstarted people now have
+  durable terminal outcomes; Crane Brinton's existing verified path received a
+  second recorded review without duplicating or broadening its claims.
+
+  Exact full-name and private-identifier matches confirm Dilworth C. Brinton
+  and Dan M. Briscoe in NARA's official Army-entry file. The code documentation
+  places Brinton in its historical clergymen group and Briscoe in its
+  bookkeeper-and-cashier group. Both findings are published only as medium-
+  confidence, strongly date-bounded occupations. Neither code supplies a named
+  employer, congregation, institution, exact job, or Army-to-OSS chronology,
+  so neither is promoted into the immediate-affiliation or last-civilian-
+  employer fields.
+
+  Crane Brinton remains the existing high-confidence Harvard historian profile:
+  the refresh found no evidence that changes its documented Harvard employment
+  or OSS identity. Josephine Brinton and Josie Brinton remain two immutable
+  source rows and two separate people; their adjacent placement and formal/
+  familiar given-name relationship support only a possible-duplicate review
+  group, not a merge.
+
+  The incomplete `* Brion` row preserves its asterisk, Captain rank, and
+  `Momuer;` note without expanding them. Nelson P. Bristol is transparently
+  classified as a warrant officer from the printed `WO JG` rank, while his
+  private identifier remains masked and no namesake is assigned. Constance
+  Brink, Charlotte A. Brinkmeyer, Josephine Brinton, Josie Brinton, the
+  incomplete Brion record, Nelson P. Bristol, and Emerald C. Bristow remain
+  archival-review cases with no reliable predecessor affiliation found.
+
+  The strict bundle adds four sources, two occupation affiliations, four
+  claims, ten claim-source links, nine person updates, and ten durable research
+  attempts. Coverage is now 2,593 researched people, 422 people with a verified
+  affiliation, 184 with a verified employer, and 2,543 individually assessed
+  for archival review, out of 23,940 active entities. The reviewed public
+  projection contains 1,058 affiliations, 2,083 claims, and 1,912 citation
+  records representing 1,369 unique documents.
+
 - Batch 279 covers the next ten contiguous Box 80 rows on PDF page 52, from
   Wade J. Brightbill through the index's printed Remsen Brincherhoff. The
   rendered source page, private-identifier fields, official unrestricted Army
@@ -4699,6 +4741,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-on
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-jeanne-bridgett-through-page-fifty-two-emily-briggs-pathways_batch-277_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-harold-briggs-through-oliver-bright-pathways_batch-278_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-wade-brightbill-through-remsen-brincherhoff-pathways_batch-279_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-constance-brink-through-emerald-bristow-pathways_batch-280_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
