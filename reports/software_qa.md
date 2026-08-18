@@ -34,41 +34,55 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 281: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **840-case** matrix runs in release CI
+- Focused Batch 282 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 282: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **843-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batch 281): **byte-for-byte identical**
+- Latest deterministic build (Batch 282): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`9772d1b96faa36e6ccd0059b04636a43294c03394bfa106ce2e9e23d0f39997b`).
-- Previous deterministic build (Batch 280): **byte-for-byte identical** across
+  (`1f12830c99117a2d1100f7de913fa8b8f822e8e91eb8490a60aefdc22115aae9`).
+- Previous deterministic build (Batch 281): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **75,803,897 bytes** in both the source and built public trees;
+  across **75,854,933 bytes** in both the source and built public trees;
   manifest SHA-256
-  `e78dc0e13c0abc00722a29cbf5d48ccbf6bdb8d3f87ecfcf8a3f8f5e989b034d`
+  `a93c67233c9c6abd5cc0c02613d2b4a4e8051a3191181a8ece8a1353a047757b`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,456** production artifacts, including compressed mirrors;
-  **1,029** candidate substrings were reviewed.
+  **1,026** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,921** public records representing **1,374** unique documents
-- Private citation records: **2,958**
-- Published, qualified, or conflict-visible affiliations: **1,062**
-- Published or conflict-visible claims: **2,091**
+- Reviewed public sources: **1,927** public records representing **1,377** unique documents
+- Private citation records: **2,963**
+- Published, qualified, or conflict-visible affiliations: **1,064**
+- Published or conflict-visible claims: **2,096**
 - Verified-affiliation metric: **423** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **184** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 282 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,386-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. Page R. Broadwater and Raymond J. Brochu have exact-
+  identifier, qualified Army-entry occupations without invented employers;
+  Hubert P. Brochard has a high-confidence French archival identity and
+  OSS-linked wartime mission context without an invented pre-OSS affiliation;
+  and seven unsupported names remain archival-review cases. The complete
+  843-case browser matrix runs in release CI.
 - Batch 281 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,386-route link check, deterministic rebuild, manifest audit, dependency

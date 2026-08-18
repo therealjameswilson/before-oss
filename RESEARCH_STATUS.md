@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,603 people with a non-planned attempt | 23,940 active person entities | 10.8730% |
+| Research-attempt coverage | 2,613 people with a non-planned attempt | 23,940 active person entities | 10.9148% |
 | Verified-affiliation coverage | 423 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7669% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,553 people with an individual file-access/priority assessment | 23,940 active person entities | 10.6642% |
+| Archival-review coverage | 2,563 people with an individual file-access/priority assessment | 23,940 active person entities | 10.7059% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 218
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 420
-- Identity status `high_confidence`: 452
+- Identity status `confirmed`: 422
+- Identity status `high_confidence`: 453
 - Identity status `probable`: 89
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 33
-- Identity status `unresolved`: 22,901
+- Identity status `unresolved`: 22,898
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,309
-- Enlisted Army personnel: 3,642
+- Unknown or indeterminate: 16,307
+- Enlisted Army personnel: 3,644
 - Commissioned Army officers: 2,092
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,204 yes; 5,284 no; 16,452 indeterminate.
+Commissioned classification: 2,205 yes; 5,286 no; 16,449 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,337
+- `not_started`: 21,327
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 61
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 358
-- `requires_archival_review`: 1,764
+- `occupation_only_found`: 360
+- `requires_archival_review`: 1,772
 - `completed`: 82
 - `conflicting_sources`: 35
 - `verified_employer_found`: 182
-- Claim confidence: 601 confirmed; 974 high; 471 medium; 35 low; 45
+- Claim confidence: 603 confirmed; 975 high; 473 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,958 source records representing 1,374 unique
-  documents; 449 organizations; 1,071 affiliations; 2,126 claims; and 4,764
+- Durable evidence inventory: 2,963 source records representing 1,377 unique
+  documents; 449 organizations; 1,073 affiliations; 2,131 claims; and 4,777
   claim-source links
-- Reviewed public projection: 438 organizations; 1,062 published, qualified,
-  or conflict-visible affiliations; 2,091 published, qualified, or
-  conflict-visible claims; and 1,921 public citation records
+- Reviewed public projection: 438 organizations; 1,064 published, qualified,
+  or conflict-visible affiliations; 2,096 published, qualified, or
+  conflict-visible claims; and 1,927 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,204 yes; 5,284 no; 16,452 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,387. The detailed adapter breakdown remains reproducible in
+  2,397. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,056 across 1,025 people; 117 additional
+- Saved `source_reviewed` outcomes: 1,066 across 1,035 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,802
+- Total recorded attempts/plans: 3,812
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 973; 948 have at least one public-visible
+- People with saved reviewed claims: 976; 951 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2676,6 +2676,48 @@ Commissioned classification: 2,204 yes; 5,284 no; 16,452 indeterminate.
   public projection contains 1,053 affiliations, 2,071 claims, and 1,895
   citation records representing 1,364 unique documents.
 
+- Batch 282 covers the next ten contiguous rows from Charles V. Broadley on PDF
+  page 52 through Alexander B. Brock on page 53, spanning Boxes 80 and 81. Both
+  rendered source pages, private-identifier and rank fields, NARA's official
+  unrestricted Army merged file and code documentation, a French military-
+  archive finding aid, the OSS-linked Sussex mission record, and the complete
+  official-context, exact-name OSS, employment, occupation, obituary,
+  newspaper, directory, foreign-language, and archival query families were
+  reviewed. Every row now has a durable outcome and an individual file-access
+  assessment.
+
+  Exact full-name and private-identifier matches confirm Page R. Broadwater and
+  Raymond J. Brochu in the official Army-entry file. NARA's historical code
+  tables place Broadwater in the general-farm-hand category and Brochu in a
+  semiskilled textile-manufacturing category not elsewhere classified. Both are
+  published only as medium-confidence, strongly date-bounded occupations. The
+  codes name no farm, mill, employer, location, precise trade, or Army-to-OSS
+  chronology, so none is invented. A second exact-name Raymond J. Brochu Army
+  entrant has a different private identifier and is explicitly rejected.
+
+  The index identifies Hubert P. Brochard as a French Second Lieutenant. An
+  official Service historique de la Défense finding aid names Hubert Paul
+  Brochard, alias Maurice Montjean, while an independently compiled, source-
+  referenced mission chronology places that alias in the OSS-linked Sussex
+  Cure mission. The identity is published at high confidence, not confirmed,
+  because no direct Box 81 identifier was found. His 1944 mission is not
+  repurposed as a pre-OSS employer or predecessor affiliation.
+
+  Charles V. Broadley, Rosella Broady, Arman F. Broch de Roth, Herman Broch de
+  Roth, Grace G. Brochard, Jack A. Brocia, and Alexander B. Brock remain
+  unresolved archival-review cases. Spelling variants, later property and
+  directory records, possible relatives, and common-name candidates are
+  retained only as rejected search context. None is promoted into an identity
+  or employment claim.
+
+  The strict bundle adds six sources, two occupation affiliations, five claims,
+  15 claim-source links, ten person updates, and ten durable research attempts.
+  Coverage is now 2,613 researched people, 423 people with a verified
+  affiliation, 184 with a verified employer, and 2,563 individually assessed
+  for archival review, out of 23,940 active entities. The reviewed public
+  projection contains 1,064 affiliations, 2,096 claims, and 1,927 citation
+  records representing 1,377 unique documents.
+
 - Batch 281 covers the next ten contiguous Box 80 rows on PDF page 52, from
   John Bristow through Christ Brix. The rendered source page, private-identifier
   and rank fields, NARA's official unrestricted Army merged file and code
@@ -4785,6 +4827,7 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-tw
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-wade-brightbill-through-remsen-brincherhoff-pathways_batch-279_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-constance-brink-through-emerald-bristow-pathways_batch-280_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-two-john-bristow-through-christ-brix-pathways_batch-281_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-pages-fifty-two-fifty-three-charles-broadley-through-alexander-brock-pathways_batch-282_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
