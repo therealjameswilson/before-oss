@@ -23538,3 +23538,57 @@ test("Batch 289 publishes two identifier-backed occupations and preserves eight 
   await expect(page.locator("main")).toContainText("Gwyneth King Brown");
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
 });
+
+test("Batch 290 publishes three identifier-backed occupations and preserves seven unresolved Brown profiles", async ({
+  page,
+}) => {
+  for (const confirmedPerson of [
+    [
+      "886c4153-68b1-5cb4-832f-799073e859ba",
+      "Jack Brown",
+      "Warehousing, storekeeping, handling, loading, unloading, or related occupation",
+    ],
+    ["a30e3b08-e63c-5e86-9da3-e889f2619619", "James Brown", "Stock clerk"],
+    [
+      "fdd9794d-07ee-545e-8e3b-3580879d1182",
+      "John D Brown",
+      "Fabricated plastic products manufacturing occupation",
+    ],
+  ]) {
+    await page.goto(`./people/${confirmedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: confirmedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      confirmedPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["1f620801-054a-5f69-9f5a-2f84aa61db26", "Howard Brown"],
+    ["76327d77-4e35-5948-a639-c91cc8f5ed96", "Jack O Brown"],
+    ["51f36ce9-2f2f-5df7-9ff5-01606241de27", "James E Brown"],
+    ["2d69357f-b045-5841-897b-90a57e628eb1", "James G Brown"],
+    ["7ab8d1d3-d345-5d1a-8156-cffa68209e95", "Jane A Brown"],
+    ["33327bb5-c48c-57d3-b14f-00f1c4613b5a", "Jeanette A Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/53444c9a-46fe-5499-9a49-e7226a378b33/");
+  await expect(page.getByRole("heading", { name: "James W Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});

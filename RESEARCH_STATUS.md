@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,681 people with a non-planned attempt | 23,940 active person entities | 11.1988% |
+| Research-attempt coverage | 2,691 people with a non-planned attempt | 23,940 active person entities | 11.2406% |
 | Verified-affiliation coverage | 426 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7794% |
 | Verified-employer coverage | 185 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7728% |
-| Archival-review coverage | 2,631 people with an individual file-access/priority assessment | 23,940 active person entities | 10.9891% |
+| Archival-review coverage | 2,641 people with an individual file-access/priority assessment | 23,940 active person entities | 11.0317% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 219
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 444
+- Identity status `confirmed`: 447
 - Identity status `high_confidence`: 454
 - Identity status `probable`: 90
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 34
-- Identity status `unresolved`: 22,873
+- Identity status `unresolved`: 22,870
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,284
-- Enlisted Army personnel: 3,665
+- Unknown or indeterminate: 16,281
+- Enlisted Army personnel: 3,668
 - Commissioned Army officers: 2,093
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,207 yes; 5,307 no; 16,426 indeterminate.
+Commissioned classification: 2,207 yes; 5,310 no; 16,423 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,259
+- `not_started`: 21,249
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 63
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 377
-- `requires_archival_review`: 1,818
+- `occupation_only_found`: 380
+- `requires_archival_review`: 1,825
 - `completed`: 84
 - `conflicting_sources`: 35
 - `verified_employer_found`: 183
-- Claim confidence: 625 confirmed; 982 high; 491 medium; 36 low; 45
+- Claim confidence: 628 confirmed; 982 high; 494 medium; 36 low; 45
   conflicting
-- Durable evidence inventory: 3,000 source records representing 1,389 unique
-  documents; 450 organizations; 1,096 affiliations; 2,179 claims; and 4,897
+- Durable evidence inventory: 3,004 source records representing 1,390 unique
+  documents; 450 organizations; 1,099 affiliations; 2,185 claims; and 4,912
   claim-source links
-- Reviewed public projection: 439 organizations; 1,087 published, qualified,
-  or conflict-visible affiliations; 2,143 published, qualified, or
-  conflict-visible claims; and 1,963 public citation records
+- Reviewed public projection: 439 organizations; 1,090 published, qualified,
+  or conflict-visible affiliations; 2,149 published, qualified, or
+  conflict-visible claims; and 1,967 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,207 yes; 5,307 no; 16,426 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,453. The detailed adapter breakdown remains reproducible in
+  2,463. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,092 across 1,059 people; 119 additional
+- Saved `source_reviewed` outcomes: 1,095 across 1,062 people; 119 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,882
+- Total recorded attempts/plans: 3,892
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,000; 974 have at least one public-visible
+- People with saved reviewed claims: 1,003; 977 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4651,12 +4651,27 @@ Commissioned classification: 2,207 yes; 5,307 no; 16,426 indeterminate.
   namesake is not assigned because no reviewed source connects her to OSS or
   Box 84. No authenticated Catalog request, credential, raw API response, full
   private identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 1,087 (published, qualified, or conflict-visible)
-- Database claims: 2,179; public-visible claims: 2,143 (625 confirmed, 982 high,
-  491 medium, 45 conflicting); 30 low-confidence claims are withheld and six
+- Batch 290 covers Howard Brown through John D. Brown, the next ten rows on PDF
+  page 55, spanning Boxes 84-85. Exact private-identifier and name matches in
+  the official Army merged file confirm Jack Brown, James Brown, and John D.
+  Brown as enlisted Army personnel. Their dated entry records support qualified
+  warehousing-or-storekeeping, stock-clerk, and fabricated-plastic-products
+  manufacturing occupation findings; none names an employer, warehouse, store,
+  plant, product, or worksite. The Milwaukee diving-equipment designer Jack
+  Browne was rejected for Jack Brown because the surname spelling and wartime
+  chronology conflict. A Signal Corps officer namesake remains unassigned to
+  Howard Brown because no reviewed source links him to the indexed private
+  identifier or Box 84. Captain James W. Brown retains the index-supported
+  commissioned classification, while Howard, Jack O., James E., James G., James
+  W., Jane A., and Jeanette A. Brown remain unresolved archival-review cases.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 1,090 (published, qualified, or conflict-visible)
+- Database claims: 2,185; public-visible claims: 2,149 (628 confirmed, 982 high,
+  494 medium, 45 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,897 total and 4,820 public-visible; private source
-  records: 3,000; public source export: 1,963; unique source documents: 1,389
+- Claim-source links: 4,912 total and 4,835 public-visible; private source
+  records: 3,004; public source export: 1,967; unique source documents: 1,390
 - Canonical organizations: 450 private and 439 public
 - Conflicting claims: 45 across 37 people
 - NARA pull-list rows: 23,795

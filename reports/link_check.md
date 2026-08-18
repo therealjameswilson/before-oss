@@ -15,6 +15,28 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,279 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 290 local release check
+
+The complete 24,387-page internal-link pass includes direct routes for Howard
+Brown through John D. Brown on PDF page 55. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport regression, 27-case axe
+matrix, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,316,258 bytes and has
+SHA-256 `5f91dc87d54a216295afd3fe8c59ad6b1cef2ce498feb787766556297857bf99`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,457 production artifacts, rejected
+1,026 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive public-data builds produced the identical generated-asset
+digest `72d4deb9cf1f70da68ba3480f83ccd9bdf3451e8633606c2a77600febb01b88b`.
+The regression publishes three qualified occupations without naming employers,
+keeps seven unsupported identities on the archival-review path, and rejects
+unlinked Jack Browne and Howard Brown namesake leads.
+
 ## Batch 289 local release check
 
 The complete 24,387-page internal-link pass includes direct routes for George
