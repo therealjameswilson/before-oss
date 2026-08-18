@@ -13,6 +13,10 @@ Run: 2026-08-18 UTC
 - Focused Batch 293 browser regression: **3 / 3 passed** after one
   over-specific organization-link test assertion was narrowed to the page's
   actual public contract; the expanded **876-case** matrix runs in release CI
+- Focused Batch 294 browser regression: **3 / 3 passed** after one
+  conflicting-profile assertion was aligned with the site's established
+  publication-threshold wording; the expanded **879-case** matrix runs in
+  release CI
 - Focused Batches 273-275 browser regression: **3 / 3 passed**
 - Core-route accessibility scans for Batches 273-275: **27 / 27 passed**
   across desktop, phone, and tablet, with no serious or critical axe violation
@@ -78,16 +82,16 @@ Run: 2026-08-18 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`d6148290155b5781d030a201fd8dbe20674c69eb1e4b3791895d8c18ff1ccd9c`)
-- Latest deterministic public-data build (Batch 293): **byte-for-byte
+  (`5ee03cd355699777fb309abb411ba937a3df8daefa5f24310305fdf3e5c06c23`)
+- Latest deterministic public-data build (Batch 294): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`85e9f9b69685a7661df987fa8794530811fb0e968004792cfe989dae7fd59493`).
+  (`15b9423fbd8a6a32292165411829c4eba1532fd9249aa1a696e224c3ae55b7ce`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,464,492 bytes** in the public tree;
+  across **76,500,054 bytes** in the public tree;
   manifest SHA-256
-  `44485fb5c5ca6d373c7bd21efb09d7e6a9ec2cc4bc167526fa17fc080f6fd995`
+  `4653afd477431e5ac84bfff75fcfae01bf9ca16f5ae727fb1d2ff0737575a5e5`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -99,15 +103,25 @@ Run: 2026-08-18 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,981** public records representing **1,394** unique documents
-- Private citation records: **3,018**
-- Published, qualified, or conflict-visible affiliations: **1,097**
-- Published or conflict-visible claims: **2,165**
+- Reviewed public sources: **1,986** public records representing **1,397** unique documents
+- Private citation records: **3,025**
+- Published, qualified, or conflict-visible affiliations: **1,098**
+- Published or conflict-visible claims: **2,168**
 - Verified-affiliation metric: **427** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **185** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 294 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete 24,387-route link check,
+  deterministic rebuild, manifest audit, dependency audit, 200-profile audit,
+  database integrity checks, and public-identifier audit all pass. Philip S.
+  Brown has an exact-identifier Army identity and a qualified residual
+  occupation category without an invented profession or employer. Omar D.
+  Brown's different-name identifier conflict remains visible, and unlinked
+  Michigan National Guard and Ninth Air Force namesakes remain unassigned.
+  Eight profiles require archival review. The expanded 879-case browser matrix
+  runs in release CI.
 - Batch 293 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete **873 / 873** preceding browser
   and accessibility matrix, the complete 24,387-route link check,

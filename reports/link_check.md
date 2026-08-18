@@ -12,8 +12,34 @@ The build includes 23,940 person profiles, 439 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,281 unique external URLs for separate live
+The checker inventoried 49,282 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 294 local release check
+
+The complete 24,387-page internal-link pass includes direct routes for Omar D.
+Brown through Robert S. Brown on PDF page 56. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 294 regression,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints. The expanded
+879-case browser matrix runs in release CI.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes. The
+manifest covers 76,500,054 bytes and has SHA-256
+`4653afd477431e5ac84bfff75fcfae01bf9ca16f5ae727fb1d2ff0737575a5e5`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,457 production artifacts, rejected
+1,028 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`15b9423fbd8a6a32292165411829c4eba1532fd9249aa1a696e224c3ae55b7ce`.
+Consecutive production builds produced the identical complete static-tree
+digest `5ee03cd355699777fb309abb411ba937a3df8daefa5f24310305fdf3e5c06c23`.
+The regression publishes one qualified occupation without naming an employer,
+keeps one direct identifier conflict visible without exposing the unrelated
+Army subject, and preserves eight archival-review profiles while leaving two
+same-name military candidates unassigned.
 
 ## Batch 293 local release check
 

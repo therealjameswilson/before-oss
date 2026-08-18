@@ -12,6 +12,19 @@ Sources table, and found no serious or critical accessibility violation.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 294 adds a focused direct-route regression for Omar D. Brown through
+Robert S. Brown on PDF page 56. It verifies Philip S. Brown's exact-identifier
+Army identity and qualified residual professional-occupation category without
+inventing a profession or employer; keeps Omar D. Brown's different-name Army
+identifier conflict visible without exposing the unrelated subject; leaves a
+contemporary Michigan National Guard namesake unassigned; keeps Robert S.
+Brown's Ninth Air Force fighter-pilot namesake unassigned; and preserves eight
+archival-review profiles. The focused regression passed **3 / 3** across
+desktop, phone, and tablet after one conflicting-profile assertion was aligned
+with the site's established publication-threshold wording. The preceding
+complete **873 / 873** matrix passed without retry; the expanded **879-case**
+matrix runs in release CI.
+
 Batch 293 adds a focused direct-route regression for Marjorie E. Brown through
 Norman O. Brown on PDF page 56. It verifies Merle C. Brown's and Norman O.
 Brown's exact-identifier Army identities and qualified occupation categories
