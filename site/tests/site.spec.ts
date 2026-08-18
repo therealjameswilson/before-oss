@@ -23215,3 +23215,62 @@ test("Batch 284 publishes three identifier-backed pre-entry statuses and preserv
   await expect(page.locator('main')).toContainText("different-name Army record");
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 285 separates student, military, and medical-service pathways while preserving identifier conflicts", async ({
+  page,
+}) => {
+  await page.goto("./people/0076866f-d634-5da5-8350-926984834b2e/");
+  await expect(page.getByRole("heading", { name: "John P Brosnan", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Student");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/91ebaa94-7417-5ef5-85aa-64974d7161b2/");
+  await expect(page.getByRole("heading", { name: "Stanley S Brotman", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Yale University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("different name");
+
+  await page.goto("./people/3ca05b55-e81c-5a42-bbad-26c07be2abc4/");
+  await expect(page.getByRole("heading", { name: "William Brough", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Yes", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "St. John's Ambulance Service",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "professional affiliation",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/990ec032-d116-5a93-bace-517a5dbc9c6d/");
+  await expect(page.getByRole("heading", { name: "Robert C Broughton", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Walt Disney Studios",
+  );
+
+  await page.goto("./people/ed49cc72-8695-5eb8-8638-605927612516/");
+  await expect(page.getByRole("heading", { name: "Alphe Broussard", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
