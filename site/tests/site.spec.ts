@@ -16530,7 +16530,7 @@ test("Batch 186 qualifies two Army occupations and keeps Lamira Bennett's colleg
     "Randolph-Macon Woman's College",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "Student",
+    "student",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified",
@@ -18916,7 +18916,7 @@ test("Batch 214 publishes qualified page 38 pathways and preserves unresolved id
   await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "Student",
+    "student",
   );
 
   for (const personId of [
@@ -20062,7 +20062,7 @@ test("Batch 227 documents Bluechel, Bluh, and Blue while preserving Box 62 uncer
   await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "Student",
+    "student",
   );
   await expect(page.locator("main")).toContainText("June 7, 1943");
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
@@ -22682,4 +22682,74 @@ test("Batches 270-272 separate student status, military identities, and Breitmay
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer",
   );
+});
+
+test("Batches 273-275 preserve identifier conflicts and separate Bretton's military pathway from NYU study", async ({
+  page,
+}) => {
+  await page.goto("./people/93112cd0-e9f3-51c9-a4e3-b46c9cffb269/");
+  await expect(page.getByRole("heading", { name: "Eden Brenes", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Tangier");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/10ffbb81-0232-52fd-a256-06c9b48e0686/");
+  await expect(page.getByRole("heading", { name: "Edward G Brenes", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("different person");
+
+  await page.goto("./people/6ea5c73d-2f12-5895-b122-f688654d41ae/");
+  await expect(page.getByRole("heading", { name: "Francis J Brennan", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+
+  await page.goto("./people/89107297-d7a8-55ef-a73d-4a6f6f5c8756/");
+  await expect(page.getByRole("heading", { name: "Warren Bretenbach", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Warren E. Breitenbach");
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/6332b348-483b-58aa-bc63-0bfe8953bfd9/");
+  await expect(page.getByRole("heading", { name: "Henry L Bretton", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "U.S. Military Intelligence",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "New York University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/f02f872a-4662-5c6c-950e-51feeb52b699/");
+  await expect(page.getByRole("heading", { name: "John O Brew", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("The famous biography is therefore not assigned");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/e53baf7f-b599-578e-93c4-19b536f1e9aa/");
+  await expect(page.getByRole("heading", { name: "George E Brewer Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("0000806613");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/50165022-12fa-5f03-a88e-e2f885f811a6/");
+  await expect(page.getByRole("heading", { name: "Lloyd A Brewer Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
 });

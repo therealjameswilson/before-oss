@@ -12,45 +12,45 @@ Run: 2026-08-18 UTC
   axe scan under its former 45-second limit; after a route-specific 90-second
   limit was applied, that exact scan passed **3 / 3** independently across
   desktop, phone, and tablet. No serious or critical axe violation was found.
-- Focused Batches 270-272 browser regression: **3 / 3 passed**
-- Core-route accessibility scans for Batches 270-272: **27 / 27 passed**
+- Focused Batches 273-275 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batches 273-275: **27 / 27 passed**
   across desktop, phone, and tablet, with no serious or critical axe violation
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batches 270-272): **byte-for-byte identical**
+- Latest deterministic build (Batches 273-275): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`fd2a03aca34cdbaa4a7a13894e869503a866f6dbd1bb4c126a9fb3199f0e209d`).
+  (`a3f8aa4ac3176911c74654b5b742dbd959aa985f97327d7190dbad77346542b1`).
 - Previous deterministic build (Batches 263-269): **byte-for-byte identical**
   across consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **75,422,441 bytes**;
+  across **75,526,916 bytes**;
   manifest SHA-256
-  `974ad73ecb8692bb50ae52c39aa456d15e24b453c397d18d41b9b030b0ed6c9f`
+  `b2f6f0b2b7f7cd1f7261a7de381f8d608a87c7f61d56cb87180345f71702e874`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,454** production artifacts, including compressed mirrors;
-  **1,025** candidate substrings were reviewed.
+  **1,026** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,877** public records representing **1,352** unique documents
-- Private citation records: **2,905**
-- Published, qualified, or conflict-visible affiliations: **1,048**
-- Published or conflict-visible claims: **2,050**
-- Verified-affiliation metric: **418** people with confirmed/high published
+- Reviewed public sources: **1,887** public records representing **1,357** unique documents
+- Private citation records: **2,921**
+- Published, qualified, or conflict-visible affiliations: **1,050**
+- Published or conflict-visible claims: **2,064**
+- Verified-affiliation metric: **419** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **184** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
-- Batches 270-272 local release checks: **passed**; 74 Python tests, the
+- Batches 273-275 local release checks: **passed**; 74 Python tests, the
   focused **3-case** browser regression, **27 / 27** core-route axe scans, the
   24,384-route link check, deterministic rebuild, manifest audit, dependency
   audit, and public-identifier audit all pass. The complete browser matrix runs

@@ -78,6 +78,14 @@ duplicate or conflict groups. Common-name research requires at least two
 corroborating identifiers beyond the name. Manual decisions are append-only and
 imported from CSV.
 
+When an exact private identifier resolves to a different name in an official
+military file, the project records a visible identity conflict rather than
+silently correcting either source. The unrelated subject's name and full
+identifier are not copied into public evidence, downloads, or conflict text.
+The indexed personnel file receives critical archival-review priority because
+only the source file can establish whether the index contains a transcription
+error, a reassigned identifier, or another documentary problem.
+
 When direct evidence establishes that two differently printed rows represent
 one person, a versioned `person_entity` review decision names the canonical
 entity and records the rationale. Both source rows and the superseded entity
@@ -106,6 +114,13 @@ The project keeps three questions separate:
 Relationship types distinguish employment, self-employment, military and
 government assignments, student status, unemployment, retirement, volunteering,
 professional affiliation, and unknown relationships.
+
+First-person or institutional accounts may establish a military-to-OSS transfer
+even when no civilian employer is known. Such evidence is published as an
+immediate military assignment and never relabeled as employment. If credible
+sources agree on an affiliation but disagree on a detail such as duration, the
+shared fact may be published with the disputed detail omitted and the conflict
+explained in the evidence notes.
 
 ## Time, sources, and confidence
 
@@ -157,6 +172,12 @@ their deterministic fingerprint checkpoint. CIA Reading Room HTML is parsed in m
 document links; access failures are logged without bypass attempts. General web
 searches are exported as reviewable discovery plans instead of scraping
 search-result pages.
+
+CIA Reading Room OCR is discovery evidence, not an identity decision. When a
+released document is available as an image-only PDF, the relevant page is
+rendered and inspected before the document supports a public claim. A document
+that confirms wartime OSS context but says nothing about the predecessor role
+may strengthen identity while leaving the pre-OSS affiliation unresolved.
 
 The official unrestricted Army Serial Number Merged File is used only for
 eligible enlisted records and only when the indexed private identifier and

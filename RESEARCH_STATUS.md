@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,514 people with a non-planned attempt | 23,940 active person entities | 10.5013% |
-| Verified-affiliation coverage | 418 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7460% |
+| Research-attempt coverage | 2,544 people with a non-planned attempt | 23,940 active person entities | 10.6266% |
+| Verified-affiliation coverage | 419 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7502% |
 | Verified-employer coverage | 184 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7686% |
-| Archival-review coverage | 2,464 people with an individual file-access/priority assessment | 23,940 active person entities | 10.2924% |
+| Archival-review coverage | 2,494 people with an individual file-access/priority assessment | 23,940 active person entities | 10.4177% |
 
 ## Extraction and identity
 
@@ -20,36 +20,36 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 216
+- Possible duplicate groups: 217
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 405
-- Identity status `high_confidence`: 446
-- Identity status `probable`: 85
+- Identity status `confirmed`: 412
+- Identity status `high_confidence`: 447
+- Identity status `probable`: 86
 - Identity status `ambiguous`: 44
-- Identity status `conflicting`: 30
-- Identity status `unresolved`: 22,930
+- Identity status `conflicting`: 33
+- Identity status `unresolved`: 22,918
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,333
-- Enlisted Army personnel: 3,629
+- Unknown or indeterminate: 16,325
+- Enlisted Army personnel: 3,636
 - Commissioned Army officers: 2,089
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,478
+- Civilian professional or administrative grades: 1,479
 - Foreign or Allied military personnel: 247
 - Enlisted naval personnel: 63
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,201 yes; 5,263 no; 16,476 indeterminate.
+Commissioned classification: 2,201 yes; 5,271 no; 16,468 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,426
+- `not_started`: 21,396
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 59
@@ -57,18 +57,18 @@ Commissioned classification: 2,201 yes; 5,263 no; 16,476 indeterminate.
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 350
-- `requires_archival_review`: 1,693
-- `completed`: 78
-- `conflicting_sources`: 32
+- `requires_archival_review`: 1,719
+- `completed`: 79
+- `conflicting_sources`: 35
 - `verified_employer_found`: 181
-- Claim confidence: 585 confirmed; 964 high; 459 medium; 35 low; 42
+- Claim confidence: 592 confirmed; 966 high; 461 medium; 35 low; 45
   conflicting
-- Durable evidence inventory: 2,905 source records representing 1,352 unique
-  documents; 447 organizations; 1,057 affiliations; 2,085 claims; and 4,670
+- Durable evidence inventory: 2,921 source records representing 1,357 unique
+  documents; 447 organizations; 1,059 affiliations; 2,099 claims; and 4,699
   claim-source links
-- Reviewed public projection: 436 organizations; 1,048 published, qualified,
-  or conflict-visible affiliations; 2,050 published, qualified, or
-  conflict-visible claims; and 1,877 public citation records
+- Reviewed public projection: 436 organizations; 1,050 published, qualified,
+  or conflict-visible affiliations; 2,064 published, qualified, or
+  conflict-visible claims; and 1,887 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,201 yes; 5,263 no; 16,476 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,297. The detailed adapter breakdown remains reproducible in
+  adapters: 2,327. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,015 across 985 people; 117 additional
+- Saved `source_reviewed` outcomes: 1,027 across 997 people; 117 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,712
+- Total recorded attempts/plans: 3,742
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 946; 921 have at least one public-visible
+- People with saved reviewed claims: 958; 933 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2603,6 +2603,51 @@ Commissioned classification: 2,201 yes; 5,263 no; 16,476 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batches 273-275 cover thirty contiguous rows from Eden Brenes through Helen
+  L. Brewster across PDF pages 50-51 and Box 78. Both rendered pages were
+  checked visually, and every row now has a durable reviewed attempt, a
+  terminal research outcome, explicit uncertainty language, and an archival
+  next action where online evidence did not answer the pre-OSS question.
+
+  Exact private-identifier agreement in the official Army merged file confirms
+  Francis J. Brennan, John A. Brennan, Dickey T. Brewer, Guy C. Brewer, James
+  E. Brewer, and Raymond J. Brewer as enlisted Army personnel. Their raw
+  civilian-occupation codes remain withheld because the official code layout
+  and accessible interpretations do not establish secure meanings. Three
+  printed identifiers resolve to different Army subjects; Edward G. Brenes,
+  Burkhart H. Breseman Jr., and Chester L. Brewer therefore remain visibly
+  conflicting, while the unrelated names and full identifiers stay out of
+  public evidence and downloads.
+
+  A State University of New York institutional publication reproduces Henry L.
+  Bretton's Army citation and first-person account. Exact private-identifier
+  agreement confirms his identity, and his own account explicitly documents a
+  transfer from U.S. Army Military Intelligence to OSS Secret Intelligence
+  immediately after the war in Europe ended. Earlier New York University night
+  study is modeled only as student status. The two reviewed sources disagree on
+  the number of semesters, so the public claim omits that count and never treats
+  the university as an employer.
+
+  A visually inspected CIA-released 4 September 1944 memorandum supports a
+  high-confidence George E. Brewer Jr. identity through the exact full name,
+  wartime OSS Collection context, London-headquarters reference, and signature.
+  It does not establish a pre-OSS employer, so none is inferred. A photographed
+  Truman citation supports only a qualified probable Eden Brenes identity and
+  wartime Tangier OSS role. John O. Brew remains unresolved because accessible
+  Harvard and Dartmouth biographies of archaeologist John Otis Brew do not link
+  that namesake to Box 78 or OSS. Warren Bretenbach and Warren E. Breitenbach
+  remain separate people in a visible possible-duplicate group pending direct
+  file evidence.
+
+  The three strict bundles add a net 16 sources, two affiliations, 14 claims,
+  29 claim-source links, 30 newly researched person updates, one counterpart
+  duplicate-group update, and 30 durable research attempts. Repeat imports
+  leave all evidence-table counts unchanged. Coverage is now 2,544 researched
+  people, 419 people with a verified affiliation, 184 with a verified employer,
+  and 2,494 individually assessed for archival review, out of 23,940 active
+  entities. The reviewed public projection contains 1,050 affiliations, 2,064
+  claims, and 1,887 citation records representing 1,357 unique documents.
+
 - Batches 270-272 cover thirty contiguous rows from Selma Braunstein through
   Robert L. Bremhorst on PDF page 50 and Boxes 77-78. The rendered page was
   checked visually, including the printed Box 78-to-77 sequence and the
@@ -4479,6 +4524,9 @@ python3 -m oss_research import-reviewed-evidence research/evidence-page-forty-tw
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-selma-braunstein-through-james-breasted-pathways_batch-270_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-clarence-breault-through-frank-breen-pathways_batch-271_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-john-breen-through-robert-bremhorst-pathways_batch-272_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-fifty-one-eden-brenes-through-edward-brennen-pathways_batch-273_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-amos-brenner-through-john-brew-pathways_batch-274_2026-08-18.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-one-chester-brewer-through-helen-brewster-pathways_batch-275_2026-08-18.json
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
