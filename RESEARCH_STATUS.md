@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,315 people with a non-planned attempt | 23,940 active person entities | 9.6700% |
+| Research-attempt coverage | 2,325 people with a non-planned attempt | 23,940 active person entities | 9.7118% |
 | Verified-affiliation coverage | 414 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7293% |
 | Verified-employer coverage | 182 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7602% |
-| Archival-review coverage | 2,264 people with an individual file-access/priority assessment | 23,940 active person entities | 9.4570% |
+| Archival-review coverage | 2,274 people with an individual file-access/priority assessment | 23,940 active person entities | 9.4987% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 355
-- Identity status `high_confidence`: 436
+- Identity status `confirmed`: 357
+- Identity status `high_confidence`: 437
 - Identity status `probable`: 82
 - Identity status `ambiguous`: 43
-- Identity status `conflicting`: 27
-- Identity status `unresolved`: 22,997
+- Identity status `conflicting`: 28
+- Identity status `unresolved`: 22,993
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,389
-- Enlisted Army personnel: 3,592
+- Unknown or indeterminate: 16,388
+- Enlisted Army personnel: 3,593
 - Commissioned Army officers: 2,079
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,21 +45,21 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,190 yes; 5,217 no; 16,533 indeterminate.
+Commissioned classification: 2,190 yes; 5,218 no; 16,532 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,625
+- `not_started`: 21,615
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 57
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 310
-- `requires_archival_review`: 1,542
+- `occupation_only_found`: 311
+- `requires_archival_review`: 1,550
 - `completed`: 77
-- `conflicting_sources`: 29
+- `conflicting_sources`: 30
 - `verified_employer_found`: 179
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
@@ -68,15 +68,15 @@ Commissioned classification: 2,190 yes; 5,217 no; 16,533 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,097. The detailed adapter breakdown remains reproducible in
+  adapters: 2,107. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 951 across 921 people; 115 additional
+- Saved `source_reviewed` outcomes: 955 across 925 people; 115 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,512
+- Total recorded attempts/plans: 3,522
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 879; 855 have at least one public-visible
+- People with saved reviewed claims: 883; 859 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,58 @@ Commissioned classification: 2,190 yes; 5,217 no; 16,533 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 253 covers the next ten contiguous page-forty-six rows, Michel Bouvier
+  through Harold L. Bowen, all indexed in Box 72. The source page was checked
+  visually, and the three eligible printed private identifiers were compared
+  against NARA's official unrestricted Army merged file in memory. No raw Army
+  record, unrelated person's name, full private identifier, authenticated
+  Catalog response, or credential is retained or published.
+
+  Carl A. Bova's exact official identifier and name match, independently
+  corroborated by contemporary Naugatuck draft and induction notices, confirm
+  his identity. His Army-entry code documents only the broad semiskilled
+  paper-goods-manufacturing occupation group on November 17, 1942. It names no
+  employer, workplace, exact trade, or Army-to-OSS sequence, so the finding is
+  published as a qualified medium-confidence occupation rather than employment.
+
+  Gordon L. Bovee's printed identifier resolves to a wholly different name in
+  the official Army file. The project exposes the conflict, withholds the
+  unrelated record subject and fields, and assigns neither candidate. A
+  scholarly study's item-level citations to three August 1945 OSS Kunming
+  messages support a high-confidence identity for the rare exact Robert G.
+  Bowdler name, but do not establish a pre-OSS employer or earlier assignment.
+  Harold L. Bowen's exact identifier confirms an Army record dated November 1,
+  1945. Because NARA documents OSS termination effective October 1, the later
+  civilian-occupation code is deliberately excluded from pre-OSS findings; Box
+  72 must establish whether the record reflects reenlistment, transfer, error,
+  or other post-OSS service.
+
+  Michel Bouvier, George K. Bowden, James C. Bowden Jr., Thelma L. Bowden,
+  Cecile E. Bowen, and Dorothy E. Bowen remain unresolved after exact-name,
+  variant, official, CIA Reading Room, occupational, obituary, directory,
+  newspaper, institutional, and archival checks. Common-name obituaries, a
+  1935 university yearbook entry, a later professor, and other namesakes were
+  rejected because they lacked direct OSS linkage and corroborating wartime
+  identifiers. Each profile retains an explicit Box 72 review path.
+
+  The strict bundle adds eight sources, one affiliation, five claims, fifteen
+  claim-source links, ten person updates, and ten durable research attempts. A
+  second import leaves every evidence-table count unchanged. Coverage is now
+  2,325 researched people, 414 people with a verified affiliation, 182 with a
+  verified employer, and 2,274 individually assessed for archival review, out
+  of 23,940 active entities. The public projection contains 1,000 affiliations,
+  1,940 claims, and 1,788 citation records representing 1,313 unique documents.
+
+  The complete release gate passed: 72 Python tests, SQLite integrity and
+  foreign-key checks, the deterministic 200-profile audit, the focused
+  three-viewport regression, all 801 browser and axe cases, all 24,379 internal
+  HTML routes, zero-warning Astro diagnostics, the zero-vulnerability
+  dependency audit, and the public-identifier scan. The link checker inventoried
+  49,222 external URLs separately. All 65 manifest assets match across
+  74,540,925 bytes, with manifest SHA-256
+  `c4a7bb50a8aa1ff56079d924370067450f0ac7ca43da6d40e54c97af497ac29a`.
+  Two consecutive static builds produced the identical complete-site digest
+  `32d77364e19ec60a61cd1576b54fa171e8160bb198bf21854fb4047eba39a0fb`.
 - Batch 252 covers the next ten contiguous page-forty-six rows, Paul J.
   Bourbonniere through John W. Boutwell Jr., across Boxes 71 and 72. The source
   page was checked visually, and five printed private identifiers were compared

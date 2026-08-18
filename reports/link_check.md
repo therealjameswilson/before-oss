@@ -12,8 +12,34 @@ The build includes 23,940 person profiles, 431 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,219 unique external URLs for separate live
+The checker inventoried 49,222 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 253 local release check
+
+The complete 24,379-page internal-link pass includes direct routes for Michel
+Bouvier through Harold L. Bowen on PDF page 46. The 72-test Python suite,
+deterministic 200-profile audit, focused 3-case regression, complete 801-case
+desktop, phone, and tablet browser/axe matrix, and complete public-identifier
+audit passed; Astro reported zero errors, warnings, or hints, and the
+production dependency audit found zero vulnerabilities.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 74,540,925 bytes and has
+SHA-256
+`c4a7bb50a8aa1ff56079d924370067450f0ac7ca43da6d40e54c97af497ac29a`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,449 artifacts, rejected 1,020
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`32d77364e19ec60a61cd1576b54fa171e8160bb198bf21854fb4047eba39a0fb`.
+
+The regression publishes Carl A. Bova's qualified occupation without naming
+an employer, preserves Gordon L. Bovee's identifier conflict, qualifies Robert
+G. Bowdler's OSS identity, excludes Harold L. Bowen's post-OSS Army-entry
+occupation, and routes six unresolved identities to archival review.
 
 ## Batch 252 local release check
 
@@ -37,9 +63,8 @@ Two consecutive production builds produced the identical complete-site digest
 `ff553ffd23d351b9d732b65d566c409deb59499f3f74af87a5e2cd14a9143a5d`.
 
 The regression publishes three qualified occupation-only findings, preserves
-two identifier conflicts without leaking unrelated names, rejects Harold L.
-Bowen's post-OSS Army entry as predecessor evidence, and routes five unresolved
-identities to archival review.
+two identifier conflicts without leaking unrelated names, and routes five
+unresolved identities to archival review.
 
 ## Batch 251 local release check
 

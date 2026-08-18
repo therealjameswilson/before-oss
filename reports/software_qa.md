@@ -7,35 +7,35 @@ Run: 2026-08-18 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,379 pages**
 - Internal link check: **24,379 HTML files passed**
-- Complete browser and accessibility matrix: **798 / 798 passed** locally
+- Complete browser and accessibility matrix: **801 / 801 passed** locally
   across desktop, phone, and tablet, with no serious or critical axe violation.
-- Focused Batch 252 browser and accessibility regression: **3 / 3 passed**
+- Focused Batch 253 browser and accessibility regression: **3 / 3 passed**
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`ff553ffd23d351b9d732b65d566c409deb59499f3f74af87a5e2cd14a9143a5d`)
-- Latest deterministic build (Batch 252): **byte-for-byte identical** across
+  (`32d77364e19ec60a61cd1576b54fa171e8160bb198bf21854fb4047eba39a0fb`)
+- Latest deterministic build (Batch 253): **byte-for-byte identical** across
   consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **74,490,748 bytes**;
+  across **74,540,925 bytes**;
   manifest SHA-256
-  `49e3e9b774b77d2cfcdd1a5b7c22d2a9d1ce6746a24ff2f7f6468b80ad6810a9`
+  `c4a7bb50a8aa1ff56079d924370067450f0ac7ca43da6d40e54c97af497ac29a`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,449** production artifacts, including compressed mirrors;
-  **1,019** candidate substrings were reviewed.
+  **1,020** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,780** public records representing **1,308** unique documents
-- Private citation records: **2,796**
-- Published, qualified, or conflict-visible affiliations: **999**
-- Published or conflict-visible claims: **1,935**
+- Reviewed public sources: **1,788** public records representing **1,313** unique documents
+- Private citation records: **2,804**
+- Published, qualified, or conflict-visible affiliations: **1,000**
+- Published or conflict-visible claims: **1,940**
 - Verified-affiliation metric: **414** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **182** people with confirmed/high published
@@ -153,9 +153,42 @@ Run: 2026-08-18 UTC
   post-merge Test and Pages workflows, and all **65** live assets plus all ten
   new profile routes matched the audited release
 - Batch 251 production verification: **passed**; release `14479b0` passed the
-  Pages workflow, and all **65** live assets plus all ten new profile routes
-  matched the audited release; the post-merge Test workflow remains recorded
-  separately while it completes
+  Test and Pages workflows, and all **65** live assets plus all ten new profile
+  routes matched the audited release
+- Batch 252 production verification: **passed**; release `4c2d90b` passed the
+  Test and Pages workflows, all **65** live assets matched byte for byte across
+  **74,490,748 bytes**, and all ten representative routes returned HTTP 200
+
+## Batch 253 local release check
+
+Batch 253 adds the ten visually checked page 46 rows from Michel Bouvier
+through Harold L. Bowen. Three eligible printed private identifiers were
+compared against NARA's official unrestricted Army merged file without
+retaining a raw Army row, a full identifier, or an unrelated record subject.
+The review confirms Carl A. Bova's identity and broad paper-goods occupation,
+preserves Gordon L. Bovee's identifier/name conflict, supports Robert G.
+Bowdler's high-confidence OSS identity through item-level Kunming citations,
+and excludes Harold L. Bowen's November 1945 Army-entry occupation from
+pre-OSS evidence because it postdates OSS termination. Six unsupported
+identities retain Box 72 archival-review paths.
+
+The strict bundle adds ten durable attempts, eight sources, one affiliation,
+five claims, and fifteen claim-source links. It raises research-attempt
+coverage to 2,325 people and archival-review coverage to 2,274 people while
+leaving the verified-affiliation and verified-employer numerators at 414 and
+182. The public projection contains 1,000 affiliations, 1,940 claims, and
+1,788 citation records representing 1,313 unique documents.
+
+The 72-test Python suite, SQLite integrity and foreign-key checks,
+deterministic 200-profile audit, focused three-viewport regression, complete
+801-case browser/axe matrix, 24,379-page internal-link pass, 49,222-URL
+external inventory, zero-warning Astro diagnostics, zero-vulnerability
+dependency audit, and public-identifier redaction audit all pass. The complete
+matrix finished in 30.9 minutes with no serious or critical axe violation.
+All 65 manifest assets match across 74,540,925 bytes; the manifest SHA-256 is
+`c4a7bb50a8aa1ff56079d924370067450f0ac7ca43da6d40e54c97af497ac29a`,
+and consecutive production builds have the identical complete-site digest
+`32d77364e19ec60a61cd1576b54fa171e8160bb198bf21854fb4047eba39a0fb`.
 
 ## Batch 252 local release check
 

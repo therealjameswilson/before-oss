@@ -22198,3 +22198,81 @@ test("Batch 252 publishes three identifier-backed occupations and preserves two 
     );
   }
 });
+
+test("Batch 253 publishes Bova's occupation while preserving conflict and post-OSS chronology", async ({
+  page,
+}) => {
+  const profiles = [
+    ["802575b3-10bf-5678-8dc6-58a371e77357", "Michel Bouvier"],
+    ["1a9eb8b7-7e07-50cb-a41d-07dba4b21528", "Carl A Bova"],
+    ["921fff9a-7b5e-5dd0-bbd1-0ddbdfa29f6c", "Gordon L Bovee"],
+    ["7b3a49ef-275b-5de8-9e99-ccc89a148920", "George K Bowden"],
+    ["602fd5ec-13bd-5a7f-97f4-eb152149c173", "James C Bowden Jr."],
+    ["b9505de1-9b9f-502d-bce2-0a0d21822968", "Thelma L Bowden"],
+    ["1a27a605-b6ca-5dcc-8443-fa2a920db193", "Robert G Bowdler"],
+    ["8f6c2846-2d89-5226-999f-e0065667ebf1", "Cecile E Bowen"],
+    ["613a451d-a6d3-531a-80e7-887794fea7d1", "Dorothy E Bowen"],
+    ["c9b15096-d756-599d-994a-e35093d8d3ca", "Harold L Bowen"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 46");
+    await expect(page.locator(".index-record").last()).toContainText("72");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/1a9eb8b7-7e07-50cb-a41d-07dba4b21528/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Semiskilled occupations in manufacture of paper goods",
+  );
+  await expect(page.locator("main")).toContainText("November 17, 1942");
+  await expect(page.locator("main")).toContainText("Naugatuck");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/921fff9a-7b5e-5dd0-bbd1-0ddbdfa29f6c/");
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("different name");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/1a27a605-b6ca-5dcc-8443-fa2a920db193/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Kunming");
+  await expect(page.locator("main")).toContainText("August 1945");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/c9b15096-d756-599d-994a-e35093d8d3ca/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("November 1, 1945");
+  await expect(page.locator("main")).toContainText("postdates OSS");
+  await expect(page.locator("main")).not.toContainText(
+    "Occupations in manufacture of electrical machinery and accessories",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const personId of [
+    "802575b3-10bf-5678-8dc6-58a371e77357",
+    "7b3a49ef-275b-5de8-9e99-ccc89a148920",
+    "602fd5ec-13bd-5a7f-97f4-eb152149c173",
+    "b9505de1-9b9f-502d-bce2-0a0d21822968",
+    "8f6c2846-2d89-5226-999f-e0065667ebf1",
+    "613a451d-a6d3-531a-80e7-887794fea7d1",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+});
