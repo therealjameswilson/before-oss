@@ -12,6 +12,19 @@ Sources table, and found no serious or critical accessibility violation.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 293 adds a focused direct-route regression for Marjorie E. Brown through
+Norman O. Brown on PDF page 56. It verifies Merle C. Brown's and Norman O.
+Brown's exact-identifier Army identities and qualified occupation categories
+without converting either category into a named employer; preserves Norman's
+separately sourced Nebraska Wesleyan employer; publishes Newell Brown's
+Princeton relationship only as student status; rejects the uncorroborated Neil
+Brown of OWI namesake; and preserves seven underdetermined identities as
+archival-review profiles. The focused regression passed **3 / 3** across
+desktop, phone, and tablet after one over-specific organization-link assertion
+was narrowed to the page's actual public contract. The preceding complete
+**873 / 873** matrix passed without retry; the expanded **876-case** matrix runs
+in release CI.
+
 Batch 292 adds a focused direct-route regression for Kenneth F. Brown through
 Margaret J. Brown across PDF pages 55-56. It verifies Lewis Q. Brown's exact-
 identifier Army identity and qualified purchasing-agent-or-buyer category
