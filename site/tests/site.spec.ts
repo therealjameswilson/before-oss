@@ -21747,3 +21747,99 @@ test("Batch 247 publishes three bounded occupations and Bossard's Army-to-OSS pa
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
 });
+
+test("Batch 248 publishes Bostwick's dated employer while preserving identity and archival limits", async ({
+  page,
+}) => {
+  const profiles = [
+    ["022b4b26-1d51-572b-97cb-2f1a69e70b80", "Araxi Bostanian"],
+    ["9731aa28-2264-5213-b59b-f37fecc55892", "Jackson L Bostwick"],
+    ["141fa466-8e78-5eb4-8d7a-e3d9dd38aa01", "Walton H Bostwick"],
+    ["e9aa00d3-1a6c-54f0-918b-fb658dcfcce8", "William F Bostwick"],
+    ["34c399ae-8b2c-5022-9f80-3dc3713f3c3a", "Ruth E Boswell"],
+    ["f34e177d-1d76-5a98-8709-cb836491c673", "William Boterf"],
+    ["77305c38-76d9-56f8-9383-c23b973540fa", "Theodore F Both"],
+    ["ff35a1ea-31e7-50e2-92d4-0ddd7a802e9d", "Philippe M Botman"],
+    ["a423c60b-0a2e-57c8-959a-ecc7adead9b2", "John I Bott"],
+    ["0629f9a0-7eaf-58d8-a80a-42d3a30a8be8", "WilliamR Bottema"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 45");
+    await expect(page.locator(".index-record").last()).toContainText("70");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/9731aa28-2264-5213-b59b-f37fecc55892/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Jackson Leonard Bostwick");
+  await expect(page.locator("main")).toContainText("China Theater surgeon");
+  await expect(
+    page.getByRole("link", { name: "The Fighting Doctors of the Office of Strategic Services" }),
+  ).toHaveAttribute("href", "https://www.cia.gov/resources/csi/static/Fighting-Doctors-of-OSS.pdf");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+
+  await page.goto("./people/141fa466-8e78-5eb4-8d7a-e3d9dd38aa01/");
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Wesley R. Braunsdorf Associates",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "salesman",
+  );
+  await expect(page.locator("main")).toContainText("documented prewar");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "Polk's Westfield and Cranford (Union County, N.J.) Directory 1941" }).first(),
+  ).toHaveAttribute("href", "https://www.digifind-it.com/cranford/data/city-dirs/1941.pdf");
+
+  await page.goto("./people/f34e177d-1d76-5a98-8709-cb836491c673/");
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("William V. Boterf");
+  await expect(page.locator("main")).toContainText("code 999");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const personId of [
+    "022b4b26-1d51-572b-97cb-2f1a69e70b80",
+    "34c399ae-8b2c-5022-9f80-3dc3713f3c3a",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  }
+
+  for (const personId of [
+    "e9aa00d3-1a6c-54f0-918b-fb658dcfcce8",
+    "77305c38-76d9-56f8-9383-c23b973540fa",
+    "ff35a1ea-31e7-50e2-92d4-0ddd7a802e9d",
+    "a423c60b-0a2e-57c8-959a-ecc7adead9b2",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+
+  await page.goto("./people/ff35a1ea-31e7-50e2-92d4-0ddd7a802e9d/");
+  await expect(page.locator("main")).toContainText("foreign or allied military personnel");
+  await expect(page.locator("main")).toContainText("Belgian");
+
+  await page.goto("./people/0629f9a0-7eaf-58d8-a80a-42d3a30a8be8/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("final seven digits match");
+  await expect(page.locator("main")).not.toContainText("Technician Sergeant occupation");
+});

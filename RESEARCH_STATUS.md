@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-17 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,265 people with a non-planned attempt | 23,940 active person entities | 9.4612% |
-| Verified-affiliation coverage | 411 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7168% |
-| Verified-employer coverage | 180 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7519% |
-| Archival-review coverage | 2,214 people with an individual file-access/priority assessment | 23,940 active person entities | 9.2481% |
+| Research-attempt coverage | 2,275 people with a non-planned attempt | 23,940 active person entities | 9.5029% |
+| Verified-affiliation coverage | 412 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7210% |
+| Verified-employer coverage | 181 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7561% |
+| Archival-review coverage | 2,224 people with an individual file-access/priority assessment | 23,940 active person entities | 9.2899% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-17 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 344
-- Identity status `high_confidence`: 431
-- Identity status `probable`: 80
+- Identity status `confirmed`: 345
+- Identity status `high_confidence`: 433
+- Identity status `probable`: 81
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 25
-- Identity status `unresolved`: 23,017
+- Identity status `unresolved`: 23,013
 
 ## Personnel categories
 
@@ -49,15 +49,15 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,675
+- `not_started`: 21,665
 - `in_progress`: 50
 - `candidate_found`: 1
-- `needs_identity_review`: 54
+- `needs_identity_review`: 57
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 53
+- `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 301
-- `requires_archival_review`: 1,508
+- `requires_archival_review`: 1,514
 - `completed`: 77
 - `conflicting_sources`: 27
 - `verified_employer_found`: 178
@@ -68,15 +68,15 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,047. The detailed adapter breakdown remains reproducible in
+  adapters: 2,057. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 933 across 903 people; 111 additional
+- Saved `source_reviewed` outcomes: 936 across 906 people; 114 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,462
+- Total recorded attempts/plans: 3,472
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 860; 836 have at least one public-visible
+- People with saved reviewed claims: 863; 839 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,63 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 248 covers the next ten contiguous rows, Araxi Bostanian through the
+  source index's printed `WilliamR Bottema`, on PDF page forty-five in Box 70.
+  The source page and every row were checked visually at original resolution.
+  The official unrestricted Army Serial Number merged file was reviewed
+  transiently from NARA's bulk-download route, together with its technical
+  documentation and occupation-code list. Full private identifiers remain in
+  the restricted database only; no raw Army file or live Catalog response is
+  retained.
+
+  Exact private-identifier agreement confirms William Boterf and expands the
+  name to William V. Boterf. His March 1941 Army-entry row carries civilian-
+  occupation code 999, which is not assigned a public meaning in the applicable
+  official list; no occupation or employer is invented from it. An official
+  CIA institutional history and an independent University of Minnesota record
+  support a high-confidence match between indexed Major Jackson L. Bostwick and
+  Jackson Leonard Bostwick, the OSS and SSU China Theater surgeon. Those sources
+  resolve identity but do not document a pre-OSS employer.
+
+  Walton H. Bostwick is a high-confidence match through his rare exact name and
+  middle initial, commissioned Army context, a retrospective radio profile
+  explicitly placing him in the Signal Corps assigned to OSS, and a 1941 city
+  directory. That directory names Wesley R. Braunsdorf Associates and his role
+  as salesman. The employment is published as other documented pre-OSS work,
+  not as the immediate affiliation or last civilian employer, because the
+  available sources do not establish the intervening chronology. A conflicting
+  exact-name enlisted Army record with a different private identifier is
+  rejected.
+
+  Araxi Bostanian remains unresolved because a family-source OSS lead lacks
+  official or independent identity support. Ruth E. Boswell's exact-name WAC
+  candidate likewise lacks a second identifier. The exact-name William R.
+  Bottema Army row is only probable: its eight-digit identifier ends with the
+  seven digits printed in the index, but its October 1945 entry and Technician
+  Sergeant grade require file-level review. William F. Bostwick, Theodore F.
+  Both, Belgian Lieutenant Philippe M. Botman, and Ensign John I. Bott remain
+  unresolved archival-review cases. None of these qualified candidates is
+  promoted into an employer or affiliation claim.
+
+  The strict evidence bundle adds seven sources, one organization, one
+  affiliation, four claims, ten claim-source links, ten person updates, and ten
+  durable research attempts. It reimports without changing any evidence-table
+  count. Coverage is now 2,275 researched people, 412 people with a verified
+  affiliation, 181 with a verified employer, and 2,224 individually assessed
+  for archival review, out of 23,940 active entities. No authenticated Catalog
+  request, credential, unsupported employer, or convenient namesake match was
+  used or published.
+
+  Release QA passed SQLite integrity and foreign-key checks, all 70 Python
+  tests, the deterministic 200-profile audit, a clean 24,378-page Astro build,
+  the complete internal-link check, the 65-asset manifest audit, the private-
+  identifier boundary audit, and the production dependency audit. The first
+  focused browser run found only a missing period in the expected historical
+  organization name; after that assertion was corrected, the focused 3-case
+  regression and complete browser and axe matrix passed all 786 cases in 7.0
+  minutes with no serious or critical accessibility violation. Two clean
+  builds produced the identical site digest
+  `0e8859062084b0fd7015907b8fb24fd9551d4617a0f319838e6d99df72ebe896`.
 - Batch 247 covers the next ten contiguous rows, Willem A. Bos through Paul C.
   Bossemeyer, on PDF page forty-five in Box 70. The source page and all ten
   printed rows were checked visually at original resolution. The official
@@ -2649,6 +2706,13 @@ Commissioned classification: 2,189 yes; 5,212 no; 16,539 indeterminate.
   cases in 24.6 minutes with no serious or critical accessibility violation.
   Two clean builds produced the identical site digest
   `5fff2a55e0c9e5c338e0a5e5f18ba49f2c1249042aea8c6df151d15595a61535`.
+
+  Release `1f2e047` passed pull-request workflow 32079232737, post-merge Test
+  workflow 32080328871, and Pages workflow 32080328848. Cache-busted production
+  checks returned HTTP 200 for all ten Batch 247 profiles, confirmed the 2,265-
+  person attempted-research count, and matched all 65 live manifest assets
+  byte-for-byte across 74,161,474 bytes. The live and local manifest SHA-256 is
+  `4f5c9fb7961257ac37d417dd5211af6cd0f827204522d9f20c12ff4e123e9d05`.
 - Batch 246 covers the next ten contiguous rows, Boguslaw L. Borkowski through
   Gerard J. Bos, on PDF page forty-five in Boxes 69 and 70. The source page and
   all ten rows were checked visually at original resolution. Exact full-name
