@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,335 people with a non-planned attempt | 23,940 active person entities | 9.7536% |
+| Research-attempt coverage | 2,345 people with a non-planned attempt | 23,940 active person entities | 9.7953% |
 | Verified-affiliation coverage | 414 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7293% |
 | Verified-employer coverage | 182 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7602% |
-| Archival-review coverage | 2,284 people with an individual file-access/priority assessment | 23,940 active person entities | 9.5405% |
+| Archival-review coverage | 2,294 people with an individual file-access/priority assessment | 23,940 active person entities | 9.5823% |
 
 ## Extraction and identity
 
@@ -23,41 +23,41 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 215
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 359
+- Identity status `confirmed`: 360
 - Identity status `high_confidence`: 437
 - Identity status `probable`: 82
 - Identity status `ambiguous`: 43
 - Identity status `conflicting`: 28
-- Identity status `unresolved`: 22,991
+- Identity status `unresolved`: 22,990
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,387
+- Unknown or indeterminate: 16,375
 - Enlisted Army personnel: 3,593
-- Commissioned Army officers: 2,079
+- Commissioned Army officers: 2,087
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
 - Civilian professional or administrative grades: 1,475
 - Foreign or Allied military personnel: 247
-- Enlisted naval personnel: 59
+- Enlisted naval personnel: 63
 - Commissioned naval officers: 84
 - Warrant officers: 5
 - Temporary, contract, or special personnel: 2
 
-Commissioned classification: 2,190 yes; 5,219 no; 16,531 indeterminate.
+Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,605
+- `not_started`: 21,595
 - `in_progress`: 50
 - `candidate_found`: 1
 - `needs_identity_review`: 57
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 54
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 313
-- `requires_archival_review`: 1,558
+- `occupation_only_found`: 314
+- `requires_archival_review`: 1,567
 - `completed`: 77
 - `conflicting_sources`: 30
 - `verified_employer_found`: 179
@@ -68,15 +68,15 @@ Commissioned classification: 2,190 yes; 5,219 no; 16,531 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Human/manual reviewed-source attempts recorded across the versioned review
-  adapters: 2,117. The detailed adapter breakdown remains reproducible in
+  adapters: 2,127. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 958 across 928 people; 115 additional
+- Saved `source_reviewed` outcomes: 959 across 929 people; 115 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,532
+- Total recorded attempts/plans: 3,542
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 885; 861 have at least one public-visible
+- People with saved reviewed claims: 886; 862 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -2595,6 +2595,60 @@ Commissioned classification: 2,190 yes; 5,219 no; 16,531 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 255 covers the next ten contiguous page-forty-seven rows, Robert H.
+  Bowers through Conley E. Bowman, indexed in Boxes 72-73. The frozen NARA PDF
+  page was checked visually. Eligible private identifiers were compared
+  transiently against NARA's official unrestricted Army merged file; no raw
+  Army row, full private identifier, authenticated Catalog response, or
+  credential is retained or published.
+
+  Exact private-identifier and name agreement confirms Conley E. Bowman. His
+  Army-entry record and the official occupation table document only the broad
+  category of farm hands on general farms on April 16, 1943. No farm, owner,
+  employer, location, start date, or Army-to-OSS sequence is named, so the
+  finding is published as a qualified medium-confidence occupation rather than
+  an employer or immediate affiliation.
+
+  Official naval evidence documents the index's printed `RM2/c` as
+  Radioman Second Class, supporting enlisted naval classification for Floyd E.
+  Bowlby without resolving his identity. The familiar printed `LtCol`
+  abbreviation supports commissioned Army classification for Charles C.
+  Bowman, again without selecting a namesake. The transparent parser fixtures
+  apply those two conservative abbreviation rules across the source index while
+  preserving every raw value.
+
+  Robert H. Bowers, Beverley M. Bowie, Theodore R. Bowie, Walter R. Bowie Jr.,
+  Floyd E. Bowlby, Cecilia V. Bowles, Robert E. Bowline, Evelyn F. Bowling, and
+  Charles C. Bowman remain unresolved after official, CIA Reading Room,
+  exact-name OSS, employment, occupational, obituary, directory, newspaper,
+  institutional, and archival checks. A plausible academic, a copyright
+  authorship lead, fuller-name biographies and genealogy entries, a
+  chronologically late obituary subject, different-identifier Army namesakes,
+  and modern people-finder material were rejected or withheld rather than
+  promoted. Every unresolved profile retains an explicit Box 72 or Box 73
+  review path.
+
+  The strict bundle adds five sources, one affiliation, two claims, five
+  claim-source links, ten person updates, and ten durable research attempts. Two
+  additional imports leave every evidence-table count unchanged. Coverage is
+  now 2,345 researched people, 414 people with a verified affiliation, 182 with
+  a verified employer, and 2,294 individually assessed for archival review, out
+  of 23,940 active entities. The public projection contains 1,003 affiliations,
+  1,946 claims, and 1,796 citation records representing 1,316 unique documents.
+
+  The release gate passed 74 Python tests, SQLite integrity and foreign-key
+  checks, the deterministic 200-profile audit, the focused three-viewport
+  regression, every one of 24,379 internal HTML routes, zero-warning Astro
+  diagnostics, the zero-vulnerability dependency audit, and the exhaustive
+  public-identifier scan. The combined browser run completed 806 cases before
+  one older phone `/sources/` accessibility session timed out; it passed in an
+  isolated single-worker retry, giving 807 / 807 passing assertions overall
+  with no serious or critical axe violation. The link checker separately
+  inventoried 49,222 external URLs. All 65 manifest assets match across
+  74,601,141 bytes, with manifest SHA-256
+  `4ff212d12a5c8840cb879cdf855f511dfe2259cfc8976335fd4ff71dbf89d567`.
+  Two consecutive static builds produced the identical complete-site digest
+  `93e3e5dc8184290ca23af762174732bd5fa414806d88bf41a709979413711daf`.
 - Batch 254 covers the next ten contiguous rows, Vernon G. Bowen through Paul
   F. Bowers, spanning PDF pages 46-47 and all indexed in Box 72. Both pages
   were rendered from the frozen NARA PDF and checked visually. Eligible
