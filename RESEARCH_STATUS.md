@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,661 people with a non-planned attempt | 23,940 active person entities | 11.1153% |
+| Research-attempt coverage | 2,671 people with a non-planned attempt | 23,940 active person entities | 11.1571% |
 | Verified-affiliation coverage | 426 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7794% |
 | Verified-employer coverage | 185 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7728% |
-| Archival-review coverage | 2,611 people with an individual file-access/priority assessment | 23,940 active person entities | 10.9064% |
+| Archival-review coverage | 2,621 people with an individual file-access/priority assessment | 23,940 active person entities | 10.9482% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 219
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 438
+- Identity status `confirmed`: 442
 - Identity status `high_confidence`: 454
-- Identity status `probable`: 89
+- Identity status `probable`: 90
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 34
-- Identity status `unresolved`: 22,880
+- Identity status `unresolved`: 22,875
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,289
-- Enlisted Army personnel: 3,660
+- Unknown or indeterminate: 16,286
+- Enlisted Army personnel: 3,663
 - Commissioned Army officers: 2,093
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,207 yes; 5,302 no; 16,431 indeterminate.
+Commissioned classification: 2,207 yes; 5,305 no; 16,428 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,279
+- `not_started`: 21,269
 - `in_progress`: 49
 - `candidate_found`: 1
-- `needs_identity_review`: 62
+- `needs_identity_review`: 63
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 371
-- `requires_archival_review`: 1,805
+- `occupation_only_found`: 375
+- `requires_archival_review`: 1,810
 - `completed`: 84
 - `conflicting_sources`: 35
 - `verified_employer_found`: 183
-- Claim confidence: 619 confirmed; 982 high; 485 medium; 35 low; 45
+- Claim confidence: 623 confirmed; 982 high; 489 medium; 36 low; 45
   conflicting
-- Durable evidence inventory: 2,991 source records representing 1,387 unique
-  documents; 450 organizations; 1,090 affiliations; 2,166 claims; and 4,865
+- Durable evidence inventory: 2,996 source records representing 1,389 unique
+  documents; 450 organizations; 1,094 affiliations; 2,175 claims; and 4,887
   claim-source links
-- Reviewed public projection: 439 organizations; 1,081 published, qualified,
-  or conflict-visible affiliations; 2,131 published, qualified, or
-  conflict-visible claims; and 1,955 public citation records
+- Reviewed public projection: 439 organizations; 1,085 published, qualified,
+  or conflict-visible affiliations; 2,139 published, qualified, or
+  conflict-visible claims; and 1,959 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,207 yes; 5,302 no; 16,431 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,443. The detailed adapter breakdown remains reproducible in
+  2,453. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,086 across 1,053 people; 118 additional
+- Saved `source_reviewed` outcomes: 1,090 across 1,057 people; 119 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,862
+- Total recorded attempts/plans: 3,872
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 993; 968 have at least one public-visible
+- People with saved reviewed claims: 998; 972 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4620,12 +4620,28 @@ Commissioned classification: 2,207 yes; 5,302 no; 16,431 indeterminate.
   Brown, Doris F. Brown, and Dorothy E. Brown remain unresolved archival-review
   cases. No authenticated Catalog request, credential, raw API response, full
   private identifier, or unsupported employer claim was used or published.
-- Public-visible affiliations: 1,081 (published, qualified, or conflict-visible)
-- Database claims: 2,166; public-visible claims: 2,131 (619 confirmed, 982 high,
-  485 medium, 45 conflicting); 29 low-confidence claims are withheld and six
+- Batch 288 covers Earl F. Brown through Frederic Brown, the next ten rows on
+  PDF page 55, all in Box 84. Exact private-identifier and name matches in the
+  official Army merged file confirm Edward O. Brown, Eric Brown, Ernest J.
+  Brown, and Francis K. Brown as enlisted Army personnel. Their dated entry
+  records support qualified pressman-or-plate-printer, accountant-or-auditor,
+  college-president-professor-or-instructor, and non-construction painter
+  occupation findings; none names an employer, firm, college, publication, or
+  worksite. Eric Brown's indexed staff-sergeant rank is compatible with
+  advancement after the private's Army-entry record. A NARA-published
+  conference paper supplies a plausible Algiers OSS candidate for the uncommon
+  name Frederic Brown, but no public source maps that subject to the indexed
+  private identifier or Box 84. The candidate and its radio-shop history remain
+  withheld from affiliation claims pending file review. Earl F., Edward D.,
+  Francis H., Francis G., and Francis E. Brown remain unresolved archival-
+  review cases. No authenticated Catalog request, credential, raw API response,
+  full private identifier, or unsupported employer claim was used or published.
+- Public-visible affiliations: 1,085 (published, qualified, or conflict-visible)
+- Database claims: 2,175; public-visible claims: 2,139 (623 confirmed, 982 high,
+  489 medium, 45 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,865 total and 4,790 public-visible; private source
-  records: 2,991; public source export: 1,955; unique source documents: 1,387
+- Claim-source links: 4,887 total and 4,810 public-visible; private source
+  records: 2,996; public source export: 1,959; unique source documents: 1,389
 - Canonical organizations: 450 private and 439 public
 - Conflicting claims: 45 across 36 people
 - NARA pull-list rows: 23,795
@@ -4666,6 +4682,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-five-earl-brown-through-frederic-brown-pathways_batch-288_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-fifty-four-fifty-five-charles-brown-through-dorothy-brown-pathways_batch-287_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-four-james-brousseau-through-charles-brown-pathways_batch-286_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-four-john-brosnan-through-amedee-brousseau-pathways_batch-285_2026-08-18.json
