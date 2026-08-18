@@ -23054,3 +23054,52 @@ test("Batch 281 publishes three bounded occupations and Brix's documented newspa
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 282 publishes two identifier-backed occupations, qualifies Brochard's French archival identity, and preserves unresolved cases", async ({
+  page,
+}) => {
+  await page.goto("./people/ae5a82f9-0351-5469-92a7-4ffd01003999/");
+  await expect(page.getByRole("heading", { name: "Page R Broadwater", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Farm hand on a general farm",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/148d9024-2839-529d-9485-3f514d71c3d0/");
+  await expect(page.getByRole("heading", { name: "Raymond J Brochu", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Semiskilled work in textile manufacturing, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/db9cf197-ea56-58de-9d0b-0a0a95dc68aa/");
+  await expect(page.getByRole("heading", { name: "Hubert P Brochard", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Yes", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Maurice Montjean", { exact: false }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/bc62f164-a309-5443-87b2-c303a6fa377b/");
+  await expect(page.getByRole("heading", { name: "Jack A Brocia", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
