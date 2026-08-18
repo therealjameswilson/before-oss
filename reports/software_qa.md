@@ -66,40 +66,52 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 289: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **864-case** matrix runs in release CI
+- Focused Batch 290 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 290: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **867-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic public-data build (Batch 289): **byte-for-byte
+- Latest deterministic public-data build (Batch 290): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`84bdb62ab9de844d9bdf7a07ac4deb748c1828c17d4e867f4725fd17687dc3bf`).
+  (`72d4deb9cf1f70da68ba3480f83ccd9bdf3451e8633606c2a77600febb01b88b`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,266,163 bytes** in both the source and built public trees;
+  across **76,316,258 bytes** in both the source and built public trees;
   manifest SHA-256
-  `084843ed9427e487e8e2de3b0d9b1be093c7ae8ca792507c315780c6a9ec3051`
+  `5f91dc87d54a216295afd3fe8c59ad6b1cef2ce498feb787766556297857bf99`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,457** production artifacts, including compressed mirrors;
-  **1,028** candidate substrings were reviewed. Two numerical coincidences were
-  confined to manifest size fields and classified separately by the field-aware
-  audit; no aggregate coincidence survived. A
+  **1,026** candidate substrings were reviewed. No aggregate or manifest-size
+  coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,963** public records representing **1,389** unique documents
-- Private citation records: **3,000**
-- Published, qualified, or conflict-visible affiliations: **1,087**
-- Published or conflict-visible claims: **2,143**
+- Reviewed public sources: **1,967** public records representing **1,390** unique documents
+- Private citation records: **3,004**
+- Published, qualified, or conflict-visible affiliations: **1,090**
+- Published or conflict-visible claims: **2,149**
 - Verified-affiliation metric: **426** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **185** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 290 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,387-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. Jack Brown, James Brown, and John D. Brown have exact-
+  identifier Army identities and qualified pre-entry occupations without
+  invented employers. Seven profiles remain archival-review cases; the
+  conflicting Jack Browne and Howard Brown Signal Corps namesakes are not
+  assigned. The complete 867-case browser matrix runs in release CI.
 - Batch 289 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,387-route link check, deterministic rebuild, manifest audit, dependency

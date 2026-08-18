@@ -1,0 +1,448 @@
+{
+  "bundle_version": "batch290-v1",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-55-batch290",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 84-85",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 55, rows 25-34; Howard Brown through John D. Brown; visually checked with private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. Full private identifiers remain restricted and are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch290",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier review for Howard Brown, Jack Brown, Jack O. Brown, James W. Brown, James Brown, and John D. Brown; three exact-name matches accepted; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. Only project-authored conclusions and stable citation pointers are retained. The merged file excludes officers and has known omissions and conversion errors, so absence is not treated as disproof."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch290",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width field positions for name, Army-entry date, rank, component, branch, civilian occupation, and birth year; visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields in the official merged file without retaining raw records or private identifiers."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch290",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; NARA Compiled Code Lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "Numerical civilian-occupation list, PDF physical pages 175-176; codes 788, 138, and 710 visually and textually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records code documentation",
+      "rights_notes": "The official tables supply broad occupation categories, not named employers or workplaces."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "jack-brown-warehousing-occupation-batch290",
+      "person_id": "886c4153-68b1-5cb4-832f-799073e859ba",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Warehousing, storekeeping, handling, loading, unloading, or related occupation",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-30",
+      "date_precision": "The official Army-entry record carries civilian occupation code 788 on November 30, 1942; the grouped category names no employer, warehouse, store, product, worksite, or exact title.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation code does not establish a named employer or the later Army-to-OSS sequence."
+    },
+    {
+      "key": "james-brown-stock-clerk-occupation-batch290",
+      "person_id": "a30e3b08-e63c-5e86-9da3-e889f2619619",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Stock clerk",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-08-13",
+      "date_precision": "The official Army-entry record carries civilian occupation code 138 on August 13, 1943; the stock-clerk category names no employer, warehouse, product, worksite, or exact duties.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity despite the very common name. The occupation code does not establish a named employer or the later Army-to-OSS sequence."
+    },
+    {
+      "key": "john-d-brown-fabricated-plastics-occupation-batch290",
+      "person_id": "fdd9794d-07ee-545e-8e3b-3580879d1182",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Fabricated plastic products manufacturing occupation",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-07-24",
+      "date_precision": "The official Army-entry record carries civilian occupation code 710 on July 24, 1942; the manufacturing category names no employer, plant, product, worksite, or exact trade.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The occupation code does not establish a named employer or the later Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "jack-brown-confirmed-army-identity-batch290",
+      "person_id": "886c4153-68b1-5cb4-832f-799073e859ba",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Jack Brown is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN JACK",
+      "evidence_paraphrase": "The name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact indexed name.",
+      "temporal_assessment": "The Army-entry record is dated November 30, 1942; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Milwaukee diving-equipment designer Jack Browne differs in surname spelling and wartime chronology; other common-name candidates lacked the private identifier or Box 84 linkage.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch290", "support_type": "supports", "locator_override": "PDF page 55, row 26", "excerpt_override": "BROWN JACK"},
+        {"source_key": "nara-army-enlistment-merged-file-batch290", "support_type": "supports", "locator_override": "Exact private-identifier record; identifier withheld", "excerpt_override": "BROWN JACK"}
+      ]
+    },
+    {
+      "key": "jack-brown-warehousing-occupation-claim-batch290",
+      "person_id": "886c4153-68b1-5cb4-832f-799073e859ba",
+      "affiliation_key": "jack-brown-warehousing-occupation-batch290",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Jack Brown was recorded in a grouped warehousing, storekeeping, handling, loading, unloading, or related occupation category.",
+      "evidence_excerpt": "Warehousing, storekeeping, handling, loading, unloading, and related occupations",
+      "evidence_paraphrase": "The official record carries code 788; the official numerical list maps 5-88 and 7-88 to this grouped category.",
+      "identity_match_assessment": "Confirmed by exact private identifier and indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on November 30, 1942; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, warehouse, store, product, worksite, exact title, or immediate OSS predecessor is inferred from the category.",
+      "sources": [
+        {"source_key": "nara-army-enlistment-merged-file-batch290", "support_type": "supports", "locator_override": "Exact private-identifier record; civilian occupation code 788; identifier withheld", "excerpt_override": "BROWN JACK"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch290", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; civilian occupation field definition", "excerpt_override": "Civ Occupation 70-72"},
+        {"source_key": "nara-army-enlistment-code-lists-batch290", "support_type": "supports", "locator_override": "Numerical civilian-occupation list, PDF physical page 175, code 5,7-88", "excerpt_override": "Warehousing, storekeeping, handling, loading, unloading"}
+      ]
+    },
+    {
+      "key": "james-brown-confirmed-army-identity-batch290",
+      "person_id": "a30e3b08-e63c-5e86-9da3-e889f2619619",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James Brown is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN JAMES",
+      "evidence_paraphrase": "The name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier; this is decisive despite the very common name.",
+      "temporal_assessment": "The Army-entry record is dated August 13, 1943; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Numerous same-name military, obituary, cemetery, directory, and modern results were rejected because they lacked the private identifier or Box 84 linkage.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch290", "support_type": "supports", "locator_override": "PDF page 55, row 31", "excerpt_override": "BROWN JAMES"},
+        {"source_key": "nara-army-enlistment-merged-file-batch290", "support_type": "supports", "locator_override": "Exact private-identifier record; identifier withheld", "excerpt_override": "BROWN JAMES"}
+      ]
+    },
+    {
+      "key": "james-brown-stock-clerk-occupation-claim-batch290",
+      "person_id": "a30e3b08-e63c-5e86-9da3-e889f2619619",
+      "affiliation_key": "james-brown-stock-clerk-occupation-batch290",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, James Brown was recorded in the stock-clerk occupation category.",
+      "evidence_excerpt": "1-38. Clerks, stock",
+      "evidence_paraphrase": "The official record carries code 138; the official numerical list maps 1-38 to stock clerks.",
+      "identity_match_assessment": "Confirmed by exact private identifier and indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on August 13, 1943; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, warehouse, product, worksite, exact duties, or immediate OSS predecessor is inferred from the category.",
+      "sources": [
+        {"source_key": "nara-army-enlistment-merged-file-batch290", "support_type": "supports", "locator_override": "Exact private-identifier record; civilian occupation code 138; identifier withheld", "excerpt_override": "BROWN JAMES"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch290", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; civilian occupation field definition", "excerpt_override": "Civ Occupation 70-72"},
+        {"source_key": "nara-army-enlistment-code-lists-batch290", "support_type": "supports", "locator_override": "Numerical civilian-occupation list, PDF physical page 176, code 1-38", "excerpt_override": "Clerks, stock"}
+      ]
+    },
+    {
+      "key": "john-d-brown-confirmed-army-identity-batch290",
+      "person_id": "fdd9794d-07ee-545e-8e3b-3580879d1182",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed John D. Brown is confirmed as the Army entrant represented by the exact-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BROWN JOHN D",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact full indexed name.",
+      "temporal_assessment": "The Army-entry record is dated July 24, 1942; the index documents an OSS personnel file but not the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Common-name military, cemetery, directory, institutional, and modern results were rejected because they lacked the private identifier or Box 85 linkage.",
+      "sources": [
+        {"source_key": "nara-oss-index-page-55-batch290", "support_type": "supports", "locator_override": "PDF page 55, row 34", "excerpt_override": "BROWN JOHN D"},
+        {"source_key": "nara-army-enlistment-merged-file-batch290", "support_type": "supports", "locator_override": "Exact private-identifier record; identifier withheld", "excerpt_override": "BROWN JOHN D"}
+      ]
+    },
+    {
+      "key": "john-d-brown-fabricated-plastics-occupation-claim-batch290",
+      "person_id": "fdd9794d-07ee-545e-8e3b-3580879d1182",
+      "affiliation_key": "john-d-brown-fabricated-plastics-occupation-batch290",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, John D. Brown was recorded in the fabricated-plastic-products manufacturing occupation category.",
+      "evidence_excerpt": "Fabricated plastic products manufacturing occupations",
+      "evidence_paraphrase": "The official record carries code 710; the official numerical list maps 7-10 to fabricated-plastic-products manufacturing occupations.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on July 24, 1942; its relation to OSS recruitment remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, plant, product, worksite, exact trade, or immediate OSS predecessor is inferred from the category.",
+      "sources": [
+        {"source_key": "nara-army-enlistment-merged-file-batch290", "support_type": "supports", "locator_override": "Exact private-identifier record; civilian occupation code 710; identifier withheld", "excerpt_override": "BROWN JOHN D"},
+        {"source_key": "nara-army-enlistment-basic-documentation-batch290", "support_type": "context_only", "locator_override": "PDF physical pages 44-46; civilian occupation field definition", "excerpt_override": "Civ Occupation 70-72"},
+        {"source_key": "nara-army-enlistment-code-lists-batch290", "support_type": "supports", "locator_override": "Numerical civilian-occupation list, PDF physical page 176, code 7-10", "excerpt_override": "Fabricated plastic products manufacturing occupations"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "1f620801-054a-5f69-9f5a-2f84aa61db26",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Howard Brown, a private identifier, and Box 84 but no rank, middle initial, occupation, or other public discriminator. The official Army merged file supplied no exact record; because that file has documented omissions and excludes officers, absence is not treated as disproof. A Signal Corps officer namesake could not be linked to the indexed identifier or file.",
+      "name_variants": ["Howard Brown", "Brown, Howard"],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 for full name, rank, branch, residence, occupation, employer, and service chronology; test any recovered details against Signal Corps and other official military records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "886c4153-68b1-5cb4-832f-799073e859ba",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on Jack Brown's exact indexed name and private identifier. The identifier remains withheld; the Army row dates entry to November 30, 1942 and carries civilian occupation code 788.",
+      "name_variants": ["Jack Brown", "Brown, Jack"],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 84 for the warehousing or storekeeping employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "76327d77-4e35-5948-a639-c91cc8f5ed96",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Jack O. Brown, a private identifier, and Box 84 but no rank or occupation. The official Army merged file supplied no exact record; because that file has documented omissions and excludes officers, absence is not treated as disproof. Other candidates lacked the identifier or Box 84 linkage.",
+      "name_variants": ["Jack O Brown", "Jack O. Brown", "Jack Brown", "Brown, Jack O."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 for rank, branch, residence, occupation, employer, and service chronology; compare recovered details with official military records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51f36ce9-2f2f-5df7-9ff5-01606241de27",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies James E. Brown and Box 84 but no private identifier, rank, occupation, or other discriminator. Numerous military, cemetery, obituary, institutional, directory, and modern records could not be tied to the indexed file.",
+      "name_variants": ["James E Brown", "James E. Brown", "James Brown", "Brown, James E."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 for identifiers, rank, branch, residence, occupation, employer, and service chronology before assigning any same-name veteran.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2d69357f-b045-5841-897b-90a57e628eb1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies James G. Brown and Box 84 but no private identifier, rank, occupation, or other discriminator. Exact-name OSS, CIA, military, employment, obituary, institutional, newspaper, directory, and archival searches did not isolate the indexed person.",
+      "name_variants": ["James G Brown", "James G. Brown", "James Brown", "Brown, James G."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 for identifiers, rank, branch, residence, occupation, employer, and service chronology before assigning any same-name record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53444c9a-46fe-5499-9a49-e7226a378b33",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Captain James W. Brown, a private identifier, and Box 84. The official Army merged file supplied no exact record, which is expected to be non-dispositive because officers are excluded. Officer, casualty, obituary, institutional, directory, and archival candidates lacked the indexed identifier or Box 84 linkage.",
+      "name_variants": ["James W Brown", "James W. Brown", "Captain James W. Brown", "James Brown", "Brown, James W."],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 and officer records using the masked private identifier for branch, residence, occupation, employer, and service chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a30e3b08-e63c-5e86-9da3-e889f2619619",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on James Brown's exact indexed name and private identifier. The identifier remains withheld; the Army row dates entry to August 13, 1943 and carries civilian occupation code 138.",
+      "name_variants": ["James Brown", "Brown, James"],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 84 for the stock-clerk employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7ab8d1d3-d345-5d1a-8156-cffa68209e95",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Jane A. Brown and Box 84 but no private identifier, rank, occupation, or other discriminator. Exact-name OSS, CIA, employment, obituary, institutional, newspaper, directory, and archival searches did not isolate the indexed person.",
+      "name_variants": ["Jane A Brown", "Jane A. Brown", "Jane Brown", "Brown, Jane A."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 for a full middle name, residence, occupation, employer, and service chronology before assigning any same-name record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33327bb5-c48c-57d3-b14f-00f1c4613b5a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Jeanette A. Brown and Box 84 but no private identifier, rank, occupation, or other discriminator. An obituary for a nurse born in 1926 and other same-name records lacked OSS or Box 84 linkage and compatible wartime chronology.",
+      "name_variants": ["Jeanette A Brown", "Jeanette A. Brown", "Jeanette Brown", "Brown, Jeanette A."],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 84 for a full middle name, residence, occupation, employer, and service chronology before assigning any same-name record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fdd9794d-07ee-545e-8e3b-3580879d1182",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on John D. Brown's exact full name and private identifier. The identifier remains withheld; the Army row dates entry to July 24, 1942 and carries civilian occupation code 710.",
+      "name_variants": ["John D Brown", "John D. Brown", "John Brown", "Brown, John D."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 85 for the fabricated-plastics employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "howard-brown-protocol-batch290", "person_id": "1f620801-054a-5f69-9f5a-2f84aa61db26", "source_adapter": "official_bulk_and_manual_review", "query_text": "Howard Brown: visually checked NARA index and private identifier; official Army bulk comparison; CIA, OSS, Signal Corps, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 12, "candidate_sources_rejected": 12, "rejection_reasons": "The official Army merged file supplied no exact row. A lieutenant in the 2nd Signal Service Company and other same-name candidates lacked the indexed private identifier or Box 84 linkage.", "research_notes": "Bulk-file absence is not disproof because the series has omissions and excludes officers. No identity or employer was established.", "next_action": "Review Box 84 and test recovered details against official Signal Corps and military records.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "jack-brown-protocol-batch290", "person_id": "886c4153-68b1-5cb4-832f-799073e859ba", "source_adapter": "official_bulk_and_manual_review", "query_text": "Jack Brown: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, warehousing, employment, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 13, "candidate_sources_rejected": 11, "rejection_reasons": "The Milwaukee diving-equipment designer Jack Browne differs in surname spelling and wartime chronology; other military and obituary namesakes lacked the private identifier or Box 84 linkage.", "research_notes": "Identity is confirmed; only the broad warehousing or storekeeping category is supportable, with no named employer.", "next_action": "Review Box 84 for employer details and the Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "jack-o-brown-protocol-batch290", "person_id": "76327d77-4e35-5948-a639-c91cc8f5ed96", "source_adapter": "official_bulk_and_manual_review", "query_text": "Jack O. Brown: visually checked NARA index and private identifier; official Army bulk comparison; CIA, OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "no_result", "sources_reviewed": 11, "candidate_sources_rejected": 10, "rejection_reasons": "The official Army merged file supplied no exact row; military, obituary, directory, and modern namesakes lacked the private identifier or Box 84 linkage.", "research_notes": "Bulk-file absence is not disproof because the series has omissions and excludes officers. No identity or employer was established.", "next_action": "Review Box 84 and compare recovered details with official military records.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "james-e-brown-protocol-batch290", "person_id": "51f36ce9-2f2f-5df7-9ff5-01606241de27", "source_adapter": "multi_source_manual_review", "query_text": "James E. Brown: visually checked NARA index; Army, Navy, and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, cemetery, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "no_result", "sources_reviewed": 11, "candidate_sources_rejected": 14, "rejection_reasons": "Many Army, Navy, Marine, cemetery, obituary, and modern namesakes lacked two corroborating identifiers and Box 84 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 84.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "james-g-brown-protocol-batch290", "person_id": "2d69357f-b045-5841-897b-90a57e628eb1", "source_adapter": "multi_source_manual_review", "query_text": "James G. Brown: visually checked NARA index; Army, Navy, and CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "no_result", "sources_reviewed": 10, "candidate_sources_rejected": 12, "rejection_reasons": "Military, obituary, institutional, newspaper, directory, and modern namesakes lacked two corroborating identifiers and Box 84 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 84.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "james-w-brown-protocol-batch290", "person_id": "53444c9a-46fe-5499-9a49-e7226a378b33", "source_adapter": "official_bulk_and_manual_review", "query_text": "Captain James W. Brown: visually checked NARA index, rank, and private identifier; official Army bulk comparison; CIA, OSS, officer, employment, occupation, institutional, newspaper, obituary, casualty, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "no_result", "sources_reviewed": 13, "candidate_sources_rejected": 14, "rejection_reasons": "The Army bulk file excludes officers. Aircrew casualty, officer, obituary, and directory namesakes lacked the indexed private identifier or Box 84 linkage.", "research_notes": "The printed captain grade remains authoritative for classification, but no identity or employer was established.", "next_action": "Review Box 84 and official officer records using the masked private identifier.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "james-brown-protocol-batch290", "person_id": "a30e3b08-e63c-5e86-9da3-e889f2619619", "source_adapter": "official_bulk_and_manual_review", "query_text": "James Brown: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, stock-clerk employment, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 14, "candidate_sources_rejected": 16, "rejection_reasons": "Numerous same-name military, cemetery, obituary, directory, and modern records lacked the private identifier or Box 84 linkage.", "research_notes": "Identity is confirmed; only the broad stock-clerk category is supportable, with no named employer.", "next_action": "Review Box 84 for employer details and the Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "jane-a-brown-protocol-batch290", "person_id": "7ab8d1d3-d345-5d1a-8156-cffa68209e95", "source_adapter": "multi_source_manual_review", "query_text": "Jane A. Brown: visually checked NARA index; CIA context; exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "no_result", "sources_reviewed": 10, "candidate_sources_rejected": 11, "rejection_reasons": "Obituary, institutional, newspaper, directory, and modern namesakes lacked two corroborating identifiers and Box 84 linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 84.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "jeanette-a-brown-protocol-batch290", "person_id": "33327bb5-c48c-57d3-b14f-00f1c4613b5a", "source_adapter": "multi_source_manual_review", "query_text": "Jeanette A. Brown: visually checked NARA index; CIA context; exact-name OSS, employment, occupation, nursing, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 10, "candidate_sources_rejected": 10, "rejection_reasons": "A nurse born in 1926 did not graduate nursing school until 1947 and lacked OSS or Box 84 linkage; other same-name records also lacked direct linkage.", "research_notes": "No reliable identity or pre-OSS employer was established.", "next_action": "Review Box 84.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    },
+    {
+      "key": "john-d-brown-protocol-batch290", "person_id": "fdd9794d-07ee-545e-8e3b-3580879d1182", "source_adapter": "official_bulk_and_manual_review", "query_text": "John D. Brown: visually checked NARA index; exact private-identifier review in official Army bulk data and code tables; CIA, OSS, plastics manufacturing, employment, institutional, newspaper, obituary, directory, and archival searches.", "query_variant_type": "common_name_enhanced_protocol", "started_at": "2026-08-18T21:00:00+00:00", "completed_at": "2026-08-18T21:14:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 13, "candidate_sources_rejected": 12, "rejection_reasons": "Military, cemetery, directory, institutional, and modern namesakes lacked the private identifier or Box 85 linkage.", "research_notes": "Identity is confirmed; only the broad fabricated-plastic-products manufacturing category is supportable, with no named employer.", "next_action": "Review Box 85 for employer details and the Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-research-batch290-v1"
+    }
+  ]
+}
