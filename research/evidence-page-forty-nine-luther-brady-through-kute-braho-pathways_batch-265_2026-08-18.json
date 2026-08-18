@@ -1,0 +1,509 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss-research-batch265-v1",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-49-batch265",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 76",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 49, rows 12-21; Luther W. Brady Jr. through Kute Braho; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch265",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for four eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch265",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch265",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Compiled civilian occupation list; code 266 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "person_updates": [
+    {
+      "person_id": "39bf5464-ab7a-5a80-bf20-8e11a5b6968d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a full name and suffix but no rank, private identifier, note, or nationality. Exact-name official, CIA, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "Luther W Brady Jr.",
+        "Luther W. Brady Jr.",
+        "Luther W. Brady, Jr.",
+        "Brady, Luther W., Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "84249161-dfbf-5b8e-b5fe-ba42c67a4a87",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Thomas A. Brady's exact private identifier, first and last names, and middle initial; the Army record expands the middle name to Anthony.",
+      "name_variants": [
+        "Thomas A Brady",
+        "Thomas A. Brady",
+        "Thomas Anthony Brady",
+        "Brady, Thomas A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 76 for a named public-safety employer, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f577fc59-f4ae-5919-91f7-5d5c329187f1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index establishes a Private classification but supplies no private identifier or unit. Exact-name official, CIA, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not resolve the identity.",
+      "name_variants": [
+        "Manuel M Braga",
+        "Manuel M. Braga",
+        "Braga, Manuel M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5bdc7601-b010-5ddd-9f14-94de421eb261",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes a Private First Class classification, but the printed private identifier did not receive a corroborating record in the official Army merged file. Same-name official, CIA, military, and biographical candidates lacked index-specific corroboration.",
+      "name_variants": [
+        "Addison R Bragg",
+        "Addison R. Bragg",
+        "Bragg, Addison R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 to resolve the identifier, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "de9c3a57-0ab5-5e99-af73-2862fc6e151c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "Calvin E Bragg",
+        "Calvin E. Bragg",
+        "Bragg, Calvin E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ac51789e-dfee-5896-8691-5392d2c93e05",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and initial, without rank, private identifier, note, or nationality, are insufficient to select a namesake. Official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Virginia M Bragg",
+        "Virginia M. Bragg",
+        "Bragg, Virginia M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ffa08f0e-2173-59cb-9595-9ac18a6b3882",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes a commissioned Lieutenant but not the service branch. A distinctive exact-name Lieutenant Robert M. Braggins Jr., USNR, appears in a 1946 official war-crimes-trial record, but that postwar source does not mention OSS or supply an index identifier; the candidate remains unresolved and the suffix is not assigned.",
+      "name_variants": [
+        "Robert M Braggins",
+        "Robert M. Braggins",
+        "Braggins, Robert M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, suffix, service branch, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eca1c724-5a50-5b96-9c7c-ab43787c464a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index provides initials only and no rank, private identifier, note, or nationality. Official, CIA, exact-name, spelling-variant, employer, occupation, newspaper, directory, institutional, and archival searches did not establish a full identity.",
+      "name_variants": [
+        "D C Braggiotti",
+        "D. C. Braggiotti",
+        "Braggiotti, D. C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for the full name, identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bb4d1000-4055-5131-82f1-a07bb9e2d474",
+      "identity_status": "unresolved",
+      "identity_evidence": "Contemporary entertainment references identify a Rosario Braggiotti dancing in New York, but they do not supply the indexed middle initial, mention OSS, or establish a pre-OSS transition. The candidate is retained below the identity and publication thresholds.",
+      "name_variants": [
+        "Rosario T Braggiotti",
+        "Rosario T. Braggiotti",
+        "Braggiotti, Rosario T."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, middle name, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5ca01b4e-a215-5a0a-9f08-cd166c938c39",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, transliteration, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "Kute Braho",
+        "Braho, Kute"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 to resolve the identifier, name spelling, nationality, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "thomas-a-brady-occupation-code-266-batch265",
+      "person_id": "84249161-dfbf-5b8e-b5fe-ba42c67a4a87",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Policemen and detectives, public service",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1944-10-16",
+      "date_precision": "Civilian-occupation code 266 recorded at Army entry on 1944-10-16; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "thomas-a-brady-confirmed-identity-batch265",
+      "person_id": "84249161-dfbf-5b8e-b5fe-ba42c67a4a87",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Thomas A Brady identity in the official Army merged file.",
+      "evidence_excerpt": "THOMAS ANTHONY BRADY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, first and last names, and middle initial; the Army record expands the middle name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1944-10-16; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. The expanded middle name is preserved as a documented variant rather than substituted for the indexed name.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch265",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch265",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "THOMAS ANTHONY BRADY"
+        }
+      ]
+    },
+    {
+      "key": "thomas-a-brady-occupation-at-army-entry-batch265",
+      "person_id": "84249161-dfbf-5b8e-b5fe-ba42c67a4a87",
+      "affiliation_key": "thomas-a-brady-occupation-code-266-batch265",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Thomas A Brady in the broad civilian group for policemen and detectives in public service.",
+      "evidence_excerpt": "Civilian occupation code 266.",
+      "evidence_paraphrase": "Code 266 was recorded at Army entry on 1944-10-16 and maps to policemen and detectives in public service.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, police department, detective agency, workplace, exact duties, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch265",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 266"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch265",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 266"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch265",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "luther-w-brady-jr-protocol-batch265",
+      "person_id": "39bf5464-ab7a-5a80-bf20-8e11a5b6968d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Luther W Brady Jr.: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:00:00+00:00",
+      "completed_at": "2026-08-18T22:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies a full name and suffix but no rank, private identifier, note, or nationality. Exact-name official, CIA, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 76 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "thomas-a-brady-protocol-batch265",
+      "person_id": "84249161-dfbf-5b8e-b5fe-ba42c67a4a87",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Thomas A Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:05:00+00:00",
+      "completed_at": "2026-08-18T22:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Thomas A. Brady's exact private identifier, first and last names, and middle initial; the Army record expands the middle name to Anthony.",
+      "next_action": "Review Box 76 for a named public-safety employer, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "manuel-m-braga-protocol-batch265",
+      "person_id": "f577fc59-f4ae-5919-91f7-5d5c329187f1",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Manuel M Braga: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:10:00+00:00",
+      "completed_at": "2026-08-18T22:15:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 19,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually checked index establishes a Private classification but supplies no private identifier or unit. Exact-name official, CIA, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not resolve the identity.",
+      "next_action": "Review Box 76 for identity, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "addison-r-bragg-protocol-batch265",
+      "person_id": "5bdc7601-b010-5ddd-9f14-94de421eb261",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Addison R Bragg: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:15:00+00:00",
+      "completed_at": "2026-08-18T22:20:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 20,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index establishes a Private First Class classification, but the printed private identifier did not receive a corroborating record in the official Army merged file. Same-name official, CIA, military, and biographical candidates lacked index-specific corroboration.",
+      "next_action": "Review Box 76 to resolve the identifier, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "calvin-e-bragg-protocol-batch265",
+      "person_id": "de9c3a57-0ab5-5e99-af73-2862fc6e151c",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Calvin E Bragg: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:20:00+00:00",
+      "completed_at": "2026-08-18T22:25:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 76 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "virginia-m-bragg-protocol-batch265",
+      "person_id": "ac51789e-dfee-5896-8691-5392d2c93e05",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Virginia M Bragg: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:25:00+00:00",
+      "completed_at": "2026-08-18T22:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common name and initial, without rank, private identifier, note, or nationality, are insufficient to select a namesake. Official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 76 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "robert-m-braggins-protocol-batch265",
+      "person_id": "ffa08f0e-2173-59cb-9595-9ac18a6b3882",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert M Braggins: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:30:00+00:00",
+      "completed_at": "2026-08-18T22:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index establishes a commissioned Lieutenant but not the service branch. A distinctive exact-name Lieutenant Robert M. Braggins Jr., USNR, appears in a 1946 official war-crimes-trial record, but that postwar source does not mention OSS or supply an index identifier; the candidate remains unresolved and the suffix is not assigned.",
+      "next_action": "Review Box 76 for identity, suffix, service branch, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "d-c-braggiotti-protocol-batch265",
+      "person_id": "eca1c724-5a50-5b96-9c7c-ab43787c464a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "D C Braggiotti: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:35:00+00:00",
+      "completed_at": "2026-08-18T22:40:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 24,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index provides initials only and no rank, private identifier, note, or nationality. Official, CIA, exact-name, spelling-variant, employer, occupation, newspaper, directory, institutional, and archival searches did not establish a full identity.",
+      "next_action": "Review Box 76 for the full name, identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "rosario-t-braggiotti-protocol-batch265",
+      "person_id": "bb4d1000-4055-5131-82f1-a07bb9e2d474",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Rosario T Braggiotti: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:40:00+00:00",
+      "completed_at": "2026-08-18T22:45:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "Contemporary entertainment references identify a Rosario Braggiotti dancing in New York, but they do not supply the indexed middle initial, mention OSS, or establish a pre-OSS transition. The candidate is retained below the identity and publication thresholds.",
+      "next_action": "Review Box 76 for identity, middle name, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    },
+    {
+      "key": "kute-braho-protocol-batch265",
+      "person_id": "5ca01b4e-a215-5a0a-9f08-cd166c938c39",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Kute Braho: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T22:45:00+00:00",
+      "completed_at": "2026-08-18T22:50:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, postwar military, entertainment, obituary, directory, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, transliteration, military, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 76 to resolve the identifier, name spelling, nationality, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch265-v1"
+    }
+  ]
+}

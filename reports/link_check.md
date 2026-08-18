@@ -12,8 +12,36 @@ The build includes 23,940 person profiles, 435 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,237 unique external URLs for separate live
+The checker inventoried 49,240 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batches 263-269 local release check
+
+The complete 24,383-page internal-link pass includes direct routes for Stella
+Bradford through Peter Braunstein across PDF pages 48-50. The 74-test Python
+suite, deterministic 200-profile audit, focused 3-case regression, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints,
+and the production dependency audit finds zero vulnerabilities.
+
+The complete browser run passed 815 / 816 cases. The single failure was the
+desktop `/sources/` axe scan under its former 45-second timeout; with the new
+route-specific 90-second limit, that exact scan passed 3 / 3 across desktop,
+phone, and tablet. No serious or critical axe violation was found.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 75,272,276 bytes and has
+SHA-256
+`782b87cb0ac4e908cecff89d992617ff0dad8fdea94b6265ee84d8b443d59dca`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,453 artifacts, rejected 1,027
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`e44964780b194cab23ad179937d919ecccda4cecbb3288de33392f6f08050cbb`.
+The regression keeps nineteen date-bounded Army occupations out of employer
+counts, qualifies Ily Bratina's unnamed New York bank work, and routes
+unsupported identities and predecessor claims to archival review.
 
 ## Batches 257-262 local release check
 
@@ -40,6 +68,12 @@ The regression keeps Braatoy's government relationships, Braden's military and
 civilian pathways, thirteen Army occupations, and the Bradford identity
 conflict in their proper evidentiary categories while routing unsupported
 namesakes to archival review.
+
+Pull request 28 passed hosted workflow 32126377788 and merged as `003fab9`.
+Post-merge Test workflow 32128286623 and Pages workflow 32128286609 succeeded.
+The cache-busted production audit matched all 65 published assets byte for byte
+across 74,959,371 bytes and returned HTTP 200 for the home, methodology,
+downloads, and sampled Batch 257-262 profile routes.
 
 ## Batch 256 local release check
 

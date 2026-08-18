@@ -1,0 +1,708 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss-research-batch264-v1",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-49-batch264",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 75-76",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 49, rows 2-11; John L. Bradner through Leo J. Brady; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch264",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for seven eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch264",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch264",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Digital PDF pages 171-176; codes 0-03, 3-16, and 8-82 visually checked; the value recorded for Joseph W. Brady is not defined in the compiled list",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact trade, or immediate Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "person_updates": [
+    {
+      "person_id": "b46779fb-6295-5a43-9fe2-a0fbd20eaad0",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share John L. Bradner's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "John L Bradner",
+        "John L. Bradner",
+        "Bradner, John L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named farm or employer and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8d3e1f5b-60c3-5e3f-a7c7-50b185ce614a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no rank or private identifier. Exact-name official, CIA, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "name_variants": [
+        "Conrad A Bradshaw",
+        "Conrad A. Bradshaw",
+        "Bradshaw, Conrad A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8f4288af-0fc7-5678-826b-c43f3fff0bab",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating record in the official Army merged file. Common-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "John A Bradshaw",
+        "John A. Bradshaw",
+        "Bradshaw, John A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d1382bfa-395f-5578-97ea-f68c4fdf2c49",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Joseph P. Bradshaw's exact private identifier, full name, and middle initial; the Army record adds Jr., which is preserved as a variant rather than silently added to the indexed name.",
+      "name_variants": [
+        "Joseph P Bradshaw",
+        "Joseph P. Bradshaw",
+        "Joseph P. Bradshaw Jr.",
+        "Bradshaw, Joseph P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named architectural employer or practice, suffix confirmation, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8cf40df6-65a4-54d8-9b10-3a6c5bd51065",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index establishes a Lieutenant classification but supplies no private identifier or unit. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival searches did not resolve the identity.",
+      "name_variants": [
+        "Arlo J Brady",
+        "Arlo J. Brady",
+        "Brady, Arlo J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 for identity, commissioning source, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36e70d96-4045-5aaa-abf3-0bf554362f69",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Bernard F. Brady's exact private identifier, full name, and middle initial.",
+      "name_variants": [
+        "Bernard F Brady",
+        "Bernard F. Brady",
+        "Brady, Bernard F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 75 for a named foundry or employer, exact work, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a0646a6-650c-5893-9e8c-2bfab5947fd5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Brian J Brady",
+        "Brian J. Brady",
+        "Brady, Brian J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 75 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "95951558-92aa-5f6e-973c-1257314cda75",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and initial, without rank or private identifier, are insufficient to select a namesake. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "John W Brady",
+        "John W. Brady",
+        "Brady, John W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "164dfac7-ea19-5c42-9e1f-4a44d36dc9bc",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Joseph W. Brady's exact private identifier, full name, and middle initial. The recorded civilian-occupation value is absent from the official compiled code list, so no occupation is interpreted.",
+      "name_variants": [
+        "Joseph W Brady",
+        "Joseph W. Brady",
+        "Brady, Joseph W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 76 for the original Army entry card, a reliable occupation or employer, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86a83ccc-8065-576f-a752-f4fd45452ded",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index establishes a Captain classification, but the private identifier did not receive a corroborating enlisted-file match. A same-name private first class killed in 1944 conflicts in rank and identifier and was rejected.",
+      "name_variants": [
+        "Leo J Brady",
+        "Leo J. Brady",
+        "Brady, Leo J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 76 for identity, commissioning source, unit, and employment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-l-bradner-occupation-code-316-batch264",
+      "person_id": "b46779fb-6295-5a43-9fe2-a0fbd20eaad0",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-04-17",
+      "date_precision": "Civilian-occupation code 316 recorded at Army entry on 1941-04-17; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "joseph-p-bradshaw-occupation-code-003-batch264",
+      "person_id": "d1382bfa-395f-5578-97ea-f68c4fdf2c49",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Architects",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-01-27",
+      "date_precision": "Civilian-occupation code 003 recorded at Army entry on 1941-01-27; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "bernard-f-brady-occupation-code-882-batch264",
+      "person_id": "36e70d96-4045-5aaa-abf3-0bf554362f69",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Unskilled foundry occupations, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-06-26",
+      "date_precision": "Civilian-occupation code 882 recorded at Army entry on 1942-06-26; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and name agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-l-bradner-confirmed-identity-batch264",
+      "person_id": "b46779fb-6295-5a43-9fe2-a0fbd20eaad0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed John L Bradner identity in the official Army merged file.",
+      "evidence_excerpt": "JOHN L BRADNER",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1941-04-17; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly; the Army-added suffix is preserved only where documented.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch264",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "JOHN L BRADNER"
+        }
+      ]
+    },
+    {
+      "key": "john-l-bradner-occupation-at-army-entry-batch264",
+      "person_id": "b46779fb-6295-5a43-9fe2-a0fbd20eaad0",
+      "affiliation_key": "john-l-bradner-occupation-code-316-batch264",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places John L Bradner in the broad civilian group for farm hands, general farms.",
+      "evidence_excerpt": "Civilian occupation code 316.",
+      "evidence_paraphrase": "Code 316 was recorded at Army entry on 1941-04-17 and maps to farm hands, general farms.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 316"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch264",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table; code 316"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch264",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "joseph-p-bradshaw-confirmed-identity-batch264",
+      "person_id": "d1382bfa-395f-5578-97ea-f68c4fdf2c49",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Joseph P Bradshaw identity in the official Army merged file.",
+      "evidence_excerpt": "JOSEPH P BRADSHAW",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1941-01-27; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly; the Army-added suffix is preserved only where documented.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch264",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "JOSEPH P BRADSHAW"
+        }
+      ]
+    },
+    {
+      "key": "joseph-p-bradshaw-occupation-at-army-entry-batch264",
+      "person_id": "d1382bfa-395f-5578-97ea-f68c4fdf2c49",
+      "affiliation_key": "joseph-p-bradshaw-occupation-code-003-batch264",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Joseph P Bradshaw in the broad civilian group for architects.",
+      "evidence_excerpt": "Civilian occupation code 003.",
+      "evidence_paraphrase": "Code 003 was recorded at Army entry on 1941-01-27 and maps to architects.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 003"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch264",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table; code 003"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch264",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "bernard-f-brady-confirmed-identity-batch264",
+      "person_id": "36e70d96-4045-5aaa-abf3-0bf554362f69",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Bernard F Brady identity in the official Army merged file.",
+      "evidence_excerpt": "BERNARD F BRADY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-06-26; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly; the Army-added suffix is preserved only where documented.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch264",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BERNARD F BRADY"
+        }
+      ]
+    },
+    {
+      "key": "bernard-f-brady-occupation-at-army-entry-batch264",
+      "person_id": "36e70d96-4045-5aaa-abf3-0bf554362f69",
+      "affiliation_key": "bernard-f-brady-occupation-code-882-batch264",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Bernard F Brady in the broad civilian group for unskilled foundry occupations, n.e.c..",
+      "evidence_excerpt": "Civilian occupation code 882.",
+      "evidence_paraphrase": "Code 882 was recorded at Army entry on 1942-06-26 and maps to unskilled foundry occupations, n.e.c..",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 882"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch264",
+          "support_type": "supports",
+          "locator_override": "Civilian occupational-group table; code 882"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch264",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "joseph-w-brady-confirmed-identity-batch264",
+      "person_id": "164dfac7-ea19-5c42-9e1f-4a44d36dc9bc",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Joseph W Brady identity in the official Army merged file.",
+      "evidence_excerpt": "JOSEPH W BRADY",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier, full name, and middle initial.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1942-09-16; the recorded civilian-occupation value is not interpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly. The undefined occupation value is preserved only in the restricted research trail.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-49-batch264",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch264",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "JOSEPH W BRADY"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch264",
+          "support_type": "context_only",
+          "locator_override": "Compiled list checked; no definition located for the recorded value"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "john-l-bradner-protocol-batch264",
+      "person_id": "b46779fb-6295-5a43-9fe2-a0fbd20eaad0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John L Bradner: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:00:00+00:00",
+      "completed_at": "2026-08-18T21:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share John L. Bradner's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 75 for a named farm or employer and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "conrad-a-bradshaw-protocol-batch264",
+      "person_id": "8d3e1f5b-60c3-5e3f-a7c7-50b185ce614a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Conrad A Bradshaw: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:05:00+00:00",
+      "completed_at": "2026-08-18T21:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies no rank or private identifier. Exact-name official, CIA, employer, occupation, obituary, directory, newspaper, institutional, and archival searches did not establish the indexed identity.",
+      "next_action": "Review Box 75 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "john-a-bradshaw-protocol-batch264",
+      "person_id": "8f4288af-0fc7-5678-826b-c43f3fff0bab",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John A Bradshaw: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:10:00+00:00",
+      "completed_at": "2026-08-18T21:15:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The printed private identifier did not receive a corroborating record in the official Army merged file. Common-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 75 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "joseph-p-bradshaw-protocol-batch264",
+      "person_id": "d1382bfa-395f-5578-97ea-f68c4fdf2c49",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Joseph P Bradshaw: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:15:00+00:00",
+      "completed_at": "2026-08-18T21:20:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Joseph P. Bradshaw's exact private identifier, full name, and middle initial; the Army record adds Jr., which is preserved as a variant rather than silently added to the indexed name.",
+      "next_action": "Review Box 75 for a named architectural employer or practice, suffix confirmation, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "arlo-j-brady-protocol-batch264",
+      "person_id": "8cf40df6-65a4-54d8-9b10-3a6c5bd51065",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Arlo J Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:20:00+00:00",
+      "completed_at": "2026-08-18T21:25:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually checked index establishes a Lieutenant classification but supplies no private identifier or unit. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival searches did not resolve the identity.",
+      "next_action": "Review Box 75 for identity, commissioning source, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "bernard-f-brady-protocol-batch264",
+      "person_id": "36e70d96-4045-5aaa-abf3-0bf554362f69",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bernard F Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:25:00+00:00",
+      "completed_at": "2026-08-18T21:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 19,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Bernard F. Brady's exact private identifier, full name, and middle initial.",
+      "next_action": "Review Box 75 for a named foundry or employer, exact work, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "brian-j-brady-protocol-batch264",
+      "person_id": "2a0646a6-650c-5893-9e8c-2bfab5947fd5",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Brian J Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:30:00+00:00",
+      "completed_at": "2026-08-18T21:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The printed private identifier did not receive a corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 75 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "john-w-brady-protocol-batch264",
+      "person_id": "95951558-92aa-5f6e-973c-1257314cda75",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John W Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:35:00+00:00",
+      "completed_at": "2026-08-18T21:40:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 23,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common name and initial, without rank or private identifier, are insufficient to select a namesake. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 76 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "joseph-w-brady-protocol-batch264",
+      "person_id": "164dfac7-ea19-5c42-9e1f-4a44d36dc9bc",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Joseph W Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:40:00+00:00",
+      "completed_at": "2026-08-18T21:45:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Joseph W. Brady's exact private identifier, full name, and middle initial. The recorded civilian-occupation value is absent from the official compiled code list, so no occupation is interpreted.",
+      "next_action": "Review Box 76 for the original Army entry card, a reliable occupation or employer, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    },
+    {
+      "key": "leo-j-brady-protocol-batch264",
+      "person_id": "86a83ccc-8065-576f-a752-f4fd45452ded",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Leo J Brady: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name OSS variants; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:45:00+00:00",
+      "completed_at": "2026-08-18T21:50:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 20,
+      "rejection_reasons": "Same-name, obituary, directory, military, genealogy, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually checked index establishes a Captain classification, but the private identifier did not receive a corroborating enlisted-file match. A same-name private first class killed in 1944 conflicts in rank and identifier and was rejected.",
+      "next_action": "Review Box 76 for identity, commissioning source, unit, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch264-v1"
+    }
+  ]
+}

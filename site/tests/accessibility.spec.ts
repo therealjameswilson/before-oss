@@ -21,6 +21,11 @@ for (const route of [
   "downloads/",
 ]) {
   test(`no serious axe violations on /${route}`, async ({ page }) => {
+    // The sources table grows with every reviewed batch; give axe enough time
+    // to inspect the complete rendered citation list on slower CI runners.
+    if (route === "sources/") {
+      test.setTimeout(90_000);
+    }
     await page.goto(`./${route}`);
     if (route === "people/") {
       await expect(page.getByText(/results/)).toBeVisible({ timeout: 30_000 });

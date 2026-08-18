@@ -1,0 +1,721 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss-research-batch269-v1",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-50-batch269",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 77",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 50, rows 6-15; Arland A. Brathwaite through Peter Braunstein; rendered page visually checked; private identifiers masked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "Every printed row remains immutable. Full private identifiers are retained only in the restricted database and excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch269",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "NAID 604357; data file NAID 1263923; bulk reference copy ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private-identifier comparison for four eligible indexed records and exact-name review for the batch; identifiers withheld",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The bulk file was reviewed transiently. No raw record, response body, full identifier, or unrelated record subject is retained in this evidence bundle."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch269",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Reference-copy pages 40-42 define fixed-width identifier, name, Army-entry-date, grade, and civilian-occupation fields; user notes describe merged-file limitations",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The documentation warns that the merged file includes transcription errors, duplicate identifiers, missing ranges, and no officer records."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch269",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923 compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Compiled civilian occupation list; codes 031 and 097 visually checked",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "The three-digit category describes an occupation at Army entry, not a named employer, workplace, exact duties, or immediate Army-to-OSS chronology. Code 999 is not assigned a public meaning."
+    },
+    {
+      "key": "washington-post-ily-bratina-obituary-batch269",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1993/02/18/sociologist-and-therapist-sophia-mcdowell-77-dies/df0a2424-c561-4623-b872-0e30ac0b733e/",
+      "archival_identifier": null,
+      "title": "Ily Bratina: Economist",
+      "author_creator": "The Washington Post",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1993-02-18",
+      "locator": "Obituary section headed ILY BRATINA",
+      "access_date": "2026-08-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Washington Post obituaries",
+      "document_number": null,
+      "rights_notes": "Only citation metadata, a project-authored paraphrase, and a 23-word evidence excerpt are retained."
+    },
+    {
+      "key": "congressional-record-beatrice-braude-batch269",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1991-pt8/pdf/GPO-CRECB-1991-pt8-7-1.pdf",
+      "archival_identifier": "Congressional Record, Senate, May 20, 1991, page 11435",
+      "title": "Beatrice Braude, Retired Professor of French, Dies",
+      "author_creator": "United States Congress; obituary originally published by The Washington Post",
+      "repository_publisher": "U.S. Government Publishing Office",
+      "publication_record_date": "1991-05-20; obituary originally 1988-10-21",
+      "locator": "Congressional Record—Senate, page 11435",
+      "access_date": "2026-08-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Congressional Record",
+      "document_number": "GPO-CRECB-1991-pt8-7-1",
+      "rights_notes": "The official Congressional Record reproduces a Washington Post obituary; only a short excerpt and project-authored notes are retained."
+    }
+  ],
+  "organizations": [],
+  "person_updates": [
+    {
+      "person_id": "fd510f88-61d8-57f2-95cb-e14bb3ee1cbf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a short private identifier that received no corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the identity or personnel context.",
+      "name_variants": [
+        "Arland A Brathwaite",
+        "Arland A. Brathwaite",
+        "Brathwaite, Arland A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 to resolve the identifier, nationality, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da7ee6d6-4395-50df-8ad3-0926edd4002e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name in the index and a detailed Washington Post obituary explicitly linking Ily Bratina to OSS support identity at high confidence. The source supplies a compatible economist and New York banking chronology.",
+      "name_variants": [
+        "Ily Bratina",
+        "Bratina, Ily"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 77 to identify the New York bank or banks, dates, exact position, and OSS accession date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e17b01f0-6cda-5d23-93ff-27bf5ef641e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Irma L Bratt",
+        "Irma L. Bratt",
+        "Bratt, Irma L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e484b6f-d98f-5d04-8288-041fdd5f05db",
+      "identity_status": "unresolved",
+      "identity_evidence": "A rare-name 1941 radio periodical describes a practicing lawyer and radio amateur, but it does not mention OSS or provide an index-specific identifier. The tempting candidate is preserved for archival comparison and is not assigned on name alone.",
+      "name_variants": [
+        "Armond D Brattland",
+        "Armond D. Brattland",
+        "Brattland, Armond D.",
+        "Armond D. ‘Army’ Brattland"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified for the indexed person. Review Box 77 for birth, location, radio, legal, or other identifiers before assigning the 1941 lawyer candidate.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "43d0ba1e-7103-582b-bf48-463412cde379",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no middle initial, rank, private identifier, note, or nationality. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "name_variants": [
+        "Joan Braucher",
+        "Braucher, Joan"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for identity, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4bf26bff-df66-511e-afab-0844ebbbd77d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name in the index and the Congressional Record's detailed account that Beatrice Braude began federal service with OSS support identity at high confidence. The source documents OSS work and later career but no pre-OSS employer.",
+      "name_variants": [
+        "Beatrice Braude",
+        "Braude, Beatrice",
+        "Dr. Beatrice Braude"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for her recruitment chronology, position before OSS, and initial OSS role.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "42d67e3f-aa4a-5b41-8d93-8bb6703c5e08",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index explicitly omits the first name and identifies only a commissioned Army major named Brault. The incomplete name lacks the identifiers required to assign any same-surname officer or biography.",
+      "name_variants": [
+        "* Brault",
+        "Brault"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 for the major's full name, unit, identifiers, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "64672cc1-5979-52fe-bdae-a22f92e20b14",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Seymour Brauman's exact private identifier and full indexed name.",
+      "name_variants": [
+        "Seymour Brauman",
+        "Brauman, Seymour"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 77 for a named employer, managerial field, exact role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "648accf2-ce68-5cc3-9e1b-6152d3de62a6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common-name index record supplies a private identifier, but it received no corroborating record in the official Army merged file. Same-name official, military, employer, obituary, directory, and professional-license candidates lacked the identifier or OSS corroboration.",
+      "name_variants": [
+        "Robert P Braun",
+        "Robert P. Braun",
+        "Braun, Robert P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51014557-9eac-58a5-a531-31441de03992",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army merged record share Peter Braunstein's exact private identifier and full indexed name.",
+      "name_variants": [
+        "Peter Braunstein",
+        "Braunstein, Peter"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 77 for a named school or other employer, exact teaching role, and the Army-to-OSS assignment date.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "seymour-brauman-occupation-code-097-batch269",
+      "person_id": "64672cc1-5979-52fe-bdae-a22f92e20b14",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Managers and officials, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-04-26",
+      "date_precision": "Civilian-occupation code 097 recorded at Army entry on 1943-04-26; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "peter-braunstein-occupation-code-031-batch269",
+      "person_id": "51014557-9eac-58a5-a531-31441de03992",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Teachers (secondary school) and principals",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-14",
+      "date_precision": "Civilian-occupation code 031 recorded at Army entry on 1943-06-14; no employer, workplace, exact role, or start date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier agreement confirms the indexed person. The occupation code cannot support a named employer, workplace, exact duties, or immediate Army-to-OSS pathway."
+    },
+    {
+      "key": "ily-bratina-new-york-banks-before-oss-batch269",
+      "person_id": "da7ee6d6-4395-50df-8ad3-0926edd4002e",
+      "organization_key": null,
+      "organization_name_as_found": "banks in New York",
+      "role_title": null,
+      "occupation": "bank employee; economist",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Explicitly described as work at unnamed New York banks before moving to Washington for OSS service; exact dates and sequence among the banks are not supplied",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The obituary explicitly establishes bank employment immediately before OSS, but names neither a bank nor an exact banking position. No employer name is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "seymour-brauman-confirmed-identity-batch269",
+      "person_id": "64672cc1-5979-52fe-bdae-a22f92e20b14",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Seymour Brauman identity in the official Army merged file.",
+      "evidence_excerpt": "SEYMOUR BRAUMAN",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-04-26; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-50-batch269",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch269",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "SEYMOUR BRAUMAN"
+        }
+      ]
+    },
+    {
+      "key": "seymour-brauman-occupation-at-army-entry-batch269",
+      "person_id": "64672cc1-5979-52fe-bdae-a22f92e20b14",
+      "affiliation_key": "seymour-brauman-occupation-code-097-batch269",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Seymour Brauman in the broad civilian group for managers and officials, n.e.c..",
+      "evidence_excerpt": "Civilian occupation code 097.",
+      "evidence_paraphrase": "Code 097 was recorded at Army entry on 1943-04-26 and maps to managers and officials, n.e.c..",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch269",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 097"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch269",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 097"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch269",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "peter-braunstein-confirmed-identity-batch269",
+      "person_id": "51014557-9eac-58a5-a531-31441de03992",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Exact private-identifier agreement confirms the indexed Peter Braunstein identity in the official Army merged file.",
+      "evidence_excerpt": "PETER BRAUNSTEIN",
+      "evidence_paraphrase": "The index and Army record share the exact private identifier and indexed name.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and name agreement across official records.",
+      "temporal_assessment": "The Army record dates entry to 1943-06-14; it does not establish the later Army-to-OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked publicly.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-50-batch269",
+          "support_type": "supports",
+          "locator_override": "Visually checked source row; exact private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch269",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "PETER BRAUNSTEIN"
+        }
+      ]
+    },
+    {
+      "key": "peter-braunstein-occupation-at-army-entry-batch269",
+      "person_id": "51014557-9eac-58a5-a531-31441de03992",
+      "affiliation_key": "peter-braunstein-occupation-code-031-batch269",
+      "claim_type": "occupation",
+      "claim_text": "The official Army entry record places Peter Braunstein in the broad civilian group for teachers (secondary school) and principals.",
+      "evidence_excerpt": "Civilian occupation code 031.",
+      "evidence_paraphrase": "Code 031 was recorded at Army entry on 1943-06-14 and maps to teachers (secondary school) and principals.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; not a named employer and not proven to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact duties beyond the broad code, location, or Army-to-OSS sequence is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch269",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 031"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch269",
+          "support_type": "supports",
+          "locator_override": "Compiled civilian occupation list; code 031"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch269",
+          "support_type": "context_only",
+          "locator_override": "Reference-copy fixed-width civilian-occupation field"
+        }
+      ]
+    },
+    {
+      "key": "ily-bratina-high-confidence-identity-batch269",
+      "person_id": "da7ee6d6-4395-50df-8ad3-0926edd4002e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The uncommon exact name and a detailed obituary explicitly linking Ily Bratina to OSS support the indexed identity at high confidence.",
+      "evidence_excerpt": "Ily Bratina, 96, an economist",
+      "evidence_paraphrase": "The obituary identifies Ily Bratina as an economist who moved from New York banking work to OSS service in Washington.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, explicit OSS statement, compatible occupation, and coherent chronology.",
+      "temporal_assessment": "The obituary describes a direct move from New York banking work to wartime OSS service but supplies no dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 77 remains necessary for confirmation and the exact OSS accession record.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-50-batch269",
+          "support_type": "supports",
+          "locator_override": "Visually checked uncommon exact-name source row"
+        },
+        {
+          "source_key": "washington-post-ily-bratina-obituary-batch269",
+          "support_type": "supports",
+          "locator_override": "Obituary section headed ILY BRATINA"
+        }
+      ]
+    },
+    {
+      "key": "ily-bratina-new-york-bank-work-before-oss-batch269",
+      "person_id": "da7ee6d6-4395-50df-8ad3-0926edd4002e",
+      "affiliation_key": "ily-bratina-new-york-banks-before-oss-batch269",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "A reputable obituary says Ily Bratina worked at unnamed banks in New York before moving to Washington for OSS service.",
+      "evidence_excerpt": "He worked at banks in New York before moving to Washington to serve in the Office of Strategic Services during World War II.",
+      "evidence_paraphrase": "The source explicitly places work at unnamed New York banks immediately before the move to Washington for OSS service.",
+      "identity_match_assessment": "High-confidence identity from the uncommon exact name, explicit OSS statement, occupation, and chronology.",
+      "temporal_assessment": "Explicit immediate predecessor wording; the source does not name the banks, exact role, or dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The public profile must say unnamed New York banks, not invent or normalize an employer.",
+      "sources": [
+        {
+          "source_key": "washington-post-ily-bratina-obituary-batch269",
+          "support_type": "supports",
+          "locator_override": "Obituary section headed ILY BRATINA"
+        },
+        {
+          "source_key": "nara-oss-index-page-50-batch269",
+          "support_type": "context_only",
+          "locator_override": "Visually checked uncommon exact-name source row"
+        }
+      ]
+    },
+    {
+      "key": "beatrice-braude-high-confidence-identity-batch269",
+      "person_id": "4bf26bff-df66-511e-afab-0844ebbbd77d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The uncommon exact name and an official Congressional Record account explicitly linking Beatrice Braude to OSS support the indexed identity at high confidence.",
+      "evidence_excerpt": "She began her government service in Washington with the Office of Strategic Services during World War II.",
+      "evidence_paraphrase": "The Congressional Record reproduces a detailed obituary that places Beatrice Braude in OSS at the start of her federal service.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, explicit OSS statement, and coherent government-service biography.",
+      "temporal_assessment": "The source dates OSS only to World War II and does not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Later State Department, USIA, academic, and media work is not treated as pre-OSS employment.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-50-batch269",
+          "support_type": "supports",
+          "locator_override": "Visually checked uncommon exact-name source row"
+        },
+        {
+          "source_key": "congressional-record-beatrice-braude-batch269",
+          "support_type": "supports",
+          "locator_override": "Congressional Record—Senate, page 11435"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "arland-a-brathwaite-protocol-batch269",
+      "person_id": "fd510f88-61d8-57f2-95cb-e14bb3ee1cbf",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Arland A Brathwaite: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:00:00+00:00",
+      "completed_at": "2026-08-18T21:05:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 23,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies a short private identifier that received no corroborating record in the official Army merged file. Exact-name official, CIA, military, employer, obituary, directory, newspaper, institutional, and archival checks did not resolve the identity or personnel context.",
+      "next_action": "Review Box 77 to resolve the identifier, nationality, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "ily-bratina-protocol-batch269",
+      "person_id": "da7ee6d6-4395-50df-8ad3-0926edd4002e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ily Bratina: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:05:00+00:00",
+      "completed_at": "2026-08-18T21:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The uncommon exact name in the index and a detailed Washington Post obituary explicitly linking Ily Bratina to OSS support identity at high confidence. The source supplies a compatible economist and New York banking chronology.",
+      "next_action": "Review Box 77 to identify the New York bank or banks, dates, exact position, and OSS accession date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "irma-l-bratt-protocol-batch269",
+      "person_id": "e17b01f0-6cda-5d23-93ff-27bf5ef641e2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Irma L Bratt: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:10:00+00:00",
+      "completed_at": "2026-08-18T21:15:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies a name and middle initial but no rank, private identifier, note, or nationality. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 77 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "armond-d-brattland-protocol-batch269",
+      "person_id": "8e484b6f-d98f-5d04-8288-041fdd5f05db",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Armond D Brattland: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:15:00+00:00",
+      "completed_at": "2026-08-18T21:20:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "A rare-name 1941 radio periodical describes a practicing lawyer and radio amateur, but it does not mention OSS or provide an index-specific identifier. The tempting candidate is preserved for archival comparison and is not assigned on name alone.",
+      "next_action": "Review Box 77 for birth, location, radio, legal, or other identifiers before assigning the 1941 lawyer candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "joan-braucher-protocol-batch269",
+      "person_id": "43d0ba1e-7103-582b-bf48-463412cde379",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Joan Braucher: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:20:00+00:00",
+      "completed_at": "2026-08-18T21:25:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 19,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index supplies no middle initial, rank, private identifier, note, or nationality. Exact-name official, CIA, employer, obituary, directory, newspaper, institutional, and archival checks did not establish the indexed identity.",
+      "next_action": "Review Box 77 for identity, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "beatrice-braude-protocol-batch269",
+      "person_id": "4bf26bff-df66-511e-afab-0844ebbbd77d",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Beatrice Braude: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:25:00+00:00",
+      "completed_at": "2026-08-18T21:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The uncommon exact name in the index and the Congressional Record's detailed account that Beatrice Braude began federal service with OSS support identity at high confidence. The source documents OSS work and later career but no pre-OSS employer.",
+      "next_action": "Review Box 77 for her recruitment chronology, position before OSS, and initial OSS role.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "unknown-brault-protocol-batch269",
+      "person_id": "42d67e3f-aa4a-5b41-8d93-8bb6703c5e08",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "* Brault: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:30:00+00:00",
+      "completed_at": "2026-08-18T21:35:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 25,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The index explicitly omits the first name and identifies only a commissioned Army major named Brault. The incomplete name lacks the identifiers required to assign any same-surname officer or biography.",
+      "next_action": "Review Box 77 for the major's full name, unit, identifiers, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "seymour-brauman-protocol-batch269",
+      "person_id": "64672cc1-5979-52fe-bdae-a22f92e20b14",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Seymour Brauman: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:35:00+00:00",
+      "completed_at": "2026-08-18T21:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Seymour Brauman's exact private identifier and full indexed name.",
+      "next_action": "Review Box 77 for a named employer, managerial field, exact role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "robert-p-braun-protocol-batch269",
+      "person_id": "648accf2-ce68-5cc3-9e1b-6152d3de62a6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Robert P Braun: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:40:00+00:00",
+      "completed_at": "2026-08-18T21:45:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 28,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The common-name index record supplies a private identifier, but it received no corroborating record in the official Army merged file. Same-name official, military, employer, obituary, directory, and professional-license candidates lacked the identifier or OSS corroboration.",
+      "next_action": "Review Box 77 to resolve the identifier, personnel status, and employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    },
+    {
+      "key": "peter-braunstein-protocol-batch269",
+      "person_id": "51014557-9eac-58a5-a531-31441de03992",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Peter Braunstein: visually verified NARA OSS index; official Army merged-file comparison when eligible; CIA Reading Room; exact-name and variant OSS searches; employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-18T21:45:00+00:00",
+      "completed_at": "2026-08-18T21:50:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Same-name, obituary, directory, genealogy, postwar, or institutional candidates lacked the exact private identifier or corroborating OSS evidence required for assignment.",
+      "research_notes": "The visually verified index and official Army merged record share Peter Braunstein's exact private identifier and full indexed name.",
+      "next_action": "Review Box 77 for a named school or other employer, exact teaching role, and the Army-to-OSS assignment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch269-v1"
+    }
+  ]
+}
