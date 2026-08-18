@@ -26,41 +26,55 @@ Run: 2026-08-18 UTC
 - Core-route accessibility scans for Batch 279: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation; the
   complete **834-case** matrix runs in release CI
+- Focused Batch 280 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 280: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **837-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batch 279): **byte-for-byte identical**
+- Latest deterministic build (Batch 280): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`a247bc005842ab5a3bfb259a2b1e9c1da96ec1fde93b7dd9feac31338426746e`).
-- Previous deterministic build (Batches 263-269): **byte-for-byte identical**
-  across consecutive static builds.
+  (`2bc6af7733e039b53b68c50e3e2a6e22a6d15ce69d49f5315111751e1120a299`).
+- Previous deterministic build (Batch 279): **byte-for-byte identical** across
+  consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **75,685,054 bytes** in both the source and built public trees;
+  across **75,722,357 bytes** in both the source and built public trees;
   manifest SHA-256
-  `9fecc6baeb4e3091720f06ae4ada376d3deb31c2eaadfdcdd46dd2120e335bcf`
+  `94af3f9a2464ab52fe2abcb70e7e594790f305c698cecab9086a80b033c12a46`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,455** production artifacts, including compressed mirrors;
-  **1,024** candidate substrings were reviewed.
+  **1,031** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,908** public records representing **1,369** unique documents
-- Private citation records: **2,945**
-- Published, qualified, or conflict-visible affiliations: **1,056**
-- Published or conflict-visible claims: **2,079**
+- Reviewed public sources: **1,912** public records representing **1,369** unique documents
+- Private citation records: **2,949**
+- Published, qualified, or conflict-visible affiliations: **1,058**
+- Published or conflict-visible claims: **2,083**
 - Verified-affiliation metric: **422** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **184** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 280 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,385-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. Dilworth C. Brinton and Dan M. Briscoe have exact-identifier,
+  qualified Army-entry occupations without invented employers. Josephine and
+  Josie Brinton remain separate unresolved people in a visible possible-
+  duplicate group; the incomplete Captain Brion row and six other unsupported
+  names remain archival-review cases. The complete 837-case browser matrix
+  runs in release CI.
 - Batch 279 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,385-route link check, deterministic rebuild, manifest audit, dependency

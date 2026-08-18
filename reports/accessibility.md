@@ -15,6 +15,17 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 280 adds a focused direct-route regression for Constance Brink through
+Emerald C. Bristow on PDF page 52. It verifies exact-identifier, qualified
+Army-entry occupations for Dilworth C. Brinton and Dan M. Briscoe without
+inventing named employers; keeps Josephine and Josie Brinton as separate
+unresolved people in a visible possible-duplicate group; preserves the
+incomplete Captain Brion row and its printed note; and classifies Nelson P.
+Bristol as a warrant officer without exposing his private identifier. The
+focused regression passed **3 / 3** across desktop, phone, and tablet. A fresh
+core-route axe matrix passed **27 / 27**, including the Sources table, with no
+serious or critical axe violation.
+
 Batch 279 adds a focused direct-route regression for Wade J. Brightbill through
 Remsen Brincherhoff on PDF page 52. It verifies Wade Brightbill and Remsen
 Brincherhoff as qualified probable identities without inventing predecessor

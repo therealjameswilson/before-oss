@@ -15,6 +15,28 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,264 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 280 local release check
+
+The complete 24,385-page internal-link pass includes direct routes for
+Constance Brink through Emerald C. Bristow on PDF page 52. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport regression,
+27-case axe matrix, dependency audit, database integrity checks, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 75,722,357 bytes and has
+SHA-256 `94af3f9a2464ab52fe2abcb70e7e594790f305c698cecab9086a80b033c12a46`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,455 artifacts, rejected 1,031
+harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`2bc6af7733e039b53b68c50e3e2a6e22a6d15ce69d49f5315111751e1120a299`.
+The regression keeps two broad occupations separate from employers, preserves
+the unresolved Brinton duplicate question, and keeps all full private
+identifiers out of public facts.
+
 ## Batch 279 local release check
 
 The complete 24,385-page internal-link pass includes direct routes for Wade J.
