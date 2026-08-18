@@ -4,16 +4,45 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,379 HTML files. Every relative
+**PASS.** The production build contains 24,380 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 431 organization profiles, and the
+The build includes 23,940 person profiles, 432 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,222 unique external URLs for separate live
+The checker inventoried 49,227 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 256 local release check
+
+The complete 24,380-page internal-link pass includes direct routes for Dean O.
+Bowman through John H. Boxer on PDF page 47. The 74-test Python suite,
+deterministic 200-profile audit, focused 3-case regression, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints,
+and the production dependency audit finds zero vulnerabilities. The complete
+desktop, phone, and tablet browser/axe run produced 809 passing cases and one
+tablet timeout on the older `/sources/` regression. That single case passed in
+an isolated retry, producing 810 / 810 passing assertions overall with no
+serious or critical axe violation.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in the
+public source and built trees. The manifest covers 74,640,816 bytes and has
+SHA-256
+`a96148a93617a926e5bb83eeaca03b21a2a9d35b719eab5dcd316a4361487d78`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,450 artifacts, rejected 1,020
+harmless candidate substrings, and found zero aggregate, manifest-size, or
+unexpected boundary matches.
+
+Two consecutive production builds produced the identical complete-site digest
+`c7b8db7db2078e27adc48607c28a0783263b312d57d82993813da2bf784132df`.
+
+The regression publishes two qualified probable identities, keeps Bownass's
+uncertain Tangier assignment below the publication threshold, separates
+Boxer's student and unnamed-employer evidence, and routes eight unsupported
+identities to archival review without promoting namesakes.
 
 ## Batch 255 local release check
 

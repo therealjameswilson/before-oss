@@ -2595,6 +2595,59 @@ Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
   matches. Cache-busted production checks matched all 65 published data assets
   across 72,134,726 bytes and confirmed the home page and all ten Batch 227
   profile routes.
+- Batch 256 covers the next ten contiguous page-forty-seven rows, Dean O.
+  Bowman through John H. Boxer, all indexed in Box 73. The frozen NARA PDF
+  page was checked visually. Official and institutional sources were reviewed
+  through the staged minimum protocol, while same-name military candidates,
+  discovery snippets, postwar-only material, and uncorroborated biographies
+  were withheld rather than promoted.
+
+  Contemporary *American Foreign Service Journal* records place an uncommon
+  exact-name Richard M. Bownass candidate at Tangier in 1943 and on the United
+  States legation staff in June 1945. Because neither record mentions OSS and
+  the index supplies no rank, identifier, or location, the identity remains
+  probable. The Tangier government assignment is retained at low confidence in
+  the private review system and is not published as a pre-OSS affiliation.
+
+  Independent TU Wien and CIA institutional histories support a probable John
+  H. Boxer identity through the exact full name, middle initial, emigration and
+  Army chronology, and a documented first-lieutenant Psychological Warfare
+  Division role in April 1945. The qualified public profile keeps his
+  architecture study at the historical Technische Hochschule separate from
+  employment. It identifies drafting work at an unnamed Texas architectural
+  office as the best-supported last civilian work before Army service, but does
+  not invent a company, city, exact date, immediate OSS transition, or
+  confirmed identity.
+
+  Dean O. Bowman, Ernest V. Bowman, Francis F. Bowman, Harold M. Bowman, Joseph
+  M. Bowman, Mary J. Bowman, Randall A. Bowman, and Ralph E. Bowser remain
+  unresolved after official, CIA Reading Room, exact-name OSS, employment,
+  occupation, obituary, directory, newspaper, institutional, and archival
+  checks. Plausible second-lieutenant and master-sergeant namesakes lack the
+  required corroborating identifiers. All eight profiles retain explicit Box
+  73 review guidance.
+
+  The strict bundle adds seven sources, two organizations, three affiliations,
+  five claims, ten claim-source links, ten person updates, and ten durable
+  research attempts. Two additional imports leave every evidence-table count
+  unchanged. Coverage is now 2,355 researched people, 414 people with a
+  verified affiliation, 182 with a verified employer, and 2,304 individually
+  assessed for archival review, out of 23,940 active entities. The reviewed
+  public projection contains 1,005 affiliations, 1,950 claims, and 1,801
+  citation records representing 1,321 unique documents.
+
+  The release gate passed 74 Python tests, SQLite integrity and foreign-key
+  checks, a deterministic 200-profile audit, a focused three-viewport
+  regression, all 24,380 internal HTML routes, Astro diagnostics with zero
+  errors, warnings, or hints, a zero-vulnerability dependency audit, and the
+  full private-identifier scan. The complete browser and axe run produced 809
+  passing cases and one tablet timeout on the older `/sources/` regression;
+  the isolated retry passed, producing 810 / 810 passing assertions overall.
+  All 65 manifest assets match across 74,640,816 bytes, with manifest SHA-256
+  `a96148a93617a926e5bb83eeaca03b21a2a9d35b719eab5dcd316a4361487d78`.
+  Two consecutive static builds produced the identical complete-site digest
+  `c7b8db7db2078e27adc48607c28a0783263b312d57d82993813da2bf784132df`.
+
 - Batch 255 covers the next ten contiguous page-forty-seven rows, Robert H.
   Bowers through Conley E. Bowman, indexed in Boxes 72-73. The frozen NARA PDF
   page was checked visually. Eligible private identifiers were compared
@@ -2649,6 +2702,11 @@ Commissioned classification: 2,198 yes; 5,223 no; 16,519 indeterminate.
   `4ff212d12a5c8840cb879cdf855f511dfe2259cfc8976335fd4ff71dbf89d567`.
   Two consecutive static builds produced the identical complete-site digest
   `93e3e5dc8184290ca23af762174732bd5fa414806d88bf41a709979413711daf`.
+
+  Release `8169f0f` passed GitHub test workflow 32115690105 and Pages workflow
+  32115690095. A cache-busted production audit matched all 65 published assets
+  byte for byte across 74,601,141 bytes and confirmed HTTP 200 responses for
+  the home page and all ten Batch 255 profile routes.
 - Batch 254 covers the next ten contiguous rows, Vernon G. Bowen through Paul
   F. Bowers, spanning PDF pages 46-47 and all indexed in Box 72. Both pages
   were rendered from the frozen NARA PDF and checked visually. Eligible

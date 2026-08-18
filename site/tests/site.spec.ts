@@ -22415,3 +22415,72 @@ test("Batch 255 publishes Bowman's bounded farm occupation and preserves nine Bo
     );
   }
 });
+
+test("Batch 256 qualifies two probable identities and preserves eight Box 73 review paths", async ({
+  page,
+}) => {
+  const profiles = [
+    ["b1ce1596-dda9-5b8b-a789-1ddc9e49cb11", "Dean O Bowman"],
+    ["7a9436e5-a798-55d0-86fb-d0df1b3c8edb", "Ernest V Bowman"],
+    ["7cb32039-f017-5609-8e51-f56967dcff4a", "Francis F Bowman"],
+    ["e1a3b68e-b62e-506e-ba72-528ac0687612", "Harold M Bowman"],
+    ["f14e88a6-a2c5-56f7-b22c-e36f60ee63b3", "Joseph M Bowman"],
+    ["f757c3eb-d1e0-5f9f-b783-867d11c8e5bc", "Mary J Bowman"],
+    ["7429fc38-48b4-5bea-9d0c-e1941b50a6eb", "Randall A Bowman"],
+    ["93f2746c-ae40-558e-b3fb-8a808cb59c87", "Richard M Bownass"],
+    ["8098d15e-0271-536e-b23e-2e9f582effd1", "Ralph E Bowser"],
+    ["05750d30-0bc2-59f2-ae9d-622a64424799", "John H Boxer"],
+  ] as const;
+
+  for (const [personId, displayName] of profiles) {
+    await page.goto("./people/" + personId + "/");
+    await expect(page.getByRole("heading", { name: displayName, exact: true })).toBeVisible();
+    await expect(page.locator(".index-record").last()).toContainText("Page 47");
+    await expect(page.locator(".index-record").last()).toContainText("73");
+    await expect(
+      page.locator(".index-record").last().locator("dd").nth(2),
+    ).toHaveText(/^(Not printed|••••[A-Z0-9]{4})$/);
+  }
+
+  await page.goto("./people/93f2746c-ae40-558e-b3fb-8a808cb59c87/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Tangier");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer",
+  );
+
+  await page.goto("./people/05750d30-0bc2-59f2-ae9d-622a64424799/");
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "an architectural office in Texas",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "TU Wien",
+  );
+  await expect(page.locator("main")).toContainText("Architecture student");
+  await expect(page.locator("main")).toContainText("1940–1943");
+
+  for (const personId of [
+    "b1ce1596-dda9-5b8b-a789-1ddc9e49cb11",
+    "7a9436e5-a798-55d0-86fb-d0df1b3c8edb",
+    "7cb32039-f017-5609-8e51-f56967dcff4a",
+    "e1a3b68e-b62e-506e-ba72-528ac0687612",
+    "f14e88a6-a2c5-56f7-b22c-e36f60ee63b3",
+    "f757c3eb-d1e0-5f9f-b783-867d11c8e5bc",
+    "7429fc38-48b4-5bea-9d0c-e1941b50a6eb",
+    "8098d15e-0271-536e-b23e-2e9f582effd1",
+  ]) {
+    await page.goto("./people/" + personId + "/");
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer",
+    );
+  }
+});
