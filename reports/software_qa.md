@@ -18,41 +18,53 @@ Run: 2026-08-18 UTC
 - Focused Batch 277 browser regression: **3 / 3 passed**
 - Core-route accessibility scans for Batch 277: **27 / 27 passed** across
   desktop, phone, and tablet, with no serious or critical axe violation
+- Focused Batch 278 browser regression: **3 / 3 passed**
+- Core-route accessibility scans for Batch 278: **27 / 27 passed** across
+  desktop, phone, and tablet, with no serious or critical axe violation; the
+  complete **831-case** matrix runs in release CI
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
   (`77a68117c471fcac4ab46f002611031791a2afcc116d4b050eb1d3ff1aaa6af4`)
-- Latest deterministic build (Batch 277): **byte-for-byte identical**
+- Latest deterministic build (Batch 278): **byte-for-byte identical**
   across consecutive static builds using the sorted path-and-file-SHA-256 tree
   digest
-  (`9b8553b545df8c4909729904b1791842653d2899fab73d41dc2930820e04da05`).
+  (`7027fd667042e7e451b1d31d95e0bae3a8ce5cbaf1e6ed3bdff65ec8b479bf25`).
 - Previous deterministic build (Batches 263-269): **byte-for-byte identical**
   across consecutive static builds.
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **75,600,849 bytes** in both the source and built public trees;
+  across **75,641,934 bytes** in both the source and built public trees;
   manifest SHA-256
-  `cec263180c47340f6bb91afd4fce58fcdab3ac0b1eb2d94d201ca00a45050cdd`
+  `e9c2b69888ab9e0e8b846052e216dfd9c1922cf5dbee388b52cbf1a8eefa8610`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,455** production artifacts, including compressed mirrors;
-  **1,023** candidate substrings were reviewed.
+  **1,025** candidate substrings were reviewed.
   No aggregate or build-manifest coincidence survived the field-aware checks; a
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,895** public records representing **1,364** unique documents
-- Private citation records: **2,931**
-- Published, qualified, or conflict-visible affiliations: **1,053**
-- Published or conflict-visible claims: **2,071**
+- Reviewed public sources: **1,901** public records representing **1,366** unique documents
+- Private citation records: **2,937**
+- Published, qualified, or conflict-visible affiliations: **1,055**
+- Published or conflict-visible claims: **2,075**
 - Verified-affiliation metric: **422** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **184** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 278 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,385-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. Harold Briggs's official Army occupation remains separate
+  from a named employer; Lloyd Cabot Briggs's stockbroking remains qualified
+  occupation-only evidence; eight unsupported names remain archival-review
+  cases. The complete 831-case browser matrix runs in release CI.
 - Batch 277 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,385-route link check, deterministic rebuild, manifest audit, dependency

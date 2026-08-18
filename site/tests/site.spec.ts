@@ -22859,3 +22859,49 @@ test("Batch 277 separates student and military pathways while preserving unresol
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 278 publishes two occupation-only findings without inventing employers and preserves unresolved Bright cases", async ({
+  page,
+}) => {
+  await page.goto("./people/91081370-6d7b-58bf-8372-3a335e55ef8c/");
+  await expect(page.getByRole("heading", { name: "Harold E Briggs", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Messenger, errand boy, or office worker",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/93fc865f-703e-5d10-96cc-c2ca954d69bd/");
+  await expect(page.getByRole("heading", { name: "Llyod Briggs", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Lloyd Cabot Briggs", { exact: false }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Stockbroker",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/03e6ae0d-fd3e-5230-988e-9f3005357022/");
+  await expect(page.getByRole("heading", { name: "Alexander H Bright", exact: true })).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/6f23b149-af68-56d8-bbf7-ee19f7110e56/");
+  await expect(page.getByRole("heading", { name: "George H Bright Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").last().locator("dd").nth(2)).toHaveText(
+    /^••••[A-Z0-9]{4}$/,
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});

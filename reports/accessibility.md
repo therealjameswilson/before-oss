@@ -15,6 +15,17 @@ critical axe violation was found.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 278 adds a focused direct-route regression for Harold E. Briggs through
+Oliver J. Bright Jr. on PDF page 52. It verifies Harold Briggs's confirmed
+enlisted identity and qualified occupation without a fabricated employer,
+preserves the printed `Llyod Briggs` spelling alongside the documented Lloyd
+Cabot Briggs variant and stockbroker occupation, retains Alexander Bright's
+commissioned classification without assigning a namesake, and keeps George
+Bright's private identifier masked. The focused regression passed **3 / 3**
+across desktop, phone, and tablet. A fresh core-route axe matrix passed
+**27 / 27**, including the Sources table, with no serious or critical axe
+violation.
+
 Batch 277 adds a focused direct-route regression for Jeanne M. Bridgett through
 Emily W. Briggs across PDF pages 51-52. It checks Elizabeth Briefs's supported
 OSS translator identity without an invented predecessor, William Brierly's
