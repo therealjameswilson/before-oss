@@ -25125,3 +25125,54 @@ test("Batch 313 publishes Buckens's diplomatic pathway while preserving occupati
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 314 publishes four identifier-backed occupations without promoting common-name biographies", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["907aac17-e246-5e57-bbd7-38ecb168625f", "William L Buckland", "General farmer"],
+    [
+      "c504c9a3-9005-50ef-b6d4-c8f7354f2a36",
+      "John W Buckles",
+      "Foundry occupation, not elsewhere classified",
+    ],
+    [
+      "74300c60-586a-56fd-9840-1781ea6b05ce",
+      "John T Buckley",
+      "Clerk in general industry",
+    ],
+    ["7b439593-1a5e-56af-9e27-7b4b2ee39f60", "James A Buckner", "Actor"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["491adfb5-f1bb-526b-8d37-aa7c4ccae4a5", "Claude W Buckley"],
+    ["dda85a28-9510-5f5a-a143-4bb277b3bfdd", "Robert E Buckley"],
+    ["db03911f-13e7-53e5-b6c1-47c65ded7d9d", "Vincent L Buckley"],
+    ["7777a6e8-28a2-5d6e-b78b-38a37d0ad772", "Mildred L Buckner"],
+    ["62ce1900-bcb2-58c1-a57d-2858c1f903da", "Simon B Buckner"],
+    ["c618cf4b-7cc3-57b8-9b23-8e3e757e36cf", "Peter A Bucky"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/c618cf4b-7cc3-57b8-9b23-8e3e757e36cf/");
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("radiologist-author namesake");
+});

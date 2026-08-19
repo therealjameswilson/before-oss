@@ -3434,6 +3434,35 @@ review. No authenticated Catalog request, credential, raw API response, full
 private identifier, full copyrighted page, or unsupported employer claim was
 stored or published.
 
+## Page-fifty-nine Buckland-through-Bucky pathways, Batch 314
+
+`research/evidence-page-fifty-nine-buckland-through-bucky-pathways_batch-314_2026-08-19.json`
+records ten contiguous previously unresearched people from William L. Buckland
+through Peter A. Bucky on PDF page 59, all indexed to Box 90. The index page and
+the relevant Army code-list pages were rendered and visually checked. The
+official Army merged file was searched by private identifier outside version
+control; no raw record or full identifier was retained.
+
+The strict evidence bundle contains four official sources, four affiliations,
+eight claims, twenty claim-source links, ten person updates, and ten durable
+research attempts. Exact private-identifier agreement confirms William L.
+Buckland, John W. Buckles, John T. Buckley, and James A. Buckner. Their Army-
+entry records respectively establish only a general-farmer occupation, a
+residual foundry-occupations group, a general-industry clerk occupation, and an
+actor occupation. These codes do not identify a farm, foundry, industry,
+production, employer, workplace, self-employment status, or Army-to-OSS
+sequence.
+
+Claude W. Buckley, Robert E. Buckley, Vincent L. Buckley, Mildred L. Buckner,
+Simon B. Buckner, and Peter A. Bucky remain unresolved and route to Box 90
+review. Peter A. Bucky's printed 1st Lt grade remains sufficient for the
+commissioned-officer filter, but neither a radiologist-author namesake nor a
+prominent Simon B. Buckner military namesake was assigned without direct OSS,
+Box 90, private-identifier, or two-person-specific corroborating links. No
+authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
