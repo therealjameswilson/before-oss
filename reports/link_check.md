@@ -12,8 +12,37 @@ The build includes 23,940 person profiles, 454 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,340 unique external URLs for separate live
+The checker inventoried 49,341 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 311 local release check
+
+The complete 24,402-page internal-link pass includes direct routes for Willy J.
+Brussel through William C. Bryant on PDF page 58. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 311 regression,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints. The complete
+**930 / 930** browser and accessibility matrix also passed locally across
+desktop, phone, and tablet.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,237,779 bytes and has
+SHA-256
+`e4a3d6f9f060c1fa9b3246253e7b1e1715896d934c9bc2f044743e4ac6869764`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,472 production artifacts, rejected
+1,035 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical sorted relative-path and
+file SHA-256 digest
+`8c67d37708943688d913bd9b5353ed52f67bee8a4686b87a50c801fac975ca4f`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`586c638a74fc914306a77c684792d7c62051d431dc734e86e987ec5e86d94e81`.
+The regression publishes one qualified Army-entry occupation, keeps one
+probable military identity out of employer analytics, and routes nine profiles
+to archival review without promoting unsupported namesakes.
 
 ## Batch 310 local release check
 

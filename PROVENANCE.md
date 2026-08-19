@@ -3210,6 +3210,42 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-eight Brussel-through-William-C.-Bryant pathways, Batch 311
+
+`research/evidence-page-fifty-eight-brussel-through-william-c-bryant-pathways_batch-311_2026-08-19.json`
+records ten contiguous previously unresearched people from Willy J. Brussel
+through William C. Bryant on PDF page 58 in Box 89. The index page and the
+relevant Army occupation-code page were rendered and visually checked. The
+official Army merged file was searched by private identifier outside version
+control; no raw row or full identifier was retained.
+
+The strict evidence bundle contains five sources, no organizations, one
+affiliation, three claims, seven claim-source links, ten person updates, and ten
+durable research attempts. Exact private-identifier and full-name agreement
+confirms Andrew Brutz. His Army-entry record dates entry to October 27, 1941
+and carries civilian occupation code 882; the official code list maps that value
+only to the broad residual group “Foundry occupations, n.e.c.” The site therefore
+publishes a qualified occupation, not an employer, named foundry, exact trade,
+or proven Army-to-OSS sequence.
+
+A specialist history of United States psychological-warfare organization in
+Europe lists Technician Fifth Grade Larry Bruzzese among personnel of the 2677th
+Morale Operations Company in Rome and attributes the passage to a November 3,
+1944 Donovan commendation. The distinctive exact name and indexed technician
+grade support a probable identity only. The source does not establish a
+pre-service occupation, employer, or immediate OSS predecessor, so none is
+published.
+
+Willy J. Brussel, Alice M. Brust, Robbie L. Bruton, Cloye A. Bryant, Flossie L.
+Bryant, George F. Bryant, Kenneth L. Bryant, and William C. Bryant remain
+unresolved and route to Box 89 review. A same-name student candidate for Robbie
+L. Bruton in North Carolina directories was rejected because no reviewed source
+linked that candidate to OSS or supplied a second corroborating identifier.
+William C. Bryant remains separate from the adjacent William V. Bryant source
+row. No authenticated Catalog request, credential, raw API response, full
+private identifier, full copyrighted page, or unsupported employer claim was
+stored or published.
+
 ## Page-twenty-eight and page-fifty-eight Beck, Brunner-through-Bruskin pathways, Batch 310
 
 `research/evidence-pages-twenty-eight-and-fifty-eight-beck-brunner-through-bruskin-pathways_batch-310_2026-08-19.json`

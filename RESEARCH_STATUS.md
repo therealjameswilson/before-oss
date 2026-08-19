@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,890 people with a non-planned attempt | 23,940 active person entities | 12.0718% |
+| Research-attempt coverage | 2,900 people with a non-planned attempt | 23,940 active person entities | 12.1136% |
 | Verified-affiliation coverage | 435 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8170% |
 | Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,840 people with an individual file-access/priority assessment | 23,940 active person entities | 11.8630% |
+| Archival-review coverage | 2,850 people with an individual file-access/priority assessment | 23,940 active person entities | 11.9048% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 497
+- Identity status `confirmed`: 498
 - Identity status `high_confidence`: 470
-- Identity status `probable`: 97
+- Identity status `probable`: 98
 - Identity status `ambiguous`: 47
 - Identity status `conflicting`: 40
-- Identity status `unresolved`: 22,789
+- Identity status `unresolved`: 22,787
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,234
-- Enlisted Army personnel: 3,709
+- Unknown or indeterminate: 16,232
+- Enlisted Army personnel: 3,711
 - Commissioned Army officers: 2,096
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,213 yes; 5,354 no; 16,373 indeterminate.
+Commissioned classification: 2,213 yes; 5,356 no; 16,371 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,050
+- `not_started`: 21,040
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 58
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 421
-- `requires_archival_review`: 1,957
+- `occupation_only_found`: 422
+- `requires_archival_review`: 1,966
 - `completed`: 93
 - `conflicting_sources`: 41
 - `verified_employer_found`: 186
-- Claim confidence: 678 confirmed; 1,010 high; 553 medium; 38 low; 51
+- Claim confidence: 679 confirmed; 1,010 high; 555 medium; 38 low; 51
   conflicting
-- Durable evidence inventory: 3,168 source records representing 1,460 unique
-  documents; 465 organizations; 1,167 affiliations; 2,330 claims; and 5,251
+- Durable evidence inventory: 3,173 source records representing 1,461 unique
+  documents; 465 organizations; 1,168 affiliations; 2,333 claims; and 5,258
   claim-source links
-- Reviewed public projection: 454 organizations; 1,158 published, qualified,
-  or conflict-visible affiliations; 2,292 published, qualified, or
-  conflict-visible claims; and 2,091 public citation records
+- Reviewed public projection: 454 organizations; 1,159 published, qualified,
+  or conflict-visible affiliations; 2,295 published, qualified, or
+  conflict-visible claims; and 2,096 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -5177,6 +5177,37 @@ Commissioned classification: 2,213 yes; 5,354 no; 16,373 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `e9ae50d29dd497bda83e5685f967178e2f28b633290b866ebde74c3de87eb95c`.
+- Batch 311 covers Willy J. Brussel through William C. Bryant on PDF page 58
+  in Box 89. Exact private-identifier agreement confirms Andrew Brutz and his
+  Army-entry record supports only the broad residual foundry-occupations group;
+  it does not name an employer, foundry, trade, or OSS predecessor. A specialist
+  history probably links the indexed Larry Bruzzese to Technician Fifth Grade
+  Larry Bruzzese of the 2677th Morale Operations Company in Rome, but that
+  secondary source supplies no pre-OSS occupation or employer and the identity
+  remains probable. Willy J. Brussel, Alice M. Brust, Robbie L. Bruton, Cloye A.
+  Bryant, Flossie L. Bryant, George F. Bryant, Kenneth L. Bryant, and William C.
+  Bryant remain unresolved and route to Box 89 review. A same-name student lead
+  for Robbie L. Bruton was rejected because no reviewed evidence tied it to OSS
+  or supplied a second identifier. No authenticated Catalog request, credential,
+  raw API response, full private identifier, full copyrighted page, or
+  unsupported employer claim was used or published.
+- Batch 311 local release QA passed all 74 Python tests plus five subtests, a
+  focused 3 / 3 browser regression and the complete 930 / 930 browser and
+  accessibility matrix across desktop, phone, and tablet, a deterministic
+  200-profile audit, complete 24,402-page internal-link check, SQLite integrity
+  and foreign-key checks, zero-warning Astro diagnostics, and a dependency
+  audit with zero vulnerabilities. The public-identifier audit compared 12,926
+  normalized identifiers and 120 genuine formatted variants across 24,472
+  production artifacts, rejected 1,035 harmless candidate substrings, and found
+  no aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 77,237,779 bytes; the manifest SHA-256 is
+  `e4a3d6f9f060c1fa9b3246253e7b1e1715896d934c9bc2f044743e4ac6869764`.
+  Consecutive public-data builds reproduced sorted relative-path and file
+  SHA-256 digest
+  `8c67d37708943688d913bd9b5353ed52f67bee8a4686b87a50c801fac975ca4f`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `586c638a74fc914306a77c684792d7c62051d431dc734e86e987ec5e86d94e81`.
 - Batch 310 covers John H. Beck on PDF page 28 in Box 45 and Frederick J.
   Brunner through Theodore R. Bruskin on PDF page 58 in Box 89, excluding the
   already researched Edward L. Brunner row. Exact private-identifier agreement
