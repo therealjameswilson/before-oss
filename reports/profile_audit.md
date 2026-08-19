@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-08-18T23:57:16+00:00
+Generated: 2026-08-19T00:21:51+00:00
 
 Deterministic profiles audited: **200**.
 
@@ -16,7 +16,7 @@ Deterministic profiles audited: **200**.
 
 ## Special strata represented
 
-- commissioned: 33
+- commissioned: 32
 - civilian: 21
 - enlisted: 33
 - allied or foreign: 20

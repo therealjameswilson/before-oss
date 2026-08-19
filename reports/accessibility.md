@@ -1,16 +1,28 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-18 UTC
+Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The complete single-worker run passed **873 / 873** browser,
+**PASS.** The latest complete release run passed **882 / 882** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 296 adds a focused direct-route regression for Warren I. Brown through
+Harris A. Browne across PDF pages 56-57. It verifies Warren G. Brown's exact-
+identifier Army identity without interpreting residual occupation code 999;
+keeps the Willis-versus-Willie identifier conflict visible without assigning
+the Army subject's other details; publishes Gordon H. Browne's qualified
+prewar insurance-executive occupation without inventing a company or immediate
+chronology; and preserves seven unresolved archival-review profiles. The
+focused regression passed **3 / 3** across desktop, phone, and tablet after one
+wording assertion was aligned with the public conflict note. The preceding
+complete **882 / 882** matrix passed in GitHub release CI; the expanded
+**885-case** matrix runs in Batch 296 release CI.
 
 Batch 295 adds a focused direct-route regression for Robert R. Brown through
 Walter E. Brown on PDF page 56. It verifies Robert E. Brown's exact-identifier
@@ -21,9 +33,9 @@ civilian employer; confirms that the organization page lists him once while
 preserving both distinct claims; keeps a same-name Dawes Team candidate
 unassigned; and preserves eight unresolved archival-review profiles. The
 focused regression passed **3 / 3** across desktop, phone, and tablet after the
-test fixture was corrected to use the stable person IDs. The preceding complete
-**873 / 873** matrix passed without retry; the expanded **882-case** matrix runs
-in release CI.
+test fixture was corrected to use the stable person IDs. The expanded
+**882 / 882** matrix passed in GitHub release workflow
+[32199707325](https://github.com/therealjameswilson/before-oss/actions/runs/32199707325).
 
 Batch 294 adds a focused direct-route regression for Omar D. Brown through
 Robert S. Brown on PDF page 56. It verifies Philip S. Brown's exact-identifier
