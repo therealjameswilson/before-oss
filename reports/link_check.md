@@ -4,16 +4,46 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,403 HTML files. Every relative
+**PASS.** The production build contains 24,405 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 455 organization profiles, and the
+The build includes 23,940 person profiles, 457 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,347 unique external URLs for separate live
+The checker inventoried 49,352 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 316 local release check
+
+The complete 24,405-page internal-link pass includes direct routes for Carl
+Buehler III through Delmas A. Bugelli on PDF page 59 and the two newly linked
+historical Goodrich organization profiles. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 316 regression,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints. The complete
+**945 / 945** browser and accessibility matrix also passed locally across
+desktop, phone, and tablet.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,519,654 bytes and has
+SHA-256
+`f271e247a859f77e10a96dea8b8d82d7ce1050880f03aea93df70005a7b0786c`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,475 production artifacts, rejected
+1,035 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical sorted relative-path and
+file SHA-256 digest
+`bafe6fc08b54901596091c5da65db7c385a876d0ea51f3102ce32448c55d36d2`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`de16a2418234c3b7249b9d63d08b22b04f1056727d3155dded90dc18e85786f4`.
+The regression publishes one dated occupation, one qualified employer pathway,
+one visible identity conflict, one supported alias, and six archival-review
+outcomes without promoting unsupported immediate affiliations.
 
 ## Batch 315 local release check
 

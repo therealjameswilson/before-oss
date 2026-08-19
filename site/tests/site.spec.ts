@@ -25233,3 +25233,79 @@ test("Batch 315 publishes two dated occupations and preserves officer and archiv
     await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
   }
 });
+
+test("Batch 316 preserves the Buffard alias, a qualified Goodrich pathway, and the Bugelli conflict", async ({
+  page,
+}) => {
+  await page.goto("./people/03dd1a56-6620-5a2d-954e-1e1136c980d6/");
+  await expect(page.getByRole("heading", { name: "Andrew P Bugay", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Miner or mining-machine operator",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/2ebd3119-68e6-5fd5-af05-11d026b784ad/");
+  await expect(page.getByRole("heading", { name: "Darcy Buffard", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("André Germain Buffard");
+  await expect(page.locator("main")).toContainText("René Darcy");
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/d7fe96cf-f313-5fea-915b-9b41a32d2a29/");
+  await expect(page.getByRole("heading", { name: "Howard Bugbee", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Goodrich Rubber Company",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Goodrich Company (S.S.) Limited",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const [organizationId, name] of [
+    ["8c805919-f880-5425-b929-007317c61c19", "Goodrich Rubber Company"],
+    ["c728a815-e25b-5d9d-ac95-7712b0539c6f", "Goodrich Company (S.S.) Limited"],
+  ] as const) {
+    await page.goto(`./organizations/${organizationId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("Howard Bugbee", { exact: true })).toBeVisible();
+  }
+
+  await page.goto("./people/cba2048c-d77b-5c68-b38f-97de18372490/");
+  await expect(page.getByRole("heading", { name: "Delmas A Bugelli", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "resolves to an official Army record for a different person",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["e4341529-7fff-56d9-8a43-902c08a310d0", "Carl Buehler III"],
+    ["277c645d-5e91-5d5b-8049-bcfb90224701", "Ruth F Buehler"],
+    ["88ca77af-1a0c-561a-95b0-e61806c79976", "Robert A Buehn"],
+    ["3f529414-b23a-59f9-a5a5-e250dfffbeef", "Charles R Buell"],
+    ["20ab8133-d2d9-5678-bf95-6d91abf54f3c", "Harold B Buesclein"],
+    ["43bccc9d-f7fe-573e-bbb5-58fa45347de2", "Patricia O Buford"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
