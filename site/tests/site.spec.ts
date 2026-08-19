@@ -24709,3 +24709,91 @@ test("Batch 307 publishes Broere's civilian employer and military pathway while 
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 308 publishes Bronfenbrenner's Army-to-OSS pathway and preserves qualified Box 81 identities", async ({
+  page,
+}) => {
+  await page.goto("./people/caf96f47-4011-57ea-9fdf-6239ce5c3bc1/");
+  await expect(page.getByRole("heading", { name: "Arne W Brogger", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("lawyer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/bdc8d9db-951b-57ca-ad94-4d8d3f4fead0/");
+  await expect(page.getByRole("heading", { name: "Richard Broh", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "freelance journalist and foreign correspondent",
+  );
+  await expect(page.locator("main")).toContainText("Biographisches Handbuch");
+
+  await page.goto("./people/e220bce9-18f7-5e7e-a721-ebe29c933ed7/");
+  await expect(page.getByRole("heading", { name: "Lester T Brolliar", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "34th General Hospital",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "110th Medical Battalion",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./people/e5c7904c-4f33-53d8-9bbc-21d112a4512f/");
+  await expect(page.getByRole("heading", { name: "Urie Bronfenbrenne", exact: true })).toBeVisible();
+  await expect(page.getByText("Urie Bronfenbrenner", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army Air Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Michigan",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./organizations/b95aac0e-c8a2-5689-916e-13fd1a2c5ac8/");
+  await expect(page.getByRole("heading", { name: "34th General Hospital", exact: true })).toBeVisible();
+  await expect(page.getByText("Lester T Brolliar", { exact: true })).toBeVisible();
+
+  await page.goto("./organizations/edafe388-9a0c-52e5-a05d-7e632e903d64/");
+  await expect(page.getByRole("heading", { name: "110th Medical Battalion", exact: true })).toBeVisible();
+  await expect(page.getByText("Lester T Brolliar", { exact: true })).toBeVisible();
+
+  for (const probablePerson of [
+    ["353c03e5-abe1-5e8f-9a06-ff1890c3aa6d", "Norma Bromberg"],
+    ["d9f83fd8-b64c-5b8f-b729-f8cc949b8a67", "Arthur B Bromberger"],
+  ] as const) {
+    await page.goto(`./people/${probablePerson[0]}/`);
+    await expect(page.getByRole("heading", { name: probablePerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["44de932b-fb6b-5d66-905f-259e21e3c577", "Eleanor S Brokaw"],
+    ["419bb602-8fe4-5ccc-93c1-ee5b7e1a1ddb", "William Bromme"],
+    ["618a1d41-5b36-5fd2-afd5-bb88407d87a0", "Barbara R Bronson"],
+    ["0a2ab394-59ae-5367-ad47-d2a84b513154", "Elizabeth D Brooke"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

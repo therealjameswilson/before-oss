@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,397 HTML files. Every relative
+**PASS.** The production build contains 24,399 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 449 organization profiles, and the
+The build includes 23,940 person profiles, 451 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,320 unique external URLs for separate live
+The checker inventoried 49,330 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 308 local release check
+
+The complete 24,399-page internal-link pass includes direct routes for Arne W.
+Brogger through Elizabeth D. Brooke on PDF page 53 and new organization pages
+for the 34th General Hospital and 110th Medical Battalion. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport Batch 308
+regression, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints. The full
+921 / 921 browser and accessibility matrix passed locally.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,058,167 bytes and has
+SHA-256
+`51be7b9820b1e1cc82b9fdf1e8e38fe09fd0158f07e8bfdc660e005bb2b584ed`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,469 production artifacts, rejected
+1,036 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`481a31c78db3c16cd137fef881dcde375f9dd9385bc61f3ec98066d93c2f6678`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`e9ae50d29dd497bda83e5685f967178e2f28b633290b866ebde74c3de87eb95c`.
+The regression publishes student, occupation, self-employment, and military-
+assignment evidence in separate lanes; adds no unsupported employer; keeps two
+probable identities visibly qualified; and routes four unresolved profiles to
+archival review.
 
 ## Batch 307 local release check
 

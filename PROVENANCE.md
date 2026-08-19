@@ -3210,6 +3210,44 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-three Brogger-through-Brooke pathways, Batch 308
+
+`research/evidence-page-fifty-three-arne-brogger-through-elizabeth-brooke-pathways_batch-308_2026-08-19.json`
+records ten contiguous previously unresearched people from Arne W. Brogger
+through Elizabeth D. Brooke on PDF page 53, all indexed to Box 81. The source
+page, two city-directory pages, the Richard Broh handbook page, and Urie
+Bronfenbrenner's Cornell Alumni News page were rendered and visually checked.
+The official Army merged file was searched by private identifier outside
+version control; no raw record or full identifier was retained.
+
+The strict evidence bundle contains fourteen sources, five organization
+records, seven affiliations, ten claims, twenty-two claim-source links, ten
+person updates, and ten durable research attempts. Contemporary city
+directories identify Arne W. Brogger as a New York lawyer in 1938 and in the
+U.S. Army in 1942; Cornell's Donovan Nuremberg collection independently names
+Major Arne W. Brogger in 1945. The identity and military pathway are published
+with high confidence, but no law firm or exact OSS entry date is inferred.
+The scholarly *Biographisches Handbuch der deutschsprachigen Emigration nach
+1933* explicitly documents Richard Broh's 1945 OSS work and his earlier
+freelance journalism in Great Britain, while preserving uncertainty created by
+internment and intervening British wartime work.
+
+Exact private-identifier agreement confirms Lester T. Brolliar. Reproduced
+34th General Hospital and 110th Medical Battalion rosters document two Army
+medical assignments, but their sequence relative to OSS remains unresolved. A
+CIA staff list, Cornell institutional biography, and Bronfenbrenner's
+first-person alumni account confirm the index's truncated Urie Bronfenbrenne
+row as Urie Bronfenbrenner. His University of Michigan doctorate is classified
+as student status, not employment, and his explicit Army Air Corps-to-OSS
+transition is classified as a military assignment.
+
+Norma Bromberg and Arthur B. Bromberger remain probable identity candidates;
+no affiliation is published for either. Eleanor S. Brokaw, William Bromme,
+Barbara R. Bronson, and Elizabeth D. Brooke remain unresolved and route to Box
+81 review. No authenticated Catalog request, credential, raw API response,
+full private identifier, full copyrighted page, or unsupported employer claim
+was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
