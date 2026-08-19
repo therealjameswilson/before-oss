@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,910 people with a non-planned attempt | 23,940 active person entities | 12.1554% |
-| Verified-affiliation coverage | 436 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8212% |
+| Research-attempt coverage | 2,920 people with a non-planned attempt | 23,940 active person entities | 12.1972% |
+| Verified-affiliation coverage | 437 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8254% |
 | Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,860 people with an individual file-access/priority assessment | 23,940 active person entities | 11.9465% |
+| Archival-review coverage | 2,870 people with an individual file-access/priority assessment | 23,940 active person entities | 11.9883% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 500
-- Identity status `high_confidence`: 471
+- Identity status `confirmed`: 502
+- Identity status `high_confidence`: 472
 - Identity status `probable`: 98
 - Identity status `ambiguous`: 47
-- Identity status `conflicting`: 40
-- Identity status `unresolved`: 22,784
+- Identity status `conflicting`: 41
+- Identity status `unresolved`: 22,780
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,230
-- Enlisted Army personnel: 3,713
+- Unknown or indeterminate: 16,229
+- Enlisted Army personnel: 3,714
 - Commissioned Army officers: 2,096
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -49,26 +49,26 @@ Commissioned classification: 2,213 yes; 5,358 no; 16,369 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,030
+- `not_started`: 21,020
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 58
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 424
-- `requires_archival_review`: 1,973
-- `completed`: 94
-- `conflicting_sources`: 41
+- `occupation_only_found`: 426
+- `requires_archival_review`: 1,979
+- `completed`: 95
+- `conflicting_sources`: 42
 - `verified_employer_found`: 186
-- Claim confidence: 681 confirmed; 1,012 high; 557 medium; 38 low; 51
+- Claim confidence: 683 confirmed; 1,014 high; 559 medium; 38 low; 52
   conflicting
-- Durable evidence inventory: 3,180 source records representing 1,465 unique
-  documents; 465 organizations; 1,171 affiliations; 2,339 claims; and 5,273
+- Durable evidence inventory: 3,186 source records representing 1,468 unique
+  documents; 466 organizations; 1,174 affiliations; 2,346 claims; and 5,290
   claim-source links
-- Reviewed public projection: 454 organizations; 1,162 published, qualified,
-  or conflict-visible affiliations; 2,301 published, qualified, or
-  conflict-visible claims; and 2,103 public citation records
+- Reviewed public projection: 455 organizations; 1,165 published, qualified,
+  or conflict-visible affiliations; 2,308 published, qualified, or
+  conflict-visible claims; and 2,109 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,213 yes; 5,358 no; 16,369 indeterminate.
   2,677. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,199 across 1,155 people; 127 additional
+- Saved `source_reviewed` outcomes: 1,209 across 1,165 people; 127 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,112
+- Total recorded attempts/plans: 4,122
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,086; 1,058 have at least one public-visible
+- People with saved reviewed claims: 1,090; 1,062 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5177,6 +5177,40 @@ Commissioned classification: 2,213 yes; 5,358 no; 16,369 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `e9ae50d29dd497bda83e5685f967178e2f28b633290b866ebde74c3de87eb95c`.
+- Batch 313 covers Erik M. Buchhardt through Ferdinand Buckens across PDF pages
+  58-59 in Box 90. Exact private-identifier agreement confirms Joseph A.
+  Buchkowskie and Peter C. Buchta; their official Army-entry records support
+  only broad transportation-equipment and boot-and-shoe manufacturing
+  occupations without employers, workplaces, exact trades, or OSS transition
+  dates. The private identifier printed for Edgar J. Buck resolves to a
+  differently named official Army record, so the site preserves a visible
+  conflict while withholding the unrelated person's identity and data. A 1935
+  contemporary directory and Belgium's 1942 official gazette independently
+  support a high-confidence Ferdinand Buckens identity and his documented
+  prewar interpreter assignment at the Belgian Embassy in Tokyo. That
+  government assignment is not labeled an immediate OSS predecessor or last
+  civilian employer. Erik M. Buchhardt, Richard S. Buchholz, Rosel A. Bucholz,
+  Daryl L. Buck, Warren E. Buck, and William N. Buck remain unresolved and
+  route to Box 90 review. No authenticated Catalog request, credential, raw API
+  response, full private identifier, full copyrighted page, or unsupported
+  employer claim was used or published.
+- Batch 313 local release QA passed all 74 Python tests plus five subtests, a
+  focused 3 / 3 browser regression and the complete 936 / 936 browser and
+  accessibility matrix across desktop, phone, and tablet, a deterministic
+  200-profile audit, complete 24,403-page internal-link check, SQLite integrity
+  and foreign-key checks, zero-warning Astro diagnostics, and a dependency
+  audit with zero vulnerabilities. The public-identifier audit compared 12,926
+  normalized identifiers and 120 genuine formatted variants across 24,473
+  production artifacts, rejected 1,037 harmless candidate substrings, and found
+  no aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 77,350,038 bytes; the manifest SHA-256 is
+  `f21ea781d37ccbbf2938f298a252ea7da34f1fdda36bca76b7a94003b34f304c`.
+  Consecutive public-data builds reproduced sorted relative-path and file
+  SHA-256 digest
+  `b7be0cf907a7241f0569f3d2d12d32925e9cb49c091ef195c6732611b3e775be`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `36d367b4e6cd387671fc256c41e9a53eba7b12009f06c69916839d30f15d391d`.
 - Batch 312 covers William V. Bryant through Thomas A. Buchanan on PDF page 58
   in Boxes 89-90. Exact private-identifier agreement confirms John S. Buc Jr.
   and Jack C. Buchanan. Their official Army-entry records support only a

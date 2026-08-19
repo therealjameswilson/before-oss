@@ -3399,6 +3399,41 @@ Barbara R. Bronson, and Elizabeth D. Brooke remain unresolved and route to Box
 full private identifier, full copyrighted page, or unsupported employer claim
 was stored or published.
 
+## Pages-fifty-eight-and-fifty-nine Buchhardt-through-Buckens pathways, Batch 313
+
+`research/evidence-pages-fifty-eight-fifty-nine-buchhardt-through-buckens-pathways_batch-313_2026-08-19.json`
+records ten contiguous previously unresearched people from Erik M. Buchhardt
+through Ferdinand Buckens on PDF pages 58-59, all indexed to Box 90. Both index
+pages, the relevant Army code-list pages, the 1935 Tokyo directory page, and
+page 476 of the 1942 Belgian official gazette were rendered and visually
+checked. The official Army merged file was searched by private identifier
+outside version control; no raw record or full identifier was retained.
+
+The strict evidence bundle contains six sources, one organization record,
+three affiliations, seven claims, seventeen claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier agreement
+confirms Joseph A. Buchkowskie and Peter C. Buchta. Their official Army-entry
+records establish only broad transportation-equipment and boot-and-shoe
+manufacturing occupation groups; neither record names an employer, workplace,
+exact trade, or Army-to-OSS sequence.
+
+The private identifier printed for Edgar J. Buck resolves to a differently
+named subject in the official Army merged file. The public conflict claim
+withholds that unrelated person's name, identifier, occupation, and chronology,
+and routes the case to Box 90 and original-card review.
+
+A contemporary 1935 directory identifies Ferdinand Buckens as interpreter at
+the Belgian Embassy in Tokyo. Belgium's official gazette independently records
+F. Buckens as a consul previously posted in Tokyo before a temporary 1942 New
+York assignment. The unusual exact name and diplomatic continuity support a
+high-confidence identity and documented prewar government assignment, but the
+evidence does not establish an immediate OSS predecessor or a last civilian
+employer. Erik M. Buchhardt, Richard S. Buchholz, Rosel A. Bucholz, Daryl L.
+Buck, Warren E. Buck, and William N. Buck remain unresolved and route to Box 90
+review. No authenticated Catalog request, credential, raw API response, full
+private identifier, full copyrighted page, or unsupported employer claim was
+stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

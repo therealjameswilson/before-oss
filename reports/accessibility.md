@@ -4,13 +4,23 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **933 / 933** browser,
+**PASS.** The latest complete release run passed **936 / 936** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 313 adds a focused direct-route regression for Erik M. Buchhardt through
+Ferdinand Buckens across PDF pages 58-59. It verifies two exact-identifier Army
+matches while keeping broad manufacturing occupations out of employer
+analytics; exposes Edgar J. Buck's identifier conflict without publishing the
+unrelated person's name or data; publishes Buckens's documented Belgian
+Embassy interpreter assignment without labeling it immediate or a civilian
+employer; and preserves six unresolved Box 90 profiles. The focused regression
+passed **3 / 3** across desktop, phone, and tablet, and the expanded
+**936 / 936** browser and accessibility matrix passed locally.
 
 Batch 312 adds a focused direct-route regression for William V. Bryant through
 Thomas A. Buchanan on PDF page 58. It verifies two exact-identifier Army

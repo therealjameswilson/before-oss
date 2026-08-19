@@ -5,11 +5,14 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,402 pages**
-- Internal link check: **24,402 HTML files passed**
-- Latest complete browser and accessibility matrix: **933 / 933 passed** in the
+- Static production build: **24,403 pages**
+- Internal link check: **24,403 HTML files passed**
+- Latest complete browser and accessibility matrix: **936 / 936 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 313 browser regression: **3 / 3 passed** across desktop, phone,
+  and tablet; the expanded **936 / 936** browser and accessibility matrix also
+  passed locally.
 - Focused Batch 312 browser regression: **3 / 3 passed** across desktop, phone,
   and tablet; the expanded **933 / 933** browser and accessibility matrix also
   passed locally.

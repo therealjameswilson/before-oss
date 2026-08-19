@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,402 HTML files. Every relative
+**PASS.** The production build contains 24,403 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 454 organization profiles, and the
+The build includes 23,940 person profiles, 455 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,344 unique external URLs for separate live
+The checker inventoried 49,347 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 313 local release check
+
+The complete 24,403-page internal-link pass includes direct routes for Erik M.
+Buchhardt through Ferdinand Buckens across PDF pages 58-59. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport Batch 313
+regression, dependency audit, database integrity checks, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+The complete **936 / 936** browser and accessibility matrix also passed locally
+across desktop, phone, and tablet.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,350,038 bytes and has
+SHA-256
+`f21ea781d37ccbbf2938f298a252ea7da34f1fdda36bca76b7a94003b34f304c`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,473 production artifacts, rejected
+1,037 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical sorted relative-path and
+file SHA-256 digest
+`b7be0cf907a7241f0569f3d2d12d32925e9cb49c091ef195c6732611b3e775be`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`36d367b4e6cd387671fc256c41e9a53eba7b12009f06c69916839d30f15d391d`.
+The regression publishes one documented government assignment, two qualified
+Army-entry occupations, one visible identity conflict, and six archival-review
+outcomes without promoting unsupported namesakes or employers.
 
 ## Batch 312 local release check
 
