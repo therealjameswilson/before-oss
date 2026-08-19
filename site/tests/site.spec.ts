@@ -25309,3 +25309,54 @@ test("Batch 316 preserves the Buffard alias, a qualified Goodrich pathway, and t
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 317 publishes three bounded occupations and preserves seven Box 91 review paths", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    [
+      "35f84f78-f2cd-5139-b9c8-c402ae678488",
+      "John D Bugni",
+      "Forestry occupation, except logging",
+    ],
+    [
+      "d298eff4-97a2-5109-b78c-ca153f682ad9",
+      "Albert Buhite",
+      "Occupation in manufacture of miscellaneous products",
+    ],
+    ["d9bcf74f-10b7-5e22-b7f8-fe3c88100db8", "Irving F Buhman", "Checker"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const [personId, name] of [
+    ["01055b10-48f3-57e8-aab2-8b3269fd8854", "Conrad W Buhler"],
+    ["cf217f7d-abfc-57bf-9f7f-1d72ab197df4", "Curt F Buhler"],
+    ["db451dad-24b1-5315-bc97-5d360fea2e8a", "Henry L Buisson"],
+    ["3a6c06f5-4b4f-5ae5-ac7a-c39ff0edcdfd", "Frank L Bukacek"],
+    ["40322d18-1421-5baa-bae6-26f8ec3b16c5", "Milivoj Bukorovic"],
+    ["7ce50247-7070-5d43-bf39-0948e93e4bb0", "Edward R Bukovatz"],
+    ["8328d216-00ea-5090-9e40-84b13c74a92c", "Joseph E Bulfer"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/8328d216-00ea-5090-9e40-84b13c74a92c/");
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted-only Army merged file");
+});

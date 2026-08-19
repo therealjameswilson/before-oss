@@ -15,6 +15,36 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,352 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 317 local release check
+
+The complete 24,405-page internal-link pass includes direct routes for John D.
+Bugni through Joseph E. Bulfer on PDF page 59. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 317 regression,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints. The expanded browser
+and accessibility matrix passed 945 / 948 cases on its first single-worker
+sweep; the three tablet-only setup or timeout cases in older regressions passed
+3 / 3 in a fresh isolated single-worker rerun.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,565,202 bytes and has
+SHA-256
+`7394e16c41635aa02bcbb1e46d1c1a46175d60bd0a844f874dfe5413b0fbf978`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,475 production artifacts, rejected
+1,037 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical sorted relative-path and
+file SHA-256 digest
+`e0d7ad3e38edfadb30942b74ae6909dd6d0b637fc2f5248f2d4d6c4aec860968`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`71695d6d6ce323e557cad6e62fcdb00163617e8ad4dc49e0a051407ef4a5b104`.
+The regression publishes three date-bounded occupations and seven archival-
+review outcomes without converting an occupation into an employer or assigning
+unsupported namesake biographies.
+
 ## Batch 316 local release check
 
 The complete 24,405-page internal-link pass includes direct routes for Carl

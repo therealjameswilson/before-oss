@@ -3523,6 +3523,34 @@ identities remain unresolved and route to Box 91 review. No authenticated
 Catalog request, credential, raw API response, full private identifier, full
 copyrighted page, or unsupported employer claim was stored or published.
 
+## Page-fifty-nine Bugni-through-Bulfer pathways, Batch 317
+
+`research/evidence-page-fifty-nine-bugni-through-bulfer-pathways_batch-317_2026-08-19.json`
+records ten contiguous previously unresearched people from John D. Bugni
+through Joseph E. Bulfer on PDF page 59 in Box 91. The index page and relevant
+Army code-list pages were rendered and visually checked. The official Army
+merged file was searched by private identifier outside version control; no raw
+record or full identifier was retained.
+
+The strict evidence bundle contains four official sources, three affiliations,
+six claims, fifteen claim-source links, ten person updates, and ten durable
+research attempts. Exact private-identifier agreement confirms John D. Bugni,
+Albert Buhite, and Irving F. Buhman. Their official Army-entry records establish
+only, respectively, a forestry occupation except logging on February 10, 1942,
+a broad miscellaneous-products manufacturing occupation on July 5, 1943, and a
+checker occupation on January 15, 1944. None of the codes names an employer,
+agency, product, industry, workplace, exact duties, or Army-to-OSS sequence.
+
+Conrad W. Buhler, Curt F. Buhler, Henry L. Buisson, Frank L. Bukacek, Milivoj
+Bukorovic, Edward R. Bukovatz, and Joseph E. Bulfer remain unresolved and route
+to Box 91 review. Search-only Buehler, Kurt, and Bukorović variants are retained
+without correcting the index or assigning namesakes. Bulfer's printed
+lieutenant grade remains sufficient for the commissioned-officer filter; the
+enlisted-only Army merged file cannot disprove an officer record. No
+authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

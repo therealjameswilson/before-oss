@@ -4,13 +4,27 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **945 / 945** browser,
-responsive, and accessibility cases at desktop, phone, and tablet widths. The
-matrix includes 27 axe scans of representative routes, including the growing
-Sources table, and found no serious or critical accessibility violation.
+**PASS WITH DOCUMENTED RERUN.** The expanded release matrix has **948 / 948**
+passing browser, responsive, and accessibility cases across desktop, phone,
+and tablet widths. The first single-worker sweep passed 945 cases and recorded
+three tablet-only setup or timeout failures in older Batch 233, Batch 247, and
+Batches 273-275 regressions; all three passed immediately in a fresh isolated
+single-worker rerun. The matrix includes 27 axe scans of representative routes,
+including the growing Sources table, and found no serious or critical
+accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 317 adds a focused direct-route regression for John D. Bugni through
+Joseph E. Bulfer on PDF page 59. It publishes only Bugni's date-bounded forestry
+occupation, Albert Buhite's broad miscellaneous-products manufacturing
+occupation, and Irving F. Buhman's checker occupation; keeps all three outside
+employer analytics; preserves Bulfer's printed lieutenant classification; and
+routes seven unsupported Box 91 identities to archival review. The focused
+regression passed **3 / 3** across desktop, phone, and tablet. In the expanded
+matrix, **945 / 948** passed on the first single-worker sweep and the three
+tablet-only setup or timeout cases passed **3 / 3** in an isolated rerun.
 
 Batch 316 adds a focused direct-route regression for Carl Buehler III through
 Delmas A. Bugelli on PDF page 59. It preserves André Germain Buffard's indexed

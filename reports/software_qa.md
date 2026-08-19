@@ -7,9 +7,14 @@ Run: 2026-08-19 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,405 pages**
 - Internal link check: **24,405 HTML files passed**
-- Latest complete browser and accessibility matrix: **945 / 945 passed** in the
-  single-worker run across desktop, phone, and tablet. The 27 axe cases found
-  no serious or critical accessibility violation.
+- Expanded browser and accessibility matrix: **945 / 948 passed** in the first
+  single-worker sweep across desktop, phone, and tablet; three tablet-only setup
+  or timeout cases in older regressions then passed **3 / 3** in a fresh
+  isolated single-worker rerun. The 27 axe cases found no serious or critical
+  accessibility violation.
+- Focused Batch 317 browser regression: **3 / 3 passed** across desktop, phone,
+  and tablet; all **948 / 948** cases are passing across the documented full
+  sweep and isolated rerun.
 - Focused Batch 316 browser regression: **3 / 3 passed** across desktop, phone,
   and tablet; the expanded **945 / 945** browser and accessibility matrix also
   passed locally.
