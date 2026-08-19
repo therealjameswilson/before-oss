@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,720 people with a non-planned attempt | 23,940 active person entities | 11.3617% |
+| Research-attempt coverage | 2,730 people with a non-planned attempt | 23,940 active person entities | 11.4035% |
 | Verified-affiliation coverage | 427 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7836% |
 | Verified-employer coverage | 185 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7728% |
-| Archival-review coverage | 2,670 people with an individual file-access/priority assessment | 23,940 active person entities | 11.1529% |
+| Archival-review coverage | 2,680 people with an individual file-access/priority assessment | 23,940 active person entities | 11.1947% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 454
+- Identity status `confirmed`: 455
 - Identity status `high_confidence`: 454
 - Identity status `probable`: 90
 - Identity status `ambiguous`: 45
-- Identity status `conflicting`: 35
-- Identity status `unresolved`: 22,862
+- Identity status `conflicting`: 36
+- Identity status `unresolved`: 22,860
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,273
-- Enlisted Army personnel: 3,675
+- Unknown or indeterminate: 16,272
+- Enlisted Army personnel: 3,676
 - Commissioned Army officers: 2,094
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-18 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,208 yes; 5,317 no; 16,415 indeterminate.
+Commissioned classification: 2,208 yes; 5,318 no; 16,414 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,220
+- `not_started`: 21,210
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 63
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 385
-- `requires_archival_review`: 1,848
+- `occupation_only_found`: 386
+- `requires_archival_review`: 1,856
 - `completed`: 84
-- `conflicting_sources`: 36
+- `conflicting_sources`: 37
 - `verified_employer_found`: 183
-- Claim confidence: 635 confirmed; 984 high; 500 medium; 36 low; 46
+- Claim confidence: 636 confirmed; 984 high; 501 medium; 36 low; 47
   conflicting
-- Durable evidence inventory: 3,018 source records representing 1,394 unique
-  documents; 450 organizations; 1,106 affiliations; 2,201 claims; and 4,955
+- Durable evidence inventory: 3,025 source records representing 1,397 unique
+  documents; 450 organizations; 1,107 affiliations; 2,204 claims; and 4,964
   claim-source links
-- Reviewed public projection: 439 organizations; 1,097 published, qualified,
-  or conflict-visible affiliations; 2,165 published, qualified, or
-  conflict-visible claims; and 1,981 public citation records
+- Reviewed public projection: 439 organizations; 1,098 published, qualified,
+  or conflict-visible affiliations; 2,168 published, qualified, or
+  conflict-visible claims; and 1,986 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,208 yes; 5,317 no; 16,415 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,507. The detailed adapter breakdown remains reproducible in
+  2,517. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,103 across 1,069 people; 119 additional
+- Saved `source_reviewed` outcomes: 1,104 across 1,070 people; 119 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,922
+- Total recorded attempts/plans: 3,932
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,011; 985 have at least one public-visible
+- People with saved reviewed claims: 1,013; 987 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4742,14 +4742,50 @@ Commissioned classification: 2,208 yes; 5,317 no; 16,415 indeterminate.
   `85e9f9b69685a7661df987fa8794530811fb0e968004792cfe989dae7fd59493`,
   and consecutive production builds reproduced complete static-tree digest
   `d6148290155b5781d030a201fd8dbe20674c69eb1e4b3791895d8c18ff1ccd9c`.
-- Public-visible affiliations: 1,097 (published, qualified, or conflict-visible)
-- Database claims: 2,201; public-visible claims: 2,165 (635 confirmed, 984 high,
-  500 medium, 46 conflicting); 30 low-confidence claims are withheld and six
+- Batch 294 covers Omar D. Brown through Robert S. Brown, the next ten rows on
+  PDF page 56, all in Box 86. Philip S. Brown's exact name and private
+  identifier match the official Army merged file, confirming his enlisted
+  Army identity. His August 11, 1943 entry record supports only the qualified
+  residual category “professional occupation, not elsewhere classified”; it
+  does not identify a profession, employer, institution, worksite, or the
+  immediate Army-to-OSS sequence. Omar D. Brown's printed identifier resolves
+  to a different Army name and is therefore preserved as an identity conflict;
+  the unrelated subject and both identifiers are withheld. A contemporary Port
+  Huron directory entry for Captain Omar D. Brown of Michigan National Guard
+  Company L remains an unassigned namesake lead because it supplies no correct
+  identifier, OSS, or Box 86 linkage. Robert S. Brown's same-name Ninth Air
+  Force fighter-pilot candidate likewise remains unassigned because the public
+  evidence lacks the indexed identifier, OSS, and Box linkage. Orene E., Paul
+  C., Paul R., Peter M., Phoebe, Richard, Richard W., and Robert S. Brown remain
+  unresolved archival-review cases. Exact CIA Reading Room checks and the OSS
+  Operational Groups roster produced no defensible identity linkage. No
+  authenticated Catalog request, credential, raw API response, full private
+  identifier, unrelated conflict subject, or unsupported employer claim was
+  used or published.
+- Batch 294 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression across desktop, phone, and tablet, deterministic 200-profile
+  audit, complete 24,387-page internal-link check, SQLite integrity and
+  foreign-key checks, zero-warning Astro diagnostics, and a dependency audit
+  with zero vulnerabilities. The public-identifier audit compared 12,926
+  normalized identifiers and 120 genuine formatted variants across 24,457
+  production artifacts, rejected 1,028 harmless candidate substrings, and
+  found no aggregate, manifest-size, or unexpected boundary matches. All 65
+  manifest assets match across 76,500,054 bytes; the manifest SHA-256 is
+  `4653afd477431e5ac84bfff75fcfae01bf9ca16f5ae727fb1d2ff0737575a5e5`.
+  Consecutive public-data builds reproduced digest
+  `15b9423fbd8a6a32292165411829c4eba1532fd9249aa1a696e224c3ae55b7ce`,
+  and consecutive production builds reproduced complete static-tree digest
+  `5ee03cd355699777fb309abb411ba937a3df8daefa5f24310305fdf3e5c06c23`.
+  The expanded 879-case browser matrix runs in release CI.
+- Public-visible affiliations: 1,098 (published, qualified, or conflict-visible)
+- Database claims: 2,204; public-visible claims: 2,168 (636 confirmed, 984 high,
+  501 medium, 47 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,955 total and 4,878 public-visible; private source
-  records: 3,018; public source export: 1,981; unique source documents: 1,394
+- Claim-source links: 4,964 total and 4,887 public-visible; private source
+  records: 3,025; public source export: 1,986; unique source documents: 1,397
 - Canonical organizations: 450 private and 439 public
-- Conflicting claims: 46 across 37 people
+- Conflicting claims: 47 across 39 people with an identity or research-status
+  conflict
 - NARA pull-list rows: 23,795
 
 Planned dry-run requests do not count as research-attempt coverage.
