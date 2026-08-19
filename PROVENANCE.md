@@ -3137,6 +3137,37 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-three Brock-through-Broder pathways, Batch 306
+
+`research/evidence-page-fifty-three-mary-brock-through-stephen-broder-pathways_batch-306_2026-08-19.json`
+records ten contiguous previously unresearched people from Mary Brock through
+Stephen Broder on PDF page 53, all indexed to Box 81. The page and both relevant
+NARA occupation-code pages were rendered and visually checked. The official
+Army merged file was searched by private identifier outside version control; no
+raw Army record, full identifier, or authenticated Catalog response was
+retained.
+
+The strict evidence bundle contains six sources, two affiliations, four claims,
+eight claim-source links, ten person updates, and ten durable research attempts.
+Exact full-name and private-identifier agreement confirms Elvin Brockman Jr. and
+Harold I. Brodbeck. Brockman's official code records student status at Army
+entry on June 30, 1945; it names no school, course, degree, employer, or OSS
+sequence. Brodbeck's official code records a broad chauffeur-and-driver category
+at Army entry on November 5, 1941; it names no workplace, vehicle type, exact
+role, employer, or OSS sequence.
+
+Mary Brock, Mildred L. Brockdorff, Paul Brockett, Muriel P. Brockhurst, Eric
+Brockman, William Brockman, Jean M. Brodell, and Stephen Broder remain unresolved
+and route to Box 81. A 1942 NBC reporter named Mary Brock, postwar State
+Department evidence for Mildred L. Brockdorff, and a 1944 Washington newspaper
+item for Jean Marie Brodell were reviewed but remain unassigned because they
+lack independent OSS, identifier, or Box linkage. The Brodell candidate's
+spouse and his assignment are not treated as her affiliation.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

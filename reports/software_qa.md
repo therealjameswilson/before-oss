@@ -7,9 +7,11 @@ Run: 2026-08-19 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,396 pages**
 - Internal link check: **24,396 HTML files passed**
-- Latest complete browser and accessibility matrix: **912 / 912 passed** in the
+- Latest complete browser and accessibility matrix: **915 / 915 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 306 browser regression: **3 / 3 passed**; the expanded
+  **915 / 915** browser and accessibility matrix also passed locally.
 - Focused Batch 305 browser regression: **3 / 3 passed**; the expanded
   **912 / 912** browser and accessibility matrix also passed locally.
 - Focused Batch 304 browser regression: **3 / 3 passed**; the expanded
@@ -113,36 +115,45 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`1ed75341f8fe2191285ead51381b9813c824fbdb87268272e3ebbf46e6ded735`)
-- Latest deterministic public-data build (Batch 305): **byte-for-byte
+  (`9790d3b35fc8a476a75f9091fe0229f03a8e715bb572ebd689d6cbedc9071cf4`)
+- Latest deterministic public-data build (Batch 306): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`5165045601cf4b21f0860691326328ab8f06ec97fe7718c79fad63e185fd6f07`).
+  (`9802670c0066151d727c68d54b85f681958b6269ef23b0449350b5f26693f2f0`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,853,332 bytes** in the public tree;
+  across **76,883,499 bytes** in the public tree;
   manifest SHA-256
-  `d3a549ccc9c4421d7a884b70584a4a848d53b23f312bee17ebaff272eba727a4`.
+  `0becc6184cfade3b29a0de1ead0adef44a3959d76ac4856d94883f71c8adcdfa`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,466** production artifacts, including compressed mirrors;
-  **1,037** candidate substrings were reviewed. No aggregate or manifest-size
+  **1,035** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,055** public records representing **1,440** unique documents
-- Private citation records: **3,122**
-- Published, qualified, or conflict-visible affiliations: **1,136**
-- Published or conflict-visible claims: **2,251**
+- Reviewed public sources: **2,058** public records representing **1,441** unique documents
+- Private citation records: **3,128**
+- Published, qualified, or conflict-visible affiliations: **1,138**
+- Published or conflict-visible claims: **2,255**
 - Verified-affiliation metric: **432** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **188** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 306 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **915 / 915** browser and
+  accessibility matrix, the 24,396-route link check, deterministic rebuild,
+  manifest audit, dependency audit, 200-profile audit, database integrity
+  checks, and public-identifier audit all pass. Elvin Brockman Jr. and Harold
+  I. Brodbeck have exact-identifier Army identities. Brockman's finding is
+  published only as student status and Brodbeck's only as a broad chauffeur-
+  and-driver occupation; neither is converted into a named employer. Eight
+  unsupported Box 81 profiles remain on the archival-review path.
 - Batch 305 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete **912 / 912** browser and
   accessibility matrix, the 24,396-route link check, deterministic rebuild,

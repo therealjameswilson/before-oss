@@ -4,13 +4,21 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **912 / 912** browser,
+**PASS.** The latest complete release run passed **915 / 915** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 306 adds a focused direct-route regression for Mary Brock through
+Stephen Broder on PDF page 53. It verifies Elvin Brockman Jr.'s Army-entry
+student status and Harold I. Brodbeck's broad chauffeur-and-driver occupation,
+keeps both findings distinct from named employers, and preserves eight
+unsupported Box 81 profiles on the archival-review path. The focused regression
+passed **3 / 3** across desktop, phone, and tablet, and the expanded **915 / 915**
+browser and accessibility matrix passed locally.
 
 Batch 305 adds a focused direct-route regression for Louis R. Alvey Jr. through
 Charles D. Ambelang on PDF page 7 plus Paul Baron on PDF page 24. It verifies
