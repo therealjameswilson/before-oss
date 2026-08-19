@@ -24212,3 +24212,81 @@ test("Batch 300 publishes Henry Bruman's employer while preserving occupation-on
   await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
 });
+
+test("Batch 301 preserves four occupation-only Army records and qualified foreign identities without inventing employers", async ({
+  page,
+}) => {
+  for (const confirmedPerson of [
+    [
+      "a3bff4b6-2a5e-51d1-ac59-95d88c9808a1",
+      "Andrew S Brunasky",
+      "Semiprofessional occupations, n.e.c.",
+    ],
+    [
+      "a41036ed-243f-590d-9f66-27266a5b4d7b",
+      "Benjamin W Brunaugh",
+      "Sailors and deckhands, except U.S. Navy",
+    ],
+    [
+      "861cf346-4f18-5bdc-8fb1-150d3deedff3",
+      "Herve J Brunelle",
+      "Machine shop and related occupations, n.e.c.",
+    ],
+    ["bfe6f1cf-007a-5e76-afd4-e288af1992e6", "Amos Brunner Jr.", "Photoengravers"],
+  ] as const) {
+    await page.goto(`./people/${confirmedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: confirmedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      confirmedPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/a41036ed-243f-590d-9f66-27266a5b4d7b/");
+  await expect(
+    page.getByRole("link", {
+      name: "Operation BOSTON: An OSS Combined Operation in the Indian Ocean",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Sgt Benjamin W. Brunaugh");
+
+  await page.goto("./people/734874a0-e4e6-5ee0-b163-2a7d368dfb89/");
+  await expect(page.getByRole("heading", { name: "Rene Brunet", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Yves Digne");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/a01d3769-07b9-5afe-ac91-dddf76492b0f/");
+  await expect(page.getByRole("heading", { name: "Nerio Brunetti", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Italian Ai");
+  await expect(page.locator("main")).toContainText("Italian air attaché in Tokyo");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/82c76ee5-6804-534a-99a7-903a8665c9f3/");
+  await expect(page.getByRole("heading", { name: "Francis B Brun", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["d3494871-9ce6-5b6b-9a45-de7e367c6914", "Eleanor Brummer"],
+    ["32dbf26f-6f93-5815-b48b-fa4a839a6f5d", "Arthur G Brunn"],
+    ["1b006009-5f9f-5960-8027-efda268b9cc1", "Carl Brunner"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
