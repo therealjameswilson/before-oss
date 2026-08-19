@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,770 people with a non-planned attempt | 23,940 active person entities | 11.5706% |
-| Verified-affiliation coverage | 428 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7878% |
+| Research-attempt coverage | 2,780 people with a non-planned attempt | 23,940 active person entities | 11.6124% |
+| Verified-affiliation coverage | 429 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7920% |
 | Verified-employer coverage | 186 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7769% |
-| Archival-review coverage | 2,720 people with an individual file-access/priority assessment | 23,940 active person entities | 11.3617% |
+| Archival-review coverage | 2,730 people with an individual file-access/priority assessment | 23,940 active person entities | 11.4035% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 464
+- Identity status `confirmed`: 470
 - Identity status `high_confidence`: 457
-- Identity status `probable`: 90
+- Identity status `probable`: 91
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 37
-- Identity status `unresolved`: 22,847
+- Identity status `unresolved`: 22,840
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,263
-- Enlisted Army personnel: 3,684
+- Unknown or indeterminate: 16,257
+- Enlisted Army personnel: 3,690
 - Commissioned Army officers: 2,095
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,210 yes; 5,326 no; 16,404 indeterminate.
+Commissioned classification: 2,210 yes; 5,332 no; 16,398 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,170
+- `not_started`: 21,160
 - `in_progress`: 49
 - `candidate_found`: 1
-- `needs_identity_review`: 63
+- `needs_identity_review`: 64
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 394
-- `requires_archival_review`: 1,886
-- `completed`: 84
+- `occupation_only_found`: 399
+- `requires_archival_review`: 1,889
+- `completed`: 85
 - `conflicting_sources`: 38
 - `verified_employer_found`: 184
-- Claim confidence: 645 confirmed; 989 high; 509 medium; 36 low; 48
+- Claim confidence: 651 confirmed; 990 high; 517 medium; 36 low; 48
   conflicting
-- Durable evidence inventory: 3,053 source records representing 1,410 unique
-  documents; 451 organizations; 1,116 affiliations; 2,227 claims; and 5,020
+- Durable evidence inventory: 3,064 source records representing 1,414 unique
+  documents; 453 organizations; 1,125 affiliations; 2,242 claims; and 5,053
   claim-source links
-- Reviewed public projection: 440 organizations; 1,107 published, qualified,
-  or conflict-visible affiliations; 2,191 published, qualified, or
-  conflict-visible claims; and 2,006 public citation records
+- Reviewed public projection: 442 organizations; 1,116 published, qualified,
+  or conflict-visible affiliations; 2,206 published, qualified, or
+  conflict-visible claims; and 2,014 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,12 +76,12 @@ Commissioned classification: 2,210 yes; 5,326 no; 16,404 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,553. The detailed adapter breakdown remains reproducible in
+  2,563. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,116 across 1,082 people; 121 additional
+- Saved `source_reviewed` outcomes: 1,123 across 1,089 people; 121 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,972
+- Total recorded attempts/plans: 3,982
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,026; 1,000 have at least one public-visible
@@ -4929,14 +4929,48 @@ Commissioned classification: 2,210 yes; 5,326 no; 16,404 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `0ad07ed9b5d963b64975feda6f7bd18a51f95ae11512c3f638c6e559a204db8e`.
-  The expanded 891-case browser and accessibility matrix runs in release CI.
-- Public-visible affiliations: 1,107 (published, qualified, or conflict-visible)
-- Database claims: 2,227; public-visible claims: 2,191 (645 confirmed, 989 high,
-  509 medium, 48 conflicting); 30 low-confidence claims are withheld and six
+  The expanded 891 / 891 browser and accessibility matrix passed in release
+  workflow
+  [32205075252](https://github.com/therealjameswilson/before-oss/actions/runs/32205075252).
+- Batch 299 covers Evangeline H. Bruce through John W. Bruckman, the next ten
+  previously unresearched rows on PDF page 57. Exact private-identifier matches
+  confirm George C. Bruce, Robert D. Bruce, John Bruciak, Max Bruck, Herbert
+  Brucker, and Arthur Bruckman in the official Army merged file. Five receive
+  qualified Army-entry occupation or student-status findings without invented
+  employers. Herbert Brucker's Box 88-linked Army history and an independent
+  National Park Service account document his immediate pathway from the 100th
+  Infantry Division's radio-training cadre to OSS in August 1943; this is
+  modeled as a military assignment, not civilian employment. A contemporary
+  newspaper places the distinctive exact name Evangeline R. Bruciak at the
+  Social Security Board in 1939, but the match remains probable and medium-
+  confidence pending Box 88 confirmation. Evangeline H. Bruce, Albert P.
+  Bruckert, and John W. Bruckman remain unresolved archival-review profiles.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Batch 299 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression across desktop, phone, and tablet, a fresh 27 / 27 core-route axe
+  scan, deterministic 200-profile audit, complete 24,390-page internal-link
+  check, SQLite integrity and foreign-key checks, zero-warning Astro
+  diagnostics, and a dependency audit with zero vulnerabilities. The public-
+  identifier audit compared 12,926 normalized identifiers and 120 genuine
+  formatted variants across 24,460 production artifacts, rejected 1,026
+  harmless candidate substrings, and found no aggregate, manifest-size, or
+  unexpected boundary matches. All 65 manifest assets match across 76,460,678
+  bytes; the manifest SHA-256 is
+  `66619e20076465e52b3ff6c7e2d1717ba115b88551e2d2d6b9ee034b839104d7`.
+  Consecutive public-data builds reproduced digest
+  `5369f6442dfcaf8f08b840dd78c3a6dc9a71382efd55982a127deac3e9fd4ed7`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `fff3670edd121f2e13b4cbd7cbfdbbe91cda44cba7c7fbb299171f9af5886fd3`.
+  The expanded 894-case browser and accessibility matrix runs in release CI.
+- Public-visible affiliations: 1,116 (published, qualified, or conflict-visible)
+- Database claims: 2,242; public-visible claims: 2,206 (651 confirmed, 990 high,
+  517 medium, 48 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,020 total and 4,943 public-visible; private source
-  records: 3,053; public source export: 2,006; unique source documents: 1,410
-- Canonical organizations: 451 private and 440 public
+- Claim-source links: 5,053 total and 4,976 public-visible; private source
+  records: 3,064; public source export: 2,014; unique source documents: 1,414
+- Canonical organizations: 453 private and 442 public
 - Conflicting claims: 48 across 40 people with an identity or research-status
   conflict
 - NARA pull-list rows: 23,794

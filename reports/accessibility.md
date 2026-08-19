@@ -4,7 +4,7 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **888 / 888** browser,
+**PASS.** The latest complete release run passed **891 / 891** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
@@ -12,14 +12,26 @@ Sources table, and found no serious or critical accessibility violation.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 299 adds a focused direct-route regression for Evangeline H. Bruce
+through John W. Bruckman on PDF page 57. It verifies six exact-identifier Army
+identities, five qualified occupation or student-status findings, Herbert
+Brucker's immediate 100th Infantry Division-to-OSS military pathway, and
+Evangeline R. Bruciak's visibly qualified Social Security Board affiliation;
+three unresolved profiles remain on the archival-review path. The focused
+regression passed **3 / 3** across desktop, phone, and tablet. A fresh core-
+route axe matrix passed **27 / 27** with no serious or critical violation. The
+expanded **894-case** browser and accessibility matrix runs in Batch 299
+release CI.
+
 Batch 298 adds a focused direct-route regression for Mary E. Browning through
 Edythe G. Bruce on PDF page 57, excluding the already researched intervening
 David K. Bruce row. It verifies four exact-identifier Army identities and their
 qualified occupation categories without inventing employers, and preserves six
 unresolved archival-review profiles. The focused regression passed **3 / 3**
 across desktop, phone, and tablet. A fresh core-route axe matrix passed
-**27 / 27** with no serious or critical violation. The expanded **891-case**
-browser and accessibility matrix runs in Batch 298 release CI.
+**27 / 27** with no serious or critical violation. The expanded **891 / 891**
+browser and accessibility matrix passed in GitHub release workflow
+[32205075252](https://github.com/therealjameswilson/before-oss/actions/runs/32205075252).
 
 Batch 297 adds a focused direct-route regression for Harrison A. Browne through
 Russell V. Brownell Jr. on PDF page 57. It verifies the two exact-identifier

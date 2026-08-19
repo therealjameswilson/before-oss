@@ -1,0 +1,1229 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival research review, Batch 299, 2026-08-19",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-57-batch299",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 88",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 57, rows 24-33; Evangeline H. Bruce through John W. Bruckman; visually checked with private identifiers masked",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable. Full private identifiers remain restricted and are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch299",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact private-identifier review for George C. Bruce, Robert D. Bruce, John Bruciak, Max Bruck, Herbert Brucker, and Arthur Bruckman/Bruckmann; identifiers withheld",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "The official bulk file was reviewed transiently outside version control. Only project-authored conclusions and stable citation pointers are retained. The series has known omissions and conversion errors; absence is not treated as disproof."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch299",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width fields and separate Enlistment and E.R.C. Statistical record layouts",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields in the official merged file without retaining raw records or private identifiers."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch299",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF physical pages 171-172, 176, and 304; occupation codes 097, 136, 227, 757, and 992; visually checked",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The broad categories identify neither a named employer nor an exact workplace and do not by themselves establish the Army-to-OSS sequence."
+    },
+    {
+      "key": "arsof-herbert-brucker-part-two-batch299",
+      "stable_url": "https://arsof-history.org/articles/v2n3_brucker_pt2_page_1.html",
+      "archival_identifier": "Veritas, Vol. 2, No. 3 (2006)",
+      "title": "Herbert R. Brucker, SF Pioneer, Part II: Pre-WWII-OSS Training 1943",
+      "author_creator": "Charles H. Briscoe, PhD",
+      "repository_publisher": "U.S. Army Special Operations Command History Office, ARSOF History",
+      "publication_record_date": "2006",
+      "locator": "Lines 35-48, 72-81, and 133-134; early employment, Army assignments, and explicit August 1943 transition to OSS; article draws on the Box 88 personnel file and Brucker's interviews",
+      "access_date": "2026-08-19",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Veritas: Journal of Army Special Operations History",
+      "rights_notes": "Project-authored paraphrases and short excerpts only. The Baltimore jobs described as OSS assessment exercises are not treated as genuine pre-OSS employment."
+    },
+    {
+      "key": "nps-oss-herbert-brucker-batch299",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "archival_identifier": "National Park Service OSS history, paragraph 369",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "National Park Service",
+      "repository_publisher": "National Park Service, United States Department of the Interior",
+      "publication_record_date": null,
+      "locator": "Paragraphs 369-373; Army radio training, 1943 OSS volunteering, SOE mission, and later service",
+      "access_date": "2026-08-19",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Office of Strategic Services history",
+      "rights_notes": "Official institutional history used as independent corroboration of the Army-to-OSS chronology."
+    },
+    {
+      "key": "loc-washington-daily-news-bruciak-1940-batch299",
+      "stable_url": "https://www.loc.gov/resource/sn82016181/1940-03-26/ed-1/?sp=5",
+      "archival_identifier": "LCCN sn82016181; March 26, 1940, edition 1, image 5",
+      "title": "The Washington Daily News, March 26, 1940, page 5",
+      "author_creator": null,
+      "repository_publisher": "The Washington Daily News; digitized by the Library of Congress",
+      "publication_record_date": "1940-03-26",
+      "locator": "Page 5, lower-left column under 'Social Security Board'; list of 1939 agency salaries includes Evangeline R. Bruciak; source image and OCR context inspected",
+      "access_date": "2026-08-19",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America: Historic American Newspapers",
+      "rights_notes": "Contemporary newspaper evidence. Salary and unrelated employee details are not published; the exact distinctive name remains a probable, not confirmed, match to the index row."
+    },
+    {
+      "key": "ssa-social-security-board-history-batch299",
+      "stable_url": "https://www.ssa.gov/history/boardmembers.html",
+      "archival_identifier": "Social Security Administration History Archives",
+      "title": "Social Security History: Social Security Board",
+      "author_creator": "Social Security Administration",
+      "repository_publisher": "United States Social Security Administration",
+      "publication_record_date": null,
+      "locator": "Historical overview; Board created in 1935 and replaced by the Social Security Administration in 1946",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "Social Security History Archives",
+      "rights_notes": "Used only to normalize the historical agency without substituting its modern successor in the 1939 affiliation claim."
+    },
+    {
+      "key": "cia-oss-collection-batch299",
+      "stable_url": "https://www.cia.gov/readingroom/collection/oss-collection",
+      "archival_identifier": "CIA FOIA Electronic Reading Room, OSS Collection",
+      "title": "Office of Strategic Services Collection",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": null,
+      "locator": "Targeted exact-name and meaningful-variant checks for all ten Batch 299 people; Herbert Brucker context located, but no additional candidate established another person's identity or pre-OSS employer",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "rights_notes": "Official-collection discovery check. OCR and collection search are not comprehensive, so absence is not treated as disproof."
+    },
+    {
+      "key": "loc-chronicling-america-batch299",
+      "stable_url": "https://www.loc.gov/collections/chronicling-america/",
+      "archival_identifier": "Library of Congress, Chronicling America collection and loc.gov API",
+      "title": "Chronicling America: Historic American Newspapers",
+      "author_creator": "Library of Congress; National Endowment for the Humanities",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": null,
+      "locator": "Current loc.gov API exact-name review for all ten Batch 299 names; result images and OCR context inspected for the distinctive Bruciak result and plausible wartime namesakes",
+      "access_date": "2026-08-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "Chronicling America",
+      "rights_notes": "Project-authored search outcomes only; no API response body is retained. Newspaper namesakes without OSS, identifier, or Box linkage remain unassigned."
+    },
+    {
+      "key": "oss-operational-groups-roster-batch299",
+      "stable_url": "https://ossog.info/personnel.html",
+      "archival_identifier": "OSS Operational Groups personnel roster",
+      "title": "OSS Operational Groups Personnel",
+      "author_creator": "OSS Operational Groups Veterans and research contributors",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": null,
+      "locator": "Exact-name review for all ten Batch 299 people; no exact roster entry located",
+      "access_date": "2026-08-19",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups",
+      "rights_notes": "Negative discovery check only. The roster is not comprehensive, so absence is not treated as disproof."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "social-security-board-batch299",
+      "canonical_name": "Social Security Board",
+      "historical_name": "Social Security Board",
+      "aliases": [
+        "SSB"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1935-1946",
+      "normalization_notes": "Historical federal agency created in 1935 and replaced in 1946 by the Social Security Administration. The historical name is retained for the 1939 evidence."
+    },
+    {
+      "key": "us-army-100th-infantry-division-batch299",
+      "canonical_name": "100th Infantry Division, United States Army",
+      "historical_name": "100th Infantry Division",
+      "aliases": [
+        "100th Infantry Division",
+        "Century Division"
+      ],
+      "organization_type": "Army infantry division",
+      "sector": "military",
+      "city": "Fort Jackson",
+      "state_or_region": "South Carolina",
+      "country": "United States",
+      "active_dates": "World War II",
+      "normalization_notes": "Modeled as the specific Army division whose radio operators Herbert R. Brucker trained immediately before volunteering for OSS; not collapsed into the Army as a whole."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-c-bruce-statistical-clerks-occupation-batch299",
+      "person_id": "1fa99486-b032-5184-8283-012897a4db19",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Statistical clerks and compilers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1944-03-03",
+      "date_precision": "Civilian-occupation code 136 recorded at Army entry on March 3, 1944; no employer, workplace, exact role, or OSS-entry date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and full-name agreement confirms the indexed person. The occupation category supports no named employer or proven Army-to-OSS sequence."
+    },
+    {
+      "key": "robert-d-bruce-student-status-batch299",
+      "person_id": "9bfa142f-2054-53d3-bc69-d1256ad31973",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942-07-27",
+      "date_precision": "Civilian-occupation code 992 recorded on an E.R.C. Statistical card at Army entry on July 27, 1942; no school, program, employer, or OSS-entry date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official code records student status, not employment. A same-name 10th Mountain Division roster entry lacks the private identifier and remains unassigned."
+    },
+    {
+      "key": "evangeline-r-bruciak-social-security-board-batch299",
+      "person_id": "e2ac93eb-d4ff-5003-82f5-ccdc31925bef",
+      "organization_key": "social-security-board-batch299",
+      "organization_name_as_found": "Social Security Board",
+      "role_title": null,
+      "occupation": null,
+      "relationship_type": "government_assignment",
+      "start_date": null,
+      "end_date": "1939",
+      "date_precision": "The March 1940 newspaper publishes a 1939 Social Security Board employee salary list; no role title, start date, end date, or OSS-entry date is supplied",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact distinctive full name appears in a contemporaneous federal-agency list, but no private identifier, OSS reference, or Box linkage confirms that it is the indexed person."
+    },
+    {
+      "key": "john-bruciak-managers-officials-occupation-batch299",
+      "person_id": "37d71e1e-59aa-5bf8-ada0-71bb1eb7fc33",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Managers and officials, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-10-22",
+      "date_precision": "Civilian-occupation code 097 recorded at Army entry on October 22, 1942; no employer, industry, management role, or OSS-entry date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier agreement confirms the indexed person despite the Army file omitting his middle initial. The broad category supplies no employer."
+    },
+    {
+      "key": "max-bruck-student-status-batch299",
+      "person_id": "2b7e7635-a9de-5e34-a039-48b3e438824d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-05-07",
+      "date_precision": "Civilian-occupation code 992 recorded at Army entry on May 7, 1943; no school, program, employer, or OSS-entry date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official code records student status, not employment. The Army grade field is visibly damaged and is not silently normalized."
+    },
+    {
+      "key": "herbert-brucker-waiter-occupation-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Waiters and waitresses, except private family",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1940-10-24",
+      "date_precision": "Civilian-occupation code 227 recorded at Army entry on October 24, 1940; the Army history independently says Brucker worked in restaurants before enlisting, but names no establishment",
+      "city": null,
+      "state_or_region": "New Jersey and New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The sources support a restaurant-service occupation before Army entry, but no named employer or specific final workplace."
+    },
+    {
+      "key": "herbert-brucker-100th-infantry-division-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "organization_key": "us-army-100th-infantry-division-batch299",
+      "organization_name_as_found": "100th Infantry Division training cadre",
+      "role_title": "CW (Morse Code) radio-operator trainer",
+      "occupation": "soldier and communications instructor",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1943-08",
+      "date_precision": "Reassigned to Fort Jackson after training the 76th Infantry Division; volunteered for OSS in August 1943 while serving as the 100th Infantry Division's radio-training cadre",
+      "city": "Fort Jackson",
+      "state_or_region": "South Carolina",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army history gives the assignment sequence and explicitly dates his OSS volunteering. This is a military assignment, not a civilian employer."
+    },
+    {
+      "key": "herbert-brucker-coal-company-apprenticeship-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "organization_key": null,
+      "organization_name_as_found": "an unnamed coal mining company",
+      "role_title": "apprentice tool and die maker",
+      "occupation": "tool and die making apprentice",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "before 1938",
+      "date_precision": "The Army history places the apprenticeship during Brucker's schooling in Alsace-Lorraine before his November 1938 return to the United States; no company name or exact dates are supplied",
+      "city": "Merlebach",
+      "state_or_region": "Alsace-Lorraine",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented earlier employment, but neither the employer's name nor the immediate pre-Army sequence is established."
+    },
+    {
+      "key": "arthur-bruckman-cleaning-occupation-batch299",
+      "person_id": "38297e28-1c8a-5295-8a98-5270997d7941",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Cleaning occupations, apparel and other articles",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-17",
+      "date_precision": "Civilian-occupation code 757 recorded at Army entry on July 17, 1943; no employer, establishment, exact task, or OSS-entry date is named",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms that the Army spelling Bruckmann is a documented variant of indexed Bruckman. The category supplies no employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "george-c-bruce-confirmed-army-identity-batch299",
+      "person_id": "1fa99486-b032-5184-8283-012897a4db19",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed George C. Bruce is confirmed as the Army entrant represented by the exact full-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BRUCE GEORGE C",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact full indexed name.",
+      "temporal_assessment": "The Army-entry record is dated March 3, 1944; the index supplies no OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army file supports enlisted status. Common-name newspaper candidates remain unassigned.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 25; private identifier withheld",
+          "excerpt_override": "BRUCE GEORGE C"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRUCE GEORGE C"
+        }
+      ]
+    },
+    {
+      "key": "george-c-bruce-statistical-clerks-claim-batch299",
+      "person_id": "1fa99486-b032-5184-8283-012897a4db19",
+      "affiliation_key": "george-c-bruce-statistical-clerks-occupation-batch299",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on March 3, 1944, George C. Bruce was classified in the statistical clerks and compilers occupation group.",
+      "evidence_excerpt": "1-36. Statistical clerks and compilers",
+      "evidence_paraphrase": "The exact-matched Army record carries code 136, which NARA's official list defines as statistical clerks and compilers.",
+      "identity_match_assessment": "The exact private identifier confirms that the coded Army-entry record belongs to the indexed George C. Bruce.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to name an employer or the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No office, agency, company, or exact clerical role is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier Army-entry record; occupation code 136; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch299",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical pages 171 and 304",
+          "excerpt_override": "1-36. Statistical clerks and compilers"
+        }
+      ]
+    },
+    {
+      "key": "robert-d-bruce-confirmed-army-identity-batch299",
+      "person_id": "9bfa142f-2054-53d3-bc69-d1256ad31973",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert D. Bruce is confirmed as the Army entrant represented by the exact full-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BRUCE ROBERT D",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact full indexed name.",
+      "temporal_assessment": "The E.R.C. Statistical Army-entry record is dated July 27, 1942; the index supplies no OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "A same-name 10th Mountain Division roster entry lacks the identifier and is not assigned.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 26; private identifier withheld",
+          "excerpt_override": "BRUCE ROBERT D"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier E.R.C. Statistical record; identifier withheld",
+          "excerpt_override": "BRUCE ROBERT D"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch299",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 45-46; E.R.C. Statistical layout"
+        }
+      ]
+    },
+    {
+      "key": "robert-d-bruce-student-claim-batch299",
+      "person_id": "9bfa142f-2054-53d3-bc69-d1256ad31973",
+      "affiliation_key": "robert-d-bruce-student-status-batch299",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on July 27, 1942, Robert D. Bruce was classified as a student.",
+      "evidence_excerpt": "9-92. Students",
+      "evidence_paraphrase": "The exact-matched E.R.C. Statistical record carries code 992, which NARA's official list defines as students.",
+      "identity_match_assessment": "The exact private identifier confirms that the coded Army-entry record belongs to the indexed Robert D. Bruce.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but no school or immediate pre-OSS chronology is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment, and no university or program is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier E.R.C. Statistical record; occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch299",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304",
+          "excerpt_override": "9-92. Students"
+        }
+      ]
+    },
+    {
+      "key": "evangeline-r-bruciak-social-security-board-claim-batch299",
+      "person_id": "e2ac93eb-d4ff-5003-82f5-ccdc31925bef",
+      "affiliation_key": "evangeline-r-bruciak-social-security-board-batch299",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A 1940 contemporary newspaper lists the distinctive exact name Evangeline R. Bruciak among 1939 Social Security Board employees; this remains a probable, not confirmed, match to the indexed person.",
+      "evidence_excerpt": "SOCIAL SECURITY BOARD ... Evangeline R. Bruciak",
+      "evidence_paraphrase": "The page's Social Security Board salary list includes the exact distinctive indexed name, but provides no role, private identifier, or OSS reference.",
+      "identity_match_assessment": "Probable: the exact full name is highly distinctive and the employment is contemporaneous, but no second person-specific identifier links the newspaper subject to Box 88.",
+      "temporal_assessment": "Documented in a 1939 federal-agency list, before OSS existed; immediacy to OSS is not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The qualification remains visible. The historical agency is not silently renamed as the modern Social Security Administration.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 27",
+          "excerpt_override": "BRUCIAK EVANGELINE R"
+        },
+        {
+          "source_key": "loc-washington-daily-news-bruciak-1940-batch299",
+          "support_type": "supports",
+          "locator_override": "Page 5, lower-left column, Social Security Board list",
+          "excerpt_override": "SOCIAL SECURITY BOARD ... Evangeline R. Bruciak"
+        },
+        {
+          "source_key": "ssa-social-security-board-history-batch299",
+          "support_type": "context_only",
+          "locator_override": "Historical agency overview"
+        }
+      ]
+    },
+    {
+      "key": "john-bruciak-confirmed-army-identity-batch299",
+      "person_id": "37d71e1e-59aa-5bf8-ada0-71bb1eb7fc33",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed John Bruciak is confirmed as the Army entrant represented by the exact private-identifier match in the official merged file.",
+      "evidence_excerpt": "BRUCIAK JOHN",
+      "evidence_paraphrase": "The uncommon full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and uncommon exact indexed name.",
+      "temporal_assessment": "The Army-entry record is dated October 22, 1942; the index supplies no OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army record omits a middle initial, as does the index, and supports enlisted status.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 28; private identifier withheld",
+          "excerpt_override": "BRUCIAK JOHN"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRUCIAK JOHN"
+        }
+      ]
+    },
+    {
+      "key": "john-bruciak-managers-officials-claim-batch299",
+      "person_id": "37d71e1e-59aa-5bf8-ada0-71bb1eb7fc33",
+      "affiliation_key": "john-bruciak-managers-officials-occupation-batch299",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on October 22, 1942, John Bruciak was classified in the managers and officials, not elsewhere classified occupation group.",
+      "evidence_excerpt": "0-97. Managers and officials, n.e.c.",
+      "evidence_paraphrase": "The exact-matched Army record carries code 097, which NARA's official list defines as managers and officials not elsewhere classified.",
+      "identity_match_assessment": "The exact private identifier confirms that the coded Army-entry record belongs to the indexed John Bruciak.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but no employer, industry, or immediate pre-OSS sequence is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No managerial title, company, government bureau, or self-employment is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier Army-entry record; occupation code 097; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch299",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 171",
+          "excerpt_override": "0-97. Managers and officials, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "max-bruck-confirmed-army-identity-batch299",
+      "person_id": "2b7e7635-a9de-5e34-a039-48b3e438824d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Max Bruck is confirmed as the Army entrant represented by the exact full-name and private-identifier match in the official merged file.",
+      "evidence_excerpt": "BRUCK MAX",
+      "evidence_paraphrase": "The full name and private service identifier match across the OSS index and official Army-entry file; the identifier is withheld.",
+      "identity_match_assessment": "Confirmed by an exact private identifier and exact indexed name.",
+      "temporal_assessment": "The Army-entry record is dated May 7, 1943; the index supplies no OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The source supports enlisted Army entry, but its grade letters are damaged and remain uninterpreted.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 29; private identifier withheld",
+          "excerpt_override": "BRUCK MAX"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRUCK MAX"
+        }
+      ]
+    },
+    {
+      "key": "max-bruck-student-claim-batch299",
+      "person_id": "2b7e7635-a9de-5e34-a039-48b3e438824d",
+      "affiliation_key": "max-bruck-student-status-batch299",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on May 7, 1943, Max Bruck was classified as a student.",
+      "evidence_excerpt": "9-92. Students",
+      "evidence_paraphrase": "The exact-matched Army record carries code 992, which NARA's official list defines as students.",
+      "identity_match_assessment": "The exact private identifier confirms that the coded Army-entry record belongs to the indexed Max Bruck.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but no school or immediate pre-OSS chronology is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment, and no school or program is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier Army-entry record; occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch299",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304",
+          "excerpt_override": "9-92. Students"
+        }
+      ]
+    },
+    {
+      "key": "herbert-brucker-confirmed-identity-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Herbert Brucker is confirmed as the Army entrant and OSS special-operations veteran documented by the official merged file and Army histories.",
+      "evidence_excerpt": "BRUCKER HERBERT",
+      "evidence_paraphrase": "The OSS index and Army-entry file share the exact private identifier and name; Army histories independently match his 1921 birth, October 1940 enlistment, languages, and OSS service.",
+      "identity_match_assessment": "Confirmed by an exact private identifier plus multiple independent, highly specific biographical and OSS identifiers.",
+      "temporal_assessment": "The Army record dates entry to October 24, 1940; the Army history dates his OSS volunteering to August 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The institutional history explicitly cites the Box 88 personnel file and distinguishes real employment from cover-story and assessment jobs.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 30; Box 88; private identifier withheld",
+          "excerpt_override": "BRUCKER HERBERT"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRUCKER HERBERT"
+        },
+        {
+          "source_key": "arsof-herbert-brucker-part-two-batch299",
+          "support_type": "supports",
+          "locator_override": "Lines 35-48 and 72-81"
+        }
+      ]
+    },
+    {
+      "key": "herbert-brucker-waiter-occupation-claim-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "affiliation_key": "herbert-brucker-waiter-occupation-batch299",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on October 24, 1940, Herbert Brucker was classified in the waiters and waitresses, except private family occupation group; an Army history independently says he worked in restaurants.",
+      "evidence_excerpt": "2-27. Waiters and waitresses, except private family",
+      "evidence_paraphrase": "The exact-matched Army record carries code 227, and the institutional history describes restaurant work before he joined the Army.",
+      "identity_match_assessment": "The exact private identifier and the institutional biography establish that both sources concern the indexed Herbert Brucker.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but no specific last workplace or named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No restaurant, hotel, catering company, or employer is invented. OSS-training employment exercises are excluded.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier Army-entry record; occupation code 227; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch299",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 172",
+          "excerpt_override": "2-27. Waiters and waitresses, except private family"
+        },
+        {
+          "source_key": "arsof-herbert-brucker-part-two-batch299",
+          "support_type": "supports",
+          "locator_override": "Lines 42-45",
+          "excerpt_override": "working in restaurants"
+        }
+      ]
+    },
+    {
+      "key": "herbert-brucker-immediate-100th-infantry-claim-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "affiliation_key": "herbert-brucker-100th-infantry-division-batch299",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before volunteering for OSS in August 1943, Herbert R. Brucker served in the U.S. Army as radio-training cadre for the 100th Infantry Division at Fort Jackson.",
+      "evidence_excerpt": "Brucker, in August 1943, had volunteered for duty with the OSS.",
+      "evidence_paraphrase": "The Army history traces Brucker from training the 100th Infantry Division's Morse Code operators directly to his August 1943 OSS orders.",
+      "identity_match_assessment": "Confirmed indexed identity; the exact-identifier Army file, Box 88-linked history, birth year, enlistment date, language background, and OSS role all agree.",
+      "temporal_assessment": "Explicit immediate transition: 100th Infantry Division training cadre followed by volunteering and orders to OSS in August 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is modeled as a military assignment, not a civilian employer or generic Signal Corps affiliation.",
+      "sources": [
+        {
+          "source_key": "arsof-herbert-brucker-part-two-batch299",
+          "support_type": "supports",
+          "locator_override": "Lines 72-81 and 133-134",
+          "excerpt_override": "Brucker, in August 1943, had volunteered for duty with the OSS."
+        },
+        {
+          "source_key": "nps-oss-herbert-brucker-batch299",
+          "support_type": "supports",
+          "locator_override": "Paragraphs 369-370",
+          "excerpt_override": "before volunteering for the OSS in 1943"
+        }
+      ]
+    },
+    {
+      "key": "herbert-brucker-coal-company-apprentice-claim-batch299",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "affiliation_key": "herbert-brucker-coal-company-apprenticeship-batch299",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before returning to the United States in 1938, Herbert R. Brucker served as an apprentice tool and die maker for an unnamed coal mining company in Alsace-Lorraine.",
+      "evidence_excerpt": "serve as an apprentice tool and die maker for a coal mining company",
+      "evidence_paraphrase": "The Army history places this apprenticeship during Brucker's schooling in Merlebach, before his November 1938 return to the United States.",
+      "identity_match_assessment": "The Box 88-linked institutional biography and exact-identifier Army record concern the confirmed indexed person.",
+      "temporal_assessment": "Documented prewar employment, but neither an exact date nor the employer's name is supplied; it was not the immediate pre-OSS role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The unnamed historical company is not normalized to a modern mining firm, and later restaurant work prevents calling this the last civilian employer.",
+      "sources": [
+        {
+          "source_key": "arsof-herbert-brucker-part-two-batch299",
+          "support_type": "supports",
+          "locator_override": "Lines 39-44",
+          "excerpt_override": "serve as an apprentice tool and die maker for a coal mining company"
+        }
+      ]
+    },
+    {
+      "key": "arthur-bruckman-confirmed-army-identity-batch299",
+      "person_id": "38297e28-1c8a-5295-8a98-5270997d7941",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur Bruckman is confirmed as the Army entrant printed as Arthur Bruckmann in the official merged file by their exact private-identifier match.",
+      "evidence_excerpt": "BRUCKMANN ARTHUR",
+      "evidence_paraphrase": "The private service identifier is exact across the OSS index and Army-entry file; the Army file supplies the documented final-n spelling variant.",
+      "identity_match_assessment": "Confirmed by an exact private identifier despite a one-letter surname variant.",
+      "temporal_assessment": "The Army-entry record is dated July 17, 1943; the index supplies no OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The original Bruckman index spelling remains primary and recoverable; Bruckmann is added only as a sourced variant.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-57-batch299",
+          "support_type": "supports",
+          "locator_override": "PDF page 57, row 32; indexed surname Bruckman; private identifier withheld",
+          "excerpt_override": "BRUCKMAN ARTHUR"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; identifier withheld",
+          "excerpt_override": "BRUCKMANN ARTHUR"
+        }
+      ]
+    },
+    {
+      "key": "arthur-bruckman-cleaning-occupation-claim-batch299",
+      "person_id": "38297e28-1c8a-5295-8a98-5270997d7941",
+      "affiliation_key": "arthur-bruckman-cleaning-occupation-batch299",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on July 17, 1943, Arthur Bruckman was classified in the cleaning occupations, apparel and other articles group.",
+      "evidence_excerpt": "7-57. Cleaning occupations, apparel and other articles",
+      "evidence_paraphrase": "The exact-identifier Army record carries code 757, which NARA's official list defines as cleaning occupations involving apparel and other articles.",
+      "identity_match_assessment": "The exact private identifier confirms that the Bruckmann-spelled Army row belongs to indexed Arthur Bruckman.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but no employer, establishment, exact task, or immediate pre-OSS sequence is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No laundry, dry-cleaning business, employer, or self-employment is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch299",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier Army-entry record; occupation code 757; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch299",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 176",
+          "excerpt_override": "7-57. Cleaning occupations, apparel and other articles"
+        }
+      ]
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch299-evangeline-h-bruce-review",
+      "person_id": "440fc3c9-2e7b-5fb0-84ec-81a477d127bb",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Evangeline H. Bruce: visually checked NARA index; NARA and CIA OSS context; exact-name and meaningful variants with OSS, employer, occupation, institutional, newspaper, obituary, directory, military, and archival terms; current loc.gov Chronicling America API result-image review; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The sole exact-name Chronicling America hit dates to 1894 and cannot be this wartime person. Other Bruce namesakes lacked OSS evidence, Box 88 linkage, or corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 88 for full middle name, birth year, hometown, occupation, employer, and OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-george-c-bruce-review",
+      "person_id": "1fa99486-b032-5184-8283-012897a4db19",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "George C. Bruce: visually checked NARA index; exact private-identifier Army bulk, technical-documentation, and occupation-code review; exact-name OSS, CIA, statistical clerk, employer, institutional, newspaper, obituary, directory, military, and archival searches; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Common-name newspaper, directory, burial, and military candidates lack the private identifier. The Army occupation group names no employer or workplace.",
+      "research_notes": "The exact private identifier confirms the Army identity. Only the qualified statistical-clerks-and-compilers category is published.",
+      "next_action": "Review Box 88 for the named employer, exact clerical role, Army-to-OSS chronology, and any intervening assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-robert-d-bruce-review",
+      "person_id": "9bfa142f-2054-53d3-bc69-d1256ad31973",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Robert D. Bruce: visually checked NARA index; exact private-identifier Army bulk with E.R.C. layout, technical-documentation, and occupation-code review; exact-name OSS, CIA, student, employer, university, newspaper, obituary, directory, 10th Mountain Division, military, and archival searches; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "The same-name 10th Mountain Division roster entry supplies no private identifier and is not assigned. Numerous contemporary newspaper namesakes lack OSS or Box linkage. The Army code names no school.",
+      "research_notes": "The exact private identifier confirms the Army identity. Only qualified student status at Army entry is published; it is not employment.",
+      "next_action": "Review Box 88 for the school or program, Army unit and OSS transfer chronology, employer if any, and evidence needed to evaluate the 10th Mountain candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-evangeline-r-bruciak-review",
+      "person_id": "e2ac93eb-d4ff-5003-82f5-ccdc31925bef",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Evangeline R. Bruciak: visually checked NARA index; NARA and CIA OSS context; exact-name OSS, Social Security Board, federal employee, employer, institutional, newspaper, obituary, directory, and archival searches; current loc.gov Chronicling America API source-image and OCR review; official Social Security Board history; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "No second person-specific identifier, OSS reference, or Box linkage confirms the exact-name 1939 Social Security Board employee. Later family references were not used as identity evidence.",
+      "research_notes": "The distinctive contemporary exact-name match supports a visibly qualified probable Social Security Board affiliation, not a confirmed identity or immediate pre-OSS role.",
+      "next_action": "Review Box 88 for birth year, residence, federal job title, OSS entry date, and direct evidence linking the Social Security Board employee to the indexed person.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-john-bruciak-review",
+      "person_id": "37d71e1e-59aa-5bf8-ada0-71bb1eb7fc33",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "John Bruciak: visually checked NARA index; exact private-identifier Army bulk, technical-documentation, and occupation-code review; exact-name OSS, CIA, manager, official, employer, institutional, newspaper, obituary, directory, military, and archival searches; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Discovery-only Army repetitions name no employer. The broad managers-and-officials category supplies no industry, organization, or exact role.",
+      "research_notes": "The exact private identifier confirms the Army identity. The occupation group is published only as a qualified category.",
+      "next_action": "Review Box 88 for the employer, industry, management role, Army-to-OSS chronology, and any intervening assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-max-bruck-review",
+      "person_id": "2b7e7635-a9de-5e34-a039-48b3e438824d",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Max Bruck: visually checked NARA index; exact private-identifier Army bulk, technical-documentation, and occupation-code review; exact-name and Brueck/Brück variants with OSS, CIA, student, school, employer, institutional, newspaper, obituary, directory, military, and archival terms; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "European and earlier newspaper namesakes do not match the private identifier or wartime U.S. Army chronology. The Army code names no school, and the damaged grade letters remain uninterpreted.",
+      "research_notes": "The exact private identifier confirms the Army identity. Only qualified student status at Army entry is published.",
+      "next_action": "Review Box 88 for the school or program, Army grade and unit, OSS transfer chronology, and any named employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-herbert-brucker-review",
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Herbert R. Brucker: visually checked NARA index and Box 88-linked institutional history; exact private-identifier Army bulk, technical-documentation, and occupation-code review; exact-name OSS, CIA, Army radio, 76th and 100th Infantry Divisions, restaurant, coal company, employer, institutional, newspaper, obituary, directory, military, and archival searches; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A later newspaper editor of the same name is unrelated. Baltimore radio-plant and shipyard jobs were OSS assessment exercises, not genuine employment. No restaurant or coal company is named.",
+      "research_notes": "The exact identifier and highly specific Army histories confirm the identity and explicit 100th Infantry Division-to-OSS pathway. Earlier occupations remain separate and qualified.",
+      "next_action": "Review Box 88 to confirm the precise transfer order, dates and unit designation, and to identify any named restaurant or coal-company employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-albert-p-bruckert-review",
+      "person_id": "b60a292c-cb54-57ee-8190-5b9b5a06addc",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Albert P. Bruckert: visually checked NARA index; exact private-identifier check against the official Army bulk file; NARA and CIA OSS context; exact-name and spelling-variant OSS, employer, occupation, institutional, newspaper, obituary, directory, military, and archival searches; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The printed identifier has no exact Army bulk match, which may reflect another service or a known series omission and is not disproof. Namesakes lacked OSS, identifier, or Box 88 linkage.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 88 for branch, birth year, hometown, occupation, employer, OSS assignment, and clarification of the printed identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-arthur-bruckman-review",
+      "person_id": "38297e28-1c8a-5295-8a98-5270997d7941",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "Arthur Bruckman: visually checked NARA index; exact private-identifier Army bulk, Bruckmann spelling, technical-documentation, and occupation-code review; exact-name and spelling-variant OSS, CIA, cleaner, laundry, employer, institutional, newspaper, obituary, directory, military, and archival searches; Chronicling America; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Earlier and later newspaper subjects lack the private identifier. The Army category names no laundry, cleaning business, employer, or exact task; its damaged grade letters remain uninterpreted.",
+      "research_notes": "The exact private identifier confirms Bruckmann as a sourced Army spelling variant. Only the broad cleaning-occupations category is published.",
+      "next_action": "Review Box 88 for the preferred surname spelling, named employer, precise work, Army-to-OSS chronology, and any intervening assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    },
+    {
+      "key": "batch299-john-w-bruckman-review",
+      "person_id": "5f3d193a-c5e9-52d2-a266-4aae2ea8c5b4",
+      "source_adapter": "reviewed_official_bulk_cia_loc_institutional_newspaper_and_web_sources",
+      "query_text": "John W. Bruckman: visually checked NARA index; exact private-identifier check against the official Army bulk file; NARA and CIA OSS context; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, military, and archival searches; current loc.gov Chronicling America source-image and OCR review; OSS Operational Groups roster.",
+      "query_variant_type": "reviewed_multi_source_identity_employment_and_archival_protocol",
+      "started_at": "2026-08-19T01:39:16Z",
+      "completed_at": "2026-08-19T01:39:16Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "A 1943 Detroit address-list subject and a 1944 Detroit private of the exact name lack the printed identifier, OSS evidence, and Box 88 linkage. The identifier has no exact Army bulk match, which is not disproof.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 88 for birth year, hometown, branch, occupation, employer, OSS assignment, and evidence needed to evaluate the Detroit military candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-reviewed-batch-299-v1"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "440fc3c9-2e7b-5fb0-84ec-81a477d127bb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies only Evangeline H. Bruce and Box 88. Official-collection, exact-name, institutional, newspaper, obituary, directory, and archival searches found no candidate with OSS or Box linkage.",
+      "name_variants": [
+        "Evangeline H Bruce",
+        "Evangeline H. Bruce",
+        "Evangeline Bruce",
+        "Bruce, Evangeline H."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 88 for full middle name, birth year, hometown, occupation, employer, and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1fa99486-b032-5184-8283-012897a4db19",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on George C. Bruce's exact full name and private identifier. The identifier remains withheld; the Army row dates entry to March 3, 1944 and carries civilian occupation code 136, which NARA defines as statistical clerks and compilers.",
+      "name_variants": [
+        "George C Bruce",
+        "George C. Bruce",
+        "George Bruce",
+        "Bruce, George C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 88 for the named employer, exact clerical role, Army-to-OSS chronology, and any intervening assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9bfa142f-2054-53d3-bc69-d1256ad31973",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on Robert D. Bruce's exact full name and private identifier. The identifier remains withheld; the E.R.C. Statistical row dates entry to July 27, 1942 and carries civilian occupation code 992, which NARA defines as students.",
+      "name_variants": [
+        "Robert D Bruce",
+        "Robert D. Bruce",
+        "Robert Bruce",
+        "Bruce, Robert D."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 88 for the school or program, Army unit and OSS transfer chronology, employer if any, and evidence needed to evaluate the 10th Mountain candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e2ac93eb-d4ff-5003-82f5-ccdc31925bef",
+      "identity_status": "probable",
+      "identity_evidence": "A 1940 contemporary newspaper lists the exact distinctive name Evangeline R. Bruciak among 1939 Social Security Board employees. The index supplies the same full name and Box 88, but no private identifier or second person-specific fact confirms the match.",
+      "name_variants": [
+        "Evangeline R Bruciak",
+        "Evangeline R. Bruciak",
+        "Evangeline Bruciak",
+        "Bruciak, Evangeline R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 88 for birth year, residence, federal job title, OSS entry date, and direct evidence linking the Social Security Board employee to the indexed person.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "37d71e1e-59aa-5bf8-ada0-71bb1eb7fc33",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on John Bruciak's uncommon name and exact private identifier. The identifier remains withheld; the Army row dates entry to October 22, 1942 and carries civilian occupation code 097, which NARA defines as managers and officials not elsewhere classified.",
+      "name_variants": [
+        "John Bruciak",
+        "Bruciak, John"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 88 for the employer, industry, management role, Army-to-OSS chronology, and any intervening assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b7e7635-a9de-5e34-a039-48b3e438824d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file agree on Max Bruck's exact name and private identifier. The identifier remains withheld; the Army row dates entry to May 7, 1943 and carries civilian occupation code 992, which NARA defines as students. Damaged grade letters remain uninterpreted.",
+      "name_variants": [
+        "Max Bruck",
+        "Bruck, Max"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 88 for the school or program, Army grade and unit, OSS transfer chronology, and any named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "97a9af8f-54b3-5cde-86ed-38da76eba920",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file agree on Herbert Brucker's exact name and private identifier. The Box 88-linked Army history independently matches his October 10, 1921 birth, October 1940 enlistment, French and German background, Army radio work, August 1943 OSS volunteering, and wartime operations.",
+      "name_variants": [
+        "Herbert Brucker",
+        "Herbert R Brucker",
+        "Herbert R. Brucker",
+        "Brucker, Herbert R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 88 to confirm the precise transfer order, dates and unit designation, and to identify any named restaurant or coal-company employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "b60a292c-cb54-57ee-8190-5b9b5a06addc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Albert P. Bruckert, a private identifier, and Box 88. The identifier has no exact Army bulk match, which may reflect another service or a known omission; searches found no corroborated identity or employer.",
+      "name_variants": [
+        "Albert P Bruckert",
+        "Albert P. Bruckert",
+        "Albert Bruckert",
+        "Bruckert, Albert P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 88 for branch, birth year, hometown, occupation, employer, OSS assignment, and clarification of the printed identifier.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38297e28-1c8a-5295-8a98-5270997d7941",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Arthur Bruckman's exact private identifier. The identifier remains withheld; the Army file spells the surname Bruckmann, dates entry to July 17, 1943, and carries civilian occupation code 757, which NARA defines as cleaning occupations involving apparel and other articles.",
+      "name_variants": [
+        "Arthur Bruckman",
+        "Arthur Bruckmann",
+        "Bruckman, Arthur",
+        "Bruckmann, Arthur"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 88 for the preferred surname spelling, named employer, precise work, Army-to-OSS chronology, and any intervening assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f3d193a-c5e9-52d2-a266-4aae2ea8c5b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies John W. Bruckman, a private identifier, and Box 88. The identifier has no exact Army bulk match. Exact-name Detroit wartime candidates lack the identifier, OSS evidence, and Box linkage.",
+      "name_variants": [
+        "John W Bruckman",
+        "John W. Bruckman",
+        "John Bruckman",
+        "Bruckman, John W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 88 for birth year, hometown, branch, occupation, employer, OSS assignment, and evidence needed to evaluate the Detroit military candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ]
+}

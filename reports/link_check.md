@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,388 HTML files. Every relative
+**PASS.** The production build contains 24,390 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 440 organization profiles, and the
+The build includes 23,940 person profiles, 442 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,288 unique external URLs for separate live
+The checker inventoried 49,293 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 299 local release check
+
+The complete 24,390-page internal-link pass includes direct routes for
+Evangeline H. Bruce through John W. Bruckman on PDF page 57 and the two new
+organization pages. The 74-test Python suite, deterministic 200-profile audit,
+focused three-viewport Batch 299 regression, 27-case core-route axe scan,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints. The expanded
+894-case browser and accessibility matrix runs in release CI.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,460,678 bytes and has
+SHA-256
+`66619e20076465e52b3ff6c7e2d1717ba115b88551e2d2d6b9ee034b839104d7`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,460 production artifacts, rejected
+1,026 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`5369f6442dfcaf8f08b840dd78c3a6dc9a71382efd55982a127deac3e9fd4ed7`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`fff3670edd121f2e13b4cbd7cbfdbbe91cda44cba7c7fbb299171f9af5886fd3`.
+The regression distinguishes Herbert Brucker's immediate military assignment
+from civilian employment, keeps Evangeline R. Bruciak's federal affiliation
+visibly qualified, publishes five additional Army-entry occupation or student
+findings without naming employers, and preserves three unresolved profiles.
 
 ## Batch 298 local release check
 
@@ -23,8 +52,9 @@ researched intervening David K. Bruce row. The 74-test Python suite,
 deterministic 200-profile audit, focused three-viewport Batch 298 regression,
 27-case core-route axe scan, dependency audit, database integrity checks, and
 complete public-identifier audit pass; Astro reports zero errors, warnings, or
-hints. The expanded 891-case browser and accessibility matrix runs in release
-CI.
+hints. The expanded 891 / 891 browser and accessibility matrix passed in
+GitHub release workflow
+[32205075252](https://github.com/therealjameswilson/before-oss/actions/runs/32205075252).
 
 All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
 the source and built public trees. The manifest covers 76,345,632 bytes and has
