@@ -5,11 +5,13 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,394 pages**
-- Internal link check: **24,394 HTML files passed**
-- Latest complete browser and accessibility matrix: **909 / 909 passed** in the
+- Static production build: **24,396 pages**
+- Internal link check: **24,396 HTML files passed**
+- Latest complete browser and accessibility matrix: **912 / 912 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 305 browser regression: **3 / 3 passed**; the expanded
+  **912 / 912** browser and accessibility matrix also passed locally.
 - Focused Batch 304 browser regression: **3 / 3 passed**; the expanded
   **909 / 909** browser and accessibility matrix also passed locally.
 - Focused Batch 303 browser regression: **3 / 3 passed**; the expanded
@@ -111,36 +113,46 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`0f2357b00be97827fc20bbfad4f5a00a0fde65933b6a9470a095739a9878e0f3`)
-- Latest deterministic public-data build (Batch 304): **byte-for-byte
+  (`1ed75341f8fe2191285ead51381b9813c824fbdb87268272e3ebbf46e6ded735`)
+- Latest deterministic public-data build (Batch 305): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`05f63fd68a801f256069882e924162de21727631928e8dc3ce6afaeb0a9f4097`).
+  (`5165045601cf4b21f0860691326328ab8f06ec97fe7718c79fad63e185fd6f07`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,770,681 bytes** in the public tree;
+  across **76,853,332 bytes** in the public tree;
   manifest SHA-256
-  `5f6b12fba3cb0f601dfc6b09295f81de7377ed0a0e74f8af0f7992fb6522e5a6`.
+  `d3a549ccc9c4421d7a884b70584a4a848d53b23f312bee17ebaff272eba727a4`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,464** production artifacts, including compressed mirrors;
+  matches** in **24,466** production artifacts, including compressed mirrors;
   **1,037** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,049** public records representing **1,436** unique documents
-- Private citation records: **3,113**
-- Published, qualified, or conflict-visible affiliations: **1,130**
-- Published or conflict-visible claims: **2,240**
-- Verified-affiliation metric: **431** people with confirmed/high published
+- Reviewed public sources: **2,055** public records representing **1,440** unique documents
+- Private citation records: **3,122**
+- Published, qualified, or conflict-visible affiliations: **1,136**
+- Published or conflict-visible claims: **2,251**
+- Verified-affiliation metric: **432** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **188** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 305 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **912 / 912** browser and
+  accessibility matrix, the 24,396-route link check, deterministic rebuild,
+  manifest audit, dependency audit, 200-profile audit, database integrity
+  checks, and public-identifier audit all pass. Louis R. Alvey Jr., Edwin D.
+  Amado, Raymond H. Amador, and Ralph G. Amato have exact-identifier Army
+  identities and qualified occupation or student-status findings. Charles D.
+  Ambelang's University of Wisconsin student relationship and 1943 officer-
+  candidate training remain distinct from civilian employment, and five
+  unsupported profiles remain on the archival-review path.
 - Batch 304 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete **909 / 909** browser and
   accessibility matrix, the 24,394-route link check, deterministic rebuild,
