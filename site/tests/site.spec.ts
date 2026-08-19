@@ -25492,3 +25492,54 @@ test("Batches 319-321 preserve bounded occupations, student evidence, a federal 
     await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
   }
 });
+
+test("Batch 322 publishes three identifier-backed occupations and preserves seven Box 93 review paths", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["4214157e-2a24-59ed-bfcc-e8ad8f1c1034", "Frank G Burford", "Radio operator"],
+    ["d225f2a1-1dae-5c46-9c7a-a215f2e385ae", "John K Burgan", "Inspector, not elsewhere classified"],
+    ["d6561c83-60d7-50d2-bb49-8c5e67df8cb3", "Edward H Burgesono", "Advertising agent"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/d6561c83-60d7-50d2-bb49-8c5e67df8cb3/");
+  await expect(page.locator("main")).toContainText("Edward H. Burgeson");
+  await expect(page.locator("main")).toContainText(
+    "exact private-identifier agreement",
+  );
+
+  await page.goto("./people/894fd882-65ef-527b-a384-25f1e07b790b/");
+  await expect(page.getByRole("heading", { name: "Lucien Bureau", exact: true })).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const [personId, name] of [
+    ["e2daa894-4b18-5884-9447-439a0d0bf5db", "Robert E Burger"],
+    ["14940615-8bf2-58fe-8b62-31d358278a2a", "Samuel H Burges"],
+    ["dec47eda-1f66-5004-af89-d32b0a23909d", "Dorothy Burgeson"],
+    ["14059fcd-7737-563a-8d2d-dbc96e4f921d", "Barbara Burgess"],
+    ["8ebeacde-75f5-54de-921b-3daaa45b925f", "Earle G Burgess"],
+    ["2f120fec-a562-5818-b097-0fb9585627cf", "Elsie J Burgess"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

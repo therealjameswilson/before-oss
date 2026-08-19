@@ -7,13 +7,19 @@ Run: 2026-08-19 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,408 pages**
 - Internal link check: **24,408 HTML files passed**
-- Expanded browser and accessibility matrix: **954 / 954 passed** across
-  desktop, phone, and tablet. The initial 45-minute single-worker sweep passed
-  **951 / 954**; the three older, unchanged cases affected by a macOS display-
-  link failure or the 45-second timeout then passed **3 / 3** in fresh isolated
-  single-worker reruns. The 27 axe cases cover representative routes and test
-  for serious or critical
-  accessibility violations.
+- Expanded browser and accessibility matrix: **957 / 957 passed** across
+  desktop, phone, and tablet. The initial 34-minute single-worker sweep passed
+  **955 / 957**; one older Batch 218 phone case and the tablet directory axe
+  case were affected by a closed macOS headless-browser session or teardown
+  timeout. Both failed cases then passed **2 / 2** in fresh isolated
+  single-worker reruns; the accessibility rerun also repeated the adjacent
+  person-profile case successfully. The 27 axe cases cover representative
+  routes and test for serious or critical accessibility violations.
+- Focused Batch 322 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It verifies the three exact-identifier Army occupations,
+  preserves the qualified Burgesono/Burgeson spelling pair, keeps Lucien
+  Bureau's French sub-lieutenant classification visible, and routes seven
+  unsupported identities to archival review without inventing employers.
 - Focused Batches 319-321 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It verifies bounded occupations, the separate Big Sandy
   High School student relationship, the qualified Justice Department

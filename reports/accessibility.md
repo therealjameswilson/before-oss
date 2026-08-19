@@ -4,16 +4,27 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-The expanded release matrix contains **954** browser, responsive, and
+The expanded release matrix contains **957** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The initial
-45-minute single-worker sweep passed **951 / 954**; three older, unchanged cases
-were affected by a macOS display-link failure or the 45-second test timeout and
-then passed **3 / 3** in fresh isolated single-worker reruns, for a final
-**954 / 954** result. The matrix includes 27 axe scans of representative routes,
+34-minute single-worker sweep passed **955 / 957**; an older Batch 218 phone
+case and the tablet directory axe case were affected by a closed macOS
+headless-browser session or teardown timeout. Both failed cases passed in
+fresh isolated single-worker reruns, for a final **957 / 957** result. The
+accessibility rerun also repeated the adjacent person-profile case
+successfully. The matrix includes 27 axe scans of representative routes,
 including the growing Sources table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 322 adds a focused direct-route regression for Lucien Bureau through
+Elsie J. Burgess across PDF pages 60-61. It verifies exact-identifier identity
+and occupation evidence for Frank G. Burford, John K. Burgan, and the qualified
+Edward H. Burgesono/Burgeson spelling pair; preserves Bureau's French
+sub-lieutenant classification; and leaves seven unsupported identities on
+dignified Box 93 archival-review pages. No source-only occupation is rendered
+as an employer. The focused regression passed **3 / 3** across desktop, phone,
+and tablet.
 
 Batches 319-321 add a focused direct-route regression for Donald A. Bullard
 through Gerald H. Burdine on PDF page 60. It verifies that eleven official

@@ -3642,6 +3642,34 @@ identities route to Boxes 92-93 review. Across Batches 319-321, no authenticated
 Catalog request, credential, raw API response, full private identifier, full
 copyrighted page, or unsupported employer claim was stored or published.
 
+## Pages-sixty-sixty-one Bureau-through-Burgess pathways, Batch 322
+
+`research/evidence-pages-sixty-sixty-one-bureau-through-burgess-pathways_batch-322_2026-08-19.json`
+records ten contiguous people from Lucien Bureau through Elsie J. Burgess
+across PDF pages 60-61 in Box 93. Both index pages and the relevant official
+Army code-list pages were visually checked. The official merged file was
+searched by private identifier outside version control; no raw record, full
+identifier, or unrelated subject detail was retained.
+
+The strict bundle contains four official sources, three affiliations, six
+claims, fifteen claim-source links, ten person updates, and ten durable research
+attempts. Exact private-identifier agreement confirms Frank G. Burford, John K.
+Burgan, and the qualified spelling pair Edward H. Burgesono/Burgeson. Their
+official Army-entry records support only date-bounded radio-operator,
+otherwise-unspecified inspector, and advertising-agent occupational groups.
+None names an employer, station, branch, industry, agency, client, duties,
+workplace, or Army-to-OSS chronology. The index's `possibly` note and the
+official Burgeson spelling remain visible rather than silently correcting the
+printed Burgesono row.
+
+Lucien Bureau's printed French sub-lieutenant classification is preserved, but
+a discovery-only alias lead lacks Box 93 linkage and remains unresolved. Robert
+E. Burger's Library of Congress result was a substring occurrence for Robert
+Weisenburger, not an identity match. Those two and five other unsupported
+identities route to Box 93 review. No authenticated Catalog request, credential,
+raw API response, full private identifier, full copyrighted page, or
+unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
