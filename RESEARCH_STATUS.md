@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,840 people with a non-planned attempt | 23,940 active person entities | 11.8630% |
+| Research-attempt coverage | 2,850 people with a non-planned attempt | 23,940 active person entities | 11.9048% |
 | Verified-affiliation coverage | 432 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8045% |
 | Verified-employer coverage | 188 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7853% |
-| Archival-review coverage | 2,790 people with an individual file-access/priority assessment | 23,940 active person entities | 11.6541% |
+| Archival-review coverage | 2,800 people with an individual file-access/priority assessment | 23,940 active person entities | 11.6959% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 484
+- Identity status `confirmed`: 486
 - Identity status `high_confidence`: 465
 - Identity status `probable`: 93
 - Identity status `ambiguous`: 47
 - Identity status `conflicting`: 40
-- Identity status `unresolved`: 22,811
+- Identity status `unresolved`: 22,809
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,249
-- Enlisted Army personnel: 3,698
+- Unknown or indeterminate: 16,247
+- Enlisted Army personnel: 3,700
 - Commissioned Army officers: 2,095
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,212 yes; 5,340 no; 16,388 indeterminate.
+Commissioned classification: 2,212 yes; 5,342 no; 16,386 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,100
+- `not_started`: 21,090
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 64
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 57
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 411
-- `requires_archival_review`: 1,928
+- `occupation_only_found`: 413
+- `requires_archival_review`: 1,936
 - `completed`: 88
 - `conflicting_sources`: 41
 - `verified_employer_found`: 185
-- Claim confidence: 665 confirmed; 1,001 high; 534 medium; 38 low; 51
+- Claim confidence: 667 confirmed; 1,001 high; 536 medium; 38 low; 51
   conflicting
-- Durable evidence inventory: 3,122 source records representing 1,440 unique
-  documents; 459 organizations; 1,145 affiliations; 2,289 claims; and 5,164
+- Durable evidence inventory: 3,128 source records representing 1,441 unique
+  documents; 459 organizations; 1,147 affiliations; 2,293 claims; and 5,172
   claim-source links
-- Reviewed public projection: 448 organizations; 1,136 published, qualified,
-  or conflict-visible affiliations; 2,251 published, qualified, or
-  conflict-visible claims; and 2,055 public citation records
+- Reviewed public projection: 448 organizations; 1,138 published, qualified,
+  or conflict-visible affiliations; 2,255 published, qualified, or
+  conflict-visible claims; and 2,058 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,212 yes; 5,340 no; 16,388 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,623. The detailed adapter breakdown remains reproducible in
+  2,633. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,143 across 1,109 people; 125 additional
+- Saved `source_reviewed` outcomes: 1,150 across 1,116 people; 125 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,042
+- Total recorded attempts/plans: 4,052
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,061; 1,033 have at least one public-visible
+- People with saved reviewed claims: 1,063; 1,035 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5140,6 +5140,38 @@ Commissioned classification: 2,212 yes; 5,340 no; 16,388 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `0f2357b00be97827fc20bbfad4f5a00a0fde65933b6a9470a095739a9878e0f3`.
+- Batch 306 covers Mary Brock through Stephen Broder, ten contiguous previously
+  unresearched rows on PDF page 53 in Box 81. The source page and both relevant
+  NARA occupation-code pages were rendered and visually checked. Exact full-name
+  and private-identifier agreement confirms Elvin Brockman Jr. and Harold I.
+  Brodbeck as enlisted Army personnel. Brockman's June 1945 code is published
+  only as student status, not employment or a named school; Brodbeck's November
+  1941 code is published only as a broad chauffeur-and-driver occupation, not a
+  named employer or exact role. Mary Brock, Mildred L. Brockdorff, Paul Brockett,
+  Muriel P. Brockhurst, Eric Brockman, William Brockman, Jean M. Brodell, and
+  Stephen Broder remain unresolved Box 81 archival-review profiles. A 1942 NBC
+  reporter named Mary Brock, postwar State Department records for Mildred L.
+  Brockdorff, and a 1944 Washington newspaper item for Jean Marie Brodell remain
+  unassigned because none has independent OSS, identifier, or Box linkage. The
+  spouse named in the Brodell newspaper item is not treated as evidence of her
+  affiliation. No authenticated Catalog request, credential, raw API response,
+  full private identifier, or unsupported employer claim was used or published.
+- Batch 306 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression and the complete 915 / 915 browser and accessibility matrix across
+  desktop, phone, and tablet, a deterministic 200-profile audit, complete
+  24,396-page internal-link check, SQLite integrity and foreign-key checks,
+  zero-warning Astro diagnostics, and a dependency audit with zero
+  vulnerabilities. The public-identifier audit compared 12,926 normalized
+  identifiers and 120 genuine formatted variants across 24,466 production
+  artifacts, rejected 1,035 harmless candidate substrings, and found no
+  aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 76,883,499 bytes; the manifest SHA-256 is
+  `0becc6184cfade3b29a0de1ead0adef44a3959d76ac4856d94883f71c8adcdfa`.
+  Consecutive public-data builds reproduced digest
+  `9802670c0066151d727c68d54b85f681958b6269ef23b0449350b5f26693f2f0`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `9790d3b35fc8a476a75f9091fe0229f03a8e715bb572ebd689d6cbedc9071cf4`.
 - Batch 305 covers Louis R. Alvey Jr. through Charles D. Ambelang on PDF page
   7 plus Paul Baron on PDF page 24, ten previously unresearched rows in Boxes
   12 and 38. Exact full-name and private-identifier agreement confirms Louis R.
@@ -5177,12 +5209,12 @@ Commissioned classification: 2,212 yes; 5,340 no; 16,388 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `1ed75341f8fe2191285ead51381b9813c824fbdb87268272e3ebbf46e6ded735`.
-- Public-visible affiliations: 1,136 (published, qualified, or conflict-visible)
-- Database claims: 2,289; public-visible claims: 2,251 (665 confirmed, 1,001 high,
-  534 medium, 51 conflicting); 32 low-confidence claims are withheld and six
+- Public-visible affiliations: 1,138 (published, qualified, or conflict-visible)
+- Database claims: 2,293; public-visible claims: 2,255 (667 confirmed, 1,001 high,
+  536 medium, 51 conflicting); 32 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,164 total and 5,082 public-visible; private source
-  records: 3,122; public source export: 2,055; unique source documents: 1,440
+- Claim-source links: 5,172 total and 5,090 public-visible; private source
+  records: 3,128; public source export: 2,058; unique source documents: 1,441
 - Canonical organizations: 459 private and 448 public
 - Conflicting claims: 51 across 42 people with an identity or research-status
   conflict
@@ -5224,6 +5256,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-mary-brock-through-stephen-broder-pathways_batch-306_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-louis-r-alvey-jr-through-charles-d-ambelang-and-paul-baron-pathways_batch-305_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-franz-l-alt-through-frank-r-alvaro-pathways_batch-304_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-collins-d-almon-through-john-t-alstrom-jr-pathways_batch-303_2026-08-19.json

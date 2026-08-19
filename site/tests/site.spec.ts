@@ -24583,3 +24583,47 @@ test("Batch 305 publishes four qualified Army-entry pathways and Ambelang's stud
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 306 publishes two identifier-backed Army-entry statuses and preserves eight Box 81 review paths", async ({
+  page,
+}) => {
+  for (const occupationPerson of [
+    ["d6a14d22-c198-52c6-92fd-f9fc1f0782d0", "Elvin Brockman Jr.", "Students"],
+    [
+      "f4f735dc-6fd2-500d-a2e8-2cdc7d781021",
+      "Harold I Brodbeck",
+      "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+    ],
+  ] as const) {
+    await page.goto(`./people/${occupationPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: occupationPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupationPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["88daa83c-ce41-5fa9-9f8d-a36df582860f", "Mary Brock"],
+    ["7ceaa306-9d3f-584e-9437-3dff6ab0134d", "Mildred L Brockdorff"],
+    ["e89a9564-0a7b-57f6-9b6e-31106877ff60", "Paul Brockett"],
+    ["8b82b0c2-0c66-582d-92ba-341719573dd5", "Muriel P Brockhurst"],
+    ["c2ea757c-4b5e-58c0-8d76-42142524396c", "Eric Brockman"],
+    ["9538fe1d-a5c3-54e5-b92e-bd85b4525776", "William Brockman"],
+    ["6983be42-d1a8-5076-ab6b-b91f9f19ccd0", "Jean M Brodell"],
+    ["13499d0b-d570-522d-9071-4d79f44ce0f3", "Stephen Broder"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
