@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,400 HTML files. Every relative
+**PASS.** The production build contains 24,402 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 452 organization profiles, and the
+The build includes 23,940 person profiles, 454 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,335 unique external URLs for separate live
+The checker inventoried 49,340 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 310 local release check
+
+The complete 24,402-page internal-link pass includes direct routes for John H.
+Beck on page 28, Frederick J. Brunner through Theodore R. Bruskin on page 58,
+and new Fourth Air Force and Washington State College organization pages. The
+74-test Python suite, deterministic 200-profile audit, focused three-viewport
+Batch 310 regression, dependency audit, database integrity checks, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+The complete **927 / 927** browser and accessibility matrix also passed locally
+across desktop, phone, and tablet.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,208,436 bytes and has
+SHA-256
+`91ee270e8e808b19413b1de699c9e1ec8f5566175dff080844e662fa51e44483`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,472 production artifacts, rejected
+1,036 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`06847a8884ad39972fd1b5fce3587ecf6823995f7d6baaf54f441394a4da579e`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`cadcd8aa4b28cae922afd42c2b3ef2647d5f07033a4adbafd14fed3d64b43143`.
+The regression keeps five Army-entry findings, one Marine/OSS identity, one
+qualified military pathway, one student affiliation, and three unresolved
+archival cases in their separate evidentiary lanes.
 
 ## Batch 309 local release check
 

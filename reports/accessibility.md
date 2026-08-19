@@ -4,13 +4,24 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **924 / 924** browser,
+**PASS.** The latest complete release run passed **927 / 927** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 310 adds a focused direct-route regression for John H. Beck on PDF page
+28 and Frederick J. Brunner through Theodore R. Bruskin on page 58. It verifies
+five exact-identifier Army-entry occupation or student findings without
+inventing employers; publishes Frederick Brunner's official Marine/OSS identity
+without inventing a civilian predecessor; separates Arthur Brunstad's qualified
+4th Air Force pathway from his Washington State College student affiliation;
+and preserves three unresolved Box 89 profiles. The focused regression passed
+**3 / 3** across desktop, phone, and tablet after one assertion was aligned with
+the rendered lowercase student-status label; the expanded **927 / 927** browser
+and accessibility matrix passed locally.
 
 Batch 308 adds a focused direct-route regression for Arne W. Brogger through
 Elizabeth D. Brooke on PDF page 53. It verifies Bronfenbrenner's explicit Army

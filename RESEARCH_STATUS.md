@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,880 people with a non-planned attempt | 23,940 active person entities | 12.0301% |
-| Verified-affiliation coverage | 434 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8129% |
+| Research-attempt coverage | 2,890 people with a non-planned attempt | 23,940 active person entities | 12.0718% |
+| Verified-affiliation coverage | 435 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8170% |
 | Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,830 people with an individual file-access/priority assessment | 23,940 active person entities | 11.8212% |
+| Archival-review coverage | 2,840 people with an individual file-access/priority assessment | 23,940 active person entities | 11.8630% |
 
 ## Extraction and identity
 
@@ -23,21 +23,21 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 492
-- Identity status `high_confidence`: 468
+- Identity status `confirmed`: 497
+- Identity status `high_confidence`: 470
 - Identity status `probable`: 97
 - Identity status `ambiguous`: 47
 - Identity status `conflicting`: 40
-- Identity status `unresolved`: 22,796
+- Identity status `unresolved`: 22,789
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,238
-- Enlisted Army personnel: 3,706
+- Unknown or indeterminate: 16,234
+- Enlisted Army personnel: 3,709
 - Commissioned Army officers: 2,096
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
-- Enlisted Marine Corps personnel: 2
+- Enlisted Marine Corps personnel: 3
 - Civilian professional or administrative grades: 1,486
 - Foreign or Allied military personnel: 248
 - Enlisted naval personnel: 64
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,213 yes; 5,350 no; 16,377 indeterminate.
+Commissioned classification: 2,213 yes; 5,354 no; 16,373 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,060
+- `not_started`: 21,050
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 58
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 416
-- `requires_archival_review`: 1,953
-- `completed`: 92
+- `occupation_only_found`: 421
+- `requires_archival_review`: 1,957
+- `completed`: 93
 - `conflicting_sources`: 41
 - `verified_employer_found`: 186
-- Claim confidence: 673 confirmed; 1,007 high; 547 medium; 38 low; 51
+- Claim confidence: 678 confirmed; 1,010 high; 553 medium; 38 low; 51
   conflicting
-- Durable evidence inventory: 3,160 source records representing 1,457 unique
-  documents; 463 organizations; 1,160 affiliations; 2,316 claims; and 5,223
+- Durable evidence inventory: 3,168 source records representing 1,460 unique
+  documents; 465 organizations; 1,167 affiliations; 2,330 claims; and 5,251
   claim-source links
-- Reviewed public projection: 452 organizations; 1,151 published, qualified,
-  or conflict-visible affiliations; 2,278 published, qualified, or
-  conflict-visible claims; and 2,083 public citation records
+- Reviewed public projection: 454 organizations; 1,158 published, qualified,
+  or conflict-visible affiliations; 2,292 published, qualified, or
+  conflict-visible claims; and 2,091 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,213 yes; 5,350 no; 16,377 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,667. The detailed adapter breakdown remains reproducible in
+  2,677. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,169 across 1,135 people; 127 additional
+- Saved `source_reviewed` outcomes: 1,179 across 1,145 people; 127 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,082
+- Total recorded attempts/plans: 4,092
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,074; 1,046 have at least one public-visible
+- People with saved reviewed claims: 1,081; 1,053 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5177,6 +5177,40 @@ Commissioned classification: 2,213 yes; 5,350 no; 16,377 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `e9ae50d29dd497bda83e5685f967178e2f28b633290b866ebde74c3de87eb95c`.
+- Batch 310 covers John H. Beck on PDF page 28 in Box 45 and Frederick J.
+  Brunner through Theodore R. Bruskin on PDF page 58 in Box 89, excluding the
+  already researched Edward L. Brunner row. Exact private-identifier agreement
+  confirms Beck, Arthur Bruno, Guy D. Bruno, Leonard C. Bruno, and Louis F.
+  Bruno. Their dated Army-entry records support only a general-office clerk
+  occupation, a grouped barber/beautician/manicurist category, student status
+  without a named institution, civil engineering, and a residual trades-and-
+  services category. None is presented as a named employer or proven OSS
+  predecessor. Current NARA and official Marine Corps sources support Frederick
+  J. Brunner as a high-confidence enlisted Marine and OSS identity, while
+  supplying no pre-Marine civilian employer. Washington State University's
+  institutional memorial supports Arthur Brunstad's earlier student affiliation
+  and a qualified 4th Air Force-to-OSS Burma sequence; education remains
+  separate from employment, and undated later employers are not promoted as
+  pre-OSS. Edwin F. Brush, Gilmer G. Brush, and Lieutenant Colonel Theodore R.
+  Bruskin remain unresolved and route to Box 89 review. No authenticated
+  Catalog request, credential, raw API response, full private identifier, full
+  copyrighted page, or unsupported employer claim was used or published.
+- Batch 310 local release QA passed all 74 Python tests plus five subtests, a
+  focused 3 / 3 browser regression and the complete 927 / 927 browser and
+  accessibility matrix across desktop, phone, and tablet, a deterministic
+  200-profile audit, complete 24,402-page internal-link check, SQLite integrity
+  and foreign-key checks, zero-warning Astro diagnostics, and a dependency
+  audit with zero vulnerabilities. The public-identifier audit compared 12,926
+  normalized identifiers and 120 genuine formatted variants across 24,472
+  production artifacts, rejected 1,036 harmless candidate substrings, and found
+  no aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 77,208,436 bytes; the manifest SHA-256 is
+  `91ee270e8e808b19413b1de699c9e1ec8f5566175dff080844e662fa51e44483`.
+  Consecutive public-data builds reproduced digest
+  `06847a8884ad39972fd1b5fce3587ecf6823995f7d6baaf54f441394a4da579e`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `cadcd8aa4b28cae922afd42c2b3ef2647d5f07033a4adbafd14fed3d64b43143`.
 - Batch 309 covers Richard M. Brooker through Harry P. Brooks on PDF page 53
   in Box 82 plus Edward L. Brunner on PDF page 58 in Box 89. Exact private-
   identifier agreement confirms Edgar N. Brooks; his dated Army-entry
@@ -5365,6 +5399,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-eight-and-fifty-eight-beck-brunner-through-bruskin-pathways_batch-310_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-and-fifty-eight-brooker-through-brunner-pathways_batch-309_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-arne-brogger-through-elizabeth-brooke-pathways_batch-308_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-lawrence-broderick-through-william-brogan-pathways_batch-307_2026-08-19.json

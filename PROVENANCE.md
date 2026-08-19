@@ -3210,6 +3210,48 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-twenty-eight and page-fifty-eight Beck, Brunner-through-Bruskin pathways, Batch 310
+
+`research/evidence-pages-twenty-eight-and-fifty-eight-beck-brunner-through-bruskin-pathways_batch-310_2026-08-19.json`
+records John H. Beck on PDF page 28 in Box 45 and nine previously unresearched
+people from Frederick J. Brunner through Theodore R. Bruskin on PDF page 58 in
+Box 89, skipping the Edward L. Brunner row completed in Batch 309. Both index
+pages and all five relevant Army occupation-code pages were rendered and
+visually checked. The official Army merged file was searched by private
+identifier outside version control; no raw row or full identifier was retained.
+
+The strict evidence bundle contains eight sources, two organizations, seven
+affiliations, fourteen claims, twenty-eight claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier agreement
+confirms John H. Beck, Arthur Bruno, Guy D. Bruno, Leonard C. Bruno, and Louis
+F. Bruno. Their Army-entry records support, respectively, a general-office
+clerk occupation, a grouped barber/beautician/manicurist category, student
+status without a named institution, civil engineering, and a residual trades-
+and-services category. Each finding is date-bounded and qualified; none is
+converted into a named employer or a proven Army-to-OSS sequence.
+
+The current NARA Persons of Exceptional Prominence list independently records
+Frederick J. Brunner in the Marine Corps. The official Marine Corps history
+*A Different War* expressly identifies Platoon Sergeant Frederick J. Brunner
+among Marines serving with OSS in Europe. Those official sources support a
+high-confidence enlisted Marine identity, but not a pre-Marine civilian
+employer or OSS recruitment date.
+
+Washington State University's institutional memorial gives Arthur Brunstad's
+distinctive exact name, 1931 and 1933 chemistry degrees, a chemical-officer
+assignment in the 4th Air Force, and later OSS service in Burma. The student
+affiliation is kept separate from employment. The 4th Air Force assignment is
+published as a qualified probable-immediate military pathway because the
+sequence is explicit but the source does not exclude an intervening assignment.
+Later employer names in the memorial are not treated as pre-OSS without dates.
+
+Edwin F. Brush, Gilmer G. Brush, and Lieutenant Colonel Theodore R. Bruskin
+remain unresolved and route to Box 89 review. The Bruskin rank remains a
+commissioned-officer classification from the index, not a resolved biography.
+No authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Page-fifty-three and page-fifty-eight Brooker-through-Brunner pathways, Batch 309
 
 `research/evidence-page-fifty-three-and-fifty-eight-brooker-through-brunner-pathways_batch-309_2026-08-19.json`
