@@ -12,8 +12,37 @@ The build includes 23,940 person profiles, 440 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,286 unique external URLs for separate live
+The checker inventoried 49,288 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 297 local release check
+
+The complete 24,388-page internal-link pass includes direct routes for Harrison
+A. Browne through Russell V. Brownell Jr. on PDF page 57. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport Batch 297
+regression, 27-case core-route axe scan, dependency audit, database integrity
+checks, and complete public-identifier audit pass; Astro reports zero errors,
+warnings, or hints. The expanded 888-case browser and accessibility matrix runs
+in release CI.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,291,680 bytes and has
+SHA-256
+`8358f5bf63c793949fe04b5eeaf03803320beb5905d7bfe17db898b4396f3e39`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,458 production artifacts, rejected
+1,030 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`b93c8f48bd6468fb8e84e8a8797fd7a351a1f0f5f9bfdf2398e1bd59315b3175`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`f7b1b02d1a79348bf4f4b2af8ad055894d6a1a9be1cdec5bbeaaa512b5e6fff1`.
+The regression publishes two qualified Army-entry occupations without naming
+employers, preserves two additional qualified OSS identity findings without
+turning them into pre-OSS affiliations, and keeps six unresolved profiles on
+the archival-review path.
 
 ## Batch 296 local release check
 

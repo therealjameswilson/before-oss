@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T00:15:49+00:00",
+  "generated_at": "2026-08-19T00:49:53+00:00",
   "source_rows": 23978,
   "person_entities": 23940,
   "stored_person_entities": 23941,
@@ -7,16 +7,16 @@
   "source_rows_linked": 23978,
   "identity_status_counts": {
     "ambiguous": 45,
-    "confirmed": 458,
+    "confirmed": 460,
     "conflicting": 37,
-    "high_confidence": 455,
+    "high_confidence": 457,
     "probable": 90,
-    "unresolved": 22855
+    "unresolved": 22851
   },
   "link_status_counts": {
-    "confirmed": 460,
-    "high_confidence": 491,
-    "unresolved": 23027
+    "confirmed": 462,
+    "high_confidence": 493,
+    "unresolved": 23023
   },
   "automatic_same_name_same_service_number_groups": 36,
   "possible_duplicate_groups": 220,
