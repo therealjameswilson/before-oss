@@ -4777,16 +4777,55 @@ Commissioned classification: 2,208 yes; 5,318 no; 16,414 indeterminate.
   and consecutive production builds reproduced complete static-tree digest
   `5ee03cd355699777fb309abb411ba937a3df8daefa5f24310305fdf3e5c06c23`.
   The expanded 879-case browser matrix runs in release CI.
-- Public-visible affiliations: 1,098 (published, qualified, or conflict-visible)
-- Database claims: 2,204; public-visible claims: 2,168 (636 confirmed, 984 high,
-  501 medium, 47 conflicting); 30 low-confidence claims are withheld and six
+- Batch 295 covers Robert R. Brown through Walter E. Brown, the next ten rows
+  on PDF page 56, spanning Boxes 86-87. Robert E. Brown's exact name and private
+  identifier match the official Army merged file, confirming his enlisted Army
+  identity. His December 1, 1942 entry record supports only the qualified
+  residual category “foreman, not elsewhere classified”; it does not identify
+  an industry, employer, worksite, department, exact supervisory duties, or the
+  later Army-to-OSS sequence. Sevellon Brown's exact private identifier and
+  distinctive name confirm the Army entrant represented by the indexed row. A
+  Congressional Record obituary supplies the explicit chronology: Washington
+  bureau chief for the Journal-Bulletin from 1942 to 1944, followed by wartime
+  service as an OSS enlisted man and second lieutenant in London. The project
+  therefore publishes Providence Journal-Bulletin as both his immediate pre-OSS
+  affiliation and last civilian employer, while preserving the Army-entry rank
+  and the documented later commissioned status as separate evidence. Robert R.
+  Brown's same-name corporal and Dawes Team radio-operator candidate remains
+  unassigned because no public source connects that subject to the indexed
+  private identifier or Box 86. Ruth E., Thomas G., Thomas K., Virgina H., W.
+  N., Walter D., and Walter E. Brown remain unresolved archival-review cases.
+  “Virginia” was used only as a marked search alias for the printed “Virgina”
+  spelling. Exact CIA Reading Room, institutional, newspaper, obituary,
+  directory, and OSS Operational Groups checks produced no additional
+  defensible identity linkage. No authenticated Catalog request, credential,
+  raw API response, full private identifier, or unsupported employer claim was
+  used or published.
+- Batch 295 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression across desktop, phone, and tablet, deterministic 200-profile
+  audit, complete 24,388-page internal-link check, SQLite integrity and
+  foreign-key checks, zero-warning Astro diagnostics, and a dependency audit
+  with zero vulnerabilities. The public-identifier audit compared 12,926
+  normalized identifiers and 120 genuine formatted variants across 24,458
+  production artifacts, rejected 1,030 harmless candidate substrings, and
+  found no aggregate, manifest-size, or unexpected boundary matches. All 65
+  manifest assets match across 76,197,406 bytes; the manifest SHA-256 is
+  `3c95a34f33dbea62683049589bc9f135f9b885ca66dc71bbe2c51ff49646b748`.
+  Consecutive public-data builds reproduced digest
+  `0b6801e5bf800a7b7b5769a7077f24b454fd498bd50dc92e2c9811324d9c2b4e`,
+  and consecutive production builds reproduced complete static-tree digest
+  `cd622ef2afe81ecc5ed81cf62c236710ebbc9832acb93e9fea328ec7a84ba98c`.
+  The expanded 882-case browser matrix runs in release CI.
+- Public-visible affiliations: 1,100 (published, qualified, or conflict-visible)
+- Database claims: 2,209; public-visible claims: 2,173 (638 confirmed, 986 high,
+  502 medium, 47 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 4,964 total and 4,887 public-visible; private source
-  records: 3,025; public source export: 1,986; unique source documents: 1,397
-- Canonical organizations: 450 private and 439 public
+- Claim-source links: 4,976 total and 4,899 public-visible; private source
+  records: 3,033; public source export: 1,991; unique source documents: 1,402
+- Canonical organizations: 451 private and 440 public
 - Conflicting claims: 47 across 39 people with an identity or research-status
   conflict
-- NARA pull-list rows: 23,795
+- NARA pull-list rows: 23,794
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -4824,6 +4863,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-six-robert-r-brown-through-walter-e-brown-pathways_batch-295_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-five-george-brown-through-horace-brown-pathways_batch-289_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-five-earl-brown-through-frederic-brown-pathways_batch-288_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-fifty-four-fifty-five-charles-brown-through-dorothy-brown-pathways_batch-287_2026-08-18.json

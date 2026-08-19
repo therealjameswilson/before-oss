@@ -182,9 +182,19 @@ def organization_linked_people(
                     "claims": [],
                 },
             )
-            linked_person["affiliations"].append(dict(affiliation))
+            affiliation_id = affiliation["affiliation_id"]
+            if not any(
+                item["affiliation_id"] == affiliation_id
+                for item in linked_person["affiliations"]
+            ):
+                linked_person["affiliations"].append(dict(affiliation))
+            existing_claim_ids = {
+                item["claim_id"] for item in linked_person["claims"]
+            }
             linked_person["claims"].extend(
-                claims_by_affiliation.get(affiliation["affiliation_id"], [])
+                claim
+                for claim in claims_by_affiliation.get(affiliation_id, [])
+                if claim["claim_id"] not in existing_claim_ids
             )
 
     result: dict[str, list[dict[str, object]]] = {}

@@ -12,6 +12,19 @@ Sources table, and found no serious or critical accessibility violation.
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
 
+Batch 295 adds a focused direct-route regression for Robert R. Brown through
+Walter E. Brown on PDF page 56. It verifies Robert E. Brown's exact-identifier
+Army identity and qualified residual foreman category without inventing an
+employer; publishes Sevellon Brown's explicitly dated Providence
+Journal-Bulletin bureau-chief pathway as both immediate affiliation and last
+civilian employer; confirms that the organization page lists him once while
+preserving both distinct claims; keeps a same-name Dawes Team candidate
+unassigned; and preserves eight unresolved archival-review profiles. The
+focused regression passed **3 / 3** across desktop, phone, and tablet after the
+test fixture was corrected to use the stable person IDs. The preceding complete
+**873 / 873** matrix passed without retry; the expanded **882-case** matrix runs
+in release CI.
+
 Batch 294 adds a focused direct-route regression for Omar D. Brown through
 Robert S. Brown on PDF page 56. It verifies Philip S. Brown's exact-identifier
 Army identity and qualified residual professional-occupation category without

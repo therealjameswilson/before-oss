@@ -5,8 +5,8 @@ Run: 2026-08-18 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,387 pages**
-- Internal link check: **24,387 HTML files passed**
+- Static production build: **24,388 pages**
+- Internal link check: **24,388 HTML files passed**
 - Complete browser and accessibility matrix: **873 / 873 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
@@ -17,6 +17,9 @@ Run: 2026-08-18 UTC
   conflicting-profile assertion was aligned with the site's established
   publication-threshold wording; the expanded **879-case** matrix runs in
   release CI
+- Focused Batch 295 browser regression: **3 / 3 passed** after the fixture was
+  corrected to use the stable person IDs; the expanded **882-case** matrix runs
+  in release CI
 - Focused Batches 273-275 browser regression: **3 / 3 passed**
 - Core-route accessibility scans for Batches 273-275: **27 / 27 passed**
   across desktop, phone, and tablet, with no serious or critical axe violation
@@ -82,36 +85,47 @@ Run: 2026-08-18 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`5ee03cd355699777fb309abb411ba937a3df8daefa5f24310305fdf3e5c06c23`)
-- Latest deterministic public-data build (Batch 294): **byte-for-byte
+  (`cd622ef2afe81ecc5ed81cf62c236710ebbc9832acb93e9fea328ec7a84ba98c`)
+- Latest deterministic public-data build (Batch 295): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`15b9423fbd8a6a32292165411829c4eba1532fd9249aa1a696e224c3ae55b7ce`).
+  (`0b6801e5bf800a7b7b5769a7077f24b454fd498bd50dc92e2c9811324d9c2b4e`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,500,054 bytes** in the public tree;
+  across **76,197,406 bytes** in the public tree;
   manifest SHA-256
-  `4653afd477431e5ac84bfff75fcfae01bf9ca16f5ae727fb1d2ff0737575a5e5`
+  `3c95a34f33dbea62683049589bc9f135f9b885ca66dc71bbe2c51ff49646b748`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,457** production artifacts, including compressed mirrors;
-  **1,028** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,458** production artifacts, including compressed mirrors;
+  **1,030** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,986** public records representing **1,397** unique documents
-- Private citation records: **3,025**
-- Published, qualified, or conflict-visible affiliations: **1,098**
-- Published or conflict-visible claims: **2,168**
-- Verified-affiliation metric: **427** people with confirmed/high published
+- Reviewed public sources: **1,991** public records representing **1,402** unique documents
+- Private citation records: **3,033**
+- Published, qualified, or conflict-visible affiliations: **1,100**
+- Published or conflict-visible claims: **2,173**
+- Verified-affiliation metric: **428** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **185** people with confirmed/high published
+- Verified-employer metric: **186** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 295 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete 24,388-route link check,
+  deterministic rebuild, manifest audit, dependency audit, 200-profile audit,
+  database integrity checks, and public-identifier audit all pass. Robert E.
+  Brown has an exact-identifier Army identity and qualified residual foreman
+  category without an invented employer. Sevellon Brown has an explicit,
+  cited Providence Journal-Bulletin-to-OSS pathway; the organization projection
+  lists him once while retaining both the immediate-affiliation and last-
+  civilian-employer claims. Eight profiles require archival review, and the
+  unlinked Dawes Team namesake remains unassigned. The expanded 882-case
+  browser matrix runs in release CI.
 - Batch 294 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete 24,387-route link check,
   deterministic rebuild, manifest audit, dependency audit, 200-profile audit,
