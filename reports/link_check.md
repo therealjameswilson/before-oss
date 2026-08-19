@@ -4,16 +4,47 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,396 HTML files. Every relative
+**PASS.** The production build contains 24,397 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 448 organization profiles, and the
+The build includes 23,940 person profiles, 449 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,316 unique external URLs for separate live
+The checker inventoried 49,320 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 307 local release check
+
+The complete 24,397-page internal-link pass includes direct routes for Lawrence
+P. Broderick through William Brogan on PDF page 53, the new Grumman Aircraft
+Engineering Corporation organization page, and William J. Broere's existing
+United States Army Air Forces organization route. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 307 regression,
+complete 918-case browser and accessibility matrix, dependency audit, database
+integrity checks, and complete public-identifier audit pass; Astro reports zero
+errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,957,045 bytes and has
+SHA-256
+`a106b55392ff179602c84176d5c2d48e2b795c1ca8626b46e08572f0bfbac026`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,467 production artifacts, rejected
+1,041 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`eb1f2cb535aa73dd30fb3ced64f1cc5cb5ba1eccc54533c7e5db0c2aa6b0f4ff`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`1320e46a28fb09599a61a94a685ba21b79917a276b5f0acc071faa4a15eb4090`.
+The regression publishes one student status, one broad occupation, and one
+named last civilian employer; models the intervening military pathway
+separately; keeps two probable identities visibly qualified; and routes five
+unresolved profiles to archival review without promoting unsupported
+namesakes.
 
 ## Batch 306 local release check
 
