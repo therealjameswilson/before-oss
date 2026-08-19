@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-18 UTC
+Run: 2026-08-19 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,35 @@ The build includes 23,940 person profiles, 440 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,284 unique external URLs for separate live
+The checker inventoried 49,286 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 296 local release check
+
+The complete 24,388-page internal-link pass includes direct routes for Warren
+I. Brown through Harris A. Browne across PDF pages 56-57. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport Batch 296
+regression, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints. The
+expanded 885-case browser and accessibility matrix runs in release CI.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,239,019 bytes and has
+SHA-256
+`b2cebd92377feff5b3e9672b528574dc75d83df4fc1ad760367e6f63f72459c1`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,458 production artifacts, rejected
+1,029 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`ddfaa7b5dc556718a198f996d4986d63a9ed3bd9391bc50e2152021a0f53f185`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`e46dfcbc7db7d1f04994a058dda2ef6bbea4ff89fa1719960ce5cfb06f29c801`.
+The regression publishes one qualified occupation without naming an employer,
+preserves one direct identifier conflict, confirms one enlisted identity, and
+keeps seven unresolved profiles on the archival-review path.
 
 ## Batch 295 local release check
 

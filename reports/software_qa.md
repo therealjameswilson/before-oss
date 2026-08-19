@@ -1,15 +1,18 @@
 # Software QA
 
-Run: 2026-08-18 UTC
+Run: 2026-08-19 UTC
 
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,388 pages**
 - Internal link check: **24,388 HTML files passed**
-- Complete browser and accessibility matrix: **873 / 873 passed** in the
+- Latest complete browser and accessibility matrix: **882 / 882 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 296 browser regression: **3 / 3 passed** after one wording
+  assertion was aligned with the profile's actual public conflict note; the
+  expanded **885-case** matrix runs in release CI
 - Focused Batch 293 browser regression: **3 / 3 passed** after one
   over-specific organization-link test assertion was narrowed to the page's
   actual public contract; the expanded **876-case** matrix runs in release CI
@@ -18,8 +21,8 @@ Run: 2026-08-18 UTC
   publication-threshold wording; the expanded **879-case** matrix runs in
   release CI
 - Focused Batch 295 browser regression: **3 / 3 passed** after the fixture was
-  corrected to use the stable person IDs; the expanded **882-case** matrix runs
-  in release CI
+  corrected to use the stable person IDs; the expanded **882 / 882** matrix
+  passed in release CI
 - Focused Batches 273-275 browser regression: **3 / 3 passed**
 - Core-route accessibility scans for Batches 273-275: **27 / 27 passed**
   across desktop, phone, and tablet, with no serious or critical axe violation
@@ -85,36 +88,46 @@ Run: 2026-08-18 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`cd622ef2afe81ecc5ed81cf62c236710ebbc9832acb93e9fea328ec7a84ba98c`)
-- Latest deterministic public-data build (Batch 295): **byte-for-byte
+  (`e46dfcbc7db7d1f04994a058dda2ef6bbea4ff89fa1719960ce5cfb06f29c801`)
+- Latest deterministic public-data build (Batch 296): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`0b6801e5bf800a7b7b5769a7077f24b454fd498bd50dc92e2c9811324d9c2b4e`).
+  (`ddfaa7b5dc556718a198f996d4986d63a9ed3bd9391bc50e2152021a0f53f185`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,197,406 bytes** in the public tree;
+  across **76,239,019 bytes** in the public tree;
   manifest SHA-256
-  `3c95a34f33dbea62683049589bc9f135f9b885ca66dc71bbe2c51ff49646b748`
+  `b2cebd92377feff5b3e9672b528574dc75d83df4fc1ad760367e6f63f72459c1`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,458** production artifacts, including compressed mirrors;
-  **1,030** candidate substrings were reviewed. No aggregate or manifest-size
+  **1,029** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **1,991** public records representing **1,402** unique documents
-- Private citation records: **3,033**
-- Published, qualified, or conflict-visible affiliations: **1,100**
-- Published or conflict-visible claims: **2,173**
+- Reviewed public sources: **1,996** public records representing **1,404** unique documents
+- Private citation records: **3,039**
+- Published, qualified, or conflict-visible affiliations: **1,101**
+- Published or conflict-visible claims: **2,177**
 - Verified-affiliation metric: **428** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **186** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 296 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete 24,388-route link check,
+  deterministic rebuild, manifest audit, dependency audit, 200-profile audit,
+  database integrity checks, and public-identifier audit all pass. Warren G.
+  Brown has an exact-identifier enlisted Army identity without an inferred
+  occupation; Willis K. Brown's direct name conflict remains visible; Gordon
+  H. Browne receives only a qualified prewar occupation without an invented
+  company or immediate chronology; and seven unresolved profiles remain on
+  the archival-review path. The expanded 885-case browser matrix runs in
+  release CI.
 - Batch 295 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete 24,388-route link check,
   deterministic rebuild, manifest audit, dependency audit, 200-profile audit,
