@@ -3210,6 +3210,41 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-eight Bryant-through-Buchanan pathways, Batch 312
+
+`research/evidence-page-fifty-eight-bryant-through-buchanan-pathways_batch-312_2026-08-19.json`
+records ten contiguous previously unresearched people from William V. Bryant
+through Thomas A. Buchanan on PDF page 58 in Boxes 89-90. The index page and
+the relevant official Army occupation-code pages were rendered and visually
+checked. The official Army merged file was searched by private identifier
+outside version control; no raw row or full identifier was retained.
+
+The strict evidence bundle contains seven sources, no organizations, three
+affiliations, six claims, fifteen claim-source links, ten person updates, and
+ten durable research attempts. Exact private-identifier and name agreement
+confirms John S. Buc Jr. and Jack C. Buchanan. Buc's March 8, 1943 Army-entry
+record maps only to the residual textile-products fabrication group. Buchanan's
+June 19, 1943 record maps to student status without naming an institution.
+Both findings are date-bounded and qualified; neither supplies a named
+employer, exact workplace, immediate OSS predecessor, or Army-to-OSS sequence.
+
+Washington and Lee University's institutional finding aid identifies Daniel
+Crump Buchanan as a Presbyterian minister, missionary, and teacher in Japan who
+worked at the OSS Japanese desk during World War II. The Republic of Korea's
+National Institute of Korean History independently lists Daniel C. Buchanan in
+1944-1945 OSS and FESI correspondence, corroborating the middle initial and
+wartime context. The identity and documented prewar professional affiliation
+are published with high confidence, but no mission board, church, school, or
+college is inferred as an employer and the affiliation is not labeled immediate
+or last civilian.
+
+William V. Bryant, Virginia L. Brydon, Roscoe N. Bryson, Albert A. Buccina,
+Joseph Buccola Jr., Henry C. Buchan Jr., and Thomas A. Buchanan remain
+unresolved and route to Box 89 or 90 review. Buccina's unusual nine-digit value
+is preserved exactly as printed rather than silently corrected. No authenticated
+Catalog request, credential, raw API response, full private identifier, full
+copyrighted page, or unsupported employer claim was stored or published.
+
 ## Page-fifty-eight Brussel-through-William-C.-Bryant pathways, Batch 311
 
 `research/evidence-page-fifty-eight-brussel-through-william-c-bryant-pathways_batch-311_2026-08-19.json`

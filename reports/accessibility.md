@@ -4,13 +4,22 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **930 / 930** browser,
+**PASS.** The latest complete release run passed **933 / 933** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 312 adds a focused direct-route regression for William V. Bryant through
+Thomas A. Buchanan on PDF page 58. It verifies two exact-identifier Army
+matches while keeping a broad textile occupation and unnamed student status
+out of employer analytics; publishes Daniel Crump Buchanan's documented prewar
+missionary and teaching work without inventing a named institution or immediate
+OSS predecessor; and preserves seven unresolved Box 89-90 profiles. The
+focused regression passed **3 / 3** across desktop, phone, and tablet, and the
+expanded **933 / 933** browser and accessibility matrix passed locally.
 
 Batch 311 adds a focused direct-route regression for Willy J. Brussel through
 William C. Bryant on PDF page 58. It verifies Andrew Brutz's exact-identifier
