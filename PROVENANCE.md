@@ -3210,6 +3210,44 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-three and page-fifty-eight Brooker-through-Brunner pathways, Batch 309
+
+`research/evidence-page-fifty-three-and-fifty-eight-brooker-through-brunner-pathways_batch-309_2026-08-19.json`
+records nine contiguous previously unresearched people from Richard M. Brooker
+through Harry P. Brooks on PDF page 53 in Box 82, plus Edward L. Brunner on PDF
+page 58 in Box 89. Both index pages, the Army technical-documentation pages,
+the official occupation-code page, and the CIA correspondence page were
+rendered and visually checked. The official Army merged file was searched by
+private identifier outside version control; no raw row or full identifier was
+retained.
+
+The strict evidence bundle contains nine sources, one organization, two
+affiliations, four claims, eleven claim-source links, ten person updates, and
+ten durable research attempts. Exact private-identifier and full-name agreement
+confirms Edgar N. Brooks. His Army-entry record dates entry to July 17, 1943 and
+carries civilian occupation code 513; the official code list maps that value
+only to a broad residual miscellaneous-products manufacturing group. The site
+therefore publishes an occupation with medium confidence, not an employer,
+exact trade, product, plant, or proven Army-to-OSS sequence.
+
+A 1986 letter from Director of Central Intelligence William J. Casey expressly
+identifies Ernest Brooks, Jr. as an OSS member who served in London. Two
+contemporary judicial opinions independently list Ernest Brooks, Jr. with
+Breed, Abbott & Morgan in 1937 and 1938. The exact name and suffix support a
+high-confidence OSS identity, while the law-firm affiliation remains a
+medium-confidence documented-prewar finding: it is not labeled as the immediate
+pre-OSS affiliation or the last civilian employer before service. The
+discovery-only biographical entry is retained solely as a contextual bridge and
+does not independently support a published claim.
+
+Richard M. Brooker, Earline D. Brooks, Elmer O. Brooks, Everett S. Brooks,
+Frank Brooks, Harold L. Brooks, Harry P. Brooks, and Edward L. Brunner remain
+unresolved and route to Box 82 or Box 89 review. Exact-name Army, directory,
+obituary, newspaper, CIA, and institutional candidates without sufficient
+identifier or personnel-file linkage were rejected. No authenticated Catalog
+request, credential, raw API response, full private identifier, full
+copyrighted page, or unsupported employer claim was stored or published.
+
 ## Page-fifty-three Brogger-through-Brooke pathways, Batch 308
 
 `research/evidence-page-fifty-three-arne-brogger-through-elizabeth-brooke-pathways_batch-308_2026-08-19.json`

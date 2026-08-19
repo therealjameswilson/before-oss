@@ -4,16 +4,46 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,399 HTML files. Every relative
+**PASS.** The production build contains 24,400 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 451 organization profiles, and the
+The build includes 23,940 person profiles, 452 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,330 unique external URLs for separate live
+The checker inventoried 49,335 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 309 local release check
+
+The complete 24,400-page internal-link pass includes direct routes for Richard
+M. Brooker through Harry P. Brooks on PDF page 53, Edward L. Brunner on page
+58, and the new Breed, Abbott & Morgan organization page. The 74-test Python
+suite, deterministic 200-profile audit, focused three-viewport Batch 309
+regression, dependency audit, database integrity checks, and complete public-
+identifier audit pass; Astro reports zero errors, warnings, or hints.
+The complete **924 / 924** browser and accessibility matrix also passed
+locally across desktop, phone, and tablet.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,114,814 bytes and has
+SHA-256
+`683db9c3cac0af39ff3f94e35be30a8729b826261502fea466f2f75ea70a5aa8`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,470 production artifacts, rejected
+1,035 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`ba05f3c2b9de263e46a7e6ea0abd4a755e84a44291374aea6cc996d194e75985`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`5361f20293e688f60fb1a7424633f05f5265e0bb6cd22faa7123bdd90b019be6`.
+The regression publishes one broad Army-entry occupation and one qualified
+documented-prewar law-firm affiliation, converts neither into an unsupported
+immediate or last civilian employer, and routes eight unresolved profiles to
+archival review.
 
 ## Batch 308 local release check
 
