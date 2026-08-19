@@ -4,13 +4,22 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **894 / 894** browser,
+**PASS.** The latest complete release run passed **900 / 900** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 301 adds a focused direct-route regression for Eleanor Brummer through
+Carl Brunner across PDF pages 57-58. It verifies four exact-identifier Army
+identities and their qualified occupation-only evidence, preserves Rene
+Brunet's and Nerio Brunetti's qualified foreign-service identities without
+inventing pre-OSS employers, withholds Francis B. Brun's name-only Army
+candidate, and keeps three unresolved profiles on the archival-review path.
+The focused regression passed **3 / 3** across desktop, phone, and tablet, and
+the expanded **900 / 900** browser and accessibility matrix passed locally.
 
 Batch 300 adds a focused direct-route regression for Morton L. Bruder through
 Gordon O. Brummel on PDF page 57. It verifies two exact-identifier Army
@@ -20,7 +29,9 @@ identity, Vernon W. Brugger's visible identifier conflict, and five unresolved,
 ambiguous, or probable archival-review profiles. The focused regression passed
 **3 / 3** across desktop, phone, and tablet. A fresh core-route axe matrix
 passed **27 / 27** with no serious or critical violation. The expanded
-**897-case** browser and accessibility matrix runs in Batch 300 release CI.
+**897 / 897** browser and accessibility matrix passed in Batch 300 release
+workflow
+[32221728588](https://github.com/therealjameswilson/before-oss/actions/runs/32221728588).
 
 Batch 299 adds a focused direct-route regression for Evangeline H. Bruce
 through John W. Bruckman on PDF page 57. It verifies six exact-identifier Army

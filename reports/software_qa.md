@@ -7,12 +7,15 @@ Run: 2026-08-19 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,391 pages**
 - Internal link check: **24,391 HTML files passed**
-- Latest complete browser and accessibility matrix: **894 / 894 passed** in the
+- Latest complete browser and accessibility matrix: **900 / 900 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 301 browser regression: **3 / 3 passed**; the expanded
+  **900 / 900** browser and accessibility matrix also passed locally.
 - Focused Batch 300 browser regression: **3 / 3 passed**; a fresh core-route axe
-  matrix passed **27 / 27** across desktop, phone, and tablet, and the expanded
-  **897-case** matrix runs in release CI.
+  matrix passed **27 / 27** across desktop, phone, and tablet. The expanded
+  **897 / 897** matrix passed in release workflow
+  [32221728588](https://github.com/therealjameswilson/before-oss/actions/runs/32221728588).
 - Focused Batch 299 browser regression: **3 / 3 passed**; a fresh core-route axe
   matrix passed **27 / 27** across desktop, phone, and tablet, and the expanded
   **894 / 894** matrix passed in release workflow
@@ -102,16 +105,16 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`8a58d37222aca636cb12457a1a279b84e2064d48c33e8a02da9bf36ac28820f0`)
-- Latest deterministic public-data build (Batch 300): **byte-for-byte
+  (`a0fabbe1b4f71b8a40e370fc1778deed7dbf98401393df0091f2289523603042`)
+- Latest deterministic public-data build (Batch 301): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`2680d9daf7ef403573468132ad91199dbdbd27e9fb208156ea6fbf8207da7a76`).
+  (`45917e34921e4084976be9d50ddeb1ff354cd2856a8e15cd80b313aa443c37b1`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,544,422 bytes** in the public tree;
+  across **76,618,340 bytes** in the public tree;
   manifest SHA-256
-  `ee79df11c79459356508726e24765b3347058e06cc28d533a50cab11152ffd8c`.
+  `2191687d20c6a71b040af15f6d0c893bd00ecd93a14b73cfe1a128cd93ccf5e0`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -123,15 +126,25 @@ Run: 2026-08-19 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,025** public records representing **1,424** unique documents
-- Private citation records: **3,081**
-- Published, qualified, or conflict-visible affiliations: **1,119**
-- Published or conflict-visible claims: **2,215**
+- Reviewed public sources: **2,032** public records representing **1,428** unique documents
+- Private citation records: **3,090**
+- Published, qualified, or conflict-visible affiliations: **1,123**
+- Published or conflict-visible claims: **2,225**
 - Verified-affiliation metric: **430** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **187** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 301 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **900 / 900** browser and
+  accessibility matrix, the 24,391-route link check, deterministic rebuild,
+  manifest audit, dependency audit, 200-profile audit, database integrity
+  checks, and public-identifier audit all pass. Andrew S. Brunasky, Benjamin W.
+  Brunaugh, Herve J. Brunelle, and Amos Brunner Jr. have exact-identifier Army
+  identities and qualified occupations; Rene Brunet and Nerio Brunetti retain
+  qualified foreign-service identities without unsupported pre-OSS employers;
+  Francis B. Brun's name-only Army candidate is withheld; and three profiles
+  remain unresolved archival-review cases.
 - Batch 300 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,391-route link check, deterministic rebuild, manifest audit, dependency
@@ -141,7 +154,9 @@ Run: 2026-08-19 UTC
   State College employment pathway is published; Victor J. Brudnicki's OSS
   identity is high-confidence; Vernon W. Brugger's identifier conflict remains
   visible; and five profiles remain unresolved, ambiguous, or probable archival-
-  review cases. The expanded **897-case** browser matrix runs in release CI.
+  review cases. The expanded **897 / 897** browser matrix passed in release
+  workflow
+  [32221728588](https://github.com/therealjameswilson/before-oss/actions/runs/32221728588).
 - Batch 299 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,390-route link check, deterministic rebuild, manifest audit, dependency
