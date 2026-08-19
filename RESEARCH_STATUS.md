@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,830 people with a non-planned attempt | 23,940 active person entities | 11.8212% |
-| Verified-affiliation coverage | 431 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8003% |
+| Research-attempt coverage | 2,840 people with a non-planned attempt | 23,940 active person entities | 11.8630% |
+| Verified-affiliation coverage | 432 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8045% |
 | Verified-employer coverage | 188 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7853% |
-| Archival-review coverage | 2,780 people with an individual file-access/priority assessment | 23,940 active person entities | 11.6124% |
+| Archival-review coverage | 2,790 people with an individual file-access/priority assessment | 23,940 active person entities | 11.6541% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 480
-- Identity status `high_confidence`: 464
+- Identity status `confirmed`: 484
+- Identity status `high_confidence`: 465
 - Identity status `probable`: 93
 - Identity status `ambiguous`: 47
 - Identity status `conflicting`: 40
-- Identity status `unresolved`: 22,816
+- Identity status `unresolved`: 22,811
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,250
-- Enlisted Army personnel: 3,697
+- Unknown or indeterminate: 16,249
+- Enlisted Army personnel: 3,698
 - Commissioned Army officers: 2,095
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
+Commissioned classification: 2,212 yes; 5,340 no; 16,388 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,110
+- `not_started`: 21,100
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 64
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 57
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 407
-- `requires_archival_review`: 1,922
+- `occupation_only_found`: 411
+- `requires_archival_review`: 1,928
 - `completed`: 88
 - `conflicting_sources`: 41
 - `verified_employer_found`: 185
-- Claim confidence: 661 confirmed; 998 high; 530 medium; 38 low; 51
+- Claim confidence: 665 confirmed; 1,001 high; 534 medium; 38 low; 51
   conflicting
-- Durable evidence inventory: 3,113 source records representing 1,436 unique
-  documents; 457 organizations; 1,139 affiliations; 2,278 claims; and 5,141
+- Durable evidence inventory: 3,122 source records representing 1,440 unique
+  documents; 459 organizations; 1,145 affiliations; 2,289 claims; and 5,164
   claim-source links
-- Reviewed public projection: 446 organizations; 1,130 published, qualified,
-  or conflict-visible affiliations; 2,240 published, qualified, or
-  conflict-visible claims; and 2,049 public citation records
+- Reviewed public projection: 448 organizations; 1,136 published, qualified,
+  or conflict-visible affiliations; 2,251 published, qualified, or
+  conflict-visible claims; and 2,055 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,613. The detailed adapter breakdown remains reproducible in
+  2,623. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,143 across 1,109 people; 125 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,032
+- Total recorded attempts/plans: 4,042
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,056; 1,028 have at least one public-visible
+- People with saved reviewed claims: 1,061; 1,033 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5140,13 +5140,50 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `0f2357b00be97827fc20bbfad4f5a00a0fde65933b6a9470a095739a9878e0f3`.
-- Public-visible affiliations: 1,130 (published, qualified, or conflict-visible)
-- Database claims: 2,278; public-visible claims: 2,240 (661 confirmed, 998 high,
-  530 medium, 51 conflicting); 32 low-confidence claims are withheld and six
+- Batch 305 covers Louis R. Alvey Jr. through Charles D. Ambelang on PDF page
+  7 plus Paul Baron on PDF page 24, ten previously unresearched rows in Boxes
+  12 and 38. Exact full-name and private-identifier agreement confirms Louis R.
+  Alvey Jr., Edwin D. Amado, Raymond H. Amador, and Ralph G. Amato. Their
+  official Army-entry evidence is published only as qualified occupation or
+  status evidence: machinist for Alvey, a broad chauffeur and driver category
+  for Amado, student status for Amador, and longshoreman or stevedore for
+  Amato. No employer, school, port, union, or immediate OSS predecessor is
+  inferred. Contemporary University of Wisconsin publications plus a
+  scholarly archival citation to Entry 224, Box 12 support Charles D. Ambelang
+  with high confidence. His 1942 University of Wisconsin relationship is
+  modeled as student status, and his February 1943 officer-candidate training
+  at State College, Mississippi, as a military assignment; neither is labeled
+  a civilian employer or a proven immediate pre-OSS affiliation. Charles F.
+  Amacker, Richard J. Amador, Anthony R. Amarante, Chintamye Amatayakul, and
+  Paul Baron remain unresolved archival-review profiles. Richard J. Amador's
+  unfamiliar printed grade remains preserved exactly and unforced, and later
+  diplomatic references for Chintamye Amatayakul are not back-projected into
+  the wartime record. No authenticated Catalog request, credential, raw API
+  response, full private identifier, or unsupported employer claim was used or
+  published.
+- Batch 305 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression and the complete 912 / 912 browser and accessibility matrix across
+  desktop, phone, and tablet, a deterministic 200-profile audit, complete
+  24,396-page internal-link check, SQLite integrity and foreign-key checks,
+  zero-warning Astro diagnostics, and a dependency audit with zero
+  vulnerabilities. The public-identifier audit compared 12,926 normalized
+  identifiers and 120 genuine formatted variants across 24,466 production
+  artifacts, rejected 1,037 harmless candidate substrings, and found no
+  aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 76,853,332 bytes; the manifest SHA-256 is
+  `d3a549ccc9c4421d7a884b70584a4a848d53b23f312bee17ebaff272eba727a4`.
+  Consecutive public-data builds reproduced digest
+  `5165045601cf4b21f0860691326328ab8f06ec97fe7718c79fad63e185fd6f07`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `1ed75341f8fe2191285ead51381b9813c824fbdb87268272e3ebbf46e6ded735`.
+- Public-visible affiliations: 1,136 (published, qualified, or conflict-visible)
+- Database claims: 2,289; public-visible claims: 2,251 (665 confirmed, 1,001 high,
+  534 medium, 51 conflicting); 32 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,141 total and 5,059 public-visible; private source
-  records: 3,113; public source export: 2,049; unique source documents: 1,436
-- Canonical organizations: 457 private and 446 public
+- Claim-source links: 5,164 total and 5,082 public-visible; private source
+  records: 3,122; public source export: 2,055; unique source documents: 1,440
+- Canonical organizations: 459 private and 448 public
 - Conflicting claims: 51 across 42 people with an identity or research-status
   conflict
 - NARA pull-list rows: 23,793
@@ -5187,6 +5224,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-louis-r-alvey-jr-through-charles-d-ambelang-and-paul-baron-pathways_batch-305_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-franz-l-alt-through-frank-r-alvaro-pathways_batch-304_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-collins-d-almon-through-john-t-alstrom-jr-pathways_batch-303_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-james-h-allison-jr-through-herbert-l-almand-pathways_batch-302_2026-08-19.json

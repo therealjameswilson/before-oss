@@ -3101,6 +3101,42 @@ independently supported by the exact private identifier shared by the NARA
 index and the visually reviewed MIS registry; no person-level conclusion was
 changed.
 
+## Page-seven and page-twenty-four Alvey-through-Ambelang and Baron pathways, Batch 305
+
+`research/evidence-page-seven-louis-r-alvey-jr-through-charles-d-ambelang-and-paul-baron-pathways_batch-305_2026-08-19.json`
+records ten previously unresearched people: nine contiguous rows from Louis R.
+Alvey Jr. through Charles D. Ambelang on PDF page 7 plus Paul Baron on PDF page
+24. Both index pages and the relevant NARA occupation-code pages were visually
+checked. The official Army merged file was searched by private identifier
+outside version control; no raw Army record, full identifier, or authenticated
+Catalog response was retained.
+
+The strict evidence bundle contains nine sources, two normalized organizations,
+six affiliations, eleven claims, twenty-three claim-source links, ten person
+updates, and ten durable research attempts. Exact full-name and private-
+identifier agreement confirms Louis R. Alvey Jr., Edwin D. Amado, Raymond H.
+Amador, and Ralph G. Amato. Their Army-entry codes support qualified categories
+for machinists; chauffeurs and several kinds of drivers; students; and
+longshoremen and stevedores. These categories name no employer, school, port,
+union, workplace, or immediate Army-to-OSS transition.
+
+The 1942 University of Wisconsin yearbook places Charles Ambelang among Phi
+Delta Phi's juniors, and a February 1943 Wisconsin alumni publication reports
+Charles D. Ambelang attending officer-candidate school at State College,
+Mississippi. Brian Masaru Hayashi's scholarly article cites a circa-August 1945
+Charles D. Ambelang OSS record in Entry 224, Box 12. Together these sources
+support a high-confidence identity, a student relationship, and a military-
+training assignment. They do not establish a civilian employer or prove either
+affiliation was immediately pre-OSS. Charles F. Amacker, Richard J. Amador,
+Anthony R. Amarante, Chintamye Amatayakul, and Paul Baron remain unresolved and
+route to their indexed boxes. The unfamiliar `SP P 1/c` string remains exactly
+as printed and unclassified; later diplomatic references for Chintamye
+Amatayakul remain rejected as postwar evidence.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

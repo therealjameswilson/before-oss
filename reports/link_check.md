@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,394 HTML files. Every relative
+**PASS.** The production build contains 24,396 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 446 organization profiles, and the
+The build includes 23,940 person profiles, 448 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,312 unique external URLs for separate live
+The checker inventoried 49,316 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 305 local release check
+
+The complete 24,396-page internal-link pass includes direct routes for Louis R.
+Alvey Jr. through Charles D. Ambelang on PDF page 7, Paul Baron on PDF page 24,
+and the new University of Wisconsin and Army officer-candidate-school
+organization pages. The 74-test Python suite, deterministic 200-profile audit,
+focused three-viewport Batch 305 regression, complete 912-case browser and
+accessibility matrix, dependency audit, database integrity checks, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,853,332 bytes and has
+SHA-256
+`d3a549ccc9c4421d7a884b70584a4a848d53b23f312bee17ebaff272eba727a4`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,466 production artifacts, rejected
+1,037 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`5165045601cf4b21f0860691326328ab8f06ec97fe7718c79fad63e185fd6f07`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`1ed75341f8fe2191285ead51381b9813c824fbdb87268272e3ebbf46e6ded735`.
+The regression publishes four Army-entry findings only as qualified occupation
+or student-status evidence; separates Ambelang's student and military
+relationships from employment; and routes five unresolved profiles to archival
+review without promoting namesakes or later careers.
 
 ## Batch 304 local release check
 

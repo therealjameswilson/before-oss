@@ -4,13 +4,22 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **909 / 909** browser,
+**PASS.** The latest complete release run passed **912 / 912** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 305 adds a focused direct-route regression for Louis R. Alvey Jr. through
+Charles D. Ambelang on PDF page 7 plus Paul Baron on PDF page 24. It verifies
+four exact-identifier Army identities and qualified occupation or student-
+status findings; keeps Ambelang's University of Wisconsin student relationship
+and officer-candidate military assignment separate from employment; and routes
+five unresolved profiles to archival review. The focused regression passed
+**3 / 3** across desktop, phone, and tablet, and the expanded **912 / 912**
+browser and accessibility matrix passed locally.
 
 Batch 304 adds a focused direct-route regression for Franz L. Alt through Frank
 R. Alvaro on PDF page 7. It verifies Alt's Econometric Institute relationship
