@@ -4,13 +4,22 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **885 / 885** browser,
+**PASS.** The latest complete release run passed **888 / 888** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 298 adds a focused direct-route regression for Mary E. Browning through
+Edythe G. Bruce on PDF page 57, excluding the already researched intervening
+David K. Bruce row. It verifies four exact-identifier Army identities and their
+qualified occupation categories without inventing employers, and preserves six
+unresolved archival-review profiles. The focused regression passed **3 / 3**
+across desktop, phone, and tablet. A fresh core-route axe matrix passed
+**27 / 27** with no serious or critical violation. The expanded **891-case**
+browser and accessibility matrix runs in Batch 298 release CI.
 
 Batch 297 adds a focused direct-route regression for Harrison A. Browne through
 Russell V. Brownell Jr. on PDF page 57. It verifies the two exact-identifier
@@ -21,8 +30,9 @@ preserves six unresolved archival-review profiles. The focused regression
 passed **3 / 3** across desktop, phone, and tablet after one assertion was
 aligned with the evidence text actually shown on the public profile. A fresh
 core-route axe matrix passed **27 / 27** with no serious or critical violation.
-The expanded **888-case** browser and accessibility matrix runs in Batch 297
-release CI.
+The expanded **888 / 888** browser and accessibility matrix passed in GitHub
+release workflow
+[32203116965](https://github.com/therealjameswilson/before-oss/actions/runs/32203116965).
 
 Batch 296 adds a focused direct-route regression for Warren I. Brown through
 Harris A. Browne across PDF pages 56-57. It verifies Warren G. Brown's exact-

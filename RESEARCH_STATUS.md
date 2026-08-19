@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,760 people with a non-planned attempt | 23,940 active person entities | 11.5288% |
+| Research-attempt coverage | 2,770 people with a non-planned attempt | 23,940 active person entities | 11.5706% |
 | Verified-affiliation coverage | 428 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7878% |
 | Verified-employer coverage | 186 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7769% |
-| Archival-review coverage | 2,710 people with an individual file-access/priority assessment | 23,940 active person entities | 11.3200% |
+| Archival-review coverage | 2,720 people with an individual file-access/priority assessment | 23,940 active person entities | 11.3617% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 460
+- Identity status `confirmed`: 464
 - Identity status `high_confidence`: 457
 - Identity status `probable`: 90
 - Identity status `ambiguous`: 45
 - Identity status `conflicting`: 37
-- Identity status `unresolved`: 22,851
+- Identity status `unresolved`: 22,847
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,267
-- Enlisted Army personnel: 3,680
+- Unknown or indeterminate: 16,263
+- Enlisted Army personnel: 3,684
 - Commissioned Army officers: 2,095
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,210 yes; 5,322 no; 16,408 indeterminate.
+Commissioned classification: 2,210 yes; 5,326 no; 16,404 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,180
+- `not_started`: 21,170
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 63
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 390
-- `requires_archival_review`: 1,880
+- `occupation_only_found`: 394
+- `requires_archival_review`: 1,886
 - `completed`: 84
 - `conflicting_sources`: 38
 - `verified_employer_found`: 184
-- Claim confidence: 641 confirmed; 989 high; 505 medium; 36 low; 48
+- Claim confidence: 645 confirmed; 989 high; 509 medium; 36 low; 48
   conflicting
-- Durable evidence inventory: 3,046 source records representing 1,407 unique
-  documents; 451 organizations; 1,112 affiliations; 2,219 claims; and 5,003
+- Durable evidence inventory: 3,053 source records representing 1,410 unique
+  documents; 451 organizations; 1,116 affiliations; 2,227 claims; and 5,020
   claim-source links
-- Reviewed public projection: 440 organizations; 1,103 published, qualified,
-  or conflict-visible affiliations; 2,183 published, qualified, or
-  conflict-visible claims; and 2,002 public citation records
+- Reviewed public projection: 440 organizations; 1,107 published, qualified,
+  or conflict-visible affiliations; 2,191 published, qualified, or
+  conflict-visible claims; and 2,006 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,210 yes; 5,322 no; 16,408 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,543. The detailed adapter breakdown remains reproducible in
+  2,553. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,112 across 1,078 people; 121 additional
+- Saved `source_reviewed` outcomes: 1,116 across 1,082 people; 121 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,962
+- Total recorded attempts/plans: 3,972
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,022; 996 have at least one public-visible
+- People with saved reviewed claims: 1,026; 1,000 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4893,13 +4893,49 @@ Commissioned classification: 2,210 yes; 5,322 no; 16,408 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `f7b1b02d1a79348bf4f4b2af8ad055894d6a1a9be1cdec5bbeaaa512b5e6fff1`.
-  The expanded 888-case browser and accessibility matrix runs in release CI.
-- Public-visible affiliations: 1,103 (published, qualified, or conflict-visible)
-- Database claims: 2,219; public-visible claims: 2,183 (641 confirmed, 989 high,
-  505 medium, 48 conflicting); 30 low-confidence claims are withheld and six
+  The expanded 888 / 888 browser and accessibility matrix passed in release
+  workflow
+  [32203116965](https://github.com/therealjameswilson/before-oss/actions/runs/32203116965).
+- Batch 298 covers Mary E. Browning through Edythe G. Bruce, the next ten
+  previously unresearched rows on PDF page 57; David K. Bruce, already
+  researched, remains untouched between the selected rows. Exact private-
+  identifier and full-name matches confirm David E. Brownson, John V. Broz,
+  Charles F. Bruce, and Clarence W. Bruce in the official Army merged file.
+  Their Army-entry records carry, respectively, the official occupation groups
+  “accountants and auditors,” “statistical clerks and compilers,”
+  “salespersons,” and “machinists.” Each is published only as a qualified
+  occupation finding: the record does not name an employer, establish self-
+  employment, or document the person's immediate pre-OSS affiliation. Mary E.
+  Browning, Philip W. Browning, Joseph Broz, Harry F. Brubaker, Opal G.
+  Brubaker, and Edythe G. Bruce remain unresolved archival-review profiles.
+  Contemporary or later exact-name candidates were rejected where they lacked
+  OSS, identifier, chronology, or Box linkage; potentially living people were
+  not investigated. No authenticated Catalog request, credential, raw API
+  response, full private identifier, or unsupported employer claim was used or
+  published.
+- Batch 298 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression across desktop, phone, and tablet, a fresh 27 / 27 core-route axe
+  scan, deterministic 200-profile audit, complete 24,388-page internal-link
+  check, SQLite integrity and foreign-key checks, zero-warning Astro
+  diagnostics, and a dependency audit with zero vulnerabilities. The public-
+  identifier audit compared 12,926 normalized identifiers and 120 genuine
+  formatted variants across 24,458 production artifacts, rejected 1,028
+  harmless candidate substrings, and found no aggregate, manifest-size, or
+  unexpected boundary matches. All 65 manifest assets match across 76,345,632
+  bytes; the manifest SHA-256 is
+  `2485a350e456c351ea44324ade6c58643f6c5b2c57fc888fa2f893685e9c3655`.
+  Consecutive public-data builds reproduced digest
+  `1720c4419d430ae3848376e7fbaf8dd40f20922945c2503176572db159c3eaa7`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `0ad07ed9b5d963b64975feda6f7bd18a51f95ae11512c3f638c6e559a204db8e`.
+  The expanded 891-case browser and accessibility matrix runs in release CI.
+- Public-visible affiliations: 1,107 (published, qualified, or conflict-visible)
+- Database claims: 2,227; public-visible claims: 2,191 (645 confirmed, 989 high,
+  509 medium, 48 conflicting); 30 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,003 total and 4,926 public-visible; private source
-  records: 3,046; public source export: 2,002; unique source documents: 1,407
+- Claim-source links: 5,020 total and 4,943 public-visible; private source
+  records: 3,053; public source export: 2,006; unique source documents: 1,410
 - Canonical organizations: 451 private and 440 public
 - Conflicting claims: 48 across 40 people with an identity or research-status
   conflict
@@ -4941,6 +4977,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-mary-e-browning-through-edythe-g-bruce-pathways_batch-298_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-harrison-a-browne-through-russell-v-brownell-jr-pathways_batch-297_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-six-warren-i-brown-through-page-fifty-seven-harris-a-browne-pathways_batch-296_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-six-robert-r-brown-through-walter-e-brown-pathways_batch-295_2026-08-18.json

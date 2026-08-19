@@ -23999,3 +23999,50 @@ test("Batch 297 confirms two Army identities and preserves qualified OSS identit
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 298 publishes four identifier-backed Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const confirmedPerson of [
+    [
+      "d7173832-8aa5-5095-971b-914271e8e39d",
+      "David E Brownson",
+      "Accountants and auditors",
+    ],
+    [
+      "1437830f-6888-517e-8ec9-f3072d503cdf",
+      "John V Broz",
+      "Statistical clerks and compilers",
+    ],
+    ["2f393e88-2c83-527f-b8c6-0b8ca07b91b0", "Charles F Bruce", "Salespersons"],
+    ["c27f1dec-2f75-5692-8af7-3b2f22980735", "Clarence W Bruce", "Machinists"],
+  ] as const) {
+    await page.goto(`./people/${confirmedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: confirmedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      confirmedPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["ea022c66-ce0e-5b5c-9749-a062508c828d", "Mary E Browning"],
+    ["5c1c0cb0-0124-5ef9-9e7a-864150e59dc3", "Philip W Browning"],
+    ["e0e04e01-4198-5644-bba4-ca5f84084aa0", "Joseph Broz"],
+    ["10736bb9-e53a-5b74-a61d-31571824d0b5", "Harry F Brubaker"],
+    ["87757529-ca69-509d-aff8-c1ec4b00d28c", "Opal G Brubaker"],
+    ["1e7cafe9-23c8-5e5a-836a-7c001a16634b", "Edythe G Bruce"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
