@@ -15,6 +15,35 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,347 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 314 local release check
+
+The complete 24,403-page internal-link pass includes direct routes for William
+L. Buckland through Peter A. Bucky on PDF page 59. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 314 regression,
+dependency audit, database integrity checks, and complete public-identifier
+audit pass; Astro reports zero errors, warnings, or hints. The complete
+**939 / 939** browser and accessibility matrix also passed locally across
+desktop, phone, and tablet.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,407,939 bytes and has
+SHA-256
+`25c518cc79f4cf44b8ac8a0dfc1dc6aadf72ea86deac169c20e05ab6a2716881`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,473 production artifacts, rejected
+1,034 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical sorted relative-path and
+file SHA-256 digest
+`26f99991585ed61b01ab345fbb09e0652fbb5d8b30aa8bf08b96f2a2465edb61`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`d778a7ee6114d4a5fd40136403c569ddeda35078be595ecfdba24e174313db04`.
+The regression publishes four qualified Army-entry occupations and six
+archival-review outcomes without promoting common-name biographies or
+employers.
+
 ## Batch 313 local release check
 
 The complete 24,403-page internal-link pass includes direct routes for Erik M.
