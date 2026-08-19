@@ -3490,6 +3490,39 @@ biography or nationality is assigned. No authenticated Catalog request,
 credential, raw API response, full private identifier, full copyrighted page,
 or unsupported employer claim was stored or published.
 
+## Page-fifty-nine Buehler-through-Bugelli pathways, Batch 316
+
+`research/evidence-page-fifty-nine-buehler-through-bugelli-pathways_batch-316_2026-08-19.json`
+records ten contiguous previously unresearched people from Carl Buehler III
+through Delmas A. Bugelli on PDF page 59 in Box 91. The index page and relevant
+Army documentation were rendered and visually checked. The official Army
+merged file was searched by private identifier outside version control; no raw
+record, unrelated subject identity, or full identifier was retained.
+
+The strict evidence bundle contains eight sources, two organizations, three
+affiliations, seven claims, seventeen claim-source links, ten person updates,
+and ten durable research attempts. Exact private-identifier agreement confirms
+Andrew P. Bugay; his official Army-entry record documents only the broad miners
+and mining-machine operators group on December 29, 1942. No mine, operator,
+employer, workplace, duties, or Army-to-OSS sequence is supplied.
+
+Official BCRA archival inventory evidence gives René Darcy as André Germain
+Buffard's service name, and a separate mission compilation places that identity
+in an OSS/G2 mission. This supports a high-confidence Darcy Buffard identity
+without establishing a pre-OSS employer. A 1936 institutional alumni notice
+documents Howard C. Bugbee's Goodrich Rubber Co. advertising work and transfer
+to Goodrich Company (S.S.) Limited in Singapore; an official 1944 State
+Department record corroborates the middle-initial candidate. Because the OSS
+index omits the middle initial and no direct Box 91 linkage is available, the
+identity and both earlier employments remain visibly qualified.
+
+Delmas A. Bugelli's printed private identifier resolves to a different subject
+in the official Army merged file. The unrelated name, identifier, and record
+details are withheld, and no evidence is transferred to Bugelli. Six additional
+identities remain unresolved and route to Box 91 review. No authenticated
+Catalog request, credential, raw API response, full private identifier, full
+copyrighted page, or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

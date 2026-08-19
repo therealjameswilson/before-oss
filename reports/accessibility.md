@@ -4,13 +4,25 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **942 / 942** browser,
+**PASS.** The latest complete release run passed **945 / 945** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 316 adds a focused direct-route regression for Carl Buehler III through
+Delmas A. Bugelli on PDF page 59. It preserves André Germain Buffard's indexed
+Darcy Buffard alias; qualifies Howard C. Bugbee's 1936 Goodrich Rubber Company
+advertising work and later Singapore transfer without presenting either as an
+immediate OSS predecessor or last civilian employer; exposes Delmas A.
+Bugelli's identifier conflict without publishing the unrelated person's name
+or details; publishes Andrew P. Bugay's dated miners occupation without
+inventing an employer; and preserves six unresolved profiles on the archival-
+review path. The focused regression passed **3 / 3** across desktop, phone,
+and tablet, and the expanded **945 / 945** browser and accessibility matrix
+passed locally.
 
 Batch 315 adds a focused direct-route regression for Thomas L. Bucky through
 Raphael Buegnon on PDF page 59. It verifies three exact-identifier Army
