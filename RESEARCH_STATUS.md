@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,800 people with a non-planned attempt | 23,940 active person entities | 11.6959% |
+| Research-attempt coverage | 2,810 people with a non-planned attempt | 23,940 active person entities | 11.7377% |
 | Verified-affiliation coverage | 430 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7962% |
 | Verified-employer coverage | 187 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7811% |
-| Archival-review coverage | 2,750 people with an individual file-access/priority assessment | 23,940 active person entities | 11.4871% |
+| Archival-review coverage | 2,760 people with an individual file-access/priority assessment | 23,940 active person entities | 11.5288% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 476
+- Identity status `confirmed`: 477
 - Identity status `high_confidence`: 460
 - Identity status `probable`: 93
 - Identity status `ambiguous`: 47
-- Identity status `conflicting`: 38
-- Identity status `unresolved`: 22,826
+- Identity status `conflicting`: 39
+- Identity status `unresolved`: 22,824
 
 ## Personnel categories
 
@@ -49,26 +49,26 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,140
+- `not_started`: 21,130
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 64
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 55
+- `documented_prewar_employer_found`: 56
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 405
-- `requires_archival_review`: 1,901
+- `requires_archival_review`: 1,909
 - `completed`: 85
-- `conflicting_sources`: 39
+- `conflicting_sources`: 40
 - `verified_employer_found`: 185
-- Claim confidence: 657 confirmed; 995 high; 524 medium; 38 low; 49
+- Claim confidence: 658 confirmed; 995 high; 526 medium; 38 low; 50
   conflicting
-- Durable evidence inventory: 3,090 source records representing 1,428 unique
-  documents; 454 organizations; 1,132 affiliations; 2,263 claims; and 5,107
+- Durable evidence inventory: 3,097 source records representing 1,429 unique
+  documents; 455 organizations; 1,134 affiliations; 2,267 claims; and 5,116
   claim-source links
-- Reviewed public projection: 443 organizations; 1,123 published, qualified,
-  or conflict-visible affiliations; 2,225 published, qualified, or
-  conflict-visible claims; and 2,032 public citation records
+- Reviewed public projection: 444 organizations; 1,125 published, qualified,
+  or conflict-visible affiliations; 2,229 published, qualified, or
+  conflict-visible claims; and 2,037 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,583. The detailed adapter breakdown remains reproducible in
+  2,593. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,128 across 1,094 people; 123 additional
+- Saved `source_reviewed` outcomes: 1,135 across 1,101 people; 125 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,002
+- Total recorded attempts/plans: 4,012
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,046; 1,018 have at least one public-visible
+- People with saved reviewed claims: 1,048; 1,020 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5037,14 +5037,47 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `a0fabbe1b4f71b8a40e370fc1778deed7dbf98401393df0091f2289523603042`.
-- Public-visible affiliations: 1,123 (published, qualified, or conflict-visible)
-- Database claims: 2,263; public-visible claims: 2,225 (657 confirmed, 995 high,
-  524 medium, 49 conflicting); 32 low-confidence claims are withheld and six
+- Batch 302 covers James H. Allison Jr. through Herbert L. Almand on PDF page
+  7, the ten earliest remaining `not_started` rows. An exact private-identifier
+  check shows that the number printed for James L. Allnutt resolves to a
+  different full name in the official Army merged file. The discrepancy is
+  conflict-visible, while the unrelated Army subject's name, identifier, and
+  details remain withheld. Exact full-name and private-identifier agreement
+  confirms Herbert L. Almand. His official December 1942 Army-entry code is
+  published only as the broad occupation category "paymasters, payroll clerks,
+  and timekeepers." A contemporary 1940 Cincinnati directory probably places
+  him at Fifth Finance Co. as assistant manager; that medium-confidence finding
+  is published only as documented prewar employment, not as an immediate
+  pre-OSS affiliation or last civilian employer. James H. Allison Jr., Levis E.
+  Allison, Sarah J. Allison, Suzanne L. Allison, Elmer J. Allman, William J.
+  Allmang, Emerson H. Allsworth, and Frances H. Allsworth remain unresolved
+  Box 11 archival-review profiles. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported
+  employer claim was used or published.
+- Batch 302 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression and the complete 903 / 903 browser and accessibility matrix across
+  desktop, phone, and tablet, a deterministic 200-profile audit, complete
+  24,392-page internal-link check, SQLite integrity and foreign-key checks,
+  zero-warning Astro diagnostics, and a dependency audit with zero
+  vulnerabilities. The public-identifier audit compared 12,926 normalized
+  identifiers and 120 genuine formatted variants across 24,462 production
+  artifacts, rejected 1,026 harmless candidate substrings, and found no
+  aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 76,661,645 bytes; the manifest SHA-256 is
+  `2082934bc071d68afdc2dd83673b9af06ad1fdbccbbfa0a2a2d91ae151abe5fa`.
+  Consecutive public-data builds reproduced digest
+  `0aec786ffe009857356cb1d8bf9910737d8ff4cd0c331ff908c60ce907e4c93a`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `8380ddce022b517f1024e84047d3e6ad33b86b26e33824fae868951acb290da1`.
+- Public-visible affiliations: 1,125 (published, qualified, or conflict-visible)
+- Database claims: 2,267; public-visible claims: 2,229 (658 confirmed, 995 high,
+  526 medium, 50 conflicting); 32 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,107 total and 5,025 public-visible; private source
-  records: 3,090; public source export: 2,032; unique source documents: 1,428
-- Canonical organizations: 454 private and 443 public
-- Conflicting claims: 49 across 41 people with an identity or research-status
+- Claim-source links: 5,116 total and 5,034 public-visible; private source
+  records: 3,097; public source export: 2,037; unique source documents: 1,429
+- Canonical organizations: 455 private and 444 public
+- Conflicting claims: 50 across 42 people with an identity or research-status
   conflict
 - NARA pull-list rows: 23,793
 
@@ -5084,6 +5117,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-james-h-allison-jr-through-herbert-l-almand-pathways_batch-302_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-fifty-eight-eleanor-brummer-through-carl-brunner-pathways_batch-301_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-morton-l-bruder-through-gordon-o-brummel-pathways_batch-300_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-evangeline-h-bruce-through-john-w-bruckman-pathways_batch-299_2026-08-19.json

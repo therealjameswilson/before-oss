@@ -24290,3 +24290,62 @@ test("Batch 301 preserves four occupation-only Army records and qualified foreig
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 302 preserves an identifier conflict and qualifies Almand's documented 1940 employer without overstating chronology", async ({
+  page,
+}) => {
+  await page.goto("./people/7e6ea681-8f1e-5f8c-a440-83963aa03351/");
+  await expect(page.getByRole("heading", { name: "James L Allnutt", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("resolves to a different full name");
+  await expect(page.locator("main")).toContainText("unrelated name are withheld");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/01137e67-f375-5877-90f7-41bfbec9d450/");
+  await expect(page.getByRole("heading", { name: "Herbert L Almand", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Paymasters, payroll clerks, and timekeepers",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Fifth Finance Co.",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "assistant manager",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(
+    page.getByRole("link", { name: "Williams' Cincinnati Directory, 1940", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./organizations/7c0d4f04-c5e4-51b6-996b-726986808b90/");
+  await expect(page.getByRole("heading", { name: "Fifth Finance Co.", exact: true })).toBeVisible();
+  await expect(page.getByText("Herbert L Almand", { exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("medium");
+
+  for (const unresolvedPerson of [
+    ["801261f3-3060-5845-8bb2-7a7ac024a39f", "James H Allison Jr."],
+    ["1ebb9bda-4e07-562a-91af-0d2b423e831c", "Levis E Allison"],
+    ["efbfa86a-8a73-591f-89d9-0d7ec4d16e2c", "Sarah J Allison"],
+    ["465b3884-3997-55f6-bb87-841afc70fb07", "Suzanne L Allison"],
+    ["771730ae-cfc7-510b-96d9-9955e73a8c98", "Elmer J Allman"],
+    ["7cb3a063-59b4-54c0-81c9-eb5dde5bb14a", "William J Allmang"],
+    ["5323d067-c783-500c-9e4b-7b6c2d1c3553", "Emerson H Allsworth"],
+    ["4de0f86b-7cca-5948-8c2d-7036243a027f", "Frances H Allsworth"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

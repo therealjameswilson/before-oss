@@ -4,13 +4,22 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **900 / 900** browser,
+**PASS.** The latest complete release run passed **903 / 903** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 302 adds a focused direct-route regression for James H. Allison Jr.
+through Herbert L. Almand on PDF page 7. It verifies that James L. Allnutt's
+identifier conflict remains visible without exposing the unrelated Army
+subject, publishes Almand's broad Army-entry occupation and probable 1940 Fifth
+Finance Co. role only as qualified evidence, and keeps eight unsupported
+profiles on the archival-review path. The focused regression passed **3 / 3**
+across desktop, phone, and tablet, and the expanded **903 / 903** browser and
+accessibility matrix passed locally.
 
 Batch 301 adds a focused direct-route regression for Eleanor Brummer through
 Carl Brunner across PDF pages 57-58. It verifies four exact-identifier Army
