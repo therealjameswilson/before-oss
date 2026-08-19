@@ -4,16 +4,44 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,393 HTML files. Every relative
+**PASS.** The production build contains 24,394 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 445 organization profiles, and the
+The build includes 23,940 person profiles, 446 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,310 unique external URLs for separate live
+The checker inventoried 49,312 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 304 local release check
+
+The complete 24,394-page internal-link pass includes direct routes for Franz L.
+Alt through Frank R. Alvaro on PDF page 7 and the new Econometric Institute
+organization page. The 74-test Python suite, deterministic 200-profile audit,
+focused three-viewport Batch 304 regression, complete 909-case browser and
+accessibility matrix, dependency audit, database integrity checks, and complete
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,770,681 bytes and has
+SHA-256
+`5f6b12fba3cb0f601dfc6b09295f81de7377ed0a0e74f8af0f7992fb6522e5a6`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,464 production artifacts, rejected
+1,037 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`05f63fd68a801f256069882e924162de21727631928e8dc3ce6afaeb0a9f4097`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`0f2357b00be97827fc20bbfad4f5a00a0fde65933b6a9470a095739a9878e0f3`.
+The regression keeps Alt's last civilian employer distinct from immediate
+pre-OSS affiliation, publishes two Army-entry findings only as occupation
+categories, preserves Altieri's identifier conflict without exposing the
+unrelated subject, and routes six unresolved profiles to archival review.
 
 ## Batch 303 local release check
 

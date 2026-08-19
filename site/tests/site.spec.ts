@@ -24439,3 +24439,71 @@ test("Batch 303 publishes qualified student and military pathways while preservi
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 304 publishes Alt's last civilian employer and two occupation-only findings while preserving an identifier conflict", async ({
+  page,
+}) => {
+  await page.goto("./people/1cb080b5-079e-5340-8465-a9340cfb9d2f/");
+  await expect(page.getByRole("heading", { name: "Franz L Alt", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Econometric Institute",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Last civilian employer before service",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.getByRole("link", { name: "Franz Alt 1910-2011", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./organizations/7c70e42a-af9d-5ff2-a75f-9dc335a9c5a3/");
+  await expect(page.getByRole("heading", { name: "Econometric Institute", exact: true })).toBeVisible();
+  await expect(page.getByText("Franz L Alt", { exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("high");
+
+  await page.goto("./people/97fd8b6d-5b5d-543a-91c4-ba2b6629d01c/");
+  await expect(page.getByRole("heading", { name: "Leonard F Altieri", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("resolves to a different first name");
+  await expect(page.locator("main")).toContainText("unrelated first name are withheld");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const occupationPerson of [
+    ["3c84d6f1-61fe-5239-aa16-1519a89b4da2", "Guy O Altman", "Managers and officials, not elsewhere classified"],
+    ["d46258f1-2e3b-5892-8bcf-4378aba96777", "Frank R Alvaro", "Foremen, manufacturing"],
+  ] as const) {
+    await page.goto(`./people/${occupationPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: occupationPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupationPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["bb8bf290-7c6f-5ceb-89d3-5e75d5122563", "Daniel Althoff"],
+    ["b93942bc-98a9-5a8e-8191-402364d12261", "Frederick T Altman"],
+    ["a30c6923-f5fa-51cf-9424-17bde97875c0", "Howard P Altman"],
+    ["c1aa0d36-9bb4-5d7c-a467-1969bc02a47c", "Frederick V Altvater"],
+    ["56e3bb40-06bd-569b-9553-7b3701e94abc", "Herminia Alvarez"],
+    ["529cd207-fa94-52a7-8ae1-38680a490f70", "Ida Alvarez"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

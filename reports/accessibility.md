@@ -4,13 +4,23 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **906 / 906** browser,
+**PASS.** The latest complete release run passed **909 / 909** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 304 adds a focused direct-route regression for Franz L. Alt through Frank
+R. Alvaro on PDF page 7. It verifies Alt's Econometric Institute relationship
+as a last civilian employer before military service without presenting it as
+immediate pre-OSS employment; publishes Guy O. Altman and Frank R. Alvaro only
+with qualified occupation categories; keeps Leonard F. Altieri's identifier
+conflict visible without exposing the unrelated Army subject; and preserves
+six unresolved Box 12 profiles on the archival-review path. The focused
+regression passed **3 / 3** across desktop, phone, and tablet, and the expanded
+**909 / 909** browser and accessibility matrix passed locally.
 
 Batch 303 adds a focused direct-route regression for Collins D. Almon through
 John T. Alstrom Jr. on PDF page 7, excluding the already researched intervening
