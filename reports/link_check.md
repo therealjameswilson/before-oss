@@ -4,16 +4,44 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,391 HTML files. Every relative
+**PASS.** The production build contains 24,392 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 443 organization profiles, and the
+The build includes 23,940 person profiles, 444 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,302 unique external URLs for separate live
+The checker inventoried 49,304 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 302 local release check
+
+The complete 24,392-page internal-link pass includes direct routes for James H.
+Allison Jr. through Herbert L. Almand on PDF page 7 and the new Fifth Finance
+Co. organization page. The 74-test Python suite, deterministic 200-profile
+audit, focused three-viewport Batch 302 regression, complete 903-case browser
+and accessibility matrix, dependency audit, database integrity checks, and
+complete public-identifier audit pass; Astro reports zero errors, warnings, or
+hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,661,645 bytes and has
+SHA-256
+`2082934bc071d68afdc2dd83673b9af06ad1fdbccbbfa0a2a2d91ae151abe5fa`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,462 production artifacts, rejected
+1,026 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`0aec786ffe009857356cb1d8bf9910737d8ff4cd0c331ff908c60ce907e4c93a`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`8380ddce022b517f1024e84047d3e6ad33b86b26e33824fae868951acb290da1`.
+The regression preserves Allnutt's identifier conflict, qualifies Almand's
+occupation and documented 1940 employer without overstating chronology, and
+routes eight unresolved profiles to archival review.
 
 ## Batch 301 local release check
 

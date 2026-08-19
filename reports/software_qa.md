@@ -5,11 +5,13 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,391 pages**
-- Internal link check: **24,391 HTML files passed**
-- Latest complete browser and accessibility matrix: **900 / 900 passed** in the
+- Static production build: **24,392 pages**
+- Internal link check: **24,392 HTML files passed**
+- Latest complete browser and accessibility matrix: **903 / 903 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 302 browser regression: **3 / 3 passed**; the expanded
+  **903 / 903** browser and accessibility matrix also passed locally.
 - Focused Batch 301 browser regression: **3 / 3 passed**; the expanded
   **900 / 900** browser and accessibility matrix also passed locally.
 - Focused Batch 300 browser regression: **3 / 3 passed**; a fresh core-route axe
@@ -105,36 +107,46 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`a0fabbe1b4f71b8a40e370fc1778deed7dbf98401393df0091f2289523603042`)
-- Latest deterministic public-data build (Batch 301): **byte-for-byte
+  (`8380ddce022b517f1024e84047d3e6ad33b86b26e33824fae868951acb290da1`)
+- Latest deterministic public-data build (Batch 302): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`45917e34921e4084976be9d50ddeb1ff354cd2856a8e15cd80b313aa443c37b1`).
+  (`0aec786ffe009857356cb1d8bf9910737d8ff4cd0c331ff908c60ce907e4c93a`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,618,340 bytes** in the public tree;
+  across **76,661,645 bytes** in the public tree;
   manifest SHA-256
-  `2191687d20c6a71b040af15f6d0c893bd00ecd93a14b73cfe1a128cd93ccf5e0`.
+  `2082934bc071d68afdc2dd83673b9af06ad1fdbccbbfa0a2a2d91ae151abe5fa`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,461** production artifacts, including compressed mirrors;
-  **1,024** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,462** production artifacts, including compressed mirrors;
+  **1,026** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,032** public records representing **1,428** unique documents
-- Private citation records: **3,090**
-- Published, qualified, or conflict-visible affiliations: **1,123**
-- Published or conflict-visible claims: **2,225**
+- Reviewed public sources: **2,037** public records representing **1,429** unique documents
+- Private citation records: **3,097**
+- Published, qualified, or conflict-visible affiliations: **1,125**
+- Published or conflict-visible claims: **2,229**
 - Verified-affiliation metric: **430** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **187** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 302 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **903 / 903** browser and
+  accessibility matrix, the 24,392-route link check, deterministic rebuild,
+  manifest audit, dependency audit, 200-profile audit, database integrity
+  checks, and public-identifier audit all pass. James L. Allnutt's identifier
+  conflict remains visible without exposing the unrelated Army subject.
+  Herbert L. Almand has a confirmed Army identity, a qualified Army-entry
+  occupation, and a probable medium-confidence 1940 Fifth Finance Co. role;
+  the employer is not presented as immediate or last civilian employment.
+  Eight additional profiles remain unresolved archival-review cases.
 - Batch 301 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete **900 / 900** browser and
   accessibility matrix, the 24,391-route link check, deterministic rebuild,
