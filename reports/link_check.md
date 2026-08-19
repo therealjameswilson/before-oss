@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,392 HTML files. Every relative
+**PASS.** The production build contains 24,393 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 444 organization profiles, and the
+The build includes 23,940 person profiles, 445 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,304 unique external URLs for separate live
+The checker inventoried 49,310 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 303 local release check
+
+The complete 24,393-page internal-link pass includes direct routes for Collins
+D. Almon through John T. Alstrom Jr. on PDF page 7 and the new 1st Battalion,
+16th Field Artillery organization page. The 74-test Python suite, deterministic
+200-profile audit, focused three-viewport Batch 303 regression, complete
+906-case browser and accessibility matrix, dependency audit, database integrity
+checks, and complete public-identifier audit pass; Astro reports zero errors,
+warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,716,878 bytes and has
+SHA-256
+`08f0e688e7ebc6ba0c302ac0b43eb020811b43c6726ea1c85a6704776dedf34c`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,463 production artifacts, rejected
+1,035 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`5ba6c0dd423c9f0e575fd848cc109cd7a1e43b4ec0e5831b2b46d63a892c2ae4`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`8b481b56870ff9e390b5bd8dc74ce51b0290291c22f19e5c2ee680d4ffedd8eb`.
+The regression preserves the postwar boundary on Almon's identity evidence,
+distinguishes Alpert's student relationship and Alstrom's military assignment
+from employment, supports Alsop's identity without inventing an employer, and
+routes six unresolved profiles to archival review.
 
 ## Batch 302 local release check
 

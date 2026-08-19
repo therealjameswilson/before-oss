@@ -5,11 +5,13 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,392 pages**
-- Internal link check: **24,392 HTML files passed**
-- Latest complete browser and accessibility matrix: **903 / 903 passed** in the
+- Static production build: **24,393 pages**
+- Internal link check: **24,393 HTML files passed**
+- Latest complete browser and accessibility matrix: **906 / 906 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 303 browser regression: **3 / 3 passed**; the expanded
+  **906 / 906** browser and accessibility matrix also passed locally.
 - Focused Batch 302 browser regression: **3 / 3 passed**; the expanded
   **903 / 903** browser and accessibility matrix also passed locally.
 - Focused Batch 301 browser regression: **3 / 3 passed**; the expanded
@@ -107,36 +109,47 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`8380ddce022b517f1024e84047d3e6ad33b86b26e33824fae868951acb290da1`)
-- Latest deterministic public-data build (Batch 302): **byte-for-byte
+  (`8b481b56870ff9e390b5bd8dc74ce51b0290291c22f19e5c2ee680d4ffedd8eb`)
+- Latest deterministic public-data build (Batch 303): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`0aec786ffe009857356cb1d8bf9910737d8ff4cd0c331ff908c60ce907e4c93a`).
+  (`5ba6c0dd423c9f0e575fd848cc109cd7a1e43b4ec0e5831b2b46d63a892c2ae4`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,661,645 bytes** in the public tree;
+  across **76,716,878 bytes** in the public tree;
   manifest SHA-256
-  `2082934bc071d68afdc2dd83673b9af06ad1fdbccbbfa0a2a2d91ae151abe5fa`.
+  `08f0e688e7ebc6ba0c302ac0b43eb020811b43c6726ea1c85a6704776dedf34c`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,462** production artifacts, including compressed mirrors;
-  **1,026** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,463** production artifacts, including compressed mirrors;
+  **1,035** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,037** public records representing **1,429** unique documents
-- Private citation records: **3,097**
-- Published, qualified, or conflict-visible affiliations: **1,125**
-- Published or conflict-visible claims: **2,229**
+- Reviewed public sources: **2,044** public records representing **1,435** unique documents
+- Private citation records: **3,106**
+- Published, qualified, or conflict-visible affiliations: **1,127**
+- Published or conflict-visible claims: **2,233**
 - Verified-affiliation metric: **430** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **187** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 303 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **906 / 906** browser and
+  accessibility matrix, the 24,393-route link check, deterministic rebuild,
+  manifest audit, dependency audit, 200-profile audit, database integrity
+  checks, and public-identifier audit all pass. Collins D. Almon's exact Army
+  identity is retained without misusing a September 1946 record as pre-OSS
+  evidence; Zelly C. Alpert's University of Pittsburgh relationship is
+  correctly modeled as student status; John D. Alsop's OSS identity is
+  supported without inventing an employer; John T. Alstrom Jr.'s qualified
+  1940 military assignment remains distinct from civilian employment; and six
+  profiles remain unresolved archival-review cases.
 - Batch 302 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete **903 / 903** browser and
   accessibility matrix, the 24,392-route link check, deterministic rebuild,

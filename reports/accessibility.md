@@ -4,13 +4,24 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **903 / 903** browser,
+**PASS.** The latest complete release run passed **906 / 906** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 303 adds a focused direct-route regression for Collins D. Almon through
+John T. Alstrom Jr. on PDF page 7, excluding the already researched intervening
+Stewart Alsop row. It verifies that Almon's postwar Army match is not presented
+as pre-OSS evidence, publishes Zelly C. Alpert's University of Pittsburgh
+relationship only as student status, supports John D. Alsop's identity without
+inventing an employer, presents John T. Alstrom Jr.'s 1940 military assignment
+only as qualified evidence, and keeps six unsupported profiles on the archival-
+review path. The focused regression passed **3 / 3** across desktop, phone, and
+tablet, and the expanded **906 / 906** browser and accessibility matrix passed
+locally.
 
 Batch 302 adds a focused direct-route regression for James H. Allison Jr.
 through Herbert L. Almand on PDF page 7. It verifies that James L. Allnutt's
