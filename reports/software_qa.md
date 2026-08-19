@@ -5,13 +5,17 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,405 pages**
-- Internal link check: **24,405 HTML files passed**
-- Expanded browser and accessibility matrix: **945 / 948 passed** in the first
-  single-worker sweep across desktop, phone, and tablet; three tablet-only setup
-  or timeout cases in older regressions then passed **3 / 3** in a fresh
-  isolated single-worker rerun. The 27 axe cases found no serious or critical
-  accessibility violation.
+- Static production build: **24,406 pages**
+- Internal link check: **24,406 HTML files passed**
+- Expanded browser and accessibility matrix: **951 / 951 passed** across
+  desktop, phone, and tablet. The initial single-worker sweep passed **949 /
+  951**; the two older, unchanged tablet cases that reached the 45-second test
+  timeout then passed **2 / 2** in an isolated single-worker rerun. The 27 axe
+  cases cover representative routes and test for serious or critical
+  accessibility violations.
+- Focused Batch 318 browser regression: **3 / 3 passed** across desktop, phone,
+  and tablet. It also verifies that a documented organization on a person
+  profile links directly to the corresponding organization page.
 - Focused Batch 317 browser regression: **3 / 3 passed** across desktop, phone,
   and tablet; all **948 / 948** cases are passing across the documented full
   sweep and isolated rerun.
@@ -149,36 +153,48 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`cadcd8aa4b28cae922afd42c2b3ef2647d5f07033a4adbafd14fed3d64b43143`)
-- Latest deterministic public-data build (Batch 310): **byte-for-byte
+  (`037aefbe592433d4e360e8fa84dc504a30a13f822a0017cf1cf34bdaeda6964c`)
+- Latest deterministic public-data build (Batch 318): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`06847a8884ad39972fd1b5fce3587ecf6823995f7d6baaf54f441394a4da579e`).
+  (`8975fd3b6f2a49e00bcc3037a42684c45c710b5d6e7a2d0ee8e91e71d18a0c0c`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **77,208,436 bytes** in the public tree;
+  across **77,617,997 bytes** in both the source and production trees;
   manifest SHA-256
-  `91ee270e8e808b19413b1de699c9e1ec8f5566175dff080844e662fa51e44483`.
+  `aaa6891d0e26686f437a51d43717c5ed72e0e5324e8d4fbc726cf4ce08153709`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,472** production artifacts, including compressed mirrors;
-  **1,036** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,476** production artifacts, including compressed mirrors;
+  **1,033** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,091** public records representing **1,460** unique documents
-- Private citation records: **3,168**
-- Published, qualified, or conflict-visible affiliations: **1,158**
-- Published or conflict-visible claims: **2,292**
-- Verified-affiliation metric: **435** people with confirmed/high published
+- Reviewed public sources: **2,136** public records representing **1,479** unique documents
+- Private citation records: **3,214**
+- Published, qualified, or conflict-visible affiliations: **1,179**
+- Published or conflict-visible claims: **2,340**
+- Verified-affiliation metric: **437** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **189** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 318 local release checks: **passed**; 74 Python tests plus five parser
+  subtests, the focused **3 / 3** browser regression, the complete **951 / 951**
+  browser and accessibility matrix after the documented isolated rerun, the
+  24,406-route link check, deterministic rebuilds, 65-asset manifest audit,
+  dependency audit, 200-profile audit, database integrity checks, and public-
+  identifier audit all pass. Carlton R. Bulger's unknown Army occupation code
+  is not guessed;
+  Theodore J. Bulinski's identifier conflict remains visible without exposing
+  the unrelated subject; Dwight H. Bulkley's identity is supported without an
+  invented pre-OSS affiliation; and Lucius D. Bulkley's Pomona student status
+  remains separate from unnamed high-school employment. Six unsupported
+  profiles route to archival review.
 - Batch 308 local release checks: **passed**; 74 Python tests plus five
   parser subtests, the focused **3 / 3** browser regression, the 24,399-route
   link check, deterministic rebuild, 65-asset manifest audit, dependency audit,

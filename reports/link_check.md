@@ -4,16 +4,47 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,405 HTML files. Every relative
+**PASS.** The production build contains 24,406 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 457 organization profiles, and the
+The build includes 23,940 person profiles, 458 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,352 unique external URLs for separate live
+The checker inventoried 49,357 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 318 local release check
+
+The complete 24,406-page internal-link pass includes direct routes for Mearice
+W. Bulfner through Patricia Bull across PDF pages 59-60 and the new Pomona
+College organization page. The person-profile cards now link documented
+organizations directly to their organization pages under the GitHub Pages base
+path. The 74-test Python suite, deterministic 200-profile audit, focused three-
+viewport Batch 318 regression, dependency audit, database integrity checks,
+the complete 951 / 951 browser and accessibility matrix after two isolated
+timeout reruns, and the complete public-identifier audit pass; Astro reports
+zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,617,997 bytes and has
+SHA-256
+`aaa6891d0e26686f437a51d43717c5ed72e0e5324e8d4fbc726cf4ce08153709`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,476 production artifacts, rejected
+1,033 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical sorted relative-path and
+file SHA-256 digest
+`8975fd3b6f2a49e00bcc3037a42684c45c710b5d6e7a2d0ee8e91e71d18a0c0c`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`037aefbe592433d4e360e8fa84dc504a30a13f822a0017cf1cf34bdaeda6964c`.
+The regression publishes only supported identity, student, and unnamed-
+employment evidence; it leaves unknown occupation codes and unsupported
+employers unresolved.
 
 ## Batch 317 local release check
 
