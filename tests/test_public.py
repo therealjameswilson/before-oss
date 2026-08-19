@@ -210,7 +210,7 @@ class PublicProjectionTests(unittest.TestCase):
                 "identity_status": "high_confidence",
                 "research_status": "completed",
                 "immediate_pre_oss_affiliations": [affiliation],
-                "last_civilian_pre_service": [],
+                "last_civilian_pre_service": [affiliation],
                 "other_pre_oss_affiliations": [],
                 "claims": [claim],
             }
@@ -232,6 +232,10 @@ class PublicProjectionTests(unittest.TestCase):
             ],
             "source-1",
         )
+        self.assertEqual(
+            len(organizations["organization-1"][0]["affiliations"]), 1
+        )
+        self.assertEqual(len(organizations["organization-1"][0]["claims"]), 1)
 
 
 if __name__ == "__main__":

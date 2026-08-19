@@ -4,16 +4,42 @@ Run: 2026-08-18 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,387 HTML files. Every relative
+**PASS.** The production build contains 24,388 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 439 organization profiles, and the
+The build includes 23,940 person profiles, 440 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,282 unique external URLs for separate live
+The checker inventoried 49,284 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 295 local release check
+
+The complete 24,388-page internal-link pass includes direct routes for Robert
+R. Brown through Walter E. Brown on PDF page 56 and the Providence
+Journal-Bulletin organization profile. The 74-test Python suite, deterministic
+200-profile audit, focused three-viewport Batch 295 regression, dependency
+audit, database integrity checks, and complete public-identifier audit pass;
+Astro reports zero errors, warnings, or hints. The expanded 882-case browser
+matrix runs in release CI.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes. The
+manifest covers 76,197,406 bytes and has SHA-256
+`3c95a34f33dbea62683049589bc9f135f9b885ca66dc71bbe2c51ff49646b748`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,458 production artifacts, rejected
+1,030 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`0b6801e5bf800a7b7b5769a7077f24b454fd498bd50dc92e2c9811324d9c2b4e`.
+Consecutive production builds produced the identical complete static-tree
+digest `cd622ef2afe81ecc5ed81cf62c236710ebbc9832acb93e9fea328ec7a84ba98c`.
+The regression publishes one explicit newspaper-to-OSS pathway and one
+qualified occupation without a named employer, preserves eight unresolved
+archival-review profiles, and keeps a Dawes Team namesake candidate unassigned.
 
 ## Batch 294 local release check
 

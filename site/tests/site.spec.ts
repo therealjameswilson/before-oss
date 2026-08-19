@@ -23812,3 +23812,65 @@ test("Batch 294 publishes one identifier-backed occupation while preserving an i
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 295 publishes Sevellon Brown's sourced newspaper pathway without promoting occupation codes or namesake candidates", async ({
+  page,
+}) => {
+  await page.goto("./people/5c67450c-991d-5fcc-be95-141fc74827c4/");
+  await expect(page.getByRole("heading", { name: "Robert E Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Foreman, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/9986a058-bcbb-5f7a-a4ac-f8482ba230b5/");
+  await expect(page.getByRole("heading", { name: "Sevellon Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Providence Journal-Bulletin",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Washington bureau chief",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Providence Journal-Bulletin",
+  );
+
+  await page.goto("./organizations/5cd64437-23d0-53eb-ba6c-c4bc85fb6228/");
+  await expect(
+    page.getByRole("heading", { name: "Providence Journal-Bulletin", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Sevellon Brown", exact: true })).toHaveCount(1);
+  await expect(page.locator("main")).toContainText("Washington bureau chief");
+
+  await page.goto("./people/e36f98e1-fb4b-5ded-aa09-b74af2b04fb6/");
+  await expect(page.getByRole("heading", { name: "Robert R Brown", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Dawes Team");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["839b84a1-90cc-58c1-a431-1bd039f03d42", "Ruth E Brown"],
+    ["d4b67e24-dac8-5591-80e4-c4d30c1224e6", "Thomas G Brown"],
+    ["d533542f-871c-51f7-a4b4-0329cb8a4129", "Thomas K Brown"],
+    ["61058b0c-9257-5094-a51b-e0a23eddc3de", "Virgina H Brown"],
+    ["ffd5f7ea-6d70-59c6-ba4a-71d1ceba7943", "W N Brown"],
+    ["2dc063fe-53b9-5f53-aa0e-45ffea28fc5c", "Walter D Brown"],
+    ["fb8c65aa-95cf-5ed5-9afc-ce1f3e9d65b2", "Walter E Brown"],
+  ]) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
