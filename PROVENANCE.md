@@ -3551,6 +3551,42 @@ authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Pages-fifty-nine-sixty Bulfner-through-Bull pathways, Batch 318
+
+`research/evidence-pages-fifty-nine-sixty-bulfner-through-bull-pathways_batch-318_2026-08-19.json`
+records ten contiguous previously unresearched people from Mearice W. Bulfner
+through Patricia Bull across PDF pages 59-60 in Boxes 91-92. Both index pages
+and the relevant Army code-list page were rendered and visually checked. The
+official Army merged file was searched by private identifier outside version
+control; no raw record, unrelated subject identity, or full identifier was
+retained.
+
+The strict evidence bundle contains eight sources, one organization, two
+affiliations, six claims, thirteen claim-source links, ten person updates, and
+ten durable research attempts. Exact private-identifier agreement confirms
+Carlton R. Bulger, but the civilian-occupation value in his official record has
+no entry in NARA's published corrected code list. The project therefore
+publishes the identity and Army-entry date but no guessed occupation or
+employer.
+
+The private identifier printed for Theodore J. Bulinski resolves to a
+different subject in the official Army merged file. The unrelated name and
+record details are withheld, and an otherwise plausible University of
+Minnesota namesake is rejected for lack of Box 91 or identifier linkage.
+
+The uncommon full name Dwight H. Bulkley appears as author of two December 1945
+OSS reports in RG 226 and in an independent official FRUS record from Bangkok,
+supporting a high-confidence identity without a pre-OSS affiliation. Southern
+Oregon University's institutional biography and catalog connect Lucius D.
+Bulkley to L. Daniel “Dan” Bulkley, OSS service, a 1939 Pomona College degree,
+and unnamed prewar high-school teaching and coaching. The student status and
+unnamed employment remain separate, medium-confidence, non-immediate
+affiliations; Pomona is not counted as an employer and no high school is
+invented. Six further identities remain unresolved and route to Boxes 91-92
+review. No authenticated Catalog request, credential, raw API response, full
+private identifier, full copyrighted page, or unsupported employer claim was
+stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

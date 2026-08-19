@@ -25360,3 +25360,71 @@ test("Batch 317 publishes three bounded occupations and preserves seven Box 91 r
   await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("enlisted-only Army merged file");
 });
+
+test("Batch 318 separates Bulkley student and teaching evidence from identity conflicts and archival paths", async ({
+  page,
+}) => {
+  await page.goto("./people/f9ca5422-445c-53c5-84b0-182ba2f8d8c4/");
+  await expect(page.getByRole("heading", { name: "Carlton R Bulger", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "confirmed as the Army entrant represented by the exact-name and private-identifier match",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/8da48a45-f9d7-5f75-b4fa-88684f7fcfca/");
+  await expect(page.getByRole("heading", { name: "Theodore J Bulinski", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "resolves to an official Army record for a different person",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/d3bfc328-cc17-592c-b822-d9fb04283e40/");
+  await expect(page.getByRole("heading", { name: "Dwight H Bulkley", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "high-confidence match to the author of two December 1945 reports",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/def6280a-f672-53af-a952-aa063e54b2d6/");
+  await expect(page.getByRole("heading", { name: "Lucius D Bulkley", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("L. Daniel “Dan” Bulkley");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bachelor of Arts student",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "High school teacher and coach",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(
+    page.locator('main a[href="/before-oss/organizations/7c2476fd-32e1-56fc-87ea-ba4a845a1feb/"]'),
+  ).toContainText("Pomona College");
+
+  await page.goto("./organizations/7c2476fd-32e1-56fc-87ea-ba4a845a1feb/");
+  await expect(page.getByRole("heading", { name: "Pomona College", exact: true })).toBeVisible();
+  await expect(page.getByText("Lucius D Bulkley", { exact: true })).toBeVisible();
+
+  for (const [personId, name] of [
+    ["7f3061ba-df3f-50bf-9c27-18853bd27ba2", "Mearice W Bulfner"],
+    ["dacf71a5-e4c5-5f91-ae37-abd39742b26b", "Virginia H Bulkley"],
+    ["f5c5a857-1a53-5eaf-a68f-500966c4b6a3", "William E Bulkley"],
+    ["1b939c0e-3cbf-5c64-bfec-574d80fa0f43", "William V Bulkley"],
+    ["4ebf2431-22e4-51a1-938f-007b32750df8", "Bear A Bull"],
+    ["e4c84698-6093-5c7e-9b88-8f7838e16bb3", "Patricia Bull"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
