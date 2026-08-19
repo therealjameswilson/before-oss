@@ -24797,3 +24797,63 @@ test("Batch 308 publishes Bronfenbrenner's Army-to-OSS pathway and preserves qua
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 309 publishes qualified Brooks evidence without inventing an immediate employer", async ({
+  page,
+}) => {
+  await page.goto("./people/6bc62f2d-0e3e-50d3-bed3-24697e05fa36/");
+  await expect(page.getByRole("heading", { name: "Edgar N Brooks", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Miscellaneous products manufacturing occupation, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "medium",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/1187029c-c1d5-50d1-b567-e6b117242928/");
+  await expect(page.getByRole("heading", { name: "Ernest Brooks Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Breed, Abbott & Morgan",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("counsel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("World War II service in London as a member");
+
+  await page.goto("./organizations/60268681-c1d5-5263-ae0b-d75c10fd4e58/");
+  await expect(page.getByRole("heading", { name: "Breed, Abbott & Morgan", exact: true })).toBeVisible();
+  await expect(page.getByText("Ernest Brooks Jr.", { exact: true })).toBeVisible();
+
+  for (const unresolvedPerson of [
+    ["0f8b1b5c-9b9f-57d5-bf7e-60383f2efac9", "Richard M Brooker"],
+    ["4a2fea28-6695-5871-a6f1-712f45c92749", "Earline D Brooks"],
+    ["9effaea2-99df-57da-8859-8e09fd8f63e9", "Elmer O Brooks"],
+    ["ab640318-c342-5738-aedd-f577ee1b69e2", "Everett S Brooks"],
+    ["27a88acf-b7f3-525a-953a-148b33b7caaa", "Frank Brooks"],
+    ["26a1a63c-9c11-5044-8cc0-9b4e8883fccc", "Harold L Brooks"],
+    ["6049a5a5-fa3b-5605-ac3d-148359c6886e", "Harry P Brooks"],
+    ["7c3ba764-4957-55d6-9e85-1e13734382a8", "Edward L Brunner"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

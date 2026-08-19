@@ -4,7 +4,7 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **921 / 921** browser,
+**PASS.** The latest complete release run passed **924 / 924** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
@@ -21,6 +21,15 @@ Bromberg and Arthur B. Bromberger visibly probable and in identity review; and
 preserves four unsupported Box 81 profiles on the archival-review path. The
 focused regression passed **3 / 3** across desktop, phone, and tablet, and the
 expanded **921 / 921** browser and accessibility matrix passed locally.
+
+Batch 309 adds a focused direct-route regression for Richard M. Brooker through
+Harry P. Brooks on PDF page 53 plus Edward L. Brunner on page 58. It verifies
+Edgar N. Brooks's broad Army-entry occupation without converting it into a
+named employer; publishes Ernest Brooks Jr.'s documented 1937-1938 Breed,
+Abbott & Morgan affiliation without labeling it immediate or last civilian;
+and preserves the other eight profiles on the archival-review path. The
+focused regression passed **3 / 3** across desktop, phone, and tablet, and the
+expanded **924 / 924** browser and accessibility matrix passed locally.
 
 Batch 307 adds a focused direct-route regression for Lawrence P. Broderick
 through William Brogan on PDF page 53. It verifies Broderick's student status,
