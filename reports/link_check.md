@@ -15,6 +15,34 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,362 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 322 local release check
+
+The complete 24,408-page internal-link pass includes the ten researched index
+rows from Lucien Bureau through Elsie J. Burgess across PDF pages 60-61. The
+74-test Python suite, deterministic 200-profile audit, focused three-viewport
+regression, complete 957 / 957 browser and accessibility matrix after two
+documented fresh-process reruns, dependency audit, database integrity checks,
+and public-identifier audit pass; Astro reports zero errors, warnings, or
+hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,871,306 bytes and has
+SHA-256
+`d779f748813cde57ff8eef99e5a375a9fd99cf61e75428df340d5ac11635efba`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,478 production artifacts, rejected
+1,038 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`3abeefcbb718e51e370b21da8d207f374ad0367212e336969df713aaabeaf4a5`.
+Consecutive finalized production builds produced identical complete
+static-tree digest
+`891397d1db7206027e11e9a0628f8dc9ada2239b6710bc56fc577a94db902058`.
+The regression preserves source spelling, foreign rank, occupation, identity,
+and unresolved evidence boundaries without inventing employers.
+
 ## Batches 319-321 local release check
 
 The complete 24,408-page internal-link pass includes the 30 researched index
