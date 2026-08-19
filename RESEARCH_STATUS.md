@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,860 people with a non-planned attempt | 23,940 active person entities | 11.9465% |
-| Verified-affiliation coverage | 433 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8087% |
+| Research-attempt coverage | 2,870 people with a non-planned attempt | 23,940 active person entities | 11.9883% |
+| Verified-affiliation coverage | 434 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8129% |
 | Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,810 people with an individual file-access/priority assessment | 23,940 active person entities | 11.7377% |
+| Archival-review coverage | 2,820 people with an individual file-access/priority assessment | 23,940 active person entities | 11.7794% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 489
-- Identity status `high_confidence`: 465
-- Identity status `probable`: 95
+- Identity status `confirmed`: 491
+- Identity status `high_confidence`: 467
+- Identity status `probable`: 97
 - Identity status `ambiguous`: 47
 - Identity status `conflicting`: 40
-- Identity status `unresolved`: 22,804
+- Identity status `unresolved`: 22,798
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,244
-- Enlisted Army personnel: 3,703
-- Commissioned Army officers: 2,095
+- Unknown or indeterminate: 16,239
+- Enlisted Army personnel: 3,705
+- Commissioned Army officers: 2,096
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 2
-- Civilian professional or administrative grades: 1,484
+- Civilian professional or administrative grades: 1,486
 - Foreign or Allied military personnel: 248
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 84
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,212 yes; 5,345 no; 16,383 indeterminate.
+Commissioned classification: 2,213 yes; 5,349 no; 16,378 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,080
+- `not_started`: 21,070
 - `in_progress`: 49
 - `candidate_found`: 1
-- `needs_identity_review`: 66
+- `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 57
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 415
-- `requires_archival_review`: 1,941
-- `completed`: 88
+- `requires_archival_review`: 1,945
+- `completed`: 92
 - `conflicting_sources`: 41
 - `verified_employer_found`: 186
-- Claim confidence: 670 confirmed; 1,002 high; 541 medium; 38 low; 51
+- Claim confidence: 672 confirmed; 1,006 high; 545 medium; 38 low; 51
   conflicting
-- Durable evidence inventory: 3,137 source records representing 1,444 unique
-  documents; 460 organizations; 1,151 affiliations; 2,302 claims; and 5,190
+- Durable evidence inventory: 3,151 source records representing 1,453 unique
+  documents; 462 organizations; 1,158 affiliations; 2,312 claims; and 5,212
   claim-source links
-- Reviewed public projection: 449 organizations; 1,142 published, qualified,
-  or conflict-visible affiliations; 2,264 published, qualified, or
-  conflict-visible claims; and 2,064 public citation records
+- Reviewed public projection: 451 organizations; 1,149 published, qualified,
+  or conflict-visible affiliations; 2,274 published, qualified, or
+  conflict-visible claims; and 2,075 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,212 yes; 5,345 no; 16,383 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,633. The detailed adapter breakdown remains reproducible in
+  2,643. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,150 across 1,116 people; 125 additional
+- Saved `source_reviewed` outcomes: 1,154 across 1,120 people; 127 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,062
+- Total recorded attempts/plans: 4,072
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,068; 1,040 have at least one public-visible
+- People with saved reviewed claims: 1,072; 1,044 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5140,6 +5140,43 @@ Commissioned classification: 2,212 yes; 5,345 no; 16,383 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `0f2357b00be97827fc20bbfad4f5a00a0fde65933b6a9470a095739a9878e0f3`.
+- Batch 308 covers Arne W. Brogger through Elizabeth D. Brooke, ten contiguous
+  previously unresearched rows on PDF page 53 in Box 81. Contemporary 1938 and
+  1942 city directories plus Cornell's Donovan Nuremberg collection support a
+  high-confidence Arne W. Brogger identity and a lawyer-to-Army Major pathway;
+  the lawyer entry names no firm, and the Army sources do not prove the exact
+  OSS transition. A scholarly émigré biographical dictionary explicitly links
+  Richard Broh to 1945 OSS work and documents his earlier freelance journalism
+  in Great Britain, qualified because internment and British wartime work leave
+  the immediate sequence uncertain. Exact private-identifier agreement confirms
+  Lester T. Brolliar, while two unit histories document his 34th General Hospital
+  and 110th Medical Battalion assignments without establishing their order
+  relative to OSS. A CIA staff list, Cornell institutional biography, and
+  Bronfenbrenner's first-person alumni account confirm that the index truncated
+  Urie Bronfenbrenner's surname. His 1942 University of Michigan doctorate is
+  modeled as student status, not employment, and his explicit Army Air Corps-to-
+  OSS sequence is modeled as a military assignment. Norma Bromberg and Arthur B.
+  Bromberger remain probable identity candidates; Eleanor S. Brokaw, William
+  Bromme, Barbara R. Bronson, and Elizabeth D. Brooke remain unresolved and
+  route to Box 81 review. No authenticated Catalog request, credential, raw API
+  response, full private identifier, full copyrighted page, or unsupported
+  employer claim was used or published.
+- Batch 308 local release QA passed all 74 Python tests plus five subtests, a
+  focused 3 / 3 browser regression and the complete 921 / 921 browser and
+  accessibility matrix across desktop, phone, and tablet, a deterministic
+  200-profile audit, complete 24,399-page internal-link check, SQLite integrity
+  and foreign-key checks, zero-warning Astro diagnostics, and a dependency
+  audit with zero vulnerabilities. The public-identifier audit compared 12,926
+  normalized identifiers and 120 genuine formatted variants across 24,469
+  production artifacts, rejected 1,036 harmless candidate substrings, and found
+  no aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 77,058,167 bytes; the manifest SHA-256 is
+  `51be7b9820b1e1cc82b9fdf1e8e38fe09fd0158f07e8bfdc660e005bb2b584ed`.
+  Consecutive public-data builds reproduced digest
+  `481a31c78db3c16cd137fef881dcde375f9dd9385bc61f3ec98066d93c2f6678`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `e9ae50d29dd497bda83e5685f967178e2f28b633290b866ebde74c3de87eb95c`.
 - Batch 307 covers Lawrence P. Broderick through William Brogan, ten contiguous
   previously unresearched rows on PDF page 53 in Box 81. The source page and
   all three relevant official Army occupation-code pages were rendered and
@@ -5250,13 +5287,13 @@ Commissioned classification: 2,212 yes; 5,345 no; 16,383 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `1ed75341f8fe2191285ead51381b9813c824fbdb87268272e3ebbf46e6ded735`.
-- Public-visible affiliations: 1,142 (published, qualified, or conflict-visible)
-- Database claims: 2,302; public-visible claims: 2,264 (670 confirmed, 1,002 high,
-  541 medium, 51 conflicting); 32 low-confidence claims are withheld and six
+- Public-visible affiliations: 1,149 (published, qualified, or conflict-visible)
+- Database claims: 2,312; public-visible claims: 2,274 (672 confirmed, 1,006 high,
+  545 medium, 51 conflicting); 32 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,190 total and 5,108 public-visible; private source
-  records: 3,137; public source export: 2,064; unique source documents: 1,444
-- Canonical organizations: 460 private and 449 public
+- Claim-source links: 5,212 total and 5,130 public-visible; private source
+  records: 3,151; public source export: 2,075; unique source documents: 1,453
+- Canonical organizations: 462 private and 451 public
 - Conflicting claims: 51 across 42 people with an identity or research-status
   conflict
 - NARA pull-list rows: 23,792
@@ -5297,6 +5334,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-arne-brogger-through-elizabeth-brooke-pathways_batch-308_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-lawrence-broderick-through-william-brogan-pathways_batch-307_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-mary-brock-through-stephen-broder-pathways_batch-306_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-louis-r-alvey-jr-through-charles-d-ambelang-and-paul-baron-pathways_batch-305_2026-08-19.json

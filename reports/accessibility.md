@@ -4,13 +4,23 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **918 / 918** browser,
+**PASS.** The latest complete release run passed **921 / 921** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 308 adds a focused direct-route regression for Arne W. Brogger through
+Elizabeth D. Brooke on PDF page 53. It verifies Bronfenbrenner's explicit Army
+Air Corps-to-OSS sequence and separate University of Michigan student status;
+publishes Brogger's lawyer occupation, Broh's freelance journalism, and
+Brolliar's Army medical assignments with their evidence limits; keeps Norma
+Bromberg and Arthur B. Bromberger visibly probable and in identity review; and
+preserves four unsupported Box 81 profiles on the archival-review path. The
+focused regression passed **3 / 3** across desktop, phone, and tablet, and the
+expanded **921 / 921** browser and accessibility matrix passed locally.
 
 Batch 307 adds a focused direct-route regression for Lawrence P. Broderick
 through William Brogan on PDF page 53. It verifies Broderick's student status,
