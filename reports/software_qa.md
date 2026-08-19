@@ -7,13 +7,16 @@ Run: 2026-08-19 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,388 pages**
 - Internal link check: **24,388 HTML files passed**
-- Latest complete browser and accessibility matrix: **885 / 885 passed** in the
+- Latest complete browser and accessibility matrix: **888 / 888 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 298 browser regression: **3 / 3 passed**; a fresh core-route axe
+  matrix passed **27 / 27** across desktop, phone, and tablet, and the expanded
+  **891-case** matrix runs in release CI
 - Focused Batch 297 browser regression: **3 / 3 passed** after one assertion
   was aligned with the evidence text that is actually public; a fresh core-route
-  axe matrix passed **27 / 27** across desktop, phone, and tablet, and the
-  expanded **888-case** matrix runs in release CI
+  axe matrix passed **27 / 27** across desktop, phone, and tablet. The expanded
+  **888 / 888** matrix passed in release CI
 - Focused Batch 296 browser regression: **3 / 3 passed** after one wording
   assertion was aligned with the profile's actual public conflict note; the
   expanded **885 / 885** matrix passed in release CI
@@ -92,36 +95,45 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`f7b1b02d1a79348bf4f4b2af8ad055894d6a1a9be1cdec5bbeaaa512b5e6fff1`)
-- Latest deterministic public-data build (Batch 297): **byte-for-byte
+  (`0ad07ed9b5d963b64975feda6f7bd18a51f95ae11512c3f638c6e559a204db8e`)
+- Latest deterministic public-data build (Batch 298): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`b93c8f48bd6468fb8e84e8a8797fd7a351a1f0f5f9bfdf2398e1bd59315b3175`).
+  (`1720c4419d430ae3848376e7fbaf8dd40f20922945c2503176572db159c3eaa7`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,291,680 bytes** in the public tree;
+  across **76,345,632 bytes** in the public tree;
   manifest SHA-256
-  `8358f5bf63c793949fe04b5eeaf03803320beb5905d7bfe17db898b4396f3e39`
+  `2485a350e456c351ea44324ade6c58643f6c5b2c57fc888fa2f893685e9c3655`
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,458** production artifacts, including compressed mirrors;
-  **1,030** candidate substrings were reviewed. No aggregate or manifest-size
+  **1,028** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,002** public records representing **1,407** unique documents
-- Private citation records: **3,046**
-- Published, qualified, or conflict-visible affiliations: **1,103**
-- Published or conflict-visible claims: **2,183**
+- Reviewed public sources: **2,006** public records representing **1,410** unique documents
+- Private citation records: **3,053**
+- Published, qualified, or conflict-visible affiliations: **1,107**
+- Published or conflict-visible claims: **2,191**
 - Verified-affiliation metric: **428** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **186** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 298 local release checks: **passed**; 74 Python tests, the focused
+  **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
+  24,388-route link check, deterministic rebuild, manifest audit, dependency
+  audit, 200-profile audit, database integrity checks, and public-identifier
+  audit all pass. David E. Brownson, John V. Broz, Charles F. Bruce, and
+  Clarence W. Bruce have exact-identifier Army identities and qualified pre-
+  entry occupation categories without invented employers; six profiles remain
+  archival-review cases. The expanded **891-case** browser matrix runs in
+  release CI.
 - Batch 297 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, **27 / 27** core-route axe scans, the complete
   24,388-route link check, deterministic rebuild, manifest audit, dependency
@@ -131,7 +143,8 @@ Run: 2026-08-19 UTC
   invented employers. William B. Browne and Evelyn C. Brownell receive
   qualified high-confidence OSS identities without unsupported pre-OSS
   affiliations; six profiles remain archival-review cases. The complete
-  888-case browser matrix runs in release CI.
+  **888 / 888** browser matrix passed in release workflow
+  [32203116965](https://github.com/therealjameswilson/before-oss/actions/runs/32203116965).
 - Batch 296 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete 24,388-route link check,
   deterministic rebuild, manifest audit, dependency audit, 200-profile audit,

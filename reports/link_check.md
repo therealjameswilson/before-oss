@@ -15,6 +15,34 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,288 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 298 local release check
+
+The complete 24,388-page internal-link pass includes direct routes for Mary E.
+Browning through Edythe G. Bruce on PDF page 57, excluding the already
+researched intervening David K. Bruce row. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport Batch 298 regression,
+27-case core-route axe scan, dependency audit, database integrity checks, and
+complete public-identifier audit pass; Astro reports zero errors, warnings, or
+hints. The expanded 891-case browser and accessibility matrix runs in release
+CI.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 76,345,632 bytes and has
+SHA-256
+`2485a350e456c351ea44324ade6c58643f6c5b2c57fc888fa2f893685e9c3655`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,458 production artifacts, rejected
+1,028 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced the identical generated-asset digest
+`1720c4419d430ae3848376e7fbaf8dd40f20922945c2503176572db159c3eaa7`.
+Consecutive finalized production builds produced the identical complete
+static-tree digest
+`0ad07ed9b5d963b64975feda6f7bd18a51f95ae11512c3f638c6e559a204db8e`.
+The regression publishes four qualified Army-entry occupations without naming
+employers and keeps six unresolved profiles on the archival-review path.
+
 ## Batch 297 local release check
 
 The complete 24,388-page internal-link pass includes direct routes for Harrison
@@ -22,8 +50,9 @@ A. Browne through Russell V. Brownell Jr. on PDF page 57. The 74-test Python
 suite, deterministic 200-profile audit, focused three-viewport Batch 297
 regression, 27-case core-route axe scan, dependency audit, database integrity
 checks, and complete public-identifier audit pass; Astro reports zero errors,
-warnings, or hints. The expanded 888-case browser and accessibility matrix runs
-in release CI.
+warnings, or hints. The expanded 888 / 888 browser and accessibility matrix
+passed in GitHub release workflow
+[32203116965](https://github.com/therealjameswilson/before-oss/actions/runs/32203116965).
 
 All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
 the source and built public trees. The manifest covers 76,291,680 bytes and has
