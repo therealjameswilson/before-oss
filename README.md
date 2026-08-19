@@ -19,15 +19,15 @@ is not complete, and the site reports that limitation explicitly.
   duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
 - 220 possible duplicate groups, including 36 narrow automatic consolidations
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 2,890
-  people with saved non-planned research outcomes, and 4,092 durable research
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 2,900
+  people with saved non-planned research outcomes, and 4,102 durable research
   attempts or plans
 - 435 verified-affiliation profiles, including 189 with verified employment or
-  self-employment, and 2,840 individually assessed archival files
-- 1,158 public-visible affiliations, 2,292 public-visible claims, 2,091 public
-  source records, and 1,460 unique source documents; 32 low-confidence claims
+  self-employment, and 2,850 individually assessed archival files
+- 1,159 public-visible affiliations, 2,295 public-visible claims, 2,096 public
+  source records, and 1,461 unique source documents; 32 low-confidence claims
   and 6 rejected claims remain private
-- 21,050 people remain `not_started`; the public site reports this
+- 21,040 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

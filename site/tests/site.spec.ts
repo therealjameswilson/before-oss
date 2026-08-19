@@ -24951,3 +24951,48 @@ test("Batch 310 publishes identifier-backed occupations and qualified Marine and
   await page.goto("./people/0f4a8083-b3ba-5915-8761-49fdb9a2af34/");
   await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
 });
+
+test("Batch 311 publishes Brutz's qualified occupation and preserves unresolved Bryant identities", async ({
+  page,
+}) => {
+  await page.goto("./people/1f14cba9-839a-5328-8ab2-35b7f2e26711/");
+  await expect(page.getByRole("heading", { name: "Andrew Brutz", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Foundry occupation, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "medium",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/1095d7d6-ee1c-5b32-8394-708d5814f540/");
+  await expect(page.getByRole("heading", { name: "Larry Bruzzese", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("2677th Morale Operations");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["a5a091fe-3c47-57e1-9c07-0218775fa98b", "Willy J Brussel"],
+    ["3c563d49-4ea8-5c5c-aa21-4f61fb6261fe", "Alice M Brust"],
+    ["468c072f-5b41-5386-b2c8-ac67a78dfd2f", "Robbie L Bruton"],
+    ["267423e0-e6d5-5cbb-976a-84e7d96f7ce5", "Cloye A Bryant"],
+    ["d24cd483-955c-5d6e-96b1-a003ce5ef2d3", "Flossie L Bryant"],
+    ["7a782db1-2911-507f-9a69-3b29601f5a84", "George F Bryant"],
+    ["f60c6ed2-9dfd-5dc2-865b-747f789c60a3", "Kenneth L Bryant"],
+    ["f715cb97-9877-56eb-82ba-d9e5733daa9f", "William C Bryant"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
