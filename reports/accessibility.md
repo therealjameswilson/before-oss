@@ -4,13 +4,23 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **891 / 891** browser,
+**PASS.** The latest complete release run passed **894 / 894** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 300 adds a focused direct-route regression for Morton L. Bruder through
+Gordon O. Brummel on PDF page 57. It verifies two exact-identifier Army
+identities and their qualified occupations, Henry J. Bruman's Pennsylvania
+State College employment pathway, Victor J. Brudnicki's high-confidence OSS
+identity, Vernon W. Brugger's visible identifier conflict, and five unresolved,
+ambiguous, or probable archival-review profiles. The focused regression passed
+**3 / 3** across desktop, phone, and tablet. A fresh core-route axe matrix
+passed **27 / 27** with no serious or critical violation. The expanded
+**897-case** browser and accessibility matrix runs in Batch 300 release CI.
 
 Batch 299 adds a focused direct-route regression for Evangeline H. Bruce
 through John W. Bruckman on PDF page 57. It verifies six exact-identifier Army
@@ -20,8 +30,9 @@ Evangeline R. Bruciak's visibly qualified Social Security Board affiliation;
 three unresolved profiles remain on the archival-review path. The focused
 regression passed **3 / 3** across desktop, phone, and tablet. A fresh core-
 route axe matrix passed **27 / 27** with no serious or critical violation. The
-expanded **894-case** browser and accessibility matrix runs in Batch 299
-release CI.
+expanded **894 / 894** browser and accessibility matrix passed in Batch 299
+release workflow
+[32207156601](https://github.com/therealjameswilson/before-oss/actions/runs/32207156601).
 
 Batch 298 adds a focused direct-route regression for Mary E. Browning through
 Edythe G. Bruce on PDF page 57, excluding the already researched intervening

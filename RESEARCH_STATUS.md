@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,780 people with a non-planned attempt | 23,940 active person entities | 11.6124% |
-| Verified-affiliation coverage | 429 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7920% |
-| Verified-employer coverage | 186 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7769% |
-| Archival-review coverage | 2,730 people with an individual file-access/priority assessment | 23,940 active person entities | 11.4035% |
+| Research-attempt coverage | 2,790 people with a non-planned attempt | 23,940 active person entities | 11.6541% |
+| Verified-affiliation coverage | 430 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7962% |
+| Verified-employer coverage | 187 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7811% |
+| Archival-review coverage | 2,740 people with an individual file-access/priority assessment | 23,940 active person entities | 11.4453% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 470
-- Identity status `high_confidence`: 457
-- Identity status `probable`: 91
-- Identity status `ambiguous`: 45
-- Identity status `conflicting`: 37
-- Identity status `unresolved`: 22,840
+- Identity status `confirmed`: 472
+- Identity status `high_confidence`: 459
+- Identity status `probable`: 92
+- Identity status `ambiguous`: 46
+- Identity status `conflicting`: 38
+- Identity status `unresolved`: 22,833
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,257
-- Enlisted Army personnel: 3,690
+- Unknown or indeterminate: 16,254
+- Enlisted Army personnel: 3,693
 - Commissioned Army officers: 2,095
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,210 yes; 5,332 no; 16,398 indeterminate.
+Commissioned classification: 2,210 yes; 5,335 no; 16,395 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,160
+- `not_started`: 21,150
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 64
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 55
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 399
-- `requires_archival_review`: 1,889
+- `occupation_only_found`: 401
+- `requires_archival_review`: 1,895
 - `completed`: 85
-- `conflicting_sources`: 38
-- `verified_employer_found`: 184
-- Claim confidence: 651 confirmed; 990 high; 517 medium; 36 low; 48
+- `conflicting_sources`: 39
+- `verified_employer_found`: 185
+- Claim confidence: 653 confirmed; 994 high; 519 medium; 37 low; 49
   conflicting
-- Durable evidence inventory: 3,064 source records representing 1,414 unique
-  documents; 453 organizations; 1,125 affiliations; 2,242 claims; and 5,053
+- Durable evidence inventory: 3,081 source records representing 1,424 unique
+  documents; 454 organizations; 1,128 affiliations; 2,252 claims; and 5,080
   claim-source links
-- Reviewed public projection: 442 organizations; 1,116 published, qualified,
-  or conflict-visible affiliations; 2,206 published, qualified, or
-  conflict-visible claims; and 2,014 public citation records
+- Reviewed public projection: 443 organizations; 1,119 published, qualified,
+  or conflict-visible affiliations; 2,215 published, qualified, or
+  conflict-visible claims; and 2,025 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,210 yes; 5,332 no; 16,398 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,563. The detailed adapter breakdown remains reproducible in
+  2,573. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,123 across 1,089 people; 121 additional
+- Saved `source_reviewed` outcomes: 1,128 across 1,094 people; 123 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 3,982
+- Total recorded attempts/plans: 3,992
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,026; 1,000 have at least one public-visible
+- People with saved reviewed claims: 1,039; 1,012 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -4963,17 +4963,54 @@ Commissioned classification: 2,210 yes; 5,332 no; 16,398 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `fff3670edd121f2e13b4cbd7cbfdbbe91cda44cba7c7fbb299171f9af5886fd3`.
-  The expanded 894-case browser and accessibility matrix runs in release CI.
-- Public-visible affiliations: 1,116 (published, qualified, or conflict-visible)
-- Database claims: 2,242; public-visible claims: 2,206 (651 confirmed, 990 high,
-  517 medium, 48 conflicting); 30 low-confidence claims are withheld and six
+  The expanded 894 / 894 browser and accessibility matrix passed in release
+  workflow
+  [32207156601](https://github.com/therealjameswilson/before-oss/actions/runs/32207156601).
+- Batch 300 covers Morton L. Bruder through Gordon O. Brummel, the next ten
+  previously unresearched rows on PDF page 57. Exact private-identifier matches
+  confirm Morton L. Bruder and George F. Brule in the official Army merged
+  file; their waiter and sales-clerk occupation categories are published as
+  qualified occupations without invented employers. University of California
+  institutional chronology and contemporary 1942 reporting establish Henry J.
+  Bruman's Pennsylvania State College assistant professorship as both his best-
+  supported immediate pre-OSS affiliation and last civilian employer. A Polish
+  Institute of National Remembrance article and an independent OSS Operational
+  Groups roster establish Victor J. Brudnicki's high-confidence OSS identity
+  and enlisted status, but not his pre-OSS affiliation. Vernon W. Brugger's
+  exact-name Army and OSS evidence remains conflict-visible because an official
+  Army officer number differs from the private number printed in the index;
+  neither number is published. Edward B. Bruderlin remains a probable private
+  candidate, while Natalie D. Bruere, Katehrine A. Brugman, Margarite Brumell,
+  and Gordon O. Brummel remain unresolved or ambiguous archival-review cases.
+  No authenticated Catalog request, credential, raw API response, full private
+  identifier, or unsupported employer claim was used or published.
+- Batch 300 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression across desktop, phone, and tablet, a fresh 27 / 27 core-route axe
+  scan, deterministic 200-profile audit, complete 24,391-page internal-link
+  check, SQLite integrity and foreign-key checks, zero-warning Astro
+  diagnostics, and a dependency audit with zero vulnerabilities. The public-
+  identifier audit compared 12,926 normalized identifiers and 120 genuine
+  formatted variants across 24,461 production artifacts, rejected 1,024
+  harmless candidate substrings, and found no aggregate, manifest-size, or
+  unexpected boundary matches. All 65 manifest assets match across 76,544,422
+  bytes; the manifest SHA-256 is
+  `ee79df11c79459356508726e24765b3347058e06cc28d533a50cab11152ffd8c`.
+  Consecutive public-data builds reproduced digest
+  `2680d9daf7ef403573468132ad91199dbdbd27e9fb208156ea6fbf8207da7a76`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `8a58d37222aca636cb12457a1a279b84e2064d48c33e8a02da9bf36ac28820f0`.
+  The expanded 897-case browser and accessibility matrix runs in release CI.
+- Public-visible affiliations: 1,119 (published, qualified, or conflict-visible)
+- Database claims: 2,252; public-visible claims: 2,215 (653 confirmed, 994 high,
+  519 medium, 49 conflicting); 31 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,053 total and 4,976 public-visible; private source
-  records: 3,064; public source export: 2,014; unique source documents: 1,414
-- Canonical organizations: 453 private and 442 public
-- Conflicting claims: 48 across 40 people with an identity or research-status
+- Claim-source links: 5,080 total and 5,000 public-visible; private source
+  records: 3,081; public source export: 2,025; unique source documents: 1,424
+- Canonical organizations: 454 private and 443 public
+- Conflicting claims: 49 across 41 people with an identity or research-status
   conflict
-- NARA pull-list rows: 23,794
+- NARA pull-list rows: 23,793
 
 Planned dry-run requests do not count as research-attempt coverage.
 Medium-confidence evidence does not count toward either verified measure.
@@ -5011,6 +5048,8 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-morton-l-bruder-through-gordon-o-brummel-pathways_batch-300_2026-08-19.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-evangeline-h-bruce-through-john-w-bruckman-pathways_batch-299_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-mary-e-browning-through-edythe-g-bruce-pathways_batch-298_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-harrison-a-browne-through-russell-v-brownell-jr-pathways_batch-297_2026-08-18.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-six-warren-i-brown-through-page-fifty-seven-harris-a-browne-pathways_batch-296_2026-08-18.json

@@ -24129,3 +24129,86 @@ test("Batch 299 distinguishes Herbert Brucker's Army pathway from qualified occu
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 300 publishes Henry Bruman's employer while preserving occupation-only, unresolved, and conflicting cases", async ({
+  page,
+}) => {
+  for (const confirmedPerson of [
+    [
+      "9a5e5919-91f8-57b9-964a-d24366f87220",
+      "Morton L Bruder",
+      "Waiters and waitresses, except private family",
+    ],
+    ["c3784a60-7c24-5bbb-b534-54eff8ef84b4", "George F Brule", "Sales clerks"],
+  ] as const) {
+    await page.goto(`./people/${confirmedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: confirmedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      confirmedPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/7432832c-b5f9-578e-b47e-f9447c82c1dc/");
+  await expect(page.getByRole("heading", { name: "Henry J Bruman", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Pennsylvania State College",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Pennsylvania State College",
+  );
+  await expect(page.getByText("Assistant professor of geography", { exact: true }).first()).toBeVisible();
+  await page.goto("./organizations/c3eaee4f-302c-5277-a72a-1ac7606f6151/");
+  await expect(
+    page.getByRole("heading", { name: "Pennsylvania State College", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Henry J Bruman", { exact: true })).toBeVisible();
+
+  await page.goto("./people/0dec6c8b-7958-52f1-b693-11b4d1940fac/");
+  await expect(page.getByRole("heading", { name: "Victor J Brudnicki", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/c78f62b1-8e7d-5a49-af92-101b7dbcf0af/");
+  await expect(page.getByRole("heading", { name: "Vernon W Brugger", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("officer-number conflict");
+  await expect(page.locator("main")).toContainText("private identifier withheld");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/b14a8bf7-8ab2-52f7-98c9-fd1e9b1fd8b1/");
+  await expect(page.getByRole("heading", { name: "Edward B Bruderlin", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["e404b4ba-b6b9-5277-ade6-7f596d9a08fc", "Natalie D Bruere"],
+    ["978396ef-9151-5846-8757-8ca2b89a99d7", "Katehrine A Brugman"],
+    ["444937a6-c55d-5c49-8173-3dc331654a42", "Margarite Brumell"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/7398aec9-953a-55b0-b79b-a52140ec925b/");
+  await expect(page.getByRole("heading", { name: "Gordon O Brummel", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+});
