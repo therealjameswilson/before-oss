@@ -24627,3 +24627,85 @@ test("Batch 306 publishes two identifier-backed Army-entry statuses and preserve
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 307 publishes Broere's civilian employer and military pathway while qualifying four identifier and identity findings", async ({
+  page,
+}) => {
+  for (const occupationPerson of [
+    ["509b5ddb-7841-5e05-a975-d27ab02c16fd", "Lawrence P Broderick", "Students"],
+    [
+      "6dc1099f-dc50-578d-8663-7ae025149c4b",
+      "Earl D Brodie",
+      "Professional occupations, not elsewhere classified",
+    ],
+  ] as const) {
+    await page.goto(`./people/${occupationPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: occupationPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupationPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/308a8956-4f7d-5da9-81be-3983b41e86d6/");
+  await expect(page.getByRole("heading", { name: "William J Broere", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Grumman Aircraft Engineering Corporation",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Shop maintenance mechanic",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Army Air Force",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator("main")).toContainText("Grumman Aircraft Plant");
+  await expect(page.getByRole("link", { name: "Islip Town's World War II Effort", exact: true }).first()).toBeVisible();
+
+  await page.goto("./organizations/fafc9d52-542e-59e0-a5fd-a6ec22d07919/");
+  await expect(
+    page.getByRole("heading", { name: "Grumman Aircraft Engineering Corporation", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("William J Broere", { exact: true })).toBeVisible();
+
+  await page.goto("./organizations/75a3a185-5c26-548b-8be6-9bcdf51bc4eb/");
+  await expect(page.getByRole("heading", { name: "United States Army Air Forces", exact: true })).toBeVisible();
+  await expect(page.getByText("William J Broere", { exact: true })).toBeVisible();
+
+  for (const probablePerson of [
+    ["10bf4e6e-9e55-51ba-99bf-3b9411b25c1a", "Henry Brodie", "economic analyst"],
+    ["e510eaf0-8943-535d-8a60-b4715e6d368b", "James H Brodie", "landing system"],
+  ] as const) {
+    await page.goto(`./people/${probablePerson[0]}/`);
+    await expect(page.getByRole("heading", { name: probablePerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(probablePerson[2]);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["27b7c870-711f-5308-99ab-eca2c19912c0", "David Brodie"],
+    ["10b02df0-1621-5b56-bfc0-5d42d9f5bd61", "Marie R Brodnax"],
+    ["ae38b233-a60c-5cb7-9aeb-a9928bffecb9", "Albert Brodsky"],
+    ["f15298ce-33cc-520f-b36c-60714423f430", "Jan O Broek"],
+    ["5c11b04e-cf67-5017-8bd7-4410b8a6ab6e", "William Brogan"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

@@ -3168,6 +3168,48 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-three Broderick-through-Brogan pathways, Batch 307
+
+`research/evidence-page-fifty-three-lawrence-broderick-through-william-brogan-pathways_batch-307_2026-08-19.json`
+records ten contiguous previously unresearched people from Lawrence P.
+Broderick through William Brogan on PDF page 53, all indexed to Box 81. The
+source page and official occupation-code pages 171, 175, and 304 were rendered
+and visually checked. The official Army merged file was searched by private
+identifier outside version control; no raw Army record, full identifier, or
+authenticated Catalog response was retained.
+
+The strict evidence bundle contains nine sources, two organization records,
+four affiliations, nine claims, eighteen claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier agreement
+confirms Lawrence P. Broderick despite the official file's Laurence spelling,
+and supports only student status at Army entry. Exact identifier agreement
+also confirms Earl D. Brodie and supports only the residual civilian category
+“professional occupations, not elsewhere classified.” Neither official code
+names an employer or establishes the exact OSS sequence.
+
+William J. Broere is confirmed by exact identifier agreement and the 1948
+volume *Islip Town's World War II Effort*, which independently matches his
+July 3, 1942 service-entry date and documents his OSS service. Printed page
+724 explicitly identifies his prior work as shop maintenance mechanic at the
+Grumman Aircraft Plant in Bethpage. The project preserves that historical name
+on the affiliation and normalizes the organization separately as Grumman
+Aircraft Engineering Corporation. The same source sequences Army Air Forces
+service before the documented OSS role, so that pathway is published only as
+qualified military-assignment evidence and is not labeled civilian employment.
+
+The November 1981 Department of State magazine obituary for Henry Brodie and
+the April 1946 *Field Artillery Journal* article about Captain James H. Brodie
+support probable identities only. The former documents a Navy veteran and OSS
+economic analyst in London but does not carry the Box 81 identifier; the latter
+documents OSS examination of a landing system but does not establish that its
+inventor served in OSS. David Brodie, Marie R. Brodnax, Albert Brodsky, Jan O.
+Broek, and William Brogan remain unresolved. Jan O. M. Broek remains a rejected
+namesake lead because no reviewed source links the geographer to OSS or Box 81.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, or unsupported employer claim was stored or
+published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

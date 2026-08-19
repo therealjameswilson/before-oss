@@ -5,11 +5,13 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,396 pages**
-- Internal link check: **24,396 HTML files passed**
-- Latest complete browser and accessibility matrix: **915 / 915 passed** in the
+- Static production build: **24,397 pages**
+- Internal link check: **24,397 HTML files passed**
+- Latest complete browser and accessibility matrix: **918 / 918 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 307 browser regression: **3 / 3 passed**; the expanded
+  **918 / 918** browser and accessibility matrix also passed locally.
 - Focused Batch 306 browser regression: **3 / 3 passed**; the expanded
   **915 / 915** browser and accessibility matrix also passed locally.
 - Focused Batch 305 browser regression: **3 / 3 passed**; the expanded
@@ -115,36 +117,46 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`9790d3b35fc8a476a75f9091fe0229f03a8e715bb572ebd689d6cbedc9071cf4`)
-- Latest deterministic public-data build (Batch 306): **byte-for-byte
+  (`1320e46a28fb09599a61a94a685ba21b79917a276b5f0acc071faa4a15eb4090`)
+- Latest deterministic public-data build (Batch 307): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`9802670c0066151d727c68d54b85f681958b6269ef23b0449350b5f26693f2f0`).
+  (`eb1f2cb535aa73dd30fb3ced64f1cc5cb5ba1eccc54533c7e5db0c2aa6b0f4ff`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **76,883,499 bytes** in the public tree;
+  across **76,957,045 bytes** in the public tree;
   manifest SHA-256
-  `0becc6184cfade3b29a0de1ead0adef44a3959d76ac4856d94883f71c8adcdfa`.
+  `a106b55392ff179602c84176d5c2d48e2b795c1ca8626b46e08572f0bfbac026`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,466** production artifacts, including compressed mirrors;
-  **1,035** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,467** production artifacts, including compressed mirrors;
+  **1,041** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,058** public records representing **1,441** unique documents
-- Private citation records: **3,128**
-- Published, qualified, or conflict-visible affiliations: **1,138**
-- Published or conflict-visible claims: **2,255**
-- Verified-affiliation metric: **432** people with confirmed/high published
+- Reviewed public sources: **2,064** public records representing **1,444** unique documents
+- Private citation records: **3,137**
+- Published, qualified, or conflict-visible affiliations: **1,142**
+- Published or conflict-visible claims: **2,264**
+- Verified-affiliation metric: **433** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **188** people with confirmed/high published
+- Verified-employer metric: **189** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 307 local release checks: **passed**; 74 Python tests plus five
+  subtests, the focused **3 / 3** browser regression, the complete **918 / 918**
+  browser and accessibility matrix, the 24,397-route link check, deterministic
+  rebuild, manifest audit, dependency audit, 200-profile audit, database
+  integrity checks, and public-identifier audit all pass. William J. Broere's
+  Grumman relationship is published as his last civilian employer before
+  service, while his Army Air Forces pathway remains a separate military
+  assignment. Lawrence P. Broderick's student status and Earl D. Brodie's broad
+  occupation are not converted into employers; two probable identities remain
+  visibly qualified and five unsupported profiles retain archival-review paths.
 - Batch 306 local release checks: **passed**; 74 Python tests, the focused
   **3 / 3** browser regression, the complete **915 / 915** browser and
   accessibility matrix, the 24,396-route link check, deterministic rebuild,
