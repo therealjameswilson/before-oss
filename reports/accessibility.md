@@ -4,13 +4,25 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-**PASS.** The latest complete release run passed **882 / 882** browser,
+**PASS.** The latest complete release run passed **885 / 885** browser,
 responsive, and accessibility cases at desktop, phone, and tablet widths. The
 matrix includes 27 axe scans of representative routes, including the growing
 Sources table, and found no serious or critical accessibility violation.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 297 adds a focused direct-route regression for Harrison A. Browne through
+Russell V. Brownell Jr. on PDF page 57. It verifies the two exact-identifier
+Army identities and qualified occupation categories without inventing an
+employer; confirms William B. Browne's and Evelyn C. Brownell's qualified OSS
+identity evidence without publishing unsupported pre-OSS affiliations; and
+preserves six unresolved archival-review profiles. The focused regression
+passed **3 / 3** across desktop, phone, and tablet after one assertion was
+aligned with the evidence text actually shown on the public profile. A fresh
+core-route axe matrix passed **27 / 27** with no serious or critical violation.
+The expanded **888-case** browser and accessibility matrix runs in Batch 297
+release CI.
 
 Batch 296 adds a focused direct-route regression for Warren I. Brown through
 Harris A. Browne across PDF pages 56-57. It verifies Warren G. Brown's exact-
@@ -20,9 +32,9 @@ the Army subject's other details; publishes Gordon H. Browne's qualified
 prewar insurance-executive occupation without inventing a company or immediate
 chronology; and preserves seven unresolved archival-review profiles. The
 focused regression passed **3 / 3** across desktop, phone, and tablet after one
-wording assertion was aligned with the public conflict note. The preceding
-complete **882 / 882** matrix passed in GitHub release CI; the expanded
-**885-case** matrix runs in Batch 296 release CI.
+wording assertion was aligned with the public conflict note. The expanded
+**885 / 885** matrix passed in GitHub release workflow
+[32201346414](https://github.com/therealjameswilson/before-oss/actions/runs/32201346414).
 
 Batch 295 adds a focused direct-route regression for Robert R. Brown through
 Walter E. Brown on PDF page 56. It verifies Robert E. Brown's exact-identifier

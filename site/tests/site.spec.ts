@@ -23923,3 +23923,79 @@ test("Batch 296 preserves an identifier conflict and publishes Gordon Browne's q
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 297 confirms two Army identities and preserves qualified OSS identity evidence without inventing employers", async ({
+  page,
+}) => {
+  await page.goto("./people/f58d8ceb-4b71-56e2-8731-d42cfe64cb26/");
+  await expect(page.getByRole("heading", { name: "John P Browne", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Farm hands, dairy",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/b0665229-2eb2-5cb8-ba16-98aa2d2d2a04/");
+  await expect(
+    page.getByRole("heading", { name: "Russell V Brownell Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Stenographers and typists",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/caaf726b-765e-595a-bb7e-c1fcdea891c2/");
+  await expect(page.getByRole("heading", { name: "William B Browne", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("unknown or indeterminate", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Commissioned officerYes");
+  await expect(page.locator("main")).toContainText("OSS/X-2 at Steyerling, Austria");
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Eagle and Swastika: CIA and Nazi War Criminals and Collaborators",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/844643f2-d07f-54ed-9c75-c783136f558e/");
+  await expect(page.getByRole("heading", { name: "Evelyn C Brownell", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Washington Post obituary");
+  await expect(page.locator("main")).toContainText(
+    "explicitly includes OSS among her early-career workplaces",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["0d78a86e-ac57-53e8-82b5-5814bdcd5111", "Harrison A Browne", false],
+    ["ddb73f77-3576-589b-9abd-cd5e86a50ef5", "Horace A Browne", false],
+    ["059d60b8-ba55-5b14-98d9-0fc8fb77e207", "Kathryn S Browne", false],
+    ["e6a05779-d0d7-54fe-9cb2-88a990b32a04", "Martha S Browne", false],
+    ["bb7259c8-964a-5b0d-905c-a74915c4fe31", "George R Brownell", true],
+    ["c0559b2c-48ab-5224-b8bd-0710e851b7da", "Mary H Brownell", false],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    if (unresolvedPerson[2]) {
+      await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+    }
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
