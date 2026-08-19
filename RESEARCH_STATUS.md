@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,970 people with a non-planned attempt | 23,940 active person entities | 12.4060% |
-| Verified-affiliation coverage | 437 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8254% |
+| Research-attempt coverage | 2,998 people with a non-planned attempt | 23,940 active person entities | 12.5230% |
+| Verified-affiliation coverage | 439 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8338% |
 | Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,920 people with an individual file-access/priority assessment | 23,940 active person entities | 12.1972% |
+| Archival-review coverage | 2,949 people with an individual file-access/priority assessment | 23,940 active person entities | 12.3183% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 514
-- Identity status `high_confidence`: 475
+- Identity status `confirmed`: 526
+- Identity status `high_confidence`: 476
 - Identity status `probable`: 99
 - Identity status `ambiguous`: 47
 - Identity status `conflicting`: 43
-- Identity status `unresolved`: 22,762
+- Identity status `unresolved`: 22,749
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,216
-- Enlisted Army personnel: 3,726
+- Unknown or indeterminate: 16,203
+- Enlisted Army personnel: 3,738
 - Commissioned Army officers: 2,096
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 3
-- Civilian professional or administrative grades: 1,486
+- Civilian professional or administrative grades: 1,487
 - Foreign or Allied military personnel: 249
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 84
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,213 yes; 5,371 no; 16,356 indeterminate.
+Commissioned classification: 2,213 yes; 5,384 no; 16,343 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,970
-- `in_progress`: 49
+- `not_started`: 20,942
+- `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 437
-- `requires_archival_review`: 2,015
-- `completed`: 95
+- `occupation_only_found`: 447
+- `requires_archival_review`: 2,032
+- `completed`: 97
 - `conflicting_sources`: 44
 - `verified_employer_found`: 186
-- Claim confidence: 695 confirmed; 1,017 high; 574 medium; 38 low; 54
+- Claim confidence: 707 confirmed; 1,020 high; 585 medium; 38 low; 54
   conflicting
-- Durable evidence inventory: 3,214 source records representing 1,479 unique
-  documents; 469 organizations; 1,188 affiliations; 2,378 claims; and 5,367
+- Durable evidence inventory: 3,229 source records representing 1,484 unique
+  documents; 471 organizations; 1,201 affiliations; 2,404 claims; and 5,431
   claim-source links
-- Reviewed public projection: 458 organizations; 1,179 published, qualified,
-  or conflict-visible affiliations; 2,340 published, qualified, or
-  conflict-visible claims; and 2,136 public citation records
+- Reviewed public projection: 460 organizations; 1,192 published, qualified,
+  or conflict-visible affiliations; 2,366 published, qualified, or
+  conflict-visible claims; and 2,151 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,213 yes; 5,371 no; 16,356 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,697. The detailed adapter breakdown remains reproducible in
+  2,727. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,259 across 1,225 people; 127 additional
+- Saved `source_reviewed` outcomes: 1,283 across 1,249 people; 126 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,172
+- Total recorded attempts/plans: 4,202
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,108; 1,080 have at least one public-visible
+- People with saved reviewed claims: 1,121; 1,093 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5278,6 +5278,39 @@ Commissioned classification: 2,213 yes; 5,371 no; 16,356 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `037aefbe592433d4e360e8fa84dc504a30a13f822a0017cf1cf34bdaeda6964c`.
+- Batches 319-321 cover Donald A. Bullard through Gerald H. Burdine on PDF page
+  60 in Boxes 92-93, with a fresh integrity review of Ralph J. Bunche. Exact
+  private-identifier agreement confirms twelve newly assessed Army entrants.
+  Eleven official occupation fields support only bounded occupational groups,
+  including farm hand, packing/filling/labeling work, a non-specific
+  professional occupation, general-office clerk, tailor, draftsman, shipping or
+  receiving clerk, driver, and messenger or office worker; none names an
+  employer. Billie B. Bundick's Big Sandy High School graduation remains a
+  student relationship, not employment. Contemporary federal court evidence
+  and Harvard's Nuremberg archive support Charles S. Burdell's documented
+  prewar Justice Department assignment, but not an immediate OSS predecessor or
+  last civilian employer. Sixteen unsupported or still-incomplete identities
+  route to Boxes 92-93 review, while Ralph Bunche's existing personnel-file
+  conclusions remain unchanged. No authenticated Catalog request, credential,
+  raw API response, full private identifier, full copyrighted page, or
+  unsupported employer claim was used or published.
+- Batches 319-321 local release QA passed all 74 Python tests plus five
+  subtests, a focused 3 / 3 browser regression, the complete 954 / 954 browser
+  and accessibility matrix after three documented fresh-process reruns, a
+  deterministic 200-profile audit, the complete 24,408-page internal-link
+  check, SQLite integrity and foreign-key checks, zero-warning Astro
+  diagnostics, and a dependency audit with zero vulnerabilities. The public-
+  identifier audit compared 12,926 normalized identifiers and 120 genuine
+  formatted variants across 24,478 production artifacts, rejected 1,035
+  harmless candidate substrings, and found no aggregate, manifest-size, or
+  unexpected boundary matches. All 65 manifest assets match across 77,823,098
+  bytes; the manifest SHA-256 is
+  `9bbe8eef4a2fbcf638f9cf58c5dc326ef4c29c22d4c58ae662a155dcd62b87aa`.
+  Consecutive public-data builds reproduced digest
+  `e8c326768820d432fb52f4f336b4287aa2385d92eb0212260b2e32f327d0b646`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `f05040707e6a3426cebf00f817990e59ed5bdb983f3eff1eb0b5f1faaf6389fb`.
 - Batch 315 covers Thomas L. Bucky through Raphael Buegnon on PDF page 59 in
   Boxes 90-91. Exact private-identifier agreement confirms Francis J. Bucolo,
   Bernard J. Budenosky, and Anthony J. Budraitis. The official Army-entry

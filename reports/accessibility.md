@@ -4,15 +4,25 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-The expanded release matrix contains **951** browser, responsive, and
+The expanded release matrix contains **954** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The initial
-single-worker sweep passed **949 / 951**; two older, unchanged tablet cases
-reached the 45-second test timeout and then passed **2 / 2** in an isolated
-single-worker rerun, for a final **951 / 951** result. The matrix includes 27
-axe scans of representative routes, including the growing Sources table.
+45-minute single-worker sweep passed **951 / 954**; three older, unchanged cases
+were affected by a macOS display-link failure or the 45-second test timeout and
+then passed **3 / 3** in fresh isolated single-worker reruns, for a final
+**954 / 954** result. The matrix includes 27 axe scans of representative routes,
+including the growing Sources table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batches 319-321 add a focused direct-route regression for Donald A. Bullard
+through Gerald H. Burdine on PDF page 60. It verifies that eleven official
+occupation fields remain separate from employers; Big Sandy High School is
+rendered as student evidence; Charles S. Burdell's Justice Department role is a
+documented prewar government assignment rather than an immediate affiliation;
+public organization links resolve under the Pages base path; and unsupported
+identities retain dignified archival-review pages. The focused regression
+passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 318 adds a focused direct-route regression for Mearice W. Bulfner through
 Patricia Bull across PDF pages 59-60. It verifies that unknown Army occupation

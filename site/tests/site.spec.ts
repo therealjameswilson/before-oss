@@ -25428,3 +25428,67 @@ test("Batch 318 separates Bulkley student and teaching evidence from identity co
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batches 319-321 preserve bounded occupations, student evidence, a federal assignment, and archival limits", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["86e06171-8114-5872-b91a-e5a7d5daaa47", "Joe L Bullock", "Farm hand, general farm"],
+    ["8b3c9dfa-c12f-564d-90b6-e2ba6ec5209a", "Rudolph N Buonagura", "Tailor"],
+    ["5be911e1-9b15-5413-88e9-810a69c1f26a", "John J Buoncristiani", "Draftsman"],
+    ["0053b6ca-06bf-525f-881d-2e6f0e7733b9", "Dora R Buonviso", "General-office clerk"],
+    ["19cdfe5b-a65d-57b1-a26b-7bff44470aaf", "Gerald H Burdine", "Chauffeur or driver"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+
+  await page.goto("./people/6c732efe-5a53-5d9c-90dd-d1dced93db84/");
+  await expect(page.getByRole("heading", { name: "Billie B Bundick", exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Clerk, general office",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Big Sandy High School",
+  );
+  await expect(
+    page.locator(
+      'main a[href="/before-oss/organizations/0f348de5-f4ff-5d1e-97ce-f6e8d32150c5/"]',
+    ),
+  ).toContainText("Big Sandy High School");
+
+  await page.goto("./people/1c3e1eb8-d4a9-523c-8067-92ba0bb5bb0a/");
+  await expect(page.getByRole("heading", { name: "Charles S Burdell", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "U.S. Department of Justice",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.locator(
+      'main a[href="/before-oss/organizations/9e3f0482-04d1-5745-ac04-4ed0d5132090/"]',
+    ),
+  ).toContainText("U.S. Department of Justice");
+
+  for (const [personId, name] of [
+    ["2841568c-0ca3-58a3-ad74-89b0d1d10ac5", "Donald A Bullard"],
+    ["a79af74b-8d48-5fc1-93aa-29721e75d29d", "Katharine L Bundy"],
+    ["b812cc02-dc2e-54f1-bed2-f6382ab20d3c", "Max M Burden"],
+    ["a6d9d24f-80b7-5c78-8386-e7be466f7a40", "Arthur H Burdick Jr."],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  }
+});
