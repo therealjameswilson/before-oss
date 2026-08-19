@@ -25048,3 +25048,80 @@ test("Batch 312 separates Buchanan's prewar vocation from student and occupation
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 313 publishes Buckens's diplomatic pathway while preserving occupations and an identifier conflict", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    [
+      "d42d1f31-67e8-5f05-b8d6-9c2c42d8bc06",
+      "Joseph A Buchkowskie",
+      "Occupation in manufacture of transportation equipment, except automobiles and aircraft, not elsewhere classified",
+    ],
+    [
+      "5d6f017b-aacb-5ef4-8bef-d8a0f02e67e3",
+      "Peter C Buchta",
+      "Occupation in manufacture of boots and shoes",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/bb70c172-467a-58c6-8ef4-efaa0218ac1c/");
+  await expect(page.getByRole("heading", { name: "Edgar J Buck", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "resolves to an official Army record for a different person",
+  );
+  await expect(page.locator("main")).not.toContainText("HOLLAND JAMES E");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/f832174e-ac63-5584-b58d-8522a384c425/");
+  await expect(page.getByRole("heading", { name: "Ferdinand Buckens", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Belgian Embassy in Tokyo",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "interpreter",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./organizations/9bf99101-afcc-5a86-b966-b89ee66b1842/");
+  await expect(
+    page.getByRole("heading", { name: "Belgian Embassy in Tokyo", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Ferdinand Buckens", { exact: true })).toBeVisible();
+
+  for (const unresolvedPerson of [
+    ["bf112130-584b-57cf-bcb3-d790cd42ac23", "Erik M Buchhardt"],
+    ["0ec8eee6-2434-50ce-9899-043584dcc633", "Richard S Buchholz"],
+    ["eee379d3-a921-5d69-b515-b67e2b07523d", "Rosel A Bucholz"],
+    ["537cfe04-8474-5f6d-ac2a-8ef94cd9098d", "Daryl L Buck"],
+    ["cc14721c-dc9e-55ad-95b3-34a2e5a5ff6e", "Warren E Buck"],
+    ["bff56ff6-028f-52e6-aab6-5c0a65f72eec", "William N Buck"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
