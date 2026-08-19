@@ -24349,3 +24349,161 @@ test("Batch 302 preserves an identifier conflict and qualifies Almand's document
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 303 publishes qualified student and military pathways while preserving unresolved people and a postwar identity boundary", async ({
+  page,
+}) => {
+  await page.goto("./people/1d5bfc7d-796a-5f8b-baf5-d304111f3054/");
+  await expect(page.getByRole("heading", { name: "Collins D Almon", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("the Army record is postwar");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/841ebacf-9d47-523c-a559-e0b421628629/");
+  await expect(page.getByRole("heading", { name: "Zelly C Alpert", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Pittsburgh",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "senior; chancellor of Alpha Omega",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.getByRole("link", { name: "The Owl 1935", exact: true })).toBeVisible();
+  await expect(page.getByRole("link", { name: "The Jewish Criterion", exact: true })).toBeVisible();
+  await page.goto("./organizations/5122f792-21b7-5a1f-9aee-db92c58f1dc7/");
+  await expect(page.getByRole("heading", { name: "University of Pittsburgh", exact: true })).toBeVisible();
+  await expect(page.getByText("Zelly C Alpert", { exact: true })).toBeVisible();
+
+  await page.goto("./people/bc456c6b-bc39-5dfa-a82b-7fc5f0b3a1e2/");
+  await expect(page.getByRole("heading", { name: "John D Alsop", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("John deKoven Alsop");
+  await expect(page.locator("main")).toContainText("Alonce");
+  await expect(page.locator("main")).toContainText("mission Freelance");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/6f0d15a4-89fe-5aab-86b5-af1fc506146f/");
+  await expect(page.getByRole("heading", { name: "John T Alstrom Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "1st Battalion, 16th Field Artillery, U.S. Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "second lieutenant, reserve officer",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(
+    page.getByRole("link", {
+      name: "The Field Artillery Journal, November-December 1940",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.goto("./organizations/fac4879e-243b-50eb-969e-57bcda936f62/");
+  await expect(
+    page.getByRole("heading", {
+      name: "1st Battalion, 16th Field Artillery, U.S. Army",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.getByText("John T Alstrom Jr.", { exact: true })).toBeVisible();
+
+  for (const unresolvedPerson of [
+    ["e6b4c7ab-aa6e-5408-9dac-d367866e64ad", "Alfred L Aloist"],
+    ["a07eeb51-5ce5-5617-88d0-b6891fe3abd7", "Hermes V Alonso"],
+    ["dba73af7-0d4d-51f0-9f98-1c6986b45307", "Jesse Alonzo"],
+    ["504f6587-4562-5f4e-ab81-983ebf64e70c", "Flora B Alper"],
+    ["6b7a30ee-8a5c-54cd-937e-3c0e9e35d2b5", "Alice Alpert"],
+    ["460484c9-6dc0-5f41-ad5e-6311c2682fe0", "Anetra E Alpert"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 304 publishes Alt's last civilian employer and two occupation-only findings while preserving an identifier conflict", async ({
+  page,
+}) => {
+  await page.goto("./people/1cb080b5-079e-5340-8465-a9340cfb9d2f/");
+  await expect(page.getByRole("heading", { name: "Franz L Alt", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Econometric Institute",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Last civilian employer before service",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(
+    page.getByRole("link", { name: "Franz Alt 1910-2011", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./organizations/7c70e42a-af9d-5ff2-a75f-9dc335a9c5a3/");
+  await expect(page.getByRole("heading", { name: "Econometric Institute", exact: true })).toBeVisible();
+  await expect(page.getByText("Franz L Alt", { exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("high");
+
+  await page.goto("./people/97fd8b6d-5b5d-543a-91c4-ba2b6629d01c/");
+  await expect(page.getByRole("heading", { name: "Leonard F Altieri", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("resolves to a different first name");
+  await expect(page.locator("main")).toContainText("unrelated first name are withheld");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const occupationPerson of [
+    ["3c84d6f1-61fe-5239-aa16-1519a89b4da2", "Guy O Altman", "Managers and officials, not elsewhere classified"],
+    ["d46258f1-2e3b-5892-8bcf-4378aba96777", "Frank R Alvaro", "Foremen, manufacturing"],
+  ] as const) {
+    await page.goto(`./people/${occupationPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: occupationPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupationPerson[2],
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const unresolvedPerson of [
+    ["bb8bf290-7c6f-5ceb-89d3-5e75d5122563", "Daniel Althoff"],
+    ["b93942bc-98a9-5a8e-8191-402364d12261", "Frederick T Altman"],
+    ["a30c6923-f5fa-51cf-9424-17bde97875c0", "Howard P Altman"],
+    ["c1aa0d36-9bb4-5d7c-a467-1969bc02a47c", "Frederick V Altvater"],
+    ["56e3bb40-06bd-569b-9553-7b3701e94abc", "Herminia Alvarez"],
+    ["529cd207-fa94-52a7-8ae1-38680a490f70", "Ida Alvarez"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

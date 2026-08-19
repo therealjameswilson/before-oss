@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 2,810 people with a non-planned attempt | 23,940 active person entities | 11.7377% |
-| Verified-affiliation coverage | 430 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.7962% |
-| Verified-employer coverage | 187 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7811% |
-| Archival-review coverage | 2,760 people with an individual file-access/priority assessment | 23,940 active person entities | 11.5288% |
+| Research-attempt coverage | 2,830 people with a non-planned attempt | 23,940 active person entities | 11.8212% |
+| Verified-affiliation coverage | 431 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8003% |
+| Verified-employer coverage | 188 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7853% |
+| Archival-review coverage | 2,780 people with an individual file-access/priority assessment | 23,940 active person entities | 11.6124% |
 
 ## Extraction and identity
 
@@ -23,12 +23,12 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 220
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 477
-- Identity status `high_confidence`: 460
+- Identity status `confirmed`: 480
+- Identity status `high_confidence`: 464
 - Identity status `probable`: 93
 - Identity status `ambiguous`: 47
-- Identity status `conflicting`: 39
-- Identity status `unresolved`: 22,824
+- Identity status `conflicting`: 40
+- Identity status `unresolved`: 22,816
 
 ## Personnel categories
 
@@ -49,26 +49,26 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 21,130
+- `not_started`: 21,110
 - `in_progress`: 49
 - `candidate_found`: 1
 - `needs_identity_review`: 64
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 56
+- `documented_prewar_employer_found`: 57
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 405
-- `requires_archival_review`: 1,909
-- `completed`: 85
-- `conflicting_sources`: 40
+- `occupation_only_found`: 407
+- `requires_archival_review`: 1,922
+- `completed`: 88
+- `conflicting_sources`: 41
 - `verified_employer_found`: 185
-- Claim confidence: 658 confirmed; 995 high; 526 medium; 38 low; 50
+- Claim confidence: 661 confirmed; 998 high; 530 medium; 38 low; 51
   conflicting
-- Durable evidence inventory: 3,097 source records representing 1,429 unique
-  documents; 455 organizations; 1,134 affiliations; 2,267 claims; and 5,116
+- Durable evidence inventory: 3,113 source records representing 1,436 unique
+  documents; 457 organizations; 1,139 affiliations; 2,278 claims; and 5,141
   claim-source links
-- Reviewed public projection: 444 organizations; 1,125 published, qualified,
-  or conflict-visible affiliations; 2,229 published, qualified, or
-  conflict-visible claims; and 2,037 public citation records
+- Reviewed public projection: 446 organizations; 1,130 published, qualified,
+  or conflict-visible affiliations; 2,240 published, qualified, or
+  conflict-visible claims; and 2,049 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,593. The detailed adapter breakdown remains reproducible in
+  2,613. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,135 across 1,101 people; 125 additional
+- Saved `source_reviewed` outcomes: 1,143 across 1,109 people; 125 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,012
+- Total recorded attempts/plans: 4,032
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,048; 1,020 have at least one public-visible
+- People with saved reviewed claims: 1,056; 1,028 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5070,14 +5070,84 @@ Commissioned classification: 2,212 yes; 5,339 no; 16,389 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `8380ddce022b517f1024e84047d3e6ad33b86b26e33824fae868951acb290da1`.
-- Public-visible affiliations: 1,125 (published, qualified, or conflict-visible)
-- Database claims: 2,267; public-visible claims: 2,229 (658 confirmed, 995 high,
-  526 medium, 50 conflicting); 32 low-confidence claims are withheld and six
+- Batch 303 covers Collins D. Almon through John T. Alstrom Jr. on PDF page 7,
+  the next ten previously unresearched rows; the already researched Stewart
+  Alsop row remains separate and was not repeated. Exact full-name and private-
+  identifier agreement confirms Collins D. Almon, but the matched Army record
+  is dated September 1946 and is used only for identity, never as pre-OSS
+  employment or wartime status. Two independent contemporary Pittsburgh
+  sources support a high-confidence identity for Zelly C. Alpert and document
+  University of Pittsburgh dental-student status in 1934-1935; the university
+  is not labeled an employer. A French national-archives finding aid and a
+  reputable obituary support John D. Alsop as John deKoven Alsop, alias Alonce,
+  of OSS mission Freelance, but establish no pre-OSS employer. A contemporary
+  Field Artillery officer roster supports John T. Alstrom Jr.'s qualified 1940
+  military assignment with the 1st Battalion, 16th Field Artillery at Fort
+  Myer; it is neither a civilian employer nor proven immediate pre-OSS service.
+  Alfred L. Aloist, Hermes V. Alonso, Jesse Alonzo, Flora B. Alper, Alice
+  Alpert, and Anetra E. Alpert remain unresolved Box 12 archival-review
+  profiles. No authenticated Catalog request, credential, raw API response,
+  full private identifier, or unsupported employer claim was used or
+  published.
+- Batch 303 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression and the complete 906 / 906 browser and accessibility matrix across
+  desktop, phone, and tablet, a deterministic 200-profile audit, complete
+  24,393-page internal-link check, SQLite integrity and foreign-key checks,
+  zero-warning Astro diagnostics, and a dependency audit with zero
+  vulnerabilities. The public-identifier audit compared 12,926 normalized
+  identifiers and 120 genuine formatted variants across 24,463 production
+  artifacts, rejected 1,035 harmless candidate substrings, and found no
+  aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 76,716,878 bytes; the manifest SHA-256 is
+  `08f0e688e7ebc6ba0c302ac0b43eb020811b43c6726ea1c85a6704776dedf34c`.
+  Consecutive public-data builds reproduced digest
+  `5ba6c0dd423c9f0e575fd848cc109cd7a1e43b4ec0e5831b2b46d63a892c2ae4`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `8b481b56870ff9e390b5bd8dc74ce51b0290291c22f19e5c2ee680d4ffedd8eb`.
+- Batch 304 covers Franz L. Alt through Frank R. Alvaro on PDF page 7, the next
+  ten previously unresearched rows. An Austrian Mathematical Society biography
+  and reproduced Army identity card support Franz Leopold Alt as the indexed
+  Franz L. Alt with high confidence. The same source explicitly brackets his
+  Econometric Institute employment from 1938 until his 1943 Army draft, so the
+  institute is published as his high-confidence last civilian employer before
+  military service, not as a proven immediate pre-OSS affiliation. Exact full-
+  name and private-identifier agreement confirms Guy O. Altman and Frank R.
+  Alvaro. Their official Army-entry codes are published only as qualified
+  occupation categories: managers and officials not elsewhere classified for
+  Altman in June 1941, and manufacturing foremen for Alvaro in June 1942. No
+  employer is inferred from either category. Leonard F. Altieri's private
+  identifier resolves to a different first name in the official Army file; the
+  conflict remains visible while the unrelated first name, identifier, date,
+  and occupation are withheld. Daniel Althoff, Frederick T. Altman, Howard P.
+  Altman, Frederick V. Altvater, Herminia Alvarez, and Ida Alvarez remain
+  unresolved Box 12 archival-review profiles. No authenticated Catalog request,
+  credential, raw API response, full private identifier, or unsupported employer
+  claim was used or published.
+- Batch 304 local release QA passed all 74 Python tests, a focused 3 / 3 browser
+  regression and the complete 909 / 909 browser and accessibility matrix across
+  desktop, phone, and tablet, a deterministic 200-profile audit, complete
+  24,394-page internal-link check, SQLite integrity and foreign-key checks,
+  zero-warning Astro diagnostics, and a dependency audit with zero
+  vulnerabilities. The public-identifier audit compared 12,926 normalized
+  identifiers and 120 genuine formatted variants across 24,464 production
+  artifacts, rejected 1,037 harmless candidate substrings, and found no
+  aggregate, manifest-size, or unexpected boundary matches. All 65 manifest
+  assets match across 76,770,681 bytes; the manifest SHA-256 is
+  `5f6b12fba3cb0f601dfc6b09295f81de7377ed0a0e74f8af0f7992fb6522e5a6`.
+  Consecutive public-data builds reproduced digest
+  `05f63fd68a801f256069882e924162de21727631928e8dc3ce6afaeb0a9f4097`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `0f2357b00be97827fc20bbfad4f5a00a0fde65933b6a9470a095739a9878e0f3`.
+- Public-visible affiliations: 1,130 (published, qualified, or conflict-visible)
+- Database claims: 2,278; public-visible claims: 2,240 (661 confirmed, 998 high,
+  530 medium, 51 conflicting); 32 low-confidence claims are withheld and six
   rejected
-- Claim-source links: 5,116 total and 5,034 public-visible; private source
-  records: 3,097; public source export: 2,037; unique source documents: 1,429
-- Canonical organizations: 455 private and 444 public
-- Conflicting claims: 50 across 42 people with an identity or research-status
+- Claim-source links: 5,141 total and 5,059 public-visible; private source
+  records: 3,113; public source export: 2,049; unique source documents: 1,436
+- Canonical organizations: 457 private and 446 public
+- Conflicting claims: 51 across 42 people with an identity or research-status
   conflict
 - NARA pull-list rows: 23,793
 
@@ -5117,6 +5187,8 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-franz-l-alt-through-frank-r-alvaro-pathways_batch-304_2026-08-19.json
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-collins-d-almon-through-john-t-alstrom-jr-pathways_batch-303_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seven-james-h-allison-jr-through-herbert-l-almand-pathways_batch-302_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-fifty-eight-eleanor-brummer-through-carl-brunner-pathways_batch-301_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-seven-morton-l-bruder-through-gordon-o-brummel-pathways_batch-300_2026-08-19.json
