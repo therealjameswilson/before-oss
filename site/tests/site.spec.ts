@@ -24996,3 +24996,55 @@ test("Batch 311 publishes Brutz's qualified occupation and preserves unresolved 
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 312 separates Buchanan's prewar vocation from student and occupation-only findings", async ({
+  page,
+}) => {
+  await page.goto("./people/656f3d0f-c5ba-5d1b-b3a6-a0230ee1f74f/");
+  await expect(page.getByRole("heading", { name: "John S Buc Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Occupation in fabrication of textile products, not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/7cd460be-505d-58f0-882a-1d1157beb233/");
+  await expect(page.getByRole("heading", { name: "Jack C Buchanan", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/01c42fc5-95f0-5df3-adbd-66e1870a58f2/");
+  await expect(
+    page.getByRole("heading", { name: "Daniel C Buchanan", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Daniel Crump Buchanan");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Presbyterian minister, missionary, and teacher",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  for (const unresolvedPerson of [
+    ["54f1f647-a5b9-5cc2-b202-99fd32ead553", "William V Bryant"],
+    ["2ce6aa90-5680-5225-bc5e-51e0965e1767", "Virginia L Brydon"],
+    ["0324d2b5-eb9e-56aa-bb1f-371775502ced", "Roscoe N Bryson"],
+    ["3e6b92a9-a010-5c8c-ac02-d417e127f571", "Albert A Buccina"],
+    ["4329bbb8-d6be-5da3-ba17-5db530e93e7e", "Joseph Buccola Jr."],
+    ["c85cf5ae-63c5-51b7-bed9-4447c70a2dab", "Henry C Buchan Jr."],
+    ["cc72387c-a21f-5de0-9162-08f0050ac6d9", "Thomas A Buchanan"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
