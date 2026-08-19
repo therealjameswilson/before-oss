@@ -5,14 +5,19 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,406 pages**
-- Internal link check: **24,406 HTML files passed**
-- Expanded browser and accessibility matrix: **951 / 951 passed** across
-  desktop, phone, and tablet. The initial single-worker sweep passed **949 /
-  951**; the two older, unchanged tablet cases that reached the 45-second test
-  timeout then passed **2 / 2** in an isolated single-worker rerun. The 27 axe
-  cases cover representative routes and test for serious or critical
+- Static production build: **24,408 pages**
+- Internal link check: **24,408 HTML files passed**
+- Expanded browser and accessibility matrix: **954 / 954 passed** across
+  desktop, phone, and tablet. The initial 45-minute single-worker sweep passed
+  **951 / 954**; the three older, unchanged cases affected by a macOS display-
+  link failure or the 45-second timeout then passed **3 / 3** in fresh isolated
+  single-worker reruns. The 27 axe cases cover representative routes and test
+  for serious or critical
   accessibility violations.
+- Focused Batches 319-321 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It verifies bounded occupations, the separate Big Sandy
+  High School student relationship, the qualified Justice Department
+  assignment, public organization links, and unresolved archival paths.
 - Focused Batch 318 browser regression: **3 / 3 passed** across desktop, phone,
   and tablet. It also verifies that a documented organization on a person
   profile links directly to the corresponding organization page.
@@ -153,36 +158,46 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`037aefbe592433d4e360e8fa84dc504a30a13f822a0017cf1cf34bdaeda6964c`)
-- Latest deterministic public-data build (Batch 318): **byte-for-byte
+  (`f05040707e6a3426cebf00f817990e59ed5bdb983f3eff1eb0b5f1faaf6389fb`)
+- Latest deterministic public-data build (Batches 319-321): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`8975fd3b6f2a49e00bcc3037a42684c45c710b5d6e7a2d0ee8e91e71d18a0c0c`).
+  (`e8c326768820d432fb52f4f336b4287aa2385d92eb0212260b2e32f327d0b646`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **77,617,997 bytes** in both the source and production trees;
+  across **77,823,098 bytes** in both the source and production trees;
   manifest SHA-256
-  `aaa6891d0e26686f437a51d43717c5ed72e0e5324e8d4fbc726cf4ce08153709`.
+  `9bbe8eef4a2fbcf638f9cf58c5dc326ef4c29c22d4c58ae662a155dcd62b87aa`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,476** production artifacts, including compressed mirrors;
-  **1,033** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,478** production artifacts, including compressed mirrors;
+  **1,035** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,136** public records representing **1,479** unique documents
-- Private citation records: **3,214**
-- Published, qualified, or conflict-visible affiliations: **1,179**
-- Published or conflict-visible claims: **2,340**
-- Verified-affiliation metric: **437** people with confirmed/high published
+- Reviewed public sources: **2,151** public records representing **1,484** unique documents
+- Private citation records: **3,229**
+- Published, qualified, or conflict-visible affiliations: **1,192**
+- Published or conflict-visible claims: **2,366**
+- Verified-affiliation metric: **439** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **189** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batches 319-321 local release checks: **passed**; 74 Python tests plus five
+  parser subtests, the focused **3 / 3** browser regression, the complete
+  **954 / 954** browser and accessibility matrix after the documented fresh-process
+  reruns, the 24,408-route link check, deterministic rebuilds, 65-asset manifest
+  audit, dependency audit, 200-profile audit, database integrity checks, and
+  public-identifier audit all pass. Eleven broad or bounded occupational groups
+  remain outside employer analytics; Big Sandy High School remains student
+  evidence; Charles S. Burdell's Justice Department role remains a documented
+  prewar government assignment rather than an immediate affiliation; and the
+  remaining unsupported identities route to archival review.
 - Batch 318 local release checks: **passed**; 74 Python tests plus five parser
   subtests, the focused **3 / 3** browser regression, the complete **951 / 951**
   browser and accessibility matrix after the documented isolated rerun, the

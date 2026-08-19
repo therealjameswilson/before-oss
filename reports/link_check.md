@@ -4,16 +4,45 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,406 HTML files. Every relative
+**PASS.** The production build contains 24,408 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 458 organization profiles, and the
+The build includes 23,940 person profiles, 460 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,357 unique external URLs for separate live
+The checker inventoried 49,362 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batches 319-321 local release check
+
+The complete 24,408-page internal-link pass includes the 30 researched index
+rows from Donald A. Bullard through Gerald H. Burdine, the Big Sandy High School
+and U.S. Department of Justice organization pages, and direct person-profile
+links only where a public organization page exists. The 74-test Python suite,
+deterministic 200-profile audit, focused three-viewport regression, complete 954
+/ 954 browser and accessibility matrix after three documented fresh-process
+reruns, dependency audit, database integrity checks, and public-identifier audit
+pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,823,098 bytes and has
+SHA-256
+`9bbe8eef4a2fbcf638f9cf58c5dc326ef4c29c22d4c58ae662a155dcd62b87aa`.
+The boundary-aware audit compared 12,926 normalized private identifiers and 120
+genuine formatted variants across 24,478 production artifacts, rejected 1,035
+harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`e8c326768820d432fb52f4f336b4287aa2385d92eb0212260b2e32f327d0b646`.
+Consecutive finalized production builds produced identical complete static-tree
+digest
+`f05040707e6a3426cebf00f817990e59ed5bdb983f3eff1eb0b5f1faaf6389fb`.
+The regression preserves occupation, student, government-assignment, and
+unresolved evidence boundaries without inventing employers.
 
 ## Batch 318 local release check
 

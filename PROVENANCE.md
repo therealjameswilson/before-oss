@@ -3587,6 +3587,61 @@ review. No authenticated Catalog request, credential, raw API response, full
 private identifier, full copyrighted page, or unsupported employer claim was
 stored or published.
 
+## Page-sixty Bullard-through-Bundick pathways, Batch 319
+
+`research/evidence-page-sixty-bullard-through-bundick-pathways_batch-319_2026-08-19.json`
+records nine newly researched people and a fresh integrity review of Ralph J.
+Bunche across PDF page 60 in Box 92. The index page and official Army technical
+documentation were visually checked; the official merged file was searched by
+private identifier outside version control. No raw record or full identifier
+was retained.
+
+The strict bundle contains five sources, one organization, five affiliations,
+ten claims, twenty-four claim-source links, nine person updates, and ten durable
+research attempts. Exact private-identifier agreement confirms Joe L. Bullock,
+Charles A. Bullwinkel, Leland Bunch, Henry Bund, and Billie B. Bundick. The
+accepted evidence publishes only four date-bounded occupational groups: general
+farm hand, packing/filling/labeling work, an otherwise-unspecified professional
+occupation, and general-office clerk. Billie B. Bundick's contemporary school
+record separately supports Big Sandy High School graduate status; it is not an
+employer. Ralph J. Bunche's already reviewed personnel-file conclusions remain
+unchanged. Four unsupported identities route to Box 92 review, while Leland
+Bunch's confirmed identity still requires archival review because the official
+occupation value is not decoded into a job or employer.
+
+## Page-sixty Bundy-through-Buontempo pathways, Batch 320
+
+`research/evidence-page-sixty-bundy-through-buontempo-pathways_batch-320_2026-08-19.json`
+records ten contiguous people on PDF page 60 in Box 92. The strict bundle
+contains four official sources, two affiliations, four claims, ten claim-source
+links, ten person updates, and ten durable research attempts. Exact private-
+identifier agreement confirms Rudolph N. Buonagura and John J. Buoncristiani;
+their official Army-entry records support only, respectively, tailor and
+draftsman occupational groups on November 25, 1942 and April 3, 1943. No shop,
+firm, industry, specialty, workplace, duties, or Army-to-OSS chronology is
+inferred. The remaining eight identities route to Box 92 review.
+
+## Page-sixty Buonviso-through-Burdine pathways, Batch 321
+
+`research/evidence-page-sixty-buonviso-through-burdine-pathways_batch-321_2026-08-19.json`
+records ten contiguous people from Dora R. Buonviso through Gerald H. Burdine
+across Boxes 92-93 on PDF page 60. The strict bundle contains six sources, one
+organization, six affiliations, twelve claims, thirty claim-source links, ten
+person updates, and ten durable research attempts.
+
+Exact private-identifier agreement confirms Dora R. Buonviso, Max Buran, Ward
+A. Burbidge, John J. Burchill, and Gerald H. Burdine. Their dated official
+occupational groups remain qualified and name no employer: general-office
+clerk; shipping or receiving clerk; chauffeur or driver; messenger, errand, or
+office worker; and chauffeur or driver. A January 1942 federal court record and
+Harvard's later Nuremberg archive support Charles S. Burdell's high-confidence
+identity and documented prewar Justice Department assignment. The evidence does
+not show that Justice immediately preceded OSS, so it is neither labeled
+immediate nor converted into a civilian-employer claim. Four unsupported
+identities route to Boxes 92-93 review. Across Batches 319-321, no authenticated
+Catalog request, credential, raw API response, full private identifier, full
+copyrighted page, or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
