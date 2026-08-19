@@ -3463,6 +3463,33 @@ authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, or unsupported employer claim was stored or
 published.
 
+## Page-fifty-nine Bucky-through-Buegnon pathways, Batch 315
+
+`research/evidence-page-fifty-nine-bucky-through-buegnon-pathways_batch-315_2026-08-19.json`
+records ten contiguous previously unresearched people from Thomas L. Bucky
+through Raphael Buegnon on PDF page 59 in Boxes 90-91. The index page and the
+relevant Army code-list pages were rendered and visually checked. The official
+Army merged file was searched by private identifier outside version control;
+no raw record or full identifier was retained.
+
+The strict evidence bundle contains four official sources, two affiliations,
+five claims, twelve claim-source links, ten person updates, and ten durable
+research attempts. Exact private-identifier agreement confirms Francis J.
+Bucolo, Bernard J. Budenosky, and Anthony J. Budraitis. The official Army-entry
+records establish only Bucolo's sales-clerk occupation on January 16, 1941 and
+Budraitis's meatcutter occupation on December 22, 1942. Neither code names an
+employer, store, product, shop, market, workplace, or Army-to-OSS sequence.
+Budenosky's official record confirms identity and an October 24, 1939 Army-
+entry date, but its zero occupation field supports no occupation claim.
+
+Thomas L. Bucky, Anthony Buda, William H. Budd, Adelaide M. Budde, Paul E.
+Budrea, Walter A. Budz, and Raphael Buegnon remain unresolved and route to Box
+90-91 review. The printed 1st Lt and 2nd Lt grades preserve Bucky, Budrea, and
+Buegnon's commissioned-officer classifications, but no unsupported officer
+biography or nationality is assigned. No authenticated Catalog request,
+credential, raw API response, full private identifier, full copyrighted page,
+or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

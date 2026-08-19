@@ -25176,3 +25176,60 @@ test("Batch 314 publishes four identifier-backed occupations without promoting c
   await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("radiologist-author namesake");
 });
+
+test("Batch 315 publishes two dated occupations and preserves officer and archival limits", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["be6a9f56-c597-5f9b-ae54-061c7796ef12", "Francis J Bucolo", "Sales clerk"],
+    [
+      "a964fca6-9e82-51b6-a2ff-3586f1b75888",
+      "Anthony J Budraitis",
+      "Meatcutter, except in slaughtering and packing houses",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/8c686b54-6f77-5067-bd26-e7acbe01fa6a/");
+  await expect(page.getByRole("heading", { name: "Bernard J Budenosky", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const unresolvedPerson of [
+    ["57003589-cb8c-5172-a0ed-4bf1c1f508a9", "Thomas L Bucky"],
+    ["0f7d5a5f-2a57-567c-a6ba-8e185957b9ce", "Anthony Buda"],
+    ["b883314d-61c5-51cc-bf11-e26893db4fdf", "William H Budd"],
+    ["da7dc74c-1f44-5893-bdf4-d5e038a0219f", "Adelaide M Budde"],
+    ["f49a3a2a-fe5f-58b7-afa6-92d719d882c2", "Paul E Budrea"],
+    ["93c6de52-60f3-5a09-9376-6ca00dcb4a59", "Walter A Budz"],
+    ["e47e8cdf-fbd1-5eb1-b399-3fe622379b68", "Raphael Buegnon"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const officerId of [
+    "57003589-cb8c-5172-a0ed-4bf1c1f508a9",
+    "f49a3a2a-fe5f-58b7-afa6-92d719d882c2",
+    "e47e8cdf-fbd1-5eb1-b399-3fe622379b68",
+  ]) {
+    await page.goto(`./people/${officerId}/`);
+    await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  }
+});
