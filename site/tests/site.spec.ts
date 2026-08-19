@@ -24857,3 +24857,97 @@ test("Batch 309 publishes qualified Brooks evidence without inventing an immedia
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 310 publishes identifier-backed occupations and qualified Marine and Air Force pathways", async ({
+  page,
+}) => {
+  const occupationProfiles = [
+    ["e117303b-528d-5977-a6e8-610040fc8750", "John H Beck", "Clerk, general office"],
+    [
+      "43ad04cd-f483-56ee-9758-88905a048cd8",
+      "Arthur Bruno",
+      "Barber, beautician, or manicurist occupational group",
+    ],
+    ["a69d7816-90f7-51e5-a7d0-03a67978799e", "Guy D Bruno", "student"],
+    ["e6ad236e-926b-57ae-ac20-0e884f88fa44", "Leonard C Bruno", "Civil engineer"],
+    [
+      "14ff7035-bbf9-5d34-9825-07c88c5d254c",
+      "Louis F Bruno",
+      "Occupation in trades and services, not elsewhere classified",
+    ],
+  ] as const;
+
+  for (const [personId, name, occupation] of occupationProfiles) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "medium",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/bcfb9ef0-8447-55c1-8dbd-2e6612f80392/");
+  await expect(page.getByRole("heading", { name: "Frederick J Brunner", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted marine corps personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Platoon Sergeant Frederick J. Brunner");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/f1f47d91-6016-514a-9629-f1513e91297c/");
+  await expect(page.getByRole("heading", { name: "Arthur Brunstad", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Fourth Air Force",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "chemical officer",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "probable immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Washington State College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./organizations/56bd4166-0f0c-549f-a9f0-917339b6a12f/");
+  await expect(page.getByRole("heading", { name: "Fourth Air Force", exact: true })).toBeVisible();
+  await expect(page.getByText("Arthur Brunstad", { exact: true })).toBeVisible();
+
+  await page.goto("./organizations/76f9b25f-eac3-5213-84e1-32876405cc6b/");
+  await expect(
+    page.getByRole("heading", { name: "Washington State College", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Arthur Brunstad", { exact: true })).toBeVisible();
+
+  for (const unresolvedPerson of [
+    ["bcc4e835-7fdc-5540-a493-a22d4a6bf5ae", "Edwin F Brush"],
+    ["c94be4b6-17c4-58f0-b051-d3e006fe67c3", "Gilmer G Brush"],
+    ["0f4a8083-b3ba-5915-8761-49fdb9a2af34", "Theodore R Bruskin"],
+  ] as const) {
+    await page.goto(`./people/${unresolvedPerson[0]}/`);
+    await expect(page.getByRole("heading", { name: unresolvedPerson[1], exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/0f4a8083-b3ba-5915-8761-49fdb9a2af34/");
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+});

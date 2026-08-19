@@ -5,11 +5,15 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,400 pages**
-- Internal link check: **24,400 HTML files passed**
-- Latest complete browser and accessibility matrix: **924 / 924 passed** in the
+- Static production build: **24,402 pages**
+- Internal link check: **24,402 HTML files passed**
+- Latest complete browser and accessibility matrix: **927 / 927 passed** in the
   single-worker run across desktop, phone, and tablet. The 27 axe cases found
   no serious or critical accessibility violation.
+- Focused Batch 310 browser regression: **3 / 3 passed** across desktop, phone,
+  and tablet after one assertion was aligned with the rendered lowercase
+  student-status label; the expanded **927 / 927** browser and accessibility
+  matrix also passed locally.
 - Focused Batch 309 browser regression: **3 / 3 passed** across desktop, phone,
   and tablet; the expanded **924 / 924** browser and accessibility matrix also
   passed locally.
@@ -122,32 +126,32 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`5361f20293e688f60fb1a7424633f05f5265e0bb6cd22faa7123bdd90b019be6`)
-- Latest deterministic public-data build (Batch 309): **byte-for-byte
+  (`cadcd8aa4b28cae922afd42c2b3ef2647d5f07033a4adbafd14fed3d64b43143`)
+- Latest deterministic public-data build (Batch 310): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`ba05f3c2b9de263e46a7e6ea0abd4a755e84a44291374aea6cc996d194e75985`).
+  (`06847a8884ad39972fd1b5fce3587ecf6823995f7d6baaf54f441394a4da579e`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **77,114,814 bytes** in the public tree;
+  across **77,208,436 bytes** in the public tree;
   manifest SHA-256
-  `683db9c3cac0af39ff3f94e35be30a8729b826261502fea466f2f75ea70a5aa8`.
+  `91ee270e8e808b19413b1de699c9e1ec8f5566175dff080844e662fa51e44483`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,470** production artifacts, including compressed mirrors;
-  **1,035** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,472** production artifacts, including compressed mirrors;
+  **1,036** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,083** public records representing **1,457** unique documents
-- Private citation records: **3,160**
-- Published, qualified, or conflict-visible affiliations: **1,151**
-- Published or conflict-visible claims: **2,278**
-- Verified-affiliation metric: **434** people with confirmed/high published
+- Reviewed public sources: **2,091** public records representing **1,460** unique documents
+- Private citation records: **3,168**
+- Published, qualified, or conflict-visible affiliations: **1,158**
+- Published or conflict-visible claims: **2,292**
+- Verified-affiliation metric: **435** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **189** people with confirmed/high published
   employment or self-employment evidence
