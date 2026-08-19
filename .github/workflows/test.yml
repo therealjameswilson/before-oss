@@ -30,7 +30,7 @@ jobs:
         run: npm ci
       - name: Install browser
         working-directory: site
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps --only-shell chromium
       - name: Build and test site
         working-directory: site
         run: npm test
