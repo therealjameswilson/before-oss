@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-19 UTC
+Run: 2026-08-20 UTC
 
 ## Internal static routes
 
@@ -12,8 +12,37 @@ The build includes 23,940 person profiles, 461 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,367 unique external URLs for separate live
+The checker inventoried 49,370 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 325 local release check
+
+The complete 24,409-page internal-link pass includes the ten contiguous Box 94
+rows from Thomas I. Burke through Raymond E. Burkhart on PDF page 61 and the
+new University of Wisconsin and U.S. Navy evidence paths for Frederick H.
+Burkhardt. All 74 Python tests, the deterministic 200-profile audit, focused
+three-viewport regression, complete 966 / 966 browser and accessibility matrix
+in one uninterrupted run, dependency audit, database integrity checks, and
+public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,126,165 bytes and has
+SHA-256
+`72bb13c3673352f7687af9530de65518e76c300acbf1c2b76ebf9469726675d4`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,479 production artifacts, rejected
+1,040 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`f890c562b62c8c60c6e1ae99979f2ca0d5122aeab1cdae8533221bebe60faa43`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`60fe9e83dfdeff2adde0cc1da86cd042b88c9b53f91430c76a779a3f9ccd0816`.
+The regression preserves occupation, employer, military-assignment, post-OSS,
+identity, and archival-review boundaries without inventing organizations or
+chronology.
 
 ## Batch 324 local release check
 

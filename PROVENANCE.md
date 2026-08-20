@@ -3753,6 +3753,50 @@ linkage and was rejected. No authenticated Catalog request, credential, raw API
 response, full private identifier, full copyrighted page, or unsupported
 employer claim was stored or published.
 
+## Page-sixty-one Thomas Burke through Raymond Burkhart pathways, Batch 325
+
+`research/evidence-page-sixty-one-thomas-burke-through-raymond-burkhart-pathways_batch-325_2026-08-20.json`
+records the ten contiguous Box 94 rows from Thomas I. Burke through Raymond E.
+Burkhart on PDF page 61. The original-resolution index page, NARA's Army-file
+technical documentation, and occupation-code pages 170, 171, 174, 175, and
+178 were visually checked. The official merged Army file was searched by
+private identifier outside version control. Only project-authored decisions
+and stable citation pointers were retained; no raw record, response body, full
+identifier, or unrelated subject detail was stored.
+
+The strict bundle contains eight sources, two organization inputs, seven
+affiliations, fourteen claims, thirty-six claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier agreement
+confirms Thomas W. Burke, Timothy J. Burke, William J. Burke, George W.
+Burkett Jr., James E. Burkhardt, and Horace R. Burkhart. The official code
+list supports qualified occupational groups for five of them: author, editor,
+or reporter; secondary-school teacher or principal; general office clerk;
+chauffeur or bus, taxi, truck, or tractor driver; and mineral-extraction or
+construction driller. Those fields name no employer, school, vehicle, mine,
+worksite, exact duties, or Army-to-OSS chronology. James E. Burkhardt's Army
+entry occurred on October 18, 1945, after NARA's September 20, 1945 OSS
+termination date, so his transportation-agent occupation is retained only as
+identity context and deliberately excluded from pre-OSS affiliations and
+claims.
+
+The [University of Wisconsin Board of Regents minutes](https://asset.library.wisc.edu/1711.dl/6LB5IHLXSG6EQ83/E/file-cd1d9.pdf?dl=)
+directly name Frederick H. Burkhardt as an assistant professor of philosophy
+on leave without pay for the 1943-44 academic year. The [University of
+Cambridge Darwin Correspondence Project](https://www.darwinproject.ac.uk/about/history-project/frederick-burkhardt-1912-2007)
+and a [Los Angeles Times obituary](https://www.legacy.com/us/obituaries/latimes/name/frederick-burkhardt-obituary?id=10693845)
+corroborate the distinctive identity and document the University of Wisconsin
+to Navy to OSS sequence. The Navy is modeled as a strongly date-bounded
+immediate military assignment; the university is the verified last civilian
+employer. The historical university name remains in evidence while its
+canonical organization is University of Wisconsin-Madison.
+
+Thomas I. Burke, William E. Burke, and Raymond E. Burkhart remain unresolved
+and route to Box 94 review. The Army technical documentation's missing ranges
+and conversion warnings make their nonmatches nondispositive. No authenticated
+Catalog request, credential, raw API response, full private identifier, full
+copyrighted page, post-OSS occupation relabeled as pre-OSS evidence, or
+unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:
