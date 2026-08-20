@@ -4,13 +4,22 @@ Run: 2026-08-20 UTC
 
 ## Result
 
-The expanded release matrix contains **966** browser, responsive, and
+The expanded release matrix contains **969** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The uninterrupted
-single-worker sweep passed **966 / 966** in 11.6 minutes. The matrix includes
+single-worker sweep passed **969 / 969** in 14.8 minutes. The matrix includes
 27 axe scans of representative routes, including the growing Sources table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 326 adds a focused direct-route regression for Charles W. Burkle through
+George I. Burneston Jr. on PDF page 61. It verifies two qualified electrical-
+manufacturing occupation groups; keeps Lowell Burmaster's unassigned Army code
+out of public occupation evidence; presents Covington & Burling as Edward
+Burling Jr.'s verified last civilian employer while withholding his unresolved
+Army-Air-Forces-to-OSS sequence; preserves Carnelealia P. Burling as a probable
+identity needing review; and routes the five unsupported identities to Box 94.
+The focused regression passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 325 adds a focused direct-route regression for Thomas I. Burke through
 Raymond E. Burkhart on PDF page 61. It verifies five qualified, exact-

@@ -3797,6 +3797,56 @@ Catalog request, credential, raw API response, full private identifier, full
 copyrighted page, post-OSS occupation relabeled as pre-OSS evidence, or
 unsupported employer claim was stored or published.
 
+## Page-sixty-one Charles Burkle through George Burneston pathways, Batch 326
+
+`research/evidence-page-sixty-one-charles-burkle-through-george-burneston-pathways_batch-326_2026-08-20.json`
+records the ten contiguous Box 94 rows from Charles W. Burkle through George
+I. Burneston Jr. on PDF page 61. The original-resolution index page, NARA's
+Army-file technical documentation, and occupation-code pages 171 and 174 were
+visually checked. The official merged Army file was searched by private
+identifier outside version control. Only project-authored decisions and stable
+citation pointers were retained; no raw record, response body, full identifier,
+or unrelated subject detail was stored.
+
+The strict bundle contains seven sources, two organization inputs, four
+affiliations, nine claims, twenty-three claim-source links, ten person updates,
+and ten durable research attempts. Exact private-identifier agreement confirms
+Charles W. Burkle, Lowell Burmaster, and George I. Burneston Jr. NARA's
+corrected list decodes code 499 as the broad group covering occupations in the
+manufacture of electrical machinery and accessories, not elsewhere classified.
+The grouped evidence is published for Burkle and Burneston with medium
+confidence and names no employer, establishment, product, exact trade,
+location, or Army-to-OSS chronology. Burmaster's code 147 is absent between
+codes 145 and 148 in the corrected list, so it is retained only in private
+review notes and supports no public occupation or employer claim.
+
+The [Washington Post obituary](https://www.washingtonpost.com/archive/local/2002/12/01/edward-burling-jr-dies/e18f423b-49e3-427c-96a6-e4a76d3d0624/)
+dates Edward Burling Jr.'s entry into Covington & Burling to 1935 and documents
+later World War II Army Air Forces service. The [Library of Congress HABS
+record](https://www.loc.gov/pictures/item/dc0262/) independently identifies him
+as a lawyer and senior partner of Covington and Burling. [*Watch Hill Through
+Time*](https://thewatchhillconservancy.org/wp4/wp-content/uploads/2019/04/WatchHill_TT.pdf)
+names Edward Burling Jr. as a firm partner and identifies Carnealia Perin
+Burling Tyler as his first wife. Together with the rare exact indexed name and
+suffix, Washington legal context, and adjacent Burling rows, this supports a
+high-confidence Edward identity and Covington & Burling as the last civilian
+employer before wartime military service. The firm is not presented as the
+immediate pre-OSS affiliation. The Army Air Forces evidence remains private
+and review-pending because its sequence relative to OSS is not established.
+
+The indexed Carnelealia P. Burling is a probable spelling variant of Carnealia
+Perin Burling Tyler, supported by the rare near-exact first name, matching P
+initial and surname, and adjacent independently resolved Edward row. Box 94
+confirmation is still required. The same local history states that Carnealia's
+sister Anne Wallingford Perin served in OSS; that statement is not transferred
+to Carnealia and supports no employment claim for her. Richard V. Burks, Roy
+F. Burleigh, Anson Burlingame, Richard G. Burlingame, and Margaret M. Burnes
+remain unresolved. Anson retains the printed captain classification, and the
+famous nineteenth-century diplomat is rejected as chronologically impossible.
+No authenticated Catalog request, credential, raw API response, full private
+identifier, full copyrighted page, unassigned occupation code, relative's
+biography, or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

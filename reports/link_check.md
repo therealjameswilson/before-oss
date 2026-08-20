@@ -4,16 +4,45 @@ Run: 2026-08-20 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,409 HTML files. Every relative
+**PASS.** The production build contains 24,410 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 461 organization profiles, and the
+The build includes 23,940 person profiles, 462 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,370 unique external URLs for separate live
+The checker inventoried 49,374 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 326 local release check
+
+The complete 24,410-page internal-link pass includes the ten contiguous Box 94
+rows from Charles W. Burkle through George I. Burneston Jr. on PDF page 61 and
+the new Covington & Burling organization route. All 74 Python tests, the
+deterministic 200-profile audit, focused three-viewport regression, complete
+969 / 969 browser and accessibility matrix in one uninterrupted run,
+dependency audit, database integrity checks, and public-identifier audit pass;
+Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,199,867 bytes and has
+SHA-256
+`0c786024a4fb62b14c24acad357a6c8553afd1cc1e46eebb6ad92828d86a7c41`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,480 production artifacts, rejected
+1,041 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`e75bf12e4b7b081e23d14de9bbcab2687ce7c74ae3048c4a8f1a90842b6a5042`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`cdfe2c75875c510ffb195e96ca8358b3a575017a4b612a3d046a1258216011dc`.
+The regression keeps occupation, employer, military chronology, probable
+identity, and archival-review evidence in separate lanes without publishing an
+unassigned occupation code or transferring a relative's biography.
 
 ## Batch 325 local release check
 

@@ -25774,3 +25774,79 @@ test("Batch 325 separates Army occupations, Frederick Burkhardt's pathway, and p
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 326 separates qualified occupations, Edward Burling's employer, and unresolved identities", async ({
+  page,
+}) => {
+  for (const [personId, name] of [
+    ["f48119a0-4d07-583a-9b51-f8c1389edfd2", "Charles W Burkle"],
+    ["13534225-da81-574a-9207-21dce03faaa3", "George I Burneston Jr."],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "electrical-machinery or accessory manufacturing",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "temporal relation uncertain",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+
+  await page.goto("./people/00796129-1c3b-54da-aa29-658010228ae5/");
+  await expect(page.getByRole("heading", { name: "Lowell Burmaster", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("occupation code 147 is unassigned");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/6c652956-e082-5650-959b-c2ce3ae0b2ca/");
+  await expect(
+    page.getByRole("heading", { name: "Edward Burling Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Covington & Burling",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Lawyer and partner",
+  );
+  await expect(page.getByRole("link", { name: "Covington & Burling" }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/85c7af41-9de5-50f4-afc2-3caa2c46654f/");
+  await expect(
+    page.getByRole("heading", { name: "Carnelealia P Burling", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Carnealia Perin Burling Tyler");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/f0a0b8e5-2c82-53d9-937a-964099477e6d/");
+  await expect(page.getByRole("heading", { name: "Anson Burlingame", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const [personId, name] of [
+    ["8e0ab758-4e19-52ce-b162-ed1e1ce37549", "Richard V Burks"],
+    ["d457acc6-bf26-561e-aacd-5f791928c099", "Roy F Burleigh"],
+    ["ab5b76d0-449b-5b83-be05-75428969357f", "Richard G Burlingame"],
+    ["a4128cba-6481-5d7d-9543-c712c9d71cbf", "Margaret M Burnes"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
