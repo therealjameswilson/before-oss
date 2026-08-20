@@ -3670,6 +3670,43 @@ identities route to Box 93 review. No authenticated Catalog request, credential,
 raw API response, full private identifier, full copyrighted page, or
 unsupported employer claim was stored or published.
 
+## Page-sixty-one Burgess-through-Burke pathways, Batch 323
+
+`research/evidence-page-sixty-one-burgess-through-burke-pathways_batch-323_2026-08-19.json`
+records ten contiguous people from William F. Burgess through Francis T. Burke
+on PDF page 61 in Box 93. The index page and the relevant NARA Army technical-
+documentation pages were visually checked. The official merged Army file was
+searched by private identifier outside version control; no raw record, full
+identifier, or unrelated subject detail was retained.
+
+The strict bundle contains seven sources, three organization inputs, eight
+affiliations, fourteen claims, twenty-six claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier agreement
+confirms Victor A. Burisch, Robert F. Burk, and Edwin M. Burke. NARA's official
+records support only machinist, agents-and-appraisers-not-elsewhere-classified,
+and student fields. The student code was visually confirmed on physical page
+304 of the corrected code list. None names an employer, school, client,
+workplace, duties, or Army-to-OSS chronology.
+
+The [Indiana University finding aid](https://archives.iu.edu/catalog/InU-Li-VAE1247)
+supports Glenn A. Burgett's distinctive wartime lieutenant and military-lawyer
+identity, but not a civilian employer or dated OSS transition. A
+[Smith College institutional credit](https://www.smith.edu/libraries/libs/rarebook/exhibitions/dickens/17-dickens-in-america.htm)
+documents Marion Calkins Burgweger as Class of 1935, a student relationship
+rather than employment. Aleksandar Životić's archive-cited
+[scholarly study](https://www.sistory.si/eng/publication/41444) supports Mirko
+Leopold Burja's Royal Yugoslav general-staff, Washington military-attaché, and
+Argentina military-mission assignments; the evidence does not date his OSS
+entry, so no assignment is presented as an unqualified immediate predecessor.
+
+William F. Burgess, Alexander Burjan, and Francis T. Burke remain unresolved
+and route to Box 93 review. Edmund M. Burke's established identity and
+University of Pennsylvania evidence remain unchanged; an uncorroborated
+insurance-company lead stays out of the public claims. The adjacent Francis T.
+Burke row in Box 94 remains a possible duplicate, not a merge. No authenticated
+Catalog request, credential, raw API response, full private identifier, full
+copyrighted page, or unsupported employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

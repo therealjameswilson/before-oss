@@ -4,16 +4,46 @@ Run: 2026-08-19 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,408 HTML files. Every relative
+**PASS.** The production build contains 24,409 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 460 organization profiles, and the
+The build includes 23,940 person profiles, 461 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,362 unique external URLs for separate live
+The checker inventoried 49,366 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 323 local release check
+
+The complete 24,409-page internal-link pass includes the ten reviewed index
+rows from William F. Burgess through Francis T. Burke on PDF page 61, the new
+Royal Yugoslav Army organization page, and direct organization links for every
+published Batch 323 affiliation. The 74-test Python suite, deterministic 200-
+profile audit, focused three-viewport regression, complete 960 / 960 browser
+and accessibility matrix after six documented fresh-process reruns, dependency
+audit, database integrity checks, and public-identifier audit pass; Astro
+reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 77,977,181 bytes and has
+SHA-256
+`8ba4d4c57c6cd1d628ba572aa343ca98881bf30c7aaa999a891b597cb949252e`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,479 production artifacts, rejected
+1,039 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`019f217ffab3cb8fb96f1cb232f94b5ed5e1261599819ca548eeab754150b28b`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`e2bea8cd0837b0267808a08a73f30d7200ea6bf2999ced345d728858d9123de2`.
+The regression preserves military assignment, student, occupation, and
+unresolved evidence boundaries without inventing employers or an immediate
+OSS chronology.
 
 ## Batch 322 local release check
 
@@ -43,6 +73,23 @@ static-tree digest
 The regression preserves source spelling, foreign rank, occupation, identity,
 and unresolved evidence boundaries without inventing employers.
 
+## Batch 322 production verification
+
+Release `d1df60b45ade850de49d46e9889bcca73318ed90` passed pull-request workflow
+[32312002916](https://github.com/therealjameswilson/before-oss/actions/runs/32312002916),
+post-merge test workflow
+[32313823427](https://github.com/therealjameswilson/before-oss/actions/runs/32313823427),
+and Pages workflow
+[32313823413](https://github.com/therealjameswilson/before-oss/actions/runs/32313823413).
+An independent live-HTTP audit returned 200 with expected content for seven
+core routes and all ten Batch 322 profiles. It matched all 65 manifest assets
+byte-for-byte across 77,871,306 bytes; the live manifest SHA-256 was
+`d779f748813cde57ff8eef99e5a375a9fd99cf61e75428df340d5ac11635efba`.
+The live statistics exposed 3,008 attempted people, 439 verified-affiliation
+profiles, 189 verified-employer profiles, 2,959 archival assessments, 2,372
+published claims, and 2,155 public citations. No route, content, asset, size,
+or SHA-256 mismatch was found.
+
 ## Batches 319-321 local release check
 
 The complete 24,408-page internal-link pass includes the 30 researched index
@@ -71,6 +118,23 @@ digest
 `f05040707e6a3426cebf00f817990e59ed5bdb983f3eff1eb0b5f1faaf6389fb`.
 The regression preserves occupation, student, government-assignment, and
 unresolved evidence boundaries without inventing employers.
+
+## Batches 319-321 production verification
+
+Release `02e92fbb39b3d1d6d6a2914601a08847f0e116d4` passed pull-request workflow
+[32307574137](https://github.com/therealjameswilson/before-oss/actions/runs/32307574137),
+post-merge test workflow
+[32310235701](https://github.com/therealjameswilson/before-oss/actions/runs/32310235701),
+and Pages workflow
+[32310235723](https://github.com/therealjameswilson/before-oss/actions/runs/32310235723).
+An independent live-HTTP audit returned 200 for 37 core and representative
+profile routes, found all expected content, and matched all 65 manifest assets
+byte-for-byte across 77,823,098 bytes. The live manifest SHA-256 was
+`9bbe8eef4a2fbcf638f9cf58c5dc326ef4c29c22d4c58ae662a155dcd62b87aa`.
+The live statistics exposed 2,998 attempted people, 439 verified-affiliation
+profiles, 189 verified-employer profiles, 2,949 archival assessments, 2,366
+published claims, and 2,151 public citations. No route, content, asset, size,
+or SHA-256 mismatch was found.
 
 ## Batch 318 local release check
 

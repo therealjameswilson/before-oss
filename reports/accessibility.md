@@ -4,18 +4,27 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-The expanded release matrix contains **957** browser, responsive, and
+The expanded release matrix contains **960** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The initial
-34-minute single-worker sweep passed **955 / 957**; an older Batch 218 phone
-case and the tablet directory axe case were affected by a closed macOS
-headless-browser session or teardown timeout. Both failed cases passed in
-fresh isolated single-worker reruns, for a final **957 / 957** result. The
-accessibility rerun also repeated the adjacent person-profile case
-successfully. The matrix includes 27 axe scans of representative routes,
-including the growing Sources table.
+39-minute single-worker sweep passed **954 / 960**; six older tests across
+desktop, phone, and tablet were affected by closed macOS headless-browser
+sessions or teardown timeouts. All six failed viewport cases passed **6 / 6**
+in fresh isolated single-worker reruns, for a final **960 / 960** result. The
+matrix includes 27 axe scans of representative routes, including the growing
+Sources table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 323 adds a focused direct-route regression for William F. Burgess
+through Francis T. Burke on PDF page 61. It verifies exact-identifier
+occupation and student evidence for Victor A. Burisch, Robert F. Burk, and
+Edwin M. Burke; keeps Glenn A. Burgett's U.S. Army evidence separate from a
+civilian employer; renders Marion Calkins Burgweger's Smith College evidence as
+student status; qualifies Mirko Leopold Burja's Royal Yugoslav assignments;
+retains Edmund M. Burke's existing evidence; and routes the remaining
+unsupported identities to archival review. The focused regression passed
+**3 / 3** across desktop, phone, and tablet.
 
 Batch 322 adds a focused direct-route regression for Lucien Bureau through
 Elsie J. Burgess across PDF pages 60-61. It verifies exact-identifier identity
