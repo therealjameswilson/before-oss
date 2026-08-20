@@ -1,23 +1,24 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-19 UTC
+Run: 2026-08-20 UTC
 
 ## Result
 
-The expanded release matrix contains **963** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The initial
-40-minute single-worker sweep passed **954 / 963**. Six failures belonged to
-two older assertions that still expected Edmund M. Burke's pre-Batch-324
-research state; those assertions were updated to require the new immediate
-occupation and terminal status. Three other older viewport cases timed out or
-lost browser state late in the run. Every one of the nine originally failing
-viewport cases passed in fresh isolated single-worker reruns after the two
-stale assertions were corrected, for a final **963 / 963** result. The matrix
-includes 27 axe scans of representative routes, including the growing Sources
-table.
+The expanded release matrix contains **966** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The uninterrupted
+single-worker sweep passed **966 / 966** in 11.6 minutes. The matrix includes
+27 axe scans of representative routes, including the growing Sources table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 325 adds a focused direct-route regression for Thomas I. Burke through
+Raymond E. Burkhart on PDF page 61. It verifies five qualified, exact-
+identifier Army occupations; deliberately excludes James E. Burkhardt's post-
+OSS Army-entry occupation; presents Frederick H. Burkhardt's U.S. Navy
+assignment separately from his verified University of Wisconsin civilian
+employment; and routes three unsupported identities to Box 94 review. The
+focused regression passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 324 adds a focused direct-route regression for Francis T. Burke in Box
 94 through Paul L. Burke on PDF page 61, plus the related Edmund M. Burke,

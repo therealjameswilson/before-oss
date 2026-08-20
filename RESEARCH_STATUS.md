@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-19 UTC.
+Generated from the current local SQLite database on 2026-08-20 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,027 people with a non-planned attempt | 23,940 active person entities | 12.6441% |
-| Verified-affiliation coverage | 441 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8421% |
-| Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,978 people with an individual file-access/priority assessment | 23,940 active person entities | 12.4394% |
+| Research-attempt coverage | 3,037 people with a non-planned attempt | 23,940 active person entities | 12.6859% |
+| Verified-affiliation coverage | 442 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8463% |
+| Verified-employer coverage | 190 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7937% |
+| Archival-review coverage | 2,988 people with an individual file-access/priority assessment | 23,940 active person entities | 12.4812% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Possible duplicate groups: 222
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 533
-- Identity status `high_confidence`: 479
+- Identity status `confirmed`: 539
+- Identity status `high_confidence`: 480
 - Identity status `probable`: 99
 - Identity status `ambiguous`: 48
 - Identity status `conflicting`: 43
-- Identity status `unresolved`: 22,738
+- Identity status `unresolved`: 22,731
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,194
-- Enlisted Army personnel: 3,745
+- Unknown or indeterminate: 16,188
+- Enlisted Army personnel: 3,751
 - Commissioned Army officers: 2,097
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,215 yes; 5,391 no; 16,334 indeterminate.
+Commissioned classification: 2,215 yes; 5,397 no; 16,328 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,913
+- `not_started`: 20,903
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 455
-- `requires_archival_review`: 2,053
+- `occupation_only_found`: 460
+- `requires_archival_review`: 2,057
 - `completed`: 97
 - `conflicting_sources`: 44
-- `verified_employer_found`: 186
-- Claim confidence: 714 confirmed; 1,027 high; 594 medium; 39 low; 54
+- `verified_employer_found`: 187
+- Claim confidence: 720 confirmed; 1,030 high; 599 medium; 39 low; 54
   conflicting
-- Durable evidence inventory: 3,246 source records representing 1,490 unique
-  documents; 472 organizations; 1,214 affiliations; 2,428 claims; and 5,482
+- Durable evidence inventory: 3,254 source records representing 1,495 unique
+  documents; 472 organizations; 1,221 affiliations; 2,442 claims; and 5,518
   claim-source links
-- Reviewed public projection: 461 organizations; 1,205 published, qualified,
-  or conflict-visible affiliations; 2,389 published, qualified, or
-  conflict-visible claims; and 2,168 public citation records
+- Reviewed public projection: 461 organizations; 1,212 published, qualified,
+  or conflict-visible affiliations; 2,403 published, qualified, or
+  conflict-visible claims; and 2,176 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,10 +81,10 @@ Commissioned classification: 2,215 yes; 5,391 no; 16,334 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,321 across 1,283 people; 127 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,234
+- Total recorded attempts/plans: 4,244
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,132; 1,103 have at least one public-visible
+- People with saved reviewed claims: 1,139; 1,110 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5415,6 +5415,42 @@ Commissioned classification: 2,215 yes; 5,391 no; 16,334 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `f0c2253114f75bd6642d5a758c1a662117e32c88811a8090f8b6560e5b92a558`.
+- Batch 325 covers Thomas I. Burke through Raymond E. Burkhart across ten
+  contiguous Box 94 rows on PDF page 61. Exact private-identifier agreement
+  confirms Thomas W. Burke, Timothy J. Burke, William J. Burke, George W.
+  Burkett Jr., James E. Burkhardt, and Horace R. Burkhart. Five official Army-
+  entry fields support only qualified, date-bounded occupational groups:
+  author, editor, or reporter; secondary-school teacher or principal; general
+  office clerk; chauffeur or bus, taxi, truck, or tractor driver; and mineral-
+  extraction or construction driller. None supplies an employer, school,
+  vehicle, mine, worksite, duties, or Army-to-OSS chronology. James E.
+  Burkhardt's October 18, 1945 Army-entry occupation falls after NARA's
+  documented September 20, 1945 OSS termination and is deliberately excluded
+  from pre-OSS claims rather than being forced into the chronology.
+
+  University of Wisconsin regents' minutes, the University of Cambridge's
+  Darwin Correspondence Project, and a Los Angeles Times obituary support a
+  high-confidence Frederick H. Burkhardt identity and the sequence from
+  assistant professor of philosophy at the University of Wisconsin to the
+  U.S. Navy and then OSS. The Navy is modeled as the strongly date-bounded
+  immediate military assignment; the university is the verified last civilian
+  employer. Thomas I. Burke, William E. Burke, and Raymond E. Burkhart remain
+  unresolved and route to Box 94 review. Documented gaps in the Army file make
+  nonmatches nondispositive. No authenticated Catalog request, credential, raw
+  API response, full private identifier, full copyrighted page, post-OSS
+  occupation masquerading as pre-OSS evidence, or unsupported employer claim
+  was used or published.
+- Batch 325's strict evidence bundle adds eight source records, two
+  organization inputs, seven affiliations, fourteen claims, thirty-six claim-
+  source links, ten person updates, and ten durable research attempts. The
+  bundle passed schema validation, two-import idempotence checks, SQLite
+  integrity and foreign-key checks, all 74 Python tests, the deterministic
+  200-profile audit, a zero-warning static build of 24,409 pages, a zero-
+  vulnerability production dependency audit, the complete 24,409-page
+  internal-link check, the aggregate-only public-identifier audit, and a
+  focused 3 / 3 browser regression across desktop, phone, and tablet. Final
+  complete-matrix, manifest, deterministic-build, and production-deployment
+  results are recorded in the release QA reports.
 - Batch 315 covers Thomas L. Bucky through Raphael Buegnon on PDF page 59 in
   Boxes 90-91. Exact private-identifier agreement confirms Francis J. Bucolo,
   Bernard J. Budenosky, and Anthony J. Budraitis. The official Army-entry

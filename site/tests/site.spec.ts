@@ -25691,3 +25691,86 @@ test("Batch 324 publishes bounded Burke occupations without merging common-name 
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 325 separates Army occupations, Frederick Burkhardt's pathway, and post-OSS evidence", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["13f63cd0-4037-5c70-9b9c-3fef0c5bb16a", "Thomas W Burke", "Author, editor, or reporter"],
+    [
+      "5f9b0590-5086-5b26-89cc-1396af58c408",
+      "Timothy J Burke",
+      "Secondary-school teacher or principal",
+    ],
+    ["e554a364-f8cd-5c31-9cd0-7734488eb40e", "William J Burke", "General office clerk"],
+    [
+      "d936d9c0-538f-50d3-8bec-e41d42221f7c",
+      "George W Burkett Jr.",
+      "Chauffeur or bus, taxi, truck, or tractor driver",
+    ],
+    [
+      "f28f4e6d-fd6c-5028-b5cf-05aa629b0dfb",
+      "Horace R Burkhart",
+      "Driller in mineral extraction or construction",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "temporal relation uncertain",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+
+  await page.goto("./people/63e14579-ded4-5723-aae5-84f82a0f9d35/");
+  await expect(
+    page.getByRole("heading", { name: "Frederick H Burkhardt", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Navy",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Wisconsin",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Assistant professor of philosophy",
+  );
+  await expect(page.getByRole("link", { name: "United States Navy" }).first()).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "University of Wisconsin-Madison" }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/36f3e2f9-2551-5f4d-9a1e-a563949e3d13/");
+  await expect(
+    page.getByRole("heading", { name: "James E Burkhardt", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("after OSS termination");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  for (const [personId, name] of [
+    ["41cdb0ce-0c15-5c9e-ae20-efd831a8c6d3", "Thomas I Burke"],
+    ["bf03ce3e-b39f-5c25-be2b-707cc71915db", "William E Burke"],
+    ["d0660433-b445-52ce-a872-f18a71d7aa65", "Raymond E Burkhart"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

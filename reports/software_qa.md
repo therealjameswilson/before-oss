@@ -1,21 +1,22 @@
 # Software QA
 
-Run: 2026-08-19 UTC
+Run: 2026-08-20 UTC
 
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,409 pages**
 - Internal link check: **24,409 HTML files passed**
-- Expanded browser and accessibility matrix: **963 / 963 passed** across
-  desktop, phone, and tablet. The initial 40-minute single-worker sweep passed
-  **954 / 963**. Six failures came from two older assertions that still
-  expected Edmund M. Burke's pre-Batch-324 state; those assertions now require
-  the new immediate occupation and terminal status. Three other older viewport
-  cases timed out or lost browser state late in the sweep. All nine originally
-  failing viewport cases passed in fresh isolated single-worker reruns after
-  the stale assertions were corrected. The 27 axe cases cover representative
-  routes and test for serious or critical accessibility violations.
+- Expanded browser and accessibility matrix: **966 / 966 passed** in one
+  uninterrupted 11.6-minute single-worker sweep across desktop, phone, and
+  tablet. The 27 axe cases cover representative routes and test for serious or
+  critical accessibility violations.
+- Focused Batch 325 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes five qualified Army-entry occupations,
+  excludes James E. Burkhardt's post-OSS occupation from pre-OSS claims,
+  separates Frederick H. Burkhardt's immediate Navy assignment from his
+  University of Wisconsin civilian employer, and preserves three unresolved
+  Box 94 paths.
 - Focused Batch 324 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It publishes George N. Burke's grouped occupation and
   Edmund M. Burke's marine-insurance occupation without creating an employer,
@@ -217,16 +218,16 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`f0c2253114f75bd6642d5a758c1a662117e32c88811a8090f8b6560e5b92a558`)
-- Latest deterministic public-data build (Batch 324): **byte-for-byte
+  (`60fe9e83dfdeff2adde0cc1da86cd042b88c9b53f91430c76a779a3f9ccd0816`)
+- Latest deterministic public-data build (Batch 325): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`b57312088ce0335f62eded8f97b8560f6cb71defb77d271bc6c6e7bd9133120b`).
+  (`f890c562b62c8c60c6e1ae99979f2ca0d5122aeab1cdae8533221bebe60faa43`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **78,014,762 bytes** in both the source and production trees;
+  across **78,126,165 bytes** in both the source and production trees;
   manifest SHA-256
-  `392f966a7aef40f5c8b9425e2d61fba00b509771a3d33457b503d43c4a3039ea`.
+  `72bb13c3673352f7687af9530de65518e76c300acbf1c2b76ebf9469726675d4`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
@@ -238,15 +239,24 @@ Run: 2026-08-19 UTC
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,168** public records representing **1,490** unique documents
-- Private citation records: **3,246**
-- Published, qualified, or conflict-visible affiliations: **1,205**
-- Published or conflict-visible claims: **2,389**
-- Verified-affiliation metric: **441** people with confirmed/high published
+- Reviewed public sources: **2,176** public records representing **1,495** unique documents
+- Private citation records: **3,254**
+- Published, qualified, or conflict-visible affiliations: **1,212**
+- Published or conflict-visible claims: **2,403**
+- Verified-affiliation metric: **442** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
-- Verified-employer metric: **189** people with confirmed/high published
+- Verified-employer metric: **190** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 325 local release checks: **passed**; all 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **966 / 966** browser and
+  accessibility matrix in one uninterrupted run, the 24,409-route link check,
+  deterministic rebuilds, 65-asset manifest audit, dependency audit,
+  deterministic 200-profile audit, database integrity checks, and public-
+  identifier audit all pass. Five exact-identifier Army occupations remain
+  separate from employers; one post-OSS occupation remains excluded; Frederick
+  H. Burkhardt's military and civilian pathways remain distinct; and three
+  unsupported identities route to archival review.
 - Batch 324 local release checks: **passed**; all 74 Python tests, the focused
   **3 / 3** browser regression, the complete **963 / 963** browser and
   accessibility matrix after the documented assertion corrections and fresh-
