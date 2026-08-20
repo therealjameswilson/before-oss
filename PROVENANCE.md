@@ -3707,6 +3707,52 @@ Burke row in Box 94 remains a possible duplicate, not a merge. No authenticated
 Catalog request, credential, raw API response, full private identifier, full
 copyrighted page, or unsupported employer claim was stored or published.
 
+## Page-sixty-one Francis-through-Paul Burke pathways, Batch 324
+
+`research/evidence-page-sixty-one-francis-burke-through-paul-burke-pathways_batch-324_2026-08-19.json`
+records the ten contiguous index rows from Francis T. Burke in Box 94 through
+Paul L. Burke on PDF page 61, plus integrity reviews of the earlier Box 93
+Francis T. Burke and Edmund M. Burke entities. The original-resolution index
+page and the relevant NARA Army documentation pages were visually checked.
+The official merged Army file was searched by private identifier outside
+version control; no raw record, response body, full identifier, or unrelated
+subject detail was retained.
+
+The strict bundle contains six sources, no organization input, two
+affiliations, four claims, ten claim-source links, twelve person updates, and
+twelve durable research attempts. Exact private-identifier agreement confirms
+the indexed George N. Burke row against the official Army form George N.
+Burkett. Both forms are retained. NARA's corrected code list decodes the
+recorded pre-entry field as the combined group “Shovelmen, cranemen,
+derrickmen, and hoistmen.” Because the grouped code does not identify which
+occupation applied, the site publishes the group with medium confidence and
+does not infer an employer, machine, trade, industry, workplace, duties, or
+Army-to-OSS sequence. The technical-documentation locator was checked against
+physical pages 4-8, 12-13, and 44-46; the occupation entry was checked on
+physical page 304 of the separate corrected code list.
+
+The [CIA's institutional history](https://www.cia.gov/stories/story/hollywood-and-the-office-of-strategic-services/)
+explicitly expands Edmund Michael “Mike” Burke and confirms his OSS identity.
+The [Pennsylvania Gazette biography](https://thepenngazette.com/the-spy-who-owned-the-yankees/)
+places him in New York selling maritime insurance when he met William J.
+Donovan and says he agreed to OSS work in short order. This supports a high-
+confidence, strongly date-bounded immediate occupation but not a named
+employer or self-employment claim. The distinct Michael Burke row remains an
+ambiguous possible duplicate and receives none of Edmund's occupation evidence
+pending comparison of both Box 93 files.
+
+The two Francis T. Burke rows remain separate unresolved entities in one
+possible-duplicate group. Frank A. Burke, Honora E. Burke, James C. Burke,
+James E. Burke, James R. Burke, Maurice L. Burke, and Paul L. Burke also remain
+unresolved and route to Box 93-94 review. Documented gaps and conversion errors
+in the Army electronic file explain two nonmatches and make the other absences
+nondispositive; the file excludes officers, so Paul L. Burke's nonmatch is not
+used against his printed first-lieutenant classification. A same-rank Fifth
+Air Force roster result lacked the private identifier, OSS linkage, and Box 94
+linkage and was rejected. No authenticated Catalog request, credential, raw API
+response, full private identifier, full copyrighted page, or unsupported
+employer claim was stored or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

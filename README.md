@@ -18,16 +18,16 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 stored person rows and 23,940 active person entities; one reviewed
   duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 220 possible duplicate groups, including 36 narrow automatic consolidations
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 3,017
-  people with saved non-planned research outcomes, and 4,222 durable research
+- 222 possible duplicate groups, including 36 narrow automatic consolidations
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 3,027
+  people with saved non-planned research outcomes, and 4,234 durable research
   attempts or plans
 - 441 verified-affiliation profiles, including 189 with verified employment or
-  self-employment, and 2,968 individually assessed archival files
-- 1,203 public-visible affiliations, 2,386 public-visible claims, 2,162 public
-  source records, and 1,487 unique source documents; 32 low-confidence claims
+  self-employment, and 2,978 individually assessed archival files
+- 1,205 public-visible affiliations, 2,389 public-visible claims, 2,168 public
+  source records, and 1,490 unique source documents; 33 low-confidence claims
   and 6 rejected claims remain private
-- 20,923 people remain `not_started`; the public site reports this
+- 20,913 people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

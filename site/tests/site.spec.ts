@@ -445,6 +445,7 @@ test("the education-and-service batch does not turn schools or a spouse's work i
     {
       id: "697f0736-ba27-55b6-ae7a-6550dd87aa3c",
       name: "Edmund M Burke",
+      immediate: "Marine insurance salesperson",
       earlier: "University of Pennsylvania",
       source: "Hollywood and the Office of Strategic Services",
       terminalMissingCivilian: true,
@@ -4169,7 +4170,7 @@ test("Batch 044 adds supported employers while preserving student, military, and
 
   for (const terminalProfile of [
     ["21a6b6f2-5daa-5569-826e-6d193f387d4a", "Mort S Bobrow", "completed"],
-    ["697f0736-ba27-55b6-ae7a-6550dd87aa3c", "Edmund M Burke", "requires archival review"],
+    ["697f0736-ba27-55b6-ae7a-6550dd87aa3c", "Edmund M Burke", "occupation only found"],
     ["f87b5adb-6496-5f61-a50f-2b098032d189", "Jane Burrell", "requires archival review"],
     ["01360217-ccc5-5754-a6d5-9d126bfc08f0", "John H Hemingway", "completed"],
     ["a93ac760-896e-50b9-9746-754d434a1200", "John Magruder", "completed"],
@@ -25624,6 +25625,63 @@ test("Batch 323 separates military, student, occupation, and unresolved Box 93 p
     ["ed22da99-1cd9-5d39-a90c-b8774dcdd039", "William F Burgess"],
     ["192bb031-0e53-533d-a509-7af13d281e40", "Alexander Burjan"],
     ["e2775b85-1303-52a5-8384-565edaa67356", "Francis T Burke"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 324 publishes bounded Burke occupations without merging common-name records", async ({
+  page,
+}) => {
+  await page.goto("./people/fe9c16d8-fb8f-5d56-82cb-f73432b3a164/");
+  await expect(page.getByRole("heading", { name: "George N Burke", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("George N Burkett");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Shovelman, craneman, derrickman, or hoistman",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/697f0736-ba27-55b6-ae7a-6550dd87aa3c/");
+  await expect(page.getByRole("heading", { name: "Edmund M Burke", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Marine insurance sales",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/4e74e45d-2b05-540f-84a1-7b8b2b240958/");
+  await expect(page.getByRole("heading", { name: "Michael Burke", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name] of [
+    ["f3931cf8-ef6c-5acd-baf1-cee4c21bebde", "Francis T Burke"],
+    ["0d152147-31fa-5ce1-b37b-54b4666e2d69", "Frank A Burke"],
+    ["c387c620-1f89-5100-9b12-056b504f97a1", "Honora E Burke"],
+    ["f1f6287f-fcc1-55e9-808d-f83b6294afbf", "James C Burke"],
+    ["8d7b3e96-e824-58c7-94b0-447301323916", "James E Burke"],
+    ["fa08c23a-03e7-57f9-84cf-a0490f0ed978", "James R Burke"],
+    ["70c4c761-dcbd-5e27-bcb1-364ee8d58968", "Maurice L Burke"],
+    ["84094c50-b8a0-5ec0-9c94-b38e562a0bff", "Paul L Burke"],
   ] as const) {
     await page.goto(`./people/${personId}/`);
     await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();

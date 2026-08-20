@@ -12,8 +12,38 @@ The build includes 23,940 person profiles, 461 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,366 unique external URLs for separate live
+The checker inventoried 49,367 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 324 local release check
+
+The complete 24,409-page internal-link pass includes the ten contiguous rows
+from Francis T. Burke in Box 94 through Paul L. Burke on PDF page 61 and the
+related Edmund M. Burke, Michael Burke, and Box 93 Francis T. Burke integrity
+paths. All 74 Python tests, the deterministic 200-profile audit, focused
+three-viewport regression, complete 963 / 963 browser and accessibility matrix
+after the documented assertion corrections and fresh-process reruns,
+dependency audit, database integrity checks, and public-identifier audit pass;
+Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,014,762 bytes and has
+SHA-256
+`392f966a7aef40f5c8b9425e2d61fba00b509771a3d33457b503d43c4a3039ea`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,479 production artifacts, rejected
+1,040 harmless candidate substrings, and found no aggregate, manifest-size, or
+unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`b57312088ce0335f62eded8f97b8560f6cb71defb77d271bc6c6e7bd9133120b`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`f0c2253114f75bd6642d5a758c1a662117e32c88811a8090f8b6560e5b92a558`.
+The regression preserves occupation, employer, identity, duplicate, and
+archival-review boundaries without inventing organizations or transferring
+evidence between common-name records.
 
 ## Batch 323 local release check
 
@@ -44,6 +74,25 @@ tree digest
 The regression preserves military assignment, student, occupation, and
 unresolved evidence boundaries without inventing employers or an immediate
 OSS chronology.
+
+## Batch 323 production verification
+
+Release `63f047c686a3389057ef34054b7053aa3b7512af` passed pull-request workflow
+[32316276534](https://github.com/therealjameswilson/before-oss/actions/runs/32316276534),
+post-merge test workflow
+[32317851778](https://github.com/therealjameswilson/before-oss/actions/runs/32317851778),
+and Pages workflow
+[32317851806](https://github.com/therealjameswilson/before-oss/actions/runs/32317851806).
+An independent cache-busted live-HTTP audit returned 200 with expected content
+for seven core routes and all ten Batch 323 profiles. It matched every one of
+the 65 manifest assets across 77,977,181 bytes, with zero content, transport,
+route, or profile failures. The live manifest SHA-256 is
+`8ba4d4c57c6cd1d628ba572aa343ca98881bf30c7aaa999a891b597cb949252e`.
+
+The deployed statistics report 3,017 people with a saved research attempt,
+441 with a verified affiliation, 189 with a verified employer, 2,968 with an
+individual archival assessment, 2,386 public-visible claims, and 2,162 public
+citation records. These values match the reviewed Batch 323 release exactly.
 
 ## Batch 322 local release check
 
