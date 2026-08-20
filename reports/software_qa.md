@@ -5,12 +5,33 @@ Run: 2026-08-20 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,410 pages**
-- Internal link check: **24,410 HTML files passed**
-- Expanded browser and accessibility matrix: **969 / 969 passed** in one
-  uninterrupted 14.8-minute single-worker sweep across desktop, phone, and
-  tablet. The 27 axe cases cover representative routes and test for serious or
-  critical accessibility violations.
+- Static production build: **24,411 pages**
+- Internal link check: **24,411 HTML files passed**
+- Expanded browser and accessibility matrix: **969 / 972 passed** in a 1.1-hour
+  single-worker sweep across desktop, phone, and tablet. Three tablet cases
+  ended in infrastructure timeouts rather than assertion failures; a fresh-
+  process rerun passed those exact cases **3 / 3** in 15.5 seconds. The 27 axe
+  cases cover representative routes and test for serious or critical
+  accessibility violations.
+- Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It keeps student, professional, military, employer,
+  occupation-only, post-OSS identity, and unresolved archival evidence in
+  distinct lanes for the ten Burnet-through-Burnham profiles.
+- Batch 327 local release verification: **passed**. Two consecutive public-
+  data builds reproduced sorted path-and-file-SHA-256 digest
+  `83093fa3aab2c9d3364e6525b8b89416ae27998a9183316e5f2b9d993de4404f`.
+  Two consecutive finalized production builds reproduced complete static-tree
+  digest
+  `88080becc57bedb7c638c3f6efacf63fced03a3a415782641b0e3379c9ae3e78`.
+  The complete 24,411-page internal-link check passed and inventoried 49,381
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,321,303 bytes; manifest SHA-256 was
+  `33fdea8ef5db0de4fd891f8ff3257fbff16af81ecc2f366cc55d3b1604e96ed4`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,481 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity, and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, and a zero-vulnerability production dependency audit passed.
 - Focused Batch 326 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It publishes two qualified electrical-manufacturing
   occupation groups, leaves Lowell Burmaster's unassigned code unpublished,
@@ -28,6 +49,21 @@ Run: 2026-08-20 UTC
   `e75bf12e4b7b081e23d14de9bbcab2687ce7c74ae3048c4a8f1a90842b6a5042`.
   The boundary-aware public-identifier audit found zero unexpected matches in
   both 68 source-public artifacts and all 24,480 built artifacts.
+- Batch 326 production verification: **passed**. Release
+  `32e8e824a0edd028f4173cf408bccbaefa3ab906` passed pull-request workflow
+  [32325251800](https://github.com/therealjameswilson/before-oss/actions/runs/32325251800),
+  post-merge test workflow
+  [32326769649](https://github.com/therealjameswilson/before-oss/actions/runs/32326769649),
+  and Pages workflow
+  [32326769647](https://github.com/therealjameswilson/before-oss/actions/runs/32326769647).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 326 profiles. All 65 live assets matched the
+  merged manifest across 78,199,867 bytes; its SHA-256 was
+  `0c786024a4fb62b14c24acad357a6c8553afd1cc1e46eebb6ad92828d86a7c41`.
+  The deployed site reported exactly 3,047 attempted profiles, 443 verified
+  affiliations, 191 verified employers, 2,998 archival assessments, 2,410
+  public claims, and 2,183 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Focused Batch 325 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It publishes five qualified Army-entry occupations,
   excludes James E. Burkhardt's post-OSS occupation from pre-OSS claims,

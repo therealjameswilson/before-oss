@@ -4,13 +4,27 @@ Run: 2026-08-20 UTC
 
 ## Result
 
-The expanded release matrix contains **969** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The uninterrupted
-single-worker sweep passed **969 / 969** in 14.8 minutes. The matrix includes
-27 axe scans of representative routes, including the growing Sources table.
+The expanded release matrix contains **972** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. A resource-heavy
+single-worker sweep passed **969 / 972** in 1.1 hours; three tablet cases ended
+in infrastructure timeouts rather than assertion failures. A fresh-process
+rerun of exactly those three cases passed **3 / 3** in 15.5 seconds: the Sources
+axe scan, Batch 039, and Batch 094. Thus every release case passed across the
+documented full and isolated executions, while the initial timeouts remain
+visible here. The matrix includes 27 axe scans of representative routes,
+including the growing Sources table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 327 adds a focused direct-route regression for Maccurdy Burnet through
+Robert J. Burnham across PDF pages 61-62. It verifies Maccurdy Burnet's UNC
+student status, neutral Red Cross affiliation, and bounded technician group;
+Gilbert Burnett Jr.'s explicit Army-to-OSS pathway; Philip Burnham's separate
+Commonweal civilian employer and Army Air Force attachment; Robert J.
+Burnham's bounded sales occupation; Floyd R. Burnett's post-OSS identity-only
+record; and five unresolved Box 94-95 paths. The focused regression passed
+**3 / 3** across desktop, phone, and tablet.
 
 Batch 326 adds a focused direct-route regression for Charles W. Burkle through
 George I. Burneston Jr. on PDF page 61. It verifies two qualified electrical-

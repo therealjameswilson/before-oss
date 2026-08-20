@@ -25850,3 +25850,92 @@ test("Batch 326 separates qualified occupations, Edward Burling's employer, and 
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 327 separates student, military, employer, occupation, and archival Burnet-Burnham pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/cdde8ab4-57d0-5e58-828b-16cca82d8c09/");
+  await expect(page.getByRole("heading", { name: "Maccurdy Burnet", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Technician, except laboratory",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of North Carolina",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Red Cross",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/c202da44-6478-51dc-98d6-22afa5203e90/");
+  await expect(page.getByRole("heading", { name: "Floyd R Burnett", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("after OSS termination");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/ba2d407e-bfe9-55b2-9728-4ab9ac2b1653/");
+  await expect(
+    page.getByRole("heading", { name: "Gilbert Burnett Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Princeton University",
+  );
+  await expect(page.getByRole("link", { name: "United States Army" }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: "Princeton University" }).first()).toBeVisible();
+
+  await page.goto("./people/d2e28cb7-eb72-5cc1-9992-c7e69527ed1a/");
+  await expect(page.getByRole("heading", { name: "Philip Burnham", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army Air Forces",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "The Commonweal Publishing Company",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Co-editor",
+  );
+  await expect(
+    page.getByRole("link", { name: "The Commonweal Publishing Company" }).first(),
+  ).toBeVisible();
+
+  await page.goto("./people/4e203427-1535-51b9-b137-458047d89bcd/");
+  await expect(page.getByRole("heading", { name: "Robert J Burnham", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Sales agent, except to consumers",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const [personId, name] of [
+    ["dbfcc86c-c37b-5057-8236-dc61478ba265", "Robert W Burnet"],
+    ["746630da-a3fb-575e-9041-df27f3b5fa39", "Edgar L Burnett"],
+    ["fea1e391-6246-5ce9-bd5a-40b3d30a4802", "Russell A Burnett"],
+    ["371dd3fb-5fd6-5871-b3be-2dae384dcf13", "W C Burnett"],
+    ["116d811f-46d9-5c3a-be05-67ef7856bd2b", "Mary K Burnham"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
