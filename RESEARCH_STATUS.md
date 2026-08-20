@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,037 people with a non-planned attempt | 23,940 active person entities | 12.6859% |
-| Verified-affiliation coverage | 442 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8463% |
-| Verified-employer coverage | 190 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7937% |
-| Archival-review coverage | 2,988 people with an individual file-access/priority assessment | 23,940 active person entities | 12.4812% |
+| Research-attempt coverage | 3,047 people with a non-planned attempt | 23,940 active person entities | 12.7277% |
+| Verified-affiliation coverage | 443 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8505% |
+| Verified-employer coverage | 191 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7978% |
+| Archival-review coverage | 2,998 people with an individual file-access/priority assessment | 23,940 active person entities | 12.5230% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Possible duplicate groups: 222
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 539
-- Identity status `high_confidence`: 480
-- Identity status `probable`: 99
+- Identity status `confirmed`: 542
+- Identity status `high_confidence`: 481
+- Identity status `probable`: 100
 - Identity status `ambiguous`: 48
 - Identity status `conflicting`: 43
-- Identity status `unresolved`: 22,731
+- Identity status `unresolved`: 22,726
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,188
-- Enlisted Army personnel: 3,751
+- Unknown or indeterminate: 16,185
+- Enlisted Army personnel: 3,754
 - Commissioned Army officers: 2,097
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,215 yes; 5,397 no; 16,328 indeterminate.
+Commissioned classification: 2,215 yes; 5,400 no; 16,325 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,903
+- `not_started`: 20,893
 - `in_progress`: 48
 - `candidate_found`: 1
-- `needs_identity_review`: 68
+- `needs_identity_review`: 69
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 460
-- `requires_archival_review`: 2,057
+- `occupation_only_found`: 462
+- `requires_archival_review`: 2,063
 - `completed`: 97
 - `conflicting_sources`: 44
-- `verified_employer_found`: 187
-- Claim confidence: 720 confirmed; 1,030 high; 599 medium; 39 low; 54
+- `verified_employer_found`: 188
+- Claim confidence: 723 confirmed; 1,032 high; 603 medium; 39 low; 54
   conflicting
-- Durable evidence inventory: 3,254 source records representing 1,495 unique
-  documents; 472 organizations; 1,221 affiliations; 2,442 claims; and 5,518
+- Durable evidence inventory: 3,261 source records representing 1,498 unique
+  documents; 473 organizations; 1,225 affiliations; 2,451 claims; and 5,541
   claim-source links
-- Reviewed public projection: 461 organizations; 1,212 published, qualified,
-  or conflict-visible affiliations; 2,403 published, qualified, or
-  conflict-visible claims; and 2,176 public citation records
+- Reviewed public projection: 462 organizations; 1,215 published, qualified,
+  or conflict-visible affiliations; 2,410 published, qualified, or
+  conflict-visible claims; and 2,183 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,215 yes; 5,397 no; 16,328 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,766. The detailed adapter breakdown remains reproducible in
+  2,786. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,321 across 1,283 people; 127 additional
+- Saved `source_reviewed` outcomes: 1,340 across 1,302 people; 128 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,244
+- Total recorded attempts/plans: 4,254
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,139; 1,110 have at least one public-visible
+- People with saved reviewed claims: 1,144; 1,114 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5448,9 +5448,51 @@ Commissioned classification: 2,215 yes; 5,397 no; 16,328 indeterminate.
   200-profile audit, a zero-warning static build of 24,409 pages, a zero-
   vulnerability production dependency audit, the complete 24,409-page
   internal-link check, the aggregate-only public-identifier audit, and a
-  focused 3 / 3 browser regression across desktop, phone, and tablet. Final
-  complete-matrix, manifest, deterministic-build, and production-deployment
-  results are recorded in the release QA reports.
+  focused 3 / 3 browser regression across desktop, phone, and tablet. The full
+  966 / 966 browser and accessibility matrix, deterministic public-data and
+  static builds, manifest verification, pull-request checks, post-merge test,
+  Pages deployment, and independent live route, profile, asset, and statistics
+  checks all passed. The release QA reports preserve the exact digests and run
+  links.
+- Batch 326 covers Charles W. Burkle through George I. Burneston Jr. across
+  ten contiguous Box 94 rows on PDF page 61. Exact private-identifier
+  agreement confirms Charles W. Burkle, Lowell Burmaster, and George I.
+  Burneston Jr. The official Army entry file and corrected occupation list
+  support only a qualified electrical-machinery and accessory manufacturing
+  group for Burkle and Burneston. Code 147 on Burmaster's record is unassigned
+  in the corrected list and is deliberately not interpreted as an occupation,
+  employer, or affiliation.
+
+  A Washington Post obituary, the Library of Congress HABS record, and
+  *Watch Hill Through Time* support a high-confidence match for Edward Burling
+  Jr. and identify Covington & Burling as his last civilian employer before
+  wartime military service. The firm is not labeled the immediate OSS
+  predecessor. His documented Army Air Forces service remains private temporal-
+  review evidence because the accessible sources do not establish whether it
+  preceded, overlapped, or followed OSS. The rare indexed Carnelealia P.
+  Burling name is a probable spelling variant of Carnealia Perin Burling Tyler,
+  but the match remains review-pending. The local history's explicit OSS
+  statement belongs to her sister Anne Wallingford Perin and is not transferred
+  to Carnealia.
+
+  Richard V. Burks, Roy F. Burleigh, Anson Burlingame, Richard G. Burlingame,
+  and Margaret M. Burnes remain unresolved and route to Box 94 review. Anson
+  Burlingame retains the printed captain and commissioned Army classifications;
+  the chronologically impossible nineteenth-century diplomat namesake is
+  rejected. No authenticated Catalog request, credential, raw API response,
+  full private identifier, full copyrighted page, unassigned occupation code,
+  relative's biography, or unsupported employer claim was used or published.
+- Batch 326's strict evidence bundle adds seven source records, two
+  organization inputs, four affiliations, nine claims, twenty-three claim-
+  source links, ten person updates, and ten durable research attempts. The
+  bundle passed schema validation, two-import idempotence checks, SQLite
+  integrity and foreign-key checks, all 74 Python tests, the deterministic
+  200-profile audit, a zero-warning static build of 24,410 pages, and a focused
+  3 / 3 browser regression across desktop, phone, and tablet. The uninterrupted
+  browser and accessibility matrix passed 969 / 969; the 24,410-page link
+  check, redaction audit, dependency audit, manifest verification, and two
+  identical production builds also passed. Production-deployment results are
+  recorded separately after the release reaches GitHub Pages.
 - Batch 315 covers Thomas L. Bucky through Raphael Buegnon on PDF page 59 in
   Boxes 90-91. Exact private-identifier agreement confirms Francis J. Bucolo,
   Bernard J. Budenosky, and Anthony J. Budraitis. The official Army-entry

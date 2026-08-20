@@ -5,18 +5,50 @@ Run: 2026-08-20 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,409 pages**
-- Internal link check: **24,409 HTML files passed**
-- Expanded browser and accessibility matrix: **966 / 966 passed** in one
-  uninterrupted 11.6-minute single-worker sweep across desktop, phone, and
+- Static production build: **24,410 pages**
+- Internal link check: **24,410 HTML files passed**
+- Expanded browser and accessibility matrix: **969 / 969 passed** in one
+  uninterrupted 14.8-minute single-worker sweep across desktop, phone, and
   tablet. The 27 axe cases cover representative routes and test for serious or
   critical accessibility violations.
+- Focused Batch 326 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes two qualified electrical-manufacturing
+  occupation groups, leaves Lowell Burmaster's unassigned code unpublished,
+  verifies Covington & Burling as Edward Burling Jr.'s last civilian employer,
+  withholds his unresolved military-to-OSS sequence, and preserves the probable
+  and unresolved identity paths for Box 94 review.
+- Batch 326 local release verification: **passed**. Two consecutive finalized
+  production builds reproduced complete static-tree SHA-256
+  `cdfe2c75875c510ffb195e96ca8358b3a575017a4b612a3d046a1258216011dc`.
+  The 24,410-page internal-link check passed and inventoried 49,374 unique
+  external URLs. All 65 public manifest assets matched in the source and built
+  trees across 78,199,867 bytes; manifest SHA-256 was
+  `0c786024a4fb62b14c24acad357a6c8553afd1cc1e46eebb6ad92828d86a7c41`.
+  Consecutive public-data builds reproduced digest
+  `e75bf12e4b7b081e23d14de9bbcab2687ce7c74ae3048c4a8f1a90842b6a5042`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,480 built artifacts.
 - Focused Batch 325 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It publishes five qualified Army-entry occupations,
   excludes James E. Burkhardt's post-OSS occupation from pre-OSS claims,
   separates Frederick H. Burkhardt's immediate Navy assignment from his
   University of Wisconsin civilian employer, and preserves three unresolved
   Box 94 paths.
+- Batch 325 production verification: **passed**. Release
+  `e4c8257510136d8db09549dde40aa8424d000ab7` passed pull-request workflow
+  [32322398265](https://github.com/therealjameswilson/before-oss/actions/runs/32322398265),
+  post-merge test workflow
+  [32324138125](https://github.com/therealjameswilson/before-oss/actions/runs/32324138125),
+  and Pages workflow
+  [32324138085](https://github.com/therealjameswilson/before-oss/actions/runs/32324138085).
+  A cache-busted live audit returned HTTP 200 and expected content for seven
+  core routes and all ten Batch 325 profiles. All 65 live assets matched the
+  merged release manifest across 78,126,165 bytes; its SHA-256 was
+  `72bb13c3673352f7687af9530de65518e76c300acbf1c2b76ebf9469726675d4`.
+  The deployed site reported exactly 3,037 attempted profiles, 442 verified
+  affiliations, 190 verified employers, 2,988 archival assessments, 2,403
+  public claims, and 2,176 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Focused Batch 324 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It publishes George N. Burke's grouped occupation and
   Edmund M. Burke's marine-insurance occupation without creating an employer,
@@ -33,6 +65,17 @@ Run: 2026-08-20 UTC
   employment, qualifies Burgett's and Burja's military pathways, retains
   Edmund M. Burke's earlier evidence, and routes unsupported identities to
   archival review.
+- Batch 324 production verification: **passed**. Release
+  `7f12441151c822df943a573791b3ca584e4acf30` passed pull-request workflow
+  [32320019763](https://github.com/therealjameswilson/before-oss/actions/runs/32320019763),
+  post-merge test workflow
+  [32321374288](https://github.com/therealjameswilson/before-oss/actions/runs/32321374288),
+  and Pages workflow
+  [32321374216](https://github.com/therealjameswilson/before-oss/actions/runs/32321374216).
+  Cache-busted production checks returned HTTP 200 and the expected profile
+  evidence for all seven core routes and twelve Batch 324 routes. All 65 live
+  data assets matched the release manifest across 78,014,762 bytes; its SHA-256
+  was `392f966a7aef40f5c8b9425e2d61fba00b509771a3d33457b503d43c4a3039ea`.
 - Batch 323 production verification: **passed**. Release
   `63f047c686a3389057ef34054b7053aa3b7512af` passed pull-request workflow
   [32316276534](https://github.com/therealjameswilson/before-oss/actions/runs/32316276534),
