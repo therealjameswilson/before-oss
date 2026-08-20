@@ -7,13 +7,20 @@ Run: 2026-08-19 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,409 pages**
 - Internal link check: **24,409 HTML files passed**
-- Expanded browser and accessibility matrix: **960 / 960 passed** across
-  desktop, phone, and tablet. The initial 39-minute single-worker sweep passed
-  **954 / 960**; six older tests were affected by closed macOS headless-browser
-  sessions or teardown timeouts. All six failed viewport cases then passed
-  **6 / 6** in fresh isolated single-worker reruns. The 27 axe cases cover
-  representative routes and test for serious or critical accessibility
-  violations.
+- Expanded browser and accessibility matrix: **963 / 963 passed** across
+  desktop, phone, and tablet. The initial 40-minute single-worker sweep passed
+  **954 / 963**. Six failures came from two older assertions that still
+  expected Edmund M. Burke's pre-Batch-324 state; those assertions now require
+  the new immediate occupation and terminal status. Three other older viewport
+  cases timed out or lost browser state late in the sweep. All nine originally
+  failing viewport cases passed in fresh isolated single-worker reruns after
+  the stale assertions were corrected. The 27 axe cases cover representative
+  routes and test for serious or critical accessibility violations.
+- Focused Batch 324 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes George N. Burke's grouped occupation and
+  Edmund M. Burke's marine-insurance occupation without creating an employer,
+  preserves the ambiguous Michael Burke and duplicate Francis T. Burke
+  boundaries, and routes the other unsupported rows to archival review.
 - Focused Batch 322 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It verifies the three exact-identifier Army occupations,
   preserves the qualified Burgesono/Burgeson spelling pair, keeps Lucien
@@ -25,6 +32,20 @@ Run: 2026-08-19 UTC
   employment, qualifies Burgett's and Burja's military pathways, retains
   Edmund M. Burke's earlier evidence, and routes unsupported identities to
   archival review.
+- Batch 323 production verification: **passed**. Release
+  `63f047c686a3389057ef34054b7053aa3b7512af` passed pull-request workflow
+  [32316276534](https://github.com/therealjameswilson/before-oss/actions/runs/32316276534),
+  post-merge test workflow
+  [32317851778](https://github.com/therealjameswilson/before-oss/actions/runs/32317851778),
+  and Pages workflow
+  [32317851806](https://github.com/therealjameswilson/before-oss/actions/runs/32317851806).
+  The live deployment returned HTTP 200 with expected content for seven core
+  routes and all ten Batch 323 profiles, matched all 65 manifest assets across
+  77,977,181 bytes, reproduced manifest SHA-256
+  `8ba4d4c57c6cd1d628ba572aa343ca98881bf30c7aaa999a891b597cb949252e`,
+  and exposed the exact 3,017 attempted, 441 verified-affiliation, 189 verified-
+  employer, 2,968 archival-assessment, 2,386 published-claim, and 2,162 public-
+  citation metrics with zero route, profile, asset, or transport failures.
 - Batch 322 production verification: **passed**. Release
   `d1df60b45ade850de49d46e9889bcca73318ed90` passed pull-request workflow
   [32312002916](https://github.com/therealjameswilson/before-oss/actions/runs/32312002916),
@@ -196,36 +217,45 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`e2bea8cd0837b0267808a08a73f30d7200ea6bf2999ced345d728858d9123de2`)
-- Latest deterministic public-data build (Batch 323): **byte-for-byte
+  (`f0c2253114f75bd6642d5a758c1a662117e32c88811a8090f8b6560e5b92a558`)
+- Latest deterministic public-data build (Batch 324): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`019f217ffab3cb8fb96f1cb232f94b5ed5e1261599819ca548eeab754150b28b`).
+  (`b57312088ce0335f62eded8f97b8560f6cb71defb77d271bc6c6e7bd9133120b`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **77,977,181 bytes** in both the source and production trees;
+  across **78,014,762 bytes** in both the source and production trees;
   manifest SHA-256
-  `8ba4d4c57c6cd1d628ba572aa343ca98881bf30c7aaa999a891b597cb949252e`.
+  `392f966a7aef40f5c8b9425e2d61fba00b509771a3d33457b503d43c4a3039ea`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
   matches** in **24,479** production artifacts, including compressed mirrors;
-  **1,039** candidate substrings were reviewed. No aggregate or manifest-size
+  **1,040** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,162** public records representing **1,487** unique documents
-- Private citation records: **3,240**
-- Published, qualified, or conflict-visible affiliations: **1,203**
-- Published or conflict-visible claims: **2,386**
+- Reviewed public sources: **2,168** public records representing **1,490** unique documents
+- Private citation records: **3,246**
+- Published, qualified, or conflict-visible affiliations: **1,205**
+- Published or conflict-visible claims: **2,389**
 - Verified-affiliation metric: **441** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **189** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 324 local release checks: **passed**; all 74 Python tests, the focused
+  **3 / 3** browser regression, the complete **963 / 963** browser and
+  accessibility matrix after the documented assertion corrections and fresh-
+  process reruns, the 24,409-route link check, deterministic rebuilds,
+  65-asset manifest audit, dependency audit, deterministic 200-profile audit,
+  database integrity checks, and public-identifier audit all pass. The
+  published claims keep a grouped Army occupation and a strongly date-bounded
+  marine-insurance occupation separate from employers, identities, and silent
+  duplicate merges.
 - Batch 323 local release checks: **passed**;
   74 Python tests plus five parser subtests, the focused **3 / 3** browser
   regression, the complete **960 / 960** browser and accessibility matrix after

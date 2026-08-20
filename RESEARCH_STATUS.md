@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,017 people with a non-planned attempt | 23,940 active person entities | 12.6023% |
+| Research-attempt coverage | 3,027 people with a non-planned attempt | 23,940 active person entities | 12.6441% |
 | Verified-affiliation coverage | 441 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8421% |
 | Verified-employer coverage | 189 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7895% |
-| Archival-review coverage | 2,968 people with an individual file-access/priority assessment | 23,940 active person entities | 12.3977% |
+| Archival-review coverage | 2,978 people with an individual file-access/priority assessment | 23,940 active person entities | 12.4394% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 220
+- Possible duplicate groups: 222
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 532
+- Identity status `confirmed`: 533
 - Identity status `high_confidence`: 479
 - Identity status `probable`: 99
-- Identity status `ambiguous`: 47
+- Identity status `ambiguous`: 48
 - Identity status `conflicting`: 43
-- Identity status `unresolved`: 22,740
+- Identity status `unresolved`: 22,738
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,195
-- Enlisted Army personnel: 3,744
+- Unknown or indeterminate: 16,194
+- Enlisted Army personnel: 3,745
 - Commissioned Army officers: 2,097
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-19 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,215 yes; 5,390 no; 16,335 indeterminate.
+Commissioned classification: 2,215 yes; 5,391 no; 16,334 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,923
+- `not_started`: 20,913
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 68
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 453
-- `requires_archival_review`: 2,045
+- `occupation_only_found`: 455
+- `requires_archival_review`: 2,053
 - `completed`: 97
 - `conflicting_sources`: 44
 - `verified_employer_found`: 186
-- Claim confidence: 713 confirmed; 1,026 high; 593 medium; 38 low; 54
+- Claim confidence: 714 confirmed; 1,027 high; 594 medium; 39 low; 54
   conflicting
-- Durable evidence inventory: 3,240 source records representing 1,487 unique
-  documents; 472 organizations; 1,212 affiliations; 2,424 claims; and 5,472
+- Durable evidence inventory: 3,246 source records representing 1,490 unique
+  documents; 472 organizations; 1,214 affiliations; 2,428 claims; and 5,482
   claim-source links
-- Reviewed public projection: 461 organizations; 1,203 published, qualified,
-  or conflict-visible affiliations; 2,386 published, qualified, or
-  conflict-visible claims; and 2,162 public citation records
+- Reviewed public projection: 461 organizations; 1,205 published, qualified,
+  or conflict-visible affiliations; 2,389 published, qualified, or
+  conflict-visible claims; and 2,168 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,215 yes; 5,390 no; 16,335 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,737. The detailed adapter breakdown remains reproducible in
+  2,766. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,293 across 1,259 people; 126 additional
+- Saved `source_reviewed` outcomes: 1,321 across 1,283 people; 127 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,222
+- Total recorded attempts/plans: 4,234
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,130; 1,102 have at least one public-visible
+- People with saved reviewed claims: 1,132; 1,103 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5376,6 +5376,45 @@ Commissioned classification: 2,215 yes; 5,390 no; 16,335 indeterminate.
   and consecutive finalized production builds reproduced complete static-tree
   digest
   `e2bea8cd0837b0267808a08a73f30d7200ea6bf2999ced345d728858d9123de2`.
+- Batch 324 covers Francis T. Burke in Box 94 through Paul L. Burke across ten
+  contiguous rows on PDF page 61, with integrity reviews of the separate Box
+  93 Francis T. Burke and Edmund M. Burke records. Exact private-identifier
+  agreement confirms the indexed George N. Burke row against an official Army
+  record spelled George N. Burkett; both surname forms remain visible. The
+  record's corrected civilian-occupation field covers shovelmen, cranemen,
+  derrickmen, and hoistmen, but does not identify which role, an employer,
+  worksite, machine, industry, or Army-to-OSS chronology. The CIA explicitly
+  identifies Edmund Michael “Mike” Burke, and the Pennsylvania Gazette places
+  him in New York selling maritime insurance when he met William J. Donovan
+  and soon joined OSS. The occupation is therefore published as a strongly
+  date-bounded immediate affiliation, not as a named employer. The separate
+  Michael Burke row remains ambiguous, and the separate Francis T. Burke rows
+  remain unresolved possible duplicates rather than silent merges. Frank A.
+  Burke, Honora E. Burke, James C. Burke, James E. Burke, James R. Burke,
+  Maurice L. Burke, and Paul L. Burke route to Box 93-94 review; Paul retains
+  the printed commissioned Army classification without receiving an
+  unsupported officer biography. No authenticated Catalog request, credential,
+  raw API response, full private identifier, full copyrighted page, or
+  unsupported employer claim was used or published.
+- Batch 324's strict evidence bundle adds six source records, two
+  affiliations, four claims, ten claim-source links, twelve person updates,
+  and twelve durable research attempts while adding no organization. The
+  bundle passed schema validation, two-import idempotence checks, SQLite
+  integrity and foreign-key checks, all 74 Python tests, the deterministic
+  200-profile audit, a zero-warning static build of 24,409 pages, a zero-
+  vulnerability production dependency audit, the complete 24,409-page
+  internal-link check, the aggregate-only public-identifier audit, and a
+  focused 3 / 3 browser regression across desktop, phone, and tablet. The
+  complete browser/accessibility matrix passed 963 / 963 after six stale
+  assertions were updated for Edmund M. Burke's new state and three late-run
+  browser failures passed in fresh isolated reruns. All 65 manifest assets
+  match across 78,014,762 bytes; the manifest SHA-256 is
+  `392f966a7aef40f5c8b9425e2d61fba00b509771a3d33457b503d43c4a3039ea`.
+  Consecutive public-data builds reproduced digest
+  `b57312088ce0335f62eded8f97b8560f6cb71defb77d271bc6c6e7bd9133120b`,
+  and consecutive finalized production builds reproduced complete static-tree
+  digest
+  `f0c2253114f75bd6642d5a758c1a662117e32c88811a8090f8b6560e5b92a558`.
 - Batch 315 covers Thomas L. Bucky through Raphael Buegnon on PDF page 59 in
   Boxes 90-91. Exact private-identifier agreement confirms Francis J. Bucolo,
   Bernard J. Budenosky, and Anthony J. Budraitis. The official Army-entry

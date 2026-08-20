@@ -4,17 +4,30 @@ Run: 2026-08-19 UTC
 
 ## Result
 
-The expanded release matrix contains **960** browser, responsive, and
+The expanded release matrix contains **963** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The initial
-39-minute single-worker sweep passed **954 / 960**; six older tests across
-desktop, phone, and tablet were affected by closed macOS headless-browser
-sessions or teardown timeouts. All six failed viewport cases passed **6 / 6**
-in fresh isolated single-worker reruns, for a final **960 / 960** result. The
-matrix includes 27 axe scans of representative routes, including the growing
-Sources table.
+40-minute single-worker sweep passed **954 / 963**. Six failures belonged to
+two older assertions that still expected Edmund M. Burke's pre-Batch-324
+research state; those assertions were updated to require the new immediate
+occupation and terminal status. Three other older viewport cases timed out or
+lost browser state late in the run. Every one of the nine originally failing
+viewport cases passed in fresh isolated single-worker reruns after the two
+stale assertions were corrected, for a final **963 / 963** result. The matrix
+includes 27 axe scans of representative routes, including the growing Sources
+table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 324 adds a focused direct-route regression for Francis T. Burke in Box
+94 through Paul L. Burke on PDF page 61, plus the related Edmund M. Burke,
+Michael Burke, and Box 93 Francis T. Burke integrity paths. It confirms that
+George N. Burke's grouped Army occupation remains qualified and separate from
+an employer; renders Edmund M. Burke's marine-insurance work as an immediate
+occupation with no named employer; withholds that evidence from the ambiguous
+Michael Burke row; preserves both Francis rows; and routes the remaining
+unsupported identities to archival review. The focused regression passed
+**3 / 3** across desktop, phone, and tablet.
 
 Batch 323 adds a focused direct-route regression for William F. Burgess
 through Francis T. Burke on PDF page 61. It verifies exact-identifier
