@@ -3847,6 +3847,61 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Pages-sixty-one-and-sixty-two Burnet through Burnham pathways, Batch 327
+
+`research/evidence-pages-sixty-one-sixty-two-maccurdy-burnet-through-robert-burnham-pathways_batch-327_2026-08-20.json`
+records the final five Box 94 rows on PDF page 61 and first five Box 94-95 rows
+on page 62, from Maccurdy Burnet through Robert J. Burnham. Both index pages,
+NARA's Army-file technical documentation, and corrected occupation-code pages
+171-172 were visually checked. The official Army merged file was searched by
+private identifier outside version control. No full identifier or raw record
+is stored in the evidence bundle or public projection.
+
+The strict bundle contains ten sources, six organization inputs, eight
+affiliations, thirteen claims, thirty-one claim-source links, ten person
+updates, and ten durable research attempts. Exact private-identifier agreement
+confirms Maccurdy Burnet, Floyd R. Burnett, and Robert J. Burnham. The corrected
+code list decodes Maccurdy's 066 field as “Technicians, except laboratory” and
+Robert's 185 field as “Agents, sales, except to consumers.” Both are published
+as qualified, date-bounded occupation groups with no employer, specialty,
+product, industry, workplace, customer, or OSS sequence. Floyd's matching May
+23, 1946 Army entry postdates OSS termination and is retained only as identity
+evidence.
+
+The [1942 *Yackety Yack* institutional
+record](https://lib.digitalnc.org/record/27391?ln=en), visually checked on PDF
+page 71 and printed page 67, identifies MacCurdy Burnet as an A.B. candidate
+and Red Cross field supervisor. UNC is modeled as student status. The Red Cross
+role is a neutral professional affiliation because the source does not establish
+whether it was paid or volunteer. The [Princeton memorial for Gilbert Burnett
+Jr.](https://paw.princeton.edu/memorial/gilbert-burnett-jr-43) explicitly
+sequences 1943 graduation, Army enlistment, and subsequent OSS service. It
+supports a high-confidence identity, Princeton student affiliation, and the
+Army as the immediate military pathway.
+
+The [Princeton memorial for Philip
+Burnham](https://paw.princeton.edu/memorial/philip-burnham-31) directly links
+his Commonweal editorial career, Army Air Force officer status, and OSS
+attachment. [Commonweal's institutional
+history](https://www.commonwealmagazine.org/edward-s-skillin-1904-2000) dates
+his co-editorship to 1938, while the [May 2, 1940 Congressional
+Record](https://www.govinfo.gov/content/pkg/GPO-CRECB-1940-pt5-v86/pdf/GPO-CRECB-1940-pt5-v86-11.pdf)
+names him as editor of the Commonweal. The Commonweal Publishing Company is
+therefore published as the verified last civilian employer before wartime
+service, separate from the Army Air Force attachment that led into OSS. A
+colleague's [Commonweal memoir](https://www.commonwealmagazine.org/trying-my-hand)
+corroborates his return from wartime service. The accessible evidence supplies
+no rank, so the project's commissioned-officer classification remains
+indeterminate.
+
+Robert W. Burnet, Edgar L. Burnett, Russell A. Burnett, W. C. Burnett, and
+Mary K. Burnham remain unresolved. The initials-only W. C. record receives
+critical Box 94 review priority; the other unresolved cases route to Boxes
+94-95. No authenticated Catalog request, credential, raw API response, full
+private identifier, full copyrighted page, post-OSS occupation masquerading as
+pre-OSS evidence, namesake biography, or unsupported employer claim was stored
+or published.
+
 ## Official reference material
 
 - NARA OSS personnel records:

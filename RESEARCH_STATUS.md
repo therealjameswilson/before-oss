@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,047 people with a non-planned attempt | 23,940 active person entities | 12.7277% |
-| Verified-affiliation coverage | 443 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8505% |
-| Verified-employer coverage | 191 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.7978% |
-| Archival-review coverage | 2,998 people with an individual file-access/priority assessment | 23,940 active person entities | 12.5230% |
+| Research-attempt coverage | 3,057 people with a non-planned attempt | 23,940 active person entities | 12.7694% |
+| Verified-affiliation coverage | 446 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8630% |
+| Verified-employer coverage | 192 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8020% |
+| Archival-review coverage | 3,008 people with an individual file-access/priority assessment | 23,940 active person entities | 12.5647% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Possible duplicate groups: 222
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 542
-- Identity status `high_confidence`: 481
+- Identity status `confirmed`: 545
+- Identity status `high_confidence`: 483
 - Identity status `probable`: 100
 - Identity status `ambiguous`: 48
 - Identity status `conflicting`: 43
-- Identity status `unresolved`: 22,726
+- Identity status `unresolved`: 22,721
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,185
-- Enlisted Army personnel: 3,754
+- Unknown or indeterminate: 16,181
+- Enlisted Army personnel: 3,758
 - Commissioned Army officers: 2,097
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,215 yes; 5,400 no; 16,325 indeterminate.
+Commissioned classification: 2,215 yes; 5,404 no; 16,321 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,893
+- `not_started`: 20,883
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 69
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 462
-- `requires_archival_review`: 2,063
-- `completed`: 97
+- `occupation_only_found`: 464
+- `requires_archival_review`: 2,069
+- `completed`: 98
 - `conflicting_sources`: 44
-- `verified_employer_found`: 188
-- Claim confidence: 723 confirmed; 1,032 high; 603 medium; 39 low; 54
+- `verified_employer_found`: 189
+- Claim confidence: 726 confirmed; 1,039 high; 606 medium; 39 low; 54
   conflicting
-- Durable evidence inventory: 3,261 source records representing 1,498 unique
-  documents; 473 organizations; 1,225 affiliations; 2,451 claims; and 5,541
+- Durable evidence inventory: 3,271 source records representing 1,507 unique
+  documents; 474 organizations; 1,233 affiliations; 2,464 claims; and 5,572
   claim-source links
-- Reviewed public projection: 462 organizations; 1,215 published, qualified,
-  or conflict-visible affiliations; 2,410 published, qualified, or
-  conflict-visible claims; and 2,183 public citation records
+- Reviewed public projection: 463 organizations; 1,223 published, qualified,
+  or conflict-visible affiliations; 2,423 published, qualified, or
+  conflict-visible claims; and 2,193 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,10 +81,10 @@ Commissioned classification: 2,215 yes; 5,400 no; 16,325 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,340 across 1,302 people; 128 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,254
+- Total recorded attempts/plans: 4,264
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,144; 1,114 have at least one public-visible
+- People with saved reviewed claims: 1,149; 1,119 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,67 @@ Commissioned classification: 2,215 yes; 5,400 no; 16,325 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 327 covers Maccurdy Burnet through Robert J. Burnham across the final
+  five Box 94 rows on PDF page 61 and first five Box 94-95 rows on page 62.
+  Exact private-identifier agreement confirms Maccurdy Burnet, Floyd R.
+  Burnett, and Robert J. Burnham. The official Army file and corrected code
+  list support Maccurdy's date-bounded non-laboratory technician group and
+  Robert's date-bounded sales-agent group, but no employer, specialty,
+  product, industry, workplace, customer, or Army-to-OSS chronology. Floyd's
+  exact Army entry is dated May 23, 1946, after OSS termination, so it supplies
+  identity evidence only and no pre-OSS occupation or affiliation.
+
+  UNC's visually checked 1942 yearbook independently confirms the rare
+  MacCurdy Burnet identity, A.B. candidacy, and a Red Cross field-supervisor
+  role. UNC remains student status, while the Red Cross entry is modeled as a
+  neutral professional affiliation because the source does not establish paid
+  or volunteer status. Princeton's institutional memorial explicitly
+  sequences Gilbert Burnett Jr. from 1943 graduation to Army enlistment and
+  subsequent OSS service, making the Army his documented immediate military
+  pathway and Princeton a separate student affiliation.
+
+  A second Princeton memorial directly connects Philip Burnham's Commonweal
+  editorial career, wartime Army Air Force officer status, and OSS attachment.
+  Commonweal's institutional history and a contemporary Congressional Record
+  entry independently establish his 1938-1940 co-editorship. The Commonweal
+  Publishing Company is therefore the verified last civilian employer, while
+  the Army Air Force attachment is the separate military pathway. No
+  commissioned classification is assigned without a rank or service record.
+  Robert W. Burnet, Edgar L. Burnett, Russell A. Burnett, W. C. Burnett, and
+  Mary K. Burnham remain unresolved and route to Boxes 94-95; the initials-only
+  W. C. record receives critical archival priority. No authenticated Catalog
+  request, credential, raw API response, full private identifier, full
+  copyrighted page, post-OSS occupation masquerading as pre-OSS evidence,
+  namesake biography, or unsupported employer claim was used or published.
+- Batch 327's strict evidence bundle adds ten source records, six organization
+  inputs, eight affiliations, thirteen claims, thirty-one claim-source links,
+  ten person updates, and ten durable research attempts. The bundle passed
+  schema validation, two-import idempotence checks, SQLite integrity and
+  foreign-key checks, all 74 Python tests plus five subtests, the deterministic
+  200-profile audit, a zero-warning 24,411-page static build, a zero-
+  vulnerability production dependency audit, the complete 24,411-page
+  internal-link check, the aggregate-only public-identifier audit, and a
+  focused 3 / 3 browser regression across desktop, phone, and tablet. The
+  expanded 972-case sweep passed 969 cases before three tablet infrastructure
+  timeouts; the exact cases passed 3 / 3 in a fresh process in 15.5 seconds.
+  Two consecutive public-data builds reproduced digest
+  `83093fa3aab2c9d3364e6525b8b89416ae27998a9183316e5f2b9d993de4404f`,
+  and two consecutive production builds reproduced static-tree digest
+  `88080becc57bedb7c638c3f6efacf63fced03a3a415782641b0e3379c9ae3e78`.
+  All 65 manifest assets matched across 78,321,303 bytes with manifest SHA-256
+  `33fdea8ef5db0de4fd891f8ff3257fbff16af81ecc2f366cc55d3b1604e96ed4`;
+  the 24,411-page internal-link check and both public-identifier audits passed.
+  Production-deployment results are recorded separately after the release
+  reaches GitHub Pages.
+- Batch 326 is live at the public GitHub Pages site. Merge
+  `32e8e824a0edd028f4173cf408bccbaefa3ab906` passed the pull-request,
+  post-merge test, and Pages workflows. A cache-busted production audit checked
+  seven core routes and all ten Batch 326 profiles, matched all 65 release
+  assets across 78,199,867 bytes to manifest SHA-256
+  `0c786024a4fb62b14c24acad357a6c8553afd1cc1e46eebb6ad92828d86a7c41`,
+  and confirmed the deployed 3,047 attempted, 443 verified-affiliation, 191
+  verified-employer, 2,998 archival-assessment, 2,410 public-claim, and 2,183
+  public-citation totals.
 - Batch 315 covers Thomas L. Bucky through Raphael Buegnon on PDF page 59 in
   Boxes 90-91. Exact private-identifier agreement confirms Francis J. Bucolo,
   Bernard J. Budenosky, and Anthony J. Budraitis. The official Army-entry

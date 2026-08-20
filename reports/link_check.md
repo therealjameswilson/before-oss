@@ -4,16 +4,47 @@ Run: 2026-08-20 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,410 HTML files. Every relative
+**PASS.** The production build contains 24,411 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 462 organization profiles, and the
+The build includes 23,940 person profiles, 463 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,374 unique external URLs for separate live
+The checker inventoried 49,381 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 327 local release check
+
+The complete 24,411-page internal-link pass includes Maccurdy Burnet through
+Robert J. Burnham across the final five Box 94 rows on PDF page 61 and first
+five Box 94-95 rows on page 62, plus the new Commonweal Publishing Company
+organization route. All 74 Python tests plus five subtests, the deterministic
+200-profile audit, focused three-viewport regression, dependency audit,
+database integrity checks, and public-identifier audit pass; Astro reports zero
+errors, warnings, or hints. The expanded 972-case sweep passed 969 cases before
+three tablet infrastructure timeouts; the exact timed-out cases then passed 3 /
+3 in a fresh process in 15.5 seconds.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,321,303 bytes and has
+SHA-256
+`33fdea8ef5db0de4fd891f8ff3257fbff16af81ecc2f366cc55d3b1604e96ed4`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,481 production
+artifacts. It rejected 614 and 1,040 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`83093fa3aab2c9d3364e6525b8b89416ae27998a9183316e5f2b9d993de4404f`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`88080becc57bedb7c638c3f6efacf63fced03a3a415782641b0e3379c9ae3e78`.
+The regression keeps student, professional, military, civilian-employer,
+occupation-only, post-OSS identity, and unresolved evidence in separate lanes.
 
 ## Batch 326 local release check
 
