@@ -5,21 +5,53 @@ Run: 2026-08-19 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,408 pages**
-- Internal link check: **24,408 HTML files passed**
-- Expanded browser and accessibility matrix: **957 / 957 passed** across
-  desktop, phone, and tablet. The initial 34-minute single-worker sweep passed
-  **955 / 957**; one older Batch 218 phone case and the tablet directory axe
-  case were affected by a closed macOS headless-browser session or teardown
-  timeout. Both failed cases then passed **2 / 2** in fresh isolated
-  single-worker reruns; the accessibility rerun also repeated the adjacent
-  person-profile case successfully. The 27 axe cases cover representative
-  routes and test for serious or critical accessibility violations.
+- Static production build: **24,409 pages**
+- Internal link check: **24,409 HTML files passed**
+- Expanded browser and accessibility matrix: **960 / 960 passed** across
+  desktop, phone, and tablet. The initial 39-minute single-worker sweep passed
+  **954 / 960**; six older tests were affected by closed macOS headless-browser
+  sessions or teardown timeouts. All six failed viewport cases then passed
+  **6 / 6** in fresh isolated single-worker reruns. The 27 axe cases cover
+  representative routes and test for serious or critical accessibility
+  violations.
 - Focused Batch 322 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It verifies the three exact-identifier Army occupations,
   preserves the qualified Burgesono/Burgeson spelling pair, keeps Lucien
   Bureau's French sub-lieutenant classification visible, and routes seven
   unsupported identities to archival review without inventing employers.
+- Focused Batch 323 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It verifies the three exact-identifier Army records,
+  separates Smith College student evidence and Army occupations from
+  employment, qualifies Burgett's and Burja's military pathways, retains
+  Edmund M. Burke's earlier evidence, and routes unsupported identities to
+  archival review.
+- Batch 322 production verification: **passed**. Release
+  `d1df60b45ade850de49d46e9889bcca73318ed90` passed pull-request workflow
+  [32312002916](https://github.com/therealjameswilson/before-oss/actions/runs/32312002916),
+  post-merge test workflow
+  [32313823427](https://github.com/therealjameswilson/before-oss/actions/runs/32313823427),
+  and Pages workflow
+  [32313823413](https://github.com/therealjameswilson/before-oss/actions/runs/32313823413).
+  The live deployment returned HTTP 200 with expected content for seven core
+  routes and ten Batch 322 profiles, matched all 65 manifest assets across
+  77,871,306 bytes, reproduced manifest SHA-256
+  `d779f748813cde57ff8eef99e5a375a9fd99cf61e75428df340d5ac11635efba`,
+  and exposed the exact 3,008 attempted, 439 verified-affiliation, 189 verified-
+  employer, 2,959 archival-assessment, 2,372 published-claim, and 2,155 public-
+  citation metrics with zero route or asset failures.
+- Batches 319-321 production verification: **passed**. Release
+  `02e92fbb39b3d1d6d6a2914601a08847f0e116d4` passed pull-request workflow
+  [32307574137](https://github.com/therealjameswilson/before-oss/actions/runs/32307574137),
+  post-merge test workflow
+  [32310235701](https://github.com/therealjameswilson/before-oss/actions/runs/32310235701),
+  and Pages workflow
+  [32310235723](https://github.com/therealjameswilson/before-oss/actions/runs/32310235723).
+  The live deployment returned HTTP 200 for 37 core and representative profile
+  routes, matched all 65 manifest assets across 77,823,098 bytes, reproduced
+  manifest SHA-256
+  `9bbe8eef4a2fbcf638f9cf58c5dc326ef4c29c22d4c58ae662a155dcd62b87aa`,
+  and exposed the exact 2,998 attempted, 439 verified-affiliation, and 189
+  verified-employer metrics with zero route or asset failures.
 - Focused Batches 319-321 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It verifies bounded occupations, the separate Big Sandy
   High School student relationship, the qualified Justice Department
@@ -164,36 +196,47 @@ Run: 2026-08-19 UTC
 - Deterministic stratified profile audit: **200 / 200 passed all checks**
 - Deterministic production rebuilds: **identical sorted path-and-file-SHA-256
   tree hashes**
-  (`f05040707e6a3426cebf00f817990e59ed5bdb983f3eff1eb0b5f1faaf6389fb`)
-- Latest deterministic public-data build (Batches 319-321): **byte-for-byte
+  (`e2bea8cd0837b0267808a08a73f30d7200ea6bf2999ced345d728858d9123de2`)
+- Latest deterministic public-data build (Batch 323): **byte-for-byte
   identical** across consecutive builds using the sorted
   path-and-file-SHA-256 tree digest
-  (`e8c326768820d432fb52f4f336b4287aa2385d92eb0212260b2e32f327d0b646`).
+  (`019f217ffab3cb8fb96f1cb232f94b5ed5e1261599819ca548eeab754150b28b`).
 - Public redaction build: **passed**
 - Local public-data manifest audit: **65 / 65 assets matched size and SHA-256**
-  across **77,823,098 bytes** in both the source and production trees;
+  across **77,977,181 bytes** in both the source and production trees;
   manifest SHA-256
-  `9bbe8eef4a2fbcf638f9cf58c5dc326ef4c29c22d4c58ae662a155dcd62b87aa`.
+  `8ba4d4c57c6cd1d628ba572aa343ca98881bf30c7aaa999a891b597cb949252e`.
 - Public search rows: **23,940 active people**
 - Public source rows represented: **23,978**
 - Public full service-number fields: **0**
 - Field-aware boundary scan of **12,926** nontrivial normalized private
   identifiers plus **120** formatted raw variants: **0 unexpected full-number
-  matches** in **24,478** production artifacts, including compressed mirrors;
-  **1,035** candidate substrings were reviewed. No aggregate or manifest-size
+  matches** in **24,479** production artifacts, including compressed mirrors;
+  **1,039** candidate substrings were reviewed. No aggregate or manifest-size
   coincidence survived the field-aware audit. A
   dedicated unit test still proves that a private value in a profile or claim
   is rejected.
 - Runtime authenticated API calls: **0**
-- Reviewed public sources: **2,151** public records representing **1,484** unique documents
-- Private citation records: **3,229**
-- Published, qualified, or conflict-visible affiliations: **1,192**
-- Published or conflict-visible claims: **2,366**
-- Verified-affiliation metric: **439** people with confirmed/high published
+- Reviewed public sources: **2,162** public records representing **1,487** unique documents
+- Private citation records: **3,240**
+- Published, qualified, or conflict-visible affiliations: **1,203**
+- Published or conflict-visible claims: **2,386**
+- Verified-affiliation metric: **441** people with confirmed/high published
   evidence of any modeled pre-OSS relationship
 - Verified-employer metric: **189** people with confirmed/high published
   employment or self-employment evidence
 - Live NARA Catalog API requests: **0**
+- Batch 323 local release checks: **passed**;
+  74 Python tests plus five parser subtests, the focused **3 / 3** browser
+  regression, the complete **960 / 960** browser and accessibility matrix after
+  six documented fresh-process reruns, the 24,409-route link check,
+  deterministic rebuilds, 65-asset manifest audit, dependency audit, 200-
+  profile audit, database integrity checks, and public-identifier audit all
+  pass. Three exact-identifier Army
+  fields remain occupation or student evidence rather than employers; Glenn A.
+  Burgett's and Mirko Leopold Burja's military pathways remain temporally
+  qualified; Marion Calkins Burgweger's Smith College relationship remains
+  student evidence; and unsupported identities route to archival review.
 - Batches 319-321 local release checks: **passed**; 74 Python tests plus five
   parser subtests, the focused **3 / 3** browser regression, the complete
   **954 / 954** browser and accessibility matrix after the documented fresh-process
