@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,005** browser, responsive, and
+The expanded release matrix contains **1,008** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 338 release sweep passed **1,005 / 1,005** in 8.5 minutes. The
+single-worker Batch 339 release sweep passed **1,008 / 1,008** in 8.6 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 339 adds a focused direct-route regression for John J. Byrne Jr. through
+George J. Cabaud on PDF page 64. It confirms William J. Byrne's surveyor
+occupation without inventing an employer; confirms Joseph C. Bysarovich while
+leaving an unassigned code uninterpreted; qualifies Stephen Byzek's postwar
+identity without projecting a 1957 rank backward; qualifies George J. Cabaud
+from a British SOE personnel-file pointer without inventing pre-OSS chronology;
+masks private identifiers; and routes six unsupported identities to Box 99 or
+100 review. The focused regression passed **3 / 3** across desktop, phone, and
+tablet.
 
 Batch 338 adds a focused direct-route regression for Jane M. Byington through
 John V. Byrne on PDF page 64. It publishes Jane's high-confidence identity and

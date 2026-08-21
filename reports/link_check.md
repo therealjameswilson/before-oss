@@ -12,8 +12,41 @@ The build includes 23,940 person profiles, 469 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,406 unique external URLs for separate live
+The checker inventoried 49,408 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 339 local release check
+
+The complete 24,417-page internal-link pass includes John J. Byrne Jr. through
+George J. Cabaud across Boxes 99-100 on PDF page 64. No organization route was
+added: William J. Byrne's surveyor result is an occupation without an employer,
+and the Byzek and Cabaud records are qualified identity evidence rather than
+pre-OSS affiliation claims. All 74 Python tests plus five subtests, the
+deterministic 200-profile audit, focused three-viewport regression, dependency
+audit, database integrity checks, and public-identifier audit pass; Astro
+reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,960,439 bytes and has
+SHA-256
+`6e09759f3c85d418787440ea466bebcc4851a98002319a935e0ae02a9c8d0fad`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,487 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, classified two manifest-size coincidences, and found no
+aggregate or unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`d951a105114c18f607101e5c22426f781f06ca5eae2f698c30e17b5fa2da5811`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`dff0b9a94cb1880db507bd479e3860f7cf0aa6e8ca4ecea986a1000949a34fd9`.
+The regression keeps William's occupation distinct from employment, leaves
+Joseph's unassigned code uninterpreted, qualifies the postwar Byzek identity,
+preserves the undigitized Cabaud file as identity evidence only, and keeps six
+unresolved archival paths visible. The complete browser, responsive, and
+accessibility matrix passed 1,008 / 1,008 in an uninterrupted 8.6-minute
+single-worker run.
 
 ## Batch 338 local release check
 
@@ -44,6 +77,27 @@ Jack's occupations distinct from employers, qualifies Westwood's identity,
 and preserves six unresolved archival paths without promoting unsupported
 namesakes. The complete browser, responsive, and accessibility matrix passed
 1,005 / 1,005 in an uninterrupted 8.5-minute single-worker run.
+
+## Batch 338 production deployment
+
+Release `3bfdda19b48ba6dbb10740df3dfc113f8cad0635` passed pull-request workflow
+[32463259007](https://github.com/therealjameswilson/before-oss/actions/runs/32463259007),
+post-merge test workflow
+[32465048328](https://github.com/therealjameswilson/before-oss/actions/runs/32465048328),
+and Pages workflow
+[32465048250](https://github.com/therealjameswilson/before-oss/actions/runs/32465048250).
+The production audit opened seven core routes and all ten Batch 338 profiles.
+All 17 routes returned HTTP 200 and matched the deployed Pages artifact byte
+for byte. The live manifest and all 65 listed assets also matched the
+artifact's bytes, sizes, and SHA-256 values across 78,921,264 bytes; the live
+manifest SHA-256 is
+`152d3ea148287bba22a12a6ddbef76beee7712aa5133bb15bdeda10147727408`.
+
+Live statistics exactly reproduced 3,166 attempted people, 452 verified
+affiliations, 193 verified employers, 3,118 archival-review assessments, 2,484
+public claims, and 2,255 public sources. Because every fetched route and asset
+matched the audited release, the successful local boundary-aware private-
+identifier result applies byte for byte to production.
 
 ## Batch 337 local release check
 
@@ -79,6 +133,27 @@ paths without promoting unsupported identities or employers.
 The complete Batch 337 browser, responsive, and accessibility matrix passed
 1,002 / 1,002 in an uninterrupted 8.5-minute single-worker run across desktop,
 phone, and tablet.
+
+## Batch 337 production deployment
+
+Release `c986e6a5a1a77b2021bb9a1bca715a511edcef07` passed pull-request workflow
+[32461808958](https://github.com/therealjameswilson/before-oss/actions/runs/32461808958),
+post-merge test workflow
+[32463230296](https://github.com/therealjameswilson/before-oss/actions/runs/32463230296),
+and Pages workflow
+[32463230274](https://github.com/therealjameswilson/before-oss/actions/runs/32463230274).
+The production audit opened seven core routes and all ten Batch 337 profiles.
+Every route returned HTTP 200 and matched the deployed Pages artifact byte for
+byte. The live manifest and all 65 listed assets also matched the artifact's
+bytes, sizes, and SHA-256 values across 78,859,121 bytes; the live manifest
+SHA-256 is
+`cd65be0a284f96ba6863aa7a3daef667a56de330ada0c227affeaa7bcee9cf90`.
+
+Live statistics exactly reproduced 3,156 attempted people, 451 verified
+affiliations, 193 verified employers, 3,108 archival-review assessments, 2,477
+public claims, and 2,248 public sources. Because every fetched route and asset
+matched the audited release, the successful local boundary-aware private-
+identifier result applies byte for byte to production.
 
 ## Batch 336 local release check
 
