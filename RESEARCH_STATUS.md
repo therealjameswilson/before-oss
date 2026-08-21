@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,315 people with a non-planned attempt | 23,940 active person entities | 13.8471% |
+| Research-attempt coverage | 3,325 people with a non-planned attempt | 23,940 active person entities | 13.8889% |
 | Verified-affiliation coverage | 456 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9048% |
 | Verified-employer coverage | 195 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8145% |
-| Archival-review coverage | 3,268 people with an individual file-access/priority assessment | 23,940 active person entities | 13.6508% |
+| Archival-review coverage | 3,278 people with an individual file-access/priority assessment | 23,940 active person entities | 13.6926% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 226
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 592
+- Identity status `confirmed`: 595
 - Identity status `high_confidence`: 498
 - Identity status `probable`: 112
 - Identity status `ambiguous`: 55
-- Identity status `conflicting`: 50
-- Identity status `unresolved`: 22,633
+- Identity status `conflicting`: 51
+- Identity status `unresolved`: 22,629
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,131
-- Enlisted Army personnel: 3,800
+- Unknown or indeterminate: 16,128
+- Enlisted Army personnel: 3,803
 - Commissioned Army officers: 2,102
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
+Commissioned classification: 2,221 yes; 5,451 no; 16,268 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,625
+- `not_started`: 20,615
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 85
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 500
-- `requires_archival_review`: 2,254
+- `occupation_only_found`: 503
+- `requires_archival_review`: 2,260
 - `completed`: 104
-- `conflicting_sources`: 51
+- `conflicting_sources`: 52
 - `verified_employer_found`: 193
-- Claim confidence: 776 confirmed; 1,068 high; 659 medium; 48 low; 61
+- Claim confidence: 779 confirmed; 1,068 high; 662 medium; 48 low; 62
   conflicting
-- Durable evidence inventory: 3,415 source records representing 1,586 unique
-  documents; 484 organizations; 1,291 affiliations; 2,612 claims; and 5,897
+- Durable evidence inventory: 3,419 source records representing 1,587 unique
+  documents; 484 organizations; 1,294 affiliations; 2,619 claims; and 5,915
   claim-source links
-- Reviewed public projection: 473 organizations; 1,281 published, qualified,
-  or conflict-visible affiliations; 2,562 published, qualified, or
-  conflict-visible claims; and 2,324 public citation records
+- Reviewed public projection: 473 organizations; 1,284 published, qualified,
+  or conflict-visible affiliations; 2,569 published, qualified, or
+  conflict-visible claims; and 2,328 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,7 +81,7 @@ Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,416 across 1,377 people; 142 additional
   attempts across 129 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,525
+- Total recorded attempts/plans: 4,535
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,229; 1,190 have at least one public-visible
@@ -5919,6 +5919,67 @@ Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 354 covers Roger G. Campbell through William A. Campbell. Jr., the
+  next ten contiguous personnel rows on PDF page 67, rows 38-46, and page 68,
+  row 1, all indexed in Box 104. The frozen source PDF again matched its
+  provenance SHA-256, both index pages were rendered and visually checked,
+  and the printed period after `Campbell.` on page 68 remains immutable. Blank
+  rank fields remain blank, all private identifiers remain in SQLite, and only
+  masked suffixes reach public data.
+
+  Exact full-name and private-identifier matches in NARA's complete Army
+  Serial Number Merged File confirm Roger G. Campbell, Russell W. Campbell,
+  and William E. Campbell as Army entrants. The fixed-width records and the
+  visually checked official code list establish only broad civilian
+  occupations at Army entry: an unskilled textile-manufacturing category for
+  Roger on October 10, 1942, carpenter for Russell on April 5, 1945, and sales
+  clerk for William E. on March 17, 1943. None of the records names a company,
+  factory, store, worksite, or immediate OSS predecessor. The profiles
+  therefore publish qualified occupation-only evidence and remain excluded
+  from verified-employer analytics.
+
+  Stephen E. Campbell Jr.'s printed private identifier resolves to a different
+  full name in the official Army file, while no exact Stephen E. Campbell name
+  row appears there. The public profile exposes the conflict without naming
+  the unrelated person or transferring that record's Army or occupational
+  facts. William A. Campbell. Jr.'s seven-digit printed identifier has no exact
+  record in the complete Army file; three eight-digit records share its suffix
+  only if an unprinted leading character is supplied. The project does not
+  supply that character. Sara B., W. L., Waldemar B., Walter L., William N.,
+  and William A. Campbell. Jr. remain unresolved with explicit Box 104 review
+  paths; exact-name and modern namesakes remain rejected rather than
+  published.
+- Batch 354's strict evidence bundle adds four official sources, three
+  occupation-only affiliations, seven claims, eighteen claim-source links, ten
+  person updates, and ten durable research attempts. Three repeated imports
+  produced identical results. The relevant index, fixed-width documentation,
+  and occupation-code pages were visually checked before decisions were
+  recorded. SQLite integrity and foreign-key checks, the deterministic
+  200-profile audit, all 74 Python tests, the 24,421-page build and internal-
+  link check, both public-identifier audits, the zero-vulnerability dependency
+  audit, the focused **9 / 9** desktop, phone, and tablet regression, and four
+  direct official-source checks pass. The uninterrupted **1,059 / 1,059**
+  complete browser and accessibility matrix also passes. Astro reports zero
+  errors, warnings, or hints. Consecutive public, generated-data, and finalized
+  static builds reproduced exactly. All 65 manifest assets match their source
+  and built copies across 79,650,281 bytes; the manifest SHA-256 is
+  `c62cb520f73921c54a0d715236dcc341d7e71e86e17ff3c9f8343dee3944a2e6`.
+  The finalized static-tree digest is
+  `5aad2198062c1cb582d828821dd7c046878b69d1e19b173aeeb4ee02c102101d`.
+  No authenticated Catalog API request was made.
+- After Batch 354, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,325
+  people, or 13.8889% of active entities; 456 people (1.9048%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,278 (13.6926%) have an assessed
+  archival-review disposition, and 20,615 remain `not_started`. The private
+  evidence graph contains 1,294 affiliations, 484 organizations, 3,419
+  sources, 2,619 claims, and 5,915 claim-source links. Claim confidence counts
+  are 779 confirmed, 1,068 high, 662 medium, 48 low, and 62 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,284
+  affiliations, 2,328 sources, and 2,569 published or qualified claims, backed
+  by 1,587 unique source documents. It preserves 226 possible-duplicate groups.
 - Batch 353 covers Joan C. Campbell through Robert D. Campbell, the next ten
   contiguous personnel rows on PDF page 67, rows 28-37, across Boxes 103-104.
   The official PDF was downloaded again, its SHA-256 matched the frozen

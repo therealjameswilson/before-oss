@@ -15,6 +15,12 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,439 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+All four Batch 354 official citation endpoints returned HTTP 200 during
+targeted verification: the NARA personnel-index PDF, the public Catalog page
+for the Army merged-file series, the fixed-width technical documentation, and
+the official civilian-occupation code list. No authenticated Catalog API
+request was made.
+
 All three Batch 353 official citation endpoints returned HTTP 200 during
 targeted verification: the NARA personnel-index PDF, the public Catalog page
 for the Army merged-file series, and its fixed-width technical documentation.
@@ -77,6 +83,41 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 354 local release check
+
+The complete 24,421-page internal-link pass includes Roger G. Campbell through
+William A. Campbell. Jr. across PDF pages 67-68 in Box 104. Exact private
+identifiers confirm the Army merged-file identities of Roger G. Campbell,
+Russell W. Campbell, and William E. Campbell, but their textile-manufacturing,
+carpenter, and sales-clerk evidence remains qualified occupation-only evidence.
+No employer, workplace, or immediate OSS predecessor is inferred. Stephen E.
+Campbell Jr.'s identifier conflict is visible without publishing the unrelated
+Army subject. Six unresolved identities retain Box 104 review paths, William
+A. Campbell. Jr.'s seven-digit identifier is not padded, and the printed
+period after `Campbell.` remains recoverable. All 74 Python tests, the
+deterministic 200-profile audit, the focused 9 / 9 browser regression, the clean
+1,059 / 1,059 complete matrix, dependency audit, database integrity checks,
+and public-identifier audits pass; Astro reports zero errors, warnings, or
+hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,650,281 bytes and has
+SHA-256
+`c62cb520f73921c54a0d715236dcc341d7e71e86e17ff3c9f8343dee3944a2e6`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 623 and 1,052 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`37a405cf745cf777c477d54d50b7e32c15f4a3c0efac8c64489e56d330cf5aa8`.
+Consecutive generated-data mirrors produced digest
+`9859d7fafb0d6eca44e6abdba85b7dab1b10987d481a8cf427e1edc96ca41a49`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`5aad2198062c1cb582d828821dd7c046878b69d1e19b173aeeb4ee02c102101d`.
 
 ## Batch 353 local release check
 

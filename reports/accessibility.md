@@ -4,10 +4,11 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,050** browser, responsive, and
+The expanded release matrix contains **1,059** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The 11.0-minute
-single-worker Batch 353 sweep passed **1,050 / 1,050** without a timeout or
-accessibility failure. The prior 10.6-minute Batch 352 sweep passed **1,047 /
+single-worker Batch 354 sweep passed **1,059 / 1,059** without a timeout or
+accessibility failure. The prior 11.0-minute Batch 353 sweep passed **1,050 /
+1,050**, the prior 10.6-minute Batch 352 sweep passed **1,047 /
 1,047**, the prior 10.9-minute Batch 351 sweep passed **1,044 /
 1,044**, and the prior 10.0-minute Batch 350 sweep passed **1,041 /
 1,041**, the prior 10.9-minute Batch 349 sweep passed **1,038 / 1,038**, and
@@ -32,6 +33,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 354 adds direct-route coverage for Roger G. Campbell through William A.
+Campbell. Jr. across PDF pages 67-68 in Box 104. It confirms three exact-name,
+exact-private-identifier Army identities while publishing only broad, dated
+occupation categories; exposes Stephen E. Campbell Jr.'s identifier conflict
+without transferring the unrelated Army subject's facts; refuses to pad
+William A. Campbell. Jr.'s seven-digit identifier; preserves the printed
+period after `Campbell.`; masks all private identifiers; and routes six
+unresolved people to archival review. The focused regression passed **9 / 9**,
+and all 27 axe cases passed in the complete **1,059 / 1,059** matrix.
 
 Batch 353 adds direct-route coverage for Joan C. Campbell through Robert D.
 Campbell on PDF page 67 across Boxes 103-104. It exposes John P. Campbell's

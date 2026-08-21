@@ -57,6 +57,9 @@ Run: 2026-08-21 UTC
 - Batch 353 complete browser and accessibility matrix: **1,050 / 1,050 passed**
   in 11.0 minutes across desktop, phone, and tablet. The clean uninterrupted
   run includes all 27 axe cases.
+- Batch 354 complete browser and accessibility matrix: **1,059 / 1,059 passed**
+  in 11.0 minutes across desktop, phone, and tablet. The clean uninterrupted
+  run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -248,6 +251,30 @@ Run: 2026-08-21 UTC
   C. Campbell's printed seven-digit identifier; preserves `Lucile` as indexed;
   masks identifiers; and routes nine unresolved profiles to Boxes 103-104
   review without inventing employers or occupations.
+- Focused Batch 354 browser regression: **9 / 9 passed** across desktop,
+  phone, and tablet. It publishes three exact-identifier Army-entry occupation
+  categories without turning them into employers; exposes Stephen E.
+  Campbell Jr.'s identifier conflict without publishing the unrelated Army
+  subject; refuses to pad William A. Campbell. Jr.'s seven-digit identifier;
+  preserves the printed period after `Campbell.`; masks identifiers; and
+  routes six unresolved profiles to Box 104 review.
+- Batch 354 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `37a405cf745cf777c477d54d50b7e32c15f4a3c0efac8c64489e56d330cf5aa8`;
+  generated-data mirrors reproduced
+  `9859d7fafb0d6eca44e6abdba85b7dab1b10987d481a8cf427e1edc96ca41a49`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `5aad2198062c1cb582d828821dd7c046878b69d1e19b173aeeb4ee02c102101d`.
+  The complete 24,421-page internal-link check passed and inventoried 49,439
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,650,281 bytes; manifest SHA-256 was
+  `c62cb520f73921c54a0d715236dcc341d7e71e86e17ff3c9f8343dee3944a2e6`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  three identical imports, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **9 / 9**
+  regression, the clean **1,059 / 1,059** complete matrix, four direct official
+  source checks, and a zero-vulnerability production dependency audit passed.
 - Batch 353 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `1f4b3d530b0767c457271fce243da8c8acf25d7224f029b0df8c580d5354367a`;
