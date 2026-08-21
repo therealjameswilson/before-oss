@@ -15,6 +15,38 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,386 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 333 local release check
+
+The complete 24,412-page internal-link pass includes Billie V. Bush through
+Davis Bushnell in Boxes 96-97 on PDF page 63. All 74 Python tests plus five
+subtests, the deterministic 200-profile audit, focused three-viewport
+regression, dependency audit, database integrity checks, and public-identifier
+audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,563,762 bytes and has
+SHA-256
+`04f2c3f2ec12c4a8c4695b079d7161cd539f85c0c7c9db9a52362b4b877cf364`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,482 production
+artifacts. It rejected 618 and 1,043 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`a57f5d55920ff94a89050bcda99f634cd90a296c7c34ec0a7ec64a41ecb60899`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`0093c7e35dee6187dc445b8f31028fc5edb485aef764aa6e72c87cf098dd225d`.
+The regression publishes Vernon A. Bush's bounded occupation only, withholds
+the unresolved Asa Bushnell namesake claim, and preserves the remaining eight
+archival paths without promoting an unsupported employer or identity.
+
+The complete Batch 333 browser, responsive, and accessibility matrix passed
+990 / 990 in an uninterrupted 8.9-minute single-worker run across desktop,
+phone, and tablet.
+
 ## Batch 332 local release check
 
 The complete 24,412-page internal-link pass includes Robbie Burton through
@@ -79,6 +111,23 @@ archival paths without promoting an unsupported employer or namesake.
 The complete Batch 331 browser, responsive, and accessibility matrix passed
 984 / 984 in an uninterrupted 8.8-minute single-worker run across desktop,
 phone, and tablet.
+
+## Batch 331 production deployment
+
+Release `fa1009a40049aa13d107f113c9f8269d9965de2d` passed pull-request workflow
+[32443818604](https://github.com/therealjameswilson/before-oss/actions/runs/32443818604),
+post-merge test workflow
+[32445288854](https://github.com/therealjameswilson/before-oss/actions/runs/32445288854),
+and Pages workflow
+[32445288876](https://github.com/therealjameswilson/before-oss/actions/runs/32445288876).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all ten Batch 331 profile routes. It downloaded and verified all 65
+release assets across 78,508,930 bytes against manifest SHA-256
+`9825530bcdf2397d30a1d61f7c386541e54b320bd97dd19c03c0c5d721d5065e`.
+The live statistics exactly matched the merged release: 3,098 attempted
+profiles, 448 verified affiliations, 193 verified employers, 3,049 archival
+assessments, 2,443 public claims, and 2,210 public citations. No route,
+profile, asset, statistics, or transport failure was found.
 
 ## Batch 330 local release check
 

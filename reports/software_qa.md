@@ -7,8 +7,8 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,412 pages**
 - Internal link check: **24,412 HTML files passed**
-- Expanded browser and accessibility matrix: **987 / 987 passed** in an
-  uninterrupted 8.8-minute single-worker Batch 332 release sweep across
+- Expanded browser and accessibility matrix: **990 / 990 passed** in an
+  uninterrupted 8.9-minute single-worker Batch 333 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -48,6 +48,28 @@ Run: 2026-08-21 UTC
   Busenkell's person-specific OSS naval identity without inventing a
   predecessor or employer, and routes seven unsupported identities to Box 96
   review.
+- Focused Batch 333 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Vernon A. Bush's exact-identifier Army entry
+  and qualified baker occupation without inventing an employer, preserves Asa
+  Bushnell's two documented namesakes as a withheld identity question, retains
+  the index's lieutenant and private classifications, masks identifiers, and
+  routes the remaining unsupported profiles to Box 96 or 97 review.
+- Batch 333 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `a57f5d55920ff94a89050bcda99f634cd90a296c7c34ec0a7ec64a41ecb60899`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `0093c7e35dee6187dc445b8f31028fc5edb485aef764aa6e72c87cf098dd225d`.
+  The complete 24,412-page internal-link check passed and inventoried 49,386
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,563,762 bytes; manifest SHA-256 was
+  `04f2c3f2ec12c4a8c4695b079d7161cd539f85c0c7c9db9a52362b4b877cf364`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,482 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 990-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 332 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `a4d64470f47d194fa7c5197fb5c0692f3a0e41dc4aa7af9298758cfdc3a97d3b`.
@@ -79,6 +101,21 @@ Run: 2026-08-21 UTC
   evidence bundle passed two-import idempotence, SQLite integrity and foreign-
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, and a zero-vulnerability production dependency audit passed.
+- Batch 331 production verification: **passed**. Release
+  `fa1009a40049aa13d107f113c9f8269d9965de2d` passed pull-request workflow
+  [32443818604](https://github.com/therealjameswilson/before-oss/actions/runs/32443818604),
+  post-merge test workflow
+  [32445288854](https://github.com/therealjameswilson/before-oss/actions/runs/32445288854),
+  and Pages workflow
+  [32445288876](https://github.com/therealjameswilson/before-oss/actions/runs/32445288876).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 331 profiles. All 65 live assets matched the
+  merged manifest across 78,508,930 bytes; its SHA-256 was
+  `9825530bcdf2397d30a1d61f7c386541e54b320bd97dd19c03c0c5d721d5065e`.
+  The deployed site reported exactly 3,098 attempted profiles, 448 verified
+  affiliations, 193 verified employers, 3,049 archival assessments, 2,443
+  public claims, and 2,210 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 330 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `52c594514dd2cedadf57ad26f65714abebe100b8f576b3fec8be0e1536133630`.

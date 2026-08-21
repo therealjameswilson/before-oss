@@ -26267,3 +26267,59 @@ test("Batch 332 preserves two identifier conflicts and qualifies Busenkell's OSS
     }
   }
 });
+
+test("Batch 333 confirms Vernon Bush's occupation and preserves Bush namesake boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/6c78aea8-5df6-5d51-b258-1ef9ca7b44a0/");
+  await expect(page.getByRole("heading", { name: "Vernon A Bush", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bakers",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("••••3064");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/c41626e3-85d6-517e-9baf-455e63f424ba/");
+  await expect(page.getByRole("heading", { name: "Asa Bushnell", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("father-and-son namesakes");
+  await expect(page.locator("main")).toContainText("Box 97");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, category, maskedIdentifier] of [
+    ["d894b14a-6774-5f94-90b3-9e23101ad7c3", "Billie V Bush", "commissioned army officer", null],
+    ["38d117d7-a285-56b4-8c10-945250fe044e", "F E Bush", "unknown or indeterminate", null],
+    ["cea00495-3d87-5aa3-b09d-7a3db5c82f13", "George S Bush", "enlisted army personnel", "••••2676"],
+    ["15b8ded0-2522-5ab2-aeec-be2fbcecc232", "Gordon W Bush", "unknown or indeterminate", "••••3514"],
+    ["802c9011-e814-554c-8d32-bf0e9aa3a0d5", "Howard T Bush", "unknown or indeterminate", "••••8459"],
+    ["e1f477be-e206-5158-b2b8-f68c267120cc", "Stuart D Bush", "unknown or indeterminate", "••••9065"],
+    ["bfa7c6f0-0547-5b56-b57f-08774bedaf8c", "Bernice D Bushnell", "unknown or indeterminate", null],
+    ["6ebcdffe-db37-5303-8e16-a9f908a30323", "Davis Bushnell", "unknown or indeterminate", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(category, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
