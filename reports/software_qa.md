@@ -45,6 +45,9 @@ Run: 2026-08-21 UTC
   Antonio Camboni match note that the public profile correctly omits; the
   test-only expectation was removed and the clean focused rerun passed **3 /
   3**.
+- Batch 350 complete browser and accessibility matrix: **1,041 / 1,041 passed**
+  in 10.0 minutes across desktop, phone, and tablet. The clean uninterrupted
+  run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -213,6 +216,32 @@ Run: 2026-08-21 UTC
   qualified occupation without a named employer; preserves printed and
   initials-only forms; masks identifiers; and routes eight unsupported
   identities to Boxes 102-103 review.
+- Focused Batch 350 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes Roderick W. Cameron's high-confidence OSS
+  identity without inventing a pre-OSS employer; keeps the adjacent Roderick
+  Cameron row separate in a visible possible-duplicate group; masks private
+  identifiers; and routes the remaining nine profiles to Box 103 review.
+- Batch 350 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `464b31ad13bdb01672d9793ba6459d16b24abaf68543f9fc0ad4fab7074c65f8`;
+  generated-data mirrors reproduced
+  `8608f107b20949a91c73cab7d92199abd5503a7423858bc5f60b12938e671a84`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `685f90f5916f3908bb50cc6f2b69b57d55dd3816dfd1d88150455d440f98162a`.
+  The complete 24,421-page internal-link check passed and inventoried 49,439
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,488,835 bytes; manifest SHA-256 was
+  `e6b087d7f3197ae6e4d55f210fdbf93a2fb6084a672bf71dd213ede88a756bf3`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  three identical imports, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the clean **1,041 / 1,041** complete matrix, two direct scripted
+  source checks, and a zero-vulnerability production dependency audit passed.
+  The New York Times obituary endpoint returned HTTP 403 to the scripted
+  client; its stable citation remains context-only, and no restriction was
+  bypassed. After rebasing onto the deployed Batch 349 release, all 74 Python
+  tests and the cumulative Batch 349/350 regression passed again (**6 / 6**).
 - Batch 349 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `da1da66f7f696b2b6f0c7f6b672ea9c18f6a94da6640b3e95055388311c04222`;

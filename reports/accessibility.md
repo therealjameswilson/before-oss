@@ -4,11 +4,12 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,038** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.9-minute
-single-worker Batch 349 sweep passed **1,038 / 1,038** without a timeout or
-accessibility failure. The prior 10.5-minute Batch 348 sweep passed **1,035 /
-1,035**. Its earlier focused-only run exposed a test expectation
+The expanded release matrix contains **1,041** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.0-minute
+single-worker Batch 350 sweep passed **1,041 / 1,041** without a timeout or
+accessibility failure. The prior 10.9-minute Batch 349 sweep passed **1,038 /
+1,038**, and the prior 10.5-minute Batch 348 sweep passed **1,035 / 1,035**.
+Batch 348's earlier focused-only run exposed a test expectation
 that repeated a private Joseph N. Camarda next-action note; it was corrected to
 public profile wording and the clean focused rerun passed **3 / 3**. The prior
 Batch 347 clean **1,032 / 1,032** run, and its initial stale Batch 346
@@ -28,6 +29,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 350 adds direct-route coverage for Richard B. Cameron through Sanders
+Camp across PDF pages 66-67 in Box 103. It verifies Roderick W. Cameron's
+high-confidence OSS identity without projecting undated education or postwar
+work backward into a predecessor claim; keeps the adjacent Roderick Cameron
+row separate in one visible possible-duplicate group; masks private
+identifiers; and routes all nine unsupported identities to archival review.
+The focused regression passed **3 / 3**, and all 27 axe cases passed in the
+complete **1,041 / 1,041** matrix.
 
 Batch 349 adds direct-route coverage for Pierre Cambon through Rawley Cameron
 on PDF page 66 across Boxes 102-103. It verifies Pierre's high-confidence OSS
