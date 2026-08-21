@@ -27586,3 +27586,82 @@ test("Batch 347 preserves official occupations, qualified chronology, and unreso
     }
   }
 });
+
+test("Batch 348 qualifies Carlo Calosi, identifies Joseph Camarda, and withholds unsupported namesakes", async ({
+  page,
+}) => {
+  await page.goto("./people/2fa20a99-959b-568c-ae38-fc3c676bcd5b/");
+  await expect(page.getByRole("heading", { name: "Carlo Calosi", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("documented prewar employer found", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "University of Genoa",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "probable immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Genoa",
+  );
+  await expect(page.locator("main")).toContainText(
+    "sequence is probable rather than explicit",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "Il Siluro S.I.C. (Silurificio Italiano Calosi) - La Storia",
+        exact: true,
+      })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://it.readkong.com/page/il-siluro-s-i-c-silurificio-italiano-calosi-la-storia-7989016",
+  );
+
+  await page.goto("./organizations/c7d8a2e3-723a-5f45-b8b9-3644ae7c205c/");
+  await expect(
+    page.getByRole("heading", { name: "University of Genoa", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Carlo Calosi", { exact: true })).toBeVisible();
+
+  await page.goto("./people/5a1e3dbc-2b8d-59da-bd6f-2da8d4628dcd/");
+  await expect(page.getByRole("heading", { name: "Joseph N Camarda", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••4701");
+  await expect(page.locator("main")).toContainText("A World War II U.S. Army veteran OSS");
+  await expect(page.locator("main")).toContainText(
+    "whether either undated obituary employer predates Army or OSS service",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["1b16cc98-8992-56df-8664-70c1f564903b", "Delmar Calvert", "••••0736"],
+    ["e4dac512-6d69-5108-a271-f253152a81d5", "William F Calvert", "••••9390"],
+    ["b5205d3f-b34f-5f29-ac2d-d23e705b19a8", "Maragaret M Calvin", null],
+    ["c603ae0d-e2f9-5f7e-b36b-575ca23afdb5", "Sally B Calvo", null],
+    ["b3c55b1e-85f1-5fe8-a24e-22a090b4b771", "John L Calvocressi", "••••7004"],
+    ["6769751f-4ee0-58c8-9508-fe0cb71db9e2", "Ulrich Calvosa", null],
+    ["4c876540-dc0f-5cb9-8877-00bacfeb6904", "Helen L Camara", null],
+    ["330f96ab-abba-5284-9465-a5aef3b79d33", "Dominick D Camarote", "••••1210"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});

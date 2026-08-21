@@ -4,16 +4,24 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,420 HTML files. Every relative
+**PASS.** The production build contains 24,421 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 472 organization profiles, and the
+The build includes 23,940 person profiles, 473 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,430 unique external URLs for separate live
+The checker inventoried 49,435 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Five of Batch 348's six citation endpoints returned HTTP 200 during targeted
+scripted verification: the NARA personnel-index PDF, public Catalog Army-series
+page, Syndeo Institute oral-history transcript, AMTN historical article, and
+Times of Trenton obituary. The Library of Congress finding aid returned HTTP
+403 to the scripted client; its stable public record was inspected directly,
+no access control was bypassed, and no authenticated Catalog API request was
+made.
 
 Four of Batch 347's eight citation endpoints returned HTTP 200 during targeted
 scripted verification: the NARA personnel-index PDF, Cambridge University
@@ -40,6 +48,38 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 348 local release check
+
+The complete 24,421-page internal-link pass includes Carlo Calosi through
+Dominick D. Camarote on PDF page 66 in Box 102, plus the new University of
+Genoa, Institute of Electrotechnics organization page. Carlo's identity is
+high-confidence, while the Genoa chronology is visibly qualified at medium
+confidence and excluded from default analytics. Joseph N. Camarda's identity
+is high-confidence, but the obituary's undated employers remain withheld.
+Eight unresolved identities retain archival-review paths, and the printed
+`Maragaret` spelling remains recoverable. All 74 Python tests, the deterministic
+200-profile audit, the focused 3 / 3 browser regression, the clean 1,035 /
+1,035 complete matrix, dependency audit, database integrity checks, and public-
+identifier audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,442,316 bytes and has
+SHA-256
+`272be046a2e48082065b59e0fe5a8542173ddb1a34921e4c2da83012e9c56d8c`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 614 and 1,039 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`1796f0dab47868c70bc2ccaf2448689bf7e3b5e79a170b0ec5504282ef03c3ca`.
+Consecutive generated-data mirrors produced digest
+`bda0259b1edb043559a2f54b27fd4c529a2accad5ace74d7d0bd1353630ae869`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`e6e1b12059d8fed19a9ecf657236424344bfb2d776a8983d8bfa92de07dbbd67`.
 
 ## Batch 347 local release check
 
@@ -72,6 +112,20 @@ Consecutive generated-data mirrors produced digest
 Consecutive finalized production builds produced identical complete static-
 tree digest
 `82b1807abe34ce52f1d2d6e1f15c37fc4edc53a26aa9f6a296d38106d43ad221`.
+
+## Batch 347 production verification
+
+Release `d1b20053cb4534d19bf41e5fc13ce93b3e821ada` passed the pull-request
+quality gate and Pages workflow
+[32509505002](https://github.com/therealjameswilson/before-oss/actions/runs/32509505002).
+Seven core routes and all ten Batch 347 person routes returned HTTP 200 and
+matched the committed release after literal and URL-encoded canonical-host
+normalization. The live manifest and all 65 assets matched local bytes, sizes,
+and SHA-256 values across 79,390,754 bytes; manifest SHA-256 was
+`7011ed743eb8b2ebd27dfdcd01733cf594bbc876816b2e945c8bb22de1dc370e`.
+Post-merge Test workflow
+[32509505018](https://github.com/therealjameswilson/before-oss/actions/runs/32509505018)
+passed, completing the independent release gate.
 
 ## Batch 346 local release check
 
@@ -120,7 +174,7 @@ across 79,305,748 bytes; manifest SHA-256 was
 `a73cb34ef08d4e893078ed29773fb5f6a9b70320905bb042483c401b456f1533`.
 Post-merge Test workflow
 [32505620754](https://github.com/therealjameswilson/before-oss/actions/runs/32505620754)
-remains in progress and is not reported as passed.
+passed **1,032 / 1,032** checks, completing the independent release gate.
 
 ## Batch 345 local release check
 

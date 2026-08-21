@@ -5,8 +5,8 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,420 pages**
-- Internal link check: **24,420 HTML files passed**
+- Static production build: **24,421 pages**
+- Internal link check: **24,421 HTML files passed**
 - Expanded browser and accessibility matrix: the 23.0-minute single-worker
   Batch 345 sweep completed **1,024 / 1,026** cases across desktop, phone, and
   tablet; two older Batch 223/226 cases timed out without an assertion or axe
@@ -33,6 +33,12 @@ Run: 2026-08-21 UTC
   expectation was updated to his new occupation-only result, the combined
   Batch 346/347 regression passed **6 / 6**, and the clean complete run passed.
   All 27 axe cases passed.
+- Batch 348 complete browser and accessibility matrix: **1,035 / 1,035 passed**
+  in 10.5 minutes across desktop, phone, and tablet. The clean uninterrupted
+  run includes all 27 axe cases. An earlier focused-only run exposed a test
+  expectation that repeated a private Joseph N. Camarda next-action note; the
+  expectation was corrected to public profile wording and the clean focused
+  rerun passed **3 / 3**.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -188,6 +194,30 @@ Run: 2026-08-21 UTC
   keeps Sterling A. Callisen's Rochester role documented prewar rather than
   immediate; verifies both organization pages; masks identifiers; and routes
   six unsupported identities to Box 102 review.
+- Focused Batch 348 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet after the test-only private-note expectation was corrected.
+  It publishes Carlo Calosi's University of Genoa pathway only as a qualified
+  medium-confidence finding; confirms Joseph N. Camarda's identity without
+  publishing his undated employers; preserves the printed `Maragaret` spelling;
+  masks identifiers; and routes eight unsupported identities to Box 102 review.
+- Batch 348 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `1796f0dab47868c70bc2ccaf2448689bf7e3b5e79a170b0ec5504282ef03c3ca`;
+  generated-data mirrors reproduced
+  `bda0259b1edb043559a2f54b27fd4c529a2accad5ace74d7d0bd1353630ae869`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `e6e1b12059d8fed19a9ecf657236424344bfb2d776a8983d8bfa92de07dbbd67`.
+  The complete 24,421-page internal-link check passed and inventoried 49,435
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,442,316 bytes; manifest SHA-256 was
+  `272be046a2e48082065b59e0fe5a8542173ddb1a34921e4c2da83012e9c56d8c`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  three identical imports, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the clean **1,035 / 1,035** complete matrix, five direct scripted
+  source checks, and a zero-vulnerability production dependency audit passed.
+  Remote release workflows are pending.
 - Batch 347 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `fe775919ea9de068395898a7729fe8411742e8b1b051b0074b2db52072ef68b2`;
@@ -205,7 +235,20 @@ Run: 2026-08-21 UTC
   Python tests, the deterministic 200-profile audit, the focused **3 / 3** and
   cumulative **6 / 6** regressions, the clean **1,032 / 1,032** complete
   matrix, four direct scripted source checks, and a zero-vulnerability
-  production dependency audit. Remote release workflows are pending.
+  production dependency audit. Pages and the independent live-route and byte
+  audit passed; the post-merge Test status is recorded below.
+- Batch 347 production verification: **passed**. Release
+  `d1b20053cb4534d19bf41e5fc13ce93b3e821ada` passed the pull-request quality
+  gate and Pages workflow
+  [32509505002](https://github.com/therealjameswilson/before-oss/actions/runs/32509505002).
+  Seven core routes and all ten Batch 347 person routes returned HTTP 200 and
+  matched the committed release after literal and URL-encoded canonical-host
+  normalization. The live manifest and all 65 assets matched local bytes,
+  sizes, and SHA-256 values across 79,390,754 bytes; manifest SHA-256 was
+  `7011ed743eb8b2ebd27dfdcd01733cf594bbc876816b2e945c8bb22de1dc370e`.
+  Post-merge Test workflow
+  [32509505018](https://github.com/therealjameswilson/before-oss/actions/runs/32509505018)
+  passed, completing the independent release gate.
 - Batch 346 local release verification: **passed with one recorded axe stall
   and a clean isolated rerun**. Consecutive public trees reproduced digest
   `e6a037c2c880265387a408141885641950475c9b609632cdb5882513d3b34c5e`;
@@ -226,8 +269,7 @@ Run: 2026-08-21 UTC
   vulnerability production dependency audit passed. Pages and the independent
   live-route and byte audit passed; the post-merge Test status is recorded
   below.
-- Batch 346 production verification: **Pages and live audit passed; post-merge
-  Test remains in progress**. Release
+- Batch 346 production verification: **passed**. Release
   `1f71bcf64ad23c78a3c48fa5385c682bc01c2209` passed the pull-request quality
   gate and Pages workflow
   [32505620828](https://github.com/therealjameswilson/before-oss/actions/runs/32505620828).
@@ -238,7 +280,7 @@ Run: 2026-08-21 UTC
   `a73cb34ef08d4e893078ed29773fb5f6a9b70320905bb042483c401b456f1533`.
   Post-merge Test workflow
   [32505620754](https://github.com/therealjameswilson/before-oss/actions/runs/32505620754)
-  is still running and is not reported as passed.
+  passed **1,032 / 1,032** checks, completing the independent release gate.
 - Batch 345 local release verification: **passed with two recorded matrix
   timeouts and clean isolated reruns**. Consecutive public trees reproduced
   digest

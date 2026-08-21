@@ -1,0 +1,599 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex evidence review; Before OSS batch 348",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-66-batch348",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 101-102",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 66, rows 24-33; Carlo Calosi through Dominick D. Camarote; visually checked with private identifiers withheld",
+      "access_date": "2026-08-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable, the printed Maragaret spelling is preserved, and full private identifiers are excluded from public evidence."
+    },
+    {
+      "key": "nara-entry-210-mcgregor-project-batch348",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/entry-210.pdf",
+      "archival_identifier": "RG 226, Entry 210, WN#13590",
+      "title": "Records of the Office of Strategic Services (Record Group 226), 1940-1946",
+      "author_creator": "National Archives and Records Administration, Interagency Working Group",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2008",
+      "locator": "PDF page 109, Director's Office records; McGregor Project file description, WN#13590",
+      "access_date": "2026-08-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": "WN#13590",
+      "rights_notes": "Official NARA descriptive inventory. It establishes an archival McGregor Project file but does not itself name Carlo Calosi."
+    },
+    {
+      "key": "loc-bowles-calosi-finding-aid-batch348",
+      "stable_url": "https://findingaids.loc.gov/repositories/19/resources/4489",
+      "archival_identifier": "Edward Lindley Bowles Papers, 1869-1990",
+      "title": "Collection: Edward Lindley Bowles Papers",
+      "author_creator": "Library of Congress Manuscript Division",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "2023",
+      "locator": "Scope and content note; authority entry for Carlo Luigi Calosi; Italian magnetic torpedo and Raytheon correspondence files",
+      "access_date": "2026-08-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Edward Lindley Bowles Papers",
+      "rights_notes": "Institutional finding aid. It supplies a stable authority form and archival context but is not used alone to infer employment chronology."
+    },
+    {
+      "key": "syndeo-topol-calosi-oral-history-batch348",
+      "stable_url": "https://syndeoinstitute.org/the-hauser-oral-history-project/t-v-listings/sid-topol-program-penn-state-collection-1990/",
+      "archival_identifier": "Sid Topol Oral History, 1990",
+      "title": "Sid Topol Oral History 1990",
+      "author_creator": "Sid Topol; interviewer R. L. Smith",
+      "repository_publisher": "Syndeo Institute at The Cable Center",
+      "publication_record_date": "1990",
+      "locator": "Transcript, Calosi discussion in the Raytheon chronology",
+      "access_date": "2026-08-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Hauser Oral History Project, Penn State Collection",
+      "rights_notes": "Institutional oral-history transcript. The project publishes only short excerpts and distinguishes recollection from direct personnel-file evidence."
+    },
+    {
+      "key": "amtn-sic-calosi-history-batch348",
+      "stable_url": "https://it.readkong.com/page/il-siluro-s-i-c-silurificio-italiano-calosi-la-storia-7989016",
+      "archival_identifier": "La scuola incontra il volontariato, 2019",
+      "title": "Il Siluro S.I.C. (Silurificio Italiano Calosi) - La Storia",
+      "author_creator": "Students of Liceo Classico Lorenzo Costa with Associazione per il Museo Tecnico Navale ODV",
+      "repository_publisher": "Associazione per il Museo Tecnico Navale ODV; transcript hosted by Readkong",
+      "publication_record_date": "2019",
+      "locator": "Exhibit pages 4-5; University of Genoa role, September 1943 collaboration order, and OSS transfer narrative",
+      "access_date": "2026-08-21",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "La scuola incontra il volontariato",
+      "rights_notes": "Educational museum-association project accessed through a public transcript. No page copy is stored; only short supporting excerpts are published."
+    },
+    {
+      "key": "times-trenton-joseph-camarda-obituary-batch348",
+      "stable_url": "https://obits.nj.com/us/obituaries/trenton/name/joseph-camarda-obituary?id=15235917",
+      "archival_identifier": "The Times of Trenton obituary, February 12, 2004",
+      "title": "Joseph Camarda Obituary",
+      "author_creator": "The Times of Trenton obituary desk",
+      "repository_publisher": "The Times of Trenton; hosted by Legacy.com",
+      "publication_record_date": "2004-02-12",
+      "locator": "Obituary for Joseph N. 'Brooklyn Joe' Camarda; service and employment summary",
+      "access_date": "2026-08-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Times of Trenton Obituaries",
+      "rights_notes": "Reputable newspaper obituary. Unrelated family details are excluded; only a short service excerpt and project-authored paraphrase are published."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-of-genoa-batch348",
+      "canonical_name": "University of Genoa",
+      "historical_name": "Universita di Genova",
+      "aliases": [
+        "Universita degli Studi di Genova",
+        "University of Genoa"
+      ],
+      "organization_type": "public university",
+      "sector": "academia_and_research",
+      "city": "Genoa",
+      "state_or_region": "Liguria",
+      "country": "Italy",
+      "active_dates": "1481-present",
+      "normalization_notes": "The historical university and its Institute of Electrotechnics remain distinct from Silurificio Italiano, the Regia Marina, and later Raytheon employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "carlo-calosi-university-genoa-batch348",
+      "person_id": "2fa20a99-959b-568c-ae38-fc3c676bcd5b",
+      "organization_key": "university-of-genoa-batch348",
+      "organization_name_as_found": "Universita di Genova",
+      "role_title": "Director, Institute of Electrotechnics",
+      "occupation": "Professor and electrical engineer",
+      "relationship_type": "employment",
+      "date_precision": "A 2019 naval-museum-association history identifies Calosi as the institute director while describing his wartime torpedo work, then narrates the September 1943 collaboration order and OSS transfer; exact appointment dates are not supplied.",
+      "city": "Genoa",
+      "state_or_region": "Liguria",
+      "country": "Italy",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The university is the best-supported named civilian employer at the time of the wartime torpedo work and OSS transfer. The reviewed sources do not establish that Calosi left the university, that Silurificio Italiano employed him, or that a formal OSS appointment followed."
+    }
+  ],
+  "claims": [
+    {
+      "key": "carlo-calosi-high-identity-batch348",
+      "person_id": "2fa20a99-959b-568c-ae38-fc3c676bcd5b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carlo Calosi is identified with high confidence as Italian engineer Carlo Luigi Calosi, whom OSS transferred from Italy during the McGregor Project.",
+      "evidence_excerpt": "He was taken out of Italy ... by the OSS",
+      "evidence_paraphrase": "An institutional oral history explicitly links Calosi to an OSS wartime transfer, while Library of Congress authority and finding-aid data align the distinctive name with the Italian magnetic torpedo.",
+      "identity_match_assessment": "High confidence from the distinctive exact indexed name, the explicit OSS transfer account, the Library of Congress authority form Carlo Luigi Calosi, and matching Italian magnetic-torpedo context.",
+      "temporal_assessment": "The oral history and naval-museum-association account place the transfer after the September 1943 Italian armistice; the NARA inventory identifies the November 1943 McGregor Project file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 101 and the underlying McGregor file have not been reviewed, so the identity remains high confidence rather than confirmed. Later Raytheon roles are not substituted for the pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-66-batch348",
+          "support_type": "supports",
+          "locator_override": "PDF page 66, row 24; Carlo Calosi, Box 101"
+        },
+        {
+          "source_key": "syndeo-topol-calosi-oral-history-batch348",
+          "support_type": "supports",
+          "locator_override": "Transcript, wartime Calosi discussion",
+          "excerpt_override": "He was taken out of Italy ... by the OSS"
+        },
+        {
+          "source_key": "loc-bowles-calosi-finding-aid-batch348",
+          "support_type": "supports",
+          "locator_override": "Authority entry and Italian magnetic torpedo file description"
+        },
+        {
+          "source_key": "nara-entry-210-mcgregor-project-batch348",
+          "support_type": "context_only",
+          "locator_override": "PDF page 109, WN#13590; official McGregor Project file description"
+        }
+      ]
+    },
+    {
+      "key": "carlo-calosi-immediate-genoa-claim-batch348",
+      "person_id": "2fa20a99-959b-568c-ae38-fc3c676bcd5b",
+      "affiliation_key": "carlo-calosi-university-genoa-batch348",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The University of Genoa is the best-supported immediate pre-OSS affiliation for Carlo Calosi, where he directed the Institute of Electrotechnics during the wartime torpedo work; the sequence is probable rather than explicit.",
+      "evidence_excerpt": "director of the Institute of Electrotechnics of the University of Genoa",
+      "evidence_paraphrase": "The naval-museum-association history identifies Calosi as the university institute director in its wartime chronology and then describes a September 1943 order to collaborate followed by an OSS transfer.",
+      "identity_match_assessment": "High-confidence identity based on the distinctive name, institutional OSS-transfer account, and matching Italian magnetic-torpedo archival context.",
+      "temporal_assessment": "The account strongly places the university role before the OSS transfer but gives no appointment dates and does not say that Calosi resigned, took leave, or was formally recruited from the university.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with visible qualification and excluded from default confirmed/high immediate-affiliation analytics. No employment relationship with Silurificio Italiano is inferred from technical support.",
+      "sources": [
+        {
+          "source_key": "amtn-sic-calosi-history-batch348",
+          "support_type": "supports",
+          "locator_override": "Exhibit pages 4-5; university role and OSS-transfer sequence",
+          "excerpt_override": "director of the Institute of Electrotechnics of the University of Genoa"
+        },
+        {
+          "source_key": "syndeo-topol-calosi-oral-history-batch348",
+          "support_type": "context_only",
+          "locator_override": "Transcript, wartime OSS transfer and later U.S. scientific work"
+        }
+      ]
+    },
+    {
+      "key": "carlo-calosi-last-civilian-genoa-claim-batch348",
+      "person_id": "2fa20a99-959b-568c-ae38-fc3c676bcd5b",
+      "affiliation_key": "carlo-calosi-university-genoa-batch348",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The University of Genoa is the last named civilian employer documented before Carlo Calosi's OSS-facilitated transfer; exact employment dates and any intervening formal status remain unresolved.",
+      "evidence_excerpt": "Professor Carlo Calosi, director of the Institute of Electrotechnics",
+      "evidence_paraphrase": "The same wartime chronology names Calosi's University of Genoa directorship before narrating the September 1943 collaboration order and OSS transfer, and no later pre-transfer civilian employer is identified in the reviewed sources.",
+      "identity_match_assessment": "High-confidence identity based on the distinctive exact name and independently aligned OSS, torpedo, and archival evidence.",
+      "temporal_assessment": "This is the last named civilian employer in the reviewed chronology, not proof that the university appointment ended or immediately preceded a formal OSS employment date.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Kept separate from the immediate-affiliation claim and visibly qualified. Later U.S. Navy and Raytheon work is excluded because it followed the OSS transfer.",
+      "sources": [
+        {
+          "source_key": "amtn-sic-calosi-history-batch348",
+          "support_type": "supports",
+          "locator_override": "Exhibit pages 4-5; university role followed by wartime collaboration and transfer",
+          "excerpt_override": "Professor Carlo Calosi, director of the Institute of Electrotechnics"
+        }
+      ]
+    },
+    {
+      "key": "joseph-n-camarda-high-identity-batch348",
+      "person_id": "5a1e3dbc-2b8d-59da-bd6f-2da8d4628dcd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph N. Camarda is identified with high confidence as the Pittsburgh-born U.S. Army veteran whose obituary explicitly records OSS service.",
+      "evidence_excerpt": "A World War II U.S. Army veteran OSS",
+      "evidence_paraphrase": "A Times of Trenton obituary supplies the exact full indexed name and middle initial, Pittsburgh birthplace, U.S. Army service, and an explicit OSS reference.",
+      "identity_match_assessment": "High confidence from the exact full name and middle initial plus the unusually specific Army-and-OSS service combination. The private index identifier has not been matched in an accessible second source.",
+      "temporal_assessment": "The obituary places Army and OSS service in World War II but gives no enlistment date, OSS assignment, or employment chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 102 remains unreviewed, so the identity is high confidence rather than confirmed. U.S. Steel and Lockheed Martin are named only in an undated career sequence and are not published as pre-OSS employers.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-66-batch348",
+          "support_type": "supports",
+          "locator_override": "PDF page 66, row 32; Joseph N. Camarda, Box 102; identifier withheld"
+        },
+        {
+          "source_key": "times-trenton-joseph-camarda-obituary-batch348",
+          "support_type": "supports",
+          "locator_override": "Service summary in obituary published February 12, 2004",
+          "excerpt_override": "A World War II U.S. Army veteran OSS"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2fa20a99-959b-568c-ae38-fc3c676bcd5b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually checked index gives the distinctive name Carlo Calosi in Box 101. A Syndeo Institute oral history explicitly documents an OSS wartime transfer of Calosi from Italy; Library of Congress authority and finding-aid data expand the name to Carlo Luigi Calosi and align it with the Italian magnetic torpedo; a naval-museum-association history independently aligns the university role and transfer sequence.",
+      "name_variants": [
+        "Carlo Calosi",
+        "Carlo Luigi Calosi",
+        "Calosi, Carlo"
+      ],
+      "replace_name_variants": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 101 and WN#13590 to confirm identity directly, establish Carlo Calosi's exact OSS status and dates, and determine whether the University of Genoa appointment continued during the transfer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1b16cc98-8992-56df-8664-70c1f564903b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Delmar Calvert and a private identifier in Box 102. A rare-name fencing biography describes a 1924-born Delmar Calvert's teenage French Foreign Legion service and later U.S. Army service, but it supplies neither the index identifier nor a direct OSS or Box 102 linkage. The candidate is not adopted.",
+      "name_variants": [
+        "Delmar Calvert",
+        "Calvert, Delmar"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, nationality, French and U.S. military records, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e4dac512-6d69-5108-a271-f253152a81d5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives William F. Calvert and a private identifier in Box 102. Public NARA, CIA, Library of Congress, exact-name, identifier, Army, employer, occupation, obituary, directory, institutional, and archival searches did not produce an accessible record tying a candidate to both the identifier and OSS service.",
+      "name_variants": [
+        "William F. Calvert",
+        "William F Calvert",
+        "Calvert, William F."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, Army record, residence, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b5205d3f-b34f-5f29-ac2d-d23e705b19a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index prints Maragaret M. Calvin in Box 102 without rank, grade, or private identifier. Searches used both the immutable printed spelling and Margaret as an explicitly marked search alias, but exact-name and variant official, OSS, employer, occupation, obituary, directory, institutional, and archival searches did not establish a person-specific match.",
+      "name_variants": [
+        "Maragaret M. Calvin",
+        "Maragaret M Calvin",
+        "Margaret M. Calvin",
+        "Calvin, Maragaret M."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for the full identity, correct or variant spelling, personnel status, occupation, employer, and chronology while preserving the printed Maragaret form.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c603ae0d-e2f9-5f7e-b36b-575ca23afdb5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Sally B. Calvo in Box 102 without rank, grade, or private identifier. Exact-name official, OSS, employer, occupation, obituary, newspaper, directory, institutional, and archival searches did not establish a person-specific match.",
+      "name_variants": [
+        "Sally B. Calvo",
+        "Sally B Calvo",
+        "Calvo, Sally B."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, name variants, personnel status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b3c55b1e-85f1-5fe8-a24e-22a090b4b771",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives John L. Calvocressi and a private identifier in Box 102. Exact-name official, OSS, identifier, Army, employer, occupation, obituary, directory, institutional, and archival searches found an undated Connecticut art-provenance namesake but no source linking that person to the identifier and OSS service.",
+      "name_variants": [
+        "John L. Calvocressi",
+        "John L Calvocressi",
+        "Calvocressi, John L."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, Army record, residence, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6769751f-4ee0-58c8-9508-fe0cb71db9e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Ulrich Calvosa in Box 102 without rank, grade, or private identifier. Department of Justice foreign-agent-registration reports identify a rare-name postwar travel-promotion representative, but they provide no OSS, Box 102, wartime, or pre-OSS employment linkage. The postwar candidate is not projected backward.",
+      "name_variants": [
+        "Ulrich Calvosa",
+        "Calvosa, Ulrich"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, nationality, personnel status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4c876540-dc0f-5cb9-8877-00bacfeb6904",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Helen L. Camara in Box 102 without rank, grade, or private identifier. Exact-name and punctuation-variant official, OSS, employer, occupation, obituary, newspaper, directory, institutional, and archival searches did not establish a person-specific match.",
+      "name_variants": [
+        "Helen L. Camara",
+        "Helen L Camara",
+        "Camara, Helen L."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, name variants, personnel status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5a1e3dbc-2b8d-59da-bd6f-2da8d4628dcd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually checked index gives Joseph N. Camarda and a private identifier in Box 102. A Times of Trenton obituary supplies the exact full name and middle initial, Pittsburgh birthplace, U.S. Army wartime service, and an explicit OSS reference, producing an exceptionally specific identity match without exposing the identifier.",
+      "name_variants": [
+        "Joseph N. Camarda",
+        "Joseph N Camarda",
+        "Joseph N. 'Brooklyn Joe' Camarda",
+        "Camarda, Joseph N."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 to confirm the private identifier, document the OSS assignment and dates, and determine whether either undated obituary employer predates Army or OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "330f96ab-abba-5284-9465-a5aef3b79d33",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Dominick D. Camarote and a private identifier in Box 102. A Maryland state death-index candidate has the exact name but supplies no identifier, OSS link, military record, or employment evidence. Exact-name official, OSS, identifier, Army, employer, occupation, obituary, directory, institutional, and archival searches did not resolve the match.",
+      "name_variants": [
+        "Dominick D. Camarote",
+        "Dominick D Camarote",
+        "Camarote, Dominick D."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 102 for full identity, Army record, residence, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "carlo-calosi-protocol-batch348",
+      "person_id": "2fa20a99-959b-568c-ae38-fc3c676bcd5b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Carlo Calosi and Carlo Luigi Calosi: visually verified NARA OSS index; official NARA McGregor inventory; CIA Reading Room and Library of Congress checks; exact-name OSS, McGregor, torpedo, University of Genoa, employer, occupation, oral-history, museum, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Wikipedia, Medium, Reddit, unsourced derivatives, search snippets, and an account conflating Agostino and Carlo Calosi were rejected. Postwar Raytheon and Italian-industry roles were not substituted for the pre-OSS affiliation.",
+      "research_notes": "High-confidence identity and a medium-confidence, qualified University of Genoa affiliation are published. Formal OSS status, precise dates, and any employment relationship with the torpedo factory remain unresolved.",
+      "next_action": "Review Box 101 and WN#13590 for exact OSS status, chronology, and University of Genoa continuity.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "delmar-calvert-protocol-batch348",
+      "person_id": "1b16cc98-8992-56df-8664-70c1f564903b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Delmar Calvert and private identifier withheld: visually verified NARA OSS index; public NARA and Army context; CIA Reading Room, Library of Congress, exact-name OSS, identifier, French Foreign Legion, employer, occupation, obituary, fencing, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "The rare-name fencing master candidate has a plausible wartime biography but no private-identifier, direct OSS, or Box 102 linkage. Derivative biographies and forum recollections add no corroborating identifier.",
+      "research_notes": "The French Foreign Legion, U.S. Army, and fencing biography are withheld from public affiliations pending direct identity evidence.",
+      "next_action": "Review Box 102 for identity, military chronology, occupation, and employer.",
+      "last_error_redacted": "The public AAD query was unavailable; no credentials or private request details were retained.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "william-f-calvert-protocol-batch348",
+      "person_id": "e4dac512-6d69-5108-a271-f253152a81d5",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "William F Calvert and private identifier withheld: visually verified NARA OSS index; public NARA and Army context; CIA Reading Room, Library of Congress, exact-name OSS, identifier, employer, occupation, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Military memorial, genealogy, obituary, and directory namesakes lack the private identifier and OSS linkage. No common-name biography was transferred.",
+      "research_notes": "The common name requires enhanced disambiguation; no occupation or employer is inferred.",
+      "next_action": "Review Box 102 for identity, Army record, occupation, employer, and chronology.",
+      "last_error_redacted": "The public AAD query was unavailable; no credentials or private request details were retained.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "maragaret-m-calvin-protocol-batch348",
+      "person_id": "b5205d3f-b34f-5f29-ac2d-d23e705b19a8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Maragaret M Calvin as printed and Margaret M Calvin as a marked search alias: visually verified NARA OSS index; public NARA, CIA Reading Room, Library of Congress, exact-name OSS, employer, occupation, obituary, newspaper, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Common-name Margaret Calvin results lack an OSS, Box 102, wartime, occupational, or institutional link; the search alias is not treated as a correction to the printed row.",
+      "research_notes": "The original Maragaret spelling remains the indexed display form and is preserved in all source-row exports.",
+      "next_action": "Review Box 102 for identity, spelling variants, occupation, employer, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "sally-b-calvo-protocol-batch348",
+      "person_id": "c603ae0d-e2f9-5f7e-b36b-575ca23afdb5",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Sally B Calvo and punctuation variants: visually verified NARA OSS index; public NARA, CIA Reading Room, Library of Congress, exact-name OSS, employer, occupation, obituary, newspaper, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Modern, genealogical, and directory namesakes lack an OSS, Box 102, wartime, or occupational link.",
+      "research_notes": "No identity, occupation, employer, relationship, or relative is inferred.",
+      "next_action": "Review Box 102 for full identity, occupation, employer, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "john-l-calvocressi-protocol-batch348",
+      "person_id": "b3c55b1e-85f1-5fe8-a24e-22a090b4b771",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John L Calvocressi and private identifier withheld: visually verified NARA OSS index; public NARA and Army context; CIA Reading Room, Library of Congress, exact-name OSS, identifier, employer, occupation, obituary, directory, institutional, art-provenance, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "A Connecticut art-provenance namesake has no dates, private identifier, Army record, or OSS linkage; it is not adopted.",
+      "research_notes": "No residence, collector status, occupation, or employer is transferred from the namesake.",
+      "next_action": "Review Box 102 for identity, Army record, occupation, employer, and chronology.",
+      "last_error_redacted": "The public AAD query was unavailable; no credentials or private request details were retained.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "ulrich-calvosa-protocol-batch348",
+      "person_id": "6769751f-4ee0-58c8-9508-fe0cb71db9e2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Ulrich Calvosa: visually verified NARA OSS index; public NARA, CIA Reading Room, Library of Congress, exact-name OSS, employer, occupation, obituary, directory, institutional, Department of Justice FARA, Spanish, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Official FARA reports document a rare-name 1951-1953 travel-promotion representative but provide no wartime, OSS, Box 102, or pre-OSS chronology. Postwar work is not projected backward.",
+      "research_notes": "The official postwar candidate is retained only as a private research lead and does not support a public affiliation.",
+      "next_action": "Review Box 102 for full identity, nationality, occupation, employer, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "helen-l-camara-protocol-batch348",
+      "person_id": "4c876540-dc0f-5cb9-8877-00bacfeb6904",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Helen L Camara and punctuation variants: visually verified NARA OSS index; public NARA, CIA Reading Room, Library of Congress, exact-name OSS, employer, occupation, obituary, newspaper, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Common-name and surname-variant results lack the middle initial, OSS, Box 102, wartime, or occupational linkage.",
+      "research_notes": "No spelling variant, residence, occupation, employer, or relationship is inferred.",
+      "next_action": "Review Box 102 for full identity, occupation, employer, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "joseph-n-camarda-protocol-batch348",
+      "person_id": "5a1e3dbc-2b8d-59da-bd6f-2da8d4628dcd",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Joseph N Camarda and private identifier withheld: visually verified NARA OSS index; public NARA and Army context; CIA Reading Room, Library of Congress, exact-name OSS, identifier, employer, occupation, obituary, newspaper, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Different-middle-initial Army records, cemetery entries, commercial people-search pages, and genealogy results were rejected. The obituary's U.S. Steel and Lockheed Martin sequence lacks dates and is not treated as pre-OSS employment.",
+      "research_notes": "High-confidence identity found through the exact name and explicit Army/OSS obituary statement. No temporally defensible pre-OSS employer was found.",
+      "next_action": "Review Box 102 to confirm the identifier, OSS assignment, dates, and employer chronology.",
+      "last_error_redacted": "The public AAD query was unavailable; no credentials or private request details were retained.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    },
+    {
+      "key": "dominick-d-camarote-protocol-batch348",
+      "person_id": "330f96ab-abba-5284-9465-a5aef3b79d33",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Dominick D Camarote and private identifier withheld: visually verified NARA OSS index; public NARA and Army context; CIA Reading Room, Library of Congress, exact-name OSS, identifier, employer, occupation, obituary, Maryland state records, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T17:05:00+00:00",
+      "completed_at": "2026-08-21T17:27:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "An exact-name Maryland death-index candidate lacks the private identifier, Army record, OSS link, and employment evidence. Commercial and genealogy results were rejected.",
+      "research_notes": "No birth date, death date, residence, occupation, employer, or relative is transferred from the unlinked candidate.",
+      "next_action": "Review Box 102 for identity, Army record, occupation, employer, and chronology.",
+      "last_error_redacted": "The public AAD query was unavailable; no credentials or private request details were retained.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch348-v1"
+    }
+  ]
+}
