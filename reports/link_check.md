@@ -15,11 +15,48 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,422 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+Both Batch 345 official citation endpoints returned HTTP 200 during targeted
+verification: the NARA personnel-index PDF and the public Catalog series page
+for the Army merged file. No authenticated Catalog API request was made.
+
 Seven of Batch 344's eight citation endpoints responded directly with HTTP
 200, 202, or 206 during targeted verification. The official CIA PDF redirects
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 345 local release check
+
+The complete 24,419-page internal-link pass includes Robert C. Caldwell through
+Caterino J. Califano across PDF pages 65-66 in Box 101 and both sides of the
+Calhoun-Ancrum transposed-name duplicate review. Robert's undefined occupation
+code remains uninterpreted; Caterino's packing-related occupational group stays
+separate from employment; the two possible-duplicate source rows and person
+entities remain distinct; and every unsupported identity retains a Box 101
+archival path. All 74 Python tests, the deterministic 200-profile audit, the
+focused 3 / 3 browser regression, dependency audit, database integrity checks,
+and public-identifier audits pass; Astro reports zero errors, warnings, or
+hints. The complete browser/accessibility sweep completed 1,024 / 1,026; two
+older Batch 223/226 cases timed out without assertion failures, and their full
+six-case three-viewport isolated rerun passed 6 / 6.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,286,268 bytes and has
+SHA-256
+`ac22d46e6065c5649f7d1ccafc5f785eb2f0f91a459272196169325e063d40ef`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,489 production
+artifacts. It rejected 616 and 1,043 harmless candidate substrings,
+respectively, classified two manifest-size coincidences in each tree, and found
+no unexpected boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`b98949c9aa3b2d7d1298baa90e1cef2787ce7a8f8c60d57d98c2f9c1eb553095`.
+Consecutive generated-data mirrors produced digest
+`193374235b14766f40332a70ef41d5d5c0024cd0f6e0e5f4ac50d372360255db`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`21a605b9d09722bd654b6a1b95e3bf0c6420f229a29860b7e1e623761c29bd2d`.
 
 ## Batch 344 local release check
 
@@ -53,6 +90,19 @@ The complete browser, responsive, and accessibility matrix passed **1,023 /
 1,023** in an uninterrupted 9.8-minute single-worker run. After citation
 metadata calibration, the focused Batch 344 regression and Sources-page axe
 regression each passed **3 / 3**.
+
+## Batch 344 production verification
+
+Release `d547ce0587e5492bcf5ddd23b60de4040301cb1a` passed pull-request workflow
+[32490044352](https://github.com/therealjameswilson/before-oss/actions/runs/32490044352),
+post-merge test workflow
+[32494599433](https://github.com/therealjameswilson/before-oss/actions/runs/32494599433),
+and Pages workflow
+[32494599437](https://github.com/therealjameswilson/before-oss/actions/runs/32494599437).
+Seven core routes and all ten Batch 344 person routes returned HTTP 200. The
+live manifest and all 65 assets matched the committed release byte for byte
+across 79,262,977 bytes; manifest SHA-256 was
+`bab423a36c6b68df8569471818d9bf2ebd9fbd5655e800092100d92cf5f65c99`.
 
 ## Batch 343 local release check
 
