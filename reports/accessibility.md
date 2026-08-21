@@ -1,12 +1,12 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-20 UTC
+Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **978** browser, responsive, and
+The expanded release matrix contains **981** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 329 release sweep passed **978 / 978** in 8.7 minutes. The
+single-worker Batch 330 release sweep passed **981 / 981** in 9.6 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 330 adds a focused direct-route regression for Donald M. Burrhus through
+Edwin B. Burt on PDF page 62. It verifies three exact-identifier Army-entry
+findings while keeping occupations and student status separate from employers;
+exposes Arthur L. Burt's identifier conflict without publishing the unrelated
+Army subject; leaves six unsupported identities unresolved; routes all ten
+profiles to the appropriate Box 95 or 96 follow-up; and checks field-level
+identifier masking. The focused regression passed **3 / 3** across desktop,
+phone, and tablet.
 
 Batch 329 adds a focused direct-route regression for Olsen D. Burns through
 Robert W. Burrell on PDF page 62, excluding the already reviewed intervening
