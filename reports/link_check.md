@@ -85,6 +85,25 @@ The complete Batch 336 browser, responsive, and accessibility matrix passed
 999 / 999 in an uninterrupted 8.6-minute single-worker run across desktop,
 phone, and tablet.
 
+## Batch 336 production deployment
+
+Release `dd0da3ab218b153ded204ba81b4341f7edaaa5e1` passed pull-request workflow
+[32457535250](https://github.com/therealjameswilson/before-oss/actions/runs/32457535250),
+post-merge test workflow
+[32459465537](https://github.com/therealjameswilson/before-oss/actions/runs/32459465537),
+and Pages workflow
+[32459465531](https://github.com/therealjameswilson/before-oss/actions/runs/32459465531).
+The production audit opened seven core routes and all ten Batch 336 profiles.
+Every route returned HTTP 200 and matched the audited release after canonical-
+host normalization. All 65 live assets matched their local bytes, sizes, and
+SHA-256 values across 78,796,367 bytes; the live manifest SHA-256 is
+`ef6fb2b628a487b7f0515c1d27af102fcd3107ecb222a3d27da2811127fa51f8`.
+
+Live statistics exactly reproduced 3,147 attempted people, 450 verified
+affiliations, 193 verified employers, 3,099 archival-review assessments, 2,470
+public claims, and 2,240 public sources. No authenticated Catalog request was
+made, and no private identifier appeared in the audited production artifacts.
+
 ## Batch 335 local release check
 
 The complete 24,414-page internal-link pass includes William J. Butkus through
