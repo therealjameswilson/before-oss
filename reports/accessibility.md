@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **999** browser, responsive, and
+The expanded release matrix contains **1,002** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 336 release sweep passed **999 / 999** in 8.6 minutes. The
+single-worker Batch 337 release sweep passed **1,002 / 1,002** in 8.5 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 337 adds a focused direct-route regression for Carl F. Butts through
+Ernest L. Byfield Jr. on PDF page 64. It confirms Simon Butyter's exact Army
+identity and corrected machine-shop occupation; preserves G. E. Buxton's
+earlier qualified employer result; separates John F. Buzerak's Signal Corps
+pathway from his civilian radio occupation; keeps Herman L. Byer's post-OSS
+Army-entry record out of affiliation claims; qualifies Ernest L. Byfield Jr.'s
+probable identity; masks private identifiers; and routes five unsupported
+identities to Box 98 review. The focused regression passed **3 / 3** across
+desktop, phone, and tablet.
 
 Batch 336 adds a focused direct-route regression for Paul B. Butler Jr.
 through Georgia E. Buttram across PDF pages 63-64. It confirms Junichi Buto's

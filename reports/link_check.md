@@ -12,8 +12,43 @@ The build includes 23,940 person profiles, 468 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,400 unique external URLs for separate live
+The checker inventoried 49,401 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 337 local release check
+
+The complete 24,416-page internal-link pass includes Carl F. Butts through
+Ernest L. Byfield Jr. in Box 98 on PDF page 64, while reusing the existing
+United States Army Signal Corps and B. B. & R. Knight Company organization
+routes. All 74 Python tests plus five subtests, the deterministic 200-profile
+audit, focused three-viewport regression, dependency audit, database integrity
+checks, and public-identifier audit pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,859,121 bytes and has
+SHA-256
+`cd65be0a284f96ba6863aa7a3daef667a56de330ada0c227affeaa7bcee9cf90`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,486 production
+artifacts. It rejected 616 and 1,042 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`49a0f8fb814c3843a1bd00279116ea3fa50d1792955d9c014e5f6200780ad1c5`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`165cb53baf40c6f77061ecf6a963ffd9b5235d48b7a958f00364fa0220419cd9`.
+The regression confirms Simon Butyter's corrected occupation, preserves G. E.
+Buxton's prior qualified employer result, separates John F. Buzerak's military
+and civilian evidence, keeps Herman L. Byer's post-OSS record out of affiliation
+claims, qualifies Ernest L. Byfield Jr., and preserves five unresolved archival
+paths without promoting unsupported identities or employers.
+
+The complete Batch 337 browser, responsive, and accessibility matrix passed
+1,002 / 1,002 in an uninterrupted 8.5-minute single-worker run across desktop,
+phone, and tablet.
 
 ## Batch 336 local release check
 
@@ -84,6 +119,23 @@ the remaining five archival-review paths.
 The complete Batch 335 browser, responsive, and accessibility matrix passed
 996 / 996 in an uninterrupted 8.9-minute single-worker run across desktop,
 phone, and tablet.
+
+## Batch 335 production deployment
+
+Release `bf2de91fc364e7927675c852b9dd850573ade06a` passed pull-request workflow
+[32454434106](https://github.com/therealjameswilson/before-oss/actions/runs/32454434106),
+post-merge test workflow
+[32456160331](https://github.com/therealjameswilson/before-oss/actions/runs/32456160331),
+and Pages workflow
+[32456160485](https://github.com/therealjameswilson/before-oss/actions/runs/32456160485).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all ten Batch 335 profile routes. It downloaded and verified all 65
+release assets across 78,714,578 bytes against manifest SHA-256
+`04f3d15a531adb0345c5a904b89b2c89238c1a4ad75818cf428830bd43aa370c`.
+The live statistics exactly matched the merged release: 3,137 attempted
+profiles, 449 verified affiliations, 193 verified employers, 3,089 archival
+assessments, 2,463 public claims, and 2,233 public citations. No route,
+profile, asset, statistics, or transport failure was found.
 
 ## Batch 334 local release check
 

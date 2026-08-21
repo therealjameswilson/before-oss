@@ -7,8 +7,8 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,416 pages**
 - Internal link check: **24,416 HTML files passed**
-- Expanded browser and accessibility matrix: **999 / 999 passed** in an
-  uninterrupted 8.6-minute single-worker Batch 336 release sweep across
+- Expanded browser and accessibility matrix: **1,002 / 1,002 passed** in an
+  uninterrupted 8.5-minute single-worker Batch 337 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -77,6 +77,30 @@ Run: 2026-08-21 UTC
   low-confidence Robert L. Butt candidate; preserves the printed `Alfrd`
   spelling; masks identifiers; and routes six unsupported identities to Box
   97 or 98 review.
+- Focused Batch 337 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Simon Butyter's exact Army identity and
+  corrected machine-shop occupation; preserves G. E. Buxton's earlier
+  qualified employer result without duplication; separates John F. Buzerak's
+  Signal Corps pathway from his civilian radio occupation; keeps Herman L.
+  Byer's post-OSS Army-entry record out of affiliation claims; qualifies
+  Ernest L. Byfield Jr.'s probable identity; masks identifiers; and routes five
+  unresolved profiles to Box 98 review.
+- Batch 337 local release verification: **passed**. Consecutive public-data
+  builds reproduced the same sorted generated-file digest
+  `49a0f8fb814c3843a1bd00279116ea3fa50d1792955d9c014e5f6200780ad1c5`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `165cb53baf40c6f77061ecf6a963ffd9b5235d48b7a958f00364fa0220419cd9`.
+  The complete 24,416-page internal-link check passed and inventoried 49,401
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,859,121 bytes; manifest SHA-256 was
+  `cd65be0a284f96ba6863aa7a3daef667a56de330ada0c227affeaa7bcee9cf90`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,486 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 1,002-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 336 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `b72dac4cc6bb0fe0bbb58360e192928af382b0e56395e972579e24a863fccac8`.
@@ -109,6 +133,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 996-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 335 production verification: **passed**. Release
+  `bf2de91fc364e7927675c852b9dd850573ade06a` passed pull-request workflow
+  [32454434106](https://github.com/therealjameswilson/before-oss/actions/runs/32454434106),
+  post-merge test workflow
+  [32456160331](https://github.com/therealjameswilson/before-oss/actions/runs/32456160331),
+  and Pages workflow
+  [32456160485](https://github.com/therealjameswilson/before-oss/actions/runs/32456160485).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 335 profiles. All 65 live assets matched the
+  merged manifest across 78,714,578 bytes; its SHA-256 was
+  `04f3d15a531adb0345c5a904b89b2c89238c1a4ad75818cf428830bd43aa370c`.
+  The deployed site reported exactly 3,137 attempted profiles, 449 verified
+  affiliations, 193 verified employers, 3,089 archival assessments, 2,463
+  public claims, and 2,233 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 334 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `ff8035299dc760ff1daf603ccc4dcb42a0f5a667be98720f3214eb52f43b6e6f`.

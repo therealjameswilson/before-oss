@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,147 people with a non-planned attempt | 23,940 active person entities | 13.1454% |
-| Verified-affiliation coverage | 450 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8797% |
+| Research-attempt coverage | 3,156 people with a non-planned attempt | 23,940 active person entities | 13.1830% |
+| Verified-affiliation coverage | 451 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8839% |
 | Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,099 people with an individual file-access/priority assessment | 23,940 active person entities | 12.9449% |
+| Archival-review coverage | 3,108 people with an individual file-access/priority assessment | 23,940 active person entities | 12.9825% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 561
+- Identity status `confirmed`: 564
 - Identity status `high_confidence`: 484
-- Identity status `probable`: 103
+- Identity status `probable`: 104
 - Identity status `ambiguous`: 54
 - Identity status `conflicting`: 48
-- Identity status `unresolved`: 22,690
+- Identity status `unresolved`: 22,686
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,165
-- Enlisted Army personnel: 3,770
-- Commissioned Army officers: 2,100
+- Unknown or indeterminate: 16,162
+- Enlisted Army personnel: 3,772
+- Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 3
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,219 yes; 5,416 no; 16,305 indeterminate.
+Commissioned classification: 2,220 yes; 5,418 no; 16,302 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,793
+- `not_started`: 20,784
 - `in_progress`: 47
 - `candidate_found`: 1
-- `needs_identity_review`: 75
+- `needs_identity_review`: 76
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 475
-- `requires_archival_review`: 2,133
-- `completed`: 101
+- `occupation_only_found`: 476
+- `requires_archival_review`: 2,139
+- `completed`: 102
 - `conflicting_sources`: 49
 - `verified_employer_found`: 189
-- Claim confidence: 743 confirmed; 1,046 high; 624 medium; 43 low; 59
+- Claim confidence: 747 confirmed; 1,047 high; 626 medium; 43 low; 59
   conflicting
-- Durable evidence inventory: 3,322 source records representing 1,531 unique
-  documents; 479 organizations; 1,255 affiliations; 2,515 claims; and 5,692
+- Durable evidence inventory: 3,330 source records representing 1,532 unique
+  documents; 479 organizations; 1,258 affiliations; 2,522 claims; and 5,708
   claim-source links
-- Reviewed public projection: 468 organizations; 1,245 published, qualified,
-  or conflict-visible affiliations; 2,470 published, qualified, or
-  conflict-visible claims; and 2,240 public citation records
+- Reviewed public projection: 468 organizations; 1,248 published, qualified,
+  or conflict-visible affiliations; 2,477 published, qualified, or
+  conflict-visible claims; and 2,248 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,219 yes; 5,416 no; 16,305 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,847. The detailed adapter breakdown remains reproducible in
+  2,950. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,363 across 1,325 people; 135 additional
+- Saved `source_reviewed` outcomes: 1,368 across 1,329 people; 135 additional
   attempts across 122 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,355
+- Total recorded attempts/plans: 4,365
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,178; 1,144 have at least one public-visible
+- People with saved reviewed claims: 1,182; 1,148 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5580,6 +5580,58 @@ Commissioned classification: 2,219 yes; 5,416 no; 16,305 indeterminate.
   a zero-vulnerability production dependency audit. Production deployment
   verification is recorded in the QA reports when the release reaches GitHub
   Pages.
+- Batch 337 covers the next ten contiguous Box 98 rows on PDF page 64, from
+  Carl F. Butts through Ernest L. Byfield Jr. The page was rendered and checked
+  at original resolution. G. E. Buxton falls inside this sequence but already
+  had a high-confidence identity and a qualified B. B. & R. Knight Company
+  employment result from the earlier stratified pilot. This batch records a
+  second continuity-audit attempt without duplicating or rewriting those
+  accepted claims.
+
+  Exact uncommon-name and private-identifier agreement with NARA's official
+  Army merged file confirms Simon Butyter. The fixed-width occupation field was
+  rechecked against NARA's technical documentation and code list: code 678 is
+  `Machine shop and related occupations, n. e. c.`, not the initially
+  considered athletic occupation code. The corrected residual occupation is
+  published as strongly date-bounded at Army entry, without an employer,
+  workplace, exact trade, unit, or Army-to-OSS sequence.
+
+  An official OSS board report confirms John F. Buzerak through exact full-name
+  and private officer-identifier agreement. It dates his February 1943 Signal
+  Corps commissioning and April 1943 OSS assignment, supporting the Signal
+  Corps as his immediate military pathway. The same report separately states
+  that in civilian life he was a radio technician and instructor in radio
+  maintenance and operation. That occupation is published without inventing a
+  company, school, or agency employer.
+
+  The Army file also confirms Herman L. Byer's identity, but its November 20,
+  1945 Army-entry date follows the October 1 termination of OSS. The record is
+  therefore retained only for identity and chronology review; no occupation or
+  predecessor is transferred from it. An official CIA roster and a secondary
+  municipal history support a probable, not confirmed, match between the
+  indexed Ernest L. Byfield Jr. and an OSS instructor of the same name. The
+  roster omits the suffix and private identifier, so Box 98 remains necessary.
+  His father's hotel career and the son's later advertising work are excluded.
+
+  Carl F. Butts, Anna M. Buys, Norman R. Bybee, Ida R. Byers, and William E.
+  Byers remain unresolved. William's printed identifier did not produce a
+  person-specific official match, but NARA documents omissions and conversion
+  errors in the Army file; the nonmatch is not treated as proof that the index
+  is wrong. Unsupported directory, newspaper, obituary, and biographical
+  namesakes were rejected for all five profiles.
+- Batch 337's strict evidence bundle adds eight sources, three affiliations,
+  seven claims, sixteen claim-source links, nine person updates, and ten durable
+  research attempts. Its existing Signal Corps organization is reused rather
+  than duplicated. The bundle passed strict schema validation, two-import
+  idempotence against an isolated copy and the durable database, SQLite
+  integrity and foreign-key checks, deterministic public export, the 200-
+  profile audit, all 74 Python tests plus five subtests, Astro diagnostics with
+  zero errors, warnings, or hints, a 24,416-page static build, the focused 3 / 3
+  desktop, phone, and tablet regression, the 24,416-page link check, public-
+  identifier audits, deterministic public and static builds, and a zero-
+  vulnerability production dependency audit. The complete browser matrix and
+  production deployment verification are recorded in the QA reports as those
+  release gates complete.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's
