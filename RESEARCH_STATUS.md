@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,325 people with a non-planned attempt | 23,940 active person entities | 13.8889% |
-| Verified-affiliation coverage | 456 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9048% |
+| Research-attempt coverage | 3,336 people with a non-planned attempt | 23,940 active person entities | 13.9348% |
+| Verified-affiliation coverage | 457 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9089% |
 | Verified-employer coverage | 195 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8145% |
-| Archival-review coverage | 3,278 people with an individual file-access/priority assessment | 23,940 active person entities | 13.6926% |
+| Archival-review coverage | 3,289 people with an individual file-access/priority assessment | 23,940 active person entities | 13.7385% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 226
+- Possible duplicate groups: 227
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 595
-- Identity status `high_confidence`: 498
-- Identity status `probable`: 112
+- Identity status `confirmed`: 596
+- Identity status `high_confidence`: 500
+- Identity status `probable`: 113
 - Identity status `ambiguous`: 55
 - Identity status `conflicting`: 51
-- Identity status `unresolved`: 22,629
+- Identity status `unresolved`: 22,625
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,128
-- Enlisted Army personnel: 3,803
+- Unknown or indeterminate: 16,127
+- Enlisted Army personnel: 3,804
 - Commissioned Army officers: 2,102
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,221 yes; 5,451 no; 16,268 indeterminate.
+Commissioned classification: 2,221 yes; 5,452 no; 16,267 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,615
+- `not_started`: 20,604
 - `in_progress`: 46
 - `candidate_found`: 1
-- `needs_identity_review`: 85
+- `needs_identity_review`: 86
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 503
-- `requires_archival_review`: 2,260
+- `occupation_only_found`: 504
+- `requires_archival_review`: 2,268
 - `completed`: 104
 - `conflicting_sources`: 52
-- `verified_employer_found`: 193
-- Claim confidence: 779 confirmed; 1,068 high; 662 medium; 48 low; 62
+- `verified_employer_found`: 194
+- Claim confidence: 780 confirmed; 1,072 high; 663 medium; 48 low; 62
   conflicting
-- Durable evidence inventory: 3,419 source records representing 1,587 unique
-  documents; 484 organizations; 1,294 affiliations; 2,619 claims; and 5,915
+- Durable evidence inventory: 3,425 source records representing 1,590 unique
+  documents; 484 organizations; 1,296 affiliations; 2,625 claims; and 5,929
   claim-source links
-- Reviewed public projection: 473 organizations; 1,284 published, qualified,
-  or conflict-visible affiliations; 2,569 published, qualified, or
-  conflict-visible claims; and 2,328 public citation records
+- Reviewed public projection: 473 organizations; 1,286 published, qualified,
+  or conflict-visible affiliations; 2,575 published, qualified, or
+  conflict-visible claims; and 2,334 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,221 yes; 5,451 no; 16,268 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,110. The detailed adapter breakdown remains reproducible in
+  3,121. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,416 across 1,377 people; 142 additional
-  attempts across 129 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,535
+- Saved `source_reviewed` outcomes: 1,423; 143 additional attempts have a saved
+  `candidate_found` outcome
+- Total recorded attempts/plans: 4,546
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,229; 1,190 have at least one public-visible
+- People with saved reviewed claims: 1,242; 1,203 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5919,6 +5919,69 @@ Commissioned classification: 2,221 yes; 5,451 no; 16,268 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 355 covers Betty A. Camper through Courtlandt Canby, the next ten
+  contiguous personnel rows on PDF page 68 in Box 104, and the separately
+  preserved `Canby | Courtlandt` row on PDF page 95 in Box 148. Both index
+  pages were rendered and visually checked. The unusual printed
+  `Allissandrina` spelling remains authoritative, `Alessandrina` appears only
+  as an explicitly unconfirmed search variant, and every private identifier
+  remains masked in public data.
+
+  An official NARA-hosted CIA memorandum identifies Joseph F. Campisi as an
+  FBI employee from 1941 through 1946 and says his 1944-1946 OSS service in
+  the United Kingdom occurred while he was on military leave from the FBI.
+  This direct chronology supports high-confidence publication of the FBI as
+  both his immediate pre-OSS government affiliation and last named civilian
+  employer, while leaving his FBI title, military branch, and exact OSS entry
+  date unstated. JFK collection record `104-10061-10315` is retained as a
+  source identifier and is not mislabeled as a Catalog NAID.
+
+  Michael J. Campo's exact full name and private identifier match the official
+  Army merged file. NARA's visually checked code list defines the record's
+  civilian occupation code 747 as `Stevedores and longshoremen` at Army entry
+  on November 12, 1942. The evidence names no employer, port, dock, union, or
+  workplace, so the profile remains occupation-only and excluded from
+  verified-employer analytics. A second exact-name Army row has a different
+  identifier and contributes no facts.
+
+  A person-specific *News Journal* obituary explicitly identifies Courtlandt
+  Canby as an OSS captain, supporting a high-confidence identity while the
+  printed seven-digit identifier remains unmatched in the Army file. The
+  page-95 `Canby | Courtlandt` row is a probable transposition, but the Box 104
+  and Box 148 entities remain separate in a visible possible-duplicate group
+  until both physical files are compared. No obituary, Army, or affiliation
+  facts are transferred to the transposed row. Betty A. Camper, Felix J.
+  Campesino, Liborio Campo, Jerome Camras, Raymond Camus, Allissandrina Camuso,
+  and Arthur Canal remain unresolved with explicit Box 104 review paths;
+  unlinked Army, obituary, genealogy, and French-engineer namesakes remain
+  rejected rather than published.
+- Batch 355's strict evidence bundle adds six sources, two affiliations, six
+  claims, fourteen claim-source links, eleven person updates, and eleven
+  durable research attempts. Repeated imports produced identical results.
+  SQLite integrity and foreign-key checks, the deterministic 200-profile
+  audit, all 74 Python tests, Astro diagnostics, the 24,421-page build and
+  internal-link check, the public-identifier audit, the zero-vulnerability
+  dependency audit, and the focused **12 / 12** desktop, phone, and tablet
+  regression pass. The clean final-build browser and accessibility matrix
+  passed **1,071 / 1,071**, and consecutive public, generated-data, and static
+  trees reproduced byte for byte. Five Batch 355 endpoints returned HTTP 200;
+  the stable Canby obituary returned HTTP 403 to the final scripted check after
+  responding during evidence review. No authenticated Catalog API request was
+  made and no access control was bypassed.
+- After Batch 355, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,336
+  people, or 13.9348% of active entities; 457 people (1.9089%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,289 (13.7385%) have an assessed
+  archival-review disposition, and 20,604 remain `not_started`. The private
+  evidence graph contains 1,296 affiliations, 484 organizations, 3,425
+  sources, 2,625 claims, and 5,929 claim-source links. Claim-confidence counts
+  are 780 confirmed, 1,072 high, 663 medium, 48 low, and 62 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,286
+  affiliations, 2,334 sources, and 2,575 published or qualified claims, backed
+  by 1,590 unique source documents. It preserves 227 possible-duplicate
+  groups.
 - Batch 354 covers Roger G. Campbell through William A. Campbell. Jr., the
   next ten contiguous personnel rows on PDF page 67, rows 38-46, and page 68,
   row 1, all indexed in Box 104. The frozen source PDF again matched its
