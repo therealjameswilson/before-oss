@@ -4,21 +4,55 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,418 HTML files. Every relative
+**PASS.** The production build contains 24,419 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 470 organization profiles, and the
+The build includes 23,940 person profiles, 471 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,417 unique external URLs for separate live
+The checker inventoried 49,422 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All six Batch 343 cited source URLs were accessible during targeted
-verification. Five returned HTTP 200 with an ordinary client request; the U.S.
-War Memorials route returned HTTP 200 when the request used the project's
-identified research user agent. No access control was bypassed.
+Seven of Batch 344's eight citation endpoints responded directly with HTTP
+200, 202, or 206 during targeted verification. The official CIA PDF redirects
+scripted requests to the Reading Room landing page, but the same stable URL and
+document text were independently inspected through CIA's indexed result. No
+access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 344 local release check
+
+The complete 24,419-page internal-link pass includes Dale W. Caldwell through
+Oliver J. Caldwell on PDF page 65 in Box 101 and the new Military Intelligence
+Service Language School organization page. Army-entry occupation, student
+status, missionary occupation, and identity leads remain separate from named
+employers. One low-confidence namesake remains private, and every unsupported
+identity retains a Box 101 archival path. All 74 Python tests, the deterministic
+200-profile audit, the complete 1,023-case browser/accessibility matrix, the
+final focused person/organization and Sources accessibility regressions,
+dependency audit, database integrity checks, and public-identifier audits pass;
+Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,262,977 bytes and has
+SHA-256
+`bab423a36c6b68df8569471818d9bf2ebd9fbd5655e800092100d92cf5f65c99`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,489 production
+artifacts. It rejected 620 and 1,046 harmless candidate substrings,
+respectively, classified two aggregate and two manifest-size coincidences in
+each tree, and found no unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`b11271e91d203a02010d861e2527e0d8d8a48a691d94859b92f3688ab5218427`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`1c3fbd6185c7ba7753dc96e601837cf11dc144890591cd99580000825cd00712`.
+The complete browser, responsive, and accessibility matrix passed **1,023 /
+1,023** in an uninterrupted 9.8-minute single-worker run. After citation
+metadata calibration, the focused Batch 344 regression and Sources-page axe
+regression each passed **3 / 3**.
 
 ## Batch 343 local release check
 
@@ -50,6 +84,19 @@ tree digest
 The complete browser, responsive, and accessibility matrix passed **1,020 /
 1,020** in an uninterrupted 9.8-minute single-worker run across desktop,
 phone, and tablet; the focused Batch 343 regression passed **3 / 3**.
+
+## Batch 343 production verification
+
+Release `4edb16f7cd37b7cf941647cf2c58ba484de4654d` passed pull-request workflow
+[32483726866](https://github.com/therealjameswilson/before-oss/actions/runs/32483726866),
+post-merge test workflow
+[32486992602](https://github.com/therealjameswilson/before-oss/actions/runs/32486992602),
+and Pages workflow
+[32486992699](https://github.com/therealjameswilson/before-oss/actions/runs/32486992699).
+Seven core routes and all ten Batch 343 person routes returned HTTP 200. The
+live manifest and all 65 assets matched the audited release byte for byte
+across 79,213,316 bytes; manifest SHA-256 was
+`a6208ba14a01a4797a04c7c0b198c6ff302215e087c9c1d61e7aa925de4d1f7a`.
 
 ## Batch 342 local release check
 
