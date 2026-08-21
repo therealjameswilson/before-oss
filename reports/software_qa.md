@@ -5,8 +5,8 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,419 pages**
-- Internal link check: **24,419 HTML files passed**
+- Static production build: **24,420 pages**
+- Internal link check: **24,420 HTML files passed**
 - Expanded browser and accessibility matrix: the 23.0-minute single-worker
   Batch 345 sweep completed **1,024 / 1,026** cases across desktop, phone, and
   tablet; two older Batch 223/226 cases timed out without an assertion or axe
@@ -26,6 +26,13 @@ Run: 2026-08-21 UTC
   no failed request, console error, or assertion failure. The exact isolated
   rerun passed **1 / 1** in 12.4 seconds. All 27 accessibility routes therefore
   have a clean passing run across their configured viewports.
+- Batch 347 complete browser and accessibility matrix: **1,032 / 1,032 passed**
+  in 11.1 minutes across desktop, phone, and tablet. An initial run exposed a
+  stale Batch 346 expectation for Malcolm W. Callanan's prior `not_started`
+  state and was stopped after **463 passed, 1 failed, and 1 interrupted**. The
+  expectation was updated to his new occupation-only result, the combined
+  Batch 346/347 regression passed **6 / 6**, and the clean complete run passed.
+  All 27 axe cases passed.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -165,14 +172,40 @@ Run: 2026-08-21 UTC
   person, and routes seven unresolved identities to Box 101 review.
 - Focused Batch 346 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet after a test-only expectation for a private next-action
-  note was removed. The trace confirmed that the public Malcolm W. Callanan
-  page correctly displays its separate not-started status and shared possible-
-  duplicate group without publishing private review notes. The regression
+  note was removed. At the Batch 346 release boundary, the trace confirmed
+  that the public Malcolm W. Callanan page correctly displayed its separate
+  not-started status and shared possible-duplicate group without publishing
+  private review notes; Batch 347 now advances that profile. The regression
   confirms Robert F. Callahan's exact-identifier and independent-obituary
   identity evidence, leaves his undefined Army occupation code uninterpreted,
   withholds Arthur E. and Charles M. Callahan namesake leads, keeps Malcolm and
   Malcolm W. Callanan separate, masks identifiers, and routes unsupported
   identities to Boxes 101-102 review.
+- Focused Batch 347 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It keeps Malcolm W. Callanan's playwright and Henry S.
+  Calore's musician evidence occupation-only; publishes Helmut G. Callis's
+  overlapping University of Michigan chronology with qualified immediacy;
+  keeps Sterling A. Callisen's Rochester role documented prewar rather than
+  immediate; verifies both organization pages; masks identifiers; and routes
+  six unsupported identities to Box 102 review.
+- Batch 347 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `fe775919ea9de068395898a7729fe8411742e8b1b051b0074b2db52072ef68b2`;
+  generated-data mirrors reproduced
+  `88217c9093530bff628fd4f2a7eed53aeea7c5f2d7d447a9bc5173f38fa61ec8`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `82b1807abe34ce52f1d2d6e1f15c37fc4edc53a26aa9f6a296d38106d43ad221`.
+  The complete 24,420-page internal-link check passed and inventoried 49,430
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,390,754 bytes; manifest SHA-256 was
+  `7011ed743eb8b2ebd27dfdcd01733cf594bbc876816b2e945c8bb22de1dc370e`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,490 built artifacts. The strict evidence bundle passed
+  repeated-import idempotence, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3** and
+  cumulative **6 / 6** regressions, the clean **1,032 / 1,032** complete
+  matrix, four direct scripted source checks, and a zero-vulnerability
+  production dependency audit. Remote release workflows are pending.
 - Batch 346 local release verification: **passed with one recorded axe stall
   and a clean isolated rerun**. Consecutive public trees reproduced digest
   `e6a037c2c880265387a408141885641950475c9b609632cdb5882513d3b34c5e`;
@@ -190,8 +223,22 @@ Run: 2026-08-21 UTC
   Python tests, the deterministic 200-profile audit, the focused **3 / 3**
   regression, the full matrix's **1,028 / 1,029** completed cases plus clean
   **1 / 1** exact-case rerun, five direct source checks, and a zero-
-  vulnerability production dependency audit passed. Remote release workflows
-  are pending.
+  vulnerability production dependency audit passed. Pages and the independent
+  live-route and byte audit passed; the post-merge Test status is recorded
+  below.
+- Batch 346 production verification: **Pages and live audit passed; post-merge
+  Test remains in progress**. Release
+  `1f71bcf64ad23c78a3c48fa5385c682bc01c2209` passed the pull-request quality
+  gate and Pages workflow
+  [32505620828](https://github.com/therealjameswilson/before-oss/actions/runs/32505620828).
+  Seven core routes and all ten Batch 346 person routes returned HTTP 200 and
+  matched the committed release after canonical-host normalization. The live
+  manifest and all 65 assets matched local bytes, sizes, and SHA-256 values
+  across 79,305,748 bytes; manifest SHA-256 was
+  `a73cb34ef08d4e893078ed29773fb5f6a9b70320905bb042483c401b456f1533`.
+  Post-merge Test workflow
+  [32505620754](https://github.com/therealjameswilson/before-oss/actions/runs/32505620754)
+  is still running and is not reported as passed.
 - Batch 345 local release verification: **passed with two recorded matrix
   timeouts and clean isolated reruns**. Consecutive public trees reproduced
   digest
@@ -212,8 +259,8 @@ Run: 2026-08-21 UTC
   **6 / 6** exact-case rerun, two direct official-source checks, and a zero-
   vulnerability production dependency audit passed. Remote release workflows
   are pending.
-- Batch 345 production verification: **Pages passed; post-merge Test remains
-  in progress**. Release `871b8f3ec1b93df4fd019a49a5298184739ab6a9`
+- Batch 345 production verification: **passed**. Release
+  `871b8f3ec1b93df4fd019a49a5298184739ab6a9`
   passed the pull-request quality gate and Pages workflow
   [32502200259](https://github.com/therealjameswilson/before-oss/actions/runs/32502200259).
   Seven core routes and all ten Batch 345 person routes returned HTTP 200. The
@@ -222,7 +269,7 @@ Run: 2026-08-21 UTC
   `ac22d46e6065c5649f7d1ccafc5f785eb2f0f91a459272196169325e063d40ef`.
   Post-merge Test workflow
   [32502200255](https://github.com/therealjameswilson/before-oss/actions/runs/32502200255)
-  is still running and is not reported as passed.
+  also passed its complete clean-runner suite.
 - Batch 344 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `b11271e91d203a02010d861e2527e0d8d8a48a691d94859b92f3688ab5218427`.

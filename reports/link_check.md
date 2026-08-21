@@ -4,16 +4,24 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,419 HTML files. Every relative
+**PASS.** The production build contains 24,420 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 471 organization profiles, and the
+The build includes 23,940 person profiles, 472 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,423 unique external URLs for separate live
+The checker inventoried 49,430 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Four of Batch 347's eight citation endpoints returned HTTP 200 during targeted
+scripted verification: the NARA personnel-index PDF, Cambridge University
+Press chapter page, New School finding aid, and University of Rochester
+Review PDF. Hoover, University of California Press, SAGE, and the Rochester
+city-directory host returned HTTP 403 to the scripted client; their stable
+public citations were inspected manually, no access control was bypassed, and
+no authenticated Catalog API request was made.
 
 Five of Batch 346's six citation endpoints returned HTTP 200 during targeted
 verification: the NARA personnel-index PDF, public Catalog Army-series page,
@@ -32,6 +40,38 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 347 local release check
+
+The complete 24,420-page internal-link pass includes Malcolm W. Callanan
+through Carla A. Calosi on PDF page 66 in Box 102, plus direct University of
+Michigan and University of Rochester organization pages. Malcolm's playwright
+and Henry S. Calore's musician evidence remain occupation-only; Helmut G.
+Callis's Michigan employment is qualified because it overlapped OSS
+consultancy; Sterling A. Callisen's Rochester role remains documented prewar
+rather than immediate; and six unresolved identities retain archival-review
+paths. All 74 Python tests, the deterministic 200-profile audit, the focused 3
+/ 3 and cumulative 6 / 6 browser regressions, the clean 1,032 / 1,032 complete
+matrix, dependency audit, database integrity checks, and public-identifier
+audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,390,754 bytes and has
+SHA-256
+`7011ed743eb8b2ebd27dfdcd01733cf594bbc876816b2e945c8bb22de1dc370e`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,490 production
+artifacts. It rejected 614 and 1,039 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`fe775919ea9de068395898a7729fe8411742e8b1b051b0074b2db52072ef68b2`.
+Consecutive generated-data mirrors produced digest
+`88217c9093530bff628fd4f2a7eed53aeea7c5f2d7d447a9bc5173f38fa61ec8`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`82b1807abe34ce52f1d2d6e1f15c37fc4edc53a26aa9f6a296d38106d43ad221`.
 
 ## Batch 346 local release check
 
@@ -67,6 +107,20 @@ Consecutive generated-data mirrors produced digest
 Consecutive finalized production builds produced identical complete static-
 tree digest
 `8744fefc21d493560bedfff758ec69178a2101b220ed3e94aea9ea2415b7f155`.
+
+## Batch 346 production verification
+
+Release `1f71bcf64ad23c78a3c48fa5385c682bc01c2209` passed the pull-request
+quality gate and Pages workflow
+[32505620828](https://github.com/therealjameswilson/before-oss/actions/runs/32505620828).
+Seven core routes and all ten Batch 346 person routes returned HTTP 200 and
+matched the committed release after canonical-host normalization. The live
+manifest and all 65 assets matched local bytes, sizes, and SHA-256 values
+across 79,305,748 bytes; manifest SHA-256 was
+`a73cb34ef08d4e893078ed29773fb5f6a9b70320905bb042483c401b456f1533`.
+Post-merge Test workflow
+[32505620754](https://github.com/therealjameswilson/before-oss/actions/runs/32505620754)
+remains in progress and is not reported as passed.
 
 ## Batch 345 local release check
 
@@ -112,7 +166,7 @@ across 79,286,268 bytes; manifest SHA-256 was
 `ac22d46e6065c5649f7d1ccafc5f785eb2f0f91a459272196169325e063d40ef`.
 Post-merge Test workflow
 [32502200255](https://github.com/therealjameswilson/before-oss/actions/runs/32502200255)
-remains in progress and is not reported as passed.
+also passed its complete clean-runner suite.
 
 ## Batch 344 local release check
 

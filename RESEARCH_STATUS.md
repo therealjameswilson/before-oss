@@ -5919,6 +5919,58 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 347 covers Malcolm W. Callanan through Carla A. Calosi, the next ten
+  contiguous personnel rows on PDF page 66, all indexed in Box 102. The page
+  was rendered and visually checked. Full private identifiers remain
+  restricted and appear only as masked suffixes in the public projection.
+
+  A contemporary official OSS report confirms Malcolm W. Callanan as a first
+  lieutenant and records only that he wrote plays in civilian life. The site
+  therefore publishes a medium-confidence, date-bounded playwright occupation,
+  not an employer. The row remains separate from the adjacent Malcolm Callanan
+  profile in their visible possible-duplicate group pending personnel-file
+  review. The same report confirms Henry S. Calore as an enlisted technician
+  fifth grade and records musician as his civilian occupation; it names no
+  employing organization, so the profile remains occupation-only.
+
+  Helmut G. Callis is a high-confidence identity supported by a University of
+  California Press author biography, a scholarly career chronology, and a
+  contemporary article affiliation. The evidence documents University of
+  Michigan employment from 1939 to 1945 and OSS consultancy from 1942 to 1945.
+  Michigan is published with high confidence as his last civilian employer and
+  with medium confidence as his probable immediate affiliation because the
+  appointments overlapped rather than forming an explicit transfer.
+
+  A New School archival finding aid identifies Sterling A. Callisen with OSS
+  service. Contemporary University of Rochester records place him there as a
+  full-time instructor beginning in September 1936 and as an assistant
+  professor in 1940. Rochester is therefore published as high-confidence,
+  documented prewar employment, but not as the immediate predecessor to OSS.
+  A Wesleyan lead remains withheld until dated records establish chronology.
+  Thomas W. Callbeck, Lorenzo Callea, Walter G. Callihan, Sara L. Callisen,
+  Irma Calnan, and Carla A. Calosi remain unresolved. Different-middle-initial
+  or differently documented namesakes were rejected rather than promoted.
+- Batch 347's strict evidence bundle adds eight sources, two organization
+  references with one new canonical organization, four affiliations, nine
+  claims, nineteen claim-source links, ten person updates, and ten durable
+  research attempts. It contributes two confirmed occupation-only identities,
+  two high-confidence identities, one verified employer result, one documented
+  prewar employer result, and six unresolved archival-review paths. Repeated
+  import is idempotent; SQLite integrity and foreign-key checks pass; the
+  deterministic 200-profile audit and all 74 Python tests pass; Astro reports
+  zero errors, warnings, or hints; the static build contains 24,420 pages; the
+  focused desktop, phone, and tablet regression passes 3 / 3; and source-public
+  and built-site identifier scans find zero leaked full service identifiers.
+  Four of eight cited endpoints respond directly to scripted checks; four
+  publisher or repository sites return HTTP 403 while retaining stable public
+  citations that were inspected manually. No access control was bypassed and
+  no authenticated Catalog API request was made. After a stale Batch 346
+  cumulative-status expectation was updated for Malcolm W. Callanan's new
+  research result, the focused Batch 346/347 rerun passed 6 / 6 and the clean
+  complete browser/accessibility matrix passed 1,032 / 1,032. The 24,420-page
+  internal-link check passed, the dependency audit found zero vulnerabilities,
+  and consecutive public, generated-data, and static builds reproduced exact
+  digests. Remote release workflows are pending.
 - Batch 346 covers Deborah H. Calkins through Malcolm Callanan, the next ten
   contiguous personnel rows on PDF page 66 across Boxes 101-102. The page was
   rendered and visually checked. Full private identifiers remain restricted
@@ -5946,9 +5998,11 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   The printed Malcolm Callanan row and the immediately adjacent Malcolm W.
   Callanan row share Box 102 and form a visible possible-duplicate group, but
   both source rows and person entities remain separate pending file review.
-  The adjacent Malcolm W. record remains `not_started`; no private next-action
-  note is exposed on its public page. A different-identifier Army namesake for
-  Donald R. Callahan was rejected. Deborah H. Calkins, Felix Callaghan,
+  At the Batch 346 release boundary the adjacent Malcolm W. record remained
+  `not_started`; Batch 347 now advances it to an occupation-only result while
+  preserving the duplicate question. No private next-action note is exposed on
+  its public page. A different-identifier Army namesake for Donald R. Callahan
+  was rejected. Deborah H. Calkins, Felix Callaghan,
   Dorothy B. Callahan, Nancy Callahan, Robert B. Callahan, and Donald R.
   Callahan remain unresolved with explicit archival-review paths.
 - Batch 346's strict evidence bundle adds six sources, no affiliations, four
@@ -5968,7 +6022,15 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   no request, console, or assertion error, and its exact isolated rerun passed
   1 / 1. Five of six citation endpoints responded directly with HTTP 200; The
   Washington Post timed out scripted checks, and that candidate remains
-  withheld. Remote release workflows are pending.
+  withheld. Release `1f71bcf64ad23c78a3c48fa5385c682bc01c2209` passed the
+  pull-request quality gate and Pages workflow
+  [32505620828](https://github.com/therealjameswilson/before-oss/actions/runs/32505620828).
+  Seven core routes and all ten Batch 346 person routes returned HTTP 200 and
+  matched the committed release after canonical-host normalization. The live
+  manifest and all 65 assets matched byte for byte across 79,305,748 bytes;
+  post-merge Test workflow
+  [32505620754](https://github.com/therealjameswilson/before-oss/actions/runs/32505620754)
+  remains in progress and is not reported as passed.
 - Batch 345 covers Robert C. Caldwell through Caterino J. Califano, the next
   ten contiguous personnel rows across PDF pages 65-66, all indexed in Box
   101. Both pages were rendered and visually checked. Full private identifiers
@@ -6022,8 +6084,9 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   [32502200259](https://github.com/therealjameswilson/before-oss/actions/runs/32502200259).
   Seven core routes and all ten Batch 345 profiles returned HTTP 200, and all
   65 live manifest assets matched the audited release byte for byte across
-  79,286,268 bytes. The post-merge Test workflow remains in progress and is
-  not yet reported as passed.
+  79,286,268 bytes. Post-merge Test workflow
+  [32502200255](https://github.com/therealjameswilson/before-oss/actions/runs/32502200255)
+  also passed its complete clean-runner suite.
 - Batch 344 covers Dale W. Caldwell through Captain Oliver J. Caldwell, the
   next ten contiguous personnel rows on PDF page 65, all indexed in Box 101.
   The page was rendered and visually checked. Full private identifiers remain
