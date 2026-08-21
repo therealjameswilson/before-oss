@@ -1,16 +1,16 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-08-20 UTC.
+Generated from the current local SQLite database on 2026-08-21 UTC.
 
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,088 people with a non-planned attempt | 23,940 active person entities | 12.8989% |
-| Verified-affiliation coverage | 446 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8630% |
-| Verified-employer coverage | 192 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8020% |
-| Archival-review coverage | 3,039 people with an individual file-access/priority assessment | 23,940 active person entities | 12.6942% |
+| Research-attempt coverage | 3,098 people with a non-planned attempt | 23,940 active person entities | 12.9407% |
+| Verified-affiliation coverage | 448 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8713% |
+| Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
+| Archival-review coverage | 3,049 people with an individual file-access/priority assessment | 23,940 active person entities | 12.7360% |
 
 ## Extraction and identity
 
@@ -23,18 +23,18 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 551
+- Identity status `confirmed`: 553
 - Identity status `high_confidence`: 483
 - Identity status `probable`: 100
 - Identity status `ambiguous`: 50
 - Identity status `conflicting`: 45
-- Identity status `unresolved`: 22,711
+- Identity status `unresolved`: 22,709
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,176
-- Enlisted Army personnel: 3,763
-- Commissioned Army officers: 2,097
+- Unknown or indeterminate: 16,174
+- Enlisted Army personnel: 3,764
+- Commissioned Army officers: 2,098
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 3
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,215 yes; 5,409 no; 16,316 indeterminate.
+Commissioned classification: 2,216 yes; 5,410 no; 16,314 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,852
+- `not_started`: 20,842
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 69
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 59
+- `documented_prewar_employer_found`: 60
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 469
-- `requires_archival_review`: 2,093
-- `completed`: 98
+- `requires_archival_review`: 2,101
+- `completed`: 99
 - `conflicting_sources`: 46
 - `verified_employer_found`: 189
-- Claim confidence: 732 confirmed; 1,039 high; 611 medium; 39 low; 56
+- Claim confidence: 735 confirmed; 1,042 high; 612 medium; 39 low; 56
   conflicting
-- Durable evidence inventory: 3,281 source records representing 1,508 unique
-  documents; 474 organizations; 1,238 affiliations; 2,477 claims; and 5,603
+- Durable evidence inventory: 3,288 source records representing 1,512 unique
+  documents; 475 organizations; 1,243 affiliations; 2,484 claims; and 5,617
   claim-source links
-- Reviewed public projection: 463 organizations; 1,228 published, qualified,
-  or conflict-visible affiliations; 2,436 published, qualified, or
-  conflict-visible claims; and 2,203 public citation records
+- Reviewed public projection: 464 organizations; 1,233 published, qualified,
+  or conflict-visible affiliations; 2,443 published, qualified, or
+  conflict-visible claims; and 2,210 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,215 yes; 5,409 no; 16,316 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,807. The detailed adapter breakdown remains reproducible in
+  2,817. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,351 across 1,313 people; 128 additional
+- Saved `source_reviewed` outcomes: 1,353 across 1,315 people; 128 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,295
+- Total recorded attempts/plans: 4,305
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,157; 1,127 have at least one public-visible
+- People with saved reviewed claims: 1,159; 1,129 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,47 @@ Commissioned classification: 2,215 yes; 5,409 no; 16,316 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 331 covers the final nine source rows on PDF page 62 and the first row
+  on page 63, from Lillian L. Burt through Mary Burton. All ten are in Box 96.
+  Both pages were rendered and visually checked at original resolution. Mary's
+  incomplete printed notes value remains exactly `docume`; it is not silently
+  expanded. Exact normalized private-identifier agreement with the official
+  North Dakota veterans roster confirms Lyman D. Burtch and documents U.S.
+  Army entry at Fort Benning on October 21, 1942, Asiatic-Pacific service, and
+  eventual separation as a lieutenant colonel. The officer-format identifier
+  and eventual grade support commissioned Army classification, but the grade
+  is not projected backward to every wartime date and no immediate Army-to-OSS
+  sequence is inferred.
+
+  Exact name and private-identifier agreement with NARA's official Army merged
+  file confirms Will Burtin and dates Army entry to July 14, 1943. His
+  commercial-artist code is published as a medium-confidence occupation, not
+  an employer. RIT's archival biography explicitly connects 1943 U.S. Army
+  entry to OSS assignment and documents a prewar New York freelance design
+  practice and Pratt Institute teaching. Those overlapping civilian roles are
+  kept separate and neither is selected as the sole last civilian employer.
+  The public claim also preserves the institutional sources' drafted-versus-
+  volunteered disagreement rather than silently resolving it.
+
+  Lillian L. Burt, Charlotte Burtis, Barbara J. Burton, Deloise E. Burton,
+  Dorothy V. Burton, Jonia Burton, Joseph S. Burton, and Mary Burton remain
+  unresolved and route to Box 96 review. An unrelated postwar CIA OCR hit for
+  Mary and common-name candidates lacking two corroborating identifiers were
+  rejected rather than promoted.
+- Batch 331's strict evidence bundle adds seven source inputs, two organization
+  inputs, five affiliations, seven claims, fourteen claim-source links, ten
+  person updates, and ten durable research attempts. It passed schema
+  validation, two-import idempotence against a temporary database, SQLite
+  integrity and foreign-key checks, public-data redaction, all 74 Python tests
+  plus five subtests, and the deterministic 200-profile audit. The zero-warning
+  production build contains 24,412 pages; the complete 984 / 984 browser,
+  responsive, and accessibility matrix passed in an uninterrupted 8.8-minute
+  run, as did the focused 3 / 3 regression, internal-link check, zero-
+  vulnerability dependency audit, and two-build determinism checks. All 65
+  manifest assets matched across 78,508,930 bytes with manifest SHA-256
+  `9825530bcdf2397d30a1d61f7c386541e54b320bd97dd19c03c0c5d721d5065e`,
+  and the exhaustive public-identifier audit found zero unexpected matches.
+  Deployment results are recorded separately as they complete.
 - Batch 330 covers ten contiguous source rows on PDF page 62, from Donald M.
   Burrhus at row 28 through Edwin B. Burt at row 37. The first two rows are in
   Box 95 and the remaining eight are in Box 96. The page was rendered and

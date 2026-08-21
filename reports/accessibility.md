@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **981** browser, responsive, and
+The expanded release matrix contains **984** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 330 release sweep passed **981 / 981** in 9.6 minutes. The
+single-worker Batch 331 release sweep passed **984 / 984** in 8.8 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 331 adds a focused direct-route regression for Lillian L. Burt through
+Mary Burton across PDF pages 62-63. It verifies Lyman D. Burtch's exact roster
+identity and commissioned Army classification; keeps Will Burtin's military,
+freelance-design, Pratt teaching, and occupation evidence in distinct lanes;
+preserves the institutional drafted-versus-volunteered disagreement; retains
+Mary Burton's incomplete printed `docume` note; and routes eight unsupported
+identities to Box 96 without inventing employers. The focused regression passed
+**3 / 3** across desktop, phone, and tablet.
 
 Batch 330 adds a focused direct-route regression for Donald M. Burrhus through
 Edwin B. Burt on PDF page 62. It verifies three exact-identifier Army-entry
