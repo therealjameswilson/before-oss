@@ -15,6 +15,11 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,439 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+All three Batch 353 official citation endpoints returned HTTP 200 during
+targeted verification: the NARA personnel-index PDF, the public Catalog page
+for the Army merged-file series, and its fixed-width technical documentation.
+No authenticated Catalog API request was made.
+
 All four Batch 352 official citation endpoints returned HTTP 200 during
 targeted verification: the NARA personnel-index PDF, the public Catalog page
 for the Army merged-file series, the fixed-width technical documentation, and
@@ -72,6 +77,39 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 353 local release check
+
+The complete 24,421-page internal-link pass includes Joan C. Campbell through
+Robert D. Campbell on PDF page 67 across Boxes 103-104. John P. Campbell's
+exact private identifier resolves to a different person in the complete
+official Army file, so the public profile exposes the conflict without
+publishing the unrelated subject or transferring Army facts. John C.
+Campbell's seven-digit printed identifier has no exact match and is not padded
+to manufacture one. Nine unresolved identities retain archival-review paths,
+the printed `Lucile` spelling remains recoverable, and no employer or
+occupation claim is added. All 74 Python tests, the deterministic 200-profile
+audit, the focused 3 / 3 browser regression, the clean 1,050 / 1,050 complete
+matrix, dependency audit, database integrity checks, and public-identifier
+audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,594,280 bytes and has
+SHA-256
+`b817e15fa9fb0bbe377a70a79fd955418c9a41648db0dae45f67f2824763685b`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 623 and 1,048 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`1f4b3d530b0767c457271fce243da8c8acf25d7224f029b0df8c580d5354367a`.
+Consecutive generated-data mirrors produced digest
+`ad4b1c9d86f50f0e9588f1b0dc9a2ef8ce0e67623337cf1ef013ae11348d8d8f`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`ddad8b84578b7f7154fe3704630c85cf27e013fe15ac67d8f6991d385c6bd870`.
 
 ## Batch 352 local release check
 

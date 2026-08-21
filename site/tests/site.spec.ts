@@ -27904,3 +27904,44 @@ test("Batch 352 publishes two Army-entry occupations without assigning namesake 
     }
   }
 });
+
+test("Batch 353 exposes one identifier conflict and preserves nine unresolved Campbell profiles", async ({
+  page,
+}) => {
+  await page.goto("./people/81e28bea-296c-5466-9192-1fff5ec15f0b/");
+  await expect(page.getByRole("heading", { name: "John P Campbell", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••8432");
+  await expect(page.locator("main")).toContainText("conflicts with the official Army merged file");
+  await expect(page.locator("main")).toContainText("different full name");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["f8f6d43d-d4e4-58f1-9385-14f03898eb43", "Joan C Campbell", null],
+    ["9eaf348d-dbb5-5279-8235-6a7cb49b0385", "John C Campbell", "••••2763"],
+    ["33f0b38e-1a75-5dcf-a127-a73d70c91da3", "Kate G Campbell", null],
+    ["13041f71-ad85-5045-a9a6-7944940a603e", "Lucile G Campbell", null],
+    ["70fdaad3-4e9d-5f52-a5b9-9195635ee47b", "Marion F Campbell", null],
+    ["d138b625-58fb-5bd5-8f01-67709f5bf0fa", "Mary Campbell", null],
+    ["a66dab58-5c82-5166-92f3-0ed5d8649ba0", "Mary G Campbell", null],
+    ["014ce604-3147-515b-92f8-010193b461b0", "Oscar Campbell", null],
+    ["9391ff3b-3bf6-5a98-a87b-710048e9d313", "Robert D Campbell", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
