@@ -12,8 +12,14 @@ The build includes 23,940 person profiles, 473 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,437 unique external URLs for separate live
+The checker inventoried 49,439 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Two of Batch 350's three citation endpoints returned HTTP 200 during targeted
+scripted verification: the NARA personnel-index PDF and the New York Times
+profile of Roderick William Cameron. The separate Times obituary returned HTTP
+403 to the scripted client; it remains a stable context-only citation, no
+access control was bypassed, and no authenticated Catalog API request was made.
 
 All four Batch 349 citation endpoints returned HTTP 200 during targeted
 scripted verification: the NARA personnel-index PDF, the CND-Castille mission
@@ -55,6 +61,37 @@ scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
 
+## Batch 350 local release check
+
+The complete 24,421-page internal-link pass includes Richard B. Cameron through
+Sanders Camp across PDF pages 66-67 in Box 103. Roderick W. Cameron's identity
+is high-confidence, but the accessible evidence does not establish a pre-OSS
+employer or predecessor affiliation. The adjacent Roderick Cameron row remains
+a separate unresolved entity in a visible possible-duplicate group, and the
+other eight unsupported identities retain archival-review paths. All 74 Python
+tests, the deterministic 200-profile audit, the focused 3 / 3 browser
+regression, the clean 1,041 / 1,041 complete matrix, dependency audit, database
+integrity checks, and public-identifier audits pass; Astro reports zero errors,
+warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,488,835 bytes and has
+SHA-256
+`e6b087d7f3197ae6e4d55f210fdbf93a2fb6084a672bf71dd213ede88a756bf3`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts and found no unexpected boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`464b31ad13bdb01672d9793ba6459d16b24abaf68543f9fc0ad4fab7074c65f8`.
+Consecutive generated-data mirrors produced digest
+`8608f107b20949a91c73cab7d92199abd5503a7423858bc5f60b12938e671a84`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`685f90f5916f3908bb50cc6f2b69b57d55dd3816dfd1d88150455d440f98162a`.
+After rebasing onto the deployed Batch 349 release, all 74 Python tests and the
+cumulative Batch 349/350 browser regression passed again (6 / 6).
+
 ## Batch 349 local release check
 
 The complete 24,421-page internal-link pass includes Pierre Cambon through
@@ -86,6 +123,21 @@ Consecutive generated-data mirrors produced digest
 Consecutive finalized production builds produced identical complete static-
 tree digest
 `53d16b1e7baf91f6c403488819fbc9439e3af01d2a590aa561442c7afc38a11a`.
+
+## Batch 349 production verification
+
+Release `74c29eec7bcd260dfa5e6f554106c0928519bc41` passed the pull-request
+quality gate and Pages workflow
+[32518336495](https://github.com/therealjameswilson/before-oss/actions/runs/32518336495).
+Seven core routes and all ten Batch 349 person routes returned HTTP 200 and
+matched the tested release after literal and URL-encoded canonical-host
+normalization. The live manifest and all 65 listed assets matched local bytes,
+sizes, and SHA-256 values; the listed assets total 79,470,352 bytes and manifest
+SHA-256 is
+`eaaaf9515aed3a5a40ea6cb9de61b83baa547bda979d05cc4569b7e0bc9a5d73`.
+Post-merge Test workflow
+[32518336580](https://github.com/therealjameswilson/before-oss/actions/runs/32518336580)
+provides the independent release gate.
 
 ## Batch 348 local release check
 

@@ -27719,3 +27719,64 @@ test("Batch 349 identifies Cambon and Camboni while preserving occupation and ar
     }
   }
 });
+
+test("Batch 350 identifies Roderick W Cameron while keeping the adjacent row separate", async ({
+  page,
+}) => {
+  await page.goto("./people/305971f9-d452-517a-97af-580e2d4f6f77/");
+  await expect(
+    page.getByRole("heading", { name: "Roderick W Cameron", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("high", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Roderick William \"Rory\" Cameron");
+  await expect(page.locator("main")).toContainText(
+    "assigned to the Office of Strategic Services",
+  );
+  await expect(page.locator("main")).toContainText("duplicate-b654849c9581");
+  await expect(
+    page.getByRole("link", { name: "Fabulous Dead People: Rory Cameron", exact: true }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://tmagazine.blogs.nytimes.com/2010/06/09/fabulous-dead-people-rory-cameron/",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/60f070dd-1649-58d1-8cd4-de9441cb7a64/");
+  await expect(
+    page.getByRole("heading", { name: "Roderick Cameron", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("duplicate-b654849c9581");
+  await expect(page.locator("main")).toContainText("••••7518");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["01bf7829-a816-530c-8aed-d596ce5db502", "Richard B Cameron", "••••6185"],
+    ["ee0e41d8-5756-5f17-9fb8-b27e6e2f3da6", "Samuel P Cameron", null],
+    ["42b3d9c2-a444-5038-9489-5381acb94dfd", "James H Camirand", "••••7392"],
+    ["05bf7279-5be7-5071-b9dc-bee9e1c3c15b", "Dominica T Camoia", "••••5603"],
+    ["099992a9-659a-5512-a6d5-810c2ce5751f", "John H Camp", "••••3758"],
+    ["88e3917b-452e-598b-a588-76acf44b157d", "Richard T Camp", null],
+    ["55b7775f-cd3a-58cb-a234-f275d405dfe5", "Roger S Camp", "••••3704"],
+    ["8277bd6b-2081-58de-b820-6b884f1e8a8e", "Sanders Camp", "••••0411"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});

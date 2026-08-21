@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,276 people with a non-planned attempt | 23,940 active person entities | 13.6842% |
+| Research-attempt coverage | 3,285 people with a non-planned attempt | 23,940 active person entities | 13.7218% |
 | Verified-affiliation coverage | 456 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9048% |
 | Verified-employer coverage | 195 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8145% |
-| Archival-review coverage | 3,228 people with an individual file-access/priority assessment | 23,940 active person entities | 13.4837% |
+| Archival-review coverage | 3,238 people with an individual file-access/priority assessment | 23,940 active person entities | 13.5255% |
 
 ## Extraction and identity
 
@@ -20,15 +20,15 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 225
+- Possible duplicate groups: 226
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 587
-- Identity status `high_confidence`: 497
+- Identity status `high_confidence`: 498
 - Identity status `probable`: 112
 - Identity status `ambiguous`: 55
 - Identity status `conflicting`: 49
-- Identity status `unresolved`: 22,641
+- Identity status `unresolved`: 22,639
 
 ## Personnel categories
 
@@ -49,26 +49,26 @@ Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,664
-- `in_progress`: 47
+- `not_started`: 20,655
+- `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 85
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 495
-- `requires_archival_review`: 2,220
+- `requires_archival_review`: 2,230
 - `completed`: 104
 - `conflicting_sources`: 50
 - `verified_employer_found`: 193
-- Claim confidence: 771 confirmed; 1,067 high; 654 medium; 48 low; 60
+- Claim confidence: 771 confirmed; 1,068 high; 654 medium; 48 low; 60
   conflicting
-- Durable evidence inventory: 3,401 source records representing 1,582 unique
-  documents; 484 organizations; 1,286 affiliations; 2,600 claims; and 5,866
+- Durable evidence inventory: 3,404 source records representing 1,585 unique
+  documents; 484 organizations; 1,286 affiliations; 2,601 claims; and 5,869
   claim-source links
 - Reviewed public projection: 473 organizations; 1,276 published, qualified,
-  or conflict-visible affiliations; 2,550 published, qualified, or
-  conflict-visible claims; and 2,310 public citation records
+  or conflict-visible affiliations; 2,551 published, qualified, or
+  conflict-visible claims; and 2,313 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,070. The detailed adapter breakdown remains reproducible in
+  3,080. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,409 across 1,370 people; 142 additional
+- Saved `source_reviewed` outcomes: 1,410 across 1,371 people; 142 additional
   attempts across 129 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,485
+- Total recorded attempts/plans: 4,495
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,220; 1,181 have at least one public-visible
+- People with saved reviewed claims: 1,229; 1,190 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5919,6 +5919,59 @@ Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 350 covers Richard B. Cameron through Sanders Camp, the next ten
+  contiguous personnel rows spanning PDF page 66, rows 44-46, and page 67,
+  rows 1-7, all indexed in Box 103. Both pages were rendered and visually
+  checked. Rows without identifiers remain visibly blank, while every printed
+  private identifier is preserved in SQLite and masked in public data.
+
+  Roderick W. Cameron is a high-confidence identity. A New York Times profile
+  expands his name to Roderick William "Rory" Cameron and explicitly places
+  him in an OSS assignment during World War II; a separate Times obituary
+  corroborates the Roderick W. form and history-and-travel-writer identity.
+  Neither source establishes an immediate pre-OSS employer. Undated education,
+  inherited wealth, and postwar writing, editing, and design activity are not
+  projected backward into an affiliation claim.
+
+  The immediately adjacent Roderick Cameron row carries a different index
+  pattern and a private identifier. It remains a separate unresolved entity.
+  Both rows are now exposed as a possible-duplicate group requiring Box 103
+  comparison; they are not merged on name similarity. Richard B. Cameron,
+  Samuel P. Cameron, James H. Camirand, Dominica T. Camoia, John H. Camp,
+  Richard T. Camp, Roger S. Camp, and Sanders Camp also remain unresolved with
+  explicit archival-review paths. A Roger Stanley Camp university-and-burial
+  candidate and other obituary, cemetery, directory, and social-notice leads
+  lack direct identifier and OSS linkage and remain rejected rather than
+  published.
+- Batch 350's strict evidence bundle adds three sources, no organizations or
+  affiliations, one high-confidence identity claim, three claim-source links,
+  ten person updates, and ten durable research attempts. Three repeated
+  imports produced identical results. It adds no employer claim and promotes
+  no discovery-only biography, postwar occupation, or namesake affiliation.
+  SQLite integrity and foreign-key checks, the deterministic 200-profile
+  audit, all 74 Python tests, the 24,421-page build and internal-link check, the
+  24,491-artifact private-identifier audit, the zero-vulnerability dependency
+  audit, and the focused desktop, phone, and tablet regression all pass. Astro
+  reports zero errors, warnings, or hints. The complete uninterrupted browser
+  and accessibility matrix passed 1,041 / 1,041 in 10.0 minutes, including all
+  27 axe cases. Consecutive public, generated-data, and finalized static builds
+  reproduced exactly; all 65 manifest assets match their recorded sizes and
+  SHA-256 values across 79,488,835 bytes. After rebasing onto the deployed
+  Batch 349 release, all 74 Python tests and the cumulative Batch 349/350
+  browser regression passed again (6 / 6).
+- After Batch 350, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,285
+  people, or 13.7218% of active entities; 456 people (1.9048%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,238 (13.5255%) have an assessed
+  archival-review disposition, and 20,655 remain `not_started`. The private
+  evidence graph contains 1,286 affiliations, 484 organizations, 3,404
+  sources, 2,601 claims, and 5,869 claim-source links. Claim confidence counts
+  are 771 confirmed, 1,068 high, 654 medium, 48 low, and 60 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,276
+  affiliations, 2,313 sources, and 2,551 published or qualified claims, backed
+  by 1,585 unique source documents. It preserves 226 possible-duplicate groups.
 - Batch 349 covers Pierre Cambon through Rawley Cameron, the next ten
   contiguous personnel rows on PDF page 66 across Boxes 102-103. The page was
   rendered and visually checked. The French `S/Lt` designation, the printed
