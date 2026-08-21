@@ -28040,3 +28040,119 @@ test("Batch 354 preserves six unresolved Campbell profiles and the printed perio
   await expect(page.locator("main")).toContainText("preserve the printed period");
   await expect(page.locator("main")).toContainText("do not supply a missing leading character");
 });
+
+test("Batch 355 publishes Campisi's FBI transition as two separately labeled questions", async ({
+  page,
+}) => {
+  await page.goto("./people/c0de9136-ec25-504d-8726-a2da730273a5/");
+  await expect(page.getByRole("heading", { name: "Joseph F Campisi", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Federal Bureau of Investigation",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "government assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Federal Bureau of Investigation",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "title not stated",
+  );
+  await expect(page.locator("main")).toContainText("on military leave from the FBI, serving with OSS");
+  await expect(
+    page
+      .getByRole("link", { name: "House Select Committee on Assassinations Request", exact: true })
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://www.archives.gov/files/research/jfk/releases/2022/104-10061-10315.pdf",
+  );
+  await expect(page.locator("main")).not.toContainText("NARA Catalog NAID 104-10061-10315");
+});
+
+test("Batch 355 publishes Michael Campo's dated occupation without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/8806bedc-b84a-5cbb-b490-fbb272d907f1/");
+  await expect(page.getByRole("heading", { name: "Michael J Campo", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("••••4909");
+  await expect(page.locator("main")).toContainText("Stevedores and longshoremen");
+  await expect(page.locator("main")).toContainText("occupation code 747");
+  await expect(page.locator("main")).toContainText("no employer or workplace is named");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 355 keeps Courtlandt Canby's identifier conflict and transposed row visible", async ({
+  page,
+}) => {
+  await page.goto("./people/e08147c7-73c7-5a7d-9e00-16b7f764b3bc/");
+  await expect(page.getByRole("heading", { name: "Courtlandt Canby", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5869");
+  await expect(page.locator("main")).toContainText("different identifier");
+  await expect(page.locator("main")).toContainText("name columns transposed");
+  await expect(page.locator("main")).toContainText("He was a captain in the OSS during WWII");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/36c18618-6871-562f-8a20-088d7ea462ec/");
+  await expect(page.getByRole("heading", { name: "Canby Courtlandt", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Courtlandt in the last-name column");
+  await expect(page.locator("main")).toContainText("Do not transfer the obituary or any affiliation");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 355 preserves seven unresolved Camper-through-Canal profiles", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["aeb3f05c-2021-5cb6-9134-22fa863c5901", "Betty A Camper", null],
+    ["8f1f2129-01d8-5573-ae6d-d2b5d29a0782", "Felix J Campesino", null],
+    ["7bf8b7cb-2227-54e4-803f-f3b0b06a471b", "Liborio Campo", null],
+    ["799fd02e-a5b3-57f4-833d-2d51aa7b92b0", "Jerome Camras", "••••1863"],
+    ["4fcff60b-e105-528f-a293-14735f4adbda", "Raymond Camus", null],
+    ["cb2a07c7-3ae5-5375-b55b-fceeffdf82a8", "Allissandrina Camuso", null],
+    ["8b1b27e4-39b0-53f5-b200-2c850a00513d", "Arthur Canal", "••••6112"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/cb2a07c7-3ae5-5375-b55b-fceeffdf82a8/");
+  await expect(page.locator("main")).toContainText("unusual spelling Allissandrina Camuso");
+  await expect(page.locator("main")).toContainText(
+    "Alessandrina Camuso (search variant; unconfirmed)",
+  );
+});

@@ -4,10 +4,11 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,059** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.0-minute
-single-worker Batch 354 sweep passed **1,059 / 1,059** without a timeout or
-accessibility failure. The prior 11.0-minute Batch 353 sweep passed **1,050 /
+The expanded release matrix contains **1,071** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.6-minute
+single-worker Batch 355 sweep passed **1,071 / 1,071** without a timeout or
+accessibility failure. The prior 11.0-minute Batch 354 sweep passed **1,059 /
+1,059**, and the prior 11.0-minute Batch 353 sweep passed **1,050 /
 1,050**, the prior 10.6-minute Batch 352 sweep passed **1,047 /
 1,047**, the prior 10.9-minute Batch 351 sweep passed **1,044 /
 1,044**, and the prior 10.0-minute Batch 350 sweep passed **1,041 /
@@ -33,6 +34,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 355 adds direct-route coverage for Betty A. Camper through Courtlandt
+Canby on PDF page 68 and the separately preserved `Canby | Courtlandt` row on
+page 95. It presents Joseph F. Campisi's immediate government affiliation and
+last civilian employer as distinct questions; keeps Michael J. Campo's Army-
+entry occupation out of employer analytics; exposes Courtlandt Canby's
+identifier conflict and possible transposed duplicate without merging the
+rows; avoids mislabeling a JFK collection record as a Catalog NAID; masks all
+private identifiers; and routes seven unsupported identities to archival
+review. The focused regression passed **12 / 12**, and all 27 axe cases passed
+in the complete **1,071 / 1,071** matrix.
 
 Batch 354 adds direct-route coverage for Roger G. Campbell through William A.
 Campbell. Jr. across PDF pages 67-68 in Box 104. It confirms three exact-name,

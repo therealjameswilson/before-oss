@@ -60,6 +60,9 @@ Run: 2026-08-21 UTC
 - Batch 354 complete browser and accessibility matrix: **1,059 / 1,059 passed**
   in 11.0 minutes across desktop, phone, and tablet. The clean uninterrupted
   run includes all 27 axe cases.
+- Batch 355 complete browser and accessibility matrix: **1,071 / 1,071 passed**
+  in 11.6 minutes across desktop, phone, and tablet. The clean uninterrupted
+  final-build run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -258,6 +261,34 @@ Run: 2026-08-21 UTC
   subject; refuses to pad William A. Campbell. Jr.'s seven-digit identifier;
   preserves the printed period after `Campbell.`; masks identifiers; and
   routes six unresolved profiles to Box 104 review.
+- Focused Batch 355 browser regression: **12 / 12 passed** across desktop,
+  phone, and tablet. It publishes Joseph F. Campisi's FBI chronology as two
+  separately labeled questions, keeps Michael J. Campo's dated occupation out
+  of employer analytics, exposes Courtlandt Canby's identifier conflict and
+  transposed-row review path, avoids labeling a JFK collection record as a
+  Catalog NAID, masks identifiers, and preserves seven unsupported identities
+  as archival-review cases.
+- Batch 355 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `f25b74adde9b47a660448e20dc180a8c77899f7cd36a8d4dba384aa78493bccb`;
+  generated-data mirrors reproduced
+  `c8a7a50a8eaf27709b926c14c458e58683f943064661f69c129ef5b5ce148c4e`;
+  and the browser-tested build plus two consecutive rebuilds reproduced static-
+  tree digest
+  `535d0851c9d0d4af0aa1c571347985dec0d7722debd3ee5d32d48a26d6f35932`.
+  The complete 24,421-page internal-link check passed and inventoried 49,441
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,715,082 bytes; manifest SHA-256 was
+  `490a827ee86450b89456c9e975d7ec6e96a8fca73daf7f1e39d9a81e8aca0f65`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  repeated-import idempotence, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **12 / 12**
+  regression, the clean **1,071 / 1,071** complete matrix, and a zero-
+  vulnerability production dependency audit passed. Five official or public
+  source endpoints returned HTTP 200; the stable Canby obituary returned HTTP
+  403 to the final scripted client after responding during evidence review,
+  and no access control was bypassed.
 - Batch 354 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `37a405cf745cf777c477d54d50b7e32c15f4a3c0efac8c64489e56d330cf5aa8`;

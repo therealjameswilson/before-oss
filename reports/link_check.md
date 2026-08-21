@@ -12,8 +12,17 @@ The build includes 23,940 person profiles, 473 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,439 unique external URLs for separate live
+The checker inventoried 49,441 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Five of Batch 355's six citation endpoints returned HTTP 200 during the final
+targeted scripted verification: the NARA personnel-index PDF, the public
+Catalog page for the Army merged-file series, the fixed-width technical
+documentation, the official civilian-occupation code list, and the
+NARA-hosted Campisi memorandum. The stable *News Journal* Courtlandt Canby
+obituary returned HTTP 403 to the final scripted client after responding
+during evidence review; no access control was bypassed. No authenticated
+Catalog API request was made.
 
 All four Batch 354 official citation endpoints returned HTTP 200 during
 targeted verification: the NARA personnel-index PDF, the public Catalog page
@@ -83,6 +92,37 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 355 local release check
+
+The complete 24,421-page internal-link pass includes Betty A. Camper through
+Courtlandt Canby on PDF page 68 and the separately preserved transposed-name
+candidate on page 95. Campisi's FBI relationship is published as distinct
+immediate-affiliation and last-civilian-employer claims; Campo's official Army-
+entry occupation is not recast as an employer; the two Canby rows remain
+separate; and all unsupported identities retain archival-review paths. All 74
+Python tests, the deterministic 200-profile audit, the focused 12 / 12 browser
+regression, the clean 1,071 / 1,071 complete matrix, dependency audit, database
+integrity checks, and public-identifier audits pass; Astro reports zero errors,
+warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,715,082 bytes and has
+SHA-256
+`490a827ee86450b89456c9e975d7ec6e96a8fca73daf7f1e39d9a81e8aca0f65`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 621 and 1,047 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`f25b74adde9b47a660448e20dc180a8c77899f7cd36a8d4dba384aa78493bccb`.
+Consecutive generated-data mirrors produced digest
+`c8a7a50a8eaf27709b926c14c458e58683f943064661f69c129ef5b5ce148c4e`.
+The browser-tested production build and two consecutive rebuilds produced the
+same complete static-tree digest
+`535d0851c9d0d4af0aa1c571347985dec0d7722debd3ee5d32d48a26d6f35932`.
 
 ## Batch 354 local release check
 
