@@ -12,8 +12,16 @@ The build includes 23,940 person profiles, 471 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,422 unique external URLs for separate live
+The checker inventoried 49,423 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Five of Batch 346's six citation endpoints returned HTTP 200 during targeted
+verification: the NARA personnel-index PDF, public Catalog Army-series page,
+Journal News obituary, and both Notre Dame archival PDFs. The Washington Post
+endpoint timed out scripted HEAD checks; no access control was bypassed, and
+the corresponding Arthur E. Callahan candidate remains withheld rather than
+published as the indexed identity. No authenticated Catalog API request was
+made.
 
 Both Batch 345 official citation endpoints returned HTTP 200 during targeted
 verification: the NARA personnel-index PDF and the public Catalog series page
@@ -24,6 +32,41 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 346 local release check
+
+The complete 24,419-page internal-link pass includes Deborah H. Calkins through
+Malcolm Callanan on PDF page 66 across Boxes 101-102, plus the separately
+preserved adjacent Malcolm W. Callanan profile. Robert F. Callahan's exact
+private-identifier and independent obituary evidence supports his identity but
+does not turn an undefined occupation code or undated education into an
+employer. Arthur E. and Charles M. Callahan candidates remain withheld;
+Malcolm and Malcolm W. remain separate in one visible possible-duplicate group;
+and all unsupported identities retain archival-review paths. All 74 Python
+tests, the deterministic 200-profile audit, the focused 3 / 3 browser
+regression, dependency audit, database integrity checks, and public-identifier
+audits pass; Astro reports zero errors, warnings, or hints. The complete
+browser/accessibility sweep completed 1,028 / 1,029; the sole tablet Sources-
+page axe evaluation stalled without a request, console, or assertion failure,
+and its exact isolated rerun passed 1 / 1.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,305,748 bytes and has
+SHA-256
+`a73cb34ef08d4e893078ed29773fb5f6a9b70320905bb042483c401b456f1533`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,489 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, classified two manifest-size coincidences in each tree, and
+found no unexpected boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`e6a037c2c880265387a408141885641950475c9b609632cdb5882513d3b34c5e`.
+Consecutive generated-data mirrors produced digest
+`a2c0298be2453b9f980622e560089704b2d9daa2e073005ab28cf884d9df64c2`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`8744fefc21d493560bedfff758ec69178a2101b220ed3e94aea9ea2415b7f155`.
 
 ## Batch 345 local release check
 
@@ -57,6 +100,19 @@ Consecutive generated-data mirrors produced digest
 Consecutive finalized production builds produced identical complete static-
 tree digest
 `21a605b9d09722bd654b6a1b95e3bf0c6420f229a29860b7e1e623761c29bd2d`.
+
+## Batch 345 production verification
+
+Release `871b8f3ec1b93df4fd019a49a5298184739ab6a9` passed the pull-request
+quality gate and Pages workflow
+[32502200259](https://github.com/therealjameswilson/before-oss/actions/runs/32502200259).
+Seven core routes and all ten Batch 345 person routes returned HTTP 200. The
+live manifest and all 65 assets matched the committed release byte for byte
+across 79,286,268 bytes; manifest SHA-256 was
+`ac22d46e6065c5649f7d1ccafc5f785eb2f0f91a459272196169325e063d40ef`.
+Post-merge Test workflow
+[32502200255](https://github.com/therealjameswilson/before-oss/actions/runs/32502200255)
+remains in progress and is not reported as passed.
 
 ## Batch 344 local release check
 

@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,236 people with a non-planned attempt | 23,940 active person entities | 13.5171% |
+| Research-attempt coverage | 3,246 people with a non-planned attempt | 23,940 active person entities | 13.5589% |
 | Verified-affiliation coverage | 455 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9006% |
 | Verified-employer coverage | 194 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8104% |
-| Archival-review coverage | 3,188 people with an individual file-access/priority assessment | 23,940 active person entities | 13.3166% |
+| Archival-review coverage | 3,199 people with an individual file-access/priority assessment | 23,940 active person entities | 13.3626% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 224
+- Possible duplicate groups: 225
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 584
+- Identity status `confirmed`: 585
 - Identity status `high_confidence`: 491
-- Identity status `probable`: 110
+- Identity status `probable`: 112
 - Identity status `ambiguous`: 55
 - Identity status `conflicting`: 49
-- Identity status `unresolved`: 22,651
+- Identity status `unresolved`: 22,648
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,140
-- Enlisted Army personnel: 3,793
+- Unknown or indeterminate: 16,139
+- Enlisted Army personnel: 3,794
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,440 no; 16,280 indeterminate.
+Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,704
+- `not_started`: 20,694
 - `in_progress`: 47
 - `candidate_found`: 1
-- `needs_identity_review`: 82
+- `needs_identity_review`: 85
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 492
-- `requires_archival_review`: 2,189
+- `requires_archival_review`: 2,196
 - `completed`: 104
 - `conflicting_sources`: 50
 - `verified_employer_found`: 192
-- Claim confidence: 768 confirmed; 1,059 high; 648 medium; 45 low; 60
+- Claim confidence: 769 confirmed; 1,059 high; 648 medium; 48 low; 60
   conflicting
-- Durable evidence inventory: 3,377 source records representing 1,560 unique
-  documents; 482 organizations; 1,281 affiliations; 2,580 claims; and 5,823
+- Durable evidence inventory: 3,383 source records representing 1,565 unique
+  documents; 482 organizations; 1,281 affiliations; 2,584 claims; and 5,832
   claim-source links
 - Reviewed public projection: 471 organizations; 1,271 published, qualified,
-  or conflict-visible affiliations; 2,533 published, qualified, or
-  conflict-visible claims; and 2,289 public citation records
+  or conflict-visible affiliations; 2,534 published, qualified, or
+  conflict-visible claims; and 2,292 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,220 yes; 5,440 no; 16,280 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,010. The detailed adapter breakdown remains reproducible in
+  3,020. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,397 across 1,358 people; 138 additional
   attempts across 125 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,445
+- Total recorded attempts/plans: 4,455
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,212; 1,177 have at least one public-visible
+- People with saved reviewed claims: 1,220; 1,181 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5919,6 +5919,56 @@ Commissioned classification: 2,220 yes; 5,440 no; 16,280 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 346 covers Deborah H. Calkins through Malcolm Callanan, the next ten
+  contiguous personnel rows on PDF page 66 across Boxes 101-102. The page was
+  rendered and visually checked. Full private identifiers remain restricted
+  and appear only as masked suffixes in the public projection.
+
+  Exact private-identifier agreement between the index and NARA's official
+  Army merged file confirms Robert F. Callahan as a Boston-born Army private
+  who entered from civil life on July 19, 1943. A person-specific Journal News
+  obituary independently agrees on his full name, 1924 Boston birth, and OSS
+  service. The Army record's civilian-occupation value is an undefined code
+  and remains uninterpreted. Although the obituary names Boston Latin,
+  Harvard, and Babson, it does not date those educational affiliations closely
+  enough to establish any as the immediate pre-OSS status. No employer is
+  invented, and the indexed file remains an archival-review priority.
+
+  Arthur E. Callahan and Charles M. Callahan Jr. retain probable identity
+  candidates but no transferred biography. The Arthur candidate's obituary
+  documents Navy service and entry into the Central Intelligence Group in
+  1946, not OSS service or a Box 101 linkage. Notre Dame sources document a
+  Charles Martin Callahan with the expected middle initial, education,
+  publicity work, and wartime Air Force service, but omit the printed `Jr.`
+  suffix and provide no index identifier or OSS linkage. Both candidates stay
+  low-confidence and withheld from affiliations and analytics.
+
+  The printed Malcolm Callanan row and the immediately adjacent Malcolm W.
+  Callanan row share Box 102 and form a visible possible-duplicate group, but
+  both source rows and person entities remain separate pending file review.
+  The adjacent Malcolm W. record remains `not_started`; no private next-action
+  note is exposed on its public page. A different-identifier Army namesake for
+  Donald R. Callahan was rejected. Deborah H. Calkins, Felix Callaghan,
+  Dorothy B. Callahan, Nancy Callahan, Robert B. Callahan, and Donald R.
+  Callahan remain unresolved with explicit archival-review paths.
+- Batch 346's strict evidence bundle adds six sources, no affiliations, four
+  claims, nine claim-source links, eleven person updates covering ten newly
+  researched people plus the adjacent duplicate candidate, and ten durable
+  research attempts. It contributes one confirmed identity, two withheld
+  probable identity leads, one possible-duplicate review, and six additional
+  unresolved or archival-review paths without adding an employer. The bundle
+  passed strict schema validation, repeated-import idempotence, SQLite
+  integrity and foreign-key checks, deterministic public export, the
+  deterministic 200-profile audit, all 74 Python tests, Astro diagnostics with
+  zero errors, warnings, or hints, a 24,419-page static build and internal-link
+  check, the focused 3 / 3 browser regression, public-identifier audits,
+  consecutive deterministic public and static builds, and a zero-vulnerability
+  dependency audit. The complete browser/accessibility sweep completed 1,028 /
+  1,029; the sole tablet Sources-page case stalled inside axe evaluation with
+  no request, console, or assertion error, and its exact isolated rerun passed
+  1 / 1. Five of six citation endpoints responded directly with HTTP 200; The
+  Washington Post timed out scripted checks, and that candidate remains
+  withheld. Remote release workflows are pending.
 - Batch 345 covers Robert C. Caldwell through Caterino J. Califano, the next
   ten contiguous personnel rows across PDF pages 65-66, all indexed in Box
   101. Both pages were rendered and visually checked. Full private identifiers
@@ -5966,7 +6016,14 @@ Commissioned classification: 2,220 yes; 5,440 no; 16,280 indeterminate.
   builds, and a zero-vulnerability dependency audit. The complete browser and
   accessibility sweep completed 1,024 / 1,026; two older Batch 223/226 cases
   timed out without assertion failures, and their complete six-case three-
-  viewport isolated rerun passed 6 / 6. Remote release workflows are pending.
+  viewport isolated rerun passed 6 / 6. Release
+  `871b8f3ec1b93df4fd019a49a5298184739ab6a9` passed the pull-request quality
+  gate and Pages workflow
+  [32502200259](https://github.com/therealjameswilson/before-oss/actions/runs/32502200259).
+  Seven core routes and all ten Batch 345 profiles returned HTTP 200, and all
+  65 live manifest assets matched the audited release byte for byte across
+  79,286,268 bytes. The post-merge Test workflow remains in progress and is
+  not yet reported as passed.
 - Batch 344 covers Dale W. Caldwell through Captain Oliver J. Caldwell, the
   next ten contiguous personnel rows on PDF page 65, all indexed in Box 101.
   The page was rendered and visually checked. Full private identifiers remain
