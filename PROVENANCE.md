@@ -3911,6 +3911,59 @@ private address, full copyrighted page, postwar-employer substitution,
 search-result-only claim, or unsupported namesake biography was stored or
 published.
 
+## Page-sixty-three Butkus through Butler pathways, Batch 335
+
+`research/evidence-page-sixty-three-william-butkus-through-marshall-butler-pathways_batch-335_2026-08-21.json`
+records ten contiguous Box 97 source rows on PDF page 63, from William J.
+Butkus through Marshall Butler. The page was rendered and visually checked at
+original resolution. The strict bundle contains seven sources, one organization
+input, two affiliations, seven claims, sixteen claim-source links, ten person
+updates, and ten durable research attempts.
+
+The NARA OSS index was compared privately with the official unrestricted
+[Electronic Army Serial Number Merged File](https://catalog.archives.gov/id/1263923),
+its [technical documentation](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf),
+and its [occupation code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf).
+William J. Butkus's printed private identifier resolves to a differently named
+Army subject, while an exact-name Army entrant carries another identifier. The
+public conflict note retains neither full identifier nor the unrelated
+subject's identity and assigns no entry detail from either candidate. Kenneth
+D. Butler has exact private-identifier and full-name agreement across the index
+and Army file. The Army record dates his entry as a private to July 22, 1941;
+the official code list decodes the recorded civilian occupation as
+`Compositors and typesetters`. That broad occupation is not represented as a
+named employer, workplace, exact specialty, or immediate pre-OSS affiliation.
+
+The [Digital Library of Georgia institutional biography of Henry Rutherford
+Butler Jr.](https://dlg.usg.edu/record/dlg_aaed_aarl09-002-005-002) documents
+matching initials and suffix, a prewar medical pathway, and wartime Army
+service. It supplies no OSS, Box 97, or private-identifier link, so none of the
+candidate's education, practice, hospital, fellowship, or Army details is
+published for H. R. Butler Jr. A [1932 official Commerce Department
+directory](https://www.govinfo.gov/content/pkg/SERIALSET-09708_00_00-002-0451-0000/pdf/SERIALSET-09708_00_00-002-0451-0000.pdf)
+names Hugh D. Butler as the agency's Boston district manager. Exact-name
+agreement is insufficient because the source does not link the man to the
+printed identifier, OSS, or Box 97, and a separate Army namesake carries a
+different identifier. Both leads remain private and low confidence.
+
+An official [OSS Board Proceedings report preserved by the Hoover
+Institution](https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full)
+provides exact full-name and private-identifier agreement for Charles B.
+Butler. It identifies him as a First Lieutenant in Infantry and dates Army
+entry to October 4, 1939, commissioning to October 21, 1942, and OSS assignment
+to July 7, 1943. The public record therefore publishes a high-confidence,
+strongly date-bounded U.S. Army Infantry pathway as a military assignment, not
+as a civilian employer. The report does not identify the school Butler had
+just completed, his last civilian employer if any, or a specific Infantry
+unit; those questions remain open for Box 97 review.
+
+Fred J. Butler, Iris O. Butler, Juanita P. Butler, Mabel G. Butler, and Marshall
+Butler remain unresolved and route to Box 97 review. No authenticated Catalog
+request, API credential, raw API response, raw Army record, full private
+identifier, full copyrighted page, private address, search-result-only claim,
+relative's affiliation, or unsupported namesake employer was stored or
+published.
+
 ## Page-sixty-three Bush through Bushnell pathways, Batch 333
 
 `research/evidence-page-sixty-three-billie-bush-through-davis-bushnell-pathways_batch-333_2026-08-21.json`

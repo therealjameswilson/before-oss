@@ -7,8 +7,8 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,414 pages**
 - Internal link check: **24,414 HTML files passed**
-- Expanded browser and accessibility matrix: **993 / 993 passed** in an
-  uninterrupted 9.1-minute single-worker Batch 334 release sweep across
+- Expanded browser and accessibility matrix: **996 / 996 passed** in an
+  uninterrupted 8.9-minute single-worker Batch 335 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -61,6 +61,30 @@ Run: 2026-08-21 UTC
   student status from employment; qualifies Wilsie Bussell's Elon College
   role; keeps Inez Bushner's biography in identity review; masks identifiers;
   and routes unsupported identities to Box 97 review.
+- Focused Batch 335 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It exposes William J. Butkus's private-identifier conflict
+  without publishing either candidate's identity or full identifier; confirms
+  Kenneth D. Butler's broad compositor-and-typesetter occupation without
+  inventing an employer; keeps the H. R. Butler Jr. and Hugh D. Butler
+  namesakes private; and confirms Charles B. Butler's commissioned Army
+  identity and strongly date-bounded Infantry-to-OSS pathway from an official
+  OSS report while leaving his civilian employer unresolved.
+- Batch 335 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `fdb0e4d0f10fa0617b84713dd2c5e0b3160b271b64299bec921d58e1c54ab041`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `a9cfcff4d3ff13801daf9e92de2e4697e61ab30a7afe75fecada9c45bc5c1ecf`.
+  The complete 24,414-page internal-link check passed and inventoried 49,395
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,714,578 bytes; manifest SHA-256 was
+  `04f3d15a531adb0345c5a904b89b2c89238c1a4ad75818cf428830bd43aa370c`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,484 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 996-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 334 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `ff8035299dc760ff1daf603ccc4dcb42a0f5a667be98720f3214eb52f43b6e6f`.
@@ -77,6 +101,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 993-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 334 production verification: **passed**. Release
+  `c6b9c0664c5aa58ab4aa101a4668d99a498070a8` passed pull-request workflow
+  [32450624000](https://github.com/therealjameswilson/before-oss/actions/runs/32450624000),
+  post-merge test workflow
+  [32451906228](https://github.com/therealjameswilson/before-oss/actions/runs/32451906228),
+  and Pages workflow
+  [32451906308](https://github.com/therealjameswilson/before-oss/actions/runs/32451906308).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 334 profiles. All 65 live assets matched the
+  merged manifest across 78,666,971 bytes; its SHA-256 was
+  `9e2f7f668b6e4f99e99454ced4689a0f774243a2f811cbc7698226745168276d`.
+  The deployed site reported exactly 3,128 attempted profiles, 448 verified
+  affiliations, 193 verified employers, 3,079 archival assessments, 2,458
+  public claims, and 2,228 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 333 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `a57f5d55920ff94a89050bcda99f634cd90a296c7c34ec0a7ec64a41ecb60899`.

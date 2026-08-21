@@ -15,6 +15,41 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,395 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 335 local release check
+
+The complete 24,414-page internal-link pass includes William J. Butkus through
+Marshall Butler in Box 97 on PDF page 63, plus Charles B. Butler's existing
+United States Army organization route. All 74 Python tests plus five subtests,
+the deterministic 200-profile audit, focused three-viewport regression,
+dependency audit, database integrity checks, and public-identifier audit pass;
+Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,714,578 bytes and has
+SHA-256
+`04f3d15a531adb0345c5a904b89b2c89238c1a4ad75818cf428830bd43aa370c`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,484 production
+artifacts. It rejected 618 and 1,043 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`fdb0e4d0f10fa0617b84713dd2c5e0b3160b271b64299bec921d58e1c54ab041`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`a9cfcff4d3ff13801daf9e92de2e4697e61ab30a7afe75fecada9c45bc5c1ecf`.
+The regression exposes William J. Butkus's identifier conflict without leaking
+either candidate, publishes only Kenneth D. Butler's qualified occupation,
+keeps two unsupported Butler namesakes private, confirms Charles B. Butler's
+Army Infantry pathway without inventing a civilian employer, and preserves
+the remaining five archival-review paths.
+
+The complete Batch 335 browser, responsive, and accessibility matrix passed
+996 / 996 in an uninterrupted 8.9-minute single-worker run across desktop,
+phone, and tablet.
+
 ## Batch 334 local release check
 
 The complete 24,414-page internal-link pass includes Virginia R. Bushnell
@@ -48,6 +83,23 @@ paths without promoting an unsupported employer or namesake.
 The complete Batch 334 browser, responsive, and accessibility matrix passed
 993 / 993 in an uninterrupted 9.1-minute single-worker run across desktop,
 phone, and tablet.
+
+## Batch 334 production deployment
+
+Release `c6b9c0664c5aa58ab4aa101a4668d99a498070a8` passed pull-request workflow
+[32450624000](https://github.com/therealjameswilson/before-oss/actions/runs/32450624000),
+post-merge test workflow
+[32451906228](https://github.com/therealjameswilson/before-oss/actions/runs/32451906228),
+and Pages workflow
+[32451906308](https://github.com/therealjameswilson/before-oss/actions/runs/32451906308).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all ten Batch 334 profile routes. It downloaded and verified all 65
+release assets across 78,666,971 bytes against manifest SHA-256
+`9e2f7f668b6e4f99e99454ced4689a0f774243a2f811cbc7698226745168276d`.
+The live statistics exactly matched the merged release: 3,128 attempted
+profiles, 448 verified affiliations, 193 verified employers, 3,079 archival
+assessments, 2,458 public claims, and 2,228 public citations. No route,
+profile, asset, statistics, or transport failure was found.
 
 ## Batch 333 local release check
 
