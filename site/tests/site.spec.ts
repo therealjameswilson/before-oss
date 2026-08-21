@@ -26421,3 +26421,94 @@ test("Batch 334 separates Buta, Butke, student, employer, and unresolved pathway
     }
   }
 });
+
+test("Batch 335 preserves the Butkus conflict and qualifies Butler occupations and namesakes", async ({
+  page,
+}) => {
+  await page.goto("./people/421a83c5-f8c1-55d6-a6a9-135c82f29361/");
+  await expect(page.getByRole("heading", { name: "William J Butkus", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("private-identifier conflict");
+  await expect(page.locator("main")).toContainText("••••1448");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/d98c0037-8477-5aae-b356-92c4374be2ed/");
+  await expect(page.getByRole("heading", { name: "Kenneth D Butler", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••8932");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Compositors and typesetters",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["c1f1e387-3069-52f3-98f9-23aab2716195", "H. R Butler Jr.", null],
+    ["b740cca4-0306-5605-b788-42d77a5b39cf", "Hugh D Butler", "••••2099"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/3c11dae3-65bd-53ec-819f-02351ead7ef1/");
+  await expect(page.getByRole("heading", { name: "Charles B Butler", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7491");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "First Lieutenant, Infantry",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["c7dece60-33d5-52a7-beb3-b2d71d0399a4", "Fred J Butler", "••••1901"],
+    ["2ca5af67-7b3a-5da6-b3dc-6c5b4c867a56", "Iris O Butler", null],
+    ["9b07fb45-502a-57b7-a02d-2e32831d10c4", "Juanita P Butler", null],
+    ["019325bc-d04a-570b-9ec0-1208722b1ffe", "Mabel G Butler", null],
+    ["283df429-af3b-51a0-b4be-3c1979fcab81", "Marshall Butler", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
