@@ -48,6 +48,9 @@ Run: 2026-08-21 UTC
 - Batch 350 complete browser and accessibility matrix: **1,041 / 1,041 passed**
   in 10.0 minutes across desktop, phone, and tablet. The clean uninterrupted
   run includes all 27 axe cases.
+- Batch 351 complete browser and accessibility matrix: **1,044 / 1,044 passed**
+  in 10.9 minutes across desktop, phone, and tablet. The clean uninterrupted
+  run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -221,6 +224,31 @@ Run: 2026-08-21 UTC
   identity without inventing a pre-OSS employer; keeps the adjacent Roderick
   Cameron row separate in a visible possible-duplicate group; masks private
   identifiers; and routes the remaining nine profiles to Box 103 review.
+- Focused Batch 351 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes three exact-identifier Army-entry occupation
+  categories without turning them into employers or immediate OSS
+  predecessors; preserves the printed `Clayde` spelling; avoids identifier-
+  format nationality and branch inferences; masks identifiers; and routes
+  seven unresolved profiles to Box 103 review.
+- Batch 351 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `b47d03d573bc13e55d3e5eb3013afd65c9066bdacee520e6b7dd861c6d214b26`;
+  generated-data mirrors reproduced
+  `bc41bda0525ecfb9f87299980d0e926f3aaba736a9f0b482aed0e112e3fbc5b9`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `11df70f04afd272da4064501bc12af93f18238060c4e397880decdbdeb7563e9`.
+  The complete 24,421-page internal-link check passed and inventoried 49,439
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,536,270 bytes; manifest SHA-256 was
+  `521941f7e979934e761eb3cb47a12e2f037d4d3ca482c94cfe8e5ff2d3f62305`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  three identical imports, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the clean **1,044 / 1,044** complete matrix, four direct official
+  source checks, and a zero-vulnerability production dependency audit passed.
+  After rebasing onto the deployed Batch 350 release, all 74 Python tests and
+  the cumulative Batch 350/351 regression passed again (**6 / 6**).
 - Batch 350 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `464b31ad13bdb01672d9793ba6459d16b24abaf68543f9fc0ad4fab7074c65f8`;
@@ -261,6 +289,15 @@ Run: 2026-08-21 UTC
   checks, and a zero-vulnerability production dependency audit passed. After
   rebasing onto the deployed Batch 348 release, all 74 Python tests and the
   cumulative Batch 348/349 regression passed again (**6 / 6**).
+- Batch 349 production verification: **passed**. Release
+  `74c29eec7bcd260dfa5e6f554106c0928519bc41` passed pull-request Test workflow
+  32516456247, Pages workflow 32518336495, and post-merge Test workflow
+  32518336580. Seven core routes and all ten Batch 349 profiles returned HTTP
+  200 and matched the tested release after literal and URL-encoded
+  canonical-host normalization. The live manifest and all 65 listed assets
+  matched local bytes, sizes, and SHA-256 values across 79,470,352 bytes;
+  manifest SHA-256 was
+  `eaaaf9515aed3a5a40ea6cb9de61b83baa547bda979d05cc4569b7e0bc9a5d73`.
 - Batch 348 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `1796f0dab47868c70bc2ccaf2448689bf7e3b5e79a170b0ec5504282ef03c3ca`;

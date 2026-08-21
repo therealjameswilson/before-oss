@@ -4,11 +4,12 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,041** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.0-minute
-single-worker Batch 350 sweep passed **1,041 / 1,041** without a timeout or
-accessibility failure. The prior 10.9-minute Batch 349 sweep passed **1,038 /
-1,038**, and the prior 10.5-minute Batch 348 sweep passed **1,035 / 1,035**.
+The expanded release matrix contains **1,044** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.9-minute
+single-worker Batch 351 sweep passed **1,044 / 1,044** without a timeout or
+accessibility failure. The prior 10.0-minute Batch 350 sweep passed **1,041 /
+1,041**, the prior 10.9-minute Batch 349 sweep passed **1,038 / 1,038**, and
+the prior 10.5-minute Batch 348 sweep passed **1,035 / 1,035**.
 Batch 348's earlier focused-only run exposed a test expectation
 that repeated a private Joseph N. Camarda next-action note; it was corrected to
 public profile wording and the clean focused rerun passed **3 / 3**. The prior
@@ -29,6 +30,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 351 adds direct-route coverage for David L. Campa through David S.
+Campbell on PDF page 67 in Box 103. It confirms three exact private-identifier
+Army records while publishing only the broad, date-bounded civilian occupation
+categories; keeps all three out of verified-employer analytics; preserves the
+printed `Clayde` spelling; avoids inferring service branch or nationality from
+identifier formats; masks all identifiers; and routes seven unresolved people
+to Box 103 review. The focused regression passed **3 / 3**, and all 27 axe
+cases passed in the complete **1,044 / 1,044** matrix.
 
 Batch 350 adds direct-route coverage for Richard B. Cameron through Sanders
 Camp across PDF pages 66-67 in Box 103. It verifies Roderick W. Cameron's
