@@ -4,14 +4,15 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,032** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.1-minute
-single-worker Batch 347 sweep passed **1,032 / 1,032** without a timeout or
-accessibility failure. Its first run exposed a stale Batch 346 expectation that
-the newly researched Malcolm W. Callanan profile was still `not_started`; that
-run was stopped after **463 passed, 1 failed, and 1 was interrupted**. The
-cumulative expectation was corrected, the combined Batch 346/347 regression
-passed **6 / 6**, and the complete clean run then passed. The prior Batch 346
+The expanded release matrix contains **1,035** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.5-minute
+single-worker Batch 348 sweep passed **1,035 / 1,035** without a timeout or
+accessibility failure. An earlier focused-only run exposed a test expectation
+that repeated a private Joseph N. Camarda next-action note; it was corrected to
+public profile wording and the clean focused rerun passed **3 / 3**. The prior
+Batch 347 clean **1,032 / 1,032** run, and its initial stale Batch 346
+expectation followed by a clean **6 / 6** cumulative rerun, remain documented
+below. The prior Batch 346
 tablet Sources-page axe stall and clean **1 / 1** exact rerun remain documented
 below rather than being erased. Batch 345's
 two older Batch 223/226 timeouts and clean **6 / 6** isolated rerun also remain
@@ -26,6 +27,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 348 adds direct-route coverage for Carlo Calosi through Dominick D.
+Camarote on PDF page 66 and for the University of Genoa, Institute of
+Electrotechnics organization page. It confirms that Carlo's identity evidence
+is high-confidence while his Genoa chronology remains a visibly qualified
+medium-confidence result excluded from default analytics; confirms Joseph N.
+Camarda's identity without publishing undated employer names; preserves the
+printed `Maragaret` spelling; masks identifiers; and routes eight unresolved
+identities to Box 102 review. The focused regression passed **3 / 3**, and all
+27 axe cases passed in the complete **1,035 / 1,035** matrix.
 
 Batch 347 adds direct-route coverage for Malcolm W. Callanan through Carla A.
 Calosi on PDF page 66 and for the University of Michigan and University of

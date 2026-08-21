@@ -5919,6 +5919,71 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 348 covers Carlo Calosi through Dominick D. Camarote, the next ten
+  contiguous personnel rows on PDF page 66, all indexed in Box 102. The page
+  was rendered and visually checked. The printed `Maragaret M Calvin` spelling
+  is preserved as indexed; `Margaret` is retained only as a marked search
+  alias. Full private identifiers remain restricted and appear only as masked
+  suffixes in the public projection.
+
+  Carlo Calosi is a high-confidence identity supported by a person-specific
+  institutional oral history, a Library of Congress finding aid naming Carlo
+  Luigi Calosi and his Italian naval torpedo work, and corroborating official
+  OSS context. The oral history explicitly describes his transfer from his
+  University of Genoa institute to OSS-related work. The site therefore
+  publishes the University of Genoa, Institute of Electrotechnics as a visibly
+  qualified, medium-confidence probable immediate affiliation and last
+  civilian employer. It is excluded from default high-confidence analytics.
+  Later Raytheon work is not projected backward, and an Italian torpedo-factory
+  connection is not converted into employment without direct evidence.
+
+  A person-specific contemporary obituary establishes Joseph N. Camarda as the
+  Pittsburgh-born Army veteran who served with OSS, supporting a high-
+  confidence identity match. Its references to U.S. Steel and Lockheed Martin
+  are not dated closely enough to establish pre-OSS chronology, so neither is
+  published as a pre-OSS employer. His personnel file remains necessary to
+  resolve that question.
+
+  Delmar Calvert, William F. Calvert, Maragaret M. Calvin, Sally B. Calvo, John
+  L. Calvocressi, Ulrich Calvosa, Helen L. Camara, and Dominick D. Camarote
+  remain unresolved and retain archival-review paths. Rare-name, artistic,
+  postwar-government, and death-index candidates lack sufficient identifiers,
+  direct OSS linkage, or pre-OSS chronology and remain private research leads
+  rather than published identities or affiliations.
+- Batch 348's strict evidence bundle adds six sources, one canonical
+  organization, one affiliation, four claims, nine claim-source links, ten
+  person updates, and ten durable research attempts. It contributes two high-
+  confidence identities, one qualified medium-confidence employer result, and
+  eight unresolved archival-review paths. Repeated import was run three times
+  with identical results; SQLite integrity and foreign-key checks pass; the
+  deterministic 200-profile audit and all 74 Python tests pass; Astro reports
+  zero errors, warnings, or hints; the static build contains 24,421 pages; the
+  focused desktop, phone, and tablet regression passes 3 / 3; and source-public
+  and built-site identifier scans find zero leaked full service identifiers.
+  Five of six cited endpoints responded directly with HTTP 200; the Library of
+  Congress finding aid returned HTTP 403 to the scripted client but was
+  inspected through its stable public page. No access control was bypassed and
+  no authenticated Catalog API request was made. The initial focused test used
+  private next-action wording for Joseph Camarda; the public expectation was
+  corrected and the clean rerun passed 3 / 3. The complete uninterrupted
+  browser/accessibility matrix passed 1,035 / 1,035 in 10.5 minutes, including
+  all 27 axe cases. The 24,421-page internal-link check, zero-vulnerability
+  dependency audit, complete manifest verification, and consecutive public,
+  generated-data, and static build reproductions all pass. Remote release
+  workflows are pending.
+- After Batch 348, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,266
+  people, or 13.6424% of active entities; 456 people (1.9048%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,218 (13.4419%) have an assessed
+  archival-review disposition, and 20,674 remain `not_started`. The private
+  evidence graph now contains 1,286 affiliations, 484 organizations, 3,397
+  sources, 2,597 claims, and 5,860 claim-source links. Claim confidence counts
+  are 771 confirmed, 1,065 high, 653 medium, 48 low, and 60 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,276
+  affiliations, 2,306 sources, and 2,547 published or qualified claims, backed
+  by 1,578 unique source documents. It preserves 225 possible-duplicate groups.
 - Batch 347 covers Malcolm W. Callanan through Carla A. Calosi, the next ten
   contiguous personnel rows on PDF page 66, all indexed in Box 102. The page
   was rendered and visually checked. Full private identifiers remain
@@ -5970,7 +6035,15 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   complete browser/accessibility matrix passed 1,032 / 1,032. The 24,420-page
   internal-link check passed, the dependency audit found zero vulnerabilities,
   and consecutive public, generated-data, and static builds reproduced exact
-  digests. Remote release workflows are pending.
+  digests. Release `d1b20053cb4534d19bf41e5fc13ce93b3e821ada` passed its
+  pull-request gate and Pages workflow
+  [32509505002](https://github.com/therealjameswilson/before-oss/actions/runs/32509505002).
+  Seven core routes and all ten Batch 347 profiles returned HTTP 200 and matched
+  the audited release after literal and URL-encoded canonical-host
+  normalization. The live manifest and all 65 assets matched local bytes,
+  sizes, and SHA-256 values across 79,390,754 bytes. Post-merge Test workflow
+  [32509505018](https://github.com/therealjameswilson/before-oss/actions/runs/32509505018)
+  remains in progress and is not reported as passed.
 - Batch 346 covers Deborah H. Calkins through Malcolm Callanan, the next ten
   contiguous personnel rows on PDF page 66 across Boxes 101-102. The page was
   rendered and visually checked. Full private identifiers remain restricted
@@ -6030,7 +6103,7 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   manifest and all 65 assets matched byte for byte across 79,305,748 bytes;
   post-merge Test workflow
   [32505620754](https://github.com/therealjameswilson/before-oss/actions/runs/32505620754)
-  remains in progress and is not reported as passed.
+  passed **1,032 / 1,032** checks, completing the independent release gate.
 - Batch 345 covers Robert C. Caldwell through Caterino J. Califano, the next
   ten contiguous personnel rows across PDF pages 65-66, all indexed in Box
   101. Both pages were rendered and visually checked. Full private identifiers
