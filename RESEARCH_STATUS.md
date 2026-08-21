@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,305 people with a non-planned attempt | 23,940 active person entities | 13.8053% |
+| Research-attempt coverage | 3,315 people with a non-planned attempt | 23,940 active person entities | 13.8471% |
 | Verified-affiliation coverage | 456 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9048% |
 | Verified-employer coverage | 195 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8145% |
-| Archival-review coverage | 3,258 people with an individual file-access/priority assessment | 23,940 active person entities | 13.6090% |
+| Archival-review coverage | 3,268 people with an individual file-access/priority assessment | 23,940 active person entities | 13.6508% |
 
 ## Extraction and identity
 
@@ -27,8 +27,8 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Identity status `high_confidence`: 498
 - Identity status `probable`: 112
 - Identity status `ambiguous`: 55
-- Identity status `conflicting`: 49
-- Identity status `unresolved`: 22,634
+- Identity status `conflicting`: 50
+- Identity status `unresolved`: 22,633
 
 ## Personnel categories
 
@@ -49,7 +49,7 @@ Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,635
+- `not_started`: 20,625
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 85
@@ -57,18 +57,18 @@ Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
 - `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 500
-- `requires_archival_review`: 2,245
+- `requires_archival_review`: 2,254
 - `completed`: 104
-- `conflicting_sources`: 50
+- `conflicting_sources`: 51
 - `verified_employer_found`: 193
-- Claim confidence: 776 confirmed; 1,068 high; 659 medium; 48 low; 60
+- Claim confidence: 776 confirmed; 1,068 high; 659 medium; 48 low; 61
   conflicting
-- Durable evidence inventory: 3,412 source records representing 1,585 unique
-  documents; 484 organizations; 1,291 affiliations; 2,611 claims; and 5,894
+- Durable evidence inventory: 3,415 source records representing 1,586 unique
+  documents; 484 organizations; 1,291 affiliations; 2,612 claims; and 5,897
   claim-source links
 - Reviewed public projection: 473 organizations; 1,281 published, qualified,
-  or conflict-visible affiliations; 2,561 published, qualified, or
-  conflict-visible claims; and 2,321 public citation records
+  or conflict-visible affiliations; 2,562 published, qualified, or
+  conflict-visible claims; and 2,324 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,12 +76,12 @@ Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,100. The detailed adapter breakdown remains reproducible in
+  3,110. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,410 across 1,371 people; 142 additional
+- Saved `source_reviewed` outcomes: 1,416 across 1,377 people; 142 additional
   attempts across 129 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,495
+- Total recorded attempts/plans: 4,525
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,229; 1,190 have at least one public-visible
@@ -5919,6 +5919,64 @@ Commissioned classification: 2,221 yes; 5,448 no; 16,271 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 353 covers Joan C. Campbell through Robert D. Campbell, the next ten
+  contiguous personnel rows on PDF page 67, rows 28-37, across Boxes 103-104.
+  The official PDF was downloaded again, its SHA-256 matched the frozen
+  provenance manifest, and the page was rendered and visually checked. Blank
+  rank and identifier fields remain blank; the printed `Lucile` spelling and
+  Mary Campbell's missing middle initial remain unchanged; and every printed
+  private identifier remains in SQLite while only its masked suffix reaches
+  public data.
+
+  A complete pass over NARA's unrestricted Army Serial Number Merged File
+  found that John P. Campbell's exact printed identifier resolves to a
+  different full name. Twenty-nine separate Army records under the exact John
+  P. Campbell name carry other identifiers. The public profile therefore
+  exposes an identity conflict without naming the unrelated person or
+  transferring any residence, enlistment, branch, occupation, or biographical
+  fact. Box 104 and the original Army source card require comparison.
+
+  John C. Campbell's printed seven-digit identifier has no exact match in the
+  complete Army file, and 37 exact-name Army rows carry different identifiers.
+  One different-name record shares that seven-digit suffix only if an
+  unprinted leading character is supplied. The project does not supply that
+  character, call it an exact conflict, or infer a personnel category. Joan C.,
+  John C., Kate G., Lucile G., Marion F., Mary, Mary G., Oscar, and Robert D.
+  Campbell remain unresolved with explicit Box 103 or 104 review paths.
+  Modern, postwar, partial-name, directory, obituary, institutional, federal,
+  military, and family-history namesakes remain rejected rather than
+  published.
+- Batch 353's strict evidence bundle adds three official sources, no
+  organizations or affiliations, one conflict-visible identity claim, three
+  claim-source links, ten person updates, and ten durable research attempts.
+  Three repeated imports produced identical results. It adds no employer or
+  occupation claim. The 522-page source file's integrity was verified, and
+  page 67 and the relevant fixed-width documentation were visually checked
+  before the conflict decision was recorded. SQLite integrity and foreign-key
+  checks, the deterministic 200-profile audit, all 74 Python tests, the
+  24,421-page build and internal-link check, both public-identifier audits, the
+  zero-vulnerability dependency audit, the focused **3 / 3** desktop, phone,
+  and tablet regression, and the uninterrupted **1,050 / 1,050** complete
+  browser and accessibility matrix pass. Astro reports zero errors, warnings,
+  or hints. Consecutive public, generated-data, and finalized static builds
+  reproduced exactly. All 65 manifest assets match their source and built
+  copies across 79,594,280 bytes; the manifest SHA-256 is
+  `b817e15fa9fb0bbe377a70a79fd955418c9a41648db0dae45f67f2824763685b`.
+  The finalized static-tree digest is
+  `ddad8b84578b7f7154fe3704630c85cf27e013fe15ac67d8f6991d385c6bd870`.
+- After Batch 353, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,315
+  people, or 13.8471% of active entities; 456 people (1.9048%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,268 (13.6508%) have an assessed
+  archival-review disposition, and 20,625 remain `not_started`. The private
+  evidence graph contains 1,291 affiliations, 484 organizations, 3,415
+  sources, 2,612 claims, and 5,897 claim-source links. Claim confidence counts
+  are 776 confirmed, 1,068 high, 659 medium, 48 low, and 61 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,281
+  affiliations, 2,324 sources, and 2,562 published or qualified claims, backed
+  by 1,586 unique source documents. It preserves 226 possible-duplicate groups.
 - Batch 352 covers David W. Campbell through Jay D. Campbell, the next ten
   contiguous personnel rows on PDF page 67, rows 18-27, all indexed in Box
   103. The page was rendered and visually checked. Blank rank and identifier

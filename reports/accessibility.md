@@ -4,10 +4,11 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,047** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.6-minute
-single-worker Batch 352 sweep passed **1,047 / 1,047** without a timeout or
-accessibility failure. The prior 10.9-minute Batch 351 sweep passed **1,044 /
+The expanded release matrix contains **1,050** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.0-minute
+single-worker Batch 353 sweep passed **1,050 / 1,050** without a timeout or
+accessibility failure. The prior 10.6-minute Batch 352 sweep passed **1,047 /
+1,047**, the prior 10.9-minute Batch 351 sweep passed **1,044 /
 1,044**, and the prior 10.0-minute Batch 350 sweep passed **1,041 /
 1,041**, the prior 10.9-minute Batch 349 sweep passed **1,038 / 1,038**, and
 the prior 10.5-minute Batch 348 sweep passed **1,035 / 1,035**.
@@ -31,6 +32,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 353 adds direct-route coverage for Joan C. Campbell through Robert D.
+Campbell on PDF page 67 across Boxes 103-104. It exposes John P. Campbell's
+exact private-identifier conflict without publishing the unrelated Army
+subject; refuses to pad John C. Campbell's seven-digit printed identifier;
+preserves the printed `Lucile` spelling; masks all private identifiers; and
+routes the remaining nine people to archival review. The focused regression
+passed **3 / 3**, and all 27 axe cases passed in the complete **1,050 / 1,050**
+matrix.
 
 Batch 352 adds direct-route coverage for David W. Campbell through Jay D.
 Campbell on PDF page 67 in Box 103. It confirms two exact private-identifier
