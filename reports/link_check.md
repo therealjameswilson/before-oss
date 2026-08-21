@@ -12,8 +12,46 @@ The build includes 23,940 person profiles, 469 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,408 unique external URLs for separate live
+The checker inventoried 49,411 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Seven of Batch 340's eight cited source URLs returned HTTP 200 during targeted
+verification. The Hellenic News Greek Battalion article returned HTTP 403 to
+the automated checker; its stable article URL, byline, publication date,
+unit-history text, and Group VIII roster were reviewed through the accessible
+page/search record, and no access control was bypassed.
+
+## Batch 340 local release check
+
+The complete 24,417-page internal-link pass includes Walter Cabe through
+Howard S. Cady in Box 100 on PDF page 64. Existing routes for the 122nd
+Infantry Battalion (Separate), United States Army, and Northwestern University
+are reused. Four Army-entry occupations remain separate from employers; John
+C. Cacavias's 122nd Infantry Battalion pathway and Dozier C. Cade's Army
+pathway are military affiliations, while Cade's Medill evidence is student
+status. All 74 Python tests plus five subtests, the deterministic 200-profile
+audit, focused three-viewport regression, dependency audit, database integrity
+checks, and public-identifier audit pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,071,727 bytes and has
+SHA-256
+`75cd3a053f29d12f5e4c18d2d29b60fd3842b59659e22f7e693a448256509821`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,487 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, classified two manifest-size coincidences in each tree, and found
+no aggregate or unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`cb53ee1df9dbee4f6111507d55beb5bbe13f1c67a2351df913d6a7bfcd60c71b`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`f6d7b5e63bb1b437c1cf1968e97d72959c071131340156bccacb648ca16c90b4`.
+The complete browser, responsive, and accessibility matrix passed 1,011 /
+1,011 in an uninterrupted 8.8-minute single-worker run across desktop, phone,
+and tablet.
 
 ## Batch 339 local release check
 
@@ -47,6 +85,27 @@ preserves the undigitized Cabaud file as identity evidence only, and keeps six
 unresolved archival paths visible. The complete browser, responsive, and
 accessibility matrix passed 1,008 / 1,008 in an uninterrupted 8.6-minute
 single-worker run.
+
+## Batch 339 production deployment
+
+Release `aa1665a609ffcf55c50c80aa25ea4125d964a6ee` passed pull-request workflow
+[32466733732](https://github.com/therealjameswilson/before-oss/actions/runs/32466733732),
+post-merge test workflow
+[32468385382](https://github.com/therealjameswilson/before-oss/actions/runs/32468385382),
+and Pages workflow
+[32468385348](https://github.com/therealjameswilson/before-oss/actions/runs/32468385348).
+The production audit opened seven core routes and all ten Batch 339 profiles.
+All 17 routes returned HTTP 200 and matched the audited release after
+normalizing only the deployment host and percent-encoding in prefilled
+correction URLs. The live manifest and all 65 listed assets matched the
+release byte for byte across 78,960,439 bytes; the live manifest SHA-256 is
+`6e09759f3c85d418787440ea466bebcc4851a98002319a935e0ae02a9c8d0fad`.
+
+Live statistics exactly reproduced 3,176 attempted people, 452 verified
+affiliations, 193 verified employers, 3,128 archival-review assessments, 2,489
+public claims, and 2,260 public sources. Because every public data asset
+matched the audited release byte for byte, the successful local boundary-aware
+private-identifier result applies unchanged to production.
 
 ## Batch 338 local release check
 

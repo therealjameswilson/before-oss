@@ -7,8 +7,8 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,417 pages**
 - Internal link check: **24,417 HTML files passed**
-- Expanded browser and accessibility matrix: **1,008 / 1,008 passed** in an
-  uninterrupted 8.6-minute single-worker Batch 339 release sweep across
+- Expanded browser and accessibility matrix: **1,011 / 1,011 passed** in an
+  uninterrupted 8.8-minute single-worker Batch 340 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -100,6 +100,31 @@ Run: 2026-08-21 UTC
   backward; qualifies George J. Cabaud from an undigitized British SOE file
   pointer without inventing a predecessor; masks identifiers; and routes six
   unsupported identities to Box 99 or 100 review.
+- Focused Batch 340 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It qualifies Walter Cabe's OSS identity without inventing
+  a predecessor; confirms John C. Cacavias, Vincent E. Caccese, Richard N.
+  Cadman, Eugene J. Cadou Jr., and Howard S. Cady from exact private-
+  identifier Army records while keeping occupations separate from employers;
+  publishes Cacavias's 122nd Infantry Battalion predecessor as a military
+  assignment; separates Dozier C. Cade's Army pathway from Medill student
+  status; masks identifiers; and routes three unresolved profiles to Box 100
+  review.
+- Batch 340 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `cb53ee1df9dbee4f6111507d55beb5bbe13f1c67a2351df913d6a7bfcd60c71b`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `f6d7b5e63bb1b437c1cf1968e97d72959c071131340156bccacb648ca16c90b4`.
+  The complete 24,417-page internal-link check passed and inventoried 49,411
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,071,727 bytes; manifest SHA-256 was
+  `75cd3a053f29d12f5e4c18d2d29b60fd3842b59659e22f7e693a448256509821`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,487 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 1,011-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 339 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `d951a105114c18f607101e5c22426f781f06ca5eae2f698c30e17b5fa2da5811`.
@@ -116,6 +141,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 1,008-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 339 production verification: **passed**. Release
+  `aa1665a609ffcf55c50c80aa25ea4125d964a6ee` passed pull-request workflow
+  [32466733732](https://github.com/therealjameswilson/before-oss/actions/runs/32466733732),
+  post-merge test workflow
+  [32468385382](https://github.com/therealjameswilson/before-oss/actions/runs/32468385382),
+  and Pages workflow
+  [32468385348](https://github.com/therealjameswilson/before-oss/actions/runs/32468385348).
+  Seven core routes and all ten Batch 339 profiles returned HTTP 200 and
+  matched after normalizing only the deployment host and percent-encoding in
+  prefilled correction URLs. All 65 live manifest assets matched byte for byte
+  across 78,960,439 bytes; manifest SHA-256 was
+  `6e09759f3c85d418787440ea466bebcc4851a98002319a935e0ae02a9c8d0fad`.
+  Live coverage exactly reproduced 3,176 attempted people, 452 verified
+  affiliations, 193 verified employers, 3,128 archival assessments, 2,489
+  public claims, and 2,260 public sources.
 - Batch 338 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `a6ee9a50d4106042bd9772dd7dbaf9df4ceb11119ca6d73bfced17ca0ca5c62e`.

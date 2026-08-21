@@ -26875,3 +26875,118 @@ test("Batch 339 preserves occupation, postwar identity, and allied-file qualific
     }
   }
 });
+
+test("Batch 340 separates Army pathways, student status, occupations, and unresolved identities", async ({
+  page,
+}) => {
+  await page.goto("./people/913e0a6b-ec54-5a7c-9b52-e791612d58f4/");
+  await expect(page.getByRole("heading", { name: "Walter Cabe", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••2093");
+  await expect(page.locator("main")).toContainText("TSGT Walter Cabe HQ AND HQ DET OSS");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/09b09b67-b34f-5256-8d99-dca6f0d47662/");
+  await expect(page.getByRole("heading", { name: "John C Cacavias", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••0389");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "122nd Infantry Battalion (Separate)",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Kitchen worker in hotels, restaurants, railroads, steamships, etc., not elsewhere classified",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/88e91994-e6d5-5068-983e-ce40ea56dbeb/");
+  await expect(page.getByRole("heading", { name: "Dozier C Cade", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7844");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Commissioned officer; captain in the OSS index",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Northwestern University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const [personId, name, maskedIdentifier, occupation] of [
+    [
+      "384f8615-e440-5e98-8167-685ea040ab0c",
+      "Vincent E Caccese",
+      "••••4738",
+      "Judge or lawyer",
+    ],
+    [
+      "6166b458-b595-57c3-9f85-e643c6067e3c",
+      "Richard N Cadman",
+      "••••1625",
+      "General industry clerk",
+    ],
+    [
+      "f5b9b34b-c4b0-5b96-be83-f88ba86cb6d7",
+      "Eugene J Cadou Jr.",
+      "••••4191",
+      "Foreman, not elsewhere classified",
+    ],
+    [
+      "e12d3fec-54c5-5884-9d59-4c5935d5d8db",
+      "Howard S Cady",
+      "••••4528",
+      "Author, editor, or reporter",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "strongly date bounded",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const [personId, name] of [
+    ["e0fc66dd-8333-5af7-91bc-34f225a28db2", "F H Cabot"],
+    ["e3622876-3244-58d3-ada9-3b2dc1c013fa", "Marie I Cabrerea"],
+    ["19f3ae0f-e307-5ffb-b0aa-78485f04cf8d", "Arnold Cady"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
