@@ -26609,3 +26609,105 @@ test("Batch 336 separates Buto's Army pathway, bounded occupations, and archival
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 337 preserves Buxton while separating occupation, military, and identity evidence", async ({
+  page,
+}) => {
+  await page.goto("./people/00f34878-5a60-5bdc-8436-ac3e79f5ee66/");
+  await expect(page.getByRole("heading", { name: "Simon Butyter", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••1663");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Machine shop and related occupations, n. e. c.",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/4004a23d-52bc-5ce6-b450-36238827b287/");
+  await expect(page.getByRole("heading", { name: "G E Buxton", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  for (const section of ["immediate-affiliation", "civilian-employer"]) {
+    await expect(
+      page.locator(`section[aria-labelledby="${section}"]`).getByRole("heading", {
+        name: "B. B. & R. Knight Company",
+        exact: true,
+      }),
+    ).toBeVisible();
+  }
+  await expect(page.locator("main")).toContainText("probable immediate");
+
+  await page.goto("./people/ca53095f-d2b8-54cb-8471-fbde8d946aaf/");
+  await expect(page.getByRole("heading", { name: "John F Buzerak", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••1631");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army Signal Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "First lieutenant and communications officer",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Radio technician and instructor in maintenance and operation",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+
+  await page.goto("./people/5d011f76-e5d9-5229-89de-3507fc282ef0/");
+  await expect(page.getByRole("heading", { name: "Herman L Byer", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("high", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7413");
+  await expect(page.locator("main")).toContainText("November 20, 1945");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/2599562a-5a33-5ef4-852b-90d7ab261de1/");
+  await expect(page.getByRole("heading", { name: "Ernest L Byfield Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("high", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••3312");
+  await expect(page.locator("main")).toContainText("probable—but not yet confirmed");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier, priority] of [
+    ["5e61e4f0-19d4-5e26-99ad-07c005ed9da7", "Carl F Butts", null, "high"],
+    ["d3373bff-01aa-504f-9019-d4960b56eb74", "Anna M Buys", null, "high"],
+    ["834c58f7-6b9d-57cb-8046-eefc64a6aea4", "Norman R Bybee", null, "high"],
+    ["5408b2f1-26c5-5262-8aca-b10cf55cf113", "Ida R Byers", null, "high"],
+    ["e7952bf8-ec3d-5396-9d42-cd4bbff69b26", "William E Byers", "••••2077", "critical"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
