@@ -12,11 +12,44 @@ The build includes 23,940 person profiles, 470 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,415 unique external URLs for separate live
+The checker inventoried 49,417 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All four Batch 342 cited source URLs returned HTTP 200 during targeted
-verification. No access control was bypassed.
+All six Batch 343 cited source URLs were accessible during targeted
+verification. Five returned HTTP 200 with an ordinary client request; the U.S.
+War Memorials route returned HTTP 200 when the request used the project's
+identified research user agent. No access control was bypassed.
+
+## Batch 343 local release check
+
+The complete 24,418-page internal-link pass includes Robert M. Calais through
+James D. Calderwood on PDF page 65 in Box 101. Three exact-identifier Army-entry
+occupations remain separate from employers; an undefined occupation code
+remains uninterpreted; the Santro-versus-Santoro Calcara identifier conflict is
+visible without merging subjects; the Morris Calden federal-research lead is
+withheld pending identity and chronology review; and all unsupported identities
+retain archival-review paths. All 74 Python tests, the deterministic
+200-profile audit, focused three-viewport regression, dependency audit,
+database integrity checks, and public-identifier audit pass; Astro reports zero
+errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,213,316 bytes and has
+SHA-256
+`a6208ba14a01a4797a04c7c0b198c6ff302215e087c9c1d61e7aa925de4d1f7a`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,488 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, and found no unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`c5bb50fe49ef33bc4bab038897182e156b579ece509e2243cbc07dfac288312a`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`0892f1949eac1ee3207550c010dabc35ddc874c2b6ba0c5f270f263eef01810e`.
+The complete browser, responsive, and accessibility matrix passed **1,020 /
+1,020** in an uninterrupted 9.8-minute single-worker run across desktop,
+phone, and tablet; the focused Batch 343 regression passed **3 / 3**.
 
 ## Batch 342 local release check
 
@@ -52,6 +85,23 @@ calibration rerun passed 1,016 / 1,017; the retained trace isolated one
 with no network request or console error. That exact phone case then passed 2 /
 2 in 0.8 seconds per run, and the final Batch 342 focused regression passed 3 /
 3.
+
+## Batch 342 production verification
+
+Release `b801ff62adfc14c450c6592806935fd93ca324ba` passed pull-request workflow
+[32480011445](https://github.com/therealjameswilson/before-oss/actions/runs/32480011445),
+post-merge test workflow
+[32481662698](https://github.com/therealjameswilson/before-oss/actions/runs/32481662698),
+and Pages workflow
+[32481662661](https://github.com/therealjameswilson/before-oss/actions/runs/32481662661).
+Seven core routes and all ten Batch 342 person routes returned HTTP 200. The
+live manifest and all 65 assets matched the audited release byte for byte
+across 79,156,920 bytes; manifest SHA-256 was
+`36da0fe2f603c211b3ca9f483f097909d09855c1c142a333188576291126df91`.
+The live statistics reproduced 23,978 source rows, 23,940 active people, 3,206
+research-attempted people, 455 verified affiliations, 194 verified employers,
+3,158 archival-review assessments, 470 public organizations, 1,264 public
+affiliations, 2,516 public claims, and 2,276 public citation records.
 
 ## Batch 341 local release check
 

@@ -7,15 +7,12 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,418 pages**
 - Internal link check: **24,418 HTML files passed**
-- Expanded browser and accessibility matrix: **1,017 / 1,017 passed** in an
-  uninterrupted 11.5-minute single-worker Batch 342 release sweep across
-  desktop, phone, and tablet before the final CIA source-quality calibration.
-  A complete post-calibration rerun passed **1,016 / 1,017**; its trace isolated
-  one 10.6-minute Chromium navigation stall in an unchanged Batch 197 phone
-  profile, with no network request or console error. That exact phone case then
-  passed **2 / 2** in 0.8 seconds per run, and the final Batch 342 focused
-  regression passed **3 / 3**. The 27 axe cases cover representative routes and
-  test for serious or critical accessibility violations. The prior Batch 328
+- Expanded browser and accessibility matrix: **1,020 / 1,020 passed** in an
+  uninterrupted 9.8-minute single-worker Batch 343 release sweep across
+  desktop, phone, and tablet. The 27 axe cases cover representative routes and
+  test for serious or critical accessibility violations. The prior Batch 342
+  run's one traced browser-navigation stall and clean **2 / 2** exact-case
+  rerun, and the prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
   isolated rerun remain documented in its release entry.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
@@ -131,6 +128,31 @@ Run: 2026-08-21 UTC
   run failed only because its expected unresolved-employer wording differed
   from the site's standard sentence; the test expectation was corrected before
   the complete release sweep.
+- Focused Batch 343 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It preserves three exact-identifier Army-entry
+  occupations without inventing employers, leaves an undefined occupation code
+  uninterpreted, exposes the Santro-versus-Santoro Calcara identifier conflict
+  without merging subjects, withholds the Morris Calden federal-research lead
+  pending identity and chronology review, masks private identifiers, and
+  routes unsupported identities to Box 101 review.
+- Batch 343 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `c5bb50fe49ef33bc4bab038897182e156b579ece509e2243cbc07dfac288312a`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `0892f1949eac1ee3207550c010dabc35ddc874c2b6ba0c5f270f263eef01810e`.
+  The complete 24,418-page internal-link check passed and inventoried 49,417
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,213,316 bytes; manifest SHA-256 was
+  `a6208ba14a01a4797a04c7c0b198c6ff302215e087c9c1d61e7aa925de4d1f7a`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,488 built artifacts. The strict
+  evidence bundle passed repeated-import idempotence, SQLite integrity and
+  foreign-key checks; all 74 Python tests, the deterministic 200-profile audit,
+  the complete **1,020 / 1,020** browser/accessibility matrix, the focused
+  **3 / 3** regression, six targeted source checks with an identified project
+  user agent where one repository required it, and a zero-vulnerability
+  production dependency audit passed.
 - Batch 342 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `383b8c624af9320501173605b6459176fd044e439808c3d6e686287b8e524ef4`.
@@ -149,6 +171,21 @@ Run: 2026-08-21 UTC
   source checks, and a zero-vulnerability production dependency audit passed.
   The post-calibration matrix's single browser-navigation stall and clean **2 /
   2** exact-case rerun are documented above rather than hidden.
+- Batch 342 production verification: **passed**. Release
+  `b801ff62adfc14c450c6592806935fd93ca324ba` passed pull-request workflow
+  [32480011445](https://github.com/therealjameswilson/before-oss/actions/runs/32480011445),
+  post-merge test workflow
+  [32481662698](https://github.com/therealjameswilson/before-oss/actions/runs/32481662698),
+  and Pages workflow
+  [32481662661](https://github.com/therealjameswilson/before-oss/actions/runs/32481662661).
+  Seven core routes and all ten Batch 342 profiles returned HTTP 200. The live
+  manifest and all 65 assets matched byte for byte across 79,156,920 bytes,
+  with manifest SHA-256
+  `36da0fe2f603c211b3ca9f483f097909d09855c1c142a333188576291126df91`.
+  Live totals reproduced 3,206 attempted people, 455 verified affiliations,
+  194 verified employers, 3,158 archival-review assessments, 2,516 public
+  claims, 2,276 public sources, 1,264 public affiliations, and 470 public
+  organizations.
 - Batch 341 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `191b568b03e847c5cbfc119bd2af1e13e7ba9880de1764fa1386623b0bf2a0f1`.

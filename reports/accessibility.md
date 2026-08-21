@@ -4,14 +4,12 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,017** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 342 release sweep passed **1,017 / 1,017** in 11.5 minutes
-before the final CIA source-quality calibration. A complete post-calibration
-rerun passed **1,016 / 1,017**; the retained trace isolated a 10.6-minute
-Chromium navigation stall in one unchanged Batch 197 phone profile, with no
-network request or console error. That exact case then passed **2 / 2** in 0.8
-seconds per run, and the final Batch 342 focused regression passed **3 / 3**.
+The expanded release matrix contains **1,020** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The complete
+single-worker Batch 343 release sweep passed **1,020 / 1,020** in 9.8 minutes.
+The prior Batch 342 post-calibration run's one traced Chromium navigation stall
+and clean **2 / 2** exact-case rerun remain documented below rather than
+erased.
 The prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -19,6 +17,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 343 adds a focused direct-route regression for Robert M. Calais through
+James D. Calderwood on PDF page 65. It keeps three exact-identifier Army-entry
+occupations separate from employers; leaves Franklin N. Calderwood's undefined
+occupation code uninterpreted; exposes the Santro-versus-Santoro Calcara
+identifier conflict without merging the records; withholds the Morris Calden
+federal-research lead pending identity and chronology review; masks private
+identifiers; and routes all unsupported identities to Box 101 review. The
+focused regression passed **3 / 3** across desktop, phone, and tablet, and the
+complete release matrix passed **1,020 / 1,020**.
 
 Batch 342 adds a focused direct-route regression for Vittoria G. Cahn through
 Peter M. Calacci on PDF page 65. It confirms Alfred Cahnmann and Salvatore

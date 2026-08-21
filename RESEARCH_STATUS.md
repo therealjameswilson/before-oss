@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,206 people with a non-planned attempt | 23,940 active person entities | 13.3918% |
+| Research-attempt coverage | 3,216 people with a non-planned attempt | 23,940 active person entities | 13.4336% |
 | Verified-affiliation coverage | 455 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9006% |
 | Verified-employer coverage | 194 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8104% |
-| Archival-review coverage | 3,158 people with an individual file-access/priority assessment | 23,940 active person entities | 13.1913% |
+| Archival-review coverage | 3,168 people with an individual file-access/priority assessment | 23,940 active person entities | 13.2331% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 577
+- Identity status `confirmed`: 581
 - Identity status `high_confidence`: 489
-- Identity status `probable`: 108
+- Identity status `probable`: 109
 - Identity status `ambiguous`: 54
-- Identity status `conflicting`: 48
-- Identity status `unresolved`: 22,664
+- Identity status `conflicting`: 49
+- Identity status `unresolved`: 22,658
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,147
-- Enlisted Army personnel: 3,786
+- Unknown or indeterminate: 16,143
+- Enlisted Army personnel: 3,790
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,433 no; 16,287 indeterminate.
+Commissioned classification: 2,220 yes; 5,437 no; 16,283 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,734
+- `not_started`: 20,724
 - `in_progress`: 47
 - `candidate_found`: 1
 - `needs_identity_review`: 80
-- `needs_temporal_review`: 7
+- `needs_temporal_review`: 8
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 486
-- `requires_archival_review`: 2,170
+- `occupation_only_found`: 489
+- `requires_archival_review`: 2,175
 - `completed`: 104
-- `conflicting_sources`: 49
+- `conflicting_sources`: 50
 - `verified_employer_found`: 192
-- Claim confidence: 761 confirmed; 1,057 high; 641 medium; 43 low; 59
+- Claim confidence: 765 confirmed; 1,057 high; 644 medium; 44 low; 60
   conflicting
-- Durable evidence inventory: 3,361 source records representing 1,550 unique
-  documents; 481 organizations; 1,274 affiliations; 2,561 claims; and 5,786
+- Durable evidence inventory: 3,367 source records representing 1,554 unique
+  documents; 481 organizations; 1,277 affiliations; 2,570 claims; and 5,805
   claim-source links
-- Reviewed public projection: 470 organizations; 1,264 published, qualified,
-  or conflict-visible affiliations; 2,516 published, qualified, or
-  conflict-visible claims; and 2,276 public citation records
+- Reviewed public projection: 470 organizations; 1,267 published, qualified,
+  or conflict-visible affiliations; 2,524 published, qualified, or
+  conflict-visible claims; and 2,281 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,220 yes; 5,433 no; 16,287 indeterminate.
   3,000. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,391 across 1,352 people; 135 additional
-  attempts across 122 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,415
+- Saved `source_reviewed` outcomes: 1,395 across 1,356 people; 137 additional
+  attempts across 124 people have a saved `candidate_found` outcome
+- Total recorded attempts/plans: 4,425
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,204; 1,170 have at least one public-visible
+- People with saved reviewed claims: 1,210; 1,175 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5866,8 +5866,57 @@ Commissioned classification: 2,220 yes; 5,433 no; 16,287 indeterminate.
   source checks, and a zero-vulnerability production dependency audit. A full
   post-calibration rerun passed 1,016 / 1,017 after one unchanged Batch 197
   phone route incurred a traced Chromium navigation stall; the exact case then
-  passed 2 / 2. Production deployment verification is recorded in the QA
-  reports when the release reaches GitHub Pages.
+  passed 2 / 2. Pull-request, post-merge test, Pages deployment, route, and
+  byte-for-byte live-asset verification all passed and are recorded in the QA
+  reports.
+- Batch 343 covers Robert M. Calais through James D. Calderwood, the next ten
+  contiguous personnel rows on PDF page 65, all indexed in Box 101. The source
+  page and the relevant official Army occupation-code entries were visually or
+  textually checked. Every printed private identifier remains masked in public
+  outputs.
+
+  NARA's official Army records confirm Robert M. Calais, Joseph M. Calderon,
+  Franklin N. Calderwood, and James D. Calderwood through exact private-
+  identifier agreement. Calais's Army-entry record supports only the broad
+  recreation-or-amusement-attendant group. Calderon's supports the lawyers-
+  and-judges group without distinguishing those professions. James
+  Calderwood's supports unskilled work in aircraft building without naming a
+  manufacturer, plant, trade, or employer. All three are medium-confidence,
+  strongly date-bounded occupations rather than employers or proven immediate
+  pre-OSS roles. Franklin Calderwood's Army record abbreviates the name to F.
+  N. and carries an undefined occupation code, which remains uninterpreted.
+
+  The printed Santro Calcara record presents a serious identity conflict. An
+  official Army record and a University of North Texas Operation Ginny oral-
+  history roster document Santoro Calcara under an identifier differing by one
+  digit from the index. The rare surname, close given-name spelling, and OSS
+  context are suggestive, but they do not justify a merge. The public profile
+  exposes the disagreement while withholding both full identifiers and does
+  not transfer Santoro's occupation or mission biography to Santro.
+
+  An authoritative National Diet Library inventory credits a distinctive-name
+  Morris Calden with Foreign Economic Administration research reports in 1944.
+  Because no source connects that researcher to Box 101 or establishes whether
+  the federal work preceded, overlapped, or followed OSS service, the match
+  remains probable and the FEA lead stays withheld from affiliation analytics.
+  Antonio Calandrelli, Joseph A. Calbrese, Fabio Calcaprina, and Sam Caldarea
+  remain unresolved. Family accounts, spelling variants, postwar records, and
+  an initials-only specialist roster remain research leads rather than facts.
+- Batch 343's strict evidence bundle adds six sources, three affiliations, nine
+  claims, nineteen claim-source links, ten person updates, and ten durable
+  research attempts. It contributes four confirmed identities, three
+  occupation-only results, one conflict-visible identity, one withheld
+  probable identity lead, and five unresolved or archival-review paths without
+  adding an employer. The bundle passed strict schema validation, repeated-
+  import idempotence, SQLite integrity and foreign-key checks, deterministic
+  public export, the deterministic 200-profile audit, all 74 Python tests,
+  Astro diagnostics with zero errors, warnings, or hints, a 24,418-page static
+  build and internal-link check, the focused 3 / 3 regression, the uninterrupted
+  complete 1,020 / 1,020 browser and accessibility matrix, public-identifier
+  audits, consecutive deterministic public and static builds, six targeted
+  source checks, and a zero-vulnerability production dependency audit.
+  Production deployment verification will be recorded in the QA reports when
+  this release reaches GitHub Pages.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's
