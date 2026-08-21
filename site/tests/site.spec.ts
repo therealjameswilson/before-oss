@@ -27343,3 +27343,82 @@ test("Batch 344 separates occupation, student status, identity leads, and unreso
     }
   }
 });
+
+test("Batch 345 preserves official Army evidence, a transposed-name duplicate, and unresolved paths", async ({
+  page,
+}) => {
+  await page.goto("./people/46b024be-efd1-5f23-819b-fdd727acd557/");
+  await expect(page.getByRole("heading", { name: "Robert C Caldwell", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••2255");
+  await expect(page.locator("main")).toContainText("undefined civilian-occupation code");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/e4425dc8-718f-5db3-aa8f-5cf352ff31c4/");
+  await expect(page.getByRole("heading", { name: "Caterino J Califano", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5267");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Packing, filling, labeling, marking, bottling, and related occupation",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/ff77e59e-a889-5aef-8e06-5fad807271ec/");
+  await expect(page.getByRole("heading", { name: "Ancrum Calhoun Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("separate Box 14 row reverses those fields");
+  await expect(page.locator("main")).toContainText("duplicate-");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/f587a8be-f249-5625-8a4a-3f59fa90fefc/");
+  await expect(page.getByRole("heading", { name: "Calhoun Ancrum Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("separately indexed Box 101");
+  await expect(page.locator("main")).toContainText("duplicate-");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Duke University",
+  );
+
+  for (const [personId, name, maskedIdentifier, category] of [
+    ["3b3dcd46-aefc-5f71-a191-5a546dfd69fb", "Robert G Caldwell Jr.", null, null],
+    ["4d019af7-68cb-5568-b70b-676b5b018b28", "Ruth M Caldwell", null, null],
+    ["16ca8a7c-9660-568e-a673-14a92244cda1", "Mollie Calebaugh", null, null],
+    ["0123e2ba-247e-5157-bc9b-e690b63095ff", "Eleanor B Calfee", null, null],
+    [
+      "8365a9ec-10bc-5226-86ff-d2e051aadbed",
+      "David R Calhoun",
+      "••••5488",
+      "commissioned army officer",
+    ],
+    ["9ee216d8-5946-5106-940d-d8a418007876", "John D Calhoun", null, null],
+    ["7c9deee5-4ffd-5a37-af5a-9fbe3f01cbc0", "Grace M Cali", null, null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+    if (category) {
+      await expect(page.getByText(category, { exact: true }).first()).toBeVisible();
+    }
+  }
+});

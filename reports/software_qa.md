@@ -7,11 +7,15 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,419 pages**
 - Internal link check: **24,419 HTML files passed**
-- Expanded browser and accessibility matrix: **1,023 / 1,023 passed** in an
-  uninterrupted 9.8-minute single-worker Batch 344 release sweep across
-  desktop, phone, and tablet. The 27 axe cases cover representative routes and
-  test for serious or critical accessibility violations. The prior Batch 342
-  run's one traced browser-navigation stall and clean **2 / 2** exact-case
+- Expanded browser and accessibility matrix: the 23.0-minute single-worker
+  Batch 345 sweep completed **1,024 / 1,026** cases across desktop, phone, and
+  tablet; two older Batch 223/226 cases timed out without an assertion or axe
+  failure. Their complete six-case, three-viewport isolated rerun passed **6 /
+  6** in 6.8 seconds. The failed-run traces were emitted, but Playwright's
+  default cleanup removed them when the isolated rerun began; the timeout
+  result remains recorded here. The 27 axe cases cover representative routes
+  and test for serious or critical accessibility violations. The prior Batch
+  342 run's one traced browser-navigation stall and clean **2 / 2** exact-case
   rerun, and the prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
   isolated rerun remain documented in its release entry.
@@ -144,6 +148,34 @@ Run: 2026-08-21 UTC
   masks identifiers, and routes six unresolved people to Box 101 review. After
   the citation-author and memorandum-date corrections, the focused regression
   passed again **3 / 3**, and the Sources-page axe check passed **3 / 3**.
+- Focused Batch 345 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Robert C. Caldwell and Caterino J. Califano
+  from exact official Army records while leaving Robert's undefined occupation
+  code uninterpreted and Caterino's packing-related occupation separate from
+  employment. It preserves the transposed Calhoun-Ancrum rows as separate
+  person entities in one visible possible-duplicate group, masks identifiers,
+  retains the earlier Duke student evidence only on the supported Box 14
+  person, and routes seven unresolved identities to Box 101 review.
+- Batch 345 local release verification: **passed with two recorded matrix
+  timeouts and clean isolated reruns**. Consecutive public trees reproduced
+  digest
+  `b98949c9aa3b2d7d1298baa90e1cef2787ce7a8f8c60d57d98c2f9c1eb553095`;
+  generated-data mirrors reproduced
+  `193374235b14766f40332a70ef41d5d5c0024cd0f6e0e5f4ac50d372360255db`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `21a605b9d09722bd654b6a1b95e3bf0c6420f229a29860b7e1e623761c29bd2d`.
+  The complete 24,419-page internal-link check passed and inventoried 49,422
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,286,268 bytes; manifest SHA-256 was
+  `ac22d46e6065c5649f7d1ccafc5f785eb2f0f91a459272196169325e063d40ef`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,489 built artifacts. The strict evidence bundle passed
+  repeated-import idempotence, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the full matrix's **1,024 / 1,026** completed cases plus clean
+  **6 / 6** exact-case rerun, two direct official-source checks, and a zero-
+  vulnerability production dependency audit passed. Remote release workflows
+  are pending.
 - Batch 344 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `b11271e91d203a02010d861e2527e0d8d8a48a691d94859b92f3688ab5218427`.
@@ -162,6 +194,17 @@ Run: 2026-08-21 UTC
   person/organization and Sources accessibility checks, seven direct source-
   endpoint checks plus an independently inspected official CIA document, and
   a zero-vulnerability production dependency audit passed.
+- Batch 344 production verification: **passed**. Release
+  `d547ce0587e5492bcf5ddd23b60de4040301cb1a` passed pull-request workflow
+  [32490044352](https://github.com/therealjameswilson/before-oss/actions/runs/32490044352),
+  post-merge test workflow
+  [32494599433](https://github.com/therealjameswilson/before-oss/actions/runs/32494599433),
+  and Pages workflow
+  [32494599437](https://github.com/therealjameswilson/before-oss/actions/runs/32494599437).
+  Seven core routes and all ten Batch 344 profile routes returned HTTP 200.
+  The live manifest and all 65 assets matched the committed release byte for
+  byte across 79,262,977 bytes; manifest SHA-256 was
+  `bab423a36c6b68df8569471818d9bf2ebd9fbd5655e800092100d92cf5f65c99`.
 - Batch 343 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `c5bb50fe49ef33bc4bab038897182e156b579ece509e2243cbc07dfac288312a`.

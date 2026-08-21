@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:50:06+00:00",
+  "generated_at": "2026-08-21T14:53:54+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,8 +9,8 @@
     "person_entities": 23940,
     "stored_person_entities": 23941,
     "superseded_person_entities": 1,
-    "people_with_nonplanned_attempts": 3226,
-    "percent": 13.4754
+    "people_with_nonplanned_attempts": 3236,
+    "percent": 13.5171
   },
   "verified_affiliation_coverage": {
     "person_entities": 23940,
@@ -24,8 +24,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23940,
-    "people_assessed": 3178,
-    "percent": 13.2749
+    "people_assessed": 3188,
+    "percent": 13.3166
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -33,20 +33,20 @@
     "conflicting_sources": 50,
     "documented_prewar_employer_found": 61,
     "in_progress": 47,
-    "needs_identity_review": 81,
+    "needs_identity_review": 82,
     "needs_temporal_review": 9,
     "no_reliable_result_after_protocol": 9,
-    "not_started": 20714,
-    "occupation_only_found": 491,
-    "requires_archival_review": 2181,
+    "not_started": 20704,
+    "occupation_only_found": 492,
+    "requires_archival_review": 2189,
     "verified_employer_found": 192
   },
   "claim_confidence_counts": {
-    "confirmed": 766,
+    "confirmed": 768,
     "conflicting": 60,
     "high": 1059,
     "low": 45,
-    "medium": 647
+    "medium": 648
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1488,
@@ -54,16 +54,16 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 6,
     "commissioned_naval_officer": 85,
-    "enlisted_army_personnel": 3791,
+    "enlisted_army_personnel": 3793,
     "enlisted_marine_corps_personnel": 3,
     "enlisted_naval_personnel": 64,
     "foreign_or_allied_military_personnel": 250,
     "temporary_contract_or_special_personnel": 3,
-    "unknown_or_indeterminate": 16142,
+    "unknown_or_indeterminate": 16140,
     "warrant_officer": 6
   },
-  "possible_duplicate_groups": 223,
+  "possible_duplicate_groups": 224,
   "conflict_count": 52,
-  "citations": 3375,
+  "citations": 3377,
   "unique_source_documents": 1560
 }

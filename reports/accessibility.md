@@ -4,9 +4,13 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,023** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The complete
-single-worker Batch 344 release sweep passed **1,023 / 1,023** in 9.8 minutes.
+The expanded release matrix contains **1,026** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 23.0-minute
+single-worker Batch 345 sweep completed **1,024 / 1,026**: two older Batch
+223/226 cases timed out without an assertion or axe failure. Their complete
+six-case isolated rerun passed **6 / 6** across all three viewports in 6.8
+seconds. The timeout result remains visible rather than being rewritten as a
+clean uninterrupted pass.
 The prior Batch 342 post-calibration run's one traced Chromium navigation stall
 and clean **2 / 2** exact-case rerun remain documented below rather than
 erased.
@@ -17,6 +21,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 345 adds a focused direct-route regression for Robert C. Caldwell through
+Caterino J. Califano across PDF pages 65-66. It keeps Robert's undefined
+occupation code uninterpreted, keeps Caterino's packing-related occupation
+separate from employment, preserves the Calhoun-Ancrum transposed-name rows as
+separate visible possible duplicates, masks identifiers, and routes seven
+unresolved profiles to Box 101 review. The focused regression passed **3 / 3**
+across desktop, phone, and tablet. All 27 axe cases passed in the complete
+matrix; the two timeouts occurred in older non-axe regression cases and their
+full isolated rerun passed **6 / 6**.
 
 Batch 344 adds a focused direct-route regression for Dale W. Caldwell through
 Oliver J. Caldwell on PDF page 65. It separates Dale's Army-entry occupation,
