@@ -4,10 +4,11 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,071** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.6-minute
-single-worker Batch 355 sweep passed **1,071 / 1,071** without a timeout or
-accessibility failure. The prior 11.0-minute Batch 354 sweep passed **1,059 /
+The expanded release matrix contains **1,083** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.2-minute
+single-worker Batch 356 sweep passed **1,083 / 1,083** without a timeout or
+accessibility failure. The prior 11.6-minute Batch 355 sweep passed **1,071 /
+1,071**, and the prior 11.0-minute Batch 354 sweep passed **1,059 /
 1,059**, and the prior 11.0-minute Batch 353 sweep passed **1,050 /
 1,050**, the prior 10.6-minute Batch 352 sweep passed **1,047 /
 1,047**, the prior 10.9-minute Batch 351 sweep passed **1,044 /
@@ -34,6 +35,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 356 adds direct-route coverage for Michael Candea Jr. through Ward L.
+Canfield on PDF page 68 across Boxes 104-105. It publishes five exact-
+identifier Army-entry identities and their broad occupations, keeps two
+student categories out of employer analytics, preserves Joseph J. Candel's
+indexed spelling while qualifying the identifier-linked `Candela` variant,
+keeps George C. Caner Jr.'s name-only Army match probable and conditional,
+rejects forced padding of Franklin O. Canfield's six-digit identifier, masks
+all private identifiers, and routes unsupported identities to archival review.
+The focused regression passed **12 / 12**, and all 27 axe cases passed in the
+complete **1,083 / 1,083** matrix.
 
 Batch 355 adds direct-route coverage for Betty A. Camper through Courtlandt
 Canby on PDF page 68 and the separately preserved `Canby | Courtlandt` row on
