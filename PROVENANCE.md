@@ -3847,6 +3847,41 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Page-sixty-two Burns through Burrell pathways, Batch 329
+
+`research/evidence-page-sixty-two-olsen-burns-through-robert-burrell-pathways_batch-329_2026-08-20.json`
+records ten Box 95 source rows on PDF page 62: rows 17-25, Olsen D. Burns
+through Morris Burr, and row 27, Robert W. Burrell. Jane Burrell at row 26
+already had a terminal reviewed outcome and was not reprocessed. The page was
+rendered and visually checked at original resolution, and every source row
+remains immutable.
+
+The strict bundle contains four official source inputs, no organization
+inputs, two occupation affiliations, five claims, twelve claim-source links,
+ten person updates, and ten durable research attempts. The NARA OSS index and
+official Army merged file were compared by the documented fixed-width private
+identifier field outside version control. Exact full-name, middle-initial, and
+private-identifier agreement confirms Robert T. Burns, Robert W. Burns, and
+Melvin S. Buros. Robert T.'s November 9, 1942 Army-entry field is decoded by
+NARA's corrected list as “Painters, construction and maintenance”; Robert W.'s
+November 25, 1940 field is decoded as “Commercial artists.” Both are published
+only as medium-confidence, date-bounded occupations. Neither record names an
+employer, workplace, project, client, medium, industry, or sequence into OSS.
+
+Melvin Buros's exact Army record carries occupation code 070, which is
+unassigned in the corrected NARA list; it is not interpreted or published as
+an occupation. Ralph Burns and Morris Burr produced no exact identifier match.
+Robert W. Burrell's printed captain rank is preserved as a commissioned Army
+classification; absence from the enlisted-only Army merged file is expected
+and nondispositive. Olsen D. Burns, Ralph Burns, Robert C. Burns, Rosemary
+Burns, Millman T. Burnside, Morris Burr, and Robert W. Burrell remain unresolved
+after the complete accessible-source protocol and route to Box 95 review.
+Same-name musicians, officers, architects, directory entries, obituaries, and
+other namesakes lacking the index identifier or folder linkage were rejected.
+No authenticated Catalog request, credential, raw Army record, full private
+identifier, unassigned occupation, namesake identity, or unsupported employer
+claim was stored or published.
+
 ## Page-sixty-two Burns pathways and duplicate review, Batch 328
 
 `research/evidence-page-sixty-two-albert-burns-through-marian-burns-pathways_batch-328_2026-08-20.json`

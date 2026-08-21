@@ -15,6 +15,39 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,381 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 329 local release check
+
+The complete 24,411-page internal-link pass includes Olsen D. Burns through
+Robert W. Burrell in Box 95 on PDF page 62, excluding the already reviewed Jane
+Burrell row. All 74 Python tests plus five subtests, the deterministic 200-
+profile audit, focused three-viewport regression, dependency audit, database
+integrity checks, and public-identifier audit pass; Astro reports zero errors,
+warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,382,032 bytes and has
+SHA-256
+`e8e390488648af2896e4aba8f5c9cfce7c8357d1e3e95e9a4dfd327deada2963`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,481 production
+artifacts. It rejected 616 and 1,042 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`c870eea9b9363117fcd8f3e1e835e3f82769b6f2dc4e49976d2a5023ff9de4fe`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`eb15cc05780368bef98c348b1062983f1b9cd559146648a8a002091cae3d3fc9`.
+The regression keeps two official occupation groups separate from employers,
+withholds an unassigned occupation code, preserves the commissioned-officer
+classification, and rejects unsupported namesakes.
+
+The complete Batch 329 browser, responsive, and accessibility matrix passed
+978 / 978 in an uninterrupted 8.7-minute single-worker run across desktop,
+phone, and tablet.
+
 ## Batch 328 local release check
 
 The complete 24,411-page internal-link pass includes Albert V. Burns through
@@ -45,6 +78,23 @@ tree digest
 The regression keeps the identifier conflict and possible-duplicate group
 visible while withholding the unrelated Army subject and unsupported
 employers, affiliations, and occupations.
+
+## Batch 328 production deployment
+
+Release `0eb5b323eb93a2dd4b4d0b6218faaed93032ed1c` passed pull-request workflow
+[32437031383](https://github.com/therealjameswilson/before-oss/actions/runs/32437031383),
+post-merge test workflow
+[32439162550](https://github.com/therealjameswilson/before-oss/actions/runs/32439162550),
+and Pages workflow
+[32439162525](https://github.com/therealjameswilson/before-oss/actions/runs/32439162525).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all eleven Batch 328 profile routes. It downloaded and verified all
+65 release assets across 78,338,010 bytes against manifest SHA-256
+`3ee96f28b7f0314838b84709578d8ca938ee416379a03d98805e26736660e830`.
+The live statistics exactly matched the merged release: 3,068 attempted
+profiles, 446 verified affiliations, 192 verified employers, 3,019 archival
+assessments, 2,424 public claims, and 2,195 public citations. No route, profile,
+asset, statistics, or transport failure was found.
 
 ## Batch 327 local release check
 
