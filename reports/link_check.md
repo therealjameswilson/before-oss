@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-20 UTC
+Run: 2026-08-21 UTC
 
 ## Internal static routes
 
@@ -14,6 +14,38 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 
 The checker inventoried 49,381 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 330 local release check
+
+The complete 24,411-page internal-link pass includes Donald M. Burrhus through
+Edwin B. Burt across Boxes 95-96 on PDF page 62. All 74 Python tests plus five
+subtests, the deterministic 200-profile audit, focused three-viewport
+regression, dependency audit, database integrity checks, and public-identifier
+audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,435,026 bytes and has
+SHA-256
+`1e2c7678040146c8fae8f759fc3896a1a94955b9963290d5e30d88a69f59b3a0`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,481 production
+artifacts. It rejected 614 and 1,039 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`52c594514dd2cedadf57ad26f65714abebe100b8f576b3fec8be0e1536133630`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`8c81d087947ca8796c724d74ec563801477ace9991227c66f7bc65731e7d6cdb`.
+The regression preserves the three bounded official findings, the direct
+identifier conflict, and the six unresolved archival paths without promoting
+an unsupported employer or namesake.
+
+The complete Batch 330 browser, responsive, and accessibility matrix passed
+981 / 981 in an uninterrupted 9.6-minute single-worker run across desktop,
+phone, and tablet.
 
 ## Batch 329 local release check
 

@@ -3847,6 +3847,41 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Page-sixty-two Burrhus through Burt pathways, Batch 330
+
+`research/evidence-page-sixty-two-donald-burrhus-through-edwin-burt-pathways_batch-330_2026-08-21.json`
+records ten contiguous source rows on PDF page 62, from Donald M. Burrhus at
+row 28 through Edwin B. Burt at row 37. The first two rows are in Box 95 and
+the remaining eight are in Box 96. The page was rendered and visually checked
+at original resolution, and every source row remains immutable.
+
+The strict bundle contains four official source inputs, no organization
+inputs, three affiliations, seven claims, seventeen claim-source links, ten
+person updates, and ten durable research attempts. The NARA OSS index and
+official Army merged file were compared by the documented fixed-width private
+identifier field outside version control. Exact name and identifier agreement
+confirms Donald M. Burrhus, John Burriack, and Edwin B. Burt as enlisted Army
+personnel. NARA's corrected occupation list supports Donald's date-bounded
+lithographer occupation, John's student status, and Edwin's date-bounded
+general-industry clerk group. Each is medium-confidence and temporally tied to
+Army entry. None is converted into a named employer, school, industry,
+workplace, product, exact duty, or Army-to-OSS sequence.
+
+Arthur L. Burt's printed identifier resolves to an official Army record for a
+different person. The unrelated subject, raw record, and full identifiers are
+withheld; the public profile records only the direct identity conflict and
+assigns no Army rank, occupation, employer, or chronology. Richard M. Burrill,
+Joseph F. Burrough, Herbert Burrows, Frank L. Bursaw, Noreen R. Burson, and
+Isadore Burstein remain unresolved after the complete accessible-source
+protocol and route to Box 96 review. The Army-file nonmatches for Richard,
+Frank, and Isadore are nondispositive because the series has documented
+omissions and excludes officers. Same-name obituary, broadcasting, directory,
+military, census, cemetery, genealogy, and modern candidates lacking the
+private identifier or folder linkage were rejected. No authenticated Catalog
+request, credential, raw API response, raw Army record, full private
+identifier, unrelated namesake identity, or unsupported employer claim was
+stored or published.
+
 ## Page-sixty-two Burns through Burrell pathways, Batch 329
 
 `research/evidence-page-sixty-two-olsen-burns-through-robert-burrell-pathways_batch-329_2026-08-20.json`

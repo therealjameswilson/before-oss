@@ -26056,3 +26056,77 @@ test("Batch 329 separates exact Burns occupations from unsupported employer and 
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 330 separates Burrhus, Burriack, and Burt status evidence from employers", async ({
+  page,
+}) => {
+  await page.goto("./people/9d064665-ee1a-5e24-b8ff-80307fe46ed0/");
+  await expect(page.getByRole("heading", { name: "Donald M Burrhus", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Lithographer",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("••••3262");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/0633c565-806b-55a5-8412-288acd80ab59/");
+  await expect(page.getByRole("heading", { name: "John Burriack", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Student",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("••••1519");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/7ab1aa99-61d7-5c51-9f99-6716a8ee3764/");
+  await expect(page.getByRole("heading", { name: "Edwin B Burt", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "General industry clerk",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("••••3889");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/a980ee3b-ff2c-57ea-a641-b2efc9a461a9/");
+  await expect(page.getByRole("heading", { name: "Arthur L Burt", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "resolves to an official Army record for a different person",
+  );
+  await expect(page.locator("main")).toContainText("••••0969");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name] of [
+    ["31599b8d-249c-5343-9d1c-5ce99d34a847", "Richard M Burrill"],
+    ["ea3a2dc6-647c-566e-a3e6-1f1e4f9ee811", "Joseph F Burrough"],
+    ["36846e16-0c23-5771-b30e-ad7d5d192cd1", "Herbert Burrows"],
+    ["b9adeb6d-104d-525f-a6a8-100123b93aca", "Frank L Bursaw"],
+    ["db9cb39e-2a8d-58ce-b0c4-838a4de676bd", "Noreen R Burson"],
+    ["3ac7cfd7-deea-564e-84f8-49218f3df2c9", "Isadore Burstein"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

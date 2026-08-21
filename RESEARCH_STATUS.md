@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,078 people with a non-planned attempt | 23,940 active person entities | 12.8571% |
+| Research-attempt coverage | 3,088 people with a non-planned attempt | 23,940 active person entities | 12.8989% |
 | Verified-affiliation coverage | 446 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8630% |
 | Verified-employer coverage | 192 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8020% |
-| Archival-review coverage | 3,029 people with an individual file-access/priority assessment | 23,940 active person entities | 12.6525% |
+| Archival-review coverage | 3,039 people with an individual file-access/priority assessment | 23,940 active person entities | 12.6942% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 548
+- Identity status `confirmed`: 551
 - Identity status `high_confidence`: 483
 - Identity status `probable`: 100
 - Identity status `ambiguous`: 50
-- Identity status `conflicting`: 44
-- Identity status `unresolved`: 22,715
+- Identity status `conflicting`: 45
+- Identity status `unresolved`: 22,711
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,178
-- Enlisted Army personnel: 3,761
+- Unknown or indeterminate: 16,176
+- Enlisted Army personnel: 3,763
 - Commissioned Army officers: 2,097
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,215 yes; 5,407 no; 16,318 indeterminate.
+Commissioned classification: 2,215 yes; 5,409 no; 16,316 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,862
+- `not_started`: 20,852
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 69
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 466
-- `requires_archival_review`: 2,087
+- `occupation_only_found`: 469
+- `requires_archival_review`: 2,093
 - `completed`: 98
-- `conflicting_sources`: 45
+- `conflicting_sources`: 46
 - `verified_employer_found`: 189
-- Claim confidence: 729 confirmed; 1,039 high; 608 medium; 39 low; 55
+- Claim confidence: 732 confirmed; 1,039 high; 611 medium; 39 low; 56
   conflicting
-- Durable evidence inventory: 3,277 source records representing 1,507 unique
-  documents; 474 organizations; 1,235 affiliations; 2,470 claims; and 5,586
+- Durable evidence inventory: 3,281 source records representing 1,508 unique
+  documents; 474 organizations; 1,238 affiliations; 2,477 claims; and 5,603
   claim-source links
-- Reviewed public projection: 463 organizations; 1,225 published, qualified,
-  or conflict-visible affiliations; 2,429 published, qualified, or
-  conflict-visible claims; and 2,199 public citation records
+- Reviewed public projection: 463 organizations; 1,228 published, qualified,
+  or conflict-visible affiliations; 2,436 published, qualified, or
+  conflict-visible claims; and 2,203 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,215 yes; 5,407 no; 16,318 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,797. The detailed adapter breakdown remains reproducible in
+  2,807. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,340 across 1,302 people; 128 additional
+- Saved `source_reviewed` outcomes: 1,351 across 1,313 people; 128 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,285
+- Total recorded attempts/plans: 4,295
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,150; 1,120 have at least one public-visible
+- People with saved reviewed claims: 1,157; 1,127 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,43 @@ Commissioned classification: 2,215 yes; 5,407 no; 16,318 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 330 covers ten contiguous source rows on PDF page 62, from Donald M.
+  Burrhus at row 28 through Edwin B. Burt at row 37. The first two rows are in
+  Box 95 and the remaining eight are in Box 96. The page was rendered and
+  visually checked at original resolution. Fixed-width private-identifier
+  comparison with the official Army merged file confirms Donald M. Burrhus,
+  John Burriack, and Edwin B. Burt as enlisted Army personnel. Donald's April
+  1944 occupation is published as lithographer; John's February 1943 status is
+  published as student; and Edwin's July 1942 occupation is published as the
+  general-industry clerk group. These are medium-confidence, date-bounded
+  occupation or status findings, not employers, and none establishes the
+  sequence into OSS.
+
+  Arthur L. Burt's private index identifier resolves to an official Army
+  record carrying a different name. The unrelated subject and full identifiers
+  remain withheld; the public profile records only the direct identity conflict
+  and assigns no Army rank, occupation, employer, or chronology. Richard M.
+  Burrill, Joseph F. Burrough, Herbert Burrows, Frank L. Bursaw, Noreen R.
+  Burson, and Isadore Burstein remain unresolved and route to Box 96 review.
+  Same-name obituary, broadcasting, directory, military, census, cemetery,
+  genealogy, and modern candidates lacking the private identifier or folder
+  linkage were rejected rather than promoted.
+- Batch 330's strict evidence bundle adds four official source records, no
+  organizations, three affiliations, seven claims, seventeen claim-source
+  links, ten person updates, and ten durable research attempts. It passed
+  schema validation, two-import idempotence against a temporary database,
+  SQLite integrity and foreign-key checks, public-data redaction, all 74 Python
+  tests plus five subtests, the deterministic 200-profile audit, a zero-warning
+  24,411-page production build, and the complete 981 / 981 browser, responsive,
+  and accessibility matrix in an uninterrupted 9.6-minute run. The focused
+  Batch 330 regression passed 3 / 3 across desktop, phone, and tablet. The
+  complete internal-link and zero-vulnerability dependency checks passed;
+  consecutive public-data and production builds were byte-for-byte
+  deterministic. All 65 manifest assets matched across 78,435,026 bytes with
+  manifest SHA-256
+  `1e2c7678040146c8fae8f759fc3896a1a94955b9963290d5e30d88a69f59b3a0`,
+  and the exhaustive public-identifier audit found zero unexpected matches.
+  Deployment results are recorded separately as they complete.
 - Batch 328 is live at the public GitHub Pages site. Merge
   `0eb5b323eb93a2dd4b4d0b6218faaed93032ed1c` passed pull-request workflow
   [32437031383](https://github.com/therealjameswilson/before-oss/actions/runs/32437031383),
