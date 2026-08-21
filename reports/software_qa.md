@@ -237,8 +237,7 @@ Run: 2026-08-21 UTC
   matrix, four direct scripted source checks, and a zero-vulnerability
   production dependency audit. Pages and the independent live-route and byte
   audit passed; the post-merge Test status is recorded below.
-- Batch 347 production verification: **Pages and live audit passed; post-merge
-  Test remains in progress**. Release
+- Batch 347 production verification: **passed**. Release
   `d1b20053cb4534d19bf41e5fc13ce93b3e821ada` passed the pull-request quality
   gate and Pages workflow
   [32509505002](https://github.com/therealjameswilson/before-oss/actions/runs/32509505002).
@@ -249,7 +248,7 @@ Run: 2026-08-21 UTC
   `7011ed743eb8b2ebd27dfdcd01733cf594bbc876816b2e945c8bb22de1dc370e`.
   Post-merge Test workflow
   [32509505018](https://github.com/therealjameswilson/before-oss/actions/runs/32509505018)
-  remains in progress and is not reported as passed.
+  passed, completing the independent release gate.
 - Batch 346 local release verification: **passed with one recorded axe stall
   and a clean isolated rerun**. Consecutive public trees reproduced digest
   `e6a037c2c880265387a408141885641950475c9b609632cdb5882513d3b34c5e`;

@@ -125,7 +125,7 @@ and SHA-256 values across 79,390,754 bytes; manifest SHA-256 was
 `7011ed743eb8b2ebd27dfdcd01733cf594bbc876816b2e945c8bb22de1dc370e`.
 Post-merge Test workflow
 [32509505018](https://github.com/therealjameswilson/before-oss/actions/runs/32509505018)
-remains in progress and is not reported as passed.
+passed, completing the independent release gate.
 
 ## Batch 346 local release check
 

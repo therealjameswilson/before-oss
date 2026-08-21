@@ -6043,7 +6043,7 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   normalization. The live manifest and all 65 assets matched local bytes,
   sizes, and SHA-256 values across 79,390,754 bytes. Post-merge Test workflow
   [32509505018](https://github.com/therealjameswilson/before-oss/actions/runs/32509505018)
-  remains in progress and is not reported as passed.
+  passed, completing the independent release gate.
 - Batch 346 covers Deborah H. Calkins through Malcolm Callanan, the next ten
   contiguous personnel rows on PDF page 66 across Boxes 101-102. The page was
   rendered and visually checked. Full private identifiers remain restricted
