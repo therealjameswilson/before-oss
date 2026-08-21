@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,108 people with a non-planned attempt | 23,940 active person entities | 12.9825% |
+| Research-attempt coverage | 3,118 people with a non-planned attempt | 23,940 active person entities | 13.0242% |
 | Verified-affiliation coverage | 448 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8713% |
 | Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,059 people with an individual file-access/priority assessment | 23,940 active person entities | 12.7778% |
+| Archival-review coverage | 3,069 people with an individual file-access/priority assessment | 23,940 active person entities | 12.8195% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 553
+- Identity status `confirmed`: 554
 - Identity status `high_confidence`: 484
 - Identity status `probable`: 100
-- Identity status `ambiguous`: 50
+- Identity status `ambiguous`: 51
 - Identity status `conflicting`: 47
-- Identity status `unresolved`: 22,706
+- Identity status `unresolved`: 22,704
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,173
-- Enlisted Army personnel: 3,764
+- Unknown or indeterminate: 16,172
+- Enlisted Army personnel: 3,765
 - Commissioned Army officers: 2,098
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,217 yes; 5,410 no; 16,313 indeterminate.
+Commissioned classification: 2,217 yes; 5,411 no; 16,312 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,832
+- `not_started`: 20,822
 - `in_progress`: 48
 - `candidate_found`: 1
-- `needs_identity_review`: 69
+- `needs_identity_review`: 70
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 60
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 469
-- `requires_archival_review`: 2,109
+- `occupation_only_found`: 470
+- `requires_archival_review`: 2,117
 - `completed`: 99
 - `conflicting_sources`: 48
 - `verified_employer_found`: 189
-- Claim confidence: 735 confirmed; 1,043 high; 612 medium; 39 low; 58
+- Claim confidence: 736 confirmed; 1,043 high; 613 medium; 40 low; 58
   conflicting
-- Durable evidence inventory: 3,292 source records representing 1,513 unique
-  documents; 475 organizations; 1,243 affiliations; 2,487 claims; and 5,623
+- Durable evidence inventory: 3,297 source records representing 1,516 unique
+  documents; 475 organizations; 1,244 affiliations; 2,490 claims; and 5,630
   claim-source links
-- Reviewed public projection: 464 organizations; 1,233 published, qualified,
-  or conflict-visible affiliations; 2,446 published, qualified, or
-  conflict-visible claims; and 2,213 public citation records
+- Reviewed public projection: 464 organizations; 1,234 published, qualified,
+  or conflict-visible affiliations; 2,448 published, qualified, or
+  conflict-visible claims; and 2,217 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,217 yes; 5,410 no; 16,313 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,827. The detailed adapter breakdown remains reproducible in
+  2,837. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,354 across 1,316 people; 128 additional
+- Saved `source_reviewed` outcomes: 1,355 across 1,317 people; 129 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,315
+- Total recorded attempts/plans: 4,325
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,162; 1,132 have at least one public-visible
+- People with saved reviewed claims: 1,164; 1,133 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,46 @@ Commissioned classification: 2,217 yes; 5,410 no; 16,313 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 333 covers ten contiguous source rows on PDF page 63, from Billie V.
+  Bush through Davis Bushnell. Billie and F. E. Bush remain in Box 96; the
+  other eight rows are in Box 97. The page was rendered and visually checked
+  at original resolution. Billie retains the printed lieutenant and
+  commissioned Army classifications, while George retains the printed private
+  and enlisted Army classifications.
+
+  Exact private-identifier and name agreement with NARA's official Army merged
+  file confirms Vernon A. Bush and dates his entry as a private to June 12,
+  1942. The official code list decodes his civilian occupation group as
+  `Bakers`. The site publishes that finding only as a medium-confidence,
+  strongly date-bounded occupation: the record names no employer, bakery,
+  workplace, exact specialty, or immediate Army-to-OSS sequence. Exact-name
+  Army candidates for George S., Gordon W., and Howard T. Bush carry different
+  private identifiers and remain rejected namesakes; no exact Stuart D. Bush
+  match was found. The merged file's documented omissions and conversion
+  errors mean those absences are not treated as disproof.
+
+  Princeton's institutional biography documents both Asa S. Bushnell II and
+  his son Asa Bushnell III. Because the no-initial index row supplies no second
+  corroborating identifier, neither namesake is selected. The possible
+  identity remains a withheld low-confidence claim and routes to critical Box
+  97 comparison. Billie V. Bush, F. E. Bush, George S. Bush, Gordon W. Bush,
+  Howard T. Bush, Stuart D. Bush, Bernice D. Bushnell, and Davis Bushnell
+  remain unresolved and route to Box 96 or 97 review. No common-name,
+  relative, later-career, or search-result lead was promoted to a public fact.
+- Batch 333's strict evidence bundle adds five source inputs, no organizations,
+  one qualified occupation affiliation, three claims, seven claim-source
+  links, ten person updates, and ten durable research attempts. It passed
+  schema validation, two-import idempotence against a temporary database,
+  SQLite integrity and foreign-key checks, all 74 Python tests plus five
+  subtests, the deterministic 200-profile audit, public-data redaction, Astro
+  diagnostics with zero errors, warnings, or hints, and the focused 3 / 3
+  browser regression. The uninterrupted browser and accessibility matrix
+  passed 990 / 990 in 8.9 minutes; all 24,412 internal pages passed link
+  checking; and the dependency audit found zero vulnerabilities. Consecutive
+  public-data and finalized static builds reproduced identical digests, all 65
+  manifest assets matched in both public trees across 78,563,762 bytes, and
+  both boundary-aware private-identifier audits found zero unexpected matches.
+  Production-deployment results are recorded separately after merge.
 - Batch 332 covers ten contiguous source rows on PDF page 63, from Robbie
   Burton through Mildred L. Busey. All ten are in Box 96, and the page was
   rendered and visually checked at original resolution. Exact private-
@@ -5569,7 +5609,11 @@ Commissioned classification: 2,217 yes; 5,410 no; 16,313 indeterminate.
   manifest assets matched across 78,508,930 bytes with manifest SHA-256
   `9825530bcdf2397d30a1d61f7c386541e54b320bd97dd19c03c0c5d721d5065e`,
   and the exhaustive public-identifier audit found zero unexpected matches.
-  Deployment results are recorded separately as they complete.
+  Release `fa1009a40049aa13d107f113c9f8269d9965de2d` then passed pull-request,
+  post-merge test, and Pages workflows. A cache-busted production audit
+  matched all seven core routes, all ten Batch 331 profiles, all 65 manifest
+  assets across 78,508,930 bytes, the manifest hash, and exact live coverage
+  statistics with zero failures.
 - Batch 330 covers ten contiguous source rows on PDF page 62, from Donald M.
   Burrhus at row 28 through Edwin B. Burt at row 37. The first two rows are in
   Box 95 and the remaining eight are in Box 96. The page was rendered and

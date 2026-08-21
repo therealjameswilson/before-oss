@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **987** browser, responsive, and
+The expanded release matrix contains **990** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 332 release sweep passed **987 / 987** in 8.8 minutes. The
+single-worker Batch 333 release sweep passed **990 / 990** in 8.9 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 333 adds a focused direct-route regression for Billie V. Bush through
+Davis Bushnell on PDF page 63. It confirms Vernon A. Bush's exact-identifier
+Army entry and qualified baker occupation without turning the occupation into
+an employer; preserves Asa Bushnell's father-and-son namesake ambiguity while
+withholding the low-confidence candidate claim; retains Billie's printed
+lieutenant and George's printed private classifications; masks private
+identifiers; and routes the remaining unsupported profiles to Box 96 or 97
+review. The focused regression passed **3 / 3** across desktop, phone, and
+tablet.
 
 Batch 332 adds a focused direct-route regression for Robbie Burton through
 Mildred L. Busey on PDF page 63. It exposes the James C. Burwell and Watson B.

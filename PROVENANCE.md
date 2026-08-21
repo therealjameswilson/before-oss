@@ -3847,6 +3847,46 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Page-sixty-three Bush through Bushnell pathways, Batch 333
+
+`research/evidence-page-sixty-three-billie-bush-through-davis-bushnell-pathways_batch-333_2026-08-21.json`
+records ten contiguous source rows on PDF page 63, from Billie V. Bush through
+Davis Bushnell. Billie and F. E. Bush are in Box 96; George S. Bush through
+Davis Bushnell are in Box 97. The page was rendered and visually checked at
+original resolution, and every source row remains immutable. The strict bundle
+contains five source inputs, no organization inputs, one qualified occupation
+affiliation, three claims, seven claim-source links, ten person updates, and ten
+durable research attempts.
+
+The NARA OSS index, official Army merged file, official technical
+documentation, and official occupation code list were compared outside version
+control. Exact private-identifier and name agreement confirms Vernon A. Bush,
+dates Army entry as a private to June 12, 1942, and records civilian occupation
+code 401. NARA's code list decodes 401 as the broad `Bakers` group. That finding
+is published only as a medium-confidence, strongly date-bounded occupation. It
+does not name an employer, bakery, workplace, exact specialty, or immediate
+Army-to-OSS pathway. Billie V. Bush retains the index's lieutenant and
+commissioned Army classifications, and George S. Bush retains the index's
+private and enlisted Army classifications without borrowing any namesake's
+record.
+
+Exact-name Army records for George S., Gordon W., and Howard T. Bush carry
+different private identifiers and remain rejected namesakes. Stuart D. Bush
+has no exact processed-file name match. The technical documentation identifies
+missing ranges and conversion errors, so absence from the merged file is not
+treated as disproof. An official Princeton institutional biography documents
+Asa S. Bushnell II and his son Asa Bushnell III. The no-initial index row cannot
+be assigned between them without a second corroborating identifier, so the
+candidate identity is preserved as a withheld low-confidence claim requiring
+critical Box 97 comparison. Billie V. Bush, F. E. Bush, George S. Bush, Gordon
+W. Bush, Howard T. Bush, Stuart D. Bush, Bernice D. Bushnell, and Davis
+Bushnell remain unresolved and route to Box 96 or 97 review.
+
+No authenticated Catalog request, credential, raw API response, raw Army
+record, full private identifier, copyrighted source page, unrelated namesake
+detail, relative-derived claim, postwar employer substitution, or unsupported
+employer claim was stored or published.
+
 ## Page-sixty-three Burton through Busey pathways, Batch 332
 
 `research/evidence-page-sixty-three-robbie-burton-through-mildred-busey-pathways_batch-332_2026-08-21.json`
