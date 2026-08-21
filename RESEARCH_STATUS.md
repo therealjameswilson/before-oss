@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,166 people with a non-planned attempt | 23,940 active person entities | 13.2247% |
+| Research-attempt coverage | 3,176 people with a non-planned attempt | 23,940 active person entities | 13.2665% |
 | Verified-affiliation coverage | 452 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8881% |
 | Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,118 people with an individual file-access/priority assessment | 23,940 active person entities | 13.0242% |
+| Archival-review coverage | 3,128 people with an individual file-access/priority assessment | 23,940 active person entities | 13.0660% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 566
-- Identity status `high_confidence`: 485
-- Identity status `probable`: 105
+- Identity status `confirmed`: 568
+- Identity status `high_confidence`: 486
+- Identity status `probable`: 106
 - Identity status `ambiguous`: 54
 - Identity status `conflicting`: 48
-- Identity status `unresolved`: 22,682
+- Identity status `unresolved`: 22,678
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,159
-- Enlisted Army personnel: 3,774
+- Unknown or indeterminate: 16,157
+- Enlisted Army personnel: 3,776
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,421 no; 16,299 indeterminate.
+Commissioned classification: 2,220 yes; 5,423 no; 16,297 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,774
+- `not_started`: 20,764
 - `in_progress`: 47
 - `candidate_found`: 1
-- `needs_identity_review`: 77
+- `needs_identity_review`: 78
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 478
-- `requires_archival_review`: 2,145
-- `completed`: 103
+- `occupation_only_found`: 479
+- `requires_archival_review`: 2,152
+- `completed`: 104
 - `conflicting_sources`: 49
 - `verified_employer_found`: 189
-- Claim confidence: 750 confirmed; 1,048 high; 629 medium; 43 low; 59
+- Claim confidence: 752 confirmed; 1,049 high; 631 medium; 43 low; 59
   conflicting
-- Durable evidence inventory: 3,338 source records representing 1,537 unique
-  documents; 480 organizations; 1,261 affiliations; 2,529 claims; and 5,723
+- Durable evidence inventory: 3,344 source records representing 1,540 unique
+  documents; 480 organizations; 1,262 affiliations; 2,534 claims; and 5,733
   claim-source links
-- Reviewed public projection: 469 organizations; 1,251 published, qualified,
-  or conflict-visible affiliations; 2,484 published, qualified, or
-  conflict-visible claims; and 2,255 public citation records
+- Reviewed public projection: 469 organizations; 1,252 published, qualified,
+  or conflict-visible affiliations; 2,489 published, qualified, or
+  conflict-visible claims; and 2,260 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,220 yes; 5,421 no; 16,299 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,960. The detailed adapter breakdown remains reproducible in
+  2,970. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,368 across 1,329 people; 135 additional
+- Saved `source_reviewed` outcomes: 1,376 across 1,337 people; 135 additional
   attempts across 122 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,375
+- Total recorded attempts/plans: 4,385
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,186; 1,152 have at least one public-visible
+- People with saved reviewed claims: 1,190; 1,156 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5678,6 +5678,53 @@ Commissioned classification: 2,220 yes; 5,421 no; 16,299 indeterminate.
   a zero-vulnerability production dependency audit. Production deployment
   verification is recorded in the QA reports when the release reaches GitHub
   Pages.
+- Batch 339 covers the next ten rows on PDF page 64, from John J. Byrne Jr.
+  through George J. Cabaud. The first nine rows are in Box 99 and Cabaud is in
+  Box 100. The page was rendered and checked at original resolution, and the
+  cohort's four printed private identifiers remain masked in every public
+  output.
+
+  Exact full-name and private-identifier agreement with NARA's official Army
+  merged file confirms William J. Byrne and Joseph C. Bysarovich as privates
+  entering the Army in 1942. The official occupation list decodes William's
+  code 064 as surveyor. It is published as a medium-confidence, strongly date-
+  bounded occupation, not a named employer or proven immediate OSS
+  predecessor. Joseph's record carries an unassigned occupation value; the
+  project does not guess an occupation or expand an unverified branch code.
+
+  A visually checked January 1957 official Army journal identifies the rare
+  exact-name candidate Captain Stephen J. Byzek. Because the article is
+  postwar and supplies no OSS reference, private identifier, birth date, or
+  Box 99 link, the identity remains probable. The 1957 rank is not projected
+  backward into wartime commissioned status, and the journal's judo context
+  is not represented as pre-OSS employment.
+
+  The British National Archives catalogue identifies a person-specific
+  1939-1946 SOE personnel file for George John Cabaud, matching the indexed
+  distinctive surname, first name, and middle initial. That supports a high-
+  confidence identity, but the file is not digitized and its short catalogue
+  description does not establish a pre-OSS employer, nationality, rank, or
+  SOE-to-OSS sequence. Box 100 and British file HS 9/252/2 remain the required
+  direct review targets.
+
+  John J. Byrne Jr., Joseph J. Byrne, Robert F. Byrne, William E. Byrne, Lewis
+  H. Byrns, and Martha A. Bystrom remain unresolved. Common-name military,
+  obituary, directory, genealogy, and modern candidates were rejected rather
+  than promoted. No namesake profession, relative, residence, employer, or
+  biography is transferred to an index row.
+- Batch 339's strict evidence bundle adds six sources, one affiliation, five
+  claims, ten claim-source links, ten person updates, and ten durable research
+  attempts. It adds no organization or employer. The bundle passed strict
+  schema validation, two-import idempotence against an isolated database copy,
+  durable SQLite integrity and foreign-key checks, deterministic public export,
+  the 200-profile audit, all 74 Python tests plus five subtests, Astro
+  diagnostics with zero errors, warnings, or hints, a 24,417-page static build,
+  the focused 3 / 3 desktop, phone, and tablet regression, the 24,417-page link
+  check, the complete 1,008 / 1,008 browser, responsive, and accessibility
+  matrix, public-identifier audits, consecutive deterministic public and static
+  builds, and a zero-vulnerability production dependency audit. Production
+  deployment verification is recorded in the QA reports when the release
+  reaches GitHub Pages.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's
@@ -6418,6 +6465,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-four-john-byrne-jr-through-george-cabaud-pathways_batch-339_2026-08-21.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-twenty-eight-and-fifty-eight-beck-brunner-through-bruskin-pathways_batch-310_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-and-fifty-eight-brooker-through-brunner-pathways_batch-309_2026-08-19.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-fifty-three-arne-brogger-through-elizabeth-brooke-pathways_batch-308_2026-08-19.json

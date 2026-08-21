@@ -26797,3 +26797,81 @@ test("Batch 338 separates student status, occupations, and qualified identities"
     }
   }
 });
+
+test("Batch 339 preserves occupation, postwar identity, and allied-file qualifications", async ({
+  page,
+}) => {
+  await page.goto("./people/489b6c31-95f3-5296-8dda-a2c17f26de58/");
+  await expect(page.getByRole("heading", { name: "William J Byrne", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5293");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Surveyor",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/dabd9f58-5991-5176-bf21-ddb2af7ac570/");
+  await expect(
+    page.getByRole("heading", { name: "Joseph C Bysarovich", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••0506");
+  await expect(page.locator("main")).toContainText("September 16, 1942");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/673ab50c-fee5-596a-b322-6dbde3c72933/");
+  await expect(page.getByRole("heading", { name: "Stephen Byzek", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5520");
+  await expect(page.locator("main")).toContainText("Captain Stephen J. Byzek");
+  await expect(page.locator("main")).toContainText("do not project the 1957 captain title backward");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/eab59e68-c0a1-59a6-bbad-f95afef0953b/");
+  await expect(page.getByRole("heading", { name: "George J Cabaud", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("George John Cabaud");
+  await expect(page.locator("main")).toContainText("HS 9/252/2");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier, priority] of [
+    ["eee857e4-31dd-5bae-bea1-662079a971b3", "John J Byrne Jr.", "••••4004", "critical"],
+    ["4faaae21-390f-52c3-aa57-d31c003119ed", "Joseph J Byrne", null, "high"],
+    ["65656517-955b-525f-a4bc-ecb773c62284", "Robert F Byrne", null, "high"],
+    ["c2bb3650-e038-5f75-badb-0615dbd2d29b", "William E Byrne", null, "high"],
+    ["9302f237-5aa6-5e97-985a-1ce2b1c19e05", "Lewis H Byrns", null, "high"],
+    ["051ba012-5293-5b84-8284-fc2ceca32511", "Martha A Bystrom", null, "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});

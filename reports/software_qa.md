@@ -7,8 +7,8 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,417 pages**
 - Internal link check: **24,417 HTML files passed**
-- Expanded browser and accessibility matrix: **1,005 / 1,005 passed** in an
-  uninterrupted 8.5-minute single-worker Batch 338 release sweep across
+- Expanded browser and accessibility matrix: **1,008 / 1,008 passed** in an
+  uninterrupted 8.6-minute single-worker Batch 339 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -92,6 +92,30 @@ Run: 2026-08-21 UTC
   exact private identifiers while keeping broad occupations separate from
   employers; qualifies Westwood B. Byrd; masks identifiers; and routes six
   unsupported identities to Box 98 or 99 review.
+- Focused Batch 339 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms William J. Byrne's exact Army identity and
+  surveyor occupation without inventing an employer; confirms Joseph C.
+  Bysarovich while leaving an unassigned code uninterpreted; qualifies Stephen
+  Byzek's postwar Army identity without projecting commissioned status
+  backward; qualifies George J. Cabaud from an undigitized British SOE file
+  pointer without inventing a predecessor; masks identifiers; and routes six
+  unsupported identities to Box 99 or 100 review.
+- Batch 339 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `d951a105114c18f607101e5c22426f781f06ca5eae2f698c30e17b5fa2da5811`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `dff0b9a94cb1880db507bd479e3860f7cf0aa6e8ca4ecea986a1000949a34fd9`.
+  The complete 24,417-page internal-link check passed and inventoried 49,408
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,960,439 bytes; manifest SHA-256 was
+  `6e09759f3c85d418787440ea466bebcc4851a98002319a935e0ae02a9c8d0fad`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,487 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 1,008-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 338 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `a6ee9a50d4106042bd9772dd7dbaf9df4ceb11119ca6d73bfced17ca0ca5c62e`.
@@ -124,6 +148,19 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 1,002-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 337 production verification: **passed**. Release
+  `c986e6a5a1a77b2021bb9a1bca715a511edcef07` passed pull-request workflow
+  [32461808958](https://github.com/therealjameswilson/before-oss/actions/runs/32461808958),
+  post-merge test workflow
+  [32463230296](https://github.com/therealjameswilson/before-oss/actions/runs/32463230296),
+  and Pages workflow
+  [32463230274](https://github.com/therealjameswilson/before-oss/actions/runs/32463230274).
+  All 17 live routes and 65 manifest assets matched the deployed artifact
+  byte-for-byte across 78,859,121 bytes; manifest SHA-256 was
+  `cd65be0a284f96ba6863aa7a3daef667a56de330ada0c227affeaa7bcee9cf90`.
+  Live coverage exactly reproduced 3,156 attempted people, 451 verified
+  affiliations, 193 verified employers, 3,108 archival assessments, 2,477
+  public claims, and 2,248 public sources.
 - Batch 336 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `b72dac4cc6bb0fe0bbb58360e192928af382b0e56395e972579e24a863fccac8`.
