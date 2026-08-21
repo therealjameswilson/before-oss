@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,417 pages**
-- Internal link check: **24,417 HTML files passed**
-- Expanded browser and accessibility matrix: **1,011 / 1,011 passed** in an
-  uninterrupted 8.8-minute single-worker Batch 340 release sweep across
+- Static production build: **24,418 pages**
+- Internal link check: **24,418 HTML files passed**
+- Expanded browser and accessibility matrix: **1,014 / 1,014 passed** in an
+  uninterrupted 10.2-minute single-worker Batch 341 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -109,6 +109,30 @@ Run: 2026-08-21 UTC
   assignment; separates Dozier C. Cade's Army pathway from Medill student
   status; masks identifiers; and routes three unresolved profiles to Box 100
   review.
+- Focused Batch 341 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes John F. Cady's Franklin College employment
+  as his explicit-immediate pre-OSS affiliation and last civilian employer;
+  keeps George A. Cafiero's motor-vehicle mechanic group separate from
+  employment; confirms John A. Cahill while leaving an unassigned code
+  uninterpreted; withholds Alessandro Cagiati's different-identifier Army
+  namesake; qualifies Rolf Cahn's identity; masks private identifiers; and
+  routes unresolved profiles to Box 100 review.
+- Batch 341 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `191b568b03e847c5cbfc119bd2af1e13e7ba9880de1764fa1386623b0bf2a0f1`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `658fca8043b957d58697a586695f1bf0fec7fa59c966c50932c8b569b654af0a`.
+  The complete 24,418-page internal-link check passed and inventoried 49,414
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,121,229 bytes; manifest SHA-256 was
+  `34cc98b068883b04a4decfd36bc1140a74db91330fb27b935b2d588b4c6687ad`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,488 built artifacts. The strict
+  evidence bundle passed repeated-import idempotence, SQLite integrity and
+  foreign-key checks; all 74 Python tests plus five subtests, the deterministic
+  200-profile audit, the complete 1,014-case browser/accessibility matrix, and
+  a zero-vulnerability production dependency audit passed.
 - Batch 340 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `cb53ee1df9dbee4f6111507d55beb5bbe13f1c67a2351df913d6a7bfcd60c71b`.
@@ -125,6 +149,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 1,011-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 340 production verification: **passed**. Release
+  `68384d2439ce17c81b53eed85f440eb03b6dd5c5` passed pull-request workflow
+  [32469951093](https://github.com/therealjameswilson/before-oss/actions/runs/32469951093),
+  post-merge test workflow
+  [32472448863](https://github.com/therealjameswilson/before-oss/actions/runs/32472448863),
+  and Pages workflow
+  [32472448843](https://github.com/therealjameswilson/before-oss/actions/runs/32472448843).
+  Seven core routes and all ten Batch 340 profiles returned HTTP 200 and
+  matched after normalizing only the deployment host and percent-encoding in
+  prefilled correction URLs. All 65 live manifest assets matched byte for byte
+  across 79,071,727 bytes; manifest SHA-256 was
+  `75cd3a053f29d12f5e4c18d2d29b60fd3842b59659e22f7e693a448256509821`.
+  Live coverage exactly reproduced 3,186 attempted people, 454 verified
+  affiliations, 193 verified employers, 3,138 archival assessments, 2,504
+  public claims, and 2,267 public sources.
 - Batch 339 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `d951a105114c18f607101e5c22426f781f06ca5eae2f698c30e17b5fa2da5811`.

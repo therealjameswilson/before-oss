@@ -4,22 +4,51 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,417 HTML files. Every relative
+**PASS.** The production build contains 24,418 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 469 organization profiles, and the
+The build includes 23,940 person profiles, 470 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,411 unique external URLs for separate live
+The checker inventoried 49,414 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-Seven of Batch 340's eight cited source URLs returned HTTP 200 during targeted
-verification. The Hellenic News Greek Battalion article returned HTTP 403 to
-the automated checker; its stable article URL, byline, publication date,
-unit-history text, and Group VIII roster were reviewed through the accessible
-page/search record, and no access control was bypassed.
+All five Batch 341 cited source URLs returned HTTP 200 during targeted
+verification. No access control was bypassed.
+
+## Batch 341 local release check
+
+The complete 24,418-page internal-link pass includes John F. Cady through Rolf
+Cahn across PDF pages 64-65 in Box 100. A new Franklin College organization
+route supports Cady's explicit-immediate employment. George A. Cafiero's
+occupation remains separate from employment; John A. Cahill's unassigned code
+remains uninterpreted; Alessandro Cagiati's different-identifier Army namesake
+is withheld; Rolf Cahn's identity remains qualified; and all unresolved paths
+remain visible. All 74 Python tests plus five subtests, the deterministic
+200-profile audit, focused three-viewport regression, dependency audit,
+database integrity checks, and public-identifier audit pass; Astro reports zero
+errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,121,229 bytes and has
+SHA-256
+`34cc98b068883b04a4decfd36bc1140a74db91330fb27b935b2d588b4c6687ad`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,488 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, classified two manifest-size coincidences in each tree, and found
+no aggregate or unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`191b568b03e847c5cbfc119bd2af1e13e7ba9880de1764fa1386623b0bf2a0f1`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`658fca8043b957d58697a586695f1bf0fec7fa59c966c50932c8b569b654af0a`.
+The complete browser, responsive, and accessibility matrix passed 1,014 /
+1,014 in an uninterrupted 10.2-minute single-worker run across desktop, phone,
+and tablet.
 
 ## Batch 340 local release check
 
@@ -52,6 +81,27 @@ tree digest
 The complete browser, responsive, and accessibility matrix passed 1,011 /
 1,011 in an uninterrupted 8.8-minute single-worker run across desktop, phone,
 and tablet.
+
+## Batch 340 production deployment
+
+Release `68384d2439ce17c81b53eed85f440eb03b6dd5c5` passed pull-request workflow
+[32469951093](https://github.com/therealjameswilson/before-oss/actions/runs/32469951093),
+post-merge test workflow
+[32472448863](https://github.com/therealjameswilson/before-oss/actions/runs/32472448863),
+and Pages workflow
+[32472448843](https://github.com/therealjameswilson/before-oss/actions/runs/32472448843).
+The production audit opened seven core routes and all ten Batch 340 profiles.
+All 17 routes returned HTTP 200 and matched the audited release after
+normalizing only the deployment host and percent-encoding in prefilled
+correction URLs. The live manifest and all 65 listed assets matched the
+release byte for byte across 79,071,727 bytes; the live manifest SHA-256 is
+`75cd3a053f29d12f5e4c18d2d29b60fd3842b59659e22f7e693a448256509821`.
+
+Live statistics exactly reproduced 3,186 attempted people, 454 verified
+affiliations, 193 verified employers, 3,138 archival-review assessments, 2,504
+public claims, and 2,267 public sources. Because every public data asset
+matched the audited release byte for byte, the successful local boundary-aware
+private-identifier result applies unchanged to production.
 
 ## Batch 339 local release check
 

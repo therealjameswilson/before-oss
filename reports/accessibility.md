@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,011** browser, responsive, and
+The expanded release matrix contains **1,014** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 340 release sweep passed **1,011 / 1,011** in 8.8 minutes. The
+single-worker Batch 341 release sweep passed **1,014 / 1,014** in 10.2 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 341 adds a focused direct-route regression for John F. Cady through
+Rolf Cahn across PDF pages 64-65. It publishes Cady's Franklin College
+employment as both his explicit-immediate pre-OSS affiliation and last civilian
+employer; keeps George A. Cafiero's motor-vehicle mechanic group as an
+occupation rather than an employer; confirms John A. Cahill without decoding
+an unassigned occupation code; withholds Alessandro Cagiati's different-
+identifier Army namesake; qualifies Rolf Cahn's identity; masks private
+identifiers; and routes unresolved profiles to Box 100 review. The focused
+regression passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 340 adds a focused direct-route regression for Walter Cabe through
 Howard S. Cady on PDF page 64. It qualifies Walter Cabe's person-specific OSS
