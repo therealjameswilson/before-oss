@@ -25939,3 +25939,54 @@ test("Batch 327 separates student, military, employer, occupation, and archival 
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 328 preserves the Burns identifier conflict, duplicate rows, and archival limits", async ({
+  page,
+}) => {
+  await page.goto("./people/856c5508-c8c9-581e-a75c-c1c31712371c/");
+  await expect(page.getByRole("heading", { name: "Frank G Burns", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("resolves to an official Army record for a different person");
+  await expect(page.locator("main")).toContainText("unrelated name and identifier are withheld");
+  await expect(page.locator("main")).toContainText("••••9616");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const personId of [
+    "3f599ee6-7872-57f6-8ef9-3d3ccb782e54",
+    "fcbc7556-b9f2-5147-b26b-fe3db4261b21",
+  ]) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name: "Marian H Burns", exact: true })).toBeVisible();
+    await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("duplicate-4039607f92cd");
+    await expect(page.locator("main")).toContainText("remain separate source records and person entities");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  }
+
+  for (const [personId, name] of [
+    ["29e81a21-7396-5835-803d-2bb07d59b675", "Albert V Burns"],
+    ["3723e2fd-e766-56b7-95e6-4490448950cd", "Arvin Burns"],
+    ["6694e83b-a173-51c1-aae6-2199a7c6a50b", "Catherine E Burns"],
+    ["8a3d4cf5-93a4-5e5f-9474-cf976c0403bb", "Erna J Burns"],
+    ["d55dc32d-6c83-564e-854a-887b50024bfe", "Gerald E Burns"],
+    ["78791a5f-febc-5b3c-87c0-a19fb0613779", "Helen S Burns"],
+    ["dd97a4f7-9c54-5e7a-ad36-a76c14b7470e", "Janet T Burns"],
+    ["43c03097-a5aa-5af9-b903-47ec456607c5", "Margaret M Burns"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/d55dc32d-6c83-564e-854a-887b50024bfe/");
+  await expect(page.locator("main")).toContainText("••••6244");
+});

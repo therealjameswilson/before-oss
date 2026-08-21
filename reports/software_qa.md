@@ -7,16 +7,37 @@ Run: 2026-08-20 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,411 pages**
 - Internal link check: **24,411 HTML files passed**
-- Expanded browser and accessibility matrix: **969 / 972 passed** in a 1.1-hour
-  single-worker sweep across desktop, phone, and tablet. Three tablet cases
-  ended in infrastructure timeouts rather than assertion failures; a fresh-
-  process rerun passed those exact cases **3 / 3** in 15.5 seconds. The 27 axe
-  cases cover representative routes and test for serious or critical
-  accessibility violations.
+- Expanded browser and accessibility matrix: **967 / 975 passed** in a 1.94-
+  hour single-worker sweep across desktop, phone, and tablet. Eight late-run
+  cases ended in browser-session or teardown timeouts rather than completed
+  assertion failures; a fresh-process rerun passed those exact cases **8 / 8**
+  in 24.0 seconds. The 27 axe cases cover representative routes and test for
+  serious or critical accessibility violations.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
   distinct lanes for the ten Burnet-through-Burnham profiles.
+- Focused Batch 328 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet after a test-only masked-suffix typo was corrected to the
+  visually checked PDF value. It publishes Frank G. Burns's identity conflict
+  without the unrelated Army subject, preserves both Marian H. Burns rows in a
+  visible possible-duplicate group, and routes eight unresolved profiles to
+  Box 95 without inventing employers or affiliations.
+- Batch 328 local release verification: **passed**. Two consecutive public-
+  data builds reproduced sorted path-and-file-SHA-256 digest
+  `d283ea779953c888edd95c7df77f3fc3cf139690aef436b9f88fb76d1baab31f`.
+  Two consecutive finalized production builds reproduced complete static-tree
+  digest
+  `94d9bedf16eb3d58fb8c447a6537e07afbb720392c7599a1a86d0e7f3b02e02c`.
+  The complete 24,411-page internal-link check passed and inventoried 49,381
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,338,010 bytes; manifest SHA-256 was
+  `3ee96f28b7f0314838b84709578d8ca938ee416379a03d98805e26736660e830`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,481 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity, and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, and a zero-vulnerability production dependency audit passed.
 - Batch 327 local release verification: **passed**. Two consecutive public-
   data builds reproduced sorted path-and-file-SHA-256 digest
   `83093fa3aab2c9d3364e6525b8b89416ae27998a9183316e5f2b9d993de4404f`.
@@ -32,6 +53,21 @@ Run: 2026-08-20 UTC
   evidence bundle passed two-import idempotence, SQLite integrity, and foreign-
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, and a zero-vulnerability production dependency audit passed.
+- Batch 327 production verification: **passed**. Release
+  `6cf635046d1127e20ae2d3e364a93f40af0236fe` passed pull-request workflow
+  [32333070688](https://github.com/therealjameswilson/before-oss/actions/runs/32333070688),
+  post-merge test workflow
+  [32335571619](https://github.com/therealjameswilson/before-oss/actions/runs/32335571619),
+  and Pages workflow
+  [32335571656](https://github.com/therealjameswilson/before-oss/actions/runs/32335571656).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 327 profiles. All 65 live assets matched the
+  merged manifest across 78,321,303 bytes; its SHA-256 was
+  `33fdea8ef5db0de4fd891f8ff3257fbff16af81ecc2f366cc55d3b1604e96ed4`.
+  The deployed site reported exactly 3,057 attempted profiles, 446 verified
+  affiliations, 192 verified employers, 3,008 archival assessments, 2,423
+  public claims, and 2,193 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Focused Batch 326 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It publishes two qualified electrical-manufacturing
   occupation groups, leaves Lowell Burmaster's unassigned code unpublished,

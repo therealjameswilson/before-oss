@@ -3847,6 +3847,39 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Page-sixty-two Burns pathways and duplicate review, Batch 328
+
+`research/evidence-page-sixty-two-albert-burns-through-marian-burns-pathways_batch-328_2026-08-20.json`
+records eleven contiguous Box 95 source rows on PDF page 62, from Albert V.
+Burns through the second of two adjacent Marian H. Burns rows. The page was
+rendered and visually checked at original resolution. All eleven rows remain
+immutable and linked to separate cautious person entities, including both
+visually identical Marian entries.
+
+The strict bundle contains two official source inputs, no organization or
+affiliation inputs, one conflict-visible identity claim, two claim-source
+links, eleven person updates, and eleven durable research attempts. The NARA
+OSS index and the official Army merged file were compared by private
+identifier outside version control. Frank G. Burns's printed identifier
+resolves to an Army record carrying a different name. The unrelated subject,
+raw record, and full identifiers are withheld; the disagreement is published
+only as a direct identity conflict and supplies no rank, occupation, employer,
+or chronology. Gerald E. Burns produced no exact Army-file identifier match.
+That absence is nondispositive because the series has omissions and excludes
+officers.
+
+The two adjacent Marian H. Burns rows have the same printed name, Box, and
+location and no rank, identifier, note, occupation, or assignment. They remain
+separate source records and person entities in one visible possible-duplicate
+group pending comparison of both Box 95 folders. Albert V. Burns, Arvin Burns,
+Catherine E. Burns, Erna J. Burns, Gerald E. Burns, Helen S. Burns, Janet T.
+Burns, and Margaret M. Burns remain unresolved after NARA, CIA, Library of
+Congress, exact-name OSS, employment, occupation, institutional, newspaper,
+obituary, directory, military, and archival searches. All route to Box 95
+review. No authenticated Catalog request, credential, raw API response, full
+private identifier, unrelated namesake identity, or unsupported employer claim
+was stored or published.
+
 ## Pages-sixty-one-and-sixty-two Burnet through Burnham pathways, Batch 327
 
 `research/evidence-pages-sixty-one-sixty-two-maccurdy-burnet-through-robert-burnham-pathways_batch-327_2026-08-20.json`

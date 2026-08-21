@@ -15,6 +15,37 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,381 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+## Batch 328 local release check
+
+The complete 24,411-page internal-link pass includes Albert V. Burns through
+both adjacent Marian H. Burns rows in Box 95 on PDF page 62. All 74 Python
+tests plus five subtests, the deterministic 200-profile audit, focused three-
+viewport regression, dependency audit, database integrity checks, and public-
+identifier audit pass; Astro reports zero errors, warnings, or hints. The
+expanded 975-case sweep passed 967 cases before eight late-run browser-session
+or teardown timeouts; the exact timed-out cases then passed 8 / 8 in a fresh
+process in 24.0 seconds.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,338,010 bytes and has
+SHA-256
+`3ee96f28b7f0314838b84709578d8ca938ee416379a03d98805e26736660e830`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,481 production
+artifacts. It rejected 616 and 1,042 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`d283ea779953c888edd95c7df77f3fc3cf139690aef436b9f88fb76d1baab31f`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`94d9bedf16eb3d58fb8c447a6537e07afbb720392c7599a1a86d0e7f3b02e02c`.
+The regression keeps the identifier conflict and possible-duplicate group
+visible while withholding the unrelated Army subject and unsupported
+employers, affiliations, and occupations.
+
 ## Batch 327 local release check
 
 The complete 24,411-page internal-link pass includes Maccurdy Burnet through
