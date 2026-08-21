@@ -12,8 +12,40 @@ The build includes 23,940 person profiles, 464 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,385 unique external URLs for separate live
+The checker inventoried 49,386 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 332 local release check
+
+The complete 24,412-page internal-link pass includes Robbie Burton through
+Mildred L. Busey in Box 96 on PDF page 63. All 74 Python tests plus five
+subtests, the deterministic 200-profile audit, focused three-viewport
+regression, dependency audit, database integrity checks, and public-identifier
+audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,536,796 bytes and has
+SHA-256
+`c8df7b6609e9a90d9e01e07b5627773b7630287e1208bc5bfb29631cc4332d16`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,482 production
+artifacts. It rejected 620 and 1,045 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`a4d64470f47d194fa7c5197fb5c0692f3a0e41dc4aa7af9298758cfdc3a97d3b`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`092ac956b15108a240b4c2c5d1a6a0e5a8742b53caa96fe738dd9000cc261c08`.
+The regression preserves both identifier conflicts, Busenkell's qualified OSS
+identity, and seven unresolved archival paths without promoting an unsupported
+employer, predecessor, occupation, or namesake.
+
+The complete Batch 332 browser, responsive, and accessibility matrix passed
+987 / 987 in an uninterrupted 8.8-minute single-worker run across desktop,
+phone, and tablet.
 
 ## Batch 331 local release check
 
@@ -79,6 +111,23 @@ an unsupported employer or namesake.
 The complete Batch 330 browser, responsive, and accessibility matrix passed
 981 / 981 in an uninterrupted 9.6-minute single-worker run across desktop,
 phone, and tablet.
+
+## Batch 330 production deployment
+
+Release `ec16c4c0dab8f1bd2fad865a3ce36cda230ab087` passed pull-request workflow
+[32442054104](https://github.com/therealjameswilson/before-oss/actions/runs/32442054104),
+post-merge test workflow
+[32443425042](https://github.com/therealjameswilson/before-oss/actions/runs/32443425042),
+and Pages workflow
+[32443425012](https://github.com/therealjameswilson/before-oss/actions/runs/32443425012).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all ten Batch 330 profile routes. It downloaded and verified all 65
+release assets across 78,435,026 bytes against manifest SHA-256
+`1e2c7678040146c8fae8f759fc3896a1a94955b9963290d5e30d88a69f59b3a0`.
+The live statistics exactly matched the merged release: 3,088 attempted
+profiles, 446 verified affiliations, 192 verified employers, 3,039 archival
+assessments, 2,436 public claims, and 2,203 public citations. No route, profile,
+asset, statistics, or transport failure was found.
 
 ## Batch 329 local release check
 
