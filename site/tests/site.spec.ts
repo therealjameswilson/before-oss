@@ -27945,3 +27945,98 @@ test("Batch 353 exposes one identifier conflict and preserves nine unresolved Ca
     }
   }
 });
+
+test("Batch 354 publishes three Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, occupation, codeLabel] of [
+    [
+      "53db738c-955e-5ce4-8732-70bdf61e1768",
+      "Roger G Campbell",
+      "••••2466",
+      "Unskilled occupation in manufacture of textiles, n.e.c.",
+      "8-19. Occupations in manufacture of textiles, n.e.c.",
+    ],
+    [
+      "41ecc2d9-d463-5cc4-bd2b-00b684b0c501",
+      "Russell W Campbell",
+      "••••3942",
+      "Carpenter",
+      "5-25. Carpenters",
+    ],
+    [
+      "421e51a0-be70-5839-920f-d4b04b609481",
+      "William E Campbell",
+      "••••5873",
+      "Sales clerk",
+      "1-70. Sales clerks",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(codeLabel);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 354 exposes Stephen Campbell's identifier conflict without transferring namesake facts", async ({
+  page,
+}) => {
+  await page.goto("./people/107c5bc6-f08c-5b0e-be8a-54567b4a8803/");
+  await expect(
+    page.getByRole("heading", { name: "Stephen E Campbell Jr.", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••3295");
+  await expect(page.locator("main")).toContainText("conflicts with the official Army merged file");
+  await expect(page.locator("main")).toContainText("different full name");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 354 preserves six unresolved Campbell profiles and the printed period", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, reviewPriority] of [
+    ["bc6f392f-0eaa-5a5c-bc7c-6e8824021447", "Sara B Campbell", null, "high"],
+    ["7feaf37a-1767-53b3-a075-a71029485a88", "W L Campbell", null, "critical"],
+    ["b2f814f4-0434-5855-9fac-f7f4a395c036", "Waldemar B Campbell", null, "high"],
+    ["af90e5d9-8c07-5096-9494-6b17b9247543", "Walter L Campbell", null, "high"],
+    ["2b82f15c-d3e5-5485-bf1a-9cfeb9e39fd2", "William N Campbell", null, "high"],
+    [
+      "cdc8c918-938b-50b2-8499-a6b5d81ed20a",
+      "William A Campbell. Jr.",
+      "••••5412",
+      "critical",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(reviewPriority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/cdc8c918-938b-50b2-8499-a6b5d81ed20a/");
+  await expect(page.locator("main")).toContainText("preserve the printed period");
+  await expect(page.locator("main")).toContainText("do not supply a missing leading character");
+});
