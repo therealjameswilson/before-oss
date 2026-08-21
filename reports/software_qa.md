@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,412 pages**
-- Internal link check: **24,412 HTML files passed**
-- Expanded browser and accessibility matrix: **990 / 990 passed** in an
-  uninterrupted 8.9-minute single-worker Batch 333 release sweep across
+- Static production build: **24,414 pages**
+- Internal link check: **24,414 HTML files passed**
+- Expanded browser and accessibility matrix: **993 / 993 passed** in an
+  uninterrupted 9.1-minute single-worker Batch 334 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -54,6 +54,29 @@ Run: 2026-08-21 UTC
   Bushnell's two documented namesakes as a withheld identity question, retains
   the index's lieutenant and private classifications, masks identifiers, and
   routes the remaining unsupported profiles to Box 96 or 97 review.
+- Focused Batch 334 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Serfin S. Buta and William E. Butke from exact
+  private-identifier Army records while keeping broad occupations separate
+  from employers; separates Miami University and University of Minnesota
+  student status from employment; qualifies Wilsie Bussell's Elon College
+  role; keeps Inez Bushner's biography in identity review; masks identifiers;
+  and routes unsupported identities to Box 97 review.
+- Batch 334 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `ff8035299dc760ff1daf603ccc4dcb42a0f5a667be98720f3214eb52f43b6e6f`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `54707dd927a88f6e783516106c7c76d7222082c07a79486122db1eb5ed51aebd`.
+  The complete 24,414-page internal-link check passed and inventoried 49,395
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,666,971 bytes; manifest SHA-256 was
+  `9e2f7f668b6e4f99e99454ced4689a0f774243a2f811cbc7698226745168276d`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,484 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 993-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 333 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `a57f5d55920ff94a89050bcda99f634cd90a296c7c34ec0a7ec64a41ecb60899`.
@@ -70,6 +93,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 990-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 333 production verification: **passed**. Release
+  `364c8d9aa489828b50b51bc38cd460bf52c56d70` passed pull-request workflow
+  [32447785340](https://github.com/therealjameswilson/before-oss/actions/runs/32447785340),
+  post-merge test workflow
+  [32449062271](https://github.com/therealjameswilson/before-oss/actions/runs/32449062271),
+  and Pages workflow
+  [32449062262](https://github.com/therealjameswilson/before-oss/actions/runs/32449062262).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 333 profiles. All 65 live assets matched the
+  merged manifest across 78,563,762 bytes; its SHA-256 was
+  `04f2c3f2ec12c4a8c4695b079d7161cd539f85c0c7c9db9a52362b4b877cf364`.
+  The deployed site reported exactly 3,118 attempted profiles, 448 verified
+  affiliations, 193 verified employers, 3,069 archival assessments, 2,448
+  public claims, and 2,217 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 332 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `a4d64470f47d194fa7c5197fb5c0692f3a0e41dc4aa7af9298758cfdc3a97d3b`.
@@ -86,6 +124,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 987-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 332 production verification: **passed**. Release
+  `38b11e57568a7eb1b92668e5ebad6cb097e45078` passed pull-request workflow
+  [32445331973](https://github.com/therealjameswilson/before-oss/actions/runs/32445331973),
+  post-merge test workflow
+  [32447734943](https://github.com/therealjameswilson/before-oss/actions/runs/32447734943),
+  and Pages workflow
+  [32447734928](https://github.com/therealjameswilson/before-oss/actions/runs/32447734928).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 332 profiles. All 65 live assets matched the
+  merged manifest across 78,536,796 bytes; its SHA-256 was
+  `c8df7b6609e9a90d9e01e07b5627773b7630287e1208bc5bfb29631cc4332d16`.
+  The deployed site reported exactly 3,108 attempted profiles, 448 verified
+  affiliations, 193 verified employers, 3,059 archival assessments, 2,446
+  public claims, and 2,213 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 331 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `10308bf00d77c893e7fcf805b4a77edd2059fc6ccb9e6ab8025f4750fcd2a541`.

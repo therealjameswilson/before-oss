@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,118 people with a non-planned attempt | 23,940 active person entities | 13.0242% |
+| Research-attempt coverage | 3,128 people with a non-planned attempt | 23,940 active person entities | 13.0660% |
 | Verified-affiliation coverage | 448 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8713% |
 | Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,069 people with an individual file-access/priority assessment | 23,940 active person entities | 12.8195% |
+| Archival-review coverage | 3,079 people with an individual file-access/priority assessment | 23,940 active person entities | 12.8613% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 554
+- Identity status `confirmed`: 556
 - Identity status `high_confidence`: 484
-- Identity status `probable`: 100
+- Identity status `probable`: 103
 - Identity status `ambiguous`: 51
 - Identity status `conflicting`: 47
-- Identity status `unresolved`: 22,704
+- Identity status `unresolved`: 22,699
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,172
-- Enlisted Army personnel: 3,765
+- Unknown or indeterminate: 16,170
+- Enlisted Army personnel: 3,767
 - Commissioned Army officers: 2,098
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,217 yes; 5,411 no; 16,312 indeterminate.
+Commissioned classification: 2,217 yes; 5,413 no; 16,310 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,822
+- `not_started`: 20,812
 - `in_progress`: 48
 - `candidate_found`: 1
-- `needs_identity_review`: 70
+- `needs_identity_review`: 72
 - `needs_temporal_review`: 7
-- `documented_prewar_employer_found`: 60
+- `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 470
-- `requires_archival_review`: 2,117
+- `occupation_only_found`: 472
+- `requires_archival_review`: 2,122
 - `completed`: 99
 - `conflicting_sources`: 48
 - `verified_employer_found`: 189
-- Claim confidence: 736 confirmed; 1,043 high; 613 medium; 40 low; 58
+- Claim confidence: 738 confirmed; 1,043 high; 621 medium; 40 low; 58
   conflicting
-- Durable evidence inventory: 3,297 source records representing 1,516 unique
-  documents; 475 organizations; 1,244 affiliations; 2,490 claims; and 5,630
+- Durable evidence inventory: 3,308 source records representing 1,524 unique
+  documents; 477 organizations; 1,249 affiliations; 2,500 claims; and 5,655
   claim-source links
-- Reviewed public projection: 464 organizations; 1,234 published, qualified,
-  or conflict-visible affiliations; 2,448 published, qualified, or
-  conflict-visible claims; and 2,217 public citation records
+- Reviewed public projection: 466 organizations; 1,239 published, qualified,
+  or conflict-visible affiliations; 2,458 published, qualified, or
+  conflict-visible claims; and 2,228 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,217 yes; 5,411 no; 16,312 indeterminate.
   2,837. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,355 across 1,317 people; 129 additional
-  attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,325
+- Saved `source_reviewed` outcomes: 1,357 across 1,319 people; 132 additional
+  attempts across 119 people have a saved `candidate_found` outcome
+- Total recorded attempts/plans: 4,335
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,164; 1,133 have at least one public-visible
+- People with saved reviewed claims: 1,169; 1,138 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,49 @@ Commissioned classification: 2,217 yes; 5,411 no; 16,312 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 334 covers ten contiguous source rows on PDF page 63, from Virginia R.
+  Bushnell through Steve Butkevitch. All ten are in Box 97, and the page was
+  rendered and visually checked at original resolution. Exact private-
+  identifier comparison with NARA's official Army merged file confirms that
+  the indexed Serfin S. Buta is the Serafin S. Buta in the Army record and that
+  indexed William E. Butke is the Army record's William E. Butke Jr. Both
+  entered as privates: Serafin on March 22, 1941 and William on February 6,
+  1942. The official occupation list decodes Serafin's group as housekeepers,
+  stewards, and hostesses and William's as clerks, general office. Each is
+  published only as a medium-confidence, date-bounded occupation rather than a
+  named employer or immediate OSS predecessor. Steve Butkevitch's printed
+  identifier and exact name are absent from the processed file; the official
+  documentation's missing-range and conversion-error warnings mean this is not
+  treated as disproof.
+
+  A directly inspected American Battle Monuments Commission history explicitly
+  identifies Sgt. Serafin Buta in an OSS Sicily mission, independently
+  confirming the spelling variant and OSS context. A January 1931 Phi Kappa
+  Tau publication places the rare exact name Serafin Buta of Salem at Miami
+  University. That is published as documented pre-OSS student status, not
+  employment. Two contemporary sources place the unusually named Wilsie
+  Florence Bussell as an Elon College language instructor in 1942-1943. The
+  employer is published with probable identity and non-immediate chronology
+  qualifications and remains outside default analytics. University of
+  Minnesota address books and a May 1942 chapter report support Marillyn A.
+  Butcher as a probable pre-OSS student, not an employee. A New Mexico marker
+  biography supports Inez S. Bushner as a probable match to Inez Bushner Gill,
+  who served in American intelligence during World War II, but it does not
+  name OSS, Box 97, or a prewar employer. All three probable identities require
+  direct Box 97 confirmation.
+
+  Virginia R. Bushnell, Herbert Bussard, Elizabeth A. Busvine, Nina A.
+  Butchart, and Steve Butkevitch remain unresolved. Modern, postwar, common-
+  name, and unlinked newspaper candidates were rejected rather than promoted.
+  No postwar employer, search-result snippet, relative's biography, private
+  address, or unsupported namesake claim was used as pre-OSS evidence.
+- Batch 334's strict evidence bundle adds eleven sources, three organization
+  inputs, five affiliations, ten claims, twenty-five claim-source links, ten
+  person updates, and ten durable research attempts. It passed schema
+  validation, two-import idempotence against a temporary database, SQLite
+  integrity and foreign-key checks, deterministic public export and the 200-
+  profile audit. Full release-gate results are recorded in the QA reports as
+  they complete.
 - Batch 333 covers ten contiguous source rows on PDF page 63, from Billie V.
   Bush through Davis Bushnell. Billie and F. E. Bush remain in Box 96; the
   other eight rows are in Box 97. The page was rendered and visually checked
