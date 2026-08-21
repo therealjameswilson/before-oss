@@ -27470,7 +27470,7 @@ test("Batch 346 confirms Robert F. Callahan while withholding namesake and dupli
 
   await page.goto("./people/e6793436-6f05-5249-8387-32970b4e6c01/");
   await expect(page.getByRole("heading", { name: "Malcolm W Callanan", exact: true })).toBeVisible();
-  await expect(page.getByText("not started", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("duplicate-");
 
   for (const [personId, name, maskedIdentifier] of [
@@ -27480,6 +27480,96 @@ test("Batch 346 confirms Robert F. Callahan while withholding namesake and dupli
     ["c9db4b05-c440-56f8-893b-6529218bf419", "Dorothy B Callahan", null],
     ["43d3922a-5740-52b7-92df-4d01b6e212a5", "Nancy Callahan", null],
     ["3a893b3a-b2fc-59f7-81f7-ff373550ae34", "Robert B Callahan", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
+
+test("Batch 347 preserves official occupations, qualified chronology, and unresolved paths", async ({
+  page,
+}) => {
+  await page.goto("./people/e6793436-6f05-5249-8387-32970b4e6c01/");
+  await expect(page.getByRole("heading", { name: "Malcolm W Callanan", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("duplicate-");
+  await expect(page.locator("main")).toContainText("Wrote plays in civilian life");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Playwright",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/84ba6335-59b7-5c95-844b-c570b8c38a11/");
+  await expect(page.getByRole("heading", { name: "Henry S Calore", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5463");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Musician",
+  );
+  await expect(page.locator("main")).toContainText("reviewed source does not name an employer");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/748d7dcc-cfd3-5d76-8e6a-5280590be763/");
+  await expect(page.getByRole("heading", { name: "Helmut G Callis", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(
+    page.getByText("civilian professional or administrative grade", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "University of Michigan",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Michigan",
+  );
+  await expect(page.locator("main")).toContainText("overlapping appointments");
+
+  await page.goto("./organizations/4ee8a858-3cd1-5a2d-94a7-0d3c7a3fdb3a/");
+  await expect(
+    page.getByRole("heading", { name: "University of Michigan", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Helmut G Callis", { exact: true })).toBeVisible();
+
+  await page.goto("./people/669a2735-eeaf-5a6d-8158-c76a5eda0d87/");
+  await expect(page.getByRole("heading", { name: "Sterling A Callisen", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Rochester",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator("main")).toContainText("dated Wesleyan records");
+
+  await page.goto("./organizations/6b5ce0a3-ded8-5df8-a7e1-e2036c1a79cb/");
+  await expect(
+    page.getByRole("heading", { name: "University of Rochester", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("Sterling A Callisen", { exact: true })).toBeVisible();
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["87436f9d-a02c-5889-84bf-8f9d1db0923e", "Thomas W Callbeck", "••••4661"],
+    ["13d2c651-3f32-5f1e-a933-7106e4b7fdf3", "Lorenzo Callea", null],
+    ["4f49af78-7a40-5091-9972-1eca64515a9b", "Walter G Callihan", "••••2078"],
+    ["73329c87-9959-5c3c-8a85-90321163c532", "Sara L Callisen", null],
+    ["355d1764-59bb-5f39-a63a-bff4ce2a6e46", "Irma Calnan", null],
+    ["7d91f4a7-07b7-5df1-be0e-50ca65be7d61", "Carla A Calosi", null],
   ] as const) {
     await page.goto(`./people/${personId}/`);
     await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();

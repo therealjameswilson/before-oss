@@ -4,13 +4,16 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,029** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 13.0-minute
-single-worker Batch 346 sweep completed **1,028 / 1,029**: the tablet Sources-
-page axe evaluation stalled for 3.3 minutes after navigation completed in 225
-ms. Its trace contained no failed request, console error, or assertion failure,
-and the exact isolated rerun passed **1 / 1** in 12.4 seconds. The stall remains
-visible rather than being rewritten as a clean uninterrupted pass. Batch 345's
+The expanded release matrix contains **1,032** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.1-minute
+single-worker Batch 347 sweep passed **1,032 / 1,032** without a timeout or
+accessibility failure. Its first run exposed a stale Batch 346 expectation that
+the newly researched Malcolm W. Callanan profile was still `not_started`; that
+run was stopped after **463 passed, 1 failed, and 1 was interrupted**. The
+cumulative expectation was corrected, the combined Batch 346/347 regression
+passed **6 / 6**, and the complete clean run then passed. The prior Batch 346
+tablet Sources-page axe stall and clean **1 / 1** exact rerun remain documented
+below rather than being erased. Batch 345's
 two older Batch 223/226 timeouts and clean **6 / 6** isolated rerun also remain
 documented below.
 The prior Batch 342 post-calibration run's one traced Chromium navigation stall
@@ -23,6 +26,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 347 adds direct-route coverage for Malcolm W. Callanan through Carla A.
+Calosi on PDF page 66 and for the University of Michigan and University of
+Rochester organization pages. It confirms that Malcolm's playwright and Henry
+S. Calore's musician evidence remain occupations without employers; publishes
+Helmut G. Callis's qualified overlapping Michigan chronology; keeps Sterling A.
+Callisen's Rochester employment documented prewar rather than immediate; masks
+identifiers; and routes six unresolved identities to Box 102 review. The
+focused regression passed **3 / 3** and the cumulative Batch 346/347 regression
+passed **6 / 6** across desktop, phone, and tablet. All 27 axe cases passed in
+the complete matrix.
 
 Batch 346 adds a focused direct-route regression for Deborah H. Calkins through
 Malcolm Callanan on PDF page 66, plus the adjacent Malcolm W. Callanan duplicate
