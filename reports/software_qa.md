@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,412 pages**
-- Internal link check: **24,412 HTML files passed**
-- Expanded browser and accessibility matrix: **990 / 990 passed** in an
-  uninterrupted 8.9-minute single-worker Batch 333 release sweep across
+- Static production build: **24,414 pages**
+- Internal link check: **24,414 HTML files passed**
+- Expanded browser and accessibility matrix: **993 / 993 passed** in an
+  uninterrupted 9.1-minute single-worker Batch 334 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -54,6 +54,29 @@ Run: 2026-08-21 UTC
   Bushnell's two documented namesakes as a withheld identity question, retains
   the index's lieutenant and private classifications, masks identifiers, and
   routes the remaining unsupported profiles to Box 96 or 97 review.
+- Focused Batch 334 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Serfin S. Buta and William E. Butke from exact
+  private-identifier Army records while keeping broad occupations separate
+  from employers; separates Miami University and University of Minnesota
+  student status from employment; qualifies Wilsie Bussell's Elon College
+  role; keeps Inez Bushner's biography in identity review; masks identifiers;
+  and routes unsupported identities to Box 97 review.
+- Batch 334 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `ff8035299dc760ff1daf603ccc4dcb42a0f5a667be98720f3214eb52f43b6e6f`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `54707dd927a88f6e783516106c7c76d7222082c07a79486122db1eb5ed51aebd`.
+  The complete 24,414-page internal-link check passed and inventoried 49,395
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,666,971 bytes; manifest SHA-256 was
+  `9e2f7f668b6e4f99e99454ced4689a0f774243a2f811cbc7698226745168276d`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,484 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 993-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 333 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `a57f5d55920ff94a89050bcda99f634cd90a296c7c34ec0a7ec64a41ecb60899`.

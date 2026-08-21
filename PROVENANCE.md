@@ -3847,6 +3847,70 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Page-sixty-three Bushnell through Butkevitch pathways, Batch 334
+
+`research/evidence-page-sixty-three-virginia-bushnell-through-steve-butkevitch-pathways_batch-334_2026-08-21.json`
+records ten contiguous Box 97 source rows on PDF page 63, from Virginia R.
+Bushnell through Steve Butkevitch. The page was rendered and visually checked
+at original resolution, and every source row remains immutable. The strict
+bundle contains eleven sources, three organization inputs, five affiliations,
+ten claims, twenty-five claim-source links, ten person updates, and ten durable
+research attempts.
+
+The NARA OSS index, official Army merged file, technical documentation, and
+occupation code list were compared outside version control. Exact private-
+identifier agreement confirms indexed Serfin S. Buta as Army entrant Serafin
+S. Buta and indexed William E. Butke as William E. Butke Jr. The suffix and
+spelling variants are stored separately without changing the printed index
+values. The Army file dates their entry as privates to March 22, 1941 and
+February 6, 1942. Its civilian-occupation codes decode to the broad
+housekeeper/steward/hostess group and general-office clerks. Those findings are
+published as bounded occupations, not named employers, workplaces, exact
+duties, or immediate Army-to-OSS transfers. Steve Butkevitch's printed
+identifier and exact name produced no processed-file match. The technical
+documentation records omissions and conversion errors, so absence is not
+treated as disproof.
+
+The [American Battle Monuments Commission historical
+article](https://www.abmc.gov/news-events/news/5-things-you-may-not-know-about-sicily-rome-american-cemetery/)
+was inspected directly in the browser after automated HTTP retrieval was
+refused. It explicitly identifies Sgt. Serafin Buta in the OSS San Fratello
+mission and also documents the Sam variant and Ohio context. The [January 1931
+*Laurel of Phi Kappa Tau*](https://s3.amazonaws.com/phikappatau.org/wp-content/uploads/2015/12/08192257/vol-19-no-2-january-1931.pdf)
+was downloaded transiently, text-extracted, and visually checked at PDF
+physical page 47. It lists Serafin Buta of Salem among Miami University's new
+Alpha pledges. The evidence supports student status only and is excluded from
+employer analytics.
+
+The [1942 Elon College
+yearbook](https://upload.wikimedia.org/wikipedia/commons/6/64/Phi_Psi_Cli_%28electronic_resource%29_%28IA_phipsicli1942elon%29.pdf)
+and [1943 Burlington and Graham city
+directory](https://lib.digitalnc.org/nanna/record/24832/files/diralamance_001083_000001.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0)
+were downloaded transiently and visually checked at PDF pages 14 and 84. They
+independently identify Wilsie Florence or Wilsie F. Bussell as an Elon College
+language instructor. The rare-name match is published as probable and the
+employment as non-immediate; neither source prints OSS or Box 97. University
+of Minnesota's [1940-1941 address
+book](https://conservancy.umn.edu/server/api/core/bitstreams/3444532d-ea86-4080-8a0d-3bdc686680ce/content)
+was retrieved through the institution's public bitstream endpoint and visually
+checked at PDF page 106. It lists the exact unusual name Marillyn A. Butcher
+with a class-year code. The [May 1942 *Crescent of Gamma Phi
+Beta*](https://www.gpbarchives.org/wp-content/uploads/2017/07/1942_May.pdf)
+corroborates the University of Minnesota chapter context. Together they
+support a probable student affiliation, not employment.
+
+The [New Mexico Historic Women Marker Program biography of Inez
+Gill](https://www.nmhistoricwomen.org/new-mexico-historic-women/inez-gill/)
+uses the rare maiden name Inez Bushner and documents World War II American
+intelligence service. Because it omits the index's middle initial, OSS, Box 97,
+and prewar employment, it supports only a medium-confidence probable identity.
+Virginia R. Bushnell, Herbert Bussard, Elizabeth A. Busvine, Nina A. Butchart,
+and Steve Butkevitch remain unresolved. No authenticated Catalog request,
+credential, raw API response, raw Army record, full private identifier,
+private address, full copyrighted page, postwar-employer substitution,
+search-result-only claim, or unsupported namesake biography was stored or
+published.
+
 ## Page-sixty-three Bush through Bushnell pathways, Batch 333
 
 `research/evidence-page-sixty-three-billie-bush-through-davis-bushnell-pathways_batch-333_2026-08-21.json`

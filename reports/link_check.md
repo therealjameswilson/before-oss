@@ -4,16 +4,50 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,412 HTML files. Every relative
+**PASS.** The production build contains 24,414 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 464 organization profiles, and the
+The build includes 23,940 person profiles, 466 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,386 unique external URLs for separate live
+The checker inventoried 49,395 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 334 local release check
+
+The complete 24,414-page internal-link pass includes Virginia R. Bushnell
+through Steve Butkevitch in Box 97 on PDF page 63, plus the new Miami
+University and Elon College organization routes. All 74 Python tests plus five
+subtests, the deterministic 200-profile audit, focused three-viewport
+regression, dependency audit, database integrity checks, and public-identifier
+audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,666,971 bytes and has
+SHA-256
+`9e2f7f668b6e4f99e99454ced4689a0f774243a2f811cbc7698226745168276d`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,484 production
+artifacts. It rejected 620 and 1,045 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`ff8035299dc760ff1daf603ccc4dcb42a0f5a667be98720f3214eb52f43b6e6f`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`54707dd927a88f6e783516106c7c76d7222082c07a79486122db1eb5ed51aebd`.
+The regression confirms Buta and Butke's exact Army identities, keeps
+occupation and student evidence out of employer counts, visibly qualifies the
+Bussell, Butcher, and Bushner candidates, and preserves the remaining archival
+paths without promoting an unsupported employer or namesake.
+
+The complete Batch 334 browser, responsive, and accessibility matrix passed
+993 / 993 in an uninterrupted 9.1-minute single-worker run across desktop,
+phone, and tablet.
 
 ## Batch 333 local release check
 

@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **990** browser, responsive, and
+The expanded release matrix contains **993** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 333 release sweep passed **990 / 990** in 8.9 minutes. The
+single-worker Batch 334 release sweep passed **993 / 993** in 9.1 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 334 adds a focused direct-route regression for Virginia R. Bushnell
+through Steve Butkevitch on PDF page 63. It confirms Serfin S. Buta and William
+E. Butke from exact private-identifier Army records while keeping broad entry
+occupations separate from employers; separates Buta's Miami University student
+status from his military pathway; qualifies Wilsie Bussell's Elon College
+employment and Marillyn Butcher's University of Minnesota student evidence;
+keeps Inez Bushner's institutional biography in the identity-review lane;
+masks private identifiers; and routes the remaining unsupported identities to
+Box 97 review. The focused regression passed **3 / 3** across desktop, phone,
+and tablet.
 
 Batch 333 adds a focused direct-route regression for Billie V. Bush through
 Davis Bushnell on PDF page 63. It confirms Vernon A. Bush's exact-identifier
