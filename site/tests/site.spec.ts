@@ -27080,3 +27080,84 @@ test("Batch 341 publishes Cady's employer while preserving occupations and unres
     }
   }
 });
+
+test("Batch 342 publishes two qualified occupations and Cain's OSS identity without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, occupation] of [
+    [
+      "a0a0351c-ff6c-59d7-85b7-451dff58a1ff",
+      "Alfred Cahnmann",
+      "••••3729",
+      "Foreman in services or amusements",
+    ],
+    [
+      "615c6154-48c4-5094-8657-935b48fe7422",
+      "Salvatore Caimano",
+      "••••5067",
+      "Steam fitter, gas fitter, or plumber",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "strongly date bounded",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/8d862240-4b42-52a0-9ef6-a74c90cb8545/");
+  await expect(page.getByRole("heading", { name: "Rollie W Cain", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••6655");
+  await expect(page.locator("main")).toContainText("OSS mission in China in 1945");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier, category] of [
+    ["e0fa39f6-ece6-54b5-8cc2-6bdbeea37da4", "Vittoria G Cahn", null, null],
+    [
+      "d58462e6-37d9-51e1-938b-b2e6d01def99",
+      "Cleveland M Cail",
+      null,
+      "commissioned army officer",
+    ],
+    ["452e1b8c-07ad-588d-866e-8273bfe47386", "Ruth B Caillavet", null, null],
+    ["c1adbdd9-8ebc-5811-9c53-9e42db2f21b0", "George Cailler", null, null],
+    ["1c58300f-8aa5-5a50-b4de-41567d3eab98", "Benjamine B Cain", null, null],
+    ["a6a9aaaf-509b-5aa4-a057-852a4a1f1b1d", "John N Cain", "••••5647", null],
+    ["ba6bc30f-b524-5738-8f9b-620d83bc8207", "Peter M Calacci", null, null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+    if (category) {
+      await expect(page.getByText(category, { exact: true }).first()).toBeVisible();
+    }
+  }
+});

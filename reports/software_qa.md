@@ -7,9 +7,14 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,418 pages**
 - Internal link check: **24,418 HTML files passed**
-- Expanded browser and accessibility matrix: **1,014 / 1,014 passed** in an
-  uninterrupted 10.2-minute single-worker Batch 341 release sweep across
-  desktop, phone, and tablet. The 27 axe cases cover representative routes and
+- Expanded browser and accessibility matrix: **1,017 / 1,017 passed** in an
+  uninterrupted 11.5-minute single-worker Batch 342 release sweep across
+  desktop, phone, and tablet before the final CIA source-quality calibration.
+  A complete post-calibration rerun passed **1,016 / 1,017**; its trace isolated
+  one 10.6-minute Chromium navigation stall in an unchanged Batch 197 phone
+  profile, with no network request or console error. That exact phone case then
+  passed **2 / 2** in 0.8 seconds per run, and the final Batch 342 focused
+  regression passed **3 / 3**. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
   isolated rerun remain documented in its release entry.
@@ -117,6 +122,33 @@ Run: 2026-08-21 UTC
   uninterpreted; withholds Alessandro Cagiati's different-identifier Army
   namesake; qualifies Rolf Cahn's identity; masks private identifiers; and
   routes unresolved profiles to Box 100 review.
+- Focused Batch 342 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Alfred Cahnmann and Salvatore Caimano while
+  keeping broad Army-entry occupations separate from employers; qualifies
+  Rollie W. Cain's official OSS China identity without inventing a predecessor;
+  preserves the printed `Benjamine` spelling; masks private identifiers; and
+  routes seven unresolved profiles to Box 100 or 101 review. An initial focused
+  run failed only because its expected unresolved-employer wording differed
+  from the site's standard sentence; the test expectation was corrected before
+  the complete release sweep.
+- Batch 342 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `383b8c624af9320501173605b6459176fd044e439808c3d6e686287b8e524ef4`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `4e9b70ffe17ae6bb2e78077f787dc23b1dd9a6acd619904e6725db159a53c395`.
+  The complete 24,418-page internal-link check passed and inventoried 49,415
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,156,920 bytes; manifest SHA-256 was
+  `36da0fe2f603c211b3ca9f483f097909d09855c1c142a333188576291126df91`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,488 built artifacts. The strict
+  evidence bundle passed repeated-import idempotence, SQLite integrity and
+  foreign-key checks; all 74 Python tests, the deterministic 200-profile audit,
+  the first complete 1,017-case browser/accessibility matrix, four targeted
+  source checks, and a zero-vulnerability production dependency audit passed.
+  The post-calibration matrix's single browser-navigation stall and clean **2 /
+  2** exact-case rerun are documented above rather than hidden.
 - Batch 341 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `191b568b03e847c5cbfc119bd2af1e13e7ba9880de1764fa1386623b0bf2a0f1`.
@@ -133,6 +165,21 @@ Run: 2026-08-21 UTC
   foreign-key checks; all 74 Python tests plus five subtests, the deterministic
   200-profile audit, the complete 1,014-case browser/accessibility matrix, and
   a zero-vulnerability production dependency audit passed.
+- Batch 341 production verification: **passed**. Release
+  `e8a101ca01455bd3cc0be64c494acaeda1c5e0dc` passed pull-request workflow
+  [32474450714](https://github.com/therealjameswilson/before-oss/actions/runs/32474450714),
+  post-merge test workflow
+  [32476376061](https://github.com/therealjameswilson/before-oss/actions/runs/32476376061),
+  and Pages workflow
+  [32476376007](https://github.com/therealjameswilson/before-oss/actions/runs/32476376007).
+  Seven core routes, all ten Batch 341 profiles, and the Franklin College
+  organization route returned HTTP 200 and matched the audited release. The
+  live manifest and all 65 assets matched byte for byte across 79,121,229
+  bytes, with manifest SHA-256
+  `34cc98b068883b04a4decfd36bc1140a74db91330fb27b935b2d588b4c6687ad`.
+  Live totals reproduced 3,196 attempted people, 455 verified affiliations,
+  194 verified employers, 3,148 archival-review assessments, 2,511 public
+  claims, 2,272 public sources, and 470 public organizations.
 - Batch 340 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `cb53ee1df9dbee4f6111507d55beb5bbe13f1c67a2351df913d6a7bfcd60c71b`.
