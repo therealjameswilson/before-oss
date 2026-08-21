@@ -39,6 +39,12 @@ Run: 2026-08-21 UTC
   expectation that repeated a private Joseph N. Camarda next-action note; the
   expectation was corrected to public profile wording and the clean focused
   rerun passed **3 / 3**.
+- Batch 349 complete browser and accessibility matrix: **1,038 / 1,038 passed**
+  in 10.9 minutes across desktop, phone, and tablet. The clean uninterrupted
+  run includes all 27 axe cases. An initial focused run expected a private
+  Antonio Camboni match note that the public profile correctly omits; the
+  test-only expectation was removed and the clean focused rerun passed **3 /
+  3**.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -200,6 +206,32 @@ Run: 2026-08-21 UTC
   medium-confidence finding; confirms Joseph N. Camarda's identity without
   publishing his undated employers; preserves the printed `Maragaret` spelling;
   masks identifiers; and routes eight unsupported identities to Box 102 review.
+- Focused Batch 349 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet after the test-only private-note expectation was removed.
+  It identifies Pierre Cambon without turning mission or alias evidence into a
+  predecessor; publishes Antonio Camboni's scale-merchant evidence only as a
+  qualified occupation without a named employer; preserves printed and
+  initials-only forms; masks identifiers; and routes eight unsupported
+  identities to Boxes 102-103 review.
+- Batch 349 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `da1da66f7f696b2b6f0c7f6b672ea9c18f6a94da6640b3e95055388311c04222`;
+  generated-data mirrors reproduced
+  `7aa96a607462ddf761c6fe846c7c65b6ea0a4161e07fd9cc4fc29591523a42e2`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `53d16b1e7baf91f6c403488819fbc9439e3af01d2a590aa561442c7afc38a11a`.
+  The complete 24,421-page internal-link check passed and inventoried 49,437
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,470,352 bytes; manifest SHA-256 was
+  `eaaaf9515aed3a5a40ea6cb9de61b83baa547bda979d05cc4569b7e0bc9a5d73`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  three identical imports, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the clean **1,038 / 1,038** complete matrix, four direct source
+  checks, and a zero-vulnerability production dependency audit passed. After
+  rebasing onto the deployed Batch 348 release, all 74 Python tests and the
+  cumulative Batch 348/349 regression passed again (**6 / 6**).
 - Batch 348 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `1796f0dab47868c70bc2ccaf2448689bf7e3b5e79a170b0ec5504282ef03c3ca`;
@@ -217,7 +249,23 @@ Run: 2026-08-21 UTC
   Python tests, the deterministic 200-profile audit, the focused **3 / 3**
   regression, the clean **1,035 / 1,035** complete matrix, five direct scripted
   source checks, and a zero-vulnerability production dependency audit passed.
-  Remote release workflows are pending.
+  Release `0ffff436913156b2ef4e19076d6d4f63c3eb7959` passed pull-request Test
+  workflow 32511729721, Pages workflow 32513964893, and post-merge Test workflow
+  32513964804. Eighteen live routes and all 66 audited files, including the
+  manifest, matched the tested local build exactly after canonical-host
+  normalization.
+- Batch 348 production verification: **passed**. Release
+  `0ffff436913156b2ef4e19076d6d4f63c3eb7959` passed the pull-request quality
+  gate, Pages workflow
+  [32513964893](https://github.com/therealjameswilson/before-oss/actions/runs/32513964893),
+  and post-merge Test workflow
+  [32513964804](https://github.com/therealjameswilson/before-oss/actions/runs/32513964804).
+  Seven core routes, all ten Batch 348 profiles, and the University of Genoa
+  organization route returned HTTP 200 and matched after literal and
+  URL-encoded canonical-host normalization. The live manifest and all 65
+  listed assets matched local bytes, sizes, and SHA-256 values; the listed
+  assets total 79,442,316 bytes and manifest SHA-256 is
+  `272be046a2e48082065b59e0fe5a8542173ddb1a34921e4c2da83012e9c56d8c`.
 - Batch 347 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `fe775919ea9de068395898a7729fe8411742e8b1b051b0074b2db52072ef68b2`;
