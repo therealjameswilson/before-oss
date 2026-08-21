@@ -51,6 +51,9 @@ Run: 2026-08-21 UTC
 - Batch 351 complete browser and accessibility matrix: **1,044 / 1,044 passed**
   in 10.9 minutes across desktop, phone, and tablet. The clean uninterrupted
   run includes all 27 axe cases.
+- Batch 352 complete browser and accessibility matrix: **1,047 / 1,047 passed**
+  in 10.6 minutes across desktop, phone, and tablet. The clean uninterrupted
+  run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -230,6 +233,29 @@ Run: 2026-08-21 UTC
   predecessors; preserves the printed `Clayde` spelling; avoids identifier-
   format nationality and branch inferences; masks identifiers; and routes
   seven unresolved profiles to Box 103 review.
+- Focused Batch 352 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes two exact-identifier Army-entry occupation
+  categories without turning them into employers or immediate OSS
+  predecessors; preserves H. S. Campbell's initial-only indexed form; avoids
+  identifier-format nationality and branch inferences; masks identifiers; and
+  routes eight unresolved profiles to Box 103 review.
+- Batch 352 local release verification: **passed**. Consecutive public trees
+  reproduced digest
+  `6f835cffbefb2c65d37c0a5ffca4d59755a00b978b0541bed9bb287d2846f8a2`;
+  generated-data mirrors reproduced
+  `09729bafadebbb5576aa29f9f5a89ff5233ea502ce16365c06c3e45a8ceb9bdd`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `a6a93d6656b2af208f2875b445636532b2b709846f5016c4c9595e433c98c357`.
+  The complete 24,421-page internal-link check passed and inventoried 49,439
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,573,356 bytes; manifest SHA-256 was
+  `6df49d8f8583d1661e49363197c44f1934c259e3d2c05e567d7f5e227b7dbf23`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  three identical imports, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the clean **1,047 / 1,047** complete matrix, four direct official
+  source checks, and a zero-vulnerability production dependency audit passed.
 - Batch 351 local release verification: **passed**. Consecutive public trees
   reproduced digest
   `b47d03d573bc13e55d3e5eb3013afd65c9066bdacee520e6b7dd861c6d214b26`;
