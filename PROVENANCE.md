@@ -3847,6 +3847,49 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Pages-sixty-two and sixty-three Burt through Burton pathways, Batch 331
+
+`research/evidence-pages-sixty-two-sixty-three-lillian-burt-through-mary-burton-pathways_batch-331_2026-08-21.json`
+records the final nine source rows on PDF page 62 and the first source row on
+page 63, from Lillian L. Burt through Mary Burton. All ten rows are in Box 96.
+Both pages were rendered and visually checked at original resolution. Mary's
+incomplete printed notes value remains exactly `docume`; it is not silently
+expanded to a presumed word.
+
+The strict bundle contains seven source inputs, two organization inputs, five
+affiliations, seven claims, fourteen claim-source links, ten person updates,
+and ten durable research attempts. Exact normalized private-identifier
+agreement with the official North Dakota veterans roster confirms Lyman D.
+Burtch and documents U.S. Army entry at Fort Benning on October 21, 1942,
+Asiatic-Pacific service, and eventual separation as a lieutenant colonel. The
+eventual grade and officer-format identifier support commissioned Army
+classification, but the grade is not projected backward to every wartime date,
+and the roster does not establish the immediate Army-to-OSS sequence or a
+civilian employer.
+
+Exact name and private-identifier agreement with NARA's official Army merged
+file confirms Will Burtin and dates Army entry to July 14, 1943. NARA's
+corrected code list supports the medium-confidence, date-bounded commercial-
+artist occupation without naming an employer, client, studio, project, or
+exact duty. RIT's Cary Graphic Arts Collection biography explicitly connects
+his 1943 U.S. Army entry to OSS assignment and documents a prewar New York
+freelance design practice and Pratt Institute teaching. The overlapping
+practice and teaching are published separately; neither is selected as the
+sole last civilian employer. A second RIT account corroborates the military-
+to-OSS pathway. Because the two institutional accounts disagree on whether he
+was drafted or volunteered, the public claim states only the supported 1943
+military-entry and OSS-assignment sequence and preserves the disagreement.
+
+Lillian L. Burt, Charlotte Burtis, Barbara J. Burton, Deloise E. Burton,
+Dorothy V. Burton, Jonia Burton, Joseph S. Burton, and Mary Burton remain
+unresolved after the complete accessible-source protocol and route to Box 96
+review. Common-name census, directory, obituary, cemetery, genealogy,
+military, and modern candidates lacked two corroborating identifiers and Box
+96 linkage. An unrelated postwar CIA OCR hit for Mary Burton was rejected. No
+authenticated Catalog request, credential, raw API response, raw Army record,
+full private identifier, unrelated namesake identity, copyrighted image, or
+unsupported employer claim was stored or published.
+
 ## Page-sixty-two Burrhus through Burt pathways, Batch 330
 
 `research/evidence-page-sixty-two-donald-burrhus-through-edwin-burt-pathways_batch-330_2026-08-21.json`

@@ -26130,3 +26130,80 @@ test("Batch 330 separates Burrhus, Burriack, and Burt status evidence from emplo
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 331 separates Burtin's Army pathway and civilian work from unresolved Burton identities", async ({
+  page,
+}) => {
+  await page.goto("./people/2d98699d-ced4-51d7-af86-062fbb007568/");
+  await expect(page.getByRole("heading", { name: "Lyman D Burtch", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "temporal relation uncertain",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("••••7489");
+
+  await page.goto("./people/f50fef55-5b88-5d3f-8ff0-fb5658547bb2/");
+  await expect(page.getByRole("heading", { name: "Will Burtin", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Assigned to the Office of Strategic Services",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Commercial artist",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Freelance designer",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Pratt Institute",
+  );
+  await expect(page.locator("main")).toContainText("drafted or volunteered");
+  await expect(page.locator("main")).toContainText("••••3939");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(2);
+
+  for (const [personId, name] of [
+    ["54e98b9a-cf09-5cc5-a692-e13158ae6b12", "Lillian L Burt"],
+    ["3e2a07fc-732d-595e-9479-860a86501298", "Charlotte Burtis"],
+    ["d4fcdd9d-f769-52ed-82a6-bf18c3c4c94d", "Barbara J Burton"],
+    ["72399e08-6fda-50d6-aaea-467decf1ad0a", "Deloise E Burton"],
+    ["0842a217-0d8a-55ee-b2ef-5afd4e1b407c", "Dorothy V Burton"],
+    ["db35a204-7ead-5c41-b8f6-c794a8af3681", "Jonia Burton"],
+    ["8e32c8e0-b96e-5fd0-aca7-63c48e22f0ac", "Joseph S Burton"],
+    ["7a82aaf3-c7a4-5f72-ba3f-1e36599d0299", "Mary Burton"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/7a82aaf3-c7a4-5f72-ba3f-1e36599d0299/");
+  await expect(page.getByText("docume", { exact: true })).toBeVisible();
+});

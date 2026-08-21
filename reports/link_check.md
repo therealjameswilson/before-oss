@@ -4,16 +4,49 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,411 HTML files. Every relative
+**PASS.** The production build contains 24,412 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 463 organization profiles, and the
+The build includes 23,940 person profiles, 464 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,381 unique external URLs for separate live
+The checker inventoried 49,385 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 331 local release check
+
+The complete 24,412-page internal-link pass includes Lillian L. Burt through
+Mary Burton across PDF pages 62-63, plus the new Pratt Institute organization
+route. All 74 Python tests plus five subtests, the deterministic 200-profile
+audit, focused three-viewport regression, dependency audit, database integrity
+checks, and public-identifier audit pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,508,930 bytes and has
+SHA-256
+`9825530bcdf2397d30a1d61f7c386541e54b320bd97dd19c03c0c5d721d5065e`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,482 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`10308bf00d77c893e7fcf805b4a77edd2059fc6ccb9e6ab8025f4750fcd2a541`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`6d4d92cfb34f86d7323029f2179e140d414a42e6ce506e2a26a6677c960c3579`.
+The regression preserves Burtch's roster evidence, Burtin's distinct military
+and civilian pathways, the institutional source conflict, and eight unresolved
+archival paths without promoting an unsupported employer or namesake.
+
+The complete Batch 331 browser, responsive, and accessibility matrix passed
+984 / 984 in an uninterrupted 8.8-minute single-worker run across desktop,
+phone, and tablet.
 
 ## Batch 330 local release check
 

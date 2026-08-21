@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,411 pages**
-- Internal link check: **24,411 HTML files passed**
-- Expanded browser and accessibility matrix: **981 / 981 passed** in an
-  uninterrupted 9.6-minute single-worker Batch 330 release sweep across
+- Static production build: **24,412 pages**
+- Internal link check: **24,412 HTML files passed**
+- Expanded browser and accessibility matrix: **984 / 984 passed** in an
+  uninterrupted 8.8-minute single-worker Batch 331 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -35,6 +35,27 @@ Run: 2026-08-21 UTC
   occupation without turning any of them into employers; exposes Arthur L.
   Burt's private-identifier conflict without publishing the unrelated Army
   subject; and routes six unsupported identities to Box 96 review.
+- Focused Batch 331 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It preserves the roster-supported Lyman D. Burtch Army
+  identity, separates Will Burtin's Army, freelance, teaching, and occupation
+  pathways, exposes the drafted-versus-volunteered source disagreement, keeps
+  Mary Burton's incomplete printed note intact, and routes eight unsupported
+  identities to Box 96 review.
+- Batch 331 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `10308bf00d77c893e7fcf805b4a77edd2059fc6ccb9e6ab8025f4750fcd2a541`.
+  Two consecutive finalized production builds reproduced complete static-tree
+  digest
+  `6d4d92cfb34f86d7323029f2179e140d414a42e6ce506e2a26a6677c960c3579`.
+  The complete 24,412-page internal-link check passed and inventoried 49,385
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,508,930 bytes; manifest SHA-256 was
+  `9825530bcdf2397d30a1d61f7c386541e54b320bd97dd19c03c0c5d721d5065e`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,482 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, and a zero-vulnerability production dependency audit passed.
 - Batch 330 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `52c594514dd2cedadf57ad26f65714abebe100b8f576b3fec8be0e1536133630`.
