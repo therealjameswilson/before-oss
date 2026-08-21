@@ -19,6 +19,13 @@ Run: 2026-08-21 UTC
   rerun, and the prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
   isolated rerun remain documented in its release entry.
+- Batch 346 complete browser and accessibility matrix: the 13.0-minute
+  single-worker sweep completed **1,028 / 1,029** cases across desktop, phone,
+  and tablet. The sole tablet Sources-page case stalled for 3.3 minutes inside
+  axe's page evaluation after navigation completed in 225 ms; its trace showed
+  no failed request, console error, or assertion failure. The exact isolated
+  rerun passed **1 / 1** in 12.4 seconds. All 27 accessibility routes therefore
+  have a clean passing run across their configured viewports.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -156,6 +163,35 @@ Run: 2026-08-21 UTC
   person entities in one visible possible-duplicate group, masks identifiers,
   retains the earlier Duke student evidence only on the supported Box 14
   person, and routes seven unresolved identities to Box 101 review.
+- Focused Batch 346 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet after a test-only expectation for a private next-action
+  note was removed. The trace confirmed that the public Malcolm W. Callanan
+  page correctly displays its separate not-started status and shared possible-
+  duplicate group without publishing private review notes. The regression
+  confirms Robert F. Callahan's exact-identifier and independent-obituary
+  identity evidence, leaves his undefined Army occupation code uninterpreted,
+  withholds Arthur E. and Charles M. Callahan namesake leads, keeps Malcolm and
+  Malcolm W. Callanan separate, masks identifiers, and routes unsupported
+  identities to Boxes 101-102 review.
+- Batch 346 local release verification: **passed with one recorded axe stall
+  and a clean isolated rerun**. Consecutive public trees reproduced digest
+  `e6a037c2c880265387a408141885641950475c9b609632cdb5882513d3b34c5e`;
+  generated-data mirrors reproduced
+  `a2c0298be2453b9f980622e560089704b2d9daa2e073005ab28cf884d9df64c2`;
+  and consecutive finalized production builds reproduced static-tree digest
+  `8744fefc21d493560bedfff758ec69178a2101b220ed3e94aea9ea2415b7f155`.
+  The complete 24,419-page internal-link check passed and inventoried 49,423
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,305,748 bytes; manifest SHA-256 was
+  `a73cb34ef08d4e893078ed29773fb5f6a9b70320905bb042483c401b456f1533`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,489 built artifacts. The strict evidence bundle passed
+  repeated-import idempotence, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **3 / 3**
+  regression, the full matrix's **1,028 / 1,029** completed cases plus clean
+  **1 / 1** exact-case rerun, five direct source checks, and a zero-
+  vulnerability production dependency audit passed. Remote release workflows
+  are pending.
 - Batch 345 local release verification: **passed with two recorded matrix
   timeouts and clean isolated reruns**. Consecutive public trees reproduced
   digest
@@ -176,6 +212,17 @@ Run: 2026-08-21 UTC
   **6 / 6** exact-case rerun, two direct official-source checks, and a zero-
   vulnerability production dependency audit passed. Remote release workflows
   are pending.
+- Batch 345 production verification: **Pages passed; post-merge Test remains
+  in progress**. Release `871b8f3ec1b93df4fd019a49a5298184739ab6a9`
+  passed the pull-request quality gate and Pages workflow
+  [32502200259](https://github.com/therealjameswilson/before-oss/actions/runs/32502200259).
+  Seven core routes and all ten Batch 345 person routes returned HTTP 200. The
+  live manifest and all 65 assets matched the committed release byte for byte
+  across 79,286,268 bytes; manifest SHA-256 was
+  `ac22d46e6065c5649f7d1ccafc5f785eb2f0f91a459272196169325e063d40ef`.
+  Post-merge Test workflow
+  [32502200255](https://github.com/therealjameswilson/before-oss/actions/runs/32502200255)
+  is still running and is not reported as passed.
 - Batch 344 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `b11271e91d203a02010d861e2527e0d8d8a48a691d94859b92f3688ab5218427`.

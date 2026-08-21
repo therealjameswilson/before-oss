@@ -4,13 +4,15 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,026** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 23.0-minute
-single-worker Batch 345 sweep completed **1,024 / 1,026**: two older Batch
-223/226 cases timed out without an assertion or axe failure. Their complete
-six-case isolated rerun passed **6 / 6** across all three viewports in 6.8
-seconds. The timeout result remains visible rather than being rewritten as a
-clean uninterrupted pass.
+The expanded release matrix contains **1,029** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 13.0-minute
+single-worker Batch 346 sweep completed **1,028 / 1,029**: the tablet Sources-
+page axe evaluation stalled for 3.3 minutes after navigation completed in 225
+ms. Its trace contained no failed request, console error, or assertion failure,
+and the exact isolated rerun passed **1 / 1** in 12.4 seconds. The stall remains
+visible rather than being rewritten as a clean uninterrupted pass. Batch 345's
+two older Batch 223/226 timeouts and clean **6 / 6** isolated rerun also remain
+documented below.
 The prior Batch 342 post-calibration run's one traced Chromium navigation stall
 and clean **2 / 2** exact-case rerun remain documented below rather than
 erased.
@@ -21,6 +23,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 346 adds a focused direct-route regression for Deborah H. Calkins through
+Malcolm Callanan on PDF page 66, plus the adjacent Malcolm W. Callanan duplicate
+candidate. It confirms Robert F. Callahan's identity without interpreting his
+undefined Army occupation code or turning undated schools into pre-OSS
+affiliations; withholds Arthur E. and Charles M. Callahan namesake leads; keeps
+the two Malcolm rows separate in one visible possible-duplicate group; masks
+identifiers; and routes unsupported identities to Boxes 101-102 review. The
+focused regression passed **3 / 3** across desktop, phone, and tablet after a
+test-only expectation for private next-action text was removed. Every axe route
+has a clean passing run; the sole complete-matrix stall passed its exact rerun.
 
 Batch 345 adds a focused direct-route regression for Robert C. Caldwell through
 Caterino J. Califano across PDF pages 65-66. It keeps Robert's undefined

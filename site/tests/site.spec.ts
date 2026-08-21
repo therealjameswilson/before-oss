@@ -27422,3 +27422,77 @@ test("Batch 345 preserves official Army evidence, a transposed-name duplicate, a
     }
   }
 });
+
+test("Batch 346 confirms Robert F. Callahan while withholding namesake and duplicate leads", async ({
+  page,
+}) => {
+  await page.goto("./people/efeab55d-997e-55f4-9584-b14469fd1c12/");
+  await expect(page.getByRole("heading", { name: "Robert F Callahan", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7759");
+  await expect(page.locator("main")).toContainText("Robert Francis Callahan of Boston");
+  await expect(page.locator("main")).toContainText("undefined civilian-occupation code");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/043a7dba-57ea-589e-9632-d7be0032faef/");
+  await expect(page.getByRole("heading", { name: "Arthur E Callahan", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("compatible with an exact-name Navy veteran");
+  await expect(page.locator("main")).toContainText("lead remains unaccepted");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/97183916-f638-5418-a9ee-d036e11f8a3a/");
+  await expect(page.getByRole("heading", { name: "Charles M Callahan Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Notre Dame sources supply a strong exact-initial candidate");
+  await expect(page.locator("main")).toContainText("candidate remains unaccepted");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/4ab496be-8ea1-5b58-a515-7d7debd96e2a/");
+  await expect(page.getByRole("heading", { name: "Malcolm Callanan", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("duplicate-");
+  await expect(page.locator("main")).toContainText("separate Malcolm W. Callanan row");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/e6793436-6f05-5249-8387-32970b4e6c01/");
+  await expect(page.getByRole("heading", { name: "Malcolm W Callanan", exact: true })).toBeVisible();
+  await expect(page.getByText("not started", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("duplicate-");
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["3b12aae1-cd7b-5e4e-a877-d58498b0245b", "Deborah H Calkins", null],
+    ["ae4a3140-afe8-5ced-9b4c-13c7a25fcfa2", "Felix Callaghan", null],
+    ["d43aecc6-35fe-5579-b84f-59bd49d9853e", "Donald R Callahan", "••••8231"],
+    ["c9db4b05-c440-56f8-893b-6529218bf419", "Dorothy B Callahan", null],
+    ["43d3922a-5740-52b7-92df-4d01b6e212a5", "Nancy Callahan", null],
+    ["3a893b3a-b2fc-59f7-81f7-ff373550ae34", "Robert B Callahan", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
