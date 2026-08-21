@@ -12,11 +12,46 @@ The build includes 23,940 person profiles, 470 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,414 unique external URLs for separate live
+The checker inventoried 49,415 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All five Batch 341 cited source URLs returned HTTP 200 during targeted
+All four Batch 342 cited source URLs returned HTTP 200 during targeted
 verification. No access control was bypassed.
+
+## Batch 342 local release check
+
+The complete 24,418-page internal-link pass includes Vittoria G. Cahn through
+Peter M. Calacci on PDF page 65 across Boxes 100-101. Alfred Cahnmann's and
+Salvatore Caimano's qualified occupations remain separate from employment;
+Rollie W. Cain's official OSS China identity does not become a predecessor
+claim; the printed `Benjamine` spelling remains intact; and all unresolved
+paths remain visible. All 74 Python tests, the deterministic 200-profile audit,
+focused three-viewport regression, dependency audit, database integrity checks,
+and public-identifier audit pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,156,920 bytes and has
+SHA-256
+`36da0fe2f603c211b3ca9f483f097909d09855c1c142a333188576291126df91`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,488 production
+artifacts. It rejected 616 and 1,041 harmless candidate substrings,
+respectively, classified two manifest-size coincidences in each tree, and found
+no aggregate or unexpected boundary matches.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`383b8c624af9320501173605b6459176fd044e439808c3d6e686287b8e524ef4`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`4e9b70ffe17ae6bb2e78077f787dc23b1dd9a6acd619904e6725db159a53c395`.
+The complete browser, responsive, and accessibility matrix passed 1,017 /
+1,017 in an uninterrupted 11.5-minute single-worker run across desktop, phone,
+and tablet before the final CIA source-quality calibration. A complete post-
+calibration rerun passed 1,016 / 1,017; the retained trace isolated one
+10.6-minute Chromium navigation stall in an unchanged Batch 197 phone profile,
+with no network request or console error. That exact phone case then passed 2 /
+2 in 0.8 seconds per run, and the final Batch 342 focused regression passed 3 /
+3.
 
 ## Batch 341 local release check
 
@@ -49,6 +84,29 @@ tree digest
 The complete browser, responsive, and accessibility matrix passed 1,014 /
 1,014 in an uninterrupted 10.2-minute single-worker run across desktop, phone,
 and tablet.
+
+## Batch 341 production deployment
+
+Release `e8a101ca01455bd3cc0be64c494acaeda1c5e0dc` passed pull-request workflow
+[32474450714](https://github.com/therealjameswilson/before-oss/actions/runs/32474450714),
+post-merge test workflow
+[32476376061](https://github.com/therealjameswilson/before-oss/actions/runs/32476376061),
+and Pages workflow
+[32476376007](https://github.com/therealjameswilson/before-oss/actions/runs/32476376007).
+The production audit opened seven core routes, all ten Batch 341 profiles, and
+the new Franklin College organization route. All 18 routes returned HTTP 200
+and matched the audited release after normalizing only the deployment host and
+percent-encoding in prefilled correction URLs. The live manifest and all 65
+listed assets matched the release byte for byte across 79,121,229 bytes; the
+live manifest SHA-256 is
+`34cc98b068883b04a4decfd36bc1140a74db91330fb27b935b2d588b4c6687ad`.
+
+Live statistics exactly reproduced 3,196 attempted people, 455 verified
+affiliations, 194 verified employers, 3,148 archival-review assessments, 2,511
+public claims, 2,272 public sources, and 470 public organizations. Because
+every public data asset matched the audited release byte for byte, the
+successful local boundary-aware private-identifier result applies unchanged
+to production.
 
 ## Batch 340 local release check
 

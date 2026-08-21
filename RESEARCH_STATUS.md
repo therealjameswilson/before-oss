@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,196 people with a non-planned attempt | 23,940 active person entities | 13.3500% |
+| Research-attempt coverage | 3,206 people with a non-planned attempt | 23,940 active person entities | 13.3918% |
 | Verified-affiliation coverage | 455 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9006% |
 | Verified-employer coverage | 194 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8104% |
-| Archival-review coverage | 3,148 people with an individual file-access/priority assessment | 23,940 active person entities | 13.1495% |
+| Archival-review coverage | 3,158 people with an individual file-access/priority assessment | 23,940 active person entities | 13.1913% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 575
-- Identity status `high_confidence`: 488
+- Identity status `confirmed`: 577
+- Identity status `high_confidence`: 489
 - Identity status `probable`: 108
 - Identity status `ambiguous`: 54
 - Identity status `conflicting`: 48
-- Identity status `unresolved`: 22,667
+- Identity status `unresolved`: 22,664
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,149
-- Enlisted Army personnel: 3,784
+- Unknown or indeterminate: 16,147
+- Enlisted Army personnel: 3,786
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,431 no; 16,289 indeterminate.
+Commissioned classification: 2,220 yes; 5,433 no; 16,287 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,744
+- `not_started`: 20,734
 - `in_progress`: 47
 - `candidate_found`: 1
 - `needs_identity_review`: 80
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 484
-- `requires_archival_review`: 2,162
+- `occupation_only_found`: 486
+- `requires_archival_review`: 2,170
 - `completed`: 104
 - `conflicting_sources`: 49
 - `verified_employer_found`: 192
-- Claim confidence: 759 confirmed; 1,056 high; 639 medium; 43 low; 59
+- Claim confidence: 761 confirmed; 1,057 high; 641 medium; 43 low; 59
   conflicting
-- Durable evidence inventory: 3,357 source records representing 1,548 unique
-  documents; 481 organizations; 1,272 affiliations; 2,556 claims; and 5,776
+- Durable evidence inventory: 3,361 source records representing 1,550 unique
+  documents; 481 organizations; 1,274 affiliations; 2,561 claims; and 5,786
   claim-source links
-- Reviewed public projection: 470 organizations; 1,262 published, qualified,
-  or conflict-visible affiliations; 2,511 published, qualified, or
-  conflict-visible claims; and 2,272 public citation records
+- Reviewed public projection: 470 organizations; 1,264 published, qualified,
+  or conflict-visible affiliations; 2,516 published, qualified, or
+  conflict-visible claims; and 2,276 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,220 yes; 5,431 no; 16,289 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,990. The detailed adapter breakdown remains reproducible in
+  3,000. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,388 across 1,349 people; 135 additional
+- Saved `source_reviewed` outcomes: 1,391 across 1,352 people; 135 additional
   attempts across 122 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,405
+- Total recorded attempts/plans: 4,415
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,201; 1,167 have at least one public-visible
+- People with saved reviewed claims: 1,204; 1,170 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5820,6 +5820,54 @@ Commissioned classification: 2,220 yes; 5,431 no; 16,289 indeterminate.
   static builds, and a zero-vulnerability production dependency audit.
   Production deployment verification is recorded in the QA reports when the
   release reaches GitHub Pages.
+- Batch 342 covers Vittoria G. Cahn through Peter M. Calacci, the next ten
+  contiguous personnel rows on PDF page 65. The first nine are indexed in Box
+  100 and Peter M. Calacci is indexed in Box 101. The page and the two relevant
+  official Army occupation-code pages were rendered and visually checked. All
+  printed private identifiers remain masked in public outputs.
+
+  NARA's official Army merged file confirms Alfred Cahnmann and Salvatore
+  Caimano through exact uncommon-name and private-identifier agreement.
+  Cahnmann's Army-entry code supports only the broad foremen-in-services-or-
+  amusements group. Caimano's supports only the steam-fitter, gas-fitter, or
+  plumber group and does not distinguish among those trades. Both findings are
+  published as medium-confidence, strongly date-bounded occupations rather
+  than employers or proven immediate pre-OSS roles; no establishment, company,
+  union, worksite, or employer is invented.
+
+  An official CIA historical article identifies the exact uncommon name and
+  matching first-lieutenant rank Rollie W. Cain among Americans photographed
+  with an OSS operational group in China in July 1945. This supports a high-
+  confidence identity but supplies neither the indexed private identifier nor
+  a pre-OSS predecessor chronology. The source is rated authoritative
+  institutional rather than direct personnel evidence, and Cain remains on a
+  Box 100 archival-review path for his earlier Army unit, civilian occupation,
+  or employer.
+
+  Vittoria G. Cahn, Cleveland M. Cail, Ruth B. Caillavet, George Cailler,
+  Benjamine B. Cain, John N. Cain, and Peter M. Calacci remain unresolved.
+  Cleveland Cail's postwar architect namesake and Peter Calacci's postwar union
+  references are not projected backward. The printed `Benjamine` spelling is
+  preserved, while `Benjamin` remains only a search alias. Absence of John N.
+  Cain's private identifier from the enlisted Army file is not treated as
+  disproof or as evidence for another branch.
+- Batch 342's strict evidence bundle adds four sources, two affiliations, five
+  claims, ten claim-source links, ten person updates, and ten durable research
+  attempts. It adds two occupation-only results, one high-confidence OSS
+  identity, and seven unresolved archival paths without adding an employer.
+  The bundle passed strict schema validation, repeated-import idempotence,
+  SQLite integrity and foreign-key checks, deterministic public export, the
+  deterministic 200-profile audit, all 74 Python tests, Astro diagnostics with
+  zero errors, warnings, or hints, a 24,418-page static build, the focused 3 / 3
+  desktop, phone, and tablet regression, an uninterrupted complete 1,017 /
+  1,017 browser, responsive, and accessibility matrix before the final CIA
+  source-quality calibration, the 24,418-page link check, public-identifier
+  audits, consecutive deterministic public and static builds, four targeted
+  source checks, and a zero-vulnerability production dependency audit. A full
+  post-calibration rerun passed 1,016 / 1,017 after one unchanged Batch 197
+  phone route incurred a traced Chromium navigation stall; the exact case then
+  passed 2 / 2. Production deployment verification is recorded in the QA
+  reports when the release reaches GitHub Pages.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's

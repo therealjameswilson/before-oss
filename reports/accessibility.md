@@ -4,16 +4,32 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,014** browser, responsive, and
+The expanded release matrix contains **1,017** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 341 release sweep passed **1,014 / 1,014** in 10.2 minutes. The
-prior Batch 328 run's eight late browser-session or teardown timeouts and clean
+single-worker Batch 342 release sweep passed **1,017 / 1,017** in 11.5 minutes
+before the final CIA source-quality calibration. A complete post-calibration
+rerun passed **1,016 / 1,017**; the retained trace isolated a 10.6-minute
+Chromium navigation stall in one unchanged Batch 197 phone profile, with no
+network request or console error. That exact case then passed **2 / 2** in 0.8
+seconds per run, and the final Batch 342 focused regression passed **3 / 3**.
+The prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
 table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 342 adds a focused direct-route regression for Vittoria G. Cahn through
+Peter M. Calacci on PDF page 65. It confirms Alfred Cahnmann and Salvatore
+Caimano while keeping their broad Army-entry occupations separate from
+employers; qualifies Rollie W. Cain's official OSS China identity without
+inventing a predecessor; preserves the printed `Benjamine` spelling; masks
+private identifiers; and routes seven unresolved profiles to Box 100 or 101
+review. The focused regression passed **3 / 3** across desktop, phone, and
+tablet. Its initial run exposed a test-only wording mismatch on the standard
+unresolved-employer message; the expectation was corrected and the complete
+release matrix then passed.
 
 Batch 341 adds a focused direct-route regression for John F. Cady through
 Rolf Cahn across PDF pages 64-65. It publishes Cady's Franklin College
