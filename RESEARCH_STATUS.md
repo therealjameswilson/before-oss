@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,246 people with a non-planned attempt | 23,940 active person entities | 13.5589% |
-| Verified-affiliation coverage | 455 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9006% |
-| Verified-employer coverage | 194 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8104% |
-| Archival-review coverage | 3,199 people with an individual file-access/priority assessment | 23,940 active person entities | 13.3626% |
+| Research-attempt coverage | 3,276 people with a non-planned attempt | 23,940 active person entities | 13.6842% |
+| Verified-affiliation coverage | 456 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9048% |
+| Verified-employer coverage | 195 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8145% |
+| Archival-review coverage | 3,228 people with an individual file-access/priority assessment | 23,940 active person entities | 13.4837% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 225
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 585
-- Identity status `high_confidence`: 491
+- Identity status `confirmed`: 587
+- Identity status `high_confidence`: 497
 - Identity status `probable`: 112
 - Identity status `ambiguous`: 55
 - Identity status `conflicting`: 49
-- Identity status `unresolved`: 22,648
+- Identity status `unresolved`: 22,641
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,139
-- Enlisted Army personnel: 3,794
-- Commissioned Army officers: 2,101
+- Unknown or indeterminate: 16,136
+- Enlisted Army personnel: 3,795
+- Commissioned Army officers: 2,102
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 3
-- Civilian professional or administrative grades: 1,488
+- Civilian professional or administrative grades: 1,489
 - Foreign or Allied military personnel: 250
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 85
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
+Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,694
+- `not_started`: 20,664
 - `in_progress`: 47
 - `candidate_found`: 1
 - `needs_identity_review`: 85
 - `needs_temporal_review`: 9
-- `documented_prewar_employer_found`: 61
+- `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 492
-- `requires_archival_review`: 2,196
+- `occupation_only_found`: 495
+- `requires_archival_review`: 2,220
 - `completed`: 104
 - `conflicting_sources`: 50
-- `verified_employer_found`: 192
-- Claim confidence: 769 confirmed; 1,059 high; 648 medium; 48 low; 60
+- `verified_employer_found`: 193
+- Claim confidence: 771 confirmed; 1,067 high; 654 medium; 48 low; 60
   conflicting
-- Durable evidence inventory: 3,383 source records representing 1,565 unique
-  documents; 482 organizations; 1,281 affiliations; 2,584 claims; and 5,832
+- Durable evidence inventory: 3,401 source records representing 1,582 unique
+  documents; 484 organizations; 1,286 affiliations; 2,600 claims; and 5,866
   claim-source links
-- Reviewed public projection: 471 organizations; 1,271 published, qualified,
-  or conflict-visible affiliations; 2,534 published, qualified, or
-  conflict-visible claims; and 2,292 public citation records
+- Reviewed public projection: 473 organizations; 1,276 published, qualified,
+  or conflict-visible affiliations; 2,550 published, qualified, or
+  conflict-visible claims; and 2,310 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,12 +76,12 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,020. The detailed adapter breakdown remains reproducible in
+  3,070. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,397 across 1,358 people; 138 additional
-  attempts across 125 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,455
+- Saved `source_reviewed` outcomes: 1,409 across 1,370 people; 142 additional
+  attempts across 129 people have a saved `candidate_found` outcome
+- Total recorded attempts/plans: 4,485
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,220; 1,181 have at least one public-visible
@@ -5919,6 +5919,67 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 349 covers Pierre Cambon through Rawley Cameron, the next ten
+  contiguous personnel rows on PDF page 66 across Boxes 102-103. The page was
+  rendered and visually checked. The French `S/Lt` designation, the printed
+  `Gere` form, the initials-only J. A. Cameron row, and every private
+  identifier remain exactly preserved in the research database. Public
+  identifiers are masked.
+
+  Pierre Cambon is a high-confidence identity. The exact indexed name, French
+  second-lieutenant designation, and a specialized mission chronology align
+  him with the OSS Diamant mission under the alias Pierre Coulon. That
+  chronology cites the NARA Diamant mission report and French defence-archive
+  file GR 28 P 4 173/125. The direct files remain unreviewed, so the identity
+  is not promoted to confirmed. BCRA, SAARF, mission, alias, and later-service
+  leads are not converted into a pre-OSS employer or predecessor without
+  chronology.
+
+  Antonio Camboni is also a high-confidence identity. A Temple University
+  dissertation explicitly names Private Antonio Camboni in the OSS Sardinia
+  mission and repeatedly cites his October 22, 1943 mission report in RG 226.
+  A historical review of Carla Cossu's archival study independently uses the
+  Antonio Anthony variant and describes him as a scale merchant in Chicago in
+  its recruitment narrative. The site publishes that evidence only as a
+  medium-confidence occupation claim. It does not invent a company,
+  self-employment relationship, named employer, or immediate-pre-OSS
+  affiliation.
+
+  Frank J. Camelia, Anthony Camera, Anna F. Cameron, Elizabeth R. Cameron,
+  Francis G. Cameron, Gere G. Cameron, J. A. Cameron, and Rawley Cameron
+  remain unresolved and retain critical Box 102 or Box 103 archival-review
+  paths. A postwar Yale publication by an Elizabeth R. Cameron and rare-name
+  genealogy records for Rawley Cameron lack OSS or personnel-file linkage and
+  remain rejected private leads rather than public facts.
+- Batch 349's strict evidence bundle adds four sources, no organizations or
+  affiliations, three claims, six claim-source links, ten person updates, and
+  ten durable research attempts. It contributes two high-confidence
+  identities, one qualified medium-confidence prewar occupation, and eight
+  unresolved archival-review paths without adding an employer. Three repeated
+  imports produced identical results; SQLite integrity and foreign-key checks,
+  the deterministic 200-profile audit, all 74 Python tests, the 24,421-page
+  build and internal-link check, the 24,491-artifact private-identifier audit,
+  the zero-vulnerability dependency audit, and the focused desktop, phone, and
+  tablet regression all pass. Astro reports zero errors, warnings, or hints.
+  The complete uninterrupted browser/accessibility matrix passed 1,038 / 1,038
+  in 10.9 minutes, including all 27 axe cases. Consecutive public, generated-
+  data, and finalized static builds reproduced exactly; all 65 manifest assets
+  match their recorded sizes and SHA-256 values across 79,470,352 bytes. After
+  rebasing onto the deployed Batch 348 release, all 74 Python tests and the
+  cumulative Batch 348/349 browser regression passed again (6 / 6).
+- After Batch 349, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,276
+  people, or 13.6842% of active entities; 456 people (1.9048%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,228 (13.4837%) have an assessed
+  archival-review disposition, and 20,664 remain `not_started`. The private
+  evidence graph now contains 1,286 affiliations, 484 organizations, 3,401
+  sources, 2,600 claims, and 5,866 claim-source links. Claim confidence counts
+  are 771 confirmed, 1,067 high, 654 medium, 48 low, and 60 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,276
+  affiliations, 2,310 sources, and 2,550 published or qualified claims, backed
+  by 1,582 unique source documents. It preserves 225 possible-duplicate groups.
 - Batch 348 covers Carlo Calosi through Dominick D. Camarote, the next ten
   contiguous personnel rows on PDF page 66, all indexed in Box 102. The page
   was rendered and visually checked. The printed `Maragaret M Calvin` spelling
@@ -5969,8 +6030,13 @@ Commissioned classification: 2,220 yes; 5,441 no; 16,279 indeterminate.
   browser/accessibility matrix passed 1,035 / 1,035 in 10.5 minutes, including
   all 27 axe cases. The 24,421-page internal-link check, zero-vulnerability
   dependency audit, complete manifest verification, and consecutive public,
-  generated-data, and static build reproductions all pass. Remote release
-  workflows are pending.
+  generated-data, and static build reproductions all pass. Release
+  `0ffff436913156b2ef4e19076d6d4f63c3eb7959` passed pull-request Test workflow
+  32511729721, Pages workflow 32513964893, and post-merge Test workflow
+  32513964804. Seven core routes, all ten Batch 348 profiles, and the University
+  of Genoa organization route returned HTTP 200 and matched the tested build
+  after literal and URL-encoded canonical-host normalization. The live manifest
+  and all 65 listed assets matched local bytes, sizes, and SHA-256 values.
 - After Batch 348, the database contains 23,978 immutable source rows and
   23,940 active person entities (23,941 stored, including one superseded
   entity). Research has reached a terminal or saved review outcome for 3,266

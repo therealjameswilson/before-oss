@@ -4,10 +4,11 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,035** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.5-minute
-single-worker Batch 348 sweep passed **1,035 / 1,035** without a timeout or
-accessibility failure. An earlier focused-only run exposed a test expectation
+The expanded release matrix contains **1,038** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.9-minute
+single-worker Batch 349 sweep passed **1,038 / 1,038** without a timeout or
+accessibility failure. The prior 10.5-minute Batch 348 sweep passed **1,035 /
+1,035**. Its earlier focused-only run exposed a test expectation
 that repeated a private Joseph N. Camarda next-action note; it was corrected to
 public profile wording and the clean focused rerun passed **3 / 3**. The prior
 Batch 347 clean **1,032 / 1,032** run, and its initial stale Batch 346
@@ -27,6 +28,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 349 adds direct-route coverage for Pierre Cambon through Rawley Cameron
+on PDF page 66 across Boxes 102-103. It verifies Pierre's high-confidence OSS
+Diamant identity without publishing BCRA, SAARF, mission, or alias evidence as
+a predecessor affiliation; publishes Antonio Camboni's scale-merchant evidence
+only as a qualified occupation without a named employer or organization link;
+preserves the printed `Gere` and initials-only forms; masks identifiers; and
+routes eight unresolved identities to archival review. An initial focused run
+expected a private match note that the public page correctly omits; the
+expectation was removed, the clean focused rerun passed **3 / 3**, and all 27
+axe cases passed in the complete **1,038 / 1,038** matrix.
 
 Batch 348 adds direct-route coverage for Carlo Calosi through Dominick D.
 Camarote on PDF page 66 and for the University of Genoa, Institute of

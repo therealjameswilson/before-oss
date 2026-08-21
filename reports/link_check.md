@@ -12,8 +12,14 @@ The build includes 23,940 person profiles, 473 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,435 unique external URLs for separate live
+The checker inventoried 49,437 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All four Batch 349 citation endpoints returned HTTP 200 during targeted
+scripted verification: the NARA personnel-index PDF, the CND-Castille mission
+chronology PDF, the Temple University dissertation, and the Fuoripagina
+historical review. No access control was bypassed and no authenticated Catalog
+API request was made.
 
 Five of Batch 348's six citation endpoints returned HTTP 200 during targeted
 scripted verification: the NARA personnel-index PDF, public Catalog Army-series
@@ -49,6 +55,38 @@ scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
 
+## Batch 349 local release check
+
+The complete 24,421-page internal-link pass includes Pierre Cambon through
+Rawley Cameron on PDF page 66 across Boxes 102-103. Pierre's high-confidence
+OSS Diamant identity does not turn mission, alias, BCRA, or SAARF evidence into
+a predecessor affiliation. Antonio Camboni's scale-merchant evidence remains a
+qualified occupation without a named employer, company, self-employment
+relationship, or organization link. Eight unresolved identities retain
+archival-review paths, and printed, initials-only, and masked-identifier forms
+remain recoverable. All 74 Python tests, the deterministic 200-profile audit,
+the focused 3 / 3 browser regression, the clean 1,038 / 1,038 complete matrix,
+dependency audit, database integrity checks, and public-identifier audits pass;
+Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,470,352 bytes and has
+SHA-256
+`eaaaf9515aed3a5a40ea6cb9de61b83baa547bda979d05cc4569b7e0bc9a5d73`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 614 and 1,039 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`da1da66f7f696b2b6f0c7f6b672ea9c18f6a94da6640b3e95055388311c04222`.
+Consecutive generated-data mirrors produced digest
+`7aa96a607462ddf761c6fe846c7c65b6ea0a4161e07fd9cc4fc29591523a42e2`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`53d16b1e7baf91f6c403488819fbc9439e3af01d2a590aa561442c7afc38a11a`.
+
 ## Batch 348 local release check
 
 The complete 24,421-page internal-link pass includes Carlo Calosi through
@@ -80,6 +118,20 @@ Consecutive generated-data mirrors produced digest
 Consecutive finalized production builds produced identical complete static-
 tree digest
 `e6e1b12059d8fed19a9ecf657236424344bfb2d776a8983d8bfa92de07dbbd67`.
+
+## Batch 348 production verification
+
+Release `0ffff436913156b2ef4e19076d6d4f63c3eb7959` passed the pull-request
+quality gate, Pages workflow
+[32513964893](https://github.com/therealjameswilson/before-oss/actions/runs/32513964893),
+and post-merge Test workflow
+[32513964804](https://github.com/therealjameswilson/before-oss/actions/runs/32513964804).
+Seven core routes, all ten Batch 348 person routes, and the University of Genoa
+organization route returned HTTP 200 and matched the tested release after
+literal and URL-encoded canonical-host normalization. The live manifest and
+all 65 listed assets matched local bytes, sizes, and SHA-256 values; the listed
+assets total 79,442,316 bytes and manifest SHA-256 is
+`272be046a2e48082065b59e0fe5a8542173ddb1a34921e4c2da83012e9c56d8c`.
 
 ## Batch 347 local release check
 

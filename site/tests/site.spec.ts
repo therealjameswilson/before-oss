@@ -27665,3 +27665,57 @@ test("Batch 348 qualifies Carlo Calosi, identifies Joseph Camarda, and withholds
     }
   }
 });
+
+test("Batch 349 identifies Cambon and Camboni while preserving occupation and archival boundaries", async ({
+  page,
+}) => {
+  await page.goto("./people/c197f9c6-6c37-51d4-8c39-f31b1da83541/");
+  await expect(page.getByRole("heading", { name: "Pierre Cambon", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("high", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("French S/Lt");
+  await expect(page.locator("main")).toContainText("OSS Diamant mission");
+  await expect(page.locator("main")).toContainText("Pierre Coulon");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/6d46dcb5-2038-50ba-ad08-dc6de88e7c99/");
+  await expect(page.getByRole("heading", { name: "Antonio Camboni", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••1819");
+  await expect(page.locator("main")).toContainText("scale merchant in Chicago");
+  await expect(page.locator("main")).toContainText("commerciante di bilance a Chicago");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["97778bcc-3caf-5aa2-a9dd-dea07c9fdafe", "Frank J Camelia", "••••0738"],
+    ["1b1dffb0-2fb1-5b66-bfef-0edc3e7f3447", "Anthony Camera", "••••0438"],
+    ["0462a65a-03d7-50f2-8de0-9fa2662b5438", "Anna F Cameron", null],
+    ["21094e36-7c52-5a3c-a1df-9aef352f3d08", "Elizabeth R Cameron", null],
+    ["c29288b9-1504-5833-9ab0-9c235abcda9a", "Francis G Cameron", "••••7644"],
+    ["4210102e-5b9c-5ca1-a736-77d087ea911f", "Gere G Cameron", null],
+    ["5b17401c-4f3d-5bef-b07d-377dc0dc3fd6", "J A Cameron", null],
+    ["0db59815-9209-5f8c-b4da-1c7806617694", "Rawley Cameron", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
