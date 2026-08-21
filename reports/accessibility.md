@@ -4,18 +4,25 @@ Run: 2026-08-20 UTC
 
 ## Result
 
-The expanded release matrix contains **975** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. A resource-heavy
-single-worker sweep passed **967 / 975** in 1.94 hours; eight late-run cases
-ended in browser-session or teardown timeouts rather than completed assertion
-failures. A fresh-process rerun of exactly those eight cases passed **8 / 8**
-in 24.0 seconds. Thus every release case passed across the documented full and
-isolated executions, while the initial timeouts remain visible here. The
-matrix includes 27 axe scans of representative routes, including the growing
-Sources table.
+The expanded release matrix contains **978** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. An uninterrupted
+single-worker Batch 329 release sweep passed **978 / 978** in 8.7 minutes. The
+prior Batch 328 run's eight late browser-session or teardown timeouts and clean
+**8 / 8** isolated rerun remain documented below rather than erased. The matrix
+includes 27 axe scans of representative routes, including the growing Sources
+table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 329 adds a focused direct-route regression for Olsen D. Burns through
+Robert W. Burrell on PDF page 62, excluding the already reviewed intervening
+Jane Burrell row. It verifies two qualified Army-entry occupations without
+turning either into an employer; preserves Melvin S. Buros's exact identity
+while withholding an unassigned occupation code; keeps Captain Robert W.
+Burrell in the commissioned category without treating absence from an enlisted-
+only file as disproof; and routes six other unsupported identities to Box 95.
+The focused regression passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 327 adds a focused direct-route regression for Maccurdy Burnet through
 Robert J. Burnham across PDF pages 61-62. It verifies Maccurdy Burnet's UNC

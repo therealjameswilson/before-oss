@@ -7,12 +7,12 @@ Run: 2026-08-20 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,411 pages**
 - Internal link check: **24,411 HTML files passed**
-- Expanded browser and accessibility matrix: **967 / 975 passed** in a 1.94-
-  hour single-worker sweep across desktop, phone, and tablet. Eight late-run
-  cases ended in browser-session or teardown timeouts rather than completed
-  assertion failures; a fresh-process rerun passed those exact cases **8 / 8**
-  in 24.0 seconds. The 27 axe cases cover representative routes and test for
-  serious or critical accessibility violations.
+- Expanded browser and accessibility matrix: **978 / 978 passed** in an
+  uninterrupted 8.7-minute single-worker Batch 329 release sweep across
+  desktop, phone, and tablet. The 27 axe cases cover representative routes and
+  test for serious or critical accessibility violations. The prior Batch 328
+  run's eight late browser-session or teardown timeouts and clean **8 / 8**
+  isolated rerun remain documented in its release entry.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -23,6 +23,27 @@ Run: 2026-08-20 UTC
   without the unrelated Army subject, preserves both Marian H. Burns rows in a
   visible possible-duplicate group, and routes eight unresolved profiles to
   Box 95 without inventing employers or affiliations.
+- Focused Batch 329 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It keeps Robert T. Burns's painting and Robert W. Burns's
+  commercial-art evidence as date-bounded occupations rather than employers;
+  publishes Melvin S. Buros's exact identity without interpreting unassigned
+  code 070; preserves Captain Robert W. Burrell as a commissioned officer; and
+  routes the remaining unsupported identities to Box 95 review.
+- Batch 329 local release verification: **passed**. Two consecutive public-
+  data builds reproduced sorted path-and-file-SHA-256 digest
+  `c870eea9b9363117fcd8f3e1e835e3f82769b6f2dc4e49976d2a5023ff9de4fe`.
+  Two consecutive finalized production builds reproduced complete static-tree
+  digest
+  `eb15cc05780368bef98c348b1062983f1b9cd559146648a8a002091cae3d3fc9`.
+  The complete 24,411-page internal-link check passed and inventoried 49,381
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,382,032 bytes; manifest SHA-256 was
+  `e8e390488648af2896e4aba8f5c9cfce7c8357d1e3e95e9a4dfd327deada2963`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,481 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, and a zero-vulnerability production dependency audit passed.
 - Batch 328 local release verification: **passed**. Two consecutive public-
   data builds reproduced sorted path-and-file-SHA-256 digest
   `d283ea779953c888edd95c7df77f3fc3cf139690aef436b9f88fb76d1baab31f`.
@@ -38,6 +59,22 @@ Run: 2026-08-20 UTC
   evidence bundle passed two-import idempotence, SQLite integrity, and foreign-
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, and a zero-vulnerability production dependency audit passed.
+- Batch 328 production verification: **passed**. Release
+  `0eb5b323eb93a2dd4b4d0b6218faaed93032ed1c` passed pull-request workflow
+  [32437031383](https://github.com/therealjameswilson/before-oss/actions/runs/32437031383),
+  post-merge test workflow
+  [32439162550](https://github.com/therealjameswilson/before-oss/actions/runs/32439162550),
+  and Pages workflow
+  [32439162525](https://github.com/therealjameswilson/before-oss/actions/runs/32439162525).
+  The post-merge test job completed successfully in 25 minutes 55 seconds. A
+  cache-busted live audit returned HTTP 200 and nonempty content for seven core
+  routes and all eleven Batch 328 profiles. All 65 live assets matched the
+  merged manifest across 78,338,010 bytes; its SHA-256 was
+  `3ee96f28b7f0314838b84709578d8ca938ee416379a03d98805e26736660e830`.
+  The deployed site reported exactly 3,068 attempted profiles, 446 verified
+  affiliations, 192 verified employers, 3,019 archival assessments, 2,424
+  public claims, and 2,195 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 327 local release verification: **passed**. Two consecutive public-
   data builds reproduced sorted path-and-file-SHA-256 digest
   `83093fa3aab2c9d3364e6525b8b89416ae27998a9183316e5f2b9d993de4404f`.
