@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,020** browser, responsive, and
+The expanded release matrix contains **1,023** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The complete
-single-worker Batch 343 release sweep passed **1,020 / 1,020** in 9.8 minutes.
+single-worker Batch 344 release sweep passed **1,023 / 1,023** in 9.8 minutes.
 The prior Batch 342 post-calibration run's one traced Chromium navigation stall
 and clean **2 / 2** exact-case rerun remain documented below rather than
 erased.
@@ -17,6 +17,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 344 adds a focused direct-route regression for Dale W. Caldwell through
+Oliver J. Caldwell on PDF page 65. It separates Dale's Army-entry occupation,
+David's MIS Language School student status, Oliver's earlier missionary
+occupation, Hugh's withheld namesake, and six unresolved archival paths; it
+also verifies the new MIS Language School organization page and identifier
+masking. The complete release matrix passed **1,023 / 1,023**. After citation
+metadata was corrected, the focused regression passed **3 / 3** and the
+Sources-page axe regression passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 343 adds a focused direct-route regression for Robert M. Calais through
 James D. Calderwood on PDF page 65. It keeps three exact-identifier Army-entry

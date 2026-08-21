@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,418 pages**
-- Internal link check: **24,418 HTML files passed**
-- Expanded browser and accessibility matrix: **1,020 / 1,020 passed** in an
-  uninterrupted 9.8-minute single-worker Batch 343 release sweep across
+- Static production build: **24,419 pages**
+- Internal link check: **24,419 HTML files passed**
+- Expanded browser and accessibility matrix: **1,023 / 1,023 passed** in an
+  uninterrupted 9.8-minute single-worker Batch 344 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 342
   run's one traced browser-navigation stall and clean **2 / 2** exact-case
@@ -135,6 +135,33 @@ Run: 2026-08-21 UTC
   without merging subjects, withholds the Morris Calden federal-research lead
   pending identity and chronology review, masks private identifiers, and
   routes unsupported identities to Box 101 review.
+- Focused Batch 344 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It keeps Dale W. Caldwell's Army-entry occupation
+  separate from employers, David K. Caldwell's MIS Language School student
+  status separate from employment and rank, Oliver J. Caldwell's earlier
+  missionary occupation separate from a named mission, and Hugh M. Caldwell's
+  low-confidence namesake private. It also verifies the new organization page,
+  masks identifiers, and routes six unresolved people to Box 101 review. After
+  the citation-author and memorandum-date corrections, the focused regression
+  passed again **3 / 3**, and the Sources-page axe check passed **3 / 3**.
+- Batch 344 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `b11271e91d203a02010d861e2527e0d8d8a48a691d94859b92f3688ab5218427`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `1c3fbd6185c7ba7753dc96e601837cf11dc144890591cd99580000825cd00712`.
+  The complete 24,419-page internal-link check passed and inventoried 49,422
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 79,262,977 bytes; manifest SHA-256 was
+  `bab423a36c6b68df8569471818d9bf2ebd9fbd5655e800092100d92cf5f65c99`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,489 built artifacts. The strict
+  evidence bundle passed repeated-import idempotence, SQLite integrity and
+  foreign-key checks; all 74 Python tests, the deterministic 200-profile audit,
+  the complete **1,023 / 1,023** browser/accessibility matrix, final focused
+  person/organization and Sources accessibility checks, seven direct source-
+  endpoint checks plus an independently inspected official CIA document, and
+  a zero-vulnerability production dependency audit passed.
 - Batch 343 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `c5bb50fe49ef33bc4bab038897182e156b579ece509e2243cbc07dfac288312a`.
@@ -153,6 +180,17 @@ Run: 2026-08-21 UTC
   **3 / 3** regression, six targeted source checks with an identified project
   user agent where one repository required it, and a zero-vulnerability
   production dependency audit passed.
+- Batch 343 production verification: **passed**. Release
+  `4edb16f7cd37b7cf941647cf2c58ba484de4654d` passed pull-request workflow
+  [32483726866](https://github.com/therealjameswilson/before-oss/actions/runs/32483726866),
+  post-merge test workflow
+  [32486992602](https://github.com/therealjameswilson/before-oss/actions/runs/32486992602),
+  and Pages workflow
+  [32486992699](https://github.com/therealjameswilson/before-oss/actions/runs/32486992699).
+  Seven core routes and all ten Batch 343 profile routes returned HTTP 200. All
+  65 live assets matched the release manifest byte for byte across 79,213,316
+  bytes; manifest SHA-256 was
+  `a6208ba14a01a4797a04c7c0b198c6ff302215e087c9c1d61e7aa925de4d1f7a`.
 - Batch 342 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted generated-file digest
   `383b8c624af9320501173605b6459176fd044e439808c3d6e686287b8e524ef4`.

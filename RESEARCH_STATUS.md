@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,216 people with a non-planned attempt | 23,940 active person entities | 13.4336% |
+| Research-attempt coverage | 3,226 people with a non-planned attempt | 23,940 active person entities | 13.4754% |
 | Verified-affiliation coverage | 455 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9006% |
 | Verified-employer coverage | 194 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8104% |
-| Archival-review coverage | 3,168 people with an individual file-access/priority assessment | 23,940 active person entities | 13.2331% |
+| Archival-review coverage | 3,178 people with an individual file-access/priority assessment | 23,940 active person entities | 13.2749% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 581
-- Identity status `high_confidence`: 489
+- Identity status `confirmed`: 582
+- Identity status `high_confidence`: 491
 - Identity status `probable`: 109
-- Identity status `ambiguous`: 54
+- Identity status `ambiguous`: 55
 - Identity status `conflicting`: 49
-- Identity status `unresolved`: 22,658
+- Identity status `unresolved`: 22,654
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,143
-- Enlisted Army personnel: 3,790
+- Unknown or indeterminate: 16,142
+- Enlisted Army personnel: 3,791
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,437 no; 16,283 indeterminate.
+Commissioned classification: 2,220 yes; 5,438 no; 16,282 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,724
+- `not_started`: 20,714
 - `in_progress`: 47
 - `candidate_found`: 1
-- `needs_identity_review`: 80
-- `needs_temporal_review`: 8
+- `needs_identity_review`: 81
+- `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 489
-- `requires_archival_review`: 2,175
+- `occupation_only_found`: 491
+- `requires_archival_review`: 2,181
 - `completed`: 104
 - `conflicting_sources`: 50
 - `verified_employer_found`: 192
-- Claim confidence: 765 confirmed; 1,057 high; 644 medium; 44 low; 60
+- Claim confidence: 766 confirmed; 1,059 high; 647 medium; 45 low; 60
   conflicting
-- Durable evidence inventory: 3,367 source records representing 1,554 unique
-  documents; 481 organizations; 1,277 affiliations; 2,570 claims; and 5,805
+- Durable evidence inventory: 3,375 source records representing 1,560 unique
+  documents; 482 organizations; 1,280 affiliations; 2,577 claims; and 5,818
   claim-source links
-- Reviewed public projection: 470 organizations; 1,267 published, qualified,
-  or conflict-visible affiliations; 2,524 published, qualified, or
-  conflict-visible claims; and 2,281 public citation records
+- Reviewed public projection: 471 organizations; 1,270 published, qualified,
+  or conflict-visible affiliations; 2,530 published, qualified, or
+  conflict-visible claims; and 2,287 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,7 +81,7 @@ Commissioned classification: 2,220 yes; 5,437 no; 16,283 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,395 across 1,356 people; 137 additional
   attempts across 124 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,425
+- Total recorded attempts/plans: 4,435
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,210; 1,175 have at least one public-visible
@@ -5915,8 +5915,61 @@ Commissioned classification: 2,220 yes; 5,437 no; 16,283 indeterminate.
   complete 1,020 / 1,020 browser and accessibility matrix, public-identifier
   audits, consecutive deterministic public and static builds, six targeted
   source checks, and a zero-vulnerability production dependency audit.
-  Production deployment verification will be recorded in the QA reports when
-  this release reaches GitHub Pages.
+  Release `4edb16f7cd37b7cf941647cf2c58ba484de4654d` passed pull-request,
+  post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
+  profiles returned HTTP 200, and all 65 live manifest assets matched the
+  audited release byte for byte across 79,213,316 bytes.
+- Batch 344 covers Dale W. Caldwell through Captain Oliver J. Caldwell, the
+  next ten contiguous personnel rows on PDF page 65, all indexed in Box 101.
+  The page was rendered and visually checked. Full private identifiers remain
+  in the restricted database and are masked in every public projection.
+
+  NARA's official Army-entry record confirms Dale W. Caldwell through exact
+  name and private-identifier agreement and records the broad civilian
+  occupation `Salespersons` at Army entry on July 23, 1942. The public profile
+  presents this only as a medium-confidence, strongly date-bounded occupation:
+  it does not invent a company, store, territory, product, or immediate OSS
+  chronology.
+
+  The Japanese American Veterans Association's Military Intelligence Service
+  Language School registry matches David K. Caldwell by exact name and private
+  identifier and places him in its `Sav42-06` class. This is published as
+  student status with an uncertain temporal relationship to OSS, not as
+  employment, a commissioned rank, or a proven operational assignment.
+
+  A wartime CIA Reading Room memorandum addresses Captain Oliver Caldwell at
+  OSS headquarters in the China-Burma-India theater, while two scholarly
+  sources independently document Oliver J. Caldwell's China service and prior
+  missionary career. The exact name, rank, organization, and theater support a
+  high-confidence identity. `Missionary` is published only as a qualified
+  earlier occupation: no mission, board, church, school, or employer is named,
+  and a 1943-versus-1944 shorthand discrepancy prevents an immediate-pre-OSS
+  designation.
+
+  An official military legal history documents a former Seattle mayor and
+  World War I military-intelligence officer named Hugh M. Caldwell, but it
+  provides no matching private identifier, OSS link, Box 101 connection, or
+  World War II chronology. That candidate remains low-confidence and private;
+  the public profile shows an ambiguous identity requiring Box 101 review.
+  Eleanor T. Caldwell, Esther L. Caldwell, Harry L. Caldwell, James J.
+  Caldwell, Julius A. Caldwell, and Libby Caldwell remain unresolved. A
+  same-name flying-school corporal and other namesakes were rejected because
+  they did not establish the indexed identities.
+- Batch 344's strict evidence bundle adds eight sources, three affiliations,
+  seven claims, thirteen claim-source links, ten person updates, and ten
+  durable research attempts. It contributes one confirmed Army identity and
+  occupation, one high-confidence student identity, one high-confidence OSS
+  identity with a qualified earlier occupation, one withheld ambiguous
+  identity lead, and six unresolved archival paths. It adds no named employer.
+  The bundle passed strict schema validation, repeated-import idempotence,
+  SQLite integrity and foreign-key checks, deterministic public export, the
+  deterministic 200-profile audit, all 74 Python tests, Astro diagnostics with
+  zero errors, warnings, or hints, a 24,419-page static build and internal-link
+  check, the uninterrupted 1,023 / 1,023 browser and accessibility matrix,
+  final 3 / 3 person-and-organization and 3 / 3 Sources-page accessibility
+  regressions, public-identifier audits, consecutive deterministic public and
+  static builds, targeted source checks, and a zero-vulnerability production
+  dependency audit.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's

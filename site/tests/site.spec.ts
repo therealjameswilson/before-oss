@@ -27253,3 +27253,93 @@ test("Batch 343 preserves three occupations, one identifier conflict, and unreso
     }
   }
 });
+
+test("Batch 344 separates occupation, student status, identity leads, and unresolved archival paths", async ({
+  page,
+}) => {
+  await page.goto("./people/1fdf774c-c468-5b21-bc1e-98c310bdea87/");
+  await expect(page.getByRole("heading", { name: "Dale W Caldwell", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••3959");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Salesperson",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/2df355e0-04b9-570b-b866-1bddc38bae56/");
+  await expect(page.getByRole("heading", { name: "David K Caldwell", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs temporal review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5005");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Military Intelligence Service Language School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "student",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "temporal relation uncertain",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+
+  await page.goto("./organizations/939e34d7-609e-50bb-b0b4-c967399c81a1/");
+  await expect(
+    page.getByRole("heading", { name: "Military Intelligence Service Language School", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByText("David K Caldwell", { exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("student");
+
+  await page.goto("./people/0b1abcf7-987d-585d-a7b0-86bdf290f653/");
+  await expect(page.getByRole("heading", { name: "Oliver J Caldwell", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••8545");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Missionary",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "documented prewar",
+  );
+  await expect(page.locator("main")).toContainText("China-Burma-India");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/fddb9c38-3c43-507a-8ccd-5c24e018dd03/");
+  await expect(page.getByRole("heading", { name: "Hugh M Caldwell", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••4313");
+  await expect(page.locator("main")).toContainText("former Seattle mayor");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["2053ff26-d811-55d8-b102-2b97aebe37ad", "Eleanor T Caldwell", null],
+    ["20f834b3-4131-5c81-8e0c-c895849c7044", "Esther L Caldwell", null],
+    ["cb445c57-adba-57f3-bc36-bb1187d29441", "Harry L Caldwell", "••••7053"],
+    ["80b0723c-00e6-5aa9-b34e-d87c8b074ec5", "James J Caldwell", "••••9276"],
+    ["68751f46-10e0-52a2-a9d0-c46c14de48dc", "Julius A Caldwell", "••••9930"],
+    ["54f4000a-094f-5405-9f37-bab08c569bbd", "Libby Caldwell", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
