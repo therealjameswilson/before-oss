@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,057 people with a non-planned attempt | 23,940 active person entities | 12.7694% |
+| Research-attempt coverage | 3,068 people with a non-planned attempt | 23,940 active person entities | 12.8154% |
 | Verified-affiliation coverage | 446 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8630% |
 | Verified-employer coverage | 192 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8020% |
-| Archival-review coverage | 3,008 people with an individual file-access/priority assessment | 23,940 active person entities | 12.5647% |
+| Archival-review coverage | 3,019 people with an individual file-access/priority assessment | 23,940 active person entities | 12.6107% |
 
 ## Extraction and identity
 
@@ -20,15 +20,15 @@ Generated from the current local SQLite database on 2026-08-20 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 222
+- Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 545
 - Identity status `high_confidence`: 483
 - Identity status `probable`: 100
-- Identity status `ambiguous`: 48
-- Identity status `conflicting`: 43
-- Identity status `unresolved`: 22,721
+- Identity status `ambiguous`: 50
+- Identity status `conflicting`: 44
+- Identity status `unresolved`: 22,718
 
 ## Personnel categories
 
@@ -49,7 +49,7 @@ Commissioned classification: 2,215 yes; 5,404 no; 16,321 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,883
+- `not_started`: 20,872
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 69
@@ -57,18 +57,18 @@ Commissioned classification: 2,215 yes; 5,404 no; 16,321 indeterminate.
 - `documented_prewar_employer_found`: 59
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 464
-- `requires_archival_review`: 2,069
+- `requires_archival_review`: 2,079
 - `completed`: 98
-- `conflicting_sources`: 44
+- `conflicting_sources`: 45
 - `verified_employer_found`: 189
-- Claim confidence: 726 confirmed; 1,039 high; 606 medium; 39 low; 54
+- Claim confidence: 726 confirmed; 1,039 high; 606 medium; 39 low; 55
   conflicting
-- Durable evidence inventory: 3,271 source records representing 1,507 unique
-  documents; 474 organizations; 1,233 affiliations; 2,464 claims; and 5,572
+- Durable evidence inventory: 3,273 source records representing 1,507 unique
+  documents; 474 organizations; 1,233 affiliations; 2,465 claims; and 5,574
   claim-source links
 - Reviewed public projection: 463 organizations; 1,223 published, qualified,
-  or conflict-visible affiliations; 2,423 published, qualified, or
-  conflict-visible claims; and 2,193 public citation records
+  or conflict-visible affiliations; 2,424 published, qualified, or
+  conflict-visible claims; and 2,195 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,215 yes; 5,404 no; 16,321 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,786. The detailed adapter breakdown remains reproducible in
+  2,797. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,340 across 1,302 people; 128 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,264
+- Total recorded attempts/plans: 4,275
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,149; 1,119 have at least one public-visible
+- People with saved reviewed claims: 1,150; 1,120 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,55 @@ Commissioned classification: 2,215 yes; 5,404 no; 16,321 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 328 covers eleven contiguous Box 95 source rows on PDF page 62, from
+  Albert V. Burns through the second of two adjacent Marian H. Burns entries.
+  The page was rendered and visually checked at original resolution. Frank G.
+  Burns's private index identifier resolves to an official Army record carrying
+  a different name. The unrelated subject and full identifiers remain withheld;
+  the public profile records only the direct identity conflict and assigns no
+  Army rank, occupation, employer, or chronology. Gerald E. Burns produced no
+  exact Army-file identifier match, which remains nondispositive because that
+  series has documented omissions and excludes officers.
+
+  Both adjacent Marian H. Burns rows remain immutable, separately linked, and
+  represented by separate ambiguous person entities. Because the rows have the
+  same printed name, Box, and location and no differentiating rank, identifier,
+  note, occupation, or assignment, they share one visible possible-duplicate
+  group pending comparison of both Box 95 folders. Albert V. Burns, Arvin
+  Burns, Catherine E. Burns, Erna J. Burns, Gerald E. Burns, Helen S. Burns,
+  Janet T. Burns, and Margaret M. Burns remain unresolved after the complete
+  accessible-source protocol and route to Box 95 archival review. No employer
+  or affiliation is published for any Batch 328 person.
+- Batch 328's strict evidence bundle adds two official source records, no
+  organizations or affiliations, one conflict-visible identity claim, two
+  claim-source links, eleven person updates, and eleven durable research
+  attempts. It passed schema validation, two-import idempotence against a
+  temporary database, SQLite integrity and foreign-key checks, all 74 Python
+  tests plus five subtests, the deterministic 200-profile audit, a zero-warning
+  24,411-page static build, and a focused 3 / 3 browser regression across
+  desktop, phone, and tablet. The first focused run exposed a test-only typo in
+  a masked suffix; after alignment with the visually checked PDF, the exact
+  regression passed. The expanded 975-case browser and accessibility sweep
+  passed 967 cases before eight late-run browser-session or teardown timeouts;
+  the exact cases passed 8 / 8 in a fresh process in 24.0 seconds. Two
+  consecutive public-data builds reproduced digest
+  `d283ea779953c888edd95c7df77f3fc3cf139690aef436b9f88fb76d1baab31f`,
+  and two consecutive production builds reproduced static-tree digest
+  `94d9bedf16eb3d58fb8c447a6537e07afbb720392c7599a1a86d0e7f3b02e02c`.
+  All 65 manifest assets matched across 78,338,010 bytes with manifest SHA-256
+  `3ee96f28b7f0314838b84709578d8ca938ee416379a03d98805e26736660e830`;
+  the 24,411-page internal-link check, dependency audit, and both public-
+  identifier audits passed. Production-deployment results are recorded
+  separately after the release reaches GitHub Pages.
+- Batch 327 is live at the public GitHub Pages site. Merge
+  `6cf635046d1127e20ae2d3e364a93f40af0236fe` passed the pull-request,
+  post-merge test, and Pages workflows. A cache-busted production audit checked
+  seven core routes and all ten Batch 327 profiles, matched all 65 release
+  assets across 78,321,303 bytes to manifest SHA-256
+  `33fdea8ef5db0de4fd891f8ff3257fbff16af81ecc2f366cc55d3b1604e96ed4`,
+  and confirmed the deployed 3,057 attempted, 446 verified-affiliation, 192
+  verified-employer, 3,008 archival-assessment, 2,423 public-claim, and 2,193
+  public-citation totals.
 - Batch 327 covers Maccurdy Burnet through Robert J. Burnham across the final
   five Box 94 rows on PDF page 61 and first five Box 94-95 rows on page 62.
   Exact private-identifier agreement confirms Maccurdy Burnet, Floyd R.
