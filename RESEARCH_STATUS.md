@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,186 people with a non-planned attempt | 23,940 active person entities | 13.3083% |
-| Verified-affiliation coverage | 454 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8964% |
-| Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,138 people with an individual file-access/priority assessment | 23,940 active person entities | 13.1078% |
+| Research-attempt coverage | 3,196 people with a non-planned attempt | 23,940 active person entities | 13.3500% |
+| Verified-affiliation coverage | 455 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9006% |
+| Verified-employer coverage | 194 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8104% |
+| Archival-review coverage | 3,148 people with an individual file-access/priority assessment | 23,940 active person entities | 13.1495% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 573
-- Identity status `high_confidence`: 487
-- Identity status `probable`: 107
+- Identity status `confirmed`: 575
+- Identity status `high_confidence`: 488
+- Identity status `probable`: 108
 - Identity status `ambiguous`: 54
 - Identity status `conflicting`: 48
-- Identity status `unresolved`: 22,671
+- Identity status `unresolved`: 22,667
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,151
-- Enlisted Army personnel: 3,782
+- Unknown or indeterminate: 16,149
+- Enlisted Army personnel: 3,784
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,429 no; 16,291 indeterminate.
+Commissioned classification: 2,220 yes; 5,431 no; 16,289 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,754
+- `not_started`: 20,744
 - `in_progress`: 47
 - `candidate_found`: 1
-- `needs_identity_review`: 79
+- `needs_identity_review`: 80
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 483
-- `requires_archival_review`: 2,155
+- `occupation_only_found`: 484
+- `requires_archival_review`: 2,162
 - `completed`: 104
 - `conflicting_sources`: 49
-- `verified_employer_found`: 191
-- Claim confidence: 757 confirmed; 1,053 high; 637 medium; 43 low; 59
+- `verified_employer_found`: 192
+- Claim confidence: 759 confirmed; 1,056 high; 639 medium; 43 low; 59
   conflicting
-- Durable evidence inventory: 3,352 source records representing 1,544 unique
-  documents; 480 organizations; 1,270 affiliations; 2,549 claims; and 5,764
+- Durable evidence inventory: 3,357 source records representing 1,548 unique
+  documents; 481 organizations; 1,272 affiliations; 2,556 claims; and 5,776
   claim-source links
-- Reviewed public projection: 469 organizations; 1,260 published, qualified,
-  or conflict-visible affiliations; 2,504 published, qualified, or
-  conflict-visible claims; and 2,267 public citation records
+- Reviewed public projection: 470 organizations; 1,262 published, qualified,
+  or conflict-visible affiliations; 2,511 published, qualified, or
+  conflict-visible claims; and 2,272 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,220 yes; 5,429 no; 16,291 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,980. The detailed adapter breakdown remains reproducible in
+  2,990. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,383 across 1,344 people; 135 additional
+- Saved `source_reviewed` outcomes: 1,388 across 1,349 people; 135 additional
   attempts across 122 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,395
+- Total recorded attempts/plans: 4,405
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,197; 1,163 have at least one public-visible
+- People with saved reviewed claims: 1,201; 1,167 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5774,6 +5774,52 @@ Commissioned classification: 2,220 yes; 5,429 no; 16,291 indeterminate.
   builds, and a zero-vulnerability production dependency audit. Production
   deployment verification is recorded in the QA reports when the release
   reaches GitHub Pages.
+- Batch 341 covers John F. Cady, the final personnel row on PDF page 64, and
+  Edward Caffery through Rolf Cahn, the first nine rows on page 65. All ten
+  records are indexed in Box 100. Both source pages and the relevant official
+  Army occupation-code page were rendered and visually checked. Every printed
+  private identifier remains masked in public outputs.
+
+  In a first-person Truman Library oral history, John F. Cady states that he
+  was teaching and serving as dean at Franklin College in Indiana when he was
+  invited to join OSS in 1943. The exact name, role, year, and OSS chronology
+  support a high-confidence identity and an explicit-immediate employment
+  claim. Franklin College is therefore published as both his immediate
+  pre-OSS affiliation and last civilian employer; his teaching and dean roles
+  remain attached to that employment rather than becoming separate employers.
+
+  NARA's official Army merged file confirms George A. Cafiero by exact full
+  name and private identifier. Its entry-date occupation code supports only
+  the broad motor-vehicle mechanic-and-repairman group. The finding is
+  published as a medium-confidence, strongly date-bounded occupation: it does
+  not name a garage, company, specialty, or employer and is not marked as
+  immediate pre-OSS employment.
+
+  The same official file confirms John A. Cahill's Army identity, but the
+  printed occupation code is unassigned in the visually reviewed official
+  code list. No occupation or employer is invented from that number. A
+  separate exact-name Army record for Alessandro Cagiati carries a different
+  private identifier from the commissioned-officer index row; the Army record
+  and its occupation are therefore withheld from his profile. A Santa Fe
+  Reporter history supplies person-specific wartime evidence for the rare Rolf
+  Cahn name, but without a private identifier or Box 100 link his identity
+  remains probable and no predecessor is claimed. Edward Caffery, Salvatore B.
+  Cafiero, Catherine Cahill, James L. Cahill, and Mary Cahill remain unresolved
+  and are routed to archival review.
+- Batch 341's strict evidence bundle adds five sources, one organization, two
+  affiliations, seven claims, ten person updates, and ten durable research
+  attempts. It contributes one verified immediate employer while preserving
+  one occupation-only result and eight unresolved or identity-review paths.
+  The bundle passed strict schema validation, repeated-import idempotence,
+  durable SQLite integrity and foreign-key checks, deterministic public export,
+  the 200-profile audit, all 74 Python tests plus five subtests, Astro
+  diagnostics with zero errors, warnings, or hints, a 24,418-page static
+  build, the focused 3 / 3 desktop, phone, and tablet regression, the complete
+  1,014 / 1,014 browser, responsive, and accessibility matrix, the 24,418-page
+  link check, public-identifier audits, consecutive deterministic public and
+  static builds, and a zero-vulnerability production dependency audit.
+  Production deployment verification is recorded in the QA reports when the
+  release reaches GitHub Pages.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's

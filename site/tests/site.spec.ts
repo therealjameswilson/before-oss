@@ -26990,3 +26990,93 @@ test("Batch 340 separates Army pathways, student status, occupations, and unreso
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 341 publishes Cady's employer while preserving occupations and unresolved identities", async ({
+  page,
+}) => {
+  await page.goto("./people/b9811c61-b4f0-5ad2-a3cb-1068da115cf2/");
+  await expect(page.getByRole("heading", { name: "John F Cady", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Franklin College",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Franklin College",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Dean and teacher",
+  );
+
+  await page.goto("./people/d0c40cb9-896a-5f67-8ce9-6a2ae823c419/");
+  await expect(page.getByRole("heading", { name: "George A Cafiero", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••8414");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Mechanic and repairman, motor vehicle",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/d37fdc2b-7889-5e84-bb33-26ad6c4582e9/");
+  await expect(page.getByRole("heading", { name: "John A Cahill", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••5048");
+  await expect(page.locator("main")).toContainText("occupation code 782");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/ccce24ed-5d1c-5ba9-b7f7-d3c747a6e25e/");
+  await expect(page.getByRole("heading", { name: "Rolf Cahn", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••9670");
+  await expect(page.locator("main")).toContainText(
+    "parachuting behind enemy lines in the European Theater",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier, category] of [
+    ["628d0bf6-03ea-5da8-ba43-712984c69599", "Edward Caffery", "••••7867", null],
+    ["3af194e9-59a1-536f-874d-4ec578c5a78b", "Salvatore B Cafiero", null, null],
+    [
+      "780656c0-0d6b-5915-b117-3b179e245a09",
+      "Alessandro Cagiati",
+      "••••6481",
+      "commissioned army officer",
+    ],
+    ["a4ea1c70-3683-542c-b1c1-4cae836abcd0", "Catherine Cahill", null, null],
+    ["9b215ee6-0155-5c49-89e8-ea3610d12c89", "James L Cahill", null, null],
+    ["6b865ea7-0194-55b7-8717-3a5cd72ffba2", "Mary Cahill", null, null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+    if (category) {
+      await expect(page.getByText(category, { exact: true }).first()).toBeVisible();
+    }
+  }
+});

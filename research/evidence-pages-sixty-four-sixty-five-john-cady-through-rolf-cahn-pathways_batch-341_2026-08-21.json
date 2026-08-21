@@ -1,0 +1,628 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research batch 341",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-64-65-batch341",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 100",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 64, row 46, and page 65, rows 1-9; John F. Cady through Rolf Cahn; pages visually checked at original resolution with private identifiers withheld",
+      "access_date": "2026-08-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains immutable, and full private identifiers are excluded from public evidence."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch341",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department, Adjutant General's Office; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Exact private-identifier records for George A. Cafiero and John A. Cahill; identifiers withheld from public evidence",
+      "access_date": "2026-08-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Official bulk reference file reviewed locally. Only project-authored citations and assessments are retained; full private identifiers are not published."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch341",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NAID 1263923, compiled code lists",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "PDF physical page 175, Reference Copy page XVIII, three-digit occupational groups",
+      "access_date": "2026-08-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The relevant page was rendered and visually checked because dependable embedded text was unavailable."
+    },
+    {
+      "key": "truman-library-john-f-cady-oral-history-batch341",
+      "stable_url": "https://www.trumanlibrary.gov/library/oral-histories/cadyjf",
+      "title": "John F. Cady Oral History Interview",
+      "author_creator": "John F. Cady; interviewer Richard D. McKinzie",
+      "repository_publisher": "Harry S. Truman Presidential Library and Museum",
+      "publication_record_date": "1974-07-31",
+      "locator": "Transcript pages 1-2; web lines 22-27; biographical heading and subject index",
+      "access_date": "2026-08-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Harry S. Truman Library Oral Histories",
+      "rights_notes": "First-person oral history in a federal presidential-library collection. Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "santa-fe-reporter-rolf-cahn-oss-batch341",
+      "stable_url": "https://sfreporter.com/archives/eyes/",
+      "title": "For Your Eyes Only",
+      "repository_publisher": "Santa Fe Reporter",
+      "publication_record_date": "2007-11-14",
+      "locator": "Legacy article, paragraphs identifying Rolf Cahn's European-theater wartime activity and citing Steve Terrell's 1994 obituary",
+      "access_date": "2026-08-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Santa Fe Reporter legacy content",
+      "rights_notes": "Regional historical feature used only to qualify a probable rare-name wartime match. No postwar occupation is projected backward."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "franklin-college-indiana",
+      "canonical_name": "Franklin College",
+      "historical_name": "Franklin College",
+      "aliases": [
+        "Franklin College in Indiana"
+      ],
+      "organization_type": "private liberal arts college",
+      "sector": "academia_and_research",
+      "city": "Franklin",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "active_dates": "Active during the documented 1943 period",
+      "normalization_notes": "Normalized to the Indiana institution named by Cady; the historical source wording remains visible."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-f-cady-franklin-college-immediate-batch341",
+      "person_id": "b9811c61-b4f0-5ad2-a3cb-1068da115cf2",
+      "organization_key": "franklin-college-indiana",
+      "organization_name_as_found": "Franklin College in Indiana",
+      "role_title": "Dean and teacher",
+      "occupation": "college dean and teacher",
+      "relationship_type": "employment",
+      "end_date": "1943",
+      "date_precision": "Cady explicitly says he was teaching and serving as dean before an invitation to join OSS in 1943; exact employment dates are not stated",
+      "city": "Franklin",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The first-person chronology directly links Franklin College to Cady's 1943 OSS invitation. The profile does not infer a military status from his civilian analytical work."
+    },
+    {
+      "key": "george-a-cafiero-motor-vehicle-mechanic-occupation-batch341",
+      "person_id": "d0c40cb9-896a-5f67-8ce9-6a2ae823c419",
+      "occupation": "Mechanic and repairman, motor vehicle",
+      "relationship_type": "unknown",
+      "end_date": "1943-02-17",
+      "date_precision": "Civilian-occupation code 581 recorded at Army entry on February 17, 1943; the record names no employer, shop, exact specialty, start date, or precise end date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The occupational group is not a named employer and is not proven to be the immediately pre-OSS role."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-f-cady-high-confidence-identity-batch341",
+      "person_id": "b9811c61-b4f0-5ad2-a3cb-1068da115cf2",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F. Cady is a high-confidence match to the Burma analyst documented in the Truman Library oral history as serving in OSS from 1943 to 1945.",
+      "evidence_excerpt": "Research analyst, Office of Strategic Services, 1943-1945",
+      "evidence_paraphrase": "The official oral-history heading and first-person transcript identify the exact name, OSS service dates, Burma specialty, and recruitment chronology.",
+      "identity_match_assessment": "High confidence from the exact uncommon full name with middle initial, explicit OSS service, Burma analyst role, and matching 1943 chronology; no private identifier links the sources directly.",
+      "temporal_assessment": "The oral history dates his OSS service to 1943-1945 and describes the immediately preceding Franklin College role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 100 remains necessary to confirm the private identifier and personnel-file linkage, so the identity is not labeled confirmed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-64-65-batch341",
+          "support_type": "supports",
+          "locator_override": "PDF page 64, row 46; John F. Cady, Box 100"
+        },
+        {
+          "source_key": "truman-library-john-f-cady-oral-history-batch341",
+          "support_type": "supports",
+          "locator_override": "Biographical heading and transcript pages 1-2",
+          "excerpt_override": "Research analyst, Office of Strategic Services, 1943-1945"
+        }
+      ]
+    },
+    {
+      "key": "john-f-cady-immediate-franklin-college-batch341",
+      "person_id": "b9811c61-b4f0-5ad2-a3cb-1068da115cf2",
+      "affiliation_key": "john-f-cady-franklin-college-immediate-batch341",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "John F. Cady's immediate pre-OSS affiliation was Franklin College in Indiana, where he was teaching and serving as dean before his 1943 OSS invitation.",
+      "evidence_excerpt": "I was teaching at Franklin College in Indiana when World War II started.",
+      "evidence_paraphrase": "Cady says he was teaching and serving as dean at Franklin College before he was invited to Washington to join OSS in 1943.",
+      "identity_match_assessment": "High-confidence exact-name OSS match supported by a first-person federal oral history and the indexed Box 100 row.",
+      "temporal_assessment": "Explicit immediate chronology: Franklin College employment precedes and is directly connected to the 1943 OSS invitation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Franklin College is published as employment, not education. Exact start and end dates remain unspecified.",
+      "sources": [
+        {
+          "source_key": "truman-library-john-f-cady-oral-history-batch341",
+          "support_type": "supports",
+          "locator_override": "Transcript pages 1-2; web lines 22-27",
+          "excerpt_override": "I was teaching at Franklin College in Indiana when World War II started."
+        }
+      ]
+    },
+    {
+      "key": "john-f-cady-last-civilian-franklin-college-batch341",
+      "person_id": "b9811c61-b4f0-5ad2-a3cb-1068da115cf2",
+      "affiliation_key": "john-f-cady-franklin-college-immediate-batch341",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Franklin College is also the last documented civilian employer before John F. Cady's OSS service.",
+      "evidence_excerpt": "I was invited to come to Washington to be a part of the newly organized Office of Strategic Services",
+      "evidence_paraphrase": "The first-person sequence moves directly from his Franklin College deanship and teaching to the invitation to join OSS.",
+      "identity_match_assessment": "High-confidence exact-name OSS match supported by the direct oral-history chronology.",
+      "temporal_assessment": "Explicit immediate sequence with no intervening military or government affiliation described.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a last civilian employer claim and does not assign an unproven military status to Cady.",
+      "sources": [
+        {
+          "source_key": "truman-library-john-f-cady-oral-history-batch341",
+          "support_type": "supports",
+          "locator_override": "Transcript pages 1-2; web lines 22-27",
+          "excerpt_override": "I was invited to come to Washington to be a part of the newly organized Office of Strategic Services"
+        }
+      ]
+    },
+    {
+      "key": "george-a-cafiero-confirmed-identity-batch341",
+      "person_id": "d0c40cb9-896a-5f67-8ce9-6a2ae823c419",
+      "claim_type": "identity",
+      "claim_text": "The indexed George A. Cafiero is confirmed as the exact person recorded entering the United States Army as a private on February 17, 1943.",
+      "evidence_excerpt": "Cafiero George A",
+      "evidence_paraphrase": "The OSS index and official Army merged record agree on the exact full name, middle initial, and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry on February 17, 1943; it does not establish the Army-to-OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. No namesake biography or postwar employer is attached.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-64-65-batch341",
+          "support_type": "supports",
+          "locator_override": "PDF page 65, row 2; George A. Cafiero, Box 100; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch341",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry February 17, 1943; identifier withheld",
+          "excerpt_override": "Cafiero George A"
+        }
+      ]
+    },
+    {
+      "key": "george-a-cafiero-motor-vehicle-mechanic-claim-batch341",
+      "person_id": "d0c40cb9-896a-5f67-8ce9-6a2ae823c419",
+      "affiliation_key": "george-a-cafiero-motor-vehicle-mechanic-occupation-batch341",
+      "claim_type": "occupation",
+      "claim_text": "George A. Cafiero's Army-entry record classified his civilian occupation in the motor-vehicle mechanic and repairman group.",
+      "evidence_excerpt": "5, 7-81. Mechanics and repairmen, motor vehicle",
+      "evidence_paraphrase": "His exact official Army record carries occupation code 581, which the official code list defines as motor-vehicle mechanics and repairmen.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement across the OSS index and Army merged record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on February 17, 1943; it is not proven to be the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation is not employer. No repair shop, dealership, fleet, worksite, city, or named organization is identified.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch341",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian-occupation code 581; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch341",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 175, Reference Copy page XVIII",
+          "excerpt_override": "5, 7-81. Mechanics and repairmen, motor vehicle"
+        }
+      ]
+    },
+    {
+      "key": "john-a-cahill-confirmed-identity-batch341",
+      "person_id": "d37fdc2b-7889-5e84-bb33-26ad6c4582e9",
+      "claim_type": "identity",
+      "claim_text": "The indexed John A. Cahill is confirmed as the exact person recorded entering the United States Army as a private on January 12, 1943.",
+      "evidence_excerpt": "Cahill John A",
+      "evidence_paraphrase": "The OSS index and official Army merged record agree on the exact full name, middle initial, and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry on January 12, 1943; it does not establish the Army-to-OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The record's occupation code 782 is not assigned in the reviewed official code list and is left uninterpreted. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-64-65-batch341",
+          "support_type": "supports",
+          "locator_override": "PDF page 65, row 7; John A. Cahill, Box 100; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch341",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry January 12, 1943; identifier withheld",
+          "excerpt_override": "Cahill John A"
+        }
+      ]
+    },
+    {
+      "key": "rolf-cahn-probable-identity-batch341",
+      "person_id": "ccce24ed-5d1c-5ba9-b7f7-d3c747a6e25e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rolf Cahn is probably the future Santa Fe resident documented as conducting wartime parachute and resistance-support activity in the European theater.",
+      "evidence_excerpt": "Rolf Cahn-were parachuting behind enemy lines in the European Theater",
+      "evidence_paraphrase": "A Santa Fe Reporter historical feature names the rare exact-name Rolf Cahn in wartime European clandestine activity and links the account to a 1994 obituary.",
+      "identity_match_assessment": "Probable from the rare exact name, wartime chronology, and European clandestine context; the article does not supply the indexed private identifier or a Box 100 link.",
+      "temporal_assessment": "The evidence concerns wartime activity and does not establish a pre-OSS employer, occupation, or immediate predecessor.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The official Army merged file contains no exact private-identifier record, and its documented omissions make that nonmatch inconclusive. The Packard-foundry namesake lead lacks a prewar date and is not published.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-64-65-batch341",
+          "support_type": "supports",
+          "locator_override": "PDF page 65, row 9; Rolf Cahn, Box 100; identifier withheld"
+        },
+        {
+          "source_key": "santa-fe-reporter-rolf-cahn-oss-batch341",
+          "support_type": "supports",
+          "locator_override": "Legacy article paragraphs on Rolf Cahn's European-theater activity",
+          "excerpt_override": "Rolf Cahn-were parachuting behind enemy lines in the European Theater"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b9811c61-b4f0-5ad2-a3cb-1068da115cf2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually checked index and Truman Library oral history share the exact uncommon full name with middle initial and explicit 1943-1945 OSS service; the first-person transcript identifies his Burma analyst role and recruitment from Franklin College, but no private identifier links the records directly.",
+      "name_variants": [
+        "John F. Cady",
+        "Cady, John F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 100 to confirm the private identifier, civilian personnel status, Franklin College dates and titles, 1943 recruitment date, and OSS Research and Analysis duties.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "628d0bf6-03ea-5da8-ba43-712984c69599",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Edward Caffery, Box 100, and a six-digit private identifier. Reviewed exact-name, identifier, official, military, newspaper, obituary, directory, and archival candidates do not provide a defensible OSS or Box 100 linkage.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 for a middle name, birth year, residence, rank or grade, service branch, employer, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d0c40cb9-896a-5f67-8ce9-6a2ae823c419",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged record agree on George A. Cafiero's exact name, middle initial, and private identifier. The Army record dates entry as a private on February 17, 1943.",
+      "name_variants": [
+        "George A. Cafiero",
+        "Cafiero, George A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 100 for the named employer or shop, exact motor-vehicle specialty, Army unit, Army-to-OSS assignment date, and OSS duties.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3af194e9-59a1-536f-874d-4ec578c5a78b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Salvatore B. Cafiero in Box 100 without rank, grade, or private identifier. Same-name clerical, religious, military, obituary, and directory candidates lack two corroborating identifiers and an OSS linkage.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 for birth year, residence, personnel status, private identifier, employer, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "780656c0-0d6b-5915-b117-3b179e245a09",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index identifies Major Alessandro Cagiati with a private officer identifier. Scholarly and archival references document an exact-name OSS officer in Italy, but the reviewed earlier Army enlisted record carries a different identifier and is not linked directly to the Box 100 person.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 to link the officer identifier, establish whether the different enlisted record belongs to him, and document the pre-OSS Army unit, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a4ea1c70-3683-542c-b1c1-4cae836abcd0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Catherine Cahill in Box 100 without middle name, rank, grade, or private identifier. Common-name military, government, newspaper, obituary, directory, and institutional candidates lack two corroborating identifiers and an OSS link.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 for a middle name, birth year, residence, personnel status, employer, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9b215ee6-0155-5c49-89e8-ea3610d12c89",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives James L. Cahill in Box 100 without rank, grade, or private identifier. Common-name military, casualty, newspaper, obituary, directory, and professional candidates cannot be linked with two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 for a full middle name, birth year, residence, private identifier, personnel status, employer, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d37fdc2b-7889-5e84-bb33-26ad6c4582e9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged record agree on John A. Cahill's exact name, middle initial, and private identifier. The Army record dates entry as a private on January 12, 1943; occupation code 782 is left uninterpreted because it is unassigned in the reviewed code list.",
+      "name_variants": [
+        "John A. Cahill",
+        "Cahill, John A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or interpretable occupation has yet been identified. Review Box 100 for the occupation represented by the unassigned code, Army unit, Army-to-OSS chronology, and OSS duties.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6b865ea7-0194-55b7-8717-3a5cd72ffba2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index gives Mary Cahill in Box 100 without middle name, rank, grade, or private identifier. Common-name military, government, newspaper, obituary, directory, and institutional candidates lack two corroborating identifiers and an OSS link.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 for a middle name, birth year, residence, personnel status, employer, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ccce24ed-5d1c-5ba9-b7f7-d3c747a6e25e",
+      "identity_status": "probable",
+      "identity_evidence": "The visually checked index supplies the rare exact name Rolf Cahn and a private eight-digit identifier. A Santa Fe Reporter history identifies the same rare name in wartime European clandestine activity, but it does not supply the identifier or a direct Box 100 linkage.",
+      "name_variants": [
+        "Rolf Cahn",
+        "Cahn, Rolf"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 100 to confirm the private identifier, birth date, nationality, military status, pre-OSS occupation or employer, and European-theater assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "john-f-cady-protocol-batch341",
+      "person_id": "b9811c61-b4f0-5ad2-a3cb-1068da115cf2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John F Cady and John F. Cady: visually verified NARA OSS index; Truman Library oral history; public NARA, CIA, Library of Congress, exact-name OSS, Burma analyst, Franklin College, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:52:00+00:00",
+      "completed_at": "2026-08-21T10:08:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 15,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Postwar State Department and academic roles were excluded except as identity corroboration; secondary summaries added no stronger predecessor evidence than Cady's own official oral history.",
+      "research_notes": "Franklin College is published as both the explicit immediate affiliation and last civilian employer. Exact employment dates and personnel status remain for Box 100 review.",
+      "next_action": "Review Box 100 to confirm the private identifier, civilian personnel status, Franklin College dates and titles, 1943 recruitment date, and OSS Research and Analysis duties.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "edward-caffery-protocol-batch341",
+      "person_id": "628d0bf6-03ea-5da8-ba43-712984c69599",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Edward Caffery and private identifier withheld: visually verified NARA OSS index; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:53:00+00:00",
+      "completed_at": "2026-08-21T10:09:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Multiple Edward Caffery military, obituary, cemetery, directory, and family-history candidates lack a matching middle name, private identifier, OSS context, or Box 100 discriminator.",
+      "research_notes": "No namesake service, residence, relative, employer, occupation, or biography is transferred to the indexed row.",
+      "next_action": "Review Box 100 for a middle name, birth year, residence, rank or grade, service branch, employer, occupation, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "george-a-cafiero-protocol-batch341",
+      "person_id": "d0c40cb9-896a-5f67-8ce9-6a2ae823c419",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George A Cafiero: visually verified NARA OSS index; exact private-identifier review in the official Army merged file and code documentation; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:54:00+00:00",
+      "completed_at": "2026-08-21T10:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A postwar self-employed mechanic obituary candidate shares the name and broad trade but lacks the private identifier and cannot be used to name or extend the wartime occupation. No employer is supported.",
+      "research_notes": "Identity is confirmed and the broad Army-entry motor-vehicle mechanic occupation is qualified. It is not presented as an employer or immediate predecessor.",
+      "next_action": "Review Box 100 for the named employer or shop, exact motor-vehicle specialty, Army unit, Army-to-OSS assignment date, and OSS duties.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "salvatore-b-cafiero-protocol-batch341",
+      "person_id": "3af194e9-59a1-536f-874d-4ec578c5a78b",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Salvatore B Cafiero and Salvatore B. Cafiero: visually verified NARA OSS index; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, military, clerical, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:55:00+00:00",
+      "completed_at": "2026-08-21T10:11:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "A same-name Brooklyn cleric and other military, memorial, directory, and family-history candidates lack an OSS or Box 100 link and cannot be assigned to this row.",
+      "research_notes": "No namesake title, residence, institution, employer, occupation, relative, or biography is transferred.",
+      "next_action": "Review Box 100 for birth year, residence, personnel status, private identifier, employer, occupation, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "alessandro-cagiati-protocol-batch341",
+      "person_id": "780656c0-0d6b-5915-b117-3b179e245a09",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Alessandro Cagiati: visually verified NARA OSS index; exact-name OSS Italy archival and scholarly references; a different-identifier Army enlisted candidate; public NARA, CIA, Library of Congress, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:56:00+00:00",
+      "completed_at": "2026-08-21T10:12:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "An exact-name Army enlisted record has a different private identifier and no direct officer-file linkage; later OSS Italy histories document wartime service but not a reliable pre-OSS employer or unit chronology.",
+      "research_notes": "The indexed commissioned Army classification is preserved. The different-identifier Army record and its occupation remain unpublished candidates pending Box 100 review.",
+      "next_action": "Review Box 100 to link the officer identifier, establish whether the different enlisted record belongs to him, and document the pre-OSS Army unit, occupation, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "catherine-cahill-protocol-batch341",
+      "person_id": "a4ea1c70-3683-542c-b1c1-4cae836abcd0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Catherine Cahill: visually verified NARA OSS index; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, government, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:57:00+00:00",
+      "completed_at": "2026-08-21T10:13:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Common-name military, government, newspaper, obituary, cemetery, directory, and genealogy candidates lack two corroborating identifiers and an OSS or Box 100 link.",
+      "research_notes": "No namesake middle name, service, residence, employer, occupation, institution, relative, or biography is transferred.",
+      "next_action": "Review Box 100 for a middle name, birth year, residence, personnel status, employer, occupation, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "james-l-cahill-protocol-batch341",
+      "person_id": "9b215ee6-0155-5c49-89e8-ea3610d12c89",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James L Cahill and James L. Cahill: visually verified NARA OSS index; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, military, casualty, newspaper, obituary, directory, professional, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:58:00+00:00",
+      "completed_at": "2026-08-21T10:14:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 25,
+      "rejection_reasons": "Common-name military, casualty, professional, newspaper, obituary, directory, and family-history results lack two corroborating identifiers and an OSS or Box 100 link.",
+      "research_notes": "No namesake service, residence, employer, occupation, institution, relative, or biography is transferred.",
+      "next_action": "Review Box 100 for a full middle name, birth year, residence, private identifier, personnel status, employer, occupation, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "john-a-cahill-protocol-batch341",
+      "person_id": "d37fdc2b-7889-5e84-bb33-26ad6c4582e9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John A Cahill: visually verified NARA OSS index; exact private-identifier review in the official Army merged file and code documentation; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T09:59:00+00:00",
+      "completed_at": "2026-08-21T10:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The Army record's occupation code 782 is not assigned in the reviewed official code list and is not interpreted; common-name biographies and obituaries lack the private identifier and OSS linkage.",
+      "research_notes": "Identity is confirmed, but no employer or reliable occupation is published. The unassigned code remains visible in private research notes only.",
+      "next_action": "Review Box 100 for the occupation represented by the unassigned code, Army unit, Army-to-OSS chronology, and OSS duties.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "mary-cahill-protocol-batch341",
+      "person_id": "6b865ea7-0194-55b7-8717-3a5cd72ffba2",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mary Cahill: visually verified NARA OSS index; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, government, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T10:00:00+00:00",
+      "completed_at": "2026-08-21T10:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 23,
+      "rejection_reasons": "Common-name military, government, newspaper, obituary, cemetery, directory, and genealogy candidates lack two corroborating identifiers and an OSS or Box 100 link.",
+      "research_notes": "No namesake middle name, service, residence, employer, occupation, institution, relative, or biography is transferred.",
+      "next_action": "Review Box 100 for a middle name, birth year, residence, personnel status, employer, occupation, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    },
+    {
+      "key": "rolf-cahn-protocol-batch341",
+      "person_id": "ccce24ed-5d1c-5ba9-b7f7-d3c747a6e25e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Rolf Cahn: visually verified NARA OSS index; exact private-identifier check in the official Army merged file; Santa Fe Reporter history; Harvard Crimson profile; public NARA, CIA, Library of Congress, exact-name OSS, employer, occupation, military, newspaper, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-21T10:01:00+00:00",
+      "completed_at": "2026-08-21T10:17:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The official Army merged file has no exact private-identifier record; a Packard-foundry reference lacks a prewar date; postwar musician and academic sources do not establish a pre-OSS employer.",
+      "research_notes": "The rare-name wartime match is published only as probable identity evidence. No Army predecessor, Packard employer, occupation, or postwar career is projected into the pre-OSS chronology.",
+      "next_action": "Review Box 100 to confirm the private identifier, birth date, nationality, military status, pre-OSS occupation or employer, and European-theater assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch341-v1"
+    }
+  ]
+}
