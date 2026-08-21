@@ -3911,6 +3911,50 @@ private address, full copyrighted page, postwar-employer substitution,
 search-result-only claim, or unsupported namesake biography was stored or
 published.
 
+## Pages-sixty-three and sixty-four Butler through Buttram pathways, Batch 336
+
+`research/evidence-pages-sixty-three-sixty-four-paul-butler-through-georgia-buttram-pathways_batch-336_2026-08-21.json`
+records ten contiguous source rows from Paul B. Butler Jr. through Georgia E.
+Buttram. Paul Butler through Robert L. Butt are in Box 97 on PDF page 63;
+Alfrd C. Butterfield is the final reviewed page-63 row, and Robert E.
+Butterfield through Georgia E. Buttram begin page 64 in Box 98. Both pages were
+rendered and visually checked at original resolution. The strict bundle
+contains seven source inputs, two organization inputs, four affiliations,
+eight claims, twenty-one claim-source links, ten person updates, and ten
+durable research attempts.
+
+The NARA OSS index was compared privately with the official unrestricted
+[Electronic Army Serial Number Merged File](https://catalog.archives.gov/id/1263923),
+its [technical documentation](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf),
+and its [occupation code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf).
+Exact private-identifier and full-name agreement confirms David S. Butterwick
+and James J. Buttino. Their Army-entry records date to April 30 and October 21,
+1942, respectively. The code list decodes the recorded civilian occupations
+only as the residual `Miscellaneous occupations, n. e. c.` and `Metal products
+fabrication occupations, n. e. c.` groups. Neither code names an employer,
+workplace, product, exact trade, or immediate Army-to-OSS sequence. An exact-
+name Army entrant for Robert L. Butt is retained only as a private low-
+confidence lead because the index prints no identifier or other discriminator.
+
+An official [1958 Congressional Record
+roster](https://www.govinfo.gov/content/pkg/GPO-CRECB-1958-pt1/pdf/GPO-CRECB-1958-pt1-13-1.pdf)
+provides exact uncommon-name and private-identifier agreement for Junichi
+Buto. A contemporary [Pacific Citizen
+clipping](https://ddr.densho.org/ddr-csujad-15-2/) places Second Lieutenant
+Buto at the Infantry School at Fort Benning. The 442nd Veterans Club account
+reprinted in [*Go for Broke*
+](https://ddr.densho.org/ddr-csujad-1-184/) identifies him among the officers
+who returned to the 442nd and then received OSS orders. The 442nd is modeled
+as his explicit immediate military predecessor and the Infantry School as an
+earlier Army training assignment. Neither is labeled a civilian employer.
+
+Paul B. Butler Jr., Cynthia Butson, the index's printed Alfrd C. Butterfield,
+Robert E. Butterfield, Lulu W. Buttermore, and Georgia E. Buttram remain
+unresolved and route to Box 97 or 98 review. No authenticated Catalog request,
+API credential, raw API response, raw Army record, full private identifier,
+private address, full copyrighted page, search-result-only claim, or
+unsupported namesake employer was stored or published.
+
 ## Page-sixty-three Butkus through Butler pathways, Batch 335
 
 `research/evidence-page-sixty-three-william-butkus-through-marshall-butler-pathways_batch-335_2026-08-21.json`
