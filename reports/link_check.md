@@ -4,16 +4,46 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,416 HTML files. Every relative
+**PASS.** The production build contains 24,417 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 468 organization profiles, and the
+The build includes 23,940 person profiles, 469 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,401 unique external URLs for separate live
+The checker inventoried 49,406 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 338 local release check
+
+The complete 24,417-page internal-link pass includes Jane M. Byington through
+John V. Byrne across Boxes 98-99 on PDF page 64, plus the new Washington
+College of Law organization route. All 74 Python tests plus five subtests, the
+deterministic 200-profile audit, focused three-viewport regression, dependency
+audit, database integrity checks, and public-identifier audit pass; Astro
+reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,921,264 bytes and has
+SHA-256
+`152d3ea148287bba22a12a6ddbef76beee7712aa5133bb15bdeda10147727408`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,487 production
+artifacts. It rejected 618 and 1,043 harmless candidate substrings,
+respectively, and found no aggregate or unexpected boundary matches; the two
+manifest-size coincidences were classified and rejected.
+
+Consecutive public-data builds produced identical sorted generated-file digest
+`a6ee9a50d4106042bd9772dd7dbaf9df4ceb11119ca6d73bfced17ca0ca5c62e`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`b2a62bbe4631f789e0c80616cca3b412728898076b1633272bef7b3ad778b86b`.
+The regression keeps Jane's school distinct from employment, keeps Ernest and
+Jack's occupations distinct from employers, qualifies Westwood's identity,
+and preserves six unresolved archival paths without promoting unsupported
+namesakes. The complete browser, responsive, and accessibility matrix passed
+1,005 / 1,005 in an uninterrupted 8.5-minute single-worker run.
 
 ## Batch 337 local release check
 

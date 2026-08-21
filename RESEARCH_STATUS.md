@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,156 people with a non-planned attempt | 23,940 active person entities | 13.1830% |
-| Verified-affiliation coverage | 451 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8839% |
+| Research-attempt coverage | 3,166 people with a non-planned attempt | 23,940 active person entities | 13.2247% |
+| Verified-affiliation coverage | 452 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8881% |
 | Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,108 people with an individual file-access/priority assessment | 23,940 active person entities | 12.9825% |
+| Archival-review coverage | 3,118 people with an individual file-access/priority assessment | 23,940 active person entities | 13.0242% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 223
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 564
-- Identity status `high_confidence`: 484
-- Identity status `probable`: 104
+- Identity status `confirmed`: 566
+- Identity status `high_confidence`: 485
+- Identity status `probable`: 105
 - Identity status `ambiguous`: 54
 - Identity status `conflicting`: 48
-- Identity status `unresolved`: 22,686
+- Identity status `unresolved`: 22,682
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,162
-- Enlisted Army personnel: 3,772
+- Unknown or indeterminate: 16,159
+- Enlisted Army personnel: 3,774
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 3
-- Civilian professional or administrative grades: 1,487
+- Civilian professional or administrative grades: 1,488
 - Foreign or Allied military personnel: 250
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 85
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,418 no; 16,302 indeterminate.
+Commissioned classification: 2,220 yes; 5,421 no; 16,299 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,784
+- `not_started`: 20,774
 - `in_progress`: 47
 - `candidate_found`: 1
-- `needs_identity_review`: 76
+- `needs_identity_review`: 77
 - `needs_temporal_review`: 7
 - `documented_prewar_employer_found`: 61
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 476
-- `requires_archival_review`: 2,139
-- `completed`: 102
+- `occupation_only_found`: 478
+- `requires_archival_review`: 2,145
+- `completed`: 103
 - `conflicting_sources`: 49
 - `verified_employer_found`: 189
-- Claim confidence: 747 confirmed; 1,047 high; 626 medium; 43 low; 59
+- Claim confidence: 750 confirmed; 1,048 high; 629 medium; 43 low; 59
   conflicting
-- Durable evidence inventory: 3,330 source records representing 1,532 unique
-  documents; 479 organizations; 1,258 affiliations; 2,522 claims; and 5,708
+- Durable evidence inventory: 3,338 source records representing 1,537 unique
+  documents; 480 organizations; 1,261 affiliations; 2,529 claims; and 5,723
   claim-source links
-- Reviewed public projection: 468 organizations; 1,248 published, qualified,
-  or conflict-visible affiliations; 2,477 published, qualified, or
-  conflict-visible claims; and 2,248 public citation records
+- Reviewed public projection: 469 organizations; 1,251 published, qualified,
+  or conflict-visible affiliations; 2,484 published, qualified, or
+  conflict-visible claims; and 2,255 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,220 yes; 5,418 no; 16,302 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,950. The detailed adapter breakdown remains reproducible in
+  2,960. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,368 across 1,329 people; 135 additional
   attempts across 122 people have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,365
+- Total recorded attempts/plans: 4,375
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,182; 1,148 have at least one public-visible
+- People with saved reviewed claims: 1,186; 1,152 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5632,6 +5632,52 @@ Commissioned classification: 2,220 yes; 5,418 no; 16,302 indeterminate.
   vulnerability production dependency audit. The complete browser matrix and
   production deployment verification are recorded in the QA reports as those
   release gates complete.
+- Batch 338 covers the next ten rows on PDF page 64, from Jane M. Byington
+  through John V. Byrne. The first nine rows are in Box 98 and Byrne is in Box
+  99. The page was rendered and checked at original resolution, and the
+  cohort's three printed private identifiers remain masked in every public
+  output.
+
+  A first-person oral history held by the Library of Congress and an
+  independent contemporary obituary identify Jane M. Byington with high
+  confidence as Jane Craven McHarg Byington, a paid OSS employee in
+  Washington. Her prewar Washington College of Law attendance is published as
+  student status, not employment. The unnamed law firm she says she did not
+  join is not represented as an employer, her spouse's State Department role
+  is not transferred, and no modern institutional successor is asserted
+  without documentation.
+
+  Exact full-name and private-identifier agreement with NARA's official Army
+  merged file confirms Ernest C. Byrd Jr. and Jack Byrd. Their entry records
+  support only broad civilian occupations: shipping and receiving clerk for
+  Ernest and residual mechanics-and-repairmen work for Jack. Both are
+  published as strongly date-bounded occupations, not named employers or
+  proven immediate OSS predecessors. A promising directory result for Ernest
+  was rejected after visual inspection showed that the entry belonged under a
+  different surname.
+
+  Two institutional photograph collections support a probable, visibly
+  qualified expansion of Westwood B. Byrd to Westwood Beverley Byrd. Neither
+  source links that candidate to OSS or Box 98, so direct personnel-file review
+  remains necessary and no family, education, employer, or political
+  affiliation is transferred. Betsy Byram, Goldia M. Byrd, Inger A. Byrd,
+  Jesse C. Byrd, T. S. Byrd, and John V. Byrne remain unresolved. A
+  chronologically impossible child namesake for Goldia, a well-known younger
+  John V. Byrne, and unsupported common-name results were rejected rather than
+  promoted.
+- Batch 338's strict evidence bundle adds eight sources, one organization,
+  three affiliations, seven claims, fifteen claim-source links, ten person
+  updates, and ten durable research attempts. It passed strict schema
+  validation, two-import idempotence against an isolated database copy,
+  durable SQLite integrity and foreign-key checks, deterministic public export,
+  the 200-profile audit, all 74 Python tests plus five subtests, Astro
+  diagnostics with zero errors, warnings, or hints, a 24,417-page static build,
+  the focused 3 / 3 desktop, phone, and tablet regression, the complete 1,005 /
+  1,005 browser, responsive, and accessibility matrix, the 24,417-page link
+  check, public-identifier audits, deterministic public and static builds, and
+  a zero-vulnerability production dependency audit. Production deployment
+  verification is recorded in the QA reports when the release reaches GitHub
+  Pages.
 - Batch 335 covers the next ten contiguous Box 97 rows on PDF page 63, from
   William J. Butkus through Marshall Butler. The page was rendered and checked
   at original resolution. Exact private-identifier comparison with NARA's

@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,002** browser, responsive, and
+The expanded release matrix contains **1,005** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 337 release sweep passed **1,002 / 1,002** in 8.5 minutes. The
+single-worker Batch 338 release sweep passed **1,005 / 1,005** in 8.5 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 338 adds a focused direct-route regression for Jane M. Byington through
+John V. Byrne on PDF page 64. It publishes Jane's high-confidence identity and
+law-school student status without converting school, an unaccepted job, or her
+spouse's work into employment; confirms Ernest C. Byrd Jr. and Jack Byrd while
+keeping occupation codes separate from employers; qualifies Westwood B. Byrd;
+masks private identifiers; and routes six unsupported identities to Box 98 or
+99 review. The focused regression passed **3 / 3** across desktop, phone, and
+tablet.
 
 Batch 337 adds a focused direct-route regression for Carl F. Butts through
 Ernest L. Byfield Jr. on PDF page 64. It confirms Simon Butyter's exact Army

@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,416 pages**
-- Internal link check: **24,416 HTML files passed**
-- Expanded browser and accessibility matrix: **1,002 / 1,002 passed** in an
-  uninterrupted 8.5-minute single-worker Batch 337 release sweep across
+- Static production build: **24,417 pages**
+- Internal link check: **24,417 HTML files passed**
+- Expanded browser and accessibility matrix: **1,005 / 1,005 passed** in an
+  uninterrupted 8.5-minute single-worker Batch 338 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -85,6 +85,29 @@ Run: 2026-08-21 UTC
   Byer's post-OSS Army-entry record out of affiliation claims; qualifies
   Ernest L. Byfield Jr.'s probable identity; masks identifiers; and routes five
   unresolved profiles to Box 98 review.
+- Focused Batch 338 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It publishes Jane M. Byington's high-confidence identity
+  and Washington College of Law student status without inventing an employer
+  or successor institution; confirms Ernest C. Byrd Jr. and Jack Byrd through
+  exact private identifiers while keeping broad occupations separate from
+  employers; qualifies Westwood B. Byrd; masks identifiers; and routes six
+  unsupported identities to Box 98 or 99 review.
+- Batch 338 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted generated-file digest
+  `a6ee9a50d4106042bd9772dd7dbaf9df4ceb11119ca6d73bfced17ca0ca5c62e`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `b2a62bbe4631f789e0c80616cca3b412728898076b1633272bef7b3ad778b86b`.
+  The complete 24,417-page internal-link check passed and inventoried 49,406
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,921,264 bytes; manifest SHA-256 was
+  `152d3ea148287bba22a12a6ddbef76beee7712aa5133bb15bdeda10147727408`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,487 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 1,005-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 337 local release verification: **passed**. Consecutive public-data
   builds reproduced the same sorted generated-file digest
   `49a0f8fb814c3843a1bd00279116ea3fa50d1792955d9c014e5f6200780ad1c5`.
