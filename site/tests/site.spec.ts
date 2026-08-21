@@ -27780,3 +27780,68 @@ test("Batch 350 identifies Roderick W Cameron while keeping the adjacent row sep
     }
   }
 });
+
+test("Batch 351 publishes three Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, occupation, codeLabel] of [
+    [
+      "82ad4d52-98ba-5ebd-96e9-08927068effd",
+      "Saverio S Campagna",
+      "••••0398",
+      "Textile-product fabrication occupation, not elsewhere classified",
+      "6-27. Occupations in fabrication of textile products, n.e.c.",
+    ],
+    [
+      "02c1ea66-10d9-5030-a6fc-be74753b0815",
+      "Bernard F Campbell",
+      "••••1494",
+      "Machine-shop and related occupation, not elsewhere classified",
+      "8-78. Machine shop and related occupations, n.e.c.",
+    ],
+    [
+      "3c3c251b-322b-58ef-bf5b-e7f7ac147b0c",
+      "Carleton W Campbell",
+      "••••1221",
+      "Radio operator",
+      "0-61. Radio operators",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(codeLabel);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["0e9e91e7-5ab3-5ea0-b4e1-bc3b933f7c18", "David L Campa", null],
+    ["84003b24-c185-5e97-8dd5-6e134babaa9c", "Simone J Campanardi", "••••5230"],
+    ["9e860716-6c7f-5f22-9096-d65ed7ba4482", "Anne Campbell", null],
+    ["f9c58e3b-8fec-5883-9cb2-4c91c2e3871d", "Arthur J Campbell", null],
+    ["10a8432f-117b-5b49-a9e3-64b64071c9f2", "Clayde L Campbell", null],
+    ["3d5cbba3-cbf8-5633-95fb-097009f58438", "Colin L Campbell", "••••0859"],
+    ["9be46a5a-8028-55c3-9b31-7bd661c26400", "David S Campbell", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});

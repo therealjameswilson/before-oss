@@ -15,6 +15,12 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,439 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+All four Batch 351 official citation endpoints returned HTTP 200 during
+targeted verification: the NARA personnel-index PDF, the public Catalog page
+for the Army merged-file series, the fixed-width technical documentation, and
+the official civilian-occupation code list. No authenticated Catalog API
+request was made.
+
 Two of Batch 350's three citation endpoints returned HTTP 200 during targeted
 scripted verification: the NARA personnel-index PDF and the New York Times
 profile of Roderick William Cameron. The separate Times obituary returned HTTP
@@ -60,6 +66,41 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 351 local release check
+
+The complete 24,421-page internal-link pass includes David L. Campa through
+David S. Campbell on PDF page 67 in Box 103. Exact private identifiers confirm
+the Army merged-file identities of Saverio S. Campagna, Bernard F. Campbell,
+and Carleton W. Campbell, but their textile-product fabrication, machine-shop,
+and radio-operator codes remain qualified occupation-only evidence. They are
+not counted as employers or immediate OSS predecessors. Seven unresolved
+identities retain Box 103 review paths, the printed `Clayde` spelling remains
+recoverable, and no service branch or nationality is inferred from an
+identifier format. All 74 Python tests, the deterministic 200-profile audit,
+the focused 3 / 3 browser regression, the clean 1,044 / 1,044 complete matrix,
+dependency audit, database integrity checks, and public-identifier audits
+pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,536,270 bytes and has
+SHA-256
+`521941f7e979934e761eb3cb47a12e2f037d4d3ca482c94cfe8e5ff2d3f62305`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 614 and 1,039 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+Consecutive public-data builds produced identical complete public-tree digest
+`b47d03d573bc13e55d3e5eb3013afd65c9066bdacee520e6b7dd861c6d214b26`.
+Consecutive generated-data mirrors produced digest
+`bc41bda0525ecfb9f87299980d0e926f3aaba736a9f0b482aed0e112e3fbc5b9`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`11df70f04afd272da4064501bc12af93f18238060c4e397880decdbdeb7563e9`.
+After rebasing onto the deployed Batch 350 release, all 74 Python tests and the
+cumulative Batch 350/351 browser regression passed again (6 / 6).
 
 ## Batch 350 local release check
 
@@ -127,17 +168,16 @@ tree digest
 ## Batch 349 production verification
 
 Release `74c29eec7bcd260dfa5e6f554106c0928519bc41` passed the pull-request
-quality gate and Pages workflow
-[32518336495](https://github.com/therealjameswilson/before-oss/actions/runs/32518336495).
+quality gate, Pages workflow
+[32518336495](https://github.com/therealjameswilson/before-oss/actions/runs/32518336495),
+and post-merge Test workflow
+[32518336580](https://github.com/therealjameswilson/before-oss/actions/runs/32518336580).
 Seven core routes and all ten Batch 349 person routes returned HTTP 200 and
 matched the tested release after literal and URL-encoded canonical-host
 normalization. The live manifest and all 65 listed assets matched local bytes,
 sizes, and SHA-256 values; the listed assets total 79,470,352 bytes and manifest
 SHA-256 is
 `eaaaf9515aed3a5a40ea6cb9de61b83baa547bda979d05cc4569b7e0bc9a5d73`.
-Post-merge Test workflow
-[32518336580](https://github.com/therealjameswilson/before-oss/actions/runs/32518336580)
-provides the independent release gate.
 
 ## Batch 348 local release check
 

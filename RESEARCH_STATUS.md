@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,285 people with a non-planned attempt | 23,940 active person entities | 13.7218% |
+| Research-attempt coverage | 3,295 people with a non-planned attempt | 23,940 active person entities | 13.7636% |
 | Verified-affiliation coverage | 456 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9048% |
 | Verified-employer coverage | 195 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8145% |
-| Archival-review coverage | 3,238 people with an individual file-access/priority assessment | 23,940 active person entities | 13.5255% |
+| Archival-review coverage | 3,248 people with an individual file-access/priority assessment | 23,940 active person entities | 13.5673% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Possible duplicate groups: 226
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 587
+- Identity status `confirmed`: 590
 - Identity status `high_confidence`: 498
 - Identity status `probable`: 112
 - Identity status `ambiguous`: 55
 - Identity status `conflicting`: 49
-- Identity status `unresolved`: 22,639
+- Identity status `unresolved`: 22,636
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,136
-- Enlisted Army personnel: 3,795
+- Unknown or indeterminate: 16,133
+- Enlisted Army personnel: 3,798
 - Commissioned Army officers: 2,102
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
+Commissioned classification: 2,221 yes; 5,446 no; 16,273 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,655
+- `not_started`: 20,645
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 85
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 495
-- `requires_archival_review`: 2,230
+- `occupation_only_found`: 498
+- `requires_archival_review`: 2,237
 - `completed`: 104
 - `conflicting_sources`: 50
 - `verified_employer_found`: 193
-- Claim confidence: 771 confirmed; 1,068 high; 654 medium; 48 low; 60
+- Claim confidence: 774 confirmed; 1,068 high; 657 medium; 48 low; 60
   conflicting
-- Durable evidence inventory: 3,404 source records representing 1,585 unique
-  documents; 484 organizations; 1,286 affiliations; 2,601 claims; and 5,869
+- Durable evidence inventory: 3,408 source records representing 1,585 unique
+  documents; 484 organizations; 1,289 affiliations; 2,607 claims; and 5,884
   claim-source links
-- Reviewed public projection: 473 organizations; 1,276 published, qualified,
-  or conflict-visible affiliations; 2,551 published, qualified, or
-  conflict-visible claims; and 2,313 public citation records
+- Reviewed public projection: 473 organizations; 1,279 published, qualified,
+  or conflict-visible affiliations; 2,557 published, qualified, or
+  conflict-visible claims; and 2,317 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,7 +76,7 @@ Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,080. The detailed adapter breakdown remains reproducible in
+  3,090. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,410 across 1,371 people; 142 additional
@@ -5919,6 +5919,60 @@ Commissioned classification: 2,221 yes; 5,443 no; 16,276 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 351 covers David L. Campa through David S. Campbell, the next ten
+  contiguous personnel rows on PDF page 67, rows 8-17, all indexed in Box 103.
+  The page was rendered and visually checked. Blank rank and identifier fields
+  remain blank; the uncommon printed spelling `Clayde` remains unchanged; and
+  every printed private identifier is retained in SQLite but masked in public
+  data.
+
+  Exact private-identifier matches in NARA's official Army merged file confirm
+  Saverio S. Campagna, Bernard F. Campbell, and Carleton W. Campbell as Army
+  entrants. The matching fixed-width records and official code tables identify
+  only broad civilian occupation categories at Army entry: textile-product
+  fabrication not elsewhere classified for Campagna on March 2, 1943;
+  machine-shop and related occupations not elsewhere classified for Bernard F.
+  Campbell on May 6, 1943; and radio operator for Carleton W. Campbell on
+  August 17, 1942. These are published as qualified occupation-only findings.
+  They are not employers, military assignments, or proven immediate pre-OSS
+  affiliations, and no Army-to-OSS chronology is inferred.
+
+  David L. Campa, Simone J. Campanardi, Anne Campbell, Arthur J. Campbell,
+  Clayde L. Campbell, Colin L. Campbell, and David S. Campbell remain
+  unresolved with explicit Box 103 review paths. The project does not infer a
+  service branch from Campanardi's identifier prefix or Allied status from
+  Colin Campbell's six-digit identifier. A Carleton W. Campbell traffic-signal
+  patent candidate, a Saverio Campagna genealogy lead, and common-name
+  biographies lack person-specific identifier and OSS linkage and remain
+  rejected rather than published.
+- Batch 351's strict evidence bundle adds four official sources, no
+  organizations, three qualified occupation affiliations, six claims, fifteen
+  claim-source links, ten person updates, and ten durable research attempts.
+  Three repeated imports produced identical results. It adds no employer
+  claim. SQLite integrity and foreign-key checks, the deterministic 200-profile
+  audit, all 74 Python tests, the 24,421-page build and internal-link check, the
+  24,491-artifact private-identifier audit, the zero-vulnerability dependency
+  audit, and the focused desktop, phone, and tablet regression all pass. Astro
+  reports zero errors, warnings, or hints. The complete uninterrupted browser
+  and accessibility matrix passed 1,044 / 1,044 in 10.9 minutes, including all
+  27 axe cases. Consecutive public, generated-data, and finalized static builds
+  reproduced exactly; all 65 manifest assets match their recorded sizes and
+  SHA-256 values across 79,536,270 bytes. After rebasing onto the deployed
+  Batch 350 release, all 74 Python tests and the cumulative Batch 350/351
+  browser regression passed again (6 / 6).
+- After Batch 351, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,295
+  people, or 13.7636% of active entities; 456 people (1.9048%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,248 (13.5673%) have an assessed
+  archival-review disposition, and 20,645 remain `not_started`. The private
+  evidence graph contains 1,289 affiliations, 484 organizations, 3,408
+  sources, 2,607 claims, and 5,884 claim-source links. Claim confidence counts
+  are 774 confirmed, 1,068 high, 657 medium, 48 low, and 60 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,279
+  affiliations, 2,317 sources, and 2,557 published or qualified claims, backed
+  by 1,585 unique source documents. It preserves 226 possible-duplicate groups.
 - Batch 350 covers Richard B. Cameron through Sanders Camp, the next ten
   contiguous personnel rows spanning PDF page 66, rows 44-46, and page 67,
   rows 1-7, all indexed in Box 103. Both pages were rendered and visually
