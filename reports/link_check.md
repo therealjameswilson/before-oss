@@ -78,6 +78,27 @@ and preserves six unresolved archival paths without promoting unsupported
 namesakes. The complete browser, responsive, and accessibility matrix passed
 1,005 / 1,005 in an uninterrupted 8.5-minute single-worker run.
 
+## Batch 338 production deployment
+
+Release `3bfdda19b48ba6dbb10740df3dfc113f8cad0635` passed pull-request workflow
+[32463259007](https://github.com/therealjameswilson/before-oss/actions/runs/32463259007),
+post-merge test workflow
+[32465048328](https://github.com/therealjameswilson/before-oss/actions/runs/32465048328),
+and Pages workflow
+[32465048250](https://github.com/therealjameswilson/before-oss/actions/runs/32465048250).
+The production audit opened seven core routes and all ten Batch 338 profiles.
+All 17 routes returned HTTP 200 and matched the deployed Pages artifact byte
+for byte. The live manifest and all 65 listed assets also matched the
+artifact's bytes, sizes, and SHA-256 values across 78,921,264 bytes; the live
+manifest SHA-256 is
+`152d3ea148287bba22a12a6ddbef76beee7712aa5133bb15bdeda10147727408`.
+
+Live statistics exactly reproduced 3,166 attempted people, 452 verified
+affiliations, 193 verified employers, 3,118 archival-review assessments, 2,484
+public claims, and 2,255 public sources. Because every fetched route and asset
+matched the audited release, the successful local boundary-aware private-
+identifier result applies byte for byte to production.
+
 ## Batch 337 local release check
 
 The complete 24,416-page internal-link pass includes Carl F. Butts through

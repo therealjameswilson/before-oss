@@ -132,6 +132,19 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 1,005-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 338 production verification: **passed**. Release
+  `3bfdda19b48ba6dbb10740df3dfc113f8cad0635` passed pull-request workflow
+  [32463259007](https://github.com/therealjameswilson/before-oss/actions/runs/32463259007),
+  post-merge test workflow
+  [32465048328](https://github.com/therealjameswilson/before-oss/actions/runs/32465048328),
+  and Pages workflow
+  [32465048250](https://github.com/therealjameswilson/before-oss/actions/runs/32465048250).
+  All 17 live routes and 65 manifest assets matched the deployed artifact
+  byte-for-byte across 78,921,264 bytes; manifest SHA-256 was
+  `152d3ea148287bba22a12a6ddbef76beee7712aa5133bb15bdeda10147727408`.
+  Live coverage exactly reproduced 3,166 attempted people, 452 verified
+  affiliations, 193 verified employers, 3,118 archival assessments, 2,484
+  public claims, and 2,255 public sources.
 - Batch 337 local release verification: **passed**. Consecutive public-data
   builds reproduced the same sorted generated-file digest
   `49a0f8fb814c3843a1bd00279116ea3fa50d1792955d9c014e5f6200780ad1c5`.
