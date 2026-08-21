@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **996** browser, responsive, and
+The expanded release matrix contains **999** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 335 release sweep passed **996 / 996** in 8.9 minutes. The
+single-worker Batch 336 release sweep passed **999 / 999** in 8.6 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 336 adds a focused direct-route regression for Paul B. Butler Jr.
+through Georgia E. Buttram across PDF pages 63-64. It confirms Junichi Buto's
+commissioned Army identity and keeps his immediate 442nd Regimental Combat
+Team predecessor distinct from earlier Fort Benning training; publishes David
+S. Butterwick's and James J. Buttino's broad, strongly date-bounded occupations
+without inventing employers; withholds the low-confidence Robert L. Butt Army
+candidate; preserves the printed `Alfrd` spelling; masks private identifiers;
+and routes the six unsupported identities to Box 97 or 98 review. The focused
+regression passed **3 / 3** across desktop, phone, and tablet.
 
 Batch 335 adds a focused direct-route regression for William J. Butkus through
 Marshall Butler on PDF page 63. It exposes William's private-identifier

@@ -4,16 +4,51 @@ Run: 2026-08-21 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,414 HTML files. Every relative
+**PASS.** The production build contains 24,416 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 466 organization profiles, and the
+The build includes 23,940 person profiles, 468 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,395 unique external URLs for separate live
+The checker inventoried 49,400 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 336 local release check
+
+The complete 24,416-page internal-link pass includes Paul B. Butler Jr. through
+Georgia E. Buttram across Boxes 97-98 on PDF pages 63-64, plus the new 442nd
+Regimental Combat Team and Infantry School at Fort Benning organization routes.
+All 74 Python tests plus five subtests, the deterministic 200-profile audit,
+focused three-viewport regression, dependency audit, database integrity
+checks, and public-identifier audit pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 78,796,367 bytes and has
+SHA-256
+`ef6fb2b628a487b7f0515c1d27af102fcd3107ecb222a3d27da2811127fa51f8`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,486 production
+artifacts. It rejected 616 and 1,042 harmless candidate substrings,
+respectively, and found no aggregate, manifest-size, or unexpected boundary
+matches.
+
+Consecutive public-data builds produced identical sorted path-and-file-SHA-256
+digest
+`b72dac4cc6bb0fe0bbb58360e192928af382b0e56395e972579e24a863fccac8`.
+Consecutive finalized production builds produced identical complete static-
+tree digest
+`8d6ea8ed0c6cf89f019a251c7d8d6373f0c5f3c8a7c1fea4122a3f97c82aeada`.
+The regression confirms Buto's immediate Army pathway, publishes Butterwick's
+and Buttino's broad occupations without inventing employers, withholds the low-
+confidence Butt candidate, preserves the printed `Alfrd` spelling, and routes
+the remaining six profiles to archival review.
+
+The complete Batch 336 browser, responsive, and accessibility matrix passed
+999 / 999 in an uninterrupted 8.6-minute single-worker run across desktop,
+phone, and tablet.
 
 ## Batch 335 local release check
 

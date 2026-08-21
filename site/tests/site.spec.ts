@@ -26512,3 +26512,100 @@ test("Batch 335 preserves the Butkus conflict and qualifies Butler occupations a
     }
   }
 });
+
+test("Batch 336 separates Buto's Army pathway, bounded occupations, and archival cases", async ({
+  page,
+}) => {
+  await page.goto("./people/6453e474-b8ae-5bff-bac4-c8a4cee700f2/");
+  await expect(page.getByRole("heading", { name: "Junichi Buto", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••9031");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "442nd Regimental Combat Team",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Second lieutenant",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "U.S. Army Infantry School",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Second lieutenant attending officer training",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "strongly date bounded",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(2);
+
+  for (const [personId, name, occupation, maskedIdentifier] of [
+    [
+      "81191d2f-fbe7-5f8c-963c-5ad281822894",
+      "David S Butterwick",
+      "Miscellaneous occupations, n. e. c.",
+      "••••8781",
+    ],
+    [
+      "7924c6cc-815d-537a-8711-199d3b65dfe3",
+      "James J Buttino",
+      "Metal products fabrication occupations, n. e. c.",
+      "••••8139",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      "strongly date bounded",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/aa8b3c8c-4795-5f97-ba16-1fd44032995b/");
+  await expect(page.getByRole("heading", { name: "Robert L Butt", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name] of [
+    ["f331f089-fa7f-5067-b6d4-5c9204a60aa6", "Paul B Butler Jr."],
+    ["691a9e6f-3ef6-588f-9ef2-4d7c8f8e064a", "Cynthia Butson"],
+    ["868bf9cf-ed75-5a79-a6cc-11479f1b47fb", "Alfrd C Butterfield"],
+    ["e728ff01-8e3f-5a6f-90f3-0814c3c80037", "Robert E Butterfield"],
+    ["787dbb66-240f-59d3-b239-5f2d93e6a0b7", "Lulu W Buttermore"],
+    ["4aad3e8a-b2cb-510c-972e-312d7a8718a9", "Georgia E Buttram"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("high", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});

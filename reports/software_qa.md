@@ -5,10 +5,10 @@ Run: 2026-08-21 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,414 pages**
-- Internal link check: **24,414 HTML files passed**
-- Expanded browser and accessibility matrix: **996 / 996 passed** in an
-  uninterrupted 8.9-minute single-worker Batch 335 release sweep across
+- Static production build: **24,416 pages**
+- Internal link check: **24,416 HTML files passed**
+- Expanded browser and accessibility matrix: **999 / 999 passed** in an
+  uninterrupted 8.6-minute single-worker Batch 336 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -69,6 +69,30 @@ Run: 2026-08-21 UTC
   namesakes private; and confirms Charles B. Butler's commissioned Army
   identity and strongly date-bounded Infantry-to-OSS pathway from an official
   OSS report while leaving his civilian employer unresolved.
+- Focused Batch 336 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It confirms Junichi Buto's commissioned Army identity and
+  separates his 442nd Regimental Combat Team predecessor from earlier Fort
+  Benning training; publishes David S. Butterwick's and James J. Buttino's
+  broad Army-entry occupations without inventing employers; withholds the
+  low-confidence Robert L. Butt candidate; preserves the printed `Alfrd`
+  spelling; masks identifiers; and routes six unsupported identities to Box
+  97 or 98 review.
+- Batch 336 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `b72dac4cc6bb0fe0bbb58360e192928af382b0e56395e972579e24a863fccac8`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `8d6ea8ed0c6cf89f019a251c7d8d6373f0c5f3c8a7c1fea4122a3f97c82aeada`.
+  The complete 24,416-page internal-link check passed and inventoried 49,400
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,796,367 bytes; manifest SHA-256 was
+  `ef6fb2b628a487b7f0515c1d27af102fcd3107ecb222a3d27da2811127fa51f8`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,486 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 999-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 335 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `fdb0e4d0f10fa0617b84713dd2c5e0b3160b271b64299bec921d58e1c54ab041`.
