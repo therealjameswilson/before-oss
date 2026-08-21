@@ -93,6 +93,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 990-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 333 production verification: **passed**. Release
+  `364c8d9aa489828b50b51bc38cd460bf52c56d70` passed pull-request workflow
+  [32447785340](https://github.com/therealjameswilson/before-oss/actions/runs/32447785340),
+  post-merge test workflow
+  [32449062271](https://github.com/therealjameswilson/before-oss/actions/runs/32449062271),
+  and Pages workflow
+  [32449062262](https://github.com/therealjameswilson/before-oss/actions/runs/32449062262).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 333 profiles. All 65 live assets matched the
+  merged manifest across 78,563,762 bytes; its SHA-256 was
+  `04f2c3f2ec12c4a8c4695b079d7161cd539f85c0c7c9db9a52362b4b877cf364`.
+  The deployed site reported exactly 3,118 attempted profiles, 448 verified
+  affiliations, 193 verified employers, 3,069 archival assessments, 2,448
+  public claims, and 2,217 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 332 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `a4d64470f47d194fa7c5197fb5c0692f3a0e41dc4aa7af9298758cfdc3a97d3b`.
@@ -109,6 +124,21 @@ Run: 2026-08-21 UTC
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, the complete 987-case browser/accessibility matrix, and a
   zero-vulnerability production dependency audit passed.
+- Batch 332 production verification: **passed**. Release
+  `38b11e57568a7eb1b92668e5ebad6cb097e45078` passed pull-request workflow
+  [32445331973](https://github.com/therealjameswilson/before-oss/actions/runs/32445331973),
+  post-merge test workflow
+  [32447734943](https://github.com/therealjameswilson/before-oss/actions/runs/32447734943),
+  and Pages workflow
+  [32447734928](https://github.com/therealjameswilson/before-oss/actions/runs/32447734928).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 332 profiles. All 65 live assets matched the
+  merged manifest across 78,536,796 bytes; its SHA-256 was
+  `c8df7b6609e9a90d9e01e07b5627773b7630287e1208bc5bfb29631cc4332d16`.
+  The deployed site reported exactly 3,108 attempted profiles, 448 verified
+  affiliations, 193 verified employers, 3,059 archival assessments, 2,446
+  public claims, and 2,213 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 331 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `10308bf00d77c893e7fcf805b4a77edd2059fc6ccb9e6ab8025f4750fcd2a541`.

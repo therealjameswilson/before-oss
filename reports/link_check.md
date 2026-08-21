@@ -81,6 +81,23 @@ The complete Batch 333 browser, responsive, and accessibility matrix passed
 990 / 990 in an uninterrupted 8.9-minute single-worker run across desktop,
 phone, and tablet.
 
+## Batch 333 production deployment
+
+Release `364c8d9aa489828b50b51bc38cd460bf52c56d70` passed pull-request workflow
+[32447785340](https://github.com/therealjameswilson/before-oss/actions/runs/32447785340),
+post-merge test workflow
+[32449062271](https://github.com/therealjameswilson/before-oss/actions/runs/32449062271),
+and Pages workflow
+[32449062262](https://github.com/therealjameswilson/before-oss/actions/runs/32449062262).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all ten Batch 333 profile routes. It downloaded and verified all 65
+release assets across 78,563,762 bytes against manifest SHA-256
+`04f2c3f2ec12c4a8c4695b079d7161cd539f85c0c7c9db9a52362b4b877cf364`.
+The live statistics exactly matched the merged release: 3,118 attempted
+profiles, 448 verified affiliations, 193 verified employers, 3,069 archival
+assessments, 2,448 public claims, and 2,217 public citations. No route,
+profile, asset, statistics, or transport failure was found.
+
 ## Batch 332 local release check
 
 The complete 24,412-page internal-link pass includes Robbie Burton through
@@ -112,6 +129,23 @@ employer, predecessor, occupation, or namesake.
 The complete Batch 332 browser, responsive, and accessibility matrix passed
 987 / 987 in an uninterrupted 8.8-minute single-worker run across desktop,
 phone, and tablet.
+
+## Batch 332 production deployment
+
+Release `38b11e57568a7eb1b92668e5ebad6cb097e45078` passed pull-request workflow
+[32445331973](https://github.com/therealjameswilson/before-oss/actions/runs/32445331973),
+post-merge test workflow
+[32447734943](https://github.com/therealjameswilson/before-oss/actions/runs/32447734943),
+and Pages workflow
+[32447734928](https://github.com/therealjameswilson/before-oss/actions/runs/32447734928).
+A cache-busted live audit returned HTTP 200 and nonempty content for seven core
+routes and all ten Batch 332 profile routes. It downloaded and verified all 65
+release assets across 78,536,796 bytes against manifest SHA-256
+`c8df7b6609e9a90d9e01e07b5627773b7630287e1208bc5bfb29631cc4332d16`.
+The live statistics exactly matched the merged release: 3,108 attempted
+profiles, 448 verified affiliations, 193 verified employers, 3,059 archival
+assessments, 2,446 public claims, and 2,213 public citations. No route,
+profile, asset, statistics, or transport failure was found.
 
 ## Batch 331 local release check
 
