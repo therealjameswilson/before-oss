@@ -4,9 +4,9 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,008** browser, responsive, and
+The expanded release matrix contains **1,011** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. An uninterrupted
-single-worker Batch 339 release sweep passed **1,008 / 1,008** in 8.6 minutes. The
+single-worker Batch 340 release sweep passed **1,011 / 1,011** in 8.8 minutes. The
 prior Batch 328 run's eight late browser-session or teardown timeouts and clean
 **8 / 8** isolated rerun remain documented below rather than erased. The matrix
 includes 27 axe scans of representative routes, including the growing Sources
@@ -14,6 +14,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 340 adds a focused direct-route regression for Walter Cabe through
+Howard S. Cady on PDF page 64. It qualifies Walter Cabe's person-specific OSS
+identity without inventing a predecessor; confirms five exact-identifier Army
+records while keeping broad occupations separate from employers; publishes
+John C. Cacavias's 122nd Infantry Battalion predecessor as a military
+assignment; separates Dozier C. Cade's Army pathway from Medill student status;
+masks private identifiers; and routes three unresolved identities to Box 100
+review. The focused regression passed **3 / 3** across desktop, phone, and
+tablet.
 
 Batch 339 adds a focused direct-route regression for John J. Byrne Jr. through
 George J. Cabaud on PDF page 64. It confirms William J. Byrne's surveyor
