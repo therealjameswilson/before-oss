@@ -7,8 +7,8 @@ Run: 2026-08-21 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,412 pages**
 - Internal link check: **24,412 HTML files passed**
-- Expanded browser and accessibility matrix: **984 / 984 passed** in an
-  uninterrupted 8.8-minute single-worker Batch 331 release sweep across
+- Expanded browser and accessibility matrix: **987 / 987 passed** in an
+  uninterrupted 8.8-minute single-worker Batch 332 release sweep across
   desktop, phone, and tablet. The 27 axe cases cover representative routes and
   test for serious or critical accessibility violations. The prior Batch 328
   run's eight late browser-session or teardown timeouts and clean **8 / 8**
@@ -41,6 +41,29 @@ Run: 2026-08-21 UTC
   pathways, exposes the drafted-versus-volunteered source disagreement, keeps
   Mary Burton's incomplete printed note intact, and routes eight unsupported
   identities to Box 96 review.
+- Focused Batch 332 browser regression: **3 / 3 passed** across desktop,
+  phone, and tablet. It exposes the James C. Burwell and Watson B. Busby
+  identifier conflicts without publishing unrelated Army subjects, preserves
+  Watson's printed T-4 enlisted classification, qualifies Charles C.
+  Busenkell's person-specific OSS naval identity without inventing a
+  predecessor or employer, and routes seven unsupported identities to Box 96
+  review.
+- Batch 332 local release verification: **passed**. Consecutive public-data
+  builds reproduced sorted path-and-file-SHA-256 digest
+  `a4d64470f47d194fa7c5197fb5c0692f3a0e41dc4aa7af9298758cfdc3a97d3b`.
+  Consecutive finalized production builds reproduced complete static-tree
+  digest
+  `092ac956b15108a240b4c2c5d1a6a0e5a8742b53caa96fe738dd9000cc261c08`.
+  The complete 24,412-page internal-link check passed and inventoried 49,386
+  unique external URLs. All 65 public manifest assets matched in the source
+  and built trees across 78,536,796 bytes; manifest SHA-256 was
+  `c8df7b6609e9a90d9e01e07b5627773b7630287e1208bc5bfb29631cc4332d16`.
+  The boundary-aware public-identifier audit found zero unexpected matches in
+  both 68 source-public artifacts and all 24,482 built artifacts. The strict
+  evidence bundle passed two-import idempotence, SQLite integrity and foreign-
+  key checks; all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, the complete 987-case browser/accessibility matrix, and a
+  zero-vulnerability production dependency audit passed.
 - Batch 331 local release verification: **passed**. Consecutive public-data
   builds reproduced sorted path-and-file-SHA-256 digest
   `10308bf00d77c893e7fcf805b4a77edd2059fc6ccb9e6ab8025f4750fcd2a541`.
@@ -71,6 +94,21 @@ Run: 2026-08-21 UTC
   evidence bundle passed two-import idempotence, SQLite integrity and foreign-
   key checks; all 74 Python tests plus five subtests, the deterministic 200-
   profile audit, and a zero-vulnerability production dependency audit passed.
+- Batch 330 production verification: **passed**. Release
+  `ec16c4c0dab8f1bd2fad865a3ce36cda230ab087` passed pull-request workflow
+  [32442054104](https://github.com/therealjameswilson/before-oss/actions/runs/32442054104),
+  post-merge test workflow
+  [32443425042](https://github.com/therealjameswilson/before-oss/actions/runs/32443425042),
+  and Pages workflow
+  [32443425012](https://github.com/therealjameswilson/before-oss/actions/runs/32443425012).
+  A cache-busted live audit returned HTTP 200 and nonempty content for seven
+  core routes and all ten Batch 330 profiles. All 65 live assets matched the
+  merged manifest across 78,435,026 bytes; its SHA-256 was
+  `1e2c7678040146c8fae8f759fc3896a1a94955b9963290d5e30d88a69f59b3a0`.
+  The deployed site reported exactly 3,088 attempted profiles, 446 verified
+  affiliations, 192 verified employers, 3,039 archival assessments, 2,436
+  public claims, and 2,203 public citations, with zero asset, route, profile,
+  statistics, or transport failures.
 - Batch 329 local release verification: **passed**. Two consecutive public-
   data builds reproduced sorted path-and-file-SHA-256 digest
   `c870eea9b9363117fcd8f3e1e835e3f82769b6f2dc4e49976d2a5023ff9de4fe`.

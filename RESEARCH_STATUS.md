@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,098 people with a non-planned attempt | 23,940 active person entities | 12.9407% |
+| Research-attempt coverage | 3,108 people with a non-planned attempt | 23,940 active person entities | 12.9825% |
 | Verified-affiliation coverage | 448 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.8713% |
 | Verified-employer coverage | 193 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8062% |
-| Archival-review coverage | 3,049 people with an individual file-access/priority assessment | 23,940 active person entities | 12.7360% |
+| Archival-review coverage | 3,059 people with an individual file-access/priority assessment | 23,940 active person entities | 12.7778% |
 
 ## Extraction and identity
 
@@ -24,15 +24,15 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 553
-- Identity status `high_confidence`: 483
+- Identity status `high_confidence`: 484
 - Identity status `probable`: 100
 - Identity status `ambiguous`: 50
-- Identity status `conflicting`: 45
-- Identity status `unresolved`: 22,709
+- Identity status `conflicting`: 47
+- Identity status `unresolved`: 22,706
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,174
+- Unknown or indeterminate: 16,173
 - Enlisted Army personnel: 3,764
 - Commissioned Army officers: 2,098
 - Commissioned Coast Guard officers: 1
@@ -41,15 +41,15 @@ Generated from the current local SQLite database on 2026-08-21 UTC.
 - Civilian professional or administrative grades: 1,487
 - Foreign or Allied military personnel: 250
 - Enlisted naval personnel: 64
-- Commissioned naval officers: 84
+- Commissioned naval officers: 85
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,216 yes; 5,410 no; 16,314 indeterminate.
+Commissioned classification: 2,217 yes; 5,410 no; 16,313 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,842
+- `not_started`: 20,832
 - `in_progress`: 48
 - `candidate_found`: 1
 - `needs_identity_review`: 69
@@ -57,18 +57,18 @@ Commissioned classification: 2,216 yes; 5,410 no; 16,314 indeterminate.
 - `documented_prewar_employer_found`: 60
 - `no_reliable_result_after_protocol`: 9
 - `occupation_only_found`: 469
-- `requires_archival_review`: 2,101
+- `requires_archival_review`: 2,109
 - `completed`: 99
-- `conflicting_sources`: 46
+- `conflicting_sources`: 48
 - `verified_employer_found`: 189
-- Claim confidence: 735 confirmed; 1,042 high; 612 medium; 39 low; 56
+- Claim confidence: 735 confirmed; 1,043 high; 612 medium; 39 low; 58
   conflicting
-- Durable evidence inventory: 3,288 source records representing 1,512 unique
-  documents; 475 organizations; 1,243 affiliations; 2,484 claims; and 5,617
+- Durable evidence inventory: 3,292 source records representing 1,513 unique
+  documents; 475 organizations; 1,243 affiliations; 2,487 claims; and 5,623
   claim-source links
 - Reviewed public projection: 464 organizations; 1,233 published, qualified,
-  or conflict-visible affiliations; 2,443 published, qualified, or
-  conflict-visible claims; and 2,210 public citation records
+  or conflict-visible affiliations; 2,446 published, qualified, or
+  conflict-visible claims; and 2,213 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,216 yes; 5,410 no; 16,314 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  2,817. The detailed adapter breakdown remains reproducible in
+  2,827. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,353 across 1,315 people; 128 additional
+- Saved `source_reviewed` outcomes: 1,354 across 1,316 people; 128 additional
   attempts have a saved `candidate_found` outcome
-- Total recorded attempts/plans: 4,305
+- Total recorded attempts/plans: 4,315
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,159; 1,129 have at least one public-visible
+- People with saved reviewed claims: 1,162; 1,132 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5493,6 +5493,42 @@ Commissioned classification: 2,216 yes; 5,410 no; 16,314 indeterminate.
   check, redaction audit, dependency audit, manifest verification, and two
   identical production builds also passed. Production-deployment results are
   recorded separately after the release reaches GitHub Pages.
+- Batch 332 covers ten contiguous source rows on PDF page 63, from Robbie
+  Burton through Mildred L. Busey. All ten are in Box 96, and the page was
+  rendered and visually checked at original resolution. Exact private-
+  identifier comparison with NARA's official Army merged file produced two
+  direct middle-initial conflicts: indexed James C. Burwell leads to James S.
+  Burwell, and indexed Watson B. Busby leads to Watson E. Busby. Neither
+  candidate's Army-entry fields are assigned pending Box 96 review. Watson's
+  printed T-4 grade independently remains classified as enlisted Army
+  personnel. Michael B. Burzynski's printed identifier and exact name were not
+  found in the processed Army file; the official documentation's omissions and
+  conversion-error warning mean this absence is not treated as disproof.
+
+  A person-specific Legion of Merit citation identifies the uncommon exact
+  name Charles C. Busenkell as a U.S. Naval Reserve lieutenant commander and
+  OSS Special Projects Office Electronics Section officer-in-charge from
+  October 1944 through October 1945. That supports a high-confidence identity
+  and commissioned naval classification, but not his immediately preceding
+  naval assignment or last civilian employer. A 1940 amateur-radio listing and
+  a 1960 engineering directory remain identity or career leads only. Robbie
+  Burton, Ronald R. Burton, Michael B. Burzynski, Giovanni S. Buscemi, Homer F.
+  Busch, Joan F. Buschmann, and Mildred L. Busey remain unresolved and route to
+  Box 96 review. Common-name and modern candidates lacking two corroborating
+  identifiers were rejected rather than promoted.
+- Batch 332's strict evidence bundle adds four source inputs, no organizations
+  or affiliations, three identity claims, six claim-source links, ten person
+  updates, and ten durable research attempts. It passed schema validation, two-
+  import idempotence against a temporary database, SQLite integrity and foreign-
+  key checks, all 74 Python tests plus five subtests, the deterministic 200-
+  profile audit, and public-data redaction. The focused three-viewport
+  regression and complete 987-case browser/accessibility matrix passed; Astro
+  reported zero errors, warnings, or hints; all 24,412 internal pages passed
+  link checking; and the dependency audit found zero vulnerabilities.
+  Consecutive public-data and finalized static builds reproduced identical
+  digests, all 65 manifest assets matched in both public trees, and both
+  boundary-aware private-identifier audits found zero unexpected matches.
+  Production-deployment results are recorded separately after merge.
 - Batch 331 covers the final nine source rows on PDF page 62 and the first row
   on page 63, from Lillian L. Burt through Mary Burton. All ten are in Box 96.
   Both pages were rendered and visually checked at original resolution. Mary's

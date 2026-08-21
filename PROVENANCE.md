@@ -3847,6 +3847,47 @@ No authenticated Catalog request, credential, raw API response, full private
 identifier, full copyrighted page, unassigned occupation code, relative's
 biography, or unsupported employer claim was stored or published.
 
+## Page-sixty-three Burton through Busey pathways, Batch 332
+
+`research/evidence-page-sixty-three-robbie-burton-through-mildred-busey-pathways_batch-332_2026-08-21.json`
+records ten contiguous source rows on PDF page 63, from Robbie Burton through
+Mildred L. Busey. All ten rows are in Box 96. The page was rendered and
+visually checked at original resolution, and every source row remains
+immutable.
+
+The strict bundle contains four source inputs, no organization or affiliation
+inputs, three identity claims, six claim-source links, ten person updates, and
+ten durable research attempts. The NARA OSS index and official Army merged
+file were compared by the documented fixed-width private identifier field
+outside version control. Indexed James C. Burwell's identifier leads to James
+S. Burwell; indexed Watson B. Busby's identifier leads to Watson E. Busby.
+Because no independent reviewed source resolves either middle-initial
+conflict, the candidates' Army-entry status, occupations, dates, and employers
+remain unassigned. Watson's printed T-4 grade independently supports enlisted
+Army classification. Michael B. Burzynski's identifier and exact name do not
+appear in the processed file, but the official technical documentation warns
+of omissions and conversion errors, so absence is not treated as disproof.
+
+A person-specific Legion of Merit citation names Lieutenant Commander Charles
+C. Busenkell, United States Naval Reserve, as officer-in-charge of the OSS
+Special Projects Office Electronics Section from October 1944 through October
+1945. The exact uncommon full name and direct OSS context support high-
+confidence identity and commissioned naval classification. The citation does
+not establish his immediate pre-OSS naval assignment or last civilian
+employer. A 1940 amateur-radio callbook and 1960 engineering directory were
+reviewed only as identity or career leads and do not support a predecessor
+claim.
+
+Robbie Burton, Ronald R. Burton, Michael B. Burzynski, Giovanni S. Buscemi,
+Homer F. Busch, Joan F. Buschmann, and Mildred L. Busey remain unresolved
+after the complete accessible-source protocol and route to Box 96 review.
+Common-name, directory, newspaper, obituary, cemetery, genealogy, military,
+and modern candidates lacked two corroborating identifiers and Box 96 linkage.
+No authenticated Catalog request, credential, raw API response, raw Army
+record, full private identifier, unrelated candidate details, copyrighted
+image, relative-derived identity, or unsupported employer claim was stored or
+published.
+
 ## Pages-sixty-two and sixty-three Burt through Burton pathways, Batch 331
 
 `research/evidence-pages-sixty-two-sixty-three-lillian-burt-through-mary-burton-pathways_batch-331_2026-08-21.json`

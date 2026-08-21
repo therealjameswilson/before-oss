@@ -26207,3 +26207,63 @@ test("Batch 331 separates Burtin's Army pathway and civilian work from unresolve
   await page.goto("./people/7a82aaf3-c7a4-5f72-ba3f-1e36599d0299/");
   await expect(page.getByText("docume", { exact: true })).toBeVisible();
 });
+
+test("Batch 332 preserves two identifier conflicts and qualifies Busenkell's OSS identity", async ({
+  page,
+}) => {
+  await page.goto("./people/018a1b66-98b4-5cb3-8539-fcc888dcaaca/");
+  await expect(page.getByRole("heading", { name: "James C Burwell", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("same first and last names but a conflicting middle initial");
+  await expect(page.locator("main")).toContainText("••••2988");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/39b3fea5-46e0-556e-a9ff-6e827deab299/");
+  await expect(page.getByRole("heading", { name: "Watson B Busby", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("same first and last names but a conflicting middle initial");
+  await expect(page.locator("main")).toContainText("••••3896");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+
+  await page.goto("./people/dba62f1a-bf46-529b-8a60-e5b02dfc23e1/");
+  await expect(page.getByRole("heading", { name: "Charles C Busenkell", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned naval officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Special Projects Office Electronics Section");
+  await expect(page.locator("main")).toContainText("October 1944 to October 1945");
+  await expect(page.locator("main")).not.toContainText("NSN:");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["45519fc5-d531-5d8d-8940-7f754c9c6810", "Robbie Burton", null],
+    ["e26f6731-9eca-56d2-9c72-44c04e782edb", "Ronald R Burton", null],
+    ["215c2bf6-9949-50cc-9402-b38306fed282", "Michael B Burzynski", "••••9276"],
+    ["c9d2fc0b-195e-523c-a2cb-701a8e1d92ce", "Giovanni S Buscemi", null],
+    ["43fd8635-190e-5a8f-abe0-360e3688a586", "Homer F Busch", null],
+    ["97fe7cf7-820d-5089-ac22-340fd40886d1", "Joan F Buschmann", null],
+    ["cf3ca503-3a95-5c44-ba8b-db38b39b4066", "Mildred L Busey", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+});
