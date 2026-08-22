@@ -28277,3 +28277,95 @@ test("Batch 356 preserves unresolved Candito and Canfield profiles and rejects i
   await expect(page.locator("main")).toContainText("never pad the value");
   await expect(page.locator("main")).toContainText("unrelated different-name row");
 });
+
+test("Batch 357 publishes three identifier-linked Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, identity, maskedIdentifier, occupation, codeLabel] of [
+    [
+      "b88ea47c-0a76-59e4-b093-2ea6cfd165d2",
+      "Ignazio Cangelosi",
+      "high confidence",
+      "••••8000",
+      "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "7-36 Chauffeurs and drivers, bus, taxi, truck, and tractor",
+    ],
+    [
+      "fa68bd72-cc52-5a2d-9941-8b49965868cb",
+      "Victor G Canzani",
+      "confirmed",
+      "••••8961",
+      "Draftsmen",
+      "0-48 Draftsmen",
+    ],
+    [
+      "4f328e75-8bad-552c-a60d-bde214eb9f43",
+      "William M Cape Jr.",
+      "confirmed",
+      "••••1583",
+      "Shipping and receiving clerks",
+      "1-34 Shipping and receiving clerks",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(codeLabel);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/b88ea47c-0a76-59e4-b093-2ea6cfd165d2/");
+  await expect(page.locator("main")).toContainText("Ignazio F. Cangelosi");
+  await expect(page.locator("main")).toContainText("adds middle initial F");
+
+  await page.goto("./people/fa68bd72-cc52-5a2d-9941-8b49965868cb/");
+  await expect(page.locator("main")).toContainText("do not use later Pratt Institute work as pre-OSS evidence");
+});
+
+test("Batch 357 preserves seven unresolved profiles and rejects mismatched namesakes", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["39e7c6d1-e812-578e-b339-ca90e15adb74", "Andrew J Canger", "••••6997"],
+    ["84adfc4f-2aef-528a-9360-4d0c884af40b", "Charles S Cann", "••••3827"],
+    ["cd19f20d-c13e-5d91-8aaf-6ac0af51b317", "Henry B Cannon", null],
+    ["c2625d2b-ac7f-5f58-bc85-2b6f31ca8e9f", "James M Cannon", "••••7845"],
+    ["8f172ef4-afd1-5130-8db0-cf6f41fa1698", "Robert H Cannon", "••••5758"],
+    ["f3cb059f-ef95-5e5b-94b3-a1e77f3e4b7f", "Jeanne C Canton", null],
+    ["f0ef92f4-2320-5967-aeb5-86ab201e1af3", "Pauline Cantrell", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/39e7c6d1-e812-578e-b339-ca90e15adb74/");
+  await expect(page.locator("main")).toContainText("seven-digit private identifier");
+  await expect(page.locator("main")).toContainText("identifier does not match");
+  await expect(page.locator("main")).toContainText("rather than forced by zero-padding");
+
+  await page.goto("./people/c2625d2b-ac7f-5f58-bc85-2b6f31ca8e9f/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("1st Lieutenant");
+  await expect(page.locator("main")).toContainText("two enlisted exact-name rows");
+
+  await page.goto("./people/f0ef92f4-2320-5967-aeb5-86ab201e1af3/");
+  await expect(page.locator("main")).toContainText("School-administrator");
+  await expect(page.locator("main")).toContainText("do not transfer school or obituary namesakes");
+});

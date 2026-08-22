@@ -15,6 +15,12 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,441 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+All four Batch 357 official citation endpoints responded directly during
+targeted verification: the NARA personnel-index PDF and both official
+technical-documentation PDFs returned HTTP 206 for the byte-range check, and
+the public Catalog page for the Army merged-file series returned HTTP 200. No
+authenticated Catalog API request was made.
+
 All four Batch 356 official citation endpoints responded directly during
 targeted verification: the NARA personnel-index PDF and both official
 technical-documentation PDFs returned HTTP 206 for the byte-range check, and
@@ -98,6 +104,38 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 357 local release check
+
+The complete 24,421-page internal-link pass includes Ignazio Cangelosi through
+William M. Cape Jr. on PDF page 68 in Box 105. Three exact-identifier Army
+records publish only broad, dated occupations, never invented employers. Two
+exact-name Army candidates with different identifiers remain visibly rejected;
+James M. Cannon's commissioned-officer row is not forced into an enlisted-file
+match; and seven unsupported identities retain archival-review paths. All 74
+Python tests, the deterministic 200-profile audit, the focused 6 / 6 browser
+regression, the clean 1,089 / 1,089 complete matrix, dependency audit, database
+integrity checks, and public-identifier audits pass; Astro reports zero errors,
+warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,833,654 bytes and has
+SHA-256
+`a85b866272cd1f03473252161d66954af260a3cbd3a2067fb83c86a41c9c7b35`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,491 production
+artifacts. It rejected 623 and 1,048 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+The browser-tested public tree and two consecutive rebuilds produced identical
+complete public-tree digest
+`75c0078956ddc0fa193bef2fe2951205f7fbd02c9ff609c6c2d3a30f973abc6a`.
+The generated-data mirrors reproduced digest
+`f4352157a7a01381faca194a9dd6d1286180b1199d8596d57cfcec24f7f1fc8d`.
+The browser-tested production build and two consecutive rebuilds produced the
+same complete static-tree digest
+`5c0c5c1cfac8849fc2f26152cf693e82d5642738958458b3b02e1ebcbb4d683a`.
 
 ## Batch 356 local release check
 
