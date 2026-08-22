@@ -5919,6 +5919,65 @@ Commissioned classification: 2,221 yes; 5,452 no; 16,267 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 356 covers Michael Candea Jr. through Ward L. Canfield, the next ten
+  contiguous personnel rows on PDF page 68 across Boxes 104-105. The index
+  page and the relevant official occupation-code pages were rendered and
+  visually checked. Every printed name and identifier length remains
+  immutable, and all private identifiers remain masked in public data.
+
+  Exact private-identifier and exact-name matches in NARA's complete Army
+  Serial Number Merged File confirm Michael Candea Jr., George V. Candeloro,
+  Theodore Canepa, John K. Canfield, and Ward L. Canfield. Their official
+  records support only broad, dated pre-entry categories: Students for Candea
+  and Candeloro, Stenographers and typists for Canepa, Compositors and
+  typesetters for John Canfield, and Actors and actresses for Ward Canfield.
+  Student status is not employment, and none of the categories names a school,
+  employer, workplace, publication, production, venue, medium, or role.
+
+  Joseph J. Candel's exact private identifier leads to an Army row with the
+  same given names and middle initial but the surname `Candela`. The unique
+  identifier supports a high-confidence identity, but `Candel` remains the
+  authoritative index spelling and `Candela` is displayed only as an official-
+  source variant pending Box 104 review. The record supports the broad
+  `Clerks, general office` category, not a named employer. George C. Caner
+  Jr.'s sole exact full-name-and-suffix Army row remains a probable,
+  conditional match because the index prints no private identifier; its
+  student category is excluded from default analytics pending Box 105 review.
+
+  Florence Candito and Santo Candito remain unresolved. Franklin O.
+  Canfield's index row prints a six-digit identifier; artificially zero-padding
+  it would collide with an unrelated different-name Army row, so the project
+  rejects that collision and transfers no Army or namesake facts. Harvard
+  education, later legal or institutional references, postwar notices,
+  genealogy, and modern namesakes were not promoted into pre-OSS employer
+  claims.
+- Batch 356's strict evidence bundle adds four sources, seven affiliations,
+  fourteen claims, twenty-eight claim-source links, ten person updates, and
+  ten durable research attempts. Repeated imports produced identical results.
+  SQLite integrity and foreign-key checks, the deterministic 200-profile
+  audit, all 74 Python tests, Astro diagnostics, the 24,421-page build and
+  internal-link check, the public-identifier audit, the zero-vulnerability
+  dependency audit, and the focused **12 / 12** desktop, phone, and tablet
+  regression pass. The clean complete browser and accessibility matrix passed
+  **1,083 / 1,083** in 11.2 minutes, including all 27 axe scans. Consecutive
+  public, generated-data, and static trees reproduced byte for byte. All four
+  official citation endpoints responded with HTTP 200 or 206. No authenticated
+  Catalog API request was made, no credential file was present, and the tracked
+  tree contained no nonblank credential assignment.
+- After Batch 356, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,346
+  people, or 13.9766% of active entities; 457 people (1.9089%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,299 (13.7803%) have an assessed
+  archival-review disposition, and 20,594 remain `not_started`. The private
+  evidence graph contains 1,303 affiliations, 484 organizations, 3,429
+  sources, 2,639 claims, and 5,957 claim-source links. Claim-confidence counts
+  are 785 confirmed, 1,073 high, 671 medium, 48 low, and 62 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,293
+  affiliations, 2,337 sources, and 2,589 published or qualified claims, backed
+  by 1,591 unique source documents. It preserves 227 possible-duplicate
+  groups.
 - Batch 355 covers Betty A. Camper through Courtlandt Canby, the next ten
   contiguous personnel rows on PDF page 68 in Box 104, and the separately
   preserved `Canby | Courtlandt` row on PDF page 95 in Box 148. Both index

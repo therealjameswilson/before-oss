@@ -28156,3 +28156,124 @@ test("Batch 355 preserves seven unresolved Camper-through-Canal profiles", async
     "Alessandrina Camuso (search variant; unconfirmed)",
   );
 });
+
+test("Batch 356 publishes five identifier-matched Army occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, occupation, codeLabel] of [
+    [
+      "2908762b-ed55-50bd-9b30-06a817f3267b",
+      "Michael Candea Jr.",
+      "••••4679",
+      "Students",
+      "9 92 Students",
+    ],
+    [
+      "f3a0ac3a-05fb-55c2-8fef-4712c42f1d73",
+      "George V Candeloro",
+      "••••0631",
+      "Students",
+      "9 92 Students",
+    ],
+    [
+      "3ee695d3-5784-5416-9641-e874593ff33d",
+      "Theodore Canepa",
+      "••••4750",
+      "Stenographers and typists",
+      "1-37. Stenographers and typists",
+    ],
+    [
+      "a41a5df8-c3f3-5bb1-9a25-927868a56fe0",
+      "John K Canfield",
+      "••••6595",
+      "Compositors and typesetters",
+      "4, 6-44. Compositors and typesetters",
+    ],
+    [
+      "173185e6-0c3d-5e7d-a97f-4bff04bc6808",
+      "Ward L Canfield",
+      "••••6056",
+      "Actors and actresses",
+      "0-02. Actors and actresses",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(codeLabel);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 356 preserves Candel spelling while qualifying the identifier-linked Candela row", async ({
+  page,
+}) => {
+  await page.goto("./people/c335e5b4-bd77-5aa1-a9b6-8664a7d0a9fc/");
+  await expect(page.getByRole("heading", { name: "Joseph J Candel", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("medium", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••8678");
+  await expect(page.locator("main")).toContainText(
+    "Joseph J. Candela (official Army-file variant; unconfirmed spelling resolution)",
+  );
+  await expect(page.locator("main")).toContainText("spelling difference remains explicit");
+  await expect(page.locator("main")).toContainText("Clerks, general office");
+  await expect(page.locator("main")).toContainText("1-05. Clerks, general office");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 356 keeps Caner's name-only Army match probable and conditional", async ({ page }) => {
+  await page.goto("./people/1c5a8879-0f2a-5c2b-b538-096e99d579ea/");
+  await expect(page.getByRole("heading", { name: "George C Caner Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("If the probable Army match is correct");
+  await expect(page.locator("main")).toContainText("Students");
+  await expect(page.locator("main")).toContainText("no second wartime identifier");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 356 preserves unresolved Candito and Canfield profiles and rejects identifier padding", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["4a2aff88-c7d7-5b65-b68e-f7f0876cbc77", "Florence Candito", null],
+    ["2b12a1cb-14ec-5e29-badc-32cd633deb7b", "Santo Candito", "••••7786"],
+    ["82ae1a79-ab42-52e8-bf56-0cf40af2e080", "Franklin O Canfield", "••••9281"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/82ae1a79-ab42-52e8-bf56-0cf40af2e080/");
+  await expect(page.locator("main")).toContainText("six-digit private identifier");
+  await expect(page.locator("main")).toContainText("never pad the value");
+  await expect(page.locator("main")).toContainText("unrelated different-name row");
+});
