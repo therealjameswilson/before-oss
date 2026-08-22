@@ -4,10 +4,11 @@ Run: 2026-08-22 UTC
 
 ## Result
 
-The expanded release matrix contains **1,098** browser, responsive, and
+The expanded release matrix contains **1,110** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The 11.4-minute
-single-worker Batch 358 sweep passed **1,098 / 1,098** without a timeout or
-accessibility failure. The prior 11.3-minute Batch 357 sweep passed **1,089 /
+single-worker Batch 359 sweep passed **1,110 / 1,110** without a timeout or
+accessibility failure. The prior 11.4-minute Batch 358 sweep passed **1,098 /
+1,098**, and the prior 11.3-minute Batch 357 sweep passed **1,089 /
 1,089**, and the prior 11.2-minute Batch 356 sweep passed **1,083 /
 1,083**, and the prior 11.6-minute Batch 355 sweep passed **1,071 /
 1,071**, and the prior 11.0-minute Batch 354 sweep passed **1,059 /
@@ -37,6 +38,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 359 adds direct-route coverage for Lawrence M. Cappuccio through George
+A. Carasso across PDF pages 68-69 and Boxes 105-106. It publishes five bounded
+Army-entry occupations or student findings without inventing employers; keeps
+Notre Dame student status distinct from Albert V. Caputi's stock-clerk
+occupation and visible duplicate-identifier warning; publishes Stravros E.
+Caragian's 122nd Infantry Battalion path only as a military assignment;
+preserves the one-day date conflict; withholds Berlette L. Capt's low-
+confidence university candidate; masks every private identifier; and retains
+three explicit archival-review outcomes. The focused regression passed **12 /
+12**, and all 27 axe cases passed in the complete **1,110 / 1,110** matrix.
 
 Batch 358 adds direct-route coverage for Charles F. Caper through Joseph J.
 Cappucci on PDF page 68 in Box 105. It verifies that Stephen J. Capestro's Army
