@@ -1,19 +1,28 @@
 # Link check
 
-Run: 2026-08-21 UTC
+Run: 2026-08-22 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,421 HTML files. Every relative
+**PASS.** The production build contains 24,422 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 473 organization profiles, and the
+The build includes 23,940 person profiles, 474 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,441 unique external URLs for separate live
+The checker inventoried 49,446 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Six of Batch 358's nine citation endpoints responded directly during targeted
+scripted verification: the NARA personnel-index PDF, public Army-series
+Catalog page, both official technical-documentation PDFs, Rutgers oral
+history, and National Park Service OSS history returned HTTP 200 or 206. The
+Army Corps of Engineers fact sheet and Air Force biography returned HTTP 403,
+and the Washington Post obituary timed out. All three had been inspected during
+evidence review; no access control was bypassed. No authenticated Catalog API
+request was made.
 
 All four Batch 357 official citation endpoints responded directly during
 targeted verification: the NARA personnel-index PDF and both official
@@ -105,6 +114,39 @@ scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
 
+## Batch 358 local release check
+
+The complete 24,422-page internal-link pass includes Charles F. Caper through
+Joseph J. Cappucci on PDF page 68 in Box 105. Stephen J. Capestro's immediate
+Army assignment and last civilian employer remain separately labeled; two
+additional official Army occupations are not converted into employers; Finis
+H. Capps's code `000` remains uninterpreted; Joseph J. Cappucci's earlier Army
+Air Corps path remains distinct from an unproven immediate predecessor; and
+five unsupported identities retain archival-review paths. All 74 Python tests,
+the deterministic 200-profile audit, the focused 9 / 9 browser regression, the
+clean 1,098 / 1,098 complete matrix, dependency audit, database integrity
+checks, and public-identifier audits pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 79,937,727 bytes and has
+SHA-256
+`edba607e3cb2533d8aee7d2a98a79338da85a7e3317931384b58a2d40d06fc78`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,492 production
+artifacts. It rejected 623 and 1,049 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+The browser-tested public tree and two consecutive rebuilds produced identical
+complete public-tree digest
+`21343fbc32cccdd31ce2bfc62e8d567059964ab33025934bf7438573acfe64db`.
+The generated-data mirrors reproduced digest
+`70ad97296a305f4b656090638d36fd41c5789504ff8f1f4a7d3dbae50e32ef60`.
+The browser-tested production build and two consecutive rebuilds produced the
+same complete static-tree digest
+`17c15df30f5486184c128e42103d47e4f7a0dadcdc85727213fb3d79c29aa133`.
+
 ## Batch 357 local release check
 
 The complete 24,421-page internal-link pass includes Ignazio Cangelosi through
@@ -136,6 +178,15 @@ The generated-data mirrors reproduced digest
 The browser-tested production build and two consecutive rebuilds produced the
 same complete static-tree digest
 `5c0c5c1cfac8849fc2f26152cf693e82d5642738958458b3b02e1ebcbb4d683a`.
+
+## Batch 357 public release check
+
+Pull request 112 merged as release
+`dfc0039344bff38d893523bcac18c3f73a67a25e`. The Pages workflow passed. Seven
+core routes and all ten Batch 357 person routes returned HTTP 200. All 65 live
+manifest assets matched the audited release sizes and SHA-256 hashes byte for
+byte across 79,833,654 bytes; manifest SHA-256 was
+`a85b866272cd1f03473252161d66954af260a3cbd3a2067fb83c86a41c9c7b35`.
 
 ## Batch 356 local release check
 

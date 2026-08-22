@@ -28369,3 +28369,114 @@ test("Batch 357 preserves seven unresolved profiles and rejects mismatched names
   await expect(page.locator("main")).toContainText("School-administrator");
   await expect(page.locator("main")).toContainText("do not transfer school or obituary namesakes");
 });
+
+test("Batch 358 separates Capestro's immediate Army assignment from his last civilian employer", async ({
+  page,
+}) => {
+  await page.goto("./people/f07da04e-844a-5076-b2ef-c8d39e0f8cb4/");
+  await expect(page.getByRole("heading", { name: "Stephen J Capestro", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••6418");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Army Specialized Training Program",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Raritan Arsenal",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Salespersons",
+  );
+  await expect(page.locator("main")).toContainText("Physical page 171; code 1-75");
+  await expect(page.locator("main")).toContainText(
+    "retain ASTP as a military assignment, not an Ohio State employer relationship",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(2);
+});
+
+test("Batch 358 publishes bounded Capet, Capparelli, Capps, and Cappucci findings", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier, occupation, codeLabel] of [
+    [
+      "6d888083-2027-56ed-b9fa-45835123ed22",
+      "Albert G Capet",
+      "••••3565",
+      "Professional occupations, not elsewhere classified",
+      "Physical page 171; code 0-39",
+    ],
+    [
+      "3138cfe9-b742-5e34-b92f-690446d9cc36",
+      "Ross A Capparelli",
+      "••••9987",
+      "Electrical machinery and accessories manufacturing occupations, not elsewhere classified",
+      "Physical page 176; code 4-99",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(codeLabel);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/e7ce3d19-99a5-5b4d-bf2b-89a19ebd92a1/");
+  await expect(page.getByRole("heading", { name: "Finis H Capps", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••0925");
+  await expect(page.locator("main")).not.toContainText("Occupation code 0-00");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/f2345f91-0c69-57e5-acaa-0bc6c2018b64/");
+  await expect(page.getByRole("heading", { name: "Joseph J Cappucci", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("••••2175");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Air Corps",
+  );
+  await expect(page.locator("main")).toContainText("Westover Air Base");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+});
+
+test("Batch 358 preserves five unresolved profiles and rejects unsafe namesake transfers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["bc9293bf-05a9-58bb-898e-9badcf3ba5e3", "Charles F Caper", null],
+    ["f52f6db0-762b-5a9c-a8ff-33e0e92c72a9", "Helene Caperell", null],
+    ["6b51477e-d0b5-5913-96c8-202a49d87747", "Lido Capogrosso", "••••1739"],
+    ["5a9a2429-cc4a-5f7d-8adc-d70dfcb5b3dc", "Anthony Caporale", null],
+    ["ed229aa0-36cb-58c4-80f0-58390d1d11be", "Everett M Capps", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/5a9a2429-cc4a-5f7d-8adc-d70dfcb5b3dc/");
+  await expect(page.locator("main")).toContainText("name alone cannot link it to Box 105");
+  await expect(page.locator("main")).toContainText("occupation code are not transferred");
+
+  await page.goto("./people/6b51477e-d0b5-5913-96c8-202a49d87747/");
+  await expect(page.locator("main")).toContainText("neither that exact identifier nor an exact full-name row");
+});

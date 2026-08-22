@@ -1,6 +1,6 @@
 # Software QA
 
-Run: 2026-08-21 UTC
+Run: 2026-08-22 UTC
 
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
@@ -68,6 +68,9 @@ Run: 2026-08-21 UTC
   final-build run includes all 27 axe cases.
 - Batch 357 complete browser and accessibility matrix: **1,089 / 1,089 passed**
   in 11.3 minutes across desktop, phone, and tablet. The clean uninterrupted
+  final-build run includes all 27 axe cases.
+- Batch 358 complete browser and accessibility matrix: **1,098 / 1,098 passed**
+  in 11.4 minutes across desktop, phone, and tablet. The clean uninterrupted
   final-build run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
@@ -288,6 +291,36 @@ Run: 2026-08-21 UTC
   exposes mismatched-identifier candidates without transferring namesake
   facts, masks all identifiers, and preserves seven unsupported identities as
   archival-review cases.
+- Focused Batch 358 browser regression: **9 / 9 passed** across desktop, phone,
+  and tablet after one test-only organization-link count was corrected from
+  three to two. It separates Stephen J. Capestro's Army Specialized Training
+  Program assignment, Raritan Arsenal employment, and broad civilian
+  occupation; publishes two additional bounded occupation categories without
+  inventing employers; leaves Finis H. Capps's code `000` uninterpreted;
+  qualifies Joseph J. Cappucci's Army Air Corps path without overstating its
+  immediacy; masks every identifier; and preserves five unsupported identities
+  as archival-review cases.
+- Batch 358 local release verification: **passed**. The browser-tested public
+  tree and two consecutive rebuilds reproduced digest
+  `21343fbc32cccdd31ce2bfc62e8d567059964ab33025934bf7438573acfe64db`;
+  generated-data mirrors reproduced
+  `70ad97296a305f4b656090638d36fd41c5789504ff8f1f4a7d3dbae50e32ef60`;
+  and the browser-tested build plus two consecutive rebuilds reproduced static-
+  tree digest
+  `17c15df30f5486184c128e42103d47e4f7a0dadcdc85727213fb3d79c29aa133`.
+  The complete 24,422-page internal-link check passed and inventoried 49,446
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,937,727 bytes; manifest SHA-256 was
+  `edba607e3cb2533d8aee7d2a98a79338da85a7e3317931384b58a2d40d06fc78`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,492 built artifacts. The strict evidence bundle passed
+  clean-rebuild import, SQLite integrity and foreign-key checks; all 74 Python
+  tests, the deterministic 200-profile audit, the focused **9 / 9** regression,
+  the clean **1,098 / 1,098** complete matrix, six direct source checks, and a
+  zero-vulnerability production dependency audit passed. Two official source
+  endpoints returned HTTP 403 and one newspaper endpoint timed out during the
+  final scripted check; no access control was bypassed. No credential file or
+  tracked nonblank credential assignment was present.
 - Batch 357 local release verification: **passed**. The browser-tested public
   tree and two consecutive rebuilds reproduced digest
   `75c0078956ddc0fa193bef2fe2951205f7fbd02c9ff609c6c2d3a30f973abc6a`;
@@ -307,6 +340,11 @@ Run: 2026-08-21 UTC
   regression, the clean **1,089 / 1,089** complete matrix, four direct official
   source checks, and a zero-vulnerability production dependency audit passed.
   No credential file or tracked nonblank credential assignment was present.
+  Pull request 112 merged as
+  `dfc0039344bff38d893523bcac18c3f73a67a25e`; the Pages workflow and the
+  seventeen-route, 65-asset byte-for-byte production audit passed. The
+  post-merge Test workflow was still running when Batch 358 local QA began and
+  is tracked separately from the already-passing pull-request run.
 - Batch 356 local release verification: **passed**. The browser-tested public
   tree and two consecutive rebuilds reproduced digest
   `cee2494a5bf278b00048276081b47485196308e46591ab9874eff24c0892f192`;

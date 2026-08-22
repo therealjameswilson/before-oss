@@ -1,13 +1,14 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-21 UTC
+Run: 2026-08-22 UTC
 
 ## Result
 
-The expanded release matrix contains **1,089** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.3-minute
-single-worker Batch 357 sweep passed **1,089 / 1,089** without a timeout or
-accessibility failure. The prior 11.2-minute Batch 356 sweep passed **1,083 /
+The expanded release matrix contains **1,098** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.4-minute
+single-worker Batch 358 sweep passed **1,098 / 1,098** without a timeout or
+accessibility failure. The prior 11.3-minute Batch 357 sweep passed **1,089 /
+1,089**, and the prior 11.2-minute Batch 356 sweep passed **1,083 /
 1,083**, and the prior 11.6-minute Batch 355 sweep passed **1,071 /
 1,071**, and the prior 11.0-minute Batch 354 sweep passed **1,059 /
 1,059**, and the prior 11.0-minute Batch 353 sweep passed **1,050 /
@@ -36,6 +37,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 358 adds direct-route coverage for Charles F. Caper through Joseph J.
+Cappucci on PDF page 68 in Box 105. It verifies that Stephen J. Capestro's Army
+Specialized Training Program assignment, Raritan Arsenal employment, and broad
+Army-entry occupation remain three distinct facts; publishes two additional
+bounded occupations without inventing employers; leaves Finis H. Capps's
+unassigned occupation code uninterpreted; presents Joseph J. Cappucci's Army
+Air Corps path without overstating immediacy; rejects an unsupported Anthony
+Caporale namesake transfer; masks all private identifiers; and routes five
+unresolved identities to archival review. The focused regression passed **9 /
+9**, and all 27 axe cases passed in the complete **1,098 / 1,098** matrix.
 
 Batch 357 adds direct-route coverage for Ignazio Cangelosi through William M.
 Cape Jr. on PDF page 68 in Box 105. It publishes three exact-identifier Army-
