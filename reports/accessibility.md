@@ -4,10 +4,16 @@ Run: 2026-08-22 UTC
 
 ## Result
 
-The expanded release matrix contains **1,110** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.4-minute
-single-worker Batch 359 sweep passed **1,110 / 1,110** without a timeout or
-accessibility failure. The prior 11.4-minute Batch 358 sweep passed **1,098 /
+The expanded release matrix contains **1,119** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.6-minute
+single-worker Batch 360 sweep passed **1,116 / 1,119**; the same older Batch
+356 assertion failed in each viewport because it expected an internal student-
+status paraphrase rather than the official category rendered on the public
+profile. After correcting only that test expectation, its isolated desktop,
+phone, and tablet rerun passed **3 / 3**. All 27 axe cases and all nine new
+Batch 360 cases passed in the complete run. The prior 11.4-minute Batch 359
+sweep passed **1,110 / 1,110** without a timeout or accessibility failure. The
+prior 11.4-minute Batch 358 sweep passed **1,098 /
 1,098**, and the prior 11.3-minute Batch 357 sweep passed **1,089 /
 1,089**, and the prior 11.2-minute Batch 356 sweep passed **1,083 /
 1,083**, and the prior 11.6-minute Batch 355 sweep passed **1,071 /
@@ -38,6 +44,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 360 adds direct-route coverage for John G. Caravas through Italo Caressa
+on PDF page 69 in Box 106. It publishes four qualified Army-entry occupation
+or student findings without inventing employers; keeps Burhan A. Careem's May
+1945 chronology explicitly uncertain; uses John G. Caravas's and John J.
+Carels's post-OSS-dissolution Army rows for identity only; preserves Carels's
+one-digit identifier discrepancy; retains the printed `Lois` Cardinale
+spelling; masks every private identifier; and routes four unresolved profiles
+to archival review. The focused regression passed **9 / 9**, all nine new
+cases passed within the complete matrix, and all 27 axe cases passed.
 
 Batch 359 adds direct-route coverage for Lawrence M. Cappuccio through George
 A. Carasso across PDF pages 68-69 and Boxes 105-106. It publishes five bounded

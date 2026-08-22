@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:58:15+00:00",
+  "generated_at": "2026-08-22T23:33:57+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,8 +9,8 @@
     "person_entities": 23940,
     "stored_person_entities": 23941,
     "superseded_person_entities": 1,
-    "people_with_nonplanned_attempts": 3376,
-    "percent": 14.1019
+    "people_with_nonplanned_attempts": 3386,
+    "percent": 14.1437
   },
   "verified_affiliation_coverage": {
     "person_entities": 23940,
@@ -24,8 +24,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23940,
-    "people_assessed": 3329,
-    "percent": 13.9056
+    "people_assessed": 3339,
+    "percent": 13.9474
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -36,17 +36,17 @@
     "needs_identity_review": 88,
     "needs_temporal_review": 9,
     "no_reliable_result_after_protocol": 9,
-    "not_started": 20564,
-    "occupation_only_found": 521,
-    "requires_archival_review": 2287,
+    "not_started": 20554,
+    "occupation_only_found": 525,
+    "requires_archival_review": 2293,
     "verified_employer_found": 196
   },
   "claim_confidence_counts": {
-    "confirmed": 797,
+    "confirmed": 802,
     "conflicting": 62,
-    "high": 1083,
+    "high": 1084,
     "low": 49,
-    "medium": 684
+    "medium": 688
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1489,
@@ -54,16 +54,16 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 6,
     "commissioned_naval_officer": 85,
-    "enlisted_army_personnel": 3825,
+    "enlisted_army_personnel": 3830,
     "enlisted_marine_corps_personnel": 3,
     "enlisted_naval_personnel": 64,
     "foreign_or_allied_military_personnel": 250,
     "temporary_contract_or_special_personnel": 3,
-    "unknown_or_indeterminate": 16106,
+    "unknown_or_indeterminate": 16101,
     "warrant_officer": 6
   },
   "possible_duplicate_groups": 228,
   "conflict_count": 54,
-  "citations": 3455,
-  "unique_source_documents": 1604
+  "citations": 3460,
+  "unique_source_documents": 1606
 }

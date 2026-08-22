@@ -28626,3 +28626,118 @@ test("Batch 359 preserves three unresolved archival cases and withholds a low-co
   await page.goto("./people/e11abf13-7145-5465-9355-11a530d7a925/");
   await expect(page.locator("main")).not.toContainText("122nd Infantry Battalion");
 });
+
+test("Batch 360 publishes four bounded occupation findings without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, displayedAffiliation] of [
+    [
+      "8cc4e197-1807-5168-b6b7-6ca5c402b2be",
+      "Michael Cardacino",
+      "••••4167",
+      "student; institution not stated",
+    ],
+    [
+      "2591b9dc-10c4-5453-83c7-0786f65945ea",
+      "John N Cardinalli",
+      "••••3752",
+      "Fishermen and oystermen",
+    ],
+    [
+      "397004d5-df4e-5d07-bda0-ff1b9607a35b",
+      "Russell Cardoza",
+      "••••8627",
+      "Transportation occupations, not elsewhere classified",
+    ],
+    [
+      "cf4e4a12-85ea-5ab3-933c-5080aac566f5",
+      "Burhan A Careem",
+      "••••9670",
+      "Semiprofessional occupations, not elsewhere classified",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      displayedAffiliation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/8cc4e197-1807-5168-b6b7-6ca5c402b2be/");
+  await expect(page.locator("main")).toContainText("served in Burma as a medic in the OSS");
+  await expect(page.locator("main")).toContainText("Students; the institution is not stated");
+
+  await page.goto("./people/cf4e4a12-85ea-5ab3-933c-5080aac566f5/");
+  await expect(page.getByText("temporal relation uncertain", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("May 4, 1945");
+});
+
+test("Batch 360 uses late-1945 Army rows for identity but not pre-OSS occupations", async ({ page }) => {
+  for (const [personId, name, identity, maskedIdentifier, date] of [
+    [
+      "7ee02bb8-39a9-56f6-ae6e-8baeff665b65",
+      "John G Caravas",
+      "confirmed",
+      "••••5204",
+      "December 6, 1945",
+    ],
+    [
+      "ab1b6e7a-eaa7-51db-aef8-7364f732a1bf",
+      "John J Carels",
+      "high confidence",
+      "••••1408",
+      "November 24, 1945",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator("main")).toContainText("after OSS dissolution");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/ab1b6e7a-eaa7-51db-aef8-7364f732a1bf/");
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("one additional trailing digit");
+});
+
+test("Batch 360 preserves four unresolved Box 106 profiles", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["87f5bc02-7847-522b-abbf-517e15c60c6f", "Constance S Carden", null],
+    ["72181a50-8bf4-5c02-ada7-64626c5bf162", "Lois J Cardinale", "••••9566"],
+    ["549a1c4f-3acb-5bcb-9635-2aaddf76cdb8", "Marcel Cares", "••••2785"],
+    ["ff8d1418-d2b4-5b10-a4b4-be598c397ca4", "Italo Caressa", null],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/72181a50-8bf4-5c02-ada7-64626c5bf162/");
+  await expect(page.locator("main")).toContainText("printed first name is preserved");
+  await expect(page.locator("main")).toContainText("not silently changed to Louis");
+});
