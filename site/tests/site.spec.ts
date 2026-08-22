@@ -28480,3 +28480,149 @@ test("Batch 358 preserves five unresolved profiles and rejects unsafe namesake t
   await page.goto("./people/6b51477e-d0b5-5913-96c8-202a49d87747/");
   await expect(page.locator("main")).toContainText("neither that exact identifier nor an exact full-name row");
 });
+
+test("Batch 359 publishes five bounded Army-entry occupation findings without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, occupation] of [
+    [
+      "6f4a7adc-c1c3-5e78-a44d-d7ea124c8a7c",
+      "Lawrence M Cappuccio",
+      "••••7686",
+      "Students",
+    ],
+    [
+      "083f917b-9463-5e46-8efe-a2a9ef642880",
+      "Joseph Capriglione",
+      "••••4688",
+      "Sales clerks",
+    ],
+    [
+      "5ad452e0-30aa-5b16-8247-b98e983dd821",
+      "Ignatius J Caprioli",
+      "••••4269",
+      "Construction occupations, not elsewhere classified",
+    ],
+    [
+      "4ea13d3a-6b6a-501a-ad60-b6ad2f1acdfc",
+      "Basil J Carabella",
+      "••••7663",
+      "Sports instructors, athletes, and sports officials",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/f1dbf14c-23cd-5fd7-97ae-cd6119a78e7c/");
+  await expect(page.getByRole("heading", { name: "George A Carasso", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••6912");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Stenographers and typists",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Brooklyn College",
+  );
+  await expect(page.locator("main")).toContainText("student");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+});
+
+test("Batch 359 keeps Notre Dame student status distinct from Albert Caputi's occupation", async ({
+  page,
+}) => {
+  await page.goto("./people/8e0b8506-b995-54f4-a02f-c58c5e21f7ba/");
+  await expect(page.getByRole("heading", { name: "Albert V Caputi", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••4144");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Stock clerks",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Notre Dame",
+  );
+  await expect(page.locator("main")).toContainText("former student; ex-'44");
+  await expect(page.locator("main")).toContainText("duplicate");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+});
+
+test("Batch 359 publishes Stravros Caragian's immediate military pathway and date conflict", async ({
+  page,
+}) => {
+  await page.goto("./people/2fefaf6d-0ca5-5936-a5cc-8348f71cc6a2/");
+  await expect(page.getByRole("heading", { name: "Stravros E Caragian", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••2925");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "122nd Infantry Battalion (Separate)",
+  );
+  await expect(page.locator("main")).toContainText("military assignment");
+  await expect(page.locator("main")).toContainText("April 22");
+  await expect(page.locator("main")).toContainText("April 23");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+});
+
+test("Batch 359 preserves three unresolved archival cases and withholds a low-confidence lead", async ({
+  page,
+}) => {
+  for (const [personId, name, identity, status, maskedIdentifier] of [
+    [
+      "d501c18a-c55d-5edc-9d39-0a16caa06e7a",
+      "Berlette L Capt",
+      "probable",
+      "needs identity review",
+      null,
+    ],
+    [
+      "a4e4b54d-1f00-5d4a-a66b-16d4629c591e",
+      "Joseph J Caputa",
+      "high confidence",
+      "requires archival review",
+      null,
+    ],
+    [
+      "e11abf13-7145-5465-9355-11a530d7a925",
+      "Nicholas J Caragianny",
+      "high confidence",
+      "requires archival review",
+      "••••1218",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No reliable pre-OSS employer has yet been identified|No reviewed claim currently meets the publication threshold/,
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/d501c18a-c55d-5edc-9d39-0a16caa06e7a/");
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText(
+    "Do not assign the University of North Carolina candidate",
+  );
+
+  await page.goto("./people/a4e4b54d-1f00-5d4a-a66b-16d4629c591e/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("Captain");
+
+  await page.goto("./people/e11abf13-7145-5465-9355-11a530d7a925/");
+  await expect(page.locator("main")).not.toContainText("122nd Infantry Battalion");
+});

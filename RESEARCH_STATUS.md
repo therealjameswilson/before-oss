@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-22 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,366 people with a non-planned attempt | 23,940 active person entities | 14.0602% |
-| Verified-affiliation coverage | 459 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9173% |
+| Research-attempt coverage | 3,376 people with a non-planned attempt | 23,940 active person entities | 14.1019% |
+| Verified-affiliation coverage | 461 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9256% |
 | Verified-employer coverage | 196 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8187% |
-| Archival-review coverage | 3,319 people with an individual file-access/priority assessment | 23,940 active person entities | 13.8638% |
+| Archival-review coverage | 3,329 people with an individual file-access/priority assessment | 23,940 active person entities | 13.9056% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-08-22 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 227
+- Possible duplicate groups: 228
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 607
-- Identity status `high_confidence`: 503
-- Identity status `probable`: 114
+- Identity status `confirmed`: 613
+- Identity status `high_confidence`: 506
+- Identity status `probable`: 115
 - Identity status `ambiguous`: 55
 - Identity status `conflicting`: 51
-- Identity status `unresolved`: 22,610
+- Identity status `unresolved`: 22,600
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,113
-- Enlisted Army personnel: 3,818
+- Unknown or indeterminate: 16,106
+- Enlisted Army personnel: 3,825
 - Commissioned Army officers: 2,102
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-22 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,221 yes; 5,471 no; 16,248 indeterminate.
+Commissioned classification: 2,221 yes; 5,478 no; 16,241 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,574
+- `not_started`: 20,564
 - `in_progress`: 46
 - `candidate_found`: 1
-- `needs_identity_review`: 87
+- `needs_identity_review`: 88
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 63
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 515
-- `requires_archival_review`: 2,285
+- `occupation_only_found`: 521
+- `requires_archival_review`: 2,287
 - `completed`: 104
 - `conflicting_sources`: 52
-- `verified_employer_found`: 195
-- Claim confidence: 791 confirmed; 1,078 high; 677 medium; 48 low; 62
+- `verified_employer_found`: 196
+- Claim confidence: 797 confirmed; 1,083 high; 684 medium; 49 low; 62
   conflicting
-- Durable evidence inventory: 3,442 source records representing 1,597 unique
-  documents; 485 organizations; 1,312 affiliations; 2,656 claims; and 5,995
+- Durable evidence inventory: 3,455 source records representing 1,604 unique
+  documents; 486 organizations; 1,321 affiliations; 2,675 claims; and 6,042
   claim-source links
-- Reviewed public projection: 474 organizations; 1,302 published, qualified,
-  or conflict-visible affiliations; 2,606 published, qualified, or
-  conflict-visible claims; and 2,349 public citation records
+- Reviewed public projection: 475 organizations; 1,311 published, qualified,
+  or conflict-visible affiliations; 2,624 published, qualified, or
+  conflict-visible claims; and 2,361 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,221 yes; 5,471 no; 16,248 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,121. The detailed adapter breakdown remains reproducible in
+  3,131. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,437; 144 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,446; 145 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,576
+- Total recorded attempts/plans: 4,586
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,257; 1,218 have at least one public-visible
+- People with saved reviewed claims: 1,267; 1,227 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5919,6 +5919,63 @@ Commissioned classification: 2,221 yes; 5,471 no; 16,248 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 359 covers Lawrence M. Cappuccio through George A. Carasso, the next
+  ten contiguous personnel rows across PDF pages 68-69. Visual review confirms
+  that Lawrence Cappuccio, Joseph Capriglione, and Ignatius Caprioli are the
+  final three rows in Box 105; Berlette Capt through George Carasso are in Box
+  106. The boundary is preserved in every citation, profile, and archival
+  next action. The source PDF, Army fixed-width documentation, and the exact
+  civilian-occupation code entries were inspected without exposing the private
+  identifiers used for identity resolution.
+
+  Exact-name and private-identifier evidence confirms Lawrence Cappuccio,
+  Joseph Capriglione, Ignatius Caprioli, Basil Carabella, and George Carasso.
+  Their Army-entry records support, respectively, student status with three
+  years of unnamed college, sales clerk, a residual construction category, the
+  grouped sports-instructor/athlete/official category, and the combined
+  stenographer/typist category. None identifies an employer. A reputable
+  obituary supports George Alexander Carasso's earlier Brooklyn College
+  student relationship, which remains distinct from employment.
+
+  Albert V. Caputi is a high-confidence match to the Brooklyn private listed
+  in Notre Dame's wartime roster as ex-'44. Notre Dame is published only as a
+  student relationship; the separate Army-entry record supports stock clerk as
+  an occupation. The Army merged file assigns Albert's private identifier to
+  an unrelated Douglas G. Box row as well, so that collision, manual-review
+  requirement, and reduced identity confidence remain visible. Berlette L.
+  Capt's rare-name match to a 1946 University of North Carolina yearbook is a
+  low-confidence lead only: no middle initial, OSS link, Box identifier, or
+  pre-OSS chronology closes the identity gap, so the affiliation is withheld.
+
+  The indexed `Stravros` E. Caragian is confirmed as Stavros E. Caragian from
+  his exact private identifier and OSS Greek Operational Group records. The
+  122nd Infantry Battalion (Separate) is published as his best-supported
+  immediate military assignment, never as a civilian employer. The official
+  Army date of April 23 and memorial date of April 22 remain an explicit
+  one-day conflict. Joseph J. Caputa and Nicholas J. Caragianny receive high-
+  confidence identities, but no predecessor affiliation is published.
+  Nicholas's rare-name OSS roster does not by itself prove that he personally
+  came from the 122nd Battalion.
+- Batch 359's strict evidence bundle adds thirteen sources, three
+  organizations, nine affiliations, nineteen claims, forty-seven claim-source
+  links, ten person updates, and ten durable research attempts. The complete
+  clean rebuild from the frozen 522-page PDF and every versioned evidence
+  bundle retains all 23,978 source rows and 23,940 active person entities,
+  passes SQLite integrity and foreign-key checks, and builds 24,423 static
+  pages with zero Astro errors, warnings, or hints. All 74 Python tests, the
+  deterministic 200-profile audit, public-identifier audits, and the focused
+  **12 / 12** desktop, phone, and tablet regression pass. No authenticated
+  Catalog API request was made and no Catalog API response body was stored.
+- After Batch 359, research has a saved non-planned outcome for 3,376 people,
+  or 14.1019% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 461 people (1.9256%); confirmed/high employment or self-
+  employment remains 196 people (0.8187%); 3,329 people (13.9056%) have an
+  assessed archival-review disposition; and 20,564 remain `not_started`. The
+  private graph contains 1,321 affiliations, 486 organizations, 3,455 sources,
+  2,675 claims, and 6,042 claim-source links. The public projection contains
+  475 organizations, 1,311 affiliations, 2,361 sources, and 2,624 published,
+  qualified, or conflict-visible claims, backed by 1,604 unique source
+  documents. It preserves 228 possible-duplicate groups.
 - Batch 358 covers Charles F. Caper through Joseph J. Cappucci, the next ten
   contiguous personnel rows on PDF page 68 in Box 105. The index page, the
   official Army fixed-width documentation, and the relevant civilian-

@@ -5,8 +5,8 @@ Run: 2026-08-22 UTC
 - Python unit tests: **74 / 74 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,421 pages**
-- Internal link check: **24,421 HTML files passed**
+- Static production build: **24,423 pages**
+- Internal link check: **24,423 HTML files passed**
 - Expanded browser and accessibility matrix: the 23.0-minute single-worker
   Batch 345 sweep completed **1,024 / 1,026** cases across desktop, phone, and
   tablet; two older Batch 223/226 cases timed out without an assertion or axe
@@ -72,6 +72,18 @@ Run: 2026-08-22 UTC
 - Batch 358 complete browser and accessibility matrix: **1,098 / 1,098 passed**
   in 11.4 minutes across desktop, phone, and tablet. The clean uninterrupted
   final-build run includes all 27 axe cases.
+- Batch 359 complete browser and accessibility matrix: **1,110 / 1,110 passed**
+  in 11.4 minutes across desktop, phone, and tablet. The clean uninterrupted
+  final-build run includes all 27 axe cases.
+- Focused Batch 359 browser regression: **12 / 12 passed** across desktop,
+  phone, and tablet after two test-only expectations were aligned with the
+  public profile language. It publishes five bounded Army-entry occupation or
+  student findings without inventing employers; keeps Notre Dame student
+  status distinct from Albert V. Caputi's stock-clerk occupation; exposes his
+  duplicate-identifier warning; labels Stravros E. Caragian's 122nd Infantry
+  Battalion path as a military assignment; preserves the one-day date
+  conflict; withholds Berlette L. Capt's low-confidence university lead; and
+  masks every private identifier.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -300,6 +312,28 @@ Run: 2026-08-22 UTC
   qualifies Joseph J. Cappucci's Army Air Corps path without overstating its
   immediacy; masks every identifier; and preserves five unsupported identities
   as archival-review cases.
+- Batch 359 local release verification: **passed**. The browser-tested public
+  tree and two consecutive rebuilds reproduced digest
+  `a9d2434396a0cc218877b661254630188087148b43bdcd870c7a70e422005b93`;
+  generated-data mirrors reproduced
+  `8136d8d9cf02992a28ffc4039c5340cfdea8669567ff9549891aea659842d0ea`;
+  and the browser-tested build plus two consecutive rebuilds reproduced static-
+  tree digest
+  `382ccdf64643640aeb9b1cc539ecb4e66e69e774af236012c709e07093473448`.
+  The complete 24,423-page internal-link check passed and inventoried 49,452
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 80,083,930 bytes; manifest SHA-256 was
+  `2b2f3a0c28d9352fb1ae044791b758506934b97d70447d228202fc6d3648d622`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,493 built artifacts. The strict evidence bundle passed
+  clean-rebuild import, SQLite integrity and foreign-key checks; all 74 Python
+  tests, the deterministic 200-profile audit, the focused **12 / 12**
+  regression, the clean **1,110 / 1,110** complete matrix, seven direct source
+  checks, and a zero-vulnerability production dependency audit passed. Hoover
+  and Hellenic News returned HTTP 403, three U.S. War Memorials pages returned
+  HTTP 406, and the Washington Post endpoint closed its HTTP/2 stream during
+  the final scripted check; no access control was bypassed. No credential file
+  or tracked nonblank credential assignment was present.
 - Batch 358 local release verification: **passed**. The browser-tested public
   tree and two consecutive rebuilds reproduced digest
   `21343fbc32cccdd31ce2bfc62e8d567059964ab33025934bf7438573acfe64db`;

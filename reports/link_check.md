@@ -4,16 +4,27 @@ Run: 2026-08-22 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,422 HTML files. Every relative
+**PASS.** The production build contains 24,423 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 474 organization profiles, and the
+The build includes 23,940 person profiles, 475 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,446 unique external URLs for separate live
+The checker inventoried 49,452 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Seven of Batch 359's thirteen citation endpoints responded directly during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, both official technical-documentation PDFs, the 1946
+University of North Carolina yearbook, Notre Dame wartime roster, and
+Interment.net cemetery transcription returned HTTP 200 or 206. Hoover and the
+Hellenic News history returned HTTP 403; three U.S. War Memorials pages
+returned HTTP 406; and the Washington Post archive endpoint closed its HTTP/2
+stream without a response. Those sources had been inspected during evidence
+review, no access control was bypassed, and no authenticated Catalog API
+request was made.
 
 Six of Batch 358's nine citation endpoints responded directly during targeted
 scripted verification: the NARA personnel-index PDF, public Army-series
@@ -113,6 +124,40 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 359 local release check
+
+The complete 24,423-page internal-link pass includes Lawrence M. Cappuccio
+through George A. Carasso across PDF pages 68-69 and preserves the corrected
+Box 105/106 boundary. Five Army-entry classifications remain occupation or
+student evidence rather than invented employers; Albert V. Caputi's Notre Dame
+student status remains separate from his stock-clerk occupation and duplicate-
+identifier warning; Berlette L. Capt's university lead remains withheld;
+Stravros E. Caragian's 122nd Infantry Battalion pathway is labeled a military
+assignment; and three archival cases retain explicit review paths. All 74
+Python tests, the deterministic 200-profile audit, focused 12 / 12 browser
+regression, clean 1,110 / 1,110 complete browser and accessibility matrix,
+dependency audit, database integrity checks, and public-identifier audits pass;
+Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 80,083,930 bytes and has
+SHA-256
+`2b2f3a0c28d9352fb1ae044791b758506934b97d70447d228202fc6d3648d622`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,493 production
+artifacts. It rejected 623 and 1,048 harmless candidate substrings,
+respectively, found no manifest-size false positives, and found no unexpected
+boundary matches.
+
+The browser-tested public tree and two consecutive rebuilds produced identical
+complete public-tree digest
+`a9d2434396a0cc218877b661254630188087148b43bdcd870c7a70e422005b93`.
+The generated-data mirrors reproduced digest
+`8136d8d9cf02992a28ffc4039c5340cfdea8669567ff9549891aea659842d0ea`.
+The browser-tested production build and two consecutive rebuilds produced the
+same complete static-tree digest
+`382ccdf64643640aeb9b1cc539ecb4e66e69e774af236012c709e07093473448`.
 
 ## Batch 358 local release check
 
