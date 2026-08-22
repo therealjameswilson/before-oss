@@ -4,10 +4,11 @@ Run: 2026-08-21 UTC
 
 ## Result
 
-The expanded release matrix contains **1,083** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.2-minute
-single-worker Batch 356 sweep passed **1,083 / 1,083** without a timeout or
-accessibility failure. The prior 11.6-minute Batch 355 sweep passed **1,071 /
+The expanded release matrix contains **1,089** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.3-minute
+single-worker Batch 357 sweep passed **1,089 / 1,089** without a timeout or
+accessibility failure. The prior 11.2-minute Batch 356 sweep passed **1,083 /
+1,083**, and the prior 11.6-minute Batch 355 sweep passed **1,071 /
 1,071**, and the prior 11.0-minute Batch 354 sweep passed **1,059 /
 1,059**, and the prior 11.0-minute Batch 353 sweep passed **1,050 /
 1,050**, the prior 10.6-minute Batch 352 sweep passed **1,047 /
@@ -35,6 +36,19 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 357 adds direct-route coverage for Ignazio Cangelosi through William M.
+Cape Jr. on PDF page 68 in Box 105. It publishes three exact-identifier Army-
+entry occupations without inventing employers; exposes two exact-name but
+different-identifier Army candidates without transferring their facts; keeps
+James M. Cannon's commissioned-officer row outside the enlisted merged-file
+coverage; rejects later academic, legal, school-administration, newspaper,
+obituary, and genealogy namesakes; masks all private identifiers; and routes
+seven unsupported identities to archival review. An initial focused run failed
+only because the test expected lowercase `school-administrator` while the page
+correctly rendered the sentence-initial `School-administrator`; the test-only
+expectation was corrected, and the clean focused rerun passed **6 / 6**. All 27
+axe cases passed in the complete **1,089 / 1,089** matrix.
 
 Batch 356 adds direct-route coverage for Michael Candea Jr. through Ward L.
 Canfield on PDF page 68 across Boxes 104-105. It publishes five exact-

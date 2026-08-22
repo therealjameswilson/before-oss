@@ -5919,6 +5919,58 @@ Commissioned classification: 2,221 yes; 5,452 no; 16,267 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 357 covers Ignazio Cangelosi through William M. Cape Jr., the next ten
+  contiguous personnel rows on PDF page 68 in Box 105. The index page and the
+  relevant official occupation-code page were rendered and visually checked.
+  Every printed name and identifier length remains immutable, and all private
+  identifiers remain masked in public data.
+
+  Exact private-identifier and exact-name matches in NARA's complete Army
+  Serial Number Merged File confirm Ignazio F. Cangelosi, Victor G. Canzani,
+  and William M. Cape Jr. Their official records support only broad, dated
+  pre-entry occupation categories: `Chauffeurs and drivers, bus, taxi, truck,
+  and tractor` for Cangelosi, `Draftsmen` for Canzani, and `Shipping and
+  receiving clerks` for Cape. None names an employer, workplace, firm, client,
+  route, carrier, design office, or warehouse, so all three remain occupation-
+  only and are excluded from verified-employer analytics. Canzani's later
+  Pratt design work is explicitly postwar and contributes no pre-OSS claim.
+
+  Andrew J. Canger and Robert H. Cannon have exact-name Army candidates whose
+  private identifiers disagree with the immutable index rows; no padding,
+  truncation, or silent substitution was used. Charles S. Cann's six-digit
+  identifier has no exact Army match. James M. Cannon remains a separately
+  preserved commissioned Army officer; the merged enlisted file does not
+  cover officers, and two different-identifier enlisted namesakes contribute
+  no facts. Henry B. Cannon, Jeanne C. Canton, and Pauline Cantrell remain
+  unresolved. Later academic, legal, school-administration, newspaper,
+  obituary, and genealogy namesakes were rejected rather than projected onto
+  the index people.
+- Batch 357's strict evidence bundle adds four sources, three affiliations,
+  six claims, twelve claim-source links, ten person updates, and ten durable
+  research attempts. Repeated imports produced identical results. SQLite
+  integrity and foreign-key checks, the deterministic 200-profile audit, all
+  74 Python tests, Astro diagnostics, the 24,421-page build and internal-link
+  check, the public-identifier audit, the zero-vulnerability dependency audit,
+  and the focused **6 / 6** desktop, phone, and tablet regression pass. The
+  complete browser and accessibility result and final release hashes are
+  recorded in the software QA reports. All official citation endpoints
+  responded with HTTP 200 or 206. No authenticated Catalog API request was
+  made, no credential file was present, and the tracked tree contained no
+  nonblank credential assignment.
+- After Batch 357, the database contains 23,978 immutable source rows and
+  23,940 active person entities (23,941 stored, including one superseded
+  entity). Research has reached a terminal or saved review outcome for 3,356
+  people, or 14.0184% of active entities; 457 people (1.9089%) have a confirmed
+  or high-confidence publishable affiliation, 195 (0.8145%) have a confirmed
+  or high-confidence publishable employer, 3,309 (13.8221%) have an assessed
+  archival-review disposition, and 20,584 remain `not_started`. The private
+  evidence graph contains 1,306 affiliations, 484 organizations, 3,433
+  sources, 2,645 claims, and 5,969 claim-source links. Claim-confidence counts
+  are 787 confirmed, 1,074 high, 674 medium, 48 low, and 62 conflicting. The
+  public projection contains 23,940 personnel, 473 organizations, 1,296
+  affiliations, 2,340 sources, and 2,595 published or qualified claims, backed
+  by 1,592 unique source documents. It preserves 227 possible-duplicate
+  groups.
 - Batch 356 covers Michael Candea Jr. through Ward L. Canfield, the next ten
   contiguous personnel rows on PDF page 68 across Boxes 104-105. The index
   page and the relevant official occupation-code pages were rendered and

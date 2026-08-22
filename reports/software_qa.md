@@ -66,6 +66,9 @@ Run: 2026-08-21 UTC
 - Batch 356 complete browser and accessibility matrix: **1,083 / 1,083 passed**
   in 11.2 minutes across desktop, phone, and tablet. The clean uninterrupted
   final-build run includes all 27 axe cases.
+- Batch 357 complete browser and accessibility matrix: **1,089 / 1,089 passed**
+  in 11.3 minutes across desktop, phone, and tablet. The clean uninterrupted
+  final-build run includes all 27 axe cases.
 - Focused Batch 327 browser regression: **3 / 3 passed** across desktop,
   phone, and tablet. It keeps student, professional, military, employer,
   occupation-only, post-OSS identity, and unresolved archival evidence in
@@ -278,6 +281,32 @@ Run: 2026-08-21 UTC
   Caner Jr.'s name-only match conditional, rejects padding Franklin O.
   Canfield's six-digit identifier, masks all identifiers, and preserves three
   unsupported identities as archival-review cases.
+- Focused Batch 357 browser regression: **6 / 6 passed** across desktop, phone,
+  and tablet after a test-only capitalization expectation was corrected. It
+  publishes three exact-identifier Army occupations without inventing
+  employers, preserves James M. Cannon's commissioned-officer boundary,
+  exposes mismatched-identifier candidates without transferring namesake
+  facts, masks all identifiers, and preserves seven unsupported identities as
+  archival-review cases.
+- Batch 357 local release verification: **passed**. The browser-tested public
+  tree and two consecutive rebuilds reproduced digest
+  `75c0078956ddc0fa193bef2fe2951205f7fbd02c9ff609c6c2d3a30f973abc6a`;
+  generated-data mirrors reproduced
+  `f4352157a7a01381faca194a9dd6d1286180b1199d8596d57cfcec24f7f1fc8d`;
+  and the browser-tested build plus two consecutive rebuilds reproduced static-
+  tree digest
+  `5c0c5c1cfac8849fc2f26152cf693e82d5642738958458b3b02e1ebcbb4d683a`.
+  The complete 24,421-page internal-link check passed and inventoried 49,441
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 79,833,654 bytes; manifest SHA-256 was
+  `a85b866272cd1f03473252161d66954af260a3cbd3a2067fb83c86a41c9c7b35`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,491 built artifacts. The strict evidence bundle passed
+  repeated-import idempotence, SQLite integrity and foreign-key checks; all 74
+  Python tests, the deterministic 200-profile audit, the focused **6 / 6**
+  regression, the clean **1,089 / 1,089** complete matrix, four direct official
+  source checks, and a zero-vulnerability production dependency audit passed.
+  No credential file or tracked nonblank credential assignment was present.
 - Batch 356 local release verification: **passed**. The browser-tested public
   tree and two consecutive rebuilds reproduced digest
   `cee2494a5bf278b00048276081b47485196308e46591ab9874eff24c0892f192`;
