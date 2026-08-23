@@ -1,11 +1,13 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-22 UTC
+Run: 2026-08-23 UTC
 
 ## Result
 
-The expanded release matrix contains **1,119** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 11.6-minute
+The expanded release matrix contains **1,128** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.7-minute
+single-worker Batch 361 sweep passed **1,128 / 1,128** without a timeout,
+assertion failure, or accessibility violation. The prior 11.6-minute
 single-worker Batch 360 sweep passed **1,116 / 1,119**; the same older Batch
 356 assertion failed in each viewport because it expected an internal student-
 status paraphrase rather than the official category rendered on the public
@@ -44,6 +46,18 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 361 adds direct-route coverage for A. G. Carey through Michael Carioscia
+on PDF page 69 in Box 106. It publishes Richard L. Carey's and Thomas H.
+Carey's exact-identifier Army-entry occupation categories without inventing
+employers; keeps Virginia Carey's Wells College student status separate from
+employment and visibly probable rather than proven immediate; confines the
+Argyris Carfakis obituary to high-confidence identity evidence; withholds the
+undated duPont retirement and La Jolla librarian leads; preserves the `Maj`
+text in Jim Carini's middle-initial column without classifying him as an
+officer; masks every private identifier; and routes six unresolved profiles to
+Box 106 review. The focused regression passed **9 / 9**, all nine new cases
+passed within the complete matrix, and all 27 axe cases passed.
 
 Batch 360 adds direct-route coverage for John G. Caravas through Italo Caressa
 on PDF page 69 in Box 106. It publishes four qualified Army-entry occupation

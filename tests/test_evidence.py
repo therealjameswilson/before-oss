@@ -392,6 +392,44 @@ class ReviewedEvidenceTests(unittest.TestCase):
             ).fetchone()[0]
         )
 
+    def test_reviewed_nullable_classifications_can_be_cleared(self) -> None:
+        classified_bundle = self._bundle()
+        classified_bundle["person_updates"][0]["commissioned_officer"] = True
+        classified_bundle["person_updates"][0]["allied_or_foreign_personnel"] = True
+        classified_path = Path(self.temp_dir.name) / "classified-bundle.json"
+        classified_path.write_text(json.dumps(classified_bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, classified_path)
+
+        omitted_bundle = self._bundle()
+        del omitted_bundle["person_updates"][0]["commissioned_officer"]
+        del omitted_bundle["person_updates"][0]["allied_or_foreign_personnel"]
+        omitted_path = Path(self.temp_dir.name) / "classification-omitted.json"
+        omitted_path.write_text(json.dumps(omitted_bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, omitted_path)
+        preserved = self.connection.execute(
+            """
+            SELECT commissioned_officer, allied_or_foreign_personnel
+            FROM person_entities
+            """
+        ).fetchone()
+        self.assertEqual(preserved["commissioned_officer"], 1)
+        self.assertEqual(preserved["allied_or_foreign_personnel"], 1)
+
+        cleared_bundle = self._bundle()
+        cleared_bundle["person_updates"][0]["commissioned_officer"] = None
+        cleared_bundle["person_updates"][0]["allied_or_foreign_personnel"] = None
+        cleared_path = Path(self.temp_dir.name) / "classification-cleared.json"
+        cleared_path.write_text(json.dumps(cleared_bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, cleared_path)
+        cleared = self.connection.execute(
+            """
+            SELECT commissioned_officer, allied_or_foreign_personnel
+            FROM person_entities
+            """
+        ).fetchone()
+        self.assertIsNone(cleared["commissioned_officer"])
+        self.assertIsNone(cleared["allied_or_foreign_personnel"])
+
     def test_review_can_correct_generic_rank_to_marine_corps_officer(self) -> None:
         bundle = self._bundle()
         bundle["person_updates"][0]["personnel_category"] = (

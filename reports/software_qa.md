@@ -1,12 +1,12 @@
 # Software QA
 
-Run: 2026-08-22 UTC
+Run: 2026-08-23 UTC
 
-- Python unit tests: **74 / 74 passed**
+- Python unit tests: **75 / 75 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,423 pages**
-- Internal link check: **24,423 HTML files passed**
+- Static production build: **24,424 pages**
+- Internal link check: **24,424 HTML files passed**
 - Expanded browser and accessibility matrix: the 23.0-minute single-worker
   Batch 345 sweep completed **1,024 / 1,026** cases across desktop, phone, and
   tablet; two older Batch 223/226 cases timed out without an assertion or axe
@@ -82,6 +82,16 @@ Run: 2026-08-22 UTC
   category rendered publicly. After correcting only that test expectation, the
   exact desktop, phone, and tablet rerun passed **3 / 3**. No historical data
   changed.
+- Batch 361 complete browser and accessibility matrix: **1,128 / 1,128
+  passed** in 10.7 minutes across desktop, phone, and tablet. The clean
+  uninterrupted final-build run includes all 27 axe cases.
+- Focused Batch 361 browser regression: **9 / 9 passed** across desktop,
+  phone, and tablet after three initial test-only expectations were aligned
+  with public profile wording and capitalization. It publishes two bounded
+  Army-entry occupations without inventing employers, keeps Wells College
+  student status separate from employment, excludes an undated duPont lead,
+  preserves Jim Carini's source-column anomaly without inferring officer
+  status, masks identifiers, and preserves six unresolved Box 106 profiles.
 - Focused Batch 360 browser regression: **9 / 9 passed** across desktop, phone,
   and tablet. It publishes four bounded Army-entry occupation or student
   findings without inventing employers; keeps Burhan A. Careem's chronology
@@ -326,6 +336,24 @@ Run: 2026-08-22 UTC
   qualifies Joseph J. Cappucci's Army Air Corps path without overstating its
   immediacy; masks every identifier; and preserves five unsupported identities
   as archival-review cases.
+- Batch 361 local release verification: **passed**. Two consecutive public-
+  data and static builds reproduced public-tree digest
+  `5d15abfc018d6a893d92e01d6c98f2dd8f84a99623fa3d09c5e368e6be16e1e1`,
+  generated-data digest
+  `c4eee0249f3095f05fa3ae1716072c0c15973d577d4aee75659b87b39bfd5413`,
+  and static-tree digest
+  `c5185b6cb66193b4af415411944229bb1e96aa6a03e1fcc3f2c33119623d4d0b`.
+  The complete 24,424-page internal-link check passed and inventoried 49,456
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 80,210,029 bytes; manifest SHA-256 was
+  `27e463c40739aaa3bb726ebb73b235ad5f05c636ebed814285d3352a9fea9c99`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,494 built artifacts. The strict evidence bundle passed
+  repeated-import idempotence, SQLite integrity and foreign-key checks; all 75
+  Python tests, the deterministic 200-profile audit, the focused **9 / 9**
+  regression, the uninterrupted complete **1,128 / 1,128** browser and
+  accessibility matrix, five direct HTTP 200 source checks, zero-diagnostic
+  Astro validation, and a zero-vulnerability production dependency audit.
 - Batch 360 local release verification: **passed**. Two consecutive public-
   data and static builds reproduced public-tree digest
   `87b6bb11ba1b695f28bd5d94133189f004792903073386f12cc394a9bfc5750c`,

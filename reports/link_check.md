@@ -1,19 +1,28 @@
 # Link check
 
-Run: 2026-08-22 UTC
+Run: 2026-08-23 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,423 HTML files. Every relative
+**PASS.** The production build contains 24,424 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 475 organization profiles, and the
+The build includes 23,940 person profiles, 476 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,453 unique external URLs for separate live
+The checker inventoried 49,456 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Five of Batch 361's seven citation endpoints responded directly during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, both official technical-documentation PDFs, and the San
+Diego city directory returned HTTP 200. The two Legacy.com obituary pages
+returned HTTP 403 to the scripted client after their contents had been
+inspected through normal web access during evidence review. No access control
+was bypassed, no authenticated Catalog API request was made, and no raw
+Catalog API response was stored.
 
 All five Batch 360 citation endpoints responded directly during targeted
 scripted verification: the NARA personnel-index PDF, public Army-series
@@ -131,6 +140,39 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 361 local release check
+
+The complete 24,424-page internal-link pass includes A. G. Carey through
+Michael Carioscia on PDF page 69 in Box 106. Richard L. Carey's and Thomas H.
+Carey's Army-entry codes remain bounded occupations rather than employers;
+Virginia Carey's Wells College relationship remains student status and
+probable rather than proven immediate; the Argyris Carfakis obituary supports
+identity but not dated duPont employment; the Alice V. Carey librarian lead
+remains rejected; Jim Carini's `Maj` remains source text in the middle-initial
+column rather than an inferred rank; and six unresolved profiles retain
+explicit Box 106 review paths. All 75 Python tests, the deterministic 200-
+profile audit, focused 9 / 9 browser regression, the complete 1,128 / 1,128
+browser and accessibility matrix, all 27 axe cases, dependency audit, database
+integrity checks, and public-identifier audits pass; Astro reports zero errors,
+warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 80,210,029 bytes and has
+SHA-256
+`27e463c40739aaa3bb726ebb73b235ad5f05c636ebed814285d3352a9fea9c99`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,494 production
+artifacts. It rejected 632 harmless source-public and 1,061 harmless built-
+artifact candidate substrings, found no manifest-size false positives, and
+found no unexpected boundary matches.
+
+Two consecutive rebuilds produced identical public-tree digest
+`5d15abfc018d6a893d92e01d6c98f2dd8f84a99623fa3d09c5e368e6be16e1e1`,
+generated-data digest
+`c4eee0249f3095f05fa3ae1716072c0c15973d577d4aee75659b87b39bfd5413`,
+and complete static-tree digest
+`c5185b6cb66193b4af415411944229bb1e96aa6a03e1fcc3f2c33119623d4d0b`.
 
 ## Batch 360 local release check
 

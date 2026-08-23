@@ -5919,6 +5919,58 @@ Commissioned classification: 2,221 yes; 5,483 no; 16,236 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
+  contiguous personnel rows on PDF page 69 in Box 106. The source page was
+  rendered and visually checked, including the anomalous Jim Carini row: the
+  printed `Maj` appears in the middle-initial column while the rank column is
+  blank. It therefore remains immutable source text, not a commissioned-rank
+  classification. The official unrestricted Army merged file was searched
+  transiently, and its field documentation and the relevant occupation-code
+  pages were rendered and visually checked. No raw bulk payload, full private
+  identifier, authenticated Catalog response, or credential is retained.
+
+  Exact-name and private-identifier agreement confirms Richard L. Carey and
+  Thomas H. Carey. Their Army-entry rows support, respectively, NARA's
+  historical `Retail managers` category on March 2, 1943 and the grouped
+  `Metallurgists, assayers, and chemists` category on December 18, 1942. Both
+  findings remain medium-confidence, strongly date-bounded occupations: no
+  named store, laboratory, employer, exact profession, Army-to-OSS chronology,
+  or immediate pre-OSS relationship is supplied.
+
+  Virginia Carey is a high-confidence match to Virginia Carey Hahn because a
+  Boston Globe obituary uses the indexed maiden name and explicitly documents
+  OSS recruitment and service. Her 1943 Wells College graduation is published
+  as a medium-confidence, probable-immediate student affiliation, never as
+  employment; the precise recruitment date and absence of an intervening role
+  remain unproved. The distinctive Argyris Carfakis name and compatible World
+  War II Army service support a high-confidence identity only. His obituary's
+  undated duPont retirement reference is excluded from pre-OSS affiliation
+  claims. A. G. Carey, Alice V. Carey, Edward A. Carey, George Carey, Jim
+  Carini, and Michael Carioscia remain unresolved archival-review profiles.
+  The La Jolla librarian lead for Alice and different-identifier Army rows for
+  Edward and Michael are preserved as rejected candidates, not facts.
+- Batch 361's strict evidence bundle adds seven sources, three affiliations,
+  seven claims, fifteen claim-source links, ten person updates, and ten durable
+  research attempts. The complete rebuild retains all 23,978 source rows and
+  23,940 active person entities. Its public projection contains 476
+  organizations, 1,318 affiliations, 2,371 sources, and 2,641 published,
+  qualified, or conflict-visible claims, backed by 1,609 unique source
+  documents. The evidence importer now distinguishes an omitted nullable
+  commissioned or foreign-personnel field from an explicit reviewed `null`:
+  omission preserves the prior value, while explicit `null` clears an unsafe
+  inferred classification. A regression test covers both behaviors. The three
+  Batch 361 browser cases pass **9 / 9** across desktop, phone, and tablet, and
+  the complete browser and accessibility matrix passes **1,128 / 1,128**. All
+  remaining release gates are recorded in the QA reports.
+- After Batch 361, research has a saved non-planned outcome for 3,396 people,
+  or 14.1855% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage remains 461 people (1.9256%); confirmed/high employment or self-
+  employment remains 196 people (0.8187%); 3,349 people (13.9891%) have an
+  assessed archival-review disposition; and 20,544 remain `not_started`. The
+  private graph contains 1,328 affiliations, 487 organizations, 3,467 sources,
+  2,692 claims, and 6,079 claim-source links. It preserves 228 possible-
+  duplicate groups. Claim confidences are 804 confirmed, 1,086 high, 691
+  medium, 49 low, and 62 conflicting.
 - Batch 360 covers John G. Caravas through Italo Caressa, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page and
   both official Army technical-documentation files were rendered and visually
@@ -7648,6 +7700,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-a-g-carey-through-michael-carioscia-pathways_batch-361_2026-08-23.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-john-caravas-through-italo-caressa-pathways_batch-360_2026-08-22.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-four-walter-cabe-through-howard-cady-pathways_batch-340_2026-08-21.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-four-john-byrne-jr-through-george-cabaud-pathways_batch-339_2026-08-21.json
