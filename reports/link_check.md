@@ -12,8 +12,15 @@ The build includes 23,940 person profiles, 475 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,452 unique external URLs for separate live
+The checker inventoried 49,453 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All five Batch 360 citation endpoints responded directly during targeted
+scripted verification: the NARA personnel-index PDF, public Army-series
+Catalog page, both official technical-documentation PDFs, and the Retired
+United Airlines Employees Association newsletter returned HTTP 200 or 206. No
+access control was bypassed, no authenticated Catalog API request was made, and
+no raw Catalog API response was stored.
 
 Seven of Batch 359's thirteen citation endpoints responded directly during
 targeted scripted verification: the NARA personnel-index PDF, public Army-
@@ -124,6 +131,35 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 360 local release check
+
+The complete 24,423-page internal-link pass includes John G. Caravas through
+Italo Caressa on PDF page 69 in Box 106. Four Army-entry classifications remain
+occupation or student evidence rather than invented employers; Burhan A.
+Careem's May 1945 chronology remains uncertain; John G. Caravas's and John J.
+Carels's late-1945 Army rows support identity only; Carels's identifier
+discrepancy and the printed `Lois` Cardinale spelling remain visible; and four
+unresolved profiles retain explicit Box 106 review paths. All 74 Python tests,
+the deterministic 200-profile audit, focused 9 / 9 browser regression, all 27
+axe cases, dependency audit, database integrity checks, and public-identifier
+audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets match their recorded sizes and SHA-256 hashes in both
+the source and built public trees. The manifest covers 80,148,288 bytes and has
+SHA-256
+`9adb7b3234d3e2e6c22fc93d3876e8d79a03b020327490d72b4d69a3bb3e5baf`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,493 production
+artifacts. It rejected 623 harmless source-public candidate substrings, found
+no manifest-size false positives, and found no unexpected boundary matches.
+
+Two consecutive rebuilds produced identical public-tree digest
+`87b6bb11ba1b695f28bd5d94133189f004792903073386f12cc394a9bfc5750c`,
+generated-data digest
+`7d942291dce7afaf540399f60b2927db4edeb265410bba52341e199b0bf0c357`,
+and complete static-tree digest
+`f7fc156b2b1670b763ef1b74b3ba80c8cd99d8e09a0fe958fd75cf2a3d40aadb`.
 
 ## Batch 359 local release check
 

@@ -75,6 +75,20 @@ Run: 2026-08-22 UTC
 - Batch 359 complete browser and accessibility matrix: **1,110 / 1,110 passed**
   in 11.4 minutes across desktop, phone, and tablet. The clean uninterrupted
   final-build run includes all 27 axe cases.
+- Batch 360 complete browser and accessibility matrix: the 11.6-minute run
+  passed **1,116 / 1,119**. All 27 axe cases and all nine new Batch 360 cases
+  passed. The three failures were the same older Batch 356 assertion expecting
+  an internal student-status paraphrase instead of the official `Students`
+  category rendered publicly. After correcting only that test expectation, the
+  exact desktop, phone, and tablet rerun passed **3 / 3**. No historical data
+  changed.
+- Focused Batch 360 browser regression: **9 / 9 passed** across desktop, phone,
+  and tablet. It publishes four bounded Army-entry occupation or student
+  findings without inventing employers; keeps Burhan A. Careem's chronology
+  uncertain; uses John G. Caravas's and John J. Carels's late-1945 Army rows
+  for identity only; preserves Carels's identifier discrepancy and the printed
+  `Lois` Cardinale spelling; masks identifiers; and preserves four unresolved
+  Box 106 profiles as archival-review cases.
 - Focused Batch 359 browser regression: **12 / 12 passed** across desktop,
   phone, and tablet after two test-only expectations were aligned with the
   public profile language. It publishes five bounded Army-entry occupation or
@@ -312,6 +326,25 @@ Run: 2026-08-22 UTC
   qualifies Joseph J. Cappucci's Army Air Corps path without overstating its
   immediacy; masks every identifier; and preserves five unsupported identities
   as archival-review cases.
+- Batch 360 local release verification: **passed**. Two consecutive public-
+  data and static builds reproduced public-tree digest
+  `87b6bb11ba1b695f28bd5d94133189f004792903073386f12cc394a9bfc5750c`,
+  generated-data digest
+  `7d942291dce7afaf540399f60b2927db4edeb265410bba52341e199b0bf0c357`,
+  and static-tree digest
+  `f7fc156b2b1670b763ef1b74b3ba80c8cd99d8e09a0fe958fd75cf2a3d40aadb`.
+  The complete 24,423-page internal-link check passed and inventoried 49,453
+  unique external URLs. All 65 public manifest assets matched their recorded
+  sizes and SHA-256 values across 80,148,288 bytes; manifest SHA-256 was
+  `9adb7b3234d3e2e6c22fc93d3876e8d79a03b020327490d72b4d69a3bb3e5baf`.
+  Boundary-aware public-identifier audits found zero unexpected matches in 68
+  source-public and 24,493 built artifacts. The strict evidence bundle passed
+  clean-rebuild import, SQLite integrity and foreign-key checks; all 74 Python
+  tests, the deterministic 200-profile audit, the focused **9 / 9** regression,
+  the complete matrix plus clean **3 / 3** corrected legacy rerun, five direct
+  source checks, zero-diagnostic Astro validation, and a zero-vulnerability
+  production dependency audit. No credential file, raw NARA API response, or
+  tracked nonblank credential assignment was present.
 - Batch 359 local release verification: **passed**. The browser-tested public
   tree and two consecutive rebuilds reproduced digest
   `a9d2434396a0cc218877b661254630188087148b43bdcd870c7a70e422005b93`;
