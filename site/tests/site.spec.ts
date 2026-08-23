@@ -28741,3 +28741,110 @@ test("Batch 360 preserves four unresolved Box 106 profiles", async ({ page }) =>
   await expect(page.locator("main")).toContainText("printed first name is preserved");
   await expect(page.locator("main")).toContainText("not silently changed to Louis");
 });
+
+test("Batch 361 publishes two bounded Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, maskedIdentifier, occupation, armyEntryDate] of [
+    [
+      "c3a627d6-0a99-5cf3-a70e-a8063d35b20f",
+      "Richard L Carey",
+      "••••7356",
+      "Retail managers",
+      "March 2, 1943",
+    ],
+    [
+      "4cdb91da-de4d-5d0e-a00d-66347921b7dd",
+      "Thomas H Carey",
+      "••••7604",
+      "Metallurgists, assayers, and chemists",
+      "December 18, 1942",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(armyEntryDate);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/4cdb91da-de4d-5d0e-a00d-66347921b7dd/");
+  await expect(page.locator("main")).toContainText(
+    "historical metallurgist, assayer, and chemist grouping",
+  );
+});
+
+test("Batch 361 separates Virginia Carey's student affiliation from employment", async ({ page }) => {
+  await page.goto("./people/d25be108-88c9-53f9-a5a8-7b39c4fda77b/");
+  await expect(page.getByRole("heading", { name: "Virginia Carey", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Wells College",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "student",
+  );
+  await expect(page.getByText("probable immediate", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText(
+    "the narrative supports a probable, not proven, immediate transition",
+  );
+
+  await page.goto("./people/dd5fa199-601b-547e-bd30-251ed7f20376/");
+  await expect(page.getByRole("heading", { name: "Argyris Carfakis", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7537");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  await expect(page.locator("main")).toContainText(
+    "whether any duPont employment was pre-OSS or postwar",
+  );
+});
+
+test("Batch 361 preserves six unresolved profiles and Jim Carini's column anomaly", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["29997c33-6328-53c2-b371-68ab3cb9a542", "A G Carey", null],
+    ["9ec31253-42ae-50db-93e5-bb1a9057442e", "Alice V Carey", null],
+    ["7a1bc195-6c1c-5207-87e0-c21e341a9e8d", "Edward A Carey", "••••9512"],
+    ["5c1e1f4e-8854-5976-8bcd-da55e2c77a21", "George Carey", null],
+    ["71779799-b08c-55d1-a433-fcf139a0796f", "Jim Carini", null],
+    ["98df3aed-d6be-5169-895c-1556901230fe", "Michael Carioscia", "••••5579"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (maskedIdentifier) {
+      await expect(page.locator("main")).toContainText(maskedIdentifier);
+    }
+  }
+
+  await page.goto("./people/71779799-b08c-55d1-a433-fcf139a0796f/");
+  await expect(page.locator("main")).toContainText("Maj");
+  await expect(page.locator("main")).toContainText("whether 'Maj' is a displaced rank");
+  await expect(page.locator("main")).toContainText("Personnel category");
+  await expect(page.locator("main")).toContainText("unknown or indeterminate");
+
+  await page.goto("./people/7a1bc195-6c1c-5207-87e0-c21e341a9e8d/");
+  await expect(page.locator("main")).toContainText("different-identifier Edward A. Carey Army records");
+
+  await page.goto("./people/98df3aed-d6be-5169-895c-1556901230fe/");
+  await expect(page.locator("main")).toContainText("different-identifier Army and modern namesakes");
+});

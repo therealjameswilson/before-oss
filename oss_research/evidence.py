@@ -719,13 +719,21 @@ def import_reviewed_evidence(
                     json.dumps(name_variants, ensure_ascii=False),
                     update.personnel_category or current["personnel_category"],
                     (
-                        int(update.commissioned_officer)
-                        if update.commissioned_officer is not None
+                        (
+                            int(update.commissioned_officer)
+                            if update.commissioned_officer is not None
+                            else None
+                        )
+                        if "commissioned_officer" in update.model_fields_set
                         else current["commissioned_officer"]
                     ),
                     (
-                        int(update.allied_or_foreign_personnel)
-                        if update.allied_or_foreign_personnel is not None
+                        (
+                            int(update.allied_or_foreign_personnel)
+                            if update.allied_or_foreign_personnel is not None
+                            else None
+                        )
+                        if "allied_or_foreign_personnel" in update.model_fields_set
                         else current["allied_or_foreign_personnel"]
                     ),
                     (
