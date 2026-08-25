@@ -1,13 +1,14 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-23 UTC
+Run: 2026-08-24 UTC
 
 ## Result
 
-The expanded release matrix contains **1,128** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.7-minute
-single-worker Batch 361 sweep passed **1,128 / 1,128** without a timeout,
-assertion failure, or accessibility violation. The prior 11.6-minute
+The expanded release matrix contains **1,137** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.0-minute
+single-worker Batch 362 sweep passed **1,137 / 1,137** without a timeout,
+assertion failure, or accessibility violation. The prior 10.7-minute Batch 361
+sweep passed **1,128 / 1,128**. The prior 11.6-minute
 single-worker Batch 360 sweep passed **1,116 / 1,119**; the same older Batch
 356 assertion failed in each viewport because it expected an internal student-
 status paraphrase rather than the official category rendered on the public
@@ -46,6 +47,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 362 adds direct-route coverage for Gus J. Carkonie through Warren F.
+Carlin on PDF page 69 across Boxes 106-107. It keeps two named documented-
+prewar employers from being upgraded to immediate or last civilian employers;
+keeps three Army-entry occupations out of employer counts; corroborates Spyros
+J. Carles without interpreting an unassigned code; exposes Earle J. Carleton
+Jr.'s identifier conflict; masks every private identifier; and routes four
+profiles to archival review. All nine new cases and all 27 axe cases passed in
+the complete matrix.
 
 Batch 361 adds direct-route coverage for A. G. Carey through Michael Carioscia
 on PDF page 69 in Box 106. It publishes Richard L. Carey's and Thomas H.

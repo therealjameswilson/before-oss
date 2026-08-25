@@ -1,0 +1,891 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex historical research pipeline with manual source review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-69-batch362",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "repository_publisher": "National Archives and Records Administration",
+      "access_date": "2026-08-24",
+      "source_quality": "A_direct_official",
+      "locator": "PDF page 69, rows 26-35; Gus J. Carkonie through Warren F. Carlin; Boxes 106-107; visually checked; private identifiers withheld",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 106-107",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Printed rows and spelling remain immutable; full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-merged-file-batch362",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "repository_publisher": "National Archives and Records Administration",
+      "access_date": "2026-08-24",
+      "source_quality": "A_direct_official",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact-name and private-identifier review for page 69 rows 26-35; identifiers withheld",
+      "archival_identifier": "NAID 604357; data file NAID 1263923",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact private-identifier matches: Albert H. Carl, Abel E. Carle, Spyros J. Carles, Harley J. Carlile, and Warren F. Carlin. A different-identifier Earle J. Carleton Jr. Army row remains unlinked. No raw payload is retained."
+    },
+    {
+      "key": "nara-army-basic-doc-batch362",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "access_date": "2026-08-24",
+      "source_quality": "A_direct_official",
+      "locator": "PDF physical pages 44-46; fixed-width field positions, regular and Enlisted Reserve Corps formats, dates, grade, branch, and civilian-occupation fields; visually checked",
+      "archival_identifier": "NAID 1263923; Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2005-05-23; modified 2011",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to parse the fixed-width bulk file. The documentation warns of transcription, duplication, and conversion limitations."
+    },
+    {
+      "key": "nara-army-code-lists-batch362",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "access_date": "2026-08-24",
+      "source_quality": "A_direct_official",
+      "locator": "Code No. 30; PDF physical pages 171 and 175-176; occupation codes 149, 798, 444, and 316; visually checked",
+      "archival_identifier": "NAID 1263923; Code No. 30, Civilian Occupations",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2011-01-12; modified 2011",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official categories name neither an employer nor workplace. Spyros J. Carles's code 993 is absent from the reviewed summary and was not interpreted."
+    },
+    {
+      "key": "soley-radio-warfare-carlaw-batch362",
+      "stable_url": "https://www.worldradiohistory.com/BOOKSHELF-ARH/History/Radio-Warfare-L-Soley-1989.pdf",
+      "title": "Radio Warfare: OSS and CIA Subversive Propaganda",
+      "repository_publisher": "Praeger; preservation copy via World Radio History",
+      "access_date": "2026-08-24",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "locator": "PDF physical page 179, printed page 161; prewar Lord & Thomas work and 1944 OSS production assignment; visually checked",
+      "archival_identifier": "ISBN 0-275-92734-7",
+      "author_creator": "Lawrence C. Soley",
+      "publication_record_date": "1989",
+      "collection_name": "Scholarly monograph",
+      "rights_notes": "Copyrighted monograph. Brief excerpts only. It establishes documented prewar work, not an immediate OSS predecessor."
+    },
+    {
+      "key": "ahepan-spyros-carles-1945-batch362",
+      "stable_url": "https://ahepahistory.org/AHEPA-Magazines/1945-Ahepa-Magazines-Opt.pdf",
+      "title": "The Ahepan, May-June 1945",
+      "repository_publisher": "Order of AHEPA; AHEPA History",
+      "access_date": "2026-08-24",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "locator": "Combined PDF physical page 66, magazine page 25; Sergeant Spyros Carles of Pittsburgh in Greece and Yugoslavia; visually checked",
+      "archival_identifier": "The Ahepan, May-June 1945",
+      "author_creator": "Order of AHEPA",
+      "publication_record_date": "1945-05 to 1945-06",
+      "collection_name": "The Ahepan magazine",
+      "rights_notes": "Contemporary magazine; brief excerpt only. It corroborates identity and wartime service but names no pre-OSS employer."
+    },
+    {
+      "key": "sf-directory-abel-carle-1941-batch362",
+      "stable_url": "https://www.library.sfgenealogy.org/directory/san-francisco-county-directory/1941/1941_246.pdf",
+      "title": "Polk's Crocker-Langley San Francisco City Directory, 1941",
+      "repository_publisher": "San Francisco Genealogy; San Francisco Public Library directory collection",
+      "access_date": "2026-08-24",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "locator": "Directory page 216; Carle listings identify Abel with H. J. Carle & Sons and the business as printers at 540 Washington",
+      "archival_identifier": "Polk's Crocker-Langley San Francisco City Directory, 1941, page 216",
+      "author_creator": "R. L. Polk & Company",
+      "publication_record_date": "1941",
+      "collection_name": "San Francisco city directories",
+      "rights_notes": "Contemporary directory. The uncommon name and printer association corroborate the official occupation record, but no middle initial or OSS chronology is printed."
+    },
+    {
+      "key": "mass-cemetery-earle-carleton-batch362",
+      "stable_url": "https://www.interment.net/united-states/massachusetts/barnstable-county/bourne/massachusetts-national-cemetery/transcription/241.php?page=110",
+      "title": "Massachusetts National Cemetery Veterans Affairs Database transcription",
+      "repository_publisher": "Interment.net",
+      "access_date": "2026-08-24",
+      "source_quality": "D_correlative_or_secondary",
+      "locator": "Page 110; Earle J. Carleton, born March 11, 1919, U.S. Army major, World War II",
+      "archival_identifier": "Massachusetts National Cemetery, Section 5, Site 1395",
+      "author_creator": "U.S. Department of Veterans Affairs data transcribed by Interment.net",
+      "publication_record_date": "database transcription; accessed 2026",
+      "collection_name": "Massachusetts National Cemetery records",
+      "rights_notes": "Corroborative identity lead only. It does not resolve the conflicting private identifiers."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "lord-and-thomas",
+      "canonical_name": "Lord & Thomas",
+      "historical_name": "Lord & Thomas",
+      "aliases": [
+        "Lord and Thomas"
+      ],
+      "organization_type": "advertising agency",
+      "sector": "advertising_and_public_relations",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1881-1943",
+      "normalization_notes": "Historical agency name preserved; no modern successor substituted and no role title inferred."
+    },
+    {
+      "key": "h-j-carle-and-sons",
+      "canonical_name": "H. J. Carle & Sons",
+      "historical_name": "H J Carle & Sons",
+      "aliases": [
+        "Carle & Sons"
+      ],
+      "organization_type": "printing company",
+      "sector": "business_and_industry",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": "documented in 1941",
+      "normalization_notes": "Historical firm and address preserved; not merged into a successor."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "albert-carl-printing-apprentice-batch362",
+      "person_id": "75d931e4-d297-54df-ac87-98a5064eb92f",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Apprentices to printing trades",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-21",
+      "date_precision": "Exact-identifier Army record carried code 798 at entry on November 21, 1942; no trade, employer, shop, or location is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact-identifier Army record carried code 798 at entry on November 21, 1942; no trade, employer, shop, or location is named."
+    },
+    {
+      "key": "bogart-carlaw-lord-thomas-batch362",
+      "person_id": "dfd0f62c-618b-50dc-8aad-e0c1ac388a13",
+      "organization_key": "lord-and-thomas",
+      "organization_name_as_found": "Lord & Thomas",
+      "role_title": null,
+      "occupation": null,
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "before 1941-12-07",
+      "date_precision": "The scholarly source states only that Carlaw worked at Lord & Thomas before the war; it gives no dates, title, or direct recruitment sequence.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Documented prewar employer; not labeled immediate or last civilian employer."
+    },
+    {
+      "key": "abel-carle-hj-carle-sons-batch362",
+      "person_id": "b3c36671-fc6f-5005-82fc-0927b444b1c6",
+      "organization_key": "h-j-carle-and-sons",
+      "organization_name_as_found": "H J Carle & Sons",
+      "role_title": "printer",
+      "occupation": "Printer; compositor or typesetter category",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1941",
+      "date_precision": "The 1941 directory identifies Abel with the firm; the exact-identifier Army row carries code 444 at Army entry in 1943. The gap prevents an immediate claim.",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Printing work is corroborated; last-civilian or immediate status is not proved."
+    },
+    {
+      "key": "harley-carlile-farm-hand-batch362",
+      "person_id": "5c3d1f98-693a-55c2-8166-8a4d0b57ff58",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-10-31",
+      "date_precision": "Exact-identifier Army record carried code 316 at entry on October 31, 1942; no farm, employer, owner, or location is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact-identifier Army record carried code 316 at entry on October 31, 1942; no farm, employer, owner, or location is named."
+    },
+    {
+      "key": "warren-carlin-clerk-batch362",
+      "person_id": "c83aa317-cc6d-59d0-8094-4105aabf5f6a",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Clerks and kindred occupations, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-04",
+      "date_precision": "Exact-identifier Enlisted Reserve Corps record carried code 149 at Army entry on November 4, 1942; no employer or specific role is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact-identifier Enlisted Reserve Corps record carried code 149 at Army entry on November 4, 1942; no employer or specific role is named."
+    }
+  ],
+  "claims": [
+    {
+      "key": "albert-carl-occupation-claim-batch362",
+      "person_id": "75d931e4-d297-54df-ac87-98a5064eb92f",
+      "affiliation_key": "albert-carl-printing-apprentice-batch362",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Albert H. Carl's record carried the historical occupation category “Apprentices to printing trades.”",
+      "evidence_excerpt": "Apprentices to printing trades",
+      "evidence_paraphrase": "Occupation code 798 maps to the official printing-apprentice category.",
+      "identity_match_assessment": "Exact name and private identifier match the OSS index.",
+      "temporal_assessment": "Bounded to Army entry on November 21, 1942; no employer or OSS transfer date is stated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation category only; no employer or immediate predecessor inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 27; Albert H. Carl; Box 106; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-merged-file-batch362",
+          "support_type": "supports",
+          "locator_override": "Exact matched record; occupation code 798; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-code-lists-batch362",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 175; code 798",
+          "excerpt_override": "Apprentices to printing trades"
+        }
+      ]
+    },
+    {
+      "key": "bogart-carlaw-employer-claim-batch362",
+      "person_id": "dfd0f62c-618b-50dc-8aad-e0c1ac388a13",
+      "affiliation_key": "bogart-carlaw-lord-thomas-batch362",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Bogart Carlaw worked at the advertising agency Lord & Thomas before the war.",
+      "evidence_excerpt": "Bogart Carlaw had worked with Auchincloss at Lord & Thomas before the war.",
+      "evidence_paraphrase": "Soley identifies Lord & Thomas as Carlaw's prewar workplace.",
+      "identity_match_assessment": "Distinctive exact name plus an explicit OSS Central Pacific production role support high confidence.",
+      "temporal_assessment": "Documented prewar employment; immediate and last-civilian status are not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No title is inferred; the historical agency name is preserved.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 29; Bogart Carlaw; Box 107",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "soley-radio-warfare-carlaw-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 179, printed page 161",
+          "excerpt_override": "Bogart Carlaw had worked with Auchincloss at Lord & Thomas before the war."
+        }
+      ]
+    },
+    {
+      "key": "abel-carle-employer-claim-batch362",
+      "person_id": "b3c36671-fc6f-5005-82fc-0927b444b1c6",
+      "affiliation_key": "abel-carle-hj-carle-sons-batch362",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Abel Carle was associated with the San Francisco printing firm H. J. Carle & Sons in 1941.",
+      "evidence_excerpt": "H J & Sons (Abel and Louis Carle) printers",
+      "evidence_paraphrase": "The directory identifies Abel with the firm; his exact-identifier Army row independently records compositor/typesetter work.",
+      "identity_match_assessment": "Exact OSS-to-Army identifier match plus uncommon directory name and matching printing occupation support high confidence.",
+      "temporal_assessment": "Documented in 1941 before Army entry in 1943; continuity or immediacy is not proved.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The directory omits his middle initial; occupational agreement provides corroboration. Ownership is not inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 30; Abel E. Carle; Box 107; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "sf-directory-abel-carle-1941-batch362",
+          "support_type": "supports",
+          "locator_override": "Directory page 216; Carle listings",
+          "excerpt_override": "H J & Sons (Abel and Louis Carle) printers"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch362",
+          "support_type": "supports",
+          "locator_override": "Exact matched record; occupation code 444; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-code-lists-batch362",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 176; code 444",
+          "excerpt_override": "Compositors and typesetters"
+        }
+      ]
+    },
+    {
+      "key": "spyros-carles-identity-claim-batch362",
+      "person_id": "011a2025-cfe0-5a71-9910-0210f8897c69",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Spyros J. Carles is confirmed in the official Army file and independently described as a Pittsburgh sergeant serving in Greece and Yugoslavia.",
+      "evidence_excerpt": "Sgt. Spyros Carles of Pittsburgh",
+      "evidence_paraphrase": "The exact-name, exact-identifier Army match is corroborated by a contemporary military feature.",
+      "identity_match_assessment": "Exact private identifier and name confirm identity; contemporary rank and city add independent corroboration.",
+      "temporal_assessment": "Army entry is dated December 9, 1942; no pre-OSS employer or transfer date is given.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation code 993 was not interpreted because it is absent from the reviewed summary.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 31; Spyros J. Carles; Box 107; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-merged-file-batch362",
+          "support_type": "supports",
+          "locator_override": "Exact matched record; Army entry December 9, 1942; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "ahepan-spyros-carles-1945-batch362",
+          "support_type": "supports",
+          "locator_override": "Combined PDF physical page 66, magazine page 25",
+          "excerpt_override": "Sgt. Spyros Carles of Pittsburgh"
+        }
+      ]
+    },
+    {
+      "key": "earle-carleton-conflict-claim-batch362",
+      "person_id": "df52ee15-b0a6-583b-9d04-1204be4abbad",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "An exact-name Army and cemetery candidate for Earle J. Carleton remains unlinked because the Army identifier conflicts with the OSS index identifier.",
+      "evidence_excerpt": "Carleton, Earle J",
+      "evidence_paraphrase": "The candidate's birth year and major rank are compatible, but the exact-name Army row carries a different private identifier.",
+      "identity_match_assessment": "Conflicting; project rules prohibit merging identical names with different identifiers without direct evidence.",
+      "temporal_assessment": "The candidate entered the Army in July 1941; no direct Army-to-OSS chronology is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Candidate occupation withheld; Box 107 must resolve whether this is one person.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 32; Earle J. Carleton Jr.; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-merged-file-batch362",
+          "support_type": "contradicts",
+          "locator_override": "Exact-name record with a different identifier; not merged; identifiers withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "mass-cemetery-earle-carleton-batch362",
+          "support_type": "context_only",
+          "locator_override": "Earle J. Carleton, born 1919; U.S. Army major; World War II",
+          "excerpt_override": null
+        }
+      ]
+    },
+    {
+      "key": "harley-carlile-occupation-claim-batch362",
+      "person_id": "5c3d1f98-693a-55c2-8166-8a4d0b57ff58",
+      "affiliation_key": "harley-carlile-farm-hand-batch362",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Harley J. Carlile's record carried the historical occupation category “Farm hands, general farms.”",
+      "evidence_excerpt": "Farm hands, general farms",
+      "evidence_paraphrase": "Occupation code 316 maps to the official general-farm hand category.",
+      "identity_match_assessment": "Exact name and private identifier match the OSS index.",
+      "temporal_assessment": "Bounded to Army entry on October 31, 1942; no employer or OSS transfer date is stated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No farm ownership, self-employment, named farm, or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 33; Harley J. Carlile; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-merged-file-batch362",
+          "support_type": "supports",
+          "locator_override": "Exact matched record; occupation code 316; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-code-lists-batch362",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 176; code 316",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ]
+    },
+    {
+      "key": "warren-carlin-occupation-claim-batch362",
+      "person_id": "c83aa317-cc6d-59d0-8094-4105aabf5f6a",
+      "affiliation_key": "warren-carlin-clerk-batch362",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Warren F. Carlin's record carried the category “Clerks and kindred occupations, not elsewhere classified.”",
+      "evidence_excerpt": "Clerks and kindred occupations, n.e.c.",
+      "evidence_paraphrase": "Occupation code 149 maps to the official residual clerical category.",
+      "identity_match_assessment": "Exact name and private identifier match the OSS index.",
+      "temporal_assessment": "Bounded to Army entry on November 4, 1942; no employer or OSS transfer date is stated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The grouped category is not narrowed to a specific job or employer.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-69-batch362",
+          "support_type": "supports",
+          "locator_override": "PDF page 69, row 35; Warren F. Carlin; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-merged-file-batch362",
+          "support_type": "supports",
+          "locator_override": "Exact matched Enlisted Reserve Corps record; code 149; identifier withheld",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "nara-army-code-lists-batch362",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 171; code 149",
+          "excerpt_override": "Clerks and kindred occupations, n.e.c."
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "339ab642-74b6-5b37-9ffe-3c9d19f3283e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Gus J. Carkonie with a private identifier. The official Army file contains neither an exact identifier nor exact-name match; similar spellings lack a direct bridge.",
+      "name_variants": [
+        "Gus J Carkonie",
+        "Gus J. Carkonie",
+        "Carkonie, Gus J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 106 to verify spelling and identifier and determine personnel status, employer, military unit, OSS assignment, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "75d931e4-d297-54df-ac87-98a5064eb92f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The OSS index and Army file agree on Albert H. Carl's exact name and private identifier. The Army row dates entry to November 21, 1942, records private grade, and code 798.",
+      "name_variants": [
+        "Albert H Carl",
+        "Albert H. Carl",
+        "Carl, Albert H."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 106 for the specific printing trade, employer, Army unit, Army-to-OSS chronology, and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c362614f-2e3c-5aa3-94c9-854662851150",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Rene Carl, Captain, French, without an identifier. Exact and accented-name searches supplied no corroborating military, archival, occupation, or OSS identifier.",
+      "name_variants": [
+        "Rene Carl",
+        "René Carl",
+        "Carl, Rene",
+        "Carl, René"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 106 for French service, full name, military organization, OSS assignment, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "dfd0f62c-618b-50dc-8aad-e0c1ac388a13",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed name aligns with Lawrence C. Soley's account of civilian OSS radio specialist Bogart Carlaw, including a named prewar agency and Central Pacific assignment.",
+      "name_variants": [
+        "Bogart Carlaw",
+        "Carlaw, Bogart"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 107 for direct identity confirmation, role and dates at Lord & Thomas, intervening affiliations, and OSS recruitment date.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "b3c36671-fc6f-5005-82fc-0927b444b1c6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The OSS index and Army file agree on Abel E. Carle's exact name and private identifier. His official occupation code and a 1941 directory independently align on printing work.",
+      "name_variants": [
+        "Abel E Carle",
+        "Abel E. Carle",
+        "Abel Carle",
+        "Carle, Abel E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 107 for H. J. Carle & Sons dates, intervening work, Army unit, Army-to-OSS chronology, and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "011a2025-cfe0-5a71-9910-0210f8897c69",
+      "identity_status": "confirmed",
+      "identity_evidence": "The OSS index and Army file agree on Spyros J. Carles's exact name and identifier. A contemporary magazine independently describes Sergeant Spyros Carles of Pittsburgh in Greece and Yugoslavia.",
+      "name_variants": [
+        "Spyros J Carles",
+        "Spyros J. Carles",
+        "Spyroa Carles",
+        "Carles, Spyros J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 107 for a pre-Army employer, Army unit and mission lineage, OSS chronology, and the unclassified occupation code.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "df52ee15-b0a6-583b-9d04-1204be4abbad",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index prints Earle J. Carleton Jr. with a private identifier. An exact-name Army row and 1919-born Army-major cemetery entry are plausible, but the Army identifier conflicts and the records are not merged.",
+      "name_variants": [
+        "Earle J Carleton Jr.",
+        "Earle J. Carleton Jr.",
+        "Carleton, Earle J., Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 107 to verify the identifier before assigning the candidate's occupation, status, or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5c3d1f98-693a-55c2-8166-8a4d0b57ff58",
+      "identity_status": "confirmed",
+      "identity_evidence": "The OSS index and Army file agree on Harley J. Carlile's exact name and identifier. The Army row dates entry to October 31, 1942, records private grade, and code 316.",
+      "name_variants": [
+        "Harley J Carlile",
+        "Harley J. Carlile",
+        "Carlile, Harley J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 107 for the farm or employer, Army unit, Army-to-OSS chronology, and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "54eb1541-0635-5f43-a815-e1b20e6c0750",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Loretta V. Carlin without rank or identifier. Exact-name and variant official, archival, CIA, newspaper, directory, obituary, occupation, and employer searches supplied no identity bridge.",
+      "name_variants": [
+        "Loretta V Carlin",
+        "Loretta V. Carlin",
+        "Carlin, Loretta V."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 107 for middle name, birth year, hometown, personnel grade, employer, OSS assignment, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c83aa317-cc6d-59d0-8094-4105aabf5f6a",
+      "identity_status": "confirmed",
+      "identity_evidence": "The OSS index and Army file agree on Warren F. Carlin's exact name and identifier. The Enlisted Reserve Corps row dates entry to November 4, 1942, records Signal Corps, and code 149.",
+      "name_variants": [
+        "Warren F Carlin",
+        "Warren F. Carlin",
+        "Carlin, Warren F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 107 for the specific clerical role and employer, Signal Corps assignment, Army-to-OSS chronology, and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "gus-j-carkonie-protocol-batch362",
+      "person_id": "339ab642-74b6-5b37-9ffe-3c9d19f3283e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gus J Carkonie with Carkonen, Karkoni, and Carkonis variants; NARA index; exact identifier and name Army review; NARA, CIA, LoC, OSS, employer, occupation, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Similar spellings lacked an identifier, OSS, Box 106, date, or direct bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 106 to verify spelling and identifier and determine personnel status, employer, military unit, OSS assignment, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "albert-h-carl-protocol-batch362",
+      "person_id": "75d931e4-d297-54df-ac87-98a5064eb92f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Albert H Carl; NARA index; exact identifier Army and code review; NARA, CIA, LoC, OSS, printing, employer, occupation, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "Common-name results lacked the identifier or OSS context; the occupation category names no employer.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 106 for the specific printing trade, employer, Army unit, Army-to-OSS chronology, and OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "rene-carl-protocol-batch362",
+      "person_id": "c362614f-2e3c-5aa3-94c9-854662851150",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Rene and René Carl with French Captain; NARA index; NARA, CIA, LoC, OSS, military, employer, occupation, obituary, newspaper, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 24,
+      "rejection_reasons": "Modern and unrelated French namesakes lacked an OSS, rank, branch, date, Box 106, or archival bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 106 for French service, full name, military organization, OSS assignment, and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "bogart-carlaw-protocol-batch362",
+      "person_id": "dfd0f62c-618b-50dc-8aad-e0c1ac388a13",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bogart Carlaw; NARA index; NARA, CIA, LoC, OSS, Lord & Thomas, advertising, radio, employer, occupation, obituary, newspaper, directory, institutional, archival, and scholarly-PDF review.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Later employers and consulting references were postwar and excluded.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 for direct identity confirmation, role and dates at Lord & Thomas, intervening affiliations, and OSS recruitment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "abel-e-carle-protocol-batch362",
+      "person_id": "b3c36671-fc6f-5005-82fc-0927b444b1c6",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Abel E and Abel Carle; NARA index; exact identifier Army and code review; NARA, CIA, LoC, H J Carle & Sons, printer, directory, obituary, newspaper, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Later directory listings were not used to prove a pre-OSS sequence; unrelated names lacked a bridge.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 for H. J. Carle & Sons dates, intervening work, Army unit, Army-to-OSS chronology, and OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "spyros-j-carles-protocol-batch362",
+      "person_id": "011a2025-cfe0-5a71-9910-0210f8897c69",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Spyros J and Spyroa Carles; NARA index; exact identifier Army and code review; NARA, CIA, LoC, Greek battalion, Pittsburgh, employer, occupation, obituary, newspaper, military, archival, and AHEPA-PDF review.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Modern namesakes lacked the identifier; occupation code 993 was absent from the reviewed summary and not interpreted.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 for a pre-Army employer, Army unit and mission lineage, OSS chronology, and the unclassified occupation code.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "earle-j-carleton-protocol-batch362",
+      "person_id": "df52ee15-b0a6-583b-9d04-1204be4abbad",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Earle J Carleton Jr; NARA index; exact identifier and exact-name Army review; NARA, CIA, LoC, Army major, actor, employer, occupation, cemetery, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "The exact-name Army record has a different identifier; compatible cemetery facts do not resolve the conflict.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 to verify the identifier before assigning the candidate's occupation, status, or employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "harley-j-carlile-protocol-batch362",
+      "person_id": "5c3d1f98-693a-55c2-8166-8a4d0b57ff58",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Harley J Carlile; NARA index; exact identifier Army and code review; NARA, CIA, LoC, OSS, farm hand, employer, occupation, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Exact-name searches found no corroborated employer; similar Carlile and Carlisle results lacked identifiers.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 for the farm or employer, Army unit, Army-to-OSS chronology, and OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "loretta-v-carlin-protocol-batch362",
+      "person_id": "54eb1541-0635-5f43-a815-e1b20e6c0750",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Loretta V Carlin; NARA index; NARA, CIA, LoC, exact-name and middle-name OSS, employer, occupation, obituary, newspaper, directory, institutional, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Results supplied no OSS, Box 107, personnel, date, hometown, or occupational bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 for middle name, birth year, hometown, personnel grade, employer, OSS assignment, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    },
+    {
+      "key": "warren-f-carlin-protocol-batch362",
+      "person_id": "c83aa317-cc6d-59d0-8094-4105aabf5f6a",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Warren F Carlin; NARA index; exact identifier Army and code review; NARA, CIA, LoC, OSS, Signal Corps, clerk, employer, occupation, obituary, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-24T22:45:00+00:00",
+      "completed_at": "2026-08-25T00:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Common-name results lacked the identifier; the residual clerical category names no specific role or employer.",
+      "research_notes": "A reviewable source outcome is preserved; unsupported employer or identity inferences are withheld. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 107 for the specific clerical role and employer, Signal Corps assignment, Army-to-OSS chronology, and OSS assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch362-v1"
+    }
+  ]
+}

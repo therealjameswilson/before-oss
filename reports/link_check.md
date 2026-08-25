@@ -1,19 +1,28 @@
 # Link check
 
-Run: 2026-08-23 UTC
+Run: 2026-08-24 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,424 HTML files. Every relative
+**PASS.** The production build contains 24,426 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 476 organization profiles, and the
+The build includes 23,940 person profiles, 478 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,456 unique external URLs for separate live
+The checker inventoried 49,461 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Seven of Batch 362's eight citation endpoints responded directly during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, both official technical-documentation PDFs, *Radio
+Warfare*, *The Ahepan*, and the cemetery transcription returned HTTP 200 or
+206. The San Francisco directory hostname did not resolve from the scripted
+environment after its page had been inspected during evidence review. No
+access control was bypassed, no authenticated Catalog API request was made,
+and no raw Catalog API response was stored.
 
 Five of Batch 361's seven citation endpoints responded directly during
 targeted scripted verification: the NARA personnel-index PDF, public Army-
@@ -140,6 +149,32 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 362 local release check
+
+The complete 24,426-page internal-link pass includes Gus J. Carkonie through
+Warren F. Carlin on PDF page 69 across Boxes 106-107. Abel E. Carle's H. J.
+Carle & Sons work and Bogart Carlaw's Lord & Thomas work remain documented-
+prewar affiliations rather than proven immediate or last civilian employers;
+three Army-entry occupation categories remain outside employer counts; Spyros
+J. Carles's unassigned occupation code remains uninterpreted; and Earle J.
+Carleton Jr.'s different-identifier Army candidate remains a visible conflict.
+Four profiles retain explicit archival-review paths. All 75 Python tests, the
+deterministic 200-profile audit, the complete 1,137 / 1,137 browser and
+accessibility matrix, all 27 axe cases, dependency audit, database integrity
+checks, and public-identifier audits pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets cover 80,287,053 bytes and match their recorded sizes
+and SHA-256 hashes in both the source and built public trees. The manifest
+SHA-256 is
+`eee184a071df9e6745ab0de8d200090551d233b860f48c6ad4b3d3e3a0bcde44`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 68 source-public and 24,496 production
+artifacts, rejected 632 and 1,061 harmless substring coincidences,
+respectively, and found zero unexpected boundary matches. Two consecutive
+finalized builds reproduced combined-tree digest
+`6723c84e0e7525837369fbbffca0a42d42fb784e71007cff5c06305a1543c698`.
 
 ## Batch 361 local release check
 

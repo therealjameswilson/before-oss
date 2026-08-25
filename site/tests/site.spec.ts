@@ -28848,3 +28848,84 @@ test("Batch 361 preserves six unresolved profiles and Jim Carini's column anomal
   await page.goto("./people/98df3aed-d6be-5169-895c-1556901230fe/");
   await expect(page.locator("main")).toContainText("different-identifier Army and modern namesakes");
 });
+
+test("Batch 362 publishes two documented prewar employers without upgrading them to immediate affiliations", async ({
+  page,
+}) => {
+  for (const [personId, name, employer, sourceTitle] of [
+    [
+      "dfd0f62c-618b-50dc-8aad-e0c1ac388a13",
+      "Bogart Carlaw",
+      "Lord & Thomas",
+      "Radio Warfare: OSS and CIA Subversive Propaganda",
+    ],
+    [
+      "b3c36671-fc6f-5005-82fc-0927b444b1c6",
+      "Abel E Carle",
+      "H. J. Carle & Sons",
+      "Polk's Crocker-Langley San Francisco City Directory, 1941",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      employer,
+    );
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.getByRole("link", { name: sourceTitle, exact: true }).first()).toBeVisible();
+  }
+});
+
+test("Batch 362 keeps three Army-entry occupations separate from named employers", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier, occupation] of [
+    ["75d931e4-d297-54df-ac87-98a5064eb92f", "Albert H Carl", "••••2715", "Apprentices to printing trades"],
+    ["5c3d1f98-693a-55c2-8166-8a4d0b57ff58", "Harley J Carlile", "••••1097", "Farm hands, general farms"],
+    [
+      "c83aa317-cc6d-59d0-8094-4105aabf5f6a",
+      "Warren F Carlin",
+      "••••5899",
+      "Clerks and kindred occupations, not elsewhere classified",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 362 confirms Spyros Carles while preserving the Earle Carleton identifier conflict", async ({
+  page,
+}) => {
+  await page.goto("./people/011a2025-cfe0-5a71-9910-0210f8897c69/");
+  await expect(page.getByRole("heading", { name: "Spyros J Carles", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••4844");
+  await expect(page.locator("main")).toContainText("Sgt. Spyros Carles of Pittsburgh");
+  await expect(page.locator("main")).toContainText("the unclassified occupation code");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/df52ee15-b0a6-583b-9d04-1204be4abbad/");
+  await expect(page.getByRole("heading", { name: "Earle J Carleton Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••9888");
+  await expect(page.locator("main")).toContainText("Army identifier conflicts");
+  await expect(page.locator("main")).toContainText("different identifier");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
