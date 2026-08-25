@@ -5919,6 +5919,57 @@ Commissioned classification: 2,221 yes; 5,483 no; 16,236 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 362 covers Gus J. Carkonie through Warren F. Carlin, the next ten
+  contiguous personnel rows on PDF page 69 across Boxes 106-107. The source
+  page was rendered and visually checked. The official unrestricted Army
+  merged file was searched transiently, and its fixed-width documentation and
+  relevant occupation-code page were rendered and checked. No raw bulk
+  payload, full private identifier, authenticated Catalog response, or
+  credential is retained.
+
+  Exact name and private-identifier agreement confirms Albert H. Carl, Abel E.
+  Carle, Spyros J. Carles, Harley J. Carlile, and Warren F. Carlin. The Army
+  rows support bounded occupation categories for Albert, Abel, Harley, and
+  Warren. Albert's printing-apprentice, Harley's general-farm-hand, and
+  Warren's residual clerk categories remain occupation-only findings; no
+  employer is inferred. Spyros's unassigned code remains uninterpreted. A
+  contemporary AHEPA account independently corroborates Sergeant Spyros
+  Carles of Pittsburgh and his wartime service, but supplies no pre-OSS
+  employer.
+
+  A 1941 San Francisco directory names Abel's employer as H. J. Carle & Sons,
+  printers. Lawrence C. Soley's sourced history identifies Bogart Carlaw as a
+  Lord & Thomas employee before the war and later as an OSS production chief.
+  Both named employers are published as high-confidence documented-prewar
+  affiliations, not as proven immediate predecessors or last civilian
+  employers. Earle J. Carleton Jr. retains a visible identifier conflict: the
+  exact-name Army row belongs to a different identifier, and compatible
+  cemetery evidence does not resolve the indexed person. Gus J. Carkonie,
+  Captain Rene Carl, and Loretta V. Carlin remain unresolved; Rene's printed
+  `Capt` and `French` fields support only the Allied commissioned-personnel
+  classification. All unresolved cases route to archival review.
+- Batch 362's strict evidence bundle adds eight sources, two organizations,
+  five affiliations, seven claims, twenty-one claim-source links, ten person
+  updates, and ten durable research attempts. The complete rebuild retains all
+  23,978 source rows and 23,940 active person entities. Its public projection
+  contains 478 organizations, 1,323 affiliations, 2,378 sources, and 2,648
+  published, qualified, or conflict-visible claims, backed by 1,617 unique
+  source documents. The private graph contains 489 organizations, 1,333
+  affiliations, 3,475 sources, 2,699 claims, 6,100 claim-source links, and
+  4,616 research attempts. The three Batch 362 browser cases pass **9 / 9**
+  across desktop, phone, and tablet as part of the clean complete **1,137 /
+  1,137** browser and accessibility matrix. All 75 Python tests, the
+  deterministic 200-profile audit, Astro diagnostics, dependency, internal-
+  link, redaction, and integrity gates pass; details are recorded in the QA
+  reports.
+- After Batch 362, research has a saved non-planned outcome for 3,406 people,
+  or 14.2272% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 463 people (1.9340%); confirmed/high employment or self-
+  employment is 198 people (0.8271%); 3,359 people (14.0309%) have an assessed
+  archival-review disposition; and 20,534 remain `not_started`. The data
+  preserves 228 possible-duplicate groups and 55 conflict-visible people.
+  Claim confidences are 805 confirmed, 1,088 high, 694 medium, 49 low, and 63
+  conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was
   rendered and visually checked, including the anomalous Jim Carini row: the
@@ -7700,6 +7751,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-gus-carkonie-through-warren-carlin-pathways_batch-362_2026-08-24.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-a-g-carey-through-michael-carioscia-pathways_batch-361_2026-08-23.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-john-caravas-through-italo-caressa-pathways_batch-360_2026-08-22.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-four-walter-cabe-through-howard-cady-pathways_batch-340_2026-08-21.json
