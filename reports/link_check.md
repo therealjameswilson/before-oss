@@ -1,19 +1,29 @@
 # Link check
 
-Run: 2026-08-24 UTC
+Run: 2026-08-27 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,426 HTML files. Every relative
+**PASS.** The production build contains 24,431 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 478 organization profiles, and the
+The build includes 23,940 person profiles, 483 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,461 unique external URLs for separate live
+The checker inventoried 49,470 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Seven of Batch 363's eight citation endpoints responded directly during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, both official technical-documentation PDFs, the State
+Department magazine scan, Oberlin College Archives finding aid, and Yale
+finding-aid PDF returned HTTP 200 or 206. The Florence Carlson funeral-home
+obituary returned HTTP 403 to the scripted client after its page had been
+inspected during evidence review. No access control was bypassed, no
+authenticated Catalog API request was made, and no raw Catalog API response
+was stored.
 
 Seven of Batch 362's eight citation endpoints responded directly during
 targeted scripted verification: the NARA personnel-index PDF, public Army-
@@ -149,6 +159,29 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 363 local release check
+
+The complete 24,431-page internal-link pass includes Kenneth J. Carlisle
+through George G. Carlson on PDF page 69 in Box 107. Four supported civilian
+or institutional pathways remain separately labeled; two Army-entry
+occupations remain outside employer counts; Kenneth Carlisle's and Edward
+Carlson's identifier conflicts remain visible; and unresolved same-name
+candidates retain explicit archival-review paths. All 75 Python tests, the
+deterministic 200-profile audit, the complete 1,146 / 1,146 browser and
+accessibility matrix, all 27 axe cases, dependency audit, database integrity
+checks, and public-identifier audits pass; Astro reports zero errors, warnings,
+or hints.
+
+All 65 manifest assets cover 80,397,478 bytes and match their recorded sizes
+and SHA-256 hashes in both the source and built public trees. The manifest
+SHA-256 is
+`e7f4dbc6250e05a33802e6a9a58bc1c8318bd9f9a83a5ad8884e4f19b8d931b2`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,501 production artifacts, examined
+1,067 candidate substrings, and found zero unexpected boundary matches. Two
+consecutive finalized builds reproduced combined-tree digest
+`c4d8b25775b112df33ba2ea87d87a3863911577e70b69158dba94c22779c0efb`.
 
 ## Batch 362 local release check
 
