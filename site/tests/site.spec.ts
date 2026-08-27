@@ -28929,3 +28929,121 @@ test("Batch 362 confirms Spyros Carles while preserving the Earle Carleton ident
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 363 publishes four distinct civilian and institutional pathways", async ({ page }) => {
+  await page.goto("./people/e75950c6-278b-54e7-8ccf-6bf2a3cf237e/");
+  await expect(page.getByRole("heading", { name: "Lois Carlisle", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Federal Communications Commission",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "a private company in Chile",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Texas Woman's College",
+  );
+  await expect(page.getByRole("link", { name: "State, April 1988, Issue 310", exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/b3973a66-b082-5090-81c7-a3a685596002/");
+  await expect(page.getByRole("heading", { name: "Ellsworth C Carlson", exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "National Student Relief Committee",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "National Student Relief Committee",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Oberlin Shansi Memorial Association",
+  );
+
+  await page.goto("./people/48cc1a8a-4bb4-5346-9492-d421aa142f3e/");
+  await expect(page.getByRole("heading", { name: "Emery W Carlson", exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Lutheran Hospital in Xuchang",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "medical doctor",
+  );
+  await expect(page.getByRole("link", { name: "Emery and Elvera Carlson Papers", exact: true }).first()).toBeVisible();
+
+  await page.goto("./people/b6765897-d1fc-545c-9ed9-1d950707bf1d/");
+  await expect(page.getByRole("heading", { name: "Florence Carlson", exact: true })).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Oberlin Shansi Memorial Association",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "professional affiliation",
+  );
+});
+
+test("Batch 363 keeps two Army-entry occupations separate from employers", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier, occupation, date] of [
+    [
+      "2e5d91c7-4f23-5cd2-aaed-67624c6c6601",
+      "Guido P Carlomagno",
+      "••••6306",
+      "Buffers, polishers, filers, and grinders (metal)",
+      "October 16, 1942",
+    ],
+    [
+      "ccb1622f-8450-5a19-bc72-6a3fe5c4594c",
+      "Clarence O Carlson",
+      "••••6511",
+      "Sawmill occupations, not elsewhere classified",
+      "January 16, 1942",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 363 exposes identifier conflicts and unresolved same-name candidates", async ({ page }) => {
+  for (const [personId, name] of [
+    ["f312ee3e-9832-5993-bf6c-993586ca9e7d", "Kenneth J Carlisle"],
+    ["ceffb702-8210-5ca0-b5eb-c3129527e1af", "Edward J Carlson"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("different identifier");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const [personId, name] of [
+    ["2056863c-2f0b-5c40-81e2-c525eb0a10fe", "John F Carlos"],
+    ["46111015-4aeb-5294-9645-8ed5f1376cfb", "George G Carlson"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/46111015-4aeb-5294-9645-8ed5f1376cfb/");
+  await expect(page.locator("main")).toContainText("Three exact-name Army rows");
+});
