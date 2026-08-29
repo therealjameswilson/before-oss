@@ -29116,3 +29116,103 @@ test("Batch 364 gives the seven unresolved Carlson records archival-review profi
   await page.goto("./people/93a3bea1-f4b9-51df-b728-431da6195501/");
   await expect(page.locator("main")).toContainText("One exact-name women's Army candidate");
 });
+
+test("Batch 365 publishes bounded Army occupations and Ordnance assignments without inventing employers", async ({
+  page,
+}) => {
+  await page.goto("./people/0e3b8464-aa68-5a07-8a9c-b138514b3122/");
+  await expect(page.getByRole("heading", { name: "Paul T Carlton", exact: true })).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••4265");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  await page.goto("./people/f99c6584-dae3-58f8-a72c-049937a0ba9c/");
+  await expect(page.getByRole("heading", { name: "Howard Edwin Carmain", exact: true })).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7227");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Actors and actresses",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Ordnance Department",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/67572ccd-dcf3-5bba-965e-5c80fc881c41/");
+  await expect(page.getByRole("heading", { name: "Harold Keith Carmain", exact: true })).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••1268");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Ordnance Department",
+  );
+  await expect(page.locator("main")).toContainText(
+    "Later row fields are visibly corrupt and are withheld",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 365 exposes Benjamin Carlton's conflict and the unmerged Carmain-Carman cross-reference", async ({
+  page,
+}) => {
+  await page.goto("./people/39665d0b-93c0-55a3-9a9d-ab2cf8a8e7e1/");
+  await expect(page.getByRole("heading", { name: "Benjamin T Carlton", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••4499");
+  await expect(page.locator("main")).toContainText("maps to a different name");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, maskedIdentifier] of [
+    ["f99c6584-dae3-58f8-a72c-049937a0ba9c", "Howard Edwin Carmain", "••••7227"],
+    ["4c0c31e7-0589-5866-b7d7-278cb7f925bc", "Charles M Carman Jr.", "••••3959"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText("also as");
+    await expect(page.locator("main")).toContainText("duplicate-98ac1952dbb0");
+    await expect(page.locator("main")).toContainText("remains unconfirmed");
+  }
+
+  await page.goto("./people/4c0c31e7-0589-5866-b7d7-278cb7f925bc/");
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+});
+
+test("Batch 365 preserves five unsupported names as archival-review profiles", async ({ page }) => {
+  for (const [personId, name] of [
+    ["7e5ed60e-51e0-54f3-b3cf-1f9c9c61358d", "Wendell Carlson"],
+    ["ded321fd-62f6-5208-85d5-36726b8fb7b8", "William T Carlson"],
+    ["a42023c9-454c-5a71-9ab2-fdc22d479c41", "Ruth E Carlsson"],
+    ["9b0642ac-466c-58fa-9574-db57c6e456b1", "James F Carlton"],
+    ["e6b21181-208a-5e29-98a4-9dcf1ae40a9c", "Virginia M Carlton"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/7e5ed60e-51e0-54f3-b3cf-1f9c9c61358d/");
+  await expect(page.locator("main")).toContainText("C. Wendell Carlson");
+  await page.goto("./people/9b0642ac-466c-58fa-9574-db57c6e456b1/");
+  await expect(page.locator("main")).toContainText("Two exact-name Army rows");
+});

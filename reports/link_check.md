@@ -4,16 +4,22 @@ Run: 2026-08-29 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,431 HTML files. Every relative
+**PASS.** The production build contains 24,432 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 483 organization profiles, and the
+The build includes 23,940 person profiles, 484 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,470 unique external URLs for separate live
+The checker inventoried 49,471 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All four Batch 365 citation endpoints returned HTTP 200 during targeted
+scripted verification: the NARA personnel-index PDF, public Army-series
+Catalog page, and both official technical-documentation PDFs. No access
+control was bypassed, no authenticated Catalog API request was made, and no
+raw Catalog API response was stored.
 
 All four Batch 364 citation endpoints returned HTTP 200 during targeted
 scripted verification: the NARA personnel-index PDF, public Army-series
@@ -166,6 +172,31 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 365 local release check
+
+The complete 24,432-page internal-link pass includes Wendell Carlson through
+Charles M. Carman Jr. on PDF page 70 across Boxes 107-108. Paul T. Carlton's
+and Howard Edwin Carmain's Army-entry occupations remain outside employer
+counts; the Ordnance Department remains a military assignment rather than a
+civilian employer; Benjamin T. Carlton's identifier conflict remains visible;
+and Howard Edwin Carmain and Charles M. Carman Jr. remain separate people in a
+visible `also as` possible-duplicate group. Five unsupported profiles retain
+explicit archival-review paths. All 75 Python tests and five subtests, the
+deterministic 200-profile audit, the complete 1,164 / 1,164 browser and
+accessibility matrix, all 27 axe cases, dependency audit, database integrity
+checks, direct source checks, desktop/phone visual checks, and public-
+identifier audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets cover 80,490,804 bytes and match their recorded sizes
+and SHA-256 hashes in both the source and built public trees. The manifest
+SHA-256 is
+`24510fce03bc96d6a3e306b3534a9140e38263ef32cfcbbe1148db3e84d26423`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,502 production artifacts, examined
+1,069 candidate substrings, and found zero unexpected boundary matches. Two
+consecutive finalized builds reproduced combined-tree digest
+`44afa625cb1d185219a0bec0f5d9736819d96c523ac123fb71ece5f50c2bdefd`.
 
 ## Batch 364 local release check
 
