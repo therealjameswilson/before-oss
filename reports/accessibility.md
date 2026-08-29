@@ -4,11 +4,18 @@ Run: 2026-08-29 UTC
 
 ## Result
 
-The expanded release matrix contains **1,164** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 9.3-minute
-single-worker Batch 365 sweep passed **1,164 / 1,164** without a timeout,
-assertion failure, or accessibility violation. The run includes all 27 axe
-cases and all nine new Batch 365 cases. The prior 10.1-minute Batch 364 sweep
+The expanded release matrix contains **1,173** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 28.4-minute
+single-worker Batch 366 sweep completed **1,170 / 1,173**. The three failures
+were older cases that timed out or lost their browser session without a data
+assertion or axe finding: desktop Batch 291, phone Batch 110, and the phone
+Sources-page axe scan. Their exact isolated reruns passed **3 / 3**, including
+the Sources scan in 13.5 seconds. All 27 axe routes therefore have a clean
+passing run across their configured viewports; the initial interruptions are
+retained in this report. The prior 9.3-minute single-worker Batch 365 sweep
+passed **1,164 / 1,164** without a timeout, assertion failure, or accessibility
+violation. That run includes all 27 axe cases and all nine new Batch 365 cases.
+The prior 10.1-minute Batch 364 sweep
 passed **1,155 / 1,155**, and the prior 9.4-minute Batch 363
 sweep passed **1,146 / 1,146**, and the prior 10.0-minute Batch 362
 sweep passed **1,137 / 1,137**, and the prior 10.7-minute Batch 361
@@ -51,6 +58,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 366 adds direct-route coverage for Joel Carmichael through Patrick A.
+Carney on PDF page 70 in Box 108. It publishes Robert L. Carmin's explicit
+Michigan State College-to-OSS transition as both an immediate affiliation and
+last civilian employer; keeps three official Army occupation categories out of
+employer counts; excludes Ernest J. Carnevale's postwar employers; visibly
+qualifies Joel Carmichael's and Martin P. Carney's identity leads; masks every
+private identifier; and routes four unresolved profiles to critical archival
+review. The focused regression passed **9 / 9** across desktop, phone, and
+tablet. The three new cases also passed in every viewport within the complete
+matrix.
 
 Batch 365 adds direct-route coverage for Wendell Carlson through Charles M.
 Carman Jr. on PDF page 70 across Boxes 107-108. It publishes Paul T.

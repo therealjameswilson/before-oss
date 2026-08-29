@@ -29216,3 +29216,111 @@ test("Batch 365 preserves five unsupported names as archival-review profiles", a
   await page.goto("./people/9b0642ac-466c-58fa-9574-db57c6e456b1/");
   await expect(page.locator("main")).toContainText("Two exact-name Army rows");
 });
+
+test("Batch 366 publishes Robert Carmin's explicit Michigan State College to OSS transition", async ({
+  page,
+}) => {
+  await page.goto("./people/6fcf929e-d965-53bf-ba4a-1661e0d20c3c/");
+  await expect(page.getByRole("heading", { name: "Robert L Carmin", exact: true })).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Michigan State College",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Instructor in Geology and Geography",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Michigan State College",
+  );
+  await expect(page.locator("main")).toContainText(
+    "accepted a position in the Office of Strategic Services",
+  );
+  await expect(page.getByRole("link", { name: "Michigan State College", exact: true }).first()).toBeVisible();
+
+  await page.getByRole("link", { name: "Michigan State College", exact: true }).first().click();
+  await expect(
+    page.getByRole("heading", { name: "Michigan State College", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Robert L Carmin");
+});
+
+test("Batch 366 keeps Army occupation categories separate from named employers", async ({ page }) => {
+  for (const [personId, name, occupation] of [
+    ["6c93f53e-482d-5295-97b4-26822346be99", "Lawrence F Carnes", "Retail managers"],
+    [
+      "620de7b9-32fa-51db-b2bb-26704c86ebb8",
+      "Ernest J Carnevale",
+      "Shipping and receiving clerks",
+    ],
+    [
+      "a63cfbe3-96c0-5aa8-990d-3de1ec7676fb",
+      "Patrick A Carney",
+      "Occupations in production of clay products",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/620de7b9-32fa-51db-b2bb-26704c86ebb8/");
+  await expect(page.locator("main")).toContainText(
+    "a WWII Army veteran in the Office of Strategic Services",
+  );
+  await expect(page.locator("main")).not.toContainText("Ciba Geigy Corporation");
+});
+
+test("Batch 366 qualifies Joel Carmichael and Martin Carney while preserving four unresolved profiles", async ({
+  page,
+}) => {
+  for (const [personId, name, evidence] of [
+    [
+      "aa3986f3-30f3-5f93-868d-71e567fd897c",
+      "Joel Carmichael",
+      "served in World War II as an intelligence officer",
+    ],
+    [
+      "74de892c-ef5c-54a9-afa3-713bac28dfa4",
+      "Martin P Carney",
+      "1986 OSS symposium committee member",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(evidence);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+
+  for (const [personId, name] of [
+    ["a6fcb82b-6a5a-5995-a698-8f1dd769f426", "Florence N Carmony"],
+    ["0ceb5a66-57c9-5f87-bbee-a9f295b0c31d", "Henri R Carnal"],
+    ["17469f0d-f65b-5a8c-a8ae-f7940079556f", "Wilton P Carneal"],
+    ["ccd46d75-3739-5b7b-aa82-881174da6b6e", "Jeanne L Carnell"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/17469f0d-f65b-5a8c-a8ae-f7940079556f/");
+  await expect(page.locator("main")).toContainText("SP 2/c");
+  await expect(page.locator("main")).toContainText("enlisted naval personnel");
+});
