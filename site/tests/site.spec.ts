@@ -29324,3 +29324,104 @@ test("Batch 366 qualifies Joel Carmichael and Martin Carney while preserving fou
   await expect(page.locator("main")).toContainText("SP 2/c");
   await expect(page.locator("main")).toContainText("enlisted naval personnel");
 });
+
+test("Batch 367 publishes verified Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  await page.goto("./people/6945e73d-1af3-5218-9b34-76a6fd948663/");
+  await expect(page.getByRole("heading", { name: "Edmond L Caron", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("code 993");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  for (const [personId, name, occupation] of [
+    [
+      "6a3d1a1d-c5d8-566c-a602-48c42ba026a6",
+      "Gerard L Caron",
+      "Chauffeur or driver of a bus, taxi, truck, or tractor",
+    ],
+    ["5a95b882-642c-5370-af03-981f73318f8b", "James Caroulis", "Student"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/7d120283-ddee-5137-8261-83eafd09546c/");
+  await expect(page.getByRole("heading", { name: "Pasquale Carosone", exact: true })).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Building custodian",
+  );
+  await expect(page.locator("main")).toContainText("inducted through OSS");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 367 publishes Betty Carp's State Department to OSS pathway", async ({ page }) => {
+  await page.goto("./people/a9531434-8049-5a69-9832-76944467e7d0/");
+  await expect(page.getByRole("heading", { name: "Betty Carp", exact: true })).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Bertha (Betty) Carp");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Department of State",
+  );
+  await expect(page.locator("main")).toContainText("American Embassy in Istanbul");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "United States Department of State",
+  );
+  await expect(page.locator("main")).toContainText("From 1942 to 1947");
+
+  await page
+    .getByRole("link", { name: "United States Department of State", exact: true })
+    .first()
+    .click();
+  await expect(
+    page.getByRole("heading", { name: "United States Department of State", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Betty Carp");
+});
+
+test("Batch 367 preserves five unsupported identities as archival-review profiles", async ({
+  page,
+}) => {
+  for (const [personId, name] of [
+    ["47d6ec25-1b75-5181-a01b-3333a7c5adeb", "Michael J Carp"],
+    ["ddc2ea81-ff53-50b4-ac75-f1b1ef4736ee", "Caroline Carpenter"],
+    ["b6dd2414-93ce-558c-b1fb-fefb29191342", "Dorothy Carpenter"],
+    ["15dd029b-10b2-586b-a8f0-74a4a8e17e15", "Fay M Carpenter"],
+    ["6443325a-580e-51d8-af7d-eb922febcf82", "George Carpenter"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/47d6ec25-1b75-5181-a01b-3333a7c5adeb/");
+  await expect(page.locator("main")).toContainText("seven-digit identifier");
+  await expect(page.locator("main")).toContainText("full identifier differs");
+  await page.goto("./people/b6dd2414-93ce-558c-b1fb-fefb29191342/");
+  await expect(page.locator("main")).toContainText("One exact-name Army row");
+  await page.goto("./people/6443325a-580e-51d8-af7d-eb922febcf82/");
+  await expect(page.locator("main")).toContainText("Four exact-name Army rows");
+});

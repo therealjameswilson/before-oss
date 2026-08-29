@@ -7,6 +7,10 @@ Run: 2026-08-29 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,432 pages**
 - Internal link check: **24,432 HTML files passed**
+- Batch 367 complete browser and accessibility matrix: **1,182 / 1,182
+  passed** in 10.2 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted final-build run includes all 27 axe cases and all nine new
+  Batch 367 cases.
 - Batch 366 complete browser and accessibility matrix: the 28.4-minute
   single-worker sweep completed **1,170 / 1,173** cases across desktop, phone,
   and tablet. Three older cases timed out or lost their browser session without
@@ -389,6 +393,29 @@ Run: 2026-08-29 UTC
   visibly qualifies the Joel Carmichael and Martin P. Carney identity leads;
   masks every private identifier; and preserves four unresolved Box 108
   archival-review paths.
+- Focused Batch 367 browser regression: **9 / 9 passed** across desktop,
+  phone, and tablet after correcting three test-only wording expectations. It
+  confirms four identifier-backed Army identities, keeps three Army-entry
+  occupations and one student status out of employer counts, publishes Betty
+  Carp's high-confidence State Department pathway, leaves Edmond L. Caron's
+  undefined code uninterpreted, masks every private identifier, and preserves
+  five unsupported Box 108 identities as archival-review profiles.
+- Batch 367 local release verification: **passed**. Two consecutive finalized
+  production builds reproduced combined public, generated-data, and static-
+  site tree digest
+  `e292f0257cce905233f3cbc45eb78f37c53cb63bdad9bc0f49a436bc095797fe`.
+  The complete 24,432-page internal-link check passed and inventoried 49,477
+  unique external URLs. All 65 public manifest assets cover 80,666,237 bytes;
+  manifest SHA-256 is
+  `b0065c32c37dcb17e68fe1dfb6381fc0288aeec1fa2e0b99f418e41844d0c91c`.
+  The same assets matched their recorded SHA-256 values in both public and
+  built trees. Boundary-aware public-identifier audits found zero unexpected
+  matches across 68 source-public and 24,502 built artifacts. The strict
+  evidence bundle passed repeated-import idempotence, SQLite integrity and
+  foreign-key checks; all 75 Python tests and five subtests, the deterministic
+  200-profile audit, the complete **1,182 / 1,182** browser and accessibility
+  matrix, source checks, zero-diagnostic Astro validation, and a zero-
+  vulnerability production dependency audit passed.
 - Batch 366 local release verification: **passed**. Two consecutive finalized
   production builds reproduced combined public, generated-data, and static-
   site tree digest

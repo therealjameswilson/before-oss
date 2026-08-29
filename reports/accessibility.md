@@ -4,9 +4,15 @@ Run: 2026-08-29 UTC
 
 ## Result
 
-The expanded release matrix contains **1,173** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 28.4-minute
-single-worker Batch 366 sweep completed **1,170 / 1,173**. The three failures
+The expanded release matrix contains **1,182** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.2-minute
+single-worker Batch 367 sweep passed **1,182 / 1,182** without a timeout,
+assertion failure, or accessibility violation. It includes all 27 axe cases
+and all nine new Batch 367 cases. An initial focused run exposed three test-
+only wording expectations that did not match the correctly rendered public
+text; after correcting those assertions, the focused rerun passed **9 / 9**
+across desktop, phone, and tablet. The prior 28.4-minute single-worker Batch
+366 sweep completed **1,170 / 1,173**. The three failures
 were older cases that timed out or lost their browser session without a data
 assertion or axe finding: desktop Batch 291, phone Batch 110, and the phone
 Sources-page axe scan. Their exact isolated reruns passed **3 / 3**, including
@@ -58,6 +64,17 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 367 adds direct-route coverage for Edmond L. Caron through George
+Carpenter on PDF page 70 in Box 108. It confirms four identifier-backed Army
+identities; publishes Gerard L. Caron's driver occupation, James Caroulis's
+student status, and Pasquale Carosone's direct OSS-recruitment and building-
+custodian evidence without inventing employers; publishes Betty Carp's high-
+confidence State Department pathway; leaves Edmond's undefined code 993
+uninterpreted; masks every private identifier; and preserves five unsupported
+identities as critical archival-review profiles. The focused regression
+passed **9 / 9** across desktop, phone, and tablet, and the complete matrix
+passed **1,182 / 1,182**.
 
 Batch 366 adds direct-route coverage for Joel Carmichael through Patrick A.
 Carney on PDF page 70 in Box 108. It publishes Robert L. Carmin's explicit

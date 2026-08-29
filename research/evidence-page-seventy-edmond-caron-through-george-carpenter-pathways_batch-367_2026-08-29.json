@@ -1,0 +1,940 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex historical research pipeline with manual source review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-70-batch367",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "repository_publisher": "National Archives and Records Administration",
+      "access_date": "2026-08-29",
+      "source_quality": "A_direct_official",
+      "locator": "PDF page 70, rows 30-39; Edmond L. Caron through George Carpenter; Box 108; visually checked; private identifiers withheld",
+      "archival_identifier": "RG 226, Entry A1-224, Box 108",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Printed rows and spelling remain immutable. Full private identifiers are excluded from public data. The index establishes file references, not employers or assignments."
+    },
+    {
+      "key": "nara-army-merged-file-batch367",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "repository_publisher": "National Archives and Records Administration",
+      "access_date": "2026-08-29",
+      "source_quality": "A_direct_official",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact-name and private-identifier review for page 70, rows 30-39; identifiers withheld",
+      "archival_identifier": "NAID 604357; data file NAID 1263923",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact private-identifier and name matches were found for Edmond L. Caron, Gerard L. Caron, Pasquale Carosone, and James Caroulis. Michael J. Carp's printed seven-digit identifier has no exact match and does not have a defensible simple relationship to the one exact-name Army row. Dorothy Carpenter has one exact-name row and George Carpenter has four, but names alone are insufficient. No raw bulk record is retained."
+    },
+    {
+      "key": "nara-army-basic-doc-batch367",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "access_date": "2026-08-29",
+      "source_quality": "A_direct_official",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry date, grade, branch, and civilian-occupation fields",
+      "archival_identifier": "NAID 1263923; Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2005-05-23; modified 2011",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to parse the fixed-width bulk file. NARA's documentation warns of transcription, duplication, scanning, and conversion limitations."
+    },
+    {
+      "key": "nara-army-code-lists-batch367",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "access_date": "2026-08-29",
+      "source_quality": "A_direct_official",
+      "locator": "Code No. 30, physical pages 171, 174, and 304; occupation groups 5,7-36 and corrected 9-92 visually checked; code 993 was not defined in the reviewed summary",
+      "archival_identifier": "NAID 1263923; Code No. 30",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2011-01-12; modified 2011",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical three-digit categories describe civilian status or occupation at Army entry. They do not establish a named employer, workplace, exact duties, or immediate Army-to-OSS chronology. Edmond L. Caron's code 993 remains uninterpreted because it was not defined in the reviewed official summary."
+    },
+    {
+      "key": "hoover-oss-board-pasquale-carosone-batch367",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "title": "Office of Strategic Services Board of Officers personnel interviews, Caserta and Bari",
+      "repository_publisher": "Hoover Institution Library & Archives Digital Collections",
+      "access_date": "2026-08-29",
+      "source_quality": "A_direct_official",
+      "locator": "PDF physical pages 73-74, report pages 74-75; entry XXXIX for Private Pasquale Carosone; private identifier withheld",
+      "archival_identifier": "Hoover Digital Collections media 331573",
+      "author_creator": "Office of Strategic Services",
+      "publication_record_date": "1944-05-18",
+      "collection_name": "Office of Strategic Services records",
+      "rights_notes": "Contemporary official OSS report. The public project stores only citation metadata, short excerpts, and project-authored conclusions; no full copy or private identifier is retained."
+    },
+    {
+      "key": "state-newsletter-betty-carp-1964-batch367",
+      "stable_url": "https://archive.org/details/sim_state-magazine_1964-02_34",
+      "title": "Betty Carp Acclaimed As Living Legend",
+      "repository_publisher": "United States Department of State; preservation scan via Internet Archive",
+      "access_date": "2026-08-29",
+      "source_quality": "B_authoritative_institutional",
+      "locator": "Department of State News Letter, issue 34, PDF physical page 40, printed page 38; visually checked",
+      "archival_identifier": "sim_state-magazine_1964-02_34",
+      "author_creator": "United States Department of State",
+      "publication_record_date": "1964-02",
+      "collection_name": "Department of State News Letter",
+      "document_number": "Issue 34",
+      "rights_notes": "Official institutional profile preserved by Internet Archive. It supplies a retrospective career chronology. The public project uses short excerpts only and does not reproduce the scanned page."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-department-of-state",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": [
+        "U.S. Department of State",
+        "State Department"
+      ],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Foreign Service and consular work is modeled as a government assignment. It may qualify as the last civilian employer before military service when the chronology directly supports that distinction."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "gerard-l-caron-driver-occupation-batch367",
+      "person_id": "6a3d1a1d-c5d8-566c-a602-48c42ba026a6",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Chauffeur or driver of a bus, taxi, truck, or tractor",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-11-09",
+      "date_precision": "The exact official Army-entry record carries civilian-occupation group 5,7-36 on November 9, 1942. The grouped category names no employer, vehicle type, route, product, or worksite.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. The grouped occupation cannot establish a named employer or the later Army-to-OSS sequence."
+    },
+    {
+      "key": "pasquale-carosone-building-custodian-batch367",
+      "person_id": "7d120283-ddee-5137-8261-83eafd09546c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Building custodian",
+      "occupation": "Building custodian",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07",
+      "date_precision": "A May 1944 official OSS report says Carosone had been a building custodian in civilian life and entered the Army in July 1943 through OSS after direct recruitment. No employer, building, or exact induction day is named in that report.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The OSS report and index carry the same private identifier and exact name. Direct OSS recruitment and induction make building custodian the best-supported immediate civilian occupation, but no employer is inferred."
+    },
+    {
+      "key": "james-caroulis-student-batch367",
+      "person_id": "5a95b882-642c-5370-af03-981f73318f8b",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-04-22",
+      "date_precision": "The exact official Army-entry record carries corrected civilian-status code 992 on April 22, 1943. The official code list defines 9-92 as students but names no school, program, or dates of attendance.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms identity. Student status is not employment; no institution or Army-to-OSS transition date is inferred."
+    },
+    {
+      "key": "betty-carp-state-department-istanbul-batch367",
+      "person_id": "a9531434-8049-5a69-9832-76944467e7d0",
+      "organization_key": "united-states-department-of-state",
+      "organization_name_as_found": "American Embassy and Consulate General in Istanbul",
+      "role_title": "Local diplomatic-post employee; successive messenger, interpreter, and attaché roles",
+      "occupation": "United States diplomatic-post employee",
+      "relationship_type": "government_assignment",
+      "start_date": "1914",
+      "end_date": "1942",
+      "date_precision": "The official 1964 profile says Carp's government career began in 1914 as a local employee at the American Embassy, identifies her with the Embassy and Consulate General, and then places her in OSS from 1942 through 1947. It does not date each title or the institutional transition.",
+      "city": "Istanbul",
+      "state_or_region": null,
+      "country": "Turkey",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source directly sequences a continuous government career beginning at the Istanbul diplomatic post and the 1942-1947 OSS assignment. Because it does not use a formula such as 'left X to join OSS,' the transition is strongly date-bounded rather than explicit-immediate. The Department of State is normalized as the employer while the historical post names remain visible."
+    }
+  ],
+  "claims": [
+    {
+      "key": "edmond-l-caron-army-identity-batch367",
+      "person_id": "6945e73d-1af3-5218-9b34-76a6fd948663",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Edmond L. Caron is confirmed by an exact private-identifier and name match in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official index and Army bulk record agree on the complete name and restricted identifier; the Army record places him entering as a private on November 6, 1942.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record establishes identity and Army entry, but its undefined occupation code does not establish a pre-OSS employer or occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier remains private. Occupation code 993 is not interpreted because it was absent from the reviewed official summary.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 30; Edmond L. Caron; Box 108; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "supports",
+          "locator_override": "Exact-name and exact-private-identifier Army row; entry November 6, 1942; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-basic-doc-batch367",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-army-code-lists-batch367",
+          "support_type": "context_only",
+          "locator_override": "Reviewed Code No. 30 summary; code 993 not defined"
+        }
+      ]
+    },
+    {
+      "key": "gerard-l-caron-army-identity-batch367",
+      "person_id": "6a3d1a1d-c5d8-566c-a602-48c42ba026a6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Gerard L. Caron is confirmed by an exact private-identifier and name match in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Three Army rows share the exact name; the restricted identifier printed in the OSS index selects one row entering as a private on November 9, 1942.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement; the identifier resolves the same-name Army alternatives.",
+      "temporal_assessment": "The Army record establishes identity and Army entry but does not establish when or how he later entered OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier remains private. No modern Gerard L. Caron namesake is used.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 31; Gerard L. Caron; Box 108; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "supports",
+          "locator_override": "Exact-name and exact-private-identifier Army row; entry November 9, 1942; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-basic-doc-batch367",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "gerard-l-caron-driver-occupation-claim-batch367",
+      "person_id": "6a3d1a1d-c5d8-566c-a602-48c42ba026a6",
+      "affiliation_key": "gerard-l-caron-driver-occupation-batch367",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Gerard L. Caron's recorded civilian occupation fell in the grouped chauffeur-and-driver category.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army row carries occupation group 5,7-36, which the official Code No. 30 summary defines as chauffeurs and drivers of buses, taxis, trucks, and tractors.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement between the index and Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on November 9, 1942; the record does not establish a named employer or the later OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is preserved without selecting a vehicle type or inventing an employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier row; civilian occupation code 536; entry November 9, 1942; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-code-lists-batch367",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 174; group 5,7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "pasquale-carosone-army-identity-batch367",
+      "person_id": "7d120283-ddee-5137-8261-83eafd09546c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Pasquale Carosone is confirmed across the OSS index, Army merged file, and a contemporary OSS personnel-interview report.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "All three official records agree on the rare exact name and restricted identifier; the interview report identifies him as a private inducted through OSS in July 1943.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement across three official records.",
+      "temporal_assessment": "The contemporary report directly documents July 1943 Army entry through OSS and a May 1944 interview in Bari.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is used only for resolution and is withheld from the public profile.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 32; Pasquale Carosone; Box 108; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "supports",
+          "locator_override": "Exact-name and exact-private-identifier Army row; July 1943 entry; identifier withheld"
+        },
+        {
+          "source_key": "hoover-oss-board-pasquale-carosone-batch367",
+          "support_type": "supports",
+          "locator_override": "Report pages 74-75, entry XXXIX; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "pasquale-carosone-immediate-occupation-claim-batch367",
+      "person_id": "7d120283-ddee-5137-8261-83eafd09546c",
+      "affiliation_key": "pasquale-carosone-building-custodian-batch367",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Pasquale Carosone's best-supported immediate civilian occupation before OSS-directed Army induction was building custodian.",
+      "evidence_excerpt": "Was a building custodian in civilian life.",
+      "evidence_paraphrase": "The May 1944 OSS report records his civilian occupation and says he entered the Army in July 1943 through OSS after direct recruitment.",
+      "identity_match_assessment": "Confirmed by the rare exact name and exact private identifier across the index, Army record, and OSS report.",
+      "temporal_assessment": "Strongly date-bounded: the report directly sequences civilian occupation, OSS recruitment, and July 1943 Army induction, but names no employer or exact employment end date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "This is an occupation finding, not a named employer. The broader Army occupation code is not substituted for the more specific contemporary OSS interview wording.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-pasquale-carosone-batch367",
+          "support_type": "supports",
+          "locator_override": "Report pages 74-75, entry XXXIX",
+          "excerpt_override": "having been inducted through OSS, after being recruited by Captain Corvo direct as an agent"
+        },
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "context_only",
+          "locator_override": "PDF page 70, row 32; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "james-caroulis-army-identity-batch367",
+      "person_id": "5a95b882-642c-5370-af03-981f73318f8b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James Caroulis is confirmed by an exact private-identifier and rare-name match in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official index and Army row agree on the rare full name and restricted identifier; the Army record places him entering as a private on April 22, 1943.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record establishes identity and pre-service status but does not by itself date a later OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier remains private. Specialist Greek Operational Group rosters were reviewed as corroborative context but are not needed for this identity finding.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 33; James Caroulis; Box 108; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "supports",
+          "locator_override": "Exact-name and exact-private-identifier Army row; entry April 22, 1943; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-basic-doc-batch367",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "james-caroulis-student-claim-batch367",
+      "person_id": "5a95b882-642c-5370-af03-981f73318f8b",
+      "affiliation_key": "james-caroulis-student-batch367",
+      "claim_type": "occupation",
+      "claim_text": "James Caroulis was recorded as a student when he entered the Army in April 1943.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army row carries corrected status code 992, which the official code summary defines as students.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement between the index and Army record.",
+      "temporal_assessment": "Strongly date-bounded to April 22, 1943; no school, employer, program, or later OSS transfer date is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not classified as employment and no institution is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier row; civilian-status code 992; entry April 22, 1943; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-code-lists-batch367",
+          "support_type": "supports",
+          "locator_override": "Code No. 30 correction sheet, physical page 304; code 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "betty-carp-identity-claim-batch367",
+      "person_id": "a9531434-8049-5a69-9832-76944467e7d0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Betty Carp is very likely Bertha (Betty) Carp, the Istanbul Foreign Service employee assigned to OSS in New York from 1942 to 1947.",
+      "evidence_excerpt": "From 1942 to 1947 she was assigned to the New York office of the Office of Strategic Services (OSS).",
+      "evidence_paraphrase": "An official State Department profile supplies the uncommon exact familiar name, the formal name Bertha, a detailed diplomatic-service chronology, and an explicit OSS assignment.",
+      "identity_match_assessment": "High confidence: the rare exact name and explicit OSS chronology in an official institutional profile closely match the index, but the accessible source supplies no Box 108 or private-identifier linkage.",
+      "temporal_assessment": "The profile directly dates the OSS assignment to 1942-1947 and the preceding government career to 1914 onward.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Bertha and Betty are documented by the source, not inferred. No biographical fact from Wikipedia or another discovery-only page is used as final evidence.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "context_only",
+          "locator_override": "PDF page 70, row 34; Betty Carp; Box 108"
+        },
+        {
+          "source_key": "state-newsletter-betty-carp-1964-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 40, printed page 38"
+        }
+      ]
+    },
+    {
+      "key": "betty-carp-immediate-state-claim-batch367",
+      "person_id": "a9531434-8049-5a69-9832-76944467e7d0",
+      "affiliation_key": "betty-carp-state-department-istanbul-batch367",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Betty Carp's best-supported immediate pre-OSS affiliation was the United States Department of State's diplomatic post in Istanbul.",
+      "evidence_excerpt": "Miss Carp began her Government career in 1914 as a local employee at the American Embassy",
+      "evidence_paraphrase": "The official profile describes a government career beginning at the American Embassy in Istanbul, later refers to the Embassy and Consulate General, and then places Carp in OSS beginning in 1942.",
+      "identity_match_assessment": "High confidence from the rare exact name and the official profile's explicit 1942-1947 OSS assignment.",
+      "temporal_assessment": "Strongly date-bounded: the article sequences the diplomatic-post career and OSS years but does not explicitly say she left the post directly for OSS or date each post-title transition.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The employer is normalized to the Department of State; the source's historical Embassy and Consulate General wording remains visible, and no modern post name is silently substituted.",
+      "sources": [
+        {
+          "source_key": "state-newsletter-betty-carp-1964-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 40, printed page 38"
+        },
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "context_only",
+          "locator_override": "PDF page 70, row 34; Betty Carp; Box 108"
+        }
+      ]
+    },
+    {
+      "key": "betty-carp-last-civilian-state-claim-batch367",
+      "person_id": "a9531434-8049-5a69-9832-76944467e7d0",
+      "affiliation_key": "betty-carp-state-department-istanbul-batch367",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The United States Department of State's Istanbul diplomatic post is also Betty Carp's best-supported last civilian employer before OSS service.",
+      "evidence_excerpt": "From 1942 to 1947 she was assigned to the New York office of the Office of Strategic Services (OSS).",
+      "evidence_paraphrase": "The State Department profile presents the long diplomatic-post career and the 1942 OSS assignment in sequence; it names no intervening civilian employer or military service.",
+      "identity_match_assessment": "High confidence from the uncommon exact name and explicit OSS chronology in an official institutional profile.",
+      "temporal_assessment": "Strongly date-bounded rather than explicitly immediate because the article does not give an exact transfer date or use direct transition wording.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This government assignment is treated as civilian employment. It is kept distinct from the ensuing OSS assignment and from Carp's later State Department career.",
+      "sources": [
+        {
+          "source_key": "state-newsletter-betty-carp-1964-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 40, printed page 38"
+        }
+      ]
+    },
+    {
+      "key": "michael-j-carp-army-candidate-rejected-batch367",
+      "person_id": "47d6ec25-1b75-5181-a01b-3333a7c5adeb",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The one exact-name Michael J. Carp Army row is not accepted as the indexed identity.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index visibly prints a seven-digit identifier. The exact-name Army row carries a different full identifier, and no exact or simple defensible conversion match was found.",
+      "identity_match_assessment": "Unresolved: a name match alone is insufficient, and the available identifier evidence contradicts acceptance of the candidate.",
+      "temporal_assessment": "Candidate identity review only; no occupation, employer, or chronology from the Army row is attributed to the indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The candidate remains private and rejected pending Box 108 review. The printed identifier is preserved without padding, correction, or publication.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 35; Michael J. Carp; printed seven-digit identifier withheld"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "contradicts",
+          "locator_override": "One exact-name Army row; different full identifier; identifiers withheld"
+        }
+      ]
+    },
+    {
+      "key": "dorothy-carpenter-army-candidate-rejected-batch367",
+      "person_id": "b6dd2414-93ce-558c-b1fb-fefb29191342",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The one exact-name Dorothy Carpenter Army row is not accepted as the indexed identity.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies no middle initial, rank, or identifier. A single exact-name Army row and several unrelated biographical namesakes lack the required corroborating identifiers.",
+      "identity_match_assessment": "Unresolved: the common name and absence of two corroborating identifiers prevent a merge.",
+      "temporal_assessment": "Identity candidate only; no occupation, employer, or military status from the Army row is attributed to the indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The candidate remains private and rejected pending Box 108 review. Namesake obituaries and an aviation-periodical editor were not used.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 37; Dorothy Carpenter; no printed rank or identifier"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "context_only",
+          "locator_override": "One exact-name Army row; name-only match rejected"
+        }
+      ]
+    },
+    {
+      "key": "george-carpenter-army-candidates-rejected-batch367",
+      "person_id": "6443325a-580e-51d8-af7d-eb922febcf82",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "None of the four exact-name George Carpenter Army rows is accepted as the indexed identity.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies no middle initial, rank, or identifier, while the Army file contains four exact-name alternatives and public searches surface numerous unrelated wartime namesakes.",
+      "identity_match_assessment": "Ambiguous name candidates remain unresolved because no alternative has two corroborating identifiers beyond the common name.",
+      "temporal_assessment": "Identity candidate review only; no occupation, employer, unit, or OSS operation is attributed to the indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "A secondary Operation Sauerkraut reference names a George Carpenter but supplies no Box 108 or other identity bridge and is rejected as a public fact.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-70-batch367",
+          "support_type": "supports",
+          "locator_override": "PDF page 70, row 39; George Carpenter; no printed middle initial, rank, or identifier"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch367",
+          "support_type": "context_only",
+          "locator_override": "Four exact-name Army rows; all name-only matches rejected"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "6945e73d-1af3-5218-9b34-76a6fd948663",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index row and official Army bulk row agree on Edmond L. Caron's exact full name and private identifier. The Army record documents entry as a private on November 6, 1942. Its occupation code 993 was not defined in the reviewed official Code No. 30 summary and is not interpreted.",
+      "name_variants": [
+        "Edmond L. Caron",
+        "Caron, Edmond L"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 108 to identify Edmond L. Caron's pre-OSS occupation, employer, Army-to-OSS pathway, and the meaning, if any, of the uninterpreted Army code. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6a3d1a1d-c5d8-566c-a602-48c42ba026a6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index row and official Army bulk row agree on Gerard L. Caron's exact full name and private identifier, resolving three exact-name Army alternatives. The selected record documents entry as a private on November 9, 1942.",
+      "name_variants": [
+        "Gerard L. Caron",
+        "Caron, Gerard L"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 108 to identify Gerard L. Caron's named civilian employer, exact driving role, and Army-to-OSS pathway. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7d120283-ddee-5137-8261-83eafd09546c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index, official Army bulk row, and May 1944 OSS personnel-interview report agree on Pasquale Carosone's rare exact name and private identifier. The contemporary report identifies him as a private inducted through OSS in July 1943.",
+      "name_variants": [
+        "Pasquale Carosone",
+        "Carosone, Pasquale"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 108 to identify the building or organization where Pasquale Carosone worked and refine the OSS recruitment chronology. The immediate occupation is documented, but no reliable named pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5a95b882-642c-5370-af03-981f73318f8b",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index row and official Army bulk row agree on James Caroulis's rare exact full name and private identifier. The Army record documents entry as a private on April 22, 1943 and records student status.",
+      "name_variants": [
+        "James Caroulis",
+        "Caroulis, James"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 108 to identify James Caroulis's school, any civilian employer, and the chronology leading from Army entry to OSS service. Student status is documented but no institution is named.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a9531434-8049-5a69-9832-76944467e7d0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index's uncommon exact name Betty Carp aligns with an official State Department profile of Bertha (Betty) Carp that explicitly documents a 1942-1947 OSS assignment in New York and her preceding Foreign Service career in Istanbul. No Box 108 or private-identifier link is available in the reviewed sources, so the identity is high confidence rather than confirmed.",
+      "name_variants": [
+        "Betty Carp",
+        "Bertha Carp",
+        "Bertha (Betty) Carp",
+        "Carp, Betty"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Box 108 review is optional but could refine Carp's exact pre-1942 diplomatic-post titles and transfer date. The best-supported employer and transition are already documented.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "47d6ec25-1b75-5181-a01b-3333a7c5adeb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index visibly prints Michael J. Carp with a seven-digit identifier. The Army bulk file contains one exact-name row, but its full identifier differs and has no exact or simple defensible relationship to the printed string. The candidate is rejected pending file review; no occupation or status from it is attributed to the indexed person.",
+      "name_variants": [
+        "Michael J. Carp",
+        "Carp, Michael J"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 108 to resolve Michael J. Carp's printed seven-digit identifier, military or civilian status, pre-OSS affiliation, and employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ddc2ea81-ff53-50b4-ac75-f1b1ef4736ee",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only the common name Caroline Carpenter, Box 108, and the archive location, with no middle initial, rank, or private identifier. Exact-name OSS, NARA Catalog, CIA, Library of Congress, employment, obituary, institutional, newspaper, and archival searches did not produce two corroborating identifiers.",
+      "name_variants": [
+        "Caroline Carpenter",
+        "Carpenter, Caroline"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 108 for a middle name, birth year, hometown, assignment, occupation, employer, or other identifiers for Caroline Carpenter. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b6dd2414-93ce-558c-b1fb-fefb29191342",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only the common name Dorothy Carpenter, Box 108, and the archive location. One exact-name Army row and multiple biographical namesakes were found, but none supplies two corroborating identifiers or a Box 108 link. No candidate is accepted.",
+      "name_variants": [
+        "Dorothy Carpenter",
+        "Carpenter, Dorothy"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 108 for a middle name, birth year, hometown, assignment, occupation, employer, or private identifier for Dorothy Carpenter. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "15dd029b-10b2-586b-a8f0-74a4a8e17e15",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Fay M. Carpenter, Box 108, and the archive location but no rank or private identifier. Exact-name OSS, NARA Catalog, CIA, Library of Congress, employment, obituary, institutional, newspaper, and archival searches produced no defensible identity bridge; genealogy-style entries were rejected.",
+      "name_variants": [
+        "Fay M. Carpenter",
+        "Carpenter, Fay M"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 108 for Fay M. Carpenter's full middle name, birth year, hometown, assignment, occupation, employer, or other identity evidence. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6443325a-580e-51d8-af7d-eb922febcf82",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only the very common name George Carpenter, Box 108, and the archive location. Four exact-name Army rows, numerous wartime namesakes, and a secondary Operation Sauerkraut reference lack the two corroborating identifiers required for acceptance. No candidate is merged.",
+      "name_variants": [
+        "George Carpenter",
+        "Carpenter, George"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 108 for George Carpenter's middle name, birth year, hometown, rank, assignment, occupation, employer, or private identifier. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "edmond-l-caron-protocol-batch367",
+      "person_id": "6945e73d-1af3-5218-9b34-76a6fd948663",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "Edmond L Caron; visually checked NARA index; exact-name and private-identifier Army bulk review; official technical and occupation-code documentation; NARA Catalog context; CIA Reading Room; LoC current API; OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_enhanced_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "People-finder pages, foreign namesakes, and unrelated modern records lack the exact private identifier or an OSS link. Army occupation code 993 was not defined in the reviewed official summary and was not guessed.",
+      "research_notes": "Identity and enlisted Army status are confirmed. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 for occupation, employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "gerard-l-caron-protocol-batch367",
+      "person_id": "6a3d1a1d-c5d8-566c-a602-48c42ba026a6",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "Gerard L Caron; visually checked NARA index; exact-name and private-identifier Army bulk review; official technical and occupation-code documentation; NARA Catalog context; CIA Reading Room; LoC current API; OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_enhanced_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The private identifier resolves three exact-name Army rows. Modern CPA, property, telephone, and people-finder results concern later namesakes and do not establish the 1920-born Army record or pre-OSS employment.",
+      "research_notes": "The grouped civilian occupation at Army entry is published with qualification. No reliable named pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 for the named employer, exact driving role, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "pasquale-carosone-protocol-batch367",
+      "person_id": "7d120283-ddee-5137-8261-83eafd09546c",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "Pasquale Carosone; visually checked NARA index; exact-name and private-identifier Army bulk review; Hoover OSS Board personnel report and interview index; official technical and occupation-code documentation; NARA Catalog context; CIA Reading Room; LoC current API; OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "rare_name_identifier_and_direct_oss_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Genealogy-style death entries lack an identity bridge. The broader Army occupation code names no employer and is not substituted for the more specific contemporary OSS interview. Search snippets are not final sources.",
+      "research_notes": "A contemporary official OSS report confirms identity, direct OSS recruitment and induction, and the immediate civilian occupation building custodian. No reliable named pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 to identify the building or employer and refine the recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "james-caroulis-protocol-batch367",
+      "person_id": "5a95b882-642c-5370-af03-981f73318f8b",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "James Caroulis; visually checked NARA index; exact-name and private-identifier Army bulk review; official technical and corrected status-code documentation; NARA Catalog context; CIA Reading Room; LoC current API; OSS Greek Operational Group rosters and memorial; employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "rare_name_identifier_backed_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Specialist and memorial rosters corroborate an OSS Greek Operational Group association but do not name a pre-OSS employer or school. No institution is inferred from Army student status.",
+      "research_notes": "Identity and student status at Army entry are documented. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 to identify the school, employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "betty-carp-protocol-batch367",
+      "person_id": "a9531434-8049-5a69-9832-76944467e7d0",
+      "source_adapter": "official_institutional_and_multi_source_manual_review",
+      "query_text": "Betty Carp; Bertha Carp; visually checked NARA index; NARA Catalog context; CIA Reading Room and Director's diary; LoC current API and diplomatic memoir; Department of State News Letter; National Institute for Defense Studies proceedings; institutional catalog, scholarly, newspaper, obituary, OSS, employer, and archival searches.",
+      "query_variant_type": "distinctive_name_official_career_chronology_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Wikipedia, derivative chronologies, social posts, snippets, and unsourced summaries were used only for discovery or rejected. Postwar sources were not used to reconstruct unrelated later career details.",
+      "research_notes": "An official State Department profile supplies a high-confidence identity bridge, the pre-OSS diplomatic-post employer, and a strongly date-bounded 1942 transition to OSS. No authenticated NARA Catalog request was made.",
+      "next_action": "Optional Box 108 review could refine exact post titles and the transfer date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "michael-j-carp-protocol-batch367",
+      "person_id": "47d6ec25-1b75-5181-a01b-3333a7c5adeb",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "Michael J Carp; visually checked NARA index; exact-name, exact-identifier, leading-digit, and one-digit Army bulk comparisons; official technical documentation; NARA Catalog context; CIA Reading Room; LoC current API; OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_conflict_enhanced_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The sole exact-name Army row has a different full identifier and no defensible simple relationship to the visibly printed seven-digit index string. Genealogy and people-finder entries supply no OSS or Box 108 bridge.",
+      "research_notes": "The printed identifier is preserved exactly and not padded or corrected. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 to resolve identity and personnel status before attributing any occupation or employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "caroline-carpenter-protocol-batch367",
+      "person_id": "ddc2ea81-ff53-50b4-ac75-f1b1ef4736ee",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Caroline Carpenter; visually checked NARA index; exact-name Army bulk review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "common_name_enhanced_disambiguation_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Teacher, obituary, and other exact-name pages lack an OSS, Box 108, rank, identifier, birth year, hometown, or assignment bridge. No name-only candidate is accepted.",
+      "research_notes": "The common name remains unresolved after the completed online protocol. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "dorothy-carpenter-protocol-batch367",
+      "person_id": "b6dd2414-93ce-558c-b1fb-fefb29191342",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "Dorothy Carpenter; visually checked NARA index; exact-name Army bulk review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, aviation-periodical, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "common_name_enhanced_disambiguation_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "One exact-name Army row and multiple Canadian, Oklahoma, aviation, academic, and obituary namesakes lack two corroborating identifiers or an OSS/Box 108 linkage. Their occupations are not attributed.",
+      "research_notes": "The name-only Army candidate and public namesakes remain rejected. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "fay-m-carpenter-protocol-batch367",
+      "person_id": "15dd029b-10b2-586b-a8f0-74a4a8e17e15",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Fay M Carpenter; visually checked NARA index; exact-name Army bulk review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, genealogy-image, and archival searches.",
+      "query_variant_type": "incomplete_identifier_enhanced_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Genealogy-style death entries and other exact-name results lack source images, OSS context, Box 108, or corroborating identifiers. No candidate is accepted.",
+      "research_notes": "The indexed person remains unresolved after the completed online protocol. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 for the full middle name, identity anchors, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    },
+    {
+      "key": "george-carpenter-protocol-batch367",
+      "person_id": "6443325a-580e-51d8-af7d-eb922febcf82",
+      "source_adapter": "official_bulk_and_multi_source_manual_review",
+      "query_text": "George Carpenter; visually checked NARA index; exact-name Army bulk review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, Operation Sauerkraut, employer, occupation, military, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "very_common_name_enhanced_disambiguation_protocol",
+      "started_at": "2026-08-29T20:10:00+00:00",
+      "completed_at": "2026-08-29T21:10:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 15,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Four exact-name Army rows, multiple unrelated wartime veterans, Salvation Army and aviation namesakes, and a secondary Operation Sauerkraut mention lack the two corroborating identifiers required for this common name.",
+      "research_notes": "All name-only candidates remain separate and rejected. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 108 for a middle name, private identifier, assignment, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch367-v1"
+    }
+  ]
+}
