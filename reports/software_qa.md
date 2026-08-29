@@ -1,12 +1,16 @@
 # Software QA
 
-Run: 2026-08-27 UTC
+Run: 2026-08-29 UTC
 
 - Python unit tests: **75 / 75 passed**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,431 pages**
 - Internal link check: **24,431 HTML files passed**
+- Batch 364 complete browser and accessibility matrix: **1,155 / 1,155
+  passed** in 10.1 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted final-build run includes all 27 axe cases and all nine new
+  Batch 364 cases.
 - Expanded browser and accessibility matrix: the 23.0-minute single-worker
   Batch 345 sweep completed **1,024 / 1,026** cases across desktop, phone, and
   tablet; two older Batch 223/226 cases timed out without an assertion or axe
@@ -90,6 +94,11 @@ Run: 2026-08-27 UTC
   passed** in 9.4 minutes across desktop, phone, and tablet. The clean,
   uninterrupted final-build run includes all 27 axe cases and all nine new
   Batch 363 cases.
+- Focused Batch 364 browser regression: **9 / 9 passed** across desktop,
+  phone, and tablet. It publishes Gus R. Carlson's bounded Army-entry
+  cabinetmaker category without inventing an employer, exposes John J.
+  Carlson's and Robert E. Carlson's identifier conflicts, masks every private
+  identifier, and preserves seven unresolved Box 107 archival-review paths.
 - Focused Batch 363 browser regression: **9 / 9 passed** across desktop,
   phone, and tablet after one test-only expectation was aligned with the
   public relationship-type label. It publishes four supported civilian or
@@ -358,6 +367,22 @@ Run: 2026-08-27 UTC
   qualifies Joseph J. Cappucci's Army Air Corps path without overstating its
   immediacy; masks every identifier; and preserves five unsupported identities
   as archival-review cases.
+- Batch 364 local release verification: **passed**. Two consecutive finalized
+  production builds reproduced combined public, generated-data, and static-
+  site tree digest
+  `6669da7a5b314779129c386608b4d9496c1fe38ecc40e6840db865e655c1b119`.
+  The complete 24,431-page internal-link check passed and inventoried 49,470
+  unique external URLs. All 65 public manifest assets cover 80,423,754 bytes;
+  manifest SHA-256 is
+  `52bee49203f494a65fbf2b7673aecc8b175fc988fa340533094ecbc049996fec`.
+  The same assets matched their recorded SHA-256 values in both public and
+  built trees. The boundary-aware public-identifier audit found zero
+  unexpected matches across 24,501 built artifacts. The strict evidence
+  bundle passed repeated-import idempotence, SQLite integrity and foreign-key
+  checks; all 75 Python tests, the deterministic 200-profile audit, the
+  complete **1,155 / 1,155** browser and accessibility matrix, four direct
+  HTTP 200 source checks, zero-diagnostic Astro validation, and a zero-
+  vulnerability production dependency audit.
 - Batch 363 local release verification: **passed**. Two consecutive finalized
   production builds reproduced combined public, generated-data, and static-
   site tree digest
