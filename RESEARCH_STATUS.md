@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,426 people with a non-planned attempt | 23,940 active person entities | 14.3108% |
-| Verified-affiliation coverage | 467 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9507% |
+| Research-attempt coverage | 3,436 people with a non-planned attempt | 23,940 active person entities | 14.3525% |
+| Verified-affiliation coverage | 469 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9591% |
 | Verified-employer coverage | 201 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8396% |
-| Archival-review coverage | 3,379 people with an individual file-access/priority assessment | 23,940 active person entities | 14.1145% |
+| Archival-review coverage | 3,389 people with an individual file-access/priority assessment | 23,940 active person entities | 14.1562% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-08-29 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 228
+- Possible duplicate groups: 229
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 628
+- Identity status `confirmed`: 631
 - Identity status `high_confidence`: 514
 - Identity status `probable`: 115
-- Identity status `ambiguous`: 55
-- Identity status `conflicting`: 56
-- Identity status `unresolved`: 22,572
+- Identity status `ambiguous`: 56
+- Identity status `conflicting`: 57
+- Identity status `unresolved`: 22,567
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,087
-- Enlisted Army personnel: 3,840
+- Unknown or indeterminate: 16,084
+- Enlisted Army personnel: 3,843
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-29 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,498 no; 16,222 indeterminate.
+Commissioned classification: 2,220 yes; 5,501 no; 16,219 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,514
+- `not_started`: 20,504
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 88
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 65
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 534
-- `requires_archival_review`: 2,313
+- `occupation_only_found`: 536
+- `requires_archival_review`: 2,320
 - `completed`: 105
-- `conflicting_sources`: 57
+- `conflicting_sources`: 58
 - `verified_employer_found`: 199
-- Claim confidence: 805 confirmed; 1,095 high; 697 medium; 49 low; 67
+- Claim confidence: 807 confirmed; 1,095 high; 701 medium; 49 low; 68
   conflicting
-- Durable evidence inventory: 3,487 source records representing 1,622 unique
-  documents; 494 organizations; 1,343 affiliations; 2,713 claims; and 6,129
+- Durable evidence inventory: 3,491 source records representing 1,624 unique
+  documents; 495 organizations; 1,347 affiliations; 2,720 claims; and 6,145
   claim-source links
-- Reviewed public projection: 483 organizations; 1,333 published, qualified,
-  or conflict-visible affiliations; 2,662 published, qualified, or
-  conflict-visible claims; and 2,388 public citation records
+- Reviewed public projection: 484 organizations; 1,337 published, qualified,
+  or conflict-visible affiliations; 2,669 published, qualified, or
+  conflict-visible claims; and 2,391 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,220 yes; 5,498 no; 16,222 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,158. The detailed adapter breakdown remains reproducible in
+  3,168. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,469; 149 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,472; 149 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,636
+- Total recorded attempts/plans: 4,646
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,295; 1,255 have at least one public-visible
+- People with saved reviewed claims: 1,300; 1,260 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -5919,6 +5919,45 @@ Commissioned classification: 2,220 yes; 5,498 no; 16,222 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 365 covers Wendell Carlson through Charles M. Carman Jr., the next ten
+  contiguous personnel rows on PDF page 70 across Boxes 107-108. The source
+  page was rendered and visually checked, including the `also as` note printed
+  on Howard Edwin Carmain's row immediately before the Charles M. Carman Jr.
+  row. The official Army code-list pages for the Ordnance Department and both
+  civilian-occupation categories were separately rendered and visually
+  checked. The checksum-verified Army bulk file was reviewed transiently; no
+  raw bulk payload, full private identifier, authenticated Catalog response,
+  or credential is retained in the project.
+
+  Exact full-name and private-identifier agreement confirms Paul T. Carlton,
+  Harold Keith Carmain, and Howard Edwin Carmain as Army privates. Paul's Army-
+  entry record carries the broad historical occupation category `Chauffeurs
+  and drivers, bus, taxi, truck, and tractor`; Howard's carries `Actors and
+  actresses`. Both are published as medium-confidence occupation-only findings
+  and neither is converted into a named employer. The Carmain records also
+  carry branch code `ORD 87`, which the official code list identifies as the
+  Ordnance Department. These are documented April 1942 Army assignments, not
+  civilian employment and not proven immediate predecessors to OSS service.
+  Corrupt later fields in Harold's fixed-width row are withheld rather than
+  decoded as an occupation.
+
+  Benjamin T. Carlton retains a visible identity conflict because his printed
+  identifier maps to a different Army-file name while an exact-name row differs
+  by one digit. Howard Edwin Carmain and Charles M. Carman Jr. remain separate
+  entities in one public possible-duplicate group: the index layout suggests a
+  cross-reference, but the different printed identifiers and unexplained
+  `also as` syntax do not justify a merge. Wendell Carlson, William T. Carlson,
+  Ruth E. Carlsson, James F. Carlton, and Virginia M. Carlton remain unresolved
+  after enhanced name, identifier, official, newspaper, institutional,
+  obituary, and archival review; each routes to critical physical-file review.
+- Batch 365's strict evidence bundle adds four sources, one organization, four
+  affiliations, seven claims, sixteen claim-source links, ten person updates,
+  and ten durable research attempts. It contributes three confirmed Army
+  identities, two occupation-only findings, two documented military
+  assignments, one identifier conflict, one unmerged possible alias pair, and
+  five unresolved archival-review paths without adding a named employer. The
+  bundle passed strict schema validation and repeated-import idempotence; the
+  three focused browser cases pass **9 / 9** across desktop, phone, and tablet.
 - Batch 364 covers George S. Carlson at the end of PDF page 69 and Grace S.
   Carlson through Sylvia D. Carlson in the first nine rows of page 70, the next
   ten contiguous personnel rows, all indexed in Box 107. Both index pages and
@@ -6034,13 +6073,13 @@ Commissioned classification: 2,220 yes; 5,498 no; 16,222 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 364, research has a saved non-planned outcome for 3,426 people,
-  or 14.3108% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 467 people (1.9507%); confirmed/high employment or self-
-  employment is 201 people (0.8396%); 3,379 people (14.1145%) have an assessed
-  archival-review disposition; and 20,514 remain `not_started`. The data
-  preserves 228 possible-duplicate groups and 59 conflict-visible people.
-  Claim confidences are 805 confirmed, 1,095 high, 697 medium, 49 low, and 67
+- After Batch 365, research has a saved non-planned outcome for 3,436 people,
+  or 14.3525% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 469 people (1.9591%); confirmed/high employment or self-
+  employment is 201 people (0.8396%); 3,389 people (14.1562%) have an assessed
+  archival-review disposition; and 20,504 remain `not_started`. The data
+  preserves 229 possible-duplicate groups and 60 conflict-visible people.
+  Claim confidences are 807 confirmed, 1,095 high, 701 medium, 49 low, and 68
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was

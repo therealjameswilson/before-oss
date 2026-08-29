@@ -4,10 +4,12 @@ Run: 2026-08-29 UTC
 
 ## Result
 
-The expanded release matrix contains **1,155** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.1-minute
-single-worker Batch 364 sweep passed **1,155 / 1,155** without a timeout,
-assertion failure, or accessibility violation. The prior 9.4-minute Batch 363
+The expanded release matrix contains **1,164** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 9.3-minute
+single-worker Batch 365 sweep passed **1,164 / 1,164** without a timeout,
+assertion failure, or accessibility violation. The run includes all 27 axe
+cases and all nine new Batch 365 cases. The prior 10.1-minute Batch 364 sweep
+passed **1,155 / 1,155**, and the prior 9.4-minute Batch 363
 sweep passed **1,146 / 1,146**, and the prior 10.0-minute Batch 362
 sweep passed **1,137 / 1,137**, and the prior 10.7-minute Batch 361
 sweep passed **1,128 / 1,128**. The prior 11.6-minute
@@ -49,6 +51,19 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 365 adds direct-route coverage for Wendell Carlson through Charles M.
+Carman Jr. on PDF page 70 across Boxes 107-108. It publishes Paul T.
+Carlton's Army-entry driver occupation and Howard Edwin Carmain's Army-entry
+actor occupation without inventing an employer; publishes the United States
+Army Ordnance Department only as a military assignment for Howard and Harold
+Keith Carmain; exposes Benjamin T. Carlton's identifier conflict; preserves
+the index's `also as` Carmain/Carman question as a visible unmerged possible-
+duplicate group; masks every private identifier; and routes the five remaining
+unsupported profiles to archival review. The focused regression passed **9 /
+9**, all nine new cases passed within the complete matrix, and all 27 axe
+cases passed. Desktop and phone visual checks confirmed the direct profiles'
+hierarchy, badges, unresolved language, and masked evidence presentation.
 
 Batch 364 adds direct-route coverage for George S. Carlson through Sylvia D.
 Carlson across PDF pages 69-70 in Box 107. It publishes Gus R. Carlson's exact-
