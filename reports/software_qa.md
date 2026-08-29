@@ -7,6 +7,14 @@ Run: 2026-08-29 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,432 pages**
 - Internal link check: **24,432 HTML files passed**
+- Batch 366 complete browser and accessibility matrix: the 28.4-minute
+  single-worker sweep completed **1,170 / 1,173** cases across desktop, phone,
+  and tablet. Three older cases timed out or lost their browser session without
+  a data assertion or axe finding: desktop Batch 291, phone Batch 110, and the
+  phone Sources-page axe scan. Their exact isolated reruns passed **3 / 3** in
+  21.7 seconds, including the Sources scan in 13.5 seconds. All 27 accessibility
+  routes therefore have a clean passing run across their configured viewports;
+  the full-run interruptions remain recorded rather than being erased.
 - Batch 365 complete browser and accessibility matrix: **1,164 / 1,164
   passed** in 9.3 minutes across desktop, phone, and tablet. The clean,
   uninterrupted final-build run includes all 27 axe cases and all nine new
@@ -374,6 +382,29 @@ Run: 2026-08-29 UTC
   preserves the `also as` Carmain/Carman question without merging the people,
   masks every private identifier, and retains five unresolved archival-review
   paths.
+- Focused Batch 366 browser regression: **9 / 9 passed** across desktop,
+  phone, and tablet. It publishes Robert L. Carmin's explicit Michigan State
+  College-to-OSS chronology; keeps three official Army occupation categories
+  separate from employers; excludes Ernest J. Carnevale's postwar employers;
+  visibly qualifies the Joel Carmichael and Martin P. Carney identity leads;
+  masks every private identifier; and preserves four unresolved Box 108
+  archival-review paths.
+- Batch 366 local release verification: **passed**. Two consecutive finalized
+  production builds reproduced combined public, generated-data, and static-
+  site tree digest
+  `7e4d0f2ddf9ae08031dc07a12e03f51cf2a7b2748812c207171f142bb77cffd3`.
+  The complete 24,432-page internal-link check passed and inventoried 49,476
+  unique external URLs. All 65 public manifest assets cover 80,580,641 bytes;
+  manifest SHA-256 is
+  `193d385285767eb0a72f4097c172150b19b3d3c5e3f553c51b293f28494400cb`.
+  The same assets matched their recorded SHA-256 values in both public and
+  built trees. Boundary-aware public-identifier audits found zero unexpected
+  matches across 68 source-public and 24,502 built artifacts. The strict
+  evidence bundle passed repeated-import idempotence, SQLite integrity and
+  foreign-key checks; all 75 Python tests and five subtests, the deterministic
+  200-profile audit, the browser results recorded above, source checks, zero-
+  diagnostic Astro validation, and a zero-vulnerability production dependency
+  audit passed.
 - Batch 365 local release verification: **passed**. Two consecutive finalized
   production builds reproduced combined public, generated-data, and static-
   site tree digest

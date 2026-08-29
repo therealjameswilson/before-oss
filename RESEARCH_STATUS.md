@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-29 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,436 people with a non-planned attempt | 23,940 active person entities | 14.3525% |
-| Verified-affiliation coverage | 469 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9591% |
-| Verified-employer coverage | 201 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8396% |
-| Archival-review coverage | 3,389 people with an individual file-access/priority assessment | 23,940 active person entities | 14.1562% |
+| Research-attempt coverage | 3,446 people with a non-planned attempt | 23,940 active person entities | 14.3943% |
+| Verified-affiliation coverage | 470 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9632% |
+| Verified-employer coverage | 202 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8438% |
+| Archival-review coverage | 3,399 people with an individual file-access/priority assessment | 23,940 active person entities | 14.1980% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-29 UTC.
 - Possible duplicate groups: 229
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 631
+- Identity status `confirmed`: 635
 - Identity status `high_confidence`: 514
-- Identity status `probable`: 115
+- Identity status `probable`: 117
 - Identity status `ambiguous`: 56
 - Identity status `conflicting`: 57
-- Identity status `unresolved`: 22,567
+- Identity status `unresolved`: 22,561
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,084
-- Enlisted Army personnel: 3,843
+- Unknown or indeterminate: 16,080
+- Enlisted Army personnel: 3,847
 - Commissioned Army officers: 2,101
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-29 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,220 yes; 5,501 no; 16,219 indeterminate.
+Commissioned classification: 2,220 yes; 5,505 no; 16,215 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,504
+- `not_started`: 20,494
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 88
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 65
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 536
-- `requires_archival_review`: 2,320
+- `occupation_only_found`: 539
+- `requires_archival_review`: 2,326
 - `completed`: 105
 - `conflicting_sources`: 58
-- `verified_employer_found`: 199
-- Claim confidence: 807 confirmed; 1,095 high; 701 medium; 49 low; 68
+- `verified_employer_found`: 200
+- Claim confidence: 809 confirmed; 1,096 high; 706 medium; 49 low; 68
   conflicting
-- Durable evidence inventory: 3,491 source records representing 1,624 unique
-  documents; 495 organizations; 1,347 affiliations; 2,720 claims; and 6,145
+- Durable evidence inventory: 3,500 source records representing 1,631 unique
+  documents; 495 organizations; 1,351 affiliations; 2,728 claims; and 6,168
   claim-source links
-- Reviewed public projection: 484 organizations; 1,337 published, qualified,
-  or conflict-visible affiliations; 2,669 published, qualified, or
-  conflict-visible claims; and 2,391 public citation records
+- Reviewed public projection: 484 organizations; 1,341 published, qualified,
+  or conflict-visible affiliations; 2,677 published, qualified, or
+  conflict-visible claims; and 2,399 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,7 +81,7 @@ Commissioned classification: 2,220 yes; 5,501 no; 16,219 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,472; 149 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,646
+- Total recorded attempts/plans: 4,656
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,300; 1,260 have at least one public-visible
@@ -5919,6 +5919,49 @@ Commissioned classification: 2,220 yes; 5,501 no; 16,219 indeterminate.
   post-merge test, and Pages workflows. Seven core routes and all ten Batch 343
   profiles returned HTTP 200, and all 65 live manifest assets matched the
   audited release byte for byte across 79,213,316 bytes.
+- Batch 366 covers Joel Carmichael through Patrick A. Carney, the next ten
+  contiguous personnel rows on PDF page 70, all indexed in Box 108. The source
+  page was rendered and visually checked. The relevant official Army technical-
+  documentation and occupation-code pages, both Michigan State Board of
+  Agriculture minutes, and the East Hampton clipping page were separately
+  rendered and inspected. The checksum-verified Army bulk file was reviewed
+  transiently; no raw bulk payload, full private identifier, authenticated
+  Catalog response, or credential is retained in the project.
+
+  Michigan State's September 1942 minutes appoint Robert L. Carmin Instructor
+  in Geology and Geography effective September 1. Its November 1944 minutes
+  record his resignation effective October 31 to accept a position with the
+  OSS. This unusually explicit institutional chronology supports Michigan
+  State College as both his immediate pre-OSS affiliation and last civilian
+  employer, with confirmed identity and claim confidence.
+
+  Exact-name and private-identifier agreement confirms Lawrence F. Carnes,
+  Ernest J. Carnevale, and Patrick A. Carney in the official Army file. Their
+  Army-entry records support, respectively, the historical occupation groups
+  `Retail managers`, `Shipping and receiving clerks`, and `Occupations in
+  production of clay products`. Each remains a qualified, strongly date-
+  bounded occupation rather than a named employer. Ernest's obituary
+  independently corroborates Army and OSS service; its postwar employers are
+  excluded from pre-OSS claims.
+
+  Joel Carmichael and Martin P. Carney retain probable, visibly qualified
+  identities. A contemporary clipping describes the rare-name Joel as a
+  writer and Oxford scholar who served in wartime intelligence, but does not
+  explicitly name OSS. A CIA-hosted contemporary item places a Martin Carney
+  on the committee for an OSS symposium, but omits his middle initial. Neither
+  lead is promoted to an employer claim. Florence N. Carmony, Henri R. Carnal,
+  Wilton P. Carneal, and Jeanne L. Carnell remain unresolved and route to
+  critical Box 108 archival review. Wilton's printed `SP2/c` remains an
+  enlisted naval grade; a substring Army candidate was rejected.
+- Batch 366's strict evidence bundle adds nine sources, one organization, four
+  affiliations, eight claims, twenty-three claim-source links, ten person
+  updates, and ten durable research attempts. It contributes one confirmed
+  immediate and last-civilian employer, three confirmed identities with
+  occupation-only results, one independently corroborated Army/OSS identity,
+  two qualified identity leads, and four unresolved archival-review paths.
+  The bundle passed strict schema validation and repeated-import idempotence;
+  the three focused browser cases pass **9 / 9** across desktop, phone, and
+  tablet.
 - Batch 365 covers Wendell Carlson through Charles M. Carman Jr., the next ten
   contiguous personnel rows on PDF page 70 across Boxes 107-108. The source
   page was rendered and visually checked, including the `also as` note printed
@@ -6073,13 +6116,13 @@ Commissioned classification: 2,220 yes; 5,501 no; 16,219 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 365, research has a saved non-planned outcome for 3,436 people,
-  or 14.3525% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 469 people (1.9591%); confirmed/high employment or self-
-  employment is 201 people (0.8396%); 3,389 people (14.1562%) have an assessed
-  archival-review disposition; and 20,504 remain `not_started`. The data
+- After Batch 366, research has a saved non-planned outcome for 3,446 people,
+  or 14.3943% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 470 people (1.9632%); confirmed/high employment or self-
+  employment is 202 people (0.8438%); 3,399 people (14.1980%) have an assessed
+  archival-review disposition; and 20,494 remain `not_started`. The data
   preserves 229 possible-duplicate groups and 60 conflict-visible people.
-  Claim confidences are 807 confirmed, 1,095 high, 701 medium, 49 low, and 68
+  Claim confidences are 809 confirmed, 1,096 high, 706 medium, 49 low, and 68
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was
@@ -7862,6 +7905,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-joel-carmichael-through-patrick-carney-pathways_batch-366_2026-08-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-kenneth-carlisle-through-george-carlson-pathways_batch-363_2026-08-27.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-gus-carkonie-through-warren-carlin-pathways_batch-362_2026-08-24.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-sixty-nine-a-g-carey-through-michael-carioscia-pathways_batch-361_2026-08-23.json

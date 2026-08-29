@@ -12,8 +12,18 @@ The build includes 23,940 person profiles, 484 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,471 unique external URLs for separate live
+The checker inventoried 49,476 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Seven of Batch 366's nine citation endpoints returned HTTP 200 or 206 during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, both official technical-documentation PDFs, both Michigan
+State board-minutes PDFs, and the East Hampton clipping volume. The Dignity
+Memorial obituary returned HTTP 403 to the scripted client after its page had
+been inspected during evidence review. The CIA document endpoint returned an
+ordinary HTTP 302 redirect to the Reading Room. No access control was bypassed,
+no authenticated Catalog API request was made, and no raw Catalog API response
+was stored.
 
 All four Batch 365 citation endpoints returned HTTP 200 during targeted
 scripted verification: the NARA personnel-index PDF, public Army-series
@@ -172,6 +182,29 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 366 local release check
+
+The complete 24,432-page internal-link pass includes Joel Carmichael through
+Patrick A. Carney on PDF page 70 in Box 108. Robert L. Carmin's explicit
+Michigan State College-to-OSS transition remains separate from three qualified
+Army occupation categories; Ernest J. Carnevale's postwar employers remain
+excluded; two probable identity leads remain visibly conditional; and four
+unresolved profiles retain explicit critical archival-review paths. All 75
+Python tests and five subtests, the deterministic 200-profile audit, the
+browser and accessibility results recorded in the companion QA reports, all
+27 axe routes, dependency audit, database integrity checks, source checks, and
+public-identifier audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets cover 80,580,641 bytes and match their recorded sizes
+and SHA-256 hashes in both the source and built public trees. The manifest
+SHA-256 is
+`193d385285767eb0a72f4097c172150b19b3d3c5e3f553c51b293f28494400cb`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,502 production artifacts, examined
+1,065 candidate substrings, and found zero unexpected boundary matches. Two
+consecutive finalized builds reproduced combined-tree digest
+`7e4d0f2ddf9ae08031dc07a12e03f51cf2a7b2748812c207171f142bb77cffd3`.
 
 ## Batch 365 local release check
 
