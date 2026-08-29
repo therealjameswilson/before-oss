@@ -1,13 +1,14 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-27 UTC
+Run: 2026-08-29 UTC
 
 ## Result
 
-The expanded release matrix contains **1,146** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 9.4-minute
-single-worker Batch 363 sweep passed **1,146 / 1,146** without a timeout,
-assertion failure, or accessibility violation. The prior 10.0-minute Batch 362
+The expanded release matrix contains **1,155** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 10.1-minute
+single-worker Batch 364 sweep passed **1,155 / 1,155** without a timeout,
+assertion failure, or accessibility violation. The prior 9.4-minute Batch 363
+sweep passed **1,146 / 1,146**, and the prior 10.0-minute Batch 362
 sweep passed **1,137 / 1,137**, and the prior 10.7-minute Batch 361
 sweep passed **1,128 / 1,128**. The prior 11.6-minute
 single-worker Batch 360 sweep passed **1,116 / 1,119**; the same older Batch
@@ -48,6 +49,15 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 364 adds direct-route coverage for George S. Carlson through Sylvia D.
+Carlson across PDF pages 69-70 in Box 107. It publishes Gus R. Carlson's exact-
+identifier Army-entry cabinetmaker category without inventing an employer;
+exposes John J. Carlson's and Robert E. Carlson's identifier conflicts;
+preserves seven unresolved common or incomplete-name records; masks every
+private identifier; and routes unresolved questions to critical archival
+review. The focused regression passed **9 / 9**, all nine new cases passed
+within the complete matrix, and all 27 axe cases passed.
 
 Batch 363 adds direct-route coverage for Kenneth J. Carlisle through George G.
 Carlson on PDF page 69 in Box 107. It publishes four distinct civilian or

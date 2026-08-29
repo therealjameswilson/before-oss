@@ -29047,3 +29047,72 @@ test("Batch 363 exposes identifier conflicts and unresolved same-name candidates
   await page.goto("./people/46111015-4aeb-5294-9645-8ed5f1376cfb/");
   await expect(page.locator("main")).toContainText("Three exact-name Army rows");
 });
+
+test("Batch 364 publishes Gus R Carlson's Army-entry occupation without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/747b1af9-6b87-5f75-8059-7fe6f1491381/");
+  await expect(page.getByRole("heading", { name: "Gus R Carlson", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("••••7213");
+  await expect(page.locator("main")).toContainText("April 3, 1943");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Cabinetmakers",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(
+    page
+      .getByRole("link", {
+        name: "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 364 exposes the John J and Robert E Carlson identifier conflicts", async ({ page }) => {
+  for (const [personId, name, maskedIdentifier] of [
+    ["2113dd09-40f0-5911-a7ed-4e3e70a7c7af", "John J Carlson", "••••3953"],
+    ["0f9f4f93-6a1f-5551-89ba-50bd5a7d7af9", "Robert E Carlson", "••••9281"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(maskedIdentifier);
+    await expect(page.locator("main")).toContainText("maps to a different name");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 364 gives the seven unresolved Carlson records archival-review profiles", async ({ page }) => {
+  for (const [personId, name] of [
+    ["d6769671-3eb8-56b9-a386-e0fc2e5c4597", "George S Carlson"],
+    ["d6e9cfde-37c7-570c-9213-dea903f2263c", "Grace S Carlson"],
+    ["3b0dd009-63e6-5d54-b523-c33de5d320e0", "Howard L Carlson"],
+    ["f0e39575-aab8-5803-a506-cc3f188f7140", "Mabel Carlson"],
+    ["01a126a7-4af6-53e5-a82d-6121df8ecc04", "Marguerite V Carlson"],
+    ["93a3bea1-f4b9-51df-b728-431da6195501", "Ruth I Carlson"],
+    ["34648b3f-3572-5291-be46-c469eb89c11e", "Sylvia D Carlson"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/d6769671-3eb8-56b9-a386-e0fc2e5c4597/");
+  await expect(page.locator("main")).toContainText("Two exact-name Army rows");
+  await page.goto("./people/93a3bea1-f4b9-51df-b728-431da6195501/");
+  await expect(page.locator("main")).toContainText("One exact-name women's Army candidate");
+});
