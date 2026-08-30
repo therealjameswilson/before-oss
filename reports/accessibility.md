@@ -4,6 +4,15 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 374 release matrix passed **1,251 / 1,251** cases in 11.1 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
+new Batch 374 cases. The profiles publish one documented prewar Army assignment
+and one qualified occupation without converting either into a civilian
+employer; preserve six unresolved or ambiguous identities; leave one residual
+Army value uninterpreted; and expose Jim F. Carter's identifier conflict
+without adopting the incompatible candidate. The focused Batch 374 regression
+separately passed **15 / 15** across the three viewports.
+
 The Batch 373 release matrix passed **1,236 / 1,236** cases in 13.6 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all nine
 new Batch 373 cases. The profiles publish two exact-identifier Army-entry

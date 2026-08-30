@@ -1,0 +1,710 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-72-batch374",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 110",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 72, rows 8-17; Stuart R. Carswell through Jim F. Carter; visually checked; private identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row, spelling, blank rank, and blank identifier remains immutable. Full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch374",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; complete exact-name and exact-private-identifier review for page 72 rows 8-17; identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact private-identifier matches were found for Albert W. Carter and Eugene C. Carter. The exact-name Army candidate for Jim F. Carter carries a conflicting identifier and was rejected. No raw bulk record is retained."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch374",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994; reference copy modified 2011",
+      "locator": "PDF pages 44-46, reference-copy pages 40-42; fixed-width fields for identifier, name, Army-entry date, grade, branch, and civilian-occupation value; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret identifier, name, Army-entry date, grade, branch, and civilian-occupation fields. NARA documents known transcription, scanning, and conversion limitations."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch374",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1942; reference copy modified 2011",
+      "locator": "Code No. 30, PDF physical page 304, manual page 284; occupation value 530; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official historical occupation category. It does not identify an employer, workplace, exact trade, union, or the later Army-to-OSS chronology. Residual value 999 is left uninterpreted."
+    },
+    {
+      "key": "nara-official-army-register-stuart-carswell-batch374",
+      "stable_url": "https://www.archives.gov/files/foia/pdf/nprc-crg-part8-508.pdf",
+      "archival_identifier": "National Personnel Records Center Case Reference Guide, Part 8",
+      "title": "Official Army Register, 1946, retired-list entry for Stuart R. Carswell",
+      "author_creator": "United States War Department, Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1946; reproduced by NARA in 2019",
+      "locator": "Case Reference Guide Part 8 PDF page 1091; Official Army Register printed page 828; Stuart R. Carswell entry; officer identifier withheld; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Personnel Records Center Case Reference Guide",
+      "rights_notes": "The official register gives the same restricted officer identifier as the OSS index and records Infantry promotions and wartime Army service. Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "govinfo-congressional-record-stuart-randall-carswell-batch374",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1939-pt8-v84/pdf/GPO-CRECB-1939-pt8-v84-9.pdf",
+      "archival_identifier": "84 Congressional Record 8859; 76th Congress, 1st Session",
+      "title": "Congressional Record - Senate, July 11, 1939",
+      "author_creator": "United States Congress",
+      "repository_publisher": "United States Government Publishing Office",
+      "publication_record_date": "1939-07-11",
+      "locator": "PDF physical page 60, Congressional Record page 8859; Army promotion list; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Congressional Record, Bound Edition, Volume 84, Part 8",
+      "document_number": "GPO-CRECB-1939-pt8-v84-9",
+      "rights_notes": "Contemporary official record used to expand the documented middle name and corroborate the 1939 Infantry promotion. It does not establish an OSS transfer date or civilian employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "Established 1775; active during the documented World War II period",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment. Branch and rank are preserved separately from the service-level organization."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "stuart-r-carswell-army-infantry-batch374",
+      "person_id": "1457975e-fb37-5523-a0bf-bc6ddf91a909",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "Infantry",
+      "role_title": "Lieutenant Colonel, Infantry",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1939-06-12",
+      "end_date": null,
+      "date_precision": "The official Army register records promotion to lieutenant colonel of Infantry on June 12, 1939. It records continued Army service but does not identify the OSS transfer date or prove that Infantry was the immediate predecessor assignment.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact restricted officer identifier resolves the person. The 1939 Infantry role is a documented prewar military assignment, not a civilian employer and not a proven immediate pre-OSS affiliation."
+    },
+    {
+      "key": "eugene-c-carter-steam-fitting-plumbing-occupation-batch374",
+      "person_id": "90efa2cf-46b8-5e70-8ff4-1c3b4879f6d2",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Steam fitter, gas fitter, or plumber",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-06-06",
+      "date_precision": "The exact full-name and restricted-identifier Army-entry record carries occupation code 530 on June 6, 1941. The historical category names no employer, workplace, exact trade, start date, or Army-to-OSS transition.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is preserved without choosing one trade or inventing an employer, workplace, union, business, or employment relationship."
+    }
+  ],
+  "claims": [
+    {
+      "key": "stuart-r-carswell-confirmed-officer-identity-batch374",
+      "person_id": "1457975e-fb37-5523-a0bf-bc6ddf91a909",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Stuart R. Carswell is confirmed as Army officer Stuart Randall Carswell.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The OSS index and official Army register agree on the uncommon name and exact restricted officer identifier; the Congressional Record supplies the full middle name.",
+      "identity_match_assessment": "Confirmed by exact restricted officer-identifier agreement across two official NARA records, corroborated by the uncommon full name in a contemporary official record.",
+      "temporal_assessment": "The Army records document service before and during World War II but do not state the date or terms of OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The restricted officer identifier is withheld. The full middle name is added as a documented variant, not as a silent correction to the index.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-72-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 72, row 8; Stuart R. Carswell; Box 110; identifier withheld"
+        },
+        {
+          "source_key": "nara-official-army-register-stuart-carswell-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 1091, register page 828; exact restricted officer identifier; full entry visually checked",
+          "excerpt_override": "Carswell, Stuart R."
+        },
+        {
+          "source_key": "govinfo-congressional-record-stuart-randall-carswell-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 60, Congressional Record page 8859; Army promotion list",
+          "excerpt_override": "Stuart Randall Carswell to be lieutenant colonel, Infantry."
+        }
+      ]
+    },
+    {
+      "key": "stuart-r-carswell-documented-prewar-infantry-batch374",
+      "person_id": "1457975e-fb37-5523-a0bf-bc6ddf91a909",
+      "affiliation_key": "stuart-r-carswell-army-infantry-batch374",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Stuart R. Carswell was promoted to lieutenant colonel in the United States Army Infantry with rank from June 12, 1939.",
+      "evidence_excerpt": "Stuart Randall Carswell to be lieutenant colonel, Infantry.",
+      "evidence_paraphrase": "The contemporary Congressional Record and the later official Army register agree on Carswell's 1939 lieutenant-colonel promotion in Infantry.",
+      "identity_match_assessment": "Confirmed through the exact restricted officer identifier in the Army register and the uncommon full name in the Congressional Record.",
+      "temporal_assessment": "Directly documented in 1939, before OSS existed. The sources do not prove this branch was his immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Published as a documented prewar military assignment. It is not a civilian employer and is excluded from immediate-affiliation and employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-official-army-register-stuart-carswell-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 1091, register page 828; Infantry service and lieutenant-colonel promotion dated June 12, 1939",
+          "excerpt_override": "lt. col. 12 June 39"
+        },
+        {
+          "source_key": "govinfo-congressional-record-stuart-randall-carswell-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 60, Congressional Record page 8859",
+          "excerpt_override": "Stuart Randall Carswell to be lieutenant colonel, Infantry."
+        }
+      ]
+    },
+    {
+      "key": "albert-w-carter-confirmed-army-identity-batch374",
+      "person_id": "93148de6-8ce6-5640-95bf-ad0d3092698c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert W. Carter is confirmed as the Army private whose official entry record matches the OSS index's restricted identifier.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The two official records agree on the restricted identifier and compatible name despite a damaged Army name field; the Army record dates entry to November 23, 1940.",
+      "identity_match_assessment": "Confirmed by exact restricted-identifier agreement. The damaged trailing character in the Army name field is treated as a source anomaly, not a name variant.",
+      "temporal_assessment": "The Army record establishes identity and Army entry, not an occupation, employer, or Army-to-OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The restricted identifier is withheld. Residual occupation value 999 is intentionally left uninterpreted.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-72-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 72, row 10; Albert W. Carter; Box 110; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch374",
+          "support_type": "supports",
+          "locator_override": "Exact restricted-identifier Army record; private; Army entry November 23, 1940; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch374",
+          "support_type": "context_only",
+          "locator_override": "PDF pages 44-46, reference-copy pages 40-42; identifier, name, date, grade, and occupation field positions"
+        }
+      ]
+    },
+    {
+      "key": "eugene-c-carter-confirmed-army-identity-batch374",
+      "person_id": "90efa2cf-46b8-5e70-8ff4-1c3b4879f6d2",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Eugene C. Carter is confirmed as the Army private whose official entry record matches the OSS index's restricted identifier.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The two official records agree on the restricted identifier and compatible name despite a damaged Army name field; the Army record dates entry to June 6, 1941.",
+      "identity_match_assessment": "Confirmed by exact restricted-identifier agreement. The damaged trailing character in the Army name field is treated as a source anomaly, not a name variant.",
+      "temporal_assessment": "The Army record establishes identity, Army entry, and a broad civilian-occupation code, but not the later Army-to-OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The restricted identifier is withheld. No namesake employer, workplace, or biography is attached.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-72-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 72, row 13; Eugene C. Carter; Box 110; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch374",
+          "support_type": "supports",
+          "locator_override": "Exact restricted-identifier Army record; private; Army entry June 6, 1941; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "eugene-c-carter-steam-fitting-plumbing-claim-batch374",
+      "person_id": "90efa2cf-46b8-5e70-8ff4-1c3b4879f6d2",
+      "affiliation_key": "eugene-c-carter-steam-fitting-plumbing-occupation-batch374",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on June 6, 1941, Eugene C. Carter was recorded in the historical occupation group for steam fitters, gas fitters, and plumbers; no employer is named.",
+      "evidence_excerpt": "Steam fitters, gas fitters, and plumbers",
+      "evidence_paraphrase": "The exact identifier-backed Army row carries occupation code 530, which the official code list defines as a broad three-trade category.",
+      "identity_match_assessment": "Confirmed by exact restricted-identifier agreement across the OSS index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; the category is not shown to be the immediate predecessor to OSS and does not identify an employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No single trade, employer, company, union, industry, workplace, or employment relationship is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch374",
+          "support_type": "supports",
+          "locator_override": "Exact restricted-identifier record; Army-entry date and occupation code 530; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF pages 44-46, reference-copy pages 40-42; civilian-occupation field"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch374",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304, manual page 284; code 530",
+          "excerpt_override": "Steam fitters, gas fitters, and plumbers"
+        }
+      ]
+    },
+    {
+      "key": "jim-f-carter-private-identifier-conflict-batch374",
+      "person_id": "55e52d91-df0c-55eb-90af-072efd1a7f33",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The exact-name Army candidate for Jim F. Carter carries a different restricted identifier from the OSS index and cannot be assigned to the indexed person.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Exact-name agreement is contradicted by the identifier mismatch across the two official records.",
+      "identity_match_assessment": "Conflicting. A common-name match cannot override the restricted-identifier disagreement.",
+      "temporal_assessment": "No Army-entry date, grade, occupation, employer, or service chronology from the rejected candidate is assigned to the indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The candidate identifier and entry details remain private. Box 110 and original service records must resolve the conflict.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-72-batch374",
+          "support_type": "supports",
+          "locator_override": "PDF page 72, row 17; Jim F. Carter; Box 110; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch374",
+          "support_type": "contradicts",
+          "locator_override": "Separate exact-name Army record with conflicting restricted identifier; candidate entry details withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch374",
+          "support_type": "context_only",
+          "locator_override": "PDF pages 44-46, reference-copy pages 40-42; processed-file fields and interpretation cautions"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "1457975e-fb37-5523-a0bf-bc6ddf91a909",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and the official Army register agree on Stuart R. Carswell's uncommon name and exact restricted officer identifier. The register documents his Infantry career and 1939 lieutenant-colonel promotion; the contemporary Congressional Record supplies the full middle name Randall.",
+      "name_variants": [
+        "Stuart R. Carswell",
+        "Stuart Randall Carswell",
+        "Carswell, Stuart R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 110 for Carswell's immediate Army-to-OSS assignment sequence and last civilian employer before his long Army career. The 1939 Infantry role is documented but is not labeled immediate pre-OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "facc0e41-ff60-5ab0-8e4b-13c1e73af5b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Miro Cartelli in Box 110 without rank or restricted identifier. The official Army file has no exact-name row, and official, CIA, Library of Congress, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches produced no defensible identity bridge.",
+      "name_variants": [
+        "Miro Cartelli",
+        "Cartelli, Miro"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for name spelling, nationality, birth year, identifiers, personnel status, employer, occupation, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "93148de6-8ce6-5640-95bf-ad0d3092698c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army bulk record share Albert W. Carter's exact restricted identifier. The Army record documents entry as a private on November 23, 1940. Its damaged name-field character is not adopted as a variant, and residual occupation value 999 is left uninterpreted.",
+      "name_variants": [
+        "Albert W. Carter",
+        "Carter, Albert W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for Albert W. Carter's civilian occupation, named employer, exact Army assignment, and Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b09652ee-beee-5299-9c71-f677fb41405d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index supplies Bernard S. Carter in Box 110 without rank or restricted identifier. Bernard Shirley Carter is a plausible age-compatible Army and OSS namesake with institutional papers, but the accessible sources provide no Box 110, identifier, birth-date, assignment, or second-discriminator bridge. Other Bernard S. Carter candidates remain possible.",
+      "name_variants": [
+        "Bernard S. Carter",
+        "Carter, Bernard S."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 110 for identifiers, full middle name, birth data, and wartime assignments before testing the Bernard Shirley Carter banker-and-officer candidate. Do not attach Morgan employment or Army service from name agreement alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bd174c58-0747-5114-8e6d-a9882a4f0646",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index supplies Clifton C. Carter in Box 110 without rank or restricted identifier. Searches produced multiple incompatible exact-name military candidates of different ages and ranks, while an unsourced OSS list supplies no independent identity evidence. None has two corroborating identifiers or Box 110 linkage.",
+      "name_variants": [
+        "Clifton C. Carter",
+        "Carter, Clifton C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 110 for the full middle name, birth year, rank, branch, identifiers, personnel status, employer, and chronology before choosing among exact-name military candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "90efa2cf-46b8-5e70-8ff4-1c3b4879f6d2",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army bulk record share Eugene C. Carter's exact restricted identifier. The Army record documents entry as a private on June 6, 1941 and carries occupation code 530. A damaged trailing character in the Army name field is not adopted as a name variant.",
+      "name_variants": [
+        "Eugene C. Carter",
+        "Carter, Eugene C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 110 to determine which of the three historical trades applied, identify any named employer, and establish the Army-to-OSS chronology. No reliable named employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81c669b7-d465-5095-8f27-6e39e5e9868e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index supplies only George Carter in Box 110, without middle initial, rank, restricted identifier, or note. Searches produced hundreds of Army candidates and a documented OSS geographer named George F. Carter, but the incomplete index name supplies no second discriminator or Box 110 bridge.",
+      "name_variants": [
+        "George Carter",
+        "Carter, George"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 110 for a middle name, birth year, personnel status, assignment, employer, and identifiers before testing George F. Carter or any other common-name candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3323b554-f303-506c-8404-92f22f92c85a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Henrietta K. Carter in Box 110 without rank or restricted identifier. Official, CIA, Library of Congress, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches returned incompatible or unlinked namesakes without two corroborating identifiers.",
+      "name_variants": [
+        "Henrietta K. Carter",
+        "Carter, Henrietta K."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for full identity, personnel status, employer, occupation, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7503c2b8-6b01-5fc2-b364-fef8025d6944",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Hie Carter in Box 110 without rank or restricted identifier. The official Army file has one name-prefix row but no assignable identity bridge. Exact-name, CIA, Library of Congress, OSS, employment, occupation, institutional, newspaper, obituary, directory, genealogy, and archival searches produced only unverified or unrelated leads.",
+      "name_variants": [
+        "Hie Carter",
+        "Carter, Hie"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 to determine whether Hie is the full given name, an alias, or an index rendering, and recover birth data, identifiers, personnel status, employer, occupation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "55e52d91-df0c-55eb-90af-072efd1a7f33",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified index supplies Jim F. Carter in Box 110 with a restricted identifier. The official Army file has an exact-name row, but its identifier conflicts with the index. Common-name obituary, cemetery, directory, genealogy, military, and archival results cannot resolve the conflict.",
+      "name_variants": [
+        "Jim F. Carter",
+        "Carter, Jim F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 110 and original service records to resolve the identifier conflict before adopting any Army entry, occupation, employer, residence, or biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "stuart-r-carswell-protocol-batch374",
+      "person_id": "1457975e-fb37-5523-a0bf-bc6ddf91a909",
+      "source_adapter": "official_register_govinfo_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Stuart R Carswell and Stuart Randall Carswell; visually checked NARA index; restricted officer-identifier review in the official Army register; GovInfo Congressional Record; Army bulk review; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, Infantry, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_distinctive_officer_documented_prewar_protocol",
+      "started_at": "2026-08-30T17:00:00+00:00",
+      "completed_at": "2026-08-30T17:22:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Football, modern obituary, family, architectural, and unsourced biography results either concern different generations or lack the restricted officer identifier. No accessible source proves the immediate Army-to-OSS transfer or a civilian employer.",
+      "research_notes": "Exact identifier agreement confirms the officer. The official 1939 Infantry role is published as documented prewar, not immediate pre-OSS. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for the immediate predecessor assignment, OSS entry date, and any last civilian employer before Army service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "miro-cartelli-protocol-batch374",
+      "person_id": "facc0e41-ff60-5ab0-8e4b-13c1e73af5b4",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Miro Cartelli; visually checked NARA index; Army bulk exact-name review; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, military, institutional, newspaper, obituary, directory, genealogy, and archival searches.",
+      "query_variant_type": "distinctive_name_no_identifier_protocol",
+      "started_at": "2026-08-30T17:02:00+00:00",
+      "completed_at": "2026-08-30T17:18:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The Army file has no exact-name row. Genealogy and modern search results lack documentary citations, OSS evidence, Box 110 linkage, or a second identifier.",
+      "research_notes": "No birth year, nationality, employer, occupation, or biography is transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "albert-w-carter-protocol-batch374",
+      "person_id": "93148de6-8ce6-5640-95bf-ad0d3092698c",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Albert W Carter; visually checked NARA index; restricted-identifier Army bulk review; official field documentation; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, military, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_common_name_uninterpreted_occupation_protocol",
+      "started_at": "2026-08-30T17:04:00+00:00",
+      "completed_at": "2026-08-30T17:20:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Numerous exact-name directory, newspaper, cemetery, and genealogy candidates lack the restricted identifier or OSS and Box 110 linkage. The identifier-backed Army record's residual occupation value 999 is not interpreted.",
+      "research_notes": "Identity, private grade, and Army-entry date are documented. No reliable occupation or named employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for occupation, employer, assignment, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "bernard-s-carter-protocol-batch374",
+      "person_id": "b09652ee-beee-5299-9c71-f677fb41405d",
+      "source_adapter": "official_bulk_cia_loc_institutional_newspaper_and_multi_source_manual_review",
+      "query_text": "Bernard S Carter and Bernard Shirley Carter; visually checked NARA index; Army bulk review; public NARA Catalog context; CIA Reading Room; LoC current API; West Point archival finding aid; exact-name OSS, Morgan, banker, Army intelligence, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "common_name_plausible_oss_candidate_enhanced_protocol",
+      "started_at": "2026-08-30T17:06:00+00:00",
+      "completed_at": "2026-08-30T17:28:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "The Bernard Shirley Carter papers and reputable obituary leads describe an age-compatible Army officer and banker, but the accessible institutional description does not state OSS service and no source supplies Box 110, an identifier, birth data, or a second discriminator. Other exact-initial candidates remain possible.",
+      "research_notes": "The banker-and-officer biography remains a withheld identity lead. Morgan employment, Red Cross work, Army service, and OSS transfer are not attached to the indexed profile; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 to confirm or reject the Bernard Shirley Carter candidate before importing any employer or military chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "clifton-c-carter-protocol-batch374",
+      "person_id": "bd174c58-0747-5114-8e6d-a9882a4f0646",
+      "source_adapter": "official_register_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Clifton C Carter; visually checked NARA index; official Army register and Army bulk exact-name review; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, officer, employer, occupation, military, cemetery, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "common_name_multiple_military_candidates_enhanced_protocol",
+      "started_at": "2026-08-30T17:08:00+00:00",
+      "completed_at": "2026-08-30T17:29:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Multiple exact-name military candidates differ in age, rank, branch, and service history. An unsourced OSS list merely repeats the name. None supplies two corroborating identifiers or Box 110 linkage.",
+      "research_notes": "No candidate's military career, rank, residence, employer, or biography is transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for full name, rank, birth data, branch, and identifier evidence before selecting a candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "eugene-c-carter-protocol-batch374",
+      "person_id": "90efa2cf-46b8-5e70-8ff4-1c3b4879f6d2",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Eugene C Carter; visually checked NARA index; restricted-identifier Army bulk review; official field and occupation-code documentation; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, steam fitter, gas fitter, plumber, employer, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_common_name_occupation_protocol",
+      "started_at": "2026-08-30T17:10:00+00:00",
+      "completed_at": "2026-08-30T17:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Public exact-name and trade candidates lack the restricted identifier or OSS and Box 110 linkage. The official broad category does not identify which of three trades applied or name an employer.",
+      "research_notes": "Identity, private grade, Army-entry date, and the broad historical occupation group are documented. No reliable named employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for the precise trade, named employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "george-carter-protocol-batch374",
+      "person_id": "81c669b7-d465-5095-8f27-6e39e5e9868e",
+      "source_adapter": "official_bulk_cia_loc_institutional_and_multi_source_manual_review",
+      "query_text": "George Carter and George F Carter; visually checked NARA index; all Army bulk name-prefix candidates; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, geographer, analyst, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "incomplete_common_name_enhanced_protocol",
+      "started_at": "2026-08-30T17:12:00+00:00",
+      "completed_at": "2026-08-30T17:31:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 26,
+      "rejection_reasons": "Hundreds of Army rows and many public namesakes cannot be disambiguated from the index's incomplete name. The documented OSS geographer George F. Carter lacks an index middle initial, identifier, rank, assignment, or Box 110 bridge.",
+      "research_notes": "George F. Carter remains a withheld lead only. His museum, university, Indian Service, and OSS roles are not attached to this profile; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for a middle name, birth data, assignment, and identifiers before testing any candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "henrietta-k-carter-protocol-batch374",
+      "person_id": "3323b554-f303-506c-8404-92f22f92c85a",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Henrietta K Carter; visually checked NARA index; Army bulk exact-name review; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, military, institutional, newspaper, obituary, directory, genealogy, and archival searches.",
+      "query_variant_type": "common_name_no_identifier_enhanced_protocol",
+      "started_at": "2026-08-30T17:14:00+00:00",
+      "completed_at": "2026-08-30T17:32:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Army, newspaper, directory, obituary, genealogy, and institutional results lack two corroborating identifiers and an OSS or Box 110 bridge.",
+      "research_notes": "No namesake residence, employer, occupation, relative, or biography is transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "hie-carter-protocol-batch374",
+      "person_id": "7503c2b8-6b01-5fc2-b364-fef8025d6944",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Hie Carter with Hi, Highie, and possible abbreviated-given-name variants; visually checked NARA index; Army bulk review; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, military, institutional, newspaper, obituary, directory, genealogy, and archival searches.",
+      "query_variant_type": "incomplete_or_alias_name_protocol",
+      "started_at": "2026-08-30T17:16:00+00:00",
+      "completed_at": "2026-08-30T17:33:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "One Army prefix row, fuzzy newspaper OCR, and unsourced genealogy candidates lack exact identifier, OSS, Box 110, birth-year, or institutional linkage. Variant forms are search aliases only and are not adopted as corrections.",
+      "research_notes": "No birth date, expanded given name, residence, employer, occupation, or biography is assigned. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for the underlying full name and identity anchors.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    },
+    {
+      "key": "jim-f-carter-protocol-batch374",
+      "person_id": "55e52d91-df0c-55eb-90af-072efd1a7f33",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Jim F Carter and James F Carter variants; visually checked NARA index; restricted-identifier and exact-name Army bulk review; public NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, military, cemetery, obituary, directory, genealogy, and archival searches.",
+      "query_variant_type": "common_name_conflicting_identifier_enhanced_protocol",
+      "started_at": "2026-08-30T17:18:00+00:00",
+      "completed_at": "2026-08-30T17:34:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 17,
+      "rejection_reasons": "The exact-name Army candidate carries a different restricted identifier. Cemetery, obituary, genealogy, newspaper, and directory namesakes lack two corroborating identifiers and an OSS or Box 110 bridge.",
+      "research_notes": "The identifier conflict is preserved. No candidate Army entry, occupation, employer, residence, or biography is transferred; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 and original service records to resolve the conflicting identifier before adopting any candidate evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch374-v1"
+    }
+  ]
+}

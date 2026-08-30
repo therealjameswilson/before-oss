@@ -29928,3 +29928,88 @@ test("Batch 373 exposes conflicting Army candidates and the possible Vincent dup
   await expect(page.locator("main")).toContainText("identifier conflicts with the index");
   await expect(page.locator("main")).toContainText("No reviewed claim currently meets the publication threshold");
 });
+
+test("Batch 374 publishes Stuart Carswell's documented Army role without calling it immediate or civilian employment", async ({
+  page,
+}) => {
+  await page.goto("./people/1457975e-fb37-5523-a0bf-bc6ddf91a909/");
+  await expect(page.getByRole("heading", { name: "Stuart R Carswell", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Lieutenant Colonel, Infantry",
+  );
+  await expect(page.locator("main")).toContainText("June 12, 1939");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 374 publishes Eugene Carter's qualified occupation without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/90efa2cf-46b8-5e70-8ff4-1c3b4879f6d2/");
+  await expect(page.getByRole("heading", { name: "Eugene C Carter", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Steam fitter, gas fitter, or plumber",
+  );
+  await expect(page.locator("main")).toContainText("June 6, 1941");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 374 preserves Albert Carter's confirmed enlisted identity without interpreting a residual code", async ({
+  page,
+}) => {
+  await page.goto("./people/93148de6-8ce6-5640-95bf-ad0d3092698c/");
+  await expect(page.getByRole("heading", { name: "Albert W Carter", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("residual occupation value 999 is left uninterpreted");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 374 keeps six Box 110 identities unresolved or ambiguous", async ({ page }) => {
+  for (const [personId, name, identity, status] of [
+    ["facc0e41-ff60-5ab0-8e4b-13c1e73af5b4", "Miro Cartelli", "unresolved", "requires archival review"],
+    ["b09652ee-beee-5299-9c71-f677fb41405d", "Bernard S Carter", "ambiguous", "needs identity review"],
+    ["bd174c58-0747-5114-8e6d-a9882a4f0646", "Clifton C Carter", "ambiguous", "needs identity review"],
+    ["81c669b7-d465-5095-8f27-6e39e5e9868e", "George Carter", "ambiguous", "needs identity review"],
+    ["3323b554-f303-506c-8404-92f22f92c85a", "Henrietta K Carter", "unresolved", "requires archival review"],
+    ["7503c2b8-6b01-5fc2-b364-fef8025d6944", "Hie Carter", "unresolved", "requires archival review"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 374 exposes Jim Carter's conflicting Army candidate without adopting it", async ({ page }) => {
+  await page.goto("./people/55e52d91-df0c-55eb-90af-072efd1a7f33/");
+  await expect(page.getByRole("heading", { name: "Jim F Carter", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("identifier conflicts with the index");
+  await expect(page.locator("main")).toContainText("before adopting any Army entry");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});

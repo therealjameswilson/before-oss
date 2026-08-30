@@ -1,36 +1,36 @@
 # Research coverage
 
-Generated: 2026-08-30T16:18:49+00:00
+Generated: 2026-08-30T17:08:07+00:00
 
 ## Distinct coverage measures
 
 - Index coverage: **23,978 / 23,978** source rows linked (100.0000%).
-- Research-attempt coverage: **3,516 / 23,940** people (14.6867%).
-- Verified-affiliation coverage: **473 / 23,940** people (1.9758%).
+- Research-attempt coverage: **3,526 / 23,940** people (14.7285%).
+- Verified-affiliation coverage: **474 / 23,940** people (1.9799%).
 - Verified-employer coverage: **202 / 23,940** people (0.8438%).
-- Archival-review coverage: **3,469 / 23,940** people (14.4904%).
+- Archival-review coverage: **3,479 / 23,940** people (14.5322%).
 
 Automated extraction and identity-queue creation do not count as a historical research attempt.
 
 ## Research statuses
 
 - `candidate_found`: 1
-- `completed`: 105
+- `completed`: 106
 - `conflicting_sources`: 58
 - `documented_prewar_employer_found`: 65
 - `in_progress`: 46
-- `needs_identity_review`: 96
+- `needs_identity_review`: 100
 - `needs_temporal_review`: 9
 - `no_reliable_result_after_protocol`: 9
-- `not_started`: 20,424
-- `occupation_only_found`: 558
-- `requires_archival_review`: 2,368
+- `not_started`: 20,414
+- `occupation_only_found`: 559
+- `requires_archival_review`: 2,372
 - `verified_employer_found`: 201
 
 ## Claim confidence
 
-- `confirmed`: 831
-- `conflicting`: 68
+- `confirmed`: 835
+- `conflicting`: 69
 - `high`: 1,102
 - `low`: 52
-- `medium`: 724
+- `medium`: 725
