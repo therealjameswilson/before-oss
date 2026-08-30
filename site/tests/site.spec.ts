@@ -30679,3 +30679,123 @@ test("Batch 381 preserves four occupation-only results and three unresolved Box 
     );
   }
 });
+
+test("Batch 382 publishes Castrignano's CBS employer and Signal Corps assignment without inventing an OSS transition date", async ({
+  page,
+}) => {
+  await page.goto("./people/c0ac745c-f76e-5e9b-90b5-8ef83d9cb2e0/");
+  await expect(page.getByRole("heading", { name: "Robert A Castrignano", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Columbia Broadcasting System",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Army Signal Corps",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "temporal relation uncertain",
+  );
+  await expect(page.locator("main")).toContainText("last documented civilian employer before Army service");
+  await expect(page.locator("main")).toContainText("determine the Army-to-OSS transfer date");
+});
+
+test("Batch 382 publishes Irina Catacuzenne's rare-name identity and qualified student status without calling the university an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/c0caa4ad-f3b6-515e-a112-1f0a2965711d/");
+  await expect(page.getByRole("heading", { name: "Irina Catacuzenne", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "University of Chicago",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator("main")).toContainText("Irina Cantacuzene Erickson");
+  await expect(page.locator("main")).toContainText("inconsistent birth year");
+});
+
+test("Batch 382 confirms three exact Army identities while retaining name variants and occupation-only boundaries", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation, variant] of [
+    [
+      "d7ee25a2-c56c-50ed-b743-7dadc76f4adf",
+      "Marion J Casturao",
+      "Plumbers, gas fitters, and steam fitters",
+      "Mario J Casturao",
+    ],
+    [
+      "85de49b1-fa1c-54a4-83d3-36539e61a32b",
+      "Marion A Casulli",
+      "Apprentices to printing trades",
+      "Mario A Casulli",
+    ],
+    [
+      "d9ee343c-50ab-5db4-b059-1b6dffa9b3a3",
+      "Vincent T Catalano",
+      "Occupations in manufacture of electrical machinery and accessories",
+      "Vincent T. Catalano",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator("main")).toContainText(variant);
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 382 names Boynton Junior High School as Catalfano's last civilian employer without making it an immediate OSS predecessor", async ({
+  page,
+}) => {
+  await page.goto("./people/f1b94cbd-0a84-5065-b720-756d82acd3b9/");
+  await expect(page.getByRole("heading", { name: "Samuel Catalfano", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Boynton Junior High School",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "general language teacher",
+  );
+  await expect(page.locator("main")).toContainText("Faculty for 1941-42");
+  await expect(page.locator("main")).toContainText("without an intervening 1942-43 appointment");
+});
+
+test("Batch 382 preserves four unresolved pages 73-74 identities as explicit archival-review outcomes", async ({
+  page,
+}) => {
+  for (const [personId, name] of [
+    ["e179abea-6a1d-598b-809b-14830d2ec311", "E G Caswell"],
+    ["118ed4d5-a4a4-5488-92ed-bd439d2ecc64", "Frank J Catalano"],
+    ["d9baad30-680c-55ab-9b1c-96a1a3bf10fc", "Michael V Catalano"],
+    ["4239abc9-da02-5836-a1d5-81d4d9f7be33", "Modesto Catanzaro"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});

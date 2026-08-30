@@ -5,8 +5,27 @@ Run: 2026-08-30 UTC
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,434 pages**
-- Internal link check: **24,434 HTML files passed**
+- Static production build: **24,435 pages**
+- Internal link check: **24,435 HTML files passed**
+- Batch 382 complete browser and accessibility matrix: **1,359 / 1,359
+  passed** in 10.1 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all fifteen new Batch 382
+  cases; the focused regression separately passed **15 / 15**. The database
+  passed `quick_check`, had zero foreign-key violations, and passed the
+  deterministic 200-profile audit. Extraction validation passed all 522 pages
+  and 23,978 rows. The public-identifier audit found zero aggregate or
+  unexpected boundary matches across 24,505 production artifacts; two
+  manifest-size coincidences were confined to the expected manifest size
+  field. The direct seven-identifier evidence-bundle audit and tracked-source
+  credential scan also found zero matches. All 130 public-manifest source/build
+  checks passed for 65 assets totaling 81,676,925 bytes. All nine Batch 382
+  citation endpoints returned HTTP 200. The dependency audit found zero
+  vulnerabilities. Consecutive exports reproduced public-data digest
+  `d60565bf6e3b358f29a60aa85c1cccf26d95c0813931975f94557d50643fa0e5`;
+  consecutive finalized builds reproduced complete static-tree digest
+  `8567b9f742260f49fc97fbca21dce3a989697e8a8212001ea56f9efaad393809`;
+  and the public manifest digest is
+  `9c38f803d214f0b30c0823ccc721ac3c95c4382e3230aabaa439cfb1091fa9c2`.
 - Batch 381 complete browser and accessibility matrix: **1,344 / 1,344
   passed** in 10.0 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all twelve new Batch 381

@@ -4,6 +4,17 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 382 release matrix passed **1,359 / 1,359** cases in 10.1 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
+new Batch 382 cases. The profiles publish Robert A. Castrignano's last civilian
+employer and Signal Corps service without inventing an OSS transition; qualify
+Irina Catacuzenne's high-confidence identity and University of Chicago student
+status without treating study as employment; preserve two Marion-to-Mario Army
+name variants and three occupation-only findings; publish Samuel Catalfano's
+last civilian school employer without making it an immediate predecessor; and
+route four unresolved identities to critical Box 113 review. The focused Batch
+382 regression separately passed **15 / 15** across the three viewports.
+
 The Batch 381 release matrix passed **1,344 / 1,344** cases in 10.0 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 381 cases. The profiles qualify Aldrich J. Castek's probable Iowa

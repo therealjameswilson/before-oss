@@ -4,26 +4,43 @@ Run: 2026-08-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,434 HTML files. Every relative
+**PASS.** The production build contains 24,435 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 486 organization profiles, and the
+The build includes 23,940 person profiles, 487 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,496 unique external URLs for separate live
+The checker inventoried 49,502 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All ten Batch 381 citation targets were reviewed. Seven returned HTTP 200 in
-the automated GET check: the NARA personnel-index PDF, public Army-series
-Catalog page, both official technical-documentation PDFs, both *Daily Iowan*
-PDFs, and the Delaware Art Museum record. The Hoover digital-media dispatcher,
-Michael Rosenfeld Gallery biography, and Smithsonian record were successfully
-reviewed in a browser but returned HTTP 403 to the automated client. Those
-access-control responses are recorded rather than bypassed or mislabeled as
-broken citations. No authenticated Catalog API request was made, and no raw
-Catalog API response was stored.
+All nine Batch 382 citation targets returned HTTP 200 in the automated GET
+check: the NARA personnel-index PDF, public Army-series Catalog page, both
+official technical-documentation PDFs, Robert Castrignano's obituary and two
+newspaper profiles, the Irina Cantacuzene Erickson obituary transcription, and
+the 1942 *Ithaca Directory* PDF. No authenticated Catalog API request was made,
+and no raw Catalog API response was stored.
+
+## Batch 382 local release check
+
+The static build contains 24,435 HTML files, including direct pages for all
+23,940 active person entities, 487 public organizations, and every Batch 382
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,676,925 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`9c38f803d214f0b30c0823ccc721ac3c95c4382e3230aabaa439cfb1091fa9c2`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,505 production artifacts. It rejected 1,067
+substring coincidences, recorded two expected manifest-size coincidences, and
+found zero aggregate or unexpected boundary matches. A separate direct scan of
+the Batch 382 evidence bundle against the seven actual private identifiers
+found zero matches. The tracked-source credential scan found zero nonblank NARA
+keys. Consecutive public-data exports reproduced digest
+`d60565bf6e3b358f29a60aa85c1cccf26d95c0813931975f94557d50643fa0e5`.
+Consecutive finalized production builds reproduced complete static-tree digest
+`8567b9f742260f49fc97fbca21dce3a989697e8a8212001ea56f9efaad393809`.
 
 ## Batch 381 local release check
 
