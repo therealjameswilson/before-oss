@@ -4,6 +4,15 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 370 release matrix passed **1,209 / 1,209** cases in 13.2 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all nine
+new Batch 370 cases. The profiles publish five exact-identifier Army-entry
+status results without inventing employers or exact occupations, preserve
+Frank Carrejo's student status as non-employment, keep five unsupported
+identities unresolved, and route those five profiles to critical Box 109
+archival review. The focused Batch 370 regression separately passed **9 / 9**
+across the three viewports.
+
 The corrective Batch 369 rerun passed **1,200 / 1,200** cases in 13.6 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and a tightened
 Theodore H. Carr regression that requires the public page to identify Army
@@ -83,6 +92,13 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 370 adds direct-route coverage for William G. Carr through Benjamin F.
+Carrico on PDF page 71 in Box 109. It checks indexed spelling, masked private
+identifiers, the five qualified Army-entry statuses, unresolved research
+language, rejected namesake boundaries, and critical archival-review guidance.
+The complete matrix and focused regression both passed without an assertion,
+timeout, browser-session, or accessibility failure.
 
 Batch 369 adds direct-route coverage for Barbara J. Carr through Theodore H.
 Carr on PDF page 71 in Box 109. It confirms Gene A. Carr without interpreting

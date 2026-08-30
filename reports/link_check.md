@@ -15,6 +15,27 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,478 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+All four Batch 370 official citation endpoints returned HTTP 200 during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, and both official technical-documentation PDFs. No
+access control was bypassed, no authenticated Catalog API request was made,
+and no raw Catalog API response was stored.
+
+## Batch 370 local release check
+
+The static build contains 24,432 HTML files, including direct pages for all
+23,940 active person entities, 484 public organizations, and every Batch 370
+profile. Every internal link resolves. The 65 public-manifest files cover
+80,835,812 bytes and passed all 130 source-tree and built-tree size and SHA-256
+checks. The manifest SHA-256 is
+`7b72fbb244964e34eacee7ff20044539b363f1dabe3cd91c839e5f65b0a72c65`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,502 production artifacts. It rejected 1,067
+substring coincidences and found zero unexpected boundary matches. The ten
+Batch 370 profiles preserve all five unresolved identities and expose only
+masked or explicitly unprinted identifiers.
+
 Four of Batch 369's five citation endpoints returned HTTP 200 or 206 during
 targeted scripted verification: the NARA personnel-index PDF, public Army-
 series Catalog page, and both official technical-documentation PDFs. The

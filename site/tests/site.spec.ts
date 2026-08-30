@@ -29592,3 +29592,94 @@ test("Batch 369 preserves eight unsupported Carr identities for Box 109 review",
   await expect(page.locator("main")).toContainText("commissioned army officer");
   await expect(page.locator("main")).toContainText("2nd Lt");
 });
+
+test("Batch 370 publishes five identifier-backed Army-entry statuses without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, status, entryDate] of [
+    [
+      "1b4d1df3-52d2-5937-a5cb-f3f883083a48",
+      "John C Carras",
+      "Machine shop and related occupations, n.e.c.",
+      "September 28, 1943",
+    ],
+    [
+      "fd5d37c9-9d6d-5ca5-bb26-3e386386e514",
+      "Robert M Carrasco",
+      "Apprentices to other trades",
+      "August 28, 1942",
+    ],
+    ["52ff228e-6289-56f4-8c57-3cc49f1c0721", "Frank Carrejo", "Student", "July 16, 1943"],
+    [
+      "af39c88e-45f3-540f-9600-5ca00e9d3ac2",
+      "Nestor Carrero",
+      "Semiprofessional occupations, n.e.c.",
+      "August 19, 1942",
+    ],
+    [
+      "340f6960-2576-5ae8-8fa9-b4c5641ea616",
+      "Benjamin F Carrico",
+      "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "September 18, 1940",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      status,
+    );
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/52ff228e-6289-56f4-8c57-3cc49f1c0721/");
+  await expect(page.locator("main")).toContainText("Student status is documented");
+  await expect(page.locator("main")).toContainText("names no school or employer");
+});
+
+test("Batch 370 rejects famous and genealogy namesakes on the public profiles", async ({ page }) => {
+  await page.goto("./people/1b4d1df3-52d2-5937-a5cb-f3f883083a48/");
+  await expect(page.locator("main")).toContainText("famous Greek shipowner");
+  await expect(page.locator("main")).toContainText("is rejected");
+
+  await page.goto("./people/fd5d37c9-9d6d-5ca5-bb26-3e386386e514/");
+  await expect(page.locator("main")).toContainText("Robert Melvin Carrasco");
+  await expect(page.locator("main")).toContainText("are not used");
+
+  await page.goto("./people/af39c88e-45f3-540f-9600-5ca00e9d3ac2/");
+  await expect(page.locator("main")).toContainText("cemetery and genealogy candidate");
+});
+
+test("Batch 370 preserves five unsupported identities for Box 109 review", async ({ page }) => {
+  for (const [personId, name] of [
+    ["aaa0c393-c697-58aa-b3b2-12d64a282355", "William G Carr"],
+    ["c3037aaf-c744-5b01-aeb6-2ef182bad6c0", "William K Carr Jr."],
+    ["e6a0152a-0987-5151-9aa4-1097743ddef7", "Vincent V Carrazo"],
+    ["d9e93d92-5266-53e8-8644-0e0c3228f4b6", "Jeffery Carre"],
+    ["b3efe98c-3dea-5c2d-9963-decd173a6187", "Callie A Carrello"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/d9e93d92-5266-53e8-8644-0e0c3228f4b6/");
+  await expect(page.locator("main")).toContainText("Bowdoin publications document");
+  await expect(page.locator("main")).toContainText("candidate remains unaccepted");
+
+  await page.goto("./people/e6a0152a-0987-5151-9aa4-1097743ddef7/");
+  await expect(page.locator("main")).toContainText("Vincent N. Carrozzo");
+  await expect(page.locator("main")).toContainText("remain separate");
+});
