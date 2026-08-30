@@ -29846,3 +29846,85 @@ test("Batch 372 exposes rejected name-only Army and Navy candidates", async ({ p
   await expect(page.locator("main")).toContainText("Navy assistant paymasters");
   await expect(page.locator("main")).toContainText("candidate is not accepted on name alone");
 });
+
+test("Batch 373 publishes two identifier-backed Army-entry statuses without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, status, entryDate] of [
+    [
+      "c5ef6f77-a57b-5bb7-8809-4f11dc7776e7",
+      "Kenneth P Carson",
+      "Salespersons",
+      "December 8, 1942",
+    ],
+    [
+      "66faf27b-79ca-5ec4-9dd4-e9b394d73586",
+      "Norman M Carson",
+      "Student",
+      "August 21, 1944",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      status,
+    );
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/66faf27b-79ca-5ec4-9dd4-e9b394d73586/");
+  await expect(page.locator("main")).toContainText("Student status is documented");
+  await expect(page.locator("main")).toContainText("names no school or employer");
+});
+
+test("Batch 373 preserves unresolved and conflicting identities for Boxes 109 and 110 review", async ({
+  page,
+}) => {
+  for (const [personId, name, identity, status] of [
+    ["853d6dfb-823e-56f4-8bb1-ec44510a1085", "Frank M Carrolll", "unresolved", "requires archival review"],
+    ["fa647f02-92d4-51a8-ac98-1f8851fdfbc1", "Vincent N Carrozzo", "conflicting", "needs identity review"],
+    ["47669ec1-481e-5ff6-b2d4-4d6d4616748f", "Ralph H Carruthers", "unresolved", "requires archival review"],
+    ["8d17cd0b-600e-54a4-9709-f9f5692380e3", "Maurice S Carselowey", "conflicting", "needs identity review"],
+    ["ff6225f3-d493-56e2-81af-b8e6f190d1df", "Alice M Carson", "unresolved", "requires archival review"],
+    ["893f87df-9721-5d05-92e7-0f75b8f795f2", "John F Carson", "unresolved", "requires archival review"],
+    ["bb8e685d-4ae2-527e-8e37-2ed4051df468", "Thelma L Carson", "unresolved", "requires archival review"],
+    ["d5eca6ad-059b-558f-b3b5-747d06473cc1", "Irene Carstones", "unresolved", "requires archival review"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/893f87df-9721-5d05-92e7-0f75b8f795f2/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("captain in Box 110");
+});
+
+test("Batch 373 exposes conflicting Army candidates and the possible Vincent duplicate without merging", async ({
+  page,
+}) => {
+  await page.goto("./people/fa647f02-92d4-51a8-ac98-1f8851fdfbc1/");
+  await expect(page.locator("main")).toContainText("identifier conflicts with the index");
+  await expect(page.locator("main")).toContainText("possible-duplicate review group");
+
+  await page.goto("./people/e6a0152a-0987-5151-9aa4-1097743ddef7/");
+  await expect(page.locator("main")).toContainText("possible-duplicate review group");
+  await expect(page.locator("main")).toContainText("the rows remain separate pending file review");
+
+  await page.goto("./people/8d17cd0b-600e-54a4-9709-f9f5692380e3/");
+  await expect(page.locator("main")).toContainText("identifier conflicts with the index");
+  await expect(page.locator("main")).toContainText("No reviewed claim currently meets the publication threshold");
+});

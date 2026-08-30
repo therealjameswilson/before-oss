@@ -1,0 +1,622 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-pages-71-72-batch373",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 109-110",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 71, rows 44-46, and page 72, rows 1-7; Frank M. Carrolll through Irene Carstones; visually checked; private identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row, spelling, blank rank, and blank identifier remains immutable. Full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch373",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; complete exact-name and exact-private-identifier review for page 71 rows 44-46 and page 72 rows 1-7; identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact private-identifier matches were found for Kenneth P. Carson and Norman M. Carson. Exact-name Army candidates for Vincent N. Carrozzo and Maurice S. Carselowey carry conflicting identifiers and were rejected. No raw bulk record is retained."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch373",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2005-05-23; reference copy modified 2011",
+      "locator": "PDF physical pages 40-42; fixed-width field positions for identifier, name, Army-entry date, grade, branch, and civilian-occupation value; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret identifier, name, Army-entry date, grade, branch, and civilian-occupation fields. NARA documents known transcription, scanning, and conversion limitations."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch373",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30; physical pages 171 and 304; occupation values 175 and 992; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official historical occupation categories. They do not identify employers, workplaces, exact duties, named schools, or the later Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "kenneth-p-carson-salesperson-occupation-batch373",
+      "person_id": "c5ef6f77-a57b-5bb7-8809-4f11dc7776e7",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Salespersons",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-08",
+      "date_precision": "The exact full-name and restricted-identifier Army-entry record carries occupation code 175 on December 8, 1942. The historical category names no product, industry, employer, workplace, or Army-to-OSS transition.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is preserved without inventing a product, employer, business, industry, or employment relationship."
+    },
+    {
+      "key": "norman-m-carson-student-status-batch373",
+      "person_id": "66faf27b-79ca-5ec4-9dd4-e9b394d73586",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1944-08-21",
+      "date_precision": "The exact full-name and restricted-identifier Army-entry record carries occupation code 992 on August 21, 1944. The historical category identifies student status but names no school, employer, course, or Army-to-OSS transition.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not classified as employment. No school is inferred from common-name search results."
+    }
+  ],
+  "claims": [
+    {
+      "key": "kenneth-p-carson-army-identity-batch373",
+      "person_id": "c5ef6f77-a57b-5bb7-8809-4f11dc7776e7",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Kenneth P. Carson is confirmed as the Army private whose official entry record matches the OSS index's full name and restricted identifier.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The two official records agree on full name and restricted identifier; the Army record documents entry as a private on December 8, 1942.",
+      "identity_match_assessment": "Confirmed by exact full-name and restricted-identifier agreement.",
+      "temporal_assessment": "The Army record establishes identity and Army entry, not the date or terms of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The restricted identifier is withheld. A damaged trailing digit in the bulk name field is treated as a source anomaly, not a name variant.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-71-72-batch373",
+          "support_type": "supports",
+          "locator_override": "PDF page 72, row 4; Kenneth P. Carson; Box 110; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch373",
+          "support_type": "supports",
+          "locator_override": "Exact full-name and restricted-identifier Army record; private; Army entry December 8, 1942"
+        }
+      ]
+    },
+    {
+      "key": "kenneth-p-carson-salespersons-claim-batch373",
+      "person_id": "c5ef6f77-a57b-5bb7-8809-4f11dc7776e7",
+      "affiliation_key": "kenneth-p-carson-salesperson-occupation-batch373",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on December 8, 1942, Kenneth P. Carson was recorded in the broad historical occupation category Salespersons; the record names no employer.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact identifier-backed Army row carries occupation code 175; the official code list defines that value as Salespersons.",
+      "identity_match_assessment": "Confirmed by exact full-name and restricted-identifier agreement.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; the category is not shown to be the immediate predecessor to OSS and does not identify an employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No product, employer, company, industry, or employment relationship is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch373",
+          "support_type": "supports",
+          "locator_override": "Exact restricted-identifier record; Army-entry date and occupation code 175"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch373",
+          "support_type": "supports",
+          "locator_override": "Physical pages 40-42; civilian-occupation field"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch373",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 171; code 175",
+          "excerpt_override": "Salespersons"
+        }
+      ]
+    },
+    {
+      "key": "norman-m-carson-army-identity-batch373",
+      "person_id": "66faf27b-79ca-5ec4-9dd4-e9b394d73586",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Norman M. Carson is confirmed as the Army private whose official entry record matches the OSS index's full name and restricted identifier.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The two official records agree on full name and restricted identifier; the Army record documents entry as a private on August 21, 1944.",
+      "identity_match_assessment": "Confirmed by exact full-name and restricted-identifier agreement.",
+      "temporal_assessment": "The Army record establishes identity and Army entry, not the date or terms of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The restricted identifier is withheld. A damaged trailing digit in the bulk name field is treated as a source anomaly, not a name variant.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-pages-71-72-batch373",
+          "support_type": "supports",
+          "locator_override": "PDF page 72, row 5; Norman M. Carson; Box 110; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch373",
+          "support_type": "supports",
+          "locator_override": "Exact full-name and restricted-identifier Army record; private; Army entry August 21, 1944"
+        }
+      ]
+    },
+    {
+      "key": "norman-m-carson-student-claim-batch373",
+      "person_id": "66faf27b-79ca-5ec4-9dd4-e9b394d73586",
+      "affiliation_key": "norman-m-carson-student-status-batch373",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on August 21, 1944, Norman M. Carson was recorded as a student; the record names no school or employer.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact identifier-backed Army row carries occupation code 992; the official code list defines that value as Students.",
+      "identity_match_assessment": "Confirmed by exact full-name and restricted-identifier agreement.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; student status is not employment and is not shown to be the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No school, field of study, employer, or later Army-to-OSS chronology is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch373",
+          "support_type": "supports",
+          "locator_override": "Exact restricted-identifier record; Army-entry date and occupation code 992"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch373",
+          "support_type": "supports",
+          "locator_override": "Physical pages 40-42; civilian-occupation field"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch373",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 304; code 992",
+          "excerpt_override": "Students"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "853d6dfb-823e-56f4-8bb1-ec44510a1085",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Frank M. Carrolll in Box 109 without a rank or restricted identifier. The unusual three-l spelling is preserved. The official Army file has no exact-name row, and official, CIA, Library of Congress, OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches provide no person-specific identity bridge.",
+      "name_variants": [
+        "Frank M. Carrolll",
+        "Carrolll, Frank M"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 109 to determine whether Carrolll is the personnel file spelling, a typographical variant, or a distinct surname, and to recover identity and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fa647f02-92d4-51a8-ac98-1f8851fdfbc1",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified index supplies Vincent N. Carrozzo in Box 110 with a restricted identifier. The official Army file has one exact-name row, but its identifier conflicts with the index. A separate index row names Vincent V. Carrazo as a technician fourth grade in Box 109. Spelling, middle initial, box, and identifier differences prevent a merge, while the similar names justify a possible-duplicate review group.",
+      "name_variants": [
+        "Vincent N. Carrozzo",
+        "Carrozzo, Vincent N"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-vincent-carrazo-carrozzo-box109-110-batch373",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare Boxes 109 and 110 to determine whether the Carrazo and Carrozzo rows represent one person, two people, or an index error, and resolve the conflicting identifier before adopting Army or employment evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "47669ec1-481e-5ff6-b2d4-4d6d4616748f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Ralph H. Carruthers in Box 110 without a rank or restricted identifier. The official Army file has no exact-name row. Search results include an impossible 1938-born namesake and publications carrying the name, but none supplies an OSS, Box 110, or two-identifier bridge.",
+      "name_variants": [
+        "Ralph H. Carruthers",
+        "Carruthers, Ralph H"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for full identity, personnel status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8d17cd0b-600e-54a4-9709-f9f5692380e3",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified index supplies Maurice S. Carselowey in Box 110 with a restricted identifier. The official Army file has one exact-name row, but its identifier conflicts with the index. Official, CIA, Library of Congress, OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches provide no evidence that can resolve the conflict.",
+      "name_variants": [
+        "Maurice S. Carselowey",
+        "Carselowey, Maurice S"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 110 to test the conflicting Army candidate and establish Maurice S. Carselowey's identity, status, assignment, and pre-OSS chronology before publishing an affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ff6225f3-d493-56e2-81af-b8e6f190d1df",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Alice M. Carson in Box 110 without a rank or restricted identifier. The official Army file has no exact-name row. Official, CIA, Library of Congress, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches produced only unsupported or modern namesakes.",
+      "name_variants": [
+        "Alice M. Carson",
+        "Carson, Alice M"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for full identity, personnel status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "893f87df-9721-5d05-92e7-0f75b8f795f2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index identifies John F. Carson as a captain in Box 110 but supplies no restricted identifier or service branch. Five exact-name Army rows and numerous military, obituary, institutional, and directory candidates lack two corroborating identifiers and an OSS or Box 110 bridge. The captain classification is preserved without assigning a namesake biography.",
+      "name_variants": [
+        "John F. Carson",
+        "Carson, John F"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for service branch, identifier, birth data, assignment, and pre-OSS chronology. The indexed captain rank is documented, but no reliable pre-OSS affiliation or civilian employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c5ef6f77-a57b-5bb7-8809-4f11dc7776e7",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army bulk record agree on Kenneth P. Carson's exact full name and restricted identifier. The Army record documents entry as a private on December 8, 1942 and carries occupation code 175. A damaged trailing digit in the Army name field is not adopted as a name variant.",
+      "name_variants": [
+        "Kenneth P. Carson",
+        "Carson, Kenneth P"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 110 to identify Kenneth P. Carson's product or industry, named employer, Army assignment, and Army-to-OSS chronology. The broad occupation category is documented, but no reliable named pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "66faf27b-79ca-5ec4-9dd4-e9b394d73586",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified index and official Army bulk record agree on Norman M. Carson's exact full name and restricted identifier. The Army record documents entry as a private on August 21, 1944 and carries occupation code 992. A damaged trailing digit in the Army name field is not adopted as a name variant.",
+      "name_variants": [
+        "Norman M. Carson",
+        "Carson, Norman M"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 110 to identify Norman M. Carson's school, field of study, Army assignment, and Army-to-OSS chronology. Student status is documented, but no reliable named school or pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bb8e685d-4ae2-527e-8e37-2ed4051df468",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Thelma L. Carson in Box 110 without a rank or restricted identifier. The official Army file has no exact-name row. Official, CIA, Library of Congress, exact-name OSS, employment, occupation, institutional, newspaper, obituary, directory, and archival searches produced only unsupported family and modern namesakes.",
+      "name_variants": [
+        "Thelma L. Carson",
+        "Carson, Thelma L"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for full identity, personnel status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d5eca6ad-059b-558f-b3b5-747d06473cc1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Irene Carstones in Box 110 without a rank or restricted identifier. The official Army file has no exact-name row. Later State Department and United States Information Agency references share the distinctive name but are postwar and supply no OSS, Box 110, or second-identifier bridge, so they are not adopted as identity or pre-OSS evidence.",
+      "name_variants": [
+        "Irene Carstones",
+        "Carstones, Irene"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 110 for identity anchors and pre-OSS chronology, then test the later federal cultural-programming references only if the personnel file supplies a bridge. No reliable pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e6a0152a-0987-5151-9aa4-1097743ddef7",
+      "identity_evidence": "The visually verified index identifies Vincent V. Carrazo as a technician fourth grade in Box 109 but supplies no restricted identifier. A later index row supplies Vincent N. Carrozzo in Box 110 with a conflicting middle initial and restricted identifier. Similar spelling and military-grade context justify a possible-duplicate review group, but the rows remain separate pending file review.",
+      "possible_duplicate_group": "possible-vincent-carrazo-carrozzo-box109-110-batch373",
+      "next_action": "Compare Boxes 109 and 110 to determine whether the Carrazo and Carrozzo rows represent one person, two people, or an index error. Preserve both source rows and do not merge without direct evidence."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "frank-m-carrolll-protocol-batch373",
+      "person_id": "853d6dfb-823e-56f4-8bb1-ec44510a1085",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Frank M Carrolll and Carroll spelling variant; visually checked NARA index; Army bulk exact-name review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "distinctive_possible-index-spelling-protocol",
+      "started_at": "2026-08-30T15:50:00+00:00",
+      "completed_at": "2026-08-30T16:08:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "The Army file has no exact Carrolll row. Carroll-spelling military, directory, obituary, and current namesakes lack an OSS and Box 109 bridge, so the indexed spelling is neither corrected nor expanded into a person identity.",
+      "research_notes": "The three-l index spelling is preserved. No reliable pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 109 for the underlying file spelling, identity anchors, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "vincent-n-carrozzo-protocol-batch373",
+      "person_id": "fa647f02-92d4-51a8-ac98-1f8851fdfbc1",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Vincent N Carrozzo and Carrazo spelling and middle-initial variants; visually checked both index rows; restricted-identifier Army bulk review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, military, employer, occupation, cemetery, obituary, directory, and archival searches.",
+      "query_variant_type": "conflicting_identifier_possible_duplicate_protocol",
+      "started_at": "2026-08-30T15:52:00+00:00",
+      "completed_at": "2026-08-30T16:09:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The sole exact-name Army row carries a different restricted identifier. A veteran-burial lead shares the name and technician-fourth-grade service, but it lacks a restricted identifier and OSS or Box 110 bridge. The separate Vincent V. Carrazo row differs in spelling, middle initial, box, and identifier evidence and is not merged.",
+      "research_notes": "The conflict is preserved and both index rows are assigned to a possible-duplicate review group. No Army occupation or employer claim is published; no authenticated NARA Catalog request was made.",
+      "next_action": "Compare the physical personnel files in Boxes 109 and 110 and resolve the conflicting identifiers before adopting candidate evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "ralph-h-carruthers-protocol-batch373",
+      "person_id": "47669ec1-481e-5ff6-b2d4-4d6d4616748f",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Ralph H Carruthers; visually checked NARA index; Army bulk exact-name review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, library, publication, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "distinctive_name_no_identifier_protocol",
+      "started_at": "2026-08-30T15:54:00+00:00",
+      "completed_at": "2026-08-30T16:10:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "The Army file has no exact-name row. A 1938-born namesake is chronologically impossible, and library-method publications, bookseller results, genealogy, obituary, and directory candidates provide no OSS or Box 110 bridge.",
+      "research_notes": "Namesake publications were not converted into occupations or employment claims. No reliable pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "maurice-s-carselowey-protocol-batch373",
+      "person_id": "8d17cd0b-600e-54a4-9709-f9f5692380e3",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Maurice S Carselowey; visually checked NARA index; restricted-identifier Army bulk review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, military, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "distinctive_name_conflicting_identifier_protocol",
+      "started_at": "2026-08-30T15:56:00+00:00",
+      "completed_at": "2026-08-30T16:11:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The sole exact-name Army row carries a different restricted identifier. No official or independent result resolves the conflict or supplies an OSS and Box 110 bridge.",
+      "research_notes": "The Army row remains a rejected candidate pending file review. No occupation or employer is published; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors that can test the conflicting Army candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "alice-m-carson-protocol-batch373",
+      "person_id": "ff6225f3-d493-56e2-81af-b8e6f190d1df",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Alice M Carson; visually checked NARA index; Army bulk exact-name review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "common_name_no_identifier_enhanced_protocol",
+      "started_at": "2026-08-30T15:58:00+00:00",
+      "completed_at": "2026-08-30T16:12:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "The Army file has no exact-name row. Directory, obituary, property, genealogy, institutional, and current namesakes lack two corroborating identifiers and an OSS or Box 110 bridge.",
+      "research_notes": "Sensitive and family-history details were not retained. No reliable pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "john-f-carson-protocol-batch373",
+      "person_id": "893f87df-9721-5d05-92e7-0f75b8f795f2",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "John F Carson with captain and rank variants; visually checked NARA index; all five exact-name Army rows; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, officer, employer, occupation, military, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "common_name_rank_backed_enhanced_protocol",
+      "started_at": "2026-08-30T16:00:00+00:00",
+      "completed_at": "2026-08-30T16:13:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Five exact-name Army rows and numerous military, obituary, institutional, and directory candidates lack two corroborating identifiers and an OSS or Box 110 bridge. The indexed captain rank does not identify a specific namesake.",
+      "research_notes": "The rank supports commissioned Army officer classification only. No reliable pre-OSS affiliation or civilian employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for service branch, identifier, birth data, assignment, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "kenneth-p-carson-protocol-batch373",
+      "person_id": "c5ef6f77-a57b-5bb7-8809-4f11dc7776e7",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Kenneth P Carson; visually checked NARA index; restricted-identifier Army row and name variants; official field and occupation-code documentation; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, sales, employer, company, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_common_name_occupation_protocol",
+      "started_at": "2026-08-30T16:02:00+00:00",
+      "completed_at": "2026-08-30T16:14:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Search results and namesakes lack the restricted identifier or an OSS and Box 110 bridge. The official broad occupation category names no product, employer, industry, or business.",
+      "research_notes": "Identity, Army-entry date, private grade, and the broad salespersons category are documented. No reliable named pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for the product or industry, named employer, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "norman-m-carson-protocol-batch373",
+      "person_id": "66faf27b-79ca-5ec4-9dd4-e9b394d73586",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Norman M Carson; visually checked NARA index; restricted-identifier Army row and name variants; official field and occupation-code documentation; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, student, school, employer, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "identifier_backed_common_name_student_protocol",
+      "started_at": "2026-08-30T16:04:00+00:00",
+      "completed_at": "2026-08-30T16:15:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Search results and namesakes lack the restricted identifier or an OSS and Box 110 bridge. The official student category names no school, field of study, or employer.",
+      "research_notes": "Identity, Army-entry date, private grade, and student status are documented. No reliable named school or civilian employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for the school, field of study, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "thelma-l-carson-protocol-batch373",
+      "person_id": "bb8e685d-4ae2-527e-8e37-2ed4051df468",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Thelma L Carson; visually checked NARA index; Army bulk exact-name review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, genealogy, and archival searches.",
+      "query_variant_type": "common_name_no_identifier_enhanced_protocol",
+      "started_at": "2026-08-30T16:06:00+00:00",
+      "completed_at": "2026-08-30T16:16:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "The Army file has no exact-name row. Family, directory, obituary, property, institutional, and modern namesakes lack two corroborating identifiers and an OSS or Box 110 bridge.",
+      "research_notes": "Sensitive and family-history details were not retained. No reliable pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "irene-carstones-protocol-batch373",
+      "person_id": "d5eca6ad-059b-558f-b3b5-747d06473cc1",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Irene Carstones; visually checked NARA index; Army bulk exact-name review; NARA Catalog context; CIA Reading Room; LoC current API; exact-name OSS, employer, occupation, State Department, USIA, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "distinctive_name_postwar-candidate-rejection-protocol",
+      "started_at": "2026-08-30T16:08:00+00:00",
+      "completed_at": "2026-08-30T16:17:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The Army file has no exact-name row. State Department and United States Information Agency references from 1965, 1969, and 1985 share the name but are postwar and lack an OSS, Box 110, or second-identifier bridge; they cannot establish identity or pre-OSS employment.",
+      "research_notes": "Postwar federal references remain discovery leads only. No reliable pre-OSS employer has yet been identified; no authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 110 for identity anchors and test the postwar leads only if the file supplies a bridge.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    },
+    {
+      "key": "vincent-v-carrazo-cross-row-review-batch373",
+      "person_id": "e6a0152a-0987-5151-9aa4-1097743ddef7",
+      "source_adapter": "official_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Vincent V Carrazo and Vincent N Carrozzo cross-row comparison; visually checked both index rows; rank, spelling, middle-initial, box, and restricted-identifier conflict review; Army bulk and veteran-burial lead review.",
+      "query_variant_type": "cross-row-possible-duplicate-protocol",
+      "started_at": "2026-08-30T16:09:00+00:00",
+      "completed_at": "2026-08-30T16:18:00+00:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Similar spelling and technician-fourth-grade context justify review, but the rows differ in middle initial, box, and identifier evidence. No source directly establishes that the two index rows represent the same person.",
+      "research_notes": "Both source rows remain separate and now share a possible-duplicate group. No affiliation or employer claim is changed.",
+      "next_action": "Compare the physical personnel files in Boxes 109 and 110 before any entity merge.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-research-batch373-v1"
+    }
+  ]
+}
