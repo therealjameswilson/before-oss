@@ -6644,6 +6644,63 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   payload, full private identifier, unsupported employer, or unrelated
   namesake biography is retained or published. Final deterministic and browser
   release results are recorded in the QA reports.
+- Batch 381 covers Clifford L. Casteel through Ralph W. Casto, the next ten
+  contiguous index rows: PDF page 73 rows 32-41, all in Box 113. The source
+  page and official Army occupation-code pages were rendered and checked
+  visually. Every indexed spelling, blank rank, and printed identifier remains
+  immutable in the ignored database; all seven printed private identifiers are
+  masked in public output.
+
+  Exact private-identifier agreement with NARA's unrestricted Army merged file
+  confirms Joseph D. Casteel, William Castello, Frederico Castellon, Peter
+  Castiglione, Edwin Castle, and Ephriam E. Casto. Their Army-entry records
+  support four qualified occupation-only results—farm hand, actor, manager or
+  official, and general farmer—plus Castellon's commercial-artist occupation
+  and Castiglione's broad shoe-and-boot-manufacturing group. None of those
+  coded occupations identifies a legal employer, worksite, or exact Army-to-
+  OSS chronology.
+
+  A contemporary OSS personnel-board proceeding directly confirms Peter
+  Castiglione and explicitly sequences Army entry, two months of infantry
+  training, and his June 1943 OSS assignment. His immediate pre-OSS
+  affiliation is therefore the United States Army. The same source calls him
+  a mill worker in civilian life, but names no mill or employer. Institutional
+  biographies and the exact Army record confirm indexed `Frederico` as artist
+  Federico Castellon; the Army is his high-confidence probable immediate
+  predecessor and commercial artist remains an occupation, not an employer.
+
+  Two contemporary *Daily Iowan* pages place the uncommon exact name Aldrich
+  J. Castek in a 1937 Bachelor of Science in Commerce list and among enlisted
+  reservists beginning active Army duty in November 1942. Those findings are
+  published as a probable identity and qualified student and military
+  affiliations, not employment or a confirmed immediate predecessor. Clifford
+  L. Casteel, Hilda F. Castellon, and Ralph W. Casto remain unresolved and
+  route to critical Box 113 review. The documented Hilda Greenfield Castellon
+  candidate has a different middle initial and no OSS, private-identifier, or
+  Box bridge, so the relationship-based lead remains rejected.
+
+  Batch 381's strict evidence bundle adds ten sources, two organizations,
+  eleven affiliations, nineteen claims, forty-three claim-source links, ten
+  person updates, and ten durable research attempts. Repeated import is
+  idempotent. Research now has a saved non-planned outcome for 3,595 people
+  (15.0167% of 23,940 active entities); confirmed/high affiliation coverage is
+  480 people (2.0050%), confirmed/high employment or self-employment is 205
+  people (0.8563%), 3,548 people (14.8204%) have an assessed archival-review
+  disposition, and 20,345 remain `not_started`. Claim confidences are 862
+  confirmed, 1,113 high, 753 medium, 54 low, and 73 conflicting. The public
+  projection contains 486 organizations, 1,401 affiliations, 2,799 claims,
+  and 2,479 citation records representing 1,663 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, all 75 Python tests,
+  extraction validation for all 522 pages and 23,978 rows, SQLite integrity
+  and foreign-key checks, the deterministic 200-profile audit, zero-warning
+  Astro diagnostics, the 24,434-page build and internal-link check, the
+  field-aware public-identifier audit, the direct seven-identifier evidence-
+  bundle audit, and dependency audit passed. No authenticated Catalog API
+  request, credential, raw API response, raw Army payload, full private
+  identifier, unsupported employer, or unrelated namesake biography is
+  retained or published. Final deterministic and browser release results are
+  recorded in the QA reports.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -6938,13 +6995,13 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 380, research has a saved non-planned outcome for 3,585 people,
-  or 14.9749% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 478 people (1.9967%); confirmed/high employment or self-
-  employment is 205 people (0.8563%); 3,538 people (14.7786%) have an assessed
-  archival-review disposition; and 20,355 remain `not_started`. The data
+- After Batch 381, research has a saved non-planned outcome for 3,595 people,
+  or 15.0167% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 480 people (2.0050%); confirmed/high employment or self-
+  employment is 205 people (0.8563%); 3,548 people (14.8204%) have an assessed
+  archival-review disposition; and 20,345 remain `not_started`. The data
   preserves 231 possible-duplicate groups and 66 conflict-visible people.
-  Claim confidences are 854 confirmed, 1,111 high, 745 medium, 53 low, and 73
+  Claim confidences are 862 confirmed, 1,113 high, 753 medium, 54 low, and 73
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was

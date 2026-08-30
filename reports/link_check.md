@@ -12,15 +12,38 @@ The build includes 23,940 person profiles, 486 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,492 unique external URLs for separate live
+The checker inventoried 49,496 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All six Batch 380 citation endpoints returned HTTP 200 during targeted
-verification: the NARA personnel-index PDF, public Army-series Catalog page,
-both official technical-documentation PDFs, and the two contemporary World
-Radio History trade-journal PDFs. No access control was bypassed, no
-authenticated Catalog API request was made, and no raw Catalog API response was
-stored.
+All ten Batch 381 citation targets were reviewed. Seven returned HTTP 200 in
+the automated GET check: the NARA personnel-index PDF, public Army-series
+Catalog page, both official technical-documentation PDFs, both *Daily Iowan*
+PDFs, and the Delaware Art Museum record. The Hoover digital-media dispatcher,
+Michael Rosenfeld Gallery biography, and Smithsonian record were successfully
+reviewed in a browser but returned HTTP 403 to the automated client. Those
+access-control responses are recorded rather than bypassed or mislabeled as
+broken citations. No authenticated Catalog API request was made, and no raw
+Catalog API response was stored.
+
+## Batch 381 local release check
+
+The static build contains 24,434 HTML files, including direct pages for all
+23,940 active person entities, 486 public organizations, and every Batch 381
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,565,585 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`fe7ef7cb627d81e50cb2e0e0a4ac3df54993cf15f15d0570be8f51c875d1ce71`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,504 production artifacts. It rejected 1,065
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 381 evidence bundle
+against the seven actual private identifiers found zero matches. The tracked-
+source credential scan found zero nonblank NARA keys. Consecutive public-data
+exports reproduced digest
+`77ec5376881d8aeee4607ef1f67e260198827fc8d455cd6d729c4d5510f8ef85`.
+Consecutive production builds reproduced complete static-tree digest
+`df98801b110155047b388d976817fbb11921b80adaddb590e0697b90d4e79237`.
 
 ## Batch 380 local release check
 

@@ -4613,6 +4613,63 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-three-gould-m-cassal-through-alphonso-a-castagno-jr-pathways_batch-380_2026-08-30.json`.
 
+## Page 73 Casteel through Casto review, Batch 381
+
+PDF page 73 rows 32-41 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct
+rows from Clifford L. Casteel through Ralph W. Casto, all in Box 113. Every
+printed spelling, blank rank cell, and source-row identifier remains immutable
+in the ignored SQLite database; public output masks all seven printed private
+identifiers.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with its official field documentation
+and Civilian Occupations code list. Exact private-identifier agreement confirms
+Joseph D. Casteel, William Castello, Frederico Castellon, Peter Castiglione,
+Edwin Castle, and Ephriam E. Casto. The historical code values were checked on
+rendered code-list pages and support the broad occupation categories farm hand,
+actor, commercial artist, shoe and boot manufacturing, manager or official,
+and general farmer. They do not name a legal employer, worksite, precise job,
+or Army-to-OSS sequence. No raw bulk row is retained.
+
+The May 4, 1944 OSS personnel-board proceeding held by Hoover Institution was
+checked at PDF physical page 69, printed page 71. Exact private-identifier
+agreement confirms Peter Castiglione, and the contemporary item explicitly
+sequences spring 1943 Army entry, two months of infantry training at Camp
+Blanding, and June 1943 OSS assignment. It also records his civilian
+occupation as mill worker, but names no employer. The restricted identifier is
+used only for private identity resolution and is absent from the public claim.
+
+The Michael Rosenfeld Gallery biography representing Federico Castellon's
+estate and the Delaware Art Museum record were reviewed with the exact Army
+entry. Together they confirm indexed `Frederico` as artist Federico Castellon,
+document his 1943 Army-to-OSS sequence, and support the Army as his probable
+immediate predecessor. The Army code supplies commercial artist as an
+occupation, not an employer. The modern institutional pages are cited as
+identity and chronology evidence rather than treated as historical employers.
+
+The June 6, 1937 and November 12, 1942 *Daily Iowan* PDFs were rendered and
+visually checked at printed pages 4 and 3. The uncommon exact name Aldrich J.
+Castek appears in the Bachelor of Science in Commerce list and among Johnson
+County enlisted reservists beginning active Army duty. Because neither item
+contains an OSS or private-identifier bridge and the Army conversion has no
+matching record, the identity remains probable and both affiliations remain
+qualified. Student status is not employment, and Army entry is not promoted to
+an immediate predecessor without a transfer chronology.
+
+Clifford L. Casteel, Hilda F. Castellon, and Ralph W. Casto remain unresolved
+after official, CIA, current Library of Congress, exact-name OSS, employment,
+occupation, institutional, newspaper, obituary, directory, and archival
+searches. The Smithsonian's Hilda Greenfield Castellon record was reviewed but
+has a different middle initial and no OSS, Box 113, or private-identifier
+bridge; it remains a rejected candidate rather than a public identity claim.
+All three unresolved profiles route to critical Box 113 review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-three-clifford-l-casteel-through-ralph-w-casto-pathways_batch-381_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

@@ -30575,3 +30575,107 @@ test("Batch 380 preserves four unresolved identities and rejects the unsupported
     }
   }
 });
+
+test("Batch 381 qualifies Aldrich Castek's uncommon-name Iowa pathway without turning student status into employment", async ({
+  page,
+}) => {
+  await page.goto("./people/64eb13e2-baf8-564f-889a-cabe8329cbe2/");
+  await expect(page.getByRole("heading", { name: "Aldrich J Castek", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Bachelor of Science in Commerce degree candidate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "enlisted reservist beginning active duty",
+  );
+  await expect(page.locator("main")).toContainText("student");
+});
+
+test("Batch 381 publishes Frederico Castellon's probable Army-to-OSS pathway and commercial-artist occupation separately", async ({
+  page,
+}) => {
+  await page.goto("./people/8e9e814d-40cc-533d-aa48-d861cfb25206/");
+  await expect(page.getByRole("heading", { name: "Frederico Castellon", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "probable immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Commercial artists",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("Federico Castellon");
+});
+
+test("Batch 381 publishes Peter Castiglione's explicit Army predecessor and civilian occupations without inventing a mill", async ({
+  page,
+}) => {
+  await page.goto("./people/88be105c-988e-5045-a83e-9f3b6c67df91/");
+  await expect(page.getByRole("heading", { name: "Peter Castiglione", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "explicit immediate",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "mill worker",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Shoe and boot manufacturing occupations",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 381 preserves four occupation-only results and three unresolved Box 113 identities", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["3192b159-3ece-541a-827d-2a0bb22dd3e6", "Joseph D Casteel", "Farm hands, general farms"],
+    ["b024117b-b850-52cc-b002-feb5fa5b4675", "William Castello", "Actors and actresses"],
+    ["9d6a5b79-c275-5931-b17c-3b045863e567", "Edwin Castle", "Managers and officials, not elsewhere classified"],
+    ["2c2ae258-5f85-57f0-bfeb-3e27929b58e0", "Ephriam E Casto", "General farmers"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  for (const [personId, name] of [
+    ["afbd1443-c445-5851-84ca-b4569ff8a23e", "Clifford L Casteel"],
+    ["dfaa44b8-5931-5761-b40b-e3bc4e31d6dc", "Hilda F Castellon"],
+    ["176e2ec5-baa9-5ed3-b501-5381e8f096c1", "Ralph W Casto"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
