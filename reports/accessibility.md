@@ -4,6 +4,15 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 377 release matrix passed **1,296 / 1,296** cases in 11.4 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 377 cases. The profiles publish three qualified, identifier-backed
+Army-entry occupations; preserve one confirmed identity with an uninterpreted
+occupation value; expose two identifier conflicts without transferring the
+incompatible facts; and preserve four unresolved identities for Box 111 or 112
+review. The focused Batch 377 regression separately passed **12 / 12** across
+the three viewports.
+
 The Batch 376 release matrix passed **1,284 / 1,284** cases in 11.1 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
 new Batch 376 cases. The profiles publish two qualified, identifier-backed

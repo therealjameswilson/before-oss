@@ -4436,6 +4436,48 @@ identifier, raw Army row, unsupported employer, or unrelated namesake biography
 is stored or published. The durable evidence is in
 `research/evidence-page-seventy-two-donald-e-cartwright-through-charles-j-casale-pathways_batch-376_2026-08-30.json`.
 
+## Pages 72-73 Casasres through Caserio review, Batch 377
+
+PDF page 72 rows 38-46 and page 73 row 1 were rendered from the checksum-
+verified NARA index and visually checked at original resolution. The review
+preserves ten distinct rows from Migule B. Casasres through George J. Caserio
+in Boxes 111 and 112. Every printed spelling, blank rank cell, and identifier
+remains recoverable in the ignored SQLite database; public output masks all
+eight private identifiers.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with the official fixed-width field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms four enlisted Army people. The Army conversion's `Migel B.
+Casares` spelling is retained as a variant of indexed `Migule B. Casasres`, but
+its value 999 is not interpreted. The same official sources support only the
+date-bounded occupations gardeners and grounds keepers for Joel C. Case,
+retail manager for John F. Case, and cook except private family for George J.
+Caserio. They name no employer or later OSS transition.
+
+The Hoover Institution's digitized June 29, 1944 Goodfellow memorandum is a
+contemporary direct OSS source. It identifies Private Frank Cascio, dates his
+OSS entry, and explicitly describes installment-plan sales of clothing and
+jewelry in Washington immediately beforehand. Its private identifier differs
+from the index by a two-digit transposition, and the index identifier resolves
+to an unrelated name in the converted Army file. The candidate identity and
+occupation therefore remain conflict-visible, not settled facts. The unrelated
+Army name and all private identifiers are withheld, and the sales statement is
+not converted into self-employment or a named employer.
+
+William E. Case's index identifier separately resolves to a different middle
+initial in the Army conversion, so no converted Army facts are assigned.
+Phillip Cascio, Elizabeth R. Case, Charles J. Casebeer, and Florence B. Casell
+remain unresolved after official, CIA, current Library of Congress, exact-name
+OSS, employment, occupation, newspaper, obituary, directory, and archival
+searches. Florence's identifier prefix is preserved without inferring service
+status. All six conflict or unresolved cases route to Box 111 or 112 review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-two-migule-b-casasres-through-george-j-caserio-pathways_batch-377_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
