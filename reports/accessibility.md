@@ -4,9 +4,15 @@ Run: 2026-08-30 UTC
 
 ## Result
 
-The expanded release matrix contains **1,191** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 42.4-minute
-single-worker Batch 368 sweep completed **1,189 / 1,191**. Two older tablet
+The expanded release matrix contains **1,200** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 11.4-minute
+single-worker Batch 369 sweep passed **1,200 / 1,200** without a timeout,
+assertion failure, or accessibility violation. It includes all 27 axe cases
+and all nine new Batch 369 cases. The focused Batch 369 regression passed
+**9 / 9** across desktop, phone, and tablet after a test-only wording
+expectation was aligned with the correctly rendered public claim text. The
+prior 42.4-minute single-worker Batch 368 sweep completed **1,189 / 1,191**.
+Two older tablet
 cases, from Batch 121 and Batch 189, timed out without an assertion failure or
 axe finding; their exact isolated rerun passed **2 / 2** in 3.3 seconds. All 27
 axe cases and all nine new Batch 368 cases passed in the complete matrix. An
@@ -71,6 +77,16 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 369 adds direct-route coverage for Barbara J. Carr through Theodore H.
+Carr on PDF page 71 in Box 109. It confirms Gene A. Carr without interpreting
+the unassigned Army occupation value; publishes Theodore H. Carr's qualified
+Army-to-OSS pathway while keeping his recent-high-school-graduate status
+separate from employment; masks every private identifier; and preserves eight
+unsupported identities as critical archival-review profiles. The focused
+regression passed **9 / 9** across desktop, phone, and tablet. All nine new
+cases and all 27 axe cases passed in the clean **1,200 / 1,200** complete
+matrix.
 
 Batch 368 adds direct-route coverage for Guy E. Carpenter through William R.
 Carpenter across PDF pages 70-71 in Boxes 108-109. It publishes three
