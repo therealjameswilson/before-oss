@@ -15,6 +15,34 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,502 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+The finalized Batch 383 link check inventoried 49,505 unique external URLs.
+All seven Batch 383 citation targets returned HTTP 200: the NARA personnel-
+index PDF, public Army-series Catalog page, both official Army technical-
+documentation PDFs, the timestamped archived Detachment 101 roster, and both
+contemporary Dartmouth Alumni Magazine records. The current former roster host
+redirects to an unrelated hijacked domain and is intentionally not cited.
+
+## Batch 383 local release check
+
+The static build contains 24,435 HTML files, including direct pages for all
+23,940 active person entities, 487 public organizations, and every Batch 383
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,731,152 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`493de486d8d40d8c6d47cf118043deac830023c7b8137a498164a8795ad8de10`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,505 production artifacts. It rejected 1,065
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 383 evidence bundle and
+built tree against the actual current-batch private value found zero matches.
+The tracked-source credential scan found zero nonblank NARA keys. Consecutive
+public-data exports reproduced path-and-content digest
+`d9138df2b551bd0cdfa91cd406789d7ac53aacdaa7e675385d1da01d18edbfc6`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`47fd3e996125aef8dca2d2781ccdc70b05eb9161399f4eb86f4183b8e087bd5e`.
+
 All nine Batch 382 citation targets returned HTTP 200 in the automated GET
 check: the NARA personnel-index PDF, public Army-series Catalog page, both
 official technical-documentation PDFs, Robert Castrignano's obituary and two

@@ -7,6 +7,26 @@ Run: 2026-08-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,435 pages**
 - Internal link check: **24,435 HTML files passed**
+- Batch 383 complete browser and accessibility matrix: **1,374 / 1,374
+  passed** in 10.1 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all fifteen new Batch 383
+  cases; the focused regression separately passed **15 / 15**. The database
+  passed `quick_check`, had zero foreign-key violations, and passed the
+  deterministic 200-profile audit. Extraction validation passed all 522 pages
+  and 23,978 rows. The public-identifier audit examined 12,926 normalized
+  private identifiers and 120 formatted variants across 24,505 production
+  artifacts, rejected 1,065 substring coincidences, and found zero aggregate,
+  manifest-size, or unexpected boundary matches. The direct current-batch
+  private-value audit and tracked-source credential scan also found zero
+  matches. All 130 public-manifest source/build checks passed for 65 assets
+  totaling 81,731,152 bytes. All seven Batch 383 citation endpoints returned
+  HTTP 200. The dependency audit found zero vulnerabilities. Consecutive
+  exports reproduced the path-and-content public-data digest
+  `d9138df2b551bd0cdfa91cd406789d7ac53aacdaa7e675385d1da01d18edbfc6`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `47fd3e996125aef8dca2d2781ccdc70b05eb9161399f4eb86f4183b8e087bd5e`;
+  and the public manifest digest is
+  `493de486d8d40d8c6d47cf118043deac830023c7b8137a498164a8795ad8de10`.
 - Batch 382 complete browser and accessibility matrix: **1,359 / 1,359
   passed** in 10.1 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all fifteen new Batch 382

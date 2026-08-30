@@ -30799,3 +30799,99 @@ test("Batch 382 preserves four unresolved pages 73-74 identities as explicit arc
     );
   }
 });
+
+test("Batch 383 publishes Robert Cate's Dartmouth student status and OSS roster identity without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/bf4eb0c7-5e53-5714-ace7-2c24d962e263/");
+  await expect(page.getByRole("heading", { name: "Robert B Cate Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Dartmouth College",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator("main")).toContainText("Detachment 101");
+  await expect(page.locator("main")).toContainText("Communications");
+  await expect(page.locator("main")).toContainText("Dartmouth is student status, not employment");
+});
+
+test("Batch 383 confirms Charles Cathala's Detachment 101 identity while leaving his pre-OSS affiliation unresolved", async ({
+  page,
+}) => {
+  await page.goto("./people/8771aab3-f9b4-5715-a0f9-d71675be3d83/");
+  await expect(page.getByRole("heading", { name: "Charles Cathala", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("technician fifth grade");
+  await expect(page.locator("main")).toContainText("Communications");
+  await expect(page.locator("main")).toContainText("French political and medical namesakes");
+});
+
+test("Batch 383 publishes John Cather's teacher occupation without naming a school or employer", async ({
+  page,
+}) => {
+  await page.goto("./people/84181f77-5f27-5227-889f-189f3e97a25c/");
+  await expect(page.getByRole("heading", { name: "John R Cather", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Teachers, primary school and kindergarten",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("identify the school or employer");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 383 re-audits Cater without duplicating his Harvard student pathway", async ({ page }) => {
+  await page.goto("./people/5a8ea4f7-acc3-5a6f-8bca-c4de1746cc49/");
+  await expect(page.getByRole("heading", { name: "S D Cater Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Harvard University",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("student");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(1);
+});
+
+test("Batch 383 preserves six unsupported page 74 identities as explicit archival-review outcomes", async ({
+  page,
+}) => {
+  for (const [personId, name, box] of [
+    ["86a643c6-bfe9-541d-bfb4-2d99e7969d92", "James G Cate", "113"],
+    ["a0b8a0fb-ecdb-5c6e-b7be-b7d02625c35e", "Lorraine E Cate", "113"],
+    ["61a27ebf-c601-59ac-84de-b7f6d8fcf569", "Virginia J Cate", "113"],
+    ["fcbb2854-6a38-5df6-b4c9-bed93c213512", "Junior H Cates", "113"],
+    ["266c4837-07a6-57f3-a3bf-341501b15063", "Lorraine Catha", "111"],
+    ["42da13c5-48d3-5866-80d8-189bc2250882", "Kenneth A Cathwell", "113"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 74");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
