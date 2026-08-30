@@ -4290,6 +4290,37 @@ private identifier, full copyrighted page, post-OSS occupation masquerading as
 pre-OSS evidence, namesake biography, or unsupported employer claim was stored
 or published.
 
+## Pages 71-72 Carrolll through Carstones review, Batch 373
+
+The source pages were rendered from the checksum-verified NARA index and
+visually checked at original resolution. They preserve ten distinct rows from
+Frank M. Carrolll through Irene Carstones in Boxes 109-110, including the
+unusual three-l `Carrolll` spelling, John F. Carson's printed `Capt` rank, four
+private identifiers, and all blank cells. Private identifiers are retained
+only in the ignored SQLite database and never appear in the evidence bundle or
+public files.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with its official field documentation
+and Civilian Occupations code list. Exact private-identifier agreement confirms
+Kenneth P. Carson and Norman M. Carson. The source supports only the historical
+occupation category `Salespersons` for Kenneth and student status for Norman,
+both at Army entry. It names no employer, company, school, product, industry,
+field of study, workplace, or OSS transition.
+
+The exact-name Army candidates for Vincent N. Carrozzo and Maurice S.
+Carselowey carry identifiers that conflict with the index and therefore remain
+rejected pending Box 110 review. The adjacent Vincent V. Carrazo row in Box 109
+and Vincent N. Carrozzo row in Box 110 are flagged as a possible duplicate but
+remain separate because spelling, middle initial, box, and identifier evidence
+disagree. Later federal cultural-programming references for Irene Carstones are
+postwar and remain discovery leads only. No raw Army row, bulk payload,
+authenticated Catalog response, credential, full identifier, unrelated
+namesake identity, or unsupported employer claim is stored or published.
+
+The durable evidence is in
+`research/evidence-pages-seventy-one-seventy-two-frank-m-carrolll-through-irene-carstones-pathways_batch-373_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

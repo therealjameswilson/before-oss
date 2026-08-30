@@ -4,6 +4,17 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 373 release matrix passed **1,236 / 1,236** cases in 13.6 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all nine
+new Batch 373 cases. The profiles publish two exact-identifier Army-entry
+status results without inventing employers, schools, products, industries, or
+fields of study; preserve six unresolved identities and two identifier
+conflicts; classify the indexed captain without assigning a namesake
+biography; and expose the two Vincent rows as a possible duplicate without
+merging them. The focused Batch 373 regression separately passed **9 / 9**
+across the three viewports after a test-only hyphenation expectation was
+aligned with the correctly rendered public copy.
+
 The Batch 372 release matrix passed **1,227 / 1,227** cases in 11.1 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all nine
 new Batch 372 cases. The profiles publish three exact-identifier Army-entry
