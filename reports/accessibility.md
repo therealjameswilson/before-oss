@@ -4,6 +4,15 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 375 release matrix passed **1,266 / 1,266** cases in 13.7 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
+new Batch 375 cases. The profiles publish three qualified, identifier-backed
+Army-entry occupations without inventing an employer, production, workplace,
+or exact trade; retain one documented Army spelling variant; preserve six
+unresolved identities; and leave Sidney Carton's incompatible Army and
+obituary candidates unassigned. The focused Batch 375 regression separately
+passed **15 / 15** across the three viewports.
+
 The Batch 374 release matrix passed **1,251 / 1,251** cases in 11.1 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
 new Batch 374 cases. The profiles publish one documented prewar Army assignment
