@@ -12,17 +12,34 @@ The build includes 23,940 person profiles, 485 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,484 unique external URLs for separate live
+The checker inventoried 49,487 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-The Batch 377 scripted citation check reached the NARA personnel-index PDF,
-public Army-series Catalog page, and both official technical-documentation
-PDFs with HTTP 200. The Hoover Digital Collections object was successfully
-retrieved and inspected during research but later returned HTTP 403 to the
-scripted client, so its stable object citation remains available for browser
-or archival follow-up rather than being misreported as a live-check pass. No
-access control was bypassed, no authenticated Catalog API request was made, and
-no raw Catalog API response was stored.
+The Batch 378 official CIA and University of Cincinnati citation pages were
+retrieved and inspected during research. The NARA personnel-index PDF, public
+Army-series Catalog page, and both official technical-documentation PDFs were
+also reviewed. No access control was bypassed, no authenticated Catalog API
+request was made, and no raw Catalog API response was stored.
+
+## Batch 378 local release check
+
+The static build contains 24,433 HTML files, including direct pages for all
+23,940 active person entities, 485 public organizations, and every Batch 378
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,314,387 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest SHA-256 is
+`6f74cdfb1aa9abbb58c283f5575edc3ab4ec205fb84f86d4463e5539680e1f73`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,503 production artifacts. It rejected 1,065
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 378 evidence bundle
+against the four actual private identifiers found zero matches. The tracked-
+source credential scan found zero nonblank NARA keys. Consecutive public-data
+exports reproduced digest
+`27123fe40f4b6aeb5db7e6fb11c365e3064d7b51d0c52f3fd590d9fbbd02cb0d`.
+Two consecutive production builds reproduced content-tree digest
+`f20f414ad1c1e1e1907507b08027d93e0b52e3bd9a2cb9370a8d1525ff69c450`.
 
 ## Batch 377 local release check
 
