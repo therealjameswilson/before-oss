@@ -1,0 +1,1330 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-73-batch381",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 113",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 73, rows 32-41; Clifford L. Casteel through Ralph W. Casto; visually checked; private identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row, spelling, blank rank, and identifier remains immutable. Full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch381",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; complete exact-private-identifier review for page 73 rows 32-41; identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact matches support six indexed people. The Aldrich J. Castek identifier has no conversion match. No raw bulk record is retained."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch381",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 5-6, file limitations; physical pages 44-46, fixed-width fields; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret the merged file and its limitations. The conversion is not treated as a complete roster, and a missing match is not negative proof."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch381",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1942; reference copy modified 2011",
+      "locator": "Code No. 30; PDF physical pages 170-172 and 304; occupation values 002, 044, 097, 306, 316, and 661; visually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official historical occupation categories. They do not identify an employer, worksite, precise job title, or Army-to-OSS chronology."
+    },
+    {
+      "key": "daily-iowan-castek-commencement-1937-batch381",
+      "stable_url": "https://dailyiowan.lib.uiowa.edu/DI/1937/di1937-06-06.pdf",
+      "archival_identifier": "The Daily Iowan, June 6, 1937, page 4",
+      "title": "List of Degrees and Certificates To Be Awarded Tomorrow",
+      "author_creator": "The Daily Iowan",
+      "repository_publisher": "The Daily Iowan; University of Iowa Libraries",
+      "publication_record_date": "1937-06-06",
+      "locator": "PDF physical and printed page 4; Bachelor of Science in Commerce list; visually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Daily Iowan Historic Newspapers",
+      "rights_notes": "Contemporary university newspaper. The uncommon exact name and Swisher location support a candidate identity, but the item contains no OSS or private-identifier bridge."
+    },
+    {
+      "key": "daily-iowan-castek-army-1942-batch381",
+      "stable_url": "https://dailyiowan.lib.uiowa.edu/DI/1942/di1942-11-12.pdf",
+      "archival_identifier": "The Daily Iowan, November 12, 1942, page 3",
+      "title": "50 Reservists Receive Gifts From Veterans",
+      "author_creator": "The Daily Iowan",
+      "repository_publisher": "The Daily Iowan; University of Iowa Libraries",
+      "publication_record_date": "1942-11-12",
+      "locator": "PDF physical and printed page 3; Johnson County enlisted-reservist report; visually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Daily Iowan Historic Newspapers",
+      "rights_notes": "Contemporary report that Aldrich J. Castek and other enlisted reservists began active Army duty. It contains no OSS or private-identifier bridge."
+    },
+    {
+      "key": "hoover-oss-personnel-board-castiglione-1944-batch381",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Hoover Institution Library & Archives digital media object 331573",
+      "title": "Office of Strategic Services Personnel Board Proceedings, Caserta",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04",
+      "locator": "PDF physical page 69, printed page 71, entry XX; visually and textually checked; private identifier withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Hoover Institution Library & Archives Digital Collections",
+      "rights_notes": "Contemporary OSS proceeding. The exact private identifier links the entry to the index but is excluded from public evidence and downloads."
+    },
+    {
+      "key": "michael-rosenfeld-federico-castellon-batch381",
+      "stable_url": "https://michaelrosenfeld.com/artists/federico-castellon",
+      "archival_identifier": "Michael Rosenfeld Gallery artist biography and estate representation",
+      "title": "Federico Castellon",
+      "author_creator": "Michael Rosenfeld Gallery LLC",
+      "repository_publisher": "Michael Rosenfeld Gallery LLC",
+      "publication_record_date": null,
+      "locator": "Biography section; Army draft and subsequent OSS service in China; accessed lines 98-114; reviewed",
+      "access_date": "2026-08-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Michael Rosenfeld Gallery artist biographies",
+      "rights_notes": "The gallery represents the Estate of Federico Castellon. Its biography supplies a documented Army-to-OSS sequence but no exact OSS transfer date."
+    },
+    {
+      "key": "delaware-art-museum-federico-castellon-batch381",
+      "stable_url": "https://emuseum.delart.org/people/88/federico-castellon",
+      "archival_identifier": "Delaware Art Museum artist record 88",
+      "title": "Federico Castellón",
+      "author_creator": "Delaware Art Museum",
+      "repository_publisher": "Delaware Art Museum",
+      "publication_record_date": null,
+      "locator": "Biography, lines 28-32; OSS service in the Burma theater; reviewed",
+      "access_date": "2026-08-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Delaware Art Museum collection database",
+      "rights_notes": "Institutional artist biography corroborating wartime OSS service. It does not supply an enlistment identifier or transfer date."
+    },
+    {
+      "key": "smithsonian-hilda-greenfield-castellon-batch381",
+      "stable_url": "https://www.si.edu/object/self-portrait-h:npg_NPG.89.48",
+      "archival_identifier": "National Portrait Gallery record NPG.89.48",
+      "title": "Self-Portrait with H",
+      "author_creator": "Smithsonian National Portrait Gallery",
+      "repository_publisher": "Smithsonian Institution",
+      "publication_record_date": "1942",
+      "locator": "Object details; sitter Hilda Greenfield Castellon; reviewed",
+      "access_date": "2026-08-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Portrait Gallery collection",
+      "rights_notes": "The record documents an artist and spouse with a similar name. It does not establish that she is Hilda F. Castellon of Box 113 or that she served with OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "US Army",
+      "aliases": [
+        "U.S. Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is preserved in each affiliation."
+    },
+    {
+      "key": "university-of-iowa",
+      "canonical_name": "University of Iowa",
+      "historical_name": "University of Iowa",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Iowa City",
+      "state_or_region": "Iowa",
+      "country": "United States",
+      "normalization_notes": "Institutional attendance is student status, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-d-casteel-farm-hand-occupation-batch381",
+      "person_id": "3192b159-3ece-541a-827d-2a0bb22dd3e6",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-04-17",
+      "date_precision": "The exact Army-entry record carries civilian occupation code 316 and records Army entry on April 17, 1943. No start date is documented.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped occupation does not identify a farm, employer, location, or Army-to-OSS chronology."
+    },
+    {
+      "key": "aldrich-j-castek-university-of-iowa-student-batch381",
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "organization_key": "university-of-iowa",
+      "organization_name_as_found": "University of Iowa",
+      "role_title": "Bachelor of Science in Commerce degree candidate",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1937-06-07",
+      "date_precision": "The June 6 commencement list says the degree would be awarded the next day; no enrollment start date is supplied.",
+      "city": "Iowa City",
+      "state_or_region": "Iowa",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The uncommon exact name, Swisher location, and later exact-name Army report make this a probable identity. There is no private-identifier or direct OSS bridge. Student status is not employment."
+    },
+    {
+      "key": "aldrich-j-castek-army-reservist-batch381",
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "United States army",
+      "role_title": "enlisted reservist beginning active duty",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1942-11-11",
+      "end_date": null,
+      "date_precision": "A November 12, 1942 report says the Johnson County reservists left the previous morning to begin active Army duty. No OSS assignment date is documented.",
+      "city": null,
+      "state_or_region": "Iowa",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a probable identity. The source establishes Army entry but not the Army-to-OSS transfer."
+    },
+    {
+      "key": "william-castello-actor-occupation-batch381",
+      "person_id": "b024117b-b850-52cc-b002-feb5fa5b4675",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Actors and actresses",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-12-02",
+      "date_precision": "The exact Army-entry record carries civilian occupation code 002 and records Army entry on December 2, 1943. No start date is documented.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped occupation does not identify a production, employer, venue, location, or Army-to-OSS chronology."
+    },
+    {
+      "key": "frederico-castellon-commercial-artist-occupation-batch381",
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Commercial artists",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-05",
+      "date_precision": "The exact Army-entry record carries civilian occupation code 044 and records Army entry on May 5, 1943. No start date is documented.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The official grouped occupation is corroborated by institutional artist biographies but does not identify a legal employer or client."
+    },
+    {
+      "key": "frederico-castellon-united-states-army-batch381",
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "army",
+      "role_title": "enlisted soldier",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1943-05-05",
+      "end_date": null,
+      "date_precision": "The official Army record gives May 5, 1943 entry. The estate-representing gallery says he was drafted in 1943 and eventually sent to China with OSS; no transfer date is supplied.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army is the best-supported immediate pre-OSS affiliation, but the exact transfer date and unit remain unresolved."
+    },
+    {
+      "key": "peter-castiglione-united-states-army-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "Army",
+      "role_title": "infantry trainee",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1943-03-31",
+      "end_date": "1943-06",
+      "date_precision": "The Army merged file records March 31, 1943 entry; the May 1944 OSS board summarized entry as April 1943 and assignment to OSS in June 1943.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The OSS board explicitly places two months of Army infantry training between civilian life and OSS assignment."
+    },
+    {
+      "key": "peter-castiglione-mill-worker-occupation-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "mill worker",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-31",
+      "date_precision": "The May 1944 OSS board describes Castiglione as a mill worker in civilian life. The Army record dates entry to March 31, 1943; no employment start date or employer is supplied.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is a documented civilian occupation, not a named employer. The board does not explicitly say it was the final civilian job."
+    },
+    {
+      "key": "peter-castiglione-shoe-manufacturing-occupation-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Shoe and boot manufacturing occupations",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-31",
+      "date_precision": "The exact Army-entry record carries civilian occupation code 661 and records Army entry on March 31, 1943. No start date is documented.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped factory occupation is consistent with the OSS board's 'mill worker' description but does not identify an employer, plant, or exact job."
+    },
+    {
+      "key": "edwin-castle-manager-official-occupation-batch381",
+      "person_id": "9d6a5b79-c275-5931-b17c-3b045863e567",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Managers and officials, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-11-22",
+      "date_precision": "The exact Army-entry record carries civilian occupation code 097 and records Army entry on November 22, 1943. No start date is documented.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped occupation does not identify an industry, employer, managerial level, location, or Army-to-OSS chronology."
+    },
+    {
+      "key": "ephriam-e-casto-general-farmer-occupation-batch381",
+      "person_id": "2c2ae258-5f85-57f0-bfeb-3e27929b58e0",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "General farmers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-04-27",
+      "date_precision": "The exact Army-entry record carries civilian occupation code 306 and records Army entry on April 27, 1942. No start date is documented.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped occupation does not identify a farm, ownership status, employer, location, or Army-to-OSS chronology."
+    }
+  ],
+  "claims": [
+    {
+      "key": "joseph-d-casteel-confirmed-army-identity-batch381",
+      "person_id": "3192b159-3ece-541a-827d-2a0bb22dd3e6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph D. Casteel is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The OSS index and official Army file agree on the exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement across two official NARA records.",
+      "temporal_assessment": "The Army record documents entry on April 17, 1943 but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The Army grade supports enlisted classification only.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF page 73, row 33; Joseph D. Casteel; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact name and exact private-identifier record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "joseph-d-casteel-occupation-claim-batch381",
+      "person_id": "3192b159-3ece-541a-827d-2a0bb22dd3e6",
+      "affiliation_key": "joseph-d-casteel-farm-hand-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "Joseph D. Casteel's Army-entry record classified his civilian occupation as farm hand on general farms.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation code 316, decoded by NARA's contemporary code list.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement.",
+      "temporal_assessment": "The occupation was recorded at Army entry on April 17, 1943; it does not establish an employer or OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish as a grouped occupation only.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation value 316; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch381",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 172; value 316"
+        }
+      ]
+    },
+    {
+      "key": "aldrich-j-castek-probable-identity-batch381",
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Aldrich J. Castek is probably the uncommon exact-name Swisher graduate who entered active Army duty in November 1942.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Two contemporary Iowa reports connect the uncommon exact name to Swisher, a 1937 commerce degree, and enlisted Army entry in 1942.",
+      "identity_match_assessment": "Probable, not confirmed. The exact full name is uncommon and the chronology fits, but the Army conversion has no matching identifier record and neither newspaper mentions OSS.",
+      "temporal_assessment": "The sources document 1937 education and 1942 Army entry, not the later OSS assignment date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile must visibly qualify the identity and retain Box 113 review as the next action.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "context_only",
+          "locator_override": "PDF page 73, row 34; Aldrich J. Castek; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "daily-iowan-castek-commencement-1937-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical and printed page 4; exact name, Swisher, commerce degree list"
+        },
+        {
+          "source_key": "daily-iowan-castek-army-1942-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical and printed page 3; exact name among enlisted reservists beginning active duty"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch381",
+          "support_type": "context_only",
+          "locator_override": "File limitations; a missing conversion record is not negative proof"
+        }
+      ]
+    },
+    {
+      "key": "aldrich-j-castek-university-claim-batch381",
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "affiliation_key": "aldrich-j-castek-university-of-iowa-student-batch381",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match places Aldrich J. Castek at the University of Iowa as a Bachelor of Science in Commerce degree candidate in 1937.",
+      "evidence_excerpt": "Aldrich J. Castek, Swisher",
+      "evidence_paraphrase": "The university newspaper's commencement list places the exact uncommon name under Bachelor of Science in Commerce.",
+      "identity_match_assessment": "Probable for the reasons stated in the linked identity claim; no private-identifier or OSS bridge exists in this source.",
+      "temporal_assessment": "Explicitly dated before Army and OSS service; not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is student status, not employment, and must remain visibly qualified.",
+      "sources": [
+        {
+          "source_key": "daily-iowan-castek-commencement-1937-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical and printed page 4; Bachelor of Science in Commerce list"
+        }
+      ]
+    },
+    {
+      "key": "aldrich-j-castek-army-claim-batch381",
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "affiliation_key": "aldrich-j-castek-army-reservist-batch381",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match places Aldrich J. Castek among Johnson County enlisted reservists who began active United States Army duty in November 1942.",
+      "evidence_excerpt": "where they will begin active duty in the United States army",
+      "evidence_paraphrase": "The contemporary report names Castek among the reservists leaving for the reception center after a fourteen-day furlough.",
+      "identity_match_assessment": "Probable for the reasons stated in the linked identity claim; no direct Army-to-OSS transfer record was found.",
+      "temporal_assessment": "Army entry is documented on November 11, 1942; immediacy to OSS remains unknown.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish as a qualified military affiliation, not a confirmed immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "daily-iowan-castek-army-1942-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical and printed page 3; exact name in enlisted-reservist list"
+        }
+      ]
+    },
+    {
+      "key": "william-castello-confirmed-army-identity-batch381",
+      "person_id": "b024117b-b850-52cc-b002-feb5fa5b4675",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed William Castello is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The OSS index and official Army file agree on the exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement across two official NARA records.",
+      "temporal_assessment": "The Army record documents entry on December 2, 1943 but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The Army grade supports enlisted classification only.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF page 73, row 35; William Castello; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact name and exact private-identifier record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "william-castello-occupation-claim-batch381",
+      "person_id": "b024117b-b850-52cc-b002-feb5fa5b4675",
+      "affiliation_key": "william-castello-actor-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "William Castello's Army-entry record classified his civilian occupation as actor.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation code 002, decoded by NARA's contemporary code list.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement.",
+      "temporal_assessment": "The occupation was recorded at Army entry on December 2, 1943; it does not establish an employer or OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish as a grouped occupation only; do not assign any same-name screen or stage biography.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation value 002; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch381",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 170; value 002"
+        }
+      ]
+    },
+    {
+      "key": "frederico-castellon-confirmed-army-identity-batch381",
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Frederico Castellon is confirmed as artist Federico Castellon, the spelling used in the official Army merged file and institutional biographies.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index and Army file share the exact private identifier; institutional biographies document Frederico as a name variant and the same artist's OSS service.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement, a documented spelling variant, matching artist occupation, and independent institutional OSS biographies.",
+      "temporal_assessment": "The Army record documents entry on May 5, 1943; the exact OSS transfer date remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. Federico and Frederico remain documented variants rather than silent corrections.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF page 73, row 36; Frederico Castellon; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Federico spelling and exact private-identifier record; identifier withheld"
+        },
+        {
+          "source_key": "michael-rosenfeld-federico-castellon-batch381",
+          "support_type": "supports",
+          "locator_override": "Biography and documented name variants, lines 98-114"
+        },
+        {
+          "source_key": "delaware-art-museum-federico-castellon-batch381",
+          "support_type": "supports",
+          "locator_override": "Institutional biography, lines 28-32"
+        }
+      ]
+    },
+    {
+      "key": "frederico-castellon-occupation-claim-batch381",
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "affiliation_key": "frederico-castellon-commercial-artist-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "Frederico Castellon's Army-entry record classified his civilian occupation as commercial artist.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation code 044, decoded by NARA's contemporary code list and corroborated by museum biographies.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement and the institutional artist identity.",
+      "temporal_assessment": "The occupation was recorded at Army entry on May 5, 1943; it does not identify a legal employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Publish as an occupation, not an employer or named gallery affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation value 044; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch381",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 171; value 044"
+        },
+        {
+          "source_key": "michael-rosenfeld-federico-castellon-batch381",
+          "support_type": "context_only",
+          "locator_override": "Biography documenting his prewar work as an artist"
+        }
+      ]
+    },
+    {
+      "key": "frederico-castellon-immediate-army-claim-batch381",
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "affiliation_key": "frederico-castellon-united-states-army-batch381",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army is the best-supported probable immediate pre-OSS affiliation for Frederico Castellon.",
+      "evidence_excerpt": "he was drafted into the army and eventually sent to China with the OSS",
+      "evidence_paraphrase": "The exact Army record dates entry in May 1943; an estate-representing gallery documents the sequence from Army draft to OSS service in China.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement and institutional biography.",
+      "temporal_assessment": "Probable immediate. The Army-to-OSS sequence is explicit, but the exact transfer date and any intervening unit are not documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile must display the probable-immediate temporal badge and must not call the Army a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry May 5, 1943; identifier withheld"
+        },
+        {
+          "source_key": "michael-rosenfeld-federico-castellon-batch381",
+          "support_type": "supports",
+          "locator_override": "Biography, lines 108-114"
+        },
+        {
+          "source_key": "delaware-art-museum-federico-castellon-batch381",
+          "support_type": "context_only",
+          "locator_override": "Biography corroborating OSS service in the Burma theater"
+        }
+      ]
+    },
+    {
+      "key": "hilda-f-castellon-greenfield-candidate-rejected-batch381",
+      "person_id": "dfaa44b8-5931-5761-b40b-e3bc4e31d6dc",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The Hilda Greenfield Castellon documented by the Smithsonian is not yet established as the indexed Hilda F. Castellon.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The museum record identifies artist Hilda Greenfield Castellon, but it supplies no Box 113, private-identifier, or OSS link and does not resolve the indexed middle initial.",
+      "identity_match_assessment": "Unresolved. Shared first and married surname plus association with Federico Castellon are insufficient, especially because relatives cannot be the principal identity basis.",
+      "temporal_assessment": "The 1942 portrait date overlaps the wartime period but does not establish OSS service or a pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "Retain as a private rejected candidate pending Box 113 review; do not publish her artist biography as this person's history.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "context_only",
+          "locator_override": "PDF page 73, row 37; Hilda F. Castellon; Box 113"
+        },
+        {
+          "source_key": "smithsonian-hilda-greenfield-castellon-batch381",
+          "support_type": "context_only",
+          "locator_override": "Object record naming sitter Hilda Greenfield Castellon"
+        }
+      ]
+    },
+    {
+      "key": "peter-castiglione-confirmed-oss-board-identity-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Peter Castiglione is confirmed as the corporal described in the May 1944 OSS personnel-board proceeding.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The OSS index, official Army file, and contemporary OSS board entry agree on the exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement across the index, Army record, and OSS proceeding.",
+      "temporal_assessment": "The sources document Army entry in spring 1943 and assignment to OSS in June 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The OSS board supplies the direct identity and chronology bridge.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF page 73, row 38; Peter Castiglione; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact name and exact private-identifier record; identifier withheld"
+        },
+        {
+          "source_key": "hoover-oss-personnel-board-castiglione-1944-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 69, printed page 71, entry XX; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "peter-castiglione-immediate-army-claim-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "affiliation_key": "peter-castiglione-united-states-army-batch381",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Peter Castiglione's immediate pre-OSS affiliation was the United States Army, where he received two months of infantry training before his June 1943 OSS assignment.",
+      "evidence_excerpt": "received two months' basic training in the infantry",
+      "evidence_paraphrase": "The contemporary OSS board explicitly sequences Army entry, infantry training at Camp Blanding, and June 1943 OSS assignment.",
+      "identity_match_assessment": "Confirmed by the exact private identifier in the OSS board and index.",
+      "temporal_assessment": "Explicit immediate: Army training directly preceded the documented OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-personnel-board-castiglione-1944-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 69, printed page 71, entry XX"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry March 31, 1943; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "peter-castiglione-mill-worker-claim-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "affiliation_key": "peter-castiglione-mill-worker-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "A contemporary OSS personnel board recorded Peter Castiglione's civilian occupation as mill worker.",
+      "evidence_excerpt": "Was a mill worker in civilian life.",
+      "evidence_paraphrase": "The OSS board directly records the civilian occupation while describing his Army and OSS chronology.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement.",
+      "temporal_assessment": "Documented before Army entry and OSS service, but not explicitly labeled the final civilian job.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Do not convert this occupation into a named employer or specific mill.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-personnel-board-castiglione-1944-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 69, printed page 71, entry XX"
+        }
+      ]
+    },
+    {
+      "key": "peter-castiglione-shoe-occupation-claim-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "affiliation_key": "peter-castiglione-shoe-manufacturing-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "Peter Castiglione's Army-entry record placed his civilian work in the broad shoe and boot manufacturing occupation group.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army record carries occupation code 661, decoded by NARA's code list and consistent with the OSS board's mill-worker description.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement.",
+      "temporal_assessment": "The occupation was recorded at Army entry on March 31, 1943; it does not identify an employer or precise job.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish as a broad grouped occupation alongside, not instead of, the direct mill-worker statement.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation value 661; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch381",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304; value 661"
+        },
+        {
+          "source_key": "hoover-oss-personnel-board-castiglione-1944-batch381",
+          "support_type": "context_only",
+          "locator_override": "Direct mill-worker description"
+        }
+      ]
+    },
+    {
+      "key": "edwin-castle-confirmed-army-identity-batch381",
+      "person_id": "9d6a5b79-c275-5931-b17c-3b045863e567",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Edwin Castle is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The OSS index and official Army file agree on the exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement across two official NARA records.",
+      "temporal_assessment": "The Army record documents entry on November 22, 1943 but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The Army grade supports enlisted classification only.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF page 73, row 39; Edwin Castle; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact name and exact private-identifier record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "edwin-castle-occupation-claim-batch381",
+      "person_id": "9d6a5b79-c275-5931-b17c-3b045863e567",
+      "affiliation_key": "edwin-castle-manager-official-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "Edwin Castle's Army-entry record classified his civilian occupation as manager or official, not elsewhere classified.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation code 097, decoded by NARA's contemporary code list.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement.",
+      "temporal_assessment": "The occupation was recorded at Army entry on November 22, 1943; it does not establish an employer or OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish as a grouped occupation only; do not assign a same-name company manager.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation value 097; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch381",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 171; value 097"
+        }
+      ]
+    },
+    {
+      "key": "ephriam-e-casto-confirmed-army-identity-batch381",
+      "person_id": "2c2ae258-5f85-57f0-bfeb-3e27929b58e0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Ephriam E. Casto is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The OSS index and official Army file agree on the exact uncommon name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement across two official NARA records.",
+      "temporal_assessment": "The Army record documents entry on April 27, 1942 but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is withheld. The Army grade supports enlisted classification only.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-73-batch381",
+          "support_type": "supports",
+          "locator_override": "PDF page 73, row 40; Ephriam E. Casto; Box 113; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact name and exact private-identifier record; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "ephriam-e-casto-occupation-claim-batch381",
+      "person_id": "2c2ae258-5f85-57f0-bfeb-3e27929b58e0",
+      "affiliation_key": "ephriam-e-casto-general-farmer-occupation-batch381",
+      "claim_type": "occupation",
+      "claim_text": "Ephriam E. Casto's Army-entry record classified his civilian occupation as general farmer.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation code 306, decoded by NARA's contemporary code list.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement.",
+      "temporal_assessment": "The occupation was recorded at Army entry on April 27, 1942; it does not establish an employer or OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish as a grouped occupation only; do not infer farm ownership or self-employment.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch381",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; occupation value 306; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch381",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 172; value 306"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "afbd1443-c445-5851-84ca-b4569ff8a23e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name NARA, CIA, Library of Congress, OSS, employment, obituary, directory, newspaper, and archival checks did not produce a reliable identity bridge.",
+      "name_variants": [
+        "Clifford L Casteel",
+        "Clifford L. Casteel",
+        "Casteel, Clifford L."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 113 to identify Clifford L. Casteel and determine any pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3192b159-3ece-541a-827d-2a0bb22dd3e6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on Joseph D. Casteel's exact name and private identifier. The Army record documents enlisted status, April 17, 1943 entry, and civilian occupation code 316.",
+      "name_variants": [
+        "Joseph D Casteel",
+        "Joseph D. Casteel",
+        "Casteel, Joseph D."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 113 for a named farm or employer, location, role detail, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "identity_status": "probable",
+      "identity_evidence": "The index row was visually verified. Two contemporary Iowa sources connect the uncommon exact name to Swisher, a 1937 University of Iowa commerce degree, and enlisted Army entry in 1942. The printed identifier has no Army conversion match, and no source directly links the candidate to OSS.",
+      "name_variants": [
+        "Aldrich J Castek",
+        "Aldrich J. Castek",
+        "Castek, Aldrich J."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 113 to confirm the probable Iowa identity, document the Army-to-OSS transition, and determine any civilian employer after the 1937 degree.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b024117b-b850-52cc-b002-feb5fa5b4675",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on William Castello's exact name and private identifier. The Army record documents enlisted status, December 2, 1943 entry, and civilian occupation code 002.",
+      "name_variants": [
+        "William Castello",
+        "Castello, William"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 113 for a named production, employer, performance venue, precise role, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file share the exact private identifier despite Frederico/Federico spelling variation. Institutional biographies document both variants, his artist career, and OSS service in Asia.",
+      "name_variants": [
+        "Frederico Castellon",
+        "Federico Castellon",
+        "Federico Castellón",
+        "Federico Castellón Martínez",
+        "Castellon, Frederico"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 113 for the exact Army-to-OSS transfer date, unit, immediate civilian work arrangement, and any named employer or client.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dfaa44b8-5931-5761-b40b-e3bc4e31d6dc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Hilda Greenfield Castellon, an artist associated with Federico Castellon, was reviewed but rejected as an identity assignment because the indexed middle initial, Box 113, private identifier, and direct OSS bridge are absent.",
+      "name_variants": [
+        "Hilda F Castellon",
+        "Hilda F. Castellon",
+        "Castellon, Hilda F."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 113 to identify Hilda F. Castellon and test, without relying on spousal association, the rejected Hilda Greenfield Castellon candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index, official Army merged file, and contemporary OSS personnel-board proceeding agree on Peter Castiglione's exact name and private identifier. The board explicitly documents Army entry, infantry training, June 1943 OSS assignment, and civilian mill work.",
+      "name_variants": [
+        "Peter Castiglione",
+        "Castiglione, Peter"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 113 for the named mill or factory, precise civilian job, and reconciliation of the Army record's March 31 entry date with the board's April summary.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9d6a5b79-c275-5931-b17c-3b045863e567",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on Edwin Castle's exact name and private identifier. The Army record documents enlisted status, November 22, 1943 entry, and civilian occupation code 097.",
+      "name_variants": [
+        "Edwin Castle",
+        "Castle, Edwin"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 113 for a named employer, industry, managerial role, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2c2ae258-5f85-57f0-bfeb-3e27929b58e0",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on Ephriam E. Casto's exact uncommon name and private identifier. The Army record documents enlisted status, April 27, 1942 entry, and civilian occupation code 306.",
+      "name_variants": [
+        "Ephriam E Casto",
+        "Ephriam E. Casto",
+        "Casto, Ephriam E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 113 for farm ownership or employment status, farm location, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "176e2ec5-baa9-5ed3-b501-5381e8f096c1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name NARA, CIA, Library of Congress, OSS, employment, obituary, directory, newspaper, and archival checks did not produce a reliable identity bridge; one older same-name obituary candidate predates OSS and was rejected.",
+      "name_variants": [
+        "Ralph W Casto",
+        "Ralph W. Casto",
+        "Casto, Ralph W."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 113 to identify Ralph W. Casto and determine any pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "clifford-l-casteel-protocol-batch381",
+      "person_id": "afbd1443-c445-5851-84ca-b4569ff8a23e",
+      "source_adapter": "cia_loc_nara_and_multi_source_manual_review",
+      "query_text": "Clifford L. Casteel: visually checked NARA index; public NARA context; CIA Reading Room; LoC current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:47:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Directory and namesake results lacked an OSS, Box 113, chronology, or other identity bridge.",
+      "research_notes": "No reliable identity or affiliation was established.",
+      "next_action": "Review Box 113.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "joseph-d-casteel-protocol-batch381",
+      "person_id": "3192b159-3ece-541a-827d-2a0bb22dd3e6",
+      "source_adapter": "army_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Joseph D. Casteel: visually checked NARA index and exact private-identifier Army match; official documentation and occupation code; CIA Reading Room; LoC current API; exact-name OSS, farm hand, employer, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_confirmed_occupation",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:47:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Common-name candidates lacked the exact private identifier, a named farm or employer, and an OSS chronology bridge.",
+      "research_notes": "The exact official Army record confirms identity and a grouped general-farm-hand occupation at Army entry.",
+      "next_action": "Review Box 113 for the farm or employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "aldrich-j-castek-protocol-batch381",
+      "person_id": "64eb13e2-baf8-564f-889a-cabe8329cbe2",
+      "source_adapter": "army_bulk_cia_loc_nara_newspaper_and_multi_source_manual_review",
+      "query_text": "Aldrich J. Castek: visually checked NARA index; exact private-identifier Army conversion lookup with no match; official documentation; CIA Reading Room; LoC current API; exact-name OSS, university, Army, commerce, dentistry, employment, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_uncommon_name_probable_identity",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:49:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "The Army conversion contains no matching identifier row. Later directory and property results do not establish an OSS bridge or pre-OSS employer. A dental-degree interpretation was rejected after source-image review showed Castek in the commerce-degree column.",
+      "research_notes": "Two contemporary Iowa pages support a probable uncommon-name identity, a 1937 commerce degree, and 1942 Army entry. The claims remain qualified pending Box 113.",
+      "next_action": "Review Box 113 to confirm identity and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "william-castello-protocol-batch381",
+      "person_id": "b024117b-b850-52cc-b002-feb5fa5b4675",
+      "source_adapter": "army_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "William Castello: visually checked NARA index and exact private-identifier Army match; official documentation and occupation code; CIA Reading Room; LoC current API; exact-name OSS, actor, employment, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_confirmed_common_name_occupation",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:47:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 15,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Same-name performance and biographical candidates lacked the private identifier, Army chronology, and OSS bridge; no named employer or production was found.",
+      "research_notes": "The exact official Army record confirms identity and the grouped actor occupation only.",
+      "next_action": "Review Box 113 for a production, employer, role, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "frederico-castellon-protocol-batch381",
+      "person_id": "8e9e814d-40cc-533d-aa48-d861cfb25206",
+      "source_adapter": "army_bulk_cia_loc_and_institutional_manual_review",
+      "query_text": "Frederico and Federico Castellon: visually checked NARA index and exact private-identifier Army match; official documentation and occupation code; CIA Reading Room; LoC current API and collection context; exact-name OSS, Army, China, Burma, artist, employment, museum, oral-history, obituary, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_confirmed_spelling_variant_institutional",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:49:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 21,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Museum collection records without wartime chronology were context only. No source named a legal civilian employer immediately before Army entry, and no exact OSS transfer date was found.",
+      "research_notes": "Exact official identifier evidence and estate-representing and museum biographies confirm the artist identity, commercial-artist occupation, and Army-to-OSS pathway.",
+      "next_action": "Review Box 113 for the transfer date, unit, and any named employer or client.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "hilda-f-castellon-protocol-batch381",
+      "person_id": "dfaa44b8-5931-5761-b40b-e3bc4e31d6dc",
+      "source_adapter": "cia_loc_nara_institutional_and_multi_source_manual_review",
+      "query_text": "Hilda F. Castellon: visually checked NARA index; CIA Reading Room; LoC current API; exact-name OSS, Hilda Greenfield Castellon, artist, employment, obituary, directory, newspaper, museum, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_relative_association_candidate_rejected",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:49:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Institutional sources document artist Hilda Greenfield Castellon and her relationship to Federico, but none supplies the indexed middle initial, private identifier, Box 113, or a direct OSS bridge. A spouse cannot be the principal identity basis.",
+      "research_notes": "The artist remains a rejected candidate, not the selected identity. No reliable pre-OSS affiliation was established.",
+      "next_action": "Review Box 113 to identify the indexed person and test the artist candidate independently.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "peter-castiglione-protocol-batch381",
+      "person_id": "88be105c-988e-5045-a83e-9f3b6c67df91",
+      "source_adapter": "army_bulk_oss_document_cia_loc_and_multi_source_manual_review",
+      "query_text": "Peter Castiglione: visually checked NARA index and exact private-identifier Army match; contemporary OSS personnel-board entry; official documentation and occupation code; CIA Reading Room; LoC current API; exact-name OSS, mill worker, shoe manufacturing, employer, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_direct_oss_identity_immediate_affiliation_occupation",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:49:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 19,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "A same-name Navy baseball player and other namesakes conflict with the confirmed Army identifier. No source names Castiglione's mill or factory employer.",
+      "research_notes": "The direct OSS board confirms the Army-to-OSS sequence and mill-worker occupation; the exact Army record supplies the broader shoe-manufacturing category.",
+      "next_action": "Review Box 113 for the named mill or factory and precise civilian role.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "edwin-castle-protocol-batch381",
+      "person_id": "9d6a5b79-c275-5931-b17c-3b045863e567",
+      "source_adapter": "army_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Edwin Castle: visually checked NARA index and exact private-identifier Army match; official documentation and occupation code; CIA Reading Room; LoC current API; exact-name OSS, manager, official, employment, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_confirmed_common_name_occupation",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:47:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Numerous common-name manager candidates lacked the private identifier, Army chronology, and OSS bridge; no named employer was found.",
+      "research_notes": "The exact official Army record confirms identity and a broad managers-and-officials occupation group at Army entry.",
+      "next_action": "Review Box 113 for the employer, industry, exact role, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "ephriam-e-casto-protocol-batch381",
+      "person_id": "2c2ae258-5f85-57f0-bfeb-3e27929b58e0",
+      "source_adapter": "army_bulk_cia_loc_and_multi_source_manual_review",
+      "query_text": "Ephriam E. Casto: visually checked NARA index and exact private-identifier Army match; official documentation and occupation code; CIA Reading Room; LoC current API; exact-name OSS, farmer, farm, employer, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_confirmed_uncommon_name_occupation",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:47:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Later namesake and genealogy results did not establish farm ownership, employment, or an OSS chronology and were not used as final evidence.",
+      "research_notes": "The exact official Army record confirms identity and the grouped general-farmer occupation at Army entry.",
+      "next_action": "Review Box 113 for ownership or employment status, farm location, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    },
+    {
+      "key": "ralph-w-casto-protocol-batch381",
+      "person_id": "176e2ec5-baa9-5ed3-b501-5381e8f096c1",
+      "source_adapter": "cia_loc_nara_and_multi_source_manual_review",
+      "query_text": "Ralph W. Casto: visually checked NARA index; public NARA context; CIA Reading Room; LoC current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_candidate_rejected",
+      "started_at": "2026-08-30T21:38:00+00:00",
+      "completed_at": "2026-08-30T21:47:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "An older same-name obituary predates OSS and was rejected. Other common-name results lacked a Box 113, wartime chronology, or OSS bridge.",
+      "research_notes": "No reliable identity or affiliation was established.",
+      "next_action": "Review Box 113.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch381-v1"
+    }
+  ]
+}

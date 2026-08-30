@@ -4,6 +4,17 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 381 release matrix passed **1,344 / 1,344** cases in 10.0 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 381 cases. The profiles qualify Aldrich J. Castek's probable Iowa
+student and Army pathway without turning education into employment; publish
+Frederico Castellon's probable immediate Army assignment and commercial-artist
+occupation separately; publish Peter Castiglione's explicit Army predecessor
+and civilian occupations without inventing a mill or employer; preserve four
+occupation-only results; and route three unresolved identities to critical Box
+113 review. The focused Batch 381 regression separately passed **12 / 12**
+across the three viewports.
+
 The Batch 380 release matrix passed **1,332 / 1,332** cases in 10.0 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 380 cases. The profiles publish Gould M. Cassal's high-confidence
