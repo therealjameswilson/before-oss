@@ -4,6 +4,16 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 372 release matrix passed **1,227 / 1,227** cases in 11.1 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all nine
+new Batch 372 cases. The profiles publish three exact-identifier Army-entry
+status results without inventing employers, schools, agencies, clients, or
+technical specialties; preserve seven unsupported identities; and expose the
+rejected Rene E. Carroll Army lead and Walton C. Carroll Navy lead only as
+identity-review questions. After correcting mislabeled UTC offsets in the
+Batch 370 and Batch 371 attempt audit timestamps, the finalized build's 27 axe
+and nine Batch 372 cases passed again as a focused **36 / 36** release check.
+
 The Batch 371 release matrix passed **1,218 / 1,218** cases in 13.4 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all nine
 new Batch 371 cases. The profiles publish three exact-identifier Army-entry

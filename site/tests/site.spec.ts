@@ -29769,3 +29769,80 @@ test("Batch 371 exposes rejected famous-name candidates and Harry Carroll's sour
   await expect(page.locator("main")).toContainText("unexplained trailing G");
   await expect(page.locator("main")).toContainText("Four exact-name Army rows");
 });
+
+test("Batch 372 publishes three identifier-backed Army-entry statuses without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, status, entryDate] of [
+    [
+      "fa8b10ab-e2d3-5cab-bba6-e0868508909a",
+      "James E Carroll",
+      "Student",
+      "June 9, 1943",
+    ],
+    [
+      "5129354c-8994-529e-bd16-cf1561ed4557",
+      "John S Carroll",
+      "Technicians, except laboratory",
+      "February 5, 1943",
+    ],
+    [
+      "0bc22d52-646c-526c-9e6d-5bdddb7f4874",
+      "William J Carroll",
+      "Advertising agents",
+      "January 27, 1941",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      status,
+    );
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/fa8b10ab-e2d3-5cab-bba6-e0868508909a/");
+  await expect(page.locator("main")).toContainText("Student status is documented");
+  await expect(page.locator("main")).toContainText("names no school or employer");
+});
+
+test("Batch 372 preserves seven unresolved identities for Boxes 109 and 110 review", async ({
+  page,
+}) => {
+  for (const [personId, name, status] of [
+    ["06905611-c727-5db0-aabb-e5bd9261e2d2", "John A Carroll", "requires archival review"],
+    ["00c9c2ac-eb31-5992-a391-0a076f3f6238", "John C Carroll", "requires archival review"],
+    ["6a0f970c-3695-53f0-8327-61d48898a456", "Michael F Carroll", "requires archival review"],
+    ["fb13bb97-2ff4-5298-8cf4-c5fa38888594", "Rene E Carroll", "needs identity review"],
+    ["232b4ad5-d315-560c-868a-88682b842f3c", "Rita E Carroll", "requires archival review"],
+    ["a72dfc1d-715f-5abc-a15c-0a5279d4254e", "Ronald C Carroll", "requires archival review"],
+    ["327b9658-c75b-50cd-9e7e-a60d3a1d40d6", "Walton C Carroll", "needs identity review"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 372 exposes rejected name-only Army and Navy candidates", async ({ page }) => {
+  await page.goto("./people/fb13bb97-2ff4-5298-8cf4-c5fa38888594/");
+  await expect(page.locator("main")).toContainText("one exact-name row");
+  await expect(page.locator("main")).toContainText("name alone cannot establish that candidate");
+
+  await page.goto("./people/327b9658-c75b-50cd-9e7e-a60d3a1d40d6/");
+  await expect(page.locator("main")).toContainText("Navy assistant paymasters");
+  await expect(page.locator("main")).toContainText("candidate is not accepted on name alone");
+});
