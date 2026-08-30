@@ -4361,6 +4361,39 @@ unrelated namesake biography, or full copyrighted page is stored or published.
 The durable evidence is in
 `research/evidence-page-seventy-two-stuart-r-carswell-through-jim-f-carter-pathways_batch-374_2026-08-30.json`.
 
+## Page 72 Carter through Cartselos review, Batch 375
+
+PDF page 72 was rendered from the checksum-verified NARA index and visually
+checked at original resolution. The review preserves ten distinct rows from
+Josie H. Carter through Peter Cartselos in Boxes 110 and 111. Raw values,
+including every blank field and printed private identifier, remain recoverable
+in the ignored SQLite database; public output contains only masked or explicitly
+unprinted identifier labels.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently together with its official field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms Lewis A. Carter, Rail D. Carter, and Peter Cartselos as
+enlisted Army personnel. Lewis's historical occupation is limited to `Checker`.
+Rail's Army spelling `Rall D Carter` is retained as a documented variant, and
+his code is limited to the grouped category `Barber, beautician, or manicurist`.
+Peter's October 6, 1941 entry record is limited to `Actor or actress`. The
+converted dates in Lewis's and Rail's Army rows are invalid and remain
+unresolved. None of these records names an employer, workplace, production,
+exact trade, or Army-to-OSS chronology.
+
+Josie H. Carter, Myrtle A. Carter, Robert E. Carter, William J. Carter,
+William L. Carter, and William T. Carter remain unresolved and route to
+archival review. Sidney Carton remains ambiguous because the reviewed
+exact-name Army row and teacher obituary lack the indexed identifier, OSS or
+Box 111 linkage, and a second corroborating identity detail. Both are retained
+only as rejected leads. No authenticated Catalog request, credential, raw API
+response, raw Army payload, full private identifier, unsupported employer,
+unrelated namesake biography, or full copyrighted page is stored or published.
+
+The durable evidence is in
+`research/evidence-page-seventy-two-josie-h-carter-through-peter-cartselos-pathways_batch-375_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

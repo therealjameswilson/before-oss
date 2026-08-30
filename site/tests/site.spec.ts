@@ -30013,3 +30013,89 @@ test("Batch 374 exposes Jim Carter's conflicting Army candidate without adopting
   await expect(page.locator("main")).toContainText("before adopting any Army entry");
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 375 publishes Lewis Carter's qualified checker occupation without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/26545c1f-901e-5268-aa43-30b984e7cb83/");
+  await expect(page.getByRole("heading", { name: "Lewis A Carter", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Checker");
+  await expect(page.locator("main")).toContainText("has an invalid converted date");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 375 preserves Rail and Rall Carter as documented variants and keeps the occupation grouped", async ({
+  page,
+}) => {
+  await page.goto("./people/f5e18972-9755-5c26-8d5a-253b7942806e/");
+  await expect(page.getByRole("heading", { name: "Rail D Carter", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Rall D Carter");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Barber, beautician, or manicurist",
+  );
+  await expect(page.locator("main")).toContainText(
+    "grouped civilian occupation Barbers, beauticians, and manicurists",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 375 publishes Peter Cartselos's dated actor category without inventing a production or employer", async ({
+  page,
+}) => {
+  await page.goto("./people/70298431-6eb8-5fc3-a557-8a89e2180a8d/");
+  await expect(page.getByRole("heading", { name: "Peter Cartselos", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Actor or actress",
+  );
+  await expect(page.locator("main")).toContainText("October 6, 1941");
+  await expect(page.locator("main")).toContainText(
+    "historical civilian occupation category Actors and actresses",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 375 keeps six Carter identities unresolved for Boxes 110 and 111 review", async ({ page }) => {
+  for (const [personId, name, priority] of [
+    ["65864239-cdd4-50f9-92ab-0bdca528e3c3", "Josie H Carter", "critical"],
+    ["a08a3512-1439-5a73-89d6-14d2b2067780", "Myrtle A Carter", "critical"],
+    ["887a684e-f31c-5746-bcf9-37af2532ad46", "Robert E Carter", "high"],
+    ["f4d84645-90bf-5a29-b61f-e0257df85d66", "William J Carter", "critical"],
+    ["f023c86a-af70-534b-b99e-519de0341072", "William L Carter", "high"],
+    ["2e8bc94e-7764-567d-9112-d8fa8f33edf3", "William T Carter", "critical"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 375 leaves the Sidney Carton Army and obituary candidates unresolved", async ({ page }) => {
+  await page.goto("./people/1f329fe4-4ddb-5fd3-80d8-853ebc20b0fd/");
+  await expect(page.getByRole("heading", { name: "Sidney Carton", exact: true })).toBeVisible();
+  await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("one exact-name row");
+  await expect(page.locator("main")).toContainText("A name match alone is insufficient");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
