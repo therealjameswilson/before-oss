@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,565 people with a non-planned attempt | 23,940 active person entities | 14.8914% |
-| Verified-affiliation coverage | 475 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9841% |
-| Verified-employer coverage | 203 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8480% |
-| Archival-review coverage | 3,518 people with an individual file-access/priority assessment | 23,940 active person entities | 14.6951% |
+| Research-attempt coverage | 3,575 people with a non-planned attempt | 23,940 active person entities | 14.9332% |
+| Verified-affiliation coverage | 477 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9925% |
+| Verified-employer coverage | 204 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8521% |
+| Archival-review coverage | 3,528 people with an individual file-access/priority assessment | 23,940 active person entities | 14.7368% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-30 UTC.
 - Possible duplicate groups: 231
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 672
-- Identity status `high_confidence`: 518
+- Identity status `confirmed`: 673
+- Identity status `high_confidence`: 520
 - Identity status `probable`: 118
 - Identity status `ambiguous`: 60
 - Identity status `conflicting`: 62
-- Identity status `unresolved`: 22,510
+- Identity status `unresolved`: 22,507
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,039
-- Enlisted Army personnel: 3,884
+- Unknown or indeterminate: 16,038
+- Enlisted Army personnel: 3,885
 - Commissioned Army officers: 2,104
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-30 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,223 yes; 5,543 no; 16,174 indeterminate.
+Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,375
+- `not_started`: 20,365
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 102
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 66
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 570
-- `requires_archival_review`: 2,394
-- `completed`: 106
+- `occupation_only_found`: 571
+- `requires_archival_review`: 2,401
+- `completed`: 108
 - `conflicting_sources`: 60
 - `verified_employer_found`: 202
-- Claim confidence: 848 confirmed; 1,106 high; 738 medium; 53 low; 72
+- Claim confidence: 849 confirmed; 1,110 high; 740 medium; 53 low; 72
   conflicting
-- Durable evidence inventory: 3,561 source records representing 1,652 unique
-  documents; 497 organizations; 1,391 affiliations; 2,817 claims; and 6,395
+- Durable evidence inventory: 3,567 source records representing 1,654 unique
+  documents; 498 organizations; 1,395 affiliations; 2,824 claims; and 6,407
   claim-source links
-- Reviewed public projection: 485 organizations; 1,380 published, qualified,
-  or conflict-visible affiliations; 2,762 published, qualified, or
-  conflict-visible claims; and 2,458 public citation records
+- Reviewed public projection: 486 organizations; 1,384 published, qualified,
+  or conflict-visible affiliations; 2,769 published, qualified, or
+  conflict-visible claims; and 2,464 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -81,7 +81,7 @@ Commissioned classification: 2,223 yes; 5,543 no; 16,174 indeterminate.
 - Live NARA requests: 0
 - Saved `source_reviewed` outcomes: 1,520; 156 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,777
+- Total recorded attempts/plans: 4,787
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
 - People with saved reviewed claims: 1,354; 1,310 have at least one public-visible
@@ -6530,6 +6530,63 @@ Commissioned classification: 2,223 yes; 5,543 no; 16,174 indeterminate.
   digest
   `f20f414ad1c1e1e1907507b08027d93e0b52e3bd9a2cb9370a8d1525ff69c450`.
   Production deployment is recorded in the QA reports.
+- Batch 379 covers Gino Casolini through Gino H. Cassai, the next ten
+  contiguous index rows: PDF page 73 rows 12-21 in Box 112. The source page
+  and the relevant official occupation-code page were rendered and checked
+  visually. Every indexed spelling and blank rank cell remains immutable;
+  all three printed private identifiers remain confined to the ignored
+  database and masked public output.
+
+  A university-published scholarly biographical lexicon supports a
+  high-confidence match between indexed Johann Caspari and the German social-
+  policy official also known as Hans and John Caspari. It dates his New York
+  factory work to 1942-1943 and his OSS or State Department service to
+  1943-1946. The project therefore publishes `an unnamed factory` as both his
+  strongly date-bounded immediate pre-OSS affiliation and last civilian
+  employer. It does not invent a factory name, owner, product, or exact
+  transition date.
+
+  The American Heritage Center finding aid supports a high-confidence match
+  between indexed Thomas G. Cassady and Thomas Gantz Cassady. It explicitly
+  places him as naval attaché at the U.S. Embassy in Vichy in 1942 before he
+  reported to OSS. That military assignment is published as his immediate
+  pre-OSS affiliation. The same finding aid documents the earlier occupation
+  `investor`, but does not name an employer or establish self-employment, so
+  his last civilian employer remains unresolved.
+
+  Exact private-identifier agreement with NARA's unrestricted Army merged file
+  confirms Gino H. Cassai and supports only the grouped Army-entry occupation
+  `Painters, construction and maintenance`. No employer, contractor, union,
+  worksite, trade specialty, or Army-to-OSS sequence is inferred. Gino
+  Casolini, Josephine M. Cason, Magnolia E. Cason, Richard K. Cason, Ralph L.
+  Caspary Jr., Charles F. Casper, and Van K. Casper remain unresolved and route
+  to critical Box 112 review. The official Army conversion's documented scan
+  gaps encompass the indexed identifier ranges for Ralph Caspary and Van
+  Casper, so absence from the converted bulk file is not treated as adverse
+  identity evidence.
+
+  Batch 379's strict evidence bundle adds six sources, one organization, four
+  affiliations, seven claims, twelve claim-source links, ten person updates,
+  and ten durable research attempts. Repeated import is idempotent. Research
+  now has a saved non-planned outcome for 3,575 people (14.9332% of 23,940
+  active entities); confirmed/high affiliation coverage is 477 people
+  (1.9925%), confirmed/high employment or self-employment is 204 people
+  (0.8521%), 3,528 people (14.7368%) have an assessed archival-review
+  disposition, and 20,365 remain `not_started`. Claim confidences are 849
+  confirmed, 1,110 high, 740 medium, 53 low, and 72 conflicting. The public
+  projection contains 486 organizations, 1,384 affiliations, 2,769 claims,
+  and 2,464 citation records representing 1,654 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, all 75 Python tests,
+  extraction validation for all 522 pages and 23,978 rows, SQLite integrity
+  and foreign-key checks, the deterministic 200-profile audit, zero-warning
+  Astro diagnostics, the 24,434-page build and internal-link check, the
+  field-aware public-identifier audit, the direct three-identifier evidence-
+  bundle audit, dependency audit, and all six citation-endpoint checks passed.
+  No authenticated Catalog API request, credential, raw API response, raw Army
+  payload, full private identifier, unsupported employer, or unrelated
+  namesake biography is retained or published. Final deterministic and browser
+  release results are recorded in the QA reports.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -6824,13 +6881,13 @@ Commissioned classification: 2,223 yes; 5,543 no; 16,174 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 378, research has a saved non-planned outcome for 3,565 people,
-  or 14.8914% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 475 people (1.9841%); confirmed/high employment or self-
-  employment is 203 people (0.8480%); 3,518 people (14.6951%) have an assessed
-  archival-review disposition; and 20,375 remain `not_started`. The data
+- After Batch 379, research has a saved non-planned outcome for 3,575 people,
+  or 14.9332% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 477 people (1.9925%); confirmed/high employment or self-
+  employment is 204 people (0.8521%); 3,528 people (14.7368%) have an assessed
+  archival-review disposition; and 20,365 remain `not_started`. The data
   preserves 231 possible-duplicate groups and 65 conflict-visible people.
-  Claim confidences are 848 confirmed, 1,106 high, 738 medium, 53 low, and 72
+  Claim confidences are 849 confirmed, 1,110 high, 740 medium, 53 low, and 72
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was
@@ -8614,6 +8671,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-gino-casolini-through-gino-h-cassai-pathways_batch-379_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-jack-c-casey-through-john-l-caskey-pathways_batch-378_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-two-migule-b-casasres-through-george-j-caserio-pathways_batch-377_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-two-donald-e-cartwright-through-charles-j-casale-pathways_batch-376_2026-08-30.json

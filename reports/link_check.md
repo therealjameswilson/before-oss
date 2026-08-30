@@ -4,22 +4,43 @@ Run: 2026-08-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,433 HTML files. Every relative
+**PASS.** The production build contains 24,434 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 485 organization profiles, and the
+The build includes 23,940 person profiles, 486 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,487 unique external URLs for separate live
+The checker inventoried 49,490 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-The Batch 378 official CIA and University of Cincinnati citation pages were
-retrieved and inspected during research. The NARA personnel-index PDF, public
-Army-series Catalog page, and both official technical-documentation PDFs were
-also reviewed. No access control was bypassed, no authenticated Catalog API
-request was made, and no raw Catalog API response was stored.
+All six Batch 379 citation endpoints returned HTTP 200 during targeted
+verification: the NARA personnel-index PDF, public Army-series Catalog page,
+both official technical-documentation PDFs, Kassel University Press scholarly
+PDF, and American Heritage Center finding aid. No access control was bypassed,
+no authenticated Catalog API request was made, and no raw Catalog API response
+was stored.
+
+## Batch 379 local release check
+
+The static build contains 24,434 HTML files, including direct pages for all
+23,940 active person entities, 486 public organizations, and every Batch 379
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,365,226 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`715ea2056e8b7e80b6ef4e6749782570e3081b321557d4d31e7ba9bb7d3ba684`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,504 production artifacts. It rejected 1,067
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 379 evidence bundle
+against the three actual private identifiers found zero matches. The tracked-
+source credential scan found zero nonblank NARA keys. Consecutive public-data
+exports reproduced digest
+`7d9ce7d36f423275753f39e44b9decb0d4a5d395c742984dc5fb6914e9aac51c`.
+Consecutive production builds reproduced complete static-tree digest
+`67cbd9c9e0157953e6ed664478ef9886edef666ef6e8ca0dbd22931f3b4e2505`.
 
 ## Batch 378 local release check
 
