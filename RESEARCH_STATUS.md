@@ -6228,6 +6228,64 @@ Commissioned classification: 2,220 yes; 5,527 no; 16,193 indeterminate.
   `0715ecc8503462ea3a43318f793ec9ef5d61415bd906dfafb8f43cfaa5e19995`;
   and the 65-file public manifest digest is
   `890a08b47328559ee826e2512de86319f5e41b067c21436b0a345ee6de206cba`.
+- Batch 374 covers Stuart R. Carswell through Jim F. Carter, the next ten
+  contiguous index rows on PDF page 72, all in Box 110. The page was rendered
+  and checked visually at original resolution. The review preserves every
+  blank rank cell, the incomplete `George Carter` and `Hie Carter` names, and
+  four private identifiers without exposing those identifiers in the evidence
+  bundle or public files.
+
+  Exact private-identifier agreement with official records confirms Stuart R.
+  Carswell, Albert W. Carter, and Eugene C. Carter. NARA's official 1946 Army
+  register and a contemporary *Congressional Record* entry identify Stuart as
+  Stuart Randall Carswell and document his Infantry career and June 12, 1939
+  promotion to lieutenant colonel. That role is published as a documented
+  prewar military assignment, not as an immediate pre-OSS affiliation or a
+  civilian employer, because the sources do not establish his OSS-transfer
+  chronology. Albert's Army entry as a private is identity evidence only; the
+  residual value `999` is left uninterpreted. Eugene's June 6, 1941 Army-entry
+  record supports the historical occupation category `Steam fitters, gas
+  fitters, and plumbers`, but it does not select one trade or identify an
+  employer, workplace, or Army-to-OSS sequence.
+
+  Bernard S. Carter, Clifton C. Carter, and George Carter remain ambiguous
+  because plausible exact-name or OSS-associated candidates lack Box 110
+  linkage and the required corroborating identifiers. Miro Cartelli, Henrietta
+  K. Carter, and Hie Carter remain unresolved. Jim F. Carter retains a visible
+  identity conflict because his exact-name Army candidate's private identifier
+  disagrees with the index. No candidate biography or Army-entry data is
+  adopted from that name match.
+
+  Batch 374's strict evidence bundle adds six official sources, one
+  organization, two affiliations, six claims, sixteen claim-source links, ten
+  person updates, and ten durable research attempts. Repeated import is
+  idempotent. Research now has a saved non-planned outcome for 3,526 people
+  (14.7285% of 23,940 active entities); confirmed/high affiliation coverage is
+  474 people (1.9799%), confirmed/high employment or self-employment remains
+  202 people (0.8438%), 3,479 people (14.5322%) have an assessed archival-review
+  disposition, and 20,414 remain `not_started`. Claim confidences are 835
+  confirmed, 1,102 high, 725 medium, 52 low, and 69 conflicting. The public
+  projection contains 1,365 affiliations, 2,729 claims, and 2,435 citation
+  records representing 1,640 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, all 75 Python tests
+  plus five data-driven subtests, extraction validation for all 522 pages and
+  23,978 rows, SQLite integrity and foreign-key checks, the deterministic
+  200-profile audit, zero-warning Astro diagnostics, the 24,432-page build and
+  internal-link check, the field-aware public-identifier audit, dependency
+  audit, all 130 manifest-copy checks, all six official citation checks, and
+  the focused 15 / 15 Batch 374 browser regression passed. No authenticated
+  Catalog API request, credential, raw API response, raw Army payload, full
+  private identifier, unsupported employer, or unrelated namesake biography
+  is retained or published. The clean complete browser and accessibility
+  matrix passed 1,251 / 1,251 in 11.1 minutes across desktop, phone, and
+  tablet, including all 27 axe cases and all fifteen Batch 374 cases.
+  Consecutive exports reproduced public-data digest
+  `10161934a8c14af931ff570999c34602c531c8d51264f621190148e966c9f889`;
+  consecutive builds reproduced complete static-tree digest
+  `5e419b4c329e9f2f49c2886b02801b7778cc1cd22f77bd079711c91a00dacd5e`;
+  and the 65-file public manifest digest is
+  `10d6b001f97a6cd02c49601bcb9f17c6ca700ef08e63bbabaf65de54865a682e`.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -8311,6 +8369,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-two-stuart-r-carswell-through-jim-f-carter-pathways_batch-374_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-seventy-one-seventy-two-frank-m-carrolll-through-irene-carstones-pathways_batch-373_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-one-james-e-carroll-through-william-j-carroll-pathways_batch-372_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-one-rene-a-carrie-through-hugh-g-carroll-pathways_batch-371_2026-08-30.json

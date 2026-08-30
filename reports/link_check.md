@@ -12,8 +12,31 @@ The build includes 23,940 person profiles, 484 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,478 unique external URLs for separate live
+The checker inventoried 49,480 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All six Batch 374 official citation endpoints returned HTTP 200 during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, two Army technical-documentation PDFs, NARA's official
+Army-register reproduction, and the GovInfo *Congressional Record* PDF. No
+access control was bypassed, no authenticated Catalog API request was made,
+and no raw Catalog API response was stored.
+
+## Batch 374 local release check
+
+The static build contains 24,432 HTML files, including direct pages for all
+23,940 active person entities, 484 public organizations, and every Batch 374
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,035,283 bytes and passed all 130 source-tree and built-tree size and SHA-256
+checks. The manifest SHA-256 is
+`10d6b001f97a6cd02c49601bcb9f17c6ca700ef08e63bbabaf65de54865a682e`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,502 production artifacts. It rejected 1,069
+substring coincidences and found zero unexpected boundary matches. The ten
+Batch 374 profiles preserve six unresolved or ambiguous identities, expose one
+identifier conflict, and publish only masked or explicitly unprinted
+identifiers.
 
 All four Batch 373 official citation endpoints returned HTTP 200 during
 targeted scripted verification: the NARA personnel-index PDF, public Army-

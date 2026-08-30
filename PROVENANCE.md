@@ -4321,6 +4321,46 @@ namesake identity, or unsupported employer claim is stored or published.
 The durable evidence is in
 `research/evidence-pages-seventy-one-seventy-two-frank-m-carrolll-through-irene-carstones-pathways_batch-373_2026-08-30.json`.
 
+## Page 72 Carswell through Carter review, Batch 374
+
+PDF page 72 was rendered from the checksum-verified NARA index and visually
+checked at original resolution. The review preserves ten distinct Box 110 rows
+from Stuart R. Carswell through Jim F. Carter, including every blank rank cell,
+the incomplete `George Carter` and `Hie Carter` names, and the private
+identifiers printed for four people. Those identifiers remain confined to the
+ignored SQLite database and are masked in public output.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with the official technical
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms Albert W. Carter and Eugene C. Carter as Army enlisted
+personnel. Eugene's entry row supports only the historical occupation category
+`Steam fitters, gas fitters, and plumbers`; it names no exact trade, employer,
+workplace, or Army-to-OSS transition. Albert's residual value `999` is not
+interpreted because the accessible documentation does not establish a safe
+meaning for that field in his row.
+
+The official 1946 Army register, reproduced by NARA in the National Personnel
+Records Center Case Reference Guide, agrees with Stuart R. Carswell's uncommon
+name and private officer identifier and records his Infantry career and June
+12, 1939 promotion to lieutenant colonel. The contemporary *Congressional
+Record* independently supplies the full middle name Randall. This is published
+as a documented prewar military assignment, not as an immediate pre-OSS
+affiliation or civilian employer, because neither source establishes the OSS
+transfer sequence.
+
+Bernard S. Carter, Clifton C. Carter, and George Carter remain ambiguous:
+plausible exact-name or OSS-associated candidates lack Box 110 linkage and the
+required corroborating identifiers. Miro Cartelli, Henrietta K. Carter, and
+Hie Carter remain unresolved. The exact-name Army candidate for Jim F. Carter
+has a private identifier that conflicts with the index and is exposed only as
+an identity-review conflict. No authenticated Catalog request, credential, raw
+API response, raw Army row, full private identifier, unsupported employer,
+unrelated namesake biography, or full copyrighted page is stored or published.
+
+The durable evidence is in
+`research/evidence-page-seventy-two-stuart-r-carswell-through-jim-f-carter-pathways_batch-374_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
