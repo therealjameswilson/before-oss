@@ -7,6 +7,20 @@ Run: 2026-08-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,432 pages**
 - Internal link check: **24,432 HTML files passed**
+- Batch 370 complete browser and accessibility matrix: **1,209 / 1,209
+  passed** in 13.2 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all nine new Batch 370
+  cases; the focused regression separately passed **9 / 9**. The database
+  passed `quick_check`, had zero foreign-key violations, and passed the
+  deterministic 200-profile audit. The public-identifier audit found zero
+  unexpected boundary matches across 24,502 artifacts. All 130 public-
+  manifest source/build checks passed for 65 assets totaling 80,835,812
+  bytes. Consecutive exports reproduced public-data digest
+  `054eb9bbbbe6026e383384ec75ac25a65867c1c7f5773ebd624ee1a9a9a12460`;
+  consecutive builds reproduced complete static-tree digest
+  `66c55b6bc88036f8061a7c88019f4b8b9915e9c7b3c38c032ffd2d6b67b1bae7`;
+  and the public manifest digest is
+  `7b72fbb244964e34eacee7ff20044539b363f1dabe3cd91c839e5f65b0a72c65`.
 - Batch 369 occupation-code correction: **1,200 / 1,200** browser and
   accessibility cases passed in 13.6 minutes across desktop, phone, and tablet,
   including all 27 axe cases and the tightened Theodore H. Carr code-992

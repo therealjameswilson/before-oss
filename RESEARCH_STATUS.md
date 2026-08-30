@@ -5995,6 +5995,64 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   check, privacy and dependency audits, consecutive byte-identical public and
   static builds, and the complete 1,200 / 1,200 browser and accessibility
   matrix passed locally.
+- Batch 370 covers William G. Carr through Benjamin F. Carrico, the next ten
+  contiguous index rows: PDF page 71 rows 14-23, all in Box 109. The source
+  page was rendered and visually checked. It prints Vincent V. Carrazo as a
+  technician fourth grade and Frank Carrejo as a corporal; the other eight
+  rank cells are blank. The official Army field documentation and Code No. 30
+  pages for occupation values 068, 678, 736, 799, and 992 were separately
+  inspected. The checksum-verified Army bulk file was reviewed transiently;
+  no raw bulk payload, full restricted identifier, authenticated Catalog
+  response, or credential is retained in version control.
+
+  Exact full-name and restricted-identifier agreement confirms John C. Carras,
+  Robert M. Carrasco, Frank Carrejo, Nestor Carrero, and Benjamin F. Carrico as
+  Army enlisted personnel. Their entry records support, respectively, the
+  historical categories `Machine shop and related occupations, n.e.c.` on
+  September 28, 1943; `Apprentices to other trades` on August 28, 1942;
+  `Students` on July 16, 1943; `Semiprofessional occupations, n.e.c.` on
+  August 19, 1942; and `Chauffeurs and drivers, bus, taxi, truck, and tractor`
+  on September 18, 1940. Each result is a medium-confidence, strongly date-
+  bounded status at Army entry. None supplies a named employer, exact trade or
+  workplace, or immediate Army-to-OSS chronology. Frank's student status is
+  not classified as employment and no school is invented.
+
+  The identifier-backed U.S. Army private record for John C. Carras excludes
+  the famous Greek shipowner and naval-volunteer namesake. Robert Melvin
+  Carrasco, Nestor Carrero, Benjamin F. Carrico, and Frank Carrejo genealogy,
+  cemetery, obituary, and family leads lack the matching private identifier or
+  OSS bridge and are not used. A Bowdoin publication documents a Jeffery J.
+  Carre's 1940 graduation, 1941 Columbia master's degree, and 1942 Army entry,
+  but the initial-free index row and absence of an independent OSS or Box 109
+  bridge leave that candidate unaccepted. William G. Carr, William K. Carr
+  Jr., Vincent V. Carrazo, Jeffery Carre, and Callie A. Carrello remain
+  unresolved and route to critical Box 109 review. The later Vincent N.
+  Carrozzo row differs in spelling, middle initial, box, and restricted
+  identifier and is not silently merged with Carrazo.
+- Batch 370's strict evidence bundle adds four official sources, five
+  affiliations, ten claims, twenty-five claim-source links, ten person
+  updates, and ten durable research attempts. It contributes five confirmed
+  Army identities with qualified occupation or student-status results and five
+  unresolved archival-review paths without adding an employer. After import,
+  research has a saved non-planned outcome for 3,486 people (14.5614% of
+  23,940 active entities); confirmed/high affiliation coverage remains 473
+  people (1.9758%), confirmed/high employment or self-employment remains 202
+  people (0.8438%), 3,439 people (14.3651%) have an assessed archival-review
+  disposition, and 20,454 remain `not_started`. Claim confidences are 823
+  confirmed, 1,102 high, 716 medium, 52 low, and 68 conflicting.
+  Strict schema and repeated-import checks, all 75 Python tests plus five
+  subtests, SQLite integrity and foreign-key checks, the deterministic
+  200-profile audit, the 24,432-page Astro build and internal-link check, the
+  field-aware public-identifier audit, all 130 manifest-copy checks, and
+  consecutive byte-identical public-data and static-site rebuilds passed. The
+  clean complete browser and accessibility matrix passed 1,209 / 1,209 in
+  13.2 minutes across desktop, phone, and tablet, including all 27 axe cases
+  and all nine Batch 370 cases. The public-data digest is
+  `054eb9bbbbe6026e383384ec75ac25a65867c1c7f5773ebd624ee1a9a9a12460`;
+  the complete static-tree digest is
+  `66c55b6bc88036f8061a7c88019f4b8b9915e9c7b3c38c032ffd2d6b67b1bae7`;
+  and the 65-file public manifest digest is
+  `7b72fbb244964e34eacee7ff20044539b363f1dabe3cd91c839e5f65b0a72c65`.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -6289,13 +6347,13 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 369, research has a saved non-planned outcome for 3,476 people,
-  or 14.5196% of 23,940 active entities. Confirmed/high publishable affiliation
+- After Batch 370, research has a saved non-planned outcome for 3,486 people,
+  or 14.5614% of 23,940 active entities. Confirmed/high publishable affiliation
   coverage is 473 people (1.9758%); confirmed/high employment or self-
-  employment is 202 people (0.8438%); 3,429 people (14.3233%) have an assessed
-  archival-review disposition; and 20,464 remain `not_started`. The data
+  employment is 202 people (0.8438%); 3,439 people (14.3651%) have an assessed
+  archival-review disposition; and 20,454 remain `not_started`. The data
   preserves 230 possible-duplicate groups and 60 conflict-visible people.
-  Claim confidences are 818 confirmed, 1,102 high, 711 medium, 52 low, and 68
+  Claim confidences are 823 confirmed, 1,102 high, 716 medium, 52 low, and 68
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was
@@ -8078,6 +8136,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-one-william-g-carr-through-benjamin-f-carrico-pathways_batch-370_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-seventy-seventy-one-guy-e-carpenter-through-william-r-carpenter-pathways_batch-368_2026-08-29.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-one-barbara-j-carr-through-theodore-h-carr-pathways_batch-369_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-edmond-caron-through-george-carpenter-pathways_batch-367_2026-08-29.json
