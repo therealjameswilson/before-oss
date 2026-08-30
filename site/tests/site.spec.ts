@@ -29683,3 +29683,89 @@ test("Batch 370 preserves five unsupported identities for Box 109 review", async
   await expect(page.locator("main")).toContainText("Vincent N. Carrozzo");
   await expect(page.locator("main")).toContainText("remain separate");
 });
+
+test("Batch 371 publishes three identifier-backed Army-entry statuses without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, status, entryDate] of [
+    [
+      "b3823255-f19d-5540-822d-5eaedb2665cb",
+      "Alfonso J Carrillo Jr.",
+      "Managers and officials, n.e.c.",
+      "February 21, 1941",
+    ],
+    [
+      "20d5cdfc-58ef-5228-8e05-fc0201f63101",
+      "Pellagrino J Carrino",
+      "Student",
+      "July 15, 1943",
+    ],
+    [
+      "651bfe8f-eed2-5e01-a7c1-3a16b59a7bd8",
+      "Harry D Carroll",
+      "Policemen and detectives, public service",
+      "February 20, 1945",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      status,
+    );
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/20d5cdfc-58ef-5228-8e05-fc0201f63101/");
+  await expect(page.locator("main")).toContainText("Student status is documented");
+  await expect(page.locator("main")).toContainText("names no school or employer");
+});
+
+test("Batch 371 preserves seven unresolved identities and keeps adjacent Carroll rows separate", async ({
+  page,
+}) => {
+  for (const [personId, name, status] of [
+    ["2323b6c3-7653-507c-826a-a39c1ec067a1", "Rene A Carrie", "needs identity review"],
+    ["1defaadf-17f8-55f1-9655-3cc74b23210c", "Joseph L Carrier", "needs identity review"],
+    ["d8337d10-1302-56d4-80fe-004985832b4a", "Katherine L Carrig", "requires archival review"],
+    ["1b5863fd-c01e-5786-bb52-5ef7c69df6d3", "E M Carroll", "requires archival review"],
+    ["822bf25e-f241-5073-a486-3dbe5cf24975", "Eber M Carroll", "needs identity review"],
+    ["c9aa0b89-af03-561a-b1c5-99fc92f021ff", "Edward J Carroll Jr.", "needs identity review"],
+    ["ab101891-e26b-50f0-b52a-41b2439f3cab", "Hugh G Carroll", "requires archival review"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/1b5863fd-c01e-5786-bb52-5ef7c69df6d3/");
+  await expect(page.locator("main")).toContainText("Do not merge this initials-only row with Eber M. Carroll");
+});
+
+test("Batch 371 exposes rejected famous-name candidates and Harry Carroll's source anomaly", async ({
+  page,
+}) => {
+  await page.goto("./people/2323b6c3-7653-507c-826a-a39c1ec067a1/");
+  await expect(page.locator("main")).toContainText("Rene Albrecht-Carrie");
+  await expect(page.locator("main")).toContainText("candidate remains unaccepted");
+
+  await page.goto("./people/822bf25e-f241-5073-a486-3dbe5cf24975/");
+  await expect(page.locator("main")).toContainText("Eber Malcolm Carroll");
+  await expect(page.locator("main")).toContainText("Neither candidate is accepted");
+
+  await page.goto("./people/651bfe8f-eed2-5e01-a7c1-3a16b59a7bd8/");
+  await expect(page.locator("main")).toContainText("unexplained trailing G");
+  await expect(page.locator("main")).toContainText("Four exact-name Army rows");
+});

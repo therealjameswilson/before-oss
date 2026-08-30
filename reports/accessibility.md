@@ -4,6 +4,17 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 371 release matrix passed **1,218 / 1,218** cases in 13.4 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all nine
+new Batch 371 cases. The profiles publish three exact-identifier Army-entry
+status results without inventing employers, schools, police agencies, or exact
+roles; preserve seven unsupported identities; keep the E. M. Carroll and Eber
+M. Carroll rows separate; and expose the rejected Rene Albrecht-Carrie and Eber
+Malcolm Carroll candidates as unresolved review questions. The focused Batch
+371 regression separately passed **9 / 9** across the three viewports after
+three test-only wording expectations were aligned with the correctly rendered
+public copy.
+
 The Batch 370 release matrix passed **1,209 / 1,209** cases in 13.2 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all nine
 new Batch 370 cases. The profiles publish five exact-identifier Army-entry
