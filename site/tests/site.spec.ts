@@ -29425,3 +29425,89 @@ test("Batch 367 preserves five unsupported identities as archival-review profile
   await page.goto("./people/6443325a-580e-51d8-af7d-eb922febcf82/");
   await expect(page.locator("main")).toContainText("Four exact-name Army rows");
 });
+
+test("Batch 368 publishes three identifier-backed Army-entry occupations without inventing employers", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation, entryDate] of [
+    [
+      "d99b2076-589c-54f8-9f98-140a0d9dfaa6",
+      "James J Carpenter",
+      "Occupations in electroplating, galvanizing, and related processes",
+      "October 29, 1942",
+    ],
+    [
+      "7a3f20b6-cf2c-5c6d-8b85-e2a00f7f130c",
+      "William H Carpenter",
+      "Checkers",
+      "April 16, 1943",
+    ],
+    [
+      "a09c03c2-33fe-5e47-809b-26d264ff5033",
+      "William R Carpenter",
+      "Construction occupations, n. e. c.",
+      "March 28, 1943",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+      occupation,
+    );
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 368 keeps the two James J Carpenter rows separate", async ({ page }) => {
+  await page.goto("./people/1051ce8e-75b9-5cde-88c0-8b7e8c4ade73/");
+  await expect(page.getByRole("heading", { name: "James J Carpenter", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("1st Lt");
+  await expect(page.locator("main")).toContainText("adjacent same-name row");
+
+  await page.goto("./people/d99b2076-589c-54f8-9f98-140a0d9dfaa6/");
+  await expect(page.getByRole("heading", { name: "James J Carpenter", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("different restricted identifier");
+  await expect(page.locator("main")).toContainText("damaged surname");
+});
+
+test("Batch 368 preserves seven unsupported identities as archival-review profiles", async ({
+  page,
+}) => {
+  for (const [personId, name] of [
+    ["fa1dd126-ca0f-5379-9a06-afb715932964", "Guy E Carpenter"],
+    ["1051ce8e-75b9-5cde-88c0-8b7e8c4ade73", "James J Carpenter"],
+    ["0a8a8923-a1bf-52dd-8e6c-ea0ad737c2a1", "Medford Carpenter"],
+    ["e62523fd-87dd-5781-94a7-e5a833e2f441", "Philadelphia M Carpenter"],
+    ["7a260d03-8fa3-510b-886a-b74d8906ecf3", "Robert Carpenter"],
+    ["faa1dc26-e845-56aa-9950-afb826030009", "Roy R Carpenter"],
+    ["0f4863ca-c433-5093-90a0-c048bf610507", "Walter T Carpenter"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/e62523fd-87dd-5781-94a7-e5a833e2f441/");
+  await expect(page.locator("main")).toContainText("unusual source name Philadelphia");
+  await page.goto("./people/0f4863ca-c433-5093-90a0-c048bf610507/");
+  await expect(page.locator("main")).toContainText("building-and-loan association");
+  await expect(page.locator("main")).toContainText("candidate is rejected");
+});
