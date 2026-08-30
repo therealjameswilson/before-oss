@@ -12,18 +12,35 @@ The build includes 23,940 person profiles, 485 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,483 unique external URLs for separate live
+The checker inventoried 49,484 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-The Batch 376 scripted citation check reached the NARA personnel-index PDF,
-public Army-series Catalog page, both official technical-documentation PDFs,
-Emileo Caruso obituary, and King's College London thesis with HTTP 200. The
-Rochester directory and SEC digest were successfully retrieved and inspected
-during research but later returned HTTP 403 to the scripted client, so their
-stable citations remain available for browser or archival follow-up rather
-than being misreported as live-check passes. No access control was bypassed, no
-authenticated Catalog API request was made, and no raw Catalog API response was
-stored.
+The Batch 377 scripted citation check reached the NARA personnel-index PDF,
+public Army-series Catalog page, and both official technical-documentation
+PDFs with HTTP 200. The Hoover Digital Collections object was successfully
+retrieved and inspected during research but later returned HTTP 403 to the
+scripted client, so its stable object citation remains available for browser
+or archival follow-up rather than being misreported as a live-check pass. No
+access control was bypassed, no authenticated Catalog API request was made, and
+no raw Catalog API response was stored.
+
+## Batch 377 local release check
+
+The static build contains 24,433 HTML files, including direct pages for all
+23,940 active person entities, 485 public organizations, and every Batch 377
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,236,176 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest SHA-256 is
+`de479c5145949fb0daa0787ea5350bd95ffd94b1462737bf6ddee930007e9d19`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,503 production artifacts. It rejected 1,065
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 377 evidence bundle
+against the eight actual private identifiers found zero matches. The tracked-
+source credential scan found zero nonblank NARA keys. Consecutive public-data
+exports reproduced digest
+`727ad35086b2c663a045c18835cc97428fe95ab76cf417671232af5b1d261b84`.
 
 ## Batch 376 local release check
 

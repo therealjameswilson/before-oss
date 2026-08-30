@@ -30212,3 +30212,90 @@ test("Batch 376 keeps the official William L Cary biography as a withheld identi
   await expect(page.locator('section[aria-labelledby="evidence"]')).toHaveCount(0);
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 377 publishes three date-bounded occupations without inventing employers", async ({ page }) => {
+  for (const [personId, name, occupation, armyEntry] of [
+    [
+      "5b1cb95e-bfcd-5b77-922d-25075cabb572",
+      "Joel C Case",
+      "Gardeners and grounds keepers, parks, cemeteries, etc.",
+      "May 1, 1942",
+    ],
+    ["598f4090-804a-5ec9-813a-b89470c8d8d0", "John F Case", "Retail manager", "March 28, 1942"],
+    [
+      "f950a4e5-f002-5db3-ab25-9d8002075b8c",
+      "George J Caserio",
+      "Cook, except private family",
+      "February 18, 1942",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(armyEntry);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 377 confirms the Casasres-Casares record while leaving occupation code 999 uninterpreted", async ({
+  page,
+}) => {
+  await page.goto("./people/22cf7717-29bc-5153-8daa-61dc1371459e/");
+  await expect(page.getByRole("heading", { name: "Migule B Casasres", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("Migel B Casares");
+  await expect(page.locator("main")).toContainText("occupation value 999 is left uninterpreted");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 377 exposes Frank Cascio's direct OSS employment lead as an identifier conflict", async ({ page }) => {
+  await page.goto("./people/3a15392c-a2d7-50fc-ad6f-9305ec980e54/");
+  await expect(page.getByRole("heading", { name: "Frank Cascio", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("two-digit transposition");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Sold clothing and jewelry on an installment plan",
+  );
+  await expect(page.locator("main")).toContainText(
+    "Sold clothes and jewelry on the instalment plan in Washington prior to coming to OSS",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 377 preserves the William Case conflict and four unresolved archival paths", async ({ page }) => {
+  await page.goto("./people/57582a9a-8951-5110-bdc8-5c1ac520ab2f/");
+  await expect(page.getByRole("heading", { name: "William E Case", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("differing middle initial");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+
+  for (const [personId, name, priority] of [
+    ["a2c0110f-9d3f-55cd-b101-80f9896287e3", "Phillip Cascio", "high"],
+    ["ef00da55-2650-52ff-bca9-9eb839112d24", "Elizabeth R Case", "critical"],
+    ["b99ebddd-9815-5640-8c18-0f272c8f7835", "Charles J Casebeer", "critical"],
+    ["cf8eecd9-84da-57b3-aaba-3fb89ae00d91", "Florence B Casell", "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      /No (reliable pre-OSS employer has yet been identified|reviewed claim currently meets the publication threshold)/,
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
