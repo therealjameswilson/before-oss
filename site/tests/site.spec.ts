@@ -30405,3 +30405,87 @@ test("Batch 378 re-audits William Casey without duplicating or conflating his es
   await expect(page.locator('section[aria-labelledby="immediate-affiliation"] article')).toHaveCount(1);
   await expect(page.locator('section[aria-labelledby="civilian-employer"] article')).toHaveCount(1);
 });
+
+test("Batch 379 publishes Johann Caspari's unnamed factory path without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/00cd5b01-5b8a-5cd5-9584-695ac89ec72f/");
+  await expect(page.getByRole("heading", { name: "Johann Caspari", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Hans Caspari");
+  await expect(page.locator("main")).toContainText("John Caspari");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "an unnamed factory",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "an unnamed factory",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("1942–1943");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 379 separates Thomas Cassady's Vichy military assignment from his investor occupation", async ({
+  page,
+}) => {
+  await page.goto("./people/7f3a22ba-2ce7-5100-82c9-3ddb7c27aef1/");
+  await expect(page.getByRole("heading", { name: "Thomas G Cassady", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Thomas Gantz Cassady");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Embassy in Vichy, France",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("naval attaché");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("investor");
+  await expect(page.locator('section[aria-labelledby="evidence"]')).toContainText("before reporting to OSS");
+});
+
+test("Batch 379 publishes Gino Cassai's Army-entry occupation without narrowing it to an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/4abb455a-240d-53d0-8519-1b1b40320c9b/");
+  await expect(page.getByRole("heading", { name: "Gino H Cassai", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Painters, construction and maintenance",
+  );
+  await expect(page.locator("main")).toContainText("February 24, 1941");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 379 preserves seven unsupported identities and explains two official Army data gaps", async ({
+  page,
+}) => {
+  for (const [personId, name, missingRange] of [
+    ["ef7a64a9-0182-5dbd-8712-ffb73fd87385", "Gino Casolini", false],
+    ["ed9fd16c-c8a4-5c5d-b8d2-f177549aad9a", "Josephine M Cason", false],
+    ["5f1f324a-e559-5543-a024-d4b339f187d9", "Magnolia E Cason", false],
+    ["0526f0d0-9320-53a3-b19a-4d49015f8fdb", "Richard K Cason", false],
+    ["1dccad29-167c-553b-b1ec-3474175499ff", "Ralph L Caspary Jr.", true],
+    ["e72d48e1-1ebf-56f4-800e-b33101a29ca0", "Charles F Casper", false],
+    ["21e9abed-5eb3-5979-8694-c19ba4e09968", "Van K Casper", true],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    if (missingRange) {
+      await expect(page.locator("main")).toContainText("documented missing range");
+    }
+  }
+});
