@@ -53,11 +53,11 @@
       "author_creator": "National Archives and Records Administration",
       "repository_publisher": "National Archives at College Park - Electronic Records",
       "publication_record_date": "2011-01-12; modified 2011-03-17",
-      "locator": "Code No. 30; physical pages 173-175; values 706 and 992 are absent from the defined numerical occupation groups; visually checked",
+      "locator": "Code No. 30; physical pages 173-175 show value 706 is absent from the defined numerical occupation groups; physical page 304 defines code 992 as Students; visually checked",
       "access_date": "2026-08-30",
       "source_quality": "A_direct_official",
       "collection_name": "World War II Army Enlistment Records technical documentation",
-      "rights_notes": "The official historical code list does not define values 706 or 992. Neither value is expanded into an occupation, employer, workplace, or duty."
+      "rights_notes": "The official historical code list does not define value 706 and it remains uninterpreted. The same list defines code 992 as Students; that status names no school, employer, workplace, or duty."
     },
     {
       "key": "loc-theodore-hamilton-carr-vhp-batch369",
@@ -184,7 +184,7 @@
       "source_quality": "A_direct_official",
       "claim_confidence": "high",
       "publication_status": "published",
-      "match_notes": "The restricted identifier is withheld. Occupation value 992 is undefined and contributes no occupation or employer claim.",
+      "match_notes": "The restricted identifier is withheld. Occupation value 992 maps to Students and corroborates student status; it does not identify a school or employer.",
       "sources": [
         {
           "source_key": "nara-oss-index-page-71-batch369",
@@ -204,7 +204,8 @@
         {
           "source_key": "nara-army-enlistment-code-lists-batch369",
           "support_type": "supports",
-          "locator_override": "Code No. 30, physical pages 173-175; value 992 is absent from the defined occupation groups"
+          "locator_override": "Code No. 30, physical page 304; code 992; Students",
+          "excerpt_override": "Students"
         }
       ]
     },
@@ -238,7 +239,7 @@
       "claim_type": "other_pre_oss_affiliation",
       "claim_text": "Theodore H. Carr had just finished high school before entering the Enlisted Reserve at age 17; the school is unnamed and is not an employer.",
       "evidence_excerpt": "I had just finished high school. I was 17.",
-      "evidence_paraphrase": "Carr's oral history places recent high-school completion directly before his reserve service.",
+      "evidence_paraphrase": "Carr's oral history places recent high-school completion directly before his reserve service. His exact Army record independently carries code 992, which NARA maps to Students.",
       "identity_match_assessment": "The same person-specific oral history is tied to the indexed person by official restricted-identifier and service evidence.",
       "temporal_assessment": "Strongly date-bounded before Army and OSS service, but not the immediate pre-OSS affiliation because Army service intervened.",
       "source_quality": "B_authoritative_institutional",
@@ -251,6 +252,17 @@
           "support_type": "supports",
           "locator_override": "Audio interview 00:00:31-00:01:05; collection AFC/2001/001/31043",
           "excerpt_override": "I had just finished high school. I was 17."
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch369",
+          "support_type": "supports",
+          "locator_override": "Exact full-name and restricted-identifier Army record; entry January 17, 1944; occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch369",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 304; code 992",
+          "excerpt_override": "Students"
         }
       ]
     }
@@ -582,7 +594,7 @@
       "outcome": "source_reviewed",
       "sources_reviewed": 10,
       "candidate_sources_rejected": 5,
-      "rejection_reasons": "The accepted official and Library of Congress records establish identity, Army service, student status, and an Army-to-OSS sequence. Undefined value 992 and unrelated namesakes do not establish an occupation or civilian employer.",
+      "rejection_reasons": "The accepted official and Library of Congress records establish identity, Army service, student status, and an Army-to-OSS sequence. Occupation code 992 corroborates student status but names no institution or employer; unrelated namesakes do not establish an occupation or civilian employer.",
       "research_notes": "The immediate Army pathway and recent student status are publishable as separate claims. No reliable civilian employer has yet been identified; no authenticated NARA Catalog request was made.",
       "next_action": "Review Box 109 for precise orders, school name, and civilian history.",
       "attempt_number": 1,

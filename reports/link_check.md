@@ -208,6 +208,34 @@ access control was bypassed. The prior Batch 343 checks also remain recorded.
 
 ## Batch 369 local release check
 
+The corrective code-list audit preserves all 24,432 public routes and changes
+only Theodore H. Carr's evidentiary explanation and source graph. NARA Code No.
+30, physical page 304, defines occupation code 992 as `Students`; Gene A.
+Carr's separate value 706 remains uninterpreted. The corrected source page
+still identifies no school or civilian employer.
+
+All 75 Python tests and five subtests, the 200-profile audit, 24,432-file
+internal-link check, all 27 axe cases, and the complete **1,200 / 1,200**
+desktop, phone, and tablet matrix pass. Four of five citation endpoints returned
+HTTP 200 or 206 during the correction check. The Library of Congress item
+returned HTTP 403 to the scripted range request; its previously inspected item
+page and oral-history evidence remain unchanged, and no access control was
+bypassed.
+
+The 65 manifest assets cover 80,764,969 bytes. All 130 source-tree and built-
+tree size and SHA-256 checks pass. The corrected manifest SHA-256 is
+`1771367ac03b3d22e7bfc2611ebf5452f3ae7789d8817491052bb447e8a443cf`.
+Consecutive builds reproduced public-data digest
+`816a7dcffdfaf76e3a6ea188dc24d4f7d190b77707acbd033b9497af16793bb7`
+and complete static-tree digest
+`211e7b8d83ae152f99e777bbc4d8f2939bcdb6d90e2b6ddb06cc7f514886997a`.
+The boundary-aware privacy audit compared 12,926 normalized private
+identifiers and 120 genuine formatted variants across 24,502 production
+artifacts, examined 1,065 candidate substrings, and found zero unexpected
+boundary matches.
+
+## Original Batch 369 local release check
+
 The complete 24,432-page internal-link pass includes Barbara J. Carr through
 Theodore H. Carr on PDF page 71 in Box 109. It confirms Gene A. Carr without
 interpreting an unassigned Army occupation value; publishes Theodore H.

@@ -7,6 +7,14 @@ Run: 2026-08-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,432 pages**
 - Internal link check: **24,432 HTML files passed**
+- Batch 369 occupation-code correction: **1,200 / 1,200** browser and
+  accessibility cases passed in 13.6 minutes across desktop, phone, and tablet,
+  including all 27 axe cases and the tightened Theodore H. Carr code-992
+  assertions. The corrected public-data digest is
+  `816a7dcffdfaf76e3a6ea188dc24d4f7d190b77707acbd033b9497af16793bb7`;
+  the corrected complete static-tree digest is
+  `211e7b8d83ae152f99e777bbc4d8f2939bcdb6d90e2b6ddb06cc7f514886997a`.
+  Consecutive public and static rebuilds reproduced those results exactly.
 - Batch 369 complete browser and accessibility matrix: **1,200 / 1,200
   passed** in 11.4 minutes across desktop, phone, and tablet. The clean,
   uninterrupted final-build run includes all 27 axe cases and all nine new

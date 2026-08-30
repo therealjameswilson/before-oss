@@ -64,7 +64,7 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
 - Claim confidence: 818 confirmed; 1,102 high; 711 medium; 52 low; 68
   conflicting
 - Durable evidence inventory: 3,515 source records representing 1,636 unique
-  documents; 495 organizations; 1,360 affiliations; 2,751 claims; and 6,222
+  documents; 495 organizations; 1,360 affiliations; 2,751 claims; and 6,224
   claim-source links
 - Reviewed public projection: 484 organizations; 1,350 published, qualified,
   or conflict-visible affiliations; 2,697 published, qualified, or
@@ -5924,7 +5924,9 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   was rendered and visually checked. It clearly prints George H. Carr as a
   first lieutenant and James L. Carr as a second lieutenant; all other ranks
   in the batch are blank. The official Army field documentation and the code-
-  list pages relevant to values 706 and 992 were separately inspected. The
+  list pages relevant to values 706 and 992 were separately inspected. Value
+  706 is absent from the defined numerical occupation groups; Code No. 30,
+  physical page 304, defines 992 as `Students`. The
   checksum-verified Army bulk file and Library of Congress oral history were
   reviewed transiently; no raw bulk payload, recording, transcript, full
   restricted identifier, authenticated Catalog response, or credential is
@@ -5950,6 +5952,8 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   civilian employer, and the unnamed school is not invented. His terminal
   research label remains `requires_archival_review`, not
   `verified_employer_found`, because no employer has been established.
+  The Army record's student code independently corroborates the oral-history
+  chronology but names no institution or employer.
 
   Barbara J. Carr, Charlotte A. Carr, Elaine N. Carr, Franklin J. Carr,
   Kenneth C. Carr, and Robert S. Carr remain unresolved after official,
@@ -5960,7 +5964,8 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   to critical Box 109 review rather than inheriting namesake biographies or
   employers.
 - Batch 369's strict evidence bundle adds five sources, two affiliations, four
-  claims, nine claim-source links, ten person updates, and ten durable research
+  claims, eleven claim-source links, ten person updates, and ten durable
+  research
   attempts. It contributes one confirmed Army identity, one high-confidence
   Army/OSS identity with a verified immediate military pathway and separate
   student-status claim, and eight unresolved archival-review paths without
@@ -5976,6 +5981,20 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   profiles returned HTTP 200; all 65 live manifest assets matched the audited
   release byte for byte across 80,761,619 bytes; and an independent 83-artifact
   live scan found zero unexpected private-identifier boundary matches.
+- A corrective Batch 369 audit rechecked NARA Code No. 30 and found that
+  occupation code 992 is explicitly defined as `Students` on physical page
+  304. The earlier release had incorrectly described that code as undefined.
+  Theodore H. Carr's already-published recent-high-school-graduate status
+  remains supported by his Library of Congress oral history and is now also
+  corroborated by the exact Army record and official code list. The correction
+  adds two source links to that existing student-status claim without adding an
+  employer, changing a confidence level, or changing any coverage total. Code
+  706 remains uninterpreted. The corrected evidence graph contains 6,224
+  claim-source links. All 75 Python tests plus five subtests, PDF ingest
+  validation, SQLite checks, the 200-profile audit, 24,432-route internal-link
+  check, privacy and dependency audits, consecutive byte-identical public and
+  static builds, and the complete 1,200 / 1,200 browser and accessibility
+  matrix passed locally.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
