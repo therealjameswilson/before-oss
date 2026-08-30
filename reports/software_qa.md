@@ -7,6 +7,15 @@ Run: 2026-08-30 UTC
 - Production dependency audit: **0 known vulnerabilities**
 - Static production build: **24,432 pages**
 - Internal link check: **24,432 HTML files passed**
+- Batch 369 complete browser and accessibility matrix: **1,200 / 1,200
+  passed** in 11.4 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted final-build run includes all 27 axe cases and all nine new
+  Batch 369 cases. The focused regression passed **9 / 9** after a test-only
+  wording expectation was aligned with the correctly rendered public claim
+  text. Consecutive finalized exports reproduced public-data digest
+  `650e66f6169a7c75c0e286024d03c22b7b1becf21b911d3cbf99e75c1b251598`,
+  and consecutive finalized builds reproduced complete static-tree digest
+  `ec1e971b537bfda33bfebc259174d3821d364f3839822fde896d8dc9637a51a4`.
 - Batch 368 complete browser and accessibility matrix: **1,189 / 1,191
   passed** in 42.4 minutes across desktop, phone, and tablet. Two older tablet
   cases (Batch 121 and Batch 189) timed out without an assertion failure or axe

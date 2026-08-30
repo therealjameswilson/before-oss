@@ -29511,3 +29511,80 @@ test("Batch 368 preserves seven unsupported identities as archival-review profil
   await expect(page.locator("main")).toContainText("building-and-loan association");
   await expect(page.locator("main")).toContainText("candidate is rejected");
 });
+
+test("Batch 369 confirms Gene A Carr without interpreting an unassigned occupation value", async ({
+  page,
+}) => {
+  await page.goto("./people/540d96c3-31cc-5da3-900f-44fbc9299ee1/");
+  await expect(page.getByRole("heading", { name: "Gene A Carr", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("November 11, 1942");
+  await expect(page.locator("main")).toContainText("occupation value 706 is unassigned");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 369 publishes Theodore H Carr's Army pathway and keeps student status separate", async ({
+  page,
+}) => {
+  await page.goto("./people/8caf6178-c985-5c77-86f3-76bfce62e07d/");
+  await expect(page.getByRole("heading", { name: "Theodore H Carr", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Theodore Hamilton Carr");
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Enlisted Reserve radio trainee",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Recent high-school graduate",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(
+    page.getByRole("link", { name: "United States Army", exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Theodore Hamilton Carr Collection", exact: true }).first(),
+  ).toBeVisible();
+});
+
+test("Batch 369 preserves eight unsupported Carr identities for Box 109 review", async ({
+  page,
+}) => {
+  for (const [personId, name] of [
+    ["a0219388-2c86-59f9-bee2-a714a77cf641", "Barbara J Carr"],
+    ["5cdcac98-2c54-59ac-9071-6136185ab2e2", "Charlotte A Carr"],
+    ["7971759a-40e6-50a2-858f-9705ac6841c2", "Elaine N Carr"],
+    ["2988b51a-20ac-5a98-b89b-9d665367699a", "Franklin J Carr"],
+    ["ec54e061-8091-536a-8175-3b006584460f", "George H Carr"],
+    ["606d9e83-8b70-5a57-b3c8-fbbd6def6964", "James L Carr"],
+    ["d0132bd4-db96-5bdb-af82-65f3dd6b92f8", "Kenneth C Carr"],
+    ["360539c2-b3d0-5e88-8c19-fffea3d6a8da", "Robert S Carr"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/ec54e061-8091-536a-8175-3b006584460f/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("1st Lt");
+  await page.goto("./people/606d9e83-8b70-5a57-b3c8-fbbd6def6964/");
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("2nd Lt");
+});
