@@ -4,6 +4,18 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 379 release matrix passed **1,320 / 1,320** cases in 10.0 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 379 cases. The profiles publish Johann Caspari's unnamed-factory
+path without inventing an organization; separate Thomas G. Cassady's immediate
+Vichy naval-attaché assignment from his earlier investor occupation; publish
+Gino H. Cassai's identifier-backed Army-entry occupation without inventing an
+employer; preserve seven unresolved Box 112 identities; and explain why two
+official Army conversion gaps are not adverse evidence. The focused Batch 379
+regression separately passed **12 / 12** across the three viewports after one
+test-only wording expectation was aligned with the correctly rendered public
+copy.
+
 The Batch 378 release matrix passed **1,308 / 1,308** cases in 12.3 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 378 cases. The profiles publish three qualified, identifier-backed

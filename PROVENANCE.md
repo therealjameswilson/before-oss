@@ -4523,6 +4523,50 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-three-jack-c-casey-through-john-l-caskey-pathways_batch-378_2026-08-30.json`.
 
+## Page 73 Casolini through Cassai review, Batch 379
+
+PDF page 73 rows 12-21 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct Box
+112 rows from Gino Casolini through Gino H. Cassai. Every printed spelling,
+blank rank cell, and identifier remains immutable in the ignored SQLite
+database; public output masks all three printed private identifiers.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with the official fixed-width field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms Gino H. Cassai and supports only the grouped Army-entry
+occupation `Painters, construction and maintenance`. No employer, contractor,
+union, worksite, exact trade, or Army-to-OSS chronology is inferred. The
+official documentation's missing-scan ranges encompass the indexed identifier
+ranges for Ralph L. Caspary Jr. and Van K. Casper; absence from the conversion
+is therefore not treated as adverse identity evidence.
+
+A scholarly biographical lexicon published by Kassel University Press supports
+a high-confidence match between indexed Johann Caspari and the German social-
+policy official also known as Hans and John Caspari. Its date-bounded chronology
+supports an unnamed New York factory as his immediate pre-OSS affiliation and
+last civilian employer in 1942-1943. The source does not name the factory, so
+the project does not manufacture an organization identity or industry.
+
+The American Heritage Center's Thomas G. Cassady papers finding aid supports a
+high-confidence match to Thomas Gantz Cassady and explicitly places him as
+naval attaché at the U.S. Embassy in Vichy in 1942 before reporting to OSS.
+That military assignment is published as his immediate pre-OSS affiliation.
+The finding aid also documents his earlier occupation as investor, but does not
+name an employer or establish self-employment; his last civilian employer
+therefore remains unresolved.
+
+Gino Casolini, Josephine M. Cason, Magnolia E. Cason, Richard K. Cason, Ralph
+L. Caspary Jr., Charles F. Casper, and Van K. Casper remain unresolved after
+official, CIA, current Library of Congress, exact-name OSS, employment,
+occupation, institutional, newspaper, obituary, directory, and archival
+searches. All seven route to critical Box 112 review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-three-gino-casolini-through-gino-h-cassai-pathways_batch-379_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
