@@ -231,6 +231,35 @@ consecutive finalized builds reproduced public-data digest
 and complete static-tree digest
 `ec1e971b537bfda33bfebc259174d3821d364f3839822fde896d8dc9637a51a4`.
 
+## Batch 369 production deployment
+
+Pull-request test workflow
+[33313758966](https://github.com/therealjameswilson/before-oss/actions/runs/33313758966),
+post-merge Test workflow
+[33314639038](https://github.com/therealjameswilson/before-oss/actions/runs/33314639038),
+and Pages workflow
+[33314639055](https://github.com/therealjameswilson/before-oss/actions/runs/33314639055)
+completed successfully for release
+`1d155874d76863d081f5ea698a2be19b1cddc15a`. The hosted Test workflow
+repeated the complete site/browser matrix, reconstructed the private audit
+source, and passed the public-identifier redaction scan.
+
+Seven core routes and all ten Batch 369 person profiles returned HTTP 200 and
+contained the intended release content. The live manifest matched the local
+release byte for byte, and all 65 deployed manifest assets matched their
+recorded and local sizes, SHA-256 values, and 80,761,619 total bytes. The live
+manifest SHA-256 is
+`e12dafbae94150b1fe4f89d6ded9acf0a08ca5fbc6b6148ed6f6dc325dba53c8`.
+The five downloads contain 23,940 personnel CSV rows, 23,940 personnel JSONL
+rows, 484 organizations, 1,350 affiliations, and 2,413 sources.
+
+An independent scan of 83 unique fetched production artifacts compared 12,926
+normalized private identifiers and 120 genuine formatted variants, examined
+637 candidate substrings, and found zero unexpected boundary matches. GitHub
+emitted non-blocking Node.js 20 deprecation annotations for the pinned action
+majors; both workflows nevertheless completed successfully on the runner's
+forced Node.js 24 runtime.
+
 ## Batch 368 local release check
 
 The complete 24,432-page internal-link pass includes Guy E. Carpenter through
