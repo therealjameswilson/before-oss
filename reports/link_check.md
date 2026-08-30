@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-08-29 UTC
+Run: 2026-08-30 UTC
 
 ## Internal static routes
 
@@ -14,6 +14,12 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 
 The checker inventoried 49,477 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All four Batch 368 official citation endpoints returned HTTP 200 or 206 during
+targeted scripted verification: the NARA personnel-index PDF, public Army-
+series Catalog page, and both official technical-documentation PDFs. No access
+control was bypassed, no authenticated Catalog API request was made, and no raw
+Catalog API response was stored.
 
 Five of Batch 367's six citation endpoints returned HTTP 200 or 206 during
 targeted scripted verification: the NARA personnel-index PDF, public Army-
@@ -191,6 +197,31 @@ Seven of Batch 344's eight citation endpoints responded directly with HTTP
 scripted requests to the Reading Room landing page, but the same stable URL and
 document text were independently inspected through CIA's indexed result. No
 access control was bypassed. The prior Batch 343 checks also remain recorded.
+
+## Batch 368 local release check
+
+The complete 24,432-page internal-link pass includes Guy E. Carpenter through
+William R. Carpenter across PDF pages 70-71 in Boxes 108-109. It publishes
+three identifier-backed, date-bounded Army-entry occupation categories without
+inventing an employer; preserves the commissioned and enlisted James J.
+Carpenter rows as separate people with a visible possible-duplicate link; and
+retains seven unsupported identities as critical archival-review profiles. All
+75 Python tests and five subtests, the deterministic 200-profile audit, the
+browser and accessibility results recorded in the companion QA reports, all 27
+axe cases, dependency audit, database integrity checks, source checks, and
+public-identifier audits pass; Astro reports zero errors, warnings, or hints.
+
+All 65 manifest assets cover 80,718,281 bytes and match their recorded sizes
+and SHA-256 hashes in both the source and built public trees. The manifest
+SHA-256 is
+`0ff4973cd6dbe7a79ac57015b8665efcd6618143e9ed08f2259ab22bea71a357`.
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 genuine formatted variants across 24,502 production artifacts, examined
+1,065 candidate substrings, and found zero unexpected boundary matches. Two
+consecutive finalized builds reproduced public-data digest
+`889a78f8322aae43eb6858e3fa9c073410fc1964f092f37a7769ef2c2cb5ffa1`
+and complete static-tree digest
+`c027f6e2fb1302e4592174a1f57d23c90470886097e7ce91d7eb809f1ace9780`.
 
 ## Batch 367 local release check
 

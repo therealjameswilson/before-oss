@@ -1,18 +1,25 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-29 UTC
+Run: 2026-08-30 UTC
 
 ## Result
 
-The expanded release matrix contains **1,182** browser, responsive, and
-accessibility cases across desktop, phone, and tablet widths. The 10.2-minute
-single-worker Batch 367 sweep passed **1,182 / 1,182** without a timeout,
-assertion failure, or accessibility violation. It includes all 27 axe cases
-and all nine new Batch 367 cases. An initial focused run exposed three test-
-only wording expectations that did not match the correctly rendered public
-text; after correcting those assertions, the focused rerun passed **9 / 9**
-across desktop, phone, and tablet. The prior 28.4-minute single-worker Batch
-366 sweep completed **1,170 / 1,173**. The three failures
+The expanded release matrix contains **1,191** browser, responsive, and
+accessibility cases across desktop, phone, and tablet widths. The 42.4-minute
+single-worker Batch 368 sweep completed **1,189 / 1,191**. Two older tablet
+cases, from Batch 121 and Batch 189, timed out without an assertion failure or
+axe finding; their exact isolated rerun passed **2 / 2** in 3.3 seconds. All 27
+axe cases and all nine new Batch 368 cases passed in the complete matrix. An
+initial focused run exposed the same capitalization-only test expectation in
+three viewports; after correcting that test, the focused rerun passed **9 /
+9**. The full-run interruptions remain recorded rather than being erased. The
+prior 10.2-minute single-worker Batch 367 sweep passed **1,182 / 1,182**
+without a timeout, assertion failure, or accessibility violation. It includes
+all 27 axe cases and all nine new Batch 367 cases. An initial focused run
+exposed three test-only wording expectations that did not match the correctly
+rendered public text; after correcting those assertions, the focused rerun
+passed **9 / 9** across desktop, phone, and tablet. The prior 28.4-minute
+single-worker Batch 366 sweep completed **1,170 / 1,173**. The three failures
 were older cases that timed out or lost their browser session without a data
 assertion or axe finding: desktop Batch 291, phone Batch 110, and the phone
 Sources-page axe scan. Their exact isolated reruns passed **3 / 3**, including
@@ -64,6 +71,19 @@ table.
 
 The production static build was tested with Playwright 1.62.0 and axe-core
 4.12.1 at desktop, phone, and tablet viewport profiles.
+
+Batch 368 adds direct-route coverage for Guy E. Carpenter through William R.
+Carpenter across PDF pages 70-71 in Boxes 108-109. It publishes three
+identifier-backed, date-bounded Army-entry occupations without turning them
+into employers: an electroplating/galvanizing category for the enlisted James
+J. Carpenter row, `Checkers` for William H. Carpenter, and a residual
+construction-occupation category for William R. Carpenter. The separately
+indexed commissioned and enlisted James J. Carpenter rows remain distinct and
+their possible-duplicate relationship stays visible; every private identifier
+is masked; and seven unsupported identities remain critical archival-review
+profiles. The focused regression passed **9 / 9** across desktop, phone, and
+tablet. All nine new cases and all 27 axe cases passed in the complete matrix;
+the two unrelated tablet timeouts passed **2 / 2** on exact rerun.
 
 Batch 367 adds direct-route coverage for Edmond L. Caron through George
 Carpenter on PDF page 70 in Box 108. It confirms four identifier-backed Army
