@@ -4478,6 +4478,51 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-two-migule-b-casasres-through-george-j-caserio-pathways_batch-377_2026-08-30.json`.
 
+## Page 73 Casey through Caskey review, Batch 378
+
+PDF page 73 rows 2-11 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct Box
+112 rows from Jack C. Casey through John L. Caskey. Every printed spelling,
+blank rank cell, and identifier remains immutable in the ignored SQLite
+database; public output masks all four printed private identifiers.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with the official fixed-width field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms three enlisted Army people. The evidence supports only the
+grouped Army-entry occupations general farmer for Jack C. Casey, automobile
+manufacture not elsewhere classified for Carleton V. Cash, and financial-
+institution clerk not elsewhere classified for James C. Cash. The converted
+Army form `Carl V. Cash` remains a documented name variant. Its converted entry
+date is invalid and is neither repaired nor used for chronology; James C.
+Cash's anomalous converted grade is likewise left uninterpreted. No employer,
+farm, automobile manufacturer, financial institution, or Army-to-OSS sequence
+is inferred.
+
+A contemporary OSS Izmir report names Major John L. Caskey. CIA's official
+institutional history identifies him as John “Jack” Langdon Caskey and
+documents his OSS Izmir role. The University of Cincinnati's departmental
+history separately lists Jack L. Caskey among instructors and teaching fellows
+from 1932 through 1943 and records his wartime call to active duty. Together
+these sources support a high-confidence identity and the University of
+Cincinnati as his last civilian employer before wartime service. They do not
+identify the military assignment immediately before OSS, so the university is
+not presented as the immediate pre-OSS affiliation.
+
+William J. Casey's existing direct personnel-file profile was re-audited as
+part of the contiguous cohort without creating duplicate claims or
+affiliations. Marie E. Casey, Robert E. Casey, Elaine G. Cash, Elizabeth E.
+Cashell, and John L. Cashell remain unresolved after official, CIA, current
+Library of Congress, exact-name OSS, employment, occupation, institutional,
+newspaper, obituary, directory, and archival searches. Plausible newspaper
+namesakes lacked an OSS or identifying bridge and were explicitly rejected;
+all five cases route to critical Box 112 review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-three-jack-c-casey-through-john-l-caskey-pathways_batch-378_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

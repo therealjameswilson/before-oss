@@ -30299,3 +30299,109 @@ test("Batch 377 preserves the William Case conflict and four unresolved archival
     await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
   }
 });
+
+test("Batch 378 publishes three Army-entry occupations without inventing employers", async ({ page }) => {
+  for (const [personId, name, occupation, chronology] of [
+    [
+      "775dc4fe-5dd3-55da-8131-b24011b762fb",
+      "Jack C Casey",
+      "General farmer",
+      "April 29, 1942",
+    ],
+    [
+      "2d127475-e7fe-5c1a-b942-30a4a7f4189a",
+      "Carleton V Cash",
+      "Occupation in manufacture of automobiles, not elsewhere classified",
+      "entry-date field is invalid and remains unusable",
+    ],
+    [
+      "78a4dd54-434c-5be7-99bc-e5cbf022e4ee",
+      "James C Cash",
+      "Financial institution clerk, not elsewhere classified",
+      "May 27, 1941",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText("enlisted army personnel");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(chronology);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/2d127475-e7fe-5c1a-b942-30a4a7f4189a/");
+  await expect(page.locator("main")).toContainText("Carl V Cash");
+});
+
+test("Batch 378 keeps five unsupported Box 112 identities unresolved", async ({ page }) => {
+  for (const [personId, name] of [
+    ["eb6f1ced-de18-5834-be9a-b86a8417abff", "Marie E Casey"],
+    ["62b6ef80-6a4e-58ab-a271-f5b16c131d66", "Robert E Casey"],
+    ["6549655e-af49-5fcd-ba51-bf4516f3bb0b", "Elaine G Cash"],
+    ["d0e51b10-c031-5f9e-816b-c3029435c088", "Elizabeth E Cashell"],
+    ["73825206-e732-5c67-8539-44219b098b3c", "John L Cashell"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+});
+
+test("Batch 378 identifies John Caskey while separating his last civilian employer from the immediate OSS path", async ({
+  page,
+}) => {
+  await page.goto("./people/0fa5e88e-a11c-54e7-a272-515617321c28/");
+  await expect(page.getByRole("heading", { name: "John L Caskey", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator("main")).toContainText("John 'Jack' Langdon Caskey");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "University of Cincinnati",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Instructor and teaching fellow in Classics",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("1932–1943");
+  await expect(page.locator('section[aria-labelledby="evidence"]')).toContainText("Major John L. Caskey");
+  await expect(page.locator('section[aria-labelledby="evidence"]')).toContainText(
+    "best-supported last civilian employer before wartime service",
+  );
+});
+
+test("Batch 378 re-audits William Casey without duplicating or conflating his established pathways", async ({
+  page,
+}) => {
+  await page.goto("./people/6e014675-a236-513e-94cc-fadb5d986aa9/");
+  await expect(page.getByRole("heading", { name: "William J Casey", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Board of Economic Warfare",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Research Institute of America",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Baecker, Casey, Doran and Siegel",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "United States Naval Reserve",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"] article')).toHaveCount(1);
+  await expect(page.locator('section[aria-labelledby="civilian-employer"] article')).toHaveCount(1);
+});

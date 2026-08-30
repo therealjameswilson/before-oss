@@ -4,6 +4,17 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 378 release matrix passed **1,308 / 1,308** cases in 12.3 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 378 cases. The profiles publish three qualified, identifier-backed
+Army-entry occupations without inventing employers; preserve five unresolved
+Box 112 identities; identify John L. Caskey at high confidence while keeping
+his immediate OSS predecessor unresolved and his last civilian employer
+separate; and re-audit William J. Casey without duplicating established
+pathways. The focused Batch 378 regression separately passed **12 / 12**
+across the three viewports after one test-only wording expectation was aligned
+with the correctly rendered public copy.
+
 The Batch 377 release matrix passed **1,296 / 1,296** cases in 11.4 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 377 cases. The profiles publish three qualified, identifier-backed
