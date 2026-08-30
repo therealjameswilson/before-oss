@@ -4,16 +4,43 @@ Run: 2026-08-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,432 HTML files. Every relative
+**PASS.** The production build contains 24,433 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 484 organization profiles, and the
+The build includes 23,940 person profiles, 485 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,480 unique external URLs for separate live
+The checker inventoried 49,483 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+The Batch 376 scripted citation check reached the NARA personnel-index PDF,
+public Army-series Catalog page, both official technical-documentation PDFs,
+Emileo Caruso obituary, and King's College London thesis with HTTP 200. The
+Rochester directory and SEC digest were successfully retrieved and inspected
+during research but later returned HTTP 403 to the scripted client, so their
+stable citations remain available for browser or archival follow-up rather
+than being misreported as live-check passes. No access control was bypassed, no
+authenticated Catalog API request was made, and no raw Catalog API response was
+stored.
+
+## Batch 376 local release check
+
+The static build contains 24,433 HTML files, including direct pages for all
+23,940 active person entities, 485 public organizations, and every Batch 376
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,161,814 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest SHA-256 is
+`1cf742d79419784159aedc22129f688be12d12d75a5933588ed7397ace67c098`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,503 production artifacts. It rejected 1,074
+substring coincidences, recorded only the two expected manifest-size false
+positives, and found zero unexpected boundary matches. A separate direct scan
+of the Batch 376 evidence bundle against the five actual private identifiers
+found zero matches. The tracked-source credential scan found zero nonblank NARA
+keys.
 
 All four Batch 375 official citation endpoints returned HTTP 200 during
 targeted scripted verification: the NARA personnel-index PDF, public Army-

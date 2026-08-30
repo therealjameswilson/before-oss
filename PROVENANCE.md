@@ -4394,6 +4394,48 @@ unrelated namesake biography, or full copyrighted page is stored or published.
 The durable evidence is in
 `research/evidence-page-seventy-two-josie-h-carter-through-peter-cartselos-pathways_batch-375_2026-08-30.json`.
 
+## Page 72 Cartwright through Casale review, Batch 376
+
+PDF page 72 was rendered from the checksum-verified NARA index and visually
+checked at original resolution. The review preserves ten distinct Box 111 rows
+from Donald E. Cartwright through Charles J. Casale, including Leonore F.
+Casademont's printed `possible` note. Raw values and private identifiers remain
+recoverable only in the ignored SQLite database; public output contains masked
+or explicitly unprinted identifier labels.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently together with its official field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms Donald E. Cartwright and Foy L. Cartwright and supports only
+their grouped pre-entry occupations. It also confirms William R. Carver despite
+the Army row's damaged surname field; the record's residual occupation value is
+not interpreted without safe official documentation. No raw Army payload or
+full private identifier is retained.
+
+Emileo T. Caruso's distinctive exact name is linked across a King's College
+London doctoral thesis quoting the archival description of a March 1944 report,
+an obituary that explicitly connects his Army and OSS service to his prewar
+school career, and a visually inspected 1939 Rochester suburban directory.
+Together they support Chestnut Street School as a qualified last civilian
+employer before wartime service and document an earlier teacher occupation.
+They do not establish his immediate pre-OSS affiliation, and the mismatch
+between the printed index identifier and the absence of an exact Army-row match
+remains a visible review issue.
+
+The March 27, 1961 *SEC News Digest* supplies a detailed prewar and wartime
+chronology for a William L. Cary, including Office of the Coordinator of
+Inter-American Affairs counsel, Marine Reserve service, and OSS service. The
+bare index row does not provide a second corroborating identifier, so this is
+retained only as a low-confidence candidate and excluded from public facts and
+default analytics. Donald J. Cartwright, Marie M. Carver, Thomas Carver,
+Leonore F. Casademont, and Charles J. Casale remain unresolved and route to
+Box 111 archival review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, or unrelated namesake biography
+is stored or published. The durable evidence is in
+`research/evidence-page-seventy-two-donald-e-cartwright-through-charles-j-casale-pathways_batch-376_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

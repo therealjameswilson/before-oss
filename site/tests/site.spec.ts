@@ -30099,3 +30099,116 @@ test("Batch 375 leaves the Sidney Carton Army and obituary candidates unresolved
   await expect(page.locator("main")).toContainText("A name match alone is insufficient");
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
 });
+
+test("Batch 376 publishes Donald E Cartwright's grouped repair occupation without inventing an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/5519c7e8-3f2a-5bb9-8883-8c3a5249f8a8/");
+  await expect(page.getByRole("heading", { name: "Donald E Cartwright", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Repairman or mechanic, not elsewhere classified",
+  );
+  await expect(page.locator("main")).toContainText("November 20, 1942");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 376 publishes Foy Cartwright's grouped electrical-manufacturing occupation without narrowing the trade", async ({
+  page,
+}) => {
+  await page.goto("./people/ed7a36dd-5369-5036-90f4-936f1a3227a5/");
+  await expect(page.getByRole("heading", { name: "Foy L Cartwright", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Electrical machinery and accessories manufacturing occupation, not elsewhere classified",
+  );
+  await expect(page.locator("main")).toContainText("June 15, 1943");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 376 publishes Emileo Caruso's qualified school pathway while keeping the immediate OSS affiliation unresolved", async ({
+  page,
+}) => {
+  await page.goto("./people/8b6a4cb3-3378-5218-bca5-e49ff780e66f/");
+  await expect(page.getByRole("heading", { name: "Emileo T Caruso", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("commissioned army officer");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Chestnut Street School",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Principal");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Teacher");
+  await expect(page.locator("main")).toContainText("Semi-monthly OG reports by Lieutenant Emileo T. Caruso");
+  await expect(page.locator("main")).toContainText("not necessarily the immediate pre-OSS affiliation");
+  await expect(page.locator("main")).toContainText("••••0203");
+});
+
+test("Batch 376 confirms William R Carver's enlisted identity but leaves the damaged surname and occupation for archival review", async ({
+  page,
+}) => {
+  await page.goto("./people/164d5543-9ec7-519e-9783-145f11f2795b/");
+  await expect(page.getByRole("heading", { name: "William R Carver", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("enlisted army personnel");
+  await expect(page.locator("main")).toContainText("surname is damaged by one initial letter");
+  await expect(page.locator("main")).toContainText("occupation value is left uninterpreted");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 376 keeps five Box 111 identities unresolved and preserves Casademont's source note", async ({ page }) => {
+  for (const [personId, name, priority] of [
+    ["c92aff9b-5b9f-5560-ba49-fc75a868ff3e", "Donald J Cartwright", "critical"],
+    ["35a69afe-852b-5464-94e2-8ece7bf07fb2", "Marie M Carver", "critical"],
+    ["fee4e84c-a499-529d-a675-670fd778ccb9", "Thomas Carver", "critical"],
+    ["7ce05457-1b6c-5180-90ec-b55a3de87bdf", "Leonore F Casademont", "critical"],
+    ["b9cb3dec-ca58-5a7c-b752-5ea2ec63ddfc", "Charles J Casale", "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+  }
+
+  await page.goto("./people/7ce05457-1b6c-5180-90ec-b55a3de87bdf/");
+  await expect(page.locator("main")).toContainText("possible");
+  await expect(page.locator("main")).toContainText("what the index's possible note qualifies");
+});
+
+test("Batch 376 keeps the official William L Cary biography as a withheld identity candidate", async ({ page }) => {
+  await page.goto("./people/53dce728-6818-5744-b66e-443fd69ce7b3/");
+  await expect(page.getByRole("heading", { name: "William L Cary", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Name alone is insufficient");
+  await expect(page.locator("main")).toContainText("candidate OCIAA role remains withheld");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="evidence"]')).toHaveCount(0);
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
