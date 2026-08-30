@@ -6587,6 +6587,63 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   payload, full private identifier, unsupported employer, or unrelated
   namesake biography is retained or published. Final deterministic and browser
   release results are recorded in the QA reports.
+- Batch 380 covers Gould M. Cassal through Alphonso A. Castagno Jr., the next
+  ten contiguous index rows: PDF page 73 rows 22-31 in Boxes 112-113. The
+  source page, official occupation-code pages, and two contemporary broadcast-
+  trade pages were rendered and checked visually. Every indexed spelling,
+  including `Alphonso`, remains immutable; all six printed private identifiers
+  remain confined to the ignored database and masked public output.
+
+  Exact private-identifier agreement with NARA's unrestricted Army merged file
+  confirms Gould M. Cassal, David S. Cassedy, Biagio Cassese, Charles L.
+  Castagna, and Alphonso A. Castagno Jr.; the converted `Alphonse` spelling is
+  retained only as a documented variant. The Army entries support four
+  qualified, date-bounded status findings: student for Cassedy and Castagno,
+  cement and concrete finisher for Cassese, and foreman not elsewhere
+  classified for Castagna. They do not identify a school, employer, workplace,
+  precise trade, industry, or Army-to-OSS sequence.
+
+  Contemporary April 1943 issues of *Broadcasting* and *Radio Daily* identify
+  Cassal as general assistant to Bessie Beatty's women's program on WOR for
+  three and a half years before he reported for Army duty. The project
+  publishes that program relationship as his high-confidence last civilian
+  role before service, while explicitly stating that neither report identifies
+  his legal employer. The Army file independently classifies his occupation in
+  the broad authors, editors, and reporters group. No program, station, sponsor,
+  producer, or presenter is silently substituted as the employer.
+
+  John M. Cassin remains conflict-visible because NARA's official merged file
+  assigns his indexed private identifier to two different Army names and the
+  documentation warns that duplicate identifiers exist. Neither candidate's
+  name, occupation, or entry facts are transferred to Cassin. Laurel J.
+  Cassell, Anne I. Cassidy, Francis Cassidy, and Henry C. Cassidy remain
+  unresolved and route to critical Box 112 review. A contemporary Associated
+  Press correspondent with Henry Cassidy's name and a later same-name Africa
+  scholar considered for Castagno lack direct OSS or Box linkage and remain
+  rejected candidates, not profile facts.
+
+  Batch 380's strict evidence bundle adds six sources, no organizations, six
+  affiliations, twelve claims, twenty-seven claim-source links, ten person
+  updates, and ten durable research attempts. Repeated import is idempotent.
+  Research now has a saved non-planned outcome for 3,585 people (14.9749% of
+  23,940 active entities); confirmed/high affiliation coverage is 478 people
+  (1.9967%), confirmed/high employment or self-employment is 205 people
+  (0.8563%), 3,538 people (14.7786%) have an assessed archival-review
+  disposition, and 20,355 remain `not_started`. Claim confidences are 854
+  confirmed, 1,111 high, 745 medium, 53 low, and 73 conflicting. The public
+  projection contains 486 organizations, 1,390 affiliations, 2,781 claims,
+  and 2,470 citation records representing 1,657 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, all 75 Python tests,
+  extraction validation for all 522 pages and 23,978 rows, SQLite integrity
+  and foreign-key checks, the deterministic 200-profile audit, zero-warning
+  Astro diagnostics, the 24,434-page build and internal-link check, the
+  field-aware public-identifier audit, the direct six-identifier evidence-
+  bundle audit, dependency audit, and all six citation-endpoint checks passed.
+  No authenticated Catalog API request, credential, raw API response, raw Army
+  payload, full private identifier, unsupported employer, or unrelated
+  namesake biography is retained or published. Final deterministic and browser
+  release results are recorded in the QA reports.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -6881,13 +6938,13 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 379, research has a saved non-planned outcome for 3,575 people,
-  or 14.9332% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 477 people (1.9925%); confirmed/high employment or self-
-  employment is 204 people (0.8521%); 3,528 people (14.7368%) have an assessed
-  archival-review disposition; and 20,365 remain `not_started`. The data
-  preserves 231 possible-duplicate groups and 65 conflict-visible people.
-  Claim confidences are 849 confirmed, 1,110 high, 740 medium, 53 low, and 72
+- After Batch 380, research has a saved non-planned outcome for 3,585 people,
+  or 14.9749% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 478 people (1.9967%); confirmed/high employment or self-
+  employment is 205 people (0.8563%); 3,538 people (14.7786%) have an assessed
+  archival-review disposition; and 20,355 remain `not_started`. The data
+  preserves 231 possible-duplicate groups and 66 conflict-visible people.
+  Claim confidences are 854 confirmed, 1,111 high, 745 medium, 53 low, and 73
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was

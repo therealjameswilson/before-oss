@@ -4,6 +4,18 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 380 release matrix passed **1,332 / 1,332** cases in 10.0 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 380 cases. The profiles publish Gould M. Cassal's high-confidence
+last civilian radio-program role while explicitly withholding a legal employer;
+publish four qualified Army-entry occupations or student statuses without
+inventing schools or employers; expose John M. Cassin's duplicate-identifier
+conflict without transferring either Army candidate's facts; and preserve four
+unresolved identities with their Box 112 review paths. The focused Batch 380
+regression separately passed **12 / 12** across the three viewports after two
+wording-only expectations were aligned with the correctly rendered public
+copy.
+
 The Batch 379 release matrix passed **1,320 / 1,320** cases in 10.0 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 379 cases. The profiles publish Johann Caspari's unnamed-factory

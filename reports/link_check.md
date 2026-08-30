@@ -12,15 +12,35 @@ The build includes 23,940 person profiles, 486 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,490 unique external URLs for separate live
+The checker inventoried 49,492 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All six Batch 379 citation endpoints returned HTTP 200 during targeted
+All six Batch 380 citation endpoints returned HTTP 200 during targeted
 verification: the NARA personnel-index PDF, public Army-series Catalog page,
-both official technical-documentation PDFs, Kassel University Press scholarly
-PDF, and American Heritage Center finding aid. No access control was bypassed,
-no authenticated Catalog API request was made, and no raw Catalog API response
-was stored.
+both official technical-documentation PDFs, and the two contemporary World
+Radio History trade-journal PDFs. No access control was bypassed, no
+authenticated Catalog API request was made, and no raw Catalog API response was
+stored.
+
+## Batch 380 local release check
+
+The static build contains 24,434 HTML files, including direct pages for all
+23,940 active person entities, 486 public organizations, and every Batch 380
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,441,815 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`b1cd1d7ea75267ba262711c240799af01dec3da054f808dc48e3f2598f9d08b7`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,504 production artifacts. It rejected 1,066
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 380 evidence bundle
+against the six actual private identifiers found zero matches. The tracked-
+source credential scan found zero nonblank NARA keys. Consecutive public-data
+exports reproduced digest
+`9460bf5f3e69985fd790df43d75ee759af1ba33bddecbfe5da4049afbbc8e12c`.
+Consecutive production builds reproduced complete static-tree digest
+`e043f0e51f9f1914f12272dadb22fc1a5aa72591d860efcb47e17059b2964f3f`.
 
 ## Batch 379 local release check
 
@@ -41,6 +61,27 @@ exports reproduced digest
 `7d9ce7d36f423275753f39e44b9decb0d4a5d395c742984dc5fb6914e9aac51c`.
 Consecutive production builds reproduced complete static-tree digest
 `67cbd9c9e0157953e6ed664478ef9886edef666ef6e8ca0dbd22931f3b4e2505`.
+
+## Batch 379 production deployment
+
+Release `cd581916c2704ff26b588e82ace0cd10d25715e7` passed GitHub test workflow
+[33336622804](https://github.com/therealjameswilson/before-oss/actions/runs/33336622804)
+and Pages workflow
+[33336622729](https://github.com/therealjameswilson/before-oss/actions/runs/33336622729).
+The clean runner repeated the Python suite, complete 24,434-page internal-link
+check, 1,320-case browser and accessibility matrix, source-PDF reconstruction,
+and private-identifier audit.
+
+The production audit opened seven core routes and all ten Batch 379 person
+profiles. All 17 returned HTTP 200. The live manifest and all 65 listed assets
+matched the audited local release byte for byte, covering 81,365,226 bytes with
+zero failures. The live manifest SHA-256 is
+`715ea2056e8b7e80b6ef4e6749782570e3081b321557d4d31e7ba9bb7d3ba684`.
+The live statistics report 23,978 source rows, 23,940 people, 3,575 attempted
+profiles, 477 people with a verified affiliation, 204 people with a verified
+employer, and 3,528 archival-review assessments. Download checks returned
+23,941 personnel CSV lines, 23,940 personnel JSONL records, 487 organization
+CSV lines, 1,385 affiliation CSV lines, and 2,465 source CSV lines.
 
 ## Batch 378 local release check
 
