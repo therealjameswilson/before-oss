@@ -4567,6 +4567,52 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-three-gino-casolini-through-gino-h-cassai-pathways_batch-379_2026-08-30.json`.
 
+## Page 73 Cassal through Castagno review, Batch 380
+
+PDF page 73 rows 22-31 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct
+rows from Gould M. Cassal through Alphonso A. Castagno Jr. in Boxes 112-113.
+Every printed spelling and blank rank cell remains immutable in the ignored
+SQLite database; public output masks all six printed private identifiers.
+
+NARA's public unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently with the official fixed-width field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms Cassal, David S. Cassedy, Biagio Cassese, Charles L.
+Castagna, and Castagno. The source's `Alphonse` spelling is retained as a
+documented variant of indexed `Alphonso`, not a silent correction. Qualified
+Army-entry evidence supports the broad statuses student for Cassedy and
+Castagno, cement and concrete finisher for Cassese, foreman not elsewhere
+classified for Castagna, and authors, editors, and reporters for Cassal. None
+names a school, employer, workplace, industry, precise trade, or later OSS
+chronology.
+
+The April 19, 1943 issue of *Broadcasting* and April 22, 1943 issue of *Radio
+Daily* were downloaded from World Radio History, rendered, and visually
+checked. Both contemporary reports identify Cassal as general assistant to
+Bessie Beatty's women's program on WOR before he reported for Army duty; the
+more detailed report dates that role to three and a half years. This supports
+a high-confidence last civilian role before service. Because the reports name
+the program relationship but not a legal employer, the project creates no
+organization entity and states the limitation on the public profile.
+
+The indexed identifier for John M. Cassin maps to two different names in the
+official Army conversion. NARA's technical documentation explicitly warns of
+duplicate identifiers, so Cassin remains conflict-visible and neither Army
+candidate's facts are transferred. Laurel J. Cassell, Anne I. Cassidy, Francis
+Cassidy, and Henry C. Cassidy remain unresolved after official, CIA, current
+Library of Congress, exact-name OSS, employment, occupation, institutional,
+newspaper, obituary, directory, and archival searches. A contemporary
+Associated Press correspondent considered for Henry Cassidy and a later
+same-name scholar considered for Castagno lack an OSS, identifier, or Box
+bridge and remain rejected candidates. All unresolved questions route to their
+indexed archival boxes.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-three-gould-m-cassal-through-alphonso-a-castagno-jr-pathways_batch-380_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

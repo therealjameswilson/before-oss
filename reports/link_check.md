@@ -12,15 +12,35 @@ The build includes 23,940 person profiles, 486 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,490 unique external URLs for separate live
+The checker inventoried 49,492 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All six Batch 379 citation endpoints returned HTTP 200 during targeted
+All six Batch 380 citation endpoints returned HTTP 200 during targeted
 verification: the NARA personnel-index PDF, public Army-series Catalog page,
-both official technical-documentation PDFs, Kassel University Press scholarly
-PDF, and American Heritage Center finding aid. No access control was bypassed,
-no authenticated Catalog API request was made, and no raw Catalog API response
-was stored.
+both official technical-documentation PDFs, and the two contemporary World
+Radio History trade-journal PDFs. No access control was bypassed, no
+authenticated Catalog API request was made, and no raw Catalog API response was
+stored.
+
+## Batch 380 local release check
+
+The static build contains 24,434 HTML files, including direct pages for all
+23,940 active person entities, 486 public organizations, and every Batch 380
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,441,815 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`b1cd1d7ea75267ba262711c240799af01dec3da054f808dc48e3f2598f9d08b7`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,504 production artifacts. It rejected 1,066
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 380 evidence bundle
+against the six actual private identifiers found zero matches. The tracked-
+source credential scan found zero nonblank NARA keys. Consecutive public-data
+exports reproduced digest
+`9460bf5f3e69985fd790df43d75ee759af1ba33bddecbfe5da4049afbbc8e12c`.
+Consecutive production builds reproduced complete static-tree digest
+`e043f0e51f9f1914f12272dadb22fc1a5aa72591d860efcb47e17059b2964f3f`.
 
 ## Batch 379 local release check
 

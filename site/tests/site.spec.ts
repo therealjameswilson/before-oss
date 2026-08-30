@@ -30489,3 +30489,89 @@ test("Batch 379 preserves seven unsupported identities and explains two official
     }
   }
 });
+
+test("Batch 380 publishes Gould Cassal's last civilian radio-program role without inventing a legal employer", async ({
+  page,
+}) => {
+  await page.goto("./people/39fd6a09-d5e9-5a6a-a1c6-71f877287edd/");
+  await expect(page.getByRole("heading", { name: "Gould M Cassal", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Bessie Beatty's women's program on WOR",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "general assistant",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Authors, editors, reporters",
+  );
+  await expect(page.locator("main")).toContainText("not his legal employer");
+  await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+});
+
+test("Batch 380 publishes four identifier-confirmed Army-entry occupations without naming employers", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation, variant] of [
+    ["22fcc22b-2d2e-584d-b5a5-4d20aa61b030", "David S Cassedy", "Students", null],
+    ["e395a988-731f-5a7e-9867-837284e0044f", "Biagio Cassese", "Cement and concrete finishers", null],
+    ["bb3f3b97-cb43-5886-b655-8f616e49ae6d", "Charles L Castagna", "Foremen, not elsewhere classified", null],
+    ["1eefa964-2851-5f44-ae4e-6446f5a25552", "Alphonso A Castagno Jr.", "Students", "Alphonse A Castagno"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
+    if (variant) {
+      await expect(page.locator("main")).toContainText(variant);
+    }
+  }
+});
+
+test("Batch 380 exposes John Cassin's official duplicate-identifier conflict without transferring Army facts", async ({
+  page,
+}) => {
+  await page.goto("./people/ea835bdd-af4f-5c5b-afbd-5c5d9cbb619b/");
+  await expect(page.getByRole("heading", { name: "John M Cassin", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("assigns the exact identifier to two different names");
+  await expect(page.locator("main")).toContainText("do not transfer either Army candidate's occupation");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"] article')).toHaveCount(0);
+});
+
+test("Batch 380 preserves four unresolved identities and rejects the unsupported Henry Cassidy journalist match", async ({
+  page,
+}) => {
+  for (const [personId, name, rejectedJournalist] of [
+    ["9842865e-d516-5c97-b06d-502a6229ddb3", "Laurel J Cassell", false],
+    ["1488e402-d97d-520e-99bd-55d45d0a88ee", "Anne I Cassidy", false],
+    ["a905b5ab-47e6-538e-b391-eb62592c7a1c", "Francis Cassidy", false],
+    ["ea5526c0-3a09-54a1-b9c7-4982ff0318bf", "Henry C Cassidy", true],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    if (rejectedJournalist) {
+      await expect(page.locator("main")).toContainText("Associated Press correspondent");
+      await expect(page.locator("main")).toContainText("no source connected that candidate to OSS");
+    }
+  }
+});
