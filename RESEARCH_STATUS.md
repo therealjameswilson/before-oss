@@ -5970,7 +5970,12 @@ Commissioned classification: 2,220 yes; 5,515 no; 16,205 indeterminate.
   24,432-page Astro build and internal-link check, the clean 1,200 / 1,200
   browser and accessibility matrix, all 27 axe cases, dependency and public-
   identifier audits, 130 manifest-copy checks, and consecutive byte-identical
-  public-data and static-site builds all passed.
+  public-data and static-site builds all passed. Release
+  `1d155874d76863d081f5ea698a2be19b1cddc15a` passed the pull-request,
+  post-merge Test, and Pages workflows. Seven core routes and all ten Batch 369
+  profiles returned HTTP 200; all 65 live manifest assets matched the audited
+  release byte for byte across 80,761,619 bytes; and an independent 83-artifact
+  live scan found zero unexpected private-identifier boundary matches.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
