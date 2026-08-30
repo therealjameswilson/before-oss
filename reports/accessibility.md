@@ -4,6 +4,12 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The corrective Batch 369 rerun passed **1,200 / 1,200** cases in 13.6 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and a tightened
+Theodore H. Carr regression that requires the public page to identify Army
+occupation code 992 as `Students` while rejecting the superseded undefined-code
+wording. The correction does not alter any affiliation or coverage count.
+
 The expanded release matrix contains **1,200** browser, responsive, and
 accessibility cases across desktop, phone, and tablet widths. The 11.4-minute
 single-worker Batch 369 sweep passed **1,200 / 1,200** without a timeout,

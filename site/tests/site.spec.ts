@@ -29546,6 +29546,10 @@ test("Batch 369 publishes Theodore H Carr's Army pathway and keeps student statu
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
     "Recent high-school graduate",
   );
+  await expect(page.locator("main")).toContainText("occupation code 992");
+  await expect(page.locator("main")).toContainText("NARA maps to Students");
+  await expect(page.locator("main")).not.toContainText("Occupation value 992 is undefined");
+  await expect(page.locator("main")).not.toContainText("value 992 is absent");
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified",
   );
