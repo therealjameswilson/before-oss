@@ -180,6 +180,29 @@ keys. Consecutive public-data exports reproduced digest
 Consecutive finalized production builds reproduced complete static-tree digest
 `8567b9f742260f49fc97fbca21dce3a989697e8a8212001ea56f9efaad393809`.
 
+## Batch 386 production deployment
+
+Release `d18dc29e85dc8b92cc9f15ba79d7e41389fc14c1` passed the pull-request Test
+workflow
+[33349259226](https://github.com/therealjameswilson/before-oss/actions/runs/33349259226)
+and Pages workflow
+[33350692000](https://github.com/therealjameswilson/before-oss/actions/runs/33350692000).
+The clean runner repeated the Python suite, complete 24,439-page internal-link
+check, 1,410-case browser and accessibility matrix, source-PDF reconstruction,
+and private-identifier audit before merge.
+
+The cache-busted production audit opened seven core routes and all ten Batch 386
+person profiles. All 17 returned HTTP 200. The live manifest and all 65 listed
+assets matched the audited local release byte for byte, covering 81,954,554
+bytes with zero failures. The live manifest SHA-256 is
+`93b3ba5a66699f7ae4cb7266ad8b21e8c17217ae5303ec5db253a814a064a17e`.
+The live statistics report 23,978 source rows, 23,940 people, 3,644 attempted
+profiles, 485 people with a verified affiliation, 207 people with a verified
+employer, 3,597 archival-review assessments, 2,839 published claims, and 2,513
+public sources. Download checks returned 23,941 personnel CSV lines, 23,940
+personnel JSONL records, 492 organization CSV lines, 1,421 affiliation CSV
+lines, and 2,514 source CSV lines.
+
 ## Batch 385 production deployment
 
 Release `0d2abbf925fdcd590384fe450199e73ec8cd0336` passed the pull-request Test
