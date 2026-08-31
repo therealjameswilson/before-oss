@@ -31288,3 +31288,75 @@ test("Batch 388 preserves four unresolved Box 115 identities", async ({ page }) 
     );
   }
 });
+
+test("Batch 389 publishes only the qualified occupations for Cesar and Cesari", async ({ page }) => {
+  for (const [personId, name, occupation, date] of [
+    ["2f511d18-c1d3-5707-8e08-9919930d627b", "Steven J Cesar", "Mechanics and repairmen, n.e.c.", "March 5, 1942"],
+    ["98fb2cd8-672a-5d8a-a143-dbab8ccdf102", "Morgan C Cesari", "Welders and flame cutters", "September 27, 1941"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 389 confirms Chabe and Chadd while quarantining residual occupation value 992", async ({ page }) => {
+  for (const [personId, name, date] of [
+    ["a7fc2085-67a8-5587-a832-e675756c3ba0", "Alex Chabe", "November 7, 1942"],
+    ["163d3ac4-8a6f-543f-850c-b78ce1adeef7", "Donald E Chadd", "June 10, 1944"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator("main")).toContainText("residual occupation value 992 is withheld");
+    await expect(page.locator("main")).toContainText("No publishable pre-OSS affiliation is recorded yet");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 389 preserves five unresolved Box 115 identities", async ({ page }) => {
+  for (const [personId, name, priority] of [
+    ["592ea1d2-f112-5c7b-a782-cdcfd1bfa141", "Mario P Cervone", "critical"],
+    ["544ebcd1-7914-54e0-89fb-b64e67c62535", "Paul B Cesan", "high"],
+    ["ae83a5bb-0d39-5d95-b8eb-f4d657d5238b", "Francisco S Cespedes", "critical"],
+    ["c6de6437-3d9a-5247-a67d-8483c95c5fde", "Frederic E Chaar", "critical"],
+    ["e86f0cdc-ff96-5beb-a8ae-dd3272170ab1", "Ruth A Chaconas", "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 75");
+    await expect(page.locator(".index-record").first()).toContainText("115");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 389 reaudits Chadbourn without converting Harvard study into employment", async ({ page }) => {
+  await page.goto("./people/6ea50bee-54e9-54f1-91ca-b052afc98eda/");
+  await expect(page.getByRole("heading", { name: "Philip H Chadbourn Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Harvard University");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});

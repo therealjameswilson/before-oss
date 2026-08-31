@@ -4,6 +4,18 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 389 release matrix passed **1,446 / 1,446** cases in 11.2 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 389 cases. The profiles publish only the qualified Army-entry
+occupations supported for Steven J. Cesar and Morgan C. Cesari; confirm Alex
+Chabe and Donald E. Chadd while quarantining the undecoded residual occupation
+value returned for both; preserve five unresolved identities with their Box
+115 archival-review paths; and re-audit Philip H. Chadbourn Jr. without
+turning Harvard student status into employment. Search-only spelling and
+diacritic variants remain private query aids rather than public name claims.
+The focused Batch 389 regression separately passed **12 / 12** on the final
+build.
+
 The Batch 388 release matrix passed **1,434 / 1,434** cases in 10.9 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 388 cases. The profiles publish only the qualified Army-entry
