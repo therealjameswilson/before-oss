@@ -4833,6 +4833,59 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-four-martha-cathy-through-dallas-caunter-pathways_batch-384_2026-08-30.json`.
 
+## Page 74 Causey through Cave review, Batch 385
+
+PDF page 74 rows 26-35 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct
+rows from George E. Causey through Bennett M. Cave in Box 114. In particular,
+the source image confirms the printed spelling **Denbnis V Cavanaugh**;
+“Dennis” was used only as an unverified search alias and is not published as a
+corrected or documented variant. Every printed spelling, blank rank, box,
+location, and private identifier remains immutable in the ignored SQLite
+database, while public output masks each identifier.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width field
+documentation and Civilian Occupations code list. Exact name-and-identifier
+agreement confirms George E. Causey, Louis A. Cautero, Andrew Cavadas, and
+Alfred F. Cavallo. The first three records support qualified historical
+occupation categories at Army entry: public-service police, general-industry
+clerk, and welder or flame cutter, respectively. They do not by themselves
+name an employer or prove an OSS transition. Alfred Cavallo's exact Army entry
+falls in January 1946, after wartime OSS service, so its undecoded occupation
+value is excluded from the pre-OSS model.
+
+George Causey's exact official record shares birth year, Army service, and
+police occupation with a reputable obituary for George Edgar Causey, a
+long-serving employee of the Metropolitan Police Department of the District
+of Columbia. This supports a confirmed identity and a medium-confidence,
+qualified documented prewar employment claim. The accessible chronology does
+not establish that the department was his immediate pre-OSS affiliation or
+last civilian employer before military service, so both fields remain
+unresolved and the employer is excluded from default confirmed/high analytics.
+
+Louis Cautero's identity is independently reinforced by a declassified 1944
+North African theater interview index preserved by the Hoover Institution,
+which records the exact name as a technical sergeant in Algiers. That source
+does not supply a prewar employer. Andrew Cavadas's occupation likewise remains
+separate from any named organization.
+
+Mario Cavallaro's printed identifier is incomplete. Its prefix returns
+multiple unrelated official Army records and no exact-name record, so the
+profile preserves an explicit conflict and transfers none of those subjects'
+facts. James D. Cavanagh, John E. Cavanagh Jr., Denbnis V. Cavanaugh, Florence
+L. Cavanaugh, and Bennett M. Cave remain unresolved after official, CIA,
+current Library of Congress, exact-name OSS, employment, occupation,
+institutional, newspaper, obituary, directory, and archival searches. Alfred
+Cavallo's identity is confirmed, but no reliable pre-OSS employer or
+affiliation was established. Every open question routes to the indexed Box 114
+personnel file.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-four-george-e-causey-through-bennett-m-cave-pathways_batch-385_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

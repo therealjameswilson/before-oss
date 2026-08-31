@@ -1,12 +1,35 @@
 # Software QA
 
-Run: 2026-08-30 UTC
+Run: 2026-08-31 UTC
 
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,436 pages**
-- Internal link check: **24,436 HTML files passed**
+- Static production build: **24,437 pages**
+- Internal link check: **24,437 HTML files passed**
+- Batch 385 complete browser and accessibility matrix: **1,398 / 1,398
+  passed** in 10.3 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all twelve new Batch 385
+  cases; the focused regression separately passed **12 / 12** on the final
+  build. The database passed `quick_check`, had zero foreign-key violations,
+  and passed the deterministic 200-profile audit. Extraction validation passed
+  all 522 pages and 23,978 rows. The public-identifier audit examined 12,926
+  normalized private identifiers and 120 formatted variants across 24,507
+  production artifacts, rejected 1,069 substring coincidences, and found zero
+  aggregate, manifest-size, or unexpected boundary matches. The direct eight-
+  identifier current-batch audit found zero matches, and the credential scan
+  found zero literal tracked NARA keys. All 130 public-manifest source/build
+  checks passed for 65 assets totaling 81,874,519 bytes. Four of six Batch 385
+  citation targets returned HTTP 200 to the automated GET check; the
+  *Washington Post* archive timed out and Hoover returned HTTP 403 after both
+  had been context-reviewed during evidence collection, with no access control
+  bypassed. The dependency audit found zero vulnerabilities. Consecutive
+  exports reproduced path-and-content public-data digest
+  `e48c38bb6e8b4755362dd3622389387577c5aa6b9879b48de73e5e8a43ffb4a1`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `f785e5e14f4b02f13480ba5ea3265d2d75d8e558a44311d5d1e7d71d20d7039b`;
+  and the public manifest digest is
+  `ed8f499006a2656570dd62face2cf201dfc82e4bf10e5b1e90769640fe2d0a62`.
 - Batch 384 complete browser and accessibility matrix: **1,386 / 1,386
   passed** in 10.2 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all twelve new Batch 384

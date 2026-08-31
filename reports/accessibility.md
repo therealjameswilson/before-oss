@@ -1,8 +1,19 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-30 UTC
+Run: 2026-08-31 UTC
 
 ## Result
+
+The Batch 385 release matrix passed **1,398 / 1,398** cases in 10.3 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 385 cases. The profiles qualify George E. Causey's D.C. police
+employment without promoting it to an immediate or last civilian predecessor;
+publish Louis A. Cautero's and Andrew Cavadas's dated occupations without
+inventing employers; expose Mario Cavallaro's incomplete-identifier conflict;
+exclude Alfred F. Cavallo's post-OSS Army occupation; preserve the index's
+printed **Denbnis V Cavanaugh** spelling; and route all unresolved questions to
+Box 114. The focused Batch 385 regression separately passed **12 / 12** on the
+final build.
 
 The Batch 384 release matrix passed **1,386 / 1,386** cases in 10.2 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve

@@ -1,0 +1,858 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS archival research workflow, batch 385",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-74-batch385",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 114",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 74, rows 26-35; George E. Causey through Bennett M. Cave; visually checked; private identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row, spelling, blank rank, box, location, and identifier remains immutable. Full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch385",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact fixed-width private-identifier review for page 74 rows 26-35; identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact name-and-identifier matches support George Causey, Louis Cautero, Andrew Cavadas, and Alfred Cavallo. Mario Cavallaro's incomplete seven-character identifier prefix returns ten unrelated names and is not assigned. Missing matches are not negative proof. No raw bulk record is retained."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch385",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 5-6, file limitations; physical pages 44-46, fixed-width fields; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret the merged file and its limitations. The conversion is not treated as a complete roster, and a missing match is not negative proof."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch385",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30; physical pages 171, 172, and 174; occupation values 118, 266, and 685; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official historical occupation categories. They do not identify employers, workplaces, exact duties, or the later Army-to-OSS chronology."
+    },
+    {
+      "key": "washington-post-george-causey-obituary-batch385",
+      "stable_url": "https://www.washingtonpost.com/archive/local/2007/12/14/obituaries/c9853912-bacc-4eea-8747-452fde82c3b8/",
+      "archival_identifier": "The Washington Post obituary, December 14, 2007",
+      "title": "George E. Causey: D.C. Deputy Police Chief",
+      "author_creator": "Adam Bernstein",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2007-12-14",
+      "locator": "Obituary section for George Edgar Causey; birth generation, D.C. police career, and World War II Army service",
+      "access_date": "2026-08-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post obituaries",
+      "rights_notes": "Used through a short project-authored paraphrase and minimal excerpt. The obituary does not explicitly state that the police department was his final employer before Army or OSS service."
+    },
+    {
+      "key": "hoover-cautero-north-african-index-batch385",
+      "stable_url": "https://digitalcollections.hoover.org/objects/73272/index-of-personnel-interviewed-in-the-north-african-theater",
+      "archival_identifier": "Hoover ID 69085.148",
+      "title": "Index of personnel interviewed in the North African theater of operations",
+      "author_creator": null,
+      "repository_publisher": "Hoover Institution Library & Archives, Stanford University",
+      "publication_record_date": "1944-05?",
+      "locator": "PDF page 3, entry 88; Louis A. Cautero, Technical Sergeant, Algiers",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Millard Preston Goodfellow papers; declassified U.S. government records",
+      "document_number": "69085.148",
+      "rights_notes": "The item was digitized and declassified by the U.S. government; Hoover reports no known restrictions. It corroborates wartime name, grade, and station, not a pre-service employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "metropolitan-police-department-dc-batch385",
+      "canonical_name": "Metropolitan Police Department of the District of Columbia",
+      "historical_name": "D.C. police department",
+      "aliases": [
+        "D.C. Police Department",
+        "Metropolitan Police Department",
+        "MPD"
+      ],
+      "organization_type": "municipal law-enforcement agency",
+      "sector": "state_or_local_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1861-present",
+      "normalization_notes": "The source wording is preserved as 'D.C. police department.' The canonical field distinguishes the institution from George Causey's later ranks and units, which are not treated as pre-OSS roles."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-e-causey-police-occupation-batch385",
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Policeman or detective, public service",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1945-04-14",
+      "date_precision": "Civilian-occupation code 266 recorded at Army entry on April 14, 1945; the code itself names no department, jurisdiction, employer, exact role, or workplace",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category combines policemen and detectives. It does not establish a named employer or the exact transition into OSS."
+    },
+    {
+      "key": "george-e-causey-dc-police-employment-batch385",
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "organization_key": "metropolitan-police-department-dc-batch385",
+      "organization_name_as_found": "D.C. police department",
+      "role_title": null,
+      "occupation": "Police work",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The obituary says Causey spent more than 26 years with the department and retired in 1968; the Army record records police work at April 1945 entry, but neither source states his pre-service start or final workday",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The independent biography and Army-entry occupation strongly align, but the department is not labeled immediate or last civilian employment because the sequence is not explicit."
+    },
+    {
+      "key": "louis-a-cautero-clerk-occupation-batch385",
+      "person_id": "6fb9e524-f2ac-58ef-8d48-4e18468e12a7",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Clerk, general industry",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-24",
+      "date_precision": "Civilian-occupation code 118 recorded at Army entry on August 24, 1942; the category names no employer, industry, office, exact title, or workplace",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A 1944 declassified theater index independently places the exact name as a Technical Sergeant in Algiers. The clerk category remains occupation-only evidence."
+    },
+    {
+      "key": "andrew-cavadas-welder-occupation-batch385",
+      "person_id": "3f5f84f2-97eb-5247-9312-95ac20024a78",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Welder or flame cutter",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1940-10-16",
+      "date_precision": "Civilian-occupation code 685 recorded at Army entry on October 16, 1940; the category does not distinguish welding from flame cutting or name an employer, trade specialty, or workplace",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The occupation predates the June 1942 creation of OSS, but it is not proven to have been his immediate or final civilian role before OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "george-e-causey-confirmed-identity-batch385",
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed George E. Causey is confirmed as George Edgar Causey, born in 1920, a World War II Army veteran and long-serving D.C. police employee.",
+      "evidence_excerpt": "George Edgar Causey",
+      "evidence_paraphrase": "The exact private identifier links the index to an Army row for a 1920-born George Causey; the obituary independently matches birth year, Army service, and police career.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and first and last names across two official NARA records, with independent agreement on 1920 birth, Army service, and police occupation.",
+      "temporal_assessment": "The Army row dates entry to April 14, 1945. The obituary documents a long D.C. police career but not the precise pre-Army or pre-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army name field omits the middle initial. The birth year, public-service police category, independent full-name expansion, and World War II Army service resolve that omission without exposing the identifier.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch385",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 26; identifier withheld",
+          "excerpt_override": "CAUSEY GEORGE E"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; 1920 birth and Army entry April 14, 1945; identifier withheld",
+          "excerpt_override": "CAUSEY GEORGE"
+        },
+        {
+          "source_key": "washington-post-george-causey-obituary-batch385",
+          "support_type": "supports",
+          "locator_override": "George E. Causey obituary section",
+          "excerpt_override": "George Edgar Causey"
+        }
+      ]
+    },
+    {
+      "key": "george-e-causey-police-occupation-claim-batch385",
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "affiliation_key": "george-e-causey-police-occupation-batch385",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on April 14, 1945, George E. Causey was recorded in the historical category 'Policemen and detectives, public service.'",
+      "evidence_excerpt": "Policemen and detectives, public service",
+      "evidence_paraphrase": "The exact identifier-backed Army row carries occupation code 266; the official code list supplies the public-service police and detective category wording.",
+      "identity_match_assessment": "Confirmed by exact private-identifier agreement, with independent birth-year, Army-service, and police-career corroboration.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; not evidence by itself of a named department, exact role, or immediate transition to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category does not distinguish police officer from detective or identify a jurisdiction. The named department is evaluated separately.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army-entry date and occupation code 266; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch385",
+          "support_type": "context_only",
+          "locator_override": "Physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch385",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 172; code 2-66",
+          "excerpt_override": "Policemen and detectives, public service"
+        }
+      ]
+    },
+    {
+      "key": "george-e-causey-dc-police-employment-claim-batch385",
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "affiliation_key": "george-e-causey-dc-police-employment-batch385",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "George E. Causey's D.C. police employment is the best-supported named organization associated with his Army-entry police occupation, but the accessible sources do not prove it was his immediate or last civilian pre-service employer.",
+      "evidence_excerpt": "more than 26 years with the police department",
+      "evidence_paraphrase": "The obituary documents a long D.C. police career and World War II Army service; the exact Army record independently classifies his April 1945 civilian occupation as public-service police or detective work.",
+      "identity_match_assessment": "Confirmed person identity; the independent biography matches the Army record's 1920 birth year, Army service, and police occupational field.",
+      "temporal_assessment": "Probable employer at or near Army entry, but neither source explicitly states that he left this department for the Army or OSS; immediate and last-civilian flags remain false.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified organization link and excluded from default verified-employer analytics. The later deputy-chief title is not assigned to the pre-OSS period.",
+      "sources": [
+        {
+          "source_key": "washington-post-george-causey-obituary-batch385",
+          "support_type": "supports",
+          "locator_override": "George E. Causey obituary section",
+          "excerpt_override": "more than 26 years with the police department"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry April 14, 1945; occupation code 266; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch385",
+          "support_type": "context_only",
+          "locator_override": "Code No. 30, physical page 172; code 2-66",
+          "excerpt_override": "Policemen and detectives, public service"
+        }
+      ]
+    },
+    {
+      "key": "louis-a-cautero-confirmed-identity-batch385",
+      "person_id": "6fb9e524-f2ac-58ef-8d48-4e18468e12a7",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Louis A. Cautero is confirmed as the Army entrant later documented as a Technical Sergeant in Algiers in a declassified 1944 theater index.",
+      "evidence_excerpt": "Cautero, Louis A. T Sgt. Algiers",
+      "evidence_paraphrase": "The exact name and private identifier agree across the OSS index and official Army file; a declassified theater index independently gives the same full name, grade, and Algiers station.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement, independently corroborated by an uncommon exact full name in a declassified wartime record.",
+      "temporal_assessment": "The Army record dates entry to August 24, 1942; the declassified index is dated approximately May 1944 and does not identify a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains withheld. The 1944 grade and station are identity and chronology evidence, not a pre-OSS affiliation claim.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch385",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 27; identifier withheld",
+          "excerpt_override": "CAUTERO LOUIS A"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and name record; Army entry August 24, 1942; identifier withheld",
+          "excerpt_override": "CAUTERO LOUIS A"
+        },
+        {
+          "source_key": "hoover-cautero-north-african-index-batch385",
+          "support_type": "supports",
+          "locator_override": "PDF page 3, entry 88",
+          "excerpt_override": "Cautero, Louis A. T Sgt. Algiers"
+        }
+      ]
+    },
+    {
+      "key": "louis-a-cautero-clerk-occupation-claim-batch385",
+      "person_id": "6fb9e524-f2ac-58ef-8d48-4e18468e12a7",
+      "affiliation_key": "louis-a-cautero-clerk-occupation-batch385",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on August 24, 1942, Louis A. Cautero's civilian occupation was classified in the general-industry clerk category.",
+      "evidence_excerpt": "General industry clerks",
+      "evidence_paraphrase": "The exact Army record carries occupation code 118, which the official code list defines as general industry clerks.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement plus the 1944 declassified theater record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, before the approximately May 1944 theater record; it is not proven to be the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad category names no employer, industry, office, exact clerk title, or workplace and is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry August 24, 1942; occupation code 118; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch385",
+          "support_type": "context_only",
+          "locator_override": "Physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch385",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 171; code 1-18",
+          "excerpt_override": "General industry clerks"
+        }
+      ]
+    },
+    {
+      "key": "andrew-cavadas-confirmed-identity-batch385",
+      "person_id": "3f5f84f2-97eb-5247-9312-95ac20024a78",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Andrew Cavadas is confirmed as the exact person recorded entering the United States Army on October 16, 1940.",
+      "evidence_excerpt": "CAVADAS ANDREW",
+      "evidence_paraphrase": "The OSS index and official Army merged record agree on the uncommon exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact uncommon-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry to October 16, 1940, before OSS was created; it does not establish the later Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. Public memorial and web results added no reliable named pre-service employer and were not used as identity anchors.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch385",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 28; identifier withheld",
+          "excerpt_override": "CAVADAS ANDREW"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and name record; Army entry October 16, 1940; identifier withheld",
+          "excerpt_override": "CAVADAS ANDREW"
+        }
+      ]
+    },
+    {
+      "key": "andrew-cavadas-welder-occupation-claim-batch385",
+      "person_id": "3f5f84f2-97eb-5247-9312-95ac20024a78",
+      "affiliation_key": "andrew-cavadas-welder-occupation-batch385",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on October 16, 1940, Andrew Cavadas's civilian occupation was classified in the welders-and-flame-cutters category.",
+      "evidence_excerpt": "Welders and flame cutters",
+      "evidence_paraphrase": "The exact Army record carries occupation code 685, which the official code list defines as welders and flame cutters.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact uncommon-name agreement across the OSS index and Army merged record.",
+      "temporal_assessment": "Strongly date-bounded before the June 1942 creation of OSS, but not shown to be his immediate or final civilian role before OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category does not distinguish welder from flame cutter or identify an employer, industry, product, workplace, or specialty.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry October 16, 1940; occupation code 685; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch385",
+          "support_type": "context_only",
+          "locator_override": "Physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch385",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 174; code 6-85",
+          "excerpt_override": "Welders and flame cutters"
+        }
+      ]
+    },
+    {
+      "key": "mario-cavallaro-identifier-conflict-batch385",
+      "person_id": "584f5915-8eaf-53d2-bb1d-4c414aa10420",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Mario Cavallaro's incomplete printed identifier prefix returns ten unrelated official Army records and no exact-name record, so none of those Army identities or occupations is assigned.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The visually checked index prints a seven-character identifier. A complete scan of the official fixed-width file returns ten different names sharing that prefix and no Mario Cavallaro.",
+      "identity_match_assessment": "Conflicting: the printed prefix is not unique, the returned names are unrelated, and no second wartime identifier resolves the indexed person.",
+      "temporal_assessment": "No valid Army-entry date, occupation, or pre-OSS chronology can be transferred from the unrelated records.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "No missing leading character is supplied and no convenient same-name biography is selected. Box 114 and the original personnel file are required.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch385",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 29; incomplete identifier withheld",
+          "excerpt_override": "CAVALLARO MARIO"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "contradicts",
+          "locator_override": "Ten exact prefix records with unrelated names; all identifiers and unrelated identities withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch385",
+          "support_type": "context_only",
+          "locator_override": "File limitations and fixed-width identifier field"
+        }
+      ]
+    },
+    {
+      "key": "alfred-f-cavallo-confirmed-identity-batch385",
+      "person_id": "657021a5-92b6-5f38-b7e2-d212319a6fbe",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Alfred F. Cavallo is confirmed as the exact person in an official Army-entry record dated January 16, 1946.",
+      "evidence_excerpt": "CAVALLO ALFRED F",
+      "evidence_paraphrase": "The OSS index and official Army merged record agree on the exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact full-name agreement across two official NARA records.",
+      "temporal_assessment": "The January 16, 1946 Army-entry record postdates OSS termination and therefore cannot establish a pre-OSS occupation or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity is published; the record's occupation field and Army entry are not repurposed as pre-OSS evidence. Box 114 remains necessary for the earlier chronology.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch385",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 30; identifier withheld",
+          "excerpt_override": "CAVALLO ALFRED F"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch385",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and name record; Army entry January 16, 1946; identifier withheld",
+          "excerpt_override": "CAVALLO ALFRED F"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share George Causey's exact private identifier and first and last names. The Army row's 1920 birth year, World War II entry, and public-service police occupation align independently with The Washington Post's George Edgar Causey obituary.",
+      "name_variants": [
+        "George E Causey",
+        "George E. Causey",
+        "George Edgar Causey",
+        "Causey, George E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 114 to confirm whether the D.C. police department was the immediate or last civilian employer, establish exact dates and role, and document the Army-to-OSS sequence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6fb9e524-f2ac-58ef-8d48-4e18468e12a7",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Louis A. Cautero's exact name and private identifier. A declassified 1944 theater index independently lists the exact name as a Technical Sergeant in Algiers.",
+      "name_variants": [
+        "Louis A Cautero",
+        "Louis A. Cautero",
+        "Cautero, Louis A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 114 and the cited 1944 interview for a named civilian employer, exact clerk role, Army assignment, recruitment chronology, and OSS duties.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f5f84f2-97eb-5247-9312-95ac20024a78",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Andrew Cavadas's uncommon exact name and private identifier. The Army record dates entry to October 16, 1940 and carries civilian occupation code 685.",
+      "name_variants": [
+        "Andrew Cavadas",
+        "Cavadas, Andrew"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 114 for a named welding or flame-cutting employer, exact trade, workplace, military unit, Army-to-OSS chronology, and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "584f5915-8eaf-53d2-bb1d-4c414aa10420",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index prints Mario Cavallaro with a seven-character identifier. A complete official Army-file scan returns ten unrelated exact-prefix records and no exact-name row. No missing character is supplied and no Army facts are transferred.",
+      "name_variants": [
+        "Mario Cavallaro",
+        "Cavallaro, Mario"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 114 and the original personnel-file identifier before resolving Mario Cavallaro or assigning any Army entry, occupation, unit, or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "657021a5-92b6-5f38-b7e2-d212319a6fbe",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Alfred F. Cavallo's exact full name and private identifier. The Army entry is dated January 16, 1946, after OSS termination, so its occupation is not pre-OSS evidence.",
+      "name_variants": [
+        "Alfred F Cavallo",
+        "Alfred F. Cavallo",
+        "Cavallo, Alfred F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 for Alfred F. Cavallo's status during OSS service, pre-OSS employer or affiliation, and chronology before the January 1946 Army entry.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51f9b725-5633-546a-911f-141f27f28528",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies James D. Cavanagh, a private identifier, and Box 114. The complete official Army merged file contains no exact identifier record, and common-name public results supply no second corroborating wartime identifier or reliable pre-OSS employer.",
+      "name_variants": [
+        "James D Cavanagh",
+        "James D. Cavanagh",
+        "Cavanagh, James D."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and original Army records for James D. Cavanagh's full identity, identifier interpretation, status, employer, occupation, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8efab506-2441-59f6-8e96-45a6422a18f0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Captain John E. Cavanagh Jr., a seven-character private officer identifier, and Box 114. The Army enlistment file is not an officer roster, and exact-name public results did not supply two corroborating identifiers beyond the common name and rank.",
+      "name_variants": [
+        "John E Cavanagh Jr.",
+        "John E. Cavanagh Jr.",
+        "Cavanagh, John E., Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and officer records for John E. Cavanagh Jr.'s full identity, commission, pre-OSS civilian employer or military assignment, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a21fc92-a6dc-578d-8278-0c04f4e86db8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The source image clearly prints Denbnis V. Cavanaugh with a seven-character private identifier in Box 114. Dennis was used only as an explicitly unverified search alias. Neither spelling produced an exact official Army identifier match or a corroborated wartime identity.",
+      "name_variants": [
+        "Denbnis V Cavanaugh",
+        "Denbnis V. Cavanaugh",
+        "Cavanaugh, Denbnis V."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and the original personnel file to verify the printed forename, expand the identifier, and establish identity, status, employer, occupation, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "38c09828-0451-5262-8af7-2b5237abe891",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Florence L. Cavanaugh and Box 114 without rank or private identifier. Common-name obituary, directory, newspaper, institutional, CIA, and archival results did not provide an OSS link and two corroborating wartime identifiers.",
+      "name_variants": [
+        "Florence L Cavanaugh",
+        "Florence L. Cavanaugh",
+        "Cavanaugh, Florence L."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 for Florence L. Cavanaugh's full identity, personnel status, employer or institutional affiliation, dates, and OSS recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dbccd4b9-dc9e-51e3-ba5c-f28bc491019f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Bennett M. Cave and Box 114 without rank or private identifier. Exact-name OSS, CIA, employment, obituary, directory, newspaper, institutional, Library of Congress, and archival searches produced no corroborated wartime candidate.",
+      "name_variants": [
+        "Bennett M Cave",
+        "Bennett M. Cave",
+        "Cave, Bennett M."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 for Bennett M. Cave's full identity, personnel status, pre-OSS employer or affiliation, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "george-e-causey-protocol-batch385",
+      "person_id": "97c614de-43a2-5c6d-ae95-9d9aa2557109",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "George E. Causey and George Edgar Causey: visually checked NARA index; exact private-identifier Army bulk match; official documentation and occupation code; CIA Reading Room; Library of Congress and contemporary newspaper context; exact-name OSS, D.C. police, employment, obituary, directory, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_with_identity_corroboration",
+      "started_at": "2026-08-31T00:15:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Other George E. Causey genealogy, cemetery, modern people-finder, and unrelated newspaper candidates lacked the exact birth year, police and Army alignment, or OSS index linkage.",
+      "research_notes": "Identity is confirmed. The official Army-entry police category is qualified occupation evidence. The D.C. police department is published as the best-supported named employer candidate at medium confidence, not as immediate or last civilian employment.",
+      "next_action": "Review Box 114 for direct employer and transition evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "louis-a-cautero-protocol-batch385",
+      "person_id": "6fb9e524-f2ac-58ef-8d48-4e18468e12a7",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Louis A. Cautero: visually checked NARA index; exact private-identifier Army bulk match; official documentation and occupation code; declassified North African theater index; CIA Reading Room; Library of Congress; exact-name OSS, clerk, employment, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-31T00:16:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Derivative enlistment pages and modern namesakes added no employer or independent pre-service chronology.",
+      "research_notes": "Identity and the general-industry clerk occupation are supportable; the declassified theater index corroborates a 1944 Technical Sergeant in Algiers. No reliable named employer was found.",
+      "next_action": "Review Box 114 and the interview identified by the theater index.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "andrew-cavadas-protocol-batch385",
+      "person_id": "3f5f84f2-97eb-5247-9312-95ac20024a78",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Andrew Cavadas: visually checked NARA index; exact private-identifier Army bulk match; official documentation and occupation code; CIA Reading Room; Library of Congress; exact-name OSS, Greek Operational Group, welding, employment, obituary, directory, newspaper, institutional, memorial, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-31T00:17:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Memorial, directory, genealogy, and unrelated contemporary results supplied no named pre-service employer, exact workplace, or independent Army-to-OSS chronology.",
+      "research_notes": "Identity and the welder-or-flame-cutter occupation category are confirmed and qualified. No reliable named employer was found.",
+      "next_action": "Review Box 114 for the exact trade and employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "mario-cavallaro-protocol-batch385",
+      "person_id": "584f5915-8eaf-53d2-bb1d-4c414aa10420",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Mario Cavallaro: visually checked NARA index; complete Army bulk scan of the incomplete printed identifier prefix and exact name; official documentation; CIA Reading Room; Library of Congress; exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, genealogy, and archival searches.",
+      "query_variant_type": "identifier_conflict_enhanced_protocol",
+      "started_at": "2026-08-31T00:18:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Ten official Army records share the incomplete prefix but have unrelated names. Modern Italian politicians, family trees, cemetery entries, and later namesakes lack the private identifier, Box 114 link, and OSS evidence.",
+      "research_notes": "The identifier conflict is retained. No Army identity, occupation, entry date, or employer is transferred.",
+      "next_action": "Review Box 114 and the original identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "alfred-f-cavallo-protocol-batch385",
+      "person_id": "657021a5-92b6-5f38-b7e2-d212319a6fbe",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Alfred F. Cavallo: visually checked NARA index; exact private-identifier Army bulk match; official documentation; CIA Reading Room; Library of Congress; exact-name OSS, employer, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_temporal_exclusion",
+      "started_at": "2026-08-31T00:19:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Cemetery, obituary, and directory namesakes lacked the private identifier or OSS link. The exact Army record is dated after OSS termination, so its occupation is temporally ineligible as pre-OSS evidence.",
+      "research_notes": "Identity is confirmed. No reliable pre-OSS employer or occupation was found after excluding the January 1946 Army-entry field.",
+      "next_action": "Review Box 114 for the earlier chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "james-d-cavanagh-protocol-batch385",
+      "person_id": "51f9b725-5633-546a-911f-141f27f28528",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "James D. Cavanagh: visually checked NARA index; complete exact private-identifier and exact-name Army bulk review; official documentation; CIA Reading Room; Library of Congress; exact-name OSS, Army, employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "common_name_enhanced_protocol",
+      "started_at": "2026-08-31T00:20:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No exact identifier record was found in the incomplete Army merged file. Common-name census, obituary, cemetery, and modern results lacked the middle initial, identifier, OSS link, and two corroborating wartime anchors.",
+      "research_notes": "No reliable identity or pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 114 and original Army records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "john-e-cavanagh-jr-protocol-batch385",
+      "person_id": "8efab506-2441-59f6-8e96-45a6422a18f0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Captain John E. Cavanagh Jr.: visually checked NARA index; officer-identifier handling and exact-name Army bulk context; NARA and CIA context; Library of Congress; exact-name and suffix variants; commissioned-officer, employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "common_name_officer_enhanced_protocol",
+      "started_at": "2026-08-31T00:21:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "The Army merged file is an enlistment source, not an officer roster. Common-name officers, cemetery records, and institutional results lacked the exact middle initial, suffix, private identifier, Box 114 linkage, and direct OSS evidence.",
+      "research_notes": "The indexed Captain rank supports commissioned Army officer classification only. Identity and pre-OSS affiliation remain unresolved.",
+      "next_action": "Review Box 114 and commissioned-officer records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "denbnis-v-cavanaugh-protocol-batch385",
+      "person_id": "2a21fc92-a6dc-578d-8278-0c04f4e86db8",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Denbnis V. Cavanaugh as printed, plus Dennis V. Cavanaugh as an unverified search alias: visually checked NARA index; complete private-identifier and exact-name Army bulk review; CIA Reading Room; Library of Congress; exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "source_spelling_and_unverified_alias_protocol",
+      "started_at": "2026-08-31T00:22:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The seven-character identifier has no exact Army match. Dennis Cavanaugh mill-worker, cemetery, legal, obituary, and modern results lack the printed identifier, middle initial, Box 114 link, and direct OSS evidence.",
+      "research_notes": "The source-image spelling Denbnis is preserved. Dennis remains a search alias only and is not published as a corrected or documented name variant.",
+      "next_action": "Review Box 114 and the original personnel file to verify the forename and identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "florence-l-cavanaugh-protocol-batch385",
+      "person_id": "38c09828-0451-5262-8af7-2b5237abe891",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Florence L. Cavanaugh: visually checked NARA index; official Army name context; CIA Reading Room; Library of Congress; exact-name OSS, federal employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "common_name_enhanced_protocol",
+      "started_at": "2026-08-31T00:23:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Obituaries, spouse records, directories, genealogy pages, and modern results lacked the middle initial, personnel status, OSS link, Box 114 connection, and two corroborating wartime identifiers.",
+      "research_notes": "No reliable identity or pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 114.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    },
+    {
+      "key": "bennett-m-cave-protocol-batch385",
+      "person_id": "dbccd4b9-dc9e-51e3-ba5c-f28bc491019f",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Bennett M. Cave: visually checked NARA index; official Army name context; CIA Reading Room; Library of Congress; exact-name OSS, military, employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-31T00:24:00+00:00",
+      "completed_at": "2026-08-31T00:34:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Results concerned people with Bennett as a surname or later given name, unrelated Cave families, and modern records without the middle initial, OSS link, or Box 114 connection.",
+      "research_notes": "No reliable identity or pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 114.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch385-v1"
+    }
+  ]
+}

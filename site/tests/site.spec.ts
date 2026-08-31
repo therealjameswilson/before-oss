@@ -30978,3 +30978,80 @@ test("Batch 384 preserves seven unsupported page 74 identities as explicit archi
     );
   }
 });
+
+test("Batch 385 qualifies George Causey's D.C. police evidence without inventing immediacy", async ({
+  page,
+}) => {
+  await page.goto("./people/97c614de-43a2-5c6d-ae95-9d9aa2557109/");
+  await expect(page.getByRole("heading", { name: "George E Causey", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText(
+    "Metropolitan Police Department of the District of Columbia",
+  );
+  await expect(page.locator("main")).toContainText("do not prove it was his immediate");
+});
+
+test("Batch 385 publishes only the qualified occupations supported for Cautero and Cavadas", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["6fb9e524-f2ac-58ef-8d48-4e18468e12a7", "Louis A Cautero", "general-industry clerk"],
+    ["3f5f84f2-97eb-5247-9312-95ac20024a78", "Andrew Cavadas", "welders-and-flame-cutters"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+});
+
+test("Batch 385 keeps Mario Cavallaro's incomplete-identifier conflict visible", async ({ page }) => {
+  await page.goto("./people/584f5915-8eaf-53d2-bb1d-4c414aa10420/");
+  await expect(page.getByRole("heading", { name: "Mario Cavallaro", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator("main")).toContainText("incomplete printed identifier prefix");
+  await expect(page.locator("main")).toContainText("none of those Army identities or occupations is assigned");
+});
+
+test("Batch 385 preserves six no-employer outcomes and the index's Denbnis spelling", async ({
+  page,
+}) => {
+  for (const [personId, name, identity, priority] of [
+    ["657021a5-92b6-5f38-b7e2-d212319a6fbe", "Alfred F Cavallo", "confirmed", "high"],
+    ["51f9b725-5633-546a-911f-141f27f28528", "James D Cavanagh", "unresolved", "high"],
+    ["8efab506-2441-59f6-8e96-45a6422a18f0", "John E Cavanagh Jr.", "unresolved", "high"],
+    ["2a21fc92-a6dc-578d-8278-0c04f4e86db8", "Denbnis V Cavanaugh", "unresolved", "critical"],
+    ["38c09828-0451-5262-8af7-2b5237abe891", "Florence L Cavanaugh", "unresolved", "high"],
+    ["dbccd4b9-dc9e-51e3-ba5c-f28bc491019f", "Bennett M Cave", "unresolved", "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 74");
+    await expect(page.locator(".index-record").first()).toContainText("114");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
