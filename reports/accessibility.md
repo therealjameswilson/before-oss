@@ -4,6 +4,17 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 393 release matrix passed **1,518 / 1,518** cases in 11.2 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
+new Batch 393 cases. The profiles publish five qualified, date-bounded Army-
+entry occupation groups without naming employers; use Mary Chan's direct Box
+116 citation to support identity and personnel classification without inventing
+a predecessor; preserve Commandate E. Champeau's unusual printed name and
+French note without silent correction; and route four unsupported identities
+to critical Box 116 archival review. Exact-name directory search was also
+checked on all three viewports. The focused Batch 393 regression separately
+passed **18 / 18** on the final build.
+
 The Batch 392 release matrix passed **1,500 / 1,500** cases in 11.3 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
 new Batch 392 cases. The profiles confirm Forrest L. Chambers while quarantining

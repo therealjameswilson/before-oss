@@ -31653,3 +31653,103 @@ test("Batch 392 exact-name directory searches surface the reviewed profiles", as
   await search.fill("James J Champagne");
   await expect(page.getByRole("link", { name: "James J Champagne", exact: true }).first()).toBeVisible();
 });
+
+test("Batch 393 confirms John Champe while keeping his grouped occupation separate from an employer", async ({ page }) => {
+  await page.goto("./people/7b0583ff-c3d3-576d-a48e-1760a495c233/");
+  await expect(page.getByRole("heading", { name: "John E Champe", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Foremen, n. e. c.");
+  await expect(page.locator("main")).toContainText("October 1, 1942");
+  await expect(page.locator("main")).toContainText("one-month enlistment-date discrepancy");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 393 publishes four additional dated occupation groups without naming employers", async ({ page }) => {
+  for (const [personId, name, occupation, date] of [
+    ["1b719604-d1dd-51ba-a62a-62f8103a71fa", "Ervin R Champion", "Telegraph operators", "October 15, 1942"],
+    [
+      "120cb713-67d4-55af-bb27-9849e246eeb3",
+      "Thomas W Champion",
+      "Machine shop and related occupations, n. e. c.",
+      "October 28, 1942",
+    ],
+    [
+      "6cf78e05-cd7b-56fd-bdfe-b780b9b060ad",
+      "Edward R Champlin",
+      "Kitchen workers in hotels, restaurants, railroads, steamships, etc., n. e. c.",
+      "June 15, 1942",
+    ],
+    ["b48d538b-db24-57cd-80d1-b886b1cf8741", "Low N Chan", "Foremen, n. e. c.", "October 14, 1942"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 393 uses Mary Chan's direct Box 116 citation for identity without inventing a predecessor", async ({ page }) => {
+  await page.goto("./people/4aea47ce-52ad-5035-b08f-235120829ffc/");
+  await expect(page.getByRole("heading", { name: "Mary Chan", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("civilian professional or administrative grade", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Senior Clerk-Stenographer");
+  await expect(page.locator("main")).toContainText("File 39, Box 116");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 393 preserves four unsupported Box 116 identities for critical archival review", async ({ page }) => {
+  for (const [personId, name] of [
+    ["873f0ce6-f645-5daa-a79a-b595f22c1263", "Commandate E Champeau"],
+    ["aac172ea-027f-5b75-a326-f0ec5ad2d2dc", "Virginia F Champlin"],
+    ["ff2fe753-1d79-5f17-abbc-960f3cbb341f", "Rene C Champollon"],
+    ["565a498a-d2a0-55b2-9a96-a074931038d3", "Gustave Chan"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 76");
+    await expect(page.locator(".index-record").first()).toContainText("116");
+  }
+});
+
+test("Batch 393 preserves Champeau's printed wording and French note without silent correction", async ({ page }) => {
+  await page.goto("./people/873f0ce6-f645-5daa-a79a-b595f22c1263/");
+  await expect(page.getByRole("heading", { name: "Commandate E Champeau", exact: true })).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("French");
+  await expect(page.locator("main")).toContainText("The unusual printed form is preserved without correction");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 393 exact-name directory searches surface the reviewed profiles", async ({ page }) => {
+  await page.goto("./people/");
+  const search = page.getByRole("searchbox", { name: "Search", exact: true });
+  await search.fill("Mary Chan");
+  await expect(page.getByRole("link", { name: "Mary Chan", exact: true }).first()).toBeVisible();
+  await search.fill("John E Champe");
+  await expect(page.getByRole("link", { name: "John E Champe", exact: true }).first()).toBeVisible();
+  await search.fill("Low N Chan");
+  await expect(page.getByRole("link", { name: "Low N Chan", exact: true }).first()).toBeVisible();
+});

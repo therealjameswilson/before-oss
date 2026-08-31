@@ -12,8 +12,45 @@ The build includes 23,940 person profiles, 497 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,530 unique external URLs for separate live
+The checker inventoried 49,531 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 393 citation and local release check
+
+Five of the six Batch 393 citation targets returned HTTP 200 to the automated
+GET check: the NARA personnel-index PDF, the public Army-series Catalog page,
+both official Army technical-documentation PDFs, and Konan University's copy
+of Brian Masaru Hayashi's scholarly article. Legacy.com returned HTTP 403 to
+the final automated request after the John E. Champe obituary had already been
+reviewed during evidence collection. No access control was bypassed, and no
+authenticated Catalog API request, raw API response, raw Army row, credential,
+full obituary, or full copyrighted article was stored.
+
+The static build contains 24,445 HTML files, including direct pages for all
+23,940 active person entities, 497 public organizations, and every Batch 393
+profile. Every internal link resolves; 49,531 external URLs were inventoried
+for separate live verification. The 65 public-manifest files cover 82,437,109
+bytes and passed size and SHA-256 validation in the public and built trees. The
+manifest has SHA-256
+`8a083e56b5dd0b261d0bf63f85286e0fa7b7057236a05cd5152233ac319baa92`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers, 120 formatted variants, and 24,515 artifacts.
+It rejected 1,069 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. The tracked-source credential
+scan found zero nonblank NARA keys and no local secret environment file. Three
+consecutive public-data exports reproduced path-and-content digest
+`e83f4a2db1f234cddef8db75e9d8fcbebccaa1b2fe1e5584ba22e75d7da76d37`.
+Two consecutive finalized production builds reproduced path-and-content
+static-tree digest
+`afd85c2f0e19e228378ee3fe60c406e4a14c078d3985e7a151545aa735eb24c5`.
+
+Astro diagnostics report zero errors, warnings, or hints; the six focused Batch
+393 browser scenarios pass 18 / 18 across desktop, phone, and tablet. All 75
+Python tests and five subtests, the deterministic 200-profile audit, npm's
+dependency audit, public redaction, and the internal-link gate pass. The
+complete browser and accessibility matrix passed 1,518 / 1,518 cases in 11.2
+minutes, including all 27 axe cases.
 
 ## Batch 391 production verification
 

@@ -5224,6 +5224,59 @@ full article, or newspaper page is stored or published. The durable evidence is
 in
 `research/evidence-page-seventy-six-dreama-chambers-through-roger-champagne-pathways_batch-392_2026-08-31.json`.
 
+## Page 76 Champe through Chan review, Batch 393
+
+The ten contiguous source rows from John E. Champe through Mary Chan were
+checked against a 200-dpi render of PDF page 76 rows 14-23. The immutable
+records preserve the printed names, initials, ranks, notes, restricted
+identifiers, Box 116, and shared archival location. In particular,
+`Commandate E. Champeau` and the adjacent `French` note remain exactly as
+printed; the pipeline does not silently substitute a more familiar word or
+name. Public outputs continue to mask every restricted identifier.
+
+The checksum-verified NARA Army merged file was searched transiently using its
+official fixed-width documentation. Exact name and private-identifier agreement
+confirm John E. Champe, Ervin R. Champion, Thomas W. Champion, Edward R.
+Champlin, and Low N. Chan. The independently inspected NARA code tables define
+their dated civilian occupations as `Foremen, n. e. c.`, `Telegraph operators`,
+`Machine shop and related occupations, n. e. c.`, `Kitchen workers in hotels,
+restaurants, railroads, steamships, etc., n. e. c.`, and `Foremen, n. e. c.`,
+respectively. These broad occupation groups are not employers. No company,
+workplace, industry, exact job, or later Army-to-OSS transition is inferred.
+
+The same official code-list volume was inspected at physical page 156. It
+defines source code 4, carried by Champe and Chan, as National Guard in Federal
+Service after more than three months since discharge. That source-history fact
+is preserved only as context. It does not show that the National Guard was the
+immediate OSS predecessor. A Norwich Bulletin obituary separately corroborates
+Champe's 1942 Army Air Corps and communications-training context but dates
+enlistment to September rather than the Army record's October 1. Both dates and
+the source limits remain visible.
+
+Brian Masaru Hayashi's *Asian American Mata Hari: Gender, Race, and the OSS
+during World War II* was downloaded from Konan University's institutional
+repository. Its title page, Mary Chan passage at physical page 52, and note 3
+at physical page 69 were visually checked. The article documents Mary Chan's
+June 1944 OSS Secret Intelligence hiring in Kunming, June 1945 promotion to
+Senior Clerk-Stenographer, and October 1945 transfer to Washington. Note 3
+cites direct documents in File 39, Box 116, Entry 224, RG 226, providing the
+box-specific bridge to the indexed row. It supports identity and documented
+OSS role, but it supplies no pre-OSS employer or affiliation.
+
+Official NARA context, exact-name CIA Reading Room checks, Library of Congress
+checks, employment and occupation searches, and applicable obituary,
+directory, newspaper, institutional, foreign-language, and archival searches
+were recorded for all ten people. Unrelated historical French namesakes, OCR
+fragments, common-name people-search records, and an actress named Mary Chan
+were rejected. The missing Rene C. Champollon result in the incomplete Army
+conversion is not treated as evidence against service or identity.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+full obituary, or full copyrighted article is stored or published. The durable
+evidence is in
+`research/evidence-page-seventy-six-john-champe-through-mary-chan-pathways_batch-393_2026-08-31.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
