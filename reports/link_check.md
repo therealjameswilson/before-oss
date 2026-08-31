@@ -4,16 +4,42 @@ Run: 2026-08-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,437 HTML files. Every relative
+**PASS.** The production build contains 24,439 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 489 organization profiles, and the
+The build includes 23,940 person profiles, 491 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,510 unique external URLs for separate live
+The checker inventoried 49,515 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All seven Batch 386 citation targets returned HTTP 200 to the automated GET
+check: the NARA personnel-index PDF, public Army-series Catalog page, both
+official Army technical-documentation PDFs, both Field Artillery Officer
+Candidate School rosters, and the 284th Field Artillery Battalion unit history.
+No authenticated Catalog API request was made, and no raw Catalog API response
+or Army row was stored.
+
+## Batch 386 local release check
+
+The static build contains 24,439 HTML files, including direct pages for all
+23,940 active person entities, 491 public organizations, and every Batch 386
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,954,554 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`93b3ba5a66699f7ae4cb7266ad8b21e8c17217ae5303ec5db253a814a064a17e`.
+
+The public-identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,509 production artifacts. It rejected 1,073
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. The tracked-source credential scan found zero nonblank NARA
+keys. Consecutive public-data exports reproduced path-and-content digest
+`64391f8ca340b0ad1b05270e98a89b712b0b4abfc3a2eb37cd18f03fca944052`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`b58834de8be6e9ff2019185bb38eedbde39be165babb3875263fdbd73e9ab00c`.
 
 Four Batch 385 citation targets returned HTTP 200 to the automated GET check:
 the NARA personnel-index PDF, public Army-series Catalog page, and both
@@ -128,6 +154,30 @@ keys. Consecutive public-data exports reproduced digest
 `d60565bf6e3b358f29a60aa85c1cccf26d95c0813931975f94557d50643fa0e5`.
 Consecutive finalized production builds reproduced complete static-tree digest
 `8567b9f742260f49fc97fbca21dce3a989697e8a8212001ea56f9efaad393809`.
+
+## Batch 385 production deployment
+
+Release `0d2abbf925fdcd590384fe450199e73ec8cd0336` passed the pull-request Test
+workflow
+[33347850420](https://github.com/therealjameswilson/before-oss/actions/runs/33347850420)
+and Pages workflow
+[33348989854](https://github.com/therealjameswilson/before-oss/actions/runs/33348989854).
+The clean runner repeated the Python suite, complete 24,437-page internal-link
+check, 1,398-case browser and accessibility matrix, source-PDF reconstruction,
+and private-identifier audit before merge.
+
+The cache-busted production audit opened seven core routes and all ten Batch 385
+person profiles. All 17 returned HTTP 200 and contained the expected
+page-specific marker. The live manifest and all 65 listed assets matched the
+audited local release byte for byte, covering 81,874,519 bytes with zero
+failures. The live manifest SHA-256 is
+`ed8f499006a2656570dd62face2cf201dfc82e4bf10e5b1e90769640fe2d0a62`.
+The live statistics report 23,978 source rows, 23,940 people, 3,634 attempted
+profiles, 484 people with a verified affiliation, 207 people with a verified
+employer, 3,587 archival-review assessments, 2,831 published claims, and 2,506
+public sources. Download checks returned 23,941 personnel CSV lines, 23,940
+personnel JSONL records, 490 organization CSV lines, 1,417 affiliation CSV
+lines, and 2,507 source CSV lines.
 
 ## Batch 384 production deployment
 

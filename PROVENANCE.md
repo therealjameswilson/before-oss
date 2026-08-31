@@ -4886,6 +4886,54 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-four-george-e-causey-through-bennett-m-cave-pathways_batch-385_2026-08-30.json`.
 
+## Page 74 Cave through Cebrian review, Batch 386
+
+PDF page 74 rows 36-45 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct rows
+from Marion S. Cave through John C. Cebrian in Box 114. The source image clearly
+prints **Katehrine N Cawthon**; “Katherine” was used only as an unverified search
+alias and is not published as a corrected or documented variant. Every printed
+spelling, blank rank, box, location, and private identifier remains immutable in
+the ignored SQLite database, while public output masks each identifier.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width field
+documentation and Civilian Occupations code list. Exact name-and-identifier
+agreement confirms Sherman B. Cawley and John C. Cebrian. Their Army-entry rows
+support the qualified historical occupation categories Actors and actresses and
+Foremen, not elsewhere classified. Those categories name no employer,
+production, medium, industry, worksite, exact role, or later OSS chronology.
+
+Gano D. Caywood's printed identifier resolves to a differently named official
+Army subject. The public profile exposes the conflict without publishing that
+different identity or transferring its occupation, entry, residence, education,
+or military facts. Richard C. Cavendish and Stanmore Cawthon have incomplete
+printed identifiers; neither was padded, guessed, or treated as a failed exact
+match.
+
+Two modern Fort Sill artillery OCS roster arrangements list the rare exact name
+Stanmore Cawthon in class 58-43, dated January 7-April 1, 1943. A separate
+veteran-compiled history based on the 284th Field Artillery Battalion's wartime
+after-action reports identifies Lieutenant Stanmore Cawthon among its air-section
+personnel who adjusted battalion fire. The mutually consistent artillery school,
+commission chronology, lieutenant rank, and unit evidence supports a
+high-confidence identity and two military relationships. Neither relationship is
+labeled the immediate OSS predecessor because the accessible sources do not date
+his OSS connection.
+
+A substantial University of California institutional biography for Marion
+Stilwell Cave and later Florida institutional records for a Stanmore Cawthon
+were reviewed as candidate context but withheld from public claims. A rare or
+distinctive name alone does not bridge a biography to the indexed person, and
+later career evidence does not establish a pre-OSS employer. Margaret M. Caven,
+Doris Caverly, Katehrine N. Cawthon, and Norman N. Cawthon also remain unresolved
+after the recorded multi-source protocol. Every open question routes to Box 114.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-four-marion-s-cave-through-john-c-cebrian-pathways_batch-386_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
