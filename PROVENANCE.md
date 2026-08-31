@@ -4979,6 +4979,55 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-pages-seventy-four-seventy-five-irene-e-cebula-through-paul-ceresol-pathways_batch-387_2026-08-30.json`.
 
+## Page 75 Cerik through Cerveris review, Batch 388
+
+The ten contiguous rows from Cerik Dr. through Frank N. Cerveris on PDF page
+75, rows 10-19, were checked against the already reviewed 300-dpi page image.
+All are indexed in Box 115. The source image clearly prints **Emileo F
+Cernik**; Emileo remains the immutable indexed spelling. Any modernized first
+name or differing Army-file form remains either a search alias or an explicit
+conflict unless independent evidence establishes equivalence.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width and code
+documentation. Exact name-and-private-identifier agreement confirms Karl H.
+Cerny, Florindo V. Cerreta, Roger L. Certain, and Frank N. Cerveris. The
+official occupation code list supports only the qualified residual category
+*Occupations in manufacture of textiles, n.e.c.* for Certain and *Financial
+institution clerks, n.e.c.* for Cerveris. Neither category names an employer,
+workplace, product, process, institution, department, exact job, or OSS
+transition. A different bulk-file value attached to Cerny and Cerreta remains
+uninterpreted because the official NARA code list does not supply a defensible
+meaning; the project did not substitute a nonofficial harmonized label.
+
+Michael A. Cermele's printed private identifier resolves to a wholly different
+official Army subject. Emileo F. Cernik's resolves to a close but nonidentical
+Army name whose spelling and order differ. Both are published as conflicts,
+and no facts from either Army subject are transferred. Louis A. Cerutti's short
+identifier produces no bulk-file match; because the merged file has documented
+gaps, the absence is not negative proof.
+
+The Karl H. Cerny obituary agrees with the official Army record on exact full
+name, 1922 birth year, and New York nativity. It documents Princeton Class of
+1944 membership, which is modeled only as temporally qualified student context,
+not employment or a proven immediate predecessor. The Folger Shakespeare
+Library authority record agrees with Florindo V. Cerreta's uncommon exact name
+and 1921 birth year. Later Fordham, Columbia, Voice of America, and University
+of Iowa evidence helps resolve that identity but does not establish a dated
+pre-OSS affiliation and is not converted into one.
+
+Cerik Dr., Elmer Cerin, Rose A. Cerne, and Louis A. Cerutti remain unresolved
+after the recorded official, exact-name OSS, employment, occupation,
+institutional, newspaper, obituary, directory, and archival protocol. A 1941
+Washington newspaper legal notice documents an Elmer Cherinsky name change to
+Elmer Cerin, but no middle initial, OSS role, private identifier, or Box 115
+evidence bridges the candidate. It remains rejected pending archival review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-five-cerik-through-frank-n-cerveris-pathways_batch-388_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

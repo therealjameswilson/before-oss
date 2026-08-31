@@ -4,16 +4,57 @@ Run: 2026-08-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,440 HTML files. Every relative
+**PASS.** The production build contains 24,441 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 492 organization profiles, and the
+The build includes 23,940 person profiles, 493 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,517 unique external URLs for separate live
+The checker inventoried 49,520 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Five Batch 388 citation targets returned HTTP 200 to the automated GET check:
+the NARA personnel-index PDF, public Army-series Catalog page, both official
+Army technical-documentation PDFs, and the Folger Shakespeare Library
+institutional page. The Dignity Memorial page returned HTTP 403 after its
+context had been reviewed during evidence collection; no access control was
+bypassed. No authenticated Catalog API request was made, and no raw Catalog
+API response or Army row was stored.
+
+## Batch 388 local release check
+
+The static build contains 24,441 HTML files, including direct pages for all
+23,940 active person entities, 493 public organizations, and every Batch 388
+profile. Every internal link resolves. The 65 public-manifest files cover
+82,114,232 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`6f2826b7a4f28d87e810f9476fb7a0ab955f3ef277646b609788e0efd4032610`.
+
+The public-identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,511 production artifacts. It rejected 1,067
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. The tracked-source credential scan found zero nonblank NARA
+keys. Consecutive public-data exports reproduced path-and-content digest
+`978a3307fc9873223bdf01facbcb1e2962c6963216c4501cedf50a53df7b0529`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`705a160aa3c47470d55ca2d945050156a28003a8fa514a7634fda2fa0b095429`.
+
+## Batch 387 production verification
+
+The cache-busted production audit opened seven core routes and all ten Batch
+387 person profiles. All 17 returned HTTP 200. The live manifest and all 65
+listed assets matched the audited local release byte for byte across
+82,034,649 bytes with zero failures. The live manifest SHA-256 is
+`a4e17541b6727b5bec4aec0b8391fe542bc459e8d5123ccfc4a327e4fea6be90`.
+The live statistics reported 23,978 source rows, 23,940 active people, 3,654
+research attempts, 486 people with verified affiliations, 207 people with
+verified employers, 3,607 archival-review assessments, 2,849 published claims,
+and 2,517 public sources. Public download line counts were 23,941 for personnel
+CSV, 23,940 for personnel JSONL, 493 for organizations CSV, 1,427 for
+affiliations CSV, and 2,518 for sources CSV.
 
 All five Batch 387 citation targets returned HTTP 200 to the automated GET
 check: the NARA personnel-index PDF, public Army-series Catalog page, both

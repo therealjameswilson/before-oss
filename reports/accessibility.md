@@ -4,6 +4,18 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 388 release matrix passed **1,434 / 1,434** cases in 10.9 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 388 cases. The profiles publish only the qualified Army-entry
+occupations supported for Roger L. Certain and Frank N. Cerveris; quarantine
+the incompatible official identifiers returned for Michael A. Cermele and
+Emileo F. Cernik; qualify Karl H. Cerny's Princeton student context and
+Florindo V. Cerreta's postwar identity evidence without turning either into a
+pre-OSS employer; preserve the index's printed **Dr. Cerik** display order; and
+route four unresolved identities to their indexed Box 115 files. The focused
+Batch 388 regression separately passed **12 / 12** on the final build, and the
+combined Batch 290 and 388 wording regression passed **15 / 15**.
+
 The Batch 387 release matrix passed **1,422 / 1,422** cases in 10.4 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 387 cases. The profiles publish only the qualified Army-entry
