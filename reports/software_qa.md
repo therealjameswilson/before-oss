@@ -5,8 +5,28 @@ Run: 2026-08-30 UTC
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,435 pages**
-- Internal link check: **24,435 HTML files passed**
+- Static production build: **24,436 pages**
+- Internal link check: **24,436 HTML files passed**
+- Batch 384 complete browser and accessibility matrix: **1,386 / 1,386
+  passed** in 10.2 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all twelve new Batch 384
+  cases; the focused regression separately passed **12 / 12** on the final
+  build. The database passed `quick_check`, had zero foreign-key violations,
+  and passed the deterministic 200-profile audit. Extraction validation passed
+  all 522 pages and 23,978 rows. The public-identifier audit examined 12,926
+  normalized private identifiers and 120 formatted variants across 24,506
+  production artifacts, rejected 1,069 substring coincidences, and found zero
+  aggregate, manifest-size, or unexpected boundary matches. The direct four-
+  identifier current-batch audit and tracked-source credential scan also found
+  zero matches. All 130 public-manifest source/build checks passed for 65
+  assets totaling 81,790,388 bytes. All six Batch 384 citation endpoints
+  returned HTTP 200. The dependency audit found zero vulnerabilities.
+  Consecutive exports reproduced path-and-content public-data digest
+  `589f8c8f729e135e7a83ed243231de1cda0ba39aa422ebb009576b7e7d7e280e`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `5ef09a0da4b35ced918bba2bc63eb800349d758a435253095aa3348efe059071`;
+  and the public manifest digest is
+  `8840a1e4f97d636589b5379237e7d545c6a5b49ab492c888a8c67b72f5fbf566`.
 - Batch 383 complete browser and accessibility matrix: **1,374 / 1,374
   passed** in 10.1 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all fifteen new Batch 383

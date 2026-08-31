@@ -4775,6 +4775,64 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-four-james-g-cate-through-kenneth-a-cathwell-pathways_batch-383_2026-08-30.json`.
 
+## Page 74 Cathy through Caunter review, Batch 384
+
+PDF page 74 rows 16-25 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct
+rows from Martha Cathy through Dallas Caunter in Boxes 113 and 114. Every
+printed spelling, blank rank, box, location, and private identifier remains
+immutable in the ignored SQLite database; public output masks each identifier.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width field
+documentation. Exact name-and-identifier agreement confirms Leo T. Catmen and
+documents Army entry on July 9, 1943. The reviewed code material did not support
+a defensible label for his occupation value, so no occupation, employer, unit,
+or OSS transition is inferred. The same exact comparison exposes a direct
+conflict for Steve J. Catlos: the identifier printed in the index resolves to
+a different official Army subject. The unrelated name and record remain
+private, and none of their Army facts are transferred.
+
+The National Park Service's official *OSS in Action* history identifies a
+Sergeant Steve J. Catlos among the Secret Intelligence personnel sent from
+Budapest into Slovakia. The exact uncommon name and OSS context are strong
+evidence, but they do not erase the official identifier conflict. The public
+profile therefore presents the disagreement explicitly, excludes it from
+default analytics, and routes the question to Box 113 and the original Army
+record.
+
+A dated Jennifer Davoren profile from the May 26, 2001 *Aspen Times Weekly*,
+republished by the successor architectural firm, identifies Samuel Jefferson
+Caudill, dates his Cornell entry to fall 1940, places a short stint at the Fort
+Riley cavalry school after Cornell, and then records service as an Army OSS
+second lieutenant in China. Cornell's institutional alumni notice independently
+corroborates Samuel J. Caudill Jr.'s class, 1946 architecture degree, veteran
+status, and profession. The uncommon name, OSS service, chronology, and
+institutional corroboration support a high-confidence identity rather than a
+confirmed one because the short identifier printed in the index does not yield
+an exact Army conversion match.
+
+The public model keeps the chronology's categories separate. Cornell is
+documented prewar student status, never an employer. The Fort Riley cavalry
+school is a qualified probable immediate military training assignment, not a
+civilian employer. The absence of a named civilian employer remains visible,
+and Box 114 is still needed to confirm dates, transfer orders, and any paid
+pre-service work.
+
+Martha Cathy, Jean E. Cattier, Robert J. Catto, Harvey Cattrall, Olga T.
+Caudioso, James R. Caudle, and Dallas Caunter remain unresolved after official,
+CIA, current Library of Congress, exact-name OSS, employment, occupation,
+institutional, newspaper, obituary, directory, and archival searches. A
+postwar information-service Robert J. Catto candidate did not establish that
+its subject belonged to the nearby OSS team, and substring-only Army results
+for James R. Caudle were rejected. Each unresolved profile routes to its
+indexed Box 113 or 114 file.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-four-martha-cathy-through-dallas-caunter-pathways_batch-384_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
