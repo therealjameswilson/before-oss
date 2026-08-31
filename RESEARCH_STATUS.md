@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-31 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,683 people with a non-planned attempt | 23,940 active person entities | 15.3843% |
-| Verified-affiliation coverage | 487 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0343% |
+| Research-attempt coverage | 3,693 people with a non-planned attempt | 23,940 active person entities | 15.4261% |
+| Verified-affiliation coverage | 488 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0384% |
 | Verified-employer coverage | 208 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8688% |
-| Archival-review coverage | 3,636 people with an individual file-access/priority assessment | 23,940 active person entities | 15.1880% |
+| Archival-review coverage | 3,646 people with an individual file-access/priority assessment | 23,940 active person entities | 15.2297% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-08-31 UTC.
 - Possible duplicate groups: 231
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 710
-- Identity status `high_confidence`: 529
+- Identity status `confirmed`: 711
+- Identity status `high_confidence`: 531
 - Identity status `probable`: 119
 - Identity status `ambiguous`: 60
 - Identity status `conflicting`: 68
-- Identity status `unresolved`: 22,454
+- Identity status `unresolved`: 22,451
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,999
+- Unknown or indeterminate: 15,998
 - Enlisted Army personnel: 3,922
 - Commissioned Army officers: 2,106
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
 - Enlisted Marine Corps personnel: 3
-- Civilian professional or administrative grades: 1,495
+- Civilian professional or administrative grades: 1,496
 - Foreign or Allied military personnel: 250
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 85
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,225 yes; 5,588 no; 16,127 indeterminate.
+Commissioned classification: 2,225 yes; 5,589 no; 16,126 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,257
+- `not_started`: 20,247
 - `in_progress`: 46
 - `candidate_found`: 1
-- `needs_identity_review`: 102
+- `needs_identity_review`: 104
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 67
-- `no_reliable_result_after_protocol`: 44
-- `occupation_only_found`: 596
-- `requires_archival_review`: 2,430
+- `no_reliable_result_after_protocol`: 49
+- `occupation_only_found`: 597
+- `requires_archival_review`: 2,432
 - `completed`: 117
 - `conflicting_sources`: 66
 - `verified_employer_found`: 205
-- Claim confidence: 888 confirmed; 1,131 high; 779 medium; 54 low; 78
+- Claim confidence: 889 confirmed; 1,134 high; 781 medium; 54 low; 78
   conflicting
-- Durable evidence inventory: 3,640 source records representing 1,692 unique
-  documents; 507 organizations; 1,447 affiliations; 2,930 claims; and 6,647
+- Durable evidence inventory: 3,648 source records representing 1,697 unique
+  documents; 509 organizations; 1,450 affiliations; 2,936 claims; and 6,661
   claim-source links
-- Reviewed public projection: 495 organizations; 1,436 published, qualified,
-  or conflict-visible affiliations; 2,874 published, qualified, or
-  conflict-visible claims; and 2,533 public citation records
+- Reviewed public projection: 497 organizations; 1,439 published, qualified,
+  or conflict-visible affiliations; 2,880 published, qualified, or
+  conflict-visible claims; and 2,541 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -76,15 +76,15 @@ Commissioned classification: 2,225 yes; 5,588 no; 16,127 indeterminate.
 - Live Library of Congress attempts: 426
 - Web-adapter attempts recorded: 673
 - Reviewed-source attempts recorded across the versioned review adapters:
-  3,422. The detailed adapter breakdown remains reproducible in
+  3,432. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,594; 156 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,597; 157 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,897
+- Total recorded attempts/plans: 4,907
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,411; 1,366 have at least one public-visible
+- People with saved reviewed claims: 1,414; 1,369 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -7207,6 +7207,73 @@ Commissioned classification: 2,225 yes; 5,588 no; 16,127 indeterminate.
   Catalog request, credential, raw API response, raw Army payload, full private
   identifier, unsupported employer, or unrelated namesake biography is stored
   or published.
+- Batch 391 covers the next ten contiguous rows, Nicholas Chako through Nancy
+  Chamberlin: PDF page 75 rows 40-46 and page 76 rows 1-3. Both page images were
+  rendered at 200 dpi and checked against the immutable rows. The source keeps
+  First Lieutenant Theodore T. Chamales, French Sub-Lieutenant Louis Chamard,
+  Edward H. Chamberlain's printed `possibly` note, Technician Fifth Grade
+  Stephen S. Chamberlain, the Chamberlin spelling for Nancy, Boxes 115-116, and
+  the shared archival location exactly as printed.
+
+  NARA's independent microfilm-content list places Chamales, Theodore, T. in
+  the officer personnel record cards. A Texas A&M scholarly history explicitly
+  says Marauder veterans joined OSS Detachment 101 after the unit disbanded and
+  names Thomas Chamales among three examples. A publisher biography independently
+  identifies Tom T. Chamales with both Merrill's Marauders and Detachment 101,
+  and says he graduated from St. John's Military Academy in 1942 before
+  immediately joining the Army. The rare name, official officer classification,
+  and matching sequence support a high-confidence identity. Merrill's Marauders,
+  formally the 5307th Composite Unit (Provisional), is published as his immediate
+  military assignment. The academy remains a qualified student affiliation,
+  never an employer. No civilian employer before service was found.
+
+  Exact private-identifier comparison with NARA's unrestricted Army merged file
+  confirms Stephen S. Chamberlain. His record dates Army entry to May 31, 1943
+  and carries civilian occupation value 157. The separately inspected official
+  three-digit table displays `1-57. Salesmen, insurance`. That exact grouped
+  occupation is published with medium confidence and strong date-bounding; no
+  insurance company, employer, workplace, exact sales job, or OSS transition is
+  inferred.
+
+  A contemporary official OSS Middle East report names Nancy Chamberlin among
+  civilian code clerks arriving from Washington for Message Center duty during
+  October 1-15, 1944. The report supports a high-confidence identity and civilian
+  personnel classification. It documents an OSS role already in progress, not a
+  pre-OSS affiliation or employer; Washington is not treated as an employing
+  organization.
+
+  Nicholas Chako's exact-name 1942 Illinois Institute of Technology staff lead
+  remains in identity review because it lacks an OSS, Box 115, military, or
+  personnel-file bridge. Edward H. Chamberlain's tempting Edward Hastings
+  Chamberlin namesake was rejected because the surname differs and no direct
+  wartime link exists. John Rensselaer Chamberlain's writing about OSS is not
+  proof that he is the indexed John R. Chamberlain. Helen H. Chakwin, Susan A.
+  Chalmers, Louis Chamard, John R. Chamberlain, and Maurice Chamberlain remain
+  unresolved after the recorded official, CIA Reading Room, Library of Congress,
+  exact-name OSS, employment, occupation, newspaper, obituary, directory,
+  institutional, foreign-language when applicable, and archival protocol.
+
+  Batch 391's strict bundle adds eight sources, two organization inputs, three
+  affiliations, six claims, fourteen claim-source links, ten person updates,
+  and ten durable attempts. Repeated import is idempotent. Saved non-planned
+  research coverage reaches 3,693 people (15.4261% of 23,940 active entities),
+  verified-affiliation coverage reaches 488 (2.0384%), verified-employer
+  coverage remains 208 (0.8688%), 3,646 people (15.2297%) have an assessed
+  archival disposition, and 20,247 remain `not_started`. Claim confidences are
+  889 confirmed, 1,134 high, 781 medium, 54 low, and 78 conflicting. The public
+  projection contains 497 organizations, 1,439 affiliations, 2,880 claims, and
+  2,541 citation records representing 1,697 unique source documents.
+
+  Schema validation, repeated-import idempotence, extraction validation for all
+  522 pages and 23,978 rows, SQLite integrity and foreign-key checks, all 75
+  Python tests, the deterministic 200-profile audit, zero-warning Astro
+  diagnostics, the 24,445-page static build, and the eighteen-case focused
+  browser regression pass. Complete browser, accessibility, link, citation,
+  manifest, dependency, determinism, identifier-redaction, CI, and deployment
+  results are recorded in the QA reports before publication. No authenticated
+  Catalog request, credential, raw API response, raw Army payload, full private
+  identifier, unsupported employer, or unrelated namesake biography is stored
+  or published.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -7501,13 +7568,13 @@ Commissioned classification: 2,225 yes; 5,588 no; 16,127 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 390, research has a saved non-planned outcome for 3,683 people,
-  or 15.3843% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 487 people (2.0343%); confirmed/high employment or self-
-  employment is 208 people (0.8688%); 3,636 people (15.1880%) have an assessed
-  archival-review disposition; and 20,257 remain `not_started`. The data
+- After Batch 391, research has a saved non-planned outcome for 3,693 people,
+  or 15.4261% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 488 people (2.0384%); confirmed/high employment or self-
+  employment is 208 people (0.8688%); 3,646 people (15.2297%) have an assessed
+  archival-review disposition; and 20,247 remain `not_started`. The data
   preserves 231 possible-duplicate groups and 71 conflict-visible people.
-  Claim confidences are 888 confirmed, 1,131 high, 779 medium, 54 low, and 78
+  Claim confidences are 889 confirmed, 1,134 high, 781 medium, 54 low, and 78
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was
