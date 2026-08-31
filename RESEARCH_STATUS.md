@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-08-30 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,575 people with a non-planned attempt | 23,940 active person entities | 14.9332% |
-| Verified-affiliation coverage | 477 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 1.9925% |
-| Verified-employer coverage | 204 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8521% |
-| Archival-review coverage | 3,528 people with an individual file-access/priority assessment | 23,940 active person entities | 14.7368% |
+| Research-attempt coverage | 3,614 people with a non-planned attempt | 23,940 active person entities | 15.0961% |
+| Verified-affiliation coverage | 483 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0175% |
+| Verified-employer coverage | 207 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8647% |
+| Archival-review coverage | 3,567 people with an individual file-access/priority assessment | 23,940 active person entities | 14.8997% |
 
 ## Extraction and identity
 
@@ -23,17 +23,17 @@ Generated from the current local SQLite database on 2026-08-30 UTC.
 - Possible duplicate groups: 231
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 673
-- Identity status `high_confidence`: 520
-- Identity status `probable`: 118
+- Identity status `confirmed`: 691
+- Identity status `high_confidence`: 522
+- Identity status `probable`: 119
 - Identity status `ambiguous`: 60
-- Identity status `conflicting`: 62
-- Identity status `unresolved`: 22,507
+- Identity status `conflicting`: 63
+- Identity status `unresolved`: 22,485
 
 ## Personnel categories
 
-- Unknown or indeterminate: 16,038
-- Enlisted Army personnel: 3,885
+- Unknown or indeterminate: 16,021
+- Enlisted Army personnel: 3,902
 - Commissioned Army officers: 2,104
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -45,30 +45,30 @@ Generated from the current local SQLite database on 2026-08-30 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
+Commissioned classification: 2,223 yes; 5,561 no; 16,156 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,365
+- `not_started`: 20,326
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 102
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 66
 - `no_reliable_result_after_protocol`: 9
-- `occupation_only_found`: 571
-- `requires_archival_review`: 2,401
-- `completed`: 108
-- `conflicting_sources`: 60
-- `verified_employer_found`: 202
-- Claim confidence: 849 confirmed; 1,110 high; 740 medium; 53 low; 72
+- `occupation_only_found`: 583
+- `requires_archival_review`: 2,419
+- `completed`: 114
+- `conflicting_sources`: 61
+- `verified_employer_found`: 204
+- Claim confidence: 869 confirmed; 1,119 high; 758 medium; 54 low; 73
   conflicting
-- Durable evidence inventory: 3,567 source records representing 1,654 unique
-  documents; 498 organizations; 1,395 affiliations; 2,824 claims; and 6,407
+- Durable evidence inventory: 3,599 source records representing 1,674 unique
+  documents; 499 organizations; 1,421 affiliations; 2,873 claims; and 6,518
   claim-source links
-- Reviewed public projection: 486 organizations; 1,384 published, qualified,
-  or conflict-visible affiliations; 2,769 published, qualified, or
-  conflict-visible claims; and 2,464 public citation records
+- Reviewed public projection: 487 organizations; 1,410 published, qualified,
+  or conflict-visible affiliations; 2,817 published, qualified, or
+  conflict-visible claims; and 2,494 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -79,12 +79,12 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   3,362. The detailed adapter breakdown remains reproducible in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,520; 156 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,546; 156 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,787
+- Total recorded attempts/plans: 4,827
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,354; 1,310 have at least one public-visible
+- People with saved reviewed claims: 1,380; 1,335 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -6762,6 +6762,60 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   request, credential, raw API response, raw Army payload, full private
   identifier, unsupported employer, or unrelated namesake biography is
   retained or published. Final release results are recorded in the QA reports.
+- Batch 383 covers James G. Cate through Kenneth A. Cathwell, the next ten
+  contiguous index rows on PDF page 74 in Boxes 111 and 113. The source page,
+  NARA Army fixed-width documentation and occupation-code page, and the
+  relevant pages of a contemporary Detachment 101 roster were rendered and
+  visually checked. Every indexed spelling, suffix, blank field, and printed
+  identifier remains immutable in the ignored database; every printed private
+  identifier is masked in public output.
+
+  Exact fixed-width private-identifier agreement with NARA's unrestricted Army
+  merged file confirms John R. Cather and supports the qualified occupation
+  category primary-school and kindergarten teacher before his February 1,
+  1941 Army entry. The record names no school or employer and does not date an
+  OSS transfer. The absence of Army-conversion matches for the other rows is
+  not treated as adverse evidence.
+
+  A timestamped archived copy of a NARA-labeled May 15, 1945 Detachment 101
+  roster confirms Robert B. Cate Jr. as a technical sergeant in Communications
+  and Charles Cathala as a technician fifth grade in Communications through
+  exact private-identifier agreement. The current former host is hijacked and
+  was rejected; only the archived roster is cited. Contemporary Dartmouth
+  records place Cate as a Class of 1945 freshman in November 1941 and in the
+  Army by November 1943. Dartmouth is published as student status, not an
+  employer or proven immediate predecessor. S. D. Cater Jr.'s existing Harvard
+  student pathway was re-audited without duplicating its affiliation or claim.
+
+  James G. Cate, Lorraine E. Cate, Virginia J. Cate, Junior H. Cates, Lorraine
+  Catha, and Kenneth A. Cathwell remain unresolved; Charles Cathala's pre-OSS
+  affiliation also remains unresolved despite the confirmed OSS roster
+  identity. Unsupported political, medical, military, academic, and industrial
+  namesakes remain rejected. Each unresolved question routes to the indexed
+  Box 111 or 113 personnel file.
+
+  Batch 383's strict evidence bundle adds seven sources, one organization, two
+  affiliations, five claims, twelve claim-source links, nine person updates,
+  and ten durable research attempts. Repeated import is idempotent. Research
+  now has a saved non-planned outcome for 3,614 people (15.0961% of 23,940
+  active entities); confirmed/high affiliation coverage is 483 people
+  (2.0175%), confirmed/high employment or self-employment remains 207 people
+  (0.8647%), 3,567 people (14.8997%) have an assessed archival-review
+  disposition, and 20,326 remain `not_started`. Claim confidences are 869
+  confirmed, 1,119 high, 758 medium, 54 low, and 73 conflicting. The public
+  projection contains 487 organizations, 1,410 affiliations, 2,817 claims,
+  and 2,494 citation records representing 1,674 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, all 75 Python tests,
+  extraction validation for all 522 pages and 23,978 rows, SQLite integrity
+  and foreign-key checks, the deterministic 200-profile audit, zero-warning
+  Astro diagnostics, the 24,435-page build and internal-link check, the
+  field-aware public-identifier audit, the direct private-identifier evidence-
+  bundle audit, dependency audit, and all seven citation-endpoint checks pass.
+  Final browser, accessibility, determinism, and release results are recorded
+  in the QA reports. No authenticated Catalog API request, credential, raw API
+  response, raw Army payload, full private identifier, unsupported employer,
+  or unrelated namesake biography is retained or published.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -7056,13 +7110,13 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 382, research has a saved non-planned outcome for 3,605 people,
-  or 15.0585% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 482 people (2.0134%); confirmed/high employment or self-
-  employment is 207 people (0.8647%); 3,558 people (14.8622%) have an assessed
-  archival-review disposition; and 20,335 remain `not_started`. The data
+- After Batch 383, research has a saved non-planned outcome for 3,614 people,
+  or 15.0961% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 483 people (2.0175%); confirmed/high employment or self-
+  employment is 207 people (0.8647%); 3,567 people (14.8997%) have an assessed
+  archival-review disposition; and 20,326 remain `not_started`. The data
   preserves 231 possible-duplicate groups and 66 conflict-visible people.
-  Claim confidences are 866 confirmed, 1,118 high, 757 medium, 54 low, and 73
+  Claim confidences are 869 confirmed, 1,119 high, 758 medium, 54 low, and 73
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was

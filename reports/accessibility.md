@@ -4,6 +4,17 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 383 release matrix passed **1,374 / 1,374** cases in 10.1 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
+new Batch 383 cases. The profiles publish Robert B. Cate Jr.'s Dartmouth
+student status separately from his confirmed Detachment 101 identity; confirm
+Charles Cathala's Detachment 101 Communications assignment while leaving his
+pre-OSS affiliation unresolved; publish John R. Cather's teacher occupation
+without inventing a school or employer; re-audit S. D. Cater Jr. without
+duplicating his Harvard student pathway; and route six unsupported identities
+to their indexed Box 111 or 113 files. The focused Batch 383 regression
+separately passed **15 / 15** across the three viewports.
+
 The Batch 382 release matrix passed **1,359 / 1,359** cases in 10.1 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
 new Batch 382 cases. The profiles publish Robert A. Castrignano's last civilian

@@ -15,6 +15,34 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,502 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+The finalized Batch 383 link check inventoried 49,505 unique external URLs.
+All seven Batch 383 citation targets returned HTTP 200: the NARA personnel-
+index PDF, public Army-series Catalog page, both official Army technical-
+documentation PDFs, the timestamped archived Detachment 101 roster, and both
+contemporary Dartmouth Alumni Magazine records. The current former roster host
+redirects to an unrelated hijacked domain and is intentionally not cited.
+
+## Batch 383 local release check
+
+The static build contains 24,435 HTML files, including direct pages for all
+23,940 active person entities, 487 public organizations, and every Batch 383
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,731,152 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`493de486d8d40d8c6d47cf118043deac830023c7b8137a498164a8795ad8de10`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,505 production artifacts. It rejected 1,065
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the Batch 383 evidence bundle and
+built tree against the actual current-batch private value found zero matches.
+The tracked-source credential scan found zero nonblank NARA keys. Consecutive
+public-data exports reproduced path-and-content digest
+`d9138df2b551bd0cdfa91cd406789d7ac53aacdaa7e675385d1da01d18edbfc6`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`47fd3e996125aef8dca2d2781ccdc70b05eb9161399f4eb86f4183b8e087bd5e`.
+
 All nine Batch 382 citation targets returned HTTP 200 in the automated GET
 check: the NARA personnel-index PDF, public Army-series Catalog page, both
 official technical-documentation PDFs, Robert Castrignano's obituary and two
@@ -41,6 +69,29 @@ keys. Consecutive public-data exports reproduced digest
 `d60565bf6e3b358f29a60aa85c1cccf26d95c0813931975f94557d50643fa0e5`.
 Consecutive finalized production builds reproduced complete static-tree digest
 `8567b9f742260f49fc97fbca21dce3a989697e8a8212001ea56f9efaad393809`.
+
+## Batch 382 production deployment
+
+Release `a856be1a8045690c7ecd1b8a1d31c205f1a9a8ee` passed the pull-request Test
+workflow
+[33342782569](https://github.com/therealjameswilson/before-oss/actions/runs/33342782569)
+and Pages workflow
+[33344132291](https://github.com/therealjameswilson/before-oss/actions/runs/33344132291).
+The clean runner repeated the Python suite, complete 24,435-page internal-link
+check, 1,359-case browser and accessibility matrix, source-PDF reconstruction,
+and private-identifier audit before merge.
+
+The production audit opened seven core routes and all ten Batch 382 person
+profiles. All 17 returned HTTP 200 and matched the audited local HTML after
+plain and URL-encoded canonical-host normalization. The live manifest and all
+65 listed assets matched the audited local release byte for byte, covering
+81,676,925 bytes with zero failures. The live manifest SHA-256 is
+`9c38f803d214f0b30c0823ccc721ac3c95c4382e3230aabaa439cfb1091fa9c2`.
+The live statistics report 23,978 source rows, 23,940 people, 3,605 attempted
+profiles, 482 people with a verified affiliation, 207 people with a verified
+employer, and 3,558 archival-review assessments. Download checks returned
+23,941 personnel CSV lines, 23,940 personnel JSONL records, 488 organization
+CSV lines, 1,409 affiliation CSV lines, and 2,488 source CSV lines.
 
 ## Batch 381 local release check
 

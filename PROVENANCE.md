@@ -4725,6 +4725,56 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-three-robert-a-castrignano-through-page-seventy-four-modesto-catanzaro-pathways_batch-382_2026-08-30.json`.
 
+## Page 74 Cate through Cathwell review, Batch 383
+
+PDF page 74 rows 6-15 was rendered from the checksum-verified NARA index and
+visually checked at original resolution. The review preserves ten distinct
+rows from James G. Cate through Kenneth A. Cathwell in Boxes 111 and 113.
+Every printed spelling, suffix, blank rank cell, location, and source-row
+identifier remains immutable in the ignored SQLite database; public output
+masks every printed private identifier.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width field
+documentation and Civilian Occupations code list. Exact private-identifier
+agreement confirms John R. Cather. His record documents Army entry on February
+1, 1941, four years of college, West Virginia residence, and occupation code
+030 for primary-school and kindergarten teachers. This is published only as a
+qualified occupation: the record names no school, employer, start date, or
+Army-to-OSS chronology. No raw bulk row is retained. Missing Army-conversion
+records for the other indexed identifiers are not treated as negative proof.
+
+A contemporary Headquarters OSS Special Unit Detachment 101 roster preserved
+in a timestamped web archive was rendered and visually checked. Exact private-
+identifier agreement confirms Robert B. Cate Jr. as a technical sergeant in
+Communications and Charles Cathala as a technician fifth grade in
+Communications on May 15, 1945. The current site that formerly hosted the scan
+redirects to an unrelated hijacked domain and is rejected; the citation uses
+the timestamped archived PDF carrying its NARA RG 226, Entry UD 190, Box 35,
+Folder 4 label. The roster establishes OSS identity and assignment, not a
+pre-OSS employer.
+
+Two contemporary Dartmouth College records identify Robert B. Cate Jr. as an
+enrolled Class of 1945 freshman in November 1941 and place him in the Army by
+November 1943. Dartmouth is therefore published as documented prewar student
+status, never as an employer or proven immediate OSS predecessor. S. D. Cater
+Jr.'s existing high-confidence Harvard student pathway was re-audited without
+creating a duplicate affiliation or claim.
+
+James G. Cate, Lorraine E. Cate, Virginia J. Cate, Junior H. Cates, Lorraine
+Catha, and Kenneth A. Cathwell remain unresolved after official, CIA, current
+Library of Congress, exact-name OSS, employment, occupation, institutional,
+newspaper, obituary, directory, and archival searches. Charles Cathala's
+identity is confirmed, but his pre-OSS affiliation remains unresolved.
+Unbridged political, medical, military, academic, and industrial namesakes
+were rejected rather than published. These unresolved questions route to the
+indexed Box 111 or 113 files.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-four-james-g-cate-through-kenneth-a-cathwell-pathways_batch-383_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
