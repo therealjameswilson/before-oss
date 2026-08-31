@@ -31211,3 +31211,80 @@ test("Batch 387 preserves five unresolved page 75 outcomes and the Cederrberg an
     );
   }
 });
+
+test("Batch 388 publishes only the qualified occupation categories for Certain and Cerveris", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["21d47e7f-80f5-5ab2-968b-348e9dcab352", "Roger L Certain", "Occupations in manufacture of textiles, n.e.c."],
+    ["4c80fd3c-602d-573c-9fbb-90e66a7c2ab1", "Frank N Cerveris", "Financial institution clerks, n.e.c."],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+});
+
+test("Batch 388 keeps both official identifier conflicts visible and quarantined", async ({ page }) => {
+  for (const [personId, name, conflictText] of [
+    ["37f3633e-836a-5930-9b27-7ee255c95fd8", "Michael A Cermele", "resolves to a different official Army subject"],
+    ["9eca50bf-2561-5faf-ae62-8bb828162827", "Emileo F Cernik", "resolves to a similarly named but differently spelled and ordered official Army subject"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(conflictText);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+});
+
+test("Batch 388 qualifies Cerny's student context and Cerreta's postwar identity evidence", async ({ page }) => {
+  await page.goto("./people/c9298381-931a-58db-954e-c443873b54d0/");
+  await expect(page.getByRole("heading", { name: "Karl H Cerny", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Princeton University");
+  await expect(page.locator("main")).toContainText("student");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+
+  await page.goto("./people/e17fc892-bb0a-5362-91e5-d4cb5174b197/");
+  await expect(page.getByRole("heading", { name: "Florindo V Cerreta", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("scholar born in 1921");
+  await expect(page.locator("main")).toContainText("No publishable pre-OSS affiliation is recorded yet");
+});
+
+test("Batch 388 preserves four unresolved Box 115 identities", async ({ page }) => {
+  for (const [personId, name, priority] of [
+    ["755e4166-ce48-5360-91af-78c002b5910f", "Dr. Cerik", "critical"],
+    ["37902b13-38c3-52bf-890f-9cb10965b7c1", "Elmer Cerin", "critical"],
+    ["3b14a2f4-a7ed-5d16-983b-07d87c9c7d61", "Rose A Cerne", "high"],
+    ["57217d27-60e1-599f-b984-d6e43dfeacae", "Louis A Cerutti", "critical"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 75");
+    await expect(page.locator(".index-record").first()).toContainText("115");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});

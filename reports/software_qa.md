@@ -5,8 +5,31 @@ Run: 2026-08-31 UTC
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,440 pages**
-- Internal link check: **24,440 HTML files passed**
+- Static production build: **24,441 pages**
+- Internal link check: **24,441 HTML files passed**
+- Batch 388 complete browser and accessibility matrix: **1,434 / 1,434
+  passed** in 10.9 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all twelve new Batch 388
+  cases; the focused regression separately passed **12 / 12**, and the
+  combined Batch 290 and 388 wording regression passed **15 / 15** on the
+  final build. The database passed `quick_check`, had zero foreign-key
+  violations, and passed the deterministic 200-profile audit. Extraction
+  validation passed all 522 pages and 23,978 rows. The public-identifier audit
+  examined 12,926 normalized private identifiers and 120 formatted variants
+  across 24,511 production artifacts, rejected 1,067 substring coincidences,
+  and found zero aggregate, manifest-size, or unexpected boundary matches. The
+  tracked-source credential scan found zero nonblank NARA keys. All 130
+  public-manifest source/build checks passed for 65 assets totaling 82,114,232
+  bytes. Five of six distinct Batch 388 citation endpoints returned HTTP 200;
+  the Dignity Memorial page returned HTTP 403 after it had been reviewed in
+  context during evidence collection, with no access control bypassed. The
+  dependency audit found zero vulnerabilities. Consecutive exports reproduced
+  path-and-content public-data digest
+  `978a3307fc9873223bdf01facbcb1e2962c6963216c4501cedf50a53df7b0529`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `705a160aa3c47470d55ca2d945050156a28003a8fa514a7634fda2fa0b095429`;
+  and the public manifest digest is
+  `6f2826b7a4f28d87e810f9476fb7a0ab955f3ef277646b609788e0efd4032610`.
 - Batch 387 complete browser and accessibility matrix: **1,422 / 1,422
   passed** in 10.4 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all twelve new Batch 387
