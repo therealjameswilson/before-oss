@@ -5179,6 +5179,51 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-pages-seventy-five-seventy-six-nicholas-chako-through-nancy-chamberlin-pathways_batch-391_2026-08-31.json`.
 
+## Page 76 Chambers through Champagne review, Batch 392
+
+The ten contiguous source rows from Dreama I. Chambers through Roger J.
+Champagne were checked against a 200-dpi render of PDF page 76 rows 4-13. The
+immutable records preserve all printed spellings, initials, ranks, notes,
+restricted identifiers, Box 116, the shared archival location, and William E.
+Chambers Jr.'s suffix. Public outputs continue to mask restricted identifiers.
+
+The checksum-verified NARA Army merged file was searched transiently using the
+official fixed-width documentation. Exact name and private-identifier agreement
+confirm Forrest L. Chambers and James J. Champagne. Forrest's June 10, 1943
+entry carries residual occupation value 992; the inspected documentation does
+not decode that value, so it is withheld. James's March 19, 1941 entry carries
+value 581. NARA's separately inspected three-digit code list displays `5-81.
+Repairmen and mechanics, motor vehicle` at physical page 178. The public record
+uses that grouped historical occupation only and does not infer an employer,
+workplace, exact mechanical trade, or OSS transition. The remaining eligible
+identifiers did not produce compatible rows in this incomplete Army file; those
+absences were not used as evidence against identity or service.
+
+Jorge Marco's peer-reviewed article *Spanish Antifascists in the Office of
+Strategic Services* was downloaded from the Institución Fernando el Católico
+repository and reviewed at article pages 73-74 and footnotes 61 and 65. Its
+citations to RG 226 Downes papers support the identification of Miguel Chamorro
+among the Spaniards recruited from Mexico, his Area B training, and his place
+in the Spanish OSS operational group by November 1942. These findings support
+identity and an OSS training affiliation. They do not establish a pre-OSS
+employer, and the place of recruitment is not normalized as one.
+
+Official NARA context, exact-name CIA Reading Room searches, the Library of
+Congress current API, employment and occupation searches, and applicable
+institutional, directory, obituary, newspaper, genealogy, and archival checks
+were recorded for all ten people. Incompatible Dreama Chambers middle-name
+evidence, an unbridged William Chambreau veteran record, genealogy-only Ben
+Chamish results, and a later Roger Champagne historian were rejected as unsafe
+namesake transfers. Seven people remain unresolved and route to Box 116; Miguel
+Chamorro also retains an archival-review path because the online evidence does
+not answer the employer question.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+full article, or newspaper page is stored or published. The durable evidence is
+in
+`research/evidence-page-seventy-six-dreama-chambers-through-roger-champagne-pathways_batch-392_2026-08-31.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
