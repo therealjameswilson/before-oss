@@ -15,6 +15,31 @@ home, directory, organizations, analysis, methodology, sources, downloads, and
 The checker inventoried 49,520 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
+All four Batch 389 citation targets returned HTTP 200 to the automated GET
+check: the NARA personnel-index PDF, public Army-series Catalog page, and both
+official Army technical-documentation PDFs. No authenticated Catalog API
+request was made, and no raw Catalog API response or Army row was stored.
+
+## Batch 389 local release check
+
+The static build contains 24,441 HTML files, including direct pages for all
+23,940 active person entities, 493 public organizations, and every Batch 389
+profile. Every internal link resolves. The 65 public-manifest files cover
+82,156,915 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`3c4cf561fb228f25d40d7cb93d9d1fb7da7a4bd5588fb7f14a8dd95cabc67a5a`.
+
+The public-identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,511 production artifacts. It rejected 1,067
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. The tracked-source credential scan found zero nonblank NARA
+keys and no local secret environment file. Consecutive public-data exports
+reproduced path-and-content digest
+`7521a3e5a19718f6ff059bbc026dc0aa2e2dacf417498387fef258128c3b8bf2`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`0c43d1bf6b6fcb8423ab7161bbb7e425879fa5a947f769081f1d9f599c49ea68`.
+
 Five Batch 388 citation targets returned HTTP 200 to the automated GET check:
 the NARA personnel-index PDF, public Army-series Catalog page, both official
 Army technical-documentation PDFs, and the Folger Shakespeare Library
@@ -22,6 +47,29 @@ institutional page. The Dignity Memorial page returned HTTP 403 after its
 context had been reviewed during evidence collection; no access control was
 bypassed. No authenticated Catalog API request was made, and no raw Catalog
 API response or Army row was stored.
+
+## Batch 388 production verification
+
+Release `847bf10` passed pull-request test workflow
+[33352652831](https://github.com/therealjameswilson/before-oss/actions/runs/33352652831),
+and Pages workflow
+[33354212593](https://github.com/therealjameswilson/before-oss/actions/runs/33354212593)
+completed successfully for the merged release. The cache-busted production
+audit opened seven core routes and all ten Batch 388 person profiles. All 17
+returned HTTP 200 and matched the audited local HTML after development and
+production canonical-host normalization.
+
+The live manifest and all 65 listed assets matched the local release byte for
+byte across 82,114,232 bytes with zero failures. The live manifest SHA-256 is
+`6f2826b7a4f28d87e810f9476fb7a0ab955f3ef277646b609788e0efd4032610`.
+The live statistics reported 23,978 source rows, 23,940 active people, 3,664
+research attempts, 486 people with verified affiliations, 207 people with
+verified employers, 3,617 archival-review assessments, 2,858 published claims,
+and 2,523 public sources. Public download line counts were 23,941 for personnel
+CSV, 23,940 for personnel JSONL, 494 for organizations CSV, 1,430 for
+affiliations CSV, and 2,524 for sources CSV. Because every fetched manifest
+asset and normalized HTML route matched its audited local counterpart, the
+production release inherits the zero-match private-identifier result.
 
 ## Batch 388 local release check
 

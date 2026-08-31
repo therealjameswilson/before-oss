@@ -5028,6 +5028,50 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-five-cerik-through-frank-n-cerveris-pathways_batch-388_2026-08-30.json`.
 
+## Page 75 Cervone through Chadd review, Batch 389
+
+The ten contiguous rows from Mario P. Cervone through Donald E. Chadd on PDF
+page 75, rows 20-29, were checked against the reviewed 300-dpi page image. All
+are indexed in Box 115. The source image and immutable source rows preserve
+**Steven J Cesar**, **Frederic E Chaar**, and Major **Philip H Chadbourn Jr.**
+exactly as printed. Steve J. Cesar is retained separately as an evidence-backed
+Army-file variant rather than a correction to the index.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width and code
+documentation. Exact private-identifier agreement confirms Steven J. Cesar,
+Morgan C. Cesari, Alex Chabe, and Donald E. Chadd. The official occupation code
+list supports only the qualified historical categories *Mechanics and
+repairmen, n.e.c.* for Cesar at Army entry on March 5, 1942 and *Welders and
+flame cutters* for Cesari at entry on September 27, 1941. Neither category
+identifies an employer, workplace, specialty, industry, exact job, or OSS
+transition.
+
+Chabe's Army entry on November 7, 1942 and Chadd's on June 10, 1944 are
+published as identity chronology only. The residual value 992 attached to each
+record remains explicitly withheld because the official NARA code list does not
+supply a defensible meaning. Mario P. Cervone and Frederic E. Chaar produced no
+exact bulk-file identifier match; that absence is not negative proof. Major
+Philip H. Chadbourn Jr. is outside the enlisted-record file's expected scope.
+
+Chadbourn's earlier high-confidence identity and 1939 Harvard student claim
+were re-audited. Official State Department and institutional Foreign Service
+sources corroborate the same OSS veteran and his postwar career but do not name
+employment between Harvard and wartime service. No new employer or duplicate
+student claim was created. A 1945 UNRRA record for another Philip H. Chadbourn
+was rejected as an insufficiently linked namesake candidate rather than
+assigned to the indexed Major.
+
+Mario P. Cervone, Paul B. Cesan, Francisco S. Cespedes, Frederic E. Chaar, and
+Ruth A. Chaconas remain unresolved after the recorded official, exact-name OSS,
+employment, occupation, institutional, newspaper, obituary, directory, and
+archival protocol. Every open identity or pre-OSS question routes to Box 115.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-five-mario-p-cervone-through-donald-e-chadd-pathways_batch-389_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
