@@ -5,8 +5,28 @@ Run: 2026-08-31 UTC
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,437 pages**
-- Internal link check: **24,437 HTML files passed**
+- Static production build: **24,439 pages**
+- Internal link check: **24,439 HTML files passed**
+- Batch 386 complete browser and accessibility matrix: **1,410 / 1,410
+  passed** in 10.3 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all twelve new Batch 386
+  cases; the focused regression separately passed **12 / 12** on the final
+  build. The database passed `quick_check`, had zero foreign-key violations,
+  and passed the deterministic 200-profile audit. Extraction validation passed
+  all 522 pages and 23,978 rows. The public-identifier audit examined 12,926
+  normalized private identifiers and 120 formatted variants across 24,509
+  production artifacts, rejected 1,073 substring coincidences, and found zero
+  aggregate, manifest-size, or unexpected boundary matches. The tracked-source
+  credential scan found zero nonblank NARA keys. All 130 public-manifest
+  source/build checks passed for 65 assets totaling 81,954,554 bytes. All seven
+  distinct Batch 386 citation endpoints returned HTTP 200. The dependency
+  audit found zero vulnerabilities. Consecutive exports reproduced path-and-
+  content public-data digest
+  `64391f8ca340b0ad1b05270e98a89b712b0b4abfc3a2eb37cd18f03fca944052`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `b58834de8be6e9ff2019185bb38eedbde39be165babb3875263fdbd73e9ab00c`;
+  and the public manifest digest is
+  `93b3ba5a66699f7ae4cb7266ad8b21e8c17217ae5303ec5db253a814a064a17e`.
 - Batch 385 complete browser and accessibility matrix: **1,398 / 1,398
   passed** in 10.3 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all twelve new Batch 385

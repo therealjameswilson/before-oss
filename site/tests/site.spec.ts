@@ -31055,3 +31055,87 @@ test("Batch 385 preserves six no-employer outcomes and the index's Denbnis spell
     );
   }
 });
+
+test("Batch 386 publishes only the qualified occupation categories for Cawley and Cebrian", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["09b0a70c-f009-563d-a951-6c6e6817e362", "Sherman B Cawley", "Actors and actresses"],
+    ["1f495b78-ec53-5055-a667-692a093ba146", "John C Cebrian", "Foremen, not elsewhere classified"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+});
+
+test("Batch 386 keeps Gano Caywood's official identifier conflict visible and quarantined", async ({
+  page,
+}) => {
+  await page.goto("./people/c052e007-3e6f-52be-b8ac-15fa745b78d9/");
+  await expect(page.getByRole("heading", { name: "Gano D Caywood", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator("main")).toContainText("resolves to a different official Army subject");
+  await expect(page.locator("main")).toContainText("no Army identity, occupation, entry date, or employer is assigned");
+});
+
+test("Batch 386 presents Stanmore Cawthon's artillery pathway without claiming OSS immediacy", async ({
+  page,
+}) => {
+  await page.goto("./people/614859f1-8937-599e-b37d-db45c016cb06/");
+  await expect(page.getByRole("heading", { name: "Stanmore Cawthon", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Field Artillery Officer Candidate School, Fort Sill",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "284th Field Artillery Battalion",
+  );
+  await expect(page.locator("main")).toContainText(
+    "During World War II, Lieutenant Stanmore Cawthon served in the 284th Field Artillery Battalion's air section",
+  );
+});
+
+test("Batch 386 preserves six unresolved outcomes and the index's Katehrine spelling", async ({
+  page,
+}) => {
+  for (const [personId, name, priority] of [
+    ["7cfa8084-8d9b-5927-97ad-3b230e7155c0", "Marion S Cave", "high"],
+    ["68cc9825-4871-563d-abb2-e6da6792fcfa", "Margaret M Caven", "high"],
+    ["59c0c6f2-a1cd-5ed5-94b2-ccec00663d33", "Richard C Cavendish", "critical"],
+    ["0599d7c0-cb88-51b6-b3c3-d521cbd2177e", "Doris Caverly", "high"],
+    ["e0258d8a-0906-5653-886e-073a15f4ff35", "Katehrine N Cawthon", "critical"],
+    ["186b3087-0a0b-5192-8c02-a8ee415209fa", "Norman N Cawthon", "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 74");
+    await expect(page.locator(".index-record").first()).toContainText("114");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});

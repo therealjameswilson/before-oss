@@ -1,0 +1,831 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS archival research workflow, batch 386",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-74-batch386",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 114",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 74, rows 36-45; Marion S. Cave through John C. Cebrian; visually checked; private identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row, spelling, blank rank, box, location, and identifier remains immutable. The source-image spelling Katehrine is preserved; Katherine is only an unverified search alias. Full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch386",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact fixed-width private-identifier review for page 74 rows 36-45; identifiers withheld",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Exact name-and-identifier matches support Sherman B. Cawley and John C. Cebrian. Gano D. Caywood's printed identifier resolves to a different Army subject, so no Army facts are transferred. Richard C. Cavendish and Stanmore Cawthon have incomplete identifiers and no exact Army match. Missing matches are not negative proof. No raw bulk record is retained."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch386",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 5-6, file limitations; physical pages 44-46, fixed-width fields; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret the merged file and its limitations. The conversion is not treated as a complete roster, and a missing match is not negative proof."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch386",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30; physical pages 170 and 175; occupation values 002 and 599; visually and textually checked",
+      "access_date": "2026-08-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official historical occupation categories. They do not identify employers, workplaces, exact duties, or the later Army-to-OSS chronology."
+    },
+    {
+      "key": "fort-sill-field-artillery-ocs-rosters-batch386",
+      "stable_url": "https://artilleryocshistory.org/uploads/1/4/5/9/145902858/ocs_class_rosters_1940s__updated_7-21-2025_.pdf",
+      "archival_identifier": "Field Artillery Officer Candidate School class roster 58-43",
+      "title": "Class Rosters 1941-1946: Field Artillery Officer Candidate School, Fort Sill, Oklahoma",
+      "author_creator": "Fort Sill Artillery Officer Candidate School Hall of Fame",
+      "repository_publisher": "Artillery OCS History",
+      "publication_record_date": "updated 2025-07-21",
+      "locator": "58-43 Class Roster; started January 7, 1943; graduated April 1, 1943; Stanmore Cawthon entry",
+      "access_date": "2026-08-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Fort Sill Artillery Officer Candidate School historical rosters",
+      "rights_notes": "Modern compiled historical roster. It is used with a separate battalion history and the NARA index; it does not establish an OSS transfer date."
+    },
+    {
+      "key": "fort-sill-artillery-ocs-alpha-list-batch386",
+      "stable_url": "https://artilleryocshistory.org/uploads/1/4/5/9/145902858/ocs_master_alpha_list__1941-73__updated_8-5-2025a.pdf",
+      "archival_identifier": "Artillery Officer Candidate School graduates, alphabetical list, page 147",
+      "title": "Fort Sill Artillery OCS Graduates 1941-1973: Alphabetical List",
+      "author_creator": "Fort Sill Artillery Officer Candidate School Hall of Fame",
+      "repository_publisher": "Artillery OCS History",
+      "publication_record_date": "updated 2025-08-05",
+      "locator": "Alphabetical list page 147; Cawthon Stanmore; class 58-43",
+      "access_date": "2026-08-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Fort Sill Artillery Officer Candidate School historical rosters",
+      "rights_notes": "Corroborative compiled roster. It repeats the class designation in an independently organized alphabetical list but does not provide an OSS chronology."
+    },
+    {
+      "key": "284th-field-artillery-helpmate-ready-batch386",
+      "stable_url": "https://284thfabn.com/helpmate.pdf",
+      "archival_identifier": "284th Field Artillery Battalion after-action history; Air Medal roster",
+      "title": "Helpmate Ready: The After Action Reports of the 284th Field Artillery Battalion during World War II",
+      "author_creator": "Horace L. Sanders and veterans of the 284th Field Artillery Battalion",
+      "repository_publisher": "284th Field Artillery Battalion historical website",
+      "publication_record_date": "2001-06-14",
+      "locator": "Air Medal section, printed page 89; Lieutenant Stanmore Cawthon among the battalion air-section personnel",
+      "access_date": "2026-08-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "284th Field Artillery Battalion after-action history",
+      "rights_notes": "Veteran-compiled unit history based on wartime after-action reports. A minimal excerpt and project-authored paraphrase are retained. The assignment is not labeled immediate to OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "field-artillery-officer-candidate-school-fort-sill-batch386",
+      "canonical_name": "Field Artillery Officer Candidate School, Fort Sill",
+      "historical_name": "Field Artillery Officer Candidate School",
+      "aliases": [
+        "Fort Sill Artillery OCS",
+        "Field Artillery OCS"
+      ],
+      "organization_type": "United States Army officer candidate school",
+      "sector": "military",
+      "city": "Fort Sill",
+      "state_or_region": "Oklahoma",
+      "country": "United States",
+      "active_dates": "1941-1946 for the wartime school represented in the reviewed roster",
+      "normalization_notes": "The wartime Field Artillery school is kept distinct from successor programs. Graduation documents a commission pathway, not a civilian employer or OSS recruitment date."
+    },
+    {
+      "key": "284th-field-artillery-battalion-batch386",
+      "canonical_name": "284th Field Artillery Battalion",
+      "historical_name": "284th Field Artillery Battalion",
+      "aliases": [
+        "284th FA Battalion",
+        "Helpmate"
+      ],
+      "organization_type": "United States Army field artillery battalion",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "active_dates": "World War II",
+      "normalization_notes": "Historical battalion kept distinct from the Field Artillery Officer Candidate School and from any later OSS assignment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "sherman-b-cawley-actor-category-batch386",
+      "person_id": "09b0a70c-f009-563d-a951-6c6e6817e362",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Actors and actresses",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-05-02",
+      "date_precision": "Civilian-occupation code 002 recorded at Army entry on May 2, 1942; the category names no employer, production, venue, medium, exact role, or workplace",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped historical category does not distinguish an actor from an actress and is not converted into an employer, production, or immediate OSS predecessor."
+    },
+    {
+      "key": "john-c-cebrian-foreman-category-batch386",
+      "person_id": "1f495b78-ec53-5055-a667-692a093ba146",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Foremen, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-08",
+      "date_precision": "Civilian-occupation code 599 recorded at Army entry on December 8, 1942; the category identifies no industry, employer, worksite, department, or precise supervisory duties",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The residual historical category is not narrowed to a specific industry, employer, workplace, title, or immediate OSS predecessor."
+    },
+    {
+      "key": "stanmore-cawthon-field-artillery-ocs-batch386",
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "organization_key": "field-artillery-officer-candidate-school-fort-sill-batch386",
+      "organization_name_as_found": "Field Artillery Officer Candidate School, Fort Sill, Oklahoma",
+      "role_title": "officer candidate; class 58-43 graduate",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1943-01-07",
+      "end_date": "1943-04-01",
+      "date_precision": "The compiled class roster dates class 58-43 from January 7 through April 1, 1943 and lists Stanmore Cawthon as a graduate; the roster does not state his OSS service date",
+      "city": "Fort Sill",
+      "state_or_region": "Oklahoma",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "published",
+      "research_notes": "The exact rare name, artillery school, 1943 commissioning chronology, and later artillery-battalion lieutenant evidence form a high-confidence military pathway. The school is not labeled immediate to OSS."
+    },
+    {
+      "key": "stanmore-cawthon-284th-field-artillery-batch386",
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "organization_key": "284th-field-artillery-battalion-batch386",
+      "organization_name_as_found": "284th Field Artillery Battalion",
+      "role_title": "lieutenant, air section",
+      "occupation": "field-artillery air observation and fire adjustment",
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": "1945",
+      "date_precision": "The battalion history places Lieutenant Stanmore Cawthon among air-section personnel who adjusted battalion fire during the European campaign and earned the Air Medal; it supplies no individual assignment or OSS-transfer dates",
+      "city": null,
+      "state_or_region": "European Theater of Operations",
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Published as a documented wartime military assignment, not a civilian employer or explicit immediate predecessor to OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "sherman-b-cawley-confirmed-identity-batch386",
+      "person_id": "09b0a70c-f009-563d-a951-6c6e6817e362",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sherman B. Cawley is confirmed as the exact person recorded entering the United States Army on May 2, 1942.",
+      "evidence_excerpt": "CAWLEY SHERMAN B",
+      "evidence_paraphrase": "The official OSS index and Army merged file agree on his exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact full-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry on May 2, 1942; it does not establish an OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. Same-name public candidates without the identifier and Box 114 link were rejected.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch386",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 40; identifier withheld",
+          "excerpt_override": "CAWLEY SHERMAN B"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch386",
+          "support_type": "supports",
+          "locator_override": "Exact full-name and private-identifier record; Army entry May 2, 1942; identifier withheld",
+          "excerpt_override": "CAWLEY SHERMAN B"
+        }
+      ]
+    },
+    {
+      "key": "sherman-b-cawley-actor-occupation-batch386",
+      "person_id": "09b0a70c-f009-563d-a951-6c6e6817e362",
+      "affiliation_key": "sherman-b-cawley-actor-category-batch386",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on May 2, 1942, Sherman B. Cawley's civilian occupation was recorded in the historical category 'Actors and actresses.'",
+      "evidence_excerpt": "Actors and actresses",
+      "evidence_paraphrase": "The exact identifier-backed Army row carries occupation code 002; NARA's official code list supplies the category wording.",
+      "identity_match_assessment": "Confirmed by the linked exact-name and exact-private-identifier identity evidence.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; not evidence of a named employer, production, exact role, or immediate transition to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is preserved without selecting a particular employer, medium, venue, or performance role.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch386",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry May 2, 1942; occupation value 002; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch386",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 170; value 002",
+          "excerpt_override": "Actors and actresses"
+        }
+      ]
+    },
+    {
+      "key": "john-c-cebrian-confirmed-identity-batch386",
+      "person_id": "1f495b78-ec53-5055-a667-692a093ba146",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed John C. Cebrian is confirmed as the exact person recorded entering the United States Army on December 8, 1942.",
+      "evidence_excerpt": "CEBRIAN JOHN C",
+      "evidence_paraphrase": "The official OSS index and Army merged file agree on his exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact full-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry on December 8, 1942; it does not establish an OSS assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. Namesakes lacking the middle initial, identifier, and Box 114 linkage were rejected.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch386",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 45; identifier withheld",
+          "excerpt_override": "CEBRIAN JOHN C"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch386",
+          "support_type": "supports",
+          "locator_override": "Exact full-name and private-identifier record; Army entry December 8, 1942; identifier withheld",
+          "excerpt_override": "CEBRIAN JOHN C"
+        }
+      ]
+    },
+    {
+      "key": "john-c-cebrian-foreman-occupation-batch386",
+      "person_id": "1f495b78-ec53-5055-a667-692a093ba146",
+      "affiliation_key": "john-c-cebrian-foreman-category-batch386",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on December 8, 1942, John C. Cebrian's civilian occupation was recorded as 'Foremen, not elsewhere classified.'",
+      "evidence_excerpt": "Foremen, not elsewhere classified",
+      "evidence_paraphrase": "The exact identifier-backed Army row carries occupation code 599; NARA's official code list supplies the residual foreman category wording.",
+      "identity_match_assessment": "Confirmed by the linked exact-name and exact-private-identifier identity evidence.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; not evidence of a named employer, industry, exact role, or immediate transition to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The residual category is preserved without inventing an employer, industry, department, or supervisory title.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch386",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army entry December 8, 1942; occupation value 599; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch386",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 175; value 599",
+          "excerpt_override": "Foremen, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "gano-d-caywood-identifier-conflict-batch386",
+      "person_id": "c052e007-3e6f-52be-b8ac-15fa745b78d9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Gano D. Caywood's printed identifier resolves to a different official Army subject, so no Army identity, occupation, entry date, or employer is assigned.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The visually checked index names Gano D. Caywood, while exact identifier comparison returns a different name in the official Army file.",
+      "identity_match_assessment": "Conflicting: the official identifier disagreement prevents transfer of the Army record, and no second wartime identifier resolves the indexed person.",
+      "temporal_assessment": "No valid Army-entry date, occupation, or pre-OSS chronology can be transferred from the different subject.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Neither the full identifier nor the different Army subject is public. Box 114 and the original personnel file are required.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch386",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 44; identifier withheld",
+          "excerpt_override": "CAYWOOD GANO D"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch386",
+          "support_type": "contradicts",
+          "locator_override": "Exact identifier resolves to a different subject; all identifying details withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-basic-documentation-batch386",
+          "support_type": "context_only",
+          "locator_override": "Fixed-width identifier field and conversion limitations"
+        }
+      ]
+    },
+    {
+      "key": "stanmore-cawthon-high-confidence-identity-batch386",
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Stanmore Cawthon is a high-confidence match to the Fort Sill field-artillery officer candidate and 284th Field Artillery Battalion lieutenant of that rare exact name.",
+      "evidence_excerpt": "Cawthon, Stanmore",
+      "evidence_paraphrase": "Two artillery OCS roster arrangements place the exact rare name in class 58-43, while a separate battalion history lists Lieutenant Stanmore Cawthon in its air section.",
+      "identity_match_assessment": "High confidence from the rare exact name plus mutually consistent field-artillery school, 1943 commission pathway, lieutenant rank, and later field-artillery battalion assignment. The incomplete printed identifier prevents confirmed status.",
+      "temporal_assessment": "The OCS roster dates graduation to April 1, 1943 and the unit history documents later wartime service; neither source dates his OSS relationship.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The incomplete seven-character index identifier has no exact Army merged-file match. This rare-name military linkage is published at high confidence, not promoted to confirmed.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-74-batch386",
+          "support_type": "supports",
+          "locator_override": "PDF page 74, row 43; incomplete identifier withheld",
+          "excerpt_override": "CAWTHON STANMORE"
+        },
+        {
+          "source_key": "fort-sill-field-artillery-ocs-rosters-batch386",
+          "support_type": "supports",
+          "locator_override": "58-43 Class Roster; Stanmore Cawthon; January 7-April 1, 1943",
+          "excerpt_override": "Cawthon, Stanmore"
+        },
+        {
+          "source_key": "fort-sill-artillery-ocs-alpha-list-batch386",
+          "support_type": "supports",
+          "locator_override": "Alphabetical list page 147; class 58-43",
+          "excerpt_override": "Cawthon Stanmore"
+        },
+        {
+          "source_key": "284th-field-artillery-helpmate-ready-batch386",
+          "support_type": "supports",
+          "locator_override": "Air Medal section, printed page 89",
+          "excerpt_override": "Lieut Stanmore Cawthon"
+        }
+      ]
+    },
+    {
+      "key": "stanmore-cawthon-field-artillery-ocs-claim-batch386",
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "affiliation_key": "stanmore-cawthon-field-artillery-ocs-batch386",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Stanmore Cawthon completed Fort Sill's Field Artillery Officer Candidate School class 58-43 on April 1, 1943.",
+      "evidence_excerpt": "Graduated April 1, 1943",
+      "evidence_paraphrase": "The class roster lists Stanmore Cawthon among class 58-43, which ran from January 7 through April 1, 1943; an alphabetical roster independently repeats the class designation.",
+      "identity_match_assessment": "High-confidence rare-name military match supported by the linked identity claim and later artillery lieutenant evidence.",
+      "temporal_assessment": "The school dates are explicit, but no source establishes whether this training preceded, overlapped, or followed any OSS relationship.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Publish as a military training and commissioning pathway, not a civilian employer or immediate pre-OSS assignment.",
+      "sources": [
+        {
+          "source_key": "fort-sill-field-artillery-ocs-rosters-batch386",
+          "support_type": "supports",
+          "locator_override": "58-43 Class Roster; January 7-April 1, 1943; Stanmore Cawthon",
+          "excerpt_override": "Cawthon, Stanmore"
+        },
+        {
+          "source_key": "fort-sill-artillery-ocs-alpha-list-batch386",
+          "support_type": "supports",
+          "locator_override": "Alphabetical list page 147; Cawthon Stanmore; class 58-43"
+        }
+      ]
+    },
+    {
+      "key": "stanmore-cawthon-284th-field-artillery-claim-batch386",
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "affiliation_key": "stanmore-cawthon-284th-field-artillery-batch386",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "During World War II, Lieutenant Stanmore Cawthon served in the 284th Field Artillery Battalion's air section, helping adjust battalion fire.",
+      "evidence_excerpt": "Lieut Stanmore Cawthon",
+      "evidence_paraphrase": "The battalion history names Lieutenant Stanmore Cawthon among the air-section personnel who spent substantial time aloft adjusting fire and earned the Air Medal.",
+      "identity_match_assessment": "High-confidence rare-name military match supported by the linked identity claim and the 1943 field-artillery officer-school roster.",
+      "temporal_assessment": "Documented wartime military service; the available sources do not establish whether or when it immediately preceded an OSS assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Publish as a military assignment, not a civilian employer or explicit immediate predecessor to OSS.",
+      "sources": [
+        {
+          "source_key": "284th-field-artillery-helpmate-ready-batch386",
+          "support_type": "supports",
+          "locator_override": "Air Medal section, printed page 89; air-section service and fire adjustment",
+          "excerpt_override": "Lieut Stanmore Cawthon"
+        },
+        {
+          "source_key": "fort-sill-field-artillery-ocs-rosters-batch386",
+          "support_type": "context_only",
+          "locator_override": "Class 58-43; 1943 field-artillery officer commissioning pathway"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "7cfa8084-8d9b-5927-97ad-3b230e7155c0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Marion S. Cave, a private identifier, and Box 114. A distinctive same-name Berkeley scholar has substantial institutional documentation, but no identifier, wartime assignment, or OSS index bridge establishes that candidate as this person.",
+      "name_variants": [
+        "Marion S Cave",
+        "Marion S. Cave",
+        "Cave, Marion S."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 for Marion S. Cave's full identity, identifier interpretation, personnel status, employer or institutional affiliation, and OSS chronology before reconsidering the Berkeley candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "68cc9825-4871-563d-abb2-e6da6792fcfa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Margaret M. Caven, a private identifier, and Box 114. Exact-name official, archival, newspaper, directory, obituary, and institutional searches produced no corroborated wartime identity.",
+      "name_variants": [
+        "Margaret M Caven",
+        "Margaret M. Caven",
+        "Caven, Margaret M."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and original personnel records for Margaret M. Caven's full identity, status, pre-OSS employer or affiliation, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "59c0c6f2-a1cd-5ed5-94b2-ccec00663d33",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Richard C. Cavendish, an incomplete six-character private identifier, and Box 114. No exact Army merged-file record or public candidate supplied two corroborating wartime identifiers.",
+      "name_variants": [
+        "Richard C Cavendish",
+        "Richard C. Cavendish",
+        "Cavendish, Richard C."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and the original index source to expand Richard C. Cavendish's identifier and establish identity, status, employer, occupation, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0599d7c0-cb88-51b6-b3c3-d521cbd2177e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Doris Caverly and Box 114 without rank or private identifier. Exact-name OSS, official, newspaper, directory, obituary, and institutional searches did not produce a safely disambiguated wartime identity.",
+      "name_variants": [
+        "Doris Caverly",
+        "Caverly, Doris"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 for Doris Caverly's full identity, personnel status, pre-OSS employer or affiliation, and recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "09b0a70c-f009-563d-a951-6c6e6817e362",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Sherman B. Cawley's exact full name and private identifier. The Army row dates entry to May 2, 1942, records a 1920 birth year, and carries civilian occupation code 002.",
+      "name_variants": [
+        "Sherman B Cawley",
+        "Sherman B. Cawley",
+        "Cawley, Sherman B."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 114 for Sherman B. Cawley's exact acting role, named employer or production, Army assignment, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e0258d8a-0906-5653-886e-073a15f4ff35",
+      "identity_status": "unresolved",
+      "identity_evidence": "The source image clearly prints Katehrine N. Cawthon in Box 114 without rank or private identifier. Katherine was used only as an explicitly unverified search alias. Neither spelling produced a corroborated wartime identity or OSS-linked source.",
+      "name_variants": [
+        "Katehrine N Cawthon",
+        "Katehrine N. Cawthon",
+        "Cawthon, Katehrine N."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and the original personnel file to verify the printed forename and establish identity, status, employer or affiliation, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "186b3087-0a0b-5192-8c02-a8ee415209fa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Norman N. Cawthon, a private identifier, and Box 114. Common-name and surname-variant results lacked an exact identifier, direct OSS link, and two corroborating wartime anchors.",
+      "name_variants": [
+        "Norman N Cawthon",
+        "Norman N. Cawthon",
+        "Cawthon, Norman N."
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 114 and original service records for Norman N. Cawthon's identity, personnel status, pre-OSS employer or affiliation, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually checked index supplies the rare exact name Stanmore Cawthon and an incomplete private identifier. Fort Sill artillery OCS rosters place the same rare name in class 58-43, and a separate 284th Field Artillery Battalion history identifies Lieutenant Stanmore Cawthon in its air section.",
+      "name_variants": [
+        "Stanmore Cawthon",
+        "Cawthon, Stanmore"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 114 to confirm the incomplete identifier, date the OSS relationship, determine whether the 284th Field Artillery Battalion immediately preceded or overlapped it, and identify any earlier civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c052e007-3e6f-52be-b8ac-15fa745b78d9",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually checked index names Gano D. Caywood and prints a private identifier. That exact identifier resolves to a differently named subject in the official Army merged file. The different record is not transferred, and no second wartime identifier resolves the conflict.",
+      "name_variants": [
+        "Gano D Caywood",
+        "Gano D. Caywood",
+        "Caywood, Gano D."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 114 and the original personnel-file identifier before assigning any Army entry, occupation, unit, employer, or identity to Gano D. Caywood.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1f495b78-ec53-5055-a667-692a093ba146",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share John C. Cebrian's exact full name and private identifier. The Army row dates entry to December 8, 1942, records a 1912 birth year, and carries civilian occupation code 599.",
+      "name_variants": [
+        "John C Cebrian",
+        "John C. Cebrian",
+        "Cebrian, John C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 114 for John C. Cebrian's industry, named employer, exact supervisory role, Army assignment, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "marion-s-cave-protocol-batch386",
+      "person_id": "7cfa8084-8d9b-5927-97ad-3b230e7155c0",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Marion S. Cave: visually checked NARA index; exact private-identifier and exact-name Army bulk review; NARA and CIA context; Library of Congress current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, university, institutional, and archival searches; Berkeley candidate review.",
+      "query_variant_type": "distinctive_name_candidate_rejection_protocol",
+      "started_at": "2026-08-31T00:44:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Institutional records document a Marion Stilwell Cave at Berkeley and a wartime federal affiliation, but no private identifier, Box 114 link, OSS statement, or second wartime anchor connects that biography to the index row. Modern and genealogy namesakes add no bridge.",
+      "research_notes": "The strong same-name biography remains a withheld candidate rather than a published identity or employer claim.",
+      "next_action": "Review Box 114 before reconsidering the Berkeley candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "margaret-m-caven-protocol-batch386",
+      "person_id": "68cc9825-4871-563d-abb2-e6da6792fcfa",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Margaret M. Caven: visually checked NARA index; exact private-identifier and exact-name Army bulk review; NARA and CIA context; Library of Congress current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, genealogy, and archival searches.",
+      "query_variant_type": "common_name_enhanced_protocol",
+      "started_at": "2026-08-31T00:45:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Obituaries, directories, genealogy pages, and modern records lacked the exact middle initial, private identifier, OSS link, and two corroborating wartime identifiers.",
+      "research_notes": "No reliable identity or pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 114.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "richard-c-cavendish-protocol-batch386",
+      "person_id": "59c0c6f2-a1cd-5ed5-94b2-ccec00663d33",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Richard C. Cavendish: visually checked NARA index; complete review of the incomplete printed identifier and exact-name Army context without padding; NARA and CIA context; Library of Congress current API; exact-name OSS, military, employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "incomplete_identifier_enhanced_protocol",
+      "started_at": "2026-08-31T00:46:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "The six-character identifier cannot be safely expanded. Common-name military, obituary, directory, genealogy, and institutional results lacked an exact identifier, Box 114 linkage, and two corroborating wartime anchors.",
+      "research_notes": "No digit is supplied or inferred, and no candidate receives the indexed identity.",
+      "next_action": "Review Box 114 and the original index source.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "doris-caverly-protocol-batch386",
+      "person_id": "0599d7c0-cb88-51b6-b3c3-d521cbd2177e",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Doris Caverly: visually checked NARA index; NARA and CIA context; Library of Congress current API; exact-name OSS, federal employment, occupation, obituary, directory, newspaper, institutional, genealogy, and archival searches.",
+      "query_variant_type": "common_name_enhanced_protocol",
+      "started_at": "2026-08-31T00:47:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Same-name obituaries, directories, genealogy pages, and modern results lacked a middle initial, OSS statement, Box 114 link, and two corroborating wartime identifiers.",
+      "research_notes": "No reliable identity or pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 114.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "sherman-b-cawley-protocol-batch386",
+      "person_id": "09b0a70c-f009-563d-a951-6c6e6817e362",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Sherman B. Cawley: visually checked NARA index; exact private-identifier Army bulk match; official file documentation and occupation code; NARA and CIA context; Library of Congress current API; exact-name OSS, actor, theater, film, employment, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-31T00:48:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Later namesakes, derivative enlistment pages, and modern entertainment results lacked the private identifier, Box 114 link, or an independently documented pre-service employer.",
+      "research_notes": "Identity and the broad actor-and-actress occupational category are confirmed and qualified. No reliable named employer or exact role was found.",
+      "next_action": "Review Box 114 for a named employer, production, role, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "katehrine-n-cawthon-protocol-batch386",
+      "person_id": "e0258d8a-0906-5653-886e-073a15f4ff35",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Katehrine N. Cawthon as printed, plus Katherine N. Cawthon as an unverified search alias: visually checked NARA index; NARA and CIA context; Library of Congress current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "source_spelling_and_unverified_alias_protocol",
+      "started_at": "2026-08-31T00:49:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Neither the printed spelling nor the unverified Katherine alias produced a direct OSS source. Obituary, directory, genealogy, and modern results lacked Box 114 linkage and two corroborating wartime identifiers.",
+      "research_notes": "The source-image spelling Katehrine is preserved. Katherine remains a search alias only and is not published as a corrected or documented name variant.",
+      "next_action": "Review Box 114 and the original personnel file to verify the forename.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "norman-n-cawthon-protocol-batch386",
+      "person_id": "186b3087-0a0b-5192-8c02-a8ee415209fa",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Norman N. Cawthon: visually checked NARA index; exact private-identifier and exact-name Army context; NARA and CIA context; Library of Congress current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, genealogy, and archival searches.",
+      "query_variant_type": "common_name_enhanced_protocol",
+      "started_at": "2026-08-31T00:50:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Military, obituary, directory, cemetery, genealogy, and modern candidates lacked the exact middle initial, private identifier, OSS link, and two corroborating wartime anchors.",
+      "research_notes": "No reliable identity or pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 114 and original service records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "stanmore-cawthon-protocol-batch386",
+      "person_id": "614859f1-8937-599e-b37d-db45c016cb06",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Stanmore Cawthon: visually checked NARA index; incomplete private-identifier Army review without padding; Fort Sill artillery OCS class and alphabetical rosters; 284th Field Artillery Battalion after-action history; NARA and CIA context; Library of Congress current API; exact-name OSS, Army, Air Medal, employment, obituary, newspaper, university, institutional, and archival searches.",
+      "query_variant_type": "rare_name_multi_identifier_military_pathway_protocol",
+      "started_at": "2026-08-31T00:51:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 15,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A University of Florida recognition and later Florida News Bureau record concern a same-name Florida subject but do not independently bridge that civilian biography to Box 114 or establish pre-OSS sequence. Results for William Stanmore Cawthon and Stanmore Cawthon Cooper are different people.",
+      "research_notes": "The rare exact name plus 1943 field-artillery commissioning and separate lieutenant-level battalion evidence supports high-confidence identity and a documented wartime military pathway. No source dates the OSS transition or names a reliable pre-OSS civilian employer.",
+      "next_action": "Review Box 114 to confirm the identifier and establish the military-to-OSS chronology and any earlier civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "gano-d-caywood-protocol-batch386",
+      "person_id": "c052e007-3e6f-52be-b8ac-15fa745b78d9",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "Gano D. Caywood: visually checked NARA index; exact private-identifier and exact-name Army bulk review; official documentation; NARA and CIA context; Library of Congress current API; exact-name OSS, employment, occupation, obituary, directory, newspaper, institutional, genealogy, and archival searches.",
+      "query_variant_type": "identifier_conflict_enhanced_protocol",
+      "started_at": "2026-08-31T00:52:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The exact official identifier resolves to a differently named Army subject. Similar Caywood records, family trees, cemeteries, and modern results lack the identifier, Box 114 link, and direct OSS evidence.",
+      "research_notes": "The identifier conflict is retained. No Army identity, occupation, entry date, or employer is transferred.",
+      "next_action": "Review Box 114 and the original personnel-file identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    },
+    {
+      "key": "john-c-cebrian-protocol-batch386",
+      "person_id": "1f495b78-ec53-5055-a667-692a093ba146",
+      "source_adapter": "multi_source_manual_review",
+      "query_text": "John C. Cebrian: visually checked NARA index; exact private-identifier Army bulk match; official file documentation and occupation code; NARA and CIA context; Library of Congress current API; exact-name OSS, foreman, employment, industry, obituary, directory, newspaper, institutional, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol",
+      "started_at": "2026-08-31T00:53:00+00:00",
+      "completed_at": "2026-08-31T01:05:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesakes, derivative enlistment pages, directories, genealogy records, and later institutional results lacked the private identifier, Box 114 link, or a documented pre-service employer and industry.",
+      "research_notes": "Identity and the broad foreman occupational category are confirmed and qualified. No reliable named employer, industry, or exact role was found.",
+      "next_action": "Review Box 114 for the industry, employer, supervisory title, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-batch386-v1"
+    }
+  ]
+}

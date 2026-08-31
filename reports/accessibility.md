@@ -4,6 +4,17 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 386 release matrix passed **1,410 / 1,410** cases in 10.3 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 386 cases. The profiles publish only the qualified Army-entry
+occupation categories supported for Sherman B. Cawley and John C. Cebrian;
+quarantine Gano D. Caywood's incompatible official Army subject; present
+Stanmore Cawthon's Field Artillery training and unit pathway without claiming
+that either assignment immediately preceded OSS service; preserve the index's
+printed **Katehrine N Cawthon** spelling; and route all unresolved questions to
+Box 115 archival review. The focused Batch 386 regression separately passed
+**12 / 12** on the final build.
+
 The Batch 385 release matrix passed **1,398 / 1,398** cases in 10.3 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 385 cases. The profiles qualify George E. Causey's D.C. police

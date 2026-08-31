@@ -4,16 +4,42 @@ Run: 2026-08-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,437 HTML files. Every relative
+**PASS.** The production build contains 24,439 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 489 organization profiles, and the
+The build includes 23,940 person profiles, 491 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,510 unique external URLs for separate live
+The checker inventoried 49,515 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+All seven Batch 386 citation targets returned HTTP 200 to the automated GET
+check: the NARA personnel-index PDF, public Army-series Catalog page, both
+official Army technical-documentation PDFs, both Field Artillery Officer
+Candidate School rosters, and the 284th Field Artillery Battalion unit history.
+No authenticated Catalog API request was made, and no raw Catalog API response
+or Army row was stored.
+
+## Batch 386 local release check
+
+The static build contains 24,439 HTML files, including direct pages for all
+23,940 active person entities, 491 public organizations, and every Batch 386
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,954,554 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`93b3ba5a66699f7ae4cb7266ad8b21e8c17217ae5303ec5db253a814a064a17e`.
+
+The public-identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,509 production artifacts. It rejected 1,073
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. The tracked-source credential scan found zero nonblank NARA
+keys. Consecutive public-data exports reproduced path-and-content digest
+`64391f8ca340b0ad1b05270e98a89b712b0b4abfc3a2eb37cd18f03fca944052`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`b58834de8be6e9ff2019185bb38eedbde39be165babb3875263fdbd73e9ab00c`.
 
 Four Batch 385 citation targets returned HTTP 200 to the automated GET check:
 the NARA personnel-index PDF, public Army-series Catalog page, and both
