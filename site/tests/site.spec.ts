@@ -31567,3 +31567,89 @@ test("Batch 391 organization pages preserve military and student relationships",
   await expect(page.locator("main")).toContainText("Theodore T Chamales");
   await expect(page.locator("main")).toContainText("student");
 });
+
+test("Batch 392 confirms Forrest Chambers while quarantining the residual occupation value", async ({ page }) => {
+  await page.goto("./people/cba19dfe-a133-5160-8a9d-1730122a1709/");
+  await expect(page.getByRole("heading", { name: "Forrest L Chambers", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("June 10, 1943");
+  await expect(page.locator("main")).toContainText("residual occupation value 992");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 392 identifies Miguel Chamorro's Spanish OSS training without inventing an employer", async ({ page }) => {
+  await page.goto("./people/497069a0-2590-5811-be7f-8725951898ed/");
+  await expect(page.getByRole("heading", { name: "Miguel Chamorro", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("OSS Area B");
+  await expect(page.locator("main")).toContainText("recruited from Mexico");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 392 publishes James Champagne's dated motor-vehicle repair occupation without naming an employer", async ({
+  page,
+}) => {
+  await page.goto("./people/c43ca7b9-9ae1-54ad-a47f-1f00c15818aa/");
+  await expect(page.getByRole("heading", { name: "James J Champagne", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Repairmen and mechanics, motor vehicle");
+  await expect(page.locator("main")).toContainText("March 19, 1941");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 392 preserves the two unsupported Chambers civilian identities", async ({ page }) => {
+  for (const [personId, name] of [
+    ["402659cb-dde7-576e-af5c-ca46e08758aa", "Dreama I Chambers"],
+    ["b3b81c25-e451-5675-ab32-9c0ed2ed4b22", "Margit H Chambers"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 76");
+    await expect(page.locator(".index-record").first()).toContainText("116");
+  }
+});
+
+test("Batch 392 preserves five identifier, suffix, and namesake archival-review boundaries", async ({ page }) => {
+  for (const [personId, name] of [
+    ["998650c6-6a8b-56fa-a308-6e48693b4659", "William P Chambers"],
+    ["b4170621-d514-592c-a079-6b9e095ed00a", "William E Chambers Jr."],
+    ["012aae39-41c6-5ac9-b32c-b4413d31a091", "William J Chambreau"],
+    ["28edff2b-309b-52a9-8757-09cee12815cd", "Ben Chamish"],
+    ["5f7e0643-3940-58ff-b443-f0911343b7a9", "Roger J Champagne"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 76");
+    await expect(page.locator(".index-record").first()).toContainText("116");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 392 exact-name directory searches surface the reviewed profiles", async ({ page }) => {
+  await page.goto("./people/");
+  const search = page.getByRole("searchbox", { name: "Search", exact: true });
+  await search.fill("Miguel Chamorro");
+  await expect(page.getByRole("link", { name: "Miguel Chamorro", exact: true }).first()).toBeVisible();
+  await search.fill("James J Champagne");
+  await expect(page.getByRole("link", { name: "James J Champagne", exact: true }).first()).toBeVisible();
+});

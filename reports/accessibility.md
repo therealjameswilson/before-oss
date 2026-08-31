@@ -4,6 +4,17 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 392 release matrix passed **1,500 / 1,500** cases in 11.3 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
+new Batch 392 cases. The profiles confirm Forrest L. Chambers while quarantining
+an undecoded residual occupation value; identify Miguel Chamorro's documented
+Spanish OSS training path without turning Mexico into an employer; publish only
+James J. Champagne's bounded motor-vehicle repair occupation; preserve the two
+unsupported Chambers civilian identities; and route five identifier, suffix,
+and namesake cases to Box 116 archival review. Exact-name directory search was
+also checked on all three viewports. The focused Batch 392 regression separately
+passed **18 / 18** on the final build.
+
 The Batch 391 release matrix passed **1,482 / 1,482** cases in 11.2 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
 new Batch 391 cases. The profiles publish Theodore T. Chamales's qualified

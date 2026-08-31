@@ -12,8 +12,66 @@ The build includes 23,940 person profiles, 497 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,529 unique external URLs for separate live
+The checker inventoried 49,530 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 391 production verification
+
+Release `0341d22` passed pull-request Test workflow
+[33359856971](https://github.com/therealjameswilson/before-oss/actions/runs/33359856971)
+and Pages workflow
+[33361676374](https://github.com/therealjameswilson/before-oss/actions/runs/33361676374).
+The cache-busted production audit opened seven core routes, all ten Batch 391
+person profiles, and both newly linked organization pages. All 19 returned
+HTTP 200 and matched the audited local HTML after development and production
+canonical-host normalization.
+
+The live manifest and all 65 listed assets matched the local release byte for
+byte across 82,317,440 bytes with zero failures. The live manifest SHA-256 is
+`93b42fd7d8ddbfb92c2bd793b750c41af18dfbbed28727ddb8578ec8ccf1d242`.
+The live statistics reported 23,978 source rows, 23,940 active people, 3,693
+research attempts, 488 people with verified affiliations, 208 people with
+verified employers, 3,646 archival-review assessments, 2,880 published claims,
+and 2,541 public sources. Public download line counts were 23,941 for personnel
+CSV, 23,940 for personnel JSONL, 498 for organizations CSV, 1,440 for
+affiliations CSV, and 2,542 for sources CSV. Because every fetched manifest
+asset and normalized HTML route matched its audited local counterpart, the
+production release inherits the zero-match private-identifier result.
+
+## Batch 392 citation and local release check
+
+All five Batch 392 citation targets returned HTTP 200 to the automated GET
+check: the NARA personnel-index PDF, the public Army-series Catalog page, both
+official Army technical-documentation PDFs, and the institutional repository
+copy of Jorge Marco's peer-reviewed article. No authenticated Catalog API
+request, raw API response, raw Army row, credential, or full copyrighted page
+was stored.
+
+The static build contains 24,445 HTML files, including direct pages for all
+23,940 active person entities, 497 public organizations, and every Batch 392
+profile. Every internal link resolves; 49,530 external URLs were inventoried
+for separate live verification. The 65 public-manifest files cover 82,356,983
+bytes and passed size and SHA-256 validation in the public and built trees. The
+manifest has SHA-256
+`7567da06d5c59a3ef3c0b378be147e2a87d1633c31cb01d5f098a3cf27f60acf`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers, 120 formatted variants, and 24,515 artifacts.
+It rejected 1,067 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. The tracked-source credential
+scan found zero nonblank NARA keys and no local secret environment file.
+Three consecutive public-data exports reproduced path-and-content digest
+`b2f33368cc4976fb0d2445a39319e79eeda84ee7fd4b04e18d0b1dd68847e64c`.
+Two consecutive finalized production builds reproduced path-and-content
+static-tree digest
+`196d7c3641d183eb3cd78a6e9f9a6223551a70cc4ec13d050ac3f40ced0681a8`.
+
+Astro diagnostics report zero errors, warnings, or hints; the six focused Batch
+392 browser scenarios pass 18 / 18 across desktop, phone, and tablet. All 75
+Python tests, the deterministic 200-profile audit, npm's dependency audit,
+public redaction, and the internal-link gate pass. The complete browser and
+accessibility matrix passed 1,500 / 1,500 cases in 11.3 minutes, including all
+27 axe cases.
 
 ## Batch 391 citation and local release check
 
