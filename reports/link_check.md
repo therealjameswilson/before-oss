@@ -4,16 +4,75 @@ Run: 2026-08-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,441 HTML files. Every relative
+**PASS.** The production build contains 24,443 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 493 organization profiles, and the
+The build includes 23,940 person profiles, 495 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,520 unique external URLs for separate live
+The checker inventoried 49,524 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 390 citation and local release check
+
+Six of seven Batch 390 citation targets returned HTTP 200 to the automated GET
+check: the NARA personnel-index PDF, public Army-series Catalog page, both
+official Army technical-documentation PDFs, the National Park Service history,
+and the Downing & Lahey obituary. The Texas Tech newspaper bitstream returned
+no bytes before the 20-second timeout during repeated final checks; the bundle
+retains its repository archival identifier and records that access condition.
+The article content had already been reviewed during evidence collection. No
+access control was bypassed, and no authenticated Catalog API request, raw API
+response, raw Army row, or full copyrighted page was stored.
+
+The static build contains 24,443 HTML files, including direct pages for all
+23,940 active person entities, 495 public organizations, and every Batch 390
+profile. Every internal link resolves. The 65 public-manifest files cover
+82,246,832 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`d58e1be19c103e91e2d30407ad65ba57d801a8d4d0ba930462ba6fa2d9371ed3`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers, 120 formatted variants, and 24,513 artifacts.
+It rejected 1,067 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. The tracked-source credential
+scan found zero nonblank NARA keys and no local secret environment file.
+Three consecutive public-data exports reproduced path-and-content digest
+`aa02a54fb15e5fbbb9ec00e72333f373743ba48b8e3061909aa0b5934c460a30`.
+Two consecutive finalized production builds reproduced path-and-content
+static-tree digest
+`6be0fffd4d7a6f915d8bb492d846bd993e2cb805dd00031e266e9467e8808082`.
+
+Astro diagnostics report zero errors, warnings, or hints, and the six focused
+Batch 390 browser scenarios pass 18 / 18 across desktop, phone, and tablet.
+All 75 Python tests, the deterministic 200-profile audit, npm's dependency
+audit, public redaction, and the internal-link gate pass. The complete browser
+and accessibility matrix passes 1,464 / 1,464 in 11.1 minutes, including all
+27 axe cases and all eighteen new Batch 390 cases.
+
+## Batch 389 production verification
+
+Release `52e7693` passed pull-request Test workflow
+[33355062823](https://github.com/therealjameswilson/before-oss/actions/runs/33355062823)
+and Pages workflow
+[33356369083](https://github.com/therealjameswilson/before-oss/actions/runs/33356369083).
+The cache-busted production audit opened seven core routes and all ten Batch
+389 person profiles. All 17 returned HTTP 200 and matched the audited local
+HTML after development and production canonical-host normalization.
+
+The live manifest and all 65 listed assets matched the local release byte for
+byte across 82,156,915 bytes with zero failures. The live manifest SHA-256 is
+`3c4cf561fb228f25d40d7cb93d9d1fb7da7a4bd5588fb7f14a8dd95cabc67a5a`.
+The live statistics reported 23,978 source rows, 23,940 active people, 3,673
+research attempts, 486 people with verified affiliations, 207 people with
+verified employers, 3,626 archival-review assessments, 2,864 published claims,
+and 2,526 public sources. Public download line counts were 23,941 for personnel
+CSV, 23,940 for personnel JSONL, 494 for organizations CSV, 1,432 for
+affiliations CSV, and 2,527 for sources CSV. Because every fetched manifest
+asset and normalized HTML route matched its audited local counterpart, the
+production release inherits the zero-match private-identifier result.
 
 All four Batch 389 citation targets returned HTTP 200 to the automated GET
 check: the NARA personnel-index PDF, public Army-series Catalog page, and both
