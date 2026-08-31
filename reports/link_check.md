@@ -1,19 +1,50 @@
 # Link check
 
-Run: 2026-08-30 UTC
+Run: 2026-08-31 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,436 HTML files. Every relative
+**PASS.** The production build contains 24,437 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 488 organization profiles, and the
+The build includes 23,940 person profiles, 489 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,508 unique external URLs for separate live
+The checker inventoried 49,510 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+Four Batch 385 citation targets returned HTTP 200 to the automated GET check:
+the NARA personnel-index PDF, public Army-series Catalog page, and both
+official Army technical-documentation PDFs. The *Washington Post* archive
+timed out under the automated transport, and the Hoover Institution object
+page returned HTTP 403; both stable pages had been reviewed in context during
+evidence collection, and no access control was bypassed. No authenticated
+Catalog API request was made, and no raw Catalog API response or Army row was
+stored.
+
+## Batch 385 local release check
+
+The static build contains 24,437 HTML files, including direct pages for all
+23,940 active person entities, 489 public organizations, and every Batch 385
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,874,519 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`ed8f499006a2656570dd62face2cf201dfc82e4bf10e5b1e90769640fe2d0a62`.
+
+The public-identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,507 production artifacts. It rejected 1,069
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the eight Batch 385 private values
+against tracked and built files found zero matches. The tracked-source scan
+found zero literal NARA credentials; the one expected workflow secret
+reference remains a nonliteral placeholder. Consecutive public-data exports
+reproduced path-and-content digest
+`e48c38bb6e8b4755362dd3622389387577c5aa6b9879b48de73e5e8a43ffb4a1`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`f785e5e14f4b02f13480ba5ea3265d2d75d8e558a44311d5d1e7d71d20d7039b`.
 
 The finalized Batch 384 citation check returned HTTP 200 for all six distinct
 targets: the NARA personnel-index PDF, the public Army-series Catalog page, the
