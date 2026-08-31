@@ -6981,6 +6981,59 @@ Commissioned classification: 2,225 yes; 5,567 no; 16,148 indeterminate.
   QA reports. No authenticated Catalog API request, credential, raw API
   response, raw Army payload, full private identifier, unsupported employer,
   or unrelated namesake biography is retained or published.
+- Batch 387 covers Irene E. Cebula through Paul Ceresol, the final row on PDF
+  page 74 and the first nine rows on page 75 in Boxes 114-115. Page 75 was
+  rendered at 300 dpi and visually checked. It confirms the printed spellings
+  **Florence M Cederrberg** and **Paul Ceresol**; Cederberg, Cedarberg,
+  Ceresole, and Ceresoli remain unverified search aliases rather than published
+  corrections. All printed spellings, ranks, notes, boxes, locations, and
+  private identifiers remain immutable in the ignored SQLite database and
+  masked in public output.
+
+  Exact fixed-width comparison with NARA's unrestricted Army merged file
+  confirms Vincent Celentano, Joseph J. Cello, and George Cenzar. Official code
+  documentation supports only their qualified civilian occupation categories
+  at Army entry: the historical chauffeur-and-driver category for Celentano and
+  Cello, and Photographers for Cenzar. None identifies an employer, workplace,
+  exact duties, later Army assignment, or Army-to-OSS chronology.
+
+  John S. Micgiel's archive-based *Project Eagle* monograph identifies Corporal
+  Józef Piecha under the operational name Józef Celer and documents his Tom
+  Collins radio assignment. The rare alias, rank, Polish military context, and
+  OSS project support a high-confidence match to the indexed Jozef Celer. His
+  immediate military pathway is published as the Independent Grenadier Company
+  of the Polish Armed Forces in the West. German Army conscription remains a
+  separate documented-prewar military relationship, and the source's statement
+  that he worked at unnamed steelworks in Moravia before that conscription is a
+  medium-confidence, qualified last civilian pre-service affiliation. No
+  company name or direct OSS recruitment date is inferred.
+
+  Irene E. Cebula, Florence M. Cederrberg, Robert F. Cell, Ethel R. Center,
+  Attilio S. Cerasi, and Paul Ceresol remain unresolved. A Smith College
+  biography and modern namesakes were withheld because the accessible evidence
+  does not bridge them to the index. Each open question routes to the indexed
+  Box 114 or Box 115 file.
+
+  Batch 387's strict evidence bundle adds five sources, two organizations, six
+  affiliations, ten claims, eighteen claim-source links, ten person updates,
+  and ten durable research attempts. Repeated import is idempotent. Research
+  now has a saved non-planned outcome for 3,654 people (15.2632% of 23,940
+  active entities); confirmed/high affiliation coverage is 486 people
+  (2.0301%), confirmed/high employment or self-employment remains 207 people
+  (0.8647%), 3,607 people (15.0668%) have an assessed archival-review
+  disposition, and 20,286 remain `not_started`. Claim confidences are 879
+  confirmed, 1,126 high, 770 medium, 54 low, and 76 conflicting. The public
+  projection contains 492 organizations, 1,426 affiliations, 2,849 claims,
+  and 2,517 citation records representing 1,686 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, extraction validation
+  for all 522 pages and 23,978 rows, SQLite integrity and foreign-key checks,
+  and public-data generation pass. Focused and complete site, browser,
+  accessibility, link, redaction, manifest, dependency, and determinism results
+  will be recorded in the QA reports before publication. No authenticated
+  Catalog API request, credential, raw API response, raw Army payload, full
+  private identifier, unsupported employer, or unrelated namesake biography is
+  retained or published.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -7275,13 +7328,13 @@ Commissioned classification: 2,225 yes; 5,567 no; 16,148 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 386, research has a saved non-planned outcome for 3,644 people,
-  or 15.2214% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 485 people (2.0259%); confirmed/high employment or self-
-  employment is 207 people (0.8647%); 3,597 people (15.0251%) have an assessed
-  archival-review disposition; and 20,296 remain `not_started`. The data
+- After Batch 387, research has a saved non-planned outcome for 3,654 people,
+  or 15.2632% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 486 people (2.0301%); confirmed/high employment or self-
+  employment is 207 people (0.8647%); 3,607 people (15.0668%) have an assessed
+  archival-review disposition; and 20,286 remain `not_started`. The data
   preserves 231 possible-duplicate groups and 69 conflict-visible people.
-  Claim confidences are 876 confirmed, 1,124 high, 765 medium, 54 low, and 76
+  Claim confidences are 879 confirmed, 1,126 high, 770 medium, 54 low, and 76
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was

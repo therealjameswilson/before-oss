@@ -5,8 +5,28 @@ Run: 2026-08-31 UTC
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**
 - Production dependency audit: **0 known vulnerabilities**
-- Static production build: **24,439 pages**
-- Internal link check: **24,439 HTML files passed**
+- Static production build: **24,440 pages**
+- Internal link check: **24,440 HTML files passed**
+- Batch 387 complete browser and accessibility matrix: **1,422 / 1,422
+  passed** in 10.4 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all twelve new Batch 387
+  cases; the focused regression separately passed **12 / 12** on the final
+  build. The database passed `quick_check`, had zero foreign-key violations,
+  and passed the deterministic 200-profile audit. Extraction validation passed
+  all 522 pages and 23,978 rows. The public-identifier audit examined 12,926
+  normalized private identifiers and 120 formatted variants across 24,510
+  production artifacts, rejected 1,067 substring coincidences, and found zero
+  aggregate, manifest-size, or unexpected boundary matches. The tracked-source
+  credential scan found zero nonblank NARA keys. All 130 public-manifest
+  source/build checks passed for 65 assets totaling 82,034,649 bytes. All five
+  distinct Batch 387 citation endpoints returned HTTP 200. The dependency
+  audit found zero vulnerabilities. Consecutive exports reproduced path-and-
+  content public-data digest
+  `2ecfb211a85580cc13834c4076d90739c899227209bea9becf030e70c67425dd`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `e7e01c4342810a52e677f370315ade27c4014629451575da3572ddbae142f1ce`;
+  and the public manifest digest is
+  `a4e17541b6727b5bec4aec0b8391fe542bc459e8d5123ccfc4a327e4fea6be90`.
 - Batch 386 complete browser and accessibility matrix: **1,410 / 1,410
   passed** in 10.3 minutes across desktop, phone, and tablet. The clean,
   uninterrupted run includes all 27 axe cases and all twelve new Batch 386
