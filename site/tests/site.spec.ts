@@ -31464,3 +31464,106 @@ test("Batch 390 direct organization pages preserve historical role distinctions"
   await expect(page.locator("main")).toContainText("Gladwin W Chaffin");
   await expect(page.locator("main")).toContainText("military assignment");
 });
+
+test("Batch 391 publishes Chamales's Army-to-OSS pathway without inventing a civilian employer", async ({ page }) => {
+  await page.goto("./people/423ae06f-05d5-54ca-bd35-81deae5f8e60/");
+  await expect(page.getByRole("heading", { name: "Theodore T Chamales", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army 5307th Composite Unit (Provisional)",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("military assignment");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "St. John's Military Academy",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 391 confirms Chamberlain's dated insurance-sales occupation without naming an employer", async ({ page }) => {
+  await page.goto("./people/d1a4239f-2d8f-5749-be33-5bf094ad602f/");
+  await expect(page.getByRole("heading", { name: "Stephen S Chamberlain", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Salesmen, insurance");
+  await expect(page.locator("main")).toContainText("May 31, 1943");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 391 uses Nancy Chamberlin's OSS role only for identity and personnel classification", async ({ page }) => {
+  await page.goto("./people/6e8dccb7-09ad-57aa-b1a5-727964b8f96a/");
+  await expect(page.getByRole("heading", { name: "Nancy Chamberlin", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("civilian professional or administrative grade", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("civilian code clerk");
+  await expect(page.locator("main")).toContainText("Message Center");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 391 keeps plausible Chako and Chamberlain namesakes in identity review", async ({ page }) => {
+  for (const [personId, name, pageNumber] of [
+    ["f0299cbf-91f5-50cc-b187-0529abb24716", "Nicholas Chako", "Page 75"],
+    ["2f6348c2-7210-500c-af8d-e4290a43e61f", "Edward H Chamberlain", "Page 75"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("needs identity review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(pageNumber);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+  }
+});
+
+test("Batch 391 preserves five unresolved Box 115 and 116 identities", async ({ page }) => {
+  for (const [personId, name, pageNumber, box] of [
+    ["52ea77af-1e46-5e93-a280-d943f9f16c69", "Helen H Chakwin", "Page 75", "115"],
+    ["c8c9cdf7-e17a-5892-bb62-70e6c9a2f329", "Susan A Chalmers", "Page 75", "116"],
+    ["fb442bcb-cb53-5e26-a798-ff05ad7973b7", "Louis Chamard", "Page 75", "116"],
+    ["f08561be-0cd1-58c3-bcc0-da5f1443379e", "John R Chamberlain", "Page 75", "116"],
+    ["3074e555-0d07-5bc8-bea6-a415ca9aa2ef", "Maurice Chamberlain", "Page 76", "116"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(pageNumber);
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 391 organization pages preserve military and student relationships", async ({ page }) => {
+  await page.goto("./organizations/e3aa3124-ba32-5953-93bb-1f50691f4770/");
+  await expect(
+    page.getByRole("heading", { name: "United States Army 5307th Composite Unit (Provisional)", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toContainText("Theodore T Chamales");
+  await expect(page.locator("main")).toContainText("military assignment");
+
+  await page.goto("./organizations/49bbbdec-6c0e-55e9-b46d-e1a3519d9868/");
+  await expect(page.getByRole("heading", { name: "St. John's Military Academy", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Theodore T Chamales");
+  await expect(page.locator("main")).toContainText("student");
+});

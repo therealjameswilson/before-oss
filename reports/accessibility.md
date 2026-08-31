@@ -4,6 +4,17 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 391 release matrix passed **1,482 / 1,482** cases in 11.2 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
+new Batch 391 cases. The profiles publish Theodore T. Chamales's qualified
+Army-to-OSS pathway without inventing a civilian employer; confirm Stephen S.
+Chamberlain's dated insurance-sales occupation without naming an employer;
+use Nancy Chamberlin's contemporary OSS Message Center role only to support
+identity and personnel classification; preserve two plausible namesakes in
+identity review; and route five unsupported identities to archival review.
+The focused Batch 391 regression separately passed **18 / 18** on the final
+build.
+
 The Batch 390 release matrix passed **1,464 / 1,464** cases in 11.1 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
 new Batch 390 cases. The profiles distinguish William Knox Chandler's

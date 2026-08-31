@@ -5126,6 +5126,59 @@ full obituary, or newspaper page is stored or published. The durable evidence
 is in
 `research/evidence-page-seventy-five-knox-chadnler-through-william-chaikin-pathways_batch-390_2026-08-31.json`.
 
+## Pages 75-76 Chako through Chamberlin review, Batch 391
+
+The ten contiguous source rows from Nicholas Chako through Nancy Chamberlin
+were checked against 200-dpi renders of PDF page 75 rows 40-46 and page 76 rows
+1-3. The immutable rows preserve every spelling, rank, note, box, and location,
+including `Chamales, Theodore T` as `1st Lt`, `Chamard, Louis` as `S/Lt` with
+the note `French`, Edward H. Chamberlain's `possibly` note, Stephen S.
+Chamberlain as `T-5`, and the Chamberlin spelling for Nancy. The private
+identifier on Stephen Chamberlain's row remains restricted.
+
+NARA's *OSS: HQ & HQ Detachment Personnel Records* list was downloaded from
+the official stable PDF and checked textually. Roll 16 begins the Officer
+Personnel Record Cards and spans Abel, Arthur through Chamales, Theodore, T.,
+independently corroborating Theodore Chamales's officer classification. Texas
+A&M University's OAKTrust record for Jerome J. Haggerty's thesis was reviewed
+at thesis page 185 and footnote 454: the text says Marauder veterans joined
+Detachment 101 after the Marauders disbanded and names Thomas Chamales. Open
+Road Media's contributor biography independently connects Tom T. Chamales with
+both units and documents his 1942 graduation from St. John's Military Academy
+followed by immediate Army entry. These sources support a high-confidence
+identity, an explicit immediate military predecessor, and a separate qualified
+student affiliation. They do not support a civilian employer.
+
+The NARA Army bulk file was reviewed transiently using the official fixed-width
+documentation. The only eligible private identifier in this cohort matches
+Stephen S. Chamberlain uniquely. The record dates Army entry to May 31, 1943
+and carries civilian occupation value 157. NARA's separately downloaded code
+list was checked at physical page 171, where the table displays `1-57.
+Salesmen, insurance`. The public claim reproduces that grouped occupation only;
+it does not infer an insurance company, employer, workplace, exact job, or OSS
+transfer date. No raw bulk row is retained.
+
+The 25-page *Eleventh Semi-Monthly Report of Activities of OSS-ME* was downloaded
+from the Hellenic Literary and Historical Archive and checked against both text
+extraction and the rendered final page. The official October 20, 1944 report's
+Communications Branch personnel section names Nancy Chamberlin among civilian
+code clerks arriving from Washington for Message Center duty. That is direct
+OSS-role evidence supporting identity and civilian classification; it is not
+evidence of a pre-OSS employer or an immediate predecessor.
+
+Official NARA context, exact-name CIA Reading Room searches, the Library of
+Congress current API, employment and occupation searches, and relevant
+institutional, directory, obituary, newspaper, foreign-language, and archival
+checks were recorded for all ten people. Nicholas Chako's exact-name 1942 IIT
+staff lead remains unproven; Edward Hastings Chamberlin and John Rensselaer
+Chamberlain were explicitly rejected as unsupported namesakes. All unresolved
+questions route to Boxes 115 or 116.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-pages-seventy-five-seventy-six-nicholas-chako-through-nancy-chamberlin-pathways_batch-391_2026-08-31.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
