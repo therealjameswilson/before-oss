@@ -31360,3 +31360,107 @@ test("Batch 389 reaudits Chadbourn without converting Harvard study into employm
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
   );
 });
+
+test("Batch 390 resolves the indexed Chadnler typo to William Knox Chandler without overwriting the source row", async ({
+  page,
+}) => {
+  await page.goto("./people/c0b36a9c-9077-5e8c-b130-0c46954d0f65/");
+  await expect(page.getByRole("heading", { name: "Knox Chadnler", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("Page 75");
+  await expect(page.locator(".index-record").first()).toContainText("117");
+  await expect(page.locator("main")).toContainText("William Knox Chandler");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Vanderbilt University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Vanderbilt University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Harvard University");
+});
+
+test("Batch 390 confirms Chadsey chronology while withholding occupation value 992", async ({ page }) => {
+  await page.goto("./people/a0845634-8021-589a-bcee-892876ee7163/");
+  await expect(page.getByRole("heading", { name: "Carl T Chadsey Jr.", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("May 5, 1943");
+  await expect(page.locator("main")).toContainText("residual occupation value 992 is withheld");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 390 publishes only the corrected qualified occupations for Chadwick and Chafin", async ({ page }) => {
+  for (const [personId, name, occupation, date] of [
+    [
+      "bb652bf9-ad9b-50c3-821c-c74e8bd5424a",
+      "Carl H Chadwick",
+      "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "September 25, 1943",
+    ],
+    ["4ceecfa8-58e1-55b3-9a2b-b6a64d6a69fd", "Carl F Chafin", "Decorators and window dressers", "June 10, 1943"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 390 qualifies Chaffin's military-to-OSS pathway without inventing a civilian employer", async ({ page }) => {
+  await page.goto("./people/51a05380-fbe7-5838-9104-d2619d612461/");
+  await expect(page.getByRole("heading", { name: "Gladwin W Chaffin", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "United States Army 14th Armored Division",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("military assignment");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 390 preserves five unresolved Box 115 identities", async ({ page }) => {
+  for (const [personId, name, priority] of [
+    ["8a4a14ca-11f6-593d-b1e9-3af9c197e50c", "Lewis P Chadwick", "critical"],
+    ["35d8dad3-c58f-554e-8588-5cd560f73270", "Rufus E Chadwick", "high"],
+    ["cc7650ca-5c84-58b9-8b94-aa851534a8f5", "Mae Chaffee", "critical"],
+    ["eea5085c-aed0-50ff-80cd-10cbdbea6ea9", "Nathan Chaikin", "critical"],
+    ["8519f3a4-028d-564f-a1f2-6a0993d26199", "William Chaikin", "critical"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 75");
+    await expect(page.locator(".index-record").first()).toContainText("115");
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 390 direct organization pages preserve historical role distinctions", async ({ page }) => {
+  await page.goto("./organizations/b80a1725-aae0-5e08-8125-ce629dd89a60/");
+  await expect(page.getByRole("heading", { name: "Vanderbilt University", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Knox Chadnler");
+  await expect(page.locator("main")).toContainText("associate professor of English");
+
+  await page.goto("./organizations/a86a2868-de39-560b-aa0f-be2d46eb0ef6/");
+  await expect(page.getByRole("heading", { name: "United States Army 14th Armored Division", exact: true })).toBeVisible();
+  await expect(page.locator("main")).toContainText("Gladwin W Chaffin");
+  await expect(page.locator("main")).toContainText("military assignment");
+});

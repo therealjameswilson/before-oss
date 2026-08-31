@@ -4,6 +4,17 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 390 release matrix passed **1,464 / 1,464** cases in 11.1 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
+new Batch 390 cases. The profiles distinguish William Knox Chandler's
+documented Vanderbilt employment from his earlier Harvard professorship;
+publish only the qualified Army-entry occupations supported for Carl H.
+Chadwick and Carl F. Chafin; present Gladwin W. Chaffin's pre-OSS 14th Armored
+Division pathway as a military assignment rather than civilian employment;
+and route six unsupported identities plus Carl T. Chadsey Jr. to archival
+review without inventing employers. The focused Batch 390 regression
+separately passed **18 / 18** on the final build.
+
 The Batch 389 release matrix passed **1,446 / 1,446** cases in 11.2 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 389 cases. The profiles publish only the qualified Army-entry

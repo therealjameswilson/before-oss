@@ -5072,6 +5072,60 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-five-mario-p-cervone-through-donald-e-chadd-pathways_batch-389_2026-08-30.json`.
 
+## Page 75 Chadnler through Chaikin review, Batch 390
+
+The ten contiguous rows from Knox Chadnler through William Chaikin on PDF page
+75, rows 30-39, were checked against the reviewed 300-dpi page image. The image
+and immutable row preserve **Chadnler, Knox** and its anomalous Box 117 exactly
+as printed; the following nine rows are in Box 115. `William Knox Chandler` and
+`Knox Chandler` are retained only as evidence-backed variants.
+
+A July 15, 1943 *Big Spring Daily Herald* article identifies William Knox
+Chandler as employed by OSS while on leave from his Vanderbilt University
+associate professorship of English, and names an earlier Harvard professorship.
+The National Park Service's official OSS training history independently names
+Knox Chandler as a former journalist and college professor who served as chief
+instructor at RTU-11. The uncommon name, direct OSS context, academic role, and
+adjacent-letter transposition support a high-confidence identity, while Box 117
+remains necessary for direct confirmation. Vanderbilt is modeled as the
+immediate affiliation and last civilian employer; Harvard remains earlier
+documented employment. Unrelated sensitive circumstances are excluded from
+both evidence notes and the public profile.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width and code
+documentation. Exact private-identifier agreement confirms Carl T. Chadsey
+Jr., Carl H. Chadwick, and Carl F. Chafin. The Army record dates Chadsey's entry
+to May 5, 1943, but residual occupation value 992 remains withheld. The official
+three-digit occupation table supports *Chauffeurs and drivers, bus, taxi, truck,
+and tractor* for Chadwick at his September 25, 1943 entry and *Decorators and
+window dressers* for Chafin at his June 10, 1943 entry. Visual review of the
+code table corrected an initial false lead: three-digit code 043 is the
+decorator category, not the unrelated six-digit `.043` *Welder Helper* entry
+elsewhere in the PDF. Neither category names an employer or OSS transition.
+
+A reputable obituary for the uncommon exact name Gladwin W. Chaffin sequences
+14th Armored Division training at Camp Chaffee before assignment to OSS in
+England and later work under Allen Dulles in Bern. This supports a qualified
+immediate military assignment, not a civilian employer. Dated Columbia and
+Southwestern affiliations are postwar, and other civilian roles lack the dates
+needed to establish a pre-OSS relationship; none is promoted into the employer
+dataset.
+
+Lewis P. Chadwick, Rufus E. Chadwick, Mae Chaffee, Nathan Chaikin, and William
+Chaikin remain unresolved after the recorded official, exact-name OSS,
+employment, occupation, institutional, newspaper, obituary, directory, and
+archival protocol. The missing Army bulk matches for Lewis Chadwick and Gladwin
+Chaffin are not negative proof. A Carl T. Chadsey Jr. roster lead was rejected
+because its former source domain now serves unrelated material; no access
+restriction was bypassed and the discovery result was not retained as evidence.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+full obituary, or newspaper page is stored or published. The durable evidence
+is in
+`research/evidence-page-seventy-five-knox-chadnler-through-william-chaikin-pathways_batch-390_2026-08-31.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
