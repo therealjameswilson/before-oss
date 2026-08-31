@@ -4934,6 +4934,51 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-four-marion-s-cave-through-john-c-cebrian-pathways_batch-386_2026-08-30.json`.
 
+## Pages 74-75 Cebula through Ceresol review, Batch 387
+
+PDF page 75 was rendered at 300 dpi from the checksum-verified NARA index and
+visually checked with page 74's final row. The review preserves ten contiguous
+rows from Irene E. Cebula through Paul Ceresol in Boxes 114-115. The image
+clearly prints **Florence M Cederrberg** and **Paul Ceresol**. Cederberg,
+Cedarberg, Ceresole, and Ceresoli were used only as unverified search aliases;
+none is published as a documented correction or variant. Every printed
+spelling, rank, note, box, location, and private identifier remains immutable in
+the ignored SQLite database, while public output masks each identifier.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using its official fixed-width
+documentation and occupation code list. Exact name-and-private-identifier
+agreement confirms Vincent Celentano, Joseph J. Cello, and George Cenzar. Their
+Army-entry rows support only the qualified historical civilian-occupation
+categories Chauffeurs and drivers, bus, taxi, truck, and tractor for Celentano
+and Cello, and Photographers for Cenzar. The categories name no employer,
+workplace, exact duties, later Army assignment, or Army-to-OSS chronology.
+
+John S. Micgiel's archive-based 2019 *Project Eagle* monograph identifies
+Corporal Józef Piecha under the operational name Józef Celer and documents his
+Tom Collins radio assignment. The rare alias, corporal rank, Polish military
+context, and OSS project support a high-confidence identity match to the
+indexed Sergeant Jozef Celer, marked Polish Army. The monograph explicitly
+places his immediate Project Eagle pathway in the Independent Grenadier Company
+of the Polish Armed Forces in the West. It separately records German military
+conscription in August 1942 and earlier work at an unnamed steelworks in
+Moravia. The steelworks is therefore published only as a medium-confidence,
+qualified last civilian employer before military service; no company name is
+invented.
+
+Irene E. Cebula, Florence M. Cederrberg, Robert F. Cell, Ethel R. Center,
+Attilio S. Cerasi, and Paul Ceresol remain unresolved after the recorded
+official, exact-name OSS, employment, occupation, institutional, newspaper,
+obituary, directory, and archival protocol. A Smith College biography for an
+Irene Cebula Baird and modern namesakes were reviewed but withheld because the
+accessible evidence does not bridge them to the indexed identities. Every open
+question routes to the Box 114 or Box 115 personnel file.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-pages-seventy-four-seventy-five-irene-e-cebula-through-paul-ceresol-pathways_batch-387_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

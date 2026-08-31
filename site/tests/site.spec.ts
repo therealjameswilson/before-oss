@@ -31139,3 +31139,75 @@ test("Batch 386 preserves six unresolved outcomes and the index's Katehrine spel
     );
   }
 });
+
+test("Batch 387 publishes only the qualified Army-entry occupations for Celentano, Cello, and Cenzar", async ({
+  page,
+}) => {
+  for (const [personId, name, occupation] of [
+    ["c0a8e360-0eec-571c-b940-c105c8656ccb", "Vincent Celentano", "chauffeur-and-driver category"],
+    ["682e4530-5c95-551f-b4f2-8af8524bde82", "Joseph J Cello", "chauffeur-and-driver category"],
+    ["21cfa7a0-ca36-5241-bbcf-ed48eeb3e53f", "George Cenzar", "Photographers"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+      "No reviewed claim currently meets the publication threshold",
+    );
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+    await expect(page.locator("main")).toContainText(occupation);
+  }
+});
+
+test("Batch 387 separates Jozef Celer's Polish military pathway from his last civilian work", async ({
+  page,
+}) => {
+  await page.goto("./people/5a1c5456-86c3-57d6-aea5-41bbb1cdcee8/");
+  await expect(page.getByRole("heading", { name: "Jozef Celer", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Independent Grenadier Company, Polish Armed Forces in the West",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "unnamed steelworks in Moravia",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("German Army");
+  await expect(page.locator("main")).toContainText("Józef Piecha");
+  await expect(page.locator("main")).toContainText("Project Eagle");
+});
+
+test("Batch 387 preserves Irene Cebula's page 74 unresolved outcome", async ({ page }) => {
+  await page.goto("./people/363657f0-0455-5df7-ac88-75ee279a4999/");
+  await expect(page.getByRole("heading", { name: "Irene E Cebula", exact: true })).toBeVisible();
+  await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("Page 74");
+  await expect(page.locator(".index-record").first()).toContainText("114");
+});
+
+test("Batch 387 preserves five unresolved page 75 outcomes and the Cederrberg and Ceresol spellings", async ({
+  page,
+}) => {
+  for (const [personId, name, priority, box] of [
+    ["e38204e0-0983-5575-b3d6-017c217ecf2c", "Florence M Cederrberg", "critical", "114"],
+    ["a8290691-7c54-5b85-b815-6dd0c724742d", "Robert F Cell", "high", "114"],
+    ["d14ec69c-5bef-5c68-9042-409800862108", "Ethel R Center", "high", "115"],
+    ["a591d3da-e9f3-5c6b-af11-c1f8b52795f8", "Attilio S Cerasi", "high", "115"],
+    ["60d5cfb5-4522-56df-b881-569ce329306d", "Paul Ceresol", "high", "115"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 75");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});

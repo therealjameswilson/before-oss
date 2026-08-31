@@ -4,6 +4,16 @@ Run: 2026-08-31 UTC
 
 ## Result
 
+The Batch 387 release matrix passed **1,422 / 1,422** cases in 10.4 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 387 cases. The profiles publish only the qualified Army-entry
+occupations supported for Vincent Celentano, Joseph J. Cello, and George
+Cenzar; separate Jozef Celer's Polish military pathway from his earlier
+civilian steelworks role; preserve the index's printed **Cederrberg Florence
+M** and **Ceresol Paul** spellings; and route six unresolved identities to
+their indexed Box 114 or 115 files. The focused Batch 387 regression separately
+passed **12 / 12** on the final build.
+
 The Batch 386 release matrix passed **1,410 / 1,410** cases in 10.3 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
 new Batch 386 cases. The profiles publish only the qualified Army-entry
