@@ -4,16 +4,44 @@ Run: 2026-08-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,435 HTML files. Every relative
+**PASS.** The production build contains 24,436 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 487 organization profiles, and the
+The build includes 23,940 person profiles, 488 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,502 unique external URLs for separate live
+The checker inventoried 49,508 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+The finalized Batch 384 citation check returned HTTP 200 for all six distinct
+targets: the NARA personnel-index PDF, the public Army-series Catalog page, the
+official fixed-width technical-documentation PDF, the National Park Service
+OSS history, the dated *Aspen Times Weekly* profile preserved by Z Group, and
+Cornell Alumni Magazine's institutional notice. No authenticated Catalog API
+request was made, and no raw Catalog API response or Army row was stored.
+
+## Batch 384 local release check
+
+The static build contains 24,436 HTML files, including direct pages for all
+23,940 active person entities, 488 public organizations, and every Batch 384
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,790,388 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`8840a1e4f97d636589b5379237e7d545c6a5b49ab492c888a8c67b72f5fbf566`.
+
+The public-identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,506 production artifacts. It rejected 1,069
+substring coincidences and found zero aggregate, manifest-size, or unexpected
+boundary matches. A separate direct scan of the four Batch 384 private values
+against tracked and built files found zero matches. The tracked-source
+credential scan found zero nonblank NARA keys. Consecutive public-data exports
+reproduced path-and-content digest
+`589f8c8f729e135e7a83ed243231de1cda0ba39aa422ebb009576b7e7d7e280e`.
+Consecutive finalized production builds reproduced path-and-content static-
+tree digest
+`5ef09a0da4b35ced918bba2bc63eb800349d758a435253095aa3348efe059071`.
 
 The finalized Batch 383 link check inventoried 49,505 unique external URLs.
 All seven Batch 383 citation targets returned HTTP 200: the NARA personnel-

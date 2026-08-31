@@ -4,6 +4,16 @@ Run: 2026-08-30 UTC
 
 ## Result
 
+The Batch 384 release matrix passed **1,386 / 1,386** cases in 10.2 minutes
+across desktop, phone, and tablet. It includes all 27 axe cases and all twelve
+new Batch 384 cases. The profiles expose Steve J. Catlos's direct official
+identifier conflict without transferring Army facts; confirm Leo T. Catmen
+while withholding an unsupported occupation decoding; separate Samuel J.
+Caudill's qualified Fort Riley military predecessor from Cornell student
+status and from the still-unresolved civilian-employer question; and route
+seven unsupported identities to their indexed Box 113 or 114 files. The
+focused Batch 384 regression separately passed **12 / 12** on the final build.
+
 The Batch 383 release matrix passed **1,374 / 1,374** cases in 10.1 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all fifteen
 new Batch 383 cases. The profiles publish Robert B. Cate Jr.'s Dartmouth

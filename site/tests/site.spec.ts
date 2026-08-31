@@ -30895,3 +30895,86 @@ test("Batch 383 preserves six unsupported page 74 identities as explicit archiva
     );
   }
 });
+
+test("Batch 384 exposes Steve Catlos's official identifier conflict without transferring Army facts", async ({
+  page,
+}) => {
+  await page.goto("./people/bf2a0e45-e6b2-5b18-bb7b-c388ab3f2a18/");
+  await expect(page.getByRole("heading", { name: "Steve J Catlos", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("Sergeant Steve J. Catlos");
+  await expect(page.locator("main")).toContainText("resolves to a different official Army subject");
+  await expect(page.locator("main")).toContainText("No Army facts are transferred");
+});
+
+test("Batch 384 confirms Leo Catmen while withholding an unsupported occupation decoding", async ({
+  page,
+}) => {
+  await page.goto("./people/92fac650-57f1-58f8-bdae-d9fce28737b8/");
+  await expect(page.getByRole("heading", { name: "Leo T Catmen", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator("main")).toContainText("entry on July 9, 1943");
+  await expect(page.locator("main")).toContainText("No employer, safely decoded occupation");
+});
+
+test("Batch 384 separates Samuel Caudill's probable military predecessor from Cornell student status", async ({
+  page,
+}) => {
+  await page.goto("./people/07ff9162-252b-5467-b251-e14de34bf021/");
+  await expect(page.getByRole("heading", { name: "Samuel J Caudill", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("completed", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "U.S. Army Cavalry School at Fort Riley",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "military assignment",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Cornell University",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("student");
+  await expect(page.locator("main")).toContainText("Cornell is student status, not an employer");
+});
+
+test("Batch 384 preserves seven unsupported page 74 identities as explicit archival-review outcomes", async ({
+  page,
+}) => {
+  for (const [personId, name, box] of [
+    ["741bb5cb-bf04-55d3-9445-38ab26f5686c", "Martha Cathy", "113"],
+    ["7bdd12c3-93fb-56c7-8ae6-5cc717413643", "Jean E Cattier", "114"],
+    ["0395eb96-a9e5-5dac-a078-ef3312c5c0e8", "Robert J Catto", "114"],
+    ["e48442f3-83b1-5367-bf85-b5a5c4259f8b", "Harvey Cattrall", "114"],
+    ["66f515ae-cccd-5f2c-a606-75b3f95a5770", "Olga T Caudioso", "114"],
+    ["bbb34d9d-1bf6-582d-81c7-3274e8fecded", "James R Caudle", "114"],
+    ["eb04084c-4f09-55b5-b018-6b79d226fc54", "Dallas Caunter", "114"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 74");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
