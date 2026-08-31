@@ -6701,6 +6701,67 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   identifier, unsupported employer, or unrelated namesake biography is
   retained or published. Final deterministic and browser release results are
   recorded in the QA reports.
+- Batch 382 covers Robert A. Castrignano through Modesto Catanzaro, the next
+  ten contiguous index rows: PDF page 73 rows 42-46 and page 74 rows 1-5, all
+  in Box 113. Both source pages, the relevant Army occupation-code pages, and
+  the 1942 *Ithaca Directory* page were rendered and visually checked. Every
+  indexed spelling, blank field, and printed identifier remains immutable in
+  the ignored database; all printed private identifiers are masked in public
+  output.
+
+  A corrected fixed-width review of NARA's unrestricted Army merged file
+  confirms four identities by exact private-identifier agreement: indexed
+  Marion J. Casturao is the Army file's Mario J. Casturao, indexed Marion A.
+  Casulli is Mario A. Casulli, Vincent T. Catalano retains the same name, and
+  Samuel Catalfano appears as Samuel J. Catalfano. The first-name and middle-
+  initial differences are preserved as evidence-bearing variants. Occupation
+  codes support qualified categories for plumbing trades, printing-trade
+  apprenticeship, electrical-machinery manufacturing, and secondary-school
+  teaching. None of those codes names an employer or dates an OSS transfer.
+
+  An obituary and two interview-based newspaper profiles identify Robert A.
+  Castrignano at high confidence, document his Columbia Broadcasting System
+  technical employment beginning in 1938, 1943 Army entry, and Signal Corps
+  communications service in France. CBS is modeled as his last documented
+  civilian employer before Army service; the Signal Corps is a wartime
+  military assignment whose precise relation to OSS remains uncertain. A
+  rare-name obituary match identifies Irina Catacuzenne at high confidence as
+  Irina Cantacuzene Erickson and documents University of Chicago study and OSS
+  service. The university is qualified student status, not employment, and an
+  inconsistent birth year remains excluded pending archival confirmation.
+
+  The exact Army match, secondary-school-teacher occupation code, July 1943
+  Army entry, and Boynton Junior High School's 1941-42 faculty list together
+  support that school as Samuel J. Catalfano's last documented civilian
+  employer before military service. It is not promoted to an immediate OSS
+  predecessor. E. G. Caswell, Frank J. Catalano, Michael V. Catalano, and
+  Modesto Catanzaro remain unresolved and route to critical Box 113 review;
+  unbridged namesakes remain rejected rather than published.
+
+  Batch 382's strict evidence bundle adds nine sources, four organization
+  references (one new canonical organization), seven affiliations, thirteen
+  claims, twenty-nine claim-source links, ten person updates, and ten durable
+  research attempts. Repeated import is idempotent. Research now has a saved
+  non-planned outcome for 3,605 people (15.0585% of 23,940 active entities);
+  confirmed/high affiliation coverage is 482 people (2.0134%), confirmed/high
+  employment or self-employment is 207 people (0.8647%), 3,558 people
+  (14.8622%) have an assessed archival-review disposition, and 20,335 remain
+  `not_started`. Claim confidences are 866 confirmed, 1,118 high, 757 medium,
+  54 low, and 73 conflicting. The public projection contains 487
+  organizations, 1,408 affiliations, 2,812 claims, and 2,487 citation records
+  representing 1,669 unique source documents.
+
+  Strict schema validation, repeated-import idempotence, all 75 Python tests,
+  extraction validation for all 522 pages and 23,978 rows, SQLite integrity
+  and foreign-key checks, the deterministic 200-profile audit, zero-warning
+  Astro diagnostics, the 24,435-page build and internal-link check, the
+  field-aware public-identifier audit, the direct seven-identifier evidence-
+  bundle audit, dependency audit, all nine citation-endpoint checks, and the
+  complete 1,359-case browser and accessibility matrix pass. Consecutive
+  exports and finalized builds are deterministic. No authenticated Catalog API
+  request, credential, raw API response, raw Army payload, full private
+  identifier, unsupported employer, or unrelated namesake biography is
+  retained or published. Final release results are recorded in the QA reports.
 - Batch 368 covers Guy E. Carpenter through William R. Carpenter, the next ten
   contiguous index rows: PDF page 70 rows 40-46 in Box 108 and page 71 rows
   1-3 in Boxes 108-109. Both source pages were rendered and visually checked.
@@ -6995,13 +7056,13 @@ Commissioned classification: 2,223 yes; 5,544 no; 16,173 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 381, research has a saved non-planned outcome for 3,595 people,
-  or 15.0167% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 480 people (2.0050%); confirmed/high employment or self-
-  employment is 205 people (0.8563%); 3,548 people (14.8204%) have an assessed
-  archival-review disposition; and 20,345 remain `not_started`. The data
+- After Batch 382, research has a saved non-planned outcome for 3,605 people,
+  or 15.0585% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 482 people (2.0134%); confirmed/high employment or self-
+  employment is 207 people (0.8647%); 3,558 people (14.8622%) have an assessed
+  archival-review disposition; and 20,335 remain `not_started`. The data
   preserves 231 possible-duplicate groups and 66 conflict-visible people.
-  Claim confidences are 862 confirmed, 1,113 high, 753 medium, 54 low, and 73
+  Claim confidences are 866 confirmed, 1,118 high, 757 medium, 54 low, and 73
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was

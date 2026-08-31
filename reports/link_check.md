@@ -4,26 +4,43 @@ Run: 2026-08-30 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,434 HTML files. Every relative
+**PASS.** The production build contains 24,435 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 486 organization profiles, and the
+The build includes 23,940 person profiles, 487 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,496 unique external URLs for separate live
+The checker inventoried 49,502 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
-All ten Batch 381 citation targets were reviewed. Seven returned HTTP 200 in
-the automated GET check: the NARA personnel-index PDF, public Army-series
-Catalog page, both official technical-documentation PDFs, both *Daily Iowan*
-PDFs, and the Delaware Art Museum record. The Hoover digital-media dispatcher,
-Michael Rosenfeld Gallery biography, and Smithsonian record were successfully
-reviewed in a browser but returned HTTP 403 to the automated client. Those
-access-control responses are recorded rather than bypassed or mislabeled as
-broken citations. No authenticated Catalog API request was made, and no raw
-Catalog API response was stored.
+All nine Batch 382 citation targets returned HTTP 200 in the automated GET
+check: the NARA personnel-index PDF, public Army-series Catalog page, both
+official technical-documentation PDFs, Robert Castrignano's obituary and two
+newspaper profiles, the Irina Cantacuzene Erickson obituary transcription, and
+the 1942 *Ithaca Directory* PDF. No authenticated Catalog API request was made,
+and no raw Catalog API response was stored.
+
+## Batch 382 local release check
+
+The static build contains 24,435 HTML files, including direct pages for all
+23,940 active person entities, 487 public organizations, and every Batch 382
+profile. Every internal link resolves. The 65 public-manifest files cover
+81,676,925 bytes and passed all 130 size and SHA-256 checks in each of the
+public and built trees. The manifest has SHA-256
+`9c38f803d214f0b30c0823ccc721ac3c95c4382e3230aabaa439cfb1091fa9c2`.
+
+The public identifier audit examined 12,926 normalized private identifiers,
+120 formatted variants, and 24,505 production artifacts. It rejected 1,067
+substring coincidences, recorded two expected manifest-size coincidences, and
+found zero aggregate or unexpected boundary matches. A separate direct scan of
+the Batch 382 evidence bundle against the seven actual private identifiers
+found zero matches. The tracked-source credential scan found zero nonblank NARA
+keys. Consecutive public-data exports reproduced digest
+`d60565bf6e3b358f29a60aa85c1cccf26d95c0813931975f94557d50643fa0e5`.
+Consecutive finalized production builds reproduced complete static-tree digest
+`8567b9f742260f49fc97fbca21dce3a989697e8a8212001ea56f9efaad393809`.
 
 ## Batch 381 local release check
 
@@ -44,6 +61,28 @@ exports reproduced digest
 `77ec5376881d8aeee4607ef1f67e260198827fc8d455cd6d729c4d5510f8ef85`.
 Consecutive production builds reproduced complete static-tree digest
 `df98801b110155047b388d976817fbb11921b80adaddb590e0697b90d4e79237`.
+
+## Batch 381 production deployment
+
+Release `e70100a7d6932ea32c89e1d32c68af12fdd6fd13` passed GitHub test workflow
+[33341744693](https://github.com/therealjameswilson/before-oss/actions/runs/33341744693)
+and Pages workflow
+[33341744670](https://github.com/therealjameswilson/before-oss/actions/runs/33341744670).
+The clean runner repeated the Python suite, complete 24,434-page internal-link
+check, 1,344-case browser and accessibility matrix, source-PDF reconstruction,
+and private-identifier audit.
+
+The production audit opened seven core routes and all ten Batch 381 person
+profiles. All 17 returned HTTP 200 and matched the audited local HTML after
+canonical-host normalization. The live manifest and all 65 listed assets
+matched the audited local release byte for byte, covering 81,565,585 bytes with
+zero failures. The live manifest SHA-256 is
+`fe7ef7cb627d81e50cb2e0e0a4ac3df54993cf15f15d0570be8f51c875d1ce71`.
+The live statistics report 23,978 source rows, 23,940 people, 3,595 attempted
+profiles, 480 people with a verified affiliation, 205 people with a verified
+employer, and 3,548 archival-review assessments. Download checks returned
+23,941 personnel CSV lines, 23,940 personnel JSONL records, 487 organization
+CSV lines, 1,402 affiliation CSV lines, and 2,480 source CSV lines.
 
 ## Batch 380 local release check
 

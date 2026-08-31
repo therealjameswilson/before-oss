@@ -4670,6 +4670,61 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography,
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page-seventy-three-clifford-l-casteel-through-ralph-w-casto-pathways_batch-381_2026-08-30.json`.
 
+## Pages 73-74 Castrignano through Catanzaro review, Batch 382
+
+PDF page 73 rows 42-46 and page 74 rows 1-5 were rendered from the
+checksum-verified NARA index and visually checked at original resolution. The
+review preserves ten distinct rows from Robert A. Castrignano through Modesto
+Catanzaro, all in Box 113. Every indexed spelling, initial, rank, blank field,
+and source-row identifier remains immutable in the ignored SQLite database;
+public output masks every printed private identifier.
+
+NARA's unrestricted *Electronic Army Serial Number Merged File,
+ca. 1938-1946* was reviewed transiently using the official fixed-width field
+documentation and Civilian Occupations code list. An exploratory substring
+scan produced 26 coincidental hits and was rejected in full. Searching only
+the documented identifier columns produced four exact matches. Those matches
+confirm the indexed Marion J. Casturao as the Army file's Mario J. Casturao,
+the indexed Marion A. Casulli as Mario A. Casulli, Vincent T. Catalano, and
+Samuel J. Catalfano. The first-name and middle-initial variants are preserved
+rather than silently corrected. Occupation codes support broad classifications
+for plumbing trades, printing-trade apprenticeship, electrical-machinery
+manufacturing, and secondary-school teaching; they do not name an employer or
+establish an Army-to-OSS transfer. No raw bulk row is retained.
+
+Robert A. Castrignano's obituary and two interview-based *Stamford Advocate*
+profiles agree on the uncommon identity, Columbia Broadcasting System
+technical employment beginning in 1938, 1943 Army entry, and Signal Corps
+communications service in France. CBS is therefore modeled as his last
+documented civilian employer before Army service. Signal Corps service is a
+military assignment, but the available sources do not prove that it was the
+immediate OSS predecessor or date an OSS transfer.
+
+The exact rare-name match Irina Catacuzenne is linked at high confidence to
+Irina Cantacuzene Erickson by an obituary transcription that explicitly
+records wartime OSS service and University of Chicago study. The university is
+published only as qualified student status, never as an employer. A conflicting
+birth year in the transcription is excluded from the profile and recorded as
+a reason for continuing archival review.
+
+The rendered 1942 *Ithaca Directory* page places Samuel J. Catalfano on
+Boynton Junior High School's 1941-42 faculty. Combined with the exact Army
+identifier match, teacher occupation code, and July 1943 Army entry, this
+supports the school as the last documented civilian employer before military
+service. It does not prove the school was the immediate predecessor to OSS.
+
+E. G. Caswell, Frank J. Catalano, Michael V. Catalano, and Modesto Catanzaro
+remain unresolved after official, CIA, current Library of Congress, exact-name
+OSS, employment, occupation, institutional, newspaper, obituary, directory,
+and archival searches. Their plausible namesakes lacked an OSS, private-
+identifier, or Box 113 bridge and were rejected rather than published. All
+four profiles route to critical Box 113 review.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page-seventy-three-robert-a-castrignano-through-page-seventy-four-modesto-catanzaro-pathways_batch-382_2026-08-30.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
