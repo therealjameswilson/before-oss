@@ -2,17 +2,51 @@
 
 Run: 2026-09-03 UTC
 
+## Batch 395 citation and local release check
+
+All seven unique Batch 395 citation targets returned HTTP 200 to the automated
+GET check. They include the official personnel index, NARA's public Army-series
+Catalog page and technical documentation, the Republic of Korea government's
+historical-document database, the Hoengseong Cultural Center documentary
+history, and Christie's Jerome W. Chapek archive provenance. No authenticated
+Catalog API request, raw API response, raw Army row, credential, full
+copyrighted publication, or full private identifier was stored or published.
+
+The static build contains 24,447 HTML files, including direct pages for all
+23,940 active person entities, 499 public organizations, and every Batch 395
+profile. Every internal link resolves; 49,539 external URLs were inventoried
+for separate live verification. The 65 public-manifest files cover 82,666,980
+bytes and passed size and SHA-256 validation in the public and built trees. The
+manifest has SHA-256
+`04e003fb8f5ec03abf482233b96eb805fee1c004e2fb414fe779020f46cd39c1`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers, 120 formatted variants, and 24,517 artifacts.
+It rejected 1,075 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. The tracked-source credential
+scan found zero nonblank NARA keys and no local secret environment file. Three
+consecutive public-data exports reproduced the same manifest checksum. Two
+consecutive finalized production builds reproduced path-and-content static-tree
+digest `7a2a25d723a65123e93aa1be3b63afa3cbf041be2e13d796d79d72484236e393`.
+
+Astro diagnostics report zero errors, warnings, or hints; the five focused
+Batch 395 browser scenarios pass 15 / 15 across desktop, phone, and tablet. All
+75 Python tests, the complete 1,536-case pre-Batch-395 browser and accessibility
+matrix, the resulting 1,551-case combined suite, dependency audit, public
+redaction audit, deterministic build checks, and the 24,447-file internal-link
+gate pass.
+
 ## Internal static routes
 
-**PASS.** The production build contains 24,446 HTML files. Every relative
+**PASS.** The production build contains 24,447 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 498 organization profiles, and the
+The build includes 23,940 person profiles, 499 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,536 unique external URLs for separate live
+The checker inventoried 49,539 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Batch 394 citation and local release check

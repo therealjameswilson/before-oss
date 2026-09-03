@@ -4,6 +4,19 @@ Run: 2026-09-03 UTC
 
 ## Result
 
+The Batch 395 release suite passed **1,551 / 1,551** cases across desktop,
+phone, and tablet in two disjoint runs on the same final build: the complete
+1,536-case pre-Batch-395 matrix and all fifteen new Batch 395 cases. All 27 axe
+accessibility cases passed. The focused tests verify Sukyoon Chang's separately
+labeled volunteer, self-employment, and student relationships; three Army-entry
+occupation-only profiles; Kee Y. Chang's high-confidence identity with
+indeterminate officer status; five unresolved archival-review profiles; the
+unmerged Aleid/Kathleen Channing duplicate group; and exact-name search.
+
+Astro diagnostics completed with zero errors, warnings, or hints at phone,
+tablet, and desktop route generation. The dependency audit found zero known
+vulnerabilities after updating the transitive build-time `fast-uri` package.
+
 The Batch 394 release matrix executed **1,536 / 1,536** cases across desktop,
 phone, and tablet. It includes all 27 axe cases and all eighteen new Batch 394
 cases. The first complete local run passed 1,533 assertions in 36.3 minutes;

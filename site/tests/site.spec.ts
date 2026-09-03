@@ -31854,3 +31854,79 @@ test("Batch 394 exact and variant directory searches surface the reviewed profil
   await search.fill("Kenneth M Chaney");
   await expect(page.getByRole("link", { name: "Kenneth M Chaney", exact: true }).first()).toBeVisible();
 });
+
+test("Batch 395 separates Sukyoon Chang's immediate volunteer affiliation from his last civilian livelihood", async ({
+  page,
+}) => {
+  await page.goto("./people/728035db-fdf5-554c-b72d-9f3f4bfc44f1/");
+  await expect(page.getByRole("heading", { name: "Sukyoon Chang", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("documented prewar employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Montana Korean Association",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Self-employed");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Cultivated a small farm");
+  await expect(page.locator("main")).toContainText("Vanderbilt University");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText("Vanderbilt University");
+});
+
+test("Batch 395 publishes three exact Army-entry occupations without inventing employers", async ({ page }) => {
+  for (const [personId, name, occupation] of [
+    ["2e8be878-31db-5d8c-85fa-f6ecdeaf9090", "Howard H Chang", "Student"],
+    ["4465668e-bc83-5bcf-9b74-f700d5f14e7a", "Morley L Chang", "Student"],
+    ["42ff59d2-d2fd-57c8-970a-c31d0971d1a3", "Jerome W Chapek", "Photographic process occupations"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 395 preserves the Kee Y Chang identity bridge without forcing an officer classification", async ({ page }) => {
+  await page.goto("./people/be802ba1-f9aa-51ab-8c42-1e20e342bde7/");
+  await expect(page.getByRole("heading", { name: "Kee Y Chang", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("unknown or indeterminate", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Preston M. Goodfellow");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 395 keeps unresolved Channing, Changeux, and Chapek identities visible and separate", async ({ page }) => {
+  for (const [personId, name, priority] of [
+    ["0b23c4a4-d28b-55eb-b02c-837175e67ba6", "Jacques L Changeux", "high"],
+    ["db70ab2f-0313-5eb5-abed-2ae2b84d94f7", "Aleid K Channing", "critical"],
+    ["2848819d-6232-5a26-a6c1-8fe36e7a9968", "Hayden Channing", "high"],
+    ["687e3195-f953-5084-b9b2-689e790e74b7", "Kathleen Channing", "critical"],
+    ["ed122eda-839a-58d5-b072-4bf7ab7179e0", "Bessie T Chapek", "high"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(priority, { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 76");
+    await expect(page.locator(".index-record").first()).toContainText("117");
+  }
+});
+
+test("Batch 395 exact-name directory searches surface the reviewed profiles", async ({ page }) => {
+  await page.goto("./people/");
+  const search = page.getByRole("searchbox", { name: "Search", exact: true });
+  await search.fill("Sukyoon Chang");
+  await expect(page.getByRole("link", { name: "Sukyoon Chang", exact: true }).first()).toBeVisible();
+  await search.fill("Kee Y Chang");
+  await expect(page.getByRole("link", { name: "Kee Y Chang", exact: true }).first()).toBeVisible();
+  await search.fill("Jerome W Chapek");
+  await expect(page.getByRole("link", { name: "Jerome W Chapek", exact: true }).first()).toBeVisible();
+});
