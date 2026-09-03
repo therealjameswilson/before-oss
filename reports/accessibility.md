@@ -4,6 +4,21 @@ Run: 2026-09-03 UTC
 
 ## Result
 
+The Batch 397 release checks passed **1,572 / 1,572** browser and accessibility
+cases across desktop, phone, and tablet in two disjoint runs on the same data
+release: the complete 1,563-case pre-Batch-397 matrix and all nine new Batch 397
+cases. All 27 axe accessibility cases passed. The focused tests verify that
+Harry E. Chapman, Jackie J. Chapman, and John P. Chapman show only their
+qualified Army-entry occupation groups rather than invented employers; that
+Revis R. Chapman's residual occupation value remains uninterpreted; and that
+six unsupported Chapman identities remain visible, unresolved, and routed to
+Box 118 archival review.
+
+Astro diagnostics completed with zero errors, warnings, or hints. The same
+release also passed all 75 Python tests, the deterministic 200-profile audit,
+the complete public-identifier scan, the dependency audit, and the 24,447-page
+internal-link check.
+
 The Batch 395 release suite passed **1,551 / 1,551** cases across desktop,
 phone, and tablet in two disjoint runs on the same final build: the complete
 1,536-case pre-Batch-395 matrix and all fifteen new Batch 395 cases. All 27 axe

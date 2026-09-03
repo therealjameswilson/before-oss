@@ -2,6 +2,36 @@
 
 Run: 2026-09-03 UTC
 
+## Batch 397 citation and local release check
+
+All four unique Batch 397 citation targets returned HTTP 200 to the automated
+GET check: the official personnel index, NARA's public Army-series Catalog
+page, and both official Army technical-documentation PDFs. No authenticated
+Catalog API request, raw API response, raw Army row, credential, full
+copyrighted publication, or full private identifier was stored or published.
+
+The static build contains 24,447 HTML files, including direct pages for all
+23,940 active person entities, 499 public organizations, and every Batch 397
+profile. Every internal link resolves; 49,541 unique external URLs were
+inventoried for separate live verification. The 65 public-manifest files cover
+82,762,218 bytes and passed size and SHA-256 validation. The manifest has
+SHA-256 `4e89504704a53b40d76bf19ac9d1c85cfa91a314656062711c1a91fd0fff28f7`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers, 120 formatted variants, and 24,517 artifacts.
+It rejected 1,074 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. Two consecutive public-data
+exports reproduced the same manifest checksum. Two consecutive finalized
+production builds reproduced path-and-content static-tree digest
+`1b03a0eb135eef5290dd7b15e3739fdc889b9677e6d022da0c442eeafc021fee`.
+
+Astro diagnostics report zero errors, warnings, or hints. The complete
+pre-Batch-397 browser and accessibility matrix passed 1,563 / 1,563 across
+desktop, phone, and tablet; the three focused Batch 397 scenarios then passed
+9 / 9 on the same data release. All 75 Python tests, the deterministic
+200-profile audit, dependency audit, public redaction audit, deterministic
+build checks, and the 24,447-file internal-link gate pass.
+
 ## Batch 395 citation and local release check
 
 All seven unique Batch 395 citation targets returned HTTP 200 to the automated

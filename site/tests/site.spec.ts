@@ -31989,3 +31989,63 @@ test("Batch 396 withholds the Elsie Chapman obituary candidate pending Box 118 c
   await expect(page.locator('section[aria-labelledby="evidence"]')).toHaveCount(0);
   await expect(page.locator("main")).not.toContainText("worked for the OSS in Washington D.C. during World War II");
 });
+
+test("Batch 397 publishes three Army-entry occupations without inventing employers", async ({ page }) => {
+  for (const [personId, name, occupation, entryDate] of [
+    ["6688aad9-ecfe-5444-aa15-8d318ec931c7", "Harry E Chapman", "Secretaries", "June 17, 1941"],
+    [
+      "a8598f1c-aaed-5a55-870f-7c719cc60e1c",
+      "Jackie J Chapman",
+      "Occupations in building of aircraft, n.e.c.",
+      "January 27, 1943",
+    ],
+    [
+      "aac04233-78bb-57c1-98a8-6947902963e3",
+      "John P Chapman",
+      "Managers and officials, n.e.c.",
+      "July 5, 1943",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 397 confirms Revis R Chapman while leaving occupation value 999 uninterpreted", async ({ page }) => {
+  await page.goto("./people/db0317e2-ad8b-5d89-9e01-71c968d0d119/");
+  await expect(page.getByRole("heading", { name: "Revis R Chapman", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("residual occupation value 999 is deliberately left uninterpreted");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 397 keeps six unsupported Chapman identities archive-routed", async ({ page }) => {
+  for (const [personId, name, status] of [
+    ["8cec67dd-ea36-56d0-ba0a-0a5c257d719a", "George K Chapman", "no reliable result after protocol"],
+    ["a0bdee69-55e0-5f58-aeed-b31ca2865db9", "Horace L Chapman", "no reliable result after protocol"],
+    ["9c4c2194-75f0-5b80-a2d6-5f285decc3a8", "Jack F Chapman", "no reliable result after protocol"],
+    ["b5932881-2170-54ff-89ae-fa87a464c2e0", "Julia A Chapman", "requires archival review"],
+    ["9480f974-fec7-5b9e-9b49-879d7d9fb16f", "Lois Chapman", "no reliable result after protocol"],
+    ["ce2d554c-0e33-5a7b-87f8-ccdf64c286f3", "Mae J Chapman", "no reliable result after protocol"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(status, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 77");
+    await expect(page.locator(".index-record").first()).toContainText("118");
+  }
+});
