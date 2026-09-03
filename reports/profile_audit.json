@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:21:02+00:00",
+  "generated_at": "2026-09-03T17:08:28+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -26,8 +26,8 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 78,
-    "2": 58,
+    "1": 77,
+    "2": 59,
     "3": 27,
     "4": 37
   },
@@ -46,7 +46,8 @@
     "in_progress": 2,
     "needs_identity_review": 1,
     "needs_temporal_review": 2,
-    "not_started": 142,
+    "no_reliable_result_after_protocol": 1,
+    "not_started": 141,
     "occupation_only_found": 4,
     "requires_archival_review": 25,
     "verified_employer_found": 9
@@ -230,10 +231,10 @@
     "ac54bd11-b754-5de2-a8a8-7cb19016db49",
     "0cc3dccd-fa47-5ba6-9730-046c3568b198",
     "4cf8ea80-6bb8-59f5-891f-4f4a9ec12b63",
+    "687e3195-f953-5084-b9b2-689e790e74b7",
     "e2775b85-1303-52a5-8384-565edaa67356",
     "0f83c991-969d-5152-baf5-0979c8ff3897",
     "e9cfccdd-0d72-58eb-828b-e93d50b13153",
-    "2b07eadb-8d4c-5829-93ac-ece9f5ef4050",
     "4f328e75-8bad-552c-a60d-bde214eb9f43",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
