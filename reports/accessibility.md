@@ -1,8 +1,28 @@
 # Accessibility and responsive QA
 
-Run: 2026-08-31 UTC
+Run: 2026-09-03 UTC
 
 ## Result
+
+The Batch 394 release matrix executed **1,536 / 1,536** cases across desktop,
+phone, and tablet. It includes all 27 axe cases and all eighteen new Batch 394
+cases. The first complete local run passed 1,533 assertions in 36.3 minutes;
+three unrelated, older desktop cases exceeded the browser-context teardown
+timeout after their page assertions completed. All three passed immediately in
+an isolated rerun. No accessibility, Batch 394, or content assertion failed.
+The focused Batch 394 regression separately passed **18 / 18** on the final
+build.
+
+The profiles confirm Fitzhugh H. Chandler's OSS identity while visibly
+qualifying his earlier Mercer student evidence; document Sripati Chandrasekha's
+name variant and bounded academic pathway without converting study or lecturing
+into employment; publish only the supported Army-entry evidence for Robert H.
+Chandler and Kenneth M. Chaney; and preserve six unresolved names as dignified
+archival-review profiles. This release also supersedes older Batch 389, 390,
+and 392 report wording about undecoded Army occupation value 992: the visually
+verified official code list identifies it as **Students**, so Alex Chabe,
+Donald E. Chadd, Carl T. Chadsey Jr., and Forrest L. Chambers now show qualified
+student status rather than an employer.
 
 The Batch 393 release matrix passed **1,518 / 1,518** cases in 11.2 minutes
 across desktop, phone, and tablet. It includes all 27 axe cases and all eighteen
