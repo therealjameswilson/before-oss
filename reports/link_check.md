@@ -2,6 +2,40 @@
 
 Run: 2026-09-03 UTC
 
+## Batch 398 citation and local release check
+
+All seven unique Batch 398 citation targets returned HTTP 200 to the automated
+GET check: the official personnel index, NARA's public Army-series Catalog
+page and two technical-documentation PDFs, the National Park Service OSS
+history, and the two Mission du Thibet histories used for Robert Chappelet.
+No authenticated Catalog API request, raw API response, raw Army row,
+credential, full copyrighted publication, or full private identifier was
+stored or published.
+
+The static build contains 24,449 HTML files, including direct pages for all
+23,940 active person entities, 501 public organizations, and every Batch 398
+profile. Every internal link resolves; 49,546 unique external URLs were
+inventoried for separate live verification. The 65 public-manifest files cover
+82,895,629 bytes and passed size and SHA-256 validation. The manifest has
+SHA-256 `248e66233c5e7ac4dde70d35d59bb361cda2f137dfbb56eb1b7355368ee76ed6`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers and 120 formatted variants across 24,519
+artifacts. It rejected 1,081 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. Consecutive public-data exports
+reproduced path-and-content digest
+`3e7f607aab0bc2463979abce5faa7d64c607d76e6d9ffd72cb3a75a3887727be`.
+Two consecutive finalized production builds reproduced path-and-content
+static-tree digest
+`0537c7c5e995f3274409373b8f6ebe4b082f955d3bd874da37dcd352caae9f33`.
+
+Astro diagnostics report zero errors, warnings, or hints. The complete Batch
+398 browser and accessibility matrix passed 1,587 / 1,587 across desktop,
+phone, and tablet; the five focused Batch 398 scenarios passed 15 / 15. All 75
+Python tests, the deterministic 200-profile audit, dependency audit, public
+redaction audit, deterministic build checks, and the 24,449-file internal-link
+gate pass.
+
 ## Batch 397 citation and local release check
 
 All four unique Batch 397 citation targets returned HTTP 200 to the automated
@@ -68,15 +102,15 @@ gate pass.
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,447 HTML files. Every relative
+**PASS.** The production build contains 24,449 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 499 organization profiles, and the
+The build includes 23,940 person profiles, 501 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,539 unique external URLs for separate live
+The checker inventoried 49,546 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
 
 ## Batch 394 citation and local release check

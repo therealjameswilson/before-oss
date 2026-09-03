@@ -32049,3 +32049,108 @@ test("Batch 397 keeps six unsupported Chapman identities archive-routed", async 
     await expect(page.locator(".index-record").first()).toContainText("118");
   }
 });
+
+test("Batch 398 publishes Howard W Chappell's Army-to-OSS pathway without turning universities into employers", async ({
+  page,
+}) => {
+  await page.goto("./people/4aac5898-1798-5825-b2cf-b2bb1f3a976b/");
+  await expect(page.getByRole("heading", { name: "Howard W Chappell", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("United States Army");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("Parachute instructor");
+  await expect(page.locator("main")).toContainText("Military Police assignment");
+  await expect(page.locator("main")).toContainText("The Ohio State University");
+  await expect(page.locator("main")).toContainText("Case Western Reserve University");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText("Ohio State");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
+    "Case Western Reserve",
+  );
+});
+
+test("Batch 398 qualifies Robert Chappelet's caravan trading and keeps mission work distinct", async ({ page }) => {
+  await page.goto("./people/a9158554-12ab-50d6-b15e-3596a48aca6b/");
+  await expect(page.getByRole("heading", { name: "Robert Chappelet", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("foreign or allied military personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("Self-employed");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Owner-operator of a trading caravan",
+  );
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText("probable immediate");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText("Self-employed");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Mission du Thibet of the Canons of Grand Saint Bernard",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText("Mission du Thibet");
+});
+
+test("Batch 398 publishes four Army-entry occupations without inventing employers", async ({ page }) => {
+  for (const [personId, name, occupation, entryDate] of [
+    [
+      "e1067390-b061-56bb-9db8-f9ed71a6f30c",
+      "Samuel A Chapman",
+      "Stamping occupations in mechanical treatment of metals",
+      "July 2, 1942",
+    ],
+    [
+      "fb3c648c-3c31-5e8d-aa60-0777da07835e",
+      "Edward M Chaput",
+      "Nonprocess occupations in manufacturing, n.e.c.",
+      "April 8, 1943",
+    ],
+    [
+      "bc15a55c-3383-58f7-a712-833b239eb61d",
+      "Maurice E Charbonneau",
+      "Waiters and waitresses, except private family",
+      "April 19, 1943",
+    ],
+    [
+      "b447330d-6f9f-5d6b-a6f4-786f45733bd8",
+      "Paul Chardonet",
+      "Clerks, general office",
+      "March 9, 1942",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 398 keeps ambiguous and conflicting Chappell identities visibly archive-routed", async ({ page }) => {
+  for (const [personId, name] of [
+    ["97345dff-9d68-58ff-9d2b-10eab061b763", "Thomas R Chapman"],
+    ["21cd83b9-68da-54b0-ac4f-fe7cd38122ee", "Walter S Chapman"],
+    ["23ccabdc-99fb-5e6e-9e2a-0b0223463a85", "Pierre Chappell"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 77");
+    await expect(page.locator(".index-record").first()).toContainText("118");
+  }
+
+  await page.goto("./people/72b0b072-146c-51cc-9bc5-8fc075e31ad6/");
+  await expect(page.getByRole("heading", { name: "Harvey R Chappell", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("exact identifier belongs to a different name");
+  await expect(page.locator("main")).not.toContainText("Zilliox");
+});
+
+test("Batch 398 variant directory search finds Paul Chardonet under the Army spelling", async ({ page }) => {
+  await page.goto("./people/");
+  const search = page.getByRole("searchbox", { name: "Search", exact: true });
+  await search.fill("Paul Chardenet");
+  await expect(page.getByRole("link", { name: "Paul Chardonet", exact: true }).first()).toBeVisible();
+});
