@@ -1,19 +1,56 @@
 # Link check
 
-Run: 2026-08-31 UTC
+Run: 2026-09-03 UTC
 
 ## Internal static routes
 
-**PASS.** The production build contains 24,445 HTML files. Every relative
+**PASS.** The production build contains 24,446 HTML files. Every relative
 `href` and `src` target resolves under the GitHub Pages base path
 `/before-oss/`.
 
-The build includes 23,940 person profiles, 497 organization profiles, and the
+The build includes 23,940 person profiles, 498 organization profiles, and the
 home, directory, organizations, analysis, methodology, sources, downloads, and
 404 pages.
 
-The checker inventoried 49,531 unique external URLs for separate live
+The checker inventoried 49,536 unique external URLs for separate live
 verification; external responses do not affect the internal-route pass.
+
+## Batch 394 citation and local release check
+
+All nine unique Batch 394 citation targets returned HTTP 200 or 206 to the
+automated GET check. They include the official personnel index and Army-series
+documentation, a NARA wartime memorandum, the University of Toledo's Sripati
+Chandrasekhar finding aid, the U.S. Army Special Operations History Office's
+Fitzhugh Chandler history, and the two Pike Archive directories used for the
+qualified Mercer student chronology. No authenticated Catalog API request, raw
+API response, raw Army row, credential, full copyrighted publication, or full
+service identifier was stored or published.
+
+The static build contains 24,446 HTML files, including direct pages for all
+23,940 active person entities, 498 public organizations, and every Batch 394
+profile. Every internal link resolves; 49,536 external URLs were inventoried
+for separate live verification. The 65 public-manifest files cover 82,562,552
+bytes and passed size and SHA-256 validation in the public and built trees. The
+manifest has SHA-256
+`1df621cb92d21dd61562b9e99609cb211c9c14e0a5248a1bfcec4cd20a6720fb`.
+
+The complete production-tree public-identifier audit examined 12,926
+normalized private identifiers, 120 formatted variants, and 24,516 artifacts.
+It rejected 1,071 substring coincidences and found zero aggregate,
+manifest-size, or unexpected boundary matches. The tracked-source credential
+scan found zero nonblank NARA keys and no local secret environment file. Three
+consecutive public-data exports reproduced the same 65-file manifest and
+checksum. Two consecutive finalized production builds reproduced
+path-and-content static-tree digest
+`e9f425c8f98bcb775e89b3ae6bd68d860a5e829df23a0cfad5308c7557507524`.
+
+Astro diagnostics report zero errors, warnings, or hints; the six focused Batch
+394 browser scenarios pass 18 / 18 across desktop, phone, and tablet. All 75
+Python tests and five subtests, the deterministic 200-profile audit, npm's
+dependency audit, public redaction, and the internal-link gate pass. The
+complete browser matrix executed 1,536 cases: 1,533 passed on the first local
+run, while three older desktop cases timed out during context teardown after
+their assertions and then passed 3 / 3 in isolation. All 27 axe cases passed.
 
 ## Batch 393 citation and local release check
 
@@ -51,6 +88,28 @@ Python tests and five subtests, the deterministic 200-profile audit, npm's
 dependency audit, public redaction, and the internal-link gate pass. The
 complete browser and accessibility matrix passed 1,518 / 1,518 cases in 11.2
 minutes, including all 27 axe cases.
+
+## Batch 393 production verification
+
+Release `45a4d29` passed pull-request Test workflow
+[33369110313](https://github.com/therealjameswilson/before-oss/actions/runs/33369110313),
+post-merge Test workflow
+[33371302029](https://github.com/therealjameswilson/before-oss/actions/runs/33371302029),
+and Pages workflow
+[33371302066](https://github.com/therealjameswilson/before-oss/actions/runs/33371302066).
+The cache-busted production audit opened seven core routes and all ten Batch
+393 person profiles. All 17 returned HTTP 200 and matched the audited local
+HTML after canonical-host normalization.
+
+The live manifest and all 65 listed assets matched the local release byte for
+byte across 82,437,109 bytes with zero failures. The live manifest SHA-256 is
+`8a083e56b5dd0b261d0bf63f85286e0fa7b7057236a05cd5152233ac319baa92`.
+Live statistics reported 23,978 source rows, 23,940 active people, 3,713
+research attempts, 488 people with verified affiliations, 208 people with
+verified employers, 3,666 archival-review assessments, 2,895 public claims,
+and 2,552 public sources. Because every fetched manifest asset and normalized
+HTML route matched its audited local counterpart, production inherits the
+zero-match private-identifier result.
 
 ## Batch 391 production verification
 

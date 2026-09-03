@@ -31309,7 +31309,7 @@ test("Batch 389 publishes only the qualified occupations for Cesar and Cesari", 
   }
 });
 
-test("Batch 389 confirms Chabe and Chadd while quarantining residual occupation value 992", async ({ page }) => {
+test("Batch 394 corrects the Batch 389 Chabe and Chadd records to qualified Student status", async ({ page }) => {
   for (const [personId, name, date] of [
     ["a7fc2085-67a8-5587-a832-e675756c3ba0", "Alex Chabe", "November 7, 1942"],
     ["163d3ac4-8a6f-543f-850c-b78ce1adeef7", "Donald E Chadd", "June 10, 1944"],
@@ -31317,10 +31317,10 @@ test("Batch 389 confirms Chabe and Chadd while quarantining residual occupation 
     await page.goto(`./people/${personId}/`);
     await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
     await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
-    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
     await expect(page.locator("main")).toContainText(date);
-    await expect(page.locator("main")).toContainText("residual occupation value 992 is withheld");
-    await expect(page.locator("main")).toContainText("No publishable pre-OSS affiliation is recorded yet");
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Student");
+    await expect(page.locator("main")).not.toContainText("residual occupation value 992 is withheld");
     await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
       "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
     );
@@ -31380,14 +31380,15 @@ test("Batch 390 resolves the indexed Chadnler typo to William Knox Chandler with
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Harvard University");
 });
 
-test("Batch 390 confirms Chadsey chronology while withholding occupation value 992", async ({ page }) => {
+test("Batch 394 corrects the Batch 390 Chadsey chronology to qualified Student status", async ({ page }) => {
   await page.goto("./people/a0845634-8021-589a-bcee-892876ee7163/");
   await expect(page.getByRole("heading", { name: "Carl T Chadsey Jr.", exact: true })).toBeVisible();
   await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
-  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("May 5, 1943");
-  await expect(page.locator("main")).toContainText("residual occupation value 992 is withheld");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Student");
+  await expect(page.locator("main")).not.toContainText("residual occupation value 992 is withheld");
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
   );
@@ -31568,14 +31569,15 @@ test("Batch 391 organization pages preserve military and student relationships",
   await expect(page.locator("main")).toContainText("student");
 });
 
-test("Batch 392 confirms Forrest Chambers while quarantining the residual occupation value", async ({ page }) => {
+test("Batch 394 corrects the Batch 392 Forrest Chambers record to qualified Student status", async ({ page }) => {
   await page.goto("./people/cba19dfe-a133-5160-8a9d-1730122a1709/");
   await expect(page.getByRole("heading", { name: "Forrest L Chambers", exact: true })).toBeVisible();
   await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
   await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
-  await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
   await expect(page.locator("main")).toContainText("June 10, 1943");
-  await expect(page.locator("main")).toContainText("residual occupation value 992");
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Student");
+  await expect(page.locator("main")).not.toContainText("residual occupation value 992");
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
   );
@@ -31752,4 +31754,103 @@ test("Batch 393 exact-name directory searches surface the reviewed profiles", as
   await expect(page.getByRole("link", { name: "John E Champe", exact: true }).first()).toBeVisible();
   await search.fill("Low N Chan");
   await expect(page.getByRole("link", { name: "Low N Chan", exact: true }).first()).toBeVisible();
+});
+
+test("Batch 394 confirms Fitzhugh Chandler while qualifying the Mercer student match", async ({ page }) => {
+  await page.goto("./people/1b3a37f1-15ad-5e0b-9aec-53d88ecb2e72/");
+  await expect(page.getByRole("heading", { name: "Fitzhugh H Chandler", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned army officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Lt. Col. Fitzhugh H. Chandler");
+  await expect(page.locator("main")).toContainText("Mercer University");
+  await expect(page.locator("main")).toContainText("probably a Mercer University student");
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "No reviewed claim currently meets the publication threshold",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 394 preserves Sripati Chandrasekha while publishing the documented Chandrasekhar variant", async ({ page }) => {
+  await page.goto("./people/2525121f-f4c5-5bb9-8d0e-0439eff0ad87/");
+  await expect(page.getByRole("heading", { name: "Sripati Chandrasekha", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("civilian professional or administrative grade", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Sripati Chandrasekhar");
+  await expect(page.locator("main")).toContainText("New York University");
+  await expect(page.locator("main")).toContainText("Columbia University");
+  await expect(page.locator("main")).toContainText("University of Pennsylvania");
+  await expect(page.locator("main")).toContainText("Asia Institute");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 394 publishes Robert Chandler and Kenneth Chaney Army-entry evidence without employers", async ({ page }) => {
+  for (const [personId, name, evidence, date] of [
+    ["10c65107-5935-53e5-b754-c64fb775c200", "Robert H Chandler", "Student", "February 10, 1943"],
+    [
+      "c98bd4d6-2785-54a9-b465-ec06c4c67211",
+      "Kenneth M Chaney",
+      "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "January 14, 1942",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(evidence);
+    await expect(page.locator("main")).toContainText(date);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 394 preserves six unresolved page-76 identities for archival review", async ({ page }) => {
+  for (const [personId, name, box] of [
+    ["4a41a3e6-288e-5044-bac2-a430e7e001f0", "Stanley H Chan", "116"],
+    ["d145a6a5-7938-582b-952d-b63fc87d4834", "James R Chance", "116"],
+    ["2089f11b-3906-5df8-b3d2-d45fce921798", "Barbara G Chandler", "116"],
+    ["cb13a453-379b-537f-9a9d-8c33a4edb1fe", "Harold P Chandler", "117"],
+    ["f7028eeb-7ef5-588f-af7a-e60337c3e980", "William K Chandler", "117"],
+    ["3dbd17b6-2d4e-53ce-a51a-88d0c83db584", "Elsie I Chang", "117"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("high", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 76");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+});
+
+test("Batch 394 corrects four earlier occupation values to qualified Student status", async ({ page }) => {
+  for (const [personId, name] of [
+    ["a7fc2085-67a8-5587-a832-e675756c3ba0", "Alex Chabe"],
+    ["163d3ac4-8a6f-543f-850c-b78ce1adeef7", "Donald E Chadd"],
+    ["a0845634-8021-589a-bcee-892876ee7163", "Carl T Chadsey Jr."],
+    ["cba19dfe-a133-5160-8a9d-1730122a1709", "Forrest L Chambers"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.locator("main")).toContainText("Student");
+    await expect(page.locator("main")).toContainText("corrects value 992 to Students");
+    await expect(page.locator("main")).not.toContainText("value 992 is not interpreted");
+    await expect(page.locator("main")).not.toContainText("value 992 is withheld");
+  }
+});
+
+test("Batch 394 exact and variant directory searches surface the reviewed profiles", async ({ page }) => {
+  await page.goto("./people/");
+  const search = page.getByRole("searchbox", { name: "Search", exact: true });
+  await search.fill("Fitzhugh H Chandler");
+  await expect(page.getByRole("link", { name: "Fitzhugh H Chandler", exact: true }).first()).toBeVisible();
+  await search.fill("Sripati Chandrasekhar");
+  await expect(page.getByRole("link", { name: "Sripati Chandrasekha", exact: true }).first()).toBeVisible();
+  await search.fill("Kenneth M Chaney");
+  await expect(page.getByRole("link", { name: "Kenneth M Chaney", exact: true }).first()).toBeVisible();
 });
