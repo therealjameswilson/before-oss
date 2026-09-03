@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-09-03 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,733 people with a non-planned attempt | 23,940 active person entities | 15.5931% |
-| Verified-affiliation coverage | 490 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0468% |
-| Verified-employer coverage | 209 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8730% |
-| Archival-review coverage | 3,686 people with an individual file-access/priority assessment | 23,940 active person entities | 15.3968% |
+| Research-attempt coverage | 3,743 people with a non-planned attempt | 23,940 active person entities | 15.6349% |
+| Verified-affiliation coverage | 491 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0510% |
+| Verified-employer coverage | 210 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8772% |
+| Archival-review coverage | 3,696 people with an individual file-access/priority assessment | 23,940 active person entities | 15.4386% |
 
 ## Extraction and identity
 
@@ -20,20 +20,20 @@ Generated from the current local SQLite database on 2026-09-03 UTC.
 - Active cautious person entities: 23,940
 - Superseded person rows retained for audit: 1
 - Linked source rows: 23,978
-- Possible duplicate groups: 232
+- Possible duplicate groups: 233
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 725
-- Identity status `high_confidence`: 535
-- Identity status `probable`: 119
+- Identity status `confirmed`: 726
+- Identity status `high_confidence`: 536
+- Identity status `probable`: 120
 - Identity status `ambiguous`: 60
 - Identity status `conflicting`: 68
-- Identity status `unresolved`: 22,433
+- Identity status `unresolved`: 22,430
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,983
-- Enlisted Army personnel: 3,934
+- Unknown or indeterminate: 15,982
+- Enlisted Army personnel: 3,935
 - Commissioned Army officers: 2,106
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 6
@@ -49,26 +49,26 @@ Commissioned classification: 2,225 yes; 5,604 no; 16,111 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,207
+- `not_started`: 20,197
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 104
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 68
-- `no_reliable_result_after_protocol`: 70
-- `occupation_only_found`: 614
-- `requires_archival_review`: 2,433
+- `no_reliable_result_after_protocol`: 77
+- `occupation_only_found`: 615
+- `requires_archival_review`: 2,434
 - `completed`: 117
 - `conflicting_sources`: 66
-- `verified_employer_found`: 205
-- Claim confidence: 903 confirmed; 1,141 high; 802 medium; 54 low; 78
+- `verified_employer_found`: 206
+- Claim confidence: 904 confirmed; 1,144 high; 803 medium; 55 low; 78
   conflicting
-- Durable evidence inventory: 3,676 source records representing 1,712 unique
-  documents; 511 organizations; 1,474 affiliations; 2,978 claims; and 6,756
+- Durable evidence inventory: 3,683 source records representing 1,717 unique
+  documents; 511 organizations; 1,476 affiliations; 2,984 claims; and 6,769
   claim-source links
-- Reviewed public projection: 499 organizations; 1,463 published, qualified,
-  or conflict-visible affiliations; 2,922 published, qualified, or
-  conflict-visible claims; and 2,567 public citation records
+- Reviewed public projection: 499 organizations; 1,465 published, qualified,
+  or conflict-visible affiliations; 2,927 published, qualified, or
+  conflict-visible claims; and 2,572 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -78,12 +78,12 @@ Commissioned classification: 2,225 yes; 5,604 no; 16,111 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,619; 157 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,621; 158 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,951
+- Total recorded attempts/plans: 4,961
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,432; 1,387 have at least one public-visible
+- People with saved reviewed claims: 1,435; 1,389 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -7398,6 +7398,38 @@ Commissioned classification: 2,225 yes; 5,604 no; 16,111 indeterminate.
   presented as a pre-OSS employer. Batch 395 adds seven sources, three
   organization inputs, seven affiliations, twelve claims, twenty-seven claim-
   source links, ten person updates, and ten durable attempts.
+- Batch 396 covers the next ten contiguous rows, Frank M. Chapin through Frank
+  M. Chapman: PDF page 76 rows 44-46 and page 77 rows 1-7 in Boxes 117 and 118.
+  Both pages and the relevant Army occupation-code page were rendered and
+  visually checked. An exact private-identifier match confirms Frank M. Chapin
+  as an Army private who entered from civil life on November 12, 1943. His
+  official grouped occupation, `Policemen and detectives, public service`, is
+  published with medium confidence and strong date-bounding, but no police
+  agency, employer, jurisdiction, or Army-to-OSS sequence is inferred.
+
+  A scholarly memorial directly documents James Paul Chapin's 1942 OSS war
+  work, while the American Museum of Natural History authority record documents
+  his curatorial employment from 1923 through retirement in 1948. Exact name
+  and middle-initial agreement and the direct OSS statement support a high-
+  confidence identity. The Museum is therefore published as his best-supported
+  immediate affiliation and last civilian employer, with the exact OSS entry
+  date and formal leave status explicitly unresolved. The adjacent uninitialed
+  James Chapin row remains a separate unresolved entity; both rows share one
+  visible possible-duplicate group and require comparison of their Box 117
+  files before any merge.
+
+  A biographical obituary makes Elsie Virginia Chapman a plausible exact-name
+  OSS candidate, but the index supplies no middle name or private identifier.
+  That low-confidence identity lead remains withheld from public claims and is
+  routed to critical Box 118 review. Helen B. Chapin, Howard M. Chapin, the
+  uninitialed James Chapin, Albert H. Chapman, Donald F. Chapman, Dwight W.
+  Chapman Jr., and Frank M. Chapman remain unresolved after the full protocol.
+  The Rhode Island historian Howard M. Chapin, an OCR-collided military-
+  language-school result for Albert, three incompatible Donald Army records, a
+  postwar bank-officer Dwight, and ornithologist Frank Michler Chapman were
+  rejected rather than promoted from name similarity. Batch 396 adds seven
+  sources, one organization input, two affiliations, six claims, thirteen
+  claim-source links, ten person updates, and ten durable attempts.
 - Batch 392 covers the next ten contiguous rows, Dreama I. Chambers through
   Roger J. Champagne: PDF page 76 rows 4-13 in Box 116. The page was rendered
   at 200 dpi and checked against the immutable rows. Original spellings,
@@ -7748,13 +7780,13 @@ Commissioned classification: 2,225 yes; 5,604 no; 16,111 indeterminate.
   deterministic 200-profile audit, Astro diagnostics, dependency, internal-
   link, redaction, and integrity gates pass; details are recorded in the QA
   reports.
-- After Batch 395, research has a saved non-planned outcome for 3,733 people,
-  or 15.5931% of 23,940 active entities. Confirmed/high publishable affiliation
-  coverage is 490 people (2.0468%); confirmed/high employment or self-
-  employment is 209 people (0.8730%); 3,686 people (15.3968%) have an assessed
-  archival-review disposition; and 20,207 remain `not_started`. The data
-  preserves 232 possible-duplicate groups and 71 conflict-visible people.
-  Claim confidences are 903 confirmed, 1,141 high, 802 medium, 54 low, and 78
+- After Batch 396, research has a saved non-planned outcome for 3,743 people,
+  or 15.6349% of 23,940 active entities. Confirmed/high publishable affiliation
+  coverage is 491 people (2.0510%); confirmed/high employment or self-
+  employment is 210 people (0.8772%); 3,696 people (15.4386%) have an assessed
+  archival-review disposition; and 20,197 remain `not_started`. The data
+  preserves 233 possible-duplicate groups and 71 conflict-visible people.
+  Claim confidences are 904 confirmed, 1,144 high, 803 medium, 55 low, and 78
   conflicting.
 - Batch 361 covers A. G. Carey through Michael Carioscia, the next ten
   contiguous personnel rows on PDF page 69 in Box 106. The source page was
@@ -9538,6 +9570,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-six-seventy-seven-frank-m-chapin-through-frank-m-chapman-pathways_batch-396_2026-09-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-gino-casolini-through-gino-h-cassai-pathways_batch-379_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-jack-c-casey-through-john-l-caskey-pathways_batch-378_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-two-migule-b-casasres-through-george-j-caserio-pathways_batch-377_2026-08-30.json

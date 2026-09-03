@@ -31930,3 +31930,62 @@ test("Batch 395 exact-name directory searches surface the reviewed profiles", as
   await search.fill("Jerome W Chapek");
   await expect(page.getByRole("link", { name: "Jerome W Chapek", exact: true }).first()).toBeVisible();
 });
+
+test("Batch 396 publishes James P Chapin's museum pathway with explicit temporal qualification", async ({ page }) => {
+  await page.goto("./people/c9b3e2b0-99b7-58c0-989e-0f2b9905ae0b/");
+  await expect(page.getByRole("heading", { name: "James P Chapin", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "American Museum of Natural History",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "American Museum of Natural History",
+  );
+  await expect(page.locator("main")).toContainText("war work for the Office of Strategic Services");
+  await expect(page.locator("main")).toContainText("best-supported immediate pre-OSS affiliation");
+});
+
+test("Batch 396 publishes Frank M Chapin's Army-entry occupation without inventing an employer", async ({ page }) => {
+  await page.goto("./people/66bf2c71-ba20-59ab-8919-407e4fb834d0/");
+  await expect(page.getByRole("heading", { name: "Frank M Chapin", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("Policemen and detectives, public service");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 396 keeps seven unresolved Chapin and Chapman rows separate and archive-routed", async ({ page }) => {
+  for (const [personId, name, box] of [
+    ["ab731464-8098-5d17-80db-9bc29261c128", "Helen B Chapin", "117"],
+    ["93d9d1ec-046d-52ab-af0f-6edd95e19d95", "Howard M Chapin", "117"],
+    ["f3d98ec9-c7c4-5f83-88ae-01a900cf5103", "James Chapin", "117"],
+    ["fe36975d-cefc-5ea3-b044-36b3e5ba0569", "Albert H Chapman", "118"],
+    ["eeac20d3-b012-5e96-99f4-9384e5af57bb", "Donald F Chapman", "118"],
+    ["fd2e6249-c032-561e-a3c2-fdaac5514d8c", "Dwight W Chapman Jr.", "118"],
+    ["ab3c9ade-7b6f-5953-adab-71bb78eb6396", "Frank M Chapman", "118"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("unresolved", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("no reliable result after protocol", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText(box);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 396 withholds the Elsie Chapman obituary candidate pending Box 118 confirmation", async ({ page }) => {
+  await page.goto("./people/09e6b9de-dfef-5062-b734-64124bf2eedc/");
+  await expect(page.getByRole("heading", { name: "Elsie Chapman", exact: true })).toBeVisible();
+  await expect(page.getByText("probable", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("critical", { exact: true }).first()).toBeVisible();
+  await expect(page.locator(".index-record").first()).toContainText("118");
+  await expect(page.locator('section[aria-labelledby="evidence"]')).toHaveCount(0);
+  await expect(page.locator("main")).not.toContainText("worked for the OSS in Washington D.C. during World War II");
+});
