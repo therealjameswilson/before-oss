@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:08:28+00:00",
+  "generated_at": "2026-09-03T18:54:15+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,52 +17,52 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 26,
+    "enlisted_army_personnel": 25,
     "enlisted_marine_corps_personnel": 3,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 17,
     "temporary_contract_or_special_personnel": 3,
-    "unknown_or_indeterminate": 92,
+    "unknown_or_indeterminate": 93,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
     "1": 77,
-    "2": 59,
+    "2": 60,
     "3": 27,
-    "4": 37
+    "4": 36
   },
   "identity_status_counts": {
     "ambiguous": 2,
-    "confirmed": 3,
+    "confirmed": 2,
     "conflicting": 10,
-    "high_confidence": 21,
+    "high_confidence": 23,
     "probable": 4,
-    "unresolved": 160
+    "unresolved": 159
   },
   "research_status_counts": {
-    "completed": 1,
+    "completed": 3,
     "conflicting_sources": 10,
     "documented_prewar_employer_found": 4,
     "in_progress": 2,
     "needs_identity_review": 1,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 141,
-    "occupation_only_found": 4,
+    "not_started": 140,
+    "occupation_only_found": 3,
     "requires_archival_review": 25,
     "verified_employer_found": 9
   },
   "special_strata_counts": {
-    "commissioned": 31,
+    "commissioned": 32,
     "civilian": 21,
-    "enlisted": 33,
+    "enlisted": 32,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 21,
-    "medium_published_claim": 10,
+    "confirmed_or_high_published_claim": 22,
+    "medium_published_claim": 11,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 160
+    "unresolved_identity": 159
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -175,8 +175,8 @@
     "6df71376-3491-5715-91af-53606a60d0fd",
     "7f837b0a-599d-53c4-a9d7-01b0da7384ff",
     "f6ea5939-6163-59f6-a9b3-3fe7e848fc26",
+    "4aac5898-1798-5825-b2cf-b2bb1f3a976b",
     "03a82f33-431c-594c-a46b-d8718bfc4a1f",
-    "eaf1cbb0-30ed-51a6-89b4-39ea1a7d3819",
     "15c108b1-3187-5a2b-8203-eaa6a8d5ed12",
     "41562bd4-211a-57fd-9a4e-3a3af7c83eb6",
     "17a8f2cd-1c27-5342-a669-dd2ce398161e",
@@ -195,8 +195,8 @@
     "0e45834f-eb80-5260-86f9-f290b7f429f9",
     "82810e22-1b1b-5b87-93f0-e8b8523d3de3",
     "5672d792-8da0-53b3-890f-e1b432c2ff25",
+    "a9158554-12ab-50d6-b15e-3596a48aca6b",
     "df0f68e1-bd53-58a8-879c-aea2d2006ad2",
-    "90b1ac85-8eb7-5fdc-a5f0-b84cc0649461",
     "eb972ede-0d1f-5926-bc48-a9c19b8af5cf",
     "cd4cefc2-85f7-5b72-b512-7ab4630ecc85",
     "e494b964-f3c3-5612-904e-549d71d03302",
@@ -235,7 +235,6 @@
     "e2775b85-1303-52a5-8384-565edaa67356",
     "0f83c991-969d-5152-baf5-0979c8ff3897",
     "e9cfccdd-0d72-58eb-828b-e93d50b13153",
-    "4f328e75-8bad-552c-a60d-bde214eb9f43",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
     "10ffbb81-0232-52fd-a256-06c9b48e0686",
@@ -267,6 +266,7 @@
     "df0a8e7e-1c96-5f93-a69e-186d90ee2a94",
     "70fbff69-8032-5457-9009-c1ad7ee0f6b7",
     "46c4071e-393f-5689-816d-8ae8c29bbf31",
-    "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6"
+    "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6",
+    "a2d327c1-38bf-5e91-8762-d07ad0295d6c"
   ]
 }

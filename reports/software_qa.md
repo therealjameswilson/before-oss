@@ -1,6 +1,26 @@
 # Software QA
 
-Run: 2026-08-31 UTC
+Run: 2026-09-03 UTC
+
+- Batch 398 complete browser and accessibility matrix: **1,587 / 1,587
+  passed** in 13.5 minutes across desktop, phone, and tablet. The clean,
+  uninterrupted run includes all 27 axe cases and all fifteen new Batch 398
+  cases; the focused regression separately passed **15 / 15** on the final
+  data release. The database passed `quick_check`, had zero foreign-key
+  violations, and passed the deterministic 200-profile audit. Extraction
+  validation passed all 522 pages and 23,978 rows. The public-identifier audit
+  examined 12,926 normalized private identifiers and 120 formatted variants
+  across 24,519 production artifacts, rejected 1,081 substring coincidences,
+  and found zero aggregate, manifest-size, or unexpected boundary matches.
+  All 130 public-manifest source/build checks passed for 65 assets totaling
+  82,895,629 bytes. All seven Batch 398 citation endpoints returned HTTP 200,
+  and the dependency audit found zero vulnerabilities. Consecutive exports
+  reproduced path-and-content public-data digest
+  `3e7f607aab0bc2463979abce5faa7d64c607d76e6d9ffd72cb3a75a3887727be`;
+  consecutive finalized builds reproduced path-and-content static-tree digest
+  `0537c7c5e995f3274409373b8f6ebe4b082f955d3bd874da37dcd352caae9f33`;
+  and the public manifest digest is
+  `248e66233c5e7ac4dde70d35d59bb361cda2f137dfbb56eb1b7355368ee76ed6`.
 
 - Python unit tests: **75 / 75 passed**, plus **5 / 5 subtests**
 - Astro type/content diagnostics: **0 errors, 0 warnings, 0 hints**

@@ -4,6 +4,23 @@ Run: 2026-09-03 UTC
 
 ## Result
 
+The Batch 398 release matrix passed **1,587 / 1,587** browser and accessibility
+cases in 13.5 minutes across desktop, phone, and tablet. It includes all 27 axe
+accessibility cases and all fifteen new Batch 398 cases. The focused Batch 398
+regression separately passed **15 / 15** on the final data release. The new
+checks verify Howard W. Chappell's immediate Army pathway while keeping Ohio
+State and Case Western Reserve student affiliations out of employer counts;
+keep Robert Chappelet's caravan self-employment distinct from Mission du
+Thibet volunteer work; publish four bounded Army-entry occupations without
+inventing employers; expose Harvey R. Chappell's identifier conflict; preserve
+three ambiguous names as archival-review profiles; and find Paul Chardonet by
+the documented Chardenet variant.
+
+Astro diagnostics completed with zero errors, warnings, or hints. The same
+release also passed all 75 Python tests, the deterministic 200-profile audit,
+the complete public-identifier scan, the dependency audit, and the 24,449-page
+internal-link check.
+
 The Batch 397 release checks passed **1,572 / 1,572** browser and accessibility
 cases across desktop, phone, and tablet in two disjoint runs on the same data
 release: the complete 1,563-case pre-Batch-397 matrix and all nine new Batch 397
