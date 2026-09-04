@@ -2,15 +2,20 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
+Batch 399 is published and live-verified; its fixed release record is in
+`reports/release_batch_399.md`. The local totals below include the ten reviewed
+Batch 400 people and are not yet the deployed totals. Batch 400 awaits the
+complete release checks and deployment.
+
 ## Distinct coverage measures
 
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,773 people with a non-planned attempt | 23,940 active person entities | 15.7602% |
+| Research-attempt coverage | 3,783 people with a non-planned attempt | 23,940 active person entities | 15.8020% |
 | Verified-affiliation coverage | 485 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0259% |
 | Verified-employer coverage | 211 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8814% |
-| Archival-review coverage | 3,726 people with an individual file-access/priority assessment | 23,940 active person entities | 15.5639% |
+| Archival-review coverage | 3,736 people with an individual file-access/priority assessment | 23,940 active person entities | 15.6057% |
 
 ## Extraction and identity
 
@@ -23,17 +28,17 @@ Verified against the current local SQLite database on 2026-09-04 UTC.
 - Possible duplicate groups: 233
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 738
-- Identity status `high_confidence`: 539
-- Identity status `probable`: 120
+- Identity status `confirmed`: 739
+- Identity status `high_confidence`: 540
+- Identity status `probable`: 122
 - Identity status `ambiguous`: 64
 - Identity status `conflicting`: 70
-- Identity status `unresolved`: 22,409
+- Identity status `unresolved`: 22,405
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,968
-- Enlisted Army personnel: 3,946
+- Unknown or indeterminate: 15,966
+- Enlisted Army personnel: 3,948
 - Commissioned Army officers: 2,107
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 7
@@ -45,30 +50,34 @@ Verified against the current local SQLite database on 2026-09-04 UTC.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,228 yes; 5,615 no; 16,097 indeterminate.
+Commissioned classification: 2,228 yes; 5,617 no; 16,095 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,167
+- `not_started`: 20,157
 - `in_progress`: 46
 - `candidate_found`: 1
-- `needs_identity_review`: 104
+- `needs_identity_review`: 106
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 68
 - `no_reliable_result_after_protocol`: 82
-- `occupation_only_found`: 625
-- `requires_archival_review`: 2,443
+- `occupation_only_found`: 626
+- `requires_archival_review`: 2,449
 - `completed`: 120
-- `conflicting_sources`: 68
+- `conflicting_sources`: 69
 - `verified_employer_found`: 207
-- Claim confidence: 916 confirmed; 1,152 high; 818 medium; 55 low; 80
+- Claim confidence: 917 confirmed; 1,153 high; 820 medium; 57 low; 81
   conflicting
-- Durable evidence inventory: 3,700 citation records representing 1,723 unique
-  documents; 514 organizations; 1,495 affiliations; 3,021 claims; and 6,837
+- Claims attached specifically to employment/self-employment affiliations:
+  35 confirmed; 270 high; 83 medium; 0 low; 2 conflicting; 0 unresolved.
+  These count claim rows, not unique people, and precede the analytics gates.
+- Durable evidence inventory: 3,711 citation records representing 1,734 legacy
+  document keys (source-identity normalization still under review); 514
+  organizations; 1,496 affiliations; 3,028 claims; and 6,857
   claim-source links
-- Reviewed public projection: 502 organizations; 1,484 published, qualified,
-  or conflict-visible affiliations; 2,964 published, qualified, or
-  conflict-visible claims; and 2,586 public citation records
+- Reviewed public projection: 502 organizations; 1,485 published, qualified,
+  or conflict-visible affiliations; 2,968 published, qualified, or
+  conflict-visible claims; and 2,593 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -78,12 +87,12 @@ Commissioned classification: 2,228 yes; 5,615 no; 16,097 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,636; 158 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,638; 160 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,991
+- Total recorded attempts/plans: 5,001
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,452; 1,406 have at least one public-visible
+- People with saved reviewed claims: 1,456; 1,408 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
@@ -9541,6 +9550,23 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ## Current blockers
 
+Batch 400 adjudication: ten people spanning PDF page 77 rows 38-46 and page
+78 row 1 now have durable individual outcomes. Six require archival review,
+two remain in identity review, one has conflicting sources, and one has only
+a qualified Army-entry occupation. The seven claims comprise one confirmed,
+one high, two medium (one held for review), two withheld low-confidence
+candidates, and one visible conflict. No verified employer was added. The
+Charter/Chartier spelling is preserved as separate source forms; Charr's
+1944/1945 and 1904/1905 discrepancies are not silently harmonized. Neither
+the Chartrand missionary nor the Chase academic candidate has public employer
+claims. Full research-checkpoint notes remain separate from public facts.
+
+Source-identity audit: 3,711 citations currently have 1,258 distinct non-null
+URLs and 1,734 legacy document keys. Sixty URLs map to more than one legacy
+key. Neither figure alone is a certified count of unique historical items;
+see `reports/source_identity_review.md`. This requires citation normalization,
+not deletion or automatic merger of distinct archival documents.
+
 Open methodological audit: four Batch 399 Army-entry occupations now have
 `temporal_relation_uncertain`, correcting a label that overstated their
 relationship to OSS. The reproducible triage query in
@@ -9577,6 +9603,7 @@ research attempt or a reason to hide the records.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-pages-seventy-seven-seventy-eight-charpenter-through-herbert-chase-pathways_batch-400_2026-09-04.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-seven-pearl-charie-through-mary-charlton-pathways_batch-399_2026-09-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-six-seventy-seven-frank-m-chapin-through-frank-m-chapman-pathways_batch-396_2026-09-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-gino-casolini-through-gino-h-cassai-pathways_batch-379_2026-08-30.json
