@@ -1,0 +1,742 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 408",
+  "sources": [
+    {
+      "key": "index-b408",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 79 visually inspected; rows 26-35; Boxes 121-122; location 230/86/28/06",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b408",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series NAID 604357; file NAID 1263923; complete transient 9,200,232-row scan; six exact private-identifier hits, with exact indexed names for each",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full private identifier, raw record, or API response retained."
+    },
+    {
+      "key": "basic-b408",
+      "stable_url": "https://aad.archives.gov/aad/content/aad_docs/rg64_army_serial_number_electronic_records.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2005-02",
+      "locator": "Reference copy pages 40-41; field definitions, alternate cards, transcription and source limitations",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Government technical documentation; cited, not republished."
+    },
+    {
+      "key": "codes-b408",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2005 compilation of contemporary code documents",
+      "locator": "Physical 171 / printed X-XI: 0-68 Semiprofessional occupations, n.e.c., and 1-75 Salespersons; physical 173 / printed XIV-XV: 8-36 occupations in manufacture of furniture, n.e.c.; physical 174 / printed XVI-XVII: 5-00 electrical-machinery occupations and 7-53 linemen and servicemen",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Government code list inspected as full rendered pages; only short code labels retained."
+    },
+    {
+      "key": "hoover-durwood-b408",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/270979/full",
+      "archival_identifier": "Hoover Digital Collections media 270979",
+      "title": "Report on Third War Area Activities",
+      "author_creator": "Office of Strategic Services, China Theater, SI Branch",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1945-05-12",
+      "locator": "Physical 7, personnel recommendation; physical 8, roster of American personnel, Communications section",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Reports Relating to China Theater Activities",
+      "rights_notes": "Contemporary government record; citation and short project-authored paraphrase only."
+    },
+    {
+      "key": "apa-robert-chin-b408",
+      "stable_url": "https://doi.org/10.1037/0003-066X.46.12.1343",
+      "archival_identifier": "DOI 10.1037/0003-066X.46.12.1343",
+      "title": "Robert Chin (Chen Yuli) (1918-1990)",
+      "author_creator": "Leonard Saxe; Philip E. Kubzansky",
+      "repository_publisher": "American Psychological Association, American Psychologist",
+      "publication_record_date": "1991-12",
+      "locator": "Volume 46, number 12, page 1343; official APA obituary index and publisher-provided article preview reviewed",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Copyrighted article; citation and project-authored paraphrase only; no article body retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "columbia-university",
+      "canonical_name": "Columbia University",
+      "historical_name": "Columbia University",
+      "aliases": [
+        "Columbia University in the City of New York",
+        "Columbia"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Student status is modeled separately from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "occupation-f791bece-13d7-5dd7-99e5-61e5e0e86382-b408",
+      "person_id": "f791bece-13d7-5dd7-99e5-61e5e0e86382",
+      "occupation": "Linemen and servicemen, telegraph, telephone, and power",
+      "relationship_type": "unknown",
+      "date_precision": "Observation recorded 1943-01-12; actual work dates and relation to OSS entry unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, workplace, employment dates or immediate/last-civilian relationship is established. The Army observation is not converted into an employer claim."
+    },
+    {
+      "key": "robert-chin-columbia-student-b408",
+      "person_id": "f861478f-8c0a-5bbb-8d23-fa26bfc7b07f",
+      "organization_key": "columbia-university",
+      "organization_name_as_found": "Columbia University",
+      "role_title": "graduate student",
+      "occupation": "psychology student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943",
+      "date_precision": "Degrees dated 1939, 1940 and 1943; the source states Army and OSS entry in 1943 but gives no month or day.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Columbia is a documented student affiliation, not an employer. Same-year chronology strongly bounds it before Army/OSS entry; exact transition day is unknown."
+    },
+    {
+      "key": "occupation-7e4f7593-f52e-5896-95f1-b0fb1740301c-b408",
+      "person_id": "7e4f7593-f52e-5896-95f1-b0fb1740301c",
+      "occupation": "Occupations in manufacture of electrical machinery and accessories, n. e. c.",
+      "relationship_type": "unknown",
+      "date_precision": "Observation recorded 1942-07-21; actual work dates and relation to OSS entry unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, workplace, employment dates or immediate/last-civilian relationship is established. The Army observation is not converted into an employer claim."
+    },
+    {
+      "key": "occupation-810d573f-3092-55de-8a5e-bb768c1a067c-b408",
+      "person_id": "810d573f-3092-55de-8a5e-bb768c1a067c",
+      "occupation": "Salespersons",
+      "relationship_type": "unknown",
+      "date_precision": "Observation recorded 1942-11-09; actual work dates and relation to OSS entry unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, workplace, employment dates or immediate/last-civilian relationship is established. The Army observation is not converted into an employer claim."
+    },
+    {
+      "key": "occupation-d6c42508-1010-59bc-ad79-e451738e274b-b408",
+      "person_id": "d6c42508-1010-59bc-ad79-e451738e274b",
+      "occupation": "Occupations in manufacture of furniture, n. e. c.",
+      "relationship_type": "unknown",
+      "date_precision": "Observation recorded 1942-12-28; actual work dates and relation to OSS entry unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, workplace, employment dates or immediate/last-civilian relationship is established. The Army observation is not converted into an employer claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-f791bece-13d7-5dd7-99e5-61e5e0e86382-b408",
+      "person_id": "f791bece-13d7-5dd7-99e5-61e5e0e86382",
+      "claim_type": "identity",
+      "claim_text": "Durwood W Chiles has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The exact private identifier and full name match the Army record; a contemporary OSS report independently names Pfc. Durwood W. Chiles in its Communications roster.",
+      "identity_match_assessment": "The exact private identifier and full name match the Army record; a contemporary OSS report independently names Pfc. Durwood W. Chiles in its Communications roster.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date, or later OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Raw index spelling and rank are unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "hoover-durwood-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-f791bece-13d7-5dd7-99e5-61e5e0e86382-b408",
+      "person_id": "f791bece-13d7-5dd7-99e5-61e5e0e86382",
+      "affiliation_key": "occupation-f791bece-13d7-5dd7-99e5-61e5e0e86382-b408",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group “Linemen and servicemen, telegraph, telephone, and power.”",
+      "evidence_paraphrase": "The exact private-identifier record carries the applicable code, which the inspected NARA code sheet labels Linemen and servicemen, telegraph, telephone, and power.",
+      "identity_match_assessment": "Exact indexed name and private identifier; identity assessed confirmed.",
+      "temporal_assessment": "Observed 1943-01-12; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer is named and no employment date is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-8d8e06da-63d3-59c9-94d0-bb5711e77155-b408",
+      "person_id": "8d8e06da-63d3-59c9-94d0-bb5711e77155",
+      "claim_type": "identity",
+      "claim_text": "William H Chilton has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "identity_match_assessment": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date, or later OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Raw index spelling and rank are unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-f861478f-8c0a-5bbb-8d23-fa26bfc7b07f-b408",
+      "person_id": "f861478f-8c0a-5bbb-8d23-fa26bfc7b07f",
+      "claim_type": "identity",
+      "claim_text": "Robert Chin has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The exact private identifier and name match an Army entry with birth-year code 18; the detailed scholarly obituary identifies Robert Chin, born 1918, as joining the Army and OSS in 1943.",
+      "identity_match_assessment": "The exact private identifier and name match an Army entry with birth-year code 18; the detailed scholarly obituary identifies Robert Chin, born 1918, as joining the Army and OSS in 1943.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date, or later OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Raw index spelling and rank are unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "apa-robert-chin-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "immediate-robert-chin-columbia-b408",
+      "person_id": "f861478f-8c0a-5bbb-8d23-fa26bfc7b07f",
+      "affiliation_key": "robert-chin-columbia-student-b408",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Robert Chin was a psychology student at Columbia University before entering the Army and OSS in 1943.",
+      "evidence_paraphrase": "The scholarly obituary dates his Columbia degrees through 1943 and states that he joined the Army and was assigned to OSS that year.",
+      "identity_match_assessment": "Confirmed by exact private-identifier Army match, matching 1918 birth-year evidence, and the source’s explicit Army/OSS account.",
+      "temporal_assessment": "Strongly date-bounded within 1943; no intervening affiliation is documented, but no exact transition date is supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is not employment and is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "apa-robert-chin-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-7e4f7593-f52e-5896-95f1-b0fb1740301c-b408",
+      "person_id": "7e4f7593-f52e-5896-95f1-b0fb1740301c",
+      "claim_type": "identity",
+      "claim_text": "Walter Chinn has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "identity_match_assessment": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date, or later OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Raw index spelling and rank are unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-7e4f7593-f52e-5896-95f1-b0fb1740301c-b408",
+      "person_id": "7e4f7593-f52e-5896-95f1-b0fb1740301c",
+      "affiliation_key": "occupation-7e4f7593-f52e-5896-95f1-b0fb1740301c-b408",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group “Occupations in manufacture of electrical machinery and accessories, n. e. c..”",
+      "evidence_paraphrase": "The exact private-identifier record carries the applicable code, which the inspected NARA code sheet labels Occupations in manufacture of electrical machinery and accessories, n. e. c..",
+      "identity_match_assessment": "Exact indexed name and private identifier; identity assessed high_confidence.",
+      "temporal_assessment": "Observed 1942-07-21; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer is named and no employment date is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-810d573f-3092-55de-8a5e-bb768c1a067c-b408",
+      "person_id": "810d573f-3092-55de-8a5e-bb768c1a067c",
+      "claim_type": "identity",
+      "claim_text": "Charles L Chiriako has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "identity_match_assessment": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date, or later OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Raw index spelling and rank are unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-810d573f-3092-55de-8a5e-bb768c1a067c-b408",
+      "person_id": "810d573f-3092-55de-8a5e-bb768c1a067c",
+      "affiliation_key": "occupation-810d573f-3092-55de-8a5e-bb768c1a067c-b408",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group “Salespersons.”",
+      "evidence_paraphrase": "The exact private-identifier record carries the applicable code, which the inspected NARA code sheet labels Salespersons.",
+      "identity_match_assessment": "Exact indexed name and private identifier; identity assessed high_confidence.",
+      "temporal_assessment": "Observed 1942-11-09; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer is named and no employment date is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-d6c42508-1010-59bc-ad79-e451738e274b-b408",
+      "person_id": "d6c42508-1010-59bc-ad79-e451738e274b",
+      "claim_type": "identity",
+      "claim_text": "Joseph J Chirichillo has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "identity_match_assessment": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date, or later OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Raw index spelling and rank are unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-d6c42508-1010-59bc-ad79-e451738e274b-b408",
+      "person_id": "d6c42508-1010-59bc-ad79-e451738e274b",
+      "affiliation_key": "occupation-d6c42508-1010-59bc-ad79-e451738e274b-b408",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group “Occupations in manufacture of furniture, n. e. c..”",
+      "evidence_paraphrase": "The exact private-identifier record carries the applicable code, which the inspected NARA code sheet labels Occupations in manufacture of furniture, n. e. c..",
+      "identity_match_assessment": "Exact indexed name and private identifier; identity assessed high_confidence.",
+      "temporal_assessment": "Observed 1942-12-28; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer is named and no employment date is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b408",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b408",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "f791bece-13d7-5dd7-99e5-61e5e0e86382",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name/private-identifier Army match plus independent contemporary OSS roster and promotion reference.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 121 for the employer behind the communications occupation and the route into OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8d8e06da-63d3-59c9-94d0-bb5711e77155",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and private identifier match a January 1946 Army entry; its undefined occupational value is not published.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish pre-OSS chronology and determine whether the 1946 Army record is relevant.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8a587635-8627-5fd5-955e-0f164744d6a1",
+      "identity_status": "unresolved",
+      "identity_evidence": "No sufficiently specific public-source bridge distinguishes the indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f861478f-8c0a-5bbb-8d23-fa26bfc7b07f",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name/private-identifier Army match and matching 1918 birth-year evidence connect the detailed scholarly Army/OSS account.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 122 to confirm the exact Columbia-to-Army/OSS transition and any civilian employment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7e4f7593-f52e-5896-95f1-b0fb1740301c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and private identifier match the Army entry. The birth-year field is internally impossible and is treated as a source anomaly.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 122 for the named employer, actual work dates, and route into OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99730e97-d728-56ba-aeb8-a0946170a4a4",
+      "identity_status": "unresolved",
+      "identity_evidence": "No sufficiently specific public-source bridge distinguishes the indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "810d573f-3092-55de-8a5e-bb768c1a067c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and private identifier match the Army entry.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 122 for the named employer, actual work dates, and route into OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d6c42508-1010-59bc-ad79-e451738e274b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and private identifier match the Army entry.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 122 for the named employer, actual work dates, and route into OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a4f4a75-e6a2-557b-bcf5-92666aeb1af7",
+      "identity_status": "unresolved",
+      "identity_evidence": "No sufficiently specific public-source bridge distinguishes the indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c643481-b325-5214-ab44-c851e826dcbe",
+      "identity_status": "unresolved",
+      "identity_evidence": "No sufficiently specific public-source bridge distinguishes the indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b408-person-durwood-review",
+      "person_id": "f791bece-13d7-5dd7-99e5-61e5e0e86382",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Durwood.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The identifier-backed Army observation names no employer; unrelated or later people were rejected.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 121 for the employer behind the communications occupation and the route into OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-william-review",
+      "person_id": "8d8e06da-63d3-59c9-94d0-bb5711e77155",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for William.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The exact match is dated January 1946 and its occupational value is not defined on the inspected applicable sheets; it is not converted into pre-OSS evidence.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish pre-OSS chronology and determine whether the 1946 Army record is relevant.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-henry-review",
+      "person_id": "8a587635-8627-5fd5-955e-0f164744d6a1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Henry.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Search results did not supply a corroborated identity bridge or a dated pre-OSS affiliation.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-robert-review",
+      "person_id": "f861478f-8c0a-5bbb-8d23-fa26bfc7b07f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Robert.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Later Boston University employment is postwar. Columbia is retained only as student status, not an employer.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the exact Columbia-to-Army/OSS transition and any civilian employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-walter-review",
+      "person_id": "7e4f7593-f52e-5896-95f1-b0fb1740301c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Walter.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Two obituaries belong to later-born or otherwise unlinked namesakes; neither is used.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for the named employer, actual work dates, and route into OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-james-review",
+      "person_id": "99730e97-d728-56ba-aeb8-a0946170a4a4",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for James.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Search results did not supply a corroborated identity bridge or a dated pre-OSS affiliation.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-charles-review",
+      "person_id": "810d573f-3092-55de-8a5e-bb768c1a067c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Charles.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The identifier-backed Army observation names no employer; unrelated or later people were rejected.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for the named employer, actual work dates, and route into OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-joseph-review",
+      "person_id": "d6c42508-1010-59bc-ad79-e451738e274b",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Joseph.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The identifier-backed Army observation names no employer; unrelated or later people were rejected.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for the named employer, actual work dates, and route into OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-frank-review",
+      "person_id": "2a4f4a75-e6a2-557b-bcf5-92666aeb1af7",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Frank.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A 1949 newspaper account names a returning ex-GI but provides no bridge to this index row and no pre-OSS employer.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    },
+    {
+      "key": "b408-person-corning-review",
+      "person_id": "1c643481-b325-5214-ab44-c851e826dcbe",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Corning.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T17:53:05Z",
+      "completed_at": "2026-09-04T18:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Search results did not supply a corroborated identity bridge or a dated pre-OSS affiliation.",
+      "research_notes": "Checkpoint times record this bounded adjudication, not the first query or total research duration. Failed opens, snippets and uninspected search results are not counted as reviewed bodies. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish full identity and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch408-v1"
+    }
+  ]
+}

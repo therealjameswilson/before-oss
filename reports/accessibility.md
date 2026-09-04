@@ -4,11 +4,20 @@ Run: 2026-09-04 UTC
 
 ## Result
 
+Batch 408: twelve final focused checks pass across desktop, phone and tablet in
+12.3 seconds after the determinism run. The initial authoring run had three
+failures from one incorrect test-only field name; the assertion was corrected
+to the actual canonical-organization field without changing evidence or site
+behavior. The full 1,719-case matrix is pending. No deployment is claimed; see
+`reports/release_batch_408.md`.
+
 Batch 407: twelve final focused checks pass in 8.5 seconds on the completed,
 deterministically rebuilt site. The full 1,707-case local matrix finished with
 1,701 passes and six timeouts; all six unchanged affected scenarios then pass
 across all three viewports, 18/18 in 1.5 minutes, without retries. This is not
-represented as a clean first-run pass. See `reports/release_batch_407.md`.
+represented as a clean first-run local pass. Independent GitHub Test
+`33904265520` later passed 1,707/1,707 in 29.6 minutes; Pages and pinned live
+verification succeeded. See `reports/release_batch_407.md`.
 
 Batch 406: final independent GitHub Test 33894971764 passed all 1,695 cases in
 22.1 minutes. Pages 33900368779 and pinned live verification succeeded. Earlier
