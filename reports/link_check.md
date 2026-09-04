@@ -2,6 +2,24 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 405 local / Batch 404 live verification
+
+Batch 405: all internal targets resolve across 24,456 HTML pages. 49,572 unique
+external URLs are inventoried, not all visited. Twelve of thirteen source URLs
+returned HTTP 200 to ordinary HEAD checks; the Washington Post obituary timed
+out after 15 seconds. Its body had been reviewed before the check; this timeout
+does not mean the citation is dead. No repeated or authenticated request was
+made. These availability checks do not replace source-context review.
+
+The local manifest has 67 assets / 83,514,422 bytes, SHA-256
+`31977f5176af0ede1216e39d0e460428c83b5ddf0a5161d86cd33f40ea55b2a5`.
+Batch 405 remains unpublished while the full release checks run.
+
+Batch 404 is live: Test `33861391925` and Pages `33864064626` succeeded.
+Pinned verification at 10:46 UTC against `ff7cab2877acbdf2e6784534f13dfc42e94d1bde`
+matched all 67 assets / 83,435,423 bytes, seven core routes and ten direct profiles.
+The historical notes below are not current deployment status.
+
 ## Batch 403 local checkpoint
 
 All internal targets resolve across 24,454 HTML pages; 49,559 external URLs

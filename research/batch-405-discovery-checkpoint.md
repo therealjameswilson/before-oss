@@ -1,4 +1,78 @@
-# Batch 405 discovery checkpoint — incomplete, not imported
+# Batch 405 discovery and adjudication checkpoint — imported
+
+## Final source review and disposition, 2026-09-04 UTC
+
+The initial discovery log below is retained as a chronological record, not the
+current access or completion status. The reviewed evidence bundle
+`evidence-pages-seventy-eight-seventy-nine-cherry-through-chevalier-pathways_batch-405_2026-09-04.json`
+has now been validated and imported twice, idempotently. Ten individual outcomes:
+one documented pre-OSS employer, one qualified occupation observation, and eight
+cases requiring archival review. No immediate-affiliation or last-civilian-employer
+flag is asserted. No physical personnel file was examined.
+
+Subsequent ordinary public-source retrieval and inspection resolved several
+earlier failures. Copyrighted PDFs were processed in memory; no whole source
+page or response body is retained in the repository. Page images and embedded
+text were both checked:
+
+- Monsanto's 1954 annual report, issued 1955-03-15: complete physical page 21,
+  printed page 20, MAR000404 / LAM016463. Its Charles S Cheston paragraph
+  distinguishes former Smith Barney partnership, Army Specialist Corps service,
+  and OSS assistant directorship. Board entry in 1945 is not a pre-OSS employer.
+- Commercial and Financial Chronicle, 1942-07-23: ordinary HTTP 200 retrieval,
+  31,117,689 bytes; physical page 4, printed page 268. The complete page image
+  was inspected. Layout extraction interleaved columns and bounding-box
+  extraction failed; raw-order embedded extraction preserves the Personnel
+  Items / In Armed Forces paragraph associating Charles S. Cheston with Smith,
+  Barney & Co. while on war duty. Neighboring people's ranks are not his.
+  The firm's office location is not treated as his workplace.
+- Congressional Record, 1942-06-11: complete physical page 29, printed 5144,
+  CONFIRMATIONS. This is Senate confirmation, not a reporting-for-duty date.
+- Executive Order 9078, 1942-02-26, read in the American Presidency Project's
+  primary-text transcription: section 1 establishes uniformed civilian
+  employees of the War Department. The Army Specialist Corps is therefore
+  recorded as a government assignment, not a commissioned Army classification.
+- Office of Government Reports Information Digest, 1942-06-19: 508,085-byte
+  public PDF, seven pages; complete physical/printed page 3 inspected. It
+  announces Cheston's deputy directorship with a relative brigadier-general
+  rank. Relative rank does not establish a regular Army commission.
+- FRUS document 217 and its editorial note remain the official OSS identity
+  and assistant-director chronology bridge. The 1943 assistant-role date is
+  not substituted for an exact first OSS recruitment date.
+- The Key, April 1935: complete physical page 91, printed 195, plus page 92
+  embedded text. Geraldine Chesebro's UCLA Gamma Xi chapter presidency is
+  an unlinked candidate, not evidence of paid employment or OSS identity.
+- The Key, April 1944: 30,086,565-byte ordinary public retrieval; complete
+  physical page 82, printed 110. Nancy Cherry appears among Delta / Indiana
+  initiates. No OSS or paid-employment bridge is established. The 1946 lead
+  remains discovery-only.
+
+Charles receives two separately documented earlier affiliations: Smith,
+Barney & Co. and the Army Specialist Corps. The corroborating contemporary,
+official and retrospective sources support high confidence, but exact duty
+dates, transfer sequence and the last civilian employer remain unestablished.
+Both affiliation start/end dates and individual workplace locations are null.
+The 1936 Edward B. Smith & Co. directory lead is not silently merged or published
+as a separate adjudicated affiliation.
+
+John H Chevalier's exact name/private-identifier match supports high identity
+confidence; the 1942-06-30 occupation observation is medium and visibly
+qualified. Code 098 is read from the complete grouped code-list page as
+Managers and officials, n. e. c. No named business, workplace, employment dates,
+immediacy or OSS rank follows. George F Cheston's different-number candidate
+remains unassigned. Nancy, Geraldine, George and Harriet have four low-confidence
+candidate claims withheld from public facts. No relatives' employers, student
+affiliations or neighboring obituary careers are adopted.
+
+The ten durable attempts record the reviewed protocol and individual next
+questions. Numeric sources-reviewed counts include the index and actual bulk
+comparison, plus source bodies inspected; four rejected-document counts refer
+to substantive candidates actually reviewed, not search snippets. Zero new
+rejected-document counts do not conceal a failed source inspection. Legacy
+attempt counting elsewhere still requires audit. No authenticated Catalog
+request, access-control bypass or outreach occurred.
+
+## Earlier discovery log (superseded where the final review above differs)
 
 2026-09-04. Discovery began while Batch 404's complete browser suite ran.
 Database and public projection remain at Batch 404: no new completed outcomes

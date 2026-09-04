@@ -4,6 +4,16 @@ Run: 2026-09-04 UTC
 
 ## Result
 
+Batch 405: twelve focused checks pass in 10.6 seconds across desktop, phone
+and tablet. The complete 1,680-case matrix finished with 1,675 passing and five
+failures (one explicit suspended-network error and four timeouts, including a
+closed session; reported elapsed 1.1 hours). All five affected scenarios passed
+unchanged in all three viewports: 15/15 in 40.5 seconds, without retries. No
+first-run clean pass is claimed. Direct organization URLs and qualified profile
+chronology are included. Cheston's desktop profile and affiliation cards were
+visually inspected. Independent GitHub QA remains pending. See
+`reports/release_batch_405.md`.
+
 Batch 404: the complete **1,668-case matrix passed in 19.1 minutes**, across
 desktop, phone and tablet, without retries. Fifteen focused checks also pass.
 Nine profile checks passed initially, while three

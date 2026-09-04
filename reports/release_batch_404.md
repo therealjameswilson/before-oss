@@ -1,11 +1,16 @@
 # Batch 404 release verification
 
 2026-09-04 UTC. **Reviewed local dataset; complete local matrix passed.**
-Batch 404 PR 161 targets main and is awaiting independent GitHub Test
-`33861391925`. Batch 403 PR 160 has merged after successful Test `33859076065`;
+Batch 404 PR 161 passed independent GitHub Test `33861391925` and merged
+2026-09-04 at 10:36:51 UTC, exact head
+`ff7cab2877acbdf2e6784534f13dfc42e94d1bde`, merge
+`6c976a797f3cb55a365a1d8a9b0747ce6ceed202`. Pages `33864064626` succeeded.
+Pinned live verification completed at 10:46 UTC: all 67 assets / 83,435,423
+bytes, seven core routes and ten direct profiles matched the immutable release.
+Batch 403 PR 160 merged after successful Test `33859076065`;
 its Pages `33862231457` succeeded. Pinned live verification passed all 67
 assets, seven core routes and ten new profiles. Batch 403 remains the public
-release until Batch 404's independent workflow and publication succeed.
+release until this Batch 404 publication; **Batch 404 is now live and verified**.
 
 ## Research added
 
@@ -142,7 +147,9 @@ are excluded from default verified-employer/affiliation analytics.
 
 The complete **1,668-test local browser/accessibility matrix passed in 19.1
 minutes**, exit zero. All three viewports passed, without retries or changed
-data/build inputs during the run. No Batch 404 deployment claimed yet.
+data/build inputs during the run. Independent GitHub Test also succeeded;
+Pages publication and pinned live checks also succeeded. The public manifest
+matches the exact head shown above, not the later local Batch 405 dataset.
 
 ## Resume and remaining work
 
