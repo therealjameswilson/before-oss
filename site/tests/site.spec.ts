@@ -1209,14 +1209,14 @@ test("Batch 013 preserves career-military, civilian-cover, academic, probable-id
   ).toBeVisible();
   await expect(
     page
-      .locator('section[aria-labelledby="immediate-affiliation"]')
+      .locator('section[aria-labelledby="earlier-affiliations"]')
       .getByRole("heading", { name: "Avon Old Farms School", exact: true }),
   ).toBeVisible();
   await expect(
     page
       .locator('section[aria-labelledby="civilian-employer"]')
       .getByRole("heading", { name: "Avon Old Farms School", exact: true }),
-  ).toBeVisible();
+  ).toHaveCount(0);
   await expect(
     page.getByText("medium", { exact: true }).first(),
   ).toBeVisible();

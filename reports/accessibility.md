@@ -4,6 +4,23 @@ Run: 2026-09-04 UTC
 
 ## Result
 
+Batch 406: twelve focused checks pass in 9.6 seconds after correcting two
+authoring expectations (canonical organization punctuation and the raw name's
+pipe-separated layout). Six initial failures were those two assertions across
+three viewports; no evidence or application behavior changed. The pre-correction
+1,692-case matrix finished with 1,687 passes and five failures (four timeouts,
+including a closed session, and one suspended-network error). After the Paul
+Child evidence correction, all 39 final focused checks pass with local retries
+disabled, including all five failed scenarios across three viewports. The
+legacy Child test was updated to the supported earlier-employment section;
+the five failed scenarios were unchanged. Final GitHub QA will run 1,695 cases.
+An intermediate build-overlapping run is not used as final QA. See
+`reports/release_batch_406.md`.
+
+Batch 405 final independent result: **1,680/1,680 passed in 25.6 minutes** on
+GitHub Test `33871852589`. Pages succeeded and the deployed release was verified.
+The earlier local failures and unchanged reruns remain documented below.
+
 Batch 405: twelve focused checks pass in 10.6 seconds across desktop, phone
 and tablet. The complete 1,680-case matrix finished with 1,675 passing and five
 failures (one explicit suspended-network error and four timeouts, including a
@@ -11,7 +28,7 @@ closed session; reported elapsed 1.1 hours). All five affected scenarios passed
 unchanged in all three viewports: 15/15 in 40.5 seconds, without retries. No
 first-run clean pass is claimed. Direct organization URLs and qualified profile
 chronology are included. Cheston's desktop profile and affiliation cards were
-visually inspected. Independent GitHub QA remains pending. See
+visually inspected. Independent GitHub QA subsequently passed, as noted above. See
 `reports/release_batch_405.md`.
 
 Batch 404: the complete **1,668-case matrix passed in 19.1 minutes**, across
