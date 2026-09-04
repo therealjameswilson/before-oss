@@ -1,4 +1,45 @@
-# Batch 406 discovery checkpoint — not imported
+# Batch 406 discovery and adjudication checkpoint
+
+## Final source adjudication, 2026-09-04 UTC
+
+The evidence bundle is imported and contains ten individual reviewed outcomes: one
+confirmed immediate military assignment, five qualified Army occupation
+observations and four archival-review dispositions. It has ten sources, one
+organization, six affiliations, fifteen claims and forty-four claim-source
+links. Three low-confidence candidate claims remain withheld. Import and
+release status are recorded separately in the release report; the earlier
+discovery log below is retained, not treated as current completion status.
+The separate Paul Child correction bundle is part of this release: one
+already-researched person re-reviewed without new-person coverage credit.
+
+The complete Hoover physical pages 56 and 57 were subsequently inspected in
+the ordinary browser using Fit to page. Printed page 57 dates the Bari board
+meeting to 17 May 1944; printed page 58, entry LX, confirms Cheyovich's name,
+matching private number, staff-sergeant grade and explicit Signal Corps radar
+training transfer. The exact OSS assignment date is displayed as 1943-07-02;
+the school's start/end dates remain null. No full source body or full identifier
+is copied into the public dataset. The earlier download/screenshot failures
+are preserved below as the access history, not an unresolved visual blocker.
+
+A second complete 9,200,232-row bulk pass inspected Raymond's exact-name
+candidate: observation 1945-11-30, CPL, birth-year code 26, occupation value
+324. The similar 1926 obituary birth does not bridge either external candidate
+to an index row lacking a number. The post-OSS observation and undated later
+sales work are not pre-OSS employment evidence; both pointers remain unassigned.
+
+Final code-image checking corrected draft locator details before import:
+Michael's 827 is under grouped 4,6,8-27; Daniel's 842 under 6,8-42; Chester's
+542 is on printed XVII, not XVI. The category descriptions were unchanged.
+Wellington's 583 is grouped 5,7,9-83. Milan's 547 remains uninterpreted, not
+silently read as the nearby longshoremen group 7,9-47.
+
+Only Milan receives an updated normalized personnel category: enlisted Army
+personnel, commissioned false, directly supported during OSS service. All
+printed ranks remain blank. The other Army entry grades are not substituted
+for later OSS rank. Anthony's Army spelling Chiapatta is a documented variant
+supported by the exact private identifier; indexed Chiapetta is unchanged.
+
+## Earlier discovery log
 
 2026-09-04 UTC. Discovery began while the Batch 405 browser matrix ran against
 frozen inputs. These ten people remain `not_started` in SQLite at this

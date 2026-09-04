@@ -1,0 +1,151 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex archival re-review; additive correction of Batch 013 with stable claim keys",
+  "sources": [
+    {
+      "key": "new-yorker-paul-child-teaching",
+      "stable_url": "https://www.newyorker.com/culture/photo-booth/portrait-of-a-marriage-julia-child-captured-in-paul-childs-shimmering-photographs",
+      "title": "Portrait of a Marriage: Julia Child Captured in Paul Child's Shimmering Photographs",
+      "author_creator": "Cynthia Zarin",
+      "repository_publisher": "The New Yorker",
+      "publication_record_date": "2017-12-02",
+      "locator": "Biographical paragraph beginning Back in New England",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Photo Booth",
+      "rights_notes": "Citation and short project-authored paraphrase only; no article or photographs stored. Batch 406 corrects the previously misattributed author and publication date."
+    },
+    {
+      "key": "new-yorker-tomkins-paul-child-teaching-1974",
+      "stable_url": "https://www.newyorker.com/magazine/profiles/1974/12/23/good-cooking-julia-child-profile",
+      "title": "Cooking with Julia Child",
+      "author_creator": "Calvin Tomkins",
+      "repository_publisher": "The New Yorker",
+      "publication_record_date": "1974-12-16",
+      "locator": "Paul Child biographical passage following the account of OSS Visual Presentation work; paragraph beginning After that, he had become a schoolteacher",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Profiles",
+      "rights_notes": "Displayed web byline date retained; URL uses the 23 December issue date. Only citation and short paraphrase stored."
+    },
+    {
+      "key": "nyu-fitch-paul-at-avon-box2-folder8",
+      "stable_url": "https://findingaids.library.nyu.edu/fales/mss_323/contents/aspace_ref9/",
+      "archival_identifier": "MSS.323, Series I, Subseries A, Box 2, Folder 8",
+      "title": "Noël Riley Fitch Julia Child Papers: Series I research files",
+      "author_creator": "New York University Special Collections",
+      "repository_publisher": "Fales Library and Special Collections, New York University",
+      "publication_record_date": null,
+      "locator": "Box 2, Folder 8: Paul at Avon 1931 - 1942; listed dates 1931 - 1942, 1994 - 1996",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Noël Riley Fitch Julia Child Papers",
+      "rights_notes": "Finding-aid pointer only. Folder contents were not inspected; the title and archival date spans are not adopted as employment dates."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "avon-old-farms-school",
+      "canonical_name": "Avon Old Farms School",
+      "historical_name": "Avon Old Farms School",
+      "aliases": ["Avon Old Farms"],
+      "organization_type": "boarding school",
+      "sector": "academia_and_research",
+      "city": "Avon",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "normalization_notes": "The school is retained as a historical employer; the available source does not establish an exact end date."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "paul-child-avon-old-farms",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "organization_key": "avon-old-farms-school",
+      "organization_name_as_found": "Avon Old Farms School",
+      "role_title": "teacher",
+      "occupation": "art and French teacher",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Earlier teaching before wartime OSS service; employment start and end dates unestablished in the reviewed evidence.",
+      "city": "Avon",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Batch 406 re-review removes the unsupported 1930s start, 1941 end, immediate-affiliation and last-civilian-employer designations. Teaching is retained as an earlier qualified employment claim. The original Batch 013 bundle remains the audit trail, not current adjudication."
+    }
+  ],
+  "claims": [
+    {
+      "key": "immediate-paul-child-avon-qualified",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "affiliation_key": "paul-child-avon-old-farms",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Paul Child taught at Avon Old Farms School before wartime OSS service; the immediate transition remains unestablished.",
+      "evidence_paraphrase": "Zarin identifies Avon teaching; Tomkins specifies art and French in his account of Child's earlier career.",
+      "identity_match_assessment": "Retains the existing high-confidence identity assessment; the biographical passages explicitly concern the OSS Visual Presentation worker, not merely a namesake.",
+      "temporal_assessment": "Earlier teaching is supported; exact employment boundaries and any intervening affiliation remain unverified. No 1941 end date or direct school-to-OSS transfer is established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Stable claim key retained for audit, but type corrected from immediate to other pre-OSS affiliation. Excluded from default confirmed/high employer analytics. NYU is an archival lead, not inspected personnel-file evidence.",
+      "sources": [
+        {"source_key": "new-yorker-paul-child-teaching"},
+        {"source_key": "new-yorker-tomkins-paul-child-teaching-1974"},
+        {"source_key": "nyu-fitch-paul-at-avon-box2-folder8", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "last-civilian-paul-child-avon-qualified",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "affiliation_key": "paul-child-avon-old-farms",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Avon Old Farms School has not been established as Paul Child's last civilian employer before wartime service.",
+      "evidence_paraphrase": "The reviewed teaching accounts do not resolve the final employment boundary; the archival folder remains unexamined.",
+      "identity_match_assessment": "This is a temporal uncertainty, not a new identity match or rejection of the documented teaching role.",
+      "temporal_assessment": "Insufficient evidence to retain the earlier last-employer designation. Re-review required before restoring it.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Demoted in Batch 406; original Batch 013 adjudication is preserved in its historical evidence file. This candidate is not a public employment fact.",
+      "sources": [
+        {"source_key": "new-yorker-paul-child-teaching", "support_type": "context_only"},
+        {"source_key": "nyu-fitch-paul-at-avon-box2-folder8", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review NARA Box 121 and NYU MSS.323, Series I, Subseries A, Box 2, Folder 8 to establish the school departure, intervening work and OSS entry dates. Folder date spans are not employment dates.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch406-paul-child-citation-and-temporal-correction",
+      "person_id": "a9b1ec13-509a-57f2-bb04-d2453d49e908",
+      "source_adapter": "web",
+      "query_text": "Re-open the 2017 New Yorker citation; Paul Child Avon Old Farms 1941; Paul Child Shady Hill teacher; inspect Tomkins 1974 profile, NYU MSS.323 folder inventory and authorized publisher excerpt.",
+      "query_variant_type": "targeted_re_review_of_existing_employment_and_citation",
+      "started_at": "2026-09-04T15:56:39Z",
+      "completed_at": "2026-09-04T15:58:47Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reviewed document is rejected wholesale. Unsupported boundary dates and last/immediate designations are withdrawn; NYU folder spans are not transcribed as employment spans. Unrelated later material in the authorized publisher excerpt is excluded.",
+      "research_notes": "Times record the adjudication checkpoints, not the earlier source discovery or reading duration. Corrected Zarin's byline and date, corroborated teaching subjects from Tomkins, added an archival locator and preserved the earlier claim keys. No new-person coverage credit, no private identifier change, no authenticated Catalog request and no physical-file examination.",
+      "next_action": "Inspect the identified archival material for exact employment and OSS-entry chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v406-correction"
+    }
+  ]
+}

@@ -2,17 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
-Batch 405 is imported locally; 90 Python and twelve focused browser checks
-pass. The complete 1,680-case matrix finished with 1,675 passing and five local
-browser failures. All five affected scenarios pass unchanged across all three
-viewports (15/15); the first full run is not described as clean. Independent
-GitHub QA and publication remain pending.
-These figures remain local. Batch 404 PR 161 has merged after successful Test
-and Pages workflows; pinned live verification passes all 67 assets, seven core
-routes and ten new profiles. The live site has 3,823 attempted people, 212
-verified-employer people, 486 verified-affiliation people, 3,776 assessed
-archival dispositions and 20,117 not started. Index and active-person totals
-are identical to the local figures below. See `reports/release_batch_404.md`.
+Batch 406 and the separate Paul Child correction are imported locally; 90
+Python tests and 39 final focused browser checks pass. The pre-correction
+1,692-case matrix had 1,687 passes and five failures; final independent GitHub
+QA is still required. These figures remain local. Batch 405 PR 162 merged after an independent 1,680-case
+GitHub pass and successful Pages deployment. Pinned live verification passes
+all 67 assets, seven core routes and ten new profiles. The live site has 3,833
+attempted people, 213 verified-employer people, 487 verified-affiliation people,
+3,786 assessed archival dispositions and 20,107 not started. Index and active
+person totals are identical to the local figures below.
+See `reports/release_batch_405.md`.
+
+Batch 406 adds ten individual outcomes: Milan Cheyovich's confirmed immediate
+Signal Corps radar-training assignment, five qualified Army occupation
+observations and four archival dispositions. No named civilian employer is
+added. Anthony's identifier-backed Chiapatta spelling remains a variant of the
+unchanged indexed Chiapetta. Three unlinked candidate claims stay private.
+Paul Child's citation metadata is corrected; unsupported school-employment
+dates and immediate/last-employer flags are withdrawn. His earlier teaching
+remains qualified. This re-review does not increase person coverage.
+See `reports/release_batch_406.md` and `research/batch-406-discovery-checkpoint.md`.
 
 Batch 405 adds ten individual outcomes: Charles S Cheston's documented earlier
 Smith, Barney & Co. employment and separate civilian Army Specialist Corps
@@ -49,10 +58,10 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,833 people with a non-planned attempt | 23,940 active person entities | 16.0109% |
-| Verified-affiliation coverage | 487 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0343% |
+| Research-attempt coverage | 3,843 people with a non-planned attempt | 23,940 active person entities | 16.0526% |
+| Verified-affiliation coverage | 488 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0384% |
 | Verified-employer coverage | 213 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8897% |
-| Archival-review coverage | 3,786 people with an individual file-access/priority assessment | 23,940 active person entities | 15.8145% |
+| Archival-review coverage | 3,796 people with an individual file-access/priority assessment | 23,940 active person entities | 15.8563% |
 
 ## Extraction and identity
 
@@ -65,17 +74,17 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Possible duplicate groups: 233
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 739
-- Identity status `high_confidence`: 560
+- Identity status `confirmed`: 740
+- Identity status `high_confidence`: 565
 - Identity status `probable`: 123
-- Identity status `ambiguous`: 68
+- Identity status `ambiguous`: 70
 - Identity status `conflicting`: 70
-- Identity status `unresolved`: 22,380
+- Identity status `unresolved`: 22,372
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,965
-- Enlisted Army personnel: 3,948
+- Unknown or indeterminate: 15,964
+- Enlisted Army personnel: 3,949
 - Commissioned Army officers: 2,107
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 8
@@ -87,34 +96,34 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,229 yes; 5,617 no; 16,094 indeterminate.
+Commissioned classification: 2,229 yes; 5,618 no; 16,093 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,107
+- `not_started`: 20,097
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 106
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 69
 - `no_reliable_result_after_protocol`: 82
-- `occupation_only_found`: 637
-- `requires_archival_review`: 2,486
-- `completed`: 120
+- `occupation_only_found`: 642
+- `requires_archival_review`: 2,490
+- `completed`: 121
 - `conflicting_sources`: 69
 - `verified_employer_found`: 208
-- Claim confidence: 917 confirmed; 1,178 high; 832 medium; 66 low; 81
+- Claim confidence: 919 confirmed; 1,183 high; 836 medium; 70 low; 81
   conflicting
 - Claims attached specifically to employment/self-employment affiliations:
-  35 confirmed; 273 high; 83 medium; 0 low; 2 conflicting; 0 unresolved.
+  35 confirmed; 273 high; 82 medium; 1 low; 2 conflicting; 0 unresolved.
   These count claim rows, not unique people, and precede the analytics gates.
-- Durable evidence inventory: 3,755 citation records representing 1,757 legacy
-  document keys (source-identity normalization still under review); 520
-  organizations; 1,513 affiliations; 3,074 claims; and 6,968
+- Durable evidence inventory: 3,767 citation records representing 1,764 legacy
+  document keys (source-identity normalization still under review); 521
+  organizations; 1,519 affiliations; 3,089 claims; and 7,013
   claim-source links
-- Reviewed public projection: 508 organizations; 1,502 published, qualified,
-  or conflict-visible affiliations; 3,005 published, qualified, or
-  conflict-visible claims; and 2,627 public citation records
+- Reviewed public projection: 509 organizations; 1,508 published, qualified,
+  or conflict-visible affiliations; 3,016 published, qualified, or
+  conflict-visible claims; and 2,635 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -124,12 +133,12 @@ Commissioned classification: 2,229 yes; 5,617 no; 16,094 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,679; 160 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,690; 160 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 5,051
+- Total recorded attempts/plans: 5,062
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,483; 1,428 have at least one public-visible
+- People with saved reviewed claims: 1,491; 1,434 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John

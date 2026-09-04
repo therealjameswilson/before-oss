@@ -2,6 +2,22 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 406 local / Batch 405 live verification
+
+All internal targets resolve across 24,457 local HTML pages. The check inventories
+49,575 external URLs; it does not claim to visit every external destination.
+The final corrected manifest has 67 assets / 83,606,294 bytes, SHA-256
+`1d22872db2b1a4706e995ed679c0c1e36894766b1378d879cc0442bba0f8fe77`.
+Batch 406 is not deployed at this checkpoint.
+An intermediate invocation overlapped a build and produced 57,976 missing
+targets; that invalid partial-build result is superseded by the complete
+post-build pass, not represented as a first-run pass.
+
+Batch 405 is live after Test `33871852589`, PR 162 and Pages `33875459412`
+succeeded. Pinned verification against `d5edf186d854c489f160bf1a9c325d0b388c069f`
+passed all 67 assets / 83,514,422 bytes, seven core routes and ten direct profiles.
+See `reports/release_batch_405.md` for hashes and the complete release chain.
+
 ## Batch 405 local / Batch 404 live verification
 
 Batch 405: all internal targets resolve across 24,456 HTML pages. 49,572 unique
@@ -13,7 +29,7 @@ made. These availability checks do not replace source-context review.
 
 The local manifest has 67 assets / 83,514,422 bytes, SHA-256
 `31977f5176af0ede1216e39d0e460428c83b5ddf0a5161d86cd33f40ea55b2a5`.
-Batch 405 remains unpublished while the full release checks run.
+At that earlier checkpoint Batch 405 was unpublished; it is now verified above.
 
 Batch 404 is live: Test `33861391925` and Pages `33864064626` succeeded.
 Pinned verification at 10:46 UTC against `ff7cab2877acbdf2e6784534f13dfc42e94d1bde`

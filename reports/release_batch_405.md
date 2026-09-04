@@ -1,9 +1,13 @@
 # Batch 405 release verification
 
-2026-09-04 UTC. **Reviewed local dataset; local checks completed with documented reruns.**
-Batch 404 is live after successful Test `33861391925`, PR 161 merge and Pages
-`33864064626`. Its pinned 67-asset / seven-route / ten-profile check passed.
-No Batch 405 deployment is claimed at this checkpoint.
+2026-09-04 UTC. **Merged, deployed and live verified.**
+Independent Test `33871852589` passed all 1,680 browser/accessibility cases in
+25.6 minutes, plus 90 Python tests and public identifier redaction. PR 162
+merged at 12:57:44 UTC, head `d5edf186d854c489f160bf1a9c325d0b388c069f`,
+merge `649028040f081c04693ee48308c7f7add36cfb6e`. Pages `33875459412`
+succeeded. Pinned live verification passed all 67 assets (83,514,422 bytes),
+seven core routes and ten direct profiles against that exact reviewed head.
+Live URL: https://therealjameswilson.github.io/before-oss/.
 
 ## Research added
 
@@ -134,7 +138,9 @@ scenarios were rerun unchanged across all three viewports: **15/15 passed in
 was changed to obtain those passes. This is not a clean first-run full pass.
 The local Cheston profile and its separate government/banking cards were also
 visually inspected at 1280 × 1000. Independent GitHub Test and Pages publication
-remain outstanding for Batch 405.
+subsequently passed, as recorded above. The separate postmerge Test
+`33875459437` was still running at the first live-verification checkpoint and
+has now also succeeded; it is not substituted for the successful premerge gate.
 
 ## Resume and unresolved work
 
