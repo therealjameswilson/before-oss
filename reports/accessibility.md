@@ -4,14 +4,30 @@ Run: 2026-09-04 UTC
 
 ## Result
 
-The final Batch 399 integration adds six confidence-aware chart families,
-counted-person evidence lists, public chart downloads, real featured profiles,
-and separate academic-employment/student groups. Its focused run passes
-18 / 18 browser cases across desktop, phone, and tablet, including all twelve
-Batch 399 profile cases and six new home/analysis cases. The full 1,605-case
-integration matrix is running; its outcome must be verified before release.
-A whitespace-only chart-caption correction follows that run and requires a
-fresh build and focused regression.
+Batch 400: all 15 new profile cases pass across desktop, phone, and tablet.
+The initial test authoring exposed overly broad `.affiliation-card` selectors
+that included evidence cards as well as occupation cards; the selectors were
+corrected to the relevant semantic sections. One initial desktop search case
+timed out; the complete corrected 15-case run passed in 6.2 seconds. No source
+claim or application behavior was changed to make these assertions pass.
+
+The complete 1,620-case Batch 400 matrix is running at this checkpoint. It
+must pass before publication; neither the focused result nor a previous
+release is described as the complete current matrix. All 82 Python tests,
+the deterministic 200-profile audit, SQLite integrity and foreign keys,
+the identifier-redaction audit, and the internal-route checks pass. Astro
+reported zero errors, warnings, or hints.
+
+Batch 399 has now passed the independent GitHub 1,605-case matrix, the
+postmerge Test workflow, and Pages deployment. Its full local run passed
+1,600 cases initially and five timed-out cases on isolated rerun. The final
+caption build passed all 45 focused/axe cases, including one sources-page
+timeout followed by a passing rerun. See `reports/release_batch_399.md` for
+the exact release, hashes, live verification, and recorded limitations.
+
+That release adds six confidence-aware chart families, counted-person evidence
+lists, public chart downloads, real featured profiles, and separate academic
+employment/student groups.
 
 The corrected profiles, before analytics integration, separately passed the
 complete 1,599 / 1,599-case matrix in 13.7 minutes without failures. All 82

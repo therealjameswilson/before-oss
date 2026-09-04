@@ -2,6 +2,42 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 400 local checkpoint
+
+All internal targets resolve across 24,450 HTML files. The checker inventoried
+49,551 unique external URLs; it did not visit all those destinations. Ten of
+the eleven unique Batch 400 source URLs returned HTTP 200 to a normal HEAD
+check. The Korean award site returned 403 to that check, while its text was
+accessible and reviewed through the browsing tool. This is an access-method
+limitation, not a claim that the source is dead. A successful HEAD response
+does not certify the unreviewed PDF images or replace source-context reading.
+
+All 67 manifest files match their sizes and hashes, totaling 83,181,118 bytes.
+Manifest SHA-256:
+`7b20eac5bee16ec329229055c3f081ffa73426416b234320f67098bf57fe10e2`.
+Consecutive public-data exports reproduce the 70-file public-tree digest
+`6b94283d9ba170226fc38a3995b289d6ccb55c9325baca78698102ce6d292ab0`.
+Two production builds reproduce the complete 24,522-file tree digest
+`5424c39459324db120e1f86fc97b299681d5b350c3a53a7a7731b120db714ed2`;
+the full browser matrix and deployment remain release gates.
+
+The private-identifier audit examined 12,926 normalized identifiers and 120
+formatted variants across 24,522 production files. It rejected 1,083 substring
+coincidences and found zero unexpected boundary matches. No secret, full
+identifier, raw Army record, or full copyrighted source is in the public data.
+The 15 new profile checks and all 82 Python tests pass. Batch 400 is not yet
+deployed; the last live-verified release remains Batch 399.
+
+## Batch 399 final published verification
+
+The complete final evidence is recorded in `reports/release_batch_399.md`.
+Premerge Test, postmerge Test, and Pages deployment succeeded. All 67 deployed
+assets and all 17 checked routes matched the expected release. The final
+caption-corrected static digest is
+`bef866981d1df5e9a45db6de19ce9cc8d596b229458a60772b7efc66b6efd56a`.
+The dated integration-check notes below are preserved as historical stages,
+not the final release gate status.
+
 ## Batch 399 citation and local release check
 
 Five of six unique Batch 399 citation targets returned HTTP 200 to automated
