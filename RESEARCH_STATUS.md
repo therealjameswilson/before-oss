@@ -2,9 +2,12 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
-Batch 408 is imported locally; 90 Python tests, deterministic build, privacy,
-links, structural audit and twelve final focused browser checks pass. Its full
-1,719-case browser matrix remains pending. It adds ten individual
+Batch 408 is released and pinned-live verified. Independent GitHub Test
+33907815106 passed all 1,719 browser/accessibility cases; PR 165, Pages
+33911646661 and pinned verification of all 67 assets and ten direct cohort
+profiles succeeded. Its local matrix had seven session/network timeouts, and
+all affected batches passed unchanged across every viewport in a 36-case
+rerun. It adds ten individual
 outcomes: four qualified occupation observations, Robert Chin's strongly
 date-bounded Columbia **student** pathway, one identifier-only result and four
 archival-review dispositions. Durwood Chiles and Robert Chin receive confirmed

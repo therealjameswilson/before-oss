@@ -1,10 +1,13 @@
-# Batch 408 local release checkpoint
+# Batch 408 release verification
 
-2026-09-04 UTC. **Reviewed local data; full browser matrix pending.** No Batch
-408 deployment is claimed. Batch 407 passed independent GitHub QA with all
-1,707 cases, merged through PR 164, deployed through Pages 33907253488 and
-passed pinned verification of every asset and all nine cohort profiles. It is
-the current live release.
+2026-09-04 UTC. **Released and pinned-live verified.** Batch 408 passed
+independent GitHub Test `33907815106` with all 1,719 cases passing in 22.5
+minutes, merged through PR 165 as
+`8dacebbc0c648f456dc9dd33dd6dc2ae40fe063e`, and deployed through Pages
+`33911646661`. Pinned verification against source commit
+`89a8219cc2c63b8dd32f713203d1f6e18c8279c8` matched all 67 assets /
+83,715,111 bytes, seven core routes and all ten direct cohort profiles. The
+verified public URL is <https://therealjameswilson.github.io/before-oss/>.
 
 ## Research
 
@@ -102,8 +105,14 @@ Public tree: 70 files, SHA-256
 Production tree: 24,529 files, SHA-256
 `5137fa23d0686d5a6972729a91775f5226797f3f46a311389951ccd483478370`.
 Tree digests use sorted relative paths, NUL separators and binary file hashes.
-The complete 1,719-case local matrix, independent GitHub QA, Pages deployment
-and pinned live verification remain required. No release is claimed.
+The complete 1,719-case local matrix finished with 1,712 passes and seven
+browser-session/network timeouts in 47.7 minutes, with retries disabled. The
+seven unchanged affected batches then passed across all three viewports; the
+grep-selected run covered 36 cases and all passed in 16.5 seconds. Failure
+artifacts from the first run were preserved outside the generated results
+folder. This is not represented as a clean first-run local pass. Independent
+GitHub QA then passed all 1,719 cases, and Pages and pinned verification
+succeeded as recorded at the top of this report.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-nine-chiles-through-chisolm-pathways_batch-408_2026-09-04.json
