@@ -40,6 +40,13 @@ run breakdown. All 75 Python tests plus five subtests, the deterministic
 the complete internal-link gate pass. These local checks do not imply that
 all 49,548 external URLs or all historical profiles were individually verified.
 
+The live dependency-advisory audit was unavailable: the npm bulk-advisory
+endpoint timed out both under its normal retry policy and a separate
+20-second, no-retry request on 2026-09-04 UTC. No vulnerability count can be
+inferred from those failures. Dependencies and the lockfile are unchanged by
+Batch 399; the previous release's successful audit is historical evidence,
+not a current substitute.
+
 ## Batch 398 citation and local release check
 
 All seven unique Batch 398 citation targets returned HTTP 200 to the automated
