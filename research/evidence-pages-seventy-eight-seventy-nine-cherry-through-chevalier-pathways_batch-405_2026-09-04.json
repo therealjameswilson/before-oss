@@ -1,0 +1,785 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review, Batch 405, 2026-09-04; individual source-linked adjudication",
+  "sources": [
+    {
+      "key": "index-b405",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF pages 78-79 visually inspected; page 78 rows 42-46 and page 79 rows 1-5; Box 121; location 230/86/28/06",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b405",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series NAID 604357; file NAID 1263923; ASNEF.FIN.DAT, two complete transient scans of 9,200,232 records; one exact private-identifier/name match and one unassigned exact-name/different-number candidate",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "basic-b405",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Physical PDF pages 44-45, reference pages 40-41; field layout and alternate-card/coding-manual limitations, complete page images reviewed",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "codes-b405",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30; complete physical page 171, printed X, visually reviewed; grouped 0-97 / 0-98 / 0-99: Managers and officials, n. e. c.",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "monsanto-b405",
+      "stable_url": "https://www.toxicdocs.org/d/4J9qkjLYy1kaj3509N6qZvyDN",
+      "title": "Monsanto Chemical Company: Annual Report 1954",
+      "author_creator": "Monsanto Chemical Company",
+      "repository_publisher": "Monsanto Chemical Company; digitized copy at Toxic Docs",
+      "publication_record_date": "1954; report signed 1955-03-15",
+      "locator": "Physical page 21 / printed 20; Board of Directors, Charles S. Cheston paragraph; MAR 000404 / LAM016463; embedded text and whole-page image inspected",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "chronicle-b405",
+      "stable_url": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19420723_section1.pdf",
+      "title": "Commercial and Financial Chronicle, July 23, 1942, volume 156, number 4092, section 1",
+      "repository_publisher": "William B. Dana Company; FRASER, Federal Reserve Bank of St. Louis",
+      "publication_record_date": "1942-07-23",
+      "locator": "Physical page 4 / printed 268; Personnel Items, In the Armed Forces; whole-page layout inspected, embedded raw-order text checked to resolve interleaved layout extraction",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "senate-b405",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1942-pt4/pdf/GPO-CRECB-1942-pt4-13.pdf",
+      "title": "Congressional Record: Senate, June 11, 1942",
+      "author_creator": "United States Senate",
+      "repository_publisher": "United States Government Printing Office; GovInfo",
+      "publication_record_date": "1942-06-11",
+      "locator": "Physical page 29 / printed 5144, right column CONFIRMATIONS, Appointments in the Army Specialist Corps; complete page image reviewed",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "frus-b405",
+      "stable_url": "https://history.state.gov/historicaldocuments/frus1945-50Intel/d217",
+      "title": "FRUS, 1945-1950, Emergence of the Intelligence Establishment, document 217",
+      "author_creator": "R. H. Hillenkoetter; editorial annotation by FRUS editors",
+      "repository_publisher": "U.S. Department of State, Office of the Historian",
+      "publication_record_date": "1947-06-03; source transcript 1952-09-11",
+      "locator": "Letter to Senator Gurney; editorial note 1 identifies Charles S. Cheston as OSS Assistant Director, 1943-45; CIA Historical Files HS/HC-805, Item 10",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "eo9078-b405",
+      "stable_url": "https://www.presidency.ucsb.edu/documents/executive-order-9078-establishing-the-army-specialist-corps",
+      "title": "Executive Order 9078: Establishing the Army Specialist Corps",
+      "author_creator": "Franklin D. Roosevelt",
+      "repository_publisher": "The White House; transcription at The American Presidency Project, University of California, Santa Barbara",
+      "publication_record_date": "1942-02-26",
+      "locator": "Paragraphs 1-3 and 5: uniformed civilian employees within the War Department; historical organization status, not proof of an individual appointment",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "digest-b405",
+      "stable_url": "https://fraser.stlouisfed.org/files/docs/publications/owi/infodigest_19420619.pdf",
+      "title": "Information Digest, June 19, 1942, number 490",
+      "author_creator": "Office of Government Reports",
+      "repository_publisher": "Office of Government Reports; FRASER, Federal Reserve Bank of St. Louis",
+      "publication_record_date": "1942-06-19",
+      "locator": "Physical/printed page 3, Army section; War Department announcement of relative ranks; complete page image inspected",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "kappa1935-b405",
+      "stable_url": "https://wiki.kkg.org/images/7/7b/THE_KEY_VOL_52_NO_2_APR_1935.pdf",
+      "title": "The Key of Kappa Kappa Gamma, volume 52, number 2",
+      "author_creator": "Kappa Kappa Gamma",
+      "repository_publisher": "Kappa Kappa Gamma",
+      "publication_record_date": "1935-04",
+      "locator": "Physical page 91 / printed 195, Gamma Xi, University of California, Los Angeles; whole-page image and embedded text; page 92 text corroborates chapter presidency",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "kappa1944-b405",
+      "stable_url": "https://wiki.kkg.org/images/3/3b/THE_KEY_VOL_61_NO_2_APR_1944.pdf",
+      "title": "The Key of Kappa Kappa Gamma, volume 61, number 2",
+      "author_creator": "Kappa Kappa Gamma",
+      "repository_publisher": "Kappa Kappa Gamma",
+      "publication_record_date": "1944-04",
+      "locator": "Physical page 82 / printed 110, Delta Province, Delta chapter, Indiana University; whole-page image and embedded text reviewed",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    },
+    {
+      "key": "harriet-b405",
+      "stable_url": "https://www.washingtonpost.com/archive/local/2009/12/21/obituaries/13418f36-11e0-4cf9-af5d-da4c77f322cc/",
+      "title": "Obituaries: Harriet Klosson",
+      "author_creator": "Adam Bernstein",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2009-12-21",
+      "locator": "Harriet Klosson item; short candidate assessment only; neighboring obituary not assigned",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation and short project-authored assessment only. No full source page, private identifier, portrait, personal contact details or downloaded source body retained in the dataset."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "smith-barney-b405",
+      "canonical_name": "Smith, Barney & Co.",
+      "historical_name": "Smith, Barney & Co.",
+      "aliases": [
+        "Smith Barney & Co."
+      ],
+      "organization_type": "Investment banking partnership",
+      "sector": "finance_and_banking",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Punctuation variants reconciled between the 1942 newspaper and 1954 corporate biography. The newspaper names a New York office, not Cheston's work location. No modern successor, subsidiary or Edward B. Smith & Co. record is merged."
+    },
+    {
+      "key": "army-specialist-corps-b405",
+      "canonical_name": "Army Specialist Corps",
+      "historical_name": "Army Specialist Corps",
+      "aliases": [
+        "Army Specialists Corps"
+      ],
+      "organization_type": "War Department corps of uniformed civilian employees",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "Established 1942-02-26; termination not adjudicated in this bundle",
+      "normalization_notes": "Executive Order 9078 establishes civilian status. Relative military-style rank in the Information Digest is not a regular Army commission. Keep separate from the U.S. Army, Army Specialized Training Program and later specialist ranks."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "bank-b405",
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "organization_key": "smith-barney-b405",
+      "organization_name_as_found": "Smith, Barney & Co.",
+      "role_title": "Investment banker; senior partnership described retrospectively",
+      "relationship_type": "employment",
+      "date_precision": "Firm connection documented 1942-07-23; exact start/end and dates of the retrospective senior-partner title unknown.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "A contemporary personnel notice names Cheston as of Smith, Barney & Co. while on war duty. The later company biography describes a former senior partnership, without assigning its exact dates. The dated firm connection predates the documented 1943-45 OSS assistant directorship. Neither the final civilian-employer sequence nor a direct firm-to-OSS transition is established. New York is the firm office, not a proven individual workplace. Earlier Edward B. Smith & Co. evidence remains separate and unadjudicated."
+    },
+    {
+      "key": "government-b405",
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "organization_key": "army-specialist-corps-b405",
+      "organization_name_as_found": "Army Specialist Corps",
+      "role_title": "Deputy Director, Commercial and Business (Personnel)",
+      "relationship_type": "government_assignment",
+      "date_precision": "Senate confirmation 1942-06-11; relative-rank announcement 1942-06-19; exact service start/end unknown.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Senate confirmed the named appointment on 1942-06-11; this is not an exact employment start date. Contemporary relative-rank language and the establishment order show a uniformed civilian organization. The corporate biography places this service before the OSS assistant directorship. No precise termination, immediate transfer, regular Army commission or later OSS personnel grade is inferred."
+    },
+    {
+      "key": "occupation-b405",
+      "person_id": "4511e9ad-538a-5352-9f17-0a4df04b2c5e",
+      "occupation": "Managers and officials, n. e. c.",
+      "relationship_type": "unknown",
+      "date_precision": "Occupation observed in the Army entry dated 1942-06-30; actual employment start/end and timing relative to OSS service unknown.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad managerial category names no business, industry, management level, workplace or self-employment. A namesake biography is not substituted for the exact-identifier Army observation. Historical card-layout and coding-manual limitations remain applicable."
+    }
+  ],
+  "claims": [
+    {
+      "key": "charles-identity-b405",
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles S Cheston is identified with high confidence as the documented OSS assistant director Charles S. Cheston.",
+      "evidence_paraphrase": "Independent contemporary government records and a corporate biography corroborate the uncommon name and the Army Specialist Corps to OSS career context.",
+      "identity_match_assessment": "The distinctive indexed Charles S Cheston corresponds to independently documented Charles S. Cheston, OSS assistant director in 1943-45. The Monsanto biography joins that OSS role with Smith Barney senior partnership and Army Specialist Corps service; contemporary Senate and War Department records corroborate the latter role and expand Steele. This is a high-confidence contextual identity, not an exact service-number or reviewed personnel-file match.",
+      "temporal_assessment": "FRUS identifies OSS assistant-director service in 1943-45; a 1942 appointment belongs to the earlier government role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No exact identifier or physical file reviewed. Retain indexed spelling and blank rank; documented Steele is a variant, not a source-row correction.",
+      "sources": [
+        {
+          "source_key": "index-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "monsanto-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "frus-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "senate-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "digest-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "bank-b405",
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "affiliation_key": "bank-b405",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Smith, Barney & Co. is a documented pre-OSS banking affiliation; a July 1942 notice associates Cheston with the firm while on war duty.",
+      "evidence_paraphrase": "The contemporary notice connects Cheston with the named firm; the later corporate biography describes him as a former senior partner.",
+      "identity_match_assessment": "The distinctive indexed Charles S Cheston corresponds to independently documented Charles S. Cheston, OSS assistant director in 1943-45. The Monsanto biography joins that OSS role with Smith Barney senior partnership and Army Specialist Corps service; contemporary Senate and War Department records corroborate the latter role and expand Steele. This is a high-confidence contextual identity, not an exact service-number or reviewed personnel-file match.",
+      "temporal_assessment": "The July 1942 firm connection precedes documented OSS assistant-director service in 1943-45. Actual partnership dates, last civilian employer and immediacy are not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A contemporary personnel notice names Cheston as of Smith, Barney & Co. while on war duty. The later company biography describes a former senior partnership, without assigning its exact dates. The dated firm connection predates the documented 1943-45 OSS assistant directorship. Neither the final civilian-employer sequence nor a direct firm-to-OSS transition is established. New York is the firm office, not a proven individual workplace. Earlier Edward B. Smith & Co. evidence remains separate and unadjudicated.",
+      "sources": [
+        {
+          "source_key": "chronicle-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "monsanto-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "frus-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "government-b405",
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "affiliation_key": "government-b405",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before his documented OSS assistant-director service, Cheston held an Army Specialist Corps government role; the Senate confirmed him as Deputy Director, Commercial and Business (Personnel).",
+      "evidence_paraphrase": "The Senate confirmation, War Department relative-rank announcement, establishment order and later biography corroborate a civilian government role before OSS.",
+      "identity_match_assessment": "The distinctive indexed Charles S Cheston corresponds to independently documented Charles S. Cheston, OSS assistant director in 1943-45. The Monsanto biography joins that OSS role with Smith Barney senior partnership and Army Specialist Corps service; contemporary Senate and War Department records corroborate the latter role and expand Steele. This is a high-confidence contextual identity, not an exact service-number or reviewed personnel-file match.",
+      "temporal_assessment": "Confirmation is dated 1942-06-11; exact duty dates and immediate transfer to OSS remain unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Senate confirmed the named appointment on 1942-06-11; this is not an exact employment start date. Contemporary relative-rank language and the establishment order show a uniformed civilian organization. The corporate biography places this service before the OSS assistant directorship. No precise termination, immediate transfer, regular Army commission or later OSS personnel grade is inferred.",
+      "sources": [
+        {
+          "source_key": "senate-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "digest-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "eo9078-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "monsanto-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "frus-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "john-identity-b405",
+      "person_id": "4511e9ad-538a-5352-9f17-0a4df04b2c5e",
+      "claim_type": "identity",
+      "claim_text": "The indexed John H Chevalier is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The official index and Army entry have matching names and an exact private identifier, compared without retaining the raw Army row.",
+      "identity_match_assessment": "Exact full-name and private-identifier match; common-name biographies and John R Chevalier are not substituted.",
+      "temporal_assessment": "Army observation 1942-06-30; no OSS entry date or rank held during OSS established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Earlier PVT grade does not determine the blank OSS index rank or commissioned classification.",
+      "sources": [
+        {
+          "source_key": "index-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "john-occupation-b405",
+      "person_id": "4511e9ad-538a-5352-9f17-0a4df04b2c5e",
+      "affiliation_key": "occupation-b405",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records Managers and officials, n. e. c.; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1942-06-30 entry records civilian-occupation value 098; reviewed Code No. 30 supplies the broad managerial category.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence for John H Chevalier.",
+      "temporal_assessment": "A dated occupation observation, not a proved employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad managerial category names no business, industry, management level, workplace or self-employment. A namesake biography is not substituted for the exact-identifier Army observation. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b405",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "candidate-78-42-b405",
+      "person_id": "e863af1b-ed3f-5470-b4e9-af1d996fe523",
+      "claim_type": "identity",
+      "claim_text": "An unlinked source-derived candidate remains in the research review system.",
+      "evidence_paraphrase": "The Key names Nancy Cherry among Indiana chapter initiates in 1944. No OSS bridge or paid job established.",
+      "identity_match_assessment": "Candidate context only; no independent index-to-biography or personnel-file bridge established.",
+      "temporal_assessment": "No pre-OSS employer or immediate affiliation is assigned to the index person.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "This candidate is withheld from public facts and default analytics.",
+      "sources": [
+        {
+          "source_key": "kappa1944-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "candidate-78-43-b405",
+      "person_id": "913f7b38-487e-5736-835e-fcd033d0d867",
+      "claim_type": "identity",
+      "claim_text": "An unlinked source-derived candidate remains in the research review system.",
+      "evidence_paraphrase": "The 1935 chapter publication identifies Geraldine Chesebro as Gamma Xi president. It does not establish an OSS connection or paid university employment.",
+      "identity_match_assessment": "Candidate context only; no independent index-to-biography or personnel-file bridge established.",
+      "temporal_assessment": "No pre-OSS employer or immediate affiliation is assigned to the index person.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "This candidate is withheld from public facts and default analytics.",
+      "sources": [
+        {
+          "source_key": "kappa1935-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "candidate-79-2-b405",
+      "person_id": "ab517139-dd52-5980-a3ea-42752d91446e",
+      "claim_type": "identity",
+      "claim_text": "An unlinked source-derived candidate remains in the research review system.",
+      "evidence_paraphrase": "The exact-name Army candidate is dated 1942-08-03, but its eight-digit identifier does not match the six-digit index number. It remains unassigned; neither its occupation nor an inferred commission is published.",
+      "identity_match_assessment": "Candidate context only; no independent index-to-biography or personnel-file bridge established.",
+      "temporal_assessment": "No pre-OSS employer or immediate affiliation is assigned to the index person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "This candidate is withheld from public facts and default analytics.",
+      "sources": [
+        {
+          "source_key": "army-b405",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "candidate-79-3-b405",
+      "person_id": "f8b5e43e-f62b-5e7d-bc9f-83ffa2f8f855",
+      "claim_type": "identity",
+      "claim_text": "An unlinked source-derived candidate remains in the research review system.",
+      "evidence_paraphrase": "The obituary identifies Harriet Frazier Cheston as a 1944 Vassar graduate, without an OSS bridge or named pre-OSS employer.",
+      "identity_match_assessment": "Candidate context only; no independent index-to-biography or personnel-file bridge established.",
+      "temporal_assessment": "No pre-OSS employer or immediate affiliation is assigned to the index person.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "This candidate is withheld from public facts and default analytics.",
+      "sources": [
+        {
+          "source_key": "harriet-b405",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e863af1b-ed3f-5470-b4e9-af1d996fe523",
+      "identity_status": "unresolved",
+      "identity_evidence": "An institutional student candidate has no independent link to this indexed person; no employment is accepted.",
+      "name_variants": [
+        "Nancy Cherry"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for identifying dates, residence, employment and recruitment history; compare the Indiana chapter candidate only after an independent identity bridge. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "913f7b38-487e-5736-835e-fcd033d0d867",
+      "identity_status": "unresolved",
+      "identity_evidence": "A UCLA chapter-presidency candidate remains unlinked; relatives, married-name leads and alumni status do not establish an employer.",
+      "name_variants": [
+        "Geraldine Chesebro"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for full identifiers, documented name changes and work dates before comparing UCLA chapter and later married-name records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86ceb140-46b8-5617-aafa-4230945c0576",
+      "identity_status": "unresolved",
+      "identity_evidence": "No externally sourced identity or employer is established. The seven-digit index number is not padded into an Army identifier.",
+      "name_variants": [
+        "Philip Chesley"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for branch, number format, full name and dates; obtain the employment history rather than selecting a modern or colonial namesake. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e7594a6-04a7-5c90-a7d1-883aa5560bd3",
+      "identity_status": "unresolved",
+      "identity_evidence": "No documented external identity or pre-OSS employer is established.",
+      "name_variants": [
+        "Teddy R Chester"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for the expanded first/middle names, nationality, dates and recruitment history; test Teddy/Ted/Theodore only as search leads, not corrections. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed Charles S Cheston corresponds to independently documented Charles S. Cheston, OSS assistant director in 1943-45. The Monsanto biography joins that OSS role with Smith Barney senior partnership and Army Specialist Corps service; contemporary Senate and War Department records corroborate the latter role and expand Steele. This is a high-confidence contextual identity, not an exact service-number or reviewed personnel-file match.",
+      "name_variants": [
+        "Charles S Cheston",
+        "Charles S. Cheston",
+        "Charles Steele Cheston"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 121 to verify full identifiers, actual banking and government-service dates, the last civilian employer and the precise OSS transition; inspect the relocated 1947 proxy statement and earlier Edward B. Smith records separately.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5c99045f-2bb9-504e-bd12-03e807e6dd5d",
+      "identity_status": "unresolved",
+      "identity_evidence": "No external identity or employer accepted; family associations are not principal identification evidence.",
+      "name_variants": [
+        "Eugenia M Cheston"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for full identifying information and pre-OSS employment; do not use a relative's occupation or assumed marital name as a substitute. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ab517139-dd52-5980-a3ea-42752d91446e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "An exact-name Army candidate has a different identifier; no linkage between its number and the index number was established.",
+      "name_variants": [
+        "George F Cheston"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for branch, number history and identifying dates; test whether a documented change of number connects the Army candidate. Do not drop or pad digits to force a match. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f8b5e43e-f62b-5e7d-bc9f-83ffa2f8f855",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A biographical candidate lacks an independent OSS or personnel-file bridge. Initials and family relationships do not distinguish plausible alternatives.",
+      "name_variants": [
+        "Harriet F Cheston"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for birth dates, full names and any documented name change before comparing the Vassar candidate; do not identify the person through spouse or relatives alone. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4511e9ad-538a-5352-9f17-0a4df04b2c5e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and private identifier match the 1942-06-30 Army entry. This does not identify a company or the date of OSS entry.",
+      "name_variants": [
+        "John H Chevalier"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 121 for the company behind the broad managerial category, actual work dates and any intervening military/government assignments; keep John R separate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "08b1acfc-0d3f-5815-a247-228a6d44eb25",
+      "identity_status": "unresolved",
+      "identity_evidence": "No independently corroborated external identity or employer is accepted for this common name.",
+      "name_variants": [
+        "John R Chevalier"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for at least two corroborating identifiers beyond the name before accepting any biography; establish separate employment and OSS-entry chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b405-person-78-42-review",
+      "person_id": "e863af1b-ed3f-5470-b4e9-af1d996fe523",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Nancy Cherry OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; LoC dated search and Kappa 1944/1946 discovery; original 1944 issue inspected",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Key names Nancy Cherry among Indiana chapter initiates in 1944. No OSS bridge or paid job established.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for identifying dates, residence, employment and recruitment history; compare the Indiana chapter candidate only after an independent identity bridge.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-78-43-review",
+      "person_id": "913f7b38-487e-5736-835e-fcd033d0d867",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Geraldine Chesebro OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; UCLA/Kappa 1935 issue inspected; obituary and married-name candidates; no relative employer assigned",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The 1935 chapter publication identifies Geraldine Chesebro as Gamma Xi president. It does not establish an OSS connection or paid university employment.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for full identifiers, documented name changes and work dates before comparing UCLA chapter and later married-name records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-78-44-review",
+      "person_id": "86ceb140-46b8-5617-aafa-4230945c0576",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Philip Chesley OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; dated 1942 query and LoC search; modern and colonial namesakes excluded",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Modern executive and colonial-era namesakes are not the indexed person; accessible OSS, CIA, occupation and LoC checks produced no usable bridge.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for branch, number format, full name and dates; obtain the employment history rather than selecting a modern or colonial namesake.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-78-45-review",
+      "person_id": "5e7594a6-04a7-5c90-a7d1-883aa5560bd3",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Teddy R Chester OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; Teddy Chester Strategic and LoC searches",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Later namesakes do not establish this indexed identity or pre-OSS work; no unrelated allegations or sensitive details retained.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for the expanded first/middle names, nationality, dates and recruitment history; test Teddy/Ted/Theodore only as search leads, not corrections.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-78-46-review",
+      "person_id": "ec8bf7e8-3975-57c4-b303-8fedc319fac3",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Charles S Cheston OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; Charles Steele Cheston; Smith Barney/Army queries; Monsanto report, Financial Chronicle, Senate confirmations, FRUS, Executive Order and Information Digest read; TCU collection/proxy/Cheston search and 1946 metadata read; Rand McNally earlier-firm lead retained separately",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "A contemporary personnel notice names Cheston as of Smith, Barney & Co. while on war duty. The later company biography describes a former senior partnership, without assigning its exact dates. The dated firm connection predates the documented 1943-45 OSS assistant directorship. Neither the final civilian-employer sequence nor a direct firm-to-OSS transition is established. New York is the firm office, not a proven individual workplace. Earlier Edward B. Smith & Co. evidence remains separate and unadjudicated.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. Additional Charles documents and failed/relocated sources are catalogued in the checkpoint.",
+      "next_action": "Review Box 121 to verify full identifiers, actual banking and government-service dates, the last civilian employer and the precise OSS transition; inspect the relocated 1947 proxy statement and earlier Edward B. Smith records separately.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-79-1-review",
+      "person_id": "5c99045f-2bb9-504e-bd12-03e807e6dd5d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Eugenia M Cheston OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; Eugenia Cheston Strategic and exact-name employment searches; institutional/family candidates not used as identity",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Family-history and relatives' career mentions do not prove the indexed person's work.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for full identifying information and pre-OSS employment; do not use a relative's occupation or assumed marital name as a substitute.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-79-2-review",
+      "person_id": "ab517139-dd52-5980-a3ea-42752d91446e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name George F Cheston OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; Navy-library and occupation/obituary search; second complete bulk pass assesses the different-number Army candidate",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The exact-name Army candidate is dated 1942-08-03, but its eight-digit identifier does not match the six-digit index number. It remains unassigned; neither its occupation nor an inferred commission is published.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for branch, number history and identifying dates; test whether a documented change of number connects the Army candidate. Do not drop or pad digits to force a match.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-79-3-review",
+      "person_id": "f8b5e43e-f62b-5e7d-bc9f-83ffa2f8f855",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name Harriet F Cheston OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; Harriet Frazier Cheston, Harriet Klosson and Vassar queries; Washington Post obituary read; no institution-as-employer inference",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The obituary identifies Harriet Frazier Cheston as a 1944 Vassar graduate, without an OSS bridge or named pre-OSS employer.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for birth dates, full names and any documented name change before comparing the Vassar candidate; do not identify the person through spouse or relatives alone.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-79-4-review",
+      "person_id": "4511e9ad-538a-5352-9f17-0a4df04b2c5e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name John H Chevalier OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; John Chevalier 1905 occupation searches; exact identifier compared; technical layout and occupation-code image checked",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The broad managerial category names no business, industry, management level, workplace or self-employment. A namesake biography is not substituted for the exact-identifier Army observation. Historical card-layout and coding-manual limitations remain applicable.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for the company behind the broad managerial category, actual work dates and any intervening military/government assignments; keep John R separate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    },
+    {
+      "key": "b405-person-79-5-review",
+      "person_id": "08b1acfc-0d3f-5815-a247-228a6d44eb25",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context; transient complete official Army bulk comparison; exact-name John R Chevalier OSS discovery with meaningful shortened and initial variants; CIA-domain name check; employment/occupation or obituary-focused search; LoC and common-name obituary/legal searches; John H match excluded",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T10:10:06+00:00",
+      "completed_at": "2026-09-04T10:35:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Common-name legal, obituary and family-history candidates lack a bridge; John H's Army match is not transferable.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. Start is the first durable checkpoint, not the first query. Source count covers substantive adjudicated documents, including index and bulk comparison; discovery snippets, failed opens and unadjudicated metadata are excluded. Rejection count enumerates inspected candidate documents declined for a public claim; uninspected search leads are not counted. No raw records, full numbers or authenticated API content retained. Original source pages rendered transiently without storing copyrighted page images. ",
+      "next_action": "Review Box 121 for at least two corroborating identifiers beyond the name before accepting any biography; establish separate employment and OSS-entry chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch405-v1"
+    }
+  ]
+}
