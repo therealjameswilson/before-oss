@@ -1,9 +1,13 @@
 # Batch 409 release verification
 
-2026-09-04 UTC. **Local release candidate; independent GitHub QA, merge, Pages
-deployment and pinned live verification remain pending.** The public release
-must not be described as Batch 409 until those gates complete. The currently
-verified public URL remains <https://therealjameswilson.github.io/before-oss/>.
+2026-09-04 UTC. **Released and pinned-live verified.** Batch 409 passed
+independent GitHub Test `33925229525` with all 1,731 cases passing in 23.2
+minutes, merged through PR 166 as
+`e29e79e6aa23e11f686935015acd9a82dfa1e56a`, and deployed through Pages
+`33927323898`. Pinned verification against source commit
+`082e63594a087c7d84ecd1310f303043dae4edf1` matched all 67 assets /
+83,758,733 bytes, seven core routes and all ten direct cohort profiles. The
+verified public URL is <https://therealjameswilson.github.io/before-oss/>.
 
 ## Research
 
@@ -112,7 +116,11 @@ unchanged affected scenarios then passed across all three viewports; the
 grep-selected rerun covered nine cases and all passed in 16.7 seconds. Failure
 artifacts from the first run were preserved outside the generated results
 folder. This is not represented as a clean first-run local pass. Independent
-GitHub QA remains the publication gate.
+GitHub Test `33925229525` then passed all 1,731 cases in 23.2 minutes. PR 166,
+Pages and pinned production verification succeeded as recorded at the top of
+this report. The redundant postmerge Test `33927323926` was still running at
+the time of this release record and is not substituted for the completed
+independent premerge result.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-nine-chissell-through-choha-pathways_batch-409_2026-09-04.json

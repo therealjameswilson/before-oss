@@ -9,8 +9,11 @@ inventoried, not all visited. Manifest: 67 assets / 83,758,733 bytes; SHA-256
 `7439600b57d4bdc5a6c74536edfa35f681ca6c62c09d2b1306dcca2f73a0c22a`.
 Identifier audit covers all 24,530 artifacts with zero unexpected boundary
 matches. Public and production trees reproduce byte-for-byte. Independent
-GitHub QA, merge, Pages deployment and pinned live verification remain pending;
-see `reports/release_batch_409.md`.
+GitHub Test `33925229525` passed all 1,731 cases; PR 166 merged and Pages
+`33927323898` succeeded. Pinned verification against
+`082e63594a087c7d84ecd1310f303043dae4edf1` matched all 67 assets /
+83,758,733 bytes, seven core routes and all ten cohort profiles. See
+`reports/release_batch_409.md`.
 
 ## Batch 408 local
 

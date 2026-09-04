@@ -2,17 +2,19 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
-Batch 409 is a tested local release candidate; independent GitHub QA, merge,
-Pages deployment and pinned live verification remain pending. It adds ten
-terminal individual outcomes: Martin B. Chittick's qualified documented-prewar
-professional affiliation with The Pure Oil Co.; DeForest D. Choha's
-identifier-backed aircraft-mechanics occupation group; two probable OSS
-Yugoslavia identity links; and six unresolved archival-review dispositions.
-Pure Oil is not labeled an employer, immediate affiliation, or last civilian
-employer, so verified-employer coverage correctly remains unchanged. The local
-1,731-case matrix produced 1,728 passes and three browser-session timeouts; all
-three unchanged affected scenarios then passed on all three viewports, 9/9.
-These figures are local, not a deployment claim. See
+Batch 409 is released and pinned-live verified. Independent GitHub Test
+`33925229525` passed all 1,731 browser/accessibility cases; PR 166 merged as
+`e29e79e6aa23e11f686935015acd9a82dfa1e56a`, Pages `33927323898` succeeded,
+and pinned verification matched all 67 assets, seven core routes and all ten
+direct cohort profiles. It adds ten terminal individual outcomes: Martin B.
+Chittick's qualified documented-prewar professional affiliation with The Pure
+Oil Co.; DeForest D. Choha's identifier-backed aircraft-mechanics occupation
+group; two probable OSS Yugoslavia identity links; and six unresolved
+archival-review dispositions. Pure Oil is not labeled an employer, immediate
+affiliation, or last civilian employer, so verified-employer coverage correctly
+remains unchanged. The local 1,731-case matrix produced 1,728 passes and three
+browser-session timeouts; all three unchanged affected scenarios then passed
+on all three viewports, 9/9. See
 `reports/release_batch_409.md` and
 `research/batch-409-discovery-checkpoint.md`.
 
