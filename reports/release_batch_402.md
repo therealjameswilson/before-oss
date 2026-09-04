@@ -41,8 +41,8 @@ Unit tests cover idempotence, stale/empty rejection, rollback and raw preservati
 The site now displays date-precision notes for immediate affiliations and last
 civilian employers as well as earlier roles. The legacy `documented_prewar`
 machine value remains unchanged; its badge says “documented pre-OSS” to avoid
-describing wartime work as prewar. Fifteen existing presentation assertions were
-updated to this label without changing their underlying historical fixtures.
+describing wartime work as prewar. Twenty-five existing presentation assertions
+were updated to this label without changing their underlying historical fixtures.
 
 ## Exact local coverage
 
@@ -129,7 +129,23 @@ Digests hash sorted relative paths, a NUL separator and each file's binary
 SHA-256. Manifest: 67 assets, 83,279,652 bytes, SHA-256
 `c39ee9da8603a61f92d234589c6b4f99935bb50c1a75efa689d858f0f3b27064`.
 Final identifier audit repeats zero unexpected matches with the same counts
-reported above. Full matrix and deployment results are not yet available.
+reported above. Deployment remains pending.
+
+### Full-matrix diagnosis and correction
+
+The first complete local matrix finished with **1,611 passes and 30 failures**
+in 56.1 minutes. Twenty-seven failures were nine historical scenarios across
+three viewports still expecting the old badge label in multiline assertions.
+Ten missed assertions were corrected, including a second assertion in one of
+those scenarios. Three unrelated local scenarios exceeded the test timeout;
+their application/data were unchanged. GitHub Test `33851390808` independently
+finished with 27 failures, all from the same old-label assertions.
+
+A targeted rerun covering all twelve affected scenarios in all three viewports
+passed **36/36 in 23.4 seconds**, including the three unchanged timeout cases.
+No historical assertion was removed and no timeout was increased. The full
+GitHub matrix is being rerun on the corrected test commit before merge. Static
+assets and their digests are unchanged by this test-only correction.
 
 ```sh
 python3 -m oss_research import-review-decisions research/entity_display_review_decisions_batch-402_2026-09-04.csv

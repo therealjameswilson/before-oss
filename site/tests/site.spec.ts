@@ -16002,7 +16002,7 @@ test("Batch 180 preserves Bell boundaries, four Army occupations, Davidson stude
     "Student; student assistant in history",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).not.toContainText(
     "Ovid Bell Press",
@@ -22790,7 +22790,7 @@ test("Batch 276 publishes Brickelmaier's Dartmouth student status without invent
     "student",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
@@ -22886,7 +22886,7 @@ test("Batch 278 publishes two occupation-only findings without inventing employe
     "Stockbroker",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
@@ -23043,7 +23043,7 @@ test("Batch 281 publishes three bounded occupations and Brix's documented newspa
     "Editor",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
@@ -24318,7 +24318,7 @@ test("Batch 302 preserves an identifier conflict and qualifies Almand's document
     "assistant manager",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
@@ -24826,7 +24826,7 @@ test("Batch 309 publishes qualified Brooks evidence without inventing an immedia
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("counsel");
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
     "No reviewed claim currently meets the publication threshold",
@@ -26382,7 +26382,7 @@ test("Batch 334 separates Buta, Butke, student, employer, and unresolved pathway
     "Instructor, Department of Languages",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
 
   await page.goto("./people/5b6b803f-63d3-537d-99b2-a2320111d927/");
@@ -26397,7 +26397,7 @@ test("Batch 334 separates Buta, Butke, student, employer, and unresolved pathway
     "Student, class-year code A44",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
 
   for (const [personId, name, maskedIdentifier] of [
@@ -27305,7 +27305,7 @@ test("Batch 344 separates occupation, student status, identity leads, and unreso
     "Missionary",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator("main")).toContainText("China-Burma-India");
   await expect(page.locator('main a[href*="/organizations/"]')).toHaveCount(0);
@@ -27553,7 +27553,7 @@ test("Batch 347 preserves official occupations, qualified chronology, and unreso
     "University of Rochester",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "documented prewar",
+    "documented pre-OSS",
   );
   await expect(page.locator("main")).toContainText("dated Wesleyan records");
 
